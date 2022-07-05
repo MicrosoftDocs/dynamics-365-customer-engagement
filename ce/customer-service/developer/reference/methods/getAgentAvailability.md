@@ -30,21 +30,34 @@ None
 
 | Name                     |   Type      |     Description            |
 |----                      |----         |----------------------------|
-|`queueId`                 | String      |  The target queue where the request will be routed​ based on routing rule configuration and input data (value of entity and context which are part of routing rule are provided).   |
-|`isWithinOperatingHours`  | Boolean     | Indicates whether the queue is within operating hours.  |
-|`availableNext`           | DateTime    | The time (UTC) when the queue will be available next if it is outside operating hours​.|
-|`availableUntil`          | DateTime    | The time (UTC) until when the queue will be available.  |
+|`queueId`                 | String      |  The target queue where the request will be routed​ based on routing rule configuration and input data (value of entity and context which are part of routing rule are provided). The method returns the default queue id if the routing rules aren't configured or queues based on configured rules can't be identified. |
+|`isQueueAvailable`  | Boolean     | Indicates whether the queue is within operating hours.  |
+|`nextTransitionTime`           | DateTime    | The time (UTC) when the queue will be available next if it is outside operating hours or the time (UTC) when the queue is available.|
 |`positionInQueue`         | Number      | The position in queue for a customer waiting behind other customers in the same queue​. |
-| `isAgentAvailable`       | Boolean     | Indicates whether agents in the queue are currently available to take requests based on configured routing and assignment rules for workstream​. |
+| `isAgentAvailable`       | Boolean     | Indicates whether agents in the queue are currently available to take requests based on configured routing and assignment rules for workstream. |
 | `averageWaitTime`        | Number      | Average wait time in minutes for customers in the target queue based on past 48-hour data.|
+
+
+### Set the context and register the event
+
+You must set the context and register the `getAgentAvailability` event in the lcw:ready event listener call,  `Microsoft.Omnichannel.LiveChatWidget.SDK.getAgentAvailability();`.  For more information, see: 
+
+- [setContextProvider](setcontextprovider.md)
+- [Send authentication token](send-auth-token-starting-chat.md)
 
 ## Example
 
 ```JavaScript
-window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvailabilityEvent(){
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+               // Sets the context and register event
                // Gets the agent availability
                Microsoft.Omnichannel.LiveChatWidget.SDK.getAgentAvailability();
 });
+window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvailabilityEvent()
+{
+         // handles the lcw:getAgentAvailability event response 
+        // add action which you want  to take on event lcw:getAgentAvailability response
+}); 
 ```
 
 ### See also
