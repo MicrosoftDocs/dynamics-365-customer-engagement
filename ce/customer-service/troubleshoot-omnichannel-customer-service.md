@@ -53,6 +53,18 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 3. Add the service principal back.
 
 
+### Issue
+
+ When provisioning Omnichannel for Customer Service, the following errors are displayed:
+
+-  **Unable to perform the requested operation due to lack of permissions**, if the user is logged in as a System Administrator on a child business unit instead of the root business unit.
+- **Request validation failed. Failed to execute action in CRM for selected environment**, if the user doesn't have read privileges for System roles.
+
+### Resolution
+
+- Check the permissions for the user and change the Business Unit of the System user to root business unit.
+- Ensure that the user has at least one security role, other than the System Administrator assigned. The user should preferably have the Omnichannel admin role assigned.
+
 #### Identify the services in Azure AD
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
