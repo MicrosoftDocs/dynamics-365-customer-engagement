@@ -17,7 +17,7 @@ search.audienceType:
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Preferred Agent Entity
 
-**Added by**: Unified Routing solution
+**Added by**: Dynamics 365 UR Core solution
 
 ## Messages
 
@@ -67,7 +67,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_recordIdType](#BKMK_msdyn_recordIdType)
 - [msdyn_recordtype](#BKMK_msdyn_recordtype)
 - [msdyn_systemuserid](#BKMK_msdyn_systemuserid)
-- [msdyn_temporarypreference](#BKMK_msdyn_temporarypreference)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -202,29 +201,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Targets|systemuser|
 |Type|Lookup|
-
-
-### <a name="BKMK_msdyn_temporarypreference"></a> msdyn_temporarypreference
-
-|Property|Value|
-|--------|-----|
-|Description|Used for assigning last agent as preferred agent|
-|DisplayName|Temporary Preference|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_temporarypreference|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_temporarypreference Choices/Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
