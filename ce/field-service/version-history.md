@@ -48,7 +48,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 - Field Service (D365) Mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
 - Field Service (D365) Mobile Bug Fix: Inspections File Picker will open correctly on the Windows application. 
-- Field Service (D365) Mobile: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product which does not have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](create-product-or-service#configuration-considerations) setting.
+- Field Service (D365) Mobile: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product which does not have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
 - Add a condition to workflow (GenerateGeofenceWhenBookingIsCreated) to check that the Booking has a Work Order to avoid making unnecessary plugin calls.
 
 
