@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Web API Helper code: CrmHttpResponseException class
 
-Use the `CrmHttpResponseException` class to represent [HTTP status errors](https://msdn.microsoft.com/library/gg334391.aspx) generated during [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API calls.  This class is derived from the standard .NET System.[Exception](https://msdn.microsoft.com/library/system.exception.aspx) class to easily integrate with your existing exception-handling mechanisms. For more general information, see [Handling and Throwing Exceptions](https://docs.microsoft.com/dotnet/standard/exceptions/index).  
+Use the `CrmHttpResponseException` class to represent [HTTP status errors](/power-apps/developer/data-platform/webapi/compose-http-requests-handle-errors) generated during [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API calls.  This class is derived from the standard .NET System.[Exception](https://msdn.microsoft.com/library/system.exception.aspx) class to easily integrate with your existing exception-handling mechanisms. For more general information, see [Handling and Throwing Exceptions](/dotnet/standard/exceptions/index).  
 
  The `CrmHttpResponseException` class is located in the file Exceptions.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/).  It is used extensively in the other helper library classes and C# Web API samples. For more information, see [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
 
@@ -28,12 +28,15 @@ Use the `CrmHttpResponseException` class to represent [HTTP status errors](https
 
 ## Class members  
 
- The following table shows the public members of the `CrmHttpResponseException` class.  
+ The following list shows the public members of the `CrmHttpResponseException` class.  
 
+- ![Dynamics 365 Customer Engagement Web API Helper Library&#45;CrmHttpResponseException Class Diagram](../media/web-api-helper-library-crm-exception-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-CrmHttpResponseException Class Diagram") | **CrmHttpResponseException  class**
 
-|                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Dynamics 365 Customer Engagement Web API Helper Library&#45;CrmHttpResponseException Class Diagram](../media/web-api-helper-library-crm-exception-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-CrmHttpResponseException Class Diagram") | **CrmHttpResponseException  class**<br /><br /> *Properties:*<br /><br /> `StackTrace` – the string representation of the immediate frames on the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server’s call stack when the exception was thrown, if available.<br /><br /> *Methods*:<br /><br /> The constructors initialize an instance of this class, and require a [HttpContent](https://msdn.microsoft.com/library/hh193687\(v=vs.110\).aspx) parameter and an optional inner exception parameter.<br /><br /> `ExtractMessageFromContent` – this static method extracts the error message from the specified HTTP content parameter. |
+  - *Properties:* `StackTrace` – the string representation of the immediate frames on the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server’s call stack when the exception was thrown, if available.
+
+  - *Methods*: The constructors initialize an instance of this class, and require a [HttpContent](https://msdn.microsoft.com/library/hh193687\(v=vs.110\).aspx) parameter and an optional inner exception parameter.
+
+  - `ExtractMessageFromContent` – this static method extracts the error message from the specified HTTP content parameter.
 
 ## Usage  
 

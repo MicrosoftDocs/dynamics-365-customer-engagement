@@ -23819,6 +23819,11 @@
       "source_path": "ce/customer-service/configure-azure-bot-best-practices.md",
       "redirect_url": "/dynamics365/customer-service/configure-bot-best-practices",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/create-manage-assignment-rules-lead-routing.md",
+      "redirect_url": "create-manage-assignment-rules",
+      "redirect_document_id": "false"
     }
   ]
 }

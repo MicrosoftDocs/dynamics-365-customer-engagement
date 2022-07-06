@@ -68,9 +68,8 @@ You can create business rules and recommendations to apply form logic without wr
 6. Set the scope, according to the following:  
 
 
-   |                                               |                            |
-   |-----------------------------------------------|----------------------------|
    |        **If you select this item...**         | **The scope is set to...** |
+   |-----------------------------------------------|----------------------------|
    |                  **Entity**                   |    All forms and server    |
    |                 **All Forms**                 |         All forms          |
    | Specific form (**Account** form, for example) |       Just that form       |

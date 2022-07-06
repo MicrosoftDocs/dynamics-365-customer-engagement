@@ -1,7 +1,7 @@
 ---
 title: "Preview: Personalize journey variations using multiple journey branches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create more personalized journey variations using multiple journey branches in real-time journeys in Dynamics 365 Marketing."
-ms.date: 06/30/2022
+ms.date: 07/01/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -59,6 +59,9 @@ Journey branches let you create personalized journeys for customers, engaging th
 **Example:** Create personalized follow-up actions after different links have been clicked in a Giving Day Campaign email.
 
 1. When there are multiple links defined in an email, the journey will automatically prompt you to create branches based on the interactions with the email.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create branches based on interactions screenshot.](media/real-time-marketing-multiple-branches-interactions.png "Create branches based on interactions screenshot")
 
 1. You can then select the different links defined in the email as branching options.
 
