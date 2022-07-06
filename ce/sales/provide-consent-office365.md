@@ -21,7 +21,7 @@ Previously, the consent for these capabilities were provided from **Microsoft 36
 
 Before you provide the consent, review the following information:
 
-- The consent provided in the old form for relationship analytics is valid until September 2022 and the consent for who knows whom is valid until July 31, 2022. After that, you'll need to provide consent as described in this article. After the consent is provided, Dynamics 365 Sales will need time to recalculate the who knows whom suggestions. So, we recommend that you provide the consent as soon as possible to ensure a smooth transition.  
+- The consent provided in the old form for relationship analytics is valid until September 2022 and the consent for who knows whom is valid until July 30, 2022. After that, you'll need to provide consent as described in this article. After the consent is provided, Dynamics 365 Sales will need time to recalculate the who knows whom suggestions. So, we recommend that you provide the consent as soon as possible to ensure a smooth transition.  
 
 - The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
