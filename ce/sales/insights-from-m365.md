@@ -16,10 +16,9 @@ If Microsoft 365 admins wish to add a new security group to their currently exis
 
 If Microsoft 365 users choose to opt out, their data will not be accessible to any Dynamics 365 applications. 
 
-The following is an incomplete list of Dynamics 365 applications using this data and is subject to change in the future. 
-
 When disabling these insights, it can take up to 24 hours for the data to be removed from all apps and up to 30 days for backed-up data to be removed from Microsoft 365 storage accounts. 
 
+The following sections include an incomplete list of Dynamics 365 applications using this data and are subject to change in the future.
  
 ## Insights for users 
 
