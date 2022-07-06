@@ -12,7 +12,7 @@ manager: shujoshi
 
 In Dynamics 365 Customer Service, you can configure emails to be routed as work items and added to queues for agents to work on them.
 
-When an email comes from a customer, you can use one of the following methods to address the mail:
+When an email comes from a customer, you can use one of the following methods to address the email:
 
 - **Route email as a case**: Perform the following settings to route email as a case:
 
