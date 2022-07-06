@@ -2,6 +2,7 @@
 title: Supplemental Terms for Microsoft Dynamics 365 Voice and SMS Features Provided by ACS and Third-Party Providers
 author: ReneeW-CPub
 robots: noindex,nofollow
+ms.author: renwe
 ---
 
 # Supplemental Terms for Microsoft Dynamics 365 Voice and SMS Features Provided by<br>ACS and Third-Party Providers
