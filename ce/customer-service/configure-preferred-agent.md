@@ -1,6 +1,6 @@
 ---
 title: "Configure routing to preferred agents | MicrosoftDocs"
-description: "Know how you can configure the settings to route work items to preferred agents in Customer Service."
+description: "Configure settings to route work items to preferred agents in Customer Service."
 ms.date: 07/05/2022
 ms.topic: article
 author: neeranelli
