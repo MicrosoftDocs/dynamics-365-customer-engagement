@@ -19,67 +19,75 @@ manager: shujoshi
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-To provide personalized services to your customers and enable context-aware conversations, you can configure the option to route work items from a specific contact to preferred agents or relationship managers.
+For a more personalized experience, Dynamics 365 Customer Service gives you the option to route work items from a specific contact to the customer's preferred agents or relationship managers.
 
-You can configure preferred agents in Customer Service admin center only. If a contact isn't configured, the preferred agent settings won't be applicable for the contact.
+Configure contacts and their preferred agents in the Customer Service admin center. If a contact isn't configured, you can't assign a preferred agent to the contact.
 
 To find the preferred agent for an incoming work item, the contact should be identified. For more information, see the **Channel-specific support for identifying a contact record** section.
 
 In the preview release, you can map agents to contacts only.
 
-## Configure settings to route to preferred agent
+## Configure preferred agent for contacts
 
-For preferred agents to work optimally, you must ensure that the configured agent is also a part of the queues to which the work item will be routed.
+Make sure that the agent you intend to assign to a contact is a member of the queue to which a work item will be routed.
 
-1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Preferred agent routing (preview)** on the page that appears.
+1. In the Customer Service admin center site map, select **Routing**.
 
-1. Turn on the **Enable preferred agent routing** toggle.
+1. On the page that appears, next to **Preferred agent routing (preview)**, select **Manage**.
 
-1. Select one of the following additional settings to determine the action when preferred agent is unavailable:
+1. Turn on **Enable preferred agent routing**.
+
+1. Select who should get the work item if preferred agent is unavailable:
 
    - **Next best agent based on assignment logic**: The work item will be routed based on the assignment rules. We recommend that you use this option for live chat conversations and voice channel calls.
 
-   - **No one. Let the work remain unassigned in the queue**: The work item will remain in the queue till an agent picks it or it's manually assigned to another agent. We recommend that you use this option for asynchronous channel conversations.
+   - **No one. Let the work remain unassigned in the queue**: The work item will remain in the queue until an agent picks it up or it's manually assigned to another agent. We recommend that you use this option for asynchronous channel conversations.
 
-1. To select the contact and agents, in the **Preferred agents matrix** area, select **Add a contact**. The **Add contact and preferred agent** flyout window appears.
+1. Select contacts and their preferred agents in the **Preferred agents matrix** area by doing the following steps:
 
-1. In **Contact full name**, type the contact name, and select the required value from the dropdown list.
+1. Select **Add a contact** to add a contact.
 
-1. Select **Add user** to map agents to the contact.  The agents configured as bookable resources and with the agent role persona only will be displayed in the list of users.
+1. In **Contact full name**, enter a contact name, and select a value from the dropdown list.
 
-   You can map up to three agents to one contact as preferred agents. The order of agents reflects the preference order in which the agents'll be assigned the work items if one or more agents aren't available.
+1. Select **Add user** to map agents to the contact.
+
+   Only agents who are configured as bookable resources and assigned the agent role persona are displayed in the list of users.
+
+   You can map up to three preferred agents to a contact. The order in which you map the agents is the order in which they'll receive a work item if an agent earlier in the list isn't available.
 
 1. Save and close.
 
-  :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Summary screenshot of contacts and their preferred agents mapping.":::
+  :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
 
-The routing diagnostics if enabled will display information on the preferred agent routing under **Agent assignment trace** of the diagnostics page of the work item. The **Assignment criteria** section displays information whether the setting is enabled. The **Assignment trace** section displays the reason information.
+### Routing diagnostics and preferred agent settings
+
+If you've turned on routing diagnostics, a work item's diagnostics page includes information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is turned on. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
 
 ## Update contacts and preferred agents
 
-In **Preferred agents matrix**, use the edit and remove options to modify the contacts and the associated agents.
+In **Preferred agents matrix**, use the edit and remove options to modify contacts and their preferred agents.
 
-For a contact, you can add or remove agents but at least one agent will remain mapped at any point in time.
+For each contact, you can map up to three agents and remove any two. At least one agent remains mapped to a contact.
 
-### Channel-specific support for identifying a contact record
+### Identify contacts in supported channels
 
-The following table contains information on how the customer record is retrieved in the supported channels. The configurations mentioned in the table must be in place for preferred agent routing.
+For the supported channels, use the information mentioned in the following table to identify customers as contacts.
 
 |Channel|Customer record|
 |-------|---------------|
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
-|**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: Authenticated users are automatically identified as contacts. For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**. More information: [Identify customers automatically](record-identification-rule.md)</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: Social profile. More information: [Support for social profiles](card-support-in-channels.md#support-for-social-profiles) </li></ul> |
+|**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profile](card-support-in-channels.md#support-for-social-profiles). </li></ul> |
 
 ### Roles and permissions for preferred agent routing
 
-To configure preferred agent routing, the following roles are required for the administrator.
+You must have one of the following roles to configure preferred agent routing.
 
-**For Customer Service**: CSR Manager
-**For Omnichannel for Customer Service**: Omnichannel administrator
+- **For Customer Service**: CSR Manager
+- **For Omnichannel for Customer Service**: Omnichannel administrator
 
-The user with the assigned role should be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1)
+You must be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1)
 
-For an administrator with custom roles, the user must also have access to the following entities:
+If you have a custom role, you must also have access to the following entities:
 
 - [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md)
 - [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md)
@@ -88,4 +96,3 @@ For an administrator with custom roles, the user must also have access to the fo
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  
-[Diagnostics for unified routing](unified-routing-diagnostics.md)  
