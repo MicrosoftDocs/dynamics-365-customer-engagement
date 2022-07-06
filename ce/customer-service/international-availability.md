@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 04/25/2022
+ms.date: 06/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 > [!Note]
 >
-> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, Sweden, and Singapore.
+> In the Europe and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Norway, Sweden, and Singapore.
 
 ### April 2022 update
 
@@ -37,7 +37,7 @@ Omnichannel for Customer Service April 2022 update is available in the following
 | Asia Pacific                              |   April 09, 2022   |
 | Australia                                 |   April 09, 2022   |
 | Canada                                    |   April 02, 2022   |
-| Europe                                    |    April 16, 2022 |
+| Europe                                    |    April 16, 2022  |
 | France                                    |   April 02, 2022   |
 | Germany                                   |   April 02, 2022   |
 | India                                     |   April 02, 2022   |
@@ -47,7 +47,7 @@ Omnichannel for Customer Service April 2022 update is available in the following
 | Switzerland                               |   April 02, 2022   |
 | United Arab Emirates (UAE)                |   April 09, 2022   |
 | United Kingdom                            |   April 09, 2022   |
-|||
+
 
 ### October 2021 update
 
@@ -90,7 +90,7 @@ The product user interface (UI) is available in the following languages.
 | Danish                  | Korean            | Turkish             |
 | Dutch                   | Latvian           | Ukrainian           |
 | English                 | Lithuanian        | Vietnamese          |
-| Estonian                |Malay (Malaysia)   |                     |
+| Estonian                | Malay (Malaysia)  |                     |
 | Finnish                 | Norwegian         |                     |
 | French                  | Polish            |                     |
 | Galician                | Portuguese        |                     |

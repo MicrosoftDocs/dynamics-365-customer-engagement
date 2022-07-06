@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 01/28/2022
+ms.date: 06/20/2022
 ms.reviewer: krbjoran
 ms.topic: article
 applies_to:
@@ -25,19 +25,28 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 |              | Region | Current version | Next version |  Scheduled date
 | ----------   | :---   | :---   |  :---   | :---   | 
-|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | TBD | 06/17/2022
-|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | TBD | 06/24/2022
-|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> |[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | TBD | 07/01/2022
-| | USG</i> |[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | TBD | 06/24/2022
-|<strong>Station 4</strong> |<i>Europe</i> | [8.8.66.27](/dynamics365/field-service/version-history#8859226627) | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | 06/17/2022
-|<strong>Station 5</strong> |  <i>North America</i>|[8.8.66.27](/dynamics365/field-service/version-history#8859226627) | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | 06/24/2022
-|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.66.27](/dynamics365/field-service/version-history#8859226627) | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | 06/24/2022
-| | <i>Dedicated Scale Groups</i> |   [8.8.65.10](/dynamics365/field-service/version-history#8859226510) | [8.8.66.27](/dynamics365/field-service/version-history#8859226627)  | 06/17/2022
-
+|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | TBD | 07/01/2022
+|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.68.25](/dynamics365/field-service/version-history#8859226825) | TBD | 07/08/2022
+|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/01/2022
+| | USG</i> |[8.8.68.25](/dynamics365/field-service/version-history#8859226825) | TBD | 07/08/2022
+|<strong>Station 4</strong> |<i>Europe</i> | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/08/2022
+|<strong>Station 5</strong> |  <i>North America</i>|[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/15/2022
+|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/15/2022
+| | <i>Dedicated Scale Groups</i> |   [8.8.66.27](/dynamics365/field-service/version-history#8859226627) | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | 07/01/2022
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.68.25
+
+(Includes Universal Resource Scheduling version [3.12.79.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127916)).
+
+- Field Service (D365) Mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
+- Field Service (D365) Mobile Bug Fix: Inspections File Picker will open correctly on the Windows application. 
+- Field Service (D365) Mobile: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product which does not have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](https://docs.microsoft.com/en-us/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
+- Add a condition to workflow (GenerateGeofenceWhenBookingIsCreated) to check that the Booking has a Work Order to avoid making unnecessary plugin calls.
+
 
 ## 8.8.67.16
 

@@ -22,7 +22,6 @@ search.app:
   - D365CE
   - D365PS
   - D365FS
-ms.technology: common-scheduler
 searchScope: 
   - Customer Service
   - Field Service

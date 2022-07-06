@@ -1,19 +1,21 @@
 ---
 title: "Know conversation starters through talking points"
 description: "Use talking points to automatically identify conversation starters of your customers before you interact with them."
-ms.date: 10/31/2018
+ms.date: 07/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-ms.custom: 
-topic-status: Drafting
 ---
 # Know conversation starters for your customers  
+
+> [!IMPORTANT]
+> Talking points will be deprecated from August 2022. For more information about its impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated).  
 
 Use talking points to automatically identify conversation starters of your customers before you interact with them.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

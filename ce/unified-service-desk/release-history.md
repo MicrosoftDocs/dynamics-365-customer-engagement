@@ -1,7 +1,7 @@
 ---
 title: "Release history (Unified Service Desk)| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 06/21/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -18,11 +18,7 @@ ms.custom:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-
-
 # Release history for Unified Service Desk
-
-
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
@@ -30,9 +26,13 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_2"></a>
 
-## Release history for Unified Service Desk 4.2, June 2021
+## Release history for Unified Service Desk 4.2.0.39, June 2022
 
-The list provides an overview of documentation updates made in Unified Service Desk version 4.2.
+This release includes an upgrade to the XRM tooling connector package to version 9.1.0.110, CefSharp crash fixes, and other security fixes. There are no content-specific changes in this release.
+
+## Release history for Unified Service Desk 4.2.0.29, June 2021
+
+The list provides an overview of documentation updates made in this release of Unified Service Desk.
 
 
 | Topic | Updates |
@@ -46,9 +46,7 @@ The list provides an overview of documentation updates made in Unified Service D
 
 ::: moniker-end
 
-
 ::: moniker range="dynamics-usd-4.1"
-
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
@@ -63,7 +61,7 @@ This release supports the Dynamics 365 model-driven apps deployed in Switzerland
 
 ## Release history for Unified Service Desk 4.1.1.1429, November 2020
 
-The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1429
+The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1429.
 
 > [!NOTE]
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1429, instead of upgrading to version 4.1.1.1429.
@@ -264,12 +262,6 @@ Content for earlier version of Unified Service Desk continues to be available on
 [What's new for Developers](what-s-new-in-unified-service-desk.md)
 
 ::: moniker-end
-
-
-<!--| Version 3.3, April 2018    | [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] update |
-| Version 3.2, February 2018 | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
-| Version 3.1, November 2017 | [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] update |
-| Version 3.0, August 2017   | [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update | -->
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -202,7 +202,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
     - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app for eigible users.](media/deploy-app-auto-1.png)
+      > ![Automatically deply the app for eligible users.](media/deploy-app-auto-1.png)
 
    
    - **Option 3**: Push the app to certain users, select those users in the list, and then select **Add App to Outlook**.

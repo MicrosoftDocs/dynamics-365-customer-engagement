@@ -1,7 +1,7 @@
 ---
 title: "Get real-time call data through Teams calls in Dynamics 365 Sales"
 description: "Get real-time analysis of call data through Teams calls in Dynamics 365 Sales."
-ms.date: 12/06/2021
+ms.date: 06/14/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -27,7 +27,7 @@ Conversation intelligence with Teams calls gets you real-time analysis of call d
 
 ## View real-time analysis of call data
   
-Before you start a call, choose the language of the call on the dialer. Currently, English (US) and English (UK) are supported.
+Before you start a call, choose the language of the call on the dialer. 
 
 When a call is connected, the **Record and analyze** option appears. Turn on this option to get real-time analysis of the call.
 
