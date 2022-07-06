@@ -1,7 +1,7 @@
 ---
 title: "Customize live chat widgets using data tags | MicrosoftDocs"
 description: "Learn to customize chat widgets by using data tags in the chat widget script in the Customer Service admin center or Omnichannel admin center app."
-ms.date: 06/17/2022
+ms.date: 07/07/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -24,6 +24,8 @@ You can customize live chat widgets by using data tags in the widget script. You
 |`data-suggested-action-layout`| Use this data tag to display the suggested actions vertically. By default, the suggested actions are displayed horizontally. To display the suggested actions vertically, set the value of this data tag as `stacked`. | Add this tag to the widget script as shown in the following example.<br /><br /> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-suggested-action-layout="stacked"></script>`|
 |`data-enable-lcw-autofill`| Use this data tag to enable the chat widget to autofill the browser window in embedded mode. | Add this tag to the widget script as shown in the following example. <br /><br />`<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-enable-lcw-autofill="true"></script>`|
 |`data-custom-close-button-text`| Use this data tag to customize the close button of the chat widget. The input is a text string that'll appear in place of the default ‘X’ close button. | Add this tag to the widget script as shown in the following example. <br /><br />`<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-custom-close-button-text="End Chat"></script>`|
+|`data-enable-sso-magic-code` |   "true" = when a sign in card is presented to the user, and after they sign in, they will be presented a code to enter back into the chat to verify who they are. Note: this is default behavior. This is like a multifactor authentication. To prevent phishing attacks
+"false" = when a sign in card is presented to the user, after they sign in, the magic code is automatically sent through the client silently. Note: This is still preventing the phishing attacks, it is just a better user experience. |  Add this tag to the widget script as shown in the following example. |
 ||||
 
 ### See also
