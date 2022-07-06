@@ -318,7 +318,7 @@ When running the schedule assistant on the requirement, presuming availability, 
 
 ### Pool availability affects member availability and vice versa
 
-Being part of a pool can severely limit a resource's ability to be scheduled. Resources cannot be expected to operate as part of a pool and independently at the same time. If a pool resource itself is booked to capacity for a given time slot, pool members will not show as available for that time slot and vice versa. If all pool members are booked for a given time slot, the pool will not show as available for that time slot. Conversely, if different members of the pool have availbility at different times then the pool will show as available throughout.
+Being part of a pool can severely limit a resource's ability to be scheduled. Resources cannot be expected to operate as part of a pool and independently at the same time. If a pool resource itself is booked to capacity for a given time slot, pool members will not show as available for that time slot and vice versa. If all pool members are booked for a given time slot, the pool will not show as available for that time slot. Conversely, if different members of the pool have availability at different times, then the pool will show as available throughout.
 
 #### Example 1: Pool resource only
 
