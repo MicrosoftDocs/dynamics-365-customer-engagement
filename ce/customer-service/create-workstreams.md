@@ -15,7 +15,7 @@ ms.custom: intro-internal
 
 ## Overview
 
-A workstream is a container to enrich, route, and assign work items. The workstream is associated with a channel, such as live chat, voice, or case.
+A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
@@ -33,8 +33,6 @@ The workstream can be one of the following types.
 ## Create a workstream
 
 You can create workstreams for unified routing in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
-
-**To create the workstream**
 
 1. Go to one of the apps, and perform the following steps.
 
