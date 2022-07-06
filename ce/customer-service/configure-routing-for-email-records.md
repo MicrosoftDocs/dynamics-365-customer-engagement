@@ -22,9 +22,9 @@ When an email comes from a customer, you can use one of the following methods to
 
 - **Route email as a record**: Configure the following settings to route the email as a record:
 
-  1. **Configure a dedicated mailbox and share the mail ID with customers**: Customers can write to the configured mail ID and the mails are converted to cases and routed to the queue that's associated with the mailbox. More information: [Create a forward mailbox](../customerengagement/on-premises/admin/create-forward-mailboxes-edit-mailboxes.md?view=op-9-1)
+  1. **Configure a dedicated mailbox and share the mail ID with customers**: Customers can write to the configured mail ID and the mails are converted to cases and routed to the queue that's associated with the mailbox. More information: [Create a forward mailbox](../customerengagement/on-premises/admin/create-forward-mailboxes-edit-mailboxes.md?view=op-9-1&preserve-view=true)
   
-  1. **Configure server-side sync**: Set up server-side sync to create the email record and queue item when customer sends mail. More information: [Server-side sync](../customerengagement/on-premises/admin/server-side-synchronization.md?view=op-9-1)
+  1. **Configure server-side sync**: Set up server-side sync to create the email record and queue item when customer sends mail. More information: [Server-side sync](../customerengagement/on-premises/admin/server-side-synchronization.md?view=op-9-1&preserve-view=true)
   
   1. **Configure Power Automate flow**: Configure the flow in Power Automate to automatically route the work items to agents. The routed records will appear on the agent dashboard as work items. More information: [Route records automatically](routing-trigger-automatic.md)
 
