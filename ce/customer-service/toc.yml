@@ -274,6 +274,8 @@
           href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
+        - name: Configure routing for email records
+          href: configure-routing-for-email-records.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
