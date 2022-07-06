@@ -15,7 +15,7 @@ applies_to:
 
 ## Where is the data stored for Dynamics 365 Sales?    
 
-Dynamics 365 Sales data is stored in Dataverse and Azure resources (for certain features), and Azure resources are co-located with the respective Power Platform environment locations. For more information about Power Platform environment locations, see [Data Location](/power-platform/admin/wp-compliance-data-privacy#data-location). 
+Dynamics 365 Sales data is stored in Dataverse and Azure resources (for certain features). The Azure resources are co-located with the respective Power Platform environment locations. For more information about Power Platform environment locations, see [Data Location](/power-platform/admin/wp-compliance-data-privacy#data-location). 
 
 ## Is the data stored for Dynamics 365 Sales protected with Customer Lockbox?
 
