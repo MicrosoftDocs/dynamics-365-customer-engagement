@@ -1,6 +1,6 @@
 ---
 title: Create and manage queues for unified routing | MicrosoftDocs
-description: "This topic provides information and steps to help you learn to create and manage queues in Omnichannel for Customer Service."
+description: "Use this article to understand how to create and manage queues in Customer Service and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -16,11 +16,9 @@ searchScope:
 - Customer Service
 ---
 
-# Manage queues for unified routing
+# Create and manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 In Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
 
@@ -55,11 +53,11 @@ Assign a group number that helps you organize your queues in the list view. The 
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    - In the site map, select **Queues** in **General settings**.
+    In the site map, select **Queues** in **General settings**.
     
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
+    Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
 2. On the **Queues** page, do the following:
 
@@ -112,7 +110,7 @@ Work is routed to these queues that act as a safety net in the following scenari
 
 ### See also
 
-[Create workstreams for unified routing](create-workstreams.md)  
+[Create and manage workstreams](create-workstreams.md)  
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](voice-channel-route-queues.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Use this article to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
+title: "Create and manage workstreams | MicrosoftDocs"
+description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
 ms.date: 07/07/2022
 author: neeranelli
 ms.author: nenellim
@@ -9,11 +9,9 @@ ms.topic: article
 ms.custom: intro-internal
 ---
 
-# Create workstreams for unified routing
+# Create and manage workstreams
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-## Overview
 
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
 
@@ -23,7 +21,7 @@ The workstream can be one of the following types.
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Microsoft Teams channels.
 - **Record**: To route records, such as case, email, and activity.
-- **Voice**: To route calls made to support numbers listed on the customer portal. More information: [Overview of voice channel](voice-channel.md)
+- **Voice**: To route calls made to support numbers listed on the customer portal. More information: [Introduction to the voice channel](voice-channel.md)
 
 > [!IMPORTANT]
 >
@@ -181,6 +179,7 @@ You can keep the default templates for sessions and notifications or update to u
 
 [Configure persistent chat](persistent-chat.md)  
 [Set up record routing](set-up-record-routing.md)  
+[Configure routing for email records](configure-routing-for-email-records.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Create workstream for entity record routing in Omnichannel Administration](set-up-entity-workstream.md)  
 [Work with queues](queues-omnichannel.md)  

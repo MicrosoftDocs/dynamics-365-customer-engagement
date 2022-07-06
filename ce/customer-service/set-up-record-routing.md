@@ -1,6 +1,6 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
-description: "Learn how to set up record routing in Customer Service."
+description: "Use this article to understand how to set up unified routing for records in Customer Service."
 ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
@@ -12,31 +12,25 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 You can configure routing for records in Customer Service admin center, Customer Service Hub, or Omnichannel admin center. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
-If you have only Dynamics 365 Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
+If you only have Dynamics 365 Customer Service, then the options to configure unified routing will be available only after you enable unified routing in the service configuration settings.
 
 > [!IMPORTANT]
 > 
 > - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
 > - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
-> - If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in Omnichannel admin center.
-> - If you are an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
+> - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
+> - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 
 ## Prerequisites
 
-The following prerequisites are applicable:
-
-- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md).
-- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md).
+- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
+- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
 - You must have the System Administrator role to configure record routing.
 - You must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)
 
 ## Configure unified routing for records
-
-**To configure record routing**
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
@@ -48,23 +42,22 @@ The following prerequisites are applicable:
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    - In the site map, select **Record routing** in **General settings**.
+    In the site map, select **Record routing** in **General settings**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
-    - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**. 
+    Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**. 
 
 1. On the **Record routing** page, select **Add**.
 
-1. In the **Add a record type** dialog box, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
+1. In the **Add a record type** dialog, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
 
 1. Configure the following:
-   1. Workstreams.
-   1. Intake rules.
+   1. Workstreams
+   1. Intake rules
 
 ### Create workstreams for record routing
 
-To configure a workstream for the record, do the following:
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -76,11 +69,11 @@ To configure a workstream for the record, do the following:
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
+    In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
+    In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
    
 1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
@@ -151,7 +144,8 @@ Routing rules for a workstream consists of work classification rules and route-t
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
-[Create workstreams](create-workstreams.md)  
-[Create multiple work streams for records routing](multiple-ws-entity-record-routing.md)  
-
+[Create and manage workstreams](create-workstreams.md)  
+[Create multiple workstreams for records routing](multiple-ws-entity-record-routing.md)  
+[Configure routing for email records](configure-routing-for-email-records.md)  
+  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
