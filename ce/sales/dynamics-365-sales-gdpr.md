@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales and GDPR | MicrosoftDocs"
 description: "To comply with GDPR guidelines, we’ve made it possible to update read-only records through an export and import, and through SDKs."
-ms.date: 10/26/2021
+ms.date: 07/06/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
