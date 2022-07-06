@@ -66,6 +66,6 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 ### See also
 
 [Configure a chat widget](add-chat-widget.md)  
-[Create workstreams](work-streams-introduction.md)  
+[Create workstreams](create-workstreams.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
