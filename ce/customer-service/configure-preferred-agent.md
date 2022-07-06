@@ -92,6 +92,10 @@ If you have a custom role, you must also have access to the following entities:
 - [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md)
 - [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md)
 
+## How preferred agents are assigned to contacts
+
+<Need to fill in>
+
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
