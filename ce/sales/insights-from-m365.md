@@ -8,6 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
+# Insights generated from Microsoft 365 data
 
 This article describes the meaningful insights created from Microsoft 365 data by Dynamics 365 applications. The Microsoft 365 admin can turn on one or more of these options, allowing a copy of your company’s Microsoft 365 data to be copied into Dynamics 365 applications to be used by any authorized users of your company’s Dynamics 365 applications. 
 

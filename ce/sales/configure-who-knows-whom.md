@@ -15,9 +15,7 @@ topic-status: Drafting
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. To configure the feature, perform the following tasks:
-1. [Enable the who knows whom feature](#enable-the-who-knows-whom-feature)
-2. [Enable the connection graph](#enable-the-connection-graph)
+The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. Enable the feature to get the who knows whom suggestions.  
 
 
 >[!NOTE]
@@ -62,7 +60,7 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 
     The who knows whom feature is ready to use in your organization.
 
-As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
+As a next step, work with your Microsoft 365 administrator to [Provide consent](provide-consent-office365.md#provide-consent). This step is mandatory; users will see the suggestions only after the consent is provided.  
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
