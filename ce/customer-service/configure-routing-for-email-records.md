@@ -1,5 +1,5 @@
 ---
-title: "Set up routing for email record in Customer Service | MicrosoftDocs"
+title: "Set up routing for email records in Customer Service | MicrosoftDocs"
 description: "Learn about the process that's required to route the email record using unified routing in Customer Service."
 ms.date: 07/06/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Configure unified routing for email records
+# Configure routing for email records
 
 In Dynamics 365 Customer Service, you can configure emails to be routed as work items and added to queues for agents to work on them.
 
