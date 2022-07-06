@@ -16,7 +16,7 @@ When an email comes from a customer, you can use one of the following methods to
 
 - **Route email as a case**: Perform the following settings to route email as a case:
 
-  1. Configure the automatically create or update records option to create a case. More information: [Automatically create or update records](automatically-create-update-records.md)
+  1. Configure automatically create or update records option to create a case. More information: [Automatically create or update records](automatically-create-update-records.md)
   
   1. Save and route the case on the case form. More information: [Save and route a case](customer-service-hub-user-guide-case-queues-and-routing.md#save-and-route-a-case)
 
@@ -41,6 +41,6 @@ The high-level process of how email can be routed using unified routing is depic
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
-[Provision unified routing](provision-unified-routing.md)  
+[Enable unified routing](provision-unified-routing.md)  
 [Configure classification rules](configure-work-classification.md)  
 [Assignment methods in unified routing](assignment-methods.md)  
