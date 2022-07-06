@@ -19,7 +19,7 @@ Dynamics 365 Sales data is stored in Dataverse and in Azure resources (for certa
 
 ## Is the data stored for Dynamics 365 Sales protected with Customer Lockbox?
 
-The data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. More information: [Securely access customer data using Customer Lockbox in Power Platform](/power-platform/admin/about-lockbox).
+The Dynamics 365 Sales data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. More information: [Securely access customer data using Customer Lockbox in Power Platform](/power-platform/admin/about-lockbox).
 
 ### See also
 
