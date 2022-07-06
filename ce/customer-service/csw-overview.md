@@ -33,7 +33,7 @@ Customer Service workspace opens in the Customer Service Agent Dashboard, unless
 
 ### Enhanced multisession workspace (preview)
 
-If you or your administrator has [turned on the enhanced multisession workspace](#turn-on-the-enhanced-multisession-workspace-preview), your view is as seen in the following screenshot:
+If you or your administrator has [turned on the enhanced multisession workspace](#turn-on-the-enhanced-multisession-workspace-preview), your view is as seen in the following screenshot.
 
 :::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table":::
 
@@ -49,7 +49,7 @@ If you or your administrator has [turned on the enhanced multisession workspace]
 
 ### Default multisession workspace
 
-If your or your administrator hasn't turned on the enhanced multisession workspace, your view is as seen in the following screenshot:
+If your or your administrator hasn't turned on the enhanced multisession workspace, your view is as seen in the following screenshot.
 
 :::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table":::
 
@@ -177,11 +177,11 @@ If your administrator has turned on the inbox for your profile, you can select t
 
 The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
 
-The inbox conversation view looks as seen in the screenshot:
+The inbox conversation view looks as seen in the following screenshot.
 
 :::image type="content" source="media/inbox-csw.png" alt-text="Screenshot of the Customer Service workspace inbox conversation view.":::
 
-The inbox case view looks as seen in the screenshot:
+The inbox case view looks as seen in the following screenshot.
 
 :::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
 
