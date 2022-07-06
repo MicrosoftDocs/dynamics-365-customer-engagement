@@ -169,7 +169,7 @@ Learn more about how to [create and manage knowledge articles](customer-service-
 
 Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
 
-Learn more about how to create [email templates](../../../powerapps-docs-pr/powerapps-docs/user/email-template-create.md) and [email signatures](../../../powerapps-docs-pr/powerapps-docs/user/email-signature.md).
+Learn more about how to create [email templates](/power-apps/user/email-template-create.md) and [email signatures](/power-apps/user/email-signature.md).
 
 ## Use the Inbox
 
