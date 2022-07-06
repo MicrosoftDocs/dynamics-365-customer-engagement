@@ -21,9 +21,7 @@ Previously, the consent for these capabilities were provided from **Microsoft 36
 
 Before you provide the consent, review the following information:
 
-- The consent provided in the old form for relationship analytics is valid until September 2022 and who knows whom is valid until July 31, 2022. After that, you'll need to provide consent as described in this article. After the consent is provided, Dynamics 365 Sales will need time to recalculate the who knows whom suggestions. So, we recommend that you provide the consent as soon as possible to ensure a smooth transition.  
-
-- If you had already opted out security groups in the old consent form, they'll stay opted out even after you provide the consent in the new form.
+- The consent provided in the old form for relationship analytics is valid until September 2022 and the consent for who knows whom is valid until July 31, 2022. After that, you'll need to provide consent as described in this article. After the consent is provided, Dynamics 365 Sales will need time to recalculate the who knows whom suggestions. So, we recommend that you provide the consent as soon as possible to ensure a smooth transition.  
 
 - The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
@@ -44,7 +42,7 @@ If you're an Office 365 administrator, here's how to provide consent:
     > [!NOTE]
     > The consent provided is applicable to all the Dynamics 365 applications that require **Insights for other users** permission.  
       
-    Relationship analytics and who knows whom can now connect to the Exchange server to fetch data.
+    Relationship analytics and who knows whom can now use the Exchange data to generate insights.
 
 ## Opt out security groups of sharing data
 
