@@ -20,7 +20,7 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-The Dynamics 365 Customer Service workspace helps increase agent productivity for core customer service. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. Customer Service workspace seamlessly adjusts to support managing agent conversations across different channels.
+The Dynamics 365 Customer Service workspace helps increase agent productivity for core customer service. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. Customer Service workspace seamlessly allows agents to manage conversations across different channels.
 
 > [!NOTE]
 > Customer Service workspace is currently not available on mobile devices.
@@ -33,9 +33,9 @@ Customer Service workspace opens in the Customer Service Agent Dashboard, unless
 
 ### Enhanced multisession workspace (preview)
 
-If you or your administrator has [turned on the enhanced multisession workspace](#turn-on-the-enhanced-multisession-workspace-preview), your view will look like this:
+If you or your administrator has [turned on the enhanced multisession workspace](#turn-on-the-enhanced-multisession-workspace-preview), your view is as seen in the following screenshot:
 
-:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to a table below the screenshot.":::
+:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table":::
 
 | Label | Description |
 | ------------ | ------------- |
@@ -49,9 +49,9 @@ If you or your administrator has [turned on the enhanced multisession workspace]
 
 ### Default multisession workspace
 
-If your or your administrator hasn't turned on the enhanced multisession workspace, your view will look like this:
+If your or your administrator hasn't turned on the enhanced multisession workspace, your view is as seen in the following screenshot:
 
-:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to a table below the screenshot.":::
+:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table":::
 
 | Label | Description|
 | ------------ | ------------- |
@@ -177,11 +177,11 @@ If your administrator has turned on the inbox for your profile, you can select t
 
 The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
 
-The inbox conversation view looks like this:
+The inbox conversation view looks as seen in the screenshot:
 
 :::image type="content" source="media/inbox-csw.png" alt-text="Screenshot of the Customer Service workspace inbox conversation view.":::
 
-The inbox case view looks like this:
+The inbox case view looks as seen in the screenshot:
 
 :::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
 
