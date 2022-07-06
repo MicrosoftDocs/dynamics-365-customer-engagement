@@ -39,7 +39,7 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
    2. Set **Resource Type** to **Pool**. A new field will appear called “Pool Type.”
    3. Set **Pool Type** to **Account, Contact, User** because this pool will consist of people resources (pediatricians, in our example).
-      1. Note that pool types can either be set to: Facility, Equipment, or any combination of Account/Contact/User.
+      1. Pool types can either be set to: Facility, Equipment, or any combination of Account/Contact/User.
       2. We recommended creating homogeneous pools. Since you may not be naming specific resources at all, set up pools in a way that the resources who are named later can actually fulfill the backlog of work scheduled to the pool. For example, if you schedule a “facility” requirement to a pool, the pool should consist of of facility resources who can later be assigned.
    4. Enter a **Name**.
    5. Select a **Time Zone**.
@@ -61,7 +61,7 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
 Members can be added to a pool through the bookable resource group entity (bookableresourcegroup).
 
-1. From the pool you just created, go to **Related > Resource Children**.
+1. From the pool you created, go to **Related > Resource Children**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of pool children view.](../../field-service/media/scheduling-facility-pediatrician-pool-children.png)
@@ -133,12 +133,12 @@ We will select the same resource pool as we did in step 5, and the same time slo
 > [!div class="mx-imgBorder"]
 > ![Image of schedule assistant and same time slot.](../../field-service/media/scheduling-pools-single-requirement4.png)
 
-The resource pool will show as a result in the schedule assistant for the 9 AM time slot up to five times since five pediatric resources were added to the pool making the capacity five.
+The resource pool will show in the schedule assistant for the 9 AM time slot up to five times because five pediatric resources were added to the pool which makes the capacity five.
 
 
 Next, head to the schedule board and then to the schedule board tab where your pool resource is displayed.
 
-Load the **Hourly** Schedule Board and find your pool resource. Right click the Pool Resource and choose to **View Pool Resources in Split View**. This will split the Schedule Board and a new dedicated Schedule Board will be displayed showing just the Pool and its members. Based on the dates being displayed on the Schedule Board, only the members of the pool with membership during that date range will appear in the Pool Schedule Board. If a resource is part of the pool for only some of the days being displayed on the Schedule Board, they will be displayed, and there will be a mask showing the days where they are not part of the pool.
+Load the **Hourly** Schedule Board and find your pool resource. Right click the Pool Resource and choose to **View Pool Resources in Split View**. This will split the Schedule Board and a new dedicated Schedule Board will be displayed showing just the Pool and its members. Based on the dates being displayed on the Schedule Board, only the members of the pool with membership during that date range will appear in the Pool Schedule Board. If a resource is part of the pool for only some of the days being displayed on the Schedule Board, they will be displayed, and there will be a mask that shows the days where they are not part of the pool.
 
 Here we see five bookings at the 9:00am time slot. 
 
