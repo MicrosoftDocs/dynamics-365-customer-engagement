@@ -214,17 +214,30 @@ The *entities* are used to model and manage business data in Dynamics 365 Custom
 ## Entity images  
  Certain system entities have image attributes. You can add image attributes to custom entities. When an entity has an image attribute, you can set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.PrimaryImageAttribute> property to control whether the image will be shown in the application. When the image is shown in the application users of the web application can upload pictures for the entity record. The following system entities have image attributes. Those marked with an asterisk are enabled by default to show them in the application.  
 
-
-|                    |                     |                     |
-|--------------------|---------------------|---------------------|
-|  Account **\\**\*  |      KbArticle      |      Campaign       |
-|      Incident      | Competitor **\\**\* |     Connection      |
-|  Contact **\\**\*  |      Contract       | TransactionCurrency |
-| EmailServerProfile |        Goal         |       Invoice       |
-|   Lead **\\**\*    |       Mailbox       | OpportunityProduct  |
-|     SalesOrder     |    Organization     |  Product **\\**\*   |
-| Publisher **\\**\* |        Queue        |  Resource **\\**\*  |
-|  SalesLiterature   |      Territory      | SystemUser **\\**\* |
+- Account **\\**\*
+- KbArticle
+- Campaign
+- Incident
+- Competitor **\\**\*
+- Connection
+- Contact **\\**\*
+- Contract
+- TransactionCurrency
+- EmailServerProfile
+- Goal
+- Invoice
+- Lead **\\**\*
+- Mailbox
+- OpportunityProduct
+- SalesOrder
+- Organization
+- Product **\\**\*
+- Publisher **\\**\*
+- Queue
+- Resource **\\**\*
+- SalesLiterature
+- Territory
+- SystemUser **\\**\*
 
 More information: [Image data attributes](introduction-entity-attributes.md#BKMK_Image).  
 
