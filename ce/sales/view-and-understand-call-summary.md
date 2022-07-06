@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 05/18/2022
+ms.date: 07/08/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -166,7 +166,7 @@ If a meeting is mentioned in the transcript, the transcript is highlighted in bl
 
 #### Highlights tab
 
-The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.   
+The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback. 
 
 - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
 
