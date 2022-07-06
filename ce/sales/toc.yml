@@ -447,6 +447,8 @@
           href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
+        - name: Insights generated from Microsoft 365 data
+          href: insights-from-m365.md 
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence

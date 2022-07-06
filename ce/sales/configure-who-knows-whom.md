@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 03/15/2022
+ms.date: 07/06/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -63,28 +63,6 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
     The who knows whom feature is ready to use in your organization.
 
 As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
-
-## Enable the connection graph
-
-After the who knows whom feature is enabled in the Sales Hub app, as a Microsoft 365 administrator, enable **Dynamics 365 Sales Insights – Connection Graph** from the Microsoft 365 admin center. This allows Dynamics 365 Sales to collect the communication and collaboration details of users from Exchange server.
-
-To configure the Sales Insights connection graph, follow these steps:
-
-1. Go to the **Microsoft 365 admin center**.
-
-2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Screenshot of connection graph settings")
-
-3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
-
-4. (Optional) If you don't want to collect information about a group of users in your organization, add their group ID in the text box. 
-
-5. Select **Save**.
-
->[!NOTE]
-> Users can opt out of the connection graph if they don't want sales insights to analyze their communication and collaboration data. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

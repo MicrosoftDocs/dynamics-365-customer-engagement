@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Exchange Online
 description: Provide consent for Dynamics 365 to use data from Exchange Online in relationship analytics.
-ms.date: 03/03/2022
+ms.date: 07/06/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,7 @@ Before you provide the consent, review the following information:
 
 - The consent provided in the old form for relationship analytics is valid until September 2022 and who knows whom is valid until July 31, 2022. After that, you'll need to provide consent as described in this article. After the consent is provided, Dynamics 365 Sales will need time to recalculate the who knows whom suggestions. So, we recommend that you provide the consent as soon as possible to ensure a smooth transition.  
 
-- If you had already opted out security groups in the old consent form, they'll be automatically migrated after you provide the consent in the new form.
+- If you had already opted out security groups in the old consent form, they'll stay opted out even after you provide the consent in the new form.
 
 - The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
@@ -45,6 +45,28 @@ If you're an Office 365 administrator, here's how to provide consent:
     > The consent provided is applicable to all the Dynamics 365 applications that require **Insights for other users** permission.  
       
     Relationship analytics and who knows whom can now connect to the Exchange server to fetch data.
+
+## Opt out security groups of sharing data
+
+You may want to opt out certain security groups of sharing their communication and collaboration data with Dynamics 365.
+
+To opt out security groups:
+
+1. Go to the **Microsoft 365 admin center**.
+
+2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Screenshot of connection graph settings")
+
+3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
+
+4. Add the ID of security groups that you want to opt out. 
+
+5. Select **Save**.
+
+>[!NOTE]
+> Users can opt out of the connection graph if they don't want sales insights to analyze their communication and collaboration data. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
 
 ### See also
 
