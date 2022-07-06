@@ -29,7 +29,7 @@ The Dynamics 365 Customer Service workspace helps increase agent productivity fo
 
 Access Customer Service workspace through the app selector where you find other Dynamics 365 apps. Or, select it in the drop-down navigation in the upper-left corner of Dynamics 365.
 
-Customer Service workspace opens in the Customer Service Agent Dashboard, unless your administrator has changed the default view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
+By default, Customer Service workspace opens in the Customer Service Agent Dashboard view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
 
 ### Enhanced multisession workspace (preview)
 
