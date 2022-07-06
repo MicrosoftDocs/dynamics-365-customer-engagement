@@ -328,7 +328,8 @@ For your attached files, use these commands to do the following:
 - **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
 - **Sort**: Allows you to sort records by a specific filter, such as file name or size.
 
-In the on-premises solution, upload and download of knowledge article attachments is supported for files up to 4MB only.
+> [!NOTE]
+> In Dynamics 365 Customer Engagement (on-premise), upload and download of knowledge article attachments is supported for files up to 4MB only.
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
