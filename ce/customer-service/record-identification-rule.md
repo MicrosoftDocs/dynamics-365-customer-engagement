@@ -20,9 +20,7 @@ For every incoming conversation request that an agent receives, a notification w
 
 If the identified contact or account has one active case linked to it, the case will be automatically linked to the conversation. If the customer has reached out for a different case, the agent can manually change the linked case.
 
-If more than one account, contact, or case is identified, the record won't be linked to the conversation.
-
-For more information, see [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md).
+If more than one account, contact, or case is identified, the record won't be linked to the conversation. More information: [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md)
 
 > [!NOTE]
 > To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
