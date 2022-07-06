@@ -1,6 +1,6 @@
 ---
 title: Create and manage queues for unified routing | MicrosoftDocs
-description: "Use this article to understand how to create and manage queues in Customer Service and Omnichannel for Customer Service apps."
+description: "Use this article to understand how to create and manage queues for unified routing in Customer Service and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
