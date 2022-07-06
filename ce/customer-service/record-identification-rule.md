@@ -1,7 +1,7 @@
 ---
 title: "Identify customers automatically | MicrosoftDocs"
 description: "Learn how to automatically identify customers by using pre-chat responses in Omnichannel for Customer Service."
-ms.date: 10/19/2021
+ms.date: 07/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -31,10 +31,13 @@ Use the following question names to create pre-chat questions.
 
 | Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
-| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line |
-| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line |
+| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** (Phone) | Single line |
+| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** (Mobile Phone) |Single line |
 | Incident | Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
 ||||
+
+> [!Note]
+> If you'd like other fields to be recognized for phone number lookup, please contact Microsoft Support.
 
 ## Use the setContextProvider API method
 
@@ -42,7 +45,6 @@ You can automatically identify records using custom context set using the [setCo
 
 ### See also
 
-[Understand and create workstreams](work-streams-introduction.md)  
-
+[Create and manage workstreams](create-workstreams.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
