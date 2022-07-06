@@ -1,6 +1,6 @@
 ---
-title: "Persistent chat | MicrosoftDocs"
-description: "Overview of Persistent chat in Omnichannel for Customer Service."
+title: "Configure persistent chat | MicrosoftDocs"
+description: "Use this article to understand how persistent chat works and how you can configure it in Omnichannel for Customer Service."
 ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
@@ -33,11 +33,11 @@ From the start of a conversation until the agent explicitly ends it, agents and 
 
 ## Prerequisites
 
-Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md).
+Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md)
 
 ## Set up persistent chat in the new admin apps
 
-In Customer Service admin center or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you are creating the chat workstream. More information: [Create workstreams](create-workstreams.md)
+In Customer Service admin center or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create workstreams](create-workstreams.md)
 
 Make sure that you set the toggle to **Yes** for **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
@@ -65,8 +65,7 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 
 ### See also
 
-[Configure a chat widget](add-chat-widget.md)
-
-[Create work streams](work-streams-introduction.md)
+[Configure a chat widget](add-chat-widget.md)  
+[Create workstreams](work-streams-introduction.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
