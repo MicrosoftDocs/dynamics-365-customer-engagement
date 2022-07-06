@@ -12,20 +12,15 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Automatically identify the customer
+You can assist customers better if you can automatically identify them and view their account and case details on the **Customer summary** page. One of the ways is by setting up pre-chat questions in the relevant chat widgets. Customer responses can be used to search for details in the records and display the results. For an account or contact, the search is performed on the **Name**, **Email**, or **Phone Number** field. For cases, the search is performed on the **Case Number** field.
 
-You're able to assist customers better when you can identify them and have their details. You can automatically identify and load customer and case details on the **Customer summary** page for an incoming conversation. One of the ways is by setting up pre-chat questions in the relevant chat widgets. Customer responses can be used to search for details in the records and display the results. For an account or contact, the search will be performed on the **Name**, **Email**, or **Phone Number** field. For cases, the search will be performed on the **Case Number** field.
-
-For every incoming conversation request that an agent receives, a notification will appear that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Customer summary** page opens and shows the details of the identified customer and case.
-
-If the identified contact or account has one active case linked to it, the case will be automatically linked to the conversation. If the customer has reached out for a different case, the agent can manually change the linked case.
+For every incoming conversation request that an agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Customer summary** page opens and shows the details of the identified customer and case. If the identified contact or account has one active case linked to it, the case will be automatically linked to the conversation. If the customer has reached out for a different case, the agent can manually change the linked case.
 
 If more than one account, contact, or case is identified, the record won't be linked to the conversation. More information: [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md)
 
-> [!NOTE]
-> To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
+## Set up pre-chat questions
 
-Use the following question names to create pre-chat questions.
+Use the following question names to create pre-chat questions. To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
 
 | Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
@@ -35,7 +30,7 @@ Use the following question names to create pre-chat questions.
 ||||
 
 > [!Note]
-> If you'd like other fields to be recognized for phone number lookup, please contact Microsoft Support.
+> If you'd like other fields to be recognized for phone number lookup, please contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 
 ## Use the setContextProvider API method
 
