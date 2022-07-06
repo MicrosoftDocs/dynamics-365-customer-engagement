@@ -12,7 +12,7 @@ manager: shujoshi
 
 This article describes the meaningful insights created from Microsoft 365 data by Dynamics 365 applications. The Microsoft 365 admin can turn on one or more of these options, allowing a copy of your company’s Microsoft 365 data to be copied into Dynamics 365 applications to be used by any authorized users of your company’s Dynamics 365 applications. 
 
-If Microsoft 365 admins wish to add a new security group to their currently existing security groups, they must use the “Dynamics 365 Sales Insights- Connection Graph” toggle to specify their new security group. Currently opted out users and security groups are automatically transitioned over and will remain opted out, but new security groups must be specified in the “Dynamics 365 Sales Insights- Connection Graph” toggle. 
+If Microsoft 365 admins wish to add a new security group to their currently existing security groups, they must use the **Dynamics 365 Sales Insights- Connection Graph** toggle to specify their new security group. Currently opted out users and security groups are automatically transitioned over and will remain opted out, but new security groups must be specified in the **Dynamics 365 Sales Insights- Connection Graph** toggle. More information: [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data) 
 
 If Microsoft 365 users choose to opt out, their data will not be accessible to any Dynamics 365 applications. 
 
@@ -61,7 +61,7 @@ Microsoft 365 data about individual users, and insights derived from this data, 
 - Dynamics 365 Sales: Who Knows Whom 
 
 - Dynamics 365 Sales: Relationship Analytics	 
-- 
+
 **Example and Scenario:** Dynamics 365 Sales: Who Knows Whom 
 
 A user can leverage his network of colleagues—their user data—to see who can introduce them to a sales target at an external organization. 

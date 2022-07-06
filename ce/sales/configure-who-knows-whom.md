@@ -60,7 +60,7 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 
     The who knows whom feature is ready to use in your organization.
 
-As a next step, work with your Microsoft 365 administrator to [Provide consent](provide-consent-office365.md#provide-consent). This step is mandatory; users will see the suggestions only after the consent is provided.  
+As a next step, work with your Microsoft 365 administrator to [provide consent](provide-consent-office365.md#provide-consent). This step is mandatory; users will see the suggestions only after the consent is provided.  
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
