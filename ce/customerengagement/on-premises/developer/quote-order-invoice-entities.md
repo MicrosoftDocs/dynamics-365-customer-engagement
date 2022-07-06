@@ -52,7 +52,7 @@ Dynamics 365 Customer Engagement (on-premises) supports robust *quote*, *sales o
   
   The `quote close activity` entity represents an activity that is generated when a quote is closed.  
   
-  A sales order (order) is a quote that has been accepted. This entity is called an order in Dynamics 365 Customer Engagement (on-premises). You can use <xref href="Microsoft.Dynamics.CRM.FulfillSalesOrder?text=FulfillSalesOrder Action" /> to close an order as fulfilled.
+  A sales order (order) is a quote that has been accepted. This entity is called an order in Dynamics 365 Customer Engagement (on-premises). You can close an order by marking it as fulfilled. More information: [Sample: Fulfill a sales order](sample-fulfill-sales-order.md)
 
   > [!NOTE]
   > You can't set the status of multiple orders to fulfilled at one go. 
