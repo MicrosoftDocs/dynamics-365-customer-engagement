@@ -45,7 +45,7 @@ To be able to edit analytics reports, users must have the **Analytics Report Aut
 
    The following panes open on the right-hand side of the page:
 
-   - **Visualiations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer by dragging and dropping it from **Visualizations** list to the area where you want it to display in your report. For example, if you wanted to change the background color of your reports, you would select **Page background**, and then select the color you want from the **Themes color** palette.
+   - **Visualizations**: Displays a list of options you can use to create different visual views in your report. Choose which visuals you want in your report by deleting a currently displayed visual and then adding the visual you prefer by dragging and dropping it from **Visualizations** list to the area where you want it to display in your report. For example, if you wanted to change the background color of your reports, you would select **Page background**, and then select the color you want from the **Themes color** palette.
 
      > [!div class="mx-imgBorder"] 
      > ![Visualization pane.](media/customize-visualization.png "Customize report display on the Visualizations pane")
