@@ -1,7 +1,7 @@
 ---
 title: "Manage cases with case grids | MicrosoftDocs"
 description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 06/21/2022
+ms.date: 07/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,7 +30,7 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently.
+The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. More information: [Key features](enable-case-grids.md#key-features)
 
 ## Columns on the Enhanced Active Cases View
 
