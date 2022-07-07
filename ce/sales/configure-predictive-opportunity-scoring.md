@@ -226,10 +226,12 @@ In organizations that have different lines of business, you might need different
 
 3. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
-4. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+    After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
     > [!div class="mx-imgBorder"]
     > ![Model training confirmation notification](media/si-admin-predictive-opportunity-scoring-model-confirmation-notification.png "Model training confirmation notification")
+
+4. If you've turned on **Per stage modeling**, select **View Details** to specify the business process stages for which the model must consider an attribute.  
 
 5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
