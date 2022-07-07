@@ -2,13 +2,11 @@
 title: "Delete Microsoft Teams data | MicrosoftDocs"
 description: "You can delete personal data stored with Dynamics 365 app integration with Microsoft Teams. Run the following commands before requesting data deletion."
 ms.date: 08/27/2020
-ms.service: crm-online
 ms.topic: article
+ms.service: teams-integration
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.reviewer: 
-ms.custom: 
 search.audienceType: 
   - enduser
 search.app: 
@@ -17,10 +15,8 @@ search.app:
 applies_to: 
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 17
 ---
+
 # Delete personal data from Microsoft Teams
 
 ## Delete user data
