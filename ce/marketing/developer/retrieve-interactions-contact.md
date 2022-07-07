@@ -1,8 +1,7 @@
 ---
 title: "Retrieve interactions for a contact using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to programmatically retrieve interactions for a contact using an action."
-ms.date: 10/04/2021
-
+ms.date: 06/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,6 +16,9 @@ search.app:
 ---
 
 # Retrieve interactions for a contact using code
+
+> [!IMPORTANT]
+> The method below to retrieve interactions has been deprecated and may not be available in the future.
 
 Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr-use-features.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
 

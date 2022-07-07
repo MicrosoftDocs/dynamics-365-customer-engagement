@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
-description: Use this topic to learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 02/09/2022
+description: "Use this article to learn how to view and update your presence status in Omnichannel for Customer Service."
+ms.date: 07/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,8 +11,6 @@ manager: shujoshi
 # Manage presence status
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Presence is an indication of your availability or status in the application.
 
@@ -39,8 +37,10 @@ For the presence status or the icon to be displayed correctly, ensure that cooki
  
 ## Update your presence status
 
-Presence status is updated in two ways:
-- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the navigation bar and then select the status from the list. The list shows five standard presence statuses:
+You can update the presence status in the following two ways:
+- **Manually** - Change the status manually according to your availability.
+
+    To view and set the presence, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
 
   - Offline
   - Appear away
@@ -51,7 +51,7 @@ Presence status is updated in two ways:
    You might also see other additional presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
-  > ![Set your status.](media/oceh-presence.png "Set your status")
+  > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
 
@@ -84,11 +84,11 @@ When you sign in, your presence is set to the default presence if no work items 
 
 ### Accept work items
 
-When you accept a work item manually or it is assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence. 
+When you accept a work item manually or it's assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence. 
 
 ### Close work items 
 
-When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence.
+When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence.
 
 ### Reset agent presence
 
@@ -100,12 +100,12 @@ When you reset the agent presence based on the missed notification or the agent 
 
 ### See also
 
-- [View notifications](oc-notifications.md)
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Manage sessions](oc-manage-sessions.md)
-- [Manage applications](oc-manage-applications.md)
-- [View the communication panel for conversations](oc-conversation-control.md)
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+[View notifications](oc-notifications.md)
+[Introduction to the agent interface](oc-introduction-agent-interface.md)
+[Manage sessions](oc-manage-sessions.md)
+[Manage applications](oc-manage-applications.md)
+[View the communication panel for conversations](oc-conversation-control.md)
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
