@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 06/30/2022
+ms.date: 07/01/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -91,6 +91,7 @@ The update also includes an admin digital data sharing opt-in for better perform
 - **Trigger journeys based on data changes in any Dynamics 365 app to engage customers at the right time without writing any code**
     - Interactions in any Dynamics 365 app can be used to trigger and drive customer journeys in just a few clicks, without requiring developers or customizations. Customers interact with several departments and functions in your company throughout their lifetime, all of which use their own CRM, ERP, and business apps. Each of these interactions, such as a service ticket being closed, represents an opportunity to engage more deeply with your customers. Now, data no longer has to remain siloed within separate apps and out of reach of your customer engagement or marketing automation tools.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/trigger-journeys-based-data-changes-dynamics-app-engage-customers-at-right-time-without-writing-code)
+    - [Docs](real-time-marketing-dataverse-trigger.md)
 
 #### Monthly enhancements
 

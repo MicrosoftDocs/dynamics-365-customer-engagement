@@ -453,6 +453,8 @@
           href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
+        - name: Insights generated from Microsoft 365 data
+          href: insights-from-m365.md 
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -1115,6 +1117,8 @@
           href: view-export-KPI-data-gdpr.md
         - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
           href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
+    - name: GDPR FAQ
+      href: sales-gdpr-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
