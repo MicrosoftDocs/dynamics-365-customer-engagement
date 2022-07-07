@@ -35,7 +35,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
-|Government Community Cloud (GCC) High||To be announced |To be announced|
+|Government Community Cloud (GCC) High|To be announced |To be announced|
 
 If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
