@@ -2,7 +2,6 @@
 title: "When to use attribute versus if/then branches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to select the correct branching to use for real-time journeys in Dynamics 365 Marketing."
 ms.date: 01/12/2022
-
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

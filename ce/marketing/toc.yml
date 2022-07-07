@@ -234,23 +234,29 @@
           href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
-        - name: Trigger an action outside of a journey
-          href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
+        - name: Trigger a journey based on a Dataverse record change
+          href: real-time-marketing-dataverse-trigger.md
+        - name: Trigger an action outside of a journey
+          href: real-time-marketing-custom-actions.md
       - name: Segment-based journeys
         items:
+        - name: "Preview: Build segments in real-time marketing"
+          href: real-time-marketing-build-segments.md
         - name: Work with segments in real-time marketing
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-      - name: Enhance your customer journey
+      - name: Enhance your customer journeys
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
+        - name: "Preview: Personalize journey variations using multiple journey branches"
+          href: real-time-marketing-multiple-branches.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated SMS keyword flow in customer journeys
+        - name: "Preview: Set up an automated SMS keyword flow in customer journeys"
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
@@ -536,7 +542,7 @@
           href: marketing-analytics/analytics-gallery-forms.md
     - name: "Preview: Collaborate using Microsoft Teams chat"
       href: teams-chat.md
-    - name: "Preview: Customer interactions timeline"
+    - name: "Customer interactions timeline"
       href: timeline.md
     - name: Work with marketing calendars
       href: marketing-calendar.md
