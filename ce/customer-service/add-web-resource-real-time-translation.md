@@ -1,7 +1,7 @@
 ---
 title: "Add a web resource for real-time translation of messages | MicrosoftDocs"
 description: "Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents."
-ms.date: 04/04/2022
+ms.date: 07/07/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ To add a web resource:
 
 Perform the following steps to upload the web resource file for real-time translation:
 
-1. In Dynamics 365, select **Settings**, and select **Advanced Settings**.
+1. In Dynamics 365, on the top right of the Customer Service admin center page, select **Settings**, and select **Advanced Settings**.
 
 2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
 
