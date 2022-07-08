@@ -182,7 +182,7 @@ The **Highlights** tab displays talking points&mdash;such as keywords, stakehold
 - **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
 - **Brands mentioned**: Displays brand and organization names (other than your own) that the customer mentioned during the call.  
 - - **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call. 
-- **Questions asked by sellers**: Displays the questions asked by the seller during the call. For example, What do you think about the demo? 
+- **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users during the call. For example, What do you think about the demo? 
 - **Questions asked by others**: Displays the questions asked by the other participants during the call. 
 
 The following image is an example of a **Highlights** tab.   
