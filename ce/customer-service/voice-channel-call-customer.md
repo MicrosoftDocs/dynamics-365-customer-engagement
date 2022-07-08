@@ -13,28 +13,25 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](voice-channel-outbound-calling.md)
+To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](voice-channel-outbound-calling.md).
+You can call a customer by selecting the **Mobile phone** field or the launch dialer option.
 
-**To call a customer**
+- In Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 
-1. In Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
-
-2. On the customer summary page, locate the **Mobile Phone** field, and then select the call icon to call the customer.
+   1. On the customer summary page, locate the **Mobile Phone** field, and then select the call icon to call the customer.
    The phone dialer opens with the phone number.
 
-3. Select **Call** on the phone dialer.
+   1. Select **Call** on the phone dialer.
 
-> [!Note]
-> In the **Call** dropdown list, you'll see the phone number that you're making the call from. This is the outbound calling number that'll be displayed on the customer's phone when you make the call.
+   > [!Note]
+   > In the **Call** dropdown list, you'll see the phone number that you're making the call from. This is the outbound calling number that'll be displayed on the customer's phone when you make the call.
 
-When the call connects, you'll see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you won't be able to make another call when a call is in progress.
+   When the call connects, you'll see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you won't be able to make another call when a call is in progress.
 
-## Call customer using the phone dialer
+- You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer. 
+   1. On the number pad that appears, enter the customer's phone number, and then select **Call** to make your call.
+   1. To make an international call, enter the plus sign (+) followed by the country code and phone number, then select **Call**.
 
-In Omnichannel for Customer Service, you can select the **Launch dialer** phone icon on the menu bar to quickly call a customer. The dialer opens the number pad where you can enter the customer's phone number and then select **Call** to make your call.
-
- > [!NOTE]
- > The dialer adds the plus (+) sign when you enter a number to call.
 
 ### See also
 

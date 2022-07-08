@@ -1,8 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 12/06/2021
-
+ms.date: 06/22/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -163,10 +162,6 @@ To restore a backup onto a sandbox environment:
 
    - Make sure the restored environment is not in administration mode. For more information about this setting and how to disable it, see [Administration mode](/power-platform/admin/sandbox-environments#administration-mode).
    - Run the Marketing setup wizard on the target environment. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
-
-### Don't try to restore a backup onto its original environment
-
-When a backup contains Dynamics 365 Marketing, it isn't possible to restore a backup onto its original environment. If you need to do this, [contact Microsoft Support](/power-platform/admin/get-help-support) for assistance.
 
 <a name="switch-sandbox-prod"></a>
 

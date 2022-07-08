@@ -52,14 +52,37 @@ Dynamics 365 Customer Engagement (on-premises) has 271 entities; of these, 98 en
 ## Fully customizable entities  
  The following table lists the entities that support all the customization capabilities. Any custom entities you add will support the same capabilities.  
   
-|||||||  
-|-|-|-|-|-|-|  
-|Account|Campaign|CampaignActivity|CampaignResponse|Competitor|Connection|  
-|Contact|Contract|Email|Fax|Goal|Incident|  
-|Invoice|InvoiceDetail|Lead|Letter|List|Opportunity|  
-|OpportunityProduct|PhoneCall|Product|QueueItem|Quote|QuoteDetail|  
-|SalesLiterature|SalesOrder|SalesOrderDetail|ServiceAppointment|SystemUser|Task|  
-|Territory||||||  
+- Account
+- Campaign
+- CampaignActivity
+- CampaignResponse
+- Competitor
+- Connection  
+- Contact
+- Contract
+- Email
+- Fax
+- Goal
+- Incident  
+- Invoice
+- InvoiceDetail
+- Lead
+- Letter
+- List
+- Opportunity  
+- OpportunityProduct
+- PhoneCall
+- Product
+- QueueItem
+- Quote
+- QuoteDetail  
+- SalesLiterature
+- SalesOrder
+- SalesOrderDetail
+- ServiceAppointment
+- SystemUser
+- Task  
+- Territory  
   
 <a name="customizable_entity_properies"></a>   
 ## Customizable entity properties  

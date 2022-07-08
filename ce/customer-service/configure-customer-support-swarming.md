@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 04/22/2022
+ms.date: 06/23/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -169,7 +169,7 @@ If you haven't already configured skills, then perform the following steps.
    > [!div class="mx-imgBorder"] 
    > ![View of the New Charactistic form.](media/teams-swarm-new-characteristic.png "New Characteristic form")
 
-1. Enter the **Name** and **Description** details for the skill, and select the **Characterisic Type**.
+1. Enter the **Name** and **Description** details for the skill, and select the **Characteristic Type**.
 
 1. Select **Save**.
 

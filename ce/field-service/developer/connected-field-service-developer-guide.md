@@ -19,7 +19,6 @@ ms.custom:
 search.app: 
   - D365CE
   - D365FS
-ms.technology: field-service
 ---
 # Develop customized IoT solutions in Connected Field Service
 

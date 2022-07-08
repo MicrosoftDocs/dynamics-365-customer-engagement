@@ -21,7 +21,6 @@ ms.custom:
 search.app: 
   - D365CE
   - D365FS
-ms.technology: field-service
 ---
 
 # What's new in Universal Resource Scheduling (URS)

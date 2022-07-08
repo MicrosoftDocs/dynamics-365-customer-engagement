@@ -19,7 +19,6 @@ ms.custom:
 search.app: 
   - D365CE
   - D365FS
-ms.technology: field-service
 ---
 
 # Extend Connected Field Service solutions
