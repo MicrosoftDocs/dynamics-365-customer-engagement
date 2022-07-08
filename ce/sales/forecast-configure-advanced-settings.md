@@ -1,7 +1,7 @@
 ---
 title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 03/15/2022
+ms.date: 06/13/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -59,7 +59,7 @@ The underlying records of a forecast can be displayed in a table view or a kanba
 
 :::image type="content" source="media/forecast-default-kanban.png" alt-text="A screenshot of a forecast with kanban set as the default view and underlying records shown in kanban view.":::
 
-A user's most recent selection overrides the default for that user. For example, the default view for the underlying records of a forecast is kanban. and a user switches to the table view. The underlying records open in the table view the next time the user views the forecast.
+A user's most recent selection overrides the default for that user. For example, the default view for the underlying records of a forecast is kanban and a user switches to the table view. The underlying records open in the table view the next time the user views the forecast.
 
 ## View prediction factors
 
@@ -74,7 +74,7 @@ You'll need to turn on **Enable prediction factors** in your forecast's advanced
 
 ## Select the default attribute to group underlying records (preview)
 
-From the **Default underlying records group by attribute (Preview)** dropdown, select an attribute by which to group underlying records by default. Users can select a different grouping attribute. Their selection overrides the default the next time they view the forecast.
+From the **Default group by attribute for underlying records (Preview)** dropdown, select an attribute by which to group underlying records by default. Users can select a different grouping attribute. Their selection overrides the default the next time they view the forecast.
 
 The following screenshot illustrates how selecting the attribute, groups the underlying records by default:
 

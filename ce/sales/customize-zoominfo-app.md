@@ -1,7 +1,7 @@
 ---
 title: "Customize the ZoomInfo app for Dynamics 365 Sales"
 description: "Learn how to customize the ZoomInfo app to display in table entities and add a site map to your Dynamics 365 Sales app."
-ms.date: 10/26/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,7 +12,7 @@ manager: shujoshi
 After you install the ZoomInfo app, it's available as a standalone app, so every time sellers must come back to the app selection area and choose ZoomInfo to view the required information. 
 
 As an administrator, you can customize the ZoomInfo app in the following ways:   
--	**Add ZoomInfo entry to the site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales environment on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
+-	**Add ZoomInfo entry to the site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales app on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
 -	**Add ZoomInfo form to table entities**: You can add the ZoomInfo form to standard or custom Account, Contacts, and Leads table entities to provide sellers with inline access to ZoomInfo data. More information: [Add ZoomInfo form to entities](#add-zoominfo-form-to-table-entities).
 
 ## License and role requirements
@@ -98,8 +98,9 @@ To do this, follow this sequence of steps:
 3.	[Add form to table entity](#add-form-to-table-entity) 
 4.	[Customize form components](#customize-form-components)
 
-### Create a solution   
-Create a solution to locate and work with the components you’ve customized and then apply them to your Dynamics 365 environment. This makes it easier to return to your custom solution to make future changes.  
+### Create a solution
+
+Create a solution to locate and work with the components you’ve customized and then apply them to the Power Platform environment that hosts your Dynamics 365 apps. This makes it easier to return to your custom solution to make future changes.  
 
 **To create a solution:**    
 1.	Sign in to the [Power Apps portal](https://make.preview.powerapps.com/) and choose the organization in which you’ve installed the ZoomInfo app.
@@ -110,7 +111,7 @@ Create a solution to locate and work with the components you’ve customized and
     |-------|-------------|
     | Display Name | The name shown in the list of solutions. You can change this later. |
     | Name | The unique name of the solution. This is generated using the value you enter in the Display Name column. You can edit this before you save the solution, but you can't change it once it's been saved. |
-    | Publisher | You can select the default publisher or create a new publisher. We recommend creating a publisher for your organization to use consistently across the environments where you'll use the solution. |
+    | Publisher | You can select the default publisher or create a new publisher. We recommend creating a publisher for your organization to use consistently across the Power Platform environments where you'll use the solution. |
     | Version | Enter a number for the version of your solution. This is only important if you export your solution, as the version number will be included in the file name. |
 
     > [!div class="mx-imgBorder"]

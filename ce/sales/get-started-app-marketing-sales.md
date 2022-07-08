@@ -1,7 +1,7 @@
 ---
 title: "Get started with in-app marketing"
 description: "Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales."
-ms.date: 05/10/2022
+ms.date: 06/20/2022
 ms.custom: intro-internal
 ms.topic: get-started-article
 author: lavanyakr01
@@ -20,6 +20,9 @@ searchScope:
 # Get started with in-app marketing
 
 Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
+
+> [!NOTE]
+> In-app marketing is not fully supported in the Dynamics 365 app for Teams.
   
 ## License and role requirements
 | Requirement type | You must have |  

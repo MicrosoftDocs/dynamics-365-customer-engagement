@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
 description: "Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
-ms.date: 02/18/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -63,6 +63,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 [Configure SMS channel for Twilio](configure-sms-channel-twilio.md)  
 [Configure SMS channel for TeleSign](configure-sms-channel.md)  
 [Delete a configured channel](delete-channel.md)  
-[SMS FAQ](faqs.md#sms)
+[SMS FAQ](faqs.md#sms)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

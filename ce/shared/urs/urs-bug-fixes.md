@@ -1,7 +1,34 @@
 
+## 3.12.80.9
+
+(Includes Resource Scheduling controls version 1.2.20.221614).
+
+## 3.12.79.16
+
+(Includes Resource Scheduling controls version 11.2.20.221614).
+
+- Fix filter label truncation to improve usability.
+- Filter panel fix to stay open when switching schedule board views.
+- Booking tooltip usability improvements to address issues where it was not consistently rendering.
+- Bug fix for resource count when booking from a work order using scheduling assistant.
+- On dragging the booking to next dates in Daily View "Extend to" date is shown one day earlier.
+- Bug fix for pool scheduling showing incorrect results.
+- Performance improvements for requirement group scheduling with a large number of bookable resources.
+- Bug fix for the requirements grid tabs not visible after multiple drag and drops. 
+- Bug fix for client telemetry logs for multiple client events.
+
+
 ## 3.12.78.23
 
 (Includes Resource Scheduling controls version 1.2.19.221374).
+
+- `Msdyn_SearchResourceAvailability` API fix applying territories constraint.
+- Updates to new schedule board: 
+    - Schedule assistant update to show error message from server side plugin.
+    - Schedule assistant use of custom filters.
+    - Date picker localization of "Today."
+    - Map view support for certain letters (for example: ŁĄŚĆŻĘŃÓŹ).
+    - Schedule board loading when no default language is provider (for example: `UiLanguageId` missing in user settings). 
 
 ## 3.12.77.18
 

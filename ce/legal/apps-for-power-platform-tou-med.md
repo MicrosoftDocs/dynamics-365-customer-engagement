@@ -2,6 +2,7 @@
 title: Apps for Power Platform Terms of Use (Medical)
 author: ReneeW-CPub
 robots: noindex,nofollow
+ms.author: renwe
 ---
 
 # Apps for Power Platform<br>Terms of Use
