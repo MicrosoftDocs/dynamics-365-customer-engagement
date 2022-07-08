@@ -3,7 +3,7 @@ title: Navigate the service calendar | Microsoft Docs
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
 ms.date: 04/29/2022
 ms.topic: article
-author: laalexan
+author: lalexms
 ms.author: laalexan
 manager: shujoshi
 search.audienceType: 

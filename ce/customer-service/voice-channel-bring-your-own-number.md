@@ -55,14 +55,14 @@ Azure direct routing (preview) enables you to connect your existing telephony in
 
 4. Select **Add number**.
 
-The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
   
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-route-queues.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  

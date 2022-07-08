@@ -1,7 +1,7 @@
 ---
 title: "Connected Field Service with IoTHub architecture"
 description: Learn about how Connected Field Service uses IoTHub architecture.
-ms.date: 01/20/2021
+ms.date: 06/16/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.subservice: connected-field-service
@@ -32,6 +32,9 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 > ![Diagram illustrating the connections between Connected Field Service with IoTHub architecture, and how each elements relate to each other.](../media/cfs-iothub-architecture.png)
 
 - **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoTHub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors, then an **Edge device** can be used to organize them and broker telemetry sent to IoTHub.
+  
+  > [!NOTE]
+  > Currently, the Connected Field Service implementation with IoT Hub doesn't support splitting the telemetry data for IoT Edge modules.
 
 - **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 Field Service and create work orders.
 

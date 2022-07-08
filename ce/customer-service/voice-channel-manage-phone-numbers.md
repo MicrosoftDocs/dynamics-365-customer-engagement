@@ -27,7 +27,7 @@ You can also bring your own phone number via Azure direct routing. More informat
 - [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
 > [!Important]
-> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or if your preferred phone number is unavailable, complete [this form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com with a subject line beginning with "Azure Communication Services Number Request:".
+> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or if your preferred phone number is unavailable, complete [this form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx) and email it to acstnrequest@microsoft.com with a subject line beginning with "Azure Communication Services Number Request:".
 
 ## Use trial phone number
 
@@ -37,23 +37,24 @@ If you want to end the trial earlier, select **End trial** on the **Phone number
 
 ## View phone numbers
 
-To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
-   
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
 
-   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
-   2. Select **Manage** for **Phone numbers**.
+      ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-### [Omnichannel admin center](#tab/omnichanneladmincenter)
+      1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+      2. Select **Manage** for **Phone numbers**.
 
-In the site map, select **Phone numbers** in **General settings**.
+      ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+      - In the site map, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
    > [!div class="mx-imgBorder"]
    > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
-If you don't have any phone numbers set up for your business, see [Acquire new phone numbers](#acquire-new-phone-numbers) to learn how you can purchase new numbers.
+If you don't have any phone numbers set up for your business, see Acquire new phone numbers to learn how you can purchase new numbers.
 
 ## Acquire new phone numbers
 
@@ -65,15 +66,17 @@ You can purchase new phone numbers for your organization after you've checked fo
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    2. Select **Manage** for **Phone numbers**.
+   2. Select **Manage** for **Phone numbers**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    In the site map, select **Phone numbers** in **General settings**.
+   - In the site map, select **Phone numbers** in **General settings**.
+    
 2. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
-3. On the **Features** page, do the following:
+
+1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
@@ -105,8 +108,8 @@ You can purchase new phone numbers for your organization after you've checked fo
 5. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 6. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
-> [!Note]
-> To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number.)
+ > [!Note]
+ > To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
 
 ## Add a phone number to a voice workstream
 
@@ -116,9 +119,9 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
 2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
-3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
+3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-inbound-calling.md#set-up-a-voice-workstream).
 4. Select an existing workstream from the list.
-5. Follow the steps to [configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
+5. Follow the steps to [configure a voice channel](voice-channel-inbound-calling.md#configure-a-voice-channel).
 
    The phone number is added to the workstream, and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
@@ -128,7 +131,7 @@ After you've purchased phone numbers and associated them with voice workstreams,
 
 ## Configure voice channel for inbound calling
 
-You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-route-queues.md)
+You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
 
 ## Assign phone numbers to agents
 
@@ -169,7 +172,7 @@ If you no longer need a phone number, you can release it from your organization'
 [Import phone numbers](voice-channel-sync-from-acs.md)  
 [Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-route-queues.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
 [Block spam numbers](voice-channel-block-number.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  

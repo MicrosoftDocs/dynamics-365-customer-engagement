@@ -49,7 +49,7 @@ You can add custom fields to generate an accurate model for predictive lead scor
 
 Verify that you meet the following requirement before adding predictive lead scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified leads in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
+- A minimum of 40 qualified and 40 disqualified leads created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
@@ -138,7 +138,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 1. Before you configure the model, review the [prerequisites](#prerequisites).
  
     > [!NOTE]
-    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
+    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling-scoring.md)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
@@ -182,7 +182,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 8. Choose a time period from the **Train with leads from the past** list. The default duration is 2 years.   
 
     > [!NOTE]
-    > You must have a minimum of 40 qualified and 40 disqualified leads that were created during the selected period. For example, if you select 6 months, the model considers leads that were created in the past 6 months to verify whether the minimum lead requirement is met. 
+    > You must have a minimum of 40 qualified and 40 disqualified leads that were created and closed during the selected period. For example, if you select 6 months, the model considers leads that were created in the past 6 months to verify whether the minimum lead requirement is met. 
 
     The model considers closed leads from the selected period and uses that to score the open leads from past 2 years.  
 
