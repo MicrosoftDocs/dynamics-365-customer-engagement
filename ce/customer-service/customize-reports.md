@@ -317,7 +317,7 @@ In a scenario in which you've customized your reports and then Microsoft makes u
 |FactConversation	|Conversation property id	|Foreign key to DimConversationProperty. |
 |FactConversation|	Owner system user id	|Owner system user ID. Foreign key to DimSystemUser.|
 |FactConversation	|Queue id	|Queue ID. Foreign key to DimQueue.|
-|FactConversation	|Topic id	|Topic ID. Foreign key to DimTopic.| 
+|FactConversation	|Topic id	|Topic ID. Foreign key to DimTopic.|
 |FactConversation	|Is offered	|It means whether the conversation is initiated by the customer. Bot escalates to an agent or an agent handling customer call directly|
 |FactConversation	|Is conversation date in past	|Is conversation date in past. |
 |FactConversation	|Is outbound	|Is outbound conversation. |
@@ -374,7 +374,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactSession	|Avg. wait time (min)	|The average time in minutes customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.|
 |FactSession	|Avg. wait time (sec)	|The average time in seconds customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.|
 |FactSession	|Engaged conversations	|The conversations that the agent was engaged in. Customer-to-agent communication can begin at this point.|
-|FactSession	|Engaged sessions	|# Sessions presented to an agent and accepted by an agent|
+|FactSession	|Engaged sessions	|Sessions presented to an agent and accepted by an agent|
 |FactSession	|Incoming conversations	|Incoming conversations|
 |FactSession	|Incoming messages	|Incoming messages|
 |FactSession	|Incoming sessions	|Incoming sessions|
