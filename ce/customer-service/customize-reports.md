@@ -310,7 +310,7 @@ In a scenario in which you've customized your reports and then Microsoft makes u
 |FactAgentStatusHistory	|Agent busy (DND) duration (hrs)	|The time an agent is in the Busy DND state in the Omnichannel application.|
 |FactAgentStatusHistory	|Agent busy duration (hrs)	|Time an agent in the busy state in Omnichannel application.|
 |FactAgentStatusHistory	|Agent offline duration (hrs)	|The time an agent signed out of the Omnichannel application.|
-|FactAgentStatusHistory|	Agent total sign-in time (hrs)	|The time an agent in each status.| The column is used to calculate other measure.|
+|FactAgentStatusHistory|	Agent total sign-in time (hrs)	|The time an agent in each status. The column is used to calculate other measure.|
 |FactConversation|	Conversation id	|Identifier of the conversation record. Primary key. Type: Guid.|
 |FactConversation|	Conversation title	|Conversation title.|
 |FactConversation	|Conversation Url	|Conversation URL.|
