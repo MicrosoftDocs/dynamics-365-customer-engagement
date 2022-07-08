@@ -258,7 +258,9 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 ### Manual retraining
 
-1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
+1. On the predictive opportunity scoring configuration page, turn off **Retrain automatically** if it's enabled.
+
+1. Select **Edit model**.
 
 2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (account) including custom attributes to train the model.
 
