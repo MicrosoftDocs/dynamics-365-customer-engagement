@@ -32,7 +32,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 ## Enable and configure standard Sales Insights features
 
-The standard Sales Insights features&mdash;assistant (standard), Auto capture (standard + preview), and email engagement (standard)&mdash;are available for you along with Dynamics 365 Sales. You can configure these standard features as required in your organization.
+The standard Sales Insights features&mdash;assistant (standard), Auto capture (standard), and email engagement (standard)&mdash;are available for you along with Dynamics 365 Sales. You can configure these standard features as required in your organization.
 
 >[!NOTE]
 >The standard Sales Insights features aren't available with the Sales Professional app. 

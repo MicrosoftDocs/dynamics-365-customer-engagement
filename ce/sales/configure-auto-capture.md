@@ -40,9 +40,9 @@ When you enable auto capture, you help salespeople in your organization by sugge
 
 Enable auto capture by following these steps:
 
-1.	[Review prerequisites for auto capture](#prerequisites-for-basic-auto-capture).
+1.	[Review prerequisites for auto capture](#prerequisites-for-auto-capture).
 
-2.	[Enable auto capture](#enable-basic-auto-capture).
+2.	[Enable auto capture](#enable-auto-capture).
 
 ### Prerequisites for auto capture
 
