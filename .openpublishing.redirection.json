@@ -1542,6 +1542,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/premium-auto-capture.md",
+      "redirect_url": "free-auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/set-up-onenote-integration-in-dynamics-365.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/basics/collaborate-with-team",
       "redirect_document_id": "false"
