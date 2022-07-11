@@ -44,14 +44,14 @@ The following table explains the enhancements that you'll find in the **Enhanced
 |Priority   | Shows the color-coded Priority Icon followed by the text for all the views on Case Grid. This column is editable on double-click. Sorting and filtering are supported. | Only the text appears, without any icons.     |
 |Owner  | Shows the profile image of the Owner, if available; otherwise shows the initials followed by the Owner name as text. This column is editable on double-click. Sorting and filtering are supported.| Only the owner’s name  appears without any profile image or initials.    |
 |Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. This is read-only. Sorting and filtering aren’t supported.            Additionally, if the activity has an attachment, it's indicated by an attachment icon, next to the activity.|  Only empty text will appear. |
-|Next SLA   | Searches through all active (Non cancelled) SLA KPI instances attached to the given case, filters, and picks the SLA KPI instance which is in unresolved state and with the earliest expiry time. If the expiry time is in the past, it will denote that there is an expired SLA instance associated with the case. SLA KPI instance name isn't shown along with the timer control. Properties of the SLA Timer Control which are not supported are: Negative timer, Customized Labels, Upgrade Frequency, and auto-refresh. It is read-only. Sorting is supported but not filtering. | SLA Timer won't appear. Only the value assigned to Next SLA field in the backend will appear. It has details such as name of sla instance, expiry/warning time, and so on.|
-|Subject   | Shows a subject associated with the case. It is editable on double-click. All the available options are listed to be selected. A hierarchical view isn't supported. Sorting and filtering are supported. | Subject associated with the case will appear as a text. |
-|Is Escalated   | Shows a toggle button reflecting whether the case is escalated or not. It is editable. Sorting and filtering are supported. | Escalated information as Yes/No will appear as a text. |
-|Case Age| Shows the static text with the duration for which the case is active for active and resolved cases in the format: {xx}d {yy}h or {xx}h {yy}m. For cancelled cases, the column shows Cancelled. The time gets refreshed every minute. The column will show 0h 0m when a case is created, after which the column will show either {xx}h {yy}m or {xx}d {yy}h. It is read-only. Sorting and filtering are not supported. | Duration in minutes (whole number) for active and resolved cases will appear. For cancelled cases, Cancelled will appear. |
+|Next SLA   | Searches through all active (taht is, non canceled) SLA KPI instances attached to the given case, filters, and then picks the SLA KPI instance that's in an unresolved state and has the earliest expiry time. If the expiry time is in the past, this denotes that there's an expired SLA instance associated with the case. The SLA KPI instance name isn't shown along with the timer control. The properties of the SLA Timer Control that aren't supported are negative timer, customized labels, upgrade frequency, and auto-refresh. This column is read-only. Sorting is supported but not filtering. | The SLA timer won't appear. Only the value assigned to **Next SLA** field in the back end will appear, which includes details such as name of SLA instance, expiry/warning time.|
+|Subject   | Shows the subject associated with the case. This column is editable on double-click. All the available options that can be selected are listed. A hierarchical view isn't supported. Sorting and filtering are supported. | The subject associated with the case will appear as a text. |
+|Is Escalated   | Shows a toggle button reflecting whether the case has been escalated. THis column is editable. Sorting and filtering are supported. | Escalation information in the form of **Yes/No** appears as text. |
+|Case Age| Shows the static text with the duration for which the case has been active for active and resolved cases in the format {xx}d {yy}h or {xx}h {yy}m. For canceled cases, the column shows **Canceled**. The time gets refreshed every minute. The column will show **0h 0m** when a case is created, after which the column will show either **{xx}h {yy}m** or **{xx}d {yy}h**. This column is read-only. Sorting and filtering are not supported. | Duration in minutes (whole number) for active and resolved cases will appear. For canceled cases, **Canceled** will appear. |
 
 ## Customize the Case grid
 
-Depending on the information that you want to view, you can choose to add columns to the Case grid.
+Depending on the information that you want to view, you can choose to add columns to the case grid and you can change the existing case grid views.
 
 ### Add columns to the Case grid
 
@@ -59,34 +59,34 @@ Depending on the information that you want to view, you can choose to add column
 
 To create a copy of the **Enhanced Active Cases** view and customize it to add a new column:
 
-1. In the Customer Service workspace site map, open a new tab and select **Cases**.
+1. In the Customer Service workspace site map, open a new tab and then select **Cases**.
 
-1. Select **Enhanced Active Cases** from the dropdown list.
-1. Select **Switch to classic** view.
-1. Enter a new name for the view to save it as a copy of the **Enhanced Active Cases**view.
-1. Select the new view that you just created from the list of views available for Cases.
+1. From the dropdown list, select **Enhanced Active Cases** .
+1. Select **Switch to classic**.
+1. Enter a new name for the view. This saves it as a copy of the **Enhanced Active Cases** view.
+1. From the list of views available for **Cases**, select the new view that you just created.
 1. Select **Column Options**.
-1. On the **Edit columns** dialog, select **Add columns**. The Add columns dialog appears.
-1. On the **Add columns** dialog, within **Case**, search for the column that you want to add. 
-1. Select the column and then select **Close**. The new column that you have just added shows up on the **Edit columns** dialog.
-1. Select **Apply**. If you want to change the sequence of the columns, select **Move up**and then **Apply**.
+1. In the **Edit columns** dialog, select **Add columns**. The Add columns dialog appears.
+1. In the **Add columns** dialog, within **Case**, search for the column that you want to add.
+1. Select the column and then select **Close**. The new column that you have just added appears in the **Edit columns** dialog.
+1. Select **Apply**. If you want to change the sequence of the columns, select **Move up**and then select **Apply**.
 
 ### Make changes to existing case grid views
 
-You can also add columns to your existing views. For example, if you want to add **Last Interaction** or any of the other new key data columns, you must perform the following steps:
+You can also add columns to your existing views. For example, if you want to add **Last Interaction** or any of the other new key data columns, perform the following steps:
 
-1.	In the Customer Service workspace site map, open a new tab and select **Cases**.
+1.	In the Customer Service workspace site map, open a new tab and then select **Cases**.
 
-1.	Select any of the existing views from the dropdown list.
+1.	From the dropdown list, select any of the existing views.
 1.	Select **Column Options**.
-1.	On the **Edit columns** dialog, select **Add columns**. The **Add columns** dialog appears.
-1.	On the **Add columns** dialog, within Case, select **Custom** from the dropdown list. 
-1.	Select **Last Interaction** and then select **Close**. **Last Interaction** shows up on the **Edit columns** dialog.
-1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up** and then **Apply**.
+1.	In the **Edit columns** dialog, select **Add columns**. The **Add columns** dialog appears.
+1.	In the **Add columns** dialog, within Case, select **Custom** from the dropdown list. 
+1.	Select **Last Interaction** and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
+1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up** and then select **Apply**.
 
 ### See also
 
-[Enable case grids (Preview)](enable-case-grids.md#enable-case-grids-preview)
+[Enable case grids (preview)](enable-case-grids.md#enable-case-grids-preview)
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
 
