@@ -33,7 +33,7 @@ The following assignment methods are available out of the box:
 
 - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-You can also create your own assignment method to suit the business needs.
+You can also create custom assignment method to suit the business needs.
 
 - **Create new**: Lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
@@ -41,7 +41,7 @@ You can also create your own assignment method to suit the business needs.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
   
   > [!IMPORTANT]
-  > You must configure skill-matching rules in the custom assignment method because the **Default skill matching algorithm** settings of the workstream won't be used in custom assignment method.
+  > You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
 
 ### Assignment cycle
 
