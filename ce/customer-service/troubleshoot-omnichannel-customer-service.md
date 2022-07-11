@@ -500,7 +500,7 @@ The issue might happen due to the following reasons:
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
-- When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product can be pointing to a different URL.
+- When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL.
 
 ### Resolution
 
