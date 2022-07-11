@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 07/07/2022
+ms.date: 07/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -47,7 +47,7 @@ The following are some of the key features of the modernized case grids:
 
 To make the **Enhanced Active Cases** view accessible to agents you must enable the **(Preview) Power Apps grid control**:
 
-1. Go to the https://powerautomate.microsoft.com portal.
+1. Go to https://make.powerapps.com. portal.
 1. Select **Solutions**. The **Solutions** page appears.
 1. On the **Solutions** page, select **Default Solution**.
 1. On the **Default Solution** page, select **Tables** from the left panel and then select the **Case** entity.
@@ -84,7 +84,7 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
 
 To add columns in the Case grid:
 
-1. Go to the https://powerautomate.microsoft.com portal.
+1. Go to the https://make.powerapps.com portal.
 
 1. Select **Solutions**. The **Solutions** page appears.
 1. On the **Solutions** page, select **Default Solution**.
@@ -99,9 +99,9 @@ To add columns in the Case grid:
 
 You can also add new icons for the Origin and Priority Columns. Here's an example that explains how you can add a new **Option Set Value** for the **Priority** column with the label **Custom**.
 
-1. Go to the https://powerautomate.microsoft.com portal.
+1. Go to https://make.powerapps.com portal.
 1. Select **Solutions**.
-1. Select the Solution in which you want to add the web resource. 
+1. Select the **Solution** in which you want to add the web resource. 
 1. Select **New > More > Web resource**.
 1. In the **New web resource** dialog, enter the following:
 
