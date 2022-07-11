@@ -1,7 +1,7 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 07/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -28,13 +28,19 @@ The operating hours schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you've set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they'll receive responses that you've set.
 
-In Omnichannel admin center, after you've created an operating hour record, you can do the following steps, depending on your requirement:
+In Customer Service admin center and Omnichannel admin center, after you've created an operating hour record, you can do the following steps, depending on your requirement:
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
 - **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
 
 In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour record will be available for selection on the **General** and **Summary** tabs respectively.
+
+## How conversations and calls are routed when operating hours are set
+
+For live chat and voice, the conversations are routed to the queue and then closed.
+
+For asynchronous channels, such as SMS and WhatsApp, if they are configured with pick-based workstreams, the conversations remain in open state till agents take up the assignments. If push-based option is configured, the assignment method that's configured will be used to route the work items.
 
 ## Create a record to define operating hours
 
@@ -126,9 +132,9 @@ Do the following to specify operating hours for a queue:
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
-    1. In the **Advanced Queues** section, select **Manage**.                                                                         
-        
-        The **Queues** view is displayed. 
+    1. In the **Advanced Queues** section, select **Manage**.
+
+       The **Queues** view is displayed.
 
    ### [Omnichannel admin center](#tab/Omnichanneladmincenter)
 
