@@ -101,7 +101,7 @@ You can view the **Active Duration (minutes)** and the **Elapsed time (minutes)*
 
 **Elapsed Time (minutes)**: Calculates the pause duration, for example, the time for which a case was paused.
 
-:::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed time duration":::
+:::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elaspsed time duration":::
 
 > [!NOTE]
 > - The out-of-the-box duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)** are available only for new SLA KPI instances.
