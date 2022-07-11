@@ -1,7 +1,7 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 04/02/2022
+ms.date: 07/15/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -40,8 +40,10 @@ You can enable post-conversation surveys for the following channels:
 - WhatsApp
 - Custom channel
 - Microsoft Teams
+- Apple Messages for Business
+- Google Business Messages
 
-For a Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
+For the Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
 ## Prerequisite
 
@@ -49,7 +51,7 @@ The post-conversation survey uses Dynamics 365 Customer Voice to create surveys.
 
 ## Configure the post-conversation survey
 
-In the Omnichannel admin center or Omnichannel Administration app, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
+In the Customer Service admin center or Omnichannel admin center, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
 
 **To configure the survey**
 
@@ -74,14 +76,12 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
     - **Send survey link to conversation:** At runtime, the survey link is sent to the customers.
 
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
-   - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
+    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 
 1. Select the **Bot conversation survey** checkbox to share surveys for conversations that are handled by bots.
 
-   > [!NOTE]
-   > The bot conversation survey option is available for the live chat channel only.
 
-    By default, the **Use same survey settings as above** checkbox is selected.
+   By default, the **Use same survey settings as above** checkbox is selected.
 
 1. If you want to use different settings for the surveys sent by bots, repeat steps 4 and 5.
 
