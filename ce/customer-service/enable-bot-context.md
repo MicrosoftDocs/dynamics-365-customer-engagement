@@ -1,7 +1,7 @@
 ---
 title: "Enable bot context NuGet package | Microsoft Docs"
 description: "Enable a bot to understand context while authoring a bot flow."
-ms.date: 06/08/2022
+ms.date: 07/12/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -26,12 +26,11 @@ For information on configuring context variables, see [Configure context variabl
 
 Alternatively, you can use the following command in NuGet CLI.
 
-```
+```JavaScript
 Install-Package Microsoft.Xrm.Omnichannel.BotSDK
 ```
-The bot SDK is now installed and the Omnichannel middleware is available in your project.
 
-The Omnichannel for Customer Service context messages are sent as event activity to bots, and you need to override the `OnEventActivityAsync` method to process the context messages. More information: [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true)
+The bot SDK is now installed and the Omnichannel middleware is available in your project.
 
 ## Use the Omnichannel middleware in your bot code
 
@@ -41,12 +40,34 @@ Use this procedure if you've created your bot using Visual Studio Azure Bot temp
 
 2. Add the import statement and instantiate the Omnichannel middleware.  
 
-    ```
+    ```CSharp
     using Microsoft.Omnichannel.Bot.Middleware; 
     Use(new OmnichannelMiddleware()); 
     ```
 
     ![Add import statement.](media/bot-context-add-import.png "Add import statement")
+
+## Include context for Azure bots in your bot code
+
+The Omnichannel for Customer Service context messages are sent as event activity to bots, and you need to override the `OnEventActivityAsync` method to process the context messages. 
+
+Here's a sample code that you can use to include context for Azure bots.
+
+```CSharp
+protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> turnContext, CancellationToken cancellationToken)
+        {
+            if (turnContext.Activity.Name == "omnichannelSetContext")
+           {
+                // Replace with your logic to fetch the context from Activity.Value
+                IActivity replyActivity = MessageFactory.Text($"Received context :  {turnContext.Activity.Value.ToString()}");
+
+                // Replace with your logic to consume the context
+                await turnContext.SendActivityAsync(replyActivity, cancellationToken);
+            }
+        }
+```
+
+More information: [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true) 
 
 ### See also
 
