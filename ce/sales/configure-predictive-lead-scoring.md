@@ -263,7 +263,7 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
 #### Edit the model
 
-1. On the predictive lead scoring configuration page, turn off **Retrain automatically** if it's enabled.
+1. On the predictive lead scoring page, open the model and ensure that **Retrain automatically** is turned off.
 
 1. Select **Edit model**.
 
