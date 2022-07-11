@@ -1542,6 +1542,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/premium-auto-capture.md",
+      "redirect_url": "free-auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/set-up-onenote-integration-in-dynamics-365.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/basics/collaborate-with-team",
       "redirect_document_id": "false"
@@ -23717,72 +23722,72 @@
     },
     {
       "source_path": "ce/sales/ts-leads.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-opportunities.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-orders.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-orders-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-orders-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-products.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-products-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-products-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-oqoi.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-currency-pricelist.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-currency-and-price-lists-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-currency-and-price-lists-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-views.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-table-views-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-table-views-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-forecasts.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-inapp-marketing.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-in-app-marketing-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-in-app-marketing-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-unified-interface.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-unified-interface-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-unified-interface-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-sales-pipeline.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/ts-email.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/troubleshooting-sp.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/sales/troubleshooting-spro.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues",
       "redirect_document_id": false
     },
     {

@@ -102,8 +102,6 @@ When enabled for [offline mode](mobile-power-app-system-offline.md), the app wil
 
 The following capabilities *are not* available at this time. These capabilities *are* available in the iOS and Android apps.
 
-- Push notifications
-- Geo location tracking of users
 - Quick notes photos and videos
 - Access to GCC High or China cloud environment
 - Search with barcode via global search
