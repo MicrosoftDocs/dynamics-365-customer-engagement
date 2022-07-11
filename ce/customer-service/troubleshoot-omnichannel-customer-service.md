@@ -41,17 +41,15 @@ The provisioning application you are directed to is associated with the region y
 
 ### Issue
 
-If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service will fail in your organization.
+ When provisioning Omnichannel for Customer Service, the following errors are displayed:
+
+-  **Unable to perform the requested operation due to lack of permissions**, if the user is logged in as a System Administrator on a child business unit instead of the root business unit.
+- **Request validation failed. Failed to execute action in CRM for selected environment**, if the user doesn't have read privileges for System roles.
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow the steps to remove the services.
-
-1. Identify the services in Azure AD.
-
-2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
-3. Add the service principal back.
-
+- Check the permissions for the user and change the Business Unit of the system user to root business unit.
+- Ensure that the user has at least one security role, other than the System Administrator assigned. The user should preferably have the Omnichannel Administrator role assigned.
 
 ### Issue
 
@@ -62,8 +60,21 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 
 ### Resolution
 
-- Check the permissions for the user and change the Business Unit of the System user to root business unit.
-- Ensure that the user has at least one security role, other than the System Administrator assigned. The user should preferably have the Omnichannel admin role assigned.
+- Check the permissions for the user and change the Business Unit of the system user to root business unit.
+- Ensure that the user has at least one security role, other than the System Administrator assigned. The user should preferably have the Omnichannel Administrator role assigned.
+
+### Issue
+
+If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service will fail in your organization.
+
+### Resolution
+
+To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow the steps to remove the services.
+
+1. Identify the services in Azure AD.
+
+2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
+3. Add the service principal back.
 
 #### Identify the services in Azure AD
 
