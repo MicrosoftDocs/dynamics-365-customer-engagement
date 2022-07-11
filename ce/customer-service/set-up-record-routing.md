@@ -32,7 +32,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
 ## Configure unified routing for records
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -42,11 +42,11 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    In the site map, select **Record routing** in **General settings**.
+    - In the site map, select **Record routing** in **General settings**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
-    Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**. 
+    - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**. 
 
 1. On the **Record routing** page, select **Add**.
 
@@ -69,11 +69,11 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
+    - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
+    - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
    
 1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
@@ -89,7 +89,7 @@ Intake rules for a record help determine the workstream to be picked up to assig
 
 You can create intake rules independently and map them to basic routing rulesets also. However, on any workstream details page, only those intake rules will be displayed that are mapped to the workstream. Therefore, if you want to prioritize the runtime evaluation of the intake rules, you'll need to select **See more** on the workstream details page, and reorder the rules in the **Decision list**.
 
-Perform the following steps to configure the intake rules:
+Perform the following steps:
 
 1. Select the workstream that you configured for routing records, such as the case.
 

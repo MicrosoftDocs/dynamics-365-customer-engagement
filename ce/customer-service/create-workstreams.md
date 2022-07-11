@@ -17,7 +17,7 @@ A workstream is a container to enrich, route, and assign work items, and can be 
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
-The workstream can be one of the following types.
+The workstream can be one of the following types:
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Microsoft Teams channels.
 - **Record**: To route records, such as case, email, and activity.
@@ -32,19 +32,19 @@ The workstream can be one of the following types.
 
 You can create workstreams for unified routing in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the apps, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    In the site map, select **Workstreams** in **Customer support**.
+    - In the site map, select **Workstreams** in **Customer support**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
-     In the site map, select **Workstreams** in **General settings**.
+     - In the site map, select **Workstreams** in **General settings**.
     
    ### [Customer Service Hub](#tab/customerservicehub)
 
-     In the site map, select **Workstreams** in **Unified Routing**.
+     - In the site map, select **Workstreams** in **Unified Routing**.
 
 1. Select **New workstream**.
 
@@ -102,7 +102,7 @@ Routing rules for a workstream consist of work classification rules and route-to
 
 ### Configure work distribution
 
-In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options.
+In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
 - **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
  

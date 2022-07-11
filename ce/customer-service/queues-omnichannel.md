@@ -53,11 +53,11 @@ Assign a group number that helps you organize your queues in the list view. The 
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    In the site map, select **Queues** in **General settings**.
+    - In the site map, select **Queues** in **General settings**.
     
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
+    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
 2. On the **Queues** page, do the following:
 
