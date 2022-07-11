@@ -89,9 +89,11 @@ To learn more about adding a timer control to an SLA-enabled entity, see [Add a 
 
 ## View Active Duration (minutes) and Elapsed Time (minutes) duration of SLA KPIs (preview)
 
-[](../includes/cc-early-access.md)
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 In addition to the failure and warning time, you and your supervisors can view the exact number of business hours spent to achieve a certain SLA KPI with the out-of-the-box  duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)**.
+
+In Customer Service Workspace and Customer Service Hub, tracking the business hours taken by the SLA KPI to reach its terminal status will help you and your supervisors decide whether the SLAs are realistic and thereby take decisions about resourcing and efficiency.
 
 You can view the **Active Duration (minutes)** and the **Elapsed time (minutes)** on the SLA tab of any custom entity that you use.
 
@@ -102,8 +104,18 @@ You can view the **Active Duration (minutes)** and the **Elapsed time (minutes)*
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed time duration":::
 
 > [!NOTE]
-> The out-of-the-box duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)** are available only for new SLA KPI instances.
-> For legacy SLA KPI Instances and for old records, being used on any entity, the **Active Duration (minutes)** and **Elapsed time (minutes)** fields will remain empty.
+> - The out-of-the-box duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)** are available only for new SLA KPI instances.
+> - For legacy SLA KPI Instances and for old records, being used on any entity, the **Active Duration (minutes)** and **Elapsed time (minutes)** fields will remain empty.
+
+The following examples show how the **Active Duration (minutes)** and the **Elapsed time (minutes)** are calculated:
+
+**Scenario 1:** The SLA KPI Instance is in **InProgress** and moves to **Succeeded** status in non-business hours.
+
+The SLA KPI is created during business hours on Monday 9 AM and moves to **Succeeded** in non-business hours at 7 PM. The **ActiveTimeInBusinessHours** is calculated as the time from **CreatedOn**to **SuccessTime** (excluding non-business hours), that is, 9 h and the **PausedDuration:ElapsedTime** is equal to Null.
+
+**Scenario 2:** The SLA KPI Instance is in **InProgress** but moves to **Succeeded** in business hours.
+
+The SLA KPI is created during business hours on Monday 9 AM but was paused at 10 AM. The SLA reaches the terminal status of **Succeeded** within business hours on Monday 4 PM. So, the **ActiveTimeInBusinessHours** time is calculated from **CreatedOn** to **SuccessTime** (excluding non-business hours and pausedtime), which is 1 h. So, the **Active Duration (minutes)** is calculated as 9 AM to 10 AM = 1 h and the **Elapsed time (minutes)** is calculated as 6 hours (10 AM to 4 PM).
 
 ### See also
 
