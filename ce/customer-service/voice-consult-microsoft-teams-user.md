@@ -24,10 +24,9 @@ The following prerequisites must be set for the Microsoft Teams users:
 - **Assign phone numbers to SMEs in Microsoft Teams**: Must have a phone number assigned to them in Microsoft Teams to participate in the voice call as an SME consult. More information: [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 To update the Teams phone number in the user profile, perform the following steps: 
-
-    1. Sign in to the Azure portal and go to **Azure Active Directory**.
-    1. Select **Manage** > **Users**
-    1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
+  1. Sign in to the Azure portal and go to **Azure Active Directory**.
+  1. Select **Manage** > **Users**
+  1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
 
 
 - **Update the Azure profile for SMEs with phone number**: Add SMEs as guest users to the Azure Active Directory for them to participate in a Teams voice call. To add a guest user and update a phone number in the user profile, perform the following steps:
