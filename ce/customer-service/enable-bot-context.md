@@ -47,11 +47,11 @@ Use this procedure if you've created your bot using Visual Studio Azure Bot temp
 
     ![Add import statement.](media/bot-context-add-import.png "Add import statement")
 
-## Include context for Azure bots in your bot code
+## Use context for Azure bots in your bot code
 
 The Omnichannel for Customer Service context messages are sent as event activity to bots, and you need to override the `OnEventActivityAsync` method to process the context messages. 
 
-Here's a sample code that you can use to include context for Azure bots.
+Here's a sample code that you can use to fetch and use the context for Azure bots.
 
 ```CSharp
 protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> turnContext, CancellationToken cancellationToken)
