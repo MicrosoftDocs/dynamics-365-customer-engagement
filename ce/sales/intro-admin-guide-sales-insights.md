@@ -1,8 +1,7 @@
 ---
 title: "Introduction on how to administer Sales Insights | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Sales Insights Add-in for Dynamics 365 Sales."
-keywords: ""
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
@@ -33,7 +32,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 ## Enable and configure standard Sales Insights features
 
-The standard Sales Insights features&mdash;assistant (standard), Auto capture (standard + preview), and email engagement (standard)&mdash;are available for you along with Dynamics 365 Sales. You can configure these standard features as required in your organization.
+The standard Sales Insights features&mdash;assistant (standard), Auto capture (standard), and email engagement (standard)&mdash;are available for you along with Dynamics 365 Sales. You can configure these standard features as required in your organization.
 
 >[!NOTE]
 >The standard Sales Insights features aren't available with the Sales Professional app. 
@@ -104,7 +103,7 @@ With your Dynamics 365 Sales Enterprise license, you can set up and experience S
 
 ## Install and configure premium Sales Insights features
 
-The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, auto capture premium (preview), notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence. You can configure these features as required in your organization.
+The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence. You can configure these features as required in your organization.
 
 The following diagram illustrates the steps to configure these features:
 
@@ -163,7 +162,7 @@ The premium Sales Insights features aren't available by default. You must instal
 After installing the premium Sales Insights features, you can configure the premium features as required:
 
 -	To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant).   
--	To configure premium auto capture, see [Configure auto capture](configure-auto-capture.md).   
+ 
 -	To configure notes analysis, see [Configure notes analysis](configure-notes-analysis.md).   
 -	To configure relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).   
 -	To configure talking points, see [Configure talking points](configure-talking-points.md).   
