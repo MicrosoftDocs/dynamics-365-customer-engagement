@@ -89,7 +89,7 @@ To learn more about adding a timer control to an SLA-enabled entity, see [Add a 
 
 ## View Active Duration (minutes) and Elapsed Time (minutes) duration of SLA KPIs (preview)
 
-[!INCLUDE[cc-early-access](cc-early-access.md)]
+[](../includes/cc-early-access.md)
 
 In addition to the failure and warning time, you and your supervisors can view the exact number of business hours spent to achieve a certain SLA KPI with the out-of-the-box  duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)**.
 
