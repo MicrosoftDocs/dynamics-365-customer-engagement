@@ -32,18 +32,18 @@ ms.custom:
 
 The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. More information: [Key features](enable-case-grids.md#key-features)
 
-## Columns on the Enhanced Active Cases View
+## Columns on the Enhanced Active Cases view
 
-To be able to view the modernized case grids, your administrator must enable the **Enhanced Active Cases** View. More information: [Enable case grids (Preview)](enable-case-grids.md#enable-case-grids-preview)
+To be able to view the modernized case grids, your administrator must enable the **Enhanced Active Cases** view. More information: [Enable case grids (preview)](enable-case-grids.md#enable-case-grids-preview)
 
-The following table explains the enhancements that you would find in the **Enhanced Active Cases** View columns, when the **(Preview) Power Apps grid control** is enabled, as against other grids, such as **Read Only Grid**.
+The following table explains the enhancements that you'll find in the **Enhanced Active Cases** view columns, when the **(Preview) Power Apps grid control** is enabled, compared with other grids, such as the **Read Only Grid**.
 
 |Column  |Experience with (Preview) Power Apps grid control |Experience with other grids  |
 |---------|---------|---------|
-|Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. It is editable on double-click. Sorting and filtering are supported. | Only the text will appear without any icons.      |
-|Priority   | Shows the color-coded Priority Icon followed by the text for all the views on Case Grid. It is editable on double-click. Sorting and filtering are supported. | Only the text will appear without any icons.     |
-|Owner  | Shows the profile image of the Owner if available, else shows the initials followed by the Owner name as text. It is editable on double-click. Sorting and filtering are supported.| Only the Owner’s name will appear without any Profile image or the Initials.    |
-|Last Interaction    | Shows the last activity and the action performed on that activity for that case. For example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. It is read-only. Sorting and filtering aren’t supported.            Additionally, if the activity has an attachment, it is displayed by an attachment icon, next to the activity.|  Only empty text will appear. |
+|Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. This column is editable on double-click. Sorting and filtering are supported. | Only the text appears, without any icons.      |
+|Priority   | Shows the color-coded Priority Icon followed by the text for all the views on Case Grid. This column is editable on double-click. Sorting and filtering are supported. | Only the text appears, without any icons.     |
+|Owner  | Shows the profile image of the Owner, if available; otherwise shows the initials followed by the Owner name as text. This column is editable on double-click. Sorting and filtering are supported.| Only the owner’s name  appears without any profile image or initials.    |
+|Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. This is read-only. Sorting and filtering aren’t supported.            Additionally, if the activity has an attachment, it's indicated by an attachment icon, next to the activity.|  Only empty text will appear. |
 |Next SLA   | Searches through all active (Non cancelled) SLA KPI instances attached to the given case, filters, and picks the SLA KPI instance which is in unresolved state and with the earliest expiry time. If the expiry time is in the past, it will denote that there is an expired SLA instance associated with the case. SLA KPI instance name isn't shown along with the timer control. Properties of the SLA Timer Control which are not supported are: Negative timer, Customized Labels, Upgrade Frequency, and auto-refresh. It is read-only. Sorting is supported but not filtering. | SLA Timer won't appear. Only the value assigned to Next SLA field in the backend will appear. It has details such as name of sla instance, expiry/warning time, and so on.|
 |Subject   | Shows a subject associated with the case. It is editable on double-click. All the available options are listed to be selected. A hierarchical view isn't supported. Sorting and filtering are supported. | Subject associated with the case will appear as a text. |
 |Is Escalated   | Shows a toggle button reflecting whether the case is escalated or not. It is editable. Sorting and filtering are supported. | Escalated information as Yes/No will appear as a text. |
