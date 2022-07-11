@@ -1,7 +1,7 @@
 ---
 title: "Configure talking points"
 description: "Configure talking points to provide suggestions on conversation starters that help sellers to quickly establish communications with customers."
-ms.date: 10/26/2021
+ms.date: 07/01/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: cc6353f5-f044-4872-a486-9954550caa1b
@@ -15,6 +15,9 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 # Configure talking points 
+
+> [!IMPORTANT]
+> Talking points will be deprecated from August 2022. For more information about its impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated). 
 
 The talking points feature helps users in your organization to quickly establish communications with customers.
 
