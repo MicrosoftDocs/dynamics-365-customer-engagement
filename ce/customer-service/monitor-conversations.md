@@ -7,7 +7,7 @@ author: "neeranelli"
 ms.author: nenellim
 manager: shujoshi
 ---
-# Monitor, assign,transfer, and forcibly end conversations
+# Monitor, assign, transfer, and forcibly end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
