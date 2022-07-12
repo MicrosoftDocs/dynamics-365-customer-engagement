@@ -1,7 +1,7 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 07/11/2022
+ms.date: 07/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ manager: shujoshi
 
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues.
 
-The operating hours schedules cater to the following scenarios:
+The operating hour schedules cater to the following scenarios:
 
 - Display the non-availability of customer support on public holidays that are otherwise operating hours.
 - Accommodate change of calendar timings for daylight saving time twice an year for timezones that have implemented the daylight saving time.
@@ -40,7 +40,7 @@ When operating hours are in effect, work items during non-business hours are han
 
 For live chat and voice, the conversations and calls are routed to the queue and then closed.
 
-For asynchronous channels, such as SMS and WhatsApp, if they are configured with pick-based workstreams, the conversations remain in the open state till agents sign in and take up the assignments. If push-based option is configured, the assignment method that's configured will be used to route the work items.
+For asynchronous channels, such as SMS and WhatsApp, if pick-based option is configured, the conversations remain in the open state till agents sign in and take up the assignments. If push-based option is configured, the assignment method that's configured will be used to route the conversations.
 
 ## Create a record to define operating hours
 

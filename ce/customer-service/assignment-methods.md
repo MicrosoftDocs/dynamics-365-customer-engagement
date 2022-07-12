@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 02/16/2022
+ms.date: 07/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
