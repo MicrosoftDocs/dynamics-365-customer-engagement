@@ -28,13 +28,14 @@ The following are important prerequisites that you must complete before configur
 - [Register as a partner](https://developers.google.com/business-communications/business-messages/guides/how-to/register#register_as_a_partner)
 
 In Google, complete the following actions:
-·	[Create a service account with a service account key](https://developers.google.com/business-communications/business-messages/guides/how-to/register#create_a_service_account)
-·	[Create an agent](https://developers.google.com/business-communications/business-messages/guides/how-to/agents?method=console)
-·	[Set non-local information](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/non-local?method=console)
-·	[Set messaging availability](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/availability?method=console)
-·	[Set agent- and location-level settings](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/begin-conversation?method=console)
-·	[Set the default locale](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/localization?method=console#update-default-locale)
-·	[Verify the agent](https://developers.google.com/business-communications/business-messages/guides/how-to/verify?method=console)
+
+-	[Create a service account with a service account key](https://developers.google.com/business-communications/business-messages/guides/how-to/register#create_a_service_account)
+-	[Create an agent](https://developers.google.com/business-communications/business-messages/guides/how-to/agents?method=console)
+-	[Set non-local information](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/non-local?method=console)
+-	[Set messaging availability](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/availability?method=console)
+- [Set agent- and location-level settings](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/begin-conversation?method=console)
+-	[Set the default locale](https://developers.google.com/business-communications/business-messages/guides/how-to/agents/localization?method=console#update-default-locale)
+-	[Verify the agent](https://developers.google.com/business-communications/business-messages/guides/how-to/verify?method=console)
 
 ## End-to-end walkthrough
 
