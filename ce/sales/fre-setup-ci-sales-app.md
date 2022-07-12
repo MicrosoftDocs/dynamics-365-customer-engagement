@@ -57,7 +57,7 @@ Review the following requirements before you configure Teams recording for conve
 4.	(Optional), In the **Teams** card, select the ellipses (three-dots) and then select **Configure Teams calls** if you want to review or modify the Teams call configuration.
 5. Select the **Teams** card to create a recording policy for Teams calls. A recording policy defines what you want to record, who you want to record, and which role has the permissions to record. The following screenshot illustrates a sample recording policy:  
     
-        :::image type="content" source="media/new-recording-policy.png" alt-text="A screenshot of the new recording policy pane"::: 
+    :::image type="content" source="media/new-recording-policy.png" alt-text="A screenshot of the new recording policy pane"::: 
 5. Configure the settings as described in the following table.
 
 
