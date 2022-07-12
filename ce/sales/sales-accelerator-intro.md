@@ -26,7 +26,7 @@ By using the Sales accelerator:
 
 
 >[!NOTE]
->Sales accelerator is not supported on mobile devices.
+>Sales accelerator is not supported on mobile devices, such as tablets and smartphones.
 
 ### See also
 
