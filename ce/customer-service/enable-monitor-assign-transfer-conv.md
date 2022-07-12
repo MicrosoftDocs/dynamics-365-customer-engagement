@@ -8,7 +8,7 @@ ms.author: laalexan
 manager: shujoshi
 ---
 
-# Enable your supervisors to monitor, assign,transfer, and forcibly end conversations
+# Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
