@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 07/11/2022
+ms.date: 07/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -97,21 +97,25 @@ In Customer Service Workspace and Customer Service Hub, tracking the business ho
 
 You can view the **Active Duration (minutes)** and the **Elapsed time (minutes)** on the SLA tab of any custom entity that you use.
 
-**Active Duration (minutes)**: Calculates the time for which the SLA KPI Instance was active. The time is calculated based on business hours and calendars, similar to warning and failure time calculation.
+**Active Duration (minutes)**: Calculates the time for which the SLA KPI Instance was active. 
 
-**Elapsed Time (minutes)**: Calculates the pause duration, for example, the time for which a case was paused.
+Both **Active Duration (minutes)** and **Elapsed time (minutes)** are calculated based on business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours may affect the calculation. Time calculation will be evaluated based on the current value of business hours.
+
+**Elapsed Time (minutes)**: Calculates the time for which the SLA KPI Instance timer was paused.
 
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elaspsed time duration":::
 
 > [!NOTE]
-> - The out-of-the-box duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)** are available only for new SLA KPI instances.
-> - For legacy SLA KPI Instances and for old records, being used on any entity, the **Active Duration (minutes)** and **Elapsed time (minutes)** fields will remain empty.
+> - **Active Duration (minutes)** and **Elapsed time (minutes)** fields are available only for UCI SLAs and not for legacy SLAs.
+> - **Active Duration (minutes)** will display values for the SLA KPI instances, after the October wave 2 deployment. For older SLA KPI Instances, the **Active Duration (minutes)** will remain empty. However, **Elapsed time (minutes)** will show values for older SLA KPI Instances as well.
+> - **Active duration** will show data only when the KPI is in **Paused** or terminal state. **Elapsed time (minutes)** will show data only when the KPI is in **Inprogress** or terminal state. The final value will appear in the last KPI instance after the terminal state.
+> - The **Active Duration (minutes)** and **Elapsed time (minutes)** values will appear only in minutes.
 
 The following examples show how the **Active Duration (minutes)** and the **Elapsed time (minutes)** are calculated:
 
 **Scenario 1:** The SLA KPI Instance is in **InProgress** and moves to **Succeeded** status in non-business hours.
 
-The SLA KPI is created during business hours on Monday 9 AM and moves to **Succeeded** in non-business hours at 7 PM. The **ActiveTimeInBusinessHours** is calculated as the time from **CreatedOn**to **SuccessTime** (excluding non-business hours), that is, 9 h and the **PausedDuration:ElapsedTime** is equal to Null.
+The SLA KPI is created during business hours on Monday 9 AM and moves to **Succeeded** in non-business hours at 7 PM. The **ActiveTimeInBusinessHours** is calculated as the time from **CreatedOn** to **SuccessTime** (excluding non-business hours), that is, 9 h and the **PausedDuration:ElapsedTime** is equal to Null.
 
 **Scenario 2:** The SLA KPI Instance is in **InProgress** but moves to **Succeeded** in business hours.
 
