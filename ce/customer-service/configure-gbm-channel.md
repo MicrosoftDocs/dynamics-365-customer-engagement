@@ -41,7 +41,7 @@ In Google, complete the following actions:
 1. [Register Google Business Messages](#register-google-business-messages)
 2. [Create a new agent profile in Google Business Messages](#create-a-new-agent-profile-in-google-business-messages)
 3. [Create a workstream in Omnichannel admin center](#create-a-workstream-in-omnichannel-admin-center)
-4. [Create Google Business Messages](#create-google-business-messages)
+4. [Set up Google Business Messages](#set-up-google-business-messages)
 5. [Test the messaging for the agent in the Google Business Messages app](#test-the-messaging-for-the-agent-in-the-google-business-messages-app)
 
 ## Register Google Business Messages
