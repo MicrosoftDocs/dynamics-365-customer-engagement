@@ -1,6 +1,6 @@
 ---
 title: "Enable bot context NuGet package | Microsoft Docs"
-description: "Enable a bot to understand context while authoring a bot flow."
+description: "Use this article to understand how you can enable a bot to understand context while authoring a bot flow."
 ms.date: 07/12/2022
 ms.topic: reference
 author: neeranelli
