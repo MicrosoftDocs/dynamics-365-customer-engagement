@@ -87,3 +87,13 @@ You can connect Google Business Messages with Omnichannel for Customer Service b
 
 ## Test the messaging for the agent in the Google Business Messages app
 In the Google Business Messages app, on the **Overview** page, under **Agent test URLs**, select either **Android** or **iOS**, and then select **Test**.
+
+### See also
+
+[Channels in Omnichannel for Customer Service](channels.md)  
+[Use Google Business Messages in Omnichannel](use-google-business-messages.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
