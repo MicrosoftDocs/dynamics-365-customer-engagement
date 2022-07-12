@@ -1,6 +1,6 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
-description: "Learn how to set up conversation intelligence for Teams meetings and calls through the Sales Hub app."
+description: "Learn how to set up conversation intelligence for Teams calls through the Sales Hub app."
 ms.date: 06/27/2022
 ms.custom: 
 ms.topic: article
@@ -17,7 +17,7 @@ manager: shujoshi
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call and meeting recording for conversation intelligence preview, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
+You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
