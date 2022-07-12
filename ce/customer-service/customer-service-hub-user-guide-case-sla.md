@@ -99,9 +99,9 @@ You can view the **Active Duration (minutes)** and the **Elapsed time (minutes)*
 
 **Active Duration (minutes)**: Calculates the time for which the SLA KPI Instance was active. 
 
-Both **Active Duration (minutes)** and **Elapsed time (minutes)** are calculated based on business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours may affect the calculation. Time calculation will be evaluated based on the current value of business hours.
-
 **Elapsed Time (minutes)**: Calculates the time for which the SLA KPI Instance timer was paused.
+
+Both **Active Duration (minutes)** and **Elapsed time (minutes)** are calculated based on business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours may affect the calculation. Time calculation will be evaluated based on the current value of business hours.
 
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elaspsed time duration":::
 
