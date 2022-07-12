@@ -41,7 +41,7 @@ You can enable post-conversation surveys for the following channels:
 - Custom channel
 - Microsoft Teams
 - Apple Messages for Business
-- Google Business Messages
+- Google's Business Messages
 
 For the Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
@@ -83,7 +83,7 @@ In the Customer Service admin center or Omnichannel admin center, you can set up
 
    By default, the **Use same survey settings as above** checkbox is selected.
 
-1. If you want to use different settings for the surveys sent by bots, repeat steps 4 and 5.
+1. If you want to use different survey settings for the conversations handled by bots, repeat steps 4 and 5.
 
 1. Select **Save and close**.
 
