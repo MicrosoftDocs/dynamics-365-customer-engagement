@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states | MicrosoftDocs"
 description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 05/17/2022
+ms.date: 07/13/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -60,7 +60,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 ## Wrap-up
 
-This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block capacity for wrap up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the **Wrap-up** state. If the **Don't block** setting is selected, your capacity is released as soon as conversation moves from **Active** to **Wrap-up** state. Your administrator may also select a duration ranging from 1 minute to 15 minutes.
+This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block capacity for wrap up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the **Wrap-up** state. If the **Don't block** setting is selected, your capacity is released as soon as conversation moves from **Active** to **Wrap-up** state. Your administrator may also select a duration ranging from 1 minute to 60 minutes.
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
@@ -109,7 +109,7 @@ The following table describes the channel, status reason, and default configured
  |--------------------|-------|-------------|--------------------------------------|
  | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
- | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ | Chat | Wrap-up | 60 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 60 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
  | Records (Case) | Open | None | For a records (case) channel, a conversation in the **Open** won’t be automatically closed. |
  | Records (Case) | Active | None | For a records (case) channel, a conversation that is  **Active** won’t be automatically closed. |
