@@ -109,7 +109,7 @@ The following table describes the channel, status reason, and default configured
  |--------------------|-------|-------------|--------------------------------------|
  | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
- | Chat | Wrap-up | 60 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 60 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
  | Records (Case) | Open | None | For a records (case) channel, a conversation in the **Open** won’t be automatically closed. |
  | Records (Case) | Active | None | For a records (case) channel, a conversation that is  **Active** won’t be automatically closed. |
