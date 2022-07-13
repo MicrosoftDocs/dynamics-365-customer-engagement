@@ -86,7 +86,7 @@ Want to explore more? Read these articles:
 The Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers.
 
 Watch this video to get a sneak peak into the mobile experience:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG?autoplay=true]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG]
 
 Want to explore more? Read these articles:
 [Overview of the Dynamics 365 Sales mobile app](sales-mobile/dynamics-365-sales-mobile-app.md)
