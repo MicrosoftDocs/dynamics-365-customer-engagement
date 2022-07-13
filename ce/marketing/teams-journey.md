@@ -1,8 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 01/19/2022
-
+ms.date: 07/13/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -56,12 +55,6 @@ Marketing helps you automate and personalize the follow-up process and helps you
 - Create groups of participants for targeted messaging (for example, participants who attended, who didn't attend, or who canceled).
 - Use built-in email templates to send personalized emails that look professionally designed.
 - Advertise upcoming events and webinars.
-
-## Easy, risk-free trial
-
-The 6-month trial allows you to immediately connect Teams to Dynamics 365 Marketing. You don't even need a credit card to sign up. Dynamics 365 Marketing is web-based, so no installation on your computer is required. Your data is secure with Microsoft; your data will not be shared outside of your company.
-
-To learn more about the trial requirements and eligibility, visit the [Teams trial offer page](https://dynamics.microsoft.com/marketing/offer/).
 
 ## What happens when the trial expires?
 
