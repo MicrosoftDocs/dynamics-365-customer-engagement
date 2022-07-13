@@ -924,15 +924,15 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-  - name: Insights
+  - name: Analytics and insights dashboards
     items: 
-    - name: Introduction to Customer Service Insights
+    - name: Introduction to analytics and insights in Customer Service
       href: introduction-customer-service-analytics.md
-    - name: Regional availability, language availability, and service limits for Customer Service Insights
+    - name: Supported regions and languages, and service limits for analytics and insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
-      - name: Configure Customer Service Insights
+      - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md
       - name: Configure Customer Service historical analytics
         href: configure-cs-historical-analytics-csh.md
@@ -968,9 +968,9 @@
         href: configure-historical-sentiment-dashboard-supervisor.md
     - name: Supervisor experience
       items: 
-      - name: Historical analytics reports
+      - name: Historical analytics reports in Customer Service
         items: 
-        - name: Dashboards overview
+        - name: Customer Service dashboards
           href: customer-service-analytics-insights-csh.md
         - name: Summary dashboard
           href: summary-dashboard-cs.md
@@ -980,7 +980,9 @@
           href: case-topics-dashboard-cs.md
         - name: Historical analytics for unified routing in Customer Service
           href: cs-historical-analytics-unified-routing.md
-        - name: Omnichannel conversation dashboard
+      - name: Historical analytics reports in Omnichannel for Customer Service
+        items: 
+        - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
           href: oc-queue-dashboard.md
