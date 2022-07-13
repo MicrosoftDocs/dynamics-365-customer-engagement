@@ -57,22 +57,22 @@ To add the Apple Messages for Business channel instance, complete the following 
 
 1. To configure routing and work distribution, you can create a [workstream](/create-workstreams.md) or select an existing one.
 
-1. . Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
+1. Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
 
-      a. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
+       a. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
       
-      b. On the **Language** page, select the language to use.<br>
+       b. On the **Language** page, select the language to use.<br>
       
-      c. On the **Behaviors** page, configure the following options<br>
+       c. On the **Behaviors** page, configure the following options<br>
            - **Custom automated messages**<br>
            - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
            - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
      
-     d. On the **User features** page, configure the following options:<br>
-                 - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
+       d. On the **User features** page, configure the following options:<br>
+           - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
            - **Apple Pay:** If you enable Apple Pay, your agents will be able to send Apple Pay requests to customers. Each channel instance must have a Payment Profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
         
-    e.  Review the **Summary** page, and then select **Create**. The channel instance is configured.
+       e. Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
 1.  Configure routing rules. More information: [Configure work classification](/configure-work-classification.md)
 
