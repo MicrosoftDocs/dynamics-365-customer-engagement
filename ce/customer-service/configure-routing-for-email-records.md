@@ -44,3 +44,6 @@ The high-level process of how email can be routed using unified routing is depic
 [Enable unified routing](provision-unified-routing.md)  
 [Configure classification rules](configure-work-classification.md)  
 [Assignment methods in unified routing](assignment-methods.md)  
+[Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages)  
+[Use email message filtering and correlation to specify which emails are tracked](/power-platform/admin/email-message-filtering-correlation)  
+

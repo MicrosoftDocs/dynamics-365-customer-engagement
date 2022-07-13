@@ -126,9 +126,6 @@ The following stages are available:
 - **Assignment ruleset**: Displays information about the rule sets that were processed.
 - **Agent assignment trace**: Provides details about the assignment criteria and assignment trace:
 
-  > [!NOTE]
-  > Assignment trace is currently unavailable in the North America region.
-
   - **Assignment criteria**:
       - **Preferred agent**: Displays whether the setting is enabled or disabled. (This feature is in preview.)
       - **Assignment method**: Displays "Highest", "Round robin", or "custom".
