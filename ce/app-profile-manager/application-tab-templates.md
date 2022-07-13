@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 07/04/2022
 ms.topic: article
 ---
 
@@ -110,7 +110,7 @@ The following parameters are available for the entity record application type wh
 |Parameter | Description | Required | Supported values |  Example |
 |---------|--------------|------------------|--------- |---------|
 | `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br>  | contact <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br><br> |
-| `data` | Data to be pre-populated in the form | No  | JSON |  `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
+| `data` | Data to be pre-populated in the form | No  | JSON |  `{"subject":"Task created from {anchor.ticketnumber}","description":"Follow-up needed with customer","prioritycode":"2","scheduledend":"06/12/2023", "regardingobjectid": [{"id": "{anchor.incidentid}", "name": "{anchor.title}", "entityType":"{anchor.entityName}"}]}` |
 | `formId`| GUID of the form instance | No  | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 ### Search
@@ -178,12 +178,16 @@ The following parameters are available for custom pages.
 
 The following out-of-the-box application tab templates are available.
 
-- Customer Summary
-- Entity Record
-- Knowledge Search
-- Omnichannel Conversations Dashboard
-- Power BI
-- Search
+| Template name                       | Description                                    | Application type |
+| --------------                      | --------------------------------------         | -----------------|
+| Customer Summary                    | Displays the Customer Summary page in the tab. | Entity Record |
+| Entity record                       | Displays an entity record in the tab.          | Entity Record |
+| Knowledge Search                    | Displays the knowledge article search page in the tab.          | Web Resource |
+| Omnichannel Conversations Dashboard | Displays the Omnichannel Conversations Dashboard in the tab. | Dashboard |
+| Omnichannel Intraday Insights       | Displays a Power BI report in the tab.         | Control  |
+| Quick Reply Preview                 | Displays a quick reply in the tab.             | Control  |
+| Rich Message Preview                | Displays a rich message in the tab.            | Control |
+| Search                              | Displays the Omnichannel search page in the tab.                    | Control |
 
 ### See also
 

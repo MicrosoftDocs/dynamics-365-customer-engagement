@@ -58,6 +58,7 @@ Use the following input and output parameters for the Search Resource Availabili
 | PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
 | RequiredResources |List&#60;Guid&#62; | No | Only the time slots of the passed list of resources will show in the resulted time slots. |
+| IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true list of time slots returned will be empty. It is false by default. |
 
 ### Output
 
@@ -238,7 +239,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Modify the hard-coded input parameters to reflect record GUIDs.](media/ur-scheduling-5.PNG)
 
-[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
+[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 

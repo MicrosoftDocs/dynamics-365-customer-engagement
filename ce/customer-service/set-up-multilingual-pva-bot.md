@@ -93,7 +93,7 @@ For example, you can create a bot with the following details:
         The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
         > [!NOTE]
-        > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-multi-language-contact-center.md#supported-languages-and-locale-codes)
+        > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-region-availability.md#supported-languages-and-locale-codes)
 
    1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 

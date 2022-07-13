@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
-description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find additional learning resources."
-ms.date: 08/31/2021
+description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
+ms.date: 05/19/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom:
 
 # Sign up for a free Dynamics 365 Customer Service trial
 
-Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up, you will have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview).
+Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview).
 
 **To sign up for the trial**:
 
@@ -48,11 +48,12 @@ The trial environment includes many of the same features as the paid version. Th
 - [View AI-suggested cases and knowledge articles for a case](csw-view-ai-suggested-cases-knowledge-articles.md).
 - [Explore the agent dashboard](oc-agent-dashboard.md).
 - [Understand the agent communication pane for conversations](oc-conversation-control.md).
+- [Overview of the voice channel](voice-channel.md).
 - [Know more about chat notifications](oc-notifications.md).
 - [View AI-suggested cases and knowledge articles for a conversation](oc-view-ai-suggested-cases-articles.md).
 - [View how supervisors monitor agent conversations](ongoing-conversations-dashboard.md).
 
-### Additional resources
+### More resources
 
 - [Dynamics 365 Customer Service free trial sign up page](https://dynamics.microsoft.com/customer-service/customer-service-software/free-trial)
 - [Explore training on Microsoft Learn](/learn/browse/?filter-products=dynamics-customer-service)  

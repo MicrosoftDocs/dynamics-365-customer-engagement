@@ -1,7 +1,8 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 07/01/2022
+ms.date: 07/06/2022
+ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,7 +10,8 @@ manager: shujoshi
 ---
 # Configure who knows whom 
 
-Configure who knows whom to select a customized email template for sending introduction emails.
+The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. Enable the feature to get the who knows whom suggestions.  
+
 
 >[!NOTE]
 >- To know whether the who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
@@ -42,7 +44,12 @@ Configure who knows whom to select a customized email template for sending intro
     > [!NOTE]
     > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create).  
 
-6. Save the changes.
+6. Select **Save**.
+1. If your organization is using a custom sales app or a custom form for lead or contact, add the [Who Knows Whom widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the who knows whom information available to sellers.
+
+    The who knows whom feature is ready to use in your organization.
+
+As a next step, work with your Microsoft 365 administrator to [provide consent](provide-consent-office365.md#provide-consent). This step is mandatory; users will see the suggestions only after the consent is provided.  
 
  
 

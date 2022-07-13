@@ -12,9 +12,15 @@ manager: shujoshi
 
 This article describes the meaningful insights created from Microsoft 365 data by Dynamics 365 applications. The Microsoft 365 admin can turn on one or more of these options, allowing a copy of your company’s Microsoft 365 data to be copied into Dynamics 365 applications to be used by any authorized users of your company’s Dynamics 365 applications. 
 
-If Microsoft 365 users choose to opt out, their data will not be accessible to any Dynamics 365 applications. The following is an incomplete list of Dynamics 365 applications using this data and is subject to change in the future.  
+If Microsoft 365 admins wish to add a new security group to their currently existing security groups, they must use the **Dynamics 365 Sales Insights- Connection Graph** toggle to specify their new security group. Currently opted out users and security groups are automatically transitioned over and will remain opted out, but new security groups must be specified in the **Dynamics 365 Sales Insights- Connection Graph** toggle. More information: [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data) 
 
-## Insights for each user  
+If Microsoft 365 users choose to opt out, their data will not be accessible to any Dynamics 365 applications. 
+
+When disabling these insights, it can take up to 24 hours for the data to be removed from all apps and up to 30 days for backed-up data to be removed from Microsoft 365 storage accounts. 
+
+The following sections include an incomplete list of Dynamics 365 applications using this data and are subject to change in the future.
+ 
+## Insights for users 
 
 A user’s Microsoft 365 data, and insights derived from this data, are visible only to the user running the Dynamics 365 application. 
 

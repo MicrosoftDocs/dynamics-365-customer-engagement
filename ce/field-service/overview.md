@@ -86,7 +86,7 @@ Field service capabilities include:
 
 - [Mashreq](https://customers.microsoft.com/story/mashreq-banking-surface-uk)
 
-- [ExxonMobile](https://customers.microsoft.com/story/exxonmobil-mining-oil-gas-azure)
+- [ExxonMobil](https://customers.microsoft.com/story/exxonmobil-mining-oil-gas-azure)
 
 - [EcoLab](https://customers.microsoft.com/story/832498-ecolab-professional-services-dynamics-365)
 
