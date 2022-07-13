@@ -80,19 +80,19 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 > [!NOTE]
 > When you transfer an **Active** conversation from one agent to another, the first agent is added as a consultant to the conversation that's now being managed by the second agent. The conversation is successfully transferred when the second agent acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
-## Force close conversations
+## End conversations forcibly
 
 
 > [!CAUTION]
-> We recommend that Supervisors use the **Force Closure** feature responsibly when ending agent conversations. 
+> We recommend that you use this feature judiciously to end agent conversations.
 
-You can use **Force Close** to end conversations that take place only on messaging channels. Once ended, the status of the conversations is set to Closed. 
+You can use **Force Close** to end conversations that take place only on messaging channels. Once the conversation ends, its status is set to Closed. 
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
 2. Select a conversation and then select **Force Close**.
 
-Customers and agents participating in the conversations receive a notification that their conversations were ended by a Supervisor. 
+The participants receive a notification that their conversation was ended by a Supervisor. 
 
 ### See also
 
