@@ -9,13 +9,14 @@ manager: shujoshi
 ---
 # Preview the features in trial 
 
-Dynamics 365 Sales trial includes the following features that help you manage your pipeline, accelerate sales, project revenue, and analyze your sales conversations through AI-powered conversation intelligence.  
+Dynamics 365 Sales trial includes the following features that help you manage your pipeline, accelerate sales, project revenue, analyze your sales conversations through AI-powered conversation intelligence, and so on.  
 
-- Pipeline management
-- Sales accelerator
-- Sales forecasting
-- Conversation intelligence
-- Mobile app
+- [Pipeline management](#pipeline-management)
+- [Sales accelerator](#sales-accelerator)
+- [Sales forecasting](#sales-forecasting)
+- [Conversation intelligence](#conversation-intelligence)
+- [Teams collaboration](#teams-collaboration)
+- [Mobile app](#mobile-app)
 
 > [!IMPORTANT]
 > As part of the trial, you'll get access to the Sales Trial app. In the documentation links listed in this article, assume any references to the Sales Hub app as Sales Trial app. 
@@ -67,6 +68,17 @@ Watch this video to get a sneak peak into conversation intelligence:
 Want to explore more? Read these articles:
 [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
+
+## Teams collaboration
+
+Engage in a Teams chat conversation from within your trial app. While you're working on a sales record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching context.
+
+Watch this video to get a sneak peak into Teams collaboration in Dynamics 365:
+> [!VIDEO https://www.youtube.com/embed/h7BjrM2UkMs]
+
+Want to explore more? Read these articles:
+- [Configure Microsoft Teams chat in Sales Hub (preview)](teams-integration/enable-teams-chat.md)
+- [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md)
 
 ## Mobile app
 
