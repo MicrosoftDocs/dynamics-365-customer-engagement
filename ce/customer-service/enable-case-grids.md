@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 07/12/2022
+ms.date: 07/13/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -90,7 +90,7 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
 1. On the **Case** page, select **Views**.
 1. Select the case type that you want to update, for example, **All Cases**.
 1. On the **View** page, select **+ View** column.
-1. In the **View column** dialog, search for the column that you want to add&mdash;for example, the **Last Interaction** column. The **Last Interaction**column will now appear on the **View** page.
+1. In the **View column** dialog, search for the column that you want to add&mdash;for example, the **Last Interaction** column. The **Last Interaction** column will now appear on the **View** page.
 1. Select **Save**, and then select **Publish**.
 
 ### Add new icons for Origin and Priority Columns
