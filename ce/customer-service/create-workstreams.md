@@ -1,7 +1,7 @@
 ---
 title: "Create and manage workstreams | MicrosoftDocs"
 description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 07/11/2022
+ms.date: 07/13/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
