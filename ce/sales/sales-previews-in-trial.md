@@ -17,6 +17,7 @@ Dynamics 365 Sales trial includes the following features that help you manage yo
 - [Conversation intelligence](#conversation-intelligence)
 - [Teams collaboration](#teams-collaboration)
 - [Mobile app](#mobile-app)
+- Early access features
 
 > [!IMPORTANT]
 > As part of the trial, you'll get access to the Sales Trial app. In the documentation links listed in this article, assume any references to the Sales Hub app as Sales Trial app. 
@@ -92,3 +93,6 @@ Want to explore more? Read these articles:
 [Install the app on iOS and Android](sales-mobile/install-mobile-app.md)
 
 
+## Early access features
+
+As part of your trial, you also get access to some of the early access (preview) features that you can play around with. These features will have the Preview label in the user interface. For example, the Teams collaboration feature is in preview and you'd see that the documentation and UI will have preview labels and disclaimers about a preview feature. As an example, see the [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md) article.
