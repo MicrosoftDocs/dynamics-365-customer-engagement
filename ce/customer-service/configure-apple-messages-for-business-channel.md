@@ -48,34 +48,45 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 To add the Apple Messages for Business channel instance, complete the following steps:
 
 1. In the Omnichannel site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
+
 1. On the **Channel details** page, enter a name and select Apple Messages for Business in **Channels**.
+
 1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and copy the account ID by selecting **Copy ID**.
    > [!Note]
    > If your organization uses Customer-managed keys, be aware that Apple Messages for Business acount IDs cannot be encryped. Apple Messages for Business account IDs are part of the URLs used by customer devices to start new conversations and may be visible to users, but this doesn't present a security concern.
+
 1. To configure routing and work distribution, you can create a [workstream](/create-workstreams.md) or select an existing one.
-1. Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
-    a. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
-    b. On the **Language** page, select the language to use.<br>
-    c. On the **Behaviors** page, configure the following options<br>
-        - **Custom automated messages**<br>
-        - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
-        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
-    d. On the **User features** page, configure the following options:<br>
-        - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
-        - **Apple Pay:** If you enable Apple Pay, your agents will be able to send Apple Pay requests to customers. Each channel instance must have a Payment Profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
+
+1. . Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
+
+      a. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
+      
+      b. On the **Language** page, select the language to use.<br>
+      
+      c. On the **Behaviors** page, configure the following options<br>
+           - **Custom automated messages**<br>
+           - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
+           - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
+     
+     d. On the **User features** page, configure the following options:<br>
+                 - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
+           - **Apple Pay:** If you enable Apple Pay, your agents will be able to send Apple Pay requests to customers. Each channel instance must have a Payment Profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
         
     e.  Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
 1.  Configure routing rules. More information: [Configure work classification](/configure-work-classification.md)
+
 1.  Configure work distribution. More information: [Work distribution settings](/create-workstreams.md#configure-work-distribution)
+
 1.  Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](/create-workstreams.md#add-a-bot-to-a-workstream)
+
 1.  In **Advanced settings**, configure the following options based on your business needs:<br>
-    -   [Sessions](/app-profile-manager/session-templates,md)<br>
-    -   [Agent notifications](/dynamics365/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
-    -   [Context variables](/context-variables-for-bot.md#add-context-variables)<br>
-    -   [Smart assist bots](/smart-assist-bot.md)<br>
-    -   [Quick replies](/create-quick-replies.md)<br>
-    -   [Rich messages]
+      - [Sessions](/app-profile-manager/session-templates.md)<br>
+      - [Agent notifications](/dynamics365/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
+      - [Context variables](/context-variables-for-bot.md#add-context-variables)<br>
+      - [Smart assist bots](/smart-assist-bot.md)<br>
+      - [Quick replies](/create-quick-replies.md)<br>
+      - [Rich messages]
     
 ## Step 2: Configure authentication settings
 
@@ -101,7 +112,9 @@ Confirm that your organization has at least one Apple Messages for Business **Au
 #### Create an Apple Messages for Business authentication setting record
 
 1.	In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+
 1.	Select **New authentication setting** to add an authentication settings record.
+
 1.	In the Add authentication setting pages, provide the following details:<br>
     a.	On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
         By default, the is OAuth 2.0 code flow. This cannot be changed.<br>
@@ -118,7 +131,9 @@ Confirm that your organization has at least one Apple Messages for Business **Au
 ### Add authentication to an Apple Messages for Business channel
 
 1. Open the workstream containing the channel instance to which you want to add authentication.
+
 1. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business Channel]()
+
 1. Review or update the authentication settings for each channel instance by selecting **Edit**.
 
 #### Additional resources
@@ -137,40 +152,58 @@ After you create a payment profile record, you must add it to a channel instance
 
 ### Create an Apple Messages for Business Payment Profile for Apply Pay
 
-### Prerequisites
+#### Prerequisites
 
-Administrators who are configuring Payment Profiles will need additional security permissions. To learn more, see Set up security permissions for a field.
+Administrators who will be configuring Payment Profiles will need additional security permissions. To learn more, see Set up security permissions for a field.
 
 Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. More information: [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay)
 
 #### Create an Apple Pay payment profile
 
-1.	In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
-1.	Select **Add** at the top of the page to create a new record.	
-1.	In the **Create new payment profile** pages, provide the following details:<br>
+1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
+
+1. Select **Add** at the top of the page to create a new record.	
+
+1. In the **Create new payment profile** pages, provide the following details:<br>
+
     a.	On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
-1.	On the Details page, provide the following information:<br>
-    a.	**Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name should not be localized.<br>
-    b.	**Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
-    c.	**Merchant certificate**: A certificate associated with your merchant ID, used to secure transaction data. Apple Pay servers use the certificate’s public key to encrypt payment data.<br>
-    d.	**Certificate password**: The private key used to generate secure Apple Pay sessions. <br>
-    e.	**Payment gateway URL**: The endpoint where payment information and requested contact information and sent to be processed.<br>
-    f.	**Merchant domain URL**: The website domain associated with your Apple Pay Merchant Account. <br>
-    g.	**Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments will be processed. <br>
-1.	On the **Payment options** page, provide the following information:<br>
-    a.	**Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
-    b.	**Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
-1.	On the **Rich messages** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
+
+1. On the Details page, provide the following information:<br>
+     a.	**Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name should not be localized.<br>
+     
+     b.	**Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
+     
+     c.	**Merchant certificate**: A certificate associated with your merchant ID, used to secure transaction data. Apple Pay servers use the certificate’s public key to encrypt payment data.<br>
+     
+     d.	**Certificate password**: The private key used to generate secure Apple Pay sessions. <br>
+     
+     e.	**Payment gateway URL**: The endpoint where payment information and requested contact information and sent to be processed.<br>
+     
+     f.	**Merchant domain URL**: The website domain associated with your Apple Pay Merchant Account. <br>
+     
+     g.	**Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments will be processed. <br>
+     
+1. On the **Payment options** page, provide the following information:<br>
+     a.	**Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
+     b.	**Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
+
+1. On the **Rich messages** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
 An Apple Pay type rich message may be associated to more than one payment profile. This is because each channel instance may only support one payment profile. <br>
-1.	Review the **Summary** page, and then select **Finish**. The authentication setting is configured. 
+
+1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured. 
 
 ### Add a payment profile to an Apple Messages for Business channel
-1.	Open the workstream containing the channel instance for which you want to enable Apple Pay.
-1.	On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. More information: Configure an Apple Messages for Business channel instance in Omnichannel admin center
-1.	Save your changes.
-1.	Review or update the Apple Pay settings for any channel instance by selecting **Edit**.
+
+1. Open the workstream containing the channel instance for which you want to enable Apple Pay.
+
+1. On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. More information: Configure an Apple Messages for Business channel instance in Omnichannel admin center
+
+1. Save your changes.
+
+1. Review or update the Apple Pay settings for any channel instance by selecting **Edit**.
 
 #### Limitations
+
 |Description | Limitation |
 |-----------|---------------|
 | **Country code**: This is the 2-letter ISO 3166-1 alpha-2 code that denotes which country payments will be processed in. | China is not currently a supported country, as payments must go through a separate payment endpoint. |
@@ -188,47 +221,52 @@ By creating and publishing rich messages, your organization's customer support t
 #### Rich messages designer
 
 1. In **Omnichannel admin center**, navigate to **Agent experience** under the **Advanced Settings**.
+
 1. Under agent experiences, locate **Rich messages**, and select **Manage**.
+
 1. Select **New**, and then enter the following information:
-   - **Name**: A descriptive name that will be used by agents when searching for rich messages.
-   - **Locale**: The language of the rich message. Rich messages are filtered by locale within agent sessions.
-  - **Type**:
-    - Apple Pay
-    -	Authentication
-    -	Custom JSON
-    -	Forms
-    -	List Picker
-    -	Suggested Reply
-    -	Time Picker
-    -	Video Rich Link
-    -	Website Rich Link
-  - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. This will help agents identify the correct rich message when searching.
-  - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which do not impact the original rich message made here. Agent editing can be enabled for the following rich message types:
+    - **Name**: A descriptive name that will be used by agents when searching for rich messages.
+    - **Locale**: The language of the rich message. Rich messages are filtered by locale within agent sessions.
+    - **Type**:
+      - Apple Pay
+      - Authentication
+      - Custom JSON
+      -	Forms
+      -	List Picker
+      -	Suggested Reply
+      -	Time Picker
+      -	Video Rich Link
+      -	Website Rich Link
+   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. This will help agents identify the correct rich message when searching.
+   - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which do not impact the original rich message made here. Agent editing can be enabled for the following rich message types:
      - List picker
      - Suggested reply
      - Time picker
      - Video rich link
      - Website rich link
-4. Select **Create**.
-5. Begin building your rich message within the rich message designer. You may save your work at any time by selecting **Save** at the top of the designer. For additional information on building each rich message type, select the type to learn more:
-  - Apple Pay
-  -	Authentication
-  -	Custom JSON
-  -	List Picker
-  -	Suggested Reply
-  -	Time Picker
-  -	Video Rich Link
-  -	Website Rich Link
+1. Select **Create**.
+
+1. Begin building your rich message within the rich message designer. You may save your work at any time by selecting **Save** at the top of the designer. For additional information on building each rich message type, select the type to learn more:
+   - Apple Pay
+   - Authentication
+   - Custom JSON
+   - List Picker
+   - Suggested Reply
+   - Time Picker
+   - Video Rich Link
+   - Website Rich Link
 
 ### Publish rich messages
 
 For agents to send a rich message in conversations, the message must first be published.
 
 1. Complete the steps for building your rich message, as defined above. 
+
 1. At the top of the designer page, select **Publish**. If there are any missing fields, the designer will highlight them in red, and won’t allow the rich message to be published.
+
 1. You can confirm that your rich message was successfully published in two ways:
-   - The **Publish Save** button will no longer appear above the designer. 
-   - The status will show as **Active** within the designer and the rich messages settings page.
+    - The **Publish Save** button will no longer appear above the designer. 
+    - The status will show as **Active** within the designer and the rich messages settings page.
 
 ### Update a published rich message
 
@@ -241,12 +279,19 @@ Workstream association for rich messages behaves similarly to quick replies toda
 After a rich message has been associated with one or more specific workstreams, it will no longer be available to use in all other workstreams.
 
 To associate rich messages with a workstream, complete the following steps: 
+
 1. Within a workstream, expand the **Advanced settings** panel by selecting **Show advanced settings**. 
+
 1. Within the advanced settings, navigate to **Rich messages**. 
+
 1. Select **Add rich messages**. All existing rich messages are displayed. 
+
 1. Select one or more rich messages from the list, then select **Add**. Any associated rich messages will appear within the **Rich messages** table in **Advanced settings**. 
+
 1. To edit a workstream's rich messages, select **Edit**, and then add or remove rich messages as desired. 
+
 1. To add more rich messages, select **+ Add**. Select additional rich messages, and then select **Add**. They should now appear in the list of rich messages. 
+
 1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message will no longer appear in the list.
 
 
@@ -260,21 +305,28 @@ Survey-level properties
    - **Header** (Optional)
    - **Image URL** (Optional) The image displayed to customers within the list picker's message and customer repsonse message. Image URLs must be a valid image type. Videos and GIFs aren't supported.
    - **Start button**: You can change the label from the default string, but it can't be left blank.
+
 1. The following form behaviors may be configured by navigating to the **Behavior** section in the property panel:<br>
-   a.	By default, form responses are shown to the customer before they submit responses. This summary can be removed by deselecting **Show summary page**.<br>
-   b.	Form responses can be hidden from live agents, which may be helpful when designing automated processes to handle sensitive information. When **Hide customer responses in chat** is toggled on, agents will be unable to see any customer responses within the form. Privacy cannot be toggled per question.
+     a.	By default, form responses are shown to the customer before they submit responses. This summary can be removed by deselecting **Show summary page**.<br>
+     b.	Form responses can be hidden from live agents, which may be helpful when designing automated processes to handle sensitive information. When **Hide customer responses in chat** is toggled on, agents will be unable to see any customer responses within the form. Privacy cannot be toggled per question.
+
 1. The **Outbound message** properties determine the appearance of the message bubble containing the form. The outbound message may contain the following elements:<br>
-   a.	**Message title**: The main text that informs the customer of what type of content the message contains. This could be the full or shortened title of your form.<br>
-   b.	**Message description** (Optional): This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the message title.<br>
-   c.	**Image URL** (Optional): The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
+     a.	**Message title**: The main text that informs the customer of what type of content the message contains. This could be the full or shortened title of your form.<br>
+     b.	**Message description** (Optional): This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the message title.<br>
+     c.	**Image URL** (Optional): The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
+
 1. To begin adding questions select one of the question types from the **toolbox** located between the properties panel and builder. Each question will contain required **Title** and optional **Header** fields, in addition to type-specific configurations. Apple Messages for Business forms support the following question types: Single input, multiline input, single-select, multi-select, dropdown picker, and date picker. 
+
 1. A form can contain no more than 10 questions, and should be completable without needing to leave the messages application. While building a form, select **Save** to keep your changes. An unpublished form can be saved with missing fields. Changes made to a published form may only be saved if rich message has all required fields filled. 
-1.	New forms will be available for agents to use once they are published. To publish a new form, select **Publish** at the top of the page. To confirm that the form is published, confirm that its status displays as **Active**.
+
+1. New forms will be available for agents to use once they are published. To publish a new form, select **Publish** at the top of the page. To confirm that the form is published, confirm that its status displays as **Active**.
 
 ### Single input question
 
 Single input questions are a short-answer free response style question. This question type is good for collecting information like name, contact information, and numbers. These questions are limited to a maximum of 30 characters. For longer responses see the multiline input question type.
+
 1. Provide a **Question title**, optional **Header** text, and use the **Required** toggle to control whether the question may be left unanswered.
+
 1. The **Input** type may be changed from the default **Text** type. Changing the input type will change the input keyboard on iOS devices. The type options and their impact on input are as follows:
    - **Text** (Default): Default keyboard
    - **Name**: Default keyboard and name autofill suggestion
@@ -283,12 +335,17 @@ Single input questions are a short-answer free response style question. This que
    - **Email**: Email keyboard and email address autofill suggestion
    - **Number**: Numbers and punctuation keyboard 
 	
-   > [!Note]
-   >  Autofill suggestions are generated by Apple from the customer’s Apple ID contact information, which isn't shared in forms responses.  
-1.	The **Input place holder** value appears in the empty textbox to provide example data or relevant information. If no place holder value is provided the form will automatically set the place holder value to “Required” or “Optional” based on your selection in step 1. 
-1.	The **Label** is an optional value that appears beside the text field and can serve as an additional prompt. For a question titled “What is your name?” the label might be set to “Name”. 
-1.	A single input can have a **Maximum length** between 1 and 30 characters. By default, the maximum length is 30. 
-1.	The **Prefix** value can be used to automatically add the first characters in an answer. For example, when asking for a LinkedIn profile link, the prefix might be set to “https://www.linkedin.com/in/”, so that the person completing the form would only need to type their specific information. 
+     > [!Note]
+     >  Autofill suggestions are generated by Apple from the customer’s Apple ID contact information, which isn't shared in forms responses.  
+
+1. The **Input place holder** value appears in the empty textbox to provide example data or relevant information. If no place holder value is provided the form will automatically set the place holder value to “Required” or “Optional” based on your selection in step 1. 
+
+1. The **Label** is an optional value that appears beside the text field and can serve as an additional prompt. For a question titled “What is your name?” the label might be set to “Name”. 
+
+1. A single input can have a **Maximum length** between 1 and 30 characters. By default, the maximum length is 30. 
+
+1. The **Prefix** value can be used to automatically add the first characters in an answer. For example, when asking for a LinkedIn profile link, the prefix might be set to “https://www.linkedin.com/in/”, so that the person completing the form would only need to type their specific information. 
+
 1. The **Regular expression** is a Regex expression used to validate the customer response. The regex is used to validate customer responses on their device to ensure they are providing correctly formatted information. For example, regex can be used when asking for an email address. 
 
 ### Multiline input question
@@ -296,9 +353,12 @@ Single input questions are a short-answer free response style question. This que
 Multiline input questions are a long-answer, free-response style question. This question type is good for collecting customer feedback, explanations, and responses that need line breaks. These questions are limited to a maximum of 300 characters. For shorter responses that support different iOS keyboards see the single input question type.
 
 1. Provide a **Question title**, optional **HeaderI** text, and use the **Required** toggle to control whether the question may be left unanswered.
-2. The **Input place holder** value appears in the empty textbox to provide example data or relevant information. If no place holder value is provided, the form will automatically set the place holder value to “Required” or “Optional” based on your selection in Step 1. 
+
+1. The **Input place holder** value appears in the empty textbox to provide example data or relevant information. If no place holder value is provided, the form will automatically set the place holder value to “Required” or “Optional” based on your selection in Step 1. 
+
 1. The **Regular expression** is a regex expression used to validate the customer response. The regex is used to validate customer responses on their device to ensure they are providing correctly formatted information. For example, regex can be used when asking for an email address. 
-1.	A single input may have a **Maximum length** between 1 and 300 characters. By default, the maximum length is 300. 
+
+1. A single input may have a **Maximum length** between 1 and 300 characters. By default, the maximum length is 300. 
 
 
 ### Single-select question
