@@ -95,7 +95,7 @@ In the Business Messages app, on the **Overview** page, under **Agent test URLs*
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
-[Use Google's Business Messages in Omnichannel](use-google-business-messages.md)  
+[Use Google's Business Messages in Omnichannel](google-business-messages.md)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
