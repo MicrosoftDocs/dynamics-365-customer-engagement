@@ -59,20 +59,20 @@ To add the Apple Messages for Business channel instance, complete the following 
 
 1. Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
 
-       a. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
+     a. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
       
-       b. On the **Language** page, select the language to use.<br>
+     b. On the **Language** page, select the language to use.<br>
       
-       c. On the **Behaviors** page, configure the following options<br>
+     c. On the **Behaviors** page, configure the following options<br>
            - **Custom automated messages**<br>
            - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
            - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
      
-       d. On the **User features** page, configure the following options:<br>
+     d. On the **User features** page, configure the following options:<br>
            - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
            - **Apple Pay:** If you enable Apple Pay, your agents will be able to send Apple Pay requests to customers. Each channel instance must have a Payment Profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
         
-       e. Review the **Summary** page, and then select **Create**. The channel instance is configured.
+     e. Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
 1.  Configure routing rules. More information: [Configure work classification](/configure-work-classification.md)
 
@@ -111,22 +111,27 @@ Confirm that your organization has at least one Apple Messages for Business **Au
 
 #### Create an Apple Messages for Business authentication setting record
 
-1.	In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
-1.	Select **New authentication setting** to add an authentication settings record.
+1. Select **New authentication setting** to add an authentication settings record.
 
-1.	In the Add authentication setting pages, provide the following details:<br>
-    a.	On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
+1. In the Add authentication setting pages, provide the following details:<br>
+
+    a. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
         By default, the is OAuth 2.0 code flow. This cannot be changed.<br>
-    b.	On the **Details** page, provide the following information:<br>
+    
+    b. On the **Details** page, provide the following information:<br>
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
-        -	**Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
+        - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
         - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match those available through your service provider.<br>
-        -	**Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
-     c.	On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
+        - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
+     
+    c. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
         After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
-     d.	On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
-     e. Review the **Summary** page, and then select **Finish**. The authentication setting is configured.<br>
+    
+    d. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
+    
+    e. Review the **Summary** page, and then select **Finish**. The authentication setting is configured.<br>
 
 ### Add authentication to an Apple Messages for Business channel
 
@@ -166,7 +171,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
 
 1. In the **Create new payment profile** pages, provide the following details:<br>
 
-    a.	On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
+    a. On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
 
 1. On the Details page, provide the following information:<br>
      a.	**Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name should not be localized.<br>
@@ -184,7 +189,9 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
      g.	**Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments will be processed. <br>
      
 1. On the **Payment options** page, provide the following information:<br>
+    
      a.	**Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
+     
      b.	**Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
 
 1. On the **Rich messages** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
@@ -239,11 +246,11 @@ By creating and publishing rich messages, your organization's customer support t
       -	Website Rich Link
    - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. This will help agents identify the correct rich message when searching.
    - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which do not impact the original rich message made here. Agent editing can be enabled for the following rich message types:
-     - List picker
-     - Suggested reply
-     - Time picker
-     - Video rich link
-     - Website rich link
+      - List picker
+      - Suggested reply
+      - Time picker
+      - Video rich link
+      - Website rich link
 1. Select **Create**.
 
 1. Begin building your rich message within the rich message designer. You may save your work at any time by selecting **Save** at the top of the designer. For additional information on building each rich message type, select the type to learn more:
@@ -265,6 +272,7 @@ For agents to send a rich message in conversations, the message must first be pu
 1. At the top of the designer page, select **Publish**. If there are any missing fields, the designer will highlight them in red, and won’t allow the rich message to be published.
 
 1. You can confirm that your rich message was successfully published in two ways:
+    
     - The **Publish Save** button will no longer appear above the designer. 
     - The status will show as **Active** within the designer and the rich messages settings page.
 
