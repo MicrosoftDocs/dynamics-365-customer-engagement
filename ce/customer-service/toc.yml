@@ -982,6 +982,8 @@
           href: cs-historical-analytics-unified-routing.md
       - name: Historical analytics reports in Omnichannel for Customer Service
         items: 
+        - name: Omnichannel for Customer Service dashboards
+          href: omnichannel-analytics-insights.md
         - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
