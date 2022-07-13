@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365.
-ms.date: 07/01/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,6 +23,8 @@ Before you provide the consent, review the following information:
 
 - The consent provided in the old form for relationship analytics is valid until September 2022 and who knows whom is valid until July 30, 2022. After that, you'll need to provide consent as described in this article. We recommend that you provide consent as early as possible to avoid any loss of functionality.
 
+- Both relationship analytics and who knows whom require the same consent so you only need to consent once in the new form.
+
 -  If you had already opted out security groups in the old consent form, they'll be automatically migrated after you provide the consent in the new form.
 
 - The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
@@ -41,6 +43,8 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
     :::image type="content" source="./media/office365-consent-form.png" alt-text="A screenshot of the Microsoft 365 admin center Org settings, with the Dynamics 365 Apps consent form shown.":::
     
 3. Read the description carefully and select the **Identifiable insights for other users** option.  
+    > [!NOTE]
+    > This consent is used for both relationship analytics and who knows whom.
 
 4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.  
 
