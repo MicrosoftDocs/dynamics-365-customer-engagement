@@ -54,7 +54,7 @@ To add the Apple Messages for Business channel instance, complete the following 
    > [!Note]
    > If your organization uses Customer-managed keys, be aware that Apple Messages for Business acount IDs cannot be encryped. Apple Messages for Business account IDs are part of the URLs used by customer devices to start new conversations and may be visible to users, but this doesn't present a security concern.
 
-1. To configure routing and work distribution, you can create a [workstream](/create-workstreams.md) or select an existing one.
+1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 
 1. Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
 
@@ -64,34 +64,34 @@ To add the Apple Messages for Business channel instance, complete the following 
       
      c. On the **Behaviors** page, configure the following options:<br>
         - **Custom automated messages**<br>
-        - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
+        - [**Post-conversation survey**](configure-post-conversation-survey.md)<br>
         - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
      
      d. On the **User features** page, configure the following options:<br>
-           - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
+           - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).<br>
            - **Apple Pay:** If you enable Apple Pay, your agents will be able to send Apple Pay requests to customers. Each channel instance must have a Payment Profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
         
      e. Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
-1.  Configure routing rules. More information: [Configure work classification](/configure-work-classification.md)
+1.  Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
-1.  Configure work distribution. More information: [Work distribution settings](/create-workstreams.md#configure-work-distribution)
+1.  Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1.  Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](/create-workstreams.md#add-a-bot-to-a-workstream)
+1.  Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 1.  In **Advanced settings**, configure the following options based on your business needs:<br>
       - [Sessions](/app-profile-manager/session-templates.md)<br>
-      - [Agent notifications](/dynamics365/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
-      - [Context variables](/context-variables-for-bot.md#add-context-variables)<br>
-      - [Smart assist bots](/smart-assist-bot.md)<br>
-      - [Quick replies](/create-quick-replies.md)<br>
+      - [Agent notifications](/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
+      - [Context variables](context-variables-for-bot.md#add-context-variables)<br>
+      - [Smart assist bots](smart-assist-bot.md)<br>
+      - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages]
     
 ## Step 2: Configure authentication settings
 
 You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
-For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
+For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as a shopping cart value or a privileged status.
 
 After you create an authentication settings record, you must add it to a channel instance within a workstream's channel setup to make it work. Authentication is supported for these channels:
  - Chat
@@ -141,12 +141,13 @@ Confirm that your organization has at least one Apple Messages for Business **Au
 1. Review or update the authentication settings for each channel instance by selecting **Edit**.
 
 #### Additional resources
-Add a chat widget
-Configure a pre-chat survey
-Create quick replies
-Create and manage operating hours
-Embed chat widget in Power Apps portals
-Automatically identify customers
+
+- [Add a chat widget](/add-chat-widget.md)<br>
+- [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
+- [Create quick replies](create-quick-replies.md)<br>
+- [Create and manage operating hours](create-operating-hours.md)<br>
+- [Embed chat widget in Power Apps portals](configure-live-chat.md#step-3-embed-chat-widget-in-portal)<br>
+- [Automatically identify customers](oc-customer-summary.md)<br>
 
 ## Step 3: Configure payment profiles
 
