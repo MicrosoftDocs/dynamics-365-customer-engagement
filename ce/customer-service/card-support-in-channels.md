@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -49,6 +49,10 @@ For more information, see the following:
 
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
+
+> [!Important]
+
+> The maximum size of a message that can be sent across all messaging channels is approximately 28 KB. The message size limit includes any metadata like timestamps, tags, that are associated with the message. So if you're a bot author or developer and want to pass complex cards or message types across channels, ensure your message size doesn't exceed the 28 KB limit.
 
 ## Support for suggested actions
 

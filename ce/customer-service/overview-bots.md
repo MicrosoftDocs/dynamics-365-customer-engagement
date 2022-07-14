@@ -1,7 +1,7 @@
 ---
 title: "Overview of bots | MicrosoftDocs"
 description: "Get an overview of bots and how you can configure and use them in Omnichannel for Customer Service."
-ms.date: 05/16/2022
+ms.date: 07/18/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
