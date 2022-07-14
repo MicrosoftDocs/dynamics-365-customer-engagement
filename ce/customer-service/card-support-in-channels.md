@@ -76,7 +76,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx  | 
 | Apple Messages for Business | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF.<br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .caf, .pkpass, .usdz |
 | Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
-| Google's Business Messages | Image | Image will have preview. Audio, video, document only receive link<br><br>. Allowed file extentions: .jpg, .jpeg, .png, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
+| Google's Business Messages | Image | Image will have preview. Audio, video, document only receive a link.<br><br> Allowed file extentions: .jpg, .jpeg, .png, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 | LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif | 
 | Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp4, .gif |
 | WeChat               | Image, Audio, and Video                        | Image, Audio, and Video <br><br> Allowed file extensions: .jpg, .jpeg, .png, .amr, .mp4 |
