@@ -79,8 +79,9 @@ In this example, let’s customize the Lead work list card.
         >![Select icon appearance type.](media/worklist-customize-select-icon-appearance.png "Select icon appearance type")  
         
     - **Work list card content**: Select the attributes from the list on the field to display the content. For example, for an account record type you want to display name on the top line. Select the attribute Name from the list on the field. You can perform the following action to configure:   
-        
+         
         | Action | Description |
+        |--------|-------------|
         | Add a field in a row | Hover over the field and then select **More options** > **Add a field**.<br>You can have up to three fields in a row. |
         | Add an icon in a row | Hover over the field and then select **More options** > **Add an icon**.<br>You can have up to three icons in a row. |
         | Add a row to the card | Select the add icon (+) corresponding to a row.<br>You can’t add more than four rows to a card.|
