@@ -288,7 +288,7 @@ public class DirectLineConversation
 
 If conversation is not active for the activity received by the relay processor, it does the following steps:
 
-Start a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
+1. Start a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
 
 ```javascript
  /// <summary>
@@ -326,7 +326,7 @@ Start a conversation with Direct Line and store the conversation object sent by 
  }
  ```
 
-Starts a new thread to poll the outbound activities from Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
+2. Starts a new thread to poll the outbound activities from Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
 
 ```javascript
 /// <summary>
@@ -412,7 +412,7 @@ To end the conversation, see [End a conversation in Direct Line](/azure/bot-serv
 
 ### See also
 
-[Configure custom messaging channel](configure-custom-channel.md)
+[Configure custom messaging channel](configure-custom-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Markdown formats](markdown-formats-dev.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
