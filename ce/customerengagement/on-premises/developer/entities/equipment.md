@@ -27,7 +27,6 @@ Resource that can be scheduled.
 |Delete|DELETE [*org URI*]/api/data/v9.0/equipments(*equipmentid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |Retrieve|GET [*org URI*]/api/data/v9.0/equipments(*equipmentid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/equipments<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetBusinessEquipment|<xref href="Microsoft.Dynamics.CRM.SetBusinessEquipment?text=SetBusinessEquipment Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|
 |SetBusinessSystemUser|<xref href="Microsoft.Dynamics.CRM.SetBusinessSystemUser?text=SetBusinessSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessSystemUserRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/equipments(*equipmentid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 

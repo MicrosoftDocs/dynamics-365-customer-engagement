@@ -1,0 +1,49 @@
+---
+title: "Set up routing for email records in Customer Service | MicrosoftDocs"
+description: "Learn about the process to route email records using unified routing."
+ms.date: 07/06/2022
+ms.topic: article
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+---
+
+# Configure routing for email records
+
+In Dynamics 365 Customer Service, you can configure emails to be routed as work items and added to queues for agents to work on them.
+
+When an email comes from a customer, you can use one of the following methods to address the email:
+
+- **Route email as a case**: Perform the following settings to route email as a case:
+
+  1. Configure rules to create or update records automatically to create cases. More information: [Automatically create or update records](automatically-create-update-records.md)
+  
+  1. Save and route the cases on the case form. More information: [Save and route cases](customer-service-hub-user-guide-case-queues-and-routing.md#save-and-route-a-case)
+
+- **Route email as a record**: Configure the following settings to route the email as a record:
+
+  1. **Configure a dedicated mailbox and share the email ID with customers**: Customers can write to the configured mail ID and the mails are converted to cases and routed to the queue that's associated with the mailbox. More information: [Create a forward mailbox](../customerengagement/on-premises/admin/create-forward-mailboxes-edit-mailboxes.md?view=op-9-1&preserve-view=true)
+  
+  1. **Configure server-side sync**: Set up server-side sync to create the email record and queue item when customer sends email. More information: [Server-side sync](../customerengagement/on-premises/admin/server-side-synchronization.md?view=op-9-1&preserve-view=true)
+  
+  1. **Configure Power Automate flow**: Configure the flow in Power Automate to automatically route the work items to agents. The routed records will appear on the agent dashboard as work items. More information: [Route records automatically](routing-trigger-automatic.md)
+
+  1. **Configure workstreams**: Create workstreams and configure classification and route-to-queue rules. More information: [Create workstreams](create-workstreams.md)
+
+  1. **Configure intake rules**: Configure intake rules to identify the workstream to route the email record. More information: [Set up unified routing for records](set-up-record-routing.md)
+
+  1. **Configure queues**: Create queues and configure assignment methods. More information: [Create queues for unified routing](queues-omnichannel.md)
+
+The high-level process of how email can be routed using unified routing is depicted in the following architecture diagram.
+
+:::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
+
+### See also
+
+[Overview of unified routing](overview-unified-routing.md)  
+[Enable unified routing](provision-unified-routing.md)  
+[Configure classification rules](configure-work-classification.md)  
+[Assignment methods in unified routing](assignment-methods.md)  
+[Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages)  
+[Use email message filtering and correlation to specify which emails are tracked](/power-platform/admin/email-message-filtering-correlation)  
+
