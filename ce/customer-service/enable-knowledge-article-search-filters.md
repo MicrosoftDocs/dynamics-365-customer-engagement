@@ -30,7 +30,11 @@ searchScope:
 
 For the knowledge search results, you can configure standard and custom fields as filters to help your agents find the content and improve their productivity.
 
-You can set up the customization of knowledge article search filters by first enabling the feature and then setting the filter configurations. The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
+The option to **Enable knowledge article search filters** is turned by default for both new and existing customers. You can further set up your filter personalization settings by setting up the other options available on teh filters page.
+
+xxx If you wish to disable search filters. 
+
+The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
 
 - Options set
 - Multiselect options set
@@ -38,13 +42,15 @@ You can set up the customization of knowledge article search filters by first en
 - Two choices
 - Date and time
 
-
  Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
 
-If you enable the customization of the knowledge search filters, the web client and maker experience knowledge management filter experience are deactivated.
+If you choose to retain the the customization of the knowledge search filters, the web client and maker experience knowledge management filter experience are deactivated.
 In full-text search, the archived and discarded status filters are not supported.
 
 ## Enable search filters for knowledge articles
+
+
+
 
 You can enable search filters for your knowledge articles in the Customer Service admin center or Customer Service Hub app by performing the following steps::
 
