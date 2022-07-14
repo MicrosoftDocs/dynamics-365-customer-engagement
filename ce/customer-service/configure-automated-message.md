@@ -1,7 +1,7 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service"
-ms.date: 06/30/2022
+ms.date: 07/15/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -104,7 +104,7 @@ To deactivate messages at the channel instance level, select one or more message
 |-----------------|------------|-----------------|
 | Agent assigned to a conversation             | Message displayed to the customer when the customer's conversation is created | When the customer's conversation is created |
 | Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails  | When work distribution fails (for example, no agents are linked to the queue, or the default queue is not found) or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. |
-| Agent disconnected from the conversation     | Message displayed to the customer when the agent gets disconnected | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, internet disconnected  |
+| Agent disconnected from the conversation     | Message displayed to the customer when the agent gets disconnected | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue  |
 | Agent ended the conversation                 | Message displayed to the customer when the agent ends the conversation | When the agent clicks the End button |
 | Agent joined the conversation                | Message displayed to the customer when the agent joins a conversation | When the agent accepts the notification  |
 | Consult accepted                        | Message displayed to the customer when another agent is consulted successfully  | When another agent accepts the consult request  |
@@ -113,14 +113,11 @@ To deactivate messages at the channel instance level, select one or more message
 | Out of operating hour message to customer | Message displayed to the customer outside of the business hours  | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue  |
 | Session ended   | Message displayed to the customer when the agent ends the conversation and closes the session | When the agent ends the conversation and closes the session  |
 | Transfer to agent accepted          | Message displayed to the customer when the conversation is transferred successfully | When another agent accepts the transfer request |
-
-| **Message trigger** | **Definition** | **When to trigger** |
-|-----------------|------------|-----------------|
-| Customer is waiting in queue with queue position two or more customer positions in queue |      | Triggered when customer is waiting in queue with queue position 2 or more |
-| Customer is next in line      |     |    Triggered when customer is next in line in the queue |
-| Average wait time for customers: Minutes |      |                 Triggered when customer is waiting in queue with average wait time in minutes |
-| Average wait time for customers: Hours   |     |                 Triggered when customer is waiting in queue with average wait time in hours |
-| Average wait time for customers: Hours and Minutes  |         |         Triggered when customer is waiting in queue with average wait time being more than 1 hour |
+| Customer is waiting in queue with queue position two or more customer positions in queue |      | When customer is waiting in queue with queue position 2 or more |
+| Customer is next in line      |     |  When customer is next in line in the queue |
+| Average wait time for customers: Minutes |      | When customer is waiting in queue with average wait time in minutes |
+| Average wait time for customers: Hours   |     |  When customer is waiting in queue with average wait time in hours |
+| Average wait time for customers: Hours and Minutes  |         | When customer is waiting in queue with average wait time being more than 1 hour |
 
 ### See also
 
