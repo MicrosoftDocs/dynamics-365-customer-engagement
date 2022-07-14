@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 04/04/2022
+ms.date: 07/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -37,8 +37,7 @@ Dataverse search uses Azure search service to index and search records. Datavers
 
 
 > [!NOTE]
-> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If Dataverse search is not enabled for the entity, standard full-text search is used. 
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization). Once Dataverse search is enabled, irrespective of whether knowledge article entity is enabled/disabled, Dataverse search will be used.
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
