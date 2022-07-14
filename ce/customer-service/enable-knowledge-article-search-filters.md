@@ -1,7 +1,7 @@
 ---
 title: Enable knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+ms.date: 07/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,9 +30,9 @@ searchScope:
 
 For the knowledge search results, you can configure standard and custom fields as filters to help your agents find the content and improve their productivity.
 
-The option to **Enable knowledge article search filters** is turned by default for both new and existing customers. You can further set up your filter personalization settings by setting up the other options available on teh filters page.
+The option to **Enable knowledge article search filters** is turned by default for both new and existing customers. So, existing customers who had previously disabled the filter customization will need to disable the option once again. To disable search filters, you'll need to manually change the **Enable knowledge article search filters** option to **No** on the **Filters** page. Once set to **No**, the updated settings will apply. All the other settings including those provided under filter personalization won't get changed as this change will enable/disable filter customization, which in turn will completely enable/disable filter personalization without affecting any settings within personalization.
 
-xxx If you wish to disable search filters. 
+If you choose to proceed with customizing the search filters for your knowledge articles, you can do so with the options available on the **Filters** page. More information: [Customize search filters for knowledge articles](#customize-search-filters-for-knowledge-articles).
 
 The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
 
@@ -44,15 +44,11 @@ The fields that are present on the knowledge article entity are the fields that 
 
  Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
 
-If you choose to retain the the customization of the knowledge search filters, the web client and maker experience knowledge management filter experience are deactivated.
-In full-text search, the archived and discarded status filters are not supported.
+If you choose to retain the knowledge search filters, the web client and maker experience knowledge management filter experience are deactivated. In full-text search, the archived and discarded status filters are not supported.
 
-## Enable search filters for knowledge articles
+## Customize search filters for knowledge articles
 
-
-
-
-You can enable search filters for your knowledge articles in the Customer Service admin center or Customer Service Hub app by performing the following steps::
+You can customize the search filters for knowledge article in the Customer Service admin center or Customer Service Hub app by performing the following steps::
 
 1. Go to **Filters**.
 
@@ -68,9 +64,7 @@ You can enable search filters for your knowledge articles in the Customer Servic
 
 ---
 
-2. Set **Enable search filters** to **Yes**, and then select **Save**.
-
-3. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service:
+2. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service:
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
