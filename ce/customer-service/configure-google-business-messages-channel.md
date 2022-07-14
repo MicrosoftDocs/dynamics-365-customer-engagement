@@ -25,11 +25,10 @@ The Business Messages channel gives you an incredible opportunity to capitalize 
 The following are important prerequisites that you must complete before configuring the Google's Business Messages channel in Omnichannel for Customer Service.
 
 - In Customer Service, you must have channels provisioned in your environment. More information: [Provision Omnichannel for Customer Service](/omnichannel-provision-license.md)
-- [Register as a partner](https://developers.google.com/business-communications/business-messages/guides/how-to/register#register_as_a_partner)
 
 In Google, complete the following actions:
 
-- [Register as a partner](https://developers.google.com/business-communications/business-messages/guides/how-to/register#register_as_a_partner)
+- [Configure a Google Business Messages channel](https://developers.google.com/business-communications/business-messages/guides/how-to/register#register_as_a_partner)
 -	[Create a service account with a service account key](https://developers.google.com/business-communications/business-messages/guides/how-to/register#create_a_service_account)
 
 - Configure the agent:
@@ -43,13 +42,13 @@ In Google, complete the following actions:
 
 ## End-to-end walkthrough
 
-1. [Register Business Messages](#register-business-messages)
-2. [Create a new agent profile in Google Business Messages](#create-a-new-agent-profile-in-google-business-messages)
+1. [Configure a Google Business Messages channel](#configure-a-google-business-messages-channel)
+2. [Update the agent profile in Google Business Messages](#update-the-agent-profile-in-google-business-messages)
 3. [Create a workstream in Omnichannel admin center](#create-a-workstream-in-omnichannel-admin-center)
 4. [Set up Business Messages](#set-up-business-messages)
 5. [Test the messaging for the agent in the Google Business Messages app](#test-the-messaging-for-the-agent-in-the-google-business-messages-app)
 
-## Register Business Messages
+## Configure a Google Business Messages channel
 
 You can connect Business Messages with Omnichannel for Customer Service by completing the following steps to create a webhook from Omnichannel.
 
@@ -59,18 +58,15 @@ You can connect Business Messages with Omnichannel for Customer Service by compl
 1. In the **Channel** dropdown menu, select **Google Business Messages**, and then select **Next**.
 1. On the **Google Business Messages Partner account** page, in the **Partner ID** field, copy and paste the Partner ID from the **Settings** page of the Google Business Messages app.
 1. In the **Client token** field, enter the token from the Business Messages app. The token is found on the **Configure your webhook** page of the Business Messages app.
-  > [!Note]
-  > Only users with proper security permissions can use secured fields, such as **Client token** and **Credential**. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
+   > [!Note]
+   > Only users with proper security permissions can use secured fields, such as **Client token** and **Credential**. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
 1. In Omnichannel, on the **Configure your two-way connection with Omnichannel for Customer Service**, copy the **Google Business Messages** URL and then, in the Business Messages app, on the **Configure your webhook** page, paste the URL in the **Webhook endpoint URL** field.
 1. Select **Verify** in the Google Business Messages app.
 1. When the verification has completed, select **Save**.
 
 ## Create a new agent profile in Business Messages
-1. In Google Business Messages, on the **Welcome to Business Communications** page, select the **Create agent** tile.
-1. On the **New Business Messages agent** page, select the **Brand** from the dropdown list, and then enter the name in the **Agent name** field.
-1. Select **Create agent**.
-1. When created, the agent name displays as a new tile. Select the tile, and then on the **Overview** page, select and copy the **Brand ID**, and then paste it into the **Brand ID** field in Omnichannel.
+1. In Google Business Messages, select the tile for the agent profile you created, and then on the **Overview** page, select and copy the **Brand ID**, and then paste it into the **Brand ID** field in Omnichannel.
 1. In Google Business Messages, select and copy the **Agent ID**, and then paste it into the **Agent ID** field in Omnichannel.
 1. In Omnichannel, select **Add** > **Save**.
 
