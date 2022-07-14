@@ -688,6 +688,12 @@
         href: developer/marketing-solutions.md
       - name: Dynamics 365 Marketing entity reference
         href: developer/marketing-entity-reference.md
+    - name: Customize marketing forms
+      items:
+      - name: Filter cities based on countries using lookup fields and custom entities
+        href: developer/filter-cities.md
+      - name: Extend Marketing forms using client side scripting
+        href: developer/marketing-form-client-side-extensibility.md
     - name: Work with segments using code
       href: developer/extend-segments.md
     - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
@@ -698,8 +704,6 @@
       href: developer/migrate-files.md
     - name: Retrieve interactions for a contact
       href: developer/retrieve-interactions-contact.md
-    - name: Extend Marketing forms using client side scripting
-      href: developer/marketing-form-client-side-extensibility.md
   - name: Learning catalog
     items: 
     - name: Learning catalog overview
