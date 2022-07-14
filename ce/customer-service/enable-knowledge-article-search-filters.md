@@ -24,7 +24,7 @@ searchScope:
  - Customer Engagement
 ---
 
-# Enable knowledge article search filters
+# Customize knowledge article search filters
 
 ## Introduction
 
