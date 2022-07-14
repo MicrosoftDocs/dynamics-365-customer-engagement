@@ -598,5 +598,6 @@ Some types of rich messages may need their contents customized before they can b
 The following rich messages support admin-enabled customization:
 
 | Channel | Message type |
+|---------|---------------|
 | Apple Messages for Business | [List picker](#list-picker)<br> [Suggested reply](#suggested-reply)<br> [Time picker](#time-picker)<br> [Video rich link](#video-rich-link)<br> [Website rich link](#website-rich-link)  |
 
