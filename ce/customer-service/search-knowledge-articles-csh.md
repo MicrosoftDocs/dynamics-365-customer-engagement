@@ -37,7 +37,7 @@ Dataverse search uses Azure search service to index and search records. Datavers
 
 
 > [!NOTE]
-> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization). Once Dataverse search is enabled, irrespective of whether knowledge article entity is enabled/disabled, Dataverse search will be used.
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization). Once Dataverse search is enabled, irrespective of whether the knowledge article entity is enabled/disabled, Dataverse search will be used.
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
