@@ -64,9 +64,10 @@ In this example, let’s customize the Lead work list card.
     >[!div class="mx-imgBorder"]
     >![Enable administrator mode and select lock customization.](media/worklist-customize-enable-admin-mode.png "Enable administrator mode and select lock customization.")     
 
-6.	Customize the card. <a name="customize-the-card"></a>     
+6.	Customize the card. <a name='customize-the-card'></a>     
     
     - **Work item icon**: Select the edit icon and then choose one of the following options:   
+        
         | Option | Description |
         |--------|-------------|
         | Record image | Displays the photo of the contact. |
@@ -77,8 +78,8 @@ In this example, let’s customize the Lead work list card.
         >[!div class="mx-imgBorder"]
         >![Select icon appearance type.](media/worklist-customize-select-icon-appearance.png "Select icon appearance type")  
         
-    - **Work list card content**: Select the attributes from the list on the field to display the content. For example, for an account record type you want to display name on the top line. Select the attribute Name from the list on the field.     
-    You can perform the following action to configure:
+    - **Work list card content**: Select the attributes from the list on the field to display the content. For example, for an account record type you want to display name on the top line. Select the attribute Name from the list on the field. You can perform the following action to configure:   
+        
         | Action | Description |
         | Add a field in a row | Hover over the field and then select **More options** > **Add a field**.<br>You can have up to three fields in a row. |
         | Add an icon in a row | Hover over the field and then select **More options** > **Add an icon**.<br>You can have up to three icons in a row. |
@@ -86,8 +87,8 @@ In this example, let’s customize the Lead work list card.
         | Display action for the card | Select the gear icon (![Gear icon to select actions.](media/worklist-customize-gear-icon.png "Gear icon to select actions.")) and then choose the action that you want to display for the work list item.<br>The actions selected here are displayed when the More options icon is selected on the work list item according to the activity.<br>![Choose actions to display on the work list card.](media/worklist-customize-choose-actions.png "Choose actions to display on the work list card") |
         | Delete a field or icon | Hover over the field or icon and then select **More options** > **Remove**. |
         | Reset to default configuration | Select **Reset to default** to reset the work list card to the default configurations. |
-
-7. Select **Save**.
+        
+7. Select **Save**.     
 The work list card is customized.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
