@@ -8,7 +8,6 @@ ms.author: laalexan
 manager: shujoshi
 ---
 
-
 # Configure an Apple Messages for Business channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -410,10 +409,193 @@ Multi-select questions can be used to quickly select one or more options from a 
    
    c. **Image link** (Optional): The image that is displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
    
-For an example of the difference between **Value** and **Text**, see the section on single-select question types.<br>
+      For an example of the difference between **Value** and **Text**, see the section on single-select question types.<br>
 
 1. To add additional choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. A choice may be removed by selecting the delete icon. To remove all choices, press the erase icon that is located beside the + icon at the top of the list.
 
 
+### Dropdown picker question
 
+Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction which only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country, colors, brands, or categories. For single select questions that support images but fewer choices, see the single-select question type. 
+
+1. Provide a **Question title**. You can also include an optional **Header** text.
+
+1. Under **Choices**, you can add each of your options. As these questions can support a large number of options, it is recommended that you add choices in a logical ordering such as alphabetical. Each choice has the following fields:
+
+   a. **Value**: The true identifier for a choice. This is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   
+   b. **Text** (Optional): What the customer will see when viewing the question. By default, the text will match the value. Changing the text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
+   
+1. To add additional choices, select the + icon within the properties panel or builder. Choices can be rearranged by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon located beside the + icon at the top of the list.
+
+1. Once you’ve listed all your choices, you can choose a default answer by selecting **Set default value** and choosing an item from the dropdown. If you choose not to select one, the default is automatically set to the first item in your choices. For a large, sorted set of choices, setting the default value to an item in the middle or the most common answer might reduce the amount of scrolling needed.
+
+### Date picker question
+
+Date picker questions are used to quickly select a date using a wheel-like scrolling interaction. Date picker can be configured to only allow dates within a pre-defined timespan. This question type is good for inputting birthdates, purchase dates, or future events. Date pickers don't support times, which would need to be provided in a single or multi-line input question type. 
+
+1. Provide a **Question title**. You can also include an optional **Header** text. 
+
+1. **Label** is an optional value that appears beside the text field and can serve as an additional prompt. For a question titled “When were you born”, the label might be set to “Birthday”. 
+
+1. To limit the time-range that customers can input, there are two optional rage values:<br>
+
+   a. **Min**: This value represents the furthest back date that can be selected. When this is set, no dates earlier than this date can be selected.<br>
+   
+   b. **Max**: The value represents the furthest-forward date that can be selected. If this value isn't set, the maximum date will be the date that the customer responds. When asking a question about a future date, this value must be set.<br>
+   
+1. The **Start date** value is the preset value that appears when the question opens. If this value isn't set, the start date will be the date when the customer is completing the form.
+
+### List Picker
+Designer
+
+Within the designer, the first fields are related to the message that appears within the messages application.
+
+1. First, provide a message title, which will serve as the title for both the message and list picker.
+
+1. The following fields are optional:
+
+   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the header.<br>
+   
+   b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and videos and GIFs aren't supported.<br>
+   
+1. A list picker is composed of one or more sections containing at least one item. The following fields are part of each section:<br>
+
+   a. **Section title**: A title for each section that can provide context and instructions for customer responses. <br>
+   
+   b. **Allow multi-select**: Determines whether the customer can select one or more items within the section. By default, sections will be single-select.<br>
+   
+   c. **List items**: Each section must include at least one option. Options can be added by selecting **Add option**, or removed by selecting **Remove**. Each option has the following fields:<br>
+   
+      i. **Option title**: The title field is required and will be what appears as the customer's response in the messages app and in conversation control. Titles should be simple and straightforward, using the subtitle field for additional details.<br>
+      
+      ii. **Option subtitle**: Subtitles are an optional field that can be used to provide details about an option, such as add-on costs, item descriptions, and other secondary information. <br>
+      
+      iii. **Image URL**: A valid image URL for adding an image beside a list option. Images are optional and shouldn't be used in place of the title or subtitle text.<br>
+      
+1. To add additional sections, select **Add section**. When there are two or more sections, a section can be deleted by selecting **Remove**.
+
+1. An optional response message can be added to the list picker rich message. This text will appear in the customer's response, below selection choices.
+
+### Suggested reply
+Designer
+
+1. The **Summary text** field contains helper text for the customer to see after they've responded to a suggested reply message. This field shouldn't be used as the question, as customers won't see it until after they select a choice.
+
+1. Suggested reply messages can have between two and five options that should be kept concise.
+
+1. To add additional options, select **Add option**. When there are more than two options, an option can be removed by selecting the option's corresponding **Remove** icon.
+
+### Time picker
+Designer
+
+1. Within the designer, the first fields are related to the message that appears within the messages application. First provide a message title, which will serve as the title for the message.
+
+1. The following fields are optional:
+
+   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the header.<br>
+   
+   b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and videos and GIFs aren't supported.<br>
+   
+1. Under **Event information**, you can configure the details and time-slots as follows:<br>
+    
+   a. **Event title**: The event title will appear within the customer's calendar application if they choose to add the event to their calendar.<br>
+   
+   b. **Location name**: The location name will appear within the customer's calendar application if they choose to add the event to their calendar.<br>
+   
+   c. **Event time zone**: This is the time zone where the event will take place.<br>
+   
+   d. **Adjust for daylight saving time**: By default, time zones are listed by their standard offset from GMT. However, if the event takes place in a region that uses daylight savings, this can result in timeslots being incorrectly converted. By toggling this setting to **Yes**, the daylight saving offset will be automatically applied for each timeslot listed.<br>
+   
+   e. **Customer display option**: By default, each time slot's start times will be converted to the customer's local time zone. To cause events to display in the event time zone regardless of the customer's current time zone, select **match event time**. Matching the event time can be helpful when customers may be travelling across time zones for the event, and need to more clearly understand the start time.<br>
+   
+   f. **Duration**: The duration of an event is not visible during time slot selection. It's automatically added to the calendar event and used to calculate the end time of an event. Events can range from zero minutes to multiple days long. Duration can be defined in the following units:<br>
+      - Minutes
+      - Hours
+      - Days
+     
+   g. **Time slot**: The set of choices a customer can select from. To create times slots, select **Add date**, then add the following fields:<br>
+   
+       - **Date**: The date used for each associated start time.
+       
+       - **Start time**: Define each time slot that a customer can select. These will all be grouped under the selected date.
+       
+       - To add additional start times for a specific date, select the Add time slot button below existing start time.
+       
+   h. To add additional dates, select **Add date**, and then complete the steps above for adding time slots.
+  
+     > [!Note]
+     > Past time slots won’t display on the customer's device.
+     
+1. An optional response message can be added to the time picker rich message. This text will appear in the customer's response, below their time slot selection.
+
+   - Recommendation: Use the response message as a call to action, encouraging customers to click the message for additional details. The additional details will include an **Add to Calendar** option that will display information such as event title and duration.
+   
+   
+### Video rich link
+Designer
+
+1. Provide a **Title** for the website rich link, which will be displayed alongside the image within the messages application.
+
+1. Provide the **Video URL**, which is the plain text URL that links directly to a video file.
+
+   > [!Note]
+   > Embedded videos and video streaming websites won't work correctly. The video URL must link directly to a video's source. If a video streaming website's URL is used, the rich link won't work. To link to video streaming sites, instead use the **Website rich link** style rich message. Supported format types include /mp4, .mkv, .wmv, .m4v, .mov, .avi, .flv, .webm, .flac, .mka, .m4a, .aac, and .ogg
+   
+1. Provide the **Image URL**, which is used to display a relevant image alongside the rich link title. The image URL must be a valid, still image in order to display correctly.
+
+   While an image URL is not required for video rich link messages, it's highly recommended. Video rich links that are sent without an image preview will appear as blank previews. Adding a keyframe or relevant image will improve the customer experience.
+
+### Website rich link
+Designer
+
+1. Provide a **Title** for the website rich link, which will be displayed alongside the image within the messages application.
+
+1. The **Website URL** is the plain text URL that the rich link will launch when the customer selects or long-presses on the message.
+
+1. The **Image URL** is used to display a relevant image alongside the rich link title. The image URL must be a valid, still image in order for it to display correctly.
+
+## Step 5: Rich messages in the conversation control
+
+### Send rich messages
+Rich messages panel
+
+When conversing in supported channels, the communication panel includes an additional feature for sending rich messages. These interactive messages can help you collect and share information with customers more easily. Rich messages are currently only supported in the Apple Messages for Business channel.
+
+Start using rich messages in your conversation with one of the following options:
+
+   - Select the Rich messages button to launch the rich message panel.
+   - Use a keyboard command to see the list of rich messages. Type the forward slash (/) and the letters rm (/rm).
+   
+### Search for rich messages and tags
+
+After launching the rich message panel by selecting the rich message icon or typing /rm, you can type any of the following options in the compose box to search for relevant rich messages:
+   
+   - Type /rm, followed by <keyword>, to list messages that match the keyword. 
+   - Type /rm, followed by the number sign (#), to list all tags. All rich messages will have a tag containing their type. 
+   - Type /rm, followed by <tagname> <keyword>, to list quick replies that match the tag and keyword.
+   - Type /rm, followed by <tagname>, to list all rich messages that match the tag. Additionally, you can also add another tag after the <tagname>. For example, type /rm, followed by <tagname> <tagname>, to further refine the rich messages matching both the tags.
+
+### View and send rich messages
+
+When you find the rich message you want to send, you can click on the rich message to open it. This will open the **Rich Message Preview** application pane.
+
+    > [!div class=mx-imgBorder]
+    > ![Rich Message Preview pane.](media/rich-messages-preview.png "Rich Message Preview pane")
+
+Within the preview tab, you’ll be able to see the contents of the rich message you’ve selected, along with a Send Message button. When you’re ready to send a rich message, use **Send Message**.
+
+If your administrator has enabled agent configuration, you can customize some types of rich messages before sending them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
+
+   > [!Note] 
+   > Agents should understand how customizable rich messages are constructed and appear on the customer’s device before attempting to edit them. 
+
+#### Customizable rich messages
+
+Some types of rich messages may need their contents customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context. 
+
+The following rich messages support admin-enabled customization:
+
+| Channel | Message type |
+| Apple Messages for Business | [List picker](#list-picker)<br> [Suggested reply](#suggested-reply<br> [Time picker](#time-picker)<br> [Video rich link](#video-rich-link)<br> [Website rich link](#website-rich-link)  |
 
