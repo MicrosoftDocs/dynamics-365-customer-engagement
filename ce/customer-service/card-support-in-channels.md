@@ -21,7 +21,6 @@ The following table lists the rich cards that are supported across different cha
 | Channel | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
 |---------------|-----------|----------------|-------------|------------|----|
 | Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
-| Apple Messages for Business
 | LINE    | ✔ | ✔   | ✔ | 🌐  | ✔|
 | Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
 | Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
@@ -142,7 +141,7 @@ With social profiles, you can do the following:
 
 | Channel            | Supported?                                                          | Visitor name|
 |--------------------|---------------------------------------------------------------------|-------------|
-| Apple Messages for Business |                                                            | Visitor     |
+| Apple Messages for Business | Yes                                                        | Visitor     |
 | Facebook           | Yes                                                                 | User name |
 | Google's Business Messages | Yes                                                         | Display name |
 | LINE               | Yes                                                                 | Display name |
