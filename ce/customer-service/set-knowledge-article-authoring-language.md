@@ -1,7 +1,7 @@
 ---
 title: Configure default knowledge article authoring language | MicrosoftDocs
 description: Learn how to configure a default language for authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 07/14/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,20 +26,21 @@ searchScope:
 
 # Set a default knowledge article authoring language for your organization
 
-You can set a default knowledge article authoring language for your organization, but also give your agents the ability to personalize it according to their choice. Your agents might prefer to author knowledge articles in a language other than the language that is set for your organization. Agents can also change the language for different articles.
-
-Review the hierarchy as described in the table below. The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then the administrator.
+There may be times when your agents prefer to author knowledge articles in a language other than the language that is set for your organization. You can set a language for your organization, but then also give agents the ability to personalize it to their own choice. Agents can also change the language for different articles. Review the hierarchy as described in the table below.
 
   > [!NOTE]
   > The settings you configure for knowledge article authoring on the **Settings** page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles will be created in English. 
 
-Admin settings for KA authoring language
+
+Admin settings for KA authoring language (Knowledge settings page)
 
 |Hierarchy |Personalization preference |Configurations allowed |
 |-------------------|-------------------|--------------|
 |Admin        |Language preference at the organization level   |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>   |
 |Knowledge managers        |Language preference at the individual author level     |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>    |
 |Agent         |Language preference at the individual knowledge base level      |Override administrative settings and choose a language-locale combination from the lookup</li>   |
+
+The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then administrator.
 
 You can set a default knowledge article authoring language for your organization in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
