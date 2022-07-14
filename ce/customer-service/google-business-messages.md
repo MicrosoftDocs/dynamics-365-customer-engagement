@@ -49,7 +49,7 @@ In Omnichannel for Customer Service, you can:
 
 ### See also
 
-[Configure a Google Business Messages channel](configure-gbm-channel.md)
+[Configure a Google Business Messages channel](configure-google-business-messages-channel.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
