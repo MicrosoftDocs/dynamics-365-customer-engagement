@@ -62,10 +62,10 @@ To add the Apple Messages for Business channel instance, complete the following 
       
      b. On the **Language** page, select the language to use.<br>
       
-     c. On the **Behaviors** page, configure the following options<br>
-           - **Custom automated messages**<br>
-           - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
-           - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
+     c. On the **Behaviors** page, configure the following options:<br>
+        - **Custom automated messages**<br>
+        - [**Post-conversation survey**](/configure-post-conversation-survey.md)<br>
+        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. More information: [Authentication Settings]().<br>
      
      d. On the **User features** page, configure the following options:<br>
            - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](/enable-file-attachments.md).<br>
@@ -516,11 +516,11 @@ Designer
      
    g. **Time slot**: The set of choices a customer can select from. To create times slots, select **Add date**, then add the following fields:<br>
    
-       - **Date**: The date used for each associated start time.
+      - **Date**: The date used for each associated start time.
        
-       - **Start time**: Define each time slot that a customer can select. These will all be grouped under the selected date.
+      - **Start time**: Define each time slot that a customer can select. These will all be grouped under the selected date.
        
-       - To add additional start times for a specific date, select the Add time slot button below existing start time.
+      - To add additional start times for a specific date, select the Add time slot button below existing start time.
        
    h. To add additional dates, select **Add date**, and then complete the steps above for adding time slots.
   
@@ -571,24 +571,24 @@ Start using rich messages in your conversation with one of the following options
 
 After launching the rich message panel by selecting the rich message icon or typing /rm, you can type any of the following options in the compose box to search for relevant rich messages:
    
-   - Type /rm, followed by <keyword>, to list messages that match the keyword. 
+   - Type /rm, followed by &lt;keyword&gt;, to list messages that match the keyword. 
    - Type /rm, followed by the number sign (#), to list all tags. All rich messages will have a tag containing their type. 
-   - Type /rm, followed by <tagname> <keyword>, to list quick replies that match the tag and keyword.
-   - Type /rm, followed by <tagname>, to list all rich messages that match the tag. Additionally, you can also add another tag after the <tagname>. For example, type /rm, followed by <tagname> <tagname>, to further refine the rich messages matching both the tags.
+   - Type /rm, followed by &lt;tagname&gt;&lt;keyword&gt;, to list quick replies that match the tag and keyword.
+   - Type /rm, followed by &lt;tagname&gt;, to list all rich messages that match the tag. Additionally, you can also add another tag after the &lt;tagname&gt;. For example, type /rm, followed by &lt;tagname&gt; &lt;tagname&gt;, to further refine the rich messages matching both the tags.
 
 ### View and send rich messages
 
 When you find the rich message you want to send, you can click on the rich message to open it. This will open the **Rich Message Preview** application pane.
 
-    > [!div class=mx-imgBorder]
-    > ![Rich Message Preview pane.](media/rich-messages-preview.png "Rich Message Preview pane")
+   > [!div class=mx-imgBorder]
+   > ![Rich Message Preview pane.](media/rich-messages-preview.png "Rich Message Preview pane")
 
 Within the preview tab, you’ll be able to see the contents of the rich message you’ve selected, along with a Send Message button. When you’re ready to send a rich message, use **Send Message**.
 
 If your administrator has enabled agent configuration, you can customize some types of rich messages before sending them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
-   > [!Note] 
-   > Agents should understand how customizable rich messages are constructed and appear on the customer’s device before attempting to edit them. 
+  > [!Note] 
+  > Agents should understand how customizable rich messages are constructed and appear on the customer’s device before attempting to edit them. 
 
 #### Customizable rich messages
 
