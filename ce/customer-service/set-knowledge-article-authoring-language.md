@@ -31,7 +31,7 @@ You can set a default knowledge article authoring language for your organization
 Review the hierarchy as described in the table below. The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then the administrator.
 
   > [!NOTE]
-  > The settings you configure for knowledge article authoring on the **Settings** page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles will be created in English.
+  > The settings you configure for knowledge article authoring on the **Settings** page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles will be created in English. 
 
 Admin settings for KA authoring language
 
