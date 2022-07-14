@@ -302,8 +302,192 @@ To associate rich messages with a workstream, complete the following steps:
 
 1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message will no longer appear in the list.
 
+#### Apple Pay
+Properties
+
+`messageTitle`
+
+Text displayed in the message bubble.
+
+```Type: string - Required: Yes```
 
 
+`imageURL`
+
+URL linking to the image displayed in the message bubble.
+
+```Type: string - Required: No```
+
+
+`currencyCode`
+
+The three-letter ISO 4217 currency code for the currency used in the payment request.
+
+```Type: string - Required: Yes```
+
+
+`requiredBillingContactFields`
+
+The customer's billing contact fields that are needed to process the transaction.
+
+```Type: requiredBillingContactFields[] - Required: Yes - Allowed values: - "email" - "name" - "phone" - "phoneticName" - "post"```
+
+
+`requiredShippingContactFields`
+
+The customer's shipping address information. Only include this if the purchase must be shipped.
+
+
+```Type: requiredShippingContactFields[] - Required: No - Allowed values: - "email" - "name" - "phone" - "phoneticName" - "post"```
+
+
+`shippingMethods`
+
+An array of shippingMethods. Omnichannel currently supports only one shipping method per payment request. If more than one shipping methods are included, only the first will be used.
+
+```Type: shippingMethods[] - Required: No - Allowed values: - shippingMethod```
+
+`shippingMethod`
+
+Describes the shipping method, which contains the `amount`, `detail`, `label`, and `identifier` properties.
+
+`amount`
+
+A non-negative value associated with this shipping method.
+
+```Type: string - Required: Yes```
+
+`identifier`
+
+Internally defined, unique value used to identify this shipping method.
+
+```Type: string - Required: Yes```
+
+
+`label`
+
+Description of the shipping method.
+
+```Type: string - Required: Yes```
+
+
+`type`
+
+Property to represent whether the line item amount is final or pending.
+
+```Type: string - Required: Yes - Allowed values: - "final" - "pending"```
+
+`total`
+
+Describes the final amount of the Apple Pay request. It contains the `amount`, `label`, and `type` properties.
+
+
+`amount`
+
+The monetary amount of the Apple Pay request. This must be greater than zero.
+
+```Type: string - Required: Yes```
+
+`label`
+
+The friendly business name customers will see when the charge appears on statements. For example, "Contoso Coffee".
+
+```Type: string - Required: Yes```
+
+`type`
+
+Property to represent whether the Apple Pay request's total amount is final or pending.
+
+```Type: string - Required: Yes - Allowed values: - "final" - "pending"```
+
+**Example**
+
+```
+{
+    "messageTitle" : "Purchase your Contoso Barista Home",
+    
+    "imageUrl" : "https://images-us-prod.cms.commerce.dynamics.com/cms/api/qbvttlwqcm/imageFileData/search?fileName=/Products%2FSP-DCM1008_000_001.png&w=315&h=315&q=80&m=6&f=jpg&cropfocalregion=true",
+    
+    "imageStyle" : "large",
+    
+    "currencyCode" :"USD",
+    
+    //Billing contact information requested during purchase
+    "requiredBillingContactFields" : [
+        "post",
+        "email",
+        "phone",
+        "name",
+        "phoneticname"
+    ],
+    //Only required when customer's purchase must be shipped
+    "requiredShippingContactFields" : [
+        "post",
+        "email",
+        "phone",
+        "name",
+        "phoneticname"
+    ],
+    "shippingMethods" : [
+        {
+            "amount" : "0.00",
+            "detail" :"Available within an Hour",
+            "label" : "In-Store pickup",
+            "identifier" : "in_store_pickup"
+        }         
+    ],
+
+    "lineItems" : [
+        {
+            "label" : "Barista Home Espresso Maker",
+            "amount" : "899.00",
+            "type" : "Final"
+        },
+        {
+            "label" : "Contoso Customer Discount",
+            "amount" : "-898.99",
+            "type" : "Final"
+        }
+    ],
+
+    "total" : {
+        "label" : "Label",
+        "amount" : "0.01",
+        "type" : "Final"
+    }
+}
+```
+#### Limitations
+
+|Description | Limitation |
+|------------|--------------|
+|Message contents | Images aren't currently supported for authentication.|
+|Agent | Authentication request-type rich messages don't currently support agent configuration.|
+
+#### Custom JSON
+
+Properties
+
+`bid`
+
+A string identifying the iMessage extension that the user interacts with while using Messages. The bid value format is `com.apple.messages.MSMessageExtensionBalloonPlugin:team-id:extension-id`. Replace `team-id` and `extension-id` with your Apple Developer team and extension IDs. 
+
+```Type: string - Required: Yes```
+
+
+`URL`
+
+A URL string containing data that the Messages app sends to the iMessage app.
+
+```Type: string - Required: Yes```
+
+**Example**
+
+```
+{   "bid":"com.apple.messages.MSMessageExtensionBalloonPlugin:{team-id}:{ext-bundle-id}",
+"URL":"?name=WWDC%20Goodies&deliveryDate=09-06-2017&destinationName=Contoso%20Coffee%20Redmond&street=1%20Microsoft%20Way&state=WA&city=Seattle&country=USA&postalCode=98052&latitude=47%2E6395&longitude=%2D122%2E1281&extraCharge=15%2E00"
+}
+```
 
 ## Forms
 
