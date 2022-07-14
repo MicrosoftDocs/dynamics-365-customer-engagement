@@ -776,6 +776,8 @@
           href: configure-sms-channel-twilio.md
       - name: Set up social channels
         items: 
+        - name: Configure an Apple Messages for Business channel
+          href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
         - name: Configure a LINE channel
