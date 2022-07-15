@@ -14,15 +14,15 @@ You can create payment profiles to enable conversational commerce for supported 
 
 After you create a payment profile record, you must add it to a channel instance within a workstream's channel setup to make it work. Conversational commerce is supported for Apple Messages for Business.
 
-### Create an Apple Messages for Business payment profile for Apply Pay
+## Create an Apple Messages for Business payment profile for Apply Pay
 
-#### Prerequisites
+### Prerequisites
 
 Administrators who will be configuring payment profiles will need additional security permissions. To learn more, see Set up security permissions for a field.
 
 Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. More information: [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay)
 
-#### Create an Apple Pay payment profile
+### Create an Apple Pay payment profile
 
 1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
 
@@ -68,13 +68,14 @@ An Apple Pay type rich message may be associated to more than one payment profil
 
 1. Review or update the Apple Pay settings for any channel instance by selecting **Edit**.
 
-#### Limitations
+### Limitations
 
 |Description | Limitation |
 |-----------|---------------|
 | **Country code**: This is the 2-letter ISO 3166-1 alpha-2 code that denotes which country payments will be processed in. | China is not currently a supported country, as payments must go through a separate payment endpoint. |
 | **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents]() <br><br> - Adaptive card styling isn't supported. |
 | **Supported networks**: This property constrains the payment methods that the user can seelct to fund the payment. | - Supported networds are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries may be impacted: Saudia Arabia and China. | 
+
 
 ### See also
 
