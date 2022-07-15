@@ -109,7 +109,7 @@ In the Business Messages app, on the **Overview** page, under **Agent test URLs*
 
 1. Open the out-of-the-box work stream or the one you created.
 
-1. On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as Google Business Messages Context. For example, you can create a rule to transfer Googe's Business Messages chat from a customer named Google's Business Messages to the default queue.
+1. On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as Google Business Messages Context. For example, you can create a rule to transfer Google's Business Messages chat from a customer named Google's Business Messages to the default queue.
 
 ## Privacy notice
 By enabling this feature, your data will be shared with Google and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information here.
