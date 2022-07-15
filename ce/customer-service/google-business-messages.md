@@ -1,6 +1,6 @@
 ---
-title: "Use Google Business Messages in Omnichannel channel for Customer Service | MicrosoftDocs"
-description: "Perform the steps in this topic to use Google Business Messages in Omnichannel for Customer Service."
+title: "Use Google's Business Messages channel in Omnichannel channel for Customer Service | MicrosoftDocs"
+description: "Perform the steps in this topic to use Google's Business Messages channel in Omnichannel for Customer Service."
 ms.date: 07/11/2022
 ms.topic: article
 author: lalexms
@@ -16,7 +16,7 @@ manager: shujoshi
 When you sign in to Omnichannel for Customer Service, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see View agent dashboard and agent conversations (work items).
 
 ## Prerequisites
-Make sure your administrator has configured a Google's Business Messages channel in Omnichannel for Customer Service.
+Make sure your administrator has configured a Google's Business Messages channel in Omnichannel for Customer Service. More information: [Configure Google's Business Messages channel](configure-google-business-messages-channel.md)
 
 ## Incoming chat notifications
 You'll receive a notification when a customer requests a conversation through Business Messages. You can accept the chat request, after which a session starts and you'll see the communication panel in which you can exchange messages with the customer.
