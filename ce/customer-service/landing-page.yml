@@ -184,19 +184,3 @@ landingContent:
           url: /dynamics365/unified-service-desk/unified-service-desk
         - text: Dynamics 365 Channel Integration Framework guide
           url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
-
-landingContent:
-  - title: Overview
-    linkLists:
-    - linkListType: concept
-      links:
-      - text: Overview of Dynamics 365 Customer Service
-        url: overview.md
-      - text: Overview of unified routing
-        url: overview-unified-routing.md
-      - text: Overview of knowledge management
-        url: overview-knowledge-management.md
-      - text: Overview of the voice channel
-        url: voice-channel.md
-      - text: Overview of collaboration
-        url: collaboration.md
