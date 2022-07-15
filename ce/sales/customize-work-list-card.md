@@ -48,6 +48,10 @@ If you have a primary sales role, you can customize work items for yourself. You
 
 1. Turn on **Switch to admin mode** to allow changes. With this setting off, work items can't be customized.
 
+    >[!NOTE]
+    >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
+    >- If you are not an administrator, you can customize the work items only for yourself. However, an administrator must allow to customize the work list.    
+
     Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make further changes to work items, clear it.
 
     :::image type="content" source="media/worklist-customize-enable-admin-mode.png" alt-text="Screenshot of the Work item appearance settings page, with Switch to admin mode and Lock customization highlighted.":::
