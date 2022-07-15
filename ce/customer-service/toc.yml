@@ -834,7 +834,7 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure chat authentication settings
+    - name: Configure authentication settings
       href: create-chat-auth-settings.md
     - name: Configure payment profiles
       href: configure-payment-profiles.md
