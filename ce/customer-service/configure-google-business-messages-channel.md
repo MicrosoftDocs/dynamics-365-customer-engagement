@@ -15,7 +15,7 @@ manager: shujoshi
 
 Many customers use social messaging channels like Google's Business Messages for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 
-Google's Business Messages channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
+Google's Business Messages channel gives you the opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
 ## Prerequisites
 
@@ -43,8 +43,6 @@ After completing the prerequisites, you can add the Google's Business Messages c
 2.	Create routing rules.
 
 ## Create a Google's Business Messages channel
-
-**To configure the Google's Business Messages channel:**
 
 1. Go to one of the apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -74,7 +72,7 @@ After completing the prerequisites, you can add the Google's Business Messages c
 1. In Omnichannel, select **Add** > **Save**.
 
 
-## Create a workstream in Omnichannel admin center
+## Create a workstream
 
 1. Go to one of the apps, and perform the following steps:
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -102,11 +100,9 @@ In the Business Messages app, on the **Overview** page, under **Agent test URLs*
 
 ## Create routing rules
 
-1. Go to **Work Distribution Management** > **Work Streams**.
+Create [routing rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules) for the workstream you created. Select the entity as Google's Business Messages context. 
 
-1. Open the out-of-the-box work stream or the one you created.
-
-1. On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as Google's Business Messages Context. For example, you can create a rule to transfer Google's Business Messages chat from a customer named Google's Business Messages to the default queue.
+For example, you can create a rule to transfer Google's Business Messages chat from a customer named Google's Business Messages to the default queue.
 
 ## Privacy notice
 By enabling this feature, your data will be shared with Google and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information here.
