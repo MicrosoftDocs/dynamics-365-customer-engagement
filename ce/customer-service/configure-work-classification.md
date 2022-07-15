@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 06/17/2022
+ms.date: 07/15/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -166,12 +166,25 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 - **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
 
+-  **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
+   
+   - Group id
+   - Intent id
+   - Locale
+
 - **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
 
-  - **Customer name**: The customer name is shown in the format "first name, last name".
-  - **Locale**: For a list of locales, see Facebook developer documentation.
-  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-  - **User Page Scoped Id**: This is shown as a number string.
+   - **Customer name**: The customer name is shown in the format "first name, last name".
+   - **Locale**: For a list of locales, see Facebook developer documentation.
+   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
+   - **User Page Scoped Id**: This is shown as a number string.
+
+- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
+
+   - Entry poing
+   - Place id
+   - Resolved locale
+   - User device locale
 
 - **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
 
