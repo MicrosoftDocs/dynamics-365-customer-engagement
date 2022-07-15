@@ -31,7 +31,7 @@ An agent will get a notification in the **Conversation summary** section whether
 
 Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs). 
 
-## Create a chat authentication setting record
+### Create a chat authentication setting record
 
 You can create a chat authentication setting record in the Customer Service admin center or Omnichannel admin center app.
 
@@ -67,7 +67,7 @@ You can create a chat authentication setting record in the Customer Service admi
 
 5. Select **Save**.
 
-## Add authentication to chat widget
+### Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
    - In Customer Service admin center or Omnichannel admin center, go to the **Behaviors** tab. 
@@ -76,7 +76,7 @@ You can create a chat authentication setting record in the Customer Service admi
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that is associated with the chat widget.
 
-## Setup for Power Apps portals
+### Setup for Power Apps portals
 
 If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL, JavaScript client function, and JWT are available out of the box. Here's how you can get the required values:
 
@@ -86,7 +86,7 @@ If you're adding authentication for a chat widget on a website developed using P
 
 The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
 
-## Setup for custom portals that aren't created using Power Apps
+### Setup for custom portals that aren't created using Power Apps
 
 If you're adding an authenticated chat experience to a custom website, your web development team will need to do some initial setup before your administrators can configure authenticated chat. 
 
