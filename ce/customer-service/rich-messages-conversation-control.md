@@ -11,8 +11,6 @@ manager: shujoshi
 
 # Rich messages in the conversation control
 
-## Send rich messages
-
 When conversing in supported channels, the communication panel includes an additional feature for sending rich messages. These interactive messages can help you collect and share information with customers more easily. Rich messages are currently only supported in the Apple Messages for Business channel.
 
 Start using rich messages in your conversation with one of the following options:
@@ -43,7 +41,7 @@ If your administrator has enabled agent configuration, you can customize some ty
   > [!Note] 
   > Agents should understand how customizable rich messages are constructed and appear on the customer’s device before attempting to edit them. 
 
-### Customizable rich messages
+## Customizable rich messages
 
 Some types of rich messages may need their contents customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context. 
 
