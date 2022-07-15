@@ -18,7 +18,7 @@ Many customers use the Apple Messages app for their daily communication needs. T
 
 Apple Messages for Business supports rich messaging experiences, allowing customer and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/business-chat/overview/introduction/)
 
-## Prerequisites
+### Prerequisites
 Before you configure the Apple Messages for Business channel in Dynamics 365 Omnichannel for Customer Service, ensure that the following prerequisites are met:
 
 1. Register your business with Apple Business Register More information: [Apple Business Register](https://register.apple.com/)
@@ -42,7 +42,7 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
    | United Kingdom | https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness | 
 
 
-## Step 1: Configure an Apple Messages for Business channel instance in Omnichannel admin center
+### Step 1: Configure an Apple Messages for Business channel instance in Omnichannel admin center
 
 To add the Apple Messages for Business channel instance, complete the following steps:
 
@@ -87,13 +87,13 @@ To add the Apple Messages for Business channel instance, complete the following 
       - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages](create-rich-messages.md)<br>
     
-## Step 2: [Configure authentication settings](configure-authentication-settings.md)
+### Step 2: [Configure authentication settings](configure-authentication-settings.md)
 
-## Step 3: [Configure payment profiles](configure-payment-profiles.md)
+### Step 3: [Configure payment profiles](configure-payment-profiles.md)
 
-## Step 4: [Create rich messages](create-rich-messages.md)
+### Step 4: [Create rich messages](create-rich-messages.md)
 
-## Step 5: [Rich messages in the conversation control](rich-messages-conversation-control.md)
+### Step 5: [Rich messages in the conversation control](rich-messages-conversation-control.md)
 
 
 ### See also
