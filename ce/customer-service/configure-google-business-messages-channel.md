@@ -64,16 +64,16 @@ After completing the prerequisites, you can add the Google's Business Messages c
     
 1. In the **Name** field, enter the name for the account.
 1. In the **Channel** dropdown menu, select **Google's Business Messages**, and then select **Next**.
-1. On the **Google's Business Messages Partner account** page, in the **Partner ID** field, copy and paste the Partner ID from the **Settings** page of the Google Business Messages app.
+1. On the **Google's Business Messages Partner account** page, in the **Partner ID** field, copy and paste the Partner ID from the **Settings** page of the Google's Business Messages app.
 1. In the **Client token** field, enter the token from Google's Business Messages app. To retrieve the token, in Google's Business Messages app, on the **Settings** page, under **Webhook**, select the **Configure** link. The **Configure your webhook** page is displayed, and then you can copy the token from the **Client token** field.
 1. In Omnichannel admin center, on the **Google's Business Messages Partner account** page, next to **Service Account Credentials file (JSON file)**, select **Upload**, and then select the file you downloaded from Google's Business Messages.
    > [!Note]
    > Only users with proper security permissions can use secured fields, such as **Client token** and **Security Credential**. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
-1. In Omnichannel, in **Configure your two-way connection with Omnichannel for Customer Service**, copy the **Google Business Messages** URL and then, in the Business Messages app, on the **Configure your webhook** page, paste the URL in the **Webhook endpoint URL** field.
-1. Select **Verify** in the Google Business Messages app.
+1. In Omnichannel, in **Configure your two-way connection with Omnichannel for Customer Service**, copy the **Google's Business Messages** URL and then, in the Business Messages app, on the **Configure your webhook** page, paste the URL in the **Webhook endpoint URL** field.
+1. Select **Verify** in the Google's Business Messages app.
 1. When the verification has completed, select **Save**.
-1. In Google Business Messages, select the tile for the agent profile you created, and then on the **Overview** page, select and copy the **Brand ID**, and then paste it into the **Brand ID** field in Omnichannel.
-1. In Google Business Messages, select and copy the **Agent ID**, and then paste it into the **Agent ID** field in Omnichannel.
+1. In Google's Business Messages, select the tile for the agent profile you created, and then on the **Overview** page, select and copy the **Brand ID**, and then paste it into the **Brand ID** field in Omnichannel.
+1. In Google's Business Messages, select and copy the **Agent ID**, and then paste it into the **Agent ID** field in Omnichannel.
 1. In Omnichannel, select **Add** > **Save**.
 
 
@@ -90,16 +90,16 @@ After completing the prerequisites, you can add the Google's Business Messages c
     
 1. Select **New workstream**, and then enter a name.
 1. In **Type**, select **Messaging**.
-1. In the **Channel** dropdown list, select **Google Business Messages**.
+1. In the **Channel** dropdown list, select **Google's Business Messages**.
 1. In the **Choose existing** dropdown list, select an existing queue to use as the fallback for the workstream.
 1. Select **Create**.
-1. When the workstream has been created, on the workstream page, select **Set up Google Business Messages**.
+1. When the workstream has been created, on the workstream page, select **Set up Google's Business Messages**.
 1. Select the agent account you prefer from the list, and then select **Next**.
 1. On the **Language** page, select the preferred language, and then select **Next**.
 1. On the **User features** page, toggle the **File attachments** setting to **On**, and then select **Next**.
 1. Select **Create channel**.
 
-## Test the messaging for the agent in the Google Business Messages app
+## Test the messaging for the agent in the Google's Business Messages app
 
 In the Business Messages app, on the **Overview** page, under **Agent test URLs**, select either **Android** or **iOS**, and then select **Test**.
 
@@ -109,7 +109,7 @@ In the Business Messages app, on the **Overview** page, under **Agent test URLs*
 
 1. Open the out-of-the-box work stream or the one you created.
 
-1. On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as Google Business Messages Context. For example, you can create a rule to transfer Google's Business Messages chat from a customer named Google's Business Messages to the default queue.
+1. On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as Google's Business Messages Context. For example, you can create a rule to transfer Google's Business Messages chat from a customer named Google's Business Messages to the default queue.
 
 ## Privacy notice
 By enabling this feature, your data will be shared with Google and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information here.
