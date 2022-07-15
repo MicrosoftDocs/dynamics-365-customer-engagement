@@ -19,18 +19,6 @@ search.app:
 
 To make marketing forms easier to navigate, you may want to filter cities based on the country that a user selects. Out-of-the-box form fields don't support this functionality because City (`address1_country`) and Country (`address1_city`) properties are a "single line of text" type. To implement filtering, you'll need to first customize the Contact entity, then leverage lookup fields.
 
-## Necessary steps
-
-1. Create Country and City entities
-1. Add an N:1 relation and lookup field to the City entity that links the Country to the City
-1. Add permissions for the new custom entities to the Marketing Services User so the service can use them for lookup
-1. Customize the Contact entity to use lookup fields for Country and City
-1. Add the City and Country lookups to the sidebar
-1. Create City and Country records
-1. Create lookup form fields for City and Country
-1. Enable filtering for the City lookup in the form designer (this will be possible only if all the previous steps are done correctly)
-1. Publish and host the form
-
 ## 1. Create Country and City entities
 
 Before you can use lookup fields, you need to create custom entities that you're going to look up. You'll create two entities: one for Country and one for City.
@@ -185,12 +173,12 @@ Country lookup form field:
 
 ## 8. Enable filtering for City lookup in Form Designer
 
-Next, create a new marketing form that uses the new fields. Because the lookup fields are mapped to Contact only, the form needs to update Contacts only. If you want to use them with Leads, you'll need to repeat the [fourth step](filter-cities.md#4.-customize-the-contact-entity-to-use-lookup-fields-for-country-and-city) with the Lead entity. Make sure to use lookup form fields.
+Next, create a new marketing form that uses the new fields. Because the lookup fields are mapped to Contact only, the form needs to update Contacts only. If you want to use them with Leads, you'll need to repeat the [fourth step](filter-cities.md#4-customize-the-contact-entity-to-use-lookup-fields-for-country-and-city) with the Lead entity. Make sure to use lookup form fields.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding lookup fields to the marketing form.](../media/filter-cities-marketing-form.png "Screenshot of adding lookup fields to the marketing form")
 
-Lastly, you need to enable filtering. Select the City field and go to the **Properties** pane. Select the **Filter by** dropdown and select **Country Lookup**. If this option is missing, then relevance search isn't correctly configured. Go back to [step three](filter-cities.md#3.-add-read-permission-for-the-service-user) and make sure that all properties are added to both "Add view columns" and "Add search columns" in the "Quick Find Active..." view. Then, the number in the brackets should be the same as in the screenshot below.
+Lastly, you need to enable filtering. Select the City field and go to the **Properties** pane. Select the **Filter by** dropdown and select **Country Lookup**. If this option is missing, then relevance search isn't correctly configured. Go back to [step three](filter-cities.md#3-add-read-permission-for-the-service-user) and make sure that all properties are added to both "Add view columns" and "Add search columns" in the "Quick Find Active..." view. Then, the number in the brackets should be the same as in the screenshot below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling filtering in the marketing form.](../media/filter-cities-enable-filtering.png "Screenshot of enabling filtering in the marketing form")
