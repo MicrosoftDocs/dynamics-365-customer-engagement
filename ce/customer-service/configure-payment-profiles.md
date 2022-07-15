@@ -18,7 +18,7 @@ After you create a payment profile record, you must add it to a channel instance
 
 ### Prerequisites
 
-Administrators who will be configuring payment profiles will need additional security permissions. To learn more, see Set up security permissions for a field.
+Administrators who will be configuring payment profiles will need extra security permissions. To learn more, see Set up security permissions for a field.
 
 Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. More information: [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay)
 
@@ -33,7 +33,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
      a. On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
 
 1. On the Details page, provide the following information:<br>
-     1.	**Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name should not be localized.<br>
+     1.	**Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
      
      1.	**Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
      
@@ -72,9 +72,9 @@ An Apple Pay type rich message may be associated to more than one payment profil
 
 |Description | Limitation |
 |-----------|---------------|
-| **Country code**: This is the 2-letter ISO 3166-1 alpha-2 code that denotes which country payments will be processed in. | China is not currently a supported country, as payments must go through a separate payment endpoint. |
+| **Country code**: This is the two-letter ISO 3166-1 alpha-2 code that denotes which country payments will be processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
 | **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents]() <br><br> - Adaptive card styling isn't supported. |
-| **Supported networks**: This property constrains the payment methods that the user can seelct to fund the payment. | - Supported networds are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries may be impacted: Saudia Arabia and China. | 
+| **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries may be impacted: Saudi Arabia and China. | 
 
 
 ### See also
