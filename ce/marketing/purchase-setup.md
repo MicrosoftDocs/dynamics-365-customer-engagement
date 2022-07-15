@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 06/28/2022
+ms.date: 07/14/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -115,6 +115,9 @@ You can have any number of Marketing apps available on your tenant. Initially, e
 ## Run the Marketing setup wizard
 
 After purchasing your license for Dynamics 365 Marketing, you'll have an unconfigured Dynamics 365 Marketing app available on your tenant, but you still need to set it up for use. The Marketing setup wizard will help you review all the relevant privacy policies and set up and integrate its various elements.
+
+> [!TIP]
+> If you have not installed other apps on the [Microsoft Power Platform admin center](/power-platform/admin/), you will need to create an environment before you can run the Marketing setup wizard. Learn more: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment).
 
 To set up a new Marketing environment:
 
