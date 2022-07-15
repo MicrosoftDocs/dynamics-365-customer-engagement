@@ -14,7 +14,7 @@ You can create payment profiles to enable conversational commerce for supported 
 
 After you create a payment profile record, you must add it to a channel instance within a workstream's channel setup to make it work. Conversational commerce is supported for Apple Messages for Business.
 
-## Create an Apple Messages for Business payment profile for Apply Pay
+## Create an Apple Messages for Business payment profile for Apple Pay
 
 ### Prerequisites
 
