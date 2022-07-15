@@ -195,7 +195,7 @@ Type: ```string``` - Required: Yes
 
 Property to represent whether the Apple Pay request's total amount is final or pending.
 
-Type: ```string``` - Required: Yes - Allowed values: - "final" - "pending"```
+Type: ```string``` - Required: Yes - Allowed values: - "final" - "pending"
 
 **Example**
 
@@ -254,12 +254,49 @@ Type: ```string``` - Required: Yes - Allowed values: - "final" - "pending"```
     }
 }
 ```
-#### Limitations
+
+##### Limitations
+
+|Description | Limitation |
+|------------|--------------|
+| Merchant country | Payment processing for merchants in China and Saudi Arabia, country codes CN and SA, respectively, is not supported in Omnichannel.|
+| Merchant capabilities | EMV – Omnichannel does not currently support China Union Pay transactions. |
+| Supported networks | The list of supported networks is limited to:<br><br> - American Express <br> - Discover <br> - Mastercard <br> - Visa |
+
+
+#### Authentication
+
+##### Properties
+
+**receivedmessage**
+
+Text displayed in the message alongside the “sign in” button.
+
+Type: ```string``` - Required: Yes
+
+**replymessage**
+
+Text displayed to the customer once they have successfully authenticated.
+
+Type: ```string``` - Required: Yes
+
+**Example**
+
+```
+{
+    "receivedmessage":"Please sign-in",
+    "replymessage":"You're signed in"
+}
+```
+
+
+##### Limitations
 
 |Description | Limitation |
 |------------|--------------|
 |Message contents | Images aren't currently supported for authentication.|
 |Agent | Authentication request-type rich messages don't currently support agent configuration.|
+
 
 #### Custom JSON
 
@@ -269,7 +306,7 @@ Type: ```string``` - Required: Yes - Allowed values: - "final" - "pending"```
 
 A string identifying the iMessage extension that the user interacts with while using Messages. The bid value format is `com.apple.messages.MSMessageExtensionBalloonPlugin:team-id:extension-id`. Replace `team-id` and `extension-id` with your Apple Developer team and extension IDs. 
 
-Type: ```string``` - Required: Yes```
+Type: ```string``` - Required: Yes
 
 
 **URL**
