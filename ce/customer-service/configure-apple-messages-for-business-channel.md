@@ -87,7 +87,7 @@ To add the Apple Messages for Business channel instance, complete the following 
       - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages](create-rich-messages.md)<br>
     
-### Step 2: [Configure authentication settings](configure-authentication-settings.md)
+### Step 2: [Configure authentication settings](create-chat-auth-settings.md)
 
 ### Step 3: [Configure payment profiles](configure-payment-profiles.md)
 
