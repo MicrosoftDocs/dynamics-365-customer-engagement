@@ -836,6 +836,8 @@
       href: record-identification-rule.md
     - name: Configure chat authentication settings
       href: create-chat-auth-settings.md
+    - name: Configure payment profiles
+      href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
       href: enable-real-time-translation.md
     - name: Set up customer location detection
@@ -860,6 +862,8 @@
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
       - name: Create quick replies
         href: create-quick-replies.md
+      - name: Create rich messages
+        href: create-rich-messages.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
       - name: Enable transcripts
@@ -886,6 +890,8 @@
         href: oc-smart-assist.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
+      - name: Rich messages in conversation control
+        href: rich-messages-conversation-control.md
     - name: Developer experience
       items: 
       - name: Build a smart assist bot
