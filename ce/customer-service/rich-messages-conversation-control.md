@@ -12,7 +12,6 @@ manager: shujoshi
 # Rich messages in the conversation control
 
 ## Send rich messages
-Rich messages panel
 
 When conversing in supported channels, the communication panel includes an additional feature for sending rich messages. These interactive messages can help you collect and share information with customers more easily. Rich messages are currently only supported in the Apple Messages for Business channel.
 
@@ -52,7 +51,7 @@ The following rich messages support admin-enabled customization:
 
 | Channel | Message type |
 |---------|---------------|
-| Apple Messages for Business | [List picker](#list-picker)<br> [Suggested reply](#suggested-reply)<br> [Time picker](#time-picker)<br> [Video rich link](#video-rich-link)<br> [Website rich link](#website-rich-link)  |
+| Apple Messages for Business | [List picker](create-rich-messages.md#list-picker)<br> [Suggested reply](create-rich-messages.md#suggested-reply)<br> [Time picker](create-rich-messages.md#time-picker)<br> [Video rich link](create-rich-messages.md#video-rich-link)<br> [Website rich link](create-rich-messages.md#website-rich-link)  |
 
 
 ### See also
