@@ -14,7 +14,9 @@
       href: trial-faq.md
   - name: Get started
     items:
-    - name: Quickstart guide
+    - name: Get started with Dynamics 365 Marketing licensing
+      href: marketing-license.md
+    - name: Quickstart setup guide
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
       href: ci-get-started.md
