@@ -169,21 +169,29 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 > - Twitter, WeChat, and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 
-## Preconfigured asynchronous automated message triggers
+## Preconfigured automated message triggers for asynchronous channels
 
-|**Channel** | **Recipients** | **Message trigger** | **Definition** | **When to trigger** |  
-|-----------------|-----------------|----------------|------------|-----------------|
-|Apple Messages for Business |Agent | Message or attachment failed to send. Providing error details including error code, reason for failure, message id, timestamp, and transaction id | Message displayed to agent when  agent's message or attachment  failed to send | When agent's message or attachment  failed to send |
-|Apple Messages for Business |Agent| Customer's file couldn't be attached because it's too big| Message displayed to agent when customer sent an attachment which exceeds the allowed limit   | When customer sent an attachment which exceeds the allowed limit  |
-|Apple Messages for Business |Agent| Message couldn't be delivered: Unsupported message type| Message displayed to agent When customer sent an unsupported message type.| When customer sent an unsupported message type. |
-|Apple Messages for Business  | Customer| Customer's file couldn't be attached because it's too big |  |  |
-|Apple Messages for Business |Customer |Message couldn't be delivered: Unsupported message type |  |   |
-|Apple Messages for Business |Customer| Greeting Message for Async Channels |   |  |
-|Custom| Agent| Message or attachment failed to send. Providing error details including error code, reason for failure, message id, timestamp, and transaction id| Message displayed to agent when  agent's message or attachment  failed to send | When agent's message or attachment  failed to send |
-|Custom |Agent | Customer disconnected| |   |
-|Custom| Agent | Customer ended conversation| | |
-|Custom |Agent | Customer's file couldn't be attached because it's too big | Message displayed to agent when customer sent an attachment which exceeds the allowed limit  | When customer sent an attachment which exceeds the allowed limit |
-|Custom |Agent | Message couldn't be delivered: Unsupported message type| Message displayed to agent when customer sent an unsupported message type. | When customer sent an unsupported message type.|
+### Preconfigured automated message triggers for an agent
+
+|**Channel** | **Message trigger** | **Definition** | **When to trigger** |  
+|-----------------|----------------|------------|-----------------|
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp | Message or attachment failed to send. Providing error details including error code, reason for failure, message id, timestamp, and transaction id | Message displayed to agent when  agent's message or attachment  failed to send | When agent's message or attachment  failed to send |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp | Customer's file couldn't be attached because it's too big| Message displayed to agent when customer sent an attachment which exceeds the allowed limit   | When customer sent an attachment which exceeds the allowed limit  |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp | Message couldn't be delivered: Unsupported message type| Message displayed to agent when customer sent an unsupported message type.| When customer sent an unsupported message type. |
+|Custom | Customer disconnected| |   |
+|Custom|  Customer ended conversation| | |
+
+
+
+### Preconfigured automated message triggers for a customer
+
+|**Channel** | **Message trigger** | **Definition** | **When to trigger** |  
+|-----------------|----------------|------------|-----------------|
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp| Customer's file couldn't be attached because it's too big |  |  |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp |Message couldn't be delivered: Unsupported message type |  |   |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp |Greeting Message for Async Channels |   |  |
+|Custom|Customer's position in queue |   |  |
+|Custom| Customer is next in line|   |  |
 
 ### See also
 
