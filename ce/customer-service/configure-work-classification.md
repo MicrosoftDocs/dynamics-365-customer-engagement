@@ -181,7 +181,7 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 - **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
 
-   - Entry poing
+   - Entry point
    - Place id
    - Resolved locale
    - User device locale
