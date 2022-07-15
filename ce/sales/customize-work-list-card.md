@@ -24,11 +24,11 @@ The work list in sales accelerator helps sellers prioritize their time and effor
 | Requirement type | You must have |  
 | --- | --- |
 | **License** | Dynamics 365 Sales Premium, Microsoft Relationship Sales, or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any [primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
+| **Security roles** | Administrator or any [primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
 
-If you're an administrator, you can customize work items for yourself and for your organization. You can also allow sellers to override your customizations.
+If you have an **administrator** role, you can customize work items for yourself and for your organization. You can also allow sellers to override your customizations.
 
-If you have a primary sales role, you can customize work items for yourself. Your customizations don't affect what other sellers see in their work list.
+If you have a **primary sales role**, you can customize work items for yourself. Your customizations don't affect what other sellers see in their work list.
 
 ## Customize work items
 
@@ -48,13 +48,14 @@ If you have a primary sales role, you can customize work items for yourself. You
 
 1. Turn on **Switch to admin mode** to allow changes. With this setting off, work items can't be customized.
 
-    >[!NOTE]
-    >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
-    >- If you are not an administrator, you can customize the work items only for yourself. However, an administrator must allow to customize the work list.    
-
     Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make further changes to work items, clear it.
 
     :::image type="content" source="media/worklist-customize-enable-admin-mode.png" alt-text="Screenshot of the Work item appearance settings page, with Switch to admin mode and Lock customization highlighted.":::
+
+    >[!NOTE]
+    >
+    >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
+    >- If you're not an administrator, you can customize the work items only for yourself. However, an administrator must allow customizing the work list.
 
 1. Use the options under **Customize** to [change the icon and content of work items](#customize-work-item-icon-and-content).
 
