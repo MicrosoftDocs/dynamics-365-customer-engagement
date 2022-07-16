@@ -28,8 +28,6 @@
         href: purchase-setup.md
       - name: Purchase a license directly from the Marketing app
         href: direct-purchase.md
-      - name: Install real-time customer journey orchestration
-        href: real-time-marketing-install.md
       - name: Integrate Marketing with a CMS system or a Power Apps portal
         href: portal-optional.md
       - name: Re-run the Marketing setup wizard
