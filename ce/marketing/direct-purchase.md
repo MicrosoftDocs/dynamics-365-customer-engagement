@@ -29,7 +29,7 @@ As detailed below, the ability to purchase a license depends on whether a licens
 
 - When no license was previously purchased, these users can purchase directly within the app:
     - Tenant admins who are signed up for a trial, in a trial app.
-    - Non-tenant admins who sign-up for a free trial, in-app trial.
+    - Non-tenant admins who sign up for a free trial, in-app trial.
 - When a license was previously purchased, these users can purchase directly within the app:
     - Anyone who comes to the trial experience after a new license is available on the tenant.
 
