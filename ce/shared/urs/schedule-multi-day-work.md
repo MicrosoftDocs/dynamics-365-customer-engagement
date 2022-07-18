@@ -12,7 +12,7 @@ Allocation methods include:
 - Distribute evenly
 - Front load
 
-For more information, see the topic on [allocation methods](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/faq-allocation-methods).
+For more information, see the topic on [allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 Let's explore multi-day scheduling and allocation methods by configuring 3 scenarios:
 
@@ -25,7 +25,7 @@ Let's explore multi-day scheduling and allocation methods by configuring 3 scena
 
 ## Prerequisites
 
-If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using Dynamics 365 Project Service, which has [Gantt chart functionality](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/schedule-project-work-breakdown-structure). 
+If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using Dynamics 365 Project Service, which has [Gantt chart functionality](/dynamics365/project-operations/psa/schedule-project-work-breakdown-structure). 
 
 
 ## Scenario 1: Schedule a multi-day work order manually on the schedule board
@@ -39,14 +39,14 @@ This can be done in the following ways:
 - Not adding any incident types but entering a duration on the related resource requirement after the work order is created and saved.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order.](../../field-service/media/scheduling-multi-day-work-order-30.png)
+> ![Screenshot of a work order on the schedule board.](../../field-service/media/scheduling-multi-day-work-order-30.png)
 
 After the work order is saved, a resource requirement is automatically created. Access it by going to **Related** > **Requirement** from the work order section menu. 
 
 If you have not done so, enter a multi-day duration in the **Duration** field, along with **From Date** and **To Date**, which describes the date range the multi-day work should be spread across. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-day-requirement-30.png)
+> ![Screenshot of a resource requirement displaying the duration field.](../../field-service/media/scheduling-multi-day-requirement-30.png)
 
 The requirement **From Date** and **To Date** will populate with the **Date Window Start** and **Date Window End** work order field values.
 
@@ -87,7 +87,7 @@ Dragging and dropping a multi-day requirement on the **Days** view will trigger 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of .](../../field-service/media/scheduling-multi-drag-schedule-board.png)
+> ![Screenshot of the schedule board focused on the Create Resource Booking side panel.](../../field-service/media/scheduling-multi-drag-schedule-board.png)
 
 ## Scenario 2: Schedule a multi-day requirement with the schedule assistant
 
@@ -106,7 +106,7 @@ For **Allocation Method**, select one of the following:
 - Distribute evenly
 - Front load
 
-For more details on each of these, see the topic on [Allocation methods](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/faq-allocation-methods).
+For more details on each of these, see the topic on [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 > [!Note]
 > You need to set an allocation method before saving.
@@ -116,13 +116,13 @@ For **Duration**, enter a multi-day duration. In our example, it's 30 hours.
 **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-day-requirement-allocation-method.png)
+> ![Screenshot of a new resource requirement with an arrow pointing to the Allocation Method line.](../../field-service/media/scheduling-multi-day-requirement-allocation-method.png)
 
 Next, enter other requirement details such as skills, roles, resource preferences, and service territory. These will help define the eligible resources.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-day-requirement-30-no-work-order.png)
+> ![Screenshot of a resource requirement window displaying the Full system maintenance options.](../../field-service/media/scheduling-multi-day-requirement-30-no-work-order.png)
 
 From the newly created requirement, go to **Related** > **Requirement Details**.
 
@@ -158,7 +158,7 @@ Once booked, you'll see the resource's availability decrease and the fulfilled d
 Like scenario 2, you'll first need to manually create a multi-day requirement. The requirement can exist on its own or be related to a work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-2-person-requirement.png)
+> ![Screenshot of a resource requirement window with multiple days selected.](../../field-service/media/scheduling-multi-2-person-requirement.png)
 
 From the newly created requirement, go to **Related** > **Requirement Details** then choose **Specify Pattern** from the top ribbon. 
 
@@ -173,12 +173,12 @@ Select a resource and specific days for just that resource, then choose **Book**
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant.](../../field-service/media/scheduling-multi-2-person-requirement-book-1.png)
+> ![Screenshot of the schedule assistant with the Book button highlighted.](../../field-service/media/scheduling-multi-2-person-requirement-book-1.png)
 
 Then choose another resource and specific days for only that resource. Then choose **Book** again.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant.](../../field-service/media/scheduling-multi-2-person-requirement-book-2.png)
+> ![Screenshot of the schedule assistant with an additional resource and day selected.](../../field-service/media/scheduling-multi-2-person-requirement-book-2.png)
 
 Bookings are created for each resource on the days selected. Availability for each scheduled resource is updated as well.
 
@@ -206,5 +206,5 @@ Bookings are created for each resource on the days selected. Availability for ea
 
 ### See also
 
-- [Allocation methods](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/faq-allocation-methods)
+- [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods)
 - [Multi-resource scheduling](../../field-service/multi-resource-scheduling-requirement-groups.md)
