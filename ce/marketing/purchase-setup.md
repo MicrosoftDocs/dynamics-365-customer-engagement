@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 07/14/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -23,9 +23,6 @@ search.app:
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 This article explains how to purchase and set up a new Dynamics 365 Marketing environment.
-
-> [!TIP]
-> If you'd like to set up a free trial, go to [Try Dynamics 365 Marketing free for 30 days](https://dynamics.microsoft.com/marketing/marketing/free-trial/).
 
 <a name="how-licensed"></a>
 
@@ -49,7 +46,9 @@ Each license also includes quotas that limit the total number of free Litmus inb
 > [!NOTE]
 > When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through interactions during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing Marketing contact during the contract period.
 > 
-> Only contacts that have been marketed to in the last 12 months will count towards the total quota consumed. You can only reduce your *purchased* contact quota on the anniversary of your contract. Marketing contact consumption is cumulative throughout the license period and even post-license extension, subject to the 12-month rule mentioned above.
+> Active marketing contacts are counted as contact entities in the CDS database if they have received a Marketing interaction within the last 12 months prior to the current date. Once a contact hasn't received an interaction in the last 12 months, it is no longer counted as an active contact.
+> 
+> You can only reduce your *purchased* contact quota on the anniversary of your contract. Marketing contact consumption is cumulative throughout the license period and even post-license extension, subject to the 12-month rule mentioned above.
 >
 > To learn more about Dynamics 365 Marketing pricing and licensing offers as well as prerequisites, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -117,6 +116,9 @@ You can have any number of Marketing apps available on your tenant. Initially, e
 
 After purchasing your license for Dynamics 365 Marketing, you'll have an unconfigured Dynamics 365 Marketing app available on your tenant, but you still need to set it up for use. The Marketing setup wizard will help you review all the relevant privacy policies and set up and integrate its various elements.
 
+> [!TIP]
+> If you have not installed other apps on the [Microsoft Power Platform admin center](/power-platform/admin/), you will need to create an environment before you can run the Marketing setup wizard. Learn more: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment).
+
 To set up a new Marketing environment:
 
 1. Go to [admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign in to your Microsoft 365 tenant using an administrator account that has a Dynamics 365 Marketing license assigned.
@@ -161,13 +163,6 @@ To set up a new Marketing environment:
     > Power Apps portals aren't available in all countries/regions. If this applies to you, then the **Use Dynamics 365 Portals or a Power Apps portal** option won't be available and you'll see a notice here instead. For more information about how to run Marketing without a portal, and how to switch to a portal if they later become available in your country/region, see [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md).
 
 1. If you selected to **Use Dynamics 365 Portals or a Power Apps portal**, then enter a prefix for your portal URL in the field provided (under **Where do you want to host your webpage?**). You can also see what the full URL will be here. All your portals are hosted on your tenant, which uses a Microsoft-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they'll recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use. If you want to reuse a name that's reported as already in use, then you can reclaim it by resetting the relevant portal and then removing the binding to the existing name as described in [Reset any Power Apps portals connected to the uninstalled Marketing app](uninstall-marketing.md#reset-portal).
-
-1. Select  **Continue**  to continue. The next screen asks you to enter your organization's postal address.
-
-    > [!div class="mx-imgBorder"]
-    > ![Provide consent and enter your postal address.](media/setup-form-4.png "Provide consent and enter your postal address")
-
-1. Type the full physical street address for your organization in the field provided. All marketing email messages sent by Dynamics 365 Marketing must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  More information: [Best practices for email marketing](get-ready-email-marketing.md).
 
 1. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about three hours to set up a paid environment.
 

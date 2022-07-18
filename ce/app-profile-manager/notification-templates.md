@@ -1,6 +1,6 @@
 ---
-title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel Administration app"
+title: "Manage notification templates | MicrosoftDocs"
+description: "Learn about managing notification templates in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 06/09/2022
+ms.date: 07/11/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -21,6 +21,7 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 - Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+- Set the messaging endpoint in your bot configuration. More information: [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned)
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
 - To use the bot over messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
 
@@ -72,8 +73,8 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot application ID**: Enter the Microsoft App ID from the Azure AD (Active Directory) that you noted earlier from the Prerequisites section.
-    - **Bot handle**: Enter the bot handle that you noted earlier from the Prerequisites section.
+    - **Bot application ID**: Enter the Microsoft App ID from the Azure AD (Active Directory) that you noted earlier from the **Prerequisites** section.
+    - **Bot handle**: Enter the bot handle that you noted earlier from the **Prerequisites** section.
 
 1. Select the save icon at the bottom of the page.
 
@@ -93,7 +94,7 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using context variables. To learn about context variables and how to add them, see [Configure context variables for a bot](context-variables-for-bot.md).
 
-Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must first add the bot user to the queue and [configure routing rules](routing-rules.md) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
+Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must first add the bot user to the queue and [configure routing rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
 
 ### Set escalation rules
 
@@ -107,7 +108,7 @@ You understand that your data may be transmitted and shared with external system
 
 [Overview of bots](overview-bots.md)  
 [Sample configuration to integrate Azure bots](sample-config-azure-bot.md)  
-[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)  
+[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)    
 [Create workstreams for unified routing](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  

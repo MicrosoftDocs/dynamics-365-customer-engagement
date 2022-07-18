@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 05/02/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -98,8 +98,8 @@ Create work classification rulesets that are based on capacity profiles to route
 
 1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
+   :::image type="content" source="media/capacity-profile-based-rule.png" alt-text="Capacity profile-based work classification rule.":::
 
-   > ![Capacity profile-based work classification rule.](media/capacity-profile-based-rule.png "Capacity profile-based work classification rule.")
 
 ## Create machine learning-based skill classification rulesets
 
@@ -159,6 +159,57 @@ When no rule condition is matched or no rule is defined, the work item is assign
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
 
 6. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+
+### Engagement context for asynchronous channels
+
+You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
+
+- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
+
+- **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
+
+   - **Customer name**: The customer name is shown in the format "first name, last name".
+   - **Locale**: For a list of locales, see Facebook developer documentation.
+   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
+   - **User Page Scoped Id**: This is shown as a number string.
+
+- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
+
+   - Entry point
+   - Place id
+   - Resolved locale
+   - User device locale
+
+- **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
+
+  - Group id
+  - Intent id
+  - Locale
+
+- **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
+
+- **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
+
+  - Customer name
+  - Gender
+  - City
+  - Province
+  - Country
+
+- **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
+
+- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
+  - Customer name
+  - Customer screen name
+  - Followers count
+  - Friends count
+
+- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
+  - Customer phone number
+  - Org phone number
+  - Locale
+  - Provider
+  - Provider display name
 
 ## Options available for rulesets
 

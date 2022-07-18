@@ -1,6 +1,6 @@
 ---
 title: "Smart assist for agent efficiency | MicrosoftDocs"
-description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel Administration apps."
+description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
