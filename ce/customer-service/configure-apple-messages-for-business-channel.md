@@ -1,7 +1,7 @@
 ---
 title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
-description: "This topic provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
+ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,13 +12,13 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
 
-Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to leverage iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of getting their issues resolved when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
+Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of getting their issues resolved when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
 Apple Messages for Business supports rich messaging experiences, allowing customer and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/business-chat/overview/introduction/)
 
-### Prerequisites
+## Prerequisites
+
 Before you configure the Apple Messages for Business channel in Dynamics 365 Omnichannel for Customer Service, ensure that the following prerequisites are met:
 
 1. Register your business with Apple Business Register More information: [Apple Business Register](https://register.apple.com/)
@@ -42,7 +42,7 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
    | United Kingdom | https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness | 
 
 
-### Step 1: Configure an Apple Messages for Business channel instance in Omnichannel admin center
+## Configure an Apple Messages for Business channel instance in Omnichannel admin center
 
 To add the Apple Messages for Business channel instance, complete the following steps:
 
@@ -73,28 +73,35 @@ To add the Apple Messages for Business channel instance, complete the following 
         
       1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
-1.  Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
-1.  Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1.  Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+1. Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
-1.  In **Advanced settings**, configure the following options based on your business needs:<br>
+1. In **Advanced settings**, configure the following options based on your business needs:<br>
       - [Sessions](/app-profile-manager/session-templates.md)<br>
       - [Agent notifications](/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
       - [Context variables](context-variables-for-bot.md#add-context-variables)<br>
       - [Smart assist bots](smart-assist-bot.md)<br>
       - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages](create-rich-messages.md)<br>
-    
-### Step 2: [Configure authentication settings](create-chat-auth-settings.md)
 
-### Step 3: [Configure payment profiles](configure-payment-profiles.md)
+## Configure authentication settings
 
-### Step 4: [Create rich messages](create-rich-messages.md)
+Perform the steps mentioned in [Create Apple Messages for Business authentication settings - OAuth 2.0 code flow prerequisites](create-chat-auth-settings.md) to configure authentication settings.
 
-### Step 5: [Rich messages in the conversation control](rich-messages-conversation-control.md)
+## Configure payment profiles for Apple Pay
 
+Perform the steps in [Configure payment profiles](configure-payment-profiles.md) to configure the profile profiles.
+
+## Create rich messages
+
+Perform the steps in [Create rich messages](create-rich-messages.md) to create rich messages 
+
+## Use rich messages in conversation control
+
+Perform the steps in [Rich messages in the conversation control](rich-messages-conversation-control.md) to use the rich messages.
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Create authentication settings | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to create chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -13,8 +13,6 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-## Introduction
 
 You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
@@ -72,7 +70,7 @@ You can create a chat authentication setting record in the Customer Service admi
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
    - In Customer Service admin center or Omnichannel admin center, go to the **Behaviors** tab. 
    - In Omnichannel Administration, go to the **Basic details** tab.
-2.	In the **Authentication settings** box, browse and select the chat authentication record.
+2. In the **Authentication settings** box, browse and select the chat authentication record.
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that is associated with the chat widget.
 
@@ -198,7 +196,7 @@ If you're adding an authenticated chat experience to a custom website, your web 
 
       We recommend generating your JWT on your web server. 
 
-      The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
+      The name of this javascript method will be used to create the Authentication settings record in the Omnichannel admin app.
 
         ```JavaScript
         // This is a sample javascript client function  
@@ -221,13 +219,13 @@ If you're adding an authenticated chat experience to a custom website, your web 
         ```
 
 
-5. Your developer will need to share the following information with your Omnichannel administrator: 
+5. Your developer will need to share the following information with your Omnichannel administrator:
 
     a. The URL of the public key service from step 2.  
        
       Example: https://www.contoso.com/auth/publickey 
 
-    b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
+    b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat.
        
       Example: auth.getAuthenticationToken
 

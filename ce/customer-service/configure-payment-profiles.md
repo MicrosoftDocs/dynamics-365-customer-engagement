@@ -1,7 +1,7 @@
 ---
 title: "Configure payment profiles | MicrosoftDocs"
-description: "This topic provides steps to help you configure payment profiles in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+description: "This article provides steps to help you configure payment profiles in Omnichannel for Customer Service."
+ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -30,28 +30,29 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
 
 1. In the **Create new payment profile** pages, provide the following details:<br>
 
-     a. On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
+     - On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
 
-1. On the Details page, provide the following information:<br>
-     1.	**Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
+1. On the **Details** page, provide the following information:<br>
+
+     - **Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
      
-     1.	**Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
+     - **Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
      
-     1.	**Merchant certificate**: A certificate associated with your merchant ID, used to secure transaction data. Apple Pay servers use the certificate’s public key to encrypt payment data.<br>
+     - **Merchant certificate**: A certificate associated with your merchant ID, used to secure transaction data. Apple Pay servers use the certificate’s public key to encrypt payment data.<br>
      
-     1.	**Certificate password**: The private key used to generate secure Apple Pay sessions. <br>
+     - **Certificate password**: The private key used to generate secure Apple Pay sessions. <br>
      
-     1.	**Payment gateway URL**: The endpoint where payment information and requested contact information and sent to be processed.<br>
+     - **Payment gateway URL**: The endpoint where payment information and requested contact information and sent to be processed.<br>
      
-     1.	**Merchant domain URL**: The website domain associated with your Apple Pay Merchant Account. <br>
+     - **Merchant domain URL**: The website domain associated with your Apple Pay Merchant Account. <br>
      
-     1.	**Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments will be processed. <br>
+     - **Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments will be processed. <br>
      
 1. On the **Payment options** page, provide the following information:<br>
     
-     1.	**Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
+     - **Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
      
-     1.	**Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
+     - **Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
 
 1. On the **Rich messages** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
 An Apple Pay type rich message may be associated to more than one payment profile. This is because each channel instance may only support one payment profile. <br>
@@ -79,7 +80,7 @@ An Apple Pay type rich message may be associated to more than one payment profil
 
 ### See also
 
-[Configure Apple Messages for Business(apple-messages-for-business-channel.md)  
+[Configure Apple Messages for Business](apple-messages-for-business-channel.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  

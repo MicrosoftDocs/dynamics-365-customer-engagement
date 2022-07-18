@@ -1,7 +1,7 @@
 ---
 title: "Rich messages in the conversation control | MicrosoftDocs"
-description: "This topic provides steps to help you configure rich messages in the conversation control in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+description: "This article provides steps to help you use the rich messages in the conversation control in Omnichannel for Customer Service."
+ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -54,8 +54,8 @@ The following rich messages support admin-enabled customization:
 
 ### See also
 
-[Configure Apple Messages for Business(apple-messages-for-business-channel.md)  
-(Create rich messages](create-rich-messages.md)
+[Configure Apple Messages for Business](apple-messages-for-business-channel.md)  
+[Create rich messages](create-rich-messages.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Create rich messages | MicrosoftDocs"
-description: "This topic provides steps to help you create rich messages in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+description: "This article provides steps to help you create rich messages in Omnichannel for Customer Service."
+ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -37,7 +37,7 @@ By creating and publishing rich messages, your organization's customer support t
       -	Video Rich Link
       -	Website Rich Link
    - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. This will help agents identify the correct rich message when searching.
-   - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which do not impact the original rich message made here. Agent editing can be enabled for the following rich message types:
+   - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which don't affect the original rich message made here. Agent editing can be enabled for the following rich message types:
       - List picker
       - Suggested reply
       - Time picker
@@ -89,9 +89,9 @@ To associate rich messages with a workstream, complete the following steps:
 
 1. Select one or more rich messages from the list, then select **Add**. Any associated rich messages will appear within the **Rich messages** table in **Advanced settings**. 
 
-1. To edit a workstream's rich messages, select **Edit**, and then add or remove rich messages as desired. 
+1. To edit a workstream's rich messages, select **Edit**, and then add or remove rich messages as required. 
 
-1. To add more rich messages, select **+ Add**. Select additional rich messages, and then select **Add**. They should now appear in the list of rich messages. 
+1. To add more rich messages, select **Add**. Select additional rich messages, and then select **Add**. They should now appear in the list of rich messages.
 
 1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message will no longer appear in the list.
 
@@ -574,7 +574,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 ### See also
 
-[Configure Apple Messages for Business(apple-messages-for-business-channel.md)  
+[Configure Apple Messages for Business](apple-messages-for-business-channel.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
