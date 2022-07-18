@@ -18,7 +18,7 @@ ms.reviewer: nenellim
 
 The following table lists the rich cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
+| Channel | Hero card | Thumbnail card | Sign in card |Audio card | Card carousel |
 |---------------|-----------|----------------|-------------|------------|----|
 | Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
 | Facebook | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
@@ -26,18 +26,13 @@ The following table lists the rich cards that are supported across different cha
 | Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
 | Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
-
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-⚠: Partial support; varies by channel; card might not be displayed at all if it contains inputs or buttons. 
-
-✔* : Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
-
-✖: No support.
-
-🔶: Card is converted to an image.
+✔*: Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+
+✖: No support
 
 The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element isn't supported in live chat, whereas, it's supported in LINE.
 
@@ -52,7 +47,7 @@ For more information, see the following:
 
 > [!Important]
 
-> The maximum size of a message that can be sent across all messaging channels is approximately 28 KB. The message size limit includes any metadata like timestamps, tags, that are associated with the message. So if you're a bot author or developer and want to pass complex cards or message types across channels, ensure your message size doesn't exceed the 28 KB limit.
+> The maximum size of a message that can be sent across all messaging channels is approximately 28 KB. The message size limit includes any metadata like timestamps and tags, that are associated with the message. 
 
 ## Support for suggested actions
 
