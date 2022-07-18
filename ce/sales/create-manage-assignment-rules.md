@@ -20,7 +20,7 @@ Assignment rules enable new leads and opportunities to be automatically assigned
 
 ## Use the assignment rules designer
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
 
 As an administrator or sequence manager, you can create rules that match lead or opportunity attributes (such as location and language) with seller or team attributes (such as location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 

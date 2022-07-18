@@ -1,34 +1,35 @@
 ---
-title: "Create chat authentication settings | MicrosoftDocs"
-description: "Perform the steps mentioned in this article to create chat authentication settings in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+title: "Create authentication settings | MicrosoftDocs"
+description: "Perform the steps mentioned in this article to create chat and channel authentication settings in Omnichannel for Customer Service."
+ms.date: 07/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ---
 
-# Create chat authentication settings
+# Create authentication settings
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-## Introduction
-
 You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
-For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
+For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as a shopping cart value or a privileged status.
 
-After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
+After you create an authentication settings record, you must add it to a channel instance within a workstream's channel setup to make it work. Authentication is supported for these channels:
+ - Chat
+ - Apple Messages for Business
 
-An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget doesn't have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](oc-customer-summary.md#conversation-summary).
+An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. For information on conversation summary, see [Conversation summary](oc-customer-summary.md#conversation-summary)
+
 
 ## Prerequisites
 
 Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs). 
 
-## Create a chat authentication setting record
+### Create a chat authentication setting record
 
 You can create a chat authentication setting record in the Customer Service admin center or Omnichannel admin center app.
 
@@ -64,16 +65,16 @@ You can create a chat authentication setting record in the Customer Service admi
 
 5. Select **Save**.
 
-## Add authentication to chat widget
+### Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
    - In Customer Service admin center or Omnichannel admin center, go to the **Behaviors** tab. 
    - In Omnichannel Administration, go to the **Basic details** tab.
-2.	In the **Authentication settings** box, browse and select the chat authentication record.
+2. In the **Authentication settings** box, browse and select the chat authentication record.
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that is associated with the chat widget.
 
-## Setup for Power Apps portals
+### Setup for Power Apps portals
 
 If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL, JavaScript client function, and JWT are available out of the box. Here's how you can get the required values:
 
@@ -83,7 +84,7 @@ If you're adding authentication for a chat widget on a website developed using P
 
 The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
 
-## Setup for custom portals that aren't created using Power Apps
+### Setup for custom portals that aren't created using Power Apps
 
 If you're adding an authenticated chat experience to a custom website, your web development team will need to do some initial setup before your administrators can configure authenticated chat. 
 
@@ -195,7 +196,7 @@ If you're adding an authenticated chat experience to a custom website, your web 
 
       We recommend generating your JWT on your web server. 
 
-      The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
+      The name of this javascript method will be used to create the Authentication settings record in the Omnichannel admin app.
 
         ```JavaScript
         // This is a sample javascript client function  
@@ -218,13 +219,13 @@ If you're adding an authenticated chat experience to a custom website, your web 
         ```
 
 
-5. Your developer will need to share the following information with your Omnichannel administrator: 
+5. Your developer will need to share the following information with your Omnichannel administrator:
 
     a. The URL of the public key service from step 2.  
        
       Example: https://www.contoso.com/auth/publickey 
 
-    b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
+    b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat.
        
       Example: auth.getAuthenticationToken
 
@@ -246,6 +247,47 @@ If you're adding an authenticated chat experience to a custom website, your web 
 
      > [!div class=mx-imgBorder]
      > ![Authenticated chat runtime.](media/auth-chat-runtime.png "Authenticated chat runtime")
+
+
+## Create Apple Messages for Business authentication settings - OAuth 2.0 code flow prerequisites
+
+Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field.md)
+
+Make sure your organization has a working knowledge of OAuth 2.0 code flow.
+
+Confirm that your organization has at least one Apple Messages for Business **Authentication type rich message**. This is required for setup.
+
+### Create an Apple Messages for Business authentication setting record
+
+1. In the site map of the Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+
+1. Select **New authentication setting** to add an authentication settings record.
+
+1. In the Add authentication setting pages, provide the following details:<br>
+
+     1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
+        By default, the authentication type is OAuth 2.0 code flow. This cannot be changed.<br>
+    
+     1. On the **Details** page, provide the following information:<br>
+        - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
+        - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
+        - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match those available through your service provider.<br>
+        - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
+     
+     1. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
+        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
+    
+     1. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
+    
+     1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured.<br>
+
+### Add authentication to an Apple Messages for Business channel
+
+1. Open the workstream containing the channel instance to which you want to add authentication.
+
+1. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business Channel]()
+
+1. Review or update the authentication settings for each channel instance by selecting **Edit**.
 
 
 ### See also
