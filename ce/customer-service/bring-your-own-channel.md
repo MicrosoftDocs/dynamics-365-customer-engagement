@@ -22,7 +22,7 @@ With Omnichannel for Customer Service, you can implement a connector to integrat
 
 ### Adapter Webhook API Service
 
-When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends either success or failure status as a response. The adapter API service must implement the `IChannelAdapter` interface, and sends the inbound request to the respective channel adapter to process the request.
+When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends a success or failure status as response. The adapter API service must implement the `IChannelAdapter` interface, and sends the inbound request to the respective channel adapter to process the request.
 
 ```javascript
 /// <summary>
@@ -54,15 +54,15 @@ When the user enters a message, the adapter API is invoked from the channel. It 
 
 ### Channel adapters
 
-The channel adapter must implement the `IAdapterBuilder` interface. The channel adapter is responsible for processing inbound and outbound activities.
+The channel adapter processes the inbound and outbound activities, and must implement the `IAdapterBuilder` interface.
 
 #### Process inbound activities
 
-The channel adapters perform the following inbound activities:
+The channel adapter performs the following inbound activities:
 
 1. Validate the inbound message request signature.
 
-The inbound request from the channel is validated based on the signing key, and if the request is invalid, it throws an "invalid signature" exception message. If the request is valid, it proceeds with following steps:
+The inbound request from the channel is validated based on the signing key. If the request is invalid, an "invalid signature" exception message is thrown. If the request is valid, it proceeds as follows:
 
 ```javascript
   /// <summary>
@@ -102,15 +102,20 @@ The inbound request from the channel is validated based on the signing key, and 
 
 2. Convert the inbound request to a bot activity.
 
-The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object includes the following attributes.
+The inbound request payload is converted into an activity that the Bot Framework can understand. 
 
-|Attribute    |Description       |
+> [!Note]
+> The activity payload must not exceed the message size limit of 28 KB.
+
+This Activity object includes the following attributes:
+
+| Attribute    | Description       |
 |-------------|------------------|
 |**from**| Stores the channel account information, which consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
 |**channelId**| Indicates the channel identifier. For inbound requests, the channel ID is `directline`.|
 |**serviceUrl**| Indicates the service URL. For inbound requests, the service URL is `https://directline.botframework.com/`.|
 |**type**| Indicates the activity type. For message activities, the type is `message`. |
-|**text**|Stores the message content. |
+|**text**| Stores the message content. |
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
 |**channelData**| Indicates channel data, which consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
