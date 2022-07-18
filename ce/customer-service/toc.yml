@@ -780,6 +780,8 @@
           href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
+        - name: Configure a Google Business Messages channel
+          href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
         - name: Configure a Twitter channel
@@ -798,6 +800,8 @@
         href: sms-telesign-twilio.md
       - name: Use Facebook channel
         href: facebook.md
+      - name: Use Google's Business Messages channel
+        href: google-business-messages.md
       - name: Use WhatsApp channel
         href: whatsapp.md
       - name: Use Microsoft Teams channel

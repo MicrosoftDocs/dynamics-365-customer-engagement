@@ -168,10 +168,17 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 - **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
 
-  - **Customer name**: The customer name is shown in the format "first name, last name".
-  - **Locale**: For a list of locales, see Facebook developer documentation.
-  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-  - **User Page Scoped Id**: This is shown as a number string.
+   - **Customer name**: The customer name is shown in the format "first name, last name".
+   - **Locale**: For a list of locales, see Facebook developer documentation.
+   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
+   - **User Page Scoped Id**: This is shown as a number string.
+
+- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
+
+   - Entry point
+   - Place id
+   - Resolved locale
+   - User device locale
 
 - **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
 
