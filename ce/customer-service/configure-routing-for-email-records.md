@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for email records
 description: Learn how to use unified routing to route email records as work items in Dynamics 365 Customer Service.
-ms.date: 07/13/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,17 +10,17 @@ manager: shujoshi
 
 # Set up unified routing for email records
 
-With unified routing in Microsoft Dynamics 365 Customer Service, turn emails into work items and add them to queues for agents to work on.
+With unified routing in Dynamics 365 Customer Service, turn emails into work items and add them to queues for agents to work on.
 
-Here's a high-level overview of unified routing with email records:
+A high-level overview of unified routing with email records is as follows.
 
 :::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
 
-When an email arrives from a customer, you can route it as a case or as a record.
+When an email arrives from a customer, you can route it as a case or record.
 
 ## Route email as a case
 
-1. Set up rules to [create or update a record automatically](automatically-create-update-records.md).
+1. Set up rules to [create or update records automatically](automatically-create-update-records.md).
 
 1. [Save and route the case](customer-service-hub-user-guide-case-queues-and-routing.md#save-and-route-a-case) on the case form.
 
@@ -36,13 +36,12 @@ When an email arrives from a customer, you can route it as a case or as a record
 
 1. [Set up intake rules](set-up-record-routing.md#configure-intake-rules) to identify the workstream to route the email record.
 
-1. [Create queues](queues-omnichannel.md) and set up assignment methods.
+1. [Create queues](queues-omnichannel.md) and [set up assignment methods](assignment-methods.md).
 
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Enable unified routing](provision-unified-routing.md)  
 [Configure classification rules](configure-work-classification.md)  
-[Assignment methods in unified routing](assignment-methods.md)  
 [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages)  
 [Use email message filtering and correlation to specify which emails are tracked](/power-platform/admin/email-message-filtering-correlation)  
