@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 07/12/2022
+ms.date: 07/18/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -11,12 +11,7 @@ manager: shujoshi
 
 # First-run setup experience of Microsoft Teams for conversation intelligence
 
-> [!IMPORTANT]
-> - The enhanced experience for Microsoft Teams together with conversation intelligence is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
-
-You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
+You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
@@ -65,7 +60,7 @@ Review the following requirements before you configure Teams recording for conve
     |--------|-------------|
     |Policy name | Specifies a name for the recording policy. If you're planning to create multiple recording policies with different configurations, specify a name that identifies the policy well. 
     | Enable recording for | Specifies what you want to record. Currently, you can only record a Teams call.
-    | Recording options | Select an option for initiating call recordings:<br><ul><li>**Manually record all participants**: Select this option to allow sellers to manually start or stop the recording after a call is initiated.</li><li>**Manually record all participants, sellers are recorded automatically**: Select this option to record the seller automatically after the call is initiated. However, sellers can start or stop the recording of the customer anytime during the call. </li><li>**Automatically record all participants**: Select this option if you want automatically record all the participants after a call is initiated. </li><li>**Automatically record all participants, sellers can stop recording**: Select this option to record all the participants after a call is initiated. Sellers can manually stop the recording anytime during the call.</li></ul>|
+    | Recording options | Select an option for initiating call recordings:<br><ul><li>**Manually record all participants**: Select this option to allow sellers to manually start or stop the recording after a call is initiated.</li><li>**Manually record all participants, sellers are recorded automatically**: Select this option to record the seller automatically after the call is initiated. However, sellers can start or stop the recording of the customer anytime during the call. </li><li>**Automatically record all participants**: Select this option if you want to automatically record all the participants after a call is initiated. In this case, the seller can't stop the recording. This option is ideal when you want to mandate call recording for compliance or other reasons. </li><li>**Automatically record all participants, sellers can stop recording**: Select this option to record all the participants after a call is initiated. Sellers can manually stop the recording anytime during the call.</li></ul>|
     | Enable recording policy for | Specifies the security roles who have the permission to record Teams calls. By default, this permission is granted to all the security roles in your organization. To allow only specific roles to record, select **Specific security roles**, and then use the lookup to select the roles.<br> **Tips:**<br><ul><li>To implement the feature in your entire organization, select all security roles.</li><li>For a phased implementation in your organization, create different security roles for each group of users and then assign the security role accordingly.</li></ul><br>**Note:**<br><ul><li>Ensure that the users who need to record calls are assigned to the selected security roles. More information: [Assign a security role to a user](/power-platform/admin/assign-security-roles)</li><li>Ensure that the selected security roles have read privileges to **Recording** records under the **Custom Entities** tab in manage security roles page. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)</li></ul>|
 
     >[!NOTE]
