@@ -1,104 +1,97 @@
 ---
-title: "Customize Work list card in sales accelerator"
-description: "Customize work list cards for different entity types to get contextual information on the work list in sales accelerator."
+title: Customize the appearance of work items in sales accelerator
+description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
 ms.date: 07/19/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+<!-- 
+NOTE re: "cards": I noticed that items in the work list aren't called "cards" anywhere else in this doc set. They're just "work items." The settings page itself is called "Work item appearance." I removed references to "cards" in this article.
+NOTE re: screenshots: I tweaked the screenshots in this article to use red boxes, not orange. I noticed that other articles in this doc also set use orange boxes. The Microsoft Style Guide directs us to use red callouts.
+NOTE: I think this article could be part of the personalize-sales-accelerator.md article. It's dealing with the same settings, just at a personal level. Or if you do keep it separate (which is fine), please include a link to this article in that one.
+-->
 
-# Customize work list cards
+# Customize the appearance of work items
 
-Customize work list cards for different entity types to get contextual information on the work list in sales accelerator.
+The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type your sellers work with.
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)] 
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 ## License and role requirements
 
 | Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Microsoft Relationship Sales, or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+| --- | --- |
+| **License** | Dynamics 365 Sales Premium, Microsoft Relationship Sales, or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Administrator or any [primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
 
-## Who can customize work list cards?  
+If you have an **administrator** role, you can customize work items for yourself and for your organization. You can also allow sellers to override your customizations.
 
-To efficiently achieve a task, sellers need relevant information for different entities that are displayed on the work list card. Customization of work list cards provides the capability to display the most relevant and important information in the work list cards. Depending on your business requirements, each entity type can have different information displayed on the work list card.   
+If you have a **primary sales role**, you can customize work items for yourself. Your customizations don't affect what other sellers see in their work list.
 
-According to your role, you can customize work list cards as described below:    
--	As an administrator, you can customize the work list cards for yourself and for your organization. Also. you can allow sellers to override the customization that you’ve made.
--	Other sales primary roles, you can customize the work list cards for yourself, and the changes won't affect the work list cards of other sellers. 
+## Customize work items
 
-## Customize the work list card
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales**.
 
-In this example, let’s customize the Lead work list card.
+1. In the left pane, under **My Work**, select **Sales accelerator**.
 
-1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** ![change area icon.](media/change-area-icon.png) > **Sales**.
+1. On the work list page, select **More options** > **Settings**.
 
-2. From the site map, under **My Work**, select **Sales accelerator**.    
+    :::image type="content" source="media/sa-personal-settings-select-settings-icon-worklist.png" alt-text="Screenshot of the More options, Settings, menu in sales accelerator.":::
 
-3.	On the work list page, go to search area and select **More options** > **Settings**.
+1. On the **Settings** page, select **Work item appearance**.
 
-    >[!div class="mx-imgBorder"]
-    >![Select settings in the work list to configure your availability.](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability.")     
+    :::image type="content" source="media/worklist-customize-select-work-item-appearance.png" alt-text="Screenshot of the Work item appearance settings page.":::
 
-4.	On the **Settings** page, select **Work item appearance**. 
+1. In the **Select record type** list, select the record type for which you're customizing work items.
 
-    >[!div class="mx-imgBorder"]
-    >![Select Work item appearance on the settings page.](media/worklist-customize-select-work-item-appearance.png "Select Work item appearance on the settings page")     
+1. Turn on **Switch to admin mode** to allow changes. With this setting off, work items can't be customized.
 
-5.	From the Select record type list, choose the record type. In this example, the Leads record type is chosen. 
- 
-    >[!div class="mx-imgBorder"]
-    >![Select record type.](media/worklist-customize-select-record-type.png "Select record type")     
+    Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make further changes to work items, clear it.
 
-    Let’s understand the configuration page in detail:
-    
-    | Section | Description |
-    |---------|-------------|
-    | Preview | You can view how the customized card will look in the work list. |
-    | Customization | You can customize the work list card. More information: [Customize the card](#customize-the-card).  |
-    | Switch to admin mode | Turn on the toggle to customize the cards. In this example, you observe that the customizations are disabled. <br>An administrator must enable the **Lead** record type to edit. The customizations you make here are available for the entire organization. |
-    | Lock customization | Clear the selection to let sellers in the organization to further change the customization you make to suit their needs. When selected, customizations are locked, and sellers can’t customize the work items further. This option is displayed only when the **Switch to admin mode** option is turned on. |
+    :::image type="content" source="media/worklist-customize-enable-admin-mode.png" alt-text="Screenshot of the Work item appearance settings page, with Switch to admin mode and Lock customization highlighted.":::
 
-    >[!div class="mx-imgBorder"]
-    >![Enable administrator mode and select lock customization.](media/worklist-customize-enable-admin-mode.png "Enable administrator mode and select lock customization.")     
+    >[!NOTE]
+    >
+    >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
+    >- If you're not an administrator, you can customize the work items only for yourself. However, an administrator must allow customizing the work list.
 
-6.	Customize the card. <a name='customize-the-card'></a>     
-    
-    - **Work item icon**: Select the edit icon and then choose one of the following options:   
-        
-        | Option | Description |
-        |--------|-------------|
-        | Record image | Displays the photo of the contact. |
-        | Record initials | Displays the initials of the contact’s first and last name. For example, **Kenny Smith** is displayed as **KS**. |
-        | Record type | Displays the icon of the record type. For example, lead record displays the lead icon. |
-        | Activity type | Displays the current activity icon of the record. For example, for a lead record, the current activity is to make a phone call, the icon is displayed as phone. |   
-        
-        >[!div class="mx-imgBorder"]
-        >![Select icon appearance type.](media/worklist-customize-select-icon-appearance.png "Select icon appearance type")  
-        
-    - **Work list card content**: Select the attributes from the list on the field to display the content. For example, for an account record type you want to display name on the top line. Select the attribute Name from the list on the field. You can perform the following action to configure:   
-         
-        | Action | Description |
-        |--------|-------------|
-        | Add a field in a row | Hover over the field and then select **More options** > **Add a field**.<br>You can have up to three fields in a row. |
-        | Add an icon in a row | Hover over the field and then select **More options** > **Add an icon**.<br>You can have up to three icons in a row. |
-        | Add a row to the card | Select the add icon (+) corresponding to a row.<br>You can’t add more than four rows to a card.|
-        | Display action for the card | Select the gear icon (![Gear icon to select actions.](media/worklist-customize-gear-icon.png "Gear icon to select actions.")) and then choose the action that you want to display for the work list item.<br>The actions selected here are displayed when the More options icon is selected on the work list item according to the activity.<br>![Choose actions to display on the work list card.](media/worklist-customize-choose-actions.png "Choose actions to display on the work list card") |
-        | Delete a field or icon | Hover over the field or icon and then select **More options** > **Remove**. |
-        | Reset to default configuration | Select **Reset to default** to reset the work list card to the default configurations. |
-        
-7. Select **Save**.     
-The work list card is customized.
+1. Use the options under **Customize** to [change the icon and content of work items](#customize-work-item-icon-and-content).
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+1. Select **Save**.
+
+### Customize work item icon and content
+
+To change the icon that appears on a work item, select the pencil icon, and then choose one of the following options:
+
+- **Record image**: A photo of the contact, if one is available
+- **Record initials**: The contact’s first and last initials
+- **Record type**: The icon associated with the record type
+- **Activity type**: The icon associated with the current activity on the record
+
+    :::image type="content" source="media/worklist-customize-select-icon-appearance.png" alt-text="Screenshot of the options for customizing a work item icon.":::
+
+To change the content of work items, select the fields or attributes to display:
+
+- To change an existing attribute, select a different one in its place.
+
+- To add an attribute in the same row, hover over an existing attribute and select **More options** > **Add a field**. You can show up to three fields in a row.
+
+- To add an icon in the same row, hover over an existing attribute and select **More options** > **Add an icon**. You can show up to three icons in a row.
+
+- To add a row, select the add icon (**+**). You can show up to four rows of information in a work item.
+
+- To change the action that's displayed when the work item's **More options** icon is selected, select the pencil-and-gear icon and then choose one or more actions.
+
+    :::image type="content" source="media/worklist-customize-choose-actions.png" alt-text="Screenshot of work item action icons to display.":::
+
+- To delete a field or an icon, hover over it and select **More options** > **Remove**.
+
+To remove all customizations and restore work items to their original appearance, select **Reset to default**.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)   
-
-
-
-
-
+[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
