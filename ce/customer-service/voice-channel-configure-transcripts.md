@@ -9,14 +9,15 @@ ms.topic: article
 
 ---
 
-# Configure call recordings and transcripts
+# Configure real-time translation, call recordings and transcripts
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-As an administrator, you can enable live transcription and recording of calls, which allows agents and supervisors to view transcripts of customer calls.
+As an administrator, you can enable live translation, transcription and recording of calls, which allows agents and supervisors to view the conversations with the customers the conversation in the language that's set as the default for them, and also transcripts of customer calls.
 
 > [!NOTE]
 > Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
+
 
 ## Enable call recordings and transcripts for voice
 
@@ -35,6 +36,13 @@ As an administrator, you can enable live transcription and recording of calls, w
 3. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
 
 4. Select **Save**.
+
+## Enable real-time translation of conversations
+
+To enable this feature, see: [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+
+> [!NOTE]
+> You must enable call recordings and transcripts to view translated voice transcripts.
 
 ## View call transcripts
 
