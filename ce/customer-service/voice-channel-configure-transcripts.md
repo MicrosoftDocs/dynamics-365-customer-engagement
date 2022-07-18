@@ -41,9 +41,6 @@ As an administrator, you can enable live translation, transcription and recordin
 
 To view translated voice transcripts for calls you must enable call recordings, transcripts and real-time transalation. More information: [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
 
-> [!NOTE]
-> You must enable call recordings and transcripts to view translated voice transcripts.
-
 ## View call transcripts
 
 You can view the call transcriptions in Customer Service admin center or Omnichannel admin center.
