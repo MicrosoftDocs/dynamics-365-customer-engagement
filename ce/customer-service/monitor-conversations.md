@@ -1,5 +1,5 @@
 ---
-title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
+title: "Monitor, assign, transfer, and end conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
 ms.date: 02/25/2022
 ms.topic: article
@@ -7,7 +7,7 @@ author: "neeranelli"
 ms.author: nenellim
 manager: shujoshi
 ---
-# Monitor, assign, and transfer conversations
+# Monitor, assign, transfer, and forcibly end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -17,12 +17,12 @@ manager: shujoshi
 
 ## Introduction
 
-As a supervisor, you can monitor, assign, or transfer conversations that are being handled by your agents by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+As a supervisor, you can monitor, assign, transfer, or end conversations that are being handled by your agents by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
 
 When you monitor conversations, you can understand how they're being handled by your agents and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
 > [!NOTE]
-> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in Omnichannel admin center. More information: [Enable your supervisors to monitor, assign, and transfer conversations](enable-monitor-assign-transfer-conv.md)
+> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings, **Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close** in Omnichannel admin center. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](enable-monitor-assign-transfer-conv.md)
 
 ## Monitor and join conversations
 
@@ -69,8 +69,6 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents and their capacities is displayed.
-
 2. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
 
 3. In the **Transfer conversations** dialog box, select an agent from the list of agents that appears.
@@ -81,6 +79,20 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 > [!NOTE]
 > When you transfer an **Active** conversation from one agent to another, the first agent is added as a consultant to the conversation that's now being managed by the second agent. The conversation is successfully transferred when the second agent acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
+
+## End conversations forcibly
+
+
+> [!CAUTION]
+> We recommend that you use this feature judiciously to end agent conversations.
+
+You can forcibly end conversations for messaging channels only. After the conversation ends, its status is set to Closed.
+
+1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
+
+2. Select a conversation and then select **Force Close**.
+
+The participants receive a notification that their conversation was ended by a supervisor. 
 
 ### See also
 
