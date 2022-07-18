@@ -47,7 +47,7 @@ For more information, see the following:
 
 > [!Important]
 
-> The maximum size of a message that can be sent across all messaging channels is approximately 28 KB. The message size limit includes any metadata like timestamps and tags, that are associated with the message. 
+> The maximum size of a message that can be sent across all messaging channels is approximately 28 KB. The message size limit includes any metadata like timestamps and tags associated with the message. 
 
 ## Support for suggested actions
 
