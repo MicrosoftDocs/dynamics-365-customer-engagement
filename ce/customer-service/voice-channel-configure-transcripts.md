@@ -39,7 +39,7 @@ As an administrator, you can enable live translation, transcription and recordin
 
 ## Enable real-time translation of calls
 
-To view translated voice transcripts for calls you must enable call recordings, transcripts and real-time transalation. More information: [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+To view translated voice transcripts for calls you must enable call recordings, transcripts, and real-time transalation. To enable real-time translation, see [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
 
 ## View call transcripts
 
