@@ -13,7 +13,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-As an administrator, you can enable live translation, transcription and recording of calls, which allows agents and supervisors to view the conversations with the customers the conversation in the language that's set as the default for them, and also transcripts of customer calls.
+As an administrator, you can enable live translation, transcription and recording of calls, which allows agents and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
 
 > [!NOTE]
 > Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
