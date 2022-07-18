@@ -28,7 +28,7 @@ To update the Teams phone number in the user profile, perform the following step
   1. Select **Manage** > **Users**
   1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
      > [!NOTE]
-     > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code 
+     > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
 
 - **Update the Azure profile for SMEs with phone number**: Add SMEs as guest users to the Azure Active Directory for them to participate in a Teams voice call. To add a guest user and update a phone number in the user profile, perform the following steps:
 
