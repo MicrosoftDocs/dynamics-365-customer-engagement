@@ -28,7 +28,7 @@ The following table lists the rich cards that are supported across different cha
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-✔*: Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
+✔*: Card elements are supported in the Webchat version of Custom (Direct Line) channel, but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
