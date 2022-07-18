@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 04/25/2022
+ms.date: 07/07/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -48,7 +48,7 @@ You can add custom fields to generate an accurate model for predictive opportuni
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 won and 40 lost opportunities in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
+- A minimum of 40 won and 40 lost opportunities created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
@@ -137,7 +137,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 1. Before you configure the model, review the [prerequisites](#prerequisites). 
 
     > [!NOTE]
-    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
+    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. [Lead and opportunity scoring](digital-selling-scoring.md)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
@@ -179,7 +179,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 8. Choose time period from the **Train with opportunities from the past** list. The default duration is 2 years.   
 
     > [!NOTE]
-    > You must have a minimum of 40 won and 40 lost opportunities that were created during the selected period. For example, if you select 6 months, the model considers opportunities that were created in the past 6 months to verify whether the minimum opportunity requirement is met.  
+    > You must have a minimum of 40 won and 40 lost opportunities that were created and closed during the selected period. For example, if you select 6 months, the model considers opportunities that were created in the past 6 months to verify whether the minimum opportunity requirement is met.  
    
     The model considers closed opportunities from the selected period and uses that to score the open opportunities from past 2 years.  
 
@@ -258,7 +258,9 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 ### Manual retraining
 
-1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
+1. On the predictive opportunity scoring configuration page, open the model and ensure that **Retrain automatically** is turned off.
+
+1. Select **Edit model**.
 
 2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (account) including custom attributes to train the model.
 
