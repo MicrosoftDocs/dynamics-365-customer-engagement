@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 03/28/2022
+ms.date: 06/23/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -59,7 +59,7 @@ for a quick overview of all the data that is available for your marketing analyt
 > 1. Delete the container with existing interactions data.
 > 1. Create a new container and start a new export as usual.
 
-1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you are running Dynamics 365 Marketing.
+1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you're running Dynamics 365 Marketing.
 
 1. If you don't already have one, then create a general-purpose storage account in the Azure Blob storage as described in [Quickstart: Upload, download, and list blobs using the Azure portal](/azure/storage/blobs/storage-quickstart-blobs-portal).
 
@@ -76,12 +76,16 @@ for a quick overview of all the data that is available for your marketing analyt
 
 1. Right-click on your blob storage container and then select **Get shared access signature** from the context menu. The **Shared Access Signature** dialog opens.
 
-    ![The Shared Access Signature dialog.](media/custom-analytics-sas.png "The Shared Access Signature dialog")
-
     Make the following settings:
 
     - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid. Note that the signature must remain valid for as long as you intend to run the export&mdash;the export will stop immediately when the signature expires.
-    - Enable all four **Permissions** by selecting their check boxes.
+    - Enable the following **Permissions** by selecting their check boxes:
+        - Read
+        - Add
+        - Create
+        - Write
+        - Delete
+        - List
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
 
@@ -97,7 +101,7 @@ for a quick overview of all the data that is available for your marketing analyt
 
     - **Name**: Enter a name to identify this configuration record.
     - **Export to blob storage SAS token**: Paste the URL you copied earlier in this procedure.
-    - **Export from date**: Optional. When left empty, all interactions available in the Marketing application will be exported. If a date value is specified, then only the interactions that happened after this date will be exported. This is useful for reducing the amount of data exported if you are not interested in creating reports for older interactions.
+    - **Export from date**: Optional. When left empty, all interactions available in the Marketing application will be exported. If a date value is specified, then only the interactions that happened after this date will be exported. This is useful for reducing the amount of data exported if you aren't interested in creating reports for older interactions.
 
     > [!NOTE]
     > Parallel exports are not supported, only one export configuration is allowed.

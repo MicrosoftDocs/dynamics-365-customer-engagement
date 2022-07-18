@@ -22,9 +22,10 @@ search.app:
 
 You can remove the Marketing application from any Dynamics 365 instance where it's installed. After removing it, you'll end up with a Marketing license that you can use on another Dynamics 365 instance, if desired.
 
+> [!IMPORTANT]
+> The uninstall process detailed below *does not* remove all Marketing-related solutions from your instance. To remove all Marketing-related solutions, you must follow the process below then manually delete the solutions in the order listed in [Solution uninstall order for removing Dynamics 365 Marketing](solution-uninstall-order.md).
 
 ## Uninstall Dynamics 365 Marketing services
-
 
 The Marketing uninstall wizard handles most of the uninstall process. The uninstall wizard:
 
@@ -67,6 +68,5 @@ To reset a portal:
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Manage Marketing environments](manage-marketing-environments.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

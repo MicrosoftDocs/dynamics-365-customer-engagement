@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Migration tool FAQ
 
-## FAQs on migration tool for automatic record creation rules and service level agreements (SLAs)
+## FAQ on migration tool for automatic record creation rules and service level agreements (SLAs)
 
 ### Who can access or run the migration tool?
 

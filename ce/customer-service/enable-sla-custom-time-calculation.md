@@ -230,7 +230,7 @@ private double CalculateElapsedTime(string regardingId, string calendarId, strin
 }
 ```
 
-## FAQs
+## FAQ
 For answers to frequently asked questions about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
 ### See also

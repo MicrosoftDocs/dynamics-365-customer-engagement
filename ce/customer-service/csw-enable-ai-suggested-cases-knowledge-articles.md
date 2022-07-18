@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 04/04/2022
+ms.date: 06/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,7 +28,7 @@ The key highlights of the feature are as follows:
 - AI-driven case and knowledge article suggestions that are based on case context and historical success rate.
 - Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
 - Capability of the AI model to process up to one million of the most recent cases for listing them at runtime.
-- Continuous improvement of the recommendation model through a comprehensive feedback mechanism.
+
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
@@ -46,7 +46,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-- The AI model uses the feedback from agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions and agent interactions with the suggestions, such as, **Linked to case**, **Send URL**, **Copy URL**, **Email URL**, **Email content**, and **Copy resolution**.
+
 
 > [!NOTE]
 >
@@ -208,7 +208,7 @@ The service protection limits for AI suggestions are defined in the following ta
 
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](./oc-view-ai-suggested-cases-articles.md)  
-[FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
+[FAQ on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
 
 

@@ -88,14 +88,13 @@ Enabling the user configured settings to an email form consists of the following
 
    ![Replace singleLine.URL with the web resource URL.](media/email-configure-custom-properties.png "Replace singleLine.URL with web resource URL.")
 
-
 1. Select **Save** > **Publish**.
    
    The settings will now apply to the form when you create an email.
 
 ### Configure the default email template selection view
 
-Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template.md#new-email-template-selection-window) window:
+Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
 
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Settings** > **Email Configuration** > **Email Configuration Settings**.
@@ -108,7 +107,7 @@ Perform the following steps to configure the default view for the [enhanced emai
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
-[Email FAQs](email-faqs.md)  
+[Email FAQ](email-faqs.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Configure context variables for a bot | MicrosoftDocs"
 description: "Use this topic to understand how you can add context variables and then configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 12/10/2021
+ms.date: 07/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,16 +14,14 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. This topic lists the context variables for Azure and Power Virtual Agents bots, and how you can configure them in Omnichannel for Customer Service.
 
 ## Considerations
 
 Before you configure context variables for Azure or Power Virtual Agents bots, check for the following conditions:
 
- - The context variable names are used as is and not changed when you author flows in Azure or Power Virtual Agents bots.
- - Use exact match to pass the value to the context variable because it is case-sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
+- The context variable names are used as is and not changed when you author flows in Azure or Power Virtual Agents bots.
+- Use exact match to pass the value to the context variable because it is case-sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
 
 ## Add context variables
 
@@ -37,7 +35,7 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 
 ## Context variables for Power Virtual Agents bots
 
-The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bot](configure-bot-virtual-agent.md).
+The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bots](configure-bot-virtual-agent.md).
 
 > [!Important]
 > To be able to use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
@@ -60,7 +58,7 @@ The following table contains the list of context variables available in Omnichan
 
 ## Context variables for Azure bots
 
-The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Azure bots](configure-bot.md).
+The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Azure bots](configure-bot-azure.md).
 
 | Context variable type | Context variable name | Description  | How to map in Azure |
 |-----|-----|-------|-------|
@@ -80,7 +78,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 Make sure that you have the following details:
 
 - The Omnichannel for Customer Service context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
-- The schema details.
+- The schema details
 
 A copy of the sample schema details is as follows:
 
@@ -112,10 +110,24 @@ A copy of the sample schema details is as follows:
 - **Contacts:** Full name
 - **Accounts:** Name
 
+Here's a sample context record.
+
+```JavaScript
+{
+    "msdyn_contact_msdyn_ocliveworkitem_Customer": [
+        {
+            "RecordId": "<GUID>",
+            "PrimaryDisplayValue": "<FullName>"
+        }
+    ],
+    "msdyn_liveworkitemid": "<GUID>"
+}
+```
+
 ### See also
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Live chat SDK reference](developer/omnichannel-reference.md)  
 

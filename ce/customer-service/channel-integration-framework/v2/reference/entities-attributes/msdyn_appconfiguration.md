@@ -887,7 +887,7 @@ IntersectEntityName: msdyn_appconfig_msdyn_channelprovider<br />
 
 ### See also
 
-- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/configure-channel-provider-app-profile-manager)
+- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
 
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 

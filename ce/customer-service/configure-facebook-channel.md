@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can integrate social messaging channels like Facebook Messenger with Omnichannel for Customer Service to engage with your customers. The asynchronous nature of the channel gives your customers the flexibility to reach out to your businesses when they find time to get their issues resolved.
+Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 ## Prerequisites
 
@@ -77,7 +77,7 @@ The following Facebook roles and permissions are required for integrating your F
 
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).  
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
 1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
@@ -210,7 +210,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
     
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
@@ -246,12 +246,12 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create workstreams](create-workstreams.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](create-workstreams.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a pre-chat survey](configure-pre-chat-survey.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

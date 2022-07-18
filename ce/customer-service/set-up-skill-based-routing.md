@@ -1,7 +1,7 @@
 ---
 title: "Set up skill-based routing | MicrosoftDocs"
 description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 04/04/2022
+ms.date: 07/07/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -178,6 +178,8 @@ To use the data from the Excel files, you must make sure of the following:
 - The model name in the application should match the name in the Training record column of the Excel file.
 
 - Name the files as msdyn_ocsitrainingdata.csv and msdyn_ocsitdskill.csv.
+
+- Ensure that the input data string is less than or equal to 5000 characters to avoid truncation.
   
 A sample of each file is as follows.
 
@@ -219,6 +221,6 @@ Perform the following steps to upload the data for training your model:
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[FAQ on unified routing](unified-routing-faqs.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  

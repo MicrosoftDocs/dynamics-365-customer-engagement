@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 05/04/2022
+ms.date: 05/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -59,7 +59,7 @@ As an administrator, you can integrate a Power Virtual Agents bot with knowledge
 ## Search knowledge articles
 
 ### Search knowledge articles through different channels
-- As an agent, you can use the knowledge search pane to search articles in Customer Service workspace. More information: [Use the knowledge search pane to search articles](csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
+- As an agent, you can use either the **Smart assist** or the **Knowledge search pane** to search articles in Customer Service workspace. **Smart assist** provides you with knowledge article suggestions about your case that helps you resolve customer issues quickly. For more information on **Knowledge search pane**, see: [Use the knowledge search pane to search articles](csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
 - As a customizer, you can set up knowledge base search control on a standard or custom form to help make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 - As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
