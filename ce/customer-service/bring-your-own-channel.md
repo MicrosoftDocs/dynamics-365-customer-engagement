@@ -111,13 +111,13 @@ This Activity object includes the following attributes:
 
 | Attribute    | Description       |
 |-------------|------------------|
-|**from**| Stores the channel account information, which consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
+|**from**| Stores the channel account information that consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
 |**channelId**| Indicates the channel identifier. For inbound requests, the channel ID is `directline`.|
 |**serviceUrl**| Indicates the service URL. For inbound requests, the service URL is `https://directline.botframework.com/`.|
 |**type**| Indicates the activity type. For message activities, the type is `message`. |
 |**text**| Stores the message content. |
 |**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
-|**channelData**| Indicates channel data, which consists of `channelType`, `conversationcontext`, and `customercontext`. |
+|**channelData**| Indicates channel data that consists of `channelType`, `conversationcontext`, and `customercontext`. |
 |**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
 |**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. Omnichannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
 |**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. Omnichannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":email@email.com, "phonenumber":"1234567890" }|
