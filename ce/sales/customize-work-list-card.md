@@ -7,11 +7,6 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-<!-- 
-NOTE re: "cards": I noticed that items in the work list aren't called "cards" anywhere else in this doc set. They're just "work items." The settings page itself is called "Work item appearance." I removed references to "cards" in this article.
-NOTE re: screenshots: I tweaked the screenshots in this article to use red boxes, not orange. I noticed that other articles in this doc also set use orange boxes. The Microsoft Style Guide directs us to use red callouts.
-NOTE: I think this article could be part of the personalize-sales-accelerator.md article. It's dealing with the same settings, just at a personal level. Or if you do keep it separate (which is fine), please include a link to this article in that one.
--->
 
 # Customize the appearance of work items
 
@@ -55,7 +50,7 @@ If you have a **primary sales role**, you can customize work items for yourself.
     >[!NOTE]
     >
     >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
-    >- If you're not an administrator, you can customize the work items only for yourself. However, an administrator must allow customizing the work list.
+    >- If you're not an administrator, you can customize the work items only for yourself. However, an administrator must allow the customization of work list.
 
 1. Use the options under **Customize** to [change the icon and content of work items](#customize-work-item-icon-and-content).
 
