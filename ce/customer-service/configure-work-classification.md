@@ -180,6 +180,12 @@ You can configure routing rule conditions for the social channels, such as Faceb
    - Resolved locale
    - User device locale
 
+- **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
+
+  - Group id
+  - Intent id
+  - Locale
+
 - **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
 
 - **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
