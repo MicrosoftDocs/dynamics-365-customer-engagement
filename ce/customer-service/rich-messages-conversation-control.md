@@ -54,7 +54,7 @@ The following rich messages support admin-enabled customization:
 
 ### See also
 
-[Configure Apple Messages for Business](apple-messages-for-business-channel.md)  
+[Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Create rich messages](create-rich-messages.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  

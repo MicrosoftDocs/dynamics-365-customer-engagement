@@ -80,7 +80,7 @@ An Apple Pay type rich message may be associated to more than one payment profil
 
 ### See also
 
-[Configure Apple Messages for Business](apple-messages-for-business-channel.md)  
+[Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  

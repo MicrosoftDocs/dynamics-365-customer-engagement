@@ -574,7 +574,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 ### See also
 
-[Configure Apple Messages for Business](apple-messages-for-business-channel.md)  
+[Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
