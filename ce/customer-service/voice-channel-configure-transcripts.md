@@ -1,5 +1,5 @@
 ---
-title: "Configure call recordings and transcripts | MicrosoftDocs"
+title: "Configure call recordings, transcripts, and real-time translation | MicrosoftDocs"
 description: "Learn how to configure call recordings and transcripts in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# Configure real-time translation, call recordings and transcripts
+# Configure call recordings, transcripts, and real-time translation
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -37,9 +37,9 @@ As an administrator, you can enable live translation, transcription and recordin
 
 4. Select **Save**.
 
-## Enable real-time translation of conversations
+## Enable real-time translation of calls
 
-To enable this feature, see: [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+To view translated voice transcripts for calls you must enable call recordings, transcripts and real-time transalation. More information: [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
 
 > [!NOTE]
 > You must enable call recordings and transcripts to view translated voice transcripts.
