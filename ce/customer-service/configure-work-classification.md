@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -165,12 +165,6 @@ When no rule condition is matched or no rule is defined, the work item is assign
 You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
 
 - **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
-
--  **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
-   
-   - Group id
-   - Intent id
-   - Locale
 
 - **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
 

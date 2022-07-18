@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -42,7 +42,7 @@ The markdown element for adaptive cards is partially supported across all chat c
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-Other social channels, such as Apple Messages for Business, Google's Business Messages, Twitter, SMS, WhatsApp, and WeChat don't support any cards listed in the preceding table.
+The Apple Messages for Business, Google's Business Messages, Twitter, SMS, WhatsApp, and WeChat social channels don't support any cards listed in the preceding table.
 
 For more information, see the following:
 
