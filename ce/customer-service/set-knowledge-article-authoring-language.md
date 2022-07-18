@@ -29,7 +29,8 @@ searchScope:
 There may be times when your agents prefer to author knowledge articles in a language other than the language that is set for your organization. You can set a language for your organization, but then also give agents the ability to personalize it to their own choice. Agents can also change the language for different articles. Review the hierarchy as described in the table below.
 
   > [!NOTE]
-  > The settings you configure for knowledge article authoring on the settings page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles are created in your organization's default language.
+  > The settings you configure for knowledge article authoring on the **Settings** page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles will be created in English. 
+
 
 Admin settings for KA authoring language (Knowledge settings page)
 

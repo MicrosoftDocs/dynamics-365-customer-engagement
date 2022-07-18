@@ -3,7 +3,6 @@ title: "Link Dynamics 365 records to Microsoft Teams channels"
 description: "Learn how to link Dynamics 365 records to Microsoft Teams channels."
 ms.date: 04/20/2022
 ms.topic: article
-ms.service: teams-integration
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

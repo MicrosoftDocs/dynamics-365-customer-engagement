@@ -252,7 +252,7 @@
       items:
       - name: Create and manage workstreams
         href: create-workstreams.md
-      - name: Manage queues for unified routing
+      - name: Create and manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
@@ -272,7 +272,7 @@
           href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
-        - name: Configure routing for email records
+        - name: Set up unified routing for email records
           href: configure-routing-for-email-records.md
       - name: Set up skill-based routing
         items: 
@@ -606,7 +606,7 @@
         href: voice-channel-block-number.md        
       - name: Handle call overflow for the voice queues
         href: voice-channel-call-overflow.md
-      - name: Configure call recordings and transcripts
+      - name: Configure call recordings, transcripts, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
