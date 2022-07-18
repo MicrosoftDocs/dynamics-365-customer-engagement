@@ -19,7 +19,7 @@ search.app:
 
 This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
-In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
+In this topic, we use [OAuth](/power-apps/developer/data-platform/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
 
 > [!NOTE]
 > If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 Marketing. More information: [Authenticate with .NET Framework applications](/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
@@ -35,7 +35,7 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/co
     > [!IMPORTANT]
     > The [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) NuGet package and Azure AD Authentication Library (ADAL) have been deprecated. No new features have been added since June 30, 2020.   We strongly encourage you to upgrade, see the [migration guide](/azure/active-directory/develop/msal-migration) for more details.
    
-   - [Newtonsoft.Json]( https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
+   - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
  
 ## Step 1: Register your application 
 

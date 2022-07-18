@@ -1,7 +1,7 @@
 ---
 title: "Get started with Dynamics 365 Marketing licensing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to determine which Dynamics 365 Marketing licensing options are best for your needs."
-ms.date: 05/10/2022
+ms.date: 07/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
