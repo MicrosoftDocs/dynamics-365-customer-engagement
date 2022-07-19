@@ -230,7 +230,7 @@ If you're adding an authenticated chat experience to a custom website, your web 
       Example: auth.getAuthenticationToken
 
     > [!NOTE]
-    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
+    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow.
 
     This diagram walks through the setup:
     
@@ -249,7 +249,9 @@ If you're adding an authenticated chat experience to a custom website, your web 
      > ![Authenticated chat runtime.](media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
-## Create Apple Messages for Business authentication settings - OAuth 2.0 code flow prerequisites
+## Create authentication settings for Apple Messages for Business <a name="appleauth"></a>
+
+### OAuth 2.0 code flow prerequisites
 
 Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field.md)
 

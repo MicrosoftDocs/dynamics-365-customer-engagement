@@ -780,7 +780,7 @@
           href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
-        - name: Configure a Google Business Messages channel
+        - name: Configure Google's Business Messages channel
           href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
@@ -839,7 +839,11 @@
     - name: Identify customers automatically
       href: record-identification-rule.md
     - name: Configure authentication settings
-      href: create-chat-auth-settings.md
+      items:
+      - name: Create authentication settings for chat  
+        href: create-chat-auth-settings.md
+      - name: Create authentication settings for social channels
+        href: create-chat-auth-settings.md#appleauth
     - name: Configure payment profiles
       href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
