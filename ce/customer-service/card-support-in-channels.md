@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 07/19/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -18,25 +18,20 @@ ms.reviewer: nenellim
 
 The following table lists the rich cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
+| Channel | Hero card | Thumbnail card | Sign in card |Audio card | Card carousel |
 |---------------|-----------|----------------|-------------|------------|----|
 | Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
 | LINE    | ✔ | ✔   | ✔ | 🌐  | ✔|
 | Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
 | Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
-
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-⚠: Partial support; varies by channel; card might not be displayed at all if it contains inputs or buttons. 
-
-✔* : Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
-
-✖: No support.
-
-🔶: Card is converted to an image.
+✔*: Card elements are supported in the Webchat version of Custom (Direct Line) channel, but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+
+✖: No support
 
 The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element isn't supported in live chat, whereas, it's supported in LINE.
 
@@ -48,6 +43,9 @@ For more information, see the following:
 
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
+
+> [!Important]
+> The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like  timestamps and tags.
 
 ## Support for suggested actions
 
