@@ -1,7 +1,7 @@
 ---
 title: "Overview of bots | MicrosoftDocs"
 description: "Get an overview of bots and how you can configure and use them in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -12,8 +12,6 @@ ms.custom:
 # Overview of bots
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service agent to work further on the issue raised by the customer.  
 

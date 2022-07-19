@@ -293,7 +293,7 @@ public class DirectLineConversation
 
 If conversation is not active for the activity received by the relay processor, it does the following steps:
 
-1. Start a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
+1. Starts a conversation with Direct Line and stores the conversation object sent by Direct Line against the user ID in the dictionary.
 
 ```javascript
  /// <summary>
@@ -331,7 +331,7 @@ If conversation is not active for the activity received by the relay processor, 
  }
  ```
 
-2. Starts a new thread to poll the outbound activities from Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
+2. Starts a new thread to poll the outbound activities from Direct Line bot based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
 
 ```javascript
 /// <summary>
