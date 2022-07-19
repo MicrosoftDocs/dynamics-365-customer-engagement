@@ -1,7 +1,7 @@
 ---
 title: "Best practices for configuring bots | MicrosoftDocs"
 description: "This article lists the best practices that you can follow when you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 07/19/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -20,7 +20,7 @@ Here are some best practices that you can follow when you configure Azure and Po
 
 - Unlike other Omnichannel for Customer Service agents, bots aren't added to a "default" queue at the outset; they're added from the Omnichannel admin center or Customer Service admin center apps.  
 
-- The maximum size of a message that can be sent across all messaging channels is approximately 28 KB. The message size limit includes any metadata, such as timestamps and tags, that are associated with the message. So if you're a bot author or developer and want to pass complex cards or message types across channels, ensure that your message size doesn't exceed the 28 KB limit. If you're integrating a custom channel via Direct Line, then make sure that the activity payload doesn't exceed the message size limit.
+- The message size can be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like message timestamps and tags. If you're a bot author or developer and want to pass complex cards or message types across channels, ensure that your message size doesn't exceed the 28 KB limit. If you're integrating a custom channel via Direct Line, then make sure that the activity payload doesn't exceed the message size limit.
 
 ### See also
 
