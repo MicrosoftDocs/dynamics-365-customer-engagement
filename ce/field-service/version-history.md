@@ -45,7 +45,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 -	Fixed a bug preventing changes to currency exchange rates to be reflected in work order products.
 -	Fixed a bug where inactive asset and functional location records showed in the asset tree view.
 -	Fixed a bug that allowed service tasks with an inspection to get marked completed when missing responses to mandatory questions.
--	Field Service (D365) mobile: Added ability set an Inspection response as read only when a Work Order Service Task is in an inactive state.
+-	Field Service (D365) mobile: Added ability to set an Inspection response as read only when a Work Order Service Task is in an inactive state.
 
 ## 8.8.69.53
 
