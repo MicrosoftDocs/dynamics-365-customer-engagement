@@ -1,7 +1,7 @@
 ---
-title: "Purchase a license directly from the Marketing app (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to a license to purchase a paid license directly within the Dynamics 365 Marketing app."
-ms.date: 07/14/2022
+title: "Convert a trial to a production app (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to a license to purchase a paid license directly within a Dynamics 365 Marketing app trial."
+ms.date: 07/18/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,11 +17,11 @@ search.app:
   - D365Mktg
 ---
 
-# Purchase a license directly from the Marketing app
+# Convert a trial to a production app
 
-You can now purchase a Marketing license directly within the app. Previously, the only way to purchase Dynamics 365 Marketing was through the [Microsoft product website](https://dynamics.microsoft.com/marketing/overview/) or through the [admin center](http://admin.microsoft.com/). The ability to directly purchase saves you time and streamlines the buying process. To further simplify things, the purchase experience is no longer just for administrators. Now, department heads like Marketing Directors can purchase a license directly, improving agile workflows.
+You can now purchase a Marketing license directly within a trial app. Previously, the only way to purchase Dynamics 365 Marketing was through the [Microsoft product website](https://dynamics.microsoft.com/marketing/overview/) or through the [admin center](http://admin.microsoft.com/). The ability to convert a trial to a production app saves you time and streamlines the buying process. To further simplify things, the purchase experience is no longer just for administrators. Now, department heads like Marketing Directors can purchase a license directly, improving agile workflows.
 
-This article details who can purchase a license within the app, how can they purchase a license, and what happens after the purchase.
+This article details who can purchase a license within a trial app, how can they purchase a license, and what happens after the purchase.
 
 ## Who can purchase a license
 
@@ -42,17 +42,21 @@ In the admin center, *tenant admins* can:
 - View all departmental purchases made in the org.
 - Cancel any departmental purchase and (optionally) move assigned users to an org purchase.
 
+Learn more: [Manage self-service purchases (Admin)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
+
 In the admin center, *departmental purchasers* can:
 - Acquire a departmental license through a paid/trial motion.
 - Assign those licenses to users in their tenant if applicable.
 - Add/remove licenses as needed.
 - Pay their bill/manage their account.
 
+Learn more: [Manage self-service purchases (Users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users).
+
 Put simply, the purchaser controls anything money-related. The administrator can cancel the subscription but can't make a user pay more or less and can't take something a user paid for and give it to someone else.
 
-## Purchase a license within the app
+## Purchase a license within a trial app
 
-To purchase a license within the Marketing app, select **Click here to purchase** from the information banner at the top of the screen in your trial.
+To purchase a license within a Marketing trial app, select **Click here to purchase** from the information banner at the top of the screen in your trial.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of top purchase banner.](media/direct-purhcase-top-banner.png "Screenshot of top purchase banner")

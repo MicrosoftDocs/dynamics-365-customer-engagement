@@ -24,10 +24,10 @@
     items: 
     - name: Install or uninstall
       items:
+      - name: Convert a trial to a production app
+        href: direct-purchase.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
-      - name: Purchase a license directly from the Marketing app
-        href: direct-purchase.md
       - name: Integrate Marketing with a CMS system or a Power Apps portal
         href: portal-optional.md
       - name: Re-run the Marketing setup wizard
