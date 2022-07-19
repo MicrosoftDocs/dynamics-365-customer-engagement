@@ -21,7 +21,7 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 Before you configure context variables for Azure or Power Virtual Agents bots, check for the following conditions:
 
 - The context variable names are used as is and not changed when you author flows in Azure or Power Virtual Agents bots.
-- Use exact match to pass the value to the context variable because it is case-sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
+- Use exact match to pass the value to the context variable because it is case-sensitive. The value must be less than or equal to 4,000 characters so that the conversation can be successfully escalated to agents.
 
 ## Add context variables
 
