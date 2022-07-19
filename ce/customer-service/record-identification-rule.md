@@ -30,7 +30,7 @@ Use the following question names to create pre-conversation questions. To know h
 ||||
 
 > [!Note]
-> If you'd like other fields to be recognized for phone number lookup, please contact [Microsoft Support](https://dynamics.microsoft.com/support/).
+> If you'd like other fields to be recognized for phone number lookup, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 
 ## Use the setContextProvider API method
 
