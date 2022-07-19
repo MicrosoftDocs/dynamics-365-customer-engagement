@@ -252,7 +252,7 @@ Now we'll create a requirement to represent a reservation for a traveler.
 5. Set **Work Location**:
    1. In our hotel booking example, work location is set to **Facility**, which means the requirement takes place at a physical space (the hotel). In order to show facilities relative to the customer's (traveler's) location, a latitude and longitude can be entered on the requirement to represent the customer's location. As a reminder, we set the hotel's location when we set up the pool resource. These settings are useful in scenarios where the hotel may have many locations and the scheduler wants to use time and distance calculations when communicating to the customer.
    2. If schedulers don't need travel or distance information about the customer, set to **Location Agnostic** and leave latitude and longitude blank. 
-   3. For more information on the **Work Location** field, visit our [topic on facility scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/facility-scheduling#configuration-considerations).
+   3. For more information on the **Work Location** field, visit our [topic on facility scheduling](/dynamics365/field-service/facility-scheduling#configuration-considerations).
 
 > [!div class="mx-imgBorder"]
 > ![Image of requirement for facility pools.](../../field-service/media/scheduling-pools-overbook-requirement.png)

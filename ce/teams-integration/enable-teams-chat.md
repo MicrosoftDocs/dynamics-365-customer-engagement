@@ -6,7 +6,6 @@ ms.topic: article
 search.app: 
   - D365CE
   - Powerplatform
-ms.service: teams-integration
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
