@@ -7,7 +7,7 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ---
-# Use Google's Business Messages in Omnichannel
+# Use Google's Business Messages channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

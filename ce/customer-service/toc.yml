@@ -780,7 +780,7 @@
           href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
-        - name: Configure a Google Business Messages channel
+        - name: Configure Google's Business Messages channel
           href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
@@ -839,7 +839,11 @@
     - name: Identify customers automatically
       href: record-identification-rule.md
     - name: Configure authentication settings
-      href: create-chat-auth-settings.md
+      items:
+      - name: Create authentication settings for chat  
+        href: create-chat-auth-settings.md
+      - name: Create authentication settings for social channels
+        href: create-chat-auth-settings.md#socialauth
     - name: Configure payment profiles
       href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
@@ -972,7 +976,7 @@
         items:
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable supervisors to monitor, assign, and transfer conversations
+        - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
           href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
@@ -1032,7 +1036,7 @@
           href: omnichannel-insights-dashboard.md
       - name: Monitor conversations
         items: 
-        - name: Monitor, assign, and transfer conversations
+        - name: Monitor, assign, transfer, and forcibly end conversations
           href: monitor-conversations.md
         - name: Monitor and analyze sentiments
           href: supervisor-sentiment-monitoring.md
