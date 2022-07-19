@@ -45,7 +45,6 @@ For more information, see the following:
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
 > [!Important]
-
 > The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like message timestamps and tags.
 
 ## Support for suggested actions
