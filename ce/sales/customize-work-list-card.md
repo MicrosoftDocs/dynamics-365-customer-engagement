@@ -43,7 +43,7 @@ If you aren't an admin, you'll need to ask your admin to turn on work item custo
 
     If you don't see **Work item appearance** in the **Settings** list, it means your admin hasn't turned on work item customization. Follow these steps again when that's been done.
 
-1. (**Admins only**) Turn on **Switch to admin mode** to allow work items to be customized. With this setting off, work items can't be changed by anyone, not even an administrator.
+1. (**Administrators only**) Turn on **Switch to admin mode** to allow work items to be customized. With this setting off, work items can't be changed by anyone, not even an administrator.
 
     Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make their own changes to work items, clear it.
 
