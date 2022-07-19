@@ -24,8 +24,8 @@ Use the following question names to create pre-conversation questions. To know h
 
 | Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
-| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** (Phone field on the Account Summary page) | Single line |
-| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** (Mobile Phone field on the Contact Summary page) |Single line |
+| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** (**Phone** field on the Account Summary page) | Single line |
+| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** (**Mobile Phone** field on the Contact Summary page) |Single line |
 | Incident | Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
 ||||
 
