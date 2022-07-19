@@ -284,7 +284,7 @@ Confirm that your organization has at least one Apple Messages for Business **Au
 
 1. Open the workstream containing the channel instance to which you want to add authentication.
 
-1. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business Channel]()
+1. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business channel](configure-apple-messages-for-business-channel.md)
 
 1. Review or update the authentication settings for each channel instance by selecting **Edit**.
 
