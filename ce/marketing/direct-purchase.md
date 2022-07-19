@@ -19,7 +19,7 @@ search.app:
 
 # Convert a trial to a production app
 
-You can now purchase a Marketing license directly within a trial app. Previously, the only way to purchase Dynamics 365 Marketing was through the [Microsoft product website](https://dynamics.microsoft.com/marketing/overview/) or through the [admin center](http://admin.microsoft.com/). The ability to convert a trial to a production app saves you time and streamlines the buying process. To further simplify things, the purchase experience is no longer just for administrators. Now, department heads like Marketing Directors can purchase a license directly, improving agile workflows.
+You can now purchase a Marketing license directly within a trial app. Previously, the only way to purchase Dynamics 365 Marketing was through the [Microsoft product website](https://dynamics.microsoft.com/marketing/overview/) or through the [admin center](https://admin.microsoft.com/). The ability to convert a trial to a production app saves you time and streamlines the buying process. To further simplify things, the purchase experience is no longer just for administrators. Now, department heads like Marketing Directors can purchase a license directly, improving agile workflows.
 
 This article details who can purchase a license within a trial app, how can they purchase a license, and what happens after the purchase.
 
@@ -35,7 +35,7 @@ As detailed below, the ability to purchase a license depends on whether a licens
 
 ### Roles & responsibilities for tenant admin vs. departmental purchasers
 
-The [Power Platform admin center](http://admin.microsoft.com/) offers users administrators and departmental purchasers many ways to limit and control the purchase experience.
+The [Power Platform admin center](https://admin.microsoft.com/) offers users administrators and departmental purchasers many ways to limit and control the purchase experience.
 
 In the admin center, *tenant admins* can:
 - Disable purchase by product ID of any product.
