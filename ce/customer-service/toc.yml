@@ -843,7 +843,7 @@
       - name: Create authentication settings for chat  
         href: create-chat-auth-settings.md
       - name: Create authentication settings for social channels
-        href: create-chat-auth-settings.md#appleauth
+        href: create-chat-auth-settings.md#socialauth
     - name: Configure payment profiles
       href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
