@@ -1,7 +1,7 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
