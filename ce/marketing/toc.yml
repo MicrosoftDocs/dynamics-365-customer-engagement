@@ -14,8 +14,6 @@
       href: trial-faq.md
   - name: Get started
     items:
-    - name: Get started with Dynamics 365 Marketing licensing
-      href: marketing-license.md
     - name: Quickstart setup guide
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
@@ -24,6 +22,8 @@
     items: 
     - name: Install or uninstall
       items:
+      - name: Get started with Dynamics 365 Marketing licensing
+        href: marketing-license.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
       - name: Install real-time customer journey orchestration
