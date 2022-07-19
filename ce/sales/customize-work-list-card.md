@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Customize the appearance of work items
 
-The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type your sellers work with.
+The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with.
 
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
@@ -21,11 +21,13 @@ The work list in sales accelerator helps sellers prioritize their time and effor
 | **License** | Dynamics 365 Sales Premium, Microsoft Relationship Sales, or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Administrator or any [primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
 
-If you have an **administrator** role, you can customize work items for yourself and for your organization. You can also allow sellers to override your customizations.
+If you have an **administrator** role, you can customize work items for your organization. You can also allow sellers to override your customizations.
 
-If you have a **primary sales role**, you can customize work items for yourself. Your customizations don't affect what other sellers see in their work list.
+If you have a **primary sales role** and if your admin has turned on the ability to customize work items, you can customize them for yourself only. Your customizations don't affect what other sellers see in their work list.
 
 ## Customize work items
+
+If you aren't an admin, you'll need to ask your admin to turn on work item customization. Only an admin can turn on the ability to customize work items. Other than that, the procedure to customize work items is the same for both administrators and primary sales roles.
 
 1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales**.
 
@@ -39,20 +41,22 @@ If you have a **primary sales role**, you can customize work items for yourself.
 
     :::image type="content" source="media/worklist-customize-select-work-item-appearance.png" alt-text="Screenshot of the Work item appearance settings page.":::
 
-1. In the **Select record type** list, select the record type for which you're customizing work items.
+    If you don't see **Work item appearance** in the **Settings** list, it means your admin hasn't turned on work item customization. Follow these steps again when that's been done.
 
-1. Turn on **Switch to admin mode** to allow changes. With this setting off, work items can't be customized.
+1. (**Admins only**) Turn on **Switch to admin mode** to allow work items to be customized. With this setting off, work items can't be changed by anyone, not even an administrator.
 
-    Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make further changes to work items, clear it.
+    Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make their own changes to work items, clear it.
 
     :::image type="content" source="media/worklist-customize-enable-admin-mode.png" alt-text="Screenshot of the Work item appearance settings page, with Switch to admin mode and Lock customization highlighted.":::
 
     >[!NOTE]
     >
     >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
-    >- If you're not an administrator, you can customize the work items only for yourself. However, an administrator must allow the customization of work list.
+    >- If you're not an administrator, you must ask your administrator to turn on admin mode before you can customize work items.
 
-1. Use the options under **Customize** to [change the icon and content of work items](#customize-work-item-icon-and-content).
+1. In the **Select record type** list, select the record type you're customizing work items for.
+
+1. Use the options under **Customize** to [customize the icon and content of work items](#customize-work-item-icon-and-content).
 
 1. Select **Save**.
 
