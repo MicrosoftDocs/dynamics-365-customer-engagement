@@ -47,7 +47,7 @@ Verify you have the Connected Field Service entities in your environment.
 ## Step 2: Deploy Connected Field Service and Azure resources
 
 > [!IMPORTANT]
-> The current deployment app will be deprecated in July 2022, and new deployment options will be made available.
+> The current deployment app will be deprecated on July 28, 2022. Please use the [ARM template](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) instead.
 
 Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
 

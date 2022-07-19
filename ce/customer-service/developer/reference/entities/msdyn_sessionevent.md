@@ -154,6 +154,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350025|BotEndConversation |
 |192350026|AssignToAgentBySupervisor  |
 |192350027|AssignToQueueBySupervisor  |
+|192350028|CustomerRejoin|
+|192350029|CustomerEndConversation|
+|192350030|AgentEndConversation|
+|192350031|SupervisorTransferToAgent|
+|192350032|AgentEndConsult|
+|192350033|ForceClose|
 
 
 
@@ -209,6 +215,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350018|TransferedToAgent|
 |192350019|TransferedToQueue|
 |192350020|ParticipantLeft|
+|192350021|BotTransferSession|
+|192350022|BotEndConversation|
+|192350023|AssignToAgentBySupervisor|
+|192350024|AssignToQueueBySupervisor|
+|192350025|CustomerEndConversation|
+|192350026|AgentEndConversation|
+|192350027|AgentAddedToC2Chat|
+|192350028|AgentRemovedFromC2Chat|
+|192350029|AgentEndConsult|
+|192350030|SupervisorForceClose|
 
 
 
