@@ -25,7 +25,7 @@ Configure predictive lead scoring to help sellers prioritize leads based on scor
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
 
 > [!NOTE]
-> Your historical data will be deleted after 30 days from the date of your subscription expiration. 
+> Your historical data will be deleted after 30 days from the date of your subscription expiration.
 
 Using this score, you can:
 
@@ -40,10 +40,9 @@ The following image shows an example of a lead scoring widget.
 > ![Predictive lead score widget.](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
 
 > [!IMPORTANT]
->
 > - If you're using predictive lead scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
->
->
+> 
+> 
 > - From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
 
 You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
@@ -67,7 +66,7 @@ Before we configure the predictive lead scoring, let's understand the configurat
 
 The configuration page is organized into the following sections:
 
-- [Select a model](#select-model)
+- [Select a model](#select-a-model)
 - [Actions you can perform on the model](#actions-you-can-perform-on-the-model)
 - [Version details](#version-details)
 - [Lead score grading](#lead-score-grading)
@@ -143,15 +142,18 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option.](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
+
  1. On the site map under **Predictive models**, select **Lead scoring**.
 
      The **Predictive lead scoring** configuration page is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring add model page.](media/si-admin-predictive-lead-scoring-add-model-page.png "Predictive lead scoring add model page")
+
  1. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
 
      By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
+
  1. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for.
     The list displays all the business process flows that are defined for leads in your organization.  
 
@@ -163,11 +165,11 @@ If you're using custom attributes for lead generation, you can generate the mode
      Leads are marked as:
 
     - **Qualified** when they've met certain criteria that denotes that they're ready to purchase a product or service from a business. 
-
-
     - **Disqualified** when the criteria aren't met. 
 
+
      The out-of-the-box **Status** state option set contains the qualified and disqualified values as **Qualified** and **Disqualified**, respectively. You can also select your custom option set that's relevant to your business.
+
  1. Select **Filter column** and **Filter values** to define the leads for which the model must score.   
 
      With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will score.
@@ -182,6 +184,7 @@ If you're using custom attributes for lead generation, you can generate the mode
      The model considers closed leads from the selected period and uses that to score the open leads from past 2 years.  
 
     If you don't have the minimum closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
+
  1. Select **Get started**.
 
      The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
@@ -194,7 +197,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 1. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 1. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+     The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
 
     > [!NOTE]
     > If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -214,11 +217,13 @@ In organizations that have different lines of business, you might need different
 
    > [!div class="mx-imgBorder"]
    > ![Add model page for predictive lead scoring.](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
+
 1. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 1. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
    > [!div class="mx-imgBorder"]
    > ![Model training confirmation notification.](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
+
 1. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
     The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)
@@ -262,33 +267,30 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
    > ![Edit model page.](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
 
    > [!NOTE]
-   > The scoring model doesn't support the following types of attributes: 
-   >
+   > The scoring model doesn't support the following types of attributes:
+   > 
    > - Attributes on custom entities
-   >
-   >
+   > 
+   > 
    > - Date and time&ndash;related attributes
-   >
-   >
+   > 
+   > 
    > - System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
-
 1. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.
    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
 
     :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
 
    > [!NOTE]
-   >
    > - The **Ignore empty values** option is disabled for the following type of attributes:
-   >    - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).   
-   >
-   >
-   >    - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).  
-   >
-   >
+   > - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).
+   > 
+   > 
+   > - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).
+   > 
+   > 
    > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values as shown in the following screenshot:
-   >    :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on."::: 
-
+   > :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on.":::
 1. Select **Retrain model**. 
 
     The model is generated by using the selected custom attributes, and a notification is displayed on the screen.
@@ -342,19 +344,18 @@ Typically, the **Attribute Insights** pane is divided into the following section
 - A summary of the status of the prediction influence, how many times the attribute is populated in open and closed leads, and the reason the attribute isn't automatically selected to create the model.
 - A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the lead score values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
 
-   `Global qualification rate` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
+    `Global qualification rate` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
 
-   Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads. The qualification rate for a value of the attribute is calculated based on the following formula:
+    Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads. The qualification rate for a value of the attribute is calculated based on the following formula:
 
-    `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
+     `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
 
-    For example, if leads with high budget have a 42 percent qualification rate, the formula is:
+     For example, if leads with high budget have a 42 percent qualification rate, the formula is:
 
-    (`Total number of leads with high budget that are qualified)/( Total number of leads with high budget that are closed`) &times; 100 = 42  
+     (`Total number of leads with high budget that are qualified)/( Total number of leads with high budget that are closed`) &times; 100 = 42  
 
    > [!NOTE]
    > These calculations are based on the data at the time the model is trained, and might not represent the current snapshot of data. Also, the past two years of data is considered and if the model has filters, the calculations are done after the data is filtered.
-
 - A **Details** section that provides reasons for why the values are trending as they are in the graph at that point in time. If there isn't enough data for attributes from related entities, the application won't display the insights.
 - The **About** tab provides more information about the attribute insights.
 
@@ -378,6 +379,7 @@ You can delete a model when it's no longer required in your organization. You ca
 
    > [!div class="mx-imgBorder"]
    > ![Delete a model.](media/si-admin-predictive-lead-scoring-delete-model.png "Delete a model")
+
 1. In the confirmation message that appears, select **Delete**.
 
 The model is deleted from your organization.
@@ -427,12 +429,14 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
    > [!div class="mx-imgBorder"]  
    > ![Select your organization.](media/power-apps-select-org.png "Select your organization")
+
 1. Select **Data** > **Tables**.
 
     The **Tables** page opens with the list of tables.
 
    > [!div class="mx-imgBorder"]  
    > ![Tables page with list of tables.](media/power-apps-entities-page.png "Tables page with list of tables")
+
 1. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
 
    > [!NOTE]
@@ -440,17 +444,20 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
    > [!div class="mx-imgBorder"]  
    > ![Select the Lead main form on the Forms tab.](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
+
 1. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
    > [!div class="mx-imgBorder"]  
    > ![Add a column to the form.](media/power-apps-layout-add-column-form.png "Add a column to the form")
+
 1. From the site map, select **Display** > **Predictive score**.
 
    > [!NOTE]
-   > Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form. 
+   > Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.
 
    > [!div class="mx-imgBorder"]  
    > ![Select the predictive score widget.](media/power-select-predictive-score-widget.png "Select the predictive score widget")
+
 1. In the **Edit predictive score** pop-up window, select **Done**.
 
    > [!div class="mx-imgBorder"]  
