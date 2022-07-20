@@ -1,7 +1,7 @@
 ---
 title: Customize knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 07/14/2022
+ms.date: 07/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -44,7 +44,7 @@ If you choose to retain the knowledge search filters, the web client and maker e
  
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-The option to **Enable knowledge article search filters** is set to **Yes** by default for both new and existing customers. So, existing customers who had previously disabled the filter customization will need to disable the option once again. To disable search filters, you'll need to manually change the **Enable knowledge article search filters** option to **No** on the **Filters** page. Once set to **No**, the updated settings will apply. All the other settings including those provided under filter personalization won't get changed as this change will enable/disable filter customizations, which in turn will completely enable/disable filter personalization without affecting any settings within personalization.
+The option to **Enable knowledge article search filters** is set to **Yes** by default for both new and existing customers. To disable search filters, you'll need to manually change the **Enable knowledge article search filters** option to **No** on the **Filters** page. Once set to **No**, the updated settings will apply. All the other settings including those provided under filter personalization won't get changed as this change will enable/disable filter customizations, which in turn will completely enable/disable filter personalization without affecting any settings within personalization.
 
 If you choose to proceed with customizing the search filters for your knowledge articles, you can do so with the options available on the **Filters** page. More information: [Customize search filters for knowledge articles](#customize-search-filters-for-knowledge-articles).
 
