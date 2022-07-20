@@ -24,7 +24,7 @@
       items:
       - name: Get started with Dynamics 365 Marketing licensing
         href: marketing-license.md
-      - name: Convert a trial to a production app
+      - name: Purchase a license directly from a Marketing trial
         href: direct-purchase.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
