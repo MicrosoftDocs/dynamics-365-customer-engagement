@@ -23,7 +23,7 @@ The work list in sales accelerator helps sellers prioritize their time and effor
 
 If you have an **administrator** role, you can do the following tasks.
 - Enable customizations. More information: [Turn on customizations](#turn-on-customizations)
-- Allow sellers to override your customizations. More information: [Allow other roles to customize](#allow-other-roles-to-customize)
+- Allow sellers to override your customizations. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)
 - Customize work items for your organization. More information: [Customize work items](#customize-work-items) 
 
 If you have a **primary sales role** and if your admin has turned on the ability to customize work items, you can customize them for yourself only. Your customizations don't affect what other sellers see in their work list. More information: [Customize work items](#customize-work-items)
@@ -52,9 +52,9 @@ As an administrator, you must turn on the ability to customize work items. Unles
 
     :::image type="content" source="media/worklist-customize-enable-admin-mode.png" alt-text="Screenshot of the Work item appearance settings page, with Switch to admin mode and Lock customization highlighted.":::
 
-The administrator mode is turned on. Now, you can let other user roles in your organization to customize the work item.
+The administrator mode is turned on. Now, you can customize the work item for your organization and also, let other user roles in your organization to customize the work item.
 
-## Allow other roles to customize
+## Lock or unlock customization for other user roles
 
 As an administrator, you can let other user roles to override the customizations you made to the work items according to their requirements.
 
@@ -62,7 +62,7 @@ Turn on the admin mode and the **Lock customization** settings is revealed. More
 
 :::image type="content" source="media/worklist-customize-lock-customization.png" alt-text="Screenshot of the Work item appearance settings page, with Lock customization highlighted.":::
 
-Choose one of the following options to configure: 
+For the **Lock customization** settings, choose one of the following options to configure: 
 
 - To allow sellers to make their own changes to work items, clear it. 
 - To prevent sellers from overriding your customizations, select this setting. 
