@@ -26,7 +26,9 @@ All the languages that are supported in Omnichannel for Customer Service are sup
 
 ## Prerequisites
 
-You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
+- You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
+
+- Enable call recordings and transcripts for the translated voice call transcripts to be displayed. See: [Enable call recordings and transcripts for voice](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice)
 
 ## Enable real-time translation for agent and customer conversations
 
