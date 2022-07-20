@@ -453,6 +453,8 @@
           href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
+        - name: Insights generated from Microsoft 365 data
+          href: insights-from-m365.md 
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -467,7 +469,7 @@
               href: configure-view-your-team-page.md
             - name: Configure conversation content
               href: configure-keywords-competitors.md
-            - name: Connect to Dynamics 365 Sales environment
+            - name: Connect conversation intelligence to an environment 
               href: connect-dynamics365-sales-environment.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy.md
@@ -630,10 +632,8 @@
         - name: Auto capture activities
           href: auto-capture.md
           items: 
-            - name: Use basic auto capture
+            - name: Use auto capture
               href: free-auto-capture.md
-            - name: Premium auto capture
-              href: premium-auto-capture.md
         - name: View message interactions with email engagement
           href: email-engagement.md
         - name: How notes analysis assists you with suggestion
@@ -1115,6 +1115,8 @@
           href: view-export-KPI-data-gdpr.md
         - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
           href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
+    - name: GDPR FAQ
+      href: sales-gdpr-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog

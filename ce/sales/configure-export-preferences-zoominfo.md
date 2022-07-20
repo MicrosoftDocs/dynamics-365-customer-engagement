@@ -1,7 +1,7 @@
 ---
 title: "Configure export preferences for ZoomInfo app"
 description: "Use the export preference to choose which record types you want to export and limit the number of records to export in each record type."
-ms.date: 10/26/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -20,7 +20,7 @@ Use the export preference to choose which record types you want to export and li
 
 ## To configure export preferences
 
-As an administrator, you configure the export preference to choose which record types (accounts, contacts, and leads) to export and limit the number of records that you export in each record type. You can also enable the creation of new records, allow record duplicate creation, and update existing records for each record type.   
+As an administrator, you configure the export preference to choose which record types (accounts, contacts, and leads) to export and limit the number of records that you export in each record type. You can also enable the creation of new records, allow record duplicate creation, and update existing records for each record type.  
 
 To configure export preferences. do the following steps:
 
@@ -32,8 +32,10 @@ Before you start, be sure you've met the following prerequisites:
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md).   
 -	You have a license to use the ZoomInfo app.
 
-## Configure the preferences   
-1.	Sign in to your Dynamics 365 environment and open the ZoomInfo app.    
+## Configure the preferences 
+
+1.	Open your Dynamics 365 Apps page and then open the ZoomInfo app.  
+
 2.	On the left navigation pane, select **ZoomInfo** > **ZoomInfo**.   
     >[!NOTE]
     >The app might prompt you to enter credentials. Select either Google, Office, or enter your ZoomInfo credentials if you have an account with ZoomInfo.  

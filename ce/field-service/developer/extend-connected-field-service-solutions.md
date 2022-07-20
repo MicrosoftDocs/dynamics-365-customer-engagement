@@ -19,7 +19,6 @@ ms.custom:
 search.app: 
   - D365CE
   - D365FS
-ms.technology: field-service
 ---
 
 # Extend Connected Field Service solutions
@@ -67,7 +66,7 @@ ms.technology: field-service
 
  [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entity; you can:  
   
-- Programmatically form an association through the standard Dynamics 365 [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).  
+- Programmatically form an association through the standard Dynamics 365 [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).  
   
 - Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
   

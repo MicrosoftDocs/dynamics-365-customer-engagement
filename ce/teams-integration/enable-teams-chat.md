@@ -10,6 +10,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+
 # Enable or disable Microsoft Teams chat in Dynamics 365 (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]

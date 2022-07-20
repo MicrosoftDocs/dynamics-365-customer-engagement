@@ -14,7 +14,7 @@
       href: trial-faq.md
   - name: Get started
     items:
-    - name: Quickstart guide
+    - name: Quickstart setup guide
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
       href: ci-get-started.md
@@ -22,6 +22,8 @@
     items: 
     - name: Install or uninstall
       items:
+      - name: Get started with Dynamics 365 Marketing licensing
+        href: marketing-license.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
       - name: Install real-time customer journey orchestration
@@ -234,23 +236,29 @@
           href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
-        - name: Trigger an action outside of a journey
-          href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
+        - name: Trigger a journey based on a Dataverse record change
+          href: real-time-marketing-dataverse-trigger.md
+        - name: Trigger an action outside of a journey
+          href: real-time-marketing-custom-actions.md
       - name: Segment-based journeys
         items:
+        - name: "Preview: Build segments in real-time marketing"
+          href: real-time-marketing-build-segments.md
         - name: Work with segments in real-time marketing
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-      - name: Enhance your customer journey
+      - name: Enhance your customer journeys
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
+        - name: "Preview: Personalize journey variations using multiple journey branches"
+          href: real-time-marketing-multiple-branches.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated SMS keyword flow in customer journeys
+        - name: "Preview: Set up an automated SMS keyword flow in customer journeys"
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
@@ -322,7 +330,7 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
-      - name: Continue the conversation with Microsoft Teams webinar participants
+      - name: Access a Dynamics 365 Marketing trial from Microsoft Teams
         href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
         href: sales-marketing-integration.md
@@ -536,7 +544,7 @@
           href: marketing-analytics/analytics-gallery-forms.md
     - name: "Preview: Collaborate using Microsoft Teams chat"
       href: teams-chat.md
-    - name: "Preview: Customer interactions timeline"
+    - name: "Customer interactions timeline"
       href: timeline.md
     - name: Work with marketing calendars
       href: marketing-calendar.md
@@ -682,6 +690,12 @@
         href: developer/marketing-solutions.md
       - name: Dynamics 365 Marketing entity reference
         href: developer/marketing-entity-reference.md
+    - name: Customize marketing forms
+      items:
+      - name: Filter cities based on countries using lookup fields and custom entities
+        href: developer/filter-cities.md
+      - name: Extend Marketing forms using client side scripting
+        href: developer/marketing-form-client-side-extensibility.md
     - name: Work with segments using code
       href: developer/extend-segments.md
     - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
@@ -692,8 +706,6 @@
       href: developer/migrate-files.md
     - name: Retrieve interactions for a contact
       href: developer/retrieve-interactions-contact.md
-    - name: Extend Marketing forms using client side scripting
-      href: developer/marketing-form-client-side-extensibility.md
   - name: Learning catalog
     items: 
     - name: Learning catalog overview
