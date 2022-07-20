@@ -99,7 +99,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 <li><a href="about-entity-reference.md" data-raw-source="[Entity Reference](about-entity-reference.md)">Entity Reference</a></li>
 <li><a href="/dynamics365/customer-engagement/web-api/about" data-raw-source="[Web API Reference](/dynamics365/customer-engagement/web-api/about)">Web API Reference</a></li>
-<li><a href="/dotnet/api/?view=dataverse-sdk-latest" data-raw-source="[Organization Service Reference](/dotnet/api/?view=dataverse-sdk-latest&preserve-view=true)">Organization Service Reference</a></li>
+<li><a href="/dotnet/api/?view=dataverse-sdk-latest&preserve-view=true" data-raw-source="[Organization Service Reference](/dotnet/api/?view=dataverse-sdk-latest&preserve-view=true)">Organization Service Reference</a></li>
 <li><a href="/dynamics365/customerengagement/on-premises/developer/clientapi/reference" data-raw-source="[Client API Reference](/dynamics365/customerengagement/on-premises/developer/clientapi/reference)">Client API Reference</a></li>
 </td>
 </tr>
