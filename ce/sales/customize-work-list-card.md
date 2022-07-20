@@ -69,7 +69,7 @@ For the **Lock customization** settings, choose one of the following options to 
 
 ## Customize work items
 
-If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Allow other roles to customize](#allow-other-roles-to-customize)   
+If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)   
 
 The procedure to customize work items is the same for both administrators and other primary sales roles.
 
