@@ -85,7 +85,7 @@ The bot's accuracy depends on the similarities between locales. However, if you 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data and trial phone numbers after the trial organization is deprovisioned.
+No, you can't recover your data and trial phone numbers after the trial organization has expired and been deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
