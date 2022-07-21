@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and link them to records"
-ms.date: 06/27/2022
+ms.date: 07/22/2022
 ms.topic: article
 author: sbmjais
 search.app: 
@@ -111,11 +111,12 @@ The suggested contacts list displays users who are connected or have interacted 
 
 ## Start a linked chat with other online members
 
-You can start a linked chat with other members who are online and viewing the same record as you are. To start a linked chat with one or more online members, select a user icon on the command bar at the top, and then select **Start Teams chat**.
+You can start a linked chat with other members who are online and viewing the same record as you are. To start a linked chat with one or more online members, select a user icon on the command bar at the top, and then select **Start Teams chat**. The Teams popup chat is displayed and you can start chatting.
 
-`<<image of the option>>`
-
-The Teams popup chat is displayed and you can start chatting.
+> [!NOTE]
+> You can start a linked chat with other online members only when co-presence is enabled in Power Platform admin center and [Teams chat is enabled in Dynamics 365](enable-teams-chat.md#enable-or-disable-teams-chat) Sales by your administrator. 
+>
+> In Power Platform admin center, your system administrator needs to turn on the **Collaboration** feature in your environment. For information, see [Manage feature settings](/power-platform/admin/settings-features).
 
 ## Link or unlink an existing chat from a record
 
