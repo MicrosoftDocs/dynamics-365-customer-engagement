@@ -92,6 +92,23 @@ No, you can't recover your data and trial phone numbers after the trial organiza
 - Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
+### Do we provide voice quality SLA for voice in Omnichannel for Customer Service?
+
+We do not publish a voice quality SLA - there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+
+### What tools are available to isolate performance and quality of voice channel?
+
+The tools to isolate voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
+
+More information:
+
+- [Enable Azure Communication Services logs](/azure/communication-services/concepts/troubleshooting-info?tabs=csharp%2Cjavascript%2Cdotnet)
+- [Turn on metrics to populate in Azure](/azure/communication-services/concepts/analytics/call-logs-azure-monitor)
+- [Integrate with user-facing diagnostics](/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics)
+- [Use media quality statistics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk)
+- [Use pre-call diagnostics](/azure/communication-services/concepts/voice-video-calling/pre-call-diagnostics)
+- [Use Azure Communication Services communication monitoring plug-in](https://www.npmjs.com/package/@azure/communication-monitoring)
+
 ### Does the voice channel support emergency calling?
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
