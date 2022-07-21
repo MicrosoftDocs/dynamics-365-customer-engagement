@@ -17,7 +17,7 @@ search.audienceType:
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
-- For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
+- For documentation of earlier on-premises versions (8.x and earlier), see [Dynamics previous versions documentation](/previous-versions/dynamics).
 
 - If you are using our online apps that are built on Dataverse (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Dataverse Developer Guide](/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
