@@ -17,7 +17,7 @@ manager: shujoshi
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 > [!NOTE]
-> If you use access tokens in Facebook, you must refresh them on a 60-day schedule or as required because Facebook can random expire the tokens. More information: [Facebook acess tokens](https://developers.facebook.com/docs/pages/access-tokens)
+> If you use access tokens in Facebook, you must refresh them on a 60-day schedule or as required because Facebook can randomly expire the tokens. More information: [Facebook access tokens](https://developers.facebook.com/docs/pages/access-tokens)
 
 ## Prerequisites
 
@@ -161,9 +161,6 @@ After completing the prerequisites, you can add the Facebook channel for your or
 3. Select **New** to create a Facebook workstream.
 
 4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
-
-    > [!div class=mx-imgBorder]
-    > ![Create a Facebook workstream.](media/fb-workstream.png "Create a Facebook workstream")
 
 5. Specify other details as required. To learn more, see [Understand and create workstreams](work-streams-introduction.md).
 
