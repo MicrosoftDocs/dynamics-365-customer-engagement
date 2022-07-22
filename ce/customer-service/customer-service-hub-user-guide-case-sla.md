@@ -19,7 +19,7 @@ ms.custom:
 
 # Manage SLAs
 
-You can view, track, and manage SLAs in Customer Service workspace and Customer Service Hub.
+You can view, track, and manage service-level agreements (SLAs) in Customer Service workspace and Customer Service Hub.
 
 ## Track SLA details with Timer control
 
@@ -46,11 +46,11 @@ The statuses and their corresponding symbols are as follows.
 | :::image type="icon" source="media/slakpi-canceled.ico":::|Canceled |
 |||
 
-A sample runtime view of the SLA Timer is as follows. The SLA KPIs aren't displayed in any particular order.
+A sample run-time view of the SLA Timer is as follows. The SLA KPIs aren't displayed in any particular order.
 
-![Run time view of SLA timers.](media/sla-timer-runtime.png "Run time view of SLA timers")
+![Run-time view of SLA Timers.](media/sla-timer-runtime.png "Run-time view of SLA Timers")
 
-For SLAs that are in the expired status, your administrator can configure the SLA timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA timers that have been configured to show the negative time will display the negative countdown time.
+For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time will display the negative countdown time.
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
@@ -58,10 +58,9 @@ More information: [Enable elapsed timer for SLA items in terminal or expired sta
 
 ## View the status of an SLA KPI Instance record
 
-Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 a.m. to 5:00 p.m., then you'll see 5 days on the timer. If failure time is set to 10 hours, then you'll see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
+Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you'll see 5 days on the timer. If failure time is set to 10 hours, then you'll see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
 
-When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as an On-Hold status in the System settings dialog box. 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](/power-platform/admin/system-settings-dialog-box-service-tab)
+When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as On-Hold in the System settings dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 For example, when you put a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time for which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default but your system customizer can add these fields on the case form for you.
 
@@ -72,16 +71,16 @@ When you resume a case, the status of the SLA KPI Instance record is updated. Th
 - Total time the case is on hold
 
 If you put the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
-Similarly, the status of the SLA KPI instance is updated when the first response time on a case is:
+
+Similarly, the status of the SLA KPI Instance is updated when the first response time on a case is:
 
 - Nearing expiry
 - Has expired
 - Has succeeded
 
 > [!NOTE]
->
-> - The SLA timer continues to run after it is triggered or resumed. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
-> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA timer control.
+> - The SLA Timer continues to run after it's triggered or resumed. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
+> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA Timer control.
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLAs](apply-slas.md#apply-slas)
 
@@ -91,25 +90,25 @@ To learn more about adding a timer control to an SLA-enabled entity, see [Add a 
 
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-In addition to the failure and warning time, you and your supervisors can view the exact number of business hours spent to achieve a certain SLA KPI with the out-of-the-box  duration fields of **Active Duration (minutes)** and **Elapsed time (minutes)**.
+In addition to the failure and warning time, you and your supervisors can view the exact number of business hours spent to achieve a certain SLA KPI with the out-of-the-box duration fields of **Active Duration (minutes)** and **Elapsed Time (minutes)**.
 
-In Customer Service Workspace and Customer Service Hub, tracking the business hours taken by the SLA KPI to reach its terminal status will help you and your supervisors decide whether the SLAs are realistic and thereby take decisions about resourcing and efficiency.
+In Customer Service workspace and Customer Service Hub, tracking the business hours taken by the SLA KPI to reach its terminal status will help you and your supervisors decide whether the SLAs are realistic and thereby take decisions about resourcing and efficiency.
 
-You can view the **Active Duration (minutes)** and the **Elapsed time (minutes)** on the SLA tab of any custom entity that you use.
+You can view the **Active Duration (minutes)** and the **Elapsed Time (minutes)** on the SLA tab of any custom entity that you use.
 
 - **Active Duration (minutes)**: Calculates the time for which the SLA KPI Instance was active. 
 
 - **Elapsed Time (minutes)**: Calculates the time for which the SLA KPI Instance timer was paused.
 
-Both **Active Duration (minutes)** and **Elapsed time (minutes)** are calculated based on business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours may affect the calculation. Time calculation will happen based on the current value of business hours.
+Both **Active Duration (minutes)** and **Elapsed Time (minutes)** are calculated based on business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours may affect the calculation. Time calculation will happen based on the current value of business hours.
 
-:::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elaspsed time duration":::
+:::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
 > [!NOTE]
-> - The **Active Duration (minutes)** and **Elapsed time (minutes)** fields are available only for UCI SLAs and not for legacy SLAs.
-> - The **Active Duration (minutes)** field will display values for the SLA KPI Instances, after the October 2022 Wave 2 deployment. For older SLA KPI Instances, the **Active Duration (minutes)** field will remain empty. However, **Elapsed time (minutes)** field will show values for older SLA KPI Instances as well.
-> - The **Active duration (minutes)** field will show data only when the KPI is in **Paused** or a terminal state. **Elapsed time (minutes)** will show data only when the KPI is in **Inprogress** or a terminal state. The final value will appear in the last KPI instance after the terminal state.
-> - The **Active Duration (minutes)** and **Elapsed time (minutes)** values will appear only in minutes.
+> - The **Active Duration (minutes)** and **Elapsed Time (minutes)** fields are available only for Unified Interface SLAs and not for legacy SLAs.
+> - The **Active Duration (minutes)** field will display values for the SLA KPI Instances, after the 2022 release wave 2 deployment (October 2022). For older SLA KPI Instances, the **Active Duration (minutes)** field will remain empty. However, the **Elapsed Time (minutes)** field will show values for older SLA KPI Instances as well.
+> - The **Active Duration (minutes)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (minutes)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state.
+> - The **Active Duration (minutes)** and **Elapsed Time (minutes)** values will appear only in minutes.
 
 ### See also
 
