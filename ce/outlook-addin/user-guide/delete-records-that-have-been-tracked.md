@@ -1,5 +1,6 @@
 ---
 title: "Deleting records that have been tracked with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to delete records, such as emails, contacts, tasks, and appointments, that have been tracked with Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 

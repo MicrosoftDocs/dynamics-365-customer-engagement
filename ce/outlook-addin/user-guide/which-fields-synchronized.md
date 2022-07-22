@@ -1,5 +1,6 @@
 ---
 title: "Which fields can be synchronized between Dynamics 365 apps and Outlook? | MicrosoftDocs"
+description: Learn about which fields can be synchronized between Microsoft Dynamics 365 apps and Microsoft Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
