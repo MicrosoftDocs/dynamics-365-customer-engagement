@@ -15,7 +15,7 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
-Sellers can use the side panel to quickly view and update details of a record during a Teams meeting. It displays notes, tasks, and activities associated with the record. Sellers can also get real-time call analysis and insights during a Teams meeting by using conversation intelligence capabilities (if enabled).
+Sellers can use the side panel to quickly view and update details of a record during a Teams meeting. It displays notes, tasks, and activities associated with the record.
 
 As an administrator, you can customize record details that should be displayed within the side panel to meet the needs of your users.
 

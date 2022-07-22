@@ -17,16 +17,13 @@ manager: shujoshi
 
 With Microsoft Teams meeting integration, sellers can quickly access and update Dynamics 365 records in Microsoft Teams before, during, and after meetings. As an administrator, enable this feature to empower sellers and accelerate business outcomes with a seamless experience between Dynamics 365 and Microsoft Teams meetings.
 
-Additionally, sellers can use Conversation Intelligence capabilities (if enabled by their administrators) during the meeting to focus on customer conversations. The solution takes care of capturing action items and surfacing valuable business insights in real-time.
-
 > [!NOTE]
-> When you turn on Teams meeting integration in one customer engagement app, it's turned on in all customer engagement apps in your organization. For example, if this feature is turned on in Sales Hub, it will also be shown as turned on in Customer Service Hub.
+> - When you turn on Teams meeting integration in one customer engagement app, it's turned on in all customer engagement apps in your organization. For example, if this feature is turned on in Sales Hub, it will also be shown as turned on in Customer Service Hub.
+> - Conversation intelligence has been deprecated within the Dynamics 365 app for Teams.
 
 ## License requirements
 
 Teams meeting integration doesn't have any licensing restrictions. Any user in the organization can use the Dynamics 365 app for Teams in meetings, assuming they have the necessary privileges.
-
-Conversation intelligence requires a Sales Enterprise or Sales Premium license. For more information, see [Prerequisites to configure conversation intelligence](../prereq-sales-insights-app.md).
 
 ## Enable Teams meeting integration
 
@@ -52,8 +49,6 @@ You'll also need to turn on the following settings:
 
 
 - **Add and join meetings**: This setting ensures that a seller can create and join Teams meetings directly from Dynamics 365. For more information, see [Manage feature settings](/power-platform/admin/settings-features).
-
-- **Record and get insights**: This setting ensures that sellers can transcribe meetings in real time and get insights with conversation intelligence tools. For more information, see [First-run setup experience of Microsoft Teams for conversation intelligence](/dynamics365/sales/fre-setup-ci-sales-app).
 
 ### See also
 
