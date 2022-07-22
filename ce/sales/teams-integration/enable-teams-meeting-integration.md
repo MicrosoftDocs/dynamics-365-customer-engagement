@@ -1,7 +1,7 @@
 ---
 title: Enable Microsoft Teams meeting integration in customer engagement apps (preview)
 description: Learn how to enable Microsoft Teams meeting integration in customer engagement apps.
-ms.date: 04/20/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
