@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 07/19/2022
+ms.date: 07/22/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -185,20 +185,18 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 |Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp | Message or attachment failed to send. Providing error details including error code, reason for failure, message id, timestamp, and transaction id | Message displayed to agent when  agent's message or attachment  failed to send | When agent's message or attachment  failed to send |
 |Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp | Customer's file couldn't be attached because it's too big| Message displayed to agent when customer sent an attachment which exceeds the allowed limit   | When customer sent an attachment which exceeds the allowed limit  |
 |Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp | Message couldn't be delivered: Unsupported message type| Message displayed to agent when customer sent an unsupported message type.| When customer sent an unsupported message type. |
-|Custom | Customer disconnected| |   |
-|Custom|  Customer ended conversation| | |
-
-
+|Custom | Customer disconnected| Message displayed to agent when the customer gets disconnected|  When the customer gets disconnected |
+|Custom|  Customer ended conversation| Message displayed to agent when customer ends the conversation| When customer ends the conversation|
 
 ### Preconfigured automated message triggers for a customer
 
 |**Channel** | **Message trigger** | **Definition** | **When to trigger** |  
 |-----------------|----------------|------------|-----------------|
-|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp| Customer's file couldn't be attached because it's too big |  |  |
-|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp |Message couldn't be delivered: Unsupported message type |  |   |
-|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp |Greeting Message for Async Channels |   |  |
-|Custom|Customer's position in queue |   |  |
-|Custom| Customer is next in line|   |  |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp| Customer's file couldn't be attached because it's too big |Message displayed to Customer when customer sent an attachment which exceeds the allowed limit   | When customer sent an attachment which exceeds the allowed limit  |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp |Message couldn't be delivered: Unsupported message type | Message displayed to Customer when customer sent an unsupported message type. |  When customer sent an unsupported message type. |
+|Apple Messages for Business/Custom/Facebook/Google's Business Messages/LINE/Twitter/WeChat/WhatsApp |Greeting Message for Async Channels | Message displayed to Customer when customer sent a message request to chat  | When customer sent a message request to chat |
+|Custom| People ahead of you: <n> | Customer's position in queue|  When customer is waiting to chat with an agent |
+|Custom| You’re next in line…. | Customer is next in line  | When customer submits a request and is placed in the queue because other customers already are waiting  |
 
 ### See also
 
