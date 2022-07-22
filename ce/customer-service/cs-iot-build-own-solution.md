@@ -4,7 +4,7 @@ description: "Learn how to build your own Connected Customer Service solution th
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 

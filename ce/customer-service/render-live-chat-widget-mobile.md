@@ -25,11 +25,11 @@ ms.custom:
 If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
 > [!NOTE]
-> - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on mobile apps.
+> Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on mobile apps.
 
 ## Render the live chat widget using embedded code
 
-Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
+A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
 
 The following sample code renders the chat widget in a mobile application.
 
@@ -62,7 +62,7 @@ var html: String = """
 
 You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the live chat widget client SDK. More information: [Customize a chat widget using data tags](customize-chat-widget.md)
 
-The usage of the `data-hide-chat-button` data tag in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](developer/reference/methods/startchat.md) method when the new chat button is selected.
+To open a chat session, you can call the [startChat](developer/reference/methods/startchat.md) method when the new chat button is selected.
 
 ```javascript
 chatWebView.evaluateJavascript(
@@ -89,10 +89,12 @@ When the chat is closed, the live chat widget triggers the [lcw:closeChat](devel
 
 ### See also
 
+[Live chat SDK reference](developer/omnichannel-reference.md)  
 [Develop custom live chat widgets](develop-live-chat-widget.md)  
 [startChat](developer/reference/methods/startchat.md)  
 [closeChat](developer/reference/methods/closechat.md)  
 [lcw:chatRetrieved](developer/reference/events/lcw-chatRetrieved.md)  
 [lcw:chatQueued](developer/reference/events/lcw-chatQueued.md)  
+[Customize live chat widgets using data tags](customize-chat-widget.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,4 +1,28 @@
 
+
+## 3.12.81.3
+
+(Includes Resource Scheduling controls version 1.2.22.221876).
+
+## 3.12.80.9
+
+(Includes Resource Scheduling controls version 1.2.20.221614).
+
+## 3.12.79.16
+
+(Includes Resource Scheduling controls version 11.2.20.221614).
+
+- Fix filter label truncation to improve usability.
+- Filter panel fix to stay open when switching schedule board views.
+- Booking tooltip usability improvements to address issues where it was not consistently rendering.
+- Bug fix for resource count when booking from a work order using scheduling assistant.
+- On dragging the booking to next dates in Daily View "Extend to" date is shown one day earlier.
+- Bug fix for pool scheduling showing incorrect results.
+- Performance improvements for requirement group scheduling with a large number of bookable resources.
+- Bug fix for the requirements grid tabs not visible after multiple drag and drops. 
+- Bug fix for client telemetry logs for multiple client events.
+
+
 ## 3.12.78.23
 
 (Includes Resource Scheduling controls version 1.2.19.221374).

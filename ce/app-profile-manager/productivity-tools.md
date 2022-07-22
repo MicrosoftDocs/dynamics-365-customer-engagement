@@ -1,6 +1,6 @@
 ---
 title: "Overview of Dynamics 365 Productivity Tools | MicrosoftDocs"
-description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel Administration app."
+description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

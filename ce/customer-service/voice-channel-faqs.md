@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/08/2022
+ms.date: 06/17/2022
 ms.topic: article
 
 ---
@@ -13,11 +13,11 @@ ms.topic: article
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQ) that you might have about the voice channel.
+This topic contains frequently asked questions (FAQ) about the voice channel.
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
-Yes, features such as sentiment analysis and agent suggestions for similar cases or knowledge articles will work with the voice channel.
+Yes, features such as sentiment analysis and agent suggestions for similar cases or knowledge articles work with the voice channel.
 
 ### Is the voice channel PCI DSS compliant?
 
@@ -39,7 +39,7 @@ The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
 
 ### Can I bring my own phone number?
 
-Yes, you have the following two options to bring your existing numbers to Dynamics 365.
+Yes, you have the following two options to bring your existing numbers to Dynamics 365:
 
 - Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Dynami
  
 ### How can I acquire additional phone numbers from Azure direct offer?
 
-You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, download and complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
+You can purchase one phone number per tenant for Azure Communication Services through the Azure portal. To acquire phone numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
 ### Can I keep my existing contract with my carrier?
 
@@ -55,13 +55,13 @@ Yes, you can.
 
 ### Can I configure a third-party voice provider in Omnichannel for Customer Service?
 
-Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
+Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 
-### Does the voice channel tie in with Azure Communication Services or is it entirely a different technology?
+### Does the voice channel tie in with Azure Communication Services or is it an entirely different technology?
 
 The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
 
-### Will Azure Communication Services be an add-on service? I already have a competitor phone system and have Microsoft Teams?
+### Will Azure Communication Services be an add-on service? I already have a competitor phone system and have Microsoft Teams.
 
 Dynamics 365 doesn’t use calling plans for its voice channel. However, if customers are using Azure direct routing with Microsoft Teams, the same SBCs and setup can be used with Azure direct routing to reuse the voice channel. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
@@ -77,23 +77,41 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 
 ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
  
-Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br>
+Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.
 
-For example, you can set English-UK in the voice profile and English-US in the bot.<br>
+For example, you can set English-UK in the voice profile and English-US in the bot.
 
-The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot such as zipcode, might not be accurate. 
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot such as postal code might not be accurate. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data after the trial organization is deprovisioned.
+No, you can't recover your data and trial phone numbers after the trial organization has expired and been deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
-Yes, business continuity and disaster recovery for production instances of the voice channel are supported and are based on [business continuity and disaster recovery for Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
+- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+
+### Do we provide voice quality SLA for voice in Omnichannel for Customer Service?
+
+We do not publish a voice quality SLA - there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+
+### What tools are available to isolate performance and quality of voice channel?
+
+The tools to isolate voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
+
+More information:
+
+- [Enable Azure Communication Services logs](/azure/communication-services/concepts/troubleshooting-info?tabs=csharp%2Cjavascript%2Cdotnet)
+- [Turn on metrics to populate in Azure](/azure/communication-services/concepts/analytics/call-logs-azure-monitor)
+- [Integrate with user-facing diagnostics](/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics)
+- [Use media quality statistics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk)
+- [Use pre-call diagnostics](/azure/communication-services/concepts/voice-video-calling/pre-call-diagnostics)
+- [Use Azure Communication Services communication monitoring plug-in](https://www.npmjs.com/package/@azure/communication-monitoring)
 
 ### Does the voice channel support emergency calling?
 
-Yes, the voice channel supports emergency calling; agents can call the emergency number during crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
+Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
 ### See also
 

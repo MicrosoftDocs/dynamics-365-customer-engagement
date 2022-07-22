@@ -1,7 +1,7 @@
 ---
 title: "Configure a LINE channel | MicrosoftDocs"
 description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,8 +11,6 @@ manager: shujoshi
 # Configure a LINE channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
@@ -81,11 +79,11 @@ After completing the prerequisites, you can add the LINE channel for your organi
       - Agents can send file attachments
    1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
 1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
@@ -198,11 +196,11 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create workstreams](create-workstreams.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](create-workstreams.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

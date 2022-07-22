@@ -1,7 +1,7 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -59,16 +59,13 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 1. Enter the following details:
    1. On the **Channel details** page, specify a name and in **Channels**, select **WeChat**, and select **Next**.
-   
    1. In **Account details**, enter the following information:
-    - **Original ID:** Specify the WeChat account number.
-    - **Developer ID (AppID):** Specify the WeChat Developer ID.
-    - **Developer password (AppSecret):** Specify the WeChat Developer password.
-    - **Token:** Specify the WeChat token.
-    - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
-
+     - **Original ID:** Specify the WeChat account number.
+     - **Developer ID (AppID):** Specify the WeChat Developer ID.
+     - **Developer password (AppSecret):** Specify the WeChat Developer password.
+     - **Token:** Specify the WeChat token.
+     - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
    1. On the **Callback information** page, copy the values in the **IP whitelist** and **Server address (URL)** boxes. You'll update the copied information in the WeChat account.
-   
    1. Select **Done**. The WeChat account instance is created.
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
@@ -169,9 +166,9 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)<br>
-[Use a WeChat channel](wechat-channel.md)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Channels in Omnichannel for Customer Service](channels.md)  
+[Use a WeChat channel](wechat-channel.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

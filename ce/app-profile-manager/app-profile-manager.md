@@ -10,6 +10,8 @@ ms.topic: article
 
 # Create an app profile
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 Perform the following steps to create an app profile:
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
@@ -30,7 +32,7 @@ Perform the following steps to create an app profile:
      > - An underscore must be used between the prefix and name.
    - **Description:** A description for the profile.
   
-### Assign templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
+## Assign templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
 
 For an app profile, you can add only one session template for each entity type. Typically, you'll add one session template for each entity type, such as one each session template for accounts, contacts, and cases.
 
@@ -61,7 +63,7 @@ The settings that you enable for the app profile will be available for agents an
    > - Only telephony or voice channels are supported.
    > - A number of voice channel providers can be configured at a time.
   
-### Configure the inbox view
+## Configure the inbox view
 
 For an app profile, you can enable the inbox view in the Customer Service workspace or Omnichannel for Customer Service apps. From the inbox, users can view their conversations and cases.
 
@@ -72,7 +74,7 @@ For an app profile, you can enable the inbox view in the Customer Service worksp
    > [!div class=mx-imgBorder]
    > ![Select the Inbox tab to enable the inbox.](media/app-profile-manager-inbox-tab.png "Select the inbox tab to enable the inbox view.")
 
-### Assign profiles to users
+## Assign profiles to users
 
 1. On the **App profiles** page, select the profile that you want to assign to a user.
 2. On the ***<profile_name>*** page, select **Assign users** on the command bar, and select **OK** on the message dialog box. The profile opens on a new tab.
@@ -84,17 +86,12 @@ For an app profile, you can enable the inbox view in the Customer Service worksp
 > [!NOTE]
 > You can select **Assign users** on the ***<profile_name>*** page to view the list of users who have been assigned to the profile.
 
-### Default profile assignment
+## Default profile assignment
 
 When users are assigned roles corresponding to Customer Service workspace or Omnichannel for Customer Service, the default app profiles are assigned as follows.
 
-- **Customer Service workspace:** The out-of-the-box app profile is assigned to users with the following roles:
-  - CSR Manager
-  - Customer Service Representative
-- **Omnichannel for Customer Service:** The out-of-the-box app profile is assigned to users with the following roles:
-  - Omnichannel administrator
-  - Omnichannel supervisor
-  - Omnichannel agent
+- **Customer Service workspace**: Users with the CSR Manager and Customer Service Representative roles.
+- **Omnichannel for Customer Service**: Users with the Omnichannel administrator, Omnichannel supervisor, and Omnichannel agent roles.
 
 More information: [Roles and privileges associated with app profile manager](security-roles.md)
 

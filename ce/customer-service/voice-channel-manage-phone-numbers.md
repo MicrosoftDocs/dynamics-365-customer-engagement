@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 06/09/2022
+ms.date: 07/21/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -27,33 +27,37 @@ You can also bring your own phone number via Azure direct routing. More informat
 - [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
 > [!Important]
-> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or if your preferred phone number is unavailable, complete [this form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com with a subject line beginning with "Azure Communication Services Number Request:".
+> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
 ## Use trial phone number
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
-If you want to end the trial earlier, select **End trial** on the **Phone numbers** page. You'll now be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
+If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. You'll now be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
+
+> [!NOTE]
+> You can't recover trial phone number and data after the trial has expired and been deprovisioned.
 
 ## View phone numbers
 
-To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
-   
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
 
-   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
-   2. Select **Manage** for **Phone numbers**.
+      ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-### [Omnichannel admin center](#tab/omnichanneladmincenter)
+      1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+      2. Select **Manage** for **Phone numbers**.
 
-In the site map, select **Phone numbers** in **General settings**.
+      ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+      - In the site map, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
    > [!div class="mx-imgBorder"]
    > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
-If you don't have any phone numbers set up for your business, see [Acquire new phone numbers](#acquire-new-phone-numbers) to learn how you can purchase new numbers.
+If you don't have any phone numbers set up for your business, see Acquire new phone numbers to learn how you can purchase new numbers.
 
 ## Acquire new phone numbers
 
@@ -65,15 +69,17 @@ You can purchase new phone numbers for your organization after you've checked fo
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    2. Select **Manage** for **Phone numbers**.
+   2. Select **Manage** for **Phone numbers**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    In the site map, select **Phone numbers** in **General settings**.
+   - In the site map, select **Phone numbers** in **General settings**.
+    
 2. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
-3. On the **Features** page, do the following:
+
+1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
@@ -105,8 +111,8 @@ You can purchase new phone numbers for your organization after you've checked fo
 5. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 6. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
-> [!Note]
-> To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number.)
+ > [!Note]
+ > To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
 
 ## Add a phone number to a voice workstream
 

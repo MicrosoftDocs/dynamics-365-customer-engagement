@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 05/18/2022
+ms.date: 07/08/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -164,14 +164,20 @@ If a meeting is mentioned in the transcript, the transcript is highlighted in bl
 >[!NOTE]
 >If you think this action item would be better handled as a task than a meeting, select **Create task**.
 
-#### Highlights tab   
-The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.   
+#### Highlights tab
+
+The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback. 
+
 - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
+
 - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso.
 - **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV."  
 - **Competitors**: Displays the predefined competitors that customers mentioned during the call.
 - **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
-- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.    
+- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.
+- **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users on the call. For example, What do you think about the demo? 
+- **Questions asked by others**: Displays questions asked by the other participants during the call.  
+
 The following image is an example of a **Highlights** tab.   
 > [!div class="mx-imgBorder"]
 > ![Highlights tab](media/ci-summary-keywords.png "Highlights tab")  
@@ -182,9 +188,11 @@ The **Transcript** tab displays a written record of the call&mdash;which you can
 > ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")   
 - As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.   
 - As a seller, you can review the transcript and comments that have been posted by your manager or coach.    
-You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.   
+You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**. A comment icon is also added to the corresponding time in the timeline.
+
 > [!div class="mx-imgBorder"]
 > ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")   
+
 The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
@@ -195,8 +203,12 @@ The following image shows an example of call playback timeline.
 > [!div class="mx-imgBorder"]
 > ![Playback timeline with segmentation](media/ci-summary-playback-sales-app.png "Playback timeline with segmentation")   
 
-Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).    
-When you go to the **Highlights** tab and select a keyword or other highlight, a diamond icon appears on the playback timeline to indicate the time that the selected highlight was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline.   
+Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).  
+
+When you go to the **Highlights** tab and select a keyword or other highlight, a diamond icon appears on the playback timeline to indicate the time that the selected highlight was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline. 
+
+You can also quickly go to the comments added by your colleagues from the timeline. Select the comment icon (:::image type="icon" source="media/comment-icon.png" border="false":::) on the timeline to go to the corresponding comment in the transcript.  
+
 On the timeline, you can see how the conversation was segmented. The topics (if any) that were discussed in a segment are identified. To better drill down into the conversation, you can choose a specific segment and see the insights that are relevant to it. Some examples of segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment, and the playback timeline is highlighted for the selected segment. If the selected segment contains any action items or keywords, they're displayed on their respective tabs.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
