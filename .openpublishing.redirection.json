@@ -23834,6 +23834,11 @@
       "source_path": "ce/sales/create-manage-assignment-rules-lead-routing.md",
       "redirect_url": "create-manage-assignment-rules",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/teams-integration/ci-capabilities.md",
+      "redirect_url": "teams-meeting-integration",
+      "redirect_document_id": "false"
     }
   ]
 }
