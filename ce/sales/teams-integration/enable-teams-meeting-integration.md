@@ -18,7 +18,7 @@ manager: shujoshi
 With Microsoft Teams meeting integration, sellers can quickly access and update Dynamics 365 records in Microsoft Teams before, during, and after meetings. As an administrator, enable this feature to empower sellers and accelerate business outcomes with a seamless experience between Dynamics 365 and Microsoft Teams meetings.
 
 > [!NOTE]
-> - When you turn on Teams meeting integration in one customer engagement app, it's turned on in all customer engagement apps in your organization. For example, if this feature is turned on in Sales Hub, it will also be shown as turned on in Customer Service Hub.
+> - If you have other customer engagement apps installed, and you turn on Teams meeting integration in one customer engagement app, it's turned on in all customer engagement apps in your organization. For example, if this feature is turned on in Sales Hub, it will also be shown as turned on in Customer Service Hub.
 > - Conversation intelligence has been deprecated within the Dynamics 365 app for Teams.
 
 ## License requirements
