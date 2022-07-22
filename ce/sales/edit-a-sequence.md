@@ -1,5 +1,5 @@
 ---
-title: "Edit a sequence to records in sales accelerator"
+title: "Edit a sequence in sales accelerator"
 description: "You can edit an inactive sequence when there is a change in the process of selling in your organization."
 ms.date: 10/26/2021
 ms.topic: article
@@ -28,9 +28,7 @@ If your organization changes its selling process, you might want to edit a seque
    - If the sequence is **Active**, select it, and then select **More options** > **Deactivate**.    
 4. Select and open the sequence. Do one of the following:   
     - To add an activity, perform **step 7** from [Create and activate a sequence](create-and-activate-a-sequence.md).       
-    - To edit an activity, select **More options** > **Edit**.   
-        > [!div class="mx-imgBorder"]
-        > ![Edit an activity](media/sequence-edit-activity.png "Edit an activity")     
+    - To edit an activity, select the activity and the details open in the right pane.   
         Make the edits you want, and then select **Save**.      
 6. (Optional) If you want the sequence to be available to connect with records, select **Activate**.    
 7. Save and exit the sequence designer.
