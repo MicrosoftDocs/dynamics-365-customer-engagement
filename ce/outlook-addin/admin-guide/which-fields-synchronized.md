@@ -1,5 +1,5 @@
 ---
-title: "Which fields can be synchronized between Dynamics 365 apps and Outlook? | MicrosoftDocs"
+title: "Which fields can be synchronized by administrators between Dynamics 365 apps and Outlook? | MicrosoftDocs"
 ms.custom: 
 ms.date: 08/20/2018
 ms.reviewer: 
