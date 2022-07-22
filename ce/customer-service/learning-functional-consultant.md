@@ -1,6 +1,6 @@
 ---
 title: Functional consultants learning catalog
-description: Review the training options available in Dynamics 365 and Power Platform Fundamentals and Get started with Dynamics 365 for Customer Service.
+description: Learn about the training options available for functional consultants in Microsoft Dynamics 365 for Customer Service.
 ms.date: 01/08/2020
 ms.topic: article
 author: loreleishannonmsft
