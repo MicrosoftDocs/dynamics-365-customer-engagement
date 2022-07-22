@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/windows-mobile-app.md",
+      "redirect_url": "/power-apps/mobile/windows-app-install",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/create-spf-record.md",
       "redirect_url": "mkt-settings-authenticate-domains#envelope-from-domain",
       "redirect_document_id": "false"
@@ -22619,7 +22624,7 @@
       "source_path": "ce/sales-enterprise/manage-seller-attributes.md",
       "redirect_url": "/dynamics365/sales/manage-seller-attributes",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/sales-enterprise/manage-snapshots-forecast.md",
       "redirect_url": "/dynamics365/sales/manage-snapshots-forecast",
