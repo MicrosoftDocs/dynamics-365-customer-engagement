@@ -1,8 +1,7 @@
 ---
 title: "Customer journey tiles reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing."
-ms.date: 10/01/2020
-
+ms.date: 07/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -75,13 +74,11 @@ The content that your customer journey delivers to contacts as they traverse the
     
 - **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. 
 
-    In the old designer, marketing form can be used as a nested property under the email tiles as a representee link to an external page. The external page includes email message's content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external-page link and to react to contact interactions with the link.
+  In the old designer, a marketing form could be used as a nested property under an email tile as a representee link to an external page. The external page included the email message's content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external page link and to react to contact interactions with the link.
 
-    In the new designer, marketing form can be used only as a nested property under the marketing page property which is a representee link to an external page in the email tiles.
+  In the new designer, a marketing form can be used only as a nested property under the marketing page property which is a representee link to an external page in email tiles.
 
-    In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey.
-With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source under a marketing page. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form with condition tiles.
-
+  In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey. With the new designer, this is no longer needed as the audience can be defined using a form by selecting the form submitted as a source under a marketing page. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form with condition tiles.
 
 - **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Power Apps portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
 
