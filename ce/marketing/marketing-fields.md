@@ -1,8 +1,7 @@
 ---
 title: "Set up input fields for marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing."
-ms.date: 10/21/2021
-
+ms.date: 07/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -110,16 +109,21 @@ After creating a custom entity to use with a lookup field, or if your lookup fie
     -  The attribute used for searching. For example, the **Account name** could be used for an **Account** lookup.
 1. Check the security roles for the configuration you selected.
 
-If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity. For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
+> [!TIP]
+> If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity. For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
+> 
+> To set the Security Role manually:
+> 
+> 1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+> 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+> 1. Select the **Security roles** icon.
+> 1. Go to **Marketing Services User Extensible Role** > **Custom Entities**.
+> 1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
+> 1. If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has a read privilege for the entity **Post**.
 
-To set the Security Role manually:
+1. Check field-level security access.
 
-1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
-1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
-1. Select the **Security roles** icon.
-1. Go to **Marketing Services User Extensible Role** > **Custom Entities**.
-1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
-1. If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has a read privilege for the entity **Post**.
+
 
 ### Set lookup fields via API
 
