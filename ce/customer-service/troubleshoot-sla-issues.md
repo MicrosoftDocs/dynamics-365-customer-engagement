@@ -151,32 +151,34 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 
 The two following error messages are displayed:
 
-Error 1: "The SLA Item you tried to delete is associated with existing SLA KPI instances and cannot be deleted."
+Error 1: "The object you tried to delete is associated with another object and cannot be deleted."
 
-Error 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process. See log for more details."
+Error 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail."
 
 ### Reason
 
-The first error occurs because an SLA Item can only be deleted when there is no SLA KPI Item instance associated to it.
-Second error occurs if you are trying to delete an SLA manually, which is introduced as part of a managed solution and has flows configured. Processes that are part of managed solution can't be deleted. This is platform behavior.
+The first error occurs because in UCI SLA, the relationship between SLA Item and SLA KPI Instances is set to "Restrict to Delete".
+Second error occurs if you are trying to delete an SLA manually, which is introduced as part of a managed solution and has flows configured. Processes that are part of managed solution can't be deleted.
 
 ### Resolution
 
-Resolution 1:
+Resolution 1: Instead of deleting the SLA, you can deactivate the SLA in your organization, if it's brought by managed solution then perform the following steps:
 
 1. Deactivate the SLA in the source instance and add it to the solution.
-2. Deactivate the same SLA in the target instance and then apply the solution upgrade.
+1. Deactivate the same SLA in the target instance and then apply the solution upgrade.
 
 Resolution 2:
 
-This resolution removes all the SLAs and nullifies the SLA references. We recommend using the following script on the support instance first and then on the production instance post customer's confirmation.
-https://dynamicscrm.visualstudio.com/OneCRM/_git/CRM.Internal.ScriptsForProduction?path=/Mitigation/Solutions/Service/DeleteSLAAndSLAItemWithReferenceForEntity.sql&version=GBmaster&_a=contents
-Parameters : {"@slaId":{"Type":"NVARCHAR(256)","Value":"<slaid>"}, "@objecttypecode":{"Type":"int","Value":"<relatedentity objecttypecode>"}}
+You can manually delete all the SLA related entity records along with the SLA KPI Instances related to the SLA and then remove the SLA. Perform the following steps:
+
+1. In your Org, go to **Advanced Find** and look for **SLA KPI Instances** and select the **SLAItem.**
+1. Click on **Result**. The SLA KPI Instances will be listed.
+1. Select the SLA KPI Instances and select **Delete SLAKPIInstances**. This will also nullify the SLA KPI Instances on the related record.
+
+Even after removing the reference records, if the error message, "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail." appears, then apply solution upgrade with SLA removed from the upgrade solution.
 
 Resolution 3:
-
-You can manually delete all the SLA related entity records along with the SLAKPIinstances related to the SLA and then remove the SLA. After removing the reference records, if the error message: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail" appears while deletion,then you should apply solution upgrade with SLA removed from the upgrade solution.
-
+Contact Support if the above resolution doesn’t work to delete the SLA/SLA items through backend.
 
 ### See also
 
