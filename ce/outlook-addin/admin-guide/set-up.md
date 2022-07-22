@@ -1,5 +1,6 @@
 ---
 title: "Set up Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to install and deploy Dynamics 365 for Outlook to make it easier for a team to work with Dynamics 365 apps data in the Outlook environment.
 ms.custom: 
 ms.date: 12/11/2020
 ms.reviewer: 
