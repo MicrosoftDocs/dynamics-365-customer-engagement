@@ -116,8 +116,6 @@
         href: events-settings.md
       - name: Manage LinkedIn Lead Gen
         href: linkedin-configuration.md
-      - name: Manage sample data
-        href: additional-settings.md
       - name: Quota limits
         href: quota-management.md
       - name: Trial quota limits
