@@ -96,7 +96,9 @@
         href: real-time-marketing-admin-settings.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
-      - name: Authenticate your domains
+      - name: Add or remove sample data
+        href: /power-platform/admin/add-remove-sample-data
+       name: Authenticate your domains
         href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
         href: mkt-settings-analytics.md
