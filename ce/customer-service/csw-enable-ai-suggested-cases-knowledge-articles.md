@@ -91,7 +91,7 @@ Make sure that the following requirements are met:
 ## Enable AI suggestions for similar cases
 
 > [!NOTE]
-> As an early access feature, the **Enable similar case suggestions** toggle is set to **Yes** by default. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+> As an early access feature, AI suggestions for similar cases is enabled out of the box. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
 For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
@@ -134,7 +134,7 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 ## Enable AI suggestions for knowledge articles
 
 > [!NOTE]
-> As an early access feature, the **Enable knowledge article suggestions** toggle is set to **Yes** by default. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+> As an early access feature, AI suggestionf for knowledge articles is enabled out of the box. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
 For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
