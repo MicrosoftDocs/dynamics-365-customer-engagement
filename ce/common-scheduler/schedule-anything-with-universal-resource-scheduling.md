@@ -30,7 +30,7 @@ For organizations that use:
 ## Prerequisites  
  Before you can use Universal Resource Scheduling, make sure you have:  
   
-- Dynamics 365 Field Service, Project Service, Customer Service, *or* Microsoft Cloud for Financial Services.
+- Dynamics 365 Field Service, Project Service, *or* Customer Service.
   
 - A license for Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](/power-platform/admin/try-powerapps-dynamics-365)  
   
