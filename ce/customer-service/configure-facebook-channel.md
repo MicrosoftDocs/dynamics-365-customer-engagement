@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 07/22/2022
+ms.date: 07/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -17,7 +17,7 @@ manager: shujoshi
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 > [!NOTE]
-> If you use access tokens in Facebook, you must refresh them on a 60-day schedule or as required because Facebook can randomly expire the tokens. More information: [Facebook access tokens](https://developers.facebook.com/docs/pages/access-tokens)
+> If you use access tokens in Facebook, refresh them on a 60-day schedule or as required because the tokens might randomly expire. More information: [Facebook access tokens](https://developers.facebook.com/docs/pages/access-tokens)
 
 ## Prerequisites
 
