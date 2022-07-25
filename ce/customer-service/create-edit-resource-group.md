@@ -1,5 +1,5 @@
 ---
-title: Create or change a resource group (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Creating or changing a resource group in Dynamics 365 Customer Service | MicrosoftDocs
 description: Create or change a resource group in Dynamics 365 Customer Service
 ms.date: 09/15/2017
 ms.topic: article
