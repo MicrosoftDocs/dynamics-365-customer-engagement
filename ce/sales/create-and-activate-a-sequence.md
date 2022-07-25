@@ -56,7 +56,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 7. After the **Sequence start here** step, select the **Add** icon (**+**) and configure the sequence steps.
     
     For a sequence, the steps are categorized into the following four groups:
-    - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: []()
+    - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: [Add steps to sequence](steps-sequence.md)
     - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: []()
     - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: []()
     - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
@@ -82,77 +82,6 @@ The sequence is activated and listed in the sequence designer home page.
 
 Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
-## Email activity  
-Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
-> [!div class="mx-imgBorder"]
-> ![Add an email activity.](media/sequence-activity-add-email.png "Add an email activity")    
-
-Enter the following information to configure the email activity, and then select **Save**:   
-   1. A name and description for the activity. The information you enter here will be displayed to sellers.   
-   2. (Optional) If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step. To know more about email templates, see the step to [add email template](#automated-email) in the **Automated email** section.  
-        > [!div class="mx-imgBorder"]
-        > ![Example email activity.](media/sequence-activity-email-created.png "Example email activity")   
-
-You can define conditions for an email activity to determine the branch that the sequence moves to as the next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity)      
-
-## Automated email activity   
-Creates an automated email activity for sellers to communicate with customers. When this activity is shown to the seller, a send icon ![Send icon.](media/send-icon.png "Send icon") is displayed on the record. The email is automatically sent to the customer based on the selected template.     
->[!TIP]
->Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.    
-
->[!NOTE]
->- Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email)   
->- Configure [the email engagement feature](configure-email-engagement.md) in your organization before you start using the automated email step.
-
-> [!div class="mx-imgBorder"]
-> ![Add an automated email activity.](media/sequence-activity-add-automated-email.png "Add an automated email activity")   
-
-Enter the following information to configure the automated email activity, and then select **Save**:    
--	A name and description for the activity. The information you enter here will be displayed to sellers.
--	<a name=automated-email></a>An email template that you want to assign for this step. 
-    1. Select **Add email template**. 
-    2. In the **Email templates** dialog, select the language and then choose a template. When a template is chosen, you can see the preview.     
-        > [!div class="mx-imgBorder"]
-        > ![Choose an email template.](media/sequence-activity-automated-email-choose-template.png "Choose an email template")     
-    3. Select **Apply template**.   
-        The template is selected step is created as displayed in the following example image.   
-        > [!div class="mx-imgBorder"]
-        > ![Example automated email activity.](media/sequence-activity-automated-email-created.png "Example automated email activity")   
-                
-        >[!NOTE]
-        >You can also view the preview of selected email template on the created step. Select the preview icon ![Automated email template preview icon.](media/sequence-activity-automated-email-preview-icon.png "Automated email template preview icon").
-
-You can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
-
-## Phone call activity   
-Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.    
-> [!div class="mx-imgBorder"]
-> ![Add a phone call activity.](media/sequence-activity-add-phone-call.png "Add a phone call activity")    
-
-Enter a name and description for the phone call activity, and then select **Save**. The information you enter here will be displayed to sellers.   
-> [!div class="mx-imgBorder"]
-> ![Example phone call activity.](media/sequence-activity-phone-call-created.png "Example phone call activity")    
-
-You can define conditions for phone call activity to determine the branch that sequence moves to next step. More information: [Define conditions for phone call activity](adaptive-sequence.md#define-conditions-for-phone-call-activity).      
-
-## Task activity  
-Creates a custom activity that you define&mdash;such as scheduling a meeting with the customer&mdash;that isn't specified in the activity selector.   
-> [!div class="mx-imgBorder"]
-> ![Add a custom task activity.](media/sequence-activity-add-task.png "Add a custom task activity")    
-
-Enter the name and description of the custom activity, and then select **Save**. The information you enter here will be displayed to sellers.   
-> [!div class="mx-imgBorder"]
-> ![Example task activity.](media/sequence-activity-task-created.png "Example task activity")   
-
-## Set wait time  
-Specifies the interval between activities&mdash;that is, after an activity is completed and before the next activity occurs&mdash;during which sellers need to wait. A sequence can't end with this activity.     
-When this activity is shown to sellers on a record, they don't need to perform any action; they simply need to wait until the wait time expires before they perform the next activity.   
-> [!div class="mx-imgBorder"]
-> ![Set wait time.](media/sequence-activity-add-set-wait-time.png "Set wait time")   
-
-Choose the duration in days and hours that you want sellers to wait before they perform the next activity, and then select **Save**. The maximum wait time is 30 days.   
-> [!div class="mx-imgBorder"]
-> ![Example wait time.](media/sequence-activity-set-wait-time-created.png "Example wait time")   
 
 ## Advance to another sequence    
 Transfers the sequence control from the current sequence to the selected sequence. For example, you defined a sequence **S1** and attached a sequence **S2** after an initial activity of sending an introduction email. when **S1** is attached to a record and seller completes the initial task of sending an introduction email, the record starts displaying the activities defined in **S2**. The following are the considerations to use this activity:   
