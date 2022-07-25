@@ -58,7 +58,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     For a sequence, the steps are categorized into the following four groups:
     - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: [Add steps to sequence](steps-sequence.md)
     - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: [Add the conditions steps](adaptive-sequence.md)
-    - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: []()
+    - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: [Add command steps to sequences](command-sequence.md)  
     - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
        
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
