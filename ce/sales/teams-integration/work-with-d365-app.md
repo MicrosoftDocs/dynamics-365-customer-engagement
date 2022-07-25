@@ -40,4 +40,4 @@ Select the Dynamics 365 app icon in the meeting toolbar. Details about the linke
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md) 
+ 

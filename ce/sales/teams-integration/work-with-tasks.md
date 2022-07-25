@@ -63,4 +63,4 @@ In the **Tasks** section, select the task to mark it as complete.
 [Join a Teams meeting](join-teams-meeting.md)   
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md) 
+ 

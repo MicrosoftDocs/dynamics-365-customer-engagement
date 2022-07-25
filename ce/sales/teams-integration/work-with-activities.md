@@ -40,4 +40,4 @@ In the **Activities** section, select an activity. The activity record opens in 
 [Join a Teams meeting](join-teams-meeting.md)   
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md)   
+   

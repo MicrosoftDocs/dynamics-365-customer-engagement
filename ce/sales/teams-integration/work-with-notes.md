@@ -54,4 +54,4 @@ If you add, edit, or delete notes in the side panel, your changes are synced wit
 [Join a Teams meeting](join-teams-meeting.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md) 
+ 
