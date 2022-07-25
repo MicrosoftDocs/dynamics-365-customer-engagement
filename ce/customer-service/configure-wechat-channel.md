@@ -65,7 +65,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
      - **Developer password (AppSecret):** Specify the WeChat Developer password.
      - **Token:** Specify the WeChat token.
      - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
-   1. On the **Callback information** page, copy the values in the **IP whitelist** and **Server address (URL)** boxes. You'll update the copied information in the WeChat account.
+   1. On the **Callback information** page, copy the values in the **IP allowlist** and **Server address (URL)** boxes. You'll update the copied information in the WeChat account.
    1. Select **Done**. The WeChat account instance is created.
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
@@ -131,7 +131,7 @@ If you're using the service account of WeChat, perform the following steps:
 
 5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
 
-6. Copy the information that's displayed in the **IP whitelist** and **Server address (URL)** boxes. This step is required for only WeChat service account.
+6. Copy the information that's displayed in the **IP allowlist** and **Server address (URL)** boxes. This step is required for only WeChat service account.
 
     > [!div class=mx-imgBorder]
     > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
