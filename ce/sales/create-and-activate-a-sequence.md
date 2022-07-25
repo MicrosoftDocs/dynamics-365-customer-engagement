@@ -57,7 +57,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     
     For a sequence, the steps are categorized into the following four groups:
     - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: [Add steps to sequence](steps-sequence.md)
-    - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: []()
+    - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: [Add the conditions steps](adaptive-sequence.md)
     - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: []()
     - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
        
@@ -83,36 +83,7 @@ The sequence is activated and listed in the sequence designer home page.
 Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 
-## Advance to another sequence    
-Transfers the sequence control from the current sequence to the selected sequence. For example, you defined a sequence **S1** and attached a sequence **S2** after an initial activity of sending an introduction email. when **S1** is attached to a record and seller completes the initial task of sending an introduction email, the record starts displaying the activities defined in **S2**. The following are the considerations to use this activity:   
-- A sequence can't start with this activity
-- Other steps can't be added after this activity
 
-> [!div class="mx-imgBorder"]
-> ![Advance to another sequence activity.](media/sequence-activity-advance-to-another-sequence.png "Advance to another sequence activity")        
-
-From the **Connect to** list, choose a sequence to attach. The list consists of the sequences that are active and related to the record type. Select **Save** and the activity is created.
-> [!div class="mx-imgBorder"]
-> ![Example for advance to another sequence activity.](media/sequence-activity-advance-to-another-sequence-created.png "Example for advance to another sequence activity")    
-
-## Update field
-
-Creates a step that automatically updates a record by using a configured value for a field. When the activity is displayed to the seller in the record, the field automatically gets updated with the value you configured. The following types of fields are supported (including custom fields):
- 
-- Two options (for example, a **Do Not Email** field that contains the values **Allow** and **Do Not Allow**)    
-- Option set (for example, a **Budget** field that contains the values **No Committed Budget**, **May Buy**, **Can Buy**, and **Will Buy**)
-
-You can add this activity anywhere in the sequence. As soon as the previous activity is completed, the **Update field** activity is executed automatically and the sequence moves on to the next activity. To avoid executing the **Update field** step immediately after the previous activity is completed, add the [Set wait time](#set-wait-time) activity (described earlier in this topic) before the **Update field** activity. 
-
-Sellers can see the activity on the timeline of the record.
-
-> [!div class="mx-imgBorder"]
-> ![Update field activity.](media/sequence-activity-update-field.png "Update field activity")  
-
-Under **Automatically update this field**, select a field. Under **With this value**, select a value to use to update the record automatically. Select **Save**, and the activity is created.
-
-> [!div class="mx-imgBorder"]
-> ![Example of the update field activity.](media/sequence-activity-update-field-created.png "Example of the update field activity")  
 
 ## Exit a sequence during the flow
 
@@ -145,7 +116,7 @@ Review the following requirements before you enable the **Exit the sequence** op
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)     
-[Adaptive sequences](adaptive-sequence.md)    
+[Add steps to sequence](steps-sequence.md)  
 [Manage tags for sequences](manage-tags-for-sequences.md)     
 [Migrate sequences from one environment to another](migrate-sequence.md)
 

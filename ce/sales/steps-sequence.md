@@ -30,9 +30,9 @@ When creating a sequence, you can add the following types of activities as steps
 ## Email activity  
 Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
 
-To add the email activity:
+To add the email activity step:
 
-1. On the sequence designer page, select the **Add** (**+**) icon under a step.
+1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an email**. 
     
@@ -63,9 +63,9 @@ Creates an automated email activity for sellers to communicate with customers. W
 >- Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email?context=/dynamics365/context/sales-context)   
 >- Configure [the email engagement feature](configure-email-engagement.md) in your organization before you start using the automated email step.
 
-To add the automated email activity:
+To add the automated email activity step:
 
-1. On the sequence designer page, select the **Add** (**+**) icon under a step.
+1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an automated email**. 
     
@@ -99,9 +99,9 @@ Now, you can define conditions for automated email activity to determine the bra
 
 Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.   
  
-To add the phone call activity:
+To add the phone call activity step:
 
-1. On the sequence designer page, select the **Add** (**+**) icon under a step.
+1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Make a phone call**. 
     
@@ -122,9 +122,9 @@ Now, you can define conditions for phone call activity to determine the branch t
 
 Creates a custom activity that you define&mdash;such as scheduling a meeting with the customer&mdash;that isn't specified in the activity selector.   
 
-To add the custom activity:
+To add the custom activity step:
 
-1. On the sequence designer page, select the **Add** (**+**) icon under a step.
+1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Complete a task**. 
     
@@ -144,9 +144,9 @@ To add the custom activity:
 Specifies the interval between activities&mdash;that is, after an activity is completed and before the next activity occurs&mdash;during which sellers need to wait. A sequence can't end with this activity.     
 When this activity is shown to sellers on a record, they don't need to perform any action; they simply need to wait until the wait time expires before they perform the next activity.   
 
-To add the wait time:
+To add the wait time step:
 
-1. On the sequence designer page, select the **Add** (**+**) icon under a step.
+1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Set wait time**. 
     
@@ -165,7 +165,7 @@ To add the wait time:
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)     
 [Create and activate a sequence](create-and-activate-a-sequence.md)      
-[Adaptive sequences](adaptive-sequence.md)    
-
+[Add condition steps to sequences](adaptive-sequence.md)    
+[Add command steps to sequences](command-sequence.md)   
+[Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
