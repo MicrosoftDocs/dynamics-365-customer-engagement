@@ -25,20 +25,18 @@ searchScope:
 
 # View AI-suggested similar cases and knowledge articles
 
-This topic describes how to view similarly resolved cases and knowledge articles for your active cases.
+ When you open an active case, you can view suggestions about similar cases that were previously resolved successfully and knowledge articles. With the use of AI, these features help you find the right solutions and provide better and faster service to customers. To understand how AI-suggestions work, see [How AI suggestions for similar cases and knowledge articles work](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
 
-## Introduction
-
-If your administrator has enabled the AI-suggested similar cases and knowledge articles option, you can view similarly resolved cases and knowledge articles when you open an active case. To understand how AI-suggestions work, see [How AI suggestions for similar cases and knowledge articles work](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
-
-The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions on active cases or during your interactions with customers in ongoing conversations.
+The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions on active cases or during your interactions with customers in ongoing conversations. If you don't see the similar cases and knowledge articles, your Administrator would've disabled the AI-suggestions for similar cases and knowledge articles feature.
 
 > [!IMPORTANT]
-> The **Smart assist** pane is displayed only when you open the case in a new session tab by using the Shift+mouse click action. If you open to view a resolved case in an app tab when your in-progress case is open, smart assist will not be refreshed for the resolved case.
+> The **Smart assist** pane is displayed only when you open the case in a new session tab. If you open to view a resolved case in an app tab when your in-progress case is open, smart assist will not be refreshed for the resolved case.
 
 ## Prerequisites
 
-- AI-suggestions for similar cases and knowledge articles should be enabled by your administrator.
+- AI-suggestions for similar cases and knowledge articles should be enabled by your administrator. 
+    > [!NOTE]
+    > As an early access feature, AI suggestions for similar cases and knowledge articles is enabled by default.
 - Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
 - The Productivity tools user role must be assigned to you.
 
