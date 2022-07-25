@@ -279,7 +279,7 @@ In a scenario in which you've customized your reports and then Microsoft makes u
 
 ### Data dictionary
 
-|Entities |Attributes |Description |
+| Entities | Attributes | Description |
 |----------|----------|----------|
 |DimAgentPresence	|Agent presence id	|Primary key. |
 |DimAgentPresence	|Presence status	|agent presence status that could be "Available", "Busy", "Busy - DND", "Away", or "Offline"|
