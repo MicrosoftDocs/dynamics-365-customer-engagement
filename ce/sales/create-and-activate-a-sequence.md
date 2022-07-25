@@ -45,22 +45,24 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
 
-6. Select **Next**.   
-7. Choose and configure one of the following steps:      
-    - [Email activity](#email-activity)
-    - [Automated email activity](#automated-email-activity)
-    - [Phone call activity](#phone-call-activity)
-    - [Task activity](#task-activity)
-    - [Set wait time](#set-wait-time)
-    - [Advance to another sequence](#advance-to-another-sequence)
-    - [Update field](#update-field)
-    
+6. Select **Next**.     
+    The sequence designer page opens.
+
     > [!div class="mx-imgBorder"]
-    > ![Choose an activity type.](media/sequence-choose-activity.png "Choose an activity type")       
+    > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
+
+    By default, the **Sequence start here** step is added to sequence as the first step.  
+
+7. After the **Sequence start here** step, select the **Add** icon (**+**) and configure the sequence steps.
     
+    For a sequence, the steps are categorized into the following four groups:
+    - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: []()
+    - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: []()
+    - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: []()
+    - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
+       
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
-9. In the upper-right corner of the page, select **More options**, and then select **Save**.    
-10. Select **More options** again, and then select **Activate** to activate the sequence.   
+9. Save and activate the sequence.   
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
 11. Select **Yes** in the confirmation message that appears.   
