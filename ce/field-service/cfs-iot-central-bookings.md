@@ -35,10 +35,10 @@ Make Connected Field Service send booking updates to Azure IoT Central when a re
     b. Add your IoT Central application name in the field for **Application**.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions.](media/iot-central-bookings-2.png)
+> ![Screenshot of the [Sample Contoso] When a technician is booked in CFS, update IoT Central template window with fpsdemo1 entered in the oraganization name fields.](media/iot-central-bookings-2.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions.](media/iot-central-bookings-3.png)
+> ![Screenshot of the [Sample Contoso] When a technician is booked in CFS, update IoT Central template window, with letters referencing the corresponding instructions.](media/iot-central-bookings-3.png)
 
 4. Save the flow.
 
