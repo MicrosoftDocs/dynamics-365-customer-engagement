@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/additional-settings.md",
+      "redirect_url": "/power-platform/admin/add-remove-sample-data",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/windows-mobile-app.md",
       "redirect_url": "/power-apps/mobile/windows-app-install",
       "redirect_document_id": "false"
