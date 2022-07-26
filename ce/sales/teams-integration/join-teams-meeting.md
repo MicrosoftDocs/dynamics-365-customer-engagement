@@ -1,7 +1,7 @@
 ---
 title: Join a Teams meeting from Dynamics 365, Outlook, and Teams
 description: Learn how to join a Teams meeting from Dynamics 365, Outlook, and Teams.
-ms.date: 04/20/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -9,10 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Join a Microsoft Teams meeting (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
+# Join a Microsoft Teams meeting
 
 You can join a Teams meeting from Dynamics 365, Outlook, or Teams.
 
@@ -48,4 +45,4 @@ You have several options. For more information, see [Join a meeting in Teams](ht
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md)   
+   
