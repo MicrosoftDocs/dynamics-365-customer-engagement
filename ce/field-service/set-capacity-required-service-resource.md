@@ -1,6 +1,6 @@
 ---
 title: Set the capacity required for a service or resource (Dynamics 365 Customer Service) | MicrosoftDocs
-description: View how to set the capacity required for a service or resource in Dynamics 365 Customer Service
+description: Learn how to define the capacity required for a service or resource in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
 
 ms.topic: article
