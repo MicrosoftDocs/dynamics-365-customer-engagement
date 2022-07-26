@@ -1003,7 +1003,7 @@
         - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
-          href: poc-queue-dashboard.md
+          href: oc-queue-dashboard.md
         - name: Omnichannel Agent dashboard
           href: agent-dashboard.md
         - name: Omnichannel Bot dashboard
