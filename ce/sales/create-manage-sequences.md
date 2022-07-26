@@ -1,13 +1,13 @@
 ---
-title: "Manage sequences in sales accelerator"
+title: "Sequences in sales accelerator"
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
-ms.date: 01/10/2022
+ms.date: 07/29/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Manage sequences 
+# Sequences 
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 

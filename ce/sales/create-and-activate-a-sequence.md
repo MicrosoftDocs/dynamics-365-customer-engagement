@@ -17,7 +17,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## To create and activate a sequence
+## Create a sequence
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 2. Under **Sales accelerator**, select **Sequence**.  
@@ -62,15 +62,20 @@ Every organization has its own selling processes for sellers to follow. A sequen
     - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
        
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
-9. Save the sequence.   
-10. Select **Activate**.
+9. Save the sequence.  
+
+Now, you can activate the sequence. 
+
+## Activate a sequence
+
+1. Open a sequence and then select **Activate**.
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
 
     > [!div class="mx-imgBorder"]
     > ![Select activate sequence.](media/sequence-select-activate-sequence.png "Select activate sequence")  
 
-11. Select **Activate** in the confirmation message that appears.   
+1. Select **Activate** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
@@ -79,22 +84,23 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
 
-> [!NOTE]
-> On the sequence home page, you can do the following tasks:
-> - Sort and filter the records based on the column options. Expand the column header, and then select the sort and filter options that are available.
-> - Reorder the columns by dragging them to the location you want in the grid.
-> - Search is available only on the name and description of the sequence.
-   
+Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
+
+## Sequence home page
+
+On the sequence home page, you can do the following tasks:
+- Sort and filter the records based on the column options. Expand the column header, and then select the sort and filter options that are available.
+- Reorder the columns by dragging them to the location you want in the grid.
+- Search is available only on the name and description of the sequence.
+
 > [!div class="mx-imgBorder"]
 > ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
-
-Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)     
+[Sequences](create-manage-sequences.md)     
 [Add steps to sequence](steps-sequence.md)  
 [Manage tags for sequences](manage-tags-for-sequences.md)     
 [Migrate sequences from one environment to another](migrate-sequence.md)
