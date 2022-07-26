@@ -353,16 +353,19 @@
           items: 
             - name: Create and activate a sequence
               href: create-and-activate-a-sequence.md
-            - name: Add steps to sequence
-              href: steps-sequence.md  
-            - name: Add condition steps to sequences
-              href: adaptive-sequence.md
-            - name: Add command steps to sequences
-              href: command-sequence.md  
-            - name: Add LinkedIn activities to sequence
-              href: linkedin-activities-sequence.md
-            - name: Sequence templates
-              href: sequence-templates.md  
+              items:
+              - name: Add steps to sequence
+                href: steps-sequence.md  
+              - name: Add condition steps to sequences
+                href: adaptive-sequence.md
+              - name: Add command steps to sequences
+                href: command-sequence.md  
+              - name: Add LinkedIn activities to sequence
+                href: linkedin-activities-sequence.md
+              - name: Exit a sequence during flow  
+                href: step-exit-sequence.md
+              - name: Sequence templates
+                href: sequence-templates.md  
             - name: Connect a sequence to records
               href: connect-a-sequence-to-records.md
             - name: Migrate sequences from one environment to another 

@@ -1,7 +1,7 @@
 ---
-title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
+title: "Sequence creation and activation in the sales accelerator"
 description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
-ms.date: 04/30/2022
+ms.date: 07/29/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -62,10 +62,11 @@ Every organization has its own selling processes for sellers to follow. A sequen
     - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
        
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
-9. Save and activate the sequence.   
+9. Save the sequence.   
+10. Select **Activate**.
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
-11. Select **Yes** in the confirmation message that appears.   
+1. Select **Yes** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
@@ -81,35 +82,6 @@ The sequence is activated and listed in the sequence designer home page.
 > ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
 
 Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
-
-
-
-
-## Exit a sequence during the flow
-
-By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the record will be disconnected from the sequence.
-
-**Prerequisites**
-
-Review the following requirements before you enable the **Exit the sequence** option:
-
-- At least one email activity step is created in the sequence. 
-- The sequence must be in inactive or revision state.
-- [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using this option for the email activity.
-
-**To configure the exit sequence criteria**
-
-1.	Open the sequence, and then select **Options**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Sequence designer with Options.](media/sequence-designer-select-options.png "Sequence designer with Options")
-
-2.	On the **Sequence Options** pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable exiting a sequence on the Sequence Options pane.](media/sequence-sequence-options-pane.png "Enable exiting a sequence on the Sequence Options pane")
-
-3.	Select **Save**.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
