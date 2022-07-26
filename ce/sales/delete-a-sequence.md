@@ -23,10 +23,16 @@ You can delete sequences that your organization no longer needs, and they'll be 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
 3. Under **Sales accelerator**, select **Sequences**.        
-4. On the **Sequences** page, hover over the sequence you want to delete, and then select **More options** > **Delete**.   
-5. In the confirmation message that appears, select **Delete permanently**.    
+4. On the **Sequences** page, hover over the sequence you want to delete, and then select **More options** > **Delete**.  
+1. In the confirmation message that appears, select **Delete permanently**.      
+    
+    >[!NOTE]
+    >If you are deleting a sequence that is the active state, a confirmation message is displayed that the sequence will be deactivated and deleted. Select **Deactivate and delete**.
+    
     > [!div class="mx-imgBorder"]
     > ![Confirmation message for deleting a sequence](media/sequence-delete-confirmation-message.png "Confirmation message for deleting a sequence")
+The 
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
