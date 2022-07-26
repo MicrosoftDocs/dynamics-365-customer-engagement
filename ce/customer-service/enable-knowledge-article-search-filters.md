@@ -44,7 +44,9 @@ If you choose to retain the knowledge search filters, the web client and maker e
  
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-The option to **Enable knowledge article search filters** is set to **Yes** by default for both new and existing customers. To disable search filters, you'll need to manually change the **Enable knowledge article search filters** option to **No** on the **Filters** page. Once set to **No**, the updated settings will be applicable to all subsequent upgrades and won't revert to **Yes** automatically. All the other settings including those provided under filter personalization won't change as the change to enable/disable filter customizations will completely enable/disable filter personalization without affecting any settings within personalization.
+The option to **Enable knowledge article search filters** is set to **Yes** by default. To disable search filters, you'll need to manually change the **Enable knowledge article search filters** option to **No** on the **Filters** page.
+
+The settings that you have previously configured for your organization, including those within filter personalization, remain as is. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
 
 :::image type="content" source="media/default-search-filters.png" alt-text="Search filters are enabled by default":::
 
