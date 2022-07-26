@@ -23844,6 +23844,11 @@
       "source_path": "ce/sales/teams-integration/ci-capabilities.md",
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-authorize-api-connection.md",
+      "redirect_url": "/dynamics365/field-service/installation-setup-iothub",
+      "redirect_document_id": "false"
     }
   ]
 }
