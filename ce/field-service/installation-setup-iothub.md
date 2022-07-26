@@ -48,8 +48,8 @@ Verify you have the Connected Field Service entities in your environment.
 
 Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and following the instructions.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png)
+<!-- >> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png) -->
 
 > [!Note]
 > If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution in your field service environment from the app store.
