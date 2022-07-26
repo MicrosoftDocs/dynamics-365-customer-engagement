@@ -70,7 +70,8 @@ You can configure your chat widget to show users a survey that they must respond
 5. Select **Add question**.
 
     > [!NOTE]
-    > You can add only five questions to a pre-chat survey. The length of each question should be less than or equal to 512 characters.
+    > - You can add only five questions to a pre-chat survey. The length of each question should be less than or equal to 512 characters.
+    > - When you add a question to a pre-conversation survey, a corresponding context variable is created and is displayed in the  **Advanced settings** > **Context variables** section.
 
 6. In the **New Question** pane, provide the following information:
 
