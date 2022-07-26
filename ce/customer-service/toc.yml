@@ -940,7 +940,7 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-  - name: Analytics and insights dashboards
+  - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service
       href: introduction-customer-service-analytics.md
@@ -1003,7 +1003,7 @@
         - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
-          href: oc-queue-dashboard.md
+          href: poc-queue-dashboard.md
         - name: Omnichannel Agent dashboard
           href: agent-dashboard.md
         - name: Omnichannel Bot dashboard
@@ -1018,6 +1018,8 @@
         href: customer-service-analytics.md
       - name: Forecast case and conversation volumes
         href: use-volume-forecasting.md
+      - name: Manage bookmarks
+        href: manage-bookmarks.md
       - name: Intraday supervisor experience
         items: 
         - name: Introduction to intraday supervisor experience

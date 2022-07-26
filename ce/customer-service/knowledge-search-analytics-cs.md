@@ -84,10 +84,11 @@ The Knowledge search term analytics dashboard represents the following metrics.
 
 ### See also
 
-[Configure knowledge search insights](enable-knowledge-search-insights.md)
-[Search for knowledge articles](search-knowledge-articles-csh.md) <br>
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md) <br>
-[Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+[Configure knowledge search insights](enable-knowledge-search-insights.md)  
+[Search for knowledge articles](search-knowledge-articles-csh.md)  
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
+[Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
