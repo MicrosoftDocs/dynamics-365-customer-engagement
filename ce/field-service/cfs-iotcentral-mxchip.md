@@ -178,7 +178,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of th MXChip device template page showing that the new Configure Telemetry Rule fields are filled out on the left side and a line graph on the right.](./media/cfs-mxchip-14.png)
+> ![Screenshot of the MXChip device template page showing the filled Configure Telemetry Rule fields on the left side and a line graph on the right.](./media/cfs-mxchip-14.png)
 
 ## Set up Power Automate flows to create IoT Alerts
 
