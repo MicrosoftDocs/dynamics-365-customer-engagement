@@ -42,4 +42,4 @@ To add an app during a meeting, select **Add an app** in the meeting toolbar, se
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md)   
+   

@@ -2,7 +2,7 @@
 title: SUPPLEMENTAL TERMS FOR MICROSOFT DYNAMICS CUSTOMER VOICE TRIAL
 author: ReneeW-CPub
 robots: no-index, no-follow
-ms author: renwe
+ms.author: renwe
 ---
 # SUPPLEMENTAL TERMS FOR MICROSOFT DYNAMICS CUSTOMER VOICE TRIAL 
 
