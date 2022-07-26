@@ -1,5 +1,5 @@
 ---
-title: "Define a criteria to exit a sequence during the flow"
+title: "Define criteria to exit a sequence during the flow"
 description: "Exit a sequence during the flow when the defined criteria is met."
 ms.date: 07/29/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Exit a sequence during flow
+# Exit a sequence during the flow
 
 By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the record will be disconnected from the sequence.
 

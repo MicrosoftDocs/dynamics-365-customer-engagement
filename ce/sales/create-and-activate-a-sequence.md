@@ -66,11 +66,18 @@ Every organization has its own selling processes for sellers to follow. A sequen
 10. Select **Activate**.
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
-1. Select **Yes** in the confirmation message that appears.   
+
+    > [!div class="mx-imgBorder"]
+    > ![Select activate sequence.](media/sequence-select-activate-sequence.png "Select activate sequence")  
+
+11. Select **Activate** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
-The sequence is activated and listed in the sequence designer home page. 
+    The sequence is activated and listed in the sequence designer home page. Also, you can see the status of the sequence beside the name and a confirmation message.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
 
 > [!NOTE]
 > On the sequence home page, you can do the following tasks:
