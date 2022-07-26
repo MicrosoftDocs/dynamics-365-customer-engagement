@@ -8,7 +8,14 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Create bookmarks to access personalized reports
+# Create bookmarks to personalize reports
 
-The Microsoft Power BI bookmarks feature can be used to create and save custom views of the reports as bookmarks in Customer Service workspace or Omnichannel for Customer Service. The bookmarks will help you save multiple bookmarks, set a default bookmarks, and select any of the saved bookmarks to view the reports based on the context.
+The Microsoft Power BI bookmarks feature can be used to create and save custom views of the analytics reports as bookmarks in Customer Service workspace or Omnichannel for Customer Service. The bookmarks option will help you save multiple bookmarks, set a default bookmark, and select any of the saved filtered views to see the reports based on the context you've selected.
+
+The bookmarks are available for historical reports only in Customer Service and Omnichannel for Customer Service.
+
+## Create bookmarks
+
+1. In Customer Service workspace
+
 
