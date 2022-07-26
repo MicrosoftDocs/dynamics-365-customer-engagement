@@ -102,7 +102,7 @@ Once you've saved your Flow, log in to Dynamics 365 Field Service, and select Co
 In Connected Field Service, you should now see incoming alerts from Azure IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Connected Field Service Demo window with a red arrow pointing to the active alert, Cash drawer level is high from IoT Central Application.](media/iot-central-alerts-12.png)
+> ![Screenshot of the Connected Field Service Demo window with a red arrow pointing to the active alert, Cash drawer level is high from IOT Central Application.](media/iot-central-alerts-12.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated.](media/iot-central-alerts-13.png)

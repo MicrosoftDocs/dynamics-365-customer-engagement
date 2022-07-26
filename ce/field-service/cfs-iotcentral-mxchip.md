@@ -132,7 +132,7 @@ Select **+New Rule**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip page showing that the New Rule option is selected.](./media/cfs-mxchip-9.png)
+> ![Screenshot of the MX Chip page showing that the New Rule option is selected.](./media/cfs-mxchip-9.png)
 
 Select **Event** when presented the option.
 
@@ -150,7 +150,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the New Rule on the MXChip device template page showing the fields filled out and that Save is selected.](./media/cfs-mxchip-11.png)
+> ![Screenshot of the New Rule on the MX Chip device template page showing the fields filled out and that Save is selected.](./media/cfs-mxchip-11.png)
 
 
 ### High temperature alert rule
@@ -158,7 +158,7 @@ Then **Save**.
 Select **+New Rule** again.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip page displaying that the New Rule option is selected.](./media/cfs-mxchip-12.png)
+> ![Screenshot of the MX Chip page displaying that the New Rule option is selected.](./media/cfs-mxchip-12.png)
 
 Select **Telemetry**.
 
@@ -178,7 +178,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip device template page showing the filled Configure Telemetry Rule fields on the left side and a line graph on the right.](./media/cfs-mxchip-14.png)
+> ![Screenshot of the MX Chip device template page showing the filled Configure Telemetry Rule fields on the left side and a line graph on the right.](./media/cfs-mxchip-14.png)
 
 ## Set up Power Automate flows to create IoT Alerts
 
