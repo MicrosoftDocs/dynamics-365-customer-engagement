@@ -86,24 +86,28 @@ image.png
 
 ## Step 4: Set up IoT endpoint
 
+!! Pending details from Luis. !!
+
 ## Step 5: Authorize Azure app connection
 
-Connect the Azure IoTHub to your Field Service environment. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
+Connect the Azure IoTHub to your Field Service environment.
 
-From there, go to **Resource Groups** and find the resource group you recently deployed IoTHub to. See the following screenshot for reference.
+1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure resource groups.](./media/cfs-iothub-resource-group.png)
+1. On the Azure Portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to. See the following screenshot for reference.
 
-One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Azure resource groups.](./media/cfs-iothub-resource-group.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of API connection between dynamics and azure.](./media/cfs-iothub-api-connection.png)
+1. One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
 
-Select **Authorize** and sign in with your Dynamics 365 credentials that you use to sign into your Connected Field Service environment. They may be different than your Azure credentials to the Azure portal. Select **Save** to apply your changes.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of API connection between dynamics and azure.](./media/cfs-iothub-api-connection.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of authorizing the subscription.](./media/cfs-iothub-api-connection-authorize.png)
+1. Select **Authorize** and sign in with your Dynamics 365 credentials that you use to sign into your Connected Field Service environment. They may be different than your Azure credentials to the Azure portal. Select **Save** to apply your changes.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of authorizing the subscription.](./media/cfs-iothub-api-connection-authorize.png)
 
 Congratulations! You are now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
 
@@ -114,7 +118,11 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 
 ## Step 6: Start Azure Stream Analytics job
 
+1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
+1. On the Azure Portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
+
+1. Select each Stream Analytics job that was deployed and, from the **Overview** tab, select **Start**.
   
 ## Step 7: Set up the simulator (optional)
 
