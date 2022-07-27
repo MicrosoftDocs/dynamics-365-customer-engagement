@@ -29,7 +29,7 @@ An instance of placeholder text such as ``{{Firstname}}`` is called pre-defined 
 
 Defining data binding requires some understanding of the [Dataverse data model](/powerapps/maker/data-platform/data-platform-intro) to correctly connect the dynamic text to the right data source.
 
-Pre-defined dynamic text is text that has already been defined by someone else and is ready to be used. Marketing ships with a set of commonly used pieces of pre-defined dynamic text. More can be added by you or your teammates (see [Creating and sharing pre-defined dynamic text](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text)).
+Pre-defined dynamic text is text that has already been defined by someone else and is ready to be used. Marketing ships with a set of commonly used pieces of pre-defined dynamic text. More can be added by you or your teammates (see [Creating and sharing pre-defined dynamic text](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text#creating-and-sharing-pre-defined-dynamic-text)).
 
 ## Using pre-defined dynamic text
 
