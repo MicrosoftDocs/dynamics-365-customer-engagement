@@ -1,7 +1,7 @@
 ---
-title: "Region availability, language availability, and service limits for Dynamics 365 Customer Service Insights | MicrosoftDocs"
-description: "Learn about region availability, languages supported, and service limits for Customer Service Insights."
-ms.date: 06/08/2022
+title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
+description: "Learn about region availability, languages supported, and service limits for analytics and insights."
+ms.date: 07/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,11 +9,11 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Region availability, language availability, and service limits for Customer Service Insights
+# Supported regions and languages, and service limits for analytics and insights
 
 Depending on your location, certain features are available for in Dynamics 365 Customer Service insights. Service limits also apply.
 
-## Region availability of Customer Service Insights
+## Region availability of analytics and insights
 
 The following features are available in all geographic locations where the voice channel in Omnichannel for Customer Service is supported:
 - Call transcription
@@ -21,33 +21,33 @@ The following features are available in all geographic locations where the voice
 
 Geographic support for real-time message translation is dependent on your translator service.
 
-The following table lists the region availability of Customer Service Insights features.
+The following table lists the region availability of analytics and insights.
 
 > [!NOTE]
 > The features listed in the table are not available in South Africa, Korea, and Norway.
 
-| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
+| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Conversation topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Omnichannel historical analytics - Voice| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| Intelligent skill finder for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Sentiment prediction-based routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Effort estimation model for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
-| AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ |✖ | ✔ | ✖| ✖ | ✖| ✖ | ✖ |
-| Forecast report for cases and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
-| Knowledge Base keywords suggestion| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ | 
-| Unified routing analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Conversation topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Omnichannel historical analytics - Voice| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| Intelligent skill finder for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Sentiment prediction-based routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Effort estimation model for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
+| AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ | ✖ | ✖ | ✔| ✖ | ✖| ✖ | ✖ |
+| Forecast report for cases and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
+| Knowledge Base keywords suggestion| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ | 
+| Unified routing analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
 
 ✔ : Available  
 ✖ : Not available
 
-## Language availability for AI features in Customer Service Insights
+## Language support for AI-based analytics and insights in Customer Service
 
 The following features support all languages that the product supports.
 
@@ -74,13 +74,11 @@ The following table lists the language availability of the other Customer Servic
 ✖ : Not available
 
 
-## Service limits in Customer Service Insights
+## Service limits for analytics and insights
 
-Customer Service Insights service has built-in limits that are designed to ensure reliability and stability of the service. Any requests for changes can be made through the Ideas forum.
+The uilt-in limits are designed to ensure reliability and stability of the service. Use the Ideas forum to request for changes.
 
-### Service limits
-
-The following table lists the built-in limits for the embedded version of insights in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service.
+The following table lists the built-in limits for the embedded version of insights that can be accessed through the Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service apps.
 
 | Area | Limits | Notes |
 | ------------ | ------------- | ----------------- |
@@ -94,7 +92,7 @@ The following table lists the built-in limits for the embedded version of insigh
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there aren't penalties if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
+AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner that's minimally disruptive to those customers.
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 

@@ -3,7 +3,6 @@ title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
 ms.date: 01/28/2022
 ms.topic: article
-ms.service: teams-integration
 applies_to: 
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
