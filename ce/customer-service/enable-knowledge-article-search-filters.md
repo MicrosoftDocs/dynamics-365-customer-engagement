@@ -38,7 +38,7 @@ The fields that are present on the knowledge article entity are the fields that 
 
  Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
 
-If you choose to retain the knowledge search filters, the Power Apps Maker filter configurations are deactivated. In full-text search, the archived and discarded status filters aren't supported.
+If you choose to retain the knowledge search filters, the Power Apps Maker filter configurations get deactivated. In full-text search, the archived and discarded status filters aren't supported.
 
 ## Knowledge article search filters are enabled by default (preview)
  
@@ -117,12 +117,12 @@ To configure custom fields as search filters for knowledge articles:
 
 ## Additional configuration settings
 
-* If Relevance Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the **Status** filter, articles that contain these values will not be displayed.
+* If Dataverse Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the **Status** filter, articles that contain these values will not be displayed.
 
- * To view these articles in your Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog.
+ * To view these articles in your Dataverse Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog.
 
 > [!NOTE]
-> These filters will only work if you have Relevance Search enabled.
+> These filters will only work if you have Dataverse Search enabled.
 
 ## Add a default filter configuration
 
@@ -152,7 +152,7 @@ You can add a default filter in the Customer Service admin center or Customer Se
     > [!div class=mx-imgBorder]
     > ![Add a default filter.](media/default-filter-config.png "Add a default filter.")
     
-3. Customize the filter according to your needs by selecting or deselecting the values displayed, and then turn on the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
+3. Customize the filter according to your requirements by selecting or deselecting the values displayed, and then turn on the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
 4. Select **Save**.
 
 ## Configure fields with data type as lookup as filters
