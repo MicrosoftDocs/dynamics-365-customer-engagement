@@ -62,11 +62,11 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 1. In Connected Field Service, go to the **Settings** area.
 
-image.png
+   :::image type="content" source="media/cfs-iothub-settings-area.png" alt-text="Screenshot of the Change area control.":::
 
 1. Select **Providers** and select **New**.
 
-image.png
+   :::image type="content" source="media/cfs-iothub-create-provider.png" alt-text="Screenshot of creating a new IoT Hub provider.":::
 
 1. On the **New IoT Provider Instance** page, fill out the field:
    - **Name**: Enter the name of the resource group in Azure where you deployed IoT resources.
@@ -78,7 +78,7 @@ image.png
 
 1. We now need to update the IoT Provider Settings for the newly created provider instance. In the **Settings** area, select **IoT Settings** > **IoT Provider Settings**.
 
-image.png
+   :::image type="content" source="media/cfs-iothub-default-provider-instance.png" alt-text="Screenshot of Default Provider Instance page.":::
 
 1. For **Default IoT Provider**, set the **Instance** to the IoT Provider Instance you created previously.
 
@@ -123,6 +123,8 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 1. On the Azure Portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
 
 1. Select each Stream Analytics job that was deployed and, from the **Overview** tab, select **Start**.
+
+   :::image type="content" source="media/cfs-iothub-stream-analytics-start.png" alt-text="Screenshot of Stream Analytics job overview.":::
   
 ## Step 7: Set up the simulator (optional)
 
