@@ -1,7 +1,7 @@
 ---
 title: "Identify customers automatically | MicrosoftDocs"
 description: "Learn how to automatically identify customers by using pre-conversation responses in Omnichannel for Customer Service."
-ms.date: 07/19/2022
+ms.date: 07/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -36,8 +36,29 @@ Use the following question names to create pre-conversation questions. To know h
 
 You can automatically identify records using custom context set using the [setContextProvider API](developer/reference/methods/setcontextprovider.md) apart from pre-conversation answers. To programmatically set these values, see [Manage custom context](send-context-starting-chat.md).
 
+## Link customer and case to conversations when bot escalates or ends conversations
+
+When a bot ends a conversation with a customer, the bot can link the case number to the conversation. The bot can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
+
+If a bot conversation needs to be escalated to a human agent, the bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant information is available to the agent in the customer summary section. The escalation summary gives the human agent the background information about the escalation and enables quicker resolution of the customer issue.
+
+To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes will be searched in the corresponding entities such as customer and case, and the result will be linked to the conversation if a single matching record is found. The bot will need to set context parameters for the following that are also set [when the customer is automatically identified](record-identification-rule.md).
+
+| Entity to be linked | Variable name to be set by bot | Attribute for Dynamics 365 entity to match with corresponding variable name in bot |
+|------------|----------------|----------------------|
+|Account|<ul><li> Name</li><li> Email </li><li> Phone</li></ul> |<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul> |
+|Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul>|
+|Case|CaseNumber|ticketnumber|
+||||
+
+For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
+
+
 ### See also
 
 [Create and manage workstreams](create-workstreams.md)  
+[Configure a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Configure Azure bot](configure-bot.md)  
+[Context variables for bots](context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
