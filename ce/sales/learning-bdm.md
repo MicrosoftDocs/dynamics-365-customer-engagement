@@ -1,6 +1,6 @@
 ---
 title: Business and technical decision makers learning catalog for sales 
-description: Find all the training options for business and technical decision makers. 
+description: Learn about the training options available for business and technical decision makers in Microsoft Dynamics 365.
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
