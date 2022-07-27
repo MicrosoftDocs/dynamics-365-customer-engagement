@@ -65,6 +65,10 @@ More information: [Topics dashboard](case-topics-dashboard-cs.md)
 
 ## Information that you need to know about the analytics reports
 
+### About this report
+
+About this report is a link that you can select to view the corresponding documentation.
+
 ### Reports refresh, data retention
 
 The reports refresh shows the following information.
