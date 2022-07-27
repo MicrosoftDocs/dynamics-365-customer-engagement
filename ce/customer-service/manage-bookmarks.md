@@ -14,7 +14,7 @@ manager: shujoshi
 
 Use bookmarks to create and save views of the historical analytics reports. A bookmark captures the state of a report page and includes the settings that you've made to filters, slicers, and visuals on the page. The bookmarks option will help you save multiple bookmarks, set a default bookmark, and select any of the saved views to see the reports based on the context you've selected.
 
-The bookmarks are available for historical analytics and knowledge management analytics only.
+The bookmarks are available for historical analytics and knowledge analytics only.
 
 ## Create and manage bookmarks
 
@@ -47,4 +47,4 @@ The bookmarks are available for historical analytics and knowledge management an
 
 [Customer Service dashboards](customer-service-analytics-insights-csh.md)  
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md)  
-[Knowledge management analytics](knowledge-search-analytics-cs.md)  
+[Knowledge analytics](knowledge-search-analytics-cs.md)  
