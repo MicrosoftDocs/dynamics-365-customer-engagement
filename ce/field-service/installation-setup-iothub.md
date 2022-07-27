@@ -31,14 +31,14 @@ This guide provides all the steps required for getting up and running with Conne
 - An active Azure subscription with appropriate privileges. For more information, see the [article on Azure prerequisites](cfs-azure-subscription.md).
 
 ## Step 1: Install or upgrade Field Service  
- 
+
 Connected Field Service is included with Dynamics 365 Field Service. Creating a new Field Service environment or upgrading an existing one to v7.5.5 or v8.3+ will automatically include the following Connected Field Service entities and related processes:
 
 - Assets
 - IoT alerts
 - Devices
 - Commands
- 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of IoT alerts in the asset menu in the sidebar.](./media/cfs-navigation.png)
 
@@ -46,19 +46,49 @@ Verify you have the Connected Field Service entities in your environment.
 
 ## Step 2: Deploy Connected Field Service and Azure resources
 
-Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and following the instructions.
+Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and deploy the Azure Resource Manager (ARM) template.
 
 <!-- >> [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png) -->
 
-> [!Note]
+> [!NOTE]
 > If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution in your field service environment from the app store.
 
 Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
 
-## Step 3: Authorize Azure app connection
+## Step 3: Create new IoT Provider Instance
 
-Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
+1. Sign into your Dynamics 365 organization and open the Connected Field Service app module.
+
+1. In Connected Field Service, go to the **Settings** area.
+
+image.png
+
+1. Select **Providers** and select **New**.
+
+image.png
+
+1. On the **New IoT Provider Instance** page, fill out the field:
+   - **Name**: Enter the name of the resource group in Azure where you deployed IoT resources.
+   - **IoT Provider**: Choose IoT Hub Provider.
+   - **Provider Instance Id**: Enter the name of the IoT Hub resource that was deployed to your resource group in Azure.
+   - **URL**: Enter the URL of the overview for the resource group in the Azure portal. Example: `https://portal.azure.com/[tenant_info]/subscriptions/[subscription_id]/resourceGroups/[resource_group_name]/overview`.
+
+1. Select **Save** to create the new IoT Provider Instance record.
+
+1. We now need to update the IoT Provider Settings for the newly created provider instance. In the **Settings** area, select **IoT Settings** > **IoT Provider Settings**.
+
+image.png
+
+1. For **Default IoT Provider**, set the **Instance** to the IoT Provider Instance you created previously.
+
+1. Select **Save & Close** to save your changes.
+
+## Step 4: Set up IoT endpoint
+
+## Step 5: Authorize Azure app connection
+
+Connect the Azure IoTHub to your Field Service environment. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
 From there, go to **Resource Groups** and find the resource group you recently deployed IoTHub to. See the following screenshot for reference.
 
@@ -81,10 +111,14 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing active IoT provider instances.](./media/cfs-deploy-providers.png)
-  
-## Step 4: Set up the simulator (optional) 
 
-The simulator will allow you to test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders. 
+## Step 6: Start Azure Stream Analytics job
+
+
+  
+## Step 7: Set up the simulator (optional)
+
+The simulator will allow you to test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders.
 
 Set up the simulator to simulate IoT devices and data and begin to see device data pulled into Field Service.
 
