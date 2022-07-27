@@ -1,7 +1,7 @@
 ---
 title: "Identify customers automatically | MicrosoftDocs"
 description: "Learn how to automatically identify customers by using pre-conversation responses in Omnichannel for Customer Service."
-ms.date: 07/27/2022
+ms.date: 07/28/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -42,7 +42,7 @@ When a bot ends a conversation with a customer, the bot can link the case number
 
 If a bot conversation needs to be escalated to a human agent, the bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant information is available to the agent in the customer summary section. The escalation summary gives the human agent the background information about the escalation and enables quicker resolution of the customer issue.
 
-To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes will be searched in the corresponding entities such as customer and case, and the result will be linked to the conversation if a single matching record is found. The bot will need to set context parameters for the following that are also set [when the customer is automatically identified](record-identification-rule.md).
+To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes will be searched in the corresponding entities such as customer and case, and the result will be linked to the conversation if a single matching record is found. The bot will need to set context parameters for the following that are also set when the customer is automatically identified.
 
 | Entity to be linked | Variable name to be set by bot | Attribute for Dynamics 365 entity to match with corresponding variable name in bot |
 |------------|----------------|----------------------|
