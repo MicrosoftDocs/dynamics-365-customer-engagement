@@ -63,8 +63,7 @@ The template consists of the following process:
 
 The following flow diagram illustrates the steps included in the template.
 
->[!div class="mx-imgBorder"]
->![Sequence flow diagram of the High volume outbound prospecting template](media/st-high-volume-outbound-prospecting.png "Sequence flow diagram of the High volume outbound prospecting template") 
+:::image type="content" source="media/st-high-volume-outbound-prospecting.png" alt-text="Sequence flow diagram of the High volume outbound prospecting template." lightbox="media/st-high-volume-outbound-prospecting-exp.png":::
 
 ## Invite to an upcoming event 
 
@@ -81,8 +80,7 @@ The template consists of the following process:
 
 The following flow diagram illustrates the steps included in the template.
 
->[!div class="mx-imgBorder"]
->![Sequence flow diagram of the Invite to an upcoming event template](media/st-invite-to-an-upcoming-event.png "Sequence flow diagram of the Invite to an upcoming event template") 
+:::image type="content" source="media/st-invite-to-an-upcoming-event.png" alt-text="Sequence flow diagram of the Invite to an upcoming event template." lightbox="media/st-invite-to-an-upcoming-event-exp.png":::
 
 ## Meeting for product demo requests
 
@@ -100,8 +98,7 @@ The template consists of the following process:
 
 The following flow diagram illustrates the steps included in the template.
 
->[!div class="mx-imgBorder"]
->![Sequence flow diagram of the Meeting for product demo requests template](media/st-meeting-for-product-demo-requests.png "Sequence flow diagram of the Meeting for product demo requests template") 
+:::image type="content" source="media/st-meeting-for-product-demo-requests.png" alt-text="Sequence flow diagram of the Meeting for product demo requests template." lightbox="media/st-meeting-for-product-demo-requests-exp.png":::
 
 ## Upcoming account renewal 
 
@@ -121,8 +118,7 @@ The template consists of the following process:
 
 The following flow diagram illustrates the steps included in the template.
 
->[!div class="mx-imgBorder"]
->![Sequence flow diagram of the Upcoming account renewal template](media/st-upcoming-account-renewal.png "Sequence flow diagram of the Upcoming account renewal template") 
+:::image type="content" source="media/st-upcoming-account-renewal.png" alt-text="Sequence flow diagram of the Upcoming account renewal template." lightbox="media/st-upcoming-account-renewal-exp.png":::
 
 ## Webinar follow up 
 
@@ -140,8 +136,7 @@ The template consists of the following process:
 
 The following flow diagram illustrates the steps included in the template.
 
->[!div class="mx-imgBorder"]
->![Sequence flow diagram of the Webinar follow up template](media/st-webinar-follow-up.png "Sequence flow diagram of the Webinar follow up template") 
+:::image type="content" source="media/st-webinar-follow-up.png" alt-text="Sequence flow diagram of the Webinar follow up template." lightbox="media/st-webinar-follow-up-exp.png":::
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
