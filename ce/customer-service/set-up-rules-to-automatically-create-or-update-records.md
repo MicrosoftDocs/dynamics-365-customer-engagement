@@ -1,7 +1,7 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 Customer Service
-ms.date: 08/25/2020
+ms.date: 04/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ ms.custom:
 
 # Set up rules to automatically create or update records
 
-
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.  
 
@@ -287,7 +287,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
    > [!IMPORTANT]
    > - Create a channel property for each name from the name-value pair that you want to use in your record creation and update rule. For example, you could use `influenceScore` as a property name.  
-   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](https://json.parser.online.fr/) that will provide a better output.  
+   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use online JSON parser that will provide a better output.  
    > - The property group doesn’t support adding nested values in a JSON payload as channel properties. The following sample shows the "FollowersCount" under the user node as a nested JSON key-value pair.  
    > 
    > ![Nested value in JSON payload.](../customer-service/media/crm-ua-json-payload-nested-values.png "Nested value in JSON payload")  

@@ -154,7 +154,7 @@ As you can see, the "WONumber" variable takes the **Primary Name** field value o
 
 
 > [!Note]
-> **Deep linking in production instances:** By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files included in the Field Service Mobile project. These folders and files may be updated as new mobile projects when released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing citical new functionality or 2) overwriting your JavaScript file and losing the deep link functionality. To avoid this, use a custom folder and JavaScript file separate from the **WorkOrder** folder an WorkOrder.js file in production instances. 
+> **Deep linking in production instances:** By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files included in the Field Service Mobile project. These folders and files may be updated as new mobile projects when released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing critical new functionality or 2) overwriting your JavaScript file and losing the deep link functionality. To avoid this, use a custom folder and JavaScript file separate from the **WorkOrder** folder an `WorkOrder.js` file in production instances. 
 
 **Save** and **Publish** the mobile project.
 

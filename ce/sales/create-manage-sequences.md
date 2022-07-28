@@ -12,14 +12,15 @@ manager: shujoshi
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Use sequence designer
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
 
 As a sequence manager, you can use the sequence designer to do the following tasks:  
 - [Create and activate a sequence](create-and-activate-a-sequence.md).

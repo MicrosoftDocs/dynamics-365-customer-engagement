@@ -1,7 +1,7 @@
 ---
 title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Use this topic to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 06/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -58,10 +58,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -146,11 +143,11 @@ To create a WhatsApp channel, follow these steps:
 
 2. In the **New WhatsApp** page, do the following.
 
-    | Section | Field | Description | Example  value |
-    |-------------|-------------------|---------------------------|--------------------------------------|
-    | Twilio account details |Name| Specify a name for the WhatsApp channel.| WhatsApp channel |
-    | Twilio account details |Account SID | Fetch the value from your Twilio account and paste it here. | AC9a805fb460119c9baabb9b726ce8fc90 |
-    | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
+    | Section | Field | Description |
+    |-------------|-------------------|---------------------------|
+    | Twilio account details |Name| Specify a name for the WhatsApp channel.|
+    | Twilio account details |Account SID | Fetch the value from your Twilio account and paste it here. |
+    | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. |
 
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel.](media/whatsapp-channel-1.png "Create a WhatsApp channel")
@@ -253,14 +250,14 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
 
 ### See also
 
-[Understand and create workstreams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Skill-based routing](overview-skill-work-distribution.md)<br>
-[Create message templates](create-message-templates.md)<br>
-[Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](work-streams-introduction.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Skill-based routing](overview-skill-work-distribution.md)  
+[Create message templates](create-message-templates.md)  
+[Templates](/dynamics365/app-profile-manager/templates-overview)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

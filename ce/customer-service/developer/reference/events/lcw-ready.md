@@ -37,6 +37,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [lcw:onMessageReceived](lcw-onMessageReceived.md)  
 [lcw:onMessageSent](lcw-onMessageSent.md)  
 [lcw:threadUpdate](lcw-threadUpdate.md)   
-[JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK reference](../../omnichannel-reference.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)] 

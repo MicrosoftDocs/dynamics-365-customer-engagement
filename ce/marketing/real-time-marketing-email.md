@@ -1,7 +1,7 @@
 ---
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,7 +19,7 @@ search.app:
 
 # Create real-time marketing emails
 
-The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails.md). As with the outbound marketing email editor, the real-time marketing editor allows you to quickly create dynamic emails to capture your customers' attention. 
+The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails.md). As with the outbound marketing email editor, the real-time marketing editor allows you to quickly create personalized emails to capture your customers' attention.
 
 Learn more about creating email in Dynamics 365 Marketing: [Create a new email and design its content](email-design.md)
 
@@ -36,9 +36,9 @@ The real-time marketing email editor has a new assist edit control to bind perso
 1. Create a placeholder by adding a text field and then selecting the **Personalization** button ![Personalization button.](media/real-time-marketing-personalization.png "Personalization button") in the toolbar.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, a **Trigger**, or **Compliance**.
 1. After choosing the data source, you can search for the specific attribute or trigger you are looking for.
-1. Add a **Label** to quickly identify your token in the message content.
-1. Personalized tokens are highlighted in the content designer.
-1. You can see and edit all your tokens in the **Personalize** tab in the **Toolbox**.
+1. Add a **Label** to quickly identify your dynamic text in the message content.
+1. Personalized dynamic text is highlighted in the content designer.
+1. You can see and edit all your dynamic text in the **Personalize** tab in the **Toolbox**.
 
 > [!div class="mx-imgBorder"]
 > ![Email editor screenshot.](media/real-time-marketing-email-editor.png "Email editor screenshot")
@@ -63,3 +63,18 @@ Add feature-rich links to emails by directly linking to documents stored in the 
 
 > [!div class="mx-imgBorder"]
 > ![File select screenshot.](media/real-time-marketing-email-file-link.png "File select screenshot")
+
+### Link to surveys, events, marketing pages, Microsoft Teams events, or calendar items
+
+Using images or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
+
+The **Link to** dropdown allows the following options for Team check-ins and calendar items:
+
+- **Teams check-in**: You can select a specific Teams event or session that your button or image should link to.
+- **Add to Calendar**: You can link to an iCalendar file. You can choose the information you want to include in the iCalendar file using the **What should be added to calendar** dropdown. The options include:
+    - **Only the event**: The iCalendar file will contain only the event the contact has registered for.
+    - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
+    - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.

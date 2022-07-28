@@ -1,8 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 11/04/2021
-
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-marketing
   - intro-internal
@@ -23,18 +22,23 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RWNgjy" frameborder="0" allowfullscreen=""></iframe></div>
 
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
+
 Dynamics 365 Marketing elevates customer experiences, allowing you to orchestrate personalized journeys across all touchpoints to strengthen relationships and earn loyalty. The Dynamics 365 Marketing app works seamlessly with Dynamics 365 Sales, Dynamics 365 Customer Insights, Microsoft Teams, and other products and allows you to make faster and better decisions using the power of data and AI.
 
 Dynamics 365 Marketing consists of two primary modules, along with event management. Both modules include capabilities to create graphical email and design interactive customer journeys to support marketing initiatives.
 
+> [!IMPORTANT]
+> The *Dynamics 365 for Customer Engagement* SKU/license (which included Dynamics 365 for Marketing) was deprecated in October 2019. Dynamics 365 for Customer Engagement licenses purchased prior to that date are now expiring. Learn more about the deprecation, including how to purchase a new license and migrate your data: [Deprecation: Dynamics 365 for Customer Engagement](ce-deprecation.md).
+
 ## Real-time marketing
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an real-time marketing event-based journey.](media/overview-live-journey.png "Screenshot of an real-time marketing event-based journey")
+> ![Screenshot of an real-time marketing trigger-based journey.](media/overview-live-journey.png "Screenshot of an real-time marketing trigger-based journey")
 
-Also known as customer journey orchestration, real-time marketing includes [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
+Also known as customer journey orchestration, real-time marketing includes [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md), [custom triggers](real-time-marketing-custom-triggers.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
 
-- **Respond to customer actions in real time**: Respond in the moments that matter with real-time, event-based journeys.
+- **Respond to customer actions in real time**: Respond in the moments that matter with real-time, trigger-based journeys.
 - **Hyper-personalize your messaging**: Personalize messages with dynamic text and images from a flexible set of data sources.
 - **Connect with customers on the channels they use the most**: Use mobile channels to create text messages and push notifications to reach your customers where they are.
 

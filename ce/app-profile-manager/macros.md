@@ -4,7 +4,7 @@ description: "This topic provides information about the different macros that ca
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/03/2022
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
@@ -339,10 +339,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Agent experience**, select **Productivity**.
     

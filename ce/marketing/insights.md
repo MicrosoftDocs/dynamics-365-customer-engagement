@@ -1,8 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 10/04/2021
-
+ms.date: 05/20/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -32,6 +31,9 @@ Dynamics 365 Marketing keeps track of the way your contacts react to your variou
 - Marketing forms
 - Websites
 - Redirect URLs
+
+> [!NOTE]
+> To learn how to access and interpret analytics in real-time marketing, see the [Access and interpret analytics](real-time-marketing-analytics.md) article.
 
 ## Open and use the insights
 

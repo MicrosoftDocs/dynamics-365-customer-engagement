@@ -15,12 +15,11 @@ ms.custom:
 Use grids (views) and lists to browse and manage various data sets in Dynamics 365 Sales to improve your productivity.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What can you do in a view?
 
@@ -46,7 +45,7 @@ A typical view page contains these components:
 
 - **View selector:** When you select a view such as Accounts, My Activities, or Contacts, records in the grid change based on the view you’ve selected.
 
-    More information: [Create and edit views](../customerengagement/on-premises/customize/create-edit-views.md).
+    More information: [Create and edit public or system views](/powerapps/maker/model-driven-apps/create-or-edit-model-driven-app-view).
 
     > [!NOTE]
     > To configure a view as the default, select the pin icon next to the view.

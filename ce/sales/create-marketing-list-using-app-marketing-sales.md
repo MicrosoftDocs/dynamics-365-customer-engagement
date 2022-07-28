@@ -32,12 +32,11 @@ Your marketing list is the core of running a successful marketing campaign. It c
 - **Dynamic** Use a dynamic marketing list if you want the list to return a list of members dynamically when needed, based on search criteria you set. For example, if you want to run a campaign to members of a specific city, use a dynamic list. A dynamic marketing list retrieves the updated list of members each time you open the list, create a quick campaign from the list, or distribute a campaign activity for a campaign associated with the list.  
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
   
 ## Create a marketing list  
   
@@ -67,6 +66,11 @@ You can manage members in a static marketing list by using one of the following 
 - [Add using Advanced Find](#add-using-advanced-find)
 - [Remove using Advanced Find](#remove-using-advanced-find)
 - [Evaluate using Advanced Find](#evaluate-using-advanced-find)
+
+> [!NOTE]
+> - To add more than 30,000 members to a static marketing list, you must either be a part of the Salesperson security role or higher, or have the **List Operation** permission.
+> :::image type="content" source="media/listoperation.png" alt-text="Listoperation permission in the custom entities tab.":::
+> - You can add up to 120,000 members to a static marketing list through a single Add operation. If you need to add more than 120,000 members to a static marketing list, split those members and perform multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)
 
 ### Add using Lookup
 
@@ -139,8 +143,6 @@ This option allows you to evaluate which members to keep in the marketing list b
     - Keep only selected  
     - Keep all  
 
-> [!NOTE]
-> You can add up to 120,000 members to a static marketing list in one Add operation. If you need to add more than 120,000 members to a static marketing list, split those members into multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)
 
 ## Define the member selection criteria for a dynamic marketing list  
   
@@ -165,7 +167,7 @@ After you have created a campaign or quick campaign, you can associate it to you
 2.  Search for the campaign or quick campaign you want to associate to this marketing list.  
   
     > [!NOTE]
-    > - If you don't have any campaigns, or if you want to create a new one, you can select **+ New**.  
+    > - If you don't have any campaigns, or if you want to create a new one, you can select **New**.  
     > - If you don't have any quick campaigns, the Quick Campaign Wizard will start.  
   
 ## Customized marketing list form

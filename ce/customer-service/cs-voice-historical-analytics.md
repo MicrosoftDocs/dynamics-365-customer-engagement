@@ -3,7 +3,7 @@ title: "Configure historical analytics for voice | MicrosoftDocs"
 description: Learn about how to configure historical analytics the voice channel in Omnichannel for Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 11/02/2021
+ms.date: 04/04/2022
 author: gandhamm
 ms.author: mgandham
 manager: shujoshi
@@ -18,16 +18,13 @@ ms.topic: article
 
 ## Introduction
 
-To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics for voice** in the Customer Service admin center (preview) or Omnichannel admin center app.
+To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics for voice** in the Customer Service admin center or Omnichannel admin center app.
 
 ## Enable historical analytics for voice
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.

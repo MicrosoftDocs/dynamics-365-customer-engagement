@@ -4,7 +4,6 @@ description: "Learn about creating custom themes in Dynamics 365 Customer Engage
 s.custom: 
 ms.date: 02/15/2019
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -140,8 +139,7 @@ The following screenshot shows the default theme setup.
   
 ### See also  
          
- [Video: Themes in Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?LinkId=529568)
- [Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
+[Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
 
 
 

@@ -23,15 +23,18 @@ manager: shujoshi
 
 If your administrator has enabled AI suggestions for similar cases and configured the ability to link chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
+> [!NOTE]
+> Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+
 More information: [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
 
 ## Collaborate with AI-suggested contacts in Microsoft Teams
 
-In Customer Service workspace, when you open a case, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case you're viewing are displayed.
+The AI-suggested contacts in Microsoft Teams functionality is applicable for cases and support conversations in the Customer Service workspace and Omnichannel for Customer Service apps.
+
+For a case or a support conversation, **Teams chat (Preview)** appears in the app side pane on the right. 
 
 :::image type="content" source="media/teams-new-linked-chat.png" alt-text="New linked chat option in Teams.":::
-
-If no similar cases exist, a message is displayed that no suggested contacts can be found.
 
 You can do the following:
 
@@ -41,16 +44,18 @@ You can do the following:
    - If AI-suggested contacts is enabled, a **Resolved similar cases** section is displayed in the dropdown list.
    
         :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
+        
+        > If no similar cases exist, a message is displayed that no suggested contacts can be found.
    
    - Each AI-suggested contact is displayed with the following details: 
        - Full name
        - Display picture if available
        - Link to the top similar case, which is displayed under the contact’s full name. “Worked on similar case `<similar case title>`. Agents can select the link to view the similar case.
-       - Confidence score that indicates how confident the AI model thinks the suggested contact can help on the active case.
+       - Confidence score that indicates how confident the AI model thinks the suggested contact can help on the active case or conversation.
    
    - The confidence score is based on multiple factors:
        - Number of similar cases that the suggested contact resolved.
-       - The similarity of the similar cases to the active case.
+       - The similarity of the similar cases to the active case or conversation.
        - How recent the suggested contact resolved the similar cases.
        - The average time that the suggested contacts use to resolve similar cases.
    
@@ -65,7 +70,7 @@ You can do the following:
 
 3. Optionally, you can edit the group name.
 
-The participants who receive the chat message get a link to the case record for which you started the chat. The participant can select the link and open the case to view the details.
+If the Teams chat is created for an active case, the participants who receive the chat message get a link to the case record for which you started the chat. The participant can select the link and open the case to view the details.
 
 ### See also
 

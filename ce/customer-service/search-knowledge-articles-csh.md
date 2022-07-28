@@ -1,10 +1,10 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 02/11/2022
+ms.date: 07/14/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -37,8 +37,7 @@ Dataverse search uses Azure search service to index and search records. Datavers
 
 
 > [!NOTE]
-> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If Dataverse search is not enabled for the entity, standard full-text search is used. 
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization). Once Dataverse search is enabled, irrespective of whether the knowledge article entity is enabled or disabled, Dataverse search will be used.
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
@@ -122,12 +121,9 @@ Type a keyword in the search field to search for knowledge articles.
   |1.| The Knowledge search field.|
   |2.| Status and visibility tags for the article.|
   |3.| The number of times the article has been viewed. |
-  |4.| Article number (Preview)|
-  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview) |
-  |6.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
-
-  > [!NOTE]
-  > The article number, info card that displays search term matches across custom fields, and search results across attachments are in preview.
+  |4.| Article number.|
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields.|
+  |6.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
 
 - If Dataverse search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
@@ -201,18 +197,15 @@ Knowledge articles can be configured with their portal URLs, and then agents can
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
-You can configure a knowledge base article URL in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can configure a knowledge base article URL in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Support portal connection** section.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  1. On the **Knowledge** page, go to the **Portals** section and select **Manage**. The **Portal** page appears.
-  1. On the **Portals** page, go to the **Support portal connection** section.
+  1. On the **Knowledge** page, go to the **Portal** section and select **Manage**. The **Portal** page appears.
+  1. On the **Portal** page, go to the **Support portal connection** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 

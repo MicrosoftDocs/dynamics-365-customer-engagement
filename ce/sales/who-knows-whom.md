@@ -1,7 +1,7 @@
 ---
 title: "Who Knows Whom in Dynamics 365 Sales"
 description: "Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact."
-ms.date: 10/31/2018
+ms.date: 07/06/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,12 +12,11 @@ manager: shujoshi
 Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What is who knows whom?
 
@@ -116,7 +115,7 @@ After you opt out of the connection graph, Sales Insights won't analyze your dat
 
 ### See also
 
-[Configure who knows whom](configure-who-knows-whom.md)
+[Configure who knows whom](configure-who-knows-whom.md)  
 [Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

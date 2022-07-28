@@ -2,7 +2,6 @@
 title: "Troubleshoot customer journey customization errors (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use the recovery items tab to troubleshoot customer journey custom workflows in Dynamics 365 Marketing."
 ms.date: 04/21/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

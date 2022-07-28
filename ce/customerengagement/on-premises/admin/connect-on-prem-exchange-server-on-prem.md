@@ -37,8 +37,8 @@ Follow these steps to connect Dynamics 365 (on-premises) with Microsoft Exchange
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col />
+    <col />
     </colgroup>
     <thead>
     <tr class="header">

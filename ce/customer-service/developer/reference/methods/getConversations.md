@@ -1,8 +1,8 @@
 ---
 title: "getConversations (Omnichannel JavaScript API reference) | MicrosoftDocs"
-description: "Includes information about getConversations method, syntax, and parameters in Omnichannel JavaScript API reference."
+description: "Includes reference information about getConversations method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 07/12/2021
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -67,11 +67,12 @@ Microsoft.Omnichannel.getConversations(input).then(result => {
  
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
+[Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
 [unlinkFromConversation](unlinkFromConversation.md)  
 [openConversation](openConversation.md)   
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -70,7 +70,7 @@ OData-Version: 4.0
 }  
 ```
 
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Query Data using the Web API](../webapi/query-data-web-api.md).
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Query Data using the Web API](/powerapps/developer/data-platform/webapi/query-data-web-api).
   
 <a name="BKMK_EditAndPublish"></a>
 

@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 02/16/2022
+ms.date: 07/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ searchScope:
 
 # Assignment methods in unified routing
 
-Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
+Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service admin center, Customer Service Hub, or Omnichannel admin center app.
 
 ## Types of assignment methods
 
@@ -31,9 +31,9 @@ The following assignment methods are available out of the box:
 
   If you need to distribute  work fairly among agents, then you should consider switching to round robin assignment strategy.
 
-- **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
+- **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-You can also create your own assignment method to suit the business needs.
+You can also create a custom assignment method to suit your business needs.
 
 - **Create new**: Lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
@@ -41,7 +41,7 @@ You can also create your own assignment method to suit the business needs.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
   
   > [!IMPORTANT]
-  > You must configure skill-matching rules in the custom assignment method because the **Default skill matching algorithm** settings of the workstream won't be used in custom assignment method.
+  > You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
 
 ### Assignment cycle
 
@@ -68,7 +68,7 @@ As an example, consider the prioritization ruleset as seen in the following scre
 
 - During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they are listed.
 
-- The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "‘"Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
+- The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
 
 - The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out".
 
@@ -91,8 +91,9 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 :::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
 
-In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest last assignment time. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
+In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest time of the last assignment. In other words, the agent who has been idle for the longest time since their last assignment. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
 
+However, if there's a tie between the availability of agents, the agent who has been idle for the longest time will be assigned the work item if all other conditions remain the same.
 
 ### Components of an assignment rule
 

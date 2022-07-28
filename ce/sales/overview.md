@@ -10,7 +10,11 @@ manager: shujoshi
 ---
 # Overview of Dynamics 365 Sales 
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
+Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -91,7 +95,7 @@ Engage and interact with your customers at the right time and place, using metho
 | Communicate with effective call techniques | Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. | Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md)<br>Seller: [View and understand call summary page](view-and-understand-call-summary.md) |
 | Connect across channels | Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. | Administrator:<br> - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email.md)<br>Seller:<br> - [Call a customer](connect-with-customers.md#call-a-customer)<br> - [Send email using the enhanced email experience](enhanced-email.md) |
 | Meet and collaborate virtually | Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration)|
-| Gather and act on customer feedback | See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. | [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub) |
+| Gather and act on customer feedback | See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. | [Dynamics 365 Customer Voice documentation](/dynamics365/customer-voice/help-hub) |
 
 
 ### Build relationships   

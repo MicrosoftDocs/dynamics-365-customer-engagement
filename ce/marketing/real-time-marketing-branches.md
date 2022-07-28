@@ -2,7 +2,6 @@
 title: "When to use attribute versus if/then branches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to select the correct branching to use for real-time journeys in Dynamics 365 Marketing."
 ms.date: 01/12/2022
-
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -47,7 +46,7 @@ Actual dates add contacts to a journey on a specific day, month, and year, so th
 
 Now, let’s assume you are creating an onboarding journey. You might start the journey with an event when an opportunity is created and send two different messages when the opportunity is won versus when it’s still open.
 
-You can use an attribute branch to check the attribute values for a trigger that starts an event-based journey.
+You can use an attribute branch to check the attribute values for a trigger that starts a trigger-based journey.
 
 > [!div class="mx-imgBorder"]
 > ![Trigger attribute screenshot.](media/real-time-marketing-branches-trigger.png "Trigger attribute screenshot")

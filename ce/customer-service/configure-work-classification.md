@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 03/04/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ In unified routing, work classification lets you define rules to add detailed in
 
 Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
 
-Work classification rules can be written by using the manual declarative decision list or by using machine learning models.
+Work classification rules can be written by using the logical declarative decision list or by using machine learning models.
 
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
@@ -45,13 +45,13 @@ For a rule item, you can set the output values for up to five attributes.
 
 ## Create work classification rulesets
 
-Manual classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. Routing rules are written as rulesets that consist of rule items.
+Logical classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. Routing rules are written as rulesets that consist of rule items.
 
-To create a manual work classification ruleset, do the following steps:
+To create a logical work classification ruleset, do the following steps:
 
-1. In Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
+1. In Customer Service admin center, Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
-2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Rule Type** as **Manual**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
+2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
 
 3. In the **Decision list** area, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
@@ -63,19 +63,19 @@ To create a manual work classification ruleset, do the following steps:
 
 6. Repeat steps 3 through 5 to create the demand rules.
 
-   ![Decision list for manual ruleset.](media/ur-decision-list-manual.png "Decision list for manual ruleset")
+   ![Decision list for logical ruleset.](media/ur-decision-list-manual.png "Decision list for logical ruleset")
 
-## Create manual skill classification rulesets
+## Create logical skill classification rulesets
 
-Skill attachment rules are a sub-type of manual work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
+Skill attachment rules are a sub-type of logical work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
-Follow these steps to create a manual skill classification ruleset:
+Follow these steps to create a logical skill classification ruleset:
 
 1. For the selected workstream, in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
 2. On the **Work classification** page, select **Create new**.
 
-3. In the **Create work classification ruleset** dialog, select  **Rule Type** as **Manual**, and enter a name and description.
+3. In the **Create work classification ruleset** dialog, select **Logical rule** in **Rule type**, and enter a name and description.
 
 4. Select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
@@ -87,7 +87,7 @@ Follow these steps to create a manual skill classification ruleset:
 
 6. In the **Output** area, select the attribute whose value will be set if the conditions are met.
 
-7. If you want to manually set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
+7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
    > Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
@@ -96,10 +96,10 @@ Follow these steps to create a manual skill classification ruleset:
 
 Create work classification rulesets that are based on capacity profiles to route work items to agents based on capacity.
 
-1. Perform the steps 1 through 5 in [Create manual skill classification rulesets](#create-manual-skill-classification-rulesets).
+1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
+   :::image type="content" source="media/capacity-profile-based-rule.png" alt-text="Capacity profile-based work classification rule.":::
 
-   > ![Capacity profile-based work classification rule.](media/capacity-profile-based-rule.png "Capacity profile-based work classification rule.")
 
 ## Create machine learning-based skill classification rulesets
 
@@ -109,15 +109,13 @@ To configure a skill classification ruleset by using the machine learning option
 
 Do the following to configure a machine learning-based ruleset:
 
-1. In Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
+1. In Customer Service admin center, Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
 
 2. On the **Work classification** page, select **Create new**.
 
 3. In the **Create work classification ruleset** dialog, select **Rule Type** as **Machine learning model**, and enter a name and description.
 
 4. Select a model in the **Select skill identification model** list, and select **Create**.
-
-   ![Machine learning skill ruleset.](media/ur-ml-skill-ruleset.png "Machine learning skill ruleset")
 
 5. On the page that appears, in the **Input attributes** area, select **Add attribute**, and select the attributes from the **Attributes** or **Related Entities** category. For an incoming work item, these attribute values will be concatenated and sent to the machine learning model for skill prediction.
 
@@ -142,27 +140,76 @@ You can create rules that are based on the effort estimation model to classify w
 
 ## Configure route-to-queues rulesets and rules
 
-Queue routing rules send the work item to the right queue. They are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." They are optional, and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all of the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
+Queue routing rules send the work item to the right queue. They are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." They are optional, and if no rules are defined or no rules match, then the incoming work item will be routed to the fallback queue of the respective workstream. For a workstream, the route-to-queue ruleset is run after all of the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
 
 After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
 
 When no rule condition is matched or no rule is defined, the work item is assigned to the default queue.
 
-1. In Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
+1. In Customer Service admin center, Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
 2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**. By default, the root record is selected and displayed at the top of the condition builder.
 
 3. In **Conditions**, define the set of conditions. If you are creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
 
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
-   > [!NOTE]
-   > Make sure that you don't select the **Default messaging queue** or **Default entity queue** in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues)
-
+  
    :::image type="content" source="media/ur-route-to-queue-decision.png" alt-text="Configure route to queue decision rules.":::
 
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
 
 6. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+
+### Engagement context for asynchronous channels
+
+You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
+
+- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
+
+- **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
+
+   - **Customer name**: The customer name is shown in the format "first name, last name".
+   - **Locale**: For a list of locales, see Facebook developer documentation.
+   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
+   - **User Page Scoped Id**: This is shown as a number string.
+
+- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
+
+   - Entry point
+   - Place id
+   - Resolved locale
+   - User device locale
+
+- **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
+
+  - Group id
+  - Intent id
+  - Locale
+
+- **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
+
+- **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
+
+  - Customer name
+  - Gender
+  - City
+  - Province
+  - Country
+
+- **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
+
+- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
+  - Customer name
+  - Customer screen name
+  - Followers count
+  - Friends count
+
+- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
+  - Customer phone number
+  - Org phone number
+  - Locale
+  - Provider
+  - Provider display name
 
 ## Options available for rulesets
 

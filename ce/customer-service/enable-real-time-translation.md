@@ -1,7 +1,7 @@
 ---
 title: "Enable translation settings in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Steps for enabling language translation for customer chats in the Omnichannel for Customer Service app."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,18 +26,17 @@ All the languages that are supported in Omnichannel for Customer Service are sup
 
 ## Prerequisites
 
-You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
+- You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
+
+- Enable call recordings and transcripts for the translated voice call transcripts to be displayed. See: [Enable call recordings and transcripts for voice](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice)
 
 ## Enable real-time translation for agent and customer conversations
 
-You can enable real-time translation in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can enable real-time translation in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      2. In the **Real-time translation** section, select **Manage**.

@@ -248,12 +248,12 @@ Before customizing the template app, read the following information and perform 
 
 4. In the left dropwdown menu under Transformation Data, select **Edit Paramaters**.
 
-5. In the source definition, replace **https://kucustomerservice.crm.dynamics.com/api/data/v9.1** with your apps instance URL.
+5. In the source definition, replace `**https://kucustomerservice.crm.dynamics.com/api/data/v9.1**` with your apps instance URL.
 
     Example: if the organization name is Contoso, the URL looks like this:
-    Source = https://contoso.crm.dynamics.com/api/data/v9.1/
+    Source = `https://contoso.crm.dynamics.com/api/data/v9.1/`
     
-    For GCC users the format is: **https://yourserver.crm9.dynamics.com/api/data/v9.1**
+    For GCC users the format is: `**https://yourserver.crm9.dynamics.com/api/data/v9.1**`
     
 7. Select **Done**.
 

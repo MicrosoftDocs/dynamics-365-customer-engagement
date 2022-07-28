@@ -19,7 +19,7 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
 
 To configure options to download and email chat transcripts for both customers and agents
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, select the workstream of the chat widget in which you need to configure the settings.
+1. In Customer Service admin center or Omnichannel admin center, select the workstream of the chat widget in which you need to configure the settings.
 
 2. Select **Edit** for the chat channel that you need to update, and select the **User features** tab.
 

@@ -12,12 +12,11 @@ manager: shujoshi
 The Dynamics 365 Sales mobile app uses the quick view form to display table details. This is a lightweight form that doesn't include all attributes of the table. More information: [Create a quick view form](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System administrator <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
+| **Security roles** | System administrator <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
+
 
 
 ## How does quick view form work for the mobile app?
@@ -29,7 +28,7 @@ If you've created multiple quick view forms, the mobile app uses the first form 
 |1|Contact quick view form one|
 |2|Contact quick view form two|
 |3|Contact quick view form three|
-|||
+
 
 In this example, the mobile app displays information based on the fields defined in **Contact quick view form one**.
 

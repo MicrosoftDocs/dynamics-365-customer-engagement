@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 11/01/2021
+ms.date: 06/09/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -30,7 +30,7 @@ Make sure that Omnichannel for Customer Service is available in your region. Mor
 
 - You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant for each user of Digital Messaging or Chat for Dynamics 365 Customer Service.
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
-- Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
+- Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a supervisor role.
 
 ## System requirements for Omnichannel for Customer Service
 
@@ -40,11 +40,12 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app 9.2.21034.00160 or later.  |
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
-|Azure Communication Services|Required for 1st party voice and SMS in the voice channel in production environments. |
+| Azure Communication Services |Required for 1st party voice and SMS in the voice channel in production environments. |
 | Hardware | Microphone and speakers for the voice experience. |
+| Internet bandwidth for voice and video |<ul><li>**Minimum:** 500 KBps upload speed; 1 MBps download speed</li><li>**Recommended:** 1 MBps upload speed; 2 MBps download speed</li></ul> |
 |||
 
-For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements).
 
 ### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
 
@@ -151,7 +152,7 @@ The Government community cloud links that should be made accessible are as follo
 ### See also
 
 [Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
-[Administrator guide](omnichannel-administrator.md)  
+[Get started with Customer Service admin center](cs-admin-center.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service](omnichannel-customer-service-app-agent.md)  
 [System customizer guide](omnichannel-customizer.md)  

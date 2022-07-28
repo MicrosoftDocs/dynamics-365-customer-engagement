@@ -1,6 +1,6 @@
 ---
 title: "Configure automatic closure of conversations | MicrosoftDocs"
-description: "Use this topic to understand how to configure the auto-close duration of conversations using the Web API."
+description: "Use this article to understand how to configure the auto-close duration of conversations using the Web API."
 ms.date: 11/18/2021
 ms.topic: reference
 author: neeranelli
@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic demonstrates how you can configure the auto-close duration of a conversation using the Web API. 
+This article demonstrates how you can configure the auto-close duration of a conversation using the Web API. 
 
 Use the following `GET` request to fetch all the configuration records that have been defined out of the box. 
 

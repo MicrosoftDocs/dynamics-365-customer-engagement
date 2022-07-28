@@ -1,16 +1,14 @@
 ---
-title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel Administration app"
+title: "Manage notification templates | MicrosoftDocs"
+description: "Learn about managing notification templates in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/11/2022
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage notification settings and templates
-
-## Introduction
 
 When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
@@ -123,10 +121,7 @@ The out-of-the-box templates are as follows.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
      1. In the site map, select **Workspaces** in **Agent experience**.
      2. On the **Workspaces** page, select **Manage** for **Notification templates**.

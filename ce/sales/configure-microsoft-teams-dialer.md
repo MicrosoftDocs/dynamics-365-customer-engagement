@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
 description: "How to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 01/10/2022
+ms.date: 06/09/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -18,15 +18,14 @@ ms.custom:
 Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within Dynamics 365 Sales app.
 
 > [!NOTE]
-> You can also enable Teams dialer through quick setup (with the Dynamics 365 Sales Enterprise license). More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+> You can also enable Teams dialer through quick setup (with the Dynamics 365 Sales Enterprise license). More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## How to configure the dialer
 
@@ -61,12 +60,20 @@ Review the following requirements before you configure Microsoft Teams dialer in
     
     > [!div class="mx-imgBorder"]
     > ![Enable the preview.](media/teams-dialer-enable-preview.png "Enable the preview") 
-5.	In the **Security role** section, select one of the following options to provide permissions to users to view Microsoft Teams dialer. 
+5.	In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer. 
 
     | Option | Description |
     |--------|-------------|
-    | All security roles | This option provides access to view Microsoft Teams dialer to users in all the security roles in your organization. |
-    | Specific security roles | This option allows you to specify security roles when you want to give access to view Microsoft Teams dialer to specific users.<br>**Note**: Verify that the security roles you select are associated with the root business unit (top level of a business unit hierarchy). If not, the security roles will not see the Teams dialer. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units) |
+    | All security roles | Allows all the security roles to access Microsoft Teams dialer. |
+    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you’ve selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)|
+    
+    >[!NOTE]
+    >- Ensure that users who need to access the Teams dialer are assigned to the selected security roles. More information: [Assign a security role to a user](/power-platform/admin/assign-security-roles)
+    >- Ensure that the selected security roles have read privileges to the following records in manage security roles page: 
+    > - Under the **Core Records** tab, read access to **Note**
+    > - Under the **Custom Entities** tab, read access to **Teams Dialer Admin settings**
+    >More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+    >- Ensure that the security roles you've selected can access the Teams dialer. More information: [Configure the dialer](configure-microsoft-teams-dialer.md#configure-the-dialer)
 
     > [!div class="mx-imgBorder"]
     > ![Select security roles.](media/teams-dialer-select-security-roles.png "Select security roles")

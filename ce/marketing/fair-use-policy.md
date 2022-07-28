@@ -48,7 +48,7 @@ The following tables show the current usage limits for Marketing features.
 | Data sync  | Number of rows in a single [synchronized table](./mkt-settings-sync.md) (for example, number of Marketing contacts). | 30,000,000 rows                                        |
 | Data sync  | Total rows across all [synchronized tables](./mkt-settings-sync.md).| 100,000,000 rows                                        |
 | Segment-based journeys          | Number of contacts in a segment used in a real-time marketing journey.          | 3,300,000 members                |
-| Latency of event-based journeys          | Time from when a trigger is activated to completing first step in the journey.          | < 2 minutes with up to 700 triggers activated per minute.<br>If the total number of triggers activated across your environment exceeds 700 per minute, the time to complete the first step will increase linearly.                |
+| Latency of trigger-based journeys          | Time from when a trigger is activated to completing first step in the journey.          | < 2 minutes with up to 700 triggers activated per minute.<br>If the total number of triggers activated across your environment exceeds 700 per minute, the time to complete the first step will increase linearly.                |
 
 ## Event management
 

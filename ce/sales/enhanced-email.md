@@ -12,12 +12,11 @@ manager: shujoshi
 The enhanced email experience in customer engagement apps allows users to compose an email without leaving the record they're working on.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What can I do with email experience?
 
@@ -62,7 +61,7 @@ For more information about the email functionality, see [Understand the email ex
 ### See also
 
 [Set up enhanced email](set-up-enhanced-email.md)<br>
-[Troubleshooting issues with email](ts-email.md)
+[Troubleshooting issues with email](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

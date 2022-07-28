@@ -82,7 +82,7 @@ Publishing customizations makes the Web application aware of changes to the data
  [Publish request schema](publish-request-schema.md)   
  [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)   
  [Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)   
- [Customize Global Option Sets in Microsoft Dynamics 365 Customer Engagement](../org-service/customize-global-option-sets.md)   
+ [Customize Global Option Sets in Microsoft Dynamics 365 Customer Engagement](/powerapps/developer/data-platform/org-service/metadata-option-sets)   
  [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)   
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Open Forms, Views, and Dialogs with a URL](../open-forms-views-dialogs-reports-url.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Understand team overview feature in conversation intelligence"
 description: "Analyze sales calls and overall behavior of your team during customer calls to improve sales and generate revenue in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 06/27/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: c631cfc1-ed6b-41e1-a1aa-3437a344ef22
@@ -19,12 +19,11 @@ topic-status: Drafting
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Analyze your team's behavior
 
@@ -60,7 +59,7 @@ To view the **Teams overview** page, sign in to  **Conversation intelligence**, 
 
 [First-run set up experience](fre-setup-sales-insight-app.md)
 
-[Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+[Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

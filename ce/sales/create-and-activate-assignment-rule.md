@@ -12,12 +12,11 @@ manager: shujoshi
 Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Introduction
 
@@ -30,18 +29,16 @@ When a lead or opportunity record is created in an organization, assignment rule
 
 ## To create and activate an assignment rule
 
-1. Sign in to your Dynamics 365 Sales Hub app.
-
-2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3. Under **Sales accelerator**, select **Assignment rules**.
-
-4. On the **Assignment rules** page, select **+ New rule** and then select **Lead assignment rule**.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Assignment rules**.    
+4. On the **Assignment rules** page, from the **Rule** tab, select **New rule** > **Lead assignment rule**.
 
    >[!div class="mx-imgBorder"]
    >![Select the lead assignment rule option from a new rule.](media/sa-ar-create-assignment-rule-select-lead.png "Select the ead assignment rule option from a new rule")   
 
     The **Create assignment rule** pane opens.    
+
     >[!div class="mx-imgBorder"]
     >![Create assignment rule pane.](media/sa-ar-create-assignment-rule-right-pane.png "Create assignment rule pane")   
 
@@ -50,7 +47,7 @@ When a lead or opportunity record is created in an organization, assignment rule
 6. <a name="setSegment"></a>Under **Select eligible Leads for this rule**, select one of the following options:
 
     - **All incoming leads**: All the new leads that are created will be assigned to sellers in accordance with the conditions defined in the rule.
-    - **Specific lead**: Select a segment from the **Choose segment** dropdown menu to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments that are related to leads that are displayed in the list. However, if you want to create a segment that's not in the list and is specific to this rule, select **+ New segment** from the **Choose segment** dropdown list. More information: [Create and activate a segment](create-and-activate-a-segment.md)
+    - **Specific lead**: Select a segment from the **Choose segment** dropdown menu to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments that are related to leads that are displayed in the list. However, if you want to create a segment that's not in the list and is specific to this rule, select **New segment** from the **Choose segment** dropdown list. More information: [Create and activate a segment](create-and-activate-a-segment.md)
 
       >[!div class="mx-imgBorder"]
       >![Select a new segment from the Choose segment dropdown menu.](media/sa-segment-assignment-rule-specific-lead.png "Select new segment from choose segment dropdown")
@@ -58,7 +55,7 @@ When a lead or opportunity record is created in an organization, assignment rule
       >[!NOTE]
       >If no segment is selected for a rule, or no segment is defined in the application, you can select the default segment that's applied on all leads.
 
-      Also, you can configure more settings to determine how the leads in the segment must be assigned to sellers. Select **Additional condition**, and then select **+ Add**. Configure the conditions as follows:
+      Also, you can configure more settings to determine how the leads in the segment must be assigned to sellers. Select **Additional condition**, and then select **Add**. Configure the conditions as follows:
 
         - **Add row**: Add conditions for when the segment should be applied. In the following example, we add a row to specify that this segment be applied to leads created by the user **John Thomas**:
 
@@ -96,7 +93,7 @@ When a lead or opportunity record is created in an organization, assignment rule
     | Option | Description |
     |--------|-------------|
     | Any seller | Assign leads to any seller according to their availability, capacity, or distribution pattern. |
-    | Seller with matching attributes | Assign leads to sellers who satisfy the conditions defined through attributes selected from Dynamics 365 or assignment rules. The following options are available:<ul><li>Use existing fields from seller records in Dynamics 365.</li><li>Use seller attributes defined for assignment rules. More information: [Manage seller attributes](manage-seller-attributes.md)</li></ul>For example, you want to assign leads to sellers who are based out of Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **+ Add** > **Add row**. Enter the condition as **City** (attribute) **Equals** (condition) **Seattle** (value).<br>![Seller with matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Seller with matching attributes") |
+    | Seller with matching attributes | Assign leads to sellers who satisfy the conditions defined through attributes selected from Dynamics 365 or assignment rules. The following options are available:<ul><li>Use existing fields from seller records in Dynamics 365.</li><li>Use seller attributes defined for assignment rules. More information: [Manage seller attributes](manage-seller-attributes.md)</li></ul>For example, you want to assign leads to sellers who are based out of Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** > **Add row**. Enter the condition as **City** (attribute) **Equals** (condition) **Seattle** (value).<br>![Seller with matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Seller with matching attributes") |
     | Specific sellers | Assign leads to specific sellers. Select the sellers from the **Choose sellers** lookup.<br>**Note**: The security roles for sellers displayed in the list were added when the sales accelerator was configured. More information: step 4 in [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br>![Select specific sellers.](media/sa-ar-select-specific-sellers.png "Select specific sellers") |
     | Specific teams | Assign leads to a specific team. The lead will be available for all members of the team you select. The teams must be defined in your organization. More information: [Manage teams](/power-platform/admin/manage-teams#ownergroup-team-or-access-team) |
 

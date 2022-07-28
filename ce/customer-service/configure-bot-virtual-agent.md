@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
-description: "Use this topic to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
+ms.date: 06/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,11 +15,11 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
-Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of the bot conversation and get complete context while engaging with customers.
+Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer.
 
-After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or [Customer Service admin center (preview)](cs-admin-center.md) app to add your bot to queues and configure context variables to route work items.
+After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the [Customer Service admin center](cs-admin-center.md) or Omnichannel admin center app to add your bot to queues and configure context variables to route work items.
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -34,14 +34,18 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 Before you integrate Power Virtual Agents bots in Omnichannel for Customer Service, check the following:
 
-- **Product licenses** - You need a [product license for Power Virtual Agents](https://go.microsoft.com/fwlink/?LinkId=2092080&clcid=0x409) and a [product license with the Chat Add-in for Dynamics 365 Customer service](/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365).
-- **Role** - You must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
-- **Azure Application ID** - You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-- **Bot** - You must have a pre-configured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
+1. You must have the following licenses:
+
+    - A product license for Power Virtual Agents. More information: [Licensing for Power Virtual Agents](/power-virtual-agents/requirements-licensing-subscriptions)
+
+    - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.
+1. You must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
+1. You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#register-an-application-with-azure-ad-and-create-a-service-principal)
+1. You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 
 ## Install Power Virtual Agents extensions
 
-Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the Chat Add-in for Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
+Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the chat, digital messaging, and voice channels in Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
 
 To do so, perform the following steps:
 
@@ -51,14 +55,14 @@ To do so, perform the following steps:
 
 ## Connect your Power Virtual Agents bot to omnichannel instance
 
-Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
+Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
 
-## Configure your Power Virtual Agents bot in Omnichannel admin center
+## Configure your Power Virtual Agents bot in the admin app
 
-In Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
+In Customer Service admin center or Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they're a part of push-based workstreams.
+> Bots can receive conversations only if they're added to push-based workstreams.
 
 ## Configure your Power Virtual Agents bot in Omnichannel Administration
 
@@ -194,20 +198,20 @@ The global variables that are created in Power Virtual Agents can be passed to O
 
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. More information: [Channel experience reference table](/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table) </li><li> You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling is not supported.</li></ul> |
-| **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
-| **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
-| **Format bot messages:** You can set the optional `TextFormat` property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
+| **Adaptive cards** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling is not supported.</li></ul> |
+| **Single sign-on (SSO)** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
+| **Typing** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
+| **Format bot messages** You can set the optional `TextFormat` property to control how your message's text content is rendered. | <ul><li> Power Virtual Agents does not support markdown with images and text. </li><li>When Power Virtual Agents sends markdown text, there's an extra space between lines. </li> <li> Carousel layout is not supported. </li></ul>|
 
 ## When is a conversation closed in Omnichannel for Customer Service
 
-When bots receive a conversation that is subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
+When a bot receives a conversation that's subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
 This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
-## Enable a Power Virtual Agents bot to end conversations
+## End bot conversation
 
-You can configure the Power Virtual Agents bot to end conversations when the customer issue has been resolved or if the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
+To configure a Power Virtual Agents web app bot to end a conversation, see [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
 
 ## Privacy notice
 
@@ -225,6 +229,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Identify customers automatically](record-identification-rule.md)  
@@ -232,5 +237,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](suggested-actions.md)  
+[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,8 @@
 ---
 title: "Manual inventory journals in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn about manual inventory journals in Dynamics 365 Field Service
-ms.date: 1/20/2018
+ms.date: 3/14/2022
 ms.reviewer: krbjoran
-
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -87,6 +86,7 @@ Select a journal type for your manual inventory. This will determine how the inv
 > [!Note]
 > Quantity value can be negative to decrement inventory.
 
+Press **Ctrl + S** on your keyboard to save the new inventory journal.
 
 ### 3. View inventory changes
 
@@ -104,7 +104,7 @@ Navigate to **Field Service > Warehouse > Product Inventory** to view inventory 
 
 
 ### See also
-- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegration?tab=Overview)
+- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2?tab=Overview)
 - [Configure Field Service and Finance & Operations integration](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service)
 
 

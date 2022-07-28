@@ -12,12 +12,11 @@ manager: shujoshi
 As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 
 <!--markdownlint-disable MD036-->
@@ -26,7 +25,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 1.	Sign in to your Dynamics 365 Sales Hub app.    
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Segments**.   
-4.	On the **Segments** page, select **+ New segment**.
+4.	On the **Segments** page, select **New segment**.
 
     The **Create a segment** dialog opens.
 
@@ -47,7 +46,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     >[!div class="mx-imgBorder"]
     >![Segment condition builder page](media/sa-segment-condition-builder-home-page.png "Segment condition builder page")
 
-7.	On the **Builder** tab, under **And**, select **+ Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
+7.	On the **Builder** tab, under **And**, select **Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
 
     -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user John Thomas.    
         1.	Select an attribute from the dropdown list in the first column.    

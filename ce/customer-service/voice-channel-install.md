@@ -10,17 +10,13 @@ ms.topic: article
 
 # Install the voice channel
 
-## Introduction
-
 To configure and use the voice channel for your business needs, you need to install the channel in Omnichannel for Customer Service.
 
 ## Prerequisite
 
-To install the voice channel, you must obtain an active subscription of the voice channel. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/)
+You must obtain an active subscription of the voice channel. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/)
 
 ## Install the voice channel
-
-**To install the voice channel**
 
 1. Perform the steps outlined in [Set up Omnichannel for Customer Service](omnichannel-provision-license.md#set-up-omnichannel).
 
@@ -30,6 +26,7 @@ To install the voice channel, you must obtain an active subscription of the voic
 
 ### See also
 
+[System requirements for using the voice channel](system-requirements-omnichannel.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  

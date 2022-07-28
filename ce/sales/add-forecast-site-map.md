@@ -14,12 +14,11 @@ ms.custom:
 As the forecast grid and configurations are based on URL custom control forms, add them manually to the sitemap so that your users can access.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Add forecast grid and forecast configuration options to sitemap
 
@@ -75,7 +74,7 @@ Follow these steps to individually configure the sitemap for forecast grid and f
 
     The forecast grid and configuration options are now displayed on the sitemap.
 
-More information: [Create a sitemap for an app using the sitemap designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map)
+More information: [Create a sitemap for an app using the sitemap designer](/powerapps/maker/model-driven-apps/create-site-map-app)
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
@@ -83,7 +82,7 @@ More information: [Create a sitemap for an app using the sitemap designer](/cust
 
 [Configure a forecast in your organization](configure-forecast.md)
 
-[Design custom business apps by using the app designer](/customerengagement/on-premises/customize/design-custom-business-apps-using-app-designer)
+[Design custom business apps by using the app designer](/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

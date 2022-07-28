@@ -4,13 +4,12 @@ description: Learn how to get the Field Service (Dynamics 365) mobile app set up
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -32,18 +31,6 @@ With an Intune-enabled Field Service (Dynamics 365) mobile app, IT administrator
 - See reports and track app usage.
 - Limit sharing of corporate data among apps by restricting data leakage through cut, copy, paste, and save-as.
 - Provide encryption at rest.
-
-## Prerequisites
-
-- Field Service (Dynamics 365) mobile app for iOS and Android
-- Note the bundle IDs to find the mobile app in Intune.
-
-|Platform | Bundle ID |
-| -- | -- | 
-| iOS | com.microsoft.dynamics.iphone.moca.fieldServices |
-| Android | com.microsoft.crm.crmphone.fieldServices |
-
-
 
 
 ## Get started

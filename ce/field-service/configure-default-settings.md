@@ -1,7 +1,7 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 1/26/2022
+ms.date: 06/20/2022
 
 ms.topic: article
 author: FieldServiceDave
@@ -15,14 +15,14 @@ search.app:
 
 The Field Service settings page allows system administrators to set default settings for work orders, bookings, the schedule board, agreements, and more.
 
- 1. In the Unified Interface framework app, navigate to **Field Service** > **Field Service Settings**. Or, in earlier web browser versions, navigate to **Field Service** > **Administration** > **Field Service Settings**.
+1. In the Unified Interface framework app, navigate to **Field Service** > **Field Service Settings**. Or, in earlier web browser versions, navigate to **Field Service** > **Administration** > **Field Service Settings**.
 
- > [!div class="mx-imgBorder"]
-> ![Screenshot showing location of field service settings in the Unified Interface framework app.](./media/admin-FS-settings-uci.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot showing location of field service settings in the Unified Interface framework app.](./media/admin-FS-settings-uci.png)
   
-2.  Fill in the information, as required.  Refer to the following table for a description of the settings.  
+2. Fill in the information, as required.  Refer to the following table for a description of the settings.  
   
-3.  Choose **Save**.  
+3. Choose **Save**.  
   
 ## Work order and bookings settings 
   
@@ -81,7 +81,7 @@ The Field Service settings page allows system administrators to set default sett
   
 |  Options  |  Description  |
 |-----------|---------------|
-| Purchase order approval required |  Select if a purchase order needs an approval before the status can be changed to **Submitted** based on the **Purchase Order Approval Required** field on the purchase order. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
+| Purchase order approval required |  Select if a purchase order needs an approval before the status can be changed to **Submitted** based on the **Purchase Order Approval Required** field on the purchase order. If the status of the purchase order is set to **Rejected** then the purchase order status can't be set to **Submitted**; however, the rejected setting will not block approvals for non-rejected purchase orders, even if it's not set to **Approved**.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
 | Purchase order starting number  |   Select a starting number for purchase orders. For example, if you choose 4000, then your first purchase order will be 4000, and second one will be 4001, and so on.   |
 |   Use of product out of stock   | Select how the system reacts when a work order product is used for a product that is not currently in stock. **Confirm** will prompt the user to decide whether to continue or not, and **Restrict** will keep the work order product from being used. |
   
@@ -123,7 +123,7 @@ The Field Service settings page allows system administrators to set default sett
 |  Auto geo code addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)   |
 | Product cost order   | Select the order for product cost.   |
 | Work order subgrid records open as popups | Specify if work order sub entities (work order product, work order service, work order service task, work order incident, bookable resource booking, time entry) should open as a popup overlay on top of the work order form, rather than navigating away. The default setting for this field will enable the subgrid records to open in dialog popups.  |
-| Use enhanced background processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an agreement's owner no longer has access to Dynamics 365 (if they leave the company, for example). For Field Service Mobile, you can use Power Automate for geofence, geofence alerts, and push notification process. For more information, see the article on [using Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md). This setting is in preview, and more background workflows are expected to be moved to Power Automate flows in subsequent releases.|
+| Use enhanced background processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an agreement's owner no longer has access to Dynamics 365 (if they leave the company, for example). For Field Service Mobile, you can use Power Automate for geofence, geofence alerts, and push notification process. For more information, see the article on [using Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md). This setting is in preview.|
 
 > [!Note]
 > The **Enhanced Background Processing** setting is in preview and it means that all Field Service workflows will move to Power Automate.

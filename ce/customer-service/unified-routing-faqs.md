@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# FAQs about unified routing in Customer Service, Omnichannel for Customer Service
+# FAQ about unified routing in Customer Service, Omnichannel for Customer Service
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 

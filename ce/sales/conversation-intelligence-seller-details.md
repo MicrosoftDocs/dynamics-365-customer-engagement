@@ -1,7 +1,7 @@
 ---
 title: "Work with call intelligence feature"
 description: "View insights and analyze the performers of sellers during calls with customer to improve sales and generate revenue."
-ms.date: 04/09/2020
+ms.date: 06/27/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -17,12 +17,11 @@ View insights and analysis of each seller’s performance during calls with cust
 The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation intelligence**, and select **Seller details**. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Seller details page for sales managers
 
@@ -96,7 +95,6 @@ Let's look at the KPIs and insights in detail:
 
 [First-run set up experience of conversation intelligence](fre-setup-sales-insight-app.md)
 
-[Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
-
+[Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

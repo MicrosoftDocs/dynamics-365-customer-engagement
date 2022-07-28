@@ -1,8 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 10/06/2021
-
+ms.date: 03/07/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -138,6 +137,28 @@ Placeholder 2 true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
+
+### Partial and relative dates in conditional content
+
+You can use relative and partial dates when defining a condition that uses dates, allowing you to create more flexible personalized content.
+
+#### Partial dates
+
+Partial dates allow you to define a conditions such as "Birthday is Today" or "Birthday is this month." The available options for partial dates are as follows:
+
+- Day can be checked for any day, today, a specific day (such as the 15th), or a day (or days) of the week (such as Monday and Wednesday).
+- Month can be checked for any month, this month, or a specific month (such as February).
+- Year can be checked for any year, this year, or a specific year (1922-2027).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing partial date settings.](media/real-time-marketing-partial.png)
+
+#### Relative dates
+
+Relative dates allow you to define conditions such as "Birthday is next month" or "Birthday was 2 days before today." Options here include ability to specify number of Days, months, or years "from today" or "before today."
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing relative date settings.](media/real-time-marketing-relative.png)
 
 ## Lists of content
 

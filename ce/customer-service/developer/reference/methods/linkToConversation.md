@@ -1,8 +1,8 @@
 ---
 title: "linkToConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
-description: "Includes information about linkToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
+description: "Includes reference information about linkToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 02/18/2022
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -46,11 +46,12 @@ Microsoft.Omnichannel.linkToConversation("incident", "6b726d86-d37c-43b8-b3a4-c4
 
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
+[Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
 [getConversations](getConversations.md)  
 [getConversationId](getConversationId.md)  
 [unlinkFromConversation](unlinkFromConversation.md)  
 [openConversation](openConversation.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

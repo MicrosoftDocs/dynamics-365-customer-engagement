@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 07/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -27,14 +27,16 @@ searchScope:
 
 # Create and manage knowledge articles
 
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
 Reduce call handling times with knowledge articles in the Customer Service Hub application.
   
 With the knowledge management module, you can create and manage knowledge articles that your users may be looking for.
 
-Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content, or embed videos and images.  
+Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more. Use the rich text editor to create knowledge articles, format your content, or embed videos and images.  
   
 > [!IMPORTANT]
-> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
+> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer service apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](work-knowledge-articles.md)
@@ -319,12 +321,15 @@ To attach a file to a knowledge article:
 
 ### Work with file attachments
 
-The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
+The **Attached files** section displays all your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
 
 For your attached files, use these commands to do the following:
 
 - **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
 - **Sort**: Allows you to sort records by a specific filter, such as file name or size.
+
+> [!NOTE]
+> In Dynamics 365 Customer Engagement (on-premise), upload and download of knowledge article attachments is supported for files up to 4MB only.
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
@@ -340,14 +345,11 @@ For users to be able to view and download file attachments, you'll need to grant
 
 ### Update knowledge article attachments for portal
 
-With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Sync knowledge article attachments to portal** section.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   2. In the **Portals** section, select **Manage**. The **Portal** page appears.

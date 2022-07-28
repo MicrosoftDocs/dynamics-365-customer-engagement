@@ -1,8 +1,7 @@
 ---
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 11/08/2021
-
+ms.date: 05/11/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,6 +22,9 @@ search.app:
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
 You can send push messages as part of real-time journeys, similar to other outbound messages like SMS.
+
+> [!Note]
+> Availability of this feature in the United Arab Emirates will be communicated at a later date.
 
 ## Create a mobile app configuration
 
@@ -70,6 +72,9 @@ Once you have entered the information for the mobile applications you want to co
 If the connection was successful, an access token will be generated. You can generate more access tokens as needed—for instance, when app developers need to update the application.
 
 To connect the application with Marketing, you'll need to share the access token and the application ID with your app developer. The token will work immediately, as long as the *Credential validation* field on the right side of the mobile app configuration page shows as valid.
+
+>[!TIP]
+> To learn more about the developer configuration for push notifications, see [Push notification setup for application developers](real-time-marketing-developer-push.md).
 
 When the access token is established successfully, the connection is completed and the mobile app configuration will be validated.
 

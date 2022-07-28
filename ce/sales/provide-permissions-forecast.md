@@ -1,7 +1,7 @@
 ---
-title: "Provide permissions to access and share a forecast"
-description: "Provide permissions to view, access, and share a forecast in Dynamics 365 Sales."
-ms.date: 01/25/2022
+title: Provide permissions to access and share a forecast
+description: Provide permissions to view, access, and share a forecast in Dynamics 365 Sales.
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,90 +9,71 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
+
 # Provide permissions to access and share a forecast  
 
-Provide permissions to view, access, and share a forecast in your organization.
+After you've [selected general properties and scheduled your forecast](./define-general-properties-scheduling-forecast.md), define who can view, access, and share it.
+
+Use the **Permissions** step to:
+
+- [Define the owner of the forecast](#define-the-forecast-owner)
+- [Provide access to users who have specific security roles to view the forecast](#provide-access-to-additional-roles)
+- [Allow users to share their forecast records with other users](#enable-or-disable-forecast-sharing)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-## Permissions step
-
-In the **Permissions** step of the forecast configuration, you can:
-
-- Define the owner of the forecast.
-- Define team members who can view and adjust the forecast data at each level of the hierarchy.   
-- Provide access to users who have specific security roles to view the forecast.  
-- Enable forecast sharing to allow users to share their forecast records with other users. See [Enable or disable forecast sharing](#enable-or-disable-forecast-sharing).
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Define the forecast owner
 
-1.	In the **User security field** section, choose **User lookup field**. Choosing this field determines the owner of the forecast row. The following default system user value is selected based on the template:        
-    -	For **Org chart forecast**, the value is selected as **User**.      
-    -	For **Territory forecast**, the value is selected as **Manager**.    
-    If you select a value other than the default, a column is created in the forecast grid.     
-    For example, when you select **User lookup field** as **Manager** for a territory forecast, the forecast is visible only to the managers of the territories in the selected hierarchy. The managers can edit forecast data that directly belongs to them and to their reporting territories.
+In the **User security field** section, **User lookup field**, select who owns the forecast at each level of the hierarchy. Each template starts with a default value:
 
-## Provide access to additional roles 
+| Template | Default owner |
+| --- | --- |
+| Org chart forecast | User |
+| Product forecast | None |
+| Territory forecast | Manager |
 
-2.	In the **Additional security roles** section, select one of the following options to provide permissions to view the forecast to users who aren't part of the hierarchy.
+If you select a value other than the default, a column is added to the forecast grid.
 
-    | Additional security roles option | Description |
-    |----------------------------------|-------------|
-    | No additional security roles | This option provides access only to the selected hierarchy users. When you select this option, users who have other security roles in the organization can't view the forecast. By default, this option is selected. |
-    | All security roles (everyone can access the forecast) | This option provides read-only access to this forecast to all the security roles of users in your organization. |
-	| Specific security roles | This option allows you to specify which security roles will receive either read-only access, or read-only and adjustment access within this forecast.|
+For example, when you select **Manager** as the **User lookup field** for a territory forecast, the forecast is visible only to the managers of the territories in the selected hierarchy. The managers can edit forecast data that directly belongs to them and to their reporting territories.
 
-    > [!div class="mx-imgBorder"]
-    > ![Forecast permissions step.](media/forecast-permissions.png "Forecast permissions step")
+## Provide access to additional roles
 
-    A message displays at the bottom of the page that helps you understand how the forecast security is applied based on your selections.
+In the **Additional security roles** section, select an option to give access to users who aren't part of the hierarchy:
 
-    > [!div class="mx-imgBorder"]
-    > ![Information on forecast security.](media/forecast-add-security-information.png "Information on forecast security")
-    
-3.	Select **Next**.
+- **No additional security roles**: This option gives access only to the selected hierarchy users. Users who have other security roles in the organization can't view the forecast. This option is selected by default.
+- **All security roles can read this forecast**: This option gives read-only access to all the security roles in your organization.
+- **Specific security roles**: Use this option to specify the security roles to receive either read-only access, or read-only and adjustment access.
+
+A message under the security roles gives more information about how the forecast security is applied, based on your selections.
+
+:::image type="content" source="./media/forecast-permissions.png" alt-text="A screenshot of the Permissions step of the Forecast configuration page, with additional security roles defined.":::
 
 ## Enable or disable forecast sharing
 
-Forecast sharing is disabled by default. As an administrator, enable the forecast sharing option for the forecasts that needs to be shared. Users can only share forecasts that they own.  
+By default, forecasts can't be shared. If you turn on forecast sharing, users can share only the forecasts that they own. For more information, see [Who owns the forecast?](./faqs-sales.md#who-owns-the-forecast)
 
-> [!NOTE]
-> Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faqs-sales.md#who-owns-the-forecast).
+In the **Share forecast** section, select one of the following options:
 
-**To enable or disable forecast sharing**
+- **None**: The forecast can't be shared with anyone. If it's already been shared, users it was shared with can no longer access it.
+- **Read-only**: The forecast can be shared to view, but not to edit.
+- **Read and adjust**: The forecast can be shared either to view, or to view and edit. Select this option to share the forecast to users with different levels of access.
 
-1.  In the Sales Hub site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
-
-1.  Under **Performance management**, select **Forecast configuration**.     
-
-1.  Select the forecast configuration that you want to enable or disable for sharing, and go to the **Permissions** step.
-1. Select one of the following options in the **Share forecast** section:
-
-    - **None**: Indicates that forecast sharing is disabled. Forecasts in the selected forecast configuration can't be shared with anyone. If users have already shared the forecasts, the forecasts will no longer be available to the shared users.
-    
-    - **Read-only**: Indicates that the forecast can be shared with the view permission.
-    
-    - **Read and adjust**: Indicates that the forecast can be shared with either the view only permission, or read and adjust permission. If you want to be able to share the forecast with different levels of access to different users, then select this setting.
-    
-5. Save the changes. 
-   If you have selected **Read-only** or **Read and adjust**, all the forecast records in the forecast configuration are enabled for sharing. Forecast owners can now share the records. See, [Share a forecast](share-forecasts.md). 
+When you've finished setting permissions, select **Next**.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>
 
-> [!div class="nextstepaction"] 
+> [!div class="nextstepaction"]
 > [Previous step: Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 </td><td>
 
-> [!div class="nextstepaction"] 
+> [!div class="nextstepaction"]
 > [Next step: Choose layout and columns](choose-layout-and-columns-forecast.md)
 </td></tr>
 </table>
@@ -100,6 +81,5 @@ Forecast sharing is disabled by default. As an administrator, enable the forecas
 ### See also
 
 [Configure forecasts in your organization](configure-forecast.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

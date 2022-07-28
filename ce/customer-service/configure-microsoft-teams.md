@@ -1,13 +1,13 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
-# Configure a Microsoft Teams channel
+# Configure Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -19,10 +19,10 @@ Using Microsoft Teams as an engagement channel for support of internal functions
 
 Make sure that the following prerequisites are met:
 
-- Teams is provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Microsoft Teams is provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
   > [!NOTE]
-  > To enable the Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
+  > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 - An app is created and configured in **Teams** > **App Studio**. More information: [Build your first Teams app using C#](/microsoftteams/platform/get-started/get-started-dotnet-app-studio?tabs=AS).
 
@@ -32,10 +32,7 @@ Make sure that the following prerequisites are met:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Customer support**, select **Channels**.
     
@@ -57,22 +54,31 @@ Make sure that the following prerequisites are met:
 
 1. Select the workstream that you've created for the Microsoft Teams channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
     1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
-    2. On the **Language** page, select the language.
-    3. On the **Behaviors** page, configure the following options:
-      - [Custom automated messages](configure-automated-message.md)
-      - [Post-conversation survey](configure-post-conversation-survey.md)
-    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
-      - Customers can send file attachments
-      - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+    
+    1. On the **Language** page, select the language.
+    
+    1. On the **Behaviors** page, configure the following options:
+       - [Custom automated messages](configure-automated-message.md)
+       - [Post-conversation survey](configure-post-conversation-survey.md)
+    
+    1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
+       - Customers can send file attachments
+       - Agents can send file attachments
+    
+    1. Turn on the toggle for **Voice and video calls** (preview), and select an option in the **Calling options** dropdown list. At runtime, when agents are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+        > [!NOTE]
+        > Voice and video calls in Microsoft Teams is in preview, therefore, we recommend that you don't use it in production. Use it only in test and development environments.
+    
+    2. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+2. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+3. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. In **Advanced settings**, configure the following options based on your business needs:
+4. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+
+5. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](context-variables-for-bot.md#add-context-variables)
@@ -143,8 +149,9 @@ Make sure that the following prerequisites are met:
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Configure automated messages](configure-automated-message.md)  
-[Use a Microsoft Teams channel](teams-channel.md)  
+[Use Microsoft Teams channel](teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

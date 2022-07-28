@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 08/31/2021
+ms.date: 05/19/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom:
 
 # Dynamics 365 Customer Service trial FAQ
 
-This topic answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
+This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
 [!INCLUDE [trial-platform-faqs](../shared/trials/trial-faq-platform.md)]
 
@@ -23,27 +23,29 @@ Yes, you can purchase licenses through direct, credit card purchase at admin.mic
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
-After you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
+After you've applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
 
 ### What are the trial limits and quotas?
 
 The following limitations apply for the trial:
 
 - The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.
-- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.
+- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials can't be reactivated. However, you can start a new trial.
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
 ## Customer Service-specific questions
 
 ### What features are available in the trial?
 
-The environment you receive in trial is a fully functional, Dynamics 365 environment with the following licenses and capabilities pre-installed:
+The environment you receive in trial is a fully functional, Dynamics 365 environment with the following out-of-the-box capabilities:
 
 - Dynamics 365 Customer Service Enterprise
   - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
   - Case management, knowledge management, unified routing, email
-- Dynamics 365 Digital Messaging
-  - Chat and channels
+- Digital Messaging and Voice Channel for Dynamics 365 Customer Service
+  - Chat, voice, and other digital messaging channels
+- Power Apps
+  - To create app profiles, configure templates, customize the solution
 - Dynamics 365 Power Virtual Agents
   - To add Power Virtual Agents bot to chat and channels
 - Dynamics 365 Customer Voice
@@ -51,9 +53,10 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
 - Dynamics 365 Power Automate
   - To build customized and automated flows and business processes
 
+More information: [Dynamics 365 Customer Service pricing](https://dynamics.microsoft.com/customer-service/pricing/)
 ### How do I remove sample data from the trial instance?
 
-Your trial environment has been curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because this is a real environment, you can manually add or delete individual data records in your trial environment as you want. There is no option to bulk delete the sample data and configurations from the trial environments.
+Your trial environment is curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because it's a real environment, you can manually add or delete individual data records in your trial environment as you want. You can't do a bulk delete of the sample data and configurations from the trial environments.
 
 ### How do I reset or reimport sample data?
 
@@ -63,7 +66,7 @@ Sample data comes with the trial environment and experience. To get a fresh data
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
-For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience is not supported in Brazil, Government Community Cloud, Norway, and South Africa.
+For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience isn't supported in Brazil, Government Community Cloud, Norway, and South Africa.
 
 ### Which languages are supported in the trial version of Omnichannel for Customer Service?
 

@@ -14,11 +14,10 @@ This page lists the upcoming preview features that will be enabled by default in
 > [!IMPORTANT]
 > A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.  
 
-The following preview features will be automatically enabled in your trial app when they become available:  
+The following preview feature will be automatically enabled in your trial app when they become available:  
 
 - A new view for opportunities with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
 
-- An enhanced experience for adding products to opportunities, quotes, orders, and invoices. The enhanced experience lets sellers select multiple products, filter by product families, compare products, and so on. For more information, see [Preview: Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). 
 
 ## Switch to classic view for opportunities
 
@@ -81,7 +80,4 @@ If you've switched over to the classic view and now want to revert to the new in
      
     The new opportunities view is also known as the deal manager workspace. For more information on how to use it or personalize it, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
 
-  
-### See also
 
-- [Preview: Enable or disable the enhanced experience for adding products](enable-enhanced-add-product-experience.md) 

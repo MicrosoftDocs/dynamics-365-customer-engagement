@@ -23,22 +23,22 @@ manager: shujoshi
 
 Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable the Microsoft Teams collaboration feature to help them find the right contacts.
 
-This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case when agents explore contacts in the embedded chat experience.
+This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case or support conversation when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
-> In public preview, AI suggestions for contacts is available only when users open an active case record.
+> Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
 
 ## How AI-suggested contacts works
 
-The suggestions capability uses AI to recommend contacts who might be able to help agents resolve an active case based on similar cases those contacts have worked on. It uses similar case suggestions to find similar cases, and then identifies the most logical contacts based on a few factors related to the experience and proficiency of the contacts in resolving those similar cases, including the following:
+The suggestions capability uses AI to recommend contacts who might be able to help agents resolve an issue described in an active case or a support based on similar cases those contacts have worked on. It uses similar case suggestions to find similar cases, and then identifies the most logical contacts based on a few factors related to the experience and proficiency of the contacts in resolving those similar cases, including the following:
 
-- The number of similar cases that the suggested contacts have resolved. A higher number of similar cases that the suggested contacts have resolved might indicate that they have more experience in resolving the cases.
+- The number of similar cases that the suggested contacts have resolved. A higher number of similar cases that the suggested contacts have resolved might indicate that they have more experience in resolving the issue described in the cases or conversations.
 
-- The similarity level of the similar cases to the active case. A higher similarity of the cases means that the similar cases the contacts have resolved are more related to the active case that agents are currently working on.
+- The similarity level of the similar cases to the active case. A higher similarity of the cases means that the similar cases the contacts have resolved are more related to the active case or conversation that agents are currently working on.
 
-- How recently the suggested contacts have resolved the similar cases. More recent experience might indicate the contact has more current knowledge about resolving the cases.
+- How recently the suggested contacts have resolved the similar cases. More recent experience might indicate the contact has more current knowledge about resolving the issue described in the cases or conversations.
 
-- The average time that the suggested contacts use to resolve similar cases. Less time spent in resolving similar cases compared to others might indicate that the contact is more familiar than others about how to resolve the case type.
+- The average time that the suggested contacts use to resolve similar cases. Less time spent in resolving similar cases compared to others might indicate that the contact is more familiar than others about how to resolve the issue type.
 
 AI-suggested contacts works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle without the need for extra model training.
 
@@ -75,9 +75,9 @@ The AI suggestions feature is supported in the following languages:
 
 3. Set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 
-4. Do the following:
+4. To get suggested contacts for active cases or supported conversations, perform the following steps:
    
-   1. Under **Link chat to Dynamics 365 records**, select **Case**. The **Case settings** flyout menu appears on the right.
+   1. Select **Case** or **Conversation** in the **Link chat to Dynamics 365 records** section. Based on your selection, the **Case settings** or **Conversation settings** flyout menu appears on the right.
 
    2. In **Suggested contacts**, turn on the toggle for **AI-based suggested contacts**.
 

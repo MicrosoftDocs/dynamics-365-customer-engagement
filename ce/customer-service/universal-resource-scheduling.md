@@ -58,6 +58,7 @@ Use the following input and output parameters for the Search Resource Availabili
 | PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
 | RequiredResources |List&#60;Guid&#62; | No | Only the time slots of the passed list of resources will show in the resulted time slots. |
+| IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true list of time slots returned will be empty. It is false by default. |
 
 ### Output
 
@@ -229,6 +230,8 @@ In this next scenario, we show how to pass values for a specific requirement gro
 >   - Organizational unit (which can be retrieved by using the [Web API](/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
 > - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK. The extended SOAP SDK is not an official Microsoft release, but you can is provided in the downloadable sample files for guidance. 
 > - We recommend that you test this search in your development or test environments to validate your scenarios and results before running it in your production environment.
+> - This API uses the complex object type in the input and output, so it only supports the SOAP endpoint. It does not support the OData endpoint. 
+
 
 To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then follow the steps below:   
 
@@ -236,7 +239,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Modify the hard-coded input parameters to reflect record GUIDs.](media/ur-scheduling-5.PNG)
 
-[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
+[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 
@@ -499,9 +502,6 @@ requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-1
 
 //Setting to date
 requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z")); 
-
-//Setting up the Site as filter criteria for search.	      
-requirementSpecification.Attributes.Add("msdyn_organizationalunit",Guid.Parse("XXXXXXXXXXXX")); 
 
 req["RequirementSpecification"] = requirementSpecification;
 

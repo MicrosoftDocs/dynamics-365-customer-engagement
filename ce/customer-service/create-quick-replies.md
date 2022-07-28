@@ -1,7 +1,7 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
 description: "This topic provides the steps you can perform to set up quick replies in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 06/09/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -17,10 +17,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
@@ -29,9 +26,6 @@ Quick replies are predefined messages that can be created for agents to quickly 
      - In the site map, in **Advanced settings**, select **Agent experience**.
 
 1. Select **Manage** for **Quick replies**.
-   
-   > [!NOTE]
-   > If you're using the Omnichannel Administration app, go to **Quick replies** under **Agent Experience**.
 
 1. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
 

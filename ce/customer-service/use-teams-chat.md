@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 02/03/2022
+ms.date: 03/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -103,7 +103,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
         
 ## Link or unlink an existing chat from a record
 
-You can link a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also link the chat to the work order. If you decided later that you didn't want the chat linked to the case, you could unlink it. For this example, you'd follow these steps:
+You can link a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also link the chat to the work order. If you decided later that you didn't want the chat linked to the case, you could unlink it if your administrator has given you the proper rights. For this example, you'd follow these steps:
 
 - To link the chat to the case, select the chat, and then select **Link to this case**.
      
@@ -115,10 +115,19 @@ You can link a chat to a single record or multiple records. For example, if you 
     > [!div class="mx-imgBorder"] 
     > ![Unlink an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Unink existing chat from a record")
     
+### Understand how unlink chat rights are assigned
+
+As an agent, you have the following three options for getting rights to unlink chats, all of which are controlled by your administrator.
+
+- You are the record owner, and your administrator enables this capability.
+- You are the most recent user to link the chat to the record, and your administratior enables this capability.
+- Your administrator assigns the right to unlink chats to you if you need the ability to unlink chats from records.
+
+If your administrator hasn't assigned any of the above rights to you or your role, you won't be able to unlink any chat that you or other users have linked to records. If you need the ability to unlink chats from records, ask your administrator to set assign the rights to you.
 
 ## Use suggested contacts
 
-The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team admin or members who've logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/teams-use-suggested-contacts.md).
+The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team admin or members who've logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
 
 ## Link a Teams channel to a record
 

@@ -1,7 +1,7 @@
 ---
 title: "Use AI-driven run-time channel optimization (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use AI-driven run-time channel optimization for real-time marketing."
-ms.date: 12/06/2021
+ms.date: 03/08/2022
 
 ms.custom: 
   - dyn365-marketing
@@ -27,6 +27,9 @@ Channel optimization takes the guesswork out of determining the right channel to
 The real-time marketing AI model picks the optimal channel for your customer based on their historical data. The AI model considers the customer’s channel preferences to determine which channel is most likely to achieve the journey outcome.
 
 The AI model operates autonomously and in real time to understand the journey goal and explore ways in which it can optimize for the goal. Initially, every channel is given equal probability to reach the journey goal. But as time goes by, the AI model learns which option is most likely to succeed, given the customer's historical activity (which channel they engaged with the most in the past).
+
+> [!NOTE]
+> Channel optimization will not recommend a channel which a customer has not consented to. If no channel has consent, no communication will be sent out and the customer will progress to the next step in the journey. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md).
 
 ## Prerequisites
 

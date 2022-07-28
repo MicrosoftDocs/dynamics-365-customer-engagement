@@ -1,7 +1,7 @@
 ---
-title: "Persistent chat | MicrosoftDocs"
-description: "Overview of Persistent chat in Omnichannel for Customer Service."
-ms.date: 10/21/2021
+title: "Configure persistent chat | MicrosoftDocs"
+description: "Use this article to understand how persistent chat works and how you can configure it in Omnichannel for Customer Service."
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,8 +12,6 @@ ms.custom: intro-internal
 # Configure persistent chat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Overview
 
 Persistent chat is an asynchronous mode for the chat channel that allows conversations to happen over multiple sessions. Unlike in live chat, where customers and agents need to be available simultaneously, persistent chat allows users to leave the conversation between sessions and pick it up later. 
 
@@ -33,13 +31,13 @@ From the start of a conversation until the agent explicitly ends it, agents and 
 
 ## Prerequisites
 
-Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md).
+Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md)
 
 ## Set up persistent chat in the new admin apps
 
-In Customer Service admin center (preview) or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you are creating the chat workstream. More information: [Create workstreams](create-workstreams.md)
+In Customer Service admin center or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
 
-Make sure that you set the toggle to **Yes** for **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
+Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
 ### Set up persistent chat in Omnichannel Administration
 
@@ -65,8 +63,7 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 
 ### See also
 
-[Configure a chat widget](add-chat-widget.md)
-
-[Create work streams](work-streams-introduction.md)
+[Configure a chat widget](add-chat-widget.md)  
+[Create and manage workstreams](create-workstreams.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

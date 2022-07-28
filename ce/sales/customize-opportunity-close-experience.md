@@ -12,12 +12,11 @@ manager: shujoshi
 Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## How does the customization help?
 
@@ -75,7 +74,7 @@ To create fields,
 
 5.  Under the **Opportunity Close** node, select **Fields**.
 
-6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customerengagement/on-premises/customize/create-edit-fields.md)
+6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [How to create and edit columns)](/powerapps/maker/data-platform/create-edit-fields)
 
 
 ## Add newly created custom fields to the Opportunity Close form

@@ -1,9 +1,8 @@
 ---
-title: "Use the Sales Hub app to access Dynamics 365 Sales features | MicrosoftDocs"
-description: "The Sales Hub app is preinstalled and preconfigured with several core sales and sales insights features to help you get started quickly"
-ms.date: 02/01/2022
+title: Use the Sales Hub app to access Dynamics 365 Sales features
+description: The Sales Hub app is preinstalled and comes with several core features to help you quickly start using sales and sales insights capabilities of Dynamics 365.
+ms.date: 06/27/2022
 ms.topic: article
-
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -11,93 +10,63 @@ manager: shujoshi
 
 # Use the Sales Hub app to access Dynamics 365 Sales features
 
-Can't wait to explore Dynamics 365 quickly? Use the free Sales Hub app, which is preinstalled and preconfigured with several core sales and sales insights features to help you get started quickly.
+Sales Hub is a free app from Microsoft. It's preinstalled and comes with several core sales and sales premium features to help you get started with Dynamics 365 Sales quickly. From the Sales Hub app, you can access Sales Premium features such as sales accelerator, conversation intelligence, and predictive scoring with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity for Sales Enterprise customers. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md) 
+
+> [!TIP]
+> We recommend that you use the Sales Hub app unless your organization follows unique sales practices that warrant a custom app. For a comparison, see [Sales Hub app versus custom app](saleshub-customapp.md).
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
-## What's in the Sales Hub app? 
+## What's in the Sales Hub app?
 
-The Sales Hub app has a modern and interactive interface, designed to simplify your day-to-day sales activities. It shows you all the vital information in one place, and lets you focus on the key activities that require your attention.
+The Sales Hub app has a modern interface that's designed to simplify your day-to-day sales activities. See all the information you need in one place, and focus on the activities that need your attention.
 
-Sales Hub is based on the Unified Interface framework. Some of the key highlights include:
+Sales Hub is based on the Unified Interface framework. Highlights include:
 
--   A modern, seamless, and intuitive user interface.
+- A modern, seamless, and intuitive user interface
 
--   An adaptive UI that renders content according to the device it runs on.
+- An adaptive UI that renders content according to the device it runs on
 
--   A built-in mobile app that lets you complete tasks on the go.
+- A built-in mobile app that lets you complete tasks on the go
 
--   An app that's built with accessibility in mind.
+- An accessible UI
 
 ## Why should you use the Sales Hub app?
 
-Sales Hub is a Microsoft first-party app that's designed and configured for ideal seller experiences. When you use the Sales Hub app:
+Sales Hub is a Microsoft first-party app that's designed for ideal seller experiences. Use the Sales Hub app to:
 
--   You get access to the preview features with minimal configuration.
+- Harness the power of data and intelligence to forecast, compare annual projections, and measure performance using predictive scoring.
 
--   You get access to the premium features, for a specific period, when they're made available.
+- Collaborate using Teams from within Dynamics 365 to accelerate your pipeline while managers track team performance and provide coaching to increase customer satisfaction.
 
--   You get access to standard sales and sales insights features almost instantly.
+- Access standard (and premium, if licensed) sales features almost instantly.
 
--   You can customize the app and configure the features as required.
+- Access preview features with minimal setup.
 
--   You need not create custom documentation because the Microsoft documentation is based on the Sales Hub app.
+- Access premium features with a limited monthly capacity (Sales Enterprise users only). More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md) 
+
+- Customize the app and configure features as required.
+
+Use the Microsoft documentation to train your sales organization, too. The documentation is based on the Sales Hub app, so there's no need to create custom documentation.
 
 > [!NOTE]
-> The Sales Hub app can coexist with any custom sales apps that you might have in your organization.
-
-## Grant or revoke access to the Sales Hub app
-
-As an administrator, you can decide which users or security roles should have access to the Sales Hub app. The app will honor the access permissions defined in the security role of the user. For example, if the security role allows access to only opportunities and quotes, the app will display only those entities for the user.
-
-If your organization has opted in for early access as described in the [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates) page, the Sales Hub app is enabled by default for the following roles:
-
--   System Administrator
-
--   System Customizer
-
--   Sales, Enterprise app access
-
--   Salesperson
-
--   Sales Manager
-
--   Vice President of Sales
-
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
-As an administrator, you can either grant or revoke access to a security role or to specific users. If you want to hide the app from all the users and roles, follow the instructions in [Hide a model-driven app from users](/powerapps/maker/model-driven-apps/deactivate-app).   
-
-**To grant or revoke access:**
-
-1.  On the **Published Apps** page, select the **More Options (...)** icon in the **Sales Hub** card, and then select **Manage Roles**.
-
-    ![Screenshot depicting the navigation to Manage Roles](media/saleshub-manageroles.png)
-
-    The security roles that already have the access are highlighted in blue, as shown in the preceding screenshot.
-
-2. On the **Manage Roles – Sales Hub** pane, do the following:
- 
-    
-    - To grant or revoke access to all the users of a security role, select the security role.
-    
-    - To grant access to specific users, assign the **Sales, Enterprise app access** role to the users. To revoke access, remove the role for the user. For more information on adding or removing users from a security role, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users).
-
-If you've granted access, the users will see the Sales Hub app in their published apps page. If you've revoked access, the app will be removed from published apps page of the users.
+> The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app, see [Sales Hub app versus custom app](saleshub-customapp.md).
 
 ## Access the Sales Hub app
 
-Access your Dynamics 365 Sales environment, and select Sales Hub from the **Published Apps** page.
-
-![Screenshot of the Sales Hub app card on the **Published apps** page](media/saleshubcard.png)
+Open your Dynamics 365 Apps page, and then select **Sales Hub** from the list of published apps.
 
 > [!NOTE]
-> If you don't see the app, contact your administrator to grant you access. More information: [Grant access to the Sales Hub app](#grant-or-revoke-access-to-the-sales-hub-app).
+> If you've already logged into a Dynamics 365 app, select the app name at the upper-left corner of the page to open the **Apps** page.  
+> :::image type="content" source="media/open-app.PNG" alt-text="A screenshot of a Dynamics 365 app with the app name highlighted.":::
 
-For instructions on using the Sales Hub app on mobile devices, go to [Sign in and sign out from the app](sales-mobile/use-sales-mobile-app.md#sign-in-and-sign-out-from-the-app).
+:::image type="content" source="media/saleshubcard.png" alt-text="Screenshot of the Sales Hub app card on the **Published apps** page":::
+
+If you don't see the app, contact your administrator to grant you access. For more information, see [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
+
+For instructions on using the Sales Hub app on mobile devices, see [Sign in and sign out from the app](sales-mobile/use-sales-mobile-app.md#sign-in-and-sign-out-from-the-app).

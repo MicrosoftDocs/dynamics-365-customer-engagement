@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 02/25/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -31,10 +31,7 @@ To see data related to work items and their status, you need to enable routing d
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Routing**. The **Routing** page appears.
     2. Select **Manage** for **Routing diagnostics**.
@@ -54,7 +51,7 @@ To see data related to work items and their status, you need to enable routing d
    You'll see that a list of new work items start to appear. However, the work items may not appear on your screen immediately.
 
 > [!NOTE]
-> After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. You can select **Turn off diagnostics** to disable diagnostics.
+> After you enable diagnostics, the data will be stored in Microsoft Dataverse. The diagnostics data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
 
 ## Understand routing stages and diagnostics
 
@@ -63,9 +60,11 @@ The **Routing diagnostics** page displays a list of work items with details and 
 - **Work item**: The name of the work item. Work items can be searched and sorted by selecting the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
 - **Routing started on**: The date and time when the routing began.
-- **Routing duration**: The amount of time the work item has been in its current stage.
+- **Routing duration**: The duration for which the work item has been in its current stage.
 - **Work stream**: The name of the workstream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
+- **Routed agent**: The agent to whom the work item was assigned.
+- **Rule hit policy**: Depending on the stage, displays the rule information, such as first match or run all, that helps you understand how the rules were processed in the stage.
 
 ## Routing diagnostics flow
 
@@ -127,15 +126,12 @@ The following stages are available:
 - **Assignment ruleset**: Displays information about the rule sets that were processed.
 - **Agent assignment trace**: Provides details about the assignment criteria and assignment trace:
 
-  > [!NOTE]
-  > Assignment trace is currently unavailable in the North America region.
-
   - **Assignment criteria**:
       - **Assignment method**: Displays "Highest", "Round robin", or "custom".
       - **Capacity**: Displays the capacity information.
       - **Presence**: Displays the presence used.
       - **Skills**: Displays the skills that were matched if any.
-  - **Assignment trace**: 
+  - **Assignment trace**:
       - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
       - **Status reason**: Displays the associated reason of the status.
       - **Assigned to**: Displays the agent to whom the work item is assigned if any.
@@ -143,7 +139,9 @@ The following stages are available:
       - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
 
   > [!NOTE]
-  > Assignment trace provides details only if the highest capacity or round robin assignment method has been used.
+  >
+  > - The **Assignment Criteria** section in **Agent assignment trace** displays details only if the highest capacity or round robin assignment method has been used.
+  > - When assignment failure occurs for a work item, **Status reason** will display the assignment reason for the first three attempts. If the assignment continues to fail, the assignment failure message will be updated hourly. In such cases, the value that's displayed for **Total attempts** might not be refreshed accurately.
 
     :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
 

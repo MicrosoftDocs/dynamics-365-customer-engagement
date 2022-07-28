@@ -1,7 +1,7 @@
 ---
 title: "Configure talking points"
 description: "Configure talking points to provide suggestions on conversation starters that help sellers to quickly establish communications with customers."
-ms.date: 10/26/2021
+ms.date: 07/01/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: cc6353f5-f044-4872-a486-9954550caa1b
@@ -16,15 +16,17 @@ topic-status: Drafting
 ---
 # Configure talking points 
 
+> [!IMPORTANT]
+> Talking points will be deprecated from August 2022. For more information about its impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated). 
+
 The talking points feature helps users in your organization to quickly establish communications with customers.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## To configure talking points
 
@@ -58,9 +60,8 @@ The talking points feature helps users in your organization to quickly establish
 
 ### See also
 
-[Know conversation starters for your customers](../sales/talking-points.md)
+[Know conversation starters for your customers](../sales/talking-points.md)  
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
 [Talking points FAQs](faqs-sales-insights.md#talking-points)
-
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

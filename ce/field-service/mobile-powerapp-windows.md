@@ -1,41 +1,30 @@
 ---
-title: "Field Service (Dynamics 365) app for Windows 10+ devices (preview) (contains video) | MicrosoftDocs"
+title: "Field Service (Dynamics 365) app for Windows 10+ devices (contains video) | MicrosoftDocs"
 description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
 ms.date: 10/01/2021
 ms.reviewer: krbjoran
-
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app:
 - D365CE
 - D365FS
 ---
 
-# Field Service (Dynamics 365) app for Windows 10+ devices (preview)
+# Field Service (Dynamics 365) app for Windows 10+ devices
 
-> [!Note]
-> This feature is in public preview.
-
-The Field Service (Dynamics 365) app is now available for Windows. This native Windows app lets frontline workers view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts.
-
-Built on Microsoft Power Platform as a model-driven app, the Field Service (Dynamics 365) Windows app is built for frontline workers using Microsoft Surface laptops, Surface duos, and other devices running Windows 10 or Windows 11.
+Built on Microsoft Power Platform as a model-driven app, the Field Service (Dynamics 365) Windows app is built for frontline workers using Microsoft Surface laptops, Surface duos, and other Windows devices running Windows 10 or Windows 11.
 
 > [!div class="mx-imgBorder"]
 > ![Field Service native app on a Windows device.](./media/mobile-2020-windows-agenda-view.jpg)
 
-The app supports offline by default and allows frontline workers using a Windows laptop or tablet to be able to use Field Service in low or no connectivity areas.
 
-The Field Service (Dynamics 365) Windows app supports:
-
-- Access to the device's camera, which means you can capture images and videos.
-- Barcode scanning for assets and global search.
-- Deep-linking into the Field Service mobile app.
+The Field Service (Dynamics 365) Windows app supports most common features as iOS & Android versions, including [offline mode](mobile-power-app-system-offline.md), for a consistent cross-platform experience. 
 
 For a guided walkthrough, check out the following video.
 
@@ -55,9 +44,9 @@ Also, be sure to [review installation and set up of the Field Service (Dynamics 
 
 ## Download the app
 
-[Download from Windows store](https://aka.ms/fsmobile-windows10) or simply search for **Field Service (Dynamics 365) (Preview)**.
+[Download from Windows store](https://aka.ms/fsmobile-windows10) or simply search for **Field Service (Dynamics 365) **.
 
-Download the app named **Field Service (Dynamics 365) (Preview) app**.
+Download the app named **Field Service (Dynamics 365) app**.
  
 Open the app and sign in with your username and password, which should be the credentials of a frontline worker user who has the _Field Service - Resource_ security role.
 
@@ -69,10 +58,12 @@ Open the app and sign in with your username and password, which should be the cr
  
 ## View bookings
 
-You can access your bookings from the **Home** screen or **Bookings** screen. Selecting a booking will open the record, where you can then change status, complete service tasks (including inspections), and attach notes to the timeline.
+You can access your bookings from the **Home** screen or **Bookings** screen. On the bookings screen, you have the option to view bookings on an agenda, day, week, month, or [map view](mobile-powerapp-booking-maps.md). You can [customize the agenda view](/mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android apps.
  
 > [!div class="mx-imgBorder"]
-> ![Bookings in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)
+> ![Bookings agenda view in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)
+
+Selecting a booking will open the record, where you can then change status, complete service tasks (including inspections), and attach notes to the timeline.
 
 > [!div class="mx-imgBorder"]
 > ![An open booking record in the Field Service Windows app.](./media/mobile-2020-windows-booking-form-with-status-dropdown.jpg)
@@ -99,19 +90,18 @@ You can use the device camera to scan barcodes either for global search or for f
 
 ## Download data for offline use
 
-The app automatically downloads offline data after you sign in, though you can also force an update of the offline data by selecting **Update date**.
+When enabled for [offline mode](mobile-power-app-system-offline.md), the app will automatically download offline data after you sign in. You can also force an update of the offline data from the **Offline Status** page by selecting **Update date**.
  
 > [!div class="mx-imgBorder"]
 > ![Offline status panel in the Field Service Windows app.](./media/mobile-2020-windows-offline.jpg)
 
 >[!Note]
-> At this time, offline is supported on devices running Windows OS 20H2 (19042.1348) and greater. This limitation will be removed before the app reaches general availability. 
+> At this time, offline is supported on devices running Windows OS 20H2 (19042.1348) and greater.
 
 ## Configuration considerations
 
-The following capabilities *are not* available in this public preview. but are planned for future releases. These capabilities *are* available in the iOS and Android apps.
+The following capabilities *are not* available at this time. These capabilities *are* available in the iOS and Android apps.
 
-- Push notifications
-- Geo tracking of users
-- Quick notes
-- Large file and image support
+- Quick notes photos and videos
+- Access to GCC High or China cloud environment
+- Search with barcode via global search

@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 01/28/2022
+ms.date: 04/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,8 @@ searchScope:
 ---
 
 # Create and manage queues for cases
+
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action such as completing a task or closing a case. You can create both basic and advanced queues (for unified routing) in Customer Service Hub. For information about creating advanced queues, see [Create and manage queues for unified routing](queues-omnichannel.md).
 
@@ -69,11 +71,8 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+        
     1. In the site map, select **Queues** in **Customer support**.
     
     1. On the **Queues** page, select **Manage** for **Basic queues**.

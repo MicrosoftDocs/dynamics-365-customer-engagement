@@ -15,12 +15,11 @@ topic-status: Drafting
 Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What can I configure
 
@@ -88,7 +87,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 
 For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
 
-1. In the **View as different user (preview)** section, select **+ Add user**.
+1. In the **View as different user (preview)** section, select **Add user**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")
@@ -145,6 +144,10 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
 ## View your team   
 As a sales manager, when you open the **Your team** page in settings, you can view the list of team members within your hierarchy, regardless of whether they have conversation intelligence licenses or not. Team members in the displayed list are based on Dynamics 365 and Azure AD.     
 The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.    
+
+> [!div class="mx-imgBorder"]
+> ![Select refresh now to refresh the team members list](media/ci-admin-view-team-refresh.png "Select refresh now to refresh the team members list")
+
 > [!NOTE]
 > To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf. More information: [Configure hierarchy levels](#configure-hierarchy-levels).
 

@@ -13,12 +13,11 @@ manager: shujoshi
 Tags help you quickly filter and identify sequences from a list by categories that you define.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What are tags?
 
@@ -29,7 +28,7 @@ You can perform the following activities on tags:
 -	[Create tags](#create-tags)
 -	[Edit a tag](#edit-a-tag)
 -	[Delete a tag](#delete-a-tag)
--	[Apply a tag to a sequence](#apply-tag-to-a-sequence)
+-	[Apply a tag to a sequence](#apply-a-tag-to-a-sequence)
 -	[Filter sequences based on tags](#filter-sequences-based-on-tags)
 -	[Remove tags from a sequence](#remove-tags-from-a-sequence)
 
@@ -85,7 +84,7 @@ Nested tags allow you to group tags together so that it's easy to identify tags 
     1.	Hover over the root node tag of **North America**, and then select **Add (+)**.     
 
         >[!NOTE]
-        >You can also use **+ New Tag** to add a node below the root node.   
+        >You can also use **New Tag** to add a node below the root node.   
         
         >[!div class="mx-imgBorder"]
         >![Select the Add tag icon corresponding to a tag.](media/sa-sequence-tags-nest-select-add-tag.png "Select the Add tag icon corresponding to a tag")     
@@ -156,7 +155,8 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
 >[!div class="mx-imgBorder"]
 >![Delete a tag and move its child tags to its parent.](media/sa-sequence-tags-delete-mexico-tag.png "Delete tag to move child tags as parent")    
 
-## Apply a tag to a sequence<a name="apply-tag-to-sequence"></a>
+## Apply a tag to a sequence
+<a name="apply-tag-to-sequence"></a>
 
 1.	In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
@@ -170,7 +170,7 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
     >[!div class="mx-imgBorder"]
     >![Select Edit tag for a sequence.](media/sa-sequence-tags-apply-tag-select-edit-tag.png "Select Edit tag for a sequence")    
     
-5.	On the **Edit sequence tags** pane, select **+ Add tags to sequence**.
+5.	On the **Edit sequence tags** pane, select **Add tags to sequence**.
 
     >[!div class="mx-imgBorder"]
     >![Select Add tag to sequence.](media/sa-sequence-tags-apply-tag-select-add-tags-sequence.png "Select Add tag to sequence")    

@@ -1,7 +1,7 @@
 ---
 title: "Functional location in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.date: 12/13/2021
+ms.date: 3/28/2022
 ms.reviewer: krbjoran
 
 ms.topic: article
@@ -89,6 +89,7 @@ To add a new asset, select the ellipses icon, and either add a new asset, or rel
 
 > [!Note]
 > You can't drag a sub asset to a functional location different from the parent asset's functional location.
+> When dragging an asset under a new parent with a different functional location, the asset's functional location will be cleared, and the parent's functional location will be used instead.
 
 ## Search the functional location tree
 

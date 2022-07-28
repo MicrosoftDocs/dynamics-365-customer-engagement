@@ -1,13 +1,11 @@
 ---
 title: "Create or edit campaign using in-app marketing | MicrosoftDocs"
 description: "Use campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing."
-ms.date: 02/10/2022
+ms.date: 03/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-ms.custom: 
-  - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -38,23 +36,23 @@ Promote your business, expand your reach to new customers, and improve sales by 
 Campaigns can include planning activities that you want to perform before you launch the campaign, and also the campaign activities you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Create or edit a campaign
 
 > [!NOTE]
-> The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
+> - The number of campaign emails you can send in a day depends on your organization's limit for outgoing emails from Exchange. 
+> - The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
   
 1. In the site map, select **Marketing Lists**.
 
 2. Open a marketing list record, and then in the **Campaigns** area, select **New Campaign**.
 
-   \- OR -
+      - OR -
 
    To edit a campaign, open a campaign from the list.
   

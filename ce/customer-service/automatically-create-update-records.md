@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 02/28/2022
+ms.date: 05/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ searchScope:
 
 # Automatically create or update records in Customer Service Hub
 
-## Introduction
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
@@ -35,6 +35,8 @@ In Dynamics 365 Customer Service Hub, you can automatically create or update sys
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.
 
 A record creation and update rule consist of rule items. The rule items define the conditions for creating or updating records, and also define the actions or steps to be taken on the records.
+
+When a case record is created through an automatic record creation rule, and the rule owner is a team, the owner of the case record will be the team's administrator user.
 
 ## Activities and entities supported by rules for creating or updating records automatically
 
@@ -59,17 +61,15 @@ Make sure that the following prerequisites are met:
 
 ## Configure rules for creating or updating records automatically
 
-You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for when a rule can be run.
+You can configure a rule that when active will be run for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
-You can configure the rules in the Customer Service admin center (preview) or Customer Service Hub app.
+
+You can configure the rules in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      1. In the **Automatic record creation and update rules** section, select **Manage**.
 
@@ -147,20 +147,20 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
 2. Select the **Advanced** tab, and do the following in **Before evaluating conditions**:
 
-   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any contact or account records.
+   - **Allow emails from unknown senders**: Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any contact or account records.
 
         This option, with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md).
 
-   - **Manage unknown senders by:** Select one of the following options:
-     - **Creating a new contact automatically:** Specify if you want a contact to be created automatically.
-     - **Mapping in Power Automate manually:** Specify if you want to evaluate and set up the resolution for the contact in Power Automate.
+   - **Manage unknown senders by**: Select one of the following options:
+     - **Creating a new contact automatically**: Specify if you want a contact to be created automatically.
+     - **Mapping in Power Automate manually**: Specify if you want to evaluate and set up the resolution for the contact in Power Automate.
         > [!IMPORTANT]
         > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field. More information: [Manually map a contact in Power Automate](#configure-in-power-automate)
-   - **Require a valid entitlement on the connected case:** If you select **Yes**, a case is created only if an active entitlement exists for the customer.
+   - **Require a valid entitlement on the connected case**: If you select **Yes**, a case is created only if an active entitlement exists for the customer.
 
         If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
-   - **Wait for a specific amount of time after the connected case has been resolved:** Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case will be created until the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
+   - **Wait for a specific amount of time after the connected case has been resolved**: Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case will be created until the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
 
       If set to **No**, a case will be created even if a related case exists and only if the email isn't already associated with a resolved case.
 
@@ -211,6 +211,8 @@ The mails from known senders only will be processed.
 
 The steps in this section are applicable only when you select the option to manually map in Power Automate in the **Manage unknown senders by** field on the **Advanced** tab of the record creation and update rule.
 
+The option to create the contact is based on the email sender's permission. If the email sender doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
+
 To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
 
 1. In the **Is this email sender a contact or an account** step, for the **If no** option, delete the **Terminate when no valid customer found** action.
@@ -232,6 +234,23 @@ To create a contact for unknown senders of mail, configure the following options
    if(equals(triggerOutputs()?['body/_emailsender_type'], 'contacts'), if(contains(variables('Customer from email sender'), triggerOutputs()?['body/_emailsender_value']) , string(''), concat('contacts(',triggerOutputs()?['body/_emailsender_value'], ')')), string(''))
 
 1. Save the changes.
+
+### Create contacts for unknown senders using rule owner context
+
+By default, a contact for unknown email sender is created with the email owner context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
+
+1. Go to the [Power Apps](https://make.powerapps.com) portal.
+
+2. Select the required environment, and then select **Solutions** in the left pane.
+
+3. On the **Solutions** page, select **Default Solution**.
+
+4. Search for **Environment variables**, and select the **msdyn_ArcCreateContactWithRuleOwner** environment variable.
+
+5. On the edit page that appears, set the **Current Value** as **1** to override the default value.
+
+6. Save and publish the customization.
+
 
 ## Activate a rule for creating or updating records automatically
 
@@ -290,6 +309,6 @@ Perform the following steps to use the activity monitor for the rules:
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
-[FAQs on activity monitor](arc-faqs.md)
+[FAQ on activity monitor](arc-faqs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

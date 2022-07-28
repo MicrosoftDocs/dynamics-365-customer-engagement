@@ -33,7 +33,9 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 - Google Chrome
 
 > [!NOTE]
-> Ensure microphone and speaker access is not blocked by browser policy for voice and video channels.
+>
+> - Ensure microphone and speaker access is not blocked by browser policy for voice and video channels.
+> - The widget domain needs to be granted permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently grant the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ## Domains
 
@@ -41,9 +43,9 @@ The domain of the channel URL should use HTTPS protocol.
 
 ### See also
 
+[Get Dynamics 365 Channel Integration Framework 1.0](get-channel-integration-framework.md)  
 [Get Dynamics 365 Channel Integration Framework 2.0](../v2/get-channel-integration-framework.md)  
-[Get Dynamics 365 Channel Integration Framework 1.0](../v2/get-channel-integration-framework.md)  
-[Overview of Dynamics 365 Channel Integration Framework](../v2/overview-channel-integration-framework.md)  
+[Overview of Dynamics 365 Channel Integration Framework 2.0](../v2/overview-channel-integration-framework.md)  
 [FAQs](../faq-channel-integration-framework.md)  
 
 

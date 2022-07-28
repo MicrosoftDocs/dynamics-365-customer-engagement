@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 02/01/2021
+ms.date: 06/15/2022
 ms.reviewer: krbjoran
 ms.topic: article
 
@@ -9,7 +9,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: krbjoran
 manager: shellyha
 search.app: 
   - D365CE
@@ -74,10 +74,10 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
-- **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There is an option in the advanced panel to make the textbox bigger to allow for multiline responses.
-In Early Access opt in release a TextBox can be input with a default value and can also be made as read only.
+- **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There is an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of textbox read only.](./media/textbox-read-only.jpg)
+> ![Screenshot of textbox read-only.](./media/textbox-read-only.jpg)
 
 
 - **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
@@ -333,6 +333,7 @@ If an inspection question is required, the technician will not be able to mark *
 - Inactive inspections and work order service tasks are not available in offline mode. 
 - Inspections do not load in Internet Explorer. Microsoft Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
+- If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form. 
 
 ### Field Service inspections or Power Apps inspections
 

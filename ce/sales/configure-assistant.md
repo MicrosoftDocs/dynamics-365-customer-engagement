@@ -20,12 +20,11 @@ topic-status: Drafting
 Configure the assistant to help sellers track their daily actions and communications through a collection of actionable insight cards.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Configure the standard and premium assistant 
 
@@ -158,7 +157,8 @@ Teasers will be disabled in your organization.
 [Edit insight cards](edit-insight-cards.md)  
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)  
 [Create custom cards in Assistant](extend-relationship-assistant-card.md)  
-[Sales Insights privacy notice](privacy-notice.md)
+[Assistant FAQs](faqs-sales-insights.md#assistant)  
+[Sales Insights privacy notice](privacy-notice.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

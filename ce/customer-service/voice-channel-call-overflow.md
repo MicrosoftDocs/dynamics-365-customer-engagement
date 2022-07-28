@@ -4,7 +4,7 @@ description: "Learn how to configure call overflow for the voice channel in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 
 ---
@@ -35,11 +35,9 @@ For call overflow to work correctly, the following prerequisites must be met:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+       
+
     1. In the site map, select **Queues** in **Customer support**.
     
     2. On the **Queues** page, select **Manage** for **Advanced queues**.

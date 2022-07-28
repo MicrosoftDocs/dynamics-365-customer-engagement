@@ -24,7 +24,7 @@ search.app:
 
 # Track tasks to Dynamics 365
 
-Track your tasks in Microsoft Outlook to your Dynamics 365 app. You can only track a task using category based tracking. For more information, see [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails.md).
+Track your tasks in Microsoft Outlook to your Dynamics 365 app. You can only track a task using category based tracking. For more information, see [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails).
 
 1. Navigate to your tasks in Microsoft Outlook.
 

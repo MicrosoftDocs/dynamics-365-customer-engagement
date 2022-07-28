@@ -4,13 +4,12 @@ description: Learn about barcode scanning and global search in the Field Service
 ms.date: 02/14/2022
 ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -100,8 +99,8 @@ By default, Dynamics 365 Field Service is configured to search against activity,
 
 To enable a new bar code field for search within a table:
 
-1. If the desired table is not enabled for search, [follow these steps](power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search) to enable the table for search. 
-2. Add the barcode-enabled field to the [table's quick-find view](power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+1. If the desired table is not enabled for search, [follow these steps](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search) to enable the table for search. 
+2. Add the barcode-enabled field to the [table's quick-find view](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 3. Save and publish changes.
 
 > [!div class="mx-imgBorder"]
@@ -121,12 +120,12 @@ To enable a new bar code field for search within a table:
 > ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-scan-barcode-new.png)
 
 > [!Note]
-> If you're using offline first the record will need to be included in your offline profile and downloaded to the device to display in search results. 
+> If you're using offline first the record will need to be included in your offline profile and downloaded to the device to display in search results.
 
+## Other considerations
 
+- Custom integration using barcode can be accomplished on mobile devices with [getBarcodeValue API](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
+- Currently, global search with barcode scanning is not available on tablet and Windows versions of the app.
 
-### See also
-
-[```getBarcodeValue``` - Power Apps](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

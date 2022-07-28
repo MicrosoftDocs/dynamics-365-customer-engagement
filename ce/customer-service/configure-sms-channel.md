@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -59,10 +59,7 @@ To sign up for TeleSign
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Customer support**, select **Channels**.
     
@@ -174,7 +171,7 @@ When you validate the API key while setting up the SMS channel, a call is made t
     > [!NOTE]
     >
     > - You can configure only one phone number per workstream.
-    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
+    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/).
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
@@ -197,14 +194,12 @@ When you validate the API key while setting up the SMS channel, a call is made t
 
 ### See also
 
-[Overview of channels](channels.md) <br />
-[Understand and create workstreams](create-workstreams.md)  <br />
-[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
-[Configure SMS channel using Twilio](configure-sms-channel-twilio.md)	
-[Create and manage routing rules](routing-rules.md) <br />
-[Configure automated messages](configure-automated-message.md) <br />
-[Delete a configured channel](delete-channel.md)<br />
-[SMS FAQ](faqs.md#sms)
-
+[Channels in Omnichannel for Customer Service](channels.md)  
+[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)  
+[Configure SMS channel for Twilio](configure-sms-channel-twilio.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Delete a configured channel](delete-channel.md)  
+[SMS FAQ](faqs.md#sms)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

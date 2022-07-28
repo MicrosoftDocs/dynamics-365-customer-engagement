@@ -46,7 +46,7 @@ These fields that will be populated automatically:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solution**.
-3. Select an existing unmanaged solution or create a new one and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
+3. Select an existing unmanaged solution or create a new one and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/power-apps/maker/data-platform/solutions-overview).
 
    > [!div class="mx-imgBorder"]
    > ![Edit the solution.](media/edit-mailapp-solution.png)

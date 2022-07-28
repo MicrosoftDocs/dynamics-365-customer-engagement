@@ -14,12 +14,11 @@ When you add a product to an opportunity, the opportunity's estimated revenue va
 To change the estimated revenue value of an opportunity based on any changes to the associated products or product quantities, recalculate the opportunity.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Recalculate an opportunity
 
@@ -42,7 +41,7 @@ To change the estimated revenue value of an opportunity based on any changes to 
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
-[Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)  
+[Print quote, invoice, or other records](print-records.md)  
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 
 

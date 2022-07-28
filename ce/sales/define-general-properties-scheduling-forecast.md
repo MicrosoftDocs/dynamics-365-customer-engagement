@@ -1,7 +1,7 @@
 ---
-title: "Define properties and scheduling for forecasts"
-description: "Define a forecast model using rollup and hierarchy entities and their relationship. Schedule how frequently you want to generate the forecast."
-ms.date: 10/26/2021
+title: Define forecast properties and scheduling
+description: Define a forecast model using rollup and hierarchy entities and schedule how often to generate the forecast in Dynamics 365 Sales.
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,174 +9,165 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
-# Define general properties and scheduling 
 
-Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
+# Define a forecast's general properties and scheduling
+
+Use general properties and scheduling options to define a forecast model.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Basic forecast scheduling
 
-1.	In the **General** step, enter a descriptive name for the forecast. For example, **Kenny's Org FY 2020 Forecast**.
+## Define the forecast's general properties
 
-    > [!div class="mx-imgBorder"]
-    > ![Enter a name for the forecast.](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
+1. In the **General** step of the **Forecast configuration** page, enter a descriptive name for the forecast. In our example, we'll enter *Kenny's Org FY2022 Forecast*.
 
-2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
+    :::image type="content" source="./media/forecast-general-properties-forecast-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the forecast name entered.":::
 
-    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Tracking** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+1. Select a **Rollup entity**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select a rollup entity.](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
-
-    The following rollup entities are selected for templates:
+    The forecast is based on the gross rollup of the entity you select. Each forecast template starts with a default rollup entity:
 
     | Template | Default rollup entity |
     |----------|-----------------------|
     | Org chart forecast | Opportunity |
-    | Territory forecast | Opportunity |
     | Product forecast | Opportunity Product |
+    | Territory forecast | Opportunity |
 
-3.	Choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy-enabled entities that are available in your organization. 
+    Choose a custom or out-of-the-box entity to support your organization's specific requirements if needed.
 
-    By default, the following entities are selected for templates:
+    Only entities that have **Change Tracking** turned on are listed. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+
+    :::image type="content" source="./media/forecast-general-properties-rollup-entity.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the rollup entity selected.":::
+
+1. Select a **Hierarchy entity**.
+
+    The forecast uses this entity to group your organization's data. Only entities that have a hierarchy are shown in the list.
+
+    Each forecast template starts with a default hierarchy entity:
 
     | Template | Default hierarchy entity |
     |----------|--------------------------|
     | Org chart forecast | User |
-    | Territory forecast | Territory |
     | Product forecast | Product |
-      
-4.	Select the **Rollup to hierarchy relationship** attribute to establish a relationship between the rollup and hierarchy entities.
+    | Territory forecast | Territory |
 
-    For example, if you've selected the hierarchy entity as **User**, the attributes in the **Opportunity** entity that has a relationship with the **User** entity are displayed. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![Select an attribute to define relationship.](media/forecast-relationship-entity-attribute.png "Select an attribute to define relationship")
-    
-    Select an attribute to define the rollup relationship between the rollup entity (**Opportunity**) and the hierarchy entity (**User**). Here, we're selecting the relationship attribute as **Owner (User)**. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that the attribute **Owner** is in the **Opportunity** entity that has a relationship with the **User** entity.
+1. Select a **Rollup to hierarchy relationship**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Selected owner attribute.](media/forecast-relationship-entity-attribute-created-by.png "Selected owner attribute")
-
-    Similarly, if there is no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only.
-
-    >[!NOTE]
-    >The entities that contains related attributes must be hierarchical type only. For example, if **Opportunity Product** is rollup entity and **User** is hierarchy entity, the relationship between them can't be established through the **Opportunity** entity(*Opportunity Product > Opportunity(Opportunity) > Owner(User) > User*), because **Opportunity** entity is not a hierarchical type entity.
-    
-    Here, we're selecting the hierarchy entity as **Territory**. Because there's no direct relationship between the rollup entity (**Opportunity**) and the hierarchy entity (**Territory**), the  relationship attributes are displayed on the **Related** tab. These attributes have an indirect relationship with the rollup entity through the **Account** entity. The **Account** entity is considered to be an intermediate entity for establishing a relationship with the hierarchical entity **Territory**. 
-    
-    The relationship is mapped as *Opportunity > Account (Account) > Territory (Territory) > Territory*. The mapping specifies that there is an attribute **Account** in the **Opportunity** entity that's related to the **Account** entity, which in turn has the **Territory** attribute that's related to the **Territory** entity. The rollup values in the forecast will be based on the relationship defined through the **Territory** attribute.
-
-    > [!div class="mx-imgBorder"]
-    > ![Selected related attribute.](media/forecast-relationship-entity-related-attribute-account-user.png "Selected related attribute")
-
-    By default, for both the **Org chart forecast** and **Territory forecast** templates, the rollup relationships are predefined as described in the following table.
+    This step establishes a relationship between the rollup and hierarchy entities. Each forecast template starts with a default rollup to hierarchy relationship:
 
     | Template | Rollup to hierarchy relationship | Description |
     |----------|----------------------------------|-------------|
     | Org chart forecast | Opportunity > Owner (User) > User | The forecast hierarchy is defined based on the organizational hierarchy. |
-    | Territory forecast | Opportunity > Account (Account) > Territory (Territory) > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
     | Product forecast | Opportunity Product > Existing Product (Product) > Product | The forecast hierarchy is defined based on the product hierarchy. |
+    | Territory forecast | Opportunity > Account (Account) > Territory (Territory) > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
 
-    You can edit these values if you want to use your organization-specific attributes to define the relationship between the rollup entity and hierarchy entity.
+    Choose different values to support your organization's specific requirements if needed.
 
-5.	In the **Top of hierarchy** list, choose a value from the list that will be at the top of this forecast hierarchy. The list of values depends on the selected hierarchy entity.
+    In the following example, we selected **User** as the hierarchy entity. We can choose from fields in the **Opportunity** entity that are related to the **User** entity.
 
-    For example, if you select the hierarchy entity as **User**, the list displays all active users in your organization. You can then select a user from the list to be displayed at the top of the hierarchy. Say, Kenny Smith, a sales director, is looking at a forecast based on the **Org chart** template. He wants to see a forecast for his team, so he selects his name as the top name in the hierarchy. After Kenny makes his selection, he can see a preview of the full hierarchy in the rightmost pane. 
+    :::image type="content" source="./media/forecast-relationship-entity-attribute.png" alt-text="A screenshot of the General step of the Forecast configuration page, with Hierarchy entity and Rollup to hierarchy relationship shown.":::
 
-    > [!div class="mx-imgBorder"]
-    > ![Configuration section.](media/forecast-general-tab-configuration-section.png "Configuration section")
+    Continuing our earlier example, we selected **Owner (User)** as the relationship. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that **Owner** is in the **Opportunity** entity that has a relationship with the **User** entity.
 
-6.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
+    :::image type="content" source="./media/forecast-relationship-entity-attribute-created-by.png" alt-text="A screenshot of the General step of the Forecast configuration page, with Rollup to hierarchy relationship mapped.":::
 
-7.	In the **Scheduling** section, specify the following information. <a name="basic-scheduling"> </a>  
+    What if there is no direct relationship between the rollup entity and the hierarchy entity? In that case, you can choose a field from a related entity to define an indirect relationship. Select the **Related** tab, and then choose a field from the list. Only fields in hierarchical entities are shown in the **Related** list.
 
-    >[!NOTE]
-    >You can use the advanced scheduling to configure the forecast scheduling based on the calendar used by your organization. More information: [Advanced scheduling](#advanced-scheduling)
+    In the following example, we selected **Opportunity** as the rollup entity and **Territory** as the hierarchy entity. Because there's no direct relationship between them, we must select the **Related** tab.
 
-    | Parameter | Description |
-    |-----------|-------------|
-    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
-    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings).|
-    | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
-    | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
-    | Valid from | This field is read-only. It identifies the date the forecast starts. |
-    | Valid to | This field is read-only. It identifies the date the forecast ends. |
-    
-    > [!div class="mx-imgBorder"]
-    > ![Scheduling section.](media/forecast-general-tab-scheduling-section.png "Scheduling section")
+    :::image type="content" source="./media/forecast-relationship-entity-related-attribute-none.png" alt-text="A screenshot of forecast configuration General settings, showing that there's no direct relationship between the selected rollup and hierarchy entities.":::
 
-    Scheduling supports fiscal year that spans across calendar years and fiscal months that spans across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a monthly forecast for the fiscal year FY2020.
-    
-    1. In your organization's fiscal year setting, verify **Start Date** and **Name Based On** settings.
+    In our example, the **Territory** field in the **Related** list is indirectly related to **Opportunity** through the **Account** entity. In other words, **Account** is an intermediate entity for establishing a relationship between **Opportunity** and **Territory**.
 
-        The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
-        
-        > [!div class="mx-imgBorder"]
-        > ![Verify organizational fiscal settings.](media/forecast-schedule-org-fy-settings.png "Verify organizational fiscal settings")
-        
-        In the above image, you can see that:
-        
-        **Start Date** is selected as **12/28/2019** (format is DD/MM/YYYY) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020.
-        
-        **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
-        
-        To learn more, see [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings).
-        
-    2. In the **Scheduling** section, select the following values:<br>
-        **Forecast period** as **Monthly**<br>
-        **Fiscal year** as **FY2020**<br>
-        **Start this forecast** as **December**<br>
-        **Number of periods** as **12**<br>
+    :::image type="content" source="./media/forecast-relationship-entity-related-attribute-account-user.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the related field selected.":::
 
-        The dates in the **Valid from** and **Valid to** are selected according to your organizational fiscal year settings.
-        
-        When you select the forecast period as monthly, the **Start this forecast on fiscal start date month** option is displayed at the bottom of the section.<br>
-        When this option is enabled, the forecast’s first month will be taken from the **Valid from** month (**December** when valid from is **12/28/2019**). When disabled, the forecast’s first month will be the following month (**January**). 
+    The relationship is mapped as *Opportunity > Account (Account) > Territory (Territory) > Territory*. The mapping specifies that there's a field **Account** in the **Opportunity** entity that's related to the **Account** entity. The **Account** entity in turn has a **Territory** field that's related to the **Territory** entity. The rollup values in the forecast are based on the relationship defined through the **Territory** field.
 
-    > [!div class="mx-imgBorder"]
-    > ![Schedule a forecast with start month name.](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
+1. In the **Top of hierarchy** list, select a value that will be at the top of this forecast hierarchy.
 
-8.	Select **Next**.
+    The list of values depends on the hierarchy entity you selected. For example, if you select **User** as the hierarchy entity, the list displays active users in your organization.
+
+    Let's say that Kenny Smith, a sales director, wants to see a forecast for his team. He builds a forecast based on the **Org chart** template and selects his name as the top of the hierarchy. His team's hierarchy is previewed to the right of the forecast options.
+
+    :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+
+1. [Schedule the forecast](#schedule-the-forecast) using basic or advanced options, as in the following section.
+
+1. When you've finished scheduling, select **Next**.
+
+## Schedule the forecast
+
+Basic scheduling uses the Gregorian calendar, with 12 weeks per quarter. Use [advanced scheduling](#advanced-scheduling) if your organization uses a different calendar.
+
+### Basic forecast scheduling
+
+1. In the **Scheduling** section, specify the following information.
+
+    | Option | Description |
+    | --- | --- |
+    | **Forecast period** | Select whether the forecast is generated monthly or quarterly. By default, **Quarterly** is selected. |
+    | **Fiscal year** | Select the fiscal year for the forecast. The fiscal year list is populated based on your organization's [fiscal year settings](/power-platform/admin/work-fiscal-year-settings). |
+    | **Forecast starts at** | Select the time period to start forecasting. If you select **Monthly**, select the month you want to start forecasting. If you select **Quarterly**, select the quarter you want to start forecasting. |
+    | **Number of periods** | Enter the number of forecast periods to generate. Forecasts can span up to one year. |
+    | **Valid from** and **Valid to** | These settings are read-only. They identify the dates the forecast starts and ends and are taken from your organization's fiscal year settings. |
+
+    :::image type="content" source="./media/forecast-general-tab-scheduling-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the Scheduling options shown.":::
+
+    Scheduling supports fiscal years that span multiple calendar years and fiscal months that span multiple calendar months. Let's say your organization's fiscal year runs from July 1 to June 30. To schedule a monthly forecast for the fiscal year 2022, select the values as follows:
+
+    - **Forecast period**: **Monthly**
+    - **Fiscal year**: **FY2022**
+    - **Start this forecast**: **July**
+    - **Number of periods**: **12**
+
+    :::image type="content" source="./media/forecast-schedule-org-select-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with scheduling options set to create a monthly forecast for FY2022.":::
+
+    When you select a monthly forecast period, another option, **Start this forecast on fiscal start date month**, becomes available. Turn on this setting if you want the forecast’s first month to be the **Valid from** month. If you leave it turned off, the forecast’s first month will be the month following the **Valid from** month.
 
 ## Advanced scheduling
 
-Using advanced scheduling, you can configure forecast scheduling based on the calendar used by your organization. For example, a car manufacturing company, Contoso, has a planning calendar that uses 13 weeks per quarter. Contoso uses what's referred to as a 4-4-5 calendar, in which quarters are divided into two 4-week months and one 5-week month. The 13 weeks can also be grouped into 5–4–4 or 4–5–4 calendars, depending on organizational requirements.
+Turn on **Enabled advanced scheduling** to create a forecast that's based on the calendar your organization uses.
 
-Forecasting now supports the selection of different calendar patterns to match your organizational requirements. In the **Scheduling** section, enable the advanced scheduling option.
+:::image type="content" source="./media/forecast-adv-scheduling-enable-preview.png" alt-text="A screenshot of the General step of the Forecast configuration page, with advanced scheduling options shown.":::
 
-> [!div class="mx-imgBorder"]
-> ![Enable advanced scheduling preview.](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     
+More options are available when you turn on advanced scheduling:
 
-In addition to the [basic scheduling settings described earlier in this article](#basic-scheduling), the following options are available for you to configure:
+- **Fiscal Year Start Date**: Select the date your organization's fiscal year starts.
+- **Calendar Template**: Select the template that corresponds to the number and grouping of accounting periods in your organization's calendar.
 
-- **Fiscal Year Start Date**: Select the date depending on your organization's fiscal year start date. In general, the fiscal year start date starts at the beginning of a quarter, such as January 1, April 1, July 1, or October 1.
-- **Calendar Template**: Select the calendar template that corresponds to the accounting periods used in your organization. The calendar patterns supported in forecasting are described in the following table.
+    | Calendar template | Description |
+    | --- | --- |
+    | **4-4-5**, **4-5-4**, and **5-4-4**\* | This pattern divides a year into four quarters of 13 weeks each, with two 4-week months and one 5-week month in each quarter. In the 5-4-4 and 4-4-5 patterns, the 5-week month falls at the start or end of the quarter, respectively. With 13-week quarters, the period always ends on the same day of the week. This pattern is useful for shift or manufacturing planning, because every period is the same length. |
+    | **Gregorian** | By default, this pattern is a 12-month period between January 1 and December 31. You can choose a different start and end date. |
+    | **Broadcast Calendar** | In this pattern, every month has either four or five weeks that all start on Monday and end on Sunday. Broadcast calendar months have either 28 days or 35 days.<br>The key link between the broadcast and Gregorian calendars is that the first week of every broadcast month always contains the first day of the month on the Gregorian calendar. For example, if January 1 falls on a Saturday, the broadcast calendar year begins on the preceding Monday, December 27. Broadcast January has five weeks and ends on January 30. The four weeks of broadcast February begin on January 31. The number of weeks in a broadcast month is based on the number of Sundays that fall in that month. The period ends on the last Sunday of the month.<br>When you choose this option, the **Fiscal Year Start Date** is automatically set to the Monday in the week that contains January 1. To remained aligned with the established broadcast calendar logic, the start date can't be changed. |
+    | **3-3-3-4**, **3-3-4-3**, **3-4-3-3**, and **4-3-3-3**\* | This pattern divides a year into 13 months of 4 weeks each, with three 3-week months and one 4-week month in each quarter. For example, in the 4-3-3-3 and 3-3-3-4 calendars, the 4-week month falls at the start or end of the quarter, respectively. |
 
-    | Calendar templates | Description |
-    |--------------------|-------------|
-    | 4-4-5, 4-5-4, and 5-4-4 | This calendar pattern divides a year into four quarters of 13 weeks each. In the 4-4-5 pattern, the quarter is grouped into two 4-week months and one 5-week month. Similarly, the grouping can be configured as 5–4–4 or 4–5–4. Using this calendar pattern, the end date of the period is always the same day of the week, which is useful for shift or manufacturing planning because every period is the same length.<br>This calendar pattern has only 364 days (7 days &times; 52 weeks), meaning that a fifty-third week will need to be added every five or six years. This might make year-on-year comparison difficult. You can add an extra week to a specific quarter or month by selecting **Add week** in the preview section. |
-    | Gregorian | This calendar pattern is a 12-month period between January 1 and December 31. You can choose a different start and end date for this 12-month period. |
-    | Broadcast Calendar | This calendar pattern starts on a Monday and ends on a Sunday, and every month has either four or five such weeks. The broadcast calendar months thus have either 28 or 35 days.<br>The key link between the broadcast and Gregorian calendars is that the first week of every broadcast month always contains the Gregorian calendar first of the month. For example, if January 1 falls on a Saturday, the broadcast calendar year begins on the preceding Monday, December 27. Broadcast January would then have five weeks, ending on January 30, and the four weeks of broadcast February would begin on January 31. The number of weeks in a broadcast month is based on the number of Sundays that fall in that month, with the period ending on the last Sunday of the month.<br>When you choose this option, the **Fiscal Year Start Date** is automatically set to the Monday in the week that contains January 1. To remained aligned with the established broadcast calendar logic, the start date can't be changed. |
-    | 3-3-3-4, 3-3-4-3, 3-4-3-3, and 4-3-3-3 | This calendar pattern divides a year into 13 periods where each period is of 4 weeks. For example, in 3-3-3-4 calender, the first 3 quarters consist of 3 periods and the fourth quarter consists 4 periods. Similarly, the grouping can also be configured as 3-3-4-3, 3-4-3-3, or 4-3-3-3.<br>This calendar pattern has only 364 days (7 days &times; 52 weeks), meaning that a fifty-third week will need to be added every five or six years. This might make year-on-year comparison difficult. You can add an extra week to a specific quarter or month by selecting **Add week** in the preview section. | 
+    :::image type="content" source="./media/forecast-adv-scheduling-445-pattern.png" alt-text="A screenshot of advanced forecast scheduling options, with a 4-4-5 calendar pattern shown.":::
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
-    
+    \*The 4-4-5/4-5-4/5-4-4 and 3-3-3-4/3-3-4-3/3-4-3-3/4-3-3-3 calendars have only 364 days (7 days &times; 52 weeks). You'll need to add a fifty-third week every five or six years, which might make year-on-year comparison difficult.
+
+    To add an extra week to a specific quarter or month, select the period in the preview, and then select **Add Week**.
+
+    :::image type="content" source="./media/forecast-adv-scheduling-445-pattern-add-week.png" alt-text="A screenshot of advanced forecast scheduling options, with the first month in the forecast period selected to receive an extra week.":::
+
+    To remove an extra week, select the period in the preview, and then select **Reset Added Week**.
+
+    :::image type="content" source="./media/forecast-adv-scheduling-445-pattern-add-week-added.png" alt-text="A screenshot of advanced forecast scheduling options, with an extra week added to the first month in the forecast period.":::
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+
 <table>
 <tr><td>
 
-> [!div class="nextstepaction"] 
+> [!div class="nextstepaction"]
 > [Previous step: Select a template](select-template-forecast.md)
 </td><td>
 
-> [!div class="nextstepaction"] 
+> [!div class="nextstepaction"]
 > [Next step: Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 </td></tr>
 </table>
@@ -185,7 +176,7 @@ In addition to the [basic scheduling settings described earlier in this article]
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  
+[Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings)  
 [Troubleshooting forecasts](ts-forecasts.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

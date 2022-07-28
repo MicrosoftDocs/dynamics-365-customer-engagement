@@ -19,12 +19,11 @@ topic-status: Drafting
 Get intelligent suggestions on action that you take on notes you enter during a recent meeting or discussion with your customer.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above  <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Create actions based on suggestions
 
@@ -87,7 +86,8 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
-[Configure Notes analysis](configure-notes-analysis.md)
+[Configure Notes analysis](configure-notes-analysis.md)  
+[Notes analysis FAQs](faqs-sales-insights.md#notes-analysis)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

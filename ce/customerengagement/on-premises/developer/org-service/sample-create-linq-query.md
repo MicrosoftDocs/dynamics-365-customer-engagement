@@ -54,7 +54,7 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
 [SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/CreateQuery/SampleProgram.cs)
   
 ### See also  
- [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
+ [Build Queries with LINQ (.NET Language-Integrated Query)](/powerapps/developer/data-platform/org-service/build-queries-with-linq-net-language-integrated-query)   
  [Sample: Complex LINQ Queries](sample-complex-linq-queries.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
 

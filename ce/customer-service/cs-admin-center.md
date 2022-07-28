@@ -1,46 +1,39 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 02/11/2022
+ms.date: 04/11/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Get started with Customer Service admin center (Preview)
+# Get started with Customer Service admin center
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+Welcome to Customer Service admin center, a new app that unifies and simplifies administration experience across the Customer Service suite.
 
-## Introduction
-
-Welcome to Customer Service admin center (preview), a new app that unifies and simplifies administration experience across the Customer Service suite.
-
-Use the Customer Service admin center app to set up everything related to customer service, such as defining parent-child case hierarchy, creating queues, channels, rules for automatic case creation, service-level agreements (SLAs), entitlements, and customer service schedules.
+Use the Customer Service admin center app to set up the features in Customer Service, such as defining parent-child case hierarchy, creating queues, channels, rules for automatic case creation, and customer service schedules.
 
 Some of the improvements include:  
 
 - Consolidated administration experiences across Customer Service Hub and Omnichannel admin center, and app profile manager.
 
-- Re-organized site map that's task oriented.
+- Reorganized site map that's task oriented.
 
 - Overview pages for each area that list at-a-glance information with deep links to manage features.
 
 - Landing pages per feature with an overview of all the capabilities.
 
-- The site map adapts to the capabilities that are provisioned. Based in core Customer service, if Omnichannel for Customer Service is provisioned, additional features are automatically available.
+- The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, other features are automatically available.
+
+  
+   <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Prerequisites
 
-You will need one or more of the following security roles to access this app.
+You'll need one or more of the following security roles to access this app.
 
-- **System Administrator**: Can access and edit all the sit emap entries
+- **System Administrator**: Can access and edit all the site map entries
 
 - **System Customizer**: Can access and edit all the site map entries
 
@@ -52,7 +45,16 @@ You will need one or more of the following security roles to access this app.
 
 ## Access the app
 
-The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center(preview).
+The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center.
+
+### Quick setup (preview)
+
+> [!NOTE]
+>
+> - Quick setup is in preview; therefore, we recommend that you don't use it in production. Use it only in test and development environments.
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
 ### Navigate the site map in Customer Service admin center
 
@@ -68,9 +70,9 @@ You can manage the following features in **Customer support**:
 - **User management**: Users, their skills, capacity profiles, and role persona mapping
 - **Channels**: Channels, such as record, chat, and voice, and the messaging accounts and phone numbers.
 - **Queues**: Manage basic and advanced queues.
-- **Routing**: Routing-related settings, such as enable unified routing, configure record routing, routing diagnostics, and machine learning models for skill-based, effort-based, and sentiment-based routing.
+- **Routing**: Settings, such as enable unified routing, configure record routing, routing diagnostics, and machine learning models for skill-based, effort-based, and sentiment-based routing.
 - **Workstreams**: Workstreams for the different channels.
-- **Case settings**: Subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and 
+- **Case settings**: Subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and case resolution dialog.
 - **Customer settings**: Blocked numbers, authentication settings, geo location, phone music, outbound messaging and automate messages.
 
   :::image type="content" source="media/customer-support-overview.png" alt-text="Overview page of Customer support in Customer Service admin center.":::
@@ -88,14 +90,14 @@ You can manage the following features in **Operations**:
 - **Insights**: Historical analytics for Customer Service and Omnichannel for Customer Service, Omnichannel intraday insights and AI feature settings for cases and conversations, real-time translation and machine-learning models for skills, and skill-based, effort-based, and sentiment-based routing setup.
 - **Calendar**: Operating hours, Customer Service calendar, and holiday calendar.
 - **Service terms**: Service-level agreements (SLAs), SLA KPIs, and entitlements
-- **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, resource categories.
+- **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, and resource categories.
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
   :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
 
-### FAQs
+### FAQ
 
-See the [FAQs about Customer Service admin center](faq-customer-service-admin-center.md) for any questions that you might have.
+See the [FAQ about Customer Service admin center](faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### See also
 

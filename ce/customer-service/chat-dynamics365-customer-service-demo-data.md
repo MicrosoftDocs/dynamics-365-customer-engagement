@@ -1,6 +1,6 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
+description: "This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.date: 02/25/2022
 
 ## Introduction
 
-This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
+This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 
 The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment that has the Chat for Dynamics 365 Customer Service add-on.
 
@@ -160,7 +160,7 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 > [!IMPORTANT]
 >
-> - The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and the voice channel, can be configured and used only in the new admin apps. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
 > - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 Verify that the number of records and types of entities listed in the **Fabrikam** fictitious scenario appear as expected.

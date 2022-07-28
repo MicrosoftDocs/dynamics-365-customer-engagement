@@ -61,6 +61,9 @@ Connected Field Service for Azure IoT Hub is an add-on solution that brings Azur
 
 All Azure IoT services run in your own Azure cloud subscription. Additionally, we provide an enterprise-ready template that you can customize for each Azure IoT service.
 
+> [!Note]
+> Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules. 
+
 ## Privacy details for Connected Field Service
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 

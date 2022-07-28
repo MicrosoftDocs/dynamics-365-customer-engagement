@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 01/10/2022
+ms.date: 03/08/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -27,15 +27,14 @@ You can configure conversation intelligence with Microsoft Teams. After you sign
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
-> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Microsoft Teams for conversation intelligence
 
@@ -72,7 +71,7 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
 
     | Option | Description |
     |--------|-------------|
-    | Enable recording for | Specifies the security roles in your organization who have permission to record calls by using the teams dialer. By default, permission is granted to all security roles in your organization. To only allow specific roles to access the feature, select **Specific security roles** and then use the lookup to select the roles. <br> **Tips:**<br><ul><li>To implement the feature in your entire organization, select all security roles.</li><li>For a phased implementation in your organization, create different security roles for each group of users and then assign the security role accordingly.</li></ul>|
+    | Enable recording for | Specifies the security roles that have the permission to record calls by using the Teams dialer. By default, this permission is granted to all the security roles in your organization. To allow only specific roles to record calls, select **Specific security roles**, and then use the lookup to select the roles.<br> **Tips:**<br><ul><li>To implement the feature in your entire organization, select all security roles.</li><li>For a phased implementation in your organization, create different security roles for each group of users and then assign the security role accordingly.</li></ul><br>**Note:**<br><ul><li>Ensure that the users who need to record calls are assigned to the selected security roles. More information: [Assign a security role to a user](/power-platform/admin/assign-security-roles)</li><li>Ensure that the selected security roles have read privileges to **Recording** records under the **Custom Entities** tab in manage security roles page. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)</li></ul>|
     | Call recording options | Select an option for initiating call recordings:<br><ul><li>**Manual recording**: Select this option to allow sellers to manually start or stop the recording when a call is initiated. Also, you can select the checkbox to record only the seller automatically when the call is initiated. However, sellers can start or stop the recording of the customer anytime during the call. </li><li>**Automatic recording**: Select this option if you want the calls to be automatically recorded when a call is initiated. Also, you can select the checkbox to allow sellers to manually stop the recording anytime during the call.</li></ul>|
     | Recording notification for customers | Turn on this toggle to notify customers when the call recording is initiated. This lets customers know that the call is being recorded.|   
     

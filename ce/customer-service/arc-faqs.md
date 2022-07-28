@@ -1,20 +1,20 @@
 ---
-title: "FAQs on activity monitor for creating records automatically | Microsoft Docs"
-description: "This topic shares answers to commonly asked questions about automatic record creation and activity monitoring in Dynamics 365 Customer Service."
-ms.date: 04/23/2021
+title: "FAQ on activity monitor for creating records automatically | Microsoft Docs"
+description: "This article answers some commonly asked questions about automatic record creation and activity monitoring in Dynamics 365 Customer Service."
+ms.date: 05/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
 
-# FAQs about the create records automatically and activity monitor features
+# FAQ about create records automatically and activity monitor
 
 This article contains information on frequently asked questions about the create record automatically and activity monitor features in Dynamics 365 Customer Service.
 
-## What are the scenarios in which the rule skips from creating records automatically?
+## What are the scenarios in which the rule skips creating records automatically?
 
-Some of the scenarios in which the automatically create records rule skips are explained as follows:
+The automatically create records rule doesn't create records in the following scenarios:
 
 ### Reason 1
 

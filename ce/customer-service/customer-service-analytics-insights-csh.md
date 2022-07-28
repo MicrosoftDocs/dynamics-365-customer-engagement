@@ -1,7 +1,7 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 09/27/2021
+ms.date: 03/20/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
 Insights dashboards cover Customer Service, Omnichannel for Customer Service, and Knowledge Management. The Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel for Customer Service dashboards provide a view into the support operation across channels. For Knowledge managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
@@ -44,7 +44,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
    > [!div class=mx-imgBorder]
    > ![Analytics Summary dashboard.](media/customer-service-summary-dashboard.png "Customer Service analytics Summary dashboard")
    
-For more information about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
+More information: [Summary dashboard](summary-dashboard-cs.md)
 
 ### Agent
 
@@ -53,7 +53,7 @@ The Agent dashboard shows charts and KPIs for individual agents and overall agen
    > [!div class=mx-imgBorder]
    > ![Analytics Agent dashboard.](media/customer-service-analytics-agent-dashboard.png "Customer Service Analytics Agent dashboard") 
    
-For more information about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
+More information: [Agent dashboard](agent-dashboard-cs.md)
 
 ### Case Topics
 
@@ -62,7 +62,7 @@ The Case Topics dashboard shows a detailed breakdown of cases and their assigned
    > [!div class=mx-imgBorder]
    > ![Analytics Topics dashboard.](media/customer-service-analytics-topics-dashboard.png "Customer Service Analytics Topics dashboard")
    
-For more information about the Case Topics dashboard, see [Topics dashboard](case-topics-dashboard-cs.md)
+More information: [Topics dashboard](case-topics-dashboard-cs.md)
 
 
 ### Knowledge Search Analytics report
@@ -72,7 +72,7 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 > [!div class="mx-imgBorder"]
 > ![Knowledge search analytics report.](media/customer-service-knowledge-search-analytics.png "Knowledge search analytics")
 
-For more information about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
+More information: [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
 
 ## Omnichannel historical analytics reports
 
@@ -85,7 +85,7 @@ The Conversation dashboard gives you a broad overview of the assisted support cu
 > [!div class="mx-imgBorder"]
 > ![Conversation dashboard.](media/conversation-dashboard.png "Conversation dashboard")
 
-For more details about the conversation report, see [Conversation dashboard](oc-conversation-dashboard.md)
+More information: [Conversation dashboard](oc-conversation-dashboard.md)
 
 
 ### Queue
@@ -95,7 +95,7 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard.](media/queue-report.png "Queue dashboard")
 
-For more details about the queue report, see [Queue dashboard](oc-queue-dashboard.md)
+More information: [Queue dashboard](oc-queue-dashboard.md)
 
 ### Agent
 
@@ -104,7 +104,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard.](media/agent-report-cs.png "Agent report").
 
-For more details about the Agent report, see [Agent dashboard](agent-dashboard.md#agent-dashboard)
+More information: [Agent dashboard](agent-dashboard.md#agent-dashboard)
 
 ### Bot
 
@@ -113,7 +113,7 @@ The Bot dashboard shows charts and KPIs that you can use to understand how bots 
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard.](media/oc-bot-dashboard.png "Bot dashboard")
 
-For more details about the bot report, see [Bot dashboard](oc-bot-dashboard.md)
+More information: [Bot dashboard](oc-bot-dashboard.md)
 
 ### Conversation Topics
 
@@ -122,7 +122,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Conversation Topics.](media/conversation-topics-dashboard.png "Conversation Topics")
 
-For more details about the Topics dashboard, see [Topics dashboard](oc-conversation-topics-dashboard.md)
+More information: [Topics dashboard](oc-conversation-topics-dashboard.md)
 
 
 ## Information that you need to know about the analytics reports
@@ -131,10 +131,7 @@ For more details about the Topics dashboard, see [Topics dashboard](oc-conversat
 
 The reports refresh shows the following information.
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
-  > [!div class=mx-imgBorder]
-  > ![Customer Service Analytics refresh status.](media/cs-analytics-refresh-status.png "Customer Service Analytics refresh status")
-
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone that's set in your user preferences. 
 - **Custom refresh:** Isn't available.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
 - **Data retention:** Data is stored for 24 months.

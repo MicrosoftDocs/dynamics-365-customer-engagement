@@ -1,7 +1,7 @@
 ---
 title: "Add activity to campaign in in-app marketing | MicrosoftDocs"
 description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 02/10/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,12 +23,11 @@ searchScope:
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
  
 ## Planning and campaign activities
  
@@ -98,22 +97,41 @@ When you add and distribute a campaign activity, an activity is created for each
     
 5. On the **Campaign Activity** form, select **Save**.
 
-6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing lists, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
+    The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing lists, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
+
+## Distribute a campaign activity 
+
+You can distribute a campaign activity when you're ready to initiate the campaign. 
+
+1. Open the campaign activity and on the command bar select **Distribute Campaign Activity**.  
   
-7. To distribute the new campaign activity, on the command bar, select **Distribute Campaign Activity**.  
-  
-8. In the activity form, enter or update the information, and then select **Distribute**.  
+8. In the activity form, enter the information that you want to distribute. For email activities, 
+    - Draft the email that you want to send to the members.
+     
+    - To allow your members to unsubscribe from any future marketing email communication, add the unsubscribe link to the email. Select the **Unsubscribe** option in the designer.
+    
+        :::image type="content" source="media/campaign-email-unsubscribe.png" alt-text="Unsubscribe option in the email designer window":::
+
+1. Select **Distribute**.  
   
 9. Choose who will own the activities, and then select **Distribute**.  
   
    > [!NOTE]
-   > - You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
    > - When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account, or lead. 
+
+## Close a campaign activity
+
+After all the distributed activities are closed, you can close the campaign activity. 
+
+To close the campaign activity:
+
+1. Open the campaign activity record and, on the command bar, select **Close Campaign Activity**.
+
+1. Set an appropriate status for the activity, and then select **Close Campaign Activity**.  
   
-10. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record and, on the command bar, select **Close Campaign Activity**. Set an appropriate status for the activity, and then select **Close Campaign Activity**.  
-  
-11. When the activity is completed, update the campaign activity record with the actual costs. Open the campaign activity and update the **Actual Cost** field. This can help guide you in planning future campaign activities.  
-  
+11. (Optional) Update the campaign activity record with the actual costs in the **Actual Cost** field. This helps guide you in planning the budget for future campaign activities.  
+
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See Also  

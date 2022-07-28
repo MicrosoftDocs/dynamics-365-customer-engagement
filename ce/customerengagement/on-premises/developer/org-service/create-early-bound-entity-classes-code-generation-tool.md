@@ -30,7 +30,7 @@ The code generation tool (CrmSvcUtil.exe) is distributed as part of the [Microso
 <a name="bkmk_about"></a>
 ## About the code generation tool
 
-The **CrmSvcUtil.exe** tool creates a [!INCLUDE[pn_MS_Visual_C#](../../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../../includes/pn-visual-basic.md)] output file that contains strongly-typed classes for entities in your organization. This includes custom entities and attributes. This output file contains one class for each entity, providing early binding and [!INCLUDE[pn_IntelliSense](../../includes/pn-intellisense.md)] support in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] to aid you as you write custom code. The generated classes are partial classes that can be extended with custom business logic in separate files. You can also create extensions to this tool. For more information, see [Create Extensions for the Code Generation Tool](extend-code-generation-tool.md).  
+The **CrmSvcUtil.exe** tool creates a [!INCLUDE[pn_MS_Visual_C#](../../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../../includes/pn-visual-basic.md)] output file that contains strongly-typed classes for entities in your organization. This includes custom entities and attributes. This output file contains one class for each entity, providing early binding and [!INCLUDE[pn_IntelliSense](../../includes/pn-intellisense.md)] support in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] to aid you as you write custom code. The generated classes are partial classes that can be extended with custom business logic in separate files. You can also create extensions to this tool. For more information, see [Create Extensions for the Code Generation Tool](/powerapps/developer/data-platform/org-service/extend-code-generation-tool).  
 
 The tool can also be used to generate a class derived from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class that acts as an entity container in the entity data model. This service context provides the facilities for tracking changes and managing identities, concurrency, and relationships. This class also exposes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method that writes inserts, updates, and deletes records in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. For more information, see [Use OrganizationServiceContext](/powerapps/developer/common-data-service/org-service/organizationservicecontext) in the Dataverse documentation.  
 
@@ -112,9 +112,9 @@ The following sample shows how to configure the output file and the domain name 
 
  [Developer Tools for Dynamics 365 Customer Engagement (on-premises)](../developer-tools.md)<br />
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)<br />
- [Create an Extensions for the Code Generation Tool](extend-code-generation-tool.md)<br />
+ [Create an Extensions for the Code Generation Tool](/powerapps/developer/data-platform/org-service/extend-code-generation-tool)<br />
  [Late-bound and Early-bound programming using the Organization service](/powerapps/developer/common-data-service/org-service/early-bound-programming)<br />
- [Troubleshooting Tips](troubleshooting-tips.md)<br />
+ [Troubleshooting Tips](/powerapps/developer/data-platform/org-service/handle-exceptions-code)<br />
  [Run a simple program using Customer Engagement web services](../simple-program-web-services.md)<br />
 
 

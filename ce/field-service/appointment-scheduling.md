@@ -118,9 +118,7 @@ For customers with Resource Scheduling Optimization, appointments will be respec
 
 Appointments with statuses *Busy* and *Completed* will be considered as unavailable by scheduling operations. 
 
-For customers without Resource Scheduling Optimization, the schedule assistant is planned to consider appointments in a future release. 
-
-Meanwhile, developers can use the schedule assistant APIs for both requirements and requirement groups for:
+Developers can use the schedule assistant APIs for both requirements and requirement groups for:
 
 - Custom web apps
 - A Dynamics 365 portal 
