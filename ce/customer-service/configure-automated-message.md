@@ -1,7 +1,7 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service"
-ms.date: 07/15/2022
+ms.date: 07/29/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -113,11 +113,12 @@ To deactivate messages at the channel instance level, select one or more message
 | Out of operating hour message to customer | Message displayed to the customer outside of the business hours  | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue  |
 | Session ended   | Message displayed to the customer when the agent ends the conversation and closes the session | When the agent ends the conversation and closes the session  |
 | Transfer to agent accepted          | Message displayed to the customer when the conversation is transferred successfully | When another agent accepts the transfer request |
-| Customer is waiting in queue with queue position two or more customer positions in queue |      | When customer is waiting in queue with queue position 2 or more |
-| Customer is next in line      |     |  When customer is next in line in the queue |
-| Average wait time for customers: Minutes (applies to live chat and voice channel only) | Message displayed to the customer indicating the average wait time in minutes.     | When customer is waiting in queue with average wait time in minutes |
-| Average wait time for customers: Hours (applies to live chat and voice channel only)  |   Message displayed to the customer indicating the average wait time in hours.   |  When customer is waiting in queue with average wait time in hours |
-| Average wait time for customers: Hours and Minutes (applies to live chat and voice channel only) |     Message displayed to the customer indicating the average wait time in both hours and minutes.     | When customer is waiting in queue with average wait time being more than 1 hour |
+| Customer's position in queue |  Message displayed when the customer is waiting in queue at the second position or beyond         | When customer is waiting in queue at the second position or beyond |
+| Customer is next in line      |   Message displayed when the customer is next in line in the queue.  |  When customer is next in line in the queue |
+| Average wait time for customers: Minutes <br> (applies to live chat and voice channels only)  | Message displayed to the customer with the average wait time displayed in minutes.     | When customer is waiting in queue with the average wait time displayed in minutes |
+| Average wait time for customers: Hours <br> (applies to live chat and voice channels only)    |   Message displayed to the customer with the average wait time displayed in hours.   |  When customer is waiting in queue with the average wait time displayed in hours |
+| Average wait time for customers: Hours and Minutes <br> (applies to live chat and voice channels only)    |     Message displayed when the customer is waiting in queue with average wait time being displayed in both minutes and hours    | When customer is waiting in queue with average wait time displayed both in hours and minutes|
+
 
 ### See also
 
