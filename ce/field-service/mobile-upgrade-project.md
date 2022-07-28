@@ -1,16 +1,16 @@
 ---
 title: "Upgrade the Field Service Mobile project template | MicrosoftDocs"
 description: Learn how to upgrade the Field Service Mobile project template.
-ms.date: 08/27/2020
-ms.reviewer: krbjoran
+ms.date: 07/27/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE

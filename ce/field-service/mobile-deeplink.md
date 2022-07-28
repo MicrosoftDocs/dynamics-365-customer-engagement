@@ -1,16 +1,16 @@
 ---
 title: "Use deep links with Field Service Mobile | MicrosoftDocs"
 description: Learn how to use deep links with Field Service Mobile
-ms.date: 03/02/2020
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: robertipk 
-ms.author: daclar
+author: JonBaker007 
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE

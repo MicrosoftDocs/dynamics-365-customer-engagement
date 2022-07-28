@@ -2,13 +2,13 @@
 metadata:
   title: "Bookings not scheduled to me are appearing when logged into the mobile app Dynamics 365 Field Service | MicrosoftDocs"
   description: Find help for the question, "Bookings not scheduled to me are appearing when logged into the mobile app Dynamics 365 Field Service"
-  ms.date: 10/25/2018
-  ms.reviewer: krbjoran
+  ms.date: 07/28/2022
+  ms.reviewer: mhart
   
   ms.subservice: field-service-mobile
   ms.topic: faq
-  author: FieldServiceDave
-  ms.author: daclar
+  author: JonBaker007
+  ms.author: jobaker
   manager: shellyha
   search.app: 
     - D365CE

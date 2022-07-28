@@ -1,13 +1,13 @@
 ---
 title: "Customizations and configurations for Field Service Mobile | MicrosoftDocs"
 description: Learn about customizations and configurations for the Field Service (Dynamics 365) mobile app
-ms.date: 10/19/2018
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE

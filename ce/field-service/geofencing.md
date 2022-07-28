@@ -1,8 +1,8 @@
 ---
 title: "Geofencing for Field Service Mobile (Xamarin) | MicrosoftDocs"
 description: Learn about how to setup and use geofencing for Field Service Mobile
-ms.date: 10/26/2020
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
@@ -10,7 +10,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 search.app: 
   - D365CE
   - D365FS
