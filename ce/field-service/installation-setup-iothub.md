@@ -7,7 +7,7 @@ ms.reviewer: mhart
 ms.subservice: connected-field-service
 ms.topic: article
 author: FieldServiceDave
-ms.author: daclar
+ms.author: lmasieri
 manager: shellyha
 search.app:
   - D365CE
@@ -109,13 +109,6 @@ Connect the Azure IoTHub to your Field Service environment.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of authorizing the subscription.](./media/cfs-iothub-api-connection-authorize.png)
 
-Congratulations! You are now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
-
-Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see your Azure IoT Hub subscription connected as an IoT provider.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service, showing active IoT provider instances.](./media/cfs-deploy-providers.png)
-
 ## Step 6: Start Azure Stream Analytics job
 
 1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
@@ -125,6 +118,8 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 1. Select each Stream Analytics job that was deployed and, from the **Overview** tab, select **Start**.
 
    :::image type="content" source="media/cfs-iothub-stream-analytics-start.png" alt-text="Screenshot of Stream Analytics job overview.":::
+
+Congratulations! You are now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
   
 ## Step 7: Set up the simulator (optional)
 
