@@ -26,7 +26,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - Dynamics 365 Field Service. For more information, visit the [article on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
-- Assign your Dynamics 365 user the System Administrator and IoT-Administrator security roles. 
+- Assign your Dynamics 365 user the System Administrator and IoT-Administrator security roles.
 
 - An active Azure subscription with appropriate privileges. For more information, see the [article on Azure prerequisites](cfs-azure-subscription.md).
 
@@ -86,7 +86,21 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 ## Step 4: Set up IoT endpoint
 
-!! Pending details from Luis. !!
+1. Download the executable from !! PENDING !!.
+
+1. Open Windows PowerShell in admin mode and run the executable with all required parameters.
+
+   `ConfigureIoTEndpoint.exe -u <OnlineLoginYourUserName> -p <OnlineLoginPwdInQuotes> -s <ServiceBusName> -k <ServiceBusKey> -q <QueueNameInServiceBus> -d <OnlineorgNamewithoutHttps>`
+
+   - <OnlineLoginYourUserName>: Your Dynamics 365 user account.
+   - <OnlineLoginPwdInQuotes>: Password for your Dynamics 365 user account.
+   - <ServiceBusName>: In the Azure Portal > Service Bus. Value for [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer).
+   - <ServiceBusKey>: [Primary key from Service Bus Namespace](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) > Shared access policies > RootManageSharedAccessKey.
+   - <QueueNameInServiceBus>: Queue name from Service Bus Namespace > Queues.
+   - <OnlineorgNamewithoutHttps>: URL of your Dynamics 365 organization without https://.
+
+   Example:
+  `ConfigureIoTEndpoint.exe -u william@contoso.onmicrosoft.com -p xxxxxx -s contoso-service-bus-demo -k xxxxxxxxxxxxxxxxx -q demo-queue-001 -d contoso.crm.dynamics.com`
 
 ## Step 5: Authorize Azure app connection
 
