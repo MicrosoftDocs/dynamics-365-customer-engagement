@@ -115,9 +115,9 @@ To deactivate messages at the channel instance level, select one or more message
 | Transfer to agent accepted          | Message displayed to the customer when the conversation is transferred successfully | When another agent accepts the transfer request |
 | Customer is waiting in queue with queue position two or more customer positions in queue |      | When customer is waiting in queue with queue position 2 or more |
 | Customer is next in line      |     |  When customer is next in line in the queue |
-| Average wait time for customers: Minutes |      | When customer is waiting in queue with average wait time in minutes |
-| Average wait time for customers: Hours   |     |  When customer is waiting in queue with average wait time in hours |
-| Average wait time for customers: Hours and Minutes  |         | When customer is waiting in queue with average wait time being more than 1 hour |
+| Average wait time for customers: Minutes (applies to live chat and voice channel only) | Message displayed to the customer indicating the average wait time in minutes.     | When customer is waiting in queue with average wait time in minutes |
+| Average wait time for customers: Hours (applies to live chat and voice channel only)  |   Message displayed to the customer indicating the average wait time in hours.   |  When customer is waiting in queue with average wait time in hours |
+| Average wait time for customers: Hours and Minutes (applies to live chat and voice channel only) |     Message displayed to the customer indicating the average wait time in both hours and minutes.     | When customer is waiting in queue with average wait time being more than 1 hour |
 
 ### See also
 
