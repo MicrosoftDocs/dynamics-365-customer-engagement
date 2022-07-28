@@ -40,11 +40,10 @@ The fields that are present on the knowledge article entity are the fields that 
 
 If you choose to retain the knowledge search filters, the Power Apps Maker filter configurations get deactivated. In full-text search, the archived and discarded status filters aren't supported.
 
-## Knowledge article search filters are enabled by default (preview)
- 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+**Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
 
-The option to **Enable search filters** is set to **Yes** by default. To disable search filters, you'll need to manually change the **Enable search filters** option to **No** on the **Filters** page.
+> [!NOTE]
+> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see Opt in to early access updates.
 
 The settings that you have previously configured for your organization, including those within filter personalization, remain as is. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
 
