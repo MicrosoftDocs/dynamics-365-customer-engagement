@@ -1,7 +1,7 @@
 ---
-title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Access a Dynamics 365 Marketing trial from Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 07/13/2022
+ms.date: 07/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,14 +17,14 @@ search.app:
   - D365Mktg
 ---
 
-# How to sign up for a free 6-month Dynamics 365 Marketing trial
+# Access a Dynamics 365 Marketing trial from Microsoft Teams
 
-The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
+The Dynamics 365 Marketing/Microsoft Teams trial allows you to use the Marketing app to stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
 
 > [!NOTE]
-> The Dynamics 365 Marketing 6-month trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
+> The Dynamics 365 Marketing/Microsoft Teams trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
 
-To sign up for a 6-month Dynamics 365 Marketing trial:
+To access Dynamics 365 Marketing/Microsoft Teams trial:
 
 1. [Host a webinar in Teams](/microsoftteams/set-up-webinars) with at least one attendee.
 1. In Teams, select the **Attendance** tab to view the attendance report.
@@ -43,7 +43,7 @@ To sign up for a 6-month Dynamics 365 Marketing trial:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Get started button](media/teams-follow-up-get-started3.png "Screenshot of the Get started button")
 
-1. You will see some additional screens while the trial is being set up and configured. Once setup is complete, a browser tab will open with a Dynamics 365 Marketing customer journey page that contains your webinar data, allowing you to personalize emails to follow up with your webinar participants.
+1. You'll see some additional screens while the trial is being set up and configured. Once setup is complete, a browser tab will open with a Dynamics 365 Marketing customer journey page that contains your webinar data, allowing you to personalize emails to follow up with your webinar participants.
 
 ## Here's what you can do by connecting Teams to Dynamics 365 Marketing
 

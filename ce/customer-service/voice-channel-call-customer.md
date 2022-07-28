@@ -30,7 +30,7 @@ You can call a customer by selecting the **Mobile phone** field or the launch di
 
 - You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer. 
    1. On the number pad that appears, enter the customer's phone number, and then select **Call** to make your call.
-   1. To make an international call, enter the plus sign (+) followed by the country code and phone number, then select **Call**.
+   1. To make an international call, enter the country code and phone number, then select **Call**. You don't have to add the plus sign (+) to the number.
 
 
 ### See also
