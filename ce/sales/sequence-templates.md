@@ -43,10 +43,9 @@ By default, the template contains seven steps (excluding wait time steps) and th
 3.	If the customer doesn't answer the call, wait for two days, and send an email to schedule a placeholder meeting. If the customer replies to the email, make a phone call, and share details about the missed meeting.
 4.	If the customer doesn't reply to the email, reach out to other contacts in the company.
 
-The following flow diagram illustrates the steps included in the template.
+The following flow diagram illustrates the steps included in the template.    
 
->[!div class="mx-imgBorder"]
->![Sequence flow diagram of the Follow up when contacts don't show up template](media/st-follow-up-when-contacts-dont-show-up.png "Sequence flow diagram of the Follow up when contacts don't show up template") 
+:::image type="content" source="media/st-follow-up-when-contacts-dont-show-up.png" alt-text="Sequence flow diagram of the Follow up when contacts don't show up template." lightbox="media/st-follow-up-when-contacts-dont-show-up-exp.png":::
 
 ## High volume outbound prospecting 
 
