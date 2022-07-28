@@ -186,10 +186,11 @@ If you're using your custom attributes for opportunity generation, you can gener
 
    If you don't have enough closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
-9. Turn on **Per stage modeling** to select the stages for which the attributes must be used in the model. More information: [Manual retraining](#manual-retraining)
+9. Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage. 
+    You'll select the stages and corresponding attributes after creating the model. More information: [Manual retraining](#manual-retraining)
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
-1. Select **Get started**.  
+10. Select **Get started**.  
 
     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
@@ -199,14 +200,14 @@ If you're using your custom attributes for opportunity generation, you can gener
     >[!NOTE]
     >If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-10. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+11. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
-11. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+11. Select **Publish**, if the model accuracy score is at an acceptable level as per your organization's standards.
 
     The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
-    >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+    >To improve the model accuracy or specify attributes for each business process stage, select **View details**. You can review the details of the model and edit the fields. More information: [Manual retraining](#manual-retraining)
 
 ## Add a model
 
@@ -224,7 +225,7 @@ In organizations that have different lines of business, you might need different
 
      :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
-3. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
+3. Perform steps 4 through 10 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
     After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
@@ -233,7 +234,7 @@ In organizations that have different lines of business, you might need different
 
 4. If you've turned on **Per stage modeling**, select **View Details** to specify the business process stages for which the model must consider an attribute.  
 
-5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+5. Select **Publish**, if the model accuracy score is at an acceptable level as per your organization's standards.
 
     The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
 
