@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 07/27/2022
+ms.date: 07/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -96,17 +96,17 @@ The **Active Duration (minutes)** and **Elapsed Time (minutes)** fields for an S
 
 You can view the active duration and elapsed time on the **SLA** tab of the custom entity as well.
 
-- **Active Duration (minutes)**: Calculates the time for which the SLA KPI Instance was active.
+- **Active Duration (minutes)**: Displays the time for which the SLA KPI Instance was active.
 
-- **Elapsed Time (minutes)**: Calculates the time for which the SLA KPI Instance timer was paused.
+- **Elapsed Time (minutes)**: Displays the time for which the SLA KPI Instance timer was paused.
 
-Both **Active Duration (minutes)** and **Elapsed Time (minutes)** are calculated based on business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation. Time is calculated based on the current value of business hours.
+Both **Active Duration (minutes)** and **Elapsed Time (minutes)** are calculated based on the current value of the business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation.
 
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
 > [!NOTE]
 > - The active duration and elapsed time data isn't applicable for legacy SLAs.
-> - The **Active Duration (minutes)** field will display values for new SLA KPI Instances that are added after these fields are available for the 2022 release wave 2 deployment (Early Access). For older SLA KPI Instances, the **Active Duration (minutes)** field will remain empty.
+> - In early access, **Active Duration (minutes)** will display values for new SLA KPI Instances only that are created after the field is available. For existing SLA KPI Instances, the field will remain empty.
 
 ### See also
 
