@@ -44,16 +44,23 @@ The following image is an example of an opportunity scoring widget.
 
 You can add custom fields to generate an accurate model for predictive opportunity scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
+
 ## Prerequisites
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 won and 40 lost opportunities created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
-
-    >[!NOTE]
-    >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
-
 - Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+
+- The following minimum opportunity criteria includes opportunities that were created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)  
+
+    - If you want to use the default selection of attributes for each business process stage, you need a minimum of 40 won and 40 lost opportunities.
+    - If you need a per stage model, wherein you can select the attributes for each business process stage, then you must have a minimum of 40 closed opportunities in the last stage of the business process. 
+
+  >[!NOTE]
+  >- These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
+  >- It takes about 4 hours for the data to sync with the data lake. So, recently closed opportunities won't be considered by the model immediately.
+
+
 
 ## Understand the configuration page
 
@@ -185,10 +192,13 @@ If you're using your custom attributes for opportunity generation, you can gener
 
    If you don't have the minimum closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
-9. Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage. 
-    You'll select the stages and corresponding attributes after creating the model. More information: [Manual retraining](#manual-retraining)
+9. (Optional) Turn on **Per stage modeling** if you want to select the attributes that the model must consider for each business process stage. 
+    You'll select the attributes and corresponding stages after creating the model. More information: [Manual retraining](#manual-retraining)
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
+    > [!NOTE]
+    > The **Per stage modeling** option will be disabled if you don't have a business process flow for opportunity. 
+    
 10. Select **Get started**.  
 
     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
