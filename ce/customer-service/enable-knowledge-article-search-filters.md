@@ -44,13 +44,11 @@ If you choose to retain the knowledge search filters, the Power Apps Maker filte
  
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-The option to **Enable knowledge article search filters** is set to **Yes** by default. To disable search filters, you'll need to manually change the **Enable knowledge article search filters** option to **No** on the **Filters** page.
+The option to **Enable search filters** is set to **Yes** by default. To disable search filters, you'll need to manually change the **Enable search filters** option to **No** on the **Filters** page.
 
 The settings that you have previously configured for your organization, including those within filter personalization, remain as is. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
 
 :::image type="content" source="media/default-search-filters.png" alt-text="Search filters are enabled by default":::
-
-If you choose to proceed with customizing the search filters for your knowledge articles, you can do so with the options available on the **Filters** page. More information: [Customize search filters for knowledge articles](#customize-search-filters-for-knowledge-articles).
 
 ## Customize search filters for knowledge articles
 
