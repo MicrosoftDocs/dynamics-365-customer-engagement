@@ -22,7 +22,7 @@ Configure predictive opportunity scoring to help sellers prioritize opportunitie
 ## What is predictive opportunity scoring
 
 Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities based on historical data. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity. 
-When you first create a scoring model, historical data is collected and stored in the data lake for analysis and is updated everyday. 
+When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
 
 > [!NOTE]
 > If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
