@@ -54,7 +54,7 @@ Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **
 > [!NOTE]
 > If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution in your field service environment from the app store.
 
-Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
+Before proceeding, make sure all required Azure resources are successfully deployed. The overall deployment status should show **Success**.  
 
 ## Step 3: Create new IoT Provider Instance
 
@@ -86,18 +86,18 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 ## Step 4: Set up IoT endpoint
 
-1. Download the executable from !! PENDING !!.
+1. Download the executable.
 
 1. Open Windows PowerShell in admin mode and run the executable with all required parameters.
 
-   `ConfigureIoTEndpoint.exe -u <OnlineLoginYourUserName> -p <OnlineLoginPwdInQuotes> -s <ServiceBusName> -k <ServiceBusKey> -q <QueueNameInServiceBus> -d <OnlineorgNamewithoutHttps>`
+   `ConfigureIoTEndpoint.exe -u <OnlineLoginYourUserName> -p <OnlineLoginPwdInQuotes> -s <ServiceBusName> -k <ServiceBusKey> -q <QueueNameInServiceBus> -d <OnlineOrgNameWithoutHttps>`
 
-   - <OnlineLoginYourUserName>: Your Dynamics 365 user account.
-   - <OnlineLoginPwdInQuotes>: Password for your Dynamics 365 user account.
-   - <ServiceBusName>: In the Azure Portal > Service Bus. Value for [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer).
-   - <ServiceBusKey>: [Primary key from Service Bus Namespace](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) > Shared access policies > RootManageSharedAccessKey.
-   - <QueueNameInServiceBus>: Queue name from Service Bus Namespace > Queues.
-   - <OnlineorgNamewithoutHttps>: URL of your Dynamics 365 organization without https://.
+   - OnlineLoginYourUserName: Your Dynamics 365 user account.
+   - OnlineLoginPwdInQuotes: Password for your Dynamics 365 user account.
+   - ServiceBusName: In the Azure portal > Service Bus. Value for [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer).
+   - ServiceBusKey: [Primary key from Service Bus Namespace](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) > Shared access policies > RootManageSharedAccessKey.
+   - QueueNameInServiceBus: Queue name from Service Bus Namespace > Queues.
+   - OnlineOrgNameWithoutHttps: URL of your Dynamics 365 organization without https://.
 
    Example:
   `ConfigureIoTEndpoint.exe -u william@contoso.onmicrosoft.com -p xxxxxx -s contoso-service-bus-demo -k xxxxxxxxxxxxxxxxx -q demo-queue-001 -d contoso.crm.dynamics.com`
@@ -108,7 +108,7 @@ Connect the Azure IoTHub to your Field Service environment.
 
 1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
-1. On the Azure Portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to. See the following screenshot for reference.
+1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to. See the following screenshot for reference.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Azure resource groups.](./media/cfs-iothub-resource-group.png)
@@ -127,17 +127,17 @@ Connect the Azure IoTHub to your Field Service environment.
 
 1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
-1. On the Azure Portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
+1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
 
 1. Select each Stream Analytics job that was deployed and, from the **Overview** tab, select **Start**.
 
    :::image type="content" source="media/cfs-iothub-stream-analytics-start.png" alt-text="Screenshot of Stream Analytics job overview.":::
 
-Congratulations! You are now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
+Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
   
 ## Step 7: Set up the simulator (optional)
 
-The simulator will allow you to test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders.
+The simulator lets you test Connected Field Service without the need to connect physical hardware. Simulated IoT devices and data help you understand different parts that contribute to turning IoT data into work orders.
 
 Set up the simulator to simulate IoT devices and data and begin to see device data pulled into Field Service.
 
