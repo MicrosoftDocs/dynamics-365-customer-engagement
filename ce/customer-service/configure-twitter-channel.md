@@ -142,9 +142,6 @@ The following are important prerequisites that you must complete before configur
        
        To learn more about uploading media in Twitter, see [Twitter developer documentation](https://developer.twitter.com/en/docs/media/upload-media/uploading-media/media-best-practices).
        
-       > [!div class=mx-imgBorder]
-       > ![Twitter work stream.](media/twitter-create-handle.png "Twitter work stream")
-
 2. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
 3.  On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
