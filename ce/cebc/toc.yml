@@ -62,7 +62,7 @@
     - name: Versium Predict
       tocHref: /dynamics365/versium-predict
       topicHref: /dynamics365/versium-predict/versium-predict
-     - name: Voice of the Customer
+    - name: Voice of the Customer
       tocHref: /dynamics365/voice-of-customer
       topicHref: /dynamics365/voice-of-customer/create-voice-of-customer-survey
     - name: Social Engagement
