@@ -59,7 +59,7 @@ For information about creating context variables for Azure and Power Virtual Age
 
 [Create and manage workstreams](create-workstreams.md)  
 [Configure a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Configure Azure bot](configure-bot.md)  
+[Configure Azure bot](configure-bot-azure.md)  
 [Context variables for bots](context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
