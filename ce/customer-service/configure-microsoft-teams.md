@@ -85,7 +85,22 @@ Make sure that the following prerequisites are met:
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-### Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
+## Configure Teams details
+
+1. In the Teams app, go to **App Studio** > **Manifest editor**, and then select the app that you configured for Omnichannel for Customer Service.
+
+2. Select the ellipsis (...), and then select **Edit**.
+
+3. Select **Bots** > **Edit**, and then paste the **Bot ID** value in the box that appears under **Connect to a different Bot id**.
+
+4. Make sure that you've configured the options in **App details**.
+
+5. Select **Test and distribute**, and then select **Install** to test your app.
+
+  > [!NOTE]
+  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
+
+#### Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -102,13 +117,11 @@ Make sure that the following prerequisites are met:
 
 5. In **Step 3: Callback information**, copy the value that's displayed in **Bot ID**.
 
-    > [!div class=mx-imgBorder]
-    > ![Create a Teams channel.](media/teams-channel.png "Create a Teams channel")
-
 6. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+
 7. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-### Modify settings for a specific Teams account
+#### Modify settings for a specific Teams account
 
 1. In the Omnichannel Administration app, go to **Microsoft Teams** and select the account you want to modify.
 
@@ -130,20 +143,6 @@ Make sure that the following prerequisites are met:
 
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-## Configure Teams details
-
-1. In the Teams app, go to **App Studio** > **Manifest editor**, and then select the app that you configured for Omnichannel for Customer Service.
-
-2. Select the ellipsis (...), and then select **Edit**.
-
-3. Select **Bots** > **Edit**, and then paste the **Bot ID** value in the box that appears under **Connect to a different Bot id**.
-
-4. Make sure that you've configured the options in **App details**.
-
-5. Select **Test and distribute**, and then select **Install** to test your app.
-
-  > [!NOTE]
-  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 ### See also
 
