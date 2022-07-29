@@ -1,7 +1,7 @@
 ---
 title: Customize knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 07/27/2022
+ms.date: 07/31/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -43,13 +43,13 @@ If you choose to retain the knowledge search filters, the Power Apps Maker filte
 **Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
 
 > [!NOTE]
-> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see Opt in to early access updates.
+> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](https://review.docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates).
 
 The settings that you have previously configured for your organization, including those within filter personalization, remain as is. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
 
 :::image type="content" source="media/default-search-filters.png" alt-text="Search filters are enabled by default":::
 
-## Customize search filters for knowledge articles
+## Customize search filters
 
 You can customize the search filters for knowledge article in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
@@ -67,7 +67,7 @@ You can customize the search filters for knowledge article in the Customer Servi
 
 ---
 
-2. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service:
+2. To enable agents to personalize knowledge article search filters:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
