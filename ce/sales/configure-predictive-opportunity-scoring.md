@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 07/07/2022
+ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -50,12 +50,12 @@ You can add custom fields to generate an accurate model for predictive opportuni
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
+- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+
 - A minimum of 40 won and 40 lost opportunities that were created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
-
-- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 ## Understand the configuration page
 
