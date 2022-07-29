@@ -1,7 +1,7 @@
 ---
 title: "Delete a sequence in sales accelerator"
 description: "Permanently delete a sequence that is no longer required in your organization and disconnect records from it."
-ms.date: 10/26/2021
+ms.date: 07/29/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
