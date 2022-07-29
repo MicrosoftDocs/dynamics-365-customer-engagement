@@ -162,7 +162,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Data | IsCaseSession=False |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Omnichannel Session Accepted Order 15
+## Omnichannel Session Accepted
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -190,7 +190,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | SetVisualProperty | 
   | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
-## Omnichannel Session Accepted Order 10
+## Omnichannel Session Accepted
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -247,7 +247,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Data | LogicalName=\[\[EntityLogicalName\]+\] <br> id=\[\[EntityId\]+\] |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Load Form for entity session
+## Load Form for entity
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -335,7 +335,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | CopyToContext | 
   | General | Data | contactIds = \[\[contact\]+\] |
 
-## Omnichannel Fetch Context Contact
+## Omnichannel Fetch Context Contacts
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
