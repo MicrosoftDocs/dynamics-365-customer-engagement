@@ -50,15 +50,14 @@ You can add custom fields to generate an accurate model for predictive opportuni
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
 - Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+ 
+- You need to have enough opportunities to train the model based on past data. Depending on the number of opportunities you've created and closed in the past few months, decide a time period between 3 months to 2 years to meet one of the following requirements:
 
-- The following minimum opportunity criteria includes opportunities that were created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)  
-
-    - If you want to use the default selection of attributes for each business process stage, you need a minimum of 40 won and 40 lost opportunities.
-    - If you need a per stage model, wherein you can select the attributes for each business process stage, then you must have a minimum of 40 closed opportunities in the last stage of the business process. 
-
+    - A minimum of 40 won and 40 lost opportunities that were created and closed during the selected time period.
+    - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a model based on business process stages. In this model, you can select the stages for which an attribute has an influence.   
   >[!NOTE]
   >- These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
-  >- It takes about 4 hours for the data to sync with the data lake. So, recently closed opportunities won't be considered by the model immediately.
+  >- It takes about 4 hours for the data to sync with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
 
 
 
