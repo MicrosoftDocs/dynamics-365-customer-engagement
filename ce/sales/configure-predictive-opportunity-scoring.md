@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 07/07/2022
+ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -21,10 +21,11 @@ Configure predictive opportunity scoring to help sellers prioritize opportunitie
 
 ## What is predictive opportunity scoring
 
-Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.   
+Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities based on historical data. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity. 
+When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
 
->[!NOTE]
->Your historical data will be deleted after 30 days from the date of your subscription expiration. 
+> [!NOTE]
+> If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
 
 Using this score, you can:
 
@@ -32,6 +33,7 @@ Using this score, you can:
 - Spend time on opportunities that have low scores and convert them into possible deals.
 
 For example, say you have two opportunities&mdash;Opportunity A and Opportunity B&mdash;in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity B. By looking at the score, you can predict that Opportunity A has more chances of being converted into a won deal, and you can engage it. Also, you can further analyze why the score of Opportunity B is low by looking at the top reasons that are influencing the score and deciding how to improve this score.
+
 
 The following image is an example of an opportunity scoring widget.
 

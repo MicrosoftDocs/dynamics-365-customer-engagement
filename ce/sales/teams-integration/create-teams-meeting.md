@@ -1,7 +1,7 @@
 ---
 title: Create a Microsoft Teams meeting in Dynamics 365
 description: Learn how to create a Teams meeting in Dynamics 365.
-ms.date: 04/20/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -9,10 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Create a Microsoft Teams meeting (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
+# Create a Microsoft Teams meeting
 
 You can create a Teams meeting from Dynamics 365 or Microsoft Outlook. Link a Dynamics 365 record to the meeting to view record details before the meeting, in a side panel during the meeting, and after the meeting.
 
@@ -66,4 +63,4 @@ For more information on using the Dynamics 365 App for Outlook, see [Basic navig
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md)   
+   

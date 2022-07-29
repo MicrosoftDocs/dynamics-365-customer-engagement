@@ -40,17 +40,16 @@ You can create a chat authentication setting record in the Customer Service admi
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
      1. In the **Authentication settings** section, select **Manage**.
 
-     The **Active Authentication settings** page is displayed.      
+     The **Authentication settings** page is displayed.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Authentication settings** section, select **Manage**.
 
-      The **Active Authentication settings** page is displayed. 
+      The **Authentication settings** page is displayed.
       
-3. Select **New** to add an authentication settings record.
-4. On the **New Chat Authentication Settings** page, provide the following information:
+3. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
 
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change to a required value.
@@ -230,7 +229,7 @@ If you're adding an authenticated chat experience to a custom website, your web 
       Example: auth.getAuthenticationToken
 
     > [!NOTE]
-    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
+    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow.
 
     This diagram walks through the setup:
     
@@ -249,7 +248,9 @@ If you're adding an authenticated chat experience to a custom website, your web 
      > ![Authenticated chat runtime.](media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
-## Create Apple Messages for Business authentication settings - OAuth 2.0 code flow prerequisites
+## Create authentication settings for social channels<a name="socialauth"></a>
+
+### OAuth 2.0 code flow prerequisites
 
 Administrators who are configuring authentication settings will need additional security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field.md)
 
@@ -259,11 +260,9 @@ Confirm that your organization has at least one Apple Messages for Business **Au
 
 ### Create an Apple Messages for Business authentication setting record
 
-1. In the site map of the Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the site map of the Customer Service admin center or Omnichannel admin center app, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
-1. Select **New authentication setting** to add an authentication settings record.
-
-1. In the Add authentication setting pages, provide the following details:<br>
+1. Select **New authentication setting**, and in the **Add authentication setting** page, provide the following details:
 
      1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
         By default, the authentication type is OAuth 2.0 code flow. This cannot be changed.<br>
@@ -279,13 +278,13 @@ Confirm that your organization has at least one Apple Messages for Business **Au
     
      1. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
     
-     1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured.<br>
+     1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured.
 
 ### Add authentication to an Apple Messages for Business channel
 
 1. Open the workstream containing the channel instance to which you want to add authentication.
 
-1. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business Channel]()
+1. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business channel](configure-apple-messages-for-business-channel.md)
 
 1. Review or update the authentication settings for each channel instance by selecting **Edit**.
 
