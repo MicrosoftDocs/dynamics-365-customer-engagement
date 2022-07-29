@@ -1,7 +1,7 @@
 ---
 title: "Configure Azure bots to escalate and end conversations | MicrosoftDocs"
 description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
-ms.date: 07/28/2022
+ms.date: 07/29/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ This article explains how you can program an Azure bot to route a conversation t
 
 In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing depends on the routing rule that's configured for the workstream. 
 
-When the conversation is transferred from the bot to human agent, the customer and case details are [automatically identified](record-identification-rule.md) when the human agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
+When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
 
 After the agent accepts the escalation request, the transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the conversation with the customer.
 
