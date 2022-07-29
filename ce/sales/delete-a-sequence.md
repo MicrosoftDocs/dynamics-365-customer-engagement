@@ -31,14 +31,14 @@ You can delete sequences that your organization no longer needs, and they'll be 
     
     > [!div class="mx-imgBorder"]
     > ![Confirmation message for deleting a sequence](media/sequence-delete-confirmation-message.png "Confirmation message for deleting a sequence")
-The 
-
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)
+[Sequences](create-manage-sequences.md)     
+[Create and activate a sequence](create-and-activate-a-sequence.md)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,10 +37,7 @@ When you've changed the process of an active sequence, you can create a new vers
     > [!div class="mx-imgBorder"]
     > ![Confirmation message to edit a sequence](media/sequence-edit-active-sequence-confirmation.png "Confirmation message to edit a sequence")    
 
-    A version is created for the sequence and the status is displayed corresponding to the sequence name.
-
-    > [!div class="mx-imgBorder"]
-    > ![Sequence designer with version creation status](media/sequence-edit-active-sequence-status-message.png "Sequence designer with version creation status")    
+    A version is created for the sequence.
  
 6.	Edit the sequence as required, and then select **Activate**.
 
@@ -84,8 +81,8 @@ Viewing the version history helps you to understand the number of versions that 
 
 ### See also
 
-[Edit a sequence](edit-a-sequence.md)  
-
+[Edit a sequence](edit-a-sequence.md)    
+[Create and activate a sequence](create-and-activate-a-sequence.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

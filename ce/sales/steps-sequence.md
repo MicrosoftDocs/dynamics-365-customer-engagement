@@ -81,9 +81,6 @@ To add the automated email activity step:
             > [!div class="mx-imgBorder"]
             > ![Choose an email template.](media/sequence-activity-automated-email-choose-template.png "Choose an email template")     
             
-            >[!NOTE]
-            >You can also view the preview of selected email template on the created step. Select the preview icon ![Automated email template preview icon.](media/sequence-activity-automated-email-preview-icon.png "Automated email template preview icon").
-            
         3. Select **Apply template**.   
             The template is selected for the step.   
                 
