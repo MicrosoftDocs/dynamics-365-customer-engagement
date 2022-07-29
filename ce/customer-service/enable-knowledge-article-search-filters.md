@@ -43,7 +43,7 @@ If you choose to retain the knowledge search filters, the Power Apps Maker filte
 **Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
 
 > [!NOTE]
-> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](../power-platform/admin/opt-in-early-access-updates).
+> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
