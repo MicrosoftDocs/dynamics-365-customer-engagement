@@ -1,7 +1,7 @@
 ---
 title: Supplemental Terms
 author: m-hartmann
-ms author: mhart
+ms.author: mhart
 ---
 # Supplemental Terms of Use for Dynamics 365 - Gamification
 
