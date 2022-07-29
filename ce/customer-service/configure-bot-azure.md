@@ -31,11 +31,11 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 
 After you've checked for the prerequisites, perform the following steps to integrate your Azure bots with Omnichannel for Customer Service.
 
-1. [Connect your Azure bot resource to Omnichannel channel](#connect-your-bot-resource-to-omnichannel-channel).
-1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
-1. [Configure routing rules and context variables](#configure-routing-rules).
-1. [Add the bot user to queues](#add-the-bot-user-to-queues).
-1. [Set escalation rules](#set-escalation-rules) as required.
+1. Connect your Azure bot resource to Omnichannel channel.
+1. Configure the bot user as an omnichannel agent.
+1. Configure routing rules and context variables.
+1. Add the bot user to queues.
+1. Set escalation rules as required.
 
 ### Connect your bot resource to Omnichannel channel
 
