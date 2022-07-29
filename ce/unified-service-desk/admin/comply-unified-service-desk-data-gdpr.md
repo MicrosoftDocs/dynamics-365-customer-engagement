@@ -56,7 +56,7 @@ To delete audit logging that you configure using standard auditing by adding an 
 
 ## Diagnostic log files
 
-The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named UnifiedServiceDesk-<date>.log are maintained at the following location on the client computer:
+The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named UnifiedServiceDesk-\<date>.log are maintained at the following location on the client computer:
 
 `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
 
@@ -65,7 +65,7 @@ To delete diagnostic logging:
 1. Go to the default or configured folder path where you store the diagnostic log files.
 The default folder path is: </br>
 `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
-2. Select the **UnifiedServiceDesk-<date>.log** file, and then select **Delete**.
+2. Select the **UnifiedServiceDesk-\<date>.log** file, and then select **Delete**.
 
 ## Telemetry data
 
