@@ -1,7 +1,7 @@
 ---
 title: "Clone and edit a sequence in sales accelerator"
 description: "You can clone and edit a sequence when there's a change in the process of selling in your organization."
-ms.date: 07/29/2022
+ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -14,7 +14,7 @@ If your organization changes its selling process, you might want to edit a seque
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Clone a sequence

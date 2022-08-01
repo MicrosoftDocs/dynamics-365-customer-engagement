@@ -1,7 +1,7 @@
 ---
 title: "Manage tags for sequences in sales accelerator"
 description: "Manage the tags for sequences in sales accelerator by creating, adding, editing, and deleting."
-ms.date: 12/22/2021
+ms.date: 08/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,7 +15,7 @@ Tags help you quickly filter and identify sequences from a list by categories th
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 

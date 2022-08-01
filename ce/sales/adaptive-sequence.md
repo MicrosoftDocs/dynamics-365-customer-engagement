@@ -1,7 +1,7 @@
 ---
-title: "Add the conditions steps to sequences"
-description: "Add the conditions steps to determines the path of a sequence."
-ms.date: 07/29/2022
+title: "Add the condition steps to sequences"
+description: "Add the condition steps to determines the path of a sequence."
+ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -14,7 +14,7 @@ Use adaptive sequences in sales accelerator to define conditions steps that dete
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, and [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
