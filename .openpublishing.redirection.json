@@ -23834,6 +23834,11 @@
       "source_path": "ce/sales/create-manage-assignment-rules-lead-routing.md",
       "redirect_url": "create-manage-assignment-rules",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/clone-a-sequence.md",
+      "redirect_url": "edit-a-sequence",
+      "redirect_document_id": "false"
     }
   ]
 }
