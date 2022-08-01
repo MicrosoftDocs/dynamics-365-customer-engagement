@@ -16,8 +16,8 @@ Save personalized views of your reports in bookmarks. A bookmark captures the st
 
 Bookmarks are available in historical analytics reports and knowledge analytics reports only.
 
-## Create a bookmark
-<!-- Please update the screenshots below with ones from the correct environment and change the option names in the instructions to match. The bookmark options I see in my environment are different from what's in your text.-->
+## Create and manage bookmarks
+
 1. In Customer Service workspace or Omnichannel for Customer Service, open one of the following reports:
 
     - **Customer Service historical analytics**
@@ -28,42 +28,22 @@ Bookmarks are available in historical analytics reports and knowledge analytics 
 
 1. Adjust the report filters, slicers, and visuals as needed to customize your view of the data.
 
-1. Select **Bookmarks**, and then select **Add a personal bookmark**.
+1. Select **Bookmarks**, and then select **Create new bookmark**.
 
     :::image type="content" source="media/bookmarks-menu.png" alt-text="Screenshot of the Bookmarks menu.":::
 
-1. Enter a name for the bookmark.
+1. Enter a name for the bookmark, and then save it.
 
-    :::image type="content" source="media/bookmarks-create.png" alt-text="Screenshot of creating a bookmark.":::
+1. Repeat the steps to create as many bookmarks as you require.
 
-1. Optionally, to always open the report with the current filters, slicers, and visuals, select **Make default view**.
+1. To manage bookmarks, select **Bookmarks**, select **Manage bookmarks**, and then do the following:
 
-1. Select **Save**.
+    - To delete a bookmark, select the delete icon.
 
-## Manage bookmarks
+    - To set a bookmark as the default view for the report, select the pin icon.
 
-<!-- I'm commenting these instructions out rather than deleting them in case my environment is waaaaaay different from yours, and your instructions reflect the way bookmarks work in this UI. I hope they work the way bookmarks work in Power BI.
+1. To modify a saved view, adjust the report filters, slicers, and visuals as needed. Select **Bookmarks** > **Manage bookmarks**, and then select **Update bookmark**.
 
-Select **Bookmarks**, and then select **Manage bookmarks**.
-
-- To delete a bookmark, select the delete icon.
-
-- To set a bookmark as the default view for the report, select the pin icon.
-
-To modify a saved view, adjust the report filters, slicers, and visuals as needed. Select **Bookmarks** > **Manage bookmarks**, and then select **Update bookmark**. -->
-
-1. If your current view is a bookmark, select the bookmark name as shown in the example below. Otherwise, select **Bookmarks**.
-
-    :::image type="content" source="media/bookmarks-modify.png" alt-text="Screenshot of bookmark options.":::
-
-1. Select the **More options** (**...**) menu, and then select one of the following options:
-
-    - **Update**: Save the bookmarked view with the same name if you've made changes to filters, slicers, or visuals.
-    - **Make default**: Always open the report with the current filters, slicers, and visuals.
-    - **Rename**: Give the bookmark a new name.
-    - **Delete**: Delete the saved view and reset the report to its default filters, slicers, and visuals.
-
-To undo changes you've made to a report without deleting your bookmark, select **Reset to default**.
 
 ### See also
 
