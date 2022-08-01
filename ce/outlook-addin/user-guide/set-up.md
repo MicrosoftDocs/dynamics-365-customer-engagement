@@ -1,9 +1,9 @@
 ---
 title: "Set up Dynamics 365 for Outlook users | MicrosoftDocs"
+description: Learn how to install, set up, configure, and use Microsoft Dynamics 365 for Outlook with this walkthrough.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
-
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
