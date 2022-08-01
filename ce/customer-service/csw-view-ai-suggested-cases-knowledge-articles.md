@@ -34,9 +34,7 @@ The AI suggestions are displayed in smart assist, an intelligent assistant that 
 
 ## Prerequisites
 
-- AI-suggestions for similar cases and knowledge articles should be enabled by your administrator. 
-    > [!NOTE]
-    > As an early access feature, AI suggestions for similar cases and knowledge articles is enabled out of the box.
+- AI-suggestions for similar cases and knowledge articles should be enabled. This feature is enabled out of the box.
 - Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
 - The Productivity tools user role must be assigned to you.
 
