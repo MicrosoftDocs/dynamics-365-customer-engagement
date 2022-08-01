@@ -60,7 +60,7 @@ When you create a quick campaign activity, an activity is created for each membe
       You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the **Activity Type** as **Phone Call**, and then select **The owners of the records in the target marketing lists**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.
 
       > [!NOTE]
-      > When you select the **Activity Type** as email, you'll see an additional option to specify whether email activities should be closed. 
+      > When you select the **Activity Type** as *Email*, you'll see an additional option to specify whether email activities should be closed. If you select the **Mark email messages to be sent and close corresponding email activities** checkbox, the activity is  
 
 6. Select **Next**.
 
