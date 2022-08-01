@@ -1,5 +1,5 @@
 ---
-title: Create bookmarks for reports
+title: Manage bookmarks for reports
 description: Create bookmarks and navigate a personalized view of your reports.
 ms.date: 08/01/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Create bookmarks for reports
+# Manage bookmarks for reports
 
 [!INCLUDE[cc-early access](../includes/cc-early-access.md)]
 
