@@ -5,7 +5,6 @@ author: gandhamm
 manager: shujoshi
 ms.topic: task
 ms.date: 07/01/2022
-ms.subservice: end-user
 ms.author: mgandham
 search.audienceType: 
   - enduser
@@ -43,7 +42,7 @@ Turn on the enhanced email template editing experience in the Customer Service H
 
 ### See also
 
-[How to create an email template  in model-driven apps](email-template-create.md)  
-[Customize an email template using the template editor](cs-template-options.md)
+[How to create an email template  in model-driven apps](/power-apps/user/email-template-create)  
+[Customize an email template using the template editor](/power-apps/user/cs-template-option)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
