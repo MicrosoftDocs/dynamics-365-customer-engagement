@@ -1,7 +1,7 @@
 ---
 title: "Historical analytics for unified routing in Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Customer Service."
-ms.date: 10/12/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -68,3 +68,4 @@ You can select a date, and then select **Details** to view the routing metrics b
 [Enable Historical analytics for unified routing](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-unified-routing)  
 [Unified routing report in Omnichannel historical analytics](oc-historical-analytics-unified-routing.md)  
 [Diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

@@ -1,7 +1,7 @@
 ---
 title: Summary Dashboard | Microsoft Docs
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 04/05/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -90,9 +90,10 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 ### See also
 
-- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
-- [Agent dashboard](agent-dashboard-cs.md) <br>
-- [Topics dashboard](case-topics-dashboard-cs.md) 
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard-cs.md)  
+[Topics dashboard](case-topics-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
