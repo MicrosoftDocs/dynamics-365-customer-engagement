@@ -36,9 +36,6 @@ To add the email activity step:
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an email**. 
     
-    > [!div class="mx-imgBorder"]
-    > ![The list of actions under the Steps tab.](media/sequence-activity-steps-tab.png "The list of actions under the Steps tab")    
-
 3. On the **Email** activity pane, enter the following information to configure the email activity
 
    1. A name and description for the activity. The information you enter here will be displayed to sellers.   
@@ -68,9 +65,6 @@ To add the automated email activity step:
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an automated email**. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![The list of actions under the Steps tab.](media/sequence-activity-steps-tab.png "The list of actions under the Steps tab")    
 
 3. On the **Automated email** activity pane, enter the following information to configure the automated email activity:
     
@@ -101,9 +95,6 @@ To add the phone call activity step:
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Make a phone call**. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![The list of actions under the Steps tab.](media/sequence-activity-steps-tab.png "The list of actions under the Steps tab")    
 
 3. On the **Phone call** activity pane, enter a name and description for the phone call activity. The information you enter here will be displayed to sellers.
     
@@ -124,9 +115,6 @@ To add the custom activity step:
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Complete a task**. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![The list of actions under the Steps tab.](media/sequence-activity-steps-tab.png "The list of actions under the Steps tab")    
 
 3. On the **Task** activity pane, enter a name and description for the custom activity. The information you enter here will be displayed to sellers.
     
@@ -146,9 +134,6 @@ To add the wait time step:
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.
 
 2. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Set wait time**. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![The list of actions under the Steps tab.](media/sequence-activity-steps-tab.png "The list of actions under the Steps tab")    
 
 3. On the **Wait** activity pane, choose the duration in days and hours that you want sellers to wait before they perform the next activity. The maximum wait time is 30 days.
     
