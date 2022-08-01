@@ -5,7 +5,6 @@ author: gandhamm
 manager: shujoshi
 ms.topic: task
 ms.date: 07/01/2022
-ms.subservice: end-user
 ms.author: mgandham
 search.app: 
   - PowerApps
