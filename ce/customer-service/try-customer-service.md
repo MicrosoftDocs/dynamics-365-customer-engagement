@@ -24,7 +24,7 @@ The trial will take a few moments to load, then you can start using Customer Ser
 
 ## Experience for a trial user
 
-Customer Service uses a Microsoft Dataverse environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
+Customer Service uses a Microsoft Power Platform environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
 
 This section lists all the functionality that will be restricted until an environment is provisioned. These restrictions apply to only for:
 

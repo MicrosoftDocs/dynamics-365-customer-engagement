@@ -44,7 +44,7 @@ Do the following steps to add the SLA timer control for the case entity.
 > [!IMPORTANT]
 > You can add the SLA timer control only in the classic Power Apps experience.
 
-1. In your Dynamics 365 environment, select **Advanced Settings** to go to **Customizations**.
+1. In your Power Platform environment, select **Advanced Settings** to go to **Customizations**.
 2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
 3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
 4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.

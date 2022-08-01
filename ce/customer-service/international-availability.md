@@ -22,7 +22,7 @@ The purpose of this document is to provide information about the geographic loca
 
 ## Geographic location availability
 
-Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
 
 > [!Note]
 >

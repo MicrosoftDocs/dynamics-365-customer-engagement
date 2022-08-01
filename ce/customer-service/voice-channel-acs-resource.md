@@ -22,7 +22,7 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 
 > [!Note]
 > 
-> - After you've connected to a resource in a Dynamics 365 environment, the phone numbers purchased via the resource that are linked to the Dynamics 365 environment can't be transferred or migrated to another environment.
+> - After you've connected to a resource in a Power Platform environment, the phone numbers purchased via the resource that are linked to the Power Platform environment can't be transferred or migrated to another environment.
 > - One Dynamics 365 organization is mapped to one Azure Communication Services resource.
 
 ### See also
