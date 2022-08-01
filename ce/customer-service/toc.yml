@@ -880,8 +880,6 @@
         href: enable-personal-quick-replies.md
       - name: Enable transcripts
         href: enable-transcripts-messaging-channels.md
-      - name: Enable consult pane for agents
-        href: enable-consult.md  
       - name: Enable sound notifications
         href: enable-sound-notifications.md
       - name: Enable missed notifications
@@ -942,7 +940,7 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-  - name: Analytics and insights dashboards
+  - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service
       href: introduction-customer-service-analytics.md
@@ -1020,6 +1018,8 @@
         href: customer-service-analytics.md
       - name: Forecast case and conversation volumes
         href: use-volume-forecasting.md
+      - name: Manage report bookmarks
+        href: manage-bookmarks.md
       - name: Intraday supervisor experience
         items: 
         - name: Introduction to intraday supervisor experience
