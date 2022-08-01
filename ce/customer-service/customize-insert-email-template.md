@@ -6,7 +6,6 @@ author: gandhamm
 manager: shujoshi
 ms.topic: task
 ms.date: 05/06/2022
-ms.subservice: end-user
 ms.author: mgandham
 search.audienceType: 
   - enduser
@@ -45,6 +44,6 @@ You can configure and enable the enhanced email template  in the Customer Servic
 ### See also
 
 [Set up enhanced email](/power-platform/admin/system-settings-dialog-box-email-tab)<br>
-[Understand the email experience](view-create-email.md)                                                    
+[Understand the email experience](/power-apps/user/view-create-email)                                                    
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
