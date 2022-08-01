@@ -67,7 +67,7 @@ You can customize the search filters for knowledge articles in the Customer Serv
 
 ---
 
-1. To enable agents to personalize knowledge article search filters:
+2. To enable agents to personalize knowledge article search filters:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -79,7 +79,7 @@ You can customize the search filters for knowledge articles in the Customer Serv
 
 ---
 
-1. Select the filters you want to make available for knowledge search.
+3. Select the filters you want to make available for knowledge search.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -91,20 +91,20 @@ You can customize the search filters for knowledge articles in the Customer Serv
 
 ---
 
-1. To set predetermined values that will appear for agents by default, select the ellipsis in the upper-right corner of a filter area, and then select **Preselects**.
+4. To set predetermined values that will appear for agents by default, select the ellipsis in the upper-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](media/select-filter-preselects.png "Select filter preselects.")
-1. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
+5. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
 
    Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
     > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 
-1. If you want to set the filters that must be shown to the agent, select the ellipsis in the upper-right corner of a filter area, and then select **Visibility**.
+6. If you want to set the filters that must be shown to the agent, select the ellipsis in the upper-right corner of a filter area, and then select **Visibility**.
    
-1. Select the values that you want to show the agent, and then select **Done**.
-1. When you're finished with configuring the values you want, select **Save**.
+7. Select the values that you want to show the agent, and then select **Done**.
+8. When you're finished with configuring the values you want, select **Save**.
 
 ## Enable custom fields as search filters
 
@@ -238,11 +238,11 @@ You can allow agents to personalize their knowledge article search filters in th
     - In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
 ---
-3. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter to be shown to the agent by default. 
+2. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter to be shown to the agent by default. 
 
    > [!NOTE]
    > This option will be available only if **Enable custom filters** is set to **Yes**.
 
-1. Select **Save**.
+3. Select **Save**.
 
 Once you have enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you have previously set for them.
