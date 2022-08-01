@@ -85,6 +85,7 @@ To add a Twilio or TeleSign sender number to the Marketing app:
     > [!div class="mx-imgBorder"]
     > ![Add SMS number screenshot.](media/real-time-marketing-text-message-add.png "Add SMS number screenshot")
 1. Select the **Add** button, then select **Done**. The number setup is now complete.
+1. To receive SMS replies through Twilio or TeleSign using the numbers you set up, you also need to specify and set up the **Callback URL**. For Twilio, copy the Callback URL from the Marketing app and paste it in the [configuration page of your numbers](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) on the **"A MESSAGE COMES IN"** field. For TeleSign, you'll need to contact customer support to set this up for you.
 
 You can view all active provider integrations in the **SMS providers** tab. You can also edit, update, delete, or add more numbers to an existing integration.
 
