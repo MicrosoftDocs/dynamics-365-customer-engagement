@@ -17,6 +17,14 @@ Dynamics 365 Sales uses Microsoft 365 data to generate the following insights ba
 
 Previously, the consent for these capabilities were provided from **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights - Analytics** and **Dynamics 365 Sales Insights - Connection graph** respectively. The consent to use Microsoft 365 data is now consolidated and is applicable for all Dynamics 365 applications.  
 
+## License and role requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise, and Microsoft 365 <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Microsoft 365 administrator <br> |
+
+
 ## Things to consider
 
 Before you provide consent in the new form, review the following information:
