@@ -23846,6 +23846,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/clone-a-sequence.md",
+      "redirect_url": "edit-a-sequence",
+      "redirect_document_id": "false"
+    },
+    {  
       "source_path": "ce/sales/teams-integration/ci-capabilities.md",
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
