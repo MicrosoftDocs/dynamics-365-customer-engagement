@@ -56,7 +56,7 @@ Verify that you meet the following requirement before adding predictive opportun
 - You need to have enough opportunities to train the model based on past data. Depending on the number of opportunities you've created and closed in the past few months, decide a time period between 3 months to 2 years to meet one of the following requirements:
 
     - A minimum of 40 won and 40 lost opportunities that were created and closed during the selected time period.
-    - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a model based on business process stages. In this model, you can select the stages for which an attribute has an influence.   
+    - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a [per stage model](#per-stage-model).
   >[!NOTE]
   >- These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
   >- It takes about 4 hours for the data to sync with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
@@ -134,6 +134,10 @@ In the lower-left corner of the page, you can use **Add model** to generate a ne
 > [!div class="mx-imgBorder"]
 > ![Add a model option](media/si-admin-predictive-lead-scoring-add-model.png "Add a model option")
 
+### Per stage model
+
+To score opportunities, the predictive model uses attributes that had a higher influence on opportunities that were closed as won. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone. If you want the model to determine the influence of attributes at each stage of the business process flow, then use per stage modeling. The model will calculate the prediction influence of each attribute at different stages based on past data. You can then review and decide which stages are relevant for each attribute according to your organization's standards. You enable per stage modeling while adding a model. More information: [Add a model](#add-a-model)
+
 ## First-run setup experience
 
 When the predictive opportunity scoring configuration section is opened for the first time in your organization and no models have been trained on the installation of Sales Insights, you must add the model. 
@@ -163,7 +167,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 
     By default, the name is selected as **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-5. In the **Business process flow** list, select a business process flow that's relevant for the opportunities that you're generating the model for. 
+5. In the **Business process flow** list, select a business process flow that's relevant for the opportunities that you're generating the model for. This is also important if you want to enable [per stage modeling](#per-stage-model).
     > [!NOTE]
     >- To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
     >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
@@ -198,7 +202,7 @@ If you're using your custom attributes for opportunity generation, you can gener
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
     > [!NOTE]
-    > The **Per stage modeling** option will be disabled if you don't have a business process flow for opportunity. 
+    > The **Per stage modeling** option will be disabled if you haven't selected a business process flow. 
     
 10. Select **Get started**.  
 
@@ -217,7 +221,7 @@ If you're using your custom attributes for opportunity generation, you can gener
     The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
-    >To improve the model accuracy or specify attributes for each business process stage, select **View details**. You can review the details of the model and edit the fields. More information: [Manual retraining](#manual-retraining)
+    >To improve the model accuracy, select **View details**. You can review the details of the model and edit the fields. More information: [Manual retraining](#manual-retraining)
 
 ## Add a model
 
@@ -242,14 +246,12 @@ In organizations that have different lines of business, you might need different
     > [!div class="mx-imgBorder"]
     > ![Model training confirmation notification](media/si-admin-predictive-opportunity-scoring-model-confirmation-notification.png "Model training confirmation notification")
 
-4. If you've turned on **Per stage modeling**, select **View Details** to specify the business process stages for which the model must consider an attribute.  
-
 5. Select **Publish**, if the model accuracy score is at an acceptable level as per your organization's standards.
 
     The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
-    >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+    >To improve the model accuracy, select **View details**. You can review the details of the model and edit the fields. More information: [Manual retraining](#manual-retraining)
 
 ## Edit and retrain a model
 
@@ -288,11 +290,11 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >- Date and time related attributes
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
-3. If you've enabled per stage modeling support, you'll see two additional columns: **Application stages** and **Prediction influence**.
-        :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the Application stages and Prediction influence columns.":::
+3. If you've enabled per stage modeling support, you'll see two additional columns: **Applicable stages** and **Prediction influence**.
+        :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the Applicable stages and Prediction influence columns.":::
 
 
-    1. In the **Application stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than initial stages. You can select more than one stage for each attribute. 
+    1. In the **Applicable stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than initial stages. You can select more than one stage for each attribute. 
     2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to very high. For example, let's say that you don't want to consider Budget Amount for Develop stage, but historical data shows that it has a high influence. In this case, you might want to reconsider your decision or analyze why it has such high influence.  
 
 3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.  
