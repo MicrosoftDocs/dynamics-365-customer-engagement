@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Set up Dynamics 365 for Outlook users | MicrosoftDocs"
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
