@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/07/2022
+ms.date: 08/01/2022
 ms.topic: article
 ---
 

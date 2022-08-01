@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 05/19/2022
+ms.date: 08/01/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
