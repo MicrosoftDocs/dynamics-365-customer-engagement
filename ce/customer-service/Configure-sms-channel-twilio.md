@@ -120,7 +120,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 
 When you validate the SMS settings while setting up the SMS channel, a call is made to Twilio to validate the Account SID and Auth Token.
 
-### Configure the SMS for Twilio channel in the Omnichannel Administration app
+#### Configure the SMS for Twilio channel in the Omnichannel Administration app
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -140,9 +140,6 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 4. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
-   > [!div class=mx-imgBorder]
-   > ![Workstream settings for Twilio.](media/sms-twilio.png "Workstream settings for Twilio")
-
 5. On the **SMS Settings** tab, enter the following details:
 
     - **SMS Provider**: Select **Twilio**.
@@ -151,8 +148,6 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 6. Select **Save**. The **Twilio inbound URL** is generated and displayed.
 
-   > [!div class=mx-imgBorder]
-   > ![SMS settings for Twilio.](media/sms-settings-twilio.png "SMS settings for Twilio")
 
 7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 

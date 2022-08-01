@@ -90,7 +90,7 @@ The following are important prerequisites that you must complete before configur
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-### Create a Twitter channel and add a Twitter handle in Omnichannel Administration
+#### Create a Twitter channel and add a Twitter handle in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -114,16 +114,11 @@ The following are important prerequisites that you must complete before configur
 
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
-    > [!div class=mx-imgBorder]
-    > ![Register a Twitter application.](media/twitter-register-app.png "Register a Twitter application")
 
 3.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
 4. To save the Callback URL in the Twitter app dashboard of the developer portal, go to the Twitter developer portal > Twitter app dashboard > **Details** > **App details** > **Edit**. Copy the **Callback URL** from Omnichannel for Customer Service, and then paste it into the **Callback URLs** field.
  
-> [!div class=mx-imgBorder]
-> ![Twitter Callback information.](media/twitter-callback-information.png "Twitter Callback URL")
-
 5. Add a Twitter handle: In the **Twitter app** section, select **New Twitter handle** to add Twitter handles.
 
 6.	On the **New Twitter handle** page, in **Name**, enter a name that you can reference. It should not be the Twitter handle. 
@@ -147,30 +142,21 @@ The following are important prerequisites that you must complete before configur
        
        To learn more about uploading media in Twitter, see [Twitter developer documentation](https://developer.twitter.com/en/docs/media/upload-media/uploading-media/media-best-practices).
        
-       > [!div class=mx-imgBorder]
-       > ![Twitter work stream.](media/twitter-create-handle.png "Twitter work stream")
-
 2. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
 3.  On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 4.  Select **Save** to save the record. The Twitter channel setup is complete.
  
-> [!div class=mx-imgBorder]
-> ![Twitter channel enabled.](media/twitter-account-complete.png "Twitter channel enabled")
-
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
  
-### Create routing rules in Omnichannel Administration
+#### Create routing rules in Omnichannel Administration
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the out-of-the-box work stream or the one you created.
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Twitter Engagement Context**. For example, you can create a rule to transfer Twitter chat from a customer named Twitter to the default queue.
  
-> [!div class=mx-imgBorder]
-> ![Twitter routing rule creation.](media/twitter-create-routing-rule.png "Create Twitter routing rule")
-
 When you create conditions for routing rules, the **Twitter Engagement Context (Conversation)** entity enables you to set the following attributes:
 
   - Customer name 

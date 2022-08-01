@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/link-customer-case-when-bot-escalates.md",
+      "redirect_url": "record-identification-rule",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/additional-settings.md",
       "redirect_url": "/power-platform/admin/add-remove-sample-data",
       "redirect_document_id": "false"
