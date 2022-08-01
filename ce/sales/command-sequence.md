@@ -1,6 +1,6 @@
 ---
-title: "Add steps to advance to other sequences and update fields"
-description: "Add steps to advance to other sequences and update fields in the sales accelerator to display in the work list and Up next widget."
+title: "Add command steps to a sequence"
+description: "Add steps to advance to other sequences and update fields in a sequence to display in the work list and Up next widget."
 ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Add command steps
 
-Add steps to advance to other sequences and update fields in the sales accelerator to display in the work list and Up next widget.
+Add steps to advance to other sequences and update fields in a sequence to display in the work list and Up next widget.
 
 ## License and role requirements
 | Requirement type | You must have |
