@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 07/07/2022
+ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -21,10 +21,11 @@ Configure predictive opportunity scoring to help sellers prioritize opportunitie
 
 ## What is predictive opportunity scoring
 
-Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.   
+Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities based on historical data. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity. 
+When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
 
->[!NOTE]
->Your historical data will be deleted after 30 days from the date of your subscription expiration. 
+> [!NOTE]
+> If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
 
 Using this score, you can:
 
@@ -32,6 +33,7 @@ Using this score, you can:
 - Spend time on opportunities that have low scores and convert them into possible deals.
 
 For example, say you have two opportunities&mdash;Opportunity A and Opportunity B&mdash;in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity B. By looking at the score, you can predict that Opportunity A has more chances of being converted into a won deal, and you can engage it. Also, you can further analyze why the score of Opportunity B is low by looking at the top reasons that are influencing the score and deciding how to improve this score.
+
 
 The following image is an example of an opportunity scoring widget.
 
@@ -48,12 +50,12 @@ You can add custom fields to generate an accurate model for predictive opportuni
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 won and 40 lost opportunities created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
+- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+
+- A minimum of 40 won and 40 lost opportunities that were created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
-
-- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 ## Understand the configuration page
 
