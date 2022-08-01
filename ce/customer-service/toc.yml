@@ -930,8 +930,6 @@
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
         href: context-variables-for-bot.md
-      - name: Link customer and case when bot escalates or ends conversations
-        href: link-customer-case-when-bot-escalates.md
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
