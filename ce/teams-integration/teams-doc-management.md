@@ -2,7 +2,6 @@
 title: "Document management with Microsoft Teams integration"
 description: "Use Microsoft Teams integration to co-author and sync documents to customer engagement apps using SharePoint. Get answers to FAQs about document management."
 ms.date: 04/01/2021
-ms.service: teams-integration
 ms.topic: article
 author: sbmjais
 ms.author: shjais
