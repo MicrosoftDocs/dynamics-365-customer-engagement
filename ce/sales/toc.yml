@@ -584,8 +584,6 @@
           href: teams-integration/work-with-tasks.md
         - name: Work with activities during a meeting
           href: teams-integration/work-with-activities.md
-        - name: Conversation intelligence capabilities during a meeting
-          href: teams-integration/ci-capabilities.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
         items:
         - name: Overview
