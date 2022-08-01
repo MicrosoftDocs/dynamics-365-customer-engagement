@@ -1,5 +1,6 @@
 ---
 title: "Which fields can be synchronized between Dynamics 365 apps and Outlook? | MicrosoftDocs"
+description: Learn how Dynamics 365 for Customer Engagement administrators can control field synchronization between Dynamics 365 apps and Outlook.
 ms.custom: 
 ms.date: 08/20/2018
 ms.reviewer: 
