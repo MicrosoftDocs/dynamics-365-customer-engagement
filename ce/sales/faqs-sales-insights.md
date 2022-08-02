@@ -323,14 +323,11 @@ It takes a few seconds to display the results.​
 
 ## Who knows whom
 
-### What do I need in order to use Who knows whom?
-Who knows whom requires Microsoft 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
+### How long will it take for the suggestions to appear after providing consent?
+It takes about one to three days to populate the results for the first time. Later, updates take three to six days, depending on the new activities included.​
 
-### How long will it take for results to appear?
-It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​
-
-### ​Who will be included in the graph?
-Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).​
+### ​Who will be included in the who knows whom suggestions?
+Everyone in the tenant is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
@@ -347,7 +344,7 @@ The insights are generated within the Exchange Online system, so we follow the s
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 ### How do I opt out?
-You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).
+You can choose to opt out of sharing your Microsoft 365 data with Dynamics 365. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How does an Exchange administrator exclude users?
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
