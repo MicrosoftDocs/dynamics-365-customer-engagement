@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 07/29/2022
+ms.date: 08/02/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -136,7 +136,7 @@ In the lower-left corner of the page, you can use **Add model** to generate a ne
 
 ## Per stage model
 
-To score opportunities, the predictive model uses attributes that had a higher influence on opportunities that were closed as won in the past. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone. If you want the model to determine the influence of attributes at each stage of the business process flow, then use per stage modeling. The model will calculate the prediction influence of each attribute at different stages based on past data. You can then review and decide which stages are relevant for each attribute according to your organization's standards. You enable per stage modeling while adding a model. More information: [Add a model](#add-a-model)
+To score opportunities, the predictive model uses attributes that had a higher influence on opportunities that were closed as won in the past. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone. If you want the model to determine the influence of attributes at each stage of the business process flow, then use per stage modeling. The model will calculate the prediction influence of each attribute at different stages based on past data. You can then review and decide which stages are relevant for each attribute according to your organization's standards. You can enable per stage modeling while adding a model. More information: [Add a model](#add-a-model)
 
 ## First-run setup experience
 
