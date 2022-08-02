@@ -25,7 +25,7 @@ You can add a new organization in the [!INCLUDE[pn_microsoftcrm](../includes/pn-
 <!-- >  -   Not all versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] allow you to add multiple organizations.  -->
   
 > [!TIP]
->  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [New-CrmOrganization](/powershell/module/microsoft.crm.powershell/new-crmorganization?view=dynamics365ce-ps) command.  
+>  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [New-CrmOrganization](/powershell/module/microsoft.crm.powershell/new-crmorganization?view=dynamics365ce-ps&preserve-view=true) command.  
   
 1.  In the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] console tree, right-click **Organizations**, and then select **New Organization** to open the New Organization Wizard.  
   
@@ -41,7 +41,7 @@ You can add a new organization in the [!INCLUDE[pn_microsoftcrm](../includes/pn-
   
     -   In the **SQL collation** list, keep the default selection or select a different collation that the organization database will use to sort and compare data characters.  
   
-    -   The default SQL collation changes based on the base language selection. For more information, see [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017).  
+    -   The default SQL collation changes based on the base language selection. For more information, see [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017&preserve-view=true).  
   
 3.  Select **Next**.  
   

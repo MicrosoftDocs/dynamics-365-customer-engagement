@@ -1,7 +1,7 @@
 ---
 title: Knowledge article and search term analytics dashboards | Microsoft Docs
 description: Learn about the knowledge article and search term analytics dashboards to better understand agent performance in your organization.
-ms.date: 03/20/2022
+ms.date: 08/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -84,10 +84,11 @@ The Knowledge search term analytics dashboard represents the following metrics.
 
 ### See also
 
-[Configure knowledge search insights](enable-knowledge-search-insights.md)
-[Search for knowledge articles](search-knowledge-articles-csh.md) <br>
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md) <br>
-[Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+[Configure knowledge search insights](enable-knowledge-search-insights.md)  
+[Search for knowledge articles](search-knowledge-articles-csh.md)  
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
+[Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
