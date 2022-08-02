@@ -1,8 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/21/2021
-ms.service: dynamics-365-marketing
+ms.date: 07/01/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -20,14 +19,673 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
+
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
-Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
+Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 > [!Note]
-> To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+> To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
+
+## 2022 updates
+
+### June 2022 update
+
+The Dynamics 365 Marketing June 2022 update has three preview features and three general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new segment builder, the ability to continue customer conversations by taking action on SMS replies, and multiple journey branches to create more personalized variations. General availability features include a new email creation canvas and user experience, a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, Customer Service, and the ability to trigger journeys based on data changes in any Dynamics 365 app.
+
+The update also includes an admin digital data sharing opt-in for better performing AI features, business unit scoping support from the Dataverse Data Source service, better visibility for errors that occur when going live with pages and forms, and conditional content support for email templates.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.84.2011.0 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Target the right contacts and leads using the reimagined, easy-to-use segmentation builder**
+    - To improve marketing return on investment, it's important to target the right audience. This can often be complicated, requiring marketers to understand database and SQL concepts and operators. The new segmentation builder simplifies segment creation and empowers you to build segments for your campaigns without requiring assistance from data analysts or scientists, no matter how complex the logic. You can build segments on leads, without requiring the lead to have a parent contact. You can then market to these leads directly using customer journeys. Finally, the segmentation builder enables you to take an iterative approach to building the segment logic through member previews that populate as you build the segment.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/target-right-contacts-leads-using-reimagined-easy-use-segmentation-builder)
+    - [Docs](real-time-marketing-build-segments.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the real-time marketing segment builder.](media/real-time-marketing-build-segment-attribute.png "Screenshot of the real-time marketing segment builder")
+
+- **Continue the conversation with your customers by taking action on their SMS replies**
+    - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
+    - [Docs](set-up-automated-sms-keyword-flow.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
+
+- **Create more personalized journey variations using multiple journey branches**
+    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
+    - [Docs](real-time-marketing-multiple-branches.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of multiple branches.](media/whats-new-multiple-branches.png "Screenshot of multiple branches")
+
+#### General availability enhancements
+
+- **Create emails faster with precise drag-and-drop, in-context menu, and easy-select interactions**
+    - The reimagined email editor is optimized for a productive workflow, allowing you to quickly create engaging and relevant content. With this release, the editor is further enhanced with precise drag-and-drop interactions, easy selection of elements, columns, or sections, and an in-context menu for faster content creation so you can create pixel-perfect emails in minutes.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions)
+    - [Docs](create-marketing-email.md)
+
+- **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
+    - Sales and Customer Service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, these agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. It also allows previews of messages sent to customers. This enables, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/personalize-interactions-using-unified-view-customer-activity-across-dynamics-365-marketing-sales-customer-service)
+    - [Docs](timeline.md)
+
+- **Trigger journeys based on data changes in any Dynamics 365 app to engage customers at the right time without writing any code**
+    - Interactions in any Dynamics 365 app can be used to trigger and drive customer journeys in just a few clicks, without requiring developers or customizations. Customers interact with several departments and functions in your company throughout their lifetime, all of which use their own CRM, ERP, and business apps. Each of these interactions, such as a service ticket being closed, represents an opportunity to engage more deeply with your customers. Now, data no longer has to remain siloed within separate apps and out of reach of your customer engagement or marketing automation tools.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/trigger-journeys-based-data-changes-dynamics-app-engage-customers-at-right-time-without-writing-code)
+    - [Docs](real-time-marketing-dataverse-trigger.md)
+
+#### Monthly enhancements
+
+- **Real-time marketing**
+    - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for Content Ideas (GPT-3), and get better recommendations for channel optimization.
+- **Business units**
+    - The Dataverse Data Source service now respects business unit scoping, enabling organizations to support multi-brand strategy needs, reduce compliance risks, define reusable marketing assets, and review marketing results at various organizational levels.
+- **Marketing pages**
+    - Errors are now displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
+- **Conditional content**
+    - [Preview] Email templates now support conditional content.
+
+#### Bug fixes
+
+- **First run experience**
+    - Resolved a bug that occasionally resulted in an error in newly provisioned environments indicating that an installation included solutions but not the services required by the Marketing app.
+- **Segmentation**
+    - Fixed an internal server error that sometimes occurred when creating a segment and going live with it.
+- **Marketing emails**
+    - Improved security in the email editor (updated components address potential cross-site scripting and information disclosure vulnerabilities).
+
+### May 2022 update
+
+The Dynamics 365 Marketing May 2022 update has two preview features and one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include conditional dynamic content, which helps marketers create hyper-personalized messages, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels. The new general availability feature enables the use of outbound subscription centers in real-time marketing.
+
+The update also includes improved email content blocks, the ability to manually populate event trigger parameters when raising triggers to run power automate flows, and real-time marketing geographical expansion to Brazil, India, Japan, and the United Arab Emirates. Read on for details!
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.83.2008.0 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Win customer attention by creating conditional dynamic content with easy-to-use no-code experiences**
+    - Conditional dynamic content is key to delivering highly personalized messages to customers. Creating content where entire sections target specific customer segments allows you to craft messages that align with your customers’ interests and preferences, driving engagement and brand loyalty. Until now, achieving this level of dynamic content was complex and required coding. With the new conditional content experience, marketers can easily create messages targeted to specific segments or attributes, bringing content that is truly unique to each customer without writing any code.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/win-customer-attention-creating-conditional-dynamic-content-easy-to-use-no-code-experiences)
+    - [Docs](conditional-content.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of conditional dynamic content.](media/whats-new-conditional-dynamic.png "Screenshot of conditional dynamic content")
+
+- **Measure campaign effectiveness with a new channel analytics dashboard**
+    - To create effective campaigns, marketers need to continuously track the delivery of assets across numerous channels. They also need to review campaign engagement metrics so that they can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. You can even zoom in on a particular channel or message. You can also learn from trends of important metrics over a specified time period to further improve your marketing efforts.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/measure-campaign-effectiveness-new-channel-analytics-dashboard)
+    - [Docs](real-time-marketing-channel-analytics.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of real-time marketing aggregate channel analytics.](media/whats-new-channel-analytics.png "Screenshot of real-time marketing aggregate channel analytics")
+
+#### General availability enhancements
+
+- **Use outbound subscription centers in real-time journeys**
+    - Collecting consent is a critical business need. Subscription centers are a way to gather consent preferences from your customers. Businesses need to be able to customize their subscription center to match their branding and business needs. They also need the ability to create different subscription centers for different regions, brands, or lines of business. Now, you can bring the flexibility of subscription centers available in outbound marketing to real-time marketing journeys, enabling you to have multiple subscription centers, customized and branded to your needs.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/use-outbound-marketing-subscription-centers-real-time-marketing-journeys)
+    - [Docs](real-time-marketing-outbound-subscription.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of outbound subscription centers in real-time marketing.](media/whats-new-outbound-subscription.png "Screenshot of outbound subscription centers in real-time marketing")
+
+#### Monthly enhancements
+
+- **Email content blocks**
+    - [Preview] User can locate all emails where the current content block is used.
+- **Custom triggers**
+    - Pass trigger parameters from a journey to a Power Automate flow or to another journey by easily populating the data for a custom trigger inside a journey.
+- **Geographic expansion**
+    - Real-time marketing is now available in four additional geographies: Brazil, India, Japan, and the United Arab Emirates.
+
+#### Bug fixes
+
+- **Real-time marketing**
+    - Resolved a bug that sometimes prevented real-time marketing solutions from being manually uninstalled.
+
+### April 2022 update
+
+The Dynamics 365 Marketing April 2022 update is a milestone release. It offers three preview features and five general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new email creation canvas and user experience, a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, and Customer Service, and reusable content blocks for quick email creation.
+
+Generally available features include the ability to raise triggers from a journey to run another journey or Power Automate flow, reusable dynamic text for personalization, more out-of-the-box real-time marketing triggers, filter conditions for triggers, and improved email templates.
+
+The update also includes monthly enhancements to journeys, domain authentication settings improvements, and improved contact card consent management.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.82.2016.0 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Create emails faster with precise drag-and-drop, in-context menu, and easy-select interactions**
+    - The reimagined email editor is optimized for a productive workflow, allowing you to quickly create engaging and relevant content. With this release, the editor is further enhanced with precise drag-and-drop interactions, easy selection of elements, columns, or sections, and an in-context menu for faster content creation so you can create pixel-perfect emails in minutes.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions)
+    - [Docs](create-marketing-email.md)
+
+- **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
+    - Sales and Customer Service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, these agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. It also allows previews of messages sent to customers. This enables, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/personalize-interactions-using-unified-view-customer-activity-across-dynamics-365-marketing-sales-customer-service)
+    - [Docs](timeline.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new timeline view.](media/whats-new-timelineview.png "Screenshot of new timeline view")
+
+- **Quickly create emails with enhanced reusable content blocks**
+    - Content blocks are reusable pieces of content that let you easily assemble rich and consistent emails. New and enhanced content blocks are now available in outbound and real-time marketing. The enhanced content blocks can include all standard elements such as text, images, and buttons, as well as custom layouts and personalization.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments)
+    - [Docs](content-blocks.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new content blocks.](media/whats-new-content-blocks.png "Screenshot of new content blocks")
+
+#### General availability enhancements
+
+- **Create individualized journeys by adding conditions based on attributes captured as part of the event trigger**
+    - Previously, marketers had to instrument fine-grained triggers for their journeys. For instance, they needed separate triggers for each campaign page if they wanted to create a unique journey per campaign. Now, marketers can simply ask their web developers to add a single trigger across all campaign pages. They can then use filter conditions on the trigger to spawn a unique journey per campaign page. This gives marketers more control over how they use triggers and enables them to create future journeys without needing new triggers every time. Trigger conditions are even more powerful when combined with out-of-the-box triggers such as marketing form filled or event registration, as marketers can now scope a journey to a specific form or marketing event using a single out-of-the-box trigger. Trigger filters can also be added at exits, branches, or to measure journey goals.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-individualized-journeys-adding-conditions-based-attributes-captured-as-part-event-trigger)
+
+- **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
+    - Marketers can trigger journeys as well as Power Automate flows directly from anywhere in their journey. When used to trigger other journeys, this allows marketers to chain journeys together and create multiple journeys that logically function together. Likewise, when used with a Power Automate flow, marketers can run any custom process outside of their journey or connect to myriad Power Automate connectors.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
+    - [Docs](real-time-marketing-custom-actions.md)
+
+- **Improved email layout templates for faster content creation**
+    - Default layout templates have been replaced with popular and useful layouts allowing marketers to easily kick-start the email creation process. The templates have a modern look and feel for a better experience. They include simplified guidance with more descriptive and actionable content placeholders.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/improved-email-layout-templates-faster-content-creation)
+    - [Docs](email-templates.md)
+
+- **Easily author personalized content using pre-defined dynamic text without the need to understand the data model**
+    - With pre-defined dynamic text, marketers have a quick list of the most commonly used dynamic text to select from. Marketers can simply select and insert the pre-defined text into an email to personalize it. Marketers familiar with the data model can create and share additional dynamic text so that the rest of the team can focus on authoring content rather than learning database concepts. Not only does this promote ease of use, but it also customizes the list with dynamic text that’s specific to individual businesses.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
+    - [Docs](real-time-marketing-predefined-tokens.md)
+
+- **Quickly create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions**
+    - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions. This eliminates the need to create and manage hundreds or thousands of segments and journeys. Now, you can use one trigger per a form and marketing event. A single journey can replace them all – and dynamic content can be used to tailor the outgoing messages to the respective form or marketing event.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-customer-journeys-triggered-marketing-interactions-such-as-webinar-check-ins-form-submissions)
+    - [Docs](real-time-marketing-triggers.md#business-triggers)
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Journeys**
+    - The triggers page now works in [Solution Only mode](purchase-setup.md#solution-only-app).
+    - Out-of-the-box triggers allow you to launch journeys for marketing events without the need to create custom triggers.
+
+- **Marketing emails**
+    - A streamlined, guided experience for DKIM domain authentication settings allows marketers to maximize email deliverability and enables the embedding of Dynamics 365 Marketing forms on websites. Learn more: [Real-time marketing domain authentication](real-time-marketing-domain.md).
+    - Content ideas now includes an in-product feedback survey.
+
+- **Consent**
+    - Contact cards now show a unified view of consent for real-time and outbound marketing, giving customers clarity on contact point vs contact-based consent and the results for the different journeys. The new view also allows you to update contact point consent, giving a single place to manage consent for a contact.
+
+##### Outbound marketing
+
+- **Marketing pages**
+    - Email field validation is now enabled by default.
+
+#### Bug fixes
+
+- **Real-time marketing analytics**
+    - Resolved a bug that caused email, push, and text analytics to continually reload and display a "There was a problem getting the data" error message.
+- **Real-time marketing email**
+    - Fixed an issue that sometimes caused an editing cursor to appear when hovering over a tooltip field.
+- **Real-time marketing journeys**
+    - Improved handling and displaying of error messages.
+- **Text messages**
+    - Fixed an issue that sometimes caused a control loading error in the message field.
+
+### March 2022 update
+
+The Dynamics 365 Marketing March 2022 update includes many new features. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): a bring your own data lake option for Customer Insights integration and new out-of-the-box triggers for events and forms. The update also includes enhancements to marketing emails, partial and relative dates in real-time marketing personalization, performance upgrades, and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10081.2002 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Connect Dynamics 365 Customer Insights with customer journey orchestration when using your own data lake**
+    - Use Dynamics 365 Customer Insights data, such as customer profile and segment information, that is stored in Azure Data Lake Storage in the same way you do today with standard Customer Insights connected to Microsoft Dataverse.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/connect-dynamics-365-customer-insights-customer-journey-orchestration-when-using-own-data-lake)
+- **Quickly create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions**
+    - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions.
+    - Learn more: [Real-time marketing triggers](real-time-marketing-triggers.md).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new triggers.](media/real-time-marketing-new-oob-triggers.png "Screenshot of new triggers")
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+> [!Note]
+> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing journeys.
+
+- **Marketing emails**
+    - Link buttons or images to URLs, surveys, events, marketing pages, or files. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item. Learn more: [Create real-time marketing emails](real-time-marketing-email.md).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
+
+- **Personalization**
+    - Now, you can personalize both an email and the customer’s journey relative to important milestones (such as order date or an upcoming appointment) by creating content variations and branches that use relative and partial dates when defining a condition using dates. Partial dates allow you to define conditions such as "Birthday is today" and relative dates allow you to define conditions such as "Birthday is next month." So, depending on when an email goes out and how close it is to someone’s birthday, a different offer can be shown. Learn more: [Personalize content](real-time-marketing-personalization.md#partial-and-relative-dates-in-conditional-content).
+
+#### Bug fixes
+
+- **Channel optimization (real-time marketing)**
+    - Channel optimization will not recommend a channel which a customer has not consented to. If no channel has consent, no communication will be sent out and the customer will progress to the next step in the journey. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md).
+- **First run experience**
+    - Resolved an issue during provisioning that ocassionally caused the user interface to get stuck in a refresh state.
+- **Marketing pages**
+    - Fixed a form capture error that occurred when the URL to capture ended with a period. For example, *contoso.com/form.".
+    - Resolved a form capture error that resulted when a URL had more than 1024 characters.
+    - Session cookies are now changed (instead of being grouped together) after 20 minutes of activity (the default marketing page setting). Learn more about cookie settings: [Set up website tracking and read results](track-online-behavior.md#set-up-website-tracking-and-read-results).
+
+### February 2022 update
+
+The Dynamics 365 Marketing February 2021 update includes many new features and improvements. This release includes three features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): Microsoft Teams chat integration, a new journey tile that raises a trigger at any point in a customer journey, and pre-defined dynamic text tokens. The update also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10080.2009 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Collaborate across your organization to create the best marketing campaigns possible using the built-in Microsoft Teams chat**
+    - With Microsoft Teams chat, you can easily collaborate with your team without leaving the journey canvas or email editing experience.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/collaborate-across-organization-create-best-marketing-campaigns-possible-using-built-teams-chat)
+    - [Docs](teams-chat.md)
+- **Quickly personalize emails using predefined dynamic text, without the need to know the underlying data structure**
+    - With predefined dynamic text, marketers will have a quick list of the most commonly used tokens to select from. Marketers familiar with the data model can create and share additional tokens so that the rest of the team can focus on authoring content rather than learning database concepts.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
+    - [Docs](real-time-marketing-predefined-tokens.md)
+- **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
+    - Use custom triggers to link between journeys and between journeys and custom processes. A new journey tile will raise a trigger at any point in a customer journey. Any journey or Power Automate flows connected to the trigger run immediately run when a customer reaches the tile. This includes triggers used in exit criteria, goals, and if/then branches for journeys.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
+    - [Docs](real-time-marketing-custom-actions.md)
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Customer journeys**
+    - Create customer journeys more quickly by defining only the minimum entry criteria when making a new journey.
+    - Include multiple suppression segments in a journey, fine-tuning where users exit the journey.
+    - Stop and edit custom events even if they are used in live journeys.
+    - Developers can now include a unique identifier to correlate triggers between journeys. For example, if a customer places multiple, separate orders, multiple order confirmation journeys would be triggered. Previously, if the customer cancelled one of the orders (triggering an order cancellation event), they would receive cancellation emails from both order journeys they were a part of. Now, a developer can insert a correlation identifier into the trigger for each unique order. The identifier ensures that only the journey occurrence tied to the cancelled order sends the cancellation email. Learn more: [Correlate across custom triggers](real-time-marketing-correlate-triggers.md).
+- **Marketing emails**
+    - Add feature-rich links to emails by directly linking to documents stored in the asset library.
+    - Link buttons and images to existing events and marketing pages in the Marketing app database without looking up the specific URL.
+
+##### Outbound marketing
+
+- **Event management**
+    - Teams online event calendar invites include a 15-minute reminder before the event for attendees and speakers.
+
+> [!NOTE]
+> The outbound email editor now includes a deprecation warning that is only visible to users of pre-October 2021 versions of the Marketing app.
+
+##### Global updates
+
+- **Marketing emails**
+    - Multiple email editor enhancements including easier element resizing and performance improvements.
+    - Easily set equal heights for multi-column sections.
+
+#### Bug fixes
+
+- **Event management**
+    - Contact matching now respects business unit scoping configurations.
+- **Marketing emails**
+    - Resolved an error that sometimes caused unsaved changes to appear even though no changes were made.
+    - Email pre-headers are automatically generated and blank characters are removed, preventing pre-header-related errors.
+    - Core CSS styles have been separated from customer CSS styles to improve rendering.
+    - Resolved an error that caused local configs to fail when the remote configuration service is down.
+    - Fixed an error that caused previously deduplicated contacts to be removed from deduplication storage after a failure and rollback.
+    - Resolved an error related to custom envelope-from emails that caused "sync bounce" emails to resend as "remote bounce" emails, causing inaccurate email error reports.
+
+### January 2022 update
+
+There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
 
 ## 2021 updates
+
+### December 2021 update
+
+With the Dynamics 365 Marketing December 2021 update you can create journey branches based on any attribute, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10079.1022 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Customer journeys**
+    - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), you can now create journey branches based on any attribute associated with the customer or trigger that started the journey. In addition, for attributes based on date and time, you can create branches based on relative or partial dates. Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
+- **Marketing insights**
+    - Track the number of email recipients who have selected the preference center link from a real-time marketing email and unsubscribed one or more email addresses from being used in future real-time marketing journeys with the newly supported **Unsubscribe** interaction type. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
+
+##### Outbound marketing
+
+- **Event management**
+    - Expanded Dynamics 365 Marketing interface allows you to set Microsoft Teams meetings options in the Marketing app just as you would in the Teams UI. Learn more: [Teams meetings](teams-webinar.md#teams-meetings).
+
+#### Bug fixes
+
+- **Customer journeys**
+    - Resolved an error that prevented drag and drop functionality from working correctly in the customer journey designer.
+- **Event management**
+    - Fixed an issue that caused event management upgrade packages to fail.
+    - Fixed an error that caused Microsoft Teams webinar settings to be preserved when switching from a Teams webinar to a Teams meeting.
+- **Marketing emails**
+    - Resolved an issue that caused some email buttons to be underlined.
+    - Fixed an error that caused cloned elements (such as buttons) to move with the original element when moving between columns.
+    - Resolved an issue that caused duplicated content blocks after loading HTML into the email editor, which caused some content to disappear.
+- **Marketing pages**
+    - Resolved an error that sometimes caused an event registration form added to a published event not to reflect in the portal. Instead, a default event form was displayed.
+    - Fixed an error that caused form submission data rendering to sometimes fail when the form included multi-select option sets.
+- **Segmentation**
+    - Improved German translations in dynamic segments.
+    - Resolved an error that occassionally caused a static segement grid custom control to show editing buttons when a user did not have editing privileges.
+- **Shared UX**
+    - Fixed an error that caused the start date in a LATAM time zone marketing task template to subtract one day when adding tasks to a customer journey.
+
+### November 2021 update
+
+With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10078.2008 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Asset library**
+    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-assets-from-outbound-marketing-to-the-asset-library).
+- **Customer journeys**
+    - You can now gain more control over journey branching conditions through increased attribute support by having access to all attributes associated with a contact entity, a lead entity or a trigger. You also have the ability to do relative and partial date time checks such as checking if a customer's birthday is this month or if their membership is up for renewal in the next 90 days.
+- **Marketing emails**
+    - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
+- **Mobile channel**
+    - Send Customer Voice surveys in SMS messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
+- **Scale**
+    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
+
+##### Outbound marketing
+
+- **Marketing insights**
+    - Faster data loading speed when exporting a large range of customer interaction records from Azure Blob Storage into Power BI. Learn more: [Set up Azure Blob storage and connect it to Marketing](custom-analytics.md#set-up-azure-blob-storage-and-connect-it-to-marketing)
+
+##### Global updates
+
+- **Quota**
+    - A new quota limits page displays the monthly interaction quota, monthly interaction usage, Marketing contacts used, and annual total contact usage. Learn more: [Monitor how your consumption is tracking against your quota](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/monitor-how-consumption-tracking-against-quota) and [Quota limits](quota-management.md).
+
+#### Bug fixes
+
+- **Customer journeys**
+    - Fixed an error that resulted in a customer journey generating two identical segments when a customer journey with two swimlanes (1) contained segments with at least one contact in common, (2) contained an audience tile in each swimlane, (3) had the audience tile in swimlane one set to "segment1 **AND** exclude segment2," and (4) had the audience tile in swimlane two set to "segment1 **OR** exclude segment2."
+- **Event management**
+    - Resolved an error where iPhone users could not down an .ics file from an **Add to calendar** button when the event name was in Chinese.
+    - Resolved an error caused when a waitlist item was already registered before it was processed.
+- **Marketing emails**
+    - Updated [email bounce categories](email-bounce-categories.md) to include the suppression list category and description.
+    - Resolved an issue that sometimes caused cloned elements (such as buttons in the email designer) to move when the original element was moved.
+- **Marketing pages**
+    - Fixed an error that caused changes to the partial URL in live, editable/stopped state to not update in the full page URL.
+- **Social posting**
+    - Reactions data is now updated on the social post grid when it loads.
+
+### October 2021 update
+
+The Dynamics 365 Marketing October 2021 update includes a new Content ideas feature that uses AI to kickstart email creation, unlocking of the SMS channel for users outside of the United States, revamped A/B testing for the outbound marketing email editor, the ability to include lists of related data in personalized emails, general performance upgrades, bug fixes, and more.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10077.2005 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+> [!Important]
+> The October update shifts all users to the new outbound marketing email editor to improve the ease and efficiency of creating emails. If you're currently using consultant/developer (UI) customizations, you'll need to recreate them in the new editor.
+
+#### Preview feature
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Use AI-powered suggestions to automatically generate content for emails** *(limited to outbound marketing users in North American regions)*
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/create-email-content-easily-efficiently-ai-based-content-ideas)
+    - [Docs](content-ideas.md)
+
+#### General availability enhancements
+
+- **Use natural language to create targeted segments in outbound marketing**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/use-natural-language-create-targeted-segments)
+    - [Docs](nl-segment-build.md)
+- **Optimize the performance of emails in the new outbound marketing email editor with A/B testing**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/new-email-editor-ab-testing)
+    - [Docs](email-a-b-testing.md)
+- **Send SMS messages using Twilio and TeleSign integration**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/send-sms-messages-using-twillio-telesign-integration)
+    - [Docs](real-time-marketing-outbound-text-messaging.md)
+- **Personalize emails to include lists of related data**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/personalize-emails-include-lists-related-data)
+    - [Docs](real-time-marketing-personalization.md#lists-of-content)
+
+#### Monthly enhancements
+
+- **Event management**
+    - Microsoft Teams now includes an **Allow external presenters** switch, allowing anonymous presenters. This means that event planners no longer need to add presenters as guest users in Marketing-created live events.
+- **First run experience**
+    - Power Apps portal installation failures no longer prevent Dynamics 365 Marketing app provisioning. Now, Marketing users can install a Power Apps portal when they choose.
+    - Real-time marketing is now installed with solutions-only installations.
+- **Marketing emails**
+    - All users will now experience the new outbound marketing email editor, which provides enhanced performance and a bigger canvas.
+    - The outbound marketing and real-time marketing email editors now include a **Wrap columns on mobile** option for email sections. Unchecking this option for a selected section allows responsive rendering on mobile devices.
+    - Content blocks are available in the new outbound marketing email editor.
+- **Real-time marketing**
+    - Live customer journeys can now be updated by creating a new version.
+    - The journey designer and the content designer UI is more consistent, improving navigation and workflow.
+    - Trigger-based journeys that target Customer Insights profile can be started even if the customer’s full profile is not available. Customers without a full profile will start the journey immediately using defaults for any missing profile data.
+
+#### Bug fixes
+
+- **Event management**
+    - The **Check-in** entity name is now localized.
+    - Resolved an error that allowed anonymous speakers to join Microsoft Teams live events as attendees when the **Allow external presenter** button was disabled.
+    - Fixed an issue that prevented anonymous speakers in Teams live events from waiting in the lobby when they selected the **Join live event** link generated in Marketing.
+- **Marketing emails**
+    - Added a warning to the new outbound email editor that customizations from the old editor need to be recreated.
+- **Marketing pages**
+    - Resolved an error that sometimes prevented marketing lists from being deleted.
+    - Matched Lead IDs are now stored in form submissions, replicating the functionality of matched Contact fields.
+    - Fixed an issue where a non-ASCII character in a tracked link could cause an error.
+- **Real-time marketing**
+    - Resolved an issue that prevented customer journeys published during outage windows from being triggered.
+- **Social posting**
+    - Fixed a confusing error message that appeared when deleting an Instagram post.
+
+### September 2021 update
+
+The Dynamics 365 Marketing September 2021 update includes speedier installation and upgrade performance, a warning that the old outbound marketing email editor will be deprecated, general performance upgrades, and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10076.2003 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+- **First run experience**
+    - Added patch collapsing functionality for solution patching during Marketing installation and upgrade. This functionality keeps only the full solution, removing the base and path solutions. The result for users is that Marketing installation and upgrade performance is considerably improved.
+- **Marketing emails**
+    - Added a warning stating that the old outbound email editor will be deprecated in October. To learn about adding customizations to the new email editor, see [Customize the email designer](developer/email-designer-customization.md).
+- **Shared UX**
+    - Added a warning that displays when test contacts are missing.
+
+#### Bug fixes
+
+- **Customer journeys**
+    - Fixed an issue that caused customer journeys that used the scheduler to report an inaccurate number of queued contacts.
+- **Event management**
+    - Resolved a bug that caused waitlist registrations to sometimes duplicate when they were moved to normal event registrations.
+- **First run experience**
+    - Set the DefaultTestContact command to skip on failure, eliminating Marketing installation errors related to pre-populating CRM instances with data at provisioning time.
+    - Added org ID logging during installation to improve troubleshooting of install errors.
+- **Lead management**
+    - Fixed an error that ocassionally caused leads to be created with **System** as the owner.
+- **Marketing emails**
+    - Fixed an error that sometimes caused email links with quotes (such as add to calendar buttons) to break when tracking was turned off.
+    - Fixed a rendering issue that caused the height of an email section to be break on mobile when a background image was removed from the section.
+    - Fixed an error that prevented line height on emails from being set when the line height was not set as the first text style.
+    - Improved logging of remote bounces to ensure that email insights are measured accurately.
+- **Marketing pages**
+    - Resolved an issue that caused subscribe and unsubscribe interactions to be generated by a response to a subscription center email, even when no change was made to the user preferences.
+    - Fixed an error that resulted from selecting the **Submit** button in a landing page template.
+
+### August 2021 update
+
+The Dynamics 365 Marketing August 2021 update includes the general availability launch of Marketing's [real-time customer journey orchestration features](real-time-marketing-user-guide.yml). The August release also includes improved Microsoft Teams integration, better forms export functionality, performance upgrades, and bug fixes.
+
+> [!NOTE]
+> Real-time customer journey orchestration features are available in the United States, Europe, the United Kingdom, Australia, Canada, and Asia-Pacific geographies. Availability in other geographies will be communicated at a later date.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10075.1058 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+- **Event management**
+    - Contact check out times (when a contact leaves a webinar before it ends) are now recorded for webinar events hosted on Microsoft Teams.
+- **Marketing forms**
+    - Data is now displayed for the **Submitted values** column when exporting marketing forms to Excel.
+
+#### Bug fixes
+
+- **Customer journeys**
+    - Customer journeys now go into an error state if segment provisioning times out when a journey is going live, preventing journeys from appearing to be running despite contacts not flowing from segments.
+    - A warning message is now displayed when the segmentation limit is exceeded.
+    - Improved error handling when stuck work items are reported.
+- **Event management**
+    - When deleting event registrations, previously created check-in records tied to the registrations are also deleted.
+- **LinkedIn integration**
+    - Resolved an error that caused LinkedIn LeadGen to fail when the **Default lead owner** on the LinkedIn account entity was set to something other than **System**.
+- **Marketing emails**
+    - Fixed an error that caused a link tag to be inserted before a div when adding a link to an image, resulting in added spaces before an image in Outlook.
+    - Resolved an error that sometimes caused a template to appear blank after saving an email as a template then selecting **View record** to open the newly created template.
+    - GUIDs are no longer inserted into email HTML in the new email editor.
+- **Marketing pages**
+    - Added a warning when including a field in a marketing form that does not follow the set matching strategy.
+    - Interactions are no longer generated for tracking links with shorted tracking IDs.
+    - When changing a form type from landing page to subscription center, a warning is shown explaining that subscription center forms cannot be saved with the **Update contacts/leads** field set to **Contacts and leads**. The field must be set to **Only contacts**.
+    - Resolved an issue where landing forms with a lead matching strategy ocassionally mapped leads to incorrect contacts.
+    - Fixed an error that caused tracking for Sharepoint links to break the link functionality.
+    - Resolved an error that caused the **Subscription lists** search box to fail to load if an org had a large number of subscription lists.
+    - Resolved an error that ocassionally caused the TXT record value for a domain to reset.
+    - Added a feature flag to allow event forms in marketing pages.
+    - Added the ability to use organization-owned custom entities in marketing form lookup fields.
+    - Resolved an "Error loading control" warning that sometimes appeared when adding a form tile to a blank marketing page.
+- **Shared UX**
+    - Fixed an error where multiple text spaces in a row did not render correctly in the preview view.
+    - Fixed a bug that caused 1px dividers to not render in the Edge browser.
+    - Resolved a limitation that prevented editing of live segments.
+    - Line heights set in points (pt) now render correctly in Outlook.
+    - Resolved an error that caused events to display incorrectly in the calendar week view when the week start date was set to Monday.
+    - Fixed an error that caused column outer spacing to break in Outlook when a background image was used.
+    - Fixed an error that sometimes caused text not to be underlined when underline was selected in the formatting bar.
+    - `property-reference` is no longer removed from HTML in the new email editor.
 
 ### July 2021 update
 
@@ -158,7 +816,7 @@ The Dynamics 365 Marketing June 2021 update includes improved engagement-trackin
 The much-anticipated customer journey orchestration features have made their public preview debut to customers in North America. Customers with Dynamics 365 Marketing paid or trial subscriptions are able to use the new features. Marketing now has capabilities to empower customer experience-focused organizations to deliver digitally transformed customer experiences in real time. These features enable organizations to:
 
 - Engage customers in real-time.
-    - With features such as event-based customer journeys, custom event triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+    - With features such as trigger-based customer journeys, custom triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 - Win customers and earn loyalty faster.
     - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 - Personalize customer experiences with AI.
@@ -206,7 +864,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
     - [Docs](real-time-marketing-push-notifications.md)
 - **Event catalog with built-in and custom events for triggering customer journeys**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/event-catalog-built-in-custom-events-triggering-customer-journeys)
-    - [Docs](real-time-marketing-event-triggers.md)
+    - [Docs](real-time-marketing-triggers.md)
 - **Experiment with the next action in a journey to optimize for results**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/experiment-next-action-journey-optimize-results)
     - [Docs](real-time-marketing-experimentation.md)
@@ -219,9 +877,9 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
 - **In real time, monitor your customer journeys and channel KPIs**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-monitor-customer-journeys-channel-kpis)
     - [Docs](real-time-marketing-analytics.md)
-- **Real-time, event-based customer journey orchestration**
+- **Real-time, trigger-based customer journey orchestration**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-event-based-customer-journey-orchestration)
-    - [Docs](real-time-marketing-event-based-journey.md)
+    - [Docs](real-time-marketing-trigger-based-journey.md)
 - **Search, version, manage, and tag your digital assets with a new centralized asset library**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/search-version-manage-tag-digital-assets-new-centralized-asset-library)
     - [Docs](real-time-marketing-asset-library.md)
@@ -583,7 +1241,7 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
 - **Compliance**
     - Together with the release of [Microsoft Cloud for Healthcare](/industry/healthcare/compliance-overview), Marketing is now HIPAA compliant.
 - **Event management**
-    - Microsoft Teams integration has improved the accuracy of event attendance tracking by restricting [attendee check-in](./teams-webinar.md#inviting-registrants-to-attend-the-live-event-through-email) until 30 minutes before the start of the event.
+    - Microsoft Teams integration has improved the accuracy of event attendance tracking by restricting [attendee check-in](./teams-webinar.md#inviting-registrants-to-attend-the-teams-event-through-email) until 30 minutes before the start of the event.
     - Events automatically shows Teams meetings and live events on the organizer's Outlook calendar.
 - **First run experience**
     - Addressing customer feedback, we’ve improved the portal trial experience.
@@ -1079,8 +1737,8 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 - **Compliance made easier**
     - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
     - [Double opt-in for forms docs](form-double-opt-in.md)
-    - [Historical view of consent-level changes docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
-    - [Set consent for each contact docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
+    - [Historical view of consent-level changes docs](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact)
+    - [Set consent for each contact docs](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact)
 - **Improved segment design and management**
     - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
     - [Docs](segmentation-lists-subscriptions.md)

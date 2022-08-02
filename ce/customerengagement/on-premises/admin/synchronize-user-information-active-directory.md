@@ -1,10 +1,10 @@
 ---
-title: "Synchronize user information between Customer Engagement (on-premises) and Active Directory | MicrosoftDocs"
-description: "Set up claims-based authentication for Internet-facing deployments (IFDs) of the product."
+title: Sync user info with Active Directory in Dynamics 365 Customer Engagement (on-premises)"
+description: "To make sure a user can successfully log on, update the info in the Customer Engagement (on-premises) user record so that it matches the Active Directory."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

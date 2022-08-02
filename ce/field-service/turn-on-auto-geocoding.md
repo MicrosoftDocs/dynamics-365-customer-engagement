@@ -3,9 +3,9 @@ title: "Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 02/1/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -40,6 +40,9 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 3.  Select the **Save** button in the lower right corner.  
   
 <a name="BKMK_GeocodeWorkOrderAddress"></a>
+
+> [!Note]
+> When geocoding an address, the only street field used is **street1**. Additional information like apartment number in **street2** and **street3** will be ignored.
 
 ## Geocode the address on a work order  
   

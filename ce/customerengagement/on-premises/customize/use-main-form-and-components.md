@@ -1,12 +1,12 @@
 ---
-title: Use the main form and its components with Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs
-description: Know how to use the main form and its components in the unified Interface based apps
+title: "Edit the main form in Dynamics 365 Customer Engagement (on-premises)"
+description: "To edit a main form and add or change components in Dynamics 365 Customer Engagement (on-premises), follow these steps to access the form editor."
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 Customer Engagement (on-premises)
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 02/09/2019
-ms.prod: d365ce-op
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -16,17 +16,17 @@ search.audienceType:
   - customizer
 
 ---
-# Use the main form and its components
+# Edit the main form and add or change components
 
 
  
-Forms in the Unified Interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
+Forms in Unified Interface-based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
 
 This topic explains how to edit a main form, and add or change various elements of the form.
 
 ## Open the form editor
 
-To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all the Unified Interface based apps.
+To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all Unified Interface-based apps.
 
 Follow the procedures given below to access the form editor: 
 
@@ -92,7 +92,7 @@ To know in detail about the form properties, see [Form properties](../customize/
   
  Rather than designing forms that depend on scripts to control visibility of options, consider whether a business process flow, a dialog, or switching to a different form may be better suited to meet your requirements. If you do use scripts, make sure that any element that might be hidden is hidden by default. Only show it with scripts when your logic calls for it. This way it isn’t displayed in presentations that don’t support scripts.
  > [!NOTE]
-> When you use setVisible with the Client API, if a control spans more than one column in a section in the Unified Interface, the control will be hidden but whitespace will not be removed.
+> When you use setVisible with the Client API, if a control spans more than one column in a section in Unified Interface, the control will be hidden but whitespace will not be removed.
   
 ## Tab properties  
 

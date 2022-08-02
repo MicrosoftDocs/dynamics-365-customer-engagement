@@ -1,13 +1,13 @@
 ---
-title: "Create or edit entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Entities define the records created in the app
+title: "Overview of entities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Entities define the types of records people can use in Dynamics 365. You can edit customizable system entities and create, edit, or delete custom entities."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 02ba7668-028c-4886-9f05-9116a605f3c8
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create or edit entities (record types) 
+# Overview of entities (record types)
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entity overview](/powerapps/maker/common-data-service/entity-overview)
 

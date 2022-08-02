@@ -12,8 +12,10 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!NOTE]
-> If your Omnichannel for Customer Service instance has been upgraded to the 2021 release wave 1, you can start using unified routing. More information: [Overview of unified routing](overview-unified-routing.md)
+> [!IMPORTANT]
+>
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
+> - If your Omnichannel for Customer Service instance has been upgraded to the latest release, you can start using unified routing. More information: [Overview of unified routing](overview-unified-routing.md)
 
 Routing and work assignment ensures that conversations from all the channels are routed to agents efficiently.
 

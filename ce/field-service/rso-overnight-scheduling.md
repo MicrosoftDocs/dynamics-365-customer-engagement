@@ -3,7 +3,7 @@ title: "Overnight scheduling with Resource Scheduling Optimization | MicrosoftDo
 description: Learn how to use overnight scheduling with Resource Scheduling Optimization
 ms.date: 11/04/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 

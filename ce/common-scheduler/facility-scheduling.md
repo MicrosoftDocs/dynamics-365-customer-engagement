@@ -1,22 +1,21 @@
 ---
-title: "Facility scheduling with Universal Resource Scheduling | MicrosoftDocs"
-description: Learn all about facility scheduling with Universal Resource Scheduling
+title: "Use facility scheduling in Universal Resource Scheduling"
+description: "The facility scheduling feature lets you coordinate physical spaces and related resources. Explore a few scenarios to learn how facility scheduling is used."
 ms.date: 1/9/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: krbjoran
-ms.author: daclar
+ms.author: krbjoran
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Facility scheduling with Universal Resource Scheduling
+# Schedule a facility in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-facility-scheduling.md](../shared/urs/facility-scheduling.md)]
 

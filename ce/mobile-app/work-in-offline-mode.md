@@ -2,9 +2,9 @@
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode with the Dynamics 365 for phones and tablets app and Power Apps Mobile
 ms.custom: 
-ms.date: 01/14/2021
+ms.date: 12/10/2021
 ms.reviewer: kvivek
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,7 +30,10 @@ Work with your data in offline mode even when you don't have internet access. Th
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app after you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!IMPORTANT]
-> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> - This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> - There is a new experience to setup and use mobile offline for model-driven apps. For more information:
+>   - [Set up mobile offline](/powerapps/mobile/setup-mobile-offline)
+>   - [Use mobile offline-first](/powerapps/mobile/work-in-offline-mode)
 
 ## Install the mobile app
 
@@ -63,7 +66,7 @@ After you've installed the mobile app and your admin has [enabled mobile offline
    > [!div class="mx-imgBorder"] 
    > ![Download updates on your mobile device for mobile offline.](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
 
-Offline data starts downloading in the background. Don't close the app or disconnect from the internet until the download is complete.
+Offline data starts downloading as you continue to use the app. On iOS, data is only downloaded while the app is active, so keep your phone unlocked with the app visible until the initial download is complete.
 
 ## Download offline data later
 

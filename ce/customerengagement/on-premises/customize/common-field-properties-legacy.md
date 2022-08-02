@@ -1,6 +1,6 @@
 ---
-title: Common field properties in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the Common field properties for Main form
+title: "Set form field properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to manage the common field properties of forms, including formatting, details, events, business rules, controls, and more."
 Keywords: Main form; Common field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -8,14 +8,14 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 04/02/2018
-ms.prod: d365ce-op
+
 ms.topic: article
 ms.assetid: 2b91ee28-7f09-435e-9fae-5225aa698e22
 search.audienceType: 
   - customizer
 
 ---
-# Common field properties
+# Access and manage the common field properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Model-driven app common field properties](/powerapps/maker/model-driven-apps/common-field-properties-legacy)
 

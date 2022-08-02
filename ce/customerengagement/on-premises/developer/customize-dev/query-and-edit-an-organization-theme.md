@@ -4,7 +4,7 @@ description: "Learn about defining and applying visual themes for an organizatio
 ms.custom: 
 ms.date: 12/15/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -70,7 +70,7 @@ OData-Version: 4.0
 }  
 ```
 
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Query Data using the Web API](../webapi/query-data-web-api.md).
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Query Data using the Web API](/powerapps/developer/data-platform/webapi/query-data-web-api).
   
 <a name="BKMK_EditAndPublish"></a>
 

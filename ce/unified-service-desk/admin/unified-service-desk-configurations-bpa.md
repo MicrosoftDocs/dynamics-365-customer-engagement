@@ -10,7 +10,7 @@ manager: shujoshi
 
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in Microsoft Dataverse.
 
@@ -92,7 +92,7 @@ Set **ShowScriptErrors** to **false**:
 4. In the **Value** field, select **false**.
 5. Select **Save**.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]](/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]](/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 
 ## Client Caching
 

@@ -1,10 +1,10 @@
 ---
 title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
-ms.date: 04/09/2021
+ms.date: 05/09/2022
 ms.topic: article
-author: Meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
@@ -15,7 +15,7 @@ The Conversation dashboard gives you a broad overview of the customer service ex
 > [!div class="mx-imgBorder"]
 > ![Conversation dashboard in Omnichannel for Customer Service.](media/oc-Conversation-dashboard.png "Conversation dashboard in Omnichannel for Customer Service")
 
-You can view the Conversation dashboard in the Omnichannel for Customer Service app. Select the plus (**+**) icon, and then select **Analytics and insights**. The **Conversation** tab is displayed in the default view in your workspace. The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
+You can view the Conversation dashboard in the Omnichannel for Customer Service app. Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. The **Conversation** tab is displayed in the default view in your workspace. The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
 
 The charts for conversation volume drivers and emerging conversation volume by topic charts use natural language understanding to group support conversations as topics that are a collection of related conversations. These charts display the customer support topics that are generating the most volume and emerging topics that are increasing rapidly in volume, helping you identify areas for improvement that can have the greatest impact on support performance.
 
@@ -48,7 +48,7 @@ Conversation charts are displayed as shown in the image and described in the tab
 
 | Title | Description |
 | -------------------- | ----------------- |
-| Incoming conversations vs. engaged conversations | The number of conversations initiated by the customer versus the number that are accepted and engaged in by agents. |
+| Incoming conversations vs. engaged conversations | The number of conversations initiated by the customer versus the number of conversations that are accepted and engaged in by agents. |
 | Incoming conversations by channel | The number of conversations initiated by the customer and presented to an agent, sorted by channel. |
 | Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool.  |
 | Abandon rate | The trend in percentage of conversations that aren't engaged by agents, by day. |
@@ -103,3 +103,9 @@ To view the drill-down, select any single metric value on the day you're interes
 > [!div class="mx-imgBorder"]
 > ![Conversation hourly drill down view.](media/conversation-hourly-drill-down-view.png "Conversation hourly drill down view")
 
+### See also
+
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

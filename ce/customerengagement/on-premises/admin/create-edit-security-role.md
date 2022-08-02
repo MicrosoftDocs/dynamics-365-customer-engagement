@@ -1,10 +1,10 @@
 ---
-title: "Create or edit a security role | MicrosoftDocs"
-description: "Create new security roles to accommodate changes in your business requirements."
+title: "Create security role in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create a new security role within Dynamics 365 Customer Engagement (on-premises). You can also edit the privileges of an existing role."
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

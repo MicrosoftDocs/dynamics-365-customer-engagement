@@ -37,10 +37,12 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 ## Create a case
 
-1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
-2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
+You can create a case in Customer Service workspace or Customer Service Hub.
 
-   - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
+1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
+2. In Customer Service workspace, go to the **Customer Service Agent Dashboard**. If you are using  Customer Service Hub, in the site map, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
+
+   - The **My Active Cases** view is displayed. You can switch between the different case views by selecting the current view.
    - Select **Show Chart** on the command bar to see the chart view.
    - Select **Open Dashboards** on the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 
@@ -58,7 +60,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 4. Go to **Summary** and in the **Case Title** field, type a descriptive title to identify the case.  
 
-5. In the **Subject** field, select a subject. Associating cases with subjects helps you search for cases with similar issues and find related articles. If you don't see the subject you want in the list, ask your system administrator to add it.
+5. In the **Subject** field, select a subject. When you associate cases with subjects, you can search for cases with similar issues and find related articles. If you don't see the subject that you want in the list, ask your administrator to add it.
 
 6. Find the customer:  
 

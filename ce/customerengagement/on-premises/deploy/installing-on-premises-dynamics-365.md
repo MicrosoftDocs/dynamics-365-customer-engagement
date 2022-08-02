@@ -1,8 +1,9 @@
 ---
 title: "Installing Dynamics 365 Customer Engagement (on-premises), version 9.x | Microsoft Docs"
+description: Learn how to install Dynamics 365 Customer Engagement (on-premises), version 9.x apps and features
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: d365ce-op
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

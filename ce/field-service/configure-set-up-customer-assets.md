@@ -1,9 +1,9 @@
 ---
-title: "Asset servicing in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Asset servicing in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn all about asset management in Dynamics 365 Field Service
 ms.date: 01/11/2021
-ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+ms.reviewer: mhart
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -81,7 +81,7 @@ Add a **Quantity** and set **Line Status** to **Used** on the work order product
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order showing the system status set to Open-Completed.](./media/customer-asset-work-order-complete.png)
 
-When a work order system status is set to **Open-Completed**, the system will automatically generate the customer asset record and associate it with the service account listed on the work order.
+When a work order system status is set to **Open-Completed** or **Closed-Posted**, the system will automatically generate the customer asset record and associate it with the service account listed on the work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of active customer assets.](./media/customer-asset-auto-new-list.png)

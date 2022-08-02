@@ -2,7 +2,7 @@
 title: "msdyn_requirementrelationship Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_requirementrelationship entity."
 ms.date: 04/02/2019
-ms.prod: d365ce-op
+
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -140,10 +140,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### msdyn_operator Options
 
-|Value|Label|
+| Value | Label |
 |-----|-----|
-|192350000|&&|
-|192350001||||
+| 192350000 | && |
+| 192350001 | \|\| |
 
 
 

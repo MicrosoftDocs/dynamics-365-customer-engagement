@@ -4,7 +4,7 @@ description: "Set up OneNote Integration in Dynamics 365 Customer Engagement (on
 ms.custom: 
 ms.date: 02/07/2018
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,7 +28,7 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
   
  Developers can enable or detect [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration for an entity in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] using the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsOneNoteIntegrationEnabled> attribute. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] integration can only be enabled for an entity when both the following are true:  
   
-- Server-based SharePoint integration is enabled between your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)] instances. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration is supported only for [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics CRM Online and SharePoint Online](https://technet.microsoft.com/library/dn894710.aspx)  
+- Server-based SharePoint integration is enabled between your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)] instances. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration is supported only for [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics CRM Online and SharePoint Online](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn894710(v=crm.8))  
   
 - Document management is enabled for the entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable Document Management for Entities](enable-document-management-entities.md)  
   

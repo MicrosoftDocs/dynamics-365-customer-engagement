@@ -1,8 +1,9 @@
 ---
 title: "Deploy and configure AD FS | Microsoft Docs"
+description: Learn how to deploy and configure AD FS with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: 12/09/2016
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

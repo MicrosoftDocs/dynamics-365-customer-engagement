@@ -1,10 +1,9 @@
 ---
-title: "Change the color scheme or add a logo  in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
+title: "Create custom themes in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about creating custom themes in Dynamics 365 Customer Engagement (on-premises). Enhance the UI by making changes to colors and adding logos."
 s.custom: 
 ms.date: 02/15/2019
 ms.reviewer: 
-ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +18,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create a theme
+# Create a custom theme with colors, logos, and other visual elements
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use a theme to create a custom look for your app](/powerapps/maker/model-driven-apps/create-themes-organization-branding)
 
@@ -43,7 +42,7 @@ You can create a custom look and feel (a theme), for your app by making changes 
   
 -   Navigation bar shelf color
 
--   Main command bar color on the Unified Interface
+-   Main command bar color on Unified Interface
   
 -   Header color  
   
@@ -140,8 +139,7 @@ The following screenshot shows the default theme setup.
   
 ### See also  
          
- [Video: Themes in Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?LinkId=529568)
- [Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
+[Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
 
 
 

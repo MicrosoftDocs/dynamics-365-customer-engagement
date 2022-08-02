@@ -1,10 +1,10 @@
 ---
-title: Configure interactive experience dashboards in Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365 for Customer Engagement
+title: "Interactive experience dashboard in Dynamics 365 Customer Engagement (on-premises)"
+description: "There are two types of interactive dashboards. This page explains what they are and how to configure their views, layouts, fields, security roles, and more."
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub; Customer Service Hub
 ms.date: 09/30/2017
-ms.prod: d365ce-op
-ms.topic: article
+
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
@@ -15,7 +15,7 @@ search.audienceType:
   - customizer
 ---
 
-# Configure interactive experience dashboards in Customer Service hub
+# Overview and configuration of interactive experience dashboards
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

@@ -1,9 +1,10 @@
 ---
 title: "How security affects synchronization between Dynamics 365 apps and Outlook or Exchange | MicrosoftDocs"
+description: Learn how security settings affect synchronization between Dynamics 365 apps and Microsoft Outlook or Microsoft Exchange.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

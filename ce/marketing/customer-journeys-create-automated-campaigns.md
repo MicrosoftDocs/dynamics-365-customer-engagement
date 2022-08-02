@@ -1,8 +1,7 @@
 ---
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing."
-ms.date: 06/30/2021
-ms.service: dynamics-365-marketing
+ms.date: 03/25/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -147,7 +146,7 @@ To set up a segment tile to target a subscription list:
     ![Set a segment tile to load a subscription list.](media/customer-journey-subscription-list3.png "Set a segment tile to load a subscription list")
 
 > [!IMPORTANT]
-> When a customer journey targets a subscription list, any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a user removes a contact from the list manually using the Dynamics 365 Marketing interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request that all contacts manage their own subscriptions using the subscription center.
+> When a customer journey targets a subscription list, any contact that unsubscribes from that list will continue to be processed by any journeys that are already in progress and will continue to receive messages until all active journeys are complete. The same behavior occurs when a contact is manually removed from a subscription list.
 
 ### Create an inbound customer journey
 
@@ -205,7 +204,7 @@ All customer journeys are active for a limited time. During this time, the journ
 
 ### Choose your content settings
 
-Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the [assist-edit](dynamic-email-content.md#assist-edit) feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
+Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the [personalization](dynamic-email-content.md#personalization) feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
 
 To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
 

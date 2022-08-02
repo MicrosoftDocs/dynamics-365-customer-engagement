@@ -1,9 +1,10 @@
 ---
 title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
+description: Learn about the default security roles users require to perform Dynamics 365 for Outlook tasks and if tasks can be performed in offline mode.
 ms.custom: 
 ms.date: 08/28/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

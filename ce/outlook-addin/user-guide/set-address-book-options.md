@@ -1,9 +1,10 @@
 ---
 title: "Set address book options in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to synchronize all Dynamics 365 app contacts so that they all appear in the address book in Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Follow these steps to set up Customer Engagement apps to use Share
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,10 +1,10 @@
 ---
-title: "Customize and organize reports Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to create, edit, and manage reports
+title: "Customize reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "Many organizations customize default reports to meet their specific needs. Learn about the report types available and the options for modifying them."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -33,9 +33,7 @@ Analyze data in Dynamics 365 Customer Engagement (on-premises) by using reports.
 ## Report types  
  Dynamics 365 Customer Engagement (on-premises) supports two types of reports:  
   
-- **[!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports.** These reports use SQL queries and filtered views to retrieve report data. Filtered views restrict the data to what is available to the security role of the person running the report. All the default reports included with Dynamics 365 Customer Engagement (on-premises) are SQL-based reports.  
-  
-     You cannot access filtered views in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps because access to the SQL database is not supported. If you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription, use Fetch-based reports for custom reporting.  
+- **[!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports.** These reports use SQL queries and filtered views to retrieve report data. Filtered views restrict the data to what is available to the security role of the person running the report. All the default reports included with Dynamics 365 Customer Engagement (on-premises) are SQL-based reports.
   
 - **Fetch-based Reporting Services reports.** These reports use FetchXML queries that are proprietary to Dynamics 365 Customer Engagement (on-premises) instead of filtered views to retrieve data for reports. Reports that you create by using the Report Wizard in Dynamics 365 Customer Engagement (on-premises) are Fetch-based reports.  
   

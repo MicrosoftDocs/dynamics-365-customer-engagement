@@ -3,7 +3,7 @@ title: "Set up booking statuses (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up booking statuses in Dynamics 365 Field Service
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

@@ -1,9 +1,9 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 10/22/2019
+ms.date: 1/25/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -26,13 +26,14 @@ Here are a few common issues the Solution Health Hub detects:
 2. If processes that will cause an upgrade to fail are assigned to disabled users 
 3. Customized web resources that will later lead to runtime issues
 
+In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and 
+[running Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+
 ## Prerequisites
 
 - Field Service v8.4.0.338+ (Unified Interface) or v7.5.7.87+ (Web)
 - The Solution Health Hub extends the [Power Apps checker](/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
-
-> [!Note]
-> Currently, the ruleset uses 15 rules to verify the environment is in a good state. 
+ 
 
 ## Run a health check
 
@@ -82,6 +83,12 @@ Verifies that all work orders that were supposed to be generated over the last s
 There are agreement recurrences that haven't been processed correctly, and work orders haven't been generated that should have been.
 
 ### How to fix
+
+Identify the reason the work order was not generated, along with the cause of failure, and address that. Then regenerate the record generation by changing the agreement status back to "estimate," then to "active" again.
+
+
+> [!div class="mx-imgBorder"]
+> ![Solution health agreement generation in Solution Health Hub.](./media/solution-health-agreement-generation.png)
 
 ## Check failing workflow related to agreement
 
@@ -387,7 +394,11 @@ Fails if autonumbering is not opted-in for the org.
 
 ### How to fix
 
-Opt into autonumbering.
+Opt into autonumbering in Field Service by going to **Settings** > **Field Service settings** > **# Opt-In to Auto-Numbering** (in the top command ribbon).
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the opt in option for autonumbering.](./media/administration-settings--optin-autonumbering.png)
 
 ## Verify Field Service and Project Service Automation solutions are compatible
 
@@ -436,7 +447,7 @@ If the required level of the system field (that is, Application Required field/ 
 Go to customization -> Entities -> Work Order /Agreement -> Fields -> Double-click on field for which required level need to reset -> Select field requirement -> Business Required.
 
 > [!Note] 
-> This rule is implemented for the OOB required field on the Work Order and Agreement only.
+> This rule is implemented for the out-of-the-box required field on the Work Order and Agreement only.
 
 ## Checks For Active Agreements Having Past End Dates
 
@@ -570,8 +581,52 @@ If either latitude or longitude or both are not present on an account record.
 
 Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
 
+
+## Verify mobile user security roles
+
+Severity: High
+
+### What it checks
+
+Checks whether frontline workers who have access to the Field Service (Dynamics 365) mobile app are assigned the Field Service resource role and the Field Service resource field security profile.
+
+### Why it fails
+
+When a frontline worker has access to the Field Service (Dynamics 365) mobile app without Field Service resource role and/or the Field Service resource field security profile
+
+>[!Note]
+> Business unit is shown in the message when more than one business unit is present in the organization. A user who is part of multiple business units who does not have the **Field Service Resource** role or security profile may be flagged for each business unit of which they are a member.
+
+### How to fix
+
+Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
+
+## Check if forms have unhealthy customizations
+
+Severity: High
+
+### What it checks
+
+For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit (4 subgrids or 20 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+
+A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. An example of a subgrid control is the work order product subgrid control on the work order form that is included out-of-the-box with Field Service.
+
+A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
+
+### Why it fails
+
+This rule fails if the default tab (the first tab on the form) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. Form load performance is impacted by the number of controls on the default tab of the form, so it is strongly suggested to minimize the number of controls there. 
+
+### How to fix
+
+Reduce the number of lookup fields and subgrid controls on the default tab (the first tab on the form) by moving them to other tabs on the form (or hiding them from the form if not needed). 
+
+Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1).
+
 ### See also
 
+- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+- [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
 - [Frequently asked questions](./troubleshoot-faq.yml)
 
 

@@ -2,7 +2,6 @@
 title: "Design dynamic demographic or firmographic segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to design dynamic demographic or firmographic segments in Dynamics 365 Marketing."
 ms.date: 12/14/2020
-ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

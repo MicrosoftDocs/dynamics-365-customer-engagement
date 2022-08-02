@@ -4,7 +4,7 @@ description: "Integrate Skype or Skype for Business with Dynamics 365 Customer E
 ms.custom: 
 ms.date: 08/07/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

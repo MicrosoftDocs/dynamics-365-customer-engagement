@@ -1,8 +1,9 @@
 ---
 title: "Manage organizations | Microsoft Docs"
+description: Learn how to manage organizations in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: d365ce-op
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,7 +23,7 @@ manager: kvivek
 Use the **Organizations** page to view, change, add, enable, disable, and import organizations for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&preserve-view=true).  
   
 ### View the Organizations page  
   

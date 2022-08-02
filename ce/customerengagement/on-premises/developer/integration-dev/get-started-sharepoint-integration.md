@@ -1,10 +1,10 @@
 ---
 title: "Get started with SharePoint integration (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "By using SharePoint Server document management capabilities, you can control how documents are created, reviewed, published and disposed or archived"
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 01/20/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -33,11 +33,11 @@ search.audienceType:
   
 <a name="SupportedSPVersions"></a>   
 ## Software requirements for SharePoint Integration  
- For supported versions of [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/admin/sharepoint-document-management-software-requirements).  
+ For supported versions of [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 Customer Engagement (on-premises)](../../admin/sharepoint-document-management-software-requirements.md).  
   
 <a name="SPIntegration"></a>   
 ## Enable SharePoint integration  
- [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] can only be enabled using the web or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. This isn’t supported through SDK. For more information, see [Set up SharePoint integration](/dynamics365/customerengagement/on-premises/admin/manage-documents-using-sharepoint).  
+ [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] can only be enabled using the web or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. This isn’t supported through SDK. For more information, see [Set up SharePoint integration](../../admin/manage-documents-using-sharepoint.md).  
   
  [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] supports two types of integration with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]: client-to-server and server-to-server (server-based).  
   
@@ -69,7 +69,7 @@ search.audienceType:
   
 - **[!INCLUDE[pn_crm_list_component_sharepoint_server_2013](../../includes/pn-crm-list-component-sharepoint-server-2013.md)]** : This version only works with [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)].  
   
-  For more information about installing the component, see [Configure SharePoint integration using the list component](https://technet.microsoft.com/library/dn894708.aspx)  
+  For more information about installing the component, see [Configure SharePoint integration using the list component](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn894708(v=crm.8))  
   
 ### See also  
  [Integrate SharePoint with Microsoft Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   

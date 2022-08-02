@@ -1,8 +1,8 @@
 ---
-title: "Run Dynamics 365 Marketing with a Dynamics 365 Portal and/or CMS system (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Run Dynamics 365 Marketing with a Power Apps portal and/or CMS system (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how you can run interactive marketing features for Dynamics 365 Marketing by using an integrated Dynamics 365 Portal or by using your own website or CMS system."
-ms.date: 02/18/2021
-ms.service: dynamics-365-marketing
+ms.date: 02/24/2022
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -27,7 +27,7 @@ Read this topic to learn how you can run interactive marketing features for Dyna
 
 ## What is the difference between Power Apps portals and Dynamics 365 Portals?
 
-Power Apps portals is a replacement product for Dynamics 365 Portals. Both products will continue to be supported, but soon (or possibly already) only Power Apps portals will be available for new customers. Both products work on the same basic technical foundation and work in the same way from the perspective of Dynamics 365 Marketing. However, Power Apps portals provide additional features for users (which don't affect Dynamics 365 Marketing) and are licensed according to consumption (logins and page loads) rather than per instance.
+Power Apps portals is a replacement product for Dynamics 365 Portals. Both products will continue to be supported, but only Power Apps portals are available for new customers. Both products work on the same basic technical foundation and work in the same way from the perspective of Dynamics 365 Marketing. However, Power Apps portals provide additional features for users (which don't affect Dynamics 365 Marketing) and are licensed according to consumption (logins and page loads) rather than per instance.
 
 For details about portal licensing, see the [Power Apps and Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
 

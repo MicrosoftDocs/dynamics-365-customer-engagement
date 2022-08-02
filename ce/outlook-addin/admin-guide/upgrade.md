@@ -1,9 +1,10 @@
 ---
 title: "Upgrade Microsoft Dynamics CRM for Outlook | MicrosoftDocs"
+description: Learn how to upgrade from an installation of Microsoft Dynamics CRM to Microsoft Dynamics 365 for Outlook with this walkthrough.
 ms.custom:
 ms.date: 01/06/2017
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article

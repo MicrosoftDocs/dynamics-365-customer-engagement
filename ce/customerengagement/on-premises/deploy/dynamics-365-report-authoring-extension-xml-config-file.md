@@ -1,8 +1,9 @@
 ---
 title: "Microsoft Dynamics 365 Report Authoring Extension XML configuration file | Microsoft Docs"
+description: Learn how to configure the report authoring extension Setup XML configuration file in Dynamics 365 Customer Engagement (on-premise)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

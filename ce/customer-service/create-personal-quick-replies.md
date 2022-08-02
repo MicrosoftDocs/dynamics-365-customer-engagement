@@ -1,7 +1,7 @@
 ---
-title: Create personal quick replies in Omnichannel for Customer Service | MicrosoftDocs
-description: Create personal quick replies in Omnichannel for Customer Service
-ms.date: 01/11/2021
+title: "Create personal quick replies in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn to create personal quick replies, also called predefined messages, in Omnichannel for Customer Service."
+ms.date: 11/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,13 +13,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+
 ---
 
 # Create personal quick replies
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 You can use the personalization menu that's accessible through the application tab to add *personal quick replies*, also called *predefined messages*. You can create quick replies for the common questions and scenarios that you need to address in your role. You can tag the replies with keywords that help you invoke the quick replies when you're interacting with customers.
 
@@ -46,11 +45,11 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 
 It can take up to 15 minutes for the quick replies to be available for your use.
 
-For more information on personal quick replies, see [Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats).
+For more information on personal quick replies, see [Send quick replies](oc-conversation-control.md#send-quick-replies).
 
 ### See also
 
-[Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats)  
+[Send quick replies](oc-conversation-control.md#send-quick-replies) 
 [Manage applications](oc-manage-applications.md)  
 
 

@@ -1,22 +1,22 @@
 ---
-title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
-description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 Field Service."
+title: "Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling"
+description: "Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps instead of Bing."
 ms.date: 04/01/2020
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
-# Sample: Custom plug-in to use Google Maps API as geospatial data provider
+# Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 

@@ -4,7 +4,7 @@ description: "Follow these steps to import data into Dynamics 365 Customer Engag
 ms.custom:
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +19,7 @@ search.audienceType:
   - enduser
 
 searchScope:
-  - D365-App-msdynce_saleshub
+  - D365-App-*
   - D365-Entity-account
   - D365-UI-*
   - Customer Engagement

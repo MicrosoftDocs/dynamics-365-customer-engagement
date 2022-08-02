@@ -4,7 +4,7 @@ description: "Import contacts, leads, or other types of records to keep your cus
 ms.custom: 
 ms.date: 09/15/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: index-page 

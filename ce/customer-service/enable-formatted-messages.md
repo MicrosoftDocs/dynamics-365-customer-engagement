@@ -4,7 +4,7 @@ description: "Use this topic to understand how to enable your agents to send and
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/02/2021
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
@@ -23,18 +23,25 @@ Your agents can send and receive messages formatted using Markdown.
 
 **To enable your agents to send and receive formatted messages**
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-2. Select **Manage**, next to **Message formatting**.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
+    - In the site map, in **Agent experience**, select **Productivity**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
 
-3. In the **Markdown settings** area under **Omnichannel Configuration**, set the **Turn on Markdown** toggle to **Yes**.
+     - In the site map, in **Advanced settings**, select **Agent experience**.
 
-4. Select **Save & Close.**
+1. For **Message formatting**, select **Manage**.
 
+1. In the **Markdown settings** area under **Omnichannel Configuration**, set the **Turn on Markdown** toggle to **Yes**.
+
+1. Select **Save & Close**.
 
 ### See also
 
-[Support for formatted messages](asynchronous-channels.md#support-for-formatted-messages).
+[Support for formatted messages](card-support-in-channels.md#formatted-messages)  
 [Use Markdown to format messages](markdown-formats-agents.md)  
 [Markdown formats](markdown-formats-dev.md)  
 

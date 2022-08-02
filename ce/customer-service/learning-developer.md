@@ -9,7 +9,7 @@ ms.author: margoc
 
 # Developers Learning Catalog
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 

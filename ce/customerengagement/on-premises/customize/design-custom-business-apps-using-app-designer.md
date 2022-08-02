@@ -1,10 +1,10 @@
 ---
-title: "Design custom business apps by using the app designer with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to design apps using the app designer.
+title: "Steps to using the app designer in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about the steps for creating custom business apps with the app designer. Quickly bring together components such as entities, dashboards, and forms."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -22,7 +22,7 @@ search.audienceType:
 
 ---
 
-# Design custom business apps by using the app designer
+# Design custom business apps using the app designer
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create, edit, or configure forms using the form designer](/powerapps/maker/model-driven-apps/create-and-edit-forms)
 

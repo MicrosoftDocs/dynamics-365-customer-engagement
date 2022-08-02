@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-deflc
 ms.date: 04/23/2020
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
 ---
 # Copy an instance to a Sandbox instance
 
-Copying an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Copy an environment](/power-platform/admin/copy-environment).
+Copying an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Copy an environment](/power-platform/admin/copy-environment). 
 
 
 

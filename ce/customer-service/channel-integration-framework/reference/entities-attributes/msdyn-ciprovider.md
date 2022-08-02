@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ciprovider Entity reference for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: ""
+title: "msdyn_ciprovider Entity reference for Dynamics 365 Channel Integration Framework 1.0 | Microsoft Docs"
+description: "Includes schema information and supported messages for the msdyn_ciprovider entity in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -14,7 +14,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# msdyn_ciprovider Entity Reference
+# msdyn_ciprovider Entity Reference for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-msdyn-ciprovider](../../shared/token-msdyn-ciprovider.md)]
 

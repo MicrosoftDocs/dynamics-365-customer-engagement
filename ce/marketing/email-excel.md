@@ -2,10 +2,10 @@
 title: "Import contacts from a spreadsheet and then send email to them (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to send marketing email messages to all of the contacts listed in a Microsoft Excel spreadsheet using Dynamics 365 Marketing."
 ms.date: 08/15/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
-ms.topic: articlec
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha

@@ -2,7 +2,7 @@
 title: "Troubleshoot email campaigns (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Troubleshooting and frequently asked questions for email campaigns in Dynamics 365 Marketing."
 ms.date: 02/12/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Integrate with Citrix applications in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 > [!Note]
 > Hosting Citrix applications within Unified Service Desk isn't supported anymore.

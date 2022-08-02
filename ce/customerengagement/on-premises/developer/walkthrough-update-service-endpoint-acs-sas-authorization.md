@@ -4,7 +4,7 @@ description: "The walkthrough demonstrates updating a service endpoint from Acce
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,7 +31,7 @@ Shared Access Signature (SAS) is the recommended authorization method for the Dy
   
 ### Perform the update  
   
-1. Sign in to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][Classic portal](https://manage.windowsazure.com).  
+1. Sign in to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][ Portal](https://ms.portal.azure.com/#home).  
   
 2. Navigate to the messaging entity that you plan to update.  
   

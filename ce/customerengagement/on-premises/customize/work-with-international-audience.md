@@ -1,10 +1,10 @@
 ---
-title: "Work with international features in Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
-description: This section explains the different international features available
+title: "Languages and translation in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use this section to learn about the different customization features that are available for languages and translation."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.audienceType:
 
 ---
 
-# Work with international features
+# Customization features for languages and translation
 
 
 

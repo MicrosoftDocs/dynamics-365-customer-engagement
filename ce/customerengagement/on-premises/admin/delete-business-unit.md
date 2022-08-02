@@ -1,10 +1,10 @@
 ---
-title: "Delete a business unit | MicrosoftDocs"
-description: "Delete a business unit to completely remove it from Dynamics 365 Customer Engagement."
+title: "Delete business unit in Dynamics 365 Customer Engagement (on-premises)"
+description: "If you no longer need a business unit, follow these steps to remove it from Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

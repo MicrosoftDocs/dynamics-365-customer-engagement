@@ -1,8 +1,8 @@
 ---
 title: "initializeNewConversation (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Includes information about initializeNewConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
+description: "Includes reference information about initializeNewConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/12/2020
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

@@ -133,16 +133,39 @@
         ]
       },
       "ms.service": {
-        "app-profile-manager/**/*.md": "dynamics-365-customerservice",
-        "customer-service/**/*.md": "dynamics-365-customerservice",
-        "linkedin/**/*.md": "dynamics-365-linkedinconnector",
-        "sales-enterprise/**/*.md": "dynamics-365-sales",
-        "sales-professional/**/*.md": "dynamics-365-sales",
-        "unified-service-desk/**/*.md": "dynamics-365-customerservice"
+        "mobile-app/**.*": "dynamics-365-cross-app",
+        "legal/**.*": "dynamics-365-cross-app",
+        "outlook-addin/**.*": "dynamics-365-cross-app",
+        "outlook-app/**.*": "dynamics-365-cross-app",
+        "app-profile-manager/**.*": "dynamics-365-customerservice",
+        "customer-service/**.*": "dynamics-365-customerservice",
+        "unified-service-desk/**.*": "dynamics-365-customerservice",
+        "common-scheduler/**.*": "dynamics-365-field-service",
+        "field-service/**.*": "dynamics-365-field-service",
+        "linkedin/**.*": "dynamics-365-linkedinconnector",
+        "marketing/**.*": "dynamics-365-marketing",
+        "insights-insideview/**.*": "dynamics-365-sales",
+        "sales/**.*": "dynamics-365-sales",
+        "versium-predict/**.*": "dynamics-365-sales",
+        "teams-integration/**.*": "dynamics-365"
+      },
+      "ms.prod": {
+        "admin/**.*": "d365ce-op",
+        "customerengagement/**.*": "d365ce-op"
       },
       "ms.subservice": {
-        "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
-        "unified-service-desk/**/*.md": "unified-service-desk"
+        "customer-service/channel-integration-framework/**.*": "channel-integration-framework",
+        "sales/sales-mobile/**.*": "d365-sales-mobile",
+        "sales/teams-integration/**.*": "d365-sales-teams",
+        "teams-integration/**.*": "dynamics-365-teams",
+        "unified-service-desk/**.*": "unified-service-desk",
+        "outlook-addin/**.*": "d365-ce-outlook",
+        "outlook-app/**.*": "d365-ce-outlook",
+        "mobile-app/**.*": "d365-ce-mobile"
+      },
+      "ms.topic": {
+        "legal/**/*.md": "article",
+        "customerengagement/**/*.md": "article"
       },
       "learn_banner_products": {
         "**/*.md": [
@@ -157,14 +180,11 @@
         "marketing/**/*.md": [
           "dynamics-marketing"
         ],
-        "sales-enterprise/**/*.md": [
-          "dynamics-sales"
-        ],
-        "sales-professional/**/*.md": [
+        "sales/**/*.md": [
           "dynamics-sales"
         ]
       },
-      "feedback_product_url":{
+      "feedback_product_url": {
         "admin/**.*": "https://ideas.powerapps.com",
         "customize/**.*": "https://ideas.powerapps.com",
         "developer/**.*": "https://ideas.powerapps.com",
@@ -183,18 +203,18 @@
           "Dynamics 365"
         ],
         "customer-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Omnichannel",
           "Channel Integration Framework",
-          "Unified Service Desk",          
+          "Unified Service Desk",
           "Customer Service"
         ],
         "customerengagement/**.*": [
           "Dynamics 365",
           "Customer Engagement (on-premises)"
-        ],        
+        ],
         "field-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Field Service"
         ],
         "gamification/**.*": [
@@ -207,7 +227,7 @@
           "Sales"
         ],
         "marketing/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -223,15 +243,12 @@
           "Dynamics 365"
         ],
         "project-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Project Service"
         ],
-        "sales-enterprise/**.*": [
-          "Dynamics 365",          
-          "Sales"
-        ],
-        "sales-professional/**.*": [
-          "Dynamics 365",          
+        "sales/**.*": [
+          "Dynamics 365",
+          "Power Apps",
           "Sales"
         ],
         "social-engagement/**.*": [
@@ -264,15 +281,13 @@
           "Omnichannel"
         ]
       },
-      "search.app":{
-        "omnichannel/**.*": ["D365CE", "D365CS"],
-        "sales-enterprise/**.*": ["D365CE", "D365Sales"],
-        "sales-professional/**.*": ["D365CE", "D365Sales"]
+      "search.app": {
+        "omnichannel/**.*": [ "D365CE", "D365CS" ],
+        "sales/**.*": [ "D365CE", "D365Sales" ],
       },
-      "search.audienceType":{
-        "omnichannel/**.*": ["admin", "customizer", "enduser"],
-        "sales-enterprise/**.*": ["admin", "customizer", "enduser"],
-        "sales-professional/**.*": ["admin", "customizer", "enduser"]
+      "search.audienceType": {
+        "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
+        "sales/**.*": [ "admin", "customizer", "enduser" ]
       }
     },
     "template": [],
@@ -282,9 +297,9 @@
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"
       },
-      "op-all":{
+      "op-all": {
         "dest": "op-all",
-        "moniker_range":">= op-9-0"
+        "moniker_range": ">= op-9-0"
       }
     },
     "markdownEngineName": "markdig"

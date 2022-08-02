@@ -3,7 +3,7 @@ title: "Integrate Dynamics 365 Field Service and Supply Chain Management | Micro
 description: Learn about integration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -18,11 +18,11 @@ search.app:
 
 # Integrate Dynamics 365 Field Service and Supply Chain Management
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 While Dynamics 365 Field Service includes basic [inventory capabilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) systems. Organizations using the Microsoft Dynamics 365 stack will find it easy to integrate Dynamics 365 Field Service and [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/) systems. 
 
-Leveraging Common Data Model and Common Data Service in Dynamics 365, you can set up a synchronous two-way integration for the following entities, with more entities planned: 
+Leveraging Common Data Model and Common Data Service in Dynamics 365, you can set up a synchronous two-way integration for the following entities: 
 
 - **Warehouse**
 - **Customer Asset**
@@ -65,7 +65,7 @@ When a warehouse record is created or updated in either system, the change will 
 
 Business rules and validations in either system are respected in the other system. For example, imagine a warehouse can't be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error will appear based on the validation logic in Supply Chain Management.
 
-## Purchase Orders
+## Purchase orders
 
 Here is another example.
 
@@ -90,7 +90,7 @@ As the last part of the process, a purchase order is created in Field Service wi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchase order in Field Service.](./media/scm-po-form-fs.jpg)
 
-## Additional Notes
+## Additional notes
 
 - Dual-write allows organizations to integrate Supply Chain Management with Common Data Service, even without Field Service. 
 

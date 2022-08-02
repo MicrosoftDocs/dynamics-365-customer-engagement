@@ -1,6 +1,6 @@
 ---
-title: iFrame properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the iFrame properties for main forms
+title: "Set iFrame properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "You can add iFrames to a form to integrate content from another website within the form. Learn how to manage properties such as name, formatting, and more."
 Keywords: Main form; iFrame properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -9,14 +9,14 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 11/04/2018
-ms.prod: d365ce-op
+
 ms.topic: article
 ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
 search.audienceType: 
   - customizer
 
 ---
-# iFrame properties
+# Access and set the iFrame properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [iFrame properties for model-driven app main forms](/powerapps/maker/model-driven-apps/iframe-properties-legacy)
 

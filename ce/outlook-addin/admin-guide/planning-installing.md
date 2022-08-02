@@ -1,9 +1,10 @@
 ---
 title: "Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 apps and Dynamics 365 apps Online | MicrosoftDocs"
+description: Learn about planning and installing Dynamics 365 for Outlook to enable user access to Dynamics 365 for Customer Engagement data.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article

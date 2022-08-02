@@ -4,7 +4,7 @@ description: "Managing Support instances (now called environments) has transitio
 ms.custom: 
 ms.date: 08/12/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,8 +1,7 @@
 ---
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 08/02/2021
-ms.service: dynamics-365-marketing
+ms.date: 05/11/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,6 +22,9 @@ search.app:
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
 You can send push messages as part of real-time journeys, similar to other outbound messages like SMS.
+
+> [!Note]
+> Availability of this feature in the United Arab Emirates will be communicated at a later date.
 
 ## Create a mobile app configuration
 
@@ -71,6 +73,9 @@ If the connection was successful, an access token will be generated. You can gen
 
 To connect the application with Marketing, you'll need to share the access token and the application ID with your app developer. The token will work immediately, as long as the *Credential validation* field on the right side of the mobile app configuration page shows as valid.
 
+>[!TIP]
+> To learn more about the developer configuration for push notifications, see [Push notification setup for application developers](real-time-marketing-developer-push.md).
+
 When the access token is established successfully, the connection is completed and the mobile app configuration will be validated.
 
 Refer to the step-by-step summary on the right side of the mobile app configuration page for the current status of your mobile app configuration.
@@ -101,12 +106,27 @@ As with the email editor, you can personalize push notifications to insert dynam
 
 To personalize a push notification:
 
-1. Select **Personalization** ![The Personalization button.](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
-1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
-1. After choosing the data source, you can search for the specific attribute or event trigger you want.
+1. Select the **Personalization** ![The Personalization button.](media/real-time-marketing-personalization2.png "The Personalization button") button in the **Message** field.
+1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, a **Trigger**, or **Compliance**.
+1. After choosing the data source, you can search for the specific attribute or trigger you want.
 1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the push notification from a journey, it will automatically populate the token according to the attribute you selected.
+
+## Add a Customer Voice survey to a push notification
+
+Adding a Customer Voice survey link to a push notification or [text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) allows you to seek feedback from customers on the channels they use the most.
+
+To add a Customer Voice survey to a push notification:
+
+1. Select the **Customer Voice survey** button ![The Customer Voice survey button.](media/real-time-marketing-customer-voice.png "The Customer Voice survey button") in the **Message** field.
+1. Choose a Customer Voice survey in the lookup field.
+1. Select whether you want the survey to be anonymous and whether you want to track the survey link after customers click on it. If you select the **Survey is anonymous** option, no user data will be saved with the answers.
+    > [!div class="mx-imgBorder"]
+    > ![Customer Voice survey options screenshot.](media/real-time-marketing-survey-options.png "Customer Voice survey options screenshot")
+1. Select **Save**.
+
+When you send the push notification from a journey, it will automatically populate the token with the survey and options you selected.
 
 ## Send push notification messages in a journey
 

@@ -1,10 +1,10 @@
 ---
-title: "Query and visualize hierarchical data with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to query and visualize hierarchical related data"
+title: "Visualize hierarchical data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Gain valuable insights by visualizing hierarchical data. This page walks you through examples for querying the hierarchies and creating visualizations."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +19,7 @@ manager: kvivek
 search.audienceType: 
   - customizer
 ---
-# Query and visualize hierarchically related data
+# Query and visualize hierarchical data
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Query and visualize hierarchically related data](/powerapps/maker/data-platform/query-visualize-hierarchical-data)
 
@@ -84,7 +84,7 @@ For some entities, such as account and user, the visualizations are provided out
   
 -   Presently, a hierarchy or visualization is based on one entity only. You can depict the account hierarchy showing accounts at multiple levels, but you can’t show accounts and contacts in the same hierarchy visualization.  
   
--   Maximum number of fields that can be displayed in a tile is four. If you add more fields to the Quick Form that is used for the tile view, only the first four fields will be displayed.  
+-   Maximum number of fields that can be displayed in a tile is three with Unified Interface and four with the legacy web client. If you add more fields to the Quick Form that is used for the tile view, only the first four fields will be displayed.  
   
 ### Visualization example  
  Let’s look at an example of creating the visualization for a custom entity. We created a custom entity called new_Widget, created a (1:N) self-referential relationship **new_new_widget_new_widget** and marked it as hierarchical, as shown here.  

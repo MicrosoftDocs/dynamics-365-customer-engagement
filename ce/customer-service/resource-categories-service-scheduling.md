@@ -1,7 +1,7 @@
 ---
 title: Set up resource categories for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service
-ms.date: 11/20/2018
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -29,21 +29,35 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Scheduling > Resource Category**.
-   - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing resource category to see additional options in the command bar
+You can create a new resource category in the Customer Service admin center or Customer Service Hub app.
 
-3. On the command bar, select **New** to create a new bookable resource category. 
-4. In the **General** section:
+1. Go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+ 
+    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+    2. In the **Resource categories** section, select **Manage**.
+        
+        The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, go to **Scheduling**.
+    2. From the list of entity records, select **Resource categories** in **Scheduling**.
+       
+       The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.
+
+2. On the command bar, select **New** to create a new bookable resource category. 
+3. In the **General** section:
  
    - Enter a **Name** and a **Description** for the resource category
 
-5. Select **Save**. A new resource category is created and is activated by default. 
+4. Select **Save**. A new resource category is created and is activated by default. 
 
-6. In the **Related** section, you can view and manage various resource category associations.
+5. In the **Related** section, you can view and manage various resource category associations.
 
-   ![resource categories.](media/resource-categories.png)
+   ![resource categories.](media/resource_category_csh.png)
 
 Similarly, you can create a new requirement resource category for requirements.
 

@@ -4,7 +4,7 @@ description: "Learn about the integration features that allow for team collabora
 ms.custom: 
 ms.date: 9/15/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: index-page 

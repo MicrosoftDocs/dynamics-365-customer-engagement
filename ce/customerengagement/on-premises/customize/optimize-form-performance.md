@@ -1,10 +1,10 @@
 ---
-title: "Optimize form performance with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to avoid form designs that cause a form to load slowly"
+title: "Improve form load time in Dynamics 365 for Customer Engagement (on-premises)"
+description: "Forms that load slowly can reduce user adoption and productivity. Follow these design and script recommendations to improve how quickly your forms will load."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Optimize form performance
+# Optimize form load time with design and script best practices
 
 Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly your forms will load. Many of these recommendations are about how a developer may implement form scripts for your organization. Be sure to discuss these recommendations with developers who create form scripts for your forms.  
   
@@ -48,7 +48,7 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  When web resources or IFRAMES are included in sections inside a collapsed tab they will not be loaded if the tab is collapsed. They will be loaded when the tab is expanded. When the tab state changes the `TabStateChange` event occurs. Any code that is required to support web resources or IFRAMEs within collapsed tabs can use event handlers for the **TabStateChange** event and reduce code that might otherwise have to occur in the `OnLoad` event.  
   
  **Set default visibility options**  
- Avoid using form scripts in the `OnLoad` event that hide form elements. Instead set the default visibility options for form elements that might be hidden to not be visible by default when the form loads. Then, use scripts in the `OnLoad` event to show those form elements you want to display.  
+ Avoid using form scripts in the `OnLoad` event that hide form elements. Instead set the default visibility options for form elements that might be hidden to not be visible by default when the form loads. Then, use scripts in the `OnLoad` event to show those form elements you want to display. If the form elements are never made visible, they should be removed from the form rather than hidden.
   
 <a name="BKMK_CommandBar"></a>   
 ## Command bar or ribbon  

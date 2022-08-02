@@ -1,6 +1,7 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
 description: "This topic provides the steps you can perform to set up quick replies in Omnichannel for Customer Service."
+ms.date: 06/09/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -10,11 +11,25 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats).  
+Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send quick replies](oc-conversation-control.md#send-quick-replies).  
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Quick replies**. If you're using the Omnichannel Administration app, go to **Quick replies** under **Agent Experience**.
-2. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
-3. Provide or change the following information:
+**To create quick replies**
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    - In the site map, in **Agent experience**, select **Productivity**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+     - In the site map, in **Advanced settings**, select **Agent experience**.
+
+1. Select **Manage** for **Quick replies**.
+
+1. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
+
+1. Provide or change the following information:
 
     - **Title:** Enter the title of the message.
     - **Locale:** Specify the language of the message.
@@ -39,7 +54,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {Nickname{Agent}}| The nickname for the agent.|
     |||
 
-5. Select **Save**.
+1. Select **Save**.
 
 ## Create or edit tags for common categories of quick replies
 

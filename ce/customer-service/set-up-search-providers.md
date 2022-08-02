@@ -1,10 +1,10 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 07/22/2021
+ms.date: 07/11/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -15,11 +15,19 @@ search.app:
 ms.custom: 
   - dyn365-customerservice
   - intro-internal
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-msdyn_kmfederatedsearchconfig
+ - D365-Entity-incident
+ - D365-UI-form
+ - Dynamics 365 
+ - Customer Service
+ - Customer Engagement
 ---
 
 # Set up a search provider in Customer Service Hub
 
-Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self service, assisted service, and onsite service), expedites issue resolution and drives customer and agent satisfaction and productivity.
+Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self-service, assisted service, and onsite service) expedites issue resolution and drives customer and agent satisfaction and productivity. 
 
 The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.
 
@@ -28,13 +36,13 @@ You can use search providers to federate the search of files, documents, or arti
 You can set up the following search providers:
 
 > [!NOTE]
-> Use of the search provider feature is not currently supported in the US Department of Defense cloud.
+> Federated search isn't supported in sovereign regions.
 
-  -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
-  -	**Sharepoint**: This option requires you to enter the SharePoint URL. 
+  -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. If the tenant has organizations located across multiple geographical locations, search data transfer happens across these locations.
+  -	**Sharepoint**: This option requires you to enter the SharePoint URL, which must also be a part of the same tenant as that of the current organization.
   -	**Microsoft Graph connector**: This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](/microsoftsearch/connectors-overview).
   
-From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
+From an authentication perspective, your agents must have access to external content, or they won't be able to view search results. 
 
 ## Set up a search provider
 
@@ -42,34 +50,38 @@ From an authentication perspective, your agents must have access to external con
 >
 > Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
-To set up a search provider, do the following:
+You can set up a search provider in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
-1.	Open the **Customer Service Hub** app and select **Change area > Service Management**.
+1. Go to **Search providers**.
+  
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    > [!div class=mx-imgBorder]
-    > ![Select service management.](media/ka-select-service-management.png "Select service management")
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  2. In the **Search providers** section, select **Manage**.
 
-2.	Under the **Knowledge Base Management** section, select **Search providers**, and then select **New**.
+### [Customer Service Hub](#tab/customerservicehub)
 
-    > [!div class=mx-imgBorder]
-    > ![Select search providers.](media/select-search-providers.png "Select search providers")
-    
-    The **New Search provider** page is displayed.
+* In the site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
 
-3.	Under **General**, enter the name and owner information for the search provider. You can optionally also enter a description.
-    
-4. If you want this search provider to be your default provider, toggle **Set as default** to **Yes**.
-    
-5. Under **Details**, from the drop-down menu, select the type of search provider you want to use and the organization.
+---
 
-    > [!div class=mx-imgBorder]
-    > ![Select the search provider type and organization.](media/search-provider-details.png "Select the search provider type and organization")
+2.	Select **New**.
 
-6. When you are finished, select **Save** in the lower-right corner.
+3.	On the **New Search provider** page, **General** section, enter the name and owner of the search provider. Optionally, you can enter a description.
+     
+5. In the **Details** section, select the organization and the type of search provider you want to use from the **Select organization** and the **Search Type** dropdown, respectively.
+
+    :::image type="content" source="media/search-provider-details.png" alt-text="Search provider details":::
+
+6. Select **Save**.
 
 ## Post-configuration agent experience
 
-After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org. Search results display the first three articles for each search provider. Agents can select **Show more** to view additional results.
+After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org.
+
+>[!NOTE]
+>
+>If at least one knowledge search provider is enabled and configured, then the configured value for article search results will not be applicable. For each configured search provider, three article search results will be displayed. Agents can select **Show more** to view additional results. For more information on articles shown in search results, see [Add the Knowledge Base Search control to forms](./add-knowledge-base-search-control-forms.md).
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")

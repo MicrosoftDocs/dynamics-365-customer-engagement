@@ -57,12 +57,12 @@ In this article, we'll walk through how to associate SLAs to Field Service work 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration.](./media/work-order-sla-field-service-setting-2.png)
+> ![Screenshot of Field Service SLA Configuration. Enable for SLA](./media/work-order-sla-field-service-setting-2.png)
 
 You can create new SLA KPI instances by going to **Settings > Customizations > Customize the System > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration.](./media/work-order-sla-kpi-instance.png)
+> ![Screenshot of Field Service SLA Configuration. SLA KPI name](./media/work-order-sla-kpi-instance.png)
 
 
 ## Step 2. Create a new SLA
@@ -99,7 +99,7 @@ Now we are going to create a new SLA.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related.](./media/work-order-sla-add-actions-6.png)
+> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related. Information screen.](./media/work-order-sla-add-actions-6.png)
 
 The following screenshot shows the Field Service Mobile app that field technicians use to view and record on-site work. When a work order is scheduled to a field technician, a booking record is created. They can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
 > [!div class="mx-imgBorder"]

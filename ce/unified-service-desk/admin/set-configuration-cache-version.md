@@ -19,7 +19,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Cache-specific configuration for agents
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the server to the agent’s desktop and avoid retrieving all configurations.
 

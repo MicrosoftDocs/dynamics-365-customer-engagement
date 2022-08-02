@@ -2,8 +2,9 @@
 title: "Overview of user management | MicrosoftDocs"
 description: "This topic provides information on how to manage different user types in Dynamics 365 Customer Service apps."
 ms.date: 07/09/2021
-author: platkat
-ms.author: ktaylor
+ms.topic: overview
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 

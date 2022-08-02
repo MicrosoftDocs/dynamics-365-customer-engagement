@@ -4,7 +4,7 @@ description: "Learn how to export your data to Excel from Dynamics 365 Customer 
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

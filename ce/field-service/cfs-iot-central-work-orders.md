@@ -2,7 +2,7 @@
 title: "Send work order updates to Azure IoT Central | MicrosoftDocs"
 description: Learn how to send work order updates to IoT Central.
 ms.date: 09/24/2018
-ms.service: dynamics-365-field-service
+
 ms.subservice: connected-field-service
 ms.topic: article
 ms.author: daclar

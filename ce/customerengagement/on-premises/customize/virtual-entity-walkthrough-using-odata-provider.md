@@ -1,10 +1,10 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use the OData v4 data provider with a virtual entity"
+title: "Create virtual entity using OData Data Provider in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use this simple walkthrough to learn how to use the OData v4 data provider with a virtual entity to integrate data from an external source."
 ms.custom: 
 ms.date: 05/03/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -38,7 +38,7 @@ Imagine that you want to access ticket information from an external data source 
 
 Because the data source used for this walkthrough has an OData v4 web service, we can use the OData v4 Data Provider included with your environment.
 
-Web service url: https://contosowebservice.azurewebsites.net/odata/ 
+Web service url: `https://contosowebservice.azurewebsites.net/odata/`
 
 > [!IMPORTANT]
 > The web service url used for this walkthrough isn't a functioning web service.
@@ -66,7 +66,7 @@ Select **NEW**, select **OData v4 Data Provider**, and then select **OK**.
 Enter or select the following information.
 
 - **Name**: Contoso Sample Data Source
-- **URL**: https://contosowebservice.azurewebsites.net/odata 
+- **URL**: `https://contosowebservice.azurewebsites.net/odata`
 - **Timeout**: 30
 - **Return Inline Count**: True
 

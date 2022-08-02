@@ -1,7 +1,7 @@
 ---
 title: "Create multiple work streams for entity records routing | MicrosoftDocs"
 description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."
-ms.date: 10/25/2019
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,9 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+>
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Overview
 
@@ -167,10 +169,6 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 > [!Important]
 > Whenever you want to update the entity record work stream ensure that **Entity Records Distribution Flow** is closed. 
 > Assume, you've made certain updates to the Flow. Now, while the Flow is still in the open in the browser, you go to Omnichannel Administration app and update the work stream. In this case, after you save the work stream, the Flow will be reset to its earlier state and you will loose the changes you did to the Flow.
-
-## Troubleshoot
-
-- [Entity routing configuration fails](troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
 
 ## See also
 

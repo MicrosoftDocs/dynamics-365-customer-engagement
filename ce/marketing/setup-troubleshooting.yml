@@ -2,12 +2,12 @@
 metadata:
   title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
   description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing."
-  ms.date: 01/26/2021
-  ms.service: dynamics-365-marketing
+  ms.date: 10/01/2021
+  
   ms.custom: 
     - dyn365-admin
     - dyn365-marketing
-  ms.topic: article
+  ms.topic: faq
   author: alfergus
   ms.author: alfergus
   manager: shellyha
@@ -18,7 +18,6 @@ metadata:
   search.app: 
     - D365CE
     - D365Mktg
-    
 title: Administration and setup FAQ
 summary: |
   Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 Marketing.
@@ -32,28 +31,25 @@ sections:
       - question: |
           How is Dynamics 365 Marketing licensed?
         answer: |
-          Dynamics 365 Marketing is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
+          Dynamics 365 Marketing is licensed per tenant, with each tenant priced according to the number of Marketing contacts stored in your database. To identify contacts, Marketing monitors key interaction types. Any contact that performs one or more interactions will be flagged as a Marketing contact and count against the allotment. Here are answers to several of the most frequently asked questions about licensing:
           
-          - **What is a marketing contact?**  
-              Dynamics 365 Marketing is priced in relation to how many marketing contacts you have in your database, where a marketing contact is any contact used as part of a marketing activity in Dynamics 365 Marketing. Contacts that you don’t market to using Dynamics 365 Marketing features don’t count towards your marketing-contacts quota. Dynamics 365 Marketing keeps a detailed record of all the ways in which each contact interacts with your marketing initiatives, but monitors just a few key interaction types when it comes to identifying marketing contacts. Any contact that performs one or more of these key interactions will become flagged as a marketing contact, and therefore count against your quota. There are many other types of interactions (such as email opens, survey responses, and website visits) but these represent follow-up activities to the core set of key interactions. After a key interaction is logged for a contact, it doesn’t matter how many more of the same or follow-up interactions that contact performs, the contact is still counted just once. The key interaction types are:
-            - Contact used in customer journey
-            - Marketing email sent
-            - Event check-in
-            - Event registration
-            - Marketing form submitted
-            - LinkedIn form submission
+          - **What is a Marketing contact?**  
+              A Marketing contact is any entity (such as a contact, lead, account, or Customer Insights profile) engaged in a Marketing interaction.  Contacts that are stored, but not marketed to using Dynamics 365 Marketing do not count towards the Marketing contacts quota. After an interaction (see below) is logged for a contact, it does not matter how many Marketing interactions that contact performs, the contact is still counted just once.
+
+          - **What is a Marketing interaction?**  
+              A Marketing interaction is an outbound message sent to any Marketing contact using Dynamics 365 Marketing. The message can be sent through out-of-box channels available in Dynamics 365 Marketing (for example, email or push notifications), other Microsoft channels (for example, ACS), or third-party systems integrated with Dynamics 365 Marketing (for example, other SMS providers).  
           
-          - **Which marketing contacts count against my quota?**  
-              All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
+          - **Which Marketing contacts count against my quota?**  
+              All Marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
           
           - **Where can I see my quotas and quota usage?**  
               To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
           
-          - **What is my monthly email quota?**  
-              Your monthly email quota is equal to 10 times the number of marketing contacts you have purchased.
+          - **What is my monthly interaction quota?**  
+              Your monthly interaction quota is equal to 10 times the number of Marketing contacts you have purchased.
           
           - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-              Marketing contacts are not reset on monthly basis. Contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract. Reductions to the total number of marketable contacts are not reflected in the [contact meter in the quota management view](./quota-management.md) until the contacts are deleted.
+              Marketable contacts that are not marketed to for 12 months will become regular contacts, releasing the allocated Marketing contact back into the pool, ready to be allocated to another contact. Marketing contact consumption is cumulative throughout the license period and even post-license extension, subject to the 12-month rule mentioned above. Once you engage a contact in any interaction, that contact counts against the Marketing contact quota from that point forward unless 12 months have passed with no Marketing interactions with that contact.
           
           - **How can I learn more about Dynamics 365 Marketing licensing?**
             - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
@@ -270,11 +266,11 @@ sections:
       - question: |
           Why can't I see my Dynamics 365 Marketing results in other Dynamics 365 apps?
         answer: |
-          Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. Many Dynamics 365 applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface.
+          Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. Many Dynamics 365 applications support both the new Unified Interface and the older legacy web client interface, but nearly all are moving to Unified Interface.
           
-          Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+          Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require Unified Interface and therefore won't show any data when you view those entities in legacy web client apps.
           
-          Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+          Also, some administration and customization features, and some integrated user features, may require you to switch to a legacy web client app from time to time, but soon all features are expected to be available on Unified Interface.
           
           More information: [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
           

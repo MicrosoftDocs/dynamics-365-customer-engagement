@@ -1,3 +1,5 @@
+> [!Note]
+> As of the 2021 Wave 2 October Field Service update, **Date Window Start and End** fields and **Time Window Start and End** fields have been removed from the work order forms. We recommend using the **Time From Promised** and **Time To Promised** fields. If your organization relies on the **Date Window** or **Time Window** fields for scheduling, you can revert this update by editing the **Pre Post Booking Flexibility Date Field Population** setting in the **Agreement** section of Field Service settings.
 
 When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
 

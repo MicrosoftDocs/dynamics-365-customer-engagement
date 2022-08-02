@@ -1,6 +1,6 @@
 ---
-title: "getMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: ""
+title: "getMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getMode method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# getMode (CIF JavaScript API Reference)
+# getMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 
 
 [!INCLUDE[getMode](includes/getMode-description.md)]
 

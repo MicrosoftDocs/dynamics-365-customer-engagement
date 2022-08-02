@@ -6,6 +6,13 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+searchScope: 
+ - D365-App-msdyn_channelintegrationframeworkapp 
+ - D365-Entity-msdyn_consoleapplicationsessiontemplate
+ - D365-UI-view
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Manage session templates in Dynamics 365 Channel Integration Framework 2.0

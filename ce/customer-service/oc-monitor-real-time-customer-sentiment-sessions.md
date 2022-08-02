@@ -1,6 +1,6 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
-description: "This topic provides information on how to monitor real-time customer sentiment and analyse customer's satisfaction levels while interacting with customers."
+description: "This topic provides information on how to monitor real-time customer sentiment and analyze customer satisfaction levels."
 ms.date: 07/01/2020
 ms.topic: article
 author: lalexms
@@ -18,7 +18,7 @@ As an agent, when you interact with your customers, you want to know the sentime
 
 A customer's real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the six most recent customer messages sent to you.
 
-When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates that at this moment the customer's satisfaction level is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
+When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates that at this moment the customer satisfaction level is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
 
 When a conversation is escalated from a bot, the sentiment icon you see is based on the previous messages exchanged between the customer and the bot.
 
@@ -27,9 +27,9 @@ When a conversation is escalated from a bot, the sentiment icon you see is based
 
 ## Understand real-time customer sentiment
 
-The sentiment analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real time.
+The sentiment analysis is an automatic and unbiased measurement of customer satisfaction levels in real time.
 
-The sentiment icons displayed on the communication panel are as follows:
+The following sentiment icons are displayed on the communication panel.
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
@@ -44,7 +44,7 @@ The sentiment icons displayed on the communication panel are as follows:
 > [!Note]
 > The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you've been added as a member.
 
-If profanity is detected in English, the sentiment is displayed as Negative or Very negative.
+If profanity is detected in English, the sentiment is displayed as **Negative** or **Very negative**.
 
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
@@ -57,12 +57,12 @@ Multi-language sentiment displays sentiment scores on some non-English conversat
 >
 > Multi-language sentiment is available only if the administrator enables it for you.
 
-To learn more, see [multi-language sentiment](enable-sentiment-analysis.md).
+To learn more, see [multi-language sentiment](enable-sentiment-analysis.md).  
 
 ## Videos
 
 [Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)  
-To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).  
 
 ### See also
 

@@ -2,7 +2,7 @@
 title: "Google Postmaster Tools - What it is and how it can help you (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use Google Postmaster Tools to gain delivery insights in Dynamics 365 Marketing."
 ms.date: 04/12/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

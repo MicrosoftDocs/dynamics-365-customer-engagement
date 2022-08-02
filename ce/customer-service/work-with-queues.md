@@ -93,7 +93,7 @@ Use the view list and queue list to filter and find items in queues.
    > ![Pick a work item.](media/pick-work-item-csh.png "Pick a work item")
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
-8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates happen:
+8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
    - Assignment rules, presence, or capacity constraints are not evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you will still be able to pick the work item and start working on it. This ability to manually override pre-configured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
@@ -102,7 +102,7 @@ Use the view list and queue list to filter and find items in queues.
    > [!NOTE]
    > Remove the items from the queue can't be set for work items in an advanced queue.
 
-## Release an item or case that you’re working on so someone else can pick it up  
+## Release an item or case that you’re working on  
   
 1. In the **View** list, select one of the views that show the items or cases you’re working on.  
   
@@ -120,7 +120,7 @@ Route an activity or case to another queue or assign to a different user or team
 
     To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
 
-As soon as the item is released the following updates will happen:
+After the item is released, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
 
 - Your capacity will be updated based on whether capacity profile or capacity units have been configured.
 
@@ -138,9 +138,9 @@ If you want another person in your organization to work on an activity, you can 
   
 ## Assign to another user or team  
   
-1. In the left pane, go to **Activities**.  
+1. Go to **Activities**.  
   
-2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
+2. Select the activity you want, and on the command bar, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
@@ -150,11 +150,38 @@ If you want another person in your organization to work on an activity, you can 
   
 ## Add to a queue
   
-1. In the left pane, go to **Activities**.
+1. Go to **Activities**.
   
-2. In the list of activities, select the activity you want, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
+2. Select the activity you want,  and then select  **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
+
+### Pick a view for your queues
+ 
+1. Go to **Activities**.
+1. Select the activity you want, and then select  **Add to Queue**.
+  
+3. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
+1. On the **Choose queue** dialog, select the **Business Queues(default)** dropdown menu to see the complete list of queues views available to you.
+
+The table lists the views with their descriptions.
+
+| View         | Description |
+| ----------- | ------ |
+|Queues Lookup View, All Queues | Lists all queues. |
+|Business Queues        | Default view. Lists all the queues that aren't marked as default queues by users or teams.     |
+|Private Queues Lookup View, Local User Queues| Lists all the private and active queues.|
+|Entity Queues|Lists all active queues that are created for records, such as case or email.|
+|My Active Queues|Lists active queues owned by the currently signed-in user.|
+|Omnichannel queues|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing.|
+|Omnichannel queues for Entity|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing and are created for records, such as case or email.|
+|Omnichannel queues for messaging|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing and are created for messaging (chat).|
+|Active Queues|Lists the queues that are in the active state.|
+|Inactive Queues|Lists the queues that are in the inactive state.|
+|Queues: Primary Email (Pending Approval)|Lists the queues for which the primary email address is in pending approval state.|
+|||
+
+You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
 
 ### See also
 

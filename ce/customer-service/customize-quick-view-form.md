@@ -9,11 +9,11 @@ manager: shujoshi
 ---
 # Customize quick view forms
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You customize the quick view form in the section by navigating to the respective entities and quick view forms. Some of the relevant entities are as follows.
+You can customize the quick view form in the section by navigating to the respective entities and quick view forms. The following are some of the relevant entities.
 
 | Card         | Entity      | Quick View Form |
 |------------------|-----------------|---------------------|
@@ -44,7 +44,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 
 ### See also
 
-[Omnichannelsystem customizers](omnichannel-customizer.md)  
+[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Customer summary form](customize-customer-summary.md)   
 
 

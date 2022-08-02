@@ -4,10 +4,10 @@ description: "The sample shows how to write a custom workflow activity that can 
 ms.custom: 
 ms.date: 12/10/2019
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,7 +19,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Azure aware custom workflow activity
 

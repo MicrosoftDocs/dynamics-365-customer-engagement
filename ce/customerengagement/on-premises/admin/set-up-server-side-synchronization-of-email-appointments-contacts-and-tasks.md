@@ -4,10 +4,10 @@ description: "Synchronize your email at the server level. If you sync Outlook as
 ms.custom: 
 ms.date: 04/16/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x

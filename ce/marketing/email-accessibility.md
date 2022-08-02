@@ -2,7 +2,7 @@
 title: "Check the accessibility of your email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the built-in accessibility checker to check and resolve accessibility issues in your email messages."
 ms.date: 04/28/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

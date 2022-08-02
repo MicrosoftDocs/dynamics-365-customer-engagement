@@ -1,10 +1,10 @@
 ---
-title: "Queue Entity Reference | MicrosoftDocs"
+title: "Queue entity reference (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Queue entity."
-ms.date: 04/01/2021
+ms.date: 11/01/2021
 ms.topic: "reference"
 author: "mh-jaya"
-ms.author: "v-jmh"
+ms.author: v-jmh
 manager: "shujoshi"
 search.audienceType: 
   - developer
@@ -12,10 +12,10 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# Queue Entity Reference
+# Queue Entity Reference (Dynamics 365 Customer Service)
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
+> [!NOTE]
+> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 A list of records that require action, such as accounts, activities, and cases.
 
 
@@ -38,7 +38,7 @@ A list of records that require action, such as accounts, activities, and cases.
 |SetState|PATCH [*org URI*]/api/data/v9.0/queues(*queueid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/queues(*queueid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -56,9 +56,9 @@ A list of records that require action, such as accounts, activities, and cases.
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [BusinessUnitId](#BKMK_BusinessUnitId)
 - [Description](#BKMK_Description)
@@ -73,9 +73,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_assignmentstrategy](#BKMK_msdyn_assignmentstrategy)
 - [msdyn_isdefaultqueue](#BKMK_msdyn_isdefaultqueue)
 - [msdyn_isomnichannelqueue](#BKMK_msdyn_isomnichannelqueue)
+- [msdyn_maxqueuesize](#BKMK_msdyn_maxqueuesize)
 - [msdyn_operatinghourid](#BKMK_msdyn_operatinghourid)
 - [msdyn_priority](#BKMK_msdyn_priority)
 - [msdyn_queuetype](#BKMK_msdyn_queuetype)
+- [msdyn_uniquename](#BKMK_msdyn_uniquename)
 - [Name](#BKMK_Name)
 - [OutgoingEmailDeliveryMethod](#BKMK_OutgoingEmailDeliveryMethod)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -148,7 +150,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### EmailRouterAccessApproval Options
+#### EmailRouterAccessApproval Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -187,7 +189,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IgnoreUnsolicitedEmail Options
+#### IgnoreUnsolicitedEmail Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -227,7 +229,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### IncomingEmailDeliveryMethod Options
+#### IncomingEmailDeliveryMethod Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -249,7 +251,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### IncomingEmailFilteringMethod Options
+#### IncomingEmailFilteringMethod Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -291,7 +293,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_assignmentstrategy Options
+#### msdyn_assignmentstrategy Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -315,7 +317,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isdefaultqueue Options
+#### msdyn_isdefaultqueue Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -340,7 +342,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_isomnichannelqueue Options
+#### msdyn_isomnichannelqueue Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -349,6 +351,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 **DefaultValue**: False
 
+
+
+### <a name="BKMK_msdyn_maxqueuesize"></a> msdyn_maxqueuesize
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Maximum queue size|
+|DisplayName|Maximum queue size|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_maxqueuesize|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_operatinghourid"></a> msdyn_operatinghourid
@@ -399,13 +419,33 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### msdyn_queuetype Options
+#### msdyn_queuetype Choices/Options
 
 |Value|Label|
 |-----|-----|
 |192350000|Messaging|
 |192350001|Entity|
+|192350002|Voice|
 
+
+
+### <a name="BKMK_msdyn_uniquename"></a> msdyn_uniquename
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique Name for the entity.|
+|DisplayName|Unique Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_uniquename|
+|MaxLength|128|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -436,7 +476,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### OutgoingEmailDeliveryMethod Options
+#### OutgoingEmailDeliveryMethod Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -528,7 +568,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### QueueViewType Options
+#### QueueViewType Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -550,7 +590,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -571,7 +611,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -595,9 +635,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AllowEmailCredentials](#BKMK_AllowEmailCredentials)
 - [BusinessUnitIdName](#BKMK_BusinessUnitIdName)
@@ -655,7 +695,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### AllowEmailCredentials Options
+#### AllowEmailCredentials Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -923,7 +963,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsEmailAddressApprovedByO365Admin Options
+#### IsEmailAddressApprovedByO365Admin Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -946,7 +986,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsFaxQueue Options
+#### IsFaxQueue Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -1280,7 +1320,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### QueueTypeCode Options
+#### QueueTypeCode Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -1322,5 +1362,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

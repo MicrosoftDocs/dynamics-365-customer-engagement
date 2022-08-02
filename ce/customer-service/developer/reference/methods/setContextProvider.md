@@ -1,25 +1,23 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: 
-ms.date: 02/04/2021
-ms.topic: article
+description: "Includes reference information such as syntax and parameters for the setContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+ms.date: 01/21/2022
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# setContextProvider
+# setContextProvider 
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[setContextProvider-description](../includes/setContextProvider-description.md)]
 
 > [!IMPORTANT]
-> - The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> - The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
-> - The custom context provider would be invoked by live chat widget when starting a new chat.
-
-> [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+>
+> - The setContextProvider method is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md)
+> - You can pass only 100 custom context variables during each chat session.
+> - The live chat SDK methods should be invoked after the [lcw:ready event](../events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
 
 ## Syntax
 
@@ -31,7 +29,7 @@ manager: shujoshi
 | ---- | ---- | ---- |
 | contextProvider | Function | Function that when invoked, returns the custom context |
 
-## Return Value
+## Return value
 
 None
 
@@ -51,12 +49,14 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         });
 });
 ```
-In the sample code given above, the `value` attribute contains the value of the context variables.
 
-The `isDisplayable` attribute, if set to `true`, will display the passed items within a third tab on the Conversation Summary Control for a given Conversation. This is an optional parameter and its default value is `false`.
+In the preceding sample code, the `value` attribute contains the value of the context variables.
+
+The `isDisplayable` attribute, if set to `true`, will display the passed items in the third tab on the Conversation Summary Control for a conversation.
 
 > [!NOTE]
-> If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. More information: [Context variables](../../../context-variables-for-bot.md#context-variables)
+>
+> If no context variables have been created under live workstream with a matching logical name, then the variables are created at runtime with the type String. More information: [Context variables](../../../context-variables-for-bot.md#add-context-variables)
 
 ![Display context keys.](../../../media/context-variable-display.png "Display context keys")
 
@@ -66,7 +66,7 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 
 You can pass a customer's self service as context at the start of a conversation with that customer. The `setContextProvider` method passes the recent customer actions as part of context with self service type, for a new conversation between the customer and agent. A visitor journey record is created for each self service action.
 
-Given below is the sample code that shows how to use the `setContextProvider` method for this.
+Here's a sample code that shows how to use the `setContextProvider` method.
 
 ```javascript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
@@ -93,15 +93,15 @@ For the sample script to track self service actions that can be included in the 
 
 ## Error codes
 
-The following error codes can occur with this method.
+The following error can occur for this method.
 
-|Error Code|Error message|
+|Error code|Error message|
 |-----|-----|
 |1|Context provider method execution failed|
 
-## See also
+### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
+[Display custom context](../../../display-custom-context.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

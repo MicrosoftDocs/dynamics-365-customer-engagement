@@ -1,10 +1,10 @@
 ---
-title: "Delete or deactivate a view with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to delete or deactivate a view"
+title: "Delete a view from Dynamics 365 Customer Engagement (on-premises)"
+description: "You may have a view that you don’t want people to see. Depending on the type of view, you can either delete it or deactivate it."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

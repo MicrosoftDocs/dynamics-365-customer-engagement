@@ -1,13 +1,13 @@
 ---
-title: "Security concepts  | MicrosoftDocs"
-description: "Protect the data integrity and privacy in a Customer Engagement (on-premises) organization."
+title: "Security model in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how the security model in Dynamics 365 Customer Engagement (on-premises) is used to protect the data integrity and privacy of an organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Security concepts
+# Security model concepts
 
 You use the security model in Dynamics 365 Customer Engagement (on-premises) to protect the data integrity and privacy in a Customer Engagement (on-premises) organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
   

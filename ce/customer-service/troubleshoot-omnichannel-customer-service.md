@@ -1,17 +1,17 @@
 ---
-title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-ms.date: 06/29/2021
+title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
+ms.date: 07/11/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
-# Troubleshoot Omnichannel for Customer Service
-
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+# Troubleshoot issues in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
@@ -23,7 +23,7 @@ For security, reliability, and performance reasons, Omnichannel for Customer Ser
 
 ### Resolution
 
-Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the drop-down list.
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the dropdown list.
 
    > [!div class=mx-imgBorder]
    > ![Power Platform admin center change region.](media/oc-region-menu.png "Power Platform admin center change region")
@@ -39,17 +39,26 @@ The provisioning application you are directed to is associated with the region y
 
 ### Issue
 
+ When you are provisioning Omnichannel for Customer Service, the following errors are displayed:
+
+-  **Unable to perform the requested operation due to lack of permissions**, if the user is logged in as a System Administrator on a child business unit instead of the root business unit.
+- **Request validation failed. Failed to execute action in CRM for selected environment**, if the user doesn't have read privileges for System roles.
+
+### Resolution
+
+- Check the permissions for the user and change the business unit of the system user to root business unit.
+- Ensure that the user is assigned at least one security role, preferably Omnichannel Administrator, other than the System Administrator role.
+### Issue
+
 If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service will fail in your organization.
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow the steps to remove the services.
+To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow these steps to remove the services:
 
 1. Identify the services in Azure AD.
-
 2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
 3. Add the service principal back.
-
 
 #### Identify the services in Azure AD
 
@@ -86,10 +95,10 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
 This establishes a connection with the tenant's Azure Active Directory, so you can manage it using PowerShell.
 6. Sign in to your organization as a tenant admin.
-7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
+7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **`<ObjectID>`** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
    > [!Note]
-   > Right click in the PowerShell window to paste the Object ID.
+   > Right-click in the PowerShell window to paste the Object ID.
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
@@ -138,8 +147,6 @@ If you get any of the errors listed below, check if Security Defaults is turned 
 
 To learn more about Security Defaults, see the topic [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
-
-
 If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [What are security defaults ?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
 
@@ -173,90 +180,6 @@ Omnichannel solutions are installed in your environment when you receive a new t
 ### Resolution
 
 These errors occur because though the solutions are already installed in your environment, they need to be activated before you can start using them. To provision the solutions, perform the steps outlined in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-
-## Entity routing configuration fails
-
-### Issue 1
-
-One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see a business process error.
-
-**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
-
-   > [!div class=mx-imgBorder]
-   > ![Business process error due to unauthorized connection.](media/business-process-error1.PNG "Business process error due to unauthorized connection")
-
-### Resolution
-
-Go to Entity Records Distribution Flow and authenticate the connection.
-
-To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
-
-### Issue 2
-
-**Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
-
-**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**
-
-   > [!div class=mx-imgBorder]
-   > ![Business process error due to incorrect configuration for Entity Records Distribution Flow.](media/business-process-error2.PNG "Entity Records Distribution Flow business process error")
-
-In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
-
-### Resolution
-
-To work around the issue, you must reset the Flow. To reset the Flow, follow these steps.
-
-1. Sign in to the Omnichannel Administration app.
-
-2. Select **Entity Records** under **Channels**.
-
-3. Select the **New** to create a new entity record channel.
-
-4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
-
-5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
-
-6. Select **New**. and then select **Flow**. A new **Flow** is displayed.
-
-7. Type **Manually trigger a flow** in the search box, and then select the option. The flow component is added.
-
-8. Select **New step**. The **Choose an action** flow component is added.
-
-9. Type **Common Data Service (current environment)** in the search box, and then select the option. The flow component is added.
-
-10. Select **Perform an unbound action** from the **Actions** tab. The action is added in the component.
-
-11. Type **msdyn_ResetWorkDistributionFlow** in the **Action Name** field.
-
-    > [!Note]
-    > Don't change the **ShouldMaintainCustomizations** value from **No**.
-
-12. Select **Save**.
-
-13. Select back arrow button in the Flow page.
-
-    > [!Note]
-    > Do not select browser window back button.
-
-14. Select **Run** from the command bar. The **Run flow** pane is displayed.
-
-15. Select **Run Flow** and then select **Done**. You can see the flow will run and succeeds.
-
-After you reset the flow, go to Omnichannel Administration, where you saw the error message. Select **OK**, and then save the record. The entity record channel is saved.
-
-Even though the Flow is reset, it doesn't update the name if it is **Case Work Distribution Flow**.
-
-To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
-
-### Issue 3
-
-There may be an issue with customizations in the **Entity Records Distribution Flow**.
-
-### Resolution
-
-Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
-
-Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Unable to deploy custom solution containing Agentscript solution
 
@@ -305,45 +228,21 @@ To configure ending a bot conversation, perform the following steps:
 
 Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
-## Entity Records are not routed and distributed to agents
+## Unable to connect the Power Virtual Agent bot to a voice workstream
 
-Entity Records routing and distribution may not work due to certain reasons. Validate the following issues and resolutions in the order given below.
+### Issue
 
-### Issue 1
+An error message  similar to the following is displayed on the PVA dashboard when you are configuring the hand-off between Power Virtual Agents bot and the Omnichannel voice workstream:
 
-The routing rule is configured incorrectly or not activated.
-
-### Resolution
-
-Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules).
-
-### Issue 2
-
-The Entity Records Distribution Flow is not updated with latest workstream information.
+"Your bot doesn't have access to all the required variables and actions. Ask your admin about installing the Omnichannel package or follow this step-by-step walkthrough".
 
 ### Resolution
 
-If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
+If you haven't installed the required extensions, you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install the following extensions in the specified order for the hand-off to work:
 
-### Issue 3
-
-There is an error and due to which Entity Records Distribution Flow was not triggered.
-
-### Resolution
-
-Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
-
-To work around the issue, reset the flow. To learn more, see [Reset the flow](#resolution-1).
-
-If resetting the flow doesn't resolve the issue, contact Microsoft support.
-
-### Issue 4
-
-The flow triggered successfully but the action was not executed successfully.
-
-### Resolution
-
-Reach out to Microsoft support for further investigation.
+   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
+   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
+   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
 
 ## Chat widget icon does not load on the portal
 
@@ -353,7 +252,7 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 ### Resolution
 
-You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center).
+You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget).
 
 ## Chat not getting initiated on starting a new chat from portal
 
@@ -371,7 +270,7 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 As an administrator, make sure of the following:
 
-- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichanne admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
+- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichannel admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
 
 - For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
@@ -580,7 +479,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
    |-------------------------------------------|--------------------------------------------------|
    | Name | Omnichannel |
    | Label | Omnichannel |
-   | Channel URL | \<Chat control cdn url>?uci=true&env=<env>&ocBaseUrl=\<oc endpoint\>&ucilib=\<crm org url\>/webresources/Widget/msdyn_ciLibrary.js |
+   | Channel URL | \<Chat control cdn url>?uci=true&env=`<env>`&ocBaseUrl=\<oc endpoint\>&ucilib=\<crm org url\>/webresources/Widget/msdyn_ciLibrary.js |
    | Enable Outbound Communication | No |
    | Channel Order | 0 |
    | API Version | 1.0 |
@@ -592,7 +491,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 - To sync the configurations, remove the channel and roles, add them again and save the record.
 
    1. Sign in to the Dynamics 365 apps.
-   2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+   2. Select the dropdown button on Dynamics 365 and select **Channel Integration Framework**.
    3. Select the **Omnichannel** record from the list.
    4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
    5. Add **Omnichannel for Customer Service** again in the **Select Unified Interface Apps for the Channel** section.
@@ -611,6 +510,7 @@ The issue might happen due to the following reasons:
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
+- When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL.
 
 ### Resolution
 
@@ -620,6 +520,7 @@ Perform the following:
 - Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md). 
 - Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence**. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
+- Make sure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 points to the correct URL.  
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization
@@ -690,6 +591,31 @@ Conversation widget becomes blank while swapping between browser tabs in Google 
 
 Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
 
+## After Omnichannel for Customer Service is provisioned, I get an authentication error on the agent dashboard. <a name="provision"></a>
 
+### Issue
 
+The following error message is displayed on the agent dashboard after I provision Omnichannel for Customer Service.
+
+**Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.**
+
+### Resolution
+
+The issue occurs when you rename the org URL but don’t update the channel URL after you've provisioned Omnichannel for Customer Service. 
+
+1. Go to [https://make.powerapps.com](https://make.powerapps.com).
+
+2. On the left pane, select **Apps**, and then from the applications list, select **Omnichannel for Customer Service**. 
+3. Select the ellipsis (...) button, scroll down the list, and select **App profile manager**.
+
+4. Select the administrator app (either Customer Service workspace or Omnichannel Administration), and then select **Channel provider**.
+   The Active Channel Providers list is displayed.
+
+5. Do the following:
+    - Make sure that the omnichannel channel provider record is listed and is in the active state. 
+     If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
+    - On the **General** tab of the omnichannel record, make sure that the **Channel URL** field includes the org information as shown in the following example: <br>
+   `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https:// <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
+
+ 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,9 @@
 ---
 title: "SQL Server deployment | Microsoft Docs"
+description: This article provides information about how SQL Server should be deployed to ensure the for the best experience with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,16 +18,13 @@ manager: kvivek
 ---
 # SQL Server deployment
 
-
-
-If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] for applications other than [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], performance may degrade as resources are consumed by other applications. If you use a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is used for other applications, you must carefully analyze the effect that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will have on the existing installation of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For information about monitoring [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Performance Monitoring and Tuning Tools](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-2017).  
+If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] for applications other than [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], performance may degrade as resources are consumed by other applications. If you use a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is used for other applications, you must carefully analyze the effect that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will have on the existing installation of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For information about monitoring [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Performance Monitoring and Tuning Tools](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-2017&preserve-view=true).  
   
- For best results, we recommend that you maintain the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases on a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] and that will support only [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and no other databases or database applications.  
- 
-  
-<a name="BKMK_SQLServerDep"></a>   
-## SQL Server deployment considerations  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is a database-intensive application. Before you deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to an instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], you should consider the following requirements and database configurations:  
+For best results, we recommend that you maintain the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases on a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] and that will support only [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and no other databases or database applications.  
+
+## SQL Server deployment considerations
+
+[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is a database-intensive application. Before you deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to an instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], you should consider the following requirements and database configurations:  
   
 -   **Modification of system tables.** The [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system tables should not be modified before you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Some database applications may modify the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system tables. If this occurs, problems with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and data may result.  
   
@@ -87,7 +85,7 @@ If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serv
   
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] also relies on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system databases to store [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration information. These databases include the master and msdb databases. The database files that accompany a database contain all its data and properties. Transaction log files contain a record of the write activity in the database, such as when a row is added, changed, or removed. Transaction log files are binary and cannot be used for auditing database activity.  
   
- For backup and recovery information for [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] databases including transaction log files, see [MSDN: Back Up and Restore of SQL Server Databases](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-2017).  
+ For backup and recovery information for [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] databases including transaction log files, see [MSDN: Back Up and Restore of SQL Server Databases](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-2017&preserve-view=true).  
   
 <a name="BKMK_db_rename"></a>   
 ## Microsoft Dynamics 365 database renaming considerations  

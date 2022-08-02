@@ -4,7 +4,7 @@ description: "After you set up a tracked Exchange folder, you can move Outlook e
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Track Outlook email by moving it to a tracked Exchange folder
+# Move an Outlook email to a tracked Exchange folder
 
  Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in Dynamics 365 Customer Engagement (on-premises). Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, Customer Engagement (on-premises) automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
 

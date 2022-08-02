@@ -2,7 +2,7 @@
 title: "Open the administration settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Explains how to access admin settings in Dynamics 365 Marketing."
 ms.date: 03/24/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

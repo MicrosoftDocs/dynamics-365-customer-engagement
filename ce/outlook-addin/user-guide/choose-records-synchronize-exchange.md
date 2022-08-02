@@ -1,9 +1,10 @@
 ---
 title: "Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange | MicrosoftDocs"
+description: Learn how to choose records to synchronize between Dynamics 365 apps and Outlook or Exchange using existing or newly created filters.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

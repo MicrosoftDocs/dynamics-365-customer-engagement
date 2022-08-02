@@ -1,9 +1,9 @@
 ---
-title: "Travel outside working hours with resource scheduling optimization| MicrosoftDocs"
+title: "Travel outside working hours with resource scheduling optimization (contains video)| MicrosoftDocs"
 description: Learn how to configure resource scheduling optimization to consider travel outside of working hours in Dynamics 365 Field Service
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 

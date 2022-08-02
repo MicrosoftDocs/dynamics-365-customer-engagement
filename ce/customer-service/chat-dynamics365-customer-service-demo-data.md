@@ -1,18 +1,19 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
+description: "This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.custom: intro-internal
+ms.date: 02/25/2022
 ---
 
 
 # Demo data installation for Chat for Dynamics 365 Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+## Introduction
 
-This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
+This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 
 The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment that has the Chat for Dynamics 365 Customer Service add-on.
 
@@ -157,6 +158,11 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 ## Verify demo data installation
 
+> [!IMPORTANT]
+>
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+
 Verify that the number of records and types of entities listed in the **Fabrikam** fictitious scenario appear as expected.
 
 After the demo data completely loads, do the following:
@@ -165,14 +171,11 @@ After the demo data completely loads, do the following:
 
 2. Verify the following:
 
-    - Go to **Omnichannel Administration** > **Queues & Users** > **Users** to
-        confirm the three Omnichannel users are created.
+    - Go to **Omnichannel Administration** > **Queues & Users** > **Users** to confirm the three Omnichannel users are created.
     
-    - Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to
-        confirm the Queue 1 (sample) and Queue 2 (sample) are created.
+    - Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to confirm the Queue 1 (sample) and Queue 2 (sample) are created.
     
-    - Go to **Omnichannel Administration** > **Channels** > **Chat** to confirm
-        the Portal Chat (sample) is created.
+    - Go to **Omnichannel Administration** > **Channels** > **Chat** to confirm the Portal Chat (sample) is created.
     
     - Go to **Omnichannel Administration** > **Work Distribution Management** > **Work Streams** to confirm  the Chat Push (sample) is created.
 
@@ -221,7 +224,7 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 - One web customer
 - One case
 - Four sessions
-- One Chat for Dynamics 365 Customer Service work stream
+- One Chat for Dynamics 365 Customer Service workstream
 - One Chat widget
 - One Omnichannel for Customer Service queue
 
