@@ -42,7 +42,7 @@ The following table lists the Markdown formats that you can use for your chat me
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
 | numbered list             |  \<number\> item one                 |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
-| line break                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
+| new line                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
 
 > [!Note]
 > Currently, we don't support the usage of the <Shift + Enter> key combination to add multiple line breaks.
