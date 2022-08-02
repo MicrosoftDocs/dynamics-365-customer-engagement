@@ -40,7 +40,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 
    > [!div class="mx-imgBorder"]
    >![Go to Tables in maker portal.](media/maker-data-tables.png "Go to Tables in maker portal")
-![image](https://user-images.githubusercontent.com/57445531/160470571-79831772-d686-4627-836c-f823c06e3d27.png)
+![Screenshot of the Power Apps window, which shows the Dataverse menu open and the Tables menu item is highlighted.](https://user-images.githubusercontent.com/57445531/160470571-79831772-d686-4627-836c-f823c06e3d27.png)
 
    
   
@@ -55,7 +55,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 6. 
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled.](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
-   ![image](https://user-images.githubusercontent.com/57445531/160470941-1077d61f-f287-44bb-905c-defde6e4d662.png)
+   ![Screenshot of the Power Apps window, which shows that the Creating a new activity checkbox is filled.](https://user-images.githubusercontent.com/57445531/160470941-1077d61f-f287-44bb-905c-defde6e4d662.png)
 
   > [!IMPORTANT]
   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.

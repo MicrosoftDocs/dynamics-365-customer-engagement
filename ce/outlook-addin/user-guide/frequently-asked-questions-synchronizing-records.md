@@ -1,5 +1,6 @@
 ---
 title: "Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook | MicrosoftDocs"
+description: Learn about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook with this list of frequently asked questions.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
