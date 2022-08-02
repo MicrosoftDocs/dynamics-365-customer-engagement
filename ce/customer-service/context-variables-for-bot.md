@@ -1,7 +1,7 @@
 ---
 title: "Configure context variables for a bot | MicrosoftDocs"
 description: "Use this topic to understand how you can add context variables and then configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 07/05/2022
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,10 +18,7 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 
 ## Considerations
 
-Before you configure context variables for Azure or Power Virtual Agents bots, check for the following conditions:
-
-- The context variable names are used as is and not changed when you author flows in Azure or Power Virtual Agents bots.
-- Use exact match to pass the value to the context variable because it is case-sensitive. The value must be less than or equal to 4,000 characters so that the conversation can be successfully escalated to agents.
+[!INCLUDE[cc-context-variable-considerations](../includes/cc-context-variable-considerations.md)]
 
 ## Add context variables
 
@@ -46,7 +43,7 @@ The following table contains the list of context variables available in Omnichan
 | [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the [setContextProvider API](developer/reference/methods/setContextProvider.md). | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
 | Conversation | msdyn_ConversationId | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response.  |
 |  Messaging and voice variables | msdyn_CustomerType   | Use this context variable that contains the customer type for the *account* or *contact* record that's linked to the conversation.    | Select the Omnichannel for Customer Service extension solution variable.|
-|  | msdyn_CustomerName	| Use this context variable that contains the customer name for the *account* or *contact* record that's linked to the conversation. | Select the Omnichannel for Customer Service extension solution variable. |
+|  | msdyn_CustomerName | Use this context variable that contains the customer name for the *account* or *contact* record that's linked to the conversation. | Select the Omnichannel for Customer Service extension solution variable. |
 |  | msdyn_CustomerId   | Use this context variable that contains the customer ID for the *account* or *contact* record that's linked to the conversation.   | Select the Omnichannel for Customer Service extension solution variable. |
 |  | msdyn_CaseId | Use this context variable that contains the ID of the case record that's linked to the conversation.  | Select the Omnichannel for Customer Service extension solution variable.|
 |  | msdyn_CaseTitle | Use this context variable that contains the title of the case record that's linked to the conversation.  | Select the Omnichannel for Customer Service extension solution variable. |
