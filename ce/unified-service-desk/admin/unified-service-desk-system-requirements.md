@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
 description: "This topic lists the software and hardware requirements you need to install and use Unified Service Desk."
-ms.date: 12/15/2021
+ms.date: 08/02/2022
 ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
@@ -12,8 +12,6 @@ ms.custom:
 ---
 
 # System requirements
-
-
 
 This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Microsoft Dataverse instance.  
 
@@ -75,7 +73,9 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
+> - Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
+>
+> - The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and lower versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
