@@ -22,7 +22,7 @@ monikerRange: '>= dynamics-usd-4.1'
 The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on **CefSharp**, an open source framework that uses the Chromium core that powers many modern browsers. More information: [CefSharp](https://cefsharp.github.io/)
 
 > [!Important]
-> The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and lower versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
+> The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and earlier versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
 
 The advantages of using the Chrome process hosting method are as follows:
 
