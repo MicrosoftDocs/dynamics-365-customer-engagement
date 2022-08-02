@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 08/01/2022
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

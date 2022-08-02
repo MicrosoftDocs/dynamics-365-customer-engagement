@@ -5,7 +5,7 @@ author: mh-jaya
 ms.topic: overview
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/01/2022
+ms.date: 08/02/2022
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
