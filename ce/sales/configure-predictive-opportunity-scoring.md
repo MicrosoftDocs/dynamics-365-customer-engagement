@@ -53,13 +53,13 @@ Verify that you meet the following requirement before adding predictive opportun
 
 - Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
  
-- You need to have enough opportunities to train the model based on past data. Depending on the number of opportunities you've created and closed in the past few months, decide a time period between 3 months to 2 years to meet one of the following requirements:
+- You need to have enough opportunities to train the model based on past data. Choose a time period between 3 months to 2 years to meet one of the following requirements:
 
     - A minimum of 40 won and 40 lost opportunities that were created and closed during the selected time period.
     - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a [per stage model](#per-stage-model).
   >[!NOTE]
-  >- These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
-  >- It takes about 4 hours for the data to sync with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
+  >- The numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
+  >- The system takes about 4 hours to sync the data with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
 
 
 
@@ -136,7 +136,9 @@ In the lower-left corner of the page, you can use **Add model** to generate a ne
 
 ## Per stage model
 
-To score opportunities, the predictive model uses attributes that had a higher influence on opportunities that were closed as won in the past. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone. If you want the model to determine the influence of attributes at each stage of the business process flow, then use per stage modeling. The model will calculate the prediction influence of each attribute at different stages based on past data. You can then review and decide which stages are relevant for each attribute according to your organization's standards. You can enable per stage modeling while adding a model. More information: [Add a model](#add-a-model)
+A per stage model calculates the influence of attributes at each stage of the business process flow based on past data. For example, you can see how the estimated close date has an influence across different stages of the opportunity. You can then review and decide which stages are relevant for each attribute according to your organization's standards and improve the model accuracy. By default, per stage modeling is disabled. You can enable it while [adding a model](#add-a-model). 
+
+When per stage modeling is disabled, the model uses only attributes that had a higher influence on opportunities that were closed as won. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone.
 
 ## First-run setup experience
 
