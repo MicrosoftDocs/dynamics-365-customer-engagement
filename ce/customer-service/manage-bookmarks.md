@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-early access](../includes/cc-early-access.md)]
 
-Save personalized views of your reports in bookmarks. A bookmark captures the state of a report page, including changes that you've made to filters, slicers, and visuals. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
+Save personalized views of your reports in bookmarks. A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
 
 Bookmarks are available in historical analytics reports and knowledge analytics reports only.
 
@@ -26,7 +26,7 @@ Bookmarks are available in historical analytics reports and knowledge analytics 
 
 1. On the report page, select a tab, such as **Summary**.
 
-1. Adjust the report filters as needed to customize your view of the data.
+1. Adjust the report filters to customize your data view.
 
 1. Select **Bookmarks**, and then select **Create new bookmark**.
 
