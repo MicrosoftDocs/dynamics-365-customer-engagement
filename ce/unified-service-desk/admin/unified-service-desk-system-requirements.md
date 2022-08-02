@@ -24,7 +24,7 @@ The following table lists the minimum and recommended hardware requirements to r
 | Component    | Minimum requirements     | Recommended requirements  |
 |-----------|-----------------|--------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |   x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor     |
-|  Memory   |   ^4 GB RAM or more            |  8 GB RAM more    |
+|  Memory   |   ^4 GB RAM or more            |  8 GB RAM or more    |
 | Hard disk |  \*1.5 GB of available hard disk space             | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
 ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with complex configurations and custom development (UI experience).
