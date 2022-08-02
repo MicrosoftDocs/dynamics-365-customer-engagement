@@ -1,7 +1,7 @@
 ---
 title: Manage bookmarks for reports
 description: Create bookmarks and navigate a personalized view of your reports.
-ms.date: 08/01/2022
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ Bookmarks are available in historical analytics reports and knowledge analytics 
 
 1. On the report page, select a tab, such as **Summary**.
 
-1. Adjust the report filters, slicers, and visuals as needed to customize your view of the data.
+1. Adjust the report filters as needed to customize your view of the data.
 
 1. Select **Bookmarks**, and then select **Create new bookmark**.
 
@@ -42,7 +42,7 @@ Bookmarks are available in historical analytics reports and knowledge analytics 
 
     - To set a bookmark as the default view for the report, select the pin icon.
 
-1. To modify a saved view, adjust the report filters, slicers, and visuals as needed. Select **Bookmarks** > **Manage bookmarks**, and then select **Update bookmark**.
+1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update bookmark**.
 
 
 ### See also
