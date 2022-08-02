@@ -134,9 +134,9 @@ In the lower-left corner of the page, you can use **Add model** to generate a ne
 > [!div class="mx-imgBorder"]
 > ![Add a model option](media/si-admin-predictive-lead-scoring-add-model.png "Add a model option")
 
-### Per stage model
+## Per stage model
 
-To score opportunities, the predictive model uses attributes that had a higher influence on opportunities that were closed as won. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone. If you want the model to determine the influence of attributes at each stage of the business process flow, then use per stage modeling. The model will calculate the prediction influence of each attribute at different stages based on past data. You can then review and decide which stages are relevant for each attribute according to your organization's standards. You enable per stage modeling while adding a model. More information: [Add a model](#add-a-model)
+To score opportunities, the predictive model uses attributes that had a higher influence on opportunities that were closed as won in the past. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone. If you want the model to determine the influence of attributes at each stage of the business process flow, then use per stage modeling. The model will calculate the prediction influence of each attribute at different stages based on past data. You can then review and decide which stages are relevant for each attribute according to your organization's standards. You enable per stage modeling while adding a model. More information: [Add a model](#add-a-model)
 
 ## First-run setup experience
 
@@ -197,8 +197,8 @@ If you're using your custom attributes for opportunity generation, you can gener
 
    If you don't have the minimum closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
-9. (Optional) Turn on **Per stage modeling** if you want to select the attributes that the model must consider for each business process stage. 
-    You'll select the attributes and corresponding stages after creating the model. More information: [Manual retraining](#manual-retraining)
+9. (Optional) Turn on **Per stage modeling** f you want to select the attributes that the model must consider for each business process stage.  
+    After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Manual retraining](#manual-retraining)
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
     > [!NOTE]
