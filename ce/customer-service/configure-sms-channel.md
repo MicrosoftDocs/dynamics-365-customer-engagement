@@ -133,7 +133,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 
 When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
 
-### Add SMS support in Omnichannel Administration
+#### Add SMS support in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -174,9 +174,6 @@ When you validate the API key while setting up the SMS channel, a call is made t
     > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/).
     > - Short code is supported for enterprise accounts.
 
-    > [!div class=mx-imgBorder]
-    > ![SMS Numbers tab.](media/sms-number.png "SMS Numbers tab")
-
 7. Select **Save**.
 
 8. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
@@ -184,9 +181,6 @@ When you validate the API key while setting up the SMS channel, a call is made t
 9. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 10. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
-
-    > [!div class=mx-imgBorder]
-    > ![Validate API Key.](media/validate-key.png "Validate API Key")
 
 11. Open the workstream you created for SMS.
 

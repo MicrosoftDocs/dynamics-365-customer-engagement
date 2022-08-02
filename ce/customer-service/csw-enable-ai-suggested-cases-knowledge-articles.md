@@ -90,6 +90,9 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
+> [!NOTE]
+> AI suggestions for similar cases is enabled out of the box.
+
 You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
@@ -128,6 +131,9 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
    > ![Enable AI-suggested similar cases.](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
+
+> [!NOTE]
+> AI suggestions for knowledge articles is enabled out of the box.
 
 You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 

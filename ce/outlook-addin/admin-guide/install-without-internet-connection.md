@@ -1,5 +1,6 @@
 ---
 title: "Install Dynamics 365 for Outlook without an Internet connection | MicrosoftDocs"
+description: Learn how to install Dynamics 365 for Outlook without an Internet connection, such as a virtual demonstration environment.
 ms.custom:
 ms.date: 11/28/2016
 ms.reviewer:
@@ -138,7 +139,7 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 
     |Description|File name and direct download link|
     |-----------------|----------------------------------------|
-    |SQLSysClrTypes.msi (64-bit)|[SQLSysClrTypes](https://go.microsoft.com/fwlink/p/?LinkID=188392)|
+    |SQLSysClrTypes.msi (64-bit)|SQLSysClrTypes|
     |SQLSysClrTypes.msi (32-bit)|[SQLSysClrTypes](https://go.microsoft.com/fwlink/p/?LinkId=390735)|
 
     > [!IMPORTANT]

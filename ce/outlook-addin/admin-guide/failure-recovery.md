@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook failure recovery | MicrosoftDocs"
+description: Learn how Microsoft Dynamics 365 for Outlook's "go offline" capability that allows users to work offline can be used for failure recovery.
 ms.custom:
 ms.date: 11/28/2016
 ms.reviewer:

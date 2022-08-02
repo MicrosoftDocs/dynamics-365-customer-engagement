@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing triggers (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing triggers in Dynamics 365 Marketing."
-ms.date: 03/21/2022
+ms.date: 07/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -46,7 +46,7 @@ Interaction triggers represent customer interactions with journey elements such 
 
 ### Business triggers
 
-Business triggers represent changes in Dynamics 365 applications such as Sales or Service. These changes can reflect either the creation of a new record or an update to an existing one. The following business triggers are available:
+Business triggers represent changes in Dynamics 365 applications such as Sales or Service. These changes can reflect either the creation of a new record or an update to an existing one. The following business triggers are available out-of-the-box:
 
 - *Contact created*
 - *Contact e-mail address updated*
@@ -59,3 +59,5 @@ Business triggers represent changes in Dynamics 365 applications such as Sales o
 - *Marketing event registration created*
 - *Marketing event registration canceled*
 - *Marketing form submitted*
+
+You can also create your own triggers based on any Dataverse record change. Learn more: [Trigger a journey based on a Dataverse record change](real-time-marketing-dataverse-trigger.md).

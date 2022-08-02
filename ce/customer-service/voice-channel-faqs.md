@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Dynami
  
 ### How can I acquire additional phone numbers from Azure direct offer?
 
-You can purchase one phone number per tenant for Azure Communication Services through the Azure portal. To acquire phone numbers in bulk or request a specific phone number, download and complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
+You can purchase one phone number per tenant for Azure Communication Services through the Azure portal. To acquire phone numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
 ### Can I keep my existing contract with my carrier?
 
@@ -85,12 +85,29 @@ The bot's accuracy depends on the similarities between locales. However, if you 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data and trial phone numbers after the trial organization is deprovisioned.
+No, you can't recover your data and trial phone numbers after the trial organization has expired and been deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
 - Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+
+### Do we provide voice quality SLA for voice in Omnichannel for Customer Service?
+
+We do not publish a voice quality SLA - there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+
+### What tools are available to isolate performance and quality of voice channel?
+
+The tools to isolate voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
+
+More information:
+
+- [Enable Azure Communication Services logs](/azure/communication-services/concepts/troubleshooting-info?tabs=csharp%2Cjavascript%2Cdotnet)
+- [Turn on metrics to populate in Azure](/azure/communication-services/concepts/analytics/call-logs-azure-monitor)
+- [Integrate with user-facing diagnostics](/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics)
+- [Use media quality statistics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk)
+- [Use pre-call diagnostics](/azure/communication-services/concepts/voice-video-calling/pre-call-diagnostics)
+- [Use Azure Communication Services communication monitoring plug-in](https://www.npmjs.com/package/@azure/communication-monitoring)
 
 ### Does the voice channel support emergency calling?
 

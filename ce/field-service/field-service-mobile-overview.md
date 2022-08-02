@@ -1,8 +1,8 @@
 ---
 title: "Overview of Field Service Mobile (Xamarin app) (contains video) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
-ms.date: 03/29/2021
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 
@@ -11,7 +11,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -21,7 +21,7 @@ search.app:
 # Overview of Field Service Mobile (Xamarin app)
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 Field technicians use the Field Service Mobile app to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this article, we'll take a look at some basic details of the application.
 

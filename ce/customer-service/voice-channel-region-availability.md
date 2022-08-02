@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/20/2022
+ms.date: 07/07/2022
 ms.topic: article
 ---
 
@@ -18,9 +18,10 @@ For information about international availability of live chat and digital messag
 
 ## Supported cloud locations
 
-The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments. 
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments.
 
 > [!IMPORTANT]
+>
 > - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
 > - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
@@ -34,6 +35,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
+|Government Community Cloud (GCC) High|To be announced |To be announced|
 
 If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
@@ -54,6 +56,7 @@ If you need your data to stay within a country or region, see the following tabl
 |China | To be announced | To be announced|
 |Norway | To be announced | To be announced|
 |Korea | To be announced | To be announced|
+|Singapore|To be announced | To be announced|
 
 
 > [!NOTE]

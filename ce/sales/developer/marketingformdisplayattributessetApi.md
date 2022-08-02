@@ -12,7 +12,8 @@ manager: shujoshi
 As a developer, use this reference documentation for customizing the quick campaign and distribute campaign activity forms. 
 
 > [!IMPORTANT]
-> Customization of quick campaign and campaign activity distribution forms is not available in the application by default. Contact Microsoft Support to enable this feature for your organization. 
+>- Customization of quick campaign and campaign activity distribution forms is not available in the application by default. Contact Microsoft Support to enable this feature for your organization.
+>- Out of the box fields in the form can't be removed using this customization.  
 
 ## License and role requirements
 | Requirement type | You must have |
