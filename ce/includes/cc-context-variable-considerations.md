@@ -4,4 +4,3 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 - The length of the context variable name must be less than or equal to 100 characters.
 - The context variable value must be less than or equal to 4,000 characters.
 - Use exact match to pass the value to the context variable because it is case-sensitive.
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccc
