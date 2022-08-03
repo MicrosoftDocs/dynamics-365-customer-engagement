@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
-ms.date: 04/25/2022
+ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -22,10 +22,10 @@ Configure predictive lead scoring to help sellers prioritize leads based on scor
 
 ## What is predictive lead scoring
 
-Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
+Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead. When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
 
 > [!NOTE]
-> Your historical data will be deleted after 30 days from the date of your subscription expiration.
+> If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
 
 Using this score, you can:
 

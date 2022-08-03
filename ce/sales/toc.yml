@@ -161,7 +161,6 @@
           href: teams-integration/enable-record-linking.md
         - name: Enable Sensitivity labels
           href: teams-integration/sensitivity-labels.md
-
     - name: Productivity and document management
       items: 
         - name: Activity management
@@ -348,35 +347,39 @@
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
               href: add-sales-accelerator-sitemap-entry-custom-app.md
-        - name: Manage sequences
+        - name: Sequences
           href: create-manage-sequences.md
           items: 
             - name: Create and activate a sequence
               href: create-and-activate-a-sequence.md
-            - name: Sequence templates
-              href: sequence-templates.md  
-            - name: Migrate sequences from one environment to another 
-              href: migrate-sequence.md
-            - name: Adaptive sequences
+            - name: Add steps to sequence
+              href: steps-sequence.md  
+            - name: Add condition steps to sequences
               href: adaptive-sequence.md
+            - name: Add command steps to sequences
+              href: command-sequence.md  
             - name: Add LinkedIn activities to sequence
               href: linkedin-activities-sequence.md
+            - name: Exit a sequence during flow  
+              href: step-exit-sequence.md
+            - name: Sequence templates
+              href: sequence-templates.md  
             - name: Connect a sequence to records
               href: connect-a-sequence-to-records.md
             - name: View details of a sequence and its connected records
               href: view-sequence-details-connected-records.md
-            - name: Manage tags for sequences
-              href: manage-tags-for-sequences.md
-            - name: View sequence in a grid
-              href: view-disconnected-sequences.md
-            - name: Clone a sequence
-              href: clone-a-sequence.md
-            - name: Edit a sequence
+            - name: Clone and edit a sequence
               href: edit-a-sequence.md
             - name: Edit an active sequence
               href: edit-active-sequence.md
             - name: Delete a sequence
               href: delete-a-sequence.md
+            - name: Migrate sequences from one environment to another 
+              href: migrate-sequence.md
+            - name: Manage tags for sequences
+              href: manage-tags-for-sequences.md
+            - name: View sequence in a grid
+              href: view-disconnected-sequences.md
             - name: Configure settings to customize sales accelerator
               href: customize-sales-accelerator-sellers.md
             - name: Understand sales acceleration reporting
@@ -580,8 +583,6 @@
           href: teams-integration/work-with-tasks.md
         - name: Work with activities during a meeting
           href: teams-integration/work-with-activities.md
-        - name: Conversation intelligence capabilities during a meeting
-          href: teams-integration/ci-capabilities.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
         items:
         - name: Overview
@@ -748,6 +749,8 @@
               href: sales-accelerator-intro.md
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
+            - name: Customize work list card  
+              href: customize-work-list-card.md
             - name: Connect with customers through a record or the up next widget
               href: connect-with-customers.md
             - name: Work with LinkedIn activities

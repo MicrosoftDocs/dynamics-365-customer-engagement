@@ -1,5 +1,6 @@
 ---
-title: "Set up Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Set up Dynamics 365 for Outlook administrators | MicrosoftDocs"
+description: Learn how to install and deploy Dynamics 365 for Outlook to make it easier for a team to work with Dynamics 365 apps data in the Outlook environment.
 ms.custom: 
 ms.date: 12/11/2020
 ms.reviewer: 
@@ -27,7 +28,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Set up Dynamics 365 for Outlook
+# Set up Dynamics 365 for Outlook administrators
 If your users run a recent version of Microsoft Outlook, they can use Microsoft Dynamics 365 for Outlook. Dynamics 365 for Outlook makes it easier for your team to work with Dynamics 365 apps data in the familiar Outlook environment.
 
 This section covers installing and deploying Dynamics 365 for Outlook.

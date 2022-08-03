@@ -1,5 +1,100 @@
 {
-  "redirections": [
+  "redirections": [    {
+      "source_path": "ce/admin/add-edit-multiregional-instances.md",
+      "redirect_url": "/power-platform/admin/regions-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/add-instance-subscription.md",
+      "redirect_url": "/power-platform/admin/create-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/admin-guide.md",
+      "redirect_url": "/power-platform/admin/admin-documentation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/backup-restore-instances.md",
+      "redirect_url": "/power-platform/admin/backup-restore-environments",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/copy-instance.md",
+      "redirect_url": "/power-platform/admin/copy-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/delete-instance.md",
+      "redirect_url": "/power-platform/admin/delete-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/edit-properties-instance.md",
+      "redirect_url": "/power-platform/admin/edit-properties-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/manage-online-instances.md",
+      "redirect_url": "/power-platform/admin/environments-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/manage-sandbox-instances.md",
+      "redirect_url": "/power-platform/admin/sandbox-environments",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/move-instance-tenant.md",
+      "redirect_url": "/power-platform/admin/move-environment-tenant",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/multiple-online-instances-tenants.md",
+      "redirect_url": "/power-platform/admin/multiple-online-environments-tenants",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/new-instance-management.md",
+      "redirect_url": "/power-platform/admin/environments-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/support-instance.md",
+      "redirect_url": "/power-platform/admin/support-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/switch-instance.md",
+      "redirect_url": "/power-platform/admin/switch-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/enable-office-delve.md",
+      "redirect_url": "/power-platform",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/import-bulk-data-data-loader.md",
+      "redirect_url": "/power-platform",
+      "redirect_document_id": "false"
+    },
+
+    {
+      "source_path": "ce/customer-service/link-customer-case-when-bot-escalates.md",
+      "redirect_url": "record-identification-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/additional-settings.md",
+      "redirect_url": "/power-platform/admin/add-remove-sample-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/windows-mobile-app.md",
+      "redirect_url": "/power-apps/mobile/windows-app-install",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/marketing/create-spf-record.md",
       "redirect_url": "mkt-settings-authenticate-domains#envelope-from-domain",
@@ -22619,7 +22714,7 @@
       "source_path": "ce/sales-enterprise/manage-seller-attributes.md",
       "redirect_url": "/dynamics365/sales/manage-seller-attributes",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/sales-enterprise/manage-snapshots-forecast.md",
       "redirect_url": "/dynamics365/sales/manage-snapshots-forecast",
@@ -23828,6 +23923,16 @@
     {
       "source_path": "ce/sales/create-manage-assignment-rules-lead-routing.md",
       "redirect_url": "create-manage-assignment-rules",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/clone-a-sequence.md",
+      "redirect_url": "edit-a-sequence",
+      "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/sales/teams-integration/ci-capabilities.md",
+      "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
     }
   ]
