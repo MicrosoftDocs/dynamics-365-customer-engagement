@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 05/19/2022
+ms.date: 08/02/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -37,7 +37,7 @@ The following limitations apply for the trial:
 
 ### What features are available in the trial?
 
-The environment you receive in trial is a fully functional, Dynamics 365 environment with the following out-of-the-box capabilities:
+The environment you receive in trial is a fully functional, Power Platform environment with the following out-of-the-box capabilities:
 
 - Dynamics 365 Customer Service Enterprise
   - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
