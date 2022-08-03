@@ -1547,6 +1547,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/talking-points.md",
+      "redirect_url": "/dynamics365/linkedin/view-sales-navigator-forms",
+      "redirect_document_id": "false"
+    }
+    {
+      "source_path": "ce/sales/configure-talking-points.md",
+      "redirect_url": "/dynamics365/linkedin/integrate-sales-navigator",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/insert-email-template.md",
       "redirect_url": "/dynamics365/customer-service/customer-service-hub-user-guide-email-overview",
       "redirect_document_id": "false"
