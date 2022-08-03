@@ -52,36 +52,51 @@ The update also includes improvements to real-time journeys, consent, the email 
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments)
     - [Docs](content-blocks.md)
 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new content blocks.](media/whats-new-content-blocks.png "Screenshot of new content blocks")
+
 - **Continue the conversation with your customers by taking action on their SMS replies**
     - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
     - [Docs](set-up-automated-sms-keyword-flow.md)
 
-- **Trigger journeys based on data changes in any Dynamics 365 app to engage customers at the right time without writing any code**
-    - Interactions in any Dynamics 365 app can be used to trigger and drive customer journeys in just a few clicks, without requiring developers or customizations. Customers interact with several departments and functions in your company throughout their lifetime, all of which use their own CRM, ERP, and business apps. Each of these interactions, such as a service ticket being closed, represents an opportunity to engage more deeply with your customers. Now, data no longer has to remain siloed within separate apps and out of reach of your customer engagement or marketing automation tools.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/trigger-journeys-based-data-changes-dynamics-app-engage-customers-at-right-time-without-writing-code)
-    - [Docs](real-time-marketing-dataverse-trigger.md)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
 
+- **Create more personalized journey variations using multiple journey branches**
+    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
+    - [Docs](real-time-marketing-multiple-branches.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of multiple branches.](media/whats-new-multiple-branches.png "Screenshot of multiple branches")
+
+- **Measure campaign effectiveness with a new channel analytics dashboard**
+    - To create effective campaigns, marketers need to continuously track the delivery of assets across numerous channels. They also need to review campaign engagement metrics so that they can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. You can even zoom in on a particular channel or message. You can also learn from trends of important metrics over a specified time period to further improve your marketing efforts.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/measure-campaign-effectiveness-new-channel-analytics-dashboard)
+    - [Docs](real-time-marketing-channel-analytics.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of real-time marketing aggregate channel analytics.](media/whats-new-channel-analytics.png "Screenshot of real-time marketing aggregate channel analytics")
 
 #### Monthly enhancements
 
 - **Real-time marketing**
-    - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for Content Ideas (GPT-3), and get better recommendations for channel optimization.
-- **Business units**
-    - The Dataverse Data Source service now respects business unit scoping, enabling organizations to support multi-brand strategy needs, reduce compliance risks, define reusable marketing assets, and review marketing results at various organizational levels.
+    - You can now edit live journeys. This feature allows for quicker journey iterations, which, combined with improved version control, gives you the flexibility to design journeys that precisely fit your needs.
+    - You can now see how many different versions of a journey there are in the **All journeys** list view. When you select the journey, you can choose any of the versions to view.
+    - Triggers can now have up to 29 attributes (formerly limited to 10).
+- **Consent**
+    - Consent services now respect business unit scoping.
+- **Email**
+    - The Content ideas feature now includes built-in generic ideas allowing users to get up and running more quickly.
+    - To ensure branding consistency, the email editor now supports brand profiles including custom sender profiles, social links, and custom fields.
+- **SMS channel**
+    - New metrics allow you to measure SMS campaign performance, including response rate, percentage of responses that include a defined keyword, and most used keywords.
 - **Marketing pages**
-    - Errors are now displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
-- **Conditional content**
-    - [Preview] Email templates now support conditional content.
-
-#### Bug fixes
-
-- **First run experience**
-    - Resolved a bug that occasionally resulted in an error in newly provisioned environments indicating that an installation included solutions but not the services required by the Marketing app.
-- **Segmentation**
-    - Fixed an internal server error that sometimes occurred when creating a segment and going live with it.
-- **Marketing emails**
-    - Improved security in the email editor (updated components address potential cross-site scripting and information disclosure vulnerabilities).
+    - Improved reliability of e-mail link clicked insights for customers.
+    - Subscription centers now support business unit scoping.
+- **Event management**
+    - Check-ins are now created when joining an event 2 hours or less before it starts (formerly limited to 30 minutes before the event start) ensuring check-ins are created for early joiners.
 
 ### June 2022 update
 
