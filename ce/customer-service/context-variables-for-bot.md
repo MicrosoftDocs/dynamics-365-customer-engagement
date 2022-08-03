@@ -22,10 +22,24 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 
 ## Add context variables
 
-1. Select **Add context variable** in the **Advanced settings** section of a workstream.
-2. In the **Edit** pane, select **Add**, and enter **Name**. Ensure that the length of the context variable names does not exceed 200 characters.
-3. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
-4. Repeat steps 2 and 3 to create the required variables.
+1. Go to one of the apps, and perform the following steps:
+
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    - In the site map, select **Workstreams** in **Customer support** and open a workstream from the list.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     - In the site map, select **Workstreams** in **General settings** and open a workstream from the list.
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+     - In the **Service Management** area, select **Workstreams** in **Unified Routing**, and then open a workstream from the list.
+     
+2. Select **Add context variable** in the **Advanced settings** section of a workstream.
+3. In the **Edit** pane, select **Add**, and enter **Name**. Make sure that the variable name is less than or equal to 200 characters.
+4. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
+5. Repeat steps 3 and 4 to create the required variables.
 
 > [!Note]
 > If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete the variables, make sure that they aren't used in any of the unified routing classification or assignment rules.
