@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/01/2022
+ms.date: 08/04/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -29,6 +29,59 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
 ## 2022 updates
+
+### July 2022 update
+
+The Dynamics 365 Marketing July 2022 update has four general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The general availability features include reusable content blocks for quick email creation, the ability to continue customer conversations by taking action on SMS replies, multiple journey branches to create more personalized variations, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
+
+The update also includes improvements to real-time journeys, consent, the email editor, the SMS channel, marketing pages, and event management.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.85.2012.0     |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### General availability enhancements
+
+- **Quickly create emails with enhanced reusable content blocks**
+    - Content blocks are reusable pieces of content that let you easily assemble rich and consistent emails. New and enhanced content blocks are now available in outbound and real-time marketing. The enhanced content blocks can include all standard elements such as text, images, and buttons, as well as custom layouts and personalization.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments)
+    - [Docs](content-blocks.md)
+
+- **Continue the conversation with your customers by taking action on their SMS replies**
+    - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
+    - [Docs](set-up-automated-sms-keyword-flow.md)
+
+- **Trigger journeys based on data changes in any Dynamics 365 app to engage customers at the right time without writing any code**
+    - Interactions in any Dynamics 365 app can be used to trigger and drive customer journeys in just a few clicks, without requiring developers or customizations. Customers interact with several departments and functions in your company throughout their lifetime, all of which use their own CRM, ERP, and business apps. Each of these interactions, such as a service ticket being closed, represents an opportunity to engage more deeply with your customers. Now, data no longer has to remain siloed within separate apps and out of reach of your customer engagement or marketing automation tools.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/trigger-journeys-based-data-changes-dynamics-app-engage-customers-at-right-time-without-writing-code)
+    - [Docs](real-time-marketing-dataverse-trigger.md)
+
+
+#### Monthly enhancements
+
+- **Real-time marketing**
+    - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for Content Ideas (GPT-3), and get better recommendations for channel optimization.
+- **Business units**
+    - The Dataverse Data Source service now respects business unit scoping, enabling organizations to support multi-brand strategy needs, reduce compliance risks, define reusable marketing assets, and review marketing results at various organizational levels.
+- **Marketing pages**
+    - Errors are now displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
+- **Conditional content**
+    - [Preview] Email templates now support conditional content.
+
+#### Bug fixes
+
+- **First run experience**
+    - Resolved a bug that occasionally resulted in an error in newly provisioned environments indicating that an installation included solutions but not the services required by the Marketing app.
+- **Segmentation**
+    - Fixed an internal server error that sometimes occurred when creating a segment and going live with it.
+- **Marketing emails**
+    - Improved security in the email editor (updated components address potential cross-site scripting and information disclosure vulnerabilities).
 
 ### June 2022 update
 
