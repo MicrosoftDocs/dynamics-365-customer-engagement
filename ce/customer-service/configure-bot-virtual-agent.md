@@ -226,7 +226,7 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 #### Set escalation rules
 
-You can set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
+You can set escalation rules in one of the following ways so the bot can route the queries to the appropriate agent:
 
 - **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
 
