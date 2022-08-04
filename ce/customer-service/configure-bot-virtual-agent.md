@@ -167,7 +167,7 @@ When a customer closes the chat window, for the bot to end the conversation in O
 
 To configure a bot conversation to end, perform the following steps:
 
-1. In Power Virtual Agents, for the selected bot, configure a new topic.
+1. In Power Virtual Agents, for the selected bot, add a new topic.
 
 1. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
 
@@ -177,7 +177,7 @@ To configure a bot conversation to end, perform the following steps:
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
    4. Save the changes, and then exit Power Automate.
 
-1. In the topic that you were editing, select **Call an action** again, and then in the list, select the flow that you created. 
+1. In the topic that you were editing, select **Call an action** again, and then in the list, select the flow that you created.
 
 1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
 
