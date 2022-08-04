@@ -2,9 +2,8 @@
 title: "Audit entity data changes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Supports auditing of entity and attribute data changes on a per organization basis."
 ms.custom: audit
-ms.date: 10/01/2019
-ms.reviewer: pehecke
-ms.prod: d365ce-op
+ms.date: 05/27/2022
+ms.reviewer: jdaly
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -12,11 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - auditing entity data changes in Microsoft Dynamics CRM, introduction
-ms.assetid: 1e1b011b-282a-4a5f-a4b2-91c0c0989a55
-caps.latest.revision: 28
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: Bluebear7
+ms.author: munzinge
+manager: mayadu
 search.audienceType: 
   - developer
 
@@ -38,6 +35,14 @@ There are three levels where auditing can be configured: organization, entity, a
 ## Retrieve and delete history of audited data changes
 
 After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. To learn more, see [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes) in the Dataverse documentation.
+
+### Behavior of DeleteAuditData message depends on SQL Server edition
+
+When using Dynamics 365 Customer Engagement (on-premises) the behavior of the `DeleteAuditData` message depends on the which edition of SQL Server is used.
+
+When using SQL Server Enterprise edition, the `DeleteAuditData` message will delete all audit data in those partitions where the end date is before the date specified in the `EndDate` property. Any empty partitions are also deleted. However, neither the current (active) partition nor the `audit` records in that active partition can be deleted by using this request or any other request.
+
+SQL Server Standard edition doesn't support the database partitioning feature. In this case the `DeleteAuditData` message deletes all audit records created up to the end date specified in the `EndDate` property.
   
 ## Audit user logons
 

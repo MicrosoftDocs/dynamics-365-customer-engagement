@@ -4,7 +4,7 @@ description: "Follow these steps to drill down into a segment on a chart to filt
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

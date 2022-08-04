@@ -4,10 +4,10 @@ description: "The sample demonstrates how to validate a change of state of an en
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -21,7 +21,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Validate record state and set the state of the record
 

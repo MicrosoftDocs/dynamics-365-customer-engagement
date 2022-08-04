@@ -4,7 +4,7 @@ description: "Creating an IMAP/SMTP email server profile is not available for Dy
 ms.custom: 
 ms.date: 05/18/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

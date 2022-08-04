@@ -2,17 +2,15 @@
 title: "Supported features (Dynamics 365 apps) | MicrosoftDocs"
 description: Supported features using App for Outlook on Outlook desktop client, Outlook Web Access, and a mobile device.
 ms.custom: 
-ms.date: 05/20/2021
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 02/11/2022
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -122,7 +120,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 
  
 
-## Feature support per client (both Dynamics 365 or Microsoft Exchange Server is on-premises)
+## Feature support per client (both Dynamics 365 and Microsoft Exchange Server is on-premises)
 
 | **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Android** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------| 

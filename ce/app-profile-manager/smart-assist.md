@@ -1,10 +1,10 @@
 ---
 title: "Smart assist for agent efficiency | MicrosoftDocs"
-description: "Learn about how to smartly assist agents with the next-best steps in the Customer Service workspace and Omnichannel Administration apps."
+description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/11/2021
+ms.date: 05/11/2022
 ms.topic: article
 ---
 
@@ -36,7 +36,10 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Smart assist must be enabled.
 - One of the following:
   - AI-suggested similar cases and knowledge articles should be enabled by your administrator.
-  - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../customer-service/smart-assist-bot.md).
+  - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot using Azure Bot Service](../customer-service/smart-assist-bot.md).
+  
+  > [!NOTE]
+  > Power Virtual Agents bots aren't supported as smart assist bots.
 
 ## Enable AI suggestions for similar cases and knowledge articles
 
@@ -44,19 +47,20 @@ To enable AI-suggested similar cases and knowledge articles, see [Enable AI sugg
 
 ## Enable smart assist for the bot framework in Omnichannel for Customer Service
 
-[Step 1: Create a bot user](#step-1-create-a-bot-user)
+To enable smart assist for the bot framework in Omnichannel for Customer Service, perform the following steps:
+1. [Create a bot user](#step-1-create-a-bot-user)
 
-[Step 2: Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
+2. [Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
 
-### Step 1: Create a bot user<a name="step-1-create-a-bot-user"></a>
+### Create a bot user<a name="step-1-create-a-bot-user"></a>
 
 Create a bot user in the application to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
-You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. For information: [Create a bot user](../customer-service/configure-bot.md#create-a-bot-user).
+You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. More information: [Create a bot user](../customer-service/configure-bot.md#configure-the-bot-user-as-an-omnichannel-agent)
 
-### Step 2: Add a smart assist bot to a workstream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
+### Add a smart assist bot to a workstream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 
-After you create a bot user, you need to add the bot to the work stream so that agents who use the channel of this workstream can see the suggestions.
+After you create a bot user, you need to add the bot to the workstream so that agents who use the channel of this workstream can see the suggestions.
 
 1. In Omnichannel admin center, go to **Workstreams** under **General settings**, and select the workstream to which you want to add the smart assist bot.
 
@@ -64,7 +68,7 @@ After you create a bot user, you need to add the bot to the work stream so that 
 
 3. In the **Add from existing** panel, select a bot user from the list, and select **Add**.
 
-You can add multiple bots to a work stream based on your business requirements.
+You can add multiple bots to a workstream based on your business requirements.
 
 
 ### See also

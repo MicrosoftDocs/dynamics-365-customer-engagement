@@ -2,7 +2,7 @@
 title: "Deliverability recommendations when changing ESPs (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about recommendations when changing your email service provider (ESP) in Dynamics 365 Marketing."
 ms.date: 03/10/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

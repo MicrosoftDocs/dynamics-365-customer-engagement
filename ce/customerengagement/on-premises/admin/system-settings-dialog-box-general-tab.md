@@ -4,7 +4,7 @@ description: "From the System Settings General tab, change preferences for savin
 ms.custom: 
 ms.date: 01/27/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

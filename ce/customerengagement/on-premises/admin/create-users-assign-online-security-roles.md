@@ -4,7 +4,7 @@ description: "Learn how to create and add users to your organization and assign 
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -145,9 +145,9 @@ The following table shows the fields that are populated on the Customer Engageme
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

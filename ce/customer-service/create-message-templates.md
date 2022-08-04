@@ -1,7 +1,7 @@
 ---
 title: "Create message templates in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to create message templates in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 06/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,20 +15,30 @@ ms.reviewer: nenellim
 
 Message templates enable the one-time creation of reusable messages that can be sent to multiple customers. With message templates, you can maintain high-quality content and avoid spam in the ecosystem. You can save time and personalize the messages by using placeholder values that can be replaced with dynamic content when the message is sent.
 
-To create a message template:
+**To create a message template**
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Message templates**. If you're using the Omnichannel Administration app, under **Settings**, select **Message templates**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-2. Select **New**, and enter the following details:
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    - In the site map, in **Agent experience**, select **Productivity**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+     - In the site map, in **Advanced settings**, select **Agent experience**.
+
+1. Select **Manage** for **Message templates**.
+
+1. Select **New**, and enter the following details:
 
     - **Name:** Enter a name.
     - **Channel:** Select a channel (SMS or Twitter).
     - **Default language:** Select a language.
     - **Default text:** Enter the default text for the message.
 
-3. Select **Save**. After saving the template, the **Message template** panel appears.
+1. Select **Save**. After saving the template, the **Message template** panel appears.
 
-4. Select **New message** and create a message using localized text in each language that you want to support.
+1. Select **New message** and create a message using localized text in each language that you want to support.
 
     > [!div class=mx-imgBorder]
     > ![Create localized text of new message.](media/message-template3.png "Create localized text of new message")
@@ -47,7 +57,7 @@ To create a message template:
 
       For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
     
-9. Select **Save & Close** to see your localized message appear in the list of message templates.
+1. Select **Save & Close** to see your localized message appear in the list of message templates.
 
 ## See also
 

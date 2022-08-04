@@ -1,8 +1,7 @@
 ---
 title: "Glossary of common insights terms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 Marketing."
-ms.date: 06/29/2021
-ms.service: dynamics-365-marketing
+ms.date: 05/20/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -44,7 +43,9 @@ Each reported email click indicates that a contact clicked on a link sent to the
 The email click-through rate indicates how often a message delivery resulted in at least one click on any of the links it contains. It’s reported as a percentage of total deliveries. Only unique clicks are counted, so after the first click, it doesn’t matter how many links a recipient clicks on, or how many times. For more information about how clicks are counted, see [Email clicked](insights-glossary.md#email-clicked) in this glossary.<br/>
 ``EmailCTR = (UniqueMessageClicks/TotalDelivered) * 100%``
 
-<!-- add CTOR here -->
+### Email click-to-open rate (CTOR)
+The email click-to-open rate indicates how often a message that was opened also resulted in at least one click on any of the links it contains. It’s reported as a percentage of the total number of unique messages that were opened. Only unique clicks are counted, so after the first click, it doesn’t matter how many links a recipient clicks on, or how many times. For more information about how clicks are counted, see [Email clicked](insights-glossary.md#email-clicked) in this glossary.<br/>
+``EmailCTOR = (UniqueMessageClicks/UniqueMessageOpens) * 100%``
 
 ### Email delivered
 A marketing email message is considered to have been delivered if it was sent (not blocked) by Dynamics 365 Marketing and no bounce was reported. Messages reported as delivered might still end up unopened or caught in a spam filter along the way.<br/>
@@ -86,8 +87,10 @@ Email messages are sometimes suppressed internally when you are trying to send t
 ### Total generated leads
 The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
 
-### Unsubscribed
-A recipient clicked on the subscription center link in an email and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient.
+### Unsubscribes
+- **Outbound marketing**: A recipient selected the subscription center link in an email and then unsubscribed from one or more *mailing lists*. This value counts, at most, one unsubscribe per message per recipient. Unchecking the "Do not e-mail" field is not considered an unsubscribe, as it is a change of a contact preference which is different than unsubscribing from a particular mailing or subscription list.
+- **Real-time marketing**: A recipient selected the preference center link in an email sent from real-time marketing and then unsubscribed one or more *email addresses* associated with the recipient profile used in the journey (contact, lead, or Customer Insights profile).<br>
+``Unsubscribes = (total unsubscribed / emails that were delivered)*100``
 
 ### Web beacon
 Web beacons are what makes it possible for Dynamics 365 Marketing to detect when a marketing email message has been opened by a recipient. The beacon is a transparent, 1x1 pixel, remote image that Dynamics 365 Marketing embeds in each marketing email it sends. The image link is unique for each message, and includes not only the URL of the image to load, but also an ID that Dynamics 365 Marketing uses to identify the message and the contact it was sent to. The actual web-beacon image is stored on the Dynamics 365 Marketing server, so each time a contact opens a message and loads its images, Dynamics 365 Marketing logs which message was opened and by whom and then returns the image.

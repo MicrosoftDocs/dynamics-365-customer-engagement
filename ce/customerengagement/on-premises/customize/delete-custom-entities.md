@@ -4,7 +4,7 @@ description: "You can delete custom entities that aren’t part of a managed sol
 ms.custom: 
 ms.date: 12/03/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

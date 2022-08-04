@@ -14,12 +14,12 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-monikerRange: '>= dynamics-usd-4'
+monikerRange: '>= dynamics-usd-3'
 ---
 
 # What's new in Unified Service Desk for administrators
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 ::: moniker range="dynamics-usd-4.2"
 
@@ -155,13 +155,13 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client.
+The Administrator app, built based on the Unified Interface framework, has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
 ### Unified Interface Settings
 
-Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
+Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface app for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface Settings](../admin/unified-interface-settings.md)
 
@@ -179,7 +179,7 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
 ### Web Client - Unified Interface Migration Assistant
-The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
+The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface app.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Client - Unified Interface Migration Assistant](../admin/overview-migration-assistant.md)
 
@@ -191,15 +191,15 @@ While working on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-se
 
 ### Unified Interface KM Control
 
-The **Unified Interface KM Control** hosted control is introduced for your knowledge base search experience with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. You must configure the Unified Interface KM Control when you are using a Unified Interface App in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
+The **Unified Interface KM Control** hosted control is introduced for your knowledge base search experience with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. You must configure the Unified Interface KM Control when you are using a Unified Interface app in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
 
-Your service agents can use the **Unified Interface KM Control** hosted control to search and view knowledge base in Unified Interface from within the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Also, you can position your search control in the main panel, left panel, or right panel of the Unified Interface Desk application. Also, you can configure the contextual actions for the search results.
+Your service agents can use the **Unified Interface KM Control** hosted control to search and view the knowledge base in Unified Interface from within the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Also, you can position your search control in the main panel, left panel, or right panel of the Unified Interface Desk application. Also, you can configure the contextual actions for the search results.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface KM Control (hosted control)](../unified-interface-km-control-hosted-control.md)
 
 ### Unified Blue theme for Unified Service Desk
 
-The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
+The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface app.
 
 ### Unified Service Desk Administrator App
 
@@ -374,7 +374,7 @@ Unified Service Desk clients connecting to the [!INCLUDE [pn-crm-9-0-0-online](.
 ### Unified Service Desk limitations with Dataverse
 
 These are the limitations:
-- **Unified Interface**: Apps built using Unified Interface are not supported with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. More information: [Unified Interface framework for new apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)
+- **Unified Interface**: Apps built using Unified Interface are not supported with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
 - **Interactive Service Hub**: With the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] release, Interactive Service Hub has been rebuilt as a Unified Interface app, and is called Customer Service Hub. This implies that [support](../interactive-service-hub-page-hosted-control.md) for the Interactive Service Hub in Unified Service Desk is available only if you are running earlier versions.
 
 - **Embedded intelligence**: Although you can view information from the relationship assistant in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you cannot interact with the information in the client. More information: [Embedded intelligence](/dynamics365/customer-engagement/sales-enterprise/embedded-intelligence)

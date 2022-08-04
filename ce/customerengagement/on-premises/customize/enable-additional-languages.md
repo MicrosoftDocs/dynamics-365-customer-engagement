@@ -4,7 +4,7 @@ description: "If your organization needs to add a language beyond your base lang
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

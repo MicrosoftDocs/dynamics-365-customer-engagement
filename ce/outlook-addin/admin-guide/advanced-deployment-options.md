@@ -1,9 +1,10 @@
 ---
 title: "Advanced deployment options for Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about advanced deployment options for a large scale deployment of Microsoft Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

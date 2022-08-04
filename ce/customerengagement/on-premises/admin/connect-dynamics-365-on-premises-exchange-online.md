@@ -2,8 +2,7 @@
 title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
 ms.custom: ""
-ms.date: "2/20/2020"
-ms.prod: d365ce-op
+ms.date: "08/03/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,15 +45,10 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 
 ### Verify prerequisites
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
-- The Dynamics 365 (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Dynamics 365 Customer Engagement (on-premises)](../deploy/configure-ifd-for-dynamics-365.md)
-- Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
-- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. If you are evaluating server-based authentication, you can use a self-signed certificate.
+- Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
+- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you are evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.
-- Verify that the account that runs the Asynchronous Processing Service has read access for the certificate.
-
-The following software features are required to run the Windows PowerShell cmdlets described in this topic:
-- [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
-- [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1)
+- Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate.
 
 ### Configure server-based authentication
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
@@ -63,7 +57,7 @@ The following software features are required to run the Windows PowerShell cmdle
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tools).
 
 ```powershell
-$CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName”
+$CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
@@ -73,7 +67,7 @@ Invoke-Expression -command $CertificateScriptWithCommand
 
 ```powershell
 Enable-PSRemoting -force
-New-PSSession
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Install-Module MSOnline
 Install-Module MSOnlineExt
 Import-Module MSOnline -force
@@ -93,10 +87,8 @@ connect-msolservice -credential $msolcred
 5. Set the certificate.
 
 ```powershell
-$STSCertificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 -ArgumentList c:\Personalcertfile.pfx, personal_certfile_password
-$PFXCertificateBin = $STSCertificate.GetRawCertData()
 $Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
-$Certificate.Import(“c:\Personalcertfile.cer”)
+$Certificate.Import("c:\Personalcertfile.cer")
 $CERCertificateBin = $Certificate.GetRawCertData()
 $CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
 ```
@@ -106,7 +98,7 @@ $CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
    Replace *.contoso.com with the domain name where Microsoft Dynamics 365 Server is located.
 
 ```powershell
-$RootDomain = “*.contoso.com”
+$RootDomain = "*.contoso.com"
 $CRMAppId = "00000007-0000-0000-c000-000000000000" 
 New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
 $CRM = Get-MsolServicePrincipal -AppPrincipalId $CRMAppId
@@ -141,11 +133,11 @@ $CRMContextId
 
 2. Copy the GUID that is displayed to the clipboard.
 
-3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization. 
+3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization and ExchangeOnlineTenantId is the TenantId retrieved in the prior step. 
 
 ```powershell
-$organizationName = “OrganizationName”
-$CRMContextId = “ExchangeOnlineTenantId”
+$organizationName = "OrganizationName"
+$CRMContextId = "ExchangeOnlineTenantId"
 $orgInfo = Get-CrmOrganization -Name $organizationName
 $ID = $orgInfo.id 
 

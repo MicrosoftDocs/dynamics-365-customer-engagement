@@ -18,9 +18,9 @@ tags:
   - NoHandoff
   - LinksOnlyTopic
 ---
-# How you can administer and manage Unified Service Desk
+# Administer and manage Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to effectively administer and manage your implementation.  
   

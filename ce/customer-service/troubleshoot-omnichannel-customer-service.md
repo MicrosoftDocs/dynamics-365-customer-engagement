@@ -1,17 +1,17 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
-ms.date: 09/01/2021
+ms.date: 07/11/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 # Troubleshoot issues in Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
@@ -39,17 +39,26 @@ The provisioning application you are directed to is associated with the region y
 
 ### Issue
 
+ When you are provisioning Omnichannel for Customer Service, the following errors are displayed:
+
+-  **Unable to perform the requested operation due to lack of permissions**, if the user is logged in as a System Administrator on a child business unit instead of the root business unit.
+- **Request validation failed. Failed to execute action in CRM for selected environment**, if the user doesn't have read privileges for System roles.
+
+### Resolution
+
+- Check the permissions for the user and change the business unit of the system user to root business unit.
+- Ensure that the user is assigned at least one security role, preferably Omnichannel Administrator, other than the System Administrator role.
+### Issue
+
 If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service will fail in your organization.
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow the steps to remove the services.
+To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow these steps to remove the services:
 
 1. Identify the services in Azure AD.
-
 2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
 3. Add the service principal back.
-
 
 #### Identify the services in Azure AD
 
@@ -89,7 +98,7 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
 7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **`<ObjectID>`** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
    > [!Note]
-   > Right click in the PowerShell window to paste the Object ID.
+   > Right-click in the PowerShell window to paste the Object ID.
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
@@ -137,8 +146,6 @@ When you open the Omnichannel for Customer Service application or Customer Servi
 If you get any of the errors listed below, check if Security Defaults is turned on. If it is turned on, the agent should have the right authentication set up. Alternatively, Security Defaults can be switched off if it is not required.
 
 To learn more about Security Defaults, see the topic [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
-
-
 
 If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [What are security defaults ?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
@@ -221,6 +228,22 @@ To configure ending a bot conversation, perform the following steps:
 
 Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
+## Unable to connect the Power Virtual Agent bot to a voice workstream
+
+### Issue
+
+An error message  similar to the following is displayed on the PVA dashboard when you are configuring the hand-off between Power Virtual Agents bot and the Omnichannel voice workstream:
+
+"Your bot doesn't have access to all the required variables and actions. Ask your admin about installing the Omnichannel package or follow this step-by-step walkthrough".
+
+### Resolution
+
+If you haven't installed the required extensions, you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install the following extensions in the specified order for the hand-off to work:
+
+   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
+   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
+   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
+
 ## Chat widget icon does not load on the portal
 
 ### Issue
@@ -229,7 +252,7 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 ### Resolution
 
-You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center).
+You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget).
 
 ## Chat not getting initiated on starting a new chat from portal
 
@@ -487,6 +510,7 @@ The issue might happen due to the following reasons:
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
+- When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL.
 
 ### Resolution
 
@@ -496,6 +520,7 @@ Perform the following:
 - Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md). 
 - Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence**. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
+- Make sure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 points to the correct URL.  
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization

@@ -1,24 +1,18 @@
 ---
-title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel Administration app"
+title: "Manage notification templates | MicrosoftDocs"
+description: "Learn about managing notification templates in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage notification settings and templates
 
-
-## Introduction
-
 When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
 As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
-
-> [!Note]
-> You must associate the notification templates with a session template.
 
 ## Desktop notifications
 
@@ -113,6 +107,7 @@ The out-of-the-box templates are as follows.
 | CDS entity |||||CDS entity - Default assigned |
 | Customized ||||| Customized notification template |
 | Sentiment ||||| Sentiment threshold alert - supervisor |
+|Voice|Voice call - consult - default|Voice call - incoming authenticated - default|Voice call - incoming unauthenticated - default|Voice call - transfer - default|Voice call - supervisor assign - default|
 |||||||
 
   > [!Note]
@@ -122,11 +117,20 @@ The out-of-the-box templates are as follows.
 
 ### Create a notification template
 
-Perform the following steps to create a notification template:
+**To create the notification template**
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Notification templates**. If you're using the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
+     1. In the site map, select **Workspaces** in **Agent experience**.
+     2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-2. Select **New** in the **Active Notifications** area.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
+
+2. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
 
 3. Specify the following in the **New Notification** page.
 
@@ -234,9 +238,10 @@ As an administrator, you need to customize the notification template to show the
 
 ### See also
 
+[Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Associate templates with work streams](associate-templates.md)  
+[Associate templates with workstreams](associate-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "Create a LinkedIn Matched Audience based on a Dynamics 365 segment (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to use an existing Dynamics 365 segment to find matching LinkedIn users and create a LinkedIn Matched Audience."
 ms.date: 10/16/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

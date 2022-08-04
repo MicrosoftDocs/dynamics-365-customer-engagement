@@ -3,7 +3,7 @@ title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamic
 ms.custom: 
 ms.date: 01/28/2020
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

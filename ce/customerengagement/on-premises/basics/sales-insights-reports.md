@@ -4,7 +4,7 @@ description: "Use sales reports to understand and improve your business. Learn a
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

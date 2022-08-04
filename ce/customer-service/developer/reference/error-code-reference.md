@@ -1,8 +1,8 @@
 ---
 title: "Error code reference for Omnichannel for Customer Service | MicrosoftDocs"
-description: "Read about the error codes and error messages that are returned when using the live chat SDK methods, and how to resolve the errors"
-ms.date: 10/09/2019
-ms.topic: article
+description: "This topic contains reference information about the error codes and error messages that are returned when using the live chat SDK methods."
+ms.date: 04/04/2022
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -11,9 +11,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
+Here are the error codes and error messages that are returned by the live chat SDK methods.
 
-|Error Code|Error message|
+|Error code|Error message|
 |-----|-----|
 |1|Custom context provider method execution failed|
 |2|Auth token provider method execution failed|
@@ -25,7 +25,7 @@ Here are the error codes and error messages that are returned when using live ch
 > [!Note]
 > The live chat widget script can fail to load for a number of reasons. One possible reason is the user has disabled access to session and local storage in their browser. The reason will be described in the `errorDetail` attribute. 
 
-Given below is a sample `errorEvent` object that is raised when the context provider method execution fails.
+Here's a sample `errorEvent` object that's raised when the context provider method fails to run.
 
 ```JSON
 {
@@ -38,8 +38,8 @@ Given below is a sample `errorEvent` object that is raised when the context prov
 
 ### See also
 
-[JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
-[Developer guide](../omnichannel-developer.md)
+[Live chat SDK reference](../omnichannel-reference.md)  
+[Developer guide](../omnichannel-developer.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

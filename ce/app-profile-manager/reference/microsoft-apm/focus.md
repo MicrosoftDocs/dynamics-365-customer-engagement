@@ -4,13 +4,11 @@ description: "Learn about the focus API of app profile manager in Customer Servi
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: focus (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# focus (app profile manager)
 
 Sets the focus on a session.
 

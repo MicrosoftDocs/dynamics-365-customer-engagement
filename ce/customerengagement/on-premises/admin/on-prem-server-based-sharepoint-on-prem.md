@@ -2,8 +2,7 @@
 title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint
 description: "Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises."
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
-ms.date: 10/01/2019
-ms.prod: d365ce-op
+ms.date: 03/22/2022
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,12 +26,10 @@ This topic describes how to configure server-based integration between Dynamics 
 Follow the steps, in the order provided, to set up Customer Engagement (on-premises) with Microsoft SharePoint Server On-Premises.
 
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>If a task isn’t completed, for example, if a PowerShell command returns an error message, the issue must be resolved before you continue to the next command, task, or step.</P>
-> <LI>
-> <P>Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Customer Engagement (on-premises) organization for server-based SharePoint integration.</P>
-> <P></P></LI></UL>
+> - PowerShell commands should be run in administrator mode. See: [How do I launch PowerShell?](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2&preserve-view=true#how-do-i-launch-powershell)
+> - If a task isn’t completed, for example, if a PowerShell command returns an error message, the issue must be resolved before you continue to the next command, task, or step.
+> - Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Customer Engagement (on-premises) organization for server-based SharePoint integration.
+
 
 ## Verify prerequisites
 
@@ -53,6 +50,8 @@ Before you configure Customer Engagement (on-premises) and SharePoint On-Premise
 ## SharePoint prerequisites
 
   - One of the following SharePoint versions:
+  
+      - Sharepoint Service Subscription edition.
 
       - SharePoint 2019 On-Premises.
 
@@ -201,7 +200,7 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
     
     To run the following commands, you must specify two parameters:
     
-      - The SharePoint On-Premises site collection URL. In the example here, *https://sharepoint.contoso.com/sites/crm/* is used for the site collection URL.
+      - The SharePoint On-Premises site collection URL. In the example here, `https://sharepoint.contoso.com/sites/crm/` is used for the site collection URL.
     
       - The *CrmRealmId* is the ID of the Customer Engagement (on-premises) organization you want to use for document management with SharePoint. More information: [Get the Dynamics 365 Realm ID](#get-the-dynamics-365-realm-id)
     

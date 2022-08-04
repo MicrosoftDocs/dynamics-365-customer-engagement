@@ -3,7 +3,7 @@ title: "Using Windows PowerShell to perform Deployment Manager tasks | Microsoft
 description: Learn how to get started to use the PowerShell commands for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: d365ce-op
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,7 +20,7 @@ manager: kvivek
 
 You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets to perform many of the tasks that can be performed by using the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] user interface.  
   
- For more information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets, see [Overview of Dynamics 365 Customer Engagement (on-premises) PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
+ For more information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets, see [Overview of Dynamics 365 Customer Engagement (on-premises) PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&preserve-view=true).  
   
 ### Register the Microsoft Dynamics 365 Customer Engagement (on-premises)  cmdlet  
   

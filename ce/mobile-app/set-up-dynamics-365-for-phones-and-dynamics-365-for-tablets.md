@@ -2,12 +2,12 @@
 title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
 description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 09/16/2020
+ms.date: 10/13/2021
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: get-started-article
+ms.topic: overview
 applies_to: Dynamics 365 apps
 ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
 caps.latest.revision: 141
@@ -85,6 +85,9 @@ In addition, particularly if you have created a custom security role, validate t
    -   User Settings
 
 5. Select **Save and Close** to save the changes to the security role.
+
+> [!NOTE]
+> To access the list of apps, a user must have a [default security role](/power-platform/admin/security-roles-privileges) assigned to them such as **Basic**. This is in addition to any custom security role assigned to the user.
 
 ### Required services
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
@@ -184,14 +187,19 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 
  You can enable a limited set of entities for the mobile app. To see if an entity is enabled or to enable an entity.
  
+ 
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
 3. Select the entity you want to enable for mobile app (for example, **Account**).  
   
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  
+   > [!NOTE]
+   > The **Enable for Phone Express** option refers to a deprecated mobile app and doesn't apply anymore.
+ 
    > [!div class="mx-imgBorder"] 
    > ![Enable mobile entities.](media/enable_mobile_entity.png "Enable mobile entities").
+   
 
 Things to note:  
   

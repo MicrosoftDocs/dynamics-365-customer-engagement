@@ -1,8 +1,7 @@
 ---
 title: "Download and use marketing analytics templates and sample reports for Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Browse our Power BI template gallery, download relevant templates and sample reports, and connect them to your Dynamics 365 Marketing instance."
-ms.date: 12/11/2020
-ms.service: dynamics-365-marketing
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Download and use marketing analytics templates and sample reports for Power BI
+
+[!INCLUDE[marketing-trial-cta](../../shared/trials/marketing-trial-cta.md)]
 
 This article provides a gallery with links to downloads and details for each Microsoft Power BI template and sample report that's currently available for Dynamics 365 Marketing. It also explains how to connect a downloaded template to your Dynamics 365 Marketing instance. These resources help you produce custom analytics reports with Power BI for your Dynamics 365 Marketing organization.
 

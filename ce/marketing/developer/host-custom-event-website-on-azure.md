@@ -2,7 +2,7 @@
 title: "Hosting your custom event website on Azure (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Step-by-step tutorial on how to host your custom event website on Azure."
 ms.date: 06/12/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

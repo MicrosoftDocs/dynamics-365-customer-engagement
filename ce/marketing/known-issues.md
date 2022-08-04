@@ -1,8 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 06/22/2021
-ms.service: dynamics-365-marketing
+ms.date: 06/10/2022
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
@@ -46,6 +45,9 @@ This document provides important, late-breaking information about known issues a
 ## Event management
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](/powerapps/maker/portals/configure/invite-contacts) and then send the invitation code to the contact by email.
+- There are a few mismatches between the look of a Microsoft Teams webinar created from Dynamics 365 Marketing and a webinar created from the Teams calendar. The discrepancies will be minimized in future versions. Until then, note that they do not cause any functional limitations as to how you, as the organizer, can manage the webinar through Dynamics 365 Marketing. Refer to this section for more information: [Known issues with Teams webinars](teams-webinar.md#known-issues-with-teams-webinars).
+- In the **Registration and attendance** tab of an event, there is an issue with filtering registration responses. Once a custom filter is applied for any column, responses from all events are displayed instead of only the ones relevant to the event. As a workaround, the **Advanced find** functionality can be used to filter registration responses for a particular event. Using **Advanced find**, select “Registration Responses” in the **Look for** dropdown and “Detailed registration responses” in the **Use Saved View** dropdown, then apply the appropriate filters. You can restrict the results to a particular event by filtering by the “Event” attribute of the “Event registration” relationship.
+- Session passes are not cloned in the **Save as** operation of an event. This will be fixed in future releases. Until then, manually add the passes for the sessions.
 
 ## General
 
@@ -81,6 +83,7 @@ This document provides important, late-breaking information about known issues a
 - As of March 2021, A/B testing is not yet available in the new email designer.
 - If you have any email editor customizations, your administrator will need to manually recreate them in the new email designer.
 - Due to a limitation in Outlook, the maximum divider height is 10 pixels.
+- Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 
 ## Marketing pages and forms
 

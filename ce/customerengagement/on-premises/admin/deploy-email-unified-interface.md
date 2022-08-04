@@ -4,7 +4,7 @@ description: "Improve accessibility when reading and editing email by installing
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

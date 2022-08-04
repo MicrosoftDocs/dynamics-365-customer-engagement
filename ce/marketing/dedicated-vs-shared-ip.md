@@ -2,7 +2,7 @@
 title: "Dedicated vs shared IPs for email delivery (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn whether a dedicated or a shared IP address is best for email delivery in your Dynamics 365 Marketing implementation."
 ms.date: 10/08/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

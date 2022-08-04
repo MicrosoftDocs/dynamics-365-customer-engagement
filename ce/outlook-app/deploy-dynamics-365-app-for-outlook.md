@@ -2,18 +2,16 @@
 title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
-ms.date: 05/20/2021
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 12/14/2021
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -28,7 +26,11 @@ search.app:
 
 This topic covers how to set up and deploy Dynamics 365 App for Outlook.
 
-The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.yml), [Dynamics 365 Field Service](../field-service/overview.md), [Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/overview), and [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md)), and model-driven Power Apps that run on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+
+> [!NOTE]
+> Multiplexing setup doesn't reduce the number of licenses required to access Dynamics 365 apps. For more information, see [Multiplexing Licensing Brief](https://download.microsoft.com/download/3/D/4/3D42BDC2-6725-4B29-B75A-A5B04179958B/Licensing_Brief_PLT_Multiplexing.pdf).
+
 
 ## Prerequisites
 
@@ -143,7 +145,7 @@ App for Outlook also requires server-side synchronization to be properly configu
 | prvReadQuery                            | View               | Customization                                       |
 | prvReadIncident                         | Case               | Service                                             |
 | prvSearchAvailability                   |                    | Service Management &gt; Miscellaneous Privileges    |
-| prvOverrideCreatedOnCreatedBy           |                    | Service Management &gt; Miscellaneous Privileges    |
+| prvOverrideCreatedOnCreatedBy           |                    | Business Management &gt; Miscellaneous Privileges    |
 
 
 > [!NOTE]
@@ -198,7 +200,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
     - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app for eigible users.](media/deploy-app-auto-1.png)
+      > ![Automatically deply the app for eligible users.](media/deploy-app-auto-1.png)
 
    
    - **Option 3**: Push the app to certain users, select those users in the list, and then select **Add App to Outlook**.

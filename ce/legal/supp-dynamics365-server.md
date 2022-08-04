@@ -1,6 +1,7 @@
 ---
 title: Supplemental Terms
 author: Mattp123
+ms.author: matp
 ---
 
 # Supplemental Terms of Use for Microsoft Dynamics 365 Server

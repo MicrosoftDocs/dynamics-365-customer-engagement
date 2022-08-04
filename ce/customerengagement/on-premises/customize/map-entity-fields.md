@@ -4,7 +4,7 @@ description: "Learn how to create field mapping between entities. This lets you 
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

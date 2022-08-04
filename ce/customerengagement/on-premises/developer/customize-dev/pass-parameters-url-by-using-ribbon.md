@@ -4,7 +4,7 @@ description: "Learn about passing parameters to a URL by using the ribbon"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -68,7 +68,7 @@ https://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1
 >  You will not be able to import the ribbon if the URL includes the ampersand (&) character that is used to separate multiple `querystring` parameters in the URL. This character makes the XML invalid. You must escape the ampersand character in the URL attribute value with "&amp;".  
   
 ## Reading passed parameters  
- Passed parameters are usually read in the target .aspx page by using the `HttpRequest.QueryString` property. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [HttpRequest.QueryString Property](https://msdn.microsoft.com/library/system.web.httprequest.querystring.aspx)  
+ Passed parameters are usually read in the target .aspx page by using the `HttpRequest.QueryString` property. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [HttpRequest.QueryString Property](/dotnet/api/system.web.httprequest.querystring#System_Web_HttpRequest_QueryString)  
   
 > [!NOTE]
 >  If the target of your URL is a Web resource, it can accept only the parameters identified in the topic [Passing Parameters to HTMLWeb Resources](../webpage-html-web-resources.md#BKMK_PassingParametersToWebResources). The only opportunity to pass custom values is by including them within the `data` parameter. Some special handling is required to include multiple values in a single parameter. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample: Passing Multiple Values to a Web Page Web Resource Through the Data Parameter](../sample-pass-multiple-values-web-resource-through-data-parameter.md)  

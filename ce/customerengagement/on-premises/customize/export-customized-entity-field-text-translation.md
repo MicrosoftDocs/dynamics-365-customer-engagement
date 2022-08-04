@@ -4,7 +4,7 @@ description: "After creating customized entity and field text, you may want to t
 ms.custom: 
 ms.date: 11/04/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

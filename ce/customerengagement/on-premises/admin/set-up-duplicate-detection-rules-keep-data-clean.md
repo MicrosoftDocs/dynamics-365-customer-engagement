@@ -4,7 +4,7 @@ description: "The system includes default duplicate detection rules for accounts
 ms.custom: 
 ms.date: 10/30/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

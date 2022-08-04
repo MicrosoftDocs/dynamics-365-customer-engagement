@@ -4,7 +4,7 @@ description: "Follow these steps to create a new security role within Dynamics 3
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

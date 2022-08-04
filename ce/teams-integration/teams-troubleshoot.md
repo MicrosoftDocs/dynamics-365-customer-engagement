@@ -1,21 +1,15 @@
 ---
-title: "Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365| MicrosoftDocs"
-description: "Provides information about the error messages you might face with possible resolutions and some known issues."
-ms.date: 08/24/2021
-ms.reviewer: 
-ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
+description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
+ms.date: 01/28/2022
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
-caps.latest.revision: 17
-author: lavanyakr01
-ms.author: lavanyakr
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 search.audienceType: 
-
   - enduser
 search.app: 
   - D365CE
@@ -23,26 +17,26 @@ search.app:
 ---
 # Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365
 
-This topic provides information about the error messages you might face with possible resolutions and some known issues.
+This article provides information about the error messages you might face with possible resolutions and some known issues.
 
 
 ## Troubleshoot configuration issues with Microsoft Teams integration
 
-Microsoft Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Microsoft Teams integration.
+Microsoft Teams integration uses SharePoint integration at the backend, so if there's a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Microsoft Teams integration.
 
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites are not met.
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites aren't met.
 
-- SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
+- SharePoint Integration isn't configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
 
-- SharePoint Integration is not configured, but there is an active SharePoint site in your organization. To fix the issue, deactivate the SharePoint site.
+- SharePoint Integration isn't configured, but there's an active SharePoint site in your organization. To fix the issue, deactivate the SharePoint site.
 
-- SharePoint Integration is not configured, but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
+- SharePoint Integration isn't configured, but there's SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices). 
 
-- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you're currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-### Error when you pin a record or view of any app to a team channel if the enhanced experience is not configured correctly by your customer engagement apps admin.
+### Error when you pin a record or view of any app to a team channel if the enhanced experience isn't configured correctly by your customer engagement apps admin.
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
@@ -57,17 +51,17 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 2. Select **Azure Active Directory** > **Enterprise**.
 3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
     > [!div class="mx-imgBorder"] 
-    > !Go to [Dynamics 365 Microsoft Teams collaboration integration ](media/error2.png "Go toDynamics 365 Microsoft Teams collaboration integration")
+    > ![Dynamics 365 Microsoft Teams collaboration integration ](media/error2.png "Go toDynamics 365 Microsoft Teams collaboration integration")
 4. Delete the app.
     > [!div class="mx-imgBorder"] 
     > ![Teams error.](media/error3.png "Teams error")
-5. Wait for about five minutes and then enable the [Enhanced Microsoft Teams Integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox.
+5. Wait for about five minutes and then enable the [Enhanced Microsoft Teams Integration](teams-install-app.md) feature again. Ensure that you to check the **Consent on behalf of organization** checkbox.
 
-### Error when you pin a record or view of any app to a team channel if your user role permission is not configured correctly by your customer engagement apps system admin.
+### Error when you pin a record or view of any app to a team channel if your user role permission isn't configured correctly by your customer engagement apps system admin.
 
 Error: **User does not have permissions to create SharePoint Site or Document Location. This record is not connected to Dynamics 365**.
 
-This means the user that is getting this error does not have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
+This means the user that is getting this error doesn't have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
 
 When the user tries to pin an entity to a Microsoft Teams channel, this error will display in the notification bar:
 
@@ -79,7 +73,7 @@ To fix the issue, do the following:
 1. In Microsoft Teams, select the channel with this error.
 2. Select the tab with this error.
 3. Select the down arrow next to the tab, then select **Remove**.
-4. In your app, identify the role which is assigned to this user:
+4. In your app, identify the role that is assigned to this user:
      1. Sign in as an admin to your customer engagement app.
      2. Navigate to **Settings** > **Security** > **Users**. 
      3. Find and select the user account that got the error message to open it.
@@ -98,7 +92,7 @@ Now, when the user tries to pin the entity to the required Microsoft Teams chann
 
 ### Error: I can't find the Dynamics 365 app in the Microsoft Teams app store.
 
-This happens when the external app for Microsoft Teams service is not enabled by your Microsoft 365 admin. To fix the issue, do the following:
+This happens when the external app for Microsoft Teams service isn't enabled by your Microsoft 365 admin. To fix the issue, do the following:
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).
 2. From the list of apps, select **Admin**.
@@ -106,7 +100,7 @@ This happens when the external app for Microsoft Teams service is not enabled by
    > [!div class="mx-imgBorder"] 
    > ![Admin portal.](media/ts1.png "Admin portal")
    
-3. From the menu select **Settings** > **Services & add-ins**.
+3. From the menu, select **Settings** > **Services & add-ins**.
 
    > [!div class="mx-imgBorder"] 
    > ![Settings and add-ins.](media/ts2.png "Settings and add-ins")
@@ -122,27 +116,27 @@ This happens when the external app for Microsoft Teams service is not enabled by
 
 6. Restart Microsoft Teams and then try searching for **Dynamics 365** again in the Microsoft Teams app store.
 
-### Error: Sorry, the environment you selected is not up-to-date or is not supported. Please select another environment.
+### Error: Sorry, the environment you selected isn't up-to-date or isn't supported. Please select another environment.
 
 > [!div class="mx-imgBorder"] 
 > ![Errow message, environment is not up-to-date.](media/teams-error-org-not-up-to-date.png "Error message, environment is not up-to-date")
 
 Or, you may get this error:
 
-### Error: Sorry! Your Dynamics 365 environment is not the latest version and is not supported for this feature. Please select a different environment or contact your Dynamics 365 admin to do an update.
+### Error: Sorry! Your Dynamics 365 environment isn't the latest version and isn't supported for this feature. Please select a different environment or contact your Dynamics 365 admin to do an update.
 
 > [!div class="mx-imgBorder"] 
 > ![Error, sorry your Dynamics 365 environment is not the latest version and is not supported for this feature.](media/teams-error-org-not-latest.png "Error, sorry your Dynamics 365 environment is not the latest version and is not supported for this feature")
 
-The customer engagement app environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Microsoft Teams integration.
+The customer engagement app environment that you're trying to connect doesn't support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Microsoft Teams integration.
 
-### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
+### Error: This record isn't connected to Dynamics 365. Repin the tab and try again.
 
 This error is displayed in the following scenarios:
 
-- When the Dynamics 365 entity that you are trying to pin is not enabled for SharePoint document management. For example, if you are trying to pin an appointment record in Teams but the Appointment entity is not enabled for SharePoint. In this case, [Enable SharePoint document management for that entity](/power-platform/admin/enable-sharepoint-document-management-specific-entities).
+- When the Dynamics 365 entity that you're trying to pin isn't enabled for SharePoint document management. For example, if you're trying to pin an appointment record in Teams but the Appointment entity isn't enabled for SharePoint. In this case, [Enable SharePoint document management for that entity](/power-platform/admin/enable-sharepoint-document-management-specific-entities).
 
-- When the file synchronization is not set up between Teams and customer engagement apps  in Dynamics 365. In this case, [Set up apps in Dynamics 365 to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- When the file synchronization isn't set up between Teams and customer engagement apps  in Dynamics 365. In this case, [Set up apps in Dynamics 365 to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 - When the file synchronization has failed between Teams and customer engagement apps in Dynamics 365. In this case, repin the **Dynamics 365** tab.
  
@@ -172,12 +166,12 @@ This error is displayed in the following scenarios:
 ## Error messages in customer engagement apps in Dynamics 365 
 
 
-### Error: File sharing is not set up. Go to [URL] to connect a Microsoft Teams channel to this record.
+### Error: File sharing isn't set up. Go to [URL] to connect a Microsoft Teams channel to this record.
 
 > [!div class="mx-imgBorder"] 
 > ![File sharing is not set up.](media/teams-error-file-sharing.png "File sharing is not set up")
 
-This record has not been connected to a Microsoft Teams channel. Select the URL to go to the Dynamics 365 Microsoft Teams app and pin the record to a channel as documented in [Collaborate with Microsoft Teams](teams-collaboration.md).
+This record hasn't been connected to a Microsoft Teams channel. Select the URL to go to the Dynamics 365 Microsoft Teams app and pin the record to a channel as documented in [Collaborate with Microsoft Teams](teams-collaboration.md).
 
 
 ### Error: You don't have permissions to view files in this location. Contact your Microsoft Teams owner or SharePoint administrator for access.
@@ -206,7 +200,7 @@ You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 
-You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as Power BI, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
+You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as Power BI, Power Automate, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
 
 To work around this issue, open Teams on the web and close the desktop version. 
 
@@ -220,7 +214,7 @@ A user may get this error when they try to connect a record or a view to a team 
 
 To work around this issue, your tenant admin will need to remove this policy from Azure portal.
 
-### Error while creating a team or channel. The displayName cannot contain the blocked word 'blocked' as per company policy.
+### Error while creating a team or channel. The displayName can't contain the blocked word 'blocked' as per company policy.
 
 A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in a customer engagement app in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure portal.
 
@@ -229,15 +223,15 @@ To work around this issue, your tenant admin will need to remove this policy fro
 
 ### Error: Blocked a frame with origin from accessing a cross-origin frame
 
-A few pages in customer engagement apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `window.top` which is not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagement app page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `window.top` represents top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which lead to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
+A few pages in customer engagement apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `window.top` which isn't supported to load within Microsoft Teams. When this page is opened without any iframe, it works fine as top most window’s context is customer engagement app page, and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's loaded inside an iframe where `window.top` represents top most window context, which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties, which lead to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you'll get this error.
 
 To work around this, open the page in your customer engagement app and not in Microsoft Teams.
 
-If the page which is showing the error message, contains a custom resource (JavaScript, custom control etc.), please ensure `window` is not used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
+If the page, which is showing the error message, contains a custom resource (JavaScript, custom control etc.), ensure `window` isn't used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
 
 ### Documents can be accessed in your customer engagement app using the Documents tab in an entity record even after user has left the team.
 
-Whenever a member leaves the team where an entity record was pinned, the **Files** tab in Microsoft Teams which shows the documents shared in the team won’t be visible anymore as the user would lose access to the team. However, the user can still go to the customer engagement app in Dynamics 365 and access the record that was pinned in the team and can access files in the **Documents** tab in the **Related** section.
+Whenever a member leaves the team where an entity record was pinned, the **Files** tab in Microsoft Teams, which shows the documents shared in the team won’t be visible anymore as the user would lose access to the team. However, the user can still go to the customer engagement app in Dynamics 365 and access the record that was pinned in the team and can access files in the **Documents** tab in the **Related** section.
 
 To disable the user from accessing to the documents in the record from the customer engagement app, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
 

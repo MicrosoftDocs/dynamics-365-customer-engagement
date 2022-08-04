@@ -2,7 +2,7 @@
 title: "Self-hosted custom event website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality for self-hosted custom event websites in Dynamics 365 Marketing."
 ms.date: 09/16/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

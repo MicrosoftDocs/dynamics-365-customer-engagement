@@ -1,7 +1,7 @@
 ---
 title: "Schedule anything in Dynamics 365 with Universal Resource Scheduling | MicrosoftDocs"
 ms.date: 09/30/2017
-ms.service: dynamics-365-customerservice
+
 ms.topic: get-started-article
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 author: FieldServiceDave
@@ -22,7 +22,6 @@ search.app:
   - D365CE
   - D365PS
   - D365FS
-ms.technology: common-scheduler
 searchScope: 
   - Customer Service
   - Field Service

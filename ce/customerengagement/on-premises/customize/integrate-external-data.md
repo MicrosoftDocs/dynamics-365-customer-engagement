@@ -4,7 +4,7 @@ description: "Use this section to learn how to integrate data into Dynamics 365 
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

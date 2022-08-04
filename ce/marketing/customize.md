@@ -2,7 +2,7 @@
 title: "Customize Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to customize lists, forms, workflows, business processes, validations, and more in Dynamics 365 Marketing."
 ms.date: 02/25/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-cust
   - dyn365-marketing

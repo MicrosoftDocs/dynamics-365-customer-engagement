@@ -1,7 +1,7 @@
 ---
 title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
 description: "Understand how to create and manage the routing rules in the Omnichannel Administration app"
-ms.date: 04/09/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,11 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+>
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+
+## Introduction
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 
@@ -59,7 +63,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)
+[Understand and create workstreams](create-workstreams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
 

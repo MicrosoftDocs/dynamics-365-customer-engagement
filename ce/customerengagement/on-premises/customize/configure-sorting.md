@@ -4,7 +4,7 @@ description: "When creating or editing a view, select Configure Sorting to sort 
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

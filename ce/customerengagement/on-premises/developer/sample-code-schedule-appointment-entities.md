@@ -4,10 +4,10 @@ description: "Section contains the code examples that show how to use the schedu
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,7 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample code for schedule and appointment Entities
 

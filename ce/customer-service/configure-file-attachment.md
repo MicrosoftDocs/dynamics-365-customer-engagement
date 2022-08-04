@@ -1,15 +1,19 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 08/25/2020
+ms.date: 02/25/2022
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Configure file attachment capability 
+# Configure file attachment capability
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
 

@@ -4,13 +4,11 @@ description: "Learn about the requestFocus API of app profile manager in Custome
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: requestFocus (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# requestFocus (app profile manager)
 
 Shows a notification indicator on a session if the session is not in focus.
 

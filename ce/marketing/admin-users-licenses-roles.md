@@ -1,8 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 08/04/2021
-ms.service: dynamics-365-marketing
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Manage user accounts, user licenses, and security roles
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
@@ -123,7 +124,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
     The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Power Apps portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
 
 - **To access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
-    The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
+    The [personalization feature](dynamic-email-content.md#personalization) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
 
 | Access level | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
 |-----------|--------------|------------------------------------------|
@@ -186,9 +187,9 @@ The surveys package adds the following security role:
 
 - Project Owner
 
-## Don't modify or remove Marketing service users
+## Don't modify or remove marketing service users
 
-Dynamics 365 Marketing includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
+Dynamics 365 Marketing includes a preconfigured user called **D365 Marketing**, which must have the following security roles:
 
 - EventManagement S2SInbound
 - LinkedIn LeadGen S2SInbound
@@ -201,9 +202,18 @@ The system uses this account when performing important internal tasks, and Marke
 
 After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
 
-One service user, **# DvDSUser**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
+| Real-time marketing service user | Marketing area |
+| ---- | ------- |
+| Customer Experience Platform PROD | All other areas not listed below |
+| Dynamics Marketing Dataverse Datasource  | Personalization of messages |
+| Dynamics Marketing Interactive Scenarios  | Handling flows triggered by organic users |
+| Dynamics Marketing Lifecycle Management | Lifecycle and provisioning scenarios |
+| Dynamics Marketing Native Segmentation | Segmentation |
+| Dynamics Marketing Workflow | Customer journey execution |
 
-**# DvDSUser** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
+One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
+
+**# Dynamics Marketing Dataverse Datasource** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
 
 ### See also
 

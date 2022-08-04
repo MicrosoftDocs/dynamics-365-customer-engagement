@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 09/28/2020
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -166,7 +166,7 @@ You must share the configured application with your entire organization for supe
 
 ### Step 6: Add Power BI Dashboards to Omnichannel for Customer Service
 
-Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
+Each supervisor must configure their Power Platform environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
 
 1. Sign in to the Omnichannel for Customer Service app.
 
@@ -248,12 +248,12 @@ Before customizing the template app, read the following information and perform 
 
 4. In the left dropwdown menu under Transformation Data, select **Edit Paramaters**.
 
-5. In the source definition, replace **https://kucustomerservice.crm.dynamics.com/api/data/v9.1** with your apps instance URL.
+5. In the source definition, replace `**https://kucustomerservice.crm.dynamics.com/api/data/v9.1**` with your apps instance URL.
 
     Example: if the organization name is Contoso, the URL looks like this:
-    Source = https://contoso.crm.dynamics.com/api/data/v9.1/
+    Source = `https://contoso.crm.dynamics.com/api/data/v9.1/`
     
-    For GCC users the format is: **https://yourserver.crm9.dynamics.com/api/data/v9.1**
+    For GCC users the format is: `**https://yourserver.crm9.dynamics.com/api/data/v9.1**`
     
 7. Select **Done**.
 

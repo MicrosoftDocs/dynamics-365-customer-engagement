@@ -5,14 +5,12 @@ metadata:
   author: FieldServiceDave
   ms.reviewer: krbjoran
   ms.date: 09/07/2021
-  ms.topic: troubleshooting
-  ms.service: dynamics-365-field-service
+  ms.topic: faq
   ms.subservice: resource-scheduling-optimization
   ms.author: daclar
   search.app: 
     - D365CE
     - D365FS
-    
 title: FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service
 summary: |
 

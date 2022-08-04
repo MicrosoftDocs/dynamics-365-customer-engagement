@@ -2,7 +2,7 @@
 title: "Integrate Sales and Marketing apps (Dynamics 365 Marketing) | Microsoft Docs"
 description: "An overview of how Dynamics 365 Marketing can work together with Dynamics 365 Sales to help marketers and salespeople collaborate all the way from inquiry to close."
 ms.date: 10/21/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

@@ -1,8 +1,8 @@
 ---
-title: "openConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Includes information about openConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
+title: "openConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
+description: "Includes reference information about openConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 07/12/2021
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -26,7 +26,7 @@ This function can be used to open a conversation as a session programmatically.
 | lastsessionId    | String | Optional. Unique identifier for the last session ID in which conversation was opened.   |
 | liveworkstreamId | String | Optional. Unique identifier for the live workstream to which the conversation belongs. |
 
-## Return Value
+## Return value
 
 Returns a resolved or rejected promise based on the outcome of the operation. 
 
@@ -42,7 +42,12 @@ Microsoft.Omnichannel.openConversation("051a340d-c821-42be-8c43-dfb42c4da821", "
  
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[Live chat SDK reference](../../omnichannel-reference.md)
+[Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)
+[getConversationId](getConversationId.md)  
+[linkToConversation](linkToConversation.md)  
+[unlinkFromConversation](unlinkFromConversation.md)  
+[getConversations](getConversations.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

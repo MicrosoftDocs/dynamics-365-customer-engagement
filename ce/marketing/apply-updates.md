@@ -2,7 +2,7 @@
 title: "Find and apply updates to core and shared solutions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out when an update for one or more Dynamics 365 Marketing solutions is available and apply the update."
 ms.date: 04/12/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

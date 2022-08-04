@@ -4,7 +4,7 @@ description: "Office Graph integration for Dynamics 365 Customer Engagement apps
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,8 +4,7 @@ metadata:
   description: Find answers to frequently asked questions for Dynamics 365 Field Service
   ms.date: 07/06/2020
   ms.reviewer: krbjoran
-  ms.service: dynamics-365-field-service
-  ms.topic: article
+  ms.topic: faq
   applies_to: 
     - "Dynamics 365 (online)"
     - "Dynamics 365 Version 9.x"
@@ -15,7 +14,6 @@ metadata:
   search.app: 
     - D365CE
     - D365FS
-    
 title: Frequently asked questions for Dynamics 365 Field Service - General
 summary: |
   > [!Note]
@@ -57,10 +55,7 @@ sections:
       - question: |
           Why are there work orders with duplicate work order numbers?
         answer: |
-          This issue is known and was fixed in Field Service version **8.6.0.274+**, which lets you apply the Dynamics 365 auto numbering system to the work order entity. Be sure to:
-          
-          1. Opt in to the **Auto Numbering** function in **Field Service Settings**.
-          2. Manage it in **Dynamics Settings** > **Administration** > **Auto-Numbering**.
+          This issue occurs when generating a large number of work orders in parallel. As of Field Service version **8.6.0.274+**, you can prevent this from occuring if you opt in to the **Auto Numbering** function in **Field Service Settings**.
           
       - question: |
           Why can't cascade crew changes be disabled for a booking scheduled to a crew or group
@@ -159,9 +154,12 @@ sections:
           5.  Find any relationships where the **Type of Behavior** is *Referential, Restrict Delete*.
           6.  Take note of the related entity for each of those relationships; these are the type of records that may be restricting your ability to delete the record.
 
+      - question: |
+          Where are the **Date Windows Start** and **Date Window End** fields? 
+        answer: |
+          As of the 2021 Wave 2 October update, the **Date Window Start** and **Date Window End** fields have been removed to simplify the experience. Use the **Time From Promised** and **Time To Promised** fields to manage time expectations for when service should be performed. To revert this change, see the **Pre/Post Booking Flexibility Date Field Population** setting in the [Agreements section of Field Service settings](/dynamics365/field-service/configure-default-settings#agreement).  
+
+
                     
           [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
           

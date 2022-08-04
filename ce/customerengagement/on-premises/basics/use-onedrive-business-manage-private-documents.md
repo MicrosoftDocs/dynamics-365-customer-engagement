@@ -3,7 +3,7 @@ title: "Manage OneDrive for Business private documents in Dynamics 365 Customer 
 description: "Store your private documents using OneDrive for Business. Learn how to view existing documents, create new ones, and change your folder settings."
 keywords: documents, store, OneDrive, Business
 ms.date: 05/05/2020
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

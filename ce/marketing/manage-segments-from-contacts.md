@@ -2,7 +2,7 @@
 title: "Add or remove a displayed contact to/from a segment (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add or remove a displayed contact to or from a segment in Dynamics 365 Marketing."
 ms.date: 04/01/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

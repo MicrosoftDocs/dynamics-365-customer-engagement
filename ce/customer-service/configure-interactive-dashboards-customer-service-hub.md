@@ -1,7 +1,7 @@
 ---
 title: "Customize interactive dashboards that are based on Unified Interface | Microsoft Docs"
 description: "Know how to configure interactive dashboards in Dynamics 365 Customer Service."
-ms.date: 03/15/2018
+ms.date: 03/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,8 +21,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Customize interactive dashboards that are based on Unified Interface
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
 ## Dashboards overview
 
 Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. 
@@ -34,36 +32,36 @@ For more information about dashboards, see [Use interactive dashboards to effect
 > [!NOTE]
 > The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
   
-The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
+The illustrations in this article show multistream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
 
 The interactive dashboards come in two flavors:
 
-- Multi-stream dashboards
+- Multistream dashboards
 - Single-stream dashboards
   
-### Multi-stream dashboard standard view  
+### Multistream dashboard standard view  
 
-In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
+In the multistream dashboard, you see a row of visual filters at the top with the data streams below them.
   
- ![Multistream interactive dashboard.](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
+ ![Multistream interactive dashboard.](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multistream interactive dashboard")  
   
-### Multi-stream dashboard tile view
+### Multistream dashboard tile view
 
- Multi-stream dashboard in tile view:  
+ Multistream dashboard in tile view.
   
  ![Multistream dashboard tile view.](../customer-service/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
   
-### Multi-stream dashboard layouts
+### Multistream dashboard layouts
 
- For multi-stream dashboards, you can choose from four different layouts.  
+ For multistream dashboards, you can choose from four different layouts.  
   
  ![Multistream dashboard layouts.](../customer-service/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
-### Multi-stream entity-specific dashboard
+### Multistream entity-specific dashboard
 
  The entity-specific dashboard for the **Case** entity is shown here.  
   
-![Multistream cases dashboard.](../customer-service/media/interactive-dashboard-cases-entity-specific.png "Multi-stream cases dashboard")
+![Multistream cases dashboard.](../customer-service/media/interactive-dashboard-cases-entity-specific.png "Multistream cases dashboard")
   
 ### Single-stream dashboard
 
@@ -165,7 +163,7 @@ Select and enable security roles that will be able to view the interactive dashb
 
 The following sections describe how to configure various types of interactive dashboards.  
   
-### Configure a multi-stream interactive dashboard using the 4-column layout
+### Configure a multistream interactive dashboard using the 4-column layout
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -200,7 +198,7 @@ The following sections describe how to configure various types of interactive da
    Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
   
 > [!NOTE]
->  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.
+>  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multientity charts, you must add fields of a related entity to any of the views, and then use these fields while creating charts.
  
 ![Creating charts for visual filters.](media/interactive-dashboard-visual-charts-x-y-axes.png "Creating charts for visual filters") 
 
@@ -244,8 +242,9 @@ Follow the steps given below to edit individual streams of an existing dashboard
   
    You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
   
-### Configure an entity-specific dashboard  
- An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences.
+### Configure an entity-specific dashboard
+
+An entity-specific dashboard is a multistream dashboard. Configuring this dashboard is similar to configuring a home page multistream dashboard, but you do it in the different place in the UI and there are other minor differences.
 
 For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
   
@@ -261,16 +260,29 @@ For example, instead of selecting an entity, some fields in the entity-specific 
   
 6. When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
-The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
+The rest of the setup is very similar to the home page multistream dashboard setup described in the previous section.  
   
 ### Configure a single-stream dashboard
 
-Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. 
+Configuring a single-stream dashboard is similar to the multistream dashboard. All UI navigation steps are the same as for the multistream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles.
 
 If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
 ![addtile.](media/add-tile.png "Add tile")
-  
+
+### Publish the dashboard to the app
+
+1.	In your Dynamics 365 instance, go to **Customize the System**.
+
+1.	In **Components**, select **Model-driven Apps**.
+
+1.	Double-click the app that you want to edit.
+
+1.	In the right pane of the **App Designer** window, select the dashboard to add.
+
+1.	Save and publish.
+
+
 ## Configure dashboard colors  
 
 For all **Option Set** and **Two Options** type fields, such as the **Case Type**, **IsEscalated** or **Priority** of the **Case** entity, you can configure a particular color that will appear in the charts and streams for specific field values. For example, high priority cases can be shown in red, medium priority cases in blue, and low priority cases in green in the interactive charts. In the streams, there will be a thin vertical line in color next to the work item description.  

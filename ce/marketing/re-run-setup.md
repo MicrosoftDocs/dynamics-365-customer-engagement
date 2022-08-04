@@ -2,7 +2,7 @@
 title: "Re-run the setup wizard (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard so you can update, uninstall, or modify an existing Dynamics 365 Marketing environment."
 ms.date: 09/19/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

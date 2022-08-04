@@ -4,7 +4,7 @@ description: "Follow these steps to import a new solution or update an existing 
 ms.custom: 
 ms.date: 07/11/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

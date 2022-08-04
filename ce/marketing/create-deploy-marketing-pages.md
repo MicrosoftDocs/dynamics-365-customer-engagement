@@ -1,8 +1,7 @@
 ---
 title: "Design, check, and publish marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing."
-ms.date: 09/22/2020
-ms.service: dynamics-365-marketing
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,12 +19,14 @@ search.app:
 
 # Create and deploy marketing pages
 
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
+
 A marketing page is a webpage that includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by Dynamics 365 Marketing and applied immediately to your customer database.
 
 Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other Dynamics 365 Marketing features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
 
 > [!IMPORTANT]
-> The marketing-page feature described in this topic requires that you have a Power Apps portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required). For details about how to create landing pages without using a portal (or in addition to the portal), see [Integrate with landing pages on external websites](embed-forms.md).
+> The marketing-page feature described in this topic requires that you have a Power Apps portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required).
 > 
 > Note, however, that a simple default subscription center *is* available even if you don't have a portal. This page is hosted by your Dynamics 365 Marketing server and can be customized using the features described in this topic. More information: [The default subscription center](set-up-subscription-center.md#default-center).
 
@@ -128,7 +129,7 @@ More information: [Go live with publishable entities and track their status](go-
 
 ## Integrate landing pages with other marketing initiatives
 
-To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the [assist edit](dynamic-email-content.md#assist-edit) feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. More information: [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
+To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the [assist edit](dynamic-email-content.md#personalization) feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. More information: [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
 
 You can create customer journeys that include triggers that react to marketing page submissions, so that contacts who submit the page are treated differently from those who don't. To do this, include a marketing page tile in your journey design and then place a trigger that references that tile and specifies logic for how to react to it. To trigger on a marketing page linked to in a marketing-email message, add an email tile for the message and then add a marketing page tile as a child tile of that message. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 

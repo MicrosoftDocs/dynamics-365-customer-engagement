@@ -3,16 +3,14 @@ title: "System requirements, limits, and configuration values for Dynamics 365 A
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
 ms.date: 05/20/2021
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -26,6 +24,8 @@ search.app:
 
 
 This topic contains requirements, limits, and configuration values for Dynamics 365 App for Outlook
+
+[!IMPORTANT] Following the end of support for Internet Explorer 11, Dynamics 365 App for Outlook will not work on versions of Microsoft Outlook that uses IE WebView, when Internet Explorer 11 is removed from the operating system. 
 
 
 ## Email

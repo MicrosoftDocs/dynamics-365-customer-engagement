@@ -3,7 +3,7 @@ title: "Set grid properties for Unified Interface apps in Dynamics 365 Customer 
 description: "As an app maker working with a Unified Interface app, you can configure the Read Only Grid control and its properties for custom grids and lists."
 keywords: 
 ms.date: 01/09/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

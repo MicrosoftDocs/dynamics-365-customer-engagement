@@ -4,7 +4,7 @@ description: "Add a timer control to forms where records need to meet time-based
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

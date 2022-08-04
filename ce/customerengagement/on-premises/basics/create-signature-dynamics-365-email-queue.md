@@ -4,7 +4,7 @@ description: "Learn how to create an email signature to save time and be consist
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

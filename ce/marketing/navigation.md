@@ -2,7 +2,7 @@
 title: "Navigate and use common features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How do get around and work with common user interface elements in Dynamics 365 Marketing."
 ms.date: 03/24/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -24,9 +24,9 @@ This introduction to Dynamics 365 Marketing explains how to find and open the ap
 
 ## A fully responsive app built on the new Unified Interface
 
-Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
+Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
 
-Many Dynamics 365 applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+Many Dynamics 365 applications support both the new Unified Interface and the older legacy web client interface, but nearly all are moving to Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a legacy web client app from time to time, but soon all features are expected to be available on Unified Interface.
 
 > [!NOTE]
 > Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.

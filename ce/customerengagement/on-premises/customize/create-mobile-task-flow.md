@@ -4,7 +4,7 @@ description: "Learn how to design a mobile task flow for common tasks your users
 ms.custom: 
 ms.date: 08/19/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

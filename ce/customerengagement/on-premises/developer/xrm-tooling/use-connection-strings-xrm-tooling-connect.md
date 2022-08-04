@@ -4,7 +4,7 @@ description: "XRM tooling enables you to connect to your Dynamics 365 Customer E
 ms.custom: 
 ms.date: 10/04/2019
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -135,7 +135,7 @@ Create a new connection using the current logged in user via oAuth.
 
 > [!NOTE]
 > OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using a interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor authentication.
-> To learn more about the `Integrated Security` parameter, see the topic [here](https://docs.microsoft.com/dotnet/framework/data/adonet/connection-string-syntax#windows-authentication).
+> To learn more about the `Integrated Security` parameter, see the topic [here](/dotnet/framework/data/adonet/connection-string-syntax#windows-authentication).
 
 
 ```xml

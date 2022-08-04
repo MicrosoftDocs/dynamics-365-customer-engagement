@@ -4,7 +4,7 @@ description: "Learn about the four types of processes—business process flows, 
 ms.custom: 
 ms.date: 01/23/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

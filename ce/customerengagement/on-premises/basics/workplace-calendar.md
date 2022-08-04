@@ -4,7 +4,7 @@ description: "Use the calendar to view your appointments and activities. Follow 
 ms.custom: 
 ms.date: 09/15/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

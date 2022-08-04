@@ -1,7 +1,7 @@
 ---
 title: "AppSource for Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about using AppSource for Dynamics 365 Field Service.
-ms.service: dynamics-365-field-service
+
 ms.date: 9/20/2018
 ms.author: daclar 
 ms.topic: article

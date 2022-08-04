@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing."
-ms.date: 12/16/2020
+ms.date: 02/15/2022
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -168,24 +168,22 @@ To ensure that you always have the correct IP addresses, you should refer to the
 The follow code snippet is an example section from the IP ranges document. The subnets are listed in this section of the JSON file:
 
 ```
-      "name": "Dynamics365ForMarketingEmail",
-      "id": "Dynamics365ForMarketingEmail",
-      "properties": {
-        "changeNumber": 1,
-        "region": "",
-        "platform": "Azure",
-        "systemService": "Dynamics365ForMarketingEmail",
-        "addressPrefixes": [
+"name": "Dynamics365ForMarketingEmail",
+"id": "Dynamics365ForMarketingEmail",
+"properties": {
+    "changeNumber": 1,
+    "region": "",
+    "platform": "Azure",
+    "systemService": "Dynamics365ForMarketingEmail",
+    "addressPrefixes": [
           "x.x.x.x/25",
           "x.x.x.x/25",
           ...
           "x.x.x.x/24",
           "x.x.x.x/24"
-        ]
-      }
-    }
+    ]
+}
 ```
-
 ### See also
 
 [Create a marketing email and go live](create-marketing-email.md)  

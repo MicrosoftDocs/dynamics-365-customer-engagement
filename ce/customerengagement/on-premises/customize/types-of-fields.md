@@ -3,7 +3,7 @@ title: "Types of fields and field data in Dynamics 365 Customer Engagement (on-p
 description: "Learn about the difference between simple, calculated, and rollup fields. Field data can include lines of text, currency, dates and times, images and more."
 keywords: 
 ms.date: 04/29/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -146,7 +146,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
   When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
   > [!NOTE]
-> In the Unified Interface the currency format for a negative value is set by the user settings and does not use the system setting.
+> In Unified Interface, the currency format for a negative value is set by the user settings and does not use the system setting.
 
 |Option|Description|  
 |------------|-----------------|  
@@ -172,16 +172,30 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 ### Image fields  
  Use image fields to display a single image per record in the application. Each entity can have one image field. You can add an image field to custom entities but not to system entities. The following system entities have an image field. Those marked with an asterisk are enabled by default.  
 
-||||  
-|-|-|-|  
-|Account *|Article|Campaign|  
-|Case|Competitor *|Connection|  
-|Contact *|Contract|Currency|  
-|Email Server Profile|Goal|Invoice|  
-|Lead *|Mailbox|Opportunity Product|  
-|Order|Organization|Product *|  
-|Publisher *|Queue|Resource *|  
-|Sales Literature|Territory|User*|  
+- Account *
+- Article
+- Campaign
+- Case
+- Competitor *
+- Connection  
+- Contact *
+- Contract
+- Currency
+- Email Server Profile
+- Goal
+- Invoice|  
+- Lead *
+- Mailbox
+- Opportunity Product|  
+- Order
+- Organization
+- Product *|  
+- Publisher *
+- Queue
+- Resource *|  
+- Sales Literature
+- Territory
+- User*
 
  Even though an entity has an image field, displaying that image in the application requires an additional step. In the entity definition the **Primary Image** field values are either **[None]** or **Entity Image**. Select **Entity Image** to display the image in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing entities](../customize/create-edit-entities.md)  
 

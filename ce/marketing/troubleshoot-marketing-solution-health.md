@@ -2,7 +2,7 @@
 title: "Troubleshoot issues with Solution Health Hub for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub."
 ms.date: 04/17/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

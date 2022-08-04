@@ -2,7 +2,7 @@
 title: "Landing page configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records in Dynamics 365 Marketing."
 ms.date: 03/23/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

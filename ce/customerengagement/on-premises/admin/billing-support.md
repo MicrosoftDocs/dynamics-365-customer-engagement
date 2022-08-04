@@ -4,10 +4,10 @@ description: "Get an overview of Dynamics 365 Support, including information on 
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -53,7 +53,7 @@ For most countries or regions, business hours are from 9 AM to 5 PM weekdays (we
 
 Yes, you need a support plan to receive one-on-one technical support. Some Dynamics 365 Online subscriptions include subscription support plans. You can find more information about the existing support plans at [Dynamics 365 Support Plans](https://dynamics.microsoft.com/support/plans/). The following table outlines the best way to submit a new support request based on your product or service and customer support plan. Microsoft partners should use the [Partner Center portal](https://partner.microsoft.com/support) or the Premier support path listed in the table, as applicable.
 
-<table style="width:100%">
+<table>
   <tr>
     <th>Subscription (included)</th>
     <th>Professional Direct</th>

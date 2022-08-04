@@ -4,7 +4,7 @@ description: "For a more touch-friendly experience on Dynamics 365 for phones an
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

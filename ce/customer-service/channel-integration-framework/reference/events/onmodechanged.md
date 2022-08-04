@@ -1,6 +1,6 @@
 ---
-title: "onmodechanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: ""
+title: "onModeChanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Learn about the onModeChanged event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,11 +13,12 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onmodechanged event (CIF JavaScript API reference)
+# onModeChanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onmodechanged](../../shared/token-onmodechanged.md)]
 
-## Related topics
+### See also
+
 
 [setMode](../microsoft-ciframework/setMode.md)
 

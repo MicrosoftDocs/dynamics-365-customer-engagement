@@ -4,7 +4,7 @@ description: "If an entity is customizable, you can set its managed properties t
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

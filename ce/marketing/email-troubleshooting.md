@@ -2,7 +2,7 @@
 title: "Troubleshoot email issues (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to troubleshoot issues with email in Dynamics 365 Marketing."
 ms.date: 01/12/2021
-ms.service: dynamics-365-marketing
+
 ms.custom:
   - dyn365-admin
   - dyn365-marketing

@@ -13,4 +13,4 @@
 
 **Type:** Boolean
 
-**Description:** Returns Promise object with the value. True if the **ClickToAct** is enabled; false otherwise.
+**Description:** Returns Promise object with the value. True if **ClickToAct** is enabled; false otherwise.

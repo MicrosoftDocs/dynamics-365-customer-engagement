@@ -3,7 +3,7 @@ title: "Create site map for an app with Dynamics 365 Customer Engagement (on-pre
 description: "Site maps define the navigation for your app. Learn how to use the site map designer, preview your work, and instantly publish your site map."
 keywords: 
 ms.date: 11/28/2018
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

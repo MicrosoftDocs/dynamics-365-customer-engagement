@@ -2,7 +2,7 @@
 title: "Email sending data access and privileges (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to access email sending data in Dynamics 365 Marketing."
 ms.date: 07/29/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

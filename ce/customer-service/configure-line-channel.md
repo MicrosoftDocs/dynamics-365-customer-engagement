@@ -1,7 +1,7 @@
 ---
 title: "Configure a LINE channel | MicrosoftDocs"
 description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 06/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,10 +16,13 @@ Many customers use social messaging channels like LINE for their personal commun
 
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
-  > [!NOTE]
-  > The LINE channel isn't available in the Government Community Cloud (GCC) region.
+> [!NOTE]
+> The LINE channel isn't available in the Government Community Cloud (GCC) region.
 
-**Prerequisites**: Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
+## Prerequisites
+
+Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
+
 > [!NOTE]
 > To enable the LINE channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](upgrade-omnichannel.md).
 
@@ -31,40 +34,67 @@ After completing the prerequisites, you can add the LINE channel for your organi
 1.	Create a LINE channel.
 2.	Create routing rules.
 
-## Create a LINE channel in Omnichannel admin center
+## Create a LINE channel
 
-1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
-2. Enter the following details:
+**To configure the LINE channel**
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+   
+    1. Select **New account**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **New account**.
+    
+1. Enter the following details:
+   
    1. On the **Channel details** page, enter a name and select **LINE** in **Channel**.
-   2. On the **Account details** page, enter the following details:
+   
+   1. On the **Account details** page, enter the following details:
       - **Channel ID:** ID of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel ID** box.
       - **Channel secret:** Application secret of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel secret** box.
       - **Channel access token:** Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** box.
-   3. On the **Callback information** page, copy the text in the **Callback URL** box. You'll use the copied information in the LINE account.
-   4. Select **Done**.
-3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
-4. Select the workstream that you've created for the LINE channel and on the workstream page, select **Set up LINE**, and configure the following options:
+   
+   1. On the **Callback information** page, copy the text in the **Callback URL** box. You'll use the copied information in the LINE account.
+   1. Select **Done**.
+1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+
+1. Select the workstream that you've created for the LINE channel and on the workstream page, select **Set up LINE**, and configure the following options:
    1. On the **LINE** page, select an account from **Available LINE accounts**.
-   2. On the **Language** page, select a language.
-   3. On the **Behaviors** page, configure the following options:
+   
+   1. On the **Language** page, select a language.
+   
+   1. On the **Behaviors** page, configure the following options:
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+   
+   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
       - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
-5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
-6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
-8. In **Advanced settings**, configure the following options based on your business needs:
+   1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
+
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
+
+1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+
+1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+
+1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
+#### Create a LINE channel in Omnichannel Administration
 
-## Create a LINE channel in Omnichannel Administration
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1.	Go to **Channels** > **LINE**.
 
@@ -86,18 +116,12 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
    To create a work stream, see [Create work streams](work-streams-introduction.md).
  
-   > [!div class=mx-imgBorder]
-   > ![LINE Callback information.](media/line-callback-information.png "LINE Callback URL")
-
 5. The Callback URL might take a few minutes to generate. Select **Refresh**.
 
 6. Go to the the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (make sure it's a Messaging API) > **Messaging API**. Copy the **Webhook URL** from Omnichannel for Customer Service, and then paste it into the **Webhook URL** field in the LINE developer console.
 
 7. Make sure that **Use webhook** is enabled in the LINE app dashboard.
  
-   > [!div class=mx-imgBorder]
-   > ![LINE callback information.](media/line-create-new-channel-2.png "LINE callback information")
-
    > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
 8. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
@@ -108,7 +132,7 @@ The LINE channel setup is complete.
 > [!NOTE]
 > You can only add one **LINE account** per **LINE Application** channel.
 
-## Modify settings for a specific LINE account
+#### Modify settings for a specific LINE account
 
 1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
 
@@ -131,7 +155,7 @@ The LINE channel setup is complete.
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 
-## Create routing rules
+#### Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 
@@ -139,8 +163,6 @@ The LINE channel setup is complete.
 
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **LINE Engagement Context**. For example, you can create a rule to transfer LINE chat from a customer named LINE to the default queue.
 
-> [!div class=mx-imgBorder]
-> ![LINE routing rule creation.](media/line-create-routing-rule.png "Create LINE routing rule")
 
 ## Customer and agent experiences
 
@@ -160,17 +182,17 @@ If the customer isn't identified by name, a new contact record can be created.
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0).
+By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](create-workstreams.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
