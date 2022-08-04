@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 06/16/2022
+ms.date: 08/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -64,24 +64,6 @@ In Customer Service admin center or Omnichannel admin center, select the Power V
 > [!NOTE]
 > Bots can receive conversations only if they're added to push-based workstreams.
 
-## Configure your Power Virtual Agents bot in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-In Omnichannel Administration, after the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup.
-
-1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
-
-2. Assign the bot to an existing queue.
-
-    ![Virtual Agent bot select queue.](media/virtual-agent-bot-select-queues.png)
-
-3. Select **Done**. Now you're on the bot profile page and you can see that your bot is connected.
-
-    ![Virtual Agent bot profile page.](media/virtual-agent-bot-profile.png)
-
-    Your bot is ready to accept and respond to customer-initiated conversations.
-
 ## Set escalation rules
 
 You can set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
@@ -89,38 +71,6 @@ You can set escalation rules so the bot can route the queries to the appropriate
 - **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
 
 - **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries. More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
-
-### Create a bot queue and a human agent queue
-
-1. Select or create a workstream. More information: [Understand and create workstreams](create-workstreams.md)
-
-![Virtual Agent workstreams.](media/virtual-agent-work-streams.png)
-
-2. Create context variables.
-
-You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. More information: [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off)
-
-   > [!div class=mx-imgBorder]
-   > ![Virtual Agent workstream context variable.](media/virtual-agent-work-stream-context-variables.png "Virtual Agent workstream context variable")
-
-3. Create a routing rule for the human agent and add it to the workstream.
-
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent workstream routing rules.](media/virtual-agent-work-stream-routing-rule.png "Virtual Agent workstream routing rules")
-
-4. Create a routing rule for the virtual agent and add it to the workstream.
-
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent workstream bot routing rules.](media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent workstream bot routing rules")
-
-Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
-
-Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
-
-Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. More information: [Create and manage routing rules](routing-rules.md)
-
-> [!NOTE]
-> When you run a report on Power Virtual Agents activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
 ## Enable a human agent to transfer a conversation back to a bot
 
@@ -186,7 +136,7 @@ In Power Virtual Agents, do the following:
 6. Edit **Save response as**, and in the **Variable Properties** dialog, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected. The **External sources can set values** option is applicable only for getting the context variable.
     > ![Configure context variable in a topic.](media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
-8. Save and publish the changes.
+7. Save and publish the changes.
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
 
@@ -213,22 +163,31 @@ This conversation will then appear in the **Closed** state in the Omnichannel fo
 
 You must configure the Power Virtual Agents web app bot to end a conversation. See [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
 
-When a customer closes the chat window, for the bot to end the conversation in Omnichannel for Customer Service, you must also configure a context variable that explicitly ends the conversation. To configure ending a bot conversation, perform the following steps:
+When a customer closes the chat window, for the bot to end the conversation in Omnichannel for Customer Service, you must also configure a context variable that explicitly ends the conversation.
+
+To configure a bot conversation to end, perform the following steps:
 
 1. In Power Virtual Agents, for the selected bot, configure a new topic.
-2. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
-3. On the Power Automate window that opens on a new tab, do the following:
+
+1. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
+
+1. On the Power Automate window that opens on a new tab, do the following:
    1. In the **Return value(s) to Power Virtual Agents** box, select **Add an output**, and then select **Yes/No**.
    2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
    4. Save the changes, and then exit Power Automate.
-4. In the topic that you were editing, select **Call an action** again, and then in the list, select the flow that you created. 
-5.  In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
-        > ![Configure end-conversation topic.](media/end-bot-conversation.png "Configure end-conversation topic")
-6. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
-7. Select the topic that you created for ending the bot conversation.
-8. Save and publish the changes.
 
+1. In the topic that you were editing, select **Call an action** again, and then in the list, select the flow that you created. 
+
+1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
+
+    :::image type="content" source="media/end-bot-conversation.png" alt-text="Configure end conversation topic in Power Virtual Agents.":::
+
+1. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
+
+1. Select the topic that you created for ending the bot conversation.
+
+1. Save and publish the changes.
 
 ## Privacy notice
 
@@ -237,6 +196,41 @@ You understand that your data may be transmitted and shared with external system
 ### Troubleshoot issues for bots
 
 [How to end a bot conversation in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md#pvaendconv)
+
+#### Configure your Power Virtual Agents bot in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+In Omnichannel Administration, after the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup.
+
+1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
+
+2. Assign the bot to an existing queue.
+
+3. Select **Done**. Now you're on the bot profile page and you can see that your bot is connected.
+
+    Your bot is ready to accept and respond to customer-initiated conversations.
+
+#### Create a bot queue and a human agent queue
+
+1. Select or create a workstream. More information: [Understand and create workstreams](create-workstreams.md)
+
+2. Create context variables.
+
+    You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. More information: [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off)
+
+3. Create a routing rule for the human agent and add it to the workstream.
+
+4. Create a routing rule for the virtual agent and add it to the workstream.
+
+Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
+
+Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
+
+Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
+
+> [!NOTE]
+> When you run a report on Power Virtual Agents activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
 ### Videos
 
