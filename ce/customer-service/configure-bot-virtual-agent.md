@@ -211,9 +211,9 @@ This conversation will then appear in the **Closed** state in the Omnichannel fo
 
 ## End bot conversation
 
-To configure a Power Virtual Agents web app bot to end a conversation, see [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
+You must configure the Power Virtual Agents web app bot to end a conversation. See [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
 
-You must also configure a context variable that explicitly ends the bot conversation in Omnichannel for Customer Service after customers close the chat window. To configure ending a bot conversation, perform the following steps:
+When a customer closes the chat window, for the bot to end the conversation in Omnichannel for Customer Service, you must also configure a context variable that explicitly ends the conversation. To configure ending a bot conversation, perform the following steps:
 
 1. In Power Virtual Agents, for the selected bot, configure a new topic.
 2. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
