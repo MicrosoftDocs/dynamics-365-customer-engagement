@@ -64,17 +64,9 @@ In Customer Service admin center or Omnichannel admin center, select the Power V
 > [!NOTE]
 > Bots can receive conversations only if they're added to push-based workstreams.
 
-## Set escalation rules
-
-You can set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
-
-- **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
-
-- **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries. More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
-
 ## Enable a human agent to transfer a conversation back to a bot
 
-The previous section explained how to configure a single conversation transfer from a Power Virtual Agents bot to a human agent. Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This second transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks, or to collect additional data, as in a customer survey.
+Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks, or to collect additional data, as in a customer survey.
 
 You can facilitate the transfer of a conversation from a human agent back to a bot in the following ways:
 
@@ -231,6 +223,14 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 > [!NOTE]
 > When you run a report on Power Virtual Agents activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
+
+#### Set escalation rules
+
+You can set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
+
+- **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
+
+- **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries. More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
 
 ### Videos
 
