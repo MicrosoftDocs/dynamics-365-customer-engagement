@@ -4,10 +4,10 @@ decription: The sample code demonstrates how to use ReleaseToQueueRequest to dis
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -21,7 +21,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Release a queue item to the queue (early bound)
 

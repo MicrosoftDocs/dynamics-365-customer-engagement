@@ -1,8 +1,8 @@
 ---
 title: "Select the audience source for real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to select the audience source for real-time journeys in Dynamics 365 Marketing."
-ms.date: 04/30/2021
-ms.service: dynamics-365-marketing
+ms.date: 08/02/2021
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -21,17 +21,12 @@ search.app:
 
 # Select the audience source for real-time journeys
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
 Audience configuration allows you to manage your audience data sources. Real-time marketing supports **Contact**, **Lead**, and **Customer profile** entities.
 
 To access the **Audience configuration settings**, go to **Settings** > **Customer engagement** > **Audience configuration**.
 
 > [!div class="mx-imgBorder"]
-> ![Audience configuration settings screenshot](media/real-time-marketing-audience-configuration.png "Audience configuration settings screenshot")
+> ![Audience configuration settings screenshot.](media/real-time-marketing-audience-configuration.png "Audience configuration settings screenshot")
 
 Contacts and Leads have default recipient fields set up for emails and phone numbers. The values from these fields are automatically populated in the *Send-to* field. You can modify the default settings by adding more recipient fields or changing the default field content.
 
@@ -42,7 +37,7 @@ Customer Profiles have no default fields set. You can choose which fields from a
 To make changes to the audience configuration, select a data source (**Contact**, **Lead**, or **Customer profile**) and review the information in the right pane.
 
 > [!div class="mx-imgBorder"]
-> ![Audience configuration edit pane screenshot](media/real-time-marketing-audience-edit.png "Audience configuration edit pane screenshot")
+> ![Audience configuration edit pane screenshot.](media/real-time-marketing-audience-edit.png "Audience configuration edit pane screenshot")
 
 You can change the default recipient or add more recipient fields. You can select any of the fields you added when adding an email or SMS tile to a customer journey.
 

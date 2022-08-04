@@ -4,7 +4,7 @@ description: "This topic describes best practices for developing with Dynamics 3
 ms.custom: 
 ms.date: 07/24/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -324,9 +324,8 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 
   For more information, see the following:  
 
-- [Overview of Web Application Security Threats](/previous-versions/f13d73y6(v=vs.140))  
-- [Download: Microsoft Anti-Cross Site Scripting Library V4.2](https://www.microsoft.com/download/details.aspx?id=28589)  
-- [ASP.NET Web Application Security](https://msdn.microsoft.com/library/330a99hc.aspx)  
+- [Overview of Web Application Security Threats](/previous-versions/f13d73y6(v=vs.140)  
+- [ASP.NET Web Application Security](/troubleshoot/developer/webapps/aspnet/development/security-overview)  
 - [Introduction to Web Application Security](https://msdn.microsoft.com/library/aa711426\(VS.71\).aspx)  
 
 <a name="ISV"></a>

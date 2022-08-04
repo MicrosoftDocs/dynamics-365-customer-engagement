@@ -44,7 +44,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
    The following image shows a typical agent script task definition.  
 
-   ![Sample agent script task](../unified-service-desk/media/usd-sample-agent-script-task.png "Sample agent script task")  
+   ![Sample agent script task.](../unified-service-desk/media/usd-sample-agent-script-task.png "Sample agent script task")  
 
 <a name="Answers"></a>   
 ## Add answers to an agent script task  
@@ -75,7 +75,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
    The following image shows a typical answer definition.  
 
-   ![Sample agent script answer](../unified-service-desk/media/usd-sample-agent-script-answer.png "Sample agent script answer")  
+   ![Sample agent script answer.](../unified-service-desk/media/usd-sample-agent-script-answer.png "Sample agent script answer")  
 
 <a name="ActionCallsAnswers"></a>   
 ## Add action calls to an answer  

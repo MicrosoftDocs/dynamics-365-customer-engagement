@@ -36,12 +36,12 @@ This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit
   
   The following illustration shows the [!INCLUDE[pn_hat](../includes/pn-hat.md)] architecture.  
   
-  ![Hosted Application Toolkit &#40;HAT&#41;  architecture](../unified-service-desk/media/usd-hat-architecture.png "Hosted Application Toolkit (HAT)  architecture")  
+  ![Hosted Application Toolkit &#40;HAT&#41;  architecture.](../unified-service-desk/media/usd-hat-architecture.png "Hosted Application Toolkit (HAT)  architecture")  
   
 ## Application startup process  
  The DDA uses bindings and easily identified control names to provide an application’s UI controls to automations. Automations use these names to manage the UI controls. Bindings are provided as part of the initialization string procedure during application startup. The Application Integration Framework extracts these bindings from the initialization string and provides them to the DDA. The following illustration shows the typical process that occurs when an application starts.  
   
- ![Application startup process](../unified-service-desk/media/usd-app-startup-process.png "Application startup process")  
+ ![Application startup process.](../unified-service-desk/media/usd-app-startup-process.png "Application startup process")  
   
 ### See also  
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   

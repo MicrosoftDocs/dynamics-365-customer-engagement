@@ -2,7 +2,7 @@
 title: "View and edit basic user information (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to view a list of users licensed to access Dynamics 365 Marketing, and how to view and edit basic user information."
 ms.date: 03/25/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -25,7 +25,7 @@ The Dynamics 365 Marketing application provides an overview of users licensed to
 
 To view a list of existing users:
 
-- Go to **Settings** ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") > **Advanced settings** at the top of the page.
+- Go to **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** at the top of the page.
 - A new window titled **Business management** will open. Go to **Settings** at the top of the new window, then **System** > **Security** > **Users**.
 
 The list provides standard tools to search, sort, and page through the list as needed. Select and open any user in the list to view and edit basic information about that user.

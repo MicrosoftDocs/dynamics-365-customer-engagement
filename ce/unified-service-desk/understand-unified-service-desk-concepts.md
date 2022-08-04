@@ -18,7 +18,7 @@ ms.custom:
 
 # Understand Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a configurable and extensible framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in Microsoft Dataverse instance and external applications. You can aggregate customer information from different areas in the model-driven apps and external applications into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agent immediate access to business-critical information so they can effectively engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What makes up Unified Service Desk](admin/overview-unified-service-desk.md#USD) and [Call center challenges and how Unified Service Desk can help](admin/call-center-challenges-how-unified-service-desk-can-help.md)
   
@@ -59,7 +59,7 @@ To change the **TotalRecordCountLimit** timeout value:
 
 7. Select **Save**.
 
-![Configure TotalRecordCountLimit](../unified-service-desk/unified-interface/media/total-record-count-limit.PNG "Configure TotalRecordCountLimit")
+![Configure TotalRecordCountLimit.](../unified-service-desk/unified-interface/media/total-record-count-limit.PNG "Configure TotalRecordCountLimit")
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md)
 

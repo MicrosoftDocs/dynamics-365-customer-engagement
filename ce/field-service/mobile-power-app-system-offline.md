@@ -1,17 +1,15 @@
 ---
-title: "Configure offline data for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Configure offline data for the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/02/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -96,7 +94,7 @@ A user or team can only be added to one offline profile one at a time. If a user
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
-## Step 3: Edit and publish the offline profile as needed
+## Step 3: Edit and publish the offline profile
 
 For each record type, you can choose a data download filter:
 
@@ -144,15 +142,20 @@ Sign into your mobile app, then go to **Settings** > **Offline Setting (globe ic
 
 If data is not downloading, try signing out and signing back in. If offline data is still not downloading, make sure the user you are signing into the mobile app as has been assigned to a **Published** mobile offline profile. 
 
+
 ## Understanding offline vs. online capabilities
 
-Once an offline profile is configured, the mobile app _always_ runs offline-first; both with and without internet connection. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
-
-When it comes to internet connectivity, the app functions within three scenarios.
+Once an offline profile is configured and user assigned, following the initial sync to download data, the mobile app will _always_ run offline-first. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection. 
 
 1.	**Online**: Occurs when there is internet but no offline profile is configured. The mobile app functions like using a Dynamics 365 app with internet on your PC. When internet is lost or diminished, the mobile app is unusable. Not recommended.
 2.	**Offline First _without_ internet connection**: Data is downloaded to the device and all changes are saved locally to your mobile device. When internet is restored, the changes are synced to the server.
-1. **Offline First _With_ internet connection**: Data is downloaded to the device and all changes are saved locally; but because there is internet connection, the user can manually sync to receive the latest data from the server like a new booking. The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
+3. **Offline First _with_ internet connection**: Data is downloaded to the device and all changes are saved locally; but because there is internet connection, the user can manually sync to receive the latest data from the server (like a new booking). The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
+
+In summary, an offline-first application will always read from the local device database and will only leverage an active internet connection during the synchronization process. This makes it important that your offline profile is configured to sync all data to the device that the frontline worker requires during their working hours.
+
+
+> [!Note]
+> After the offline-enabled user configures and signs into the app, the initial data sync will begin. During this time period, the app with run in online mode and changes will be updated on the server. After completing the offline sync, the app will be in offline-first mode and will read data from the local device database. During the time period of subsequent sync cycles, the app will not run as though in online mode.
 
 
 ## Sync intervals
@@ -197,16 +200,59 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 
 ### Should I make a copy of the offline profile?
 
-It is recommended to use the mobile offline profile included with Field Service and then make offline filter changes directly in the *Field Service Mobile - Offline Profile*. Using the default offline profile allows your offline profile to receive updates to unchanges entity sync filters. You can also copy the default *Field Service Mobile - Offline Profile*, and make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
+It is recommended to use the mobile offline profile included with Field Service and then make offline filter changes directly in the *Field Service Mobile - Offline Profile*. Using the default offline profile allows your offline profile to receive updates to unchanged entity sync filters. You can also copy the default *Field Service Mobile - Offline Profile*, and make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
+
+### What is the best practice when moving the mobile offline profile between environments?
+
+To control changes and keep your offline profiles in sync, your organization may require making changes to your mobile offline profile in one environment and the moving that profile into other environments. Best practice is to perform the following steps:
+
+1. Create a copy of the default **Field Service Mobile - Offline Profile**.
+2. Modify your copied profile as needed.
+3. Create a managed solution that includes the mobile offline profile.  
+   - In Dynamics 365, go to **Settings** > **Solutions** > **Create a new solution**. 
+   - Within the new solution, **Add Existing** > **Mobile Offline Profile**.
+4. Export the managed solution containing the mobile offline profile from the original environment.
+5. Import the managed solution into the new environment. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the adding Mobile Offline Profile to a solution.](./media/Solution_AddMOP.png)
+
+### Are WebResources supported in offline mode?
+
+Due to some current [limitations](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
+
+### How do I know when a sync is in progress?
+
+During regular use, a frontline worker will receive a notification during:
+
+- Initial sync going offline for the first time.
+- Manual refresh by selecting **Refresh** button on a grid.
+- Large incremental sync, such as if the app has been closed for multiple days (like over the weekend, for instance).
+
+These notifications will continue to display while the sync is in progress. The larger incremental sync will include an inline refresh button once complete to refresh the current view with latest data.
+
+The **Offline Status** page in the app, available from the sitemap, can also be viewed to see which tables have been synchronized and the last date and time of the sync. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service (D365) Sync Notifications.](./media/syncnotifications.png)
+
+Sync notifications are available from UCI Platform version 9.2.22033.00152+.
+
 
 ### Known limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: `Xrm.WebApi.online`.
-- [More platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
+- [Details on additional platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
+
+
+> [!Note]
+> As part of Wave 1, 2021, Power Platform is introducing new (preview) features for the mobile offline profile. These features include a new way to access the mobile offline profile from http://make.powerapps.com, improved error handling, and removing the need to manually add individual user access. For more information, see [mobile offline overview](/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
+
+
 
 ### See also
 

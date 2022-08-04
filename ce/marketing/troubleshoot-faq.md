@@ -1,8 +1,8 @@
 ---
 title: "Frequently asked questions for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about general FAQs for Dynamics 365 Marketing."
-ms.date: 02/17/2021
-ms.service: dynamics-365-marketing
+ms.date: 11/04/2021
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -40,12 +40,17 @@ Admins can use the [Help + support experience](/power-platform/admin/get-help-su
 1. Select **Help + support** > **New support request**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Help + support in the Power Platform admin center](media/troubleshoot-faq-support.png)
+    > ![Select Help + support in the Power Platform admin center.](media/troubleshoot-faq-support.png)
 
 1. Select **Dynamics 365 Customer Engagement** > **Marketing app**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Marketing app from the drop down](media/troubleshoot-faq-support-request.png)
+    > ![Select the Marketing app from the drop down.](media/troubleshoot-faq-support-request.png)
+
+## Where can I learn about known issues and limitations in the Marketing app?
+
+- To learn about known issues, check out [Known issues and workarounds](known-issues.md).
+- To learn about limitations, check out the [Fair use policy](fair-use-policy.md).
 
 ### See also
 

@@ -10,7 +10,7 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -29,7 +29,7 @@ monikerRange: '>= dynamics-usd-4.1'
      | Username | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
      | Password | The password associated with the username |  |
 
- ![login to Omnichannel for Customer Service](../media/oc-usd-login.png "Login to Omnichannel for Customer Service")  
+ ![login to Omnichannel for Customer Service.](../media/oc-usd-login.png "Login to Omnichannel for Customer Service")  
 
 3. If you have multiple organizations, select the organization you want to connect to.
 
@@ -40,10 +40,10 @@ You signed in to Unified Service Desk - Omnichannel for Customer Service applica
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
 
-## See also
+### See also
 
-- [Omnichannel for agents](omnichannel-agent.md)
-- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
+[Omnichannel for agents](omnichannel-agent.md)  
+[View agent dashboard and agent work items](introduction-agent-dashboard.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

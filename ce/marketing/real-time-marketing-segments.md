@@ -1,8 +1,8 @@
 ---
 title: "Work with segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to work with real-time marketing segments in Dynamics 365 Marketing."
-ms.date: 04/30/2021
-ms.service: dynamics-365-marketing
+ms.date: 08/02/2021
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,11 +19,6 @@ search.app:
 ---
 
 # Work with segments in real-time marketing
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 Real-time marketing uses [segments](segmentation-lists-subscriptions.md) directly from outbound marketing and [Customer Insights](/dynamics365/customer-insights/index). You can view the segments available to you in real-time marketing by going to **Audience** > **Segments**.
 
@@ -51,7 +46,7 @@ You can create a new segment directly within the customer journey editor by sele
 This will take you directly to the segment builder, where you can create and save your segment.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of selecting the +New segment option](media/real-time-marketing-segment-from-journey.png "Screenshot of selecting the +New segment option")
+> ![Screenshot of selecting the +New segment option.](media/real-time-marketing-segment-from-journey.png "Screenshot of selecting the +New segment option")
 
 ## Edit your segment
 
@@ -68,7 +63,7 @@ Learn more: [Use Customer Insights profiles and segments in real-time marketing]
 As shown in the following image, you can see whether a segment is a Marketing segment or a Customer Insights segment when you make a segment selection in your customer journey.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of segment sources](media/real-time-marketing-segment-source.png "Screenshot of segment sources")
+> ![Screenshot of segment sources.](media/real-time-marketing-segment-source.png "Screenshot of segment sources")
 
 Learn more about [setting up and managing a Customer Insights connection to Dynamics 365 Marketing](/dynamics365/customer-insights/audience-insights/manage-environments).
 
@@ -90,4 +85,4 @@ You can use a segment as an exit criterion for your customer journey.
 To use a suppression segment, select **Exit criteria** in the right-side pane in the customer journey editor. Then, choose a segment under **Exit by segment**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of suppression segment selection](media/real-time-marketing-suppression.png "Screenshot of suppression segment selection")
+> ![Screenshot of suppression segment selection.](media/real-time-marketing-suppression.png "Screenshot of suppression segment selection")

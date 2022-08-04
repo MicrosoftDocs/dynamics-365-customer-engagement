@@ -44,7 +44,7 @@ We will configure this scenario by creating a facility resource to represent the
 First, navigate to **Universal Resource Scheduling > Resources** and create a facility resource with the following attributes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Bookable Resource List](../../field-service/media/resource-new.png)
+> ![Screenshot of Bookable Resource List.](../../field-service/media/resource-new.png)
 
 1. **Resource Type** = Facility
 2. **Start/end location** = Organizational Unit Address 
@@ -56,7 +56,7 @@ First, navigate to **Universal Resource Scheduling > Resources** and create a fa
 6. (Optional) Add related characteristics, territory, resource roles, etc. to distinguish facility resources from other facilities and resources.  For example, if a doctor's office has X-ray equipment, "X-Ray" can be added as a characteristic to the facility resource. This can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a new facility type resource](../../field-service/media/scheduling-facility-create.png)
+> ![Screenshot of creating a new facility type resource.](../../field-service/media/scheduling-facility-create.png)
 
 ### 2. Create a requirement for a facility 
 
@@ -69,7 +69,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
   3. Set a **Duration**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with one requirement for a facility](../../field-service/media/scheduling-facility-create-requirement.png)
+> ![Screenshot of requirement group with one requirement for a facility.](../../field-service/media/scheduling-facility-create-requirement.png)
 
   4. Highlight the requirement and select **Open Form**, then set the **Resource Type** field to **Facility**, which accomplishes the following:
      1. It filters schedule assistant results by only showing resources with the chosen types (User, Account, Contact, Equipment, Pool, Crew, or in this case, **Facility**).
@@ -78,7 +78,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
      4. Note that if this field is left empty, all resources are searched.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource type field on requirement](../../field-service/media/scheduling-facility-resource-type.png)
+> ![Screenshot of resource type field on requirement.](../../field-service/media/scheduling-facility-resource-type.png)
 
 
   5. Set **Work Location** to **Facility**, which means:
@@ -88,7 +88,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
      2. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work location and latitude and longitude on requirement](../../field-service/media/scheduling-facility-requirement-lat-long.png)
+> ![Screenshot of work location and latitude and longitude on requirement.](../../field-service/media/scheduling-facility-requirement-lat-long.png)
 
 
 ### 3. Book the requirement 
@@ -100,12 +100,12 @@ The schedule assistant considers availability of resources as well as other set 
 Select **Book** from the requirement or requirement group form, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results](../../field-service/media/scheduling-facility-schedule-assistant-travel.png)
+> ![Screenshot of schedule assistant results.](../../field-service/media/scheduling-facility-schedule-assistant-travel.png)
 
 **Facility travel time and distance** calculations in the preceding schedule assistant example represent the time and distance between the facility resource (as defined by the location of the related organizational unit) and the customer's location (as defined by the latitude and longitude values on the requirement). The schedule assistant's radius filter filters based on this travel calculation.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of location agnostic schedule assistant results with no travel calculations](../../field-service/media/scheduling-facility-schedule-assistant-no-travel.png)
+> ![Screenshot of location agnostic schedule assistant results with no travel calculations.](../../field-service/media/scheduling-facility-schedule-assistant-no-travel.png)
 
 **Filtering work location to location agnostic** will remove travel time and distance calculations from schedule assistant results. 
 
@@ -116,12 +116,12 @@ Scheduling a facility is just like scheduling any other resource. You can drag a
 To view facility resources on the schedule board, filter by resource type and/or organizational units.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking to facility on schedule board](../../field-service/media/scheduling-facility-schedule-board-filter.png)
+> ![Screenshot of booking to facility on schedule board.](../../field-service/media/scheduling-facility-schedule-board-filter.png)
 
 Facility resources will also be displayed on the schedule board map based on the location of the related organizational unit.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of facility resource on schedule board map](../../field-service/media/scheduling-facility-schedule-board-map.png)
+> ![Screenshot of facility resource on schedule board map.](../../field-service/media/scheduling-facility-schedule-board-map.png)
 
 ## Scenario 2: Schedule a facility with 5 generic rooms
 
@@ -141,12 +141,12 @@ From the facility resource record, select **Show Work Hours** in the top ribbon.
 When choosing hours, select **Show Capacity** and enter **5**. By default, the capacity is set to 1.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding capacity to a facility resource in working hours](../../field-service/media/scheduling-facility-capcity.png)
+> ![Screenshot of adding capacity to a facility resource in working hours.](../../field-service/media/scheduling-facility-capcity.png)
 
 Setting the capacity to 5 means that when booking a facility with the schedule assistant, the facility resource will show as available and can be double-booked up to the capacity limit (in this case, 5 times).  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of facility resource double booked for the same time slot due to increased capacity](../../field-service/media/scheduling-facility-double-book.png)
+> ![Screenshot of facility resource double booked for the same time slot due to increased capacity.](../../field-service/media/scheduling-facility-double-book.png)
 
 In the preceding screenshot, two separate requirements for a facility were both scheduled to the same facility during the same time slot. Without increasing the capacity, once a timeslot at a facility is booked, it will no longer show in schedule assistant results. 
 
@@ -169,7 +169,7 @@ Resources such as people, equipment, or pool resources may be associated to a fa
 First, create a resource to represent the doctor's office. The resource type should be set to **Facility**. The following screenshot shows an example of a facility resource.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a facility type resource](../../field-service/media/scheduling-facility-create-facility-north-seattle.png)
+> ![Screenshot of creating a facility type resource.](../../field-service/media/scheduling-facility-create-facility-north-seattle.png)
 
 ### 2. Create a doctor resource
 
@@ -189,14 +189,14 @@ From here, associate the resource that represents the doctor.
 In the following screenshot, Abraham McCormick represents a doctor and is associated to "Doctors Office North Seattle," which represents the doctor's office.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of associating another resource to a facility resource](../../field-service/media/scheduling-facility-associate-doctor.png)
+> ![Screenshot of associating another resource to a facility resource.](../../field-service/media/scheduling-facility-associate-doctor.png)
 
 ### 4. Create a requirement group 
 
 Next, create a requirement group with one requirement that calls for a doctor's office (Resource Type = Facility), and another requirement that calls for a doctor (Resource Type = User/Contact/Account).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group and part of same option set](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource.png)
+> ![Screenshot of requirement group and part of same option set.](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource.png)
 
 Set the **Work Location** on each requirement to **Facility**, indicating the work will take place at the doctor's office.
  
@@ -205,17 +205,17 @@ Set the **Work Location** on each requirement to **Facility**, indicating the wo
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of select field on requirement group](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource-ALL.png)
+> ![Screenshot of select field on requirement group.](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource-ALL.png)
 
 Set **Part of Same** to **Resource Tree**. This ensures resources from different locations are not recommended for work taking place at a facility. As an example, a doctor associated with Facility B should not be paired with Facility A. Find more details about this setting in the configuration considerations section of this article. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results pairing a resource with a facility resource to meet the requirement group](../../field-service/media/scheduling-facility-schedule-assistant-with-person.png)
+> ![Screenshot of schedule assistant results pairing a resource with a facility resource to meet the requirement group.](../../field-service/media/scheduling-facility-schedule-assistant-with-person.png)
 
 Scheduling the requirement group creates a booking for the facility resource and the doctor resource.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the doctor resource](../../field-service/media/scheduling-facility-schedule-board-2-resources.png)
+> ![Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the doctor resource.](../../field-service/media/scheduling-facility-schedule-board-2-resources.png)
 
 > [!Note]
 > As in scenario 1, travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, as it's assumed he/she will be at the facility at the required time.
@@ -234,7 +234,7 @@ First, create a resource to represent the overall doctor's office where **Resour
 In this example, we call it "Health Clinic," as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a new facility pool resource. This is a pool type resource with pool type of facility](../../field-service/media/scheduling-facility-room-specific.png)
+> ![Screenshot of creating a new facility pool resource. This is a pool type resource with pool type of facility.](../../field-service/media/scheduling-facility-room-specific.png)
 
 ### 2. Create facility resources to represent each room
 
@@ -245,7 +245,7 @@ Set **Resource Type** to **Facility** on each resource.
 Set the **Start/End Location** to **Organizational Unit Address** and select an organizational unit to represent the location of the rooms.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource to represent a room](../../field-service/media/scheduling-facility-new-room.png)
+> ![Screenshot of a resource to represent a room.](../../field-service/media/scheduling-facility-new-room.png)
 
 ### 3.  Add each room resource as a child resource to the doctor's office resource pool
 
@@ -254,7 +254,7 @@ Navigate to the doctor's office facility pool resource, and go to **Related > Re
 Add each room resource as a child record to the parent facility pool (health clinic), as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of all room resources related as children to the health clinic/doctor's office](../../field-service/media/scheduling-facility-room-specific-children.png)
+> ![Screenshot of all room resources related as children to the health clinic/doctor's office.](../../field-service/media/scheduling-facility-room-specific-children.png)
 
 ### 4. Create a requirement group
 
@@ -263,12 +263,12 @@ Create a requirement that calls for one or more facilities. In this example, we'
 Set **Part of Same** to **Same Location** to ensure each room is at the same physical address. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group calling for two rooms in a doctors office with part of same field set to location](../../field-service/media/scheduling-facility-requirement-2-specific-rooms.png)
+> ![Screenshot of requirement group calling for two rooms in a doctors office with part of same field set to location.](../../field-service/media/scheduling-facility-requirement-2-specific-rooms.png)
 
 Each requirement should call for facility resource types, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource type field on requirement set to facility](../../field-service/media/scheduling-facility-2-specific-rooms-resource-type.png)
+> ![Screenshot of resource type field on requirement set to facility.](../../field-service/media/scheduling-facility-2-specific-rooms-resource-type.png)
 
 Again, the **Work Location** of each requirement should be set to **Facility** and the latitude and longitude fields of the requirements should correspond to the customer's (or patient's) location. 
 
@@ -279,7 +279,7 @@ Again, the **Work Location** of each requirement should be set to **Facility** a
 Select **Book** from the requirement group to trigger the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results showing pairs of two rooms each at the same location](../../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png)
+> ![Screenshot of schedule assistant results showing pairs of two rooms each at the same location.](../../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png)
 
 In the preceding screenshot's results, two specific rooms are recommended at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on the requirement records) and the location of the facility resources (resource children organizational units). 
 
@@ -295,7 +295,7 @@ This scenario is configured by creating a pool of facilities and a pool of docto
 Using the same process we used in scenario 4, create a facility pool resource to represent the doctor's office. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a facility pool resource](../../field-service/media/scheduling-facility-room-specific.png)
+> ![Screenshot of creating a facility pool resource.](../../field-service/media/scheduling-facility-room-specific.png)
 
 ### 2. Create facility resources for each room
 
@@ -304,7 +304,7 @@ Next, create facility resources to represent each room in the doctor's office fa
 Then add each room as a resource child to the doctor's office (health clinic) facility pool resource. The organizational unit of the office facility pool and the room facilities should be the same.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of relating room resources as children to the parent doctors office/health clinic](../../field-service/media/scheduling-facility-room-specific-children.png)
+> ![Screenshot of relating room resources as children to the parent doctors office/health clinic.](../../field-service/media/scheduling-facility-room-specific-children.png)
 
 ### 3. Create a pool of pediatric doctors
  
@@ -317,12 +317,12 @@ As is true of all resource records, you can add characteristics to define and di
 Set **Derive Capacity from Group Members** to **Yes**. This means the capacity of the pool is based on how many doctors are associated to it.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a scheduling facility with a pediatrician pool](../../field-service/media/scheduling-facility-create-pediatrician-pool.png)
+> ![Screenshot of creating a scheduling facility with a pediatrician pool.](../../field-service/media/scheduling-facility-create-pediatrician-pool.png)
 
 Create resources to represent doctors and add them as resource children to the pediatric doctors pool.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of relating pediatricians as children to the parent pediatric pool](../../field-service/media/scheduling-facility-pediatrician-pool-children.png)
+> ![Screenshot of relating pediatricians as children to the parent pediatric pool.](../../field-service/media/scheduling-facility-pediatrician-pool-children.png)
 
 ### 5. Associate doctor pool to facility pool
 
@@ -331,7 +331,7 @@ Next, navigate to the original facility pool (health clinic), and go to **Relate
 Set the **Resource 2** field to the pediatric doctor pool resource, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of associating the pediatrician pool to the doctor's office/health clinic pediatrician pool](../../field-service/media/scheduling-facility-associate-pediatricians-health-clinic.png)
+> ![Screenshot of associating the pediatrician pool to the doctor's office/health clinic pediatrician pool.](../../field-service/media/scheduling-facility-associate-pediatricians-health-clinic.png)
 
 
 ### 6. Create a requirement group for rooms and doctors
@@ -345,21 +345,21 @@ Setting **Part of Same** to **Resource Tree** ensures rooms and pediatricians ar
 For each room requirement, set the resource type to facility.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group calling for two rooms and a pediatrician that are all part of the same resource tree](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors.png)
+> ![Screenshot of requirement group calling for two rooms and a pediatrician that are all part of the same resource tree.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors.png)
 
 The resource types you choose for the pediatrician doctor requirement will affect schedule assistant results.
 
 **On the requirement, if Resource Type = Pool and Pool Type =  Users, Accounts, Contacts**, the pediatrician pool resource will be displayed in the results, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results utilizing pediatrician pool](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
+> ![Screenshot of schedule assistant results utilizing pediatrician pool.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
 
 This allows you to book the pediatrician pool and assign a specific pediatric doctor at a later time. Whether pediatricians show as results will depend on capacity (as derived from the number of doctors in the pool). Using the pool allows schedulers to book appointments based on capacity without having to assign a specific doctor at the time of scheduling.
 
 **On the requirement, if Resource Type = Users, Accounts, Contacts, (Not Pools)**, specific doctor resources will show in results, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results with specific doctor resource as option into utilizing pediatrician pool](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
+> ![Screenshot of schedule assistant results with specific doctor resource as option into utilizing pediatrician pool.](../../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
 
 > [!Note]
 > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
@@ -375,7 +375,7 @@ Let's take a look at the following work location types:
 - Location Agnostic
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work location field set to Facility](../../field-service/media/scheduling-facilities-work-location-field.png)
+> ![Screenshot of work location field set to Facility.](../../field-service/media/scheduling-facilities-work-location-field.png)
 
   - **Facility** work location implies the interaction takes place at the facility and travel time is calculated as the distance between the customer location and the facility location. The requirement's latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool must return in schedule assistant search results in order for a resource(s) to be returned.
   
@@ -413,7 +413,7 @@ Let's take a look at the following work location types:
 
 - When upgrading from Field Service v7.x to v8.x, facility type resources may not appear in schedule assistant results due to default filter settings. To fix this, go to **Field Service** > **Schedule Board**. Double-click on a schedule board tab, and then **Open Default Settings** in the upper right. Scroll down to **Other Settings**. Set **Retreive Resources Query** to 3.0.0.0 as seen in the following screenshot. **Filter Layout** and **Resource Cell Template** should also be set to 3.0.0.0.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the relevant fields set to the 3.0.0.0 settings](../../field-service/media/scheduling-schedule-board-tab-settings-resource-query.png)
+> ![Screenshot of the relevant fields set to the 3.0.0.0 settings.](../../field-service/media/scheduling-schedule-board-tab-settings-resource-query.png)
 
 
 ## Additional notes

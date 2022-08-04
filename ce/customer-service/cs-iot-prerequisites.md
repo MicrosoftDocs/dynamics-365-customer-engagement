@@ -31,12 +31,12 @@ On the **Create Custom App** dialog:
  3. Then select **Create**.
 
 > [!div class="mx-imgBorder"]
-> ![Azure IoT Central new application dialog](media/cs-iot-create-custom-app.PNG "Azure IoT Central new application dialog")  
+> ![Azure IoT Central new application dialog.](media/cs-iot-create-custom-app.PNG "Azure IoT Central new application dialog")  
 
 After a few seconds, you'll see the App home page. 
 
 > [!div class="mx-imgBorder"]
-> ![App home page for Azure IoT Central](media/cs-iot-azure-central-app-home.PNG "App home page for Azure IoT Central")
+> ![App home page for Azure IoT Central.](media/cs-iot-azure-central-app-home.PNG "App home page for Azure IoT Central")
 
 ## Get a Dynamics 365 Customer Service tenant with system administrator credentials 
 

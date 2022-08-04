@@ -2,9 +2,9 @@
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode with the Dynamics 365 for phones and tablets app and Power Apps Mobile
 ms.custom: 
-ms.date: 01/14/2021
+ms.date: 12/10/2021
 ms.reviewer: kvivek
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,7 +30,10 @@ Work with your data in offline mode even when you don't have internet access. Th
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app after you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!IMPORTANT]
-> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> - This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> - There is a new experience to setup and use mobile offline for model-driven apps. For more information:
+>   - [Set up mobile offline](/powerapps/mobile/setup-mobile-offline)
+>   - [Use mobile offline-first](/powerapps/mobile/work-in-offline-mode)
 
 ## Install the mobile app
 
@@ -61,9 +64,9 @@ After you've installed the mobile app and your admin has [enabled mobile offline
 - When you see the dialog box that asks you to download updates to work offline, select **Download**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
+   > ![Download updates on your mobile device for mobile offline.](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
 
-Offline data starts downloading in the background. Don't close the app or disconnect from the internet until the download is complete.
+Offline data starts downloading as you continue to use the app. On iOS, data is only downloaded while the app is active, so keep your phone unlocked with the app visible until the initial download is complete.
 
 ## Download offline data later
 
@@ -74,7 +77,7 @@ If you didn't want to download offline data and selected **Skip for now**, you w
 2. On the **Offline Status** screen, select **Download offline updates**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Start offline download](media/start-offline-download.png "Start offline download")
+   > ![Start offline download.](media/start-offline-download.png "Start offline download")
 
 3. The download will start, and the status will change to **Initializing**.
 
@@ -84,7 +87,7 @@ If you didn't want to download offline data and selected **Skip for now**, you w
 4. When the download of offline data is complete, you'll get a notification that you can start working in offline mode.
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")
+   > ![Download updates complete.](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")
 
 ## See whether offline mode is available
 
@@ -93,7 +96,7 @@ When offline updates are complete, you can check to see whether mobile offline m
 - On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").
   
     > [!div class="mx-imgBorder"] 
-    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
+    > ![Mobile offline status.](media/OfflineStatus.png "Mobile offline status")
 
 Legend:
 
@@ -118,7 +121,7 @@ When you have intermittent connectivity, we recommend that you switch to offline
 2. Turn on the **Work in offline mode** toggle.
 
    > [!div class="mx-imgBorder"] 
-   > ![Turn on the Work in offline mode toggle](media/set_offline_toggle.png "Turn on the Work in offline mode toggle") 
+   > ![Turn on the Work in offline mode toggle.](media/set_offline_toggle.png "Turn on the Work in offline mode toggle") 
 
 ## Sync conflict resolution
 

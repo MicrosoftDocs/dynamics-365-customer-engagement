@@ -1,12 +1,14 @@
 ---
 title: "Install Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn about the prerequisites and how you can install the LinkedIn Connector for your Dynamics 365 organization."
-keywords: AppSource, LinkedIn Lead Gen Connector, Installation, Setup
 ms.date: 04/02/2018
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+ms.custom: 
+  - dyn365-LinkedIn
+keywords: AppSource, LinkedIn Lead Gen Connector, Installation, Setup
 search.audienceType: 
   - admin
   - customizer
@@ -17,8 +19,6 @@ search.app:
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 1f4ee997-8460-4f6c-a77e-138e850ecd97
-ms.custom: 
-  - dyn365-LinkedIn
 ---
 
 # Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource
@@ -52,7 +52,7 @@ First, an administrator needs to install the solution.
    More information: [TechNet: Use the Microsoft 365 admin center to manage your subscription](/power-platform/admin/use-office-365-admin-center-manage-subscription).
 
 5. In Dynamics 365 Sales, go to **Settings** > **Customization** > **Solutions** and select **LinkedIn Lead Gen Forms Connector** to see the solution details.  
-   ![LinkedIn Lead Gen Forms Connector solution detail](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")
+   ![LinkedIn Lead Gen Forms Connector solution detail.](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")
 
 6. The solution creates two new security roles, which you assign to users so they can work with [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms in Dynamics 365 apps. A third role, **LinkedIn Lead Gen S2S Inbound**, is an internal security role used by the solution to sync data.
 

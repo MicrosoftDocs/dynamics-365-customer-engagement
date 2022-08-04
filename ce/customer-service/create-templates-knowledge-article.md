@@ -1,18 +1,26 @@
 ---
 title: "Create templates for knowledge articles for Dynamics 365 Customer Service | MicrosoftDocs"
 description: Learn how to create templates that simplify the process of creating knowledge articles.
-ms.date: 12/03/2020
+ms.date: 04/04/2022
 ms.topic: article
-author: lalexms
-ms.author: lalexms
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-Entity-msdyn_knowledgearticletemplate 
+ - D365-UI-*
+ - Dynamics 365
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Knowledge article templates
 
-Knowledge article templates help knowledge authors simplify the process of creating knowledge articles. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. 
+Knowledge article templates help knowledge authors simplify the process of creating knowledge articles. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure.
 
 When an author chooses a template to create an article, certain fields in the template are pre-populated with values, allowing the author to focus on the main content of the article.
 
@@ -25,29 +33,31 @@ Before working with templates, make sure you have the required privileges to cre
 
 ## Create a knowledge article template
 
- As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields will be pre-populated when the author creates the article using the template, reducing the efforts to fill in these fields. 
+ As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields will be pre-populated when the author creates the article using the template, reducing the efforts to fill in these fields.
 
-1.	Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
+You can create a knowledge article template in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
-    > [!div class=mx-imgBorder]
-    > ![Select Service Management](media/ka-select-service-management.png "Select Service Management")
+1. Go to the **Article Templates** section.
 
-2.	Under **Knowledge Base Management**, select **Article Templates**.
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    > [!div class=mx-imgBorder]
-    > ![Select Article Templates](media/ka-select-article-template.png "Select Article Templates")
+ 1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+ 1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
 
-3.	To create a template, select **New**.
+### [Customer Service Hub](#tab/customerservicehub)
 
-    > [!div class=mx-imgBorder]
-    > ![Select New](media/ka-select-new.png "Select New")
- 
+ 1. In the site map, go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
+
+---
+
+3.	Select **New**.
+
 4.	In the **Choose Language** dialog box, select the language for the template, and then select **OK**. In this example, we are selecting the language as **English – United States**.
 
     > [!div class=mx-imgBorder]
-    > ![Choose language](media/ka-choose-language.png "Choose language")
+    > ![Choose language.](media/ka-choose-language.png "Choose language")
  
-5.	On the **New Knowledge Article Template** page, enter the values for the required fields that you want to pre-populate when the template is selected. 
+5.	On the **New Knowledge Article Template** page, enter the values for the required fields that you want to pre-populate when the template is selected.
 
     |Section|Field|Description|
     |-------|-----|-----------|
@@ -57,14 +67,14 @@ Before working with templates, make sure you have the required privileges to cre
     | **CONTENT** | `--` | Define a structure that will be used in any knowledge article that’s created based on this template. To learn more, see [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 
     > [!div class=mx-imgBorder]
-    > ![Enter the values in new knowledge article template](media/ka-new-template-page.png "Enter the values in new knowledge article template")
+    > ![Enter the values in new knowledge article template.](media/ka-new-template-page.png "Enter the values in new knowledge article template")
 
 6.	After you have entered the required information, select **Save**.
 
     A template is created and is available for knowledge authors to use to create articles.
 
   > [!NOTE]
-  > Similarly, you can edit or delete knowledge article templates from the **Service Management** area. 
+  > Similarly, you can edit or delete knowledge article templates from the **Service Management** area.
 
 ## Use a template in Portal Knowledge Article Interactive Experience forms and custom forms
 

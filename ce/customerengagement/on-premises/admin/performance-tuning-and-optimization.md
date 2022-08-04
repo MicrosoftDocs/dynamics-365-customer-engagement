@@ -1,13 +1,13 @@
 ---
-title: "Performance tuning and optimization | MicrosoftDocs"
-description: "Plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises)."
+title: "Optimize performance in Dynamics 365 Customer Engagement (on-premises)"
+description: "In this overview, find information to help you plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Performance tuning and optimization
+# Performance optimization and tuning
 
 Use this information to help you plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises).  
 

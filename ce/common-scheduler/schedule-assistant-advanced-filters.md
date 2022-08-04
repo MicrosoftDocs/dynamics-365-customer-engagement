@@ -1,17 +1,15 @@
 ---
-title: "Advanced filters for the schedule assistant in Universal Resource Scheduling | MicrosoftDocs"
-description: Learn how to use advanced filters for the schedule assistant in Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
+title: "Use advanced filters in Universal Resource Scheduling"
+description: "The schedule assistant provides a few advanced filters for granularity in scheduling. Learn about filters such as real-time mode, allow overlapping, and more."
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 manager: shellyha
 search.app: 
   - D365CE

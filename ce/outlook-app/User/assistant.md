@@ -3,16 +3,14 @@ title: "Use the assistant to gain insights and guide customer communication (Dyn
 description: Use the assistant in Dynamics 365 App for Outlook to gain insights and guide customer communication
 ms.custom: 
 ms.date: 05/20/2021
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -38,9 +36,9 @@ Some of what the assistant can do for you:
 
 ## Prerequisites
 
-To use the assistant, your admin must enable the Dynamics 365 Sales Insights feature. For information, see [Introduction to administering Sales Insights features](https://docs.microsoft.com/dynamics365/ai/sales/intro-admin-guide-sales-insights). 
+To use the assistant, your admin must enable the Dynamics 365 Sales Insights feature. For information, see [Introduction to administering Sales Insights features](/dynamics365/sales/intro-admin-guide-sales-insights). 
 
-For more information on how to use the assistant when you're running an app in a web browser, see [Use the assistant to guide customer communications](https://docs.microsoft.com/dynamics365/ai/sales/assistant).
+For more information on how to use the assistant when you're running an app in a web browser, see [Use the assistant to guide customer communications](/dynamics365/sales/assistant).
 
 ## Use the assistant
 
@@ -49,12 +47,11 @@ When you start your day the assistant draws your attention to your most importan
 1. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png) 
+   > ![Open App for Outlook pane.](../media/open-pane-appforoutlook.png) 
    
 2. Select an item in your email that you're tracking using App for Outlook.
    
-3. From the **Dynamics 365** pane select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
+3. From the **Dynamics 365** pane select **More commands** ![Main more commnands button.](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
 
    > [!div class="mx-imgBorder"] 
-   > ![From the menu select Assistant](../media/assistant-menu.png)
-
+   > ![From the menu select Assistant.](../media/assistant-menu.png)

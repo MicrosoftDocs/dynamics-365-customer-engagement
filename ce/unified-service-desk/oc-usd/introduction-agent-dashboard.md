@@ -6,6 +6,7 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View agent dashboard and agent work items
@@ -25,7 +26,7 @@ The **Omnichannel Agent Dashboard** page consists of the following stream:
  - Closed work items
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service agent interface](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
+> ![Omnichannel for Customer Service agent interface.](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
 
 ## My work items
 
@@ -42,9 +43,9 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 > [!div class="nextstepaction"]
 > [Next topic: Create a record](create-record.md)
 
-## See also
+### See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
+[Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

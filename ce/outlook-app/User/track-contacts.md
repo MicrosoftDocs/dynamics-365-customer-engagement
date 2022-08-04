@@ -3,16 +3,14 @@ title: "Track your Outlook contacts using App for Outlook (Dynamics 365 apps) | 
 description: Track your Outlook contacts using App for Outlook.
 ms.custom: 
 ms.date: 05/20/2021
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -30,7 +28,7 @@ You admin must enable your Dynamics 365 mailbox for appointments, contacts, and 
 
 
    > [!div class="mx-imgBorder"] 
-   > ![Viw your contacts](../media/all-contacts.png)  
+   > ![Viw your contacts.](../media/all-contacts.png)  
  
 Legend
 1. **Outlook Contacts**: View all your Outlook contacts. The same contacts are displayed in the default contacts view your Dynamics 365 app.
@@ -41,10 +39,10 @@ Legend
 
 ## Access contacts
 
-To access your contacts, from the Outlook navigation pane, select More ![Outlook navigation options](../media/outlook-nav-options.png) and then select **Add-ins**.
+To access your contacts, from the Outlook navigation pane, select More ![Outlook navigation options.](../media/outlook-nav-options.png) and then select **Add-ins**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select add-in](../media/access-add-in.png)  
+   > ![Select add-in.](../media/access-add-in.png)  
 
 
 ### View contact card
@@ -52,7 +50,7 @@ To access your contacts, from the Outlook navigation pane, select More ![Outlook
 In the contacts list, select **Dynamics 365 Contacts** and then select the checkbox next to a contact's name. The contact details appear on the right side of the screen.
 
    > [!div class="mx-imgBorder"] 
-   > ![View contact details](../media/view-contact-details.png)  
+   > ![View contact details.](../media/view-contact-details.png)  
 
 
 ## Link Outlook contacts to an account 
@@ -62,7 +60,7 @@ You can link and track a single or multiple contacts from Outlook to an account 
    > [!div class="mx-imgBorder"] 
    > ![Demo of how to link a Outlook contact to a row in your app.](../media/link-outlook-contact-3.gif) 
 
-Depending on the server-side synchronization filters, the active contacts that a user owns in the Dynamics 365 app should be synchronized with Outlook after the mailbox is configured. For more information, see [Choose the records to synchronize between customer engagement apps and Exchange](/power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange.md),
+Depending on the server-side synchronization filters, the active contacts that a user owns in the Dynamics 365 app should be synchronized with Outlook after the mailbox is configured. For more information, see [Choose the records to synchronize between customer engagement apps and Exchange](/power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange),
 
 Follow the steps below to link and track your Outlook contacts to a row in your app.
 
@@ -70,12 +68,12 @@ Follow the steps below to link and track your Outlook contacts to a row in your 
 2. On the command bar, select **Link**.
  
    > [!div class="mx-imgBorder"] 
-   > ![Link an Outlook contact](../media/link-outlook-contact.png) 
+   > ![Link an Outlook contact.](../media/link-outlook-contact.png) 
  
 3. Choose the account row that you want to link the contact(s) with and then select elect **Link**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Choose a contact in your app to link to](../media/link-outlook-contact-2.png) 
+   > ![Choose a contact in your app to link to.](../media/link-outlook-contact-2.png) 
 
 4.  To avoid issues, until the linking is complete before you navigate away from the page. 
 
@@ -102,7 +100,7 @@ You can also untrack a contact and choose to delete the contact's information fr
     - **Untrack & Keep**: Keep the contact row in your app but stop tracking it.
 
    > [!div class="mx-imgBorder"] 
-   > ![Untrack a contact](../media/untrack-contact.png) 
+   > ![Untrack a contact.](../media/untrack-contact.png) 
 
 ## Change views
 
@@ -111,7 +109,7 @@ Use the **Dynamics 365 Contacts** tab, to access the same contact views that you
 - From the **Dynamics 365 Contacts** tab, select down arrow and then select a view.
 
    > [!div class="mx-imgBorder"] 
-   > ![Change view](../media/change-contact-view.png) 
+   > ![Change view.](../media/change-contact-view.png) 
 
 
 ## Filter contacts
@@ -121,7 +119,7 @@ You can easily see which contacts are tracked or untracked.
 - From the **Outlook Contacts** tab, select down arrow and then select a filter.
 
    > [!div class="mx-imgBorder"] 
-   > ![Filter contacts view](../media/filter-contacts.png) 
+   > ![Filter contacts view.](../media/filter-contacts.png) 
 
 
 ## FAQs

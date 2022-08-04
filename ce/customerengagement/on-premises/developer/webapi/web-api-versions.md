@@ -4,7 +4,7 @@ description: "Read how versioning of Dynamics 365 Customer Engagement Web API wo
 ms.custom: 
 ms.date: 04/15/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -40,9 +40,9 @@ Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-on
 ## New operations added  
  The following operations have been added to the Web API for [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)].  
   
-||||  
-|-|-|-|  
-|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|  
+- <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>
+- <xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>
+- <xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>| 
   
 ### See also  
  [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   

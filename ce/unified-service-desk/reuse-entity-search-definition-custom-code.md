@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Reuse Entity Search definition in your custom code
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search Microsoft Dataverse data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query Dataverse web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
   
@@ -25,7 +25,7 @@ Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
  Since you use an entity search name in your code to return data and not its FetchXML definition, updating the underlying FetchXML query definition of the entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] without changing the entity search name ensures that you won’t have to update your custom control code, recompile, and redistribute it on the client computers.  
   
- Use the new [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) message to construct a request, and then pass the request as parameter to the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice.getentitysearchresults(microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest,system.action{microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse})) method to get the response ([EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse)).  
+ Use the new [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) message to construct a request, and then pass the request as parameter to the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) method to get the response ([EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse)).  
   
 <a name="Request"></a>   
 ## Create an EntitySearchRequest object  
@@ -59,7 +59,7 @@ Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 <a name="Execute"></a>   
 ## Execute the request object  
- Use the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice.getentitysearchresults(microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest,system.action{microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse})) method to execute the request object created as described in the previous section. This method executes the [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) object, and returns a [EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) object with the entity search results.  
+ Use the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) method to execute the request object created as described in the previous section. This method executes the [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) object, and returns a [EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) object with the entity search results.  
   
  The following code sample demonstrates how you can reuse an existing entity search to retrieve results in pages.  
   

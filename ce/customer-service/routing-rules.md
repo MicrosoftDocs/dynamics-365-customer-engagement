@@ -1,7 +1,7 @@
 ---
 title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
 description: "Understand how to create and manage the routing rules in the Omnichannel Administration app"
-ms.date: 04/09/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,11 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+>
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+
+## Introduction
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 
@@ -22,7 +26,7 @@ Routing rules define how conversations are routed to different queues. Each rout
 A single work stream can have multiple routing rules that are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. While you can define as many rules as your business requires, the application processes only the first 100 rules.
 
 > [!div class=mx-imgBorder] 
-> ![Routing rules](media/oc-routing-rules.png)
+> ![Routing rules.](media/oc-routing-rules.png)
 
 Routing rules are evaluated from top to bottom. If a rule condition is evaluated as **True**, the chat gets routed to the destination queue and skips further evaluation. If a rule condition is evaluated as **False**, further rules are evaluated. 
 
@@ -51,15 +55,15 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
     For an entity, you can define rules based on related level 1 attributes.
 
     > [!div class=mx-imgBorder]
-    > ![related entity](media/related-entity-rule-condition.png)
+    > ![related entity.](media/related-entity-rule-condition.png)
 2. Select **Save**.
 
       > [!div class=mx-imgBorder]
-      > ![Configured rule](media/configured-rule.png)
+      > ![Configured rule.](media/configured-rule.png)
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)
+[Understand and create workstreams](create-workstreams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
 

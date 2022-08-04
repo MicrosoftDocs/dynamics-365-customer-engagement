@@ -2,11 +2,18 @@
 title: Work with knowledge articles | MicrosoftDocs
 description: "This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service"
 ms.date: 03/05/2021
-author: mh-jaya
-ms.author: v-jmh
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - developer
+searchScope: 
+  - D365-App-customerservicehub
+  - D365-Entity-knowledgearticle
+  - D365-UI-*
+  - Dynamics 365
+  - Customer Service
+  - Customer Engagement
 ---
 
 # Work with knowledge articles
@@ -22,7 +29,7 @@ The new knowledge experience in Dynamics 365 Customer Service enable you to crea
 
 When you create a knowledge article record, Dynamics 365 Customer Service internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
   
- ![KnowledgeArticle entity model](../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
+ ![KnowledgeArticle entity model.](../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
  When you create a knowledge article record, it is created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in HTML format. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
   
@@ -188,6 +195,7 @@ Use the following for help with migration:
 
 - [Knowledge Base Entities](../customerengagement/on-premises/developer/knowledge-management-entities.md)
 - [KnowledgeArticle Entity](../customerengagement/on-premises/developer/entities/knowledgearticle.md)
+- [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
 - [KnowledgeArticleViews Entity](../customerengagement/on-premises/developer/entities/knowledgearticleviews.md)
 - [KnowledgeBaseRecord Entity](../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
 - [LanguageLocale Entity](../customerengagement/on-premises/developer/entities/languagelocale.md)

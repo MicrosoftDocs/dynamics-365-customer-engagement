@@ -2,7 +2,7 @@
 title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
 ms.date: 05/04/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -91,11 +91,11 @@ To add the JavaScript code, you need to follow the steps below:
 2. Choose **New** to create a new marketing page.
 3. Drag and drop **Form** element from the **Toolbox** tab into the **Designer** tab and select the marketing form you want to use.
    > [!div class="mx-imgBorder"]
-   > ![Add new form page](../media/new-marketing-page.png "Add new form page")
+   > ![Add new form page.](../media/new-marketing-page.png "Add new form page")
    
 4. Switch to **HTML** tab and your code snippet.
    > [!div class="mx-imgBorder"]
-   > ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
+   > ![Add code in HTML tab.](../media/marketing-page-html-tab.png "Add code in HTML tab")
 
 5. Select **Save** to save your changes and then select **Go live**.
 
@@ -108,21 +108,21 @@ To add the code snippet, you need to follow the steps below:
 3. Select **Go live**.
 4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available, or select **+ Create new domain**.
     > [!div class="mx-imgBorder"]
-    > ![Form Hosting Tab](../media/form-hosting-available-domains.png "Form Hosting Tab")
+    > ![Form Hosting Tab.](../media/form-hosting-available-domains.png "Form Hosting Tab")
 
 5. Add your own CMS domain and select **Save**.
 6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **+ New Form Page** to add a marketing form page.
     > [!div class="mx-imgBorder"]
-    > ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
+    > ![Related Marketing Form Pages.](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
 7. Select **Save**.
 8. Now select the form page you have created and copy the script to the clipboard.
     > [!div class="mx-imgBorder"]
-    > ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
+    > ![Add code snippet.](../media/new-form-page-adding-code.png "Add code snippet")
 
 9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
     > [!div class="mx-imgBorder"]
-    > ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
+    > ![Ad customizations to CMS.](../media/add-code-to-cms-site.png "Add customization to CMS")
 
 ## Examples 
 
@@ -133,36 +133,44 @@ To add the code snippet, you need to follow the steps below:
       // sample validation - check if 
       document.getElementById('txt-company-name-message').style.visibility = 'hidden';
       var companyName = document.getElementById('txt-company-name').value;
-      if (companyName !== 'Fabricam' && companyName != 'Contoso') {
-      document.getElementById('txt-company-name-message').style.visibility = 'visible';
-      event.preventDefault();
+      if (companyName !== 'Fabricam' && companyName != 'Contoso') 
+      {
+        document.getElementById('txt-company-name-message').style.visibility = 'visible';
+        event.preventDefault();
+      }
     });
    ```
 
 2. Filling the incoming query string parameters to hidden fields.
 
     ```JS
-     MsCrmMkt.MsCrmFormLoader.on('afterFormLoad', function(event) {
-     var self = window.location.toString();
-     var queryString = self.split("?");
-     var hiddenFields = document.querySelectorAll("input[type=hidden]");
-     if (queryString.length > 1) {
-       var pairs = queryString[1].split("&");
-       for (var pairIndex in pairs) {
-       var pair = pairs[pairIndex].split("=");
-       if (pair.length !== 2) {
+    MsCrmMkt.MsCrmFormLoader.on('afterFormLoad', function(event) {
+      var self = window.location.toString();
+      var queryString = self.split("?");
+      var hiddenFields = document.querySelectorAll("input[type=hidden]");
+      if (queryString.length > 1) 
+      {
+        var pairs = queryString[1].split("&");
+        for (var pairIndex in pairs) 
+        {
+          var pair = pairs[pairIndex].split("=");
+          if (pair.length !== 2) 
+          {
             continue;
+          }
+          var key = pair[0];
+          var value = pair[1];
+          if (key && value) 
+          {
+            for (var i = 0; i < hiddenFields.length; i++) 
+            {
+              if (hiddenFields[i].id === key) 
+              {
+                hiddenFields[i].value = value;
+              }
+            }
+          }
         }
-       var key = pair[0];
-       var value = pair[1];
-       if (key && value) {
-         for (var i = 0; i < hiddenFields.length; i++) {
-         if (hiddenFields[i].id === key) {
-         hiddenFields[i].value = value;
-           }
-         }
-       }
-     }
       }
     });
     ```
@@ -171,14 +179,19 @@ To add the code snippet, you need to follow the steps below:
 
     ```JS
     <script>
-    function translatePicklists(lcid) {
+    function translatePicklists(lcid) 
+    {
         var picklists = document.querySelectorAll("select");
-        for(var i = 0; i < picklists.length; i++) {
+        for(var i = 0; i < picklists.length; i++) 
+        {
             var picklist = picklists[i];
             var relatedDatalist = document.getElementById("localize-" + picklist.name + "-" + lcid.toString());
-            if (relatedDatalist) {
-                for(var j = 0; j < picklist.options.length; j++) {
-                    if (j >= relatedDatalist.options.length) {
+            if (relatedDatalist) 
+            {
+                for(var j = 0; j < picklist.options.length; j++) 
+                {
+                    if (j >= relatedDatalist.options.length) 
+                    {
                         break;
                     }
                     picklist.options[j].text = relatedDatalist.options[j].text;
@@ -194,18 +207,18 @@ To add the code snippet, you need to follow the steps below:
 
     ```HTML
     <div data-editorblocktype="Field-dropdown">
-	  <div class="marketing-field">
-	      <div class="lp-form-field" data-required-field="false">
-	        <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
-	        <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
-                <option value=""></option>
-                <option value="1">Single</option>
-                <option value="2">Married</option>
-                <option value="3">Divorced</option>
-                <option value="4">Widowed</option>
-            </select>
+        <div class="marketing-field">
+            <div class="lp-form-field" data-required-field="false">
+                <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
+                <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
+                  <option value=""></option>
+                  <option value="1">Single</option>
+                  <option value="2">Married</option>
+                  <option value="3">Divorced</option>
+                  <option value="4">Widowed</option>
+                </select>
+            </div>
         </div>
-	    </div>
     </div>
     <!-- format is localize-fieldid-lcid -->
     <datalist id="localize-f7ae1a98-0d83-4592-afe0-272c85ce607d-1029">

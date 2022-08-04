@@ -4,7 +4,7 @@ description: "The time zone entities contain time zone information, such as supp
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -53,7 +53,6 @@ The *time zone* entities can be used when you write code that works in multiple 
  [timezonedefinition EntityType](entities/timezonedefinition.md)   
  [timezonelocalizedname EntityType](entities/timezonelocalizedname.md)   
  [timezonerule EntityType](entities/timezonerule.md)   
- [Sample: Retrieve Time Zone Information](sample-retrieve-time-zone-information.md)   
  [Transaction Currency (Currency) Entity](transaction-currency-currency-entity.md)
 
 

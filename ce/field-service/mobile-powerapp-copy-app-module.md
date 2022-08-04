@@ -1,13 +1,11 @@
 ---
 title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to make a custom app module for the Field Service (Dynamics 365) mobile app.
-ms.custom:
-- dyn365-fieldservice
 ms.date: 05/21/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
+ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -29,6 +27,10 @@ In this article, we will walk through:
 
 1. Creating a custom app module based on the "Field Service Mobile" app module.
 2. Adding the custom app module to the "Field Service Mobile" app module.
+
+> [!Note]
+> At this time, custom app modules will not include booking travel calculations. Travel calculations must be implemented via customization if not using the standard Field Service mobile app module.
+
 
 ## Create a custom app module based on "Field Service Mobile"
 
@@ -72,7 +74,7 @@ To make the app module available to the Field Service mobile app:
 
     2.  If you haven't yet created the app module, you can start the creation process by selecting **New**.
 
-![Power Apps showing the model-driven apps, highlighting the new and add existing options](media/image5.png)
+![Power Apps showing the model-driven apps, highlighting the new and add existing options.](media/image5.png)
 
 3.  Once the app is added to the solution, **Save and Close**, which will add your app module to the solution you created.
 
@@ -86,20 +88,20 @@ To make the app module available to the Field Service mobile app:
 
     1.  The first is to allow tagging the app module for the Field Service Mobile application.
 
-        1.  ***uniquename** is ```ChannelAvailability```. The name of your new app module, which follows the format of ```\[publisher prefix\]\_\[app module unique name\]\_\[app settings unique name\]```. Or ```new\_CustomAppModule\_ChannelAvailability``` in our example.
+        1.  ***uniquename** is ```ChannelAvailability```. The name of your new app module, which follows the format of ```[publisher prefix]_[app module unique name]_[app settings unique name]```. Or ```new_CustomAppModule_ChannelAvailability``` in our example.
 
         2.  **value** is set to ```FieldServiceMobile```.
 
 
     2.  The second makes the app eligible to run in **Offline First**.
 
-        1.  **uniquename** is the name of your new app module, which follows the format of ```\[publisher prefix\]\_\[app module unique name\]\_\[app settings unique name\]```. Or ```new\_CustomAppModule\_ServerMode``` in our example.
+        1.  **uniquename** is the name of your new app module, which follows the format of ```[publisher prefix]_[app module unique name]_[app settings unique name]```. Or ```new_CustomAppModule_ServerMode``` in our example.
 
         2.  **value** is the application ```ServerMode```.
 
 ```
                 <appsettings>
-                <appsetting uniquename="new\_CustomAppModule\_ChannelAvailability">
+                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
                 <value>FieldServiceMobile</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>
@@ -107,7 +109,7 @@ To make the app module available to the Field Service mobile app:
                 </settingdefinitionid>
                 </appsetting>
                 
-                <appsetting uniquename="new\_CustomAppModule\_ServerMode">
+                <appsetting uniquename="new_CustomAppModule_ServerMode">
                 <value>false</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>

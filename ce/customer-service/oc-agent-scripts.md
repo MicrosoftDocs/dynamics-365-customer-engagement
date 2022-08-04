@@ -1,6 +1,8 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "The information mentioned in this topic can help you learn how to use agent scripts in the Omnichannel for Customer Service app."
+description: "The information mentioned in this article can help you learn how to use agent scripts in the Omnichannel for Customer Service app."
+ms.date: 05/26/2022
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -15,12 +17,11 @@ manager: shujoshi
 Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you be accurate, effective, and efficient in customer handling.
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-agent-script.PNG "Productivity pane")
+> ![Productivity pane.](media/productivity-pane-agent-script.PNG "Productivity pane")
 
 ## Components in agent script
 
-> [!div class='mx-imgBorder']
-> ![Components in agent script](media/agent-script-section.PNG "Components in agent script")
+:::image type="content" source="media/components-agent-script.png" alt-text="Components in agent script":::
 
 1. Agent script menu
 2. Text instructions
@@ -33,7 +34,7 @@ The agent script section consists of a set of steps. Based on the type of agent 
 - Macro
 - Agent script
 
-Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
+Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can run the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
 
 ## Prerequisite
 
@@ -41,7 +42,7 @@ Ensure you (agent and supervisor) have the **Productivity tools user** security 
 
 ## Text instructions
 
-The text instruction provides guidance on the actions you need to perform. The step in the agent script shows a title, instructions, and the Text instruction icon that is actionable. After you perform the step based on the instructions, you can select the **Mark as done** icon to indicate that you've completed the step.
+The text instruction provides guidance on the actions you need to perform. The step in the agent script shows the title, instructions, and the Text instruction icon that is actionable. After you perform the step based on the instructions, you can select the **Mark as done** icon to indicate that you've completed the step.
 
 **Example:**
 
@@ -50,7 +51,7 @@ The text instruction provides guidance on the actions you need to perform. The s
 | Greet customer | Greet the customer with welcome message from the quick reply repository.|
 
 > [!div class='mx-imgBorder']
-> ![Agent script text instruction](media/agent-script-text-instruction.PNG "Agent script text instruction")
+> ![Agent script text instruction.](media/agent-script-text-instruction.PNG "Agent script text instruction")
 
 ## Macro
 
@@ -65,14 +66,14 @@ A macro is a set of instructions that tells the system how to complete a task. W
 In this example, when an agent selects the **Macro** icon, the system opens a new **Create case** form in the application tab panel with prepopulated fields based on the customer context.
 
 > [!div class='mx-imgBorder']
-> ![Agent script macro](media/agent-script-run-macro.PNG "Agent script macro")
+> ![Agent script macro.](media/agent-script-run-macro.PNG "Agent script macro")
 
 ## Agent script
 
 The step is used to load another agent script from the current agent script. When you select the view icon, the system loads the agent script. You can see that newly loaded script replaces the current script in the Agent script menu.
 
 > [!div class='mx-imgBorder']
-> ![Agent script](media/agent-script-view.PNG "Agent script")
+> ![Agent script.](media/agent-script-view.PNG "Agent script")
 
 ## Sample agent script
 

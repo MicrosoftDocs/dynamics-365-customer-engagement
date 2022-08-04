@@ -74,7 +74,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 8. Select **Save**. The **Timeline section is enabled where you can add notes and upload files pertaining to the problem.**
   
     > [!div class="mx-imgBorder"]
-    > ![New comment](media/cstm-new-comment.png "New comment")
+    > ![New comment.](media/cstm-new-comment.png "New comment")
 
 9. (Optional.) Select **Enter a note** to add notes and attach files.
 10. Select **Save & Close**. The **Active Cases created by me** page appears.

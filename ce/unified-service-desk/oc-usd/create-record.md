@@ -20,7 +20,7 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 1. Select the plus sign (**+**) to create a record.
  
  > [!div class=mx-imgBorder]
- > ![Quick create record](../../customer-service/media/quick-create-record.png "Quick create record")
+ > ![Quick create record.](../../customer-service/media/quick-create-record.png "Quick create record")
 
 2. Select a record type from the list.<br>
     - Case
@@ -32,18 +32,18 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 3. Specify the details on the page, and then save your changes.
 
  > [!div class=mx-imgBorder]
- > ![Create record](../media/oc-usd-create-contact.png "Quick create record")
+ > ![Create record.](../media/oc-usd-create-contact.png "Quick create record")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for records](search-record.md)
 
-## See also
+### See also
 
-- [View customer summary and know everything about customers](customer-summary.md)
-- [View communication panel](left-control-panel.md)
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Link and unlink a record](link-unlink-record.md)
+[View customer summary and know everything about customers](customer-summary.md)
+[View communication panel](left-control-panel.md)
+[View call scripts, take notes, and search knowledge articles](right-control-panel.md)
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+[Link and unlink a record](link-unlink-record.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

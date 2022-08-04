@@ -2,7 +2,7 @@
 title: "Create online surveys to collect feedback from customers (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How the Surveys app makes Customer Voice online surveys available in Dynamics 365 Marketing."
 ms.date: 06/18/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -33,11 +33,11 @@ In the current version of Dynamics 365 Marketing, Surveys is provided as a separ
 
 Use the app-selector menu to switch between Surveys and your other Dynamics 365 apps.
 
-![The app-selector menu](media/nav-apps-surveys-ill.png "The app-selector menu")
+![The app-selector menu.](media/nav-apps-surveys-ill.png "The app-selector menu")
 
 <!-- Unlike other Dynamics 365 Marketing apps and work areas, the Surveys app provides a navigator at the top of the page rather than in a side column.
 
-![How to navigate to and around the Surveys app](media/surveys-navigation-ill.png "How to navigate to and around the Surveys app")
+![How to navigate to and around the Surveys app.](media/surveys-navigation-ill.png "How to navigate to and around the Surveys app")
 
 Go to **Customer Voice** to design your surveys. The functionality provided here is the same as that provided for other Dynamics 365 applications that include the Customer Voice feature.
 

@@ -4,10 +4,10 @@ description: "This section contains the code examples that demonstrate how to us
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -16,11 +16,10 @@ helpviewer_keywords:
 ms.assetid: 9430d553-f519-44d7-95aa-068d17071ed5
 caps.latest.revision: 21
 author: JimDaly
-ms.author: nkrb
+ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample code for activity entities
 

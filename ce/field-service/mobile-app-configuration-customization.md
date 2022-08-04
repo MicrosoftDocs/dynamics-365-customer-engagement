@@ -1,23 +1,25 @@
 ---
-title: "Customizations and configurations for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Customizations and configurations for Field Service Mobile | MicrosoftDocs"
 description: Learn about customizations and configurations for the Field Service (Dynamics 365) mobile app
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 10/19/2018
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.date: 07/28/2022
+ms.reviewer: mhart
+
+ms.subservice: field-service-mobile
 ms.topic: article
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Customizations and configurations for the Field Service (Dynamics 365) mobile app
+# Customizations and configurations for the Field Service Mobile (Xamarin app)
 
-After setting up the [Field Service mobile application](/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you can customize and configure the mobile user interface and data based on your business needs. 
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
+
+After setting up [Field Service Mobile app](/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you can customize and configure the mobile user interface and data based on your business needs. 
 
 The [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf) provides guidance for customizing and configuring the mobile application via the Woodford solution. All mobile customizations and configurations including the examples below are performed via the Woodford solution by navigating to **Settings > Woodford > MobileCRM Woodford**.
 
@@ -41,15 +43,15 @@ See below for some common customization examples.
 ### Home screen
 You can edit how entities are displayed and ordered upon signing into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move *Time-Off Requests* to the top of the list, or remove it from the screen completely.
 
-> ![Screenshot of mobile home](media/mobile-home.png)
+> ![Screenshot of mobile home.](media/mobile-home.png)
 
 ### Views
 After selecting an entity, you can decide how records are displayed. For instance, as in the account view below, mobile administrators can customize the fields displayed and the position, how the view is sorted, size and color of fonts.
-> ![Screenshot of mobile view](media/mobile-account-view.png)
+> ![Screenshot of mobile view.](media/mobile-account-view.png)
 
 ### Fields and forms
 After selecting a record in the view, edit the forms and fields. For instance, in the Account form below, mobile administrators can edit which fields are displayed and the order, actions available such as triggering phone/email, and whether related records can be accessed from the form.
-> ![Screenshot of mobile form](media/mobile-account-form.png)
+> ![Screenshot of mobile form.](media/mobile-account-form.png)
 
 ### Offline HTML and JavaScript
 

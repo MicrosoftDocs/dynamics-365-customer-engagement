@@ -1,10 +1,9 @@
 ---
-title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create one-to-many or many-to-one relationships"
+title: "Create 1:N relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "A 1:N relationship is one in which a primary entity is associated with many other records. Learn about creating this relationship and behaviors you can set."
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 03/11/2022
 ms.reviewer: 
-ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create 1:N (one-to-many) or N:1 (many-to-one) relationships
+# Create 1:N (one-to-many) relationships between entities
 
 <a name="BKMK_CreateEditN1Relationships"></a>   
 
@@ -39,7 +38,7 @@ search.audienceType:
   
  The definition for the 1:N relationship has four parts: **Relationship Definition**, **Lookup Field**, **Navigation Pane Item for Primary Entity**, and **Relationship Behavior**.  
   
- ![1:N Entity Relationship](../customize/media/cust-1n-relationship-properties.png "1:N Entity Relationship")  
+ ![1:N Entity Relationship.](../customize/media/cust-1n-relationship-properties.png "1:N Entity Relationship")  
   
 ## Create or edit 1:N relationships between entities  
   
@@ -76,7 +75,7 @@ search.audienceType:
   
 10. In the **Relationship Behavior** section, in the **Type of Behavior** list, choose one of the following options:  
   
-    - **Parental**. In a parental relationship between two entities, any action taken on a record of the parent entity is also taken on any child entity records that are related to the primary (or parent) entity record.  
+    - **Parental**. In a parental relationship between two tables, any action taken on a record of the parent table is also taken on any child table records that are related to the primary (or parent) table record. For example, the owner of the parent record has inherited access to the child table records and when the parent record is deleted, all of the child records will also be deleted. For 1:N parental relationship between the parent table (P1) and child entity (C1), the owner of P1 record is granted inherited access to C1 child records.
   
     - **Referential**. In a referential relationship between two entities, you can navigate to any related records, but actions taken on one will not affect the other.  
   

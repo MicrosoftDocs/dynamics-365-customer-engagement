@@ -4,11 +4,11 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 04/04/2022
+ms.topic: article
 ---
 
 # Set up skills, create a rating model, and assign agents
-
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -18,7 +18,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skill types
 
-1. Sign in to the Dynamics 365 instance as an administrator.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select **Settings** > **Customizations** >  **Customize the System**.
 
@@ -37,27 +37,38 @@ As an administrator, to create skills, you need at least one skill type in the s
 9. Select **Publish** to publish the customization changes.
 
     > [!div class=mx-imgBorder] 
-    > ![Create skill type](media/create-skill-type.png "Create skill type")
+    > ![Create skill type.](media/create-skill-type.png "Create skill type")
 
 ### Create skills
 
-After you create a skill type, you can create skills in the Omnichannel admin center or Omnichannel Administration app.
+**To create skills**
 
-1. In the Omnichannel admin center app, select **User attributes** in the site map, and select **Manage** beside **Skills** on the **User attributes** page. In the Omnichannel Administration app, select **Skills** under **Queues & Users** in the site map.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
+     - In the site map, select **User management** in **Customer Support**.
+     
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     
 
-3. Select **New**.
+1. For **Skills**, select **Manage**.
 
-4. Specify the following in the **New Skill** page.
+1. Select **New**.
+
+1. Specify the following in the **New Skill** page.
 
     | Field | Description  | Example value |
     |-----------|---------------------|------------------------------|
     | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |
-    | Type | Select a skill type from the drop-down list. | Language |
+    | Type | Select a skill type from the dropdown list. | Language |
     | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 
-5. Select **Save**.
+1. Select **Save**.
 
-After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
+After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
 
 ## Rating value of skills
 
@@ -67,36 +78,48 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-1. In the Omnichannel admin center or Customer Service Hub app, select **User attributes** in the site map, and select **Manage** beside **Skill-based routing** on the **User attributes** page. If you're using the Omnichannel Administration app, select **Skill Based Routing** under **Settings** in the site map.
+You can create rating models in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub apps.
 
-2. On the **Omnichannel Configuration** page, in the **Rating Model** section, select **New Rating Model**.
+**To create the rating model**
 
-3. Specify the following in the **New Rating Model** page.
+1. Perform the steps by using one of the following apps.
 
-  | Tab | Field | Description | Example value  |
-  |------------|-----------------|----------------|--------------------------------------------|
-  | General | Name | Specify a name for the rating model. | Language rating model |
-  | General | Min Rating Value | Provide a minimum rating value. | 1 |
-  | General | Max Rating Value | Provide a maximum rating value. | 10 |
-  ||||
+   - In the site map of Customer Service admin center, select **Insights** in **Operations**. 
 
-3. Select **Save**. The **Rating Values** section appears.
+   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
 
-4. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
+   - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
 
-5. Specify the following in the **Rating Value** page.
+1. In the **Skill-based routing** section, select **Manage**.
 
-  | Field | Description | Value  |
-  |-----------------|----------------|--------------------------------------------|
-  | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
-  | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
-  |||
+1. On the **Omnichannel Configuration** page, in the **Rating Model** section, select **New Rating Model**.
 
-6. Select **Save and Close** to save and add the rating value to the grid.
+1. Specify the following in the **New Rating Model** page.
 
-7. Select **New** to add other rating values and repeat step 4 and 5.
+   | Tab | Field | Description | Example value  |
+   |------------|-----------------|----------------|--------------------------------------------|
+   | General | Name | Specify a name for the rating model. | Language rating model |
+   | General | Min Rating Value | Provide a minimum rating value. | 1 |
+   | General | Max Rating Value | Provide a maximum rating value. | 10 |
+   ||||
 
-8. Select **Save** to save the rating model changes.
+1. Select **Save**. The **Rating Values** section appears.
+
+1. Select **New Rating Value**. The **New Rating Value** page appears.
+
+1. Specify the following.
+
+   | Field | Description | Value  |
+   |-----------------|----------------|--------------------------------------------|
+   | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
+   | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+   |||
+
+1. Select **Save and Close** to save and add the rating value to the grid.
+
+1. Select **New** to add other rating values and repeat steps 4 and 5.
+
+1. Select **Save** to save the rating model changes.
 
 ### Recommended proficiency level
 
@@ -121,7 +144,7 @@ For example:
 
 Add the agents as a bookable resource so that you can assign skills to them.
 
-1. In the site map of Omnichannel admin center, select **Users** under **General settings**. If you're using the Omnichannel Administration app, select **Users** under **Queues & Users**.
+1. Go to the users page in any of the administrator apps.
 
 2. Select a user from the list and select the **Omnichannel** tab.
 
@@ -133,28 +156,30 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 ## Assign agents to skill
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**. If you're using Omnichannel Administration, select **Skills** under **Users & Queues** in the site map.
 
 2. Select a skill from the list for which you want to assign the agents.
 
 3. Select **New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
-4. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in drop-down.
+4. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in the dropdown list.
 
-5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](#rating-value-of-skills).
+5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. More information: [Rating value of skills](#rating-value-of-skills).
 
 6. Select **Save and Close**. The agent you added is displayed in the grid.
 
     > [!div class=mx-imgBorder] 
-    > ![Assign agents to skill](media/assign-user-skill.png "Assign agents to skill")
+    > ![Assign agents to skill.](media/assign-user-skill.png "Assign agents to skill")
 
 7. Repeat steps 3 through 6 to add more agents to the skill.
 
 8. Select **Save**.
 
-Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
+Alternatively, you can also add a skill to the user (agent). More information: [Manage users](users-user-profiles.md).
 
-## See also
+### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  

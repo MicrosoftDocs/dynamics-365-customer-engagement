@@ -1,10 +1,10 @@
 ---
-title: "Connect Customer Engagement to Yammer | MicrosoftDocs"
-description: "Yammer provides your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings."
+title: "Connect Yammer to Dynamics 365 Customer Engagement apps"
+description: "Connect Yammer to your Customer Engagement apps to provide your organization a central place for creating and editing documents and sharing information."
 ms.custom: 
 ms.date: 10/02/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Connect Customer Engagement to Yammer 
+# Connect Customer Engagement apps to Yammer
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

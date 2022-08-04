@@ -4,7 +4,7 @@ description: "This topic lists the walkthroughs that are included in the SDK, an
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -81,7 +81,7 @@ Looking for more than just developer information? Here are other sites and point
 - [Dynamics 365 Customer Engagement Documentation](/dynamics365/)
 - [Dynamics 365 Customer Engagement pre-sales information](https://www.microsoft.com/dynamics/default.aspx)
 - [Dynamics 365 Customer Engagement: Deployment Forum](https://social.microsoft.com/Forums/crmdeployment/home/)
-- [Certification Training](https://www.microsoft.com/learning/dynamics-certification.aspx)
+- [Certification Training](/dynamics365/get-started/training/)
 - [Contact Dynamics 365 Customer Engagement Customer Support](https://go.microsoft.com/fwlink/p/?LinkID=394391)
 - [Dynamics 365 Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
 - [Dynamics 365 Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)

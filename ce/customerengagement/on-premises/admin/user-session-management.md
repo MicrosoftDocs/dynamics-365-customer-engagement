@@ -1,10 +1,10 @@
 ---
-title: "Security enhancements: User session and access management | MicrosoftDocs"
-description: "Use security enhancements to secure Dynamics 365 Customer Engagement (on-premises)."
+title: "Manage user sessions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Manage user access and sessions, such as when a session times out, by enabling security enhancements in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 01/07/2021
+ms.date: 07/19/2022
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,13 +18,13 @@ manager: kvivek
 search.audienceType: 
   - admin
 ---
-# Security enhancements: User session and access management 
+# Manage user sessions and access with security enhancements
 
 You can use security enhancements to better secure Dynamics 365 Customer Engagement (on-premises). 
 
 ## User session timeout management
 
-The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Customer Engagement (on-premises) and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
+The maximum user session timeout of 24 hours is removed. This means that a user is not forced to log in with their credentials to use the Customer Engagement (on-premises) and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
 
 ## Configure session timeout 
 
@@ -67,6 +67,9 @@ The Customer Engagement (on-premises) portal has its own settings to manage its 
 > - Maximum Duration of Inactivity: less than Maximum Session length or 1440 minutes
 
 ## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
+
+> [!IMPORTANT]
+> As of Dynamics 365 for Customer Engagement  Version 9.0 or greater, the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](/dynamics365/customer-engagement/developer/download-dynamics-365-sdk-v9) steps described below are no longer available.
 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
 
@@ -116,7 +119,7 @@ SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSF
 
 Sample:
 
-![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1.](media/ps_setadvancedsettings.png)
 
 -OR- 
 
@@ -134,7 +137,7 @@ Get-CrmOrganization
         
 Sample:
 
-![Example Organization ID](media/ps_orgid.png)
+![Example Organization ID.](media/ps_orgid.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

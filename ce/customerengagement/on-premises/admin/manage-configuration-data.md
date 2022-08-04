@@ -1,10 +1,10 @@
 ---
-title: "Move data across instances and organizations | MicrosoftDocs"
-description: "Move configuration data across instances and organizations with the Configuration Migration tool."
+title: "Configuration Migration tool in Dynamics 365 Customer Engagement (on-premises)"
+description: "The Configuration Migration tool lets you move configuration data across instances and organizations. Follow the tips for using and troubleshooting the tool."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

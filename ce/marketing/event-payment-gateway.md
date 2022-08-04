@@ -2,7 +2,7 @@
 title: "Add a payment gateway to your event website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 Marketing."
 ms.date: 12/17/2020
-ms.service: dynamics-365-marketing
+
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -20,7 +20,7 @@ search.app:
 
 # Set up online payment for events
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event website.
 
@@ -46,24 +46,24 @@ To add a new payment page to your event website:
 1. Sign in to Dynamics 365 Marketing and go to the custom app by choosing **Dynamics 365—custom** from the app selector.  
 
     > [!div class="mx-imgBorder"]
-    > ![The app-selector menu](./media/nav-apps-custom.png)
+    > ![The app-selector menu.](./media/nav-apps-custom.png)
 
 1. In the custom app, use the area switcher at the bottom left of the page to open **Portals**. Then go to **Content** > **Web Templates**
 
     > [!div class="mx-imgBorder"]
-    > ![Go to your web templates](./media/payment-template-nav2.png)
+    > ![Go to your web templates.](./media/payment-template-nav2.png)
 
 1. Select **+ New** on the control bar to create a new web template.
 
 1. Enter a **Name** for your template and set the **Website** to the **Event Portal**. Then paste the web-page code you developed for the gateway into the **Source** field.  
 
-    ![An example web template setup](media/payment-template-setup.png "An example web template setup")
+    ![An example web template setup.](media/payment-template-setup.png "An example web template setup")
 
 1. Save your template by selecting the **Save** button at the bottom-right corner of the window.
 
 1. Go to **Portals** > **Website** > **Page Templates** and select **+ New** on the command bar to create a new page template.
 
-    ![An example page template setup](media/payment-page-template-setup.png "An example page template setup")
+    ![An example page template setup.](media/payment-page-template-setup.png "An example page template setup")
 
     Make the following settings:
 
@@ -76,7 +76,7 @@ To add a new payment page to your event website:
 
 1. Go to **Portals** > **Content** > **Web Pages** and select **+ New** on the command bar to create a new web page.  
 
-    ![An example web page setup](media/payment-web-page-setup.png "An example web page setup")
+    ![An example web page setup.](media/payment-web-page-setup.png "An example web page setup")
 
     Make the following settings:
 
@@ -101,7 +101,7 @@ To assign a payment gateway to an event:
 
 1. On the **General** tab of the **Event** form, scroll down to the **Website** section and select your payment gateway page in the **Portal payment gateway** field.  
 
-    ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
+    ![The portal payment gateway setting.](media/payment-gateway-setting.png "The portal payment gateway setting")
 
 1. Restart your portal or refresh its server cache to make sure your new setting takes effect right away. For instructions, see [How can I fix occasional portal issues?](setup-troubleshooting.yml#restart-the-portal).
 

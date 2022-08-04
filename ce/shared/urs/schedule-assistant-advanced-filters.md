@@ -1,7 +1,7 @@
 Beyond the standard filters exposed within the schedule assistant's filter panel, you'll find a few advanced filters that provide additional granularity for scheduling needs.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the advanced filters exposed in the schedule assistant](../../field-service/media/scheduling-schedule-assistant-advanced-filters.png)
+> ![Screenshot of the advanced filters exposed in the schedule assistant.](../../field-service/media/scheduling-schedule-assistant-advanced-filters.png)
 
 In this article, we'll take a look at the schedule assistant's advanced filters:
 
@@ -70,7 +70,7 @@ This filter is similar to the **Ignore proposed bookings** filter, except it's u
 When the schedule assistant is triggered, you'll see that some fields have default values. For example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedule Assistant Retrieve Constraints Query**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Assistant Retrieve Constraints Query. ](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
+> ![Screenshot of the Schedule Assistant Retrieve Constraints Query.](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
 
 To get there, double-click on the schedule board tab. Open default settings in the top right. Under the schedule types section, select the gear icon next to **Default Retrieve Constraints Query**.
 

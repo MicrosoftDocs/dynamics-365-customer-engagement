@@ -1,7 +1,7 @@
 ---
-title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: ""
-ms.date: 12/31/2019
+title: "Microsoft.CIFramework (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 03/14/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,15 +13,19 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Microsoft.CIFramework methods (CIF JavaScript API reference)
+# Microsoft.CIFramework methods (Dynamics 365 Channel Integration Framework 1.0 JavaScript API reference)
 
-Provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
+Microsoft CIFramework provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
 
-## Communication Panel Management APIs
+> [!Important]
+> - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
+> - The time-out limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
 
-The Communication Panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework version 1.0 are loaded in this panel. The communication widget in this version is displayed to the right of the screen and supports Docked and Minimized modes.
+## Communication panel management APIs
 
-You can use the APIs mentioned below to manage the state of the communication panel(widget).
+The communication panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework 1.0 are loaded in this panel. The widget in this version is displayed to the right of the screen, and supports Docked and Minimized modes.
+
+Use the following APIs to manage the state of the communication panel (widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -30,9 +34,9 @@ You can use the APIs mentioned below to manage the state of the communication pa
 | [setMode](microsoft-ciframework/setMode.md) | [!INCLUDE[setMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 | [getMode](microsoft-ciframework/getMode.md) | [!INCLUDE[getMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 
-## CRUD Operations APIs
+## CRUD operations APIs
 
-These APIs enable you to perform CRUD operations on entity records.
+Use the following APIs to perform CRUD operations on entity records.
 
 | Methods | Description |
 |---------|-------------|
@@ -41,7 +45,7 @@ These APIs enable you to perform CRUD operations on entity records.
 | [updateRecord](microsoft-ciframework/updateRecord.md) | [!INCLUDE[updateRecord-description](microsoft-ciframework/includes/updateRecord-description.md)] |
 | [deleteRecord](microsoft-ciframework/deleteRecord.md) | [!INCLUDE[deleteRecord-description](microsoft-ciframework/includes/deleteRecord-description.md)] |
 
-## Miscellaneous Methods
+## Miscellaneous methods
 
 | Methods | Description |
 |---------|-------------|
@@ -54,13 +58,12 @@ These APIs enable you to perform CRUD operations on entity records.
 | [renderSearchPage](microsoft-ciframework/renderSearchPage.md)| [!INCLUDE[openForm-description](microsoft-ciframework/includes/renderSearchPage-description.md)] |
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
-| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set automation dictionary. |
+| [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/includes/raiseEvent-description.md)] |
+| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
-## See also
+### See also
 
-[What's new in Channel Integration Framework](../whats-new-channel-integration-framework.md)
-
-[System requirements for Channel Integration Framework](../system-requirements-channel-integration-framework.md)
-
+[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

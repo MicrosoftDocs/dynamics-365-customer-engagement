@@ -4,39 +4,13 @@
 
 ## Parameters
 
-<table style="width:100%">
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>entityLogicalName</td>
-<td>String</td>
-<td>Yes</td>
-<td>Logical name of the entity you want to create. For example: &quot;account&quot;.</td>
-</tr>
-<tr>
-<td>data</td>
-<td>String</td>
-<td>Yes</td>
-<td><p>String defining the attributes and values for the new entity record.</p>
-</td>
-</tr>
-<tr>
-<td>successCallback</td>
-<td>Function</td>
-<td>No</td>
-<td><p>A function to call when a record is created.</td>
-</tr>
-<tr>
-<td>errorCallback</td>
-<td>Function</td>
-<td>No</td>
-<td>A function to call when the operation fails.</td>
-</tr>
-</table>
+| Name | Type  | Required  | Description |
+| ---- | ----  | --------  | ----------- |
+| entityLogicalName | String | Yes | Logical name of the entity you want to create. For example: "account".|
+ | data   | String | Yes | String defining the attributes and values for the new entity record.| 
+| successCallback | Function | No |  A function to call when a record is created. |
+| errorCallback | Function  | No  | A function to call when the operation fails. |
+||||
 
 ## Return Value
 
@@ -44,7 +18,7 @@ On success, returns a promise containing a string with the attributes and their 
 
 ## Examples
 
-The sample code demonstrates to create a sample contact record.
+The sample code demonstrates how to create a sample contact record.
 
 ```JavaScript
 var entityLogicalName = "contact";
@@ -72,7 +46,7 @@ Microsoft.CIFramework.createRecord(entityLogicalName,jsonData).then(
   ); 
 ``` 
 
-The below example shows how you can pass lookup value instead of plain text in the variable `data`.
+The following example shows how you can pass a lookup value instead of plain text in the variable `data`.
 
 ```JavaScript
 var data =
@@ -92,5 +66,4 @@ Microsoft.CIFramework.createRecord("account",jsonData).then(
           //handle error conditions
       }
 );
-
 ```

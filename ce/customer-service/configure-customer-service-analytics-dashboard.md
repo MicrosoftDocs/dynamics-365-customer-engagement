@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 04/03/2020
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Customer Service Analytics dashboards in Power BI
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 
@@ -44,19 +44,19 @@ Review the following prerequisites before configuring the supervisor dashboard:
 3. Install the **Customer Service Analytics for Dynamics 365** app. The app configuration options page is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![App configuration options page](media/cs-service-app-install.png "App configuration options page")
+    > ![App configuration options page.](media/cs-service-app-install.png "App configuration options page")
 
 ## Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
  
  1. On the app configuration options page, select **Connect**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - connect data](media/cs-app-get-started.png "Customer Service app install - connect data")
+    > ![Customer Service app install - connect data.](media/cs-app-get-started.png "Customer Service app install - connect data")
 
 2. On the **Connect to Customer Service Analytics for Dynamics 365** page, enter your organization's Dynamics 365 Service Root URL, and select **Next**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - root URL](media/cs-analytics-root-url.png "Customer Service app install - root URL")
+    > ![Customer Service app install - root URL.](media/cs-analytics-root-url.png "Customer Service app install - root URL")
 
 3. (Optional) To find the Microsoft Dynamics 365 Data URL, follow these steps:
 
@@ -67,12 +67,12 @@ Review the following prerequisites before configuring the supervisor dashboard:
     c. Find the Data URL under **Service Root URL**. 
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - OData URL](media/cs-analytics-odata-url.png "Customer Service app install - OData URL")
+    > ![Customer Service app install - OData URL.](media/cs-analytics-odata-url.png "Customer Service app install - OData URL")
 
 4. On the page that appears, select **OAuth2** in **Authentication method**, and **Organizational** in **Privacy level setting for this data source**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install](media/cs-analytics-install.png "Customer Service app install")
+    > ![Customer Service app install.](media/cs-analytics-install.png "Customer Service app install")
 
 5. Select **Sign in**. The sign-in page appears.
 6. Enter your Dynamics 365 organization credentials, and select **Enter**. After you are signed in, the existing report is updated with the data from your organization.
@@ -85,17 +85,17 @@ After you connect the Dynamics 365 Customer Service Analytics app with a Dynamic
 2. Go to the **Dynamics 365 Customer Service Analytics** app workspace.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - refresh frequency](media/cs-analytics-refresh-frequency.png "Customer Service app install - refresh frequency")
+    > ![Customer Service app install - refresh frequency.](media/cs-analytics-refresh-frequency.png "Customer Service app install - refresh frequency")
 
 3. Go to the **Datasets** tab and select **Settings**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - data settings](media/cs-analytics-data-settings.png "Customer Service app install - data settings")
+    > ![Customer Service app install - data settings.](media/cs-analytics-data-settings.png "Customer Service app install - data settings")
 
 4. Turn **Scheduled refresh** to **On**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - Scheduled refresh](media/cs-analytics-schedule-refresh.png "Customer Service app install - Scheduled refresh")
+    > ![Customer Service app install - Scheduled refresh.](media/cs-analytics-schedule-refresh.png "Customer Service app install - Scheduled refresh")
 
     Now, publish the application in your organization. 
 
@@ -109,14 +109,14 @@ You must share the configured application with your entire organization for supe
 1. On the app workspace, select **Update app**.
   
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - Publish application](media/cs-analytics-publish-application.png "Customer Service app install - Publish application")
+    > ![Customer Service app install - Publish application.](media/cs-analytics-publish-application.png "Customer Service app install - Publish application")
 
 2. In the Update app wizard, go to the **Access** tab.
 
 3. Choose **Entire organization** and select **Update app**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - application](media/cs-analytics-update-app.png "Customer Service app install - application")
+    > ![Customer Service app install - application.](media/cs-analytics-update-app.png "Customer Service app install - application")
 
     The app is now available to install for all individuals in your organization.
 
@@ -125,7 +125,7 @@ You must share the configured application with your entire organization for supe
 
 ## Step 6: Enable Power BI reporting
 
-As an administrator, you must enable Power BI reporting in the Dynamics 365 environment for supervisors to view the dashboards.
+As an administrator, you must enable Power BI reporting in the Power Platform environment for supervisors to view the dashboards.
 
 1. Sign in to Dynamics 365, and go to **Settings**.
 
@@ -134,7 +134,7 @@ As an administrator, you must enable Power BI reporting in the Dynamics 365 envi
 3. Go to the **Reporting** tab and enable **Allow Power BI visualization embedding**.
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - enable Power BI](media/cs-analytics-enable-pbi.png "Customer Service app install - enable Power BI")
+    > ![Customer Service app install - enable Power BI.](media/cs-analytics-enable-pbi.png "Customer Service app install - enable Power BI")
 
     Supervisors can now configure dashboards.
 
@@ -149,12 +149,12 @@ Each supervisor must configure their environment to integrate the Customer Servi
 3. Select **New** > **Power BI Dashboard**.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI dashboard](media/cs-pbi-dashboard-menu.png "Power BI dashboard")
+    > ![Power BI dashboard.](media/cs-pbi-dashboard-menu.png "Power BI dashboard")
 
 4. For **Workspace**, select **Customer Service Analytics for Dynamics 365**. For **Dashboard**, select **Customer Service Analytics for Dynamics 365**.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI dashboard properties](media/cs-pbi-dashboard-properties.png "Power BI dashboard properties")
+    > ![Power BI dashboard properties.](media/cs-pbi-dashboard-properties.png "Power BI dashboard properties")
 
 5. Save and close. 
 
@@ -171,7 +171,7 @@ You must add users to the supervisor configuration to access any supervisor dash
  3. On the configuration page, select **Supervisor Configuration**. 
 
     > [!div class=mx-imgBorder]
-    > ![Supervisor Configuration](media/cs-supervisor-configurations.PNG "Supervisor Configuration")
+    > ![Supervisor Configuration.](media/cs-supervisor-configurations.PNG "Supervisor Configuration")
 
  4. On the **Users** section, select **+ Add Existing User**. The **Lookup Records** pane is displayed.
  
@@ -221,7 +221,7 @@ Before you customize the template app, read the information here and perform eac
 7. When the Access an OData feed dialog appears, select **Organizational account** and then select **Sign in**.
 
     > [!div class=mx-imgBorder]
-    > ![Access to OData feed](media/cs-odata-feed.png "Access to OData feed")
+    > ![Access to OData feed.](media/cs-odata-feed.png "Access to OData feed")
 
 8. When the sign-in field appears, enter your credentials to authenticate to your instance.
 
@@ -232,7 +232,7 @@ Before you customize the template app, read the information here and perform eac
 ## Customer Service Analytics for Dynamics 365 template app data model diagram 
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics for Dynamics 365 template app data model diagram](media/cs-template-app-data-model-diagram.png "Customer Service Analytics for Dynamics 365 template app data model diagram")
+   > ![Customer Service Analytics for Dynamics 365 template app data model diagram.](media/cs-template-app-data-model-diagram.png "Customer Service Analytics for Dynamics 365 template app data model diagram")
 
 ### See also
 

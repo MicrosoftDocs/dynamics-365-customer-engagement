@@ -3,9 +3,9 @@ title: "Sample: Bulk delete exported records | MicrosoftDocs"
 description: "Sample demonstrates how to perform a bulk deletion of records that were previously exported by using the Export-to-Excel option."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d5483d27-ee03-428f-ad70-2765765ae262
@@ -22,7 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Bulk delete exported records

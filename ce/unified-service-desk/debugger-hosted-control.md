@@ -22,7 +22,7 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
 ## Create a Debugger hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Debugger** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![Debugger hosted control](../unified-service-desk/media/crm-itpro-usd-debuggerhostedcontrol.PNG "Debugger hosted control")  
+ ![Debugger hosted control.](../unified-service-desk/media/crm-itpro-usd-debuggerhostedcontrol.PNG "Debugger hosted control")  
   
  In the **New Hosted Control** screen:  
   

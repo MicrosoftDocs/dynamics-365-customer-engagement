@@ -17,7 +17,7 @@ ms.custom:
 ---
 # CRM Dialog (Hosted Control)
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Use the **CRM Dialog** hosted control type to work with dialog. You can call the **StartDialog** action on your CRM Dialog hosted control to start a dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
@@ -25,7 +25,7 @@ Use the **CRM Dialog** hosted control type to work with dialog. You can call the
 ## Create a CRM Dialog hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
- ![Dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
+ ![Dialog hosted control.](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
 
  In the **New Hosted Control** screen:
 

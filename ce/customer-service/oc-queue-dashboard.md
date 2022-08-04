@@ -1,10 +1,10 @@
 ---
 title: Queue Dashboard | Microsoft Docs
 description: Learn about the Queue dashboard to better understand agent performance in your organization.
-ms.date: 04/09/2021
+ms.date: 05/09/2022
 ms.topic: article
-author: Meghanalanka
-ms.author: v-mlanka
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 
@@ -13,9 +13,9 @@ manager: shujoshi
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
  
 > [!div class="mx-imgBorder"]
-> ![Queue dashboard historical analytics](media/queue-historical-analytics.png "Queue historical analytics dashboard")
+> ![Queue dashboard historical analytics.](media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
-You can view the Queue dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Queue** tab.
+You can view the Queue dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select the **Queue** tab.
 
 By default, the dashboard shows you key performance indicators (KPIs) for the past month and for all channels, queues, and agents in your system. You can use the data filtering options to select data for specific time periods, channels, queues, agents, conversation status, and time zone. To filter data by duration, channel, queue, agent, conversation status, or time zone, select a value from the respective dropdown list.
 
@@ -27,7 +27,7 @@ By default, the dashboard shows you key performance indicators (KPIs) for the pa
 The following KPIs are displayed in the Queue dashboard.
 
 > [!div class="mx-imgBorder"]
-> ![KPI for queue dashboard](media/queue-KPI.png "Key performance indicators for queue dashboard")
+> ![KPI for queue dashboard.](media/queue-KPI.png "Key performance indicators for queue dashboard")
 
 | KPI | Description |
 | ----------------- | ------------------ |
@@ -42,7 +42,7 @@ The following KPIs are displayed in the Queue dashboard.
 The following charts are displayed in the Queue dashboard.
 
 > [!div class="mx-imgBorder"]
-> ![Queue charts](media/queue-charts.png "Key performance indicator charts for queue dashboard")
+> ![Queue charts.](media/queue-charts.png "Key performance indicator charts for queue dashboard")
 
 | Title | Description |
 | ---------------- | ------------------ |
@@ -53,7 +53,7 @@ The following charts are displayed in the Queue dashboard.
 | Sessions rejected/timed out rate | The number of sessions presented to an agent that weren't accepted. |
 
 > [!div class="mx-imgBorder"]
-> ![Queue summary chart](media/oc-queue-summary.png "Queue summary chart")
+> ![Queue summary chart.](media/oc-queue-summary.png "Queue summary chart")
 
 | Session summary | Description |
 | ---------------- | ---------------- |
@@ -93,15 +93,16 @@ The queue hourly details drill-down view provides more granular insight into the
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
 
 > [!div class="mx-imgBorder"]
-> ![Queue Hourly drill down view](media/queue-hourly-drill-down-view.png "Queue hourly drill down view")
+> ![Queue Hourly drill down view.](media/queue-hourly-drill-down-view.png "Queue hourly drill down view")
 
 
 ### See also
 
-- [Conversation dashboard](oc-conversation-dashboard.md)
-- [Dashboard overview](customer-service-analytics-insights-csh.md)
-- [Agent dashboard](agent-dashboard.md)
-- [Bot dashboard](oc-bot-dashboard.md)
-- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  
+[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 

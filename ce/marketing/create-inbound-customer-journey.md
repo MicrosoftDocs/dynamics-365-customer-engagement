@@ -2,7 +2,7 @@
 title: "Inbound marketing with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 Marketing."
 ms.date: 10/20/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -28,7 +28,7 @@ Though messaging and promotion strategies are typically different for inbound ve
 
 You can create an inbound campaign by setting up the contacts who **Submitted a form** as the source of your **Audience** tile at the start of a journey. You can then configure the tile to reference the marketing form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, as though they had joined a segment targeted by the journey.
 
-![Inbound campaign from a hosted form](media/create-inbound-select-audience.png "Inbound campaign from a hosted form")
+![Inbound campaign from a hosted form.](media/create-inbound-select-audience.png "Inbound campaign from a hosted form")
 
 ## Use a behavioral segment to find contacts who submitted a form
 

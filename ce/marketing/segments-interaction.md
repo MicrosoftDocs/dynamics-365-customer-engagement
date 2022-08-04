@@ -2,7 +2,7 @@
 title: "Create segments based on interactions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create segments based on contact interaction records in Dynamics 365 Marketing."
 ms.date: 10/04/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -30,7 +30,7 @@ To create a behavioral segment, create a segment and then select the **Behaviora
 
 The following image shows an example of typical behavioral segment query and outlines key features of the designer user interface.
 
-![Segment designer UI elements for behavioral segments](media/segment-interaction-callouts2.png "Segment designer UI elements for behavioral segments")
+![Segment designer UI elements for behavioral segments.](media/segment-interaction-callouts2.png "Segment designer UI elements for behavioral segments")
 
 Legend:
 

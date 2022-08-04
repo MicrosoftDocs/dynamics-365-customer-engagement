@@ -113,7 +113,7 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
  This will be the customization outcome:  
   
- ![Custom app name in the login screen](../unified-service-desk/media/usd-loginscreencustomization.png "Custom app name in the login screen")  
+ ![Custom app name in the login screen.](../unified-service-desk/media/usd-loginscreencustomization.png "Custom app name in the login screen")  
   
 ### Change the application name and appearance of splash screen  
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
@@ -147,7 +147,7 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
  This will be the customization outcome:  
   
- ![Custom splash screen](../unified-service-desk/media/usd-customsplashscreen.png "Custom splash screen")  
+ ![Custom splash screen.](../unified-service-desk/media/usd-customsplashscreen.png "Custom splash screen")  
   
 ### See also  
  [Customize themes in Unified Service Desk](../unified-service-desk/customize-themes-in-unified-service-desk.md)

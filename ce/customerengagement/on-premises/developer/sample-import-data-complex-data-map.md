@@ -3,9 +3,9 @@ title: "Sample: Import data using complex data map (Developer Guide for Dynamics
 description: "Sample demonstrates how to create new records with data import by using a complex data map."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1ed89b35-a84d-488e-b58c-4ed6eb26018c
@@ -25,7 +25,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Import data using complex data map

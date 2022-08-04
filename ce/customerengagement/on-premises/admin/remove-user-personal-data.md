@@ -1,10 +1,10 @@
 ---
-title: "Remove user personal data  | MicrosoftDocs"
-description: "Remove personal data from all tenant instances."
+title: "Remove user personal data from Dynamics 365 Customer Engagement (on-premises)"
+description: "Once a user record is deleted from the Active Directory, system admins can follow these steps to remove the user's personal data from all instances."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,10 +1,10 @@
 ---
 title: "Bot Dashboard | Microsoft Docs"
 description: "Learn about the bot dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 04/09/2021
+ms.date: 05/09/2022
 ms.topic: article
-author: Meghanalanka
-ms.author: v-mlanka
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 
@@ -13,9 +13,9 @@ manager: shujoshi
 The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are playing a role in a support organization.
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard](media/bot-dashboard-oc.png "Bot dashboard")
+> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
 
-You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Analytics and insights**. On the page that appears, select the **Bot** tab.
+You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
 ## Report details
 
@@ -24,7 +24,7 @@ The reports summarize the KPIs for the specified time period and the percent cha
 KPIs for the following areas are displayed.
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard KPI](media/bot-dashboard-KPI.png "Bot dashboard KPI")
+> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -57,14 +57,15 @@ The Bot hourly details drill down view provides more granular insight into the h
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**.
 
 > [!div class="mx-imgBorder"]
-> ![Bot hourly detail drill down view](media/bot-hourly-drill-down.png "Bot detail view") 
+> ![Bot hourly detail drill down view.](media/bot-hourly-drill-down.png "Bot detail view") 
 
 ### See also
 
-- [Conversation dashboard](oc-conversation-dashboard.md)
-- [Dashboard overview](customer-service-analytics-insights-csh.md)
-- [Queue dashboard](oc-queue-dashboard.md)
-- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Queue dashboard](oc-queue-dashboard.md)  
+[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 

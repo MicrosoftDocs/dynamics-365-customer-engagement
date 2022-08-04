@@ -1,17 +1,17 @@
 ---
-title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
+title: "Overview of Field Service Mobile (Xamarin app) (contains video) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 03/29/2021
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.date: 07/28/2022
+ms.reviewer: mhart
+
+ms.subservice: field-service-mobile
+
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -19,6 +19,9 @@ search.app:
 ---
 
 # Overview of Field Service Mobile (Xamarin app)
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 Field technicians use the Field Service Mobile app to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this article, we'll take a look at some basic details of the application.
 
@@ -55,7 +58,7 @@ For a guided walkthrough, check out the following video.
   1. Scan a barcode on a new piece of equipment that was recently installed for a customer - this automatically enters the barcode number on the customer asset record, saving the technician time from manually entering this information. 
   2. Scan the barcode of an existing asset to automatically locate the asset record in the database. This ensures that new data is entered on the correct asset record for accurate service history.
 
-> ![Screenshot of Field Service Mobile showing a barcode on a record](./media/mobile-quick-facts-barcode.png)
+> ![Screenshot of Field Service Mobile showing a barcode on a record.](./media/mobile-quick-facts-barcode.png)
 
 - **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's helpful for field technicians who wear protective gloves and can't type information into mobile forms.
 
@@ -68,7 +71,7 @@ For a guided walkthrough, check out the following video.
 - **Push notifications**: Trigger push notifications to the field technician's device reminding their to perform actions or enter data. For example, you can notify field technicians with a push notification when they have been booked to a new work order. Selecting a push notification can take the user to specific booking, work order, or other records. 
 
 
-> ![Screenshot of Field Service Mobile push notifications showing "You've been booked on a work order" and "Synchronization complete"](./media/mobile-quick-facts-push-notifications-ios.png)
+> ![Screenshot of Field Service Mobile push notifications showing "You've been booked on a work order" and "Synchronization complete."](./media/mobile-quick-facts-push-notifications-ios.png)
 
 ## Device requirements
 
@@ -154,7 +157,7 @@ The system also keeps a **synchronization log** that tracks when users last sync
 You can keep an audit record of when specific entities are edited, as well as application state events and the GPS location of the device.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service Mobile audit settings options](./media/mobile-quick-facts-audit.png)
+> ![Screenshot of the Field Service Mobile audit settings options.](./media/mobile-quick-facts-audit.png)
 
 #### Dynamics security
 

@@ -1,10 +1,10 @@
 ---
-title: "Use the virtual entity OData v4 data provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use the Virtual entity OData v4 data provider"
+title: "Configure OData v4 Data Provider in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to configure the OData v4 Data Provider to connect Dynamics 365 with an OData web service to integrate external data."
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# OData v4 Data Provider configuration, requirements, and best practices
+# OData v4 Data Provider configuration and best practices
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [OData v4 Data Provider configuration](/powerapps/maker/data-platform/virtual-entity-odata-provider-requirements)
 
@@ -87,7 +87,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
    - **Name**. Type a name that describes the data source.  
 
-   - **Uri**. If you are using the OData Data Provider, enter the uri for the OData web service. For example, if you are using the OData provider to connect to a web service hosted in Azure, the URI can look similar to *https://contosodataservice.azurewebsites.net/odata/*.  
+   - **Uri**. If you are using the OData Data Provider, enter the uri for the OData web service. For example, if you are using the OData provider to connect to a web service hosted in Azure, the URI can look similar to `https://contosodataservice.azurewebsites.net/odata/`
 
    - **Timeout in seconds**. Enter the number of seconds to wait for a response from the web service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs.  
 
@@ -96,7 +96,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
    - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Select **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
 
-   ![Virtual entity data source record](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
+   ![Virtual entity data source record.](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
 
 
 ### See also  

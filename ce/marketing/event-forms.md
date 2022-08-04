@@ -2,7 +2,7 @@
 title: "Use marketing forms for event registration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Add custom marketing forms to event registrations."
 ms.date: 04/22/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -31,14 +31,14 @@ The event management application now allows you to use marketing forms for event
 4. The template will load into the form designer.
 
     > [!div class="mx-imgBorder"]
-    > ![Event registration form example](media/event-forms-demo2.png)
+    > ![Event registration form example.](media/event-forms-demo2.png)
 
 ## Settings in the header
 
 The header settings are available at the top of the page. To edit the header settings, select the **More header fields** button (which looks like a down-pointing chevron) at the right side of the header. 
 
 > [!div class="mx-imgBorder"]
-> ![Event registration form header settings](media/event-forms-header.png)
+> ![Event registration form header settings.](media/event-forms-header.png)
 
 The button opens a drop-down dialog with the following settings:
 

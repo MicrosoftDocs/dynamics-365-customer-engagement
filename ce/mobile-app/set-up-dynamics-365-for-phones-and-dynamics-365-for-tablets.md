@@ -2,12 +2,12 @@
 title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
 description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 09/16/2020
+ms.date: 10/13/2021
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: get-started-article
+ms.topic: overview
 applies_to: Dynamics 365 apps
 ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
 caps.latest.revision: 141
@@ -86,6 +86,9 @@ In addition, particularly if you have created a custom security role, validate t
 
 5. Select **Save and Close** to save the changes to the security role.
 
+> [!NOTE]
+> To access the list of apps, a user must have a [default security role](/power-platform/admin/security-roles-privileges) assigned to them such as **Basic**. This is in addition to any custom security role assigned to the user.
+
 ### Required services
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
 
@@ -141,7 +144,7 @@ The mobile app has multiple dashboards are available for users. After you set up
 5. Select **Properties** > **Enable for mobile** > **OK**.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Enable for mobile ](media/mobile_enable_dashboard.png "Select Enable for mobile").
+   > ![Enable for mobile .](media/mobile_enable_dashboard.png "Select Enable for mobile").
 
  
 6. Select **Save**.  
@@ -156,7 +159,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 ### Forms  
  Forms in the Dynamics 365 mobile app are based on the development principle of *Design once and deploy across clients*.
  
-![Sales form in Dynamics 365 apps](media/sales_form.png "Sales form in Dynamics 365 apps")
+![Sales form in Dynamics 365 apps.](media/sales_form.png "Sales form in Dynamics 365 apps")
   
  Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
   
@@ -166,17 +169,17 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 2. Expand **Entities** > expand the **Contact** entity > **Forms** and then select the **Contact** form.
 
    > [!div class="mx-imgBorder"] 
-   > ![Mobile contact form](media/mobile_contact_form.png "Select the Contact form")
+   > ![Mobile contact form.](media/mobile_contact_form.png "Select the Contact form")
 
 3. Select **Change Properties**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Mobile contact form change properties](media/mobile_change_prop.png "Select the Contact form change properties]")
+   > ![Mobile contact form change properties.](media/mobile_change_prop.png "Select the Contact form change properties]")
 
 4. Clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Available on phone](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
+   > ![Available on phone.](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
   
   
 <a name="BKMK_PhoneEntities"></a>   
@@ -184,14 +187,19 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 
  You can enable a limited set of entities for the mobile app. To see if an entity is enabled or to enable an entity.
  
+ 
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
 3. Select the entity you want to enable for mobile app (for example, **Account**).  
   
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  
+   > [!NOTE]
+   > The **Enable for Phone Express** option refers to a deprecated mobile app and doesn't apply anymore.
+ 
    > [!div class="mx-imgBorder"] 
-   > ![Enable mobile entities](media/enable_mobile_entity.png "Enable mobile entities").
+   > ![Enable mobile entities.](media/enable_mobile_entity.png "Enable mobile entities").
+   
 
 Things to note:  
   

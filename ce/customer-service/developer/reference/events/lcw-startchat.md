@@ -1,12 +1,13 @@
 ---
-title: "lcw startChat | MicrosoftDocs"
-description: lcw startChat (Omnichannel for Customer Service JavaScript API reference)
+title: "lcw:startChat | MicrosoftDocs"
+description: lcw startChat event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
+ms.date: 11/10/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# lcw:startChat (Omnichannel for Customer Service JavaScript API reference)
+# lcw:startChat event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -26,8 +27,18 @@ window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
 
 ### See also
 
-[lcw:ready](lcw-ready.md)<br />
-[lcw:error](lcw-error.md)<br />
+[lcw:ready](lcw-ready.md)  
+[lcw:error](lcw-error.md)  
+[lcw:chatRetrieved](lcw-chatRetrieved.md)  
+[lcw:chatQueued](lcw-chatQueued.md)  
+[lcw:onClose](lcw-onClose.md)  
+[lcw:closeChat](lcw-closeChat.md)  
+[lcw:ready](lcw-ready.md)   
+[lcw:onMinimize](lcw-onMinimize.md)  
+[lcw:onMaximize](lcw-onMaximize.md)  
+[lcw:onMessageReceived](lcw-onMessageReceived.md)  
+[lcw:onMessageSent](lcw-onMessageSent.md)  
+[lcw:threadUpdate](lcw-threadUpdate.md)   
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
 
 

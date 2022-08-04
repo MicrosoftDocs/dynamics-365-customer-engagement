@@ -2,7 +2,7 @@
 title: "Navigate and use common features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How do get around and work with common user interface elements in Dynamics 365 Marketing."
 ms.date: 03/24/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -24,9 +24,9 @@ This introduction to Dynamics 365 Marketing explains how to find and open the ap
 
 ## A fully responsive app built on the new Unified Interface
 
-Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
+Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
 
-Many Dynamics 365 applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+Many Dynamics 365 applications support both the new Unified Interface and the older legacy web client interface, but nearly all are moving to Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a legacy web client app from time to time, but soon all features are expected to be available on Unified Interface.
 
 > [!NOTE]
 > Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
@@ -50,7 +50,7 @@ Dynamics 365 is built out of applications (apps), areas, and entities.
 Use the app-selector menu to switch between Marketing and your other Dynamics 365 apps.
 
 > [!div class="mx-imgBorder"]
-> ![The app-selector menu](media/nav-apps-ill2.png)
+> ![The app-selector menu.](media/nav-apps-ill2.png)
 
 The apps you see listed in your app-selector menu will depend on which apps you have licensed. When Marketing is installed, you will have the following three apps at least:
 
@@ -64,7 +64,7 @@ All of the apps listed in the app-selector menu operate on the same database as 
 
 It's easy to get around Dynamics 365 Marketing and get back to your favorite or most-used records. The following illustration shows the primary navigation elements.
 
-![Navigation controls, expanded view](media/nav-expanded-ill.png "Navigation controls, expanded view")
+![Navigation controls, expanded view.](media/nav-expanded-ill.png "Navigation controls, expanded view")
 
 Legend:
 
@@ -82,14 +82,14 @@ Use the work-area select at the bottom of the navigation panel to move between t
 - **Settings**: Provides access to system settings used to administrate the system (requires admin privileges).
 - **Training**: Provides links to online help pages and tutorials recommended for new users.
 
-![Work-area selector](media/work-area-selector.png "Work-area selector")
+![Work-area selector.](media/work-area-selector.png "Work-area selector")
 
 
 ## Working with list views
 
 Usually, when you first open an entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Marketing email** entity, you'll see a list of individual email messages.
 
-![A typical list view](media/list-view.png "A typical list view")
+![A typical list view.](media/list-view.png "A typical list view")
 
 Legend:
 
@@ -106,7 +106,7 @@ Legend:
 
 Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
-![A typical record view](media/form-view.png "A typical record view")
+![A typical record view.](media/form-view.png "A typical record view")
 
 Legend:
 
@@ -120,7 +120,7 @@ Legend:
 
 Nearly all types of records show a **Related** tab after you have saved them at least once. This tab is actually a drop-down list that you can use to find other types of records that use or reference the displayed record. For example, if you are viewing a lead-scoring model, select **Lead scores** from the **Related** drop-down list to find all the leads that model has scored.
 
-![The Related tab/menu](media/related-tab.png "The Related tab/menu")
+![The Related tab/menu.](media/related-tab.png "The Related tab/menu")
 
  When you choose an entity name from the **Related** drop-down list, a new tab named for that entity opens, showing a list of all related records of that type. The **Related** tab remains available, and you can still use it to find other types of records that reference the current one.
 
@@ -128,7 +128,7 @@ Nearly all types of records show a **Related** tab after you have saved them at 
 
 Business processes help everyone follow best practices, even for situations that don't occur very often. Where available, business processes provide a step-by-step timeline for the stages of a process at the top of the relevant record. You open the menu for the active stage, enter each field of required and business-critical data, and then select the next stage when you're ready to work with it. Some business processes (such as a telemarketing script) can be completed in the time it takes to make a single phone call, while others (like event planning) might take several weeks.
 
-![A typical business process display](media/business-process.png "A typical business process display")
+![A typical business process display.](media/business-process.png "A typical business process display")
 
 ### See also
 

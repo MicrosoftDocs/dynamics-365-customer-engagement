@@ -1,17 +1,16 @@
 ---
-title: "Use Microsoft Power Automate flows with Field Service Mobile | MicrosoftDocs"
+title: "Use Microsoft Power Automate flows with Field Service Mobile (contains video) | MicrosoftDocs"
 description: Learn how to use Power Automate flows instead of Dynamics 365 workflows for Dynamics 365 Field Service Mobile processes.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 10/01/2020
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.date: 07/28/2022
+ms.reviewer: mhart
+
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Use Microsoft Power Automate flows with Field Service Mobile
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 Administrators can replace Dynamics 365 workflows with Power Automate flows for Field Service Mobile processes like geofencing, geofence alerts, and push notifications.
 
@@ -39,7 +41,7 @@ For more information, see the following video.
 To switch from workflow to Power Automate, go to **Field Service Settings** and toggle **Use Enhanced Background Processing** to **Yes**. This action will move background processing from workflow to Power Automate; any enabled Power Automate flows will execute.
 
 > [!Note]
-> Making this change in **Field Service Settings** means that all Field Service workflows will move to Power Automate.
+> The **Enhanced Background Processing** setting is in preview and it means that all Field Service workflows will move to Power Automate.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings showing the enhanced background processing field.](./media/flow-enhanced_background_processing.jpg)

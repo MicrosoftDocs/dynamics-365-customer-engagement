@@ -1,18 +1,18 @@
 ---
-title: "FAQs about Omnichannel for Customer Service | MicrosoftDocs"
+title: "FAQ about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
-ms.date: 05/24/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Frequently asked questions (FAQs) about Omnichannel for Customer Service
-
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+# Frequently asked questions (FAQ) about Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## General
 
@@ -216,7 +216,7 @@ The Validate API Key functionality will validate the customer ID and the API key
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
 
-See the [TeleSign coverage map for Two-Way SMS](https://www.telesign.com/coverage-map/). For any additional queries, we recommend that you send an email request to support@telesign.com.
+See the [TeleSign coverage map for Two-Way SMS](https://www.telesign.com). For any additional queries, we recommend that you send an email request to support@telesign.com.
 
 ### Which phone number types are supported?
 

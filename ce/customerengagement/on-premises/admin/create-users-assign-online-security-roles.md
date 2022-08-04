@@ -1,10 +1,10 @@
 ---
-title: "Create users and assign security roles | MicrosoftDocs"
-description: "Add users to your organization one at a time, or add multiple users at the same time by using the Add Users wizard."
+title: "Add users and assign roles in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create and add users to your organization and assign them a security role. This page also explains how to update a user record or disable a user."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -145,9 +145,9 @@ The following table shows the fields that are populated on the Customer Engageme
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

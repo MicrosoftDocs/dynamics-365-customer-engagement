@@ -4,10 +4,10 @@ description: "This sample shows how to create a task for a fax by using the IOrg
 ms.custom: 
 ms.date: 01/07/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: f82fe3eb-1867-4edb-869d-58081f38d653
@@ -17,7 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Convert a fax to a task

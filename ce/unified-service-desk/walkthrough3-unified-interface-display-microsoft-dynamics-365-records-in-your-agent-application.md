@@ -16,7 +16,7 @@ search.app:
 
 # Walkthrough 3: Display model-driven apps (Unified Interface apps) records in your agent application
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 This walkthrough demonstrates how to display model-driven app records in your agent application. In this walkthrough, you’ll display all the account and contact records in the model-driven apps. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
 
@@ -315,11 +315,11 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
  Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on selecting the down arrow.  
 
- ![Display account and contact records](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
+ ![Display account and contact records.](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
 
  Select **Account** or **Contact** under the **SEARCH** button to display the respective records from your instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
 
- ![Contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
+ ![Contact records displayed.](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  

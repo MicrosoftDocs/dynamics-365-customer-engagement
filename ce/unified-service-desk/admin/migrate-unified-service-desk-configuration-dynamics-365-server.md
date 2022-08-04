@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Migrate Unified Service Desk configuration 
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 After you have completed the development or configuration of your agent application, you might want to migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or test environment to your production environment. Migrating your data involves exporting your existing configuration data from the source instance, and then importing it into the target instance.  
   

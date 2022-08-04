@@ -1,11 +1,9 @@
 ---
 title: "Uninstall Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to uninstall Dynamics 365 Field Service 
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 06/11/2020
+ms.date: 05/23/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -29,36 +27,41 @@ To uninstall Field Service, administrators can go to **Settings** > **Solutions*
 |-------|---------------------------------------|-----------------------------------------------------------|
 | 1     | FieldServiceUpgradeScripts            |                                                           |
 | 2     | FieldService_Anchor                   |                                                           |
-| 3     | msdyn_OneFSSCM                        | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
-| 4     | msdyn_InsightsAnalyticsFSConfiguration|                                                           |
-| 5     | msdyn_DataInsightsAndAnalyticsForFS  |                                                           |
-| 6     | msdyn_DataInsightsAndAnalytics       |                                                           |
-| 7     | msdyn_FieldServiceGuides             |                                                           |
-| 8     | msdyn_GeofenceAlert                  |                                                           |
-| 9     | msdyn_FSMNotifications_Patch_1       |                                                           |
-| 10    | msdyn_FSMNotifications               |                                                           |
-| 11    | msdyn_FieldServiceGeofencing         |                                                           |
-| 12    | msdyn_Geofencing_Patch_1             |                                                           |
-| 13    | msdyn_Geofencing                     |                                                           |
-| 14    | msdyn_CFS_Patch_1                    |                                                           |
-| 15    | msdyn_FieldServiceGeolocation        |                                                           |
-| 16    | msdyn_Geolocation                    |                                                           |
-| 17    | ConnectedFieldService                |                                                           |
-| 18    | msdynce_FieldServiceHealth_Patch     |                                                           |
-| 19    | msdynce_FieldServiceHealth           |                                                           |
-| 20    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
-| 21    | FieldService                         |                                                           |
-| 22    | msdyn_Inspections                    |                                                           |
-| 23    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
-| 24    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
-| 25    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
-| 26    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
-| 27    | msdyn_TESA                           | Required for Project Service Automation       |
-| 28    | ResourceSchedulingControls           | Required for Project Service Automation                   |
-| 29    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
-| 30    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
-| 31    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
-| 32    | msdynce_3DViewer                     |                                                           |
+| 3     | msdyn_FieldServiceCollabSolution      |                                                           |
+| 4     | msdyn_OneFSSCM                        | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 5     | msdyn_InsightsAnalyticsFSConfiguration|                                                           |
+| 6     | msdyn_DataInsightsAndAnalyticsForFS  |                                                           |
+| 7     | msdyn_DataInsightsAndAnalytics       |                                                           |
+| 8     | msdyn_FieldServiceAdminExp           |                                                           |
+| 9     | msdyn_FieldServiceGuides             |                                                           |
+| 10    | msdyn_GeofenceAlert                  |                                                           |
+| 11    | msdyn_FSMNotifications_Patch_1       |                                                           |
+| 12    | msdyn_FSMNotifications               |                                                           |
+| 13    | msdyn_FieldServiceGeofencing         |                                                           |
+| 14    | msdyn_Geofencing_Patch_1             |                                                           |
+| 15    | msdyn_Geofencing                     |                                                           |
+| 16    | msdyn_CFS_Patch_1                    |                                                           |
+| 17    | msdyn_FieldServiceGeolocation        |                                                           |
+| 18    | msdyn_Geolocation                    |                                                           |
+| 19    | ConnectedFieldService                |                                                           |
+| 20    | msdynce_FieldServiceHealth_Patch     |                                                           |
+| 21    | msdynce_FieldServiceHealth           |                                                           |
+| 22    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
+| 23    | FieldService                         |                                                           |
+| 24    | msdyn_Inspections                    |                                                           |
+| 25    | msdyn_FieldServiceSurveys            |                                                           |
+| 26    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 27    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
+| 28    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
+| 29    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
+| 30    | msdyn_TESA                           | Required for Project Service Automation       |
+| 31    | ResourceSchedulingControls           | Required for Project Service Automation                   |
+| 32    | msdyn_FieldServiceSurveys            |                                                           |
+| 33    | MicrosoftDynamicsScheduling_Anchor   | Required for Project Service Automation                   |
+| 34    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
+| 35    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
+| 36    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
+| 37    | msdynce_3DViewer                     |                                                           |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

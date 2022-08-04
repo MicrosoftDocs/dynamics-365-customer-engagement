@@ -1,17 +1,15 @@
 ---
-title: "Use the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Use the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to use the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 01/21/2021
+ms.date: 04/14/2022
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -21,7 +19,7 @@ search.app:
 
 # Use the Field Service (Dynamics 365) mobile app to complete work orders
 
-Available natively for Apple iOS and Google Android phones and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones and tablets, as well as Windows laptops and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs.
 - Support for picture, video, and asset barcode scanning.
@@ -35,7 +33,7 @@ Before using the mobile app, a system administrator must [install and set up the
 
 ## Download
 
-Go to the app store on your iOS or Android device and search for **Dynamics 365 Field Service**.
+Go to the app store on your iOS, Android, or Windows device and search for **Dynamics 365 Field Service**.
 
 Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot.
 
@@ -143,7 +141,7 @@ When the **Status** is set to **Available**, you'll have all the data you need t
 
 
 > [!Note]
-> When the technician has internet connectivity, data on the device is automatically refreshed every five minutes.
+> When the technician has internet connectivity, data on the device is automatically refreshed every five minutes or as configured in their mobile offline profile.
 
 Technicians can also **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the **Update offline data** option. 
 
@@ -161,7 +159,7 @@ To sync specific views, select **Refresh** from the app's bottom menu. For examp
 > [!div class="mx-imgBorder"]
 > ![Devices showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
 
-System administrators can find more information in the topic on [configuring offline sync filters](mobile-power-app-system-offline.md).
+For more information, see this article: [Offline data and Sync Filters](mobile-power-app-system-offline.md).
 
 ## Time entry
 
@@ -223,7 +221,7 @@ For a guided walkthrough, check out the following video.
 To create a follow-up work order, the technician must select the **Follow-up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
 
 > [!div class="mx-imgBorder"]
-> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the follow up work order option](./media/mobile-2020-follow-up.png)
+> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the follow up work order option.](./media/mobile-2020-follow-up.png)
 
 After selecting **Follow up**, the technician is guided through the new work order creation flow.
 
@@ -255,10 +253,6 @@ Then select **Reconfigure**.
 
 Reconfiguring deletes data and metadata for the current organization from the cache.
 
-> [!Tip]
-> Don't rely solely on the reconfiguration for security measures.
-
-Make sure to reconfigure before you sign out. You won't be able to reconfigure if you're signed into another organization.
 
 ### Recent + pins
 
@@ -267,40 +261,6 @@ Use the **Recent** option in the main menu to quickly go to recently viewed, lik
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the recent and pin icons in the menu.](./media/mobile-2020-menu-pin.png)
-
-### Update offline data
-
-If you expect to be performing work in areas without internet access, you can download important information to your device to keep working.
-
-Consider a scenario where a technician needs to work in the basement of an industrial complex. They will often have limited or no internet connectivity. Working offline will download their work orders, notes, service tasks, and pictures for use without connectivity; once connectivity is restored, new data is automatically synced back to the server. This process happens without interruption to the technician's experience.
-
-Upon sign-in, the app will download important Field Service information as defined by system administrators.
-
-> [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
-
-When the **Status** is set to **Available**, you'll have all the data you need to work offline.
-
-> [!Note]
-> When the technician has internet connectivity, data on the device is automatically refreshed every five minutes.
-
-Technicians can **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the **Update offline data** option. 
-
-> [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing how to get to the update offline data option.](./media/mobile-2020-offline-update-offline-data2.png)
-
-Technicians may also want to sync specific views when they have internet connectivity. For instance: 
-
-- The technician wants to check for new bookings on their calendar before starting to drive.
-- The technician wants to check for updates on a work order made by other crew members. 
-
-To sync specific views, select **Refresh** from the app's bottom menu. For example, you can refresh bookings by selecting the **Refresh** option, shown in the following screenshot.
-
-
-> [!div class="mx-imgBorder"]
-> ![Device render showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
-
-System administrators can find more information in the topic on [configuring offline sync filters](mobile-power-app-system-offline.md).
 
 
 ### See also

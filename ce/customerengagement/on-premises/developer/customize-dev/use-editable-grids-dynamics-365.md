@@ -4,7 +4,7 @@ description: "Editable grid is a new custom control in Dynamics 365 Customer Eng
 ms.custom: 
 ms.date: 10/18/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -35,7 +35,7 @@ For more information about using editable grids using the UI, see [Make grids (l
   
 <a name="FormScripting"></a>   
 ## Form scripting support  
- The editable grids support client-side events and methods that can be used to write custom client extensions according to your business need. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Grids and subgrids in Customer Engagement (Client API reference)](../clientapi/reference/grids.md) 
+ The editable grids support client-side events and methods that can be used to write custom client extensions according to your business need. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Grids and subgrids in Customer Engagement (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/grids) 
   
 <a name="EntitiesSupported"></a>   
 ## Entities and views supported by editable grid  
@@ -283,7 +283,7 @@ For a list of FAQs related to editable grids, see [Editable grids FAQs](../../cu
 
 ### See also  
 
- [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md) <br/> 
+ [Grids and subgrids in Customer Engagement](/powerapps/developer/model-driven-apps/clientapi/reference/grids) <br/> 
  [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)<br/>
  [Use keyboard shortcuts in editable grids](../../basics/keyboard-shortcuts.md#editable-grids-views)
 

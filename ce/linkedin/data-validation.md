@@ -1,11 +1,12 @@
 ---
-title: "Data validation capabilities for the LinkedIn Sales Navigator integration | Microsoft Docs"
-description: "Data validation for LinkedIn Sales Navigator integration in Dynamics 365 Sales"
-keywords: "installation, setup, sales navigator"
+title: "Data validation capabilities of LinkedIn Sales Navigator"
+description: "Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records."
 ms.date: 07/09/2019
 ms.topic: article
 author: udaykirang
 ms.author: udag
+manager: shujoshi
+keywords: "installation, setup, sales navigator"
 search.audienceType: 
   - admin
   - customizer
@@ -18,7 +19,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ---
 
-# Data validation
+# Data validation capabilities of LinkedIn Sales Navigator
 
 This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched contacts up to date. It uses the LinkedIn information to validate the contact records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a contact.
 
@@ -50,7 +51,7 @@ There are several ways to find out if a contact's company has changed.
 
 To update the org chart for a specific contact, perform the following steps in the **Verify Contact Details** pane.
 
-![Side pane to verify contact details](media/sales-navigator-side-pane.png)
+![Side pane to verify contact details.](media/sales-navigator-side-pane.png)
 
 1. In Dynamics 365 Sales, open the **Verify Contact Details** pane as described in the section above.
 

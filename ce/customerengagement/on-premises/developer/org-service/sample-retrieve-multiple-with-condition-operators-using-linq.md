@@ -4,7 +4,7 @@ description: "This sample shows how to retrieve multiple condition operators wit
 ms.custom: 
 ms.date: 02/05/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -43,7 +43,7 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
 [SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/RetrieveMultipleUsingConditions/SampleProgram.cs) 
   
 ### See also  
- [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
+ [Build Queries with LINQ (.NET Language-Integrated Query)](/powerapps/developer/data-platform/org-service/build-queries-with-linq-net-language-integrated-query)   
  [Sample: More LINQ Query Examples](sample-more-linq-query-examples.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
 

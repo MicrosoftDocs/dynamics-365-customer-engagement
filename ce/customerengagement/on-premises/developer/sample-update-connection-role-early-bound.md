@@ -4,10 +4,10 @@ description: "The sample demonstrates how to modify the properties of the connec
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -22,7 +22,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Update a connection role (early bound)
 

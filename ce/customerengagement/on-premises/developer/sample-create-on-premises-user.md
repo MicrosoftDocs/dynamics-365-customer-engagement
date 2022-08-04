@@ -4,10 +4,10 @@ ms.custom:
 description: "The sample shows how to create a new system user in Active Directory and Customer Engagement."
 ms.date: 1/23/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
@@ -17,7 +17,6 @@ ms.author: kvivek
 manager: KumarVivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create an on-premises user
 

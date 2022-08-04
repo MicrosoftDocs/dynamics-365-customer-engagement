@@ -1,7 +1,7 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use predefined and customized themes to define the look and feel of your agent application in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 03/08/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -18,35 +18,37 @@ ms.custom:
 
 # Customize themes in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
-Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] define the look and feel of the agent application. A theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications.
-
-  The predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme) supports the high-contrast mode. The high-contrast mode in [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] helps you read the text on screen clearly by increasing the color contrast. When you turn on high-contrast mode on your computer and are using the  `Air Theme`, the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client will automatically switch to the high-contrast mode. Similarly, disabling the high-contrast mode on your computer will cause the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to automatically switch to the normal display mode.
-
-> [!NOTE]
->  The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the  predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you are using custom themes or custom hosted controls that supports high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast mode on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support  for custom themes](#HighContrast)
+Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] define the look and feel of the agent application. A theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] consists of an XAML resource library, and can be placed on any web server and referenced via URL, or can be compiled into .NET assemblies (DLLs) and distributed with the agent applications.
 
 <a name="PredefinedThemes"></a>
-## Predefined Themes available in Unified Service Desk
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with three predefined themes.
+## Predefined themes available in Unified Service Desk
+
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] includes two predefined themes.
 
 ::: moniker range=">=dynamics-usd-4"
 
 <a name="UnifiedBlueTheme"></a>
-### Unified Blue Theme
+### Unified Blue theme
 
-This is Unified Blue theme, which is the predefined theme for Unified Service Desk when you are using Unified Interface App.
+This is the predefined theme for Unified Service Desk if you're using Unified Interface apps.
 
-![Unified Blue in Unified Service Desk](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
+![Unified Blue in Unified Service Desk.](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
 
 ::: moniker-end
 
 <a name="AirTheme"></a>   
-### Air Theme  
- This is the Air theme. This theme supports high-contrast mode.  
+### Air theme
   
- ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
+ This is the predefined theme for Unified Service Desk if you're using the Web Client.
+  
+ ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
+
+The Air theme supports the high-contrast mode. When you turn on the high-contrast mode on your computer and are using the `Air` theme, the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client will automatically switch to the high-contrast mode. Similarly, disabling the high-contrast mode on your computer will cause the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to automatically switch to the normal display mode.
+
+The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the predefined [Air theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you're using custom themes or custom hosted controls that support high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast modes on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support for custom themes](#HighContrast)
+
+> [!Caution]
+> You might face issues when you switch to the Air theme in Unified Interface apps because the Air theme is applicable only to the Web Client.
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
@@ -68,24 +70,25 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
  Selecting a theme in the **Set Theme** submenu makes an action call to the **SetTheme** action with the appropriate syntax in the **Data** field as mentioned earlier. For example, this is the action call definition for the Air style:  
   
- ![Action call definition for Air theme](../unified-service-desk/media/crm-itpro-usd-actioncallforairstyle.png "Action call definition for Air theme")  
+ ![Action call definition for Air theme.](../unified-service-desk/media/crm-itpro-usd-actioncallforairstyle.png "Action call definition for Air theme")  
   
 <a name="Customize"></a>   
-## Customize themes in Unified Service Desk  
+## Customize themes in Unified Service Desk
+
  Apart from being able to choose from various predefined themes, you can customize a theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This is done by updating selective controls and then merging it with the existing theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to customize the appearance. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a default style (XAML file) and a bunch of XAML brush resources that you can use to understand the various WPF controls and layout that define the appearance of your agent application. You can find the default style for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, **DefaultStyle.xaml**, along with other XAML brush resources in the [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] SDK download package. [Download](https://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the file and its contents under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.  
   
 > [!NOTE]
->  WPF and XAML scripting are essential skills required for customizing the display of your agent applications by manipulating controls in a XAML file.  
+> WPF and XAML scripting are essential skills required for customizing the display of your agent applications by manipulating controls in a XAML file.  
   
  Use the **SetTheme** action for the Global Manager hosted application to customize the default style of the agent application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports merging of your customizations with the existing theme or display style of the agent application. This effectively means that you just need to specify the controls or areas that you want to be changed along with the ResourceDictionary reference block to customize an existing display style. For general information about ResourceDictionary, select [ResourceDictionary and XAML resource references](/previous-versions/windows/apps/hh968442(v=win.10)).  
   
- Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
+ Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file ready.  
   
 1. Sign in to Unified Service Desk Administrator.  
   
 2. Select **Action Calls** under **Basic Settings**.  
   
-3. Select **+ Nw** to create an action call.  
+3. Select **New** to create an action call.  
   
 4. On the **New Action Call** page, set the general properties:  
   
@@ -140,7 +143,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
      This is how your action call definition looks like:  
   
-   ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
+   ![Define action call for customizing display.](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
   
 9. Select **Save**.  
   
@@ -156,16 +159,18 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
 3. In Debugger, select the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
   
-   ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
+   ![Test action calls & UII actions in debugger.](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
-4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and select the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
+4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and select the **Run Action Call** icon (![USD debugger Run Action Call button.](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
   
-   ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
+   ![Customized display of the client application.](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
   
    To undo the changes, select one of the predefined themes in the client application.  
   
-<a name="HighContrast"></a>   
-## High-contrast mode support  for custom themes  
+<a name="HighContrast"></a>
+
+## High-contrast mode support for custom themes
+
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] internally uses normal and high-contrast mode XAML brush resources to display its UI elements depending on the high-contrast mode setting on your computer. You can find the XAML brush resources in the [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] SDK download package. [Download](https://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the file and its contents under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.  
   
  To support high-contrast mode in your custom themes, consider the following:  
@@ -184,23 +189,23 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
         <SolidColorBrush x:Key="WindowBackgroundStyle" Color="{x:Static SystemColors.WindowColor}"/>  
         ```  
   
--   Use the new  `$SystemParameters.HighContrast` replacement parameter in each of your action call definition as a condition to ensure that a action call is fired appropriately. For example, in the action call definition for setting custom theme for:  
+-   Use the new `$SystemParameters.HighContrast` replacement parameter in each of your action call definitions as a condition to ensure that an action call is fired appropriately. For example, in the action call definition for setting custom theme for:  
   
-    -   The *normal* mode, use the following in the **Condition** field to check that the high-contrast mode is not set on your computer:  
+    -   For the *normal* mode, use the following in the **Condition** field to check that the high-contrast mode is not set on your computer:  
   
         ```  
         "[[$SystemParameters.HighContrast]g]"=="False"  
         ```  
   
-    -   The *high-contrast* mode, use the following in the **Condition** field to check that the high-contrast mode is set on your computer:  
+    -   For the *high-contrast* mode, use the following in the **Condition** field to check that the high-contrast mode is set on your computer:  
   
         ```  
         "[[$SystemParameters.HighContrast]g]"=="True"  
         ```  
   
-### See also  
- [Customize themes for High Contrast settings](../unified-service-desk/customize-themes-in-unified-service-desk.md )   
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
+### See also
+ 
+ [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Use themes to customize the appearance of your application](../unified-service-desk/customize-appearance-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
 

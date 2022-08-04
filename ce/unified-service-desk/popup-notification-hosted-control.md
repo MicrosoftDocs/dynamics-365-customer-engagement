@@ -26,7 +26,7 @@ Use the **Popup Notification** hosted control type to display notifications in [
 ## Create a Popup Notification hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Popup Notification** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Notification Hosted Control](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")
+ ![Notification Hosted Control.](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")
 
  In the **New Hosted Control** screen:  
 

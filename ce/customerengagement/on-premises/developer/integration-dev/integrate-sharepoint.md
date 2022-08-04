@@ -3,7 +3,7 @@ title: "Integrate Dynamics 365 Customer Engagement with SharePoint (Developer Gu
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -40,7 +40,7 @@ search.audienceType:
   
 ## Reference  
 
-[Manage your documents using SharePoint](https://technet.microsoft.com/library/dn531062.aspx)  
+[Manage your documents using SharePoint](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531062(v=crm.8))  
 [SharePoint general development](https://msdn.microsoft.com/sharepoint/default.aspx)  
 [Overview of document management in SharePoint 2013](https://technet.microsoft.com/library/cc261933\(v=office.15\).aspx)  
   

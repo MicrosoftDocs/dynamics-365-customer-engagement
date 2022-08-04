@@ -4,10 +4,10 @@ description: "Manage common document types, such as Word, Excel, PowerPoint, One
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -25,15 +25,15 @@ search.audienceType:
 Dynamics 365 Customer Engagement (on-premises) document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in Customer Engagement (on-premises) that are seamlessly stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. 
 
 > [!div class="mx-imgBorder"] 
-> ![Document management in customer engagement and SharePoint](media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
+> ![Document management in customer engagement and SharePoint.](media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
 
 Depending on your environment, there are several Customer Engagement (on-premises) and SharePoint configurations possible. 
 
 
 |Configuration  |More information  |
 |---------|---------|
-|Customer Engagement (on-premises) with with SharePoint Online     |  [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)       |
-|Customer Engagement (on-premises) with with SharePoint on-premises     | [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)        |
+|Customer Engagement (on-premises) with SharePoint Online     |  [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)       |
+|Customer Engagement (on-premises) with SharePoint on-premises     | [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)        |
 
 Administrators set up document management, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   

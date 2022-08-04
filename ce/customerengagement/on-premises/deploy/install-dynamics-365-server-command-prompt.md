@@ -1,8 +1,9 @@
 ---
-title: "Install Microsoft Dynamics CRM Server by using a command prompt | Microsoft Docs"
+title: "Install Microsoft Dynamics 365 Server by using a command prompt | Microsoft Docs"
+description: Learn how to install Dynamics 365 Server using the command prompt with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

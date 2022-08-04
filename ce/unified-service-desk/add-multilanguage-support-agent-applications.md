@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Manage language support (localized resources) for your agent applications
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multiple language scenarios. This includes the hosted control tab names.  
 
@@ -51,7 +51,7 @@ If you use a web resource to link the button text to strings, then the web resou
   
    5. On the new web resource page, specify the name of the web resource, select **Data (XML)** as the type, **English** as the language, and then select your .xml file.  
   
-   ![New web resource](../unified-service-desk/media/usd-new-web-resource.PNG "New web resource")  
+   ![New web resource.](../unified-service-desk/media/usd-new-web-resource.PNG "New web resource")  
   
    6. Save and publish the web resource.  
   
@@ -72,7 +72,7 @@ If you use a web resource to link the button text to strings, then the web resou
   
         The LCID should be populated with a value that represents the language that this resource represents. [View the list of locale IDs](https://msdn.microsoft.com/library/ms912047\(WinEmbedded.10\).aspx).  
   
-   ![New language module](../unified-service-desk/media/usd-new-language-module.png "New language module")  
+   ![New language module.](../unified-service-desk/media/usd-new-language-module.png "New language module")  
   
    > [!IMPORTANT]
    >  If you use language services, you should always configure language services for your base Dataverse language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in Dataverse that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  

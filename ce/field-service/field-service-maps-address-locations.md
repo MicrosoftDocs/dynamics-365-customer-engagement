@@ -1,11 +1,9 @@
 ---
 title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.custom:
-- dyn365-fieldservice
-ms.date: 03/24/2021
+ms.date: 01/19/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 ms.suite: ""
 applies_to:
@@ -39,14 +37,14 @@ Enable location and map settings to perform functions like:
 Go to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of settings](media/quickstart-rs-settings.png) 
+> ![Screenshot of settings.](media/quickstart-rs-settings.png) 
 
 Set **Connect to Maps** to **Yes**.
 
 Connecting to Maps is enabled by default for new environments. To confirm your environment is connected to maps - or to disconnect maps - go to to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting connect to maps to yes](media/Perform-Initial-Configurations-image7.png)  
+> ![Screenshot of setting connect to maps to yes.](media/Perform-Initial-Configurations-image7.png)  
 
 > [!Note]
 > In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, and is unavailable for end users and external parties.  
@@ -62,7 +60,7 @@ Geocoding is associating a latitude and longitude to an address. Geocoding allow
 From the Field Service App, go to  **Settings** > **Field Service Settings** > **Other** tab.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/quickstart-fs-settings.png)  
+> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu.](media/quickstart-fs-settings.png)  
 
 In the **Other** section, decide if you would like the application to auto geocode addresses. The recommended setting is **Yes.**
  
@@ -92,7 +90,7 @@ Address recommendations are on the account, work order, and booking forms.
 Enabling maps makes it so dispatchers and technicians can see a map view on work orders, accounts, and other records.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order map](media/work-order-map.png) 
+> ![Screenshot of work order map.](media/work-order-map.png) 
 
 Bing Maps is enabled by default for new environments. To confirm Bing Maps is enabled - or to disable Bing Maps - go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
 
@@ -111,6 +109,14 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 
 For more information, see this article: [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) 
 
+## Location tracking
+
+Frontline workers often travel to various locations throughout their work day, and it's helpful for schedulers to know where frontline workers are at any given time. Frontline workers using the Field Service (Dynamics 365) mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a frontline worker's location history. See the topic on [location tracking](mobile-powerapp-location-auditing.md) for more details.
+
+## Geofencing
+
+A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. See the topic on [geofencing](mobile-powerapp-geofence.md) for more details.
+
 ## Test geocoding
 
 Finally, let’s test geocoding.
@@ -120,12 +126,12 @@ Go to **Field Service** > **Work Orders** and select **+New**.
 Begin typing an address.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order address form](media/Perform-Initial-Configurations-image13.png)  
+> ![Screenshot of work order address form.](media/Perform-Initial-Configurations-image13.png)  
 
 The system will find the address and present it as a suggestion.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of address suggestion](media/Perform-Initial-Configurations-image14.png)  
+> ![Screenshot of address suggestion.](media/Perform-Initial-Configurations-image14.png)  
 
 After selecting the correct address, the form will populate the rest of the address, including the latitude and longitude.
 

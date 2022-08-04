@@ -2,7 +2,7 @@
 title: "Administrators learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find all the training options for Dynamics 365 Marketing administrators."
 ms.date: 07/08/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
@@ -20,7 +20,7 @@ search.app:
 
 # Dynamics 365 Marketing administrators learning catalog
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 

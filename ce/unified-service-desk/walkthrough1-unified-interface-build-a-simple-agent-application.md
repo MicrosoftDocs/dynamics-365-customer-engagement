@@ -16,7 +16,7 @@ search.app:
 
 # Walkthrough 1: Build a simple agent application for Unified Interface apps
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to Microsoft Dataverse. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.
   
@@ -109,7 +109,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 
 7. Type `Contoso` in the search bar, and select the search icon. The three hosted controls that you created earlier are displayed in the search results. Select the records and then select **Add**. 
   
-   ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
+   ![Add the hosted controls to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
     The hosted controls are added to the configuration. 
 
@@ -128,7 +128,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3. Select **Save**.  
   
-   ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
+   ![User added to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
   
 <a name="Step4"></a>   
 ## Step 4: Test the application  
@@ -136,7 +136,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
  Your agent application will look like the following:  
   
- ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
+ ![Basic agent application without any controls.](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
  The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**. 
   

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Create a CTI Desktop Manager in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 The CTI Desktop Manager component is the interface between the computer telephony integration (CTI) system and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] or [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)]. The CTI Desktop Manager component creates the following two objects that collectively manage the state and data in a call:  
   
@@ -37,7 +37,7 @@ The CTI Desktop Manager component is the interface between the computer telephon
   
   Use the BaseCtiDesktopManagerControl.cs file in the **USD CTI Connector** project template to configure your CTI Desktop Manager, and the AgentStateManager.cs and CallStateManager.cs files in to configure call and agent states. These files provide pre-wired methods and instructions (in the form of comments) to help you create a CTI Desktop Manager component.  
   
-  ![Manage CTI Desktop Manager](../unified-service-desk/media/usd-manage-cti-desktop-manager.png "Manage CTI Desktop Manager")  
+  ![Manage CTI Desktop Manager.](../unified-service-desk/media/usd-manage-cti-desktop-manager.png "Manage CTI Desktop Manager")  
   
 <a name="CustLookup"></a>   
 ## Raise a search request when a call arrives  
@@ -47,7 +47,7 @@ The CTI Desktop Manager component is the interface between the computer telephon
   
 - **Unified Service Desk**: The search request is handled by the Global Manager hosted control.  
   
-- **User Interface Integration (UII)**: The lookup request is sent to [ICustomerSearch](/dotnet/api/microsoft.uii.desktop.core.icustomersearch), and it is up to you how you want to implement the search control. You can also send additional data to the search request using the [String)](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest.addlookuprequestitem(system.string,system.string)) method. UII provides you project templates to create a Windows Forms-based or WPF-based customer search control with the CTI search request pre-wired.  
+- **User Interface Integration (UII)**: The lookup request is sent to [ICustomerSearch](/dotnet/api/microsoft.uii.desktop.core.icustomersearch), and it is up to you how you want to implement the search control. You can also send additional data to the search request using the [String)](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest.addlookuprequestitem) method. UII provides you project templates to create a Windows Forms-based or WPF-based customer search control with the CTI search request pre-wired.  
   
 <a name="CallData"></a>   
 ## Access call data and events  

@@ -1,9 +1,10 @@
 ---
 title: "Configure another organization to use with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to configure multiple organizations for use in Dynamics 365 for Outlook using Dynamics CRM 2015 or later. 
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -41,7 +42,7 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
   
     You’ll see the following (or similar) dialog box:  
   
-    ![Outlook Configuration Wizard dialog box in Dynamics 365 apps](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365 apps")  
+    ![Outlook Configuration Wizard dialog box in Dynamics 365 apps.](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365 apps")  
   
 4. Do one of the following:  
   

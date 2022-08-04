@@ -23,7 +23,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 ## Components of an agent script  
  The following is a sample agent script in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
- ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
+ ![Agent script in Unified Service Desk.](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
   
 - **Current step and history**: The drop down list (Welcome to Contact Session) shows the current step. If you click the list, you’ll see a history of where you have been. You can select a previous step from this list to return to it.  
   

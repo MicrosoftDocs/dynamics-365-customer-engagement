@@ -1,12 +1,11 @@
 ---
 title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 05/24/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -46,6 +45,9 @@ Actions will only run when the app is running online.
 JavaScript web resources can be added to mobile forms and downloaded with Offline First. 
 
 JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
+
+> [!Note]
+> Refer to [this doc](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) for any potential limitations by platform for WebResources in offline mode.
 
 ## Offline JavaScript example
 

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Base sample application package
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
@@ -51,7 +51,7 @@ ms.custom:
   
 8. **Notes**: This is the area to take notes in regarding the case.  
   
-   ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
+   ![Unified Service Desk Base package components.](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

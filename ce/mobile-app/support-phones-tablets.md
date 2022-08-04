@@ -2,9 +2,9 @@
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 4/14/2021
+ms.date: 12/10/2021
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: get-started-article
@@ -24,7 +24,7 @@ search.app:
 ---
 # What's supported
 
-Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)), built on Microsoft Dataverse on your mobile device. 
+Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)), built on Microsoft Dataverse on your mobile device. 
 
 To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], or Windows 10 devices. 
   
@@ -33,7 +33,7 @@ To do this, install the Dynamics 365 for phones or tablets mobile app on your iO
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 12.4.9 or later  |     1 GB (2 GB recommended)     
+|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 13 or later   |     1 GB (2 GB recommended)     
 |     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
                 
  
@@ -61,7 +61,7 @@ For full functionality and optimized experience, we strongly recommend that you 
   
 |                              Platform                             |   Versions  | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       Apple iPad      | iOS 12.4.9 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
+|       Apple iPad      | iOS 13 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
 |     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |                                  |
 | Windows tablet or PC |      10       |     1366 x 768 resolution (720p)
         
@@ -97,6 +97,19 @@ When the application first loads after installation, it will determine the devic
 
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   
+- Arabic (Algeria) - 5121
+- Arabic (Bahrain) - 15361
+- Arabic (Egypt) - 3073
+- Arabic (Iraq) - 2049
+- Arabic (Jordan) - 11265
+- Arabic (Kuwait) - 13313
+- Arabic (Lebanon) - 12289
+- Arabic (Morocco) - 6145
+- Arabic (Qatar) - 16385
+- Arabic (Saudi Arabia) - 1025
+- Arabic (Tunisia) - 7169
+- Arabic (U.A.E.) - 14337
+- Arabic (Yemen) - 9217
 - Basque (Basque) - 1069  
 - Bulgarian (Bulgaria) - 1026  
 - Catalan (Catalan) - 1027  
@@ -139,6 +152,13 @@ When the application first loads after installation, it will determine the devic
 - Thai - 1054  
 - Turkish - 1055  
 - Ukrainian - 1058  
+
+### FAQs about supported languages
+
+1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there is no limitations.
+2. Is there additional requirements for customizations? </br> No, there isn't anything additional for customizations.
+3. How does the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
+
 
 
 ## Deprecated and unsupported platforms

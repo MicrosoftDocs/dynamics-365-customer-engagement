@@ -2,7 +2,7 @@
 title: "Incident Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
 ms.date: 05/15/2019
-ms.service: "crm-online"
+
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -12,7 +12,8 @@ search.audienceType:
   - developer
 
 ---
-# Incident Entity Reference
+
+# Incident Entity Reference for Dynamics 365 Customer Engagement
 
 Service request case associated with a contract.
 

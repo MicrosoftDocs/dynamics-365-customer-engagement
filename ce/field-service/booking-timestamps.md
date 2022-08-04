@@ -1,11 +1,8 @@
 ---
 title: "Booking timestamps in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/03/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -61,10 +58,6 @@ Next, the technician sees the booking and work order on their mobile device and 
 
 **Timestamps are created to document when the booking status is updated**. 
 
-> [!Note]
-> Booking timestamps work when Field Service Mobile is in offline mode too. This means that every time a technician changes their booking status, the timestamp documenting the status change is saved locally to the device, and synced to the server when internet access is resumed. Booking statuses can also be updated in the back office by dispatchers on the booking form or schedule board and timestamps will alos be created in this scenario.
-
-
 ## View timestamps
 
 You can see timestamps by going to the booking (entity name bookableresourcebooking), then **Related** > **Booking Timestamps**.
@@ -81,10 +74,10 @@ Each booking timestamp details:
 
 - **Timestamp Time**: The date and time of status change.
 
-- **Timestamp Source**: The device from which the status was changed. If the status was changed from Field Service Mobile, this will read **Mobile**. If the status was changed from the schedule board, it will read **Desktop**. 
+- **Timestamp Source**: The device from which the status was changed. When updating from the Field Service (Dynamics 365) mobile app, this timestamp source will read **Desktop** if the changes were made while the app is running in online mode, and **Mobile** when the app is running in offline mode. 
 
 > [!Note]
-> By default Booking Timestamps are only generated when there is a change in the related Field Service Status which is noted on each booking status, but this is configurable based on the **Timestamp Frequency setting** described below.
+> By default, booking timestamps are only generated when there's a change in the related Field Service status, which is noted on each booking status; this is configurable based on the **Timestamp Frequency setting** described below.
 
 To help illustrate, consider that you have three booking statuses: 
 

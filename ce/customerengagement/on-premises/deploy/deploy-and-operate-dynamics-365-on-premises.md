@@ -3,7 +3,7 @@ title: "Deploy and operate Dynamics 365 Customer Engagement (on-premises) | Micr
 description: This document set explains how to deploy and operate Dynamics 365 Customer Engagement (on-premises)
 ms.date: 06/07/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ manager: kvivek
 ::: moniker range="op-9-1"
 Dynamics 365 Customer Engagement (on-premises), version 9.1 is available as an update to version 9 customers.
 
-- If you already have version 9 or 8.2 deployed, start here: [Update Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/deploy/update-to-v91?view=op-9-1)
+- If you already have version 9 or 8.2 deployed, start here: [Update Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/deploy/update-to-v91?view=op-9-1&preserve-view=true)
 
 - If you are installing Customer Engagement (on-premises) for the first time, select **9.0** from the **Version** list above the left navigation to view the deployment instruction for version 9.
 
@@ -36,11 +36,11 @@ This guide provides a set of comprehensive deployment and operation topics that 
   
  **Reporting and analytics information:** If you're a report writer or other analytics professional, see the [Reporting and Analytics Guide for Dynamics 365 Customer Engagement (on-premises)](../analytics/reporting-analytics-with-dynamics-365.md).  
 
-**Operate the deployment using PowerShell:** Use these topics to find help for the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for Dynamics 365 Customer Engagement (on-premises). More information: [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps)
+**Operate the deployment using PowerShell:** Use these topics to find help for the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for Dynamics 365 Customer Engagement (on-premises). More information: [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&preserve-view=true)
     
  This documentation set includes the following areas:  
   
--   [Dynamics 365 Customer Engagement (on-premises) planning guidance](planning-your-deployment-of-microsoft-dynamics-365.md). Use these topics to help plan your [Dynamics 365 Customer Engagement (on-premises) deployment.  
+-   [Dynamics 365 Customer Engagement (on-premises) planning guidance](planning-your-deployment-of-microsoft-dynamics-365.md). Use these topics to help plan your Dynamics 365 Customer Engagement (on-premises) deployment.  
   
 -   [Dynamics 365 Customer Engagement (on-premises) installation guidance](installing-on-premises-dynamics-365.md). Use these topics to help install and configure your deployment.  
 

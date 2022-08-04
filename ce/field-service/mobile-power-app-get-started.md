@@ -1,16 +1,16 @@
 ---
-title: "Install the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Install the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
+ms.custom: intro-internal
 ms.author: daclar
 manager: shellyha
 search.app: 
@@ -45,14 +45,14 @@ After you install or upgrade to Field Service v8.8.22+, the **Field Service** an
 ```https://[your-environment-name].crm.dynamics.com/apps```
 
 > [!div class="mx-imgBorder"]
-> ![Field Service apps on mobile devices](media/admin-apps.png)
+> ![Field Service apps on mobile devices.](media/admin-apps.png)
 
 ## Assign mobile app users appropriate security roles
 
 Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role and **Field Service-Resource** field security profile. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
-> ![The Manage User Roles dialog in Dynamics 365](./media/mobile-2020-resource-security-role.png)
+> ![The Manage User Roles dialog in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
 >[!TIP] 
 > Use the [frontline worker setup](frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
@@ -68,7 +68,7 @@ Find the **Field Service Mobile** model-driven app and select the ellipses (...)
 
 ## Download the app and sign in
 
-Go to the app store on your iOS or Android device, and search for **Dynamics 365 Field Service**.
+Go to the app store on your iOS, Android or Windows device, and search for **Dynamics 365 Field Service**.
 
 Download the app named **Field Service (Dynamics 365)**, as seen in the following screenshot. This is the mobile app built on Microsoft Power Platform.
 

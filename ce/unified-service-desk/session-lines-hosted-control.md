@@ -22,7 +22,7 @@ Use **Session Lines** type of hosted control to configure session overview infor
 ## Create a Session Lines hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Session Lines** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![Create a Session Lines hosted control](../unified-service-desk/media/crm-itpro-usd-sessionlines.png "Create a Session Lines hosted control")  
+ ![Create a Session Lines hosted control.](../unified-service-desk/media/crm-itpro-usd-sessionlines.png "Create a Session Lines hosted control")  
   
  In the New Hosted Control screen:  
   

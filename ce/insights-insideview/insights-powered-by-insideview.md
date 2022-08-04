@@ -4,9 +4,9 @@ description: ""
 ms.date: 09/30/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ms.reviewer: 
 ms.custom: 
   - "dyn365-insightsinsideview"
@@ -20,7 +20,7 @@ Boost your sales close rates with information that will help you find, understan
 ## Get started
  [InsideView Insights Overview on AppSource](https://go.microsoft.com/fwlink/p/?linkid=2061233)
 
- [![Reader button](../insights-insideview/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
+ [![Reader button](../insights-insideview/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
 
  [InsideView home page](https://go.microsoft.com/fwlink/p/?LinkId=524622)
 

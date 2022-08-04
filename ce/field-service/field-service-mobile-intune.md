@@ -1,17 +1,16 @@
 ---
 title: "Device and app management with Microsoft Intune | MicrosoftDocs"
 description: Learn all about device and app management for Dynamics 365 Field Service with Microsoft Intune
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 07/06/2020
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.date: 07/28/2022
+ms.reviewer: mhart
+
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Manage Field Service Mobile with Microsoft Intune
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 Mobile Application Management (MAM) is software that enables IT administrators to apply and enforce corporate policies on mobile apps. One MAM option for IT administrators is [Microsoft Intune](/intune/apps/app-management), which offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including Field Service Mobile.
 
@@ -126,7 +128,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Device Management portal, showing the add configuration policy form, with added numbers to reference the previously outline steps.](./media/mobile-intune6.png)
+> ![Screenshot of the Device Management portal, showing numbers to reference the previous steps.](./media/mobile-intune6.png)
 
 The following screenshot shows an example of what to configure. To populate the username, use **{{UserPrincipalName}}**. To populate a URL, enter your organization's specific org URL.
 
@@ -145,7 +147,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune7.png)
+> ![Screenshot of the Device Management portal, with added numbers reference numbers.](./media/mobile-intune7.png)
 
 - Enter a **Name** ("4" in the following screenshot). 
 - Select **Managed apps** as **Device enrollment type** ("5" in the following screenshot). 
@@ -153,7 +155,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune8.png)
+> ![Add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune8.png)
 
 - For the **Associated app** field, either select the app from the list of featured apps or add a new one by using an app bundle or package ID.
 
@@ -163,7 +165,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune9.png)
+> ![The add configuration policy form in the Device Management portal, with reference numbers.](./media/mobile-intune9.png)
 
 Finally, go to **Assignments** and select a group that the policy should be assigned to.
 
@@ -180,7 +182,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Device Management portal, with added numbers referencing the previously outlined steps.](./media/mobile-intune10.png)
+> ![The Device Management portal, with added numbers referencing the previously outlined steps.](./media/mobile-intune10.png)
 
 On the new profile:
 

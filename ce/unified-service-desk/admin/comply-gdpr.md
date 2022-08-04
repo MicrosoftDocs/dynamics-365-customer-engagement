@@ -36,7 +36,7 @@ The GDPR makes clear that the concept of personal data includes online identifie
 
 ## Stages of GDPR
 
-![Four stages of GDPR are Discover, Manage, Protect, and Report](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
+![Four stages of GDPR are Discover, Manage, Protect, and Report.](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
 
 |Stages of GDPR| Description|
 |------|------|

@@ -18,7 +18,7 @@ ms.custom:
 
 # Walkthrough 6: Configure the Debugger hosted control in your agent application
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a **Debugger** type of hosted control, which provides you key information about your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration that helps you to successfully build an agent application and troubleshoot issues in your configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Debug issues in Unified Service Desk](../unified-service-desk/debug-issues-unified-service-desk.md )  
 
@@ -71,7 +71,7 @@ ms.custom:
    |USD Component Type|Debugger|  
    |Display Group|MainPanel|  
 
-   ![Create a Debugger hosted control](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
+   ![Create a Debugger hosted control.](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
 
 6. Click **Save**.  
 
@@ -115,7 +115,7 @@ ms.custom:
     |Action|CallDoAction|  
     |Data|action=default<br />application=Contoso Debugger|  
 
-    ![Create action call in Unified Service Desk](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
+    ![Create action call in Unified Service Desk.](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
 
 11. Click **Save**.  
 
@@ -156,7 +156,7 @@ ms.custom:
 
  Your agent application will now have a **DEBUGGER** button in the toolbar area. Clicking this button displays the Debugger control.  
 
- ![Debugger in your agent application](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
+ ![Debugger in your agent application.](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
 
 <a name="conclusion"></a>   
 ## Conclusion  

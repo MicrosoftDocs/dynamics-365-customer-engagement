@@ -2,7 +2,7 @@
 title: "View and record financial information for events in Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 Marketing."
 ms.date: 12/17/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

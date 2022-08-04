@@ -1,10 +1,10 @@
 ---
-title: "Audit data and user activity  | MicrosoftDocs"
-description: "Log changes that are made to customer records and user access so you can review the activity later."
+title: "Use auditing logs in Dynamics 365 Customer Engagement (on-premises)"
+description: "The auditing feature logs changes made to customer records and user access. Learn how to start or stop auditing, review logs, and more." 
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -102,7 +102,7 @@ System administrators and customizers can start or stop auditing for an organiza
   
    -   Choose an **Event** to view specific details about the activity, such as field changes that were made during an update to a record and who performed the update.  
   
-   -   Click the **Refresh** button  ![Refresh button](media/html-viewer-grid-refresh.gif "Refresh button") to view the most recent activity.  
+   -   Click the **Refresh** button  ![Refresh button.](media/html-viewer-grid-refresh.gif "Refresh button") to view the most recent activity.  
 
 <a name="BKMK_enable_ent_aud"></a>   
 ## Enable or disable entities and fields for auditing  

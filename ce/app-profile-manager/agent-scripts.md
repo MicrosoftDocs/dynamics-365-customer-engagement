@@ -1,33 +1,27 @@
 ---
-title: "Agent scripts to configure | MicrosoftDocs"
-description: "Follow the steps mentioned in the topic to create and configure agent scripts that can be used by agents when they are interacting with customers."
+title: "Manage agent scripts | MicrosoftDocs"
+description: "Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.service: dynamics-365-customerservice
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Guide agents with scripts
 
-## Introduction
-
 In the customer service industry, agents need to deal with continuous updates both to products and processes. Even after agents have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, agents need guidance.
 
 Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to issues of legal compliance. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
-Agent scripts reduce the human errors involved in the process, because agents know which actions they need to perform next while they interact with a customer, which enables them to adhere to business process. This, in turn, leads agents to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
+Agent scripts reduce the human errors involved, because agents know which actions they need to perform next while they interact with a customer, enabling agents to adhere to the business process. This, in turn, leads agents to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
 
 ## Value propositions
 
-- Minimization of human errors.
-
-- Adherence to business processes.
-
-- Lower average handling time.
-
-- Improved customer satisfaction.
+- Minimization of human errors
+- Adherence to business processes
+- Lower average handling time
+- Improved customer satisfaction
 
 ## Prerequisites
 
@@ -37,7 +31,7 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Create agent scripts
 
-Create agent scripts in the Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service admin center, Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
@@ -57,8 +51,8 @@ Create agent scripts in the Omnichannel admin center, Omnichannel Administration
 
 6. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
 
-7. Specify the following in the quick-create form.
-
+7. Specify the following fields in the quick-create form.
+ 
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
     | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
@@ -77,7 +71,7 @@ Create agent scripts in the Omnichannel admin center, Omnichannel Administration
 9.  Select **Save** to save the changes.
 
     > [!div class=mx-imgBorder] 
-    > ![Agent script](media/agent-script.png "Agent script")
+    > ![Agent script.](media/agent-script.png "Agent script")
 
 The agent script is now configured.
 
@@ -85,7 +79,16 @@ The agent script is now configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**. If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
+1. Select one of the following apps, and perform the steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+     In the site map, select **Session templates** in **Workspaces**.
+
+   ### [Omnichannel Admin Center](#tab/omnichanneladmincenter)
+   
+
+      In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -96,7 +99,7 @@ After you configure the agent script and add the field to a form, you need to as
 5. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../customer-service/media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script.](../customer-service/media/associate-agent-script.png "Associate an agent script")
 
 6. Select **Save**.
 
@@ -109,17 +112,25 @@ As an administrator, you can set different default agent scripts for agents who 
 Based on these conditions, when an agent accepts an incoming conversation, the agent script control selects a script from the different scripts that were made available for that particular session type and shows the script to the agent. In addition, agents can manually select a script from the list of available agent scripts if they need to switch between different scripts.
 
 ### Enable and build the expression
-
 You can build the expression in the **Agent scripts** tab in the sessions template.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**. If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
+1. Select one of the following appss, and perform the steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
+     In the site map, select **Session templates** in **Workspaces**.
+
+   ### [Omnichannel Admin Center](#tab/omnichanneladmincenter)
+   
+
+      In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+    
 2. Go to the **Agent scripts** tab.
 
 3. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Build expression](../customer-service/media/agent-script-build-expression.png "Build expression")
+    > ![Build expression.](../customer-service/media/agent-script-build-expression.png "Build expression")
 
 4. Select the **Condition** step, and then create the condition.
 
@@ -128,12 +139,12 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 6. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default agent script.](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
 
 7. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Select default agent script](../customer-service/media/agent-script-set-default.png "Select default agent script")
+    > ![Select default agent script.](../customer-service/media/agent-script-set-default.png "Select default agent script")
 
 8. Follow steps 4 through 7 for the **If false** step.
 

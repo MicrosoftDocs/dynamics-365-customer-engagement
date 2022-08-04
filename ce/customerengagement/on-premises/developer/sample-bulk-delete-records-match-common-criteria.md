@@ -3,9 +3,9 @@ title: "Sample: Bulk delete records that match common criteria| MicrosoftDocs"
 description: "Sample demonstrates how to delete records, in bulk, that match common criteria."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1e5fb8b0-5938-4af7-a21d-7365b27b6e1e
@@ -25,7 +25,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Bulk delete records that match common criteria

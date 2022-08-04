@@ -1,9 +1,10 @@
 ---
 title: "Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to use Microsoft Dynamics 365 for Outlook with Office Word to create documents that display Dynamics 365 for Customer Engagement data.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -85,7 +86,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
     In the **Mail Merge** dialog box, select the type of document you want to use.  
   
-5. Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](../media/lookup-button-4.gif "Lookup button") to select a template.  
+5. Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button.](../media/lookup-button-4.gif "Lookup button") to select a template.  
   
     New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work with mail merge templates](/power-platform/admin/work-mail-merge-templates)
   

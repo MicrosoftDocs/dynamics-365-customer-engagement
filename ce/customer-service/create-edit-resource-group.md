@@ -38,7 +38,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
     - **Business Unit**  
   
-         To locate and select a business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
+         To locate and select a business unit, select the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
   
     - **Description**  
   
@@ -58,7 +58,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
 9. Select **Save** or **Save and Close**.  
 
-   ![resource-group](media/r-rg.png)
+   ![resource-group.](media/r-rg.png)
   
 ## Edit a resource group  
   

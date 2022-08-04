@@ -1,12 +1,12 @@
 ---
-title: "Sample: Remove a role for a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: How to remove a role for a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6f25132e-30d2-4a20-9395-3e42aafdd959
@@ -16,9 +16,8 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
-# Sample: Remove a role for a user
+# Sample: How to remove a role for a user
 
 This sample shows how to disassociate a role from a user by using the [IOrganizationService.Disassociate](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.disassociate?view=dynamics-general-ce-9) method. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RemoveRoleFromUser).
 

@@ -1,12 +1,11 @@
 ---
-title: "User guide for Dynamics 365 Field Service | Microsoft Docs"
+title: "User guide for Dynamics 365 Field Service (contains video) | Microsoft Docs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 02/11/2021
 ms.reviewer: krbjoran
 ms.topic: overview
-ms.service: dynamics-365-customerservice
+
+ms.custom: intro-internal
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
@@ -16,9 +15,9 @@ search.app:
 ---
 # Dynamics 365 Field Service user guide
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
+
+Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a bird's eye view of the Dynamics 365 Field Service resources.
 
 <table>
 <tr>
@@ -27,21 +26,21 @@ Before we begin, here are the top places for information about Field Service:
   
   <ul>
 <li><a href="overview.md" data-raw-source="[Docs](overview.md)">Docs</a></li>
-  <li><a href="/learn/browse/?products=dynamics-field-service" data-raw-source="[Guided Learn courses](/learn/browse/?products=dynamics-field-service)">Guided Learn courses</a></li>
+  <li><a href="https://docs.microsoft.com/learn/browse/?products=dynamics-field-service&expanded=dynamics-365" data-raw-source="[Guided Learn courses](/learn/browse/?products=dynamics-field-service&expanded=dynamics-365)">Guided Learn courses</a></li>
 <li> <a href="https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X" data-raw-source="[[YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)]">YouTube Channel</a>
 <li> <a href="https://aka.ms/fs-videos" data-raw-source="[[Video tutorials](https://aka.ms/fs-videos)]">Video tutorials</a>
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
 <li> <a href="https://community.dynamics.com/365/fieldservice" data-raw-source="[[Forum](https://community.dynamics.com/365/fieldservice)]">Forum</a>
 <li> <a href="https://cloudblogs.microsoft.com/dynamics365/it/" data-raw-source="[[Blog](https://cloudblogs.microsoft.com/dynamics365/it/)]">Blog</a>
 <li> <a href="https://aka.ms/fspartner-join" data-raw-source="[[Join the partner community](https://aka.ms/fspartner-join)]">Join the partner community</a>
-<li> <a href="https://dynamics.microsoft.com/contact-us/" data-raw-source="[[Get help](https://dynamics.microsoft.com/contact-us/)]">Get help</a>
+<li> <a href="field-service-get-help.md" data-raw-source="[[Get help](field-service-get-help.md)]">Get help</a>
   </ul>
   </td>
 
 
- <td><h2>Understand Field Service concepts</h2>
+ <td><h2>Field Service concepts</h2>
 
- The purpose of this section is to understand what Dynamics 365 Field Service is, and why it's valuable to customers.
+ The purpose of this section is to understand what Dynamics 365 Field Service is and why it's valuable to customers.
    <ul>
 <li><a href="../field-service/overview.md" data-raw-source="[Overview of Dynamics 365 Field Service](../field-service/overview.md)">Overview of Dynamics 365 Field Service</a></li>
    <li><a href="https://go.microsoft.com/fwlink/p/?LinkID=786689" data-raw-source="[Watch a short video (3:51) on the benefits of Dynamics 365 Field Service](https://go.microsoft.com/fwlink/p/?LinkID=786689)">Watch a short video (3:51) on the benefits of Dynamics 365 Field Service</a></li>
@@ -58,25 +57,25 @@ Before we begin, here are the top places for information about Field Service:
 <td><h2>Video catalog</h2>
 
 <ul>
-<li><a href="https://youtu.be/h5X1z0pTtSA" data-raw-source="[Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more]https://youtu.be/h5X1z0pTtSA">Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more</a>
+<li><a href="https://youtu.be/h5X1z0pTtSA" data-raw-source="[Using Field Service work orders, scheduling, mobile app, reporting, and more]https://youtu.be/h5X1z0pTtSA">Using Field Service work orders, scheduling, mobile app, reporting, and more</a>
   </li>
-<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)">Module 2: Field Service installation and setup</a></li>
-<li><a href="https://youtu.be/g118F_LnxyE" data-raw-source="[Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)">Module 3: Set up bookable resources</a></li>
-<li><a href="https://youtu.be/lblmqd7qFwg" data-raw-source="[Module 4: Work orders](https://youtu.be/lblmqd7qFwg)">Module 4: Work orders</a></li>
-<li><a href="https://youtu.be/-noHEU7wgiQ" data-raw-source="[Module 5: Schedule board](https://youtu.be/-noHEU7wgiQ)">Module 5: Schedule board</a></li>
-<li><a href="https://youtu.be/QOrePYZ9fds" data-raw-source="[Module 6: Schedule assistant](https://youtu.be/QOrePYZ9fds)">Module 6: Schedule assistant</a></li>
-<li><a href="https://youtu.be/tcDt_vJ5csI" data-raw-source="[Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)](https://youtu.be/tcDt_vJ5csI)">Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)</a></li>
+<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)">Field Service installation and setup</a></li>
+<li><a href="https://youtu.be/g118F_LnxyE" data-raw-source="[Module 2: Set up bookable resources](https://youtu.be/g118F_LnxyE)">Module 2: Set up bookable resources</a></li>
+<li><a href="https://youtu.be/lblmqd7qFwg" data-raw-source="[Module 3: Work orders](https://youtu.be/lblmqd7qFwg)">Module 3: Work orders</a></li>
+<li><a href="https://youtu.be/-noHEU7wgiQ" data-raw-source="[Module 4: Schedule board](https://youtu.be/-noHEU7wgiQ)">Module 4: Schedule board</a></li>
+<li><a href="https://youtu.be/QOrePYZ9fds" data-raw-source="[Module 5: Schedule assistant](https://youtu.be/QOrePYZ9fds)">Module 5: Schedule assistant</a></li>
+<li><a href="https://youtu.be/tcDt_vJ5csI" data-raw-source="[Module 6: Dynamics 365 Field Service mobile app (Microsoft Power Platform)](https://youtu.be/tcDt_vJ5csI)">Module 6: Dynamics 365 Field Service mobile app (Microsoft Power Platform)</a></li>
 <li><a href="https://youtu.be/aDfwIP7rT-U" data-raw-source="[Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)">Module 8: Inspections</a></li>
+<li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 8b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 8b: Set up automatic scheduling for work orders</a></li>
 <li><a href="https://youtu.be/fcQwIXgmnqk" data-raw-source="[Module 9a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)">Module 9a: Automated scheduling scenarios with Field Service</a></li>
-<li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 9b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 9b: Set up automatic scheduling for work orders</a></li>
-<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Module 10: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Module 10: Set up Connected Field Service with Azure IoTCentral</a></li>
-<li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 11: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 11: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
+<li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 10: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 10: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
+<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Set up Connected Field Service with Azure IoTCentral</a></li>
   </li> 
   </ul>
   </td>
 
 
-<td><h2>Install and setup</h2>
+<td><h2>Install and set up</h2>
 
 The purpose of this section is to help you set up a Field Service environment.
 
@@ -91,13 +90,13 @@ The purpose of this section is to help you set up a Field Service environment.
 
 
 <tr>
- <td><h2>Create and manage Work Orders</h2>
+ <td><h2>Create and manage work orders</h2>
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
   <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
- <li><a href="create-work-order.md" data-raw-source="[[Create a Work Order](create-work-order.md)]">Create a Work Order</a></li>
+ <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
   <li><a href="work-order-customer-account.md" data-raw-source="[Add a customer, location, and related account details to a work order](work-order-customer-account.md)">Add a customer, location, and related account details to a work order</a></li>
   </ul><br/>  
@@ -123,11 +122,11 @@ The purpose of this section is to help you explore all the features of Field Ser
 
 </tr>
 
-<td><h2>Automated scheduling (RSO)</h2>
+<td><h2>Automated scheduling (Resource Scheduling Optimization)</h2>
 
 <ul>
 
- <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[What is RSO?](https://youtu.be/3W7hI-6dZhg)">What is RSO?</a></li>
+ <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg)">What is Resource Scheduling Optimization?</a></li>
  <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)">Quickstart: Auto schedule a list of work orders</a></li>
  <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run RSO](rso-overview.md)">Deploy, configure, and run RSO</a></li>
 </ul>
@@ -159,6 +158,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 
 <tr>
 <td><h2>Implementation</h2>
+  
 The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
    <ul>
   <li><a href="https://youtu.be/LQXpjMMrJIo" data-raw-source="[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)">General Field Service implementation best practices</a>
@@ -196,7 +196,7 @@ Looking for training outside of documentation? Here are some of our training res
 - [Implementing Microsoft Dynamics 365 for Field Service](/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
 - [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
 - [Working with Connected Field Service for Dynamics 365 and Azure IoT](/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
-- [Dynamics 365 Fundamentals](/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): Check out this learning path if you&#39;re interested in how the Dynamics 365 products work together. Takes 11 hours. Also available as an instructor-led course. [Dynamics 365 Fundamentals, MB-901](/learn/certifications/courses/mb-901t00).
+- [Dynamics 365 Fundamentals](/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): Check out this learning path if you're interested in how the Dynamics 365 products work together. Takes 11 hours. Also available as an instructor-led course. [Dynamics 365 Fundamentals, MB-901](/learn/certifications/courses/mb-901t00).
 
 ### Functional Consultant
 
@@ -211,7 +211,7 @@ Looking for training outside of documentation? Here are some of our training res
 
 - [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
   
-- [Microsoft Certified: Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
+- [Microsoft Certified: Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); Microsoft Power Platform; cloud concepts; cloud security; Dynamics 365 security; Microsoft Dataverse; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

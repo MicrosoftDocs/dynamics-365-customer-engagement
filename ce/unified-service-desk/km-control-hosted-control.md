@@ -17,7 +17,7 @@ ms.custom:
 ---
 # KM Control (hosted control)
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
@@ -25,7 +25,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 ## Create a KM Control hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![KM Control hosted control](../unified-service-desk/media/usd-kmcontrolhostedcontrol.png "KM Control hosted control")  
+ ![KM Control hosted control.](../unified-service-desk/media/usd-kmcontrolhostedcontrol.png "KM Control hosted control")  
 
  In the **New Hosted Control** screen:  
 

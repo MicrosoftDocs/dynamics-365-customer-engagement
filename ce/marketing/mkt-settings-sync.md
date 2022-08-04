@@ -2,7 +2,7 @@
 title: "Dataset configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing."
 ms.date: 02/27/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -39,7 +39,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > [!IMPORTANT]
 > You can only sync entities that are configured with **Change tracking** enabled. Entities without change tacking won't be listed on the **Dataset configuration** page. If you are a system customizer or admin, you can find this setting by doing the following:
 > 
-> 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+> 1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 > 1. Navigate to **Settings** > **Customization** > **Customization**.
 > 1. Select **Customize the system** (or select **Solutions** and open a solution if your entity is part of a solution).
 > 1. Find and select the entity you want to sync.
@@ -61,7 +61,7 @@ To sync a new entity with the insights service:
 1. Depending on how much data needs to be synced (and other factors), you may need to wait for several minutes (up to half an hour) before your data is available for use in your segments, messages, and scoring models. Here are some ways you'll be able to tell that a new entity is synced and ready for use (you only need to check one of these):
 
     - The check box for the relevant entity on the **Dataset configuration** page is shown as checked and grayed out when you first enter the page. The check box is gray to indicate that you can't disable the sync once it has started. You must reload the page manually to see this change.
-    - The relevant entity is shown in the [assist-edit dialog](dynamic-email-content.md#assist-edit) for marketing email messages.
+    - The relevant entity is shown in the [personalization dialog](dynamic-email-content.md#personalization) for marketing email messages.
     - The relevant entity is shown in the **Profiles** list in the [segment designer](segmentation-lists-subscriptions.md). (Note that you must either create a new query group or remove all clauses from the existing query group to see the **Profiles** drop-down list here&mdash;otherwise the contact entity is already selected by default.)
     - The relevant entity is shown in the **Entity** list when you are editing a condition for a [lead scoring rule](score-manage-leads.md).
 

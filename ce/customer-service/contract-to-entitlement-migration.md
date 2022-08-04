@@ -44,12 +44,12 @@ The allotment type based on coverage dates in the contracts template, which allo
 A screenshot of the allotment type in the contract template is as follows.
 
 
-> ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
+> ![Allotment Type.](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
 
 A screenshot of the entitlement template is as follows.
 
 
-> ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
+> ![Entitlement template based on "No restriction."](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
 
 After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
 
@@ -88,7 +88,7 @@ If you've a contract tied to a single product, follow these steps:
 1. Create an entitlement.
 2. Add only one product in the **PRODUCTS** grid.
 
-> ![Single product contract](media/single-product-contract.png "Single product contract")
+> ![Single product contract.](media/single-product-contract.png "Single product contract")
 
 > [!Note]
 > The concept of grouping contract lines for a contract isn't available in entitlements. You need to create separate entitlements for every contract line.
@@ -101,13 +101,13 @@ A contract or entitlement can be canceled using the following steps:
 
 Contracts can be canceled immediately or in the future by selecting a date.
   
-  ![Contract and entitlement cancellation](media/contract-and-entitlement-cancellation.png "Contract and entitlement cancellation")
+  ![Contract and entitlement cancellation.](media/contract-and-entitlement-cancellation.png "Contract and entitlement cancellation")
 
 ##### Cancel an entitlement
 
 An entitlement can be canceled only immediately; you can't set a date to cancel it in the future.
   
-![Cancel entitlement](media/cancel-entitlement.png "Cancel entitlement")
+![Cancel entitlement.](media/cancel-entitlement.png "Cancel entitlement")
 
 #### Billing unit in contracts
 

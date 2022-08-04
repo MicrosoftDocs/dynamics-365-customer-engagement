@@ -3,7 +3,7 @@ title: "Define custom claim mapping for SharePoint server-based integration (Dev
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,7 +24,7 @@ search.audienceType:
 
 # Define custom claim mapping for SharePoint server-based integration
 
-For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]  uses claims to authenticate and authorize [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] users to access the documents stored in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. For more information about claims-based authentication, see [Claims-based identity in SharePoint 2013](https://msdn.microsoft.com/library/office/ee535242.aspx).  
+For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]  uses claims to authenticate and authorize [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] users to access the documents stored in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. For more information about claims-based authentication, see [Claims-based identity in SharePoint 2013](/sharepoint/dev/general-development/claims-based-identity-in-sharepoint).  
 
  By default, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] uses the following claims  to integrate with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]:  
 
@@ -45,7 +45,7 @@ For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `UserMapping.PartnerApplicationType`  | -   `0`: [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]<br />-   `1`: [!INCLUDE[internal](../../includes/internal.md)] |                                                                                                                                                                                     The partner application type for which this claim mapping is to be used. In the current release, only `0` ([!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]) is supported.                                                                                                                                                                                      |
 | `UserMapping.SystemUserAttributeName` |                                                                  String value                                                                  | The logical name of the attribute in the `SystemUser` (user) entity from where the value for the claims will be used. **Note:**  If the attribute used for custom claim mapping doesn’t contain a value, the default claim mapping is used by [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. For example, if you want to use the first name of the user as the attribute for custom claim mapping and a user’s first name is missing, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] will use the default claim mapping (PUID or email). |
-|        `UserMapping.ClaimType`        |                                                                  String value                                                                  |                     Specify the claim type to be sent to SharePoint. For a list of claim types, see [ClaimTypes Members](https://msdn.microsoft.com/library/microsoft.identitymodel.claims.claimtypes_members.aspx). **Note:**  The referred claim type list is just for reference. All the claim types listed there might not be supported by [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], or might not contain all the claim types supported by [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)].                      |
+|        `UserMapping.ClaimType`        |                                                                  String value                                                                  |                     Specify the claim type to be sent to SharePoint. For a list of claim types, see [ClaimTypes Members](/previous-versions/windows-identity-foundation/ee727097(v=msdn.10)). **Note:**  The referred claim type list is just for reference. All the claim types listed there might not be supported by [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], or might not contain all the claim types supported by [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)].                      |
 
  The following sample code shows how to define a custom claim mapping using the `UserMapping` entity.  
 
@@ -62,7 +62,7 @@ _serviceProxy.Create(customMapping);
 > [!NOTE]
 >  Any instance of the `UserMapping` entity with valid values will override the default claim mappings used by [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
 
- By default, [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] supports the following claim types: NameId (PUID), SMTP (email), and UPN (user principal name). If you’re passing a claim of any other type, you must also create corresponding claim type mappings in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][New-SPClaimTypeMapping](https://technet.microsoft.com/library/ff607650.aspx)  
+ By default, [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] supports the following claim types: NameId (PUID), SMTP (email), and UPN (user principal name). If you’re passing a claim of any other type, you must also create corresponding claim type mappings in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][New-SPClaimTypeMapping](/powershell/module/sharepoint-server/New-SPClaimTypeMapping)  
 
 ### See Also
  [UserMapping Entity](../entities/usermapping.md)   

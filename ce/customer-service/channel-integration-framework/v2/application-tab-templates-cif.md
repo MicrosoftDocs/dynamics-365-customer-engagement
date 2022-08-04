@@ -6,6 +6,13 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+searchScope: 
+ - D365-App-msdyn_channelintegrationframeworkapp 
+ - D365-Entity-msdyn_consoleapplicationtemplate
+ - D365-UI-view
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Manage application tab templates in Dynamics 365 Channel Integration Framework 2.0
@@ -14,7 +21,7 @@ Application tab templates provide the type of applications you want to open when
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that cannot be closed; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, the system might open a few other applications by default based on the configuration. 
 
-![Application tab panel](../media/app-tab.png "Application tab panel")  
+![Application tab panel.](../media/app-tab.png "Application tab panel")  
 
 With application tab templates, you can define the applications that are available for a session and then associate those applications with the session. 
 

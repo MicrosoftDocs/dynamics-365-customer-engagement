@@ -2,13 +2,14 @@
 title: "Omnichannel for Customer Service for agent | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent"
 ms.date: 06/18/2020
-ms.topic: article
+ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+
 ---
 
-# Omnichannel for agents
+# Omnichannel for Customer Service for agents
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -20,7 +21,7 @@ Omnichannel for Customer Service is available on the following:
 
 - Unified Service Desk
 
-- Omnichannel for Customer Service app (Unified Interface app)
+- Omnichannel for Customer Service app
 
 > [!IMPORTANT]
 >

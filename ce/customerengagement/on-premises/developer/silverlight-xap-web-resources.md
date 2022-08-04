@@ -3,7 +3,7 @@ title: "Silverlight (XAP) web resources (Developer Guide for Dynamics 365 Custom
 description: "Learn about creating and adding Silverlight 4.0 web resources to entity forms. You can display Silverlight 5.0 web resources within an HTML web resource using a hosting <object> element that is configured for that version."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -24,13 +24,13 @@ search.audienceType:
 > [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources are deprecated in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].
 >  HTML5 is the preferred client technology for the web, over web plug-ins like Silverlight and Flash. HTML5 can be consumed from any device (PC, tablet, smartphone, and more) and heavily uses JavaScript (and many powerful JavaScript libraries, such as jQuery) and CSS. 
 > 
-> [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources remain supported in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for backwards compatibility in the web application only. [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] will not work for the Unified Interface.  For components that will be able to be presented on all clients, we recommend using HTML web resources with HTML5 instead of [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)].  
+> [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources remain supported in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for backwards compatibility in the web application only. [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] will not work for Unified Interface.  For components that will be able to be presented on all clients, we recommend using HTML web resources with HTML5 instead of [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)].  
 
   
  [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support adding [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] 4.0 web resources to entity forms. You can display [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] 5.0 web resources within an HTML web resource using a hosting `<object>` element that is configured for that version.  
   
 > [!NOTE]
-> - [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources cannot be viewed in the 64-bit version of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
+> - [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources can't be viewed in the 64-bit version of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
 >   - [!INCLUDE[sdk_silverlightwebresourcedirective](../includes/sdk-silverlightwebresourcedirective.md)]  
   
 <a name="BKMK_CreatingSilverlightWebResource"></a>   
@@ -85,9 +85,9 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
   
 <a name="BKMK_WritingandTestingSilverlightWebResources"></a>   
 ## Writing and testing Silverlight web resources  
- If your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource is independent of any contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can write and test your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application as you typically would. After you create a new web resource by uploading your .xap file, you can test it by using the **Preview** button in the web resource form after you have saved and published the web resource.  
+ If your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource is independent of any contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can write and test your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application as you typically would. After you create a new web resource by uploading your .xap file, you can test it by using the **Preview** button in the web resource form after you've saved and published the web resource.  
   
- However, it is more likely that your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application has contextual data dependencies that cannot be fully simulated outside of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ However, it's more likely that your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application has contextual data dependencies that can't be fully simulated outside of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  The process of creating a [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource that includes form or context dependencies is as follows:  
   
@@ -109,11 +109,11 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
   
    - Viewing it using the **Preview** button of the host HTML web resource you created.  
   
-   - Viewing it in the context of an entity form that you have added it to.  
+   - Viewing it in the context of an entity form that you've added it to.  
   
       Use this option is your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application has dependencies on Form elements or context information.  
   
-8. Repeat steps 4 through 7 until you are finished.  
+8. Repeat steps 4 through 7 until you're finished.  
   
 > [!NOTE]
 >  When you want to show a [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource outside of an entity form, for example in the application main frame by editing the Site Map, you must provide a webpage (HTML) web resource to act as the host for the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource.  
@@ -125,13 +125,13 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
   
 <a name="BKMK_DebuggingSilverlightWebResources"></a>   
 ## Debugging Silverlight web resources  
- [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources that do not rely on contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be debugged in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. However, if the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource requires contextual data to perform the functions, you will have to use a different procedure.  
+ [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources that don't rely on contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be debugged in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. However, if the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource requires contextual data to perform the functions, you'll have to use a different procedure.  
   
 1. Build your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application.  
   
 2. Upload the built version of the .xap file from the web application project ClientBin folder.  
   
-3. View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application in the context it is designed to be used in.  
+3. View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application in the context it's designed to be used in.  
   
 4. In your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project, from the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] menu, select **Debug** and then **Attach To Process**.  
   

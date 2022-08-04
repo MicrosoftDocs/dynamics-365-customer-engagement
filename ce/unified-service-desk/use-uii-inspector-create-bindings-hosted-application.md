@@ -20,17 +20,17 @@ After you create a hosted application, you can inspect it to create bindings. In
   
 1. Right-click the application to view the **Application Context** menu, and then choose **Inspect**.  
   
-   ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
+   ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
 2. The application selected is displayed and is ready to be inspected. This example uses the web application created in the previous section.  
   
-   ![Screenshot of bindings](../unified-service-desk/media/usd-bindings.PNG "Screenshot of bindings")  
+   ![Screenshot of bindings.](../unified-service-desk/media/usd-bindings.PNG "Screenshot of bindings")  
   
 3. Choose **UII Inspector** on the toolbar to display the **UII Inspector** dialog box. Make sure that the **Visual Studio Toolbox** is not in focus when you choose the **UII Inspector** button. If it is, the UII Inspector displays the following error message: "Active Window is not the UII Inspector."  
   
 4. With the **UII Inspector** dialog box open, move the mouse over the control you want to capture, and then press the Ctrl key. The Inspector will provide a default control name and retrieve the component's binding information.  
   
-   ![Screenshot of inspector](../unified-service-desk/media/usd-inspector.png "Screenshot of inspector")  
+   ![Screenshot of inspector.](../unified-service-desk/media/usd-inspector.png "Screenshot of inspector")  
   
    For the purpose of this example, add the following controls to the current project:  
   

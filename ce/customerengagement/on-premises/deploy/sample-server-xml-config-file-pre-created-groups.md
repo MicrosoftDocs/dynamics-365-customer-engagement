@@ -1,8 +1,9 @@
 ---
 title: "Sample server XML configuration file for installing with pre-created groups | Microsoft Docs"
+description: Use the sample Setup XML configuration file for pre-created groups with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

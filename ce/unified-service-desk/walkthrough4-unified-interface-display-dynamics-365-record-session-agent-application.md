@@ -16,7 +16,7 @@ search.app:
 
 # Walkthrough 4: Display a Unified Interface apps record in a session in your agent application
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
   
@@ -210,11 +210,11 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 3. Select any of the account records to display the respective account information in a session; the information is displayed under a session tab. Note that the name of the hosted control tab that contains the account record automatically displays the account name because earlier you used replacement parameters to dynamically display the current account name instead of a static value.  
   
-   ![Account record displayed in a session](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
+   ![Account record displayed in a session.](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
   
 4. If you open another account record, it will be displayed in another session in your client application. To open another account, select the down arrow next to the **Search** button, select **Account**, and then select an account name to display the account information in another session.  
   
-   ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
+   ![Multiple sessions in Unified Service Desk.](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
   
 <a name="Conclusion"></a>   
 ## Conclusion  

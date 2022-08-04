@@ -1,10 +1,10 @@
 ---
-title: "Create and edit virtual entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create virtual entities"
+title: "Create a virtual entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "A virtual entity is a custom entity with fields containing data from an external source. Learn about their benefits and the steps for creating them."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create and edit virtual entities that contain data from an external data source
+# Create or edit a virtual entity with data from an external source
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit virtual entities that contain data from an external data source](/powerapps/maker/common-data-service/create-edit-virtual-entities)
 
@@ -33,7 +33,7 @@ Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider t
   
 Alternatively, developers can build their own data providers. Data providers are installed in an environment as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
- ![Virtual entity diagram](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
+ ![Virtual entity diagram.](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
   
 <a name="benefits"></a>   
 ## Virtual entity benefits  
@@ -64,7 +64,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
 > [!NOTE]
 > The Data Source Secret attribute is only available with fields added to a Data Source form.
 
-![Data source secret attribute](../customize/media/datasourcesecret.png)
+![Data source secret attribute.](../customize/media/datasourcesecret.png)
   
 <a name="createVirtualEntity"></a>   
 ## Create a virtual entity  
@@ -79,7 +79,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 3. On the **General** tab of the **Entity Definition**, select **Virtual Entity**, and then in the **Data Source** drop down list, select the data source that you want.  
   
-   ![Virtual Entity option on entity definition](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
+   ![Virtual Entity option on entity definition.](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
   
 4. On the Entity Definition, complete the following required fields.  
   
@@ -89,7 +89,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
      Here's an example of a virtual entity named *Movie* that uses a Azure Cosmos DB data provider to access document files.  
   
-   ![Virtual entity definition using the Azure Cosmos DB data provider](../customize/media/virtual-entity-definition.PNG "Virtual entity definition using the Azure Cosmos DB data provider")  
+   ![Virtual entity definition using the Azure Cosmos DB data provider.](../customize/media/virtual-entity-definition.PNG "Virtual entity definition using the Azure Cosmos DB data provider")  
   
    > [!IMPORTANT]
    > Several options, such as Access Teams, Queues, and Quick Create,  aren't available with virtual entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Considerations when you use virtual entities](#considerations)  
@@ -143,7 +143,18 @@ You create fields for a Data Source in the same way as any other entity. For dat
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 
 - Virtual entities don't support change tracking and cannot be synchronized by using a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] feature, such as the [!INCLUDE [cc-data-export-service](../includes/cc-data-export-service.md)].
-  
+
+- Business process flows are not supported with virtual entities. More information: [Unexpected error received when a user activates a business process flow](#unexpected-error-received-when-a-user-activates-a-business-process-flow)
+
+## Unexpected error received when a user activates a business process flow
+
+When a user attempts to activate a business process flow, they may receive an "unexpected error" message. Viewing the log file the following log entry is displayed.
+
+ErrorCode: 0x80040216
+Message: System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> Microsoft.Crm.CrmException: Business process flow cannot be enabled for Virtual Entity
+
+This issue occurs because virtual entities don't support business process flows.
+
 ### See also  
 
 [OData v4 Data Provider requirements and best practices](virtual-entity-odata-provider-requirements.md)</br> 

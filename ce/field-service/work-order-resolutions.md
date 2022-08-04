@@ -1,13 +1,10 @@
 ---
-title: "Capture work order resolution details in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Capture work order resolution details in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about how to capture work order resolution details in Dynamics 365 Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 02/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"

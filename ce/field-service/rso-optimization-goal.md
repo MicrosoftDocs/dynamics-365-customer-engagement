@@ -7,9 +7,8 @@ ms.reviewer: krbjoran
 manager: shellyha
 ms.date: 08/20/2020
 ms.topic: article
-ms.custom: 
-  - dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+
+ms.subservice: resource-scheduling-optimization
 search.app: 
   - D365CE
   - D365FS
@@ -28,14 +27,13 @@ Using the above elements of a goal, you define how bookings should be optimized.
 - Meet all company constraints.
 - Give the highest importance to the first objective listed, and decreasing importance to the ones following it.
  
-
 ## Defining constraints
 
 ### Schedule Within Working Hours
 
 This constraint creates the booking if it can be completed (both travel to work location and the work itself) within the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although this travel time is not visually displayed on the schedule board.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a booked resource_1](media/c56516997db07c1f0ef64bdcc507350f.png)
+> ![Screenshot of a booked resource_1.](media/c56516997db07c1f0ef64bdcc507350f.png)
 
 If the constraint is removed from the goal, work will still be scheduled within working hours, but travel to and from bookings _can_ happen outside of the resource's working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. See here for more information on [travel outside working hours.](https://docs.microsoft.com/en-us/dynamics365/field-service/rso-travel-outside-working-hours)
 
@@ -58,7 +56,7 @@ Bookings can be assigned to one of the four Scheduling Lock Options -
 When this constraint is selected, RSO will respect the lock option configured on a bookable resource booking record. If this constraint is not selected, the hard lock or soft lock configured on the booking will not be respected.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a booked resource_2](media/rso-scheduling-lock-options.png)
+> ![Screenshot of a booked resource_2.](media/rso-scheduling-lock-options.png)
 
 ### Scheduling Windows
 
@@ -66,15 +64,15 @@ This constraint ensures that RSO created a booking work within the time window s
 
 - If **From Date** and **To Date** on requirement or **Date Window Start** and **Date Window End** on booking are set as shown in the following example, it indicates you want RSO to schedule the booking on 5/24/2018 and time of day doesn’t matter.
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
+ > ![Screenshot of the date selectors.](media/753086631f45017fa9cef8f3795078ba.png)
 
 - If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want RSO to schedule a booking from 2:00 AM to 6:00 AM and the date doesn’t matter.
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
+ > ![Screenshot of the time window start and time window end fields.](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
 - If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want RSO to schedule a booking between 4:00 AM and 8:00 AM on 5/24/2018. It has to be a specific date and specific time range.
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
+ > ![Screenshot of the time from promised and time to promised fields.](media/f08dd1dd681a4369a2b46a968c08e631.png)
   
 > [!NOTE]
 > 
@@ -88,7 +86,7 @@ This constraint ensures that RSO created a booking work within the time window s
   In the following example, a requirement has only a time window start value; RSO schedules the requirement anytime after 1:00 PM regardless of date.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group with two requirements_1](./media/scheduling-rso-3-0-empty-time-promised.png)
+  > ![Screenshot of requirement group with two requirements_1.](./media/scheduling-rso-3-0-empty-time-promised.png)
 
   This logic applies to the following fields. 
 
@@ -139,7 +137,7 @@ In general, resource types define how the resource relates to the organization. 
 Additionally, requirements allow multi-select so you can specify which resource types you need for a given requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+> ![Screenshot of multi-select resource type attribute on requirement.](media/rso-requirement-resource-type-field.png)
 
 ## Defining objectives
 
@@ -147,7 +145,7 @@ Add and rank the objectives of the RSO goal by using the **Move Up** and **Move 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements_2](./media/scheduling-rso-3-0-order-objectives.png)
+> ![Screenshot of requirement group with two requirements_2.](./media/scheduling-rso-3-0-order-objectives.png)
 
 ### Maximize total working hours
 
@@ -165,17 +163,17 @@ Iteration with the total lowest aggregate travel time will best meet this object
 Once a booking is created, a lock can be set on the scheduling lock options field in the resource scheduling optimization section of the booking. The options are Time Range, Resource, Time, and Resource and Time. When the locked bookings objective is selected, RSO will try to include as many soft-locked (locked to Time, Resource, or Time Range) bookings into the optimal route as possible. Hard locked (locked to TIme and Resource) bookings will always be a part of the schedule regardless of this objective. For example, the following screenshot shows that Norbert has a booking that starts at 2:30 AM, and this booking is locked to **Time**. When RSO runs, the system detects a 30-minute idle time for Norbert in the morning, but none of the other requirement durations fit into that slot with the locked booking next to it, even though RSO tries to move it to other resources’ time.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board_1](media/8c6c7de10ed96ca76c884ee41086507b.png)
+> ![Screenshot of the schedule board_1.](media/8c6c7de10ed96ca76c884ee41086507b.png)
 
 If locked booking is a high-ranking objective, RSO will keep the locked booking there with 30 minutes of idle time before it by sacrificing the other objectives. The following screenshot shows the result.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board_2](media/49561093ec91a28a5961b0be4f892cbf.png)
+> ![Screenshot of the schedule board_2.](media/49561093ec91a28a5961b0be4f892cbf.png)
 
 If locked booking is not a selected objective or is ranked lower in the order of importance for objectives, RSO might ignore this locked booking (exclude this locked booking from the optimal route) and schedule other bookings for Matthew at 2:30 AM in order to achieve the highest score for top-ranking objectives, with the result shown in the following screenshot. It looks as if a booking overlaps, but actually the locked booking was ignored in this case. RSO would not delete the locked booking because it would lose the lock information defined on the booking record, which can’t be retrieved from the backing requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
+> ![Screenshot of the schedule board optimization.](media/rso-edgar-dominquez.png)
 
 ### High priority requirements 
 
@@ -191,18 +189,18 @@ RSO will consider the list of preferred resources noted on related requirements.
 This is achieved by adding the "Maximize Preferred Resources" objective to your RSO goal and adding a preferred resource(s) on the requirement that will be optimized.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of maximize preferred resource objective in a goal](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
+> ![Screenshot of maximize preferred resource objective in a goal.](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
 
 
 The following screenshot shows an example of adding a resource to a requirement (for example: Jorge Gault) as a preferred resource.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement with preferred resource](./media/scheduling-rso-3-0-requirement-preferred-resources.png)
+> ![Screenshot of requirement with preferred resource.](./media/scheduling-rso-3-0-requirement-preferred-resources.png)
 
 
 After running an optimization schedule, the requirement is scheduled to the preferred resource. In the following example, work order 00100 is scheduled to Jorge Gault.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements_3](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
+> ![Screenshot of requirement group with two requirements_3.](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
 
 > [!Note]
 > The Maximize Preferred Resources objective only applies to **preferred** resources. 
@@ -227,11 +225,11 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements_4](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
+> ![Screenshot of requirement group with two requirements_4.](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements_5](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
+> ![Screenshot of requirement group with two requirements_5.](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
 > In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. RSO will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration.
@@ -244,7 +242,7 @@ In order to effectively front-load optimized bookings, add the **Schedule As Soo
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule as soon as possible constraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)
+> ![Screenshot of schedule as soon as possible constraint in correct order.](./media/rso-schedule-as-soon-as-possible-objective-order.png)
 
 ## Default optimization goal
 

@@ -1,10 +1,10 @@
 ---
-title: "Disable auto-save with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to disable auto-save
+title: "Disable auto-save in Dynamics 365 for Customer Engagement (on-premises)"
+description: "There may be reasons why you don't want data explicitly saved each time you edit a record. Follow these steps to disable auto-save for a form or organization."
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,32 +18,32 @@ manager: kvivek
 search.audienceType: 
   - customizer
 ---
-# Disable auto-save
+# Disable auto-save for a form or organization
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Disable auto-save in a model-driven app](/powerapps/maker/model-driven-apps/manage-auto-save)
 
-Auto-save helps people focus on their work without having to manage saving data in the form. Most people will appreciate not having to explicitly save data each time they update a record, but some organizations may have customizations that were designed expecting an explicit save. For these organizations there are options to manage how auto-save is applied.  
+Auto-save helps people focus on their work without having to manage saving data in the form. Most people will appreciate not having to explicitly save data each time they update a record, but some organizations may have customizations that were designed expecting an explicit save. For these organizations, there are options to manage how auto-save is applied.  
   
 <a name="BKMK_HowAutoSaveWorks"></a>   
 
 ## How auto-save works  
- By default all main forms for [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) will have auto-save enabled. After a record is created (initially saved), any changes made to a form will automatically be saved thirty seconds after the change is made. If no changes are made in the form, the automatic save won’t occur while the form is open. After a change is made the 30-second period before an auto-save begins again. The field that someone is currently editing isn’t included in an auto-save. If someone else has updated the same record while you’re editing it, those changes will be retrieved and displayed in the form when auto-save occurs.  
+ By default all main forms for [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) will have auto-save enabled. After a record is created (initially saved), any changes made to a form will automatically be saved 30 seconds after the change is made. If no changes are made in the form, the automatic save won’t occur while the form is open. After a change is made, the 30-second period before an auto-save begins again. The field that someone is currently editing isn’t included in an auto-save. If someone else has updated the same record while you’re editing it, those changes will be retrieved and displayed in the form when auto-save occurs.  
   
- With auto-save enabled, the save button only appears for the initial save of the record. After the record is created, the save button in the command bar isn’t shown, but you can see a ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button in the lower right corner that will show if there are any unsaved changes. This control is also displayed if auto-save is disabled.  
+ With auto-save enabled, the save button only appears for the initial save of the record. After the record is created, the save button in the command bar isn’t shown, but you can see a ![Auto save button.](../customize/media/auto-save-icon.png "Auto save button") button in the lower right corner that will show if there are any unsaved changes. This control is also displayed if auto-save is disabled.  
   
- You can click this button to save the record and refresh data in the form immediately. When  auto-save is enabled the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There is no need for the **Save & Close** button that appears in forms for entities that aren’t updated.
+ You can click this button to save the record and refresh data in the form immediately. When auto-save is enabled, the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There's no need for the **Save & Close** button that appears in forms for entities that aren’t updated.
    > [!IMPORTANT]
-   >  In the Unified Interface, the auto-save interval for a page will increase if there is an error during auto-save. Also, if an attribute value is changed or there is a successful save, the interval will reset to 30 seconds.
+   >  In Unified Interface, the auto-save interval for a page will increase if there's an error during auto-save. Also, if an attribute value is changed or there's a successful save, the interval will reset to 30 seconds.
   
 <a name="BKMK_AutoSave"></a>   
 ## Should you disable auto-save?  
- If you have plug-ins, workflows, or form scripts that execute when a record is saved, they’ll run each time auto-save occurs. This might lead to undesirable behaviors if these extensions weren’t designed to work with auto-save. Whether auto-save is enabled or not, plug-ins, workflows, and form scripts should be designed to look for specific changes, and shouldn’t execute indiscriminately for each save event.  
+ If you have plug-ins, workflows, or form scripts that execute when a record is saved, they’ll run each time auto-save occurs. This might lead to undesirable behaviors if these extensions weren’t designed to work with auto-save. Whether you enable auto-save or not, plug-ins, workflows, and form scripts should be designed to look for specific changes, and shouldn’t execute indiscriminately for each save event.  
   
- If you have auditing configured for an entity, each save is treated like a separate update. If someone lingers on a form with unsaved changes for more than thirty seconds, you’ll see an additional entry only if they add more data after the auto-save is performed. If you have reports that depend on auditing data and treat each save as an individual “touch” of a record, you might see an increase in the frequency of touches. If you are using this approach, you should consider that individual user behaviors make it an unreliable metric with or without auto-save enabled.  
+ If you have auditing configured for an entity, each save is treated like a separate update. If someone lingers on a form with unsaved changes for more than 30 seconds, you’ll see an additional entry only if they add more data after the auto-save is performed. If you have reports that depend on auditing data and treat each save as an individual “touch” of a record, you might see an increase in the frequency of touches. If you're using this approach, you should consider that individual user behaviors make it an unreliable metric with or without auto-save enabled.  
   
 <a name="BKMK_DisableAutoSaveOrg"></a>   
 ## Disable auto-save for the organization  
- If you determine that auto-save will cause problems with any extensions you are using, you can disable it for your organization. There is no setting to disable auto-save for individual entities or forms.  
+ If you determine that auto-save will cause problems with any extensions you're using, you can disable it for your organization. There's no setting to disable auto-save for individual entities or forms.  
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
@@ -56,7 +56,7 @@ Auto-save helps people focus on their work without having to manage saving data 
  If you want to disable auto-save for specific entity forms, you can add code to the `OnSave` event in an entity.  
   
 > [!NOTE]
->  Auto-save will be disabled for the form, but data will still be saved whenyou  click the ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button in the lower-right corner. If you attempt to navigate away from a form or close a form where data has been changed they will get prompt to save their changes before they are allowed to navigate away or close the form.  
+>  Auto-save will be disabled for the form, but data will still be saved whenyou  click the ![Auto save button.](../customize/media/auto-save-icon.png "Auto save button") button in the lower-right corner. If you attempt to navigate away from a form or close a form where data has been changed they will get prompt to save their changes before they are allowed to navigate away or close the form.  
   
 1. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
@@ -82,7 +82,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
    4.  Enter the following information in the web resource form:  
   
-       |||  
+       ||Value |  
        |-|-|  
        |**Name**|preventAutoSave|  
        |**Display Name**|Prevent Auto Save|  
@@ -116,18 +116,18 @@ Auto-save helps people focus on their work without having to manage saving data 
   
    3.  In the **Handler Properties** window, set **Library** to the web resource you added in the previous step.  
   
-   4.  Type ‘`preventAutoSave`’ in the **Function** field. This is case sensitive. Do not include quotation marks.  
+   4.  Type ‘`preventAutoSave`’ in the **Function** field. This is case sensitive. Don't include quotation marks.  
   
    5.  Make sure that **Enabled** is checked.  
   
    6.  Check **Pass execution context as first parameter**.  
   
        > [!IMPORTANT]
-       >  If you do not do this the script will not work.  
+       >  If you don't do this, the script won't work.  
   
         The **Handler Properties** dialog should look like this. The customization prefix: “new_” may vary based on the customization prefix set for the default publisher for your organization.  
   
-   ![OnSave event handler to prevent autosave in Dynamics 365 for Customer Engagement](../customize/media/prevent-auto-save-script.png "OnSave event handler to prevent autosave in Dynamics 365 for Customer Engagement")  
+   ![OnSave event handler to prevent autosave in Dynamics 365 for Customer Engagement.](../customize/media/prevent-auto-save-script.png "OnSave event handler to prevent autosave in Dynamics 365 for Customer Engagement")  
   
    7.  Click **OK** to close the **Handler Properties** dialog.  
   
@@ -139,7 +139,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
 11. In the solution explorer, click **Publish All Customizations**.  
   
-    After you apply this script to the `OnSave` event, when people edit a record using this form the message **unsaved changes** will appear in the bottom right corner of the form just as it would if auto-save was not disabled. But this message will not go away until people click the ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
+    After you apply this script to the `OnSave` event, when people edit a record using this form, the message **unsaved changes** will appear in the lower right corner of the form just as it would if auto-save wasn't disabled. But this message won't go away until people click the ![Auto save button.](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
   
 ### See also  
  [Create and design forms](../customize/create-design-forms.md)      

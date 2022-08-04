@@ -11,7 +11,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Step 4:  Attach communication panel-related action calls to events 
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -43,11 +43,11 @@ This topic describes how to attach communication panel-related action calls to t
 
 5. Select **Add Existing Action Call**. The **Lookup Records** pane appears.
 
-    ![Select Add an Existing Action Call from the event page](../media/oc-usd-cp-desktopready-add.png "Add an existing action call") 
+    ![Select Add an Existing Action Call from the event page.](../media/oc-usd-cp-desktopready-add.png "Add an existing action call") 
 
 6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Launch Communication Panel** in the search box and select the action from the list, and then select **Add**. The action call is added to the **DesktopReady** event.
 
-    ![Enter the action call name in the search box select the action call and select add](../media/oc-usd-cp-desktopready-search-add.png "Search and add the action call")
+    ![Enter the action call name in the search box select the action call and select add.](../media/oc-usd-cp-desktopready-search-add.png "Search and add the action call")
 
 7. Select **Save**.
 

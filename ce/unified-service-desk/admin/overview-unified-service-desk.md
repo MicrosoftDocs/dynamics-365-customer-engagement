@@ -2,7 +2,7 @@
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Use this topic to know about Unified Service Desk and User Interface Integration. Also, included is a video that gives you an overview of Unified Service Desk."
 ms.date: 08/23/2017
-ms.topic: hero-article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -14,13 +14,14 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+  - intro-internal
 tags: MigrationHO
 ---
 
 
 # What is Unified Service Desk?
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] model-driven apps provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in Microsoft Dataverse. You can aggregate customer information from different areas in Dataverse into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business critical information so they can quickly engage with customers and address queries and issues.  
   
@@ -39,7 +40,7 @@ tags: MigrationHO
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a collection of solutions and data files that contain configuration entities and the underlying entities for the [!INCLUDE[pn_uii_acronym](../../includes/pn-uii-acronym.md)] framework. You configure the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities to define the user experience in the client application, such as various controls, their layout, user flow, and so on. All configuration information is stored in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities, and you can bundle it along with the solutions and data files into a “package” that defines a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application. The package can then be deployed to any Dataverse instance, and users can connect to it using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to experience the interface and functionality defined by the configuration data of the application.  
   
- ![Basic Unified Service Desk topology diagram](../../unified-service-desk/media/usd-basic-topology.png "Basic Unified Service Desk topology diagram")  
+ ![Basic Unified Service Desk topology diagram.](../../unified-service-desk/media/usd-basic-topology.png "Basic Unified Service Desk topology diagram")  
   
  The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is defined by the following two solution files:  
   

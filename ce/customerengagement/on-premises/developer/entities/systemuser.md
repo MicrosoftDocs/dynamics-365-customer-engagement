@@ -2,7 +2,7 @@
 title: "SystemUser Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SystemUser entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -12,7 +12,7 @@ search.audienceType:
   - developer
 
 ---
-# SystemUser Entity Reference
+# SystemUser Entity Reference for Dynamics 365 Customer Engagement
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 
@@ -32,7 +32,7 @@ Person with access to the Microsoft CRM system and who owns objects in the Micro
 |Retrieve|GET [*org URI*]/api/data/v9.0/systemusers(*systemuserid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveAllChildUsersSystemUser|<xref href="Microsoft.Dynamics.CRM.RetrieveAllChildUsersSystemUser?text=RetrieveAllChildUsersSystemUser Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAllChildUsersSystemUserRequest>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/systemusers<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetBusinessEquipment|<xref href="Microsoft.Dynamics.CRM.SetBusinessEquipment?text=SetBusinessEquipment Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|
+|SetBusinessEquipment|<!-- text to be commented out <xref href="Microsoft.Dynamics.CRM.SetBusinessEquipment?text=SetBusinessEquipment Action" /> -->|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|
 |SetBusinessSystemUser|<xref href="Microsoft.Dynamics.CRM.SetBusinessSystemUser?text=SetBusinessSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessSystemUserRequest>|
 |SetParentBusinessUnit|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Crm.Sdk.Messages.SetParentBusinessUnitRequest>|
 |SetParentSystemUser|<xref href="Microsoft.Dynamics.CRM.SetParentSystemUser?text=SetParentSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetParentSystemUserRequest>|
@@ -132,7 +132,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [MobileOfflineProfileId](#BKMK_MobileOfflineProfileId)
 - [MobileOfflineProfileIdName](#BKMK_MobileOfflineProfileIdName)
 - [MobilePhone](#BKMK_MobilePhone)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [NickName](#BKMK_NickName)
 - [OutgoingEmailDeliveryMethod](#BKMK_OutgoingEmailDeliveryMethod)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -1375,31 +1374,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|64|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: SI Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether user is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
 
 
 ### <a name="BKMK_NickName"></a> NickName

@@ -1,9 +1,9 @@
 ---
-title: Define subjects to categorize cases, products, and articles  | MicrosoftDocs
-description: "Mark and categorize service cases, knowledge base articles, products, and sales literature."
+title: "Define subjects in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create and edit subjects to help your organization categorize service cases, knowledge base articles, products, and sales literature."
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,7 +17,7 @@ search.audienceType:
   - admin
 ms.custom: 
 ---
-# Define subjects to categorize cases, products, and articles
+# Create subjects to categorize cases, articles, products, and literature
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
@@ -38,7 +38,7 @@ Dynamics 365 Customer Engagement (on-premises) includes a subject organizational
    - Select a subject from the tree and select **Edit subject** to edit a subject
    - Select a subject from the tree and select **Remove subject** to delete a subject
 
-   ![Add subjects](media/subjects-csh.png)
+   ![Add subjects.](media/subjects-csh.png)
 
 
 ## Create or edit a subject  (Customer Service app) 

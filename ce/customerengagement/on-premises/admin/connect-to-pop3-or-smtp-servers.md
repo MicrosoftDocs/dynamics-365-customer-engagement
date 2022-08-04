@@ -1,10 +1,10 @@
 ---
-title: "Connect Customer Engagement (on-premises) to POP3 or SMTP servers | MicrosoftDocs"
-description: "Connect Dynamics 365 Customer Engagement (on-premises) with POP3 and SMTP email servers."
+title: "Connect POP3/SMTP servers to Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to connect Customer Engagement (on-premises) with POP3/SMTP email servers, such as those used for Gmail and Yahoo! Mail."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,7 +17,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Connect Customer Engagement (on-premises) to POP3 or SMTP servers
+# Connect Customer Engagement (on-premises) to POP3/SMTP servers
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
@@ -85,7 +85,7 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
 
-     ![System Settings for server-side synchronization](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
+     ![System Settings for server-side synchronization.](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
 
 3.  Click **OK**.  
 
@@ -105,7 +105,7 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 
 3. Select all the mailboxes that you want to associate with the POP3-SMTP profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.  
 
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+   ![Apply default email settings.](../admin/media/apply-default-email-settings.png "Apply default email settings")  
 
     By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.  
 

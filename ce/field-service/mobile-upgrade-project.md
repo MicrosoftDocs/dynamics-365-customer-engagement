@@ -1,17 +1,16 @@
 ---
 title: "Upgrade the Field Service Mobile project template | MicrosoftDocs"
 description: Learn how to upgrade the Field Service Mobile project template.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 08/27/2020
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.date: 07/27/2022
+ms.reviewer: mhart
+
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Upgrade the Field Service Mobile project template
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 Dynamics 365 Field Service comes with a mobile project template that can determine how the Field Service Mobile app should look and function. For example, it has default views and forms for work orders, as well as logic that runs when a work order is saved. It also has customizations for various Field Service entities like bookings, customer assets, and so on. You can build on top of the mobile project template to edit the mobile app for your specific business needs. For more information, see the article on [common Field Service Mobile customizations](./mobile-app-configuration-customization.md).
 
@@ -29,7 +31,7 @@ Periodically, Microsoft releases a new mobile project template when the Field Se
 If you have a new Field Service environment and want to set up the mobile app, follow these steps:
 
 1. [Download the latest Field Service Mobile project template](https://aka.ms/fsmobile-project). 
-2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](./install-field-service.md#import-the-mobile-project-template).
+2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](./install-field-service.md).
 
 ## Upgrading an existing mobile project
 
@@ -44,7 +46,7 @@ Here is an example:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of mobile projects](./media/mobile-upgrade-project-customizations.png)
+> ![Screenshot of a list of mobile projects.](./media/mobile-upgrade-project-customizations.png)
 
 Now Microsoft has released a new mobile project template (Example: FSDyn_1.0.2735).
 
@@ -55,20 +57,20 @@ You have two options:
 
 The following are steps for option 2:
 
-1. Determine which Microsoft project template you customized. View the [version history](./version-history.md#mobile-project-file-library) to find and download if you do not have the template.
+1. Determine which Microsoft project template you customized. View the [version history](./version-history.md) to find and download if you do not have the template.
 2. Once you have the project determined, download your customized project on your desktop along with the original Microsoft project that you started customizing. Select and highlight your project and choose **Export**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile projects with attention to the export button](./media/mobile-upgrade-project-export.png)
+> ![Screenshot of the mobile projects with attention to the export button.](./media/mobile-upgrade-project-export.png)
 
 3. Download GitHub Desktop. 
 4. Open GitHub Desktop and initialize a repo in a folder of your choosing. 
-5. Rename the ```.woodford``` files of your customized project and Microsoft's template to ```.zip```. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
+5. Rename the `.woodford` files of your customized project and Microsoft's template to `.zip`. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the file explorer with attention to the Woodford and Zip files](./media/mobile-upgrade-extract.png)
+> ![Screenshot of the file explorer with attention to the Woodford and Zip files.](./media/mobile-upgrade-extract.png)
 
 
 6. Commit this to the main branch in GitHub desktop. 
@@ -95,13 +97,13 @@ If you created or updated offline HTML files, typically for offline JavaScript w
 If you make changes to a mobile entity, it will show as **Overridden**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden](./media/mobile-upgrade-overridden.png)
+> ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden.](./media/mobile-upgrade-overridden.png)
 
 ### See also
 
 - [GitHub integration into Mobile Configurator Woodford](https://www.resco.net/github-integration-into-woodford/)
-- [Version history](./version-history.md#mobile-project-file-library)
-- [Set up Field Service Mobile](./install-field-service.md#download-the-field-service-mobile-app-on-a-phone-or-tablet)
+- [Version history](./version-history.md)
+- [Set up Field Service Mobile](./install-field-service.md)
 - [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
 
 

@@ -4,10 +4,10 @@ description: "The sample represents a technique to pass the additional values wi
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,7 +19,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Pass multiple values to a  web resource through the data parameter
 

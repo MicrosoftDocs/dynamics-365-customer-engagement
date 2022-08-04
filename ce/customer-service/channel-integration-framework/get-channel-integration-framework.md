@@ -4,6 +4,8 @@ description: "Use this topic to get the download link and prerequisites for Dyna
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: get-started-article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -19,7 +21,7 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 
 - Identify the Dynamics 365 instance for which you want to use the Dynamics 365 Channel Integration Framework application.
 
-- You need global administrator permissions in Microsoft 365 to download and install the Dynamics 365 Channel Integration Framework application (solution).
+- Obtain global administrator permissions in Microsoft 365 to download and install the Dynamics 365 Channel Integration Framework application (solution).
 
 [!INCLUDE[token-get-channel-integration-framework](shared/token-get-channel-integration-framework.md)]
 
@@ -27,9 +29,9 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 > [!div class="nextstepaction"]
 > [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 
-## See also
+### See also
 
-[Softphone integration sample code for Dynamics 365 Channel Integration Framework version 1.0](sample-softphone-integration.md)
+[Softphone integration sample code for Dynamics 365 Channel Integration Framework 1.0](sample-softphone-integration.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

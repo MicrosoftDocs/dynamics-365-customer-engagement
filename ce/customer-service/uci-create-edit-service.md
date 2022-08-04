@@ -31,18 +31,27 @@ A service requires at least one selection rule and one or more resources, resour
 
 1. Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions. 
 
-2. Sign in to **Customer Service Hub**, and then select the **Scheduling** tab. 
+2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
-3. Select **Services**.
-  
-   ![Select Services](media/uci-services-navigation.png "Services selection on the left-hand panel")
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-4. Do one of the following:
-  - To create a new service, select **New**.
-  
-  - To edit a service, open a service from the list.
+    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+    1. In the **Service** section, select **Manage**.
+        
+        The **Active Services** view is displayed. You can switch between various system views using the drop-down list.  
 
-5. Type or modify information in the text boxes. 
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, go to **Scheduling**.
+    1. From the list of entity records, select **Services** in **Scheduling**.
+       
+       The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
+    
+3. Do one of the following:
+   - To create a new service, select **New**.
+   - To edit a service, open a service from the list.
+
+4. Type or modify information in the text boxes. 
 
     a. Under **General**, enter a name and description to reflect the specifics of the service and describes what the service is. Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
     
@@ -52,11 +61,11 @@ A service requires at least one selection rule and one or more resources, resour
     
     d. In **Beginning At**, select the time when the service activities must begin.
   
-   ![Edit scheduling details](media/uci-new-service.png "Edit scheduling details such as start times and duration")
+   ![Edit scheduling details.](media/uci-new-service.png "Edit scheduling details such as start times and duration")
    
-6. On the **Required Resources** tab, define a selection rule.
+5. On the **Required Resources** tab, define a selection rule.
   
-   ![Define selection rule](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
+    ![Define selection rule.](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
    
     |Option  |Description|
     |---------|---------|
@@ -67,13 +76,13 @@ A service requires at least one selection rule and one or more resources, resour
     > [!Note]
     > You can save a service without defining a selection rule, but you won’t be able to schedule that service.
     
-7. When you're ready to save your data, select **Save**.
+6. When you're ready to save your data, select **Save**.
 
 ## Activate or deactivate a service
 
 You can make a service available or unavailable for scheduling by activating or deactivating it.
   
-   ![Activate or deactivate service](media/uci-activate-deactivate-service.png "Activate or deactivate a service")
+   ![Activate or deactivate service.](media/uci-activate-deactivate-service.png "Activate or deactivate a service")
 
 
 ### See also  

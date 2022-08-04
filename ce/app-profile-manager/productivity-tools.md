@@ -1,17 +1,15 @@
 ---
 title: "Overview of Dynamics 365 Productivity Tools | MicrosoftDocs"
-description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel Administration app."
+description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: "dynamics-365-customerservice"
-ms.topic: article
+ms.date: 06/09/2022
+ms.topic: overview
+
 ---
 
 # Overview of productivity tools
-
-## Introduction
 
 The Dynamics 365 Productivity Tools app provides capabilities that help users perform day-to-day operations in a fast, efficient, and process-compliant manner and deliver value to customers.
 
@@ -39,7 +37,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  
-[Smart assist] (smart-assist.md)  
+[Smart assist](smart-assist.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

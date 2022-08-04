@@ -3,9 +3,9 @@ title: "Sample: Audit user access | MicrosoftDocs"
 description: "Sample demonstrating the auditing of user access to records."
 keywords: 
 ms.date: 03/29/2019
-ms.service: crm-online
+
 ms.custom: audit
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
@@ -22,7 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Audit user access

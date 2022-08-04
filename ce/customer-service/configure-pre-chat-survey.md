@@ -4,6 +4,8 @@ description: "Perform the following steps to configure a pre-conversation survey
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 04/04/2022
+ms.topic: article
 ---
 
 # Configure a pre-conversation survey
@@ -14,9 +16,25 @@ manager: shujoshi
 
 For the chat channel, you can configure a survey that users can respond to when they access the widget to start a conversation.
 
-1. In Omnichannel admin center, select the workstream for the chat channel in which you want to configure the pre-conversation survey, and then select **Edit**.
-2. On the **Behaviors** tab, set the toggle for **Pre-conversation survey** to **On**.
-3. In the **Survey questions** area, select **Add**, and then enter the following details on the **Survey question** page:
+**To configure a pre-conversation survey**
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    
+    - In the site map, select **Workstreams** in **Customer support**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     - In the site map, select **Workstreams** in **General settings**.
+
+1. Select the workstream for the chat channel in which you want to configure the pre-conversation survey.
+
+1. On the page that appears, select the channel instance from the dropdown list, and then select **Edit**.
+
+1. On the **Chat channel settings** dialog, go tn the **Behaviors** tab, and set the toggle for **Pre-conversation survey** to **On**.
+
+1. In the **Survey questions** area, select **Add**, and then enter the following details on the **Survey question** page:
    - **Survey question name**: Specify a name that will be used internally.
    - **Question text**: Enter the question text. This will be displayed as a question to the user at runtime.
    - **Answer type**: Select one of the following values from the list:
@@ -29,16 +47,19 @@ For the chat channel, you can configure a survey that users can respond to when 
     > [!NOTE]
     > Validations in pre-conversation surveys are supported only for mandatory fields.
 
-4. Select **Confirm**. The survey question with its details is listed in the **Survey questions** area.
-5. Repeat steps 3 and 4 to create additional questions. You can add up to five questions only.
+1. Select **Confirm**. The survey question with its details is listed in the **Survey questions** area.
+
+1. Repeat the steps pertaining to creating questions. You can add up to five questions only.
 
     > [!div class=mx-imgBorder]
-    > ![Pre-conversation survey questions](media/ocac-pre-conversation-questions.png "Pre-conversation survey questions")
+    > ![Pre-conversation survey questions.](media/ocac-pre-conversation-questions.png "Pre-conversation survey questions")
 
-6. Optionally, you can change the order in which the questions are listed.
+1. Optionally, you can change the order in which the questions are listed.
 
 
-## Configure a pre-conversation survey in Omnichannel Administration
+#### Configure a pre-conversation survey in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 You can configure your chat widget to show users a survey that they must respond to before they start the conversation.
 
@@ -49,7 +70,8 @@ You can configure your chat widget to show users a survey that they must respond
 5. Select **Add question**.
 
     > [!NOTE]
-    > You can add only five questions to a pre-chat survey. The length of each question should be less than or equal to 512 characters.
+    > - You can add only five questions to a pre-conversation survey. The length of each question should be less than or equal to 512 characters.
+    > - When you add a question to the pre-conversation survey, a corresponding context variable is created and is displayed in the  **Advanced settings** > **Context variables** section.
 
 6. In the **New Question** pane, provide the following information:
 
@@ -69,24 +91,18 @@ You can configure your chat widget to show users a survey that they must respond
     
 
     > [!div class=mx-imgBorder]
-    > ![Add a question to the pre-chat survey](media/oc-add-chat-question.png "Add a question to the pre-chat survey")
+    > ![Add a question to the pre-chat survey.](media/oc-add-chat-question.png "Add a question to the pre-chat survey")
 
 7. Select **Save and Close**. The questions are added in the **Pre-chat unauthenticated questions** area.
   
-    > [!div class=mx-imgBorder]
-    > ![Configure a pre-chat survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
-
 8. Optionally, select a question and select **Move up** or **Move down** in the right corner to change its order.
-
-    > [!div class=mx-imgBorder]
-    > ![Change the order of a question in a pre-chat survey](media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
 ## Runtime view of survey questions
 
 The following screenshot is a sample of the pre-conversation survey that will be displayed for customers.
 
 > [!div class=mx-imgBorder]
-> ![Sample pre-chat survey](media/oc-pre-chat-survey.png "Sample pre-chat survey")
+> ![Sample pre-chat survey.](media/oc-pre-chat-survey.png "Sample pre-chat survey")
 
 More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 

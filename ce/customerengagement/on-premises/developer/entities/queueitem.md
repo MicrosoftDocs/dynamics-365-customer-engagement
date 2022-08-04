@@ -2,7 +2,7 @@
 title: "QueueItem Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the QueueItem entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -12,7 +12,7 @@ search.audienceType:
   - developer
 
 ---
-# QueueItem Entity Reference
+# QueueItem Entity Reference for Dynamics 365 Customer Engagement
 
 A specific item in a queue, such as a case record or an activity record.
 

@@ -1,7 +1,7 @@
 ---
 title: Summary Dashboard | Microsoft Docs
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 04/05/2021
+ms.date: 08/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -15,6 +15,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-*
+- D365-UI-Dashboard
+- Dynamics 365
+- Customer Service
+- Customer Engagement
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -22,11 +29,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into which topics are generating the highest volume and which topics are emerging with the highest rate of change in volume.
 
-![Summary dashboard](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
+![Summary dashboard.](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
 
-To view the Summary dashboard, go to Customer Service historical analytics and select **Summary** at the top of the workspace. 
+To view the Summary dashboard, in **Service**, in the site map, select **Insights**, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
 
-The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. 
+The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
 
 The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -38,7 +45,7 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ## Key insights card
 
-![Key insights discovery card](media/key-insights-card.png)
+![Key insights discovery card.](media/key-insights-card.png)
 
 The Key insights card has two areas.
 
@@ -83,9 +90,10 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 ### See also
 
-- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
-- [Agent dashboard](agent-dashboard-cs.md) <br>
-- [Topics dashboard](case-topics-dashboard-cs.md) 
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard-cs.md)  
+[Topics dashboard](case-topics-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

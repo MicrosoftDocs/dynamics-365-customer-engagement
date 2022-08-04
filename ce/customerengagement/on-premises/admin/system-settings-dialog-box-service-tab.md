@@ -1,10 +1,10 @@
 ---
-title: "System Settings dialog box - Service tab  | MicrosoftDocs"
-description: "Set preferences for the customer service area, such as service level agreements and entitlements in Dynamics 365 Customer Engagement (on-premises)."
+title: "Service settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Service tab, set preferences for the customer service area, such as options related to service level agreements and entitlements."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +19,7 @@ manager: shujoshi
 search.audienceType: 
   - admin
 ---
-# System Settings dialog box - Service tab
+# Manage system settings from the Service Configuration tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
@@ -57,7 +57,7 @@ Use the Service tab in System Settings to set preferences for the customer servi
   
 ### See also  
 
-[Service Manager guide (Customer Service Hub)](/dynamics365/customer-servi/app-profile-manager/configure-cs) <br>
+[Service Manager guide (Customer Service Hub)](/dynamics365/app-profile-manager/overview) <br>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

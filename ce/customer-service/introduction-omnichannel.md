@@ -1,17 +1,20 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: Learn about Omnichannel for Customer Service, the features that are offered, and how they can be configured in your organization.
-ms.date: 06/18/2020
+ms.date: 04/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 ---
 # Introduction to Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
+Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat, voice, and SMS.
 
 Omnichannel for Customer Service also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like KB integration, search, and case creation to ensure agents are effective.
 
@@ -29,15 +32,37 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
+Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md).
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md).
+
+### Voice
+
+With the voice channel, Omnichannel for Customer Service provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365, with real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. More information: [Introduction to the voice channel](voice-channel.md)
+
+### Microsoft Teams
+
+Using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;allows organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service. More information: [Configure Microsoft Teams](configure-microsoft-teams.md)
 
 ### Social channels
 
-Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to the aforementioned generally available channels, Custom channels are currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+
+### Inbox view
+
+As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+
+The following image shows the inbox conversation view:
+
+:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+
+The following image shows the inbox case view:
+
+:::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+
+For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
 
 ## Videos
 

@@ -19,7 +19,7 @@ monikerRange: '>= dynamics-usd-4.2'
 
 # Use Edge WebView2 Process to host web applications
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 Process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it'll work in Unified Service Desk.
 
@@ -74,7 +74,7 @@ You can enable Edge WebView2 Process in any of the following ways:
 
 5. On the **New Hosted Control** page, specify the details, and then select **Edge WebView2 Process** from the **Hosting Type** dropdown list.
 
-   ![Edge WebView2 Process hosted control](media/edge-webview2-process-hosted-control-setting.PNG "Edge WebView2 Process hosted control")
+   ![Edge WebView2 Process hosted control.](media/edge-webview2-process-hosted-control-setting.PNG "Edge WebView2 Process hosted control")
 
 6. Select **Save**.
 

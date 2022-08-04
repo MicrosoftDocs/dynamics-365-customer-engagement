@@ -3,8 +3,8 @@ title: "Enable file attachments | MicrosoftDocs"
 description: "Enable file attachments in messaging channels in Omnichannel for Customer Service."
 ms.date: 08/25/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -21,7 +21,7 @@ If an agent transfers the conversation to another agent, the agent who receives 
 
 For more information about the agent and customer experience of using file attachments in chat, see [Configure file attachment](configure-file-attachment.md).
 
-For more information about which file types are supported in each channel, see [Asynchronous channel support](asynchronous-channels.md).
+For more information about which file types are supported in each channel, see [Asynchronous channel support](card-support-in-channels.md).
 
 ## File size limit and unsupported extensions (types) for attachments
 
@@ -47,14 +47,14 @@ To configure the file size limit and file extensions, follow these steps:
 5. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
 
     > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment](media/file-size-limit.png "Set file size limit for attachment")
+    > ![Set file size limit for attachment.](media/file-size-limit.png "Set file size limit for attachment")
 
 6. To specify unsupported file types, go to the **General** tab.
 
 7. In the **Set blocked file extensions for attachments** field, add or edit the file types.
 
     > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types](media/unsupported-file-types.png "Specify unsupported file types")
+    > ![Specify unsupported file types.](media/unsupported-file-types.png "Specify unsupported file types")
 
 8. Select **OK**.
 
@@ -62,13 +62,14 @@ Now, agents and customers can share file attachments during their conversation.
 
 ### See also
 
-[Asynchronous channel support](asynchronous-channels.md)<br>
-[Configure file attachment](configure-file-attachment.md)<br>
-[Configure a Facebook channel](configure-facebook-channel.md)<br>
-[Configure a Twitter channel](configure-twitter-channel.md)<br>
-[Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
-[Configure a WeChat channel](configure-wechat-channel.md)<br>
-[Configure a LINE channel](configure-line-channel.md)
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Configure file attachments](configure-file-attachment.md)  
+[Configure a Facebook channel](configure-facebook-channel.md)  
+[Configure a Twitter channel](configure-twitter-channel.md)  
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)  
+[Configure a WeChat channel](configure-wechat-channel.md)  
+[Configure a LINE channel](configure-line-channel.md)  
+[Download file attachments from your Azure bot](download-attachments-bot.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

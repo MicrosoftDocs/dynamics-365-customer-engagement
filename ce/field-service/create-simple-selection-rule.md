@@ -2,7 +2,7 @@
 title: Create a simple selection rule (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create a simple selection rule in Dynamics 365 Customer Service
 ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
 author: lalexms
@@ -49,7 +49,7 @@ You can also add resources to existing selection rules.
   
 5. On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
-    Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
+    Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button.](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
   
 6. In the **Edit a Selection Rule** dialog box, enter the following information:  
   

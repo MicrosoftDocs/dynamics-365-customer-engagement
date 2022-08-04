@@ -4,10 +4,10 @@ description: The sample code demonstrates how to give a user or team access to a
 ms.custom: 
 ms.date: 01/08/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -22,7 +22,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Add a security principal (user or team) to a queue (early bound)

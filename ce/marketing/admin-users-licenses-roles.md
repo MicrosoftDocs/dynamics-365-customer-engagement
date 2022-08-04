@@ -1,8 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 06/02/2021
-ms.service: dynamics-365-marketing
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Manage user accounts, user licenses, and security roles
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
@@ -46,17 +47,17 @@ To purchase and assign a free Marketing user license:
 
 1. Select the **Dynamics 365 Marketing User License** tile, which shows a price of **Free**.
 
-    ![Purchase a free user license for Marketing](media/admin-m365-usl.png "Purchase a free user license for Marketing")
+    ![Purchase a free user license for Marketing.](media/admin-m365-usl.png "Purchase a free user license for Marketing")
 
 1. Follow the instructions on your screen to complete the transaction.
 
 1. Return to the Microsoft 365 admin center and go to **Users** > **Active users** and select the user you want to assign a license to. The settings for that user open in a fly-out.
 
-    ![Edit settings for a user account](media/admin-m365-edit-user.png "Edit settings for a user account")
+    ![Edit settings for a user account.](media/admin-m365-edit-user.png "Edit settings for a user account")
 
 1. Select the **Licenses and Apps** tab in the flyout and then select the **Dynamics 365 Marketing User License** check box to assign the license to this user.
 
-    ![Add a license](media/admin-m365-assign-license.png "Add a license")
+    ![Add a license.](media/admin-m365-assign-license.png "Add a license")
 
 1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the user-admin interface in a few minutes.
 
@@ -80,7 +81,7 @@ Administrators can also create teams, apply security roles to those teams, and a
 
 To apply security roles to users, and to customize each role, do the following:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced Settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced Settings**.
 
 1. The Advanced Settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
@@ -97,7 +98,7 @@ All model-driven apps in Dynamics 365 come with a collection of preconfigured se
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
@@ -105,7 +106,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 1. You now see a list of security roles. Select a role to open the **Security role** window, which shows individual access levels for each available entity. Most entities are named intuitively to map to various features and areas of the app.
 
-    ![The 'Security role' window](media/security-role-setup.png "The 'Security role' window")
+    ![The 'Security role' window.](media/security-role-setup.png "The 'Security role' window")
 
 Here are a few notes for working with the **Security role** settings:
 
@@ -123,7 +124,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
     The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Power Apps portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
 
 - **To access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
-    The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
+    The [personalization feature](dynamic-email-content.md#personalization) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
 
 | Access level | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
 |-----------|--------------|------------------------------------------|
@@ -136,7 +137,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
 | Assign | Organization | Business unit |
 | Share | Organization | Organization |
 
-![Privileges required for the Website and Marketing email dynamic-content metadata entities](media/bu-roles-website.png "Privileges required for the Website and Marketing email dynamic-content metadata entities")
+![Privileges required for the Website and Marketing email dynamic-content metadata entities.](media/bu-roles-website.png "Privileges required for the Website and Marketing email dynamic-content metadata entities")
 
 ## Form and field level security
 
@@ -186,9 +187,9 @@ The surveys package adds the following security role:
 
 - Project Owner
 
-## Don't modify or remove the Marketing service user
+## Don't modify or remove marketing service users
 
-Dynamics 365 Marketing includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
+Dynamics 365 Marketing includes a preconfigured user called **D365 Marketing**, which must have the following security roles:
 
 - EventManagement S2SInbound
 - LinkedIn LeadGen S2SInbound
@@ -196,6 +197,23 @@ Dynamics 365 Marketing includes a preconfigured user called **MarketingServices 
 - Marketing, Business App Access
 
 The system uses this account when performing important internal tasks, and Marketing will stop working correctly if you remove the user or any of these required roles. Be sure not to remove or modify this user.
+
+### Real-time marketing service users
+
+After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
+
+| Real-time marketing service user | Marketing area |
+| ---- | ------- |
+| Customer Experience Platform PROD | All other areas not listed below |
+| Dynamics Marketing Dataverse Datasource  | Personalization of messages |
+| Dynamics Marketing Interactive Scenarios  | Handling flows triggered by organic users |
+| Dynamics Marketing Lifecycle Management | Lifecycle and provisioning scenarios |
+| Dynamics Marketing Native Segmentation | Segmentation |
+| Dynamics Marketing Workflow | Customer journey execution |
+
+One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
+
+**# Dynamics Marketing Dataverse Datasource** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
 
 ### See also
 

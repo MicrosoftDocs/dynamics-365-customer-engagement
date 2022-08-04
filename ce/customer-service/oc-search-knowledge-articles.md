@@ -36,7 +36,7 @@ In Omnichannel for Customer Service, when you are engaged in a conversation with
 
 By default, the full text search displays 10 results and relevance search displays 50 results.
 
-![Knowledge tab in productivity pane](media/oc-productivity-knowledge-tab.png "Knowledge tab in productivity pane")
+![Knowledge tab in productivity pane.](media/oc-productivity-knowledge-tab.png "Knowledge tab in productivity pane")
 
   |Label|Description|
   |-----|-----------|
@@ -67,7 +67,7 @@ You can perform the following actions for the knowledge article:
 - Copy the article URL to copy the external URL of the article so you can share it with your customers in a chat.
 - Provide feedback by selecting the thumbs up or thumbs down icon.
   - Make sure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
-  - Customer service agents and customer service managers can create, or view feedback based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
+  - Customer service agents and customer service managers can create or view feedback based on their role and privileges on feedback entity. Out of the box, customer service agents can only create, view, or edit their own feedback. Customer service managers or knowledge managers can view feedback submitted by all agents.
 - When you select thumbs down, the **Comments** box to provide feedback appears. Optionally, provide additional information and reasons for the feedback.
 
 ### Filter knowledge articles

@@ -14,7 +14,7 @@ search.app:
 ---
 # Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Have a comment or suggestion about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]? We need your feedback to help us deliver a reliable product. Good or bad, the quickest route to get your comments to our team is right from within [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
 
@@ -192,7 +192,7 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 3. Type your feedback or suggestion in the text box. 
 4. Select **Submit** to send your feedback to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].<br>
 
-   ![Provide feedback smiley and window](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
+   ![Provide feedback smiley and window.](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
 
 
 <a name="Conclusion"></a> 
@@ -205,7 +205,7 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 > 
 > [!Note]
 > Setting the **HelpImproveUsd** global option to **False**, disables the data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] dose not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. If the data collection is disabled, then agent or system administrator cannot provide feedback due to insufficient permissions.<br>
-> ![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
+> ![Insufficient Permissions.](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
 
 ## See also
 

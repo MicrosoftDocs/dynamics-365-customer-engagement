@@ -1,8 +1,7 @@
 ---
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
-ms.date: 06/10/2021
-ms.service: dynamics-365-marketing
+ms.date: 08/01/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -64,6 +63,9 @@ Moments-based marketing:
 Segment-based marketing:
 
 1. MicrosoftDynamics_MktCompleteAnchorSolution
+1. MicrosoftDynamics_MarketingAppRoles
+1. LeadGenAppUser
+1. MicrosoftDynamics_MarketingAppUser
 1. MicrosoftDynamics_SubscriptionList_patch
 1. MicrosoftDynamics_SubscriptionList
 1. MicrosoftDynamics_OrgCleanup_patch
@@ -86,6 +88,7 @@ Segment-based marketing:
 1. MicrosoftDynamics_MktPortalsLink
 1. MicrosoftDynamics_EvtMgmtPortalsLink_patch
 1. MicrosoftDynamics_EvtMgmtPortalsLink
+1. MicrosoftDynamics_MktContentSuggestions
 1. MicrosoftDynamics_QuickSend_patch
 1. MicrosoftDynamics_QuickSend
 1. MicrosoftDynamics_ABTesting_patch

@@ -1,10 +1,10 @@
 ---
 title: "Get started (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need."
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 3/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -84,7 +84,7 @@ The Microsoft Dynamics 365 Customer Engagement (on-premises) Web Services provid
 
 ## Build call center applications
 
- [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so that customer service representatives can get a unified view of the customer data stored in Dynamics 365 Customer Engagement (on-premises). You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service reps immediate access to business critical information so they can quickly engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk.md)
+ [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so that customer service representatives can get a unified view of the customer data stored in Dynamics 365 Customer Engagement (on-premises). You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service reps immediate access to business critical information so they can quickly engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Unified Service Desk](/dynamics365/unified-service-desk/unified-service-desk)
 
 ### See also
 [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />

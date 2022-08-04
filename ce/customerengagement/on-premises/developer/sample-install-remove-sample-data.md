@@ -3,9 +3,9 @@ title: "Sample: Install or remove sample data (Developer Guide for Dynamics 365 
 description: "Sample code to install standard sample data for Customer Engagement (on-premises)."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ab035539-7158-4efb-ad4c-86cb87eb2e0f
@@ -19,7 +19,6 @@ caps.latest.revision: 20
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Install or remove sample data

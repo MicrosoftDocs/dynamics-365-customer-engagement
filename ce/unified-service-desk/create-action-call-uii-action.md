@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Create an action call for a UII action in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 There are two ways in which you can create an action call for a [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] action:  
 
@@ -36,7 +36,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
 
 4. On the **New Action Call** page, specify information for various fields as per the following table.  
 
-   ![New action call in Unified Service Desk](../unified-service-desk/media/usd-new-action-call.png "New action call in Unified Service Desk")  
+   ![New action call in Unified Service Desk.](../unified-service-desk/media/usd-new-action-call.png "New action call in Unified Service Desk")  
 
 
    |     Field      | Description |
@@ -65,7 +65,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
 
 2. On the hosted control page, select the **Related** tab, and then choose **UII Actions**.  
 
-   ![Navigation to UII Actions for a hosted control](../unified-service-desk/media/usd-uii-actions-hosted-control.png "Navigation to UII Actions for a hosted control")  
+   ![Navigation to UII Actions for a hosted control.](../unified-service-desk/media/usd-uii-actions-hosted-control.png "Navigation to UII Actions for a hosted control")  
 
 3. Select the required UII action record, and then choose **Edit** in the command bar. This will open the UII action record.  
 

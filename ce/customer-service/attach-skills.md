@@ -1,7 +1,7 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
 description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
-ms.date: 05/17/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,8 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Understand skill-based routing
 
@@ -43,9 +44,9 @@ Admins can achieve the skill matching based on the business requirements:
 
 ### Exact skill matching
 
-In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency and lists them in the order of highest available capacity by default. The default order can be set to round robin by the administrator.
+In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency and lists them in the order of highest available capacity by default. The default order can be set to round robin by the administrator.
 
-If no agent is available with all the required skills and corresponding or higher proficiency, then the conversation remains unassigned in the queue.
+If no agent is available with all the required skills and corresponding or higher proficiency, then the conversation remains unassigned in the queue.
 
 Exact match will filter all matching agents whose proficiency is greater than or equal to the required proficiency.
 
@@ -121,14 +122,14 @@ To attach skills, you need a workstream record. You can either create or use an 
 11. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close** to save and add the skill to the grid.
 
     > [!div class=mx-imgBorder] 
-    > ![Attach skill to a conversation](media/attach-skill1.png "Attach skill")
+    > ![Attach skill to a conversation.](media/attach-skill1.png "Attach skill")
 
     If the condition (criteria) matches, then the omnichannel system attaches the skill.
 
 12. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
 
     > [!div class=mx-imgBorder] 
-    > ![Add skill rule to workstream](media/attach-skill2.png "Add skill rule to workstream")
+    > ![Add skill rule to workstream.](media/attach-skill2.png "Add skill rule to workstream")
 
 ### See also
 

@@ -1,10 +1,10 @@
 ---
-title: "Work with templates (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
-description: "Use templates in Dynamics 365 Customer Engagement (on-premises) in a variety of ways to speed your work and improve consistency."
+title: "Use templates in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use templates to speed up your work and improve consistency. There are templates for articles, emails, campaigns, Excel sheets, Word documents, and more."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,7 +17,7 @@ search.audienceType:
   - admin
 
 ---
-# Work with templates 
+# Use templates to improve consistency and speed
 
 You can use templates in Dynamics 365 Customer Engagement (on-premises) in a variety of ways to speed your work and improve consistency.
 
@@ -70,7 +70,7 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
   If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
 > [!NOTE]
-> This section applies to the Marketing work area under Dynamics 365 Customer Engagement (on-premise). If you use Dynamics 365 Marketing, which provides a full-scale set of functionality, automation, and analytical insights for multistage and multichannel campaigns, see [Marketing help and training](../../../marketing/help-hub.md).
+> This section applies to the Marketing work area under Dynamics 365 Customer Engagement (on-premise). If you use Dynamics 365 Marketing, which provides a full-scale set of functionality, automation, and analytical insights for multistage and multichannel campaigns, see [Marketing help and training](../../../marketing/help-hub.yml).
 
 ## Entitlement templates
 

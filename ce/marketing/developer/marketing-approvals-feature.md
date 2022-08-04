@@ -1,8 +1,8 @@
 ---
 title: "Build an approvals feature (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Build an approvals feature that utilizes Dynamics 365 Marketing extensibility endpoints."
-ms.date: 08/01/2019
-ms.service: dynamics-365-marketing
+ms.date: 02/03/2022
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,6 +21,9 @@ search.app:
 Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Power Automate.
 
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is identified as an approver in the system.
+
+> [!IMPORTANT]
+> The process described in this article only applies to outbound marketing features; it does not apply to [real-time marketing](../real-time-marketing-user-guide.yml) functionality.
 
 > [!IMPORTANT]
 > The approval feature described here is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. We recommend that you also develop plug-ins that prevent users from going live from any state that isn't approved and also prevent users from editing fields on the records that are in the approval-required, approved, or live state.
@@ -82,7 +85,7 @@ The only limitations that remain to customize the Marketing solution are:
 
  5. Select **Edit Status Reason Transitions**, select the **ellipsis** (...) next to the options available, add the status reasons as shown below, and then select **OK**.
 
-    ![Status Reason Transitions](../media/marketing-status-reason-transition.png "Status Reason Transitions")
+    ![Status Reason Transitions.](../media/marketing-status-reason-transition.png "Status Reason Transitions")
 
 6. Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
 7. Inside the solution, create a new entity that can be named, for example, approvals. We use this entity to decide whether the user logged in the system is an approver or a marketer. 

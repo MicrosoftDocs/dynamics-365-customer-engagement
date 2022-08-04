@@ -3,17 +3,15 @@ title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for O
 ms.custom: 
 description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
 ms.date: 05/20/2021
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -103,7 +101,7 @@ If you have enabled Internet-facing deployment on the Microsoft Dynamics 365 Ser
 All of the  above steps need to be completed for all included folders and files for **XRMServices** > **2011**, and for the NGA and AppWebServices folders.
 
 > [!div class="mx-imgBorder"] 
-> ![IIS Manager](media/iis.png "IIS Manager")
+> ![IIS Manager.](media/iis.png "IIS Manager")
 
 ## When I open Dynamics 365 App for Outlook on Outlook desktop, I see a blank page instead of the App. Why is this happening?
 For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
@@ -134,7 +132,7 @@ When we display diagnostic information and some labels in contact tracking modul
 When you use Dynamics 365 App for Outlook, you might see this notification, **Track and Set Regarding are currently disabled. To use these features, contact your admin. You can still view and interact with your Dynamics 365 apps data**.
 
 > [!div class="mx-imgBorder"] 
-> ![Outlook app notification](media/serversidesync.png "Outlook app notification")
+> ![Outlook app notification.](media/serversidesync.png "Outlook app notification")
 
 Dynamics 365 App for Outlook leverages server-side synchronization to keep your Exchange items in sync with Dynamics 365 apps. For example, if you track a meeting in Outlook, then the App for Outlook relies on server-side synchronization to create the activity in Dynamics 365 apps and keep the two items in sync.
 

@@ -69,7 +69,7 @@ ms.custom:
 
  The following layout depicts the **Standard Main Panel** type of panel layout (also called standard panel layout) in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 
- ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")
+ ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")
 
 > [!NOTE]
 >  If you do not create any panel layout in your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration, the standard panel layout is used automatically to display panels and controls in the client application.

@@ -2,7 +2,7 @@
 title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
 ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 author: lalexms
@@ -60,7 +60,7 @@ A service requires at least one selection rule and one or more resources, resour
   
    1.  Choose a selection rule in the right-hand pane.  
   
-        Selection rules appear in the tree beside the **Selection Rule** button ![Gear button](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
+        Selection rules appear in the tree beside the **Selection Rule** button ![Gear button.](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
   
    2.  Choose one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination.  
   

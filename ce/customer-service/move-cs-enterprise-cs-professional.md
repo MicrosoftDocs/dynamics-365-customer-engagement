@@ -3,8 +3,8 @@ title: "Move from Dynamics 365 Customer Service Enterprise edition to Dynamics 3
 description: "Follow the steps in this topic to move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional."
 ms.date: 04/05/2021
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
@@ -37,7 +37,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 2. Select multiple users, and then select **Manage product licenses**. 
 
    > [!div class="mx-imgBorder"]
-   > ![Assign licenses to multiple users](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
+   > ![Assign licenses to multiple users.](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
 
 3. Select **Replace** to unassign existing licenses and assign new ones.
 
@@ -52,7 +52,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ### See also
 
-[Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)  
+[Dynamics 365 Licensing Update](https://dynamics.microsoft.com/pricing/)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

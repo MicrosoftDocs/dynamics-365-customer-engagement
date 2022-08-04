@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Search data using entity searches in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Entity searches are FetchXML definitions that query Microsoft Dataverse web services to return data. You can also use replacement parameters within the FetchXML queries in an entity search. Entity searches can be used in window navigation rules both as a source to access data which is not displayed on the form, and as a destination to look up the data using a web service call to Dataverse, and then populate the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context data so that it can be used in replacement parameters. You can also use entity searches in the [DoSearch](../unified-service-desk/global-manager-hosted-control.md#DoSearch) action for the Global Manager hosted control to search for your data.  
   
@@ -48,7 +48,7 @@ Entity searches are FetchXML definitions that query Microsoft Dataverse web serv
   
  This is how the entity search definition looks like:  
   
- ![Sample entity search definition](../unified-service-desk/media/usd-entity-search-definition.png "Sample entity search definition")  
+ ![Sample entity search definition.](../unified-service-desk/media/usd-entity-search-definition.png "Sample entity search definition")  
   
 > [!IMPORTANT]
 >  While defining FetchXML queries in an entity search, you should only return the fields that are required for the purpose. This minimizes the impact on the network by limiting the size of the request and the data being returned, thus optimizing the resource usage.  

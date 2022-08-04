@@ -1,24 +1,22 @@
 ---
-title: "Extend Universal Resource Scheduling actions to use your preferred geospatial data provider | MicrosoftDocs"
-description: "Provides information on how to use geospatial data providers of your choice instead of the default Bing Maps in Dynamics 365 Field Service and Dynamics 365 Project Service Automation."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
+title: "Use preferred geospatial data provider in Universal Resource Scheduling"
+description: "Learn how to use the geospatial data provider of your choice instead of the default Bing Maps by creating a custom plug-in."
 ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
+ms.subservice: common-scheduler
 ms.topic: conceptual
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
-# Extend Universal Resource Scheduling actions to use your preferred geospatial data provider (Field Service, Project Service Automation)
+# Extend Universal Resource Scheduling actions to use your preferred geospatial data provider
 
 You can create a *custom* plug-in and register on the Universal Resource Scheduling actions that provide geospatial functionality to use data from a data provider of your choice instead of the default Bing Maps API.
 

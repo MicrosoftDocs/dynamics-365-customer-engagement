@@ -1,8 +1,9 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to configure automated messages in Omnichannel for Customer Service"
-author: platkat
-ms.author: ktaylor
+description: "Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service"
+ms.date: 04/04/2022
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -19,10 +20,26 @@ You can configure Omnichannel for Customer Service to send automated messages th
 
 You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. Administrators can overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. See [Preconfigured automated message triggers](#preconfigured-automated-message-triggers) for more information.
 
-1. In Omnichannel admin center, select **Customer settings** in the site map, and select **Manage** for **Automated messages**. The list of all the automated messages is displayed. If you are using Omnichannel Administration, under **Settings**, select **Automated messages**. A list of all the automated messages is displayed.
+You can configure automated messages in the Customer Service admin center or Omnichannel admin center apps.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Automated messages** section, select **Manage**.
+
+     The **Automated messages** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Automated messages** section, select **Manage**.
+
+      The **Automated messages** page is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![Display all automated messages](media/automated-messages-list.png "Display all automated messages")
+    > ![Display all automated messages.](media/automated-messages-list.png "Display all automated messages")
 
 2. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
 
@@ -42,15 +59,15 @@ You can customize messages across instances within a channel. For example, you c
     |{QueueName} | The name of the queue |
 
     > [!div class=mx-imgBorder]
-    > ![Configure automated messages at channel level](media/automated-messages-general.png "Configure automated messages at channel level")
+    > ![Configure automated messages at channel level.](media/automated-messages-general.png "Configure automated messages at channel level")
 
 ## Customize automated messages at the channel instance level
 
 You can customize automated messages at the channel instance level. For example, you can apply a change to one specific Facebook account, one specific SMS number, and so on. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, the channel-level settings are overwritten.
 
-### Add custom automated messages in Omnichannel admin center
+### Add custom automated messages
 
-Do the following for the channel in which you want to create custom automated messages:
+Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
 
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
@@ -62,25 +79,27 @@ Do the following for the channel in which you want to create custom automated me
 
 ### Add custom automated messages in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1. In Omnichannel Administration, go to **Channels**, and select the channel you will use to send automated messages. This example uses WeChat.
 2. In the list of accounts, open the channel instance for which you want to configure an automated message.
 3. Select the **Automated messages** tab, and select **New message**.
 
     > [!div class=mx-imgBorder]
-    > ![Configure automated messages](media/automated-messages.png "Configure automated messages")
+    > ![Configure automated messages.](media/automated-messages.png "Configure automated messages")
 
 4. Enter the name of your message, select the message trigger, and then type your message. The **Language Code** field is determined by the language set in the **General settings** tab of the channel instance and cannot be modified. The **Message Trigger** field contains the system events that prompt an automated message to be sent.
 12. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Create automated messages](media/automated-messages-create.png "Create automated messages")
+    > ![Create automated messages.](media/automated-messages-create.png "Create automated messages")
     
     The message is added to the list of channel instance-specific messages. To create localized versions of the message, repeat the steps for each language required. 
 
 To deactivate messages at the channel instance level, select one or more messages, and select the **Deactivate** button.
 
 > [!div class=mx-imgBorder]
-> ![Deactivate automated messages](media/automated-messages-deactivate.png "Deactivate automated messages")
+> ![Deactivate automated messages.](media/automated-messages-deactivate.png "Deactivate automated messages")
 
 ## Preconfigured automated message triggers
 

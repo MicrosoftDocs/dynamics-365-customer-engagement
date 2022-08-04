@@ -10,7 +10,7 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 # Create agent and supervisor configurations in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -31,12 +31,12 @@ A configuration in Unified Service Desk helps you filter access to components th
 Omnichannel Agent Configuration
 
  > [!div class=mx-imgBorder]
- > ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
+ > ![new agent configuration.](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
 
 Omnichannel Supervisor Configuration
 
  > [!div class=mx-imgBorder]
- > ![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
+ > ![new supervisor configuration.](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
 
 > [!div class="nextstepaction"]
 > [Next topic: Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

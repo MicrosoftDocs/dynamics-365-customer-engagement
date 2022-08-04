@@ -59,7 +59,7 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
 6.  To save this business closure, select **OK**.  
 
 
-    ![business-closure-cs](media/business-closure-cs-app.png)
+    ![business-closure-cs.](media/business-closure-cs-app.png)
   
 ### See also  
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)   

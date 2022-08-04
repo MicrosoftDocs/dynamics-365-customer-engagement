@@ -5,12 +5,12 @@ ms.date: 11/03/2020
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh
-manager: "jdaly"
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
-# msdyn_channelprovider Entity Reference
+# msdyn_channelprovider Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
 Entity that will hold the information (configuration) about a channel provider
 
@@ -277,7 +277,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Domain to be whitelisted|
+|Description|Domain to be allowlisted|
 |DisplayName|Trusted Domain|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -924,7 +924,7 @@ See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_
 
 ### See also
 
-- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/configure-channel-provider-app-profile-manager)
+- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
 
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 

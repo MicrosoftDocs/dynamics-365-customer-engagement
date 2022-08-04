@@ -2,6 +2,7 @@
 title: MICROSOFT DYNAMICS 365 SALES ACCELERATOR PUBLIC PREVIEW AGREEMENT
 author: ReneeW-CPub
 robots: noindex,nofollow
+ms.author: renwe
 ---
 
 # MICROSOFT DYNAMICS 365 SALES ACCELERATOR<br>PUBLIC PREVIEW AGREEMENT
@@ -300,7 +301,7 @@ Software.
 The Software is subject to United States export laws and regulations. You must
 comply with all domestic and international export laws and regulations that
 apply to the Software. These laws include restrictions on destinations, end
-users and end use. For additional information, see <http://aka.ms/exporting>.
+users and end use. For additional information, see <https://aka.ms/exporting>.
 
 Unless we notify you otherwise, your license to use the Software provided by us
 as part of the Services will end when your right to use the Services ends, and
@@ -692,7 +693,7 @@ How to Contact Microsoft
 
 If Customer believes that Microsoft is not adhering to its privacy or security
 commitments, Customer may contact customer support or use Microsoft’s Privacy
-web form, located at http://go.microsoft.com/?linkid=9846224. Microsoft’s
+web form, located at https://go.microsoft.com/?linkid=9846224. Microsoft’s
 mailing address is:
 
 Microsoft Enterprise Service Privacy

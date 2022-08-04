@@ -1,7 +1,7 @@
 ---
 title: Records routing using records channel | MicrosoftDocs
 description: Learn how you can route cases automatically using records channel in the Omnichannel Administration app.
-ms.date: 06/22/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,12 +9,11 @@ manager: shujoshi
 ---
 # Route records in Omnichannel Administration app
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing to route records. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Overview
 
@@ -36,37 +35,20 @@ To setup the **Entity Record** channel for cases, follow the steps:
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues and add agents](#step-1-create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
-| [Step 2: Enable entity for queues](#enable-entities)| Enable the entity for queues. |
-| [Step 3: Enable entity for routing channel](#step-3-enable-record-for-routing) | Create entity record configuration to enable an entity for routing. |
-| [Step 4: Create routing rules](#step-4-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
+| [Step 1: Create queues and add agents](#create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
+| [Step 2: Enable entity for queues](enable-entities-for-queues.md)| Enable the entity for queues. |
+| [Step 3: Enable entity for routing channel](#enable-record-for-routing) | Create entity record configuration to enable an entity for routing. |
+| [Step 4: Create routing rules](#create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
-## Step 1: Create queues and add agents
+## Create queues and add agents
 
 Create an omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
 
-## Step 2: Enable entity for queues<a name="enable-entities"> </a>
+## Enable entities for queues
 
-Any record you want to enable for routing needs to be enabled for queues.
+Perform the steps mentioned in [Enable entities for queues for unified routing](enable-entities-for-queues.md).
 
-1. Sign in to the Dynamics 365 instance.
-
-2. Select **Settings** > **Customizations** > **Customize the System**.
-
-3. Expand **Entities** below **Components**.
-
-4. Select a record from the solution pane.
-
-5. Select the Queues checkbox under **Communication & Collaboration** section:
-
-6. Select **Save**.
-
-7. Select **Publish**.
-
-> [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records. <br><br> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
-
-## Step 3: Enable record for routing
+## Enable record for routing
 
 Create record configuration to enable it for routing.
 
@@ -88,7 +70,7 @@ Create record configuration to enable it for routing.
 > [!Note]
 > When you create a record channel configuration, a default work stream will be created to distribute these records. You can edit the default work stream or create more work streams as per your business scenarios. To learn more, see [Create work stream for record routing](set-up-entity-workstream.md).
 
-## Step 4: Create routing rules
+## Create routing rules
 
 After creating a record configuration, and enabling the record for routing, you can define routing rules to route these records to appropriate queues.
 
@@ -103,12 +85,12 @@ Let's see how to create routing rule set and rule items for records. In this pro
 3. Select a records channel that you created for routing the records from the **Active Entities** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case work stream](media/case-entity-channel1.png "Case workstream")
+    > ![Select a case work stream.](media/case-entity-channel1.png "Case workstream")
 
 4. Select the **Routing Rules** tab in the entity records channel.
 
     > [!div class=mx-imgBorder] 
-    > ![Select the routing rule items tab](media/case-routing-rule1.png "Routing rule items")
+    > ![Select the routing rule items tab.](media/case-routing-rule1.png "Routing rule items")
 
 ### Create routing rule set
 
@@ -128,7 +110,7 @@ Routing rule set is a collection of rule items, and you can have multiple routin
     | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
 
     > [!div class=mx-imgBorder] 
-    > ![Add rule item](media/case-ws-rr-entity.png "Add rule item")
+    > ![Add rule item.](media/case-ws-rr-entity.png "Add rule item")
 
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
@@ -139,7 +121,7 @@ Routing rule set is a collection of rule items, and you can have multiple routin
 8. Select **New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](media/case-ws-rr2.png "Add New Rule Item")
+    > ![Add New Rule Item.](media/case-ws-rr2.png "Add New Rule Item")
 
 9. Specify the following on the **New Rule Item** page.
 
@@ -166,7 +148,7 @@ Routing rule set is a collection of rule items, and you can have multiple routin
     The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
-    > ![New Rule Item values](media/case-ws-rr-rule-item2.png "New Rule Item values")
+    > ![New Rule Item values.](media/case-ws-rr-rule-item2.png "New Rule Item values")
 
     > [!Note]
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign records to agents.

@@ -1,9 +1,10 @@
 ---
 title: "Set address book options in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to synchronize all Dynamics 365 app contacts so that they all appear in the address book in Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -54,7 +55,7 @@ With [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsof
   
    - **Match all items in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**. Select this option if you want to sync all record types, including record types you don’t own.  
   
-5. If your address book is slow or if there are record types you want to exclude from your address book, under **Change the record types being synchronized to your Address Book**, choose the **Select or change the values for this field** button ![Ellipsis button](../media/ellipsis-button.gif "Ellipsis button").  
+5. If your address book is slow or if there are record types you want to exclude from your address book, under **Change the record types being synchronized to your Address Book**, choose the **Select or change the values for this field** button ![Ellipsis button.](../media/ellipsis-button.gif "Ellipsis button").  
   
 6. Add or remove record types, and then choose **OK**.  
   

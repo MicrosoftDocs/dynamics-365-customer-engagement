@@ -1,8 +1,7 @@
 ---
 title: "Market to leads (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 Marketing."
-ms.date: 04/25/2018
-ms.service: dynamics-365-marketing
+ms.date: 04/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,9 +19,7 @@ search.app:
 
 # Market to leads with Dynamics 365 Marketing
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
-Dynamics 365 Marketing uses contact records to represent prospective customers and enables marketers to engage with those contacts through initiatives such as customer journeys, events, and landing pages. When a contact submits a lading page, Marketing typically auto-creates a lead for that contact, and marketers can manually add leads for contacts at any time. Dynamics 365 Marketing then nurtures and scores those leads through a qualification process, and hands off marketing-qualified leads to salespeople for further qualification into opportunities. In this way, Marketing uses contacts to represent *people* and leads to represent *specific expressions of interest* made by those people. You can read more about this process in [Manage customer information](manage-customer-information.md) and [The lead lifecycle](lead-lifecycle.md).
+Dynamics 365 Marketing uses contact records to represent prospective customers and enables marketers to engage with those contacts through initiatives such as customer journeys, events, and landing pages. When a contact submits a landing page, Marketing typically auto-creates a lead for that contact, and marketers can manually add leads for contacts at any time. Dynamics 365 Marketing then nurtures and scores those leads through a qualification process, and hands off marketing-qualified leads to salespeople for further qualification into opportunities. In this way, Marketing uses contacts to represent *people* and leads to represent *specific expressions of interest* made by those people. You can read more about this process in [Manage customer information](manage-customer-information.md) and [The lead lifecycle](lead-lifecycle.md).
 
 Dynamics 365 is a highly flexible and customizable system, where each organization can decide how to make use of the various types of records it contains. Some organizations may prefer, or already have in place, a more sales-driven process, where salespeople save new potential customers as lead records and only create a contact record based on a lead once that lead made a purchase or entered into an ongoing business relationship with the organization. So, does that mean you can't market to leads using Dynamics 365 Marketing&mdash;of course not!
 
@@ -48,21 +45,21 @@ For example, to set up a segment that finds all the leads collected at a recent 
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
+    ![Choose the tree view.](media/segment-firmographic-tree-view.png "Choose the tree view")
 
 1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
+    ![Add a related entity.](media/segment-add-related-entity.png "Add a related entity")
 
 1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "lead" in the field to filter the list and then select **Lead (Lead -> Contact (Parent Contact for lead))** from the drop-down list. This relation links the parent **Contact** entity to the **Lead** entity through the **Parent Contact for lead** field of the **Lead** entity. The **Parent Contact for lead** field identifies the contact that Dynamics 365 Marketing associates with each lead. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-    ![Link to leads](media/segment-leads-relation.png "Link to leads")
+    ![Link to leads.](media/segment-leads-relation.png "Link to leads")
 
 1. Open the **Add** drop-down list indented under the new related entity and select **Add row** to begin defining the collection of waitlist items you are looking for.
 
 1. In the group below the lead relationship, set up a query to find the leads you need. In the following example, we'll look for leads collected at a recent conference; each of these were assigned a **Topic** of "Contoso Ltd Conference".
 
-    ![An example lead query](media/segment-leads-clause.png "An example lead query")
+    ![An example lead query.](media/segment-leads-clause.png "An example lead query")
 
 1. Continue to add rows and groups as needed to define the collection of leads and contacts you are looking for.
 
@@ -71,7 +68,7 @@ For example, to set up a segment that finds all the leads collected at a recent 
 
     For example, the following query finds all the leads from the Contoso Ltd Conference, but then reduces the audience to only include contacts that have the role of decision maker.
 
-    ![An example query that finds decision makers associated with particular leads](media/segment-leads-contacts.png "An example query that finds decision makers associated with particular leads")
+    ![An example query that finds decision makers associated with particular leads.](media/segment-leads-contacts.png "An example query that finds decision makers associated with particular leads")
 
 1. Select the field above the query that shows **Enter segment name** as ghost text. Then type a name for your segment.
 
@@ -87,7 +84,7 @@ For more information about workflows, start with the [Classic Dataverse workflow
 
 Also, any user can manually select or create a contact for a lead by using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process on the lead record.
 
-![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
+![Manually link a lead to a contact record.](media/leads-related-contact.png "Manually link a lead to a contact record")
 
 ## Keep automatically generated contacts from confusing users
 

@@ -90,11 +90,11 @@ Given below is a list of some common issue scenarios and their resolutions.
 
 In the Customer field of the Case Details section, **Senders Account (Email)** is set as below value.
 
-![Email case scenario](media/email-case-scenario.png "Email case scenario")
+![Email case scenario.](media/email-case-scenario.png "Email case scenario")
 
 This results in the following error in system jobs:
 
-![Error email case](media/error-email-case.png "Error email case")
+![Error email case.](media/error-email-case.png "Error email case")
 
 To resolve this issue, keep the Customer field blank or set it to **{Sender(Email)}**. This allows the system to automatically create contact for the unknown sender and link it to the case.
 
@@ -102,11 +102,11 @@ To resolve this issue, keep the Customer field blank or set it to **{Sender(Emai
 
 The Customer field is set as **{Senders Account(Email)}** and Contact field as **{Sender(Email)}**.
 
-![Error email case contact](media/error-email-case-contact.png "Error email case contact")
+![Error email case contact.](media/error-email-case-contact.png "Error email case contact")
 
 This results in the following error in system jobs:
 
-![Case email error](media/case-email-error.png "Case email error")
+![Case email error.](media/case-email-error.png "Case email error")
 
 To resolve this issue, keep the Customer field blank or set it to **{Sender(Email)}**. This allows the system to automatically create contact for the unknown sender and link it to the case.
 
@@ -114,11 +114,11 @@ To resolve this issue, keep the Customer field blank or set it to **{Sender(Emai
 
 The Customer field and Contact field are set as **{Sender(Email)}**.
 
-![Case email scenario](media/case-email-scenario.png "Case email scenario")
+![Case email scenario.](media/case-email-scenario.png "Case email scenario")
 
 This results in the following error in system jobs:
 
-![Error in system jobs](media/error-system-jobs.png "Error in system jobs")
+![Error in system jobs.](media/error-system-jobs.png "Error in system jobs")
 
 To resolve this issue, leave contact field blank and set Customer field either to blank or to **{Sender(Email)}**.
 

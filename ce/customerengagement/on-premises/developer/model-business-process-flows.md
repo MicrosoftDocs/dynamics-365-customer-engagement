@@ -4,7 +4,7 @@ description: "Learn how to programmatically work with business process flows in 
 ms.custom: 
 ms.date: 07/09/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -80,7 +80,7 @@ You can retrieve the name of your business process flow entity using any of the 
 
 - **Using the UI**: Use the customization UI to browse to your business process flow entity:
 
-    ![BPF entity name](media/bpf-entity-name.png "BPF entity name")
+    ![BPF entity name.](media/bpf-entity-name.png "BPF entity name")
 - **Using the Web API**: Use the following request:
 
     **Request**
@@ -137,7 +137,7 @@ The custom entity that is automatically created on activating a business process
 
 The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his or her assigned roles. By default, when the business process flow custom entity is created, only **System Administrator** and **System Customizer** security roles are granted access to it, and you must explicitly grant permissions to the new business process flow entity (for example, **My Custom BPF**) for other security roles as required.
 
-![BPF privileges](media/bpf-privileges.png "BPF privileges")
+![BPF privileges.](media/bpf-privileges.png "BPF privileges")
 
 <a name="ManageBPF"></a>   
 ## Create, retrieve, update, and delete business process flow entity records (process instances)  
@@ -148,7 +148,7 @@ The custom business process flow entity has organization scope. The regular crea
 
  Lets consider the following example where we have a cross-entity business process flow, "My Custom BPF," with 3 stages: S1:Account, S2:Account, and S3:Contact. 
 
- ![Sample BPF](media/sample-bpf.png "Sample BPF")
+ ![Sample BPF.](media/sample-bpf.png "Sample BPF")
  
 ### Retrieve all the records (instances) for a business process flow entity
  If the name of your business process flow entity is "new_mycustombpf", use the following query to retrieve all the records (process instances) for your business process flow entity:  
@@ -164,7 +164,9 @@ At this point, you might not get any instances in your response as there are non
   
 ### Create a business process flow entity record (process instance) 
 
-Create a business process flow entity record (process instance) programmatically if you want to switch to another business process flow for an entity record without using the UI. 
+Create a business process flow entity record (process instance) programmatically if you want to switch to another business process flow for an entity record without using the UI.
+> (!NOTE)
+> When you create a record in the Unified Interface and you do not want to have a business process flow associated to the record, create an onload script that invokes setActiveProcess and pass an empty processID (GUID). Code Example formcontext.data.process.setActiveProcess('00000000-0000-0000-0000-000000000000', (a)=>{​​alert("changed -- " + a)}​​)
 
 To create a business process flow entity record, you need to specify the following values: 
 - Associate the business process flow entity record to a primary entity record by setting the single-valued navigation property using the `@odata.bind` annotation. To find out the navigation-property name that points to the primary entity record for your business process flow definition, use the [CSDL $metadata document](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document). 

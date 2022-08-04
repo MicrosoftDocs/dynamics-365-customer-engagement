@@ -1,25 +1,18 @@
 ---
-title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel Administration app"
+title: "Manage notification templates | MicrosoftDocs"
+description: "Learn about managing notification templates in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: dynamics-365-customerservice
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage notification settings and templates
 
-
-## Introduction
-
 When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
 As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
-
-> [!Note]
-> You must associate the notification templates to a session template.
 
 ## Desktop notifications
 
@@ -38,7 +31,7 @@ Agents can receive desktop notifications when the Customer Service workspace or 
 - The agent is working on another tab of the browser.
 
  > [!div class=mx-imgBorder]
- > ![Desktop notification](../customer-service/media/desktop-notification.png "Desktop notification")
+ > ![Desktop notification.](../customer-service/media/desktop-notification.png "Desktop notification")
 
 Agents can accept or reject the conversation request by selecting a button on the desktop notification. When an agent accepts the conversation, the app is made active and displayed to the agent, and a session is started.
 
@@ -58,7 +51,7 @@ To get desktop notifications, agents need to allow their browser (Microsoft Edge
 Also, as an administrator, you can set the browser notification permission by using group policy.
 
  > [!div class=mx-imgBorder]
- > ![Allow desktop notifications](../customer-service/media/allow-desktop-notification.png "Allow desktop notifications")
+ > ![Allow desktop notifications.](../customer-service/media/allow-desktop-notification.png "Allow desktop notifications")
 
 ### Notification fields
 
@@ -96,7 +89,8 @@ The application supports the following slugs.
 
 ### Out-of-the-box notification templates
 
- For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../customer-service/oc-notifications.md).
+ For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on the notifications behavior and what the notifications display for agents, see [notifications for agents](../customer-service/oc-notifications.md).
+
 
 The out-of-the-box templates are as follows.
 
@@ -110,21 +104,33 @@ The out-of-the-box templates are as follows.
 | Microsoft Teams | Teams - consult - default | Teams - incoming authenticated - default | Teams - incoming unauthenticated - default | Teams - transfer - default |
 | Twitter | Twitter - consult - default | Twitter - incoming authenticated - default | Twitter - incoming unauthenticated - default | Twitter -  transfer - default |
 | WeChat | WeChat - consult - default | WeChat - incoming authenticated - default | WeChat -  incoming unauthenticated - default | WeChat - transfer - default |
-| CDS entity |||||Entity record - assign - default |
+| CDS entity |||||CDS entity - Default assigned |
 | Customized ||||| Customized notification template |
 | Sentiment ||||| Sentiment threshold alert - supervisor |
+|Voice|Voice call - consult - default|Voice call - incoming authenticated - default|Voice call - incoming unauthenticated - default|Voice call - transfer - default|Voice call - supervisor assign - default|
 |||||||
 
   > [!Note]
-  > You can't customize the out-of-the-box notification templates; instead, you'll need to create your own custom templates.
+  >
+  > - You can't customize the out-of-the-box notification templates; instead, you'll need to create your own custom templates.
+  > - If you use custom notification templates for record routing, we recommend that you do not add a reject option. By design, the record will be assigned to the routed agent even if you provide the option to the agent to reject the assignment.
 
 ### Create a notification template
 
-Perform the following steps to create a notification template:
+**To create the notification template**
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Notification templates**. If you're using the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
+     1. In the site map, select **Workspaces** in **Agent experience**.
+     2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-2. Select **New** in the **Active Notifications** area.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
+
+2. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
 
 3. Specify the following in the **New Notification** page.
 
@@ -141,7 +147,7 @@ Perform the following steps to create a notification template:
    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
-    > ![Create notification template](../customer-service/media/notification-template1.png "Create notification template")
+    > ![Create notification template.](../customer-service/media/notification-template-default-entity.png "Create notification template")
 
 4. Select **Save**. The template is saved, and the **Notification Fields** section appears on the page.
 
@@ -160,7 +166,7 @@ Perform the following steps to create a notification template:
     | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slugs-for-notification-field-header). |{customerName} |
 
     > [!div class=mx-imgBorder]
-    > ![Create notification field](../customer-service/media/notification-field.png "Create notification field")
+    > ![Create notification field.](../customer-service/media/notification-field.png "Create notification field")
 
 9. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap, and then select the template you created.
 
@@ -226,15 +232,16 @@ As an administrator, you need to customize the notification template to show the
 | Language | Language | `{visitorLanguage}` |
 
 > [!div class=mx-imgBorder] 
-> ![Customize notification template](../customer-service/media/customize-notification-template.png "Customize notification template")
+> ![Customize notification template.](../customer-service/media/customize-notification-template.png "Customize notification template")
 
 #### Step 3: Save the changes
 
 ### See also
 
+[Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Associate templates with work streams](associate-templates.md)  
+[Associate templates with workstreams](associate-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

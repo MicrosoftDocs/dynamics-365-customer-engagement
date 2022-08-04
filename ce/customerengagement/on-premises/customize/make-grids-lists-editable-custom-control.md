@@ -1,10 +1,10 @@
 ---
-title: "Make grids (lists) editable by using the editable grid custom control with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use the editable grid custom control"
+title: "Use Editable Grid control in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to enable grid editing using the Editable Grid custom control. This allows users to do direct editing in grids and subgrids from any device."
 ms.custom: 
 ms.date: 04/10/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,13 +20,13 @@ search.audienceType:
   - customizer
 
 ---
-# Make grids (lists) editable using the editable grid custom control
+# Enable direct editing of grids using the Editable Grid custom control
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Make model-driven app grids (lists) editable using the Editable Grid custom control](/powerapps/maker/model-driven-apps/make-grids-lists-editable-custom-control)
 
 In previous releases of Dynamics 365 Customer Engagement (on-premises), users couldn't enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and subgrids whether they're using a web app, tablet, or phone.  
   
- ![Editable grid examples](../customize/media/editable-grid-examples.png "Editable grid examples")  
+ ![Editable grid examples.](../customize/media/editable-grid-examples.png "Editable grid examples")  
   
  When editable grids are enabled through the Editable Grids custom control, users can edit most types of fields, including basic Lookup fields and option sets.  
 
@@ -68,13 +68,13 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
   
 2. In the **Entities** list, open the appropriate entity, select the **Controls** tab, and then select **Add Control**.  
   
-   ![Add Editable Grids custom control](../customize/media/add-editable-grids-custom-control.png "Add Editable Grids custom control")  
+   ![Add Editable Grids custom control.](../customize/media/add-editable-grids-custom-control.png "Add Editable Grids custom control")  
   
 3. In the **Add Control** dialog box, select **Editable Grid**, and then select **Add**.  
   
 4. In the **Editable Grid** row that's added, select the form factor(s) you want to apply the grid to. This makes the editable grid control the default control for the selected form factor(s).  
   
-   ![Editable Grid row with form factor selection](../customize/media/editable-grid-row-wit-factor-selection.png "Editable Grid row with form factor selection")    
+   ![Editable Grid row with form factor selection.](../customize/media/editable-grid-row-wit-factor-selection.png "Editable Grid row with form factor selection")    
 
    > [!NOTE]
    >  At runtime, users can toggle between editable grids and read-only grids.  
@@ -89,12 +89,12 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
   
    4.  If you want to limit the records displayed, select the **Only show records where** check box, and then select your criteria from the list, and then select **OK**.  
   
-   ![Add lookup in Editable Grid control](../customize/media/add-lookup-in-editable-grid-control.png "Add lookup in Editable Grid control")  
+   ![Add lookup in Editable Grid control.](../customize/media/add-lookup-in-editable-grid-control.png "Add lookup in Editable Grid control")  
      
 6. If you have a nested grid, select the pencil button for **Nested grid view**, and then select the entity and view for the nested grid. For the **Nested grid parent ID** select the relationship for the entities. For example, the ParentAccountID field connects the **Account** and **Contact** entities.  
   
    > [!NOTE]
-   >  Nested grids are only available for phones, tablets, and unified interface apps. Nested grids aren't available with classic web client apps. More information: [About Unified Interface](../admin/about-unified-interface.md) 
+   >  Nested grids are only available for phones, tablets, and Unified Interface apps. Nested grids aren't available with legacy web client apps. More information: [About Unified Interface](../admin/about-unified-interface.md) 
   
 7. If you don't want to allow the user to group data by any column in the view (you want to save space, for example), in the **Group by Column** row, select the pencil button, and then in the **Configure Property "Group by Column"** dialog box, select **Disabled**, and then select **OK**.  
   
@@ -103,7 +103,7 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
   
 8. If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, select the **Events** tab, and then select the appropriate entities, fields, and events. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md).  
   
-   ![Add events in Editable Grid control](../customize/media/add-events-in-editable-grid-control.png "Add events in Editable Grid control")  
+   ![Add events in Editable Grid control.](../customize/media/add-events-in-editable-grid-control.png "Add events in Editable Grid control")  
   
 9. To save your work, select **Save** on the action bar.  
   
@@ -169,7 +169,7 @@ Based on customer feedback, we have removed the editable grid experience from ph
 
 ### Why can't I use record navigation in a form when coming from an editable grid?
 
-This functionality isn't available with the web client. However, this functionality is available in Unified Interface. 
+This functionality isn't available with the legacy web client. However, this functionality is available in Unified Interface. 
 
 
 ### See also  

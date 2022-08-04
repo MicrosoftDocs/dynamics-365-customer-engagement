@@ -1,9 +1,10 @@
 ---
-title: "Dynamics 365 Customer Engagement (on-premises) reporting considerations | MicrosoftDocs"
+title: "Reporting capabilities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Reporting capabilities are designed to let users run reports on datasets that span shorter periods of time. Learn about fixed settings and best practices."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -58,7 +59,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
 > [!IMPORTANT]
 >  When you use these tools, we recommend you move or synchronize data during nonbusiness hours.  
   
- If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
+ If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics.microsoft.com/partners/find-a-partner/)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
 ## Third-party adapters for SSIS  
@@ -67,7 +68,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
   
 -   [KingswaySoft SSIS Integration Toolkit for Microsoft Dynamics CRM](https://www.kingswaysoft.com/products/ssis-integration-toolkit-for-microsoft-dynamics-crm/)  
   
--   [RSSBus SSIS task for Microsoft Dynamics CRM](https://www.rssbus.com/ssis/mscrm/)  
+-   [RSSBus SSIS task for Microsoft Dynamics CRM](https://www.arcesb.com/)  
   
 -   [Team4 SSIS Connector for Microsoft CRM](https://www.team4.com/ssismicrosoftcrm/index.html)  
   

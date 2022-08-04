@@ -2,7 +2,7 @@
 title: "Landing page configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records in Dynamics 365 Marketing."
 ms.date: 03/23/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -25,7 +25,7 @@ Use the **Settings**> **Email marketing** > **Landing pages** page to set up a p
 When you first arrive at **Settings** > **Email marketing** > **Landing pages**, you'll see a list of all marketing-page configuration sets. This is a standard list page, where you can view, sort, search, and filter the list to find a specific record, and use the command bar buttons to add or remove a record. Select any configuration set in the list to open, view, and edit it.
 
 > [!div class="mx-imgBorder"]
-> ![The Marketing Page Configuration page](media/marketing-page-config2.png)
+> ![The Marketing Page Configuration page.](media/marketing-page-config2.png)
 
 ## Set the default (active) configuration set
 

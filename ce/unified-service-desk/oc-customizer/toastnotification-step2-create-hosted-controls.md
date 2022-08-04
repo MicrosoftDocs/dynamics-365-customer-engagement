@@ -10,7 +10,7 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 2: Create hosted control
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -50,7 +50,7 @@ This topic describes how to create Omnichannel Toast Notification hosted control
     | Application is Global                | Select the checkbox              |
 
  > [!div class=mx-imgBorder] 
- > ![Omnichannel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omnichannel toast notification hosted control")
+ > ![Omnichannel toast notification hosted control.](../media/oc-usd-toastnotification-hostedcontrol.png "Omnichannel toast notification hosted control")
 
 5. Save the form.
 

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Replacement parameters in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. The context consists of name/value string pairs that change frequently as data is discovered from various ways while the application is used. Replacement parameters are used for a variety of tasks such as specifying URL query strings, generating script output in scriptlets, specifying search values for entity searches, Computer Telephone Integration (CTI), and specifying input for actions being called on other hosted controls. Replacement parameters are the key elements that enable a high degree of configuration or customization in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] without having to use the code.  
   
@@ -34,11 +34,11 @@ Replacement parameters can be used throughout the application to pull data from 
   
 2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   
-   ![Debug option to open Debugger](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
+   ![Debug option to open Debugger.](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
   
 3. In the Debugger, click **Data Parameters** to view the replacement parameters.  
   
-   ![Replacement parameters on Data Parameters tab](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
+   ![Replacement parameters on Data Parameters tab.](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
   
    A tree view is used to represent the available variables. When specifying the variable, specify the name at the root level, followed by a period (.), and then the name in the list. Here are some examples:  
   

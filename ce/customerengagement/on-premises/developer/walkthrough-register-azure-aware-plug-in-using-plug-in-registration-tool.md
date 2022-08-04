@@ -4,7 +4,7 @@ description: "The walkthrough demonstrates how to register a service endpoint st
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -55,10 +55,13 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 3. In the **Login** dialog box, select the deployment type radio button corresponding to the Dynamics 365 Server you intend to register a service endpoint with. The **On-premises** radio button includes an IFD deployment and the **Office 365** button is for the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
+   ![Login form for an online deployment](media/crm-v6s-pr.png "Login form for an online deployment")
 
-   |                                                                                                                                             |                                                                                                                                                                                 |
-   |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | ![Login form for an online deployment](media/crm-v6s-pr.png "Login form for an online deployment")<br />Login form for an online deployment | ![Login window for an on&#45;premises deployment](media/crm-v6s-pr-login-onprem.png "Login window for an on-premises deployment")<br />Login form for an on-premises deployment |
+   Login form for an online deployment
+
+   ![Login window for an on&#45;premises deployment](media/crm-v6s-pr-login-onprem.png "Login window for an on-premises deployment")
+
+   Login form for an on-premises deployment
 
 
 4. If you check **Display list of available organizations**, you are presented with a list of organizations that you belong to after you click **Login**. This enables you to choose the organization that you want to register the service endpoint with. Otherwise, your default organization is used.  
@@ -75,7 +78,7 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 3. Fill out the **Register New Step** dialog box for an account create event as shown in the following figure.  
 
-   ![Creating a service endpoint step](media/crm-v6s-pr-service-endpoint-step.png "Creating a service endpoint step")  
+   ![Creating a service endpoint step.](media/crm-v6s-pr-service-endpoint-step.png "Creating a service endpoint step")  
 
 4. Click **Register New Step**.  
 
@@ -87,7 +90,7 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 1. Open the Dynamics 365 Customer Engagement (on-premises) web application for the same organization that you registered the service endpoint under.  
 
-2. Click the **Create** button ![Create button](media/crm-v6s-wa-create-icon.PNG "Create button"), and then click **Account**.  
+2. Click the **Create** button ![Create button.](media/crm-v6s-wa-create-icon.PNG "Create button"), and then click **Account**.  
 
 3. Enter an account name, for example `Adventure Works Cycle`, into the **Account Name** field, and then click **Save**.  
 

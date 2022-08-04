@@ -2,10 +2,10 @@
 title: "Overview of custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+ms.topic: overview
 author: alfergus
 ms.author: alfergus
 manager: shellyha
@@ -22,7 +22,7 @@ A custom channel contains custom entities, workflows or plug-ins containing your
 
 The following illustration provides a high-level overview of the operation flow for a custom channel:  
 
-![Custom channel flow](../media/marketing-custom-channel-flow.png) 
+![Custom channel flow.](../media/marketing-custom-channel-flow.png) 
 
 1. When a contact record, which has the compliance field set to allow using custom channels, goes through a customer journey, an instance (record) of the **Custom Channel Activity** (**msdyncrm_customerjourneycustomchannelactivity**) entity is automatically created. For example, for a segment of 50 contacts with 40 contacts enabled for custom channel, the customer journey would generate 40 records of the **Custom Channel Activity** entity. For information about the compliance field, see [Define the Tile XML file](configure-tile-custom-channel.md#define-the-tile-xml-file).
 2. On creation of the entity instance, the custom business logic present in a partner-developed plug-in or workflow is triggered, and interacts with the external service to execute custom operations. For example, send a message to the external service and receive a response from the external service.

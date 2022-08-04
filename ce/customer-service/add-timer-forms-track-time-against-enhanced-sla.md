@@ -1,7 +1,7 @@
 ---
 title: "Add timer in forms to track time against enhanced SLAs (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service."
-ms.date: 06/01/2018
+ms.date: 06/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,6 +18,11 @@ ms.custom:
 ---
 
 # Add a timer in forms to track time against enhanced SLAs
+
+> [!NOTE]
+> - Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. More information: [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated).
+> - For more information about adding a timer control to Unified Interface SLA-enabled entities, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
+>
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
@@ -115,7 +120,7 @@ To add a timer to track time against enhanced SLAs:
   
     Following is an example of the properties you'd set for a timer for a Case entity.  
   
-    ![Timer control properties for Enhanced SLA](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
+    ![Timer control properties for Enhanced SLA.](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
   
    > [!NOTE]
    >  Typically, for enhanced SLAs, the timer control is set up using the SLA KPI Instance status field values only.  

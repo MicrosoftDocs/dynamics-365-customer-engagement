@@ -4,7 +4,7 @@ description: "In a multi-tenant environment like Dynamics 365 Customer Engagemen
 ms.custom: 
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,7 +31,7 @@ The Discovery service is accessed through the OData V4 RESTful API or the Organi
 ### See also  
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
  [Use Dynamics 365 Customer Engagement Web API](./use-microsoft-dynamics-365-web-api.md)<br />
- [Use Dynamics 365 Customer Engagement Organization Service](/dynamics365/customerengagement/on-premises/developer/org-servi/use-microsoft-dynamics-365-organization-service)<br />
+ [Use Dynamics 365 Customer Engagement Organization Service](/dynamics365/customerengagement/on-premises/developer/use-microsoft-dynamics-365-organization-service)<br />
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

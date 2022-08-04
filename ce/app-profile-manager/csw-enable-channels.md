@@ -1,12 +1,11 @@
 ---
 title: "Set up Omnichannel for Customer Service channels in Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Omnichannel for Customer Service channels in Customer Service workspace"
-ms.date: 11/10/2020
-ms.service: "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 11/10/2020
+ms.topic: article
 ---
 
 # Set up Omnichannel for Customer Service channels in Customer Service workspace
@@ -56,6 +55,7 @@ For supervisors:
 
 
 ### Agent experience
+
 After you have configured the Omnichannel for Customer Service and app profile manager features, agents will have a user experience in Customer Service workspace that is similar to the following:
 
 1.	The agent signs in to Customer Service workspace and can view the Omnichannel agent dashboard from the dashboard view.
@@ -80,6 +80,7 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 - View customer satisfaction levels - More information: [Sentiment monitoring](../customer-service/supervisor-sentiment-monitoring.md)
 
 ### See also
+
 [App profile manager overview](overview.md)  
 [Roles and privileges associated with app profile manager](security-roles.md)  
 [Customer Service workspace overview](../customer-service/csw-overview.md)  

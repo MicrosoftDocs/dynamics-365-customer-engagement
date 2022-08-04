@@ -2,7 +2,7 @@
 title: "Overview of Unified Service Desk Performance Analyzer | MicrosoftDocs"
 description: "Learn about the Unified Service Desk Performance Analyzer, its advantages, and how you can download it. "
 ms.date: 10/31/2018
-ms.topic: article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -14,12 +14,13 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+  - intro-internal
 monikerRange: '>= dynamics-usd-3'
 ---
 
 # Public Preview: Overview of Unified Service Desk Performance Analyzer
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -46,7 +47,7 @@ The advantages of the Unified Service Desk performance analyzer are as follows:
 - Ease of access to the reports for future reference.
 
 > [!div class="mx-imageBorder"]
-> ![Performance analyzer value proposition](../media/performance-analyzer-value-propositions.PNG "Performance analyzer value proposition")
+> ![Performance analyzer value proposition.](../media/performance-analyzer-value-propositions.PNG "Performance analyzer value proposition")
 
 ## Support matrix
 The Unified Service Desk Performance Analyzer supports Unified Service Desk 4.0 and later.

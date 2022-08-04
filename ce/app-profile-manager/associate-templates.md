@@ -5,8 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 05/17/2021
-ms.service: "dynamics-365-customerservice"
-ms.topic: article 
+ms.topic: article
 ---
 
 # Associate templates with workstreams
@@ -34,6 +33,8 @@ Perform the following steps:
 5. Select **Save and close**.
 
 ## Associate templates with workstreams in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 You can attach only generic type of templates to work streams. By default, the out-of-the-box templates are associated based on the channel. However, you can replace the default templates with the ones that you create.
 

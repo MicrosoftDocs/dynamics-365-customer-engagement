@@ -17,7 +17,7 @@ search.app:
 
 This section describes the layout of the Best Practices Analyzer report and provides information to help you understand the results of the analysis.
 
-![Best Practices Analyzer report](../media/bpa-report.PNG "Best Practices Analyzer report")
+![Best Practices Analyzer report.](../media/bpa-report.PNG "Best Practices Analyzer report")
 
 The report displays the following elements:
 
@@ -30,7 +30,7 @@ The report displays the following elements:
 |    Analysis Time    |                                                                                                    The time taken in seconds to complete the analysis.                                                                                                     |
 |        Score        |                                                                                                 Number of parameters passed / Total number of parameters.                                                                                                  |
 |      Parameter      |                                                          The parameter name against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] performs analysis.                                                          |
-|      Category       | The category name under which the parameter is classified. <br> Clicking on the **Category** list, you can filter the categories to see information under those categories.<br><br> ![Category Filter](../media/bpa-category-filter.PNG "Category Filter") |
+|      Category       | The category name under which the parameter is classified. <br> Clicking on the **Category** list, you can filter the categories to see information under those categories.<br><br> ![Category Filter.](../media/bpa-category-filter.PNG "Category Filter") |
 |       Result        |                                                                                                           The analysis result of the parameter.                                                                                                            |
 
 ## Expand parameter to see details

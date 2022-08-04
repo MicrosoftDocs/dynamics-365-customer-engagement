@@ -22,7 +22,7 @@ After you create the hosted application (see [Create a HAT hosted application pr
 
 2. In **Solution Explorer**, right-click the project name, and select **Application Configuration**.  
 
-   ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
+   ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
 
 3. In the **Application Properties** dialog box, specify the required information. The following table describes the various application properties.  
 
@@ -48,7 +48,7 @@ After you create the hosted application (see [Create a HAT hosted application pr
 
 The following illustration shows the **Application Properties** dialog box.  
 
-   ![Application configuration dialog box](../unified-service-desk/media/usd-hat-app-config.png "Application configuration dialog box")  
+   ![Application configuration dialog box.](../unified-service-desk/media/usd-hat-app-config.png "Application configuration dialog box")  
 
 4. Select **Save** to save the application configuration.  
 

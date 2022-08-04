@@ -31,10 +31,10 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 
 ## How-tos
 
-- [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search for records](search-record.md)
+[View communication panel](left-control-panel.md)
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+[Create a record](create-record.md)
+[Search for records](search-record.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

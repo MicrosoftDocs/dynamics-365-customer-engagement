@@ -20,7 +20,7 @@ You can find the following activity types in model-driven apps apps:
 
  - Omnichannel session
 
-### Conversation form
+## Conversation form
 
 The conversation form displays information about a conversation request.
 
@@ -31,9 +31,9 @@ The conversation form displays information about a conversation request.
 | Session details | <ul> <li>Subject</li> <li>Date created</li> </ul> |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel conversation form](../../customer-service/media/oc-crm-conversation-form.png "omnichannel conversation form")  
+> ![omnichannel conversation form.](../../customer-service/media/oc-crm-conversation-form.png "omnichannel conversation form")  
 
-### Session form
+## Session form
 
 The omnichannel session displays information about a conversation request.
 
@@ -44,12 +44,12 @@ The omnichannel session displays information about a conversation request.
 | Notes   | <ul> <li>Notes</li> </ul> |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel session form](../../customer-service/media/oc-crm-omni-channel-session-form.png "Omnichannel session form") 
+> ![omnichannel session form.](../../customer-service/media/oc-crm-omni-channel-session-form.png "Omnichannel session form") 
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 
-## See also
+### See also
 
 - [View customer summary and know everything about customers](customer-summary.md)
 

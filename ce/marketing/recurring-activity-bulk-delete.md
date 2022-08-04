@@ -2,7 +2,7 @@
 title: "Recurring activity bulk deletion (Dynamics 365 Marketing) | Microsoft Docs"
 description: "For administrators: Recurring bulk deletion system jobs for Dynamics 365 Marketing."
 ms.date: 10/28/2020
-ms.service: dynamics-365-marketing
+
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
@@ -35,7 +35,7 @@ To prevent the database size from increasing indefinitely, we have created recur
 - *Microsoft.Dynamics.EventManagement.ActivityBulkDeleteJob* to clear event management-specific activities.
 
 > [!div class="mx-imgBorder"]
-> ![Deployed bulk activity deletion job on a customer instance](media/bulk-activity-deletion.png)
+> ![Deployed bulk activity deletion job on a customer instance.](media/bulk-activity-deletion.png)
 
 ## Options to manually clear the table
 

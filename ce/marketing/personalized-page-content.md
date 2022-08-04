@@ -2,7 +2,7 @@
 title: "Personalized marketing page content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create web pages that provide content personalized for visitors that are known contacts in Dynamics 365 Marketing."
 ms.date: 08/16/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -71,7 +71,7 @@ To set up one or more personalized page records:
    - If you want to edit a record that's  already shown here, select it to open it and start editing. If the record already shows a **Status reason** of **Live** , then select **Stop** in the command bar to unlock it for editing.
    - If no records are shown, or if you want to create a new one, then select **New** in the command bar to create a new one. Then enter   **Name** for the record and select **Save** in the command bar to create the record and show all available settings
 
-    ![A new personalized pages record](media/page-personalization-new.png "A new personalized pages record")
+    ![A new personalized pages record.](media/page-personalization-new.png "A new personalized pages record")
 
 1. The **Fields** table shows a list of contact fields already allow listed by this record (if any). To add a new field to the allow list:
     - Select the **New personalized page field** button next to the **Fields** table heading. (If you don't see the button, then expand the **More commands** menu (ellipsis button) and select **New personalized page field** from there.)

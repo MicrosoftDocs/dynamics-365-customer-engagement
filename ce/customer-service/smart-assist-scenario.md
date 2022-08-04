@@ -3,8 +3,8 @@ title: "Implement a custom scenario for smart assist bot | MicrosoftDocs"
 description: "Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist bots."
 ms.date: 04/25/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Implement a custom scenario for smart assist bot
@@ -94,7 +94,7 @@ Replace the `incident id` in the Web API request above with the unique identifie
 
 You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Customer Summary Form**, as shown in the screenshot below.
 
-![Customer summary form](media/conversation-entity-customer-summary.png "Customer summary form")
+![Customer summary form.](media/conversation-entity-customer-summary.png "Customer summary form")
 
 
 Given below are the supported custom actions.

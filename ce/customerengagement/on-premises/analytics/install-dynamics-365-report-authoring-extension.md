@@ -1,9 +1,9 @@
 ---
-title: "Install Dynamics 365 Report Authoring Extension with Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
-description: Learn how to install the Report Authoring Extension for building fetch-based reports
+title: "Install the Report Authoring Extension for Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to install the Dynamics 365 Report Authoring Extension for creating and customizing Fetch-based reports." 
 ms.custom: ""
-ms.date: "11/28/2018"
-ms.prod: "crm-2016"
+ms.date: 06/28/2021
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,12 +27,12 @@ caps.latest.revision: 37
 -   Microsoft Application Error Reporting Tool  
   
 > [!WARNING]
->  People who use the Report Viewer control included with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] can view information from the reports that they have access to. By using this control, the user can view additional report and session data that is not displayed when running the report in a Microsoft Dynamics 365 Customer Engagement (on-premises) app. To reduce the risk of exposing confidential data, we recommend that you configure the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] URL where the [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed to allow only [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)], also known as Secure HTTP, connections. More information: [MSDN: Configure SSL Connections on a Native Mode Report Server](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017).  
+>  People who use the Report Viewer control included with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] can view information from the reports that they have access to. By using this control, the user can view additional report and session data that is not displayed when running the report in a Microsoft Dynamics 365 Customer Engagement (on-premises) app. To reduce the risk of exposing confidential data, we recommend that you configure the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] URL where the [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed to allow only [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)], also known as Secure HTTP, connections. More information: [MSDN: Configure SSL Connections on a Native Mode Report Server](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017&preserve-view=true).  
  
 ## Install the plug-in  
  Dynamics 365 Report Authoring Extension is a plug-in that obtains the metadata and data from Customer Engagement (on-premises). This metadata is required to design and preview Fetch-based reports in [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You  can use Dynamics 365 Report Authoring Extension with either Customer Engagement (on-premises).  
   
-1.  In the /BIDSExtensions/ folder, double-click **SetupBIDSExtensions.exe**. [Download from the Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=624672).  
+1.  In the /BIDSExtensions/ folder, double-click **SetupBIDSExtensions.exe**. [Download from the Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=56973).  
   
 2.  On the **Welcome to Microsoft Dynamics 365 Report Authoring Extension Setup** page, we recommend that you choose **Get updates for Microsoft Dynamics 365**, to make sure that Setup has the most recent installation files. Select **Next**.  
   

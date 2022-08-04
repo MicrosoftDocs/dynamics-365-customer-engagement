@@ -1,20 +1,22 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 05/18/2021
+ms.date: 02/07/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# FAQs about unified routing in Customer Service, Omnichannel for Customer Service
+# FAQ about unified routing in Customer Service, Omnichannel for Customer Service
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Overview
 
 This topic contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
 
-### What SKUs must I have to get unified routing?​
+### What SKUs must I have to get unified routing?
 
 Customers will get unified routing for entities, such as Cases, Leads, and custom entities as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
 
@@ -24,13 +26,13 @@ For messaging channels, use the migration utility to migrate the workstream and 
 
 ### What are the implications when migration is in progress?
 
-There is no downtime involved when you are migrating the workstreams, but it is recommended that you perform the migration during low load or off hours.
+There is no downtime involved when you are migrating the workstreams, but it's recommended that you perform the migration during low load or off hours.
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
 These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
 
-### Will unified routing support activity routing?​
+### Will unified routing support activity routing?
 
 Yes, unified routing supports routing activities, including email.
 
@@ -38,15 +40,20 @@ Yes, unified routing supports routing activities, including email.
 
 The existing queues will be automatically migrated to unified routing.
 
-### Will intelligent skill finder be available in all geographical regions?​
+### Will intelligent skill finder be available in all geographical regions?
 
-Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model​.
+Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model.
 
 ### Can I use intelligent skill finder with email activities?
 
 Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the ML model. You'll extract the text from HTML, copy it into another text field, then configure the ML model against the new field.
 
-### How to migrate my configurations from the Omnichannel Administration app into the Omnichannel admin center app?
+### How do I make sure that the right skills are attached to the work items when machine learning-based model is in use?
+
+- Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
+- Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
+
+### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
 
 To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
@@ -78,6 +85,30 @@ No. After upgrade, you'll no longer be able to create workstreams for routing re
 ### Can I route any record type by using basic routing?
 
 No. Basic routing can be used only for cases. To route any record type, use unified routing.
+
+### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
+
+No. There is no priority amongst queues. However, you can prioritize records within a queue.
+
+### Can I pause the assignment of a case?
+
+No. It's not possible to pause the assignment of a case.
+
+### Can I export a Unified Routing configuration and sign in to another environment?
+
+No, a configuration can't be exported.
+
+### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now reassign C1 to Q3?
+
+Yes. It's possible to reassign a case to another queue. On the case form, select **Save and route** to reassign the work item from one queue to another queue.
+
+### Why am I not able to see the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
+
+A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases does not have the agent affinity toggle.
+
+### Can I access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace?
+
+Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
 
 ### See also
 

@@ -1,8 +1,9 @@
 ---
-title: "Configure claims settings | Microsoft Docs"
+title: "Configure claims settings in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Learn how to configure claims-based authentication settings in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +23,7 @@ manager: kvivek
 Using the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] `Get-CrmSetting` and `Set-CrmSetting` cmdlets you can update the settings in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment. One of the types of settings you can change is the claims setting.  
   
 ## Requirements  
- To set up the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets, see [Get started using the Dynamics 365 Customer Engagement Management (on-premises) PowerShell cmdlets](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&branch=master#get-started-using-the-dynamics-365-customer-engagement-management-on-premises-powershell-cmdlets).  
+ To set up the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets, see [Get started using the Dynamics 365 Customer Engagement Management (on-premises) PowerShell cmdlets](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&branch=master&preserve-view=true#get-started-using-the-dynamics-365-customer-engagement-management-on-premises-powershell-cmdlets).  
   
 ## Demonstrates  
  You can use the following script to enable or disable claims authentication. You must specify the following parameters:  

@@ -2,7 +2,7 @@
 title: "Assign security roles, set up LinkedIn field mappings and matching (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Map lead fields and match leads between LinkedIn to Dynamics 365 Marketing."
 ms.date: 03/23/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -42,7 +42,7 @@ Manage your LinkedIn matching strategy to establish the rules for when and how D
 When a new LinkedIn form submission arrives, Dynamics 365 Marketing tries to match the submission to an existing lead. If a match is found, the system will associate the new submission to the existing lead (which adds information and may increase its score). If no match is found, the system creates a new lead for the new LinkedIn submission.
 
 > [!div class="mx-imgBorder"]
-> ![LinkedIn lead matching settings](media/email-lead-matching.png)
+> ![LinkedIn lead matching settings.](media/email-lead-matching.png)
 
 ### Create or edit a LinkedIn lead matching strategy
 

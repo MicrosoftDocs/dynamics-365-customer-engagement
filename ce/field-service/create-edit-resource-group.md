@@ -2,7 +2,7 @@
 title: Create or change a resource group (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Create or change a resource group in Dynamics 365 Customer Service
 ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 ms.assetid: 5e461837-29ca-4d76-9231-cbf7423c5c7d
 author: lalexms
@@ -40,7 +40,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
    - **Business Unit**  
   
-        To locate and select a business unit, click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
+        To locate and select a business unit, click the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
   
    - **Description**  
   

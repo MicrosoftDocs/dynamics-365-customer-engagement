@@ -1,7 +1,7 @@
 ---
 title: "Chrome Process hosting method for controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method in Unified Service Desk. Also, learn how to enable the process and recover unresponsive process instances."
-ms.date: 02/15/2021
+ms.date: 08/02/2022
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
@@ -19,13 +19,10 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Use Chrome Process to host web applications
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on **CefSharp**, an open source framework that uses the Chromium core that powers many modern browsers. More information: [CefSharp](https://cefsharp.github.io/)
 
-The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on *CefSharp*, an open source framework that uses the Chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
-
-> [!IMPORTANT]
-> - Unified Service Desk version 4.1.1.1429 supports Chromium version 84.
-> - Unified Service Desk version 4.1.1.1397 supports Chromium version 71.
+> [!Important]
+> The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and earlier versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
 
 The advantages of using the Chrome process hosting method are as follows:
 
@@ -35,7 +32,11 @@ The advantages of using the Chrome process hosting method are as follows:
 - You can switch easily from one browser to another for your entire organization.
 - The Chrome Process pooling feature that reuses the Chrome processes and mimics inline navigation provides enhanced performance and memory optimization.
 
-You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page** , **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
+You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
+
+> [!Note]
+> - Unified Service Desk 4.1.1.1433 includes CefSharp 84.4.10.
+> - Unified Service Desk 4.2.0.29 includes CefSharp 94.4.50.
 
 ## Chrome Process settings
 
@@ -77,7 +78,7 @@ When you're creating a new hosted control, you can select **Chrome Process** as 
 6. Select **Save** to create the hosted control.
 
   > [!div class="mx-imageBorder"]
-  > ![Select hosting type as Chrome Process](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
+  > ![Select hosting type as Chrome Process.](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
 
 ### Enable Chrome for Unified Service Desk on client desktops
 
@@ -93,7 +94,7 @@ Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
 3. Save the file.
 
   > [!div class="mx-imageBorder"]
-  > ![Add a GlobalBrowserMode key with the value of Chrome](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
+  > ![Add a GlobalBrowserMode key with the value of Chrome.](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
 
 ### Enable Chrome for an entire organization
 
@@ -114,7 +115,7 @@ Add a new Global UII option named **GlobalBrowserMode** for your organization, a
 7. Select **Save**.
 
   > [!div class="mx-imageBorder"]
-  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
+  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome.](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
 
 ## Recover a Chrome Process instance
 
@@ -345,7 +346,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**|
 | Zoom reset |`Ctrl` + `0`| **Ctrl**+**0**|
 
-To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields&preserve-view=true).
 
 ### List of zoom control UII options
 
@@ -372,7 +373,7 @@ To add keyboard shortcuts, you must add the UII options and provide the characte
 
 4. For the **Global Option** field, select **Others**.
 
-5. For the **Name** field, enter the name of the UII option. For the **Value** field, enter value you want.<br> Go to the preceding [list of zoom control UII options](#list-of-zoom-control-uii-options).<br>Go to the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+5. For the **Name** field, enter the name of the UII option. For the **Value** field, enter value you want.<br> Go to the preceding [list of zoom control UII options](#list-of-zoom-control-uii-options).<br>Go to the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields&preserve-view=true).
 
 6. Select **Save**.
 

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Debug your custom code for Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] involves compiling your custom code into an assembly (DLL file), and then distributing the assembly to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory on each client computer.  
   
@@ -35,11 +35,11 @@ Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn
   
 2. On the **Build** tab, under the **Output** area, set the **Output path** field value to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, typically C:\Program Files\Microsoft Dynamics CRM USD\USD\\.  
   
-   ![Set the output path of the assembly](../unified-service-desk/media/usd-project-build-tab.png "Set the output path of the assembly")  
+   ![Set the output path of the assembly.](../unified-service-desk/media/usd-project-build-tab.png "Set the output path of the assembly")  
   
 3. On the **Debug** tab, select **Start external program**, and specify the full path to the `UnifiedServiceDesk.exe` file in the field, typically C:\Program Files\Microsoft Dynamics CRM USD\USD\ UnifiedServiceDesk.exe  
   
-   ![Set the external application name](../unified-service-desk/media/usd-project-debug-tab.png "Set the external application name")  
+   ![Set the external application name.](../unified-service-desk/media/usd-project-debug-tab.png "Set the external application name")  
   
 4. Save your project.  
   
