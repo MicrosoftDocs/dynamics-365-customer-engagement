@@ -25,18 +25,31 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 |              | Region | Current version | Next version |  Scheduled date
 | ----------   | :---   | :---   |  :---   | :---   | 
-|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.69.53](/dynamics365/field-service/version-history#8859226953) | TBD | 07/15/2022
-|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.69.53](/dynamics365/field-service/version-history#8859226953) | TBD | 07/22/2022
-|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> |[8.8.68.25](/dynamics365/field-service/version-history#8859226825) | [8.8.69.53](/dynamics365/field-service/version-history#8859226953) |  07/15/2022
-| | USG</i> |[8.8.69.53](/dynamics365/field-service/version-history#8859226953) | TBD | 07/22/2022
-|<strong>Station 4</strong> |<i>Europe</i> | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | [8.8.69.53](/dynamics365/field-service/version-history#8859226953) | 07/22/2022
-|<strong>Station 5</strong> |  <i>North America</i>|[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/15/2022
-|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/15/2022
-| | <i>Dedicated Scale Groups</i> | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/22/2022
+|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.71.41](/dynamics365/field-service/version-history#8859227141) | TBD | 08/12/2022
+|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.70.26](/dynamics365/field-service/version-history#8859227026) | [8.8.71.41](/dynamics365/field-service/version-history#8859227141) | 08/05/2022
+|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> |[8.8.70.26](/dynamics365/field-service/version-history#8859227026) | [8.8.71.41](/dynamics365/field-service/version-history#8859227141) | 08/12/2022
+| | USG</i> |[8.8.70.26](/dynamics365/field-service/version-history#8859227026) | [8.8.71.41](/dynamics365/field-service/version-history#8859227141) | 08/05/2022
+|<strong>Station 4</strong> |<i>Europe</i> | [8.8.69.53](/dynamics365/field-service/version-history#8859226953) | [8.8.70.26](/dynamics365/field-service/version-history#8859227026) | 08/05/2022
+|<strong>Station 5</strong> |  <i>North America</i>|[8.8.69.53](/dynamics365/field-service/version-history#8859226953) | [8.8.70.26](/dynamics365/field-service/version-history#8859227026) | 08/12/2022
+|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.69.53](/dynamics365/field-service/version-history#8859226953) | [8.8.70.26](/dynamics365/field-service/version-history#8859227026) | 08/12/2022
+| | <i>Dedicated Scale Groups</i> | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | [8.8.69.53](/dynamics365/field-service/version-history#8859226953) | 08/05/2022
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+
+## 8.8.71.41
+
+(Includes Universal Resource Scheduling version [3.12.82.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3128214)).
+
+## 8.8.70.26
+
+(Includes Universal Resource Scheduling version [3.12.81.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312813)).
+
+-	Fixed a bug preventing changes to currency exchange rates to be reflected in work order products.
+-	Fixed a bug where inactive asset and functional location records showed in the asset tree view.
+-	Fixed a bug that allowed service tasks with an inspection to get marked completed when missing responses to mandatory questions.
+-	Field Service (D365) mobile: Added ability to set an Inspection response as read only when a Work Order Service Task is in an inactive state.
 
 ## 8.8.69.53
 

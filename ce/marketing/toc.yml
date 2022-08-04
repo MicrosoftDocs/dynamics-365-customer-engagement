@@ -14,7 +14,7 @@
       href: trial-faq.md
   - name: Get started
     items:
-    - name: Quickstart guide
+    - name: Quickstart setup guide
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
       href: ci-get-started.md
@@ -22,6 +22,8 @@
     items: 
     - name: Install or uninstall
       items:
+      - name: Get started with Dynamics 365 Marketing licensing
+        href: marketing-license.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
       - name: Install real-time customer journey orchestration
@@ -94,6 +96,8 @@
         href: real-time-marketing-admin-settings.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
+      - name: Add or remove sample data
+        href: /power-platform/admin/add-remove-sample-data
       - name: Authenticate your domains
         href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
@@ -114,8 +118,6 @@
         href: events-settings.md
       - name: Manage LinkedIn Lead Gen
         href: linkedin-configuration.md
-      - name: Manage sample data
-        href: additional-settings.md
       - name: Quota limits
         href: quota-management.md
       - name: Trial quota limits
@@ -328,7 +330,7 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
-      - name: Continue the conversation with Microsoft Teams webinar participants
+      - name: Access a Dynamics 365 Marketing trial from Microsoft Teams
         href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
         href: sales-marketing-integration.md
@@ -404,8 +406,6 @@
         href: spam-checker.md
       - name: Design and run A/B tests on your email designs
         href: email-a-b-testing.md
-      - name: Disable auto-adjustment of HTML
-        href: email-postprocessing.md
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
     - name: Marketing pages and forms
@@ -688,6 +688,12 @@
         href: developer/marketing-solutions.md
       - name: Dynamics 365 Marketing entity reference
         href: developer/marketing-entity-reference.md
+    - name: Customize marketing forms
+      items:
+      - name: Filter cities based on countries using lookup fields and custom entities
+        href: developer/filter-cities.md
+      - name: Extend Marketing forms using client side scripting
+        href: developer/marketing-form-client-side-extensibility.md
     - name: Work with segments using code
       href: developer/extend-segments.md
     - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
@@ -698,8 +704,6 @@
       href: developer/migrate-files.md
     - name: Retrieve interactions for a contact
       href: developer/retrieve-interactions-contact.md
-    - name: Extend Marketing forms using client side scripting
-      href: developer/marketing-form-client-side-extensibility.md
   - name: Learning catalog
     items: 
     - name: Learning catalog overview

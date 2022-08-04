@@ -98,10 +98,11 @@ To view the drill down, select any single metric value on the desired day, then 
 
 ### See also
 
-- [Conversation dashboard](oc-conversation-dashboard.md)
-- [Dashboard overview](customer-service-analytics-insights-csh.md)
-- [Agent dashboard](agent-dashboard.md)
-- [Bot dashboard](oc-bot-dashboard.md)
-- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  
+[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
