@@ -448,8 +448,6 @@
       items: 
         - name: Configure relationship analytics and health
           href: configure-relationship-analytics.md
-        - name: Configure talking points
-          href: configure-talking-points.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
         - name: Add relationship intelligence widgets to custom forms
@@ -799,8 +797,6 @@
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md
-        - name: Know conversation starters for your customers
-          href: talking-points.md
     - name: Conversation Intelligence
       items: 
         - name: Overview of Conversation Intelligence
