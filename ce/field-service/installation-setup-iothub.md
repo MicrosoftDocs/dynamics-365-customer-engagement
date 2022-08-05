@@ -28,7 +28,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - Assign your Dynamics 365 user the System Administrator and IoT-Administrator security roles.
 
-- An active Azure subscription with appropriate privileges. For more information, see the [article on Azure prerequisites](cfs-azure-subscription.md).
+- An active Azure subscription with appropriate privileges to created resources and services. For more information, see the [article on Azure prerequisites](cfs-azure-subscription.md).
 
 ## Step 1: Install or upgrade Field Service  
 
@@ -86,21 +86,21 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 ## Step 4: Set up IoT endpoint
 
-1. Download the executable.
+1. [Download the Plug-in Registration Tool](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget?view=op-9-1) and sign in to the Dynamics 365 organization where you're setting up Connected Field Service.
 
-1. Open Windows PowerShell in admin mode and run the executable with all required parameters.
+1. Once connected to the organization, find the **IoT Message** Service Endpoint and select it.
 
-   `ConfigureIoTEndpoint.exe -u <OnlineLoginYourUserName> -p <OnlineLoginPwdInQuotes> -s <ServiceBusName> -k <ServiceBusKey> -q <QueueNameInServiceBus> -d <OnlineOrgNameWithoutHttps>`
+1. Select **Update**.
 
-   - OnlineLoginYourUserName: Your Dynamics 365 user account.
-   - OnlineLoginPwdInQuotes: Password for your Dynamics 365 user account.
-   - ServiceBusName: In the Azure portal > Service Bus. Value for [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer).
-   - ServiceBusKey: [Primary key from Service Bus Namespace](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) > Shared access policies > RootManageSharedAccessKey.
-   - QueueNameInServiceBus: Queue name from Service Bus Namespace > Queues.
-   - OnlineOrgNameWithoutHttps: URL of your Dynamics 365 organization without https://.
+1. For **NameSpace Address**, find the hostname for the [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer) deployed to your resource group. Enter the hostname the Plug-in Registration Tool, prefixed by `sb://`. Example: `sb://myServiceBusNamespace.servicebus.windows.net`
 
-   Example:
-  `ConfigureIoTEndpoint.exe -u william@contoso.onmicrosoft.com -p xxxxxx -s contoso-service-bus-demo -k xxxxxxxxxxxxxxxxx -q demo-queue-001 -d contoso.crm.dynamics.com`
+1. In the Service Bus Namespace resource, go to **Queues** and find the queue with a name ending in `-crm`. Copy the full name and enter it as the **Topic Name** in the Plug-in Registration Tool.
+
+1. In the Service Bus Namespace resource, go to **Shared access policies** > **RootManageSharedAccessKey**. Copy the [primary key]/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) and paste it into the Plug-in Registration Tool for **SAS Key**.
+
+1. Select **Save**.
+
+:::image type="content" source="media/cfs-iothub-register-service-endpoint.png" alt-text="Screenshot of Plug-in Registration Tool.":::
 
 ## Step 5: Authorize Azure app connection
 
@@ -123,7 +123,21 @@ Connect the Azure IoTHub to your Field Service environment.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of authorizing the subscription.](./media/cfs-iothub-api-connection-authorize.png)
 
-## Step 6: Start Azure Stream Analytics job
+## Step 6: Update devicerules.json (optional)
+
+The Stream Analytics job deployed to your resource group will have a reference to a `devicerules.json` file. This file defines a rule that is used to create IoT Alerts when using the thermostat simulator app. To use the rule, upload the `devicerules.json` file to the Azure storage. The file is available in the [GitHub repo](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment).
+
+1. In the storage account deployed to your resource group, create a container called `devicerules`.
+
+1. In the storage account, use the Storage Browser to open the newly created `devicerules` container.
+
+1. Add a directory in the `devicerules` container named `2016-05-30`.
+
+1. In the `2016-05-30` directory, create another directory called `22-40`.
+
+1. In the `22-40` directory, upload the `devicerules.json` file.
+
+## Step 7: Start Azure Stream Analytics job
 
 1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
 
@@ -134,8 +148,55 @@ Connect the Azure IoTHub to your Field Service environment.
    :::image type="content" source="media/cfs-iothub-stream-analytics-start.png" alt-text="Screenshot of Stream Analytics job overview.":::
 
 Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
+
+## Step 8: Update Azure Time Series Insights connection
+
+If you're working with Azure Time Series Insights, you need to update some information in your Dynamics 365 organization.
+
+1. Open up the Connected Field Service app module in Dynamics 365.
+
+1. Open the browser developer tools and go to the console.
+
+1. Enter and the following script into the console and run it, replacing the `Value` parameter with the Azure tenant ID. You can [get the tenant ID from the Azure portal](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
+
+1. Run the script two more times, replacing the `Key` first with TSI_PLUGIN_CLIENT_APPLICATION_ID and then with TSI_PLUGIN_CLIENT_SECRET, and replacing the `Value` with the respective values.
+
+```javascript
+
+var req = {};
+
+req.getMetadata = function () {
+    return {
+        boundParameter: null,
+        parameterTypes: {
+            "Key": {
+                "typeName": "Edm.String",
+                "structuralProperty": 1
+            },
+            "Value": {
+                "typeName": "Edm.String",
+                "structuralProperty": 1
+            },
+        },
+        operationType: 0,
+        operationName: "msdyn_IoTSetConfiguration"
+    };
+};
+
+req["Key"]="TSI_PLUGIN_AZURE_TENANT_ID";
+req["Value"]="REPLACE";
+
+Xrm.WebApi.online.execute(req).then( 
+    function (data) { 
+        console.log("Success Response Status: " + data.status);
+    }, 
+    function (error) { 
+        console.log("Error: " + error.message);
+    }
+);
+```
   
-## Step 7: Set up the simulator (optional)
+## Step 9: Set up the simulator (optional)
 
 The simulator lets you test Connected Field Service without the need to connect physical hardware. Simulated IoT devices and data help you understand different parts that contribute to turning IoT data into work orders.
 
