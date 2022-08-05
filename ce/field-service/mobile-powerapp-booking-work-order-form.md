@@ -60,6 +60,11 @@ Another way you can add work order information to the booking form is to add a [
 > The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control." For more information, see the article on
 [editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
 
+
+>[!Note] 
+> For Work Order Product, Work Order Service Task, and Work Order Service control to respect field mapping from Work Order when clicking "Create New", the controls must be encapsulated within the Work Order form.
+
+
 ## Using the Form component control
 
 The Booking form and Work Order form are combined using a PCF control called the [Form Component Control](/powerapps/maker/model-driven-apps/form-component-control) that allows you to add information from other entities (tables) into a form; in this case adding Work Order information into the Booking form.
