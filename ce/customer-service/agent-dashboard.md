@@ -114,3 +114,4 @@ To view the drill down, select any single metric value on the desired day, then 
 [Queue dashboard](oc-queue-dashboard.md)  
 [Bot dashboard](oc-bot-dashboard.md)  
 [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

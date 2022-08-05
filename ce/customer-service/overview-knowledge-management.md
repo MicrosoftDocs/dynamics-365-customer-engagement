@@ -69,7 +69,7 @@ As an administrator, you can use search providers to federate the search of file
 ### Set up search logic and search filters
 As an administrator, you can:
   - Set up a knowledge search logic for your knowledge articles to help agents find only the articles they need. More information: [Set up knowledge search logic](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
-  - Create filters to help your agents more quickly find what they’re looking for. More information: [Enable search filters for knowledge articles](enable-knowledge-article-search-filters.md#enable-search-filters-for-knowledge-articles)
+  - Create filters to help your agents more quickly find what they’re looking for. More information: [Customize search filters for knowledge articles](enable-knowledge-article-search-filters.md)
 
 ## Perform knowledge self-service 
 
