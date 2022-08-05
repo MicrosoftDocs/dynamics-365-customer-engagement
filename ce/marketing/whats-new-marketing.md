@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 08/04/2022
+ms.date: 08/05/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -32,9 +32,11 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### July 2022 update
 
-The Dynamics 365 Marketing July 2022 update has four general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The general availability features include reusable content blocks for quick email creation, the ability to continue customer conversations by taking action on SMS replies, multiple journey branches to create more personalized variations, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
+The Dynamics 365 Marketing July 2022 update has four general availability features and one pubic preview from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from the [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability features include reusable content blocks for quick email creation, the ability to continue customer conversations by taking action on SMS replies, multiple journey branches to create more personalized variations, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
 
-The update also includes improvements to real-time journeys, consent, the email editor, the SMS channel, marketing pages, and event management.
+The public preview features include the ability to edit live journeys with improved version tracking capabilities for real-time marketing journeys and brand profiles including custom sender profiles, social links, and custom fields for better branding consistency within organizations.
+
+The update also includes improvements to real-time journeys, the SMS channel, marketing pages, and event management.
 
 #### Version number
 
@@ -79,22 +81,29 @@ The update also includes improvements to real-time journeys, consent, the email 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of real-time marketing aggregate channel analytics.](media/whats-new-channel-analytics.png "Screenshot of real-time marketing aggregate channel analytics")
 
+#### Preview features
+
+- **Edit, publish, and optimize journeys by making incremental updates, while tracking and analyzing all previous versions together**
+    - Take your journeys to the next level by making iterative improvements to improve your business outcomes while analyzing all previous versions of your journeys. The pressure of making your first journey perfect is long gone; edits no longer result in separate journeys scattered throughout the journey list. You can now make light edits to live journeys such as renaming elements and adjusting goal percentages. Version control gives you the flexibility to easily track changes you make to your customer experience. Analytics are preserved for each version, enabling you to compare journey flow and goal attainment across versions. In addition, you can efficiently collaborate amongst your marketing team using change tracking and auditing capabilities.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of editing a live journey.](media/whats-new-live-journey-edit.png "Screenshot of editing a live journey")
+
+- **Create consistent content with brand profiles**
+    - To ensure branding consistency, the email editor now supports brand profiles including custom sender profiles, social links, and custom fields. Marketers can create multiple brand profiles for their organization or for each of their business units.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-consistent-content-brand-profiles)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of brand profiles.](media/whats-new-brandprofile.png "Screenshot of brand profiles.")
+
 #### Monthly enhancements
 
 - **Real-time marketing**
-    - You can now edit live journeys. This feature allows for quicker journey iterations, which, combined with improved version control, gives you the flexibility to design journeys that precisely fit your needs.
-    - You can now see how many different versions of a journey there are in the **All journeys** list view. When you select the journey, you can choose any of the versions to view.
     - Triggers can now have up to 29 attributes (formerly limited to 10).
-- **Consent**
-    - Consent services now respect business unit scoping.
-- **Email**
-    - The Content ideas feature now includes built-in generic ideas allowing users to get up and running more quickly.
-    - To ensure branding consistency, the email editor now supports brand profiles including custom sender profiles, social links, and custom fields.
 - **SMS channel**
     - New metrics allow you to measure SMS campaign performance, including response rate, percentage of responses that include a defined keyword, and most used keywords.
 - **Marketing pages**
     - Improved reliability of e-mail link clicked insights for customers.
-    - Subscription centers now support business unit scoping.
 - **Event management**
     - Check-ins are now created when joining an event 2 hours or less before it starts (formerly limited to 30 minutes before the event start) ensuring check-ins are created for early joiners.
 
