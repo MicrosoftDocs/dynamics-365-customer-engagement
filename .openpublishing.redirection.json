@@ -23935,6 +23935,16 @@
       "source_path": "ce/sales/teams-integration/ci-capabilities.md",
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/sales/configure-talking-points.md",
+      "redirect_url": "deprecations-sales#talking-points-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/sales/talking-points.md",
+      "redirect_url": "deprecations-sales#talking-points-is-deprecated",
+      "redirect_document_id": "false"
     }
   ]
 }
