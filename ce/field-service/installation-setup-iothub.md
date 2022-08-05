@@ -1,7 +1,7 @@
 ---
 title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 07/27/2022
+ms.date: 08/05/2022
 ms.reviewer: mhart
 
 ms.subservice: connected-field-service
@@ -52,7 +52,7 @@ Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **
 > ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png) -->
 
 > [!NOTE]
-> If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution in your field service environment from the app store.
+> If you are using an older version of Field Service and cannot upgrade, you can add the Connected Field Service solution in your Field Service environment from the app store.
 
 Before proceeding, make sure all required Azure resources are successfully deployed. The overall deployment status should show **Success**.  
 
@@ -96,7 +96,7 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 1. In the Service Bus Namespace resource, go to **Queues** and find the queue with a name ending in `-crm`. Copy the full name and enter it as the **Topic Name** in the Plug-in Registration Tool.
 
-1. In the Service Bus Namespace resource, go to **Shared access policies** > **RootManageSharedAccessKey**. Copy the [primary key]/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) and paste it into the Plug-in Registration Tool for **SAS Key**.
+1. In the Service Bus Namespace resource, go to **Shared access policies** > **RootManageSharedAccessKey**. Copy the [primary key](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) and paste it into the Plug-in Registration Tool for **SAS Key**.
 
 1. Select **Save**.
 
@@ -157,7 +157,7 @@ If you're working with Azure Time Series Insights, you need to update some infor
 
 1. Open the browser developer tools and go to the console.
 
-1. Enter and the following script into the console and run it, replacing the `Value` parameter with the Azure tenant ID. You can [get the tenant ID from the Azure portal](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
+1. Enter the following script into the console and run it, replacing the `Value` parameter with the Azure tenant ID. You can [get the tenant ID from the Azure portal](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
 
 1. Run the script two more times, replacing the `Key` first with TSI_PLUGIN_CLIENT_APPLICATION_ID and then with TSI_PLUGIN_CLIENT_SECRET, and replacing the `Value` with the respective values.
 
