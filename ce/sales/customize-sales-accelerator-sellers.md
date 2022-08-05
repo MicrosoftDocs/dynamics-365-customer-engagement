@@ -55,12 +55,12 @@ For example, let’s look at the following scenarios and understand the enhanced
     >[!div class="mx-imgBorder"]
     >![Select Seller availability on the settings page.](media/sa-configure-seller-availability.png "Select Seller availability on the settings page")   
 
-5.	Turn on the Seller availability settings toggle. 
+5.	Turn on the **Seller availability settings** toggle. 
 
     >[!div class="mx-imgBorder"]
     >![Enable Seller availability settings.](media/sa-configure-seller-availability-enable.png "Enable Seller availability settings")   
 
-6.	Under the calendar selection, choose a calendar type and select Wait time computation from which the sequence steps will consider seller’s work week and working hours for the activities to be adjusted based on business days.    
+6.	Under the calendar selection, choose a calendar type and select **Wait time computation** from which the sequence steps will consider seller’s work week and working hours for the activities to be adjusted based on business days.    
     >[!NOTE]
     >If you want the sequence steps to consider all days of the week, don’t select the Wait time computation option. 
         
