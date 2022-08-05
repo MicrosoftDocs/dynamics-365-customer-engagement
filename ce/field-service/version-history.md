@@ -2,12 +2,12 @@
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.date: 06/20/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app:
   - D365CE
@@ -26,8 +26,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |              | Region | Current version | Next version |  Scheduled date
 | ----------   | :---   | :---   |  :---   | :---   | 
 |<strong>Station 1</strong> |  <i>First Release</i>| [8.8.71.41](/dynamics365/field-service/version-history#887141) | TBD | 08/12/2022
-|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.70.26](/dynamics365/field-service/version-history#887026) | [8.8.71.41](/dynamics365/field-service/version-history#887141) | 08/05/2022
-|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> |[8.8.70.26](/dynamics365/field-service/version-history#887026) | [8.8.71.41](/dynamics365/field-service/version-history#887141) | 08/12/2022
+|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea</i>|[8.8.70.26](/dynamics365/field-service/version-history#887026) | [8.8.71.41](/dynamics365/field-service/version-history#887141) | 08/05/2022
+|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania</i> |[8.8.70.26](/dynamics365/field-service/version-history#887026) | [8.8.71.41](/dynamics365/field-service/version-history#887141) | 08/12/2022
 | | USG</i> |[8.8.70.26](/dynamics365/field-service/version-history#887026) | [8.8.71.41](/dynamics365/field-service/version-history#887141) | 08/05/2022
 |<strong>Station 4</strong> |<i>Europe</i> | [8.8.69.53](/dynamics365/field-service/version-history#886953) | [8.8.70.26](/dynamics365/field-service/version-history#887026) | 08/05/2022
 |<strong>Station 5</strong> |  <i>North America</i>|[8.8.69.53](/dynamics365/field-service/version-history#886953) | [8.8.70.26](/dynamics365/field-service/version-history#887026) | 08/12/2022
@@ -42,12 +42,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.86.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312867---2022-wave-2-early-access)).
 
 The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2022 Wave 2](/dynamics365-release-plan/2022wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined in the release notes.
- 
+
 In addition, this release also includes the following changes:
 
 -	Fixed a bug where estimated duration was not set on work order services created from agreements.
 -	Fixed a bug where resource pay type was not reflected in actuals when Time Cost Actuals Source is set to 'Work Order Time Entry Approval'.
-
 
 ## 8.8.71.41
 
