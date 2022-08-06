@@ -61,8 +61,8 @@ Another way you can add work order information to the booking form is to add a [
 [editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
 
 
->[!Note] 
-> For Work Order Product, Work Order Service Task, and Work Order Service control to respect field mapping from Work Order when clicking "Create New", the controls must be encapsulated within the Work Order form.
+>[!NOTE] 
+> For Work Order Product, Work Order Service Task, and Work Order Service control to respect field mapping from Work Order when selecting **Create New**, the controls must be encapsulated within the Work Order form.
 
 
 ## Using the Form component control
