@@ -1,7 +1,7 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
 description: "Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service"
-ms.date: 08/01/2022
+ms.date: 08/08/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -117,11 +117,8 @@ To deactivate messages at the channel instance level, select one or more message
 | Customer is next in line      |   Message displayed when the customer is next in line in the queue.  |  When customer is next in line in the queue |
 | Customer's position in queue |  Message displayed when the customer is waiting in queue at the second position or beyond         | When customer is waiting in queue at the second position or beyond |
 | Holiday message to customer | Message displayed to the customer on holidays | When the customer initiates a conversation on holidays set up for the Live Chat, channel, or queue  |
-| Leave as many messages as you'd like and we'll get back to you as soon as possible. We'll save your chat history, so you can leave and come back any time | Message displayed to the customer |  |
-| Not enough data for average wait time | Message displayed to the customer when there's not enough data for average wait time  |   |
 | Out of operating hour message to customer | Message displayed to the customer outside of the business hours  | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue  |
 | Session ended   | Message displayed to the customer when the agent ends the conversation and closes the session | When the agent ends the conversation and closes the session  |
-| Supervisor force closed the conversation | | |
 | Transfer to agent accepted          | Message displayed to the customer when the conversation is transferred successfully | When another agent accepts the transfer request |
 
 
