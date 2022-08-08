@@ -421,6 +421,7 @@ To end the conversation, see [End a conversation in Direct Line](/azure/bot-serv
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Markdown formats](markdown-formats-dev.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
+[Best practices for configuring bots](configure-bot-best-practices.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 

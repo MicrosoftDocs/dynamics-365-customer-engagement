@@ -4,7 +4,7 @@ description: Find all the training options for functional consultants.
 ms.date: 01/08/2020
 ms.topic: article
 author: loreleishannonmsft
-ms.author: v-lshann
+ms.author: kschimke
 ---
 
 # Functional Consultants Learning Catalog
