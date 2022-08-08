@@ -3,17 +3,15 @@ title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365
 ms.custom: 
 description: Enable activities to use Set Regarding lookup in App for Outlook.
 ms.date: 05/20/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -42,7 +40,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 
    > [!div class="mx-imgBorder"]
    >![Go to Tables in maker portal.](media/maker-data-tables.png "Go to Tables in maker portal")
-![image](https://user-images.githubusercontent.com/57445531/160470571-79831772-d686-4627-836c-f823c06e3d27.png)
+![Screenshot of the Power Apps window, which shows the Dataverse menu open and the Tables menu item is highlighted.](https://user-images.githubusercontent.com/57445531/160470571-79831772-d686-4627-836c-f823c06e3d27.png)
 
    
   
@@ -57,7 +55,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 6. 
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled.](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
-   ![image](https://user-images.githubusercontent.com/57445531/160470941-1077d61f-f287-44bb-905c-defde6e4d662.png)
+   ![Screenshot of the Power Apps window, which shows that the Creating a new activity checkbox is filled.](https://user-images.githubusercontent.com/57445531/160470941-1077d61f-f287-44bb-905c-defde6e4d662.png)
 
   > [!IMPORTANT]
   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.

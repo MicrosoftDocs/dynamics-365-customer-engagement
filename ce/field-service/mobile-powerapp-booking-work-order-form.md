@@ -2,11 +2,11 @@
 title: "Edit the Booking and Work Order form (Form Component Control) | MicrosoftDocs"
 description: Learn how to edit the booking and work order form in Dynamics 365 Field Service.
 ms.date: 12/01/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app:
 - D365CE
@@ -59,6 +59,11 @@ Another way you can add work order information to the booking form is to add a [
 >[!TIP] 
 > The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control." For more information, see the article on
 [editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
+
+
+>[!NOTE] 
+> For Work Order Product, Work Order Service Task, and Work Order Service control to respect field mapping from Work Order when selecting **Create New**, the controls must be encapsulated within the Work Order form.
+
 
 ## Using the Form component control
 

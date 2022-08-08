@@ -1,7 +1,7 @@
 ---
 title: "Who Knows Whom in Dynamics 365 Sales"
 description: "Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact."
-ms.date: 07/06/2022
+ms.date: 08/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -84,12 +84,12 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 6.	Select **Send**.<br>
     The email is sent to Tricia to introduce Yvonne. 
 
-## Opt out of the connection graph
+## Turn off data sharing with Dynamics 365 applications
 
-As a user, you can always choose to opt out of the connection graph if you don't want sales insights to analyze your communication and collaboration data. 
+As a user, you can always choose to opt out if you don't want Dynamics 365 to analyze your communication and collaboration data. 
 
 >[!NOTE]
->You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true)
+>You can only opt out if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true)
 
 1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/).
 
@@ -98,20 +98,14 @@ As a user, you can always choose to opt out of the connection graph if you don't
 
 2. Select **Settings & Privacy**, and then select the **Privacy** tab. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Open privacy settings](media/sales-insights-addon-o365-privacy-settings-tab.png "Open privacy settings")
+3. In the **Services** section, select the arrow next to **Dynamics 365 applications**.  
 
-3. In the **Services** section, select the arrow next to **Dynamics 365 Sales Insights - Connection Graph**.  
-
-    > [!div class="mx-imgBorder"]
-    > ![Expand the connection graph option](media/sales-insights-addon-o365-expand-connection-graph-settings.png "Expand the connection graph option")
-
-4. Turn off the **Include my data** toggle.
+4. Turn off the **Include my data in Dynamics 365 applications** toggle.
 
     > [!div class="mx-imgBorder"]
-    > ![Select toggle to opt out of the connection graph](media/sales-insights-addon-o365-opt-out-toggle.png "Select toggle to opt out of the connection graph")
+    > ![Select toggle to opt out of who knows whom](media/sales-insights-addon-o365-opt-out-toggle.png "A screenshot of the  toggle to opt out of who knows whom")
 
-After you opt out of the connection graph, Sales Insights won't analyze your data.
+    Dynamics 365 applications can no longer access, collect, or analyze your data.  
 
 ### See also
 

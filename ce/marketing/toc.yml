@@ -96,6 +96,8 @@
         href: real-time-marketing-admin-settings.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
+      - name: Add or remove sample data
+        href: /power-platform/admin/add-remove-sample-data
       - name: Authenticate your domains
         href: mkt-settings-authenticate-domains.md
       - name: Marketing analytics configuration
@@ -116,8 +118,6 @@
         href: events-settings.md
       - name: Manage LinkedIn Lead Gen
         href: linkedin-configuration.md
-      - name: Manage sample data
-        href: additional-settings.md
       - name: Quota limits
         href: quota-management.md
       - name: Trial quota limits
@@ -406,8 +406,6 @@
         href: spam-checker.md
       - name: Design and run A/B tests on your email designs
         href: email-a-b-testing.md
-      - name: Disable auto-adjustment of HTML
-        href: email-postprocessing.md
       - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
     - name: Marketing pages and forms
