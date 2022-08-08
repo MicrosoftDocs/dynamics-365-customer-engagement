@@ -60,8 +60,10 @@ When you create a quick campaign activity, an activity is created for each membe
       You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the **Activity Type** as **Phone Call**, and then select **The owners of the records in the target marketing lists**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.
 
   5. When you select the **Activity Type** as *Email*, you'll see an additional checkbox **Mark email messages to be sent and close corresponding email activities**. Perform one of the following actions: 
-      - Select the checkbox if you want the system to create an email activity for each user in the marketing list, send the email, and mark the activity as closed. In this case, an activity is marked as successful only after the email is sent.
-      - Clear the checkbox if you want the system to just create an email activity for each user in the marketing list, and you want to manually send the email and close the activity. In this case, an activity is marked as successful when the activity is created.
+      - Select the checkbox if you want the system to create an email activity for each user in the marketing list, send the email, and close the activity. In this case, an activity is considered successful when the email is marked to be sent.
+    
+      - Clear the checkbox if you want the system to just create an email activity for each user in the marketing list, and you want to manually send the email and close the activity. In this case, an activity is considered successful when the activity is created.
+      
       You'll see the number of successes and failures after your create the campaign. 
 
 6. Select **Next**.
