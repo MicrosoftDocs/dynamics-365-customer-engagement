@@ -19,18 +19,23 @@ ms.custom:
 
 # Search knowledge articles
 
-You can search knowledge articles through Customer Service workspace or Customer Service Hub.
+You can search knowledge articles through Customer Service Hub, Customer Service workspace or Omnichannel for Customer Service.
 
 ## Prerequisites
+
+### Customer Service Hub
+
+Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
 ### Customer Service workspace
 
 - The productivity pane and knowledge search must be enabled in the app profile manager.
 - Dataverse search must be enabled. If dataverse search isn't enabled, then the full-text search mechanism works.
 
-### Customer Service Hub
+### Omnichannel for Customer Service
 
-Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
+- The productivity pane and knowledge base search must be enabled in app profile manager.
+- The anchor tab should be a case or conversation for the knowledge pane to be displayed.
 
 ## Use the independent knowledge base search
 
@@ -64,25 +69,6 @@ Type a keyword in the search field to search for knowledge articles.
 
 ## Use the productivity pane to search knowledge articles
 
-### How to search in Customer Service workspace
-
-In Customer Service workspace, for example for a case, when you select the **Knowledge search** tab in the productivity pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on dataverse and full-text search mechanisms.
-
-The knowledge articles are applicable for all the knowledge-enabled entities. By default, the full-text search and Dataverse search display 10 results. You can also use the search box to enter keywords and search for articles if those displayed by default aren't relevant.
-
-:::image type="content" source="media/csw-knowledge-tab.png" alt-text="View features in knowledge base search":::
-
-  |Label|Description|
-  |-----|-----------|
-  |1.| The Knowledge tab.|
-  |2.| Tag when the article is linked to the entity.|
-  |3.| Article number.|
-  |4.| The number of times the article has been viewed. |
-  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields.|
-  |6.| Lets you link or unlink the article to the entity, such as the case.|
-  |7.| Status and visibility tags for the article.|
-  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
-
 ### How to search in Customer Service Hub
 
 In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the productivity pane, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
@@ -90,7 +76,6 @@ In Customer Service Hub, for example for a case, when you select the **Knowledge
 On the **Knowledge** tab, you can view the following:
 
 :::image type="content" source="media/knowledge-search-csh.png" alt-text="View the features of knowledge base search":::
-
 
 |Label  |Description  |
 |---------|---------|
@@ -120,16 +105,72 @@ In the knowledge base search control, you can do the following:
 - Email a knowledge article
 - View the knowledge article inline in the search control
 
+### How to search in Customer Service workspace
+
+In Customer Service workspace, for example for a case, when you select the **Knowledge search** tab in the productivity pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on dataverse and full-text search mechanisms.
+
+The knowledge articles are applicable for all the knowledge-enabled entities. By default, the full-text search and Dataverse search display 10 results. You can also use the search box to enter keywords and search for articles if those displayed by default aren't relevant.
+
+:::image type="content" source="media/csw-knowledge-tab.png" alt-text="View features in knowledge base search":::
+
+  |Label|Description|
+  |-----|-----------|
+  |1.| The Knowledge tab.|
+  |2.| Tag when the article is linked to the entity.|
+  |3.| Article number.|
+  |4.| The number of times the article has been viewed. |
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields.|
+  |6.| Lets you link or unlink the article to the entity, such as the case.|
+  |7.| Status and visibility tags for the article.|
+  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
+
+### How to search in Omnichannel for Customer Service 
+
+In Omnichannel for Customer Service, when you are engaged in a conversation with a customer, you can use the **Knowledge** pane to search for knowledge articles and refer to them.
+
+By default, the full text search displays 10 results and dataverse search displays 50 results.
+
+![Knowledge tab in productivity pane.](media/oc-productivity-knowledge-tab.png "Knowledge tab in productivity pane")
+
+  |Label|Description|
+  |-----|-----------|
+  |1.| Knowledge tab|
+  |2.| Number of times the article has been viewed.|
+  |3.| Copy URL lets you copy the article link to the clipboard when selected.|
+  |4.| Send URL pastes the article link in the conversation window when selected. |
+  |5.| Opens the article on a new application tab when selected. |
+
+On the **Knowledge** pane, you can perform the following actions:
+
+- Select the article title to open it in an application tab.
+- Use the search box to enter keywords and search for articles.
+- Select the filter icon to display the options based on which the articles can be filtered.
+- Select sort icon to display the options based on which results can be displayed.
+- Select the ellipses to display the following actions that can be performed:
+  - Copy the article URL
+  - Send URL
+
+These actions can be performed for only published or expired articles.
+
 ## Use smart assist to search for knowledge articles
 Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the productivity pane of Customer Service workspace only.
 
 In Customer Service workspace, select the **Smart assist** option on the productivity pane to see knowledge article suggestions related to your case.
 
+## Launch the knowledge articles search from the communication panel
+
+In Omnichannel for Customer Service, when you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **Knowledge articles** tab. Then, you can search and share the knowledge articles.
+
+1. Select the Knowledge Articles option in the communication panel. The Knowledge article tab opens in the application tab panel.
+2. Search for the knowledge articles and view.
+3. Select **Send Link**. The link is displayed in the message area of the communication panel.
+4. Select **Send** in the communication panel.
+
 ## View knowledge articles
 
 ### View the knowledge article on the application tab
 
-In Customer Service workspace, select an article title to view the complete article on an application tab. You can view up to 10 articles on the application tab. 
+In Customer Service workspace or Omnichannel for Customer Service, select an article title to view the complete article on an application tab. You can view up to 10 articles on the application tab.
 
 :::image type="content" source="media/csw-article-app-tab.png" alt-text="Knowledge article search pane":::
 
