@@ -18,9 +18,9 @@ When you configure Azure and Power Virtual Agents bots in Omnichannel for Custom
 
 - When a bot escalates a conversation to a human agent, make sure that the context variables being updated by the bot and the corresponding routing rules match correctly.
 
-- When a conversation that's escalated by a bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, then the bot won't be assigned to the same conversation again. This ensures that the conversation doesn't end up in an infinite loop. So, to handle such conversations, be sure to configure some human agents as backup in the bot queue.
+- When a conversation that's escalated by a bot comes back to the bot queue due to incorrect routing or context variables not being updated at runtime, the bot won't be assigned to the same conversation again. So, to prevent conversations from ending up in an infinite loop, you must configure a human agent for the bot queue.
 
-- Unlike other Omnichannel for Customer Service agents, bots aren't added to a "default" queue at the outset; you must add them from the Omnichannel admin center or Customer Service admin center apps.  
+- Unlike human agents, bots aren't added to a "default" queue at the outset; you must add them from the Omnichannel admin center or Customer Service admin center apps.  
 
 - The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like timestamps and tags. If you're a bot author or developer and want to pass complex cards or message types across channels, ensure that your message size doesn't exceed the limit. If you're integrating a custom channel via Direct Line, then make sure that the activity payload doesn't exceed the message size limit.
 
