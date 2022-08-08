@@ -73,7 +73,7 @@ Select the up-arrow icon to view the sorting options and select an option from t
 
 ## View auto-filtered results
 
-As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base.  
+As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base. Auto-filtered results option is only available on single session.
 
 An administrator or system customizer must configure this option for you. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client)
 
@@ -92,7 +92,7 @@ Let’s understand this in detail with the help of an example.
 
 In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on the case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 
-![Select Auto filter results.](media/ka-select-auto-filter-results.png "Select Auto filter results")   
+![Select Auto filter results.](media/ka-select-auto-filter-results.png "Select Auto filter results")
   
 However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These are the results from the entire knowledge base.
 
