@@ -85,12 +85,12 @@ The knowledge articles are applicable for all the knowledge-enabled entities. By
 
 ### How to search in Customer Service Hub
 
-In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the **Related** section, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
+In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the productivity pane, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
 
-On the **Knowledge** tab, and you can view the following:
+On the **Knowledge** tab, you can view the following:
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search.](media/knowledge-base-search-details.png "View the features in knowledge base search")
+  > ![Knowledge-article-search.](media/knowledge-search-csh.png "View the features in knowledge base search")
 
   1. Knowledge
   2. Open filter pane
