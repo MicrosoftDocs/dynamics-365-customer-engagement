@@ -21877,6 +21877,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/add-conversation-intelligence-tab-teams-meeting.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/teams-meeting-integration",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/access-deal-manager.md",
       "redirect_url": "/dynamics365/sales/access-deal-manager",
       "redirect_document_id": "false"
