@@ -92,20 +92,20 @@ On the **Knowledge** tab, you can view the following:
   > [!div class=mx-imgBorder]
   > ![Knowledge-article-search.](media/knowledge-search-csh.png "View the features in knowledge base search")
 
-  1. Knowledge
-  2. Open filter pane
-  3. Sort search results by
-  4. Search knowledge articles
-  5. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
-  6. Copy
-  7. Displays Pop out and Email Content 
-  8. Link this article to a record and send via email
-  9. Rating
+  1. Open filter pane
+  2. Sort search results by
+  3. Search box
+  4. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
+  5. Copy
+  6. Link this article to a record and send via email
+  7. Displays Pop out and Email Content
+  8. Rating
+  9. Number of views the article has received
   10. Unlink an article that is currently linked to a case
-  11. Number of views the article has received
-  12. Article date
+  11. Article date
+  12. Status and visibility tags for the article
   13. Confirmation that the record is linked to a case
-  14. Status and visibility tags for the article
+  14. Info card that displays search term matches from keywords, description, attachments, and any other custom fields.
 
 > [!NOTE]
 > If the keyword you used matches, the matches are highlighted in yellow, but won't necessarily show up in the first three lines, so you might not see the highlighted text in search results.
