@@ -157,9 +157,10 @@ Next, you connect the active sequence to records.
 
 ## Connect sequences to records
 
+After you create and activate a sequence, connect the sequence to records depending on the record type that you've created the sequence for.
+You can use one of the following ways to connect sequence to records:
 
-
-More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
+    More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 
 
