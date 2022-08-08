@@ -89,23 +89,25 @@ In Customer Service Hub, for example for a case, when you select the **Knowledge
 
 On the **Knowledge** tab, you can view the following:
 
-  > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search.](media/knowledge-search-csh.png "View the features in knowledge base search")
+:::image type="content" source="media/knowledge-search-csh.png" alt-text="View the features of knowledge base search":::
 
-  1. Open filter pane
-  2. Sort search results by
-  3. Search box
-  4. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
-  5. Copy
-  6. Link this article to a record and send via email
-  7. Displays Pop out and Email Content
-  8. Rating
-  9. Number of views the article has received
-  10. Unlink an article that is currently linked to a case
-  11. Article date
-  12. Status and visibility tags for the article
-  13. Confirmation that the record is linked to a case
-  14. Info card that displays search term matches from keywords, description, attachments, and any other custom fields.
+
+|Label  |Description  |
+|---------|---------|
+|1.    |     Open filter pane    |
+|2.     |    Sort search results by     |
+|3.    |   Search box     |
+|4.    |     Link this article to the current record (unlink will be displayed when the article is already linked to a record)    |
+|5.    |   Copy      |
+|6.   |   Link this article to a record and send via email      |
+|7.     |    Displays Pop out and Email Content     |
+|8.     |  Rating       |
+|9.   |     Number of views the article has received    |
+|10.    |   Unlink an article that is currently linked to a case      |
+|11.    |    Article date     |
+|12.     |      Status and visibility tags for the article   |
+|13.     |    Confirmation that the record is linked to a case     |
+|14.    |    Info card that displays search term matches from keywords, description, attachments, and any other custom fields.     |
 
 > [!NOTE]
 > If the keyword you used matches, the matches are highlighted in yellow, but won't necessarily show up in the first three lines, so you might not see the highlighted text in search results.
@@ -119,7 +121,7 @@ In the knowledge base search control, you can do the following:
 - View the knowledge article inline in the search control
 
 ## Use smart assist to search for knowledge articles
-Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the productivity pane.
+Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the productivity pane of Customer Service workspace only.
 
 In Customer Service workspace, select the **Smart assist** option on the productivity pane to see knowledge article suggestions related to your case.
 
