@@ -1,7 +1,7 @@
 ---
 title: "Best practices for configuring bots | MicrosoftDocs"
 description: "This article lists the best practices that you can follow when you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 08/02/2022
+ms.date: 08/08/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
