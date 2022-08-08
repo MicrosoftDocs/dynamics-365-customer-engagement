@@ -133,6 +133,33 @@ Now that you're in the process of creating the sequence, follow these steps:
 5. Select the **Add** icon, and then repeat step 4 for all the activities that you want to add to the sequence.
 6. Save the sequence.  
 
+Now, you can activate the sequence. 
+
+## Activate sequence
+
+1. Open a sequence and then select **Activate**.
+    >[!NOTE]
+    >You can have up to 250 active sequences at a time in your organization.        
+
+    > [!div class="mx-imgBorder"]
+    > ![Select activate sequence.](media/sequence-select-activate-sequence.png "Select activate sequence")  
+
+1. Select **Activate** in the confirmation message that appears.   
+    > [!NOTE]
+    > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
+
+    The sequence is activated and listed in the sequence designer home page. Also, you can see the status of the sequence beside the name and a confirmation message.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
+
+Next, you connect the active sequence to records. 
+
+## Connect sequences to records
+
+
+
+More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 
 

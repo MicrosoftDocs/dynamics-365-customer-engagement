@@ -15,7 +15,7 @@ After you create and activate a sequence for the selling process, you connect th
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator, Sequence Manager, or Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Ways to connect sequence to records
 

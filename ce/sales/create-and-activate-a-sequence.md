@@ -84,7 +84,7 @@ Now, you can activate the sequence.
     > [!div class="mx-imgBorder"]
     > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
 
-Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
+Next, you connect the active sequence to records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 ## Sequence home page
 
