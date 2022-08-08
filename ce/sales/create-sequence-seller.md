@@ -116,6 +116,7 @@ Now that you're in the process of creating the sequence, follow these steps:
 3. Select **Next**.     
     The sequence designer page opens.
 
+
     > [!div class="mx-imgBorder"]
     > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
 
