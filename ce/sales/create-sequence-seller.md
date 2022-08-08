@@ -32,6 +32,10 @@ When you create a sequence, you define a set of activities that you want to perf
 >[!NOTE]
 >If you have the the Sequence Manager role and to create sequences, go to [Create and activate a sequence](create-and-activate-a-sequence.md).
 
+## Who has access to my sequences?
+
+The sequences that you create are available for your business unit. Other sellers can only view, connect, or create a copy of your sequence. However, administrators and users with **Sequence Manager** role have all the privileges such as, edit and delete to the sequence.  
+
 ## How to create sequences?
 
 Create sequences using the sequence designer. To access the sequence designer, use the following ways:
@@ -42,23 +46,26 @@ Create sequences using the sequence designer. To access the sequence designer, u
 
 ### Personal settings
 
-Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.    
+Personal settings is the recommended way to access the sequence designer. Here, you can create, edit, delete and connect sequences.   
+
+**To access the sequence designer**:
+
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.    
        
-On the **Personal settings** page, under **Sales accelerator** > **Sequence** and select **+ New sequence**.    
-
-:::image type="content" source="media/sequence-seller-select-new-sequence-sequences-page.png" alt-text="Screenshot of the sequences page to select new sequence.":::
-        
-The **Create a sequence** dialog opens. To continue creating the sequence, go to [Create sequence](#create-sequence).
+2. On the **Personal settings** page, under **Sales accelerator** > **Sequence** and select **+ New sequence**.    
     
-Personal settings are the recommended way to access the sequence designer. Here, you can create, edit, delete and connect sequences.   
-
+    :::image type="content" source="media/sequence-seller-select-new-sequence-sequences-page.png" alt-text="Screenshot of the sequences page to select new sequence.":::
+        
+    The **Create a sequence** dialog opens. To continue creating the sequence, go to [Create sequence](#create-sequence).
+    
 ### Up next widget
 
 The **Up next** widget is available on the out-of-the-box contact, opportunity, lead, and account forms. When you open a record, by default, the main form displays the **Up next** widget. For example, whe you open a lead record, the **Lead** form displays the **Up next** widget. 
         
 :::image type="content" source="media/sequence-seller-connect-sequence-upnext-widget.png" alt-text="Screenshot of the up next widget to connect sequence.":::
 
-When a sequence is not connected to a record, the **Up next** widget displays a message to connect the sequence. 
+When a sequence is not connected to a record, the **Up next** widget displays a message to connect a sequence.  
+
 Select **Connect *record type* to a sequence** and the **Connect *record type* to sequence** dialog opens. In this example, we opened the connect sequence dialog for leads which has no sequences.
     
 :::image type="content" source="media/sequence-seller-connect-lead-sequence.png" alt-text="Screenshot of the connect lead to sequence.":::
@@ -85,7 +92,45 @@ Select **Create a new sequence** and the **Create a sequence** dialog opens in a
 
 ## Create sequence
 
-To create the sequence, follow these steps:
+Now that you're in the process of creating the sequence, follow these steps:
+
+1. On the **Create a sequence** dialog, select one of the following options to create the sequence:  
+    
+    - **Use template**: Use the templates to quickly set up sequences. Sequence templates provide a set of activities to guide sellers with the next best action to take to achieve a task, such as getting introduced to a lead and winning the deal. More information: [Sequence templates](sequence-templates.md)  
+    When using the Up next widget or record grid view to create sequence, the templates displayed here are relevant for that record type.    
+
+    - **Start from blank**: Use a blank sequence to create a sequence from scratch.   
+        
+    :::image type="content" source="media/sequence-select-option-create-sequence.png" alt-text="Select an option to create a sequence.":::
+    
+2. In the **Define sequence properties** dialog, enter the following information.
+
+    | Parameter | Description |
+    |-----------|-------------|
+    | Sequence name | The name of the sequence. |
+    | Description | A description of the sequence. (Optional) |
+    | Entity | The entity type for which you want to apply this sequence. By default, the Lead entity type is selected. |   
+
+    :::image type="content" source="media/sequence-create-sequence.png" alt-text="Create a sequence dialog.":::
+
+3. Select **Next**.     
+    The sequence designer page opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
+
+    By default, the **Sequence start here** step is added to sequence as the first step.  
+
+4. After the **Sequence start here** step, select the **Add** icon (**+**) and configure the sequence steps.
+    
+    For a sequence, the steps are categorized into the following four groups:
+    - **Steps**: The step in a sequence is an engagement task that a seller performs for sales outreach such as, email, phone call, and task. More information: [Add steps to sequence](steps-sequence.md)
+    - **Conditions**: The condition step in a sequence determines the next course of action that the sequence will take after the condition is either met or not, based on the completed activity. More information: [Add the conditions steps](adaptive-sequence.md)
+    - **Commands**: The command step in a sequence determines the next course of action according to the value given in the field or the stage of a business process. More information: [Add command steps to sequences](command-sequence.md)  
+    - **LinkedIn**: The LinkedIn activity step in a sequence allows sellers to diversify their day-to-day activities by including the social selling functions. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections. More information: [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
+       
+5. Select the **Add** icon, and then repeat step 4 for all the activities that you want to add to the sequence.
+6. Save the sequence.  
 
 
 
