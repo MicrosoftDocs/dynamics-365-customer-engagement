@@ -8,7 +8,7 @@ ms.author: laalexan
 manager: shujoshi
 ---
 
-# IoT - Parent IoT Alerts workflow
+# The IoT - Parent IoT Alerts workflow
 
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
   
