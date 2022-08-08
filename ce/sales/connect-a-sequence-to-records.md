@@ -25,8 +25,7 @@ You can connect a sequence to records in the following ways:
 - [Through a record](#ContactThroughARecord)
 - [Through Power Automate](#through-power-automate)
 
-<a name="ContactThroughASequence"></a>
-
+<a name='ContactThroughASequence'></a>
 ## Through a sequence   
 
 >[!NOTE]
@@ -67,12 +66,12 @@ You can connect a sequence to records in the following ways:
     > [!div class="mx-imgBorder"]
     > ![Lead records connected to sequence](media/sequence-leads-connected.png "Lead records connected to sequence")       
     
-<a name="ContactThroughGridView"></a>
-## Through the lead or opportunity grid view   
+<a name='ContactThroughGridView'></a>
+## Through the record type grid view   
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales**.   
-3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.   
+3. Under **Sales**, select the record type such as, **Leads** or **Opportunities**, depending on the records you want to connect.   
     In this example, we select **Leads**.   
     > [!div class="mx-imgBorder"]
     > ![Lead view](media/sequence-connect-lead-view.png "Lead view")        
@@ -91,7 +90,7 @@ You can connect a sequence to records in the following ways:
 
 A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.   
 
-<a name="ContactThroughARecord"></a>
+<a name='ContactThroughARecord'></a>
 ## Through a record   
 
 1. Sign in to your sales app.   

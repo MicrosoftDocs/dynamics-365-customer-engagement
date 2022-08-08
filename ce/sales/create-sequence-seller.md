@@ -20,12 +20,12 @@ Create sequences to automate your work and personalize communication while reach
 
 ## What is a sequence?
 
-Sequences enforce best practices by introducing a set of consecutive activities for you to follow during the course of your day. You can create and connect sequences to records such as, leads, opportunities, and accounts, that appear in your work queue, to help prioritize activities to focus on selling, be more productive, and better align to business processes.     
+Sequences enforce best practices by introducing a set of consecutive activities for you to follow during your day. You can create and connect sequences to records such as, leads, opportunities, and accounts that appear in your work queue, to help prioritize activities to focus on selling, be more productive, and better align to business processes.     
 When you create a sequence, you define a set of activities that you want to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets you concentrate on selling and gives you a better understanding of what to do next.   
 
 ## Permissions required to create and connect sequences
 
-- When Sales accelerator workspace is not enabled in your organization, you can create and connect sequences through the **Salesperson** role. Also, delete and edit the sequences that you have created.
+- When Sales accelerator workspace isn't enabled in your organization, you can create and connect sequences through the **Salesperson** role. Also, delete and edit the sequences that you've created.
 
 - When Sales accelerator workspace is enabled in your organization and the access is restricted to specific security roles, then only the users with that specific roles can create and connect the sequences. To get access to create and connect sequences, contact your administrator to provide permissions for your security role. More information: [Manage access and record type](enable-configure-sales-accelerator.md#manage-access-and-record-type).   
 
@@ -46,7 +46,7 @@ Create sequences using the sequence designer. To access the sequence designer, u
 
 ### Personal settings
 
-Personal settings is the recommended way to access the sequence designer. Here, you can create, edit, delete and connect sequences.   
+Personal settings are the recommended way to access the sequence designer. Here, you can create, edit, delete and connect sequences.   
 
 **To access the sequence designer**:
 
@@ -60,13 +60,13 @@ Personal settings is the recommended way to access the sequence designer. Here, 
     
 ### Up next widget
 
-The **Up next** widget is available on the out-of-the-box contact, opportunity, lead, and account forms. When you open a record, by default, the main form displays the **Up next** widget. For example, whe you open a lead record, the **Lead** form displays the **Up next** widget. 
+The **Up next** widget is available on the out-of-the-box contact, opportunity, lead, and account forms. When you open a record, by default, the main form displays the **Up next** widget. For example, when you open a lead record, the **Lead** form displays the **Up next** widget. 
         
 :::image type="content" source="media/sequence-seller-connect-sequence-upnext-widget.png" alt-text="Screenshot of the up next widget to connect sequence.":::
 
-When a sequence is not connected to a record, the **Up next** widget displays a message to connect a sequence.  
+When a sequence isn't connected to a record, the **Up next** widget displays a message to connect a sequence.  
 
-Select **Connect *record type* to a sequence** and the **Connect *record type* to sequence** dialog opens. In this example, we opened the connect sequence dialog for leads which has no sequences.
+Select **Connect *record type* to a sequence** and the **Connect *record type* to sequence** dialog opens. In this example, we opened the connect sequence dialog for leads that has no sequences.
     
 :::image type="content" source="media/sequence-seller-connect-lead-sequence.png" alt-text="Screenshot of the connect lead to sequence.":::
 
@@ -160,12 +160,17 @@ Next, you connect the active sequence to records.
 After you create and activate a sequence, connect the sequence to records depending on the record type that you've created the sequence for.
 You can use one of the following ways to connect sequence to records:
 
-    More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
+- [Through a sequence](connect-a-sequence-to-records.md#ContactThroughASequence)
+- [Through the record type grid view](connect-a-sequence-to-records.md#ContactThroughGridView)
+- [Through a record](connect-a-sequence-to-records.md#ContactThroughARecord)
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
+### See also
 
+[What is sales accelerator](sales-accelerator-intro.md)
 
+[Manage your sequences](manage-sequences-seller.md)
 
- 
-
+[Apply and remove tags from your sequences](apply-remove-tags-seller.md)
 
