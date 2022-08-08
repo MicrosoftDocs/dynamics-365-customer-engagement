@@ -33,17 +33,19 @@ From the start of a conversation until the agent explicitly ends it, agents and 
 
 Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md)
 
-## Set up persistent chat in the new admin apps
+## Set up persistent chat
 
-In Customer Service admin center or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
+In Customer Service admin center or Omnichannel admin center, select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
 
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
-### Set up persistent chat in Omnichannel Administration
+
+#### Set up persistent chat in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 You can enable persistent chat in the chat widget settings for a chat channel.
+<!-- >
 
 1. Go to Omnichannel Administration.
 
@@ -62,6 +64,7 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 8. Set **agent affinity** to true. When a customer returns to the chat, this setting ensures the system connects them to the same agent. The conversation stays with the agent regardless of capacity or presence until a supervisor manually reassigns it to another agent or moves it back to a queue.
 
 9. Select **Save and close**.
+-->
 
 ### See also
 
