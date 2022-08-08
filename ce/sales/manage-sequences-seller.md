@@ -79,8 +79,8 @@ Cloning a sequence makes it easier to edit, and save the changes to create new s
 
     >[!NOTE]      
     >If the sequence is **Active** state, you can one of the following actions to edit.  
-    >- Deactivate or [create a copy](#clone-a-sequence)
-    >- Select **Edit sequence**. More information: [Edit an active sequence and view version history](edit-active-sequence.md)  
+    >- Deactivate or create a copy.
+    >- Select **Edit sequence**.   
 
 1. Do one of the following activities:   
     - To add an activity, perform **step 4** from [Create and connect sequence for yourself](create-sequence-seller.md ).       
