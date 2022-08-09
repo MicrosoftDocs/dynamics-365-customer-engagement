@@ -63,7 +63,7 @@ Field technicians, equipment, and facilities - represented in the system as **Bo
 2. From the resource form, go to **Related** > **Resource Territories**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource, on the resource territories tab.](./media/resourceterritory.png)
+> ![Screenshot of the Bookable Resource window, displaying the Resource Territories tab.](./media/resourceterritory.png)
 
 3. Select **+ Add New Resource Territory**.
 
@@ -74,7 +74,7 @@ Field technicians, equipment, and facilities - represented in the system as **Bo
 4. Populate the **Territory**, **Resource**, and **Name** (optional).  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource, on the resource territories tab.](./media/multipleterritoriesonresource.png)
+> ![Screenshot of the Bookable Resource window, on the Resource Territories tab displaying two territories and the date and time they were created.](./media/multipleterritoriesonresource.png)
 
 
 > [!Note]

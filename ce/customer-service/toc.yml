@@ -272,7 +272,7 @@
           href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
-        - name: Configure routing for email records
+        - name: Set up unified routing for email records
           href: configure-routing-for-email-records.md
       - name: Set up skill-based routing
         items: 
@@ -334,6 +334,8 @@
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
+      - name: Enable case grids
+        href: enable-case-grids.md
     - name: Agent experience
       items: 
       - name: Create cases
@@ -342,6 +344,8 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
+      - name: Manage cases with case grids
+        href: case-grids.md
       - name: View a social profile
         href: view-social-profile.md
       - name: Convert a case to a knowledge article
@@ -429,9 +433,9 @@
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
-        href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+        href: customize-insert-email-template.md
       - name: Enable the enhanced email template editor page
-        href: /power-apps/user/cs-email-template-builder?context=/dynamics365/context/customer-service-context
+        href: cs-email-template-builder.md
     - name: Agent experience
       items:
       - name: Use email
@@ -474,7 +478,7 @@
         href: work-knowledge-articles.md
       - name: Set up knowledge search providers
         href: set-up-search-providers.md
-      - name: Configure knowledge article search filters
+      - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
         href: create-manage-categories.md
@@ -606,7 +610,7 @@
         href: voice-channel-block-number.md        
       - name: Handle call overflow for the voice queues
         href: voice-channel-call-overflow.md
-      - name: Configure call recordings and transcripts
+      - name: Configure call recordings, transcripts, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
@@ -776,8 +780,12 @@
           href: configure-sms-channel-twilio.md
       - name: Set up social channels
         items: 
+        - name: Configure an Apple Messages for Business channel
+          href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
+        - name: Configure Google's Business Messages channel
+          href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
         - name: Configure a Twitter channel
@@ -796,6 +804,8 @@
         href: sms-telesign-twilio.md
       - name: Use Facebook channel
         href: facebook.md
+      - name: Use Google's Business Messages channel
+        href: google-business-messages.md
       - name: Use WhatsApp channel
         href: whatsapp.md
       - name: Use Microsoft Teams channel
@@ -832,8 +842,14 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure chat authentication settings
-      href: create-chat-auth-settings.md
+    - name: Configure authentication settings
+      items:
+      - name: Create authentication settings for chat  
+        href: create-chat-auth-settings.md
+      - name: Create authentication settings for social channels
+        href: create-chat-auth-settings.md#socialauth
+    - name: Configure payment profiles
+      href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
       href: enable-real-time-translation.md
     - name: Set up customer location detection
@@ -858,12 +874,12 @@
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
       - name: Create quick replies
         href: create-quick-replies.md
+      - name: Create rich messages
+        href: create-rich-messages.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
       - name: Enable transcripts
         href: enable-transcripts-messaging-channels.md
-      - name: Enable consult pane for agents
-        href: enable-consult.md  
       - name: Enable sound notifications
         href: enable-sound-notifications.md
       - name: Enable missed notifications
@@ -884,6 +900,8 @@
         href: oc-smart-assist.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
+      - name: Rich messages in conversation control
+        href: rich-messages-conversation-control.md
     - name: Developer experience
       items: 
       - name: Build a smart assist bot
@@ -910,8 +928,6 @@
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
         href: context-variables-for-bot.md
-      - name: Link customer and case when bot escalates or ends conversations
-        href: link-customer-case-when-bot-escalates.md
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
@@ -924,15 +940,15 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-  - name: Insights
+  - name: Analytics dashboards and insights
     items: 
-    - name: Introduction to Customer Service Insights
+    - name: Introduction to analytics and insights in Customer Service
       href: introduction-customer-service-analytics.md
-    - name: Regional availability, language availability, and service limits for Customer Service Insights
+    - name: Supported regions and languages, and service limits for analytics and insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
-      - name: Configure Customer Service Insights
+      - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md
       - name: Configure Customer Service historical analytics
         href: configure-cs-historical-analytics-csh.md
@@ -960,7 +976,7 @@
         items:
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable supervisors to monitor, assign, and transfer conversations
+        - name: Enable your supervisors to monitor, assign, transfer, and forcibly end conversations
           href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
@@ -968,9 +984,9 @@
         href: configure-historical-sentiment-dashboard-supervisor.md
     - name: Supervisor experience
       items: 
-      - name: Historical analytics reports
+      - name: Historical analytics reports in Customer Service
         items: 
-        - name: Dashboards overview
+        - name: Customer Service dashboards
           href: customer-service-analytics-insights-csh.md
         - name: Summary dashboard
           href: summary-dashboard-cs.md
@@ -980,7 +996,11 @@
           href: case-topics-dashboard-cs.md
         - name: Historical analytics for unified routing in Customer Service
           href: cs-historical-analytics-unified-routing.md
-        - name: Omnichannel conversation dashboard
+      - name: Historical analytics reports in Omnichannel for Customer Service
+        items: 
+        - name: Omnichannel for Customer Service dashboards
+          href: omnichannel-analytics-insights.md
+        - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
           href: oc-queue-dashboard.md
@@ -991,13 +1011,15 @@
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
         - name: Historical analytics for unified routing in Omnichannel for Customer Service
-          href: oc-historical-analytics-unified-routing.md  
+          href: oc-historical-analytics-unified-routing.md
       - name: Knowledge management analytics
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
         href: customer-service-analytics.md
       - name: Forecast case and conversation volumes
         href: use-volume-forecasting.md
+      - name: Manage report bookmarks
+        href: manage-bookmarks.md
       - name: Intraday supervisor experience
         items: 
         - name: Introduction to intraday supervisor experience
@@ -1020,7 +1042,7 @@
           href: omnichannel-insights-dashboard.md
       - name: Monitor conversations
         items: 
-        - name: Monitor, assign, and transfer conversations
+        - name: Monitor, assign, transfer, and forcibly end conversations
           href: monitor-conversations.md
         - name: Monitor and analyze sentiments
           href: supervisor-sentiment-monitoring.md

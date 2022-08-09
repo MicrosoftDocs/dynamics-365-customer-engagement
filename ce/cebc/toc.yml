@@ -62,9 +62,6 @@
     - name: Versium Predict
       tocHref: /dynamics365/versium-predict
       topicHref: /dynamics365/versium-predict/versium-predict
-    - name: Gamification
-      tocHref: /dynamics365/gamification
-      topicHref: /dynamics365/gamification/increase-employee-productivity-with-dynamics-365-gamification
     - name: Voice of the Customer
       tocHref: /dynamics365/voice-of-customer
       topicHref: /dynamics365/voice-of-customer/create-voice-of-customer-survey

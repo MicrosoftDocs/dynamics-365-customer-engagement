@@ -88,7 +88,7 @@ Enable languages in your organization to display the user interface and Dynamics
 5. To save your changes and close the dialog box, click **OK**.  
 
 > [!NOTE]
->  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the user language settings only apply to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] features, such as the user interface display of the **Dynamics 365** menu, and don’t affect other areas of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)]. To display all of the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] user interface or Help in multiple languages, you need to install one or more [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]Language Packs. More information: [Office 2013 Language Options](https://office.microsoft.com/language-packs/).  
+>  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the user language settings only apply to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] features, such as the user interface display of the **Dynamics 365** menu, and don’t affect other areas of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)]. To display all of the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] user interface or Help in multiple languages, you need to install one or more [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]Language Packs.  
 
 ### See also  
  [Add resources to a site](../admin/add-resources-site.md)

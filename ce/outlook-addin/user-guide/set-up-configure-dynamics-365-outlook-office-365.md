@@ -1,5 +1,6 @@
 ---
 title: "Set up and configure Dynamics 365 for Outlook from Microsoft 365 | MicrosoftDocs"
+description: Learn how to install, set up, and configure Dynamics 365 for Outlook directly from the Microsoft 365 Home page.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
