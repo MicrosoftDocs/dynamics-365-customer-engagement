@@ -88,13 +88,13 @@ You can find the GUID of a schedule board tab with an advanced find of the **Sch
 > ![Screenshot highlighting the schedule board settings tab, Email a link button, and one owner entry.](../../field-service/media/scheduling-link-sb-get-link.png)
 
 Finally, copy and paste the GUID into the template link below.
-
+```
     https://[dynamics org name].crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=[32 digit GUID].
-
+```
 See the following for an example of an acceptable URL to a specific schedule board tab.
-
-    https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
-
+```
+https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
+```
 Be sure to test the link by entering it into a browser. Note that people who follow the link will be prompted to log in to Dynamics 365 Field Service if they aren't already logged in.
 
 ## Additional notes
