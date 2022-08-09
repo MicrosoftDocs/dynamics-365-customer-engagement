@@ -77,7 +77,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
     - **Execution Mode**: Synchronous
     - Leave the rest of the fields with their default values. Click **Register New Step**. 
 
-    ![The Register New Step dialog box](../media/FS-register-step-retrievedistancematrix.png "The Register New Step dialog box")
+    ![Screenshot of the Register New Step Dialog window with the General Configuration Information filled out. The Execution Order is set to 0.](../media/FS-register-step-retrievedistancematrix.png "The Register New Step dialog box")
 
 11. Next, right-click the **Microsoft.Crm.Sdk.Samples.msdyn_GeocodeAddress** plug-in, and select **Register New Step**.
 
@@ -88,7 +88,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
     - **Execution Mode**: Synchronous
     - Leave the rest of the fields with their default values. Click **Register New Step**. 
 
-    ![The Register New Step dialog box](../media/FS-register-step-geocodeaddress.png "The Register New Step dialog box")
+    ![Screenshot showing the Register New Step Dialog window with the General Configuration Information filled out. The Execution Order is set to 0.](../media/FS-register-step-geocodeaddress.png "The Register New Step dialog box")
 
 You are now done with registering steps to call your custom plug-in for both the geospatial actions. 
 
