@@ -1,7 +1,7 @@
 ---
 title: Configure relationship analytics and health
 description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
-ms.date: 07/01/2022
+ms.date: 08/09/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -23,16 +23,19 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users. This also includes adequately notifying users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users may be monitored, recorded, or stored.
 
-## To configure relationship analytics and health
+## Prerequisite
 
-1. Enable [relationship intelligence](enable-ri.md) if you haven't already.
+- Ensure that Relationship intelligence and who knows whom are enabled. More information [Enable relationship intelligence](enable-ri.md)
+
+
+## To configure relationship analytics and health
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
 3. Under **Relationship insights**, select **Analytics and Health**.  
     When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
-1. (Optional) Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from Dynamics 365 data.
+1. (Optional) Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from emails and data stored in Dynamics 365.
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
