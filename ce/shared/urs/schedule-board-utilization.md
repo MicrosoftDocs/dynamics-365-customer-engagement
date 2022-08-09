@@ -4,7 +4,7 @@ Utilization is the amount of time a resource is scheduled to work. It is calcula
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the hourly view on the schedule board.](../../field-service/media/schedule-board-utilization.png)
+> ![Screenshot of the schedule board.](../../field-service/media/schedule-board-utilization.png)
 
 In this topic, we will look at how resource utilization is calculated and displayed in both the **Hours** and **Days** views of the schedule board.
 

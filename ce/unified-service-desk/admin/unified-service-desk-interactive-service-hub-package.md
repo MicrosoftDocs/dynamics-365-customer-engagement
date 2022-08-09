@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk&mdash;Interactive service hub package | MicrosoftDocs"
 description: "Learn about the Interactive Service Hub sample application that's part of Unified Service Desk and how you can use it."
-ms.date: 08/23/2017
+ms.date: 08/02/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -26,9 +26,9 @@ ms.custom:
   
  This package is best used in the following situations:  
   
-- Dataverse environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](../../customer-service/customer-service-hub-user-guide-basics.md)  
+- Power Platform environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](../../customer-service/customer-service-hub-user-guide-basics.md)  
   
-- Dataverse environments that are already using the interactive service hub.  
+- Power Platform environments that are already using the interactive service hub.  
   
   With the Unified Service Desk interactive service hub sample application package, the following components are installed:  
   

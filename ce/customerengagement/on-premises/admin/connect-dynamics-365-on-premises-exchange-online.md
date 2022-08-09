@@ -2,7 +2,7 @@
 title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
 ms.custom: ""
-ms.date: "04/27/2022"
+ms.date: "08/03/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -57,7 +57,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tools).
 
 ```powershell
-.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName
+$CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
