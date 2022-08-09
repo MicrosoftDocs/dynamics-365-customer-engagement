@@ -1,12 +1,11 @@
 ---
 title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 08/05/2022
+ms.date: 08/09/2022
 ms.reviewer: mhart
-
 ms.subservice: connected-field-service
 ms.topic: article
-author: FieldServiceDave
+author: lmasieri
 ms.author: lmasieri
 manager: shellyha
 search.app:
@@ -47,9 +46,6 @@ Verify you have the Connected Field Service entities in your environment.
 ## Step 2: Deploy Connected Field Service and Azure resources
 
 Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and deploy the Azure Resource Manager (ARM) template.
-
-<!-- >> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png) -->
 
 > [!NOTE]
 > If you are using an older version of Field Service and cannot upgrade, you can add the Connected Field Service solution in your Field Service environment from the app store.
@@ -161,41 +157,48 @@ If you're working with Azure Time Series Insights, you need to update some infor
 
 1. Run the script two more times, replacing the `Key` first with TSI_PLUGIN_CLIENT_APPLICATION_ID and then with TSI_PLUGIN_CLIENT_SECRET, and replacing the `Value` with the respective values.
 
-```javascript
-
-var req = {};
-
-req.getMetadata = function () {
-    return {
-        boundParameter: null,
-        parameterTypes: {
-            "Key": {
-                "typeName": "Edm.String",
-                "structuralProperty": 1
+    ```javascript
+    
+    var req = {};
+    
+    req.getMetadata = function () {
+        return {
+            boundParameter: null,
+            parameterTypes: {
+                "Key": {
+                    "typeName": "Edm.String",
+                    "structuralProperty": 1
+                },
+                "Value": {
+                    "typeName": "Edm.String",
+                    "structuralProperty": 1
+                },
             },
-            "Value": {
-                "typeName": "Edm.String",
-                "structuralProperty": 1
-            },
-        },
-        operationType: 0,
-        operationName: "msdyn_IoTSetConfiguration"
+            operationType: 0,
+            operationName: "msdyn_IoTSetConfiguration"
+        };
     };
-};
+    
+    req["Key"]="TSI_PLUGIN_AZURE_TENANT_ID";
+    req["Value"]="REPLACE";
+    
+    Xrm.WebApi.online.execute(req).then( 
+        function (data) { 
+            console.log("Success Response Status: " + data.status);
+        }, 
+        function (error) { 
+            console.log("Error: " + error.message);
+        }
+    );
+    ```
 
-req["Key"]="TSI_PLUGIN_AZURE_TENANT_ID";
-req["Value"]="REPLACE";
+1. Run the following script, using your Time Series Insights URL and the ID of the IoT Provider Instance that you created earlier.
 
-Xrm.WebApi.online.execute(req).then( 
-    function (data) { 
-        console.log("Success Response Status: " + data.status);
-    }, 
-    function (error) { 
-        console.log("Error: " + error.message);
-    }
-);
-```
-  
+    ```javascript
+    var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN (found in Time Series Insights resource)"};
+    Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Enter msdyn_iotproviderinstance ID ", data);
+    ```
+
 ## Step 9: Set up the simulator (optional)
 
 The simulator lets you test Connected Field Service without the need to connect physical hardware. Simulated IoT devices and data help you understand different parts that contribute to turning IoT data into work orders.
