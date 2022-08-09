@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/07/2022
+ms.date: 08/02/2022
 ms.topic: article
 ---
 
@@ -23,7 +23,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 > [!IMPORTANT]
 >
 > - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
-> - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+> - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
 
 ### General region deployments
 

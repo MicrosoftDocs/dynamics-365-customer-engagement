@@ -109,7 +109,8 @@ You can export the report data by selecting the ellipsis in the top-right corner
 The data for the date range you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
 
 ### See also
-[Configure case and conversation volume forecasting](configure-volume-forecasting.md)<br>
-[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
-[Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
+[Configure case and conversation volume forecasting](configure-volume-forecasting.md)  
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
+[Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 

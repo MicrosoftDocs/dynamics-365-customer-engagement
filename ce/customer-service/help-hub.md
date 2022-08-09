@@ -176,7 +176,6 @@ ms.custom:
  <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
  <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
  <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)">Introduction to Omnichannel for Customer Service</a></li>
- <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2114715" data-raw-source="[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)">Try channels in Omnichannel for Customer Service</a></li> 
 </ul>
 </td>
 

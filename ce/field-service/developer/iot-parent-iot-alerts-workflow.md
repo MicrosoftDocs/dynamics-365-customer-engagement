@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# IoT - Parent IoT Alerts workflow
+# IoT - The Parent IoT Alerts workflow
 
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
   
