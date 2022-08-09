@@ -217,12 +217,12 @@ There are **two ways** to geocode your resources.
 Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address.](media/scheduling-resource-address.png)
+> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to the Resource Address.](media/scheduling-resource-address.png)
 
 For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address.](media/scheduling-urs-resource-type.png)
+> ![Screenshot of the Bookable Resource window, showing the General tab with the Resource Type and Contact highlighted with a red border.](media/scheduling-urs-resource-type.png)
 
 > [!NOTE]
 > For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
@@ -233,7 +233,7 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address.](media/scheduling-urs-resource-organizational-unit.png)
+> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to Organizational Unit Address.](media/scheduling-urs-resource-organizational-unit.png)
 
 > [!NOTE] 
 > You may need to add the latitude/longitude fields to the organizational unit entity form.
