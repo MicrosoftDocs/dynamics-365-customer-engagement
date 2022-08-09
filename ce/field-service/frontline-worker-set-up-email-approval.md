@@ -22,7 +22,8 @@ Field Service admins need approval from their global admins to send email to the
 
 ## Prerequisites 
 
-- Your organization's global admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+- Your organization's global admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
+
 
 ## Step 1: Add the approve email addresses privilege for system admins
 

@@ -127,6 +127,7 @@ For more information, see [Run business process flows offline](/power-automate/b
 |HTML, JS, CSS, XML web resources embedded on a model-driven app form|Supported| Partially supported: The web resource needs to be opened at least once while online so that it's cached by the browser which will handle its lifetime and or availability.|
 |Other web resources embedded on a model-driven app form (like images, resx, etc.)|Not supported**|Not supported**|
 |Webpage (HTML web resource) via a model-driven app’s sitemap|Not supported|Not supported|
+|Custom JS files that create a fetchXML dynamically |Not supported|Not supported|
 
 ** Accessing RESX web resources as a dependency through Client API from within a JS file is supported.
 

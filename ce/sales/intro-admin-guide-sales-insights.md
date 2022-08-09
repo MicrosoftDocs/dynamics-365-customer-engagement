@@ -1,7 +1,7 @@
 ---
 title: "Introduction on how to administer Sales Insights | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Sales Insights Add-in for Dynamics 365 Sales."
-ms.date: 07/08/2022
+ms.date: 08/03/2022
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
@@ -165,7 +165,6 @@ After installing the premium Sales Insights features, you can configure the prem
  
 -	To configure notes analysis, see [Configure notes analysis](configure-notes-analysis.md).   
 -	To configure relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).   
--	To configure talking points, see [Configure talking points](configure-talking-points.md).   
 -	To configure who knows whom, see [Configure who knows whom](configure-who-knows-whom.md).   
 -	To configure predictive lead scoring, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).   
 -	To configure predictive opportunity scoring, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).    

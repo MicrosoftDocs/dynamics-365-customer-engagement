@@ -209,7 +209,7 @@ Note: Alternatively, you can navigate directly to [the Power Automate templates 
 5. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the account association page in Power Automate.](media/iot-central-work-orders-4.png)
+> ![Screenshot showing the sign into Power Automate window with the Dynamics 365 organization information entered and the Continue button highlighted.](media/iot-central-work-orders-4.png)
 
 6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
@@ -257,7 +257,7 @@ Make Connected Field Service send booking updates to Azure IoT Central when a re
 2. Once you've selected the template, you'll be asked to sign in with both your Dynamics 365 account and Azure IoT Central account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the account association page in Power Automate.](media/iot-central-bookings-1.png)
+> ![Screenshot displaying the sign into Power Automate window with the Dynamics 365 organization information entered and the Continue button highlighted.](media/iot-central-bookings-1.png)
 
 3. Like with work order updates in step 3 of this tutorial, this Flow template will be mostly ready-to-go. To get it working, you need to update the following (see screenshots below for reference):
 

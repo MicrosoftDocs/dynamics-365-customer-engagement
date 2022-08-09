@@ -132,7 +132,7 @@ Select **+New Rule**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip page, showing the new rule option.](./media/cfs-mxchip-9.png)
+> ![Screenshot of the MX Chip page showing that the New Rule option is selected.](./media/cfs-mxchip-9.png)
 
 Select **Event** when presented the option.
 
@@ -150,7 +150,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new rule on the MXChip device template page, with all the fields filled out.](./media/cfs-mxchip-11.png)
+> ![Screenshot of the New Rule on the MX Chip device template page showing the fields filled out and that Save is selected.](./media/cfs-mxchip-11.png)
 
 
 ### High temperature alert rule
@@ -158,7 +158,7 @@ Then **Save**.
 Select **+New Rule** again.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip page, showing the new rule option.](./media/cfs-mxchip-12.png)
+> ![Screenshot of the MX Chip page displaying that the New Rule option is selected.](./media/cfs-mxchip-12.png)
 
 Select **Telemetry**.
 
@@ -178,7 +178,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new rule on the MXChip device template page, with all the fields filled out.](./media/cfs-mxchip-14.png)
+> ![Screenshot of the MX Chip device template page showing the filled Configure Telemetry Rule fields on the left side and a line graph on the right.](./media/cfs-mxchip-14.png)
 
 ## Set up Power Automate flows to create IoT Alerts
 
@@ -215,7 +215,7 @@ Enter the following information:
 Select **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate flow, with all the fields filled out.](./media/cfs-mxchip-18.png)
+> ![Screenshot of the Power Automate window with the fields filled out and Save selected.](./media/cfs-mxchip-18.png)
 
 Add **Temp Alert** to **Power Automate Name**.
 
@@ -230,7 +230,7 @@ Select **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate flow, with all the fields filled out.](./media/cfs-mxchip-19.png)
+> ![Screenshot of the Power Automate window displaying that the fields are filled out and Save is selected.](./media/cfs-mxchip-19.png)
 
 Go to **My Flows** and see newly created alert flows.
 
