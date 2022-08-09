@@ -61,7 +61,7 @@ The bookable resource must have a **Resource Type** set to **User**; the related
 
 To set up a field technician to use the Field Service mobile app, see the Field Service docs articles on:
 
-1. [Setting up Field Service users and security roles](./view-user-accounts-security-roles.md#set-up-a-field-technician-user) 
+1. [Setting up Field Service users and security roles](/dynamics365/field-service/view-user-accounts-security-roles#set-up-a-field-technician-user) 
 2. [Install and setup the mobile app](mobile-power-app-get-started.md)
 
 Verify you can log into the Field Service mobile app successfully as the field technician user.
