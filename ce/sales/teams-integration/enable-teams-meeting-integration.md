@@ -1,7 +1,7 @@
 ---
-title: Enable Microsoft Teams meeting integration in customer engagement apps (preview)
-description: Learn how to enable Microsoft Teams meeting integration in customer engagement apps.
-ms.date: 07/22/2022
+title: Enable Microsoft Teams meeting integration in Sales Hub (preview)
+description: Learn how to enable Microsoft Teams meeting integration in Sales Hub apps.
+ms.date: 08/09/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -21,9 +21,13 @@ With Microsoft Teams meeting integration, sellers can quickly access and update 
 > - If you have other customer engagement apps installed, and you turn on Teams meeting integration in one customer engagement app, it's turned on in all customer engagement apps in your organization. For example, if this feature is turned on in Sales Hub, it will also be shown as turned on in Customer Service Hub.
 > - Conversation intelligence has been deprecated within the Dynamics 365 app for Teams.
 
-## License requirements
+## License and role requirements
 
-Teams meeting integration doesn't have any licensing restrictions. Any user in the organization can use the Dynamics 365 app for Teams in meetings, assuming they have the necessary privileges.
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
+| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Enable Teams meeting integration
 

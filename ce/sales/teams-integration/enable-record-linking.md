@@ -1,7 +1,7 @@
 ---
 title: "Enable linking of Dynamics 365 records to Microsoft Teams channels"
 description: "Learn how to enable linking of Dynamics 365 records to Microsoft Teams channels."
-ms.date: 04/20/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -16,6 +16,13 @@ By default, the linking of Dynamics 365 records to Teams channels is disabled fo
    > [!NOTE]
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](./teams-collaboration.md#record-types-that-support-microsoft-teams-integration). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams integration](../../teams-integration/teams-troubleshoot.md#troubleshoot-configuration-issues-with-microsoft-teams-integration).
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
+| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Prerequisites
 
