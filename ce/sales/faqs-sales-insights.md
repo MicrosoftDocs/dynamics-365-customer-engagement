@@ -310,20 +310,25 @@ For activities, the suggestions are displayed immediately.
 The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. Prior to June 2022, the contact suggestions grid showed contacts across all the orgs of the tenant. After June 2022, the suggestions will be specific to your org.  
 
 ### How long will it take for the suggestions to appear after providing consent?
-It takes about one to three days to populate the results for the first time. Later, updates take three to six days, depending on the new activities included.​
+
+It takes about one to four days to populate the results for the first time. 
 
 ### ​Who will be included in the who knows whom suggestions?
-Everyone in the tenant is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+
+Everyone in the org is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### ​How are the connections weighted?
+
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
 
 ### What is the source of the data?
+
 Who knows whom has the following data sources:
 -	**Dynamics 365**: The lead or contact email ID that is used to query Exchange Online to find who in the tenant has communication with sellers.
 -	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, sellers' contacts, and the organization directory.
 
 ### Where is the data stored?
+
 The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](/exchange/security-and-compliance/security-and-compliance)
 
 ### What is the data retention policy, and where is it set?
