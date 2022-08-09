@@ -1,5 +1,5 @@
 ---
-title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Create or change a service in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
 ms.date: 09/15/2017
 
