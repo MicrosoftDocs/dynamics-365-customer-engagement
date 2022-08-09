@@ -39,7 +39,7 @@ You can find the org ID in **Settings** > **Customizations** > **Developer Resou
 > [!div class="mx-imgBorder"]
 > ![Screenshot of developer resources in Field Service.](./media/preview-orgid.png)
 
-Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7).
+Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7&preserve-view=true).
 
 ## Step 1: Run PowerShell
 
