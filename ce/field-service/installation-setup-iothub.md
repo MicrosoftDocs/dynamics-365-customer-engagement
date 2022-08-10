@@ -1,7 +1,7 @@
 ---
 title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 08/09/2022
+ms.date: 08/10/2022
 ms.reviewer: mhart
 ms.subservice: connected-field-service
 ms.topic: article
@@ -82,7 +82,7 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 ## Step 4: Set up IoT endpoint
 
-1. [Download the Plug-in Registration Tool](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget?view=op-9-1) and sign in to the Dynamics 365 organization where you're setting up Connected Field Service.
+1. [Download the Plug-in Registration Tool](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget?view=op-9-1&preserve-view=true) and sign in to the Dynamics 365 organization where you're setting up Connected Field Service.
 
 1. Once connected to the organization, find the **IoT Message** Service Endpoint and select it.
 
