@@ -2,13 +2,13 @@
 title: "Manual inventory journals in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn about manual inventory journals in Dynamics 365 Field Service
 ms.date: 3/14/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 search.app: 
   - D365CE
   - D365FS

@@ -6,11 +6,11 @@ ms.date: 03/14/2019
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynm-hartmannn 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: mhart
 manager: shellyha
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.custom: 
   - dyn365-fieldservice
 search.app: 

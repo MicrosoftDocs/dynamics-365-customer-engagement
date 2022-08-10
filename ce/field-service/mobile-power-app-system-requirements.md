@@ -2,15 +2,15 @@
 title: "System requirements to use the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about system requirements for the Field Service (Dynamics 365) mobile app.
 ms.date: 03/23/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
