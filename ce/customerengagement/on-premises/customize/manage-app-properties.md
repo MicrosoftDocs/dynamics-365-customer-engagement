@@ -3,7 +3,7 @@ title: "Manage properties with the app designer in Dynamics 365 Customer Engagem
 description: "App properties define important details about the app, like its title or URL. To change these after creating an app, edit the properties in the app designer."
 keywords: 
 ms.date: 02/21/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

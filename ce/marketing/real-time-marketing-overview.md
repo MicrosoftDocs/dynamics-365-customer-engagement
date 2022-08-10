@@ -1,11 +1,10 @@
 ---
 title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn general information about the new real-time marketing features in Dynamics 365 Marketing."
-ms.date: 08/19/2021
-ms.service: dynamics-365-marketing
+ms.date: 05/11/2022
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+ms.topic: overview
 author: alfergus
 ms.author: alfergus
 manager: shellyha
@@ -20,11 +19,11 @@ search.app:
 
 # Real-time marketing overview
 
-Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build event-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
+Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build trigger-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
 
 - **Engage customers in real-time**
 
-  With features such as [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom event triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+  With features such as [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md), [custom triggers](real-time-marketing-custom-triggers.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 
 - **Win customers and earn loyalty faster**
 
@@ -45,4 +44,4 @@ Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural lan
 To read about all of the new features, check out our [2021 release wave 1 plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/planned-features). See a [demo of the real-time marketing features in action](https://youtu.be/8yfIwz3Ue3Q?t=961) from Microsoft Ignite 2021.
 
 > [!NOTE]
-> Real-time customer journey orchestration features are available in the United States, Europe, the United Kingdom, and Australia. The features will be available in Canada and Asia-Pacific geographies in October. Availability in other geographies will be communicated at a later date.
+> Real-time customer journey orchestration features are available in the United States, Europe, Asia Pacific, the United Kingdom, Australia, Canada, Japan, India, Brazil and the United Arab Emirates. Availability in other geographies will be communicated at a later date.

@@ -1,16 +1,14 @@
 ---
 title: "Manage session templates | MicrosoftDocs"
-description: "Learn about managing session templates in Customer Service workspace and Omnichannel Administration app"
+description: "Learn about managing session templates in Customer Service workspace and Omnichannel admin center"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage session templates
-
-## Introduction
 
 A session template is a combination of attributes and application tab information that can be reused.
 
@@ -22,7 +20,7 @@ Session templates are used to define the aforementioned session experience, such
 - what are the additional application tabs that must be opened when a session is started;
 - what must be the default mode of the communication panel when a session is started.
 
-You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
+You can create session templates in Omnichannel admin center or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
   > [!Note]
   > You can't customize the out-of-the-box session templates; instead, you'll need to create your own custom templates.
@@ -33,6 +31,7 @@ The following out-of-the-box session templates are of the generic type and are f
 
 - Case entity session - default template
 - Chat session - default
+- Voice call session - default
 - Custom messaging session - default
 - Entity records session - default
 - Facebook session - default
@@ -45,12 +44,23 @@ The following out-of-the-box session templates are of the generic type and are f
   
 ## Create a session template
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
-2. In the left pane, select **Session templates** under Customer Service workspace or Omnichannel Administration. The Unified Interface page opens on a new tab.
+1. Select one of the following tabs, and perform the steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-3. Select **New** on the **Active Session Templates** page.
+    1. In the site map, select **Workspaces** in **Agent experience**.
+    2. On the **Workspaces** page, select **Manage** for **Session templates**.
 
-4. Specify the following on the **New Session Templates** page.
+   ### [Power Apps](#tab/powerapps)
+   
+    1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+    2. In the left pane, select **Session templates** under Customer Service workspace or Omnichannel Administration. The Unified Interface page opens on a new tab.
+    
+  [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+2. Select **New** on the **Active Session Templates** page.
+
+3. Specify the following on the **New Session Templates** page.
 
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
@@ -64,31 +74,36 @@ The following out-of-the-box session templates are of the generic type and are f
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
 
-5. Select **Save**. After you save, the **Additional tabs** option appears on the page.
+4. Select **Save**.
 
-6. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
 
-7. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
+### Associate application tabs, agents scripts with session templates<a name="associate-app-tabs"></a>
+ 
+You can associate application tabs that need to open when a session is started. Agents can't close these application tabs. You can also associate agents scripts; however, you must first configure the agent scripts. More information: [Agent scripts](agent-scripts.md)
 
-8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
+1. Go to the session template that you want to modify.
 
-9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
+1. In the **Additional Tab** section, Select **Add Existing Application Tab Template**. The **Lookup Records** pane appears.
 
-  > [!Note]
-  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts. To learn more, see [Agent scripts](agent-scripts.md).
+1. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tabs, and then select **Add**. The application tabs are added to the session template.
 
-10. Select **Save**.
+1. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
-   > [!div class=mx-imgBorder]
-   > ![Session template.](media/session-template1.png "Session template")
+1. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
 
-The session template is configured. Now, you must associate the session template with a work stream. To learn more, see [Associate templates with work streams](associate-templates.md).
+1. Select **Save**.
+
+  > [!div class=mx-imgBorder]
+  > ![Session template.](media/session-template1.png "Session template")
+
+The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 
 ### See also
 
+[Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
-[Associate templates with work streams](associate-templates.md)  
+[Associate templates with workstreams](associate-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

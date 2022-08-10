@@ -3,7 +3,7 @@ title: "Sample: Retrieve all charts attached to an entity (Developer Guide for D
 description: "The sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the IOrganizationService.QueryBase) method. "
 keywords: 
 ms.date: 10/31/2017
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -24,7 +24,7 @@ search.audienceType:
 
 # Sample: Retrieve all charts attached to an entity
 
-This sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com//dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.
+This sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the [IOrganizationService.RetrieveMultiple](//dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.
 
 You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveChartsAttachedToEntity).
 

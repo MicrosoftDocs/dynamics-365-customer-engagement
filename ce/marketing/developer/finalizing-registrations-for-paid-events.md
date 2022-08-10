@@ -1,8 +1,7 @@
 ---
 title: "Finalizing registrations for paid events (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how to finalize registrations for paid events."
-ms.date: 07/12/2019
-ms.service: dynamics-365-marketing
+ms.date: 05/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,7 +19,7 @@ search.app:
 
 This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
-In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
+In this topic, we use [OAuth](/power-apps/developer/data-platform/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
 
 > [!NOTE]
 > If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 Marketing. More information: [Authenticate with .NET Framework applications](/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
@@ -33,8 +32,10 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/co
 
 3. Install the following NuGet packages: 
    - [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) is used to simplify the authentication with OData. If you’re using a programming language that is not supported by this library, you need to use another library that supports your programming language or take care of the authentication manually.
+    > [!IMPORTANT]
+    > The [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) NuGet package and Azure AD Authentication Library (ADAL) have been deprecated. No new features have been added since June 30, 2020.   We strongly encourage you to upgrade, see the [migration guide](/azure/active-directory/develop/msal-migration) for more details.
    
-   - [Newtonsoft.Json]( https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
+   - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
  
 ## Step 1: Register your application 
 
@@ -53,6 +54,7 @@ Follow these steps to register your application:
     ![Supported account types.](../media/supported-account-types.png "Supported account types")
 
 1. Select **Register**. 
+
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
@@ -356,6 +358,5 @@ namespace TriggerFinalizeRegistration
 [Power Apps portal hosted](portal-hosted.md)<br/>
 [Customer Event Portal Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

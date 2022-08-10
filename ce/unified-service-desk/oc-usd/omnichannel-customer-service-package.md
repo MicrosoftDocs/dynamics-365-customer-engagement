@@ -1,7 +1,7 @@
 ---
 title: "Deploy Omnichannel for Customer Service package | MicrosoftDocs"
 description: "Learn how to deploy Unified Service Desk - Omnichannel for Customer Service package on a model-driven app."
-ms.date: 02/15/2021
+ms.date: 03/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,16 +11,17 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Deploy Unified Service Desk - Omnichannel for Customer Service package
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
-
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+## Introduction 
 
 Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Service Desk – Omnichannel for Customer Service** package on a model-driven app.
 
 ## Download Unified Service Desk - Omnichannel for Customer Service packages
 
-Download one of the following versions of the **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer.
+Download one of the following versions of **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer.
 
+- [Unified Service Desk - Omnichannel for Customer Service package 3.3](https://go.microsoft.com/fwlink/p/?linkid=2189024)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.2](https://go.microsoft.com/fwlink/p/?linkid=2154961)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.1](https://go.microsoft.com/fwlink/p/?linkid=2147551)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.0](https://go.microsoft.com/fwlink/p/?linkid=2143446)
@@ -85,7 +86,7 @@ The **Upgrade** package updates the Customization files and creates the newly in
 
 7. Review the name and information about the package on the **Installation Complete** page, and choose **Finish** to exit the Package Deployer tool.
 
-To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer).
+To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md?view=dynamics-usd-4&preserve-view=true#deploy-a-sample-unified-service-desk-package-using-package-deployer).
 
 ## Upgrade Omnichannel for Customer Service package
 

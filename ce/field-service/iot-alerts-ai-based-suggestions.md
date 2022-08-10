@@ -3,7 +3,7 @@ title: "IoT alert AI suggestions | MicrosoftDocs"
 description: Learn about AI suggestions for IoT alerts in Connected Field Service
 ms.date: 04/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 

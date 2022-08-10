@@ -2,7 +2,7 @@
 title: "View and edit basic user information (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to view a list of users licensed to access Dynamics 365 Marketing, and how to view and edit basic user information."
 ms.date: 03/25/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

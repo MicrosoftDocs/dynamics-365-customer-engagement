@@ -56,7 +56,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
   
 ### See Also  
  [AifServices](/dotnet/api/microsoft.uii.aifservices)   
- [IHostedApplication](/dotnet/api/microsoft.uii.csr.aifinterfaces.ihostedapplication)   
+ [IHostedApplication](/dotnet/api/microsoft.uii.csr.ihostedapplication)   
  [UII Hosted Applications](uii-hosted-applications.md)   
  [Extend Unified Service Desk](extend-unified-service-desk.md)   
  [Session management in Unified Service Desk](session-management-unified-service-desk.md)

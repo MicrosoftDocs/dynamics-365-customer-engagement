@@ -1,8 +1,8 @@
 ---
 title: "setAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: 
-ms.date: 07/01/2019
-ms.topic: article
+description: "Includes reference information such as syntax and parameter for the setAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+ms.date: 04/04/2022
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -16,13 +16,13 @@ manager: shujoshi
 The authentication token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.
 
 > [!IMPORTANT]
-> In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
-> The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
-> The authentication token provider would be invoked by live chat widget when starting a new chat.
+> - In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
+> - The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
+> - The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
+> - The authentication token provider would be invoked by live chat widget when starting a new chat.
 
 > [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+> The live chat SDK methods should be invoked after the [lcw:ready event](../events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
 
 This SDK is applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](../../../create-chat-auth-settings.md).
 
@@ -36,7 +36,7 @@ This SDK is applicable only if authentication is enabled for the widget. To enab
 | ---- | ---- | ---- |
 | authTokenProvider | Function | Function which when invoked with a callback function as an argument, fetches the JWT token and invokes the callback function with the JWT token as its argument  |
 
-## Return Value
+## Return value
 
 None
 
@@ -83,17 +83,18 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
     });
 });
 ```
+
 ## Error codes
 
-The following error codes can occur with this method.
+The following errors can occur with this method.
 
-|Error Code|Error message|
+|Error code|Error message|
 |-----|-----|
 |2|Auth token provider method execution failed|
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 
-## See also
+### See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 

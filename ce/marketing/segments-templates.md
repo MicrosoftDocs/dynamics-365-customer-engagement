@@ -2,7 +2,7 @@
 title: "Work with segment templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create, manage, and use segment templates in Dynamics 365 Marketing."
 ms.date: 12/13/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

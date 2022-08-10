@@ -4,13 +4,11 @@ description: "Learn about the sessionId property of app profile manager in Custo
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: sessionId (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# sessionId (app profile manager)
 
 The ID of a session.
 

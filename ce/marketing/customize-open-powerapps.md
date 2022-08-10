@@ -2,7 +2,7 @@
 title: "Open a Power Apps customization window (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to open a Power Apps customization window in Dynamics 365 Marketing."
 ms.date: 12/10/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

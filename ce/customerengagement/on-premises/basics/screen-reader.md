@@ -1,6 +1,6 @@
 ---
 title: "Use screen reader with Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)"
-description: "Learn about using a screen reader with Dynamics 365 Customer Engagement (on-premises) and finding your way around the Unified Interface apps."
+description: "Learn about using a screen reader with Dynamics 365 Customer Engagement (on-premises) and finding your way around Unified Interface apps."
 keywords: 
 author: ReneeW-CPub
 applies_to: Dynamics 365 Customer Engagement (on-premises)
@@ -8,7 +8,7 @@ ms.author: renwe
 manager: renwe
 ms.date: 05/05/2020
 ms.topic: article
-ms.prod: d365ce-op
+
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
 ms.custom: 
   - dyn365-a11y
@@ -27,10 +27,10 @@ Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](https://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
-- [Learn more about working with NVDA](https://www.nvaccess.org/help/)
+- [Learn more about working with NVDA](https://www.nvaccess.org/)
 
 > [!NOTE]
-> JAWS screen reader is supported on the latest Unified Client. If choosing JAWS, we recommend using it with Internet Explorer. 
+> JAWS screen reader is supported on the latest Unified Interface. If choosing JAWS, we recommend using it with Internet Explorer. 
 > 
 > Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 
@@ -114,7 +114,7 @@ Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 
 > [!NOTE]
-> JAWS screen reader is supported on the latest Unified Client. If choosing JAWS, we recommend using it with Internet Explorer. 
+> JAWS screen reader is supported on the latest Unified Interface. If choosing JAWS, we recommend using it with Internet Explorer. 
 > 
 > Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 

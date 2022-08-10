@@ -2,7 +2,7 @@
 title: "Use marketing forms for event registration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Add custom marketing forms to event registrations."
 ms.date: 04/22/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

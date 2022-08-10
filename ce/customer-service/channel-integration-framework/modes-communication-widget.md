@@ -4,6 +4,8 @@ description: "Learn about the modes&mdash;docked, minimized, and hidden&mdash;us
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: reference
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -13,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[token-modes-communication-widget](shared/token-modes-communication-widget.md)]
 
-## See also
+### See also
 
 [setMode (JavaScript API reference)](reference/microsoft-ciframework/setMode.md)
 

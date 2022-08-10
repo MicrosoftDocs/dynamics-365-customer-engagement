@@ -4,7 +4,7 @@ description: "Overview of the data import feature, which enables data upload fro
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: nabuthuk
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

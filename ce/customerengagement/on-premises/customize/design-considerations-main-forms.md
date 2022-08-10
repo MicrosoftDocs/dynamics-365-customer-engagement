@@ -4,7 +4,7 @@ description: "There are several important factors to consider when designing mai
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

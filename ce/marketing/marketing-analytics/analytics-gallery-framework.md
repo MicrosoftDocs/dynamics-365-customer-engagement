@@ -2,7 +2,7 @@
 title: "Marketing analytics reporting framework for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "The foundation for our marketing analytics reporting is the framework of M-Code, queries, functions, data connectors, and parameter processing."
 ms.date: 11/22/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,7 +21,7 @@ search.app:
 
 # The marketing analytics reporting framework (generic template)
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Designed for the data analyst who's fluent in Power BI report building, the marketing analytics reporting framework provides an important foundation that includes the M-Code, queries, functions, data connectors, and parameter processing that are at the core of every marketing analytics report.
 

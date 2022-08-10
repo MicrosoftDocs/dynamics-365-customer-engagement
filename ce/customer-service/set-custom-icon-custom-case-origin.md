@@ -21,8 +21,9 @@ ms.custom:
 
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a custom icon to display in views where the Case Origin field is visible.  
   
-## Case Origin field icons  
- The Case Origin field has the following options and a corresponding icon is displayed in views within the application:  
+## Case Origin field icons
+
+The Case Origin field has the following options and a corresponding icon is displayed in views within the application:  
   
 |Label|Value|Icon|  
 |-----------|-----------|----------|  
@@ -62,9 +63,10 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
   
     There may be a several minutes delay after you publish your custom web resource. You may need to press F5 to refresh the page in your browser.  
   
-### See also  
- [Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)   
- [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+### See also
+
+[Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)   
+[Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

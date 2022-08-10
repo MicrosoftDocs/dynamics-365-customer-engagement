@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement (on-premises) offers several prog
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -45,6 +45,8 @@ The following diagram illustrates the key programmability scenarios for Dynamics
  When you connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (on-premises) environments with Internet-facing deployment (IFD), you can use [Azure AD Authentication Libraries (ADAL)](/azure/active-directory/azuread-dev/active-directory-authentication-libraries) to enable authentication from a wide variety of programming languages and platforms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](webapi/authenticate-web-api.md)
 
 > [!NOTE]
+> Azure ADAL v1.0 is deprecated. Use [Microsoft Authentication Library](/azure/active-directory/develop/reference-v2-libraries) (ADAL v2.0) instead.
+>
 > The organization data service ("REST endpoint" or  "OData endpoint") is an OData v2 service that was deprecated in [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] in favor of the Web API. The organization data service isn’t included in the preceding diagram. The organization service is still available to support code that used it. However, for any new development for Dynamics 365 Customer Engagement (on-premises) we recommend using the Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the OData endpoint with web resources](https://msdn.microsoft.com/library/gg334279\(v=crm.7\).aspx)
 
 <a name="bkmk_organizationService"></a>
@@ -70,7 +72,7 @@ The following diagram illustrates the key programmability scenarios for Dynamics
 ## Extending in the application
  Each of the client applications provided by Dynamics 365 Customer Engagement (on-premises) includes the ability to define customizations and deploy to multiple types of clients. The web application, [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], and [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] each provide capabilities to include custom navigation and command options as well as the `Xrm` object model and `Xrm.Utility` functions you can use with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to provide responsive experiences in the client. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries, HTML pages, images, and other types of files that can be used or displayed in the client are available as URL addressable web resources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use JavaScript with Customer Enagement apps](use-javascript.md) and [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md).
 
- When you need to access Dynamics 365 Customer Engagement (on-premises) data that isn’t available in the context where your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running, you can make calls to the server to get the data you need. The organization service can be used, but it is much easier to use the Web API with JSON rather than the XML required by the organization service. Because your script runs in the context of the application, you are automatically authenticated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)](/powerapps/developer/model-driven-apps/clientapi/get-started-web-api-client-side-javascript)
+ When you need to access Dynamics 365 Customer Engagement (on-premises) data that isn’t available in the context where your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running, you can make calls to the server to get the data you need. The organization service can be used, but it is much easier to use the Web API with JSON rather than the XML required by the organization service. Because your script runs in the context of the application, you are automatically authenticated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)](/dynamics365/customerengagement/on-premises/developer/webapi/web-api-functions-actions-sample-client-side-javascript)
 
 ### See also
 [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />

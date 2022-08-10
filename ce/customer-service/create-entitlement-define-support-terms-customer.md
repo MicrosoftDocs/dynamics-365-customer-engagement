@@ -1,7 +1,7 @@
 ---
 title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
-ms.date: 01/22/2021
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,10 +25,26 @@ Define what kind of support your customers are eligible for by creating entitlem
 > With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
   
 ## Create an entitlement
+
+You can create an entitlement in the Customer Service admin center or Customer Service Hub app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../customerengagement/on-premises/basics/view-your-user-profile.md).
 
-2. In the Customer Service Hub sitemap, go to **Service Management**, and select **Service Terms** > **Entitlements**.
+2. Go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+    1.  In the **Entitlements** section, select **Manage**.                                                                         
+        
+        The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the Customer Service Hub site map, go to **Service Management**.
+    1. From the list of entity records, select **Entitlements** in **Service Terms**.                                                              
+       
+       The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.
 
    > [!NOTE]
    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and [!INCLUDE[proc_click_or_tap_entitlements](../includes/proc-click-or-tap-entitlements.md)]

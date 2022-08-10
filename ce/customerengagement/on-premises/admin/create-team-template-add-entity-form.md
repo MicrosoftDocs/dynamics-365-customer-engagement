@@ -4,7 +4,7 @@ description: "Learn how to enable an entity for access teams, create an access t
 ms.custom: 
 ms.date: 03/19/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "This page describes key configuration settings and tasks that can 
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -3,7 +3,7 @@ title: "Post-installation and configuration guidelines for Dynamics 365 Customer
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "07/26/2021"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

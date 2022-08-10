@@ -62,7 +62,7 @@ To enable email:
 
 Enhanced email is the default setting, but you must enable email for users to access and use the features. 
 
-Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement app. In the app:	
+Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app. In the app:
 
 1. Go to **Settings** > **Advanced Settings**.
 
@@ -162,7 +162,7 @@ You can configure the attachment file types you want to block to prevent users f
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
-[Email FAQs](email-faqs.md)
+[Email FAQ](email-faqs.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

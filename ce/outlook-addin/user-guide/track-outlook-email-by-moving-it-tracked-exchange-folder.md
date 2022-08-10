@@ -1,9 +1,10 @@
 ---
 title: "Track Outlook email by moving it to a tracked Exchange folder | MicrosoftDocs"
+description: Learn how to track email messages in Outlook by moving them to a tracked Microsoft Exchange folder in Microsoft Dynamics 364 apps.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article

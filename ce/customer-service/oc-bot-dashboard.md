@@ -1,10 +1,10 @@
 ---
 title: "Bot Dashboard | Microsoft Docs"
 description: "Learn about the bot dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 04/09/2021
+ms.date: 05/09/2022
 ms.topic: article
-author: Meghanalanka
-ms.author: v-mlanka
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 
@@ -15,7 +15,7 @@ The Bot dashboard shows key performance indicators (KPIs) and charts that you ca
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
 
-You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Analytics and insights**. On the page that appears, select the **Bot** tab.
+You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
 ## Report details
 
@@ -61,10 +61,11 @@ To view the drill down, select any single metric value on the desired day, then 
 
 ### See also
 
-- [Conversation dashboard](oc-conversation-dashboard.md)
-- [Dashboard overview](customer-service-analytics-insights-csh.md)
-- [Queue dashboard](oc-queue-dashboard.md)
-- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Queue dashboard](oc-queue-dashboard.md)  
+[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Appointments included in resource scheduling in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Appointments included in resource scheduling in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn how to include appointments in resource scheduling in Dynamics 365 Field Service.
 ms.date: 05/24/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -118,9 +118,7 @@ For customers with Resource Scheduling Optimization, appointments will be respec
 
 Appointments with statuses *Busy* and *Completed* will be considered as unavailable by scheduling operations. 
 
-For customers without Resource Scheduling Optimization, the schedule assistant is planned to consider appointments in a future release. 
-
-Meanwhile, developers can use the schedule assistant APIs for both requirements and requirement groups for:
+Developers can use the schedule assistant APIs for both requirements and requirement groups for:
 
 - Custom web apps
 - A Dynamics 365 portal 

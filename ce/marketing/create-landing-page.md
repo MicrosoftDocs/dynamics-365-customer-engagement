@@ -2,7 +2,7 @@
 title: "Create a landing page (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a new landing page that includes a form for Dynamics 365 Marketing."
 ms.date: 10/29/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

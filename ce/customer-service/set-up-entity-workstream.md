@@ -1,7 +1,7 @@
 ---
 title: "Set up workstream for records in Omnichannel Administration | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to set up record workstream in Omnichannel for Customer Service."
-ms.date: 08/31/2021
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,8 +14,8 @@ manager: shujoshi
 
 > [!IMPORTANT]
 >
-> - If you have upgraded your Omnichannel for Customer service environment to 2021 release wave 1, and if you are setting up record routing for the first time, then we recommend that you use the new Omnichannel admin center app to configure record routing. More information: [Set up record routing](set-up-record-routing.md).
-> - You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you have existing workstreams for routing records, you'll need to recreate them in the new Omnichannel admin center app. More information: [Migrate workstreams for routing records](migrate-workstreams.md#migrate-workstreams-for-routing-records).
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
+> - You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you have existing workstreams for routing records, you'll need to recreate them in the Customer Service admin center or Omnichannel admin center app. More information: [Migrate workstreams for routing records](migrate-workstreams.md#migrate-workstreams-for-routing-records)
 
 ## Create a record workstream
 

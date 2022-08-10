@@ -4,7 +4,7 @@ description: "Follow these steps to set up Customer Engagement apps for Skype or
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

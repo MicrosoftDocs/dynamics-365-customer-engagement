@@ -2,6 +2,8 @@
   href: unified-service-desk.md
 - name: Release history
   href: release-history.md
+- name: Migrate to Customer Service workspace
+  href: admin/migrate-to-csw.md
 - name: What's new
   items:
   - name: What's new for Administrators
@@ -34,7 +36,7 @@
   items:
   - name: Overview 
     href: admin/install-upgrade-deploy-unified-service-desk.md
-  - name: Unified Service Desk system requirements
+  - name: System requirements
     href: admin/unified-service-desk-system-requirements.md
   - name: Install the Unified Service Desk client
     href: admin/install-upgrade-unified-service-desk-client.md
@@ -84,9 +86,9 @@
       href: uii-computer-telephony-integration-cti-framework.md
 - name: Administer and manage Unified Service Desk
   items: 
-  - name: Administer and manage overview
+  - name: Overview
     href: admin/administer-manage-unified-service-desk.md
-  - name: Support for Unified Interface Apps
+  - name: Support for Unified Interface apps
     href: admin/Support-unified-interfaces-apps-usd.md
   - name: Unified Service Desk Administrator app
     href: admin/unified-service-desk-administrator-app.md
@@ -130,7 +132,7 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
-    - name: Post-requisites steps
+    - name: Post-migration steps
       href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
@@ -619,8 +621,8 @@
       href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
       href: oc-usd/right-control-panel.md
-    - name: Understand conversation states 
-      href: oc-usd/conversation-state.md
+    - name: Understand conversation states in Omnichannel for Customer Service
+      href: /dynamics365/customer-service/oc-conversation-state?context=/dynamics365/context/unified-service-desk-context
     - name: View Omnichannel conversation and Omnichannel session in Model-driven apps 
       href: oc-usd/view-omnichannel-conversation-session.md
     - name: View customer summary for an incoming conversation request 

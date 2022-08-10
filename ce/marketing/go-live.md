@@ -1,8 +1,7 @@
 ---
 title: "Publish records through the go-live process (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to stop processing records that are already live in Dynamics 365 Marketing."
-ms.date: 05/19/2020
-ms.service: dynamics-365-marketing
+ms.date: 03/17/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -42,7 +41,7 @@ For customer journeys, the **Status** and **Status reason** fields are managed b
 | --- | --- | --- |
 | Active | Draft | The journey has never been live and can be edited, saved, or deleted without restrictions.<br><br>To publish a draft journey, open it and then choose **Go Live** on the command bar. |
 | Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar.<br><br>You can't delete a journey while it's live. |
-| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>30 days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. After a journey has expired, you can no longer edit or restart it, but until then you can extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again.<br><br>You can delete a stopped journey even if its end date hasn't passed. |
+| Active | Stopped | The message was once live but is now stopped. While stopped, you can edit and save the content without going live. Select **Go live** to republish it.<br><br>Note that for your changes to take effect in journeys that are already live, you must stop and go live with the respective journeys again. Otherwise, the previous version of the email will continue to be used. |
 | Active | Live, editable | The journey is currently live, but you have chosen to edit it locally. The live journey will continue to process contacts and take other actions while you work with the local version.<br><br>Make the required changes and then choose **Save** to update the live journey automatically (after an error check) and return to the active/live state. You can't delete a journey while it's in this state.|
 | Active | Error | An error occurred while the journey was going live. This issue is usually temporary so you should wait a short time, then try again to go live. |
 | Active | Going live | The journey is currently in the process of going live. |
@@ -76,6 +75,17 @@ If you attempt to stop records such as email messages, forms, or segments utiliz
 > [!NOTE]
 > If you change the segment source for one or more segment tiles after a journey has started, the journey won't process any contacts that are no longer part of the segment and that haven't yet left the segment group tile. However, removed contacts that have already started the journey (that *have* left the segment group tile) continue to be processed to the end. The removed segment might be fully unprocessed, partially processed, or fully processed, depending on how far it progressed by the time you removed it. New contacts added by a new segment join the journey as usual, and contacts that were part of both the replaced and new segment continue where they left off.
 
+## Real-time marketing go-live operations and status
+
+| Status | Description |
+|---|---|
+| Draft | The journey has never been live. It can be edited, saved, or deleted without restrictions.  To publish a draft journey, open it and select **Publish** on the command bar. |
+| Live | The journey is currently live.  To make changes to a live journey, open it and select **Create a new version** on the command bar. |
+| Stopped | The journey was once live and may have processed some contacts but is now stopped manually.  No actions are being taken and no more contacts can be processed, including customers that were in the middle of the journey flow.  **Stop** is a manual user action. |
+| Completed | The journey is completed and is no longer accepting new customers into it. The journey completed because:  (1) the end date passed, (2) a static segment-based journey has run through every member, or (3) the last customer exited the previous journey version and the journey was marked as completed.  **Completed** is a system action. |
+| Publishing | The journey is currently being published. No actions can be taken. |
+| Completing | The journey is currently being completed. No actions can be taken. |
+
 ## Marketing email go-live operations and status
 
 You can manually set the **Status** of a message to _active_ or _inactive_ by using the buttons on the command bar. The **Status reason** indicates the message's go-live state and is read-only.
@@ -84,8 +94,8 @@ You can manually set the **Status** of a message to _active_ or _inactive_ by us
 | --- | --- | --- |
 | Active | Draft | The message has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft message, open it and then choose **Go Live** on the command bar. |
 | Active | Live | The message is currently live and can't be edited locally. It is available to be sent at any time by a customer journey.<br><br>To stop a live message, open it and then choose **Stop** from the command bar.<br><br>To edit a live message without stopping it, open it and then choose **Edit** on the command bar. |
-| Active | Stopped | The message was once live, and may have already been delivered to some contacts, but is now stopped so no new copies are being sent. If the message is used in a customer journey, then the message won't be sent by the journey until you start it again (and contacts will wait at the related email tile).<br><br>While stopped, you can edit and save the content without going live. Select **Go live** to republish it. |
-| Active | Live, editable | The message is currently live (and that version could be sent by a customer journey at any time), but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live message automatically (after an error check) and return it to the _active/live_ state. |
+| Active | Stopped | The message was once live, and may have already been delivered to some contacts, but is now stopped so no new copies are being sent. If the message is used in a customer journey, then the message will be sent by the journey but an error will appear on the email tile that it is inactive.<br><br>While stopped, you can edit and save the content without going live. Select **Go live** to republish it. |
+| Active | Live, editable | The message is currently live (and that version could be sent by a customer journey at any time), but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the message and return it to the *active/live* state.<br><br>Note that for your changes to take effect in already live journeys, you must stop and go live with the respective journeys again, otherwise the previous version of the email will continue to be used. |
 | Inactive | Expired | A user has manually deactivated the message using the **Deactivate** button on the command bar. If the message was previously live, then this operation also stops it. |
 
 Some email settings become locked (read-only) based on the message's status reason. Some settings become permanent after you've gone live once. The following table summarizes these effects.

@@ -4,7 +4,7 @@ description: "Follow these steps to create or edit a system dashboard. An admin 
 ms.custom: 
 ms.date: 06/12/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

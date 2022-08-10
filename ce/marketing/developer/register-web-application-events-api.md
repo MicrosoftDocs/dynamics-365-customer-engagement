@@ -2,7 +2,7 @@
 title: "Register your web application to use Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Read about the Events API that lets you access data of events, sessions, session tracks and passes."
 ms.date: 06/12/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

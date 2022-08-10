@@ -8,7 +8,7 @@ ms.author: mkaur
 manager: kvivek
 ms.date: 03/24/2021
 ms.topic: article
-ms.prod: d365ce-op
+
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
   - enduser
@@ -21,9 +21,9 @@ search.audienceType:
 
 With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enable the new Unified Interface which changes the look and feel of your app and how you navigate the app. This article explains how to use an app in both Unified Interface and the legacy web client.
 
-For more information about Unified Interface, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md
+For more information about Unified Interface, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md)
 
-If you're system administrator hasn't enabled the new interface then you'll see the legacy web client. The easiest way to know if you're using Unified Interface or the Llegacy web client is to look at the site map. 
+If you're system administrator hasn't enabled the new interface then you'll see the legacy web client. The easiest way to know if you're using Unified Interface or the legacy web client is to look at the site map. 
 
 In Unified Interface the site map is on the left.
 
@@ -172,8 +172,8 @@ If there is only one notification, you'll see a single line. If there are multip
 With Unified Interface for Customer Engagement (on-premises), navigation in app works the same as model-driven apps. Review the articles below to learn about basic navigation for a specific app.
 
 - [Find your way around the Sales Hub app](/dynamics365/sales-enterprise/user-guide-learn-basics.md)
-- [Find your way around the Customer Service Hub app](/dynamics365/customer-service/customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
+- [Find your way around the Customer Service Hub app](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-the-site-map-navigation)
 
 ## Navigation in legacy web client
 

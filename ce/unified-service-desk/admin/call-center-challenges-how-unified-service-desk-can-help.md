@@ -18,7 +18,7 @@ tags: MigrationHO
 ---
 # How Unified Service Desk helps address the challenges faced by call centers
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 This topic discusses the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you and your service agents address those challenges.  
   

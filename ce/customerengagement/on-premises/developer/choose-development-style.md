@@ -2,9 +2,9 @@
 title: "Choose your development style for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about the various options available to developers to make use of Dynamics 365 Customer Engagement web services (SDK) or to extend the application."
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 06/08/2022
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -55,7 +55,7 @@ The SDK assemblies provides you with classes that you can use to connect to Dyna
  When using the SDK assemblies to write code, you work with the Organization web service (SOAP endpoint) to connect to an instance of Dynamics 365 Customer Engagement (on-premises), and perform the supported web service operations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)  
 
 > [!NOTE]
->  The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be fully transparent to you; additional details will be published in future SDK releases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics CRM 2011 endpoint](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#Crm2011Endpoint)  
+>  The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
 
 - **Create and deploy plug-ins or custom workflow activities**: The plug-in and custom workflow activity classes allow you to create event handlers to perform custom business logic that you can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform.  
 

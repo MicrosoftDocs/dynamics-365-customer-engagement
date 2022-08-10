@@ -16,7 +16,7 @@ search.app:
 
 # Unified Interface Page (hosted control)
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Use the Unified Interface Page hosted control type to load a URL or page from Unified Interface apps in model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it automatically scans the page for data from the entity, and automatically populates the replacement parameters.
   
@@ -158,7 +158,7 @@ This action is used to navigate to a model-driven app URL. The App Id for the ap
 </tr>
 <tr class="odd">
 <td>postdata</td>
-<td>Data that's sent to the server as part of an HTTP POST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered by using &quot;<a href="https://event/?" class="uri">https://event/?</a>&quot;. Example: [[postdata]+]<br />
+<td>Data that's sent to the server as part of an HTTP POST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered by using &quot;<a href="" class="uri">`https://event/?`</a>&quot;. Example: [[postdata]+]<br />
 <br />
 Alternatively, the data can be passed as an encoded string with its header type in the intended format.</td>
 </tr>

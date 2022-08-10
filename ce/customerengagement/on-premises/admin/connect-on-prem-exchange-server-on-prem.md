@@ -4,7 +4,7 @@ description: "Follow these steps to connect Dynamics 365 Customer Engagement (on
 ms.custom: ""
 ms.date: 11/28/2018
 ms.reviewer: ""
-ms.prod: d365ce-op
+
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -37,8 +37,8 @@ Follow these steps to connect Dynamics 365 (on-premises) with Microsoft Exchange
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col />
+    <col />
     </colgroup>
     <thead>
     <tr class="header">

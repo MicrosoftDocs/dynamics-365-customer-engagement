@@ -2,7 +2,7 @@
 title: "Recurring activity bulk deletion (Dynamics 365 Marketing) | Microsoft Docs"
 description: "For administrators: Recurring bulk deletion system jobs for Dynamics 365 Marketing."
 ms.date: 10/28/2020
-ms.service: dynamics-365-marketing
+
 ms.custom:
   - dyn365-admin
   - dyn365-marketing

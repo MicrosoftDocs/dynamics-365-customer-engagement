@@ -1,8 +1,7 @@
 ---
 title: "Configure form matching (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one in Dynamics 365 Marketing."
-ms.date: 03/23/2021
-ms.service: dynamics-365-marketing
+ms.date: 06/10/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -45,6 +44,9 @@ Use the buttons in the toolbar for the **Attributes** section to add, edit, and 
 
 > [!NOTE]
 > For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the default configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). However, the page ID is only provided by marketing pages hosted on a [Power Apps portal](portal-optional.md); for captured forms and forms embedded on an [external site](embed-forms.md), no page ID is saved, so all external forms will look like the same form when it comes to lead matching.
+
+> [!IMPORTANT]
+> Your Business Scoping configuration affects how the matching strategies work. Learn more: [Lead and contact creation, matching, and scoring](business-units.md#lead-and-contact-creation-matching-and-scoring).
 
 ### See also
 

@@ -11,6 +11,8 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 Omnichannel for Customer Service is a customizable application you can effectively configure to meet the requirements of your business. Use Omnichannel for Customer Service to manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of agents so they handle conversations effectively and assist your customers better. You can manage the types of conversations agents receive using work stream and queue configurations.
 
 ## Access Omnichannel for Customer Service for administrators
@@ -34,6 +36,7 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
+
 - [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 - [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)<br>
 - [Configure a chat channel](set-up-chat-widget.md) </br>
@@ -43,7 +46,7 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
 - [Create a new Omnichannel queue](queues-omnichannel.md)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
-- [Enable knowledge articles in the Omnichannel for Customer Service](knowledge-management-oc.md) </br>
+- [Enable knowledge articles in the Omnichannel for Customer Service](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management) </br>
 - [Add a chat widget](add-chat-widget.md)<br>
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
 - [Create quick replies](create-quick-replies.md)<br>

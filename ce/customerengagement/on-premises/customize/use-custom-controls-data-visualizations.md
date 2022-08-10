@@ -4,7 +4,7 @@ description: "Transform text fields into data visualizations using custom contro
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,13 +4,11 @@ description: "Learn about the getAllTabs API of app profile manager in Customer 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: getAllTabs (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# getAllTabs (app profile manager)
 
 Returns the unique identifiers of all tabs for a specified session.
 

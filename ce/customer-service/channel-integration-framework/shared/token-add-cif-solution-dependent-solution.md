@@ -1,5 +1,3 @@
-Third-party channel providers can add a Dynamics 365 Channel Integration Framework solution as a dependent solution to use its capabilities in the solutions they develop for Dynamics 365. This topic describes how users can install, update, and delete a Dynamics 365 Channel Integration Framework solution as a dependent solution.
-
 ## Add a Dynamics 365 Channel Integration Framework solution as a dependent solution  
 
 1. Add the Dynamics 365 Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution installed (for example, solution "X"). 
@@ -30,4 +28,4 @@ Third-party channel providers can add a Dynamics 365 Channel Integration Framewo
 
 5. In the window that opens, select the **Channel Integration Framework** solution.
 
-6. Select **Delete** and then select the **Delete** button in the dialog box that opens to confirm that you want to remove Dynamics 365 Channel Integration Framework as a dependent solution.
+6. Select **Delete** and then select the **Delete** button in the dialog that opens to confirm that you want to remove Dynamics 365 Channel Integration Framework as a dependent solution.

@@ -4,7 +4,7 @@ description: "The following is the schema for the data description XML string fo
 ms.custom: 
 ms.date: 12/22/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -90,7 +90,7 @@ The following is the schema for the data description XML string for charts in vi
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)   
  [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md)   
  [Sample Charts](sample-charts.md)   
- [Use FetchXML to Construct a Query](../org-service/use-fetchxml-construct-query.md)
+ [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

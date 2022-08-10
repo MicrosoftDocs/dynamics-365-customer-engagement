@@ -4,7 +4,7 @@ description: "Download the Plugin Registration, Package Deployment, and other co
 ms.custom: 
 ms.date: 09/14/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -32,11 +32,11 @@ You can download tools used in development from NuGet using the PowerShell scrip
 
 ## Download tools using PowerShell
 
-You can download all SDK tools using the PowerShell script provided below. Note that this script works with the version of Windows PowerShell that ships in Microsoft Windows 10. The script does not presently work with cross-platform versions of PowerShell based on .NET 5 or later (formerly .NET Core).
+You can download all SDK tools using the Windows PowerShell script provided below. Note that this script works with the version of Windows PowerShell that ships in Microsoft Windows 10. The script does not presently work with cross-platform versions of PowerShell based on .NET 5 or later (formerly .NET Core).
 
 1. In your Windows Start menu, type `Windows PowerShell` and open it.
 1. Navigate to the folder you want to install the tools to. For example if you want to install them in a `devtools` folder on your D drive, type `cd D:\devtools`.
-1. Copy and paste the following PowerShell script into the PowerShell window and press Enter.
+1. Copy and paste the following Windows PowerShell script into the PowerShell window and press Enter.
 
     ```powershell
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -45,7 +45,11 @@ You can download all SDK tools using the PowerShell script provided below. Note 
     Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
     Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
     Set-Alias nuget $targetNugetExe -Scope Global -Verbose
-        
+
+    if (-not (./nuget source | ? { $_ -like "*https://api.nuget.org/v3/index.json*"})) {
+      .\nuget sources Add -Name nuget.org.v3 -Source  https://api.nuget.org/v3/index.json
+    }
+
     ##
     ##Download Plugin Registration Tool
     ##

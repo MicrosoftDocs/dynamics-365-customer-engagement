@@ -4,12 +4,12 @@ description: Find all the training options for administrators.
 ms.date: 01/08/2020
 ms.topic: article
 author: loreleishannonmsft
-ms.author: v-lshann
+ms.author: kschimke
 ---
 
 # Administrators Learning Catalog
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Do you need to keep systems and data flowing, provisioned,and secure round-the-clock?
 

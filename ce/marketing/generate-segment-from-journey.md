@@ -2,7 +2,7 @@
 title: "Generate segments based on customer journey results (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Explains how to automatically generate a behavioral segment that finds all contacts who did a particular thing during a specific customer journey."
 ms.date: 10/04/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

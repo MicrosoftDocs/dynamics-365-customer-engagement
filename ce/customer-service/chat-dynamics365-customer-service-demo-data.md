@@ -1,18 +1,19 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
+description: "This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.custom: intro-internal
+ms.date: 08/02/2022
 ---
 
 
 # Demo data installation for Chat for Dynamics 365 Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+## Introduction
 
-This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
+This article offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 
 The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment that has the Chat for Dynamics 365 Customer Service add-on.
 
@@ -25,7 +26,7 @@ The sample data is available as a downloadable demo package, which you can insta
 
 The following are required for installing sample data in your target environment:
 
-- A Microsoft Dataverse environment.
+- A Microsoft Power Platform environment.
 - Your base language is English.
 - The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new environment.
 - The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
@@ -67,7 +68,7 @@ Depending on the operating system and security settings, you might need to perfo
 
 ## Set up users
 
-The OmnichannelDemoData package installs a few users such as those listed in the table below. To install the demo data, you need to create (or temporarily rename) users in your Dataverse environment to match the incoming demo data configuration.
+The OmnichannelDemoData package installs a few users such as those listed in the table below. To install the demo data, you need to create (or temporarily rename) users in your Power Platform environment to match the incoming demo data configuration.
 
 | First name | Last name | User alias   | Email                                    | Role                                            |
 |------------|-----------|--------------|------------------------------------------|-------------------------------------------------|
@@ -78,7 +79,7 @@ The OmnichannelDemoData package installs a few users such as those listed in t
 
 ### Configure users
 
-1. Sign in to your Dataverse environment.
+1. Sign in to your Power Platform environment.
 
 2. Select **Settings** > **Security** > **Users**.
 
@@ -131,12 +132,12 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 3. Accept the terms and conditions.
 
-4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Dataverse environment where you want to deploy the demo data:
+4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Power Platform environment where you want to deploy the demo data:
 
 
     | Field | Value | Description |
     |-------------------------|------------------------|------------------------|
-    | Deployment Type | Microsoft 365 | To connect to a Dataverse environment. |
+    | Deployment Type | Microsoft 365 | To connect to a Power Platform environment. |
     | Display list of available organizations | Select the check box. |
     Show Advanced | Select the check box. |
     |  Online Region | North America | Select the organization that you want to connect to. |
@@ -157,6 +158,11 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 ## Verify demo data installation
 
+> [!IMPORTANT]
+>
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+
 Verify that the number of records and types of entities listed in the **Fabrikam** fictitious scenario appear as expected.
 
 After the demo data completely loads, do the following:
@@ -165,14 +171,11 @@ After the demo data completely loads, do the following:
 
 2. Verify the following:
 
-    - Go to **Omnichannel Administration** > **Queues & Users** > **Users** to
-        confirm the three Omnichannel users are created.
+    - Go to **Omnichannel Administration** > **Queues & Users** > **Users** to confirm the three Omnichannel users are created.
     
-    - Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to
-        confirm the Queue 1 (sample) and Queue 2 (sample) are created.
+    - Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to confirm the Queue 1 (sample) and Queue 2 (sample) are created.
     
-    - Go to **Omnichannel Administration** > **Channels** > **Chat** to confirm
-        the Portal Chat (sample) is created.
+    - Go to **Omnichannel Administration** > **Channels** > **Chat** to confirm the Portal Chat (sample) is created.
     
     - Go to **Omnichannel Administration** > **Work Distribution Management** > **Work Streams** to confirm  the Chat Push (sample) is created.
 
@@ -207,7 +210,7 @@ file. For technical users, these include:
 
 - **<RequiredSolutions\>**: Specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>**: Installs demo data to your Dataverse environment. This is the same demo data that you can install from **Settings** > **Data Management**.
+- **\<InstallSampleData\>**: Installs demo data to your Power Platform environment. This is the same demo data that you can install from **Settings** > **Data Management**.
 
 - **\<DefaultParameterDescription\>**: Specifies the default description for the parameters.
 
@@ -221,7 +224,7 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 - One web customer
 - One case
 - Four sessions
-- One Chat for Dynamics 365 Customer Service work stream
+- One Chat for Dynamics 365 Customer Service workstream
 - One Chat widget
 - One Omnichannel for Customer Service queue
 

@@ -2,7 +2,7 @@
 title: "Power Apps portal hosted custom event website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality for Portal hosted event websites in Dynamics 365 Marketing."
 ms.date: 09/16/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -3,7 +3,7 @@ title: "Dynamics 365 Customer Engagement (on-premises) system requirements and r
 description: Learn about the system requirements for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "04/12/2019"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

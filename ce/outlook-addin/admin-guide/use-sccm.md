@@ -1,9 +1,10 @@
 ---
 title: "Use SCCM to install Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to use System Center Configuration Manager (SCCM) to efficiently and securely deploy and manage a Dynamics 365 for Outlook installation.
 ms.custom:
 ms.date: 02/03/2017
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article

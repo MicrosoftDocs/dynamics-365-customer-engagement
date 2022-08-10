@@ -4,7 +4,7 @@ description: "Learn about the steps for creating custom business apps with the a
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

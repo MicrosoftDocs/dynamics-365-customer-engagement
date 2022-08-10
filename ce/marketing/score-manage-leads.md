@@ -2,7 +2,7 @@
 title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing."
 ms.date: 12/14/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -3,8 +3,8 @@ title: "Test the custom messaging channel | MicrosoftDocs"
 description: "This topic provides sample code to test the custom messaging channel that you want to integrate with Omnichannel for Customer Service."
 ms.date: 07/07/2020
 ms.topic: reference
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -67,6 +67,6 @@ You can use the following sample code to test the custom messaging channel you w
 
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
-[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
+[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

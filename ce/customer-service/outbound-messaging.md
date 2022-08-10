@@ -1,19 +1,19 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
-author: Meghanalanka
-ms.author: v-mlanka
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---
 
 # Configure outbound messaging
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## Introduction
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
@@ -43,7 +43,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Omnichannel admin center app.
+1. Sign in to the Customer Service admin center or Omnichannel admin center app.
 
 2. Create a template for your outbound message.
 
@@ -52,9 +52,27 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 ## Set up outbound configuration
 
-1. In the site map of Omnichannel admin center, select **Customer settings** under **Advanced settings**, and then select **Manage** for **Outbound**. If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
+You can set up the outbound configuration in the Customer Service admin center or Omnichannel admin center app.
 
-2. Select **New**, and on New Outbound Configureation page,  enter the details for the settings mentioned in the following table.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Outbound** section, select **Manage**.
+
+     The **Active Outbound Configurations** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Outbound** section, select **Manage**.
+
+      The **Active Outbound Configurations** page is displayed.
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+2. Select **New**, and on New Outbound Configuration page,  enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
@@ -81,7 +99,23 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the Omnichannel admin center, go to **Message template view**, select **Flow** in the Command menu, and then select **Create a flow**. If you're using the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen, and then select **Create a flow**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    
+     1. In the site map, select **Productivity** in **Agent experience**. The **Productivity** page appears.
+     1. In the **Message templates** section, select **Manage**.
+
+     The **Message template view** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
+     2. In **Message templates** section, select **Manage**.
+
+      The **Message template view** page is displayed.
+
+1. select **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 
@@ -111,11 +145,11 @@ Power Automate provides a low-code platform for workflow and process automation.
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
-   | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. For Twitter, it is the customer’s Twitter handle. |
+   | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. For Twitter, it's the customer’s Twitter handle. |
    | **channelid** | Required | The customer's preferred social channel: SMS, WhatsApp, or Twitter. |
-   | **optin** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
-   | **locale** | Chosen by default | To enable dynamic message languages, the default variable must be replaced by a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
-   | **contextitems** | NA | Contains values to be processed with individual messages as they're sent. |
+   | **option** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
+   | **locale** | Chosen by default | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
+   | **context items** | NA | Contains values to be processed with individual messages as they're sent. |
    | **entityrelationshipname** | Not required | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field will have to be added to the flow for it to work. |
    | **CustomerName** | Required | The name of the customer. This value isn't case-sensitive and can throw an error if the customer name values are different. |
    | **CaseName** | Required | The name of the case. |

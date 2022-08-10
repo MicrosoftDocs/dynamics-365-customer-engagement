@@ -4,10 +4,10 @@ description: "The sample demonstrates how to retrieve valid state transitions re
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d367aa6d-36dc-4084-8625-50f515602504
@@ -17,7 +17,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Retrieve valid status transitions
 

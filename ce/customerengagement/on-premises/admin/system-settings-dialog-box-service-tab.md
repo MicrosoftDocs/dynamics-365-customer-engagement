@@ -4,7 +4,7 @@ description: "From the System Settings Service tab, set preferences for the cust
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -57,7 +57,7 @@ Use the Service tab in System Settings to set preferences for the customer servi
   
 ### See also  
 
-[Service Manager guide (Customer Service Hub)](/dynamics365/customer-servi/app-profile-manager/configure-cs) <br>
+[Service Manager guide (Customer Service Hub)](/dynamics365/app-profile-manager/overview) <br>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

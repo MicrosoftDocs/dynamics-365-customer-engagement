@@ -4,14 +4,11 @@ description: "Learn about the session title property of app profile manager in C
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: title (app profile manager session)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
+# title (app profile manager session)
 
 The text label of a session.
 

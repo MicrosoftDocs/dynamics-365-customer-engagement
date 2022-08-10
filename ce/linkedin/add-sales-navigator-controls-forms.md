@@ -1,12 +1,12 @@
 ---
-title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
-description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 Sales."
-keywords: custom control, sales navigator, linkedin, integration, customization
+title: "Add LinkedIn Sales Navigator controls to Dynamics 365 forms"
+description: "Learn how to add LinkedIn Sales Navigator controls to a form. This page walks you through an example which can be followed in the same way on other entities."
 ms.date: 03/03/2020
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+keywords: custom control, sales navigator, linkedin, integration, customization
 search.audienceType: 
   - admin
   - customizer
@@ -63,7 +63,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
-    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
+    > By default, controls on Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
     > ![Cleared checkbox to hide label on the form.](media/display-label-form-cleared.png "Cleared checkbox to hide label on the form")
 
    ![Click path to Change Properties button.](media/change-form-properties.png "Click path to Change Properties button")

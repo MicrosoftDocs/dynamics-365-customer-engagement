@@ -4,11 +4,12 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 10/07/2021
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -25,7 +26,7 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
-For more information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
+For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
@@ -33,7 +34,9 @@ Use the Microsoft 365 admin center to create user accounts for every user who ne
 
 ## Assign roles to users
 
-Perform the following steps to assign roles to users in the **Advanced Settings**:
+To be able to map roles to personas in role persona mapping, you must assign the roles to users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
+
+Perform the following steps to assign roles to users in the advanced settings area of Dynamics 365:
 
 1. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
@@ -53,14 +56,14 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 
 | Privileges | Omnichannel administrator | Omnichannel supervisor| Omnichannel agent|Productivity tools user| Productivity tools administrator|
 |---------|---------|-----------|---------|---------|---------|
-| Can view user list/presence list/work stream list/queue list/PBI config list | Yes | Yes ||||
+| Can view user list/presence list/workstream list/queue list/PBI config list | Yes | Yes ||||
 | Can edit roles of a user | Yes |||||
 | Can edit default presence and default capacity of a user | Yes | Yes ||||
 | Can edit queue assignment of a user | Yes | Yes ||||
 | Can add/edit/delete presence | Yes |||||
 | Can add/remove users from presence | Yes | Yes ||||
 | Can add/edit/delete presence associations | Yes |||||
-| Can add/edit/delete work streams | Yes |||||
+| Can add/edit/delete workstreams | Yes |||||
 | Can add/edit/delete channel settings, context settings, routing rules | Yes |||||
 | Can add/edit/delete queues | Yes |||||
 | Can add/remove agents from queue | Yes | Yes ||||
@@ -71,7 +74,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can view/add/edit/delete auth settings | Yes |||||
 | Can view operating hours || Yes ||||
 | Can monitor, assign, and transfer conversations || Yes ||||
-| Can view user list/presence list/work stream list/queue list ||| Yes |||
+| Can view user list/presence list/workstream list/queue list ||| Yes |||
 | Can view quick replies ||| Yes |||
 | Can read agent script |||| Yes ||
 | Can read agent script step |||| Yes ||

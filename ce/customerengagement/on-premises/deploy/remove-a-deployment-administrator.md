@@ -3,7 +3,7 @@ title: "Remove a Deployment Administrator | Microsoft Docs"
 description: Learn how to remove a deployment administrator with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: d365ce-op
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -23,7 +23,7 @@ manager: kvivek
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can remove a person from the [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Remove-CrmDeploymentAdministrator command in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/remove-crmdeploymentadministrator?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Remove-CrmDeploymentAdministrator command in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/remove-crmdeploymentadministrator?view=dynamics365ce-ps&preserve-view=true).  
   
 ### Remove a Deployment Administrator  
   

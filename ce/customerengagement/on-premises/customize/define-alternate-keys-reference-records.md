@@ -4,7 +4,7 @@ description: "Ensure an efficient and accurate way of integrating data from exte
 ms.custom: 
 ms.date: 04/03/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

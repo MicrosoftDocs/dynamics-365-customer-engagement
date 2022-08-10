@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 09/18/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -39,7 +39,7 @@ You can find the org ID in **Settings** > **Customizations** > **Developer Resou
 > [!div class="mx-imgBorder"]
 > ![Screenshot of developer resources in Field Service.](./media/preview-orgid.png)
 
-Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7).
+Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7&preserve-view=true).
 
 ## Step 1: Run PowerShell
 

@@ -3,13 +3,12 @@ title: "3D models for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use 3D models in Dynamics 365 Field Service
 ms.date: 07/17/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: krbjoran
 search.app: 
   - D365CE
   - D365FS
@@ -39,7 +38,6 @@ To increase attachment file size in D365 administration:
   > [!div class="mx-imgBorder"]
   > ![Screenshot of increasing attachment file size in D365 administration.](media/3DViewerDocumentationDoc-image4.png)
 
-To configure Azure Blob storage, use the [Microsoft Labs Attachment Management solution](https://appsource.microsoft.com/product/dynamics-365/microsoft_labs.96257e65-dbbe-43db-b775-77cf1609530c?tab=Overview).
 
 Finally, make sure that 3D file types are not blocked for attachments in the Dynamics 365 settings:
 

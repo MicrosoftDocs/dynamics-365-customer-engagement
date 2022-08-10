@@ -1,9 +1,9 @@
 ---
 title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
-ms.date: 06/25/2021
+ms.date: 11/04/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -20,14 +20,20 @@ search.app:
 
 Work order system statuses, work order substatuses, and booking statuses all work together to help stakeholders stay up to date with work orders from creation to closing. Updating one of these statuses can update the others automatically.
 
-**Work Order System Statuses** are noted on the work order entity, marking the current point of a work order in its life cycle. They are part of the product by default and **should not** be edited. Work order system statuses are:
+**Work Order System Statuses** are noted on the work order entity, marking the current point of a work order in its life cycle. Work order system statuses are:
 
-- Open - Unscheduled
-- Open - Scheduled
-- Open - In Progress
-- Open - Completed
-- Closed - Posted
-- Closed - Canceled
+- Unscheduled
+- Scheduled
+- In Progress
+- Completed
+- Posted
+- Canceled
+
+As of the 2021 Wave 2 release, the **Work Order System Status** labels were updated. For example, the former status label "Open - Unscheduled" was updated to "Unscheduled".
+
+> [!Note]
+> Do not add, remove, or edit the option set _values_ for **Work Order System Status**; changing the option set _values_ can cause errors and is not supported. Instead, administrators can edit the option set _labels_ like "Unscheduled".
+
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 
@@ -231,7 +237,7 @@ Here is the customer asset that results from the used work order product. Notice
 > ![Screenshot of miles traveled.](./media/work-order-statuses-miles-traveled.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamp.](./media/work-order-statuses-booking-timestamps1.png)
+> ![Screenshot of the Booking Information window, showing the Booking Timestamp tab with a System Status of Scheduled displaying one booking.](./media/work-order-statuses-booking-timestamps1.png)
 
 
 #### Traveling
@@ -245,7 +251,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking fields updated.](./media/work-order-statuses-actual-arrival-time.png)
+> ![Screenshot of the Booking Information window, showing the Scheduling tab with the Actual Arrival Time and Actual Travel Duration highlighted with a red border.](./media/work-order-statuses-actual-arrival-time.png)
 
 #### On Break
 - **Booking Timestamp** is created.
@@ -264,11 +270,11 @@ Here is the customer asset that results from the used work order product. Notice
 > ![Screenshot of end time updated.](./media/work-order-statuses-end-time.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking fields updated.](./media/work-order-statuses-total-billiable-duration.png)
+> ![Screenshot of the Booking Information window, showing the General tab with the End Time of 10:57 AM highlighted with a red border.](./media/work-order-statuses-total-billiable-duration.png)
 
 By the end of the work order life cycle, you will have timestamps of all booking status changes from both the field technicians and dispatchers.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamp.](./media/work-order-statuses-booking-timestamps.png)
+> ![Screenshot of the Booking Information window, showing the Booking Timestamp tab with a System Status of Scheduled displaying multiple bookings.](./media/work-order-statuses-booking-timestamps.png)
 
 
 ## Example 1: Estimate work order substatus

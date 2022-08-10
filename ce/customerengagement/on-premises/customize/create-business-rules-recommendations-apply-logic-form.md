@@ -4,7 +4,7 @@ description: "Learn how to create business rules to apply form logic without wri
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -68,9 +68,8 @@ You can create business rules and recommendations to apply form logic without wr
 6. Set the scope, according to the following:  
 
 
-   |                                               |                            |
-   |-----------------------------------------------|----------------------------|
    |        **If you select this item...**         | **The scope is set to...** |
+   |-----------------------------------------------|----------------------------|
    |                  **Entity**                   |    All forms and server    |
    |                 **All Forms**                 |         All forms          |
    | Specific form (**Account** form, for example) |       Just that form       |
@@ -134,7 +133,7 @@ You can create business rules and recommendations to apply form logic without wr
 This section describes common issues that may occur when you use business rules.
 
 ### Composite attributes not supported with Unified Interface apps
-Actions or conditions that use [composite attributes](/powerapps/developer/model-driven-apps/clientapi/reference/composite-attributes) are not supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
+Actions or conditions that use [composite attributes](/powerapps/developer/model-driven-apps/clientapi/reference/composite-attributes) are not supported in apps based on Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
 
 ### Is your business rule not firing for a form?
 A business rule may not execute because the field referenced in the business rule isn’t included with the form. 

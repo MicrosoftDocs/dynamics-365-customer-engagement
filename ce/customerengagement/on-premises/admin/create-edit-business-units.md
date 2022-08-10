@@ -4,7 +4,7 @@ description: "Business units group related activities and control access so peop
 ms.custom: 
 ms.date: 10/02/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -3,7 +3,7 @@ title: "Configure columns in a view in Dynamics 365 Customer Engagement (on-prem
 description: "The way you configure columns in a view is very important to its value. Follow these steps to add, remove, or move columns, change their width, and more."
 keywords: 
 ms.date: 11/08/2018
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

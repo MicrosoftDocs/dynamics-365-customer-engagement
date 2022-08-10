@@ -2,9 +2,9 @@
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 9/7/2021
+ms.date: 12/10/2021
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: get-started-article
@@ -24,7 +24,7 @@ search.app:
 ---
 # What's supported
 
-Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)), built on Microsoft Dataverse on your mobile device. 
+Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)), built on Microsoft Dataverse on your mobile device. 
 
 To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], or Windows 10 devices. 
   
@@ -33,7 +33,7 @@ To do this, install the Dynamics 365 for phones or tablets mobile app on your iO
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 12.4.9 or later  |     1 GB (2 GB recommended)     
+|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 13 or later   |     1 GB (2 GB recommended)     
 |     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
                 
  
@@ -61,7 +61,7 @@ For full functionality and optimized experience, we strongly recommend that you 
   
 |                              Platform                             |   Versions  | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       Apple iPad      | iOS 12.4.9 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
+|       Apple iPad      | iOS 13 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
 |     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |                                  |
 | Windows tablet or PC |      10       |     1366 x 768 resolution (720p)
         

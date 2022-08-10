@@ -1,75 +1,89 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
-description: "Use this topic to understand how you can manage phone numbers in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 08/13/2021
-ms.topic: article
+description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
+ms.date: 07/21/2022
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
+ms.topic: article
+author: gandhamm
+ms.author: mgandham
+manager: shujoshi
 ---
 
-# Preview: Manage phone numbers
+# Manage phone numbers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+Omnichannel for Customer Service helps you enable and use voice and SMS services seamlessly within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you'd like to set up inbound and outbound calling options for your business.
 
-Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and call plans, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
-
-## Use phone number included with the voice channel
-
-The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
+You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 ## Prerequisites
 
-- A valid Azure subscription that's in the same tenant as your Dynamics 365 account.
-- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
+- Check for the following criteria.
+    - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
+    - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers)
+    - [Country or region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability)
+- [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
+- [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
-## Create a new phone number
+> [!Important]
+> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
-To add new phone numbers to your business, you must do the following:
+## Use trial phone number
 
-- Create a resource or use an existing one to connect to Azure Communication Services. You can also use a resource that you previously disconnected or unlinked from Azure Communication Services, and reuse it now.
-- Deploy the resource through Dynamics 365.
-- Add a new phone number.
+The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
-**To add a new phone number**
+If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. You'll now be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**, and then select **Get started**.
+> [!NOTE]
+> You can't recover trial phone number and data after the trial has expired and been deprovisioned.
+
+## View phone numbers
+
+1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
+
+      ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+      1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+      2. Select **Manage** for **Phone numbers**.
+
+      ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+      - In the site map, select **Phone numbers** in **General settings**.
+
+You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
+
+   > [!div class="mx-imgBorder"]
+   > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
+
+If you don't have any phone numbers set up for your business, see Acquire new phone numbers to learn how you can purchase new numbers.
+
+## Acquire new phone numbers
+
+You can purchase new phone numbers for your organization after you've checked for the prerequisites, installed the voice channel, and have successfully connected to an Azure Communication Services resource.
+
+**To acquire a new phone number**
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   The **Connect to Azure Communication Services** dialog opens.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-2. Select **Create new resource** or **Use existing resource**.
+   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+   2. Select **Manage** for **Phone numbers**.
 
-   a. If you selected the option to create a new resource, enter the following details:
-   - Azure subscription: 
-   - Azure resource group:
-      > [!NOTE]
-      > The resource group name should be unique within a given subscription.
-   - Resource name: 
-   
-   b. If you wish to use an existing resource, see [Use existing resource](#use-existing-resource) to connect to Azure Communication Services.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-3. Select **Deploy** to deploy the resource through Dynamics 365 and then select **Add number**.
- 
-   The **Add phone number** dialog opens.
+   - In the site map, select **Phone numbers** in **General settings**.
+    
+2. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
 
-4. On the **Features** page, do the following:
+1. On the **Features** page, do the following:
 
-   a. Select your **Country/Region** from the dropdown list. The list of available plans for that specific country or region appears.
+   a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
-   b. *(If you selected United States as the country)* Select the **Number type**, whether **Toll-free** or **Geographic**.
+   b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
 
    c. Select the **Calling plans**&mdash;**Receive calls**, **Make calls**, or both.
 
@@ -79,109 +93,92 @@ To add new phone numbers to your business, you must do the following:
 
    f. Then, select **Find numbers** to search for available numbers in your area.
    
-   A **Summary** with the newly allotted phone number and its details is displayed.
+    > [!div class="mx-imgBorder"]
+    > ![Add phone number.](./media/voice-channel-number-mgmt-add-features.png "Add phone number.")
 
-5. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers (preview)** page.
+   A **Summary** with the newly allotted phone number and its details is displayed.
+4. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
+
+    > [!div class="mx-imgBorder"]
+    > ![Summary page.](./media/voice-channel-number-mgmt-add-summary.png "Summary page.")
   
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 
    > [!Note]
-   >  - After you are allotted a new number, you'll have just 15 minutes to purchase the number. If the time lapses, you'll have to try purchasing again.
-   >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page.
-   >  - The purchase happens in the background and the new phone number appears in the numbers list with **Pending** status. 
+   >
+   >  - After you're allotted a new phone number, you must purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
+   >  - After you select **Purchase phone number**, you can select **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with the **Ready for setup** status.
+5. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
+6. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
-6. Select **Setup Workstream** to [add the phone number to a workstream](#add-a-phone-number-to-a-workstream) or select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just purchased.
+ > [!Note]
+ > To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
 
-## Add a phone number to a workstream
+## Add a phone number to a voice workstream
 
-After you've acquired a phone number, you must add it to a workstream to be able to use it. You can associate a phone number with only one workstream.
+After you've acquired a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
 
-**To add a workstream to a phone number**
+**To add a phone number to a voice workstream**
 
-1. In Omnichannel admin center, under **General settings**, select the phone number that's marked **Ready for setup** in the **Status** column.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
+2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
+3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-inbound-calling.md#set-up-a-voice-workstream).
+4. Select an existing workstream from the list.
+5. Follow the steps to [configure a voice channel](voice-channel-inbound-calling.md#configure-a-voice-channel).
 
-2. Select **Setup workstream**.
+   The phone number is added to the workstream, and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
-   The **Workstreams*** page with a list of all workstreams is displayed.
+## Configure phone numbers for outbound calling
 
-3. Select a workstream from the list or select **New** to create a new workstream.
+After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
 
-4. [Set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
+## Configure voice channel for inbound calling
 
-5. [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
+You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
 
-   The workstream is added to the phone number and you can view the **Connected** status for phone number on the **Phone numbers** page.
+## Assign phone numbers to agents
 
-<a name="use-existing-resource"></a>
+You can also assign personal phone numbers to agents, so they're able to make and/or receive calls exclusively on that number. More information: [Assign personal phone numbers to agents](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents)
 
-### Use existing resource
+## Edit phone numbers
 
-If you already have an Azure Communication Services resource that you'd like to use to connect with voice or SMS channels, you can use the **Use existing resource** option to connect to Azure Communication Services. Also, if you had previously unlinked a resource and wish to use it now, you can do so using this option. You can use an existing resource from any of your Azure subscriptions, available under *any* tenant.
-
-Before you proceed with adding an existing resource to Azure Communication Services, do the following:
-
-1. Open your existing resource from the Azure portal in a new window or tab.
-2. Select **Settings** > **Properties**, and get ready to copy the resource values (using the Copy to clipboard button) from this resource to Omnichannel admin center.
-
-**To use an existing resource**
-
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-   The **Connect to Azure Communication Services** dialog opens.
-
-2. Select **Use existing resource** and enter the following details:
-   - ACS Resource Name: Copy the name from your existing resource here.
-   - ACS Resource ID
-   - Connection String
-   - Event grip app ID
-   - Event grip app tenant ID
-
-
-## Edit phone number
-
-If you want to change the calling plan or upgrade the call or SMS plans on a particular number, you can do so by editing the phone number.
-
-> [!Important]
-> You cannot upgrade a phone number or change your calling or SMS plans after it is connected to a workstream. 
+If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you had selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
 
 **To edit a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
-   The list of all available phone numbers for your business is displayed.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. Select a phone number and then select **Edit**. The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
+1. Make any changes to your call or SMS plans, and select **Save and Close**.
+> [!Important]
+>
+> - You can't upgrade a phone number or change your call or SMS plans, after it's connected to a workstream.
+> - You can't remove features once granted to a phone number, but you can upgrade phone number features. For example, if you chose both **Make calls** and **Receive calls** options in your calling plans, you can't change it. However, if you selected **None** for SMS plans, you can upgrade to either **Send SMS** or **Send and receive SMS** plan.
 
-2. Select a phone number and select **Edit number**.
-   The **Edit number** dialog with the current plan type, calling plan, and SMS plan is displayed.
+## Release phone numbers
 
-3. Make the changes to your calling or SMS plans, and select **Upgrade**.
+If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
-*You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*
-
-## Release phone number
-
-If you no longer need a phone number, you can release it from your number list. When you release a number, you actually delete it from Dynamics 365, so release a number only if you're sure you don't need it at all.
+> [!Important]
+> When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
+> To disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md).
 
 **To release a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**.
-  
-   The list of all available phone numbers for your business is displayed.
-
-2. Select a phone number and select **Release number**.
-
-   The **Release number** dialog requesting you to confirm the number deletion is displayed.
-
-3. Select **OK** if you are sure you don't need the number.
-
-   The **Phone numbers (preview)** page displays the phone number status as **Pending release**.
-
-*You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*
-
-## Additional notes
-
-You can use only one ACS resource for number management.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
+3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
+[Import phone numbers](voice-channel-sync-from-acs.md)  
+[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
+[Block spam numbers](voice-channel-block-number.md)  
+[Bring your own carrier](voice-channel-bring-your-own-number.md)  
+[Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

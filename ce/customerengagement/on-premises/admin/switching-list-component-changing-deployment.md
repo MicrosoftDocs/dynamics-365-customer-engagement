@@ -4,7 +4,7 @@ description: "If you're using the list component with SharePoint for document ma
 ms.custom: 
 ms.date: 08/25/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

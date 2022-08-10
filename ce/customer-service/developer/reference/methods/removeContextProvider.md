@@ -1,8 +1,8 @@
 ---
 title: "removeContextProvider (Omnichannel for Customer Service JavaScript API reference)| MicrosoftDocs"
-description: 
-ms.date: 07/01/2019
-ms.topic: article
+description: "Includes reference information such as syntax and parameters for the removeContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+ms.date: 04/04/2022
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -14,7 +14,7 @@ manager: shujoshi
 [!INCLUDE[removeContextProvider-description](../includes/removeContextProvider-description.md)]
 
 > [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+> The live chat SDK methods should be invoked after the [lcw:ready event](../events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ manager: shujoshi
 
 None
 
-## Return Value
+## Return value
 
 None
 
@@ -48,7 +48,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 ```
 
-## See also
+### See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 

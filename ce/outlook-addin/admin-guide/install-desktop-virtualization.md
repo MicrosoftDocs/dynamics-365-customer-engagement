@@ -1,9 +1,10 @@
 ---
 title: "Install Microsoft Dynamics 365 for Outlook for desktop virtualization | MicrosoftDocs"
+description: Learn how to install Dynamics 365 for Outlook with roaming user profiles by using Windows ServerRemote Desktop Services.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

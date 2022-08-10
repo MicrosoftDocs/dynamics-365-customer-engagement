@@ -1,7 +1,8 @@
 ---
 title: "Privacy note for Field Service Mobile Push Notifications | MicrosoftDocs"
+description: Learn about the privacy note for Field Service mobile push notifications enabling authorized users to access the online service.
 ms.date: 03/14/2019
-ms.service: dynamics-365-customerservice
+
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"

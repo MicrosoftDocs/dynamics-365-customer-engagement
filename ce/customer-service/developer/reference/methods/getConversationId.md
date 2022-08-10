@@ -1,10 +1,10 @@
 ---
-title: "getConversationId (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Includes information about getConversationId method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
-ms.date: 10/15/2020
-ms.topic: article
-author: platkat
-ms.author: ktaylor
+title: "getConversationId (Omnichannel JavaScript API reference) | MicrosoftDocs"
+description: "Includes reference information about getConversationId method, syntax, and parameters in Omnichannel JavaScript API reference."
+ms.date: 02/18/2022
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -12,16 +12,17 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be called to fetch the unique GUID of the current ongoing conversation in a session. The conversation ID stays the same post conversation close as well. The identifier can be used to fetch the conversation record programmatically.
+This function can be called to fetch the unique GUID of the current ongoing conversation in a session. The conversation ID remains the same after the conversation is closed. The identifier can be used to fetch the conversation record programmatically.
 
 ## Syntax
 
 `Microsoft.Omnichannel.getConversationId();`
 
 ## Parameters
+
 None
 
-## Return Value
+## Return value
 
 Returns a promise resolved with currently ongoing conversation ID.
 
@@ -31,6 +32,12 @@ Returns a promise resolved with currently ongoing conversation ID.
 
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK reference](../../omnichannel-reference.md)  
+[Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
+[getConversations](getConversations.md)  
+[linkToConversation](linkToConversation.md)  
+[unlinkFromConversation](unlinkFromConversation.md)  
+[openConversation](openConversation.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

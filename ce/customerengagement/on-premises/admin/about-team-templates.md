@@ -4,7 +4,7 @@ description: "Using teams is an easy way to collaborate with others. To create a
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
