@@ -59,9 +59,6 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
 
 As a Microsoft 365 administrator, you can opt out security groups of users who don't want to share their communications and collaboration data.
 
-> [!IMPORTANT]
-> The migration of the opted out security groups to the new framework will happen from August 4, 2022 to August 11, 2022. During this period, you'll not be able to opt out any security groups. 
-
 **To opt out security groups:**
 
 1. Go to the **Microsoft 365 admin center**.
