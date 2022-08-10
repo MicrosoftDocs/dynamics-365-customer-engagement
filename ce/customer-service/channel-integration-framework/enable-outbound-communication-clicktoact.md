@@ -22,7 +22,7 @@ ms.custom:
 
 1. Sign in to Dynamics 365 and open the **Channel Integration Framework** app.
 2. Under **Channel Provider Configuration**, select **Channel Integration Framework v1.0 Providers**. The list of **Active Channel Providers** is displayed.
-3. Select your channel provider from the list, and set **Enable Outbound Communication** field to **Yes**.
+3. Select your channel provider from the list, and set the **Enable Outbound Communication** field to **Yes**.
 
 > [!div class="nextstepaction"]
 > [Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
