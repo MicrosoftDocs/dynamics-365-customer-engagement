@@ -51,31 +51,17 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
 3. Read the description carefully and select the **Identifiable insights for other users** option.  
     > [!NOTE]
     > The consent provided is applicable to all the Dynamics 365 applications that require the **Identifiable insights for other users** permission. In the case of Dynamics 365 Sales, this consent is used for both relationship analytics and who knows whom.
+
+    A textbox to enter the security group IDs is displayed. 
+
+4. (Optional) In the textbox, Enter the security group IDs of users who want to opt out of sharing their communication and collaboration data.
     
+    > [!NOTE]
+    > Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
+
 1. Save the changes.  
     Dynamics 365 applications can now now use the Microsoft 365 data to generate insights.
 
-## Opt out security groups of sharing data
-
-As a Microsoft 365 administrator, you can opt out security groups of users who don't want to share their communications and collaboration data.
-
-**To opt out security groups:**
-
-1. Go to the **Microsoft 365 admin center**.
-
-2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Screenshot of connection graph settings")
-
-3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
-
-4. Add the ID of security groups that you want to opt out. 
-
-5. Select **Save**.
-
-> [!NOTE]
-> Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
 
 ### See also
 
