@@ -5,9 +5,9 @@ ms.date: 10/31/2017
 
 ms.topic: article
 ms.assetid: d29a9353-73cf-4b49-b74f-d9050dc96bd7
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mhart
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 7

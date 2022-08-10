@@ -2,13 +2,13 @@
 title: "Enable an entity for scheduling in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to enable an entity for scheduling in Dynamics 365 Field Service
 ms.date: 06/10/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave 
+author: m-hartmann 
 ms.author: Hollycha
 manager: shellyha
 search.app: 
