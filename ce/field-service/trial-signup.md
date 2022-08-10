@@ -1,13 +1,13 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Field Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Field Service trial. Explore the app with tours and videos, and find other learning resources."
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 ms.date: 10/01/2021
 ms.topic: get-started
 
 ms.custom: template-trial-setup
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ---
 
 # Sign up for a free Dynamics 365 Field Service trial

@@ -4,9 +4,9 @@ description: Learn how to set defaults for work orders, bookings, the schedule b
 ms.date: 06/20/2022
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS

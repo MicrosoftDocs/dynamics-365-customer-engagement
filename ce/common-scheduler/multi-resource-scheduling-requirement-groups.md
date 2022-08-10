@@ -2,14 +2,14 @@
 title: "Schedule work with requirement groups in Universal Resource Scheduling"
 description: "Learn how to use requirement groups to define a set of resources that are needed for a job and then schedule all those resources with a single search."
 ms.date: 06/24/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

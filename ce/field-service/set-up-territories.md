@@ -2,7 +2,7 @@
 title: "Territories in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to use territories for accounts, work orders, and scheduling in Dynamics 365 Field Service
 ms.date: 09/16/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 author: holly2776

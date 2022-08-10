@@ -1,10 +1,10 @@
 ---
 title: "Extensibility updates for Universal Resource Scheduling"
 description: "Learn about the recent extensibility updates in Universal Resource Scheduling. These include updates to queries, filter layouts, and resource cell templates."
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 ms.date: 11/14/2018
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article

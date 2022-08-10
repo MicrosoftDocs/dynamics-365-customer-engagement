@@ -1,8 +1,8 @@
 ---
 title: Resource scheduling optimization goals - Dynamics 365 Field Service
 description: Learn about how goals are used in resource scheduling optimization.
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
 ms.date: 08/04/2022

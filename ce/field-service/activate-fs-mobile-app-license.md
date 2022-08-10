@@ -5,8 +5,8 @@ ms.subservice: field-service-mobile
 ms.date: 07/28/2022
 ms.reviewer: mhart
 ms.topic: article
-author: krbjoran
-ms.author: krbjoran
+author: mhart
+ms.author: mhart
 ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
