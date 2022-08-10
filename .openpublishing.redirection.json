@@ -23941,6 +23941,10 @@
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ce/field-service/cfs-authorize-api-connection.md",
+      "redirect_url": "/dynamics365/field-service/installation-setup-iothub",
+    },
     {  
       "source_path": "ce/sales/configure-talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
