@@ -35,7 +35,7 @@ Before you provide consent in the new form, review the following information:
 
 - The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
-- When consent is provided, Dynamics 365 analyzes Exchange emails from the last one year to provide relationship insights and who knows whom suggestions.  
+- When consent is provided, Dynamics 365 analyzes Exchange emails pertaining to the last one year to provide relationship insights and who knows whom suggestions. The analysis happens in 12 batches, with each batch containing emails for one month. Dynamics 365 can handle up to 8 million emails per month in this process. 
 
 - When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
 
