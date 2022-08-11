@@ -44,9 +44,9 @@ In order to purchase access to Resource Scheduling Optimization, you must first 
 After purchasing Resource Scheduling Optimization, follow the [Resource Scheduling Optimization deployment steps](./rso-deployment.md). 
 Note that Resource Scheduling Optimization isn't visible from the main product catalog. It can be found only on the Field Service product details page, via the **Add On** tab.
 
-## Note on RSO Trial
 
-Thank you for your interest in Field Service and RSO, we have updated our options to RSO trials for product demos and POCs. Our previous mechanism for RSO trials has been replaced by the new [Sponsored Offer Program] (https://businessapplications.transform.microsoft.com/login?returnUrl=%2Fdynamics%2Fcustomer-engagement%3Ftab%3Dfield-service). This program gives you a leg up in deploying a pilot in the customer tenant and quickly prove value by using pre-built templates, pilot licenses, and product resources. Visit the link above for more information!
+## Request a Resource Scheduling Optimization trial
 
+Thank you for your interest in Field Service and Resource Scheduling Optimization. We've updated our options to requst a trial for product demos and POCs. Visit the [Sponsored Offer Program](https://businessapplications.transform.microsoft.com/login?returnUrl=%2Fdynamics%2Fcustomer-engagement%3Ftab%3Dfield-service). This program gives you a leg up in deploying a trial and quickly get value by using pre-built templates, pilot licenses, and product resources.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
