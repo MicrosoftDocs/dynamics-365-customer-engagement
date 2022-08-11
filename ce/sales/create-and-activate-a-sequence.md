@@ -11,6 +11,8 @@ manager: shujoshi
 
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
+Also, sellers can create and activate sequences for themselves and use the sequences to work on their assigned records. More information: [Create and connect sequence for yourself](create-sequence-seller.md) 
+
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
