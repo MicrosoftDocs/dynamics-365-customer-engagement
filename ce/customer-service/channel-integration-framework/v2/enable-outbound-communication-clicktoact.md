@@ -1,31 +1,29 @@
 ---
-title: "How to enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
-description: "Learn enable or configure outbound communication (ClickToAct) in Channel Integration Framework (CIF) version 2.0 for Microsoft Dynamics 365."
-author: susikka
-ms.author: susikka
+title: "Enable outbound communication in Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn to enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0."
+author: mh-jaya 
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# How to enable outbound communication (ClickToAct) in Channel Integration Framework?
+# Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0
+
+> [!IMPORTANT]
+> The minimum versions required to use this feature without any customizations are:
+> -	Platform version: 9.1.0000.15343
+> -	Dynamics 365 Channel Integration Framework 2.0: 9.2.1.690
 
 [!INCLUDE[token-enable-outbound-communication-clicktoact](../shared/token-enable-outbound-communication-clicktoact.md)]
 
-## See also
+### See also
 
-[Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
+[Add Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution](add-cif-solution-dependent-solution.md)  
+[Entity reference](reference/entities-attributes/msdyn_channelprovider.md)  
+[setClickToAct](reference/microsoft-ciframework/setClickToAct.md)  
+[getClickToAct](reference/microsoft-ciframework/getClickToAct.md)  
+[onclicktoact](reference/events/onclicktoact.md)  
 
-[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
-
-[setClickToAct](reference/microsoft-ciframework/setClickToAct.md)
-
-[getClickToAct](reference/microsoft-ciframework/getClickToAct.md)
-
-[onclicktoact](reference/events/onclicktoact.md)
-
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

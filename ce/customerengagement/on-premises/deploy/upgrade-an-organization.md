@@ -1,8 +1,9 @@
 ---
 title: "Upgrade an organization | Microsoft Docs"
+description: Learn how to update in organization in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,7 +23,7 @@ manager: kvivek
 You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises by using [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to import them into the new deployment.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Import-CrmOrganization](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps) commands.  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Import-CrmOrganization](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps&preserve-view=true) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ## Upgrade an organization by importing it  
  During the import process, the Import Organization Wizard detects the version and upgrades the organization automatically.  
@@ -49,3 +50,6 @@ You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm
  [Update an organization](update-an-organization.md)   
  [Troubleshoot organization import and upgrade issues](troubleshoot-organization-import-and-upgrade-issues.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

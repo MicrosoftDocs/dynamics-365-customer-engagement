@@ -22,3 +22,6 @@ ms.author: matp
   
  Enter an external domain that is a sub-domain of the **Web Application Server Domain**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

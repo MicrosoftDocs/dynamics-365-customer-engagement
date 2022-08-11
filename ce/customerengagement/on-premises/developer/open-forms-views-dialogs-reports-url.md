@@ -3,8 +3,8 @@ title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for 
 description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 Customer Engagement (on-premises) forms, views, dialogs, and reports in other applications"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Open forms, views, dialogs, and reports with a URL
 
@@ -29,8 +28,8 @@ URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcr
 
 > [!NOTE]
 > - URL addressable forms, views, dialogs, and reports cannot bypass [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, based on their security roles, can access the data and the records they see.  
->   -   Use `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) when you open entity forms programmatically within the application by using web resources. Do not use `window.open`.  
->   -   Outside the application, where pages do not have access to the `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function, use `window.open` or a link to open a specific record or form for an entity.  
+>   -   Use `Xrm.Navigation.`[openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm) when you open entity forms programmatically within the application by using web resources. Don't use `window.open`.  
+>   -   Outside the application, where pages don't have access to the `Xrm.Navigation.`[openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm) function, use `window.open` or a link to open a specific record or form for an entity.  
 
 <a name="BKMK_URLAddressableFormsAndViews"></a>
 
@@ -59,11 +58,11 @@ https://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid=
  ```  
 
 > [!NOTE]
->  Opening entity forms in a dialog window by using [showModalDialog](https://msdn.microsoft.com/library/ie/ms536759.aspx) or [showModelessDialog](https://msdn.microsoft.com/library/ie/ms536761.aspx) is not supported.  
+>  Opening entity forms in a dialog window by using [showModalDialog](/previous-versions/ms536759(v=vs.85)) or [showModelessDialog](https://msdn.microsoft.com/library/ie/ms536761.aspx) isn't supported.  
 >   
->  Displaying an entity form within an IFrame embedded in another entity form is not supported.  
+>  Displaying an entity form within an IFrame embedded in another entity form isn't supported.  
 
- You will typically use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) method to retrieve the organization root Url for both on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+ You'll typically use the [getClientUrl](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl) method to retrieve the organization root Url for both on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 <a name="BKMK_QueryStringParametersForMainForm"></a>   
 ### Query String Parameters for the Main.aspx Page  
@@ -80,23 +79,23 @@ https://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid=
 
 |  Parameter   |                                                                                                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                                                                                                            |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **etn**    |                                                                                                                                                                                                                                    The logical name of the entity. **Important:**  Do not use the **etc** (entity type code) parameter that contains an integer code for the entity. This integer code varies for custom entities in different organizations.                                                                                                                                                                                                                                     |
+|   **etn**    |                                                                                                                                                                                                                                    The logical name of the entity. **Important:**  Don't use the **etc** (entity type code) parameter that contains an integer code for the entity. This integer code varies for custom entities in different organizations.                                                                                                                                                                                                                                     |
 | **extraqs**  |     Optional for forms. This parameter contains encoded parameters within this parameter.<br /><br /> Use this parameter to pass values to a form. For more information, see [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md).<br /><br /> When an entity has more than one form defined, you can use this parameter to specify which form to open by passing the encoded parameter `formid` with the value equal to the ID value of the form. For example, to open a form with the ID of ‘6009c1fe-ae99-4a41-a59f-a6f1cf8b9daf’, include this value in the `extraqs` parameter: `formid%3D6009c1fe-ae99-4a41-a59f-a6f1cf8b9daf%0D%0A`.     |
 | **pagetype** |                                                                                                                                                                                                                                                        The type of page. There are two possible values:<br /><br /> - **entityrecord**<br />     Displays an entity record form.<br />- **entitylist**<br />     Displays an entity view.                                                                                                                                                                                                                                                         |
 |    **id**    |                                                                                                                                                                      Optional for forms. Use this when you open a specific entity record. Pass in the encoded GUID identifier for the entity. The encoded version of the GUID substitutes opening and closing brackets “{“ and “}” with “%7B” and “%7D”, respectively, for example `{91330924-802A-4B0D-A900-34FD9D790829}` is `%7B91330924-802A-4B0D-A900-34FD9D790829%7D`.                                                                                                                                                                      |
 |  **viewid**  |                                                                                                                                                                                                        Required for views. This is the ID of the `savedquery` or `userquery` entity record that defines the view. The easiest way to get the URL for a view is to copy it. For more information, see [Copy the URL for a View](open-forms-views-dialogs-reports-url.md#BKMK_CopyViewURL).                                                                                                                                                                                                         |
 | **viewtype** |                                                                                                                                                                                                        Defines the view type. Possible values are as follows:<br /><br /> - **1039**<br />     Use for a system view. The `viewid` represents the Id of a `savedquery` record.<br />- **4230**<br />     Use for a personal view. The `viewid` represents the Id of a `userquery` record.                                                                                                                                                                                                         |
-|   `navbar`   | Controls whether the navigation bar is displayed and whether application navigation is available using the areas and subareas defined in the sitemap.<br /><br /> -   `on`<br />     The navigation bar is displayed. This is the default behavior if the `navbar` parameter is not used.<br />-   `off`<br />     The navigation bar is not displayed. People can navigate using other user interface elements or the back and forward buttons.<br />-   `entity`<br />     On an entity form, only the navigation options for related entities are available. After navigating to a related entity, a back button is displayed in the navigation bar to allow returning to the original record. |
-|   `cmdbar`   |                                                                                                                Controls whether the command bar is displayed. **Note:**  This capability supports requirements for the [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] application. Using this to display an entity form within an IFrame embedded in another entity form is not supported. <br /><br /> -   `true`<br />     The command bar is displayed. This is the default.<br />-   `false`<br />     The command bar is hidden.                                                                                                                |
+|   `navbar`   | Controls whether the navigation bar is displayed and whether application navigation is available using the areas and subareas defined in the sitemap.<br /><br /> -   `on`<br />     The navigation bar is displayed. This is the default behavior if the `navbar` parameter isn't used.<br />-   `off`<br />     The navigation bar isn't displayed. People can navigate using other user interface elements or the back and forward buttons.<br />-   `entity`<br />     On an entity form, only the navigation options for related entities are available. After navigating to a related entity, a back button is displayed in the navigation bar to allow returning to the original record. |
+|   `cmdbar`   |                                                                                                                Controls whether the command bar is displayed. **Note:**  This capability supports requirements for the [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] application. Using this to display an entity form within an IFrame embedded in another entity form isn't supported. <br /><br /> -   `true`<br />     The command bar is displayed. This is the default.<br />-   `false`<br />     The command bar is hidden.                                                                                                                |
 
 <a name="BKMK_CopyViewURL"></a>   
 ### Copy the URL for a View  
  Many views in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] let a user copy the URL for a particular view or send an email with the URL for a particular view embedded in the message. This feature makes communication between users easier, and exposes a way for you to gain access to a URL for a view that users can include in another application, such as a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site.  
 
 > [!NOTE]
->  Do not use this URL to include the view in application navigation using the site map. For more information, see [Display a View in the Application Navigation using the Site Map](open-forms-views-dialogs-reports-url.md#BKMK_DisplayViewInApplicationUsingSiteMap).  
+>  Don't use this URL to include the view in application navigation using the site map. For more information, see [Display a View in the Application Navigation using the Site Map](open-forms-views-dialogs-reports-url.md#BKMK_DisplayViewInApplicationUsingSiteMap).  
 
- The page displayed by the URL includes the full view. This includes the ribbon, but does not include the application navigation.  
+ The page displayed by the URL includes the full view. This includes the ribbon, but doesn't include the application navigation.  
 
 ##### Get the URL for a View  
 
@@ -112,13 +111,13 @@ https://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid=
 
 <a name="BKMK_DisplayViewInApplicationUsingSiteMap"></a>   
 ### Display a View in the Application Navigation using the Site Map  
- When you customize the application navigation using the site map, do not use the view URL that you copied from the application using the steps in [Copy the URL for a View](open-forms-views-dialogs-reports-url.md#BKMK_CopyViewURL) to set as the URL. 
+ When you customize the application navigation using the site map, don't use the view URL that you copied from the application using the steps in [Copy the URL for a View](open-forms-views-dialogs-reports-url.md#BKMK_CopyViewURL) to set as the URL. 
  That URL displays a page that includes the ribbon and produces undesirable results if used in a `<SubArea>` Url attribute.  
 
  To display a list of entity records within the application for a SubArea set the Entity attribute value. This displays the default view for that entity and provides the correct title and icon.  
 
 
- However, if you want to have a SubArea element that uses a specific initial default view, use the following Url pattern when working with the Unified Interface.
+ However, if you want to have a SubArea element that uses a specific initial default view, use the following URL pattern when working with Unified Interface.
 
 ```
 [Organization Url]/main.aspx?pagetype=entitylist&etn=<entity logical name >&viewid=%7b00000000-0000-0000-0000-000000000000%7d&viewType=1039
@@ -163,7 +162,7 @@ For the legacy web client, use the following URL.
 ```  
 
 > [!TIP]
->  For browsers other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], if a dialog process is opened from a link, the **Finish** button may not work. The data will be saved, but the user will need to click the **Close** button on the window to close it. This is because other browsers do not provide a `window.close` method if the window is not opened using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] from another window. When possible, use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and the `window.open` method to open dialog processes rather than simply providing links.  
+>  For browsers other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], if a dialog process is opened from a link, the **Finish** button may not work. The data will be saved, but the user will need to click the **Close** button on the window to close it. This is because other browsers don't provide a `window.close` method if the window isn't opened using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] from another window. When possible, use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and the `window.open` method to open dialog processes rather than simply providing links.  
 
  You can create a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] function to open the dialog as shown in the following example:  
 
@@ -232,3 +231,6 @@ function getReportURL(action,fileName,id) {
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md) 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Start Dialog by using a URL](../developer/actions-dialogs.md#StartDialog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

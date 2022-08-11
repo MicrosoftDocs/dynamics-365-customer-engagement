@@ -2,27 +2,26 @@
 # Each line is a file pattern followed by one or more owners.
 
 /ce/admin/                                    @jimholtz
-/ce/analytics/                                @Mattp123
+/ce/admin/readme-9.md                         @ReneeW-CPub @almostdunh
 /ce/common-scheduler/	                        @shellyhaverkamp
-/ce/company-news-timeline/                    @jimholtz
-/ce/customer-insights/	                      @jimholtz
 /ce/customer-service/                         @shubhadaj
-/ce/customize/	                              @Mattp123
-/ce/developer/	                              @Nkrb @KumarVivek @phecke
+/ce/customerengagement/on-premises/analytics/ @Mattp123
+/ce/customerengagement/on-premises/customize/ @Mattp123
+/ce/customerengagement/on-premises/developer/	@KumarVivek @phecke
 /ce/field-service/	                          @shellyhaverkamp
-/ce/gamification/	                            @shellyhaverkamp
 /ce/guidance/	                                @KumarVivek @phecke	
-/ce/linkedin/	                                @shellyhaverkamp
-/ce/live-assist/	                            @shellyhaverkamp
+/ce/insights-insideview/                      @shubhadaj
+/ce/legal/	                                  @ReneeW-CPub
+/ce/linkedin/	                                @shubhadaj
 /ce/marketing/	                              @shellyhaverkamp
+/ce/marketing/developer/                      @KumarVivek @Nkrb
 /ce/mobile-app/	                              @mduelae @KumarVivek
+/ce/outlook-addin/	                          @mduelae @KumarVivek
 /ce/outlook-app/	                            @mduelae @KumarVivek
-/ce/portals/	                                @shubhadaj
-/ce/project-service/	                        @shellyhaverkamp
-/ce/sales-enterprise/	                        @shubhadaj
+/ce/sales/	                                  @shubhadaj
 /ce/snippets/	                                @Nkrb @KumarVivek @phecke
 /ce/social-engagement/	                      @shellyhaverkamp
+/ce/teams-integration/	                      @shubhadaj
 /ce/unified-service-desk/	                    @shubhadaj
+/ce/versium-predict/	                        @shubhadaj
 /ce/voice-of-customer/	                      @shubhadaj
-/ce/marketing/developer/                      @KumarVivek @Nkrb
-/ce/admin/readme-9.md                         @ReneeW-CPub @almostdunh

@@ -40,7 +40,7 @@ Predefined security groups have been defined in the Setup XML file. However, one
   
 ## Solution 1
 
- Make sure that the security group is defined in the Setup XML. For more information about this [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup XML element, see [Sample server XML configuration file for installing with pre-created groups](https://technet.microsoft.com/library/hh699720.aspx).  
+ Make sure that the security group is defined in the Setup XML. For more information about this [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup XML element, see [Sample server XML configuration file for installing with pre-created groups](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699720(v=crm.8)).  
   
 ## Solution 2
 
@@ -54,3 +54,6 @@ Predefined security groups have been defined in the Setup XML file. However, one
 
  All groups used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] must be security groups. For mixed-mode domains, the group scope must be global.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

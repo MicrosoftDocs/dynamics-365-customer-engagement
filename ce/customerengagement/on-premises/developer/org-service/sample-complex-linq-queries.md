@@ -3,8 +3,8 @@ title: "Sample: Complex LINQ queries (Developer Guide for Dynamics 365 Customer 
 description: "This sample shows how to use .NET Language-Integrated Query (LINQ) with Microsoft Dynamics CRM 2015 and Microsoft Dynamics CRM Online 2015 Update"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -22,8 +22,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Complex LINQ queries
 
@@ -45,6 +44,9 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
 [SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/ComplexQueries/SampleProgram.cs)
   
 ### See also  
- [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
+ [Build Queries with LINQ (.NET Language-Integrated Query)](/powerapps/developer/data-platform/org-service/build-queries-with-linq-net-language-integrated-query)   
  [Sample: RetrieveMultiple With Condition Operators Using LINQ](sample-retrieve-multiple-with-condition-operators-using-linq.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

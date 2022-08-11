@@ -1,14 +1,10 @@
 ---
 title: "WebDDA Events in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) events that can be used in automations in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # WebDDA Events
 The Web data-driven adapter (WebDDA) provides a set of events that can be used in automations. The events can be divided in page events and control events. They map to the same event names used in the DOM. For more information about the events see [Events](https://msdn.microsoft.com/library/aa768400.aspx)  
@@ -51,9 +49,8 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
   
  The following table lists the control events that are available with the respective parameters:  
   
-|||  
-|-|-|  
-|`Element`|`Description`|  
+|Element |Description  |
+|--------|-------------|  
 |BeforeNavigate|`flags`, `frame`, `headers`, `navigationcontext`, `postdata`, `url`|  
 |onblur|type|  
 |onchange|type|  
@@ -71,9 +68,8 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
   
  The following table lists the page events that are available with the respective parameters:  
   
-|||  
-|-|-|  
-|**Element**|**Description**|  
+|Element |Description  |
+|--------|-------------|   
 |BeforeNavigate|`flags`, `frame`, `headers`, `navigationcontext`, `postdata`, `url`|  
 |BeforeNewWindow|`flags`, `url`, `urlcontext`|  
 |DocumentCompleted|`Notification`, `flag`, `url`|  
@@ -85,3 +81,6 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
 ### See also  
  [WebDDA](../unified-service-desk/web-dda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

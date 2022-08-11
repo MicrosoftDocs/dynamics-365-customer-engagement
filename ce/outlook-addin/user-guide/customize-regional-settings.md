@@ -1,9 +1,10 @@
 ---
 title: "Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to customize Dynamics 365 for Outlook's display of number, currency, time, and date formats to match a company's regional settings.
 ms.custom: 
 ms.date: 01/23/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -59,3 +60,6 @@ You can change how [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
      \-  OR -  
   
      To apply the changes you have made to the default formats and close the dialog box, click or tap **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,7 @@
 ---
 title: Supplemental Terms
 author: m-hartmann
+ms.author: mhart
 ---
 # Supplemental Terms of Use for Dynamics 365 - Gamification
 
@@ -38,3 +39,5 @@ external systems. Please consult the feature technical documentation for more
 information.
 
 Third Party Notices: <https://go.microsoft.com/fwlink/?LinkId=828060>
+
+

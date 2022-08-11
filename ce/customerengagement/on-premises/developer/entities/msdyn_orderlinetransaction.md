@@ -2,7 +2,7 @@
 title: "msdyn_orderlinetransaction Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_orderlinetransaction entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # msdyn_orderlinetransaction Entity Reference
 
@@ -192,11 +190,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the amount calculation method used for this project contract estimate line. Valid values are: 
-0: Multiply Quantity By Price
-1: Fixed Price
-2: Multiply Basis Quantity By Price
-3: Multiply Basis Amount By Percent |
+|Description|Select the amount calculation method used for this project contract estimate line. Valid values are: <br>0: Multiply Quantity By Price <br> 1: Fixed Price <br> 2: Multiply Basis Quantity By Price <br> 3: Multiply Basis Amount By Percent |
 |DisplayName|Amount Method|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2155,3 +2149,5 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedul
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_orderlinetransaction?text=msdyn_orderlinetransaction EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Web API Helper code: Authentication class (Developer Guide for Dynamics 
 description: "Authentication class assists in establishing a validated connection to a Dynamics 365 Customer Engagement Web service"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,12 +16,11 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Helper code: Authentication class
 
-Use the `Authentication` class to assist in establishing a validated connection to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web service. This class supports two authentication protocols: [Windows Authentication](https://docs.microsoft.com/windows-server/security/windows-authentication/windows-authentication-overview) for Dynamics 365 Customer Engagement (on-premises) or [OAuth 2.0](https://oauth.net/2/) for internet-facing deployments (IFDs). This class relies upon the Microsoft Azure Active Directory Authentication Library ([ADAL](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet)) to handle the OAuth protocol.  
+Use the `Authentication` class to assist in establishing a validated connection to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web service. This class supports two authentication protocols: [Windows Authentication](/windows-server/security/windows-authentication/windows-authentication-overview) for Dynamics 365 Customer Engagement (on-premises) or [OAuth 2.0](https://oauth.net/2/) for internet-facing deployments (IFDs). This class relies upon the Microsoft Azure Active Directory Authentication Library ([ADAL](/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet&preserve-view=true)) to handle the OAuth protocol.  
   
  The `Authentication` class is located in the file Authentication.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/). It is designed to work in conjunction with the `Configuration` helper class  hierarchy to enable you to establish a secure connection to your Dynamics 365 Customer Engagement service through an object of type System.Net.Http.[HttpMessageHandler](https://msdn.microsoft.com/library/hh138091\(v=vs.110\).aspx). For more information, see [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
   
@@ -37,11 +36,25 @@ Use the `Authentication` class to assist in establishing a validated connection 
 -   If Windows authentication is used, but user credentials are not supplied, then a HttpClientHandler is constructed using default network credentials.  
   
 ## Class hierarchy and members  
- The following table shows the public members of the `Authentication` class.  
+ The following list shows the public members of the `Authentication` class.  
   
-|||  
-|-|-|  
-|![Dynamics 365 Customer Engagement Web API Helper Library&#45;Authentication Class Diagram](../media/web-api-helper-library-authentication-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Authentication Class Diagram")|**Authentication class**<br /><br /> *Properties:*<br /><br /> `Authority` – the URL of the server that manages OAuth authentication.<br /><br /> `ClientHandler` – the [HttpMessageHandler](https://msdn.microsoft.com/library/hh138091\(v=vs.110\).aspx)-derived object that provides the network credentials or authorization access token for message requests.<br /><br /> `Context` – the [AuthenticationContext](https://msdn.microsoft.com/library/microsoft.identitymodel.clients.activedirectory.authenticationcontext.aspx) for an authentication event.<br /><br /> *Methods:*<br /><br /> `AquireToken` – For OAuth, returns an [AuthenticationResult](https://msdn.microsoft.com/library/microsoft.identitymodel.clients.activedirectory.authenticationresult.aspx),  containing the refresh and access tokens, for the current authentication context.<br /><br /> `Authentication` – Initializes an instance of this class using the `Configuration` parameter.<br /><br /> `DiscoverAuthority` – Discovers the authentication authority of the Dynamics 365 Customer Engagement web service.<br /><br /> <br /><br /> **OAuthMessageHandler class**<br /><br /> This nested class sets the authorization header for each sent message for Dynamics 365 Customer Engagement (on-premises) and IFD deployments.|  
+![Dynamics 365 Customer Engagement Web API Helper Library&#45;Authentication Class Diagram](../media/web-api-helper-library-authentication-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Authentication Class Diagram")
+
+**Authentication class**
+- *Properties:*
+
+  - `Authority` – the URL of the server that manages OAuth authentication.
+  - `ClientHandler` – the [HttpMessageHandler](https://msdn.microsoft.com/library/hh138091\(v=vs.110\).aspx)-derived object that provides the network credentials or authorization access token for message requests.
+  - `Context` – the [AuthenticationContext](https://msdn.microsoft.com/library/microsoft.identitymodel.clients.activedirectory.authenticationcontext.aspx) for an authentication event.
+
+- *Methods:*
+  - `AquireToken` – For OAuth, returns an [AuthenticationResult](https://msdn.microsoft.com/library/microsoft.identitymodel.clients.activedirectory.authenticationresult.aspx),  containing the refresh and access tokens, for the current authentication context.
+  - `Authentication` – Initializes an instance of this class using the `Configuration` parameter.
+  - `DiscoverAuthority` – Discovers the authentication authority of the Dynamics 365 Customer Engagement web service.
+
+- **OAuthMessageHandler class**
+
+  This nested class sets the authorization header for each sent message for Dynamics 365 Customer Engagement (on-premises) and IFD deployments.|  
   
 ## Usage  
  The `Configuration` and `Authentication` classes are designed to be used in tandem to establish a secure connection to the target Dynamics 365 Customer Engagement service.  First you create an object of type `Configuration`, then pass it as the single parameter to the `Authentication` constructor.  After successful creation, you can use the `ClientHandler` property to construct a secure, authenticated, persistent HTTP client connection to the Dynamics 365 Customer Engagement service.  
@@ -341,3 +354,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Configuration class](web-api-helper-code-configuration-classes.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

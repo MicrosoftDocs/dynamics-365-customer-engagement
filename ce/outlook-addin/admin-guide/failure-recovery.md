@@ -1,9 +1,10 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook failure recovery | MicrosoftDocs"
+description: Learn how Microsoft Dynamics 365 for Outlook's "go offline" capability that allows users to work offline can be used for failure recovery.
 ms.custom:
 ms.date: 11/28/2016
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
@@ -40,3 +41,6 @@ search.app:
 ## Restoring from backup
  If there is a problem with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] offline synchronization, the backup can be used to restore [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] functionality. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] should be in offline mode before you restore the backup. When restored, you can then connect to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] (online mode). The data that isn’t already on the server will be transferred to the server from the client. Be careful when reconnecting to the server. If you restore from an outdated backup, the existing data on the server may have subsequently changed and you run the risk of overwriting current data on the server with older data from the offline client backup.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

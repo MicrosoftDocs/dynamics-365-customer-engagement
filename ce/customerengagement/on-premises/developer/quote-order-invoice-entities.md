@@ -2,9 +2,9 @@
 title: "Quote, order, and invoice entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about quote, sales order (order), and invoice building."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 07/06/2022
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,8 +24,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Quote, order, and invoice entities
 
@@ -53,7 +52,11 @@ Dynamics 365 Customer Engagement (on-premises) supports robust *quote*, *sales o
   
   The `quote close activity` entity represents an activity that is generated when a quote is closed.  
   
-  A sales order (order) is a quote that has been accepted. This entity is called an order in Dynamics 365 Customer Engagement (on-premises).  
+  A sales order (entity name: order) is a quote that has been accepted. When the order is fulfilled, you close the order and mark the status as fulfilled. More information: [Sample: Fulfill a sales order](sample-fulfill-sales-order.md)
+
+  > [!NOTE]
+  > You can't set the status of multiple orders to fulfilled at one go. 
+ 
   
   An invoice is an order that has been billed.  
   
@@ -72,3 +75,6 @@ Dynamics 365 Customer Engagement (on-premises) supports robust *quote*, *sales o
  [Opportunity Entities](opportunity-entities.md)   
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Set default price level for opportunity, quote, order, invoice](set-default-price-level-for-opportunity-quote-order-invoice.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -7,19 +7,19 @@ Primary entity for a kpi event
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_kpieventsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_kpieventsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_kpieventsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_kpieventsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -45,6 +45,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_AdditionalData](#BKMK_msdyn_AdditionalData)
+- [msdyn_cifSessionId](#BKMK_msdyn_cifSessionId)
 - [msdyn_ClientSessionId](#BKMK_msdyn_ClientSessionId)
 - [msdyn_ConversationId](#BKMK_msdyn_ConversationId)
 - [msdyn_CustomAttribute1](#BKMK_msdyn_CustomAttribute1)
@@ -59,9 +60,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_KPIEventName](#BKMK_msdyn_KPIEventName)
 - [msdyn_KPIEventReason](#BKMK_msdyn_KPIEventReason)
 - [msdyn_Name](#BKMK_msdyn_Name)
-- [msdyn_NotificationResponseAction](#BKMK_msdyn_NotificationResponseAction)
 - [msdyn_ParticipantId](#BKMK_msdyn_ParticipantId)
+- [msdyn_ProviderId](#BKMK_msdyn_ProviderId)
 - [msdyn_ProviderSessionId](#BKMK_msdyn_ProviderSessionId)
+- [msdyn_sessionId](#BKMK_msdyn_sessionId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -100,6 +102,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_additionaldata|
 |MaxLength|2000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_cifSessionId"></a> msdyn_cifSessionId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Channel Integration Framework session|
+|DisplayName|User Session Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_cifSessionId|
+|MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
@@ -325,22 +343,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_NotificationResponseAction"></a> msdyn_NotificationResponseAction
-
-|Property|Value|
-|--------|-----|
-|Description|Agent notification response action value|
-|DisplayName|Notification Response Action|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_notificationresponseaction|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_msdyn_ParticipantId"></a> msdyn_ParticipantId
 
 |Property|Value|
@@ -357,17 +359,49 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_ProviderId"></a> msdyn_ProviderId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Provider that triggered this event|
+|DisplayName|Provider Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ProviderId|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_ProviderSessionId"></a> msdyn_ProviderSessionId
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of the provider session|
 |DisplayName|Provider Session Id|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_providersessionid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_sessionId"></a> msdyn_sessionId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for session|
+|DisplayName|Session Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_sessionId|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|

@@ -2,6 +2,10 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365/
   items:
-    - name: Unified Service Desk
-      tocHref: /dynamics365/unified-service-desk/
-      topicHref: /dynamics365/unified-service-desk/unified-service-desk
+    - name: Customer Service
+      tocHref: /dynamics365/customer-service/
+      topicHref: /dynamics365/customer-service/overview
+      items:
+      - name: Unified Service Desk
+        tocHref: /dynamics365/unified-service-desk/
+        topicHref: /dynamics365/unified-service-desk/unified-service-desk

@@ -3,8 +3,8 @@ title: "Walkthrough: Update a service endpoint from ACS to SAS authorization (De
 description: "The walkthrough demonstrates updating a service endpoint from Access Control Service (ACS) to Shared Access Signature (SAS) authorization."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Walkthrough: Update a service endpoint from ACS to SAS authorization
 
@@ -32,7 +31,7 @@ Shared Access Signature (SAS) is the recommended authorization method for the Dy
   
 ### Perform the update  
   
-1. Sign in to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][Classic portal](https://manage.windowsazure.com).  
+1. Sign in to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][ Portal](https://ms.portal.azure.com/#home).  
   
 2. Navigate to the messaging entity that you plan to update.  
   
@@ -58,3 +57,6 @@ Shared Access Signature (SAS) is the recommended authorization method for the Dy
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement](azure-extensions.md)   
  [Azure integration with Dynamics 365 Customer Engagement](azure-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -35,5 +35,8 @@ There is a problem with the federation metadata. Either it could not be accessed
   
 -   Verify that the certificate associated with the [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)] website is trusted.  
   
-For more information about the certificate requirements for claims-based authentication, see [Certificate selection and requirements](https://go.microsoft.com/fwlink/p/?LinkId=306059).
+For more information about the certificate requirements for claims-based authentication, see [Certificate selection and requirements](/previous-versions/dynamicscrm-2013/crm.6/gg188582(v=crm.6)).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Work with Dynamics 365 Customer Engagement event data in your Azure Even
 description: "The topic describes working with event data in your Azure Event Hub solution."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Work with Customer Engagement event data in your Azure Event Hub solution
 
@@ -27,7 +26,7 @@ search.app:
 >  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription and event hub license is required for access to event hubs. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]  
   
 ## 1. Create an event hub  
- You can create an event hub in [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] either through API programming  or interactively by using the [Azure classic portal](https://manage.windowsazure.com). Either way, after creating your event hub you must obtain a copy of the event hub connection string and provide that string when registering the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] service endpoint detailed in the next section.  
+ You can create an event hub in [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] either through API programming  or interactively by using the [Azure portal](https://ms.portal.azure.com/#home). Either way, after creating your event hub you must obtain a copy of the event hub connection string and provide that string when registering the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] service endpoint detailed in the next section.  
   
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] creating event hubs see the [Event Hubs documentation](https://azure.microsoft.com/documentation/services/event-hubs/).  
   
@@ -51,3 +50,6 @@ search.app:
 ### See also  
  [Azure integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)   
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,388 +1,246 @@
 ---
-title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 Field Service) | MicrosoftDocs"
-ms.custom:
-  - dyn365-fieldservice
-ms.date: 10/09/2019
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite:
-ms.technology:
-  - field-service
-ms.tgt_pltfrm:
+title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
+description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
+ms.date: 08/10/2022
+ms.reviewer: mhart
+ms.subservice: connected-field-service
 ms.topic: article
-author: FieldServiceDave
-ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
-caps.latest.revision: 14
-ms.author: daclar
+author: lmasieri
+ms.author: lmasieri
 manager: shellyha
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
 search.app:
   - D365CE
   - D365FS
 ---
-# Installation and setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Field Service for Azure IoT Hub
 
-This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
+This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub.
 
-## Prerequisites  
- Before you install Connected Field Service, make sure you have the following:  
-  
-- Dynamics 365 Field Service. For more information, visit the [topic on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
-  
-- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
-  
-- An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
-  
-- An active Azure subscription with appropriate privileges. See our [topic on Azure prerequisites](cfs-azure-subscription.md) for more information.
-  
-- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
-  
-<a name="bkmk_install"></a>   
+> [!NOTE]
+> Time Series Insights (TSI) will be deprecated after March 2025. We'll transition Connected Field Service to a new platform and announce it when the deprecation takes place. More information: [Migrate to Azure Data Explorer](/azure/time-series-insights/migration-to-adx)
 
-## Install Connected Field Service  
- 
+## Prerequisites
+
+ Ensure the following before configuring Connected Field Service.
+  
+- Dynamics 365 Field Service. For more information, visit the [article on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
+  
+- Assign your Dynamics 365 user the System Administrator and IoT-Administrator security roles.
+
+- An active Azure subscription with appropriate privileges to created resources and services. For more information, see the [article on Azure prerequisites](cfs-azure-subscription.md).
+
+## Step 1: Install or upgrade Field Service  
+
 Connected Field Service is included with Dynamics 365 Field Service. Creating a new Field Service environment or upgrading an existing one to v7.5.5 or v8.3+ will automatically include the following Connected Field Service entities and related processes:
 
- - Assets
- - IoT alerts
- - Devices
- - Commands
- 
- 
+- Assets
+- IoT alerts
+- Devices
+- Commands
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of IoT alerts in the asset menu in the sidebar](./media/cfs-navigation.png)
+> ![Screenshot of IoT alerts in the asset menu in the sidebar.](./media/cfs-navigation.png)
 
 Verify you have the Connected Field Service entities in your environment.
 
-Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
+## Step 2: Deploy Connected Field Service and Azure resources
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-deployment-app-screen-1.png)
+Deploy and connect Azure IoT Hub to your Field Service environment. Go to the **Deployment steps** section on [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and deploy the Azure Resource Manager (ARM) template.
 
+> [!NOTE]
+> If you are using an older version of Field Service and cannot upgrade, you can add the Connected Field Service solution in your Field Service environment from the app store.
 
-> [!Note]
-> If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution  you your field service environment from the app store. 
-  1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
-  2. Select **Admin centers** > **Dynamics 365**  
-  3. Select the **Applications** tab, and then select **Connected Field Service**.  
-  4. Select **Manage**.  
-  5. Read and accept the **Terms of service**.  
-  6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
-  7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
-  8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
-  9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password. 
-  10. Select **Deploy**.  
-  
-Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
+Before proceeding, make sure all required Azure resources are successfully deployed. The overall deployment status should show **Success**.  
 
-After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
-  
-### Set up the sample simulator (optional)  
- To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
+## Step 3: Create new IoT Provider Instance
+
+1. Sign into your Dynamics 365 organization and open the Connected Field Service app module.
+
+1. In Connected Field Service, go to the **Settings** area.
+
+   :::image type="content" source="media/cfs-iothub-settings-area.png" alt-text="Screenshot of the Change area control.":::
+
+1. Select **Providers** and select **New**.
+
+   :::image type="content" source="media/cfs-iothub-create-provider.png" alt-text="Screenshot of creating a new IoT Hub provider.":::
+
+1. On the **New IoT Provider Instance** page, fill out the field:
+   - **Name**: Enter the name of the resource group in Azure where you deployed IoT resources.
+   - **IoT Provider**: Choose IoT Hub Provider.
+   - **Provider Instance Id**: Enter the name of the IoT Hub resource that was deployed to your resource group in Azure.
+   - **URL**: Enter the URL of the overview for the resource group in the Azure portal. Example: `https://portal.azure.com/[tenant_info]/subscriptions/[subscription_id]/resourceGroups/[resource_group_name]/overview`.
+
+1. Select **Save** to create the new IoT Provider Instance record.
+
+1. We now need to update the IoT Provider Settings for the newly created provider instance. In the **Settings** area, select **IoT Settings** > **IoT Provider Settings**.
+
+   :::image type="content" source="media/cfs-iothub-default-provider-instance.png" alt-text="Screenshot of Default Provider Instance page.":::
+
+1. For **Default IoT Provider**, set the **Instance** to the IoT Provider Instance you created previously.
+
+1. Select **Save & Close** to save your changes.
+
+## Step 4: Set up IoT endpoint
+
+1. [Download the Plug-in Registration Tool](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget?view=op-9-1&preserve-view=true) and sign in to the Dynamics 365 organization where you're setting up Connected Field Service.
+
+1. Once connected to the organization, find the **IoT Message** Service Endpoint and select it.
+
+1. Select **Update**.
+
+1. For **NameSpace Address**, find the hostname for the [Service Bus Namespace](/azure/service-bus-messaging/explorer#use-the-service-bus-explorer) deployed to your resource group. Enter the hostname the Plug-in Registration Tool, prefixed by `sb://`. Example: `sb://myServiceBusNamespace.servicebus.windows.net`
+
+1. In the Service Bus Namespace resource, go to **Queues** and find the queue with a name ending in `-crm`. Copy the full name and enter it as the **Topic Name** in the Plug-in Registration Tool.
+
+1. In the Service Bus Namespace resource, go to **Shared access policies** > **RootManageSharedAccessKey**. Copy the [primary key](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal) and paste it into the Plug-in Registration Tool for **SAS Key**.
+
+1. Select **Save**.
+
+:::image type="content" source="media/cfs-iothub-register-service-endpoint.png" alt-text="Screenshot of Plug-in Registration Tool.":::
+
+## Step 5: Authorize Azure app connection
+
+Connect the Azure IoTHub to your Field Service environment.
+
+1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
+
+1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to. See the following screenshot for reference.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Azure resource groups.](./media/cfs-iothub-resource-group.png)
+
+1. One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of API connection between dynamics and azure.](./media/cfs-iothub-api-connection.png)
+
+1. Select **Authorize** and sign in with your Dynamics 365 credentials that you use to sign into your Connected Field Service environment. They may be different than your Azure credentials to the Azure portal. Select **Save** to apply your changes.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of authorizing the subscription.](./media/cfs-iothub-api-connection-authorize.png)
+
+## Step 6: Update devicerules.json (optional)
+
+The Stream Analytics job deployed to your resource group will have a reference to a `devicerules.json` file. This file defines a rule that is used to create IoT Alerts when using the thermostat simulator app. To use the rule, upload the `devicerules.json` file to the Azure storage. The file is available in the [GitHub repo](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment).
+
+1. In the storage account deployed to your resource group, create a container called `devicerules`.
+
+1. In the storage account, use the Storage Browser to open the newly created `devicerules` container.
+
+1. Add a directory in the `devicerules` container named `2016-05-30`.
+
+1. In the `2016-05-30` directory, create another directory called `22-40`.
+
+1. In the `22-40` directory, upload the `devicerules.json` file.
+
+## Step 7: Start Azure Stream Analytics job
+
+1. Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com).
+
+1. On the Azure portal, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to.
+
+1. Select each Stream Analytics job that was deployed and, from the **Overview** tab, select **Start**.
+
+   :::image type="content" source="media/cfs-iothub-stream-analytics-start.png" alt-text="Screenshot of Stream Analytics job overview.":::
+
+Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
+
+## Step 8: Update Azure Time Series Insights connection
+
+If you're working with Azure Time Series Insights, you need to update some information in your Dynamics 365 organization.
+
+1. Open up the Connected Field Service app module in Dynamics 365.
+
+1. Open the browser developer tools and go to the console.
+
+1. Enter the following script into the console and run it, replacing the `Value` parameter with the Azure tenant ID. You can [get the tenant ID from the Azure portal](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
+
+1. Run the script two more times, replacing the `Key` first with TSI_PLUGIN_CLIENT_APPLICATION_ID and then with TSI_PLUGIN_CLIENT_SECRET, and replacing the `Value` with the respective values.
+
+    ```javascript
+    
+    var req = {};
+    
+    req.getMetadata = function () {
+        return {
+            boundParameter: null,
+            parameterTypes: {
+                "Key": {
+                    "typeName": "Edm.String",
+                    "structuralProperty": 1
+                },
+                "Value": {
+                    "typeName": "Edm.String",
+                    "structuralProperty": 1
+                },
+            },
+            operationType: 0,
+            operationName: "msdyn_IoTSetConfiguration"
+        };
+    };
+    
+    req["Key"]="TSI_PLUGIN_AZURE_TENANT_ID";
+    req["Value"]="REPLACE";
+    
+    Xrm.WebApi.online.execute(req).then( 
+        function (data) { 
+            console.log("Success Response Status: " + data.status);
+        }, 
+        function (error) { 
+            console.log("Error: " + error.message);
+        }
+    );
+    ```
+
+1. Run the following script, using your Time Series Insights URL and the ID of the IoT Provider Instance that you created earlier.
+
+    ```javascript
+    var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN (found in Time Series Insights resource)"};
+    Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Enter msdyn_iotproviderinstance ID ", data);
+    ```
+
+## Step 9: Set up the simulator (optional)
+
+The simulator lets you test Connected Field Service without the need to connect physical hardware. Simulated IoT devices and data help you understand different parts that contribute to turning IoT data into work orders.
+
+Set up the simulator to simulate IoT devices and data and begin to see device data pulled into Field Service.
+
+To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type that starts with "Simulator" under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
-2. When the simulator page opens, click **Configuration**.  
+1. When the simulator page opens, select **Connection**.  
   
-3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
+1. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-iothub-thermostadt-simulator.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iothub-thermostadt-simulator.png)
 
- The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+   The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-iothub-resource-azure-portal.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-simulator-connection.png)
   
-4. Select the IoT hub in the **Resource Group**.  
+1. Select the IoT hub in the **Resource Group**.  
   
-5. On the left under **General**, click **Shared access policies** to get the host name and primary key.  
+1. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
   
-6. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
-  
-   Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees.  
-  
-<a name="bkmk_register"></a>   
-## Register devices that you want to monitor in Dynamics 365
-
-To monitor a device, you need to create and register an asset.  
-  
-1.  From the main menu  click, **Field Service** > **Customer Assets**.  
-  
-2.  On the command bar click **New**.  
-  
-3.  Use the helpful tooltips to fill in information.  
-  
-4. **Connected Device Attributes**: to register the device with the IoT hub, make sure you enter a **Device ID**.  
-  
-5.  When you’re done, click **SAVE** and a record will be created.  
-  
-6.  On the command bar click, **REGISTER DEVICES**.  
-  
-7.  Click **OK** in the registration box that appears.  
-  
-8.  When the device is registered, it will appear as a registered asset. To verify the registration, from the main menu click **Field Service**  > **Registered Assets**.  
-  
-### Set up a Power BI chart (optional)  
- Set up Power BI  accounts and open the sample .pbix report.  
-  
-1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
-  
-2. [Install Power BI Desktop](https://powerbi.microsoft.com/desktop/).  
-  
-3. Sign in to Power BI Desktop with the Power BI user credentials (we recommend that this user is the same as the Dynamics 365 user).  
-  
-4. Download and open the sample Power BI template.  
-  
-   The Power BI report will open with errors because it was created with a sample SQL database and user. Update the query with your SQL database and user, and then publish the report to Power BI.  
-  
-#### Update the query to point to your SQL database  
-  
-1. Click **Edit Queries**.  
-  
-2. Click **Advanced Editor**.  
-  
-3. Replace the source SQL database with the database provisioned in your Azure resource group.  
-  
-4. Click **Close and Apply**.  
-  
-    You can find your SQL server name in the SQL database in the Azure portal.  
-  
-5. Add your IP address to the SQL server firewall to allow Power BI Desktop to connect to the SQL server.  
-  
-6. Copy the IP address when you see this message.  
-  
-   ![Microsoft SQL message](../field-service/media/do-not-use3.png "Microsoft SQL message")  
-  
-7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
-  
-#### Publish to your Power BI account  
-  
-1.  Save your changes and publish.  
-  
-2.  Once you publish, Power BI Desktop will provide a link and message that instructs you to open the report and provide credentials.  
-  
-3.  Once the report is open, you’ll see notifications to edit your credentials.  
-  
-4.  Enter the SQL server admin user name and password to allow Power BI to access your database.  
-  
-5.  In the Power BI  sidebar, open the report and pin these tiles to a dashboard. You can create a dashboard or pin to an existing one.  
-  
-6.  Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
-  
-    -   In the top right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button .  
-  
-#### Pin the tile in Dynamics 365  
-  
-1.  Open the device, alert, or asset form.  
-  
-
-    > [!IMPORTANT]
-    >  The device that is related to any of the open forms must have a device ID and be registered; otherwise, the PowerBI section will be hidden.
-
-2.  The first time you  will need to specify the tile you want pinned. After that, the tile will load when you go to the page.
-
-    1.  Click the **Add** button.
-
-    2.  A configuration window displays. Sign in if prompted.
-
-    3.  Pick your dashboard and tile.
-
-         A preview of the tile will load; however, if you have not run the simulator for that device, there will be no data, as shown here.
-
-3.  Save the tile.
-
-4.  The config window closes, and the Power BI section reloads with the pinned tile.
-
-5.  The tile is filtered to the device ID of the current entity.
-
-6.  The next time you load any of the device, alert, or asset forms, the Power BI section will load the tile automatically, filtered to the current entity device ID (if there is a device ID and the device has been registered).
-
-### Add devices to an asset
- If you have a device with more parts that you want to monitor, instead of creating separate asset records for each part, you can create one asset record and add the parts to it.
-
-1.  From the main menu click **Field Service** > **Registered Assets**.
-
-2.  From the list of existing assets, open the asset record that you want to add parts to.
-
-3.  To add parts, in the **Connected Devices** section, click the **See the records associated with this view** button.
-
-4.  Click **Connect**, and then click **To Another** or **To Me**.
-
-5.  Use the helpful tooltips to fill in the rest of the information and then click **Save**.
-
-### Register multiple existing assets
-
-1.  To register multiple assets at once, click **Field Service** > **Customer Assets**.
-
-2.  From the list of assets, select the assets that you want to register.
-
-3.  On the command bar, click **REGISTER DEVICES.**
-
-4.  Click **OK** in the registration dialog box that appears.
-
-5.  When the device is registered, it will show up as a registered asset. To verify the registration, from the main menu click **Field Service** > **Registered Assets**.
-
-### Register an asset on the mobile app
- Before you can register assets on the mobile app, you will first need to install the mobile app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service Mobile App User’s Guide](../field-service/field-service-mobile-app-user-guide.md)
-
-1.  On your mobile device, open the mobile app.
-
-2.  Tap **Customer Assets**, and then tap the **Add** button.
-
-3.  Fill in the asset information and, then  tap **Register Device**.
-
-> [!NOTE]
->  You cannot associate an asset with a device using the mobile app.  
-  
-### Registration error  
- When a device does not register, you will see an error in the Registration Status field of the asset record. For assets with multiple devices, device status will show the error message for each device.  
-  
- This error may occur if Dynamics 365 is not connected to Azure or if Azure is offline.  
-  
-### View a device's registration history  
-  
-1.  From the main menu, click **Internet of Things** > **Registered Devices**.  
-  
-2.  Click an IoT device record to open it.  
-  
-3.  In the Category field, use the search button to find and to add the device to a category.  
-  
-<a name="bkmk_Categorize"></a>   
-## Categorize devices  
- You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
-  
-### Create a new IoT device category  
-  
-1.  From the main menu, click **Internet of Things** > **Device Categories**.  
-  
-2.  On the command bar, click **New**.  
-  
-3.  Enter a **Name** for the device category.  
-  
-4.  Use the helpful tooltips to fill in information.  
-  
-5.  When you're done click **Save**.  
-  
-6.  Open the IoT device category record that you created.  
-  
-7.  In the **Devices** section, click **Add IoT Device record** , and  then add a device to the category.  
-  
-### Add devices to an existing category  
-  
-1.  From the main menu click, **Internet of Things** > **Registered Devices**.  
-  
-2.  Click an IoT device record to open it.  
-  
-3.  In the **Category** field, use the search button to find and add the device to a category.  
-  
-<a name="bkmk_deviceReading"></a>   
-## View device readings  
- Once a device is registered, you can open the record to view the readings sent by the device. For example, if you’re monitoring a thermostat, your reading will show the thermostat temperature.  
-  
- By default, you can view the last 20 readings. You can change the default setting in the Power BI report by using Power BI Desktop.  
-  
-1.  To view a device reading, from the main menu, click **Field Service** > **Customer Asset**.  
-  
-2.  From the list of assets, choose an asset and open the record.  
-  
-3.  Refer to the **Connect Device Readings** section to view the device readings.  
-  
-<a name="bkmk_remotely"></a>   
-## Remotely send commands to a registered device  
- When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
-  
-
-> [!NOTE]
->  When you receive multiple alerts from the same device, the alerts will be listed in hierarchical order. You can change the grouping by changing the IoT - Parent IoT Alerts workflow.
-
-### Send commands from a registered asset
-
-1.  From the main menu, click **Field Service** > **Registered Assets**.
-
-2.  From the list of assets, choose a registered asset or device.
-
-3.  On the command bar, click **CREATE COMMAND**.
-
-4.  Enter a **Name** for the command.
-
-5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}`
-
-    > [!NOTE]
-    >  Before sending a command make sure there are no spaces or extra characters in the command.
-
-6.  On the command bar, click **SEND&CLOSE** to send the command.
-
-### Respond to an alert
-
-1.  Navigate to **Field Service** > **IoT Alerts**.
-
-2.  Choose an existing IoT alert record.
-
-3.  On the command bar, click **CREATE COMMAND**.
-
-4.  Enter a **Name** for the command.
-
-5.  In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed section above.
-
-6.  On the command bar, click **SEND&CLOSE** to send the command.
-
-### View history of commands sent to a device
-
-1.  From the main menu, click **Field Service** > **Customer Assets**.
-
-2.  From the list, choose an asset.
-
-3.  Scroll down to the **Command** section to view the history.
-
-<a name="bkmk_bussinessFlow"></a>
-## Create business process flows to automatically handle incoming IoT alerts
- When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customize/create-business-process-flow.md)
-
- List of default IoT actions:
-
--   IoT- Parent IoT Alerts (Action)
-
--   IoT- Register Customer Entity (Action)
-
--   IoT- Register Device (Action)
-
--   IoT – Debounce IoT Alerts (Action)
-
--   JSON-Based Field Value - Get Number (Action)
-
--   JSON-Based Field Value - Get String (Action)
-
--   JSON-Based Field Value - Get Boolean (Action)
-
-<a name="bkmk_IOTDashboard"></a>
-## View the IoT dashboard
- The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
-
-1.  From the main menu, click **Field Service** or **Internet of Things**.
-
-2.  Click **Dashboard**.
+1. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
 
-    -   The first chart shows alerts that you can sort by clicking the IoT **Alerts by** menu.
+Now you can send a test command by using the sample simulator. For example, select the temperature and increase it to above 70 degrees. The simulator is preprogrammed to create an IoT alert if temperature is above 70 degrees.
 
-    -   The second chart shows alerts by time.
+## Next steps
 
-    -   The third chart shows alerts along with the action taken to resolve the issue.
+1. [Register devices](cfs-register-devices.md)
+2. [Pull device data](cfs-pull-device-data.md)
+3. [Visualize device readings](cfs-visualizations-iot-hub.md)
 
-<a name="bkmk_step3 "></a>
 ## Privacy notice
- [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
+[!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
-[Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/)
+[Azure Time Series Insights](/azure/time-series-insights/)
 
-[Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
+[Connected Field Service Device Readings](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
 
-### See also
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)
- [Install Dynamics 365 Field Service](../field-service/install-field-service.md)
- [Configure default settings](../field-service/configure-default-settings.md)
- [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
- [Field Service User Guide](../field-service/user-guide.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

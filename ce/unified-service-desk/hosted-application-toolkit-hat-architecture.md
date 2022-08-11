@@ -1,14 +1,10 @@
 ---
 title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk | MicrosoftDocs"
 description: "The topic illustrates the components of Hosted Application Toolkit (HAT) and the application startup process."
-ms.custom: 
-  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Hosted Application Toolkit (HAT) architecture
 This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] and the application startup process.  
@@ -38,14 +36,17 @@ This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit
   
   The following illustration shows the [!INCLUDE[pn_hat](../includes/pn-hat.md)] architecture.  
   
-  ![Hosted Application Toolkit &#40;HAT&#41;  architecture](../unified-service-desk/media/usd-hat-architecture.png "Hosted Application Toolkit (HAT)  architecture")  
+  ![Hosted Application Toolkit &#40;HAT&#41;  architecture.](../unified-service-desk/media/usd-hat-architecture.png "Hosted Application Toolkit (HAT)  architecture")  
   
 ## Application startup process  
  The DDA uses bindings and easily identified control names to provide an application’s UI controls to automations. Automations use these names to manage the UI controls. Bindings are provided as part of the initialization string procedure during application startup. The Application Integration Framework extracts these bindings from the initialization string and provides them to the DDA. The following illustration shows the typical process that occurs when an application starts.  
   
- ![Application startup process](../unified-service-desk/media/usd-app-startup-process.png "Application startup process")  
+ ![Application startup process.](../unified-service-desk/media/usd-app-startup-process.png "Application startup process")  
   
 ### See also  
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)   
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

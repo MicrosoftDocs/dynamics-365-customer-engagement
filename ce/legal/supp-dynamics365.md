@@ -1,7 +1,10 @@
 ---
 title: Supplemental Terms
 author: ReneeW-CPub
+ms.author: renwe
 ---
+
+# Supplemental Terms of Use for Dynamics 365
 
 **PLEASE NOTE:**  Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you.  You may use it with each validly
@@ -30,3 +33,5 @@ sub-processor of personal data in connection with the software, Microsoft makes
 the commitments in the European Union General Data Protection Regulation Terms
 of the Online Services Terms to all customers effective May 25, 2018, at
 <https://go.microsoft.com/?linkid=9840733>.  
+
+

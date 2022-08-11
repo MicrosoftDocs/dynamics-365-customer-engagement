@@ -1,21 +1,19 @@
 ---
 title: "Categories and operations in Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn about the operations and categories based on which the Unified Service Desk performance report is generated using the Unified Service Desk Performance Analyzer."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: '>= dynamics-usd-3'
 ---
 
@@ -92,3 +90,6 @@ The categories under which the operations you perform are classified. The follow
 [Overview of performance report user interface](overview-performance-report-user-interface.md)
 
 [View, read, and compare performance report](view-read-compare-performance-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

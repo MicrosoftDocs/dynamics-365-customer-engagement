@@ -3,7 +3,7 @@ While managing resources and scheduling, dispatchers must be aware of important 
 In Dynamics 365 Field Service and in Universal Resource Scheduling, **Booking Alerts** bring attention to important notifications so that dispatchers can schedule with confidence. Booking alerts display notes and reminders on the schedule board, and can relate to bookings, work orders, users, and other entities. They can be triggered based on timers, set alarms, or workflows.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of full schedule board showing booking alert](../../field-service/media/scheduling-booking-alert-schedule-board.png)
+> ![Screenshot of full schedule board showing booking alert.](../../field-service/media/scheduling-booking-alert-schedule-board.png)
 
 There are three significant additional benefits: 
 
@@ -27,12 +27,12 @@ Let's say a dispatcher wants to set herself a reminder. On the schedule board, s
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of manual creation of a booking alert](../../field-service/media/manual-creation-of-a-booking-alert.png)
+> ![Screenshot of manual creation of a booking alert.](../../field-service/media/manual-creation-of-a-booking-alert.png)
 
 The **New Booking Alert** window pops up.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking alert](../../field-service/media/booking-alert.png)
+> ![Screenshot of booking alert.](../../field-service/media/booking-alert.png)
  
 - **Subject** and **Description** define the message that appears on the alert. 
 
@@ -51,7 +51,7 @@ Once the due date is reached and the alert appears on the schedule board side pa
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Alert - Snooze](../../field-service/media/alert-snooze.png)
+> ![Screenshot of Alert - Snooze.](../../field-service/media/alert-snooze.png)
  
 ### Booking alerts for bookings
 
@@ -59,7 +59,7 @@ Alerts for **Bookable Resource Bookings** will not only appear in the booking’
 
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Booking alert on the schedule board](../../field-service/media/booking-alert-on-the-schedule-board.png)
+> ![Screenshot of Booking alert on the schedule board.](../../field-service/media/booking-alert-on-the-schedule-board.png)
 
 The icon indicates the number of active alerts for that booking; clicking it expands or collapses the details. **Snooze** and **Dismiss** work the same way as in the panel.
  
@@ -72,6 +72,4 @@ The icon indicates the number of active alerts for that booking; clicking it exp
 
 - When deleting records, keep the relationship **Booking – Booking Alert – Booking Alert Status** in mind. By default, you can't remove a booking that has booking alerts associated to it.
 
-- You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. For more information, visit the topic on [schedule board tab settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/schedule-board-tab-settings#other-settings).
-
-
+- You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. For more information, visit the topic on [schedule board tab settings](/dynamics365/field-service/schedule-board-tab-settings#other-settings).

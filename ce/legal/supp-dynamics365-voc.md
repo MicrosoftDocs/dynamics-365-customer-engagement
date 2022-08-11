@@ -1,6 +1,7 @@
 ---
+title: Supplement Terms
 author: m-hartmann
-title: Supplement
+ms.author: mhart
 ---
 # Supplemental Terms of Use for Microsoft Dynamics 365 Voice of the Customer
 
@@ -25,3 +26,5 @@ which product-specific terms and conditions may be included in the Enrollment or
 Agreement (including Amendments thereto, the Use Rights, or the Product Terms).
 This supplement is also not subject to any references or statements made on the
 Microsoft Trust Center.
+
+

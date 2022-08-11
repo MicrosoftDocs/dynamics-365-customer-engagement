@@ -2,9 +2,9 @@
 title: "Use Dynamics 365 Customer Engagement (on-premises) web services (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "This topic introduces available web service APIs that you will use when you write programs for Dynamics 365 Customer Engagement (on-premises) and provides basic information to understand and compare them"
 ms.custom: 
-ms.date: 09/05/2019
-ms.reviewer: "pehecke"
-ms.service: 
+ms.date: 06/08/2022
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use Dynamics 365 Customer Engagement (on-premises) web services
 
@@ -44,7 +43,7 @@ Web services provide APIs that you’ll use when you write programs for Dynamics
 
 The Organization service has been available since [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)]. It’s the web service that most developers working with Dynamics 365 Customer Engagement (on-premises) are already familiar with. The Organization service is optimized for use with .NET. There are a set of .NET assemblies and tools to allow you to generate strongly typed classes and proxies that streamline the development process and enjoy a better development experience using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. 
 
-The .NET assemblies for the Organization service currently use a 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be fully transparent to you; additional details will be published in future SDK releases. 
+The .NET Framework assemblies for the Organization service currently use a 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
 
 See [Choose your development style](choose-development-style.md) for guidance about whether to use the Organization service or Web API.
 
@@ -79,3 +78,6 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
  [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
 title: "Customize the Reading Pane in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to customize the Reading Pane in Dynamics 365 for Outlook by choosing the sections that are displayed in the Reading Pane.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -49,3 +50,6 @@ When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outloo
 ### See also  
  [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

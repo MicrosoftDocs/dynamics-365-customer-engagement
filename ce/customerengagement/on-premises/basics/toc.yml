@@ -1,0 +1,148 @@
+- name: Basics Guide for Dynamics 365 Customer Engagement (on-premise)
+  items: 
+  - name: Overview
+    href: basics-guide.md
+  - name: Find your business apps
+    href: ../basics/where-find-business-apps.md
+  - name: How data is organized
+    href: ../basics/how-data-organized.md
+  - name: What are business processes
+    href: ../basics/what-are-business-processes.md
+  - name: Find your administrator or support person
+    href: ../basics/find-administrator-support.md
+  - name: Submit feedback or ratings
+    href: submit-feedback-ratings.md
+- name: Navigation and Basics
+  items: 
+  - name: Navigation and Basics
+    href: ../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md
+  - name: Quick create
+    items: 
+    - name: Quick create
+      href: ../basics/quick-create-enter-data-fast.md
+    - name: Basic search
+      href: ../basics/search-records.md
+    - name: Save searches using Advanced Find
+      href: ../basics/save-advanced-find-search.md
+  - name: Set personal options
+    href: ../basics/set-personal-options.md
+  - name: Assign records
+    href: ../basics/assign-record-user-team.md
+  - name: Create connections between records
+    href: ../basics/create-connections-view-relationships-between-records.md
+  - name: Hierarchical relationships
+    href: ../basics/hierarchical-relationship.md
+  - name: Edit your profile
+    href: ../basics/view-your-user-profile.md
+  - name: Accessibility and keyboard shortcuts
+    href: ../basics/accessibility-people-with-disabilities.md
+  - name: Use a screen reader
+    href: screen-reader.md
+  - name: Use keyboard shortcuts
+    href: keyboard-shortcuts.md
+  - name: Print leads, quotes and more
+    href: ../basics/print-leads-quotes-other-records.md
+- name: Work with accounts and contacts
+  items: 
+  - name: Work with accounts and contacts
+    href: ../basics/accounts-contacts.md
+  - name: Send bulk email
+    href: ../basics/send-bulk-email-customers.md
+  - name: Deactivate accounts or contacts
+    href: ../basics/deactivate-activate-account-contact.md
+- name: Dashboards and charts
+  items: 
+  - name: Dashboards and charts
+    href: ../basics/start-your-day-dashboard-chart.md
+  - name: View trending info with Office Delve
+    href: ../basics/view-relevant-trending-information-office-delve.md
+  - name: Create or edit a chart
+    href: ../basics/create-edit-chart.md
+  - name: Drill down in a chart
+    href: ../basics/drill-down-chart.md
+- name: Reports
+  items: 
+  - name: Reports
+    href: ../basics/run-report.md
+  - name: Share a report
+    href: ../basics/share-report-users-teams.md
+  - name: Who can use a report?
+    href: ../basics/determine-who-can-use-report.md
+  - name: Download a report
+    href: ../basics/download-report.md
+  - name: Create, edit, or copy a report with the Report Wizard
+    href: create-edit-copy-report-wizard.md
+  - name: Organize and lay out your report data
+    href: organize-lay-out-your-report-data.md
+  - name: Edit the default filter of a report
+    href: edit-default-filter-report.md
+  - name: Add an existing report
+    href: ../basics/add-existing-report.md
+  - name: Troubleshoot reports
+    items: 
+    - name: Troubleshoot reports
+      href: ../basics/troubleshoot-reports.md
+    - name: Account insights
+      href: ../basics/account-insights-reports.md
+    - name: Marketing insights
+      href: ../basics/marketing-insights-reports.md
+    - name: Sales insights
+      href: ../basics/sales-insights-reports.md
+    - name: Product insights
+      href: ../basics/product-insights-reports.md
+    - name: Invoice, quotes and orders
+      href: ../basics/invoice-quote-order-reports.md
+    - name: Service insights
+      href: ../basics/service-insights-reports.md
+    - name: Admin reports
+      href: ../basics/user-summary-report.md
+- name: Activities and the activities feed
+  items: 
+  - name: Activities and the activities feed
+    href: ../basics/work-with-activities.md
+  - name: Add an activity to a record
+    href: ../basics/add-phone-call-task-email-appointment-activity-case-record.md
+  - name: Activities feed
+    href: ../basics/stay-up-date-with-customer-news-with-activity-feed.md
+  - name: Appointments
+    href: ../basics/create-edit-appointment.md
+  - name: Call using Skype
+    href: ../basics/place-calls-with-skype-skype-business.md
+  - name: Workplace calendar
+    href: ../basics/workplace-calendar.md
+  - name: Add a signature for an email or queue
+    href: create-signature-dynamics-365-email-queue.md
+  - name: Send bulk email
+    href: ../basics/send-bulk-email-customers.md
+- name: Collaboration
+  items: 
+  - name: Collaboration
+    href: ../basics/collaborate-with-team.md
+  - name: Microsoft 365 Groups
+    href: ../basics/collaborate-with-colleagues-using-office-365-groups.md
+  - name: Microsoft 365 Groups FAQ
+    href: ../basics/office-365-groups-dynamics-365-faqs.md
+  - name: OneDrive for Business
+    href: ../basics/use-onedrive-business-manage-private-documents.md
+  - name: SharePoint documents
+    href: manage-sharepoint-documents-document-locations-in-Dynamics-365-apps.md
+- name: Import and export data
+  items: 
+  - name: Import and export data
+    href: ../basics/import-export-data.md
+  - name: Import contacts
+    href: ../basics/import-contacts.md
+  - name: Import accounts, leads and more
+    href: ../basics/import-accounts-leads-other-data.md
+  - name: Merge duplicate records for accounts, contacts, or leads
+    href: merge-duplicate-records-accounts-contacts-leads.md
+  - name: Export to Excel
+    href: ../basics/export-data-excel.md
+  - name: Export to Excel dynamic worksheet
+    href: ../basics/export-excel-dynamic-worksheet.md
+  - name: Export to Excel static worksheet
+    href: ../basics/export-excel-static-worksheet.md
+  - name: Export to Excel PivotTable
+    href: ../basics/export-excel-pivottable.md
+- name: Use Dynamics 365 mobile app
+  href: dynamics-365-phones-tablets-users-guide-onprem.md

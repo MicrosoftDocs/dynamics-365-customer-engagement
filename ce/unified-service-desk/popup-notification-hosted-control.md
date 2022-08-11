@@ -1,14 +1,10 @@
 ---
 title: "Popup Notification (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using the Popup Notification hosted control type to display notifications in Unified Service Desk. The notification layout and content is defined as XAML in a Unified Service Desk form instance, and the Popup Notification hosted control is used to display and hide the form instance as required"
-ms.custom: 
-  - dyn365-USD
+description: "Learn to use the Popup Notification hosted control type to display notifications in Unified Service Desk. "
 ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Popup Notification (Hosted Control)
@@ -28,7 +26,7 @@ Use the **Popup Notification** hosted control type to display notifications in [
 ## Create a Popup Notification hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Popup Notification** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Notification Hosted Control](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")
+ ![Notification Hosted Control.](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")
 
  In the **New Hosted Control** screen:  
 
@@ -102,3 +100,6 @@ Use the **Popup Notification** hosted control type to display notifications in [
 ### See also  
  [How to configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)   
  [Create a user-defined event](../unified-service-desk/create-user-defined-event.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

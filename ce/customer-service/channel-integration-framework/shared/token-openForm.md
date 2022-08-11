@@ -72,7 +72,7 @@
 <td>formParameters</td>
 <td>Object</td>
 <td>No</td>
-<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form" data-raw-source="[Set field values using parameters passed to a form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form)">Set field values using parameters passed to a form</a> and <a href="https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/configure-form-accept-custom-querystring-parameters" data-raw-source="[Configure a form to accept custom querystring parameters](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/configure-form-accept-custom-querystring-parameters)">Configure a form to accept custom querystring parameters</a> </td>
+<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="/dynamics365/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form" data-raw-source="[Set field values using parameters passed to a form](../../../customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form.md)">Set field values using parameters passed to a form</a> and <a href="/dynamics365/customerengagement/on-premises/developer/configure-form-accept-custom-querystring-parameters" data-raw-source="[Configure a form to accept custom querystring parameters](../../../customerengagement/on-premises/developer/configure-form-accept-custom-querystring-parameters.md)">Configure a form to accept custom querystring parameters</a> </td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -96,7 +96,7 @@ On success, returns a promise object containing string.
 
 ## Remarks
 
-You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
+You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
 
 
 ## Examples

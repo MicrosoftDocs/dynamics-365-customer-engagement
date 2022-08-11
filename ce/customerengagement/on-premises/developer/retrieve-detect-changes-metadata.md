@@ -3,8 +3,8 @@ title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 36
 description: "The classes in the Query namespace and the RetrieveMetadataChangesRequest and RetrieveMetadataChangesResponse classes let you build efficient metadata queries and capture changes to metadata as they occur over time."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,16 +17,15 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Retrieve and detect changes to metadata
 
 The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> and <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse> classes let you build efficient metadata queries and capture changes to metadata as they occur over time.  
   
- All code examples referenced in this document are found in [Sample: Query Metadata and Detect Changes](org-service/sample-query-metadata-detect-changes.md).  
+ All code examples referenced in this document are found in [Sample: Query Metadata and Detect Changes](/powerapps/developer/data-platform/org-service/metadata-option-sets).  
   
- The technical article [Query Metadata Using JavaScript](https://msdn.microsoft.com/library/jj919080.aspx) provides a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library to use the objects and messages in client-sided code.  
+ The technical article [Query Metadata Using JavaScript](/previous-versions/dynamics-crm2011/developer-articles/jj919080(v=crm.6)) provides a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library to use the objects and messages in client-sided code.  
   
 <a name="BKMK_MetadataStrategies"></a> 
   
@@ -88,10 +87,14 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
   The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>:  
   
-|||||  
-|-|-|-|-|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Attributes>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Description>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayCollectionName>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayName>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToManyRelationships>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToOneRelationships>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OneToManyRelationships>|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Privileges>|  
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Attributes>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Description>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayCollectionName>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayName>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToManyRelationships>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ManyToOneRelationships>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OneToManyRelationships>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Privileges>
   
  The following example shows a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> that will return a set of non-intersect, user-owned entities not included in a list of entities to exclude:  
   
@@ -195,10 +198,10 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>  
   
-|||  
-|-|-|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.Description>|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.DisplayName>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata.OptionSet>|<xref:Microsoft.Xrm.Sdk.Metadata.LookupAttributeMetadata.Targets>|  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.Description>
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.DisplayName>
+- <xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata.OptionSet>
+- <xref:Microsoft.Xrm.Sdk.Metadata.LookupAttributeMetadata.Targets>
   
  The following example will limit Attributes returned to only those that have an `OptionSet` and will only return the <xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata.OptionSet> and <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.AttributeType> properties for those attributes:  
   
@@ -212,12 +215,10 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  The following table lists Relationship metadata properties that cannot be used in a MetadataFilterExpression:  
   
-||  
-|-|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.AssociatedMenuConfiguration>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.CascadeConfiguration>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1AssociatedMenuConfiguration>|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2AssociatedMenuConfiguration>|  
+- <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.AssociatedMenuConfiguration>
+- <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.CascadeConfiguration>
+- <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1AssociatedMenuConfiguration>  
+ -<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2AssociatedMenuConfiguration>
   
 ### Retrieve labels
   
@@ -285,9 +286,12 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
 ### See also  
  [Write Applications and Server Extensions](extend-dynamics-365-server.md)   
  [Offline Use of the Dynamics 365 Customer Engagement Services](org-service/offline-use-services.md)   
- [Sample: Query Metadata and Detect Changes](org-service/sample-query-metadata-detect-changes.md)   
+ [Sample: Query Metadata and Detect Changes](/powerapps/developer/data-platform/org-service/metadata-option-sets)   
  [Extend the Metadata Model for Dynamics 365 Customer Engagement](org-service/use-organization-service-metadata.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
- [Query Metadata Using JavaScript](https://msdn.microsoft.com/library/jj919080.aspx)
+ [Query Metadata Using JavaScript](/previous-versions/dynamics-crm2011/developer-articles/jj919080(v=crm.6))
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

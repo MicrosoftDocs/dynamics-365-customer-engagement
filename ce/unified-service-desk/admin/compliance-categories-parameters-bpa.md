@@ -2,11 +2,9 @@
 title: "Best practice rule categories and parameters | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
 ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -72,3 +70,6 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

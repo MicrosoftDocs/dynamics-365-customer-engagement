@@ -2,26 +2,24 @@
 title: "Sample: Create a connection role (early bound)| MicrosoftDocs"
 description: "The sample code demonstrates how to create a connection role that are used for accounts and contacts."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/02/2020
 ms.reviewer: 
-ms.service: crm-online
+
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for creating connection roles, accounts and contacts
   - creating connection roles, sample
 ms.assetid: d501cdfa-67b0-4e59-a05c-1817528971e1
-caps.latest.revision: 14
-author: JimDaly
-ms.author: nabuthuk
-manager: kvivek
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Create a connection role (early bound)
 
@@ -54,3 +52,6 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

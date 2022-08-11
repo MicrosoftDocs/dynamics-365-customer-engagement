@@ -3,8 +3,8 @@ title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer
 description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Functions and Actions Sample (Client-side JavaScript)
 
@@ -719,8 +718,11 @@ Sdk.createAccountWithOpportunityToWin = function () {
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Functions and Actions Sample](web-api-functions-actions-sample.md)   
- [Web API Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)   
+ [Web API Functions and Actions Sample (C#)](/powerapps/developer/data-platform/webapi/samples/functions-actions-csharp)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

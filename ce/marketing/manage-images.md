@@ -1,18 +1,13 @@
 ---
 title: "Manage image files (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 Marketing"
-keywords: tutorial; keywords; images; files; upload; library
-ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 Marketing."
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 2a762cef-1caa-45e2-9b7f-8721cbac10aa
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -42,7 +37,7 @@ To manage keywords:
 1. Go to **Marketing** > **Marketing content** > **Keywords**. You now see a list of all existing keywords.
 
 1. On the command bar, select **New** to create a new keyword. Its only setting is **Name**.  
-    ![Enter the keyword name](media/keyword-name.png "Enter the keyword name")
+    ![Enter the keyword name.](media/keyword-name.png "Enter the keyword name")
 
 1. Select **Save** to save your keyword.
 
@@ -50,12 +45,12 @@ To manage keywords:
 
 To view and edit your image library:
 
-1. Go to **Marketing** > **Marketing content** > **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
+1. Go to **Marketing** > **Marketing content** > **Images**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
 
 2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
 3. Either drag a file from File Explorer to this dialog box or choose **browse** to locate and choose an image by using a file browser window.  
-    ![The Upload Files dialog](media/files-upload.png "The Upload Files dialog box")
+    ![The Upload Files dialog.](media/files-upload.png "The Upload Files dialog box")
 
 4. While working here, you can:
     - Drag several images to add more than one image at a time.
@@ -65,8 +60,11 @@ To view and edit your image library:
 
 5. Select **Save** to upload your images to Dynamics 365 Marketing.
 
-6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Files**.
+6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Images**.
 
 ### See also
 
 [Upload and use images and files](upload-images-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,14 +1,10 @@
 ---
 title: "InputElement in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the elements of <IntputElement>."
-ms.custom: 
-  - dyn365-USD
+description: "Understand how the <InputElement> element works in Unified Service Desk. Also find a code snippet that shows how to use the element."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # InputElement in Unified Service Desk
 `<InputElement>` element associates a named control with an `<input/> HTML` element if the element has one of the following `type=attribute` values: `check box`, `radio`, `text`, `password`, `submit`, `reset`, `hidden`, `image`, or `file`. This topic describes the elements of `<IntputElement>`.  
@@ -43,3 +41,6 @@ Search Path Elements
 ### See also  
  [WebDDA](../unified-service-desk/web-dda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,11 +3,8 @@ title: "Sample: Validate an appointment (Developer Guide for Dynamics 365 Custom
 description: "Sample demonstrates how to validate an appointment using the ValidateRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: samples
+ms.reviewer: pehecke 
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -17,16 +14,14 @@ helpviewer_keywords:
 ms.assetid: f88ba768-78f1-4fe8-9c72-59e72249f090
 caps.latest.revision: 19
 author: JimDaly
-ms.author: nabuthuk
+ms.author: pehecke
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Validate an appointment
 
-This sample shows how to validate an appointment using the [ValidateRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.validaterequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ValidateAppointment).
+This sample shows how to validate an appointment using the [ValidateRequest](/dotnet/api/microsoft.crm.sdk.messages.validaterequest) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ValidateAppointment).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -57,3 +52,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

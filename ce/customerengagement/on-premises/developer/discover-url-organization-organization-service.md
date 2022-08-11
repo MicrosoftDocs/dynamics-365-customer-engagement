@@ -3,8 +3,8 @@ title: "Discover the URL for your organization using the Discovery Service (Deve
 description: "For a multi-tenant environment like Dynamics 365 Server, you can use Discovery service to determine the organizations that a user is member of"
 ms.custom: on-premise
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
-ms.service: 
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,11 +17,10 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
-# Discover the URL for your organization using the Discovery Service 
+# How to discover the URL for your organization using the Discovery Service 
 
 Use the Discovery service to determine the organizations that a user is a member of, and the endpoint address URL to access the organization service for each of those organizations. This Discovery service is necessary because Dynamics 365 Server is a multi-tenant environment—a single Dynamics 365 Server can host multiple business organizations. By using the Discovery service, your application can determine the endpoint address URL to access the target organization’s business data.  
   
@@ -49,3 +48,6 @@ Alternatively, you can add the service references for the URLs described previou
  [Download endpoints using Developer resources page](developer-resources-page.md)<br />
  [Access the Web Services in Dynamics 365 Customer Engagement](authenticate-users.md)<br />
  [Quick Start: A Simple Program](simple-program-web-services.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

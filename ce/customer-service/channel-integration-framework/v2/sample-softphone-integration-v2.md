@@ -1,18 +1,16 @@
 ---
-title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 with Dynamics 365 model-driven apps."
-author: susikka
-ms.author: susikka
-manager: shujoshi
-ms.date: 02/11/2020
+title: "Softphone integration with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0 with Dynamics 365 model-driven apps."
+ms.date: 11/17/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0
+# Sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0
 
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
 
@@ -43,7 +41,7 @@ ms.custom:
 
    For example, `https://sampleinteg.azurewebsites.net`.
 
-   ![Select Create to publish app on Azure](../media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
+   ![Select Create to publish app on Azure.](../media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
 
 ## Create function to use with the app service
 
@@ -62,11 +60,12 @@ ms.custom:
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
-2. Configure the channel provider by providing the detail as shown in the matrix. For more information, see [Configure the channel provider](configure-channel-provider-channel-integration-framework.md).
+2. Configure the channel provider by providing the detail as shown in the matrix. For more information, see [Configure the channel provider](./configure-channel-provider-app-profile-manager.md).
 
    | Field | Description |
    |-------|-------|
    |Name|Name of the channel provider.<br><br> Example: Contoso|
+   |Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li>An underscore must be there between the prefix and name</li></ul>|
    |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
    |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
    |Enable Outbound Communication| Yes |
@@ -106,3 +105,6 @@ ms.custom:
 ## See also
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

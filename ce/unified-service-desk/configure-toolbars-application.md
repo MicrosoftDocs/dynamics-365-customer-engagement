@@ -1,14 +1,10 @@
 ---
 title: "Configure toolbars in your application | MicrosoftDocs"
-description: "Learn about configuring toolbars in your application."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about creating new toolbars, configuring existing toolbars, and customizing toolbar styles in your application."
 ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Configure toolbars in your application
 You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to create or manage buttons in an existing toolbar, or create new toolbars altogether. For an overview of toolbars, see [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md).  
@@ -790,3 +788,6 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
  [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

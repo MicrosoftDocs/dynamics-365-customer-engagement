@@ -1,22 +1,25 @@
 ---
-title: "getEnvironment (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
-ms.date: 12/31/2019
+title: "getEnvironment (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes reference information such as description, syntax, and parameters for the getEnvironment method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 03/14/2022
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
-# getEnvironment (CIF JavaScript API Reference)
+# getEnvironment (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
-[!INCLUDE[tokengetEnvironment](../../../shared/token-getEnvironment.md)]
+[!INCLUDE[token-getEnvironment](../../../shared/token-getEnvironment.md)]
+
+> [!Note]
+> The details like `etn`, `id`, `appid`, and `pagetype` will be available in the response object of the API only if the underlying focused session belongs to the channel provider.
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -1,10 +1,9 @@
 > [!NOTE]
-> This entity has been deprecated. It will still be visible in the [$metadata](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Common Data Service data is not supported.
+> This entity has been deprecated. It will still be visible in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Microsoft Dataverse data is not supported.
 
 Primary entity for session data
 
 **Added by**: Channel API Integration Framework Analytics Solution
-
 
 ## Messages
 
@@ -29,8 +28,8 @@ Primary entity for session data
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_SessionDatas|
-|DisplayCollectionName|Sessions Data|
-|DisplayName|Session Data|
+|DisplayCollectionName|Sessions Data (Deprecated)|
+|DisplayName|Session Data (Deprecated)|
 |EntitySetName|msdyn_sessionsdata|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_sessiondatas|
@@ -225,7 +224,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of the provider session|
 |DisplayName|Provider Session Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -241,7 +240,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Identifier of the queue to which this session belongs to|
+|Description|Identifier of the queue to which this session belongs|
 |DisplayName|Queue Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -257,7 +256,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the queue to which this session belongs to|
+|Description|Name of the queue to which this session belongs|
 |DisplayName|Queue Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -274,7 +273,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Additional data related to the session|
-|DisplayName|Session Additional Data|
+|DisplayName|Additional Data|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -291,7 +290,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Timestamp at which the agent was assigned to the session|
-|DisplayName|Session Agent Assigned Timestamp|
+|DisplayName|Agent Assigned Timestamp|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -305,7 +304,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Channel for the session|
-|DisplayName|Session Channel|
+|DisplayName|Channel|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -322,7 +321,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Timestamp at which the session was created|
-|DisplayName|Session Created Timestamp|
+|DisplayName|Created Timestamp|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -336,7 +335,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Reason for the session creation|
-|DisplayName|Session Creation Reason|
+|DisplayName|Creation Reason|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -367,7 +366,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Timestamp at which the queue was assigned to the session|
-|DisplayName|Session Queue Assigned Timestamp|
+|DisplayName|Queue Assigned Timestamp|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|

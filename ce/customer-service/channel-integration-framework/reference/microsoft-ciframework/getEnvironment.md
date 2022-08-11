@@ -1,22 +1,22 @@
 ---
-title: "getEnvironment (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
-ms.date: 02/03/2020
+title: "getEnvironment (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes reference information such as description, syntax, and parameters for the getEnvironment method in JavaScript API Reference for Channel Integration Framework 1.0. "
+ms.date: 03/14/2022
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
-# getEnvironment (CIF JavaScript API Reference)
+# getEnvironment (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
 [!INCLUDE[token-getEnvironment](../../shared/token-getEnvironment.md)]
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

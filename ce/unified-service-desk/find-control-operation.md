@@ -1,14 +1,10 @@
 ---
 title: "FindControl Operation in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the two approaches that can be used to identify a user interface (UI) control."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about the tree-based and offset-based identification approaches to find a user interface control in Unified Service Desk."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # FindControl Operation in Unified Service Desk
 This topic describes the two approaches that can be used to identify a user interface (UI) control.  
@@ -96,3 +94,6 @@ This topic describes the two approaches that can be used to identify a user inte
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

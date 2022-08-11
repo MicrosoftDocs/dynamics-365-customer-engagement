@@ -1,9 +1,10 @@
 ---
 title: "Web API Query Data Sample (Client-side JavaScript) | MicrosoftDocs"
+description: Learn how to perform basic query requests using the Dynamics 365 for Customer Engagement Web API and client-side JavaScript with this code sample.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Query Data Sample (Client-side JavaScript)
 
@@ -760,8 +760,11 @@ distinct=\"false\" page=\"3\" count=\"4\"> \
  [Query Data using the Web API](query-data-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Query Data Sample](web-api-query-data-sample.md)   
- [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)   
+ [Web API Query Data Sample (C#)](/power-apps/developer/data-platform/webapi/samples/cdswebapiservice-basic-operations)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)   
  [Web API Functions and Actions Sample (Client-side JavaScript)](web-api-functions-actions-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

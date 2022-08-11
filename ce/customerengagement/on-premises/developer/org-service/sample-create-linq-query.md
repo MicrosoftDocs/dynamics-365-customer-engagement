@@ -3,8 +3,8 @@ title: "Sample: Create a LINQ query (Developer Guide for Dynamics 365 Customer E
 description: "This sample shows how to create simple .NET Language-Integrated Query (LINQ) queries"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -22,8 +22,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create a LINQ query
 
@@ -55,6 +54,9 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
 [SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/CreateQuery/SampleProgram.cs)
   
 ### See also  
- [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
+ [Build Queries with LINQ (.NET Language-Integrated Query)](/powerapps/developer/data-platform/org-service/build-queries-with-linq-net-language-integrated-query)   
  [Sample: Complex LINQ Queries](sample-complex-linq-queries.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

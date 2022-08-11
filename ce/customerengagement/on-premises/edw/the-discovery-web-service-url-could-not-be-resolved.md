@@ -20,3 +20,6 @@ ms.author: matp
 ## Solution
  Make sure that the URL is in the correct format, such as *auth.crm.consolidatedmessenger.com:443*, and that the appropriate DNS entries exist. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

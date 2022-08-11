@@ -1,8 +1,10 @@
 ---
 title: "Get started with virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: Learn how to get started with virtual entities to integrate data residing in external systems for Dynamics 365 Customer Engagement (on-premises).
 ms.date: 06/21/2019
-ms.service: crm-online
+
 ms.topic: get-started-article
+ms.custom: intro-internal
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 14c5fbbc-98db-4e49-b245-2c84c1cd11cd
@@ -11,8 +13,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Get started with virtual entities
@@ -30,7 +31,7 @@ A data provider is a particular type of [!INCLUDE[pn-dynamics365](../../includes
 
 The following data providers ship with [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]:
 - An [OData v4](https://www.odata.org/documentation/) provider is included with the service and is installed by default.
-- An [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) (formerly _Microsoft Document DB_) provider is available from [AppSource](https://appsource.microsoft.com).
+- An [Azure Cosmos DB](/azure/cosmos-db/) (formerly _Microsoft Document DB_) provider is available from [AppSource](https://appsource.microsoft.com).
 
 Additional providers will be made available by Microsoft, its partners, or other third parties. If a data provider cannot be found for your external data source, you can develop a _custom virtual entity data provider_; for more information, see [Virtual entity data providers](custom-ve-data-providers.md).
 
@@ -57,3 +58,6 @@ In this release, there are some limitations to virtual entities that you need to
 - Once created, a virtual entity cannot be changed to be a standard (non-virtual) entity.  The reverse is also true: a standard entity cannot be converted into a virtual entity.
 
 For more information about how these limitations are reflected in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) API, see [API considerations of virtual entities](api-considerations-ve.md). 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,22 +1,23 @@
 ---
-title: "createRecord (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
+title: "createRecord (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the createRecord method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
-# createRecord (CIF JavaScript API Reference)
+# createRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!INCLUDE[createRecord](includes/createRecord-description.md)] 
 
 [!INCLUDE[token-createRecord](../../../shared/token-createRecord.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

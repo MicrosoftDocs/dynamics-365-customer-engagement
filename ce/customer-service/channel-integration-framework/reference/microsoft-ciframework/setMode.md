@@ -1,22 +1,23 @@
 ---
-title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
+title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the setMode method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2019
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
-# setMode (CIF JavaScript API Reference)
+# setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[setMode](includes/setMode-description.md)]
 
 [!INCLUDE[token-setMode](../../shared/token-setMode.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

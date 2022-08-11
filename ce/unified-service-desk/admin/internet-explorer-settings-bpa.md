@@ -1,16 +1,18 @@
 ---
 title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.date: 05/07/2018
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.date: 09/03/2020
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
+
+> [!Note]
+>
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
 
@@ -25,7 +27,7 @@ Tab Process Growth is the rate at which [!include[pn-internet-explorer](../../in
 Set **TabProcGrowth** value to **16**:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
+2. Go to **Computer**\\**HKEY_CURRENT_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
 3. Right-click **TabProcGrowth**, and then select **Modify**.
    > [!Note]
    > If the registry key isn't present, create it:<br>
@@ -46,7 +48,7 @@ Tab Shutdown Delay causes the [!include[pn-internet-explorer](../../includes/pn-
 Set **TabShutdownDelay** value to **0**:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main`.
 3. Right-click **TabShutdownDelay**, and then select **Modify**.
    > [!NOTE]
    > If the registry key isn't present, create it:<br>
@@ -74,7 +76,7 @@ You can disable the option using the Registry Editor or Internet options.
 To disable **Enable Enhanced Protected Mode** using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main`.
 3. Right-click **Isolation**, and then select **Modify**.
    > [!Note]
    > If the registry key isn't present, create it:<br>
@@ -108,7 +110,7 @@ You can disable the option using the Registry Editor or Internet options.
 To disable the option using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Recovery`.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Recovery`.
 3. Right-click **AutoRecover**, and then select **Modify**.
    > [!Note]
    > If the registry key isn't present, create it:<br>
@@ -140,7 +142,7 @@ You can enable the option using the Registry Editor or Internet options.
 To enable the option using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
    Numerically named folders are as follows:<br>
    - 1 (Intranet zone)
    - 2 (Trusted Sites zone)
@@ -168,7 +170,7 @@ To enable the option using Internet options:
 5. Select **Apply**, and then select **OK**.
 
 > [!TIP]
-> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](/archive/blogs/usd/ie-process-mode-gives-httpevent-popup).
 
 ## Cleanup HTCs
 
@@ -182,7 +184,7 @@ Set the **Cleanup HTCs** option to **Yes**:
 
 1. Go to **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**
 2. Double-click to open **regedit**.
-3. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer`.
+3. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer`.
 4. Right-click **Cleanup HTCs**, and then select **Modify**.
 5. In the **Value data** field, select **Yes**.
 6. Select **OK**.
@@ -214,3 +216,6 @@ If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or ea
 [System configurations](../admin/system-configurations-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,12 +2,12 @@
 title: "Sample: Set negative prices in opportunities, quotes, and sales orders sample-convert-opportunity-quote-early-bound.md (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to set negative prices in opportunities, quotes, and sales orders."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/02/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -15,18 +15,15 @@ helpviewer_keywords:
   - setting negative prices in opportunities; quotes; and sales orders, quote entities sample
   - negative prices, sample for setting in opportunities; quotes; and sales orders
 ms.assetid: 2fed76c3-f8f0-4fba-ac3b-3427438b17b9
-caps.latest.revision: 21
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Set negative prices in opportunities, quotes, and sales orders
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/SetNegativePricesOpportunitiesQuotesSales).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -46,3 +43,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [PriceLevel Entity](entities/pricelevel.md)   
  [Opportunity Entity](entities/opportunity.md)   
  [Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

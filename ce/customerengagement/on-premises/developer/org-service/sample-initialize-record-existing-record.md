@@ -3,7 +3,7 @@ title: "Sample: Initialize a record from an existing record (Developer Guide for
 description: "This sample shows how to use the IOrganizationService.InitializeFromRequest message to create new records from an existing record"
 keywords: 
 ms.date: 01/08/2020
-ms.service: crm-online
+
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -12,19 +12,18 @@ ms.assetid: 1d0d6df3-e905-4b63-beaa-3f72f73bfa17
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Initialize a record from an existing record
 
-This sample shows how to use the [IOrganizationService.InitializeFromRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.initializefromrequest?view=dynamics-general-ce-9) message to create new records from an existing record. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/InitializeRecordFromExisting).
+This sample shows how to use the [IOrganizationService.InitializeFromRequest](/dotnet/api/microsoft.crm.sdk.messages.initializefromrequest?view=dynamics-general-ce-9&preserve-view=true) message to create new records from an existing record. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/InitializeRecordFromExisting).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -55,3 +54,5 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

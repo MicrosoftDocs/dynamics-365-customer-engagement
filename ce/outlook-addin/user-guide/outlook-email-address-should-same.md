@@ -1,9 +1,10 @@
 ---
 title: "The Outlook email address should be the same as the Dynamics 365 apps email address | MicrosoftDocs"
+description: Learn how to resolve the 'Outlook email address should be the same as the Dynamics 365 apps email address' error in Dynamics 365 Apps.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -92,3 +93,6 @@ You’re seeing the following error message:
 6. Select the new account, and then choose **Set as Default**.  
   
 7. Choose **Close**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

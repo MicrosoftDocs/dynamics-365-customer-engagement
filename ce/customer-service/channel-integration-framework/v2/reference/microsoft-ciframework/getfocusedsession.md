@@ -1,19 +1,17 @@
 ---
-title: "getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
+title: "getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getFocusedSession method in JavaScript API Reference for Channel Integration Framework 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# getFocusedSession
+# getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
  
 
@@ -34,7 +32,7 @@ Returns the unique identifier of the session that is in focus, if it belongs to 
 | successCallback | Function | No           | A function to call when the request for setting the panel state is successful |
 | errorCallback   | Function | No           | A function to call when the request for setting the panel state fails         |
 
-## Return Value
+## Return value
 
 Promise with the value as String
 
@@ -52,3 +50,6 @@ console.log(error.message);
 }
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
