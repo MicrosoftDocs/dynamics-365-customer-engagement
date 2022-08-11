@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 07/06/2022
+ms.date: 08/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. Enable the feature to get the who knows whom suggestions.  
+The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. Configure the feature to select an email template to use for introductions.  
 
 
 >[!NOTE]
@@ -27,10 +27,12 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Prerequisite
+
+- Ensure that Relationship intelligence and who knows whom are enabled. More information [Enable relationship intelligence](enable-ri.md)
+
 
 ## To configure who knows whom 
-
-1. Enable [relationship intelligence](enable-ri.md) if you haven't already.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
@@ -42,14 +44,13 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 
     :::image type="content" source="media/wkw_mail_to_introduction.png" alt-text="Screenshot of an example introduction email":::
     > [!NOTE]
-    > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create).  
+    > For instructions on creating a new email template, see [Create email templates](/powerapps/user/email-template-create).  
 
 6. Select **Save**.
 1. If your organization is using a custom sales app or a custom form for lead or contact, add the [Who Knows Whom widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the who knows whom information available to sellers.
 
-    The who knows whom feature is ready to use in your organization.
-
-As a next step, work with your Microsoft 365 administrator to [provide consent](provide-consent-office365.md#provide-consent). This step is mandatory; users will see the suggestions only after the consent is provided.  
+    > [!IMPORTANT]
+    > Work with your Microsoft 365 administrator to [get consent](provide-consent-office365.md#provide-consent) to use Microsoft 365 data. This step is mandatory; users will see the suggestions only after the consent is provided.  
 
  
 

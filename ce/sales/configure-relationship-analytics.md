@@ -1,7 +1,7 @@
 ---
 title: Configure relationship analytics and health
 description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
-ms.date: 08/09/2022
+ms.date: 08/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

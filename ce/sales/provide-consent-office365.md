@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 08/01/2022
+ms.date: 08/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -54,7 +54,7 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
 
     A textbox to enter the security group IDs is displayed. 
 
-4. (Optional) In the textbox, Enter the security group IDs of users who want to opt out of sharing their communication and collaboration data.
+4. (Optional) In the textbox, enter the security group IDs of users who want to opt out of sharing their communication and collaboration data.
     
     > [!NOTE]
     > Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)

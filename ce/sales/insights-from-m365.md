@@ -1,7 +1,7 @@
 ---
 title: Insights generated from Microsoft 365 data
 description: Dynamics 365 can generate insights based on email interactions and meetings information from Microsoft 365. 
-ms.date: 07/18/2022
+ms.date: 08/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,8 +11,6 @@ manager: shujoshi
 # Insights generated from Microsoft 365 data
 
 This article describes the meaningful insights created from Microsoft 365 data by Dynamics 365 applications. The Microsoft 365 admin can turn on one or more of these options, allowing a copy of your company’s Microsoft 365 data to be copied into Dynamics 365 applications to be used by any authorized users of your company’s Dynamics 365 applications. 
-
-If Microsoft 365 admins wish to add a new security group to their currently existing security groups, they must use the **Dynamics 365 Sales Insights- Connection Graph** toggle to specify their new security group. Currently opted out users and security groups are automatically transitioned over and will remain opted out, but new security groups must be specified in the **Dynamics 365 Sales Insights- Connection Graph** toggle. More information: [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data) 
 
 If Microsoft 365 users choose to opt out, their data will not be accessible to any Dynamics 365 applications. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Enable relationship intelligence"
 description: "Relationship intelligence provides relationship analytics and who knows whom capabilities."
-ms.date: 07/01/2022
+ms.date: 08/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,16 +21,18 @@ Enable relationship intelligence to get the following insights based on your sel
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Prerequisites
+
+- Ensure that advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+- 
+
 ## To enable relationship intelligence
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
      
 3.  Under **Relationship insights**, select **Overview**.  
 
-    >[!NOTE]
-    >If you don't see **Relationship insights**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
-
-1. Turn on the toggle under **Get started with Relationship Intelligence**.
+1. Turn on the **Enable** toggle under **Get started with Relationship Intelligence**.
     The relationship intelligence features&mdash;relationship analytics and who knows whom&mdash;are turned on by default.  
     :::image type="content" source="media/enable-ri-overview.png" alt-text="A screenshot of the Overview page to enable the relationship intelligence features":::
 
@@ -50,9 +52,9 @@ Enable relationship intelligence to get the following insights based on your sel
 - Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Exchange data.
 
     > [!NOTE]
-    >- Until the consent is provided, a banner is displayed on the **Overview** page to notify the pending action.  
+    >- Until the consent is provided, a banner is displayed on the Relationship insights **Overview** page to notify the pending action.  
     > :::image type="content" source="media/enable-ri-overview-banner.png" alt-text="A screenshot highlighting the message banner when the consent isn't provided":::
-    >- After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last one year.  
+    >- After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last one year in 12 batches, with each batch containing emails for one month. Dynamics 365 can handle upto 8 million emails per month in this process.  
     >- Make sure the consent is provided within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom and exchange integration for relationship analytics will be automatically turned off on the 14th day.  
 
 - Select **Options** in the respective feature section to configure the feature. For more information on what you can configure, see:
