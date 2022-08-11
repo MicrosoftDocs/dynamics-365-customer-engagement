@@ -101,7 +101,7 @@ To make the app module available to the Field Service mobile app:
 
 ```
                 <appsettings>
-                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
+                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
                 <value>FieldServiceMobile</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>
@@ -109,7 +109,7 @@ To make the app module available to the Field Service mobile app:
                 </settingdefinitionid>
                 </appsetting>
                 
-                <appsetting uniquename="new_CustomAppModule_ServerMode">
+                <appsetting uniquename="new_CustomAppModule_ServerMode">
                 <value>false</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>
