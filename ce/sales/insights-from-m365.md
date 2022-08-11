@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Insights generated from Microsoft 365 data
 
-Dynamics 365 sales generates the following relationship insights using Microsoft 365 data:
+Dynamics 365 Sales generates the following relationship insights using Microsoft 365 data:
  
 - Relationship analytics and health
 - Who knows whom 
