@@ -2,15 +2,15 @@
 title: "Improve Field Service (Dynamics 365) mobile app performance - Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about you can improve the Field Service mobile app performance.
 ms.date: 01/19/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 search.app: 
   - D365CE
   - D365FS
