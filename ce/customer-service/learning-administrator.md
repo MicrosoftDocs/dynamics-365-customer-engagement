@@ -11,11 +11,11 @@ ms.author: kschimke
 
 
 
-Do you need to keep systems and data flowing, provisioned,and secure round-the-clock?
+Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 
-The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
+The following catalog is organized from core knowledge to specific domains, and from the most basic to the most advanced concepts. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
 
-## Getting Started<a name="get-started"></a>
+## Getting started<a name="get-started"></a>
 | Content | Description | Format | Length            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
 | [Implementing Dynamics 365 Customer Engagement Online](/learn/paths/implementing-customer-engagement-apps)                  | Create, design, and administer Microsoft Dynamics 365 Customer Engagement tenants and instances. Includes planning for multi-instance deployments, managing authentication methods, managing updates, back up and restore instances, installing and managing Microsoft Dynamics 365 clients for end-users, and authorizing access to different features for all users in the organization. | Free, self-paced online learning path | 5 hours 5 minutes |
