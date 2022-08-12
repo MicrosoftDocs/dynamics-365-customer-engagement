@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 08/01/2022
+ms.date: 08/12/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -57,28 +57,9 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
 
 ## Opt out security groups of sharing data
 
-As a Microsoft 365 administrator, you can opt out security groups of users who don't want to share their communications and collaboration data.
+The migration of opted out security groups to the new framework will happen from August 4, 2022 to August 22, 2022. During this period, administrators won't be able to opt out any new security groups. 
 
-> [!IMPORTANT]
-> The migration of the opted out security groups to the new framework will happen from August 4, 2022 to August 11, 2022. During this period, you'll not be able to opt out any security groups. 
-
-**To opt out security groups:**
-
-1. Go to the **Microsoft 365 admin center**.
-
-2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Screenshot of connection graph settings")
-
-3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
-
-4. Add the ID of security groups that you want to opt out. 
-
-5. Select **Save**.
-
-> [!NOTE]
-> Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
+However, individual users can opt out on their own. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
 
 ### See also
 
