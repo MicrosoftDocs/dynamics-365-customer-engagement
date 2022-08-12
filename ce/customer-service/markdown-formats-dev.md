@@ -4,7 +4,7 @@ description: "Use this topic to understand how Markdown formats are passed throu
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/02/2021
+ms.date: 08/12/2022
 ms.topic: reference
 ---
 # Preview: Markdown formats: Direct Line
