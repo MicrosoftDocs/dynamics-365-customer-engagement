@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 04/04/2022
+ms.date: 08/12/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -107,6 +107,9 @@ Work is routed to these queues that act as a safety net in the following scenari
 - Work item encounters an error during classification
 - Work item encounters an error when running a route-to-queue rule
 - Work item does not match any route-to-queue rules
+
+> [!Note]
+> You must add any new or existing Azure AD Team members *manually* to the team's default queue.
 
 ### See also
 
