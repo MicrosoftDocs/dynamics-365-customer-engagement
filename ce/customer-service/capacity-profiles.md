@@ -83,9 +83,9 @@ You need not define assignment rules specific to capacity profiles at queue leve
 
 For the system to efficiently manage agent workload, agent capacity needs to be released automatically when agents complete their assigned work items. Based on system settings, the agent capacity is released in the following manner:
 
-- **Conversation**: When the agent closes their session.
+- **Conversation**: When the agents end the conversation and close their session.
 - **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case, assigns it to another agent, or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
-- **Activities**: For activities, such as email that's configured for record routing, capacity is not released automatically. You'll need to go to the queue item dialog and remove the agent name from the **Worked By** field.
+- **All records and activities**: For activities, such as email that's configured for record routing, capacity is not released automatically. You'll need to go to the queue item dialog and remove the agent name from the **Worked By** field. Capacity is also released when the assigned queue item is deleted.
 
     :::image type="content" source="media/remove-agent-to-release-capacity.png" alt-text="Remove agent name from Worked By field to release capacity.":::
 
