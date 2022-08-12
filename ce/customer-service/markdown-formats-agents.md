@@ -45,7 +45,7 @@ The following table lists the Markdown formats that you can use for your chat me
 | new line                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
 
 > [!Note]
-> Currently, we don't support the usage of the **<Shift + Enter>** key combination to add multiple line breaks.
+> Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
 ### See also
 

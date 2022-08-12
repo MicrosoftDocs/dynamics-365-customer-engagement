@@ -41,7 +41,7 @@ The following table lists the Markdown formats used in inbound messages sent by 
 | new line                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
 
 > [!Note]
-> The Markdown format doesn't support the usage of the **<Shift + Enter>** key combination to add multiple line breaks.
+> Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
 For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
 
