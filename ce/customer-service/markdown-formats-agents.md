@@ -1,6 +1,6 @@
 ---
 title: "Use Markdown to format messages | MicrosoftDocs"
-description: "Use this article to get information on the Markdown formats that agents can use in Omnichannel for Customer Service."
+description: "Read this article to know about the Markdown formats that agents can use in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
