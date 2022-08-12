@@ -131,7 +131,7 @@ If you're using the service account of WeChat, perform the following steps:
 
 5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
 
-6. Copy the information that's displayed in the **IP allowlist** and **Server address (URL)** boxes. This step is required for only WeChat service account.
+6. Copy the information that's displayed in the boxes. This step is required for only WeChat service account.
 
     > [!div class=mx-imgBorder]
     > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
