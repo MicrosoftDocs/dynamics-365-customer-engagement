@@ -1,10 +1,10 @@
 ---
 title: "Markdown formats: Direct Line | MicrosoftDocs"
-description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service."
+description: "Use this article to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/02/2021
+ms.date: 08/12/2022
 ms.topic: reference
 ---
 # Preview: Markdown formats: Direct Line
@@ -38,6 +38,10 @@ The following table lists the Markdown formats used in inbound messages sent by 
 | monospace                 | \`\`\` <br> text<br>\`\`\`        | \`\`\` <br> text<br>\`\`\`            | ```text```                     |
 | numbered list             |  \<number\> item one                | \<number\> item one                     |  1. item one <br> 2. item two  |
 | unordered list            |\* item one <br>or<br> - item one  | `\* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
+| new line                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
+
+> [!Note]
+> Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
 For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
 
