@@ -6,7 +6,7 @@ ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
-author: FieldServiceDave
+author: m-hartmann
 ms.author: jobaker
 manager: shellyha
 search.app: 

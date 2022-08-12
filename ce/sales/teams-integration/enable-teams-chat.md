@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Sales Hub | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application."
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 search.app: 
   - D365CE
@@ -16,6 +16,17 @@ manager: shujoshi
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
+
+Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
+| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
+
+## Overview
 
 As an administrator, you can configure the ability for sellers to chat in Microsoft Teams from within the Sales Hub app and custom apps. This helps with effective collaboration on the sales records without having to leave the application.
 

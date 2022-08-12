@@ -2,11 +2,11 @@
 title: "Fulfillment preferences (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to use fulfillment preferences in Dynamics 365 Field Service
 ms.date: 12/06/2018
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

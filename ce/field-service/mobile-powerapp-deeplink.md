@@ -2,7 +2,7 @@
 title: "Use deep links with the Field Service (Dynamics 365) mobile app | Microsoft Docs"
 description: Learn about how to configure deep links for the Field Service (Dynamics 365) mobile app
 ms.date: 06/09/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
@@ -10,8 +10,8 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: krbjoran
+author: mhart
+ms.author: mhart
 manager: shellyha
 search.app:
 - D365CE
