@@ -57,7 +57,7 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
 
 ## Opt out security groups of sharing data
 
-We're migrating the existing opt-out security groups to a new framework from  August 4, 2022 to August 22, 2022. During this period, administrators won't be able to opt out any new security groups.
+We're migrating the existing opt-out security groups to a new framework from  August 4, 2022 to August 22, 2022. During this period, administrators won't be able to opt out any new security groups of sharing their collaboration data.
 
 However, individual users can opt out on their own. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
 
