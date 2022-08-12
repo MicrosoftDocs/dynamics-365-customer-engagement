@@ -1,6 +1,6 @@
 ---
 title: Implementation project managers learning catalog for sales
-description: Find all the training options for implementation project managers. 
+description: Learn about the training options available for implementation project managers in Microsoft Dynamics 365. 
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 01/08/2020
