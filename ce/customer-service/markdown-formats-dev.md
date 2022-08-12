@@ -1,6 +1,6 @@
 ---
 title: "Markdown formats: Direct Line | MicrosoftDocs"
-description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service."
+description: "Use this article to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
