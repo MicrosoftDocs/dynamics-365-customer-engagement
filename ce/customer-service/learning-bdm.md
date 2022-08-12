@@ -4,7 +4,7 @@ description: Learn about the training options available for business and technic
 ms.date: 01/08/2020
 ms.topic: article
 author: loreleishannonmsft
-ms.author: v-lshann
+ms.author: kschimke
 ---
 
 # Business and Technical Decision Makers Learning Catalog

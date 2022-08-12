@@ -4,7 +4,7 @@
 
 ## Parameters
 
-<table style="width:100%">
+<table>
   <tr>
     <th>Name</th>
     <th>Type</th> 
@@ -29,7 +29,7 @@
 <li><b>processId</b>: (Optional) String. ID of the business process to be displayed on the form.</li>
 <li><b>processInstanceId</b>: (Optional) String. ID of the business process instance to be displayed on the form.</li>
 <li><b>relationship</b>: (Optional) Object. Define a relationship object to display the related records on the form. The object has the following attributes.
-<table style="width:100%">
+</table>
   <tr>
     <th>Name</th>
     <th>Type</th> 

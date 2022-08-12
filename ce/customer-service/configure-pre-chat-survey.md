@@ -57,7 +57,7 @@ For the chat channel, you can configure a survey that users can respond to when 
 1. Optionally, you can change the order in which the questions are listed.
 
 
-### Configure a pre-conversation survey in Omnichannel Administration
+#### Configure a pre-conversation survey in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -70,7 +70,8 @@ You can configure your chat widget to show users a survey that they must respond
 5. Select **Add question**.
 
     > [!NOTE]
-    > You can add only five questions to a pre-chat survey. The length of each question should be less than or equal to 512 characters.
+    > - You can add only five questions to a pre-conversation survey. The length of each question should be less than or equal to 512 characters.
+    > - When you add a question to the pre-conversation survey, a corresponding context variable is created and is displayed in the  **Advanced settings** > **Context variables** section.
 
 6. In the **New Question** pane, provide the following information:
 
@@ -94,13 +95,7 @@ You can configure your chat widget to show users a survey that they must respond
 
 7. Select **Save and Close**. The questions are added in the **Pre-chat unauthenticated questions** area.
   
-    > [!div class=mx-imgBorder]
-    > ![Configure a pre-chat survey in a chat widget.](media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
-
 8. Optionally, select a question and select **Move up** or **Move down** in the right corner to change its order.
-
-    > [!div class=mx-imgBorder]
-    > ![Change the order of a question in a pre-chat survey.](media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
 ## Runtime view of survey questions
 

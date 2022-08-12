@@ -1,6 +1,6 @@
 ---
 title: Functional consultants learning catalog for sales
-description: Find all the training options for functional consultants. 
+description: Learn about the training options available for functional consultants in Microsoft Dynamics 365 Sales.
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 01/08/2020

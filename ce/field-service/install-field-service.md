@@ -4,9 +4,9 @@ description: Learn how to install Dynamics 365 Field Service.
 
 ms.topic: article
 ms.date: 10/13/2020
-ms.reviewer: krbjoran
-author: FieldServiceDave
-ms.author: daclar
+ms.reviewer: mhart
+author: m-hartmann
+ms.author: mhart
 ms.manager: shellyha
 search.app:
   - D365CE

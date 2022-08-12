@@ -1,13 +1,13 @@
 ---
 title: New and upcoming features in Field Service | Dynamics 365
 description: New and planned features for Field Service
-author: FieldServiceDave
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.reviewer: mhart
 manager: shellyha
 
 ms.date: 02/01/2022
 ms.topic: article
-ms.author: daclar
+ms.author: mhart
 search.app: 
   - D365CE
   - D365PS

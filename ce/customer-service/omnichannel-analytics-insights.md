@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 07/21/2022
+ms.date: 08/01/2022
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -100,6 +100,7 @@ To troubleshoot issues when you try to access or view the reports, see [Troubles
 ### See also
 
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

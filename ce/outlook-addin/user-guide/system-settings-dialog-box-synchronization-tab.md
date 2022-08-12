@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Synchronization tab | MicrosoftDocs"
+description: Learn how to use the System Settings's Synchronization tab for synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 

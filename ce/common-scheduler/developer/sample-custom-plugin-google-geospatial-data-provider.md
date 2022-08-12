@@ -5,12 +5,12 @@ ms.date: 04/01/2020
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 search.app: 
   - D365CE
   - D365PS
