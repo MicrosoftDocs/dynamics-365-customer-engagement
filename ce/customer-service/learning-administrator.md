@@ -24,6 +24,5 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Introduction to configuration in Dynamics 365 model-driven apps](https://docs.microsoft.com/learn/paths/introduction-configuration-dynamics-365-model-driven-apps/) | One of the key features of a Dynamics 365 model-driven app is its ability to be extended and customized without code. In this learning path, we'll explore the Power Platform's configuration abilities and how to use them for a model-driven app.  | Free, self-paced online learning path | 1 hour             |
 | [Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service](https://docs.microsoft.com/learn/paths/work-customer-service-omnichannel/)    | Developing and deploying true omnichannel solutions are critical to the success of any organization that provides customer service to its customers. By ensuring the unified and contextual experience regardless of the channel used, organizations can increase customer satisfaction, resolve issues faster, and increase revenue. With Dynamics 365’s Omnichannel for Customer Service solution, organizations deploy a true Omnichannel solution that exists inside the Dynamics 365 organization that they use every day. | Free, self-paced online learning path | 3 hours 30 minutes |
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
