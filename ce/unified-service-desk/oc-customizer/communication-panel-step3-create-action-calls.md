@@ -162,7 +162,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Data | IsCaseSession=False |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Omnichannel Session Accepted Order 15
+## Omnichannel Session Accepted (Order 15)
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -190,7 +190,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | SetVisualProperty | 
   | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
-## Omnichannel Session Accepted Order 10
+## Omnichannel Session Accepted (Order 10)
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
