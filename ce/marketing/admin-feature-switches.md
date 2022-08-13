@@ -1,8 +1,7 @@
 ---
 title: "Enable or disable optional and preview features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the Feature switches page to enable or disable optional and preview features in Dynamics 365 Marketing."
-ms.date: 02/07/2022
-
+ms.date: 08/12/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
