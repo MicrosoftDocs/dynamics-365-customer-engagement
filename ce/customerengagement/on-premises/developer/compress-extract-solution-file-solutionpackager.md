@@ -4,7 +4,7 @@ description: "SolutionPackager is a tool that can reversibly decompose a Dynamic
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,10 +17,11 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the SolutionPackager tool to compress and extract a solution file
+
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). For the Power Apps version of this topic, see: [SolutionPackager tool](/power-platform/alm/solution-packager-tool)*
 
 SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer Engagement (on-premises) compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
   
@@ -188,13 +189,12 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
  Unmanaged solution  
  An open solution with no restrictions on what can be added, removed, or modified. This is recommended during development of a solution.  
   
- The format of a compressed solution file will be different based on its type, either managed or unmanaged. The SolutionPackager can process compressed solution files of either type. However, the tool can’t convert one type to another. The only way to convert solution files to a different type, for example from unmanaged to managed, is by importing the unmanaged solution .zip file into a Dynamics 365 Customer Engagement (on-premises) server and then exporting the solution as a managed solution.  
+ The format of a compressed solution file will be different based on its type, either managed or unmanaged. The SolutionPackager can process compressed solution files of either type. However, the tool can’t convert one type to another. The only way to convert solution files to a different type, for example from unmanaged to managed, is by importing the unmanaged solution .zip file into a Dynamics 365 Server and then exporting the solution as a managed solution.  
   
  The SolutionPackager can process unmanaged and managed solution .zip files as a combined set via the /PackageType:Both parameter. To perform this operation, it is necessary to export your solution twice as each type, naming the .zip files as follows.  
   
-|||  
-|-|-|  
-|Unmanaged .zip file: AnyName.zip|Managed .zip file: AnyName_managed.zip|  
+- Unmanaged .zip file: AnyName.zip
+- Managed .zip file: AnyName_managed.zip
   
  The tool will assume the presence of the managed zip file in the same folder as the unmanaged file and extract both files into a single folder preserving the differences where managed and unmanaged components exist.  
   
@@ -240,5 +240,6 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
 ### See also  
  [Solution Tools for Team Development](solution-tools-team-development.md)   
  [Use Source Control with Solution Files](use-source-control-solution-files.md)   
- [Solution Component File Reference](solution-component-file-reference-solutionpackager.md)   
  [Introduction to Solutions](introduction-solutions.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,7 +13,7 @@ ms.assetid: 445E87AC-42EA-4FD2-852E-281AEFC2AB18
 ms.custom: 
 ---
 
-**Microsoft Dynamics Insider Program Agreement**
+# Microsoft Dynamics Insider Program Agreement
 
 **Last Updated: April 2018**
 
@@ -31,7 +31,7 @@ The parties agree as follows:
 
 **Section 2. Use of Previews.**
 
-**(a)	Required Offerings.** Certain Microsoft services or software may be necessary to use a particular Preview ("_**Required Offerings**_"). Microsoft does not grant any rights under this Agreement to access or use Required Offerings; rather, Required Offerings are separately licensed to Participant under a Microsoft Licensing Agreement, which may require paying a fee. The Required Offerings for a given Preview will be identified in the Preview Terms. "_**Microsoft Licensing Agreement**_" or "_**MLA**_" means the Microsoft Online Services Terms (see [http://microsoftvolumelicensing.com](http://microsoftvolumelicensing.com)) and Participant's Microsoft volume licensing agreement, or any other applicable agreement, under which Participant subscribed or was granted a license to to any Required Offerings.
+**(a)	Required Offerings.** Certain Microsoft services or software may be necessary to use a particular Preview ("_**Required Offerings**_"). Microsoft does not grant any rights under this Agreement to access or use Required Offerings; rather, Required Offerings are separately licensed to Participant under a Microsoft Licensing Agreement, which may require paying a fee. The Required Offerings for a given Preview will be identified in the Preview Terms. "_**Microsoft Licensing Agreement**_" or "_**MLA**_" means the Microsoft Online Services Terms (see [https://microsoftvolumelicensing.com](https://microsoftvolumelicensing.com)) and Participant's Microsoft volume licensing agreement, or any other applicable agreement, under which Participant subscribed or was granted a license to to any Required Offerings.
 
 **(b) Rights.** During the Term, Microsoft grants Participant a non-exclusive, non-transferable, non-sublicensable right to access and use, solely in accordance with this Agreement, any Previews that Microsoft selects Participant to participate in. This Section 2(b) extends to Participant's authorized users, and Participant is fully liable for their use.
 
@@ -102,3 +102,5 @@ The parties agree as follows:
 **(g)	Interpretation.** This Agreement will be interpreted according to its plain meaning without presuming it should favor either party. Unless stated or context requires otherwise: **(i)** all internal references are to this Agreement and its parties; **(ii)** "_**days**_" means calendar days; **(iii)** "_**may**_" means that the applicable party has a right, but not a concomitant duty; **(iv)** "_**notify**_" means to give notice under (and "_**notice**_" means a notice that complies with) Section 11(b); **(v)** "_**current**_" or "_**currently**_" means "as of the Effective Date" but "_**then-current**_" means the present time when the applicable right is exercised or performance rendered or measured; **(vi)** URLs are understood to also refer to successors, localizations, and information or resources linked from within websites at such URLs; **(vii)** lists of examples following "including", "e.g.", "such as", "excludes", "for example", or similar words are deemed to include "without limitation"; **(viii)** the word "or" is deemed to be an inclusive "_**or**_"; and **(ix)** a party's choices under this Agreement are in its sole discretion.
 
 **(h)	Modification.** Microsoft may modify this Agreement, solely with prospective effect. By continuing to access or use the Insider Program website or any Preview after notice of such modification, Participant is deemed to have agreed to such modified Agreement. If Participant does not agree, it must immediately terminate this Agreement under Section 9(a).
+
+

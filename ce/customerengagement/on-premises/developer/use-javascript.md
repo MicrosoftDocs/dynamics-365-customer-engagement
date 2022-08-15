@@ -3,7 +3,7 @@ title: "Use JavaScript with Dynamics 365 Customer Engagement (Developer Guide fo
 description: "This topic helps you explore various opportunities that Dynamics 365 Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
 ms.custom: 
 ms.date: 06/24/2019
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -15,8 +15,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use JavaScript with Customer Engagement (on-premises)
 
@@ -65,7 +64,7 @@ search.app:
    
 ## Write JavaScript for multiple browsers  
 
- Because you don’t know what browser will be in use, you should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Client API](clientapi/understand-clientapi-object-model.md), the changes required to support other browsers could be small.  
+ Because you don’t know what browser will be in use, you should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Client API](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model), the changes required to support other browsers could be small.  
   
  A cross-browser library like jQuery is a good solution for developing web resources but should not be necessary for form scripts or ribbon commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid using jQuery for form scripts](/powerapps/developer/model-driven-apps/clientapi/client-scripting-best-practices#avoid-using-jquery-for-form-scripts)   
  
@@ -86,7 +85,7 @@ search.app:
 <a name="bkmk_useJavaScriptFramework"></a>
 
 ### Use a cross-browser JavaScript library for HTML web resource user interfaces  
- A cross-browser [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library, such as [jQuery](http://jquery.com/), provides many advantages when developing HTML web resources that must support multiple browsers. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide a unified development experience for all browsers supported by Dynamics 365 Customer Engagement (on-premises). These capabilities are appropriate when you are using HTML web resources to provide user interfaces. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide consistent ways to interact with the Document Object Model (DOM).  
+ A cross-browser [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library, such as [jQuery](https://jquery.com/), provides many advantages when developing HTML web resources that must support multiple browsers. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide a unified development experience for all browsers supported by Dynamics 365 Customer Engagement (on-premises). These capabilities are appropriate when you are using HTML web resources to provide user interfaces. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide consistent ways to interact with the Document Object Model (DOM).  
   
 <a name="bkmk_nojQuery"></a>
  
@@ -118,7 +117,7 @@ search.app:
  
 ### Do not access the DOM
 
- [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers are used to interacting with Document Object Model (DOM) elements in code. You might use the `window.getElementById` method or the jQuery library. You are free to use these techniques in your HTML web resources, but they are not supported to access elements in Dynamics 365 Customer Engagement (on-premises) application pages or entity forms. Instead, access to entity form elements are exposed through the [Client API object model](clientapi/understand-clientapi-object-model.md). The Dynamics 365 Customer Engagement (on-premises) development team reserves the right to change how pages are composed, including the `ID` values for elements, so using the [Client API object model](clientapi/understand-clientapi-object-model.md) protects your code from changes in how pages are implemented.  
+ [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers are used to interacting with Document Object Model (DOM) elements in code. You might use the `window.getElementById` method or the jQuery library. You are free to use these techniques in your HTML web resources, but they are not supported to access elements in Dynamics 365 Customer Engagement (on-premises) application pages or entity forms. Instead, access to entity form elements are exposed through the [Client API object model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model). The Dynamics 365 Customer Engagement (on-premises) development team reserves the right to change how pages are composed, including the `ID` values for elements, so using the [Client API object model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model) protects your code from changes in how pages are implemented.  
   
 <a name="bkmk_DefineUniqueNames"></a>
   
@@ -135,7 +134,7 @@ search.app:
  When you access data by using the Dynamics 365 Customer Engagement (on-premises) web services, always use an [XMLHttpRequest](https://msdn.microsoft.com/library/ms535874\(VS.85\).aspx) that is configured to execute asynchronously. The reason is that the browser operates on a single thread. If that thread is being used to execute a long-running process synchronously the browser will stop responding.  
   
 > [!NOTE]
->  Synchronous XMLHttpRequests are deprecated on the main thread of the browser because of the detrimental effects to the end user’s experience. Some browsers now provide a warning when this is detected. If browsers implement the specification at some time in the future an InvalidAccessError exception will be thrown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [http://www.w3.org/TR/XMLHttpRequest/#synchronous-flag](http://www.w3.org/TR/XMLHttpRequest/) and [https://xhr.spec.whatwg.org/#the-open()-method](https://xhr.spec.whatwg.org/)  
+>  Synchronous XMLHttpRequests are deprecated on the main thread of the browser because of the detrimental effects to the end user’s experience. Some browsers now provide a warning when this is detected. If browsers implement the specification at some time in the future an InvalidAccessError exception will be thrown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [https://www.w3.org/TR/XMLHttpRequest/#synchronous-flag](https://www.w3.org/TR/XMLHttpRequest/) and [https://xhr.spec.whatwg.org/#the-open()-method](https://xhr.spec.whatwg.org/)  
   
   
   
@@ -146,6 +145,9 @@ search.app:
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)<br />
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)<br />
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
- [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />
- [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
- [Blog: Debugging JavaScript code in CRM using browser developer tools](http://go.microsoft.com/fwlink/p/?LinkId=715699)<br />
+ <!--[Use the Web API with web resources](/powerapps/developer/model-driven-apps/clientapi/get-started-web-api-client-side-javascript)<br />-->
+ [Understand the Client API Object Model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model)<br />
+ 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

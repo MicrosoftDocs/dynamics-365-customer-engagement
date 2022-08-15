@@ -1,9 +1,10 @@
 ---
 title: "Work offline with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about working offline with Dynamics 365 for Outlook, the prerequisites for working offline, and what features are unavailable for the offline mode.
 ms.custom: 
 ms.date: 09/17/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -36,7 +37,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 The following operating systems are supported for offline mode.
 
- ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+ ![Offline Support.](../media/OfflineSupport.PNG "Offline Support") 
   
 <a name="BeforeYouGoOffline"></a>   
 ## Before you go offline  
@@ -150,3 +151,6 @@ The following operating systems are supported for offline mode.
   
 ### See also  
  [Set up Dynamics 365 for Outlook](set-up.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

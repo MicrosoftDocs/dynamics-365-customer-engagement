@@ -3,8 +3,8 @@ title: "Understand charts: Underlying data and chart representation (Developer G
 description: "Charts display data visually by mapping textual values on two axes: horizontal (x) and vertical (y). In Dynamics 365 Customer Engagement, the x axis is called the category axis and the y axis is called the series axis."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Understand charts: Underlying data and chart representation
 
@@ -52,12 +51,12 @@ Charts display data visually by mapping textual values on two axes: horizontal (
  The data description XML string contains the following two elements: `<FetchCollection>` and `<CategoryCollection>`.  
   
 ### The \<FetchCollection> element  
- The `<FetchCollection>` element uses FetchXML to retrieve data for the chart. The FetchXML query specifies information about the entity attributes, aggregate functions, and the group by clauses for the data to be displayed in a chart. All the FetchXML aggregate functions are supported for charts. For more information about the FetchXML aggregate functions, see [Using FetchXML Aggregration](../org-service/use-fetchxml-aggregation.md).  
+ The `<FetchCollection>` element uses FetchXML to retrieve data for the chart. The FetchXML query specifies information about the entity attributes, aggregate functions, and the group by clauses for the data to be displayed in a chart. All the FetchXML aggregate functions are supported for charts. For more information about the FetchXML aggregate functions, see [Using FetchXML Aggregration](/powerapps/developer/data-platform/use-fetchxml-aggregation).  
   
- The FetchXML query enables you to filter your data. Also, filters are applied on charts through views. Therefore, if a filter condition is already specified in the FetchXML query in the `<FetchCollection>` element, and additionally a filter is applied through a view, the chart will display data that is returned after it applies all the filters. For more information about how to use the FetchXML query to filter data, see [Building Queries with FetchXML](../org-service/build-queries-fetchxml.md).  
+ The FetchXML query enables you to filter your data. Also, filters are applied on charts through views. Therefore, if a filter condition is already specified in the FetchXML query in the `<FetchCollection>` element, and additionally a filter is applied through a view, the chart will display data that is returned after it applies all the filters. For more information about how to use the FetchXML query to filter data, see [Building Queries with FetchXML](/powerapps/developer/data-platform/use-fetchxml-construct-query).  
   
 > [!NOTE]
->  Although the data description XML string is validated again the visualization data description schema, the FetchXML query inside the `<FetchCollection>` element is not. The FetchXML query is validated against the FetchXML schema. For more information, see [Fetch XML Schema](../org-service/fetchxml-schema.md).  
+>  Although the data description XML string is validated again the visualization data description schema, the FetchXML query inside the `<FetchCollection>` element is not. The FetchXML query is validated against the FetchXML schema. For more information, see [Fetch XML Schema](/powerapps/developer/data-platform/fetchxml-schema).  
   
  If the chart is a comparison chart, the `<FetchCollection>` element will contain two *group by* clauses.  
   
@@ -93,7 +92,7 @@ Charts display data visually by mapping textual values on two axes: horizontal (
  For more sample data description XML strings, see [Sample Charts](sample-charts.md).  
   
 ## Use the presentation description XML string to specify data representation  
- The presentation description XML string contains information about the appearance of the chart such as chart title, chart color, and chart type (bar, column, line, and so on). There is no schema definition for this XML string. However, the XML is a serialization of the [Chart](https://msdn.microsoft.com/library/system.web.ui.datavisualization.charting.chart.aspx) class in [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Chart Controls](http://go.microsoft.com/fwlink/p/?LinkId=128301)  
+ The presentation description XML string contains information about the appearance of the chart such as chart title, chart color, and chart type (bar, column, line, and so on). There is no schema definition for this XML string. However, the XML is a serialization of the [Chart](/dotnet/api/system.web.ui.datavisualization.charting.chart) class in [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Chart Controls](https://go.microsoft.com/fwlink/p/?LinkId=128301)  
   
  You can specify the presentation description XML string while you are creating a chart using the `SavedQueryVisualization.PresentationDescription` or `UserQueryVisualization.PresentationDescription` attribute for the organization-owned or user-owned chart, respectively.  
   
@@ -132,8 +131,11 @@ Charts display data visually by mapping textual values on two axes: horizontal (
  [Visualizations (Charts)](view-data-with-visualizations-charts.md)   
  [Actions on Visualizations (Charts)](actions-visualizations-charts.md)   
  [Create a Chart](create-visualization-chart.md)   
- [Building Queries with FetchXML](../org-service/build-queries-fetchxml.md)   
- [Fetch XML Schema](../org-service/fetchxml-schema.md)   
+ [Building Queries with FetchXML](/powerapps/developer/data-platform/use-fetchxml-construct-query)   
+ [Fetch XML Schema](/powerapps/developer/data-platform/fetchxml-schema)   
  [Visualization Data Description Schema](visualization-data-description-schema.md)   
  [Sample Charts](sample-charts.md)   
- [Chart Class (Microsoft Chart Controls)](https://msdn.microsoft.com/library/system.web.ui.datavisualization.charting.chart.aspx)
+ [Chart Class (Microsoft Chart Controls)](/dotnet/api/system.web.ui.datavisualization.charting.chart)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

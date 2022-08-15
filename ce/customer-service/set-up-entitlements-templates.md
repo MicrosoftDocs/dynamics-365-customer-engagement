@@ -1,14 +1,11 @@
 ---
 title: Set up entitlements quickly with templates (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to set up entitlements quickly with templates in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
-manager: shujoshi
-ms.date: 10/01/2018
+description: "See how to set up entitlements quickly with templates in Dynamics 365 Customer Service"
+ms.date: 04/04/2022
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -16,9 +13,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
-# Use entitlement templates to set up entitlements quickly
+# Use entitlement templates to set up entitlements
 
 Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in Dynamics 365 Customer Service. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
 
@@ -26,6 +25,8 @@ Quickly create other entitlements prefilled with the basic information like the 
 > With the latest release of Dynamics 365 Customer Service app, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
 
 ## Create an entitlement template  
+
+You can create an entitlement template in the Customer Service admin center or Customer Service Hub app. 
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -34,39 +35,52 @@ Quickly create other entitlements prefilled with the basic information like the 
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Templates** > **Entitlement Templates**.
+
+2. Go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+    1.  In the **Entitlement Templates** section, select **Manage**.                                                                         
+        
+        The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, go to **Service Management**.
+    1. From the list of entity records, select **Entitlement Templates** in **Templates**.                                                              
+       
+       The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.
 
     > [!NOTE]
     > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Entitlement Templates**.
   
 4. To create a new entitlement template, select **New** in the entitlement template search box.  
   
-5. Type or modify information in the text boxes.  
+5. Add or edit information in the text boxes.  
   
-    Hovertips provide hints about what to enter.  
+   - **Entitlement Template Name**: Enter a name for the entitlement template.
   
-   - **Entitlement Template Name**. Enter a name for the entitlement template.
+   - **Start Date**: Select the date from when the entitlement will be valid.  
   
-   - **Start Date**. Select the date from which the entitlement will be valid.  
+   - **End Date**: Select the date until when the entitlement will be valid.  
   
-   - **End Date**. Select the date until which the entitlement will be valid.  
+   - **Restrict based on entitlement terms**: To restrict creating case when the entitlement term is over, select Yes. Otherwise, select **No**.  
   
-   - **Restrict based on entitlement terms**. To restrict creating case when the entitlement term is over, select Yes. Otherwise, select **No**.  
-  
-   - **SLA**. Select an SLA record to associate the service levels or key performance indicators for the support you are providing with this entitlement.  
+   - **SLA**: Select an SLA record to associate the service levels or key performance indicators for the support you are providing with this entitlement.  
   
      Under **Entitlement Terms**, specify the term details for the entitlement: 
   
-     - **Allocation Type**. Select whether the entitlement is for number of hours or number of cases.  
+     - **Allocation Type**: Select whether the entitlement is for number of hours or number of cases.  
   
-     - **Decrease Remaining On**. Select whether to decrease the remaining term on case creation or resolution.  
+     - **Decrease Remaining On**: Select whether to decrease the remaining term on case creation or resolution.  
   
-     - **Total Term**. Specify the total amount of support the customer is entitled to with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in Total term, then the customer is entitled to support up to 100 cases.  
+     - **Total Term**: Specify the total amount of support the customer is entitled to with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in Total term, then the customer is entitled to support up to 100 cases.  
   
 6. Select **Save**. 
   
-### Add entitlement channels  
+### Add entitlement channels
+
  Use the **Entitlement Channels** section to define the channels your customers are entitled to, and track the customer support term for each channel separately. For example, to use phone and email as support channels, and restrict them to 80 and 20 hours respectively, create an entitlement channel for each of them.  
   
 > [!NOTE]
@@ -87,5 +101,9 @@ Quickly create other entitlements prefilled with the basic information like the 
 > [!NOTE]
 > In the Customer Service app, you can also select to open the template form in the **Form Editor** in case you want to add additional sections to the form.
   
-### See also  
+### See also
+
  [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

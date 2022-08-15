@@ -29,7 +29,7 @@ namespace Microsoft.Crm.Sdk.Samples
 		//Begin - Needed for tokenmode
 		private string organizationName = "AdventureWorksCycle";
 		private bool isTokenMode = false;
-		private string OrganizationClaimType = @"http://schemas.microsoft.com/crm/2011/claims/Organization";
+		private string OrganizationClaimType = @"https://schemas.microsoft.com/crm/2011/claims/Organization";
 
 		private string StsPath(string solutionName, bool isServiceBusScope)
 		{

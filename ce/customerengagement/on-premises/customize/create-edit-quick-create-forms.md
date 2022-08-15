@@ -1,10 +1,10 @@
 ---
-title: "Create or edit quick create forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a quick create form"
+title: "Use quick create forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create or edit quick create forms, ensuring streamlined data entry with support for logic defined by form scripts and business rules."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,12 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
----
-# Create or edit quick create forms for a streamlined data entry experience
 
- 
+---
+# Create or edit quick create forms for streamlined data entry
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app quick create forms for a streamlined data entry experience](/powerapps/maker/model-driven-apps/create-edit-quick-create-forms) 
 
  With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In Dynamics 365 Customer Engagement (on-premises), quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   
@@ -32,10 +31,14 @@ search.app:
 ## Entities with quick create forms  
  By default only the following system entities have quick create forms.  
   
-|||||  
-|-|-|-|-|  
-|Account|Campaign Response|Case|Competitor|  
-|Contact|Lead|Opportunity| Activity |  
+- Account
+- Campaign Response
+- Case
+- Competitor
+- Contact
+- Lead
+- Opportunity
+- Activity
   
 <!-- Although you can create quick create forms for system activity entities, with the exception of the appointment entity, they do not support quick create forms. With the release of Dynamics 365 for Customer Engagement, version 9.0, the appointment entity includes a quick create form for use with the Unified Interface. Currently, the option to disable the quick create form for the appointment entity is not supported.--> 
 Any of the [updated entities](../customize/create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for the entity. 
@@ -102,3 +105,6 @@ If you add a composite field to a quick create form, it will be displayed as sep
 ### See also  
  [Create and design forms](../customize/create-design-forms.md)</br>
  [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

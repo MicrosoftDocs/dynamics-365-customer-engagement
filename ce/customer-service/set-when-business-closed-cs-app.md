@@ -1,14 +1,11 @@
 ---
 title: Set when your business is closed (Dynamics 365 Customer Service) | MicrosoftDocs
-description: View how to set when your business is closed in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
-manager: shujoshi
+description: Learn how to define both the days and times that your organization will be closed in Microsoft Dynamics 365 Customer Service.
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Set when your business is closed (Customer Service app)
@@ -60,9 +59,12 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
 6.  To save this business closure, select **OK**.  
 
 
-    ![business-closure-cs](media/business-closure-cs-app.png)
+    ![business-closure-cs.](media/business-closure-cs-app.png)
   
 ### See also  
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)   
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)   
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

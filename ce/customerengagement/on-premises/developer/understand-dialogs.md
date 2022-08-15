@@ -3,8 +3,8 @@ title: "Understand dialogs (Developer Guide for Dynamics 365 Customer Engagement
 description: "Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a child dialog, and then invoke that dialog from within a parent dialog"
 ms.custom: 
 ms.date: 05/24/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,21 +17,20 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Understand dialogs
 
 Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a *child dialog*, and then invoke that dialog from within a parent dialog. 
 
 > [!IMPORTANT]
-> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in PowerApps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
+> [Dialogs are deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](/flow/replace-dialogs).
   
 <a name="DialogComponents"></a>   
 ## Dialog components  
  The following diagram illustrates a sample dialog page and its components.  
   
- ![Components of a dialog](media/sample-dialog.png "Components of a dialog")  
+ ![Components of a dialog.](media/sample-dialog.png "Components of a dialog")  
   
  Let us look at each component in detail.  
   
@@ -61,7 +60,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
   
   The user response for each `Prompt and Response` step is stored as the step variable, and can be used later in the dialog flow.  
   
-  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<http://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in Dynamics 365 Customer Engagement (on-premises).  
+  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<https://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in Dynamics 365 Customer Engagement (on-premises).  
   
   By default, each response is logged, and is available in the respective process session record. However, you can turn off response logging for a prompt and response step that contains sensitive customer information, such as credit card details, to prevent possible misuse of the data.  
   
@@ -111,3 +110,6 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ### See also  
  [Work with Dialogs](use-dialogs-guided-processes.md)   
  [Actions on Dialogs and Dialog Sessions](actions-dialogs.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,37 +1,29 @@
 ---
-title: "onpagenavigate (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "onPageNavigate (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
+description: "Learn about the onPageNavigate event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 106AB52E-F2B9-4C17-8FBC-54D71BF80D7D
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# onpagenavigate event (CIF JavaScript API reference)
+# onPageNavigate event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
-The `onpagenavigate` event is invoked when the main Unified Interface page navigation occurs. The eventData URL is the navigated Unified Interface page URl.
+[!INCLUDE[token-onpagenavigate](../../shared/token-onpagenavigate.md)]
 
-## eventData
+### See also
 
-The `onpagenavigate` event takes following eventData:
 
-| eventData | Example |
-|-----------|---------|
-| ```{"value": <url>}``` | ```{"value": "https://mycrmorg.dynamics.com/<Org>/main.aspx?appid=25ac68f2-9ab5-e811-8149-000d3a43f05f&pagetype=entitylist&etn=contact"}``` |
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-## Related topics
+[removeHandler](../microsoft-ciframework/removeHandler.md)
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
 
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
 
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

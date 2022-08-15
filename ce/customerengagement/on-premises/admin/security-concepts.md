@@ -1,12 +1,13 @@
 ---
-title: "Security concepts  | MicrosoftDocs"
+title: "Security model in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how the security model in Dynamics 365 Customer Engagement (on-premises) is used to protect the data integrity and privacy of an organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -17,11 +18,9 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Security concepts
+# Security model concepts
 
 You use the security model in Dynamics 365 Customer Engagement (on-premises) to protect the data integrity and privacy in a Customer Engagement (on-premises) organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
   
@@ -86,7 +85,7 @@ You combine business units, role-based security, record-based security, and fiel
   
 <a name="WP"></a>   
 ## Security Modeling with Customer Engagement (on-premises) 
- For detailed information about and best practices for designing  the  security model in Customer Engagement (on-premises), read the [Scalable Security Modeling with Microsoft Dynamics CRM](http://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
+ For detailed information about and best practices for designing  the  security model in Customer Engagement (on-premises), read the [Scalable Security Modeling with Microsoft Dynamics CRM](https://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
   
 ### See also  
  [Field level security](../admin/field-level-security.md)   
@@ -99,3 +98,6 @@ You combine business units, role-based security, record-based security, and fiel
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

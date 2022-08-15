@@ -3,8 +3,8 @@ title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Custom
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 Customer Engagement and retrieve organizations that the current user has access to"
 author: Nkrb
 ms.date: 03/27/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -16,8 +16,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)
@@ -25,7 +24,7 @@ search.app:
 XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to Dynamics 365 Customer Engagement (on-premises) and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
 
 > [!NOTE]
-> The PowerShell cmdlets documentation that is applicable to Common Data Service users is now available in the PowerApps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
+> The PowerShell cmdlets documentation that is applicable to Dataverse users is now available in the Power Apps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Dataverse](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
   
 <a name="Prereq"></a> 
 
@@ -72,16 +71,16 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 
 2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:
   
-   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
+   - If you’re connecting to the Dynamics 365 Server:  
   
      ```powershell  
-     $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred  
+     $CRMOrgs = Get-CrmOrganizations –ServerUrl https://<CRM_Server_Host> –Credential $Cred  
      ```      
   
-   - If you’re connecting to the  Dynamics 365 Customer Engagement (on-premises) server using the claims-based authentication against the specified Home realm:  
+   - If you’re connecting to the  Dynamics 365 Server using the claims-based authentication against the specified Home realm:  
   
      ```powershell  
-     $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred –HomRealmURL http://<Identity_Provider_Address>  
+     $CRMOrgs = Get-CrmOrganizations –ServerUrl https://<CRM_Server_Host> –Credential $Cred –HomRealmURL https://<Identity_Provider_Address>  
      ```  
   
 3. Your supplied credentials are validated when you run the command in step 2. On successful execution of the command, type the following command, and press ENTER to display the organizations that you have access to:  
@@ -90,7 +89,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    $CRMOrgs  
    ```  
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 Customer Engagement (on-premises) organization information](../media/xrmtooling-powershell-1.png)  
+   > ![Dynamics 365 Customer Engagement (on-premises) organization information.](../media/xrmtooling-powershell-1.png)  
   
    > [!TIP]
    > You can use the variable that was used to store the retrieved  Dynamics 365 Customer Engagement (on-premises) organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to  Dynamics 365 Customer Engagement (on-premises). To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
@@ -122,16 +121,16 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
   
 1. To connect to Dynamics 365 Customer Engagement (on-premises), use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
   
-   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
+   - If you’re connecting to the Dynamics 365 Server:  
   
      ```powershell  
-     $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
+     $CRMConn = Get-CrmConnection –ServerUrl https://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
      ```
   
-   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server using the claims-based authentication against the specified Home realm:  
+   - If you’re connecting to the Dynamics 365 Server using the claims-based authentication against the specified Home realm:  
   
      ```powershell  
-     $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName> –HomRealmURL http://<Identity_Provider_Address>  
+     $CRMConn = Get-CrmConnection –ServerUrl https://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName> –HomRealmURL https://<Identity_Provider_Address>  
      ```  
   
    > [!NOTE]
@@ -144,10 +143,13 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    ```  
   
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 Customer Engagement connection information and status")  
+   > ![Dynamics 365 Customer Engagement connection information and status.](../media/xrm-tooling-powershell-2.png "Dynamics 365 Customer Engagement connection information and status")  
   
 ### See also
 
-[Use XRM Tooling API to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
+[Use XRM Tooling API to connect to Dataverse](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
 [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
-[Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+[Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](https://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

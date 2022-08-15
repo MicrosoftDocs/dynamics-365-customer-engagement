@@ -1,18 +1,18 @@
 ---
-title: Set the capacity required for a service or resource (Dynamics 365 Customer Service) | MicrosoftDocs
-description: View how to set the capacity required for a service or resource in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
-manager: shellyha
+title: Set the capacity required for a service or resource in Dynamics 365 Customer Service | MicrosoftDocs
+description: Learn how to define the capacity required for a service or resource in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6a67450b-dccc-471c-9e09-13a169f497cf
-ms.custom: dyn365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
@@ -23,7 +23,7 @@ search.app:
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You must set both the capacity of the service and the resources required for the service.  
   
@@ -92,3 +92,6 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 ### See also  
  [Create or edit a selection rule](../field-service/create-simple-selection-rule.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

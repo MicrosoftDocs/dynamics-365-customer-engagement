@@ -2,9 +2,9 @@
 title: "Use Dynamics 365 Customer Engagement (on-premises) web services (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "This topic introduces available web service APIs that you will use when you write programs for Dynamics 365 Customer Engagement (on-premises) and provides basic information to understand and compare them"
 ms.custom: 
-ms.date: 09/05/2019
-ms.reviewer: "pehecke"
-ms.service: 
+ms.date: 06/08/2022
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use Dynamics 365 Customer Engagement (on-premises) web services
 
@@ -30,9 +29,9 @@ Web services provide APIs that you’ll use when you write programs for Dynamics
 
  The Web API was introduced with version 8.0 and was incrementally updated to provide parity with the Organization service. With this release parity was achieved.
 
- Compared to the Organization service, the Web API provides better compatibility across a wide variety of programming languages, platforms, and devices. The Web API implements the OData (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTful APIs over rich data sources. You can learn more at the [OData protocol](http://www.odata.org/) and the [OASIS standard](https://www.oasis-open.org/standards#odatav4.0) websites.  
+ Compared to the Organization service, the Web API provides better compatibility across a wide variety of programming languages, platforms, and devices. The Web API implements the OData (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTful APIs over rich data sources. You can learn more at the [OData protocol](https://www.odata.org/) and the [OASIS standard](https://www.oasis-open.org/standards#odatav4.0) websites.  
   
- Because the Web API is built on open standards, you aren’t required to use client libraries specific to Dynamics 365 Customer Engagement (on-premises). You can choose to compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want to use. View a [list of available libraries](http://www.odata.org/libraries/).  
+ Because the Web API is built on open standards, you aren’t required to use client libraries specific to Dynamics 365 Customer Engagement (on-premises). You can choose to compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want to use. View a [list of available libraries](https://www.odata.org/libraries/).  
   
  Eventually the Web API will replace the Organization service and Organization Data service but both of these existing web services will be available to enable a gradual transition to a single Web API. The Web API should be your first choice for new development that will support Dynamics 365 Customer Engagement (on-premises) and future versions of Dynamics 365 Customer Engagement (on-premises). Use the Web API for any projects that access Dynamics 365 Customer Engagement (on-premises) data with code that doesn’t run on the server, including requests from web resources and form scripts that run in Dynamics 365 Customer Engagement (on-premises) application clients. At this time you can’t easily use the Web API for code that runs on the server, such as in plug-ins or workflow assemblies. You should continue to use the Organization service for these purposes.
   
@@ -44,7 +43,7 @@ Web services provide APIs that you’ll use when you write programs for Dynamics
 
 The Organization service has been available since [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)]. It’s the web service that most developers working with Dynamics 365 Customer Engagement (on-premises) are already familiar with. The Organization service is optimized for use with .NET. There are a set of .NET assemblies and tools to allow you to generate strongly typed classes and proxies that streamline the development process and enjoy a better development experience using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. 
 
-The .NET assemblies for the Organization service currently use a 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be fully transparent to you; additional details will be published in future SDK releases. 
+The .NET Framework assemblies for the Organization service currently use a 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be mostly transparent to you requiring only that you replace your application's run-time folder SDK assemblies with revised assemblies. For additional details plus new information about .NET Core development, see [Transition apps to Dataverse ServiceClient](/power-apps/developer/data-platform/sdk-client-transition).
 
 See [Choose your development style](choose-development-style.md) for guidance about whether to use the Organization service or Web API.
 
@@ -64,7 +63,7 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
   
 <a name="bkmk_discovery"></a>   
 ## Discovery web services  
- Dynamics 365 Customer Engagement (on-premises) is a multi-tenant application. This means that a single deployment can host multiple instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises), each with its own data, each available via a different URL. Additionally, especially when Customer Engagement (on-premises) servers are hosted in a data center, the specific server can change as resources are moved or load balanced. Discovery web services provide a way for a client to detect which servers and organizations are available for a user to connect to based on their user account. You can choose to use either the Web API Discovery service or the SOAP based Discovery web service. The Web API Discovery service provides the same benefits as the SOAP web service, and it is easier to consume for a wider range of programming languages, platforms, and devices.  
+ Dynamics 365 Customer Engagement (on-premises) is a multi-tenant application. This means that a single deployment can host multiple instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises), each with its own data, each available via a different URL. Additionally, especially when Dynamics 365 Servers are hosted in a data center, the specific server can change as resources are moved or load balanced. Discovery web services provide a way for a client to detect which servers and organizations are available for a user to connect to based on their user account. You can choose to use either the OData V4 RESTful API or the SOAP based SDK assembly API to access the Discovery web service. The RESTful API provides the same benefits as the SOAP web service, and it is easier to consume for a wider range of programming languages, platforms, and devices.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md) or [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)  
   
@@ -79,3 +78,6 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
  [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

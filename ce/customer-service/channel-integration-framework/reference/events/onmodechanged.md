@@ -1,40 +1,32 @@
 ---
-title: "onmodechanged (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 10/21/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "onModeChanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Learn about the onModeChanged event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: CE3EB64F-F73F-421B-BB16-FA269ED43086
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# onmodechanged event (CIF JavaScript API reference)
+# onModeChanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
-The `onmodechanged` event is invoked when the panel mode is manually toggled between **Minimized (0)**, **Docked (1)** and **Hidden (2)**.
+[!INCLUDE[token-onmodechanged](../../shared/token-onmodechanged.md)]
 
-## eventData
+### See also
 
-The `onmodechanged` event takes following eventData:
 
-| eventData | Example |
-|-----------|---------|
-| ```{"value": <number>}``` | ```{"value": 0"}``` |
+[setMode](../microsoft-ciframework/setMode.md)
 
-## Related topics
+[getMode](../microsoft-ciframework/getMode.md)
 
-- [setMode](../microsoft-ciframework/setMode.md)
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-- [getMode](../microsoft-ciframework/getMode.md)
+[removeHandler](../microsoft-ciframework/removeHandler.md)
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
 
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

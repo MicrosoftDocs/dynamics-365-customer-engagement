@@ -1,32 +1,20 @@
 ---
-title: Universal Resource Scheduling extensibility updates | Microsoft Docs
-description: URS extensibility updates
-author: FieldServiceDave
-ms.author: daclar
+title: "Extensibility updates for Universal Resource Scheduling"
+description: "Learn about the recent extensibility updates in Universal Resource Scheduling. These include updates to queries, filter layouts, and resource cell templates."
+author: m-hartmann
+ms.author: mhart
 ms.date: 11/14/2018
-ms.reviewer: krbjoran
-ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: mhart
+
+ms.subservice: common-scheduler
 ms.topic: article
-ms.technology: 
-  - field-service
-  - project-service
-ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
 
-# URS extensibility updates
+# Extensibility updates for Universal Resource Scheduling
 
 - [October 2018](#october-2018)
 - [May 2018](#may-2018)
@@ -73,7 +61,7 @@ The default retrieve constraints query shipped in this update includes the query
 
 The default resource cell template shipped in this update includes support for automatically hiding the resource image if the resource row in the Schedule Board is configured to a small height. If you have a custom resource cell template, add the below template updates to your resource cell template configuration record.
 
-The first and last line are newly introduced to light up the functionality. The updated markup to hide the resource image:
+The first and last lines are newly introduced to light up the functionality. The updated markup to hide the resource image:
 ```html
 {{#if (or (eq (is-sa-grid-view) true) (eq (is-row-small) false)) }}
     {{#if imagepath}}
@@ -91,7 +79,7 @@ The first line is new. The updated markup to hide the second row of text in the 
     <div class='booked-percentage'>{{BookedPercentage}}%</div>  
 {{/if}}
 ```
-> For more context, see this article - https://docs.microsoft.com/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image
+> For more context, see this article - [Remove resourced image from schedule board](/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image).
 
 <a name="april-2018"></a>
 ## April 2018
@@ -106,7 +94,7 @@ The added `IgnoreProposedBookings` property:
 ```xml
 <IgnoreProposedBookings ufx-type="bool">true</IgnoreProposedBookings> 
 ```
-> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+> Here is a link to an article with more context on ignore proposed functionality - [Ignore proposed bookings](/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings).
 
 <a name="february-2018"></a>
 ## February 2018
@@ -121,7 +109,7 @@ The new `IgnoreProposedBookings` control
 ```xml
 <control type="boolean" key="Requirement/IgnoreProposedBookings" label-id="ScheduleAssistant.West.settingsform.IgnoreProposedBookings" />
 ```
-> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+> Here is a link to an article with more context on ignore proposed functionality - [Ignore proposed functionality](/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings).
 
 <a name="december-2017"></a>
 ## December 2017
@@ -175,4 +163,7 @@ The new sort option
 <a name="july-2017"></a>
 ## July 2017
 
-The July 2017 update for URS was the initial release for extensible queries, custom filter layouts, and resource cell template
+The July 2017 update for Universal Resource Scheduling was the initial release for extensible queries, custom filter layouts, and resource cell template
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

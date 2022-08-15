@@ -1,5 +1,5 @@
 ---
-title: "User who is running Microsoft Dynamics 365 for Customer Engagement Server Setup is not a domain user | Microsoft Docs"
+title: "User who is running Microsoft Dynamics 365 Server Setup is not a domain user | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# User who is running Microsoft Dynamics 365 for Customer Engagement Server Setup is not a domain user
+# User who is running Microsoft Dynamics 365 Server Setup is not a domain user
 
 ## Cause 1
   
@@ -45,3 +45,6 @@ ms.author: matp
 2.  Right-click the service that you want to start, and then select **Start**.  
 3.  Select **OK** and then close the Services application.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

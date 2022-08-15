@@ -8,7 +8,7 @@
   New SharePointSite With {
    .Name = "Sample SharePoint Site",
    .Description = "Sample SharePoint Site Location record",
-   .AbsoluteURL = "http://www.example.com"
+   .AbsoluteURL = "https://www.example.com"
   }
  ' TODO: Change this URL to a valid SharePoint URL.                        
 

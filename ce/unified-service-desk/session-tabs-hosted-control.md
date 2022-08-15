@@ -1,13 +1,10 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the session tabs type of hosted control in Unified Service Desk."
-ms.custom: dyn365-USD
+description: "Learn to create the Session Tabs hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 11/12/2019
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 590fe7cf-9281-41ee-ba7e-c0914ef9e44a
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -15,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Session Tabs (Hosted Control)
@@ -35,11 +34,9 @@ To create the session tabs hosted control, follow these steps:
 
 4. Specify a name for the hosted control.
 
-5. Select the **Extensions** tab.
+5. Select the **Extensions** tab and update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml). This is an optional step.  You need to update the XML only if you require chat indicator for your session. 
 
-6. Update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml).
-
-7. Select **Save**.
+6. Select **Save**.
 
 For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
@@ -167,3 +164,6 @@ In the XML, you can define the start time and end time with the hexadecimal colo
  [Session Lines (Hosted Control)](../unified-service-desk/session-lines-hosted-control.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

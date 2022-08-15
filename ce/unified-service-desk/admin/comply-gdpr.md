@@ -2,13 +2,12 @@
 title: Comply with the General Data Protection Regulation (GDPR) | MicrosoftDocs
 description: Learn about General Data Protection Regulation (GDPR) and how Unified Service Desk complies with GDPR.
 ms.date: 04/24/2018
-ms.service: usd
 ms.topic: article
-ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -37,7 +36,7 @@ The GDPR makes clear that the concept of personal data includes online identifie
 
 ## Stages of GDPR
 
-![Four stages of GDPR are Discover, Manage, Protect, and Report](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
+![Four stages of GDPR are Discover, Manage, Protect, and Report.](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
 
 |Stages of GDPR| Description|
 |------|------|
@@ -49,3 +48,6 @@ The GDPR makes clear that the concept of personal data includes online identifie
 ## See also
 
 [Unified Service Desk data compliance under GDPR](comply-unified-service-desk-data-gdpr.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

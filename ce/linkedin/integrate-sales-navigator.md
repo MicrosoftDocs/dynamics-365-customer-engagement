@@ -1,15 +1,12 @@
 ---
-title: "Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales | Microsoft Docs"
-description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales."
-keywords: integration, sales navigator, linkedin, versions
+title: "Integrate LinkedIn Sales Navigator with Dynamics 365 Sales"
+description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales to enhance your business processes with data about people and organizations."
 ms.date: 04/30/2019
-ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
-author: m-hartmann
-ms.author: mhart
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+keywords: integration, sales navigator, linkedin, versions
 search.audienceType: 
   - admin
   - customizer
@@ -17,13 +14,19 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 ---
 
 # Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales
 
 Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. Enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data graph and insights. Build custom applications powered by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator intelligence, enhancing business processes with data about people, organizations, and relationships. 
 
-## Unified Interface apps: Sales Navigator Controls for the unified interface 
+>[!NOTE]
+>The LinkedIn Sales Navigator solution is also available for Dynamics 365 Sales Professional.
+
+## Unified Interface apps: Sales Navigator Controls for Unified Interface 
 
 Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are available and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). You can configure your forms to show more than one control at the same time.  
 
@@ -63,11 +66,14 @@ Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets 
 > [!NOTE]
 >Before April 2019, there were two separate solutions on AppSource. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
 
-[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://www.linkedin.com/help/sales-navigator/answer/82207)
+[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
 
 ### See also
 
-[Enable default LinkedIn Sales Navigator controls](install-sales-navigator.md)     
+[Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)     
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)    
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

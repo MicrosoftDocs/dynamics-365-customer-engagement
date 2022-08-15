@@ -1,39 +1,23 @@
 ---
-title: "getWidth (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "getWidth (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getWidth method in JavaScript API Reference for Channel Integration Framework 1.0. "
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: E7AF0E53-B6CF-4D0B-97BA-8B094579DAB8
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# getWidth (CIF JavaScript API Reference)
+# getWidth (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[getWidth](includes/getWidth-description.md)]
 
-## Syntax
+[!INCLUDE[token-getWidth](../../shared/token-getWidth.md)]
 
-`Microsoft.CIFramework.getWidth(value).then(successCallback, errorCallback);`
 
-## Parameters
-
-| Name            | Type     | Required | Description |
-|-----------------|----------|----------|-------------|
-| successCallback | Function | No       | A function to call when the request for the current width value is successful. |
-| errorCallback   | Function | No       | A function to call when the request for the current width value fails. |
-
-## Return value
-
-**Type:** Number
-
-**Description:** Returns a promise object the value (width of the panel in pixels).
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

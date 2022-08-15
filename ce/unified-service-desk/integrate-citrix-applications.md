@@ -1,27 +1,32 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
-description: "The topic explains the integration with Citrix application in Unified service Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+description: "Learn to integrate Citrix applications using CTI adapters, and configure server and client-side components."
+ms.date: 01/21/2020
 ms.topic: article
-ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Integrate with Citrix applications in Unified Service Desk
-Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in the Common Data Service platform. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
+
+
+
+> [!Note]
+> Hosting Citrix applications within Unified Service Desk isn't supported anymore.
+
+Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in Microsoft Dataverse. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
   
  The [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
   
- For more information about integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)], see [Blog: Citrix and Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/13/citrix-and-unified-service-desk/)  
+ For more information about integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)], see [Blog: Citrix and Unified Service Desk](/archive/blogs/usd/citrix-and-unified-service-desk)  
   
  This topic provides information about configuring server- and client-side components for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications, sample [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] adapters, and some best practices.  
   
@@ -29,7 +34,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 ## Configure server-side component for Citrix integration  
  The server-side component is implemented as an executable (Microsoft.Uii.Csr.CitrixIntegration.exe) that is configured as a startup program to automatically start when a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application starts. The executable quickly self-terminates if the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application has not been invoked from a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The server-side component needs to be configured on each [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server.  
   
-1. [Download](http://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
+1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
   
 2. Double-click the package file to extract the contents.  
   
@@ -43,18 +48,18 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 ## Configure client-side component for Citrix integration  
  The client-side configuration for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration involves two things:  
   
-- Configure a UII hosted application (`Remote Hosted Application`) instance in your Common Data Service platform instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
+- Configure a UII hosted application (`Remote Hosted Application`) instance in your Dataverse instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
   
 - Copy the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application executable and other required assemblies in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, apply client-side registry patch, and add [!INCLUDE[pn_citrix](../includes/pn-citrix.md)]-specific settings in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client app config file. This step needs to be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  
   
 <a name="ConfRemoteHosted"></a>   
 ### Configure a Remote Hosted Application  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.
   
-3. Select **Hosted Controls**, and then select **New**. The **New Hosted Control** page is displayed.
+3. Select **+ New**.
   
 4. Specify the following in the **General** tab of the **New Hosted Control** page.
 
@@ -197,9 +202,14 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 
    You can then use one of the standard [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] logging providers, for example, (the file logging provider, to write the trace logs to a file. The traces will also appear in any attached debuggers. The same settings on the client-side (UnifiedServiceDesk.exe.config file) will activate tracing on the client-side.
 
-- In Windows, multiple processes running the same program share their memory pages that contain executable code. The nature of .NET programs is that the just-in-time (JIT) compiler compiles the intermediate language (IL) to machine instructions (executable code) at runtime when the application is launched. This runtime compiling prevents the sharing of otherwise identical code pages, which prevents the code page sharing optimization. Because the server-side executable (Microsoft.Uii.Csr.CitrixIntegration.exe) is a .NET program where multiple instances can be running on a single computer, it will be effective to leverage the [Ngen.exe (Native Image Generator)](https://msdn.microsoft.com/library/6t9t5wcf.aspx) tool to create native images of the dependent assemblies for the server-side executable, and install them into the native image cache on the local computer. This will facilitate better server resource utilization by using native images from the cache instead of using the JIT compiler to compile the original assembly.
+- In Windows, multiple processes running the same program share their memory pages that contain executable code. The nature of .NET programs is that the just-in-time (JIT) compiler compiles the intermediate language (IL) to machine instructions (executable code) at runtime when the application is launched. This runtime compiling prevents the sharing of otherwise identical code pages, which prevents the code page sharing optimization. Because the server-side executable (Microsoft.Uii.Csr.CitrixIntegration.exe) is a .NET program where multiple instances can be running on a single computer, it will be effective to leverage the [Ngen.exe (Native Image Generator)](/dotnet/framework/tools/ngen-exe-native-image-generator) tool to create native images of the dependent assemblies for the server-side executable, and install them into the native image cache on the local computer. This will facilitate better server resource utilization by using native images from the cache instead of using the JIT compiler to compile the original assembly.
 
 ### See also
  [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)
+
  [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)
+ 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

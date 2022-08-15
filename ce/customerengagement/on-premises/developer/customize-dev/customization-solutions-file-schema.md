@@ -3,8 +3,8 @@ title: "Customization solutions file schema | MicrosoftDocs"
 description: "The following is the schema definition for an import/export customization file from Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customization solutions file schema
 
@@ -34,7 +33,7 @@ The following is the schema definition for an import/export customization file f
 
 You can find schema  in the `Schemas\9.0.0.2090\CustomizationsSolution.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
   For more information, see [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
   
@@ -42,7 +41,7 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
   
 ```xml  
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:include schemaLocation="isv.config.xsd" />
 	<xs:include schemaLocation="SiteMapType.xsd" />
 	<xs:include schemaLocation="FormXml.xsd" />
@@ -2498,3 +2497,6 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
  [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

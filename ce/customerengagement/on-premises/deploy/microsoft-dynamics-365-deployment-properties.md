@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) deployment properties | Microsoft Docs"
+description: Learn about deployment properties in Dynamics 365 Customer Engagment (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -108,13 +109,13 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
 #### Configure domain names for IFD  
  To configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)], you must start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to add or revise the domain values. Depending on how you deployed the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] role group or separate server role installation, and the configuration of each server in the NLB cluster, the **Web Application Server Domain**, **Organization Web Service Domain**, and **Discovery Web Service Domain** values use the NLB virtual cluster domain name. For example, if the Web Application Server is installed on an Internet-facing NLB cluster that has the FQDN virtual name *crmcluster.contoso.com*, enter `contoso.com` as the **Web Application Server Domain** value.  
   
- For more information about how to configure internal web address and external domain values, see [Configure IFD for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/dn609803.aspx).  
+ For more information about how to configure internal web address and external domain values, see [Configure IFD for Microsoft Dynamics 365 Customer Engagement (on-premises)](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).  
   
 <a name="BKMKLicense"></a>   
 #### License tab  
  After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]**Properties** dialog box, select the **License** tab.  
   
- The **License** tab displays a summary of all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users that are configured in the deployment. <!-- For information about each of these client access license types, see [Dynamics 365 Customer Engagement (on-premises) purchase plans](http://go.microsoft.com/fwlink/p/?LinkId=306766).  -->
+ The **License** tab displays a summary of all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users that are configured in the deployment. <!-- For information about each of these client access license types, see [Dynamics 365 Customer Engagement (on-premises) purchase plans](https://go.microsoft.com/fwlink/p/?LinkId=306766).  -->
   
  The following information for all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users and their respective client access license (CAL) types is displayed:  
   
@@ -153,3 +154,6 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)   
  [Change the product key](change-the-product-key.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

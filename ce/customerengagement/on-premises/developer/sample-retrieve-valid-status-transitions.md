@@ -3,11 +3,11 @@ title: "Sample: Retrieve valid status transitions (Developer Guide for Dynamics 
 description: "The sample demonstrates how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d367aa6d-36dc-4084-8625-50f515602504
@@ -17,18 +17,28 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Retrieve valid status transitions
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata](https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
+This sample shows how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `GetValidStatusOptions` method is intended to be used in a scenario where it contains data that returns valid status option transitions regardless of whether state transitions are enabled for the entity.
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `MetadataFilterExpression` method checks for the entity metadata.
   
 ## Demonstrates  
  This sample shows how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity.  
@@ -43,7 +53,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
    When status reason transitions for the incident entity are configured in the following way:  
   
-   ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+   ![Example of status reason transitions for case.](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
    The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
   
@@ -156,16 +166,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 0  Active    2    On Hold  
 0  Active    3    Waiting for Details  
 ```  
-  
-## Example  
- The following is the `GetValidStatusOptions` method used in the sample:  
-  
- [!code-csharp[Attributes#StateModelTransitions.GetValidStatusOptions](../snippets/csharp/CRMV8/attributes/cs/statemodeltransitions.getvalidstatusoptions.cs#statemodeltransitions.getvalidstatusoptions)]  
-  
-## Example  
- The following is the full code for the sample.  
-  
- [!code-csharp[Attributes#StateModelTransitions](../snippets/csharp/CRMV8/attributes/cs/statemodeltransitions.cs#statemodeltransitions)]  
-  
-### See also  
- [Define custom state model transitions](define-custom-state-model-transitions.md)
+ 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

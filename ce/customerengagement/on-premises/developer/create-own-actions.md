@@ -2,9 +2,9 @@
 title: "Create your own actions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Actions are custom messages that help in extending functionality of Dynamics 365 Customer Engagement (on-premises). Learn more about how to create your own actions"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 01/10/2020
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create your own actions
 
@@ -88,7 +87,7 @@ You can extend the functionality of Dynamics 365 Customer Engagement (on-premise
 |`Xaml`|Set to the XAML code that defines your action’s real-time workflow. There is no way to refer to another existing real-time workflow.|  
   
 ### Add input and output arguments  
- Actions support input and output arguments that can be added to the workflow using a [DynamicActivityProperty](https://msdn.microsoft.com/library/system.activities.dynamicactivityproperty.aspx) type. When you add these arguments to an action’s workflow, they become properties in the message request and response classes associated with that action. For example, the following example shows C# and XAML code for two input and one output arguments.  
+ Actions support input and output arguments that can be added to the workflow using a [DynamicActivityProperty](/dotnet/api/system.activities.dynamicactivityproperty) type. When you add these arguments to an action’s workflow, they become properties in the message request and response classes associated with that action. For example, the following example shows C# and XAML code for two input and one output arguments.  
   
 ```csharp  
 DynamicActivityProperty inputProperty1 = new DynamicActivityProperty     { Name = "Subject", Type = typeof(InArgument<string>) };  
@@ -182,7 +181,7 @@ To download the CrmSvcUtil.exe, see [Download tools from NuGet](download-tools-N
  The following sample shows the format for running the tool from the command line for an on-premises installation of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You supply the parameter values for your installation.  
   
 ```ms-dos  
-CrmSvcUtil.exe /url:http://<serverName>/<organizationName>/XRMServices/2011/Organization.svc /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName> /namespace:<outputNamespace> /serviceContextName:<serviceContextName> /generateActions  
+CrmSvcUtil.exe /url:https://<serverName>/<organizationName>/XRMServices/2011/Organization.svc /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName> /namespace:<outputNamespace> /serviceContextName:<serviceContextName> /generateActions  
 ```  
   
  The following sample shows the format for running the tool from the command line with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. You supply the parameter values appropriate for your account and server.  
@@ -195,11 +194,19 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
   
  You can use early-bound or late-bound types with the generated request and response classes for your action.  
   
-<a name="bkmk_executeWebAPI"></a>   
+<a name="bkmk_executeWebAPI"></a>
+
 ## Execute an action using the Web API  
- A new action is created in the Web API when it is created. If the action is created in the context of an entity, it is bound to that entity. Otherwise it is an unbound action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Web API actions](webapi/use-web-api-actions.md).  
-  
-<a name="bkmk_execute"></a>   
+ A new action is created in the Web API when it is created. If the action is created in the context of an entity, it is bound to that entity. Otherwise it is an unbound action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).  
+
+ <a name="BKMK_JavaScript"></a>
+
+### Execute an action using a JavaScript web resource
+
+An action can be executed using the Web API just like any system action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Xrm.WebApi.online.execute](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/online/execute) 
+
+<a name="bkmk_execute"></a>
+
 ## Execute an action using the organization service  
  To execute an action using the organization web service using managed code, follow these steps.  
   
@@ -211,11 +218,7 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
   
    Before you run your application code, make sure the action is activated. Otherwise, you’ll receive a run-time error.  
   
-<a name="BKMK_JavaScript"></a>   
-### Execute an action using a JavaScript web resource  
- An action can be executed using the Web API just like any system action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Web API actions](webapi/use-web-api-actions.md).  
-  
- The [Sdk.Soap.js](http://code.msdn.microsoft.com/SdkSoapjs-9b51b99a) sample library demonstrates how messages can be used with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources and the Organization service (organization.svc/web). Use the companion [Sdk.Soap.js Action Message Generator](http://code.msdn.microsoft.com/SdkSoapjs-Action-Message-971be943) sample to generate [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries that can be used with Sdk.Soap.js in the same way you can use the libraries for system messages provided in that sample. The files generated using the `Sdk.Soap.js` Action Message Generator are separate [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for each action. Each library contains a request and response class that correspond to the classes generated by the CrmSvcUtil.  
+
   
 <a name="bkmk_execute-process"></a>   
 ## Execute an action using a process  
@@ -240,4 +243,7 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
  [Use dialogs for guided processes](use-dialogs-guided-processes.md)   
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)   
- [Customize your system](https://technet.microsoft.com/library/dn531158.aspx)
+ [Customize your system](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531158(v=crm.8))
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

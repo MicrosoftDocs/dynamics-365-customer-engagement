@@ -1,8 +1,9 @@
 ---
 title: "Troubleshoot Dynamics 365 Server IFD | Microsoft Docs"
+description: This article provides a checklist to verify your internet-facing deployment is working correctly with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,15 +18,13 @@ manager: kvivek
 ---
 # Troubleshoot Dynamics 365 Server IFD
 
-
-
 ## A quick checklist  
   
 |Did you…|Reference|  
 |--------------|---------------|  
-|Configure DNS records?|See “DNS configuration” in the [downloadable document](http://go.microsoft.com/fwlink/p/?LinkID=390483)|  
-|Install and bind your certificate on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website?|See “Certificate selection and requirements” in the [downloadable document](http://go.microsoft.com/fwlink/p/?LinkID=390483)|  
-|Add an [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] signing certificate as a trusted certificate under the CRMAppPool account profile?|See “Enable AD FS token signing” in the [downloadable document](http://go.microsoft.com/fwlink/p/?LinkID=390483)|  
+|Configure DNS records?|See “DNS configuration” in the [downloadable document](https://go.microsoft.com/fwlink/p/?LinkID=390483)|  
+|Install and bind your certificate on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website?|See “Certificate selection and requirements” in the [downloadable document](https://go.microsoft.com/fwlink/p/?LinkID=390483)|  
+|Add an [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] signing certificate as a trusted certificate under the CRMAppPool account profile?|See “Enable AD FS token signing” in the [downloadable document](https://go.microsoft.com/fwlink/p/?LinkID=390483)|  
 |Change the binding type for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] websites to HTTPS and use the correct web addresses in [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]?|[Configure the Microsoft Dynamics 365 Server for IFD](configure-the-dynamics-365-server-for-ifd.md)|  
 |Give the CRMAppPool account the rights to use an existing certificate used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] as signing certificate? This could be the wildcard certificate installed on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.|[Configure the Microsoft Dynamics 365 Server for claims-based authentication](configure-the-dynamics-365-server-for-claims-based-authentication.md)|  
 |Run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] from [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)]? Have you specified the correct URL in this wizard? Have you selected the appropriate encryption certificate?|[Configure the Microsoft Dynamics 365 Server for claims-based authentication](configure-the-dynamics-365-server-for-claims-based-authentication.md)|  
@@ -55,11 +54,11 @@ manager: kvivek
   
      Relying party trust for claims: internalcrm.contoso.com  
   
-     ![Relying party trust for claims](media/crm-itpro-claimswp-identintern.PNG "Relying party trust for claims")  
+     ![Relying party trust for claims.](media/crm-itpro-claimswp-identintern.PNG "Relying party trust for claims")  
   
      Relying party trust for IFD: auth.contoso.com  
   
-     ![Dynamics 365 IFD Relying Party](media/crm-itpro-claimswp-identauth.PNG "Dynamics 365 IFD Relying Party")  
+     ![Dynamics 365 IFD Relying Party.](media/crm-itpro-claimswp-identauth.PNG "Dynamics 365 IFD Relying Party")  
   
  If your identifiers aren’t similar to the above examples, check the path entered for the relying party’s federation metadata URL on the **Monitoring** tab and check your DNS records.  
   
@@ -85,14 +84,14 @@ manager: kvivek
   
 #### For more AD FS troubleshooting information  
   
-1.  See the following: [Troubleshoot AD FS 2.0](http://social.technet.microsoft.com/wiki/contents/articles/2735.ad-fs-content-map.aspx#tshoot)  
+1.  See the following: [Troubleshoot AD FS 2.0](https://social.technet.microsoft.com/wiki/contents/articles/2735.ad-fs-content-map.aspx#tshoot)  
   
 ## HTTP Error 401.1 - Unauthorized: Access is denied  
  If the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website fails to display or produces the following error: HTTP Error 401.1 - Unauthorized: Access is denied, there are two steps to try to resolve this issue:  
   
-1.  You might need to update the Federation metadata URLs and do an IIs reset. See [KB2686840](http://go.microsoft.com/fwlink/p/?LinkID=390718).  
+1.  You might need to update the Federation metadata URLs and do an IIs reset. See [KB2686840](https://go.microsoft.com/fwlink/p/?LinkID=390718).  
   
-2.  You might need to register the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server as a service principal name (SPN). See “Register the AD FS server as a service principal name (SPN)” in the [downloadable document](http://go.microsoft.com/fwlink/p/?LinkID=390483).  
+2.  You might need to register the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server as a service principal name (SPN). See “Register the AD FS server as a service principal name (SPN)” in the [downloadable document](https://go.microsoft.com/fwlink/p/?LinkID=390483).  
   
 ## Time differs between two servers  
  An authentication error can occur if the time between the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] and the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server differs by more than 5 minutes. See [Windows Time Service Technical Reference](https://technet.microsoft.com/library/cc773061\(v=ws.10\).aspx) for information on how to configure time synchronization on your servers.  
@@ -100,3 +99,6 @@ manager: kvivek
 ## See Also  
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

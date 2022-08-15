@@ -1,9 +1,9 @@
 ---
 title: "Sample: Retrieve absolute URL and site collection URL of a location record | MicrosoftDocs"
-description: ""
+description: Learn how to retrieve the absolute URL and site collection URL of a location record with this code sample for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -12,20 +12,19 @@ ms.assetid: f40b22d9-89fc-4b9f-a158-c7944c768d1b
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 19
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Retrieve absolute URL and site collection URL of a location record
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with SharePoint Integration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/SharePointIntegration).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -42,6 +41,8 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
 ### See also  
  [Integrate SharePoint with Microsoft Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   
  [Retrieve Absolute and Site Collection URLs for a Location Record](actions-on-sharepoint-location-records.md#RetrieveUrls)   
- [Sample: CrmServiceHelper Class](../https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

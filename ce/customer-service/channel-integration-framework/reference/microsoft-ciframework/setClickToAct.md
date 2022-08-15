@@ -1,39 +1,24 @@
 ---
-title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 05/14/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
+title: "setClickToAct (JavaScript API Reference) for DYnamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the setClickToAct method in JavaScript API Reference for Channel Integration Framework 1.0. "
+ms.date: 12/31/2019
 ms.topic: reference
-applies_to:
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 7383B0E5-3C02-45F1-8ED3-197765C0E999
-author: susikka
-ms.author: susikka
-manager: shujoshi
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
-# setClickToAct (CIF JavaScript API Reference)
+# setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 
-## Syntax
+[!INCLUDE[token-setClickToAct.md](../../shared/token-setClickToAct.md)]
 
-`Microsoft.CIFramework.setClickToAct(value).then(successCallback, errorCallback);`
 
-## Parameters
-
-| Name            | Type     | Required | Description                                       |
-|-----------------|----------|----------|---------------------------------------------------|
-| Value           | Boolean  | Yes      | Sets the value to enable or disable ClickToAct.   |
-| successCallback | Function | No       | A function to call when the request is successful |
-| errorCallback   | Function | No       | A function to call when the request fails         |
-
-## Return value
-
-**Type:** Null
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

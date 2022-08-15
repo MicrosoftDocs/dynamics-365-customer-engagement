@@ -22,3 +22,6 @@ ms.author: matp
 
  Exit [!INCLUDE[pn_Setup](../includes/pn-setup.md)] and wait for these events to finish processing. If needed, you can cancel the asynchronous event. For more information, see [Monitor or manage workflow processes](/flow/monitor-manage-processes).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-title: "Additional controls for Dynamics 365 for phones and tablets | MicrosoftDocs"
-description: "A list of controls available for use with Dynamics 365 for phones and tablets"
+title: "Use form controls for Dynamics 365 for phone and tablets"
+description: "For a more touch-friendly experience on Dynamics 365 for phones and tablets, use controls including sliders, switches, media players, calendars, and more." 
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,18 +17,17 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Additional controls for Dynamics 365 for phones and tablets 
+# Additional form controls for Dynamics 365 for phones and tablets
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Custom controls available](/powerapps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets)
 
  You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
 
  
 > [!NOTE]
->  You can use these additional controls only with the mobile apps. They aren’t supported in the web app.  
+>  You can use these additional controls only with the mobile apps and Unified Interface apps. They aren’t supported in the classic web app.  
   
  To use these controls in the form editor:  
   
@@ -148,7 +147,7 @@ search.app:
  Use the website preview control to map a URL field and show a preview of the website.  
   
 > [!IMPORTANT]
->  By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are subject to our privacy statement at [Microsoft Privacy and Cookies](http://go.microsoft.com/fwlink/p/?LinkId=521839).  
+>  By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are subject to our privacy statement at [Microsoft Privacy and Cookies](https://go.microsoft.com/fwlink/p/?LinkId=521839).  
 > 
 >  [Privacy notices](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
@@ -254,3 +253,6 @@ search.app:
 |Value|Get or set the value to display on the gauge.|  
 |Step|Set the amount to add or subtract from the current value when entering data with this control.|  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

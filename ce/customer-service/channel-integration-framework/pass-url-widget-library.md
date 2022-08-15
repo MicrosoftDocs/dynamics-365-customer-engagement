@@ -1,56 +1,29 @@
 ---
-title: "Pass Dynamics 365 URL to widget library| Microsoft Docs"
-description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use CIF's APIs."
-keywords: ""
-ms.date: 01/29/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "Pass a Dynamics 365 URL to a widget library | MicrosoftDocs"
+description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use Dynamics 365 Channel Integration Framework 1.0 APIs."
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: get-started-article
+ms.custom: 
   - dyn365-a11y
   - dyn365-developer
-ms.topic: get-started-article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-ms.assetid: CBA9588C-5CF7-4FE5-A92E-6091FD8940EC
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# Pass a Dynamics 365 URL to a widget library
+# Pass a Dynamics 365 URL to a widget library in Dynamics 365 Channel Integration Framework 1.0
 
-To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to load the `msdyn_cilibrary.js` file inside your communication widget. Since the widget is in a different domain, this library needs to know what Dynamics 365 domain it should talk to. For this reason you need to pass your Dynamics 365 instance URL to the widget library.
+[!INCLUDE[token-pass-url-widget-library](shared/token-pass-url-widget-library.md)]
 
-> [!IMPORTANT]
-> For any organization hosted in Government Community Cloud(GCC) or Microsoft Cloud Germany, the provider domain should either reside inside the respective cloud or it should be whitelisted for access from within that cloud.
+### See also
 
-There are two ways to pass a Dynamics 365 URL to a widget library.
+[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 
-## 1. Add attributes to the script tag
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
 
-The widget provider has to add the following attributes to the script tag that loads `msdyn_cilibrary.js` to pass the Dynamics 365 domain:
+[Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
 
-`data-cifid: CIFMainLibrary` <br />
-`data-crmurl: <CRM domain name>`
+[Authenticate channel users to log in to the channel (widget)](authenticate-channel-users.md)
 
-### Example
 
-```html
-<script type="text/javascript" src="https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" onload="ciLoadDone();" data-crmurl="https://crmorg.crm.dynamics.com" data-cifid="CIFMainLibrary">
-</script>
-```
-
-## 2. Add a URL parameter
-
-Another method is to pass a `ucilib` parameter in the landing URL, like `ucilib=https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`.
-
-### Example
-
-`https://widget.domain.com?ucilib=https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
-
-## See also
-
-[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
-[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
-[Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)<br />
-[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

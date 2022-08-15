@@ -1,27 +1,21 @@
 ---
 title: "Versium Predict (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
-keywords: ""
+description: "Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness using predictive analytics to precisely target your campaigns."
 ms.date: 09/30/2017
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-versium"
+ms.service: dynamics-365-sales
 ms.topic: article
-ms.assetid: 02a2310b-efb1-4418-8af6-28dc8c243f6c
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 17
+ms.custom: 
+  - "dyn365-versium"
 ---
 
 # Versium Predict
-<a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict")](http://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)
+<a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict.")](https://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)
 
- Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns.
+Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns.
 
  With Versium Predict, you can:
 
@@ -36,8 +30,11 @@ caps.latest.revision: 17
   Predict Versium is a preferred provider solution that your administrator can add from the Dynamics 365 admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
 ## Get started
- [Versium Predict home page](http://versium.com/predict-by-versium/)
+ [Versium Predict home page](https://versium.com/predict)
 
- [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](http://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
+ [![Reader button](../versium-predict/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](https://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
 
- [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict User Guide](http://predict-help.versium.com/predict-for-dynamics-365-user-guide)
+ [![Reader button](../versium-predict/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=328957)[Versium Predict User Guide](https://predict-help.versium.com/predict-for-dynamics-365-user-guide)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

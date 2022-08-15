@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) organization database indexes | Microsoft Docs"
+description: Learn about organization database indexes with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) organization database indexes
-
-
 
 The indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database are designed to provide fast retrieval of commonly requested data from tables and views stored on a [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. Here are a few characteristics for the indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database.  
   
@@ -43,13 +42,13 @@ WHERE i.name is not null
   
  For an approximation of the out-of-box indexes in an organization database that corresponds to a specific version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], select from these links to download [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheets that contain lists of indexes.  
   
--   [Microsoft Download Center: List of Dynamics CRM 2016 RTM out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2016RTMIndexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2016 RTM out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2016RTMIndexes.xlsx)  
   
--   [Microsoft Download Center: List of Dynamics CRM 2015 Update 0.2 out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2015UR0.2Indexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2015 Update 0.2 out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2015UR0.2Indexes.xlsx)  
   
--   [Microsoft Download Center: List of Dynamics CRM 2013 Service Pack 1 out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2013SP1UR2Indexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2013 Service Pack 1 out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2013SP1UR2Indexes.xlsx)  
   
--   [Microsoft Download Center: List of Dynamics CRM 2011 Update Rollup 18 out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2011UR18Indexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2011 Update Rollup 18 out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2011UR18Indexes.xlsx)  
   
  For more information about [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] indexes, see [SQL Server Index Architecture and Design Guide]/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2016).  
   
@@ -57,3 +56,6 @@ WHERE i.name is not null
  [Operating Microsoft Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md) </br>  
  [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Web API Conditional Operations Sample (Client-side JavaScript) (Develope
 description: "This sample demonstrates how to perform conditional operations using Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Conditional Operations Sample (Client-side JavaScript)
 
@@ -37,7 +36,7 @@ This sample demonstrates how to perform conditional operations using [!INCLUDE[p
   
 <a name="bkmk_runsample"></a>   
 ## Run this sample  
- To run this sample, go to  [Microsoft CRM Web API Conditional Operations Sample (Client-side JavaScript)](http://go.microsoft.com/fwlink/p/?LinkId=824046) and download the Microsoft CRM Web API Conditional Operations Sample (Client-side JavaScript).zip sample file. Extract the contents and locate the WebAPIConditionalOperations_1_0_0_0_managed.zip managed solution. Import the managed solution into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and view the solution configuration page to run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
+ To run this sample, go to  [Microsoft CRM Web API Conditional Operations Sample (Client-side JavaScript)](https://go.microsoft.com/fwlink/p/?LinkId=824046) and download the Microsoft CRM Web API Conditional Operations Sample (Client-side JavaScript).zip sample file. Extract the contents and locate the WebAPIConditionalOperations_1_0_0_0_managed.zip managed solution. Import the managed solution into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and view the solution configuration page to run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
   
 <a name="bkmk_sampleCode"></a>   
 ## Code sample  
@@ -433,8 +432,11 @@ Sdk.startSample = function () {
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)   
- [Web API Conditional Operations Sample (C#)](web-api-conditional-operations-sample-csharp.md)   
+ [Web API Conditional Operations Sample (C#)](/power-apps/developer/data-platform/webapi/samples/cdswebapiservice-conditional-operations)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Functions and Actions Sample (Client-side JavaScript)](web-api-functions-actions-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

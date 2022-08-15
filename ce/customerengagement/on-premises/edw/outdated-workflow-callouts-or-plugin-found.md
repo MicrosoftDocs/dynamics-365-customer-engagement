@@ -20,5 +20,8 @@ ms.author: matp
   
 ## Solution
   
- Upgrade or remove the callout. If there are outdated plug-ins, upgrade or uninstall the plug-in. For more information, see [Removal of the 2007 Endpoint and Legacy Features](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)) and [Upgrade Your Code from Microsoft Dynamics CRM 4.0 to Microsoft Dynamics CRM 2011](https://docs.microsoft.com/previous-versions/dynamicscrm-2013/developers-guide/gg334220(v=crm.6)).
+ Upgrade or remove the callout. If there are outdated plug-ins, upgrade or uninstall the plug-in. For more information, see [Removal of the 2007 Endpoint and Legacy Features](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)) and [Upgrade Your Code from Microsoft Dynamics CRM 4.0 to Microsoft Dynamics CRM 2011](/previous-versions/dynamicscrm-2013/developers-guide/gg334220(v=crm.6)).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

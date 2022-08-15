@@ -30,7 +30,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 
   ' TODO: Appropriately change the absolute URL of the SharePoint site
   ' record.
-  Private _siteAbsoluteURL As String = "http://www.example.com"
+  Private _siteAbsoluteURL As String = "https://www.example.com"
 
 #End Region ' Class Level Members
 

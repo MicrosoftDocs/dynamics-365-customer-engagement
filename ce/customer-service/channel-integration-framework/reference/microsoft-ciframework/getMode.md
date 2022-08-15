@@ -1,39 +1,23 @@
 ---
-title: "getMode (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "getMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getMode method in JavaScript API Reference for Channel Integration Framework 1.0. "
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: D215CEFC-286E-4AEF-9EDA-D6E1D7C7FD41
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# getMode (CIF JavaScript API Reference)
+# getMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 
 
 [!INCLUDE[getMode](includes/getMode-description.md)]
 
-## Syntax
+[!INCLUDE[token-getMode](../../shared/token-getMode.md)]
 
-`Microsoft.CIFramework.getMode(value).then(successCallback, errorCallback);`
 
-## Parameters
-
-| Name            | Type     | Required | Description |
-|-----------------|----------|----------|-------------|
-| successCallback | Function | No       | A function to call when the request for the current state of the panel is successful. |
-| errorCallback   | Function | No       | A function to call when the request for the current state of the panel fails.         |
-
-## Return value
-
-**Type:** String
-
-**Description:** Returns Promise object with the value (current state of the panel). Returns 0 for minimized mode and 1 for docked mode.
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

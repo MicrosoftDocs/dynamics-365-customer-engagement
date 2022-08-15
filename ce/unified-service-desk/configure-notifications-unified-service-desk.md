@@ -1,13 +1,10 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn about configuring notifications in Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 04/10/2019
-ms.service: dynamics-365-customerservice
+description: "Learn how to configure global or session-based notifications in Unified Service Desk to display popup messages to your agents or customers."
+ms.date: 12/31/2019
 ms.topic: article
-ms.assetid: ca7905ed-47a0-47c9-bbfe-5cb1738b0125
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -15,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # How to configure notifications in Unified Service Desk
@@ -51,9 +50,9 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
   
 <a name="Define"></a>   
 ## Define layout and behavior of notification using forms  
- Use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] forms to define the layout and behavior of your forms. When you define a new form record (**Settings** > `Unified Service Desk` > **Forms** > **New**), you specify your XAML in the **Markup** field of the form record to define the layout.  
+ Use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] forms to define the layout and behavior of your forms. When you define a new form record, you specify your XAML in the **Markup** field of the form record to define the layout.  
   
- ![Create a form using XAML](../unified-service-desk/media/usd-new-form.png "Create a form using XAML")  
+ ![Create a form using XAML.](../unified-service-desk/media/usd-new-form.png "Create a form using XAML")  
   
 > [!NOTE]
 >  You should have prior knowledge of [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] and XAML scripting for defining the layout and behavior of the form.  
@@ -75,7 +74,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      CCA:ActionCommands.DoActionCommand  
   
   **CommandParameter**  
-     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action, and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
+     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action, and the optional action data. All these values have to be specified in the following URL format: `https://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
   
      Note that the different parts of the URL must be encoded if required as per standard guidelines. For example, the space character has to be encoded as “%20” or ‘+’.  
   
@@ -90,14 +89,14 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      Then, you need to pass the following URL as the `CommandParameter` value in your form XAML:  
   
     ```xaml  
-    http://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D  
+    https://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D  
     ```  
   
-     Further you can associate the command with a button click in the form XAML as follows:  
+     Further you can associate the command with a button select in the form XAML as follows:  
   
     ```xaml  
     <Button Command="CCA:ActionCommands.DoActionCommand"  
-    CommandParameter="http://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D"  
+    CommandParameter="https://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D"  
     ```  
   
 - **Action call**: This serves as an alternative to executing a UII action on a hosted control where you don't want to encode the action data and put it in the XAML. To execute an action call from the form XAML, specify the following values for `Command` and `CommandParameter`.  
@@ -106,7 +105,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      CCA:ActionCommands.DoActionCommand  
   
   **CommandParameter**  
-     The command parameter must contain the name of the action call to be executed, and must be specified in the following URL format: `http://actioncall/[ActionCallName]`.  
+     The command parameter must contain the name of the action call to be executed, and must be specified in the following URL format: `https://actioncall/[ActionCallName]`.  
   
      Note that the action call name must be URL encoded if it contains spaces or special characters. For example, the space character has to be encoded as “%20” or ‘+’.  
   
@@ -116,7 +115,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      Then, you need to pass the following URL as the `CommandParameter` value in your form XAML:  
   
     ```xaml  
-    http://actioncall/Open+Contact+Page  
+    https://actioncall/Open+Contact+Page  
     ```  
   
 - **Event**: To execute an event from the form XAML, specify the following values for `Command` and `CommandParameter`.  
@@ -160,8 +159,8 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
  The following sample XAML displays a notification based on the max number of sessions value configured in the replacement parameter for your instance, and displays a notification when you reach the session limit.  
   
 ```xaml  
-<Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"   
+<Border xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+        xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"   
 xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
 BorderBrush="Blue" BorderThickness="1">  
         <Grid Background="AliceBlue" Height="100" Width="400">  
@@ -245,7 +244,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
 
  > [!Note]
  > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
- ![New notification replacing the recent notification in the stack](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
+ ![New notification replacing the recent notification in the stack.](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-3"  
@@ -257,9 +256,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
   
 2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
   
-3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
-  
-   ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
+3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`.
   
 4. Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md). 
 ::: moniker-end
@@ -273,7 +270,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
   
 2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.
 
-    ![Hosted control with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control with USD Component type as Popup Notification")
+    ![Hosted control with USD Component type as Popup Notification.](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control with USD Component type as Popup Notification")
   
 3. Create an action call to display the notification.</br> For example, create an action call and specify the following: 
 
@@ -282,22 +279,23 @@ The added custom parameter can be used in the form XAML as replacement parameter
     |Name|Action Call for Max Sessions Notifications|
     |Hosted Control|MaxSessionNotificationControl|
     |Action|Show|
-    |Data|formName = Sample Notification Form</br>top = 10</br>left = 80</br>timeout = 20</br>stack = true</br>stackHeight = 60
-  
-   ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
+    |Data|formName = Sample Notification Form</br>top = 10</br>left = 80</br>timeout = 20</br>stack = true</br>stackHeight = 60 |
   
 4. Finally, add the action call to an event to execute the action. </br>
 As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md). </br>
 
-    a. Go to **Unified Service Desk** > **Events**.</br>
+    a. Go to **Events**.</br>
     b. Select **SessionNew** from the list.</br>
-    c. On the **SessionNew** event page, under the **Active Actions** area, click **+** to add action calls.</br>
-    d. In the search box, type **Action Call for Max Sessions Notifications** and select search icon. The result appears.
-    e. Select the **Action Call for Max Sessions Notifications**, and select **Save**.</br>
-    ![Add the action Call to the SessionNew event for displaying notification](../unified-service-desk/media/usd-add-action-call-sessionnew-event.PNG "Add the action Call to the SessionNew event for displaying notification")  
+    c. On the **SessionNew** event page, under the **Active Actions** area, select  **Add Existing Action Call** to add action calls. The **Lookup Records** pane is displayed.</br>
+    d. In the search box, type **Action Call for Max Sessions Notifications** and select search icon. The result appears. Select the action call, and then select **Add**.
+    e. Select **Save**.</br>  
 ::: moniker-end
 
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   
- [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
+ [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)
+  
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

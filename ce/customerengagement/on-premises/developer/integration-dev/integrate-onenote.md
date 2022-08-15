@@ -3,8 +3,8 @@ title: "Integrate Microsoft Dynamics 365 Customer Engagement with OneNote | Micr
 description: "Set up OneNote Integration in Dynamics 365 Customer Engagement (on-premises) Customer Engagement so that a dedicated OneNote notebook is automatically created for the selected entity records in Dynamics 365 Customer Engagement. This feature provides you the ability to easily take notes in the context of a Dynamics 365 Customer Engagement record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 Customer Engagement web client or from the record form in the Dynamics 365 Customer Engagement mobile apps."
 ms.custom: 
 ms.date: 02/07/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Integrate Customer Engagement with OneNote
 
@@ -29,7 +28,7 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
   
  Developers can enable or detect [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration for an entity in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] using the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsOneNoteIntegrationEnabled> attribute. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] integration can only be enabled for an entity when both the following are true:  
   
-- Server-based SharePoint integration is enabled between your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)] instances. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration is supported only for [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics CRM Online and SharePoint Online](https://technet.microsoft.com/library/dn894710.aspx)  
+- Server-based SharePoint integration is enabled between your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)] instances. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration is supported only for [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics CRM Online and SharePoint Online](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn894710(v=crm.8))  
   
 - Document management is enabled for the entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable Document Management for Entities](enable-document-management-entities.md)  
   
@@ -45,10 +44,13 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
   
  You cannot manually create an instance of `SharePointDocumentLocation` with the value of the `LocationType` attribute as 2. It is automatically created for an entity record when you enable [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] integration for it.  
   
- An entity record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] can at most have one location record that points to [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook. A [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The notebook is stored in the associated SharePoint document location record folder for the record. If there is more than one associated folders, the notebook is created in the first folder. Section groups are not supported in OneNote files in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. For more information about using the **OneNote** integration feature, see [Set up and use OneNote in CRM](http://go.microsoft.com/fwlink/p/?LinkId=533463).  
+ An entity record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] can at most have one location record that points to [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook. A [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The notebook is stored in the associated SharePoint document location record folder for the record. If there is more than one associated folders, the notebook is created in the first folder. Section groups are not supported in OneNote files in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. For more information about using the **OneNote** integration feature, see [Set up and use OneNote in CRM](https://go.microsoft.com/fwlink/p/?LinkId=533463).  
   
 ### See also  
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md)   
  [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md) 
  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,32 +1,33 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
-description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+description: "Learn how to create the Agent Scripting hosted control in Unified Service Desk. Also, learn about all the predefined UII actions supported by it."
+ms.date: 12/31/2019
 ms.topic: article
-ms.assetid: 4d34fda6-6b17-4c94-8881-39962c85e6d0
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Agent Scripting (Hosted Control)
+
+
+
 Use **Agent Scripting** type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session. For more information, see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md).
 
 <a name="AgentScripting"></a>
 ## Create an Agent Scripting hosted control
+
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Agent Scripting** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
-  <!-- Missing graphic below-->
- <!-- ![Agent scripting hosted control](../unified-service-desk/media/usd-agent-scripthostedcontrol.PNG "Agent scripting hosted control")  -->
   
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **Unified Service Desk Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  
@@ -50,7 +51,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
   
 <a name="GoToTask"></a>   
 ### GoToTask  
- This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in the Common Data Service platform (**Settings** > **Agent Scripts**).  
+ This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in Microsoft Dataverse (**Settings** > **Agent Scripts**).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -72,7 +73,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new Common Data Service platform record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a Dataverse record of the specified entity, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -146,4 +147,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
  [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

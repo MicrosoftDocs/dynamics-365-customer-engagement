@@ -8,7 +8,7 @@
  {
      UniqueName = "sdksamples",
      FriendlyName = "Microsoft CRM SDK Samples",
-     SupportingWebsiteUrl = "http://msdn.microsoft.com/en-us/dynamics/crm/default.aspx",
+     SupportingWebsiteUrl = "https://msdn.microsoft.com/dynamics/crm/default.aspx",
      CustomizationPrefix = "sample",
      EMailAddress = "someone@microsoft.com",
      Description = "This publisher was created with samples from the Microsoft Dynamics CRM SDK"

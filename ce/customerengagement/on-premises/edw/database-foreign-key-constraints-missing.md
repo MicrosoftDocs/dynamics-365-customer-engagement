@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement database foreign key constraints are missing | Microsoft Docs"
+description: Environment diagnostics warning that foreign key constraints are missing from the database.
+
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -21,5 +23,8 @@ The original system database table foreign key constraints from the previous ver
   
  ## Solution
   
- If the upgrade does not successfully complete, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](http://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
+ If the upgrade does not successfully complete, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

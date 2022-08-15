@@ -35,7 +35,7 @@ namespace Microsoft.Crm.Sdk.Samples
         /// it creates the workflow record with this XAML and then activates it.
         /// </summary>
         /// <remarks>
-        /// Visit http://msdn.microsoft.com/en-us/library/gg309458.aspx 
+        /// Visit https://msdn.microsoft.com/library/gg309458.aspx 
         /// for instructions on enabling XAML workflows on the Microsoft Dynamics CRM server.
         /// </remarks>
         /// <param name="serverConfig">Contains server connection information.</param>
@@ -62,14 +62,14 @@ namespace Microsoft.Crm.Sdk.Samples
 
                     xamlWF = @"<?xml version=""1.0"" encoding=""utf-16""?>
                         <Activity x:Class=""SampleWF"" 
-                                  xmlns=""http://schemas.microsoft.com/netfx/2009/xaml/activities"" 
+                                  xmlns=""https://schemas.microsoft.com/netfx/2009/xaml/activities"" 
                                   xmlns:mva=""clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" 
                                   xmlns:mxs=""clr-namespace:Microsoft.Xrm.Sdk;assembly=Microsoft.Xrm.Sdk, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" 
                                   xmlns:mxswa=""clr-namespace:Microsoft.Xrm.Sdk.Workflow.Activities;assembly=Microsoft.Xrm.Sdk.Workflow, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" 
                                   xmlns:s=""clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"" 
                                   xmlns:scg=""clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"" 
                                   xmlns:srs=""clr-namespace:System.Runtime.Serialization;assembly=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089""                                  
-                                  xmlns:this=""clr-namespace:"" xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml"">
+                                  xmlns:this=""clr-namespace:"" xmlns:x=""https://schemas.microsoft.com/winfx/2006/xaml"">
                             <x:Members>
                                 <x:Property Name=""InputEntities"" Type=""InArgument(scg:IDictionary(x:String, mxs:Entity))"" />
                                 <x:Property Name=""CreatedEntities"" Type=""InArgument(scg:IDictionary(x:String, mxs:Entity))"" />

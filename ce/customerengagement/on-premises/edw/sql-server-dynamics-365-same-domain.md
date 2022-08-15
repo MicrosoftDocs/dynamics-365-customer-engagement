@@ -1,5 +1,5 @@
 ---
-title: "Microsoft SQL Server and Microsoft Dynamics 365 for Customer Engagement Server must be in the same domain | Microsoft Docs"
+title: "Microsoft SQL Server and Microsoft Dynamics 365 Server must be in the same domain | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft SQL Server and Microsoft Dynamics 365 for Customer Engagement Server must be in the same domain
+# Microsoft SQL Server and Microsoft Dynamics 365 Server must be in the same domain
 
 ## Cause
   
@@ -22,3 +22,6 @@ ms.author: matp
   
  Make sure that the computer you are trying to connect to (the one that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]) is in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain as the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

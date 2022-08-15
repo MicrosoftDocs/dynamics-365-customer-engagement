@@ -3,8 +3,8 @@ title: "Recurrence pattern in asynchronous job execution (Developer Guide for Dy
 description: "Learn about executing asynchronous system operations one time or on a recurring basis by using a recurrence rule. Use the AsyncOperation.RecurrencePattern attribute to specify the recurrence rule."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Recurrence pattern in asynchronous job execution
 
@@ -33,7 +32,7 @@ You can execute asynchronous system operations one time or on a recurring basis 
 |"FREQ=HOURLY;"|Once an hour|  
   
 > [!NOTE]
->  A complete format for a recurrence rule is described in the [RFC2445](http://go.microsoft.com/fwlink/p/?LinkId=262221) Internet standard (Internet Calendaring and Scheduling Core Object Specification).  
+>  A complete format for a recurrence rule is described in the [RFC2445](https://go.microsoft.com/fwlink/p/?LinkId=262221) Internet standard (Internet Calendaring and Scheduling Core Object Specification).  
   
  You can specify how frequently you want to repeat the recurrence rule by using an INTERVAL part of the rule. For example, to execute a job every three days, use the following format: "FREQ=DAILY;INTERVAL=3;". The INTERVAL is an optional part of the recurrence rule. If you do not specify INTERVAL, it is set to 1.  
   
@@ -50,3 +49,6 @@ You can execute asynchronous system operations one time or on a recurring basis 
  [Asynchronous Operation (system job) Entity](asyncoperation-system-job-entity.md)   
  [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)   
  [Supported entities for asynchronous operations](supported-entities-asynchronous-operations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

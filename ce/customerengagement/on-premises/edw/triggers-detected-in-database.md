@@ -22,3 +22,6 @@ ms.author: matp
   
  This is a warning and Setup can continue. However, in some circumstances triggers can cause the upgrade to fail. We recommend that you remove all triggers from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases before you continue running Setup. After Setup is complete you can add them back.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

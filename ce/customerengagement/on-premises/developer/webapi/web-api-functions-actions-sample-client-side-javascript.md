@@ -3,8 +3,8 @@ title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer
 description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Functions and Actions Sample (Client-side JavaScript)
 
@@ -48,7 +47,7 @@ This sample demonstrates how to perform bound and unbound functions and actions,
  
 ## Run this sample
 
- To run this sample, go to  [Microsoft CRM Web API Functions and Actions Sample (Client-side JavaScript)](http://go.microsoft.com/fwlink/p/?LinkId=824048) and download the Microsoft CRM Web API Functions and Actions Sample (Client-side JavaScript).zip sample file. Extract the contents and locate the  WebAPIFunctionsandActions_1_0_0_0_managed.zip managed solution file. Import the managed solution into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and view the configuration page of the solution to run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
+ To run this sample, go to  [Microsoft CRM Web API Functions and Actions Sample (Client-side JavaScript)](https://go.microsoft.com/fwlink/p/?LinkId=824048) and download the Microsoft CRM Web API Functions and Actions Sample (Client-side JavaScript).zip sample file. Extract the contents and locate the  WebAPIFunctionsandActions_1_0_0_0_managed.zip managed solution file. Import the managed solution into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and view the configuration page of the solution to run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
   
 <a name="bkmk_codeSample"></a>
 
@@ -242,7 +241,7 @@ Sdk.request = function (action, uri, data, addHeader) {
  * @function Sdk.startSample  
  * @description Initiates a chain of promises to show use of Functions and Actions with the Web API.  
  * Functions and actions represent re-usable operations you can perform using the Web API.  
- * For more info, see https://msdn.microsoft.com/en-us/library/mt607990.aspx#bkmk_actions  
+ * For more info, see https://msdn.microsoft.com/library/mt607990.aspx#bkmk_actions  
  * The following standard CRM Web API functions and actions are invoked:  
  *  - WhoAmI, a basic unbound function  
  *  - GetTimeZoneCodeByLocalizedName, an unbound function that requires parameters  
@@ -263,13 +262,13 @@ Sdk.startSample = function () {
  .then(function () {  
   console.log("-- Working with functions --");  
   // Bound and Unbound functions  
-  // See https://msdn.microsoft.com/en-us/library/gg309638.aspx#bkmk_boundAndUnboundFunctions  
+  // See https://msdn.microsoft.com/library/gg309638.aspx#bkmk_boundAndUnboundFunctions  
   
   console.log("Using functions to look up your full name.");  
   // Calling a basic unbound function without parameters.  
   // Retrieves the user's full name using a series of function requests.  
   //  - Call WhoAmI via the Sdk.getUsersFullName function.  
-  // For more info on the WhoAmI function, see https://msdn.microsoft.com/en-us/library/mt607925.aspx  
+  // For more info on the WhoAmI function, see https://msdn.microsoft.com/library/mt607925.aspx  
   return Sdk.getUsersFullName();  
  })  
  .then(function (fullName) {  
@@ -318,7 +317,7 @@ Sdk.startSample = function () {
    totalTime);  
   
   console.log("-- Working with Actions --");  
-  // For more info about Action, see https://msdn.microsoft.com/en-us/library/mt607600.aspx  
+  // For more info about Action, see https://msdn.microsoft.com/library/mt607600.aspx  
   
   console.log("Unbound Action: WinOpportunity");  
   // Calling an unbound action that requires parameters.  
@@ -346,7 +345,7 @@ Sdk.startSample = function () {
   //  - Get a reference to the current user.  
   //  - Get a reference to the letter activity.  
   //  - Add letter to current user's queue via the bound action AddToQueue.  
-  // For more info on AddToQueue, see https://msdn.microsoft.com/en-us/library/mt607880.aspx  
+  // For more info on AddToQueue, see https://msdn.microsoft.com/library/mt607880.aspx  
   
   return Sdk.request("GET", "/WhoAmI");  
  })  
@@ -387,7 +386,7 @@ Sdk.startSample = function () {
   // This custom action is installed when you install this sample's solution to your CRM server.  
   //  - Add a note to an existing contact (e.g.: contactUri)  
   //  - Get the note info and the contact's full name.  
-  // For more info, see https://msdn.microsoft.com/en-us/library/mt607600.aspx#bkmk_customActions  
+  // For more info, see https://msdn.microsoft.com/library/mt607600.aspx#bkmk_customActions  
   //sample_AddNoteToContact custom action parameters  
   var parameters = {  
    NoteTitle: "The Title of the Note",  
@@ -719,8 +718,11 @@ Sdk.createAccountWithOpportunityToWin = function () {
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Functions and Actions Sample](web-api-functions-actions-sample.md)   
- [Web API Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)   
+ [Web API Functions and Actions Sample (C#)](/powerapps/developer/data-platform/webapi/samples/functions-actions-csharp)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

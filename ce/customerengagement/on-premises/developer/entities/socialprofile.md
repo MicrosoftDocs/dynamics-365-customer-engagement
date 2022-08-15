@@ -2,7 +2,7 @@
 title: "SocialProfile Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SocialProfile entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -10,11 +10,10 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
-# SocialProfile Entity Reference
+
+# SocialProfile Entity Reference for Dynamics 365 Customer Engagement
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.
 
@@ -949,3 +948,5 @@ See account Entity [Socialprofile_customer_accounts](account.md#BKMK_Socialprofi
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.socialprofile?text=socialprofile EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -144,7 +144,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 '			#Region "Creating Accounts"
 
 			Dim accountName As String = "Contoso, Ltd"
-			Dim websiteUrl As String = "http://www.contoso.com/"
+			Dim websiteUrl As String = "https://www.contoso.com/"
 
             Console.WriteLine("  Creating duplicate records (Account name={0}, Website URL={1})",
                               accountName, websiteUrl)

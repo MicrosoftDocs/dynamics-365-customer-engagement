@@ -1,9 +1,10 @@
 ---
-title: "Detect duplicate data  | MicrosoftDocs"
+title: "Detect duplicate data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Dynamics 365 uses duplicate detection rules that automatically check new records against old ones. It's also recommended to schedule duplicate detection jobs."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,13 +15,11 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Detect duplicate data 
 
-To determine whether a record is a potential duplicate, PowerApps uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, its matchcode can be checked automatically against the matchcodes of existing records. By default, Dynamics 365 apps have simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
+To determine whether a record is a potential duplicate, Power Apps uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, its matchcode can be checked automatically against the matchcodes of existing records. By default, Dynamics 365 apps have simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
   
  Duplicate detection works by comparing generated match codes of existing records with each new record being created. These match codes are created as each new record is created. Therefore, there is potential for one or more duplicate records to be created if they are processed at the exact same moment. In addition to detecting duplicates as they are created, you should schedule duplicate detection jobs to check for other potential duplicate records.  
   
@@ -52,3 +51,6 @@ To check for duplicates in the web application, you can use **Detect Duplicates*
   
 A duplicate detection job runs in the background while you do other things in Dynamics 365 apps. You can request email notification from Dynamics 365 apps upon the completion of a duplicate detection job. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

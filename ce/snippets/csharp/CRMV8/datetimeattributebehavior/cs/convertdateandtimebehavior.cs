@@ -45,7 +45,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
         // Specify which language code to use in the sample. If you are using a language
         // other than US English, you will need to modify this value accordingly.
-        // See https://msdn.microsoft.com/en-us/library/ms912047.aspx        
+        // See https://msdn.microsoft.com/library/ms912047.aspx        
         public const int _languageCode = 1033;
 
         // Define the IDs/variables needed for this sample.        

@@ -1,13 +1,10 @@
 ---
 title: "Panel Layout (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using the Panel Layout hosted control to define the arrangement of panels in Unified Service Desk. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the Unified Service Desk client application."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+description: "Learn to create a Panel Layout hosted control for defining the arrangement of panels in Unified Service Desk."
+ms.date: 12/31/2019
 ms.topic: article
-ms.assetid: bbc0cc8e-b45c-4ad6-a7e8-616dc1a00f53
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -15,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Panel Layout (Hosted Control)
 Use **Panel Layout** hosted control to define the arrangement of panels in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with several predefined panel types to support various layout options such as tabbed layout, deck, and stacked layout. For more information, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
@@ -32,11 +31,11 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
 ## Create a Panel Layout hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Panel Layout** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-panellayouthostedcontrol.png "Panel Layout hosted control")  
+ ![Panel Layout hosted control.](../unified-service-desk/media/crm-itpro-usd-panellayouthostedcontrol.png "Panel Layout hosted control")  
   
  In the **New Hosted Control** screen:  
   
-- From the **USD Component Type** drop-down list, select **Panel Layout**.  
+- From the **Unified Service Desk Component Type** drop-down list, select **Panel Layout**.  
   
 - From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). The fields in this page change based on the selected panel type.  
   
@@ -119,7 +118,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
 <a name="SetVisualProperty"></a>   
 ### SetVisualProperty  
- Set the visual ([UIElement](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.uielement.aspx)) properties such as height, width, and visibility of a hosted control. This action call is specifically useful for UI automation, such as automatically displaying or hiding a panel. Familiarity with XAML and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] layout is required for effectively using this action.  
+ Set the visual ([UIElement](/uwp/api/Windows.UI.Xaml.UIElement)) properties such as height, width, and visibility of a hosted control. This action call is specifically useful for UI automation, such as automatically displaying or hiding a panel. Familiarity with XAML and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] layout is required for effectively using this action.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -130,7 +129,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
  For an example usage of this message, see [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step3) in [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   
 > [!NOTE]
->  By default, this action is exposed only for the **Panel Layout** type of hosted control. To use the `SetVisualProperty` action with all other predefined [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control types that are derived from the [DynamicsBaseHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, you must explicitly add a UII action called `SetVisualProperty` to the respective hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add UII action for a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  
+>  By default, this action is exposed only for the **Panel Layout** type of hosted control. To use the `SetVisualProperty` action with all other predefined [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control types that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, you must explicitly add a UII action called `SetVisualProperty` to the respective hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add UII action for a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  
   
 <a name="events"></a>   
 ## Predefined events  
@@ -142,3 +141,6 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
  [Events](../unified-service-desk/events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

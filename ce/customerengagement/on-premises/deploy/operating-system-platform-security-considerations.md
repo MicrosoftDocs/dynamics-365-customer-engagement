@@ -1,8 +1,9 @@
 ---
 title: "Operating system and platform technology security considerations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Learn about the operating system and platform security considerations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,7 +35,7 @@ In the broadest sense, security involves planning and considering tradeoffs betw
   -   [Securing Priviliged Access](/windows-server/identity/securing-privileged-access/securing-privileged-access) 
     
 ### Windows error reporting  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] requires the Windows Error Reporting (WER) service, which Setup will install if it is missing. The [!INCLUDE[pn_WER_short](../includes/pn-wer-short.md)] service collects information, such as IP addresses. These IP addresses are not used to identify users. The [!INCLUDE[pn_WER_short](../includes/pn-wer-short.md)] service does not intentionally collect names, addresses, email addresses, computer names, or any other form of personally identifiable information (PII). It is possible that such information may be captured in memory or in the data collected from open files, but [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] does not use it to identify users. In addition, some information that is transmitted between the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application and [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] may not be secure. For more information about the type of information that is transmitted, see [Privacy statement for the Microsoft Error Reporting Service](http://go.microsoft.com/fwlink/p/?LinkID=200371).  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] requires the Windows Error Reporting (WER) service, which Setup will install if it is missing. The [!INCLUDE[pn_WER_short](../includes/pn-wer-short.md)] service collects information, such as IP addresses. These IP addresses are not used to identify users. The [!INCLUDE[pn_WER_short](../includes/pn-wer-short.md)] service does not intentionally collect names, addresses, email addresses, computer names, or any other form of personally identifiable information (PII). It is possible that such information may be captured in memory or in the data collected from open files, but [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] does not use it to identify users. In addition, some information that is transmitted between the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application and [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] may not be secure. For more information about the type of information that is transmitted, see [Privacy statement for the Microsoft Error Reporting Service](https://go.microsoft.com/fwlink/p/?LinkID=200371).  
   
   
 ### Update management  
@@ -47,7 +48,7 @@ In the broadest sense, security involves planning and considering tradeoffs betw
 ## Securing SQL Server  
  Because [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] relies on [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], make sure you take the following measures to improve the security of your [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database:  
   
--   Apply the latest operating system, [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] service packs (SPs), and updates. Check the [Microsoft Security](http://go.microsoft.com/fwlink/p/?linkid=92540) website for the latest details.  
+-   Apply the latest operating system, [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] service packs (SPs), and updates. Check the [Microsoft Security](https://go.microsoft.com/fwlink/p/?linkid=92540) website for the latest details.  
   
 -   Install all [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] data and system files on NTFS partitions for file system-level security. You should make the files available only to administrative or system-level users through NTFS permissions. This helps safeguard against users who access those files when the MSSQLSERVER service is not running.  
   
@@ -57,9 +58,9 @@ In the broadest sense, security involves planning and considering tradeoffs betw
   
 -   At a minimum, enable auditing of failed sign-ins. By default, [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system auditing is disabled, and no conditions are audited. This makes intrusion detection difficult and helps attackers cover their tracks.  
   
--   [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] administrators should enable RDL Sandboxing to restrict access to the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Enabling and Disabling RDL Sandboxing](/sql/reporting-services/report-server-sharepoint/enable-and-disable-rdl-sandboxing?view=sql-server-2017)  
+-   [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] administrators should enable RDL Sandboxing to restrict access to the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Enabling and Disabling RDL Sandboxing](/sql/reporting-services/report-server-sharepoint/enable-and-disable-rdl-sandboxing?view=sql-server-2017&preserve-view=true)  
   
--   Configure each SQL logon to use the master database as the default database. Although users shouldn’t have rights to the master database, as a best practice, you should change the default for every SQL logon (except those with the SYSADMIN role) to use *OrganizationName*_MSCRM as the default database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Securing SQL Server](http://go.microsoft.com/fwlink/p/?LinkID=200479)  
+-   Configure each SQL logon to use the master database as the default database. Although users shouldn’t have rights to the master database, as a best practice, you should change the default for every SQL logon (except those with the SYSADMIN role) to use *OrganizationName*_MSCRM as the default database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Securing SQL Server](/sql/relational-databases/security/securing-sql-server)  
   
 <a name="BKMK_SecuringExchange"></a>   
 ## Securing Exchange Server and Outlook  
@@ -76,12 +77,15 @@ In the broadest sense, security involves planning and considering tradeoffs betw
 ## Securing mobile devices  
  As organizations move to support an increasingly mobile workforce, strong security remains essential. Here are some resources to help you implement best practices for mobile devices, such as smartphones and tablets:  
 
--   [Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune)  
+-   [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune)  
   
--   [iOS in Business](http://www.apple.com/ipad/business/it-center/security.html) (iPad and iPhone)  
+-   [iOS in Business](https://www.apple.com/ipad/business/it-center/security.html) (iPad and iPhone)  
   
 ## See Also  
  [Planning Your Deployment of Microsoft Dynamics 365](planning-your-deployment-of-microsoft-dynamics-365.md)   </br>
  [Setup overview for mobile apps](../../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  </br>
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

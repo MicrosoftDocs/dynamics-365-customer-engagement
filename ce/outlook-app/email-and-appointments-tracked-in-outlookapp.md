@@ -1,18 +1,17 @@
 ---
 title: "Emails and appointments are tracked with a Regarding record in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
+description: Learn about the two email and appointment tracking options that are available in Dynamics 365 App for Outlook.
 ms.custom: 
-ms.date: 07/17/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 05/20/2021
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -37,3 +36,6 @@ Enabling this setting will hide the option to track an email/appointment without
  > - This OrgDBOrgSetting does not apply to tracking contacts through Dynamics 365 App for Outlook.
  > - This is an existing OrgDBOrgSetting which only applied to Dynamics 365 for Outlook and it will not apply to App for Outlook as well.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

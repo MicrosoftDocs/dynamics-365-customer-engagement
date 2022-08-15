@@ -1,39 +1,23 @@
 ---
-title: "getClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "getClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| Microsoft Docs"
+description: "Includes description, syntax, and parameter information for the getClickToAct method in JavaScript API Reference for Channel Integration Framework 1.0. "
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 0E6DEBBB-F946-4DF4-B453-FD7720E5D581
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# getClickToAct (CIF JavaScript API Reference)
+# getClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[getClickToAct](includes/getClickToAct-description.md)]
 
-## Syntax
+[!INCLUDE[token-getClickToAct](../../shared/token-getClickToAct.md)]
 
-`Microsoft.CIFramework.getClickToAct(value).then(successCallback, errorCallback);`
 
-## Parameters
-
-| Name            | Type     | Required | Description                                       |
-|-----------------|----------|----------|---------------------------------------------------|
-| successCallback | Function | No       | A function to call when the request is successful |
-| errorCallback   | Function | No       | A function to call when the request fails         |
-
-## Return value
-
-**Type:** Boolean
-
-**Description:** Returns Promise object with the value. True if the **ClickToAct** is enabled; false otherwise.
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

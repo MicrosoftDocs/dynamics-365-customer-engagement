@@ -3,8 +3,8 @@ title: "Extend Dynamics 365 Customer Engagement (on-premises) (Developer Guide f
 description: "Understand the different ways you can write code to change how a Dynamics 365 Customer Engagement (on-premises) system works, build your own application using it, or integrate the system with other products."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -17,20 +17,19 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Extend Dynamics 365 Customer Engagement (on-premises)
 
 In addition to various customizations, Dynamics 365 Customer Engagement (on-premises) supports enhancing the functionality of the system through several extensibility points. These include the development of custom plug-ins and workflow activities, responding to form and client side events using JavaScript code, using web resources, and more. These extension points can modify the very behavior and data processing of the system to suit your business needs.
 
-When you develop an application that uses the Dynamics 365 Customer Engagement (on-premises) server, you use Web services to communicate with the underlying xRM platform layer. Dynamics 365 Customer Engagement (on-premises) use a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes and also to make upgrades and enable transportation of solutions easier. This allows for changes in the data structure without requiring any change to code in Dynamics 365 Customer Engagement (on-premises).  
+When you develop an application that uses the Dynamics 365 Server, you use Web services to communicate with the underlying xRM platform layer. Dynamics 365 Customer Engagement (on-premises) use a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes and also to make upgrades and enable transportation of solutions easier. This allows for changes in the data structure without requiring any change to code in Dynamics 365 Customer Engagement (on-premises).  
   
  The xRM platform does not impose business-specific logic. This layer imposes only generic constraints such as security. It contains the building blocks for an application, but by itself is nothing more than a collection of related objects. However, the interaction between those objects is used to implement more extensible logic such as the quote-to-order-to-invoice processing and pricing logic.  
   
  The xRM platform also controls access to data through security, controls access to the database, and raises events for workflow processes and custom business logic implementations (plug-ins). The platform layer provides for both incoming and outgoing email processing through [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)].
   
- ![Dynamics 365 Customer Engagement (on-premises) SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
+ ![Dynamics 365 Customer Engagement (on-premises) SDK architecture.](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
   
 ## In This Section  
  [Dynamics 365 Customer Engagement application platform - A platform for building extended Dynamics 365 Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  
@@ -40,7 +39,7 @@ When you develop an application that uses the Dynamics 365 Customer Engagement (
  When you create extensions it is important that you choose to implement them in a supported way. This protects your investment by helping to insure that you can upgrade to new releases of Dynamics 365 Customer Engagement (on-premises) and use the latest capabilities as they are released. This topic describes which extensions are supported and which are not.  
   
  [The Metadata and Data Models in Dynamics 365 Customer Engagement](metadata-data-models.md)  
- Dynamics 365 Customer Engagement (on-premises) use a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Customer Engagement (on-premises) server or client applications.  
+ Dynamics 365 Customer Engagement (on-premises) use a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Server or client applications.  
   
  Topics in this section describe how you can easily view the metadata, create and edit metadata with code, and query metadata to create dynamic applications which react to changes or metadata differences found in separate organizations.  
   
@@ -84,3 +83,5 @@ When you develop an application that uses the Dynamics 365 Customer Engagement (
 [Manage your deployment](manage-deployment.md)<br />
 [Sample code directory](sample-code-directory.md)<br />
 [Programming Reference](programming-reference.md)<br />
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

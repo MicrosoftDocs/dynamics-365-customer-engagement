@@ -1,9 +1,10 @@
 ---
-title: "Supported web browsers and mobile devices | MicrosoftDocs"
+title: "Supported browsers for Dynamics 365 Customer Engagement (on-premises)"
+description: "Access model-driven apps with the most recent versions of Microsoft Edge, Chrome, Firefox, and Safari. Internet Explorer is supported but not recommended."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 01/07/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,34 +18,29 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Supported web browsers and mobile devices
 
-Users can access the Dynamics 365 Customer Engagement (on-premises) Web application with the most recent versions of these popular browsers:  
+Users can access the model-driven apps with the most recent versions of these popular browsers:  
   
-- [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]   
-  
-- [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]  
-  
-- [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)]   
+- Microsoft Edge (recommended: [Chromium-based Edge](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium))
+- Chrome
+- Firefox  
+- Safari
+- Internet Explorer (not recommended)
 
-- [!INCLUDE[tn_chrome](../includes/tn-chrome.md)]
-  
-- [!INCLUDE[tn_Safari](../includes/tn-safari.md)]   
-    
+> [!NOTE]
+> For optimal performance and experience, we recommend you use the latest version of a modern browser. Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
   
 For more detailed information about supported browsers, see [Web application requirements](web-application-requirements.md).  
   
 For a mobile device, such as an iPad or smartphone, the following apps are available:  
   
-- [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)]  
+- [Dynamics 365 for phones and Dynamics 365 for tablets](../../../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
   
-- [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)]  
+For more detailed information about supported phones and tablets, see [Dynamics 365 mobile and tablet device support](../../../mobile-app/support-phones-tablets.md).  
   
-For more detailed information about supported phones and tablets, see [Mobile and tablet device support](../../../mobile-app/support-phones-tablets.md).  
   
 > [!NOTE]
 > - Users who try to view Customer Engagement (on-premises) on an unsupported browser may be redirected to a mobile experience. 
@@ -63,4 +59,7 @@ For more detailed information about supported phones and tablets, see [Mobile an
  If you export an [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheet as a Dynamic Worksheet while using [!INCLUDE[tn_Safari](../includes/tn-safari.md)], you may receive an error when trying to open the file. To remedy this, right-click the file, click **Get Info**, and, under **Open With**, select [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
 ### See Also  
  [Key preparation and configuration tasks](../admin/key-preparation-and-configuration-tasks.md)
- [Supported web browsers and mobile devices - earlier versions](https://technet.microsoft.com/library/dn531055.aspx)
+ [Supported web browsers and mobile devices - earlier versions](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531055(v=crm.8))
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,20 +1,19 @@
 ---
 title: "Panels, panel types, and panel layouts in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
-ms.custom: dyn365-USD
+description: "Learn about predefined panels, panel types, and panel layouts available in Unified Service Desk to display hosted controls of various types."
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: cc93dff6-3d0e-4a73-918d-16dd883d7fec
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Panels, panel types, and panel layouts in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] uses panels to display hosted controls of various types. Various predefined panel types are available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to support a variety of layout options such as tabbed layout, deck layout, and stacked layout. You define the arrangement of these panels on the main screen of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using a **Panel Layout** hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panel Layout (Hosted Control)](../unified-service-desk/panel-layout-hosted-control.md)
@@ -29,6 +28,7 @@ search.app:
 |          Panel          |                                                                                      Description                                                                                      |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        MainPanel        |                                                                        The main work area in the bottom right.                                                                        |
+|        AboutPanel        |                                                                        The area in the top right. This panel displays Settings, Debug, About, any other configured options.                                                                        |
 |        ChatPanel        |                                                   The typical location of the chat window. It is under the agent scripting control.                                                   |
 |       HiddenPanel       |                                                    A nonvisible panel generally used for component without a user interface (UI).                                                     |
 |       LeftPanel1        |                                                                 A panel just under the **WorkflowPanel** on the left.                                                                 |
@@ -69,7 +69,7 @@ search.app:
 
  The following layout depicts the **Standard Main Panel** type of panel layout (also called standard panel layout) in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 
- ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")
+ ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")
 
 > [!NOTE]
 >  If you do not create any panel layout in your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration, the standard panel layout is used automatically to display panels and controls in the client application.
@@ -84,10 +84,10 @@ search.app:
  The standard panel layout provides the traditional layout including a series of panels on the left, collapsible area and a main work area on the right. The following is the XAML used to define the panel layout. You can also find this XAML in the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK. [Download](https://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the `SamplePanelLayout.xaml`  file under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.
 
 ```xaml
-<USD:PanelLayoutBase xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+<USD:PanelLayoutBase xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:d="https://schemas.microsoft.com/expression/blend/2008"
   mc:Ignorable="d"
   xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
   xmlns:USD="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
@@ -352,10 +352,10 @@ search.app:
  Here is an example of a XAML layout.
 
 ```xaml
-<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+<Grid xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="https://schemas.microsoft.com/expression/blend/2008"
     mc:Ignorable="d" xmlns: USD="clr-namespace:Dynamics.PanelLayouts;assembly=Dynamics">
  <Grid.RowDefinitions>
  <RowDefinition Height="*" x:Name="TopPanelRow" />
@@ -378,3 +378,6 @@ search.app:
 ### See also
  [Use custom panel types and panel layouts](../unified-service-desk/use-custom-panel-types-panel-layouts-unified-service-desk.md)
  [Keyboard shortcuts for panels](../unified-service-desk/keyboard-shortcuts-panels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "Microsoft SQL Server language identifier is not valid | Microsoft Docs"
+description: Environment diagnostics warning that a language identifier isn't valid.
+
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -20,5 +22,8 @@ ms.author: matp
   
  ## Solution
   
- To resolve this problem, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](http://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
+ To resolve this problem, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) supported configurations | Microsoft Docs"
+description: Learn about the supported configurations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -53,10 +54,13 @@ The deployment architecture you will use depends on your business needs. Example
 >  Running [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] in a production environment on an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain controller is not supported.  
   
 > [!TIP]
->  To reduce IT administration overhead, consider running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the cloud. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Microsoft Dynamics](http://go.microsoft.com/fwlink/p/?LinkId=513167)  
+>  To reduce IT administration overhead, consider running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the cloud. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Microsoft Dynamics](https://go.microsoft.com/fwlink/p/?LinkId=513167)  
   
 
 ## See Also  
  [Planning Your Deployment of Microsoft Dynamics CRM 2015](planning-your-deployment-of-microsoft-dynamics-365.md)   
  [Multiple-server deployment](microsoft-dynamics-365-multiple-server-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

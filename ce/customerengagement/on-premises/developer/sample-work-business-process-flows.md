@@ -3,8 +3,8 @@ title: "Sample: Work with business process flows (Developer Guide for Dynamics 3
 description: "The sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage."
 ms.custom: 
 ms.date: 04/05/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,20 +16,21 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
+
 # Sample: Work with business process flows
 
 This sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage. For information about these concepts, see [Model business process flows](model-business-process-flows.md)  
 
- This sample is for [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)], and is available to download from [Sample: Work with business process flows](https://go.microsoft.com/fwlink/p/?LinkId=846108).  
+This sample is available to download from [Sample: Work with business process flows](https://go.microsoft.com/fwlink/p/?LinkId=846108).  
 
 <a name="BKMK_Prerequisites"></a>   
+
 ## Prerequisites  
  Before you can run the sample:  
 
-1. Have access to a [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] or later organization.  
+1. Have access to a Customer Engagement (on-premises), version 9 organization.  
 
 2. Have appropriate privileges on the Lead, Opportunity, and Workflow entities and business process  flow definition entity records used in this sample.  
 
@@ -38,6 +39,7 @@ This sample demonstrates how to programmatically work with business process flow
 4. Have Internet connection to download the sample project and to restore the NuGet packages used in the sample project.  
 
 <a name="BKMK_WhatThisSampleDoes"></a>   
+
 ## What this sample does  
 
 1.  Creates a sample Lead record. This automatically creates an instance of the "Lead To Opportunity Sales Process" business process flow for the Lead record.  
@@ -55,7 +57,7 @@ This sample demonstrates how to programmatically work with business process flow
 
      Here is the output of the sample:  
 
-    ![Sample output](media/work-with-bpf-sample-output.png "Sample output")  
+    ![Sample output.](media/work-with-bpf-sample-output.png "Sample output")  
 
 <a name="BKMK_runSample"></a>   
 ## Run the sample  
@@ -64,7 +66,7 @@ This sample demonstrates how to programmatically work with business process flow
 
 2. Locate the `WorkWithBPF.sln` file in your extracted folder, and open it in Visual Studio.  
 
-3. The sample project uses NuGet packages that must be restored before running the sample. Ensure that automatic restore of NuGet packages is enabled in Visual Studio. More information: [Enabling and disabling NuGet package restore](https://go.microsoft.com/fwlink/?linkid=846106)  
+3. The sample project uses NuGet packages that must be restored before running the sample. Ensure that automatic restore of NuGet packages is enabled in Visual Studio. More information: [Enabling and disabling NuGet package restore](/nuget/consume-packages/package-restore)  
 
     Alternatively, select **Project** > **Manage NuGet Packages**, and select **Restore** to manually restore the packages used in the sample.  
 
@@ -75,16 +77,19 @@ This sample demonstrates how to programmatically work with business process flow
 
    |                                 Prompt                                  |                                                                                             Description                                                                                             |
    |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Enter a Dynamics 365 Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 Customer Engagement server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
+   |      Enter a Dynamics 365 Server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 Server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
    | Is this organization provisioned in Microsoft online services (y/n) [n] |                                                 Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.                                                  |
    |                          Enter domain\username                          |                                                                                    Type your Microsoft account.                                                                                     |
    |                             Enter password                              |                      Type your password. The characters will show as “\*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.                       |
    |                Specify an organization number (1-n) [1]                 |                      From the list of organizations shown that you belong to, type the corresponding number. The default is 1, indicating the first organization in the list.                       |
 
 
-6. The sample will perform the operations described in [What this sample does](sample-insert-update-record-upsert.md#BKMK_WhatThisSampleDoes) and may prompt you with additional options  
+6. The sample will perform the operations described in [What this sample does](sample-insert-update-record-upsert.md) and may prompt you with additional options  
 
 7. When the sample is complete, press ENTER to close the console window.  
 
 ### See also  
  [Model business process flows](model-business-process-flows.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

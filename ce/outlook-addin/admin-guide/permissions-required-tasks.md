@@ -1,9 +1,10 @@
 ---
 title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
+description: Learn about the default security roles users require to perform Dynamics 365 for Outlook tasks and if tasks can be performed in offline mode.
 ms.custom: 
 ms.date: 08/28/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -35,3 +36,6 @@ The following table shows the default security roles required to perform [!INCLU
 | Save and link [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] tasks and appointments in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] |Security roles:  Any<br /><br /> Privileges:  For the record type: Write, Append To|Yes|
 |Save and link [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]|Security roles:  Any<br /><br /> Privileges:  Contact record type: Write, Append To|Yes|
 |Remove tracking in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] from a record| Security roles:  Any<br /><br /> Privileges:  Contact record type: Write, Append To<br /><br /> For the record type: Write, Append To |Yes|
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

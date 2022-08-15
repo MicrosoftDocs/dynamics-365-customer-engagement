@@ -3,8 +3,8 @@ title: "Plug-in development (Developer Guide for Dynamics 365 Customer Engagemen
 description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform. "
 ms.custom: on-premise
 ms.date: 4/30/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,14 +17,16 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # On-premise plug-in development
 
 A plug-in is custom business logic (code) that you can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by Dynamics 365 Customer Engagement (on-premises). You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.
   
- For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
+ For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
+
+ > [!NOTE]
+> The documentation that follows describes additional options only available in on-premises environments. For general information about writing plug-ins that work for both on-premises and online deployments, read the [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins) topic in the Dataverse documentation. 
   
 ## Best practices for on-premise plug-in development
 
@@ -57,4 +59,7 @@ For on-disk plug-ins or custom workflow activities, place the assemblies in the 
 ## Related Sections  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md) <br/> 
  [Web Service Authentication and Impersonation](authenticate-users.md) <br/>
- [Use plug-ins to extend business processes in Common Data Service](/powerapps/developer/common-data-service/plug-ins)
+ [Use plug-ins to extend business processes in Dataverse](/powerapps/developer/common-data-service/plug-ins)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

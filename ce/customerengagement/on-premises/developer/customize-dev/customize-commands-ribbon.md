@@ -3,8 +3,8 @@ title: "Customize commands and the ribbon (Developer Guide for Dynamics 365 Cust
 description: "Dynamics 365 Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon. Dynamics 365 for tablets also uses data defined as ribbons to control what commands are available using a command bar that is optimized for touch. "
 ms.custom: 
 ms.date: 09/25/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customize commands and the ribbon
 
@@ -36,7 +35,7 @@ search.app:
 > [!NOTE]
 >  Because the underlying XML schema was designed to display commands as ribbons, the term *ribbon* will continue to be used in the documentation.  
   
- The SDK describes the process of editing the ribbon by editing the customization.xml file directly. The most frequently used tool created by the community is the [Ribbon Workbench](http://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
+ The SDK describes the process of editing the ribbon by editing the customization.xml file directly. The most frequently used tool created by the community is the [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
  
 To obtain support or help to use this program, contact the program publisher.  
   
@@ -51,3 +50,6 @@ To obtain support or help to use this program, contact the program publisher.
  [Sample: Export Ribbon Definitions](sample-export-ribbon-definitions.md) 
   
  [Client scripting using JavaScript](../clientapi/client-scripting.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,22 +1,24 @@
 ---
-title: "Walkthrough  Create custom hosted control for Unified Service Desk | MicrosoftDocs"
-description: "Learn about how to create a custom hosted control for Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+title: "Walkthrough: Create custom hosted control for Unified Service Desk | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for creating custom hosted controls for Unified Service Desk."
+ms.date: 12/31/2019
 ms.topic: article
-ms.assetid: 7d184ce7-ba95-46ea-9219-67fd6821eba5
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough: Create custom hosted control for Unified Service Desk
+
+
+
 In this topic, you’ll learn how to create a custom hosted control called `My Custom Control` with a custom action. The custom hosted control has two [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] controls: a button that calls the Debugger hosted control and a text label that displays the user name when a custom action, `MyCustomAction`, is called.
 
 ## In This Section
@@ -53,7 +55,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 
    3. Specify the name and location of the project, and click **OK** to create a new project.
 
-   ![Template for creating a custom hosted control](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol01.png "Template for creating a custom hosted control")
+   ![Template for creating a custom hosted control.](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol01.png "Template for creating a custom hosted control")
 
 3. In **Solution Explorer**, double-click the USDControl.xaml file to bring up the XAML designer.
 
@@ -65,7 +67,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 
      This is how the controls look in the XAML designer.
 
-   ![XAML designer with custom controls](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol02.png "XAML designer with custom controls")
+   ![XAML designer with custom controls.](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol02.png "XAML designer with custom controls")
 
 5. Double-click the button to add code behind the XAML. This will take you to the click event definition of myButton in the USDControl.xaml.cs file. Add the following command.
 
@@ -112,45 +114,58 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 ### Define the custom hosted control and action  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365**.  
+2. Select **Hosted Controls** under **Basic Settings**.
   
-3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. Choose **NEW**, and then specify values in the **New Hosted Control** screen as shown here.  
-  
-   ![New custom hosted control](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol03.png "New custom hosted control")  
-  
+4. On the hosted control page, specify the following.
+
+  | Field | Value |
+  |-------------------------|-------------------------------|
+  | Name | My custom hosted control |
+  | Display Name | My Custom Hosted Control| 
+  | Unified Service Desk Component Type | USD Hosted Control |
+  | Application is Global | Checked |
+  | Display Group | MainPanel |
+
+5. Select the **Hosting** tab, and specify the following:
+
+  | Field | Value |
+  |-------------------------|-------------------------------|
+  | Assembly Uri | MyCustomControl|
+  | Assembly Type | MyCustomControl.USDControl|
+
    > [!NOTE]
    > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is **MyCustomControl** and name of the class is **USDControl**, which is the default class name when you create a custom hosted control.  
   
-5. Choose **Save** to create the hosted control.  
+6. Select **Save** to create the hosted control.  
   
-6. Create the action for the hosted control that you defined in Visual Studio. On the nav bar, choose the down arrow next to your hosted control name, and select **UII Actions**.  
+7. Create the action for the hosted control that you defined in Visual Studio. Select the **Related** tab, and the select **UII Actions**.  
   
-7. Choose **Add New UII Action**.  
+8. Select **+ New UII Action**.  
   
-8. Type **MyCustomAction** in the **Name** field, and choose **Save**.  
+9. Type **MyCustomAction** in the **Name** field, and choose **Save**.  
   
-   You have now configured your custom hosted control and custom action on your Common Data Service platform server.  
+   You have now configured your custom hosted control and custom action on your Microsoft Dataverse server.  
   
 <a name="Run"></a>   
 ### Run the Unified Service Desk client to work with custom hosted control  
   
 1. Copy the assembly that contains your custom hosted control definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<*ProjectFolder*>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, you’ll copy the MyCustomControl.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Dataverse server.  
   
 3. On successful sign in, you’ll see the custom hosted control, **My Custom Hosted Control**, on your desktop.  
   
-   ![Custom hosted control](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol04.png "Custom hosted control")  
+   ![Custom hosted control.](../unified-service-desk/media/crm-itpro-usd-customhostedcontrol04.png "Custom hosted control")  
   
-4. Click **Start Debugger** to launch the Debugger hosted control.  
+4. Select **Start Debugger** to launch the Debugger hosted control.  
   
-5. To test the custom action, choose the **Debugger** tab, and then click the down arrow above the **Action Calls** tab to display the area where you can test action calls and [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions.  
+5. To test the custom action, choose the **Debugger** tab, and then Select the down arrow above the **Action Calls** tab to display the area where you can test action calls and [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions.  
   
-   ![Expanded testing area in debugger](../unified-service-desk/media/crm-itpro-usd-customhostedcontroldebugger.png "Expanded testing area in debugger")  
+   ![Expanded testing area in debugger.](../unified-service-desk/media/crm-itpro-usd-customhostedcontroldebugger.png "Expanded testing area in debugger")  
   
 6. Choose the **Direct Action** tab.  
   
@@ -158,14 +173,17 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 8. As per the custom action definition, this action call expects a parameter called `username`, so add the following value in the **Data** field: **username=Tracie Hamilton**.  
   
-   ![Test your custom hosted control](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol01.png "Test your custom hosted control")  
+   ![Test your custom hosted control.](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol01.png "Test your custom hosted control")  
   
-9. Click the **Run Direct Action** icon (![Unified Service Desk debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "Unified Service Desk debugger Run Action Call button")), and then click the **My Custom Hosted Control** tab. The specified user name is displayed in the label field.  
+9. Select the **Run Direct Action** icon (![Unified Service Desk debugger Run Action Call button.](../unified-service-desk/media/usd-run-action-call-icon.png "Unified Service Desk debugger Run Action Call button")), and then select the **My Custom Hosted Control** tab. The specified user name is displayed in the label field.  
   
-   ![My Custom Host Control tab shows username](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol02.png "My Custom Host Control tab shows username")
+   ![My Custom Host Control tab shows username.](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol02.png "My Custom Host Control tab shows username")
 
 ### See also
- [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
- [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)
+
+ [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)  
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+ [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
+ [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

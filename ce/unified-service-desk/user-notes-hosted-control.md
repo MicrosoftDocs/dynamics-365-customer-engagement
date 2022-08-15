@@ -1,20 +1,19 @@
 ---
 title: "User Notes (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the User Notes type of hosted control in Unified Servoce Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+description: "Learn about the User Notes type of hosted control and the predefined UII actions associated with it."
+ms.date: 12/31/2019
 ms.topic: article
-ms.assetid: 7d3fec60-2f91-4b25-8a80-f41def5a5f74
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # User Notes (Hosted Control)
 Use **User Notes** hosted control type to provide agents with a scratch pad to type notes during an interaction. Language specific spell checking can be applied to this component by calling the **SetLanguage** action. This component does not automatically pick up the current language of the user, by design. The ability to change the language used is intended to provide the ability to set the language appropriate for the transaction. For example, consider there is a bilingual agent that can speak English and Spanish. The IVR may pass the language selection from the phone system to the agent application’s CTI adapter. This language selection can then be used to set the spell check language for this hosted control.
@@ -24,13 +23,14 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
   
 <a name="Create"></a>   
 ## Create a User Notes hosted control  
+
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **User Notes** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![User Notes hosted control](../unified-service-desk/media/crm-itpro-usd-usernoteshostedcontrol.png "User Notes hosted control")  
+ ![User Notes hosted control.](../unified-service-desk/media/crm-itpro-usd-usernoteshostedcontrol.png "User Notes hosted control")  
   
  In the **New Hosted Control** screen:  
   
-- From the **USD Component Type** drop-down list, select **User Notes**.  
+- From the **Unified Service Desk Component Type** drop-down list, select **User Notes**.  
   
 - In the **Display Group** field, specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
   
@@ -123,4 +123,7 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
  [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

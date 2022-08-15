@@ -32,3 +32,6 @@ ms.author: matp
   
 4.  Select **Remove** and follow the instructions on your screen. You will be required to restart your computer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

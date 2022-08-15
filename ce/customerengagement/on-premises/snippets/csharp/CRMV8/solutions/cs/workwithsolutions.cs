@@ -46,7 +46,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
         // Specify which language code to use in the sample. If you are using a language
         // other than US English, you will need to modify this value accordingly.
-        // See http://msdn.microsoft.com/en-us/library/0h88fahh.aspx
+        // See https://msdn.microsoft.com/library/0h88fahh.aspx
         private const int _languageCode = 1033;
 
 
@@ -89,7 +89,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     {
                         UniqueName = "sdksamples",
                         FriendlyName = "Microsoft CRM SDK Samples",
-                        SupportingWebsiteUrl = "http://msdn.microsoft.com/en-us/dynamics/crm/default.aspx",
+                        SupportingWebsiteUrl = "https://msdn.microsoft.com/dynamics/crm/default.aspx",
                         CustomizationPrefix = "sample",
                         EMailAddress = "someone@microsoft.com",
                         Description = "This publisher was created with samples from the Microsoft Dynamics CRM SDK"
@@ -348,7 +348,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                 UniqueName = "sdksamples",
                 FriendlyName = "Microsoft CRM SDK Samples",
-                SupportingWebsiteUrl = "http://msdn.microsoft.com/en-us/dynamics/crm/default.aspx",
+                SupportingWebsiteUrl = "https://msdn.microsoft.com/dynamics/crm/default.aspx",
                 CustomizationPrefix = "sample",
                 EMailAddress = "someone@microsoft.com",
                 Description = "This publisher was created with samples from the Microsoft Dynamics CRM SDK"

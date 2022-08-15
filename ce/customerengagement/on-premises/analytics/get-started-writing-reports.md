@@ -1,9 +1,8 @@
 ---
-title: "Get started writing reports with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-ms.custom: 
-ms.date: 07/12/2018
+title: "Start writing reports with Dynamics 365 Customer Engagement (on-premises)"
+description: "Start here to learn about writing reports with Dynamics 365 Customer Engagement (on-premises). Get information on report types, ownership, security, and more."
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -12,14 +11,14 @@ applies_to:
 ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab
 caps.latest.revision: 14
 author: Mattp123
+ms.custom: intro-internal
 ms.author: matp
 manager: kvivek
 tags: 
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Overview of reports
 
@@ -35,7 +34,7 @@ Customer Engagement (on-premises) support two types of reports:
   
 - **[!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports.** These reports use SQL queries and filtered views to retrieve report data. Filtered views restrict the data to what is available to the security role of the person running the report. All the default reports included with Customer Engagement (on-premises) are SQL-based reports.  
   
-     You cannot access filtered views in Dynamics 365 Customer Engagement because access to the SQL database is not supported. If you have a Dynamics 365 (online) or PowerApps subscription, use Fetch-based reports for custom reporting.  
+     You cannot access filtered views in Dynamics 365 Customer Engagement because access to the SQL database is not supported. If you have a Dynamics 365 (online) or Power Apps subscription, use Fetch-based reports for custom reporting.  
   
 - **Fetch-based Reporting Services reports.** These reports use FetchXML queries that are proprietary to Customer Engagement (on-premises) instead of filtered views to retrieve data for reports. Reports that you create by using the Report Wizard in are Fetch-based reports.  
   
@@ -73,11 +72,11 @@ The other reports can be:
 
 ## Get started writing reports
 
-Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report definition language (RDL) reports to query data and return refined results back to the report user. For more information about RDL, see [Report Definition Language (SSRS)](https://technet.microsoft.com/library/ms155062.aspx).  
+Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report definition language (RDL) reports to query data and return refined results back to the report user. For more information about RDL, see [Report Definition Language (SSRS)](/sql/reporting-services/reports/report-definition-language-ssrs).  
   
  To create or modify existing RDL reports that can be used with your apps, use FetchXML, which is then converted to RDL by using report authoring tools. 
   
- If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](http://www.sql2fetchxml.com/help.aspx)  
+ If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](http://sql2fetchxml.com/Help.aspx)  
 
 <a name="creating"></a>   
 ### Options for creating new reports  
@@ -117,3 +116,6 @@ Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../inc
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md) 
   
  [Publish reports](../analytics/publish-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

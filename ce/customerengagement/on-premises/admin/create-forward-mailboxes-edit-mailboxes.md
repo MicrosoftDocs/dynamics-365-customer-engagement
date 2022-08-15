@@ -1,9 +1,10 @@
 ---
-title: "Create forward mailboxes or edit mailboxes  | MicrosoftDocs"
+title: "Create new forward mailbox in Dynamics 365 Customer Engagement (on-premises)"
+description: "If your organization wants to configure server-side synchronization using a forward mailbox, follow these steps to create a new forward mailbox record."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: 35df6ab6-23e5-479f-8bff-4862a17daaae
 caps.latest.revision: 27
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Create forward mailboxes or edit mailboxes
+# Create a new forward mailbox or editing an existing mailbox record
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 By default, when users and queues are created in Dynamics 365 Customer Engagement (on-premises), their respective mailbox records are also created. These mailbox records contain information that is specific to an individual mailbox on the email server, like email address, mailbox credentials, and email synchronization method. To process email messages using server-side synchronization for users and queues, their respective mailbox records should be associated to an email server profile record in Customer Engagement (on-premises).  
 
@@ -30,7 +31,7 @@ By default, when users and queues are created in Dynamics 365 Customer Engagemen
 > [!TIP]
 >  You can use an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] shared mailbox when you create a queue in Customer Engagement (on-premises) and not consume an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] license for a forwarding email account.  
 > 
->  See Blog: [CRM Queue with an Office 365 Shared Mailbox](http://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
+>  See Blog: [CRM Queue with an Office 365 Shared Mailbox](https://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
 
 1. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
 
@@ -67,3 +68,6 @@ By default, when users and queues are created in Dynamics 365 Customer Engagemen
 5. Click or tap **Save** or **Save & Close**.  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

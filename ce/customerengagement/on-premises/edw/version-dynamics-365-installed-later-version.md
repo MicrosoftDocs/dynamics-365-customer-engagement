@@ -22,3 +22,6 @@ ms.author: matp
   
  The version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you are trying to install is earlier than the currently installed version. This is not supported.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,38 +1,28 @@
 ---
-title: "onclicktoact event (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "onClickToAct event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Learn about the onClickToAct event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-ms.assetid: 6C942CA2-D776-4596-B9C5-D9007DF1AEE9
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# onclicktoact event (CIF JavaScript API reference)
+# onClickToAct event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
-The `onclicktoact` event invoked when user selects the outbound communication (ClickToAct) field in a form.
+[!INCLUDE[token-onclicktoact](../../shared/token-onclicktoact.md)]
 
-You can also write custom controls to raise the Channel Integration ClickToAct window event and pass any eventData as the business requirement.
+### See also
 
-## eventData
 
-The `onclicktoact` event takes following eventData:
+[setClickToAct](../microsoft-ciframework/setClickToAct.md)
 
-| eventData | Example |
-|-----------|---------|
-| ```{"value": <field_value>, "name": <field_name>, "format": <field_type>, "entityLogicalName": <entity_logical_name>}``` | ```{"value": "123456789", "name": "mobilephone", "format": "phone", "entityLogicalName": "contact"}``` |
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-## See also
+[removeHandler](../microsoft-ciframework/removeHandler.md)
 
-- [setClickToAct](../microsoft-ciframework/setClickToAct.md)
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
-
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

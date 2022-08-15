@@ -32,3 +32,6 @@ ms.author: matp
   
 -   You must first upgrade [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] before you install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)].
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

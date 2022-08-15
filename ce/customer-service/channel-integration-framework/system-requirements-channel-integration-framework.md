@@ -1,33 +1,23 @@
 ---
-title: "System requirements of Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework and how to get started using it."
-keywords: ""
-ms.date: 10/16/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "System requirements for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Learn about the system requirements for Dynamics 365 Dynamics 365 Channel Integration Framework 1.0 and how to get started using it."
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: article
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: AE4A0727-FEA6-49A0-8DCC-0F149BE70C8B
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# System requirements of Dynamics 365 Channel Integration Framework
+# System requirements for Dynamics 365 Channel Integration Framework 1.0
 
-This topic describes the system requirements of Dynamics 365 Channel Integration Framework.
+This topic lists the system requirements for Dynamics 365 Channel Integration Framework 1.0.
 
 ## Dynamics 365
 
-Dynamics 365 (online) version 9.1 and higher versions.
-
-## Omnichannel for Dynamics 365 Customer Service
-
-To have multisession capabilities, your organization must use Omnichannel for Customer Service.
+Dynamics 365 (online) 9.1 and later.
 
 ## Supported browsers
 
@@ -36,17 +26,17 @@ To have multisession capabilities, your organization must use Omnichannel for Cu
 - Google Chrome
 
 > [!NOTE]
-> Ensure microphone and speaker access is not blocked by browser policy for voice and video channels.
+> Ensure that microphone and speaker access is not blocked by browser policy for voice and video channels.
 
 ## Domains
 
-All the URLs must be secure (HTTPS).
+The domain of the channel URL should use HTTPS protocol.
 
-> [!div class="nextstepaction"]
-> [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+### See also
 
+[Get Dynamics 365 Channel Integration Framework 1.0](get-channel-integration-framework.md)  
+[Get Dynamics 365 Channel Integration Framework 2.0](v2/get-channel-integration-framework.md)  
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)  
+[FAQs](faq-channel-integration-framework.md)  
 
-## See also
-
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
-[FAQs](faq-channel-integration-framework.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

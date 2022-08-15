@@ -1,25 +1,17 @@
 ---
-title: "Search and open records on an incoming conversation | MicrosoftDocs"
-description: "Read how you can use the Dynamics 365 Channel Integration Framework APIs to search and open records on an incoming conversation."
-keywords: ""
-ms.date: 09/03/2019
-ms.service:
-  - "dynamics-365-cross-app"
-ms.custom:
+title: "Walkthrough: Search and open records of incoming conversations | MicrosoftDocs"
+description: "Demonstrates how you can use the Dynamics 365 Channel Integration Framework 1.0 APIs to search and open records of incoming conversations."
+ms.date: 01/21/2022
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-ms.assetid: 8C49AEE2-54BD-4FEC-A121-41CF2CFFEC2D
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
-# Walkthrough: Search and open records on an incoming conversation
+# Walkthrough: Search and open records of incoming conversations
 
-In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Microsoft Dynamics 365 Channel Integration Framework APIs.
+In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using Dynamics 365 Channel Integration Framework APIs.
 
 The sample given below covers four scenarios:
 
@@ -45,7 +37,7 @@ The sample given below covers four scenarios:
 
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below. 
 
-   ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+   ![Open Index.cshtml file from solution explorer.](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
 ```html
 <!DOCTYPE html>
@@ -210,10 +202,15 @@ The sample given below covers four scenarios:
 
 Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this:
 
-  ![Published sample widget in Unified Interface apps](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
+  ![Published sample widget in Unified Interface apps.](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 
-## See also
+### See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)<br />
-[Sample code for softphone integration](sample-softphone-integration.md)<br />
+[Get started with building a simple communication widget](getting-started-simple-widget.md)
+
+[Sample code for softphone integration](sample-softphone-integration.md)
+
 [Frequently asked questions](faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

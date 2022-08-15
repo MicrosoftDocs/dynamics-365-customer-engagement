@@ -1,9 +1,10 @@
 ---
-title: "Connect Customer Engagement (on-premises) to POP3 or SMTP servers | MicrosoftDocs"
+title: "Connect POP3/SMTP servers to Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to connect Customer Engagement (on-premises) with POP3/SMTP email servers, such as those used for Gmail and Yahoo! Mail."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -13,16 +14,16 @@ ms.assetid: afb01c24-a2bd-4e00-9804-ce494f2d315b
 caps.latest.revision: 22
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Connect Customer Engagement (on-premises) to POP3 or SMTP servers
+# Connect Customer Engagement (on-premises) to POP3/SMTP servers
 
-Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with POP3 and SMTP email servers such as used for Gmail and Yahoo! Mail.  
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
+
+Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with POP3 and SMTP email servers, such as used for Gmail and Yahoo! Mail.  
 
 > [!NOTE]
 >  
@@ -84,7 +85,7 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
 
-     ![System Settings for server-side synchronization](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
+     ![System Settings for server-side synchronization.](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
 
 3.  Click **OK**.  
 
@@ -104,7 +105,7 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 
 3. Select all the mailboxes that you want to associate with the POP3-SMTP profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.  
 
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+   ![Apply default email settings.](../admin/media/apply-default-email-settings.png "Apply default email settings")  
 
     By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.  
 
@@ -150,7 +151,7 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 
     The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.  
 
-    You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).  
+    You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](https://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).  
 
 > [!TIP]
 >  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
@@ -173,3 +174,6 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
  [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

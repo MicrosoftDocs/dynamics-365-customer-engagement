@@ -1,8 +1,9 @@
 ---
 title: "Disable or enable an organization | Microsoft Docs"
+description: Learn how to disable or enable an organization in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,7 +26,7 @@ Use the **Organizations** page to disable or enable an organization. It is a bes
 >  When you disable an organization, users cannot access the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application for the organization.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Disable-CrmOrganization and Enable-CrmOrganization commands in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Disable-CrmOrganization and Enable-CrmOrganization commands in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps&preserve-view=true).  
   
 ### Disable or enable an organization  
   
@@ -43,3 +44,6 @@ Use the **Organizations** page to disable or enable an organization. It is a bes
  [Manage organizations](manage-organizations.md)   
  [Add a new organization](add-a-new-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

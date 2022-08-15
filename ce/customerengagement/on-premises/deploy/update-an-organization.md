@@ -1,8 +1,9 @@
 ---
 title: "Update an organization | Microsoft Docs"
+description: Learn how to update an organization with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,7 +26,7 @@ When you update the organizations in your deployment, disabled organizations can
 >  Before you import, upgrade, or update a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, you should back up the configuration and organization databases.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Enable-CrmOrganization](/powershell/module/microsoft.crm.powershell/enable-crmorganization?view=dynamics365ce-ps) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps) commands.  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Enable-CrmOrganization](/powershell/module/microsoft.crm.powershell/enable-crmorganization?view=dynamics365ce-ps&preserve-view=true) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ### Update a disabled organization  
   
@@ -38,9 +39,9 @@ When you update the organizations in your deployment, disabled organizations can
   
  For information about how to manage updates, see the following:  
   
--   [Windows Server Update Services](http://go.microsoft.com/fwlink/p/?LinkID=200474)  
+-   [Windows Server Update Services](/windows/deployment/deploy-whats-new)  
   
--   [Introduction to Software Updates in Configuration Manager](https://technet.microsoft.com/library/gg682168.aspx)  
+-   [Introduction to Software Updates in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682168(v=technet.10))  
   
 ## See also  
  [Manage organizations](manage-organizations.md)   
@@ -48,3 +49,6 @@ When you update the organizations in your deployment, disabled organizations can
  [Upgrade an organization](upgrade-an-organization.md)   
  [Troubleshoot organization import and upgrade issues](troubleshoot-organization-import-and-upgrade-issues.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

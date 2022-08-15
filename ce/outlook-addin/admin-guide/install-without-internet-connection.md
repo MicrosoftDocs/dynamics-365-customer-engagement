@@ -1,9 +1,10 @@
 ---
 title: "Install Dynamics 365 for Outlook without an Internet connection | MicrosoftDocs"
+description: Learn how to install Dynamics 365 for Outlook without an Internet connection, such as a virtual demonstration environment.
 ms.custom:
 ms.date: 11/28/2016
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
@@ -59,7 +60,7 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 
    After you are finished the  *CRMforOutlookwithoutInternet* folder looks similar to this.
 
-   ![Folders for setting up Dynamics 365 for Outlook with no internet](../media/itpro-crm-for-outlook-no-internet-setup.png "Folders for setting up Dynamics 365 for Outlook with no internet")
+   ![Folders for setting up Dynamics 365 for Outlook with no internet.](../media/itpro-crm-for-outlook-no-internet-setup.png "Folders for setting up Dynamics 365 for Outlook with no internet")
 
 <a name="BKMK_3download"></a>
 ## Step 3: Download the prerequisite files
@@ -138,7 +139,7 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 
     |Description|File name and direct download link|
     |-----------------|----------------------------------------|
-    |SQLSysClrTypes.msi (64-bit)|[SQLSysClrTypes](https://go.microsoft.com/fwlink/p/?LinkID=188392)|
+    |SQLSysClrTypes.msi (64-bit)|SQLSysClrTypes|
     |SQLSysClrTypes.msi (32-bit)|[SQLSysClrTypes](https://go.microsoft.com/fwlink/p/?LinkId=390735)|
 
     > [!IMPORTANT]
@@ -148,3 +149,6 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 ## Step 4: Run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup
  Now that you have all the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation files and prerequisites downloaded and saved in the correct folders, you can run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup (SetupClient.exe) without an Internet connection.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Pass Customer Engagement data from a page as a parameter to Ribbon actio
 description: "The topic describes options for using the <CrmParameter> element to retrieve these values. "
 ms.custom: 
 ms.date: 02/15/2019
-ms.reviewer: kvivek 
-ms.service: crm-online
+ms.reviewer: peheckekvivek 
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: hazhou
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Pass Customer Engagement data from a page as a parameter to ribbon actions
 
@@ -71,7 +70,7 @@ function mySampleFunction(primaryControl) {
 
     // Set the WebSiteURL field if account name contains "Contoso"
     if (accountName.toLowerCase().search("contoso") != -1) {
-        formContext.getAttribute("websiteurl").setValue("http://www.contoso.com");
+        formContext.getAttribute("websiteurl").setValue("https://www.contoso.com");
     }
     else {
         Xrm.Navigation.openAlertDialog({ text: "Account name does not contain 'Contoso'." });
@@ -126,3 +125,6 @@ function mySampleFunction(primaryControl) {
  [Client API form context](../clientapi/clientapi-form-context.md)<br>
  [Client API grid context](../clientapi/clientapi-grid-context.md)<br>
  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

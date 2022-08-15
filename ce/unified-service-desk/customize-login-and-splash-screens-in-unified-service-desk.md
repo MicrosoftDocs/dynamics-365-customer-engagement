@@ -1,13 +1,10 @@
 ---
 title: "Customize login and splash screens in Unified Service Desk | MicrosoftDocs"
-description: "The topic explains how to customize the branding of Unified Service Desk login and splash screens to change the name and appearance of the application name on the login screen and change the application name, appearance, foreground and background colors of the splash screen by modifying XAML styles."
-ms.custom: dyn365-USD
+description: "Learn how to customize the branding of login and splash screens in Unified Service Desk by modifying XAML styles."
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: b28f7509-bea1-4bb4-84a7-691665eaff03
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -15,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Customize login and splash screens in Unified Service Desk
 You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] login and splash screens to change the name and appearance of the application name on the login screen and change the application name, appearance, foreground and background colors of the splash screen by modifying XAML styles.  
@@ -24,8 +23,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  The following XAML is used to customize the branding of login and splash screens in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
 ```xaml  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="FormAppNameStyle" TargetType="TextBlock">  
@@ -97,8 +96,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   
 ```  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="FormAppNameStyle" TargetType="TextBlock">  
@@ -114,14 +113,14 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
  This will be the customization outcome:  
   
- ![Custom app name in the login screen](../unified-service-desk/media/usd-loginscreencustomization.png "Custom app name in the login screen")  
+ ![Custom app name in the login screen.](../unified-service-desk/media/usd-loginscreencustomization.png "Custom app name in the login screen")  
   
 ### Change the application name and appearance of splash screen  
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   
 ```xaml  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="SplashAppNameStyle" TargetType="Label">  
@@ -148,7 +147,10 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
  This will be the customization outcome:  
   
- ![Custom splash screen](../unified-service-desk/media/usd-customsplashscreen.png "Custom splash screen")  
+ ![Custom splash screen.](../unified-service-desk/media/usd-customsplashscreen.png "Custom splash screen")  
   
 ### See also  
  [Customize themes in Unified Service Desk](../unified-service-desk/customize-themes-in-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

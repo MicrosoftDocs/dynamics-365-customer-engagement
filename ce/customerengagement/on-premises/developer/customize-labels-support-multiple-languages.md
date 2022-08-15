@@ -3,8 +3,8 @@ title: "Customize labels to support multiple languages (Developer Guide for Dyna
 description: "Learn about customizing labels to support multiple languages."
 ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -40,8 +40,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Customize labels to support multiple languages
@@ -100,7 +99,7 @@ When you create customizations in Dynamics 365 Customer Engagement (on-premises)
 
  Exported text is saved as a compressed file that contains a CrmTranslations.xml that you open by using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. You can send this file to a linguistic expert, translation agency, or localization firm.  
 
- For more information, see [Office 2003 XML Reference Schemas](http://www.microsoft.com/downloads/details.aspx?FamilyID=fe118952-3547-420a-a412-00a2662442d9).  
+ For more information, see [Office 2003 XML Reference Schemas](https://www.microsoft.com/downloads/details.aspx?FamilyID=fe118952-3547-420a-a412-00a2662442d9).  
 
 ### Import translated text  
  After you have exported the customized entity or attribute text and had it translated, you can import the translated text strings in the Web application by using the `ImportTranslation` message (<xref href="Microsoft.Dynamics.CRM.ImportTranslation?text=ImportTranslation Action" /> or <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest> class). The file that you import must be a compressed file that contains the CrmTranslations.xml and the [Content_Types].xml file just as they were exported.  
@@ -136,3 +135,6 @@ When you create customizations in Dynamics 365 Customer Engagement (on-premises)
  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>   
  <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>    
  <xref:Microsoft.Xrm.Sdk.Metadata.OptionMetadata>   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

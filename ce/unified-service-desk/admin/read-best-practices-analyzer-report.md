@@ -1,14 +1,13 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
-description: "Learn about how to read Best Practices Analyzer report."
+description: "Use this topic to understand the layout of the Best Practices Analyzer report and analyze the results of the report."
 ms.date: 05/15/2018
-ms.service: usd
 ms.topic: article
-ms.assetid: 4BACD2D6-A17D-468D-A2CB-F4BEEF06AE5E
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -16,11 +15,9 @@ search.app:
 
 # Read Best Practices Analyzer report
 
-This section describes the layout of the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report and provides information to help you understand the results of the analysis.
+This section describes the layout of the Best Practices Analyzer report and provides information to help you understand the results of the analysis.
 
-![Read Best Practices Analyzer report](../media/bpa-read-report.gif "Read Best Practices Analyzer report")
-
-![Best Practices Analyzer report](../media/bpa-report.PNG "Best Practices Analyzer report")
+![Best Practices Analyzer report.](../media/bpa-report.PNG "Best Practices Analyzer report")
 
 The report displays the following elements:
 
@@ -29,11 +26,11 @@ The report displays the following elements:
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      Downloads      |                                 This is the location where the generated report is maintained.<br><br>`C:\Users\<User>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>\BPA\BPALogs\`                                  |
 |    Computer name    |                                                         Local computer name on which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] performed the analysis.                                                          |
-| Analysis Start Time |                                                       The time at which the you start analysis. The format of the Analysis Start Time appears as a timestamp in the format <MM-DD-YYYY> <HH:MM:SS>.                                                        |
+| Analysis Start Time |                                                       The time at which the you start analysis. The format of the Analysis Start Time appears as a timestamp in the format \<MM-DD-YYYY> <HH:MM:SS>.                                                        |
 |    Analysis Time    |                                                                                                    The time taken in seconds to complete the analysis.                                                                                                     |
 |        Score        |                                                                                                 Number of parameters passed / Total number of parameters.                                                                                                  |
 |      Parameter      |                                                          The parameter name against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] performs analysis.                                                          |
-|      Category       | The category name under which the parameter is classified. <br> Clicking on the **Category** list, you can filter the categories to see information under those categories.<br><br> ![Category Filter](../media/bpa-category-filter.PNG "Category Filter") |
+|      Category       | The category name under which the parameter is classified. <br> Clicking on the **Category** list, you can filter the categories to see information under those categories.<br><br> ![Category Filter.](../media/bpa-category-filter.PNG "Category Filter") |
 |       Result        |                                                                                                           The analysis result of the parameter.                                                                                                            |
 
 ## Expand parameter to see details
@@ -63,3 +60,6 @@ You must expand a parameter to see the details, which illustrate the following:
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

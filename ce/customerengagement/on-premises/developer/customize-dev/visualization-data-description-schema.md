@@ -3,8 +3,8 @@ title: "Visualization data description schema (Developer Guide for Dynamics 365 
 description: "The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. "
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Visualization data description schema
 
@@ -30,7 +29,7 @@ The following is the schema for the data description XML string for charts in vi
 <?xml version='1.0' encoding='utf-8'?>  
 <xs:schema attributeFormDefault='unqualified'  
            elementFormDefault='qualified'  
-           xmlns:xs='http://www.w3.org/2001/XMLSchema'>  
+           xmlns:xs='https://www.w3.org/2001/XMLSchema'>  
  <xs:element name='datadefinition'>  
   <xs:complexType>  
    <xs:sequence>  
@@ -91,4 +90,7 @@ The following is the schema for the data description XML string for charts in vi
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)   
  [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md)   
  [Sample Charts](sample-charts.md)   
- [Use FetchXML to Construct a Query](../org-service/use-fetchxml-construct-query.md)
+ [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

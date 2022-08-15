@@ -3,8 +3,8 @@ title: "About Entity Reference (Developer Guide for Dynamics 365 Customer Engage
 description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.(SDK). "
 ms.custom: 
 ms.date: 04/02/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -14,8 +14,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # About the Entity Reference
 
@@ -42,7 +41,7 @@ The messages in this list are applicable for the entity. For example, user-owned
 ### Organization service
 When using the Organization service, you can usually invoke the corresponding request class which will belong to either the <xref:Microsoft.Crm.Sdk.Messages> or <xref:Microsoft.Xrm.Sdk.Messages> namespaces. These classes have names that include the `Request` prefix added to the message name.
 
-Some messages are added as custom actions for the solutions they support. These messages are not defined within the SDK assemblies but .NET developers can generate strongly typed classes for actions by using the code generation tool (CrmSvcUtil.exe) or by using the <xref:Microsoft.Xrm.Sdk.OrganizationRequest> class. More information: [Generate early-bound types for an action](create-own-actions.md#generate-early-bound-types-for-an-action) and .
+Some messages are added as custom actions for the solutions they support. These messages are not defined within the SDK assemblies but .NET developers can generate strongly typed classes for actions by using the code generation tool (CrmSvcUtil.exe) or by using the <xref:Microsoft.Xrm.Sdk.OrganizationRequest> class. More information: [Generate early-bound types for an action](create-own-actions.md#generate-early-bound-types-for-an-action).
 
 ### Web API
 When using the Web API, you can usually invoke the corresponding Function or Action with the same name as the message. Not every message that can be invoked using the SDK assemblies have a corresponding Web API function or action. For example, the `SetState` message is deprecated and was not implemented for the Web API.
@@ -76,3 +75,6 @@ In order to represent that there are no actual *Many-to-One* relationships with 
 
 ### Many-to-Many relationships
 Each Many-to-Many relationship includes <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1LogicalName> and <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2LogicalName>. For this documentation relationship details are only included in the topic for *Entity1*. Each Many-to-Many relationship where the entity is *Entity2* includes only a link to the details found in the topic for *Entity1*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

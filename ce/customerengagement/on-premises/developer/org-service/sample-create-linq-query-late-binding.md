@@ -2,9 +2,9 @@
 title: "Sample: Create a LINQ query with late binding (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries using late-bound entities"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.date: 02/05/2020
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -25,26 +25,31 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create a LINQ query with late binding
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e).  
+Download the complete sample from [Sample: Query data using LINQ](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueriesUsingLINQ).
+
+[!INCLUDE[cc-sample-note](../includes/cc-sample-note.md)]
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[cc-how-to-run-PA-samples](../includes/cc-how-to-run-PA-samples.md)]
   
 ## Demonstrates  
  This sample shows how to create [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] queries using late-bound entities.  
   
 ## Example  
- [!code-csharp[query#UseLinqWithDotNetDataServicesDE](../../snippets/csharp/CRMV8/query/cs/uselinqwithdotnetdataservicesde.cs#uselinqwithdotnetdataservicesde)]  
+
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
   
 ### See also  
- [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
+ [Build Queries with LINQ (.NET Language-Integrated Query)](/powerapps/developer/data-platform/org-service/build-queries-with-linq-net-language-integrated-query)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>     
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.CreateQuery(System.String)>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,18 +1,14 @@
 ---
-title: "Build your own Connected Field Service (IoT) solution | MicrosoftDocs"
-ms.description: "Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs."
-ms.author: shellyha
-author: shellyhaverkamp
+title: "Build your own Connected Field Service (IoT) solution (contains video) | MicrosoftDocs"
+description: Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs.
+ms.reviewer: mhart
+ms.author: mhart
+author: m-hartmann
 manager: shellyha
-ms.date: 05/04/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-fieldservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+ms.date: 07/27/2022
+ms.topic: overview
+
+ms.subservice: connected-field-service
 search.app: 
   - D365CE
   - D365FS
@@ -32,9 +28,9 @@ Connected Field Service helps you:
 
 ## What you need to get started
 
-Here are the 3 things you need to get started building your own IoT solution:
+Here are the three things you need to get started building your own IoT solution:
 
-- **Dynamics 365 Field Service with system administrator credentials** 
+- **Dynamics 365 Field Service with system administrator credentials**
 
      You'll need a Dynamics 365 Field Service tenant so that you can import your IoT solution on top of it. You'll build an IoT app      within that Field Service tenant.  
 
@@ -43,16 +39,18 @@ Here are the 3 things you need to get started building your own IoT solution:
 
 - **Azure subscription with admin credentials**     
 
-    The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
+    The Azure IoT services you'll deploy must be associated with an Azure subscription. 
       
     New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
 - **Dynamics 365 Connected Field Service add-on**  
 
-    The free Connected Field Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 Field Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
- 
-    Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
-   
+Connected Field Service is installed automatically in the current version of Field Service. Make sure you have upgraded to the [latest version of Field Service](upgrade-field-service.md). 
+
+You can then deploy Azure IoTHub by going to [https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment](https://github.com/microsoft/Dynamics-365-Connected-Field-Service-Deployment) and following the instructions.
+
+[!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Installation and setup - Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)
+
 ## Watch a 2-minute video
 
 > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]
@@ -61,9 +59,9 @@ Here are the 3 things you need to get started building your own IoT solution:
 
 [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)  
  
-[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)  
+[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](/previous-versions/dynamicscrm-2016/developers-guide/mt744253(v=crm.8))  
  
-[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)  
+[Check out more Azure documentation resources](/azure/iot-hub/)  
 
 
 
@@ -71,3 +69,6 @@ Here are the 3 things you need to get started building your own IoT solution:
 
 
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

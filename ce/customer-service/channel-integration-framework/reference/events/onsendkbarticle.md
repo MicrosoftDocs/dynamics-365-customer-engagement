@@ -1,36 +1,27 @@
 ---
-title: "onsendkbarticle (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "onSendKBArticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
+description: "Learn about the onSendKBArticle event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: D167093B-9F05-4184-8342-2F5FB0415ECC
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# onsendkbarticle event (CIF JavaScript API reference)
+# onSendKBArticle event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
-The `onsendkbarticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
+[!INCLUDE[token-onsendkbarticle](../../shared/token-onsendkbarticle.md)]
 
-## eventData
+### See also
 
-The `eventData` event takes following eventData:
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-| eventData | Example |
-|-----------|---------|
-| ```{'title": <KB article title>, "link": <url>} ``` | ```{"title": "KB Article about Microsoft Developer Guide", "link": "https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-guide"}``` |
+[removeHandler](../microsoft-ciframework/removeHandler.md)
 
-## Related topics
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
-
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

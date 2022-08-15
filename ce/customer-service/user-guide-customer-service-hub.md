@@ -1,14 +1,14 @@
 ---
-title: "User Guide (Dynamics 365 Customer Service) | Microsoft Docs"
-description: "Guide to learn about the Customer Service Hub."
-author: anjgupta
-ms.author: anjgup
-manager: shujoshi
-ms.date: 07/31/2019
+title: "Introduction to Customer Service | MicrosoftDocs"
+description: "Learn about Customer Service Hub."
+ms.date: 06/16/2022
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
+author: Soumyasd27
+ms.author: sdas
+manager: shujoshi
+ms.custom: 
+  - dyn365-customerservice
+  - intro-internal
 ---
 
 # Introduction to Customer Service Hub
@@ -31,7 +31,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 
 > [!NOTE]
-> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). To learn more, see [see the Basics Guide](../basics/basics-guide.md).
+> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). To learn more, see [see the Basics Guide](../customerengagement/on-premises/basics/basics-guide.md).
 
 To learn how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 
@@ -41,14 +41,14 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
   
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
-  
-[Use SLA on the Customers Service Hub records](customer-service-hub-user-guide-case-sla.md#use-sla-on-the-customer-service-hub-records)
+
+[Use SLA on the Customers Service Hub records](enable-entities-service-level-agreements.md)
   
 [Reduce call handling times with knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
-[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
+[Configure Customer Service](configure-cs.md)
 
 ## Accessibility and GDPR
 
@@ -60,12 +60,14 @@ Customer Service Hub advocates inclusive design and accessible content. The app 
 
 Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
 
-- [Accessibility features](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
-- [Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)
+- [Accessibility features](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+- [Microsoft Dynamics 365 Customer Service and GDPR](/dynamics365/get-started/gdpr/index)
 - [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
 
 ### See also
   
-[Overview of Customer Service and Customer Service Hub ](overview.md)
+[Overview of Customer Service and Customer Service Hub ](overview.md)  
+[Upgrade to the Customer Service Hub](upgrade-ish-csh.md)  
 
-[Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

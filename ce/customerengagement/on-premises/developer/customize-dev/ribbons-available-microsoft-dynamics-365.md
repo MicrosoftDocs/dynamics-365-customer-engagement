@@ -3,8 +3,8 @@ title: "Ribbons available in Microsoft Dynamics 365 Customer Engagement (Develop
 description: "The topic describes where ribbons are defined and modified in Dynamics 365 Customer Engagement (on-premises) Customer Engagement."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,8 +24,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Ribbons available in Dynamics 365 Customer Engagement
 
@@ -40,7 +39,7 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
 
  Because of this requirement to reference the definitions of existing ribbon elements, it is very important to understand the current ribbon definitions in your organization. There are two messages you can use to export XML files representing the current state of your ribbons. These definitions include any customizations that have already been applied to your system so that you can customize any custom ribbons that were previously applied. For more information, see [Export Ribbon Definitions](export-ribbon-definitions.md).  
 
- To help you get started, you can download the default ribbon definitions for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] from [Microsoft Downloads: ExportedRibbonXml.zip](http://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). The ExportedRibbonXml.zip file includes the output files you would have for an organization with a ribbon that has not been customized. You don’t need to run the sample application to export this data. If you have a customized ribbon, you should run the sample application to refresh the files in this folder with any customizations previously applied for your organization.  
+ To help you get started, you can download the default ribbon definitions for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] from [Microsoft Downloads: ExportedRibbonXml.zip](https://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). The ExportedRibbonXml.zip file includes the output files you would have for an organization with a ribbon that has not been customized. You don’t need to run the sample application to export this data. If you have a customized ribbon, you should run the sample application to refresh the files in this folder with any customizations previously applied for your organization.  
 
  Within the exported ribbon XML files, the applicationRibbon.xml file includes all the ribbons that are not defined for a specific entity. These correspond to the **Application Ribbons** solution component. For each entity, you will find an *entity name*ribbon.xml file. This corresponds to the `RibbonDiffXml` that is included in each entity. If you want to edit the ribbon for a specific entity, you should locate the ribbon XML file for that entity.  
 
@@ -100,7 +99,7 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
 
  When a list of records for an entity is displayed within a sub grid on the form of another entity or in a chart, there will be only three controls available directly above or within the subgrid. The behaviors for these controls can be modified by changing the commands that they are associated with.  
 
-- **Add** The default behavior of the command with the ![Add button](../media/customization-subgrid-add.PNG "Add button") icon depends on whether the records in the subgrid are related to the current record.  
+- **Add** The default behavior of the command with the ![Add button.](../media/customization-subgrid-add.PNG "Add button") icon depends on whether the records in the subgrid are related to the current record.  
 
      If the records are related to the current record, the default behavior is look for existing records. If an existing record cannot be found, or if the user simply wants to create a new record, they can click **Add New**.  
 
@@ -111,13 +110,13 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
      > [!NOTE]
      >  Offline mode in Dynamics 365 Customer Engagement does not support many-to-many relationship on custom entities. Due to this, the **Add New** button on a sub grid in Dynamics 365 Customer Engagement offline mode will not be displayed.
 
-- **Show List** The command with the ![Open view button](../media/customization-open-view.PNG "Open view button") icon will open the full list where all available commands can be used.  
+- **Show List** The command with the ![Open view button.](../media/customization-open-view.PNG "Open view button") icon will open the full list where all available commands can be used.  
 
      If the subgrid is associated with the current record, the default behavior of this command is to open the associated  view.  
 
      If the subgrid is not associated with the current record, the default behavior of this command is to open the view in the main list view.  
 
-- **Delete** The ![Sublist delete icon](../media/customization-subgrid-delete.PNG "Sublist delete icon") icon is shown on the right side of the row when people hover over the records in the list.  
+- **Delete** The ![Sublist delete icon.](../media/customization-subgrid-delete.PNG "Sublist delete icon") icon is shown on the right side of the row when people hover over the records in the list.  
 
      For records with a 1:N relationship or no relationship, the default behavior is to delete the record. The delete may be blocked if it is not allowed due to relationship configurations. Open activities and invoices are common examples of records that may not be deleted due to relationship configurations.  
 
@@ -180,3 +179,6 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
 ### See also  
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Command bar or ribbon presentation](command-bar-ribbon-presentation.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

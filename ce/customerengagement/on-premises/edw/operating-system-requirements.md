@@ -1,5 +1,7 @@
 ---
 title: "Operating system requirements | Microsoft Docs"
+description: Environment diagnostics warning that the operating system isn't supported for this version.
+
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,9 +24,12 @@ ms.author: matp
   
  Install the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] feature or upgrade your computer to a supported operating system. For more information, see the following topics:  
  
- [Software requirements for Microsoft Dynamics 365 for Customer Engagement Server](../deploy/software-requirements-for-microsoft-dynamics-365-server.md) </br>
+ [Software requirements for Microsoft Dynamics 365 Server](../deploy/software-requirements-for-microsoft-dynamics-365-server.md) </br>
  [Microsoft Dynamics 365 for Customer Engagement reporting requirements](../deploy/microsoft-dynamics-365-reporting-requirements.md) </br>
   [Web application requirements](../admin/web-application-requirements.md) </br>
   [Microsoft Dynamics 365 for Outlook software requirements](../../../outlook-addin/admin-guide/software-requirements.md)
  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

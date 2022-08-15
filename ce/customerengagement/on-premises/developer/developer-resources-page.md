@@ -4,7 +4,7 @@ description: "Read how you can find your organization unique name, Discovery ser
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Developer resources page 
 
@@ -55,12 +54,12 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
 ## Discovery service  
 
- The Discovery Service web service provides information about the organizations available on the Dynamics 365 Customer Engagement (on-premises) server. This information includes the web address (URL) for each organization.
+ The Discovery Service web service provides information about the organizations available on the Dynamics 365 Server. This information includes the web address (URL) for each organization.
 
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]
 
-You should generally use the Web API global discovery service because this will ignore regional groupings and allow you to retrieve available organizations world-wide. See [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md)
+You should generally use the global discovery service because this will ignore regional groupings and allow you to retrieve available organizations world-wide. See [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md)
 
 
  If you want to scope the organizations to retrieve to individual regions use the following URLs to access the discovery service (use the appropriate URL for your location).  
@@ -70,7 +69,7 @@ You should generally use the Web API global discovery service because this will 
 ### For on-premises Dynamics 365 Customer Engagement (on-premises)
  Use the following URL to access the discovery service:  
   
- http://`ServerName`/XRMServices/2011/Discovery.svc  
+ https://`ServerName`/XRMServices/2011/Discovery.svc  
 
 For more information, see [Discover the URL for your organization using the Organization Service](org-service/discover-url-organization-organization-service.md).
   
@@ -146,3 +145,6 @@ For more information, see [Discover the URL for your organization using the Orga
 
  [Write Code for Dynamics 365 Customer Engagement Web Services](extend-dynamics-365-server.md)   
  [Use the IOrganizationService web service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

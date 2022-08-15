@@ -3,8 +3,8 @@ title: "SiteMap schema (Developer Guide for Dynamics 365 Customer Engagement) | 
 description: "Dynamics 365 Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # SiteMap schema
 
@@ -28,13 +27,13 @@ The following is the schema definition for the SiteMap portion of an import/expo
 
 You can find this schema in the `Schemas\9.0.0.2090\SiteMap.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
   
 ```xml  
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
            elementFormDefault="qualified"  
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+           xmlns:xs="https://www.w3.org/2001/XMLSchema">  
   <xs:include schemaLocation="SiteMapType.xsd" />  
   <xs:element name="SiteMap"  
               type="SiteMapType">  
@@ -50,13 +49,13 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 
 You can find this schema in the `Schemas\9.0.0.2090\SiteMapType.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
   
 ```xml  
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
            elementFormDefault="qualified"  
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+           xmlns:xs="https://www.w3.org/2001/XMLSchema">  
   <xs:simpleType name="LCIDType_SiteMap">  
     <xs:restriction base="xs:decimal">  
       <xs:fractionDigits value="0"  
@@ -648,3 +647,6 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
  [Change Application Navigation using the SiteMap](../../developer/customize-dev/change-application-navigation-using-sitemap.md)   
  [Customization Solutions File Schema](customization-solutions-file-schema.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,13 +1,10 @@
 ---
-title: "Next Tag in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
-description: "The topic describes the attributes of <Next> tag. You can use the <Next> element to set the search pointer to the next UI element with the matching caption. If you use <Next/>, the search navigates to the next node within the tree."
-ms.custom: dyn365-USD
+title: "Next tag (JavaDDA) in Unified Service Desk | MicrosoftDocs"
+description: "Learn how the Next tag (JavaDDA) works in Unified Service Desk. Also find a code snippet that shows how to use the tag."
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: a8eefb0b-4ad3-4d98-aed2-0373187fd2e0
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -15,8 +12,10 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# Next Tag in Unified Service Desk
+# Next tag (JavaDDA) in Unified Service Desk
 You can use the `<Next>` element to set the search pointer to the next UI element with the matching caption. If you use `<Next/>`, the search navigates to the next node within the tree. The `<Next/>` tag navigates down the tree branches, not among siblings within one node of the tree. To navigate within the tree node, use the `match` and `offset` attributes. This topic describes the attributes of `<Next>` tag.  
   
 ## Attributes of \<Next> tag  
@@ -63,3 +62,6 @@ You can use the `<Next>` element to set the search pointer to the next UI elemen
 ### See also  
  [JavaDDA](../unified-service-desk/javadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

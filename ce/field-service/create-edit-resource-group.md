@@ -1,18 +1,19 @@
 ---
-title: Create or change a resource group (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Create or change a resource group in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
-manager: shellyha
+title: Create or change a resource group in Dynamics 365 Customer Service | MicrosoftDocs
+description: Learn how to create or change a resource group for users, facilities, and equipment in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
+
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.assetid: 5e461837-29ca-4d76-9231-cbf7423c5c7d
-ms.custom: dyn365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
@@ -23,7 +24,7 @@ search.app:
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
@@ -39,7 +40,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
    - **Business Unit**  
   
-        To locate and select a business unit, click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
+        To locate and select a business unit, click the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
   
    - **Description**  
   
@@ -79,3 +80,6 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

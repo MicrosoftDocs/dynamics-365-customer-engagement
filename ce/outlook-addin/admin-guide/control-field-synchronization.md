@@ -1,9 +1,10 @@
 ---
 title: "Control field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about how admins can use field synchronization to set the sync direction between Dynamics 365 apps and Dynamics 365 for Outlook fields.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,7 +29,7 @@ With field synchronization, admins can set the sync direction between Dynamics 3
  For example, a salesperson may want to take personal notes about a contact and not want the notes to synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data available to all users. You can set the Personal Notes field for contacts in Outlook to not [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] so the salesperson’s notes will remain private.  
   
 > [!TIP]
->  ![Video symbol](../media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](http://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
+>  ![Video symbol](../media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](https://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
   
 ## Set field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook  
   
@@ -40,7 +41,7 @@ With field synchronization, admins can set the sync direction between Dynamics 3
   
 4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
-    ![Appointment fields for synchronization](../media/crm-itpro-appointmentfieldsync.png "Appointment fields for synchronization")  
+    ![Appointment fields for synchronization.](../media/crm-itpro-appointmentfieldsync.png "Appointment fields for synchronization")  
   
    > [!TIP]
    >  Hover over a field name to see the fields mapped to it.  
@@ -57,8 +58,11 @@ With field synchronization, admins can set the sync direction between Dynamics 3
   
  Best practice is to review the security settings for these security methods to ensure field synchronization is processes as desired. For more information see:  
   
--   Securing roles: [Create or edit a security role to manage access](../../admin/create-edit-security-role.md)
+-   Securing roles: [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role)
   
--   Securing fields: [Enable or disable security for a field](https://technet.microsoft.com/library/mt812240.aspx)  
+-   Securing fields: [Enable or disable security for a field](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt812240(v=crm.8))  
   
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts](../../admin/security-concepts.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts](/power-platform/admin/wp-security)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

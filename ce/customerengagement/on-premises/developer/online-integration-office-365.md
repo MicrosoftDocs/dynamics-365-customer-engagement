@@ -4,7 +4,7 @@ description: "Learn how Dynamics 365 Customer Engagement (on-premises) customers
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Dynamics 365 Customer Engagement (on-premises) Integration with Office 365
 
@@ -39,7 +38,7 @@ This documentation applies to customers who access Dynamics 365 Customer Engagem
 ### Active Directory  
  Federation allows customers to use [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]-based domain user accounts to access [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] such as [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] or Dynamics 365 Customer Engagement (on-premises). After federation is configured by an administrator, [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]-based system user accounts can be locally managed, made available to [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], and kept in sync with changes made to the on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] identities. The benefit of federation is a single sign-on experience across Dynamics 365 Customer Engagement (on-premises) and Dynamics 365 Customer Engagement (on-premises) systems. This type of identity management is useful for large corporations that have hundreds or thousands of established users.  
   
- For more information about how to configure identity federation, see [Single sign-on: Roadmap](http://onlinehelp.microsoft.com/office365-enterprises/hh125004.aspx).  
+ For more information about how to configure identity federation, see [Single sign-on: Roadmap](https://onlinehelp.microsoft.com/office365-enterprises/hh125004.aspx).  
   
 ## Identity management with Microsoft account  
  [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] continues to be a supported identity provider for Dynamics 365 Customer Engagement (on-premises). However, [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] is not supported for Dynamics 365 Customer Engagement (on-premises) organizations when provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)]. Dynamics 365 Customer Engagement (on-premises) customers that are not subscribed through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] can access Dynamics 365 Customer Engagement (on-premises) through their [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)].  
@@ -49,5 +48,8 @@ This documentation applies to customers who access Dynamics 365 Customer Engagem
  [Access the Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials>   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
- [Active Directory Federation Services](https://msdn.microsoft.com/library/bb897402.aspx)   
- [Access Control Service 2.0](https://msdn.microsoft.com/library/hh147631.aspx)
+ [Active Directory Federation Services](/previous-versions/windows/server-2008/bb897402(v=msdn.10))   
+ [Access Control Service 2.0](/previous-versions/azure/azure-services/hh147631(v=azure.100))
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

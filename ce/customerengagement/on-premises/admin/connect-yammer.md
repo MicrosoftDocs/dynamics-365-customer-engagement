@@ -1,9 +1,10 @@
 ---
-title: "Connect Customer Engagement to Yammer | MicrosoftDocs"
+title: "Connect Yammer to Dynamics 365 Customer Engagement apps"
+description: "Connect Yammer to your Customer Engagement apps to provide your organization a central place for creating and editing documents and sharing information."
 ms.custom: 
 ms.date: 10/02/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,18 +15,16 @@ ms.assetid: 7e180f88-c913-4b46-a923-c7162cf44566
 caps.latest.revision: 25
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Connect to Yammer 
+# Connect Customer Engagement apps to Yammer
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
-[!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives colleagues at your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings.  
+[!INCLUDE[pn_yammer](../includes/pn-yammer.md)] provides your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings.  
   
  After you set up your organization to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], employees will see posts in a newsfeed on their [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps dashboard whenever people update customer info, and they’ll be able to join in the conversation with their own posts.  
   
@@ -47,7 +46,7 @@ search.app:
   
 ### Connect Dynamics 365 for Customer Engagement apps to Yammer  
   
-1. Sign up for a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Enterprise account, and note the name of the network you receive. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)  
+1. Sign up for a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Enterprise account, and note the name of the network you receive. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visit the Yammer website](https://go.microsoft.com/fwlink/p/?LinkID=272440)  
   
 2. [!INCLUDE[proc_settings_system](../includes/proc-settings-system.md)]  
   
@@ -150,4 +149,7 @@ search.app:
 [!INCLUDE[cc_privacy_crm_gcc_yammer_configuration](../includes/cc-privacy-crm-gcc-yammer-configuration.md)]
   
 ### See also  
- [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)
+ [Visit the Yammer website](https://go.microsoft.com/fwlink/p/?LinkID=272440)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

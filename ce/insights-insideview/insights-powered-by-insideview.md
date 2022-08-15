@@ -1,21 +1,15 @@
 ---
 title: "Insights, powered by InsideView (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
-keywords: ""
+description: Learn how InsideView Insights for Dynamics 365 can help you find more leads, win more deals, grow your business, and retain your accounts.
 ms.date: 09/30/2017
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-insightsinsideview"
+ms.service: dynamics-365-sales
 ms.topic: article
-ms.assetid: cf2feda4-7286-4d0e-aee2-790a7982a847
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 33
+ms.custom: 
+  - "dyn365-insightsinsideview"
 ---
 
 # Insights, powered by InsideView
@@ -26,6 +20,9 @@ Boost your sales close rates with information that will help you find, understan
 ## Get started
  [InsideView Insights Overview on AppSource](https://go.microsoft.com/fwlink/p/?linkid=2061233)
 
- [![Reader button](../insights-insideview/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
+ [![Reader button](../insights-insideview/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
 
  [InsideView home page](https://go.microsoft.com/fwlink/p/?LinkId=524622)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,9 @@
 ---
 title: "Microsoft Dynamics 365 Server XML configuration file | Microsoft Docs"
+description: Learn about the Dynamics 365 Server Setup XML configuration file for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,7 +18,12 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server XML configuration file
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The /config [drive:] [[path] configfilename.xml]] command-line parameter provides [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] with required information. The information supplied by the XML configuration file is required by each installation screen.  
   
@@ -111,11 +117,11 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
   
  For example:  
   
--   http://*server:port*/ or http:// *server.contoso.com*  
+-   https://*server:port*/ or https:// *server.contoso.com*  
   
 -   /LM/W3SVC/*n*, where *n* is the website ID. 1 is the default website.  
   
- **\<Help anonymous="true"/"false">http://host/Help\</Help>**  
+ **\<Help anonymous="true"/"false">https://host/Help\</Help>**  
  Optional element to specify a different URL where Dynamics 365 Customer Engagement (on-premises) [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)] is located. This setting is typically used in a multiserver deployment or to replace the default URL such as when using a host header. If you select `false` to disable anonymous access, it may produce repeated logon prompts for users who access  [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)]. This setting is only available when you use a configuration file.  
   
  **\<InstallDir>c:\program files\Microsoft Dynamics CRM\</InstallDir>**  
@@ -140,7 +146,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  You must specify the precision for the base currency that you specified in the **currencycode** attribute. Valid values depend on the type of currency that you specify. For example, USD valid values are 1 – 9 and the default value is 2.  
   
  **\<OrganizationCollation>CollationName\</OrganizationCollation>**  
- This optional element specifies the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database collation name to use for the organization database. The default collation depends on the language of Dynamics 365 Customer Engagement (on-premises) that you’re installing, for example, Latin1_General_Cl_Al, which is the default collation for English (US) language deployments. For more information about database collation, see  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2016).  
+ This optional element specifies the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database collation name to use for the organization database. The default collation depends on the language of Dynamics 365 Customer Engagement (on-premises) that you’re installing, for example, Latin1_General_Cl_Al, which is the default collation for English (US) language deployments. For more information about database collation, see  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2016&preserve-view=true).  
   
  **\<CrmServiceAccount type="DomainUser"/"NetworkService">**   
  **\<ServiceAccountLogin>Domain\User\</ServiceAccountLogin>**   
@@ -228,7 +234,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  **\<SQM optin=" true / false"/>**  
  Specifies whether you will participate in the Customer Experience Improvement Program. If you specify **true**, you’ll participate in the program.  
     
- **\<Reporting URL="http://srsserver1/ReportServer"/>**  
+ **\<Reporting URL="https://srsserver1/ReportServer"/>**  
  *URL*  
   
  Specifies the URL of the Report Server.  
@@ -292,3 +298,6 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  [Sample server XML configuration file](sample-server-xml-configuration-file.md) </br>  
  [Sample server XML configuration file for installing with pre-created groups](sample-server-xml-config-file-pre-created-groups.md)
 
+::: moniker-end
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

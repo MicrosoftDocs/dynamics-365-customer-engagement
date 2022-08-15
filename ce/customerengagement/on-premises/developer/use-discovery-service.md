@@ -3,8 +3,8 @@ title: "Use the Dynamics 365 Customer Engagement (on-premises) Discovery service
 description: "In a multi-tenant environment like Dynamics 365 Customer Engagement (on-premises), the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: 
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
-ms.service: 
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,19 +17,21 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
-# Use the Dynamics 365 Customer Engagement (on-premises) Discovery services
+# Use the Dynamics 365 Customer Engagement (on-premises) Discovery service
 
-The Discovery web services are used to determine the organizations that a user is a member of, and the endpoint address URL to access the Organization service or Web API for each of those organizations. This Discovery service is necessary because Dynamics 365 Customer Engagement (on-premises) is a multi-tenant environment. A single Customer Engagement (on-premises) server can host multiple business organizations. By using the Discovery web service, your application can determine the endpoint address URL to access the target organization’s business data.  
+The Discovery web service is used to determine the organizations that a user is a member of, and the endpoint address URL to access the Organization service or Web API for each of those organizations. This Discovery service is necessary because Dynamics 365 Customer Engagement (on-premises) is a multi-tenant environment. A single Dynamics 365 Server can host multiple business organizations. By using the Discovery web service, your application can determine the endpoint address URL to access the target organization’s business data.  
   
-A Discovery service is accessed through either the Web API or the Organization service.  
+The Discovery service is accessed through the OData V4 RESTful API or the Organization service.  
 
-- For the Web API see: [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md) 
+- For the Web API see: [Discover the URL for your organization](webapi/discover-url-organization-web-api.md) 
 - For the Organization Service see: [Discover the URL for your organization using the Organization Service API](org-service/discover-url-organization-organization-service.md) 
   
 ### See also  
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
- [Use Dynamics 365 Customer Engagement Web API](webapi/index.md)<br />
- [Use Dynamics 365 Customer Engagement Organization Service](org-service/index.md)<br />
+ [Use Dynamics 365 Customer Engagement Web API](./use-microsoft-dynamics-365-web-api.md)<br />
+ [Use Dynamics 365 Customer Engagement Organization Service](/dynamics365/customerengagement/on-premises/developer/use-microsoft-dynamics-365-organization-service)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

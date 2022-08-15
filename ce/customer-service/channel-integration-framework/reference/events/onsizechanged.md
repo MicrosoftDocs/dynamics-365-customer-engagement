@@ -1,35 +1,23 @@
 ---
-title: "onsizechanged (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
-description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
+title: "onSizeChanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Learn about the onSizeChanged event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 9C102FD4-D2BB-4D85-989E-BF907B27DBCB
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
-# onsizechanged event (CIF JavaScript API reference)
+# onSizeChanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
-The `onsizechanged` event is invoked when the side panel width is changed.
+[!INCLUDE[token-onsizechanged](../../shared/token-onsizechanged.md)]
 
-## eventData
-
-The `onsizechanged` event takes following eventData:
-
-| eventData | Example |
-|-----------|---------|
-| ```{"value": <number>}``` | ```{"value": 35"}``` |
-
-## Related topics
+### See also
 
 - [setWidth](../microsoft-ciframework/setWidth.md)
 
@@ -39,3 +27,6 @@ The `onsizechanged` event takes following eventData:
 
 - [removeHandler](../microsoft-ciframework/removeHandler.md)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

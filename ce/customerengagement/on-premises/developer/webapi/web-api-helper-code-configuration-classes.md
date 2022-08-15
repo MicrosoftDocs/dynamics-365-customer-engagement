@@ -3,8 +3,8 @@ title: "Web API Helper code: Configuration classes (Developer Guide for Dynamics
 description: "Configuration class hierarchy can be used to specify the required connection data for accessing Dynamics 365 Customer Engagement web services from your application"
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Helper code: Configuration classes
 
@@ -47,15 +46,15 @@ Use the configuration class hierarchy to specify the required connection data fo
 
 ### FileConfiguration connection settings
 
- Most of the Dynamics 365 Customer Engagement Web API samples use the derived class, `FileConfiguration`, to extract the connection data from the application configuration file, App.config. This file has several application settings that apply to the different Dynamics 365 Customer Engagementapps Server deployment modes. The `connectionString` setting contains the service URL and user name. Additionally, the `ClientId`and `RedirectUrl` settings are required for online or Internet-facing deployments (IFD). The following lines, excerpted from the default App.config file provided with most of the Web API samples, contain this connection data as placeholder values. You must replace these placeholders with values specific to the current user, your Dynamics 365 Customer Engagement server, and your client application.  
+ Most of the Dynamics 365 Customer Engagement Web API samples use the derived class, `FileConfiguration`, to extract the connection data from the application configuration file, App.config. This file has several application settings that apply to the different Dynamics 365 Customer Engagementapps Server deployment modes. The `connectionString` setting contains the service URL and user name. Additionally, the `ClientId`and `RedirectUrl` settings are required for online or Internet-facing deployments (IFD). The following lines, excerpted from the default App.config file provided with most of the Web API samples, contain this connection data as placeholder values. You must replace these placeholders with values specific to the current user, your Dynamics 365 Server, and your client application.  
 
 ```xml  
 <connectionStrings> 
-    <add name="default" connectionString="Url=http://myserver/myorg/; Username=name; Password=password; Domain=domain" /> 
+    <add name="default" connectionString="Url=https://myserver/myorg/; Username=name; Password=password; Domain=domain" /> 
 </connectionStrings> 
 <appSettings> 
     <add key="ClientId" value="e5cf0024-a66a-4f16-85ce-99ba97a24bb2" /> 
-    <add key="RedirectUrl" value="http://localhost/SdkSample" /> 
+    <add key="RedirectUrl" value="https://localhost/SdkSample" /> 
 </appSettings>  
 ```  
 
@@ -67,7 +66,7 @@ Use the configuration class hierarchy to specify the required connection data fo
 
  The following diagram shows the public members of the configuration class hierarchy.  
 
- ![Dynamics 365 Customer Engagement Web API Helper Library&#45;Configuration Class Diagram](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Configuration Class Diagram")  
+ ![Dynamics 365 Customer Engagement Web API Helper Library&#45;Configuration Class Diagram.](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Configuration Class Diagram")  
 
  **Configuration class**  
 
@@ -147,7 +146,7 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
       <clear />
       <!-- When providing a password, make  
                 sure to set the app.config file's security so that only you can read it. -->
-      <add name="default" connectionString="Url=http://myserver/myorg/; Username=name; Password=password; Domain=domain" />
+      <add name="default" connectionString="Url=https://myserver/myorg/; Username=name; Password=password; Domain=domain" />
       <add name="CrmOnline" connectionString="Url=https://mydomain.crm.dynamics.com/;                   Username=someone@mydomain.onmicrosoft.com; Password=password" />
    </connectionStrings>
    <appSettings>
@@ -156,7 +155,7 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
       <!--Active Directory application registration. -->
       <!--These are dummy values and should be replaced with your actual app registration values.-->
       <add key="ClientId" value="e5cf0024-a66a-4f16-85ce-99ba97a24bb2" />
-      <add key="RedirectUrl" value="http://localhost/SdkSample" />
+      <add key="RedirectUrl" value="https://localhost/SdkSample" />
       <!-- Use an alternate configuration file for connection string and setting values. This optional setting enables use of an app.config file shared among multiple applications. If the specified file does not exist,  
                 this setting is ignored.-->
       <add key="AlternateConfig" value="C:\Temp\crmsample.exe.config" />
@@ -408,3 +407,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)   
  [SDK samples Helper code for Organization Service endpoint](https://www.nuget.org/packages/Microsoft.CrmSdk.Samples.HelperCode-CS)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

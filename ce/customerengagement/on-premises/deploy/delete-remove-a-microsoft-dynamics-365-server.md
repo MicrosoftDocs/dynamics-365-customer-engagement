@@ -1,8 +1,9 @@
 ---
 title: "Delete (remove) a Microsoft Dynamics 365 Server | Microsoft Docs"
+description: Learn how to delete a Dynamics 365 server in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,7 +26,7 @@ To delete a [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server
 >  After you delete a server, users might no longer be able to access or use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application, or use certain features, such as reporting. To restore a deleted server, you must run [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Setup and reinstall the server roles that were removed when the server was deleted.  
   
 > [!TIP]
->  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Disable-CrmServer](/powershell/module/microsoft.crm.powershell/disable-crmserver?view=dynamics365ce-ps) and [Remove-CrmServer](/powershell/module/microsoft.crm.powershell/remove-crmserver?view=dynamics365ce-ps) commands.  
+>  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Disable-CrmServer](/powershell/module/microsoft.crm.powershell/disable-crmserver?view=dynamics365ce-ps&preserve-view=true) and [Remove-CrmServer](/powershell/module/microsoft.crm.powershell/remove-crmserver?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ### Delete a server  
   
@@ -43,3 +44,6 @@ To delete a [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server
  [Manage servers](manage-servers.md)   
  [Disable or enable a server](disable-or-enable-a-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

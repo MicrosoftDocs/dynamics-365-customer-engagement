@@ -1,8 +1,9 @@
 ---
 title: "Upgrade and enable a Language Pack | Microsoft Docs"
+description: Learn how to upgrade and enable a language pack in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,13 +18,18 @@ manager: kvivek
 ---
 # Upgrade and enable a Language Pack
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], if you had [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)][!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] installed you should install new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] that correspond to the new version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Then, enable the [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] so they are available to users after the upgrade.  
   
 #### Upgrade and provision a Language Pack  
   
-1.  On each [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] server that was upgraded, download the new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Download: Microsoft Dynamics CRM 2016 Language Pack](http://go.microsoft.com/fwlink/p/?LinkID=624615)  
+1.  On each [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] server that was upgraded, download the new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Download: Microsoft Dynamics CRM 2016 Language Pack](https://go.microsoft.com/fwlink/p/?LinkID=624615)  
   
 2.  Follow the steps to install each [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Install the Language Pack](install-and-enable-a-language-pack.md#install-the-language-pack)  
   
@@ -35,3 +41,6 @@ After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.m
 ## See Also    
  [Uninstall or repair a Dynamics 365 language pack](uninstall-repair-dynamics-365-language-pack.md)
 
+::: moniker-end
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

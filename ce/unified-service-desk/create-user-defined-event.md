@@ -1,13 +1,10 @@
 ---
 title: "Create a user-defined event | MicrosoftDocs"
-description: "Unified Service Desk provides you with predefined events for hosted controls based on the type of the hosted control. Apart from these predefined events, you can also create your own events in Unified Service Desk, which are called user-defined events. You can use the FireEvent action or the event moniker to run user-defined events."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+description: "Learn how to create user-defined events in Unified Service Desk and how you can use the FireEvent action or the event moniker to run such events."
+ms.date: 06/21/2022
 ms.topic: article
-ms.assetid: d9bc82cb-4d6c-4f3b-9aa5-2bb757de116b
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -15,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create a user-defined event
+
+
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with predefined events for hosted controls based on the type of the hosted control. Apart from these predefined events, you can also create your own events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], which are called user-defined events. You can use the **FireEvent** action or the event moniker to run user-defined events.  
 
 <a name="FireEvent"></a>   
@@ -56,9 +58,9 @@ http://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
  In the syntax, you specify the `key=value` pair to pass parameter list to be used when the event is triggered.  
 
- Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in the Common Data Service platform. To do this:  
+ Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in Microsoft Dataverse. To do this:  
 
-1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in the Common Data Service platform.  
+1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in Dataverse.  
 
 2. Create an action call, called `Action Call for Title Change`, with the following values:  
 
@@ -68,7 +70,7 @@ http://event/?EventName=<EVENT_NAME>&key=value&key=value&…
    |      Name      |                                                                                                             Action Call for Title Change                                                                                                              |
    | Hosted Control |                                                                                                                       Incident                                                                                                                        |
    |     Action     |                                                                                                                     RunXrmCommand                                                                                                                     |
-   |      Data      | function titleChangeReaction()  {<br /> window.open("<http://event/?EventName=TitleChanged&NewTitle="+encodeURIComponent(Xrm.Page.getAttribute("title").getValue(>)));<br /> }<br /> Xrm.Page.getAttribute("title").addOnChange(titleChangeReaction); |
+   |      Data      | function titleChangeReaction()  {<br /> window.open(`http://event/?EventName=TitleChanged&NewTitle="+encodeURIComponent(Xrm.Page.getAttribute("title").getValue()`));<br /> }<br /> Xrm.Page.getAttribute("title").addOnChange(titleChangeReaction); |
 
 
 3. Add the new action call that you created to the **BrowserDocumentComplete** event of the **Incident** hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)  
@@ -77,7 +79,7 @@ http://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
     This will cause the `TitleChanged` event to be triggered with the following data parameter: `NewTitle=<NEW_TITLE>`  
 
-   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in the Common Data Service platform to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`http://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in Dataverse to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`http://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ```  
 if ((window.IsUSD != null) && (window.IsUSD == true))  
@@ -87,7 +89,11 @@ if ((window.IsUSD != null) && (window.IsUSD == true))
 ```  
 
 ### See also  
+
  [Events](../unified-service-desk/events.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
- [MSDN: Use JavaScript with Microsoft Dynamics CRM](https://msdn.microsoft.com/library/hh771584.aspx)
+ [MSDN: Use JavaScript with Microsoft Dynamics CRM](/previous-versions/dynamicscrm-2016/developers-guide/hh771584(v=crm.8))
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

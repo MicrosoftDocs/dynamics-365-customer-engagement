@@ -1,10 +1,10 @@
 ---
-title: "Introduction to activity feeds (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Activity feeds in Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "The topic provides information about activity feeds terminology, definitions and entity model."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,10 +30,9 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
-# Introduction to activity feeds
+# Introduction to activity feeds in Dynamics 365 Customer Engagement
 
 As a developer implementing collaboration scenarios with  activity feeds, you should become familiar with the activity feeds terminology, definitions and entity model.  
 
@@ -100,11 +99,11 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
 |`ID`|The ID of the record that is mentioned in the post.|  
 |`Display String`|The text that you want to be displayed in the mention, such as a record’s name.|  
 
- The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](org-service/organization-service-entities.md). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+ The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](/powerapps/developer/data-platform/browse-your-metadata). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
 
  You can specify multiple mentions in this attribute. To retrieve data contained in the mention, parse the string in the `Text` attribute to search for the “@[“ characters that separate mentions from other mentions or text.  
 
- For additional information about post mentions, see [Blog Post: How to do Mentions with Activity Feeds](http://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx).  
+ For additional information about post mentions, see [Blog Post: How to do Mentions with Activity Feeds](https://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx).  
 
 <a name="BKMK_DisplayingData"></a>   
 ## Displaying data on the record wall or personal wall  
@@ -142,9 +141,12 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
  [Configure Activity Feeds](configure-activity-feeds.md)   
  [Connect to Yammer](connect-yammer.md)   
  [Sample: Collaborate with Activity Feeds](sample-collaborate-with-activity-feeds.md)   
- [Blog Post: Working with Activity Feed using Microsoft CRM SDK](http://blogs.msdn.com/b/crm/archive/2011/10/31/working-with-activity-feed-using-microsoft-crm-sdk1.aspx)   
- [Blog Post: How to do Mentions with Activity Feeds](http://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx)   
- [Blog Post: Displaying a Contact’s Facebook Picture in Microsoft Dynamics CRM 2011](http://blogs.msdn.com/b/crm/archive/2011/09/28/displaying-a-contact-s-facebook-picture-in-microsoft-dynamics-crm-2011.aspx)   
- [Blog Post: Data management for Activity Feeds entities](http://blogs.msdn.com/b/crm/archive/2011/11/18/data-management-for-activity-feeds-entities.aspx)   
- [Blog Post: How to Add a Record Wall to a Form](http://blogs.msdn.com/b/crm/archive/2011/11/09/how-to-add-a-record-wall-to-a-form.aspx)   
- [Blog Post: Activity Feeds Solution & Development Environment](http://blogs.msdn.com/b/crm/archive/2012/01/26/activity-feeds-solution-amp-development-environment.aspx)
+ [Blog Post: Working with Activity Feed using Microsoft CRM SDK](https://blogs.msdn.com/b/crm/archive/2011/10/31/working-with-activity-feed-using-microsoft-crm-sdk1.aspx)   
+ [Blog Post: How to do Mentions with Activity Feeds](https://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx)   
+ [Blog Post: Displaying a Contact’s Facebook Picture in Microsoft Dynamics CRM 2011](https://blogs.msdn.com/b/crm/archive/2011/09/28/displaying-a-contact-s-facebook-picture-in-microsoft-dynamics-crm-2011.aspx)   
+ [Blog Post: Data management for Activity Feeds entities](https://blogs.msdn.com/b/crm/archive/2011/11/18/data-management-for-activity-feeds-entities.aspx)   
+ [Blog Post: How to Add a Record Wall to a Form](https://blogs.msdn.com/b/crm/archive/2011/11/09/how-to-add-a-record-wall-to-a-form.aspx)   
+ [Blog Post: Activity Feeds Solution & Development Environment](https://blogs.msdn.com/b/crm/archive/2012/01/26/activity-feeds-solution-amp-development-environment.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

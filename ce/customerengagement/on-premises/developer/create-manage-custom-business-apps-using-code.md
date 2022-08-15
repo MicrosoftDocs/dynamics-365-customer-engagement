@@ -3,8 +3,8 @@ title: "Create and manage custom business apps using code for Dynamics 365 Custo
 description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
 ms.date: 03/04/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -15,8 +15,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create and manage custom business apps in Customer Engagement using code
 
@@ -25,12 +24,12 @@ Business apps in Dynamics 365 Customer Engagement are modular, purpose built app
 System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. 
 
 > [!NOTE]
-> Custom business apps in Dynamics 365 Customer Engagement are the same as model-driven apps in PowerApps; both are built on the same underlying platform. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+> Custom business apps in Dynamics 365 Customer Engagement are the same as model-driven apps in Power Apps; both are built on the same underlying platform. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 In addition to creating custom business apps using the app designer, you can programmatically create and manage custom business apps in Dynamics 365 Customer Engagement (on-premises). 
 
 > [!IMPORTANT]
-> However, you don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
+> You don't have to write code to build custom business apps if you don't need to! The app designer provides a simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
   
 Creating a custom business app involves the following steps:
 1. Create an [AppModule Entity](entities/appmodule.md) instance to define your app and its properties.
@@ -49,7 +48,7 @@ You must specify the following properties at a minimum to create an app:
 - **uniquename**: This can be different than the name of your app, and can only have English characters and numbers. On creating this app, the name is automatically prefixed with your solution publisher prefix (for example 'new_'). 
 - **webresourceid**: ID of the web resource that you want to be set as the image icon for your app. The system provides you with a default web resource (ID: 953b9fac-1e5e-e611-80d6-00155ded156f) that you can use as an icon for your app.
 
-The following Web API request creates an Unified Interface type of an app:
+The following Web API request creates a Unified Interface-type of an app:
 
 ```http
 POST [Organization URI]/api/data/v9.1/appmodules HTTP/1.1
@@ -266,10 +265,13 @@ Use the DELETE request to delete a business app. For example:
 
 You can use the following client APIs to work with business apps:
 
-- [getCurrentAppName](clientapi/reference/xrm-utility/getglobalcontext/getcurrentappname.md)
-- [getCurrentAppProperties](clientapi/reference/xrm-utility/getglobalcontext/getCurrentAppProperties.md)
-- [getCurrentAppUrl](clientapi/reference/xrm-utility/getglobalcontext/getCurrentAppUrl.md) 
+- [getCurrentAppName](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppName)
+- [getCurrentAppProperties](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppProperties)
+- [getCurrentAppUrl](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppUrl) 
   
 ### See also  
 [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

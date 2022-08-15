@@ -1,9 +1,10 @@
 ---
 title: "Deleting records that have been tracked with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to delete records, such as emails, contacts, tasks, and appointments, that have been tracked with Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -43,23 +44,23 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ## Appointments  
  Deleting a tracked appointment in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] deletes the appointment in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Deleting a tracked appointment in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the appointment in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] if the following is true:  
   
-- The appointment is current.  
+- The appointment date is in present or future.
   
 - You are the owner or organizer of the appointment record.  
   
   If you stop tracking an appointment, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the appointment from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The appointment record is deleted in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] if the following is true:  
   
-- The appointment is current.  
+- The appointment date is in present or future.
   
-- You are the owner of the appointment record.  
+- You are the owner of the appointment record.
   
 ## Contacts  
   
 - Deleting a tracked contact in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] does not delete the contact record from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-- If you are not the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the tracked contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
+- If you are the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the tracked contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
-- If you are the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] does not delete the contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
+- If you are not the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] does not delete the contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
 - If you are the owner of the contact record, and you stop tracking the contact, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the contact record from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
@@ -75,3 +76,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

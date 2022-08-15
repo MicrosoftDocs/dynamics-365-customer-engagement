@@ -1,8 +1,9 @@
 ---
 title: "Configure claims-based authentication | Microsoft Docs"
+description: Learn how to configure claims-based authentication in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,7 +25,7 @@ The claims-based security model extends traditional authentication models to inc
 > [!IMPORTANT]
 > Claims-based authentication is required for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] access. However, claims-based authentication isn’t required for intranet [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] access if [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is deployed in the same domain where all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users are located, or users are in a trusted domain.  
 >   
->  Before you run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)], a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)], such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] must be available. For more information about [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)], see [Identity and Access Management](http://go.microsoft.com/fwlink/p/?LinkID=188371).  
+>  Before you run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)], a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)], such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] must be available. For more information about [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)], see [Identity and Access Management](https://go.microsoft.com/fwlink/p/?LinkID=188371).  
   
 #### Configure claims-based authentication  
   
@@ -55,7 +56,7 @@ The claims-based security model extends traditional authentication models to inc
   
 4.  Select **Next**.  
   
-5.  On the **Specify the security token service** page, enter the **Federation metadata URL**, such as *https://adfs.contoso.com/federationmetadata2007-06/federationmetadata.xml*.  
+5.  On the **Specify the security token service** page, enter the **Federation metadata URL**, such as *https://adfs.contoso.com/federationmetadata/2007-06/federationmetadata.xml*.  
   
      This data is typically located on the website where the [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] is running. To verify the correct URL, open an internet browser by using the URL to view the federation metadata. Verify that no certificate-related warnings appear.  
   
@@ -87,7 +88,7 @@ The claims-based security model extends traditional authentication models to inc
 13. Configure relying parties for claims-based authentication.  
   
     > [!IMPORTANT]
-    >  Claims-based authentication won’t work until you create the relying parties in STS. For more information, see [Configure the AD FS server for claims-based authentication](https://technet.microsoft.com/library/gg188595.aspx).  
+    >  Claims-based authentication won’t work until you create the relying parties in STS. For more information, see [Configure the AD FS server for claims-based authentication](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/gg188595(v=crm.8)).  
   
 <a name="BKMK_CRMAppPool"></a>   
 ### The CRMAppPool account and the Microsoft Dynamics 365 Customer Engagement (on-premises) encryption certificate  
@@ -111,3 +112,6 @@ Claims data sent from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
  [Disable claims-based authentication](disable-claims-based-authentication.md)   
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

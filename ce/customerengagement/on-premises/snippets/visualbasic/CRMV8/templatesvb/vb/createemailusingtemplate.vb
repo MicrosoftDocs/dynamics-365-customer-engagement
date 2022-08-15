@@ -85,13 +85,13 @@ Namespace Microsoft.Crm.Sdk.Samples
 
             ' Define the body and subject of the email template in XML format.
             Dim bodyXml As String = "<?xml version=""1.0"" ?>" &amp; _
-                "<xsl:stylesheet xmlns:xsl=""http://www.w3.org/1999/XSL/Transform"" version=""1.0"">" &amp; _
+                "<xsl:stylesheet xmlns:xsl=""https://www.w3.org/1999/XSL/Transform"" version=""1.0"">" &amp; _
                 "<xsl:output method=""text"" indent=""no""/><xsl:template match=""/data"">" &amp; _
                 "<![CDATA[" &amp; "This message is to notify you that a new account has been created." &amp; _
                 "]]></xsl:template></xsl:stylesheet>"
 
             Dim subjectXml As String = "<?xml version=""1.0"" ?>" &amp; _
-                "<xsl:stylesheet xmlns:xsl=""http://www.w3.org/1999/XSL/Transform"" version=""1.0"">" &amp; _
+                "<xsl:stylesheet xmlns:xsl=""https://www.w3.org/1999/XSL/Transform"" version=""1.0"">" &amp; _
                 "<xsl:output method=""text"" indent=""no""/><xsl:template match=""/data"">" &amp; _
                 "<![CDATA[New account notification]]></xsl:template></xsl:stylesheet>"
 

@@ -3,8 +3,8 @@ title: "Security model (Developer Guide for Dynamics 365 Customer Engagement) | 
 description: "Provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -29,8 +29,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Security model of Customer Engagement
 
@@ -52,7 +51,7 @@ search.app:
   
   Combine role-based security, record-level security, and field-level security to define the overall security rights that users have within your customDynamics 365 Customer Engagement (on-premises).  
   
-  More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](http://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
+  More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](https://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
   
 ## In This Section  
  [How Role-Based Security Can Be Used to Control Access to Entities In Microsoft Dynamics 365 Customer Engagemen (on-premises)](how-role-based-security-control-access-entities.md)  
@@ -67,3 +66,6 @@ search.app:
  [Security concepts for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699698\(v=crm.8\).aspx)  
   
    
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

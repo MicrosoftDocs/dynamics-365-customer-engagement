@@ -1,9 +1,10 @@
 ---
 title: "Synchronize records manually with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to synchronize records manually in order to synchronize data more frequently with Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -37,3 +38,6 @@ By default, changes made in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microso
   
 ### See also  
  [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.author: matp
   
  For more information about granting permissions on security groups, see the Windows Server Help.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

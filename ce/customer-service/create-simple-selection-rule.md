@@ -1,14 +1,11 @@
 ---
-title: Create a simple selection rule (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to create a simple selection rule in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
-manager: shujoshi
+title: Create a simple selection rule for resource selection in Dynamics 365 Customer Service | MicrosoftDocs
+description: This topic provides information on how to create a simple selection rule in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service app)
@@ -45,7 +44,7 @@ You can also add resources to existing selection rules.
   
 5.  On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
-     Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
+     Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button.](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
 
 
 6.  In the **Edit a Selection Rule** dialog box, enter the following information:  
@@ -87,3 +86,6 @@ You can also add resources to existing selection rules.
 ### See also     
  [Schedule a service activity](schedule-service-activity-csh.md)   
  [Create or change a resource group](create-edit-resource-group.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
