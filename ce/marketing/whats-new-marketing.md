@@ -92,6 +92,7 @@ The update also includes improvements to real-time journeys, the SMS channel, ma
 - **Create consistent content with brand profiles**
     - To ensure branding consistency, the email editor now supports brand profiles including custom sender profiles, social links, and custom fields. Marketers can create multiple brand profiles for their organization or for each of their business units.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-consistent-content-brand-profiles)
+    - [Docs](brand-profiles.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of brand profiles.](media/whats-new-brandprofile.png "Screenshot of brand profiles.")
