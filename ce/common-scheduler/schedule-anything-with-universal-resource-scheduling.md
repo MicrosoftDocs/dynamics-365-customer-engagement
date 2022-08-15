@@ -1,7 +1,7 @@
 ---
 title: "Overview of Universal Resource Scheduling in Dynamics 365"
 description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
-ms.date: 01/03/2020
+ms.date: 08/15/2020
 ms.reviewer: mhart
 
 ms.subservice: common-scheduler
@@ -17,7 +17,7 @@ search.app:
 ---
 # Overview of Universal Resource Scheduling in Dynamics 365
 
-Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity in Dynamics 365 Sales, Field Service, Customer Service, and Project Service Automation, including custom entities.   
+Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity in Dynamics 365 Sales, Field Service, Customer Service, and Project Service Automation, including custom entities.
   
 For organizations that use:
 
@@ -26,8 +26,9 @@ For organizations that use:
 - Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone.
 
 - Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skill set. More information: [Dynamics 365 Project Service Automation Help](/dynamics365/project-operations/psa/overview) 
-    
-## Prerequisites  
+
+## Prerequisites
+
  Before you can use Universal Resource Scheduling, make sure you have:  
   
 - Dynamics 365 Field Service, Project Service, *or* Customer Service.
@@ -36,33 +37,36 @@ For organizations that use:
   
 - User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
-## Enable scheduling for an entity  
+## Enable scheduling for an entity
+
  When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.  
   
-1.  From the main menu, go to **Resource Scheduling** > **Administration**.  
+1. Open the **Resource Scheduling** app.
+
+1. Change to the Settings area and go to **Scheduling** > **Administration**.  
   
-2.  Select **Enable Resource Scheduling for Entities**.  
+1. Select **Enable Resource Scheduling for Entities**.  
   
-3.  On the **Setup Wizard - Enable Scheduling**, select **Add Entity**, and select the entity that you want to enable scheduling for.  
+1. On the **Setup Wizard - Enable Scheduling**, select **Add Entity**, and select the entity that you want to enable scheduling for.  
   
-4.  Select **Booking Relationship** and select **Create New Relationship**.  
+1. Select **Booking Relationship** and select **Create New Relationship**.  
   
-5.  Select **Requirement Relationship** and select **Create New Relationship**.  
+1. Select **Requirement Relationship** and select **Create New Relationship**.  
   
     > [!NOTE]
     >  If you already have relationships created then you can select form an existing relationship.  
   
-6.  Click **Publish Customization**.  
+1. Select **Publish Customization**.  
   
 <!-- is the following really in all-caps?-->
-7. On the **BOOKING SETUP METADATA: INFORMATION** form, use the tooltips to edit the default opens.  
+1. On the **BOOKING SETUP METADATA: INFORMATION** form, use the tooltips to edit the default opens.  
   
    > [!NOTE]
-   >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 system - define status reasons](../customerengagement/on-premises/customize/define-status-reason-transitions.md)  
-   > 
+   > To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 system - define status reasons](../customerengagement/on-premises/customize/define-status-reason-transitions.md)  
+   >
    >  In attribute settings sections field, can be mapped from entity that was enabled for scheduling to fields on booking requirement. For example, from Date, to Date, Territory, Duration and others.  
   
-8. When you’re done, select **Save** on the lower right corner.  
+1. When you’re done, select **Save**r.  
   
 ## Edit or turn off scheduling for an entity  
   
@@ -76,7 +80,8 @@ For organizations that use:
   
     -   Or, you can edit the form and when you’re done, select **Save** on the lower right corner.  
   
-## Schedule something  
+## Schedule something
+
  **Step 1:** Create a resource requirement  
   
 1. From the main menu, click **Sales**, **Service**, or **Marketing**.  
@@ -95,7 +100,7 @@ For organizations that use:
   
     A plugin runs and checks the relationships and automatically sets the booking set-up metadata relationship appropriately.  
   
-   **Step 2:** Schedule the booking requirement  
+**Step 2:** Schedule the booking requirement  
   
    To learn more about the schedule board, [Configure the schedule board](../field-service/configure-schedule-board.md).  
   
