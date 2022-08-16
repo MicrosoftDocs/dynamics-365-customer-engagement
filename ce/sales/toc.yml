@@ -516,7 +516,7 @@
       items: 
         - name: Prerequisites for Dynamics 365 Sales mobile
           href: sales-mobile/prereq-sales-mobile.md
-        - name: Modify quick view forms
+        - name: Manage forms
           href: sales-mobile/modify-quick-view-form.md
         - name: Create custom push notifications
           href: sales-mobile/create-push-notification.md
