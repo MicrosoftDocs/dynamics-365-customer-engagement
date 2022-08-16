@@ -309,7 +309,7 @@ For activities, the suggestions are displayed immediately.
 It takes about one to three days to populate the results for the first time. Later, updates take three to six days, depending on the new activities included.​
 
 ### ​Who will be included in the who knows whom suggestions?
-Everyone in the tenant is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+Everyone in the tenant is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, add the group IDs of users in the [consent form](provide-consent-office365.md).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
