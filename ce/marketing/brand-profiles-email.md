@@ -1,7 +1,7 @@
 ---
-title: "Preview: Use brand profiles in email (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Preview: Use brand profiles in real-time marketing email (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use brand profiles in email in Dynamics 365 Marketing."
-ms.date: 08/12/2022
+ms.date: 08/15/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Use brand profiles in email
+# Preview: Use brand profiles in real-time marketing email
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
@@ -26,7 +26,7 @@ search.app:
 
 Brand profiles allow you to create consistently branded content efficiently, even if your organization has multiple brands. You can create multiple brand profiles for your organization or profiles for each of your business units. To learn about creating brand profiles, see [Create consistent branding with brand profiles](brand-profiles.md).
 
-This article describes how to use brand profiles in the email designer.
+This article describes how to use brand profiles in the real-time marketing email designer.
 
 ## How to enable the brand profiles preview
 
@@ -34,10 +34,10 @@ This article refers to a feature that is in preview and may not be enabled in yo
 
 ## How to use brand profiles
 
-To use brand profiles in the email designer, select the desired profile from the **Brand profile** dropdown in the top right.
+To use brand profiles in the real-time marketing email designer, select the desired profile from the **Brand profile** dropdown in the top right.
 
 > [!div class="mx-imgBorder"]
-> ![Select a brand profile in the email designer.](media/brand-profile-email-select.png "Select a brand profile in the email designer")
+> ![Select a brand profile in the real-time marketing email designer.](media/brand-profile-email-select.png "Select a brand profile in the real-time marketing email designer")
 
 After you select a brand profile, the default sender for the profile will be automatically populated into the email sending settings. If you've more than one sender, you can remove the default sender, and then choose from any of the other senders in the profile by selecting the lookup icon in the **Sender** box under **Send settings**.
 
