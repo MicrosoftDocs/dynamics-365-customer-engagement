@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 08/12/2022
+ms.date: 08/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Provide consent to collect data from Microsoft 365  
 
-Dynamics 365 Sales uses Microsoft 365 data to generate the following insights based users email interactions and meetings:
+Dynamics 365 Sales uses Microsoft 365 data to generate the following insights based on users email interactions and meetings:
 
 - Relationship analytics KPIs and health score
 - Who knows whom suggestions
@@ -28,8 +28,6 @@ Previously, the consent for these capabilities were provided from **Microsoft 36
 ## Things to consider
 
 Before you provide consent in the new form, review the following information:
-
-- The consent provided in the old form for relationship analytics will expire in September 2022 and consent for who knows whom will expire on August 11, 2022. Provide consent in the new form as early as possible to avoid any loss of functionality.
 
 - Both relationship analytics and who knows whom require the same consent so you only need to consent once in the new form.
 
@@ -50,16 +48,22 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
     
 3. Read the description carefully and select the **Identifiable insights for other users** option.  
     > [!NOTE]
-    > The consent provided is applicable to all the Dynamics 365 applications that require the **Identifiable insights for other users** permission. In the case of Dynamics 365 Sales, this consent is used for both relationship analytics and who knows whom.
+    > The consent provided is applicable to all the Dynamics 365 applications that require the **Identifiable insights for other users** permission. Dynamics 365 Sales uses this consent for both relationship analytics and who knows whom.
     
+1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their communication and collaboration data.
+    :::image type="content" source="media/admin-opt-out.PNG" alt-text="A screenshot of the opt out textbox to provide security IDs":::
+
+    > [!NOTE]
+    > Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+
 1. Save the changes.  
     Dynamics 365 applications can now now use the Microsoft 365 data to generate insights.
 
 ## Opt out security groups of sharing data
 
-We're migrating the existing opt-out security groups to a new framework from August 4, 2022 to August 22, 2022. During this period, administrators won't be able to opt out any new security groups of sharing their collaboration data.
+You can opt out security groups of users who don't want to share their communication and collaboration data. For example, opt out users or groups such as C-suite, M&A, finance, and so on.
 
-However, individual users can opt out on their own. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
+To opt out, follow the steps in [provide consent](#provide-consent). 
 
 ### See also
 
