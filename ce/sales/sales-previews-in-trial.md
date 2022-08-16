@@ -38,7 +38,7 @@ Accelerate sales by,
 - defining sequences for different scenarios that your sales team is likely to encounter. This helps sales teams to be consistent as they know the steps they need to take to move the deal forward. 
 - creating rules to automatically assign leads and opportunities to the sellers. 
 
-Watch this video to get a sneak peak into the sales accelerator:
+Watch this video to get a sneak peek into the sales accelerator:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
 
 Want to explore more? Read these articles:
@@ -52,7 +52,7 @@ Want to explore more? Read these articles:
 
 Project accurate revenue with sales forecasting. A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. 
 
-Watch this video to get a sneak peak into forecasting:
+Watch this video to get a sneak peek into forecasting:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou?autoplay=true]
 
 Want to explore more? Read these articles:
@@ -63,7 +63,7 @@ Want to explore more? Read these articles:
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales.
 
-Watch this video to get a sneak peak into conversation intelligence:
+Watch this video to get a sneak peek into conversation intelligence:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO?autoplay=true]
 
 Want to explore more? Read these articles:
@@ -74,7 +74,7 @@ Want to explore more? Read these articles:
 
 Engage in a Teams chat conversation from within your trial app. While you're working on a sales record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching context.
 
-Watch this video to get a sneak peak into Teams collaboration in Dynamics 365:
+Watch this video to get a sneak peek into Teams collaboration in Dynamics 365:
 > [!VIDEO https://www.youtube.com/embed/h7BjrM2UkMs]
 
 Want to explore more? Read these articles:
@@ -85,7 +85,7 @@ Want to explore more? Read these articles:
 
 The Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers.
 
-Watch this video to get a sneak peak into the mobile experience:
+Watch this video to get a sneak peek into the mobile experience:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG]
 
 Want to explore more? Read these articles:
