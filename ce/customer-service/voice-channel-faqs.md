@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/17/2022
+ms.date: 08/18/2022
 ms.topic: article
 
 ---
@@ -75,13 +75,9 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 - [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
-### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
+### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
  
-Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.
-
-For example, you can set English-UK in the voice profile and English-US in the bot.
-
-The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot such as postal code might not be accurate. 
+Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached.
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
