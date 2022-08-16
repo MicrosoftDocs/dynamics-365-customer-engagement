@@ -45,7 +45,7 @@ Yes, you have the following two options to bring your existing numbers to Dynami
 
 - Configure Azure direct routing. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
  
-### How can I acquire additional phone numbers from Azure direct offer?
+### How can I acquire additional phone numbers from Azure Communication Services?
 
 You can purchase one phone number per tenant for Azure Communication Services through the Azure portal. To acquire phone numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
