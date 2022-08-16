@@ -25,7 +25,7 @@ Dynamics 365 Sales uses Microsoft 365 data to generate the following insights ba
 
 ## Things to consider
 
-Before you provide consent in the new form, review the following information:
+Before you provide consent, review the following information:
 
 - Both relationship analytics and who knows whom require the same consent so you only need to consent once.
 
