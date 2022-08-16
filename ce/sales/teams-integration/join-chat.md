@@ -1,7 +1,7 @@
 ---
 title: Join an existing linked chat in Sales Hub
 description: Learn how to join an existing linked chat in Sales Hub.
-ms.date: 05/25/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -15,12 +15,21 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
-As a seller, you can view and easily join chats that are linked to a record you have write access to, even if you weren’t originally a participant in the chat. For example, if you've onboarded to a lead that was previously handled by another seller, you can join the chat to better understand the context, and then continue to collaborate with your relevant colleagues.
+View and easily join chats that are linked to a record you have write access to.
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, Dynamics 365 Team Members, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Team Members](/dynamics365/get-started/team-members-license)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
+| **Security roles** | <ul><li>Any primary sales role, such as salesperson, or sales manager</li><li>Any role that has access to a Dynamics 365 record</li></ul> <br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
+
+## Join a linked chat
+
+As a seller, you can view and easily join chats that are linked to a record you have write access to, even if you weren't originally a participant in the chat. For example, if you've onboarded to a lead that was previously handled by another seller, you can join the chat to better understand the context, and then continue to collaborate with your relevant colleagues.
 
 > [!NOTE]
 > You can only join linked chats. To do so, you must have write access to the record and your admin must turn on the Join Chat capability for the record type in which you want to join any existing linked chat.
-
-**To join a linked chat**:
 
 1. Open the record for which you want to join the chat.
 

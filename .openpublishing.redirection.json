@@ -21877,6 +21877,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/add-conversation-intelligence-tab-teams-meeting.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/teams-meeting-integration",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/access-deal-manager.md",
       "redirect_url": "/dynamics365/sales/access-deal-manager",
       "redirect_document_id": "false"
@@ -23935,6 +23940,10 @@
       "source_path": "ce/sales/teams-integration/ci-capabilities.md",
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-authorize-api-connection.md",
+      "redirect_url": "/dynamics365/field-service/installation-setup-iothub",
     },
     {  
       "source_path": "ce/sales/configure-talking-points.md",
