@@ -10,12 +10,10 @@ manager: shujoshi
 
 # Provide consent to collect data from Microsoft 365  
 
-Dynamics 365 Sales uses Microsoft 365 data to generate the following insights based on users email interactions and meetings:
+Dynamics 365 Sales uses Microsoft 365 data to generate the following insights based on users' email interactions and meetings:
 
-- Relationship analytics KPIs and health score
-- Who knows whom suggestions
-
-Previously, the consent for these capabilities were provided from **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights - Analytics** and **Dynamics 365 Sales Insights - Connection graph** respectively. The consent to use Microsoft 365 data is now consolidated and is applicable for all Dynamics 365 applications.  
+- [Relationship analytics KPIs and health score](relationship-analytics.md)
+- [Who knows whom suggestions](who-knows-whom.md)
 
 ## License and role requirements
 
@@ -29,13 +27,13 @@ Previously, the consent for these capabilities were provided from **Microsoft 36
 
 Before you provide consent in the new form, review the following information:
 
-- Both relationship analytics and who knows whom require the same consent so you only need to consent once in the new form.
+- Both relationship analytics and who knows whom require the same consent so you only need to consent once.
 
 - The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
-- When consent is provided, Dynamics 365 analyzes Exchange emails from the last one year to provide relationship insights and who knows whom suggestions.  
+- When consent is provided, Dynamics 365 analyzes Exchange emails pertaining to the last one year to provide relationship insights and who knows whom suggestions. The analysis happens in 12 batches, with each batch containing emails for one month. Dynamics 365 can handle up to 8 million emails per batch in this process. The live data is then processed after every 24 hours.
 
-- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
+- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
 
 ## Provide consent 
@@ -50,7 +48,7 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
     > [!NOTE]
     > The consent provided is applicable to all the Dynamics 365 applications that require the **Identifiable insights for other users** permission. Dynamics 365 Sales uses this consent for both relationship analytics and who knows whom.
     
-1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their communication and collaboration data.
+1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their communication and collaboration data. For example, opt out users or groups such as C-suite, M&A, finance, and so on.
     :::image type="content" source="media/admin-opt-out.PNG" alt-text="A screenshot of the opt out textbox to provide security IDs":::
 
     > [!NOTE]
@@ -58,12 +56,6 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
 
 1. Save the changes.  
     Dynamics 365 applications can now now use the Microsoft 365 data to generate insights.
-
-## Opt out security groups of sharing data
-
-You can opt out security groups of users who don't want to share their communication and collaboration data. For example, opt out users or groups such as C-suite, M&A, finance, and so on.
-
-To opt out, follow the steps in [provide consent](#provide-consent). 
 
 ### See also
 
