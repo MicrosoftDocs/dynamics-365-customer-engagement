@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+ms.date: 08/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -52,6 +52,7 @@ You can set up knowledge management on the Customer Service admin center, Custom
 
 After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
 
+- [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
 - [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
@@ -144,6 +145,38 @@ The configured settings are also available to users of Omnichannel for Customer 
     * Type: Select **URL**. 
     * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
+## Configure knowledge base article URLs
+
+Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
+
+> [!NOTE]
+> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
+
+You can configure a knowledge base article URL in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+
+1. Go to the **Support portal connection** section.
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. On the **Knowledge** page, go to the **Portal** section and select **Manage**. The **Portal** page appears.
+  1. On the **Portal** page, go to the **Support portal connection** section.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+  1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
+  1. On the **Settings** page, go to the **Support portal connection** section.
+
+---
+
+2. Set the **Use an external portal** toggle to **Yes**.
+
+3. In the **URL format** field, enter the URL name.
+
+ 4. Select **Save**.
+
+The knowledge base article link is now active and can be copied and shared.
+
 ## Set up AI suggestions for article keywords and description
 
 You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
@@ -184,7 +217,6 @@ You can set up the knowledge search logic in the Customer Service admin center o
 
 More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
 
-  
 ### See also  
 
  [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   

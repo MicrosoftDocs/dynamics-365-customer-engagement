@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/21/2022
+ms.date: 08/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,23 +23,16 @@ You can search knowledge articles through Customer Service Hub, Customer Service
 
 ## Prerequisites
 
-### Customer Service Hub
-
 Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
-### Customer Service workspace
+### Customer Service workspace and Omnichannel for Customer Service
 
-- The productivity pane and knowledge search must be enabled in the app profile manager.
-- Dataverse search must be enabled. If dataverse search isn't enabled, then the full-text search mechanism works.
-
-### Omnichannel for Customer Service
-
-- The productivity pane and knowledge base search must be enabled in app profile manager.
-- The anchor tab should be a case or conversation for the knowledge pane to be displayed.
+- The app side pane and knowledge search must be enabled in Agent experience profiles.
+- The anchor tab should be a case or conversation for the knowledge pane to be displayed. To open the knowledge pane on any other entity, you must enable it. More information: [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management)
 
 ## Use the independent knowledge base search
 
-In the Customer Service Hub site map, you can perform independent knowledge base searches outside of cases using the **Knowledge Search** option in the **Knowledge** area. This functionality performs like a knowledge search hub, where you can do the following:
+You can perform independent knowledge base searches using the **Knowledge Search** option. In the Customer Service Hub site map, use the **Knowledge Search** option in the **Knowledge** area. In Customer Service Workspace, from the **Customer Service Agent Dashboard**, select any case to view the **Knowledge search** pane. This functionality performs like a knowledge search hub, where you can do the following:
 
 - View an article 
 - Send an article pop out 
@@ -67,11 +60,11 @@ Type a keyword in the search field to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms) 
 
-## Use the productivity pane to search knowledge articles
+### How to search for knowledge articles
 
-### How to search in Customer Service Hub
+## Use the reference pane to search knowledge articles in Customer Service Hub
 
-In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the productivity pane, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
+In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the reference pane, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
 
 On the **Knowledge** tab, you can view the following:
 
@@ -105,9 +98,9 @@ In the knowledge base search control, you can do the following:
 - Email a knowledge article
 - View the knowledge article inline in the search control
 
-### How to search in Customer Service workspace
+### Use the app side pane to search knowledge articles in Customer Service workspace and Omnichannel for Customer Service
 
-In Customer Service workspace, for example for a case, when you select the **Knowledge search** tab in the productivity pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on dataverse and full-text search mechanisms.
+In Customer Service workspace and Omnichannel for Customer Service, when you select the **Knowledge search** tab on the app side pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on Dataverse and full-text search mechanisms.
 
 The knowledge articles are applicable for all the knowledge-enabled entities. By default, the full-text search and Dataverse search display 10 results. You can also use the search box to enter keywords and search for articles if those displayed by default aren't relevant.
 
@@ -124,47 +117,14 @@ The knowledge articles are applicable for all the knowledge-enabled entities. By
   |7.| Status and visibility tags for the article.|
   |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
 
-### How to search in Omnichannel for Customer Service 
-
-In Omnichannel for Customer Service, when you are engaged in a conversation with a customer, you can use the **Knowledge** pane to search for knowledge articles and refer to them.
-
-By default, the full text search displays 10 results and dataverse search displays 50 results.
-
-![Knowledge tab in productivity pane.](media/oc-productivity-knowledge-tab.png "Knowledge tab in productivity pane")
-
-  |Label|Description|
-  |-----|-----------|
-  |1.| Knowledge tab|
-  |2.| Number of times the article has been viewed.|
-  |3.| Copy URL lets you copy the article link to the clipboard when selected.|
-  |4.| Send URL pastes the article link in the conversation window when selected. |
-  |5.| Opens the article on a new application tab when selected. |
-
-On the **Knowledge** pane, you can perform the following actions:
-
-- Select the article title to open it in an application tab.
-- Use the search box to enter keywords and search for articles.
-- Select the filter icon to display the options based on which the articles can be filtered.
-- Select sort icon to display the options based on which results can be displayed.
-- Select the ellipses to display the following actions that can be performed:
-  - Copy the article URL
-  - Send URL
+In addition to the above information, in Omnichannel for Customer Service, you can also use the **Send URL** option, when you select the ellipsis. The **Send URL** option pastes the article link in the conversation window when selected. However, if you are using the Voice channel, this option won't be available.
 
 These actions can be performed for only published or expired articles.
 
 ## Use smart assist to search for knowledge articles
-Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the productivity pane of Customer Service workspace only.
+Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the app side pane of Customer Service workspace only.
 
-In Customer Service workspace, select the **Smart assist** option on the productivity pane to see knowledge article suggestions related to your case.
-
-## Launch the knowledge articles search from the communication panel
-
-In Omnichannel for Customer Service, when you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **Knowledge articles** tab. Then, you can search and share the knowledge articles.
-
-1. Select the Knowledge Articles option in the communication panel. The Knowledge article tab opens in the application tab panel.
-2. Search for the knowledge articles and view.
-3. Select **Send Link**. The link is displayed in the message area of the communication panel.
-4. Select **Send** in the communication panel.
+In Customer Service workspace, select the **Smart assist** option on the app side pane to see knowledge article suggestions related to your case.
 
 ## View knowledge articles
 
@@ -202,44 +162,17 @@ In this view mode, you can perform actions such as linking the knowledge article
 
 ### View search results from external sources
 
-In Customer Service Hub, if your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
+In Customer Service Hub and Customer Service workspace, if your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
+
+In Customer Service Hub:
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
 
+In Customer Service workspace: 
+:::image type="content" source="media/csw-external-sources.png" alt-text="Search results for external sources in Customer Service workspace":::
+
 For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
-
-### Configure knowledge base article URLs
-
-Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
-
-> [!NOTE]
-> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
-
-You can configure a knowledge base article URL in the Customer Service admin center or Customer Service Hub app by performing the following steps:
-
-1. Go to the **Support portal connection** section.
-
-### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  1. On the **Knowledge** page, go to the **Portal** section and select **Manage**. The **Portal** page appears.
-  1. On the **Portal** page, go to the **Support portal connection** section.
-
-### [Customer Service Hub](#tab/customerservicehub)
-
-  1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
-  1. On the **Settings** page, go to the **Support portal connection** section.
-
----
-
-2. Set the **Use an external portal** toggle to **Yes**.
-
-3. In the **URL format** field, enter the URL name.
-
- 4. Select **Save**.
-
-The knowledge base article link is now active and can be copied and shared.
 
 ### See also
 
