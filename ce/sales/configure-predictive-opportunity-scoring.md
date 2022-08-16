@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 08/02/2022
+ms.date: 08/16/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -278,8 +278,9 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 ### Manual retraining
 
-1. On the predictive opportunity scoring configuration page, open the model and ensure that **Retrain automatically** is turned off.
+1. From the **Select model** drop-down on the **Predictive opportunity scoring configuration** page, select the model that you want to retrain.
 
+1. Select the **Configuration** tab and ensure that **Retrain automatically** is turned off.
 1. Select **Edit model**.
 
 2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (account) including custom attributes to train the model.
@@ -385,7 +386,7 @@ The model is deleted from your organization.
 
 ## Manage duplicate models
 
-When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. In the case of duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.    
+When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. In the case of duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.  
 To remove the duplicate models, use one of the following methods depending on the action you’re performing:
 - [Create model](#create-model)
 - [Published model](#published-model)
