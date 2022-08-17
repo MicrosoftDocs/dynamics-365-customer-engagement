@@ -1,7 +1,7 @@
 ---
 title: "Manage your sequences in the sales accelerator"
 description: "Manage your sequences by viewing, cloning, editing, and deleting in the sales accelerator."
-ms.date: 08/15/2022
+ms.date: 08/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -85,7 +85,7 @@ Cloning a sequence makes it easier to edit, and save the changes to create new s
 1. Open the sequence that you want to edit.    
 
     >[!NOTE]
-    >If the sequence is in the **Active** state, you can do one of the following:<!--note from editor: Should this list actually be three items? "*Deactivate the sequence *Create a copy * Select Edit sequence"?--> 
+    >If the sequence is in the **Active** state, you can do one of the following:   
     >- Deactivate the sequence, or create a copy.
     >- Select **Edit sequence**.
 

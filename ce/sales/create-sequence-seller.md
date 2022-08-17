@@ -1,7 +1,7 @@
 ---
 title: "Create and connect sequences for yourself in the sales accelerator"
 description: "Create and connect sequences as a seller in the sales accelerator."
-ms.date: 08/15/2022
+ms.date: 08/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -21,7 +21,7 @@ Create sequences to automate your work and personalize communication while reach
 
 ## What is a sequence?
 
-Sequences enforce best practices by introducing a set of consecutive activities for you to follow during your day. You can create and connect sequences to records&mdash;such as leads, opportunities, and accounts that appear in your work queue&mdash;to help prioritize activities that help you focus on selling, be more productive, and better align to your organization's<!--note from editor: Suggested.--> business processes.
+Sequences enforce best practices by introducing a set of consecutive activities for you to follow during your day. You can create and connect sequences to records&mdash;such as leads, opportunities, and accounts that appear in your work queue&mdash;to help prioritize activities that help you focus on selling, be more productive, and better align to your organization's business processes.
 
 When you create a sequence, you define a set of activities that you want to perform on records, and the order to perform them in. This lets you concentrate on selling and gives you a better understanding of what to do next.
 
@@ -124,7 +124,7 @@ Now that you're in the process of creating the sequence, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
 
-    By default, the **Sequence starts here**<!--note from editor: The image shows it (and grammar would have it) as "starts" rather than "start".--> step is added to the sequence as the first step.  
+    By default, the **Sequence starts here** step is added to the sequence as the first step.  
 
 4. After the **Sequence starts here** step, select **Add** (**+**), and configure the sequence steps. The steps are categorized into the following four groups:
 

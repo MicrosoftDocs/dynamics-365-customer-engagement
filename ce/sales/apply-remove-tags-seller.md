@@ -1,7 +1,7 @@
 ---
 title: "Apply and remove tags from sequences in the sales accelerator"
 description: "Apply and remove existing tags from sequences in the sales accelerator."
-ms.date: 08/15/2022
+ms.date: 08/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -58,7 +58,7 @@ With the Salesperson role, you can't create, edit, or delete tags. However, if y
 
 ## Remove tags from a sequence
 
-1.	In the Sales Hub app,<!--note from editor: Is it okay that this is "your sales app" in other procedures?--> go to the **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+1.	In your sales app, go to the **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
 2.	Under **Sales accelerator**, select **Sequence**.   
 
