@@ -17,9 +17,7 @@ Uninstalling Dynamics 365 Field Service will remove all the customizations and t
 
 To uninstall Field Service, administrators can go to **Advanced Settings** > **Settings** > **Customizations** > **Solutions** to remove solutions in the order listed in the following table.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 admin settings, with attention to Solutions.](./media/admin-settings-solutions.png)
+:::image type="content" source="./media/admin-settings-solutions.png" alt-text="Screenshot of Dynamics 365 admin settings, with attention to Solutions.":::
 
 >[!CAUTION]
 > Some solutions are shared with other apps like Project Service Automation, and should not be removed unless you intend to uninstall those apps too. Skip those solutions.
