@@ -552,7 +552,6 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -613,7 +612,6 @@
           href: teams-integration/teams-collaboration.md
         - name: Enhanced Collaboration with Teams
           href: teams-integration/teams-collaboration-enhanced-experience.md
-
     - name: Productivity and document management
       items: 
         - name: Activity management
@@ -745,6 +743,12 @@
           items: 
             - name: What is sales accelerator
               href: sales-accelerator-intro.md
+            - name: Create and connect sequences for yourself
+              href: create-sequence-seller.md  
+            - name: Manage your sequences
+              href: manage-sequences-seller.md 
+            - name: Apply and remove tags from your sequences
+              href: apply-remove-tags-seller.md 
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
             - name: Customize work list card  
