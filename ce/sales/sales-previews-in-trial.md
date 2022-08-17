@@ -24,10 +24,10 @@ Dynamics 365 Sales trial includes the following features that help you manage yo
 
 ## Pipeline management
 
-Managing a sales pipeline using leads and opportunities is one of the basic and key function of any sales organization. Watch this video to understand how Dynamics 365 Sales helps you manage your pipeline:
+Managing a sales pipeline using leads and opportunities is one of the basic and key functions of any sales organization. Watch this video to understand how Dynamics 365 Sales helps you manage your pipeline:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82?autoplay=true]
 
-Want to explore more? Read these articles:
+Want to explore more? Read the article:
 [Preview: Manage opportunities using the deal manager workspace](deal-manager-seller-overview.md)
 
 
@@ -41,7 +41,7 @@ Accelerate sales by,
 Watch this video to get a sneak peek into the sales accelerator:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
 
-Want to explore more? Read these articles:
+Want to learn more? Read these articles:
 
 - [Configure the sales accelerator](enable-configure-sales-accelerator.md)
 - [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
