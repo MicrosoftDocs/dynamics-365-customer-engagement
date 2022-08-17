@@ -31,7 +31,7 @@ An alternative to Microsoft as a carrier is Azure direct routing that allows cus
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
-Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, customers will still be able to deploy and use all the features of the voice channel in Dynamics 365.
+Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, you'll still be able to deploy and use all the features of the voice channel in Dynamics 365.
 
 ### What codecs are implemented in the voice channel?
 
@@ -41,9 +41,9 @@ The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
 
 Yes, you have the following two options to bring your existing numbers to Dynamics 365:
 
-- Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
+- **Port the number to Azure Communication Services**. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
-- Configure Azure direct routing. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
+- **Configure Azure direct routing**. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
  
 ### How can I acquire additional phone numbers from Azure Communication Services?
 
@@ -61,9 +61,13 @@ Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to
 
 The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
 
-### Will Azure Communication Services be an add-on service? I already have a competitor phone system and have Microsoft Teams.
+### Do I have to buy phone numbers from Azure Communication Services?
 
-Dynamics 365 doesn’t use calling plans for its voice channel. However, if customers are using Azure direct routing with Microsoft Teams, the same SBCs and setup can be used with Azure direct routing to reuse the voice channel. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+No, you don't have to. You can bring phone numbers from another carrier to use in the voice channel using Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+If you have already brought numbers from another carrier into Microsoft Teams via Azure direct routing, then you can reuse your SBC and existing telephony infrastructure to bring those numbers into Azure Communication Services for use in the voice channel.  
+
+> [!Note]
+> Currently, you can't bring native Teams phone numbers to use in the voice channel.
 
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app.
 
