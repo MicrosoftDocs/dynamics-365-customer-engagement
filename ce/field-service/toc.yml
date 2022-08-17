@@ -388,8 +388,6 @@
       href: developer/connected-field-service-architecture.md
     - name: Security roles for Connected Field Service
       href: cfs-security-roles.md
-    - name: Authorize API app connection
-      href: cfs-authorize-api-connection.md
     - name: Device categories
       href: cfs-device-categories.md
   - name: Connect your IoT data

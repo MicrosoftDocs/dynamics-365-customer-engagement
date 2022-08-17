@@ -2,14 +2,14 @@
 title: "Time entries for Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

@@ -1,4 +1,12 @@
 
+## 3.12.87.3 - 2022 wave 2 early access update 1
+
+(Includes Resource Scheduling controls version 1.2.28.222201).
+
+## 3.12.83.6
+
+(Includes Resource Scheduling controls version 1.2.24.222144).
+
 ## 3.12.82.14
 
 (Includes Resource Scheduling controls version 1.2.23.221941).

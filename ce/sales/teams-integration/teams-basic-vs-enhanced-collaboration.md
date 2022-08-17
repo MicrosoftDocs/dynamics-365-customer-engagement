@@ -1,7 +1,7 @@
 ---
 title: "Basic vs Enhanced Collaboration in Microsoft Teams"
 description: "Learn about the differences between Basic and Enhanced Collaboration in Microsoft Teams, including the permissions, connection setups, and more."
-ms.date: 04/20/2022
+ms.date: 08/09/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -22,6 +22,16 @@ caps.latest.revision: 1
 ---
 # Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams 
 
+This article provides information about the differences between Basic and Enhanced Collaboration in Microsoft Teams, including the permissions, connection setups, and more.
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, Dynamics 365 Team Members, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Team Members](/dynamics365/get-started/team-members-license)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
+| **Security roles** | <ul><li>Any primary sales role, such as salesperson, or sales manager</li><li>Any role that has access to a Dynamics 365 record</li></ul> <br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
+
+## Know the difference
 
 Before you can start using the collaboration experience, it needs to be turned on in your customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). 
 

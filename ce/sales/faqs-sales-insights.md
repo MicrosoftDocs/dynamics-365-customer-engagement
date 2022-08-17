@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 07/08/2022
+ms.date: 08/03/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -72,7 +72,6 @@ Sales Premium features are available in the following countries or regions:
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Talking points | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes | No | No | No |
 
 ### Which version of Exchange is supported for features in Sales Premium?   
@@ -84,7 +83,6 @@ The Sales Premium features support the following versions of Exchange:
 | Assistant | Yes | No | No |
 | Email engagement | Yes | Yes | Yes |
 | Who knows whom | Yes | No | Yes |
-| Talking points | Yes | No | Yes |
 
 >[!NOTE]
 >- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics will not contain Exchange data and the assistant will not display cards that are based on Exchange data. 
@@ -103,7 +101,7 @@ Sales Premium supports the following languages:
 |---------|--------------------|
 | Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
 | Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
-| Talking points and Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
+| Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
 | Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, Norwegian, and Arabic. |
 
@@ -305,29 +303,13 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 For activities, the suggestions are displayed immediately.  
 
 
-## Talking points
-
-### What do I need in order to use Talking points?​
-
-Talking points require Microsoft 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
-
-
-### What do Talking points look at for the conversation starters?​   
-Talking points look at the inbox of the signed-in user for emails from the contact list that include conversational topics relating to sports, entertainment, and health.​
-
-### How is my privacy protected?
-User privacy is safeguarded because only emails from the signed-in user's mailbox are shown. Your colleagues won't be able to see those same talking points unless they were also a recipient of that email.​
-
-### How long will it take for results to appear?
-It takes a few seconds to display the results.​
-
 ## Who knows whom
 
 ### How long will it take for the suggestions to appear after providing consent?
 It takes about one to three days to populate the results for the first time. Later, updates take three to six days, depending on the new activities included.​
 
 ### ​Who will be included in the who knows whom suggestions?
-Everyone in the tenant is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+Everyone in the tenant is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, add the group IDs of users in the [consent form](provide-consent-office365.md).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
@@ -360,7 +342,7 @@ The data is refreshed periodically and could take up to 12 hours to reflect. We 
 
 ### How do I buy more conversation intelligence hours?
 
-With the Sales Premium license, you get 10 hours of call recording and processing capacity per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+With the Sales Premium license, you get 10 hours of call recording and processing capacity per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
 
 > [!NOTE]
 > If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  

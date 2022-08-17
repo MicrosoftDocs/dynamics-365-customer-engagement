@@ -31,7 +31,7 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 [Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
 [Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Import phone numbers](voice-channel-sync-from-acs.md)   
-[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md) 
+[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
