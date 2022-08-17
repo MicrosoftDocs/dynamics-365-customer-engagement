@@ -11,6 +11,8 @@ manager: shujoshi
 
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
+Also, sellers can create and activate sequences for themselves and use the sequences to work on their assigned records. More information: [Create and connect sequence for yourself](create-sequence-seller.md) 
+
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
@@ -84,7 +86,7 @@ Now, you can activate the sequence.
     > [!div class="mx-imgBorder"]
     > ![Sequence activated and status.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status")  
 
-Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
+Next, you connect the active sequence to records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 ## Sequence home page
 
