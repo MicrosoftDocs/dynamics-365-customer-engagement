@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 06/14/2022
+ms.date: 08/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -147,38 +147,40 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 2. In **Cloud flows**, select  **SLAWarningAndExpiryMonitoringFlow**.
 3. Select **Turn on**.
 
-## Deletion of SLA or the SLA Item throws error messages in UCI during solution upgrade or manual deletion
+## Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion
 
-The two following error messages are displayed:
+The following two error messages are displayed:
 
-Error 1: "The object you tried to delete is associated with another object and cannot be deleted."
+Error message 1: "The object you tried to delete is associated with another object and cannot be deleted."
 
-Error 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail."
+Error message 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail."
 
 ### Reason
 
-The first error occurs because in UCI SLA, the relationship between SLA Item and SLA KPI Instances is set to "Restrict to Delete".
-Second error occurs if you are trying to delete an SLA manually, which is introduced as part of a managed solution and has flows configured. Processes that are part of managed solution can't be deleted.
+The first error occurs because in UCI SLA, the relationship between SLA Item and SLA KPI Instances is set to "Restrict to Delete". The second error occurs because processes that are part of managed solution can't be deleted. So, when you try to delete an SLA manually, which is part of a managed solution and has flows configured, the error message appears.
 
 ### Resolution
 
-Resolution 1: Instead of deleting the SLA, you can deactivate the SLA in your organization, if it's brought by managed solution then perform the following steps:
+Resolution 1:
+
+Instead of deleting the SLA, deactivate the SLA in your organization. If it's a part of a managed solution, then perform the following steps:
 
 1. Deactivate the SLA in the source instance and add it to the solution.
 1. Deactivate the same SLA in the target instance and then apply the solution upgrade.
 
 Resolution 2:
 
-You can manually delete all the SLA related entity records along with the SLA KPI Instances related to the SLA and then remove the SLA. Perform the following steps:
+You can first manually delete all the SLA related entity records and SLA KPI Instances, and then remove the SLA. Perform the following steps:
 
-1. In your Org, go to **Advanced Find** and look for **SLA KPI Instances** and select the **SLAItem.**
-1. Click on **Result**. The SLA KPI Instances will be listed.
-1. Select the SLA KPI Instances and select **Delete SLAKPIInstances**. This will also nullify the SLA KPI Instances on the related record.
+1. In your organization, go to **Advanced Find**, search **SLA KPI Instances**, and then select the **SLAItem.**
+1. Select **Result**. The SLA KPI Instances will be listed.
+1. Select the required SLA KPI Instances and then select **Delete SLAKPIInstances**. This will also nullify the SLA KPI Instances on the related records.
 
-Even after removing the reference records, if the error message, "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail." appears, then apply solution upgrade with SLA removed from the upgrade solution.
+Even after deleting the reference records, if the error message, "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process., see log for more detail." appears, then apply the solution upgrade with SLA deleted from the upgrade solution.
 
 Resolution 3:
-Contact Support if the above resolution doesn’t work to delete the SLA/SLA items through backend.
+
+If the above resolution doesn’t work, contact Support to delete the SLA or SLA items from backend.
 
 ### See also
 
