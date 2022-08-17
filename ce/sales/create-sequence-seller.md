@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Create and connect sequences for yourself
 
-Create sequences to automate your work and personalize communication while reaching out to prospects.
+Create sequences to automate your work by creating a set of activities such as, send an email, call the customer, and wait time, and personalize communication while reaching out to prospects.
 
 ## License and role requirements
 
@@ -21,7 +21,7 @@ Create sequences to automate your work and personalize communication while reach
 
 ## What is a sequence?
 
-Sequences enforce best practices by introducing a set of consecutive activities for you to follow during your day. You can create and connect sequences to records&mdash;such as leads, opportunities, and accounts that appear in your work queue&mdash;to help prioritize activities that help you focus on selling, be more productive, and better align to your organization's business processes.
+A sequence enforce best practices by introducing a set of consecutive activities for you to follow during your day. You can create and connect sequences to records&mdash;such as leads, opportunities, and accounts that appear in your work queue&mdash;to help prioritize activities that help you focus on selling, be more productive, and better align to your organization's business processes.
 
 When you create a sequence, you define a set of activities that you want to perform on records, and the order to perform them in. This lets you concentrate on selling and gives you a better understanding of what to do next.
 
@@ -75,7 +75,7 @@ Select **Connect *record type* to a sequence**, and the **Connect *record type* 
 >[!NOTE]
 >If sequences are available for the record type, the list is displayed. To create a sequence, select **Create new sequence**. 
 
-Select **Create a new sequence**. and the **Create a sequence** dialog opens in a new tab. To continue creating the sequence, go to [Create a sequence](#create-a-sequence), later in this topic.
+Select **Create a new sequence** and the **Create a sequence** dialog opens in a new tab. To continue creating the sequence, go to [Create a sequence](#create-a-sequence), later in this topic.
 
 ### Record grid view
 
@@ -94,7 +94,7 @@ Select **Create a new sequence**. The **Create a sequence** dialog opens in a ne
 
 ## Create a sequence
 
-Now that you're in the process of creating the sequence, follow these steps:
+Now that you've opened the sequence creation dialog through one of the ways described in [How to create sequence](#how-to-create-sequences), follow these steps to complete the sequence creation:
 
 1. In the **Create a sequence** dialog, select one of the following options to create the sequence:  
 
@@ -119,7 +119,6 @@ Now that you're in the process of creating the sequence, follow these steps:
 3. Select **Next**.
 
     The sequence designer page opens.
-
 
     > [!div class="mx-imgBorder"]
     > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
