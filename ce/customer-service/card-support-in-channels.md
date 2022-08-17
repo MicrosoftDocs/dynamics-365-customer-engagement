@@ -178,6 +178,8 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 
 ## Preconfigured automated message triggers for asynchronous channels
 
+The following table lists the automated messages that are displayed for an agent across different asynchronous channels.
+
 ### Preconfigured automated message triggers for an agent
 
 |**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
@@ -187,6 +189,8 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 |Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message couldn't be delivered: Unsupported message type| Message displayed to agent when customer sent an unsupported message type.| When customer sent an unsupported message type |
 |Custom | Customer disconnected| Message displayed to agent when the customer gets disconnected|  When the customer gets disconnected |
 |Custom|  Customer ended conversation| Message displayed to agent when customer ends the conversation| When customer ends the conversation|
+
+The following table lists the automated messages that are displayed for a customer across different asynchronous channels.
 
 ### Preconfigured automated message triggers for a customer
 
