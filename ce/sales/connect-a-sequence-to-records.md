@@ -15,7 +15,7 @@ After you create and activate a sequence for the selling process, you connect th
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator, Sequence Manager, or Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Ways to connect sequence to records
 
@@ -25,8 +25,7 @@ You can connect a sequence to records in the following ways:
 - [Through a record](#ContactThroughARecord)
 - [Through Power Automate](#through-power-automate)
 
-<a name="ContactThroughASequence"></a>
-
+<a name='ContactThroughASequence'></a>
 ## Through a sequence   
 
 >[!NOTE]
@@ -67,12 +66,12 @@ You can connect a sequence to records in the following ways:
     > [!div class="mx-imgBorder"]
     > ![Lead records connected to sequence](media/sequence-leads-connected.png "Lead records connected to sequence")       
     
-<a name="ContactThroughGridView"></a>
-## Through the lead or opportunity grid view   
+<a name='ContactThroughGridView'></a>
+## Through the record type grid view   
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales**.   
-3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.   
+3. Under **Sales**, select the record type such as, **Leads** or **Opportunities**, depending on the records you want to connect.   
     In this example, we select **Leads**.   
     > [!div class="mx-imgBorder"]
     > ![Lead view](media/sequence-connect-lead-view.png "Lead view")        
@@ -91,7 +90,7 @@ You can connect a sequence to records in the following ways:
 
 A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.   
 
-<a name="ContactThroughARecord"></a>
+<a name='ContactThroughARecord'></a>
 ## Through a record   
 
 1. Sign in to your sales app.   
