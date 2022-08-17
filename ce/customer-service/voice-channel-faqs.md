@@ -64,6 +64,7 @@ The voice capabilities for Dynamics 365 Customer Service are built on Azure Comm
 ### Do I have to buy phone numbers from Azure Communication Services?
 
 No, you don't have to. You can bring phone numbers from another carrier to use in the voice channel using Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+
 If you have already brought numbers from another carrier into Microsoft Teams via Azure direct routing, then you can reuse your SBC and existing telephony infrastructure to bring those numbers into Azure Communication Services for use in the voice channel.  
 
 > [!Note]
