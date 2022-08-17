@@ -36,7 +36,7 @@ The conversation panel in the agent dashboard includes the following call contro
     - A Teams user
     - An external phone number
  
-    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice). You can disable recording from the dashboard.
+    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard.
 - **End**: End the call.
 - **Show number pad**: Open the number pad so you can dial an extension number, when required.
 - **Mark number as spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
