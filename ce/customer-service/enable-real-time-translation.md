@@ -1,5 +1,5 @@
 ---
-title: "Enable translation settings in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Enable real-time translation of conversations  | MicrosoftDocs"
 description: "Steps for enabling language translation for customer chats in the Omnichannel for Customer Service app."
 ms.date: 04/04/2022
 ms.topic: article
@@ -26,7 +26,7 @@ All the languages that are supported in Omnichannel for Customer Service are sup
 
 - You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
 
-- Enable call recording and transcription for the translated voice call transcripts to be displayed. See: [Enable call recording and transcription for voice](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice)
+- Enable call recording and transcription for the translated voice call transcripts to be displayed. More information: [Enable call recording and transcription for voice](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice)
 
 ## Enable real-time translation for agent and customer conversations
 
