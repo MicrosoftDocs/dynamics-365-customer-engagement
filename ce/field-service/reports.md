@@ -2,14 +2,14 @@
 title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
 ms.date: 10/01/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -47,7 +47,7 @@ Let's take a look at what you can see from these work order summary reports.
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    Work orders                                           |    Total number of work orders created for the selected filters.                                                                                                                                                                                                                                          |
 |    Open work orders                                      |    Total number of currently open work orders.                                                                                                                                                                                                                          |
-|    Broken promise (%)                               |    percentage of work orders that were completed within the promise window.                                                                                                                                                                                                                                        |
+|    Broken promise (%)                               |    Percentage of work orders that were not completed within the promise window.                                                                                                                                                                                                                                        |
 |    Mean time to schedule (mins)                          |    Average time to schedule from the time the work order was created to the time of the first booking.                                                                                                                                                                                                        |
 |    Mean time to travel (hrs)                             |    Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders.                                                                                                                                                                                        |
 |    Mean time to complete (hrs)                           |    Average time taken to complete all the bookings for a specific work order from the date the work order was created.                                                                                                                                                                                  |

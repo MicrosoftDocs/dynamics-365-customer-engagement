@@ -58,6 +58,5 @@ Your new Azure resource is connected to Azure Communication Services. You can no
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)   
 [Import phone numbers](voice-channel-sync-from-acs.md)  
-[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "Configure offline data for the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.date: 06/02/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 
