@@ -4,9 +4,9 @@ description: Learn how to set defaults for work orders, bookings, the schedule b
 ms.date: 06/20/2022
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS
@@ -15,16 +15,11 @@ search.app:
 
 The Field Service settings page allows system administrators to set default settings for work orders, bookings, the schedule board, agreements, and more.
 
-1. In the Unified Interface framework app, navigate to **Field Service** > **Field Service Settings**. Or, in earlier web browser versions, navigate to **Field Service** > **Administration** > **Field Service Settings**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot showing location of field service settings in the Unified Interface framework app.](./media/admin-FS-settings-uci.png)
+1. In Field Service, change to the **Settings** area.
   
-2. Fill in the information, as required.  Refer to the following table for a description of the settings.  
+2. Select the settings you want to change and fill in the information, as required.  Refer to the following table for a description of the settings.  
   
-3. Choose **Save**.  
-  
-## Work order and bookings settings 
+## Work order and bookings settings
   
 |   Options     |   Description  |
 | ------------- | -------------- |
