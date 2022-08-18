@@ -106,9 +106,6 @@ Work is routed to these queues that act as a safety net in the following scenari
 - Work item encounters an error when running a route-to-queue rule
 - Work item does not match any route-to-queue rules
 
-> [!Note]
-> You must add any new or existing Azure AD Team members *manually* to the team's default queue.
-
 ### See also
 
 [Create and manage workstreams](create-workstreams.md)  
