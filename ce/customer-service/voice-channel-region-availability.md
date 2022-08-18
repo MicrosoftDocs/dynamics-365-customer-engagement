@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/02/2022
+ms.date: 08/18/2022
 ms.topic: article
 ---
 
@@ -62,9 +62,9 @@ If you need your data to stay within a country or region, see the following tabl
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 
-### Microsoft as a carrier
+### Microsoft calling plans
 
-Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+Microsoft calling plans are available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
 You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Import phone numbers](voice-channel-sync-from-acs.md)
 
@@ -74,7 +74,7 @@ You can also port existing US or toll-free phone numbers. More information: [Por
 
 You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
-In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
+In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
 ## Supported languages and locale codes
 

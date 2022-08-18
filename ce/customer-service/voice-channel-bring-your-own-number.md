@@ -18,7 +18,7 @@ Azure direct routing (preview) enables you to connect your existing telephony in
 ## Prerequisites
 
 - Connect to an Azure Communication Services resource to bring in your carrier via Azure direct routing. You must then set up Azure direct routing for the connected Azure resource.
-- Be familiar with the following concepts.
+- Be familiar with the following concepts:
   - [Azure Communication Services](/azure/communication-services/overview)
   - [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
 - Ensure that the following settings are in place to enable your carrier to work with Azure Communication Services.
