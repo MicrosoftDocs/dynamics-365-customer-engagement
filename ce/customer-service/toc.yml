@@ -610,7 +610,7 @@
         href: voice-channel-block-number.md        
       - name: Handle call overflow for the voice queues
         href: voice-channel-call-overflow.md
-      - name: Configure call recordings, transcripts, and real-time translation
+      - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
