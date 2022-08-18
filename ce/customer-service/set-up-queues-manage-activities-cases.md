@@ -49,7 +49,7 @@ Use queues to categorize and prioritize your activities and cases. You can categ
 By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
 
 > [!Note]
-> You must manually add new Azure AD (Active Directory) Team members to the team's default queue.
+> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
   
 In Customer Service, you can create two types of queues:
 
