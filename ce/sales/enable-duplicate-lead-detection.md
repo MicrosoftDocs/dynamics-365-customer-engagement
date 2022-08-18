@@ -42,7 +42,38 @@ Further, sellers can compare and remove the duplicate leads in the organization.
 
 ## Prerequisites
 
-Before you enable the duplicate detection feature, verify that Dataverse search is enabled in your organization. The AI model that detects duplicate leads uses Dataverse search for better results. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
+Verify the prerequisites that are necessary to administer duplicate detection feature in your Dynamics 365 Sales organization.
+
+- Dataverse search is enabled in your organization. The AI model that detects duplicate leads uses Dataverse search for better results. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)   
+- The following fields are enabled in the **Quick Find All Leads** view for leads, under the **Find by** section: 
+    - `firstname`
+    - `lastname`
+    - `emailaddress1`
+    - `telephone1`
+    - `companyname`  
+
+    To go to the **Quick Find All Leads** view, follow these steps:
+
+    1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+    1. Select an [environment](/power-apps/maker/model-driven-apps/model-driven-app-glossary#environment)
+        
+        > [!NOTE]
+        > It is best practice to create tables inside a custom solution. More information: [Solution (glossary)](/power-apps/maker/model-driven-apps/model-driven-app-glossary#solution)
+
+    1. Expand **Dataverse**, select **Tables**, go to the **All** tab and select the **Lead** table.   
+    1. On the **Lead** table page, under the **Data experiences** section, select **Views**.  If using a custom solution, open the solution, open the table, and then select the **Views** area.   
+    1. On the **Views** page, select the **Quick Find All Leads** view.   
+
+- The following processes are in active state:
+    - CheckForDuplicatesAction
+    - DuplicateDetectionTriggerAction  
+    - GetDuplicatesAction
+
+    To go to the **Processes** page, follow these steps:     
+    1. In the web app, go to **Settings** > **Advanced Settings**.
+    2. On the **Advanced Settings** page, select **Settings** > **Process Center** > **Processes**.
+
+- The security roles who use the feature have at least the read permission for **Process** under **Customization**. More information: [](/power-platform/admin/security-roles-privileges) 
 
 ## Enable the duplicate detection feature
 
@@ -57,6 +88,12 @@ Before you enable the duplicate detection feature, verify that Dataverse search 
     >[!div class="mx-imgBorder"]
     >![The duplicate detection feature is enabled](media/lead-duplicate-detection-feature-enabled.png "The duplicate detection feature is enabled")    
 
+## Trouble in identifying duplicate leads?
+
+If the duplicate detection feature is not working, do the following steps:    
+1. Turn off the feature.
+2. Ensure that the [Prerequisites](#prerequisites) are met.
+3. Turn on the feature.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
