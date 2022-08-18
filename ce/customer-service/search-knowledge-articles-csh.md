@@ -64,7 +64,7 @@ The following are the required View columns:
 - Status
 - Title
 
-Although **Content** is a required View column, it's kept hidden to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
+The **Content** field is hidden on the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
 
 ## Knowledge Base Search control
 
