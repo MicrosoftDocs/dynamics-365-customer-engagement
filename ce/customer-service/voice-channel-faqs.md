@@ -29,7 +29,7 @@ An alternative to Microsoft calling plans is Azure direct routing that allows cu
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
-Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, you'll still be able to deploy and use all the features of the voice channel in Dynamics 365.
+Azure Communication Services is available worldwide, even if it isn't acting as the calling provider in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, you'll still be able to deploy and use all the features of the voice channel in Dynamics 365.
 
 ### What codecs are implemented in the voice channel?
 
