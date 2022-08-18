@@ -307,7 +307,7 @@ For activities, the suggestions are displayed immediately.
 
 ### Why am I not seeing some of the contacts in the suggestions?
 
-The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. Prior to June 2022, the contact suggestions grid showed contacts across all the orgs of the tenant. After June 2022, the suggestions will be specific to your org.  
+The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. 
 
 ### How long will it take for the suggestions to appear after providing consent?
 
