@@ -95,17 +95,17 @@ On the **Knowledge** tab, you can view the following:
 |1.    |     Open filter pane    |
 |2.     |    Sort search results by     |
 |3.    |   Search box     |
-|4.    |     Link this article to the current record (unlink will be displayed when the article is already linked to a record)    |
-|5.    |   Copy      |
-|6.   |   Link this article to a record and send via email      |
-|7.     |    Displays Pop out and Email Content     |
-|8.     |  Rating       |
-|9.   |     Number of views the article has received    |
-|10.    |   Unlink an article that is currently linked to a case      |
-|11.    |    Article date     |
-|12.     |      Status and visibility tags for the article   |
-|13.     |    Confirmation that the record is linked to a case     |
-|14.    |    Info card that displays search term matches from keywords, description, attachments, and any other custom fields.     |
+|4.    |   Unlink this article from the current record      |
+|5.    |  Pop out the article in a new window  |
+|6.   |   Email the article to your customer      |
+|7.     |  Rating       |
+|8.     |  Number of views the article has received     |
+|9.   |   Link this article to the current record (unlink will be displayed when the article is already linked to a record)      |
+|10.    |    Status and visibility tags for the article     |
+|11.    |    Confirmation that the record is linked to a case   |
+|12.     | Info card that displays search term matches from keywords, description, attachments, and any other custom fields.       |
+|13.     |    Article date    |
+|14.    |   Article number     |
 
 > [!NOTE]
 > If the keyword you used matches, the matches are highlighted in yellow, but won't necessarily show up in the first three lines, so you might not see the highlighted text in search results.
