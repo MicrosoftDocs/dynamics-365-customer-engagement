@@ -49,11 +49,11 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 You can now configure the voice workstream settings for the phone number, set up inbound and outbound calling, and also enable recording and SMS services.
 
-### Enable recording and SMS services
+### Enable call recording and SMS services
 
 Azure Communication Services integrates with Azure Event Grid to send real-time event notifications for chat, telephony, SMS, video, and voice-calling events. The Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers. More information: [Event Grid](/azure/event-grid/overview)
 
-So, to enable voice recording and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics, and then subscribe to the specific recording or SMS events by creating Event Grid subscriptions on the Azure portal. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
+So, to enable call recording and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics, and then subscribe to the specific recording or SMS events by creating Event Grid subscriptions on the Azure portal. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
 
 > [!Note]
 > - When you connect your event subscription, you must use the same application ID and directory ID for the app registration as you did when you first connected to your Azure resource. To check which app ID and directory ID you used, select the filter icon in the top right and search for communication provider setting entries.
@@ -82,7 +82,7 @@ So, to enable voice recording and SMS services, you must configure your applicat
    - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
 8. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
 
-For information about enabling call recordings and transcripts for a voice workstream in Omnichannel for Customer Service, see [Configure call recordings and transcripts](voice-channel-configure-transcripts.md).
+For information about enabling call recording and transcription for a voice workstream in Omnichannel for Customer Service, see [Configure call recording and transcription](voice-channel-configure-transcripts.md).
 
 #### Get application and tenant IDs
 
