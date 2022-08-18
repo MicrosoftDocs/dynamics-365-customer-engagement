@@ -11,7 +11,7 @@ ms.topic: article
 
 # FAQ about the voice channel in Omnichannel for Customer Service
 
-This topic contains frequently asked questions (FAQ) about the voice channel.
+This article includes frequently asked questions (FAQ) about the voice channel.
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
