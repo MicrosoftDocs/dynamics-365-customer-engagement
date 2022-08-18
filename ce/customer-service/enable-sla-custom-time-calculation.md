@@ -20,8 +20,6 @@ ms.custom:
 
 # Enable custom time calculation of SLA KPIs
 
-## Introduction
-
 This topic describes how you can override the default time calculation.
 
 Time calculation in service-level agreements (SLAs) calculates the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs), taking into consideration input parameters, such as `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service schedule and the holiday schedule associated with the SLA item.
