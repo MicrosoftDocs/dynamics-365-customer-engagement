@@ -23,9 +23,9 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-Getting registered as a carrier is a legally complex and country-specific process. Azure Communication Services has a multiyear roadmap to become a carrier in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers (Microsoft through Azure Communication Services is the carrier) for those with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
+Getting registered as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear roadmap to provide calling plans in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers for those with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
 
-An alternative to Microsoft as a carrier is Azure direct routing that allows customers to bring their own carrier. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
+An alternative to Microsoft calling plans is Azure direct routing that allows customers to bring their own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
