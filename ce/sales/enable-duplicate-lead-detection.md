@@ -73,7 +73,7 @@ Verify the prerequisites that are necessary to administer duplicate detection fe
     1. In the web app, go to **Settings** > **Advanced Settings**.
     2. On the **Advanced Settings** page, select **Settings** > **Process Center** > **Processes**.
 
-- The security roles who use the feature have at least the read permission for **Process** under **Customization**. More information: [](/power-platform/admin/security-roles-privileges) 
+- The security roles who use the feature have at least the read permission for **Process** under **Customization**. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges) 
 
 ## Enable the duplicate detection feature
 
