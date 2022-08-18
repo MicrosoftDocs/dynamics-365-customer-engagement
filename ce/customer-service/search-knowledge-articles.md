@@ -58,7 +58,7 @@ You can perform independent knowledge base searches using the **Knowledge Search
 
 - View an article 
 - Send an article pop out 
-- Copy and send article URLs (when preconfigured). To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](#configure-knowledge-base-article-urls).
+- Copy and send article URLs (when preconfigured). To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-base-article-urls).
 
 Type a keyword in the search field to search for knowledge articles.
 
