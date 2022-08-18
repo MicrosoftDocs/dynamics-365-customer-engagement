@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 04/26/2022
+ms.date: 08/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,9 +32,9 @@ Queues help you to organize, prioritize, and monitor the progress of your work. 
 
 Queues can be useful in:
   
-- Having a centralized list of pending work that needs attention  
+- Having a centralized list of pending work that needs attention.  
   
-- Sorting tasks by type, or by people assigned to complete them  
+- Sorting tasks by type, or by people assigned to complete them.  
   
 Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
   
@@ -47,6 +47,9 @@ Use queues to categorize and prioritize your activities and cases. You can categ
 - geography  
 
 By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+
+> [!Note]
+> You must manually add new Azure AD (Active Directory) team members to the team's default queue.
   
 In Customer Service, you can create two types of queues:
 

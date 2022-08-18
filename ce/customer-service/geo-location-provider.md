@@ -56,7 +56,7 @@ You can create a geo location provider record in the Customer Service admin cent
 
 If you're using Customer Service admin center or Omnichannel admin center app, do the following:
 
-1. In Omnichannel admin center, go to the chat channel settings of the chat widget in which you want to enable geo location.
+1. Go to the chat channel settings of the chat widget in which you want to enable geo location.
 
 2. On the **Behaviors** tab, for **Customer location detection**, set the toggle to **On**.
 
