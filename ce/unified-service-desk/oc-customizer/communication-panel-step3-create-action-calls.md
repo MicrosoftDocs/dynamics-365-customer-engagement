@@ -335,17 +335,6 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | CopyToContext | 
   | General | Data | contactIds = \[\[contact\]+\] |
 
-## Omnichannel Fetch Context Contact
-
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Omnichannel Fetch Context Contacts |
-  | General | Order | 3 |
-  | General | Hosted Control | CRM Global Manager |
-  | General | Action     | DoSearch | 
-  | General | Data | ContextContactSearch <br> global=True |
-  | Advanced | Condition |  $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
-
 ## Omnichannel Save Context Entities
 
   | Tab | Field | Value |
@@ -366,7 +355,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | ClearEntityList | 
   | General | Data | global=True |
 
-## Omnichannel Fetch Context Contact
+## Omnichannel Fetch Context Contacts
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
