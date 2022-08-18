@@ -1,6 +1,6 @@
 ---
 title: "Preview features in trial | MicrosoftDocs"
-description: "Learn about the features available in your Sales trial app and how to use them."
+description: "Learn about the features available in your Dynamics 365 Sales trial app and how to use them."
 ms.date: 10/01/2021
 ms.topic: article
 author: lavanyakr01
