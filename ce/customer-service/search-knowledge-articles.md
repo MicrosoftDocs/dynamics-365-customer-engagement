@@ -182,9 +182,11 @@ In this view mode, you can perform actions such as linking the knowledge article
 >
 > - The **Copy Link**, **Email Link**, and **Email** options can be used only for published or expired articles.
 
-### View the knowledge article as a pop out 
+### View the knowledge article on a new window 
 
-In Customer Service Hub, in the **Knowledge Search** reference pane, when you select the pop-out option for an article, the article opens in a new window.
+In Customer Service Hub, in the **Knowledge Search** reference pane, a pop-out option is displayed for every search article result. When you select the pop-out option for an article, the article opens in a new window.
+
+:::image type="content" source="media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
 
 ### View search results from external sources
 
