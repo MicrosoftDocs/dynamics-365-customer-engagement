@@ -45,6 +45,8 @@ The following are required view columns:
 - Status
 - Title
 
+Although Content is a required View column, it's kept hidden to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
+
 ### Customer Service workspace and Omnichannel for Customer Service
 
 - The app side pane and knowledge search must be enabled in Agent experience profiles.
@@ -179,6 +181,10 @@ In this view mode, you can perform actions such as linking the knowledge article
 > - The **Copy Link** and **Email Link** options are available only if your organization is using an external portal to publish the knowledge articles and your administrator selected the **Use an external portal** checkbox during embedded knowledge search setup. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
 >
 > - The **Copy Link**, **Email Link**, and **Email** options can be used only for published or expired articles.
+
+### View the knowledge article as a pop out 
+
+In Customer Service Hub, in the **Knowledge Search** reference pane, when you select the pop-out option for an article, the article opens in a new window.
 
 ### View search results from external sources
 
