@@ -196,21 +196,21 @@ For this scenario, the SLA invokes the custom time calculation API to calculate 
 ```
 private double CalculateElapsedTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime casePausedTime, DateTime caseResumedTime, int existingElapsedTime)
 {
-if (caseRecord.Attributes.Contains("new_country"))
-{
-if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 0)
-{
-// fetch IST id
-IST_CALENDAR = FetchCalendar("IST_CALENDAR", _service);
-calendarId = IST_CALENDAR;
-}
-else if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 1)
-{
-// fetch PST  id
-PST_CALENDAR = FetchCalendar("PST_CALENDAR", _service);
-calendarId = PST_CALENDAR;
-}
-}
+    if (caseRecord.Attributes.Contains("new_country"))
+    {
+        if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 0)
+        {
+        // fetch IST id
+        IST_CALENDAR = FetchCalendar("IST_CALENDAR", _service);
+        calendarId = IST_CALENDAR;
+        }
+        else if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 1)
+        {
+        // fetch PST  id
+        PST_CALENDAR = FetchCalendar("PST_CALENDAR", _service);
+        calendarId = PST_CALENDAR;
+        }
+    }
 
 	// use OOB SLATimeCalculation Custom Action to do actual calculation_
 	OrganizationRequest requestTimeCalculation = new OrganizationRequest("msdyn_SLATimeCalculation");
