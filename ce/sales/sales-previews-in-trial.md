@@ -38,7 +38,7 @@ The Sales accelerator in Dynamics 365 helps you to:
 - Define sequences for different scenarios that your sales team is likely to encounter. This helps sales teams to be consistent as they know the steps they need to take to move the deal forward. 
 - Create rules to automatically assign leads and opportunities to the sellers. 
 
-Watch this video to know how you can used the Sales to accelerate your sales :
+Watch this video to know how you can use the Sales to accelerate your sales:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
 
 Want to learn more? Read these articles:
@@ -55,7 +55,7 @@ Project accurate revenue with sales forecasting. A forecast helps your organizat
 Watch this video to get a sneak peek into forecasting:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou?autoplay=true]
 
-For more information, refer to:
+For more information, see:
 - [Configure forecasts in your organization](configure-forecast.md)
 - [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
 
