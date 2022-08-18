@@ -20,7 +20,7 @@ Dynamics 365 Sales trial includes the following features that help you manage yo
 - [Early access features](#early-access-features)
 
 > [!IMPORTANT]
-> As part of the trial, you'll get access to the Sales Trial app. In the documentation links listed in this article, assume any references to the Sales Hub app as Sales Trial app. 
+> As part of the trial, you'll get access to the Sales Trial app. In the documentation links in this article, assume any references to the Sales Hub app as the Sales Trial app. 
 
 ## Pipeline management
 
@@ -33,12 +33,12 @@ Want to explore more? Read the article:
 
 ## Sales accelerator
 
-Accelerate sales by,
-- prioritizing the customer list quickly by using an intelligent work list. The work list helps you reach out to the next best lead or opportunity by displaying relevant sales information and customer context. 
-- defining sequences for different scenarios that your sales team is likely to encounter. This helps sales teams to be consistent as they know the steps they need to take to move the deal forward. 
-- creating rules to automatically assign leads and opportunities to the sellers. 
+The Sales accelerator in Dynamics 365 helps you to: 
+- Prioritize the customer list quickly by using an intelligent work list. The work list helps you reach out to the next best lead or opportunity by displaying relevant sales information and customer context. 
+- Define sequences for different scenarios that your sales team is likely to encounter. This helps sales teams to be consistent as they know the steps they need to take to move the deal forward. 
+- Create rules to automatically assign leads and opportunities to the sellers. 
 
-Watch this video to get a sneak peek into the sales accelerator:
+Watch this video to know how you can used the Sales to accelerate your sales :
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
 
 Want to learn more? Read these articles:
@@ -55,7 +55,7 @@ Project accurate revenue with sales forecasting. A forecast helps your organizat
 Watch this video to get a sneak peek into forecasting:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou?autoplay=true]
 
-Want to explore more? Read these articles:
+For more information, refer to:
 - [Configure forecasts in your organization](configure-forecast.md)
 - [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
 
@@ -72,18 +72,18 @@ Want to explore more? Read these articles:
 
 ## Teams collaboration
 
-Engage in a Teams chat conversation from within your trial app. While you're working on a sales record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching context.
+Engage in a Teams chat conversation from within your trial app. While working on a sales record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching contexts.
 
-Watch this video to get a sneak peek into Teams collaboration in Dynamics 365:
+The following video provides a quick overview of the Teams collaboration feature in Dynamics 365:
 > [!VIDEO https://www.youtube.com/embed/h7BjrM2UkMs]
 
-Want to explore more? Read these articles:
+Want to know more? Read these articles:
 - [Configure Microsoft Teams chat in Sales Hub (preview)](teams-integration/enable-teams-chat.md)
 - [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md)
 
 ## Mobile app
 
-The Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers use the time that they spend on the road while traveling to meet customers.
+The Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers use the time that they spend traveling on the road to meet customers.
 
 Watch this video to get a sneak peek into the mobile experience:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG]
@@ -95,4 +95,4 @@ Want to explore more? Read these articles:
 
 ## Early access features
 
-As part of your trial, you also get access to some of the early access (preview) features that you can play around with. These features will have the Preview label in the user interface. For example, the Teams collaboration feature is in preview and you'd see that the documentation and UI will have preview labels and disclaimers about a preview feature. As an example, see the [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md) article.
+As part of your trial, you also get access to some of the early access (preview) features that you can play around with. These features will have the Preview label in the user interface. For example, the Teams collaboration feature is in preview, and you would see that the documentation and UI will have preview labels and disclaimers about a preview feature. As an example, see the [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md) article.
