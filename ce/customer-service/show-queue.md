@@ -1,7 +1,7 @@
 ---
 title: "Show customers their position in a queue | MicrosoftDocs"
 description: "Learn how to show customers their queue position for a chat widget in Omnichannel for Customer Service."
-ms.date: 05/04/2020
+ms.date: 08/17/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -10,16 +10,13 @@ manager: shujoshi
 
 # Show customers their position in a queue
 
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Overview
 
 As an administrator, you can turn on the feature that displays a customer’s position in the queue when they are waiting to chat with an agent. This feature can help to set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected handle times (for example, new issues or new agents). Displaying a customer’s queue position can help the customer decide whether to wait in the queue or come back later when the wait time is shorter.
 
 When this feature is turned on, a customer who submits a request when other customers already are waiting is placed in the queue and notified with the following message: **People ahead of you: \<n\>.** 
 
-The number of customers waiting to chat counts down each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message: **You’re next in line…**.
+The number of customers waiting to chat gets updated each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message: **You’re next in line…**.
 
 > [!NOTE]
 >  - The queue position is shown only when there is a queue of customers waiting (for example, when no agents are currently available).
@@ -30,7 +27,7 @@ The number of customers waiting to chat counts down each time a customer in line
 
 To configure the queue position setting:
 
-1.	Sign in to Omnichannel Administration.
+1.	Sign in to Omnichannel admin center.
 
 2.	Go to **Channels** > **Chat**.
 
