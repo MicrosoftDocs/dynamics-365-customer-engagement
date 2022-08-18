@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/16/2022
+ms.date: 08/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,7 +23,27 @@ You can search knowledge articles through Customer Service Hub, Customer Service
 
 ## Prerequisites
 
-Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
+Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list.
+
+Dataverse search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+
+> [!NOTE]
+> An admin can configure the knowledge article quick find view columns list by navigating to Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns.
+
+The following are required view columns:
+
+- Article Public Number
+- Content
+- Created On
+- Keywords
+- Knowledge Article Views
+- Language
+- Major Version Number
+- Minor Version Number
+- Modified On
+- Rating
+- Status
+- Title
 
 ### Customer Service workspace and Omnichannel for Customer Service
 
