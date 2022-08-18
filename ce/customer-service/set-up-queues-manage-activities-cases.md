@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 04/26/2022
+ms.date: 08/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,9 +32,9 @@ Queues help you to organize, prioritize, and monitor the progress of your work. 
 
 Queues can be useful in:
   
-- Having a centralized list of pending work that needs attention  
+- Having a centralized list of pending work that needs attention.  
   
-- Sorting tasks by type, or by people assigned to complete them  
+- Sorting tasks by type, or by people assigned to complete them.  
   
 Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
   
