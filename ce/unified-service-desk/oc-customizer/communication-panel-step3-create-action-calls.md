@@ -366,7 +366,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | ClearEntityList | 
   | General | Data | global=True |
 
-## Omnichannel Fetch Context Contacts
+## Omnichannel Fetch Context Contact
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
