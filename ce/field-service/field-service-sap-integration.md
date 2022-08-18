@@ -2,14 +2,14 @@
 title: "Dynamics 365 Field Service and SAP integration | MicrosoftDocs"
 description: Learn all about Dynamics 365 Field Service and SAP integration
 ms.date: 11/26/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -20,7 +20,7 @@ search.app:
 
 Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order scheduling system to your ERP system.
 
-Microsoft offers guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. Integration is done by connecting SAP to the [Common Data Model](/common-data-model/), which Field Service is built on, along with other Dynamics 365 modules. Find more details in the [Microsoft consulting services GitHub repository](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry), which hosts materials created and updated by Microsoft, but open to ISVs and SIs to improve and build upon as part of the Open Data Initiative.
+Microsoft offers guidance for integrating Field Service with the SAP Plant Maintenance and SAP Industry-Specific Utility (IS-U) modules. Integration is done by connecting SAP to the [Common Data Model](/common-data-model/), which Field Service is built on, along with other Dynamics 365 modules. Find more details in the [Microsoft consulting services GitHub repository](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry), which hosts materials created and updated by Microsoft, but open to ISVs and SIs to improve and build upon as part of the Open Data Initiative.
 
 The materials provide details on three main aspects of integrating Field Service with SAP:
 

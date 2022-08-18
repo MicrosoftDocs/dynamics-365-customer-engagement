@@ -4,14 +4,10 @@ description: Learn about how to enable scheduling for any entity in Dynamics 365
 ms.date: 09/30/2017
 
 ms.topic: get-started-article
-ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
-ms.reviewer: krbjoran
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 14
+ms.reviewer: mhart
 search.audienceType: 
   - admin
   - customizer
@@ -28,6 +24,7 @@ searchScope:
   - Field Service
   - Project Service
 ---
+
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 
 Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   

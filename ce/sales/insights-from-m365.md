@@ -18,7 +18,7 @@ When disabling these insights, it can take up to 24 hours for the data to be rem
 
 The following sections include an incomplete list of Dynamics 365 applications using this data and are subject to change in the future.
  
-## Insights for users 
+## Insights for each user 
 
 A user’s Microsoft 365 data, and insights derived from this data, are visible only to the user running the Dynamics 365 application. 
 
@@ -33,6 +33,10 @@ Aggregated insights are generated based on Microsoft 365 data belonging to membe
 **Type:** De-identified and aggregate 
 
 **Results visible:** Tenant wide 
+
+**Applications under insights for the org:**
+
+- Dynamics 365 Customer Insights: Office Enrichment 
 
 **Example and Scenario:** Dynamics 365 Customer Insights: Office Enrichment 
 

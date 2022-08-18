@@ -3,12 +3,12 @@ title: "Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/1/2022
-ms.reviewer: krbjoran
+ms.date: 08/15/2022
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -16,20 +16,18 @@ search.app:
 ---
 # Turn on auto geocoding to calculate estimated travel time (Field Service)
 
-With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], it's important to geocode each service account record with latitude and longitude values so that when you generate work orders for that service location, the work order inherits the coordinates and the system can calculate estimated travel time when attempting to schedule the work order to a resource.  
+With Dynamics 365 Field Service, it's important to geocode each service account record with latitude and longitude values so that when you generate work orders for that service location, the work order inherits the coordinates and the system can calculate estimated travel time when attempting to schedule the work order to a resource.  
   
- When you turn on the auto geocode system setting, the system will attempt to automatically add the appropriate latitude and longitude values based on the account's address.  
+When you turn on the auto geocode system setting, the system will attempt to automatically add the appropriate latitude and longitude values based on the account's address.  
   
 > [!IMPORTANT]
->  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
->   
-> 1. From the main menu, go to **Resource Scheduling** > **Administration**.  
-> 2. Select **Scheduling parameters**.  
-> 3. Open record and scroll down to the **Resource Scheduling Optimization** section.  
-> 4. On the **Connect to Maps** field, choose **Yes**.  
-> 5. Accept terms and save the record.  
-  
-<a name="BKMK_TurnOnAutoGeocoding"></a>
+> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
+>
+> 1. Open the **Resource Scheduling** app.
+> 1. Change to the Settings area and go to **Scheduling** > **Administration**.  
+> 1. Select **Scheduling parameters**.  
+> 1. On the General tab, set the **Connect to Maps** field to **Yes**.  
+> 1. Accept terms and **Save** your changes.  
 
 ## Turn on automatic geocoding  
   
@@ -38,10 +36,8 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 2.  Under the **Other** section, go to **Auto Geo Code Addresses**, and then select **Yes**.  
   
 3.  Select the **Save** button in the lower right corner.  
-  
-<a name="BKMK_GeocodeWorkOrderAddress"></a>
 
-> [!Note]
+> [!NOTE]
 > When geocoding an address, the only street field used is **street1**. Additional information like apartment number in **street2** and **street3** will be ignored.
 
 ## Geocode the address on a work order  
@@ -54,7 +50,6 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
   
 4. On the map dialog box, make sure you have the correct address, and then select **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
   
-<a name="BKMK_GeocodeAcctAddress"></a>   
 ## Geocode the address on an account record  
   
 1. Open an account record  
@@ -72,6 +67,5 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [User's Guide](../field-service/user-guide.md)<br>
  [Extend Universal Resource Scheduling actions to use your preferred geospatial data provider](../common-scheduler/developer/use-preferred-geospatial-data-provider.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

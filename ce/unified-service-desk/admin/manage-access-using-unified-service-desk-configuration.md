@@ -76,13 +76,13 @@ You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
   
 9. Select a tab. For example, **Hosted Controls, Events and Actions**.
 
-10. Select the more commands (...) in the component section, and then select **Add Existing <component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**. If a record doesn’t exist, select **+ New** to create an instance of the component you want to add. When you select **+ New**, a confirmation dialog appears. Ensure that you've saved the record before leave the page. Now, when you select **OK**, the component page appears.
+10. Select the more commands (...) in the component section, and then select **Add Existing \<component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**. If a record doesn’t exist, select **+ New** to create an instance of the component you want to add. When you select **+ New**, a confirmation dialog appears. Ensure that you've saved the record before leave the page. Now, when you select **OK**, the component page appears.
   
    ![Add existing component record.](../../unified-service-desk/unified-interface/media/usd-configuration-2.PNG "Add existing component record")  
   
 11. After you create the component, select **Configuration** in the site map and select the record for which you wanted to add the component.
 
-12. Select the tab and select  the more commands (...) in the component section, and then select **Add Existing <component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**.
+12. Select the tab and select  the more commands (...) in the component section, and then select **Add Existing \<component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**.
   
 13. Select **Save** ![Auto save button.](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.
 

@@ -68,8 +68,7 @@ The following table lists the components of the smart assist card for AI-suggest
 | 5 | When selected, links to the current active case or removes the link to the similar case. |
 | 6 | When selected, displays information on the keywords that were used by the AI model to match the article. |
 | 7 | Status of the similar case. |
-| 8 | The actions that can be performed when you select more commands. 
-||||
+| 8 | The actions that can be performed when you select more commands. |
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 

@@ -2,7 +2,7 @@
 title: "Use the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to use the Field Service (Dynamics 365) mobile app.
 ms.date: 04/14/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
 applies_to: 

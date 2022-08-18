@@ -2,15 +2,15 @@
 title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
 ms.date: 01/19/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app:
 - D365CE

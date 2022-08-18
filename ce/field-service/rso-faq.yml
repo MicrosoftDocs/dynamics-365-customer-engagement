@@ -2,12 +2,12 @@
 metadata:
   title: FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service
   description: Find answers to common issues with Resource Scheduling Optimization in Dynamics 365 Field Service
-  author: FieldServiceDave
-  ms.reviewer: krbjoran
+  author: m-hartmann
+  ms.reviewer: mhart
   ms.date: 09/07/2021
   ms.topic: faq
   ms.subservice: resource-scheduling-optimization
-  ms.author: daclar
+  ms.author: mhart
   search.app: 
     - D365CE
     - D365FS
