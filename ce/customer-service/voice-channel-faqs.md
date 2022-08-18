@@ -15,7 +15,7 @@ This topic contains frequently asked questions (FAQ) about the voice channel.
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
-Yes, features such as sentiment analysis and agent suggestions for similar cases or knowledge articles work with the voice channel.
+Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
 
 ### Is the voice channel PCI DSS compliant?
 
