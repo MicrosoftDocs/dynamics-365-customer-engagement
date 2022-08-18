@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -196,24 +196,21 @@ For this scenario, the SLA invokes the custom time calculation API to calculate 
 ```
 private double CalculateElapsedTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime casePausedTime, DateTime caseResumedTime, int existingElapsedTime)
 {
-	OrganizationResponse customizedTimeCalculationResponse;
-
-	// Step 1: fetch the Case Entity record	
-	Entity caseRecord = FetchCaseRecord(entityName, regardingId);
-
-	// Example 1: Override calendar at runtime: Choose Calendar based on any custom logic
-	if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 0)
-	{
-		// fetch IST id
-		IST_CALENDAR = FetchCalendar("IST_CALENDAR", _service);
-		calendarId = IST_CALENDAR;
-	}
-	else if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 1)
-	{
-		// fetch PST  id
-		PST_CALENDAR = FetchCalendar("PST_CALENDAR", _service);
-		calendarId = PST_CALENDAR;
-	}
+if (caseRecord.Attributes.Contains("new_country"))
+{
+if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 0)
+{
+// fetch IST id
+IST_CALENDAR = FetchCalendar("IST_CALENDAR", _service);
+calendarId = IST_CALENDAR;
+}
+else if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 1)
+{
+// fetch PST  id
+PST_CALENDAR = FetchCalendar("PST_CALENDAR", _service);
+calendarId = PST_CALENDAR;
+}
+}
 
 	// use OOB SLATimeCalculation Custom Action to do actual calculation_
 	OrganizationRequest requestTimeCalculation = new OrganizationRequest("msdyn_SLATimeCalculation");
