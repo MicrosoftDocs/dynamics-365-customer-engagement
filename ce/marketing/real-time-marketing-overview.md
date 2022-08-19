@@ -44,4 +44,4 @@ Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural lan
 To read about all of the new features, check out our [2021 release wave 1 plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/planned-features). See a [demo of the real-time marketing features in action](https://youtu.be/8yfIwz3Ue3Q?t=961) from Microsoft Ignite 2021.
 
 > [!NOTE]
-> Real-time customer journey orchestration features are available in the United States, Europe, Asia Pacific, the United Kingdom, Australia, Canada, Japan, India, Brazil and the United Arab Emirates. Availability in other geographies will be communicated at a later date.
+> Real-time customer journey orchestration features are available in the United States, Europe, Asia Pacific, United Kingdom, Australia, Canada, Japan, India, Brazil and United Arab Emirates regions. Availability in other geographies will be communicated at a later date.
