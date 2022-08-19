@@ -30,7 +30,7 @@ The Who knows whom feature helps your sales organization quickly identify collea
 
 ## Prerequisite
 
-- - [Turn on premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- [Turn on premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 - [Turn on who knows whom in relationship intelligence](enable-ri.md).
 
 
@@ -46,7 +46,7 @@ The Who knows whom feature helps your sales organization quickly identify collea
 
     :::image type="content" source="media/wkw_mail_to_introduction.png" alt-text="Screenshot of an example introduction email":::
 
-    [Learn how to create an email template]    (/powerapps/user/email-template-create).  
+    [Learn how to create an email template](/powerapps/user/email-template-create).  
 
 6. Select **Save**.
 After you enable who knows whom, you must complete the [next steps](#next-steps) for the feature to be fully functional.  
