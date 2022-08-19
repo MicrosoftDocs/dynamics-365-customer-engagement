@@ -1,7 +1,7 @@
 ---
 title: Configure relationship analytics and health
 description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
-ms.date: 08/11/2022
+ms.date: 08/19/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -25,21 +25,21 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 
 ## Prerequisite
 
-- Ensure that Relationship intelligence and who knows whom are enabled. More information [Enable relationship intelligence](enable-ri.md)
+- [Enable relationship analytics](enable-ri.md)
 
 
-## To configure relationship analytics and health
+## Configure relationship analytics
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
 3. Under **Relationship insights**, select **Analytics and Health**.  
+        :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
     When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
-1. (Optional) Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from emails and data stored in Dynamics 365.
+1. Turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from emails and data stored in Dynamics 365.
 
-    :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
-1. To show the relationship health score in opportunities, views, and charts, turn on **Relationship Health**. For more information on relationship health, see [Use relationship analytics to gather KPIs](relationship-analytics.md).
+1. Turn on **Relationship Health** to show the relationship health score in opportunities, views, and charts.
 
     >[!NOTE]
     >You can turn off this option if you don't want to show the score. However, relevant health data is still collected.
@@ -54,18 +54,16 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 
     The value you select influences the expectation of more recent frequent communications in the health score. Less frequent communication reduces the expectation. More frequent communication increases it.
 
-    :::image type="content" source="./media/relationship-analytics-communication-frequency.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Communication Frequency option shown.":::
-
 1. Under **Health score grading**, set the range of health scores to grade opportunities. To change the default values, point to the minimum value in the range and select the up or down arrow or type a new value.
 
     When the health score is calculated, the opportunities in your organization's pipeline are graded as Good, Fair, or Poor, according to the ranges you defined. Grading can take up to 24 hours.
 
     If you change a grade's minimum value, the adjacent grade's maximum value changes automatically with it. For example, if you change the minimum value for Good to *50*, the maximum value for Fair changes to *49*.
 
-    :::image type="content" source="./media/relationship-analytics-health-score-grading.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Health score grading settings shown.":::
-
 1. Select **Save**.
-    Relationship analytics is now enabled and configured for your organization. To view the analytics, see [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md).
+    Relationship analytics is now enabled and configured for your organization. 
+
+For more information about how to view the analytics, see [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md).
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

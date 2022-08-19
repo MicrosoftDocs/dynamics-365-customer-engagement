@@ -1,7 +1,7 @@
 ---
-title: "msdyn_WKWDeleteGDPRData custom action"
-description: "Understand the parameters, and web API calls for deleting a user's Microsoft 365 data stored in Dynamics 365."
-ms.date: 08/11/2022
+title: msdyn_WKWDeleteGDPRData custom action
+description: Understand the parameters, and web API calls for deleting a user's Microsoft 365 data stored in Dynamics 365.
+ms.date: 08/19/2022
 ms.topic: topic
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,11 +9,12 @@ manager: shujoshi
 ---
 # WKWDeleteGDPRData custom action 
 
-To comply with the GDPR requirements, you may need to delete a user's data after they leave the organization or for other reasons. This includes data collected by Dynamics 365 from Microsoft 365 to provide business insights.  
+To comply with the GDPR requirements, you may need to delete a user's data after they leave the organization or for other reasons. This includes data that Dynamics 365 collects from Microsoft 365 to provide business insights.  
 
-As a developer, use this reference documentation to understand how to delete a user's Microsoft 365 data stored in Dynamics 365.
+As a developer, use WKWDeleteGDPRData API to delete a user's Microsoft 365 data that's stored in Dynamics 365.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -34,7 +35,7 @@ As a developer, use this reference documentation to understand how to delete a u
 
 ### Sample Request
 
-Given below is a sample deletion request.
+The following snippet includes a sample request to delete users.
 
 ```html
 POST {orgUrl}/api/data/v9.1/msdyn_WKWDeleteGDPRData
@@ -45,7 +46,7 @@ POST {orgUrl}/api/data/v9.1/msdyn_WKWDeleteGDPRData
 
 ## Response
 
-The following response is returned after the request is submitted successfully: 
+If the request is submitted successfully, the following response is returned:  
 
 HTTP 204 
 

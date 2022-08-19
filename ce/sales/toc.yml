@@ -446,6 +446,8 @@
               href: manage-playbook-templates.md
     - name: Relationship intelligence
       items: 
+        - name: Relationship intelligence overview
+          href: ri-overview.md
         - name: Enable relationship intelligence
           href: enable-ri.md
         - name: Configure relationship analytics and health
