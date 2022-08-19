@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/18/2022
+ms.date: 08/19/2022
 ms.topic: article
 ---
 
@@ -44,10 +44,10 @@ If you need your data to stay within a country or region, see the following tabl
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
 |United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
-|Canada **<sup>1</sup>** |August 2022 | To be announced  |
-|India **<sup>1</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>1</sup>** | August 2022 | To be announced|
-|Japan **<sup>1</sup>** | August 2022 | To be announced  |
+|Canada **<sup>1, 2</sup>** |August 2022 | To be announced  |
+|India **<sup>1, 2</sup>** | August 2022 | To be announced  |
+|Switzerland **<sup>1, 2</sup>** | August 2022 | To be announced|
+|Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
@@ -60,7 +60,8 @@ If you need your data to stay within a country or region, see the following tabl
 
 
 > [!NOTE]
-> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
+> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.<br>
+> **<sup> 2</sup>** The geographic location won't have Power Virtual Agents support.
 
 ### Microsoft calling plans
 
