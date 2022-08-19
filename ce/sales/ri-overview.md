@@ -23,7 +23,7 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
 
 :::image type="content" source="media/relationship-health-details-grid-view.png" alt-text="A screenshot of the health score in opportunity forms.":::
 
-For more information on how the relationship analytics and health scores appear for sellers, see [Use relationship analytics to gather KPIs](relationship-analytics.md). For more information on configuring this feature, see [Configure relationship analytics and health](../GitHub/dynamics-365-customer-engagement-pr/ce/sales/configure-relationship-analytics.md)
+For more information on how the relationship analytics and health scores appear for sellers, see [Use relationship analytics to gather KPIs](relationship-analytics.md). For more information on configuring this feature, see [Configure relationship analytics and health](configure-relationship-analytics.md)
 
 ## Who knows whom
 
@@ -33,4 +33,4 @@ As a sales representative, you often interact with leads whom you've never talke
 
 Who knows whom relationships are calculated from the communication and collaboration patterns of users in your Microsoft Exchange environment. This data helps connect you to others users within your Microsoft Exchange environment who can help make a connection. Contacts or leads who are outside of your Microsoft Exchange organization can be queried for and, in some cases, users internal to your Microsoft Exchange organization can also be queried for. For example, this is possible if a user within your Microsoft Exchange organization has added an internal user’s email address to their Microsoft Exchange address book.
 
-For more information on how sellers can use who knows who, see [How to get introduced to leads or contacts](../GitHub/dynamics-365-customer-engagement-pr/ce/sales/who-knows-whom.md). For more information on configuring this feature, see [Configure who knows whom](../GitHub/dynamics-365-customer-engagement-pr/ce/sales/configure-who-knows-whom.md).
+For more information on how sellers can use who knows who, see [How to get introduced to leads or contacts](who-knows-whom.md). For more information on configuring this feature, see [Configure who knows whom](configure-who-knows-whom.md).
