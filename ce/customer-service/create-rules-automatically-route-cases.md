@@ -30,7 +30,7 @@ Routing rules are solution-aware entities. You can export routing rules from one
 
 ## Add routing rulesets site map for custom apps
 
-In custom apps, you mightn't have routing rulesets in your site map. To add routing rulesets to the site map, follow these steps:
+In custom apps, you might not have routing rulesets in your site map. To add routing rulesets to the site map, follow these steps:
 
 1. Sign in to https://*`<org>`*.dynamics.com/apps, and go to App Designer.
 
