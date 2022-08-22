@@ -8,7 +8,7 @@ ms.date: 08/22/2022
 ms.topic: article
 ---
 
-# Use the automation dictionary to pass data parameter keys
+# Use automation dictionary to pass data parameter keys
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -81,8 +81,8 @@ The context data parameter from the first macro action are as follows:
 - Page Type
 - Tab Id
 
-    > [!NOTE]
-    > The context data parameters from other macro actions are specific to macros, and aren't applicable to templates.
+> [!NOTE]
+> The context data parameters from other macro actions are specific to macros, and aren't applicable to templates.
 
 ## Automation dictionary formats to pass data parameter keys
 
@@ -112,10 +112,10 @@ Macros and agent scripts support the following slugs:
 | `${visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `${visitorDevice}` | The device of the customer who initiated the conversation. |
 | `${entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
-| `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../customer-service/entity-channel.md). |
+| `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. More information: [Entity records routing](../customer-service/entity-channel.md) |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+| `${<name of the pre-conversation survey questions>}` | All the pre-conversation survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 > [!NOTE]
 > Only the `${anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
@@ -134,7 +134,7 @@ The `${Slug}` parameter format that retrieves the context from the channel provi
 
 **Productivity automation context**
 
-When you want to execute a slug in the productivity automation context, which is used to perform operations related to model-driven apps in Dynamics 365, use the ${</slug/>} format. For example: `${customerName}` 
+When you want to execute a slug in the productivity automation context, which is used to perform operations related to model-driven apps in Dynamics 365, use the ${</slug/>} format. For example: `${customerName}`
 
 **Session connector context**
 
@@ -152,25 +152,20 @@ Slugs that are available for session context include:
 
 When you want to execute a slug in the Omnichannel for Customer Service context, you must use the `${$oc.<slug>}` format. For example: `${$oc.customerName}`
 
-> [!Note]
-> The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters provide context data based on the current session and the anchor tab or the current tab in focus.
-> The following are the supported attribute types:
->
->   - EntityName
->   - EntityId
->
->      **Examples:**
->
->      `Session.CurrentTab.<EntityName>`
->
->      `Session.CurrentTab.<EntityId>`
->
->      `Session.AnchorTab.<EntityName>`
->
->      `Session.AnchorTab.<EntityId>`
+The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters provide context data based on the current session and the anchor tab or the current tab in focus.
+The following are the supported attribute types:
 
-   > [!NOTE]
-   > The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters are only applicable to macros and aren't applicable to templates.
+- EntityName
+- EntityId
+
+**Examples:**
+- `Session.CurrentTab.<EntityName>`
+- `Session.CurrentTab.<EntityId>`
+- `Session.AnchorTab.<EntityName>`
+- `Session.AnchorTab.<EntityId>`
+
+> [!NOTE]
+> The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters are only applicable to macros and aren't applicable to templates.
 
 #### Slugs for templates
 
@@ -206,26 +201,24 @@ The OData query format is:
 **Examples:**
 
 - `{$Odata.account.name.?$filter=accountid eq '{customerRecordId}'}`
-
 - `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
-
 - `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
 
 ### Static values
 
-These are hard-coded values that you update as your business requirements dictate. For every hard-coded attribute you chose, follow the format type for the particular attribute.
+These are hard-coded values that you update based on your business requirements. For every hard-coded attribute you choose, follow the format type for the particular attribute.
 
 **Example (Macro):**
 
 You want a case title to always be appended with **Contoso -**. You use the **Open a new form to create a record** action with following fields.
 
-   | Parameter | Value |
-   |----------------------|----------------------------|
-   | Entity Logical Name | incident | 
-   | Attribute Name | Case title |
-   | Attribute value | `Contoso - {caseTitle}` |
+| Parameter | Value |
+|----------------------|----------------------------|
+| Entity Logical Name | incident | 
+| Attribute Name | Case title |
+| Attribute value | `Contoso - {caseTitle}` |
 
-   Here, **Contoso -** is the hard-coded static value.
+Here, **Contoso -** is the hard-coded static value.
 
 **Example (Templates):**
 
