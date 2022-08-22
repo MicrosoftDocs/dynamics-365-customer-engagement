@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 08/04/2022
+ms.date: 08/23/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -105,36 +105,6 @@ In this scenario, after a bot has transferred a conversation to a human agent, t
     - The Omnichannel Set context event
 9. The system triggers Bot B to send a greeting message.
 10. The customer now chats with Bot B.
-
-## Configure context variables for the bot
-
-When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. Context variables set by the bot can also be passed to Omnichannel for Customer Service when the bot escalates to the human agent. For example, you can pass the ticketnumber for the case created by the bot to Omnichannel for Customer Service to link the case and load the customer summary for the agent to view.
-
-For information on the context variables that can be configured, see [Context variables for bots](context-variables-for-bot.md).
-
-> [!IMPORTANT]
-> Ensure the following:
->
-> - Names are not changed and used "as is" when you author flows.
-> - The value that'll be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the human agent.
-
-In Power Virtual Agents, do the following:
-
-1. On the **Topics** page, select **New topic**.
-2. On the **Setup** tab, enter a name and description, and save the topic.
-3. Select **Go to authoring canvas**.
-4. Select **Add node**, choose the **Ask a question** action.
-5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see the information in the table in [context variables](context-variables-for-bot.md).
-6. Edit **Save response as**, and in the **Variable Properties** dialog, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected. The **External sources can set values** option is applicable only for getting the context variable.
-    > ![Configure context variable in a topic.](media/Configure-bot-context-variable.png "Configure context variable in a topic")
-
-7. Save and publish the changes.
-
-At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
-
-You can also configure the **Transfer to agent** node in the Power Virtual Agents topic to send a private message with relevant context variables to the live agent during the escalation.
-
-The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. For the complete list, see [Contextual variables available upon hand off](/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off).
 
 ### Limitations
 
