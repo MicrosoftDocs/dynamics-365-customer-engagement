@@ -279,7 +279,7 @@ In a scenario in which you've customized your reports and then Microsoft makes u
 
 ### Data dictionary
 
-|Entities |Attributes |Description |
+| Entities | Attributes | Description |
 |----------|----------|----------|
 |DimAgentPresence	|Agent presence id	|Primary key. |
 |DimAgentPresence	|Presence status	|agent presence status that could be "Available", "Busy", "Busy - DND", "Away", or "Offline"|
@@ -294,7 +294,7 @@ In a scenario in which you've customized your reports and then Microsoft makes u
 |DimDate	|Week	|Week number. Example: "1".|
 |DimDate	|Year	|Year number. Example: "2021".|
 |DimQueue	|Queue id	|Queue id. Primary key. Type: Guid. |
-|DimQueue|	Is omnichannel queue	|Is omnichannel queue.| Currently, it's always true.|
+|DimQueue|	Is omnichannel queue| Currently, it's always true.|
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id	|System user ID.| 
 |DimSystemUser	|Agent	|Name of the agent.|
@@ -358,9 +358,9 @@ In a scenario in which you've customized your reports and then Microsoft makes u
 |FactSession	|Is agent session	|Is agent session or not.|
 |FactSession	|Avg. conversation handle time (min)	|Avg. conversation handle time (min)|
 |FactSession	|Avg. conversation hold time (min)	|Avg. conversation hold time (min)|
-|FactSession	|Avg. conversation sentiment	|The average sentiment score based on the verbatim provided in customer voice survey.
-|FactSession	|Avg. conversation talk time (min)	|Avg. conversation talk time (min)
-|FactSession	|Avg. CSAT	|Avg. CSAT
+|FactSession	|Avg. conversation sentiment	|The average sentiment score based on the verbatim provided in customer voice survey.|
+|FactSession	|Avg. conversation talk time (min)	|Avg. conversation talk time (min)|
+|FactSession	|Avg. CSAT	|Avg. CSAT|
 |FactSession	|Avg. incoming messages	|Average incoming messages|
 |FactSession	|Avg. outgoing messages	|Average outgoing messages|
 |FactSession	|Avg. session active time (min)	|Average session active time (min)|

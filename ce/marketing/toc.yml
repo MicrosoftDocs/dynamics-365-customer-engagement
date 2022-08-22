@@ -94,6 +94,8 @@
         href: marketing-settings.md
       - name: Real-time marketing administrator settings
         href: real-time-marketing-admin-settings.md
+      - name: "Preview: Create consistent branding with brand profiles"
+        href: brand-profiles.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
       - name: Add or remove sample data
@@ -226,6 +228,8 @@
         href: real-time-marketing-push-notifications.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
+      - name: "Preview: Use brand profiles in real-time marketing email"
+        href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
     - name: Customer engagement
@@ -254,11 +258,11 @@
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
-        - name: "Preview: Personalize journey variations using multiple journey branches"
+        - name: Personalize journey variations using multiple journey branches
           href: real-time-marketing-multiple-branches.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: "Preview: Set up an automated SMS keyword flow in customer journeys"
+        - name: Set up an automated SMS keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
@@ -434,7 +438,7 @@
       items: 
       - name: Upload and use images and files
         href: upload-images-files.md
-      - name: "Preview: Create reusable content blocks"
+      - name: Create reusable content blocks
         href: content-blocks.md
       - name: Create a video library and add videos to your designs
         href: video-content.md

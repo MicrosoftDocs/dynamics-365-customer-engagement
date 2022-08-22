@@ -2,14 +2,14 @@
 title: "Dynamics 365 Field Service work order architecture | MicrosoftDocs"
 description: Learn about Dynamics 365 Field Service work order architecture
 ms.date: 05/19/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: Edipple
-ms.author: daclar
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

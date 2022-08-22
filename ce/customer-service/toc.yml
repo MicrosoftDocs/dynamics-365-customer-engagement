@@ -152,7 +152,7 @@
         href: ../app-profile-manager/agent-scripts.md
       - name: Manage macros
         href: ../app-profile-manager/macros.md
-      - name: Automation dictionary to pass parameters
+      - name: Use automation dictionary to pass parameters keys
         href: ../app-profile-manager/automation-dictionary-keys.md
     - name: Developer experience
       items:
@@ -612,7 +612,7 @@
         href: voice-channel-block-number.md        
       - name: Handle call overflow for the voice queues
         href: voice-channel-call-overflow.md
-      - name: Configure call recordings, transcripts, and real-time translation
+      - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md

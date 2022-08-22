@@ -1,4 +1,26 @@
 
+## 3.12.87.3 - 2022 wave 2 early access update 1
+
+(Includes Resource Scheduling controls version 1.2.28.222201).
+
+## 3.12.83.6
+
+(Includes Resource Scheduling controls version 1.2.24.222144).
+
+Bug fixes for new schedule board:
+-	Booking a resource with flexible dates.
+-	Details panel shows empty values for some columns. 
+-	Custom date-time field value is showing -1 day on requirements panel.
+-	Different behavior of the Schedule Assistance (Create Booking Panel) in the List and Gantt view.
+-	When booking status changed to cancelled, booking should disappear automatically.
+-	Incorrect view of booking with travel.
+-	Work hour for resources doesn't respect time zone change.
+-	Appointment tooltips are not showing anything.
+-	Rebook button not available for long bookings.
+-	Refreshing after reassigning a booking throws an error.
+-	Booking view doesn't display multiline field value.
+
+
 ## 3.12.82.14
 
 (Includes Resource Scheduling controls version 1.2.23.221941).

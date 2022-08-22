@@ -1,6 +1,6 @@
 ---
 title: "Sample: Set and retrieve entity images (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-descriptions: The sample demonstrates how to set and retrieve data for entity images.
+description: The sample demonstrates how to set and retrieve data for entity images.
 ms.custom: 
 ms.date: 01/08/2020
 ms.reviewer: pehecke
