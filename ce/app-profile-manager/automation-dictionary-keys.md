@@ -8,7 +8,7 @@ ms.date: 08/22/2022
 ms.topic: article
 ---
 
-# Use automation dictionary to pass data parameter keys
+# Use automation dictionary to pass parameter keys
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
