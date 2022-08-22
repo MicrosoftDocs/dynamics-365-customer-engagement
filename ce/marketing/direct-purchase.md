@@ -1,7 +1,7 @@
 ---
 title: "Purchase a license directly from a Marketing trial (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to a license to purchase a paid license directly within a Dynamics 365 Marketing app trial."
-ms.date: 07/20/2022
+ms.date: 08/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
