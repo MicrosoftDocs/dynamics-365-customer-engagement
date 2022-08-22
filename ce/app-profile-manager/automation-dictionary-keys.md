@@ -34,7 +34,7 @@ The system replaces these parameter keys with the actual values based on the con
 
 ### Pass data parameter in macros and agent scripts
 
-Macros are a set of configured sequential actions that are run on demand by the user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
+Macros are a set of configured sequential actions that are run on demand by the user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. More information: [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys)
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Dataverse, and user actions. 
 
@@ -62,7 +62,7 @@ This data is populated as and when agents perform some activities in the session
 
 ### Context data from Dataverse
 
-The organizational data is stored in Dataverse, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
+The organizational data is stored in Dataverse, and you can fetch the data with the use of OData queries. More information: [OData queries](#odata-queries)
 
 ### Context data from other macro actions
 
