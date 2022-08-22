@@ -28,7 +28,7 @@ Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**
 
 For templates to identify the name of the customer as **Kenny Smith**, you (the administrator) must pass the parameter as keys.
 
-Similarly, for session and notification titles, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
+Similarly, for session and notification titles, you can pass the data parameters. More information: [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys)
 
 The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Microsoft Dataverse, and user actions. More information: [Types of context data parameters](#types-of-context-data-parameters)
 
@@ -152,8 +152,7 @@ Slugs that are available for session context include:
 
 When you want to execute a slug in the Omnichannel for Customer Service context, you must use the `${$oc.<slug>}` format. For example: `${$oc.customerName}`
 
-The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters provide context data based on the current session and the anchor tab or the current tab in focus.
-The following are the supported attribute types:
+The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters provide context data based on the current session and the anchor tab or the current tab in focus. The following are the supported attribute types:
 
 - EntityName
 - EntityId
@@ -181,7 +180,7 @@ The list of supported slugs are:
 | `{visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `{visitorDevice}` | The device of the customer who initiated the conversation. |
 | `{entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
-| `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../customer-service/entity-channel.md). |
+| `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. More information: [Entity records routing](../customer-service/entity-channel.md) |
 | `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
@@ -201,8 +200,8 @@ The OData query format is:
 **Examples:**
 
 - `{$Odata.account.name.?$filter=accountid eq '{customerRecordId}'}`
-- `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
-- `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
+- `{$Odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
+- `{$Odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
 
 ### Static values
 
