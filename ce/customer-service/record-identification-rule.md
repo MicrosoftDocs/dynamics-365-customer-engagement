@@ -51,7 +51,7 @@ To link the customer or case, set the values for the associated attributes, such
 |Case|CaseNumber|ticketnumber|
 ||||
 
-For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-the-bot).
+For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-power-virtual-agents-bot).
 
 
 ### See also
