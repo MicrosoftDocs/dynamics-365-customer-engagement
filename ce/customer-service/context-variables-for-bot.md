@@ -102,7 +102,7 @@ In Power Virtual Agents, do the following:
 
 7. Save and publish the changes.
 
-At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
+At runtime, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
 
 You can also configure the **Transfer to agent** node in the Power Virtual Agents topic to send a private message with relevant context variables to the live agent during the escalation.
 
