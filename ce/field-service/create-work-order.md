@@ -2,11 +2,11 @@
 title: "Create a work order in Dynamics 365 Field Service (contains video) | Microsoft Docs"
 description: Learn how to create a work order in Dynamics 365 Field Service
 ms.date: 11/15/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

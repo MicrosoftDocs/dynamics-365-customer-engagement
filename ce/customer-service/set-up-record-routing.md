@@ -147,5 +147,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Create and manage workstreams](create-workstreams.md)  
 [Create multiple workstreams for records routing](multiple-ws-entity-record-routing.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
-  
+[Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

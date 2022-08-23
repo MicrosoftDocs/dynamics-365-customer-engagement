@@ -15,6 +15,7 @@ Dynamics 365 Sales generates the following relationship insights using Microsoft
 - [Relationship analytics and health](#relationship-analytics-and-health)
 - [Who knows whom ](#who-knows-whom)
 
+
 ## Relationship analytics and health
 
 Relationship analytics provides a comprehensive view of KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships based on your interactions with your customers through emails and activities in Dynamics 365. With these insights, you can identify critical opportunities and customer relationships that need your attention. 

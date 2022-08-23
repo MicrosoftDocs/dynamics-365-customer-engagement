@@ -234,9 +234,9 @@ The following table details the apps and security roles where the unlink chats f
 
 The following table summarizes whether a user can unlink a linked chat based on the rights assigned to them. You can use the table as a guide for how to use these chat rights to help you configure a secure and effective collaboration experience for your business and users.
 
-|Scenario |Scenario |Scenario |Scenario |Scenario | Result |
+| Scenario | Scenario | Scenario | Scenario | Scenario | Result |
 |----|----|----|----|----|----|
-|Record is user/team-owned and current user is owner |Current user was most recent to link chat | "Record owner can unlink" toggle is on | "Chat creator can unlink" toggle is on | Global Unlink Chat permissions are assigned to user | User can unlink? |
+| Record is user/team-owned and current user is owner | Current user was most recent to link chat | "Record owner can unlink" toggle is on | "Chat creator can unlink" toggle is on | Global Unlink Chat permissions are assigned to user | User can unlink? |
 |Y |Y/N |N |N |N |N |
 |Y |Y/N |Y |Y/N |Y/N |Y |
 |Y/N |Y |N |N |N |N |
@@ -245,7 +245,7 @@ The following table summarizes whether a user can unlink a linked chat based on 
 |N |N |Y |N |N |N |
 |N |Y |N |N |N |N |
 |N |N |N |N |N |N |
-||||||||
+
 
 ## Configure the ability for users to join chats
 

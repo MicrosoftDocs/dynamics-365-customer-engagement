@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for email records
 description: Learn how to use unified routing to route email records as work items in Dynamics 365 Customer Service.
-ms.date: 07/18/2022
+ms.date: 08/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ A high-level overview of unified routing with email records is as follows.
 
 :::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
 
-When an email arrives from a customer, you can route it as a case or record.
+When an email arrives from a customer, you can route it as a case or record. The email record should be enabled for queues. More information: [Enable entity for queues](enable-entities-for-queues.md)
 
 ## Route email as a case
 
@@ -37,6 +37,10 @@ When an email arrives from a customer, you can route it as a case or record.
 1. [Set up intake rules](set-up-record-routing.md#configure-intake-rules) to identify the workstream to route the email record.
 
 1. [Create queues](queues-omnichannel.md) and [set up assignment methods](assignment-methods.md).
+
+
+> [!NOTE]
+> You must ensure that the agent capacity is released after the agent completes their work on the email record. More information: [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)
 
 ### See also
 
