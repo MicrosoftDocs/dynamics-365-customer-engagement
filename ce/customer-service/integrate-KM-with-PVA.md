@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
-ms.date: 08/16/2022
+ms.date: 08/23/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,6 @@ manager: shujoshi
 ---
 
 # Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
-
 
 Power Virtual Agents let you create powerful bots configured with various topics and trigger phrases that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
@@ -50,7 +49,8 @@ You must perform the following steps to integrate knowledge management with a Po
 Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow** action on.
 
 > [!NOTE]
-> If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
+> - If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
+> - When the solution is imported from a test environment to the production environment, you must again set up the connection references as a system administrator.
 
 To set connection references:
    
