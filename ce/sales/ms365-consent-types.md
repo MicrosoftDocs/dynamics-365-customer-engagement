@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Consent required to use Microsoft 365 data
 
-This article describes different types of consents that the Microsoft 365 admin needs to provide so that Dynamics 365 can collect and use Microsoft 365 data. 
+This article describes different types of consent that a Microsoft 365 admin needs to provide to let Dynamics 365 collect and use Microsoft 365 data.
 
 **More information:** 
 - [Insights generated from Microsoft 365 data](insights-from-m365.md)
