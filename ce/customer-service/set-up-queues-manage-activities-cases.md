@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 08/19/2022
+ms.date: 08/24/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -51,28 +51,30 @@ By default, a queue is created for each user and team in Dynamics 365 Customer S
 > [!Note]
 > You must manually add new Azure AD (Active Directory) team members to the team's default queue.
   
-In Customer Service, you can create two types of queues:
+## Types of queues
+You can create the following two types of queues:
 
-- **Private queues:** Create with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
-- **Public queues:** Create to let everyone in the organization view the queue and all of its items.
+- **Private queues** For limited set of members to help those members easily view the work items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other users' views.
+- **Public queues** To let everyone in the organization view the queue and all of its items.
 
 > [!IMPORTANT]
 >
 > - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+> - In private queues, you must manually add new team members as members of the queue.
 > - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
-## Create a queue
-
+## Prerequisites
 Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
    #### Check your security role
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-**To create or edit a queue**
 
-1. Go to one of the apps, and perform the following steps.
+## Create a queue
+
+
+1. Go to one of the admin apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
         
@@ -84,12 +86,13 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
     1. Go to **Service Management**, and then select **Queues** in **Case Settings**.
   
-2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
+2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
-3. Enter the following information in the **Summary** tab.
+3. Enter the following information in the **Summary** tab:
    - In the **SUMMARY** section, do the following:  
       - **Name**: Enter the name of the queue.  
-      - **Type**: Select whether the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue. If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members will be able to work on the items in this queue.  
+      - **Type**: Select whether the queue is a private or public queue. 
+          If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members will be able to work on the items in this queue.  
       - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
       - **Description**: Enter a description.
   
