@@ -27,8 +27,6 @@ Sales calls are one of the most important part of your business as these calls h
 
 ## Analyze your team's behavior
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
-
 As a sales manager, these KPIs and insights help you to: 
 
 - Assess overall customer sentiments and sentiment trends.
