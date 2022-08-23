@@ -12,8 +12,8 @@ manager: shujoshi
 
 Dynamics 365 Sales generates the following relationship insights using Microsoft 365 data:
  
-- Relationship analytics and health
-- Who knows whom 
+- [Relationship analytics and health](#relationship-analytics-and-health)
+- [Who knows whom ](#who-knows-whom)
 
 ## Relationship analytics and health
 
