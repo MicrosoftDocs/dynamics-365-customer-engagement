@@ -116,8 +116,8 @@ After creating your copy, you must complete the following steps:
 - Make sure the target environment isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](/power-platform/admin/sandbox-environments).
 - Run the Marketing setup wizard on the target environment. This is needed because the target environment must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Customer Voice and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
-    > [!IMPORTANT]
-    > After you copy Marketing to a new environment, you must link the new environment to your domain and authenticate it for emails. To do this, you will need to re-check your domain settings and update the DNS records. Learn more: [Authenticate your domains](mkt-settings-authenticate-domains.md).
+> [!IMPORTANT]
+> After you copy Marketing to a new environment, you must link the new environment to your domain and authenticate it for emails. To do this, you will need to re-check your domain settings and update the DNS records. Learn more: [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
 ## Create and restore backups
 
