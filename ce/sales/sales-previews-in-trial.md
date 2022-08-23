@@ -1,6 +1,6 @@
 ---
 title: "Preview features in trial | MicrosoftDocs"
-description: "Learn about the preview features in your Sales trial app and how to disable them if needed."
+description: "Learn about the features available in your Dynamics 365 Sales trial app and how to use them."
 ms.date: 10/01/2021
 ms.topic: article
 author: lavanyakr01
@@ -9,75 +9,90 @@ manager: shujoshi
 ---
 # Preview features in trial 
 
-This page lists the upcoming preview features that will be enabled by default in your trial app. Review the information in this page to understand what's coming up.
+Dynamics 365 Sales trial includes the following features that help you manage your pipeline, accelerate sales, project revenue, analyze your sales conversations through AI-powered conversation intelligence, and so on.  
+
+- [Pipeline management](#pipeline-management)
+- [Sales accelerator](#sales-accelerator)
+- [Sales forecasting](#sales-forecasting)
+- [Conversation intelligence](#conversation-intelligence)
+- [Teams collaboration](#teams-collaboration)
+- [Mobile app](#mobile-app)
+- [Early access features](#early-access-features)
 
 > [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.  
+> As part of the trial, you'll get access to the Sales Trial app. In the documentation links listed in this article, assume any references to the Sales Hub app as the Sales Trial app. 
 
-The following preview feature will be automatically enabled in your trial app when they become available:  
+## Pipeline management
 
-- A new view for opportunities with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
+Managing a sales pipeline using leads and opportunities is one of the basic and key functions of any sales organization. Watch this video to understand how Dynamics 365 Sales helps you manage your pipeline:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82?autoplay=true]
 
-
-## Switch to classic view for opportunities
-
-As your trial app is automatically enabled for preview features, you will see the new interface for opportunities by default. 
-
-If, for some reason, you want to switch to the classic list view, follow these steps:
-
-1.  Select **Sales Trial** at the top-left corner of the Sales trial app.
-
-1.  In the **Apps** page, go to the Sales Trial app, select the **More options (…)** icon and select **OPEN IN APP DESIGNER**:
-
-    :::image type="content" source="media/open-in-app-designer.png" alt-text="Screenshot highlighting the Open in App Designer option":::
-
-3.  In the App Designer, edit the **Site Map** object.
-
-4.  Go to **Sales** > **Sales records** and select **Opportunities**.
-
-    > [!TIP]
-    > Alternatively, you can create a new group and area for the classic view and leave the new interface as-is.
-
-5.  Modify the following fields in the side panel:
-
-    **Type**: Select **Entity**.
-
-    **Entity**: Select **Opportunities**.
-
-    :::image type="content" source="media/sitemap-designer.png" alt-text="Screenshot of the sitemap designer page":::
-
-6.  Save and publish the changes.
-
-7.  Access the Sales Trial app and go to the corresponding page.
-    The page should display the list as shown in the following screenshot:
-    
-    :::image type="content" source="media/listview.png" alt-text="Screenshot of the classic list view":::
-
-## Switch to the new view for opportunities
-
-If you've switched over to the classic view and now want to revert to the new interface, follow these steps:
-
-1.  Select **Sales Trial** at the top-left corner of the Sales trial app.
-
-2.  In the **Apps** page, go to the Sales Trial app, select the **More options (…)** icon and select **OPEN IN APP DESIGNER**
-
-3.  In the App Designer, edit the **Site Map** object.
-
-4.  Go to **Sales** > **Sales records** and select **Opportunities**.
-
-5.  Modify the following fields in the side panel:
-
-    **Type**: Select **URL**.
-
-    **URL**: Specify `/main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceOpportunity`
-
-6.  Save and publish the changes.
-
-7.  Access the Sales Trial app and go to the **Opportunities** page.
-
-    The page should display the new interface as shown in the following screenshot:
-    :::image type="content" source="media/opportunity-new-view.png" alt-text="Screenshot of the new view":::
-     
-    The new opportunities view is also known as the deal manager workspace. For more information on how to use it or personalize it, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
+Want to explore more? Read this article:
+[Preview: Manage opportunities using the deal manager workspace](deal-manager-seller-overview.md)
 
 
+## Sales accelerator
+
+The Sales accelerator in Dynamics 365 helps you to: 
+- Prioritize the customer list quickly by using an intelligent work list. The work list helps you reach out to the next best lead or opportunity by displaying relevant sales information and customer context. 
+- Define sequences for different scenarios that your sales team is likely to encounter. This helps sales teams to be consistent as they know the steps they need to take to move the deal forward. 
+- Create rules to automatically assign leads and opportunities to the sellers. 
+
+Watch this video to get a sneak peek into the sales accelerator:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
+
+Want to learn more? Read these articles:
+
+- [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+- [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+- [Manage sequences](create-manage-sequences.md)
+- [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
+
+## Sales forecasting
+
+Project accurate revenue with sales forecasting. A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. 
+
+Watch this video to get a sneak peek into forecasting:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou?autoplay=true]
+
+Want to know more? Read these articles:
+- [Configure forecasts in your organization](configure-forecast.md)
+- [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
+
+## Conversation intelligence
+
+Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales.
+
+Watch this video to get a sneak peek into conversation intelligence:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO?autoplay=true]
+
+Want to explore more? Read these articles:
+[First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+[Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
+
+## Teams collaboration
+
+Engage in a Teams chat conversation from within your trial app. While working on a sales record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching contexts.
+
+Watch this video to get a sneak peek into the Teams collaboration feature in Dynamics 365:
+> [!VIDEO https://www.youtube.com/embed/h7BjrM2UkMs]
+
+Want to know more? Read these articles:
+- [Configure Microsoft Teams chat in Sales Hub (preview)](teams-integration/enable-teams-chat.md)
+- [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md)
+
+## Mobile app
+
+The Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers use the time that they spend traveling on the road to meet customers.
+
+Watch this video to get a sneak peek into the mobile experience:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG]
+
+Want to explore more? Read these articles:
+[Overview of the Dynamics 365 Sales mobile app](sales-mobile/dynamics-365-sales-mobile-app.md)
+[Install the app on iOS and Android](sales-mobile/install-mobile-app.md)
+
+
+## Early access features
+
+As part of your trial, you also get access to some of the early access (preview) features that you can play around with. These features will have the Preview label in the user interface. For example, the Teams collaboration feature is in preview, and you would see that the documentation and UI will have preview labels and disclaimers about a preview feature. As an example, see the [Use Microsoft Teams chat in Sales Hub (preview)](teams-integration/using-teams-chat-in-dynamics.md) article.
