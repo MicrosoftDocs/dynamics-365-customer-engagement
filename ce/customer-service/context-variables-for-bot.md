@@ -45,9 +45,6 @@ This topic lists the context variables for Azure and Power Virtual Agents bots, 
 4. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
 5. Repeat steps 3 and 4 to create the required variables.
 
-> [!Note]
-> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete the variables, make sure that they aren't used in any of the unified routing classification or assignment rules.
-
 ## Context variables for Azure bots
 
 The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Azure bots](configure-bot-azure.md).
@@ -63,7 +60,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 ||||
 
 > [!Note]
-> If there's a mismatch of any of the attributes such as phone number, email address, or case number for a record, then the record won't get automatically identified. More information: [Identify records automatically](record-identification-rule.md)
+> Use the context variable names as defined and don't change them when you author flows in Azure or Power Virtual Agents bots. Also, be sure to use exact match to pass the value to the context variable because it is case-sensitive. If there's a mismatch, the record won't get automatically identified. More information: [Identify records automatically](record-identification-rule.md)
 
 ## Context variables for Power Virtual Agents bots
 
