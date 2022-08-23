@@ -20,14 +20,14 @@ Dynamics 365 Sales trial includes the following features that help you manage yo
 - [Early access features](#early-access-features)
 
 > [!IMPORTANT]
-> As part of the trial, you'll get access to the Sales Trial app. In the documentation links in this article, assume any references to the Sales Hub app as the Sales Trial app. 
+> As part of the trial, you'll get access to the Sales Trial app. In the documentation links listed in this article, assume any references to the Sales Hub app as the Sales Trial app. 
 
 ## Pipeline management
 
 Managing a sales pipeline using leads and opportunities is one of the basic and key functions of any sales organization. Watch this video to understand how Dynamics 365 Sales helps you manage your pipeline:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82?autoplay=true]
 
-Want to explore more? Read the article:
+Want to explore more? Read this article:
 [Preview: Manage opportunities using the deal manager workspace](deal-manager-seller-overview.md)
 
 
@@ -38,7 +38,7 @@ The Sales accelerator in Dynamics 365 helps you to:
 - Define sequences for different scenarios that your sales team is likely to encounter. This helps sales teams to be consistent as they know the steps they need to take to move the deal forward. 
 - Create rules to automatically assign leads and opportunities to the sellers. 
 
-Watch this video to know how you can use the Sales to accelerate your sales:
+Watch this video to get a sneak peek into the sales accelerator:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
 
 Want to learn more? Read these articles:
@@ -55,7 +55,7 @@ Project accurate revenue with sales forecasting. A forecast helps your organizat
 Watch this video to get a sneak peek into forecasting:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou?autoplay=true]
 
-For more information, see:
+Want to know more? Read these articles:
 - [Configure forecasts in your organization](configure-forecast.md)
 - [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
 
@@ -74,7 +74,7 @@ Want to explore more? Read these articles:
 
 Engage in a Teams chat conversation from within your trial app. While working on a sales record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching contexts.
 
-The following video provides a quick overview of the Teams collaboration feature in Dynamics 365:
+Watch this video to get a sneak peek into the Teams collaboration feature in Dynamics 365:
 > [!VIDEO https://www.youtube.com/embed/h7BjrM2UkMs]
 
 Want to know more? Read these articles:
