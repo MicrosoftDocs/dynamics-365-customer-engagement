@@ -25,7 +25,7 @@ Dynamics 365 Sales trial includes the following features that help you manage yo
 ## Pipeline management
 
 Managing a sales pipeline using leads and opportunities is one of the basic and key functions of any sales organization. Watch this video to understand how Dynamics 365 Sales helps you manage your pipeline:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82?autoplay=true]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82]
 
 Want to explore more? Read this article:
 [Preview: Manage opportunities using the deal manager workspace](deal-manager-seller-overview.md)
@@ -39,7 +39,7 @@ The Sales accelerator in Dynamics 365 helps you to:
 - Create rules to automatically assign leads and opportunities to the sellers. 
 
 Watch this video to get a sneak peek into the sales accelerator:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q?autoplay=true]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q]
 
 Want to learn more? Read these articles:
 
@@ -53,7 +53,7 @@ Want to learn more? Read these articles:
 Project accurate revenue with sales forecasting. A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. 
 
 Watch this video to get a sneak peek into forecasting:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou?autoplay=true]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou]
 
 Want to know more? Read these articles:
 - [Configure forecasts in your organization](configure-forecast.md)
@@ -64,7 +64,7 @@ Want to know more? Read these articles:
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales.
 
 Watch this video to get a sneak peek into conversation intelligence:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO?autoplay=true]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO]
 
 Want to explore more? Read these articles:
 [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
