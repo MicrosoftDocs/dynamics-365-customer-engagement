@@ -39,7 +39,7 @@ View a snapshot to see and understand the forecast data at the moment in time wh
     The latest snapshot for the forecast is displayed with information about forecast data at that point in time, along with name and date.
 
     > [!NOTE]
-    > The values you see in the snapshot are based on the fields configured in your forecast. If the values displayed don't match your expected values, verify the [fields used for aggregation](choose-layout-and-columns-forecast.md#configure-columns).
+    > The values displayed in the snapshot are based on the fields configured in your forecast. If these values don't match the values you expected, verify the [fields used for aggregation](choose-layout-and-columns-forecast.md#configure-columns).
 
     The name of the snapshot is in the following format: *forecast name.recurrence name*. In this example, you can see that name of the snapshot is **FY2020 Quarterly Forecast (do not delete).FY2020 Q3**.
 

@@ -60,7 +60,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
     > [!NOTE]
-    > The values you see in the grid are based on the fields configured in your forecast. If the values displayed don't match your expected values, verify the [fields used for aggregation](choose-layout-and-columns-forecast.md#configure-columns).
+    > The values displayed in the grid are based on the fields configured in your forecast. If these values don't match the values you expected, verify the [fields used for aggregation](choose-layout-and-columns-forecast.md#configure-columns).
     
     For example, if you're using the out-of-the-box **Forecast category** on an org chart forecast, the grid will display the following information:
 
