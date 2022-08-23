@@ -75,7 +75,7 @@ To define the layout, select an option set and then add the rollup columns accor
 <a name="configure-columns"> </a>      
 ## Configure columns
 
-You can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
+In the Layout step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
 
 >[!NOTE]
 >- Auto configuration of columns are available only for **Opportunity** and **Opportunity product** rollup entities. For other rollup entities, you must manually configure each column.
