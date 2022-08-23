@@ -14,7 +14,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-*Context variables* enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. 
+*Context variables* enrich conversations with pre-conversation data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. 
 
 When customers initiate a conversation, the relevant context that's related to the customer, the issue they're facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot. Context variables set by the bot can also be passed to Omnichannel for Customer Service when the bot escalates to the human agent. For example, you can pass the ticketnumber for the case created by the bot to Omnichannel for Customer Service to link the case and load the customer summary for the agent to view.
 
@@ -26,7 +26,7 @@ This topic lists the context variables for Azure and Power Virtual Agents bots, 
 
 ## Add context variables
 
-1. Go to one of the apps, and perform the following steps:
+1. Go to one of the admin apps, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
