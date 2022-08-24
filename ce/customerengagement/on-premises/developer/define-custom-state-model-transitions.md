@@ -1,6 +1,6 @@
 ---
 title: "Define custom state model transitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-descriptions: Learn about defining custom state model transistions for the Incident (Case) entity or custom entities.
+description: Learn about defining custom state model transitions for the Incident (Case) entity or custom entities.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke

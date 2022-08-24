@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 06/20/2022
+ms.date: 08/23/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -33,7 +33,7 @@ The information on the call summary page helps both sellers and managers:
 
 ## View the call summary page
 
-1. In the Conversation Intelligence app, open the **Seller Details** page and go to the **Call history** section.
+1. In the [Conversation intelligence app](https://sales.ai.dynamics.com/), open the **Seller Details** page and go to the **Call history** section.
     
     If you don't see any call data, change the time period at the top of the page. 
 1. Select a call to view its summary and other insights.  
@@ -164,14 +164,20 @@ If a meeting is mentioned in the transcript, the transcript is highlighted in bl
 >[!NOTE]
 >If you think this action item would be better handled as a task than a meeting, select **Create task**.
 
-#### Highlights tab   
-The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.   
+#### Highlights tab
+
+The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback. 
+
 - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
+
 - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso.
 - **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV."  
 - **Competitors**: Displays the predefined competitors that customers mentioned during the call.
 - **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
-- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.    
+- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.
+- **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users on the call. For example, What do you think about the demo? 
+- **Questions asked by others**: Displays questions asked by the other participants during the call.  
+
 The following image is an example of a **Highlights** tab.   
 > [!div class="mx-imgBorder"]
 > ![Highlights tab](media/ci-summary-keywords.png "Highlights tab")  

@@ -1,6 +1,6 @@
 ---
 title: Create and manage queues for unified routing | MicrosoftDocs
-description: "This topic provides information and steps to help you learn to create and manage queues in Omnichannel for Customer Service."
+description: "Use this article to understand how to create and manage queues for unified routing in Customer Service and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -16,11 +16,9 @@ searchScope:
 - Customer Service
 ---
 
-# Manage queues for unified routing
+# Create and manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 In Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
 
@@ -42,9 +40,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 ## Create a queue for unified routing
 
-**To create a queue and set operating hour record for the queue**
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
@@ -64,7 +60,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 2. On the **Queues** page, do the following:
 
     1. Select **New**.
-    2. In the **Create a queue** dialog box, enter the following:
+    2. In the **Create a queue** dialog, enter the following:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
        - **Group number**: A number to organize the queue.
@@ -73,7 +69,7 @@ Assign a group number that helps you organize your queues in the list view. The 
        > [!div class=mx-imgBorder]
        > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
-3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
+3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 4. In **Assignment method**, do one of the following:
    - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
@@ -106,13 +102,13 @@ Out of the box, the following queues are available. You can add and remove users
 
 Work is routed to these queues that act as a safety net in the following scenarios:
 
-- Work item encounters an error during classification
-- Work item encounters an error when running a route-to-queue rule
-- Work item does not match any route-to-queue rules
+- Work item encounters an error during classification.
+- Work item encounters an error when running a route-to-queue rule.
+- Work item does not match any route-to-queue rules.
 
 ### See also
 
-[Create workstreams for unified routing](create-workstreams.md)  
+[Create and manage workstreams](create-workstreams.md)  
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](voice-channel-route-queues.md)  

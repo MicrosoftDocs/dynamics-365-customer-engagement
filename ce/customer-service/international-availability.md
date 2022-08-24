@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 06/16/2022
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,7 @@ The purpose of this document is to provide information about the geographic loca
 
 ## Geographic location availability
 
-Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
 
 > [!Note]
 >

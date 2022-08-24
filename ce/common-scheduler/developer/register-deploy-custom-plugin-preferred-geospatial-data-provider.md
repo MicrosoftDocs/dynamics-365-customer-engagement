@@ -5,11 +5,11 @@ ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: conceptual
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 search.app: 
   - D365CE
   - D365PS
@@ -29,7 +29,7 @@ The execution order value of the default plug-in in Field Service and Project Se
 
 The following table depicts how you may want your custom plug-in to be treated depending on the execution order specified while plug-in registration and parameter conditions.
 
-|||
+| Hierarchy | Description |
 |--|--|
 |**Primary**| If you want to treat your custom plug-in as *primary* and the default Bing plug-in as secondary, set the execution order of your plug-in to **0**. This will result in your plug-in getting executed prior to the Bing plug-in. The Bing plug-in will examine the "latitude" and "longitude" values that your custom plug-in returns, and only proceeds to geocode with Bing if both the returned values are 0. This would be the preferred way if your custom plug-in is expected to provide the majority of your geocoding needs.|
 |**Secondary**|If you want to treat your custom plug-in as *secondary* to Bing plug-in by providing the geocoding service only when Bing fails to geocode, set the execution order of your plugin to **2**. You would also write your custom plug-in code such that it first examines the "latitude" and "longitude" values that Bing plug-in returns, and proceeds only if both the returned values are 0. This would be the preferred execution way if Bing is expected to provide the majority of your geocoding needs.|
@@ -77,7 +77,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
     - **Execution Mode**: Synchronous
     - Leave the rest of the fields with their default values. Click **Register New Step**. 
 
-    ![The Register New Step dialog box](../media/FS-register-step-retrievedistancematrix.png "The Register New Step dialog box")
+    ![Screenshot of the Register New Step Dialog window with the General Configuration Information filled out. The Execution Order is set to 0.](../media/FS-register-step-retrievedistancematrix.png "The Register New Step dialog box")
 
 11. Next, right-click the **Microsoft.Crm.Sdk.Samples.msdyn_GeocodeAddress** plug-in, and select **Register New Step**.
 
@@ -88,7 +88,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
     - **Execution Mode**: Synchronous
     - Leave the rest of the fields with their default values. Click **Register New Step**. 
 
-    ![The Register New Step dialog box](../media/FS-register-step-geocodeaddress.png "The Register New Step dialog box")
+    ![Screenshot showing the Register New Step Dialog window with the General Configuration Information filled out. The Execution Order is set to 0.](../media/FS-register-step-geocodeaddress.png "The Register New Step dialog box")
 
 You are now done with registering steps to call your custom plug-in for both the geospatial actions. 
 

@@ -110,9 +110,9 @@ The topics capability in the Customer Service historical analytics reports comes
 
 ### See also
 
-- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
-- [Summary dashboard](summary-dashboard-cs.md) <br>
-- [Agent dashboard](agent-dashboard-cs.md) 
-
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Summary dashboard](summary-dashboard-cs.md)  
+[Agent dashboard](agent-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

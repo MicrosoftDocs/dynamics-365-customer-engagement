@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 06/22/2022
+ms.date: 08/23/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -23,10 +23,13 @@ search.app:
 Environment-management operations are a standard feature of model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Dynamics 365 Marketing, however, adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
 
 > [!IMPORTANT]
-> This topic provides details about the exceptions that apply when working with environments where the Marketing app is installed—for all other management tasks, see [Environments overview](/power-platform/admin/environments-overview), but read this topic first.
+> This topic provides details about the exceptions that apply when working with environments where the Marketing app is installed. For all other management tasks, see [Environments overview](/power-platform/admin/environments-overview), but read this topic first.
 
 > [!NOTE]
 > *Environments* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation usually uses the term *environment* (though you'll sometimes also see the terms *organization* or *org* here). Because this article relies on Power Platform Admin Center functionality, it refers exclusively to environments.
+
+> [!TIP]
+> If you have not installed other apps on the [Microsoft Power Platform admin center](/power-platform/admin/), you will need to create an environment before you can run the Marketing setup wizard. Learn more: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment).
 
 ## Elements in a Marketing environment
 
@@ -112,6 +115,9 @@ After creating your copy, you must complete the following steps:
 
 - Make sure the target environment isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](/power-platform/admin/sandbox-environments).
 - Run the Marketing setup wizard on the target environment. This is needed because the target environment must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Customer Voice and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
+
+> [!IMPORTANT]
+> After you copy Marketing to a new environment, you must link the new environment to your domain and authenticate it for emails. To do this, you will need to re-check your domain settings and update the DNS records. Learn more: [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
 ## Create and restore backups
 

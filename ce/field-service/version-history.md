@@ -2,12 +2,12 @@
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.date: 06/20/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app:
   - D365CE
@@ -22,21 +22,85 @@ When a new version of Dynamics 365 Field Service releases, it becomes available 
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
-
-|              | Region | Current version | Next version |  Scheduled date
-| ----------   | :---   | :---   |  :---   | :---   | 
-|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | TBD | 07/01/2022
-|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.68.25](/dynamics365/field-service/version-history#8859226825) | TBD | 07/08/2022
-|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/01/2022
-| | USG</i> |[8.8.68.25](/dynamics365/field-service/version-history#8859226825) | TBD | 07/08/2022
-|<strong>Station 4</strong> |<i>Europe</i> | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/08/2022
-|<strong>Station 5</strong> |  <i>North America</i>|[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/15/2022
-|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.67.16](/dynamics365/field-service/version-history#8859226717) | [8.8.68.25](/dynamics365/field-service/version-history#8859226825) | 07/15/2022
-| | <i>Dedicated Scale Groups</i> |   [8.8.66.27](/dynamics365/field-service/version-history#8859226627) | [8.8.67.16](/dynamics365/field-service/version-history#8859226717) | 07/01/2022
+| Station | Region | Current version | Next version | Scheduled date |
+| ------- | ------ | --------------  | -----------  | -------------  | 
+|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.72.27](/dynamics365/field-service/version-history#887227) | TBD | 08/26/2022 |
+|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea</i>|[8.8.72.55](/dynamics365/field-service/version-history#887255) |TBD | 09/02/2022 |
+|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania</i> |[8.8.71.41](/dynamics365/field-service/version-history#887141) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 08/26/2022 |
+| | USG</i> | [8.8.72.55](/dynamics365/field-service/version-history#887255) |TBD | 09/02/2022 |
+|<strong>Station 4</strong> |<i>Europe</i> | [8.8.71.55](/dynamics365/field-service/version-history#887155) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 09/02/2022 |
+|<strong>Station 5</strong> |  <i>North America</i>|[8.8.69.53](/dynamics365/field-service/version-history#886953) |  [8.8.70.26](/dynamics365/field-service/version-history#887026) | 08/19/2022(Skipped) 08/26/2022(next update) |
+|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.70.57](/dynamics365/field-service/version-history#887057) | [8.8.71.41](/dynamics365/field-service/version-history#887141) | 08/26/2022 |
+| | <i>Dedicated Scale Groups</i> | [8.8.69.53](/dynamics365/field-service/version-history#886953) | [8.8.70.26](/dynamics365/field-service/version-history#887026) | 08/19/2022 (Skipped)|
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.75.59 (2022 Wave 2 early access, update1)
+
+This release is an update to Field Service 2022 Wave 2 early access version [8.8.75.36](/dynamics365/field-service/version-history#887536).
+
+(Includes Universal Resource Scheduling version [3.12.87.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312873---2022-wave-2-early-access-update-1)).
+
+-	Fixed a bug in reflowing the connected field service tree control that prevented the ‘more options’ button and ‘show assets’ checkbox from being visible.
+
+## 8.8.72.55
+
+This release is a hotfix on Field Service version [8.8.72.27](/dynamics365/field-service/version-history#887227).
+ 
+ - A bug in inspection flows prevented service tasks from being marked completed.
+ 
+## 8.8.72.27
+
+(Includes Universal Resource Scheduling version [3.12.83.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#312836)).
+
+-	Fixed a bug that showed inactive location records in the asset & location tree view.
+-	Fixed a bug on work order form load that prompted users with insufficient permissions to read service account details.
+-	Fixed a bug that prevented units from being populated on a new inventory adjustment through the quick create form.
+-	Fixed a bug in the initialization of work order functional location entity references that caused dependent customizations to fail.
+
+## 8.8.75.36 (2022 Wave 2 early access)
+
+(Includes Universal Resource Scheduling version [3.12.86.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312867---2022-wave-2-early-access)).
+
+The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2022 Wave 2](/dynamics365-release-plan/2022wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined in the release notes.
+
+In addition, this release also includes the following changes:
+
+-	Fixed a bug where estimated duration was not set on work order services created from agreements.
+-	Fixed a bug where resource pay type was not reflected in actuals when Time Cost Actuals Source is set to 'Work Order Time Entry Approval'.
+
+## 8.8.71.55
+
+ This release is a hotfix on Field Service version [8.8.71.41](/dynamics365/field-service/version-history#887141).
+
+- A bug in inspection flows prevented service tasks from being marked completed.
+
+## 8.8.71.41
+
+(Includes Universal Resource Scheduling version [3.12.82.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3128214)).
+
+## 8.8.70.57
+
+This release is a hotfix on Field Service version [8.8.70.26](/dynamics365/field-service/version-history#887026).
+
+- A bug in inspection flows prevented service tasks from being marked completed.
+
+## 8.8.70.26
+
+(Includes Universal Resource Scheduling version [3.12.81.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312813)).
+
+-	Fixed a bug preventing changes to currency exchange rates to be reflected in work order products.
+-	Fixed a bug where inactive asset and functional location records showed in the asset tree view.
+-	Fixed a bug that allowed service tasks with an inspection to get marked completed when missing responses to mandatory questions.
+-	Field Service (D365) mobile: Added ability to set an Inspection response as read only when a Work Order Service Task is in an inactive state.
+
+## 8.8.69.53
+
+(Includes Universal Resource Scheduling version [3.12.80.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312809)).
+
+No updates were made to Field Service (D365) in this release.
 
 ## 8.8.68.25
 
@@ -44,7 +108,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 - Field Service (D365) Mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
 - Field Service (D365) Mobile Bug Fix: Inspections File Picker will open correctly on the Windows application. 
-- Field Service (D365) Mobile: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product which does not have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](https://docs.microsoft.com/en-us/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
+- Field Service (D365) Mobile: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product which does not have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
 - Add a condition to workflow (GenerateGeofenceWhenBookingIsCreated) to check that the Booking has a Work Order to avoid making unnecessary plugin calls.
 
 

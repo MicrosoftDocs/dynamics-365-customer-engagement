@@ -52,7 +52,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ### See also
 
-[Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)  
+[Dynamics 365 Licensing Update](https://dynamics.microsoft.com/pricing/)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

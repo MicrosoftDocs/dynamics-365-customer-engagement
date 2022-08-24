@@ -2,11 +2,11 @@
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to perform initial configurations for Dynamics 365 Field Service.
 ms.date: 02/26/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 ms.manager: shellyhaverkamp
 search.app: 
   - D365CE
@@ -100,7 +100,7 @@ Finally, let’s test geocoding.
 
 Geocoding is associating a latitude and longitude to an address. This allows dispatchers to locate work orders more effectively than an address.
 
-If addresses are geocoded, the system will automatically attempt to locate and populate the lattitude and longitude after entering an address on entities such as accounts, contacts, users, and work orders. Disallowing auto geocoding for addresses requires the user to select a manually select a geocode option in order to geocode an address.
+If addresses are geocoded, the system will automatically attempt to locate and populate the lattitude and longitude after entering an address on entities such as accounts, contacts, users, and work orders. Disallowing auto geocoding for addresses requires the user to manually select a geocode option in order to geocode an address.
 
 Go to **Field Service** > **Work Orders** and select **+New**.
 

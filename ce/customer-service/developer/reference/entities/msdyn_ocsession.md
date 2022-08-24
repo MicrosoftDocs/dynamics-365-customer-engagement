@@ -626,6 +626,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350009|VirtualAgentClosed|
 |192350010|AgentTransferToQueue|
 |192350011|SupervisorAssignToQueue|
+|192350013|SystemReject|
+|192350014|ForceClose|
 
 
 

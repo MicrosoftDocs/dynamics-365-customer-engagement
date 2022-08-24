@@ -90,3 +90,4 @@ The topics capability in the Customer Service historical analytics reports comes
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Agent dashboard](agent-dashboard.md)  
 [Bot dashboard](oc-bot-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

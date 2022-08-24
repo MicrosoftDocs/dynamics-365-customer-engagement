@@ -1,14 +1,14 @@
 ---
 title: Schedule optimization in Resource Scheduling Optimization with Dynamics 365 Field Service
 description: Learn about scheduling optimization using Resource Scheduling Optimization with Dynamics 365 Field Service
-author: FieldServiceDave
+author: m-hartmann
 manager: shellyha
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.date: 06/08/2018
 ms.topic: article
 
 ms.subservice: resource-scheduling-optimization
-ms.author: daclar
+ms.author: mhart
 search.app: 
   - D365CE
   - D365FS
@@ -24,7 +24,7 @@ search.app:
 
 - **Publishing**: The system is trying to publish schedules.
 
-- **Published**: The system published a schedule and it’s good to run.
+- **Published**: The system published a schedule and it's good to run.
 
 - **Out of Sync**: Changes made against the schedule require it to be
     published again.
@@ -64,7 +64,7 @@ The next screenshot shows the publish status of the schedule, the date it was la
 - **RUN NOW**: Run resource scheduling optimization on demand, regardless of the timer setting.
 
   > [!NOTE]
-  > RUN NOW is also an API. The user can call this API to run resource scheduling optimization per their business needs. For example, whenever there is a P1 work order requirement, you can re-run resource scheduling optimization right away.
+  > RUN NOW is also a function that can trigger a new job. The user can use this button to run resource scheduling optimization per their business needs. For example, whenever there is a P1 work order requirement, you can re-run resource scheduling optimization right away.
 
   > [!div class="mx-imgBorder"]
   > ![Image 4.](media/aca2f6dd56b36554da71ec18db377610.png)
