@@ -29,8 +29,8 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
   | Category | Sub-category |
   |-----------------------|-----------------------|
-  | Status | <ul> <li> Approved </li> <li> Published </li> <li> Scheduled </li> </ul> |
-  | Visibility | <ul> <li> Internal </li> <li> External </li> </ul> |
+  | Status | <ul> <li> Draft </li><li> Approved </li> <li> Published </li> <li> Scheduled </li> </ul> |
+  | Visibility | <ul> <li> Internal </li> <li> External </li>  <li> All </li> </ul> |
   | Modified On | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
   |||
