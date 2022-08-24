@@ -107,9 +107,9 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
     > [!IMPORTANT]
     > You can update a basic queue to an advanced queue and enable it for unified routing by setting **Automatic work distribution** to **Yes**. However, once set, you can't revert the advanced queue to basic queue. You'll need to create a basic queue, and set the **Automatic work distribution** to **No**.
 
-The following changes happen:
+After you have saved the queue, the following changes happen in the SUMMARY tab:
 
-   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
+   - In the **Mailbox** field of the EMAIL SETTINGS section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
    - If you selected the queue type as private, the **MEMBERS** section appears.
           - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
@@ -118,7 +118,7 @@ The following changes happen:
 
 ## View queue items for a queue
 
-The **Queue Items** section lists all activities that are either routed automatically by the routing rules or manually assigned to the queue.
+The **QUEUE ITEMS** section lists all activities that are either routed automatically by the routing rules or manually assigned to the queue.
   
 ## Route items to basic queues  
 
@@ -126,11 +126,11 @@ For all cases that are automatically created from incoming email and social post
 
 Alternatively, you can manually add cases and activities to queues. More information: [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
   
-## Assign work items to agents
+## Assign items to agents
 
-Queues share cases or activities as a group until they're removed from the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the work items for themselves, or a customer service manager can manually route these cases to the agents, or to other queues, users, and teams.  
+Queues share cases or activities as a group until they're removed from the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents, or to other queues, users, and teams.  
 
-To assign work items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
+To assign items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!Note]
 >
