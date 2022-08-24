@@ -27,6 +27,9 @@ To find the preferred agent for an incoming work item, the contact should be ide
 
 In the preview release, you can map agents to contacts only.
 
+> [!IMPORTANT]
+> In the preview release, if the Omnichannel solution is already installed in your organization, you must perform the steps in [Create custom data in organizations with existing Omnichannel solution](#create-custom-data-in-organizations-with-existing-omnichannel-solution) to route records to the preferred agents successfully.
+
 ## Configure preferred agent for contacts
 
 Make sure that the agent you intend to assign to a contact is a member of the queue to which a work item will be routed.
@@ -94,7 +97,7 @@ If you have a custom role, you must also have access to the following entities:
 
 ### Create custom data in organizations with existing Omnichannel solution
 
-In the preview release, if the Omnichannel solution is already installed in your organization and you want to use the preferred agent settings for routing records, such as the case or email record, you must perform the steps in this section.
+If the Omnichannel solution is already installed in your organization and you want to use the preferred agent settings for routing records, such as the case or email record, you must perform the steps in this section.
 
 1. Go to the Customer Service admin center app, and enter the following URL in the address bar to make an oData call and determine if data exists.
 
