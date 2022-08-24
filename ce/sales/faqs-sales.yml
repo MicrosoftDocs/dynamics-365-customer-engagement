@@ -30,8 +30,7 @@ sections:
           
       - question: Where can I find the Sales Professional and sales insights documentation?
         answer: To provide a unified experience across all the Sales offerings, we've merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you've bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
-
-  - name: Entity: Activity
+  - name: Entity Activity
     questions:
       - question: Why are the **Follow** and **Unfollow** buttons displayed together on the command bar?
         answer: This is by design. If you go to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar no matter which state the selected record is in, followed or not followed.
@@ -71,7 +70,7 @@ sections:
           
           8. Save the dashboard, and publish the customization.
           
-  - name: Entity: Lead
+  - name: Entity Lead
     questions:
       - question: What is the difference between the duplicate detection capability in Microsoft Power Platform and duplicate detection of leads in Dynamics 365 Sales?
         answer: |
@@ -86,7 +85,7 @@ sections:
           
           More information: [Enable duplicate lead detection](enable-duplicate-lead-detection.md)
           
-  - name: Entity: Opportunity
+  - name: Entity Opportunity
     questions:
       - question: When can I edit the **Est.Revenue** value in the **Opportunity** form?
         answer: |
