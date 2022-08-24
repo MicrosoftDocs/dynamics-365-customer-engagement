@@ -144,7 +144,7 @@ In the preview release, if your organization has the Omnichannel solution instal
             // handle error conditions 
         }
     ); 
-```
+    ```
 
 - **Appointment**
     
@@ -213,7 +213,7 @@ In the preview release, if your organization has the Omnichannel solution instal
             // handle error conditions 
         }
     );
-```
+    ```
 
 - **Phonecall**
 
