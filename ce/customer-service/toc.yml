@@ -366,7 +366,7 @@
         href: remove-validation-contact.md
   - name: Automatically create or update records
     items: 
-    - name: Automatically create or update records in Customer Service Hub
+    - name: Automatically create or update records
       href: automatically-create-update-records.md
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
