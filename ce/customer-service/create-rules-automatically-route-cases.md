@@ -50,7 +50,7 @@ In custom apps, you might not have routing rulesets in your site map. To add rou
 
     The site map is created with the routing ruleset. Go to your custom app to locate routing rulesets in the site map.
 
-To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
+More information: [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
 ## Create a routing ruleset
 
