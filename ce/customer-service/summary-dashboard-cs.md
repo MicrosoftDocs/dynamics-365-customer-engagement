@@ -1,7 +1,7 @@
 ---
 title: Summary Dashboard | Microsoft Docs
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 08/01/2022
+ms.date: 08/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,7 +31,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 ![Summary dashboard.](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
 
-To view the Summary dashboard, in **Service**, in the site map, select **Insights**, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
+To view the Summary dashboard, in Customer Service workspace, select the plus (**+**) icon, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
 
 The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
 
@@ -69,6 +69,10 @@ This table shows the key performance indicators that are displayed in the report
 | Average CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
 | Average survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
 
+
+The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
+
+:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived.":::
 
 The following metrics are displayed in the charts.
 
