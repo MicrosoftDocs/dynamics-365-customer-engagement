@@ -1424,6 +1424,10 @@
         href: developer/reference/entities/msdyn_personalsoundsetting.md
       - name: msdyn_personasecurityrolemapping
         href: developer/reference/entities/msdyn_personasecurityrolemapping.md
+      - name: msdyn_preferredagent
+        href: developer/reference/entities/msdyn_preferredagent.md
+      - name: msdyn_preferredagentcustomeridentity
+        href: developer/reference/entities/msdyn_preferredagentcustomeridentity.md        
       - name: msdyn_presence
         href: developer/reference/entities/msdyn_presence.md
       - name: msdyn_productivitypaneconfiguration
