@@ -95,7 +95,7 @@ sections:
              > ![Edit estimated revenue.](media/faqs-est-revenue.png "Edit estimated revenue")
           
           
-  - name: Entities: Opportunity, Quote, Invoice, and Order
+  - name: Entities Opportunity, Quote, Invoice, and Order
     questions:
       - question: Why does a view other than **Opportunity Product Inline Edit View** lose the inline editing functionality and why can't I see grid actions such as move up, move down, and lock icons in the legacy web client if a view other than **Opportunity Product Inline Edit View** is selected for the **Opportunity Product** subgrid in the **Opportunity** form?
         answer: |
@@ -135,7 +135,7 @@ sections:
           -   If the product in the subgrid is a required product from an existing product bundle, all fields in the subgrid view are locked for editing.
           
           
-  - name: Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product 
+  - name: Entities Opportunity Product, Quote Product, Order Product, and Invoice Product 
     questions:
       - question: How can I configure the value of the default **Pricing** to **Override Price** on the **Opportunity Product** form?
         answer: |
@@ -148,7 +148,7 @@ sections:
             > [!div class="mx-imgBorder"]
             > ![Change pricing on order form.](media/faqs-pricing-change-order-product-form.png "Change pricing on order form")
            
-  - name: Entities: Order and Invoice
+  - name: Entities Order and Invoice
     questions:
       - question: How can I change the default value for the **Prices Locked** field in the **Order** form?
         answer: |
