@@ -1,26 +1,34 @@
 ---
-title: "msdyn_preferredagentcustomeridentity entity reference (Microsoft Dataverse)| MicrosoftDocs"
+title: "msdyn_preferredagentcustomeridentity Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_preferredagentcustomeridentity entity."
-ms.date: 6/3/2022
-ms.service: "powerapps"
+ms.date: 08/24/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
 manager: "shujoshi"
-search.audienceType: 
-  - developer
-applies_to: 
-  - "Dynamics 365 (online)"
+ms.topic: "reference"
+author: "mh-jaya"
+search.app: 
+  - PowerApps
+  - D365CE
 ---
 
-# msdyn_preferredagentcustomeridentity entity reference
+# msdyn_preferredagentcustomeridentity Entity Reference (Preview)
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
-Used for storing the entity used to identify customer and the corresponding associated entity
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
 
 **Added by**: Configuration_sn Solution
-
 
 ## Messages
 
