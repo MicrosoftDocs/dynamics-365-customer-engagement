@@ -79,7 +79,7 @@ An administrator or system customizer must configure this option for you. More i
 
 To view the auto-filtered results:
 
-1. Search knowledge articles from the related section of the case. More information: [Search knowledge articles](search-knowledge-articles.md#search-knowledge-articles)
+1. Search knowledge articles from the related section of the case. More information: [Search knowledge articles](search-knowledge-articles-csh.md)
 
 2. The articles are automatically filtered and displayed based on case data.
 
@@ -100,7 +100,7 @@ However, if the **Auto-filter results** checkbox isn't selected, you can see mor
 
 ### See also
 
-[Search knowledge articles](search-knowledge-articles.md#search-knowledge-articles)
+[Search knowledge articles](search-knowledge-articles-csh.md)
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
