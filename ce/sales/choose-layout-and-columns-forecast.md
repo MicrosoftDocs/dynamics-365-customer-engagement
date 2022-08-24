@@ -1,7 +1,7 @@
 ---
 title: "Configure columns and layouts in forecast grid"
 description: "Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more."
-ms.date: 10/26/2021
+ms.date: 08/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -75,7 +75,7 @@ To define the layout, select an option set and then add the rollup columns accor
 <a name="configure-columns"> </a>      
 ## Configure columns
 
-In the Layout step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
+In the **Layout** step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
 
 >[!NOTE]
 >- Auto configuration of columns are available only for **Opportunity** and **Opportunity product** rollup entities. For other rollup entities, you must manually configure each column.
