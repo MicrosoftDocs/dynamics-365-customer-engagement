@@ -119,12 +119,17 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 ## View queue items for a queue
 
 The **QUEUE ITEMS** section lists all activities that are either routed automatically by the routing rules or manually assigned to the queue.
+
+## Set up rules for creating or updating records automatically
+
+In the **RECORD CREATION AND UPDATE RULES** section, you can create rules for automatically creating records for cases from incoming emails. More information: [Automatically create or update records](automatically-create-update-records.md)
   
 ## Route items to basic queues  
 
 For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. More information: [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
 
 Alternatively, you can manually add cases and activities to queues. More information: [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
+
   
 ## Assign items to agents
 
