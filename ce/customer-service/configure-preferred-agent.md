@@ -88,7 +88,7 @@ You must have one of the following roles to configure preferred agent routing.
 - **For Customer Service**: CSR Manager
 - **For Omnichannel for Customer Service**: Omnichannel administrator
 
-You must be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1)
+You must be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
 
 If you have a custom role, you must also have access to the following entities:
 
