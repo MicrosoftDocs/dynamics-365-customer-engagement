@@ -143,6 +143,46 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 > - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
 > - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent that created the case.
 
+### Create a queue in legace Service Management
+
+**To create or edit a queue**
+  
+1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
+   #### Check your security role
+  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+  
+2. Go to **Settings** > **Service Management**.  
+  
+3. [!INCLUDE[proc_click_or_tap_queues](../includes/proc-click-or-tap-queues.md)]  
+  
+4. To create a new queue, select **New**. To edit a queue, select the queue from the list of queues, and then select **Edit** on the command bar.
+  
+5. Enter the following information in the **Summary** tab.
+  
+   - In the **SUMMARY** section:
+  
+       - **Name**: Enter the name of the queue.  
+  
+       - **Type**: Select whether the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.
+       - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
+  
+   - In the **EMAIL SETTINGS** section:
+       - **Convert Incoming Email To Activities**: From the dropdown list, select a value depending on the type of messages that you want to track as activities.  
+  
+       - **Mailbox**: A mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. More information: [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
+  
+   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records with incoming activities such as emails, social activities, or other custom activities. More information: [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
+  
+   > [!IMPORTANT]
+   >
+   >  - This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
+   >  - The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.
+   >  - Multiple rules with the same source type and same queue can exist. So when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
+  
+6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]
 
 ### See also  
 
