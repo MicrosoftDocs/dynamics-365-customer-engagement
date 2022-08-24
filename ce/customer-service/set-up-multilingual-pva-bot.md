@@ -85,12 +85,12 @@ For example, you can create a bot with the following details:
 
      :::image type="content" source="media/pva-framework-setup.png" alt-text="Set customer locale by using the branch switch option.":::
 
-   1. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
+  1. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
 
      - **Condition**: conversation.language_choice
       - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três
        
-   1. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
+  1. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
      - **Property**: virtualagent.va_CustomerLocale
       - **Value**: en-US
