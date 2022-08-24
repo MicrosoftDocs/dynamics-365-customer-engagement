@@ -1,7 +1,7 @@
 ---
 title: "Configure and view your team page in conversation intelligence app"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
-ms.date: 01/10/2022
+ms.date: 08/23/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,6 +15,7 @@ topic-status: Drafting
 Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -38,7 +39,8 @@ As a sales manger, you can:
 > [!NOTE]
 > Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-1.	Open the **Conversation intelligence** application.  
+1.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/)
+  
 2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")  
