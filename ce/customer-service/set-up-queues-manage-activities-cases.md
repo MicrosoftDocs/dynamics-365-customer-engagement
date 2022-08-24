@@ -143,7 +143,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 > - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
 > - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent that created the case.
 
-### Create a queue in legace Service Management
+### Create a queue in legacy Service Management
 
 **To create or edit a queue**
   
