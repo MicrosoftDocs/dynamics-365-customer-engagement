@@ -1187,7 +1187,7 @@
     - name: Troubleshooting Sales Professional
       href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues?context=/dynamics365/context/sales-context
     - name: Sales FAQs
-      href: faqs-sales.md
+      href: faqs-sales.yml
     - name: Sales premium FAQs
       href: faqs-sales-insights.md
 - name: Removed or deprecated features
