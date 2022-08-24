@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/24/2022
+ms.date: 08/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -54,7 +54,7 @@ The following are required view columns:
 - Status
 - Title
 
-The Content field is hidden on the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
+The **Content** field is hidden on the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
 
 ### Customer Service workspace and Omnichannel for Customer Service
 
@@ -214,9 +214,14 @@ For more information on setting up search providers, see [Set up a search provid
 ### See also
 
 [Configure knowledge base article URLs](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-base-article-urls)
+
 [Filter knowledge articles](filter-articles.md#filter-knowledge-articles)
+
 [Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
+
 [Email a knowledge article](email-articles.md#email-a-knowledge-article)
+
+[Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
