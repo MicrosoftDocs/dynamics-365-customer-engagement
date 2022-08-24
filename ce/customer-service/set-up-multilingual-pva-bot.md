@@ -87,21 +87,21 @@ For example, you can create a bot with the following details:
 
   f. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
 
-       - **Condition**: conversation.language_choice
-       - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três
+     - **Condition**: conversation.language_choice
+     - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três
        
   g. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
-       - **Property**: virtualagent.va_CustomerLocale
-       - **Value**: en-US
-      Repeat **Set a property** for fr-FR, pt-PT, hi-IN.
+     - **Property**: virtualagent.va_CustomerLocale
+     - **Value**: en-US
+     Repeat **Set a property** for fr-FR, pt-PT, hi-IN.
 
-          :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
+      :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
 
-        The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
+      The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
-        > [!NOTE]
-        > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-region-availability.md#supported-languages-and-locale-codes)
+      > [!NOTE]
+      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-region-availability.md#supported-languages-and-locale-codes)
 
    1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
