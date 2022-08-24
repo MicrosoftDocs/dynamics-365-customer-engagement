@@ -1,21 +1,29 @@
 ---
-title: "msdyn_preferredagent entity reference (Microsoft Dataverse)| MicrosoftDocs"
+title: "msdyn_preferredagent Entity Reference| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_preferredagent entity."
-ms.date: 6/1/2022
-
+ms.date: 08/24/2022
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "gandhamm"
 ms.author: "mgandham"
 manager: "shujoshi"
-search.audienceType: 
-  - developer
+ms.topic: "reference"
+author: "mh-jaya"
+search.app: 
+  - PowerApps
+  - D365CE
 ---
-# msdyn_preferredagent entity reference
+# msdyn_preferredagent Entity Reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
-Preferred Agent Entity
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
 
 **Added by**: Dynamics 365 UR Core solution
 
