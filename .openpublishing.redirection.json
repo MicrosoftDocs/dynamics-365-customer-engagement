@@ -23957,12 +23957,12 @@
     },
     {  
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
-      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh?tabs=customerserviceadmincenter",
+      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
     },
     {  
       "source_path": "ce/customer-service/csw-search-knowledge-articles.md",
-      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh?tabs=customerserviceadmincenter",
+      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
     }
   ]
