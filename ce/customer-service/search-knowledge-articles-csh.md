@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 04/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -37,8 +37,7 @@ Dataverse search uses Azure search service to index and search records. Datavers
 
 
 > [!NOTE]
-> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If Dataverse search is not enabled for the entity, standard full-text search is used. 
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization). Once Dataverse search is enabled, irrespective of whether the knowledge article entity is enabled or disabled, Dataverse search will be used.
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
@@ -50,7 +49,7 @@ Dataverse search uses the scoring concepts as defined by Azure search. To be abl
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
 
-The following are required view columns:
+The following are the required View columns:
 
 - Article Public Number
 - Content
@@ -64,6 +63,8 @@ The following are required view columns:
 - Rating
 - Status
 - Title
+
+The **Content** field is hidden on the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
 
 ## Knowledge Base Search control
 

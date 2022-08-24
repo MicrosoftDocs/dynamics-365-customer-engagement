@@ -5,9 +5,9 @@ ms.date: 10/31/2017
 
 ms.topic: article
 ms.assetid: 66ed4cef-33f3-4a15-b865-f8b9e8934b68
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mhart
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 7
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# IoT - Parent IoT Alerts workflow
+# IoT - The Parent IoT Alerts workflow
 
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
   

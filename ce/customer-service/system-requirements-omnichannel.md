@@ -82,6 +82,8 @@ If your organization is using a URL filter to block a category of websites or UR
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
 - `https://*.skype.com/*`
+- `https://*.trouter.skype.com`
+- `https://*.edge.skype.com`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`

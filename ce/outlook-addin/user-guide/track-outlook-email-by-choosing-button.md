@@ -1,5 +1,6 @@
 ---
 title: "Track Outlook email by choosing a button in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to track emails using a manual process in Microsoft Dynamics 365 for Outlook to keep personal emails separate from customer emails.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 

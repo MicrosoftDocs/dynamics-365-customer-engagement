@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 08/18/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -18,37 +18,34 @@ ms.reviewer: nenellim
 
 The following table lists the rich cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
+| Channel | Hero card | Thumbnail card | Sign in card |Audio card | Card carousel |
 |---------------|-----------|----------------|-------------|------------|----|
 | Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
-| Facebook | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
 | LINE    | ✔ | ✔   | ✔ | 🌐  | ✔|
 | Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
 | Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
-
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-⚠: Partial support; varies by channel; card might not be displayed at all if it contains inputs or buttons. 
-
-✔* : Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
-
-✖: No support.
-
-🔶: Card is converted to an image.
+✔*: Card elements are supported in the Webchat version of Custom (Direct Line) channel, but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+
+✖: No support
 
 The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element isn't supported in live chat, whereas, it's supported in LINE.
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-Other social channels, such as Twitter, SMS, WhatsApp, and WeChat don't support any cards listed in the preceding table.
+The Apple Messages for Business, Google's Business Messages, Twitter, SMS, WhatsApp, and WeChat social channels don't support any cards listed in the preceding table.
 
 For more information, see the following:
 
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
+
+> [!Important]
+> The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like  timestamps and tags.
 
 ## Support for suggested actions
 
@@ -57,7 +54,9 @@ Suggested actions are supported fully with the exception that some channels migh
 | Channel                        | Supported?                      |
 |--------------------            |---------------------------------|
 | Microsoft Teams                | No                              |
+| Apple Messages for Business    | No                              |
 | Facebook                       | Yes                             |
+| Google's Business Messages     | No                              |
 | LINE                           | Yes                             |
 | Twitter                        | No                              |
 | WeChat                         | No                              |
@@ -73,7 +72,9 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Channel              | Inbound attachments                        | Outbound attachments                  | 
 |----------------------|--------------------------------------------|---------------------------------------|
 | Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx  | 
+| Apple Messages for Business | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF.<br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .caf, .pkpass, .usdz |
 | Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
+| Google's Business Messages | Image | Image will have preview. Audio, video, document only receive a link.<br><br> Allowed file extentions: .jpg, .jpeg, .png, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 | LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif | 
 | Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp4, .gif |
 | WeChat               | Image, Audio, and Video                        | Image, Audio, and Video <br><br> Allowed file extensions: .jpg, .jpeg, .png, .amr, .mp4 |
@@ -94,7 +95,9 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Channel            | Emoji behavior                                                      |
 |--------------------|---------------------------------------------------------------------|
 | Microsoft Teams    | Yes. Emoji in PNG format                                            |
+| Apple Messages for Business | Yes. Emoji in text like “😀”                              |
 | Facebook           | Yes. Emoji in text like “😀”                                       |
+| Google's Business Messages | Yes. Emoji in text like “😀”                               |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
 | Twitter            | Yes. Emoji in text like “😀”                                       |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters like :-) |
@@ -111,7 +114,9 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Channel            | Sticker behavior                                                    |
 |--------------------|---------------------------------------------------------------------|
 | Microsoft Teams    | Not supported.                                                      |
-| Facebook           | Yes, as a PNG image.                                                 |
+| Apple Messages for Business | Not supported.                                             |
+| Facebook           | Yes, as a PNG image.                                                |
+| Google's Business Messages | Not supported.                                              |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | Twitter            | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
@@ -134,7 +139,9 @@ With social profiles, you can do the following:
 
 | Channel            | Supported?                                                          | Visitor name|
 |--------------------|---------------------------------------------------------------------|-------------|
+| Apple Messages for Business | Yes                                                        | Visitor     |
 | Facebook           | Yes                                                                 | User name |
+| Google's Business Messages | Yes                                                         | Display name |
 | LINE               | Yes                                                                 | Display name |
 | Twitter            | Yes                                                                 | Twitter handle name |
 | WeChat             | Yes                                                                 | Visitor |
@@ -151,23 +158,49 @@ Agents can use basic formatting capabilities in their outbound messages across b
 
 The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
-| Style                | Live chat  | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
-|----------------------| ---------- | -------------   | -------- | ---------|------------------          |------------------------------  |
-| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| italics              | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
-| monospace            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| hyperlink with text  | ✔          | ✔              | ✖        | ✖       | ✔                          | ✔                             |
-| hyperlink            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| new line             | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| headers              | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
-| numbered list        | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
-| unordered list       | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
+| Style                | Live chat  | Microsoft Teams | Facebook | Google's Messages for Business | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
+|----------------------| ---------- | -------------   | -------- |------------------------------- |---------|------------------          |------------------------------  |
+| bold                 | ✔          | ✔              | ✔        |✔                               |✔       | ✔                          | ✔                             |
+| italics              | ✔          | ✔              | ✔        |✔                               |✔       | ✔                          | ✔                             |
+| strikethrough        | ✔          | ✔              | ✔        |✖                               |✔       | ✔                          | ✔                             |
+| blockquote           | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
+| monospace            | ✔          | ✔              | ✔        |✖                               |✔       | ✔                          | ✔                             |
+| hyperlink with text  | ✔          | ✔              | ✖        |✖                               |✖       | ✔                          | ✔                             |
+| hyperlink            | ✔          | ✔              | ✔        |✔                               |✔       | ✔                          | ✔                             |
+| new line             | ✔          | ✔              | ✔        |✖                               |✔       | ✔                          | ✔                             |
+| headers              | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
+| numbered list        | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
+| unordered list       | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
 
 > [!Note]
-> - Twitter, WeChat, and SMS channels don't support formatted messages.
+> - Apple Messages for Business, Twitter, WeChat, and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
+
+## Preconfigured automated message triggers for asynchronous channels
+
+### Preconfigured automated message triggers for agents
+
+The following table lists the automated messages that are displayed for an agent across different asynchronous channels.
+
+|**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
+|-----------------|----------------|------------|-----------------|
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message or attachment couldn't be sent. Error details include error code, reason for failure, message ID, timestamp, and transaction ID.| Message that's displayed to agent when  the agent's message or attachment couldn't be sent | When agent's message or attachment couldn't be sent |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Customer's file couldn't be attached because it's too big| Message that's displayed to agent when the customer sends an attachment that exceeds the allowed limit   | When customer sends an attachment that exceeds the allowed limit  |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message couldn't be delivered: Unsupported message type| Message that's displayed to agent when customer sends an unsupported message type| When customer sends an unsupported message type |
+|Custom | Customer disconnected| Message that's displayed to agent when the customer gets disconnected|  When the customer gets disconnected |
+|Custom|  Customer ended conversation| Message that's displayed to agent when customer ends the conversation| When customer ends the conversation|
+
+### Preconfigured automated message triggers for customers
+
+The following table lists the automated messages that are displayed for a customer across different asynchronous channels.
+
+|**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
+|-----------------|----------------|------------|-----------------|
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp| Customer's file couldn't be attached because it's too big |Message that's displayed to customer when the customer sends an attachment that exceeds the allowed limit   | When customer sends an attachment that exceeds the allowed limit  |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp |Message couldn't be delivered: Unsupported message type | Message that's displayed to customer when the customer sends an unsupported message type |  When customer sends an unsupported message type |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp |Greeting Message for Async Channels | Message that's displayed to customer when the customer sends a message request to chat  | When customer sends a message request to chat |
+|Custom| Customer's position in queue | Message that's displayed to customer when there is a queue of customers waiting| When customer submits a request and is placed in the queue to chat with an agent because other customers are already waiting. | 
+|Custom| Customer is next in line|  Message that's displayed to customer when no other customer is ahead in the queue |  The number of customers waiting to chat gets updated each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message. |
 
 ### See also
 

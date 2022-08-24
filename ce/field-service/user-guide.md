@@ -2,12 +2,12 @@
 title: "User guide for Dynamics 365 Field Service (contains video) | Microsoft Docs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: overview
 
 ms.custom: intro-internal
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app:
   - D365CE
@@ -26,7 +26,7 @@ Before we begin, here are the top places for information about Field Service:
   
   <ul>
 <li><a href="overview.md" data-raw-source="[Docs](overview.md)">Docs</a></li>
-  <li><a href="https://docs.microsoft.com/learn/browse/?products=dynamics-field-service&expanded=dynamics-365" data-raw-source="[Guided Learn courses](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service&expanded=dynamics-365)">Guided Learn courses</a></li>
+  <li><a href="/learn/browse/?products=dynamics-field-service&expanded=dynamics-365" data-raw-source="[Guided Learn courses](/learn/browse/?products=dynamics-field-service&expanded=dynamics-365)">Guided Learn courses</a></li>
 <li> <a href="https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X" data-raw-source="[[YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)]">YouTube Channel</a>
 <li> <a href="https://aka.ms/fs-videos" data-raw-source="[[Video tutorials](https://aka.ms/fs-videos)]">Video tutorials</a>
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
@@ -126,7 +126,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 
 <ul>
 
- <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg )">What is Resource Scheduling Optimization?</a></li>
+ <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg)">What is Resource Scheduling Optimization?</a></li>
  <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)">Quickstart: Auto schedule a list of work orders</a></li>
  <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run RSO](rso-overview.md)">Deploy, configure, and run RSO</a></li>
 </ul>

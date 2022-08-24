@@ -1,7 +1,7 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 04/11/2022
+ms.date: 08/04/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -16,22 +16,22 @@ Use the Customer Service admin center app to set up the features in Customer Ser
 
 Some of the improvements include:  
 
-- Consolidated administration experiences across Customer Service Hub and Omnichannel admin center, and app profile manager.
+- Consolidated administration experiences across Customer Service Hub, Omnichannel admin center, and app profile manager.
 
-- Reorganized site map that's task oriented.
+- Reorganized site map that's task-oriented.
 
 - Overview pages for each area that list at-a-glance information with deep links to manage features.
 
 - Landing pages per feature with an overview of all the capabilities.
 
-- The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, other features are automatically available.
+- The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
   
    <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Prerequisites
 
-You'll need one or more of the following security roles to access this app.
+You'll need one or more of the following security roles to access this app:
 
 - **System Administrator**: Can access and edit all the site map entries
 
@@ -47,7 +47,7 @@ You'll need one or more of the following security roles to access this app.
 
 The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center.
 
-### Quick setup (preview)
+## Quick setup (preview)
 
 > [!NOTE]
 >
@@ -56,7 +56,7 @@ The app is automatically installed in all the Customer service organizations. Yo
 
 You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
-### Navigate the site map in Customer Service admin center
+## Navigate the site map in Customer Service admin center
 
 The Customer Service features are organized in the site map as follows. Every group contains an overview page with deep links to the features within the area.
 
