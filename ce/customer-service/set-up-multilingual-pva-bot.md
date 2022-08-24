@@ -85,13 +85,13 @@ For example, you can create a bot with the following details:
 
      :::image type="content" source="media/pva-framework-setup.png" alt-text="Set customer locale by using the branch switch option.":::
      
-   e. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
+   f. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
 
       - **Condition**: conversation.language_choice
       - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três   
      In **Value**, specify one choice per value.
      
-   e. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
+   g. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
       - **Condition**: virtualagent.va_CustomerLocale
       - **Value**: en-US   
@@ -105,9 +105,9 @@ For example, you can create a bot with the following details:
       > [!NOTE]
       > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-region-availability.md#supported-languages-and-locale-codes)
 
-   g. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
+   h. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
-   h. In **Dialog name**, select **Escalate**.
+   i. In **Dialog name**, select **Escalate**.
 
 1. In the site map, select **Publish**, and then select **Publishing profile**.
 
