@@ -94,13 +94,13 @@ If you have a custom role, you must also have access to the following entities:
 
 ### Create custom data in organizations with existing Omnichannel solution
 
-In the preview release, if your organization has the Omnichannel solution installed and you want to use the preferred agent settings for routing records, such as case and email, perform the steps outlined in this section.
+In the preview release, if the Omnichannel solution is already installed in your organization and you want to use the preferred agent settings for routing records, such as the case or email record, you must perform the steps in this section.
 
-1. Go to the Customer Service admin center app, and enter the following URL in the address bar.
+1. Go to the Customer Service admin center app, and enter the following URL in the address bar to make an oData call and determine if data exists.
 
     `OrgURL`/api/data/v9.0/msdyn_preferredagentroutedentities  
 
-1. If no data is displayed, in the console window, run the code for one of the following record types depending on the record you want to route.
+1. If no data is displayed, then, in the developer console window, run the code for each of the following record types depending on the records that you want to route.
 
 - **Case**
 
