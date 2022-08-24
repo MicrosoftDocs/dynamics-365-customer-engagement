@@ -90,10 +90,12 @@ For example, you can create a bot with the following details:
       - **Condition**: conversation.language_choice
       - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três   
      In **Value**, specify one choice per value.
-   f.  Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
+     
+   e. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
-       - **Condition**: virtualagent.va_CustomerLocale
-       - **Value**: en-US 
+      - **Condition**: virtualagent.va_CustomerLocale
+      - **Value**: en-US   
+      
      Repeat **Set a property** for fr-FR, pt-PT, hi-IN.
 
       :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
