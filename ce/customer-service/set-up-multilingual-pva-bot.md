@@ -121,6 +121,8 @@ For example, you can create a bot with the following details:
 
 1. In Power Virtual Agents, refresh **Topics**. You'll see the topic listed.
 
+2. Select **Publish**. 
+
 ## Configure the greeting topic in Power Virtual Agents
 
 1. In Power Virtual Agents, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
