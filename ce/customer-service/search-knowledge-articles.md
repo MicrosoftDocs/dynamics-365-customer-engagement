@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/18/2022
+ms.date: 08/24/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,13 +19,22 @@ ms.custom:
 
 # Search knowledge articles
 
-You can search knowledge articles through Customer Service Hub, Customer Service workspace or Omnichannel for Customer Service.
+You can search knowledge articles through Customer Service Hub, Customer Service workspace, or Omnichannel for Customer Service.
 
 ## Prerequisites
 
-Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list.
+Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). 
 
-Dataverse search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Dataverse search uses Azure search service to index and search records. Dataverse search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse search, you can also configure searchable fields in the knowledge article entity.
+
+More information: [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization)
+
+> [!NOTE]
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization). Once Dataverse search is enabled, irrespective of whether the knowledge article entity is enabled or disabled, Dataverse search will be used.
+
+For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
+
+Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. Dataverse search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns.
@@ -45,7 +54,7 @@ The following are required view columns:
 - Status
 - Title
 
-Although Content is a required View column, it's kept hidden to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
+The Content field is hidden on the user interface to avoid unintentional deletion of content leading to disruption in the Dataverse search functionality.
 
 ### Customer Service workspace and Omnichannel for Customer Service
 
@@ -204,8 +213,10 @@ For more information on setting up search providers, see [Set up a search provid
 
 ### See also
 
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
+[Configure knowledge base article URLs](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-base-article-urls)
+[Filter knowledge articles](filter-articles.md#filter-knowledge-articles)
+[Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
+[Email a knowledge article](email-articles.md#email-a-knowledge-article)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
