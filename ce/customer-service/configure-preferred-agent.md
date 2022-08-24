@@ -1,7 +1,7 @@
 ---
 title: "Configure routing to preferred agents | MicrosoftDocs"
 description: "Configure settings to route work items to preferred agents in Customer Service."
-ms.date: 07/05/2022
+ms.date: 08/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -92,10 +92,152 @@ If you have a custom role, you must also have access to the following entities:
 - [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md)
 - [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md)
 
-## How preferred agents are assigned to contacts
+### Create custom data in organizations with existing Omnichannel solution
 
-<Need to fill in>
+In the preview release, if your organization has the Omnichannel solution installed and you want to use the preferred agent settings for routing records, such as case and email, perform the steps outlined in this section.
 
+1. Go to the Customer Service admin center app, and enter the following URL in the address bar.
+   
+    `OrgURL`/api/data/v9.0/msdyn_preferredagentroutedentities  
+
+1. If no data is displayed, in the console window, run the code for one of the following record types depending on the record you want to route.
+
+- **Case**
+
+```js    
+var data = {
+    msdyn_customeridentifiername: 'customerid',
+    msdyn_name: 'Preferred Agent Routed Entity',
+    msdyn_preferredagentroutedentityid: '90ef68ce-67d7-ec11-a7b6-000d3a9c947d',
+    msdyn_routedentityname: 'incident'
+}
+//Create record XRM call
+Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+    function success(result) {
+        console.log("Record created with ID: " + result.id);
+        // perform operations on record creation
+    },
+    function(error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+```
+
+- **Email**
+
+```js
+var data = {
+    msdyn_customeridentifiername: 'regardingobjectid',
+    msdyn_name: 'Preferred Agent Routed Entity',
+    msdyn_preferredagentroutedentityid: '0fa834dc-79d7-ec11-a7b6-000d3a9c947d',
+    msdyn_routedentityname: 'email'
+}
+//Create record XRM call 
+Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+    function success(result) {
+        console.log("Record created with ID: " + result.id);
+        // perform operations on record creation 
+    },
+    function(error) {
+        console.log(error.message);
+        // handle error conditions 
+    }
+); 
+```
+
+- **Appointment**
+
+```js
+var data = {
+    msdyn_customeridentifiername: 'regardingobjectid',
+    msdyn_name: 'Preferred Agent Routed Entity',
+    msdyn_preferredagentroutedentityid: 'b78386c4-79d7-ec11-a7b6-000d3a9c947d',
+    msdyn_routedentityname: 'appointment'
+}
+
+//Create record XRM call 
+Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+    function success(result) {
+        console.log("Record created with ID: " + result.id);
+        // perform operations on record creation 
+    },
+    function(error) {
+        console.log(error.message);
+        // handle error conditions 
+    }
+);
+```
+
+- **Letter**
+
+```js
+var data = {
+    msdyn_customeridentifiername: 'regardingobjectid',
+    msdyn_name: 'Preferred Agent Routed Entity',
+    msdyn_preferredagentroutedentityid: 'c9896fa2-98d7-ec11-a7b6-000d3a9c947d',
+    msdyn_routedentityname: 'letter'
+}
+
+//Create record XRM call 
+Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+    function success(result) {
+        console.log("Record created with ID: " + result.id);
+        // perform operations on record creation 
+    },
+    function(error) {
+        console.log(error.message);
+        // handle error conditions 
+    }
+);
+```
+
+- **Fax**
+
+```js
+var data = {
+    msdyn_customeridentifiername: 'regardingobjectid',
+    msdyn_name: 'Preferred Agent Routed Entity',
+    msdyn_preferredagentroutedentityid: '43c91071-98d7-ec11-a7b6-000d3a9c947d',
+    msdyn_routedentityname: 'fax'
+}
+
+//Create record XRM call 
+Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+    function success(result) {
+        console.log("Record created with ID: " + result.id);
+        // perform operations on record creation 
+    },
+    function(error) {
+        console.log(error.message);
+        // handle error conditions 
+    }
+);
+```
+
+- **Phonecall**
+
+```js
+var data = {
+    msdyn_customeridentifiername: 'regardingobjectid',
+    msdyn_name: 'Preferred Agent Routed Entity',
+    msdyn_preferredagentroutedentityid: '307eef45-98d7-ec11-a7b6-000d3a9c947d',
+    msdyn_routedentityname: 'phonecall'
+}
+
+//Create record XRM call 
+Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+    function success(result) {
+        console.log("Record created with ID: " + result.id);
+        // perform operations on record creation 
+    },
+    function(error) {
+        console.log(error.message);
+        // handle error conditions 
+    }
+); 
+```
+ 
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
