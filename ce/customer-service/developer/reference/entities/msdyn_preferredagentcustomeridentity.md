@@ -19,7 +19,7 @@ search.app:
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../../../../includes/cc-preview-feature.md)]
 >
-> [!INCLUDE[cc-preview-features-definition](../../../../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc-preview-features-definition](../../../../includes/cc-preview-feature.md)]
 >
 > [!INCLUDE[cc-preview-features-expect-changes](../../../../includes/cc-preview-features-expect-changes.md)]
 >

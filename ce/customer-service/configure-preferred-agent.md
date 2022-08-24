@@ -97,7 +97,7 @@ If you have a custom role, you must also have access to the following entities:
 In the preview release, if your organization has the Omnichannel solution installed and you want to use the preferred agent settings for routing records, such as case and email, perform the steps outlined in this section.
 
 1. Go to the Customer Service admin center app, and enter the following URL in the address bar.
-   
+
     `OrgURL`/api/data/v9.0/msdyn_preferredagentroutedentities  
 
 1. If no data is displayed, in the console window, run the code for one of the following record types depending on the record you want to route.
@@ -147,7 +147,7 @@ In the preview release, if your organization has the Omnichannel solution instal
     ```
 
 - **Appointment**
-    
+
     ```js
     var data = {
         msdyn_customeridentifiername: 'regardingobjectid',
@@ -215,7 +215,7 @@ In the preview release, if your organization has the Omnichannel solution instal
     );
     ```
 
-- **Phonecall**
+- **Phone call**
 
     ```js
     var data = {
