@@ -126,11 +126,11 @@ For all cases that are automatically created from incoming email and social post
 
 Alternatively, you can manually add cases and activities to queues. More information: [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
   
-## Assign items to agents
+## Assign work items to agents
 
-Queues share cases or activities as a group until these are taken out of the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents, or to other queues, users, and teams.  
+Queues share cases or activities as a group until they're removed from the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the work items for themselves, or a customer service manager can manually route these cases to the agents, or to other queues, users, and teams.  
 
-To assign items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
+To assign work items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!Note]
 >
