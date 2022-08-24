@@ -366,7 +366,7 @@
         href: remove-validation-contact.md
   - name: Automatically create or update records
     items: 
-    - name: Automatically create or update records in Customer Service Hub
+    - name: Automatically create or update records
       href: automatically-create-update-records.md
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
@@ -1180,8 +1180,6 @@
       href: contract-to-entitlement-migration.md
     - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
-    - name: FAQ about create records automatically and activity monitor
-      href: arc-faqs.md  
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration
@@ -1614,6 +1612,8 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
+    - name: FAQ about automation record creation and activity monitor
+      href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
     - name: FAQ about Omnichannel for Customer Service
