@@ -10,10 +10,10 @@
     items: 
       - name: Sign up for the free trial
         href: sign-up-for-sales-trial.md
-      - name: Trial FAQs
-        href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
   - name: Install and configure
     items:
     - name: Use the Sales Hub app 
