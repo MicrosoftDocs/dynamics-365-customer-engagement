@@ -3,10 +3,10 @@ title: Booking lock options in Resource Scheduling Optimization for Dynamics 365
 description: Learn about the booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service.
 
 ms.date: 01/29/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
-ms.author: daclar
-author: FieldServiceDave
+ms.author: mhart
+author: m-hartmann
 search.app: 
   - D365CE
   - D365FS

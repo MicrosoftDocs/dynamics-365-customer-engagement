@@ -1,8 +1,45 @@
 
+## 3.12.87.3 - 2022 wave 2 early access update 1
+
+(Includes Resource Scheduling controls version 1.2.28.222201).
+
+## 3.12.83.6
+
+(Includes Resource Scheduling controls version 1.2.24.222144).
+
+Bug fixes for new schedule board:
+-	Booking a resource with flexible dates.
+-	Details panel shows empty values for some columns. 
+-	Custom date-time field value is showing -1 day on requirements panel.
+-	Different behavior of the Schedule Assistance (Create Booking Panel) in the List and Gantt view.
+-	When booking status changed to cancelled, booking should disappear automatically.
+-	Incorrect view of booking with travel.
+-	Work hour for resources doesn't respect time zone change.
+-	Appointment tooltips are not showing anything.
+-	Rebook button not available for long bookings.
+-	Refreshing after reassigning a booking throws an error.
+-	Booking view doesn't display multiline field value.
+
+
+## 3.12.82.14
+
+(Includes Resource Scheduling controls version 1.2.23.221941).
 
 ## 3.12.81.3
 
 (Includes Resource Scheduling controls version 1.2.22.221876).
+
+-	Scheduling assistant shows generic error message instead of a message returned from the server.
+-	Improved requirement group scheduling performance for large number of bookable resources.
+-	The Organization Unit field does not display an asterisk on the form although it is set to business required.
+-	In the New Schedule Board, the user is unable to clear a date in the Schedule Assistant Filter window.
+-	Time From/To Promised date time is not populated correctly from the form value.
+-	In the new Schedule Board, the Booking Method does not get updated.
+-	Dragging the booking to next dates on the new schedule board daily view "Extend to" date is shown one day earlier.
+-	On the new schedule board, daily view unable to select multiple days using ctrl key. 
+-	Requirements tab stuck on loading when date formats were not yyyyMMdd.
+-	Requirements details present on Schedule Assist are not showing the field value.
+
 
 ## 3.12.80.9
 

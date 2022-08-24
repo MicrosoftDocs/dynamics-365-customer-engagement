@@ -1,7 +1,7 @@
 ---
 title: "Monitor, assign, transfer, and end conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
-ms.date: 02/25/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: "neeranelli"
 ms.author: nenellim
@@ -31,7 +31,7 @@ As a supervisor, you can monitor or assign conversations that are configured for
 > [!NOTE]
 > You can't monitor conversations that are assigned to you.
 
-1. Sign in to Dynamics 365 and open Omnichannel for Customer Service app.
+1. Sign in to Dynamics 365 and go to the Customer Service workspace or Omnichannel for Customer Service app.
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
     The list of conversations currently being handled by your agents is displayed.

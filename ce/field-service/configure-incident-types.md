@@ -3,10 +3,10 @@ title: "Configure incident types in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about configuring incident types in Dynamics 365 Field Service
 ms.date: 11/10/2021
 
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

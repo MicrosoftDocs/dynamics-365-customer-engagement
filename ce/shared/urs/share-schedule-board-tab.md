@@ -72,7 +72,7 @@ Double-click the record to go to the form, and select **Share** on the top ribbo
 Finally, use the pop-up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of choosing users and teams to share the schedule board with.](../../field-service/media/schedule-board-share-permissions.png)
+> ![Screenshot of Share Schedule Board Settings window.](../../field-service/media/schedule-board-share-permissions.png)
 
 ## Link to specific schedule board
 
@@ -85,16 +85,16 @@ A GUID is a 32-digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX a
 You can find the GUID of a schedule board tab with an advanced find of the **Schedule Board Settings** entity. Select the record that corresponds with the schedule board tab you want to share and use the **Email a link** button to get the GUID.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of choosing users and teams to share the schedule board with.](../../field-service/media/scheduling-link-sb-get-link.png)
+> ![Screenshot highlighting the schedule board settings tab, Email a link button, and one owner entry.](../../field-service/media/scheduling-link-sb-get-link.png)
 
 Finally, copy and paste the GUID into the template link below.
-
+```
     https://[dynamics org name].crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=[32 digit GUID].
-
+```
 See the following for an example of an acceptable URL to a specific schedule board tab.
-
-    https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
-
+```
+https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
+```
 Be sure to test the link by entering it into a browser. Note that people who follow the link will be prompted to log in to Dynamics 365 Field Service if they aren't already logged in.
 
 ## Additional notes
