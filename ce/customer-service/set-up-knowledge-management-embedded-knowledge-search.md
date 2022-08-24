@@ -72,7 +72,7 @@ After you have configured knowledge management on your app, you must also set up
       1. On the **Record Types** page, add and configure the record types for which you want to turn on knowledge management. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md). By default, knowledge management is enabled for **Case** and **Conversation** record types. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center app.
   3. In the **General Settings** section, select **Manage**. The **General Settings** page appears.
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for the app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
-      1. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+      1. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
         * If you want to select a default knowledge authoring language for your organization, then select the **Organization’s UI language** radio button. 
         *	If you want to use the organizations’ s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
@@ -104,7 +104,7 @@ After you have configured knowledge management on your app, you must also set up
   
    - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
-4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
 
 5. In the **Knowledge articles search filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, then set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
 

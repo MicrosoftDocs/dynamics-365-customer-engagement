@@ -43,7 +43,7 @@ To set up the feedback control, see [Set up knowledge management](set-up-knowled
 
 ### See also
 
-[Search knowledge articles](search-knowledge-articles.md#search-knowledge-articles)
+[Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles)
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
  
