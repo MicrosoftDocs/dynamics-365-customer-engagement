@@ -104,139 +104,139 @@ In the preview release, if your organization has the Omnichannel solution instal
 
 - **Case**
 
-```js    
-var data = {
-    msdyn_customeridentifiername: 'customerid',
-    msdyn_name: 'Preferred Agent Routed Entity',
-    msdyn_preferredagentroutedentityid: '90ef68ce-67d7-ec11-a7b6-000d3a9c947d',
-    msdyn_routedentityname: 'incident'
-}
-//Create record XRM call
-Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-    function success(result) {
-        console.log("Record created with ID: " + result.id);
-        // perform operations on record creation
-    },
-    function(error) {
-        console.log(error.message);
-        // handle error conditions
+    ```js    
+    var data = {
+        msdyn_customeridentifiername: 'customerid',
+        msdyn_name: 'Preferred Agent Routed Entity',
+        msdyn_preferredagentroutedentityid: '90ef68ce-67d7-ec11-a7b6-000d3a9c947d',
+        msdyn_routedentityname: 'incident'
     }
-);
-```
+    //Create record XRM call
+    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+        function success(result) {
+            console.log("Record created with ID: " + result.id);
+            // perform operations on record creation
+        },
+        function(error) {
+            console.log(error.message);
+            // handle error conditions
+        }
+    );
+    ```
 
 - **Email**
 
-```js
-var data = {
-    msdyn_customeridentifiername: 'regardingobjectid',
-    msdyn_name: 'Preferred Agent Routed Entity',
-    msdyn_preferredagentroutedentityid: '0fa834dc-79d7-ec11-a7b6-000d3a9c947d',
-    msdyn_routedentityname: 'email'
-}
-//Create record XRM call 
-Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-    function success(result) {
-        console.log("Record created with ID: " + result.id);
-        // perform operations on record creation 
-    },
-    function(error) {
-        console.log(error.message);
-        // handle error conditions 
+    ```js
+    var data = {
+        msdyn_customeridentifiername: 'regardingobjectid',
+        msdyn_name: 'Preferred Agent Routed Entity',
+        msdyn_preferredagentroutedentityid: '0fa834dc-79d7-ec11-a7b6-000d3a9c947d',
+        msdyn_routedentityname: 'email'
     }
-); 
+    //Create record XRM call 
+    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+        function success(result) {
+            console.log("Record created with ID: " + result.id);
+            // perform operations on record creation 
+        },
+        function(error) {
+            console.log(error.message);
+            // handle error conditions 
+        }
+    ); 
 ```
 
 - **Appointment**
-
-```js
-var data = {
-    msdyn_customeridentifiername: 'regardingobjectid',
-    msdyn_name: 'Preferred Agent Routed Entity',
-    msdyn_preferredagentroutedentityid: 'b78386c4-79d7-ec11-a7b6-000d3a9c947d',
-    msdyn_routedentityname: 'appointment'
-}
-
-//Create record XRM call 
-Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-    function success(result) {
-        console.log("Record created with ID: " + result.id);
-        // perform operations on record creation 
-    },
-    function(error) {
-        console.log(error.message);
-        // handle error conditions 
+    
+    ```js
+    var data = {
+        msdyn_customeridentifiername: 'regardingobjectid',
+        msdyn_name: 'Preferred Agent Routed Entity',
+        msdyn_preferredagentroutedentityid: 'b78386c4-79d7-ec11-a7b6-000d3a9c947d',
+        msdyn_routedentityname: 'appointment'
     }
-);
-```
+    
+    //Create record XRM call 
+    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+        function success(result) {
+            console.log("Record created with ID: " + result.id);
+            // perform operations on record creation 
+        },
+        function(error) {
+            console.log(error.message);
+            // handle error conditions 
+        }
+    );
+    ```
 
 - **Letter**
 
-```js
-var data = {
-    msdyn_customeridentifiername: 'regardingobjectid',
-    msdyn_name: 'Preferred Agent Routed Entity',
-    msdyn_preferredagentroutedentityid: 'c9896fa2-98d7-ec11-a7b6-000d3a9c947d',
-    msdyn_routedentityname: 'letter'
-}
-
-//Create record XRM call 
-Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-    function success(result) {
-        console.log("Record created with ID: " + result.id);
-        // perform operations on record creation 
-    },
-    function(error) {
-        console.log(error.message);
-        // handle error conditions 
+    ```js
+    var data = {
+        msdyn_customeridentifiername: 'regardingobjectid',
+        msdyn_name: 'Preferred Agent Routed Entity',
+        msdyn_preferredagentroutedentityid: 'c9896fa2-98d7-ec11-a7b6-000d3a9c947d',
+        msdyn_routedentityname: 'letter'
     }
-);
-```
+    
+    //Create record XRM call 
+    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+        function success(result) {
+            console.log("Record created with ID: " + result.id);
+            // perform operations on record creation 
+        },
+        function(error) {
+            console.log(error.message);
+            // handle error conditions 
+        }
+    );
+    ```
 
 - **Fax**
 
-```js
-var data = {
-    msdyn_customeridentifiername: 'regardingobjectid',
-    msdyn_name: 'Preferred Agent Routed Entity',
-    msdyn_preferredagentroutedentityid: '43c91071-98d7-ec11-a7b6-000d3a9c947d',
-    msdyn_routedentityname: 'fax'
-}
-
-//Create record XRM call 
-Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-    function success(result) {
-        console.log("Record created with ID: " + result.id);
-        // perform operations on record creation 
-    },
-    function(error) {
-        console.log(error.message);
-        // handle error conditions 
+    ```js
+    var data = {
+        msdyn_customeridentifiername: 'regardingobjectid',
+        msdyn_name: 'Preferred Agent Routed Entity',
+        msdyn_preferredagentroutedentityid: '43c91071-98d7-ec11-a7b6-000d3a9c947d',
+        msdyn_routedentityname: 'fax'
     }
-);
+    
+    //Create record XRM call 
+    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+        function success(result) {
+            console.log("Record created with ID: " + result.id);
+            // perform operations on record creation 
+        },
+        function(error) {
+            console.log(error.message);
+            // handle error conditions 
+        }
+    );
 ```
 
 - **Phonecall**
 
-```js
-var data = {
-    msdyn_customeridentifiername: 'regardingobjectid',
-    msdyn_name: 'Preferred Agent Routed Entity',
-    msdyn_preferredagentroutedentityid: '307eef45-98d7-ec11-a7b6-000d3a9c947d',
-    msdyn_routedentityname: 'phonecall'
-}
-
-//Create record XRM call 
-Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-    function success(result) {
-        console.log("Record created with ID: " + result.id);
-        // perform operations on record creation 
-    },
-    function(error) {
-        console.log(error.message);
-        // handle error conditions 
+    ```js
+    var data = {
+        msdyn_customeridentifiername: 'regardingobjectid',
+        msdyn_name: 'Preferred Agent Routed Entity',
+        msdyn_preferredagentroutedentityid: '307eef45-98d7-ec11-a7b6-000d3a9c947d',
+        msdyn_routedentityname: 'phonecall'
     }
-); 
-```
+    
+    //Create record XRM call 
+    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
+        function success(result) {
+            console.log("Record created with ID: " + result.id);
+            // perform operations on record creation 
+        },
+        function(error) {
+            console.log(error.message);
+            // handle error conditions 
+        }
+    ); 
+    ```
  
 ### See also
 
