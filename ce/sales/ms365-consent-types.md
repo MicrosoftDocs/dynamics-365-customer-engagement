@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 consent types
-description: Dynamics 365 can generate insights based on email interactions and meetings information from Microsoft 365. 
-ms.date: 08/23/2022
+description: Dynamics 365 needs consent from Microsoft 365 admin to collect and use Microsoft 365 data to generate insights.  
+ms.date: 08/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
