@@ -19,7 +19,7 @@ ms.custom:
 
 # Search knowledge articles
 
-You can search knowledge articles through Customer Service Hub, Customer Service workspace, or Omnichannel for Customer Service.
+You can search knowledge articles in Customer Service Hub, Customer Service workspace, or Omnichannel for Customer Service.
 
 ## Prerequisites
 
