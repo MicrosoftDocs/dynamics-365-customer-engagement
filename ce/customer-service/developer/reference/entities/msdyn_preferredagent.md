@@ -10,7 +10,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_preferredagent Entity Reference
+# msdyn_preferredagent Entity Reference (Preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 > [!IMPORTANT]
