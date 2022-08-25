@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Sales Hub | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application."
-ms.date: 08/09/2022
+ms.date: 08/25/2022
 ms.topic: article
 search.app: 
   - D365CE
@@ -33,7 +33,7 @@ As an administrator, you can configure the ability for sellers to chat in Micros
 > [!NOTE]
 > Teams settings apply across all customer engagement apps. So, whether you enable the feature from Sales Hub or a custom app, it'll be enabled for all supported customer engagement apps.
 
-When the feature is enabled, while working on sales records, sellers can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help sellers maintain all the chats related to the record in one place. You can also configure an optional introduction message that sellers can use to provide further context when collaborating on Teams.
+When the feature is enabled, while working on sales records, sellers can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help sellers maintain all the chats related to the record in one place. You can also configure an optional introduction message that sellers can use to provide further context when collaborating on Teams.
 
 This feature requires certain permissions to access Teams data. Review the [Permissions required](#permissions-required) and [Data security and privacy](#data-security-and-privacy) sections to know more.
 
@@ -58,7 +58,7 @@ This feature requires certain permissions to access Teams data. Review the [Perm
     > [!IMPORTANT]
     > You must be a global administrator (tenant administrator) to provide the initial consent. After that, application administrators can enable the preview for other instances.
 
-4. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for linked chats** toggle. Users can change the title if they want.
+4. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for connected chats** toggle. Users can change the title if they want.
 
     :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing these two toggles set to Yes.":::
 
@@ -101,7 +101,7 @@ The preview is now enabled for all the customer engagement apps. You can open a 
     
     1. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
 
-    2. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for linked chats** toggle. Users can change the title if they want.
+    2. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for connected chats** toggle. Users can change the title if they want.
 
         :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing these two toggles set to Yes.":::
 
@@ -111,11 +111,11 @@ The preview is now enabled for all the customer engagement apps. You can open a 
 
 The following data security and privacy considerations apply for Teams chat functionality in Dynamics 365:
 
-- Dynamics 365 doesn't store any Teams data, except for the mapping between the record ID and the linked chat ID. No data from Teams is duplicated in Dynamics 365, unless the user manually adds it to the record notes or tasks.
+- Dynamics 365 doesn't store any Teams data, except for the mapping between the record ID and the connected chat ID. No data from Teams is duplicated in Dynamics 365, unless the user manually adds it to the record notes or tasks.
 
 - The communication between the applications is secured through TLS.
 
-- Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a linked chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permissions to view it.  
+- Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a connected chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permissions to view it.  
 
 - The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, go to [What are the privileges and type of permissions required by the integration?](teams-in-dynamics-faq.md#what-are-the-privileges-and-types-of-permissions-required-by-the-integration).  
 
