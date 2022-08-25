@@ -1,7 +1,7 @@
 ---
-title: "Preview: Collaborate using built-in Microsoft Teams chat (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Collaborate using built-in Microsoft Teams chat (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to collaborate across your organization using built-in Microsoft Teams chat in Dynamics 365 Marketing."
-ms.date: 02/07/2022
+ms.date: 09/09/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,12 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Collaborate using built-in Microsoft Teams chat
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Collaborate using built-in Microsoft Teams chat
 
 Creating great marketing content and journeys is a team effort. With Microsoft Teams chat, you can collaborate with your team without leaving the journey canvas or the email editor. For example, after you create an email, you can tag someone to review your content. Or, while creating a journey, you can collaborate with a coworker to decide which data to use in a branch. This gives you the added benefits of seeing feedback over time and being able to refer to previous comments people made.
 
