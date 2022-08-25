@@ -63,7 +63,7 @@ To remove a domain, select **Close** next to the domain name.
 ### See also
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)  
-[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md#search-for-knowledge-articles-in-the-customer-service-hub)  
+[Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles) 
 [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
