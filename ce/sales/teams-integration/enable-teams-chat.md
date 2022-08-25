@@ -56,7 +56,7 @@ This feature requires certain permissions to access Teams data. Review the [Perm
 3. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
     
     > [!IMPORTANT]
-    > You must be a global administrator (tenant administrator) to enable Teams chat. After that, system administrators can configure other settings or disable Teams chat .
+    > You must be a global administrator (tenant administrator) to enable Teams chat. After that, system administrators can configure other settings or disable Teams chat.
 
     :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing toggle set to Yes.":::
 
@@ -101,7 +101,7 @@ The preview is now enabled for all the customer engagement apps. You can open a 
 
 6. Save the changes.
 
-## Set the default name for linked chats
+## Set the default name for connected chats
 
 As an administrator, you can set the chat title to be used as the record title by default. Users can later change the title if they want.
 
