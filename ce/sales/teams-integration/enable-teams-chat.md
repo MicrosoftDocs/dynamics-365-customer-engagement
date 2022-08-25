@@ -56,13 +56,11 @@ This feature requires certain permissions to access Teams data. Review the [Perm
 3. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
     
     > [!IMPORTANT]
-    > You must be a global administrator (tenant administrator) to provide the initial consent. After that, application administrators can enable the preview for other instances.
+    > You must be a global administrator (tenant administrator) to enable Teams chat. After that, system administrators can configure other settings or disable Teams chat .
 
-4. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for connected chats** toggle. Users can change the title if they want.
+    :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing toggle set to Yes.":::
 
-    :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing these two toggles set to Yes.":::
-
-5. Save the changes.
+4. Save the changes.
 
 The preview is now enabled for all the customer engagement apps. You can open a record and verify whether you're able to view the chats and channels related to the record. More information: [Open Teams chats and channels related to a record](using-teams-chat-in-dynamics.md#open-teams-chats-and-channels-related-to-a-record)
 
@@ -97,15 +95,26 @@ The preview is now enabled for all the customer engagement apps. You can open a 
 
     :::image type="content" source="media/ppac-teams-chat.png" alt-text="Enable Teams chat from Power Platform admin center":::
 
-5. On the **Microsoft Teams collaboration and chat** page, perform the following actions:
-    
-    1. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
-
-    2. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for connected chats** toggle. Users can change the title if they want.
-
-        :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing these two toggles set to Yes.":::
+5. On the **Microsoft Teams collaboration and chat** page, turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
+        
+    :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing toggle set to Yes.":::
 
 6. Save the changes.
+
+## Set the default name for linked chats
+
+As an administrator, you can set the chat title to be used as the record title by default. Users can later change the title if they want.
+
+1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png) in the lower-left corner, and then select **App Settings**.
+
+2. Under **General Settings**, select **Chat and collaborate**.
+
+3. Under **Connect chats to Dynamics 365 records**, select the record type (for example, Lead).
+
+4. In the settings panel, turn on the **Auto-name chats** toggle.
+
+    ![Settings page to turn on or off the auto-name chats feature.](media/lead-configure-auto-name.png "Settings page for turning the auto-name chats feature on or off.")
+
 
 ## Data security and privacy
 

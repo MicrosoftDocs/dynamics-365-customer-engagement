@@ -46,8 +46,7 @@ The ability for users to join existing chats is especially useful for the follow
 
 4. In the settings panel, turn on the **Join chat** toggle.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Settings page to turn on or off the join chat feature.](media/lead-configure-join-chat.png "Settings page for turning the join chat feature on or off.")
+    ![Settings page to turn on or off the join chat feature.](media/lead-configure-join-chat.png "Settings page for turning the join chat feature on or off.")
 
 4. Select **Save**.
 

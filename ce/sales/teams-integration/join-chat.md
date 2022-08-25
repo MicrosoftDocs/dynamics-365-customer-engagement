@@ -44,8 +44,7 @@ As a seller, you can view and easily join chats that are connected to a record y
 
 3. Select **Join**.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Shows the instruction to hover over a chat to join it.](media/hover-join-chat.png "Displays the text that says to hover over a chat to join it.")
+    ![Shows the instruction to hover over a chat to join it.](media/hover-join-chat.png "Displays the text that says to hover over a chat to join it.")
 
     The Teams pop-up chat will show that you've been added to the chat, and you'll have access to the entire chat history. Other chat members will also receive the system message that you've been added to the chat.
 
