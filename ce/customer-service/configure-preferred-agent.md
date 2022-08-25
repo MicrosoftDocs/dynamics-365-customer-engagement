@@ -103,11 +103,11 @@ If the Omnichannel solution is already installed in your organization and you wa
 
     `OrgURL`/api/data/v9.0/msdyn_preferredagentroutedentities  
 
-1. If no data is displayed, then, in the developer console window, run the code for each of the following record types depending on the records that you want to route.
+1. If no data is displayed, then in the developer console window, run the code for each of the following record types depending on the records that you want to route.
 
 - **Case**
 
-    ```js    
+    ```js
     var data = {
         msdyn_customeridentifiername: 'customerid',
         msdyn_name: 'Preferred Agent Routed Entity',
