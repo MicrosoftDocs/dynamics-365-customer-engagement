@@ -79,16 +79,14 @@ An administrator or system customizer must configure this option for you. More i
 
 To view the auto-filtered results:
 
-1. Search knowledge articles from the related section of the case. More information: [Search knowledge articles](search-knowledge-articles-csh.md)
+1. Search knowledge articles from the related section of the case. More information: [Search knowledge articles](search-knowledge-articles-csh.md). The articles are automatically filtered and displayed based on case data.
 
-2. The articles are automatically filtered and displayed based on case data.
-
-3. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
+2. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
 
     > [!NOTE]
-    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option in order for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you'll always see the auto-filtered results. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client)
+    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option isn't enabled, you'll always see the auto-filtered results. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client)
 
-Let’s understand this in detail with the help of an example.
+Here's an example.
 
 In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on the case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 

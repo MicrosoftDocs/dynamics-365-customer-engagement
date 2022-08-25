@@ -21,7 +21,7 @@ ms.custom:
 
 ## Email options
 
-You can also share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
+You can share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 
 :::image type="content" source="media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
 
