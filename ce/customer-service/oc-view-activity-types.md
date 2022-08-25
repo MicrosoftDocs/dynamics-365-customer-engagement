@@ -1,7 +1,7 @@
 ---
 title: "View conversation and session forms, and activity types | MicrosoftDocs"
 description: "Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types."
-ms.date: 04/01/2020
+ms.date: 08/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -30,10 +30,13 @@ The Conversation activity type displays information about a conversation request
 
 ![Omnichannel conversation form.](media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 
+> [!Note]
+> Only the fields listed in the following table are supported for the Conversation activity type.
+
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
 | Details | Details         | <ul> <li>Title</li> <li>Customer</li> <li>Work stream </li> <li>Active agent</li> <li>Activity status</li> <li>Status reason</li> <li>Status updated on</li> <li>Regarding</li> <li>Queue</li> </ul>|
-| Details | History         |<ul> <li>Created on</li> <li>Closed on</li> <li>Modified on</li> <li>Transfer count</li>  <li>Escalation count</li> <ul>
+| Details | History         |<ul> <li>Created on</li> <li>Closed on</li> <li>Modified on</li> <li>Transfer count</li>  <li>Escalation count</li> <ul> |
 | Details | Session Details |<ul> <li> Channel </li> <li>Date created</li> <li>Subject</li> <li>Date created</li> <ul>|
 | Details | Chat Transcript |<ul> <li>Download</li> <ul>|
 
@@ -42,6 +45,9 @@ The Conversation activity type displays information about a conversation request
 The session activity type displays information about a individual session in a conversation request.
 
 ![Omnichannel session form.](media/oceh-oc-session-form.png "Omnichannel session form")  
+
+> [!Note]
+> Only the fields listed in the following table are supported for the Session activity type.
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
