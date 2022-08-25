@@ -1,7 +1,7 @@
 ---
 title: "msdyn_agentcapacityupdatehistory Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_agentcapacityupdatehistory entity."
-ms.date: 08-25-2022
+ms.date: 08/25/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
@@ -9,14 +9,13 @@ manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
-
   - D365CE
 ---
 # msdyn_agentcapacityupdatehistory Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Agent capacity update history entity records any changes to agent capacity against a capacity profile
+The entity used to store changes to the agent’s history of capacity updates against capacity profiles.
 
 **Added by**: Dynamics 365 UR Omnichanel Base Dependency Solution
 
@@ -929,7 +928,5 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### See also
-
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_agentcapacityupdatehistory?text=msdyn_agentcapacityupdatehistory EntityType" />
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
