@@ -1,7 +1,7 @@
 ---
 title: "View conversation and session forms, and activity types | MicrosoftDocs"
 description: "Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types."
-ms.date: 08/26/2022
+ms.date: 08/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -31,7 +31,7 @@ The Conversation activity type displays information about a conversation request
 ![Omnichannel conversation form.](media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 
 > [!Note]
-> Only the fields listed in the following table are supported for the Conversation activity type.
+> The fields listed in the following table only are supported for the Conversation activity type.
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -47,7 +47,7 @@ The session activity type displays information about a individual session in a c
 ![Omnichannel session form.](media/oceh-oc-session-form.png "Omnichannel session form")  
 
 > [!Note]
-> Only the fields listed in the following table are supported for the Session activity type.
+> The fields listed in the following table only are supported for the Session activity type.
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
