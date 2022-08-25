@@ -72,7 +72,7 @@ This table shows the key performance indicators that are displayed in the report
 
 The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
 
-:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived.":::
+:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
 
 The following metrics are displayed in the charts.
 
