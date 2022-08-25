@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 07/12/2022
+ms.date: 10/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,6 +32,11 @@ The following assignment methods are available out of the box:
   If you need to distribute  work fairly among agents, then you should consider switching to round robin assignment strategy.
 
 - **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
+
+- **Most idle (Preview)**: Assigns a work item to the agent who has been idle for the longest duration among all the agents who match skills and capacity.
+
+    > [!IMPORTANT]
+    > The most idle option is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 You can also create a custom assignment method to suit your business needs.
 
