@@ -26,6 +26,10 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ## Report details
 
+The conversation lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
+
+:::image type="content" source="media/conversation-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the conversation lifecycle and the metrics that can be derived." lightbox="media/conversation-lifecycle-metrics-diagram-large.png":::
+
 The following table lists the KPIs in the Conversation dashboard.
 
 | Metric | Description | Derivation |
@@ -40,10 +44,6 @@ The following table lists the KPIs in the Conversation dashboard.
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel conversation report.](media/oc-report.png "Omnichannel conversation report")
-
-The conversation lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
-
-:::image type="content" source="media/conversation-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the conversation lifecycle and the metrics that can be derived." lightbox="media/conversation-lifecycle-metrics-diagram-large.png":::
 
 Conversation charts are displayed as shown in the following image.
 

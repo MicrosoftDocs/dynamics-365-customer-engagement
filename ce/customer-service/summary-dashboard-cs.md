@@ -58,6 +58,10 @@ The Key insights card has two areas.
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
+The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
+
+:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
+
 This table shows the key performance indicators that are displayed in the report.
 
 | KPI    | Description     |
@@ -69,10 +73,6 @@ This table shows the key performance indicators that are displayed in the report
 | Average CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
 | Average survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
 
-
-The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
-
-:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
 
 The following metrics are displayed in the charts.
 
