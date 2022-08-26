@@ -52,7 +52,7 @@ To see data related to work items and their status, you need to enable routing d
 
 > [!NOTE]
 >
-> - The diagnostics setting can take up to 15 minutes to come into effect after you enable it.
+> - The diagnostics setting can take up to 15 minutes to take effect after you enable it.
 > - After you enable diagnostics, the data will be stored in Microsoft Dataverse. The diagnostics data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
 
 ## Understand routing stages and diagnostics
