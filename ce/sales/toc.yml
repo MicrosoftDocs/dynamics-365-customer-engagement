@@ -10,10 +10,10 @@
     items: 
       - name: Sign up for the free trial
         href: sign-up-for-sales-trial.md
-      - name: Trial FAQs
-        href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
   - name: Install and configure
     items:
     - name: Use the Sales Hub app 
@@ -446,16 +446,21 @@
               href: manage-playbook-templates.md
     - name: Relationship intelligence
       items: 
+        - name: Relationship intelligence overview
+          href: ri-overview.md
+        - name: Enable relationship intelligence
+          href: enable-ri.md
         - name: Configure relationship analytics and health
           href: configure-relationship-analytics.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
-        - name: Add relationship intelligence widgets to custom forms
-          href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
-          href: insights-from-m365.md 
+          href: insights-from-m365.md
+        - name: Add relationship intelligence widgets to custom forms
+          href: add-ri-widgets-to-custom-form.md
+
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -1090,6 +1095,10 @@
           items: 
             - name: msdyn_ConnectSequence
               href: developer-sp/msdyn-ConnectSequence-action.md
+            - name: msdyn_WKWDeleteGDPRData
+              href: developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md
+            - name: msdyn_WKWGDPRDeleteStatus
+              href: developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md
         - name: Entity Reference
           items: 
             - name: Entity reference
@@ -1098,6 +1107,10 @@
               href: developer-sp/msdyn_predictivescore.md
             - name: msdyn_PredictiveModelScore
               href: developer-sp/msdyn_predictivemodelscore.md
+            - name: msdyn_wkwcolleaguesforcontact
+              href: developer-sp/msdyn_wkwcolleaguesforcontact.md
+            - name: msdyn_wkwcolleaguesforcompany
+              href: developer-sp/msdyn_wkwcolleaguesforcompany.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items: 

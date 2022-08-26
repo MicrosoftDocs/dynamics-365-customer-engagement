@@ -1,7 +1,7 @@
 ---
 title: "Configure keywords and competitors in conversation intelligence application"
 description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence application."
-ms.date: 01/10/2022
+ms.date: 08/23/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
@@ -35,11 +35,14 @@ Configure tracked keywords and competitors that are relevant to you and your org
 >- The changes you made apply only to your team. They don't impact the administrator-defined settings for your organization.    
 
 1. Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
+
+1. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).
+
 1.	Select the **Settings** icon in the upper-right corner of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Settings option](media/si-app-admin-select-settings.png "Select Settings option")  
 2.	On the **Settings** page, select **Conversation content**.     
-3. On the **Tracked keywords** section, enter a keyword in **Add a keyword** and then press **Enter**.  
+1. On the **Tracked keywords** section, enter a keyword in **Add a keyword** and then press **Enter**.  
     > [!div class="mx-imgBorder"]
     > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")   
 4.	Repeat **step 2** to add other keywords.  

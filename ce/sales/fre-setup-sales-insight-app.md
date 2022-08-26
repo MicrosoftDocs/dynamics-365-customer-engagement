@@ -10,9 +10,10 @@ manager: shujoshi
 
 # First-run setup in conversation intelligence app
 
-After you sign in to conversation intelligence app as an administrator, you can set up conversation intelligence&mdash; select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.  
+As an administrator, you can set up conversation intelligence&mdash;select storage, grant app permissions, and define organization-level tracked keywords and competitors&mdash;to suit your requirements.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -22,7 +23,7 @@ After you sign in to conversation intelligence app as an administrator, you can 
 ## Configure conversation intelligence
 
 1.	Review the prerequisites. More information: [Prerequisites to setup conversation intelligence](prereq-sales-insights-app.md)  
-2.	Sign in to the conversation intelligence application as an administrator.  
+2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/) as an administrator.  
     > [!div class="mx-imgBorder"]
     > ![Administrator conversation intelligence home page.](media/si-app-admin-home-page-admin-signin.png "Administrator conversation intelligence home page")   
 3.	Select **Set up Conversation intelligence**.   

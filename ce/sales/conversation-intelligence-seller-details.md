@@ -1,7 +1,7 @@
 ---
 title: "Work with call intelligence feature"
 description: "View insights and analyze the performers of sellers during calls with customer to improve sales and generate revenue."
-ms.date: 06/27/2022
+ms.date: 08/23/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -14,9 +14,10 @@ topic-status: Drafting
 
 View insights and analysis of each seller’s performance during calls with customers and leads. 
 
-The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation intelligence**, and select **Seller details**. 
+Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), and select **Seller Details**. The information you see on the page varies according to your role (sales manager or seller).
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
