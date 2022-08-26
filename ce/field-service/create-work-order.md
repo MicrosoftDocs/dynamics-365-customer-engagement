@@ -35,7 +35,7 @@ For additional Field Service videos, go to [this full video playlist](https://ak
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made, and an invoice is generated for the corresponding account.  
 
-:::image type="content" source="../field-service/media/work-order-lifecycle.png" alt-text="Work order lifecycle in Dynamics 365 Field Service.":::  
+:::image type="content" source="./media/work-order-lifecycle.png" alt-text="Work order lifecycle in Dynamics 365 Field Service.":::  
   
 |  | Create | Schedule | Dispatch | Service | Review | Invoice |  
 |-|-|-|-|-|-|-|  
@@ -46,23 +46,21 @@ For additional Field Service videos, go to [this full video playlist](https://ak
   
 ## Create a work order  
 
-### From the get started page
+### From the Get Started page
 
 1. As a Field Service administrator or system administrator in the **Field Service** app, go to the **Get Started** page.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the getting started page in Field Service.](./media/get-started.png "Screenshot of the getting started page in Field Service.")
+   :::image type="content" source="./media/get-started.png" alt-text="Screenshot of the getting started page in Field Service.":::  
 
-2. Select **Create** in the **Create your work orders** section.
+1. Select **Create** in the **Create your work orders** section.
 
-3. Fill in the basic information about the work order.
+1. Fill in the basic information about the work order.
 
-4. In the form, add as many tasks, products, and services as needed.
+   :::image type="content" source="./media/get-started-wo.png" alt-text="Screenshot of the new work order form triggered from the get started page in Field Service.":::
 
-5. If you want to immediately schedule the work order, select **Save & Book**. Select **Save & Close** to only save the work order.
+1. In the form, add as many tasks, products, and services as needed.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the new work order form triggered from the get started page in Field Service.](./media/get-started-wo.png "Screenshot of the new work order form triggered from the get started page in Field Service.")
+1. If you want to immediately schedule the work order, select **Save & Book**. Select **Save & Close** to only save the work order.
 
 ### From the work order form and record list
 
