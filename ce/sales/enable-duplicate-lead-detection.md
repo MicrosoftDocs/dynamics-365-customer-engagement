@@ -40,7 +40,7 @@ Further, sellers can compare and remove the duplicate leads in the organization.
 ## Enable the duplicate detection feature
 
 1.	At the lower-left corner of the Sales Hub app, select **Change area** ![Change area icon](media/change-area-icon.png) > **App Settings**.
-2.	On the site map, select **Data improvement** > **Duplicate detection (preview)**.
+2.	On the site map, select **Data improvement** > **Duplicate detection**.
 
     >[!div class="mx-imgBorder"]
     >![Duplicate detection enablement page](media/lead-enable-duplicate-detection-page.png "Duplicate detection enablement page")    
