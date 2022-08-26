@@ -1,12 +1,11 @@
 ---
 title: "Create a work order in Dynamics 365 Field Service (contains video) | Microsoft Docs"
 description: Learn how to create a work order in Dynamics 365 Field Service
-ms.date: 11/15/2021
+ms.date: 08/26/2021
 ms.reviewer: mhart
-
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: jasonccohen
+ms.author: jacoh
 manager: shellyha
 search.app: 
   - D365CE
@@ -17,17 +16,10 @@ search.app:
 A work order in Dynamics 365 Field Service has information on what work needs to be done. Work orders are used to coordinate and schedule resources and activities and can be used for different types of work, such as installations, repairs, or preventive maintenance.  
   
 A work order is often created from a case or opportunity, and then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it's reviewed and approved by a manager.  
- 
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSf]
 
-> [!NOTE]
-> For additional Field Service videos, go to [this full video playlist](https://aka.ms/fs-videos).
-  
-> [!NOTE]
-> Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise, you can add them manually when you create a work order.
-  
-
-<a name="BKMK_workorderlifecycle"></a>   
+For additional Field Service videos, go to [this full video playlist](https://aka.ms/fs-videos).
 
 ## Work order lifecycle  
   
@@ -42,17 +34,16 @@ A work order is often created from a case or opportunity, and then scheduled eit
 - **Review/Approval**: The work order is reviewed and approved by a supervisor.  
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made, and an invoice is generated for the corresponding account.  
-  
-  ![Work order lifecycle in Dynamics 365 Field Service.](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 Field Service.")  
+
+:::image type="content" source="../field-service/media/work-order-lifecycle.png" alt-text="Work order lifecycle in Dynamics 365 Field Service.":::  
   
 |  | Create | Schedule | Dispatch | Service | Review | Invoice |  
 |-|-|-|-|-|-|-|  
 |**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.| Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.| Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
-|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
+|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Opportunity: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification, if set up, sent by system automatically to field agent, customer, and other parties. |Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
 |**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
- 
 ## Create a work order  
 
 ### From the get started page
@@ -192,14 +183,14 @@ Set **Show Simplified Work Order Commands** to **No** to show the full list of r
 
 The getting started work order create form doesn’t support switching forms. If added as a form to other parts of the app, switching to this form will leave you unable to switch back.
 
+Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise, you can add them manually when you create a work order.
+
 ### See also  
-    
+
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
  [User's Guide](../field-service/user-guide.md)  
- 
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
