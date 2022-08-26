@@ -67,7 +67,7 @@ The **Channel** tab lists the channels that you've connected to the selected rec
 
 ## View all connected Dynamics 365 chats
 
-Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your connected Dynamics 365 chats will appear under **Chats connected to _record_**. The chats display the record names to which they are connected and the latest chat message. You can navigate to a related record from the connected chat. For more information, see [Navigate to a record from a connected chat](#navigate-to-a-record-from-a-linked-chat).
+Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your connected Dynamics 365 chats will appear under **Chats connected to _record_**. The chats display the record names to which they are connected and the latest chat message. You can navigate to a related record from the connected chat. For more information, see [Navigate to a record from a connected chat](#navigate-to-a-record-from-a-connected-chat).
 
 ## Start a connected Teams chat in Dynamics 365
 
@@ -163,7 +163,7 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 ## Navigate to a record from a connected chat
 
-When you [view all connected Dynamics 365 chats](#view-all-linked-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the connected chats display one or more record names they are connected to.
+When you [view all connected Dynamics 365 chats](#view-all-connected-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the connected chats display one or more record names they are connected to.
 
 :::image type="content" source="media/linked-records.png" alt-text="Connected records to a chat":::
 
