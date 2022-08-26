@@ -1,7 +1,7 @@
 ---
 title: "Release history (Unified Service Desk)| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
-ms.date: 08/29/2022
+ms.date: 08/26/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -28,7 +28,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ## Release history for Unified Service Desk 4.2.0.42, August 2022
 
-This release includes a CefSharp upgrade from version 94.4.50 to 103.0.120 and some bug fixes in Dynamics 365 Channel Integration Framework. There are no content-specific changes in this release.
+This release includes a CefSharp upgrade from version 94.4.50 to 103.0.120, and some bug fixes in Dynamics 365 Channel Integration Framework. There are no content-specific changes in this release.
 
 ## Release history for Unified Service Desk 4.2.0.39, June 2022
 
