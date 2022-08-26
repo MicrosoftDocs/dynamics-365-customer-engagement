@@ -16,6 +16,8 @@ manager: shujoshi
 
 This topic contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
 
+## General FAQ
+
 ### What SKUs must I have to get unified routing?
 
 Customers will get unified routing for entities, such as Cases, Leads, and custom entities as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
@@ -31,27 +33,6 @@ There is no downtime involved when you are migrating the workstreams, but it's r
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
 These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
-
-### Will unified routing support activity routing?
-
-Yes, unified routing supports routing activities, including email.
-
-### What happens to my existing queues after I migrate to unified routing?
-
-The existing queues will be automatically migrated to unified routing.
-
-### Will intelligent skill finder be available in all geographical regions?
-
-Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model.
-
-### Can I use intelligent skill finder with email activities?
-
-Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the ML model. You'll extract the text from HTML, copy it into another text field, then configure the ML model against the new field.
-
-### How do I make sure that the right skills are attached to the work items when machine learning-based model is in use?
-
-- Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
-- Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
 
 ### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
 
@@ -82,6 +63,14 @@ If you need further help, contact Microsoft Support.
 
 No. After upgrade, you'll no longer be able to create workstreams for routing records because they will not work as expected. We recommend that you start using the new Omnichannel admin center app to create and manage routing of records.
 
+### Will unified routing support activity routing?
+
+Yes, unified routing supports routing activities, including email.
+
+### What happens to my existing queues after I migrate to unified routing?
+
+The existing queues will be automatically migrated to unified routing.
+
 ### Can I route any record type by using basic routing?
 
 No. Basic routing can be used only for cases. To route any record type, use unified routing.
@@ -94,7 +83,7 @@ No. There is no priority amongst queues. However, you can prioritize records wit
 
 No. It's not possible to pause the assignment of a case.
 
-### Can I export a Unified Routing configuration and sign in to another environment?
+### Can I export a unified routing configuration and sign in to another environment?
 
 No, a configuration can't be exported.
 
@@ -109,6 +98,34 @@ A case remains with the agent that it was initially assigned to and therefore th
 ### Can I access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace?
 
 Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
+
+## FAQ on routing to most idle agent
+
+### Is presence used in determining the most idle agent?
+
+No, presence is not used. Only capacity release information is taken into account.
+
+### Does the agent sign-in time affect in the calculation of the most idle agent?
+
+### Can I see diagnostics for routing to the most idle agent?
+
+Yes, the assignment method stage displays the assignment method that's used.
+
+## FAQ on intelligent skill finder
+
+### Will intelligent skill finder be available in all geographical regions?
+
+Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model.
+
+### Can I use intelligent skill finder with email activities?
+
+Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the ML model. You'll extract the text from HTML, copy it into another text field, then configure the ML model against the new field.
+
+### How do I make sure that the right skills are attached to the work items when machine learning-based model is in use?
+
+- Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
+- Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
+
 
 ### See also
 

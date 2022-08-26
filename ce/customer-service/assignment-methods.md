@@ -35,8 +35,23 @@ The following assignment methods are available out of the box:
 
 - **Most idle (Preview)**: Assigns a work item to the agent who has been idle for the longest duration among all the agents who match skills and capacity.
 
+   The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses are not used in determining the most-idle agent.
+
+   Routing to the most idle agent helps in better use of agents, improved customer satisfaction and better agent satisfaction. Agent handle time is also lower because agents are well-rested between conversations.
+
     > [!IMPORTANT]
-    > The most idle option is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+    >
+    > The route to the most idle agent feature is in public preview and is available for voice channel only.
+    >
+    > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+    >
+    > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    >
+    > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+    >
+    > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+    >
+    > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 You can also create a custom assignment method to suit your business needs.
 
