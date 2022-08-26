@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -37,7 +37,7 @@ After knowledge management is set up, users will be able to:
   
 - Search for relevant knowledge base articles from Customer Service while they're working on a record.  
   
-- Set up a search logic and search filters to get only the required knowledge articles, thereby providing timely and consistent information to customers while working on their cases.
+- Set up the search logic, suggest as you type option, and search filters to get only the required knowledge articles, thereby providing timely and consistent information to customers while working on their cases.
 
 - Use smart assist to receive AI suggestions on related knowledge articles and similar cases.
 
@@ -183,7 +183,7 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that have either "Contoso" or "Coffee", as seen in the following example:
+If you have Dataverse search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that have either "Contoso" or "Coffee", as seen in the following example:
 
 - Article 1: Contoso machine repair
 - Article 2: Coffee powder quality
@@ -211,11 +211,20 @@ You can set up the knowledge search logic in the Customer Service admin center o
 
 ---
 
-2. In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**.
+2. In the **Knowledge search experience** section, set the **Set search mode as all** toggle to **Yes**.
 
 3. Select **Save**.
 
 More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
+
+## Enable suggest as you type
+
+You can improve your agent's productivity by setting the **Enable suggest as you type** toggle to **Yes**, which provides suggestions on the most relevant knowledge articles as agents type keywords into the Search box. Matching results start appearing inline to the search box. The matched text is highlighted to show the presence of the keyword. On selecting the knowledge article, the agent is directly taken to the knowledge article.
+
+1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
+2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
+3. In the **Knowledge search experience** section, set the **Enable suggest as you type** toggle to **Yes**.
+4. Select **Save**.
 
 ### See also  
 
