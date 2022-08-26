@@ -12,8 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection is not available to connect to a chat channel.
 
 Agents can view incoming SMS requests on their dashboard and respond accordingly.
@@ -43,8 +41,6 @@ You can enable the SMS channel from the Dynamics 365 Administration Center. For 
 
 An SMS channel can be enabled within Omnichannel for Customer Service by integrating with TeleSign. This integration uses public APIs of TeleSign for sending and receiving text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
 
-To sign up for TeleSign
-
 1. Go to [TeleSign](https://go.microsoft.com/fwlink/p/?linkid=2127719) to sign up for a self-service account, and upgrade to standard or enterprise account for a complete integration with Omnichannel for Customer Service. If you expect to send high volumes of SMS traffic, such as more than 100,000 messages per month, contact [TeleSign support](mailto:support@telesign.com) to request an invoiced enterprise account.
 
 2. Purchase support phone numbers through your TeleSign account.
@@ -55,9 +51,7 @@ To sign up for TeleSign
 
 ## Add SMS support
 
-**To add SMS support**
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the admin apps, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
@@ -119,7 +113,7 @@ To sign up for TeleSign
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
+## Flow of data between Omnichannel for Customer Service SMS channel and TeleSign
 
 ### Incoming text messages
 
