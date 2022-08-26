@@ -25,7 +25,7 @@ Enable duplicate lead detection to help your sellers identify and address potent
 The duplicate detection capability helps sellers to check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
 
 -	Same email address 
--	Same phone number
+-	Same phone number  
 -	Similar lead name and company name 
 -	Similar lead name and the same email domain   
 
