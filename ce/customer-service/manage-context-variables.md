@@ -1,7 +1,7 @@
 ---
 title: "Manage context variables | MicrosoftDocs"
 description: "Use this article to understand how you can add context variables and then configure them in Omnichannel for Customer Service."
-ms.date: 08/23/2022
+ms.date: 08/30/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,9 +16,7 @@ ms.custom:
 
 *Context variables* enrich conversations with pre-conversation data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. Context variables are also used in agent productivity tools like macros and agent scripts.
 
-You can also configure context variables for Azure and Power Virtual Agents bots in Omnichannel for Customer Service. When customers initiate a conversation, the relevant context that's related to the customer, the issue they're facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot. Context variables set by the bot can also be passed to Omnichannel for Customer Service when the bot escalates to the human agent. For example, you can pass the ticketnumber for the case created by the bot to Omnichannel for Customer Service to link the case and load the customer summary for the agent to view.
-
-This article lists the considerations and the procedure you can use to create context variables.
+This article lists the considerations to use context variables and how you can create them.
 
 ## Considerations
 
@@ -44,6 +42,14 @@ This article lists the considerations and the procedure you can use to create co
 3. In the **Edit** pane, select **Add**, and enter **Name**. Make sure that the variable name is less than or equal to 200 characters.
 4. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
 5. Repeat steps 3 and 4 to create the required variables.
+
+## Configure context variables for Azure and Power Virtual Agents bots
+
+You can also configure context variables for Azure and Power Virtual Agents bots in Omnichannel for Customer Service. When customers initiate a conversation, the relevant context that's related to the customer, the issue they're facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot. Context variables set by the bot can also be passed to Omnichannel for Customer Service when the bot escalates to the human agent. For example, you can pass the ticketnumber for the case created by the bot to Omnichannel for Customer Service to link the case and load the customer summary for the agent to view.
+
+
+To configure context variables for bots, see [Configure context variables for bots](context-variables-for-bot.md). But, before you configure context variables for bots, we recommend that you read the best practices for configuring bots. More information: [Best practices for configuring bots](configure-bot-best-practices.md)
+
 
 ### See also
 
