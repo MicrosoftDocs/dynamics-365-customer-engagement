@@ -87,7 +87,7 @@ To go to the **Quick Find All Leads** view, follow these steps:
     > It is best practice to create tables inside a custom solution. More information: [Solution (glossary)](/power-apps/maker/model-driven-apps/model-driven-app-glossary#solution)
 
 1. Expand **Dataverse**, select **Tables**, go to the **All** tab and select the **Lead** table.   
-1. On the **Lead** table page, under the **Data experiences** section, select **Views**.  If using a custom solution, open the solution, open the table, and then select the **Views** area.   
+1. On the **Lead** table page, under the **Data experiences** section, select **Views**.  If using a custom solution, open the solution, open the table, and then select the **Views** area.  
 1. On the **Views** page, select the **Quick Find All Leads** view.   
 
 ### Activate the required processes
