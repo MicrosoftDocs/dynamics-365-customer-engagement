@@ -99,7 +99,7 @@ For example, you can create a bot with the following details:
       
      Repeat the steps to **Set a property** for fr-FR, pt-PT, hi-IN.
 
-       :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
+     :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
 
       The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
