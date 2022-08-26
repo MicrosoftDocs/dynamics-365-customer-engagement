@@ -926,6 +926,8 @@
       href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Configure context variables for bots
+        href: context-variables-for-bot.md      
       - name: Configure Azure bots
         items:
         - name: Integrate an Azure bot
@@ -934,8 +936,7 @@
           href: sample-config-azure-bot.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
-      - name: Configure context variables for bots
-        href: context-variables-for-bot.md
+
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
