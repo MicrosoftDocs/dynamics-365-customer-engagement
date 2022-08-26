@@ -49,7 +49,7 @@ This article lists the considerations and the procedure you can use to create co
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Configure context variables for bots](context-variables-for-bots.md)  
+[Configure context variables for bots](context-variables-for-bot.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Best practices for configuring bots](configure-bot-best-practices.md)  
 
