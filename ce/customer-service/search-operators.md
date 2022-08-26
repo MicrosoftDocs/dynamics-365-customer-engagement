@@ -25,7 +25,7 @@ Setting up a comprehensive knowledge base is the key to increased customer satis
 
 Dataverse search is enabled by default in all production environments, except those using their own encryption key. For more information, go to [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search). When Dataverse search is enabled, knowledge management search control uses Dataverse search to search for knowledge articles. For more information, go to [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). If Dataverse search isn't enabled, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. For more information, go to [Full-text search](/sql/relational-databases/search/full-text-search).
 
-Depending on the configurations made in Dataverse search through the Quick Find view columns list, you can view the information provided in search results, such as keywords, description, attachments, or article number. More information: [Before you begin using Dataverse search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search) 
+Depending on the configurations made in Dataverse search through the Quick Find view columns list, you can view the information provided in search results, such as keywords, description, attachments, or article number. More information: [Prerequisites](search-knowledge-articles-csh.md#prerequisites) 
 
 
 ## How search works
