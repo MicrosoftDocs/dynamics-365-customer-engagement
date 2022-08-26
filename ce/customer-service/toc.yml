@@ -936,7 +936,6 @@
           href: sample-config-azure-bot.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
-
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
