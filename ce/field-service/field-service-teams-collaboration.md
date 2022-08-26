@@ -27,7 +27,7 @@ For a guided walkthrough, check out the following video.
 
 You must set up the overall integration between Microsoft Teams and Dynamics 365 apps. Go to 
 
-Go to **Advanced Settings** > **Administration** > **System Settings** > **General** > **Microsoft Teams Inntegration**.
+Go to **Advanced Settings** > **Administration** > **System Settings** > **General** > **Microsoft Teams Integration**.
 
 - Enable **Basic** Microsoft Teams Integration (requires system admin permissions)
 - Enable **Enhanced** Microsoft Teams integration (requires tenant admin permissions). 
@@ -64,7 +64,7 @@ To unlink the chat from the work order, select the ellipses icon next to the con
 
 ## Customize welcome message
 
-When new chats are started from the work order (or other record types), some infomrmation is already defined as a welcome message in the chat panel.
+When new chats are started from the work order (or other record types), some information is already defined as a welcome message in the chat panel.
 
 To customize the information in the welcome message, go to **Microsoft Teams Integration** > **Collaboration Settings**.
 
