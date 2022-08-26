@@ -9,11 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Configure the ability for users to join chats (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
+# Configure the ability for users to join chats
 
 Configure the ability for users to join existing connected chats.
 

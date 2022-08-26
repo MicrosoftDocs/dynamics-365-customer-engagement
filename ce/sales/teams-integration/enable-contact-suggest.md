@@ -9,11 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Configure the ability to use suggested contacts (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
+# Configure the ability to use suggested contacts
 
 Configure the ability to use suggested contacts when starting a Teams chat.
 

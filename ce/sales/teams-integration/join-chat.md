@@ -9,11 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Join an existing connected chat (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
+# Join an existing connected chat
 
 View and easily join chats that are connected to a record you have write access to.
 
@@ -33,7 +29,7 @@ As a seller, you can view and easily join chats that are connected to a record y
 
 1. Open the record for which you want to join the chat.
 
-2. In the **Teams chats (Preview)** pane, go to any of the connected chats you want to join. A lock icon is displayed with text that says, "Hover over to join this chat". When you hover over the lock icon, if you have write access to the associated record, a **Join** button will be displayed.
+2. In the **Teams chats** pane, go to any of the connected chats you want to join. A lock icon is displayed with text that says, "Hover over to join this chat". When you hover over the lock icon, if you have write access to the associated record, a **Join** button will be displayed.
 
     > [!NOTE]
     > Let's assume you have only Read access to the set of Accounts which your team is working on. Your administrator has enabled the Join chat functionality for the Accounts record type.

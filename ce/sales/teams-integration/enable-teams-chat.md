@@ -11,11 +11,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Configure Microsoft Teams chat in Sales Hub (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
+# Configure Microsoft Teams chat in Sales Hub
 
 Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
 
@@ -53,7 +49,7 @@ This feature requires certain permissions to access Teams data. Review the [Perm
 
 2. Under **General Settings**, select **Chat and collaborate**.
 
-3. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
+3. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365** toggle.
     
     > [!IMPORTANT]
     > You must be a global administrator (tenant administrator) to enable Teams chat. After that, system administrators can configure other settings or disable Teams chat.
@@ -62,7 +58,7 @@ This feature requires certain permissions to access Teams data. Review the [Perm
 
 4. Save the changes.
 
-The preview is now enabled for all the customer engagement apps. You can open a record and verify whether you're able to view the chats and channels related to the record. More information: [Open Teams chats and channels related to a record](using-teams-chat-in-dynamics.md#open-teams-chats-and-channels-related-to-a-record)
+The feature is now enabled for all the customer engagement apps. You can open a record and verify whether you're able to view the chats and channels related to the record. More information: [Open Teams chats and channels related to a record](using-teams-chat-in-dynamics.md#open-teams-chats-and-channels-related-to-a-record)
 
 
 ## Add the Teams settings page to the sitemap of a custom app
@@ -95,7 +91,7 @@ The preview is now enabled for all the customer engagement apps. You can open a 
 
     :::image type="content" source="media/ppac-teams-chat.png" alt-text="Enable Teams chat from Power Platform admin center":::
 
-5. On the **Microsoft Teams collaboration and chat** page, turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
+5. On the **Microsoft Teams collaboration and chat** page, turn on the **Turn on Microsoft Teams chats inside Dynamics 365** toggle.
         
     :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing toggle set to Yes.":::
 

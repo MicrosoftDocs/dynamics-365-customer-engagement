@@ -11,11 +11,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Use Microsoft Teams chat in Sales Hub (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
+# Use Microsoft Teams chat in Sales Hub
 
 Start Teams chat conversations from within Sales Hub and connect them to records.
 
@@ -32,7 +28,7 @@ You can now engage in a Teams chat conversation from within Sales Hub. While you
 
 > [!NOTE]
 > - When you associate a Teams channel to a record, the channel gets connected to the record. However, unlike chat conversations, channel conversations can't be accessed from within Dynamics 365.
-> - Your administrator must have enabled this functionality. For more information, go to [Enable or disable the Teams chat in Dynamics 365 (preview)](enable-teams-chat.md).
+> - Your administrator must have enabled this functionality. For more information, go to [Enable or disable the Teams chat in Dynamics 365](enable-teams-chat.md).
 > - For the embedded Teams chat functionality to work properly, ensure that web browser settings allow pop-ups for the Dynamics website.
 
 
@@ -61,7 +57,7 @@ Open any Dynamics 365 customer engagement record and select the **Teams chats an
 
 :::image type="content" source="media/teams-chat-dynamics365-view.png" alt-text="Screenshot of the Teams collaboration pane for a selected opportunity.":::
 
-The **Teams chats (Preview)** pane opens and displays the following sections on the **Chat** tab:
+The **Teams chats** pane opens and displays the following sections on the **Chat** tab:
 
 - **Chats connected to *record*** lists Teams chats that either you've connected to the selected record or someone else has connected with you as a participant.
     
@@ -79,7 +75,7 @@ You can start a new connected chat or convert an existing Teams chat into a conn
 
 1.  Open any Dynamics 365 customer engagement record and select :::image type="icon" source="media/teams-icon.png" border="false":::.
 
-    The **Teams chats (preview)** pane opens.
+    The **Teams chats** pane opens.
 
 2.  To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to *record*** section.
 
@@ -145,13 +141,13 @@ Connect relevant Teams channels to a record so that all the members can easily a
 
 1.  Open any Dynamics 365 customer engagement record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.
 
-    The **Teams chats (preview)** pane opens.
+    The **Teams chats** pane opens.
 
     Alternatively, select **Collaborate** on the command bar to connect a channel to the record. For more information, go to [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).
 
 2.  Select the **Channel** tab. The tab lists the channels that are already connected to the record.
 
-3.  Select the **Connect a Teams channel to this record** icon :::image type="icon" source="media/link-channel-icon.png" border="false"::: in the upper-right corner of the **Teams chats (preview)** pane.
+3.  Select the **Connect a Teams channel to this record** icon :::image type="icon" source="media/link-channel-icon.png" border="false"::: in the upper-right corner of the **Teams chats** pane.
 
     The **Collaborate with Microsoft Teams** dialog opens.
 
@@ -163,7 +159,7 @@ Connect relevant Teams channels to a record so that all the members can easily a
 
 You can start a regular conversation in Dynamics 365 if you don't want to switch to Teams.
 
-While you're in any of the records or in the list pane, select :::image type="icon" source="media/teams-icon.png" border="false":::, and then select the **Compose chat** icon :::image type="icon" source="media/compose-chat-icon.png" border="false"::: in the upper-right corner of the **Teams chats (preview)** pane. This option starts an individual or group chat but doesn't connect it to the record.
+While you're in any of the records or in the list pane, select :::image type="icon" source="media/teams-icon.png" border="false":::, and then select the **Compose chat** icon :::image type="icon" source="media/compose-chat-icon.png" border="false"::: in the upper-right corner of the **Teams chats** pane. This option starts an individual or group chat but doesn't connect it to the record.
 
 ## Navigate to a record from a connected chat
 
@@ -175,7 +171,7 @@ To navigate to a related record from the connected chat, hover over the chat, se
 
 :::image type="content" source="media/linked-record-open.png" alt-text="Open a connected record":::
 
-The selected record opens and the **Teams chat (Preview)** panel is refreshed with the chats connected to the opened record.
+The selected record opens and the **Teams chats** pane is refreshed with the chats connected to the opened record.
 
 ### See also
 
