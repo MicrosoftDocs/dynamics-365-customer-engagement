@@ -219,7 +219,7 @@ More information: [Search across table data using Dataverse search](/powerapps/d
 
 ## Enable suggest as you type
 
-You can improve your agent's productivity by setting the **Enable suggest as you type** toggle to **Yes**, which provides suggestions on the most relevant knowledge articles as agents type keywords into the Search box. Matching results start appearing inline to the search box. The matched text is highlighted to show the presence of the keyword. On selecting the knowledge article, the agent is directly taken to the knowledge article.
+You can improve your agent's productivity by setting the **Enable suggest as you type** toggle to **Yes**, which provides suggestions on the most relevant records as agents type keywords into the Search box. Matching results start appearing inline to the search box. The matched text is highlighted to show the presence of the keyword. On selecting the record, the agent is directly taken to the record.
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.

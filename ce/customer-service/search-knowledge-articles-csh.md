@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -154,6 +154,12 @@ These actions can be performed for only published or expired articles.
 Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the app side pane of Customer Service workspace only.
 
 In Customer Service workspace, select the **Smart assist** option on the app side pane to see knowledge article suggestions related to your case.
+
+## Use the suggest as you type option to search for knowledge articles
+
+The suggest as you type option provides you with suggestions on the most relevant records as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
+
+:::image type="content" source="media/autosuggest-records.png" alt-text="Suggest as you type keywords inot the Search box":::
 
 ## View knowledge articles
 
