@@ -41,7 +41,7 @@ The following assignment methods are available out of the box:
 
     > [!IMPORTANT]
     >
-    > The route to the most idle agent feature is in public preview and is available for voice channel only.
+    > The route to the most-idle agent feature is in public preview and is available for voice channel only.
     >
     > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
     >
