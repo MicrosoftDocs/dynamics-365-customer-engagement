@@ -1234,6 +1234,8 @@
         href: developer/reference/entities/msdyn_actioninputparameter.md
       - name: msdyn_actionoutputparameter
         href: developer/reference/entities/msdyn_actionoutputparameter.md
+      - name: msdyn_agentcapacityupdatehistory
+        href: developer/reference/entities/msdyn_agentcapacityupdatehistory.md        
       - name: msdyn_agentscript
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
