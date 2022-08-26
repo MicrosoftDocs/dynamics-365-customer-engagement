@@ -173,7 +173,7 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 
 ### Associate templates
 
-You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates in Omnichannel admin center](../app-profile-manager/associate-templates.md#associate-templates-with-workstreams-in-omnichannel-admin-center)
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
 ### See also
 
