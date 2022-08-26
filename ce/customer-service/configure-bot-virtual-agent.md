@@ -106,7 +106,7 @@ In this scenario, after a bot has transferred a conversation to a human agent, t
 
 ## Configure context variables for the Power Virtual Agents bot
 
-After you've configured your bot and added it to queues, you can configure context variables to route work items. You can also share context from Omnichannel with your Power Virtual Agents bot to create a rich and personalized experience. For information about creating context variables, see [Manage context variables](manage-context-variables.md). For information about configuring context variables for Power Virtual Agents bots, see [Configure context variables for Power Virtual Agents bot](context-variables-for-bot.md#context-variables-for-power-virtual-agents-bots).
+After you've configured your bot and added it to a workstream, you can configure context variables to route work items. You can also share context from Omnichannel with your Power Virtual Agents bot to create a rich and personalized experience. For information about creating context variables, see [Manage context variables](manage-context-variables.md). For information about configuring context variables for Power Virtual Agents bots, see [Configure context variables for Power Virtual Agents bot](context-variables-for-bot.md#context-variables-for-power-virtual-agents-bots).
 
 ## Automatically close a conversation
 
