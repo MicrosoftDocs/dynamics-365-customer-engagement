@@ -19,7 +19,7 @@ ms.custom:
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer.
 
-After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the [Customer Service admin center](cs-admin-center.md) or Omnichannel admin center app to add your bot to queues and configure context variables to route work items.
+After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the [Customer Service admin center](cs-admin-center.md) or Omnichannel admin center app to add your bot to queues and configure context variables to route work items. For information about creating context variables, see [Manage context variables](manage-context-variables.md). 
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -211,13 +211,15 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 ### See also
 
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Understand and create workstreams](create-workstreams.md)  
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Manage context variables](manage-context-variables.md)  
+[Configure context variables for bots](context-variables-for-bot.md)  
 [Identify customers automatically](record-identification-rule.md)  
-[Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
+[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)  
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Understand and create workstreams](create-workstreams.md)  
 [Create and edit topics in Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](suggested-actions.md)  
-[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md) 
+[Add a chat widget](add-chat-widget.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -836,6 +836,8 @@
       href: enable-file-attachments.md
     - name: Enable formatted messages
       href: enable-formatted-messages.md
+    - name: Manage context variables
+      href: manage-context-variables.md      
     - name: Configure pre-conversation surveys
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys
@@ -926,7 +928,7 @@
           href: sample-config-azure-bot.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
-      - name: Configure context variables for a bot
+      - name: Configure context variables for bots
         href: context-variables-for-bot.md
     - name: Developer experience
       items: 
