@@ -83,14 +83,14 @@ For example, you can create a bot with the following details:
        
       In **Array of choices**, specify one choice per expression.
 
-     :::image type="content" source="media/pva-framework-setup.png" alt-text="Set customer locale by using the branch switch option.":::
+     :::image type="content" source="media/pva-framework-setup.png" alt-text="Set calues for an Array of choices.":::
      
    f. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
 
       - **Condition**: conversation.language_choice
       - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três   
        
-       Enter one choice per value.
+        Enter one choice per value.
      
    g. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
@@ -99,7 +99,7 @@ For example, you can create a bot with the following details:
       
      Repeat the steps to **Set a property** for fr-FR, pt-PT, hi-IN.
 
-      :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
+       :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
 
       The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
