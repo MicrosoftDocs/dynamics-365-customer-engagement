@@ -226,6 +226,9 @@ You can improve your agent's productivity by setting the **Enable suggest as you
 3. In the **Knowledge search experience** section, set the **Enable suggest as you type** toggle to **Yes**.
 4. Select **Save**.
 
+:::image type="content" source="media/enable-suggest-as-you-type.png" alt-text="Enable suggest as you type":::
+
+
 ### See also  
 
  [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   
