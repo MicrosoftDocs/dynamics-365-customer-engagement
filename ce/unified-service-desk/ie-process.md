@@ -20,7 +20,7 @@ monikerRange: '>= dynamics-usd-3'
 # Use IE Process to host web applications (discontinued)
 
 >[!Important]
-> - From October 31, 2022, Dynamics 365 Customer Service and Power Platform will be blocked in Internet Explorer. From early October 2022, users will be redirected to Microsoft Edge if it's installed on their device.  Otherwise, they'll receive a non-dismissible message informing them why they're blocked and will be recommended to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](admin/support-end-internet-explorer.md). <br>
+> - From October 31, 2022, Dynamics 365 Customer Service and Power Platform will be blocked in Internet Explorer. From early October 2022, users will be redirected to Microsoft Edge if it's installed on their device.  Otherwise, they'll receive a non-dismissible message informing them why they're blocked and will be recommended to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer.md). <br>
 > For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 > - Because Microsoft Internet Explorer 11 is officially retired, support for IE Process has also been discontinued in Unified Service Desk. To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use the latest browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
 

@@ -41,7 +41,7 @@ The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management enti
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated. 
  
-From October 31, 2022, Dynamics 365 Customer Service and Power Platform will be blocked in Internet Explorer. From early October 2022, users will be redirected to Microsoft Edge if it's installed on their device.  Otherwise, they'll receive a non-dismissible message informing them why they're blocked and will be recommended to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](admin/support-end-internet-explorer.md). For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
+From October 31, 2022, Dynamics 365 Customer Service and Power Platform will be blocked in Internet Explorer. From early October 2022, users will be redirected to Microsoft Edge if it's installed on their device.  Otherwise, they'll receive a non-dismissible message informing them why they're blocked and will be recommended to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer.md). For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
 
 ## Automatic record creation rules in web client are deprecated
