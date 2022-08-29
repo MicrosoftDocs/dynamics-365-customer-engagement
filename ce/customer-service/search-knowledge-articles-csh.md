@@ -161,6 +161,8 @@ The suggest as you type option provides you with suggestions on the most relevan
 
 The matched text is highlighted to show the presence of the keyword. On selecting the record, you will be taken to the knowledge article.
 
+:::image type="content" source="media/autosuggest-ka.png" alt-text="Suggest as you type option":::
+
 ## View knowledge articles
 
 ### View the knowledge article on the application tab
