@@ -31,17 +31,17 @@ Administrators and IT professionals can use this information to prepare for futu
 
 Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Omnichannel admin center](oc-admin-center.md)
 
-## setContextProvider method deprecated for authenticated chat
+## setContextProvider method for authenticated chat is deprecated
 
-The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md).
+The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
-The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier will not be supported after October 01, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](work-knowledge-articles.md).
+The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier will not be supported after October 01, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](work-knowledge-articles.md)
 
-## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated. 
+## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
  
-[!INCLUDE[cc_internet_explorer_deprecation](cc-internet-explorer-deprecation.md)]
+[!INCLUDE[cc_internet_explorer_deprecation](../includes/cc-internet-explorer-deprecation.md)]
 
 ## Automatic record creation rules in web client are deprecated
 
@@ -75,7 +75,7 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
-Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8)).
+Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8))
 
 ## Customer Service Insights standalone app to be deprecated
 
