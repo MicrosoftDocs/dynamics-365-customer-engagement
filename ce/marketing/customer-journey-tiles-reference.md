@@ -79,6 +79,12 @@ The content that your customer journey delivers to contacts as they traverse the
   In the new designer, a marketing form can be used only as a nested property under the marketing page property which is a representee link to an external page in email tiles.
 
   In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey. With the new designer, this is no longer needed as the audience can be defined using a form by selecting the form submitted as a source under a marketing page. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form with condition tiles.
+  
+> [!NOTE]
+> In order to use the links of an email in a condition tile, the following pre-requisite is needed: 
+> - The selected email needs to be live.
+> - A content settings need to be selected on the journey
+> - The selected content settings needs to be live
 
 - **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Power Apps portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
 
