@@ -18,11 +18,20 @@ Sequences help sales managers enforce best practices by introducing a set of con
 | **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
+## Permission requirements to manage sequences
+
+The following table shows the permissions required for a user role to perform tasks on sequences.
+
+| Task related to sequence | Permissions required |
+|--------------------------|----------------------|
+| Create, edit, and delete | In the security roles page, under the **Custom Entities** tab, provide Create, Read, and Write permissions for **Sequence** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br> By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. | 
+| Connect and disconnect| In the security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br> **Sequence**: Create and Append To<br> **Sequence Target**: Create, Read, Write, Append, Append To, and Assign<br>**Sequence Target Step**: Create, Read, Write, Append, and Assign<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br> By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. |
+
 ## Use sequence designer
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
 
-As a sequence manager, you can use the sequence designer to do the following tasks:  
+You can use the sequence designer to do the following tasks:  
 - [Create and activate a sequence](create-and-activate-a-sequence.md).
 - [Connect a sequence to records](connect-a-sequence-to-records.md).
 - [View details of a sequence and its connected records](view-sequence-details-connected-records.md).
