@@ -68,8 +68,6 @@ The **Notes** tab in the call summary page helps you reduce the time to summariz
 You can write  a quick and personalized summary without moving away from the context of the call in the **Notes** tab. Providing a summary of the call helps you to save time, focus on the customer’s call, quickly review the key points, and understand the next course of action.    
 Further, you can share the saved summary with the stakeholders through an email.  
 
->[!NOTE]
->If you don’t see the **Notes** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
 
 ##### To write a call summary or notes
 
