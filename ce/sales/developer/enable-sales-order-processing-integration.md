@@ -57,14 +57,14 @@ The following table lists the conditions that need to be satisfied before Dynami
 
 ## Turn off the sales order processing setting
 
-By default, the sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the IsSOPIntegrationEnabled attribute, you can turn it off using the App Settings UI.
+By default, the sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the ```IsSOPIntegrationEnabled``` attribute, you can turn it off using App Settings.
 
 1. Go to **Sales Hub**, and then select **App Settings**.
 2. Select **General/Overview**, and then select **Back Office Order Processing Integration**.
 3. Select **Manage**, and then set the toggle switch to **Off**.
 
 > [!NOTE]
-> The setting won't be visible in the UI if the integration is turned off.
+> The setting won't be visible in the **App Settings** if the integration is turned off.
 
 [!INCLUDE [cant-find-option](../../includes/cant-find-option.md)]
 
