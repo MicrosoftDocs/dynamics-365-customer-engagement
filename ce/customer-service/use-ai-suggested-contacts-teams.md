@@ -1,25 +1,14 @@
 ---
 title: "Collaborate with AI-suggested agents in Microsoft Teams | MicrosoftDocs"
 description: "Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service."
-ms.date: 11/05/2021
+ms.date: 08/29/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Collaborate with AI-suggested contacts in Microsoft Teams (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+# Collaborate with AI-suggested contacts in Microsoft Teams
 
 If your administrator has enabled AI suggestions for similar cases and configured the ability to link chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
@@ -32,7 +21,7 @@ More information: [Configure AI suggestions for contacts in Microsoft Teams](con
 
 The AI-suggested contacts in Microsoft Teams functionality is applicable for cases and support conversations in the Customer Service workspace and Omnichannel for Customer Service apps.
 
-For a case or a support conversation, **Teams chat (Preview)** appears in the app side pane on the right. 
+For a case or a support conversation, **Teams chat** appears in the app side pane on the right. 
 
 :::image type="content" source="media/teams-new-linked-chat.png" alt-text="New linked chat option in Teams.":::
 
