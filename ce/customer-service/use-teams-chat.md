@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 03/18/2022
+ms.date: 08/29/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -17,17 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Use Teams chat in Customer Service (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
+# Use Teams chat in Customer Service
 
 As an agent, you can chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Customer Service workspace, and any custom app. While working on customer records, you can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
@@ -57,7 +47,7 @@ The following legend describes the numbered callouts in the above image.
 
 ## Open Teams chats that are related to a record
 
-You can open any Dynamics 365 Customer Service record and select the **Teams chats and channels integration** icon. The **Teams chats (preview)** panel opens with the following sections in the **Chat** tab:  
+You can open any Dynamics 365 Customer Service record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
 - Chats linked to the record: Lists Teams chats that either you’ve linked to the selected record or someone else has linked a chat with you as a participant. 
 - Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record. 
@@ -71,7 +61,7 @@ Your administrator can configure an optional message that you can send when usin
 If you're using Teams for the first time within Customer Service Hub or Customer Service workspace, you can select the blue bubble, and then follow the interface guidance.
 
 1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels** integration icon.
-    The **Teams chats (preview)** panel opens.
+    The **Teams chats** panel opens.
     - You can access the embedded chat from in Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
     - If you're in a multisession app, such as Customer Service workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
@@ -136,9 +126,9 @@ The **Channels** tab lists the channels that either you’ve linked to the selec
 You can link relevant Teams channels to a record so that all the members can easily access the linked channels from the record and follow the conversation. 
 
 1.	Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon.<br>
-   The **Teams chats (preview)** pane opens.
+   The **Teams chats** pane opens.
 2. Select the **Channel** tab. The tab lists the channels that are already linked to a record.
-3. Select the **Link channel** icon in the upper-right corner of the Teams chats (preview) pane.<br>
+3. Select the **Link channel** icon in the upper-right corner of the Teams chats pane.<br>
    The **Collaborate with Microsoft Teams** dialog opens.
 4. To start a new linked channel, select **Create a new connection**.
 5. To link an existing channel, select the channel from the list, and then select **Start collaboration**.
@@ -156,7 +146,7 @@ As an agent, you can view and easily join chats that are linked to a record you 
 **To join a linked chat**:
 
 1. Open the record for which you want to join the chat.
-2. In the **Teams chats (Preview)** page, go to any of the linked chats you want to join. A lock icon is displayed with text that says "Hover over to join this chat". When you hover over the lock icon, if have write access to the associated record, a **Join** button will be displayed.
+2. In the **Teams chats** page, go to any of the linked chats you want to join. A lock icon is displayed with text that says "Hover over to join this chat". When you hover over the lock icon, if have write access to the associated record, a **Join** button will be displayed.
 
     > [!div class="mx-imgBorder"] 
     > ![Text that says to hover over it to join the chat.](media/hover-join-chat.png "Display of text that says to hover over it to join a chat")
