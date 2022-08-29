@@ -66,7 +66,7 @@ For other device manufacturers, please email Dynamics 365 Mobile Support at dynm
 
 Contact your administrator or help desk and make sure that your user is under Intune app protection policies.
 
-Also on your device, go to **Settings** > **General** > **Accounts** and remove any accounts that are connected with Microsoft 365.
+On your device, go to **Settings** > **General** > **Accounts** and remove any accounts that are connected with Microsoft 365.
 
 ## Error message: Access Denied. This app must be protected with an Intune policy before you can access company data
 
