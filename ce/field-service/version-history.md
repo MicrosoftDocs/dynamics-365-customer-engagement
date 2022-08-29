@@ -41,10 +41,10 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.84.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312843)).
 
-- Fixed a bug that showed a null exception when EstimatedDuration field was not on work order incident form.
-- Fixed an accessibility issue with high contrast mode on connected field service device readings that prevented the show/hide controls from being displayed.
-- Fixed a bug preventing device ID’s from being set on connected field service devices during a form refresh.
-- Fixed a bug that prevented setting Lat/Lon when a Functional location’s address is partially updated.
+- Fixed a bug that showed a null exception when the EstimatedDuration field was not on work order incident form.
+- Fixed an accessibility issue with high contrast mode on Connected Field Service device readings that prevented the show/hide controls from being displayed.
+- Fixed a bug preventing device IDs from being set on Connected Field Service devices during a form refresh.
+- Fixed a bug that prevented setting Lat/Lon when a functional location’s address is partially updated.
 - Fixed a bug on inventory adjustment product form that created errors when the inventory transfer field is removed through customization.
 - Bing maps will now be enabled by default for non-EU regions, and resource scheduling will connect to maps by default.
 
