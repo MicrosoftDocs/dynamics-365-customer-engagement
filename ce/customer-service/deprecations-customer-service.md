@@ -39,13 +39,10 @@ The setContextProvider method for authenticated chat has been deprecated and wil
 
 The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier will not be supported after October 01, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](work-knowledge-articles.md).
 
-## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated <a name="internetexplorer11"></a>
+## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated. 
+ 
+From October 31, 2022, Dynamics 365 Customer Service and Power Platform will be blocked in Internet Explorer. From early October 2022, users will be redirected to Microsoft Edge if it's installed on their device.  Otherwise, they'll receive a non-dismissible message informing them why they're blocked and will be recommended to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](admin/support-end-internet-explorer.md). For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
-Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dynamics 365 and Microsoft Power Platform is deprecated, and Internet Explorer 11 won’t be supported after August, 2021.
-
-This will impact customers who use Dynamics 365 and Microsoft Power Platform products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 and Microsoft Power Platform products. We recommend that customers transition to Microsoft Edge.
-
-If you have more questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
 ## Automatic record creation rules in web client are deprecated
 
