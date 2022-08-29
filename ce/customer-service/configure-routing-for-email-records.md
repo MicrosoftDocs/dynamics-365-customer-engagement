@@ -16,7 +16,7 @@ A high-level overview of unified routing with email records is as follows.
 
 :::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
 
-When an email arrives from a customer, you can route it as a case or record. The email record should be enabled for queues. More information: [Enable entity for queues](enable-entities-for-queues.md)
+With unified routing, you can route any activity that's enabled for queues. Email is one such example of the activity type. More information: [Enable entity for queues](enable-entities-for-queues.md)
 
 ## Route email as a case
 
