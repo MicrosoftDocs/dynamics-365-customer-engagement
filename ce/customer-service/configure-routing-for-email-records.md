@@ -16,8 +16,6 @@ A high-level overview of unified routing with email records is as follows.
 
 :::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
 
-For information about enabling for queues, see [Enable entity for queues](enable-entities-for-queues.md).
-
 ## Route email as a case
 
 1. Set up rules to [create or update records automatically](automatically-create-update-records.md).
