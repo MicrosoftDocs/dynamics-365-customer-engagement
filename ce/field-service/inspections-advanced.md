@@ -36,7 +36,7 @@ Based on the response to an inspection question, options include:
 
 - **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
 
-- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden. This option is mapped to a single rule. Add additional conditions in the rule if you want input from multiple questions specify if he question is shown.
+- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden. The visibility of a question is mapped to a single rule. Add additional conditions in the rule if you want input from multiple questions to determine whether this question is shown.
 
 - **Change to required**: Question becomes required when the condition is true.
 
