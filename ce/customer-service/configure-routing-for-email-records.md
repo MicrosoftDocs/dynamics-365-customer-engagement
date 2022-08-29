@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Set up unified routing for email records
 
-With unified routing in Dynamics 365 Customer Service, you can route any activity that's enabled for queues. Email is one such example of the activity type that you can turn into work items and add them to queues for agents to work on.
+With unified routing in Dynamics 365 Customer Service, you can route any activity that's enabled for queues. Emails are one such example of the activity type that you can turn into work items and add them to queues for agents to work on.
 
 A high-level overview of unified routing with email records is as follows.
 
