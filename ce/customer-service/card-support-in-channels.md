@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 07/19/2022
+ms.date: 08/18/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -175,6 +175,32 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 > [!Note]
 > - Apple Messages for Business, Twitter, WeChat, and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
+
+## Preconfigured automated message triggers for asynchronous channels
+
+### Preconfigured automated message triggers for agents
+
+The following table lists the automated messages that are displayed for an agent across different asynchronous channels.
+
+|**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
+|-----------------|----------------|------------|-----------------|
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message or attachment couldn't be sent. Error details include error code, reason for failure, message ID, timestamp, and transaction ID.| Message that's displayed to agent when  the agent's message or attachment couldn't be sent | When agent's message or attachment couldn't be sent |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Customer's file couldn't be attached because it's too big| Message that's displayed to agent when the customer sends an attachment that exceeds the allowed limit   | When customer sends an attachment that exceeds the allowed limit  |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp | Message couldn't be delivered: Unsupported message type| Message that's displayed to agent when customer sends an unsupported message type| When customer sends an unsupported message type |
+|Custom | Customer disconnected| Message that's displayed to agent when the customer gets disconnected|  When the customer gets disconnected |
+|Custom|  Customer ended conversation| Message that's displayed to agent when customer ends the conversation| When customer ends the conversation|
+
+### Preconfigured automated message triggers for customers
+
+The following table lists the automated messages that are displayed for a customer across different asynchronous channels.
+
+|**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
+|-----------------|----------------|------------|-----------------|
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp| Customer's file couldn't be attached because it's too big |Message that's displayed to customer when the customer sends an attachment that exceeds the allowed limit   | When customer sends an attachment that exceeds the allowed limit  |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp |Message couldn't be delivered: Unsupported message type | Message that's displayed to customer when the customer sends an unsupported message type |  When customer sends an unsupported message type |
+|Apple Messages for Business, Custom, Facebook, Google's Business Messages, LINE, Twitter, WeChat, and WhatsApp |Greeting Message for Async Channels | Message that's displayed to customer when the customer sends a message request to chat  | When customer sends a message request to chat |
+|Custom| Customer's position in queue | Message that's displayed to customer when there is a queue of customers waiting| When customer submits a request and is placed in the queue to chat with an agent because other customers are already waiting. | 
+|Custom| Customer is next in line|  Message that's displayed to customer when no other customer is ahead in the queue |  The number of customers waiting to chat gets updated each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message. |
 
 ### See also
 

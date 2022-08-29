@@ -26,7 +26,7 @@ As a sequence manager, you can use the sequence designer to do the following tas
 - [Create and activate a sequence](create-and-activate-a-sequence.md).
 - [Connect a sequence to records](connect-a-sequence-to-records.md).
 - [View details of a sequence and its connected records](view-sequence-details-connected-records.md).
-- [clone and edit a sequence](edit-a-sequence.md).
+- [Clone and edit a sequence](edit-a-sequence.md).
 - [Delete a sequence](delete-a-sequence.md).
 
 ## Review prerequisite

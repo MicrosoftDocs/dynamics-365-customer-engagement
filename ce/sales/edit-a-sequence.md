@@ -19,7 +19,7 @@ If your organization changes its selling process, you might want to edit a seque
 
 ## Clone a sequence
 
-Cloning a sequence makes it easier to add or remove steps, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning at that point in time, including all steps and configurations. After you make the changes, you can save and activate the cloned sequence and apply it records.
+Cloning a sequence makes it easier to add or remove steps, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning at that point in time, including all steps and configurations. After you make the changes, you can save and activate the cloned sequence and apply it to records.
 
 1. Sign in to your sales app.   
 1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   

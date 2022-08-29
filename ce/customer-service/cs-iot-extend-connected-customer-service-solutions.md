@@ -4,7 +4,7 @@ description: "Connected Customer Service supports the customization of each stan
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 

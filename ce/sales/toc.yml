@@ -10,10 +10,10 @@
     items: 
       - name: Sign up for the free trial
         href: sign-up-for-sales-trial.md
-      - name: Trial FAQs
-        href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
   - name: Install and configure
     items:
     - name: Use the Sales Hub app 
@@ -446,18 +446,21 @@
               href: manage-playbook-templates.md
     - name: Relationship intelligence
       items: 
+        - name: Relationship intelligence overview
+          href: ri-overview.md
+        - name: Enable relationship intelligence
+          href: enable-ri.md
         - name: Configure relationship analytics and health
           href: configure-relationship-analytics.md
-        - name: Configure talking points
-          href: configure-talking-points.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
-        - name: Add relationship intelligence widgets to custom forms
-          href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
-          href: insights-from-m365.md 
+          href: insights-from-m365.md
+        - name: Add relationship intelligence widgets to custom forms
+          href: add-ri-widgets-to-custom-form.md
+
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -518,7 +521,7 @@
       items: 
         - name: Prerequisites for Dynamics 365 Sales mobile
           href: sales-mobile/prereq-sales-mobile.md
-        - name: Modify quick view forms
+        - name: Manage forms
           href: sales-mobile/modify-quick-view-form.md
         - name: Create custom push notifications
           href: sales-mobile/create-push-notification.md
@@ -554,7 +557,6 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -615,7 +617,6 @@
           href: teams-integration/teams-collaboration.md
         - name: Enhanced Collaboration with Teams
           href: teams-integration/teams-collaboration-enhanced-experience.md
-
     - name: Productivity and document management
       items: 
         - name: Activity management
@@ -747,6 +748,12 @@
           items: 
             - name: What is sales accelerator
               href: sales-accelerator-intro.md
+            - name: Create and connect sequences for yourself
+              href: create-sequence-seller.md  
+            - name: Manage your sequences
+              href: manage-sequences-seller.md 
+            - name: Apply and remove tags from your sequences
+              href: apply-remove-tags-seller.md 
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
             - name: Customize work list card  
@@ -799,8 +806,6 @@
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md
-        - name: Know conversation starters for your customers
-          href: talking-points.md
     - name: Conversation Intelligence
       items: 
         - name: Overview of Conversation Intelligence
@@ -1090,6 +1095,10 @@
           items: 
             - name: msdyn_ConnectSequence
               href: developer-sp/msdyn-ConnectSequence-action.md
+            - name: msdyn_WKWDeleteGDPRData
+              href: developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md
+            - name: msdyn_WKWGDPRDeleteStatus
+              href: developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md
         - name: Entity Reference
           items: 
             - name: Entity reference
@@ -1098,6 +1107,10 @@
               href: developer-sp/msdyn_predictivescore.md
             - name: msdyn_PredictiveModelScore
               href: developer-sp/msdyn_predictivemodelscore.md
+            - name: msdyn_wkwcolleaguesforcontact
+              href: developer-sp/msdyn_wkwcolleaguesforcontact.md
+            - name: msdyn_wkwcolleaguesforcompany
+              href: developer-sp/msdyn_wkwcolleaguesforcompany.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items: 
