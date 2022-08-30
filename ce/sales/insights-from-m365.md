@@ -15,6 +15,7 @@ Dynamics 365 Sales generates the following relationship insights using Microsoft
 - [Relationship analytics and health](#relationship-analytics-and-health)
 - [Who knows whom ](#who-knows-whom)
 
+The Microsoft 365 admin needs to [provide consent](provide-consent-office365.md) to let Dynamics 365 collect and use Microsoft 365 data. For information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md) 
 
 ## Relationship analytics and health
 

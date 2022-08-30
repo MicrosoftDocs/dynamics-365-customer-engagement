@@ -12,6 +12,9 @@ manager: shujoshi
 
 This article describes different types of consent that a Microsoft 365 admin needs to provide to let Dynamics 365 collect and use Microsoft 365 data.
 
+> [!IMPORTANT]
+> Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
+
 **More information:** 
 - [Insights generated from Microsoft 365 data](insights-from-m365.md)
 - [Provide consent to collect data from Exchange Online](provide-consent-office365.md)
@@ -25,5 +28,3 @@ The following sections include an incomplete list of Dynamics 365 applications u
 | **Results visible to** | User running the Dynamics 365 application. | Users belonging to the same Dynamics 365 org | Users belonging to the same Dynamics 365 org |
 | **Dynamics 365 App using the consent** | None | Dynamics 365 Customer Insights: Office Enrichment<br /></br> | Dynamics 365 Sales: Who Knows Whom<br /></br> Dynamics 365 Sales: Relationship analytics |
 |**Examples**|None|Office Enrichment uses data from Microsoft Office 365 to enrich customer account profiles with insights about engagements through Office 365 apps. The engagement data consists of email and meeting activity, which is aggregated on the account level.|A user can leverage their network of colleagues—their user data—to see who can introduce them to a sales target at an external organization.
-
-Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
