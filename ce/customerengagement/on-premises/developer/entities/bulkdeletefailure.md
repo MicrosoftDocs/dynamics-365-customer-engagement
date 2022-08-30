@@ -1,7 +1,7 @@
 ---
 title: "BulkDeleteFailure entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the BulkDeleteFailure entity."
-ms.date: 08/29/2022
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -20,10 +20,10 @@ Record that was not deleted during a bulk deletion job.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bulkdeletefailures(*bulkdeletefailureid*)<br />See [Retrieve](/power-apps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkdeletefailures<br />See [Query Data](/power-apps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
 ## Properties
 
@@ -1060,6 +1060,5 @@ See the [SemiAnnualFiscalCalendar_BulkDeleteFailures](semiannualfiscalcalendar.m
 
 ### See also
 
-[About the entity reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)<br />
-<xref href="Microsoft.Dynamics.CRM.bulkdeletefailure?text=bulkdeletefailure EntityType" />
+[About the Entity Reference](../about-entity-reference.md)<br />
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

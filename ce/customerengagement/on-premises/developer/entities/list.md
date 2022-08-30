@@ -1,7 +1,7 @@
 ---
 title: "Marketing List (List)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Marketing List (List)  entity."
-ms.date: 08/29/2022
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -22,27 +22,27 @@ Group of existing or potential customers created for a marketing campaign or oth
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|AddListMembersList| |<xref:Microsoft.Crm.Sdk.Messages.AddListMembersListRequest>|
-|AddMemberList| |<xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>|
-|Assign|PATCH [*org URI*]/api/data/v9.0/lists(*listid*)<br />[Update](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|CopyDynamicListToStatic| |<xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>|
-|CopyMembersList| |<xref:Microsoft.Crm.Sdk.Messages.CopyMembersListRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/lists<br />See [Create](/power-apps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateActivitiesList| |<xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/lists(*listid*)<br />See [Delete](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|QualifyMemberList| |<xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>|
-|RemoveMemberList| |<xref:Microsoft.Crm.Sdk.Messages.RemoveMemberListRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/lists(*listid*)<br />See [Retrieve](/power-apps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/lists<br />See [Query Data](/power-apps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/lists(*listid*)<br />[Update](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/lists(*listid*)<br />See [Update](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|AddListMembersList|<xref:Microsoft.Crm.Sdk.Messages.AddListMembersListRequest>|
+|AddMemberList|<xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|CopyDynamicListToStatic|<xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>|
+|CopyMembersList|<xref:Microsoft.Crm.Sdk.Messages.CopyMembersListRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateActivitiesList|<xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|QualifyMemberList|<xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>|
+|RemoveMemberList|<xref:Microsoft.Crm.Sdk.Messages.RemoveMemberListRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Properties
 
@@ -1331,6 +1331,5 @@ IntersectEntityName: listmember<br />
 
 ### See also
 
-[About the entity reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)<br />
-<xref href="Microsoft.Dynamics.CRM.list?text=list EntityType" />
+[About the Entity Reference](../about-entity-reference.md)<br />
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

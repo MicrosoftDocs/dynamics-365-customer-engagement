@@ -1,7 +1,7 @@
 ---
 title: "Dependency entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Dependency entity."
-ms.date: 08/29/2022
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -20,15 +20,15 @@ A component dependency in CRM.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/dependencies(*dependencyid*)<br />See [Retrieve](/power-apps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveDependenciesForDelete|<xref href="Microsoft.Dynamics.CRM.RetrieveDependenciesForDelete?text=RetrieveDependenciesForDelete Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForDeleteRequest>|
-|RetrieveDependenciesForUninstall|<xref href="Microsoft.Dynamics.CRM.RetrieveDependenciesForUninstall?text=RetrieveDependenciesForUninstall Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForUninstallRequest>|
-|RetrieveDependentComponents|<xref href="Microsoft.Dynamics.CRM.RetrieveDependentComponents?text=RetrieveDependentComponents Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>|
-|RetrieveMissingDependencies|<xref href="Microsoft.Dynamics.CRM.RetrieveMissingDependencies?text=RetrieveMissingDependencies Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveMissingDependenciesRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dependencies<br />See [Query Data](/power-apps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrieveRequiredComponents|<xref href="Microsoft.Dynamics.CRM.RetrieveRequiredComponents?text=RetrieveRequiredComponents Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRequiredComponentsRequest>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveDependenciesForDelete|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForDeleteRequest>|
+|RetrieveDependenciesForUninstall|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForUninstallRequest>|
+|RetrieveDependentComponents|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>|
+|RetrieveMissingDependencies|<xref:Microsoft.Crm.Sdk.Messages.RetrieveMissingDependenciesRequest>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveRequiredComponents|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRequiredComponentsRequest>|
 
 ## Properties
 
@@ -440,6 +440,5 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### See also
 
-[About the entity reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)<br />
-<xref href="Microsoft.Dynamics.CRM.dependency?text=dependency EntityType" />
+[About the Entity Reference](../about-entity-reference.md)<br />
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
