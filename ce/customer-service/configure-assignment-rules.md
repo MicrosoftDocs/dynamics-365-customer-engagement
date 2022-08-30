@@ -78,7 +78,7 @@ Perform the following steps to create a custom assignment method:
    e. Repeat the steps a through d to configure multiple rules.
 
    > [!NOTE]
-   > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
+   > We recommend that you reduce the granularity of the conditions for the assignment rules in a descending order.
   
 
 1. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
