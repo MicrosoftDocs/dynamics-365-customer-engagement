@@ -1,7 +1,7 @@
 ---
 title: "Best practices for configuring bots | MicrosoftDocs"
 description: "This article lists the best practices that you can follow when you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 08/08/2022
+ms.date: 08/30/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -30,6 +30,7 @@ When you configure Azure and Power Virtual Agents bots in Omnichannel for Custom
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
+[Manage context variables](manage-context-variables.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
