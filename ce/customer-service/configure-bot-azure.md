@@ -115,7 +115,8 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  
 [Configure Azure bots to escalate and end conversation](bot-escalate-end-conversation.md)  
-[Context variables for a bot](context-variables-for-bot.md)  
+[Configure context variables for bots](context-variables-for-bot.md)  
+[Manage context variables](manage-context-variables.md)  
 [Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

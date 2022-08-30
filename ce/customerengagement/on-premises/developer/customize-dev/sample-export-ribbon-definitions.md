@@ -1,28 +1,27 @@
 ---
 title: "Sample: Export ribbon definitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to export Ribbon definitions. It uses the RetrieveApplicationRibbonRequest and RetrieveEntityRibbonRequest messages. "
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: samples
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a657c8bb-dbeb-461f-8271-d07a97c3ea0e
 caps.latest.revision: 16
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-search.audienceType: 
+search.audienceType:
   - developer
-
 ---
 
 # Sample: Export ribbon definitions
 
-This sample shows how to export ribbon definitions. It uses the [RetrieveApplicationRibbonRequest](/dotnet/api/microsoft.crm.sdk.messages.retrieveapplicationribbonrequest?view=dynamics-general-ce-9&preserve-view=true) and [RetrieveEntityRibbonRequest](/dotnet/api/microsoft.crm.sdk.messages.retrieveentityribbonrequest?view=dynamics-general-ce-9&preserve-view=true) messages. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ExportRibbonDefinitions).
+This sample shows how to export ribbon definitions. It uses the [RetrieveApplicationRibbonRequest](/dotnet/api/microsoft.crm.sdk.messages.retrieveapplicationribbonrequest?view=dynamics-general-ce-9&preserve-view=true) and [RetrieveEntityRibbonRequest](/dotnet/api/microsoft.crm.sdk.messages.retrieveentityribbonrequest?view=dynamics-general-ce-9&preserve-view=true) messages. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ExportRibbonDefinitions).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -50,6 +49,5 @@ Checks for the current version of the org.
 ### Clean up
 
 No clean up is required for this sample
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

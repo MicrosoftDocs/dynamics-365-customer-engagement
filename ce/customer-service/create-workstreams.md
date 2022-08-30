@@ -125,7 +125,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 - [Sessions](../app-profile-manager/session-templates.md)
 - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-- [Context variables](context-variables-for-bot.md)
+- [Context variables](manage-context-variables.md)
 - [Smart assist bots](smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
@@ -173,7 +173,7 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 
 ### Associate templates
 
-You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates in Omnichannel admin center](../app-profile-manager/associate-templates.md#associate-templates-with-workstreams-in-omnichannel-admin-center)
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
 ### See also
 
