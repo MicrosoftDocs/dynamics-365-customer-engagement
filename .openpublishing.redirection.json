@@ -23954,6 +23954,16 @@
       "source_path": "ce/sales/talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
       "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
+      "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/customer-service/csw-search-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
+      "redirect_document_id": "false"
     }
   ]
 }

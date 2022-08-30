@@ -262,6 +262,8 @@
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
+        - name: Configure routing to preferred agents
+          href: configure-preferred-agent.md
       - name: Set up record routing
         items:
         - name: Provision unified routing for Customer Service
@@ -366,7 +368,7 @@
         href: remove-validation-contact.md
   - name: Automatically create or update records
     items: 
-    - name: Automatically create or update records in Customer Service Hub
+    - name: Automatically create or update records
       href: automatically-create-update-records.md
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
@@ -500,12 +502,16 @@
         href: create-templates-knowledge-article.md
     - name: Agent experience
       items:
-      - name: Search for and share knowledge articles in Omnichannel for Customer Service
-        href: oc-search-knowledge-articles.md 
-      - name: Search for knowledge articles in Customer Service workspace
-        href: csw-search-knowledge-articles.md
-      - name: Search for knowledge articles in Customer Service Hub
+      - name: Search knowledge articles
         href: search-knowledge-articles-csh.md
+      - name: Email a knowledge article
+        href: email-articles.md
+      - name: Link and unlink knowledge articles
+        href: link-articles.md
+      - name: Filter knowledge articles
+        href: filter-articles.md
+      - name: Submit ratings and feedback for knowledge articles
+        href: submit-feedback.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
     - name: Self-service experience
@@ -836,6 +842,8 @@
       href: enable-file-attachments.md
     - name: Enable formatted messages
       href: enable-formatted-messages.md
+    - name: Manage context variables
+      href: manage-context-variables.md      
     - name: Configure pre-conversation surveys
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys
@@ -918,6 +926,8 @@
       href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Configure context variables for bots
+        href: context-variables-for-bot.md      
       - name: Configure Azure bots
         items:
         - name: Integrate an Azure bot
@@ -926,8 +936,6 @@
           href: sample-config-azure-bot.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
-      - name: Configure context variables for a bot
-        href: context-variables-for-bot.md
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
@@ -1176,8 +1184,6 @@
       href: contract-to-entitlement-migration.md
     - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
-    - name: FAQ about create records automatically and activity monitor
-      href: arc-faqs.md  
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration
@@ -1230,6 +1236,8 @@
         href: developer/reference/entities/msdyn_actioninputparameter.md
       - name: msdyn_actionoutputparameter
         href: developer/reference/entities/msdyn_actionoutputparameter.md
+      - name: msdyn_agentcapacityupdatehistory
+        href: developer/reference/entities/msdyn_agentcapacityupdatehistory.md        
       - name: msdyn_agentscript
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
@@ -1422,6 +1430,10 @@
         href: developer/reference/entities/msdyn_personalsoundsetting.md
       - name: msdyn_personasecurityrolemapping
         href: developer/reference/entities/msdyn_personasecurityrolemapping.md
+      - name: msdyn_preferredagent
+        href: developer/reference/entities/msdyn_preferredagent.md
+      - name: msdyn_preferredagentcustomeridentity
+        href: developer/reference/entities/msdyn_preferredagentcustomeridentity.md        
       - name: msdyn_presence
         href: developer/reference/entities/msdyn_presence.md
       - name: msdyn_productivitypaneconfiguration
@@ -1610,6 +1622,8 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
+    - name: FAQ about automation record creation and activity monitor
+      href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
     - name: FAQ about Omnichannel for Customer Service

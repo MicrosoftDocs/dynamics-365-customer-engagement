@@ -18,7 +18,6 @@ For every incoming conversation request that an agent receives, a notification a
 
 If more than one account, contact, or case is identified, the record won't be linked to the conversation. More information: [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md)
 
-
 ## Set up pre-conversation questions
 
 Use the following question names to create pre-conversation questions. To know how to create pre-conversation questions and use them in a pre-conversation survey, see [Configure a pre-conversation survey](configure-pre-chat-survey.md).
@@ -52,7 +51,7 @@ To link the customer or case, set the values for the associated attributes, such
 |Case|CaseNumber|ticketnumber|
 ||||
 
-For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
+For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-power-virtual-agents-bot).
 
 
 ### See also
