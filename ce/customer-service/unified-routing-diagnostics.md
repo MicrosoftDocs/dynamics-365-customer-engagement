@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -51,7 +51,9 @@ To see data related to work items and their status, you need to enable routing d
    You'll see that a list of new work items starts to appear. However, the work items may not appear on your screen immediately.
 
 > [!NOTE]
-> After you enable diagnostics, the data will be stored in Microsoft Dataverse. The diagnostics data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
+>
+> - The diagnostics setting can take up to 15 minutes to take effect after you enable it.
+> - After you enable diagnostics, the data will be stored in Microsoft Dataverse. The diagnostics data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
 
 ## Understand routing stages and diagnostics
 
