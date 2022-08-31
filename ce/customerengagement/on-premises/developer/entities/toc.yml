@@ -140,6 +140,8 @@
   href: entitlementtemplatechannel.md
 - name: EntityDataProvider
   href: entitydataprovider.md
+- name: EntityDataSource
+  href: entitydatasource.md
 - name: Equipment
   href: equipment.md
 - name: ExchangeSyncIdMapping
