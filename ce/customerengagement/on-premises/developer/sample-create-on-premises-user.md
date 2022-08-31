@@ -33,7 +33,7 @@ The sample does not delete the new user after the program terminates. This must 
 
 ## Demonstrates
 
-This sample shows how to create a user in Active Directory and then in Customer Engagement using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create\*> method.
+This sample shows how to create a user in Active Directory and then in Customer Engagement using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create%2A> method.
 The new system user is created in the same domain and business unit as the logged on user executing the program.
 
 ## Example
