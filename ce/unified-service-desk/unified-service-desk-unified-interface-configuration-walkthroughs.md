@@ -42,7 +42,7 @@ Each walkthrough in this section covers an area or a combination of areas in [!I
 ## Related topics  
  [Install, upgrade and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
   
- [Sample Unified Service Desk applications](../unified-service-desk/admin/sample-unified-service-desk-applications.md )  
+ [Sample Unified Service Desk applications](../unified-service-desk/admin/sample-unified-service-desk-applications.md)
   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   
