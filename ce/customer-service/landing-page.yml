@@ -38,7 +38,7 @@ landingContent:
       - text: Overview of the voice channel
         url: voice-channel.md
       - text: Overview of collaboration
-        url: collaboration.md
+        url: collaboration.md 
       
   - title: Learn what's new
     linkLists:
