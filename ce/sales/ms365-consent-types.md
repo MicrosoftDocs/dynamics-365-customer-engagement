@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Microsoft 365 consent types
 
-Your Microsoft 365 admin needs to provide consent to let Dynamics 365 collect, store, and use Microsoft 365 data:
+Your Microsoft 365 admin needs to provide consent to let Dynamics 365 collect, store, and use Microsoft 365 data.
 
 > [!IMPORTANT]
 > Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
