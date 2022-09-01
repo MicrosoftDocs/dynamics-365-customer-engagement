@@ -1020,12 +1020,6 @@
           href: ../customerengagement/on-premises/developer/entities/list.md
         - name: Metric
           href: ../customerengagement/on-premises/developer/entities/metric.md
-        - name: msdyn_forecastdefinition
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastdefinition.md
-        - name: msdyn_forecastinstance
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastinstance.md
-        - name: msdyn_forecastrecurrence
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastrecurrence.md
         - name: Opportunity
           href: ../customerengagement/on-premises/developer/entities/opportunity.md
         - name: OpportunityClose
