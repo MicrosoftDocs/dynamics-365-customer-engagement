@@ -1,7 +1,7 @@
 ---
 title: "Sequences in sales accelerator"
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
-ms.date: 08/01/2022
+ms.date: 09/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,7 +24,7 @@ The following table shows the permissions required for a user role to perform ta
 
 | Task related to sequence | Permissions required |
 |--------------------------|----------------------|
-| Create, edit, and delete | In the security roles page, under the **Custom Entities** tab, provide Create, Read, and Write permissions for **Sequence** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br> By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. | 
+| Create, edit, and delete | In the security roles page, under the **Custom Entities** tab, provide Create, Read, Write, and Delete permissions for **Sequence** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br> By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. | 
 | Connect and disconnect| In the security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br>- **Sequence**: Create and Append To<br>- **Sequence Target**: Create, Read, Write, Append, Append To, and Assign<br>- **Sequence Target Step**: Create, Read, Write, Append, and Assign<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br> By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. |
 
 ## Use sequence designer
