@@ -1,7 +1,7 @@
 ---
 title: "Use the IE Process hosting method for hosting web applications | MicrosoftDocs"
 description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
-ms.date: 08/30/2022
+ms.date: 09/02/2022
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
