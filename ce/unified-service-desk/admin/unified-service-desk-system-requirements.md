@@ -96,5 +96,6 @@ After you enable the web client experience, go to the Window Navigation Rules an
  [Install Unified Service Desk client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
  [Install and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+[Upgrade a Unified Service Desk solution](upgrade-unified-service-desk-solution.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
