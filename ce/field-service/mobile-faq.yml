@@ -272,7 +272,7 @@ sections:
       - question: |
           How do I set the sign-in frequency for users?
         answer: |
-          You can set how frequently users must sign in, and how frequently their auth tokens expire. For more information, see these instructions: [User sign-in frequency](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency)
+          You can set how frequently users must sign in, and how frequently their auth tokens expire. For more information, see these instructions: [User sign-in frequency](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency)
           >[!Note] 
           > The Woodford setting **oAuth Offline token age** does not work on the Field Service Mobile (Xamarin) app. This setting will not have any effect on the user's oAuth token expiration.
           
