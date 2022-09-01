@@ -111,7 +111,7 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
-9.	(Optional) In the **New and upcoming features* section, review the upcoming features.
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
