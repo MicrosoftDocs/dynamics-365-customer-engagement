@@ -1,7 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 09/01/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,7 +19,7 @@ search.app:
 
 # Analyze results to gain insights from your marketing activities
 
-Dynamics 365 Marketing keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
+Dynamics 365 Marketing keeps track of the way your contacts react to your marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. Each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
 - Contacts
 - Leads
@@ -56,7 +56,7 @@ Some **Insights** tabs include two or more categories of insights. You can navig
 
 ### Filter insights by date range and usage
 
-At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date (**From** and **To** settings) or usage (such as which **Customer journey** an email was used in).
+At the top of most insights tabs, you'll find settings that let you filter the information shown, for example, by date (**From** and **To** settings) or usage (such as which **Customer journey** an email was used in).
 
 ![Filter insights by date range and usage.](media/insights-filters.png "Filter insights by date range and usage")
 
@@ -131,30 +131,29 @@ Below email tiles, you'll see the dependencies for the email.
 
 Legend:
 
-1. **Inflow**: Shows the number of contacts who entered this tile (Only displayed in the old designer).
+1. **Inflow**: Shows the number of contacts who entered this tile (only displayed in the old designer).
 1. **Processing**: Shows the number of contacts that are still being processed by this tile. For example, they may be waiting on a trigger tile until the trigger condition (or timeout period) is met.
 1. **Stopped**: Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
-1. **Marketing page**: Shows a marketing page dependency (Only displayed in the old designer).
-1. **Event**: Shows an event dependency (Only displayed in the old designer).
-1. **Customer Voice survey**: Shows a Customer Voice survey dependency (Only displayed in the old designer).
-1. **Dynamics 365 Customer Voice survey**: Shows a Dynamics 365 Customer Voice survey dependency (Only displayed in the old designer).
-1. **Marketing form**: Shows a marketing form dependency (Only displayed in the old designer).
+1. **Marketing page**: Shows a marketing page dependency (only displayed in the old designer).
+1. **Event**: Shows an event dependency (only displayed in the old designer).
+1. **Customer Voice survey**: Shows a Customer Voice survey dependency (only displayed in the old designer).
+1. **Dynamics 365 Customer Voice survey**: Shows a Dynamics 365 Customer Voice survey dependency (only displayed in the old designer).
+1. **Marketing form**: Shows a marketing form dependency (only displayed in the old designer).
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
 
 ![Data panel showing tile results.](https://user-images.githubusercontent.com/109515046/187443302-25ce1700-bfca-4a26-97fe-e70d3cbdf80b.png)
 
-
 All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
 - **Volume** > **Total**: Shows the total number of contacts in the tile in all states. Processed , processing and not processed.
-- **Volume** > **In progress** : Shows the total number of contacts in progress. Which is total number of the below:
+- **Volume** > **In progress**: Shows the total number of contacts in progress. This number is the total of the following:
+  -  **Processing**: Counts how many contacts are still waiting for the tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive. 
   -  **Queued**: Shows the number of contacts in the customer journey that have not yet reached the selected tile.
-  -  **Processing**:  Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value indicates the                            number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
-- **Volume** > **Not processed** : Shows the total number already entered the tile but they are not processed due to one of the below reasons:
-    - **Stopped** : Which counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr-use-features.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
-    - **Expired** : It is used only for Email tiles (for the rest it is always with zero value). It shows the number of contacts expired in the email tile, and this happens when the [email expiration](email-expire.md) is enabled in the tile. 
-- **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were successfully processed by exactly this tile of this journey. This value is also displayed as the first value shown above the tile in the pipeline.
+- **Volume** > **Not processed**: Shows the total number of contacts that have already entered the tile but are not processed due to one of the following reasons:
+  - **Stopped**: Counts the number of contacts that were stopped from continuing the journey at this tile. There are three reasons that a contact might get stopped at a tile during a journey: (1) they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, (2) they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or (3) they lowered their [consent level](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr-use-features.md#journey-consent-level) set for the journey. The stopped value is also displayed as the second value above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at this tile in the journey. You can see a detailed breakdown of which contacts were stopped here and why by going to the [Incomplete journeys](#incomplete) view.
+  - **Expired**: This value is only used for email tiles (for other tiles, the value is always zero). It shows the number of contacts that expired in the email tile. A contact expires when an [email expiration](email-expire.md) date is set for the tile. 
+- **Volume** > **Processed**: Counts the number of contacts that were successfully processed by the tile and passed on to the next tile. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were successfully processed by this tile in the journey. This value is also displayed as the first value shown above the tile in the pipeline.
 
 In addition to the **Volume** section, some tiles also show additional sections and links in the **Data** panel, depending on the tile type. These can include the following:
 
