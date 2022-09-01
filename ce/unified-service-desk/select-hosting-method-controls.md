@@ -18,9 +18,7 @@ monikerRange: '>= dynamics-usd-3'
 ---
 # Select a hosting method for your controls in Unified Service Desk
 
->[!Important]
-> - [!INCLUDE[cc_internet_explorer_deprecation](../../ce/includes/cc-internet-explorer-deprecation.md)]
-> - Because Microsoft Internet Explorer 11 is officially retired, support for IE Process has also been discontinued in Unified Service Desk. To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use the latest browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
+[!INCLUDE[cc_internet_explorer_deprecation](../../ce/includes/cc-internet-explorer-deprecation.md)]
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 
