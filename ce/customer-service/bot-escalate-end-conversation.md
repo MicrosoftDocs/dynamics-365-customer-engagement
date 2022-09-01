@@ -274,7 +274,7 @@ The bot can also send an escalation summary that'll be visible only to the agent
 ### See also
 
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Add context variables](context-variables-for-bot.md#add-context-variables)  
+[Add context variables](manage-context-variables.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
