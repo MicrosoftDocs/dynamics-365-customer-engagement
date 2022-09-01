@@ -1,7 +1,7 @@
 ---
 title: Insights generated from Microsoft 365 data
 description: Dynamics 365 can generate insights based on email interactions and meetings information from Microsoft 365. 
-ms.date: 08/24/2022
+ms.date: 09/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
