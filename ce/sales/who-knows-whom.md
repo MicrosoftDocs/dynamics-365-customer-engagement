@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 08/19/2022
+ms.date: 09/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,7 @@ Use who knows whom to quickly identify colleagues who can introduce you to a lea
 
 As a sales representative, you often interact with leads whom you've never talked to or even met before. If only you knew someone who knew the lead, an introduction could increase the chances of a positive outcome. Who knows whom in Dynamics 365 Sales does exactly that. Who knows whom suggests the names and email addresses of your colleagues who know the lead. It even helps you quickly email your colleagues to request an introduction.
 
-Dynamics 365 calculates who knows whom relationships from the communication and collaboration patterns of users in your Microsoft Exchange environment. It uses that data to suggest colleagues who can help make a connection. You can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of having your communication and collaboration data collected. You can also search for contacts or leads outside your Exchange organization and, if users in your Exchange organization have added internal users' email addresses to their Exchange address book, inside it, too.
+Dynamics 365 calculates who knows whom relationships based on users' email interactions and meetings in your Microsoft Exchange environment. It uses that data to suggest colleagues who can help make a connection. You can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of having your Exchange data collected. You can also search for contacts or leads outside your Exchange organization and, if users in your Exchange organization have added internal users' email addresses to their Exchange address book, inside it, too.
 
 You'll find the **Who Knows Whom** tile in **Contact** and **Lead** forms. When you open a lead or contact and select the **Sales Insights** view, the **Who Knows Whom** tile is displayed. 
 
@@ -108,7 +108,7 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
 ## Turn off data sharing with Dynamics 365 applications
 
-You can choose to opt out if you don't want Dynamics 365 to analyze your communication and collaboration data. Your Office 365 organization must be in one of the [EMEA or Asia Pacific global geographies](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true) to opt out of who knows whom data collection.
+You can choose to opt out if you don't want Dynamics 365 to analyze your Exchange data. Your Office 365 organization must be in one of the [EMEA or Asia Pacific global geographies](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true) to opt out of who knows whom data collection.
 
 
 1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/).
