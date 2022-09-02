@@ -25,13 +25,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  | 
 |<strong>Station 1</strong> |  <i>First Release</i>| [8.8.73.63](/dynamics365/field-service/version-history#887363) | TBD | 09/16/2022 |
-|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea</i>|[8.8.72.55](/dynamics365/field-service/version-history#887255) | [8.8.73.63](/dynamics365/field-service/version-history#887363)  | 09/02/2022 |
+|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea</i>|[8.8.73.63](/dynamics365/field-service/version-history#887363) | TBD | 09/23/2022 |
 |<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania</i> |[8.8.72.55](/dynamics365/field-service/version-history#887255) | [8.8.73.63](/dynamics365/field-service/version-history#887363)  | 09/09/2022 |
-| | USG</i> | [8.8.72.55](/dynamics365/field-service/version-history#887255) |[8.8.73.63](/dynamics365/field-service/version-history#887363)  | 09/02/2022 |
-|<strong>Station 4</strong> |<i>Europe</i> | [8.8.71.55](/dynamics365/field-service/version-history#887155) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 09/02/2022 |
+| | USG</i> | [8.8.73.63](/dynamics365/field-service/version-history#887363) | TBD | 09/23/2022 |
+|<strong>Station 4</strong> |<i>Europe</i> | [8.8.72.55](/dynamics365/field-service/version-history#887255) | [8.8.73.63](/dynamics365/field-service/version-history#887363)  | 09/16/2022 |
 |<strong>Station 5</strong> |  <i>North America</i>|[8.8.71.55](/dynamics365/field-service/version-history#887155) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 09/09/2022 |
-|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.71.55](/dynamics365/field-service/version-history#887155) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 09/09/2022 |
-| | <i>Dedicated Scale Groups</i> | [8.8.69.53](/dynamics365/field-service/version-history#886953) |[8.8.71.55](/dynamics365/field-service/version-history#887155) | 09/02/2022|
+|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i>  |[8.8.71.55](/dynamics365/field-service/version-history#887155) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 09/09/2022 |
+| | <i>Dedicated Scale Groups</i> | [8.8.71.55](/dynamics365/field-service/version-history#887155) | [8.8.72.55](/dynamics365/field-service/version-history#887255) | 09/16/2022 |
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
@@ -47,6 +47,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 - Fixed a bug that prevented setting Lat/Lon when a functional location’s address is partially updated.
 - Fixed a bug on inventory adjustment product form that created errors when the inventory transfer field is removed through customization.
 - Bing maps will now be enabled by default for non-EU regions, and resource scheduling will connect to maps by default.
+- Field Service Mobile: Added an app setting to enable 2022 Wave 2 changes to the mobile command bar. Changes include removing commands (Delete & Process)          when not applicable to the user role, moving some underused commands to the end of the command list, and moving the command bar to top of the screen on tablet      devices.
 
 
 ## 8.8.75.59 (2022 Wave 2 early access, update1)
