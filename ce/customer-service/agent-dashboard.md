@@ -98,7 +98,7 @@ To access the drill down, select any metric value for the agent you're intereste
 > [!div class="mx-imgBorder"]
 > ![Omnichannel agent drill down.](media/oc-agent-drill-down.png "Omnichannel agent drill down")
 
-## Agent hourly details drill down view
+## Agent hourly details drill-down view
 
 The Agent hourly details drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
@@ -107,9 +107,9 @@ To view the drill down, select any single metric value on the desired day, then 
 > [!div class="mx-imgBorder"]
 > ![Agent hourly drill down view.](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
 
-## Agent presence drill down view
+## Agent presence drill-down view
 
-The agent presence status drill-down view provides you with an insight into the **Presence status** metrics of an agent. This will help understand the presence status of an agent and the duration for which the agent was in that particular status.
+The agent presence status drill-down view provides you with an insight into the **Presence status** metrics of an agent. This will help understand the presence status of an agent and the duration for which the agent was in that particular status. Select **Availability** and then select either **Aggregated view** or **Detailed view** to view the hourly details or the monthly details, respectively.
 
 :::image type="content" source="media/agent-presence-drill-down.png" alt-text="Agent presence drill down":::
 
