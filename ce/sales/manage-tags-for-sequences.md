@@ -24,8 +24,8 @@ The following table shows the permissions required for a user role to perform ta
 
 | Task related to tags | Permissions required |
 |--------------------------|----------------------|
-| Create, edit, and delete | In the security roles page, under the **Custom Entities** tab, provide Create, Read, Write, and Delete permissions for **Sales Tag** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, and Sales Manager security roles. | 
-| Apply and remove | In the security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br>- **Sales Tag**: Read, Append, and Append To<br>- **Sequence**: Read, Append, and Append To<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. |
+| Create, edit, and delete | In the Security roles page, under the **Custom Entities** tab, provide Create, Read, Write, and Delete permissions for **Sales Tag** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, and Sales Manager security roles. | 
+| Apply and remove | In the Security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br>- **Sales Tag**: Read, Append, and Append To<br>- **Sequence**: Read, Append, and Append To<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. |
 
 ## What are tags?
 
