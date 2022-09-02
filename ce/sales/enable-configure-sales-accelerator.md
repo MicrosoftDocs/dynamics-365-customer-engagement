@@ -65,6 +65,9 @@ Enable the sales accelerator by quickly providing access to security roles and s
     | All security roles | Select this option to give access to view sales accelerator features to all the security roles in your organization. |
     | Specific security roles | Select this option to specify security roles to give access to view the sales accelerator to just a few users. Use the lookup box to add the security roles. |
 
+    >[!NOTE]
+    >To provide permissions for other user roles to create, edit, delete, connect, and disconnect sequences, see [Permission requirements to manage sequences](create-manage-sequences.md#permission-requirements-to-manage-sequences)
+
 5.	(Optional) Select **Add sample data** to explore the sales accelerator feature with the provided sample data.
 
     Installing the sample data is relevant only for your sandbox or trial environments. Adding the sample data might take a few minutes. More information: [Manage sample data](manage-sample-data.md)
