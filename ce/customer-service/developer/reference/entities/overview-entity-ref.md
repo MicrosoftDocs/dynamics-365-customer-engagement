@@ -113,6 +113,8 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_personalmessage](msdyn_personalmessage.md)|
 |[msdyn_personalsoundsetting](msdyn_personalsoundsetting.md)|
 |[msdyn_personasecurityrolemapping](msdyn_personasecurityrolemapping.md)|
+|[msdyn_preferredagent](msdyn_preferredagent.md)|
+|[msdyn_preferredagentcustomeridentity](msdyn_preferredagentcustomeridentity.md)|
 |[msdyn_presence](msdyn_presence.md)|
 |[msdyn_productivitypaneconfiguration](msdyn_productivitypaneconfiguration.md)|
 |[msdyn_provider](msdyn_provider.md)|

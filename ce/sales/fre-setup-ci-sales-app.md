@@ -111,12 +111,7 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
-9.	(Optional) In the **Coming soon** section, select the **Access new features before they're released to all our customers** checkbox to turn on the "coming soon" feature.
-
-    If you don't want to enable preview features for your organization, skip this step. You can always enable them later. More information: [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)  
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable coming soon features.](media/ci-admin-coming-soon-features.png "Enable coming soon features")  
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
