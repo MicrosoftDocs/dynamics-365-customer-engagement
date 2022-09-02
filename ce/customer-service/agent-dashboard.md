@@ -1,7 +1,7 @@
 ---
 title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
 description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 05/09/2022
+ms.date: 09/02/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -89,11 +89,11 @@ The charts display the following metrics.
 | Agent away duration (hrs) | The time an agent is in the away state in Omnichannel for Customer Service. |
 | Agent offline duration (hrs) | The time an agent is signed out of Omnichannel for Customer Service. |
 
-## Agent drill down view
+## Agent drill-down view
 
 The Agent drill-down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training or coaching scenarios for agents.  
 
-To access the drill-down, select any metric value for the agent you're interested in, and then select **Details**.  
+To access the drill down, select any metric value for the agent you're interested in, and then select **Details**.  
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel agent drill down.](media/oc-agent-drill-down.png "Omnichannel agent drill down")
@@ -106,6 +106,12 @@ To view the drill down, select any single metric value on the desired day, then 
 
 > [!div class="mx-imgBorder"]
 > ![Agent hourly drill down view.](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
+
+## Agent presence drill down view
+
+The agent presence status drill-down view provides you with an insight into the **Presence status** metrics of an agent. This will help understand the presence status of an agent and the duration for which the agent was in that particular status.
+
+:::image type="content" source="media/agent-presence-drill-down.png" alt-text="Agent presence drill down":::
 
 ### See also
 
