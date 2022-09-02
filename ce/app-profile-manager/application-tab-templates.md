@@ -132,7 +132,7 @@ This page type is used to display third-party websites as an application. You ca
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!Note]
-> When an agent switches from a tab template of type third-party website to another tab, and then switches back to the tab template with the third-party website. The page will be refreshed to the initial state.
+> When an agent switches from a tab template of type third-party website to another tab, and then switches back to the tab template with the third-party website, the page will be refreshed to the initial state.
 
 #### How parsing works
 
@@ -161,7 +161,7 @@ This page type is used to display web resources that represent files, which are 
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!Note]
-> When an agent switches from a tab template of type web resource to another tab, and then switches back to the tab template with the web resource. The page will be refreshed to the initial state.
+> When an agent switches from a tab template of type web resource to another tab, and then switches back to the tab template with the web resource, the page will be refreshed to the initial state.
 
 ### Custom (Preview)
 
