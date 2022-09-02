@@ -1,20 +1,18 @@
 ---
 title: "Manage duplicate leads"
 description: "Find and address duplicate leads by using duplicate detection in Dynamics 365 Sales."
-ms.date: 06/14/2022
+ms.date: 08/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 
-# Preview: Manage duplicate leads
-
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)] 
-
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
+# Manage duplicate leads
 
 Identifying duplicate leads helps you to maintain a clean and accurate database of leads by removing the duplicates.
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
 
 ## License and role requirements
 | Requirement type | You must have |  

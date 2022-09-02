@@ -21,7 +21,7 @@ In this sample configuration, three queues and three routing rules are created. 
     - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
-3. [Add a context variable](context-variables-for-bot.md#add-context-variables). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+3. [Add a context variable](manage-context-variables.md#add-context-variables). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
 4. [Create the following routing rules](routing-rules.md) in the **ChatWorkStream** workstream in this order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:

@@ -1638,6 +1638,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/enable-preview-features-sales-app.md",
+      "redirect_url": "fre-setup-ci-sales-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/enable-preview-features-sales-insights-app.md",
+      "redirect_url": "fre-setup-ci-sales-app",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/premium-auto-capture.md",
       "redirect_url": "free-auto-capture",
       "redirect_document_id": "false"
@@ -23953,6 +23963,16 @@
     {  
       "source_path": "ce/sales/talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
+      "redirect_document_id": "false"
+    },
+    {  
+      "source_path": "ce/customer-service/csw-search-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
     }
   ]

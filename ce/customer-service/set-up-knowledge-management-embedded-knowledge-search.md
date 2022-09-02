@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+ms.date: 08/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -52,6 +52,7 @@ You can set up knowledge management on the Customer Service admin center, Custom
 
 After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
 
+- [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
 - [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
@@ -71,7 +72,7 @@ After you have configured knowledge management on your app, you must also set up
       1. On the **Record Types** page, add and configure the record types for which you want to turn on knowledge management. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md). By default, knowledge management is enabled for **Case** and **Conversation** record types. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center app.
   3. In the **General Settings** section, select **Manage**. The **General Settings** page appears.
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for the app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
-      1. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+      1. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
         * If you want to select a default knowledge authoring language for your organization, then select the **Organization’s UI language** radio button. 
         *	If you want to use the organizations’ s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
@@ -103,7 +104,7 @@ After you have configured knowledge management on your app, you must also set up
   
    - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
-4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
 
 5. In the **Knowledge articles search filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, then set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
 
@@ -143,6 +144,38 @@ The configured settings are also available to users of Omnichannel for Customer 
  5. In the **Properties > SUB AREA** section, provide the following information:
     * Type: Select **URL**. 
     * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
+
+## Configure knowledge base article URLs
+
+Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
+
+> [!NOTE]
+> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
+
+You can configure a knowledge base article URL in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+
+1. Go to the **Support portal connection** section.
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. On the **Knowledge** page, go to the **Portal** section and select **Manage**. The **Portal** page appears.
+  1. On the **Portal** page, go to the **Support portal connection** section.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+  1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
+  1. On the **Settings** page, go to the **Support portal connection** section.
+
+---
+
+2. Set the **Use an external portal** toggle to **Yes**.
+
+3. In the **URL format** field, enter the URL name.
+
+ 4. Select **Save**.
+
+The knowledge base article link is now active and can be copied and shared.
 
 ## Set up AI suggestions for article keywords and description
 
@@ -184,7 +217,6 @@ You can set up the knowledge search logic in the Customer Service admin center o
 
 More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
 
-  
 ### See also  
 
  [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   
