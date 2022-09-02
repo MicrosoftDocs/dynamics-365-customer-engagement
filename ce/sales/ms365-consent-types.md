@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 consent types
 description: Learn about the types of consent Dynamics 365 needs to collect and use Microsoft 365 data to generate insights.  
-ms.date: 09/01/2022
+ms.date: 09/02/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,6 +17,9 @@ Your Microsoft 365 admin needs to provide consent to let Dynamics 365 collect, s
 > Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
 
 The following table lists the consent types and the list of Dynamics 365 applications that use the shared Microsoft 365 data. The list of applications is subject to change.
+
+> [!NOTE]
+> Depending on the Dynamics 365 application that you use and the insights you need, you can request the Microsoft 365 admin to provide the appropriate consent.  
 
 
 |**Consent Type**|**Possible insights**|**Type of insight**|**Results visible to** |**Dynamics 365 app using the consent**|
