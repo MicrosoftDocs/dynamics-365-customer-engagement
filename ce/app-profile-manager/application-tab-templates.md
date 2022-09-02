@@ -46,10 +46,10 @@ As an administrator, you can create multiple application tab templates.
     | General | Name | Specify the name of the application tab. This name won't be visible for the agents at runtime. | Knowledge article search |
     | General | Unique name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be added between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
     | General | Title | Provide a title for the application that you want the agents to see at runtime. | Knowledge article search |
-    | General | Page type | Select an page type from the list. |  Web resource |
+    | General | Page type | Select a page type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The page type is used to display a knowledge base search page. |
 
-4. Select **Save**. The **Parameters** section displays the parameters for the pgae type that you selected.
+4. Select **Save**. The **Parameters** section displays the parameters for the page type that you selected.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
