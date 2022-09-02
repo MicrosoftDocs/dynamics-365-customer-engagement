@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
-ms.date: 08/24/2022
+ms.date: 09/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -50,7 +50,7 @@ Knowledge Power Virtual Agents solution makes use of the flow which uses connect
 
 > [!NOTE]
 > - If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
-> - When the solution is imported from a test environment to the production environment, you must again set up the connection references as a system administrator. For more information on importing, see [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots). information.
+> - When the solution is imported from a test environment to the production environment, you must again set up the connection references as a system administrator. For more information on importing, see [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
 
 To set connection references:
    
@@ -299,6 +299,14 @@ To return the knowledge article search results to the bot, follow either of thes
 
 } 
 ```
+
+## Error scenarios
+
+- If a dialog is cross-linked and is modified, you'll see a validation error on publish and PVA will block the publish. More information: [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content)
+
+- If errors exist while saving a topic, the **Topic checker** shows the impacted topics. Errors will prevent the bot from working and must be fixed before you can publish your bot. More information: [Topic errors](/power-virtual-agents/teams/authoring-topic-management-teams#topic-errors)
+
+- For more information on flow error codes, see [Error codes: Power Virtual Agents](/power-virtual-agents/error-codes)
 
 ### See also
 
