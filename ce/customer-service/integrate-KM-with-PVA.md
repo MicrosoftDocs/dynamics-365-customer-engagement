@@ -117,7 +117,11 @@ After you have completed the two previous steps, you can configure any bot in th
 - To see filter conditions that aren't supported by Dataverse search, see [Configure Dataverse search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization) .
 - To filter on a string attribute like keywords, append the string value to the search text.
 
-  
+### Publish the changes
+For details on publishing the bot, see [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content).
+
+If you get errors during publishing, see [Troubleshooting](#troubleshooting).
+ 
 ## Use the Power Automate flow template
 
 You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Power Automate flow template:
@@ -300,7 +304,7 @@ To return the knowledge article search results to the bot, follow either of thes
 } 
 ```
 
-## Error scenarios
+## Troubleshooting
 
 - If a dialog is cross-linked and is modified, you'll see a validation error on publish and PVA will block the publish. More information: [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content)
 
