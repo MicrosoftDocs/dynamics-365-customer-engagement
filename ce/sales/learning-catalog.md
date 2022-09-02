@@ -56,7 +56,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-project-manager.md#core-platform)
 
-    [Exams](learning-project-manager.md#exams)
+    [Exams](learning-project-manager.md#exam)
 
     :::column-end:::
 
