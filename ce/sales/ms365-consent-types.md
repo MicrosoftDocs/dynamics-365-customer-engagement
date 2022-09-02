@@ -19,7 +19,7 @@ Your Microsoft 365 admin needs to provide consent to let Dynamics 365 collect, s
 The following table lists the consent types and the list of Dynamics 365 applications that use the shared Microsoft 365 data. The list of applications is subject to change.
 
 > [!NOTE]
-> Depending on the Dynamics 365 application that you use and the insights you need, you can request the Microsoft 365 admin to provide the appropriate consent.  
+> Depending on the Dynamics 365 application that you use and the insights you need, you can request the Microsoft 365 admin to provide the appropriate consent. More information: [Provide consent to collect data from Microsoft 365](provide-consent-office365.md)
 
 
 |**Consent Type**|**Possible insights**|**Type of insight**|**Results visible to** |**Dynamics 365 app using the consent**|
@@ -29,6 +29,3 @@ The following table lists the consent types and the list of Dynamics 365 applica
 |Identifiable insights for other users | Microsoft 365 data about individual users, and insights derived from this data, are made available to other users in your organization. |Detailed and aggregate | Users across the tenant| Dynamics 365 Sales: Who knows whom<br> Dynamics 365 Sales: Relationship analytics <br> Example: Users can take advantage of their network of colleagues to determine who can introduce them to a sales target at an external organization.  |
 
 
-### See also
-
-[Provide consent to collect data from Microsoft 365](provide-consent-office365.md)
