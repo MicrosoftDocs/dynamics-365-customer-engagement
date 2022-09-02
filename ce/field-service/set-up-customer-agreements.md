@@ -1,11 +1,11 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
-ms.date: 05/23/2022
+ms.date: 09/02/2022
 ms.reviewer: mhart
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: jasoncohen
+ms.author: jacoh
 manager: shellyha
 search.app: 
   - D365CE
@@ -288,7 +288,7 @@ It is not possible to manually generate agreement invoices like you can with agr
 
 ## Configuration considerations
 
-In Field Service settings, there are important defaults you can set for agreements that help administrators control how the organization creates agreements.
+In Field Service settings, there are important defaults you can set for agreements that help administrators control how the organization creates agreements. The system can also block updates in rapid succession to protect data integrity under certain circumstances.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings on the agreement tab.](./media/agreement-field-service-settings.png)
@@ -301,8 +301,19 @@ In Field Service settings, there are important defaults you can set for agreemen
 
 - **Record Generation Time**: This value exists on the agreement and dictates when in the day agreement records such as booking dates and work orders should be generated. This is helpful because some organizations do not want agreements generating many work orders in the middle of a work day while dispatchers are scheduling and managing other jobs.
 
+> [!NOTE]
+> Some updates to agreements or their sub-records (Agreement Booking Setups, Agreement Booking Dates, Agreement Invoice Setups, and Agreement Invoice Dates) can trigger asynchronous background processes. Updates in rapid succession which trigger these processes within the same agreement will cause the system to momentarily block subsequent updates until the processes are complete. It’s the intended behavior of the system to protect the data integrity of each agreement. Please wait until the processes complete and try again or retry the update until it succeeds.
+>
+> Examples of updates which might trigger asynchronous background processes:
+>
+> - Updating an Agreement Booking Setup or Agreement Invoice Setup recurrence.
+> - Updating the date of an Agreement Booking Date or Agreement Invoice Date.
+> - Modifying an agreement status.
+>
+> These processes and their potential to block subsequent, rapid updates, are specific to the agreement under which they were triggered. Updates to other agreements or their sub-records won’t be impacted.
 
 ### Multiple incidents vs multiple recurrences
+
 As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences, each with one or more incidents. Here are a few things to consider:
 
 - *Who will perform the work order(s)?*: A single recurrence will create a single work order, whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person, then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) that help schedule single work orders to multiple resources.
