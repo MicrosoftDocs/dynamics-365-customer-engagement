@@ -27,7 +27,7 @@ For a detailed comparison of capabilities available with each license, go to the
 
 ### Can I use premium and enterprise features with the Sales Professional license?
 
-The Sales Hub app includes all the features that a Sales Enterprise or Sales Premium users are licensed to use. Though this app may be visible in Sales Professional environments, the users are only entitled to use Sales Professional app. You can either upgrade to Sales Enterprise or Sales Premium license or [hide the Sales Hub app](/power-apps/maker/model-driven-apps/deactivate-app) to avoid any accidental usage.
+The Sales Hub app includes all the features that a Sales Enterprise or Sales Premium users are licensed to use. Though this app may be visible in Sales Professional environments, the users are entitled to use Sales Professional app only. You can either upgrade to Sales Enterprise or Sales Premium license or [hide the Sales Hub app](/power-apps/maker/model-driven-apps/deactivate-app) to avoid any accidental usage.
 
 
 ### Where can I find the Sales Professional and sales insights documentation?
