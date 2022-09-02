@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/04/2022
+ms.date: 09/02/2022
 ms.topic: article
 ---
 
@@ -130,6 +130,10 @@ This application type is used to display third-party websites as an application.
 |---------|--------------|------------------|---------|-----------|
 | `url` | The website URL to be displayed in the app tab <br> | Yes | String <br> | `https://www.bing.com/search?q=`  |
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+
+>[!Note]
+> When an agent switches from a tab template of type third-party website to another tab, and then switches back to the tab template with the third-party website. The page will be refreshed to the initial state.
+
 #### How parsing works
 
 These examples are based on a scenario where the case was opened as the Anchor tab in a new session with ticket number: `CAS-01003-P3B7G1`.
@@ -153,8 +157,11 @@ This application type is used to display web resources that represent files, whi
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|----------|--------          |---------|
-| `webresourceName` | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
+| `webresourceName` | Name of the web resource to open | Yes | String | `new_myresource.html`|
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+
+>[!Note]
+> When an agent switches from a tab template of type web resource to another tab, and then switches back to the tab template with the web resource. The page will be refreshed to the initial state.
 
 ### Custom (Preview)
 
