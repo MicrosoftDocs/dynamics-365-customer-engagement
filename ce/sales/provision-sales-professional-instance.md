@@ -38,6 +38,9 @@ Before you can start using the Sales Professional application, you need to do on
 
 8.	In the list of application, select **Sales Professional**. 
 
+    > [!IMPORTANT]
+> If you see the **Sales Hub** app in your list, [hide the app](/power-apps/maker/model-driven-apps/deactivate-app) as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are only entitled to use the Sales Professional app.
+
 ## Install the Sales Professional app on an existing environment
 
 <a name="install-app"> </a>

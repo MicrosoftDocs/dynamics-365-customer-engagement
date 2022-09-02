@@ -25,6 +25,11 @@ The following license options are available for Dynamics 365 Sales:
 
 For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
+### Can I use premium and enterprise features with the Sales Professional license?
+
+The Sales Hub app includes all the features that a Sales Enterprise or Sales Premium users are licensed to use. Though this app may be visible in Sales Professional environments, the users are only entitled to use Sales Professional app. You can either upgrade to Sales Enterprise or Sales Premium license or [hide the Sales Hub app](/power-apps/maker/model-driven-apps/deactivate-app) to avoid any accidental usage.
+
+
 ### Where can I find the Sales Professional and sales insights documentation?
 
 To provide a unified experience across all the Sales offerings, we've merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you've bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
