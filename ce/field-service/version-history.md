@@ -47,7 +47,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 - Fixed a bug that prevented setting Lat/Lon when a functional location’s address is partially updated.
 - Fixed a bug on inventory adjustment product form that created errors when the inventory transfer field is removed through customization.
 - Bing maps will now be enabled by default for non-EU regions, and resource scheduling will connect to maps by default.
-- Field Service (D365) mobile: Added an App Setting to toggle on Wave 2 changes to the Mobile Commanding bar. Changes include removing commands (Delete & Process)          when not applicable to the user role, moving some underused commands to the end of the command list, and moving the command bar to top of the screen on Tablet      devices.
+- Field Service Mobile: Added an app setting to enable 2022 Wave 2 changes to the mobile command bar. Changes include removing commands (Delete & Process)          when not applicable to the user role, moving some underused commands to the end of the command list, and moving the command bar to top of the screen on tablet      devices.
 
 
 ## 8.8.75.59 (2022 Wave 2 early access, update1)
