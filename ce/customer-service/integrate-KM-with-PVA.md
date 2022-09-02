@@ -118,9 +118,7 @@ After you have completed the two previous steps, you can configure any bot in th
 - To filter on a string attribute like keywords, append the string value to the search text.
 
 ### Publish the changes
-For details on publishing the bot, see [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content).
-
-If you get errors during publishing, see [Troubleshooting](#troubleshooting).
+For details on publishing the bot, see [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). If you get errors during publishing, see [Troubleshooting](#troubleshooting).
  
 ## Use the Power Automate flow template
 
