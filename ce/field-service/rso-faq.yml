@@ -20,7 +20,7 @@ sections:
       - question: |
           Why doesn’t Resource Scheduling Optimization on Org B work anymore after I copied Dynamics 365 Org A to Org B (with Resource Scheduling Optimization deployed)? 
         answer: |
-          Resource scheduling optimization Endpoint, which is used for connecting Dynamics 365 org and Resource Scheduling Optimization Azure resources on Org B, will be broken after copying an org or rest org. We recommend to delete the current Resource Scheduling Optimization deployment, which won't delete anything else in the Dynamics 365 org. Then, copy and reset the org and then redeploy Resource Scheduling Optimization to target the Dynamics 365 org as needed.
+          Resource scheduling optimization Endpoint, which is used for connecting Dynamics 365 org and Resource Scheduling Optimization Azure resources on Org B, will be broken after copying an org or rest org. We recommend deleting the current Resource Scheduling Optimization deployment, which won't delete anything else in the Dynamics 365 org. Then, copy and reset the org and then redeploy Resource Scheduling Optimization to target the Dynamics 365 org as needed.
 
       - question: |
           My Resource Scheduling Optimization deployment takes a long time and won’t finish. What should I do?
@@ -30,7 +30,7 @@ sections:
       - question: |
           My Resource Scheduling Optimization deployment or upgrade failed. What should I do?
         answer: |
-          If you see the **Delete Current Deployment** option through the Resource Scheduling Optimization deployment app, you can delete the existing deployment and then redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
+          If you see the **Delete Current Deployment** option through the Resource Scheduling Optimization deployment app, you can delete the existing deployment, and then redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
           
           - Make sure your Dynamics 365 org is NOT in administration mode.
           
@@ -47,17 +47,17 @@ sections:
       - question: |
           Can I modify the out-of-box Resource Scheduling Optimization security role?
         answer: |
-          We don’t recommend to change the out-of-box security role directly. A modified out-of-box security role can cause issues like upgrade failures, jobs not pulling requirements/bookings as expected, and more. Instead, copy it as a new role and customize as needed.
+          We don’t recommend changing the out-of-box security role directly. A modified out-of-box security role can cause issues like upgrade failures, jobs not pulling requirements/bookings as expected, and more. Instead, copy it as a new role and customize as needed.
 
       - question: |
           How do I cancel a long-running schedule or blocked schedule?
         answer: |
-          If your schedule has been running for a long time and seems stuck or blocked, use the **Reset Resource Scheduling Optimization** button to clear the blocked job and reset the schedules into a good state.
+          If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state.
 
       - question: |
           I’m seeing the message “SAS Key hasn't been configured” when I publish a schedule. Is this ok?
         answer: |
-          This means the Resource Scheduling Optimization Azure resources aren't set up correctly. We recommend going to the Resource Scheduling Optimization deployment app to check the Resource Scheduling Optimization deployment status. Redeploy as needed to fix the issue.
+          The message means the Resource Scheduling Optimization Azure resources aren't set up correctly. We recommend going to the Resource Scheduling Optimization deployment app to check the Resource Scheduling Optimization deployment status. Redeploy as needed to fix the issue.
           
           > [!div class="mx-imgBorder"]
           > ![](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
@@ -65,17 +65,17 @@ sections:
       - question: |
           An optimization request failed and gave the message “Object reference not set to an instance of an object.” What does that mean? 
         answer: |
-          This typically means a custom plug-in ran into an unhandled null value. This can occur because of a custom plug-in that is triggered synchronously on the creation of a booking, the update of a work order, or other booking-related record, or one of the other records that could be impacted when the results are returned by an optimization run. System customizers can use the plug-in trace log capability to identify which plug-in is failing. Warning: don’t forget to disable plug-in trace logging as soon as debugging is over to avoid overloading the organization’s database.
+          Typically, a custom plug-in ran into an unhandled null value. It can occur because of a custom plug-in that is triggered synchronously on the creation of a booking, the update of a work order, or other booking-related record, or one of the other records that could be impacted when the results are returned by an optimization run. System customizers can use the plug-in trace log capability to identify which plug-in is failing. Warning: don’t forget to disable plug-in trace logging as soon as debugging is over to avoid overloading the organization’s database.
           
       - question: |
-          An optimization request failed with the message “System failed to modify some bookings.” How should I handle this?
+          Why has an optimization request failed with the message “System failed to modify some bookings.”?
         answer: |
           Sometimes you see this message for the following scenarios:
           
           - If you manually update the same bookings in the middle of a Resource Scheduling Optimization run, Resource Scheduling Optimization
-              won't overwrite the changes and will fail the request.
+              won't overwrite the changes, and will fail the request.
           - If you have a workflow/plug-in updating the same bookings during a Resource Scheduling Optimization run,
-              Resource Scheduling Optimization won't overwrite the changes your other system logic did and will fail
+              Resource Scheduling Optimization won't overwrite the changes your other system logic did, and will fail
               the request.
           - If you have multiple Resource Scheduling Optimization schedules that share the same resources and run at
               the same time, Resource Scheduling Optimization might show this message. To better understand the
@@ -90,7 +90,7 @@ sections:
       - question: |
           An optimization request failed with the message “The start time of a time window must be less than or equal to the end time.” What should I do?
         answer: |
-          This indicates some invalid booking data got included in the optimization scope. For example: The user can query a booking entity to see if any booking record has an invalid estimated travel duration. These are the expressions you can specify for the view:
+          The message indicates some invalid booking data got included in the optimization scope. For example: The user can query a booking entity to see if any booking record has an invalid estimated travel duration. You can specify the following expressions for the view:
           
           - *Estimated travel duration \> Booking.EndTime - Booking.StartTime*
           - *Estimated travel duration \> Booking.Duration*
@@ -98,7 +98,7 @@ sections:
       - question: |
           Why aren’t my resources getting any bookings assigned? 
         answer: |
-          There are various reasons for this. First, review the optimization results from the schedule board and corresponding optimization request \> resource view to look for reasons why bookings aren't being scheduled. Here are more details to analyze:
+          There are various possible reasons. First, review the optimization results from the schedule board and corresponding optimization request \> resource view to look for reasons why bookings aren't being scheduled. Here are more details to analyze:
           
           - Territories:
             - Do your resources have related resource territories that match
@@ -135,7 +135,7 @@ sections:
           request \> Booking view to look for reasons why they’re not being scheduled.
           Here are more details to analyze:
           
-          - A quick validation for this is to select one of the resource requirements
+          - As a quick validation, select one of the resource requirements
               that won’t schedule and use the Schedule Assistant to see if it finds
               results.
             - While the schedule assistant and the Resource Scheduling Optimization aren't exactly the same, they
@@ -178,7 +178,7 @@ sections:
                       scheduled first based on the goals of your run?
           - Restricted resources:
             - Is the requirement excluded from being assigned to a resource because
-                  that resource is marked as restricted? This is only applicable if the
+                  that resource is marked as restricted? This behavior only applies if the
                   **Restricted Resources** constraint is enabled.
           - Date/time parameters:
             - Does your requirement have a **From Date** and **To Date** window that
@@ -231,18 +231,18 @@ sections:
           
             > [!NOTE]
             > Typical setup would dictate:
-              > - Booking statuses that mean the visit is complete or in some stage of
+              > - Booking statuses indicating the visit is complete or in some stage of
                   progress should be set to **Don't Move**.
-              > - Booking statuses that mean the visit is canceled should be set to
+              > - Booking statuses indicating the visit is canceled should be set to
                   **Ignore**.
-              > - Booking statuses that mean the visit is scheduled or any other status
+              > - Booking statuses indicating the visit is scheduled or any other status
                   where you want Resource Scheduling Optimization to consider moving the work around should be set to
                   **Optimize**.
           
       - question: |
           Why are some of my past bookings being removed?
         answer: |
-          A booking from the past might be moved if its booking status indicated that it should be optimized and if this booking is included in the optimization scope’s booking view. Because of this, it might appear (especially in a testing scenario where no one is actually completing work) that all of the bookings from the past are being rescheduled if no one changed the booking to a booking status that would keep the record from being moved. Here are a few ways you can block Resource Scheduling Optimization from moving past bookings:
+          A booking from the past might be moved if its booking status indicated that it should be optimized and if this booking is included in the optimization scope’s booking view. Thus, it might appear (especially in a test scenario) that all of the bookings from the past are being rescheduled if the booking wasn't set to a booking status that keeps the record from being moved. Here are a few ways you can block Resource Scheduling Optimization from moving past bookings:
           
           - Pick a booking status of **Don't Move**.
           - Remove the booking from the booking view.
@@ -256,7 +256,7 @@ sections:
           Yes, you can, as long as neither locations are location agnostic. For more information on the configuration, see start/end location section of [this article](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
           Additionally, if the resource is required to start/end from a location that isn't resource address or organizational unit address, there's a workaround that can be used: 
            1. Extend the resource work hours by 10 minutes at the start and end of the shift. For example, if the resource's shift is from 9AM to 5PM, change it to 8:50 AM to 5:10 PM. 
-           2. Then, create bookings that are locked to resource and time for these two 10-minute time slots with dummy requirements located at the place the resource is expected to start/end. 
+           2. Create bookings that are locked to resource and time for these two 10-minute time slots. Work with dummy requirements located at the place the resource is expected to start/end. 
           Using this temporary work-around, your resources can start and end at locations other than just their resource address or organizational unit address.  
           
       - question: |
@@ -327,7 +327,7 @@ sections:
       - question: |
           Why are so many bookings in simulation status? 
         answer: |
-          If any exception or error happens when an optimization schedule is still running, you might see some overlap on the schedule board because some bookings are created or updated from the latest run while other bookings from the previous run failed to be deleted due to an exception. To avoid this, we're making the optimization process atomic and transactional by introducing a **Simulation** status. During the optimization process, the create, update, and deleted operations are now visible. All new, updated, and to-be-deleted bookings are in a **Simulation** staging area. If the whole optimization request is completed and correct, these simulation bookings will be flipped into real bookings. Before the optimization request completes, you can see some simulation status (transparent) bookings move around the schedule board until the run is complete. Then all simulation bookings will be flipped into real bookings (solid blue). If an exception occurs and the optimization request fails, these simulation bookings will remain in simulation status for troubleshooting purposes unless you manually delete them. Otherwise, a system job will delete them automatically every two weeks.
+          If any exception or error happens when an optimization schedule is still running, you might see some overlap on the schedule board. Some bookings are created or updated from the latest run while other bookings from the previous run failed to be deleted due to an exception. To avoid this issue, the optimization process becomes transactional in the **Simulation** status. During the optimization process, the create, update, and deleted operations are now visible. All new, updated, and to-be-deleted bookings are in a **Simulation** staging area. If the whole optimization request is completed and correct, these simulation bookings will be flipped into real bookings. Before the optimization request completes, you can see some simulation status (transparent) bookings move around the schedule board until the run is complete. Then all simulation bookings will be flipped into real bookings (solid blue). If an exception occurs and the optimization request fails, these simulation bookings will remain in simulation status for troubleshooting purposes unless you manually delete them. Otherwise, a system job will delete them automatically every two weeks.
           
           > [!NOTE]
           > You can hide simulation bookings by changing the schedule board settings. Select the gear icon on the top right and select the **Hide Canceled** option. 
