@@ -37,11 +37,12 @@ When you enable this feature, the application uses the following validations to 
 
 - **Emails that bounce back**: Validate email address to verify if the email address can't receive the message from the intended recipients for any reason.
 
-Further, the email validation feature displays the fake emails to sellers on record forms and, work list items and up next widget in sales accelerator. More information: [Work with fake email addresses](work-fake-email-addresses.md)
+Further, the email validation feature displays the fake emails to sellers on record forms and, work list items and the Up next widget in sales accelerator. More information: [Work with fake email addresses](work-fake-email-addresses.md)
 
 >[!NOTE]
 >- Currently, the email validation feature works only for lead records.
->- The application validates only the primary email address of the lead records.
+>- The email validation is applicable only for the primary email address.
+>- The leads that are older than 180 days are not validated.
 
 ## Enable the email validation feature
 
@@ -54,7 +55,7 @@ Further, the email validation feature displays the fake emails to sellers on rec
 
     :::image type="content" source="media/lead-email-feature-enabled.png" alt-text="Screenshot illustrating the email validation feature is enabled":::
 
-The application runs email validation on the existing primary email addresses and display an alert (the Red envelop icon) beside fake email addresses for lead records. Here on, any new primary email address that comes into the application, goes through the validation check. 
+The application runs email validation on the existing primary email addresses for leads that are less than 180 days old and displays an alert (the Red envelop icon). Later, any new primary email address that comes into the application, goes through the validation check. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
