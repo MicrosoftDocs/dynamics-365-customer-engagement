@@ -20,8 +20,8 @@ Using the application tab template, you can define applications that are availab
 
 As an administrator, you can create multiple application tab templates.
 
-  > [!Note]
-  > You can't customize the out-of-the-box templates, but can create your own custom templates.
+> [!Note]
+> You can't customize the out-of-the-box templates, but can create your own custom templates.
 
 ## Create application tab templates
 
