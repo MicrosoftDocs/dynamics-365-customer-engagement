@@ -244,8 +244,6 @@
     href: mobile-power-app-faq.yml
   - name: Customize the mobile app
     items: 
-      - name: Improve mobile app performance 
-        href: improve-mobile-performance.md
       - name: Customize the home screen (Site Map)
         href: mobile-power-app-configure.md
       - name: Customize calendar columns
@@ -254,6 +252,8 @@
         href: mobile-powerapp-booking-work-order-form.md
       - name: Add a custom app module to the mobile app
         href: mobile-powerapp-copy-app-module.md
+      - name: Performance considerations for mobile customizations
+        href: improve-mobile-performance.md
   - name: Field Service Mobile (Xamarin app)
     items: 
     - name: Overview
