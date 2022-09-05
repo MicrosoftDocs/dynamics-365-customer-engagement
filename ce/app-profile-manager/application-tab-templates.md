@@ -133,7 +133,7 @@ This page type is used to display third-party websites as an application. You ca
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!Note]
-> When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, then the page will be refreshed to the initial state.
+> When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, the page will be refreshed to the initial state. For more information, see the section "Third-party application tab refreshes when focus is changed" in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 #### How parsing works
 
@@ -150,7 +150,7 @@ Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 > [!NOTE]
 > The `url` parameter requires the correct URL format using 'https://'.
 
-For more information, go to [Third-party application tab refreshes when focus is changed](https://go.microsoft.com/fwlink/p/?linkid=2165393).
+
 
 ### Web resource
 
@@ -162,7 +162,7 @@ This page type is used to display web resources that represent files, which are 
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!Note]
-> When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, then the page will be refreshed to the initial state.
+> When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page will be refreshed to the initial state. For more information, see the section "Third-party application tab refreshes when focus is changed" in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 ### Custom (Preview)
 
