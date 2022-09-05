@@ -53,7 +53,7 @@ As an administrator, you can create multiple application tab templates.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-5. Select the **Value** field of a parameter that you want to edit and provide the value. For more information on parameters, see [Page types in the application templates](#page-types).
+5. Select the **Value** field of a parameter that you want to edit and provide the value.
 
 6. Select **Save**.
 
