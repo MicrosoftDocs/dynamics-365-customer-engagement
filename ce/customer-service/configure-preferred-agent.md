@@ -96,7 +96,7 @@ If you want to configure, update, or delete contact and their preferred agents i
 1. In the developer console window, run the code for the following actions depending on your business requirements.
 
    
-    - **Create**
+- **Create**
     
      Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
       - You can map three agents to a contact.
@@ -130,8 +130,6 @@ If you want to configure, update, or delete contact and their preferred agents i
             // Deletes a mapped agent with the specified id
 
     ```
-> [!NOTE]
-> contact-id and systemuser-id can't be NULL.
 
  - **Update**
     
