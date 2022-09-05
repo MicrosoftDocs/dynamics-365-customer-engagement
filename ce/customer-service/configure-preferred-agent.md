@@ -62,6 +62,10 @@ Make sure that the agent you intend to assign to a contact is a member of the qu
 
   :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
 
+### Use an API call to configure agents
+
+
+
 ### Routing diagnostics and preferred agent settings
 
 If you've turned on routing diagnostics, a work item's diagnostics page includes information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is turned on. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
@@ -80,6 +84,70 @@ For the supported channels, use the information mentioned in the following table
 |-------|---------------|
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
 |**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profile](card-support-in-channels.md#support-for-social-profiles). </li></ul> |
+
+### Use APIs to configure, update, and delete preferred agents records 
+
+> [!IMPORTANT]
+> We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
+
+If you want to configure, update, or delete contact and their preferred agents in the Preferred agent matrix, you must perform the steps in this section.
+
+1. Go to the Preferred agent routing (preview) on the Customer Service admin center app, and then open the developer tools window.
+1. In the developer console window, run the code for the following actions depending on your business requirements.
+
+   
+    - **Create**
+    
+     Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
+      - You can map three agents to a contact.
+      - You cannot add duplicate records.
+      - The preference rating can only be a positive value between 1 to 3.
+      - contact-id and systemuser-id can't be NULL.
+   
+    ```js
+    var contactid = "contact-id"; // contact's id
+    var systemuserid = "systemuser-id"; // agent's id
+    var data = {"msdyn_name": "Test","msdyn_recordId_contact@odata.bind": "/contacts("+contactid+")",
+    "msdyn_systemuserid@odata.bind": "/systemusers("+systemuserid+")",
+    "msdyn_preferencerating": "1",
+    "msdyn_recordtype": 192350001};
+  
+    //Create record XRM call 
+         Xrm.WebApi.createRecord("msdyn_preferredagent", data);
+            // creates a preferred agent mapping with the specified data
+        
+    ```
+
+- **Delete**
+    
+     Use the following code to delete an agent mapped to the contact.
+
+    ```js
+  
+  
+       //Delete record XRM call 
+         Xrm.WebApi.deleteRecord("msdyn_preferredagent", "preferred-agent-id-here"); 
+            // Deletes a mapped agent with the specified id
+
+    ```
+> [!NOTE]
+> contact-id and systemuser-id can't be NULL.
+
+ - **Update**
+    
+     Use the following code to update an agent mapped to the contact. Ensure that these conditions are met before running the script:
+      - You cannot add duplicate records.
+      - The preference rating can only be a positive value between 1 to 3.
+      - contact-is and preferred-agent-id can't be set to NULL.
+
+    ```js
+  
+       var data = {"msdyn_recordId_contact@odata.bind": "/contacts(contact-id)"}; //contact-id is 
+       //Update record XRM call 
+        Xrm.WebApi.updateRecord("msdyn_preferredagent", "preferred-agent-id", data);
+            // Updates a mapped agent with the specified id
+
+    ```
 
 ### Roles and permissions for preferred agent routing
 
@@ -241,63 +309,6 @@ If the Omnichannel solution is already installed in your organization and you wa
     ); 
     ```
  
-
-### Create custom data in organizations with existing Omnichannel solution
-
-If you want to create, update, or delete contact and their preferred agents in the Preferred agent matrix, you must perform the steps in this section.
-
-1. Go to the Preferred agent routing (preview) on the Customer Service admin center app, and then open the developer tools window.
-1. In the developer console window, run the code for the following actions depending on your business requirements.
-
-   
-    - **Create**
-    
-     Use the following code to map a contact to their preferred agents. When you are running the code to add the mapping, ensure that:
-   
-    - You can only add three agents to a contact
-    - The preference rating can only between 1 to 3.
-    - If all the agents have the same preference rating, 
-
-    ```js
-    var contactid = "contact-id";
-    var systemuserid = "systemuser-id";
-    var data = {"msdyn_name": "Test","msdyn_recordId_contact@odata.bind": "/contacts("+contactid+")",
-    "msdyn_systemuserid@odata.bind": "/systemusers("+systemuserid+")",
-    "msdyn_preferencerating": "1",
-    "msdyn_recordtype": 192350001};
-  
-    //Create record XRM call 
-         Xrm.WebApi.createRecord("msdyn_preferredagent", data);
-            // creates a preferred agent mapping with the specified data
-        
-    ```
-
-   
-    - **Delete**
-    
-     Use the following code to delete an agent mapped to the contact. You can only delete two agents at a time.
-
-    ```js
-  
-  
-       //Delete record XRM call 
-         Xrm.WebApi.deleteRecord("msdyn_preferredagent", "preferred-agent-id-here");
-            // Deletes a mapped agent with the specified id
-
-    ```
-    - **Delete**
-    
-     Use the following code to update an agent mapped to the contact. 
-
-    ```js
-  
-       var data = {"msdyn_recordId_contact@odata.bind": "/contacts(contact-id)"};
-       //Update record XRM call 
-        Xrm.WebApi.updateRecord("msdyn_preferredagent", "preferred-agent-id", data);
-            // Updates a mapped agent with the specified id
-
-    ```
-
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
