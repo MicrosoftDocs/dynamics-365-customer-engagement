@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 09/02/2022
+ms.date: 09/05/2022
 ms.topic: article
 ---
 
@@ -105,7 +105,7 @@ The following parameters are available for the entity record page type when an e
 | `entityId`  | GUID of the entity record | No | String <br><br> Slugs <br> <br> |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br><br> `{anchor._customerid_value}` <br><br> 
 | `formId` | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
-The following parameters are available for the entity record pgae type when an entity form is opened to create a new record:
+The following parameters are available for the entity record page type when an entity form is opened to create a new record:
 
 |Parameter | Description | Required | Supported values |  Example |
 |---------|--------------|------------------|--------- |---------|
@@ -132,7 +132,7 @@ This page type is used to display third-party websites as an application. You ca
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!Note]
-> When an agent switches from a tab template of type third-party website to another tab, and then switches back to the tab template with the third-party website, the page will be refreshed to the initial state.
+> When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, then the page will be refreshed to the initial state.
 
 #### How parsing works
 
@@ -161,7 +161,7 @@ This page type is used to display web resources that represent files, which are 
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 >[!Note]
-> When an agent switches from a tab template of type web resource to another tab, and then switches back to the tab template with the web resource, the page will be refreshed to the initial state.
+> When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, then the page will be refreshed to the initial state.
 
 ### Custom (Preview)
 
