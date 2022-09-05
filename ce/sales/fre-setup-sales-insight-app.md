@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience in conversation intelligence application"
 description: "Learn how to set up conversation intelligence for Teams meetings and calls through the conversation intelligence app."
-ms.date: 06/27/2022
+ms.date: 09/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -42,12 +42,7 @@ As an administrator, you can set up conversation intelligence&mdash;select stora
 6.	In the **Connect your call data** dialog, enter the **Storage connection string** and **Container name**, and then select **Connect**. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)  
     > [!div class="mx-imgBorder"]
     > ![Enter values to connect call data.](media/si-app-admin-connect-call-data.png "Enter values to connect call data")   
-7.	If you want to turn on access to preview features, in the **Coming soon** dialog, select the checkbox and then select **Agree and continue**.  
-    > [!div class="mx-imgBorder"]
-    > ![Turn on preview features.](media/si-app-admin-enable-preview-feature.png "Turn on preview features")   
 
-    > [!NOTE]
-    > If you don't want to enable the preview feature for your organization, skip this step. You can always enable preview features later. More information: [Enable coming soon features](enable-preview-features-sales-insights-app.md)  
 8.	In the **Keyword and competitor tracking** dialog, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later if your organization's requirements change. More information: [Configure conversation content](../sales/configure-keywords-competitors.md)      
     > [!NOTE]
     > You can also skip adding the keywords and competitors at this point. You can always add them later.  
