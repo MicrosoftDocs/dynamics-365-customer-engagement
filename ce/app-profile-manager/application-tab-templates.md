@@ -51,7 +51,8 @@ As an administrator, you can create multiple application tab templates.
 
 4. Select **Save**. The **Parameters** section displays the parameters for the page type that you selected.
 
-    Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
+    > [!Note]
+    > Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
 5. Select the **Value** field of a parameter that you want to edit and provide the value.
 
