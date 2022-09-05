@@ -136,7 +136,6 @@ If you want to configure, update, or delete contact and their preferred agents i
      Use the following code to update an agent mapped to the contact. Ensure that these conditions are met before running the script:
       - You cannot add duplicate records.
       - The preference rating can only be a positive value between 1 to 3.
-      - contact-is and preferred-agent-id can't be set to NULL.
 
     ```js
   
