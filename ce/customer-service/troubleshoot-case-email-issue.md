@@ -134,9 +134,6 @@ You must validate the configuration and validation steps given in the following 
 |     |   No      |     For an incoming email with email address of active account or contact   |  A case is created       |
 |    |     No    |      For an incoming email sent by record type other than account or contact   |    No case is created     |
 |  |   No      |     For an incoming email with email address of inactive account or contact    |  No case is created           |
-|Create a case for activities associated with a resolved case     |    Yes     |   For an incoming email related to a resolved case      |    A case is created     |
-|   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
-|  |         |         |         |
 
  
 ### See also
