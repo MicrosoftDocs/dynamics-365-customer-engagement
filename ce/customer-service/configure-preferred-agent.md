@@ -94,13 +94,14 @@ If you want to configure, update, or delete contact and their preferred agents i
 
    
 - **Create**
+
     
-    Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
-      - You can map three agents to a contact.
+     Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
+      - You can map only three agents to a contact.
       - You cannot add duplicate records.
       - The preference rating can only be a positive value between 1 to 3.
       - contact-id and systemuser-id can't be NULL.
-   
+
      ```js
      var contactid = "contact-id"; // contact's id
      var systemuserid = "systemuser-id"; // agent's id
