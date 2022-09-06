@@ -432,36 +432,36 @@ items:
         href: cfs-iot-overview.md
       - name: Use custom IoT providers
         href: cfs-custom-iot-provider.md
-    - name: Analyze
-      items:
-        - name: Receive IoT alerts from Azure IoT Central
-          href: cfs-iot-central-alerts.md
-        - name: Associate devices with customer accounts
-          href: cfs-iot-central-associate-devices.md
-        - name: Summary tiles
-          href: cfs-summary-tiles.md
-        - name: Visualizing device readings
-          href: cfs-visualizations-iot-hub.md
-        - name: Reports
-          href: cfs-powerbi.md
-        - name: AI for IoT alerts
-          href: iot-alerts-ai-based-suggestions.md
-    - name: Take action
-      items: 
-        - name: IoT alerts
-          href: cfs-iot-alerts.md
-        - name: Connected Field Service on mobile
-          href: cfs-mobile-powerapp.md
-        - name: Send commands
-          href: cfs-commands.md
-        - name: Receive IoT alerts from real MXChip device
-          href: cfs-iotcentral-mxchip.md
-        - name: IoT - Parent IoT alerts workflow
-          href: developer/iot-parent-iot-alerts-workflow.md
-        - name: Extend standard components or add Azure services
-          href: developer/extend-connected-field-service-solutions.md
-    - name: Troubleshoot + FAQs
-      href: cfs-troubleshoot.md
+  - name: Analyze
+    items:
+      - name: Receive IoT alerts from Azure IoT Central
+        href: cfs-iot-central-alerts.md
+      - name: Associate devices with customer accounts
+        href: cfs-iot-central-associate-devices.md
+      - name: Summary tiles
+        href: cfs-summary-tiles.md
+      - name: Visualizing device readings
+        href: cfs-visualizations-iot-hub.md
+      - name: Reports
+        href: cfs-powerbi.md
+      - name: AI for IoT alerts
+        href: iot-alerts-ai-based-suggestions.md
+  - name: Take action
+    items: 
+      - name: IoT alerts
+        href: cfs-iot-alerts.md
+      - name: Connected Field Service on mobile
+        href: cfs-mobile-powerapp.md
+      - name: Send commands
+        href: cfs-commands.md
+      - name: Receive IoT alerts from real MXChip device
+        href: cfs-iotcentral-mxchip.md
+      - name: IoT - Parent IoT alerts workflow
+        href: developer/iot-parent-iot-alerts-workflow.md
+      - name: Extend standard components or add Azure services
+        href: developer/extend-connected-field-service-solutions.md
+  - name: Troubleshoot + FAQs
+    href: cfs-troubleshoot.md
 
 - name: Integrations
   items:
