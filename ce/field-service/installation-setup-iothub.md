@@ -1,7 +1,7 @@
 ---
 title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 08/10/2022
+ms.date: 08/30/2022
 ms.reviewer: mhart
 ms.subservice: connected-field-service
 ms.topic: article
@@ -109,7 +109,7 @@ Connect the Azure IoTHub to your Field Service environment.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Azure resource groups.](./media/cfs-iothub-resource-group.png)
 
-1. One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
+1. One resource of type API Connection is called **commondataservice**. Select and edit this resource.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of API connection between dynamics and azure.](./media/cfs-iothub-api-connection.png)
