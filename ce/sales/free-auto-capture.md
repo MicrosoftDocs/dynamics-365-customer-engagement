@@ -33,7 +33,7 @@ Use the auto capture to capture activities related to your emails and contacts, 
 The activities captured by the auto capture feature are shown on the timeline in Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
 
 >[!NOTE]
->The appointment suggestion start appearing on the timeline three days prior to the actual appointment time.
+>The appointment suggestion starts appearing on the timeline three days prior to the actual appointment time.
 
 The following images show how tracked and auto-captured (not yet tracked) emails and meetings are displayed on the timeline:
 
