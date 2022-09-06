@@ -28,8 +28,8 @@ The following limitations apply to the Unified Interface apps:
     - Success conditions defined on the related entity will never be true and the KPI instance once set to **In Progress** will never succeed, even if conditions are met. It will continue to be in **In Progress**, **Nearing NonCompliance**, or **Noncompliant** status.
     - The above limitations will work only if the related entity lookup record of the target entity is updated.
     
-- Multiple SLA items can't be defined with the same **Applicable When** criteria and different **Success Conditions** for an SLA.
-- Nested related entities aren't supported with Under/Not-Under as part of the conditions in UCI SLA. You can’t use nested related entities with under/not-under in UCI, so you will need to change the applicable/success/pause conditions to one level of related entities only with under/not-under operator.
+- Multiple SLA items can't be defined with the same **Applicable When** criteria and **same KPI**, but with different **Success Conditions** for an SLA.
+- Nested related entities aren't supported with Under/Not-Under as part of the conditions in UCI SLA. You can’t use nested related entities with Under/Not-Under in UCI, so you will need to change the applicable/success/pause conditions to one level of related entities only with Under/Not-Under operator.
 
 
 ### See also
