@@ -30,6 +30,62 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ## 2022 updates
 
+### August 2022 update
+
+The Dynamics 365 Marketing August 2022 update has one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability feature is a new email creation canvas and user experience. The public preview feature allows you to use AI-powered Content ideas to kickstart email creation, now with built-in default data so you don’t have to create dozens of emails to get started.
+
+Additionally, this update includes improvements to the asset library, real-time journeys, and personalization.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.86.2014.0     |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### General availability feature
+
+- **Create emails faster with precise drag-and-drop, in-context menu, and easy-select interactions**
+    - The reimagined email editor is optimized for a productive workflow, allowing you to quickly create engaging and relevant content. With this release, the editor is further enhanced with precise drag-and-drop interactions, easy selection of elements, columns, or sections, and an in-context menu for faster content creation so you can create pixel-perfect emails in minutes.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions)
+    - [Docs](create-marketing-email.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new email canvas.](media/whats-new-email-canvas.png "Screenshot of new email canvas")
+
+#### Preview feature
+
+- **Boost your creativity with AI-powered email content ideas**
+    - Content ideas help you find writing inspiration. You can use Content ideas as a starting point when creating email content—it’s like asking a group of colleagues to brainstorm with you. Content ideas make creating emails simpler, more efficient, and fun. It's a new and innovative functionality with the latest AI technologies (GPT-3 language model) behind the scenes. Now, Content ideas includes default email content data, allowing users to get up and running even quicker.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/boost-creativity-ai-powered-email-content-ideas)
+    - [Docs](content-ideas.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Content ideas feature.](media/whats-new-content-ideas.png "Screenshot of Content ideas feature")
+
+#### Monthly enhancements
+
+- **Asset library**
+    - You can now choose whether to use the default asset library or install an optional add-on in real-time marketing for additional file type support.
+- **Real-time journeys**
+    - Deliver more personalized experiences by accessing a richer set of trigger data for defining the journey entry/exit criteria, conditions/branches, and waits. When you add any of these elements to the journey, you will now be able to see data attributes not only from the trigger’s core entity/table, but also from entities/tables directly related to those attributes. For example, when creating a journey to nurture new opportunities (using the “Opportunity created” trigger), you can branch the journey based on the “budget” attribute from the Opportunity table. This enables you to create journey variations for opportunities that are more likely to buy.
+
+        > [!div class="mx-imgBorder"]
+        > ![Screenshot of trigger data feature.](media/whats-new-trigger-data.png "Screenshot of trigger data feature")
+
+    - Multiple branch journeys now include a detailed analytics view. The detailed analytics view for the attribute branch allows you to see a preview of journey audience details such as name, ID, type, and time. This helps you gain additional insights into how the journey is executing.
+
+        > [!div class="mx-imgBorder"]
+        > ![Screenshot showing multiple branch analytics.](media/whats-new-branch-analytics.png "Screenshot showing multiple branch analytics")
+
+        > [!div class="mx-imgBorder"]
+        > ![Screenshot showing multiple branch audience.](media/whats-new-branch-audience.png "Screenshot showing multiple branch audience")
+
+- **Personalization**
+    - Conditional content (preview) enhancements: Preview and test send now remove content variations that are not possible. You can also give the default a name (like other variations) to help explain situations where the content will be used.
+
 ### July 2022 update
 
 The Dynamics 365 Marketing July 2022 update has four general availability features and one pubic preview from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from the [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability features include reusable content blocks for quick email creation, the ability to continue customer conversations by taking action on SMS replies, multiple journey branches to create more personalized variations, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
@@ -110,7 +166,7 @@ The update also includes improvements to real-time journeys, the SMS channel, ma
 
 ### June 2022 update
 
-The Dynamics 365 Marketing June 2022 update has three preview features and three general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new segment builder, the ability to continue customer conversations by taking action on SMS replies, and multiple journey branches to create more personalized variations. General availability features include a new email creation canvas and user experience, a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, Customer Service, and the ability to trigger journeys based on data changes in any Dynamics 365 app.
+The Dynamics 365 Marketing June 2022 update has three preview features and two general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new segment builder, the ability to continue customer conversations by taking action on SMS replies, and multiple journey branches to create more personalized variations. General availability features include a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, Customer Service and the ability to trigger journeys based on data changes in any Dynamics 365 app.
 
 The update also includes an admin digital data sharing opt-in for better performing AI features, business unit scoping support from the Dataverse Data Source service, better visibility for errors that occur when going live with pages and forms, and conditional content support for email templates.
 
@@ -155,11 +211,6 @@ The update also includes an admin digital data sharing opt-in for better perform
     > ![Screenshot of multiple branches.](media/whats-new-multiple-branches.png "Screenshot of multiple branches")
 
 #### General availability enhancements
-
-- **Create emails faster with precise drag-and-drop, in-context menu, and easy-select interactions**
-    - The reimagined email editor is optimized for a productive workflow, allowing you to quickly create engaging and relevant content. With this release, the editor is further enhanced with precise drag-and-drop interactions, easy selection of elements, columns, or sections, and an in-context menu for faster content creation so you can create pixel-perfect emails in minutes.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions)
-    - [Docs](create-marketing-email.md)
 
 - **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
     - Sales and Customer Service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, these agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. It also allows previews of messages sent to customers. This enables, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
