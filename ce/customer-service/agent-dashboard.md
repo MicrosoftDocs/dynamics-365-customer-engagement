@@ -107,11 +107,17 @@ To view the drill down, select any single metric value on the desired day, then 
 > [!div class="mx-imgBorder"]
 > ![Agent hourly drill down view.](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
 
-## Agent presence drill-down view
+## Agent presence status drill-down view
 
-The agent presence status drill-down view provides you with an insight into the **Presence status** metrics of an agent which will help you analyze the presence status of an agent. You can also view the **Start time** and the **End time** to view the  duration for which the agent was in that particular status. Select the **Availability** tab and then select either **Aggregated view** or **Detailed view** to view the hourly details or the monthly details, respectively.
+The agent presence status drill-down view provides you with an insight into the **Presence status** metrics of an agent which will help you analyze the presence statuses of an agent. You can also view the **Start time** and the **End time** to view the  duration for which the agent was in that particular status. Select the **Availability** tab and then select either **Aggregated view** or **Detailed view** to view the hourly details or the monthly details, respectively.
 
 :::image type="content" source="media/agent-presence-drill-down.png" alt-text="Agent presence drill down":::
+
+## Agent custom presence drill-down view
+
+The agent drill-down view provides you an insight into the out of the box as well as custom agent presence metrics as well.
+
+:::image type="content" source="media/agent-custom-presence-drill-down.png" alt-text="Agent custom presence drill-down view":::
 
 ### See also
 
