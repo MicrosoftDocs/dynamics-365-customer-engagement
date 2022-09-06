@@ -83,6 +83,7 @@ For the supported channels, use the information mentioned in the following table
 
 ### Use APIs to configure, update, and delete preferred agent records 
 
+You can configure or update multiple preferred agent records at the same time, using the create and update APIs.
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
 
@@ -94,7 +95,7 @@ If you want to configure, update, or delete contact and their preferred agents i
    
 - **Create**
     
-     Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
+   Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
       - You can map three agents to a contact.
       - You cannot add duplicate records.
       - The preference rating can only be a positive value between 1 to 3.
