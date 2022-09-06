@@ -16,7 +16,7 @@ The vertical bar on the left panel shows the list of sessions. The panel will al
 
 Every session has at least one application tab, called the "Anchor tab", that can't be closed or customized. When you start a session, the corresponding application page and any other additional pages are opened based on your configuration settings.
 
-Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** page type and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
+Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** page tab and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
 
 As an administrator, you can create multiple application tab templates.
 
