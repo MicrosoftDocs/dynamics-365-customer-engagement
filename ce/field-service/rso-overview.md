@@ -24,14 +24,14 @@ Resource Scheduling Optimization is a more advanced form of scheduling for field
 
 ## Benefits
 
-Automated scheduling is often required because scheduling a high volume of jobs manually takes a lot of time. Resource Scheduling Optimization assists dispatcher with job matching and helps free up their time to focus on other tasks. More reasons that organizations use the Resource Scheduling Optimization add-in:
+Automated scheduling is often required because scheduling a high volume of jobs manually takes much time. Resource Scheduling Optimization assists dispatcher with job matching and helps free up their time to focus on other tasks. More reasons that organizations use the Resource Scheduling Optimization add-in:
 
 - **Achieve scale**: Allows dispatchers to manage more resources, enabling the
 business to scale to new territories or service offerings.
 
 - **Customer satisfaction**: Improved efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
 
-- **Technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs.Matching work orders and technician skills reduces inefficient time allocation.
+- **Technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching work orders and technician skills reduces inefficient time allocation.
 
 - **Minimized travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles. Savings likely surpass the cost of the add-in licenses.
 
@@ -47,7 +47,7 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 
 - **Simulation**: A service manager runs a scheduling simulation to understand how many jobs could be completed with a varying number of resources in a specific geographic territory.
 
-- **Intraday scheduling**: Runs optimizations every 30 minutes to schedule and adjust for changing business needs as new jobs are created and others are cancelled or rescheduled.
+- **Intraday scheduling**: Runs optimizations every 30 minutes to schedule and adjust for changing business needs as new jobs are created and others are canceled or rescheduled.
 
 - **Emergency scheduling**: When an urgent job is created, a Resource Scheduling Optimization run schedules the high priority job as soon as possible before lower priority jobs.
 
@@ -56,8 +56,8 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 - **Jobs**: Work that needs to be completed like work orders, cases, and projects. There's no "jobs" entity in Field Service or Resource Scheduling Optimization.
 - **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
 - **Schedules, bookings**: Schedules and bookings are used interchangeably and refer to the appointment time slot when a resource is assigned to a job.
-- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work. This is the entity that will ultimately be scheduled via Resource Scheduling Optimization.
-- **Run**: When Resource Scheduling Optimization performs its scheduling and optimization functions, it's called a run. A run usually leads to to schedules on the Schedule Board.
+- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work. It's also the entity that will ultimately be scheduled via Resource Scheduling Optimization.
+- **Run**: When Resource Scheduling Optimization performs its scheduling and optimization functions, it's called a run. A run usually leads to schedules on the Schedule Board.
 - **Optimize**: Attempt to find the best schedules to reduce travel time and maximize utilization.
 - **Scope**: The jobs and resources that Resource Scheduling Optimization considers. For example, you may not have the schedule for every job in the system to every resource. You'll most likely partition the jobs and resources into a scope.  
 - **Goal**: Defines the ideal outcome of a run. For example, minimize travel time, maximize utilization, handle high priority jobs, or scheduling jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
@@ -69,42 +69,44 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 
 ## How it works
 
-Resource Scheduling Optimization is an enhanced application of the famous "traveling salesperson problem" that asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". It's a mathematical problem and the solution is a large part of the Resource Scheduling Optimization computation. Nevertheless, Resource Scheduling Optimization goes beyond finding the shortest routes because it also considers things like skills, territory, roles, priorities, resource preferences, promised time windows, and more.
+Resource Scheduling Optimization is an enhanced application of the famous "traveling salesperson problem": Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?
 
-Here's how it works.
+This mathematical problem and the solution are a large part of the Resource Scheduling Optimization computation. The add-in goes beyond finding the shortest routes. It also considers skills, territory, roles, priorities, resource preferences, promised time windows, and more.
 
-1. You create a list of jobs that need to be completed. These are generally work orders for onsite service, cases for remote service, and project tasks.
+Here's how it works:
 
-2. For each job, you list what kind of resource is needed and when it needs to be completed. For example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by the end of this week. Much of this information is automatically populated based on the job details.
+1. Create a list of jobs that need to be completed. Jobs are generally work orders for onsite service, cases for remote service, or project tasks.
 
-3. Next you pick a list of resources that are eligible to be considered for your list of jobs, and each resource has different attributes like where they're located, what role the resource has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have.
+1. For each job, list the required resources and when it needs to be completed. For example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by the end of the week.
 
-4. After that you run Resource Scheduling Optimization, which can be run manually by pushing a button, based on a predefined schedule or timetable, or triggered by a workflow. Also, Resource Scheduling Optimization can run differently depending on what it's scheduling. It can run differently for US jobs compared to Canadian jobs or differently for work orders compared to cases.
+1. Choose a list of resources that are eligible to be considered for your list of jobs. Each resource has different attributes like location, role, type, and skills.
 
-5. When Resource Scheduling Optimization runs, the job requirements and the list of resources are sent to Azure and Resource Scheduling Optimization computes an optimal schedule that is displayed on the schedule board.
+1. Run Resource Scheduling Optimization, ad-hoc, on a predefined schedule, or triggered by a workflow. It can run differently depending on what it's scheduling. It can run differently for US jobs compared to Canadian jobs or differently for work orders compared to cases.
 
-6. After Resource Scheduling Optimization runs, dispatchers can use the interactive schedule board and schedule assistant to makes changes as needed.
+1. During the run, job requirements and the list of resources are used to an optimal schedule that is displayed on the schedule board.
+
+1. After the run completes, dispatchers can use the interactive schedule board and schedule assistant to makes changes as needed.
 
 ## Optimized schedules
 
-Resource Scheduling Optimization optimizes schedules in addition to automatically scheduling bookings. After running Resource Scheduling Optimization, it's important to understand the optimized results. Lets look at a three examples.
+Resource Scheduling Optimization optimizes schedules in addition to automatically scheduling bookings. To help understand the optimized results, here are three examples:
 
-### 1. Clustered routes
+### Clustered routes
 
-In the following screenshot is an optimized schedule board. In the left pane, you'll see a map view of the optimized bookings.
+In the following screenshot shows an optimized schedule board. The left pane contains a map view of the optimized bookings.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of an optimized schedule board.](media/rso-optimized-schedule-board-routes-with-annotation.png)
 
-  One way you can see Resource Scheduling Optimization working effectively is the travel routes are clustered around each resource's starting location where each color represents a different technician's route. When dispatchers manually schedule jobs without using Resource Scheduling Optimization, the travel routes are often spread across the map zigzagging in different directions.
+  One way you can see Resource Scheduling Optimization working effectively is the travel routes are clustered around each resource's starting location where each color represents a different technician's route. When dispatchers manually schedule jobs, travel routes are often spread across the map.
 
-### 2. Sequential bookings at the same location
+### Sequential bookings at the same location
 
-In the previous image, you can see some bookings are scheduled back-to-back with no travel time in between. This means Resource Scheduling Optimization scheduled a job and understood there was another job at the same location for the same customer and decided to schedule them together. Simple types of optimization can be harder for dispatchers to do manually across many jobs.
+In the screenshot, some bookings are scheduled back-to-back without travel time in between. So Resource Scheduling Optimization scheduled a job and understood there was another job at the same location for the same customer and decided to schedule them together. Overseeing and scheduling all the jobs at once is a challenge for dispatchers to do manually.
 
-### 3. Travel time vs working time
+### Travel time vs working time
 
-Every time Resource Scheduling Optimization runs, it keeps track of the total travel time compared to working time in a graph as seen in the image below. This helps you understand how Resource Scheduling Optimization will reduce the total travel time across all of your field technicians compared to manual or semi-automated scheduling (schedule assistant).
+Every time Resource Scheduling Optimization runs, it keeps track of the total travel time. It's compared to working time in a graph as shown in the screenshot below. Use the visuals to understand how the add-in reduces the total travel time across all of your field technicians.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active optimization request bookings.](media/rso-working-vs-travel-time.png)
