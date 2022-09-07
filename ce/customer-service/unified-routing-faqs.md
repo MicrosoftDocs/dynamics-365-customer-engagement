@@ -101,15 +101,15 @@ Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel 
 
 ## FAQ on routing to most-idle agent
 
-### For which channels is routing to most-idle agent available?
+### For which channels is routing to most-idle agent (preview) available?
 
 In the preview release, the feature is available for the voice channel only.
 
-### Is presence used in determining the most idle agent?
+### Is presence used in determining the most-idle agent?
 
 No, presence is not used. Only capacity release information is taken into account.
 
-### Does the agent sign-in time affect in the calculation of the most idle agent?
+### Does the agent sign-in time affect in the calculation of the most-idle agent?
 
 The agent’s last capacity release time only affects the idle time used by most-idle assignment method. The agent sign-in times don't impact the capacity release time.
 
