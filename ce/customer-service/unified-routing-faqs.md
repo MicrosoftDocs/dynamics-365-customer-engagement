@@ -16,7 +16,7 @@ manager: shujoshi
 
 This topic contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
 
-## General FAQ
+## General
 
 ### What SKUs must I have to get unified routing?
 
@@ -99,7 +99,7 @@ A case remains with the agent that it was initially assigned to and therefore th
 
 Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
 
-## FAQ on routing to most-idle agent
+## Route to most-idle agent
 
 ### For which channels is routing to most-idle agent (preview) available?
 
@@ -121,7 +121,7 @@ If the last capacity release time, which is the time since the agent is idle, is
 
 Yes, the assignment method stage displays the assignment method that's used.
 
-## FAQ on intelligent skill finder
+## Intelligent skill finder
 
 ### Will intelligent skill finder be available in all geographical regions?
 

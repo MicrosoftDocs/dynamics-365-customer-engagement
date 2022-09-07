@@ -128,3 +128,4 @@ Follow these steps to configure the selection criteria for the assignment rulese
 [Create queues](queues-omnichannel.md)  
 [Set up records for unified routing](set-up-record-routing.md)  
 [Set up skill-based routing for unified routing](set-up-skill-based-routing.md)  
+[FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  

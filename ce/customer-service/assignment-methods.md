@@ -173,6 +173,7 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 ### See also
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
+[FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  
 [Diagnostics for unified routing](unified-routing-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
