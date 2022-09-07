@@ -1,5 +1,5 @@
 ---
-title: "Improve Field Service (Dynamics 365) mobile app performance - Dynamics 365 Field Service | MicrosoftDocs"
+title: "Performance considerations when customizing the Field Service (Dynamics 365) mobile app - Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about you can improve the Field Service mobile app performance.
 ms.date: 01/19/2022
 ms.reviewer: mhart
@@ -16,11 +16,11 @@ search.app:
   - D365FS
 ---
 
-# Improve Field Service (Dynamics 365) mobile app performance
+# Performance considerations when customizing the Field Service (Dynamics 365) mobile app
 
 In this article, we list a few ways you can improve the performance of Field Service (Dynamics 365) mobile.
 
-## Remove Console.log from production code 
+## Remove Console.log from production code
 
 Logging data to the console can increase memory pressure, as the console prevents items from being cleaned up. It's also best not to log data to the console during production, as this can unintentionally print sensitive data that is observable by the end user. This includes `console.log`, `console.warn`, and `console.error`.
 
