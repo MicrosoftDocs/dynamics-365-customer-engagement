@@ -33,11 +33,11 @@ The following assignment methods are available out of the box:
 
 - **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-- **Most idle (Preview)**: Assigns a work item to the agent who has been idle for the longest duration among all the agents who match skills and capacity.
+- **Most idle (Preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
    The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses are not used in determining the most-idle agent.
 
-   Routing to the most idle agent helps in better use of agents, improved customer satisfaction and better agent satisfaction. Agent handle time is also lower because agents are well-rested between conversations.
+   Routing to the most-idle agent assignment strategy helps in better use of agents with a more equitable distribution of work items across agents. This provides higher agent satisfaction and improved customer satisfaction.
 
     > [!IMPORTANT]
     >
@@ -153,6 +153,7 @@ The assignment rules are composed of the following items:
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best suited one. You can specify the following order by clauses:
 
   - **Ordering Attributes**:
+     - **Most idle (Preview)**: in preview release, this option is available for voice channel queues only. Work item is routed to the agent who is idle the most among all the agents who match skills and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
      - Round Robin
      - Unit-based available capacity
      - Profile-based available capacity

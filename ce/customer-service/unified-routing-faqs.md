@@ -99,7 +99,7 @@ A case remains with the agent that it was initially assigned to and therefore th
 
 Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
 
-## FAQ on routing to most idle agent
+## FAQ on routing to most-idle agent
 
 ### For which channels is routing to most-idle agent available?
 
@@ -111,13 +111,13 @@ No, presence is not used. Only capacity release information is taken into accoun
 
 ### Does the agent sign-in time affect in the calculation of the most idle agent?
 
-To be filled in.
+The agent’s last capacity release time only affects the idle time used by most-idle assignment method. The agent sign-in times don't impact the capacity release time.
 
-### How is a tie-breaker scenario resolved if two or more agents match the idle criteria?
+### How is a tie-breaker scenario resolved if two or more agents match the idle time?
 
-To be filled in.
+If the last capacity release time, which is the time since the agent is idle, is the same for two matching agents, then assignment will be done in a round-robin manner.
 
-### Can I see diagnostics for routing to the most idle agent?
+### Can I see diagnostics for routing to the most-idle agent?
 
 Yes, the assignment method stage displays the assignment method that's used.
 
@@ -125,7 +125,7 @@ Yes, the assignment method stage displays the assignment method that's used.
 
 ### Will intelligent skill finder be available in all geographical regions?
 
-Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model.
+Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to set up the model.
 
 ### Can I use intelligent skill finder with email activities?
 
