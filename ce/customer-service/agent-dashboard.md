@@ -1,7 +1,7 @@
 ---
 title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
 description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 09/02/2022
+ms.date: 09/07/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -100,7 +100,7 @@ To access the drill down, select any metric value for the agent you're intereste
 
 ## Agent hourly details drill-down view
 
-The Agent hourly details drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
+The Agent hourly details drill-down view provides granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
 
 
@@ -117,7 +117,9 @@ Select the **Availability** tab and then select either **Aggregated view** or **
 
 ## Agent custom presence drill-down view
 
-The agent drill-down view provides you an insight into the out of the box as well as custom agent presence metrics as well.
+The agent custom presence drill-down view provides you an insight into the out of the box presence status metrics as well as the custom presence metrics.
+
+Select the **Availability** tab and then select the **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out of the box and custom state metrics. For example, on April 05, 2022, the specific agent spent 0.7hrs in the custom state of **Inactive** and 0.6hrs in the out of the box status of **Busy - DND**.
 
 :::image type="content" source="media/agent-custom-presence-drill-down.png" alt-text="Agent custom presence drill-down view":::
 
