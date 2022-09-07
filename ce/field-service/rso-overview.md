@@ -15,61 +15,57 @@ search.app:
 
 # Overview of Resource Scheduling Optimization
 
-Resource Scheduling Optimization automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. This includes automatically scheduling work orders to field technicians, cases to customer service reps, and any other example based on how you are using Dynamics 365 Field Service, Customer Service, and Project Service Automation.
+Resource Scheduling Optimization automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. Schedule work orders for field technicians or cases for customer service reps. You can cover other scenarios too, depending on how you use Dynamics 365 Field Service, Customer Service, and Project Service Automation.
 
-Resource Scheduling Optimization is a more advanced form of scheduling for field service organizations, as you'll see in the [Five stages of scheduling adoption](5-stages-scheduling-adoption.md). Where the schedule board and the schedule assistant help dispatchers schedule a single job, Resource Scheduling Optimization can schedule many jobs at once, maximizing overall utilization and minimizing total travel time. Furthermore, Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
+Resource Scheduling Optimization is a more advanced form of scheduling for field service organizations. While the schedule board and the schedule assistant help dispatchers schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource utilization and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
 
  > [!div class="mx-imgBorder"]
   > ![Screenshot of Resource Scheduling Optimization and the schedule board.](media/rso-optimized-schedule-board-routes.png)
 
-## Benefits of using Resource Scheduling Optimization
+## Benefits
 
-Using Resource Scheduling Optimization for automated scheduling is often a requirement because scheduling a high volume of jobs manually would take too long. For other organizations, they adopt Resource Scheduling Optimization to aid their schedulers in job matching and to free up their time to focus on other tasks. Here are additional reasons organizations choose to adopt Resource Scheduling Optimization.
+Automated scheduling is often required because scheduling a high volume of jobs manually takes a lot of time. Resource Scheduling Optimization assists dispatcher with job matching and helps free up their time to focus on other tasks. More reasons that organizations use the Resource Scheduling Optimization add-in:
 
 - **Achieve scale**: Allows dispatchers to manage more resources, enabling the
 business to scale to new territories or service offerings.
 
-- **Customer satisfaction**: Improved efficiency drives more predictable arrival and completion times and seamlessly schedules alternate technicians for urgent situations.
+- **Customer satisfaction**: Improved efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
 
-- **Technician efficiencies and reduced cost**:
-  - Fitting more appointments into working hours drives revenue and reduces overtime costs.
-  - Matching work orders and technician skills reduces the cost of lost appointments.
+- **Technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs.Matching work orders and technician skills reduces inefficient time allocation.
 
-- **Reduced travel time means reduced fuel consumption and less vehicle maintenance**:
-  - Ensuring your technicians are taking the shortest possible route with turn-by-turn directions from Bing Maps or your custom-mapping provider reduces fuel consumption and wear and tear on vehicles.
-  - If each field technician saves one tank of gas a month, the savings generally will surpass the cost of Resource Scheduling Optimization.
+- **Minimized travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles. Savings likely surpass the cost of the add-in licenses.
 
-- **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement (SLA) penalties and helps you meet customer service commitments.
+- **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement penalties and helps you meet customer service commitments.
 
 ## Scenarios
 
-Resource Scheduling Optimization is configurable based on your business needs and you have the option of running Resource Scheduling Optimization differently based on jobs, resources, and different factors. Here are common scenarios where Resource Scheduling Optimization is used.
+Configure Resource Scheduling Optimization for your business needs based on jobs, resources, and other factors. Scenarios where Resource Scheduling Optimization can help:
 
-- **Overnight scheduling** - Resource Scheduling Optimization runs automatically each night and schedules new jobs and optimizes existing bookings for the next day.
+- **Overnight scheduling**: Resource Scheduling Optimization runs automatically each night, schedules new jobs and optimizes existing bookings for the next day.
 
-- **Single Resource Optimization** - a dispatcher gets the schedule [optimized for a single technician](single-resource-optimization.md) for the rest of today to recalculate an optimal travel route after a cancellation.
+- **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](single-resource-optimization.md) for the rest of today to recalculate an optimal travel route after a cancellation.
 
-- **Simulation** - a service manager runs a simulation of Resource Scheduling Optimization to understand how many jobs could be completed with a varying number of resources in a specific geographic territory.
+- **Simulation**: A service manager runs a scheduling simulation to understand how many jobs could be completed with a varying number of resources in a specific geographic territory.
 
-- **Intraday scheduling** - Resource Scheduling Optimization runs every 30 minutes to schedule and adjust for changing business needs as new jobs are created and others are canceled or rescheduled.
+- **Intraday scheduling**: Runs optimizations every 30 minutes to schedule and adjust for changing business needs as new jobs are created and others are cancelled or rescheduled.
 
-- **Emergency scheduling** - when an emergency job is created, a Resource Scheduling Optimization run is triggered that schedules the high-priority-emergency job as soon as possible ahead of lower priority jobs.
+- **Emergency scheduling**: When an urgent job is created, a Resource Scheduling Optimization run schedules the high priority job as soon as possible before lower priority jobs.
 
 ## Glossary
 
-- **Jobs**: Generic term referring to work that needs to be completed like work orders, cases, and projects; however there is no "jobs" entity in Field Service or Resource Scheduling Optimization.
+- **Jobs**: Work that needs to be completed like work orders, cases, and projects. There's no "jobs" entity in Field Service or Resource Scheduling Optimization.
 - **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
 - **Schedules, bookings**: Schedules and bookings are used interchangeably and refer to the appointment time slot when a resource is assigned to a job.
 - **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work. This is the entity that will ultimately be scheduled via Resource Scheduling Optimization.
-- **Run**: When Resource Scheduling Optimization performs its scheduling and optimization functions, we call it a run. It consists of a send and receive to Azure and an update to schedules as seen on the Schedule Board.
-- **Optimize**: We say that Resource Scheduling Optimization *optimizes* jobs, meaning that it attempts to find the best schedules to reduce travel time and maximize utilization.
-- **Scope**: The jobs and resources that Resource Scheduling Optimization will consider. For example, you may not have the schedule for every job in the system to every resource. You will most likely partition the jobs and resources into a scope.  
-- **Goal**: Defines what the aim of a Resource Scheduling Optimization run will be. What is most important for your company: minimizing travel time, maximizing utilization, handling high priority jobs, scheduling jobs as soon as possible? These are all goals that you will need to rank because sometimes there are trade-offs.
- 
+- **Run**: When Resource Scheduling Optimization performs its scheduling and optimization functions, it's called a run. A run usually leads to to schedules on the Schedule Board.
+- **Optimize**: Attempt to find the best schedules to reduce travel time and maximize utilization.
+- **Scope**: The jobs and resources that Resource Scheduling Optimization considers. For example, you may not have the schedule for every job in the system to every resource. You'll most likely partition the jobs and resources into a scope.  
+- **Goal**: Defines the ideal outcome of a run. For example, minimize travel time, maximize utilization, handle high priority jobs, or scheduling jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
+
 ## System requirements
 
 - Dynamics 365 online
-- Resource Scheduling Optimization is a paid add-on to [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If for example, you wanted to use Resource Scheduling Optimization to automatically schedule Dynamics 365 Sales opportunities to sales reps, you would need either Dynamics 365 Field Service, Customer Service, or Project Service Automation in addition to Sales in order to access URS as a prerequisite.
+- Resource Scheduling Optimization is a paid add-on to [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If you want to use Resource Scheduling Optimization to automatically schedule Dynamics 365 Sales opportunities to sales reps, you need Dynamics 365 Field Service, Customer Service, or Project Service Automation too.
 
 ## How it works
 
@@ -81,7 +77,7 @@ Here's how it works.
 
 2. For each job, you list what kind of resource is needed and when it needs to be completed. For example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by the end of this week. Much of this information is automatically populated based on the job details.
 
-3. Next you pick a list of resources that are eligible to be considered for your list of jobs, and each resource has different attributes like where they are located, what role the resource has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have.
+3. Next you pick a list of resources that are eligible to be considered for your list of jobs, and each resource has different attributes like where they're located, what role the resource has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have.
 
 4. After that you run Resource Scheduling Optimization, which can be run manually by pushing a button, based on a predefined schedule or timetable, or triggered by a workflow. Also, Resource Scheduling Optimization can run differently depending on what it's scheduling. It can run differently for US jobs compared to Canadian jobs or differently for work orders compared to cases.
 
