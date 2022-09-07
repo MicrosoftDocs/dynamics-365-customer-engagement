@@ -22,19 +22,18 @@ search.app:
   
 ## Extend Azure Services
 
- The Azure services and components, including the ones detailed in [Connected Field Service architecture](connected-field-service-architecture.md), are designed for reliability, scalability, and extensibility.  They support management and customization through UI-based and PowerShell administration, JSON-based template-driven deployment and initialization, and REST-based programming interfaces (often including client libraries for specific languages, such as C#/.NET, Python, Java, and Node.js).  
+Azure services and components, including the ones detailed in [Connected Field Service architecture](connected-field-service-architecture.md), are designed for reliability, scalability, and extensibility. They support management and customization through UI-based and PowerShell administration, JSON-based template-driven deployment and initialization, and REST-based programming interfaces (often including client libraries for specific languages, such as C#/.NET, Python, Java, and Node.js).  
   
- After the standard installation, Connected Field Services will configure your resource group with a set of Azure services similar to the following.  
+ After the standard installation, Connected Field Services will configure your resource group with a set of Azure services similar to the following screenshot.  
   
  ![Connected Field Service Standard Azure Services.](../media/iot-standard-azure-service.jpg "Connected Field Service Standard Azure Services")  
   
- Although extending these Azure services (or adding additional ones) is beyond the scope of this article, there are several resources available:  
+ Although extending these Azure services or adding other ones is beyond the scope of this article, there are several resources available:  
   
 - [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers.
 - [Azure Documentation Center](https://azure.microsoft.com/documentation/) for developers and administrators.
 - [Azure SDKs](https://azure.microsoft.com/downloads/) and tools.
-  
-- [Shows](https://docs.microsoft.com/shows/) for a wide selection of current and ever-growing videos.
+- [Shows](/shows/) for a wide selection of current and ever-growing videos.
   
 ## Extend Connected Field Service
 
