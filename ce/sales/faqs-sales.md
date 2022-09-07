@@ -26,7 +26,7 @@ The following license options are available for Dynamics 365 Sales:
 
 For a detailed comparison of the capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
-### Can I use premium and enterprise features with the Sales Professional license?
+### Can I use the Sales Hub app with the Sales Professional license?
 
 No. Although the Sales Hub app includes all Sales Enterprise or Sales Premium capabilities, only Sales Professional capabilities are available in Sales Professional environments. To use enterprise or premium features, upgrade to Sales Enterprise or Sales Premium. You can also [hide the Sales Hub app](/power-apps/maker/model-driven-apps/deactivate-app).
 
