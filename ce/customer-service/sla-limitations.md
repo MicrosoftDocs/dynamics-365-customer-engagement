@@ -1,7 +1,7 @@
 ---
 title: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service."
-ms.date: 09/06/2022
+ms.date: 09/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,7 +29,8 @@ The following limitations apply to the Unified Interface apps:
     - The above limitations will work only if the related entity lookup record of the target entity is updated.
     
 - Multiple SLA items can't be defined with the same **Applicable When** criteria and **same KPI**, but with different **Success Conditions** for an SLA.
-- Nested related entities aren't supported with Under/Not-Under as part of the conditions in UCI SLA. You can’t use nested related entities with Under/Not-Under in UCI, so you will need to change the applicable/success/pause conditions to one level of related entities only with Under/Not-Under operator.
+- You can’t use nested related entities with Under/Not-Under operator as part of the conditions in UCI SLA. Therefore, you'll need to change the applicable/success/pause conditions to add one level of related entities only with Under/Not-Under operator.
+- You can’t use Under/Not-Under in direct conditions in UCI SLA, so they need to use related entities when using Under/Not-Under operator.
 
 
 ### See also
