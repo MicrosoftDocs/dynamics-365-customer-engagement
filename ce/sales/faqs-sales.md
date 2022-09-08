@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
-ms.date: 01/25/2022
+ms.date: 09/07/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,6 +24,11 @@ The following license options are available for Dynamics 365 Sales:
 - Sales Professional
 
 For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+
+### Can I use the Sales Hub app with the Sales Professional license?
+
+No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide the Sales Hub app](/power-apps/maker/model-driven-apps/deactivate-app) to avoid any accidental usage.
+
 
 ### Where can I find the Sales Professional and sales insights documentation?
 
@@ -242,6 +247,10 @@ If you select a field other than the default, a column is created in the forecas
     In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.
 
     :::image type="content" source="media/forecast-hierarchy-owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy":::
+
+### How do I change the forecast calculation for lost opportunities?
+
+By default, the forecast calculation is based on the actual revenue for lost opportunities. To change it to estimated revenue, go to the **Layout** step of the forecast configuration, and select **Est.Revenue** in the **Amount** field. For more information, see [Choose layout and columns](choose-layout-and-columns-forecast.md).
 
 
 ### What are the configurations that I can edit once a forecast is published?  

@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 07/29/2022
+ms.date: 08/02/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -69,7 +69,7 @@ The bot user is first created as an application user and then assigned the **Omn
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-1. Open your Dynamics 365 environment and under **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
+1. Open your Power Platform environment and under **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
 
 1. Select the **APPLICATION USER** form.
 
@@ -115,7 +115,8 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  
 [Configure Azure bots to escalate and end conversation](bot-escalate-end-conversation.md)  
-[Context variables for a bot](context-variables-for-bot.md)  
+[Configure context variables for bots](context-variables-for-bot.md)  
+[Manage context variables](manage-context-variables.md)  
 [Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

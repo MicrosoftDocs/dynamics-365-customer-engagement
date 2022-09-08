@@ -2,12 +2,12 @@
 metadata:
   title: FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service
   description: Find answers to common issues with Resource Scheduling Optimization in Dynamics 365 Field Service
-  author: FieldServiceDave
-  ms.reviewer: krbjoran
-  ms.date: 09/07/2021
+  author: m-hartmann
+  ms.reviewer: mhart
+  ms.date: 09/08/2022
   ms.topic: faq
   ms.subservice: resource-scheduling-optimization
-  ms.author: daclar
+  ms.author: mhart
   search.app: 
     - D365CE
     - D365FS
@@ -253,8 +253,8 @@ sections:
       - question: |
           Can I have my resources start and end their day at different locations?
         answer: |
-          Yes, you can, as long as neither locations are location agnostic. For more information on the configuration, see start/end location section of [this article](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
-          Additionally, if the resource is required to start/end from a location that isn't resource address or organizational unit address, there's a workaround that can be used: 
+          Yes, you can, as long as neither locations are location agnostic. For more information on the configuration, see start/end location section of [this article](/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
+          Additionally, if the resource is required to start/end from a location that is not resource address or organizational unit address, there is a workaround that can be used: 
            1. Extend the resource work hours by 10 minutes at the start and end of the shift. For example, if the resource's shift is from 9AM to 5PM, change it to 8:50 AM to 5:10 PM. 
            2. Create bookings that are locked to resource and time for these two 10-minute time slots. Work with dummy requirements located at the place the resource is expected to start/end. 
           Using this temporary work-around, your resources can start and end at locations other than just their resource address or organizational unit address.  

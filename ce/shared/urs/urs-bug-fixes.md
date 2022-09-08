@@ -1,4 +1,43 @@
 
+## 3.12.84.3
+
+(Includes Resource Scheduling controls version 1.2.25.222292).
+
+Scheduling bug fixes to the new schedule board:
+ - Custom filter control does not work (e.g. Look Up).
+ - Cannot Drag and Drop onsite Work order to Organization Crew Resource with Auto Update Booking Travel Enabled.
+ - The Booking records are not focused on the Map.
+ - Ability to show more results on left panel filter dropdowns.
+ - Appointments are not respected as "busy" when searching for availability for requirements.
+ - Requirements details present on Schedule Assist are showing the fields with no value.
+ - Details pane is not showing the right view.  
+
+
+## 3.12.87.3 - 2022 wave 2 early access update 1
+
+(Includes Resource Scheduling controls version 1.2.28.222201).
+
+## 3.12.83.6
+
+(Includes Resource Scheduling controls version 1.2.24.222144).
+
+Bug fixes for new schedule board:
+-	Booking a resource with flexible dates.
+-	Details panel shows empty values for some columns. 
+-	Custom date-time field value is showing -1 day on requirements panel.
+-	Different behavior of the Schedule Assistance (Create Booking Panel) in the List and Gantt view.
+-	When booking status changed to cancelled, booking should disappear automatically.
+-	Incorrect view of booking with travel.
+-	Work hour for resources doesn't respect time zone change.
+-	Appointment tooltips are not showing anything.
+-	Rebook button not available for long bookings.
+-	Refreshing after reassigning a booking throws an error.
+-	Booking view doesn't display multiline field value.
+
+
+## 3.12.82.14
+
+(Includes Resource Scheduling controls version 1.2.23.221941).
 
 ## 3.12.81.3
 

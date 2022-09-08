@@ -31,7 +31,7 @@ The sales accelerator is an engagement platform that helps a sales team understa
 
 > [!NOTE]
 > - To configure the sales accelerator for assignment rules with your Dynamics 365 Sales Enterprise license, go to [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
-> - You can also set up the sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 sequence-connected records per month. To set up sales accelerator through quick setup, go to the **Get started with digital sales** page under **App Settings**. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
+> - You can also set up the sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 sequence-connected records per month. To set up sales accelerator through quick setup, go to the **Get started with digital sales** page under **App Settings**. More information: [Set up sales accelerator](digital-selling-sales-accelerator.md#set-up-sales-accelerator)
 
        
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2190823]
@@ -64,6 +64,9 @@ Enable the sales accelerator by quickly providing access to security roles and s
     |----------------|-------------|
     | All security roles | Select this option to give access to view sales accelerator features to all the security roles in your organization. |
     | Specific security roles | Select this option to specify security roles to give access to view the sales accelerator to just a few users. Use the lookup box to add the security roles. |
+
+    >[!NOTE]
+    >To provide permissions for other user roles to create, edit, delete, connect, and disconnect sequences, see [Permission requirements to manage sequences](create-manage-sequences.md#permission-requirements-to-manage-sequences)
 
 5.	(Optional) Select **Add sample data** to explore the sales accelerator feature with the provided sample data.
 

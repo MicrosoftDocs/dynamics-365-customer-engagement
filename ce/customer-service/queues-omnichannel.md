@@ -40,9 +40,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 ## Create a queue for unified routing
 
-**To create a queue and set operating hour record for the queue**
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
@@ -62,7 +60,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 2. On the **Queues** page, do the following:
 
     1. Select **New**.
-    2. In the **Create a queue** dialog box, enter the following:
+    2. In the **Create a queue** dialog, enter the following:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
        - **Group number**: A number to organize the queue.
@@ -71,7 +69,7 @@ Assign a group number that helps you organize your queues in the list view. The 
        > [!div class=mx-imgBorder]
        > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
-3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
+3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 4. In **Assignment method**, do one of the following:
    - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
@@ -104,9 +102,9 @@ Out of the box, the following queues are available. You can add and remove users
 
 Work is routed to these queues that act as a safety net in the following scenarios:
 
-- Work item encounters an error during classification
-- Work item encounters an error when running a route-to-queue rule
-- Work item does not match any route-to-queue rules
+- Work item encounters an error during classification.
+- Work item encounters an error when running a route-to-queue rule.
+- Work item does not match any route-to-queue rules.
 
 ### See also
 
