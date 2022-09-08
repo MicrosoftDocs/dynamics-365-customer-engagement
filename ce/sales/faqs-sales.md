@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
-ms.date: 09/07/2022
+ms.date: 09/08/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -27,7 +27,7 @@ For a detailed comparison of capabilities available with each license, go to the
 
 ### Can I use the Sales Hub app with the Sales Professional license?
 
-No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide the Sales Hub app](/power-apps/maker/model-driven-apps/deactivate-app) to avoid any accidental usage.
+No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app to avoid any accidental usage.
 
 
 ### Where can I find the Sales Professional and sales insights documentation?
