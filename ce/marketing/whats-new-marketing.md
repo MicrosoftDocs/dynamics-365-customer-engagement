@@ -68,7 +68,7 @@ Additionally, this update includes improvements to the asset library, real-time 
 #### Monthly enhancements
 
 - **Asset library**
-    - You can now choose whether to use the default asset library or install an optional add-on in real-time marketing for additional file type support.
+    - You can now choose whether to use the default asset library or install an optional add-on in real-time marketing for additional file type support. Learn more: [Install the real-time marketing asset library add-on](real-time-marketing-asset-add-on.md)
 - **Real-time journeys**
     - Deliver more personalized experiences by accessing a richer set of trigger data for defining the journey entry/exit criteria, conditions/branches, and waits. When you add any of these elements to the journey, you will now be able to see data attributes not only from the trigger’s core entity/table, but also from entities/tables directly related to those attributes. For example, when creating a journey to nurture new opportunities (using the “Opportunity created” trigger), you can branch the journey based on the “budget” attribute from the Opportunity table. This enables you to create journey variations for opportunities that are more likely to buy.
 
