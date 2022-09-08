@@ -164,6 +164,7 @@ It is recommended that you have at least one rule defined for all mobile offline
 |Profile details |Limitation|  
 |-------------|---------|  
 |Relationship defined for each table|Maximum of 15 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 15 relationships. If any custom tables demand this scenario, then revisit the data model. No circular references or self-references are supported.|
+|Images and files|Images and files are subject to the same limitations as any other table. Because of implicitly defined relationships, an offline profile can only contain up to 14 image columns, across all entities.|
 
 
 ### Profile filter rules recommendation 
