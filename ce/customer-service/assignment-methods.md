@@ -23,17 +23,17 @@ Assignment methods determine how a work item is assigned. You can use the out-of
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned randomly.
+- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned randomly.
 
-  If you choose to assign work items using skill-based routing and set default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence and capacity requirements and order the filtered agents by available capacity.
+  If you choose to assign work items using skill-based routing and set the default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence, and capacity requirements and order the filtered agents by available capacity.
 
-  If default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  If the default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on the workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
-  If you need to distribute  work fairly among agents, then you should consider switching to round robin assignment strategy.
+  If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
-- **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
+- **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
 
-- **Most idle (Preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
+- **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
    The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses are not used in determining the most-idle agent.
 
@@ -41,7 +41,7 @@ The following assignment methods are available out of the box:
 
     > [!IMPORTANT]
     >
-    > The route to the most-idle agent feature is in public preview and is available for voice channel only.
+    > The route to the most-idle agent feature is in preview and is available for voice channel only.
     >
     > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
     >
@@ -51,7 +51,7 @@ The following assignment methods are available out of the box:
     >
     > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
     >
-    > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+    > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 You can also create a custom assignment method to suit your business needs.
 
@@ -74,6 +74,10 @@ The assignment cycle starts with one of the following triggers:
 - Updates to agent capacity.
 - Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
+
+
+
+
 
 
 ## How prioritization rulesets work
