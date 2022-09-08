@@ -110,7 +110,7 @@ The flow runs that are created for the SLA KPI Instances timer fail with a licen
 
 ### Reason
 
-The **SLAInstanceMonitoringWarningAndExpiryFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned on and off by a user who has the SLA KPI privileges at a global level for **prvWriteSLAKPIInstance** and **prvWriteSLAKPIWrite**.
+The **SLAInstanceMonitoringWarningAndExpiryFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvWriteSLAKPIInstance** and **prvWriteSLAKPIWrite**.
 
 If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI instance timer will continue to run.
 
@@ -139,12 +139,12 @@ The **SLAInstanceMonitoringWarningAndExpiryFlow** must be enabled.
 
 ### Resolution
 
-If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAInstanceMonitoringWarningAndExpiryFlow**. The flow must only be turned on and off by a user who has the SLA KPI privileges at a global level for **prvWriteSLAKPIInstance** and **prvWriteSLAKPIWrite**.
+If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAInstanceMonitoringWarningAndExpiryFlow**. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvWriteSLAKPIInstance** and **prvWriteSLAKPIWrite**.
 
 However, if all the SLAs are active but the flow is still deactivated, perform the following steps:
 
 1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
-2. In **Cloud flows**, select  **SLAWarningAndExpiryMonitoringFlow**.
+2. In **Cloud flows**, select  **SLAInstanceMonitoringWarningAndExpiryFlow**.
 3. Select **Turn on**.
 
 ## Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion
