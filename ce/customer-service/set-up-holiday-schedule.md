@@ -90,7 +90,7 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
     - By default, all the holidays of the current year are displayed. To switch to a different year, select and type the year in the **Holidays** grid:
     
 - To print a holiday schedule, select **Print Preview** in the **Holidays** section of the holiday schedule.
-- You can't export or import a holiday schedule in excel format. It is recommended to use the Calendar import/export feature instead.
+- To import or export a holiday schedule, use the Calendar import/export feature as you can't import or export a holiday schedule in Excel. 
 
 ### See also
 
