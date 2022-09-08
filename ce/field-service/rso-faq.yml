@@ -426,4 +426,4 @@ sections:
       - question: |
           Can I use Resource Scheduling Optimization in more than one Dynamics 365 organization?
         answer: |
-          You can deploy multiple instances for Resource Scheduling Optimization in the same Microsoft 365 tenant. A Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only.
+          You can deploy multiple instances for Resource Scheduling Optimization in the same Microsoft 365 tenant. A Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only. For more information, see [Deployment information for Resource Scheduling Optimization](rso-deployment.md).
