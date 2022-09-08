@@ -31,8 +31,8 @@ The following table lists the roles that you should assign to the administrators
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 | --- | --- | --- | --- |
-| System Administrator | Users who have full permission to install, configure, upgrade, customize, or administer the environment, including creating, modifying, and assigning security roles. Can view all data in the environment. | Sales Enterprise and Sales Premium | Install, configure, customize, manage permissions, and access all the features in the application. |
-| System Customizer | Users who have full permission to customize the environment. However, users with this role can only view records for environment entities that they create. | Sales Enterprise and Sales Premium | Create (self), read (self), write (self), delete (self), and customizations across all features in the application. |
+| System Administrator | Users who have full permission to install, configure, upgrade, customize, or administer the environment, including creating, modifying, and assigning security roles. Can view all data in the environment. | Sales Premium, Sales Enterprise, and Sales Professional | Install, configure, customize, manage permissions, and access all the features in the application. |
+| System Customizer | Users who have full permission to customize the environment. However, users with this role can only view records for environment entities that they create. | Sales Premium, Sales Enterprise, and Sales Professional | Create, read, write, delete, and customize features in the application. |
 
 ## Primary sales roles
 
