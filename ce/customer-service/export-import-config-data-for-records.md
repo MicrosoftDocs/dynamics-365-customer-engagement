@@ -1,7 +1,7 @@
 ---
 title: "Export and import configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 04/18/2022
+ms.date: 09/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -142,6 +142,14 @@ If you have configured capacity profiles in your unified routing setup, perform 
 4. Use the Configuration Migration tool, and select the option to import data to the target organization.
 
 ## Export and import record queues configuration
+
+You must apply the fetch XML filter for the following entities:
+
+- Queue
+- Decision contract
+- Decision ruleset
+- Assignment configuration
+- Step
 
 **Sample schema**
 
