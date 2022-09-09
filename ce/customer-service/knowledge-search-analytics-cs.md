@@ -1,7 +1,7 @@
 ---
 title: Knowledge article and search term analytics dashboards | Microsoft Docs
 description: Learn about the knowledge article and search term analytics dashboards to better understand agent performance in your organization.
-ms.date: 09/07/2022
+ms.date: 09/09/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -86,9 +86,7 @@ The knowledge Search term insights dashboard represents the following metrics.
 
 ### View reports in different time zones
 
-Use the Timezone option available in the reports to view the  time information according to the time zone that you specify. You must save the changes to view the report in the selected time zone the next time you access it.
-
-You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone.
+Use the Timezone option available in the reports to view the  time information according to the time zone that you specify. You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
 
 :::image type="content" source="media/knowledge-analytics-timezone.png" alt-text="View Timezone in reports":::
 
