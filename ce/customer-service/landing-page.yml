@@ -11,7 +11,7 @@ metadata:
   description: Dynamics 365 Customer Service documentation
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 08/02/2022
+  ms.date: 09/09/2022
 
   ms.topic: landing-page
   ms.custom: template-landing-page
@@ -68,6 +68,8 @@ landingContent:
     linkLists:
     - linkListType: get-started
       links:
+        - text: Sign up for a free Customer Service trial
+          url: /dynamics365/customer-service/try-customer-service
         - text: Get started with Dynamics 365 Customer Service
           url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
         - text: Get started with Customer Service admin center
@@ -76,24 +78,7 @@ landingContent:
           url: csw-overview.md
         - text: Get started with Omnichannel admin center
           url: oc-admin-center.md
-        - text: Sign up for a free Customer Service trial
-          url: /dynamics365/customer-service/try-customer-service
-
-  - title: Extend Customer Service
-    linkLists:
-    - linkListType: how-to-guide
-      links:
-        - text: Overview
-          url: /dynamics365/customer-service/developer/omnichannel-developer
-        - text: Extend Omnichannel for Customer Service
-          url: /dynamics365/customer-service/extend-omnichannel
-        - text: Extend live chat widget of Omnichannel for Customer Service
-          url: /dynamics365/customer-service/developer/omnichannel-reference
-        - text: Develop a custom live chat widget
-          url: /dynamics365/customer-service/develop-live-chat-widget
-        - text: Customize live chat widgets using data tags
-          url: /dynamics365/customer-service/customize-chat-widget
-  
+        
   - title: Learn
     linkLists:
     - linkListType: how-to-guide
@@ -122,6 +107,21 @@ landingContent:
         - text: Issue converting an email to a case
           url: troubleshoot-case-email-issue.md
   
+  - title: Extend Customer Service
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: Overview
+          url: /dynamics365/customer-service/developer/omnichannel-developer
+        - text: Extend Omnichannel for Customer Service
+          url: /dynamics365/customer-service/extend-omnichannel
+        - text: Extend live chat widget of Omnichannel for Customer Service
+          url: /dynamics365/customer-service/developer/omnichannel-reference
+        - text: Develop a custom live chat widget
+          url: /dynamics365/customer-service/develop-live-chat-widget
+        - text: Customize live chat widgets using data tags
+          url: /dynamics365/customer-service/customize-chat-widget
+  
   - title: Watch videos
     linkLists:
     - linkListType: video
@@ -144,10 +144,12 @@ landingContent:
         - text: Keyboard navigation support for the Customer Service Hub
           url: /dynamics365/customer-service/keyboard-navigation-support-customer-service-hub
 
-  - title: Refer to FAQs
+  - title: Refer to FAQ
     linkLists:
     - linkListType: reference
       links:
+        - text: Customer Service trial FAQ
+          url: /dynamics365/customer-service/trial-faq
         - text: FAQ about Customer Service admin center
           url: faq-customer-service-admin-center.md
         - text: FAQ on AI suggestions for cases and knowledge articles
@@ -156,24 +158,21 @@ landingContent:
           url: faqs-custom-time-sla-kpis.md
         - text: FAQ about the voice channel in Omnichannel for Customer Service
           url: voice-channel-faqs.md
-        - text: Customer Service trial FAQ
-          url: /dynamics365/customer-service/trial-faq
+        
 
   - title: Read blogs
     linkLists:
     - linkListType: concept
       links:
         - text: Innovation on the service suite of Dynamics 365 applications
-          url: /dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/
+          url: https://cloudblogs.microsoft.com/dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/
         - text: How omnichannel enhances the customer experience
-          url: /dynamics365/bdm/2020/11/24/how-omnichannel-enhances-the-customer-experience/
+          url: https://cloudblogs.microsoft.com/dynamics365/bdm/2020/11/24/how-omnichannel-enhances-the-customer-experience/
         - text: Build targeted user experiences efficiently by using app profiles in multisession apps
-          url: /dynamics365/it/2020/10/13/build-targeted-user-experiences-efficiently-by-using-app-profiles-in-multisession-apps/
+          url: https://cloudblogs.microsoft.com/dynamics365/it/2020/10/13/build-targeted-user-experiences-efficiently-by-using-app-profiles-in-multisession-apps/
         - text: New voice channel streamlines omnichannel customer experiences
-          url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
-        - text: New voice channel streamlines omnichannel customer experiences
-          url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
-
+          url: https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
+        
   - title: Add-in solutions and apps
     linkLists:
     - linkListType: reference
@@ -184,5 +183,4 @@ landingContent:
           url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
         - text: Omnichannel for Customer Service
           url: /dynamics365/customer-service/introduction-omnichannel
-        - text: App profile manager
-          url: /dynamics365/app-profile-manager/overview
+
