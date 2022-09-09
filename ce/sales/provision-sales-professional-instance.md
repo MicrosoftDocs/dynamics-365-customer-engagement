@@ -1,7 +1,7 @@
 ---
 title: "Provision an environment for Dynamics 365 Sales Professional"
 description: "Learn about provisioning a Power Platform environment for Dynamics 365 Sales Professional."
-ms.date: 06/27/2022
+ms.date: 09/08/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,6 +37,9 @@ Before you can start using the Sales Professional application, you need to do on
 1. After the environment moves to **Ready** state, open the environment URL. 
 
 8.	In the list of application, select **Sales Professional**. 
+
+    > [!IMPORTANT]
+    > If you see the **Sales Hub** app in your list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
 ## Install the Sales Professional app on an existing environment
 
