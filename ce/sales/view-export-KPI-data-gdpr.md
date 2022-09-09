@@ -51,6 +51,6 @@ For more information about exporting data from Dynamics 365 Sales to excel, see 
 
 ## See also
 
-[Privacy and personal data for Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/gdpr/)
+[Privacy and personal data for Microsoft Dynamics 365](../get-started/gdpr)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
