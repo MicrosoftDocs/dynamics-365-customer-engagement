@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 09/06/2022
+ms.date: 09/09/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -219,7 +219,7 @@ More information: [Search across table data using Dataverse search](/powerapps/d
 
 ## Enable suggest as you type
 
-You can improve your agent's productivity by setting the **Enable suggest as you type** toggle to **Yes**, which provides suggestions on the most relevant records as agents type keywords into the Search box. Matching results start appearing inline to the search box. The matched text is highlighted to show the presence of the keyword. On selecting the record, the agent is directly taken to the record.
+You can improve your agent's productivity by setting the **Enable suggest as you type** toggle to **Yes**, which provides suggestions on the most relevant records as agents type keywords into the Search box. The search phrase is matched against the title of the article and the matching results start to appear in a flyout. The matched text is highlighted to show the presence of the keyword. On selecting the record, the system displays the article inline in a knowledge search control embedded on a form, in an app tab in Customer Service workspace, and inline view in the independent knowledge search control.
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
