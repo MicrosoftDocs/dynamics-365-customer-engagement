@@ -1,7 +1,7 @@
 ---
 title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
-ms.date: 10/18/2021
+ms.date: 9/9/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -67,7 +67,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |TimeSlots (List&#60;OutputTimeSlot&#62;)   |StartTime (DateTime) | The start time.|
 |         |EndTime (DateTime)                    |The end time.|
 |         |ArrivalTime (DateTime)                |The arrival time.|
-|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information.|
+|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information. Will only be present if the resource requirement contains values for latitude and longitude.|
 |         |Effort (Double)                       |The effort/capacity.|
 |         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
 |         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained below. |
