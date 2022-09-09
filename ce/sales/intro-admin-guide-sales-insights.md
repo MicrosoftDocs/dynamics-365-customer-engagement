@@ -70,23 +70,18 @@ Before you can configure these features, you must accept the privacy notice. To 
 > [!IMPORTANT]
 > [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise and enable the features only if you're certain that they don't violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. More information: [Privacy notice](privacy-notice.md)
 
-1.    Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
+1. Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
 
-2.    Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
+2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+   :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings"::: 
  
-3.    In the **Terms of service** section, select **I agree**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Agree to the terms of service](media/si-admin-accept-privacy-notice.png "Agree to the terms of service")
-
+3. In the **Terms of service** section, select **I agree**.
+    :::image type="content" source="media/si-admin-accept-privacy-notice.png" alt-text="Agree to the terms of service":::
 
     The standard Sales Insights features are enabled for your organization and you can configure features such as the standard assistant, auto capture (standard), and email engagement (standard).
- 
-    > [!div class="mx-imgBorder"]
-    > ![Standard Sales Insights features enabled](media/si-admin-free-features-enabled.png "Standard Sales Insights features enabled")
+
+    :::image type="content" source="media/si-admin-free-features-enabled.png" alt-text="Standard Sales Insights features enabled":::
+
 
 ### Configure standard Sales Insights features
 
@@ -117,7 +112,7 @@ The following diagram illustrates the steps to configure these features:
 
 ### Review privacy and personal data requirements
 
-To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/gdpr/).
+To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](../get-started/gdpr).
 
 You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you are complying with privacy and personal data requirements.
 
@@ -146,14 +141,14 @@ Review the following requirements before you install and configure the premium S
 
 The premium Sales Insights features aren't available by default. You must install these features by accepting the terms and conditions for your organization. To accept the terms and conditions, follow these steps:
 
-1.    Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
+1. Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
 
-2.    Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
  
-3.    In the **Supercharge your sales with Premium** section, select the terms and conditions and then select **Get started**.
+3. In the **Supercharge your sales with Premium** section, select the terms and conditions and then select **Get started**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Try Sales Insights](media/si-admin-select-try-sales-insights.png "Select Try Sales Insights")
