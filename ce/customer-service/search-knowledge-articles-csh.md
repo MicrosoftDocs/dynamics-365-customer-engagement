@@ -159,7 +159,8 @@ In Customer Service workspace, select the **Smart assist** option on the app sid
 
 The suggest as you type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
 
-The matched text is highlighted to show the presence of the keyword. On selecting the record, you will be taken to the knowledge article.
+The search phrase is matched against the title of the article and the matching results appear in a flyout. The matched text is highlighted to show the presence of the keyword. On selecting the record, the system displays the article inline on knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as inline view in the independent knowledge search control.
+
 
 :::image type="content" source="media/autosuggest-ka.png" alt-text="Suggest as you type option":::
 
