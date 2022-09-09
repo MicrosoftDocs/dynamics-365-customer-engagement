@@ -87,9 +87,9 @@ As an example, consider the prioritization ruleset as seen in the following scre
 
 - During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they are listed.
 
-- The first rule, "High priority and premium," will find all work items in the queue where the associated case priority is "High" and the case category is "Premium." It will create the top priority bucket with those work items and sort them in "First in first out" manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
+- The first rule, "High priority and premium," will find all work items in the queue where the associated case priority is "High" and the case category is "Premium". It will create the top priority bucket with those work items and sort them in "First in first out" manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
 
-- The next priority bucket will be of the work items where case category is "Premium." The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out."
+- The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out".
 
 - The next priority bucket consists of work items where case priority is high and they have not been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order—that is, the work items that require the first response at the earliest will be prioritized first.
 
@@ -99,7 +99,7 @@ Some important points about prioritization rules are as follows:
 - Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
 - By default, the queue is sorted on a "first in first out" basis. If you don't create a prioritization rule, then the oldest work item will be assigned first.
 - In normal scenarios, when a sufficient number of agents are available to take up the work items, the queue processing period is only a couple of seconds, and the agents are assigned work items in the priority order. However, if work items pile up due to fewer eligible agents and then an agent becomes available during the processing period, the agent will be offered the next work item according to the priority order. This might create a perception that the highest priority item was not assigned, especially after some top-priority items are attempted for assignment and yet remain in the queue.
-- The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out."
+- The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
 - Prioritization rules are skipped for affinity work items and such work items will be assigned before other work items in the queue. For information about affinity, go to [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
@@ -166,7 +166,7 @@ A sample assignment rule is explained in the following scenario with a screensho
 
 ![Sample assignment method](media/ur-sample-assign-scenaro.png "Sample assignment method")
 
-The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy." On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify—for example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
+The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify—for example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
 
 Dynamic match reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
 
