@@ -1,6 +1,6 @@
 ---
-title: "Introduction on how to administer Sales Insights | MicrosoftDocs"
-description: "Index page showing administration, system, user, and application configurations for Sales Insights Add-in for Dynamics 365 Sales."
+title: "Introduction on how to install and administer Sales Insights | MicrosoftDocs"
+description: "Introduction page showing administration and application configurations for Sales Insights features in Dynamics 365 Sales."
 ms.date: 09/08/2022
 ms.custom: intro-internal
 ms.topic: article
@@ -10,7 +10,7 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Introduction to administering Sales Insights features 
+# Install and administer Sales Insights features 
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md) 
 
@@ -19,7 +19,6 @@ Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/p
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## What you can configure
 
@@ -37,28 +36,24 @@ The standard Sales Insights features&mdash;assistant (standard), Auto capture (s
 >[!NOTE]
 >The standard Sales Insights features aren't available with the Sales Professional app. 
 
-> [!div class="mx-imgBorder"]
-> ![Steps to configure Sales Insights standard features](media/si-free-features-config-steps.png "Steps to configure Sales Insights standard features")
-
-1.    [Review requirements and prerequisites](#requirements-and-prerequisites).  
-2.    [Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
-3.    [Configure standard features as required](#configure-standard-sales-insights-features).
+1.	[Review requirements and prerequisites](#requirements-and-prerequisites).  
+2.	[Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
+3.	[Configure standard features as required](#configure-standard-sales-insights-features).
 
 ### Requirements and prerequisites
 
 Review the following requirements and prerequisites to enable standard Sales Insights features:
 
-- Some feature restrictions apply depending on which versions of Dynamics 365 Sales and Microsoft 365 you're running, as detailed in the following table.
+- Some feature restrictions apply depending on which combinations of Dynamics 365 and Exchange you're running, as detailed in the following table.
 
     | Product version | Available standard Sales Insights features |
     |-----------------|--------------------------------------------|    
     | Dynamics 365 with Microsoft Exchange Online | <ul><li>Assistant (standard cards)</li> <li>Email engagement</li> <li>Auto capture</li></ul>|
     | Dynamics 365 with Microsoft Exchange (on-premises) | <ul><li>Assistant (all cards except cards based on Exchange information)</li> <li>Email engagement</li></ul>|
-    | Dynamics 365 (on-premises) | <ul><li>Assistant (standard cards) |
+    | Dynamics 365 (on-premises) | Assistant (standard cards) |
+    | Dynamics 365 (on-premises) with Microsoft Exchange Online | Assistant (standard cards) |
 
 - The assistant, email engagement, and auto capture features are available for Dynamics 365 Sales with an Enterprise or Sales Premium license.
-
-- You must have an administrator or equivalent security role.
 
 ### Enable standard Sales Insights features
 
@@ -99,11 +94,6 @@ With your Dynamics 365 Sales Enterprise license, you can set up and experience S
 ## Install and configure premium Sales Insights features
 
 The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence. You can configure these features as required in your organization.
-
-The following diagram illustrates the steps to configure these features:
-
-> [!div class="mx-imgBorder"]
-> ![Steps to configure Sales Insights premium features](media/si-advanced-features-config-steps.png "Steps to configure Sales Insights premium features")
 
 1.    [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).   
 2.    [Review the prerequisites](#review-the-prerequisites).   
