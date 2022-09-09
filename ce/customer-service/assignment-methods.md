@@ -177,5 +177,5 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 [Diagnostics for unified routing](unified-routing-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
-[Set up records for unified routing](set-up-record-routing.md)  
+[Set up unified routing for records](set-up-record-routing.md)  
 [Set up skill-based routing for unified routing](set-up-skill-based-routing.md)  
