@@ -1,7 +1,7 @@
 ---
 title: "Export and import configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 09/08/2022
+ms.date: 09/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -143,14 +143,6 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ## Export and import record queues configuration
 
-You must apply the fetch XML filter for the following entities:
-
-- Queue
-- Decision contract
-- Decision ruleset
-- Assignment configuration
-- Step
-
 **Sample schema**
 
 [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml) to get all the required records.
@@ -181,7 +173,6 @@ You must apply the fetch XML filter for the following entities:
     | 3. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Option 1: Decision ruleset for all record queues**](#BKMK1all-ur-rls) <br> <br> [**Option 2: Decision ruleset for a single record queue**](#BKMK2single-ur-rls) <br> <br> [**Option 3: Decision ruleset for multiple record queues**](#BKMK3multiple-ur-rls) <br>  |
     | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Option 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Option 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Option 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
     | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Option 1: Assignment configuration step for all record queues**](#BKMK1all-ur-acs) <br> <br> [**Option 2: Assignment configuration step for a single record queue**](#BKMK2single-ur-acs) <br> <br> [**Option 3: Assignment configuration step for multiple record queues**](#BKMK3multiple-ur-acs) <br>   |
-    |||||
 
 2. Generate the schema and save it.
 
@@ -548,7 +539,7 @@ You must apply the fetch XML filter for the following entities:
 
    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
-   - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query.
+   - **Use FetchXML to filter records**: For each entity, use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query.
 
      For illustration, the sample query is listed in the following table to get single or multiple records. The sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
 
@@ -763,7 +754,7 @@ You must apply the fetch XML filter for the following entities:
 
     - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
     - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
-    - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query. 
+    - **Use FetchXML to filter records**: For each entity, use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query. 
 	
 	  For illustration, the sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
