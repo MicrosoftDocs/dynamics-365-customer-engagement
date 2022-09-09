@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 08/25/2022
+ms.date: 09/09/2022
 ms.topic: article
 search.app: 
   - D365CE
@@ -12,6 +12,9 @@ manager: shujoshi
 ---
 
 # Enable or disable Microsoft Teams chat in Dynamics 365
+
+> [!NOTE]
+> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 You can configure the ability for sellers and agents to chat in Microsoft Teams from within the customer engagement apps such as Sales Hub, Customer Service Hub, and custom apps. This helps in effective collaboration on the sales records without having to leave the application.
 

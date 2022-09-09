@@ -1,7 +1,7 @@
 ---
 title: Join an existing connected chat in Sales Hub
 description: Learn how to join an existing connected chat in Sales Hub.
-ms.date: 08/25/2022
+ms.date: 09/09/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,6 +10,9 @@ manager: shujoshi
 ---
 
 # Join an existing connected chat
+
+> [!NOTE]
+> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 View and easily join chats that are connected to a record you have write access to.
 
