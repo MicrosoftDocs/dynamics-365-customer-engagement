@@ -50,7 +50,6 @@ Make sure that the agent you intend to assign to a contact is a member of the qu
 
   :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
 
-You can sort the agent order if 
 
 ### Routing diagnostics and preferred agent settings
 
@@ -89,3 +88,4 @@ If you have a custom role, you must also have access to the following entities:
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  
+[Blog: Use preferred agent routing to create lifelong customer relationships](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/06/use-preferred-agent-routing-to-create-lifelong-customer-relationships/)
