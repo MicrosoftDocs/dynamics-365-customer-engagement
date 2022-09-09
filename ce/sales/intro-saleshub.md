@@ -22,7 +22,7 @@ We recommend you use the Sales Hub app unless your organization follows unique s
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 > [!IMPORTANT]
-> Sales Professional users are entitled to use only the Sales Professional app.  
+> The Sales Hub app is only for Sales Enterprise and Sales Premium users. Sales Professional users must use only the Sales Professional app.  
 
 ## What's in the Sales Hub app?
 

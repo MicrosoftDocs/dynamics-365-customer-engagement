@@ -30,17 +30,19 @@ You can install the Sales Professional app in any Power Platform environment tha
 
 [Install the Sales Professional app in a Power Platform environment](/power-platform/admin/manage-apps#install-an-app).
 
+After the app is installed, open the environment URL and select the **Sales Professional** app.
+
+> [!IMPORTANT]
+> If you see the **Sales Hub** app in your **Published Apps** list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
+
 ## Create an environment for Sales Professional
 
 1. In the Power Platform admin center, [create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
 
-1. After the environment moves to the **Ready** state, open the environment URL.
-
-1. [Install the Sales Professional app in the environment](/power-platform/admin/manage-apps#install-an-app).
-<!--NOTE: It seems odd to me that the article that covers how to install a Dynamics 365 app in an environment doesn't include how to get it from the App Store if it isn't in the list of apps available to install. Is this an oversight?-->
-
+1. After the environment moves to the **Ready** state, [install the Sales Professional app in the environment](/power-platform/admin/manage-apps#install-an-app).
+1. After the app is installed, open the environment URL and select the **Sales Professional** app.
 > [!IMPORTANT]
-> [Hide the **Sales Hub** app](/power-apps/maker/model-driven-apps/deactivate-app) if you have it. Only Sales Enterprise and Sales Premium customers may use Sales Hub. Sales Professional customers are entitled to use only the Sales Professional app.
+> If you see the **Sales Hub** app in your **Published Apps** list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
 ### See also
 
