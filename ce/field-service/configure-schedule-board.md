@@ -162,7 +162,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 - A window opens showing all the configuration options.  
   
-  -   Give the tab a name by filling in the **Name** field.  
+  -   Give the tab a name by filling in the **Name** field. Tab names won't be localized after creation in multi-geo scenarios.
   
   -   You can configure a tab in several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
   

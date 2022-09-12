@@ -23,6 +23,8 @@
           href: grant-access-saleshub.md
         - name: Sales Hub app versus custom app
           href: saleshub-customapp.md
+    - name: Install and administer Sales Insights features
+      href: intro-admin-guide-sales-insights.md      
     - name: Install Sales Professional app
       href: provision-sales-professional-instance.md
     - name: Add sample data
