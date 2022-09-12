@@ -29,7 +29,7 @@ Service managers and frontline workers can optionally receive a warning when the
 
 A high-level work order process is outlined below.
 
-Flow chart of a work order process with const considerations.
+:::image type="content" source="media/NTE-flow-chart.png" alt-text="Flow chart of a work order process with cost considerations.":::
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ An admin must enable the NTE capability before they can specify the logic for th
 1. Go to **General** > **Field Service Settings** > **Work Order/Booking**.
 1. Set **Not-to-exceed** to **On**.
 
-Screenshot of the Field Service Settings with Not-to-exceed turned on.
+:::image type="content" source="media/NTE-settings.png" alt-text="Screenshot of the Field Service Settings with Not-to-exceed turned on.":::
 
 The Not-to-exceed entry appears in the General section of the Settings area.
 
@@ -58,25 +58,25 @@ Field Service supports three types of NTE. You can create as many NTE records in
 
 Specify the amount for the NTE. Typically, the price is discussed with your customer, so it generally maps to a service account. You can specify more fields to narrow the scope of the NTE record.
 
-Screenshot of a price type NTE record.
+:::image type="content" source="media/NTE-price.png" alt-text="Screenshot of a price type NTE record.":::
 
 ### Cost
 
 Define the maximum cost and currency for the NTE. You can specify more fields to narrow the scope of the NTE record.
 
-Screenshot of a cost type NTE record.
+:::image type="content" source="media/NTE-cost.png" alt-text="Screenshot of a cost type NTE record.":::
 
 ### Price and cost margin
 
 Specify the total amount and the cost margin of the NTE. This scenario is often used when you work with subcontractors that bill you for the work and you schedule and manage the work for your customers. You can specify more fields to narrow the scope of the NTE record.
 
-Screenshot of a price and cost margin type NTE record.
+:::image type="content" source="media/NTE-price-cost-margin.png" alt-text="Screenshot of a price and cost margin type NTE record.":::
 
 ## Create and view not-to-exceed records
 
 Admins can configure NTE records in the Settings area after activating the capability.
 
-Screenshot of the list of active NTE values.
+:::image type="content" source="media/NTE-list-view.png" alt-text="Screenshot of the list of active NTE values.":::
 
 1. Open the Settings area.
 1. Go to General > Not-to-exceed.
@@ -103,10 +103,12 @@ NTE values on work order are read-only and they'll show a warning when the actua
 1. Go to **Work Orders**.
 1. Open a work order and go to the **Settings** tab.
 
-Screenshot of a work order showing NTE values in the Settings tab.
+:::image type="content" source="media/NTE-work-order.png" alt-text="Screenshot of a work order showing NTE values in the Settings tab.":::
 
 ## Not-to-exceed on Field Service mobile
 
 Field workers that use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
+
 However, you can still save work orders when ignoring the warning.
+
 Using the Field Service Mobile application in offline mode takes the NTE values from the most recent synchronization into account.
