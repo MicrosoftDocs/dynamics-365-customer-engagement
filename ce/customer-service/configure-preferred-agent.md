@@ -81,68 +81,15 @@ For the supported channels, use the information mentioned in the following table
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
 |**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profile](card-support-in-channels.md#support-for-social-profiles). </li></ul> |
 
-### Use APIs to configure, update, and delete preferred agent records 
+### Bulk add preferred agents records
 
-You can configure or update multiple preferred agent records at the same time, using the create and update APIs.
+You can add, delete, or update multiple preferred agent records using the create, delete, and update APIs. When you're adding a preferred agent routing mapping, ensure the following:
+- Only 3 agents are mapped to a contact. If you configure more than 3 agents to a contact, the agents that get mapped to the 
+- The preference rating is a non negative number between 1 and 3. If you don't provide a rating or a negative number, the application 
+- 
+
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
-
-If you want to configure, update, or delete contact and their preferred agents in the Preferred agent matrix, you must perform the steps in this section.
-
-1. Go to the Preferred agent routing (preview) on the Customer Service admin center app, and then open the developer tools window.
-1. In the developer console window, run the code for the following actions depending on your business requirements.
-
-   
-- **Create**
-
-    
-     Use the following code to map a contact to their preferred agents. Ensure that these conditions are met before running the script:
-      - You can map only three agents to a contact.
-      - You cannot add duplicate records.
-      - The preference rating can only be a positive value between 1 to 3.
-      - contact-id and systemuser-id can't be NULL.
-
-     ```js
-     var contactid = "contact-id"; // contact's id
-     var systemuserid = "systemuser-id"; // agent's id
-     var data = {"msdyn_name": "Test","msdyn_recordId_contact@odata.bind": "/contacts("+contactid+")",
-     "msdyn_systemuserid@odata.bind": "/systemusers("+systemuserid+")",
-     "msdyn_preferencerating": "1",
-     "msdyn_recordtype": 192350001};
-  
-    //Create record XRM call 
-         Xrm.WebApi.createRecord("msdyn_preferredagent", data);
-            // creates a preferred agent mapping with the specified data
-        
-     ```
-
-- **Delete**
-    
-     Use the following code to delete an agent mapped to the contact.
-
-    ```js
-  
-  
-       //Delete record XRM call 
-         Xrm.WebApi.deleteRecord("msdyn_preferredagent", "preferred-agent-id-here"); 
-            // Deletes a mapped agent with the specified id
-
-    ```
-
- - **Update**
-    
-     Use the following code to update an agent mapped to the contact. Ensure that these conditions are met before running the script:
-      - You cannot add duplicate records.
-      - The preference rating can only be a positive value between 1 to 3.
-
-    ```js
-  
-       var data = {"msdyn_recordId_contact@odata.bind": "/contacts(contact-id)"}; //contact-id is 
-       //Update record XRM call 
-        Xrm.WebApi.updateRecord("msdyn_preferredagent", "preferred-agent-id", data);
-            // Updates a mapped agent with the specified id
-
-    ```
 
 ### Roles and permissions for preferred agent routing
 
