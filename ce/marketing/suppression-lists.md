@@ -65,3 +65,6 @@ If you find that some contacts were blocked with a “suppression list” reason
 -	Justification as to why you believe each email address was listed by mistake. You should also provide proof that each email address is valid and can be reached by any other email provider.
 
 After that, our deliverability team will review the request and determine if the addresses should be removed.
+
+> [!NOTE]
+> If contact is removed from supression list that is used in a live journey, the changes will take effect in the next iteration of the journey (in case of recurring), and not in the current one
