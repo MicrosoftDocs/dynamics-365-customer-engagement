@@ -20,7 +20,7 @@ This topic contains the FAQs that you as an administrator, supervisor, or agent 
 
 ### What SKUs must I have to get unified routing?
 
-Customers will get unified routing for entities, such as Cases, Leads, and custom entities as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
+Customers will get unified routing for entities, such as Cases, Leads, and custom entities, as part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
 
 ### What will happen to my current workstreams after unified routing is installed?
 
@@ -32,7 +32,7 @@ There is no downtime involved when you are migrating the workstreams, but it's r
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
-These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
+These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
 
 ### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
 
@@ -49,9 +49,9 @@ No. Although you will see the migrated workstreams in the old admin app as well,
 
 There is no downtime when you are migrating the workstreams, but we recommend that you perform the migration during low load or off work hours.
 
-### Is it possible to rollback the migration?
+### Is it possible to roll back the migration?
 
-To rollback the migration, you will need to contact [Microsoft Support](https://dynamics.microsoft.com/support/).
+To roll back the migration, you will need to contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 
 ### How can I migrate the entity routing workstreams?
 
@@ -61,7 +61,7 @@ If you need further help, contact Microsoft Support.
 
 ### Can I create workstreams for routing records in the Omnichannel Administration app after upgrading Omnichannel for Customer Service to 2021 release wave 1?
 
-No. After upgrade, you'll no longer be able to create workstreams for routing records because they will not work as expected. We recommend that you start using the new Omnichannel admin center app to create and manage routing of records.
+No. After upgrade, you'll no longer be able to create workstreams for routing records because they won't work as expected. We recommend that you start using the new Omnichannel admin center app to create and manage routing of records.
 
 ### Will unified routing support activity routing?
 
@@ -77,7 +77,7 @@ No. Basic routing can be used only for cases. To route any record type, use unif
 
 ### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
-No. There is no priority amongst queues. However, you can prioritize records within a queue.
+No. There's no priority among queues. However, you can prioritize records within a queue.
 
 ### Can I pause the assignment of a case?
 
@@ -87,13 +87,13 @@ No. It's not possible to pause the assignment of a case.
 
 No, a configuration can't be exported.
 
-### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now reassign C1 to Q3?
+### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is it possible to now reassign C1 to Q3?
 
 Yes. It's possible to reassign a case to another queue. On the case form, select **Save and route** to reassign the work item from one queue to another queue.
 
 ### Why am I not able to see the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
 
-A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases does not have the agent affinity toggle.
+A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
 
 ### Can I access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace?
 
@@ -107,11 +107,11 @@ In the preview release, the feature is available for the voice channel only.
 
 ### Is presence used in determining the most-idle agent?
 
-No, presence is not used. Only capacity release information is taken into account.
+No, presence isn't used. Only capacity release information is taken into account.
 
 ### Does the agent sign-in time affect in the calculation of the most-idle agent?
 
-The agent’s last capacity release time only affects the idle time used by most-idle assignment method. The agent sign-in times don't impact the capacity release time.
+The agent’s last capacity release time only affects the idle time used by the most-idle assignment method. The agent sign-in times don't impact the capacity release time.
 
 ### How is a tie-breaker scenario resolved if two or more agents match the idle time?
 
@@ -125,13 +125,13 @@ Yes, the assignment method stage displays the assignment method that's used.
 
 ### Will intelligent skill finder be available in all geographical regions?
 
-Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to set up the model.
+Intelligent skill finder requires AI Builder to create and train the machine learning model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to set up the model.
 
 ### Can I use intelligent skill finder with email activities?
 
-Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the ML model. You'll extract the text from HTML, copy it into another text field, then configure the ML model against the new field.
+Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the machine learning model. You'll extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
 
-### How do I make sure that the right skills are attached to the work items when machine learning-based model is in use?
+### How do I make sure that the right skills are attached to the work items when the machine learning-based model is in use?
 
 - Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
 - Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
