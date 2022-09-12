@@ -48,7 +48,7 @@ An admin must enable the NTE capability before they can specify the logic for th
 
 :::image type="content" source="media/NTE-settings.png" alt-text="Screenshot of the Field Service Settings with Not-to-exceed turned on.":::
 
-The Not-to-exceed entry appears in the General section of the Settings area.
+The Not-to-exceed entry appears in the **General** section of the **Settings** area.
 
 ## NTE types
 
@@ -93,7 +93,7 @@ NTEs match on the service account first. All other fields have equal priority. I
 
 ## View not-to-exceed on work order forms
 
-NTE values are listed on work orders if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
+NTE values are listed on [work orders](field-service-architecture.md) if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
 
 NTE values on work order are read-only and they'll show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save work order as usual if the warnings are shown.
 
@@ -111,4 +111,4 @@ Field workers that use the Field Service Mobile app can see the not-to-exceed va
 
 However, you can still save work orders when ignoring the warning.
 
-Using the Field Service Mobile application in offline mode takes the NTE values from the most recent synchronization into account.
+Using the [Field Service Mobile application in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
