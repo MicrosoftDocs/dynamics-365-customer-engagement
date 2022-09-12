@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 09/09/2022
+ms.date: 09/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -159,9 +159,11 @@ In Customer Service workspace, select the **Smart assist** option on the app sid
 
 The suggest as you type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
 
-The search phrase is matched against the title of the article and the matching results appear in a flyout. The matched text is highlighted to show the presence of the keyword. On selecting the record, the system displays the article inline on knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as inline view in the independent knowledge search control. You must contact your administrator to enable the suggest as you type option. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
+The search phrase is matched against the title of the article and the matching results appear in a flyout. The matched text is highlighted to show the presence of the keyword. On selecting the record, the system displays the article inline on knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as inline view in the independent knowledge search control.
 
-:::image type="content" source="media/autosuggest-ka.png" alt-text="Suggest as you type option":::
+To enable the suggest as you type option, contact your administrator. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
+
+:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Suggest as you type option":::
 
 
 ## View knowledge articles
