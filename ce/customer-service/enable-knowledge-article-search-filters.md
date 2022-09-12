@@ -1,7 +1,7 @@
 ---
 title: Customize knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 08/01/2022
+ms.date: 09/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -40,10 +40,7 @@ Any filter configurations that you set will be available wherever the knowledge 
 
 If you choose to retain the knowledge search filters, the Power Apps Maker filter configurations get deactivated. In full-text search, the archived and discarded status filters aren't supported.
 
-**Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
-
-> [!NOTE]
-> The default setting of **Yes** for **Enable search filters** option is in early access. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
+The **Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
 
 The settings that you have previously configured for your organization, including those within filter personalization, remain as they are. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
 
