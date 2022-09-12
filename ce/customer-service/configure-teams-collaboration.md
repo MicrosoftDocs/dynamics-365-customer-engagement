@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams collaboration | MicrosoftDocs"
 description: "Learn how to configure collaboration with Microsoft Teams in Customer Service."
-ms.date: 08/29/2022
+ms.date: 09/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,6 +9,9 @@ manager: shujoshi
 ---
 
 # Configure AI suggestions for contacts in Microsoft Teams
+
+> [!NOTE]
+> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable the Microsoft Teams collaboration feature to help them find the right contacts.
 
@@ -62,11 +65,11 @@ The AI suggestions feature is supported in the following languages:
 
 2. In the site map, under **Microsoft Teams Integration**, select **Collaboration**.
 
-3. Set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
+3. Set the toggle for **Turn on the connecting of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 
 4. To get suggested contacts for active cases or supported conversations, perform the following steps:
    
-   1. Select **Case** or **Conversation** in the **Link chat to Dynamics 365 records** section. Based on your selection, the **Case settings** or **Conversation settings** flyout menu appears on the right.
+   1. Select **Case** or **Conversation** in the **Connect chat to Dynamics 365 records** section. Based on your selection, the **Case settings** or **Conversation settings** flyout menu appears on the right.
 
    2. In **Suggested contacts**, turn on the toggle for **AI-based suggested contacts**.
 
