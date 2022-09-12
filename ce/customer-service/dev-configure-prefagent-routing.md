@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Use API calls to create, update, or delete preferred agent routing mapping
 
-You can add multiple preferred agents to contact records in bulk using the create API. If you are running the script to add multiple preferred agent routing records, ensure the  the following:
+You can add multiple preferred agents to contact records in bulk using the create API call. If you are running the script to add multiple preferred agent routing records, ensure the following:
 
 - Map only 3 agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered the based on the preference rating. If agents have the same preference rating, the application orders the agents based on the time when the record was created.
 - Avoid adding the same agent to a contact multiple times.
