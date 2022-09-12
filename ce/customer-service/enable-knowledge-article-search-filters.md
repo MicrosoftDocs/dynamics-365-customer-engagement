@@ -40,7 +40,7 @@ Any filter configurations that you set will be available wherever the knowledge 
 
 If you choose to retain the knowledge search filters, the Power Apps Maker filter configurations get deactivated. In full-text search, the archived and discarded status filters aren't supported.
 
-The **Enable search filters** is set to **Yes** by default (preview). To disable search filters, you can set it to **No** on the **Filters** page.
+The **Enable search filters** is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
 The settings that you have previously configured for your organization, including those within filter personalization, remain as they are. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
 
