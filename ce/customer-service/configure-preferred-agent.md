@@ -81,7 +81,7 @@ For the supported channels, use the information mentioned in the following table
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
 |**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profile](card-support-in-channels.md#support-for-social-profiles). </li></ul> |
 
-### Bulk add preferred agents records
+### Bulk add preferred agent records
 
 You can add multiple preferred agents to contact records in bulk using the create API call. If you are running the script to add multiple preferred agent routing records, ensure the  the following:
 
