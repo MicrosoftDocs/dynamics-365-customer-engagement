@@ -83,10 +83,12 @@ For the supported channels, use the information mentioned in the following table
 
 ### Bulk add preferred agents records
 
-You can add, delete, or update multiple preferred agent records using the create, delete, and update APIs. When you're adding a preferred agent routing mapping, ensure the following:
-- Only 3 agents are mapped to a contact. If you configure more than 3 agents to a contact, the agents that get mapped to the 
-- The preference rating is a non negative number between 1 and 3. If you don't provide a rating or a negative number, the application 
-- 
+You can add multiple preferred agents to contact records in bulk using the create API call. If you are running the script to add multiple preferred agent routing records, ensure the  the following:
+
+- Map only 3 agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered the based on the preference rating. If agents have the same preference rating, the application orders the agents based on the time when the record was created.
+- Avoid adding the same agent to a contact multiple times.
+- The preference rating must be a positive number between 1 and 3
+- System user id and contact id must not be NULL.
 
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
