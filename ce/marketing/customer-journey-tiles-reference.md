@@ -38,6 +38,9 @@ The content that your customer journey delivers to contacts as they traverse the
 - **If/then**: This tile has replaced the **Trigger** tile. The If/then tile holds contacts either until a defined condition is true, or until a defined amount of time expires. The If/then tile splits the path. Contacts who fulfill the conditions in time will follow the true path. Contacts who haven't met the conditions when the time expires will follow the false path.
 
     > [!IMPORTANT]
+    > The defined expiration time applies to each contact separately.  A new trigger tile expiration timer starts for each contact who arrives at the trigger tile. The timer waits for each contact with the same expiration time amount.
+
+    > [!IMPORTANT]
     > To be able to define a condition, you need to first define at least one other tile in a journey. This is necessary so that its entity (or any of the entity’s dependencies) can be selected as a condition source.
 
 - **Split**: This tile has replaced the **Splitter** and **Splitter-branch** tiles. The Split tile adds a fork to the customer journey pipeline, sending a random selection of contacts along each available path.

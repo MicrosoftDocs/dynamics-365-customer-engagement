@@ -24,10 +24,10 @@
       items:
       - name: Get started with Dynamics 365 Marketing licensing
         href: marketing-license.md
+      - name: Purchase a license directly from a Marketing trial
+        href: direct-purchase.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
-      - name: Install real-time customer journey orchestration
-        href: real-time-marketing-install.md
       - name: Integrate Marketing with a CMS system or a Power Apps portal
         href: portal-optional.md
       - name: Re-run the Marketing setup wizard
@@ -50,10 +50,6 @@
         href: tenant-to-tenant.md
       - name: Keep Marketing up to date
         href: apply-updates.md
-    - name: Dynamics 365 Marketing public IP addresses
-      href: marketing-public-ips.md
-    - name: Recurring activity bulk deletion
-      href: recurring-activity-bulk-delete.md
     - name: Installation and management FAQ
       href: install-manage-faq.yml
   - name: Administration
@@ -200,6 +196,12 @@
         href: cookies.md
       - name: Anonymized customer data human review notice
         href: anonymized-data-review.md
+    - name: Maintain the Marketing app
+      items:
+      - name: Recurring activity bulk deletion
+        href: recurring-activity-bulk-delete.md
+      - name: Dynamics 365 Marketing public IP addresses
+        href: marketing-public-ips.md
     - name: Terms and fair use
       items:
       - name: Service limits and fair use policy
@@ -544,7 +546,7 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
-    - name: "Preview: Collaborate using Microsoft Teams chat"
+    - name: Collaborate using Microsoft Teams chat
       href: teams-chat.md
     - name: "Customer interactions timeline"
       href: timeline.md
