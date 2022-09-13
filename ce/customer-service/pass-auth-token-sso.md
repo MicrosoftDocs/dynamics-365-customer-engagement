@@ -27,7 +27,7 @@ Here's how this works:
 
 ## Prerequisites
 
-If you're using Azure bots, ensure you're using Bot Framework SDK 1.1.1.0 or higher.
+If you're using Azure bots, ensure you're using Bot Framework SDK v4.14 or higher. More information: [Bot Framework SDK](/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0)
 
 If you're using a Power Virtual Agent bot, ensure that you've set up end user authentication for Power Virtual Agents. More information: [Configure user authentication](/power-virtual-agents/configuration-end-user-authentication)
 
