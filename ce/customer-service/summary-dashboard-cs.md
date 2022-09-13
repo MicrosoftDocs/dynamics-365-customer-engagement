@@ -45,7 +45,7 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ![Key insights discovery card.](media/key-insights-card.png)
 
-The Key insights card has two areas.
+The Key insights card has two areas:
 
 - **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
@@ -60,7 +60,7 @@ The case lifecycle and the metrics that can be derived in the different statuses
 
 :::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
 
-This table shows the key performance indicators that are displayed in the report.
+The following table shows the key performance indicators that are displayed in the report:
 
 | KPI    | Description     |
 |----------|------------|
@@ -72,7 +72,7 @@ This table shows the key performance indicators that are displayed in the report
 | Average survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
 
 
-The following metrics are displayed in the charts.
+The following metrics are displayed in the charts:
 
 | Chart    | Description     |
 |----------|------------|
