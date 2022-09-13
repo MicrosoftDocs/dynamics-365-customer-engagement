@@ -77,12 +77,10 @@ Make sure that you have the required security role or equivalent permissions.
    You can select an existing booking and edit, activate, or deactivate it from the **Bookings** tab.
 
       > [!NOTE]
-      > While creating a service activity, manual selection of resources is not supported in the new scheduling experience in Customer Service Hub.<br><br>
-      > Once you've created a booking, the booking status won't update until you manually refresh the **Bookings** tab.
+      > - While creating a service activity, manual selection of resources isn't supported in the new scheduling experience in Customer Service Hub.<br><br>
+      > - Once you've created a booking, the booking status won't be updated until you manually refresh the **Bookings** tab.
 
-9. To close or cancel a service activity, select **Close Service Activity** from the command bar.
-
-   Select the status as **Closed or Canceled** in the **Close Service Activity** dialog box.
+9. To close or cancel a service activity, select **Close Service Activity** from the command bar, and then select the status as **Closed or Canceled** in the **Close Service Activity** dialog box.
 
 10. If the service activity has been completed, select **Mark Complete** from the command bar. 
 
