@@ -27,7 +27,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Summary dashboard
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into which topics are generating the highest volume and which topics are emerging with the highest rate of change in volume. 
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into which topics are generating the highest volume and which topics are emerging with the highest rate of change in volume.
 
 To view the Summary dashboard, in Customer Service workspace, select the plus (**+**) icon, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
 
