@@ -78,7 +78,7 @@ Make sure that you have the required security role or equivalent permissions.
 
       > [!NOTE]
       > While creating a service activity, manual selection of resources is not supported in the new scheduling experience in Customer Service Hub.<br><br>
-      > Once you've created a booking, the booking status won't update until you manually refresh the page.
+      > Once you've created a booking, the booking status won't update until you manually refresh the **Bookings** tab.
 
 9. To close or cancel a service activity, select **Close Service Activity** from the command bar.
 
