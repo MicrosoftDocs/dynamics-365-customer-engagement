@@ -25,6 +25,12 @@ Here's how this works:
 
 - Your function will then pass a token (if found) and tell Omnichannel for Customer Service whether the OAuth or sign-in card should be shown. 
 
+## Prerequisites
+
+If you're using Azure bots, ensure you're using Bot Framework SDK 1.1.1.0 or higher.
+
+If you're using a Power Virtual Agent bot, ensure that you've set up end user authentication for Power Virtual Agents. More information: [Configure user authentication](/power-virtual-agents/configuration-end-user-authentication)
+
 ## Sample code
 
 Here's a code sample that illustrates how you can pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on.
