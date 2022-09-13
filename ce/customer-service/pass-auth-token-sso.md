@@ -13,7 +13,21 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can use the following code as sample to pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on (SSO).
+Using the single sign-on (SSO) feature in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer via  an authentication token that you provide, during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience between your customers and the bot, thereby improving customer satisfaction and reducing costs.​
+
+For example, as a bot author, you can set up authentication in Azure or Power Virtual Agents bots. You can pass an authentication token in the middle of a customer conversation for account information such bills, order returns, or other sensitive data.
+
+Here's how this works:
+
+- Your bot sends an OAuth card when it asks for a sign in.​
+
+- Omnichannel for Customer Service will intercept this OAuth card, and call your function.​
+
+- Your function will then pass a token (if found) and tell Omnichannel for Customer Service whether the OAuth or sign-in card should be shown. 
+
+## Sample code
+
+Here's a code sample that illustrates how you can pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on.
 
 ```JavaScript
 Microsoft.Omnichannel.LiveChatWidget.SDK.setBotAuthTokenProvider(async (botTokenUrl, callback) => {
