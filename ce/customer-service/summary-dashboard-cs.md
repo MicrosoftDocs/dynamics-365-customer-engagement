@@ -60,7 +60,7 @@ The case lifecycle and the metrics that can be derived in the different statuses
 
 :::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
 
-The following table shows the key performance indicators that are displayed in the report:
+The following table shows the key performance indicators that are displayed in the report.
 
 | KPI    | Description     |
 |----------|------------|
@@ -72,7 +72,7 @@ The following table shows the key performance indicators that are displayed in t
 | Average survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
 
 
-The following metrics are displayed in the charts:
+The following metrics are displayed in the charts.
 
 | Chart    | Description     |
 |----------|------------|
