@@ -1058,6 +1058,8 @@
       items: 
       - name: Visual customization of historical analytics reports
         href: customize-reports.md
+      - name: Model customization of historical analytics reports
+        href: model-customize-reports.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
