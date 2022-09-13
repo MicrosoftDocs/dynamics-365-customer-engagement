@@ -948,6 +948,8 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
+      - name: Pass an authentication token to bot during single sign-on process
+        href: pass-auth-token-sso.md
   - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service
