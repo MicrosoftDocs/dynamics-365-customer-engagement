@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 09/12/2022
+ms.date: 09/13/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -163,8 +163,8 @@ The search phrase is matched against the title of the article and the matching r
 
 To enable the suggest as you type option, contact your administrator. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
 
-:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Suggest as you type option":::
 
+:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Use the suggest as you type option":::
 
 ## View knowledge articles
 
