@@ -1,3 +1,4 @@
+---
 title: "Pass authentication token to bot during single sign-on | Microsoft Docs"
 description: "Use this article to understand how you can pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on (SSO)."
 ms.date: 10/01/2022
