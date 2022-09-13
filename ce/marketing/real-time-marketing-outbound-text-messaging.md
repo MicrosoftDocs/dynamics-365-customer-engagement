@@ -1,8 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 06/20/2022
-
+ms.date: 08/20/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -85,6 +84,15 @@ To add a Twilio or TeleSign sender number to the Marketing app:
     > [!div class="mx-imgBorder"]
     > ![Add SMS number screenshot.](media/real-time-marketing-text-message-add.png "Add SMS number screenshot")
 1. Select the **Add** button, then select **Done**. The number setup is now complete.
+1. To receive SMS replies through Twilio or TeleSign using the numbers you set up, you also need to specify and set up the **Callback URL**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Callback URL screenshot.](media/real-time-marketing-text-message-callback.png "Callback URL screenshot")
+
+    For Twilio, copy the Callback URL from the Marketing app and paste it in the [numbers' configuration page](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) in the **"A MESSAGE COMES IN"** field. For TeleSign, you'll need to contact customer support to set this up for you.
+
+    > [!div class="mx-imgBorder"]
+    > ![Twilio number config screenshot.](media/real-time-marketing-text-message-twilio-config.png "Twilio number config screenshot")
 
 You can view all active provider integrations in the **SMS providers** tab. You can also edit, update, delete, or add more numbers to an existing integration.
 

@@ -1,10 +1,10 @@
 ---
 title: Functional consultants learning catalog
-description: Find all the training options for functional consultants.
+description: Learn about the training options available for functional consultants in Microsoft Dynamics 365 for Customer Service.
 ms.date: 01/08/2020
 ms.topic: article
 author: loreleishannonmsft
-ms.author: v-lshann
+ms.author: kschimke
 ---
 
 # Functional Consultants Learning Catalog
@@ -28,9 +28,9 @@ The following catalog is organized from core knowledge to specific domains, and 
 ## Exam
 | Content                                                                                                                               | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
-| [Exam MB-200: Microsoft Dynamics 365 Customer Engagement Core](https://www.microsoft.com/en-us/learning/exam-MB-200.aspx) | This exam measures your ability to accomplish the following technical tasks: perform discovery, planning, and analysis; manage user experience design; manage entities and data; implement security; implement integration; and perform solutions deployment and testing. | Exam, cost varies by region |   |
-| [Exam MB-230: Microsoft Dynamics 365 for Customer Service](https://www.microsoft.com/en-us/learning/exam-MB-230.aspx)     | This exam measures your ability to accomplish the following technical tasks: perform configuration; manage cases and the knowledge base; manage queues, entitlements, and SLAs; and configure voice of the customer.                                                      | Exam, cost varies by region |   |
-| [Dynamics 365 Fundamentals](https://www.microsoft.com/en-us/learning/d365-fundamentals.aspx)                              | Prove that you understand Microsoft Dynamics 365: the Power Platform; cloud concepts; licensing options; and deployment and release options.                                                                                                                              | Exam, cost varies by region |   |
-
+| [Exam MB-200: Microsoft Dynamics 365 Customer Engagement Core](https://www.microsoft.com/learning/exam-MB-200.aspx) | This exam measures your ability to accomplish the following technical tasks: perform discovery, planning, and analysis; manage user experience design; manage entities and data; implement security; implement integration; and perform solutions deployment and testing. | Exam, cost varies by region |   |
+| [Exam MB-230: Microsoft Dynamics 365 for Customer Service](https://www.microsoft.com/learning/exam-MB-230.aspx)     | This exam measures your ability to accomplish the following technical tasks: perform configuration; manage cases and the knowledge base; manage queues, entitlements, and SLAs; and configure voice of the customer.                                                      | Exam, cost varies by region |   |
+| [Dynamics 365 Fundamentals](https://www.microsoft.com/learning/d365-fundamentals.aspx)                              | Prove that you understand Microsoft Dynamics 365: the Power Platform; cloud concepts; licensing options; and deployment and release options.                                                                                                                              | Exam, cost varies by region |   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

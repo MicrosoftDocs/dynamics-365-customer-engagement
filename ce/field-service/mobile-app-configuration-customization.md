@@ -1,13 +1,13 @@
 ---
 title: "Customizations and configurations for Field Service Mobile | MicrosoftDocs"
 description: Learn about customizations and configurations for the Field Service (Dynamics 365) mobile app
-ms.date: 10/19/2018
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -17,7 +17,7 @@ search.app:
 # Customizations and configurations for the Field Service Mobile (Xamarin app)
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 After setting up [Field Service Mobile app](/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you can customize and configure the mobile user interface and data based on your business needs. 
 

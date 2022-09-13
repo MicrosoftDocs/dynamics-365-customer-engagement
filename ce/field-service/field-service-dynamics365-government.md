@@ -2,14 +2,14 @@
 title: "Dynamics 365 US Government + Field Service availability | MicrosoftDocs"
 description: Learn about Dynamics 365 US Government and Field Service feature availability
 ms.date: 03/04/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

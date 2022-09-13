@@ -1,7 +1,7 @@
 ---
 title: "Create and manage workstreams | MicrosoftDocs"
 description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 07/11/2022
+ms.date: 07/13/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -110,7 +110,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your organization has configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
-- **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **15 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
+- **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **60 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
 
   > [!NOTE]
   > If you've selected **End of Day mode** in capacity profile, agent capacity won't be reset when the duration selected in the **Block capacity for wrap up** field is over.
@@ -125,7 +125,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 - [Sessions](../app-profile-manager/session-templates.md)
 - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-- [Context variables](context-variables-for-bot.md)
+- [Context variables](manage-context-variables.md)
 - [Smart assist bots](smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
@@ -173,7 +173,7 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 
 ### Associate templates
 
-You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates in Omnichannel admin center](../app-profile-manager/associate-templates.md#associate-templates-with-workstreams-in-omnichannel-admin-center)
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
 ### See also
 

@@ -75,7 +75,7 @@ If the language verification passes, the suggestions are displayed in the langua
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
-- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
+- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Personalize your knowledge search article filters](filter-articles.md#personalize-your-knowledge-search-article-filters).
 
 ## Prerequisites
 
@@ -89,6 +89,9 @@ Make sure that the following requirements are met:
 
 
 ## Enable AI suggestions for similar cases
+
+> [!NOTE]
+> AI suggestions for similar cases is enabled out of the box.
 
 You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
@@ -128,6 +131,9 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
    > ![Enable AI-suggested similar cases.](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
+
+> [!NOTE]
+> AI suggestions for knowledge articles is enabled out of the box.
 
 You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 

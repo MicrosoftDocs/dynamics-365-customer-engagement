@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 06/01/2022
+ms.date: 09/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -104,19 +104,19 @@ When the **Applicable when** attribute is updated, the SLA is reevaluated that r
 
 This is the expected behavior for SLAs in the web client. It is recommended to define the **Applicable when** condition on only those attributes whose values don't change frequently.
 
-## SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI Instance timer continues to run
+## SLA KPI instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI instance timer continues to run
 
 The flow runs that are created for the SLA KPI Instances timer fail with a license error message.
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. It must be ensured that the user who activates the first SLA on the organization must have all the required licenses for the flow execution.
+The **SLAInstanceMonitoringWarningAndExpiryFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvWriteSLAKPIInstance** and **prvWriteSLAKPIWrite**.
 
-If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI Instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI Instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI Instance timer will continue to run.
+If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI instance timer will continue to run.
 
-Additionally, the current owner of the flow must have the required permissions with read and write access for SLAKPIInstance.
+Additionally, the current owner of the flow must have the required permissions with read and write access for **SLAKPIInstance**.
 
-If a user who is the current owner of the flow needs to be removed from the organization, it is recommended to first change the owner of the flow to another user. This new user must also have all the required permissions. Once a new owner is added, you can remove the previous owner. This will ensure that the flow runs continue to execute without issues.
+If a user who is the current owner of the flow needs to be removed from the organization, you should first change the owner of the flow to another user. This new user must also have all the required permissions. Once a new owner is added, you can remove the previous owner. This will ensure that the flow runs continue to be executed without issues.
 
 ### Resolution
 
@@ -125,7 +125,7 @@ To change the owner of any flow, perform the following steps:
 1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
 1. Search for the failed flow with the error.
 1. Select **Edit**. A new flyout menu is displayed, where you can set a new owner.
-1. In the Owner field, remove the current owner and add the new owner. Ensure that the new owner has all required flow licenses.
+1. In the **Owner** field, remove the current owner and add the new owner. Ensure that the new owner has all required flow licenses.
 
 ##  Warning message appears on slakpiinstances
 
@@ -135,18 +135,52 @@ The workflow ID varies from system to system.
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** must be  enabled.
+The **SLAInstanceMonitoringWarningAndExpiryFlow** must be enabled.
 
 ### Resolution
 
-If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAWarningAndExpiryMonitoringFlow**.
+If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAInstanceMonitoringWarningAndExpiryFlow**. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvWriteSLAKPIInstance** and **prvWriteSLAKPIWrite**.
 
 However, if all the SLAs are active but the flow is still deactivated, perform the following steps:
 
 1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
-2. In **Cloud flows**, select  **SLAWarningAndExpiryMonitoringFlow**.
+2. In **Cloud flows**, select  **SLAInstanceMonitoringWarningAndExpiryFlow**.
 3. Select **Turn on**.
 
+## Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion
+
+The following two error messages are displayed:
+
+Error message 1: "The object you tried to delete is associated with another object and cannot be deleted."
+
+Error message 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process; see log for more detail."
+
+### Reason
+
+The first error occurs because in UCI SLA, the relationship between the SLA item and SLA KPI instances is set to "Restrict to Delete". The second error occurs because processes that are part of managed solution can't be deleted. So, when you try to delete an SLA manually, which is part of a managed solution and has flows configured, the error message appears.
+
+### Resolution
+
+Resolution 1:
+
+Instead of deleting the SLA, deactivate the SLA in your organization. If it's a part of a managed solution, then perform the following steps:
+
+1. Deactivate the SLA in the source instance and add it to the solution.
+1. Deactivate the same SLA in the target instance, and then apply the solution upgrade.
+
+Resolution 2:
+
+You can first manually delete all the SLA-related entity records and SLA KPI instances, and then remove the SLA. Perform the following steps:
+
+1. In your organization, go to **Advanced Find**, search **SLA KPI Instances**, and then select the **SLAItem.**
+1. Select **Result**. The SLA KPI instances will be listed.
+1. Select the required SLA KPI instances, and then select **Delete SLAKPIInstances**. This will also nullify the SLA KPI instances on the related records.
+
+Even after deleting the reference records, if the error message, "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process; see log for more detail." appears, then apply the solution upgrade with SLA deleted from the upgrade solution.
+
+Resolution 3:
+
+If the above resolution doesn’t work, contact support to request deletion of the SLA or SLA items.
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 04/03/2020
+ms.date: 08/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -125,7 +125,7 @@ You must share the configured application with your entire organization for supe
 
 ## Step 6: Enable Power BI reporting
 
-As an administrator, you must enable Power BI reporting in the Dynamics 365 environment for supervisors to view the dashboards.
+As an administrator, you must enable Power BI reporting in the Power Platform environment for supervisors to view the dashboards.
 
 1. Sign in to Dynamics 365, and go to **Settings**.
 

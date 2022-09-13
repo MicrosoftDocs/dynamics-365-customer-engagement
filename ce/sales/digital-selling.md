@@ -26,7 +26,7 @@ Dynamics 365 digital selling capabilities spearhead the digital transformation o
 In the Sales Hub app, you can set up digital selling capabilities from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
-> If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there will be no monthly capacity limit.
+> If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit.
 
 <br>
 

@@ -1,5 +1,6 @@
 ---
 title: "Deploy Microsoft Dynamics 365 for Outlook by using Group Policy | MicrosoftDocs"
+description: Learn how to use Group Policy to deploy Microsoft Dynamics 365 for Outlook installations to a userbase.
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 

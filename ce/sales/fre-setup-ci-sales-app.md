@@ -13,7 +13,7 @@ manager: shujoshi
 
 You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 
-After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
+After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team-level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
 > You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
@@ -90,17 +90,9 @@ Review the following requirements before you configure Teams recording for conve
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
-9.	(Optional) In the **New and upcoming features** section, select the **Enable call summary (preview)** checkbox to view the call summaries for each call. For more information on what's available in the call summary, see [View and understand call summary page in Sales Hub app](view-and-understand-call-summary-sales-app.md).
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
-    If you don't want to enable preview features for your organization, skip this step. You can always enable them later. More information: [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)  
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable coming soon features.](media/ci-admin-coming-soon-features.png "Enable coming soon features")  
-
-10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Agree and continue**.      
-
-    > [!div class="mx-imgBorder"]
-    > ![Agree to terms and conditions to publish the configurations.](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")    
+10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.
 

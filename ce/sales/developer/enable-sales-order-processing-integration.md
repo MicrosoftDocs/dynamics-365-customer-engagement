@@ -1,7 +1,7 @@
 ---
 title: "Enable sales order processing integration | MicrosoftDocs"
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
-ms.date: 07/09/2020
+ms.date: 08/29/2022
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,7 @@ Connect Dynamics 365 Sales with an external order processing application by enab
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)||
+| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
 
 
 ## How the integration works?
@@ -30,7 +30,7 @@ By default, sales order processing is turned off. When sales order processing is
 > [!NOTE]
 > Price computation can be triggered by Dynamics 365 Sales only if the sales entities like Opportunity, Quote, Sales order, and Invoice are editable.
 
-## Enable sales order processing integration
+## Turn on sales order processing integration
 
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../customerengagement/on-premises/developer/entities/organization.md) to **Yes (1)**.
 
@@ -55,14 +55,16 @@ The following table lists the conditions that need to be satisfied before Dynami
 |Sales order product|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user or the sales order is in a submitted state|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user or sales order is in a submitted state|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|
 |Invoice product|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|
 
-#### To turn off the sales order processing setting
+## Turn off the sales order processing setting
+
+By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the ```IsSOPIntegrationEnabled``` attribute, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
 
 1. Go to **Sales Hub**, and then select **App Settings**.
 2. Select **General/Overview**, and then select **Back Office Order Processing Integration**.
 3. Select **Manage**, and then set the toggle switch to **Off**.
 
 > [!NOTE]
-> The setting can only be turned off if it was already enabled. After it's turned off, the setting won't be displayed in the UI.
+> The setting won't be visible in the **App Settings** page if the integration is turned off.
 
 [!INCLUDE [cant-find-option](../../includes/cant-find-option.md)]
 

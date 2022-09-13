@@ -42,7 +42,7 @@ With premium, companies can also add intelligence into the sellers daily workspa
 Premium also helps to be more productive when engaging with customers. It guides sellers during and after customer calls with key moments and insights from the call and with follow-up recommendations as a call ends, so they never miss. More information: [Overview of Conversation Intelligence](dynamics365-sales-insights-app.md).    
 
 ## Build relationships    
-Help sellers build stronger, long-term relationships with their customers with tools to get complete visibility on the quality and trend of their relationships. More information: [View customer activity history](relationship-analytics.md), [Know conversation starters for your customers](talking-points.md), and [Get introduced to lead](who-knows-whom.md).
+Help sellers build stronger, long-term relationships with their customers with tools to get complete visibility on the quality and trend of their relationships. More information: [View customer activity history](relationship-analytics.md),  and [Get introduced to lead](who-knows-whom.md).
 
 ## Optimize outcome    
 Helps sales organizations drive predictability and accountability in their revenue generating activities by providing actionable insights, consistency in execution, and accurate forecasting. More information: [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).

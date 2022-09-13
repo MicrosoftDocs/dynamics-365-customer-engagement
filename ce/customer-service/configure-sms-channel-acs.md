@@ -21,9 +21,10 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 ## Prerequisites
 
+- Voice Channel for Dynamics 365 Customer Service must be installed.
 - Connect to Azure Communication Services. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   
-   If you’ve connected your existing Azure resource, ensure that you’ve enabled SMS services. More information: [Enable recording and SMS services](voice-channel-connect-existing-resource.md#enable-recording-and-sms-services)
+   If you’ve connected your existing Azure resource, ensure that you’ve enabled SMS services. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services)
 - Set up a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number features in Customer Service admin center or Omnichannel admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
@@ -51,7 +52,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 6. In **Advanced settings**, configure the following options based on your business needs.
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](context-variables-for-bot.md#add-context-variables)
+   - [Context variables](manage-context-variables.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 

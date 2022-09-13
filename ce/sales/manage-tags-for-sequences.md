@@ -1,7 +1,7 @@
 ---
 title: "Manage tags for sequences in sales accelerator"
 description: "Manage the tags for sequences in sales accelerator by creating, adding, editing, and deleting."
-ms.date: 12/22/2021
+ms.date: 09/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,9 +15,17 @@ Tags help you quickly filter and identify sequences from a list by categories th
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Permission requirements to manage tags
+
+The following table shows the permissions required for a user role to perform tasks on tags.
+
+| Task related to tags | Permissions required |
+|--------------------------|----------------------|
+| Create, edit, and delete | In the Security roles page, under the **Custom Entities** tab, provide Create, Read, Write, and Delete permissions for **Sales Tag** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, and Sales Manager security roles. | 
+| Apply and remove | In the Security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br>- **Sales Tag**: Read, Append, and Append To<br>- **Sequence**: Read, Append, and Append To<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. |
 
 ## What are tags?
 
@@ -107,8 +115,8 @@ Nested tags allow you to group tags together so that it's easy to identify tags 
     
 3.	Similarly, repeat step 2 to add: 
 
-    -	A node below **United States of America** as **Washington state**.
-    -	A node below **Washington state** as **Seattle**.
+    -	A node below **United States of America** as **Washington State**.
+    -	A node below **Washington State** as **Seattle**.
  
     >[!div class="mx-imgBorder"]
     >![Added four levels of hierarchy for tags.](media/sa-sequence-tags-nest-add-four-levels.png "Added four levels of hierarchy for tags")    
@@ -150,7 +158,7 @@ You can remove the tags that your organization no longer requires to be associat
 
 If the tag being deleted has child tags, the child tags will move up a level in hierarchy and will be nested under the parent of the deleted tag.
 
-For example, there are three levels of tags in the hierarchy. You delete a tag at level 2 that has child tags. The child tags (level 3) move up a level (level 2) and are nested under the hierarchy parent (level 1). When you delete **Mexico** (parent), which is at level 2, the cities under it move a level up to **North America** and become level 2 in the hierarchy.<!--note from editor: Please verify that my edit to alt text is accurate.-->
+For example, there are three levels of tags in the hierarchy. You delete a tag at level 2 that has child tags. The child tags (level 3) move up a level (level 2) and are nested under the hierarchy parent (level 1). When you delete **Mexico** (parent), which is at level 2, the cities under it move a level up to **North America** and become level 2 in the hierarchy.
 
 >[!div class="mx-imgBorder"]
 >![Delete a tag and move its child tags to its parent.](media/sa-sequence-tags-delete-mexico-tag.png "Delete tag to move child tags as parent")    

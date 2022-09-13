@@ -1,7 +1,7 @@
 ---
 title: "Configure Azure bots to escalate and end conversations | MicrosoftDocs"
 description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
-ms.date: 06/14/2022
+ms.date: 07/29/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -10,8 +10,6 @@ manager: shujoshi
 # Configure Azure bots to escalate and end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
@@ -26,14 +24,14 @@ This article explains how you can program an Azure bot to route a conversation t
 
 ## Escalate a conversation to a human agent
 
-In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing depends on the routing rule that's configured for the workstream. When the conversation is transferred from the bot to human agent, the bot can set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation.
+In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream. 
 
-The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the chat. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated chat is routed to the right queue.
+When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
 
-After the agent accepts the escalation request, the chat transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
+After the agent accepts the escalation request, the transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the conversation with the customer.
 
 > [!Note]
-> The chat summary won't be visible to the customer.
+> The conversation summary won't be visible to the customer.
 
 ## End a conversation
 
@@ -276,9 +274,10 @@ The bot can also send an escalation summary that'll be visible only to the agent
 ### See also
 
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Add context variables](context-variables-for-bot.md#add-context-variables)  
+[Add context variables](manage-context-variables.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
+[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
