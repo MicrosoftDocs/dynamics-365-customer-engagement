@@ -58,7 +58,7 @@ You can set the minimum consent level for any customer journey. When set, the jo
 > [!div class="mx-imgBorder"]
 > ![Set the minimum required consent level for a customer journey.](media/gdpr-jouney3.png)
 
-If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
+**Note:** Minimum required consent level cannot be changed for live journeys.
 
 ## Set the minimum required consent level for lead scoring models
 
