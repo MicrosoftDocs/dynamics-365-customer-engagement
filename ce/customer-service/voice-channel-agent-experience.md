@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 09/12/2022
+ms.date: 09/14/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -87,13 +87,13 @@ You can use the chat **Consult** option to contact another agent and consult wit
 
 ## How to avoid call disconnection
 
-Agents need to ensure the following behaviors to avoid call drops:
+Ensure the following behaviors to avoid call drops:
 
-- Don't refresh browser when in an active call, even if you select **Cancel** on the confirm refresh dialog, page gets unloaded and call will be disconnected.
-- Don't select browser bookmark icons on the Customer Service workspace or Omnichannel for Customer Service app browser tab when you're in the midst of an ongoing call.
-- Don't open other apps that will need access to the microphone.
-- Don't open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in a browser.
-- Always select the **End** button and then close the session. Avoid direct closing of the session to end call.
+- Don't refresh your browser when you're in an active call. Because when you select refresh and then even though you select cancel on the confirm refresh dialog, the page is unloaded and the call will disconnect.
+- Don't select browser bookmark icons on the Customer Service workspace or Omnichannel for Customer Service app browser tab when you're in the middle of an ongoing call.
+- Don't open other apps that'll need access to the microphone.
+- Don't open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser.
+- Always select the **End** button and then close the session. Don't close the session directly to end call.
 
 ### See also
 
