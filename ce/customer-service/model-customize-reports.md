@@ -110,7 +110,7 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 ## Data model and out-of-the-box Power BI reports
 
-**(Need info)**
+(**Do we need more nfo to go in here?**)
 
 ### See also
 
