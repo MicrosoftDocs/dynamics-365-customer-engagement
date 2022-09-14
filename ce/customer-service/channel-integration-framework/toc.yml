@@ -20,8 +20,6 @@
         href: get-channel-integration-framework.md
       - name: "Sample softphone integration" 
         href: sample-softphone-integration.md
-    - name: How-to
-      items:
       - name: "Configure channel provider for your Dynamics 365 organization"
         href: configure-channel-provider-channel-integration-framework.md
       - name: "Enable outbound communication (ClickToAct)"
@@ -131,8 +129,6 @@
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
-    - name: How-to
-      items:
       - name: "Configure channel provider for your Dynamics 365 organization"
         href: v2/configure-channel-provider-app-profile-manager.md
       - name: "Enable outbound communication (ClickToAct)"
