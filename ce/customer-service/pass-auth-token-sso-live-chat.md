@@ -15,15 +15,15 @@ ms.reviewer: nenellim
 
 Using the single sign-on (SSO) feature in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer via  an authentication token that you provide, during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience between your customers and the bot, thereby improving customer satisfaction and reducing costs.​
 
-For example, as a bot author, you can set up authentication in Azure or Power Virtual Agents bots. You can pass an authentication token in the middle of a customer conversation before you request for account information such bills, order returns, and any other sensitive data.
+In the live chat channel, you can set up authentication in Azure or Power Virtual Agents bots. You can request authentication during a customer conversation before seeking or processing any confidential information such as bill payment, order returns, and any other sensitive data. As a bot author or developer, you can choose to show the OAuth card if the customer hasn't signed in or if the customer sign-in couldn't be validated. You can choose to hide the card if the customer has already signed in.
 
 Here's how this works:
 
-- Your bot sends an OAuth card when it asks for a sign in.​
+- During the live chat, your bot requests the customer for authentication before processing any sensitive or confidential information.
+ 
+- You intercept the OAuth card and call your function to send the authentication token directly to the bot. 
 
-- Omnichannel for Customer Service will intercept this OAuth card, and call your function.​
-
-- Your function will then pass a token (if found) and tell Omnichannel for Customer Service whether the OAuth or sign-in card should be displayed. 
+- Your function will then pass an authentication token (if found) and tell Omnichannel for Customer Service whether the OAuth or sign-in card should be displayed or not, based on the customer's sign-in status.
 
 ## Prerequisites
 
