@@ -36,7 +36,7 @@
         href: getting-started-simple-widget.md
       - name: Search and open records on an incoming conversation
         href: search-open-records-incoming-conversations.md
-    - name: JavaScript API Reference
+    - name: Dynamics 365 Channel Integration Framework 1.0 API Reference
       items:
       - name: Microsoft.CIFramework
         items:
@@ -101,20 +101,22 @@
           href: reference/events/onsendkbarticle.md
         - name: "onsizechanged"
           href: reference/events/onsizechanged.md
-      - name: Entity reference
-        items:
-        - name: "msdyn_ciprovider"
-          href: reference/entities-attributes/msdyn-ciprovider.md
-        - name: "msdyn_conversationdata"
-          href: reference/entities-attributes/msdyn_conversationdata.md
-        - name: "msdyn_kpieventdata"
-          href: reference/entities-attributes/msdyn_kpieventdata.md
-        - name: "msdyn_kpieventdefinition"
-          href: reference/entities-attributes/msdyn_kpieventdefinition.md
-        - name: "msdyn_sessiondata"
-          href: reference/entities-attributes/msdyn_sessiondata.md
-        - name: "msdyn_sessionparticipantdata"
-          href: reference/entities-attributes/msdyn_sessionparticipantdata.md
+    - name: Entity reference
+      items:
+      - name: Deprecated entities
+        href: reference/entities-attributes/deprecated-cifv1.md      
+      - name: "msdyn_ciprovider"
+        href: reference/entities-attributes/msdyn-ciprovider.md
+      - name: "msdyn_conversationdata"
+        href: reference/entities-attributes/msdyn_conversationdata.md
+      - name: "msdyn_kpieventdata"
+        href: reference/entities-attributes/msdyn_kpieventdata.md
+      - name: "msdyn_kpieventdefinition"
+        href: reference/entities-attributes/msdyn_kpieventdefinition.md
+      - name: "msdyn_sessiondata"
+        href: reference/entities-attributes/msdyn_sessiondata.md
+      - name: "msdyn_sessionparticipantdata"
+        href: reference/entities-attributes/msdyn_sessionparticipantdata.md
   - name: Dynamics 365 Channel Integration Framework 2.0
     items:
     - name: Overview
@@ -163,7 +165,7 @@
          href: v2/associate-templates-cif.md
     - name: Channel Analytics
       href: v2/channel-analytics.md
-    - name: JavaScript API Reference
+    - name: Dynamics 365 Channel Integration Framework 2.0 API Reference
       items:
       - name: Microsoft.CIFramework
         items:
@@ -290,32 +292,34 @@
           href: v2/reference/events/onSessionClosed.md
         - name: "onPresenceChange"
           href: v2/reference/events/onPresenceChange.md
-      - name: Entity reference
-        items:
-        - name: "msdyn_appconfiguration"
-          href: v2/reference/entities-attributes/msdyn_appconfiguration.md
-        - name: "msdyn_channelprovider"
-          href: v2/reference/entities-attributes/msdyn_channelprovider.md
-        - name: "msdyn_conversationdata"
-          href: v2/reference/entities-attributes/msdyn_conversationdata.md
-        - name: "msdyn_kpieventdata"
-          href: v2/reference/entities-attributes/msdyn_kpieventdata.md
-        - name: "msdyn_kpieventdefinition"
-          href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
-        - name: "msdyn_sessiondata"
-          href: v2/reference/entities-attributes/msdyn_sessiondata.md
-        - name: "msdyn_notificationfield"
-          href: v2/reference/entities-attributes/msdyn_notificationfield.md
-        - name: "msdyn_notificationtemplate"
-          href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
-        - name: "msdyn_sessiontemplate"
-          href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
-        - name: "msdyn_applicationtabtemplate"
-          href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
-        - name: "msdyn_templateparameter"
-          href: v2/reference/entities-attributes/msdyn_templateparameter.md
-        - name: "msdyn_sessionparticipantdata"
-          href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
+    - name: Entity reference
+      items:
+      - name: Deprecated entities
+        href: v2/reference/entities-attributes/deprecated-cifv2.md
+      - name: "msdyn_appconfiguration"
+        href: v2/reference/entities-attributes/msdyn_appconfiguration.md
+      - name: "msdyn_channelprovider"
+        href: v2/reference/entities-attributes/msdyn_channelprovider.md
+      - name: "msdyn_conversationdata"
+        href: v2/reference/entities-attributes/msdyn_conversationdata.md
+      - name: "msdyn_kpieventdata"
+        href: v2/reference/entities-attributes/msdyn_kpieventdata.md
+      - name: "msdyn_kpieventdefinition"
+        href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
+      - name: "msdyn_sessiondata"
+       href: v2/reference/entities-attributes/msdyn_sessiondata.md
+      - name: "msdyn_notificationfield"
+        href: v2/reference/entities-attributes/msdyn_notificationfield.md
+      - name: "msdyn_notificationtemplate"
+        href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
+      - name: "msdyn_sessiontemplate"
+        href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
+      - name: "msdyn_applicationtabtemplate"
+        href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
+      - name: "msdyn_templateparameter"
+        href: v2/reference/entities-attributes/msdyn_templateparameter.md
+      - name: "msdyn_sessionparticipantdata"
+        href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
   - name: Known issues in Dynamics 365 Channel Integration Framework
     href: https://go.microsoft.com/fwlink/p/?linkid=2171869
   - name: FAQ about Dynamics 365 Channel Integration Framework
