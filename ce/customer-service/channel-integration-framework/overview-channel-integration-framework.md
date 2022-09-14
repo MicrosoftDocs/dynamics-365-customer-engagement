@@ -32,7 +32,7 @@ Organizations expect their call centers to do more with fewer resources, and the
   - The dependency of telephony providers on the operating system and web browsers.
   - Customizing the telephony provider based on the business and process workflows.
 
-## Advantages and value propositions of the Dynamics 365 Channel Integration Framework
+## Advantages and value propositions of Dynamics 365 Channel Integration Framework 1.0
 
 Here are the capabilities offered by Dynamics 365 Channel Integration Framework 1.0:
 

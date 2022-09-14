@@ -10,10 +10,10 @@
     items:
     - name: "Overview"
       href: overview-channel-integration-framework.md
-    - name: "System requirements"
-      href:  system-requirements-channel-integration-framework.md
-    - name: How Channel Integration Framework 1.0 works
+    - name: Architecture of Dynamics 365 Channel Integration Framework 1.0
       href: architecture-overview-channel-integration-framework.md
+    - name: "System requirements"
+      href: system-requirements-channel-integration-framework.md      
     - name: Download
       items:
       - name: "Get Dynamics 365 Channel Integration Framework 1.0"
@@ -121,10 +121,10 @@
     items:
     - name: Overview
       href: v2/overview-channel-integration-framework.md
-    - name: "System requirements"
-      href: v2/system-requirements-channel-integration-framework-v2.md
-    - name: How Channel Integration Framework 2.0 works
+    - name: Architecture of Dynamics 365 Channel Integration Framework 2.0
       href: v2/architecture-overview-channel-integration-framework-v2.md
+    - name: "System requirements"
+      href: v2/system-requirements-channel-integration-framework-v2.md      
     - name: Download
       items:
       - name: "Get Dynamics 365 Channel Integration Framework 2.0"

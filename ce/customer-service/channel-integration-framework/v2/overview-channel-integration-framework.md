@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
-ms.date: 11/02/2020
+ms.date: 11/02/2022
 ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
@@ -30,7 +30,7 @@ Organizations expect their call centers to do more while using fewer resources. 
 -  The dependency of the telephony channel on the operating system and web browsers.
 -  Customizing the telephony channel based on business needs and process workflows.
 
-## Advantages and value propositions of Dynamics 365 Channel Integration Framework
+## Advantages and value propositions of Dynamics 365 Channel Integration Framework 2.0
 
 > [!NOTE]
 > Dynamics 365 Channel Integration Framework 2.0 supports only telephony channels.
@@ -39,7 +39,7 @@ Dynamics 365 Channel Integration Framework 2.0, provides multiple enhancements o
 
 Key new features in Dynamics 365 Channel Integration Framework 2.0 include: 
 
-- **Integration with the multisession experiences**
+- **Integration with multisession experiences**
 
   Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service workspace). These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
 
