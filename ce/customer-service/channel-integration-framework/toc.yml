@@ -15,21 +15,21 @@
     - name: "System requirements"
       href: system-requirements-channel-integration-framework.md      
     - name: Install and configure Dynamics 365 Channel Integration Framework 1.0
-     items:   
-     - name: "Get Dynamics 365 Channel Integration Framework 1.0"
-       href: get-channel-integration-framework.md
-     - name: "Configure channel provider for your Dynamics 365 organization"
-       href: configure-channel-provider-channel-integration-framework.md
-     - name: "Enable outbound communication (ClickToAct)"
-       href: enable-outbound-communication-clicktoact.md
-     - name: "Add Channel Integration Framework solution as a dependent solution"
-       href: add-cif-solution-dependent-solution.md   
-     - name: "Authenticate channel users to the channel"
-       href: authenticate-channel-users.md
-     - name: "Pass Dynamics 365 URL to widget library"
-       href: pass-url-widget-library.md
-     - name: "Sample softphone integration" 
-       href: sample-softphone-integration.md      
+      items:   
+      - name: "Get Dynamics 365 Channel Integration Framework 1.0"
+        href: get-channel-integration-framework.md
+      - name: "Configure channel provider for your Dynamics 365 organization"
+        href: configure-channel-provider-channel-integration-framework.md
+      - name: "Enable outbound communication (ClickToAct)"
+        href: enable-outbound-communication-clicktoact.md
+      - name: "Add Channel Integration Framework solution as a dependent solution"
+        href: add-cif-solution-dependent-solution.md   
+      - name: "Authenticate channel users to the channel"
+        href: authenticate-channel-users.md
+      - name: "Pass Dynamics 365 URL to widget library"
+        href: pass-url-widget-library.md
+      - name: "Sample softphone integration" 
+        href: sample-softphone-integration.md      
     - name: Tutorials
       items:
       - name: Build a simple communication widget
