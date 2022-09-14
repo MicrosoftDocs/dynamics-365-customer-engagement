@@ -4,7 +4,7 @@ After you register, the Azure Active Directory administrator must grant access t
 
 If you enable SAML-based SSO, the channel (widget) aligns with the model-driven app inactivity timeout period and signs out the users (agents) from both the channel (widget) and Dynamics 365 app such as Dynamics 365 Customer Service and Dynamics 365 Sales.
 
-To enable SSO for the channel (widget), perform the following:
+## Enable SSO for the channel (widget)
 
 1. Register the third-party widget (channel) in Azure Active Directory.
 
