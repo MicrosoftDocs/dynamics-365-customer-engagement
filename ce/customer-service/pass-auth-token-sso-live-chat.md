@@ -29,7 +29,7 @@ Here's how this works:
 
 If you're using Azure bots, ensure you're using Bot Framework SDK v4.14 or higher. More information: [Bot Framework SDK](/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0)
 
-If you're using a Power Virtual Agent bot, ensure that you manually set up end user authentication for Power Virtual Agents. More information: [Configure manual user authentication](/power-virtual-agents/configuration-end-user-authentication#manual-for-any-channel-including-teams)
+If you're using a Power Virtual Agents bot, ensure that you manually set up end user authentication for Power Virtual Agents. More information: [Configure manual user authentication](/power-virtual-agents/configuration-end-user-authentication#manual-for-any-channel-including-teams)
 
 ## Sample code
 
