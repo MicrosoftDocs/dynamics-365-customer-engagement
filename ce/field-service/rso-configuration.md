@@ -37,7 +37,7 @@ Ensure that Resource Scheduling Optimization can optimize work order-related req
 
 1. Go to **Settings** > **Advanced Settings** > **Security** > **Users**. And assign the security role *Field Service - Administrator* to the Resource Scheduling Optimization application user.
 
-1. Go to **Security** > **Field Security Profiles**. Select **Field Service – Administrator** and add **Resource Scheduling Optimization** to the field security profile.
+1. Go to **Security** > **Field Security Profiles**. Select **Resource Scheduling Optimization – Administrator** and add the Resource Scheduling Optimization application user to the field security profile.
   
 Enable dispatchers to interact with Resource Scheduling Optimization:
 
