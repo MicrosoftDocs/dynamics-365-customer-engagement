@@ -26,12 +26,13 @@ searchScope:
 
 # Analyze PVA bot performance and usage
 
-The Summary page gives you a broad overview of how effectively Power Virtual Agent bots are enabling customers navigate the customer service experience.
- Using artificial intelligence (AI) technology, KPIs such as topics are having the greatest impact on escalation rate, abandon rate, and resolution rate (see the table under Summary charts for more information on these metrics) are displayed.
+In Omnichannel for Customer Service, bots can be integrated into the customer service journey to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required.
 
-This allows you cto monitor the escalation rate from PVA to staff additional agents on the floor and suggest changes to update PVA bot based on the agent resolution steps to increase PVA deflection and to reduce over all support cost.
+Measuring the effectiveness of a bot in the customer service lifecycle allows customer service managers or supervisors to handle escalations from the bot more effectively or handle increased customer request volumes by increasing agent staffing, and suggest changes to update the bot's responses based on the agent's resolution steps or escalated conversations, reducing future escalations and costs.
 
-You can view the Summary dashboard in Omnichannel for Customer Service. On the Home tab, select the (+), and then select Omnichannel historical analytics. On the page that appears, select the Bot tab.
+The Summary dashboard gives you a broad overview your Power Virtual Agent bots performance and the customer service experience of your organization. The Summary report provides Power Virtual agent-specific KPIs and metrics such as escalation rate, resolution rate, and abandon rate that can be used by supervisors and administrators to track the success of the bot. They can also track and correct bot responses for topics with higher escalation rates items to  improve the effectiveness and reducing further escalations and staffing costs, thereby increasing customer satisfaction.
+
+You can view the Summary dashboard in Omnichannel for Customer Service. On the Home tab, select the (+), and then select Omnichannel historical analytics. On the page that appears, select the Summary tab.
 
 
 ## Report details
@@ -42,12 +43,12 @@ The reports summarize the KPIs for the specified time period and the percent cha
 | KPI | Description |
 | ------- | ------------------ |
 | Total conversations | The number of conversations initiated by the customer. |
-| Bot deflection rate | The percentage of conversations that were resolved by a bot, out of all conversations engaged by power virtual agent bots. |
+| Bot deflection rate | The percentage of conversations that were resolved by a power virtual agent bot, out of all the bot engaged conversations.|
 | Bot escalation rate | The percentage of engaged conversations that were escalated to a human agent.  |
-| Incoming conversations  | The total number of conversations that are initiated by a customer and is in the agent bucket. |
-| Engaged conversations | The total conversations that are engaged conversations. An engaged conversation is the one in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they are either resolved, escalated, or abandoned. |
-| Abandon rate | The daily rate of abandoned conversations. An abandoned conversation is a conversation that is neither resolved nor escalated after an hour from the beginning of the session. |
-|Average time to answer | The average amount of time an agent actively spends on a session, by day. |
+| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. These conversation include the conversations that are escalated by the Power Virtual Agent bots.|
+| Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication begins at this point.|
+| Abandon rate | The percentage of conversations that are in a human agent's queue but aren't engaged by agents. |
+|Average time to answer |The average time customers waited in the queue before connecting to an agent. |
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
@@ -55,12 +56,12 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 | Title | Description |
 | ------- | ------------------ |
-| Total conversations | A graphical view of the conversations that were initiated by the customer and were either resolved by the power virtual agent bot or was escalated by the bot to the agent.|
-| Agent engagement rate over time | A graphical view of the incoming conversations, engaged conversations, and abandon rate over the specified time period. |
-| Bot conversations | A graphical view of the bot escalation rate and the deflection rate over the specified time period. This indicates the number of engaged bot conversations that were resolved by the bot versus the number of conversations that were escalated to the agent. |
+| Total conversations | A graphical view of the conversations that were initiated by the customer and were connected to a human agent directly, resolved by the power virtual agent bot, or escalated by to the human agent.|
+| Agent engagement rate over time | A graphical view of the daily incoming conversations, conversations engaged by an agent, and abandoned conversations over time. |
+| Bot conversations| A graphical view of the daily deflection and escalation rate, and abandon rate over the specified time period. |
 
 ## Bot escalation topic metrics
 
-The bot escalation topic metrics section provides a view into the performance of escalated topics and their associated conversation topics, over the specified period. The conversation topic
+The bot escalation topic metrics section provides insights into the performance of individual bot topics. Drill-down into these topics to view the corresponding conversation topics, provides supervisors with a holistic look into individual topics in reference to key business metrics, and can be valuable in understanding how a bot is resolving a topic or if a bot escalated a conversation pertaining to a topic, how the agents are resolving the topic. to help you better understand how different topic areas are impacting your organization’s support performance.
 
-You can display the topic details page by selecting the Detail link in one of the following charts on the Summary and Customer Satisfaction pages:
+## Language availability for topics
