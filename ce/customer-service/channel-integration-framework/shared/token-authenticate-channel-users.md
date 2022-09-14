@@ -9,19 +9,27 @@ To enable SSO for the channel (widget), perform the following:
 1. Register the third-party widget (channel) in Azure Active Directory.
 
     a. Enter basic SAML configuration.
+    
     b. Review or customize the claims issued in the SAML token.
+    
     c. Review certificate expiration data, status, and email notification.
+    
     d. Set up the target application.
+    
     e. Assign users and groups to your SAML application.
+    
     f. Test the SAML application.
 
-  For more information on how to register and configure the channel (widget), visit [Configure SSO to applications](/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications).
+      More information: [Configure SSO to applications](/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
 
 2. Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow.
 
     a. Request an authorization code.
+    
     b. Use the authorization code to request an access token.
+    
     c. Use the access token to access the resource.
+    
     d. Refresh the access tokens.
 
-  For more information on how to authorize access to Azure Active Directory web applications, visit [OAuth 2.0](/azure/active-directory/develop/v1-protocols-oauth-code).
+      More information: [OAuth 2.0](/azure/active-directory/develop/v1-protocols-oauth-code)
