@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# How to get Dynamics 365 Channel Integration Framework version 2.0
+# How to get Dynamics 365 Channel Integration Framework 2.0
 
 Dynamics 365 Channel Integration Framework version 2.0 is available with Customer Service Workspace and Omnichannel for Customer Service.
 

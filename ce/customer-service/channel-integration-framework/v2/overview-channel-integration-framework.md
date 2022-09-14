@@ -101,10 +101,10 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 ### See also
 
-[Architecture overview of Dynamics 365 Channel Integration Framework](architecture-overview-channel-integration-framework-v2.md)  
-[System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)  
+[Architecture of Dynamics 365 Channel Integration Framework 2.0](architecture-overview-channel-integration-framework-v2.md)  
+[System requirements of Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework-v2.md)  
 [FAQ](../faq-channel-integration-framework.md)  
-[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)  
+[Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)  
 [Support multiple providers](support-multiple-providers.md)  
 [Bring your own channel](../../bring-your-own-channel.md)  
 
