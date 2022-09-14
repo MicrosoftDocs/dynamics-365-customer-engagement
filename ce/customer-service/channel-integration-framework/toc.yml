@@ -15,7 +15,7 @@
     - name: "System requirements"
       href: system-requirements-channel-integration-framework.md      
     - name: Install and configure Dynamics 365 Channel Integration Framework 1.0
-      items:   
+      items:
       - name: "Get Dynamics 365 Channel Integration Framework 1.0"
         href: get-channel-integration-framework.md
       - name: "Configure channel provider for your Dynamics 365 organization"
@@ -124,7 +124,7 @@
     - name: "System requirements"
       href: v2/system-requirements-channel-integration-framework-v2.md      
     - name: Install and configure Dynamics 365 Channel Integration Framework 2.0
-     items:        
+     items:
      - name: "Get Dynamics 365 Channel Integration Framework 2.0"
        href: v2/get-channel-integration-framework.md
      - name: "Configure channel provider for your Dynamics 365 organization"
