@@ -13,15 +13,15 @@ ms.custom:
 
 In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using Dynamics 365 Channel Integration Framework APIs.
 
-The sample given below covers four scenarios:
+The sample covers four scenarios:
 
-1. Customer's contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+- Customer's contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
 
-2. Customer's contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+- Customer's contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
 
-3. Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then the search results are displayed on the console.
+- Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then the search results are displayed on the console.
 
-4. Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
+- Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
 
 ## Prerequisites
 
@@ -206,11 +206,8 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
 ### See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)
-
-[Sample code for softphone integration](sample-softphone-integration.md)
-
-[Frequently asked questions](faq-channel-integration-framework.md)
-
+[Build a simple communication widget](getting-started-simple-widget.md)  
+[Sample code for softphone integration](sample-softphone-integration.md)  
+[Frequently asked questions](faq-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

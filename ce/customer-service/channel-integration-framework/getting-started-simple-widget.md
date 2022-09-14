@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
   - "intro-internal"
 ---
-# Walkthrough: Get started with building a simple communication widget
+# Walkthrough: Build a simple communication widget
 
 In this tutorial, we demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Dynamics 365 Channel Integration Framework.
 
@@ -85,13 +85,9 @@ You can check if Channel Integration Framework 1.0 is ready by invoking CIFInitD
 
 
 ### See also
-[Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
-
-[Sample code for softphone integration](sample-softphone-integration.md)
-
-[Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework)
-
-[Frequently asked questions](faq-channel-integration-framework.md)
-
+[Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)  
+[Sample code for softphone integration](sample-softphone-integration.md)  
+[Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework)  
+[Frequently asked questions](faq-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
