@@ -24,7 +24,7 @@ When you sign in to conversation intelligence as a sales manager, you’ll see t
 
 ## Sections of the home page
 
-Typically, the home page is divided into the following sections:
+When you sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), the home page appears with the following sections:
 
 -	[Time period filter](#time-period-filter)
 

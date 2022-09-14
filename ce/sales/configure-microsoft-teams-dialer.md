@@ -3,8 +3,8 @@ title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
 description: "How to configure Microsoft Teams dialer in Dynamics 365 Sales."
 ms.date: 09/13/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
@@ -61,12 +61,12 @@ Ensure that you meet the following requirements before you configure Microsoft T
 3. Turn on **Teams calls**.  
     >[!NOTE]
     >The toggle is enabled only after the phone system and Microsoft Teams licenses are successfully validated.
-
-4. Leave the **Answer incoming calls in Dynamics 365** option turned on to receive calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365. 
-
-5. If you don't want internal calls to be tracked in Dynamics 365, select the **Internal call will ring only in the Teams app, not in Dynamics 365** checkbox. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams.  
-    > [!NOTE]
-    > Clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
+    
+    By default, the following options are turned on:
+    - **Answer incoming calls in Dynamics 365**
+        Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
+    - **Internal call will ring only in the Teams app, not in Dynamics 365**
+        Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
  
 6. In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer.  
 

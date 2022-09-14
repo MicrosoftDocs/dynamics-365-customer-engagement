@@ -77,8 +77,6 @@ The matrix explains which data you’ll view as a sales manager, for different h
 
 ## Configure users to view as another user
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
-
 The **view as different user** feature allows managers or sellers to view conversation intelligence as a different user.
 
 As an administrator, you can configure sales managers or sellers to impersonate another user in the organization to view information they wouldn't normally have access to. For example, you can:
@@ -89,7 +87,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 
 For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
 
-1. In the **View as different user (preview)** section, select **Add user**.
+1. In the **View as different user** section, select **Add user**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")

@@ -50,10 +50,12 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
     > [!div class="mx-imgBorder"]
     > ![Open a contact record.](media/teams-dialer-contact-record.png "Open a contact record")
 
-2.	Select ![Phone icon.](media/phone-icon.png "Phone icon") corresponding to the phone number. The call is established.   
+2.	Select ![Phone icon.](media/phone-icon.png "Phone icon") corresponding to the phone number. The call is established.  
 
     > [!div class="mx-imgBorder"]
-    > ![Select the phone icon to make call.](media/teams-dialer-make-call.png "Select the phone icon to make call")     
+    > ![Select the phone icon to make call.](media/teams-dialer-make-call.png "Select the phone icon to make call")
+  
+3. (Optional) Select the ellipses (three-dots menu) in the dialer screen to change your microphone and speaker settings. 
 
 **To call a customer from a work list item**
 

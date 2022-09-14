@@ -2,17 +2,11 @@
 title: "Improve seller coaching and sales potential"
 description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
 ms.date: 06/27/2022
-
 ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 
 # Improve seller coaching and sales potential with conversation intelligence 
@@ -22,7 +16,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
@@ -54,7 +48,7 @@ Conversation intelligence is designed to help sales managers and sellers in thei
     > [!NOTE]
     > Sales managers can also define tracked keywords and competitors. These tracked keywords and competitors apply only to their team.   
 -	Configure how long you want to retain a team's or individual seller's data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).   
--	Manage environments and configure call data. To learn more, see [[Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).   
+-	Manage environments and configure call data. To learn more, see [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).   
 -	Monitor call and insight processing data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).   
 -	Configure the levels of hierarchy for which sales managers can view the call data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).  
 
