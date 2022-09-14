@@ -14,20 +14,22 @@
       href: architecture-overview-channel-integration-framework.md
     - name: "System requirements"
       href: system-requirements-channel-integration-framework.md      
-    - name: "Get Dynamics 365 Channel Integration Framework 1.0"
-      href: get-channel-integration-framework.md
-    - name: "Sample softphone integration" 
-      href: sample-softphone-integration.md
-    - name: "Configure channel provider for your Dynamics 365 organization"
-      href: configure-channel-provider-channel-integration-framework.md
-    - name: "Enable outbound communication (ClickToAct)"
-      href: enable-outbound-communication-clicktoact.md
-    - name: "Add Channel Integration Framework solution as a dependent solution"
-      href: add-cif-solution-dependent-solution.md   
-    - name: "Authenticate channel users to the channel"
-      href: authenticate-channel-users.md
-    - name: "Pass Dynamics 365 URL to widget library"
-      href: pass-url-widget-library.md
+    - name: Install and configure Dynamics 365 Channel Integration Framework 1.0
+     items:   
+     - name: "Get Dynamics 365 Channel Integration Framework 1.0"
+       href: get-channel-integration-framework.md
+     - name: "Configure channel provider for your Dynamics 365 organization"
+       href: configure-channel-provider-channel-integration-framework.md
+     - name: "Enable outbound communication (ClickToAct)"
+       href: enable-outbound-communication-clicktoact.md
+     - name: "Add Channel Integration Framework solution as a dependent solution"
+       href: add-cif-solution-dependent-solution.md   
+     - name: "Authenticate channel users to the channel"
+       href: authenticate-channel-users.md
+     - name: "Pass Dynamics 365 URL to widget library"
+       href: pass-url-widget-library.md
+     - name: "Sample softphone integration" 
+       href: sample-softphone-integration.md      
     - name: Tutorials
       items:
       - name: Build a simple communication widget
@@ -121,28 +123,30 @@
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: "System requirements"
       href: v2/system-requirements-channel-integration-framework-v2.md      
-    - name: "Get Dynamics 365 Channel Integration Framework 2.0"
-      href: v2/get-channel-integration-framework.md
-    - name: "Sample softphone integration"
-      href: v2/sample-softphone-integration-v2.md
-    - name: "Configure channel provider for your Dynamics 365 organization"
-      href: v2/configure-channel-provider-app-profile-manager.md
-    - name: "Enable outbound communication (ClickToAct)"
-      href: v2/enable-outbound-communication-clicktoact.md
-    - name: "Add Channel Integration Framework solution as a dependent solution"
-      href: v2/add-cif-solution-dependent-solution.md
-    - name: "Authenticate channel users to the channel"
-      href: v2/authenticate-channel-users.md
-    - name: "Pass Dynamics 365 URL to widget library"
-      href: v2/pass-url-widget-library.md
-    - name: "Integrate with multi-session app"
-      href: v2/integration-multi-session-experiences.md
-    - name: "Support multiple providers"
-      href: v2/support-multiple-providers.md
-    - name: "Modes for communication widget"
-      href: v2/modes-communication-widget.md
-    - name: "Migrate third-party channel configuration data"
-      href: v2/migrate-config-data.md
+    - name: Install and configure Dynamics 365 Channel Integration Framework 2.0
+     items:        
+     - name: "Get Dynamics 365 Channel Integration Framework 2.0"
+       href: v2/get-channel-integration-framework.md
+     - name: "Sample softphone integration"
+       href: v2/sample-softphone-integration-v2.md
+     - name: "Configure channel provider for your Dynamics 365 organization"
+       href: v2/configure-channel-provider-app-profile-manager.md
+     - name: "Enable outbound communication (ClickToAct)"
+       href: v2/enable-outbound-communication-clicktoact.md
+     - name: "Add Channel Integration Framework solution as a dependent solution"
+       href: v2/add-cif-solution-dependent-solution.md
+     - name: "Authenticate channel users to the channel"
+       href: v2/authenticate-channel-users.md
+     - name: "Pass Dynamics 365 URL to widget library"
+       href: v2/pass-url-widget-library.md
+     - name: "Integrate with multi-session app"
+       href: v2/integration-multi-session-experiences.md
+     - name: "Support multiple providers"
+       href: v2/support-multiple-providers.md
+     - name: "Modes for communication widget"
+       href: v2/modes-communication-widget.md
+     - name: "Migrate third-party channel configuration data"
+       href: v2/migrate-config-data.md
     - name: Templates
       items:
        - name: Overview
