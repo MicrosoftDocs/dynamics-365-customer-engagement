@@ -4,7 +4,7 @@ description: "Use this article to understand how emergency calls work in the voi
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 09/12/2022
+ms.date: 09/14/2022
 ms.topic: article
 ---
 
