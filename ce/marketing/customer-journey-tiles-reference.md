@@ -53,7 +53,7 @@ The content that your customer journey delivers to contacts as they traverse the
 ### Actions
 
 - **Create lead**: The create-lead tile creates a new lead for each contact or account that enters the tile. It doesn't try to match any existing leads, so it always creates a new one. Each lead created will be linked either to the contact who entered the tile, or to the account that contact belongs to (the company or organization they work for).
-- **Run workflow**: Use a Run workflow tile to invoke a [custom workflow](../customerengagement/on-premises/customize/workflow-processes.md) at any point in the customer journey. You can use this tile to advance a process stage, create alerts, and more. Workflows are highly customizable. Many organizations work with internal or external consultants to optimize workflows for their own unique, internal business requirements.
+- **Run workflow**: Use a Run workflow tile to invoke a [custom workflow](../customerengagement/on-premises/customize/workflow-processes.md) at any point in the customer journey. You can use this tile to advance a process stage, create alerts, and more. In order to use workflow tile, a workflow process has to be active, marked as on-demand, and use "contact" as the primary entity. Workflows are highly customizable. Many organizations work with internal or external consultants to optimize workflows for their own unique, internal business requirements.
 - **LinkedIn campaign**: The LinkedIn campaign tile links each contact who passes through it to a specific LinkedIn campaign. Thus, this tile makes it possible for a subsequent trigger tile to react to submissions of any LinkedIn Lead Gen Forms that belong to that campaign on LinkedIn.
 
 ### Sales activities
