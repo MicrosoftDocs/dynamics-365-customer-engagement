@@ -949,7 +949,7 @@
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
       - name: Pass authentication token to bot during single sign-on in live chat
-        href: pass-auth-token-sso.md
+        href: pass-auth-token-sso-live-chat.md
   - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service

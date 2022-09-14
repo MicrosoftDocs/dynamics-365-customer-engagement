@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 
 Using the single sign-on (SSO) feature in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer via  an authentication token that you provide, during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience between your customers and the bot, thereby improving customer satisfaction and reducing costs.​
 
-For example, as a bot author, you can set up authentication in Azure or Power Virtual Agents bots. You can pass an authentication token in the middle of a customer conversation for account information such bills, order returns, or other sensitive data.
+For example, as a bot author, you can set up authentication in Azure or Power Virtual Agents bots. You can pass an authentication token in the middle of a customer conversation before you request for account information such bills, order returns, and any other sensitive data.
 
 Here's how this works:
 
@@ -23,11 +23,11 @@ Here's how this works:
 
 - Omnichannel for Customer Service will intercept this OAuth card, and call your function.​
 
-- Your function will then pass a token (if found) and tell Omnichannel for Customer Service whether the OAuth or sign-in card should be shown. 
+- Your function will then pass a token (if found) and tell Omnichannel for Customer Service whether the OAuth or sign-in card should be displayed. 
 
 ## Prerequisites
 
-If you're using Azure bots, ensure you're using Bot Framework SDK v4.14 or higher. More information: [Bot Framework SDK](/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0)
+If you're using Azure bots, ensure that you're using Bot Framework SDK v4.14 or higher. More information: [Bot Framework SDK](/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0)
 
 If you're using a Power Virtual Agents bot, ensure that you manually set up end user authentication for Power Virtual Agents. More information: [Configure manual user authentication](/power-virtual-agents/configuration-end-user-authentication#manual-for-any-channel-including-teams)
 
@@ -67,3 +67,8 @@ Microsoft.Omnichannel.LiveChatWidget.SDK.setBotAuthTokenProvider(async (botToken
     });
 });
 ```
+
+### See also
+
+[Integrate an Azure bot](configure-bot-azure.md)  
+[Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
