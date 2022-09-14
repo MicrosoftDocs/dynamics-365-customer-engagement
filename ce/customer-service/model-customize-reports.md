@@ -22,7 +22,7 @@ Dynamics 365 Power BI extensibility capability enables power users to extend out
 
 Customizing the out-of-the-box standard reports and adding your own KPIs and custom metrics to the reports will enable you to view the key metrics that are relevant to your organization.
 
-Key capabilities of model customization include the ability to:
+Key capabilities of model customization include the ability to: (**Query: Does the workflow work in the same order in which the points are listed below?**)
 
 - Edit out-of-the-box data model and add new metrics in addition to the out-of-the-box metrics.
 
@@ -38,11 +38,12 @@ Key capabilities of model customization include the ability to:
 
 - Power Users must have the Power BI professional license to be able to extend the out-of-the-box data model.
 
-- Power BI desktop is required to open the model and make necessary changes.
+- Power BI desktop is required to open the model and make necessary changes. 
+(**Query:** **What would be Power BI desktop? Can we provide a ref link here?**)
 
 ## Enable model customization of your analytics reports from Customer Service workspace
 
-This section describes how to enable the data model customization feature and set up the workspace for Microsoft to provision out-of-the-box data model in a Read-only workspace, and a workspace where the customized report can be published to render it in the Customer Service workspace.
+This section describes how to enable the data model customization feature and set up the workspace for Microsoft to provision out-of-the-box data model in a Read-only workspace, and a workspace where the customized report can be published to render it in the Customer Service workspace. (**Query: Can we elaborate by first stating what exactly is required and why?**)
 
 ### Prerequisites
 
@@ -53,7 +54,7 @@ This section describes how to enable the data model customization feature and se
 - As a system administrator, you must create and add a security group for Power BI service. Perform the following steps to create and add a security group: 
   1. Create a security group in Azure Active Directory (Azure AD), and add Dynamics CCA Data Analytics as a member to that security group.  
 More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/how-to-manage-groups).
-  2. As a Power BI administrator, enable the service principal in the Developer settings in the Power BI admin portal and the security group that you created in Azure AD. 
+  2. As a Power BI administrator, enable the service principal in the Developer settings in the Power BI admin portal and the security group that you created in Azure AD.
 
      1. Sign in to Power BI service and go to **Settings** > **Admin portal**.
      2. In the **Admin portal**, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
@@ -63,7 +64,7 @@ More information: [Create a basic group and add members using Azure Active Dir
 
 ## Enable model customization of your analytics reports from Customer Service admin center
 
-1.	In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 2. In the **Embedded Power BI extensibility - Data model customization (preview)** section, select **Manage**.
 3. Select a workspace from the dropdown list or select **Create new workspace** and provide a workspace name.
 3. Select **Save**. The report provision process is initiated.
@@ -79,7 +80,7 @@ This will take you to the dataset file. Note that this dataset is maintained by 
 
 3. Select **Give permissions to customize Power BI Report**. This takes you to the workspace where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can now make changes to the reports.
 
-4. Go to Maker experience to update the data model/report. 
+4. Go to Maker experience to update the data model/report.
 (**Do we need more info to go in here?**)
 
 ### Create and save the site map
