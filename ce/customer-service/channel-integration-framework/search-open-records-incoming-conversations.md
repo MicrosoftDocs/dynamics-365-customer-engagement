@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Search and open records of incoming conversations | MicrosoftDocs"
+title: "Search and open records of incoming conversations | MicrosoftDocs"
 description: "Demonstrates how you can use the Dynamics 365 Channel Integration Framework 1.0 APIs to search and open records of incoming conversations."
 ms.date: 01/21/2022
 author: mh-jaya
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# Walkthrough: Search and open records of incoming conversations
+# Search and open records of incoming conversations
 
 In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using Dynamics 365 Channel Integration Framework APIs.
 

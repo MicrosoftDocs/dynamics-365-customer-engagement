@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Build a communication widget | MicrosoftDocs"
+title: "Build a communication widget | MicrosoftDocs"
 description: "Demonstrates how to build a simple communication widget using Dynamics 365 Channel Integration Framework 1.0."
 author: "mh-jaya"
 ms.author: v-jmh
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
   - "intro-internal"
 ---
-# Walkthrough: Build a simple communication widget
+# Build a simple communication widget
 
 In this tutorial, we demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Dynamics 365 Channel Integration Framework.
 
