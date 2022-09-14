@@ -80,7 +80,7 @@ This will take you to the dataset file. Note that this dataset is maintained by 
 3. Select **Give permissions to customize Power BI Report**. This takes you to the workspace where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can now make changes to the reports.
 
 4. Go to Maker experience to update the data model/report. 
-(**Do we need more nfo to go in here?**)
+(**Do we need more info to go in here?**)
 
 ### Create and save the site map
 
@@ -110,7 +110,7 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 ## Data model and out-of-the-box Power BI reports
 
-(**Do we need more nfo to go in here?**)
+(**Do we need more info to go in here?**)
 
 ### See also
 
