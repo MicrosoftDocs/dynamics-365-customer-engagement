@@ -127,8 +127,6 @@
      items:        
      - name: "Get Dynamics 365 Channel Integration Framework 2.0"
        href: v2/get-channel-integration-framework.md
-     - name: "Sample softphone integration"
-       href: v2/sample-softphone-integration-v2.md
      - name: "Configure channel provider for your Dynamics 365 organization"
        href: v2/configure-channel-provider-app-profile-manager.md
      - name: "Enable outbound communication (ClickToAct)"
@@ -139,7 +137,7 @@
        href: v2/authenticate-channel-users.md
      - name: "Pass Dynamics 365 URL to widget library"
        href: v2/pass-url-widget-library.md
-     - name: "Integrate with multi-session app"
+     - name: "Integrate with multisession app"
        href: v2/integration-multi-session-experiences.md
      - name: "Support multiple providers"
        href: v2/support-multiple-providers.md
@@ -147,6 +145,8 @@
        href: v2/modes-communication-widget.md
      - name: "Migrate third-party channel configuration data"
        href: v2/migrate-config-data.md
+     - name: "Sample softphone integration"
+       href: v2/sample-softphone-integration-v2.md       
     - name: Templates
       items:
        - name: Overview
