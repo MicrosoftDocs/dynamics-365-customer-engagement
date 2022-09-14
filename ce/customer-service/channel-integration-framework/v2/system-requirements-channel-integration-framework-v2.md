@@ -1,7 +1,7 @@
 ---
 title: "System requirements for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about the system requirements for Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
-ms.date: 11/11/2021
+ms.date: 09/21/2022
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,19 +12,14 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 2.0
 
-This topic lists the licensing and system requirements for Dynamics 365 Channel Integration Framework 2.0.
+The system requirements for Dynamics 365 Channel Integration Framework 2.0 are:
 
-## Dynamics 365
-
-Dynamics 365 (online) 9.1 and later.
-
-## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace
-
-To have multisession capabilities, your organization must use a multisession app, such as Omnichannel for Customer Service or Customer Service workspace.
+- Dynamics 365 (online) 9.1 and later.
+- For multisession capabilities, your organization must use a multisession app such as Omnichannel for Customer Service or Customer Service workspace.
 
 ## Licensing
 
-An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user.
+You'll need an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user.
 
 ## Supported browsers
 
