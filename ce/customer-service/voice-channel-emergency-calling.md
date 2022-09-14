@@ -17,7 +17,7 @@ This article describes how emergency calling works in Omnichannel for Customer S
 > [!NOTE]
 >
 > - Emergency calling is currently supported only in the United States and Puerto Rico where the emergency calling number is 911.
-> - For the call to be handled, the number from which the emergency call originates must be a Microsoft calling plan number.
+> - For the emergency call to be handled, the number from which it originates must be a Microsoft calling plan number.
 
 ## Prerequisites
 
