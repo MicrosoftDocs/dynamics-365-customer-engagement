@@ -15,18 +15,20 @@ ms.custom:
 
 With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple channel providers (first-party chat and third-party telephony providers) in the Omnichannel for Dynamics 365 Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (such as first-party chat and third-party telephony providers), where each of these sessions belongs to a different provider. Agents can switch across these sessions as needed. Omnichannel for Customer Service brings one provisioned channel provider configuration, however, you can add other channel provider records and configure them. 
 
-Here are some considerations regarding this capability:
+## Considerations
 
-- Sessions started using Dynamics 365 Channel Integration Framework 2.0 APIs are associated with the channel provider. Providers are notified about events on the session started by them.
+Here are a few things to note when you create or start sessions:
+
+- Sessions started using Dynamics 365 Channel Integration Framework 2.0 APIs are associated with the channel provider. Providers are notified about events for the session started by them.
 
 - Providers can open new tabs only in the sessions they have started.
 
-- Providers cannot programmatically switch sessions or close sessions. Agents can manually switch and close sessions.
+- Providers cannot programmatically switch sessions or close sessions. 
+
+- Agents can manually switch and close sessions. As a best practice, we recommended that sessions are started after taking agent consent using a toast notification. Here are a few considerations 
 
 - If a provider session is not in focus, and there is a new event in that session (for example, a new unread message from a customer), then you can use the [requestFocusSession API](reference/microsoft-ciframework/requestfocussession.md) to show the agent that the session that's not in focus requires attention.
 
-> [!NOTE]
-> As a best practice, we recommended that sessions are started after taking agent consent using a toast notification.
 
 ## Start a home (default) session when your organization uses multiple channel providers
 
