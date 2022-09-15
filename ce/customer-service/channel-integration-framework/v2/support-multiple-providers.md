@@ -31,7 +31,7 @@ Here are a few things to note when you create or start sessions when you have mu
 
 ## Start a home (default) session when your organization uses multiple channel providers
 
-If you have multiple channel providers in your organization, the chat widget won't be visible in the home session, as the home session isn't associated with any provider. Also, the [setMode](../v2/reference/microsoft-ciframework/setmode.md) method is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the chat widget, conversation dashboards in the application tab, and so on. 
+When you have multiple channel providers in your organization, the chat widget won't be visible in the home session, as the home session isn't associated with any specific channel provider. Also, the [setMode](../v2/reference/microsoft-ciframework/setmode.md) method isn't supported in the home page. So, you must create a default session to show a dialer experience in the chat widget, conversation dashboards in application tab, and so on. 
 
 To create a default session, do the following:
 1. Use the [createSession](../v2/reference/microsoft-ciframework/createsession.md) method to create a session with relevant application tabs and load them together with the widget.
@@ -39,7 +39,7 @@ To create a default session, do the following:
 
 ## Start a home (default) session when your organization uses a third-party telephony provider
 
-If your organization uses a third-party telephony provider, then you can use the setMode method to start a home session.
+If your organization uses a third-party telephony provider, then you can use the `setMode` method to start a home session.
 
 Call the [Microsoft.CIFramework.setMode(1)](../v2/reference/microsoft-ciframework/setMode.md) method from your provider code to make the communication panel visible. You can add the method at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. 
 

@@ -43,7 +43,7 @@ No, Dynamics 365 Channel Integration Framework provides an extensible framework 
 
 No, Dynamics 365 Channel Integration Framework provides a JavaScript library that exposes APIs that you can use to perform the following operations:
 - Create, retrieve, update, and delete entity records.
-- Get and set Click-to-Act functionality.
+- Get and set ClickToAct functionality.
 - Search among records of a particular entity type.
 - Get and set the panel width, and so on.
 
@@ -111,16 +111,17 @@ For information on selecting versions, see [Choose between version 1.0 and versi
 
 For information on license, see [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans).
 
-### How can third-party telephony providers start their default session?
-
-You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionclosed) event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
-
 ### My organization uses multiple channel providers. How can I start a default session? Also, why is the widget not visible in the home session?
 
-If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
-To create a default session, do the following:
-1. Use the [createSession](/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/createsession) API to create a session with relevant application tabs and load them together with the widget.
-2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
+If there are multiple channel providers in your organization, the widget won't be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
+
+To create a default session, see [Start a home (default) session when your organization uses multiple channel providers](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-multiple-channel-providers).
+### How can third-party telephony providers start their default session?
+
+You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-third-party-telephony-provider)
+
+
+
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that the updated data is available for the agent at all times.
