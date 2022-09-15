@@ -14,7 +14,7 @@ Welcome to Customer Service admin center, a new app that unifies and simplifies 
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
-Some of the improvements include:  
+The notable enhancements include:  
 
 - Consolidated administration experiences that're currently distributed in three different apps: Customer Service Hub, Omnichannel admin center, and app profile manager.
 
