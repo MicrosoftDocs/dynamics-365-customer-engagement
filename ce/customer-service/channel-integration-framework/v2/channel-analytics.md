@@ -1,7 +1,7 @@
 ---
-title: "Channel Analytics | MicrosoftDocs"
+title: "Channel Analytics in Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/05/2021
+ms.date: 09/21/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -11,22 +11,20 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Channel Analytics
+# Channel Analytics in Dynamics 365 Channel Integration Framework 2.0
 
+The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources:
 
-
-The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
-
-- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Microsoft Dataverse 
-- **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
-- **Agent Behavior Data**: The data about the behavior of agents before, during and after the interactions. 
+- **CRM transactional data** The data about customers, their cases, their journey, and all-round relationship with the organization. This is stored in Microsoft Dataverse. 
+- **Communication Data** The data about the interactions (intended, ongoing, and completed) with known and unknown customers 
+- **Agent Behavior Data** The data about the behavior of agents before, during and after the interactions. 
 
 Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel related analytics and insights. 
 
-Without the channel analytics model, if you want to build a contact center analytics solution you will face following problems: 
+If you want to build a contact center analytics solution without the channel analytics model, you might face some issues like: 
 
-- Disjointed and distributed communication data that is generated and maintained by the channel providers.
-- Agent behavior is not logged and instrumented.
+- Disjointed and distributed communication data that's generated and maintained by the channel providers.
+- Agent behavior that's not logged or instrumented.
 - No clear guidance on how to ingest analytical data and in what schema.
 
 > [!IMPORTANT]
@@ -34,23 +32,23 @@ Without the channel analytics model, if you want to build a contact center analy
 
 ## How does Channel Analytics help?
 
-- It generates instrumentation for agent behavior on the Dynamics 365. 
+- It generates instrumentation for agent behavior on Dynamics 365. 
 - It provides APIs to ingest the conversational data into Dataverse. 
-- It standardizes schema for how the aforementioned analytical data will be stored  
-- It defines mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data. 
-- It is extensible, in the sense that it allows you to bring your own KPIs, define your own data payload so that organizations can build analytical solutions as per their need. 
+- It standardizes schema for how the analytical data will be stored.  
+- It defines mechanism to correlate the communication data from multiple providers, CRM transactional data, and agent behavior data. 
+- It is extensible in the sense that it allows you to bring your own KPIs and define your own data payload so that you can build analytical solutions based on your requirements. 
 
-Once the aforementioned data is available in CDS, the business analysts can build analytical solutions that can help users to get historical and real time insights into the contact center performance.
+When the analytics data is available in Dataverse, business analysts can build analytical solutions that can help users to get historical and real-time insights into the contact center performance.
 
-### How do analytics help supervisors?
+### How does analytics help supervisors?
 
 Channel Analytics can help supervisors identify the root cause of anomalies in a session, prepare audit reports for dissatisfactory conversations, track KPIs that impact customer sentiment, and monitor service requests for any KPI breach.
 
-### How do analytics help customer service managers?
+### How does analytics help customer service managers?
 
 Channel Analytics can help customer service managers track KPIs that indicate infrastructural health, get predictive insights about volume of requests and resource requirements, and track KPIs that impact high-priority customer sentiment in the contact center.
 
-### How do analytics help customer service agents?
+### How does analytics help customer service agents?
 
 Channel Analytics can help customer service agents see their performance metrics on different dimensions like customer satisfaction and average handling time, see the burndown trend for their daily work items, and see customer sentiment for ongoing conversations.
 
@@ -79,7 +77,7 @@ Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework
 
 3. On the menu that appears, select **App profile manager**.
 
-4. Select **App profiles** from the site map, and then, select your app profile.
+4. Select **App profiles** from the site map, and then select your app profile.
 
 5. Select the **Channels** tab.
 
@@ -119,7 +117,7 @@ If the partner wants to fire some custom event for their KPIs, they can do it wi
 
 ## Channel Analytics Entities
 
-Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) record in Dataverse for every third party conversation launched through it.
+Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) record in Dataverse for every third-party conversation launched through it.
 
 ### msdyn_kpieventdefinition
 
@@ -129,25 +127,25 @@ Primary entity for defining a KPI event.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
-More information: [msdyn_kpieventdefinition](reference/entities-attributes/msdyn_kpieventdefinition.md).
+More information: [msdyn_kpieventdefinition](reference/entities-attributes/msdyn_kpieventdefinition.md)
 
 ### msdyn_conversationdata
 
 This entity is deprecated and using it to access Dataverse data is not supported.
 
-More information: [msdyn_conversationdata](reference/entities-attributes/msdyn_conversationdata.md).
+More information: [msdyn_conversationdata](reference/entities-attributes/msdyn_conversationdata.md)
 
 ### msdyn_sessiondata
 
 This entity is deprecated and using it to access Dataverse data is not supported.
 
-More information: [msdyn_sessiondata](reference/entities-attributes/msdyn_sessiondata.md).
+More information: [msdyn_sessiondata](reference/entities-attributes/msdyn_sessiondata.md)
 
 ### msdyn_sessionparticipantdata
 
 This entity is deprecated and using it to access Dataverse data is not supported.
 
-More information: [msdyn_sessionparticipantdata](reference/entities-attributes/msdyn_sessionparticipantdata.md).
+More information: [msdyn_sessionparticipantdata](reference/entities-attributes/msdyn_sessionparticipantdata.md)
 
 ### msdyn_kpieventdata
 
@@ -157,15 +155,15 @@ Primary entity for a KPI event.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventsdata`
 
-More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
+More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md)
 
 ## Sample code
 
 The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the conversation entity record is updated when a call is accepted and updating conversation entity record with case details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold.
 
-More information: [Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md).
+More information: [Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)
 
-## See also
+### See also
 
 [App profile manager overview](../../../app-profile-manager/overview.md)
 [Softphone integration sample code for Channel Integration Framework version 2.0](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2)<br />

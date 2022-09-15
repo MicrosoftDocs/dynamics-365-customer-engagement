@@ -104,7 +104,7 @@
     - name: Dynamics 365 Channel Integration Framework 1.0 Entity reference
       items:
       - name: Deprecated entities
-        href: reference/entities-attributes/deprecated-cifv1.md      
+        href: reference/entities-attributes/deprecated-cifv1.md
       - name: "msdyn_ciprovider"
         href: reference/entities-attributes/msdyn-ciprovider.md
       - name: "msdyn_conversationdata"
@@ -124,7 +124,9 @@
     - name: Architecture of Dynamics 365 Channel Integration Framework 2.0
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: System requirements
-      href: v2/system-requirements-channel-integration-framework-v2.md      
+      href: v2/system-requirements-channel-integration-framework-v2.md
+    - name: Modes for communication widget
+      href: v2/modes-communication-widget.md
     - name: Set up Dynamics 365 Channel Integration Framework 2.0
       items:
       - name: Get Dynamics 365 Channel Integration Framework 2.0
@@ -139,30 +141,30 @@
         href: v2/pass-url-widget-library.md
       - name: Add Channel Integration Framework solution as a dependent solution
         href: v2/add-cif-solution-dependent-solution.md
-    - name: Integrate with multisession apps
-      href: v2/integration-multi-session-experiences.md
-    - name: Support for multiple channel providers
-      href: v2/support-multiple-providers.md
-    - name: Modes for communication widget
-      href: v2/modes-communication-widget.md
-    - name: Sample softphone integration
-      href: v2/sample-softphone-integration-v2.md       
-    - name: Migrate third-party channel configuration data
-      href: v2/migrate-config-data.md      
+    - name: How-To
+      items:
+      - name: Integrate with multisession apps
+        href: v2/integration-multi-session-experiences.md
+      - name: Support for multiple channel providers
+        href: v2/support-multiple-providers.md
+      - name: Sample softphone integration
+        href: v2/sample-softphone-integration-v2.md
+      - name: Migrate third-party channel configuration data
+        href: v2/migrate-config-data.md
     - name: Templates
       items:
-       - name: Overview
-         href: v2/templates-overview-cif.md
-       - name: Manage session templates
-         href: v2/session-templates-cif.md
-       - name: Manage application tab templates
-         href: v2/application-tab-templates-cif.md
-       - name: Manage notification templates
-         href: v2/notification-templates-cif.md
-       - name: Use automation dictionary to pass data parameter keys
-         href: v2/automation-dictionary-keys-cif.md
-       - name: Associate templates with scenarios
-         href: v2/associate-templates-cif.md
+      - name: Overview
+        href: v2/templates-overview-cif.md
+      - name: Manage session templates
+        href: v2/session-templates-cif.md
+      - name: Manage application tab templates
+        href: v2/application-tab-templates-cif.md
+      - name: Manage notification templates
+        href: v2/notification-templates-cif.md
+      - name: Use automation dictionary to pass data parameter keys
+        href: v2/automation-dictionary-keys-cif.md
+      - name: Associate templates with scenarios
+        href: v2/associate-templates-cif.md
     - name: Channel Analytics
       href: v2/channel-analytics.md
     - name: Dynamics 365 Channel Integration Framework 2.0 API Reference
