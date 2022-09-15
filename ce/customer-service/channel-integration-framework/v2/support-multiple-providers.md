@@ -40,9 +40,9 @@ To create a default session, do the following:
 
 If your organization uses a third-party telephony provider, then you can use the setMode API to start a home session.
 
-Call the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the communication panel visible. You can add the method at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. 
+Call the [Microsoft.CIFramework.setMode(1)](../reference/microsoft-ciframework/setMode.md) method from your provider code to make the communication panel visible. You can add the method at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. 
 
-In addition to this, you can listen to the [onSessionClosed](reference/events/onsessionclosed) event to show the channel provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether a session is open or not.
+In addition to this, you can listen to the [onSessionClosed](../reference/events/onsessionclosed) event to show the channel provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether a session is open or not.
 
 ### See also
 
