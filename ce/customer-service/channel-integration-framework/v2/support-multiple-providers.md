@@ -34,7 +34,7 @@ Here are a few things to note when you create or start sessions:
 If you have multiple channel providers in your organization, the chat widget won't be visible in the home session, as the home session isn't associated with any provider. Also, the [setMode](reference/microsoft-ciframework/setmode.md) method is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the chat widget, conversation dashboards in the application tab, and so on. 
 
 To create a default session, do the following:
-1. Use the [createSession](../reference/microsoft-ciframework/createsession) method to create a session with relevant application tabs and load them together with the widget.
+1. Use the [createSession](../reference/microsoft-ciframework/createsession.md) method to create a session with relevant application tabs and load them together with the widget.
 2. Use the [Microsoft.CIFramework.setMode(1)](../reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
 
 ## Start a home (default) session when your organization uses a third-party telephony provider
@@ -43,7 +43,7 @@ If your organization uses a third-party telephony provider, then you can use the
 
 Call the [Microsoft.CIFramework.setMode(1)](../reference/microsoft-ciframework/setMode.md) method from your provider code to make the communication panel visible. You can add the method at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. 
 
-In addition to this, you can listen to the [onSessionClosed](../reference/events/onsessionclosed) event to show the channel provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether a session is open or not.
+In addition to this, you can listen to the [onSessionClosed](../reference/events/onsessionclosed.md) event to show the channel provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether a session is open or not.
 
 ### See also
 
