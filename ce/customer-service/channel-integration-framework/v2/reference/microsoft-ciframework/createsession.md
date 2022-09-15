@@ -17,7 +17,7 @@ ms.custom:
 
 Creates a new session based on the session template name and returns the unique identifier of the session that was created. 
 
-If your organization uses multiple channel providers or a third-party telephony provider, then you can use this method to start a default session. More information: [Support for multiple channel providers](support-multiple-providers.md)
+If your organization uses multiple channel providers or a third-party telephony provider, then you can use this method to start a default session. More information: [Support for multiple channel providers](../../support-multiple-providers.md)
 
 > [!Important]
 > This method supports session templates of type **Generic** only.  
