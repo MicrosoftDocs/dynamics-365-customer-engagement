@@ -31,8 +31,8 @@ ms.custom:
   
 <td><h2>Accessibility and privacy</h2>
   <ul>
-  <li><a href="/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility in Dynamics 365 Customer Service]https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility">Accessibility in Dynamics 365 Customer Service</a></li>
-<li><a href="/dynamics365/get-started/gdpr/" data-raw-source="[Privacy and personal data in Customer Service]https://docs.microsoft.com/dynamics365/get-started/gdpr/">Privacy and personal data in Customer Service</a></li>
+  <li><a href="/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility in Dynamics 365 Customer Service]https://learn.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility">Accessibility in Dynamics 365 Customer Service</a></li>
+<li><a href="/dynamics365/get-started/gdpr/" data-raw-source="[Privacy and personal data in Customer Service]https://learn.microsoft.com/dynamics365/get-started/gdpr/">Privacy and personal data in Customer Service</a></li>
 <li><a href="keyboard-navigation-support-customer-service-hub.md" data-raw-source="[Keyboard navigation support]keyboard-navigation-support-customer-service-hub.md">Keyboard navigation support</a></li>
  </li> 
   </ul>
@@ -57,10 +57,10 @@ ms.custom:
 <td><h2>Learn</h2>
    <ul>
 
-  <li><a href="/learn/modules/introduction-dynamics-365-customer-service" data-raw-source="[Introduction to Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/introduction-dynamics-365-customer-service">Introduction to Dynamics 365 Customer Service</a></li>
-  <li><a href="/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Get started with Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Get started with Dynamics 365 Customer Service</a></li>
-  <li><a href="/learn/modules/getting-started-omnichannel" data-raw-source="[Getting started with Omnichannel for Customer Service]https://docs.microsoft.com/learn/modules/getting-started-omnichannel">Getting started with Omnichannel for Customer Service</a></li>
- <li><a href="/learn/modules/work-distribution-omnichannel" data-raw-source="[Routing and work distribution in Omnichannel for Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/work-distribution-omnichannel">Routing and work distribution in Omnichannel for Dynamics 365 Customer Service</a></li>
+  <li><a href="/training/modules/introduction-dynamics-365-customer-service" data-raw-source="[Introduction to Dynamics 365 Customer Service]https://learn.microsoft.com/training/modules/introduction-dynamics-365-customer-service">Introduction to Dynamics 365 Customer Service</a></li>
+  <li><a href="/training/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Get started with Dynamics 365 Customer Service]https://learn.microsoft.com/training/modules/get-started-with-dynamics-365-for-customer-service">Get started with Dynamics 365 Customer Service</a></li>
+  <li><a href="/training/modules/getting-started-omnichannel" data-raw-source="[Getting started with Omnichannel for Customer Service]https://learn.microsoft.com/training/modules/getting-started-omnichannel">Getting started with Omnichannel for Customer Service</a></li>
+ <li><a href="/training/modules/work-distribution-omnichannel" data-raw-source="[Routing and work distribution in Omnichannel for Dynamics 365 Customer Service]https://learn.microsoft.com/training/modules/work-distribution-omnichannel">Routing and work distribution in Omnichannel for Dynamics 365 Customer Service</a></li>
  
   </ul>
   </td>

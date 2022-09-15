@@ -24,7 +24,7 @@ productDirectory:
       links:
         - url: ./help-hub.md
           text: Documentation
-        - url: /learn/browse/?products=dynamics-customer-service
+        - url: /training/browse/?products=dynamics-customer-service
           text: Learn Dynamics 365 Customer Service
 
 additionalContent:
