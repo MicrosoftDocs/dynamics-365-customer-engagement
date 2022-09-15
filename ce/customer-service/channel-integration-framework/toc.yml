@@ -20,15 +20,15 @@
         href: get-channel-integration-framework.md
       - name: Configure channel provider for your Dynamics 365 organization
         href: configure-channel-provider-channel-integration-framework.md
-      - name: Enable outbound communication (ClickToAct)"
+      - name: Enable outbound communication (ClickToAct)
         href: enable-outbound-communication-clicktoact.md
-      - name: Add Channel Integration Framework solution as a dependent solution
+      - name: Add Dynamics 365 Channel Integration Framework 1.0 solution as dependent solution
         href: add-cif-solution-dependent-solution.md   
       - name: Authenticate channel users to the channel
         href: authenticate-channel-users.md
       - name: Pass Dynamics 365 URL to widget library
         href: pass-url-widget-library.md
-      - name: Sample softphone integration" 
+      - name: Sample softphone integration
         href: sample-softphone-integration.md      
     - name: Tutorials
       items:
@@ -42,7 +42,7 @@
         items:
         - name: Overview
           href: reference/microsoft-ciframework.md
-        - name: Communication Panel Management APIs
+        - name: Communication panel management APIs
           items:
           - name: "setWidth"
             href: reference/microsoft-ciframework/setWidth.md
@@ -139,15 +139,15 @@
         href: v2/authenticate-channel-users.md
       - name: Pass Dynamics 365 URL to widget library
         href: v2/pass-url-widget-library.md
-      - name: Add Channel Integration Framework solution as a dependent solution
+      - name: Add Dynamics 365 Channel Integration Framework 2.0 solution as dependent solution
         href: v2/add-cif-solution-dependent-solution.md
-    - name: How-To
+    - name: How-to
       items:
       - name: Integrate with multisession apps
         href: v2/integration-multi-session-experiences.md
-      - name: Support for multiple channel providers
+      - name: Configure support for multiple channel providers
         href: v2/support-multiple-providers.md
-      - name: Sample softphone integration
+      - name: Integrate sample softphone app
         href: v2/sample-softphone-integration-v2.md
       - name: Migrate third-party channel configuration data
         href: v2/migrate-config-data.md

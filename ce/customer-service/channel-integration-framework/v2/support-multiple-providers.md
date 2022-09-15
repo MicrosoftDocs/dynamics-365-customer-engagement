@@ -1,5 +1,5 @@
 ---
-title: "Support for multiple channel providers with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+title: "Configure support for multiple channel providers with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Use this topic to understand how you can add multiple channel providers in Omnichannel for Customer Service using Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 09/21/2022
 ms.topic: reference
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Support for multiple channel providers
+# Configure support for multiple channel providers
 
 With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple channel providers (first-party chat and third-party telephony providers) in the Omnichannel for Dynamics 365 Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (such as first-party chat and third-party telephony providers), where each of these sessions belongs to a different provider. Agents can switch across these sessions as needed. Omnichannel for Customer Service brings one provisioned channel provider configuration, however, you can add other channel provider records and configure them. 
 

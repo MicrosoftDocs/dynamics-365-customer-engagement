@@ -19,8 +19,6 @@ The contact center analytics need operational and conversational data to provide
 - **Communication Data** The data about the interactions (intended, ongoing, and completed) with known and unknown customers 
 - **Agent Behavior Data** The data about the behavior of agents before, during and after the interactions. 
 
-Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel-related analytics and insights. 
-
 If you want to build a contact center analytics solution without the channel analytics model, you might face issues like: 
 
 - Disjointed and distributed communication data that's generated and maintained by the channel providers.
@@ -30,7 +28,9 @@ If you want to build a contact center analytics solution without the channel ana
 > [!IMPORTANT]
 > Channel Analytics is not supported in Dynamics 365 Channel Integration Framework 1.0.
 
-## How does channel analytics help?
+## What does channel analytics do?
+
+In Dynamics 365 Channel Integration Framework 2.0, channel analytics provides a model to build a consistent, seamless, and unified experience when it comes to channel-related analytics and insights. 
 
 - It generates instrumentation for agent behavior on Dynamics 365. 
 - It provides APIs to ingest the conversational data into Dataverse. 
@@ -46,7 +46,7 @@ Channel analytics can help supervisors identify the root cause of anomalies in a
 
 ### How does analytics help customer service managers?
 
-Channel Analytics can help customer service managers track KPIs that indicate infrastructural health, get predictive insights about volume of requests and resource requirements, and track KPIs that impact high-priority customer sentiment in the contact center.
+Channel analytics can help customer service managers track KPIs that indicate infrastructural health, get predictive insights about volume of requests and resource requirements, and track KPIs that impact high-priority customer sentiment in the contact center.
 
 ### How does analytics help customer service agents?
 
