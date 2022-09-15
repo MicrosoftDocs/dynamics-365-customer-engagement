@@ -105,7 +105,7 @@ Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be ava
 
 ### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
-Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service. You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
+Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service and Customer Service workspace. You can integrate any third-party telephony provider with Omnichannel for Customer Service or Customer Service workspace using the Dynamics 365 Channel Integration Framework 2.0 APIs. 
 
 For information on selecting versions, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
 
@@ -127,11 +127,11 @@ This is to make sure that the updated data is available for the agent at all tim
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
 
-### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
+### Is it possible to view the existing channel providers from Dynamics 365 Channel Integration Framework 2.0 model-driven app?
 
-No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
+No, you'll have to navigate to Dynamics 365 Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
 
 
 ## Dynamics 365 Channel Integration Framework 1.0
