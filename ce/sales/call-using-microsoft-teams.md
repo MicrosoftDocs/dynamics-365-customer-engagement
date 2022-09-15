@@ -1,5 +1,5 @@
 ---
-title: "Make and receive calls through Microsoft Teams dialer"
+title: "Make and receive Teams calls in Dynamics 365"
 description: "Make and receive calls through Microsoft Teams through the dialer, a record, or a work item in Dynamics 365 Sales."
 ms.date: 09/13/2022
 ms.topic: article
@@ -10,9 +10,9 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Make and receive calls through Microsoft Teams 
+# Make and receive Teams calls in Dynamics 365 
 
-Microsoft Teams dialer helps you to be more productive and get work done effectively by calling customers directly from within the Dynamics 365 Sales Hub app. You can make and receive calls through Teams.
+Microsoft Teams dialer helps you to be more productive and get work done effectively by calling customers directly from within the Dynamics 365 Sales Hub app. You can make and receive calls through the Teams dialer.
 
 ## License and role requirements
 
