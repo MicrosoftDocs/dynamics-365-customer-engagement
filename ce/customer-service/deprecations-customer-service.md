@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
-ms.date: 05/17/2022
+ms.date: 10/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,9 +27,19 @@ Administrators and IT professionals can use this information to prepare for futu
 >
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Some admin apps are deprecated
+
+Starting October, 2022, the following admin apps in Customer Service are deprecated:
+
+- Service Management area in Customer Service Hub app
+- Omnichannel admin center
+- App profile manager
+
+By default, these apps won't be available in new org instances. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing, voice channel, and agent experience profiles. More information: [Get started with Omnichannel admin center](oc-admin-center.md)
+
 ## Omnichannel Administration app is deprecated
 
-Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Omnichannel admin center](oc-admin-center.md)
+Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Omnichannel admin center](oc-admin-center.md)
 
 ## setContextProvider method deprecated for authenticated chat
 
