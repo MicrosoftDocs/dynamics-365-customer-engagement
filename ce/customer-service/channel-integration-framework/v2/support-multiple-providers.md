@@ -25,22 +25,21 @@ Here are a few things to note when you create or start sessions:
 
 - Providers cannot programmatically switch sessions or close sessions. 
 
-- Agents can manually switch and close sessions. As a best practice, we recommended that sessions are started after taking agent consent using a toast notification. Here are a few considerations 
+- Agents can manually switch and close sessions. As a best practice, we recommended that sessions are started after taking agent consent using a toast notification.
 
 - If a provider session is not in focus, and there is a new event in that session (for example, a new unread message from a customer), then you can use the [requestFocusSession API](reference/microsoft-ciframework/requestfocussession.md) to show the agent that the session that's not in focus requires attention.
 
-
 ## Start a home (default) session when your organization uses multiple channel providers
 
-If you have multiple channel providers in your organization, the chat widget won't be visible in the home session, as the home session isn't associated with any provider. Also, the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the chat widget, conversation dashboards in the application tab, and so on. 
+If you have multiple channel providers in your organization, the chat widget won't be visible in the home session, as the home session isn't associated with any provider. Also, the [setMode](reference/microsoft-ciframework/setmode.md) method is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the chat widget, conversation dashboards in the application tab, and so on. 
 
 To create a default session, do the following:
-1. Use the [createSession](reference/microsoft-ciframework/createsession) API to create a session with relevant application tabs and load them together with the widget.
-2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
+1. Use the [createSession](../reference/microsoft-ciframework/createsession) method to create a session with relevant application tabs and load them together with the widget.
+2. Use the [Microsoft.CIFramework.setMode(1)](../reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
 
 ## Start a home (default) session when your organization uses a third-party telephony provider
 
-If your organization uses a third-party telephony provider, then you can use the setMode API to start a home session.
+If your organization uses a third-party telephony provider, then you can use the setMode method to start a home session.
 
 Call the [Microsoft.CIFramework.setMode(1)](../reference/microsoft-ciframework/setMode.md) method from your provider code to make the communication panel visible. You can add the method at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. 
 
