@@ -32,6 +32,8 @@ Measuring the effectiveness of a bot in the customer service lifecycle allows cu
 
 The Summary dashboard gives you a broad overview your Power Virtual Agent bots performance and the customer service experience of your organization. The Summary report provides Power Virtual agent-specific KPIs and metrics such as escalation rate, resolution rate, and abandon rate that can be used by supervisors and administrators to track the success of the bot. They can also track and correct bot responses for topics with higher escalation rates items to  improve the effectiveness and reducing further escalations and staffing costs, thereby increasing customer satisfaction.
 
+ :::image type="content" source="media/oc-summary-dashboard.png" alt-text="Screenshot that shows the Omnichannel Historical Summary dashboard.":::
+
 You can view the Summary dashboard in Omnichannel for Customer Service. On the Home tab, select the (+), and then select Omnichannel historical analytics. On the page that appears, select the Summary tab.
 
 
@@ -39,6 +41,7 @@ You can view the Summary dashboard in Omnichannel for Customer Service. On the H
 
 The reports summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, or conversation status.
 
+ :::image type="content" source="media/oc-summary-bot-metrics.png" alt-text="Screenshot shows the bot metrics with respect to conversations.":::
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -52,7 +55,9 @@ The reports summarize the KPIs for the specified time period and the percent cha
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
-## Summary charts
+The following charts are displayed in the Summary dashboard.
+
+ :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Screenshot shows the bot metrics with respect to conversations.":::
 
 | Title | Description |
 | ------- | ------------------ |
@@ -63,5 +68,8 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 ## Bot escalation topic metrics
 
 The bot escalation topic metrics section provides insights into the performance of individual bot topics. Drill-down into these topics to view the corresponding conversation topics, provides supervisors with a holistic look into individual topics in reference to key business metrics, and can be valuable in understanding how a bot is resolving a topic or if a bot escalated a conversation pertaining to a topic, how the agents are resolving the topic. to help you better understand how different topic areas are impacting your organization’s support performance.
+
+
+ :::image type="content" source="media/oc-bot-summary-topics.png" alt-text="Screenshot shows the bot converation topics and customer journey.":::
 
 ## Language availability for topics
