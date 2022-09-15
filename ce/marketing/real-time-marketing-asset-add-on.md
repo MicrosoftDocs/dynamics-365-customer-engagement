@@ -40,7 +40,7 @@ There are some functional differences between the two libraries. It's up to you 
 | Alternative text​ | ❌​ | ✔​ |
 | Automated tagging​ | ❌​ | ✔​ |
 | Smart recommendations for images​ | ❌​ | ✔​​ |
-| Bulk actions​ | ❌​ | ✔​ |
+| Bulk actions​ | ✔​ | ✔​ |
 | Security roles for asset ownership​ | ✔​ | ❌​ |
 | Business units​ | ✔​ | ❌​ |
 | Application Lifecycle Management​ | ✔​ | ❌​ |
