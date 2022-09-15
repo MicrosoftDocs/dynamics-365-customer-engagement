@@ -28,7 +28,7 @@ Here are some considerations regarding this capability:
 > [!NOTE]
 > As a best practice, we recommended that sessions are started after taking agent consent using a toast notification.
 
-## Start a home (default) session when your organization uses multiple channel providers.
+## Start a home (default) session when your organization uses multiple channel providers
 
 If you have multiple channel providers in your organization, the chat widget won't be visible in the home session, as the home session isn't associated with any provider. Also, the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the chat widget, conversation dashboards in the application tab, and so on. 
 
