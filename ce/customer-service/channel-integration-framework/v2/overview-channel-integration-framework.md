@@ -39,7 +39,7 @@ Dynamics 365 Channel Integration Framework 2.0, provides multiple enhancements o
 
 Key new features in Dynamics 365 Channel Integration Framework 2.0 include: 
 
-- **Integration with multisession experiences**
+- **Integration with multisession apps**
 
   Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service workspace). These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
 
@@ -92,7 +92,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 - **Customizable agent experience**
 
-  - You can customize the custom channel to provide an enhanced agent experience with capabilities like maximize, minimize, show, hide, height, width, and pop-out windows.
+  - You can customize the custom channel to provide an enhanced agent experience with capabilities to maximize, minimize, show, hide, pop out windows, or change the window height or width.
   - Agents can configure to use productivity tools with multiple sessions. They can create new scripts or reuse the existing ones.
 
 - **Upgrading to new versions**
@@ -105,7 +105,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 [System requirements of Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework-v2.md)  
 [FAQ](../faq-channel-integration-framework.md)  
 [Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)  
-[Support multiple providers](support-multiple-providers.md)  
+[Support multiple channel providers](support-multiple-providers.md)  
 [Bring your own channel](../../bring-your-own-channel.md)  
 
 
