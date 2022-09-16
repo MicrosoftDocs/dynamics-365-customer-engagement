@@ -24,7 +24,7 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
-- An app is created and configured in **Teams** > **Developer Portal**. More information: [Build your first Teams app using C#](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal#register-an-app)
+- An app is created and configured in **Teams** > **Developer Portal**. More information: [Create and register an app](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal#register-an-app)
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
