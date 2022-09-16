@@ -59,7 +59,7 @@ You can create a chat authentication setting record in the admin app.
         > [!div class=mx-imgBorder]
         > ![Configure chat authentication setting record.](media/chat-auth-settings.png "Configure chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals](#setup-for-custom-portals-that-arent-created-using-power-apps) section later in this article.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) section later in this article.
 
 3. Select **Save**.
 
@@ -148,19 +148,18 @@ If you're adding an authenticated chat experience to a custom website (that's no
     ```
 
    b. The JWT payload should include the following claims:
-
           | Claim | Definition |
           |-------|-------------------------------------------------------------------------------------------------------------|
           | Iss   | The issuer of the token. |
-          | Iat   | The date the token was issued. This is in numeric date format.  |
-          | Exp   | The expiration date of this token. Beyond this date it's no longer valid. This is in numeric date format.  |
+          | Iat   | The date the token was issued, in numeric date format.  |
+          | Exp   | The expiration date of this token, in numeric date format.  |
           | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
           |||
 
      - **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
-         More information: <br>
-         [Manage custom context](send-context-starting-chat.md)  <br>
-         [setAuthTokenProvider method](/developer/reference/methods/setauthtokenprovider.md)
+        More information: <br>
+        [Manage custom context](send-context-starting-chat.md)  <br>
+        [setAuthTokenProvider method](/developer/reference/methods/setauthtokenprovider.md)
        
        > [!NOTE]
        > You can also identify records automatically by using context variables. More information: [Automatically identify customers](record-identification-rule.md)
