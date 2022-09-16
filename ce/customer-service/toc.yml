@@ -1008,7 +1008,7 @@
         items: 
         - name: Omnichannel for Customer Service dashboards
           href: omnichannel-analytics-insights.md
-        - name: Omnichannel Conversation dashboard
+        - name: Omnichannel Summary dashboard
           href: omnichannel-summary-dashboard.md
         - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
