@@ -185,7 +185,7 @@ The inbox case view looks as seen in the following screenshot.
 
 :::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
 
-Learn how to [configure the inbox view](/../../dynamics-365-customer-engagement-pr/ce/app-profile-manager/app-profile-manager.md#configure-the-inbox-view).
+Learn how to [configure the inbox view](configure-inbox.md).
 
 ## Use the productivity pane with Smart Assist
 
