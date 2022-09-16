@@ -850,11 +850,11 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure authentication settings
+    - name: Manage authentication settings
       items:
-      - name: Create authentication settings for chat  
+      - name: Configure authentication settings for chat  
         href: create-chat-auth-settings.md
-      - name: Create authentication settings for social channels
+      - name: Configure authentication settings for social channels
         href: create-chat-auth-settings.md#socialauth
     - name: Configure payment profiles
       href: configure-payment-profiles.md

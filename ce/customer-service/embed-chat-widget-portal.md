@@ -13,7 +13,6 @@ manager: shujoshi
 
 ## Embed chat widget in your web portal
 
-To embed a chat widget in your web portal:
 
 1. In Dynamics 365, go to one of the administrator apps.
 
@@ -25,9 +24,8 @@ To embed a chat widget in your web portal:
 
 1. Paste the chat widget snippet code in the HTML source \<body\> of your website.
 
-## Embed chat widget in your Power Apps portal
+## Embed chat widget in your Power Apps portals
 
-To embed a chat widget in Power Apps portals:
 
 1. In one of the administrator apps, open the chat widget you want to embed in Power Apps portals.
 
