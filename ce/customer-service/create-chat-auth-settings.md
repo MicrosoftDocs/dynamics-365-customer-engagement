@@ -159,12 +159,10 @@ If you're adding an authenticated chat experience to a custom website (that's no
           |||
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
-        More information: <br>
-        [Manage custom context](send-context-starting-chat.md)  <br>
-        [setAuthTokenProvider method](/developer/reference/methods/setauthtokenprovider.md)
-       
-       > [!NOTE]
-       > You can also identify records automatically by using context variables. More information: [Automatically identify customers](record-identification-rule.md)
+            More information: <br>
+            [Manage custom context](send-context-starting-chat.md)  <br>
+            [setAuthTokenProvider method](/developer/reference/methods/setauthtokenprovider.md)<br>
+            [Identify records automatically using context variables](record-identification-rule.md)<br>
      
       - Any other data that you want to pass.
 
