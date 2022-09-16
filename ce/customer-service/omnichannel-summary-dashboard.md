@@ -1,5 +1,5 @@
 ---
-title: Summary Dashboard for PVA bots | Microsoft Docs
+title: Summary Dashboard for PVA-OC integration | Microsoft Docs
 description: Integrate PVA and Omnichannel analytics to better understand your organization's customer service experience
 ms.date: 09/06/2022
 ms.topic: article
@@ -24,7 +24,7 @@ searchScope:
 - Customer Engagement
 ---
 
-# Analyze PVA bot performance and usage
+# Summary dashboard 
 
 The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agent and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agent bot metrics such as escalation and deflection rate are displayed in conjunction with agent engagement rate and abandon rate gives Customer Service Manager or Supervisors an overview of how the customers interact with bots, insights into bot and their corresponding agent conversation topics to evaluate how different topic areas are impacting your organization’s support performance. 
 
