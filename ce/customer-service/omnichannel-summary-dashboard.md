@@ -1,5 +1,5 @@
 ---
-title: Summary Dashboard for PVA bots | Microsoft Docs
+title: Summary Dashboard for PVA-OC integration | Microsoft Docs
 description: Integrate PVA and Omnichannel analytics to better understand your organization's customer service experience
 ms.date: 09/06/2022
 ms.topic: article
@@ -24,18 +24,15 @@ searchScope:
 - Customer Engagement
 ---
 
-# Analyze PVA bot performance and usage
+# Summary dashboard 
 
-In Omnichannel for Customer Service, bots can be integrated into the customer service journey to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required.
+The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agent and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agent bot metrics such as escalation and deflection rate are displayed in conjunction with agent engagement rate and abandon rate gives Customer Service Manager or Supervisors an overview of how the customers interact with bots, insights into bot and their corresponding agent conversation topics to evaluate how different topic areas are impacting your organization’s support performance. 
 
-Measuring the effectiveness of a bot in the customer service lifecycle allows customer service managers or supervisors to handle escalations from the bot more effectively or handle increased customer request volumes by increasing agent staffing, and suggest changes to update the bot's responses based on the agent's resolution steps or escalated conversations, reducing future escalations and costs.
-
-The Summary dashboard gives you a broad overview your Power Virtual Agent bots performance and the customer service experience of your organization. The Summary report provides Power Virtual agent-specific KPIs and metrics such as escalation rate, resolution rate, and abandon rate that can be used by supervisors and administrators to track the success of the bot. They can also track and correct bot responses for topics with higher escalation rates items to  improve the effectiveness and reducing further escalations and staffing costs, thereby increasing customer satisfaction.
+This helps them to handle increased bot escalations and customer requests effectively, increase or decrease agent staffing based on the conversation volumes, improving customer satisfaction and decreasing costs.
 
  :::image type="content" source="media/oc-summary-dashboard.png" alt-text="Screenshot that shows the Omnichannel Historical Summary dashboard.":::
 
 You can view the Summary dashboard in Omnichannel for Customer Service. On the Home tab, select the (+), and then select Omnichannel historical analytics. On the page that appears, select the Summary tab.
-
 
 ## Report details
 
@@ -67,9 +64,32 @@ The following charts are displayed in the Summary dashboard.
 
 ## Bot escalation topic metrics
 
-The bot escalation topic metrics section provides insights into the performance of individual bot topics. Drill-down into these topics to view the corresponding conversation topics, provides supervisors with a holistic look into individual topics in reference to key business metrics, and can be valuable in understanding how a bot is resolving a topic or if a bot escalated a conversation pertaining to a topic, how the agents are resolving the topic. to help you better understand how different topic areas are impacting your organization’s support performance.
-
+The bot escalation topic metrics section provides insights into the performance of individual bot topics. Drill-down into these topics to view the corresponding conversation topics, for a holistic look into individual topics and their key business metrics. Supervisors can use this information to understand how a bot is resolving a topic and how an agent is resolving a bot escalated conversation topic. to help you better understand how different topic areas are impacting your organization’s support performance.
 
  :::image type="content" source="media/oc-bot-summary-topics.png" alt-text="Screenshot shows the bot converation topics and customer journey.":::
+ 
+ To view further bot-specific topics and their related metrics, see: [Bot dashboard](oc-bot-dashboard.md)   
 
-## Language availability for topics
+## Language availability for topics 
+
+The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages: 
+
+- English 
+- French 
+- German 
+- Italian 
+- Japanese 
+- Portuguese 
+- Simplified Chinese 
+- Spanish 
+
+> [!NOTE]
+> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+
+### See Also
+
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
