@@ -24,8 +24,8 @@ When you define a model, you'd like get insights on the performance of each attr
 1. On the **Edit fields** page, select the attribute for which you want to view insights, either from **Primary entity** or **Related entities**. 
     The **Attribute Insights** pane is displayed on the right side of the page. The following image shows an example of the **Attribute Insights** pane for the **Lead Source** attribute.
 
-> [!div class="mx-imgBorder"]
-> ![Attribute Insights pane.](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute Insights pane")
+    > [!div class="mx-imgBorder"]
+    > ![Attribute Insights pane.](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute Insights pane")
 
 On the **Attribute Insights** pane, you can view detailed information about an attribute, such as its qualification rate and the most important reasons&mdash;both positive and negative&mdash;for that rate. 
 

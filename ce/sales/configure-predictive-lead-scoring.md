@@ -52,8 +52,6 @@ Verify that you meet the following requirements before adding lead scoring model
 
 ## Create and add a scoring model
 
-Defines the criteria for choosing the leads for training and scoring
-
 A scoring model defines the criteria for choosing the leads for training and scoring. If your organization follows different sales practices across different regions or business units, you can create multiple models and define unique training sets for each of them.  
 
 **To create and add a scoring model:**

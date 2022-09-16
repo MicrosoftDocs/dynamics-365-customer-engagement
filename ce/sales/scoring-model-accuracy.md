@@ -13,6 +13,9 @@ manager: shujoshi
 
 Knowing the accuracy of a predictive scoring model is important to decide whether the model is ready for use or you need to fine tune it for better accuracy. It also helps you to convince the leadership team and sellers to adopt the model for improved business outcomes.
 
+> [!NOTE]
+> The metrics described in this article apply to both opportunity scoring and lead scoring.  
+
 ## License and role requirements
 
 | Requirement type | You must have |
@@ -28,10 +31,10 @@ A predictive scoring model calculates the likelihood of an opportunity or lead c
 - Selection of business process flow and appropriate filters.  
 - Stages and attributes chosen, if the model is enabled for per stage modeling.  
 
-After a model is trained, the model runs on the closed opportunities in the training data and verifies the predictions against the actual data. The accuracy of the model is then calculated based on various parameters such as true positives, false positives, and so on.  
+After a model is trained, the model runs on the closed opportunities/leads in the training data and verifies the predictions against the actual data. The accuracy of the model is then calculated based on various parameters such as true positives, false positives, and so on.  
 
 > [!NOTE]
-> The model is trained using 80% of your closed opportunities and then validated using the remaining 20% as test opportunities, which are the most recent ones.
+> The model is trained using 80% of your closed opportunities/leads and then validated using the remaining 20% as test opportunities/leads, which are the most recent ones.
 
 ## View accuracy and performance metrics  
 
@@ -55,7 +58,7 @@ After a model is trained, the model runs on the closed opportunities in the trai
         - **Accuracy**  
             Indicates how often your model makes correct predictions, either as positive or negative. This metric is most useful when the dataset is balanced, and the cost of false positives and false negatives is the same. The accuracy score is calculated using the following formula:
             
-            Accuracy = (TP + TN) / (Total number of opportunities scored) *100
+            Accuracy = (TP + TN) / (Total number of opportunities/leads scored) *100
 
         - **Recall**  
             Indicates how often the model predicted a positive outcome correctly compared to the actual positives. A low recall score means the model is predicting fewer true positives. The recall score is calculated using the following formula:
@@ -63,9 +66,9 @@ After a model is trained, the model runs on the closed opportunities in the trai
             Recall = TP / (TP + FN) * 100     
 
         - **Conversion rate**  
-            Displays the percentage of leads or opportunities that are actually qualified/won as per historical data. This rate indicates the likelihood that an opportunity or lead will convert. This value is referenced by the model to determine how an attribute will influence the predictive score. The conversion rate is calculated using the following formula:
+            Displays the percentage of leads or opportunities/leads that are actually qualified/won as per historical data. This rate indicates the likelihood that an opportunity or lead will convert. This value is referenced by the model to determine how an attribute will influence the predictive score. The conversion rate is calculated using the following formula:
             
-            Conversion rate = (TP + FN) / (Total number of opportunities scored) *100
+            Conversion rate = (TP + FN) / (Total number of opportunities/leads scored) *100
 
     - **Confusion matrix**  
         Indicates how well your model is able to predict the outcomes when it was tested against historical data. The matrix displays the number of true positives, true negatives, false positives, and false negatives.
