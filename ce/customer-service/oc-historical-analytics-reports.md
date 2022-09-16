@@ -83,7 +83,7 @@ You can enable historical analytics for Power virtual agent bots in the Customer
 
 > [!IMPORTANT]
 >
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for bots.
+> Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**.
