@@ -30,7 +30,13 @@ sections:
       - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
         answer: |
           Yes, you can customize the calendar to replace the existing primary field and add up to three custom fields. For more information, see [edit the booking calendar control](/dynamics365/field-service/mobile-power-app-configure#edit-the-bookings-calendar-control).
-  - name: Maps and locations
+       - question: I created a custom view for my Booking Calendar and I cannot see any data or certain elements like address are not displayed for each booking?
+        answer: |
+          The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
+          If an field such as "Address" is missing from all Bookings on the calendar, it is likely that the Work Order table has been renamed or modified and Calendar Control will not be able to find the proper address columns. In this case you need to add proper fields from the renamed entity back into the view.
+           > [!div class="mx-imgBorder"]
+          > ![Screenshot of columns related to address for booking calendar.](./media/address_Items.png)
+ - name: Maps and locations
     questions:          
       - question: How do I enable address suggestions?
         answer: |
