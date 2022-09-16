@@ -76,7 +76,7 @@ The following table lists the language availability of the other Customer Servic
 
 ## Service limits for analytics and insights
 
-The built-in limits are designed to ensure reliability and stability of the service. Use the Ideas forum to request for changes.
+The built-in limits are designed to ensure reliability and stability of the service. Use the Ideas forum to request changes.
 
 The following table lists the built-in limits for the embedded version of insights that can be accessed through the Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service apps.
 
@@ -92,7 +92,7 @@ The following table lists the built-in limits for the embedded version of insigh
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner that's minimally disruptive.
+AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provides options for customers with high usage scenarios and patterns to purchase additional capacity in a manner that's minimally disruptive.
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
