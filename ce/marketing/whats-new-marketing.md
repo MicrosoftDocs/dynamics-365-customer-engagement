@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 08/05/2022
+ms.date: 09/15/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -68,7 +68,7 @@ Additionally, this update includes improvements to the asset library, real-time 
 #### Monthly enhancements
 
 - **Asset library**
-    - You can now choose whether to use the default asset library or install an optional add-on in real-time marketing for additional file type support.
+    - You can now choose whether to use the default asset library or install an optional add-on in real-time marketing for additional file type support. Learn more: [Install the real-time marketing asset library add-on](real-time-marketing-asset-add-on.md).
 - **Real-time journeys**
     - Deliver more personalized experiences by accessing a richer set of trigger data for defining the journey entry/exit criteria, conditions/branches, and waits. When you add any of these elements to the journey, you will now be able to see data attributes not only from the trigger’s core entity/table, but also from entities/tables directly related to those attributes. For example, when creating a journey to nurture new opportunities (using the “Opportunity created” trigger), you can branch the journey based on the “budget” attribute from the Opportunity table. This enables you to create journey variations for opportunities that are more likely to buy.
 
@@ -168,7 +168,7 @@ The update also includes improvements to real-time journeys, the SMS channel, ma
 
 The Dynamics 365 Marketing June 2022 update has three preview features and two general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new segment builder, the ability to continue customer conversations by taking action on SMS replies, and multiple journey branches to create more personalized variations. General availability features include a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, Customer Service and the ability to trigger journeys based on data changes in any Dynamics 365 app.
 
-The update also includes an admin digital data sharing opt-in for better performing AI features, business unit scoping support from the Dataverse Data Source service, better visibility for errors that occur when going live with pages and forms, and conditional content support for email templates.
+The update also includes an admin digital data sharing opt-in for better performing AI features, better visibility for errors that occur when going live with pages and forms, and conditional content support for email templates.
 
 #### Version number
 
@@ -226,8 +226,6 @@ The update also includes an admin digital data sharing opt-in for better perform
 
 - **Real-time marketing**
     - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for Content Ideas (GPT-3), and get better recommendations for channel optimization.
-- **Business units**
-    - The Dataverse Data Source service now respects business unit scoping, enabling organizations to support multi-brand strategy needs, reduce compliance risks, define reusable marketing assets, and review marketing results at various organizational levels.
 - **Marketing pages**
     - Errors are now displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
 - **Conditional content**

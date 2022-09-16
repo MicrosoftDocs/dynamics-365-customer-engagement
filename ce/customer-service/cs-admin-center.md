@@ -45,7 +45,7 @@ You'll need one or more of the following security roles to access this app:
 
 ## Access the app
 
-The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center.
+The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
 
 ## Quick setup (preview)
 
