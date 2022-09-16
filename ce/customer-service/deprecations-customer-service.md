@@ -19,7 +19,7 @@ search.app:
 
 # Deprecations in Customer Service
 
-The features that have been deprecated in Customer Service are listed in this article. 
+The features that have been deprecated in Customer Service are listed in this article.
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
