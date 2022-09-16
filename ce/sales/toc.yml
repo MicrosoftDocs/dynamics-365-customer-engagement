@@ -217,16 +217,16 @@
           items:
             - name: Configure predictive lead scoring
               href: configure-predictive-lead-scoring.md
-            - name: View model accuracy and performance
-              href: scoring-model-accuracy.md
             - name: Predictive lead scoring configuration page
               href: understand-pls-configuration-page.md
+            - name: View model accuracy and performance
+              href: scoring-model-accuracy.md
             - name: Edit and retrain a model
               href: pls-edit-and-retrain-model.md
-            - name: Manage duplicate lead scoring models
-              href: pls-duplicate-models.md
             - name: View the influence of an attribute on the model
               href: pls-attribute-influence.md
+            - name: Manage duplicate lead scoring models
+              href: pls-duplicate-models.md
             - name: Add the lead scoring widget to a form
               href: pls-add-widget.md
     - name: Opportunity management
