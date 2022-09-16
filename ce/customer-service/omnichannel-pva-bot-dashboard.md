@@ -13,7 +13,7 @@ manager: shujoshi
 The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how effectively the Power Virtual Agents bots integrated with Omnichannel for Customer Service are handling customer conversations.
 
 > [!NOTE]
-> You can view this report when Power Virtual Agent bots are integrated and the **Historical Analytics for bots** check box is selected in the Customer Service Admin Center. 
+> You can view this report when Power Virtual Agent bots are integrated and the **Add historical analytics for bots** checkbox is selected in the Customer Service Admin Center. 
 
 You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
