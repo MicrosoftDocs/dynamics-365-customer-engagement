@@ -87,7 +87,7 @@ In addition, particularly if you have created a custom security role, validate t
 5. Select **Save and Close** to save the changes to the security role.
 
 > [!NOTE]
-> To see a model-driven app in the list of apps, you need to have a [predefined security role](/power-platform/admin/database-security#predefined-security-roles) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use an Azure Active Directory (AAD) group team. Users will not see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
+> To see a model-driven app in the list of apps on your mobile app, you need to have a [predefined security role](/power-platform/admin/database-security#predefined-security-roles) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use an Azure Active Directory (AAD) group team. Users will not see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
 
 ### Required services
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
