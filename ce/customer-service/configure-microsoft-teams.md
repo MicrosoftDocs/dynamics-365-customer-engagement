@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 09/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,22 +13,20 @@ manager: shujoshi
 
 ## Microsoft Teams channel
 
-Using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;allows organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service.
+Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service.
 
 ## Prerequisites
 
 Make sure that the following prerequisites are met:
 
-- Microsoft Teams is provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Microsoft Teams is installed in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
   > [!NOTE]
   > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
-- An app is created and configured in **Teams** > **App Studio**. More information: [Build your first Teams app using C#](/microsoftteams/platform/get-started/get-started-dotnet-app-studio?tabs=AS).
+- An app is created and configured in **Teams** > **Developer Portal**. More information: [Create and register an app](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal#register-an-app)
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
-
-**To configure a Microsoft Teams channel**
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
@@ -121,7 +119,7 @@ Make sure that the following prerequisites are met:
 
 7. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-#### Modify settings for a specific Teams account
+#### Modify settings for a specific account
 
 1. In the Omnichannel Administration app, go to **Microsoft Teams** and select the account you want to modify.
 
