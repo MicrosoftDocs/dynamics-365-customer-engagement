@@ -147,16 +147,18 @@ If you're adding an authenticated chat experience to a custom website (that's no
     } 
     ```
 
-   b. The JWT payload should include the following claims:
+   b. The JWT payload should include: 
+      - At minimum, the following claims:
+         
           | Claim | Definition |
           |-------|-------------------------------------------------------------------------------------------------------------|
-          | Iss   | The issuer of the token. |
-          | Iat   | The date the token was issued, in numeric date format.  |
-          | Exp   | The expiration date of this token, in numeric date format.  |
+          | iss   | The issuer of the token. |
+          | iat   | The date the token was issued, in numeric date format.  |
+          | exp   | The expiration date of this token, in numeric date format.  |
           | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
           |||
 
-     - **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
+      -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
         More information: <br>
         [Manage custom context](send-context-starting-chat.md)  <br>
         [setAuthTokenProvider method](/developer/reference/methods/setauthtokenprovider.md)
@@ -164,21 +166,20 @@ If you're adding an authenticated chat experience to a custom website (that's no
        > [!NOTE]
        > You can also identify records automatically by using context variables. More information: [Automatically identify customers](record-identification-rule.md)
      
-     - Any other data that you want to pass.
+      - Any other data that you want to pass.
 
-        Your payload will look similar to this example: 
+      Your payload will look similar to this example: 
 
-          ```JavaScript
-          { 
-
+      ```JavaScript
+        { 
             "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",  
             "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\"}", 
             "iat" : 1542622071, 
             "iss" : "contosohelp.com", 
             "exp" : 1542625672, 
             "nbf" : 1542622072 
-          } 
-          ```     
+        } 
+        ```     
         
     c. The JWT signature should be signed by your private key. 
 
