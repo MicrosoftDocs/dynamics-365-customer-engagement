@@ -105,3 +105,9 @@ The following capabilities *are not* available at this time. These capabilities 
 - Quick notes photos and videos
 - Access to GCC High or China cloud environment
 - Search with barcode via global search
+
+
+## Install from app center
+If you don't have access to install Field Service Mobile for Windows from the Microsoft Store then you can install it from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release).
+
+An administrator can also download the package from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release) and distribute it to users with Intune.
