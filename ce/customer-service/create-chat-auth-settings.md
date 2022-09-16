@@ -74,7 +74,7 @@ When a signed-in customer on a portal opens the chat widget, the JavaScript clie
 
 ### Setup for Power Apps portals
 
-If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL, JavaScript client function, and JWT are available out of the box. Here's how you can get the required values:
+If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL and JavaScript client function are available out of the box, while the token endpoint can be retrieved as part of the OAuth 2.0 implicit grant flow. 
 
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
