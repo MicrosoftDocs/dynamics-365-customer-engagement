@@ -2,7 +2,7 @@
 metadata:
   title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
-  ms.date: 06/15/2022
+  ms.date: 09/17/2022
   ms.reviewer: mhart
   ms.subservice: field-service-mobile
   ms.topic: faq
@@ -30,13 +30,15 @@ sections:
       - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
         answer: |
           Yes, you can customize the calendar to replace the existing primary field and add up to three custom fields. For more information, see [edit the booking calendar control](/dynamics365/field-service/mobile-power-app-configure#edit-the-bookings-calendar-control).
-       - question: I created a custom view for my Booking Calendar and I cannot see any data or certain elements like address are not displayed for each booking?
+      
+      - question: I created a custom view for my Booking Calendar. Why is the data or certain elements like address are not displayed for each booking?
         answer: |
           The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
-          If an field such as "Address" is missing from all Bookings on the calendar, it is likely that the Work Order table has been renamed or modified and Calendar Control will not be able to find the proper address columns. In this case you need to add proper fields from the renamed entity back into the view.
-           > [!div class="mx-imgBorder"]
+          If a field such as "Address" is missing from all Bookings on the calendar, it is likely that the Work Order table has been renamed or modified and the Calendar control won't be able to find the address columns. In this case you need to add proper fields from the renamed entity back into the view.
+          > [!div class="mx-imgBorder"]
           > ![Screenshot of columns related to address for booking calendar.](./media/address_Items.png)
- - name: Maps and locations
+
+  - name: Maps and locations
     questions:          
       - question: How do I enable address suggestions?
         answer: |
@@ -201,8 +203,6 @@ sections:
           > [!div class="mx-imgBorder"]
           > ![Screenshot of native input on iOS.](./media/mobile-powerapps-datetime.jpg)
 
-          
-
      - question: Can I use drip scheduling with the Field Service mobile app?
        answer: |
           Drip scheduling is currently not supported with the Field Service (Dynamics 365) mobile app. 
@@ -215,27 +215,28 @@ sections:
         3. Open session details where you will see the app version, along with the current session identifier.
         > [!div class="mx-imgBorder"]
         > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
-       
-      - question: How is data on the device secured and encrypted? 
-       answer: |
-        You can find details on security and encryption here. [The application and data on the device](https://docs.microsoft.com/power-platform/admin/security/overview#the-application-and-data-on-the-device)
 
- - question: How can I enable changes to Command Bar on my Field Service Mobile application? 
+     - question: How is data on the device secured and encrypted?
        answer: |
-          As part of Wave 2 2023, the command bar for Field Service mobile has changed in the following ways:
+        For more information, see [details on security and encryption](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+
+     - question: How can I enable changes to the command bar on my Field Service Mobile application?
+       answer: |
+          As part of Wave 2 2022, the command bar for Field Service mobile has changed in the following ways:
           - Command bar on Tablets has moved to the top of the view.
-          - Certain commands (Delete, Process) are removed for user without access to act on those commands.
-          - Other under used commands are moved to the end of the commanding bar for easier access to more broadly used commands.
+          - Certain commands (Delete, Process) are removed for users without access to act on those commands.
+          - Rarely used commands are moved to the end of the command bar for easier access to more broadly used commands.
           
-          By default these changes are enabled for the out of the box Field Service Mobile app module. If you are using an custom app module, or with to revert the changes to the out of the box app module, these changes can be enabled or disabled via App Settings.
+          By default, these changes are enabled for the Field Service Mobile app module. If you are using an custom app module, or want to revert the changes to a default app module, these changes can be enabled or disabled.
 
-          1. With an admin account, sign in to https://make.powerapps.com. After signing in, be sure to select the correct organization you're targeting from dropdown list.
-          2. Select the `...` next to the App Module for which you want to enable the feature. 
+          1. With an admin account, sign in to https://make.powerapps.com. After signing in, select the correct organization you're targeting from dropdown list.
+          2. Select the `...` next to the App Module for which you want to enable or disable the feature. 
           3. Expand **Settings** to **Edit in Preview**. In the resulting screen, select **Settings** from the top navigation.
-          4. Drill into **Feature Settings** where you'll find the toggle for these features.
-          5. **Save and Publish** your app module.
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of app settings.](./media/mobilecommanding.jpg)
+          4. Go to **Feature Settings** where you'll find the toggle for these features.
+             > [!div class="mx-imgBorder"]
+             > ![Screenshot of app settings.](./media/mobilecommanding.jpg)
+          5. Select **Save and Publish** to update your app module.
+
           
 
           
