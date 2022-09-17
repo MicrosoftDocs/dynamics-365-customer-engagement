@@ -184,10 +184,4 @@ Here are a few important configurations for administrators to consider when init
 > [!Note]
 > You won't be able to use the Field Service Mobile application with your Dynamics 365 organization until you have [set up users](view-user-accounts-security-roles.md) and [bookable resources enabled for mobile app access](set-up-bookable-resources.md) in addition to the steps in this article. To use Field Service Mobile, the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**.
 
-### See also
-
-- [Enable maps for Field Service Mobile](mobile-enable-maps.md)
-- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx)
-- [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
