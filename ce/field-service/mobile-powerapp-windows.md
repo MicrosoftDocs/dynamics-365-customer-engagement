@@ -51,7 +51,7 @@ Open the app and sign in with your username and password. The user account needs
 > [!div class="mx-imgBorder"]
 > ![Launch screen for the Field Service Windows app.](./media/mobile-2020-windows-login-screen.jpg)
 
->[!Note]
+> [!NOTE]
 > To access non-production environments, enable non-production apps from settings.
 
 ## View bookings
