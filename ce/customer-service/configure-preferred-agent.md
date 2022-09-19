@@ -83,11 +83,10 @@ For the supported channels, use the information mentioned in the following table
 
 ### Bulk add preferred agent records
 
-You can add multiple preferred agents to contact records in bulk using the standard create API call. If you are running the script to add multiple preferred agent routing records, ensure that the following conditions are met:
+You can add multiple preferred agents to contact records in bulk using the [createRecord Client API reference](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) call to update the [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md and [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md) entities.
+If you are running the script to add multiple preferred agent routing records, ensure that you map only 3 unique agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered the based on the preference rating. If agents have the same preference rating, the application orders the agents based on the time when the record was created.
 
-- Map only 3 unique agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered the based on the preference rating. If agents have the same preference rating, the application orders the agents based on the time when the record was created.
-- The preference rating must be a positive number between 1 and 3
-- System user id and contact id must not be NULL.
+You can also delete records using the [deleteRecord (Client API reference)](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) update.
 
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
@@ -101,10 +100,7 @@ You must have one of the following roles to configure preferred agent routing.
 
 You must be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
 
-If you have a custom role, you must also have access to the following entities:
-
-- [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md)
-- [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md)
+If you have a custom role, you must also have access to the msdyn_preferredagent and msdyn_preferredagentcustomeridentity entities.
 
 ### Create custom data in organizations with existing Omnichannel solution
 
