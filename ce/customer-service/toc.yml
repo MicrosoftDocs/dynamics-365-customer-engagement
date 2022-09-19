@@ -264,6 +264,8 @@
           href: configure-assignment-rules.md
         - name: Configure routing to preferred agents
           href: configure-preferred-agent.md
+        - name: Manage overflow of work items in queues
+          href: manage-overflow.md
       - name: Set up record routing
         items:
         - name: Provision unified routing for Customer Service
