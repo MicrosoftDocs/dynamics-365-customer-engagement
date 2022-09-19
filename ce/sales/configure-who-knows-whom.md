@@ -57,7 +57,7 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 
     Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom will be automatically turned off on the 14th day.
 
-- Grant access to custom roles that need to view the who knows whom information. By default, Salesperson and Sales Manager roles are granted access. 
+- If you'd like roles other than salesperson and sales manager to access the who knows whom information, [grant access to those roles](grant-access-wkw.md).  
 
 - [Add relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for leads or contacts.
 
