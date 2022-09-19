@@ -81,7 +81,7 @@ To add the health score widget or who knows whom widget to your custom form, fol
 
 9. Save and publish the form.
     > [!NOTE]
-    > If you'd like roles other than salesperson and sales manager to access the who knows whom widget, [grant access to those roles](grant-access-wkw.md). 
+    > If you'd like roles other than Salesperson and Sales Manager to access the who knows whom widget, [grant access to those roles](grant-access-wkw.md). 
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
