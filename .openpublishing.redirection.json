@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/help-hub.md",
+      "redirect_url": "landing-page",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/add-edit-multiregional-instances.md",
       "redirect_url": "/power-platform/admin/regions-overview",
       "redirect_document_id": "false"
@@ -23946,31 +23951,31 @@
       "redirect_url": "edit-a-sequence",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/sales/teams-integration/ci-capabilities.md",
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/cfs-authorize-api-connection.md",
-      "redirect_url": "/dynamics365/field-service/installation-setup-iothub",
+      "redirect_url": "/dynamics365/field-service/installation-setup-iothub"
     },
-    {  
+    {
       "source_path": "ce/sales/configure-talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/sales/talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/customer-service/csw-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
