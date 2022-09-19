@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 09/01/2022
+ms.date: 09/19/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

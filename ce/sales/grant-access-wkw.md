@@ -1,7 +1,7 @@
 ---
 title: Grant access to who knows whom information
 description: Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts
-ms.date: 08/19/2022
+ms.date: 09/19/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -19,7 +19,7 @@ By default, the Salesperson and Sales Manager roles have the permissions to view
 **To grant access:**
 
 1. In the Sales Hub app, select **Settings** in the upper-right corner and select **Advanced Settings**.
-1. In the Business Management page, select **Settings**, **System**, **Security**.
+1. On the **Business Management** page, select **Settings** > **System** > **Security**.
 1. Select **Security Roles**.
 1. Select the security role that you want to grant access for.
 1. In the **Custom Entities** tab, provide read permissions to the following entities:
@@ -34,4 +34,3 @@ By default, the Salesperson and Sales Manager roles have the permissions to view
 ### See also
 
 [Use the Who Knows Whom tile](who-knows-whom.md#use-the-who-knows-whom-tile)
-
