@@ -108,7 +108,7 @@ A scoring model defines the criteria for choosing the leads for training and sco
 
  1. Select **Get started**.
 
-     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
+     The application starts training the model, and a notification is displayed. The application uses the standard attributes to train the model. You can [edit the model](pls-edit-and-retrain-model.md) later to include custom or intelligent attributes.  
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
@@ -116,16 +116,16 @@ A scoring model defines the criteria for choosing the leads for training and sco
     > [!NOTE]
     > If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-    After the model is generated, the lead scoring configuration page is displayed with the **Performance** tab.
+    After the model is trained, a popup message is displayed. 
+    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is trained":::
 
-1. Select the **Performance** tab to view the accuracy of the model. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md).
- 
-1. Select **Publish**, if the model is ready to publish according to your organization's standards.
+1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**. 
 
-     The model is applied to the leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
-
-    > [!NOTE]
-    > If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+1. Perform one of the following actions: 
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md).
+    
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
