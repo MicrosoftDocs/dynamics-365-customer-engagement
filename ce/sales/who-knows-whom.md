@@ -36,7 +36,7 @@ The Who Knows Whom tile shows up to five people in your organization who have co
     :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom tile.":::
 
     > [!NOTE]
-    > If you don't see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, ask your admin to turn on the feature.
+    > If you don't see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, ask your admin to turn on the feature. If you see a message that you don't have sufficient privileges, ask your admin to provide necessary permissions. 
 
 2. Select the icon in the upper-right corner of the **Who Knows Whom** tile to switch between graph and list views.
 
