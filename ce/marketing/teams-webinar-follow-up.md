@@ -105,7 +105,7 @@ Marketing uses different terminology than Teams for your participant information
 
 ## Additional resources
 
-- [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
+- [Explore Microsoft Learn training](/training/browse/?products=dynamics-marketing)
 - [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
 
 > [!NOTE]
