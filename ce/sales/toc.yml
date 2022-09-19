@@ -462,6 +462,8 @@
           href: insights-from-m365.md
         - name: Add relationship intelligence widgets to custom forms
           href: add-ri-widgets-to-custom-form.md
+        - name: Grant access to who knows whom information
+          href: grant-access-wkw.md
 
     - name: Conversation intelligence
       items: 
