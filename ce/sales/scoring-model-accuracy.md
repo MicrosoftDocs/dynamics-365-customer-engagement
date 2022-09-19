@@ -28,6 +28,7 @@ Knowing the accuracy of a predictive scoring model is important to decide whethe
 A predictive scoring model calculates the likelihood of an opportunity or lead converting into a sale. The accuracy of the model depends on the following factors:
 
 - Quality and size of the data available for training the model. The model is only as good as the data fed into it.  
+
 - Selection of business process flow and appropriate filters.  
 - Stages and attributes chosen, if the model is enabled for per stage modeling.  
 
@@ -46,7 +47,7 @@ After a model is trained, the model runs on the closed opportunities/leads in th
 
 2. Select the **Performance** tab.  
     > [!NOTE]
-    > If you don't see the **Performance** tab, [retrain the model](configure-predictive-opportunity-scoring.md#manual-retraining). 
+    > If you don't see any metrics in the **Performance** tab, [retrain the model](configure-predictive-opportunity-scoring.md#manual-retraining). 
 
     The performance metrics of the model are displayed.
 
@@ -66,7 +67,7 @@ After a model is trained, the model runs on the closed opportunities/leads in th
             Recall = TP / (TP + FN) * 100     
 
         - **Conversion rate**  
-            Displays the percentage of leads or opportunities/leads that are actually qualified/won as per historical data. This rate indicates the likelihood that an opportunity or lead will convert. This value is referenced by the model to determine how an attribute will influence the predictive score. The conversion rate is calculated using the following formula:
+            Displays the percentage of opportunities/leads that are actually qualified/won as per historical data. This rate indicates the likelihood that an opportunity or lead will convert. This value is referenced by the model to determine how an attribute will influence the predictive score. The conversion rate is calculated using the following formula:
             
             Conversion rate = (TP + FN) / (Total number of opportunities/leads scored) *100
 
@@ -108,7 +109,7 @@ The above data means that the system predicted 850 opportunities (TP+FP) to be w
 |---------|---------|
 |Accuracy     |  (650 + 100) / 1000 = 75%       |
 |Recall     |  650 / (650 + 50) = 92%       |
-|Conversion rate     | (650 + 50) / 1000 = 70        |
+|Conversion rate     | (650 + 50) / 1000 = 70%       |
 
 
 ## Improve model performance
