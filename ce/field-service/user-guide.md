@@ -1,5 +1,5 @@
 ---
-title: "User guide for Dynamics 365 Field Service (contains video) | Microsoft Docs"
+title: "User guide for Dynamics 365 Field Service (contains video)"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
 ms.reviewer: mhart
@@ -180,7 +180,7 @@ Take a look at the following video for a full walkthrough of Field Service and i
 
 ## Learning Catalog
 
-Looking for training outside of documentation? Here are some of our training resources, including free self-paced content on Microsoft training, instructor-led training, and certifications, organized by role. Be sure to check back as we grow our catalog.
+Looking for training outside of documentation? Here are some of our training resources, including free self-paced content on Microsoft Learn, instructor-led training, and certifications, organized by role. Be sure to check back as we grow our catalog.
 
 ### Business Decision Maker
 
