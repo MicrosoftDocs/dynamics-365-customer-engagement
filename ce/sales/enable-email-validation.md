@@ -1,7 +1,7 @@
 ---
 title: "Enable the detection of fake emails"
 description: "Enable fake email detection to help sellers identify fake email addresses and keep the leads clean."
-ms.date: 09/09/2022
+ms.date: 09/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

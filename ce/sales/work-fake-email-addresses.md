@@ -1,7 +1,7 @@
 ---
 title: "Work with fake email addresses"
 description: "Find and work on fake email addresses using the email validation feature in Dynamics 365 Sales."
-ms.date: 09/09/2022
+ms.date: 09/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -41,11 +41,11 @@ Fake email addresses are identified based on the following criteria:
 
 ## View the fake email address
 
-The email validation is performed on the leads records when the administrator enables the feature. The lead records start displaying an alert (the Red envelop icon) beside the primary email address, if the email validation feature identifies the email to be fake. You can view the validations on primary entity form and, up next widget and work list item in sales accelerator. 
+The email validation is performed on the leads records when the administrator enables the feature. The lead records start displaying an alert (the Red envelop icon) beside the primary email address, if the email validation feature identifies the email to be fake. You can view the validations on primary entity and sales insights forms, the Up next widget, and work list item in sales accelerator. 
 
-**On a primary entity form**
+**On primary entity and sales insights forms**
 
-Open a record and choose the primary record form. In this example, a lead record is opened and the **Lead** form is selected. For this record, you can observe that an alert is displayed beside the primary email address specifying that the email address is fake.
+Open a record and choose the primary record or sales insights form. In this example, a lead record is opened and the **Lead** (primary entity) form is selected. For this record, you can observe that an alert is displayed beside the primary email address specifying that the email address is fake.
 
 :::image type="content" source="media/lead-email-validation-primary-entity-form.png" alt-text="Screenshot illustrating the email is fake in the primary lead entity form"::: 
 
@@ -67,6 +67,20 @@ Yes, you can still choose to send a message to the email address that is flagged
 
 Also, you can send the email by creating a manual email activity through the record's timeline.  
 
+## Understand email error messages
+
+| Error message | Description |
+|---------------|-------------|
+| This email doesn’t seem to be valid as the domain expired recently | The email domain used to exist recently. We recommend you exercise caution while engaging with this email address. |
+| This email doesn’t seem to be valid as the domain has expired | The email address belongs to an email domain that has expired. We recommend you exercise caution while engaging with this email address. |
+| This email doesn’t seem to be valid as the domain is invalid | The email address belongs to the domain that is misspelled. We recommend you exercise caution while engaging with this email address. |
+| This email doesn’t seem to be valid as it belongs to a temporary domain | The email address belongs to a domain that is listed in the known disposable or temporary domains. We recommend you exercise caution while engaging with this email address. |
+| This email address maybe invalid as it’s a mailing list, and not an individual’s email | The email address belongs to a mailing hub or hub email address, and doesn't belong to an individual. We recommend you exercise caution while engaging with this email address. |
+| This email doesn’t seem to be valid as the email address is malformed | The email address isn't in the expected format. We recommend you exercise caution while engaging with this email address. |
+| This email doesn’t seem to be valid as the email address doesn't exist | The alias for this email address doesn't exist. We recommend you exercise caution while engaging with this email address. |
+| This email doesn’t seem to be valid as the domain is unknown | No data is available for the domain that that email belongs to. We recommend you exercise caution while engaging with this email address. |
+| This email seems to be spam | The email belongs to a known spam sending domain.<br>-or-<br>The email address is a known spam address. <br>We recommend not to engage with this email address. |
+| This email seems to be fake | The email address has a fake alias. We recommend not to engage with this email address. |
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
