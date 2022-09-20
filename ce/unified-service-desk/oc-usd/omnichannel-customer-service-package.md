@@ -1,7 +1,7 @@
 ---
 title: "Deploy Omnichannel for Customer Service package | MicrosoftDocs"
 description: "Learn how to deploy Unified Service Desk - Omnichannel for Customer Service package on a model-driven app."
-ms.date: 03/04/2022
+ms.date: 09/20/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,6 +21,7 @@ Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Serv
 
 Download one of the following versions of **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer.
 
+- [Unified Service Desk - Omnichannel for Customer Service package 3.31](https://go.microsoft.com/fwlink/p/?linkid=2209000)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.3](https://go.microsoft.com/fwlink/p/?linkid=2189024)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.2](https://go.microsoft.com/fwlink/p/?linkid=2154961)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.1](https://go.microsoft.com/fwlink/p/?linkid=2147551)
