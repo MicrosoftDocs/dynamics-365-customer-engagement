@@ -97,7 +97,7 @@
       - name: Quickly configure a chat widget
         href: configure-live-chat.md
     - name: Get started with Customer Service
-      href: /learn/modules/get-started-with-dynamics-365-for-customer-service/
+      href: /training/modules/get-started-with-dynamics-365-for-customer-service/
   - name: User management
     items: 
     - name: Overview of user management
