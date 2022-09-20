@@ -15,11 +15,11 @@ When a new work item gets routed with unified routing, the system tries to find 
 
 For work items, such as calls, conversations, and cases, you can address the following scenarios:
 
-- When an incoming work item exceeds a defined number of conversations or calls that can wait in the queue
-- Calls and conversations are received during the after hours of the call center operations
-- The wait time is high for customers and you want to reduce it
+- When an incoming work item exceeds a defined number of conversations or calls that can wait in the queue.
+- Calls and conversations are received during during non-business hours of the call center.
+- The wait time is high for customers and you want to reduce it.
 
-If you don't configure overflow, by default, the work item will remain in queue until it gets routed based on the routing rules configured for the workstream.
+If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
 
 When all queues are overflowing, priority is given to those queues that satisfy the "out of operating hours" condition.
 
@@ -60,7 +60,7 @@ For overflow to work correctly, the following prerequisites must be met:
     1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
         - **Work item limit exceeds**: Enter a value to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
-            - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item remains in open state and is routed to the next available agent to call back the customer.
+            - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
             - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
             - **End conversation**:
             - **Transfer to a different queue**: Select a queue from the dropdown list that appears.
@@ -106,7 +106,7 @@ Some configuration considerations are discussed in this section.
 
 ### Edit automated messages for end call overflow action
 
-If you have set **End call** as an overflow action for the voice queue, an automated message will be delivered to the customer to notify them that the conversation will end. You can edit the message that the customer will hear.
+If you have set **End call** as an overflow action for the voice queue, an automated message will be delivered to the customer to let them know that the conversation will end. You can edit the message that the customer will hear.
 
 1. In the Customer Service admin center site map, go to **Customer settings** in **Customer support**, and select **Automated messages**.
 2. Find the automated message for the **Voice** channel where the message trigger is "Voice call ended".
