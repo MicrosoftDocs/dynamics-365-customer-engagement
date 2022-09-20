@@ -60,13 +60,13 @@ For overflow to work correctly, the following prerequisites must be met:
     - **Assign to queue anyway**: The work item stays in the queue.
     - **Transfer to a different queue**: Select a queue in the dropdown list.
 
-    The following extra options are available for the messaging and voice queues:
+   The following extra options are available for the messaging and voice queues:
 
-       - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
-       - **End conversation**: For messaging queues only.
-       - **Transfer to a different queue**: Select a queue from the dropdown list that appears.
-       - **Transfer to an external number**: Enter the number to which the call must be transferred.
-       - **Voicemail (preview)**: For voice calls only. Customers can opt to leave a voicemail that the agents will receive to act upon.
+     - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
+     - **End conversation**: For messaging queues only.
+     - **Transfer to a different queue**: Select a queue from the dropdown list that appears.
+     - **Transfer to an external number**: Enter the number to which the call must be transferred.
+     - **Voicemail (preview)**: For voice calls only. Customers can opt to leave a voicemail that the agents will receive to act upon.
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
