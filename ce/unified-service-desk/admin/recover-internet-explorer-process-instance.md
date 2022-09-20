@@ -19,7 +19,7 @@ ms.custom:
 
 
 
-[!INCLUDE[cc_internet_explorer_deprecation](../../ce/includes/cc-internet-explorer-deprecation.md)]
+[!INCLUDE[cc_internet_explorer_deprecation](../../../ce/includes/cc-internet-explorer-deprecation.md)]
 
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
