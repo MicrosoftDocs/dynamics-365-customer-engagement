@@ -10,24 +10,22 @@ manager: shujoshi
 
 # Bot dashboard
 
-The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are playing a role in a support organization. 
-The Bot dashboard has two views based on wether Power Virtual Agent bots are integrated with Omnichannel for Customer Service and your Administrator has enabled the **Add historical Analytics for bots** checkbox in Customer Service admin center.
-
-> [!div class="mx-imgBorder"]
-> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
+The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are playing a role in a support organization.
+ Based on the bots integrated with Omnichannel for Customer Service, and if your Administrator has enabled the **Add historical Analytics for bots** checkbox in Customer Service admin center, the **Bot** dashboard displays different metrics, KPIs, and charts.  
 
 You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
-## Power Virtual Agent integration
+## Power Virtual Agents bot report
 
-> [!NOTE]
-> The Bot dashboard displays this view only when Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center.
+ The **Bot** dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
+
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot that shows the Omnichannel Bot dashboard.":::
 
  ### Report details
 
 The reports summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, or agent.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot that shows the Omnichannel Bot dashboard.":::
+ :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the Bot dashboard KPIs.":::
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -41,6 +39,7 @@ The reports summarize the KPIs for the specified time period and the percent cha
 
 The following table shows the bot KPI chart metrics.
 
+ :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Screenshot that shows the Bot dashboard KPIs.":::
 
 | Title | Description |
 | --------------- | ----------------- |
@@ -52,11 +51,13 @@ The following table shows the bot KPI chart metrics.
 
 The metrics section displays a comprehensive set of analytics that show you the key performance indicators. You can also view the trends and usage for your bot's topics at a granular level, highlighting the topics that have the greatest impact on your bot's performance.
 
-#### Summary
+### Summary
 
 The Summary tab gives you a broad overview of your bot's performance.
 
  :::image type="content" source="media/oc-metrics-summary.png" alt-text="Screenshot that shows the bot summary.":::
+
+KPIs for the following areas are displayed.
 
 | Title | Description |
 | --------------- | --------------- |
@@ -66,24 +67,13 @@ The Summary tab gives you a broad overview of your bot's performance.
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent.|
 | Bot escalation time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | 
 
-#### Bot topic metrics
-
-You can view and improve the performance of individual topics associated with a bot by performing the following steps:
-
-1. Select the bot and then select **Details** on the right. The bot topics with the KPIs and percentages are displayed. 
-3. Select the topic to view the topic specific metrics. You can also view and  download up to seven days of bot conversation transcript sessions from the past 30 days.
-
- :::image type="content" source="media/oc-transcripts.png" alt-text="Screenshot that shows the Omnichannel Bot dashboard.":::
-
-4. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This will open the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
-
- :::image type="content" source="media/oc-pva-edit.png" alt-text="Screenshot that shows the Omnichannel Bot dashboard.":::
-
-#### Details
+### Details
 
 The Details tab gives you an insight into the bot sessions.
 
  :::image type="content" source="media/oc-summary-details.png" alt-text="Screenshot that shows the bot summary.":::
+
+KPIs for the following areas are displayed.
 
 | Title | Description |
 | --------------- | --------------- |
@@ -95,14 +85,16 @@ The Details tab gives you an insight into the bot sessions.
 | Session resolved rate | The percentage of total sessions that were resolved by the bot within the specified time period. | 
 | Sessions escalated rate | The percentage of total sessions that were escalated by the bot to a human agent within the specified time period.| 
 
-## Bot report details
+## Bot dashboard for all bots 
 
-The reports summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, or agent.
-
-KPIs for the following areas are displayed.
+ The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and  percent change over the period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. TYou can filter these areas by duration, channel, queue, or agent.
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
+> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
+
+### Report details
+
+KPIs for the following areas are displayed.
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -112,8 +104,10 @@ KPIs for the following areas are displayed.
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
 | Bot escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. |
 
-The following table explains the bot KPI chart metrics.
+> [!div class="mx-imgBorder"]
+> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
 
+The following table explains the bot KPI chart metrics.
 
 | Title | Description |
 | --------------- | ----------------- |
@@ -129,13 +123,41 @@ The following table explains the bot KPI chart metrics.
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent.|
 | Bot escalation time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | 
 
+
+## Bot drill-down view
+
+On the **Metrics by bot** section, you can select a bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
+
+To access the drill-down, select any metric value for the agent you're interested in, and then select **Details**.
+
+> [!div class="mx-imgBorder"]
+> ![Bot hourly detail drill down view.](media/oc-metric-page.png "Bot drill-down page") 
+
+### View and improve bot topics
+
+[!Note]
+>  This feature is applicable only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
+
+You can view and improve the performance of individual topics associated with a Power Virtual Agents bot by performing the following steps:
+
+1. On the bot drill-down page, for a bot, select the topic to view the topic specific metrics. 
+1. You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
+> [!div class="mx-imgBorder"]
+> ![Bot hourly detail drill down view.](media/oc-transcripts.png "transcript") 
+
+1. To edit the bot responses to a topic, select ***Edit Power Virtual Agents** on the Topics metrics grid. This will open the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
+
+> [!div class="mx-imgBorder"]
+> ![Bot hourly detail drill down view.](media/oc-pva-edit.png "Edit page") 
+
 ## Bot hourly detail drill down view
 
 The Bot hourly details drill down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. 
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**.
 
 > [!div class="mx-imgBorder"]
-> ![Bot hourly detail drill down view.](media/bot-hourly-drill-down.png "Bot detail view") 
+> ![Bot hourly detail drill down view.](media/bot-hourly-drill-down.png "Bot hourly detail view") 
+
 
 ### See also
 
@@ -144,7 +166,4 @@ To view the drill down, select any single metric value on the desired day, then 
 [Queue dashboard](oc-queue-dashboard.md)  
 [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
-
-
-
 
