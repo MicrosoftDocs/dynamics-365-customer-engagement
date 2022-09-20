@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 09/11/2022
+ms.date: 09/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -63,28 +63,25 @@ Your administrator can configure an optional message that you can send when usin
  
 If you're using Teams for the first time within Customer Service Hub or Customer Service workspace, you can select the blue bubble, and then follow the interface guidance.
 
-1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels** integration icon.
+1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
     - You can access the embedded chat from in Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
     - If you're in a multisession app, such as Customer Service workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
-       > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to other records and Other chats (if enabled by your administrator).
+       > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
-    a.	To start a new connected chat with a participant, select **New connected chat** in the **Connected to this record section** Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
-    b.	To start a connected chat with a suggested contact directly on the chat list, select the contact with whom you want to chat, and then select **Start a connected chat**.<br> 
+    a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
+    b.	To start a connected chat with a suggested contact directly on the chat list, select the contact with whom you want to chat.<br> 
     
-     > [!div class="mx-imgBorder"] 
-     > ![Start a connected chat.](media/teams-start-linked-chat.png "Start a connected chat")
-     
      > [!NOTE]
      > You can only connect group chats to records. Direct, one-to-one chats can't be connected, and will instead display an option to start a new connected chat with that contact.
        
 3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Auto-name chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat even on Teams, and so that your collaborators on Teams can also easily identify chats that are associated with Dynamics 365 records.<br><br>
-4. Your administrator can configure an optional message that you can send when using the chat to start a collaboration. The introduction message uses selected data fields from the associated record. This helps you to share succinct, read-only context with your collaborators on Teams. The message also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
+4. Your administrator can configure an optional note that you can send when using the chat to start a collaboration. The introduction note uses selected data fields from the associated record. This helps you to share succinct, read-only context with your collaborators on Teams. The note also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
     
      > [!div class="mx-imgBorder"] 
-     > ![Send an introduction message when using the chat.](media/teams-send-intro-message.png "Start a chat with an introductory message")
+     > ![Send an introduction note when using the chat.](media/teams-send-intro-message.png "Start a chat with an introduction note")
      
 5. To convert an existing group chat into a connected chat, select a chat from the **All recents** section. Select the **More Commands** ellipsis (…), and then select **Connect chats to record**. <br> 
     
@@ -96,17 +93,11 @@ If you're using Teams for the first time within Customer Service Hub or Customer
         
 ## Connect or disconnect an existing chat from a record
 
-You can connect a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also connect the chat to the work order. If you decided later that you didn't want the chat connected to the case, you could disconnect it if your administrator has given you the proper rights. For this example, you'd follow these steps:
+You can connect a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also connect the chat to the work order. If you decided later that you didn't want the chat connected to the case, you could disconnect it if your administrator has given you the proper rights.
 
-- To connect the chat to the case, select the chat, and then select **Connect to this case**.
-     
-    > [!div class="mx-imgBorder"] 
-    > ![Connect an existing chat to a record, such as a case.](media/teams-link-chat.png "Connect existing chat to a record")
+- To connect a chat to a record, select ellipses next to the chat, and then select **Connect to this case**.
 
-- To disconnect the chat from the case, select the chat, and then select **Disconnect from this case**.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Disconnect an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Disconnect existing chat from a record")
+- To disconnect a chat from a record, select ellipses next to the chat, and then select **Disconnect from this case**. 
     
 ### Understand how disconnected chat rights are assigned
 
@@ -131,7 +122,7 @@ You can connect relevant Teams channels to a record so that all the members can 
 1. Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats** pane opens.
 2. Select the **Channel** tab. The tab lists the channels that are already connected to a record.
-3. Select the **Connect channel** icon in the upper-right corner of the Teams chats pane.<br>
+3. Select the **Connect a channel** icon in the upper-right corner of the Teams chats pane.<br>
    The **Collaborate with Microsoft Teams** dialog opens.
 4. To start a new connected channel, select **Create a new connection**.
 5. To connect an existing channel, select the channel from the list, and then select **Start collaboration**.
@@ -149,7 +140,7 @@ As an agent, you can view and easily join chats that are connected to a record y
 **To join a connected chat**:
 
 1. Open the record for which you want to join the chat.
-2. In the **Teams chats** page, go to any of the connected chats you want to join. A lock icon is displayed with text that says "Hover over to join this chat". When you hover over the lock icon, if have write access to the associated record, a **Join** button will be displayed.
+2. In the **Teams chats** page, go to any of the connected chats you want to join. A lock icon is displayed with text that says "Hover and join to participate". When you hover over the lock icon, if have write access to the associated record, a **Join** button will be displayed.
 
     > [!div class="mx-imgBorder"] 
     > ![Text that says to hover over it to join the chat.](media/hover-join-chat.png "Display of text that says to hover over it to join a chat")
