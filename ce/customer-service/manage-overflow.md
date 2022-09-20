@@ -53,30 +53,41 @@ For overflow to work correctly, the following prerequisites must be met:
 
 1. In **Overflow conditions**, select **Set overflow conditions**. The **Overflow management** dialog displays the options to configure conditions and actions.
 
-    1. For the record queue, you can set the **Out of operation hours** condition and one of the following actions:
-        - **Assign to queue anyway**: Work item stays in the queue.
-        - **Transfer to a different queue**: Select a queue in the dropdown list.
+1. For the record, messaging, and voice queues, you can set the **Out of operation hours** condition and one of the following actions:
 
-    1. For the messaging and voice queues, you can set the following extra conditions and actions:
+    - **Assign to queue anyway**: The work item stays in the queue.
+    - **Transfer to a different queue**: Select a queue in the dropdown list.
 
-        - **Work item limit exceeds**: Enter a value to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
-            - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
-            - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
-            - **End conversation**: For messaging channels only.
-            - **Transfer to a different queue**: Select a queue from the dropdown list that appears.
-            - **Transfer to an external number**: Enter the number to which the call must be transferred.
-            - **Voicemail (preview)**: For voice calls only. Customers can opt to leave a voicemail that the agents will receive to act upon.
+    The following additional options are available for the messaging and voice queues:
 
-        - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value to denote the wait time after which one of the following overflow actions will be triggered:
-            - **Direct callback (preview)**
-            - **End call**
-            - **Transfer to a different queue**
-            - **Transfer to an external number**
-            - **Voicemail (preview)**
+       - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
+       - **End conversation**: For messaging queues only.
+       - **Transfer to a different queue**: Select a queue from the dropdown list that appears.
+       - **Transfer to an external number**: Enter the number to which the call must be transferred.
+       - **Voicemail (preview)**: For voice calls only. Customers can opt to leave a voicemail that the agents will receive to act upon.
+
+1. For the messaging and voice queues, you can set the following extra conditions and actions:
+
+    - **Work item limit exceeds**: Enter a value to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
+
+        - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
+        - **End call**
+        - **End conversation**
+        - **Transfer to a different queue**
+        - **Transfer to an external number**
+        - **Voicemail (preview)**
+
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value to denote the wait time after which one of the following overflow actions will be triggered:
+
+        - **Direct callback (preview)**
+        - **End call**
+        - **Transfer to a different queue**
+        - **Transfer to an external number**
+        - **Voicemail (preview)**
 
         :::image type="content" source="media/overflow-condition-action-voice-queue.png" alt-text="A screenshot of the condition and action pairs configured for the voice queue.":::
 
-1. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
+2. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
 
 ### Configure overflow override
 
