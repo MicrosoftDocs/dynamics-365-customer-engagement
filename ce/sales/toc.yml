@@ -460,8 +460,12 @@
           href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
           href: insights-from-m365.md
+        - name: Microsoft 365 consent types
+          href: ms365-consent-types.md
         - name: Add relationship intelligence widgets to custom forms
           href: add-ri-widgets-to-custom-form.md
+        - name: Grant access to who knows whom information
+          href: grant-access-wkw.md
 
     - name: Conversation intelligence
       items: 

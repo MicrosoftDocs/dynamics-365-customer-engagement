@@ -19,7 +19,7 @@ search.app:
 
 # Deprecations in Customer Service
 
-The features that have been deprecated in Customer Service are listed in this article. 
+The features that have been deprecated in Customer Service are listed in this article.
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
@@ -50,14 +50,14 @@ For any questions, contact your Microsoft Customer Service representative or Mic
 Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. You are encouraged to migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
 
 > [!NOTE]
-> The deprecation and end of life are not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
+> The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
 ## SLAs in web client are deprecated
 
 Effective October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
 
 > [!NOTE]
-> The deprecation and end of life are not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
+> The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
 ## Service scheduling in Dynamics 365 Customer Service is deprecated
 
