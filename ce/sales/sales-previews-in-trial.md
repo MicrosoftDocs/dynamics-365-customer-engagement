@@ -12,7 +12,7 @@ manager: shujoshi
 
 Preview features are features that aren't complete, but are made available on a "preview" basis so customers can get early access and provide feedback. Preview features:
 
-- Are subject to separate [Supplemental Terms of Use](/legaldocs/supp-dynamics365-preview/).
+- Are subject to separate [Supplemental Terms of Use](https://dynamics.microsoft.com/en-us/legaldocs/supp-dynamics365-preview/).
 
 - Are not supported by Microsoft Support for production use. Microsoft Support is, however, eager to get your feedback on the preview functionality, and might provide best effort support in certain cases.
 
