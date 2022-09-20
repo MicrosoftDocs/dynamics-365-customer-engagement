@@ -17,11 +17,11 @@ For work items, such as calls, conversations, and cases, you can address the fol
 
 - When an incoming work item exceeds a defined number of conversations or calls that can wait in the queue
 - Calls and conversations are received during the after hours of the call center operations
-- The wait time is very high for customers and you want to reduce it
+- The wait time is high for customers and you want to reduce it
 
-If you don't configure overflow, by default, the work item will remain in queue till it get's routed based on the routing rules configured for the workstream.
+If you don't configure overflow, by default, the work item will remain in queue until it gets routed based on the routing rules configured for the workstream.
 
-After you've configured overflow of work items, in situations where all queues are overflowing, priority is given to those queues that satisfy the "out of operating hours" condition.
+When all queues are overflowing, priority is given to those queues that satisfy the "out of operating hours" condition.
 
 The following table lists the condition and action pairs available for different channel types.
 
@@ -57,7 +57,7 @@ For overflow to work correctly, the following prerequisites must be met:
         - **Assign to queue anyway**: Work item stays in the queue.
         - **Transfer to a different queue**: Select a queue in the dropdown list.
 
-    1. For the messaging and voice queues, you can set the following additional conditions and actions:
+    1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
         - **Work item limit exceeds**: Enter a value to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
             - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item remains in open state and is routed to the next available agent to call back the customer.
@@ -80,19 +80,19 @@ For overflow to work correctly, the following prerequisites must be met:
 
 ### Configure overflow override
 
-If you have configured overflow action to be end call or keep waiting in queue, and you want priority customers to be handled differently, you can configure override condition and action pairs for the queues to which your priority customers will be directed. You can configure override in the route-to-queue rules at the workstream level.
+If the overflow action for a queue is end call or keep waiting in queue, you can configure override conditions for those queues in the route-to-queue rules at the workstream level.
 
 1. In Customer Service admin center, go to the required workstream, and select the route-to-queue rule in which the queue is configured.
 
-1. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**, and select **Add queue overflow override**.
+2. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**, and select **Add queue overflow override**.
 
-1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
+3. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
 
 ## Define operation hours
 
 Perform the steps in [Create and manage operating hours](create-operating-hours.md) to configure operating hours for the queues.
 
-If operation hours are not configured, the queues will be available round the clock.
+If operation hours aren't configured, the queues will be available round the clock.
 
 ## View diagnostics for overflow
 
