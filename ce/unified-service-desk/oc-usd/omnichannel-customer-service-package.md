@@ -13,8 +13,6 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Introduction 
-
 Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Service Desk – Omnichannel for Customer Service** package on a model-driven app.
 
 ## Download Unified Service Desk - Omnichannel for Customer Service packages
