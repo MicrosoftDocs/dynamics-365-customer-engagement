@@ -41,6 +41,7 @@ Further, the email validation feature displays the fake emails to sellers on rec
 
 >[!NOTE]
 >- Currently, the email validation feature works only for lead records.
+>- The email validation feature is not available on custom apps.
 >- The email validation is applicable only for the primary email address.
 >- The leads that are older than 180 days are not validated.
 

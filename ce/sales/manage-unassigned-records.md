@@ -1,8 +1,7 @@
 ---
 title: "View and manage unassigned records in assignment rules"
 description: "You can view and manage unassigned lead and opportunity records through assignment rules in sales accelerator."
-ms.date: 11/22/2021
-
+ms.date: 09/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -37,7 +36,27 @@ The records aren't assigned automatically because of one of the following reason
 | Run is in progress | Specifies that the assignment is in progress for the record. |
 | There was an issue with the server | Record isn't assigned as there's an issue with the server that your organization is hosted on. |
 
-**To view the unassigned records** 
+You can view the unassigned records through one of the following ways:
+- [Assignment rules homepage](#assignment-rule-homepage)
+- [Monitor tab](#monitor-tab)
+
+**Assignment rules homepage**<a name="assignment-rule-homepage"></a>
+
+When you open the **Assignment rules** home page, by default, the lists of rules are grouped according to the available segments. If not, select **Group by segment** > **Segments**. Grouping by segments helps you to view the number of records that aren't assigned to a seller. Further, you can run the rules again or schedule the run for that segment to assign these records. More information: [Run reassignment of unassigned records](#run-reassignment-of-unassigned-records) and [Schedule reassignment of unassigned records](#schedule-reassignment-of-unassigned-records)
+
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Assignment rules**.  
+    
+    The number of unassigned records that belong to a segment are displayed under the **Unassigned records** column under the **Rules** tab.
+
+    >[!div class="mx-imgBorder"]
+    >![Assignment rules home page with unassigned records column.](media/sa-ar-view-unassigned-records-home-page-unassigned-column.png "Assignment rules home page with unassigned records column")
+    
+    >[!NOTE]
+    >If a rule doesn't satisfy any segment, these rules are grouped under **No segments**.
+
+**Monitor tab** <a name="monitor-tab"> </a>
 
 1.	Sign in to your Dynamics 365 Sales Hub app.    
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
@@ -46,12 +65,76 @@ The records aren't assigned automatically because of one of the following reason
     >[!div class="mx-imgBorder"]
     >![Assignment rules home page.](media/sa-ar-view-unassigned-records-home-page.png "Assignment rules home page")
 
-3. Select the **Monitor** tab, and then select a tab according to your requirement. In this example, we're selecting the **Unassigned Lead** tab and a list of unassigned lead records is displayed.
+3. Select the **Monitor** tab, and then select the unassigned tab according to your requirement. In this example, we're selecting the **Unassigned Lead** tab and a list of unassigned lead records is displayed.
 
     >[!div class="mx-imgBorder"]
     >![View the list of unassigned lead records.](media/sa-ar-view-unassigned-records-view-records.png "View the list of unassigned lead records") 
 
     The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule). 
+
+## Run reassignment of unassigned records
+
+The number of unassigned records for a segment are displayed under the **Unassigned records** column in the **Assignment rules** home page. You can run the rules again in the segment and try to assign the records to the sellers. After the records are successfully assigned, you can view the history of assigned records. 
+
+>[!NOTE]
+>If you want to schedule a time to run the reassignment, go to [Schedule reassignment of unassigned records](#schedule-reassignment-of-unassigned-records)
+
+1. On the **Assignment rules** page, select the calender icon corresponding to the segment name for which you want to reassign the records.
+    
+    :::image type="content" source="media/sa-ar-run-reassignment-select-reassignment.png" alt-text="Screenshot illustrating the selection of calender icon to open reassignment rules pane":::   
+
+    The **Run assignment rules for *segment name*** pane opens with information on the number of records that aren't assigned, date and time on when the last reassignment was run, and history.
+
+    :::image type="content" source="media/sa-ar-run-reassignment-side-pane.png" alt-text="Screenshot illustrating the reassignment side pane":::       
+
+2. On the **Run assignment rules for *segment name*** pane, select **Run now**.   
+    The rules run and assign the records to the sellers who are available and have the capacity to work. Also, the **Last run** section is updated with the latest run time. To view the history of each run and the list of records that are assigned to sellers, select **Show history**. More information: [View reassignment run history](#view-reassignment-run-history)
+
+## Schedule reassignment of unassigned records
+
+You can schedule the reassignment of unassigned records for the application the automatically run. Depending on your organizational requirements, you can schedule the reassignment on a recurring basis by choosing the start date, time, and the days of the week. You can have up to one scheduled for a segment and the reassignment can run twice daily. For example, you can schedule the reassignment of unassigned records on every working weekday at 6 AM and 2 PM.    
+The reassignment runs on the records that are unassigned. Once the scheduled run is complete, the history is updated with the latest time. More information: [View reassignment run history ](#view-reassignment-run-history)    
+
+1. On the **Assignment rules** page, select the calender icon corresponding to the segment name for which you want to reassign the records.
+    
+    :::image type="content" source="media/sa-ar-run-reassignment-select-reassignment.png" alt-text="Screenshot illustrating the selection of calender icon to open reassignment rules pane":::   
+
+    The **Run assignment rules for *segment name*** pane opens with information on the number of records that aren't assigned, date and time on when the last reassignment was run, and history.
+
+    :::image type="content" source="media/sa-ar-run-reassignment-side-pane.png" alt-text="Screenshot illustrating the reassignment side pane":::       
+
+2. Select **+ Schedule run**.   
+
+3. On the **Schedule run for *segment name*** pane, configure the required information.
+    
+    | Option | Description |  
+    |--------|-------------|  
+    | Start date | Select the start date of the scheduled run. |  
+    | Time | Select the time at which you want to run the schedule. You can't have more than two schedules a day. |  
+    | Days of the week | Select the days of the week on which you want to run the schedule. |  
+
+    :::image type="content" source="media/sa-ar-run-reassignment-schedule-configuration-side-pane.png" alt-text="Screenshot illustrating the reassignment schedule configuration side pane":::           
+    
+4. Select **Save schedule**.   
+    The schedule is added to the segment and runs on the configured time.  
+
+    :::image type="content" source="media/sa-ar-run-reassignment-schedule-confirmation-side-pane.png" alt-text="Screenshot illustrating the reassignment schedule side pane":::   
+
+    >[!NOTE]
+    >- To edit the schedule, hover over the **Run scheduled** section and then select the pencil icon.
+    >- To delete the schedule, hover over the **Run scheduled** section and then select the delete icon.
+
+## View reassignment run history 
+
+Viewing the history helps you understand the reassignment run by providing information on each run such as, time of the reassignment run, the number of records that are reassigned, time taken to complete the reassignment run, status of the run, and how it's triggered.  
+
+On the **Run assignment rules for *segment name*** pane, under the **Last run** section, select **Show history**.   
+
+:::image type="content" source="media/sa-ar-run-reassignment-select-show-history.png" alt-text="Screenshot illustrating the selection of reassignment schedule history":::   
+
+The history pane opens with information on each reassignment run such as, time of the run, time taken to complete, number of records reassigned, status of the run, and how it's triggered.  
+
+:::image type="content" source="media/sa-ar-run-reassignment-show-history.png" alt-text="Screenshot illustrating the reassignment run history":::
 
 ## Assign records manually
 
