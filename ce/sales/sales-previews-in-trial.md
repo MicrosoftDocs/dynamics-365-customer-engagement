@@ -1,6 +1,6 @@
 ---
-title: "Preview features included in trial | MicrosoftDocs"
-description: "Learn about the features available in your Dynamics 365 Sales trial app and how to use them."
+title: What are Preview features
+description: This article explains what are preview features and how to identify them in your trial instance.
 ms.date: 10/01/2021
 ms.topic: article
 author: lavanyakr01
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Preview features included in trial
+# What are preview features
 
 Preview features are features that aren't complete, but are made available on a "preview" basis so customers can get early access and provide feedback. Preview features:
 
