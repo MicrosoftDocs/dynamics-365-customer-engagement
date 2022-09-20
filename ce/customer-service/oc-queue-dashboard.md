@@ -1,7 +1,7 @@
 ---
 title: Queue Dashboard | Microsoft Docs
 description: Learn about the Queue dashboard to better understand agent performance in your organization.
-ms.date: 05/09/2022
+ms.date: 10/20/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -32,7 +32,7 @@ The following KPIs are displayed in the Queue dashboard.
 | KPI | Description |
 | ----------------- | ------------------ |
 | Incoming sessions | The total number of sessions initiated by customers. |
-| Engaged sessions | The number of sessions presented to an agent that weren't accepted. |
+| Engaged sessions | The number of sessions presented to an agent that were accepted. |
 | Avg. wait time (sec) | The average time customers waited before connecting to an agent. This is similar to "speed to answer," but it includes the wait time from each session within a conversation. |
 | Avg. session handle time | The total session active time across engaged sessions. |
 | Transfer rate | The percentage of conversations that were transferred to another agent or queue. |
