@@ -32,7 +32,7 @@ You can enable the customer service historical analytics reports in the Customer
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
-     1. In the **Customer Service historical analytics** section, select **Manage**.
+     1. For **Customer Service historical analytics**, select **Manage**.
      
      1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On**.
 
@@ -64,7 +64,7 @@ You can enable historical analytics for unified routing in the Customer Service 
      
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
-     1. In the **Customer Service historical analytics** section, select **Manage**. The **Customer Service historical analytics** page is displayed. 
+     1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed. 
 
      1. Select the **Add historical analytics for unified routing** check box.  
 
