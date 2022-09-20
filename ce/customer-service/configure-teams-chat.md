@@ -223,9 +223,6 @@ You can assign the ability to disconnect chats to record owners or users who con
     2. In **Collaboration**, select **Embedded chat using Teams**.
 
 1. Select the record type (for example, **Case**), and then in the settings pane, in **Disconnecting chats**, toggle on or off **Record owner can disconnect chats** and/or **Chat connector can disconnect chat**, depending on your preferences.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Toggles for disconnecting chats in Collaboration settings.](media/unlink-chat-rights-toggles.png "Toggles for disconnecting chats on the Collaboration settings page")
     
 1. Select **Save**.
 
@@ -264,7 +261,7 @@ The following table details the apps and security roles where the disconnect cha
     > [!div class="mx-imgBorder"] 
     > ![Select role you want to assign disconnect chat rights to.](media/unlink-teams-chat-security-roles.png "Select the role you want to assign disconnect chat rights to")
     
-1. For the specific security role, go to **Business management** > **Miscellaneous privileges** > **Disconnect Teams chat from Dynamics 365 record**.
+1. For the specific security role, go to **Business management** > **Miscellaneous Privileges** > **Disconnect Teams chat from Dynamics 365 record**.
 
     > [!div class="mx-imgBorder"] 
     > ![Disconnect Teams chat from Dynamics 365 record.](media/unlink-teams-chat-record.png "Security role setting for disconnecting Teams chats")
