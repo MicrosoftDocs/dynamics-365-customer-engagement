@@ -79,11 +79,17 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ## Enable Historical analytics for bots in Omnichannel for Customer Service
 
-You can enable historical analytics for Power virtual Agents bots in the Customer Service admin center. The metrics are available in the report after 24 hours.
+You can enable the historical analytics for bots in the Custom Service admin center, to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics. When you enable this option, the Omnichannel for Customer Service displays the Summary and Bot dashboard, with Power Virtual Agent bot specific metrics.
+
+If this option is disabled, the application displays the key performance indicators (KPIs) and charts for bots in the Bot dashboard.
+
+ :::image type="content" source="media/oc-analytics-reports.png" alt-text="Enable the settings for Summary and Bot dashboard.":::
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service.
+
+**Enable Historical analytics for bots in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for bot** check box.
