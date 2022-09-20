@@ -26,9 +26,9 @@ searchScope:
 
 # Summary dashboard 
 
-The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agent and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agent bot metrics such as escalation and deflection rate are displayed in conjunction with agent engagement rate and abandon rate gives Customer Service Manager or Supervisors an overview of how the customers interact with bots, insights into bot and their corresponding agent conversation topics to evaluate how different topic areas are impacting your organization’s support performance. 
+The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agents bot metrics such as escalation and deflection rate are displayed in conjunction with agent engagement rate and abandon rate gives Customer Service Manager or Supervisors an overview of how the customers interact with bots, insights into bot and their corresponding agent conversation topics to evaluate how different topic areas are impacting your organization’s support performance. 
 
-This helps them to handle increased bot escalations and customer requests effectively, increase or decrease agent staffing based on the conversation volumes, improving customer satisfaction and decreasing costs.
+This helps them handle increased bot escalations and customer requests effectively, increase or decrease agent staffing based on the conversation volumes, improving customer satisfaction and decreasing costs.
 
  :::image type="content" source="media/oc-summary-dashboard.png" alt-text="Screenshot that shows the Omnichannel Historical Summary dashboard.":::
 
@@ -42,15 +42,15 @@ The reports summarize the KPIs for the specified time period and the percent cha
 
 | KPI | Description |
 | ------- | ------------------ |
-| Total conversations | The number of conversations initiated by the customer. |
-| Bot deflection rate | The percentage of conversations that were resolved by a power virtual agent bot, out of all the bot engaged conversations.|
-| Bot escalation rate | The percentage of engaged conversations that were escalated to a human agent.  |
-| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. These conversation include the conversations that are escalated by the Power Virtual Agent bots.|
+| Total conversations | The number of conversations that were initiated by customers. |
+| Bot deflection rate | The percentage of conversations engaged by bots that were resolved.|
+| Bot escalation rate | The percentage of conversations engaged by bots that were escalated to a human agent.  |
+| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. These conversation include the conversations that are escalated by the Power Virtual Agents bots.|
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication begins at this point.|
 | Abandon rate | The percentage of conversations that are in a human agent's queue but aren't engaged by agents. |
-|Average time to answer |The average time customers waited in the queue before connecting to an agent. |
+|Average time to answer |The average time customers waited in the queue before being connected to an agent. |
 
-A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
+An up-and-down indicator below the value indicates the percent change in either a positive or negative direction. 
 
 The following charts are displayed in the Summary dashboard.
 
@@ -58,15 +58,15 @@ The following charts are displayed in the Summary dashboard.
 
 | Title | Description |
 | ------- | ------------------ |
-| Total conversations | A graphical view of the conversations that were initiated by the customer and were connected to a human agent directly, resolved by the power virtual agent bot, or escalated by to the human agent.|
+| Total conversations | A graphical view of the conversations that were initiated by the customer and were connected to a human agent directly, resolved by the Power Virtual Agents bot, or escalated by to the human agent.|
 | Agent engagement rate over time | A graphical view of the daily incoming conversations, conversations engaged by an agent, and abandoned conversations over time. |
 | Bot conversations| A graphical view of the daily deflection and escalation rate, and abandon rate over the specified time period. |
 
 ## Bot escalation topic metrics
 
-The bot escalation topic metrics section provides insights into the performance of individual bot topics. Drill-down into these topics to view the corresponding conversation topics, for a holistic look into individual topics and their key business metrics. Supervisors can use this information to understand how a bot is resolving a topic and how an agent is resolving a bot escalated conversation topic. to help you better understand how different topic areas are impacting your organization’s support performance.
+The **Bot escalation topic metrics** provides insights into the performance of individual bot topics for a holistic look into and their key business metrics. Supervisors can drill-down into a topic to view the corresponding agent conversation topics, and analyze how a bot is resolving a topic versus how an agent is resolving an escalated conversation topic. This helps them better understand how different topic areas impact your organization’s support performance.
 
- :::image type="content" source="media/oc-summary-topics.png" alt-text="Screenshot shows the bot converation topics and customer journey.":::
+ :::image type="content" source="media/oc-summary-topics.png" alt-text="Screenshot shows the bot conversation topics and customer journey.":::
  
  To view further bot-specific topics and their related metrics, see: [Bot dashboard](oc-bot-dashboard.md)   
 
