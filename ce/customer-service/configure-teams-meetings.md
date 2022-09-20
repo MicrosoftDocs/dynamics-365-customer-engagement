@@ -58,8 +58,6 @@ Complete the following steps to enable Teams meeting integration.
     2. On the site map, under **Collaboration**, select **Meeting integration using Teams (preview)**.
 
 1. Toggle **Show Dynamics 365 data in Teams meetings (preview)** to **Yes**.
-
-    ![Show Dynamics 365 data in Teams meetings toggle.](media/show-teams-meetings-toggle.png)
     
 1. Select **Save**.
 
