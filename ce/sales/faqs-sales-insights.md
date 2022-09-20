@@ -305,21 +305,21 @@ For activities, the suggestions are displayed immediately.
 
 ## Who knows whom
 
-### Why am I not seeing some of the contacts in the suggestions?
+### Why am I not seeing some contacts in the suggestions?
 
 The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. 
 
-### How long will it take for the suggestions to appear after providing consent?
+### How long will it take for suggestions to show up?
 
-It takes about one to four days to populate the results for the first time. 
+After your Microsoft 365 admin provides consent, you'll start seeing the results with a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
-### ​Who will be included in the who knows whom suggestions?
+### Which colleagues show up as connections?
 
-Everyone in the org is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+Users in your org who have frequently and recently interacted with the contact or lead show up as introducers. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### ​How are the connections weighted?
 
-The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
+The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead. 
 
 ### What is the source of the data?
 
@@ -332,9 +332,11 @@ Who knows whom has the following data sources:
 The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](/exchange/security-and-compliance/security-and-compliance)
 
 ### What is the data retention policy, and where is it set?
+
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 ### How do I opt out?
+
 You can choose to opt out of sharing your Microsoft 365 data. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How long does it take to remove my data after I opt out?
@@ -344,6 +346,7 @@ If you are part of a security group that has been opted out by your administrato
 If you have opted out on your own, the data will be removed immediately.  
 
 ### How does an Exchange administrator exclude users?
+
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
 
 ### What level of access do administrators have?
