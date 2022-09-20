@@ -1,7 +1,7 @@
 ---
 title: "Enable linking of Dynamics 365 records to Microsoft Teams channels"
 description: "Learn how to enable linking of Dynamics 365 records to Microsoft Teams channels."
-ms.date: 08/26/2022
+ms.date: 09/20/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -12,14 +12,15 @@ manager: shujoshi
 # Enable linking of Dynamics 365 records to Microsoft Teams channels 
 
 By default, the linking of Dynamics 365 records to Teams channels is disabled for customer engagement apps in Dynamics 365:
+
 - Dynamics 365 Sales
 - Dynamics 365 Customer Service
 - Dynamics 365 Field Service
 - Dynamics 365 Marketing
 - Dynamics 365 Project Service Automation
 
-   > [!NOTE]
-   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](./teams-collaboration.md#record-types-that-support-microsoft-teams-integration). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
+> [!NOTE]
+> - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](./teams-collaboration.md#record-types-that-support-microsoft-teams-integration). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams integration](../../teams-integration/teams-troubleshoot.md#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## License and role requirements
@@ -54,17 +55,15 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
    > [!div class="mx-imgBorder"]
    > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)  
 
-1. Under **General Settings**, select **Chat and collaborate**.
+2. Under **General Settings**, select **Chat and collaborate**.
 
     The **Microsoft Team collaboration and chat** page opens.
 
-1. To enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md), select **Turn on Enhanced Microsoft Teams Integration**. When Basic Microsoft Teams integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear.  
+3. To enable the [Basic Collaboration Experience](teams-collaboration.md), select **Turn on the linking of Dynamics 365 records to Microsoft Teams channels**. When Basic Microsoft Teams integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear. 
 
-1. Turn on the **Turn on Enhanced Microsoft Teams Integration** toggle to enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md). 
+4. To enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md), select **Turn on Enhanced Microsoft Teams Integration**. To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
     ![Screenshot depicting Microsoft Team collaboration and chat settings](media/enable-linking-D365-records.png)
-
-    To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
 5. On the consent dialog, select **Accept**.  
        
@@ -92,14 +91,12 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
     The **Microsoft Team collaboration and chat** page opens.
 
-1. Turn on the **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** toggle to enable the [Basic Collaboration Experience](teams-collaboration.md). When Basic Microsoft Teams integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear.
+1. To enable the [Basic Collaboration Experience](teams-collaboration.md), select **Turn on the linking of Dynamics 365 records to Microsoft Teams channels**. When Basic Microsoft Teams integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear.
 
     <a name="enhanced"></a>  
-1. Turn on the **Turn on Enhanced Microsoft Teams Integration** toggle to enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md). 
+1. To enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md), select **Turn on Enhanced Microsoft Teams Integration**. To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
     ![Screenshot depicting Microsoft Team collaboration and chat settings](media/enable-linking-D365-records.png)
-
-    To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
 1. On the consent dialog, select **Accept**.  
 
@@ -116,12 +113,15 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 ### Frequently asked questions
 
 **1. Does the tenant admin need to do anything to set up Microsoft Teams Integration?**
+
 The tenant admin must provide consent for the enterprise application to be created in Azure AD and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
 
 **2. The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean?**
+
 Microsoft 365 tenant admin permissions means the directory admin or a tenant admin.
    
 **3. Is the activation for Dynamics 365 for all environments or per environment?**
+
 Consent is given to all instances within a tenant, but the admin needs to manually enable functionality for each instance.
 
 **4. What active directory privileges are given to the customer engagement apps?**
@@ -130,12 +130,15 @@ Consent is given to all instances within a tenant, but the admin needs to manual
   - **Dynamics 365 Microsoft Teams Collaboration Integration (Enterprise application), permissions:** Group.ReadWrite.All and User.Read.All
 
 **5. Is it enough to have only Microsoft Teams admin privileges to activate this Microsoft Teams Integration?**
+
 Enabling Microsoft Teams integration has nothing to with Teams admin privileges. You need to have tenant admin permission to enable Microsoft Teams integration. 
 
 **6. Which Service Principle (App ID) will receive this permission?**
+
 The App used for this integration, which is the customer engagement app and Microsoft Teams integration.
 
 **7. What happens when the consent is provided?**
+
 Apart from consent, a flag is set internally in your customer engagement app that indicates the feature is enabled. The flag is also used to control user interface behavior such as showing a user the **Collaborate** command.
 
 ### See also  
