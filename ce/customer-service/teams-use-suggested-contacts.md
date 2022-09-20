@@ -1,7 +1,7 @@
 ---
 title: "Use suggested contacts in Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to use suggested contacts with Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 09/11/2022
+ms.date: 09/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
