@@ -23,6 +23,8 @@ If you don't configure overflow, by default, the work item will stay in the queu
 
 When all queues are overflowing, priority is given to those queues that satisfy the "out of operating hours" condition.
 
+The channel-specific operating hour setting that's configured in the workstream doesn't affect the overflow settings.
+
 The following table lists the condition and action pairs available for different channel types.
 
 | Channel | Condition | Action|
@@ -58,7 +60,7 @@ For overflow to work correctly, the following prerequisites must be met:
     - **Assign to queue anyway**: The work item stays in the queue.
     - **Transfer to a different queue**: Select a queue in the dropdown list.
 
-    The following additional options are available for the messaging and voice queues:
+    The following extra options are available for the messaging and voice queues:
 
        - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
        - **End conversation**: For messaging queues only.
