@@ -310,7 +310,7 @@ The ability for users to join existing chats related to cases is especially usef
 
     1. In the site map, select **Service Management**.
     2. In **Collaboration**, select **Embedded chat using Teams**.
-1. 
+
 1. On the **Microsoft Teams collaboration and chat** page, in **Connect chats to Dynamics 365 records**, select the specific record type (for example, Case), and then in the settings pane, toggle **Join chat** on or off.
 1. Select **Save**.
 
