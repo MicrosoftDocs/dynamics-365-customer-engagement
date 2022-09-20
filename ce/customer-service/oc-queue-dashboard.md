@@ -1,7 +1,7 @@
 ---
 title: Queue Dashboard | Microsoft Docs
 description: Learn about the Queue dashboard to better understand agent performance in your organization.
-ms.date: 10/20/2022
+ms.date: 09/20/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
