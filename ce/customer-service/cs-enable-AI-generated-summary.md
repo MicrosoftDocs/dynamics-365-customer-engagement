@@ -1,28 +1,19 @@
 ---
-title: Configure AI-generated summary for customer service
+title: Set up AI-generated conversation summary in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 05/24/2022
+ms.date: 09/19/2022
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
 manager: shujoshi
 ---
 
-<!-- Please change the title: Set up AI-generated conversation summary in Dynamics 365 Customer Service -->
+# Set up AI-generated conversation summary
 
-# Configure AI-generated conversation summary  (preview)
-<!--Please change the H1: Set up AI-generated conversation summary (preview) -->
+> [!NOTE]
+> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-Agents can collaborate with others directly in Teams while they're working in Dynamics 365 Customer Service. To help them easily recap an ongoing customer interaction, turn on AI-generated conversation summaries. Agents can include a summary when they link a case to a Teams chat or channel. The summary quickly provides context and relays any steps they've already taken.
+Agents can collaborate with others directly in Teams while they're working in Dynamics 365 Customer Service. To help them easily recap an ongoing customer interaction, you can turn on AI-generated conversation summaries. Agents can include a summary when they connect a case to a Teams chat or channel. The summary quickly provides context and relays any steps they've already taken.
 
 ## Components of an AI-generated conversation summary
 
@@ -48,13 +39,22 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
 
 ## Turn on AI-generated conversation summary
 
-1. In Customer Service Hub, select the **Service Management** area.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-1. In the left pane, under **Collaboration**, select **Embedded chat using Teams**.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-1. Under **Link chats to Dynamics 365 records**, select **Conversation**.
+    1. In the site map, in **Agent experience**, select **Collaboration**.
+    
+    1. In **Embedded chat using Teams**, select **Manage**.
+   
+   ### [Customer Service Hub](#tab/customerservicehub) 
 
-1. In **Provide context for new linked chats**, turn on **Introduction message**.
+    1. In the site map, select **Service Management**.
+    2. In **Collaboration**, select **Embedded chat using Teams**.
+
+1. In **Connect chats to Dynamics 365 records**, select **Conversation**.
+
+1. In **Provide context for new connected chats**, turn on **Introduction message**.
 
 :::image type="content" source="media/cs-ai-generated-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 <!--Please confirm that this screenshot is accurate. I created it using my demo tenant, which may not be set up the way yours is. Thanks! -->
