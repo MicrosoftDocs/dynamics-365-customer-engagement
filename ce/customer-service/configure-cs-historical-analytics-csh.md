@@ -34,7 +34,7 @@ You can enable the customer service historical analytics reports in the Customer
      
      1. In the **Customer Service historical analytics** section, select **Manage**.
      
-     1. On the **Customer Service historical analytics page, set the **Enable Customer Service historical analytics report** toggle to **On**.
+     1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
@@ -44,7 +44,7 @@ You can enable the customer service historical analytics reports in the Customer
      
      1. In the **Customer Service historical analytics** section, select **Manage**.
      
-     1. On the **Customer Service historical analytics page, set the **Status** toggle to enabled.
+     1. On the **Customer Service historical analytics** page, set the **Status** toggle to enabled.
 
 1. Select **Save** or **Save & Close**.
 
