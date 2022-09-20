@@ -15,7 +15,7 @@ The Bot dashboard shows key performance indicators (KPIs) and charts that you ca
 
 You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
-## Power Virtual Agents bot report
+## Power Virtual Agents bot dashboard
 
  The **Bot** dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
 
@@ -85,7 +85,7 @@ KPIs for the following areas are displayed.
 | Session resolved rate | The percentage of total sessions that were resolved by the bot within the specified time period. | 
 | Sessions escalated rate | The percentage of total sessions that were escalated by the bot to a human agent within the specified time period.| 
 
-## Bot dashboard for all bots 
+## Dashboard for all bots 
 
  The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and  percent change over the period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. TYou can filter these areas by duration, channel, queue, or agent.
 
