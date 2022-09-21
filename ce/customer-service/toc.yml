@@ -442,8 +442,16 @@
       items:
       - name: Use email
         href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: View, compose and respond to email
+        href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context               
       - name: Attach a file to email
         href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
+      - name: Use the rich text editor toolbar in email
+        href: /power-apps/user/email-rich-text-editor?context=/dynamics365/context/customer-service-context
+      - name: Send email to multiple recipients
+        href: /power-apps/user/direct-email?context=/dynamics365/context/customer-service-context
+      - name: Resolve an unresolved email recipient
+        href: /power-apps/user/dunresolved-email-recipient?context=/dynamics365/context/customer-service-context
       - name: Email templates
         items: 
         - name: Create an email template
