@@ -26,9 +26,9 @@ searchScope:
 
 # Summary dashboard 
 
-The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agents bot metrics such as escalation and deflection rate are displayed in conjunction with agent engagement rate and abandon rate gives Customer Service Manager or Supervisors an overview of how the customers interact with bots, insights into bot and their corresponding agent conversation topics to evaluate how different topic areas are impacting your organization’s support performance. 
+The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agents bot metrics such as escalation and deflection rate displayed in conjunction with agent engagement rate and abandon rate give the Customer Service Manager or Supervisors an overview of how customers interact with bots and insights into bot perfomance. Bot topics and their corresponding agent conversation topics can help Supervisors evaluate how different topic areas impact your organization’s support performance. 
 
-This helps them handle increased bot escalations and customer requests effectively, increase or decrease agent staffing based on the conversation volumes, improving customer satisfaction and decreasing costs.
+Supervisors get actionable insights to handle bot escalations and customer requests effectively, thereby improving customer satisfaction and decreasing costs.
 
  :::image type="content" source="media/oc-summary-dashboard.png" alt-text="Screenshot that shows the Omnichannel Historical Summary dashboard.":::
 
