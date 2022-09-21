@@ -119,6 +119,8 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 5. Publish the report to the Power BI workspace configured.
 
+## Data model
+
 ## Data model and out-of-the-box Power BI reports
 
 (**Do we need more info to go in here?**)
