@@ -980,6 +980,10 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
+      - name: Configure visual customization of historical analytics reports
+        href: customize-reports.md
+      - name: Configure model customization of historical analytics reports
+        href: model-customize-reports.md
       - name: Enable supervisor settings
         items:
         - name: Provide access to Ongoing Conversations dashboard
@@ -1056,12 +1060,8 @@
           href: supervisor-sentiment-monitoring.md
     - name: Customize dashboards
       items: 
-      - name: Visual customization of historical analytics reports
-        href: customize-reports.md
-      - name: Model customization of historical analytics reports
-        href: model-customize-reports.md
-      - name: Customize interactive dashboards based on Unified Interface
-        href: configure-interactive-dashboards-customer-service-hub.md
+        - name: Customize interactive dashboards based on Unified Interface
+          href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
     items: 
     - name: Core Service Scheduling

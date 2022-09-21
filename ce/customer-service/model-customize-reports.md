@@ -1,10 +1,10 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
-ms.date: 09/14/2022
+ms.date: 09/21/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
@@ -16,7 +16,7 @@ search.app:
   - D365CS
 ---
 
-# Model customization of historical analytics reports in Customer Service
+# Model customization of historical analytics reports in Customer Service (Preview)
 
 Dynamics 365 Power BI extensibility capability enables power users to extend out-of-box customer service Power BI data model and integrate with other data sets to produce new custom metrics.
 
