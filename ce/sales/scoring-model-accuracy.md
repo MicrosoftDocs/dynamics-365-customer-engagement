@@ -116,7 +116,7 @@ The above data means that the system predicted 850 opportunities (TP+FP) to be w
 
 If your model is not ready to publish, take the following actions to retrain the model and improve the scores:
 
-- [Edit the model](configure-predictive-lead-scoring.md#edit-the-model) to
+- [Edit the model][Edit the model](pos-edit-and-retrain-model.md#edit-the-model) to
     - View the attributes used by the model.
     - View attribute insights to understand their influence on the overall prediction.
     - Ignore empty values for attributes that have higher percentage of empty values and hence are resulting in false positives or false negatives.

@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-## Manage duplicate models
+# Manage duplicate models
 
 When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. When you have duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.  
 
@@ -38,7 +38,7 @@ When you open a published model, a note displays above the version details secti
 
 Delete the duplicate model as described in the next section.
 
-### Delete a model
+## Delete a model
 
 You can delete a model when it's no longer required in your organization or it's a duplicate of an existing model. You can only have upto 10 models&mdash;both published and unpublished&mdash;simultaneously.
 

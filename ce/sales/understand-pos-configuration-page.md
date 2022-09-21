@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Understand the configuration page
+# Understand the predictive opportunity scoring configuration page
 
 When a model is generated and published, the configuration summary page is displayed as shown in the following image.
 
@@ -41,9 +41,9 @@ In the upper-right corner of the page, you can choose from actions that you can 
 > ![Actions for opportunity scoring](media/si-admin-predictive-lead-scoring-buttons.png "Actions for opportunity scoring")
 
 - **Publish**: When you publish a model to your organization, users in your organization can see the My Open Opportunities Scored system view and the opportunity score widget on opportunity forms. After you publish, this button appears dimmed and will be available only after you retrain or edit the model.
-- **Edit model**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to modify fields to consider or include a unique business process. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+- **Edit model**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to modify fields to consider or include a unique business process. More information: [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md)
 - **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is only available when you've retrained the model but haven't published it yet.
-- **Delete model**: You can delete models that aren't required in your organization. This option is displayed for published models. More information: [Delete a model](#delete-a-model)
+- **Delete model**: You can delete models that aren't required in your organization. This option is displayed for published models. More information: [Delete a model](pos-duplicate-models.md#delete-a-model)
 
 ## Version details
 
@@ -61,7 +61,7 @@ The parameters displayed in this section show information about the status and p
 | Business process flow | Displays the business process flow that's applied on the opportunities that are scored by this model. |
 | Filter column and filter values | When multiple models are used, this selection defines which column and which values within that column correspond to the opportunities that this specific model should score. |
 | State option set | Displays the option set that's used for won and lost opportunities in this model. |
-| Retrain automatically | Allows you to set the model to be retrained automatically. More information: [Automatic retraining](#automatic-retraining) |
+| Retrain automatically | Allows you to set the model to be retrained automatically. More information: [Automatic retraining](pos-edit-and-retrain-model.md#automatic-retraining) |
 | Most influential fields | Displays the top five attributes that most affect the outcome of the prediction accuracy score. |
 
 ## Opportunity score grading
@@ -75,5 +75,5 @@ You can configure the range for the grading according to your organizational req
 
 ## MultiModel
 
-In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different opportunities than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished). More information: [Add a model](#add-a-model)
+In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different opportunities than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished). More information: [Create and add a scoring model](configure-predictive-opportunity-scoring.md#create-and-add-a-scoring-model)
 

@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Understand the configuration page
+# Understand the predictive lead scoring configuration page
 
 When a model is generated and published, the configuration summary page is displayed as shown in the following image.
 
