@@ -148,7 +148,7 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 ## Things to remember
 
-You can add your own dataset to build new custommetrics or drill-down to add your metrics to the report as required by your organization.
+You can add your own dataset to build new custom metrics or drill-down to add your metrics to the report as required by your organization.
 
 ### See also
 
