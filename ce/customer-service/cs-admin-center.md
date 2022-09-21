@@ -35,17 +35,21 @@ The notable enhancements include:
 
 ## Prerequisites
 
-You'll need one or more of the following security roles to access this app:
+You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
 
-- **System Administrator**: Can access and edit all the site map entries
+- **System Administrator**: To access and edit all the site map entries, and entities like queues for the email record, automatic record creation and update rules, and workstreams.
 
-- **System Customizer**: Can access and edit all the site map entries
+- **System Customizer**: To access and edit all the site map entries
 
-- **CSR Manager**: Can access the entities consolidated from Customer Service Hub > Service Management
+- **CSR Manager**: To access the entities in Customer Service. If you use custom roles, you can refer to the privileges of CSR Manager
 
-- **App Profile Manager administrator and Basic User**: Can access the app and edit app profile-related entities
+- **App Profile Manager administrator and Basic User**: To access the app and edit app profile-related entities.
 
-- **Omnichannel Administrator and Basic User**: Can access the app and edit all the Omnichannel-related entities
+- **Omnichannel Administrator and Basic User**: To access the app and edit all the omnichannel-related entities, like chat and voice and queues, and workstreams.
+
+Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privileges.
+
+More information: [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 
 ## Access the app
 
