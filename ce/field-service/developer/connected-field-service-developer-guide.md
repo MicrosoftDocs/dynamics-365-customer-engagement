@@ -43,4 +43,4 @@ search.app:
   
 - Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards  
   
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../../includes/footer-banner.md)]
