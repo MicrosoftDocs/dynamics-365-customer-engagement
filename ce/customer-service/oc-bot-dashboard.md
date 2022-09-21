@@ -10,8 +10,9 @@ manager: shujoshi
 
 # Bot dashboard
 
-The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are playing a role in a support organization.
- Based on the bots integrated with Omnichannel for Customer Service, and if your Administrator has enabled the **Add historical Analytics for bots** checkbox in Customer Service admin center, the **Bot** dashboard displays different metrics, KPIs, and charts.  
+In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
+
+If your Administrator has enabled **Add historical Analytics for bots**  in Customer Service admin center, the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
 You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
@@ -87,7 +88,7 @@ KPIs for the following areas are displayed.
 
 ## Dashboard for all bots 
 
- The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and  percent change over the period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. TYou can filter these areas by duration, channel, queue, or agent.
+ The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over the period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. TYou can filter these areas by duration, channel, queue, or agent.
 
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
@@ -135,8 +136,8 @@ To access the drill-down, select any metric value for the agent you're intereste
 
 ### View and improve bot topics
 
-[!Note]
->  This feature is applicable only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
+> [!Note]
+> This feature is applicable only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
 
 You can view and improve the performance of individual topics associated with a Power Virtual Agents bot by performing the following steps:
 
@@ -145,7 +146,7 @@ You can view and improve the performance of individual topics associated with a 
 > [!div class="mx-imgBorder"]
 > ![Bot hourly detail drill down view.](media/oc-transcripts.png "transcript") 
 
-1. To edit the bot responses to a topic, select ***Edit Power Virtual Agents** on the Topics metrics grid. This will open the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
+1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This will open the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
 
 > [!div class="mx-imgBorder"]
 > ![Bot hourly detail drill down view.](media/oc-pva-edit.png "Edit page") 
