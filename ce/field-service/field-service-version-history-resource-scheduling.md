@@ -1,7 +1,7 @@
 ---
 title: "Universal Resource Scheduling version history | MicrosoftDocs"
 description: Find a list of important updates for Universal Resource Scheduling in Dynamics 365 Field Service
-ms.date: 01/20/2021
+ms.date: 09/20/2022
 ms.reviewer: mhart
 
 ms.subservice: common-scheduler
