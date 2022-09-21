@@ -40,15 +40,11 @@ Delete the duplicate model as described in the next section.
 
 ### Delete a model
 
-You can delete a model when it's no longer required in your organization or it's a duplicate of an existing model. You can only have 10 models&mdash;both published and unpublished&mdash;simultaneously.
+You can delete a model when it's no longer required in your organization or it's a duplicate of an existing model. You can only have upto 10 models&mdash;both published and unpublished&mdash;simultaneously.
 
 1. Go to the predictive lead scoring configuration page.
-1. Select a model from the **Select model** list, and then select **Delete model**. In this example, we've selected the model **LeadScoring_202009181011**.
 
-   > [!NOTE]
-   > You can't delete a model if the **Retrain automatically** option is enabled. Disable the option first.
-
+1. Select a model from the **Select model** list and ensure that **Retrain automatically** is turned off.
+1. Select **Delete model**. 
 1. In the confirmation message that appears, select **Delete**.
-
-The model is deleted from your organization.
 

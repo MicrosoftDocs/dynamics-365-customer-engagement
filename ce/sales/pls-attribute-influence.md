@@ -38,9 +38,9 @@ The insights displayed on the **Attribute Insights** pane are based on your orga
 
 The **Attribute Insights** pane is divided into the following sections:
 
-- A summary of the prediction influence factors, how many times the attribute is populated in open and closed leads/opportunities, and the reason the attribute isn't automatically selected to create the model.
+- A summary section with the prediction influence of the attribute, how many times the attribute is populated in open and closed leads/opportunities, and the reason the attribute isn't automatically selected to create the model.
 
-- A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the lead score values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
+- A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the lead source values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
 
     `Global qualification rate for leads` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
 
