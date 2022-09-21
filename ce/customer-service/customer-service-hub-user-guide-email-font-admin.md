@@ -92,7 +92,7 @@ Enabling the user configured settings to an email form consists of the following
    
    The settings will now apply to the form when you create an email.
 
-### Add the language filer in the email template selection view
+### Add the language filter in the email template selection view
 
 Perform the following steps to enable the language filter for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
 
