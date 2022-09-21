@@ -293,7 +293,7 @@ Using the included OData v4 provider, read, create, update, and delete data from
 
 ### **Organization database updates must be manually applied**
 
-Organization database updates must be manually applied after you complete the version 9.1 update for all Dynamics 365 Server computers in the deployment. To apply the update, use [deployment manager](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/update-an-organization) or [Power Shell](https://docs.microsoft.com/en-us/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)**.** -->
+Organization database updates must be manually applied after you complete the version 9.1 update for all Dynamics 365 Server computers in the deployment. To apply the update, use [deployment manager](https://learn.microsoft.com/dynamics365/customerengagement/on-premises/deploy/update-an-organization) or [Power Shell](https://learn.microsoft.com/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)**.** -->
 
 ::: moniker-end
 
