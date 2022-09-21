@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
 description: "This topic lists the software and hardware requirements you need to install and use Unified Service Desk."
-ms.date: 08/02/2022
+ms.date: 09/20/2022
 ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
@@ -73,7 +73,7 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 > [!Note]
 >
-> - Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
+> - Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 >
 > - The support for hosting Unified Interface pages using Chrome Process (CefSharp) in Unified Service Desk 4.1.1.1397 and earlier versions is based on the Power Apps system requirements and limits. More information: [Supported browsers for running Power Apps](/power-apps/limits-and-config#supported-browsers-for-running-power-apps)
 
@@ -96,5 +96,6 @@ After you enable the web client experience, go to the Window Navigation Rules an
  [Install Unified Service Desk client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
  [Install and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+[Upgrade a Unified Service Desk solution](upgrade-unified-service-desk-solution.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
