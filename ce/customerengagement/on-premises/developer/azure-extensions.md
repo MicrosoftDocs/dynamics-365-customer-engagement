@@ -30,7 +30,7 @@ search.audienceType:
   
 For more information about configuring and using [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], refer to the Microsoft Power Apps documentation: [Azure integration](/power-apps/developer/data-platform/azure-integration).
 
-However, before you go, please read the following note about configuration that is different for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (on-premise) and not included in the Power Apps documentation.
+However, before you go, please read the following note about configuration that is specific for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (on-premise) and not included in the Power Apps documentation.
 
 > [!IMPORTANT]
 > For on-premises deployments, see the on-premise sections of the configuration documentation [Configure Azure integration with Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/gg309340(v=crm.8)#get-a-public-certificate).
