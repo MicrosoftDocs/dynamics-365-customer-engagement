@@ -45,8 +45,8 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     >[!div class="mx-imgBorder"]
     >![Segment condition builder page](media/sa-segment-condition-builder-home-page.png "Segment condition builder page")
 
-7. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records move from a segment to this, turn on the **Allow *records* to be moved from other segments to this one** toggle. when enabled, the application validates the records for conditions defined in this segment and moves the records accordingly though the records are connected to a different segment. When moved, the records will be connected to the sequence from this segment.    
-    However, the assignment rules will not be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.     
+7. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records move from another segment to this, turn on the **Allow *records* to be moved from other segments to this one** toggle. when enabled, the application validates the records for conditions defined in this segment and moves the records accordingly though the records are connected to a different segment. When moved, the records will be connected to the sequence from this segment.    
+    However, the assignment rules won't be changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** option.     
     
     :::image type="content" source="media/sa-segment-allow-records-to-move.png" alt-text="Screenshot illustrating the option to allow records to move tho this segment and apply the assignment rules":::           
 
