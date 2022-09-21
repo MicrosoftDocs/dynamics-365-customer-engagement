@@ -220,6 +220,8 @@
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments in real-time marketing
         href: real-time-marketing-ci-profile.md
+      - name: Send a targeted email blast in real-time marketing
+        href: real-time-marketing-email-get-started.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -546,7 +548,7 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
-    - name: "Preview: Collaborate using Microsoft Teams chat"
+    - name: Collaborate using Microsoft Teams chat
       href: teams-chat.md
     - name: "Customer interactions timeline"
       href: timeline.md

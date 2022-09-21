@@ -110,35 +110,33 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 - **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work order should be scheduled between 8 AM and 12 PM).  
 
-Next you need to define a pattern for work orders to be created. Select **Booking Recurrence** in the command bar at the top.  
+#### Booking recurrence
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the agreement booking setup, with focus on the booking recurrence option.](./media/agreement-booking-setup.png)
-  
-Use the pop-up window to define a recurrence.
+Define a pattern to create work orders based on the agreement.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the booking recurrence pop up form.](./media/agreement-booking-recurrence.png)
+1. Select **Booking Recurrence** in the command bar at the top.  
 
-Typical examples are:
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the agreement booking setup, with focus on the booking recurrence option.](./media/agreement-booking-setup.png)
 
-- Weekly
-- Monthly
-- Every three months
-- Yearly
-- The first Monday of each month
-- Every other Friday
+1. Specify the **Recurrence Pattern**. For example, every week, every first Monday of the month, or every other Friday.
 
-You can also define custom dates work orders that should be performed in addition to a recurrence if a pattern doesn't reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year. Custom date work orders won't be generated, unless a recurrence is provided.
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the booking recurrence pop up form.](./media/agreement-booking-recurrence.png)
 
-- **End Date Behavior**: Entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** means the work orders should be generated until the agreement end date.
+1. Set the **Range of Recurrence**. Define the **Start Date** and choose the **End Date Behavior**.
+   - **No End Date**: Work orders are generated until the agreement end date.
+   - **End by**: Stop generating work order after the recurrence end date.
+   - **End after # recurrences**: Work order are generated until the specified number of recurrences is reached.
 
-Finally, **Save**.
+1. You can also define **Custom Dates** to generate work orders that should be performed in addition to a recurrence if a pattern doesn't reflect your business needs. For example, to perform service on various holidays throughout the year. Custom date work orders won't be generated, unless a recurrence is provided.
+
+1. Select **Save**.
 
 > [!NOTE]
-> A single agreement can have various booking setups. For example, you may create a booking setup called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another booking setup called "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.
+> A single agreement can have various booking setups. For example, you may create a booking setup for weekly visits that creates work orders every week and booking setup for monthly visits with different bookings.
 
-See details in the configuration considerations section at the end of this article for details on importing booking recurrences.
+See also: [Import booking recurrences](#import-booking-recurrences).
 
 ### Step 3: Add agreement work details
 
