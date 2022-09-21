@@ -72,25 +72,25 @@ For organizations that use:
   
 ## Edit or turn off scheduling for an entity  
   
-1.  From the main menu, go to **Resource Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
+1. From the main menu, go to **Resource Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
   
-2.  From the list of **Enable Entities**, double-click on the entity that you want to edit.  
+2. From the list of **Enable Entities**, double-click on the entity that you want to edit.  
   
-3.  When the **BOOKING SETUP METADATA: INFORMATION** form opens, do one of the following:  
+3. When the **BOOKING SETUP METADATA: INFORMATION** form opens, do one of the following:  
   
-    -   To turn off scheduling for the entity, on the command bar, select **DEACTIVATE**. On the **Confirm Deactivation** dialog box, select **Deactivate**.  
+    - To turn off scheduling for the entity, on the command bar, select **DEACTIVATE**. On the **Confirm Deactivation** dialog box, select **Deactivate**.  
   
-    -   Or, you can edit the form and when you’re done, select **Save** on the lower right corner.  
+    - Or, you can edit the form and when you’re done, select **Save** on the lower right corner.  
   
 ## Schedule something
 
  **Step 1:** Create a resource requirement  
   
-1. From the main menu, click **Sales**, **Service**, or **Marketing**.  
+1. From the main menu, select **Sales**, **Service**, or **Marketing**.  
   
 2. Choose an entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
   
-3. From the list of leads choose an existing lead.  
+3. From the list of leads, choose an existing lead.  
   
 4. When the form opens, go to  the subgrid menu, and select **Resource Requirement**.  
   
@@ -110,9 +110,9 @@ For organizations that use:
   
 - **Option 1**: Right-click on an unscheduled booking and find available resources.  
   
-    1.  From the main menu, go to **Resource Scheduling** > **Schedule Board**.  
+    1. From the main menu, go to **Resource Scheduling** > **Schedule Board**.  
   
-    2.  From the **Booking Requirement** list, right-click on an unscheduled booking and choose one of the following:  
+    2. From the **Booking Requirement** list, right-click on an unscheduled booking and choose one of the following:  
   
          Choose **Find availability - Current Resources** to find available resource from the list of resources on the schedule board.  
   
@@ -123,29 +123,28 @@ For organizations that use:
         > [!NOTE]
         >  When you do this, the filters will show the options for the selected booking requirement. If you can't find a available resource for the book, try adjusting the filters.  
   
-    3.  When you see the available slot right-click on the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
+    3. When you see the available slot right-click on the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
   
 - **Option 2**: Drag an unscheduled booking requirement from list view to the schedule board.  
   
-    1.  From the main menu, go to **Resource Scheduling** > **Schedule Board**.  
+    1. From the main menu, go to **Resource Scheduling** > **Schedule Board**.  
   
-    2.  Select an unscheduled booking requirement from the list at the bottom.  
+    2. Select an unscheduled booking requirement from the list at the bottom.  
   
-    3.  Drag the item to an available resource/time slot on the schedule board.  
+    3. Drag the item to an available resource/time slot on the schedule board.  
   
 - **Option 3**: Schedule a booking requirement from the entity form.  
   
-    1.  From the main menu, go to **Sales**, **Service**, or **Marketing**.  
+    1. From the main menu, go to **Sales**, **Service**, or **Marketing**.  
   
-    2.  Choose and entity that as scheduling turned on.  
+    2. Choose and entity that as scheduling turned on.  
   
          For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
   
-    3.  From the list of leads, choose the lead that you want to schedule a booking for.  
+    3. From the list of leads, choose the lead that you want to schedule a booking for.  
   
-    4.  When the lead form opens, on  the command bar, select **Book**.  
+    4. When the lead form opens, on  the command bar, select **Book**.  
   
-    5.  Use the schedule assistant  to book the requirement.  
-
+    5. Use the schedule assistant  to book the requirement.  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
