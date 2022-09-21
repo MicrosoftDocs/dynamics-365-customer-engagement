@@ -163,13 +163,4 @@ You can define territories based on postal codes (zip codes). When creating a te
 - **Crews**: if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory. For more information, see the article on [enabling an entity for scheduling](resource-crews.md).
 - You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory. 
 
-
-### See also
-
-- [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
-- [Set up bookable resources](set-up-bookable-resources.md)
-
-  
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

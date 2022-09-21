@@ -1137,9 +1137,4 @@ This upgrade is significant and has many potentially disruptive changes includin
 
 All customers should upgrade all legacy versions of Field Service and Project Service Automation to the latest solution versions as soon as possible.
 
-### See also
-
-- [New and upcoming features](new-upcoming.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
