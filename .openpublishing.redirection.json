@@ -13173,7 +13173,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/azure-integration.md",
+      "source_path": "ce/customerengagement/on-premises/developer/azure-integration.md",
       "redirect_url": "/power-apps/developer/data-platform/azure-integration",
       "redirect_document_id": "false"
     },
@@ -13263,7 +13263,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/configure-azure-integration.md",
+      "source_path": "ce/customerengagement/on-premises/developer/configure-azure-integration.md",
       "redirect_url": "/power-apps/developer/data-platform/configure-azure-integration",
       "redirect_document_id": "false"
     },
@@ -14078,7 +14078,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-azure-aware-custom-plugin.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-azure-aware-custom-plugin.md",
       "redirect_url": "/power-apps/developer/data-platform/org-service/samples/azure-aware-custom-plugin",
       "redirect_document_id": "false"
     },
@@ -14088,7 +14088,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-azure-aware-custom-workflow-activity.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-azure-aware-custom-workflow-activity.md",
       "redirect_url": "/power-apps/developer/data-platform/org-service/samples/azure-aware-custom-workflow-activity",
       "redirect_document_id": "false"
     },
@@ -14138,7 +14138,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-code-azure-integration.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-code-azure-integration.md",
       "redirect_url": "/power-apps/developer/data-platform/azure-integration",
       "redirect_document_id": "false"
     },
@@ -14383,7 +14383,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-one-way-listener.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-one-way-listener.md",
       "redirect_url": "/power-apps/developer/data-platform/org-service/samples/one-way-listener",
       "redirect_document_id": "false"
     },
@@ -14403,7 +14403,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-persistent-queue-listener.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-persistent-queue-listener.md",
       "redirect_url": "/power-apps/developer/data-platform/org-service/samples/persistent-queue-listener",
       "redirect_document_id": "false"
     },
@@ -14478,7 +14478,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-rest-listener.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-rest-listener.md",
       "redirect_url": "/power-apps/developer/data-platform/org-service/samples/rest-listener",
       "redirect_document_id": "false"
     },
@@ -14608,7 +14608,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/sample-two-way-listener.md",
+      "source_path": "ce/customerengagement/on-premises/developer/sample-two-way-listener.md",
       "redirect_url": "/power-apps/developer/data-platform/org-service/samples/two-way-listener",
       "redirect_document_id": "false"
     },
@@ -14983,7 +14983,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/walkthrough-configure-azure-sas-integration.md",
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-configure-azure-sas-integration.md",
       "redirect_url": "/power-apps/developer/data-platform/walkthrough-configure-azure-sas-integration",
       "redirect_document_id": "false"
     },
@@ -14998,7 +14998,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md",
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md",
       "redirect_url": "/power-apps/developer/data-platform/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool",
       "redirect_document_id": "false"
     },
@@ -15018,7 +15018,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/walkthrough-update-service-endpoint-acs-sas-authorization.md",
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-update-service-endpoint-acs-sas-authorization.md",
       "redirect_url": "/power-apps/developer/data-platform/walkthrough-configure-azure-sas-integration",
       "redirect_document_id": "false"
     },
@@ -15028,7 +15028,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/walkthrough-update-service-endpoint-imported-solution.md",
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-update-service-endpoint-imported-solution.md",
       "redirect_url": "/power-apps/developer/data-platform/walkthrough-update-service-endpoint-imported-solution",
       "redirect_document_id": "false"
     },
@@ -15068,7 +15068,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/work-data-azure-solution.md",
+      "source_path": "ce/customerengagement/on-premises/developer/work-data-azure-solution.md",
       "redirect_url": "/power-apps/developer/data-platform/work-data-azure-solution",
       "redirect_document_id": "false"
     },
@@ -15083,7 +15083,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/work-event-data-azure-event-hub-solution.md",
+      "source_path": "ce/customerengagement/on-premises/developer/work-event-data-azure-event-hub-solution.md",
       "redirect_url": "/power-apps/developer/data-platform/work-event-data-azure-event-hub-solution",
       "redirect_document_id": "false"
     },
@@ -15108,7 +15108,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/write-custom-azure-aware-plugin.md",
+      "source_path": "ce/customerengagement/on-premises/developer/write-custom-azure-aware-plugin.md",
       "redirect_url": "/power-apps/developer/data-platform/write-custom-azure-aware-plugin",
       "redirect_document_id": "false"
     },
@@ -15118,7 +15118,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/write-listener-application-azure-solution.md",
+      "source_path": "ce/customerengagement/on-premises/developer/write-listener-application-azure-solution.md",
       "redirect_url": "/power-apps/developer/data-platform/write-listener-application-azure-solution",
       "redirect_document_id": "false"
     },
