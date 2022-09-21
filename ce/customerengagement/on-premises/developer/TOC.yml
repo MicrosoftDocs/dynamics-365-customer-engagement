@@ -223,44 +223,8 @@
         href: supported-entities-asynchronous-operations.md
       - name: Stop and start the asynchronous service
         href: stop-start-asynchronous-service.md
-    - name: Azure extensions
+    - name: Azure integration
       href: azure-extensions.md
-      items:
-      - name: Azure integration
-        href: azure-integration.md
-      - name: Configure Azure integration with Customer Engagement (on-premises)
-        href: configure-azure-integration.md
-      - name: Work with data in your Azure solution
-        href: work-data-azure-solution.md
-      - name: Work with event data in your Azure Event Hub solution
-        href: work-event-data-azure-event-hub-solution.md
-      - name: Write a custom Azure-aware plug-in
-        href: write-custom-azure-aware-plugin.md
-      - name: Write a listener application for a Microsoft Azure solution
-        href: write-listener-application-azure-solution.md
-      - name: 'Walkthrough: Configure Microsoft Azure (SAS) for integration with Customer Engagement (on-premises)'
-        href: walkthrough-configure-azure-sas-integration.md
-      - name: 'Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool'
-        href: walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md
-      - name: 'Walkthrough: Update a service endpoint from ACS to SAS authorization'
-        href: walkthrough-update-service-endpoint-acs-sas-authorization.md
-      - name: 'Walkthrough: Update a service endpoint imported from a solution'
-        href: walkthrough-update-service-endpoint-imported-solution.md
-      - name: Sample code for Customer Engagement (on-premises) and Azure integration
-        href: sample-code-azure-integration.md
-        items:
-        - name: 'Sample: Azure aware custom plug-in'
-          href: sample-azure-aware-custom-plugin.md
-        - name: 'Sample: Azure aware custom workflow activity'
-          href: sample-azure-aware-custom-workflow-activity.md
-        - name: 'Sample: One-way listener'
-          href: sample-one-way-listener.md
-        - name: 'Sample: Two-way listener'
-          href: sample-two-way-listener.md
-        - name: 'Sample: REST listener'
-          href: sample-rest-listener.md
-        - name: 'Sample: Persistent queue listener'
-          href: sample-persistent-queue-listener.md
     - name: Use WebHooks
       href: use-webhooks.md
   - name: Extend Customer Engagement (on-premises) on the client
