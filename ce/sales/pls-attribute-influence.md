@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-## View the influence of an attribute on the model
+# View the influence of an attribute on the model
 
 When you define a model, you'd like get insights on the influence of each attribute on the prediction score. Based on these insights, you can analyze and understand:
 
@@ -48,7 +48,7 @@ The **Attribute Insights** pane is divided into the following sections:
 
     Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads/opportunities. The qualification rate for a value of the attribute is calculated based on the following formula:
 
-     `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
+     `Qualification rate for a value of the attribute` = (`Total number of leads/opportunities qualified with the given value in the attribute`/`Total number of closed leads/opportunities with that value in the attribute`) &times; 100  
 
      For example, if leads with high budget have a 42 percent qualification rate, the formula is:
 

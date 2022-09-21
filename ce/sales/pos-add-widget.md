@@ -1,6 +1,6 @@
 ---
-title: "Add the lead scoring widget to a form"
-description: Learn how to display the predictive lead scoring widget on your custom forms.
+title: "Add the opportunity scoring widget to a form"
+description: Learn how to display the predictive opportunity scoring widget on your custom forms.
 ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article

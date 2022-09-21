@@ -36,7 +36,7 @@ The following image is an example of an opportunity scoring widget.
 > ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget.png "Predictive opportunity score widget")
 
 >[!IMPORTANT]
->- If you're using predictive opportunity scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all opportunities in your organization, and the newly generated models won't have any effect on the opportunities. More information:[Delete a model](#delete-a-model)
+>- If you're using predictive opportunity scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all opportunities in your organization, and the newly generated models won't have any effect on the opportunities. More information:[Delete a model](pos-duplicate-models.md#delete-a-model)
 >- From 2020 release wave 2 for Dynamics 365, the application writes the opportunity scoring related data to **msdyn_predictivescore** entity and has stopped writing to the opportunity entity. This entity is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
 
 
@@ -49,7 +49,7 @@ Verify that you meet the following requirement before adding predictive opportun
 - You need to have enough opportunities to train the model based on past data. Choose a time period between 3 months to 2 years to meet one of the following requirements:
     - A minimum of 40 won and 40 lost opportunities that were created and closed during the selected time period.
     
-    - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a [per stage model](#per-stage-model).
+    - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a [per stage model](#what-is-a-per-stage-model).
   >[!NOTE]
   >- The numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
   >- The system takes about 4 hours to sync the data with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
@@ -60,7 +60,7 @@ Verify that you meet the following requirement before adding predictive opportun
 A per stage model calculates the influence of attributes at each stage of the business process flow based on past data. For example, you can see how the estimated close date has an influence across different stages of the opportunity. You can then review and decide which stages are relevant for each attribute according to your organization's standards and improve the model accuracy. By default, per stage modeling is disabled. 
 
 > [!NOTE]
-> You can enable per stage modeling only when you're [adding a model](#add-a-model) and not later.  
+> You can enable per stage modeling only when you're [adding a scoring model](#create-and-add-a-scoring-model) and not later.  
 
 When per stage modeling is disabled, the model uses only the attributes that had a higher influence on opportunities that were closed as won. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone.
 
@@ -94,7 +94,7 @@ A scoring model defines the criteria for choosing the opportunities for training
 
     By default, the name is selected as **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-5. In the Business process flow list, select a flow that's relevant for the opportunities that you're generating the model for. The list displays all the business process flows that are defined for the opportunities in your organization. Selecting a business process flow is mandatory if you want to enable [per stage modeling](#per-stage-model).
+5. In the Business process flow list, select a flow that's relevant for the opportunities that you're generating the model for. The list displays all the business process flows that are defined for the opportunities in your organization. Selecting a business process flow is mandatory if you want to enable [per stage modeling](#what-is-a-per-stage-model).
     > [!NOTE]
     >- To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
     >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
@@ -121,7 +121,7 @@ A scoring model defines the criteria for choosing the opportunities for training
    If you don't have the minimum closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
 9. (Optional) Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage.  
-    After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Manual retraining](#manual-retraining)
+    After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Edit the model](pos-edit-and-retrain-model.md#edit-the-model)
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
     > [!NOTE]
@@ -129,7 +129,7 @@ A scoring model defines the criteria for choosing the opportunities for training
     
 10. Select **Get started**.  
 
-    The application starts generating a model, and a notification is displayed. The application uses standard attributes to generate the model. You can [edit the model](edit-pos-model.md) later to include custom attributes.
+    The application starts generating a model, and a notification is displayed. The application uses standard attributes to generate the model. You can [edit the model](pls-edit-and-retrain-model.md) later to include custom attributes.
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")

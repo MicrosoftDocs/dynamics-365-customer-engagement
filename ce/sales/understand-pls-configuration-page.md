@@ -39,9 +39,9 @@ In the upper-right corner of the page, you can choose from actions that you can 
 > ![Actions for lead scoring.](media/si-admin-predictive-lead-scoring-buttons.png "Actions for lead scoring")
 
 - **Publish**: When you publish a model in your organization, users in your organization can see the My Open Leads Scored system view and the Lead score widget on lead forms. After you publish, this button appears dimmed and will be available only after you retrain or edit the model.
-- **Edit model**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to modify fields to consider or include a unique business process. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+- **Edit model**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to modify fields to consider or include a unique business process. More information: [Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md#edit-and-retrain-a-lead-scoring-model)
 - **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is only available when you've retrained the model but haven't published it yet.
-- **Delete model**: You can delete models that aren't required in your organization. This option is displayed for published models. More information: [Delete a model](#delete-a-model)
+- **Delete model**: You can delete models that aren't required in your organization. This option is displayed for published models. More information: [Delete a model](pls-duplicate-models.md#delete-a-model)
 
 ### Version details
 
@@ -59,7 +59,7 @@ The parameters displayed in this section show information about the status and p
 | Business process flow | Displays the business process flow that's applied on the leads that are scored by this model. |
 | Filter column and filter values | When multiple models are used, this selection defines which column and which values within that column correspond to the leads that this specific model should score. |
 | State option set | Displays the option set that's used to qualify and disqualify leads in this model. |
-| Retrain automatically | Allows you to set the model to be retrained automatically. More information: [Automatic retraining](#automatic-retraining) |
+| Retrain automatically | Allows you to set the model to be retrained automatically. More information: [Automatic retraining](pls-edit-and-retrain-model.md#automatic-retraining) |
 | Most influential fields | Displays the top five attributes that most affect the outcome of the prediction accuracy score. |
 
 ### Lead score grading

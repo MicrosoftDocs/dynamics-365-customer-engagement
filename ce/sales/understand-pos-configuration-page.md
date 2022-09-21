@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-## Understand the configuration page
+# Understand the configuration page
 
 When a model is generated and published, the configuration summary page is displayed as shown in the following image.
 
@@ -26,14 +26,14 @@ The configuration page is organized into the following sections:
 
 <a name="select-model"></a>
 
-### Select model
+## Select model
 
 In the upper-left corner of the page, you can use the **Select model** drop-down list to choose the model you want to view, edit, or delete. The list consists of both published and unpublished models.
 
 > [!div class="mx-imgBorder"]
 > ![Select model drop-down](media/si-admin-predictive-opportunity-scoring-select-model-drop-down.png "Select model drop-down")
 
-### Actions you can perform on the model
+## Actions you can perform on the model
 
 In the upper-right corner of the page, you can choose from actions that you can perform on the model.
 
@@ -45,7 +45,7 @@ In the upper-right corner of the page, you can choose from actions that you can 
 - **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is only available when you've retrained the model but haven't published it yet.
 - **Delete model**: You can delete models that aren't required in your organization. This option is displayed for published models. More information: [Delete a model](#delete-a-model)
 
-### Version details
+## Version details
 
 The parameters displayed in this section show information about the status and performance of the model.
 
@@ -64,7 +64,7 @@ The parameters displayed in this section show information about the status and p
 | Retrain automatically | Allows you to set the model to be retrained automatically. More information: [Automatic retraining](#automatic-retraining) |
 | Most influential fields | Displays the top five attributes that most affect the outcome of the prediction accuracy score. |
 
-### Opportunity score grading
+## Opportunity score grading
 
 When a model is published, the opportunities that are in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded A, B, C, or D, according to the opportunity score. Opportunities in the top score range are graded A while opportunities within the lowest score range are graded D.
 
@@ -73,7 +73,7 @@ When a model is published, the opportunities that are in your organization's pip
 
 You can configure the range for the grading according to your organizational requirements. When you change the opportunity score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum opportunity score range for **Grade B** changes to 50.
 
-### MultiModel
+## MultiModel
 
 In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different opportunities than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished). More information: [Add a model](#add-a-model)
 

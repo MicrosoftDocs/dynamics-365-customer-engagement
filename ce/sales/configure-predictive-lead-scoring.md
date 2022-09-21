@@ -37,7 +37,7 @@ The following image shows an example of a lead scoring widget.
 > ![Predictive lead score widget.](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
 
 > [!IMPORTANT]
-> - If you're using a model that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
+> - If you're using a model that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](pls-duplicate-models.md#delete-a-model)
 > - From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
 
 ## Prerequisites
@@ -46,7 +46,7 @@ Verify that you meet the following requirements before adding lead scoring model
 
 - Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
-- A minimum of 40 qualified and 40 disqualified leads created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
+- A minimum of 40 qualified and 40 disqualified leads created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [Create and add a scoring model](#create-and-add-a-scoring-model)
 
    > [!NOTE]
    > These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.

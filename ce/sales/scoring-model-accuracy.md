@@ -47,7 +47,7 @@ After a model is trained, the model runs on the closed opportunities/leads in th
 
 2. Select the **Performance** tab.  
     > [!NOTE]
-    > If you don't see any metrics in the **Performance** tab, [retrain the model](configure-predictive-opportunity-scoring.md#manual-retraining). 
+    > If you don't see any metrics in the **Performance** tab, [retrain the model](pos-edit-and-retrain-model.md#manual-retraining). 
 
     The performance metrics of the model are displayed.
 
@@ -122,7 +122,7 @@ If your model is not ready to publish, take the following actions to retrain the
     - Ignore empty values for attributes that have higher percentage of empty values and hence are resulting in false positives or false negatives.
     - Use intelligent fields to help the model to better understand records and distinguish between score improvers and harmers.
  
-- [Add a new model](configure-predictive-lead-scoring.md#add-a-model)
+- [Add a new model][Create and add a scoring model](configure-predictive-opportunity-scoring.md#create-and-add-a-scoring-model)
     - Use per stage modeling to choose attributes applicable for each business process stage.
     - Refine the filter criteria, time period for training data, or other model configurations. For example, if you've chosen 2 years time period for training data and you realize that you have too many test or incorrect data during that period, choose a lesser time period, 6 months or 1 year, when the quality of data is better.  
 

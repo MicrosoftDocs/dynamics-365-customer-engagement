@@ -1,6 +1,6 @@
 ---
 title: Edit and retrain an opportunity scoring model
-description: When the prediction accuracy of a model doesn't meet your expectations, you can edit the attributes used by the model and retrain the model. 
+description: When the prediction accuracy of the opportunity scoring model doesn't meet your expectations, you can edit the attributes used by the model and retrain the model. 
 ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
@@ -22,7 +22,7 @@ When the prediction accuracy of a model doesn't meet your expectations, you can 
 
 1. Select **Edit model**.
 1. On the **Edit model** page, you can,
-    - Select an attribute to view its prediction influence and other insights about the attribute. For more information, see [View the influence of an attribute on the model](pos-attribute-influence.md).
+    - Select an attribute to view its prediction influence and other insights about the attribute. For more information, see [View the influence of an attribute on the model](pls-attribute-influence.md).
     
     - Select attributes that you want the model to consider—including custom attributes—from the opportunity entity and its related entities (contact and account) to train the model.
 
