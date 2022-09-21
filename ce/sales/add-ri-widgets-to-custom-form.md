@@ -1,7 +1,7 @@
 ---
 title: "Add Relationship intelligence widgets to custom forms"
 description: "If you're using custom forms, add the health score and who knows whom widgets manually to the form."
-ms.date: 02/08/2022
+ms.date: 09/19/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -80,6 +80,8 @@ To add the health score widget or who knows whom widget to your custom form, fol
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
+    > [!NOTE]
+    > If you'd like roles other than Salesperson and Sales Manager to access the who knows whom widget, [grant access to those roles](grant-access-wkw.md). 
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
