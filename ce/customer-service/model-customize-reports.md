@@ -93,7 +93,7 @@ This will take you to the dataset file. Note that this dataset is maintained by 
 
 1. Share the report by selecting the **Share** button. More information: [Share access to a dataset (preview)](/power-bi/connect-data/service-datasets-share)
 
-1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports.
+1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
 
 1. Select **Share dataset**.
 1. On the **Share dataset** dialog box, search for the recipients name or email address.
@@ -117,6 +117,8 @@ This will take you to the dataset file. Note that this dataset is maintained by 
  
 ## Step 4: Render reports in Customer Service workspace
 
+(Add a one-liner on why you need to do this step)
+
 1. In the Customer Service workspace site map, select the Plus icon.
 1. Select **Customized reports** from the dropdown list and then select teh report that you want to view.
 
@@ -138,11 +140,14 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 ## Data model
 
-## Data model and out-of-the-box Power BI reports
+(Harry to provide info).
 
-(**Do we need more info to go in here?**)
+## out-of-the-box Power BI reports mapping
+
+(Harry to provide info).
 
 ## Things to remember
+
 You can add your own dataset to build new custommetrics or drill-down to add your metrics to the report as required by your organization.
 
 ### See also
