@@ -32,7 +32,7 @@ Dynamics 365 Power BI extensibility capability enables power users to extend out
 
 Customizing the out-of-the-box standard reports and adding your own KPIs and custom metrics to the reports will enable you to view the key metrics that are relevant to your organization.
 
-Key capabilities of model customization include the ability to: (**Query: Does the workflow work in the same order in which the points are listed below?**)
+Key capabilities of model customization include the ability to:
 
 - Edit out-of-the-box data model and add new metrics in addition to the out-of-the-box metrics.
 
@@ -42,23 +42,12 @@ Key capabilities of model customization include the ability to: (**Query: Does t
 
 - Customize the report site map and enable users to access the reports natively from the Customer Service workspace.
 
+This topic describes how to enable the data model customization feature and set up the workspace for Microsoft to provision out-of-the-box data model in a Read-only workspace, and a workspace where the customized report can be published to render it in the Customer Service workspace.
+
 ## Prerequisites
 
-- You must have the Power BI premium license.
-
-- Power Users must have the Power BI professional license to be able to extend the out-of-the-box data model.
-
-- Power BI desktop is required to open the model and make necessary changes. 
-(**Query:** **What would be Power BI desktop? Can we provide a ref link here?**)
-
-## Enable model customization of your analytics reports from Customer Service workspace
-
-This section describes how to enable the data model customization feature and set up the workspace for Microsoft to provision out-of-the-box data model in a Read-only workspace, and a workspace where the customized report can be published to render it in the Customer Service workspace. (**Query: Can we elaborate by first stating what exactly is required and why?**)
-
-### Prerequisites
-
 - Have at least one of the historical reports enabled for Customer service manager, Omnichannel.
-- Provide access to Power BI for Microsoft service account.
+- Have access to Power BI for Microsoft service account.
 - You must have administrative privileges for Dynamics 365 Customer Service and Power BI.
 - You must have a Power BI Professional or Power BI Premium license for all supervisors and administrators.
 - As a system administrator, you must create and add a security group for Power BI service. Perform the following steps to create and add a security group: 
@@ -72,38 +61,66 @@ More information: [Create a basic group and add members using Azure Active Dir
      1. Specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option.
      1. Select **Apply**.
 
-## Enable model customization of your analytics reports from Customer Service admin center
+The following section describes a step-by-step process whereby you can enable model customization of your analytics reports.
 
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-2. In the **Embedded Power BI extensibility - Data model customization (preview)** section, select **Manage**.
-3. Select a workspace from the dropdown list or select **Create new workspace** and provide a workspace name.
-3. Select **Save**. The report provision process is initiated.
+### Enable the **Embedded Power BI report extensibility - Historical data model customization (preview)** option
 
-### Share the data model and workspace
+(Add a one-liner on why you need to do this step)
 
-Once the customization is enabled, perform the following steps to share the data model and workspace.
+ 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+ 1. On the **Insights** page, **Report settings** section, for **Embedded Power BI report extensibility - Historical data model customization (preview)**, select **Manage**.
+ 1. On the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, set the **Enable embedded Power BI data model customization** toggle to **On**.
+ 
+Once you have enabled the **Embedded Power BI report extensibility - Historical data model customization (preview)** option, there are steps that you need to perform to execute the process.
+ 
+### Step 1: Select a Power BI workspace for Historical analytics
 
-1. Select **Give permissions to access out of box Power BI Data model**. 
+(Add a one-liner on why you need to do this step)
+
+ You can either select a workspace from the dropdown list and select **Save** or create a new workspace. Selecting a workspace helps define the place where your customized reports will be published.
+
+To create a new workspace:
+ 1. Select **Create new workspace**.
+ 1. In the Create Power Bi workspace dialog, provide a workspace name and select **Create**.
+ 1. Select **Save**. The report provisioning process is initiated.
+
+### Step 2: Grant permissions for data set and reports
+
+Once the report provisioning process is complete, perform the following steps to grant authoring (read/write) permissions for power users and read permissions for supervisors.
+
+1. Select **Give permissions to access out of the box Power BI Data model**.
 This will take you to the dataset file. Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, otherwise it will lead to the report malfunction.
 
-2. Share the report by selecting the **Share** button. More information: [Share access to a dataset (preview)](/power-bi/connect-data/service-datasets-share)
+1. Share the report by selecting the **Share** button. More information: [Share access to a dataset (preview)](/power-bi/connect-data/service-datasets-share)
 
-3. Select **Give permissions to customize Power BI Report**. This takes you to the workspace where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can now make changes to the reports.
+1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports.
 
-4. Go to Maker experience to update the data model/report.
-(**Do we need more info to go in here?**)
+1. Select **Share dataset**.
+1. On the **Share dataset** dialog box, search for the recipients name or email address.
+1. Select the checkboxes for the various permissions that you want to set for the recipient.
+1. Select **Grant accesss.**
 
-### Create and save the site map
+### Step 3: Embed customized report back to Dynamics 365
 
-1. Once the report is created and published, go back to the customer service admin page.
-1. Select **Add report**, and then select the report you want to embed to customer service.
-1. Provide a name and select **Add**. You can add up to 40 reports.
+(Add a one-liner on why you need to do this step) On this step, you will be able to select the reports you want to see onteh site map.
 
-2. Once you have all the reports added, select **Save**. You can always adjust the order or make changes to them.
+1. Select **Add report**, which will take you to the Power Bi Desktop.
+1. From **Common data sources**, select **Power Bi data sets** to create a live connection to datasets in the Power BI service.
+1. On the **Select a dataset to create a report** dialog, select the report you want to embed to customer service.
+1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to. You can add up to 40 reports. 
+1. Select **Submit**.
+1. On the **Publish to Power BI** dialog, select a destination where you want your reports to be published and then select **Select**.
+1. Provide a name and select **Add**.
+1. Go to Customer Service workspace and select **Customized Reports**. Your reports will be rendered in teh Customer Service workspace.
+1. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, step 3, select **Add report**.
 
-### Render reports
+ 
+## Step 4: Render reports in Customer Service workspace
 
-Go to Customer Service workspace and select **Customized Reports**. Your report will be rendered.
+1. In the Customer Service workspace site map, select the Plus icon.
+1. Select **Customized reports** from the dropdown list and then select teh report that you want to view.
+
+TBD
 
 ## Enable model customization of your analytics reports from Power BI workspace
 
@@ -124,6 +141,9 @@ This section describes how you can update the out-of-the-box Power BI data model
 ## Data model and out-of-the-box Power BI reports
 
 (**Do we need more info to go in here?**)
+
+## Things to remember
+You can add your own dataset to build new custommetrics or drill-down to add your metrics to the report as required by your organization.
 
 ### See also
 
