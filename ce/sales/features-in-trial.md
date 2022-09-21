@@ -1,7 +1,7 @@
 ---
-title: "Explore features in trial | MicrosoftDocs"
-description: "Learn about the features available in your Dynamics 365 Sales trial app and how to use them."
-ms.date: 10/01/2021
+title: Explore features in trial
+description: Learn about the features available in your Dynamics 365 Sales trial app and how to use them.
+ms.date: 09/21/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,7 +17,6 @@ Dynamics 365 Sales trial includes the following features that help you manage yo
 - [Conversation intelligence](#conversation-intelligence)
 - [Teams collaboration](#teams-collaboration)
 - [Mobile app](#mobile-app)
-- [Early access features](#early-access-features)
 
 > [!IMPORTANT]
 > As part of the trial, you'll get access to the Sales Trial app. In the documentation links listed in this article, assume any references to the Sales Hub app as the Sales Trial app. 
