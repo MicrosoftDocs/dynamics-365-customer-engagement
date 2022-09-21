@@ -1,7 +1,7 @@
 ---
 title: "Overview of Universal Resource Scheduling in Dynamics 365"
 description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
-ms.date: 08/15/2020
+ms.date: 09/21/2022
 ms.reviewer: mhart
 
 ms.subservice: common-scheduler
@@ -21,17 +21,19 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 For organizations that use:
 
-- Dynamics 365 Field Service, you can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md) 
+- Dynamics 365 Field Service: You can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md).
 
-- Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone.
+- Dynamics 365 Customer Service: You can use scheduling tools to book cases to customer service reps in the right department and time zone.
 
-- Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skill set. More information: [Dynamics 365 Project Service Automation Help](/dynamics365/project-operations/psa/overview) 
+- Dynamics 365 Project Service Automation: You can use scheduling tools to staff projects with consultants who have availability and the appropriate skill set. More information: [Dynamics 365 Project Service Automation Help](/dynamics365/project-operations/psa/overview).
+
+- Microsoft Cloud for Financial Services: You can use scheduling tools to set up virtual or in-person appointments with banking advisors, based on skill matching, availability optimization and contextual information. More information: [Microsoft Cloud for Financial Services documentation](/industry/financial-services/).
 
 ## Prerequisites
 
  Before you can use Universal Resource Scheduling, make sure you have:  
   
-- Dynamics 365 Field Service, Project Service, *or* Customer Service.
+- Dynamics 365 Field Service, Project Service, *Customer Service, or Microsoft Cloud for Financial Services.
   
 - A license for Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](/power-platform/admin/try-powerapps-dynamics-365)  
   
@@ -144,10 +146,6 @@ For organizations that use:
     4.  When the lead form opens, on  the command bar, select **Book**.  
   
     5.  Use the schedule assistant  to book the requirement.  
-  
-### See also  
- [Install Dynamics 365 Field Service](../field-service/install-field-service.md)    
- [Install Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/install-customize)    
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
