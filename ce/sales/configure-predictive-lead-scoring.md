@@ -17,12 +17,14 @@ Configure predictive lead scoring to help sellers prioritize leads based on scor
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise** <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+** Enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. [Lead and opportunity scoring](digital-selling-scoring.md)
 
 ## What is predictive lead scoring
 
-Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads based on past data. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead. When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis.  
+Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads based on historical data. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead. When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis.  
 
 > [!NOTE]
 > If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
@@ -73,7 +75,7 @@ A scoring model defines the criteria for choosing the leads for training and sco
 
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring add model page.](media/si-admin-predictive-lead-scoring-add-model-page.png "Predictive lead scoring add model page")
-   The following steps describe how to add a model. 
+   The following steps describe how to add a new model. 
  
 1. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
 
@@ -83,8 +85,8 @@ A scoring model defines the criteria for choosing the leads for training and sco
     The list displays all the business process flows that are defined for leads in your organization.  
 
     > [!NOTE]
-    > - Custom business process flows that are not enabled for change tracking are disabled for selection in the list. To enable change tracking for such entities, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
-    > - When you generate the model for a custom business process, it'll be automatically enabled to sync the data to Data Lake Storage for analytics.
+    >- To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
+    >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
  
 1. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively.  
 
@@ -108,7 +110,7 @@ A scoring model defines the criteria for choosing the leads for training and sco
 
  1. Select **Get started**.
 
-     The application starts training the model, and a notification is displayed. The application uses the standard attributes to train the model. You can [edit the model](pls-edit-and-retrain-model.md) later to include custom or intelligent attributes.  
+     The application starts training the model, and a notification is displayed. The application uses standard attributes to train the model. You can [edit the model](pls-edit-and-retrain-model.md) later to include custom or intelligent attributes.  
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")

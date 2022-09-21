@@ -1,6 +1,6 @@
 ---
 title: View the influence of an attribute on the model
-description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
+description: This article describes how to get insights on the performance of each attribute that influences the prediction score. 
 ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
@@ -11,11 +11,14 @@ manager: shujoshi
 
 ## View the influence of an attribute on the model
 
-When you define a model, you'd like get insights on the performance of each attribute that influences the prediction score. Based on these insights, you can analyze and understand:
+When you define a model, you'd like get insights on the influence of each attribute on the prediction score. Based on these insights, you can analyze and understand:
 
 - Why certain attributes carry more prediction influence than others.
 - How the attribute values compare to the attribute global qualification rate.
 - How the model harnesses your data to drive predictive scores.
+
+> [!NOTE]
+> This article applies to both opportunity scoring and lead scoring. Though the examples in this article are referring to leads, the same are applicable to opportunities as well.
 
 **To view the attribute insights:**
 
@@ -27,21 +30,23 @@ When you define a model, you'd like get insights on the performance of each attr
     > [!div class="mx-imgBorder"]
     > ![Attribute Insights pane.](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute Insights pane")
 
-On the **Attribute Insights** pane, you can view detailed information about an attribute, such as its qualification rate and the most important reasons&mdash;both positive and negative&mdash;for that rate. 
+On the **Attribute Insights** pane, you can view detailed information about an attribute, such as its qualification rate and the most important reasons&mdash;both positive and negative&mdash;for that rate.  
 
 Additionally, you can connect the attribute value's relative impact on the score with the data input behaviors of your sellers and how that might affect the accuracy of the predictive score.
 
-The insights displayed on the **Attribute Insights** pane are based on your organization's lead data and how it correlates to qualified outcomes. For example, when a lead has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that lead increases. When the qualification rate for a lead is below that of the attribute's average, the predictive score decreases.
+The insights displayed on the **Attribute Insights** pane are based on your organization's data and how it correlates to qualified outcomes. For example, when a lead has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that lead increases. When the qualification rate for a lead is below that of the attribute's average, the predictive score decreases.
 
 The **Attribute Insights** pane is divided into the following sections:
 
-- A summary of the status of the prediction influence, how many times the attribute is populated in open and closed leads, and the reason the attribute isn't automatically selected to create the model.
+- A summary of the prediction influence factors, how many times the attribute is populated in open and closed leads/opportunities, and the reason the attribute isn't automatically selected to create the model.
 
 - A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the lead score values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
 
-    `Global qualification rate` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
+    `Global qualification rate for leads` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
 
-    Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads. The qualification rate for a value of the attribute is calculated based on the following formula:
+    `Global qualification rate for opportunities` = {`Total number of  opportunities won in your organization`/(`Total number of won + lost  opportunities through this attribute`)} &times; 100  
+
+    Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads/opportunities. The qualification rate for a value of the attribute is calculated based on the following formula:
 
      `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
 
