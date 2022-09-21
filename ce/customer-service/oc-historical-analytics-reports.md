@@ -79,15 +79,19 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ### Enable Historical analytics for bots in Omnichannel for Customer Service
 
-You can enable the historical analytics for bots in the Custom Service admin center, to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics. When you enable this option, the Omnichannel Summary and Bot dashboards, will be available as a tab in the Omnichannel historical analytics report, with Power Virtual Agent bot specific metrics
-
-If this option is disabled, the application displays the key performance indicators (KPIs) and charts for bots in the Bot dashboard.
-
- :::image type="content" source="media/oc-analytics-reports.png" alt-text="Enable the settings for Summary and Bot dashboard.":::
+You can enable the historical analytics for bots in the Custom Service admin center, to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics. 
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service.
+
+- If you select this option, the Omnichannel Summary and Bot dashboards, will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agent bot.
+
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Enable the settings for Summary and Bot dashboard.":::
+  
+- If no Power Virtual Agent bots are integrated withe application or you don't select this option, the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
+
+ :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Enable the settings for Summary and Bot dashboard.":::
 
 **Enable Historical analytics for bots in Omnichannel for Customer Service**
 
