@@ -39,9 +39,9 @@ You'll need one or more of the following security roles to access this app to pe
 
 - **System Administrator**: To access and edit all the site map entries, and entities like queues for the email record, automatic record creation and update rules, and workstreams.
 
-- **System Customizer**: To access and edit all the site map entries
+- **System Customizer**: To access and edit all the site map entries.
 
-- **CSR Manager**: To access the entities in Customer Service. If you use custom roles, you can refer to the privileges of CSR Manager
+- **CSR Manager**: To access the entities in Customer Service. If you use custom roles, you can refer to the privileges of CSR Manager.
 
 - **App Profile Manager administrator and Basic User**: To access the app and edit app profile-related entities.
 
