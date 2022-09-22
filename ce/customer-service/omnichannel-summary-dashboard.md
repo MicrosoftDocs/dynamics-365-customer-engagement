@@ -64,7 +64,7 @@ The following charts are displayed in the Summary dashboard.
 
 ## Bot escalation topic metrics
 
-The **Bot escalation topic metrics** provides insights into the performance of individual bot topics for a holistic look into and their key business metrics. Supervisors can drill-down into a topic to view the corresponding agent conversation topics, and analyze how a bot is resolving a topic versus how an agent is resolving an escalated conversation topic. This helps them better understand how different topic areas impact your organization’s support performance.
+The **Bot escalation topic metrics** provides insights into the performance of individual bot topics and their key business metrics. Supervisors can drill-down into a topic to view the corresponding agent conversation topics, and analyze how a bot is resolving a topic versus how an agent is resolving an escalated conversation topic. This helps them better understand how different topic areas impact your organization’s support performance.
 
  :::image type="content" source="media/oc-summary-topics.png" alt-text="Screenshot shows the bot conversation topics and customer journey.":::
  
