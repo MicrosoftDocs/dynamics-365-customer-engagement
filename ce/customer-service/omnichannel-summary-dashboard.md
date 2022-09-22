@@ -26,7 +26,7 @@ searchScope:
 
 # Summary dashboard 
 
-The Summary dashboard is an integrated analytics report that aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service, to provide seamless end-to-end reporting of metrics across the customer service journey. Power Virtual Agents bot metrics such as escalation and deflection rate displayed in conjunction with agent engagement rate and abandon rate give the Customer Service Manager or Supervisors an overview of how customers interact with bots and insights into bot perfomance. Bot topics and their corresponding agent conversation topics can help Supervisors evaluate how different topic areas impact your organization’s support performance. 
+The Summary dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service. Power Virtual Agents bot metrics such as escalation and deflection rate displayed with agent engagement rate and abandon rate give the Customer Service Manager or Supervisors an overview of how customers interact with bots and insights into bot performance. Bot topics and their corresponding agent conversation topics can help Supervisors evaluate how different topic areas impact your organization’s support performance. 
 
 Supervisors get actionable insights to handle bot escalations and customer requests effectively, thereby improving customer satisfaction and decreasing costs.
 
@@ -45,7 +45,7 @@ The reports summarize the KPIs for the specified time period and the percent cha
 | Total conversations | The number of conversations that were initiated by customers. |
 | Bot deflection rate | The percentage of conversations engaged by bots that were resolved.|
 | Bot escalation rate | The percentage of conversations engaged by bots that were escalated to a human agent.  |
-| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. These conversation include the conversations that are escalated by the Power Virtual Agents bots.|
+| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. Conversation escalated by the Power Virtual Agents bots is also included.|
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication begins at this point.|
 | Abandon rate | The percentage of conversations that are in a human agent's queue but aren't engaged by agents. |
 |Average time to answer |The average time customers waited in the queue before being connected to an agent. |
@@ -64,7 +64,7 @@ The following charts are displayed in the Summary dashboard.
 
 ## Bot escalation topic metrics
 
-The **Bot escalation topic metrics** provides insights into the performance of individual bot topics and their key business metrics. Supervisors can drill-down into a topic to view the corresponding agent conversation topics, and analyze how a bot is resolving a topic versus how an agent is resolving an escalated conversation topic. This helps them better understand how different topic areas impact your organization’s support performance.
+The **Bot escalation topic metrics** provides insights into the performance of individual bot topics and their key business metrics. Supervisors can drill-down into a topic to view the corresponding agent conversation topics, and analyze how a bot is resolving a topic versus how an agent is resolving an escalated conversation topic.  This helps them better understand how different topic areas impact your organization’s support performance.
 
  :::image type="content" source="media/oc-summary-topics.png" alt-text="Screenshot shows the bot conversation topics and customer journey.":::
  
