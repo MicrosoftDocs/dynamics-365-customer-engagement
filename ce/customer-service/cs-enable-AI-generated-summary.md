@@ -24,7 +24,7 @@ manager: shujoshi
 
 Agents can collaborate with others directly in Teams while they're working in Dynamics 365 Customer Service. To help them easily recap an ongoing customer interaction, you can turn on AI-generated conversation summaries. Agents can include a summary when they connect a case to a Teams chat or channel. The summary quickly provides context and relays any steps they've already taken.
 
-## Components of an AI-generated conversation summary
+## Components of an AI-generated conversation summary (preview)
 
 The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. Summaries are limited to the first 7,000 characters of a transcript.
 
@@ -44,7 +44,7 @@ For more information, see [Regional availability and service limits for Customer
 
 ## Prerequisites
 
-You'll need tenant permissions to enable the enhanced integration with Microsoft Teams feature.
+Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
 ## Turn on AI-generated conversation summary
 
