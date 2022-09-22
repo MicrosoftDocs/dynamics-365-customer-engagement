@@ -29,6 +29,13 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 >  
 >  For POP3/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
 
+> [!NOTE]
+>  
+>  Starting from version 9.1, Online Certificate Status Protocol (OCSP) is used to validate certificate revocation status. If you are using Dynamics 365 on-premises, please ensure the Dynamics 365 asynchronous service has proper network access to connect to the certificate authorities and use OCSP. If network access is blocked, you may see an alert like the following logged in the mailbox:
+>  
+>  "Unable to send email messages for the ... mailbox because a server certificate needed to connect to the email server could not be validated or the credentials used to send the messages were not are correct or do not provide access.
+>  Error : MailKit.Security.SslHandshakeException: An error occurred while attempting to establish an SSL or TLS connection."
+
 <a name="BKMK_CreateProfile"></a>   
 ## Create an email server profile  
 
