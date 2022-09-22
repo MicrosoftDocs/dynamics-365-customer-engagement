@@ -1,7 +1,7 @@
 ---
 title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes information about createSession method, its syntax, and parameters in Dynamics 365 Channel Integration Framework 2.0 JavaScript API Reference."
-ms.date: 09/21/2022
+ms.date: 09/24/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -17,7 +17,7 @@ ms.custom:
 
 Creates a new session based on the session template name and returns the unique identifier of the session that was created. 
 
-If your organization uses multiple channel providers or a third-party telephony provider, then you can use this method to start a default session. More information: [Configure support for multiple channel providers](../../support-multiple-providers.md)
+If your organization uses single or multiple channel providers, then you can use this method to start a default session. More information: [Configure support for single and multiple channel providers](../../support-multiple-providers.md)
 
 > [!Important]
 > This method supports session templates of type **Generic** only.  

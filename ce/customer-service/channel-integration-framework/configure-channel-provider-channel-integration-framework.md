@@ -18,9 +18,8 @@ searchScope:
  - Customer Engagement
 ---
 
-# How to configure a channel provider for your Dynamics 365 organization
+# Configure a channel provider for your Dynamics 365 organization
 
-Using the Dynamics 365 Channel Integration Framework 1.0 solution, you can configure channel providers.
 
 1. Sign in to Dynamics 365.
 
@@ -48,7 +47,7 @@ Using the Dynamics 365 Channel Integration Framework 1.0 solution, you can confi
   ![Channel provider configuration.](media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 
   > [!Note]
-  > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Now, add the role to the users who'll be accessing Channel Integration Framework.
+  > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel won't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who'll be accessing Dynamics 365 Channel Integration Framework.
 
 5. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
 
@@ -64,7 +63,7 @@ Using the Dynamics 365 Channel Integration Framework 1.0 solution, you can confi
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
 [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)  
-[Configure a third-party channel provider in Dynamics 365 Channel Integration Framework 2.0](v2/configure-channel-provider-app-profile-manager.md)  
+[Configure single and multiple channel providers in Dynamics 365 Channel Integration Framework 2.0](v2/configure-channel-provider-app-profile-manager.md)  
 [FAQ about Dynamics 365 Channel Integration Framework](faq-channel-integration-framework.md)  
 [Bring your own channel](../bring-your-own-channel.md)  
 

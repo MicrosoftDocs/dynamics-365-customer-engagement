@@ -145,7 +145,7 @@
       items:
       - name: Integrate with multisession apps
         href: v2/integration-multi-session-experiences.md
-      - name: Configure support for multiple channel providers
+      - name: Configure support for single and multiple channel providers
         href: v2/support-multiple-providers.md
       - name: Integrate sample softphone app
         href: v2/sample-softphone-integration-v2.md
