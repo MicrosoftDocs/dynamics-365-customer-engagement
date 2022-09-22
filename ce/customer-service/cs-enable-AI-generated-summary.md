@@ -8,7 +8,16 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Set up AI-generated conversation summary
+# Set up AI-generated conversation summary (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 > [!NOTE]
 > This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
@@ -21,13 +30,13 @@ The conversation summary feature uses an AI natural language model to summarize 
 
 A summary includes the following components:
 
-- **Issue description** summarizes the key customer problems to solve in a conversation. The model needs at least three customer messages to generate the issue description.
+- **Issue description**: Summarizes the key customer problems to solve in a conversation. The model needs at least three customer messages to generate the issue description.
 
-- **Resolution tried** summarizes any troubleshooting steps or possible solutions that agents have tried. If the model can't identify a resolution from the transcript, this section is blank.
+- **Resolution tried**: Summarizes any troubleshooting steps or possible solutions that agents have tried. If the model can't identify a resolution from the transcript, this section is blank.
 
 ## Regional availability and supported languages
 
-AI-generated conversation summary is available in the United States, Europe, and the United Kingdom.
+The AI-generated conversation summary is available in the United States, Europe, and the United Kingdom.
 
 This feature is supported only in English.
 
@@ -35,7 +44,7 @@ For more information, see [Regional availability and service limits for Customer
 
 ## Prerequisites
 
-Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
+You'll need tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
 ## Turn on AI-generated conversation summary
 
