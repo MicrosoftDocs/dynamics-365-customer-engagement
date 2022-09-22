@@ -18,7 +18,6 @@ Monitoring of unassigned records allows you to view the lead or opportunity reco
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-
 ## View unassigned records
 
 You can view the list of records that aren't assigned to sellers and assign them to sellers either manually or by creating an assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).  
@@ -54,7 +53,8 @@ When you open the **Assignment rules** home page, by default, the lists of rules
     >![Assignment rules home page with unassigned records column.](media/sa-ar-view-unassigned-records-home-page-unassigned-column.png "Assignment rules home page with unassigned records column")
     
     >[!NOTE]
-    >If a rule doesn't satisfy any segment, these rules are grouped under **No segments**.
+    >- If no segment is attached to a rule, then the rule is grouped under **No segments**.
+    >- When a segment is deleted, the attached rules will be automatically assigned to the default segment. 
 
 **Monitor tab** <a name="monitor-tab"> </a>
 
@@ -76,6 +76,8 @@ When you open the **Assignment rules** home page, by default, the lists of rules
 
 The number of unassigned records for a segment are displayed under the **Unassigned records** column in the **Assignment rules** home page. You can run the rules again in the segment and try to assign the records to the sellers. After the records are successfully assigned, you can view the history of assigned records. 
 
+By default, a maximum of 500 records are considered for reassignment on each run. Older records are prioritized for assignment.   
+
 >[!NOTE]
 >If you want to schedule a time to run the reassignment, go to [Schedule reassignment of unassigned records](#schedule-reassignment-of-unassigned-records)
 
@@ -95,7 +97,7 @@ The number of unassigned records for a segment are displayed under the **Unassig
 You can schedule the reassignment of unassigned records for the application the automatically run. Depending on your organizational requirements, you can schedule the reassignment on a recurring basis by choosing the start date, time, and the days of the week. You can have up to one scheduled for a segment and the reassignment can run twice daily. For example, you can schedule the reassignment of unassigned records on every working weekday at 6 AM and 2 PM.    
 The reassignment runs on the records that are unassigned. Once the scheduled run is complete, the history is updated with the latest time. More information: [View reassignment run history ](#view-reassignment-run-history)    
 
-1. On the **Assignment rules** page, select the calender icon corresponding to the segment name for which you want to reassign the records.
+1. On the **Assignment rules** page, hover over the segment name and then select the calender icon.
     
     :::image type="content" source="media/sa-ar-run-reassignment-select-reassignment.png" alt-text="Screenshot illustrating the selection of calender icon to open reassignment rules pane":::   
 
@@ -116,7 +118,7 @@ The reassignment runs on the records that are unassigned. Once the scheduled run
     :::image type="content" source="media/sa-ar-run-reassignment-schedule-configuration-side-pane.png" alt-text="Screenshot illustrating the reassignment schedule configuration side pane":::           
     
 4. Select **Save schedule**.   
-    The schedule is added to the segment and runs on the configured time.  
+    The schedule is added to the segment and runs on the configured time. Also, a calendar icon is displayed corresponding to the segment name specifying that schedule is configured. 
 
     :::image type="content" source="media/sa-ar-run-reassignment-schedule-confirmation-side-pane.png" alt-text="Screenshot illustrating the reassignment schedule side pane":::   
 

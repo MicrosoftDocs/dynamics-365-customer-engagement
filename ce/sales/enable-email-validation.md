@@ -21,6 +21,23 @@ Validate email addresses to lower email bounce rates by improving engagement rat
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## In which region is email validation available?
+
+Email validation is available in the following regions:
+
+- Asia Pacific (APAC)
+- Canada (CAN)
+- Europe (EUR)
+- France (FRA)
+- Great Britain (GBR)
+- India (IND)
+- Japan (JPN)
+- North America (NAM)
+- Oceania (OCE)
+- South America (SAM)
+- Switzerland (CHE)
+- United Arab Emirates (UAE)
+
 ## What is email validation?
 
 The email validation feature analyzes the email addresses in the application and identifies fake emails that can't receive emails. The feature helps sellers to spend valuable time with reliable leads to improve their productivity.   
