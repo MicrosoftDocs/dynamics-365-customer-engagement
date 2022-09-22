@@ -27,7 +27,7 @@ You can't assign a postal code to multiple territories.
 
 1. In the **General** section, select **Postal Codes**.
   
-1. Select **New** to create a post code record.
+1. Select **New** to create a postal code record.
 
    - **Name**: Enter the postal code.
    - **Service Territory**: Choose an existing territory or create one.
