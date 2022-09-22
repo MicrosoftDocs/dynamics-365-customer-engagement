@@ -1,5 +1,5 @@
 ---
-title: View the accuracy and performance of predictive scoring models
+title: View accuracy and performance of predictive scoring models
 description: Accuracy of the predictive model is determined by running the model on historical data and calculating false positives, false negatives, true positives, and true negatives.
 ms.date: 08/26/2022
 ms.custom:
@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# View the accuracy and performance of a predictive scoring model
+# View accuracy and performance of a predictive scoring model
 
 By validating the AI predictions with actual values, you'll gain more confidence about the accuracy of the AI-driven insights. This helps you to convey and convince the leadership team and sellers to adopt the model and motivate them to use the AI model’s insights more often for improved business outcomes.
 

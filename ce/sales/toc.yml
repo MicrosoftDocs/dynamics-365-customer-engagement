@@ -219,6 +219,8 @@
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Configure predictive lead scoring
           href: configure-predictive-lead-scoring.md
+        - name: View accuracy and performance of predictive scoring models
+          href: scoring-model-accuracy.md
     - name: Opportunity management
       items: 
         - name: Set up deal manager
