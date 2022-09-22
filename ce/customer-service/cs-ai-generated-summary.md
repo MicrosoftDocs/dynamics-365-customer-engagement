@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 <!-- Please change the title: View and share an AI-generated conversation summary in Teams -->
 
-# AI-generated summary for ongoing conversations in Microsoft Teams (preview)
+# View and share an AI-generated conversation summary in Teams (preview)
 <!--Please change the H1: View and share an AI-generated conversation summary in Teams (preview) -->
 
 > [!IMPORTANT]
@@ -28,7 +28,7 @@ Share an AI-generated summary of a customer conversation in Teams to easily coll
 <!-- I'm going to edit based on what I see here, but please confirm that UI elements are named correctly and that all steps have been included. For instance, in my testing, I had to open the Teams chats (preview) pane using the "chat" icon in the top menu bar; it didn't open automatically when I opened a case, as suggested here. Also, I see three icons in the right side pane, Recent Cases, Knowledge, and Similar Cases. Is this where Teams chats (preview) should appear? A screenshot would be really helpful! I've added some as a suggestion, but I don't think my system is set up correctly. -->
 When you open a case in the Customer Service workspace, the **Teams chats (preview)** pane appears to the right of the case view.
 
-1. Select **New linked chat**.
+1. Select **New connected chat**.
 
     :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat.png" alt-text="Screenshot that shows the New linked chat button in the Teams chats (preview) pane.":::
 
@@ -49,7 +49,7 @@ When you open a case in the Customer Service workspace, the **Teams chats (previ
     - Share feedback about the summary.
     - Clear the **Include introduction message (preview)** checkbox to skip including the summary and start the Teams chat without an introduction.  
 
-    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat-send-intro.png" alt-text="Screenshot that shows the Include introduction message (preview) checkbox in the Teams chats (preview) pane.":::
+    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat-send-intro.png" alt-text="Screenshot that shows the Include introduction message (preview) checkbox in the Teams chats pane.":::
 
 1. Select **Start chat**.  
 
