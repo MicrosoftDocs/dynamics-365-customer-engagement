@@ -1,7 +1,7 @@
 ---
 title: AI-generated summary for customer service
 description: View an AI-generated summary of a customer service conversation and share it in Microsoft Teams.
-ms.date: 05/24/2022
+ms.date: 09/22/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
