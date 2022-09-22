@@ -18,6 +18,60 @@ For more information on how to create users and assign security roles, see [Assi
 
 For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
 
+## Use enhanced user management experience (preview)
+
+> [!IMPORTANT]
+>
+> The enhanced user management feature is in preview. [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
+
+You can manage the following settings for the users in bulk:
+
+- Skills
+- Queues
+- Capacity profiles
+- Swarming
+
+This experience is available in Customer Service admin center only.
+
+**To manage the contact center users**
+
+The attributes that you want to add must be configured in the system.
+
+1. Sign in to Dynamics 365, and go to the Customer Service admin app.
+
+1. Select **User management** under **Customer support** in the site map.
+
+1. On the page that appears, select **Manage** for **Enhanced user management (Preview)**. The **Contact center users** view displays the users list that have been configured Power Platform admin center.
+
+1. Hover the pointer over the rows of the users that you want to update and select the check boxes.
+
+1. To update user attributes, select **Update user attributes**, and select one of the following options:
+
+   - **Update skills**: On the dialog box that appears, do the following:
+       - In the **Skills** box, select a skill that you want to add, and select a proficiency and select **Add to all**. The selected skill and proficiency is added for the users in the list. You can select and add multiple skills at a time. Save your changes.
+       - To remove a skill from the list of users, select the skill in the **Skills** box, and select **Remove from all**. Save your changes. The selected skills are removed for the users.
+
+   - **Update queues**: On the dialog box that appears, in the **Queues** box, select the queues to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
+
+   - **Update capacity**: On the dialog box that appears, in the **Capacity profiles** box, select the profiles that you want to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
+
+1. To add users as swarm experts, select **Swarming** and then select **Add as swarm expert**.
+
+1. If you want to see the list of swarm experts, select the **Swarm experts** view.
+
+The users and their updated attributes will be displayed in the **Contact center users** view.
+
+:::image type="content" source="media/enhanced-user-management.png" alt-text="View of the contact center users managed through the enhanced user management experience.":::
+
+
 ## Manage a user in Omnichannel for Customer Service
 
 Users should be configured as a bookable resource so that they can be assigned work items by using unified routing.
