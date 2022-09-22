@@ -239,6 +239,8 @@
           href: customize-opportunity-close-experience.md
         - name: Configure predictive opportunity scoring
           href: configure-predictive-opportunity-scoring.md
+        - name: View accuracy and performance of predictive scoring models
+          href: scoring-model-accuracy.md        
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
     - name: Product and price list management
