@@ -17,8 +17,10 @@ Configure predictive lead scoring to help sellers prioritize leads based on scor
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise** <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+** Enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. For more information, see [Lead and opportunity scoring](digital-selling-scoring.md)
 
 ## What is predictive lead scoring
 
@@ -136,8 +138,6 @@ If you're using custom attributes for lead generation, you can generate the mode
 
  1. Before you configure the model, review the [prerequisites](#prerequisites).
 
-    > [!NOTE]
-    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling-scoring.md)
  1. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
@@ -194,13 +194,19 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     > [!NOTE]
     > If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
-1. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
-1. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-     The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    After the model is trained, a popup message is displayed.
+    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
-    > [!NOTE]
-    > If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
+
+1. Perform one of the following actions:
+
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - If you want to view the attributes used by the model, select **View Details** and then select **Edit model**. 
+
 
 ## Add a model
 
@@ -218,18 +224,8 @@ In organizations that have different lines of business, you might need different
    > [!div class="mx-imgBorder"]
    > ![Add model page for predictive lead scoring.](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
 
-1. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
-1. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+1. Perform steps 4 through 11 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add and train the model. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Model training confirmation notification.](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
-
-1. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
-
-    The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)
-
-   > [!NOTE]
-   > If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
 
 ## Edit and retrain a model
 
@@ -295,10 +291,14 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
     The model is generated by using the selected custom attributes, and a notification is displayed on the screen.
 
-1. On the configuration summary page, review the model performance and other parameters:
+1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
-   - If the retrained model satisfies your organizational requirements, publish the model.
-   - If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model. 
+1. Perform one of the following actions:
+
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - If you want to view the attributes used by the model, select **View Details** and then select **Edit model**. 
 
 
 #### Select intelligent fields

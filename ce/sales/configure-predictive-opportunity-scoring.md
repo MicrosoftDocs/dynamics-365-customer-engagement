@@ -15,9 +15,10 @@ Configure predictive opportunity scoring to help sellers prioritize opportunitie
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise**<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+** Enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. For more information, see [Lead and opportunity scoring](digital-selling-scoring.md).
 
 ## What is predictive opportunity scoring
 
@@ -150,9 +151,6 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 1. Before you configure the model, review the [prerequisites](#prerequisites). 
 
-    > [!NOTE]
-    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. [Lead and opportunity scoring](digital-selling-scoring.md)
-
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
@@ -206,24 +204,28 @@ If you're using your custom attributes for opportunity generation, you can gener
     > [!NOTE]
     > If the **Per stage modeling** option is disabled, ensure that you've selected a valid business process in the **Business process flow** field. 
     
-10. Select **Get started**.  
+ 1. Select **Get started**.
 
-    The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
+     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
+    > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
 
-    >[!NOTE]
-    >If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
+    > [!NOTE]
+    > If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-11. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+    After the model is trained, a popup message is displayed.
+    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
-11. Select **Publish**, if the model accuracy score is at an acceptable level as per your organization's standards.
+1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
+1. Perform one of the following actions:
 
-    >[!NOTE]
-    >To improve the model accuracy, select **View details**. You can review the details of the model and edit the fields. More information: [Manual retraining](#manual-retraining)
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - If you want to view the attributes used by the model, select **View Details** and then select **Edit model**.  
+
 
 ## Add a model
 
@@ -241,19 +243,8 @@ In organizations that have different lines of business, you might need different
 
      :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
-3. Perform steps 4 through 10 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
+3. Perform steps 4 through 12 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
-    After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Model training confirmation notification](media/si-admin-predictive-opportunity-scoring-model-confirmation-notification.png "Model training confirmation notification")
-
-5. Select **Publish**, if the model accuracy score is at an acceptable level as per your organization's standards.
-
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
-
-    >[!NOTE]
-    >To improve the model accuracy, select **View details**. You can review the details of the model and edit the fields. More information: [Manual retraining](#manual-retraining)
 
 ## Edit and retrain a model
 
@@ -309,9 +300,19 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 1. Select **Retrain model**.
 
-    The model starts to be generated with the selected custom attributes, and a notification is displayed on the screen.
+     After the model is trained, a popup message is displayed.
+    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
-4. On the configuration summary page, review the model performance and other parameters. If the retrained model satisfies your organizational requirements, publish the model.
+1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
+
+1. Perform one of the following actions:
+
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - If you want to view the attributes used by the model, select **View Details** and then select **Edit model**. 
+
+
 
     >[!NOTE]
     >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model. 
