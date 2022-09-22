@@ -30,10 +30,10 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 Conversation intelligence is designed to help sales managers and sellers in their day-to-day job, providing the tools they need to track their sales performance in calls with leads and customers.
 
+**As a sales manager, you can:**  
+
 > [!NOTE]
 > If you are a sales manager, verify that a proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
-
-**As a sales manager, you can:**  
 
 -	Understand what customers are talking about and design sales strategies and training, with business insights on trending tracked keywords, brands, competitors, and more. To learn more, see [View home page](dynamics365-sales-insights-app-home-page.md).  
 
@@ -64,10 +64,6 @@ Conversation intelligence is designed to help sales managers and sellers in thei
 - Monitor call and insight processing data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).   
 -	Configure the levels of hierarchy for which sales managers can view the call data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).  
 
-The next sections describe:   
-- Recommendations for using conversation intelligence   
-- How to get conversation intelligence   
-- How to access conversation intelligence   
 
 ## What languages are supported? 
 
@@ -105,6 +101,7 @@ Conversation intelligence for your Teams calls is available from the following a
 ### See also
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
+
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)  
 [Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
 

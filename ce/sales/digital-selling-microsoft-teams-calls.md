@@ -43,7 +43,14 @@ When you set up Microsoft Teams calls with conversation intelligence with the Dy
     > [!NOTE]
     > To use Teams calls, sellers will need valid licenses for Microsoft Teams, Phone System, and Calling Plan or Direct Routing, in addition to assigned phone numbers. [Learn more](https://go.microsoft.com/fwlink/?linkid=2180901)
 
-2. Turn on the **Teams calls** toggle to enable Teams dialer and allow sellers to make calls directly from within the Dynamics 365 Sales Hub app.
+2. Turn on **Teams calls**.  
+    
+    By default, the following options are turned on:
+    - **Answer incoming calls in Dynamics 365**
+        Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
+    - **Internal call will ring only in the Teams app, not in Dynamics 365**
+        Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
+ 
 
     - In the **Enable for** section, select one of the following options to provide permissions to users to view Microsoft Teams dialer:
         - **All security roles**: Select this option to provide access to view Microsoft Teams dialer to users in all the security roles in your organization.

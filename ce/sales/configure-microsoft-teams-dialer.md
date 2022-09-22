@@ -59,8 +59,6 @@ Ensure that you meet the following requirements before you configure Microsoft T
     > ![Microsoft Teams dialer configuration page.](media/teams-dialer-configuration-page.png "Microsoft Teams dialer configuration page")     
 
 3. Turn on **Teams calls**.  
-    >[!NOTE]
-    >The toggle is enabled only after the phone system and Microsoft Teams licenses are successfully validated.
     
     By default, the following options are turned on:
     - **Answer incoming calls in Dynamics 365**
