@@ -139,11 +139,9 @@ In **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Pa
 
 ### Postal codes
 
-You can define territories based on postal codes (zip codes). When creating a territory, add one or more related postal codes. When the postal code is present on the account or work order address, the related territory will autopopulate.
+You can relate territories to postal codes. When the postal code is present on the account or work order address, the related territory is automatically filled in. For more information, go to [Create and manage postal codes](set-up-postal-codes.md).
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a territory entity showing postal codes under the related tab.](./media/work-order-territory-postal-codes.png)
+:::image type="content" source="media/work-order-territory-postal-codes.png" alt-text="Screenshot of a territory entity showing postal codes under the related tab.":::
 
 ## Additional notes
 
