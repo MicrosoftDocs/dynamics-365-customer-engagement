@@ -12,7 +12,7 @@ manager: shujoshi
 
 In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
 
-If your Administrator has enabled **Add historical Analytics for bots**  in Customer Service admin center, the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
+Based on if your Administrator has enabled **Add historical Analytics for bots**  in Customer Service admin center, the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
 You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
 
@@ -24,7 +24,7 @@ You can view the Bot dashboard in Omnichannel for Customer Service. On the **Hom
 
  ### Report details
 
-The reports summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, or agent.
+The reports summarize KPIs for the specified time period and the percent change over a period. These metrics are specific to Power Virtual Agent bots. You can filter these areas by duration, channel, queue, or agent.
 
  :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the Bot dashboard KPIs.":::
 
@@ -88,7 +88,7 @@ KPIs for the following areas are displayed.
 
 ## Dashboard for all bots 
 
- The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over the period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. TYou can filter these areas by duration, channel, queue, or agent.
+ The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
 
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
@@ -133,6 +133,38 @@ To access the drill-down, select any metric value for the agent you're intereste
 
 > [!div class="mx-imgBorder"]
 > ![Bot hourly detail drill down view.](media/oc-metric-page.png "Bot drill-down page") 
+
+The application displays the key performance metrics and charts for the individual bot.
+> [!div class="mx-imgBorder"]
+> ![Bot hourly detail drill down view.](media/oc-bot-summary-topic.png "Individual bot report")
+
+| Title | Description |
+| --------------- | --------------- |
+| Total conversations | The number of conversations initiated by the customer and engaged by the bot. |
+| Total sessions | The total number of sessions within the specified time period. A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation. |
+| Engagement rate | The percentage of total sessions that are engaged by the bot. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they are either resolved, escalated, or abandoned. |
+| Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question "Did that answer your question?" and the user either does not respond or responds Yes|
+| Escalation rate |The percentage of engaged sessions that are escalated by the bot. An escalated session is an engaged session that is escalated to a human agent. | 
+| Abandon rate | 	The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.|
+| Bot CSAT | The average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. | 
+
+The following charts are displayed:
+
+| Title | Description |
+| --------------- | --------------- |
+|Total conversations over time| The number of conversations initiated by the customer and engaged by the bot that were either escalated or deflected.|
+| Engagement over time | The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation |
+| Session outcomes over time  | The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. |
+
+### Metrics by bot topic
+The Metrics by bot topic section provides insights into the performance of individual bot topics and their key business metrics. This gives the Supervisor an overview of which topics the bot was able to deflect or escalate. 
+
+You can also select a topic and drill-down into the individual topic performance and metrics. The topic level metrics helps Supervisors further analyze how a specific topic for a specifc bot is doing. 
+
+> [!div class="mx-imgBorder"]
+> ![Bot hourly detail drill down view.](media/oc-bot-topic-report.png "Individual bot report")
+
+The **Bot conversation metrics** session provides the topic transcripts, allowing Supervisors to go through the bot's interactions for the topic and take corrective measures.
 
 ### View and improve bot topics
 
