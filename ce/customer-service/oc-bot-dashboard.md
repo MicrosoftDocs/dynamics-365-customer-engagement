@@ -134,6 +134,32 @@ To access the drill-down, select any metric value for the agent you're intereste
 > [!div class="mx-imgBorder"]
 > ![Bot hourly detail drill down view.](media/oc-metric-page.png "Bot drill-down page") 
 
+The application displays the key performance metrics and charts for the individual bot.
+> [!div class="mx-imgBorder"]
+> ![Bot hourly detail drill down view.](media/oc-bot-summary-topic.png "Individual bot report")
+
+| Title | Description |
+| --------------- | --------------- |
+| Total conversations | The number of conversations initiated by the customer and engaged by the bot. |
+| Total sessions | The total number of sessions within the specified time period. A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation. |
+| Engagement rate | The percentage of total sessions that are engaged by the bot. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they are either resolved, escalated, or abandoned. |
+| Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question "Did that answer your question?" and the user either does not respond or responds Yes|
+| Escalation rate |The percentage of engaged sessions that are escalated by the bot. An escalated session is an engaged session that is escalated to a human agent. | 
+| Abandon rate | 	The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.|
+| Bot CSAT | The average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. | 
+
+The following charts are displayed:
+| Title | Description |
+| --------------- | --------------- |
+|Total conversations over time|     |
+| Engagement over time | The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation |
+| Session outcomes over time  | The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. |
+
+### Metrics by bot topic
+Th Metrics by bot topic section provides insights into the performance of individual bot topics and their key business metrics. This gives   
+
+
+
 ### View and improve bot topics
 
 > [!Note]
