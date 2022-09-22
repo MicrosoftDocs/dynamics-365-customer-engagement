@@ -13,15 +13,18 @@ search.app:
 ---
 # Territories for accounts, work orders, and resources
 
-Territories help you divide your business into geographical regions for work order management, scheduling, and reporting. You can group your customers, work orders, and resources based on city, state, [postal code](set-up-postal-codes.md), or even define a custom region.
+Territories help you divide your business into geographical regions for work order management, scheduling, and reporting. You can group customers, work orders, and resources based on a custom region.
 
-Use territories with work orders and resources to help dispatchers schedule work orders to resources with a matching territory. Territories also serve as a filter on the schedule board, in the schedule assistant, and for the [Resource Scheduling Optimization add-in](rso-overview.md).
+Use territories with work orders and resources to help dispatchers schedule work orders to resources with a matching territory. Territories are useful filters on the schedule board, the schedule assistant, and the [Resource Scheduling Optimization add-in](rso-overview.md).
 
 [Reporting](reports.md) by region is a common use-case for many organizations. Measure KPIs such as first-time fix rate, work order count by type, or work order invoice revenue by territory.
 
 ## Create a territory
 
 Create your territories in Field Service settings or import them from Excel.
+
+> [!IMPORTANT]
+> Territories are not hierarchical or associative.
 
 :::image type="content" source="media/territories.png" alt-text="Screenshot of the list of territories.":::
   
@@ -36,8 +39,6 @@ Create your territories in Field Service settings or import them from Excel.
    - **Manager**: User who manages the territory.
   
    - **Description**: Enter information to include for this territory.
-
-   - **Parent**: Define a hierarchy for territories and sub-territories. For example, group multiple cities in a region.
   
 1. Select **Save & Close**.  
 
@@ -87,45 +88,29 @@ If you attempt to [book a work order with the schedule assistant](schedule-assis
 
 ## Territories on the schedule board
 
-Territories are also used on the schedule board to more effectively manage resources. You can create schedule board tabs specific to a single territory that is managed by a dispatcher.
+Territories are also used on the schedule board to more effectively manage resources. For example, create schedule board tabs specific to a single territory that dispatcher manages.
 
-From the schedule board, add one or more territories as filters, and the resources displayed will adjust accordingly. Then choose **Options** > **Save Current Filters as Default** to ensure the filters remain the next time you return to the schedule board tab.
+On a new schedule board tab, add one or more territories as filters, and the resources shown adjust accordingly. Select **Save as Default** so the filters remain when you return later.
 
+:::image type="content" source="media/territory-filter-schedule-board.png" alt-text="Screenshot of the schedule board, showing the territory tab.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, showing the highlighted territory tab.](./media/work-order-territory-sb-filter-all.png)
+To filter requirements by territories in the lower pane, select **Scheduler settings**. In **Board view settings**, set the **Apply territory** filter to **On**.
 
-To filter requirements by territories in the lower pane, select the gear in the top right to access schedule board configurations and select **Apply Filter Territory**. As demonstrated in the previous screenshot, this filters the requirements in the lower panel to those in the "WA territory." Now both the resources and the requirements in the schedule board tab belong to the same territory.
-
-## Configuration considerations
-
-In **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters**, there is a setting called **Auto Filter Service Territory** that will filter requirements on the schedule board tab based on the filtered territory by default. This corresponds with the example in the previous section.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling parameter.](./media/schedulingparameter.png)
-
-### Postal codes
+## Relate territories and postal codes
 
 You can relate territories to postal codes. When the postal code is present on the account or work order address, the related territory is automatically filled in. For more information, go to [Create and manage postal codes](set-up-postal-codes.md).
 
 :::image type="content" source="media/work-order-territory-postal-codes.png" alt-text="Screenshot of a territory entity showing postal codes under the related tab.":::
 
-## Additional notes
+## Advanced scenarios
 
-### Implementation notes
+- **Territories as more than location.** Organizations frequently use territories in combination with the purpose of the resource group. For example, if there are resources who operate in Seattle and some are responsible for maintenance and others inspection, the organization can create two territories: "Seattle - maintenance" and "Seattle - inspection." It's helpful if different dispatchers manage each territory because they can have separate schedule board tabs for each resource group.
 
-- **Territories as more than location.** Organizations frequently use territories to represent more than location by combining it with the purpose of the resource group. For example, if there are resources who operate in Seattle and some are responsible for maintenance and others inspection, the organization can create two territories: "Seattle - maintenance" and "Seattle - inspection." This is also helpful if different dispatchers are managing each territory because you can have different schedule board tabs for each.
-- **Using territories for non-field service scenarios.** Beyond field service, territories can be used for other scenarios. A common example is dividing salespeople into sales territories and scheduling time with leads, quotes, or opportunities. For this scenario, you can use a lookup to the service territory on the **Resource Requirement** form. For more information, see the article on [enabling an entity for scheduling](schedule-new-entity.md).
-- **Variable territories.** An organization may need resources to belong to different territories during different time periods. One example is during the day a resource may cover a small territory, but at night when demand is low, a resource may be responsible for a larger territory. This is not supported out of the box; however, one option is to use a workflow to add and remove a resource from a territory based on the time of day.
+- **Variable territories.** Sometimes resources belong to different territories during different time periods. For example, a resource covers a small territory during the day, but a larger territory at night when demand is low. Field Service doesn't support variably territories by default. However, you could use a workflow to add and remove a resource from a territory based on the time of day.
 
+- **Resources crews and territory filters.** Resource crews show on the schedule board if the crew header resource matches the territory. All crew members show even if resource children aren't part of that territory. For more information, see the article on [enabling an entity for scheduling](resource-crews.md).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement, on the scheduling tab.](./media/work-order-territory-sales-opportunity.png)
-
-### Other notes
-
-- Territories are not hierarchical or associative.
-- **Crews**: if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory. For more information, see the article on [enabling an entity for scheduling](resource-crews.md).
-- You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory. 
+- **Using territories for non-field service scenarios.** Beyond field service, territories are useful in other scenarios. For example, salespeople assigned to sales territories that schedule time with leads, quotes, or opportunities. For this scenario, you can use a lookup to the service territory on the **Resource Requirement** form. For more information, go to [Enable an entity for scheduling](schedule-new-entity.md).
+   :::image type="content" source="media/work-order-territory-sales-opportunity.png" alt-text="Screenshot of a resource requirement, on the scheduling tab.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
