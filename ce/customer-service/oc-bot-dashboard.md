@@ -86,45 +86,6 @@ KPIs for the following areas are displayed.
 | Session resolved rate | The percentage of total sessions that were resolved by the bot within the specified time period. | 
 | Sessions escalated rate | The percentage of total sessions that were escalated by the bot to a human agent within the specified time period.| 
 
-## Dashboard for all bots 
-
- The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
-
-> [!div class="mx-imgBorder"]
-> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
-
-### Report details
-
-KPIs for the following areas are displayed.
-
-| KPI | Description |
-| ------- | ------------------ |
-| Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
-| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
-| Bot resolution time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
-| Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
-| Bot escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. |
-
-> [!div class="mx-imgBorder"]
-> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
-
-The following table explains the bot KPI chart metrics.
-
-| Title | Description |
-| --------------- | ----------------- |
-| Bot conversations | The total number of bot conversations occurring per day. |
-| Bot resolution rate versus Bot resolution time (min) | The number of customer issues resolved by bot versus the amount of time it took to resolve them. |
-| Bot escalation rate versus Bot escalation time (min) | The number of customer sessions escalated by a bot to human agent versus the amount of time the bot was engaging before escalation. | 
-
-| Title | Description |
-| --------------- | --------------- |
-| Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
-| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
-| Bot resolution time | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
-| Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent.|
-| Bot escalation time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | 
-
-
 ## Bot drill-down view
 
 On the **Metrics by bot** section, you can select a bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
@@ -182,6 +143,44 @@ You can view and improve the performance of individual topics associated with a 
 
 > [!div class="mx-imgBorder"]
 > ![Bot hourly detail drill down view.](media/oc-pva-edit.png "Edit page") 
+
+## Dashboard for all bots 
+
+ The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
+
+> [!div class="mx-imgBorder"]
+> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
+
+### Report details
+
+KPIs for the following areas are displayed.
+
+| KPI | Description |
+| ------- | ------------------ |
+| Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
+| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
+| Bot resolution time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
+| Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
+| Bot escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. |
+
+> [!div class="mx-imgBorder"]
+> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
+
+The following table explains the bot KPI chart metrics.
+
+| Title | Description |
+| --------------- | ----------------- |
+| Bot conversations | The total number of bot conversations occurring per day. |
+| Bot resolution rate versus Bot resolution time (min) | The number of customer issues resolved by bot versus the amount of time it took to resolve them. |
+| Bot escalation rate versus Bot escalation time (min) | The number of customer sessions escalated by a bot to human agent versus the amount of time the bot was engaging before escalation. | 
+
+| Title | Description |
+| --------------- | --------------- |
+| Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
+| Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
+| Bot resolution time | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
+| Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent.|
+| Bot escalation time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | 
 
 ## Bot hourly detail drill down view
 
