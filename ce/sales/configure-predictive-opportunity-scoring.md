@@ -299,8 +299,12 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     :::image type="content" source="media/ignore-empty-values-scoring-widget-opp.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on."::: 
 
 1. Select **Retrain model**.
+    
+    A popup message is displayed if you've modified the grade ranges.
+    :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
+1. Confirm whether you want to reset the ranges to the new values or use the previously set range.  
 
-     After the model is trained, a popup message is displayed.
+    After the model is trained, a popup message is displayed.
     :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
 1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
