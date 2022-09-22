@@ -49,7 +49,7 @@ When you open a case in the Customer Service workspace, the **Teams chats** pane
     - Share feedback about the summary.
     - Clear the **Include a note** checkbox to skip including the summary and start the Teams chat without an introduction.  
 
-    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat-send-intro.png" alt-text="Screenshot that shows the Include a note (preview) checkbox in the Teams chats pane.":::
+    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat-send-intro.png" alt-text="Screenshot that shows the Include a note checkbox in the Teams chats pane.":::
 
 1. Select **Start chat**.  
 
