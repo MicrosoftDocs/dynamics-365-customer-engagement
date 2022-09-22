@@ -338,11 +338,4 @@ Disable the setting `**msdyn_DisableProcessBookingRulesOnSaveBookingForm**`.
 Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",false,).then(() => {a = "success"}, (error) => {a = error})
 ```
 
-### See also   
-
-- [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
-- [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
-- [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

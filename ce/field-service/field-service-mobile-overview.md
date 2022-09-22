@@ -163,11 +163,4 @@ You can keep an audit record of when specific entities are edited, as well as ap
 
 For accessing Dynamics 365 Field Service entities and fields, the Field Service Mobile app uses the Dynamics 365 security role and field security profile framework. Additionally, entities and fields can be further restricted at the mobile app level, but a user cannot access any entity or field that could not be accessed in Dynamics 365.
 
-
-### See also
-
-- [Mobile configurations and customizations](mobile-app-configuration-customization.md)
-- [Push notifications](mobile-push-notifications.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

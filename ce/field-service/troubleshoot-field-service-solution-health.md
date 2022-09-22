@@ -623,11 +623,4 @@ Reduce the number of lookup fields and subgrid controls on the default tab (the 
 
 Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1&preserve-view=true).
 
-### See also
-
-- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
-- [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
-- [Frequently asked questions](./troubleshoot-faq.yml)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

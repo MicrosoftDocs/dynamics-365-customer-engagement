@@ -42,8 +42,4 @@ Google Cloud Messaging, Apple Push Notification, and Windows Push Notification s
 
 You may not reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software except, and solely to the extent: (i) permitted by applicable law, despite this limitation; or (ii) required to debug changes to any libraries licensed under the GNU Lesser General Public License which are included with and linked to by the software.
 
-### See also
-[Third-party notices](/dynamics365/resources/field_services_third_party_notice.htm)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
