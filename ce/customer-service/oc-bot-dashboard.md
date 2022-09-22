@@ -152,9 +152,9 @@ The following charts are displayed:
 
 | Title | Description |
 | --------------- | --------------- |
-|Total conversations over time| The number of conversations initiated by the customer and engaged by the bot that were either escalated or deflected.|
+| Total conversations over time | The number of conversations initiated by the customer and engaged by the bot that were either escalated or deflected. |
 | Engagement over time | The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation |
-| Session outcomes over time  | The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. |
+| Session outcomes over time | The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.|
 
 ### Metrics by bot topic
 The Metrics by bot topic section provides insights into the performance of individual bot topics and their key business metrics. This gives the Supervisor an overview of which topics the bot was able to deflect or escalate. 
