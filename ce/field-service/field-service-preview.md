@@ -163,10 +163,4 @@ Here is an example of the apps that may be in your Dynamics 365 environment *bef
 
 Select the Field Service app to access Field Service capabilities and the preview features.
 
-### See also
-
-- [Install Field Service](./install-field-service.md)
-- [Upgrade Field Service](./upgrade-field-service.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

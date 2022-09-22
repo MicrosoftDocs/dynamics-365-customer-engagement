@@ -27,12 +27,4 @@ Creating postal code records and relating them to service territories lets an ac
   
      Use the tooltips to help fill in your information, and then select **Save**.  
   
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set up territories](../field-service/set-up-territories.md)   
- [Set up booking rules](../field-service/set-up-booking-rules.md)   
- [Set up booking statuses](../field-service/set-up-booking-statuses.md)<br>
- [User's Guide](../field-service/user-guide.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
