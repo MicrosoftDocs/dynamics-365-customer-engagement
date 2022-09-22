@@ -27,8 +27,10 @@ For more information about licensing and system requirements: [Customer Service 
 
 **Engage in cases and conversation in the Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app with he Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). For more information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app with he Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). For more information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
 
+> [!NOTE]
+> Customer Service workspace is not supported on Unified Service Desk.
 ## Access the Customer Service workspace layouts
 
 Access Customer Service workspace through the app selector where you find other Dynamics 365 apps. Or, select it in the drop-down navigation in the upper-left corner of Dynamics 365.
