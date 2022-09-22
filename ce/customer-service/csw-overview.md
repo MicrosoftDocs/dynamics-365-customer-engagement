@@ -22,7 +22,7 @@ ms.custom:
 The Dynamics 365 Customer Service workspace helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. The application leverages artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent velocity.
 Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements: https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-workspace-system-requirements
+For more information about licensing and system requirements: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
 **Engage in cases and conversation in the Customer Service workspace** 
 
@@ -48,6 +48,8 @@ You can switch to the enhanced layout with the following steps:
 > [!NOTE]
 > If you turn on the enhanced multisession workspace, the enhanced experience applies in both Customer Service workspace and Omnichannel for Customer Service.
 
+The following table provides an overview of the layouts:
+
 | Default workspace | Enhanced multisession workspace |
 | ------------ | ------------- |
 |  :::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png"::: | :::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced"::: |
@@ -61,15 +63,20 @@ If the agent opens the customer record from a given session, a new tab will be l
 
 ### Navigate sessions and tabs
 
-The following table displays the navigation path across both views when the user performs various actions :
+The following table gives an overview of the navigation in both views :
 
-| Default | Enhanced multisession workspace |
-| ------------ | ------------- |
-|- Select a record from the Home session to open the record in a new session.<br>- Select a record from the Global Search to open the record in a new tab.<br>- Select a retrieved record from the Global Search to open the record in a new tab.<br>- Select a record created via Quick Create to open the record in a new tab.<br>- Create a new record to open the record in a new session.<br> - Select a record from a session to open the record in a new tab.<br> - Select a record from the timeline to open the record in a new tab.<br>- Select a view from the Sitemap to open the view in a new tab.|- Select a record from the Home session to open the record in a new session.<br>- Select a record from the Global Search to open the record in a new tab.<br>- Select a retrieved record from the Global Search to open the record in a new tab.<br>- Select a record created via Quick Create to open the record in a new session.<br>- Create a new record to open the record in a new session.<br>- Select a record from a session to open the record in a new tab.<br> - Select a record from the timeline to open the record in a new tab.<br>- Select a view from the Sitemap to open the view in a new tab.<br>|
+| Column | Default | Enhanced multisession workspace |
+| ------------ | ------------- | ------------- |
+| Select a record from the Home session | Record opens in a new session | Record opens in a new session |
+| Select a record from the Global search | Record opens in a new tab | Record opens in a new tab |
+| Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new tab |
+| Create a record via Quick Create form | Record opens in a new tab | Record opens in a new session |
+| Create a new record | Record opens in a new session | Record opens in a new session |
+| Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
+| Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
+| Select an entity from the Sitemap | Record opens in a new tab | Record opens in a new tab |
 
-
-- Improved behavior when closing sessions.
-- Improved integration with in-app notifications.
+The Enhanced multisession workspace also has improved in-app notification integration.
 
 ## Use the Inbox
 
@@ -99,7 +106,7 @@ Learn more about using the [productivity pane](csw-productivity-pane.md).
 
 On the Customer Service Agent Dashboard, you can view cases and activities that are assigned to you. You can also view cases available to work on. You can perform various actions such as create, delete, and filter cases and activities from the workspace.
 
-**Case**
+### Case
 
 :::image type="content" source="media/bulkEditCases.png" alt-text="Screenshot that shows multiple cases selected and items labeled according to a table below the screenshot.":::
 
@@ -115,7 +122,7 @@ On the Customer Service Agent Dashboard, you can view cases and activities that 
 
 For more information, see : [Work with cases](customer-service-hub-user-guide-create-a-case.md)
 
-**Activities**
+### Activities
 
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Screenshot that shows multiple activities selected and items labeled according to a table below the screenshot.":::
 
@@ -126,13 +133,13 @@ For more information, see : [Work with cases](customer-service-hub-user-guide-cr
 | 3 | Delete selected activities. |
 | 4 | Open the menu for more actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, and Run Report. |
 
-**Create and search knowledge articles**
+### Create and search knowledge articles
 
 Expand the Customer Service workspace site map and select **Knowledge Articles** or **Knowledge Search**. Intelligent knowledge suggestions are displayed in the productivity pane while you're working on a case.
 
 Learn more about how to [create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
-**Use email templates and signatures**
+### Use email templates and signatures
 
 Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
 
