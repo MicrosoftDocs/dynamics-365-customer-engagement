@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor settings for managing agent conversations | MicrosoftDocs
 description: "How to enable supervisors to monitor, assign, transfer, and forcibly end conversations in Customer Service admin center."
-ms.date: 06/09/2022
+ms.date: 09/23/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan

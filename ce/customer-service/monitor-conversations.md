@@ -1,7 +1,7 @@
 ---
 title: "Monitor, assign, transfer, and end conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, transfer, and end conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
-ms.date: 07/18/2022
+ms.date: 09/23/2022
 ms.topic: article
 author: "neeranelli"
 ms.author: nenellim
