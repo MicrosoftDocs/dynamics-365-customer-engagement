@@ -288,9 +288,9 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
    > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values as shown in the following screenshot:
    > :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on.":::
 1. Select **Retrain model**.  
-    A popup message is displayed if you've modified the grade ranges.
+    A popup message is displayed if you've modified the grade ranges. When the model is retrained, the grade ranges may change as well. 
     :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
-1. Confirm whether you want to reset the ranges to the new values or use the previously set range.  
+1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
 
     After the model is trained, a popup message is displayed.
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
