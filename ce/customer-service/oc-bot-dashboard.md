@@ -88,7 +88,7 @@ KPIs for the following areas are displayed.
 
 ## Bot drill-down view
 
-On the **Metrics by bot** section, you can select a bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
+On the **Metrics by bot** section, you can select a Power Virtual Agent bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
 
 To access the drill-down, select any metric value for the agent you're interested in, and then select **Details**.
 
@@ -128,9 +128,6 @@ You can also select a topic and drill-down into the individual topic performance
 The **Bot conversation metrics** session provides the topic transcripts, allowing Supervisors to go through the bot's interactions for the topic and take corrective measures.
 
 ### View and improve bot topics
-
-> [!Note]
-> This feature is applicable only if Power Virtual Agent bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
 
 You can view and improve the performance of individual topics associated with a Power Virtual Agents bot by performing the following steps:
 
