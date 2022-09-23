@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 08/05/2022
+ms.date: 09/19/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -34,7 +34,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 The Dynamics 365 Marketing August 2022 update has one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability feature is a new email creation canvas and user experience. The public preview feature allows you to use AI-powered Content ideas to kickstart email creation, now with built-in default data so you don’t have to create dozens of emails to get started.
 
-Additionally, this update includes improvements to the asset library, real-time journeys, and personalization.
+Additionally, this update includes improvements to real-time journeys and personalization.
 
 #### Version number
 
@@ -67,8 +67,6 @@ Additionally, this update includes improvements to the asset library, real-time 
 
 #### Monthly enhancements
 
-- **Asset library**
-    - You can now choose whether to use the default asset library or install an optional add-on in real-time marketing for additional file type support.
 - **Real-time journeys**
     - Deliver more personalized experiences by accessing a richer set of trigger data for defining the journey entry/exit criteria, conditions/branches, and waits. When you add any of these elements to the journey, you will now be able to see data attributes not only from the trigger’s core entity/table, but also from entities/tables directly related to those attributes. For example, when creating a journey to nurture new opportunities (using the “Opportunity created” trigger), you can branch the journey based on the “budget” attribute from the Opportunity table. This enables you to create journey variations for opportunities that are more likely to buy.
 
@@ -166,9 +164,9 @@ The update also includes improvements to real-time journeys, the SMS channel, ma
 
 ### June 2022 update
 
-The Dynamics 365 Marketing June 2022 update has three preview features and two general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new segment builder, the ability to continue customer conversations by taking action on SMS replies, and multiple journey branches to create more personalized variations. General availability features include a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, Customer Service and the ability to trigger journeys based on data changes in any Dynamics 365 app.
+The Dynamics 365 Marketing June 2022 update has three preview features and two general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a segment builder for real-time marketing, the ability to continue customer conversations by taking action on text message replies, and multiple journey branches to create more personalized variations. General availability features include a unified timeline to view customer activity across Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Customer Service and the ability to trigger journeys based on data changes in any Dynamics 365 app.
 
-The update also includes an admin digital data sharing opt-in for better performing AI features, business unit scoping support from the Dataverse Data Source service, better visibility for errors that occur when going live with pages and forms, and conditional content support for email templates.
+The update also includes an administrator digital data sharing opt-in for better performing AI features, better visibility for errors that occur when going live with pages and forms, and conditional content support for email templates.
 
 #### Version number
 
@@ -186,16 +184,16 @@ The update also includes an admin digital data sharing opt-in for better perform
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-- **Target the right contacts and leads using the reimagined, easy-to-use segmentation builder**
-    - To improve marketing return on investment, it's important to target the right audience. This can often be complicated, requiring marketers to understand database and SQL concepts and operators. The new segmentation builder simplifies segment creation and empowers you to build segments for your campaigns without requiring assistance from data analysts or scientists, no matter how complex the logic. You can build segments on leads, without requiring the lead to have a parent contact. You can then market to these leads directly using customer journeys. Finally, the segmentation builder enables you to take an iterative approach to building the segment logic through member previews that populate as you build the segment.
+- **Target the right contacts and leads using the real-time marketing segmentation builder**
+    - To improve marketing return on investment, it's important to target the right audience. But precisely targeting an audience can often be complicated, requiring marketers to understand database and SQL concepts and operators. The real-time marketing segmentation builder simplifies segment creation and empowers you to build segments for your campaigns without assistance from data analysts or scientists, no matter how complex the logic. Build segments on leads, without requiring the lead to have a parent contact. Market to these leads directly using customer journeys. The real-time marketing segmentation builder also enables you to take an iterative approach to building the segment logic through member previews that populate as you build the segment.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/target-right-contacts-leads-using-reimagined-easy-use-segmentation-builder)
     - [Docs](real-time-marketing-build-segments.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the real-time marketing segment builder.](media/real-time-marketing-build-segment-attribute.png "Screenshot of the real-time marketing segment builder")
 
-- **Continue the conversation with your customers by taking action on their SMS replies**
-    - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
+- **Continue the conversation with your customers by taking action on their text message replies**
+    - Text messages allow you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on customer responses. Now, you can interact with your customers by creating journeys based on their replies to your text messages. Create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
     - [Docs](set-up-automated-sms-keyword-flow.md)
 
@@ -203,7 +201,7 @@ The update also includes an admin digital data sharing opt-in for better perform
     > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
 
 - **Create more personalized journey variations using multiple journey branches**
-    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
+    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can create more than two branches at any given step in the journey, creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. Multiple branches eliminate the need to nest branches and make analyzing journeys easier. You can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
     - [Docs](real-time-marketing-multiple-branches.md)
 
@@ -212,13 +210,13 @@ The update also includes an admin digital data sharing opt-in for better perform
 
 #### General availability enhancements
 
-- **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
-    - Sales and Customer Service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, these agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. It also allows previews of messages sent to customers. This enables, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
+- **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Dynamics 365 Sales, and Dynamics 365 Customer Service**
+    - Sales reps and customer service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, reps and agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. The timeline also allows previews of messages sent to customers. Message previews enable, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/personalize-interactions-using-unified-view-customer-activity-across-dynamics-365-marketing-sales-customer-service)
     - [Docs](timeline.md)
 
 - **Trigger journeys based on data changes in any Dynamics 365 app to engage customers at the right time without writing any code**
-    - Interactions in any Dynamics 365 app can be used to trigger and drive customer journeys in just a few clicks, without requiring developers or customizations. Customers interact with several departments and functions in your company throughout their lifetime, all of which use their own CRM, ERP, and business apps. Each of these interactions, such as a service ticket being closed, represents an opportunity to engage more deeply with your customers. Now, data no longer has to remain siloed within separate apps and out of reach of your customer engagement or marketing automation tools.
+    - Interactions in any Dynamics 365 app can be used to trigger and drive customer journeys without requiring developers or customizations. Customers interact with several departments and functions in companies throughout their lifetime, all of which use their own CRM, ERP, and business apps. Each of these interactions, such as a service ticket being closed, represents an opportunity to engage more deeply with your customers. Data no longer has to remain siloed within separate apps and out of reach of your customer engagement or marketing automation tools.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/trigger-journeys-based-data-changes-dynamics-app-engage-customers-at-right-time-without-writing-code)
     - [Docs](real-time-marketing-dataverse-trigger.md)
 
@@ -226,12 +224,10 @@ The update also includes an admin digital data sharing opt-in for better perform
 
 - **Real-time marketing**
     - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for Content Ideas (GPT-3), and get better recommendations for channel optimization.
-- **Business units**
-    - The Dataverse Data Source service now respects business unit scoping, enabling organizations to support multi-brand strategy needs, reduce compliance risks, define reusable marketing assets, and review marketing results at various organizational levels.
 - **Marketing pages**
-    - Errors are now displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
+    - Errors are displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
 - **Conditional content**
-    - [Preview] Email templates now support conditional content.
+    - [Preview] Email templates support conditional content.
 
 #### Bug fixes
 

@@ -99,12 +99,4 @@ If you make changes to a mobile entity, it will show as **Overridden**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden.](./media/mobile-upgrade-overridden.png)
 
-### See also
-
-- [GitHub integration into Mobile Configurator Woodford](https://www.resco.net/github-integration-into-woodford/)
-- [Version history](./version-history.md)
-- [Set up Field Service Mobile](./install-field-service.md)
-- [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
