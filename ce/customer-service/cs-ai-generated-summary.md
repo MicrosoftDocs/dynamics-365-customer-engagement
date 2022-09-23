@@ -8,7 +8,7 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# View and share an Auto-summarized conversations (Preview)
+# View and share Auto-summarized conversations (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

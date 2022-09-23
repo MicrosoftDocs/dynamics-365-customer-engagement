@@ -58,13 +58,13 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
 
 1. In **Insights**, select **Manage** next to **Auto-summarization for conversations (preview)**.
 
-1. Turn on **Enable auto-summarization for conversations**. If this option is enabled, agents can see **AI summary**  in tne communication panel of a session.
+1. Turn on **Enable auto-summarization for conversations**. If this option is enabled, agents can see **AI summary**  in the communication panel of a session.
 
-1. The **Supported triggers** section is displayed. Select the following:
+1. The **Supported triggers** section is displayed. Select the following options:
   
    - **When an agent joins the conversation** : Auto-generate and display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
    - **When the conversation ends** : Auto-generate and display the conversation when the conversation ends.
-   - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can click on the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
+   - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can select on the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
 :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
