@@ -37,6 +37,9 @@ A summary includes the following components:
 
 - **Resolution tried**: Summarizes any troubleshooting steps or possible solutions that agents have tried. If the model can't identify a resolution from the transcript, this section is blank.
 
+  > [!NOTE]
+  > The application displays the troubleshooting steps or solution summary as a part of **Resolved**, when the case is resolved or if the conversation ends.
+
 ## Regional availability and supported languages
 
 The AI-generated conversation summary is available in the United States, Europe, and the United Kingdom.
