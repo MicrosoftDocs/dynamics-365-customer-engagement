@@ -22,7 +22,10 @@ manager: shujoshi
 > [!NOTE]
 > This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
-Agents can collaborate with others directly in Teams while they're working in Dynamics 365 Customer Service. To help them easily recap an ongoing customer interaction, you can turn on AI-generated conversation summaries. Agents can include a summary when they connect a case to a Teams chat or channel. The summary quickly provides context and relays any steps they've already taken.
+Agents can collaborate with others directly while they're working in Dynamics 365 Customer Service. To help them easily recap an ongoing customer interaction, turn on Auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
+> [!NOTE]
+>  - Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
+>  - This feature is generally available for Microsoft Teams conversations.
 
 ## Components of an AI-generated conversation summary (preview)
 
@@ -46,27 +49,44 @@ For more information, see [Regional availability and service limits for Customer
 
 Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
-## Turn on AI-generated conversation summary
+## Turn on Auto-summarization for conversations (Preview)
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Customer Service admin center, select **Insights** in **Operations**.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In **Insights**, select **Manage** next to **Auto-summarization for conversations (preview)**.
 
-    1. In the site map, in **Agent experience**, select **Collaboration**.
-    
-    1. In **Embedded chat using Teams**, select **Manage**.
+1. Turn on **Enable auto-summarization for conversations**. If this option is enabled, agents can see **AI summary**  in tne communication panel of a session.
+
+1. The **Supported triggers** section is displayed. Select the following:
+  
+   - **When an agent joins the conversation** : Auto-generate and display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
+   - **When the conversation ends** : Auto-generate and display the conversation when the conversation ends.
+   - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can click on the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+:::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
-    1. In the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
+### Turn on the AI-generated summary for Microsoft Teams collaboration
 
-1. In **Connect chats to Dynamics 365 records**, select **Conversation**.
+You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable AI-generated summary for Microsoft Teams and chats:
 
-1. In **Provide context for new connected chats**, turn on **Introduction message**.
+2. In the site map, under **Microsoft Teams Integration**, select **Collaboration**.
 
-:::image type="content" source="media/cs-ai-generated-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
-<!--Please confirm that this screenshot is accurate. I created it using my demo tenant, which may not be set up the way yours is. Thanks! -->
+3. Set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
+
+4. To get suggested contacts for active cases or supported conversations, perform the following steps:
+   
+   1. Select **Case** or **Conversation** in the **Link chat to Dynamics 365 records** section. Based on your selection, the **Case settings** or **Conversation settings** flyout menu appears on the right.
+
+   2. In **Suggested contacts**, turn on the toggle for **AI-based suggested contacts**.
+
+    It takes 24 hours for the data to be preprocessed for the first time use.
+
+    :::image type="content" source="media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI-suggested contacts.":::
+
+5. Optionally, set the toggle for **Turn on Enhanced Microsoft Teams Integration** to **Yes**. This setting lets agents pin records and views to a Teams channel directly from Dynamics 365 and also suggests agents who worked on similar cases.
+
+6. Optionally, set the toggle for **Turn on Confidential Labels** to **Yes** to create private Teams messages and add sensitivity or confidentiality labels in enhanced Microsoft Teams integration.
+
 
 ### See also
 
