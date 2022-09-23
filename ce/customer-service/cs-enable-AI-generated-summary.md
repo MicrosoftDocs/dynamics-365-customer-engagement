@@ -66,7 +66,7 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
 
 1. In **Conversation settings**, in **New connected chats**, turn on **AI-generated intro note**.
 
-:::image type="content" source="media/cs-ai-generated-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
+:::image type="content" source="media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings.":::
 <!--Please confirm that this screenshot is accurate. I created it using my demo tenant, which may not be set up the way yours is. Thanks! -->
 
 ### See also
