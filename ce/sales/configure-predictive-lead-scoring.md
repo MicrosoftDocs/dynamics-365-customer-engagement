@@ -20,7 +20,7 @@ Configure predictive lead scoring to help sellers prioritize leads based on scor
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise** <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-** Enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. For more information, see [Lead and opportunity scoring](digital-selling-scoring.md)
+** Enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. For more information on enabling predictive scoring, see [Lead and opportunity scoring](digital-selling-scoring.md).
 
 ## What is predictive lead scoring
 
@@ -198,14 +198,14 @@ If you're using custom attributes for lead generation, you can generate the mode
     After the model is trained, a popup message is displayed.
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
-1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
+1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
 1. Perform one of the following actions:
 
-    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
 
-    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
-    - If you want to view the attributes used by the model, select **View Details** and then select **Edit model**. 
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**. 
 
 
 ## Add a model
@@ -280,28 +280,24 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
    > [!NOTE]
    > - The **Ignore empty values** option is disabled for the following type of attributes:
    > - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).
-   > 
-   > 
    > - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).
-   > 
-   > 
-   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values as shown in the following screenshot:
-   > :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on.":::
+   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
+   
 1. Select **Retrain model**.  
     A popup message is displayed if you've modified the grade ranges. When the model is retrained, the grade ranges may change as well. 
     :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
 1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
 
-    After the model is trained, a popup message is displayed.
+    After the model is trained, a popup message is displayed.  
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
-1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
+1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
 1. Perform one of the following actions:
 
-    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
 
-    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
-    - If you want to view the attributes used by the model, select **View Details** and then select **Edit model**. 
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**. 
 
 
 #### Select intelligent fields

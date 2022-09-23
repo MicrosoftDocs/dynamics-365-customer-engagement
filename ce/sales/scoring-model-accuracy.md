@@ -32,10 +32,10 @@ A predictive scoring model calculates the likelihood of an opportunity or lead c
 - Selection of business process flow and appropriate filters.  
 - Stages and attributes chosen, if the model is enabled for per stage modeling.  
 
-After a model is trained, the model runs on the closed opportunities/leads in the training data and verifies the predictions against the actual data. The accuracy of the model is then calculated based on various parameters such as true positives, false positives, and so on.  
+After a model is trained, the model runs on the closed opportunities/leads in the training data and verifies the predictions against the actual data.
 
 > [!NOTE]
-> The model is trained using 80% of your closed opportunities/leads and then validated using the remaining 20% as test opportunities/leads, which are the most recent ones.
+> The model is trained using 80% of your closed opportunities/leads and then validated using the remaining 20% as test opportunities/leads, which are the most recent ones. The accuracy of the model is then calculated on the validated set based on various parameters such as true positives, false positives, and so on.  
 
 ## View accuracy and performance metrics  
 
