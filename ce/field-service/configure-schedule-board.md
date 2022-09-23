@@ -201,11 +201,4 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
 
-### See also   
-[Overview of Dynamics 365 Field Service](../field-service/overview.md)   
-[Create a work order](../field-service/create-work-order.md)   
-[Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
-[Schedule a work order](../field-service/schedule-work-order.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

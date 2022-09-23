@@ -12,6 +12,8 @@
         href: sign-up-for-sales-trial.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
+      - name: Explore features in trial
+        href: features-in-trial.md
       - name: Trial FAQs
         href: sales-trial-faq.md
   - name: Install and configure
@@ -217,6 +219,8 @@
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Configure predictive lead scoring
           href: configure-predictive-lead-scoring.md
+        - name: View accuracy and performance of predictive scoring models
+          href: scoring-model-accuracy.md
     - name: Opportunity management
       items: 
         - name: Set up deal manager
@@ -235,6 +239,8 @@
           href: customize-opportunity-close-experience.md
         - name: Configure predictive opportunity scoring
           href: configure-predictive-opportunity-scoring.md
+        - name: View accuracy and performance of predictive scoring models
+          href: scoring-model-accuracy.md        
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
     - name: Product and price list management
@@ -460,6 +466,8 @@
           href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
           href: insights-from-m365.md
+        - name: Microsoft 365 consent types
+          href: ms365-consent-types.md
         - name: Add relationship intelligence widgets to custom forms
           href: add-ri-widgets-to-custom-form.md
         - name: Grant access to who knows whom information
