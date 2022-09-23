@@ -59,16 +59,17 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
    ### [Customer Service Hub](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
+
     2. In **Collaboration**, select **Embedded chat using Teams**.
 
 1. In **Connect chats to Dynamics 365 records**, select **Conversation**.
 
-1. In **Provide context for new connected chats**, turn on **Introduction message**.
+1. In **Conversation settings**, in **New connected chats**, turn on **AI-generated intro note**.
 
-:::image type="content" source="media/cs-ai-generated-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
+:::image type="content" source="media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings.":::
 <!--Please confirm that this screenshot is accurate. I created it using my demo tenant, which may not be set up the way yours is. Thanks! -->
 
 ### See also
 
-[View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)
+[View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)<br>
 [Overview of Customer Service workspace](csw-overview.md)  

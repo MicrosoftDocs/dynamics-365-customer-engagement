@@ -7,10 +7,9 @@ author: gandhamm
 ms.author: mgandham
 manager: shujoshi
 ---
-<!-- Please change the title: View and share an AI-generated conversation summary in Teams -->
 
 # View and share an AI-generated conversation summary in Teams (preview)
-<!--Please change the H1: View and share an AI-generated conversation summary in Teams (preview) -->
+
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -30,7 +29,7 @@ When you open a case in the Customer Service workspace, the **Teams chats** pane
 
 1. Select **New connected chat**.
 
-    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat.png" alt-text="Screenshot that shows the New connected chat button in the Teams chats pane.":::
+    :::image type="content" source="media/teams-new-linked-chat.png" alt-text="Screenshot that shows the New connected chat button in the Teams chats pane.":::
 
 1. Select a contact to start a chat with.  
     If your administrator has turned on AI and rules-based suggestions, the system suggests contacts you might want to chat with. They include contacts who have experience resolving similar cases or who are related to the current case. You can select more than one contact if you want to start a group chat.
