@@ -86,11 +86,11 @@ Additionally, this update includes improvements to real-time journeys and person
 
 ### July 2022 update
 
-The Dynamics 365 Marketing July 2022 update has four general availability features and one pubic preview from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from the [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability features include reusable content blocks for quick email creation, the ability to continue customer conversations by taking action on SMS replies, multiple journey branches to create more personalized variations, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
+The Dynamics 365 Marketing July 2022 update has four general availability features and one pubic preview from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from the [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability features include reusable content blocks for quick email creation, the ability to continue customer conversations by taking action on text message replies, multiple journey branches to create more personalized variations, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
 
 The public preview features include the ability to edit live journeys with improved version tracking capabilities for real-time marketing journeys and brand profiles including custom sender profiles, social links, and custom fields for better branding consistency within organizations.
 
-The update also includes improvements to real-time journeys, the SMS channel, marketing pages, and event management.
+The update also includes improvements to real-time journeys, the text message channel, marketing pages, and event management.
 
 #### Version number
 
@@ -111,13 +111,13 @@ The update also includes improvements to real-time journeys, the SMS channel, ma
     > [!div class="mx-imgBorder"]
     > ![Screenshot of new content blocks.](media/whats-new-content-blocks.png "Screenshot of new content blocks")
 
-- **Continue the conversation with your customers by taking action on their SMS replies**
-    - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
+- **Continue the conversation with your customers by taking action on their text message replies**
+    - Text messaging allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your text messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
     - [Docs](set-up-automated-sms-keyword-flow.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
+    > ![Screenshot of a text message reply journey.](media/whats-new-sms-keyword-response.png "Screenshot of a text message reply journey")
 
 - **Create more personalized journey variations using multiple journey branches**
     - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
@@ -155,8 +155,8 @@ The update also includes improvements to real-time journeys, the SMS channel, ma
 
 - **Real-time marketing**
     - Triggers can now have up to 29 attributes (formerly limited to 10).
-- **SMS channel**
-    - New metrics allow you to measure SMS campaign performance, including response rate, percentage of responses that include a defined keyword, and most used keywords.
+- **Text message channel**
+    - New metrics allow you to measure text message campaign performance, including response rate, percentage of responses that include a defined keyword, and most used keywords.
 - **Marketing pages**
     - Improved reliability of e-mail link clicked insights for customers.
 - **Event management**
@@ -198,7 +198,7 @@ The update also includes an administrator digital data sharing opt-in for better
     - [Docs](set-up-automated-sms-keyword-flow.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
+    > ![Screenshot of a text message reply journey.](media/whats-new-sms-keyword-response.png "Screenshot of a text message reply journey")
 
 - **Create more personalized journey variations using multiple journey branches**
     - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can create more than two branches at any given step in the journey, creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. Multiple branches eliminate the need to nest branches and make analyzing journeys easier. You can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
@@ -586,7 +586,7 @@ With the Dynamics 365 Marketing December 2021 update you can create journey bran
 
 ### November 2021 update
 
-With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing text messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
 
 #### Version number
 
@@ -608,9 +608,9 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Marketing emails**
     - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
 - **Mobile channel**
-    - Send Customer Voice surveys in SMS messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
+    - Send Customer Voice surveys in text messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
 - **Scale**
-    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
+    - Send up to 100 million outbound interactions (emails, text messages, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
 
 ##### Outbound marketing
 
@@ -639,7 +639,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 
 ### October 2021 update
 
-The Dynamics 365 Marketing October 2021 update includes a new Content ideas feature that uses AI to kickstart email creation, unlocking of the SMS channel for users outside of the United States, revamped A/B testing for the outbound marketing email editor, the ability to include lists of related data in personalized emails, general performance upgrades, bug fixes, and more.
+The Dynamics 365 Marketing October 2021 update includes a new Content ideas feature that uses AI to kickstart email creation, unlocking of the text message channel for users outside of the United States, revamped A/B testing for the outbound marketing email editor, the ability to include lists of related data in personalized emails, general performance upgrades, bug fixes, and more.
 
 #### Version number
 
@@ -672,7 +672,7 @@ The Dynamics 365 Marketing October 2021 update includes a new Content ideas feat
 - **Optimize the performance of emails in the new outbound marketing email editor with A/B testing**
     - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/new-email-editor-ab-testing)
     - [Docs](email-a-b-testing.md)
-- **Send SMS messages using Twilio and TeleSign integration**
+- **Send text messages using Twilio and TeleSign integration**
     - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/send-sms-messages-using-twillio-telesign-integration)
     - [Docs](real-time-marketing-outbound-text-messaging.md)
 - **Personalize emails to include lists of related data**
@@ -814,7 +814,7 @@ The Dynamics 365 Marketing August 2021 update includes the general availability 
 
 ### July 2021 update
 
-The Dynamics 365 Marketing July 2021 update includes an overhauled trial experience that significantly reduces sign-up time, improved customer journey functionality, easier check-ins for Teams events, duplicate SMS message safeguards for custom channels, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing July 2021 update includes an overhauled trial experience that significantly reduces sign-up time, improved customer journey functionality, easier check-ins for Teams events, duplicate text message safeguards for custom channels, performance upgrades, and bug fixes.
 
 > [!IMPORTANT]
 > Starting in the July 2021 release, the [quotas limits page](quota-management.md) will be under construction. The revised quota limits page will monitor outbound marketing and real-time marketing quota usage in one place. Segmentation limits will return in the new quota limits page.
@@ -833,7 +833,7 @@ The Dynamics 365 Marketing July 2021 update includes an overhauled trial experie
 #### Monthly enhancements
 
 - **Custom channels**
-    - Resolved an issue that sometimes caused custom channels to send duplicate SMS messages.
+    - Resolved an issue that sometimes caused custom channels to send duplicate text messages.
 - **Customer journeys**
     - Contacts who unsubscribe from a subscription list during customer journey execution are no longer blocked by the subscription list manager.
 - **Event management**
@@ -941,7 +941,7 @@ The Dynamics 365 Marketing June 2021 update includes improved engagement-trackin
 The much-anticipated customer journey orchestration features have made their public preview debut to customers in North America. Customers with Dynamics 365 Marketing paid or trial subscriptions are able to use the new features. Marketing now has capabilities to empower customer experience-focused organizations to deliver digitally transformed customer experiences in real time. These features enable organizations to:
 
 - Engage customers in real-time.
-    - With features such as trigger-based customer journeys, custom triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+    - With trigger-based customer journeys using channels including emails, text messages, and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 - Win customers and earn loyalty faster.
     - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 - Personalize customer experiences with AI.
@@ -978,10 +978,10 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
 - **AI-driven recommendations for images**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-recommendations-image-video-document-or-fragment)
     - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
-- **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
+- **Author personalized content across email, text messages, and push notifications through a new point-and-click interface**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
     - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)
-- **Create and send SMS messages to any mobile phone**
+- **Create and send text messages to any mobile phone**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
     - [Docs](real-time-marketing-outbound-text-messaging.md)
 - **Deliver push notifications to any Android or iOS app**
