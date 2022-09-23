@@ -126,7 +126,7 @@ Predictive work duration lets dispatchers predict the duration bookings. For mor
 
 Use this tab to manage Service level agreements (SLAs) for work order. For more information, go to [Service level agreements (SLAs) for work orders](sla-work-orders.md).
 
-## Time entry settings
+## Time Entry settings
 
 Time entries help track the time that technicians spend on various stages of a work order. For more information, go to [Time entries](field-service-time-entry.md).
 
@@ -142,6 +142,14 @@ Change Field Service settings for Dynamics 365 Remote Assist. For more informati
 |  Option  |  Description  |  
 |-------------|-----------------|  
 | Disable Booking Status Changes  |   Specify if users can change a booking status in Dynamics 365 Remote Assist on HoloLens. |
+
+## Inspection settings
+
+Inspections are forms that technicians use to answer a list of questions as part of a work order. For more information, go to [Add inspections to work orders](inspections.md).
+
+|   Option  |      Description     |
+|------------|----------------------|
+| Analytics enabled  |   Turn the analytics for inspections on or off. For enabled analytics, you can specify the frequency and the start time of the analysis. |
   
 ## Other settings
   
@@ -154,13 +162,5 @@ Change Field Service settings for Dynamics 365 Remote Assist. For more informati
 | Enable Address Suggestions   | Enable this setting to get suggestions when entering the addresses in various forms.  |
 | Product cost order   | Choose the order for product cost.   |
 | Work Order Subgrid Records Open as Popups | Specify if work order subgrid records open as a popup on work order form. Subentities of the work order entity: work order product, work order service, work order service task, work order incident, bookable resource booking, and time entry.   |
-
-## Inspection settings
-
-Inspections are forms that technicians use to answer a list of questions as part of a work order. For more information, go to [Add inspections to work orders](inspections.md).
-
-|   Option  |      Description     |
-|------------|----------------------|
-| Analytics enabled  |   Turn the analytics for inspections on or off. For enabled analytics, you can specify the frequency and the start time of the analysis. |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
