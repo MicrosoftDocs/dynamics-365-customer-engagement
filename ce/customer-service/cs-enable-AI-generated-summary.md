@@ -70,5 +70,5 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
 
 ### See also
 
-[View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)
+[View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)<br>
 [Overview of Customer Service workspace](csw-overview.md)  
