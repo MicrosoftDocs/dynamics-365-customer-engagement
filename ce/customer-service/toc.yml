@@ -412,7 +412,7 @@
         href: create-entitlement-define-support-terms-customer.md
       - name: Use entitlement templates to set up entitlements  
         href: set-up-entitlements-templates.md
-      - name: SLA Limitations
+      - name: SLA limitations
         href: sla-limitations.md
       - name: Migrate SLAs
         href: migrate-slas.md
