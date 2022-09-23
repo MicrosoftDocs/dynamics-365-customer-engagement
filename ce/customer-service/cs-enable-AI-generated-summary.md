@@ -66,7 +66,7 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
    - **When the conversation ends** : Auto-generate and display the conversation when the conversation ends.
    - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can select on the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
-:::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
+        :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
 ### Turn on the AI-generated summary for Microsoft Teams collaboration
 
