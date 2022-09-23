@@ -13,7 +13,7 @@ search.app:
 ---
 # Set defaults for work orders, bookings, the schedule board, and agreements (Field Service)
 
-The Field Service settings page allows system administrators to set default settings for work orders, bookings, the schedule board, agreements, and more.
+The Field Service settings page allows system administrators to set default settings for work orders, bookings, the [schedule board](configure-schedule-board.md), agreements, and more.
 
 1. In Field Service, change to the **Settings** area.
   
@@ -123,21 +123,6 @@ The Field Service settings page allows system administrators to set default sett
 > [!Note]
 > The **Enhanced Background Processing** setting is in preview and it means that all Field Service workflows will move to Power Automate.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
-
-
-
-## Resource scheduling and schedule board settings
-
-For scheduling-related settings, see these articles: 
-- [Scheduling parameters in resource scheduling (settings)](scheduling-parameters-settings.md)  
-- [Configure the schedule board](../field-service/configure-schedule-board.md).
-  
-### See also  
- [Overview](../field-service/overview.md)   
- [Installation](../field-service/install-field-service.md)   
- [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)   
- [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)
-
+> ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,11 +50,6 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
   
 2.  Select a product.  
   
-3.  You can specify the **Bin** and **Row** where the product resides in the warehouse. You can also render a reorder point.  
-  
-### See also  
-
-- [Create a product or service](../field-service/create-product-or-service.md)
-
+3.  You can specify the **Bin** and **Row** where the product resides in the warehouse. You can also render a reorder point.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
