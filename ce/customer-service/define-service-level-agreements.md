@@ -57,7 +57,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 > [!NOTE]
 > - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as, case and account in the web client.
-> - Once the SLA KPI Instance reaches the terminal state (**Succeeded**, **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
+> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
 
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
