@@ -30,6 +30,9 @@ Share an AI-generated summary of a customer conversation to easily collaborate o
 
 When you're working on a conversation request from a customer, select **Show AI summary**. A summary is displayed only when the conversation contains at least three messages from the customer.
 
+
+:::image type="content" source="media/oc-conv-summary.png" alt-text="Screenshot that shows the New Show AI Summary.":::
+
 The summary includes the key customer problems to solve and any steps that you've already taken to resolve the issue.
 
 > [!NOTE]
@@ -40,7 +43,7 @@ You can also perform the following actions:
 - Select **Create a case**. The application creates a new case and populates the case description with the summary.
 - Share feedback about the summary.
 
-:::image type="content" source="media/oc-conv-summary.png" alt-text="Screenshot that shows the New Show AI Summary.":::
+:::image type="content" source="media/oc-conv-summary-card.png" alt-text="Screenshot that shows the New Show AI Summary.":::
 
 Based on the supported triggers enabled by your administrator, the application automatically generates and displays the summary when you request a consult with another agent, transfer the conversation, or end the conversation.
 
