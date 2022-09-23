@@ -1,5 +1,5 @@
 ---
-title: View the accuracy and performance of predictive scoring models
+title: View accuracy and performance of predictive scoring models
 description: Accuracy of the predictive model is determined by running the model on historical data and calculating false positives, false negatives, true positives, and true negatives.
 ms.date: 08/26/2022
 ms.custom:
@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# View the accuracy and performance of a predictive scoring model
+# View accuracy and performance of predictive scoring models
 
 Knowing the accuracy of a predictive scoring model is important to decide whether the model is ready for use or you need to fine tune it for better accuracy. It also helps you to convince the leadership team and sellers to adopt the model for improved business outcomes.
 
@@ -29,13 +29,11 @@ A predictive scoring model calculates the likelihood of an opportunity or lead c
 
 - Quality and size of the data available for training the model. The model is only as good as the data fed into it.  
 
-- Selection of business process flow and appropriate filters.  
+- Selection of business process flow and filters.  
 - Stages and attributes chosen, if the model is enabled for per stage modeling.  
 
-After a model is trained, the model runs on the closed opportunities/leads in the training data and verifies the predictions against the actual data.
-
 > [!NOTE]
-> The model is trained using 80% of your closed opportunities/leads and then validated using the remaining 20% as test opportunities/leads, which are the most recent ones. The accuracy of the model is then calculated on the validated set based on various parameters such as true positives, false positives, and so on.  
+> The model is trained using 80% of the closed opportunities/leads in training dataset and then validated using the remaining 20% as test dataset, which consists of the most recent ones. The accuracy of the model is then calculated on the validated test dataset based on various parameters such as true positives, false positives, and so on.  
 
 ## View accuracy and performance metrics  
 
@@ -50,8 +48,9 @@ After a model is trained, the model runs on the closed opportunities/leads in th
     > If you don't see any metrics in the **Performance** tab, [edit and retrain the model](configure-predictive-opportunity-scoring.md#edit-and-retrain-a-model). 
 
     The performance metrics of the model are displayed.
-
-    :::image type="content" source="media/predictive-scoring-accuracy.PNG" alt-text="A screenshot of the Performance tab displaying model accuracy metrics":::
+    
+    
+    :::image type="content" source="media/predictive-scoring-accuracy.PNG" alt-text="A screenshot of the Performance tab displaying model accuracy metrics" lightbox="media/predictive-scoring-accuracy.png":::
 
      - **Model Performance**  
         Specifies whether the model is ready to publish based on the following parameters:
@@ -64,7 +63,7 @@ After a model is trained, the model runs on the closed opportunities/leads in th
         - **Recall**  
             Indicates how often the model predicted a positive outcome correctly compared to the actual positives. A low recall score means the model is predicting fewer true positives. The recall score is calculated using the following formula:
 
-            Recall = TP / (TP + FN) * 100     
+            Recall = TP / (TP + FN) * 100  
 
         - **Conversion rate**  
             Displays the percentage of opportunities/leads that are actually qualified/won as per historical data. This rate indicates the likelihood that an opportunity or lead will convert. This value is referenced by the model to determine how an attribute will influence the predictive score. The conversion rate is calculated using the following formula:

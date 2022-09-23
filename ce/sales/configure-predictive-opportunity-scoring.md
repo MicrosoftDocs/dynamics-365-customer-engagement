@@ -298,7 +298,8 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 1. Select **Retrain model**.
     
-    A popup message is displayed for the grade ranges. When the model is retrained, the grade ranges may change as well. 
+    A popup message is displayed for the grade ranges. When the model is retrained, the grade ranges may change as well.  
+
     :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
 1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
 
