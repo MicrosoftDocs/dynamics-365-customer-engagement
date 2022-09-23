@@ -17,16 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure customer support swarming for complex cases (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# Configure customer support swarming for complex cases
 
 Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. As an administrator, you can create a more unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
 
@@ -58,12 +49,12 @@ Use the following image and legend to understand the layout of the customer supp
 | Number | Functionality | Description |
 |-----|------------|------------|
 |1 | Swarming toggle | Turns on the swarming feature. |
-|2 | Agent swarm guide | Admininstrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
+|2 | Expert notifications | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
 |3 | Case details | Add out-of-box case fields. Administrators can configure which case fields show on the form. |
-|4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
-|5 | Rules for skills | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
-|6 | Participants automatically added to swarms | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
-|7 | Swarm expert notification | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
+|4 | Add and manage skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
+|5 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
+|6 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
+|7 | Agent guide | Admininstrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
 
 ## Prerequisites 
 
@@ -138,8 +129,9 @@ You can configure which case fields to include as part of the swarm form.
 
 To configure case details, perform the following steps:
 
-1. On the **Case details** card, select **Edit in Power Apps**.
-2. Edit as desired, and then when finished, select **Publish** on the top-right side of the Power Apps page.
+1. On the customer support swarming configuration page, go to the **Case details** card.
+1. Select **Edit in Power Apps**.
+1. Edit the form, and then when finished, select **Publish** on the top-right side of the Power Apps page.
 
 ## Add and manage skills
 
@@ -147,25 +139,19 @@ If your organization is already using skills in resource scheduling or Omnichann
 
 If you haven't already configured skills, then complete the following steps.
 
-1. On the **Skills** contact card, select the **Add a new skill** link.
-2. On the **All skills** page, select **Create skill**.
-3. On the **Create Skill page**, Select the **Skill type**, and then in the **Skill name** field, type a name for the skill.
-4. Select **Create**.
+1. On the customer support swarming configuration page, go to the **Skills** contact card.
+1. Select the **Add a new skill** link.
+1. On the **All skills** page, select **Create skill**.
+1. On the **Create Skill page**, Select the **Skill type**, and then in the **Skill name** field, type a name for the skill.
+1. Select **Create**.
 
 ### Attach the new skill to an expert
 
 To use the new skill in customer support swarming, you must attach it to a user.
 
 1. On the **Edit Skill** page, in the **Users** section, select **+ Add**.
-1. Select the **Related** tab on the characteristic, and then select **Resource Characteristics**.
- 
-   > [!div class="mx-imgBorder"] 
-   > ![Resource Charactistics menu option.](media/swarm-resource-characteristics.png "Reource Characteristics menu option")
-
-1. Select **New Bookable Resource**.
-
-1. On the **New Bookable Resource Characteristic** page, select the **Resource** field, and then search for the resource.
-
+1. On the **Add users** page, select the user type from the dropdown list.
+1. Select the name of the user you want to add, and then select **Add user**.
 1. Select **Save**.
 
 ### Bulk import skills (optional)
@@ -194,7 +180,7 @@ If your organization is already using bookable resources in resource scheduling 
 
 If you haven't already configured experts, then perform the following steps.
 
-1. In Customer Service Hub, in **Scheduling**, select **Resources**. The **Active Bookable Resources** page is displayed.
+1. In Customer Service Hub, go to **Scheduling** on the site map, and then select **Resources**. The **Active Bookable Resources** page is displayed.
 
 1. On the command menu, select **New**.
 
@@ -249,7 +235,7 @@ You can attach characteristics (skills) in the **Resources** form by performing 
 
 1. Edit the form, and then select **Save**.
 
-## Define swarm rules
+## Define condition rules
 
 You can define swarm rules that identify the skills that should be suggested when an agent makes a swarm request that matches the conditions of a rule. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
 
