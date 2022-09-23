@@ -6,7 +6,7 @@ keywords:
 ms.date: 10/31/2017
 
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0225d979-0e34-44b5-814c-a5dcb14d6fd9
