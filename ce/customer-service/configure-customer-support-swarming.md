@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 06/23/2022
+ms.date: 09/23/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -40,7 +40,11 @@ Some of the key benefits of customer support swarming include:
 
 Swarming features are available in Dynamics 365 Customer Service workspace, Customer Service Hub, and custom apps.
 
-To use customer support swarming, you must have a Dynamics 365 Customer Service Enterprise license.
+### License requirements
+
+To use customer support swarming, you need either of the following:
+ - If you're an agent, you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license. 
+ - If you're an administrator, you must have a Teams license.
 
 ## Overview of the customer support swarming page
 
@@ -73,7 +77,7 @@ To configure customer support swarming, you must have administrator privileges a
 
 1. In Customer Service Hub, go to **Service Management**.
 1. In **Collaboration** in the site map, select **Embedded chat using Teams**.
-1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
+1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365**.
    
 
 ### Activate case details on swarms
@@ -96,11 +100,11 @@ If you haven't already activated the case details for the swarm form, perform th
 
 ### Turn on the swarm expert notification flow in Power Automate
 
-To ensure that swarm experts receive invitations in Teams, turn on the Microsoft Power Automate flow for swarm expert notifications. Perform the following steps.
+To ensure that swarm experts receive invitations directly in Teams, turn on the Microsoft Power Automate flow for swarm expert notifications. Perform the following steps.
 
-1. On the customer support swarming configuration page, go to the **Swarm expert notification** card.
+1. On the customer support swarming configuration page, go to the **Expert notifications** card.
 
-1. Select the **Edit flow in Power Automate** link.
+1. Select the **Edit in Power Automate** link.
 
 1. On the form header, select **Edit**, and then either sign in or select **Continue**.
 
@@ -113,24 +117,6 @@ To ensure that swarm experts receive invitations in Teams, turn on the Microsoft
 
 > [!Note]
 > You can configure various administration sections without turning on swarming. This is useful in ensuring you have fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issue if it's not fully functional.
-
-## Edit the swarm guide
-
-The swarm guide is the direction provided by you, as the administrator, that appears in the swarm form when the agent opens it. The swarm guide helps ensure that your agent types the right questions. It provides helpful context to effectively match skills and experts. 
-
-Important things to keep in mind when creating the swarm guide:
- 
- - You can edit the guide content, and the guide you create will apply to all different swarm types. It can't be further customized.
- 
- - The guide template is rich text-enabled.
- 
- - The guide template has a 500-character limit.
-
-To create the swarm guide, perform the following steps.
-
-1. On the **Agent swarm guide** card, select **Edit**.
-
-1. Type your details, and then select **Save**.
 
 ## Edit case details
 
@@ -152,31 +138,25 @@ You can configure which case fields to include as part of the swarm form.
 
 To configure case details, perform the following steps:
 
-1. Select **Edit case details**, and then edit the details in Power Apps.
+1. On the **Case details** card, select **Edit in Power Apps**.
+2. Edit as desired, and then when finished, select **Publish** on the top-right side of the Power Apps page.
 
-1. When finished, select **Publish** on the top-right side of the page.
-
-## Add and assign new skills
+## Add and manage skills
 
 If your organization is already using skills in resource scheduling or Omnichannel for Customer Service, you can reuse the skills to define swarm rules. 
 
-If you haven't already configured skills, then perform the following steps.
+If you haven't already configured skills, then complete the following steps.
 
-1. Select :::image type="icon" source="./media/teams-swarm-go-to-skills.png" border="false":::. The **Active characteristics** page is displayed.
-
-1. To add a new skill, on the command menu, select **New**. The **New Characteristic** form is displayed.
-
-   > [!div class="mx-imgBorder"] 
-   > ![View of the New Charactistic form.](media/teams-swarm-new-characteristic.png "New Characteristic form")
-
-1. Enter the **Name** and **Description** details for the skill, and select the **Characteristic Type**.
-
-1. Select **Save**.
+1. On the **Skills** contact card, select the **Add a new skill** link.
+2. On the **All skills** page, select **Create skill**.
+3. On the **Create Skill page**, Select the **Skill type**, and then in the **Skill name** field, type a name for the skill.
+4. Select **Create**.
 
 ### Attach the new skill to an expert
 
 To use the new skill in customer support swarming, you must attach it to a user.
 
+1. On the **Edit Skill** page, in the **Users** section, select **+ Add**.
 1. Select the **Related** tab on the characteristic, and then select **Resource Characteristics**.
  
    > [!div class="mx-imgBorder"] 
@@ -302,6 +282,25 @@ A minimum of two participants are required for a swarm. Swarm contacts include t
  - The agent's supervisor (this setting cannot be edited). Ensure that the agent has a supervisor. (This person can be the same for many agents on the team). If a supervisor isn't identified for the agent, the administrator who enabled the swarm is automatically added.
  - Optional: The administrator of the team the agent is a member of.
  - Optional: The owner of the related account.
+
+## Edit the agent guide
+
+The agent guide is the direction provided by you, as the administrator, that appears in the swarm form when the agent opens it. The agent guide helps ensure that your agent types the right questions. It provides helpful context to effectively match skills and experts. 
+
+Important things to keep in mind when creating the agent guide:
+ 
+ - You can edit the guide content, and the guide you create will apply to all different swarm types. It can't be further customized.
+ 
+ - The guide template is rich text-enabled.
+ 
+ - The guide template has a 2,000-character limit.
+
+To create the agent guide, perform the following steps.
+
+1. On the **Agent guide** card, select **Edit**.
+
+1. Type your details, and then select **Save and close**.
+
 
 ## Grant swarm privileges for agents
 
