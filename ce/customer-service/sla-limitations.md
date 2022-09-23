@@ -30,7 +30,7 @@ The following limitations apply to the Unified Interface apps:
     
 - Multiple SLA items can't be defined with the same **Applicable When** criteria and same KPI in Unified Interface SLA.
 - You can’t use nested related entities with **Under**/**Not Under** operator as part of the conditions in Unified Interface SLA. Therefore, you'll need to change the **Applicable**/**Success**/**Pause** conditions to add one level of related entities only with **Under**/**Not Under** operator.
-- You can’t use **Under**/**Not-Under** in direct conditions in Unified Interface SLA, so you need to use related entities when using **Under**/**Not Under** operator.
+- You can’t use **Under**/**Not-Under** in direct conditions in Unified Interface SLA, so you need to use related entities when using **Under**/**Not Under** operator. 
 
 ### See also
 
