@@ -47,7 +47,7 @@ After a model is trained, the model runs on the closed opportunities/leads in th
 
 2. Select the **Performance** tab.  
     > [!NOTE]
-    > If you don't see any metrics in the **Performance** tab, [retrain the model](pos-edit-and-retrain-model.md#manual-retraining). 
+    > If you don't see any metrics in the **Performance** tab, [edit and retrain the model](configure-predictive-opportunity-scoring.md#edit-and-retrain-a-model). 
 
     The performance metrics of the model are displayed.
 
@@ -116,13 +116,13 @@ The above data means that the system predicted 850 opportunities (TP+FP) to be w
 
 If your model is not ready to publish, take the following actions to retrain the model and improve the scores:
 
-- [Edit the model][Edit the model](pos-edit-and-retrain-model.md#edit-the-model) to
+- [Edit the model](configure-predictive-opportunity-scoring.md#edit-and-retrain-a-model) to
     - View the attributes used by the model.
     - View attribute insights to understand their influence on the overall prediction.
     - Ignore empty values for attributes that have higher percentage of empty values and hence are resulting in false positives or false negatives.
     - Use intelligent fields to help the model to better understand records and distinguish between score improvers and harmers.
  
-- [Add a new model][Create and add a scoring model](configure-predictive-opportunity-scoring.md#create-and-add-a-scoring-model)
+- [Add a model](configure-predictive-opportunity-scoring.md#add-a-model) to
     - Use per stage modeling to choose attributes applicable for each business process stage.
     - Refine the filter criteria, time period for training data, or other model configurations. For example, if you've chosen 2 years time period for training data and you realize that you have too many test or incorrect data during that period, choose a lesser time period, 6 months or 1 year, when the quality of data is better.  
 
