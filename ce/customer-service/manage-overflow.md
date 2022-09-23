@@ -11,7 +11,7 @@ ms.topic: article
 
 # Manage overflow of work items in queues
 
-When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all the eligible agents are tied up at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge and unassigned work items and ensure customer satisfaction. You can also send notifications to the customer about their waiting state or when their query will be resolved.
+When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all the eligible agents are tied up at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge and unassigned work items to ensure customer satisfaction. You can also send notifications to the customer about their waiting state or when their query will be resolved.
 
 For work items, such as calls, conversations, and cases, you can address the following scenarios:
 
@@ -29,7 +29,7 @@ The following table lists the condition and action pairs available for different
 
 | Channel | Condition | Action|
 |---------|-----------|-------|
-| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li> Direct callback (preview)</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail (preview)</li> </ul> |
+| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback (preview)</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail (preview)</li> </ul> |
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
 
