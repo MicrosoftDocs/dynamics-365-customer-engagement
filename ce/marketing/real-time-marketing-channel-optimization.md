@@ -2,7 +2,6 @@
 title: "Use AI-driven run-time channel optimization (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use AI-driven run-time channel optimization for real-time marketing."
 ms.date: 03/08/2022
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -34,7 +33,7 @@ The AI model operates autonomously and in real time to understand the journey go
 ## Prerequisites
 
 - **Journey goal**: You must have a [defined journey goal](real-time-marketing-business-goals.md) for the channel optimization to start working.
-- **Content for your channels**: You must have the content for the channels (email, push, SMS) you want to optimize.
+- **Content for your channels**: You must have the content for the channels (email, text, or push) that you want to optimize.
 
 ## Create and add channel optimization
 
