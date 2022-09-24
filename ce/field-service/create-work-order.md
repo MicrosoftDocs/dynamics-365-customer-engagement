@@ -82,7 +82,7 @@ The Get Started work order create form doesn’t support switching forms. If add
     - For **Work Order Type**, select a work order type from the list or [create a new work order type](create-work-order-types.md).
     - For **System Status**, select **Open-Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).
-    - Set **Taxable** to **No**.
+    - Choose if the work order is **Taxable** or not. If the work order isn't taxable work order products and services aren't considered taxable either, regardless of the taxable setting on the product or service.
   
    :::image type="content" source="media/quickstart-work-order-new2.png" alt-text="Screenshot of a work order in Field Service.":::
   
