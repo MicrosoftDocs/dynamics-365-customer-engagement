@@ -35,21 +35,11 @@ Let's walk through two scenarios to show how agreements can create work orders a
 
 ## Prerequisites
 
-- Field Service v6.1+
-
 - Work order-related data such as accounts, incident types, products, services, and service tasks configured in your system.
 
-- Consider specifying an agreement prefix and start number (optional). Go to **Field Service** > **Settings**, then the **Agreements** section.
+- Consider specifying an agreement prefix and start number. For more information, go to [Agreement settings](configure-default-settings.md#agreement-settings).
 
-Enter an **Agreement Prefix** and **Agreement Starting Number**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service settings, on the agreements tab.](./media/agreement-field-service-settings.png)
-
-Doing so will dictate the **Agreement Number** when a new agreement is created.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new agreement, with attention on the agreement number.](./media/agreement-custom-prefix.png)
+- The designated owners of agreements, agreement booking setups, and agreement invoice setups need permissions to create invoices, invoice details, work orders, work order incidents, work order products, work order services, work order service tasks, resource requirements, and bookings.
 
 ## Scenario 1: Auto generate work orders for asset maintenance
 
