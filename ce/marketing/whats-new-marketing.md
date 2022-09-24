@@ -90,7 +90,7 @@ The Dynamics 365 Marketing July 2022 update has four general availability featur
 
 The public preview features include the ability to edit live journeys with improved version tracking capabilities for real-time marketing journeys and brand profiles including custom sender profiles, social links, and custom fields for better branding consistency within organizations.
 
-The update also includes improvements to real-time journeys, the text message channel, marketing pages, and event management.
+The update also includes improvements to real-time journeys, the text message channel, and event management.
 
 #### Version number
 
@@ -112,7 +112,7 @@ The update also includes improvements to real-time journeys, the text message ch
     > ![Screenshot of new content blocks.](media/whats-new-content-blocks.png "Screenshot of new content blocks")
 
 - **Continue the conversation with your customers by taking action on their text message replies**
-    - Text messaging allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your text messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
+    - Text messaging allows you to quickly communicate with customers. But it’s not enough to just send messages out, you also need to act on text message responses. Now, you can interact with your customers by creating journeys based on their replies to your text messages. Create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
     - [Docs](set-up-automated-sms-keyword-flow.md)
 
@@ -120,7 +120,7 @@ The update also includes improvements to real-time journeys, the text message ch
     > ![Screenshot of a text message reply journey.](media/whats-new-sms-keyword-response.png "Screenshot of a text message reply journey")
 
 - **Create more personalized journey variations using multiple journey branches**
-    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
+    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. Merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
     - [Docs](real-time-marketing-multiple-branches.md)
 
@@ -128,7 +128,7 @@ The update also includes improvements to real-time journeys, the text message ch
     > ![Screenshot of multiple branches.](media/whats-new-multiple-branches.png "Screenshot of multiple branches")
 
 - **Measure campaign effectiveness with a new channel analytics dashboard**
-    - To create effective campaigns, marketers need to continuously track the delivery of assets across numerous channels. They also need to review campaign engagement metrics so that they can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. You can even zoom in on a particular channel or message. You can also learn from trends of important metrics over a specified time period to further improve your marketing efforts.
+    - To create effective campaigns, you need to continuously track asset delivery across multiple channels. You also need to review campaign engagement metrics so that you can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. Zoom in on a particular channel or individual message. Identify trends over a specified time period to further improve your marketing efforts.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/measure-campaign-effectiveness-new-channel-analytics-dashboard)
     - [Docs](real-time-marketing-channel-analytics.md)
 
@@ -138,13 +138,13 @@ The update also includes improvements to real-time journeys, the text message ch
 #### Preview features
 
 - **Edit, publish, and optimize journeys by making incremental updates, while tracking and analyzing all previous versions together**
-    - Dynamics 365 Marketing already makes it easy to update journeys after they're live, allowing you to optimize journeys and improve business outcomes. With this new feature, editing journeys becomes easier and more collaborative than before. First, you can now make light edits to live journeys&mdash;such as renaming elements and adjusting goal percentages&mdash;without creating new versions. Second, because the Marketing app automatically version tracks each update, you can make complex and structural changes to journeys confidently and collaboratively with your team. This makes editing journeys as simple as editing documents; each change is tracked and is available for auditing. Third, customers who are mid-flight in journeys are not impacted. Mid-flight customers can continue going through the journey version they entered while all new customers experience the journey with the latest updates. Fourth, copies are no longer created each time a change is made, leaving you with an uncluttered view of your journey list. Finally, analytics are preserved for each version. This enables you to compare journey flow and goal attainment across journey versions.
+    - Improved journey version tracking and editing. Make light edits to live journeys&mdash;such as renaming elements and adjusting goal percentages&mdash;without creating new versions. Because the Marketing app automatically version tracks each update, you can make complex and structural changes to journeys confidently and collaboratively with your team. This makes editing journeys as simple as editing documents; each change is tracked and is available for auditing. Customers who are mid-flight in journeys are not impacted. Mid-flight customers can continue going through the journey version they entered while all new customers experience the journey with the latest updates. Copies are no longer created each time a change is made, leaving you with an uncluttered view of your journey list. Analytics are preserved for each version. This enables you to compare journey flow and goal attainment across journey versions.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of editing a live journey.](media/whats-new-live-journey-edit.png "Screenshot of editing a live journey")
 
 - **Create consistent content with brand profiles**
-    - To ensure branding consistency, the email editor now supports brand profiles including custom sender profiles, social links, and custom fields. Marketers can create multiple brand profiles for their organization or for each of their business units.
+    - To ensure branding consistency, the email editor supports brand profiles, including custom sender profiles, social links, and custom fields. Create multiple brand profiles for your organization or for each of your business units.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-consistent-content-brand-profiles)
     - [Docs](brand-profiles.md)
 
@@ -154,13 +154,11 @@ The update also includes improvements to real-time journeys, the text message ch
 #### Monthly enhancements
 
 - **Real-time marketing**
-    - Triggers can now have up to 29 attributes (formerly limited to 10).
+    - Triggers can have up to 29 attributes (formerly limited to 10).
 - **Text message channel**
-    - New metrics allow you to measure text message campaign performance, including response rate, percentage of responses that include a defined keyword, and most used keywords.
-- **Marketing pages**
-    - Improved reliability of e-mail link clicked insights for customers.
+    - Text message metrics allow you to measure campaign performance including response rate, percentage of responses that include a defined keyword, and most used keywords.
 - **Event management**
-    - Check-ins are now created when joining an event 2 hours or less before it starts (formerly limited to 30 minutes before the event start) ensuring check-ins are created for early joiners.
+    - Check-ins are created when joining an event 2 hours or less before it starts (formerly limited to 30 minutes before the event start), ensuring check-ins are created for early joiners.
 
 ### June 2022 update
 
@@ -185,7 +183,7 @@ The update also includes an administrator digital data sharing opt-in for better
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 - **Target the right contacts and leads using the real-time marketing segmentation builder**
-    - To improve marketing return on investment, it's important to target the right audience. But precisely targeting an audience can often be complicated, requiring marketers to understand database and SQL concepts and operators. The real-time marketing segmentation builder simplifies segment creation and empowers you to build segments for your campaigns without assistance from data analysts or scientists, no matter how complex the logic. Build segments on leads, without requiring the lead to have a parent contact. Market to these leads directly using customer journeys. The real-time marketing segmentation builder also enables you to take an iterative approach to building the segment logic through member previews that populate as you build the segment.
+    - Precisely targeting an audience is often complicated, requiring you to understand database and SQL concepts and operators. The real-time marketing segmentation builder simplifies segment creation and empowers you to build segments for your campaigns without assistance from data analysts or scientists, no matter how complex the logic. Build segments on leads without requiring the lead to have a parent contact. Market to leads directly using customer journeys. The real-time marketing segmentation builder also enables you to take an iterative approach to building the segment logic through member previews that populate as you build the segment.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/target-right-contacts-leads-using-reimagined-easy-use-segmentation-builder)
     - [Docs](real-time-marketing-build-segments.md)
 
@@ -201,7 +199,7 @@ The update also includes an administrator digital data sharing opt-in for better
     > ![Screenshot of a text message reply journey.](media/whats-new-sms-keyword-response.png "Screenshot of a text message reply journey")
 
 - **Create more personalized journey variations using multiple journey branches**
-    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can create more than two branches at any given step in the journey, creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. Multiple branches eliminate the need to nest branches and make analyzing journeys easier. You can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
+    - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Create more than two branches at any given step in the journey, allowing for more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. Multiple branches eliminate the need to nest branches and make analyzing journeys easier. Merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
     - [Docs](real-time-marketing-multiple-branches.md)
 
@@ -211,7 +209,7 @@ The update also includes an administrator digital data sharing opt-in for better
 #### General availability enhancements
 
 - **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Dynamics 365 Sales, and Dynamics 365 Customer Service**
-    - Sales reps and customer service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, reps and agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. The timeline also allows previews of messages sent to customers. Message previews enable, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
+    - Sales reps and customer service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, reps and agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. The timeline also allows previews of individual messages sent to customers. Message previews enable, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/personalize-interactions-using-unified-view-customer-activity-across-dynamics-365-marketing-sales-customer-service)
     - [Docs](timeline.md)
 
