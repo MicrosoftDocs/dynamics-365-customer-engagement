@@ -46,7 +46,7 @@ For more Field Service videos, go to [this full video playlist](https://aka.ms/f
   
 ## Create a work order
 
-You can create a work order quickly from the Get Started page and from the Work Order list. 
+You can create a work order quickly from the Get Started page and from the Work Order list.
 
 ### From the Get Started page
 
@@ -94,20 +94,20 @@ The Get Started work order create form doesn’t support switching forms. If add
 
 When the work order has been created and saved, you can add any related tasks, products, or services to the work order.  
   
-- Go to the **Service Tasks** section and select **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] For more information, see [Set up service task types](../field-service/set-up-service-task-types.md).
+- Go to the **Service Tasks** section and select **New Work Order Service Task**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] For more information, go to [Set up service task types](set-up-service-task-types.md).
   
-- Go to the **Products** or **Services** section and select the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] For more information, see [Create a product or service](../field-service/create-product-or-service.md).
+- Go to the **Products** or **Services** section and select **New Work Order Product/Service**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] For more information, go to [Create a product or service](create-product-or-service.md).
   
   > [!NOTE]
   > When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
 
-Consider using incident types to add more details and instructions to your work orders. Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise, you can add them manually when you create a work order. For more information, see [Configure incident types](configure-incident-types.md).
+Consider using incident types to add more details and instructions to your work orders. Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise, you can add them manually when you create a work order. For more information, go to [Configure incident types](configure-incident-types.md).
 
 ## Work order user default settings
 
 ### Open work order subgrids as popups
 
-Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers see the work order context. Administrators can enable the **Work Order Subgrid Records Open as Popups** setting in the settings area. For more information, go to [Other settings](configure-default-settings.md#other-settings)..
+Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers keep the work order context. Administrators can enable the **Work Order Subgrid Records Open as Popups** setting in the settings area. For more information, go to [Other settings](configure-default-settings.md#other-settings).
 
 ### Show simplified work order commands
 
