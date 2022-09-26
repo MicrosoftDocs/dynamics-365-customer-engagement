@@ -104,7 +104,7 @@ While you're working on a case, the productivity pane on the right side of the C
 
 Learn more about using the [productivity pane](csw-productivity-pane.md). 
 
-## Key features
+## Work with cases, activities, knowledge articles, and email templates
 
 On the Customer Service Agent Dashboard, you can view cases and activities that are assigned to you. You can also view cases available to work on. You can perform various actions such as create, delete, and filter cases and activities from the workspace.
 
