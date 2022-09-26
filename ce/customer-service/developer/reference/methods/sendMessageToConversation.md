@@ -1,7 +1,7 @@
 ---
 title: "sendMessageToConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
 description: "Includes reference information about sendMessageToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
-ms.date: 05/24/2022
+ms.date: 10/01/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -26,7 +26,7 @@ This function can be used to send messages to a conversation.
 
 | Parameter         | Type    | Description |
 | ----------------- | ------- | ----------- |
-| message           | String or JSON object  | Indicates the message to be sent to a conversation. | 
+| message           | String or [MessageObject](MessageObject.md)   | Indicates the message to be sent to a conversation. | 
 | toSendBox         | Boolean  | Determines if the message is sent to sendBox or directly to the conversation. |
 | liveWorkItemId    | String  | Unique identifier of the conversation to which the message is to be sent. |
 
