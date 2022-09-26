@@ -1,5 +1,5 @@
 ---
-title: "Configure case volume forecasting in Customer Service | Microsoft Docs"
+title: "Configure case forecasting in Customer Service | Microsoft Docs"
 description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
 ms.date: 10/01/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure case volume forecasting (preview)
+# Configure case forecasting (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -73,11 +73,11 @@ For users in your organization to be able to access the Forecast report, they mu
    
 1. Toggle **Enable case forecasting** to **On**.
 
-1. The report reflects the day on which it’s enabled. If you want to choose a different day of the month for the report to be updated, in **Refresh schedules**, select the day you want.
+1. The report reflects the day on which it’s enabled. If you want to choose a different day of the month for the report to be updated, in **Daily forecasting schedule**, select the day you want.
 
-1. After the report is generated for the first time, you’ll see a **Model run summary** section above **Refresh schedules** that displays the date and time on which the forecast was last created. The time reflects your time zone. If you want to set a different default time zone, do the following steps:
+1. After the report is generated for the first time, you’ll see a **Model run summary** section at the top of the page that displays the date and time on which the forecast was last created. The time reflects your time zone. If you want to set a different default time zone, do the following steps:
 
-   a. Select the **Settings** (gear) icon in the top-right corner of the app, and then select **Personal Settings**. The **Set Personal Options** page is displayed.
+   a. Select the **Settings** (gear) icon in the top-right corner of the app, and then select **Personalization Settings**. The **Set Personal Options** page is displayed.
    
    b. In **Set the time zone you are in**, choose the time zone you want from the dropdown menu.
    
@@ -93,6 +93,6 @@ For users in your organization to be able to access the Forecast report, they mu
 
 ### See also
 
-[Forecast case and conversation volumes](use-volume-forecasting.md)<br>
+[Forecast agent, case, and conversation volumes](use-volume-forecasting.md)<br>
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
