@@ -401,8 +401,4 @@ If you create a new custom **Booking Status**, then you should pick a scheduling
 
 For more information, see the article on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md).
 
-### See also
-- [Booking Statuses blog post](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

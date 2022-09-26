@@ -85,10 +85,4 @@ Administrators can configure the app to trigger actions and workflows when custo
 
 For detailed information on customizing and configuring the Field Service mobile app, be sure to check out the detailed [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf). 
 
-## See also
-[Install Field Service with mobile](../field-service/install-field-service.md)
-
-[Resco support guides](https://www.resco.net/support/guides/)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
