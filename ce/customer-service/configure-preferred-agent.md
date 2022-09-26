@@ -76,7 +76,7 @@ You can add multiple preferred agents to contact records in bulk using the [crea
 
 If you want to add multiple preferred agent routing records through the script, ensure that you map only 3 unique agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered based on the preference rating. If agents have the same preference rating, the application orders the agents based on the record creation timestamp.
 
-You can also update or delete records using the [updateRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) or [deleteRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) update.
+You can also update or delete records using the [updateRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) or [deleteRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) calls.
 
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
