@@ -79,7 +79,7 @@ If you want to add multiple preferred agent routing records through the script, 
 You can also update or delete records using the [updateRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) or [deleteRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) calls.
 
 > [!IMPORTANT]
-> We recommend that you add the contact and preferred agent routing through the Preferred agent routing (preview) page.
+> We recommend that you add the contact and preferred agent routing through the Preferred agent routing page.
 
 ### Roles and permissions for preferred agent routing
 
