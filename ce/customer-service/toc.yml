@@ -985,9 +985,7 @@
           href: customize-reports.md
         - name: Configure model customization of historical analytics reports
           href: model-customize-reports.md
-        - name: Configure realtime analytics from Dataverse
-          href: model-customize-reports.md  
-      - name: Enable supervisor settings
+        - name: Enable supervisor settings
         items:
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
