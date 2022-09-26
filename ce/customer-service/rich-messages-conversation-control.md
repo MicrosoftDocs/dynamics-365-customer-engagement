@@ -1,7 +1,7 @@
 ---
 title: "Rich messages in the conversation control | MicrosoftDocs"
 description: "This article provides steps to help you use the rich messages in the conversation control in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 10/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
