@@ -83,8 +83,9 @@ For the supported channels, use the information mentioned in the following table
 
 ### Bulk add preferred agent records
 
-You can add multiple preferred agents to contact records in bulk using the [createRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) call to update the [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md and [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md) entities.
-If you are running the script to add multiple preferred agent routing records, ensure that you map only 3 unique agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered the based on the preference rating. If agents have the same preference rating, the application orders the agents based on the time when the record was created.
+You can add multiple preferred agents to contact records in bulk using the [createRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) call to update the [msdyn_preferredagent](developer/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](developer/reference/entities/msdyn_preferredagentcustomeridentity.md) entities.
+
+If you want to add multiple preferred agent routing records through the script, ensure that you map only 3 unique agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed only to the top three agents. Agents are ordered based on the preference rating. If agents have the same preference rating, the application orders the agents based on the record creation timestamp.
 
 You can also update or delete records using the [updateRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) or [deleteRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) update.
 
