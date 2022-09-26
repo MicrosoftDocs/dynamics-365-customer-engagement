@@ -1,7 +1,7 @@
 ---
-title: "Forecast case and conversation volumes in Customer Service | Microsoft Docs"
-description: "Learn how to use the Forecast report for cases and conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/25/2022
+title: "Forecast agent, case, and conversation volumes in Customer Service | Microsoft Docs"
+description: "Learn how to use the Forecast report for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
+ms.date: 10/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes (preview)
+# Forecast agent, case, and conversation volumes (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -34,9 +34,9 @@ Customer service supervisors need to be able to ensure that they have an adequat
 
 As a supervisor, you can use the Forecast report to help you plan the right level of staffing for your business based on the predicted volume of cases and conversations.
 
-You can use the Forecast report for case and conversation volumes in the following ways:
+You can use the Forecast report for agent, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming case and conversation volumes as well as the number of agents needed based on historical traffic. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
 
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 
@@ -52,17 +52,17 @@ Before you can use the Forecast report, ensure that your administrator has given
 
 ## View the Forecast report in Customer Service
 
-You can access the Forecast report in the Customer Service workspace app by selecting the plus (+) icon, and then selecting **Forecast (preview)**, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
+You can access the Forecast report in the Omnichannel for Customer Service or Customer Service workspace apps by selecting the plus (+) icon, and then selecting **Forecast (preview)**, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
-### Filters for case and conversation forecasting
+### Filters for case, conversation, and agents for conversations forecasting
 
-The **Case** and **Conversation** tabs of the volume forecast report display visual and numeric metrics for the filters you select. The difference between the two tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
+The **Cases**, **Conversations** and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
 
-Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case and conversation volume forecasting](configure-volume-forecasting.md)
+Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case forecasting](configure-volume-forecasting.md)
 
-You can filter the case data by using any of the following options:
+You can filter the data on each of the tabs by using any of the following options:
 
 |Filter |Description |
 |--------|-------------|
@@ -70,9 +70,9 @@ You can filter the case data by using any of the following options:
 |Channel|Select the channel(s) for which you want data displayed. |
 |Queue|If there are queues associated with the cases, you can filter on specific queues. |
 
-### Case volume visualization
+### Data visualization
 
-The **Case forecasting** section of the report displays a visual trend from historical case volume in the past to the predicted case volume in the future. The forecast is based on actual case records from the case entity created in the past.
+The forecasting section on each tab of the report displays a visual trend from historical volumes from the past to the predicted volume in the future. The forecast is based on actual case, conversation, and agent records from the case entity created in the past.
 
 The **Confidence level** for the forecasted data is displayed on the right-hand side in blue, indicating the level of confidence in the predicted volume. The narrowest part of the blue area indicates higher confidence. You can hover on the report to display the forecast based on data for specific dates.
 
@@ -102,15 +102,18 @@ You can filter the data by selecting from the following options:
 
 ### Export data
 
-You can export the report data by selecting the ellipsis in the top-right corner of either section of the report and then selecting **Export data**.
+You can export the report data by selecting **Export** on the command bar.
 
 :::image type="content" source="media/forecast-export-data.png" alt-text="View of the Forecast report Export data menu item.":::
 
 The data for the date range you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
 
+
+
 ### See also
-[Configure case and conversation volume forecasting](configure-volume-forecasting.md)  
-[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
-[Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)  
+[Configure case and conversation volume forecasting](configure-volume-forecasting.md)<br>
+[Configure agent forecasting for conversations](configure-agent-forecasting-conversations.md)<br>
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
+[Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)<br>
 [Manage report bookmarks](manage-bookmarks.md)  
 
