@@ -1,0 +1,111 @@
+---
+title: "Configure agent forecasting for conversations in Customer Service | Microsoft Docs"
+description: "Learn how to configure agent forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
+ms.date: 10/01/2022
+ms.topic: article
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
+ms.custom: 
+  - dyn365-customerservice
+---
+
+# Configure agent forecasting for conversation (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+## Introduction
+
+Customer service supervisors in your organization need to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction. 
+
+As an administrator, you can configure the Forecast report to help your supervisors plan the right level of staffing for your business based on predicted volumes of cases and conversations.
+
+Supervisors can use the agent forecasting for conversation report in the following ways:
+
+- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
+- Slice and dice forecasted volumes by channel and queue.
+- Automatically detect seasonality from historical traffic with the settings option to import your service calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
+
+> [!Note]
+> The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+
+## How agent forecasting for conversation works
+
+The forecast report for conversations uses a forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection or custom settings) to enhance the quality of forecasting.
+
+The report can forecast for a date range up to six months, depending on how many days of historical data are available and used. In general, the models can forecast the half of the input date range, with the following conditions:
+
+- If the historical data time range is less than 12 months, forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for next four months.
+- If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for the next six months. 
+
+The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
+
+- At least two weeks of historical data is available. 
+- The average daily volume should be more than 50 per queue, and number of days when no case is created should be less than 30 percent per queue.
+- Per channel and queue combination, the data in your organization must be at least 70 percent for your entire date range. So, for example, if your data begins on January 1 of a given year and you run the forecasting model on September 1, the model will check all of the data within the date range of January 1 to September 1. If there is at least 70 percent of data available for each queue and channel, the model can run successfully. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully.
+
+## Prerequisites
+
+To configure the agent forcasting for conversation report, you must have the System administrator role.
+
+For users in your organization to be able to access the forecast reports they must have the Customer Service Manager role.
+
+## Enable the Agent forecasting for conversation (preview) report
+
+1. In the Customer Service admin center app, in **Operations**, select **Insights**. The Insights page is displayed.
+
+1. In the **Report settings** section, go to **Agent forecasting for conversation (preview)**, and then select **Manage**. The **Agent forecasting for conversation (preview)** page is displayed.
+
+1. Toggle **Enable agent capacity forecasting** to **On**.
+   
+1. The report reflects the day on which it’s enabled. If you want to choose a different day of the month for the report to be updated, in **Daily forecasting schedule**, select the day for which you want the report to refresh.
+
+1. After the report is generated for the first time, you’ll see a **Model run summary** section above **Basic forecasting configuration** that displays the date and time on which the forecast was last created. The time reflects your time zone. If you want to set a different default time zone, do the following steps:
+
+   a. Select the **Settings** (gear) icon in the top-right corner of the app, and then select **Personal Settings**. The **Set Personal Options page is displayed.
+   
+   b. In **Set the time zone you are in**, choose the time zone you want from the dropdown menu.
+   
+   c. Select **OK**.
+  
+1. If you want to change the time zone to use for daily forecasting, in **Time zone for daily forecasting**, select time zone you want.
+
+1. If you want to select a particular date that the data starts from, in **Historical data start date (optional)**, choose the **Start date** you want. The latest (closest) date that the start date can be is at least two weeks back from the current date. If nothing is selected, the start date will be decided based on the earliest creation date of all of your historical records, up to two years. If the start date you select is earlier than two years, only last two years of data will be used.
+
+1. If you want to specify seasonal, in **Seasonality**, select the **Use schedules from Holiday Calendar** check box. Selecting the **Holiday Calendar** link opens the **All Holiday Schedules** page, where you can create a new schedule or select an existing schedule.
+
+1. Save your changes. If this is the first time you’ve turned on the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the Forecast report. 
+
+1. In **Global Forecasting configuration** specify the following settings at the global level to apply to all channels. Some default values are provided as a suggestion to get you started, but you may want to change them to meet the needs of your organization.
+
+   - **Required Service Level (%)**: The percentage of the conversations needed to meet the target answer time. For example if your required service level percentage is 80 and your target answer time is 77, you want 80 percent of your conversations to be answered in 77 seconds or less.
+   - **Target Answer Time (Seconds)**: The number of seconds in which you want your agents to answer their conversations.
+   - **Shrinkage (%)**: The percentage of time agents are unavailable to handle conversations. If you increase this number, the percentage of time that the agents are unavailable goes up, which means you would need more agents to meet the service-level agreement.
+   - **Concurrency (#)**: The number of simultaneous interactions per agent. For calls, this value is set to one. For chats, the number can be set as desired.
+
+1. (Optional) If you want to change the values that are set in the **Global Forecasting configuration**, you can use the settings in **Override Channel Forecasting configuration** to set specific settings for each channel that's available in your organization. Any settings you don't change in the override will remain as set at the global level. Select the channels you want to use overrides for in the **Select channels to override configuration** dropdown list.
+
+   An example of when an override might be useful is if you have both voice and chat channels. The **Concurrency (#)** setting in **Global Forecasting configuration** would be set to one for the voice channel, but then you could use the **Live Chat-override** setting to change the chat concurrency to a higher frequency, such as three.
+  
+1. When you've finished entering the settings, select **Save**. Changes you've made to these settings will take effect starting from the next scheduled refresh.
+
+### See also
+
+[Forecast case and conversation volumes](use-volume-forecasting.md)<br>
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
+[Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
