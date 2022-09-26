@@ -1,7 +1,7 @@
 ---
 title: Customize knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 09/12/2022
+ms.date: 09/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -42,7 +42,7 @@ If you choose to retain the knowledge search filters, the Power Apps Maker filte
 
 The **Enable search filters** is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
-The settings that you have previously configured for your organization, including those within filter personalization, remain as they are. Enabling or disabling filter customizations only impact filter personalization and not the settings within it, such as adding or modifying a filter type.
+The settings that you have previously configured for your organization, including those within filter personalization, will no longer be applicable. If you have added a default language for your organization in the Power Apps Maker filter configurations, the setting will no longer be applicable. You will need to reset the language as default using the filter configurations.
 
 :::image type="content" source="media/default-search-filters.png" alt-text="Search filters are enabled by default.":::
 
