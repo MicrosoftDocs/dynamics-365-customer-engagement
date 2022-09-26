@@ -73,6 +73,8 @@ You need to enable the option to be able to extend the out of box Power BI data 
  1. On the **Insights** page, **Report settings** section, for **Embedded Power BI report extensibility - Historical data model customization (preview)**, select **Manage**.
  1. On the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, set the **Enable embedded Power BI data model customization** toggle to **On**.
  
+:::image type="content" source="media/model-csac.png" alt-text="Enable Model customization in Customer Service admin center":::
+ 
 Once you have enabled the **Embedded Power BI report extensibility - Historical data model customization (preview)** option, there are steps that you need to perform to complete the process.
  
 ### Step 1: Select a Power BI workspace for historical analytics
@@ -85,6 +87,8 @@ To create a new workspace:
  1. Select **Create new workspace**.
  1. In the Create Power BI workspace dialog, provide a workspace name and select **Create**.
  1. Select **Save**. The report provisioning process is initiated.
+ 
+:::image type="content" source="media/enable-model-step1.png" alt-text="Select your workspace":::
 
 > [!NOTE]
 > The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
@@ -94,20 +98,34 @@ To create a new workspace:
 
 Once the report provisioning process is complete, perform the following steps to grant authoring (read/write) permissions for power users and read permissions for supervisors.
 
+:::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
+
 1. Select **Give permissions to access out of the box Power BI Data model**.
 
-1. Share the report by selecting the **Share** button. More information: [Share access to a dataset (preview)](/power-bi/connect-data/service-datasets-share)
+:::image type="content" source="media/share-report.png" alt-text="Give permissions":::
 
-1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
+1. Share the report by selecting the **Share** button. More information: [Share access to a dataset (preview)](/power-bi/connect-data/service-datasets-share)
 
 1. Select **Share dataset**.
 1. On the **Share dataset** dialog box, search for the recipients name or email address.
 1. Select the checkboxes for the various permissions that you want to set for the recipient.
 1. Select **Grant accesss.**
 
+:::image type="content" source="media/share-dataset.png" alt-text="Search for recipients ont eh Share dataset dialog":::
+
+1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
+
+:::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
+
+
+
+
+
 ### Step 3: Embed customized report from Power BI workspace to Dynamics 365
 
-(Add a one-liner on why you need to do this step) On this step, you will be able to select the reports you want to see onteh site map.
+On this step, you will be able to select the reports you want to see on the site map.
+
+:::image type="content" source="media/enable-model-step3.png" alt-text="Add report to site map":::
 
 1. Select **Add report**, which will take you to the Power Bi Desktop.
 1. From **Common data sources**, select **Power Bi data sets** to create a live connection to datasets in the Power BI service.
@@ -116,18 +134,17 @@ Once the report provisioning process is complete, perform the following steps to
 1. Select **Submit**.
 1. On the **Publish to Power BI** dialog, select a destination where you want your reports to be published and then select **Select**.
 1. Provide a name and select **Add**.
-1. Go to Customer Service workspace and select **Customized Reports**. Your reports will be rendered in teh Customer Service workspace.
+1. Go to Customer Service workspace and select **Customized Reports**. Your reports will be rendered in the Customer Service workspace.
 1. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, step 3, select **Add report**.
-
  
 ## Step 4: Render reports in Customer Service workspace
 
 (Add a one-liner on why you need to do this step)
 
-1. In the Customer Service workspace site map, select the Plus icon.
-1. Select **Customized reports** from the dropdown list and then select teh report that you want to view.
+1. In the Customer Service workspace site map, select the **Plus** icon.
+1. Select **Customized reports** from the dropdown list and then select the report that you want to view.
 
-TBD
+:::image type="content" source="media/customized-reports-option.png" alt-text="Customized-reports-option":::
 
 ## Enable model customization of your analytics reports from Power BI workspace
 
