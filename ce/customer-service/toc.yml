@@ -972,7 +972,7 @@
         href: configure-ai-suggested-article-keywords-description.md
       - name: Configure Customer Service analytics dashboards in Power BI
         href: configure-customer-service-analytics-dashboard.md
-      - name: Configure case and conversation volume forecasting
+      - name: Configure case forecasting
         href: configure-volume-forecasting.md
       - name: Configure agent forecasting for conversations
         href: configure-agent-forecasting-conversation.md  
