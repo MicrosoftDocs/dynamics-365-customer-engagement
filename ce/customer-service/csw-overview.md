@@ -25,12 +25,10 @@ Features such as agent scripts and macros provide agents guidance and resources 
 
 For more information about licensing and system requirements: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
-**Engage in cases and conversation in the Customer Service workspace** 
+**Setup Omnichannel in Customer Service workspace** 
 
 You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app with he Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). For more information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
 
-> [!NOTE]
-> The Customer Service workspace app is not supported on the Unified Service Desk framework.
 ## Access the Customer Service workspace layouts
 
 Access Customer Service workspace through the app selector where you find other Dynamics 365 apps. Or, select it in the drop-down navigation in the upper-left corner of Dynamics 365.
@@ -49,7 +47,8 @@ You can switch to the enhanced layout with the following steps:
 1. Refresh the app page.
 
 > [!NOTE]
-> If you turn on the enhanced multisession workspace, the enhanced experience applies in both Customer Service workspace and Omnichannel for Customer Service.
+> - If you turn on the enhanced multisession workspace, the enhanced experience applies in both Customer Service workspace and Omnichannel for Customer Service.
+> - To revert back to the default layout, type the following command in developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
 
 The following table provides an overview of the layouts:
 
@@ -71,8 +70,8 @@ The following table gives an overview of the navigation in both views :
 | Column | Default | Enhanced multisession workspace |
 | ------------ | ------------- | ------------- |
 | Select a record from the Home session | Record opens in a new session | Record opens in a new session |
-| Select a record from the Global search | Record opens in a new tab | Record opens in a new tab |
-| Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new tab |
+| Select a record from the Global search | Record opens in a new tab | Record opens in a new session |
+| Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new session |
 | Create a record via Quick Create form | Record opens in a new tab | Record opens in a new session |
 | Create a new record | Record opens in a new session | Record opens in a new session |
 | Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
