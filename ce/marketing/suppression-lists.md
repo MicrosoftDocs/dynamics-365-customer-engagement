@@ -1,7 +1,7 @@
 ---
 title: "How Dynamics 365 Marketing uses suppression lists (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how Dynamics 365 Marketing uses suppression lists to protect email sending reputations."
-ms.date: 05/25/2022
+ms.date: 09/12/2022
 ms.topic: article
 ms.custom: 
   - dyn365-marketing
@@ -65,3 +65,6 @@ If you find that some contacts were blocked with a “suppression list” reason
 -	Justification as to why you believe each email address was listed by mistake. You should also provide proof that each email address is valid and can be reached by any other email provider.
 
 After that, our deliverability team will review the request and determine if the addresses should be removed.
+
+> [!NOTE]
+> If a contact is removed from a supression list that is used in a live journey, the changes will take effect in the next iteration of the journey (if the journey is recurring), not in the current one.

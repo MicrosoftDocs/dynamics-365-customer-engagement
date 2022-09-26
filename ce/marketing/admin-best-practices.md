@@ -115,7 +115,7 @@ You can replicate Dynamics 365 Marketing configurations and data across environm
 ## Migrations
 
 - **Tenant to tenant**:* Dynamics 365 Marketing supports [tenant to tenant migration within the same geo](/power-platform/admin/move-environment-tenant). There are, however, specific conditions to such migration that you must follow when provided as part of the support request.
-- **Geo to geo**: Marketing doesn't currently support geo to geo migration.
+- **Geo to geo**: The Marketing app doesn't currently support migration between different tenant geographic locations (geo to geo).
 
 ## Geos (commercial clouds)
 
