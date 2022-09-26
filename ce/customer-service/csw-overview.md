@@ -72,10 +72,9 @@ The following table gives an overview of the navigation in both views :
 | ------------ | ------------- | ------------- |
 | Select a record from the Home session | Record opens in a new session | Record opens in a new session |
 | Select a record from the Global search | Record opens in a new tab | Record opens in a new session |
-| Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new session |
+| Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new tab |
 | Create a record via Quick Create form | Record opens in a new tab | Record opens in a new session |
 | Create a new record | Record opens in a new session | Record opens in a new session |
-| Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
 | Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
 | Select an entity from the Sitemap | Record opens in a new tab | Record opens in a new tab |
 
