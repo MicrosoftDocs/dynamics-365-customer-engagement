@@ -43,13 +43,13 @@ If your administrator has enabled agent configuration, you can customize some ty
 
 ## Customizable rich messages
 
-Some types of rich messages may need their contents customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context. 
+Some types of rich messages may need their contents customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context. More information: [MessageObject type](developer/reference/includes/MessageObject.md)
 
 The following rich messages support admin-enabled customization:
 
 | Channel | Message type |
 |---------|---------------|
-| Apple Messages for Business | [List picker](create-rich-messages.md#list-picker)<br> [Suggested reply](create-rich-messages.md#suggested-reply)<br> [Time picker](create-rich-messages.md#time-picker)<br> [Video rich link](create-rich-messages.md#video-rich-link)<br> [Website rich link](create-rich-messages.md#website-rich-link)  |
+| Apple Messages for Business | [Apple Pay](create-rich-messages.md#apple-pay)<br>  [Authentication](create-rich-messages.md#authentication)<br>  [Custom JSON](create-rich-messages.md#custom-json)<br> [List picker](create-rich-messages.md#list-picker)<br> [Suggested reply](create-rich-messages.md#suggested-reply)<br> [Time picker](create-rich-messages.md#time-picker)<br> [Video rich link](create-rich-messages.md#video-rich-link)<br> [Website rich link](create-rich-messages.md#website-rich-link)  |
 
 
 ### See also
