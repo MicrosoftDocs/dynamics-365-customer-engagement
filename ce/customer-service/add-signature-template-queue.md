@@ -28,8 +28,6 @@ searchScope:
 
 You can add a default signature template for a queue to ensure that emails sent with the queue as the sender have consistent email signatures. When you send an email with the queue as the sender or reply to messages received by the queue, the default signature is added to the body of email. If you don't specify a default signature template for a queue, the application defaults the signature associated with the owner of the queue.
 
-More information: [Add an email signature](#add-an-email-signature)
-
 You can set up a default email signature for a queue as follows:
 
 1. Go to one of the admin apps, and perform the following steps:
