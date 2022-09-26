@@ -92,20 +92,6 @@ Enabling the user configured settings to an email form consists of the following
    
    The settings will now apply to the form when you create an email.
 
-### Add the language filter in the email template selection view
-
-Perform the following steps to enable the language filter for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
-
-1. Navigate to **Settings** > **Advanced Settings**.
-1. Select **Customizations** > **Customize the System**.
-1. In the **Solution: Default Solution** pane, expand **Entities**.
-1. Select and expand **Email Template** and then select **Forms**.
-1. On the **Active Forms** page, select **Template gallery filter form**.
-1. Drag and drop the **Language** field from the **Field Explorer** to the form. 
-1. Select **Language** and then select **Change Properties**. 
-1. On the Label section, select **Display label on the form**. 
-1. Save and publish the changes.
-
 ### Configure the default email template selection view
 
 Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
