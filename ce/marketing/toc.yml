@@ -24,10 +24,10 @@
       items:
       - name: Get started with Dynamics 365 Marketing licensing
         href: marketing-license.md
+      - name: Purchase a license directly from a Marketing trial
+        href: direct-purchase.md
       - name: Purchase and set up Marketing
         href: purchase-setup.md
-      - name: Install real-time customer journey orchestration
-        href: real-time-marketing-install.md
       - name: Integrate Marketing with a CMS system or a Power Apps portal
         href: portal-optional.md
       - name: Re-run the Marketing setup wizard
@@ -50,10 +50,6 @@
         href: tenant-to-tenant.md
       - name: Keep Marketing up to date
         href: apply-updates.md
-    - name: Dynamics 365 Marketing public IP addresses
-      href: marketing-public-ips.md
-    - name: Recurring activity bulk deletion
-      href: recurring-activity-bulk-delete.md
     - name: Installation and management FAQ
       href: install-manage-faq.yml
   - name: Administration
@@ -200,6 +196,12 @@
         href: cookies.md
       - name: Anonymized customer data human review notice
         href: anonymized-data-review.md
+    - name: Maintain the Marketing app
+      items:
+      - name: Recurring activity bulk deletion
+        href: recurring-activity-bulk-delete.md
+      - name: Dynamics 365 Marketing public IP addresses
+        href: marketing-public-ips.md
     - name: Terms and fair use
       items:
       - name: Service limits and fair use policy
@@ -218,6 +220,8 @@
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments in real-time marketing
         href: real-time-marketing-ci-profile.md
+      - name: Send a targeted email blast in real-time marketing
+        href: real-time-marketing-email-get-started.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -254,7 +258,13 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-      - name: Enhance your customer journeys
+      - name: Journey goals and A/B testing
+        items:
+        - name: Set a business goal and measure progress through a journey
+          href: real-time-marketing-business-goals.md
+        - name: Experiment and refine real-time marketing journeys
+          href: real-time-marketing-experimentation.md
+      - name: Advanced journey capabilities
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
@@ -266,12 +276,8 @@
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
-        - name: Set a business goal and measure progress through a journey
-          href: real-time-marketing-business-goals.md
         - name: Use natural language in real-time marketing journeys
           href: real-time-marketing-natural-language.md
-        - name: Experiment and refine real-time marketing journeys
-          href: real-time-marketing-experimentation.md
       - name: Personalization
         items:
         - name: Personalize content
@@ -544,7 +550,7 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
-    - name: "Preview: Collaborate using Microsoft Teams chat"
+    - name: Collaborate using Microsoft Teams chat
       href: teams-chat.md
     - name: "Customer interactions timeline"
       href: timeline.md

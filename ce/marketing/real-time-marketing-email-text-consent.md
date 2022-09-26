@@ -2,7 +2,6 @@
 title: "Manage consent for email and text messages in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

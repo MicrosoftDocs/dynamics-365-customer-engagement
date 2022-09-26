@@ -1,7 +1,36 @@
 
+## 3.12.88.3 - 2022 wave 2 early access update 2
+
+(Includes Resource Scheduling controls version 1.2.29.222551).
+
+## 3.12.85.11
+
+(Includes Resource Scheduling controls version 1.2.26.222492).
+
+Scheduling bug fixes to the new schedule board:
+
+- Bookings created from cases were not re-rendered the right priority when SB is refreshed. 
+- Booking tile text visibility on selection for light status color.
+- Schedule Type settings  application.
+- "move to" Dialog on bookings rejects selected resource and blocks move.
+- Two bookings are merged into one booking in Daily view.
+- Details panel not rendering some field values.
+- Estimated Arrival time sets the End time of the booking with incorrect value.
+
+
 ## 3.12.84.3
 
 (Includes Resource Scheduling controls version 1.2.25.222292).
+
+Scheduling bug fixes to the new schedule board:
+ - Custom filter control does not work (e.g. Look Up).
+ - Cannot Drag and Drop onsite Work order to Organization Crew Resource with Auto Update Booking Travel Enabled.
+ - The Booking records are not focused on the Map.
+ - Ability to show more results on left panel filter dropdowns.
+ - Appointments are not respected as "busy" when searching for availability for requirements.
+ - Requirements details present on Schedule Assist are showing the fields with no value.
+ - Details pane is not showing the right view.  
+
 
 ## 3.12.87.3 - 2022 wave 2 early access update 1
 

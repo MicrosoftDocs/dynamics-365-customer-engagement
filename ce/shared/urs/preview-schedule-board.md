@@ -408,17 +408,7 @@ The new schedule board has the same capabilities as the older schedule board. Us
 
 When using a custom sitemap or an app module, you'll need to update the sitemap to consume the new schedule board preview.
 
-The following snippet is what it looks like before:
-
-```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the sitemap before.](../../field-service/media/schedule-board-new-sitemap-before.png)
-
-The next snippet is what it looks like after:
-
 ```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
-​
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the sitemap after.](../../field-service/media/schedule-board-new-sitemap-after.png)

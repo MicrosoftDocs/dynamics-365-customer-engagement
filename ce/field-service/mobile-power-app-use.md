@@ -262,11 +262,4 @@ Use the **Recent** option in the main menu to quickly go to recently viewed, lik
 > [!div class="mx-imgBorder"]
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the recent and pin icons in the menu.](./media/mobile-2020-menu-pin.png)
 
-
-### See also
-
-[Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

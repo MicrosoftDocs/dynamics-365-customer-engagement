@@ -1,7 +1,7 @@
 ---
 title: "Preview: How to use conditional content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use conditional content features in Dynamics 365 Marketing."
-ms.date: 06/01/2022
+ms.date: 09/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -92,3 +92,7 @@ In the designer, you should always preview and test each variation to make sure 
 1. In the property pane, expand the **Conditional content** section.
 1. **Email variation** lists all possible variations of the email. Select the variation you want to check. The main designer area will show the preview of that variation.
 1. By default, variations are named using the names you gave to the conditions. If desired, you can rename the variation by updating its name in **Variation name** edit box.
+
+## When to use conditional content vs conditions (advanced personalization)
+
+As shown above, conditional content is a great way to deliver different images and content to better match a recipient’s interests and preferences. However, there are situations where you only want to change a few words or a sentence. For example, in many languages, initial greetings are different based on the recipient’s gender. In such situations, it is more efficient and convenient to use [conditions from advanced personalization](real-time-marketing-personalization.md#conditional-content) than to create a complete duplicate section containing the same set of images and text only to change the greeting.

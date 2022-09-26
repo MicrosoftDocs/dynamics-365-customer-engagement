@@ -209,7 +209,7 @@ This action opens the specified application in a new tab with the attributes tha
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Page type | Specify  the application type to be opened. More information: [Application types](application-tab-templates.md#application-types) <br> This is a mandatory field.  |
+   | Page type | Specify  the application type to be opened. More information: [Page types](application-tab-templates.md#page-types) <br> This is a mandatory field.  |
    | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. |
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |

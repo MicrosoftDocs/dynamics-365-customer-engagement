@@ -143,9 +143,4 @@ To send these push notifications, the customer data detailed below must flow to 
 - Any workflow that sends a push notification can be deactivated by going to **Settings > Processes** and selecting the workflow that you want to deactivate. The status of an active workflow will read **Activated**. Select a workflow and then select **Deactivate** from the command bar. This will deactivate the workflow and, in turn, the push notification action, meaning that there will be no flow of data to the aforementioned external services. 
 - Push notifications require an online environment and won’t work with on-premises deployments.
 
-### See also
-
-- For more information on sync filters, see the [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

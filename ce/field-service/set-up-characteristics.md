@@ -55,12 +55,4 @@ Characteristics are skills that resources possess. For example, they can be used
   
 5.  Select **Save & Close**.  
   
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
- [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
- [Set up resource pay types](../field-service/set-up-resource-pay-types.md)
- [User's Guide](../field-service/user-guide.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

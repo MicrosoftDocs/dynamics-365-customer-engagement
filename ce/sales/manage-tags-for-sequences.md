@@ -1,7 +1,7 @@
 ---
 title: "Manage tags for sequences in sales accelerator"
 description: "Manage the tags for sequences in sales accelerator by creating, adding, editing, and deleting."
-ms.date: 08/02/2022
+ms.date: 09/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -18,6 +18,14 @@ Tags help you quickly filter and identify sequences from a list by categories th
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Permission requirements to manage tags
+
+The following table shows the permissions required for a user role to perform tasks on tags.
+
+| Task related to tags | Permissions required |
+|--------------------------|----------------------|
+| Create, edit, and delete | In the Security roles page, under the **Custom Entities** tab, provide Create, Read, Write, and Delete permissions for **Sales Tag** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, and Sales Manager security roles. | 
+| Apply and remove | In the Security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br>- **Sales Tag**: Read, Append, and Append To<br>- **Sequence**: Read, Append, and Append To<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)<br><br> **Note:** By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles. |
 
 ## What are tags?
 

@@ -1,23 +1,14 @@
 ---
 title: "Configure routing to preferred agents | MicrosoftDocs"
 description: "Configure settings to route work items to preferred agents in Customer Service."
-ms.date: 08/25/2022
+ms.date: 10/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Configure routing to preferred agents (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# Configure routing to preferred agents
 
 For a more personalized experience, Dynamics 365 Customer Service gives you the option to route work items from a specific contact to the customer's preferred agents or relationship managers.
 
@@ -25,10 +16,7 @@ Configure contacts and their preferred agents in the Customer Service admin cent
 
 To find the preferred agent for an incoming work item, the contact should be identified. For more information, see the **Channel-specific support for identifying a contact record** section.
 
-In the preview release, you can map agents to contacts only.
-
-> [!IMPORTANT]
-> In the preview release, if the Omnichannel solution is already installed in your organization, you must perform the steps in [Create custom data in organizations with existing Omnichannel solution](#create-custom-data-in-organizations-with-existing-omnichannel-solution) to route records to the preferred agents successfully.
+You can map agents to contacts only.
 
 ## Configure preferred agent for contacts
 
@@ -36,7 +24,7 @@ Make sure that the agent you intend to assign to a contact is a member of the qu
 
 1. In the Customer Service admin center site map, select **Routing**.
 
-1. On the page that appears, next to **Preferred agent routing (preview)**, select **Manage**.
+1. On the page that appears, next to **Preferred agent routing**, select **Manage**.
 
 1. Turn on **Enable preferred agent routing**.
 
@@ -56,11 +44,12 @@ Make sure that the agent you intend to assign to a contact is a member of the qu
 
    Only agents who are configured as bookable resources and assigned the agent role persona are displayed in the list of users.
 
-   You can map up to three preferred agents to a contact. The order in which you map the agents is the order in which they'll receive a work item if an agent earlier in the list isn't available.
+   You can map up to three preferred agents to a contact. The order in which the agents are listed is the order in which they'll receive a work item if an agent earlier in the list isn't available. You can sort the agent order by selecting an agent in the list and using the **Move up** or **Move down** option.
 
 1. Save and close.
 
   :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
+
 
 ### Routing diagnostics and preferred agent settings
 
@@ -103,153 +92,8 @@ You must be able to access the Contact entity. More information: [Contact](/cust
 
 If you have a custom role, you must also have access to the msdyn_preferredagent and msdyn_preferredagentcustomeridentity entities.
 
-### Create custom data in organizations with existing Omnichannel solution
-
-If the Omnichannel solution is already installed in your organization and you want to use the preferred agent settings for routing records, such as the case or email record, you must perform the steps in this section.
-
-1. Go to the Customer Service admin center app, and enter the following URL in the address bar to make an oData call and determine if data exists.
-
-    `OrgURL`/api/data/v9.0/msdyn_preferredagentroutedentities  
-
-1. If no data is displayed, then in the developer console window, run the code for each of the following record types depending on the records that you want to route.
-
-- **Case**
-
-    ```js
-    var data = {
-        msdyn_customeridentifiername: 'customerid',
-        msdyn_name: 'Preferred Agent Routed Entity',
-        msdyn_preferredagentroutedentityid: '90ef68ce-67d7-ec11-a7b6-000d3a9c947d',
-        msdyn_routedentityname: 'incident'
-    }
-    //Create record XRM call
-    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-        function success(result) {
-            console.log("Record created with ID: " + result.id);
-            // perform operations on record creation
-        },
-        function(error) {
-            console.log(error.message);
-            // handle error conditions
-        }
-    );
-    ```
-
-- **Email**
-
-    ```js
-    var data = {
-        msdyn_customeridentifiername: 'regardingobjectid',
-        msdyn_name: 'Preferred Agent Routed Entity',
-        msdyn_preferredagentroutedentityid: '0fa834dc-79d7-ec11-a7b6-000d3a9c947d',
-        msdyn_routedentityname: 'email'
-    }
-    //Create record XRM call 
-    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-        function success(result) {
-            console.log("Record created with ID: " + result.id);
-            // perform operations on record creation 
-        },
-        function(error) {
-            console.log(error.message);
-            // handle error conditions 
-        }
-    ); 
-    ```
-
-- **Appointment**
-
-    ```js
-    var data = {
-        msdyn_customeridentifiername: 'regardingobjectid',
-        msdyn_name: 'Preferred Agent Routed Entity',
-        msdyn_preferredagentroutedentityid: 'b78386c4-79d7-ec11-a7b6-000d3a9c947d',
-        msdyn_routedentityname: 'appointment'
-    }
-    
-    //Create record XRM call 
-    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-        function success(result) {
-            console.log("Record created with ID: " + result.id);
-            // perform operations on record creation 
-        },
-        function(error) {
-            console.log(error.message);
-            // handle error conditions 
-        }
-    );
-    ```
-
-- **Letter**
-
-    ```js
-    var data = {
-        msdyn_customeridentifiername: 'regardingobjectid',
-        msdyn_name: 'Preferred Agent Routed Entity',
-        msdyn_preferredagentroutedentityid: 'c9896fa2-98d7-ec11-a7b6-000d3a9c947d',
-        msdyn_routedentityname: 'letter'
-    }
-    
-    //Create record XRM call 
-    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-        function success(result) {
-            console.log("Record created with ID: " + result.id);
-            // perform operations on record creation 
-        },
-        function(error) {
-            console.log(error.message);
-            // handle error conditions 
-        }
-    );
-    ```
-
-- **Fax**
-
-    ```js
-    var data = {
-        msdyn_customeridentifiername: 'regardingobjectid',
-        msdyn_name: 'Preferred Agent Routed Entity',
-        msdyn_preferredagentroutedentityid: '43c91071-98d7-ec11-a7b6-000d3a9c947d',
-        msdyn_routedentityname: 'fax'
-    }
-    
-    //Create record XRM call 
-    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-        function success(result) {
-            console.log("Record created with ID: " + result.id);
-            // perform operations on record creation 
-        },
-        function(error) {
-            console.log(error.message);
-            // handle error conditions 
-        }
-    );
-    ```
-
-- **Phone call**
-
-    ```js
-    var data = {
-        msdyn_customeridentifiername: 'regardingobjectid',
-        msdyn_name: 'Preferred Agent Routed Entity',
-        msdyn_preferredagentroutedentityid: '307eef45-98d7-ec11-a7b6-000d3a9c947d',
-        msdyn_routedentityname: 'phonecall'
-    }
-    
-    //Create record XRM call 
-    Xrm.WebApi.createRecord("msdyn_preferredagentroutedentity", data).then(
-        function success(result) {
-            console.log("Record created with ID: " + result.id);
-            // perform operations on record creation 
-        },
-        function(error) {
-            console.log(error.message);
-            // handle error conditions 
-        }
-    ); 
-    ```
- 
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  
+[Blog: Use preferred agent routing to create lifelong customer relationships](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/06/use-preferred-agent-routing-to-create-lifelong-customer-relationships/)

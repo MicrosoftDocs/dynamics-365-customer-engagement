@@ -43,7 +43,7 @@ The flow should start with a call to the **msdyncrm_UpsertFile** custom action u
     - **msdyncrm_sastoken**: SAS token used for the upload
     - **msdyncrm_fileid**: ID of the newly created msdyncrm_file record
 
-- A PUT call is made to the Azure blob API using the provided **msdyncrm_bloburi** and **msdyncrm_sastoken** with the file content.
+- A PUT call is made to an endpoint provided by **msdyncrm_bloburi** with the file content.
 
 - After the upload is completed, an update to the **msdyncrm_file** record is performed to update **msdyncrm_rethumbnail** property to "true".
 
