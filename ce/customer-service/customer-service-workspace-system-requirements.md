@@ -12,6 +12,9 @@ manager: shujoshi
 
 This topic provides information about the prerequisites and system requirements for using Customer Service workspace in your organization.
 
+> [!NOTE]
+> The Customer Service workspace app is not supported on the Unified Service Desk framework.
+
 ## Prerequisites
 
 This section lists the prerequisites for using Customer Service workspace.
