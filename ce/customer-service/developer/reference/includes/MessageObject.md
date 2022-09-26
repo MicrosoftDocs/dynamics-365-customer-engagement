@@ -1,6 +1,6 @@
 ---
-title: "MessageObject in Omnichannel JavaScript API Reference | Microsoft Docs"
-description: "Learn abou the MessageObject in Omnichannel JavaScript API Reference."
+title: "MessageObject type in Omnichannel JavaScript API  | Microsoft Docs"
+description: "Learn about the MessageObject type used to send rich messages to the sendMessageToConversation method in Omnichannel JavaScript API."
 ms.date: 10/01/2022
 ms.topic: reference
 author: mh-jaya
@@ -8,17 +8,17 @@ ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
-# MessageObject
+# MessageObject type in Omnichannel JavaScript API
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-The following MessageObject can be used via the [sendMessageToConversation](sendMessageToConversation.md) method to allow the user to send rich messages directly within an open conversation within the Omnichannel for Customer Service app.
+The MessageObject can be used via the [sendMessageToConversation](../methods/sendMessageToConversation.md) method to allow the user to send rich messages directly within an open conversation within the Omnichannel for Customer Service app.
 
-Because Power Virtual Agents and Omnichannel for Customer Service platforms handle rich message processing differently, some string modification is necessary to get valid MessageObject strings that can be sent via the `sendMessageToConversation` method in the JavaScript Agent SDK. 
+Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid MessageObject strings that can be sent via the `sendMessageToConversation` method. 
 
 > [!Note]
-> - You must process the rich message payload before sending the rich messages to conversation, otherwise the method will send the desired rich object payload in String format.
-> - Sending the Forms rich message is not currently supported.
+> - You must process the rich message payload before sending the rich message to the conversation, otherwise the method will send the desired rich object payload in String format.
+> - You cannot send Forms rich message to conversations.
 
 ## Retrieve the rich message payload
 

@@ -16,7 +16,7 @@ This function can be used to send messages to a conversation.
 
 > [!Note]
 > - The conversation must be assigned to the agent that's logged in.
-> - Supported messages include only string literals and valid rich object JSON.
+> - Supported messages include only string literals and valid rich object JSON. More information: [MessageObject](../includes/MessageObject.md) 
 
 ## Syntax
 
@@ -26,7 +26,7 @@ This function can be used to send messages to a conversation.
 
 | Parameter         | Type    | Description |
 | ----------------- | ------- | ----------- |
-| message           | String or [MessageObject](MessageObject.md)   | Indicates the message to be sent to a conversation. | 
+| message           | String or [MessageObject](../includes/MessageObject.md)   | Indicates the message to be sent to a conversation. | 
 | toSendBox         | Boolean  | Determines if the message is sent to sendBox or directly to the conversation. |
 | liveWorkItemId    | String  | Unique identifier of the conversation to which the message is to be sent. |
 
