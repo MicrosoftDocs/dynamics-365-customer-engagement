@@ -100,7 +100,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
   
     - In the **EMAIL SETTINGS** section, you can do the following:
       - Select a value in the **Convert Incoming Email To Activities** dropdown list to set the type of messages that you want to track as activities.
-      - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue.
+      - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. See: [Add a default signature for a queue](add-signature-template-queue.md)
   
 4. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.

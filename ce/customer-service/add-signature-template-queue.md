@@ -1,5 +1,5 @@
 ---
-title: Add a default signature template to a queue | MicrosoftDocs
+title: Configure a default signature template for a queue | MicrosoftDocs
 description: "Learn how to set up email signature templates for queues."
 ms.date: 09/26/2022
 ms.topic: article
@@ -24,11 +24,9 @@ searchScope:
   - Customer Service
 ---
 
-# Configure a default signature template for a queue
+# Add a default signature template to a queue
 
 You can add a default signature template for a queue to ensure that emails sent with the queue as the sender have consistent email signatures. When you send an email with the queue as the sender or reply to messages received by the queue, the default signature is added to the body of email. If you don't specify a default signature template for a queue, the application defaults the signature associated with the owner of the queue.
-
-More information: [Add an email signature](#add-an-email-signature)
 
 You can set up a default email signature for a queue as follows:
 
