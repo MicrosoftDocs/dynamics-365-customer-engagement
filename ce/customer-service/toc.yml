@@ -981,9 +981,9 @@
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
       - name: Configure customization of reports 
-        - name: Configure visual customization of historical analytics reports
+        - name: Visual customization of historical analytics reports in Customer Service
           href: customize-reports.md
-        - name: Configure model customization of historical analytics reports
+        - name: Model customization of historical analytics reports in Customer Service
           href: model-customize-reports.md
         - name: Enable supervisor settings
         items:
