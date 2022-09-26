@@ -12,29 +12,43 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-The MessageObject can be used via the [sendMessageToConversation](../methods/sendMessageToConversation.md) method to allow the user to send rich messages directly within an open conversation within the Omnichannel for Customer Service app.
+The MessageObject type that's used in the [sendMessageToConversation](../methods/sendMessageToConversation.md) method lets you send rich messages directly to an open conversation in Omnichannel for Customer Service.
 
-Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid MessageObject strings that can be sent via the `sendMessageToConversation` method. 
+Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid MessageObject type strings that can be sent via the `sendMessageToConversation` method. 
 
-> [!Note]
-> - You must process the rich message payload before sending the rich message to the conversation, otherwise the method will send the desired rich object payload in String format.
-> - You cannot send Forms rich message to conversations.
+> [!Important]
+> You must process the rich message payload before sending the rich message to the conversation, otherwise the method will send the desired rich object payload in String format.
 
 ## Retrieve the rich message payload
 
-1. Open Customer Service admin center with a Dynamics 365 user that has the Omnichannel Administrator role configured.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
+     1. In the site map, select **Productivity** in **Agent experience**.
+     2. On the **Productivity** page, select **Manage** for **Rich messages**.
 
-2. Select **Productivity** under **Agent experience**, and then select **Manage** next to **Rich messages**. The list of all available list messages is displayed.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-3. Select a rich message that you'd like to send using the Afterwards all of the organization's configured rich messages should be available, click the one which you would like to send using th `sendMessageToConversation` method.
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
+
+1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.
 
 4. Select the **Details** tab and select **Copy** under the **Rich message JSON** field. 
 
-You'll use this value in the examples provided in the following section.
+You'll use this JSON value when you format the rich message types .
 
-## Formatting
+## Format rich message types
 
-### Example 1: Apple Pay
+This section includes JSON samples for the rich message types available in the Apple Messages for Business channel the Omnichannel for Customer Service. More information: [Manage rich messages](/create-rich-messages#manage-rich-messages-for-apple-messages-for-business)
+
+[!Note]
+> You cannot send Forms rich message to conversations.
+
+## Format different types of rich messages
+
+This section lists JavaScript code snippets that you can use to parse rich messages for various rich message types in Apple Message for Business.
+### Apple Pay
 
 ```javascript
 let applePayJSON = // <copy_and_paste_details_content>
@@ -50,7 +64,7 @@ Microsoft.Omnichannel.sendMessageToConversation(applePayJSON, false);
 copy(applePayJSON);
 ```
 
-### Example 2: Authentication
+### Authentication
 
 ```javascript
 let authJSON = // <copy_and_paste_details_content>
@@ -64,7 +78,7 @@ Microsoft.Omnichannel.sendMessageToConversation(authJSON, false);
 copy(authJSON);
 ```
 
-### Example 3: Custom JSON (iMessage Application)
+### Custom JSON (iMessage Application)
 
 ```javascript
 let customJSON = // <copy_and_paste_details_content>
@@ -80,7 +94,7 @@ Microsoft.Omnichannel.sendMessageToConversation(customJSON, false);
 copy(customJSON);
 ```
 
-### Example 4: List picker
+### List Picker
 
 ```javascript
 listPickerJSON = // <copy_and_paste_details_content>
@@ -94,7 +108,7 @@ Microsoft.Omnichannel.sendMessageToConversation(listPickerJSON, false);
 copy(listPickerJSON);
 ```
 
-### Example 5: Suggested reply
+### Suggested Reply
 
 ```javascript
 suggestedReplyJSON = // <copy_and_paste_details_content>
@@ -108,7 +122,7 @@ Microsoft.Omnichannel.sendMessageToConversation(suggestedReplyJSON, false);
 copy(suggestedReplyJSON);
 ```
 
-### Example 6: Time picker
+### Time Picker
 
 ```javascript
 timePickerJSON = // <copy_and_paste_details_content>
@@ -122,7 +136,7 @@ Microsoft.Omnichannel.sendMessageToConversation(timePickerJSON, false);
 copy(timePickerJSON);
 ```
 
-### Example 7: Video rich link
+### Video Rich Link
 
 ```javascript
 videoRichLinkJSON = // <copy_and_paste_details_content>
@@ -136,7 +150,7 @@ Microsoft.Omnichannel.sendMessageToConversation(videoRichLinkJSON, false);
 copy(videoRichLinkJSON);
 ```
 
-### Example 8: Website rich link
+### Website Rich Link
 
 ```javascript
 websiteRichLinkJSON = // <copy_and_paste_details_content>

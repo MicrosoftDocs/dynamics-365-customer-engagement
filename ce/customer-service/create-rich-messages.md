@@ -1,7 +1,7 @@
 ---
-title: "Create rich messages | MicrosoftDocs"
-description: "This article provides steps to help you create rich messages in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+title: "Manage rich messages | MicrosoftDocs"
+description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
+ms.date: 10/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,33 +9,38 @@ manager: shujoshi
 ---
 
 
-# Create rich messages
+# Manage rich messages
 
-Some channel apps such as Apple Messages for Business support a set of channel-specific rich messages. Rich messages contain information that is used to generate interactive content and experiences that all take place within the messages application.
+Some channel apps such as Apple Messages for Business support a set of custom rich messages. Rich messages contain information that can be used to generate interactive content and experiences that take place within the messages application.
 
-By creating and publishing rich messages, your organization's customer support team can send them to customers, and their contents can be used when designing automated experiences. For information about using rich messages in Omnichannel for Customer service, see [Rich messages in conversation control]().
+By creating and publishing channel-specific rich messages, your organization's customer support team can send them to customers, and their content can be used when designing automated experiences. For information about using rich messages in Omnichannel for Customer service, see [Rich messages in conversation control](rich-messages-conversation-control.md).
 
-## Manage rich messages for Apple Messages for Business
+## Create rich messages for Apple Messages for Business
 
-### Rich messages designer
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
+     1. In the site map, select **Productivity** in **Agent experience**.
+     2. On the **Productivity** page, select **Manage** for **Rich messages**.
 
-1. In **Omnichannel admin center**, navigate to **Agent experience** under the **Advanced Settings**.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-1. Under agent experiences, locate **Rich messages**, and select **Manage**.
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
 
 1. Select **New**, and then enter the following information:
-    - **Name**: A descriptive name that will be used by agents when searching for rich messages.
+    - **Name**: A descriptive name that'll be used by agents to search for rich messages.
     - **Locale**: The language of the rich message. Rich messages are filtered by locale within agent sessions.
     - **Type**:
       - Apple Pay
       - Authentication
       - Custom JSON
-      -	Forms
-      -	List Picker
-      -	Suggested Reply
-      -	Time Picker
-      -	Video Rich Link
-      -	Website Rich Link
+      - Forms
+      - List Picker
+      - Suggested Reply
+      - Time Picker
+      - Video Rich Link
+      - Website Rich Link
    - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. This will help agents identify the correct rich message when searching.
    - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which don't affect the original rich message made here. Agent editing can be enabled for the following rich message types:
       - List picker
@@ -584,5 +589,5 @@ Within the designer, the first fields are related to the message that appears wi
 [Templates](/dynamics365/app-profile-manager/templates-overview)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-
+[sendMessageToConversation JavaScript method](../customer-service/developer/reference/methods/sendMessageToConversation.md)
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
