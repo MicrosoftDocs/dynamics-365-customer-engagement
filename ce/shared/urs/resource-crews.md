@@ -2,15 +2,15 @@ Resource crews allow dispatchers to search and schedule multiple resources at on
 
 Crews are ideal for scenarios where:
 
-- a group of resources will work together for a set number of days, weeks, or months.
+- a group of resources will work together for a period of time.
 - a crew meets at a location in the morning, shares a vehicle, and is together all day from job to job.
-- a new employee is shadowing a veteran to learn new skills.
+- a new employee is shadowing an experienced co-worker to learn new skills.
 
 **The primary use case** for booking crews is scheduling a requirement group with multiple requirements to multiple resources, though single requirements can be manually scheduled to crews as well.
 
 **Without crews**, dispatchers can schedule the same requirements multiple times manually by using the schedule board (or with the schedule assistant), but that takes more time. If your scenario involves assembling resources together for one job, and then disbanding everyone, crew scheduling isn't applicable.
 
-Scheduling a crew automatically creates bookings for all crew members; rescheduling bookings will reschedule all crew bookings according to cascading settings on the bookings.
+Scheduling a crew automatically creates bookings for all crew members. Rescheduling bookings will reschedule all crew bookings according to cascading settings on the bookings.
 
 In this article, we'll walk through how to use resource crews.
 
@@ -19,56 +19,58 @@ In this article, we'll walk through how to use resource crews.
 - Field Service v8.0+
 - Universal Resource Scheduling v3.0+
 
-## Instructions
+## Create a Crew
 
-### 1. Create a "crew" resource type
+A crew consists of a bookable resource with the resource type "Crew". The crew resource serves as a container for the crew, and child resources who are the members of the crew for a given time frame.
 
-A crew consists of a crew resource. The crew resource serves as a container for the crew, and child resources who are the members of the crew for a given time frame.
+1. In Field Service or Resource Schedultin, change to the **Resources** area.
 
-To create a crew resource, navigate to **Universal Resource Scheduling > Resources > +New** and set the resource type to **Crew**.
+1. In the **Resource** section, go to **Resources** and select **New**.
 
-On the **General** tab, assign a **Name**.
+1. Choose **Crew** as the **Resource Type**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Bookable Resource with Resource Type set to Crew.](../../common-scheduler/media/scheduling-crew-header.png)
+1. Provide a **Name** and choose the **Time Zone** for the crew.
 
-You can also assign a **Crew Strategy.** Crew strategy determines how the crew manages its work. There are three options:
+1. Choose a **Crew Strategy**. For more information, go to [Crew strategy options](#crew-strategy-options).
 
-- **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. It's the ideal option when a crew is made up of one user and the rest of the crew is equipment.
-- **Crew Leader Management**: A designated person (or persons) can manage the work of a crew. Consider this option when a crew is made up of multiple users. You can designate more than one person to be a leader and manage the work.
+   :::image type="content" source="../../common-scheduler/media/scheduling-crew-header.png" alt-text="Screenshot of a bookabble resource set to crew.":::
+
+1. On the **Scheduling** tab, set the **Start Location** and **End Location**. For detailed descriptions of the location options, go to [Set up bookable resources](../../field-service/set-up-bookable-resources.md).
+
+1. Select **Save**.
+
+### Crew strategy options
+
+The crew strategy determines how the crew manages its work. There are three options:
+
+- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew is made up of multiple people. You can designate more than one user to be a leader and manage the work.
 - **Crew Member Self-Management**: Resources can manage their own work. Choose this option for crews that are made up of users who regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work.
+- **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. It's the ideal option when a crew is made up of one user and the rest of the crew is equipment.
 
 > [!NOTE]
 > The logic associated with crew strategies will only impact work order related bookable resource bookings.
 >
-> Crew strategies affect if and how a crew booking is rescheduled. For instance, if a crew leader's bookings are moved, then all bookings are moved.
+> Crew strategies affect if and how a crew booking is rescheduled. For instance, if a crew leader's bookings change, all bookings of the crew are moved.
 
-On the **Schedule** tab, set the **Start Location** and **End Location**.
+## Add resource children to a crew
 
-Start and end location must be the same and can be set to either:
+Relate other bookable resources to the crew as crew members. If not done already, [create the bookable resources](../../field-service/set-up-bookable-resources.md).
 
-- **Location Agnostic**, meaning the crew only appears as a schedule assistant option for location agnostic requirements; related bookings won't include any travel time.
-- **Organizational Unit Address**, meaning the crew shows as available for onsite work; however, routing and travel times are calculated at the individual level based on each crew member's start and end location. The organizational unit must be geocoded.
+1. Open the Crew resource. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Crew Bookable Resource with Start and End Location set to Organizational Unit.](../../common-scheduler/media/scheduling-crew-organizational-unit.png)
+1. Select **Related > Resource's Children**.
 
-### 2. Add resource children to the crew
+1. Select **New Bookable Resource Group**.
 
-Now that the crew resource exists, we'll relate other bookable resources to the crew as crew members. First, create the bookable resources and set up the profile to include working hours, characteristics, start/end location, etc.
+1. Choose the **Child Resource** and set the data range when the resource will be part of the crew.
 
-Then from the crew header, go to **Related > Resource Children** to link each bookable resource as a child resource to the crew.
+1. Select **Save & Close**.
 
-Resource crews are set up on the **bookableresourcegroup** entity.
+:::image type="content" source="../../common-scheduler/media/scheduling-crew-resource-children.png" alt-text="Screenshot of child resources of a resource crew.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot associating resources to a crew.](../../common-scheduler/media/scheduling-crew-resource-children.png)
+## Add the crew to the schedule board
 
-Add a **Date Range** to indicate when each resource will be part of the crew. It can be variable for each resource.
-
-### 3. Add the crew to the schedule board
-
-Crew members are also visualized on the schedule board as any resource would be.
+Crew members are visualized on the schedule board like any other resource.
 
 Add crews to the schedule board by changing schedule board filters to match the service territory, roles, business unit, characteristics etc. of the crew header. Or, manually add the crew to the board from **Options > Select Resources**.
 
@@ -80,21 +82,15 @@ For example, if a schedule board has filters set for a territory, and the crew h
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a crew resource on the Schedule Board with a different icon and a count of how many resources are a part of the crew.](../../common-scheduler/media/scheduling-crew-add-schedule-board.png)
 
-Crew resources have a different resource cell layout on the schedule board. You'll notice a different icon and a resource count indicating how many resources are in the crew during the range displayed on the schedule board.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a crew resource on the schedule board list view with different icon and a count of how many resources are a part of the crew.](../../common-scheduler/media/scheduling-crew-add-schedule-board2.png)
+Crew resources have a different visual representation on the schedule board. They use a different icon and the resource count indicating the crew size.
 
 On the hourly list view, you can expand the crew resource to see the members of the crew.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of hourly schedule board list view expanded to show the members of the crew in the date range displayed on the schedule board.](../../common-scheduler/media/scheduling-crew-add-schedule-board-expand.png)
+The time range a resource is part of a crew shows as a grey area on the board. It reminds dispatchers and resource managers that the resource is part of a crew. 
 
-The time range a resource is part of a crew shows as a grey area on the board. It helps dispatchers to:
+Keep in mind that booking changes likely has an effect of other bookings of the crew. 
 
-- Remind dispatchers and resource managers that the resource is part of a crew.
-- Understand that moving their bookings will likely affect other bookings because crew bookings are kept in sync unless specified otherwise.
-- Understand that scheduling a job to the resource without the crew will likely affect the crew’s ability to be matched for future jobs.
+Scheduling a job to a resource without the crew will likely affect the crew’s ability to be matched for other jobs.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing two crew members, Abraham and Allison with masks over their Schedule Board row with text that says "Part of Crew 1.](../../common-scheduler/media/scheduling-crew-schedule-board-block.png)
