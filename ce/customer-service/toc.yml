@@ -974,7 +974,7 @@
         href: configure-customer-service-analytics-dashboard.md
       - name: Configure case forecasting
         href: configure-volume-forecasting.md
-      - name: Configure agent forecasting for conversations
+      - name: Configure agent forecasting for conversation
         href: configure-agent-forecasting-conversation.md  
       - name: Configure AI topic clustering for conversation
         href: ai-topic-clustering-conversations.md
