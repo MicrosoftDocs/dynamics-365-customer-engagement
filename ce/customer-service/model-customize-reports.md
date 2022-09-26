@@ -85,11 +85,15 @@ To create a new workspace:
  1. Select **Create new workspace**.
  1. In the Create Power BI workspace dialog, provide a workspace name and select **Create**.
  1. Select **Save**. The report provisioning process is initiated.
- 
-> Note: 
-> The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.
 
-Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, otherwise it will lead to the report malfunction.
+> [!NOTE]
+> The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
+> Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, otherwise it will lead to the report malfunction.
+
+
+
+
+
  
 ### Step 2: Grant permissions for data set and reports
 
