@@ -39,7 +39,7 @@ By default, Customer Service workspace opens in the Customer Service Agent Dashb
 The Customer Service workspace app currently supports two layouts:
 
 - Default workspace
-- Enhanced multisession workspace(recommended) 
+- Enhanced multisession workspace (recommended) 
 
 You can switch to the enhanced layout with the following steps:
 
