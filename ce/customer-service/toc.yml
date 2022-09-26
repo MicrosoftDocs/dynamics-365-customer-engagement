@@ -438,6 +438,8 @@
         href: customize-insert-email-template.md
       - name: Enable the enhanced email template editor page
         href: cs-email-template-builder.md
+      - name: Configure a default signature template for a queue
+        href: add-signature-template-queue.md  
     - name: Agent experience
       items:
       - name: Use email
