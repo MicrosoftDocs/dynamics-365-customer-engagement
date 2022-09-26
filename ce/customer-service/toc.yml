@@ -453,7 +453,7 @@
       - name: Send email to multiple recipients
         href: /power-apps/user/direct-email?context=/dynamics365/context/customer-service-context
       - name: Resolve an unresolved email recipient
-        href: /power-apps/user/dunresolved-email-recipient?context=/dynamics365/context/customer-service-context
+        href: /power-apps/user/unresolved-email-recipient?context=/dynamics365/context/customer-service-context
       - name: Email templates
         items: 
         - name: Create an email template
