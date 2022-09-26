@@ -77,7 +77,7 @@ You need to enable the option to be able to extend the out of box Power BI data 
  
 Once you have enabled the **Embedded Power BI report extensibility - Historical data model customization (preview)** option, there are steps that you need to perform to complete the process.
  
-### Step 1: Select a Power BI workspace for historical analytics
+## Step 1: Select a Power BI workspace for historical analytics
 
 (Add a one-liner on why you need to do this step)
 
@@ -94,7 +94,7 @@ To create a new workspace:
 > The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
 > Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, otherwise it will lead to the report malfunction.
 
-### Step 2: Grant permissions for data set and reports
+## Step 2: Grant permissions for data set and reports
 
 Once the report provisioning process is complete, perform the following steps to grant authoring (read/write) permissions for power users and read permissions for supervisors.
 
@@ -117,11 +117,7 @@ Once the report provisioning process is complete, perform the following steps to
 
 :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
 
-
-
-
-
-### Step 3: Embed customized report from Power BI workspace to Dynamics 365
+## Step 3: Embed customized report from Power BI workspace to Dynamics 365
 
 On this step, you will be able to select the reports you want to see on the site map.
 
