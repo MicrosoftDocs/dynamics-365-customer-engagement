@@ -32,7 +32,7 @@ ms.custom:
 
 Customer service supervisors in your organization need to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction. 
 
-As an administrator, you can configure the Forecast report to help your supervisors plan the right level of staffing for your business based on predicted volumes of cases and conversations.
+As an administrator, you can configure the agent forecasting for conversations to help your supervisors plan the right level of staffing for your business based on predicted volumes of conversations.
 
 Supervisors can use the agent forecasting for conversation report in the following ways:
 
@@ -67,7 +67,7 @@ For users in your organization to be able to access the forecast reports they mu
 
 ## Enable the Agent forecasting for conversation (preview) report
 
-1. In the Customer Service admin center app, in **Operations**, select **Insights**. The Insights page is displayed.
+1. In the Customer Service admin center app, in **Operations**, select **Insights**. The **Insights** page is displayed.
 
 1. In the **Report settings** section, go to **Agent forecasting for conversation (preview)**, and then select **Manage**. The **Agent forecasting for conversation (preview)** page is displayed.
 
