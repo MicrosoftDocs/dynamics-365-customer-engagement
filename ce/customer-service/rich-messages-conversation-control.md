@@ -29,7 +29,7 @@ After launching the rich message panel by selecting the rich message icon or typ
 
 ## View and send rich messages
 
-When you find the rich message you want to send, you can click on the rich message to open it. This will open the **Rich Message Preview** application pane.
+When you find the rich message you want to send, you can select the rich message to open it. This will open the **Rich Message Preview** application pane.
 
    > [!div class=mx-imgBorder]
    > ![Rich Message Preview pane.](media/rich-messages-preview.png "Rich Message Preview pane")
@@ -55,7 +55,7 @@ The following rich messages support admin-enabled customization:
 ### See also
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
-[Create rich messages](create-rich-messages.md)  
+[Manage rich messages](create-rich-messages.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
