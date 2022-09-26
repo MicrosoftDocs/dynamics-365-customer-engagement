@@ -112,7 +112,7 @@ The data for the date range you selected is saved in an Excel spreadsheet. For t
 
 ### See also
 [Configure case forecasting](configure-volume-forecasting.md)<br>
-[Configure agent forecasting for conversations](configure-agent-forecasting-conversation.md)<br>
+[Configure agent forecasting for conversation](configure-agent-forecasting-conversation.md)<br>
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)<br>
 [Manage report bookmarks](manage-bookmarks.md)  
