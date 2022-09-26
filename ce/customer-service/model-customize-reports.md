@@ -90,11 +90,6 @@ To create a new workspace:
 > The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
 > Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, otherwise it will lead to the report malfunction.
 
-
-
-
-
- 
 ### Step 2: Grant permissions for data set and reports
 
 Once the report provisioning process is complete, perform the following steps to grant authoring (read/write) permissions for power users and read permissions for supervisors.
