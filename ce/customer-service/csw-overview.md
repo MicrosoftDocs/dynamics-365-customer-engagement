@@ -20,8 +20,9 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-The Dynamics 365 Customer Service workspace helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. The application leverages artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent velocity.
-Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
+The Dynamics 365 Customer Service workspace helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
+
+The application leverages artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent velocity. Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
 For more information about licensing and system requirements: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
