@@ -272,7 +272,7 @@
           href: real-time-marketing-multiple-branches.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated SMS keyword flow in customer journeys
+        - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
@@ -312,7 +312,7 @@
         href: real-time-marketing-move-triggers.md
       - name: Real-time marketing link tracking mechanics
         href: real-time-marketing-link-tracking-mechanics.md
-      - name: Manage SMS keywords used in customer journeys
+      - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
     - name: Developer
       items: 
