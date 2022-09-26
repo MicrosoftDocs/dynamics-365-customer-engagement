@@ -986,7 +986,7 @@
           href: customize-reports.md
         - name: Model customization of historical analytics reports in Customer Service
           href: model-customize-reports.md
-        - name: Enable supervisor settings
+      - name: Enable supervisor settings
         items:
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
