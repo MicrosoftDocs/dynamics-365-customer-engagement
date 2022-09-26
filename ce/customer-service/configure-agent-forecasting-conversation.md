@@ -77,7 +77,7 @@ For users in your organization to be able to access the forecast reports they mu
 
 1. After the report is generated for the first time, you’ll see a **Model run summary** section above **Basic forecasting configuration** that displays the date and time on which the forecast was last created. The time reflects your time zone. If you want to set a different default time zone, do the following steps:
 
-   a. Select the **Settings** (gear) icon in the top-right corner of the app, and then select **Personal Settings**. The **Set Personal Options page is displayed.
+   a. Select the **Settings** (gear) icon in the top-right corner of the app, and then select **Personalization Settings**. The **Set Personal Options** page is displayed.
    
    b. In **Set the time zone you are in**, choose the time zone you want from the dropdown menu.
    
