@@ -1,6 +1,6 @@
 ---
-title: "MessageObject type in Omnichannel JavaScript API  | Microsoft Docs"
-description: "Learn about the MessageObject type used to send rich messages to the sendMessageToConversation method in Omnichannel JavaScript API."
+title: "Retrieve and format rich messages  | Microsoft Docs"
+description: "Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API."
 ms.date: 10/01/2022
 ms.topic: reference
 author: mh-jaya
@@ -8,16 +8,13 @@ ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
-# MessageObject type in Omnichannel JavaScript API
+# Retrieve and format rich messages
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-The MessageObject type that's used in the [sendMessageToConversation](sendMessageToConversation.md) method lets you send rich messages directly to an open conversation in Omnichannel for Customer Service.
+Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method. You must process the rich message payload before sending it to the conversation, otherwise the method will send the desired rich object payload in plain `String` format.
 
-Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid MessageObject type strings that can be sent via the `sendMessageToConversation` method. 
-
-> [!Important]
-> You must process the rich message payload before sending the rich message to the conversation, otherwise the method will send the desired rich object payload in String format.
+This articles describes how you can programmatically retrieve and format rich messages that can then be passed using the `MessageObject` type to the `sendMessageToConversation` method.
 
 ## Retrieve the rich message payload
 
@@ -36,11 +33,11 @@ Because Power Virtual Agents and Omnichannel for Customer Service platforms proc
 
 4. Select the **Details** tab and select **Copy** under the **Rich message JSON** field. 
 
-You'll use this JSON value when you format the rich message types .
+You'll use this JSON value when you format the rich message types.
 
-## Format different types of rich messages
+## Format rich messages
 
-This section includes JSON samples for the rich message types available in the Apple Messages for Business channel the Omnichannel for Customer Service. More information: [Manage rich messages](/create-rich-messages#manage-rich-messages-for-apple-messages-for-business)
+This section includes JSON samples for the rich message types available in the Apple Messages for Business channel in Omnichannel for Customer Service. More information: [Manage rich messages](/create-rich-messages#manage-rich-messages-for-apple-messages-for-business)
 
 [!Note]
 > You can't send Forms rich message to conversations.
