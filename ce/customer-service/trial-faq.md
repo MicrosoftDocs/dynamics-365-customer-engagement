@@ -57,7 +57,7 @@ More information: [Dynamics 365 Customer Service pricing](https://dynamics.micro
 
 ### How do I remove sample data from the trial instance?
 
-Your trial environment is curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because it's a real environment, you can manually add or delete individual data records in your trial environment as you want. You can't do a bulk delete of the sample data and configurations from the trial environments.
+Your trial environment is curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is available to ensure all features are fully illustrated for you. You can learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because it's a real environment, you can manually add or delete individual data records in your trial environment as you want. You can't do a bulk delete of the sample data and configurations from the trial environments.
 
 ### How do I reset or reimport sample data?
 
@@ -65,9 +65,9 @@ Sample data comes with the trial environment and experience. To get a fresh data
 
 ### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?
 
-You can use your personal email ID. But you won't be able to use the following features if you use personal email ID:
+You can use a personal email ID. But you won't be able to use the following features if you use your personal email ID:
 
-- Access Power Platform admin center to add more users to the trial, change security roles, or extend the trial.
+- Access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
 - Customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Power Virtual Agents designer.
 
 ### Which geographical regions are supported in the trial version of Customer Service and Omnichannel for Customer Service?
