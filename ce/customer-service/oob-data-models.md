@@ -17,7 +17,7 @@ search.app:
 ---
 
 # Data model and report mapping for historical analytics reports in Customer Service
-The topic describes the out of box data model and report mapping for historical reports.
+The topic describes the out-of-the-box data model and report mapping for historical reports.
 
 ## Customer service manager analytics
 
@@ -372,10 +372,10 @@ Use the Dynamic_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file 
 
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
-|FactVoiceMail	|Voice mail id	|Primary key|
+|FactVoiceMail	|Voice mail ID	|Primary key.|
 |FactVoiceMail	|Owner system user ID | User ID. Foreign key to DimSystemUser.|
 |FactVoiceMail	|Queue ID	| Queue ID. Foreign key to DimQueue. |
-|FactVoiceMail|Created on	|Created datetime of voicemail |
+|FactVoiceMail|Created on	|The date and time when the voice mail was created. |
 |FactVoiceMail	|Incoming voicemails| Count of the open and closed voice mails.|
 |FactVoiceMail	|Closed voicemails	| Count of the closed voice mails.|
 |FactVoiceMail	|Open voicemails	| Count of the open voice mails.|
@@ -397,45 +397,45 @@ Use the Dynamic_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to make
 
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
-|FactConversation	|Conversation outcome	|Conversation outcome based on the involvement of bot, and human agent. Currently support "bot escalated", "bot deflected", "direct agent conversations".|
+|FactConversation	|Conversation outcome	|Conversation outcome based on the involvement of bot and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".|
 |DimBot	|Bot ID| Bot ID|
 |DimBot	|Bot name| Bot name |
-|FactCustomerSupportJourney|Source	|The source of one step on the customer support journey graph. Example, "interaction", "bot escalated","direct agent connection","agent assigned" . |
+|FactCustomerSupportJourney|Source	|The source of one step on the customer support journey graph. Examples are "interaction", "bot escalated","direct agent connection", and "agent assigned" . |
 |FactCustomerSupportJourney	|Destination| The destination of one step on the customer support journey graph. |
 |FactCustomerSupportJourney	|Total count	| The total count for one step on the customer support journey, from source to destination. |
-|FactCustomerSupportJourney	|Topic ID	| Topic id. Foreign key to DimTopic. |
-|	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of bot, and human agent. Currently support "bot escalated", "bot deflected", "direct agent conversations".
+|FactCustomerSupportJourney	|Topic ID	| Topic ID. Foreign key to DimTopic. |
+|	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of bot and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".
 |FactBotSession	|Abandoned session rate| Abandon rate |
-|FactBotSession	|Avg. escalation time (min)	| The time bot needed to escalated |
-|FactBotSession|Avg. deflection time (min)	|The time bot needed to deflected |
-|FactBotSession	|Bot CSAT| CSAT score for bot, averaged |
-|FactBotSession	|Bot Id	| Bot id, pk to Dimbot |
-|FactBotSession|Bot session id	|Bot session id, pk|
+|FactBotSession	|Avg. escalation time (min)	| The time required by the bot to escalate. |
+|FactBotSession|Avg. deflection time (min)	|The time required by the bot deflect.|
+|FactBotSession	|Bot CSAT| CSAT score for bot at an average. |
+|FactBotSession	|Bot Id	| Bot ID, PK to Dimbot |
+|FactBotSession|Bot session ID	|Bot session ID, PK|
 |FactBotSession	|Bot topic| The topic of this bot session |
-|FactBotSession	|Conversation title	| The title of associated conversation |
-|FactBotSession|Conversation deflected	|The total conversation was deflected |
-|FactBotSession|Conversation escalated	|The total conversation was escalated |
+|FactBotSession	|Conversation title	| The title of the associated conversation |
+|FactBotSession|Conversation deflected	|The total conversation was deflected. |
+|FactBotSession|Conversation escalated	|The total conversation was escalated. |
 |FactBotSession|Conversation ID	|Identifier of the related conversation record.  |
-|FactBotSession|Conversation URL	|TThe url of the related conversation |
-|FactBotSession|Bot deflection rate	|The rate of conversation were deflected |
-|FactBotSession|Engaged sessions rate	|The engagement rate of bot sessions |
-|FactBotSession|Bot escalated topic|The escalated topic of bot conversations |
-|FactBotSession|Bot escalation rate|The rate of conversation were bot escalated |
-|FactBotSession|Escalated sessions rate	|Escalation rate, based on bot sessions |
-|FactBotSession|Is bot engaged	|Indicate if the a bot is enaged in this session |
-|FactBotSession|Conversation queue id	|Queue id. Foreign key to DimQueue. |
-|FactBotSession|Resolved session rate	|Resolution rate, based on bot sessions |
-|FactBotSession|Bot sessions abandoned|Bot session abandoned |
-|FactBotSession|Bot sessions escalated|Bot session escalated |
-|FactBotSession|Bot sessions engaged|Bot session engaged |
-|FactBotSession|Bot sessions resolved|Bot session resolved|
-|FactBotSession|Session Outcome|Bot session outcome|
-|FactBotSession|Avg. sessions per conversation|Average number of bot sessions per conversation |
-|FactBotSession|Bot session unengaged|Bot sessions not engaged|
-|FactBotSession|Total sessions|Total bot sessions |
-|FactBotSession|Total conversations|Total conversations associated with bots |
-|FactBotSession|Session ID|The related oc session id.  |
-|FactBotSession|Topic ID|Topic id. Foreign key to DimTopic.  |
+|FactBotSession|Conversation URL	|The URl of the related conversation. |
+|FactBotSession|Bot deflection rate	|The rate at which the  conversations were deflected. |
+|FactBotSession|Engaged sessions rate	|The engagement rate of bot sessions. |
+|FactBotSession|Bot escalated topic|The escalated topic of bot conversations. |
+|FactBotSession|Bot escalation rate|The rate at which the conversations were escalated by the bot. |
+|FactBotSession|Escalated sessions rate	|Escalation rate based on bot sessions. |
+|FactBotSession|Is bot engaged	|Indicate if the bot is engaged in this session. |
+|FactBotSession|Conversation queue id	|Queue ID. Foreign key to DimQueue. |
+|FactBotSession|Resolved session rate	|Resolution rate based on bot sessions. |
+|FactBotSession|Bot sessions abandoned|Bot session abandoned. |
+|FactBotSession|Bot sessions escalated|Bot session escalated. |
+|FactBotSession|Bot sessions engaged|Bot session engaged. |
+|FactBotSession|Bot sessions resolved|Bot session resolved.|
+|FactBotSession|Session Outcome|Bot session outcome.|
+|FactBotSession|Avg. sessions per conversation|Average number of bot sessions per conversation. |
+|FactBotSession|Bot session unengaged|Bot sessions not engaged.|
+|FactBotSession|Total sessions|Total bot sessions. |
+|FactBotSession|Total conversations|Total conversations associated with bots. |
+|FactBotSession|Session ID|The related Omnichannel session ID.  |
+|FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
 
 ### See also
 
