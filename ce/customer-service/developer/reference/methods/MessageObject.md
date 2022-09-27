@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-The MessageObject type that's used in the [sendMessageToConversation](../methods/sendMessageToConversation.md) method lets you send rich messages directly to an open conversation in Omnichannel for Customer Service.
+The MessageObject type that's used in the [sendMessageToConversation](sendMessageToConversation.md) method lets you send rich messages directly to an open conversation in Omnichannel for Customer Service.
 
 Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid MessageObject type strings that can be sent via the `sendMessageToConversation` method. 
 
@@ -164,6 +164,6 @@ copy(websiteRichLinkJSON);
 
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
-[sendMessageToConversation](reference/methods/sendMessageToConversation.md)
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
