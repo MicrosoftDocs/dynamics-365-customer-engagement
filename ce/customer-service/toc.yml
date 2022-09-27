@@ -986,7 +986,7 @@
           href: customize-reports.md
         - name: Model customization of historical analytics reports in Customer Service
           href: model-customize-reports.md
-        - name: Data model for historical analytics reports in Customer Service
+        - name: Data model and report mapping for historical analytics reports
           href: oob-data-models.md
       - name: Enable supervisor settings
         items:

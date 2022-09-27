@@ -151,13 +151,11 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 ## Data model and report mapping
 
-
-
 For more information on data model and report mapping, see: [Data model and report mapping for historical analytics reports in Customer Service](oob-data-models.md#data-model-and-report-mapping-for-historical-analytics-reports-in-customer-service)
 
 ### See also
 
-[Visual customization of historical analytics reports in Customer Service](customize-reports.md#visual-customization-of-historical-analytics-reports-in-customer-service)
+[Visual customization of historical analytics reports in Customer Service](customize-reports.md#visual-customization-of-historical-analytics-reports-in-customer-service)  
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md) <br>
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
