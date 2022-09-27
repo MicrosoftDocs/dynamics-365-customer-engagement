@@ -74,3 +74,4 @@ Microsoft.Omnichannel.LiveChatWidget.SDK.setBotAuthTokenProvider(async (botToken
 
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[setBotAuthTokenProvider method](developer/reference/methods/setBotAuthTokenProvider.md)

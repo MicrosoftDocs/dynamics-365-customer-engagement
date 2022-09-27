@@ -1524,6 +1524,8 @@
           href: developer/reference/methods/removeContextProvider.md
         - name: setAuthTokenProvider
           href: developer/reference/methods/setAuthTokenProvider.md
+        - name: setBotAuthTokenProvider
+          href: developer/reference/methods/setBotAuthTokenProvider.md
         - name: getAuthTokenProvider
           href: developer/reference/methods/getAuthTokenProvider.md
         - name: removeAuthTokenProvider
