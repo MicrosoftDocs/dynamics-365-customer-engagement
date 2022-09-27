@@ -23,7 +23,7 @@ The topic describes the out of box data model and report mapping for historical 
 
 ### Report mapping
 
-Harry to provide info.
+**Harry to provide info.**
 
 ### Data model
  
@@ -239,7 +239,6 @@ Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edi
 ### Report mapping
 
 Use the Dynamic_365_Customer_Service_Omnichannel_voice_analytics.pbix file to make edits to the Voice report.
-
 
 ### Data model
 
