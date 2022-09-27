@@ -62,37 +62,42 @@ Capture a work order quickly as a template.
 
 1. Select **Create Incident Type** to save the template.
 
-### From the incident type form and record list
+### From the incident type form
 
-To create an incident type, go to **Field Service** > **Settings** > **Incident Types** > **+New**.
+Create incident types from scratch.
 
-Enter a **Name** and a **Description**.
+1. In Field Service, change to the **Settings** area.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new incident type.](./media/work-order-incident-type-general.png)
+1. In the **Work Orders** section, select **Incident Types**.
 
-On the **Details** tab, see the following fields:
+1. Select **New**.
 
-- **Default Work Order Type**: The work order type selected here will populate the work order type field on the work order when this incident type is entered as the primary incident type. It will overwrite previously entered work order types. Entering a work order type won't populate an incident type.
+1. On the **General** tab, provide a **Name** and an optional **Description**.
 
-  > [!NOTE]
-  > A default price list can be added to a work order type. This means you can add a primary incident type that adds a work order type and the work order type will add a price list. This further saves time with automatic data population.
+   :::image type="content" source="media/work-order-incident-type-general.png" alt-text="Screenshot of a new incident type.":::
 
-- **Estimated Duration**: Enter a duration for this incident type. If you add multiple incidents to a work order, the work order duration will be the total of all incident durations as reflected in the resource requirement related to the work order. Service tasks can also each have a duration, in which case the estimated duration of the incident type will be the sum total of the incident service task durations. The only way you can use the estimated duration field as the duration of the incident type is if you don't add incident type service tasks, or none of the incident type service tasks you add have durations. If this incident type is set as the primary incident type of a work order, this value will populate the primary incident type duration field.
+1. On the **Details** tab, set the values.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of incident type entity showing the details tab.](./media/work-order-incident-type-details.png)
+   :::image type="content" source="media/work-order-incident-type-details.png" alt-text="Screenshot of incident type entity showing the details tab.":::
 
-- **Copy Incident Items to Agreement**: This setting is only important for when you use incident types as part of agreements. It dictates if agreement "items" including service tasks, products, services, and characteristics (skills) should be added when this incident is added to the agreement. For more information, see the configuration considerations section at the end of this article.
+   - **Default Work Order Type**: The work order type that applies to a work order when a users chooses this incident type.
 
-After setting basic details for the incident type, consider also adding:
+     > [!NOTE]
+     > You can add a default price list to a work order type. Incident types using that work order type also use the related price list, which saves time filling in price data.
 
-- Recommended products and services that field technicians might need to complete the incident type.
-- Service tasks to guide field technicians through a checklist of tasks.
-- Characteristics (skills) that will help schedulers find the right resources to perform work orders that this incident type is added to. When this incident type is added to a work order, the related items will be added as well.
+   - **Estimated Duration**: The duration for this incident type. If related service tasks have a duration, the incident type duration is the sum of the service task durations. A work order duration is the sum of all incident durations. You can only set an estimated duration, if no service task gets added or the added service tasks have no duration set.
 
-### Incident type product
+   - **Copy Incident Items to Agreement**: This setting only applies to incident types that are used as part of [customer agreements](set-up-customer-agreements.md). It specifies if the system copies agreement items like service tasks, products, services, or characteristics to an agreement that uses this incident type. Considerations:
 
+     - An incident in an agreement can differ from the incident you use for individual work orders. For example, normally the incident requires 60 minutes to complete. For the agreement, you negotiated with the customer 2 hours of a service. Rather than creating a second incident type for the agreement, set **Copy Incident Items to Agreement** to **No**. Add the incident to the agreement and manually add the required service tasks, product, and services. Set this option to **Yes** and the incident items will be added to the agreement and you make slight variations from there. Using the same incident type can help with reporting.
+
+     - Add incidents to agreements for recurring work to generate work orders with related work order incidents. However, incident types can be updated as processes and procedures change. Since agreements can span multiple months or years, changes on the incident types can result in different work being performed than originally intended. Set the option to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** to use the latest incident type details when the [agreement generates work orders](configure-default-settings.md#agreement-settings).
+
+1. Select **Save** to create the *Incident Type* record.
+
+## Add incident type products
+
+Recommended products and services that field technicians might need to complete the incident type.
 Next, add an incident type product by going to the product tab and selecting **+New Incident Type Product**.
 
 Select a **Product** and **Unit**.
@@ -108,8 +113,9 @@ For scenarios where multiple products are added as part of an incident type, **L
 
 Because the **Description** field can be communicated to the customer or even be customized to appear on an invoice, there's also an **Internal Description** to provide additional details for the field technician.
 
-### Incident type service
+## Add incident type services
 
+Recommended products and services that field technicians might need to complete the incident type.
 Similar to incident type products, add incident type services.
 
 > [!div class="mx-imgBorder"]
@@ -117,8 +123,9 @@ Similar to incident type products, add incident type services.
 
 The only difference between incident type products and services is that instead of quantity, there's a **Duration** field to represent the service time because a service represents labor and not a physical part.
 
-### Incident type service tasks
+## Add incident type service tasks
 
+Service tasks to guide field technicians through a checklist of tasks.
 Next, go to **Service Tasks** and select **+New Incident Type Service Task**.
 
 Select a **Task Type** or create a new one in the system.
@@ -137,8 +144,9 @@ After adding multiple service tasks, they'll display in the incident service tas
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the incident types list.](./media/work-order-incident-types-service-task-list.png)
 
-### Incident type characteristics
+## Add incident type characteristics
 
+Characteristics (skills) that will help schedulers find the right resources to perform work orders that this incident type is added to. When this incident type is added to a work order, the related items will be added as well.
 Next, you can associate characteristics (skills) to incident types in order to define the skill set needed to perform the incident type. Characteristics are also added to resources (field technicians), which helps the system match work order incidents with the best resources who can do the job. When this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the associated characteristics.
 
 > [!NOTE]
@@ -342,23 +350,7 @@ Once a suggestion is either applied or disliked, it will ensure that particular 
 
 ## Configuration considerations
 
-- The **Copy Incident Items to Agreement** field during the incident type setup is important for two reasons:
 
-  - The incident you would like to add to an agreement might be slightly different than the incident you would add to a single work order that's not part of an agreement. For example, normally the incident would require 1 hour of a service, but for the agreement, you negotiated with the customer 2 hours of a service. Rather than having to create a second incident type just for this agreement, you can set **Copy Incident Items to Agreement** to **No**, add the incident to the agreement, then manually add the specific service tasks, product, services, and so on. This way you can use the same incident type, which helps for reporting later on. Set this option to **Yes** and the incident items will be added to the agreement and you can accept these items or make slight variations from there.
-
-    If set to **Yes**, agreement items will be created.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of an agreement booking setup record, on the Services tab, with a listed service.](./media/work-order-incident-types-copy-incident-agreement-YES.PNG)
-
-    If set to **No**, they won't.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of an agreement booking setup record, on the Services tab, with no listed services.](./media/work-order-incident-types-copy-incident-agreement-NO.PNG)
-
-  - Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier in this article, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed than originally intended at the end of the agreement.
-  
-    Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on **Agreement Booking Setup**.
   
 - There's a **Resolution** tab on the **Work Order Incident** to document whether the incident was completed.
 - When adding multiple incident types to a work order, if doing so adds two or more of the same characteristics (skill), the scheduling logic will use the most restrictive of the skills to match resources. For example, if one incident type adds the characteristic "Spanish" with a "Good" rating value, and another incident adds "Spanish" with an "Excellent" rating value, the schedule assistant and resource scheduling optimization will look for resources that are excellent in Spanish, because it has a higher value and is deemed more restrictive.
