@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
-ms.date: 09/23/2022
+ms.date: 09/27/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -159,18 +159,9 @@ This section describes how you can update the out-of-the-box Power BI data model
 
 5. Publish the report to the Power BI workspace configured.
 
-## Data model
+## Data model and report mapping
 
-This section describes the out of box data model for Dynamics 365 customer service, that you can use for specific areas:
-
-
-
-## Out of box Power BI reports mapping
-
-This section provides a mapping of the Power BI files and the respective reports that will be rendered.
-
-
-
+For more information on data model and report mapping, see: [Data model and report mapping for historical analytics reports in Customer Service](oob-data-models.md#data-model-and-report-mapping-for-historical-analytics-reports-in-customer-service)
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Default data model and report mapping for historical analytics reports in Customer Service | MicrosoftDocs"
 description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service"
-ms.date: 09/23/2022
+ms.date: 09/27/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,16 +17,19 @@ search.app:
 ---
 
 # Data model and report mapping for historical analytics reports in Customer Service
-The topic describes the out of box data model for historical reports.
+The topic describes the out of box data model and report mapping for historical reports.
 
 ## Customer service manager analytics
+
+### Report mapping
+
+Harry to provide info.
 
 ### Data model
  
    > [!div class="mx-imgBorder"] 
    > ![Customer service manager data model diagram.](media/csm-data-model.png "Diagram of the customer service manager data model")
  
-
 ### Data dictionary 
 
 |Entities |Attributes |	Description |
@@ -78,6 +81,16 @@ The topic describes the out of box data model for historical reports.
 
 
 ## Omnichannel analytics
+
+### Report mapping
+
+Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edits to the following reports:
+1.	Conversation
+2.	Queue
+3.	Agent
+4.	Topics
+5.	Bot
+
 
 ### Data model
 
@@ -223,6 +236,11 @@ The topic describes the out of box data model for historical reports.
 
 ## Omnichannel voice analytics
 
+### Report mapping
+
+Use the Dynamic_365_Customer_Service_Omnichannel_voice_analytics.pbix file to make edits to the Voice report.
+
+
 ### Data model
 
    > [!div class="mx-imgBorder"] 
@@ -342,7 +360,11 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactSessionParticipant	|Consult sessions	|The number of sessions accepted by a user in mode = consult.|
 |FactSessionParticipant	|Monitor sessions	|The number of sessions accepted by a user in mode = monitor.|
 
-## Voice mail reports
+## Voice mail analytics
+
+### Report mapping
+
+Use the Dynamic_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file to make edits to the Voice mail report.
 
 ### Data model
 :::image type="content" source="media/voice-mail-data-model.png" alt-text="Diagram of the vocie mail data model":::
@@ -359,7 +381,14 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactVoiceMail	|Closed voicemails	| Count of the closed voice mails.|
 |FactVoiceMail	|Open voicemails	| Count of the open voice mails.|
 
-## Bot reports
+## Omnichannel bot analytics
+
+### Report mapping
+
+Use the Dynamic_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to make edits to the following reports:
+
+1. Summary
+2. Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the feature). 
 
 ### Data model
 
@@ -408,11 +437,6 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactBotSession|Total conversations|Total conversations associated with bots |
 |FactBotSession|Session ID|The related oc session id.  |
 |FactBotSession|Topic ID|Topic id. Foreign key to DimTopic.  |
-
-## Report mapping
-
-
-
 
 ### See also
 
