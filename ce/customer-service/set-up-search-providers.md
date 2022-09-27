@@ -1,7 +1,7 @@
 ---
-title: Set up an external knowledge search provider (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Set up external knowledge search providers (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 09/26/2022
+ms.date: 09/27/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -25,7 +25,7 @@ searchScope:
  - Customer Engagement
 ---
 
-# Set up an external knowledge search provider
+# Set up external knowledge search providers
 
 Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self-service, assisted service, and onsite service) expedites issue resolution and drives customer and agent satisfaction and productivity. 
 
