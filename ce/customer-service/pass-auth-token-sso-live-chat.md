@@ -28,7 +28,7 @@ Here's how this works:
 ## Prerequisites
 
 If you're using Azure bots, ensure that you've installed the latest versions of the following two library packages:
-- **Microsoft.Bot.Builder.Dialogs** This library implements the .NET Simple Dialog classes
+- **Microsoft.Bot.Builder.Dialogs** This library implements the .NET Simple Dialog classes.
 - **Microsoft.Bot.Builder.Integration.AspNet.Core** This library integrates the Bot Builder SDK with ASP.NET Core.
 
 If you're using a Power Virtual Agents bot, ensure that you manually set up end user authentication for Power Virtual Agents. More information: [Configure manual user authentication](/power-virtual-agents/configuration-end-user-authentication#manual-for-any-channel-including-teams)
