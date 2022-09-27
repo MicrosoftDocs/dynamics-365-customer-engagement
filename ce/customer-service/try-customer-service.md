@@ -53,6 +53,9 @@ The trial environment includes many of the same features as the paid version. Th
 - [View AI-suggested cases and knowledge articles for a conversation](oc-view-ai-suggested-cases-articles.md).
 - [View how supervisors monitor agent conversations](ongoing-conversations-dashboard.md).
 
+> [!NOTE]
+> However, not all features will be available if you use personal email ID to sign up for the trial. More information: [Trial FAQ](trial-faq.md)
+
 ### More resources
 
 - [Trial FAQ](trial-faq.md)  
