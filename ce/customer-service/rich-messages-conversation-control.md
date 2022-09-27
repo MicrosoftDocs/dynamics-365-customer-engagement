@@ -46,7 +46,7 @@ If your administrator has enabled agent configuration, then you can customize so
 
 ## Customizable rich messages
 
-Some types of rich messages may need their content to be customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context. More information: [MessageObject type](customer-service/developer/reference/includes/MessageObject.md)
+Some types of rich messages may need their content to be customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context. More information: [MessageObject type](../customer-service/developer/reference/includes/MessageObject.md)
 
 The following rich messages support admin-enabled customization:
 
