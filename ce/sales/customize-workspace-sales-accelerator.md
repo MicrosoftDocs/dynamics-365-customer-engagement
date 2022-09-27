@@ -327,6 +327,12 @@ You can delete sort types that are no longer required in your organization.
 
 The sort type is permanently deleted from the list. 
 
+## Configure work item appearance 
+
+The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with.
+
+More information: [Customize the appearance of work items](customize-work-list-card.md)
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
