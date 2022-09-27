@@ -118,7 +118,7 @@ If there are multiple channel providers in your organization, the widget won't b
 To create a default session, see [Start a home (default) session when your organization uses multiple channel providers](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-multiple-channel-providers).
 ### How can third-party telephony providers start their default session?
 
-You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-third-party-telephony-provider)
+You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-single-channel-provider)
 
 
 
