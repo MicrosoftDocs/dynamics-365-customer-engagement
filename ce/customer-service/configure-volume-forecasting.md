@@ -38,17 +38,17 @@ Supervisors can use the Forecast report for case volumes in the following ways:
 
 - Forecast upcoming case volumes based on historical traffic.
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
-- Slice and dice forecasted volumes by channel and queue.
+- Slice forecasted volumes by channel and queue.
 - Automatically detect seasonality from historical traffic with the settings option to import your service calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
 
 > [!Note]
 > The Forecast report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
-## How the case and conversation volume forecasting works
+## How the case volume forecasting works
 
-The Forecast report uses a forecasting model that predicts case volumes based on historical case data. The model uses ensemble forecasting method with seasonality support (automatic detection or custom settings) to enhance the quality of forecasting.
+The Forecast report uses an AI backed forecasting model that predicts case volumes based on historical case data. The model uses ensemble forecasting method with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
 
-The report can forecast for a date range up to six months, depending on how many days of historical data are available and used. In general, the model can forecast the half of the input date range, with the following conditions.
+The report can forecast for a date range up to six months, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions.
 
 - If the historical data time range is less than 12 months, forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for next four months.
 - If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for next six months. 

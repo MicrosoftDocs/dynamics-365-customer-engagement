@@ -39,16 +39,16 @@ Supervisors can use the agent forecasting for conversation report in the followi
 - Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 - Slice and dice forecasted volumes by channel and queue.
-- Automatically detect seasonality from historical traffic with the settings option to import your service calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
 > [!Note]
 > The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## How agent forecasting for conversation works
 
-The forecast report for conversations uses a forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection or custom settings) to enhance the quality of forecasting.
+The forecast report for conversations uses an AI backed forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
 
-The report can forecast for a date range up to six months, depending on how many days of historical data are available and used. In general, the models can forecast the half of the input date range, with the following conditions:
+The report can forecast for a period of up to six months in the future, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
 - If the historical data time range is less than 12 months, forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for next four months.
 - If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for the next six months. 
@@ -56,8 +56,8 @@ The report can forecast for a date range up to six months, depending on how many
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
 
 - At least two weeks of historical data is available. 
-- The average daily volume should be more than 50 per queue, and number of days when no case is created should be less than 30 percent per queue.
-- Per channel and queue combination, the data in your organization must be at least 70 percent for your entire date range. So, for example, if your data begins on January 1 of a given year and you run the forecasting model on September 1, the model will check all of the data within the date range of January 1 to September 1. If there is at least 70 percent of data available for each queue and channel, the model can run successfully. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully.
+- The average daily volume should be more than 50 conversations per queue and channel combination. Forecasting will not be generated for any queue and channel combination, having less than average daily volume of 50 conversations.
+- Per channel and queue combination, you must have at least 1 conversation on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest conversation (that falls within the configured historical time range) for that channel and queue combination to 1 day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1 of a given year, you run the forecasting model on September 1, and the earliest recorded conversation for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15 to August 31. If there is conversation available for at least 70 percent of the days between March 15 and August 31, then and only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully, and no forecast will be produced.
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ For users in your organization to be able to access the forecast reports they mu
 
 ## Enable the Agent forecasting for conversation (preview) report
 
-1. In the Customer Service admin center app, in **Operations**, select **Insights**. The **Insights** page is displayed.
+1. In the Customer Service admin center app, under **Operations**, select **Insights**. The **Insights** page is displayed.
 
 1. In the **Report settings** section, go to **Agent forecasting for conversation (preview)**, and then select **Manage**. The **Agent forecasting for conversation (preview)** page is displayed.
 
@@ -96,9 +96,9 @@ For users in your organization to be able to access the forecast reports they mu
    - **Required Service Level (%)**: The percentage of the conversations needed to meet the target answer time. For example if your required service level percentage is 80 and your target answer time is 77, you want 80 percent of your conversations to be answered in 77 seconds or less.
    - **Target Answer Time (Seconds)**: The number of seconds in which you want your agents to answer their conversations.
    - **Shrinkage (%)**: The percentage of time agents are unavailable to handle conversations. If you increase this number, the percentage of time that the agents are unavailable goes up, which means you would need more agents to meet the service-level agreement.
-   - **Concurrency (#)**: The number of simultaneous interactions per agent. For calls, this value is set to one. For chats, the number can be set as desired.
+   - **Concurrency (#)**: The number of simultaneous interactions per agent. For voice calls, this value should be set to one. For chats, the number can be set as desired.
 
-1. (Optional) If you want to change the values that are set in the **Global Forecasting configuration**, you can use the settings in **Override Channel Forecasting configuration** to set specific settings for each channel that's available in your organization. Any settings you don't change in the override will remain as set at the global level. Select the channels you want to use overrides for in the **Select channels to override configuration** dropdown list.
+1. (Optional) If you want to override the values that are set in the **Global Forecasting configuration** for specific channels, you can use the settings in **Override Channel Forecasting configuration** to set values for each channel that's available in your organization. Any settings you don't change in the override will remain as set at the global level. Select the channels you want to use overrides for in the **Select channels to override configuration** dropdown list.
 
    An example of when an override might be useful is if you have both voice and chat channels. The **Concurrency (#)** setting in **Global Forecasting configuration** would be set to one for the voice channel, but then you could use the **Live Chat-override** setting to change the chat concurrency to a higher frequency, such as three.
   
