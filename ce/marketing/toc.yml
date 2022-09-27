@@ -210,7 +210,7 @@
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
-  - name: "Real-time marketing user guide"
+  - name: "Real-time marketing"
     items: 
     - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
@@ -324,7 +324,7 @@
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
-  - name: Outbound marketing user guide
+  - name: Outbound marketing
     items: 
     - name: Outbound marketing user guide overview
       href: user-guide.md
