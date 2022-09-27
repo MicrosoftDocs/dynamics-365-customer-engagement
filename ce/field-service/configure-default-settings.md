@@ -115,12 +115,13 @@ Inventory tracks the availability of products in a warehouse. For more informati
 ## Intelligence settings
 
 Predictive work duration lets dispatchers predict the duration bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
+Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions).
 
 |  Option  |  Description   |  
 |-------------|-----------------|  
 | Enable Suggested Duration |  When enabled, this setting looks at historical booking data and suggests an average duration at the incident type level.|
 | Historical Data Filter | This setting is used for both the suggested duration and incident type suggestions. It defines the data scope for analysis when looking at historical data to provide suggestions.|
-| Enable Incident Type Suggestion | When enabled, this setting enables the analysis of historical work order data to suggest ways to improve an organization's usage of incident type. Once enabled, you specify how often the model runs and review the suggestions from the intelligent analysis. From the subgrid, a user can dislike or apply the suggestions from the model.|
+| Enable Incident Type Suggestion | When enabled, this setting enables the analysis of historical work order data to suggest ways to improve an organization's usage of incident type. Once enabled, you specify how results the model returns and review the suggestions from the intelligent analysis. From the subgrid, a user can dislike or apply the suggestions from the model. |
 
 ## Field Service SLA Configuration settings
 
