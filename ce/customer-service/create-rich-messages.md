@@ -589,5 +589,6 @@ Within the designer, the first fields are related to the message that appears wi
 [Templates](/dynamics365/app-profile-manager/templates-overview)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[sendMessageToConversation JavaScript method](../customer-service/developer/reference/methods/sendMessageToConversation.md)
+[sendMessageToConversation JavaScript method](../customer-service/developer/reference/methods/sendMessageToConversation.md)  
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
