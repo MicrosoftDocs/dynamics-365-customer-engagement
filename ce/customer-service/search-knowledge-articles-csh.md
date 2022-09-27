@@ -155,16 +155,16 @@ Smart assist provides real-time knowledge article suggestions depending on the o
 
 In Customer Service workspace, select the **Smart assist** option on the app side pane to see knowledge article suggestions related to your case.
 
-## Use the suggest as you type option to search for knowledge articles
+## Use the suggest-as-you-type option to search for knowledge articles
 
-The suggest as you type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
+The suggest-as-you-type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
 
-The search phrase is matched against the title of the article and the matching results appear in a flyout. The matched text is highlighted to show the presence of the keyword. On selecting the record, the system displays the article inline on knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as inline view in the independent knowledge search control.
+The search phrase is matched against the title of the article, and the matching results appear in a flyout. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control.
 
-To enable the suggest as you type option, contact your administrator. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
+To use the suggest-as-you-type option, your administrator first needs to enable it. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
 
 
-:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Use the suggest as you type option":::
+:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Use the suggest-as-you-type option":::
 
 ## View knowledge articles
 
