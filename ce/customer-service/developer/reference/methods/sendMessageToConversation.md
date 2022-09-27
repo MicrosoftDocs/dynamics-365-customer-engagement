@@ -12,11 +12,11 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be used to send messages to a conversation.  
+Use this method to send messages to a conversation.  
 
 > [!Note]
 > - The conversation must be assigned to the agent that's logged in.
-> - Supported messages include only string literals and valid rich object JSON. More information: [MessageObject](../includes/MessageObject.md) 
+> - Only string literals and valid rich object JSON are currently supported. More information: [MessageObject](../includes/MessageObject.md) 
 
 ## Syntax
 
