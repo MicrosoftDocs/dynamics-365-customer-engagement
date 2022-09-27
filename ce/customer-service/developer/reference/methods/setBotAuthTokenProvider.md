@@ -1,6 +1,6 @@
 ---
 title: "setBotAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Includes reference information such as syntax and parameter for the setBotAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+description: "Includes reference information such as syntax and parameter for the setBotAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference."
 ms.date: 10/01/2022
 ms.topic: reference
 author: mh-jaya
