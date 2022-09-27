@@ -24,7 +24,7 @@ For example, an incident type can be:
 - A common customer complaint or request ("The building temperature is too high").
 - A specific procedure ("Perform stress test").
 
-Organizations benefit from using incident types because they codify issues, procedures, and resolutions, and help standardize processes across geographies and business lines. Incident types ensure all field technicians are performing the same actions to resolve work orders. If you discover better procedures, update the the incident type and it's immediately available to the entire organization.
+Organizations benefit from using incident types because they codify issues, procedures, and resolutions, and help standardize processes across geographies and business lines. Incident types ensure all field technicians are performing the same actions to resolve work orders. If you discover better procedures, update the incident type and it's immediately available to the entire organization.
 
 Incident types are also helpful for reporting. They let you discover trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type lets you report on the number of power failures for a specific asset category, for example.
 
@@ -38,44 +38,29 @@ Other important incident type features include:
 
 ## Prerequisites
 
-- Incident types are available for all versions of Dynamics 365 Field Service. However, using incident types with requirement group templates for multi-resource scheduling is only available with Field Service v8.0+.
+Because incident types represent a grouping of [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md), we recommend you create these records first.
 
-- Because incident types mostly represent a grouping of service tasks, products, and services, we recommend having these records created in the system before creating an incident type. Each of the following records can be created in **Field Service** > **Settings**:
-
-  - A **service task** is a checklist item that field technicians should complete as part of performing an incident type.
-
-  - A **product** is a part that can be used when completing an incident type and can be billed to the customer and deducted from inventory if necessary. For more information, visit our article on [creating a product or service](../field-service/create-product-or-service.md).
-
-  - A **service** is labor that can be billed to the customer. **Note:** There is no **Service** entity. A service is created by creating a product record with **Field Service Type = Service**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Field Service side navigation menu, with Products and Service Task Types highlighted.](./media/work-order-incident-types-navigation.png)
-
-The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. For example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
+The service tasks, products, and services can be associated to multiple incident types. For example, "Put on safety equipment" is a service task that needs to be completed frequently. Create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
 
 ## Create an incident type
 
-### From the work order form and work order list view
+You need the *Field Service - Administrator* security role to create incident types.
 
-1. As a Field Service administrator, system administrator, or any user with creation privileges for incident types from the work order form or list view, select **Create Incident Type** in the ribbon.
+### From a work order form
 
-2. In the dialog that pops up, capture **Incident Type Name**.
-  
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the create incident type form.](./media/work-order-create-from-incident-type.png)
+Capture a work order quickly as a template.
 
-3. **Description** is initially populated from the work order's **Work Order Summary** field. Update as needed.
+1. In Field Service, change to the **Service** area.
 
-4. **Work Order Type** is initially copied from the work order. Update as needed.
+1. Open a work order record and select **Create Incident Type** in the command bar.
 
-5. The **Copy Tasks**, **Copy Products**, **Copy Services**, **Copy Characteristics**, and **Copy Articles** toggles will automatically be enabled. If there are any records you do not want copied from the work order, flip the toggle.
+1. Provide an **Incident Type Name** and an optional **Description**.
 
-6. The **Estimated Duration** value will either be:
+   :::image type="content" source="media/work-order-create-from-incident-type.png" alt-text="Screenshot of the create incident type form.":::
 
-    - Read-only, if the duration value is calculated from the related tasks.
-    - Editable, if there are no tasks driving a duration value.
+1. Update other values as needed. Remove related records that you don't want to copy. The estimated duration is read-only if the value is derived from related tasks.
 
-When ready, select **Create Incident Type** and the system will create the incident type modeled after the source work order.
+1. Select **Create Incident Type** to save the template.
 
 ### From the incident type form and record list
 
@@ -88,7 +73,7 @@ Enter a **Name** and a **Description**.
 
 On the **Details** tab, see the following fields:
 
-- **Default Work Order Type**: The work order type selected here will populate the work order type field on the work order when this incident type is entered as the primary incident type. It will overwrite previously entered work order types. Entering a work order type will not populate an incident type.
+- **Default Work Order Type**: The work order type selected here will populate the work order type field on the work order when this incident type is entered as the primary incident type. It will overwrite previously entered work order types. Entering a work order type won't populate an incident type.
 
   > [!NOTE]
   > A default price list can be added to a work order type. This means you can add a primary incident type that adds a work order type and the work order type will add a price list. This further saves time with automatic data population.
@@ -121,7 +106,7 @@ Enter a **Name** if you want the eventual work order product to have a different
 
 For scenarios where multiple products are added as part of an incident type, **Line Order** is a numeric value that can be used to define the order in which they appear on the work order product list. This logic is true for service tasks and service, too.
 
-Because the **Description** field can be communicated to the customer or even be customized to appear on an invoice, there is also an **Internal Description** to provide additional details for the field technician.
+Because the **Description** field can be communicated to the customer or even be customized to appear on an invoice, there's also an **Internal Description** to provide additional details for the field technician.
 
 ### Incident type service
 
@@ -130,7 +115,7 @@ Similar to incident type products, add incident type services.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new incident type service entity.](./media/work-order-incident-types-service.png)
 
-The only difference between incident type products and services is that instead of quantity, there is a **Duration** field to represent the service time because a service represents labor and not a physical part.
+The only difference between incident type products and services is that instead of quantity, there's a **Duration** field to represent the service time because a service represents labor and not a physical part.
 
 ### Incident type service tasks
 
@@ -141,13 +126,13 @@ Select a **Task Type** or create a new one in the system.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an incident type service task.](./media/work-order-incident-types-service-task.png)
 
-If the task type you select has a duration, it will populate in the **Estimated Duration** field of the incident type service task and can be adjusted for this specific incident as needed. As you add incident service tasks, the duration of the incident type will be the sum of the service task durations. If you do not want the incident duration to be derived from service task durations, then you should either set the incident service task duration to 0 minutes or null for all incident service task types, or consider removing durations from the original task type.
+If the task type you select has a duration, it will populate in the **Estimated Duration** field of the incident type service task and can be adjusted for this specific incident as needed. As you add incident service tasks, the duration of the incident type will be the sum of the service task durations. If you don't want the incident duration to be derived from service task durations, then you should either set the incident service task duration to 0 minutes or null for all incident service task types, or consider removing durations from the original task type.
 
-The order in which you add service task types is the order in which they'll appear on the work orders when this incident is added. The order of service tasks is important for organizations and reflects a process that should be followed. It is common for organizations to have as many as 40 service tasks for a detailed process.
+The order in which you add service task types is the order in which they'll appear on the work orders when this incident is added. The order of service tasks is important for organizations and reflects a process that should be followed. It's common for organizations to have as many as 40 service tasks for a detailed process.
 
 After saving, you can edit the **Line Order** field as needed to change the order of service tasks where "1" is the service task that will appear first.
 
-After adding multiple service tasks, they will display in the incident service task list. In the following screenshot example, none of the individual service tasks were given an estimated duration because we chose to add an estimated duration at the incident type level instead.
+After adding multiple service tasks, they'll display in the incident service task list. In the following screenshot example, none of the individual service tasks were given an estimated duration because we chose to add an estimated duration at the incident type level instead.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the incident types list.](./media/work-order-incident-types-service-task-list.png)
@@ -178,7 +163,7 @@ When characteristics are added to a resource, you can define the level of profic
 
 Now we're ready to use the incident type by adding it to a work order. From our incident type products, services, service tasks, and characteristics, the system will create work order products, services, service tasks, and characteristics.
 
-In the **Primary Incident Type** field, we will look up and add our newly created incident type.
+In the **Primary Incident Type** field, we'll look up and add our newly created incident type.
 
 The following fields will populate:
 
@@ -238,7 +223,7 @@ Go to **Related** > **Incidents** > **+New Incident Type** and add another incid
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order incident information form.](./media/work-order-incident-type-add-multiple.png)
 
-Though the primary incident estimated duration will not change, the **Total Estimated Duration** field in the record log section of the work order will be updated.  
+Though the primary incident estimated duration won't change, the **Total Estimated Duration** field in the record log section of the work order will be updated.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an estimated total duration.](./media/work-order-incident-type-estimated-duration.png)
@@ -270,17 +255,17 @@ Incident types can also be related to customer assets to tell field technicians 
 For the primary incident type, populate the **Primary Incident Customer Asset** field. This field is filtered to only show customer assets related to the work order service account by default.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order, showing the Primary Incident Customer Asset field.](./media/work-order-incident-type-customer-seet-work-order.png)
+> ![Screenshot of a work order with the Primary Incident Customer Asset field.](./media/work-order-incident-type-customer-seet-work-order.png)
 
 >[!TIP]
-> By default, the customer assets in the **Primary Incident Customer Asset** lookup view show assets related to the work order account. This lookup view references the *Customer Asset Lookup View*. **This view cannot be edited**. If you wish to edit this view, you must create a new view and reference the view in the form. For example, you can create a view called *Customer Asset Lookup*, as shown in the following screenshot.
+> By default, the customer assets in the **Primary Incident Customer Asset** lookup view shows assets related to the work order account. This lookup view references the *Customer Asset Lookup View*. **This view cannot be edited**. If you wish to edit this view, you must create a new view and reference the view in the form. For example, you can create a view called *Customer Asset Lookup*, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Customer asset lookup view in Field Service.](./media/customer-asset-lookup-view.png)
 
 For other work order incident types, go to the **Incident Relates To** section and associate a customer asset.
 
-Once a work order incident and customer asset are associated, you will see the work order on the customer asset record, along with all previous work orders related to the asset. This can be displayed on the mobile app for field technicians to better understand the history of the part they are working on.
+Once a work order incident and customer asset are associated, you'll see the work order on the customer asset record, along with all previous work orders related to the asset. This can be displayed on the mobile app for field technicians to better understand the history of the part they're working on.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the customer asset entity with related work orders highlighted.](./media/work-order-incident-type-customer-seet.png)
@@ -305,7 +290,7 @@ With Field Service v8.8.20.12+, **Incident Type AI** suggestions recommend ways 
 
 This saves technician time by
 
-- not having to enter the additional work order product.
+- not having to enter the extra work order product.
 - helping better plan inventory requirements by knowing typical products needed, and most importantly.
 - ensuring your business application reflects reality.
 
@@ -316,11 +301,11 @@ From the Field Service app, go to **Settings** > **Field Service Settings** > **
 
 - **Historical Data Filter**: dictates how much historical data is analyzed as part of each run.
 
-- **Run Frequency**: dictates how often the system will analyze incident types and make suggestions if applicable. At this time, this cannot be changed.
+- **Run Frequency**: dictates how often the system will analyze incident types and make suggestions if applicable. At this time, this can't be changed.
 
 - **Return Top X Results**: dictates how many suggestions will be returned from each run.
 
-Across multiple runs, it's possible to see more than the number of results defined in **Return Top X Results**. When the system returns results, if a previous run returned the same combined set of parameters (incident type, product/service/incident type for merge, suggested value, unit), it will deactivate the earlier sets and will ensure that only the most recent, most relevant, unique version of that result is displayed. This means that unique results that have not been applied, disliked, or deactivated will still show in the list of visible results.
+Across multiple runs, it's possible to see more than the number of results defined in **Return Top X Results**. When the system returns results, if a previous run returned the same combined set of parameters (incident type, product/service/incident type for merge, suggested value, unit), it will deactivate the earlier sets and will ensure that only the most recent, most relevant, unique version of that result is displayed. This means that unique results that haven't been applied, disliked, or deactivated will still show in the list of visible results.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the intelligence tab on the Field Service setting window, showing a list of incident type suggestion results list.](./media/ai-incident-type-suggestions-list.png)
@@ -350,10 +335,10 @@ Incident type suggestions fall into three categories:
 
     For each suggestion, you have the option to:
 
-    1. **Apply Suggestion**: The system will add the product or service to the incident type for you. This is not available when the suggestion type is  **Incident Type**.
+    1. **Apply Suggestion**: The system will add the product or service to the incident type for you. This isn't available when the suggestion type is  **Incident Type**.
     2. **Dislike**: The suggestion will be removed from the list. This option helps improve the AI suggestion model.
 
-Once a suggestion is either applied or disliked, it will ensure that particular combined set of parameters (incident type, product/service/incident type for merge, suggested value, unit) is not returned as a suggestion by the system. This ensures the system continues to provide only the most valuable suggestions.
+Once a suggestion is either applied or disliked, it will ensure that particular combined set of parameters (incident type, product/service/incident type for merge, suggested value, unit) isn't returned as a suggestion by the system. This ensures the system continues to provide only the most valuable suggestions.
 
 ## Configuration considerations
 
@@ -366,7 +351,7 @@ Once a suggestion is either applied or disliked, it will ensure that particular 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of an agreement booking setup record, on the Services tab, with a listed service.](./media/work-order-incident-types-copy-incident-agreement-YES.PNG)
 
-    If set to **No**, they will not.
+    If set to **No**, they won't.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of an agreement booking setup record, on the Services tab, with no listed services.](./media/work-order-incident-types-copy-incident-agreement-NO.PNG)
@@ -375,9 +360,9 @@ Once a suggestion is either applied or disliked, it will ensure that particular 
   
     Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on **Agreement Booking Setup**.
   
-- There is a **Resolution** tab on the **Work Order Incident** to document whether the incident was completed.
+- There's a **Resolution** tab on the **Work Order Incident** to document whether the incident was completed.
 - When adding multiple incident types to a work order, if doing so adds two or more of the same characteristics (skill), the scheduling logic will use the most restrictive of the skills to match resources. For example, if one incident type adds the characteristic "Spanish" with a "Good" rating value, and another incident adds "Spanish" with an "Excellent" rating value, the schedule assistant and resource scheduling optimization will look for resources that are excellent in Spanish, because it has a higher value and is deemed more restrictive.
-- Crews will display in schedule assistant results for work orders with multiple incidents because the system views crews as a single resource. Currently, resource scheduling optimization does not schedule crews.
+- Crews will display in schedule assistant results for work orders with multiple incidents because the system views crews as a single resource. Currently, resource scheduling optimization doesn't schedule crews.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the filter view on the schedule board, with characteristic rating and resource types fields highlighted.](./media/work-order-incident-type-add-multiple-crew.png)
@@ -396,11 +381,11 @@ There are multiple entities involved in using incident types, and you should be 
 
    \> Incident Type \> Incident Product \> Agreement Incident \> Agreement Product \> Work Order Incident
 
-When using incidents with **Agreements**, the incidents and related items are added to agreements first, and then passed along to work orders as they are generated by the agreement.
+When using incidents with **Agreements**, the incidents and related items are added to agreements first, and then passed along to work orders as they're generated by the agreement.
 
 ## Additional notes
 
-Only one work order incident can be the primary incident and this is either the first incident added or the one entered in the primary incident type field. There is a Boolean value on the work order incident type called **Is Primary** that indicates this and can be used for business logic.
+Only one work order incident can be the primary incident and this is either the first incident added or the one entered in the primary incident type field. There's a Boolean value on the work order incident type called **Is Primary** that indicates this and can be used for business logic.
 
 ### Implementing incident types
 
@@ -412,7 +397,7 @@ Only one work order incident can be the primary incident and this is either the 
   
 ### Maximizing incidents
 
-- Consider using Azure Machine Learning to improve the estimated durations of incidents types. This means adjusting the duration of incidents as they are completed based on the actual duration of the work order.
+- Consider using Azure Machine Learning to improve the estimated durations of incidents types. This means adjusting the duration of incidents as they're completed based on the actual duration of the work order.
 - Correlating incident types with IoT alerts generated from Connected Field Service can streamline issues and resolutions and improve the organization's first-time fix rate.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
