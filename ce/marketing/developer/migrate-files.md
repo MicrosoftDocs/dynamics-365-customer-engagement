@@ -42,8 +42,8 @@ The flow should start with a call to the **msdyncrm_UpsertFile** custom action u
     - **name**: Value of the keyword
 
 - The call returns properties required for uploading the file content. Of particular note:
-    - **msdyncrm_bloburi**: URI of the Azure blob to upload the content to
-    - **msdyncrm_sastoken**: SAS token used for the upload
+    - **msdyncrm_bloburi**: URI to upload the content to
+    - **msdyncrm_sastoken**: SAS token used for the upload (can be empty string)
     - **msdyncrm_fileid**: ID of the newly created msdyncrm_file record
 
 - A PUT call is made to an endpoint provided by **msdyncrm_bloburi** with the file content.
