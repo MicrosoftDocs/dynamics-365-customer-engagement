@@ -44,22 +44,33 @@ This topic describes how to enable the data model customization feature and set 
 
 ## Prerequisites
 
-Before you begin with the customization, you must have the three following prerequisites:
+Before you begin with the customization, you must have the following prerequisites:
 
 - Have at least one of the historical reports enabled for Customer service manager, Omnichannel.
 - Have access to Power BI for Microsoft service account.
 - You must have administrative privileges for Dynamics 365 Customer Service and Power BI.
 - You must have a Power BI Professional or Power BI Premium license for all supervisors and administrators.
 
-As a system administrator, you must first create and add a security group for Power BI service. Perform the following steps to create and add a security group: 
-  1. Create a security group in the Azure Active Directory (Azure AD), and add Dynamics CCA Data Analytics as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/how-to-manage-groups).
-  2. As a Power BI administrator, enable the **Service Principal** in the Developer settings in the Power BI **Admin portal** along with the security group that you created in Azure AD. Perform teh following steps:
+- As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-     1. Sign in to Power BI service and go to **Settings** > **Admin portal**.
-     1. On the **Admin portal**, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
-     1. Enable **Allow service principals to use Power BI APIs** by setting the toggle to **Yes**.
-     1. Specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option, and then entering the security groups.
-     1. Select **Apply**.
+   1. Create a security group in Azure Active Directory (Azure AD), and add **Dynamics CCA Data Analytics** as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+   
+
+   1. As a Power BI administrator, enable the **Service Principal** in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+   
+      a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
+
+        > [!div class=mx-imgBorder]
+        > ![Select Admin portal.](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal")
+
+      b. In the admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
+
+      c. Enable **Allow service principals to use Power BI APIs** By setting the toggle to **Yes** and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option, and then entering the security groups.
+
+        > [!div class=mx-imgBorder]
+        > ![Enable service principals for security group.](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+
+      d. Select **Apply**.
 
 The following section describes a step-by-step process to enable model customization of your historical analytics reports.
 
