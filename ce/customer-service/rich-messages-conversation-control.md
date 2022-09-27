@@ -18,7 +18,7 @@ When conversing in supported channels, the communication panel includes an addit
 
 Start using rich messages in your conversation with one of the following options:
 
-   - Select the Rich messages button to launch the rich message panel.
+   - Select the **Rich messages** button to launch the rich message panel.
    - Use a keyboard command to see the list of rich messages. Type "/rm" (forward slash followed by the letters "rm").
    
 ## Search for rich messages and tags
