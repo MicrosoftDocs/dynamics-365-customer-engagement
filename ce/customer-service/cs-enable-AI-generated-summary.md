@@ -1,5 +1,5 @@
 ---
-title: Set up AI-generated conversation summary in Dynamics 365 Customer Service
+title: Set up AI-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
 ms.date: 09/19/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Set up AI-generated conversation summary (preview)
+# Set up Auto-summarization for conversations (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -27,7 +27,7 @@ Agents can collaborate with others directly while they're working in Dynamics 36
 >  - Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
 >  - This feature is generally available for Microsoft Teams conversations.
 
-## Components of an AI-generated conversation summary (preview)
+## Components of an AI generated conversation summary (preview)
 
 The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. Summaries are limited to the first 7,000 characters of a transcript.
 
