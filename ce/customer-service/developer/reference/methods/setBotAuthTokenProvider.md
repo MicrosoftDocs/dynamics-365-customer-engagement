@@ -32,6 +32,7 @@ Bot authentication URL.
 
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
+[Pass authentication token to bot during single sign-on in live chat](../../../pass-auth-token-sso-live-chat.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
