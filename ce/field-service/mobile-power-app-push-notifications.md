@@ -192,12 +192,4 @@ The push notifications will be shown to the technician using the mobile phone. F
 > [!Note]
 > Push notifications are currently not available on Field Service (Dynamics 365) Windows app.
 
-
-### See also
-
-- For more information, see the [Power Apps mobile push notification documentation](/powerapps/mobile/power-apps-mobile-notification).
-- These notifications work with the [Power Apps mobile app](https://powerapps.microsoft.com/blog/announcing-the-public-preview-of-new-power-apps-mobile-app-that-runs-both-canvas-and-model-driven-apps/) that runs both canvas and model-driven apps.
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

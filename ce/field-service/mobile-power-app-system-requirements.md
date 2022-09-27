@@ -58,8 +58,4 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 >[!TIP]
 > For the best performance, make sure your team has 1) newer devices that 2) run the latest operating system versions, in that order.
 
-### See also
-
-[What's supported Dynamics 365 phones and tablets](../mobile-app/support-phones-tablets.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
