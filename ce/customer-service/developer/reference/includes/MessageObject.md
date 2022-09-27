@@ -38,16 +38,12 @@ Because Power Virtual Agents and Omnichannel for Customer Service platforms proc
 
 You'll use this JSON value when you format the rich message types .
 
-## Format rich message types
+## Format different types of rich messages
 
 This section includes JSON samples for the rich message types available in the Apple Messages for Business channel the Omnichannel for Customer Service. More information: [Manage rich messages](/create-rich-messages#manage-rich-messages-for-apple-messages-for-business)
 
 [!Note]
-> You cannot send Forms rich message to conversations.
-
-## Format different types of rich messages
-
-This section lists JavaScript code snippets that you can use to parse rich messages for various rich message types in Apple Message for Business.
+> You can't send Forms rich message to conversations.
 ### Apple Pay
 
 ```javascript
