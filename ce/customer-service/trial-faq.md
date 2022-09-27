@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 09/26/2022
+ms.date: 09/27/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -65,10 +65,10 @@ Sample data comes with the trial environment and experience. To get a fresh data
 
 ### Can I sign up for trial using a personal email ID that's not associated with a Microsoft account?
 
-While you can sign up, you need the personal email ID to be associated with the Microsoft account to use the following features:
+You can use your personal email ID. But you won't be able to use the following features if you use personal email ID:
 
-- Access to Power Platform admin center to add more users to the trial, change security roles, or extend the trial.
-- Customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address, however, you can't access the links to customize the bot using the Power Virtual Agents designer.
+- Access Power Platform admin center to add more users to the trial, change security roles, or extend the trial.
+- Customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Power Virtual Agents designer.
 
 ### Which geographical regions are supported in the trial version of Customer Service and Omnichannel for Customer Service?
 
