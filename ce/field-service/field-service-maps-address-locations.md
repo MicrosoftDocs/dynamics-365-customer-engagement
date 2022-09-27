@@ -102,7 +102,4 @@ Frontline workers often travel to various locations throughout their work day, a
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. See the article on [geofencing](mobile-powerapp-geofence.md) for more details.
 
-## See also
-
-- [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
-- [Geofencing](mobile-powerapp-geofence.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
