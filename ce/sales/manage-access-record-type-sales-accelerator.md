@@ -39,7 +39,7 @@ After the [first-run setup of the sales accelerator](enable-configure-sales-acce
     >![Manage access and record type setup page.](media/sa-manage-access-record-type-page.png "Manage access and record type setup page")   
 
 4.	Update the information as required, and then select **Publish**.  
-    For more information, go to steps 5 through 7 in [First-run setup](#first-run-set-up), earlier in this article.
+    For more information, go to steps 5 through 7 in [First-run setup](enable-configure-sales-accelerator.md#first-run-set-up), earlier in this article.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
