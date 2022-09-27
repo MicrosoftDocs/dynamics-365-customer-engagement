@@ -44,22 +44,25 @@ Key capabilities of model customization include the ability to:
 
 You can add your own dataset to build new custom metrics or drill-down to add your metrics to the report as required by your organization.
 
-This topic describes how to enable the data model customization feature and set up the workspace for Microsoft to provision out-of-the-box data model in a Read-only workspace, and a workspace where the customized report can be published to render it in the Customer Service workspace.
+This topic describes how to enable the data model customization feature and set up the workspace for Microsoft to provision out-of-the-box data model in a read-only workspace, and a workspace where the customized report can be published to render it in the Customer Service workspace.
 
-## Prerequisites
+Before you begin with the customization, you must have the three following pre-requisites:
 
 - Have at least one of the historical reports enabled for Customer service manager, Omnichannel.
 - Have access to Power BI for Microsoft service account.
 - You must have administrative privileges for Dynamics 365 Customer Service and Power BI.
 - You must have a Power BI Professional or Power BI Premium license for all supervisors and administrators.
-- As a system administrator, you must create and add a security group for Power BI service. Perform the following steps to create and add a security group: 
-  1. Create a security group in Azure Active Directory (Azure AD), and add Dynamics CCA Data Analytics as a member to that security group.  
+
+## Pre-requisites
+
+As a system administrator, you must create and add a security group for Power BI service. Perform the following steps to create and add a security group: 
+  1. Create a security group in the Azure Active Directory (Azure AD), and add Dynamics CCA Data Analytics as a member to that security group.  
 More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/how-to-manage-groups).
-  2. As a Power BI administrator, enable the service principal in the Developer settings in the Power BI admin portal and the security group that you created in Azure AD.
+  2. As a Power BI administrator, enable the service principal in the Developer settings in the Power BI admin portal and the security group that you created in Azure AD:
 
      1. Sign in to Power BI service and go to **Settings** > **Admin portal**.
-     2. In the **Admin portal**, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
-     3. Enable **Allow service principals to use Power BI APIs**.
+     1. In the **Admin portal**, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
+     1. Enable **Allow service principals to use Power BI APIs**.
      1. Specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option.
      1. Select **Apply**.
 
