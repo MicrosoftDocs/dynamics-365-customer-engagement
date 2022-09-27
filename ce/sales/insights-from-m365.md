@@ -10,16 +10,19 @@ manager: shujoshi
 
 # Insights generated from Microsoft 365 data
 
-Dynamics 365 Sales generates the following relationship insights using Microsoft 365 data:
+Dynamics 365 Sales uses your emails and meeting information from Exchange to generate the following relationship insights:
 
 - [Relationship analytics and health](#relationship-analytics-and-health)
 - [Who knows whom](#who-knows-whom)
 
-The Microsoft 365 admin needs to [provide consent](provide-consent-office365.md) to let Dynamics 365 collect and use Microsoft 365 data. For information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md) 
+Your Microsoft 365 admin needs to [provide consent](provide-consent-office365.md) to let Dynamics 365 collect and use Microsoft 365 data. For information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md).  
+
+As a user, if you'd like to opt out of sharing your data, you can [turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+
 
 ## Relationship analytics and health
 
-Relationship analytics provides a comprehensive view of KPIs and activity histories for any contact, opportunity, lead, or account. It also calculates the overall health and trend of your business relationships based on your interactions with your customers through emails and activities in Dynamics 365. With these insights, you can identify critical opportunities and customer relationships that need your attention.
+Relationship analytics provides a comprehensive view of the overall health and trend of your business relationships based on your sellers interactions with your customers through emails and activities in Dynamics 365. It calculates the KPIs and activity histories for any contact, opportunity, lead, or account. With these insights, you can identify critical opportunities and customer relationships that need your attention.
 
 The following screenshot is an example of how relationship analytics data appears for open opportunities:
 
