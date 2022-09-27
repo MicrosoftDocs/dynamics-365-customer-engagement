@@ -39,7 +39,7 @@ Supervisors can use the Forecast report for case volumes in the following ways:
 - Forecast upcoming case volumes based on historical traffic.
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 - Slice forecasted volumes by channel and queue.
-- Automatically detect seasonality from historical traffic with the settings option to import your service calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
 
 > [!Note]
 > The Forecast report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
@@ -56,7 +56,7 @@ The report can forecast for a date range up to six months, depending on how many
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
 
 - At least two weeks of historical data is available. 
-- For case volume forecasting, the number of days when no case is created should be less than 30 percent per queue. 
+- Per channel and queue combination, you must have at least 1 case on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest case (that falls within the configured historical time range) for that channel and queue combination to 1 day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1 of a given year, you run the forecasting model on September 1, and the earliest recorded case for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15 to August 31. If there is case available for at least 70 percent of the days between March 15 and August 31, then and only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully, and no forecast will be produced.
 
 
 ## Prerequisites

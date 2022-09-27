@@ -36,7 +36,7 @@ As a supervisor, you can use the Forecast report to help you plan the right leve
 
 You can use the Forecast report for agent, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes as well as the number of agents needed based on historical traffic. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic, as well as the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if chatbots are set up for your conversational channels, conversations handled by chatbots that have no human agent joined are excluded from the forecasting, so that you can rely on the predicted conversation volumes for human agent staffing.
 
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 
@@ -52,7 +52,7 @@ Before you can use the Forecast report, ensure that your administrator has given
 
 ## View the Forecast report in Customer Service
 
-You can access the Forecast report in the Omnichannel for Customer Service or Customer Service workspace apps by selecting the plus (+) icon, and then selecting **Forecast (preview)**, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
+You can access the Forecast report in the Omnichannel for Customer Service or Customer Service workspace apps by selecting **Forecast (preview)** from the left hamburger menu, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
@@ -68,11 +68,11 @@ You can filter the data on each of the tabs by using any of the following option
 |--------|-------------|
 |Duration|Input the date range or use the sliders to set the dates. |
 |Channel|Select the channel(s) for which you want data displayed. |
-|Queue|If there are queues associated with the cases, you can filter on specific queues. |
+|Queue|Select the queue(s) for which you want data displayed. |
 
 ### Data visualization
 
-The forecasting section on each tab of the report displays a visual trend from historical volumes from the past to the predicted volume in the future. The forecast is based on actual case, conversation, and agent records from the case entity created in the past.
+The forecasting section on each tab of the report displays a visual trend from historical volumes from the past to the predicted volume in the future. The forecast is based on actual case, conversation, and agent records created in the past.
 
 The **Confidence level** for the forecasted data is displayed on the right-hand side in blue, indicating the level of confidence in the predicted volume. The narrowest part of the blue area indicates higher confidence. You can hover on the report to display the forecast based on data for specific dates.
 
