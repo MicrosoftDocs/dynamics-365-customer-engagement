@@ -94,12 +94,4 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
   
 -   Select the **Actions** menu, and then select **Move Booking to Next Day**.  
   
-### See also   
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Create a work order](../field-service/create-work-order.md)   
- [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
- [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
- [User's Guide](../field-service/user-guide.md) 
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
