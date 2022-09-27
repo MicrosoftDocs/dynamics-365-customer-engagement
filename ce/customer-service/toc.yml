@@ -882,7 +882,7 @@
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
       - name: Create quick replies
         href: create-quick-replies.md
-      - name: Create rich messages
+      - name: Manage rich messages
         href: create-rich-messages.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
