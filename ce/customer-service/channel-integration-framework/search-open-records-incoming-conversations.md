@@ -1,7 +1,7 @@
 ---
 title: "Search and open records of incoming conversations | MicrosoftDocs"
 description: "Demonstrates how you can use the Dynamics 365 Channel Integration Framework 1.0 APIs to search and open records of incoming conversations."
-ms.date: 01/21/2022
+ms.date: 09/27/2022
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

@@ -1,7 +1,7 @@
 ---
 title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes information about createSession method, its syntax, and parameters in Dynamics 365 Channel Integration Framework 2.0 JavaScript API Reference."
-ms.date: 09/24/2022
+ms.date: 09/27/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
