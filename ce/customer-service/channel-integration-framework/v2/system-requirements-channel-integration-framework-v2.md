@@ -1,7 +1,7 @@
 ---
 title: "System requirements for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about the system requirements for Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
-ms.date: 09/21/2022
+ms.date: 09/27/2022
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -19,7 +19,7 @@ The system requirements for Dynamics 365 Channel Integration Framework 2.0 are:
 
 ## Licensing
 
-You'll need an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user.
+You'll need an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)
 
 ## Supported browsers
 
@@ -39,6 +39,7 @@ The domain of the channel URL should use HTTPS protocol.
 ### See also
 
 [Get Dynamics 365 Channel Integration Framework 2.0](../v2/get-channel-integration-framework.md)  
+[Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 [Overview of Dynamics 365 Channel Integration Framework 2.0](../v2/overview-channel-integration-framework.md)  
 [FAQs](../faq-channel-integration-framework.md)  
 

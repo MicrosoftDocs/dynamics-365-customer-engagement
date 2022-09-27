@@ -103,8 +103,6 @@
           href: reference/events/onsizechanged.md
     - name: Dynamics 365 Channel Integration Framework 1.0 Entity reference
       items:
-      - name: Deprecated entities
-        href: reference/entities-attributes/deprecated-cifv1.md
       - name: "msdyn_ciprovider"
         href: reference/entities-attributes/msdyn-ciprovider.md
       - name: "msdyn_conversationdata"
@@ -296,8 +294,6 @@
           href: v2/reference/events/onPresenceChange.md
     - name: Dynamics 365 Channel Integration Framework 2.0 Entity reference
       items:
-      - name: Deprecated entities
-        href: v2/reference/entities-attributes/deprecated-cifv2.md
       - name: "msdyn_appconfiguration"
         href: v2/reference/entities-attributes/msdyn_appconfiguration.md
       - name: "msdyn_channelprovider"

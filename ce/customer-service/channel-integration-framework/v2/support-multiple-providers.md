@@ -1,7 +1,7 @@
 ---
 title: "Configure support for single and multiple channel providers with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Use this topic to understand how you can configure single and multiple channel providers in Omnichannel for Customer Service using Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 09/24/2022
+ms.date: 09/27/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -19,15 +19,15 @@ With Dynamics 365 Channel Integration Framework 2.0, organizations can configure
 
 Here are a few things to note when you create or start sessions when you have multiple channel providers in your organization:
 
-- Sessions started using Dynamics 365 Channel Integration Framework 2.0 APIs are associated with the channel provider. Providers are notified about events for the session started by them.
+- Sessions that are started by using Dynamics 365 Channel Integration Framework 2.0 APIs are associated with the channel provider. Providers are notified about events for the session started by them.
 
 - Providers can open new tabs only in the sessions they have started.
 
-- Providers cannot programmatically switch sessions or close sessions. 
+- Providers can't programmatically switch sessions or close sessions. 
 
 - Agents can manually switch and close sessions. As a best practice, we recommended that sessions are started after taking agent consent using a toast notification.
 
-- If a provider session is not in focus, and there's a new event in that session (such as a new unread message from a customer), then you can use the [requestFocusSession API](reference/microsoft-ciframework/requestfocussession.md) to show the agent that the session that's not in focus requires attention.
+- If a provider session is not in focus, and there's a new event in that session such as a new unread message from a customer, then you can use the [requestFocusSession API](reference/microsoft-ciframework/requestfocussession.md) to show the agent that the session that's not in focus requires attention.
 
 ## Start a home (default) session when your organization uses a single channel provider
 
@@ -35,7 +35,7 @@ If your organization uses a single channel provider, then you can use the `setMo
 
 Call the [Microsoft.CIFramework.setMode(1)](../v2/reference/microsoft-ciframework/setMode.md) method from your provider code to make the communication panel visible. You can add the method at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. 
 
-In addition to this, you can listen for the [onSessionClosed](reference/events/onsessionclosed.md) event to show the communication widget when the last session is closed. This way you can make sure that the communication widget is visible all the time whether a session is open or not.
+You can also listen for the [onSessionClosed](reference/events/onsessionclosed.md) event to show the communication widget when the last session is closed. This way you can make sure that the communication widget is visible all the time whether a session is open or not.
 
 ## Start a home (default) session when your organization uses multiple channel providers
 
