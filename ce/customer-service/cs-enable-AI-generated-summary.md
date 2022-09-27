@@ -35,10 +35,7 @@ A summary includes the following components:
 
 - **Issue description**: Summarizes the key customer problems to solve in a conversation. The model needs at least three customer messages to generate the issue description.
 
-- **Resolution tried**: Summarizes any troubleshooting steps or possible solutions that agents have tried. If the model can't identify a resolution from the transcript, this section is blank.
-
-  > [!NOTE]
-  > The application displays the troubleshooting steps or solution summary as a part of **Resolved**, when the case is resolved or if the conversation ends.
+- **Resolution tried**: Summarizes any troubleshooting steps or possible solutions that agents have tried. If the model can't identify a resolution from the transcript, this section is blank. If the case is resolved or if the conversation ends, the application displays this label as **Resolution**.
 
 ## Regional availability and supported languages
 
