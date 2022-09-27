@@ -917,7 +917,7 @@
       - name: Implement custom scenario
         href: smart-assist-scenario.md
       - name: Retrieve and format rich messages
-        href: message-object.md
+        href: developer/reference/methods/message-object.md
   - name: Bots
     items:
     - name: Overview of bots
