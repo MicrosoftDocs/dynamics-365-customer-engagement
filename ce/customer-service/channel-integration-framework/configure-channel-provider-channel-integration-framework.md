@@ -18,11 +18,8 @@ searchScope:
  - Customer Engagement
 ---
 
-# How to configure a channel provider for your Dynamics 365 organization
+# Configure a channel provider for your Dynamics 365 organization
 
-Using the Dynamics 365 Channel Integration Framework solution, you can configure channel providers.
-
-To configure channel providers:
 
 1. Sign in to Dynamics 365.
 
@@ -50,7 +47,7 @@ To configure channel providers:
   ![Channel provider configuration.](media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 
   > [!Note]
-  > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read-access to the msdyn_ciprovider entity. Now, add the role to the users who will be accessing the Channel Integration Framework.
+  > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel won't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who'll be accessing Dynamics 365 Channel Integration Framework.
 
 5. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
 
@@ -61,13 +58,14 @@ To configure channel providers:
 **The communication widget in the expanded mode**<br><br>
 ![Communication widget in the expanded mode.](media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
 
+
 ### See also
 
-[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
-[Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)<br />
-[Configure channel provider in Channel Integration Framework version 2.0](/dynamics365/customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)<br />
-[FAQs for Channel Integration Framework](faq-channel-integration-framework.md)<br />
-[Bring your own channel](../bring-your-own-channel.md)
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
+[Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)  
+[Configure single and multiple channel providers in Dynamics 365 Channel Integration Framework 2.0](v2/configure-channel-provider-app-profile-manager.md)  
+[FAQ about Dynamics 365 Channel Integration Framework](faq-channel-integration-framework.md)  
+[Bring your own channel](../bring-your-own-channel.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
