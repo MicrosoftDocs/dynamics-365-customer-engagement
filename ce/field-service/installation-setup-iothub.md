@@ -192,11 +192,11 @@ If you're working with Azure Time Series Insights, you need to update some infor
     );
     ```
 
-1. Run the following script, using your Time Series Insights URL and the ID of the IoT Provider Instance that you created earlier.
+1. Run the following script, using your Time Series Insights URL and the GUID of the IoT Provider Instance row in the msdyn_iotproviderinstance table for the instance you created earlier.
 
     ```javascript
     var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN (found in Time Series Insights resource)"};
-    Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Enter msdyn_iotproviderinstance ID ", data);
+    Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Enter msdyn_iotproviderinstance GUID ", data);
     ```
 
 ## Step 9: Set up the simulator (optional)
