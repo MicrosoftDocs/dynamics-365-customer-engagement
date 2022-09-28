@@ -98,7 +98,7 @@ To access the drill down, select any metric value for the agent you're intereste
 > [!div class="mx-imgBorder"]
 > ![Omnichannel agent drill down.](media/oc-agent-drill-down.png "Omnichannel agent drill down")
 
-## Agent hourly details drill-down view
+## Drill-down view of agent hourly details
 
 The Agent hourly details drill-down view provides granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
@@ -107,17 +107,17 @@ To view the drill down, select any single metric value on the desired day, then 
 > [!div class="mx-imgBorder"]
 > ![Agent hourly drill down view.](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
 
-## Agent presence status drill-down view
+## Drill-down view of agent presence statuses
 
-The agent presence status drill-down view provides you with an insight into the **Presence status** metrics of an agent which helps you analyze the duration for which an agent was in a particular state. You can view the **Start time** and the **End time** to view the duration for which the agent was in that particular status. 
+The agent presence status drill-down view shows the start time and end time of all the presence statuses for agents during their work hours. This data helps you derive the duration of each presence status for the agent.
 
-Select the **Availability** tab and then select either **Aggregated view** or **Detailed view** to view the hourly details or the monthly details, respectively.
+Select the **Availability** tab. In **Aggregated view**, the duration of the presence status is displayed for each hour. In **Detailed view**, the start and end times of the presence status is displayed for each agent, over a month.
 
 :::image type="content" source="media/agent-presence-drill-down.png" alt-text="Agent presence drill down":::
 
-## Agent custom presence drill-down view
+## Drill-down view of agent custom presence
 
-The agent custom presence drill-down view provides you an insight into the out of the box presence status metrics as well as the custom presence metrics.
+The agent custom presence drill-down view provides you an insight into the out-of-the-box presence status metrics and custom presence metrics.
 
 Select the **Availability** tab and then select the **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out of the box and custom state metrics. For example, on April 05, 2022, the specific agent spent 0.7hrs in the custom state of **Inactive** and 0.6hrs in the out of the box status of **Busy - DND**.
 
