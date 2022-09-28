@@ -86,7 +86,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
-    - **Work item limit exceeds**: Enter a value to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
+    - **Work item limit exceeds**: Enter a value between 1 to 100 to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
 
         - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
         - **End call**
@@ -95,7 +95,7 @@ For overflow to work correctly, the following prerequisites must be met:
         - **Transfer to an external number**
         - **Voicemail (preview)**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value to denote the wait time after which one of the following overflow actions will be triggered:
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 seconds to 60 minutes to denote the wait time after which one of the following overflow actions will be triggered:
 
         - **Direct callback (preview)**
         - **End call**
