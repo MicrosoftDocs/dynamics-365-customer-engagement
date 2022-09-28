@@ -20,7 +20,12 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard in Omnichannel for Customer Service.](media/oc-agent-dashboard.png "Agent dashboard in Omnichannel for Customer Service")
 
-You can view the Agent dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select the **Agent** tab.
+**Navigation**
+
+You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the Agent dashboard as follows:
+
+- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
+- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
 
 ## Report details
 

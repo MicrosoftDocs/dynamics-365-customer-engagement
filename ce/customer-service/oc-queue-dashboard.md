@@ -15,7 +15,12 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard historical analytics.](media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
-You can view the Queue dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select the **Queue** tab.
+**Navigation**
+
+You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the Conversation dashboard as follows:
+
+- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Queue**.
+- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Queue**.
 
 By default, the dashboard shows key performance indicators (KPIs) for the past month and for all channels, queues, and agents in your system. You can use the data filtering options to select data for specific time periods, channels, queues, agents, conversation status, and time zone. To filter data by duration, channel, queue, agent, conversation status, or time zone, select a value from the respective dropdown list.
 
