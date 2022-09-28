@@ -9,34 +9,7 @@ This is done by entering date and time values on the work order form in the pref
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order set to Active for forty five hours.](../../field-service/media/scheduling-time-constraint-work-order-fields.png)
 
-For instance, we will consider the following scheduling scenarios throughout this topic: 
-
-**Scenario 1: Schedule between two dates**
-
-An installation work order must be scheduled and is expected to be completed this week.
-
-- Example: 9/10/2019 - 9/15/2019
-- Enter **Date window start** and **Date window end**
-- Considered by schedule assistant and Resource Scheduling Optimization (RSO)
-
-**Scenario 2: Schedule between two times of day**
-
- A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
-
-- Example: 9:00 AM - 5:00 PM
-- Enter **Time window start** and **Time window end**
-- Considered by RSO
-
-**Scenario 3: Schedule between two dates and times**
-
-An inspection work order should be automatically scheduled for completion in the afternoon some day within the next two weeks.
-
-- Example: 9/10/2019 9:00 AM - 9/11/2019 5:00 PM
-- Enter **Time from promised** and **Time to promised**
-- Considered by the schedule board, schedule assistant, and RSO
-
-Let's configure these 3 scenarios to understand how dispatchers can schedule work orders within time constraints. 
-
+In this article, we'll review some scenarios.
 
 ## Prerequisites
 

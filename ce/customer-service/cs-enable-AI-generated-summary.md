@@ -61,7 +61,7 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
   
    - **When an agent joins the conversation** : Auto-generate and display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
    - **When the conversation ends** : Auto-generate and display the conversation when the conversation ends.
-   - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can select on the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
+   - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can select  the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
         :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
@@ -69,26 +69,16 @@ Tenant permissions to enable the enhanced integration with Microsoft Teams featu
 
 You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable AI-generated summary for Microsoft Teams and chats:
 
-2. In the site map, under **Microsoft Teams Integration**, select **Collaboration**.
+1. In the site map, select **Service Management**.
+2. In **Collaboration**, select **Embedded chat using Teams**.
+1. In **Connect chats to Dynamics 365 records**, select **Conversation**.
 
-3. Set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
+1.  In **Conversation settings**, in **New connected chats**, turn on **AI-generated intro note**.
 
-4. To get suggested contacts for active cases or supported conversations, perform the following steps:
-   
-   1. Select **Case** or **Conversation** in the **Link chat to Dynamics 365 records** section. Based on your selection, the **Case settings** or **Conversation settings** flyout menu appears on the right.
-
-   2. In **Suggested contacts**, turn on the toggle for **AI-based suggested contacts**.
-
-    It takes 24 hours for the data to be preprocessed for the first time use.
-
-    :::image type="content" source="media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI-suggested contacts.":::
-
-5. Optionally, set the toggle for **Turn on Enhanced Microsoft Teams Integration** to **Yes**. This setting lets agents pin records and views to a Teams channel directly from Dynamics 365 and also suggests agents who worked on similar cases.
-
-6. Optionally, set the toggle for **Turn on Confidential Labels** to **Yes** to create private Teams messages and add sensitivity or confidentiality labels in enhanced Microsoft Teams integration.
+:::image type="content" source="media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
 
 ### See also
 
-[View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)
+[View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)<br>
 [Overview of Customer Service workspace](csw-overview.md)  

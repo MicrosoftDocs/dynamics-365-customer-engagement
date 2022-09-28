@@ -1,5 +1,5 @@
 ---
-title: AI-generated summary for customer service
+title: Auto-summarize conversations in customer service
 description: View an AI-generated summary of a customer service conversation and share it in Microsoft Teams.
 ms.date: 09/22/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# View and share Auto-summarized conversations (Preview)
+# View and share auto-summarized conversations (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -55,7 +55,7 @@ When you open a case or a conversation, the **Teams chats** pane appears to the 
 
 1. Select **New connected chat**.
 
-    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat.png" alt-text="Screenshot that shows the New connected chat button in the Teams chats pane.":::
+    :::image type="content" source="media/teams-new-linked-chat.png" alt-text="Screenshot that shows the New connected chat button in the Teams chats pane.":::
 
 1. Select a contact to start a chat with.  
     If your administrator has turned on AI and rules-based suggestions, the system suggests contacts you might want to chat with. They include contacts who have experience resolving similar cases or who are related to the current case. You can select more than one contact if you want to start a group chat.

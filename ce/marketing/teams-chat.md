@@ -33,7 +33,7 @@ Dynamics 365 Marketing supports the following Teams collaboration activities:
     - **Real-time marketing**
         - Customer journey
         - Email
-        - SMS
+        - Text message
         - Push notification
 
     > [!NOTE]
@@ -73,7 +73,7 @@ The suggested contacts list displays users who are connected with or have intera
 
 ## View all connected Dynamics 365 chats
 
-To view all connected chats, open the list view of a customer journey or content entity (such as an email, push notification, SMS, social post, or a marketing page) and select the **Teams chats and channels integration** icon ![Teams chat icon.](media/teams-chat-icon.png "Teams chat icon"). All your connected Dynamics 365 chats will appear under **Chats connected to records**.
+To view all connected chats, open the list view of a customer journey or content entity (such as an email, push notification, text message, social post, or a marketing page) and select the **Teams chats and channels integration** icon ![Teams chat icon.](media/teams-chat-icon.png "Teams chat icon"). All your connected Dynamics 365 chats will appear under **Chats connected to records**.
 
 ## Start a connected Teams chat in Dynamics 365
 
@@ -138,7 +138,7 @@ By default, you can create Teams chats connected to the following content and cu
 **Real-time marketing**:
 - Customer journey
 -	Email
--	SMS
+-	Text message
 -	Push notification
 
 Your administrator can extend the list of supported record types if needed. To extend the list:

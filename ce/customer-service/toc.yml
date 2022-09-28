@@ -412,7 +412,7 @@
         href: create-entitlement-define-support-terms-customer.md
       - name: Use entitlement templates to set up entitlements  
         href: set-up-entitlements-templates.md
-      - name: SLA Limitations
+      - name: SLA limitations
         href: sla-limitations.md
       - name: Migrate SLAs
         href: migrate-slas.md
@@ -478,7 +478,7 @@
         href: set-up-knowledge-management-embedded-knowledge-search.md 
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
-      - name: Set up knowledge search providers
+      - name: Set up external knowledge search providers
         href: set-up-search-providers.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
@@ -850,11 +850,11 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure authentication settings
+    - name: Manage authentication settings
       items:
-      - name: Create authentication settings for chat  
+      - name: Configure authentication settings for chat  
         href: create-chat-auth-settings.md
-      - name: Create authentication settings for social channels
+      - name: Configure authentication settings for social channels
         href: create-chat-auth-settings.md#socialauth
     - name: Configure payment profiles
       href: configure-payment-profiles.md
