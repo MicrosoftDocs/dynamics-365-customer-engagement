@@ -16,36 +16,49 @@ search.app:
 
 # Optimization goals in Resource Scheduling Optimization
 
-A goal defines some conditions and expectations that Resource Scheduling Optimization should consider when performing an optimization. A goal consists of the following parts:
+An optimization goal defines conditions and expectations that Resource Scheduling Optimization should consider when performing an optimization.
 
-- **Constraints**: Restrictions that are imposed on the bookings to be created. Multiple constraints can be selected. For example - selecting "Meets Required Characteristics" would only allow bookings to be created if the resource has the skills listed in the requirement. [All constraints](#define-constraints) are explained in detail below.
-- **Objectives**: Overall expectations from the resulting routes. Multiple objectives can be selected, but the order matters. The higher it is on the list, the more preference Resource Scheduling Optimization will give to the objective. For example: "Maximize Total Working Hours" would ensure that the resources are allocated with as much work as possible. [All objectives](#define-objectives) are explained in detail below.
-- **Effort level**: Amount of effort that Resource Scheduling Optimization puts in to find the best combination of resources, route, and day or time. The effort can be be 'Very Light', 'Light', 'Moderate', 'Intense', or 'Very Intense'. The higher the effort level, the more iterations of possible combinations the Resource Scheduling Optimization engine considers, and therefore, the longer it takes to complete the calculations.
-- **Travel Time Calculation**: Method of calculating travel distance between resources and requirements.
+The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements and existing bookings. It creates the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they meet all constraints respect the importance of the listed objectives in the defined order.
 
-Using the elements of a goal, you define how bookings should be optimized. The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements and existing bookings. It creates the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
+## Create a scheduling optimization goal
 
-- Meet all company constraints.
-- Give the highest importance to the first objective listed, and decreasing importance to the ones following it.
+Using the elements of a goal, you define how bookings should be optimized.
 
-## Define constraints
+:::image type="content" source="media/scheduling-optimization-goal.png" alt-text="Screenshot of a Scheduling Optimization Goal record.":::
+
+1. In Resource Scheduling Optimization, in the **Settings** section, go to **Optimization Goals**.
+
+1. Enter a **Name** for the optimization goal.
+
+1. Choose an **Engine Effort Level**. It defined the amount of effort that the system puts in to find the best combination of resources, route, and day or time. Higher effort levels mean that the optimization engine considers more possible combinations. The more combinations the system considers, the longer it takes to complete the calculations.
+
+1. Choose the **Travel Time Calculation** option to specify the method of calculating travel distance between resources and requirements.
+
+1. Select all **Constraints** for the optimization goal. [Constraints](#understand-constraints) are restrictions that are imposed on the bookings that the system creates.
+
+1. Select **Save** to create the *Scheduling Optimization Goal* record.
+
+1. In the **Objectives** section of the record, select an objective to change its properties. Select **New Scheduling Optimization Objective** to add more. [All objectives](#understand-objectives) are explained in detail below.
+
+1. Select **Save & Close** to apply your changes.
+
+## Understand constraints
+
+Resource Scheduling Optimization works with a set of constraints that you can use to define an optimization goal.
 
 ### Schedule Within Working Hours
 
-This constraint creates the booking if it can be completed (both travel to work location and the work itself) within the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although this travel time is not visually displayed on the schedule board.
+Creates the booking if the travel time to the work location and the work itself fit in a resource's working hours. It also includes travel time from the last booking to the resource's end location, although this travel time is not represented on the schedule board.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a booked resource_1.](media/c56516997db07c1f0ef64bdcc507350f.png)
-
-If the constraint is removed from the goal, work will still be scheduled within working hours, but travel to and from bookings _can_ happen outside of the resource's working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. See here for more information on [travel outside working hours.](rso-travel-outside-working-hours.md)
+If the constraint is removed from the goal, work will still be scheduled within working hours, but travel to and from bookings *can* happen outside of the resource's working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. For more information, go to [Allow travel time outside of working hours](rso-travel-outside-working-hours.md).
 
 ### Meets Required Characteristics
 
-This constraint ensures that a resource has all the required characteristics (or skills) and corresponding level of expertise needed to be scheduled to a requirement. The required characteristics are listed on the requirement form and existing characteristics are listed on the resource form.
+Ensures that a resource has all the required [characteristics and proficiency](set-up-characteristics.md) to complete a resource requirement.
 
 ### Meets Required Roles
 
-As of **Resource Scheduling Optimization v3.0.19263.1+**, Resource Scheduling Optimization will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", Resource Scheduling Optimization will schedule to a resource who has that role. If the requirement calls for two resource roles, Resource Scheduling Optimization will schedule the requirement to resources that have either of those roles, following "OR" logic.
+Ensures that a bookable resource has the required roles to complete a resource requirement.If the resource requirement lists more than one role, the system will ensure one of the roles match.
 
 ### Scheduling Lock Options (deprecated)
 
@@ -53,87 +66,53 @@ The Scheduling Lock constraint is deprecated and will soon be removed as a const
 
 ### Scheduling Windows
 
-This constraint ensures that Resource Scheduling Optimization created a booking work within the time window start and end fields of the resource requirement or booking record.
+This constraint ensures that Resource Scheduling Optimization creates a booking within the time window of the resource requirement or booking record.
 
-- If **From Date** and **To Date** on requirement or **Date Window Start** and **Date Window End** on booking are set as shown in the following example, it indicates you want Resource Scheduling Optimization to schedule the booking on 5/24/2018 and time of day doesn’t matter.
+- **From/To Date** or **Date Window Start/End** set to the same date: Resource Scheduling Optimization schedules the booking on that day but the time of day doesn't matter.
+- **Time Window Start** and **Time Window End** define a time frame: Resource Scheduling Optimization schedules the booking in that time frame but the date doesn't matter.
+- **Time From Promised** and **Time To Promised** are set to a date and a time frame: Resource Scheduling Optimization schedules a booking on the selected date in the selected time range.
+- **Date Window Start/End** and **Time Window Start/End** are set to a time frame on the same day: Resource Scheduling Optimization schedules a booking on the selected date in the selected time range.
+- **Empty time values (v3.0+)**: Resource Scheduling Optimization will respect scenarios where either the start or end time is not defined.
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of the date selectors.](media/753086631f45017fa9cef8f3795078ba.png)
+  For example, if a requirement has only a time window start value, the system schedules the requirement after that time, regardless of date.
 
-- If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want Resource Scheduling Optimization to schedule a booking from 2:00 AM to 6:00 AM and the date doesn’t matter.
+  This logic applies to the following fields on the *Resource Requirement* and *Resource Booking* entity:
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of the time window start and time window end fields.](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
+  - **Time Window Start** and **Time Window End**
+  - **Time From Promised** and **Time To Promised**
+  - **From Date** and **To Date**
 
-- If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want Resource Scheduling Optimization to schedule a booking between 4:00 AM and 8:00 AM on 5/24/2018. It has to be a specific date and specific time range.
-
- > [!div class="mx-imgBorder"]
- > ![Screenshot of the time from promised and time to promised fields.](media/f08dd1dd681a4369a2b46a968c08e631.png)
-  
 > [!NOTE]
->
-> - If these fields are conflicting, Resource Scheduling Optimization uses **Time From Promised** and **Time To Promised** first. Then it will use one or a combination of other fields.
-> - Resource Scheduling Optimization will ensure the **Estimated Arrival Time** falls into the window specified above. It does not guarantee that the booking’s end time will fall within the time window.
-
-- **Empty time values (v3.0+)**
-  Resource Scheduling Optimization will respect scenarios where either the start or end time is not defined on a requirement.
-
-  In the following example, a requirement has only a time window start value; Resource Scheduling Optimization schedules the requirement anytime after 1:00 PM regardless of date.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group with two requirements_1.](./media/scheduling-rso-3-0-empty-time-promised.png)
-
-  This logic applies to the following fields.
-
-  On the resource requirement entity:
-        -	**Time Window Start** and **Time Window End**
-        -	**Time From Promised** and **Time To Promised**
-        -	**From Date** and **To Date**
-
-  On the resource booking entity:
-        -	**Time Window Start** and **Time Window End**
-        -	**Time From Promised** and **Time To Promised**
-        -	**From Date** and **To Date**
+> If time and date fields contain conflicting information, Resource Scheduling Optimization uses **Time From/To Promised** first.
 
 ### Meets Resource Preferences
 
-Formerly called "Restricted Resources" constraint, the constraint was expanded to include all resource preferences on requirements as of **Resource Scheduling Optimization v3.0.19263.1**.
-Preferred resources can be added to the requirement entity. For more information, see [Resource preferences](resource-preferences.md).
-When this constraint is selected, Resource Scheduling Optimization will respect three different types of resource preferences on a requirement:
+You can add preferred resources to the requirement entity. For more information, go to [Resource preferences](resource-preferences.md).
+Resource Scheduling Optimization respects three different types of resource preferences:
 
-- **Preferred** - Resource Scheduling Optimization will give scheduling preference to the resource if available but will not guarantee that the requirement is scheduled to them. This can happen if Resource Scheduling Optimization has to choose a different resource for the most optimal schedule.
-- **Restricted** - Resource Scheduling Optimization will strictly not schedule to the resources added to requirements with this resource preference.
-- **Must choose from** - Resource Scheduling Optimization will schedule to this resource if available during the time range of Resource Scheduling Optimization. You can add multiple resources with a "Must choose from" preference and Resource Scheduling Optimization will schedule to one of them; the first that is available. If none of them are available, this requirement will not be scheduled.
+- **Preferred**: Scheduling preference for the defined resource, if available, but not guaranteed if a different resource better fits the optimal schedule.
+- **Restricted**: The system won't schedule to the resources added to requirements with this resource preference.
+- **Must choose from**: The defined resource gets scheduled if available during the time range. For multiple resources, the system will schedule the first that is available. If none of them are available, the requirement won't get scheduled.
 
 ### Matches Territories
 
-When this constraint is selected, Resource Scheduling Optimization will respect the [Territory field](set-up-territories.md) values on the requirement and resource records, and schedule bookings only when the territory values on both records match. A requirement can only belong to one territory, but resources can belong to multiple territories.
+Respect the [Territory field](set-up-territories.md) values on the requirement and resource records, and schedule bookings only when the territory values on both records match. A requirement can only belong to one territory, but resources can belong to multiple territories.
 
 ### Matches Resource Type
 
-As of **Resource Scheduling Optimization v2.8+**, Resource Scheduling Optimization will respect the [Resource Type field](set-up-bookable-resources.md#create-frontline-workers-and-other-bookable-resources-manually) values on the requirement and resource records, and schedule bookings only when the resource type values on both records match.
+Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md#create-frontline-workers-and-other-bookable-resources-manually) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
 
-Bookable resources include these types:
+The following resource types are considered for optimization:
 
-- Generic
-- Users *
-- Contacts *
-- Accounts *
-- Equipment *
-- Facility *
-- Crew
-- Pool
+- Users
+- Contacts
+- Accounts
+- Equipment
+- Facility
 
-\* *Indicates resource types the optimization will consider*
+## Understand objectives
 
-In general, resource types define how the resource relates to the organization. For example, resources with the resource type **Users** are typically employees, whereas the resource type **Contacts** or **Accounts** are typically contractors.
-
-Additionally, requirements allow multi-select so you can specify which resource types you need for a given requirement.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of multi-select resource type attribute on requirement.](media/rso-requirement-resource-type-field.png)
-
-## Define objectives
+Overall expectations from the resulting routes. Multiple objectives can be selected, but the order matters. The higher it is on the list, the more preference the system gives to the objective.
 
 Add and rank the objectives of the Resource Scheduling Optimization goal by using the **Move Up** and **Move Down** buttons, as seen in the following screenshot. The higher an objective is on a list, the more important it is to Resource Scheduling Optimization. In this example, the most important objective is "Maximize Total Working Hours".
 
