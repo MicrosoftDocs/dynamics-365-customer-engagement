@@ -10,11 +10,19 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ms.custom: intro-internal
 ---
 
-# View and understand the Agents insights report in Omnichannel real time analytics
+# View and understand the Agents report in Omnichannel real time analytics (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
 
 The Omnichannel real time insights dashboard contains the Agents insights report that helps provide an overview of agent performance.
 
