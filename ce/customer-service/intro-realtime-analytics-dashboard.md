@@ -42,6 +42,12 @@ Omnichannel real time analytics consists of the following reports.
 
 - **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md). 
 
+## Security 
+Real time analytics honors the security permissions defined in Dataverse. For example, if your organization has set BU level permission for the report user, then the user will only be able to see the metrics computed based on the BU level data.  
+
+> [!NOTE]
+> If multiple users see different values in the metrics, you need to investigate the permissions across those users as this might be the reason for not seeing the same values in metrics.  
+
 ### See also
 
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)  
