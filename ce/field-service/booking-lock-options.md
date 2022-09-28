@@ -1,5 +1,5 @@
 ---
-title: Booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service | MicrosoftDocs"
+title: Understand the booking lock option in Resource Scheduling Optimization
 description: Learn about the booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service.
 
 ms.date: 01/29/2019
@@ -12,9 +12,13 @@ search.app:
   - D365FS
 --- 
 
-# Understanding the booking lock option in Resource Scheduling Optimization
+# Understand the booking lock option in Resource Scheduling Optimization
 
-You can schedule lock options. There are four types:
+Once a booking is created, a lock can be set on the **Scheduling Lock Options** field in the **Resource Scheduling Optimization** tab of the booking record. Resource Scheduling Optimization will always include locked bookings as part of the optimized schedule.
+
+
+
+There are four types of booking lock options:
 
 1. **Time Range**: Resource Scheduling Optimization is able to move bookings with this lock option within
     certain time ranges (ensure Estimated Arrival Time falls into this time
