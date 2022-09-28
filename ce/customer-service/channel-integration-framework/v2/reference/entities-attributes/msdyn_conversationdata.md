@@ -11,7 +11,7 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 
 # msdyn_conversationdata Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
-[!INCLUDE[token-msdyn-conversationdata](../../../shared/token-msdyn-sessionparticipantdata.md)]
+[!INCLUDE[token-msdyn-conversationdata](../../../shared/token-msdyn-conversationdata.md)]
 
 ### See also
 
