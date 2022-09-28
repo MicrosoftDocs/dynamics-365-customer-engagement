@@ -49,7 +49,6 @@ The Articles insights dashboard represents the following metrics.
 | Linked cases | The total number of cases that were linked to the articles. |
 | Shares | The total number of the article that were shared by the support representative. |
 
-
 ## Search term insights
 
 The Search term insights dashboard is designed to provide supervisors and knowledge workers with valuable insights into how agents find and use knowledge articles.
