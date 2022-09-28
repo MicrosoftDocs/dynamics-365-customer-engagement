@@ -28,7 +28,7 @@ The following table lists the Markdown formats used in inbound messages sent by 
 
 |          Style            |      Inbound                      |    Outbound                           | Example   |
 | ------------------------- | -------------------------------   | --------------------------------------|-----------|
-| bold                      | \*bold\*                          | \*bold\*                              | **text**  |
+| bold                      | \*\*bold\*\*                          | \*\*bold\*\*                              | **text**  |
 | italics                   | \_italics\_                       | \_italics\_                           | *text*    |
 | strikethrough             | ~strikethrough~                   | ~strikethrough~                       | ~~text~~  |
 | blockquote                | > blockquote                      |  > blockquote                         | <blockquote>text</blockquote> |
