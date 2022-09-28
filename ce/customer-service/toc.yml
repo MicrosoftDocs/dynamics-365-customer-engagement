@@ -1042,6 +1042,10 @@
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+      - name: Real time analytics reports in Omnichannel for Customer Service
+        items: 
+        - name: Introduction to Omnichannel Real time analytics reports
+          href: intro-realtime-analytics-dashboard.md
       - name: Omnichannel Insights
         items: 
         - name: Introduction to Omnichannel Insights
