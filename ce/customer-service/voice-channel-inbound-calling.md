@@ -105,7 +105,7 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ### Configure call overflow for the voice queue
 
-With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Configure call overflow](voice-channel-call-overflow.md)
+With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Manage overflow](manage-overflow.md)
 
 ### Assignment rules for a queue
 
@@ -127,15 +127,8 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 5. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
-    ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-6. In **Overflow action**, select one of the following options:
-   - **Default**: Specify if the work item should remain in the queue to be routed to the next available agent.
-   - **End call**: Specify to end the call if no agent will be available to take the call, for example an operating hour is configured and the overflow action was triggered on account of it.
-   - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
-
-    > [!Note]
-    > For the action to be run, overflow condition must be configured for the corresponding queue. More information: [Handle call overflow](voice-channel-call-overflow.md)
+6. To configure percent-based distribution of work items, see [Percent-based routing](percent-based-routing.md)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
 

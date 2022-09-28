@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 
 ---

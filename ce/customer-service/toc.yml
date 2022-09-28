@@ -616,8 +616,8 @@
         href: voice-channel-survey.md
       - name: Block spam numbers
         href: voice-channel-block-number.md        
-      - name: Handle call overflow for the voice queues
-        href: voice-channel-call-overflow.md
+      - name: Configure voicemail as overflow action
+        href: voice-channel-voicemail.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
