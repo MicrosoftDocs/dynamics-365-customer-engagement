@@ -28,6 +28,9 @@ The bot authentication token provider function, when called with a callback func
 
 Bot authentication URL.
 
+## Example
+
+[!INCLUDE[setBotAuthTokenProvider-code-sample](../includes/setBotAuthTokenProvider-code-sample.md)]
 
 
 ### See also
