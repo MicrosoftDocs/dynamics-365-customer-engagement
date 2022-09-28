@@ -21,7 +21,21 @@ For work items, such as calls, conversations, and cases, you can address the fol
 
 If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
 
-When all queues are overflowing, priority is given to those queues that satisfy the "out of operating hours" condition.
+## How overflow works
+
+The overflow evaluation takes place before the work item is routed to the queue and after the route-to-queue evaluation takes place. The following factors are considered during the overflow evaluation:
+
+- If multiple queues match in the route-to-queue rules, the system routes the work item to the first queue that's not overflowing.
+
+- If all matched queues are overflowing, one of the following actions take place:
+
+   - The system routes to the queue that's operational and the overflow action is triggered.
+   - If none of the queues are operational, the system routes the work item to the queue that'll be operational at the earliest and the overflow action is triggered.
+
+- If the matched queue is overflowing due to multiple conditions:
+  - The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they have been defined.
+
+When you add an operating hour record to a queue, the system assigns a default condition on overflow for out of operation hours and action as **Assign to queue anyway**. You can edit the action to be taken.
 
 The channel-specific operating hour setting that's configured in the workstream doesn't affect the overflow settings.
 
@@ -89,9 +103,9 @@ For overflow to work correctly, the following prerequisites must be met:
 
         :::image type="content" source="media/overflow-condition-action-voice-queue.png" alt-text="A screenshot of the condition and action pairs configured for the voice queue.":::
 
-2. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
+1. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
 
-### Configure overflow override
+## Configure overflow override
 
 If the overflow action for a queue is end call or keep waiting in queue, you can configure override conditions for those queues in the route-to-queue rules at the workstream level.
 
