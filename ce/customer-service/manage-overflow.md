@@ -29,13 +29,13 @@ The overflow evaluation takes place before the work item is routed to the queue 
 
 - If all matched queues are overflowing, one of the following actions take place:
 
-   - The system routes to the queue that's operational and the overflow action is triggered.
-   - If none of the queues are operational, the system routes the work item to the queue that'll be operational at the earliest and the overflow action is triggered.
+  - The system routes to the queue that's operational and the overflow action is triggered.
+  - If none of the queues are operational, the system routes the work item to the queue that'll be operational at the earliest and the overflow action is triggered.
 
 - If the matched queue is overflowing due to multiple conditions:
   - The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they have been defined.
 
-When you add an operating hour record to a queue, the system assigns a default condition on overflow for out of operation hours and action as **Assign to queue anyway**. You can edit the action to be taken.
+When you add an operating hour record to a queue, the system assigns a default condition on overflow for out of operation hours and action as **Assign to queue anyway**. You can edit and set another action for the condition.
 
 The channel-specific operating hour setting that's configured in the workstream doesn't affect the overflow settings.
 
@@ -67,18 +67,20 @@ For overflow to work correctly, the following prerequisites must be met:
 
 1. Select the queue for which you want to configure call overflow.
 
-1. In **Overflow conditions**, select **Set overflow conditions**. The **Overflow management** dialog displays the options to configure conditions and actions.
+1. In **Overflow management**, select **Set overflow conditions**. The **Overflow management** dialog displays the options to configure conditions and actions.
+
+1. Select **Add condition-action pair**. The **Condition** and **Action** fields are displayed.
 
 1. For the record, messaging, and voice queues, you can set the **Out of operation hours** condition and one of the following actions:
 
     - **Assign to queue anyway**: The work item stays in the queue.
     - **Transfer to a different queue**: Select a queue in the dropdown list.
 
-   The following extra options are available for the messaging and voice queues:
+   For the **Out of operation hours** condition, the following extra actions are available for the messaging and voice queues:
 
      - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
-     - **End conversation**: For messaging queues only.
-     - **Transfer to a different queue**: Select a queue from the dropdown list that appears.
+     - **End conversation**: For messaging queues only. The conversation is routed to the queue and ended.
+     - **Transfer to a different queue**: Select a queue from the dropdown list that appears. The work item is transferred to the selected queue.
      - **Transfer to an external number**: Enter the number to which the call must be transferred.
      - **Voicemail (preview)**: For voice calls only. Customers can opt to leave a voicemail that the agents will receive to act upon.
 
@@ -107,13 +109,17 @@ For overflow to work correctly, the following prerequisites must be met:
 
 ## Configure overflow override
 
-If the overflow action for a queue is end call or keep waiting in queue, you can configure override conditions for those queues in the route-to-queue rules at the workstream level.
+In certain cases, you mightn't want an overflow action to be run for specific type of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing with the overflow action as "end call" or "keep waiting in queue". This might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
 
 1. In Customer Service admin center, go to the required workstream, and select the route-to-queue rule in which the queue is configured.
 
-2. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**, and select **Add queue overflow override**.
+1. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**.
 
-3. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
+   :::image type="content" source="media/queue-overflow-override.png" alt-text="Configure override conditions for queues in the route to queue rule.":::
+
+1. Select **Add queue overflow override**.
+
+1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
 
 ## Define operation hours
 
