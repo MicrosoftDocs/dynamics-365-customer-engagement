@@ -35,7 +35,7 @@ If you're an administrator, you can also set system settings that affect all use
   
 1.  Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises).](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
   
-2.  Select **Options**.  
+2.  Select **Personalization Settings**.  
  
 3.  Fill in the information, as required. Select on a tab here to see information on settings.  
   

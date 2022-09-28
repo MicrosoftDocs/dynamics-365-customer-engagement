@@ -16,6 +16,7 @@ ms.custom:
 Microsoft CIFramework provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
 > [!Important]
+> - The APIs are supported only from the active channel providers configured in your organization.
 > - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
 > - The time-out limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
 
