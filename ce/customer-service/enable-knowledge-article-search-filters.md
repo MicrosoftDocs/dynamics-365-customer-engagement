@@ -242,4 +242,4 @@ You can allow agents to personalize their knowledge article search filters in th
 
 3. Select **Save**.
 
-Once you have enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you have previously set for them.
+After you've enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you previously set for them.
