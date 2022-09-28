@@ -162,13 +162,5 @@ Add default price lists for territories or customer segments. This makes it easi
 3.  Select **Save & Close**.  
   
 4.  In the price list form, select the **Auto Save** button.  
-  
-### See also    
-  
- - [Create a product or service](../field-service/create-product-or-service.md)   
- - [Getting started with Field Service](../field-service/user-guide.md)
- - [Create work order templates with incident types](../field-service/configure-incident-types.md)
- - [Entitlements](./work-order-entitlements.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

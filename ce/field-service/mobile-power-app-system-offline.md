@@ -243,10 +243,4 @@ Sync notifications are available from Unified Interface Platform version 9.2.220
 > [!NOTE]
 > As part of Wave 1, 2021, Power Platform is introducing new (preview) features for the mobile offline profile. These features include a new way to access the mobile offline profile from [http://make.powerapps.com](http://make.powerapps.com), improved error handling, and removing the need to manually add individual user access. For more information, see [mobile offline overview](/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
 
-### See also
-
-- [Set up mobile offline synchronization](/dynamics365/mobile-app/preview-setup-mobile-offline).
-- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
-- [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

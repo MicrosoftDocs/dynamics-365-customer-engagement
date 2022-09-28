@@ -72,9 +72,4 @@ The Booking form and Work Order form are combined using a PCF control called the
 >[!TIP] 
 > It is recommended to use the Form Component Control to add information from multiple entities (tables) into a single form. For example, you may add Account information into the Customer Asset form. Doing so improves performance by reducing form load times and it also improves usability by reducing the need for the frontline worker to navigate to different forms.
 
-### See also
-- [Customizing entity forms](/powerapps/developer/model-driven-apps/customize-entity-forms).
-
-
-
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

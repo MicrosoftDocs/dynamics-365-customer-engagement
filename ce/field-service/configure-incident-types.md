@@ -14,9 +14,9 @@ search.app:
 ---
 # Create work order templates with incident types
 
-Incident types act as service templates that allow users to quickly create work orders for the most common types of jobs that your organization performs. Incident types are also used to define specific work order issues and recommended resolutions.
+Incident types act as service templates that allow users to quickly [create work orders](create-work-order.md) for the most common types of jobs that your organization performs. Incident types are also used to define specific work order issues and recommended resolutions.
 
-Where **work order types** define the general category of a work order (for instance: inspection, repair, or maintenance), **incident types** define the specific request of a work order and effectively add more details to the work order type.
+Where **work order types** define the general [category of a work order](create-work-order-types.md) (for instance: inspection, repair, or maintenance), **incident types** define the specific request of a work order and effectively add more details to the work order type.
 
 For example, an incident type can be:
 - A specific error code on a machine ("Error code 0048").
@@ -421,14 +421,5 @@ Only one work order incident can be the primary incident and this is either the 
 ### Maximizing incidents
 - Consider using Azure Machine Learning to improve the estimated durations of incidents types. This means adjusting the duration of incidents as they are completed based on the actual duration of the work order.
 - Correlating incident types with IoT alerts generated from Connected Field Service can streamline issues and resolutions and improve the organization's first-time fix rate.
-
-### See also  
-
-- [Create work order types](../field-service/create-work-order-types.md)   
-- [Create a work order](../field-service/create-work-order.md)
-- [Add account details to work orders](../field-service/work-order-customer-account.md)   
-- [Work order life cycle and statuses](../field-service/work-order-status-booking-status.md)  
-- [Set up service task types](../field-service/set-up-service-task-types.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
