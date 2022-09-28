@@ -48,9 +48,9 @@ Omnichannel real time analytics consists of the following reports.
 
 - **Voice**: 
 
-- **Agent**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this report is displayed based on the last 24 hours conversations. To learn more, see [View and understand the Agents report in Omnichannel real time analytics](realtime-agents-dashboard.md). If you're unable to view the reports, contact your system administrator. More information: [Configure realtime analytics dashboard](enable-realtime-analytics-dashboard-administrator.md). The real time analytics reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
+- **Agent**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this report is displayed based on the last 24 hours conversations. To learn more, see [View and understand the Agents report in Omnichannel real time analytics](realtime-agents-analytics.md). If you're unable to view the reports, contact your system administrator. More information: [Configure realtime analytics dashboard](enable-realtime-analytics-dashboard-administrator.md). The real time analytics reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
 
-- **Ongoing Conversations**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](realtime-ongoing-conversations-dashboard.md). 
+- **Ongoing Conversations**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](realtime-ongoing-conversations-dashboard .md).
 
 ## Security 
 Real time analytics honors the security permissions defined in Dataverse. For example, if your organization has set BU level permission for the report user, then the user will only be able to see the metrics computed based on the BU level data.  
