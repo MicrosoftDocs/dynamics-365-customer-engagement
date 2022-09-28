@@ -478,7 +478,7 @@
         href: set-up-knowledge-management-embedded-knowledge-search.md 
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
-      - name: Set up knowledge search providers
+      - name: Set up external knowledge search providers
         href: set-up-search-providers.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
