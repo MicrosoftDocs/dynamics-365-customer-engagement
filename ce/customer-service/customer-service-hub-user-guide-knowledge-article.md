@@ -329,9 +329,9 @@ For your attached files, use these commands to do the following:
 - **Sort**: Allows you to sort records by a specific filter, such as file name or size.
 
 > [!NOTE]
-> Upload and download of of knowledge article attachments is supported for files up to 4MB only, for:
+> Uploads and downloads of knowledge article attachments are supported for files up to 4MB only, for:
 > - Dynamics 365 Customer Engagement (on-premise)
-> - Customer Managed Key enabled organizations
+> - Customer Managed Key-enabled organizations
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
