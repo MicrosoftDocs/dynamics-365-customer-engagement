@@ -56,7 +56,7 @@ The report can forecast for a date range up to six months, depending on how many
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
 
 - At least two weeks of historical data is available. 
-- Per channel and queue combination, you must have at least 1 case on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest case (that falls within the configured historical time range) for that channel and queue combination to 1 day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1 of a given year, you run the forecasting model on September 1, and the earliest recorded case for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15 to August 31. If there is case available for at least 70 percent of the days between March 15 and August 31, then and only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully, and no forecast will be produced.
+- Per channel and queue combination, you must have at least one case on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest case (that falls within the configured historical time range) for that channel and queue combination to one day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1st of a given year, you run the forecasting model on September 1st, and the earliest recorded case for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15th to August 31st. If there is case data available for at least 70 percent of the days between March 15th and August 31st, only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In that case, the model wouldn't run successfully, and a forecast wouldn't be produced.
 
 
 ## Prerequisites
@@ -89,7 +89,7 @@ For users in your organization to be able to access the Forecast report, they mu
 
 1. If you want to specify seasonal, in **Seasonality**, select the **Use schedules from Holiday Calendar** check box. Selecting the **Holiday Calendar** link opens the **All Holiday Schedules** page, where you can create a new schedule or select an existing schedule.
 
-1. Save your changes. If this is the first time you’ve turned on the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the Forecast report. 
+1. Save your changes. If this is the first time you’ve enabled the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the Forecast report. 
 
 ### See also
 
