@@ -1,7 +1,7 @@
 ---
 title: "Limitations on migrating files between environments (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about limitations on migrating files between environments and possible workarounds."
-ms.date: 09/23/2022
+ms.date: 09/27/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -42,8 +42,8 @@ The flow should start with a call to the **msdyncrm_UpsertFile** custom action u
     - **name**: Value of the keyword
 
 - The call returns properties required for uploading the file content. Of particular note:
-    - **msdyncrm_bloburi**: URI of the Azure blob to upload the content to
-    - **msdyncrm_sastoken**: SAS token used for the upload
+    - **msdyncrm_bloburi**: URI to upload the content to
+    - **msdyncrm_sastoken**: SAS token used for the upload (can be an empty string)
     - **msdyncrm_fileid**: ID of the newly created msdyncrm_file record
 
 - A PUT call is made to an endpoint provided by **msdyncrm_bloburi** with the file content.
