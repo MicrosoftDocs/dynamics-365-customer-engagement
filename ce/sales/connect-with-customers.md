@@ -21,7 +21,7 @@ If an activity isn't required to be completed by the due date or you're unable t
 
 ## Call a customer
 
-You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the mobile phone number will be used to initiate the call. If both business and mobile phone number are not available, the softphone dialer is displayed for you to dial a phone number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
+You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the mobile phone number will be used to initiate the call. If both business and mobile phone number aren't available, the softphone dialer is displayed for you to dial a phone number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
 
 When you make a phone call, a **Phone Call** activity is created and linked to the lead or opportunity. The **Phone Call** activity captures the following information:
 
@@ -68,6 +68,27 @@ Do one of the following actions:
     > [!div class="mx-imgBorder"]
     > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
 
+**To schedule an email**
+
+A suggestion is displayed for you to send the email at a specific time. The application analyzes the best time to send the email to the recipient and provides a time period to send the email. You can choose the suggested time or specify your own time. After you choose the time, the task will be closed and displayed on the timeline wall.
+
+1. On the email activity, select **Suggested send time**.
+
+    :::image type="content" source="media/up-next-widget-email-schedule-suggestion.png" alt-text="Select the suggested send time option to open the email suggestions.":::
+
+2. On the suggestion message, select **Schedule email**.
+    
+    :::image type="content" source="media/up-next-widget-email-schedule-view-suggestion.png" alt-text="Select the schedule email to on the suggestion message.":::
+
+3. On the **Schedule email** dialog box, if you're satisfied with the suggested time, select **Schedule email**. 
+    
+    >[!NOTE]
+    >You can update the time, if you want to send the email on a different time.
+
+    :::image type="content" source="media/up-next-widget-email-schedule-schedule-email.png" alt-text="Schedule email dialog box with suggested time.":::
+
+    The email task is closed and added to the Timeline wall. Though the email task is set as closed, when you open the record, you can see the status as **Pending**. The record status will be changed to complete only after the email is sent on the scheduled time. 
+    
 ## Work with appointments
 
 When an appointment is created for a record through Dynamics 365, or created through Outlook and tracked in Dynamics 365, the appointment is associated with the record and displayed in the work list. If the appointment is associated with a Teams meeting, the Teams meeting icon appears in the associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with a Teams meeting, sellers can open the appointment and view the details, such as participants, scheduled time, and description.
@@ -107,7 +128,7 @@ Do one of the following actions:
 
 ## Add a note to an activity
 
-Notes helps you to provide more information about the activity. The provided information is displayed on the record's **Timeline** wall, which helps the stakeholders to refer this information when required.
+Notes help you to provide more information about the activity. The provided information is displayed on the record's **Timeline** wall, which helps the stakeholders to refer this information when required.
 
 >[!NOTE]
 >If you are using customs forms for the records and the **Timeline** wall is not add to the form, add the **Timeline** section the forms. More information: [Add, configure, move, or delete sections on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
@@ -143,7 +164,7 @@ While closing (**Mark complete**) an activity, you can provide the reason for cl
    
 ## Skip or snooze an activity
 
-You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
+You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence, and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
 
 If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. You can't snooze a manual task.
 
