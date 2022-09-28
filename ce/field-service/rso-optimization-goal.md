@@ -5,7 +5,7 @@ author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
-ms.date: 08/04/2022
+ms.date: 09/28/2022
 ms.topic: article
 
 ms.subservice: resource-scheduling-optimization
@@ -47,19 +47,9 @@ This constraint ensures that a resource has all the required characteristics (or
 
 As of **Resource Scheduling Optimization v3.0.19263.1+**, Resource Scheduling Optimization will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", Resource Scheduling Optimization will schedule to a resource who has that role. If the requirement calls for two resource roles, Resource Scheduling Optimization will schedule the requirement to resources that have either of those roles, following "OR" logic.
 
-### Scheduling Lock Options
+### Scheduling Lock Options (deprecated)
 
-Bookings can be assigned to one of the four Scheduling Lock Options:
-
-- Time Range: This booking is locked to the time range dictated on the requirement or booking record; it cannot be moved outside the specified time range, but can be moved to a different resource or a different time slot, as long as the time range is respected.
-- Resource: The booking is locked to current resource; it cannot be moved to another resource, but can be moved to a different slot within the resource's hours. This is also known as a soft locked booking.
-- Time: The booking is locked to the current time slot; it cannot be moved to another time slot, but can be moved to a different resource for the same time slot. This is also known as a soft locked booking.
-- Resource + Time: The booking is locked to both resource and time. It cannot be moved. This is also known as a hard locked booking.
-
-When this constraint is selected, Resource Scheduling Optimization will respect the lock option configured on a bookable resource booking record. If this constraint is not selected, the hard lock or soft lock configured on the booking will not be respected.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a booked resource_2.](media/rso-scheduling-lock-options.png)
+The Scheduling Lock constraint is deprecated and will soon be removed as a constraint option. Selecting this option won't have any effect on subsequent Resource Scheduling Optimization runs. For more information on using and troubleshooting the updated booking lock options, go to [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
 
 ### Scheduling Windows
 
@@ -161,22 +151,9 @@ Iteration with the total lowest aggregate travel time will best meet this object
 > [!NOTE]
 > This cannot be the first objective in the list. This is because, mathematically speaking, in order to truly minimize travel time, Resource Scheduling Optimization might not schedule any requirement that requires travel time (0 minutes travel) in order to meet the first objective.
 
-### Locked bookings
+### Locked bookings (deprecated)
 
-Once a booking is created, a lock can be set on the scheduling lock options field in the resource scheduling optimization section of the booking. The options are Time Range, Resource, Time, and Resource and Time. When the locked bookings objective is selected, Resource Scheduling Optimization will try to include as many soft-locked (locked to Time, Resource, or Time Range) bookings into the optimal route as possible. Hard locked (locked to Time and Resource) bookings will always be a part of the schedule regardless of this objective. For example, the following screenshot shows that Norbert has a booking that starts at 2:30 AM, and this booking is locked to **Time**. When Resource Scheduling Optimization runs, the system detects a 30-minute idle time for Norbert in the morning, but none of the other requirement durations fit into that slot with the locked booking next to it, even though Resource Scheduling Optimization tries to move it to other resources’ time.
-    
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board_1.](media/8c6c7de10ed96ca76c884ee41086507b.png)
-
-If locked booking is a high-ranking objective, Resource Scheduling Optimization will keep the locked booking there with 30 minutes of idle time before it by sacrificing the other objectives. The following screenshot shows the result.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board_2.](media/49561093ec91a28a5961b0be4f892cbf.png)
-
-If locked booking is not a selected objective or is ranked lower in the order of importance for objectives, Resource Scheduling Optimization might ignore this locked booking (exclude this locked booking from the optimal route) and schedule other bookings for Matthew at 2:30 AM in order to achieve the highest score for top-ranking objectives, with the result shown in the following screenshot. It looks as if a booking overlaps, but actually the locked booking was ignored in this case. Resource Scheduling Optimization would not delete the locked booking because it would lose the lock information defined on the booking record, which can’t be retrieved from the backing requirement.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board optimization.](media/rso-edgar-dominquez.png)
+The Locked bookings goal is deprecated and will soon be removed as a goal option. Selecting this option won't have any effect on subsequent Resource Scheduling Optimization runs. For more information on using and troubleshooting the updated booking lock options, go to [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
 
 ### High priority requirements 
 
