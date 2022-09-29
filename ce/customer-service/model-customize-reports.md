@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
-ms.date: 09/29/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -53,7 +53,7 @@ Before you begin with the customization, you must have the following prerequisit
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD), and add **Dynamics CCA Data Analytics** as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+   1. Create a security group in Azure Active Directory (Azure AD), and add **Dynamics 365 Analytics** as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
 
    1. As a Power BI administrator, enable the **Service Principal** in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
@@ -124,6 +124,9 @@ Once the report provisioning process is complete, perform the following steps to
 1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
 
       :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
+    1. Select **Access**.
+    1. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person Workspace contributor role or above.
+    :::image type="content" source="media/grant-permissions_role.png" alt-text="Grant roles":::
 
 1. Update a report.
 To update a report, select the required report and then select **Edit**. 
