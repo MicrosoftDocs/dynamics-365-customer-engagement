@@ -118,7 +118,7 @@ Once the report provisioning process is complete, perform the following steps to
    1. Select **Grant accesss.**
    :::image type="content" source="media/share-dataset.png" alt-text="Search for recipients ont eh Share dataset dialog":::
 
-1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
+1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports.
 
       :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
     1. Select **Access**.
