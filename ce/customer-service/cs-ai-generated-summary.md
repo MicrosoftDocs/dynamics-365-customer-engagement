@@ -45,7 +45,7 @@ You can also perform the following actions:
 - Select **Create a case**. The application creates a new case and populates the case description with the summary.
 - Share feedback about the summary.This enables 
 
-:::image type="content" source="media/oc-conv-summary-card.png" alt-text="Screenshot that shows the New Show AI Summary.":::
+:::image type="content" source="media/oc-conv-summary-card.png" alt-text="Screenshot that shows the auto-summarize conversations card.":::
 
 Based on the triggers enabled by your administrator, the application automatically generates and displays the summary when you request a consultation with another agent, transfer the conversation, or end the conversation.
 
