@@ -581,7 +581,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Set up unified routing for rec](set-up-record-routing.md)  
+[Set up unified routing for records](set-up-record-routing.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
