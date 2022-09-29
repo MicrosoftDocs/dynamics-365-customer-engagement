@@ -25,13 +25,13 @@ The following assignment methods are available out of the box:
 
 - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned randomly.
 
-  If you choose to assign work items using skill-based routing and set the default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence, and capacity requirements and order the filtered agents by available capacity.
+  If you choose to assign work items using skill-based routing and set the default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence, and capacity requirements, and order the filtered agents by available capacity.
 
   If the default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on the workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
-- **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+- **Round robin**: Assigns a work item to the agent who matches the criteria for skills and presence. The initial order is based on when a user is added to the queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
 
 - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
@@ -41,7 +41,7 @@ The following assignment methods are available out of the box:
 
     > [!IMPORTANT]
     >
-    > The route to the most-idle agent feature is in preview and is available for voice channel only.
+    > The route to the most-idle agent feature is in preview and is available for the voice channel only.
     >
     > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
     >
