@@ -32,7 +32,7 @@ After you configure the rules, the system matches the rule conditions, and opera
 
 To load balance the workload optimally and distribute it across multiple contact center vendors, organizations can configure percentage-based routing to distribute work items to queues. In this way, the routing of work items to queues can be controlled using percent values. Percentage-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
 
-When you configure this feature, the system will pick a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. However, the final queue that's selected is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
+When you configure this feature, the system picks a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. However, the final queue that's selected is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
 
 ## Configure rules in route-to-queue ruleset
 
