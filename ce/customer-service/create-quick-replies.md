@@ -42,24 +42,22 @@ Quick replies are predefined messages that can be created for agents to quickly 
       > [!div class=mx-imgBorder]
       > ![Create a quick reply.](media/oc-create-a-quick-reply.png "Create a quick reply")
 
-     The **Message** field supports the quick add of the following chat dynamic text (slugs).  
+       The **Message** field supports the quick add of the following chat dynamic text (slugs).  
 
-    | Chat dynamic text (slug) | Description |
-    |-----------------|-----------------------------|
-    | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
-    | {FirstName{Customer}} | The first name of the customer.
-    | {LastName{Customer}}| The last name of the customer.|
-    | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
-    | {FirstName{Agent}}| The first name of the agent.|
-    | {LastName{Agent}}| The last name of the agent.|
-    | {Nickname{Agent}}| The nickname for the agent.|
-    |||
-
-    If you've defined a context key, you can create a quick reply that contains dynamic text that corresponds to that context key in the following format: {OCContext.contextKey1}, where "contextKey1" in the syntax is a placeholder for the predefined custom context field in the conversation. For example, {OCContext.OrderID} would be a context key that populates the message field with the Order ID for a record. More information: [Add context variables](manage-context-variables.md#add-context-variables) and [setContextProvider](/developer/reference/methods/setcontextprovider)
+      | Chat dynamic text (slug) | Description |
+      |-----------------|-----------------------------|
+      | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
+      | {FirstName{Customer}} | The first name of the customer.
+      | {LastName{Customer}}| The last name of the customer.|
+      | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
+      | {FirstName{Agent}}| The first name of the agent.|
+      | {LastName{Agent}}| The last name of the agent.|
+      | {Nickname{Agent}}| The nickname for the agent.|
+   
+      If you've defined a context key, you can create a quick reply that contains dynamic text that corresponds to that context key in the following format: {OCContext.contextKey1}, where "contextKey1" in the syntax is a placeholder for the predefined custom context field in the conversation. For example, {OCContext.OrderID} would be a context key that populates the message field with the Order ID for a record. More information: [Add context variables](manage-context-variables.md#add-context-variables) and [setContextProvider](/developer/reference/methods/setcontextprovider)
     
-   > [!div class=mx-imgBorder]
-   > ![Context key format examples.](media/contextkey-format.png "Context key format examples")
-
+     > [!div class=mx-imgBorder]
+     > ![Context key format examples.](media/contextkey-format.png "Context key format examples")
 
 1. Select **Save**.
 
