@@ -13,11 +13,7 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 1.0
 
-This topic lists the system requirements for Dynamics 365 Channel Integration Framework 1.0.
-
-## Dynamics 365
-
-Dynamics 365 (online) 9.1 and later.
+You'll need Dynamics 365 (online) 9.1 and later.
 
 ## Supported browsers
 
