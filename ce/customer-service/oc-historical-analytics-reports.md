@@ -129,18 +129,6 @@ You can enable historical analytics for voice in the Customer Service admin cent
 
 The historical analytics for voice report will be available as a tab in the Omnichannel historical analytics report.
 
-## Enable Historical analytics for voicemail (preview) in Omnichannel for Customer Service
-
-[!IMPORTANT] [!INCLUDEcc-preview-feature]
-
-You can enable historical analytics for voice in the Customer Service admin center app. The metrics are available in the report after 24 hours.
-
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voicemail (preview)** check box.
-3. Select **Save** or **Save & Close**.
-
-The historical analytics for voicemail (preview) report will be available as a tab in the Omnichannel historical analytics report.
-
 ### View Omnichannel historical analytics reports
 
 The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
