@@ -72,7 +72,7 @@ You can configure the inbox in the Customer Service admin center by editing the 
       - **Show**
       - **Hide**
 
-## Pre-configured inbox views
+## Preconfigured inbox views
 
 The following views are supported out of the box in the inbox:
 
