@@ -18,8 +18,8 @@ Based on if your Administrator has enabled **Add historical Analytics for bots**
 
 You can view the Bot dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Bot** dashboard as follows:
 
-- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
-- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
 
 ## Power Virtual Agents bot dashboard
 
