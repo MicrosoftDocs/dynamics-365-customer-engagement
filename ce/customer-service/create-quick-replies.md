@@ -1,7 +1,7 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
 description: "This topic provides the steps you can perform to set up quick replies in Omnichannel for Customer Service."
-ms.date: 06/09/2022
+ms.date: 10/03/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -37,16 +37,17 @@ Quick replies are predefined messages that can be created for agents to quickly 
         > [!NOTE]
         > Omnichannel for Customer Service does not localize quick replies. To provide quick replies in multiple languages, create a separate quick reply for each language and select its corresponding locale.
 
-    - **Message:** Enter the text of the message.
+    - **Message:** Enter the text of the message. To use chat cynamic text (also called slugs), select the plus icon next to the name of the dynamic text slug you want to use. The dynamic text populates in the **Message** field.
 
       > [!div class=mx-imgBorder]
       > ![Create a quick reply.](media/oc-create-a-quick-reply.png "Create a quick reply")
 
-     The **Message** field supports the following slugs.  
+     The **Message** field supports the following chat dynamic text (slugs).  
 
-    | Slug | Description |
+    | Chat dynamic text (slug) | Description |
     |-----------------|-----------------------------|
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
+    | {FirstName}{Customer}} | The first name of the customer.
     | {LastName{Customer}}| The last name of the customer.|
     | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
     | {FirstName{Agent}}| The first name of the agent.|
