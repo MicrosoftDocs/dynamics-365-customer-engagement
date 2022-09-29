@@ -84,15 +84,11 @@ items:
     - name: Work order types
       href: create-work-order-types.md
     - name: Price list
-      items: 
-      - name: Create price list
-        href: create-price-list.md
-    - name: Products and services
-      items:
-      - name: Create product or service  
-        href: create-product-or-service.md
-      - name: Service task types
-        href: set-up-service-task-types.md
+      href: create-price-list.md
+    - name: Products and services  
+      href: create-product-or-service.md
+    - name: Service task types
+      href: set-up-service-task-types.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
