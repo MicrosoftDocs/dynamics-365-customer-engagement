@@ -1008,6 +1008,8 @@
         items: 
         - name: Omnichannel for Customer Service dashboards
           href: omnichannel-analytics-insights.md
+        - name: Omnichannel Summary dashboard
+          href: omnichannel-summary-dashboard.md
         - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
@@ -1015,7 +1017,7 @@
         - name: Omnichannel Agent dashboard
           href: agent-dashboard.md
         - name: Omnichannel Bot dashboard
-          href: oc-bot-dashboard.md
+          href: oc-bot-dashboard.md  
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
         - name: Historical analytics for unified routing in Omnichannel for Customer Service
