@@ -138,57 +138,6 @@ You can create rules that are based on the sentiment prediction model to classif
 
 You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
 
-### Engagement context for asynchronous channels
-
-You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
-
-- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
-
-- **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
-
-   - **Customer name**: The customer name is shown in the format "first name, last name".
-   - **Locale**: For a list of locales, see Facebook developer documentation.
-   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-   - **User Page Scoped Id**: This is shown as a number string.
-
-- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
-
-   - Entry point
-   - Place id
-   - Resolved locale
-   - User device locale
-
-- **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
-
-  - Group id
-  - Intent id
-  - Locale
-
-- **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
-
-- **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
-
-  - Customer name
-  - Gender
-  - City
-  - Province
-  - Country
-
-- **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
-
-- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
-  - Customer name
-  - Customer screen name
-  - Followers count
-  - Friends count
-
-- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
-  - Customer phone number
-  - Org phone number
-  - Locale
-  - Provider
-  - Provider display name
-
 ## Options available for rulesets
 
 After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies of the rules and update only the necessary information to avoid writing the conditions from scratch. You can hover the mouse over a condition to view it without having to navigate to each condition.
