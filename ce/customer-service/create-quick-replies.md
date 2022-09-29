@@ -42,7 +42,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
       > [!div class=mx-imgBorder]
       > ![Create a quick reply.](media/oc-create-a-quick-reply.png "Create a quick reply")
 
-     The **Message** field supports the following chat dynamic text (slugs).  
+     The **Message** field supports the quick add of the following chat dynamic text (slugs).  
 
     | Chat dynamic text (slug) | Description |
     |-----------------|-----------------------------|
