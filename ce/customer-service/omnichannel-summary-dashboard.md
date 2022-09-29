@@ -24,9 +24,9 @@ searchScope:
 - Customer Engagement
 ---
 
-# Summary dashboard 
+# Omnichannel Summary dashboard 
 
-The Summary dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service. With the Summary dashboard  Customer Service Managers or Supervisors:
+The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service. With the Summary dashboard  Customer Service Managers or Supervisors:
 - Use the Power Virtual Agents bot metrics such as escalation and deflection rate and agent metrics such as engagement rate and abandon rate to get an overview of how customers interact with bots and bot performance.
 - Evaluate how different bot topic areas and their corresponding agent conversation topic impact your organization’s support performance.
 - Get actionable insights to handle bot escalations and customer requests effectively, thereby improving customer satisfaction and decreasing costs.
@@ -60,7 +60,7 @@ An up-and-down indicator below the value indicates the percent change in either 
 
 The following charts are displayed in the Summary dashboard.
 
- :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Screenshot shows the bot metrics with respect to conversations.":::
+ :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Screenshot shows the charts for integrated conversations .":::
 
 | Title | Description |
 | ------- | ------------------ |
