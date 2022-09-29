@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
