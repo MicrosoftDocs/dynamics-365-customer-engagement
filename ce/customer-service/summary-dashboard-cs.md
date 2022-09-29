@@ -33,8 +33,8 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 In the Customer Service workspace, you can navigate to the Summary dashboard as follows:
 
-- In the default view, Select the plus (**+**) icon, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
-- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
+- In the default view, select the plus (**+**) icon, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
 
 The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
 
