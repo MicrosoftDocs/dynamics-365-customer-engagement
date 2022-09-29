@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,13 +48,13 @@ Perform the following steps to create a custom assignment method:
 1. Select the ruleset, and select **Edit**. The options to configure prioritization rulesets and assignment rulesets are displayed.
 
 1. Do the following to set up prioritization rulesets:
-   
+
    a. On the **Create Prioritization Ruleset** dialog, enter a name and description for the ruleset, and select **Create**.
-   
+
    b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you're creating the rule.
-   
+
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
-   
+
    d. Create as many rules as needed.
 
 1. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
@@ -89,7 +89,6 @@ Perform the following steps to create a custom assignment method:
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment rules in a descending order.
   
-
 1. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
 
 1. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
