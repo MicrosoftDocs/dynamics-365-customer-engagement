@@ -1,6 +1,6 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
-description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
+description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
 ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
@@ -167,7 +167,7 @@ Once you have the report created and published, go back to the Customer Service 
 1. In the Customer Service workspace site map, select the **Plus** icon.
 1. Select **Customized reports** from the dropdown list and then select the report that you want to view.
 
-:::image type="content" source="media/customized-reports-option.png" alt-text="Customized-reports-option":::
+:::image type="content" source="media/customized-reports-option.png" alt-text="View your reports in Customer Service workspace":::
 
 ## Data model and report mapping
 
