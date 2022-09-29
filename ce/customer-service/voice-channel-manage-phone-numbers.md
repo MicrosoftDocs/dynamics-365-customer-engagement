@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 07/21/2022
+ms.date: 09/29/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -31,9 +31,11 @@ You can also bring your own phone number via Azure direct routing. More informat
 
 ## Use trial phone number
 
-The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
+The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. When the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and can't reuse or purchase the trial number.
 
-If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. You'll now be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
+The trial number is a toll-free US number and therefore you can't make a call to this number if you aren't in the US. As a workaround, you could use a geographic US number that's not chargeable. However trial numbers are capped at two, therefore it's the last trial number you can acquire, which should receive calls from anywhere. If you are calling from outside the US, international rates from your carrier will apply.
+
+If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
 > [!NOTE]
 > You can't recover trial phone number and data after the trial has expired and been deprovisioned.
