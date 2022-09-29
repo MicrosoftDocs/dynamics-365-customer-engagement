@@ -1,7 +1,7 @@
 ---
 title: "Bot Dashboard | Microsoft Docs"
 description: "Learn about the bot dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 05/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -24,7 +24,7 @@ You can view the Bot dashboard in Omnichannel for Customer Service. On the **Hom
 
  ### Report details
 
-The reports summarize KPIs for the specified time period and the percent change over a period. These metrics are specific to Power Virtual Agent bots. You can filter these areas by duration, channel, queue, or agent.
+The report summarizes KPIs for the specified time period and the percent change over a period. These metrics are specific to Power Virtual Agent bots. You can filter these areas by duration, channel, queue, or agent.
 
  :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the Bot dashboard KPIs.":::
 
@@ -45,16 +45,16 @@ The following table shows the bot KPI chart metrics.
 | Title | Description |
 | --------------- | ----------------- |
 | Total conversations | A graphical view of the total number of bot conversations with the number of escalated and deflected conversations over time. |
-| Engagement over time | The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation. |
-|Session outcomes over time | The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. | 
+| Engagement over time | A graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation. |
+|Session outcomes over time | A graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period. | 
 
 ### Metrics by bot 
 
-The metrics section displays a comprehensive set of analytics that show you the key performance indicators. You can also view the trends and usage for your bot's topics at a granular level, highlighting the topics that have the greatest impact on your bot's performance.
+The **Metrics by bot** section displays a comprehensive set of analytics that show you the key performance indicators. You can also view the trends and usage for your bot's topics at a granular level, highlighting the topics that have the greatest impact on your bot's performance.
 
 ### Summary
 
-The Summary tab gives you a broad overview of your bot's performance.
+The **Summary** tab gives you a broad overview of your bot's performance.
 
  :::image type="content" source="media/oc-metrics-summary.png" alt-text="Screenshot that shows the bot summary.":::
 
@@ -70,7 +70,7 @@ KPIs for the following areas are displayed.
 
 ### Details
 
-The Details tab gives you an insight into the bot sessions.
+The **Details** tab gives you an insight into the bot sessions.
 
  :::image type="content" source="media/oc-summary-details.png" alt-text="Screenshot that shows the bot summary.":::
 
@@ -90,7 +90,7 @@ KPIs for the following areas are displayed.
 
 On the **Metrics by bot** section, you can select a Power Virtual Agent bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
 
-To access the drill-down, select any metric value for the agent you're interested in, and then select **Details**.
+To access the drill-down, select the bot you're interested in, and then select **Detailed view**.
 
 > [!div class="mx-imgBorder"]
 > !Select a bot to drill down.](media/oc-metric-page.png "Bot drill-down page") 
@@ -106,7 +106,7 @@ The application displays the key performance metrics and charts for the individu
 | Engagement rate | The percentage of total sessions that are engaged by the bot. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they're either resolved, escalated, or abandoned. |
 | Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question "Did that answer your question?" and the user either doesn't respond or responds Yes|
 | Escalation rate |The percentage of engaged sessions that are escalated by the bot. An escalated session is an engaged session that is escalated to a human agent. | 
-| Abandon rate | 	The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
+| Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
 | Bot CSAT | The average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. | 
 
 The following charts are displayed:
@@ -118,9 +118,9 @@ The following charts are displayed:
 | Session outcomes over time | The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.|
 
 ### Metrics by bot topic
-The Metrics by bot topic section provides insights into the performance of individual bot topics and their key business metrics. The metrics give the Supervisor an overview of which topics the bot was able to deflect or escalate. 
+The **Metrics by bot topic** section provides insights into the performance of individual bot topics and their key business metrics. The metrics give the Supervisor an overview of which topics the bot was able to deflect or escalate. 
 
-You can also select a topic and drill-down into the individual topic performance and metrics. The topic level metrics help Supervisors further analyze how a specific topic for a specific bot is doing. 
+You can also select a topic and drill down into the individual topic performance and metrics. The topic-level metrics help Supervisors further analyze how the bot is handling the topic. 
 
 > [!div class="mx-imgBorder"]
 > ![Bot topic metrics.](media/oc-bot-topic-report.png "Individual bot report")
@@ -131,15 +131,15 @@ The **Bot conversation metrics** session provides the topic transcripts, allowin
 
 You can view and improve the performance of individual topics associated with a Power Virtual Agents bot by performing the following steps:
 
-1. On the bot drill-down page, for a bot, select the topic to view the topic specific metrics. 
+1. On the bot drill-down page, for a bot, select the topic to view the topic-specific metrics. 
 1. You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
-> [!div class="mx-imgBorder"]
-> ![Bot hourly detail drill-down view.](media/oc-transcripts.png "transcript") 
+   > [!div class="mx-imgBorder"]
+   > ![Bot hourly detail drill-down view.](media/oc-transcripts.png "transcript") 
 
 1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
 
-> [!div class="mx-imgBorder"]
-> ![Bot hourly detail drill-down view.](media/oc-pva-edit.png "Edit page") 
+  > [!div class="mx-imgBorder"]
+  > ![Bot hourly detail drill-down view.](media/oc-pva-edit.png "Edit page") 
 
 ## Dashboard for all bots 
 
