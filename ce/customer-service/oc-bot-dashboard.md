@@ -92,9 +92,6 @@ On the **Metrics by bot** section, you can select a Power Virtual Agent bot to v
 
 To access the drill-down, select the bot you're interested in, and then select **Detailed view**.
 
-> [!div class="mx-imgBorder"]
-> !Select a bot to drill down.](media/oc-metric-page.png "Bot drill-down page") 
-
 The application displays the key performance metrics and charts for the individual bot.
 > [!div class="mx-imgBorder"]
 > ![Bot drill-down view.](media/oc-bot-summary-topic.png "Individual bot report")
@@ -181,7 +178,7 @@ The following table explains the bot KPI chart metrics.
 
 ## Bot hourly detail drill-down view
 
-The Bot hourly details drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. 
+The **Bot metrics by hour** drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. 
 To view the drill-down, select any single metric value on the desired day, then select **Hourly details**.
 
 > [!div class="mx-imgBorder"]
