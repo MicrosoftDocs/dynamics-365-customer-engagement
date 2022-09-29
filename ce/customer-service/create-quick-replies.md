@@ -47,7 +47,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | Chat dynamic text (slug) | Description |
     |-----------------|-----------------------------|
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
-    | {FirstName}{Customer}} | The first name of the customer.
+    | {FirstName{Customer}} | The first name of the customer.
     | {LastName{Customer}}| The last name of the customer.|
     | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
     | {FirstName{Agent}}| The first name of the agent.|
