@@ -1,14 +1,14 @@
 ---
-title: Set up AI-summarization for conversations in Dynamics 365 Customer Service
+title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 09/19/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
 manager: shujoshi
 ---
 
-# Set up Auto-summarization for conversations (preview)
+# Set up auto-summarization for conversations (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -19,17 +19,17 @@ manager: shujoshi
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
-Agents can collaborate with others directly while they're working in Dynamics 365 Customer Service. To help them easily recap an ongoing customer interaction, turn on Auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
+Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
 > [!NOTE]
 >  - Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
 >  - This feature is generally available for Microsoft Teams conversations.
 
-## Components of an AI generated conversation summary (preview)
+## Components of an auto-summarize conversations (preview)
 
-The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. Summaries are limited to the first 7,000 characters of a transcript.
+The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. 
+> [!NOTE]
+> Summaries are limited to the first 7,000 characters of a transcript.
 
 A summary includes the following components:
 
@@ -39,35 +39,37 @@ A summary includes the following components:
 
 ## Regional availability and supported languages
 
-The AI-generated conversation summary is available in the United States, Europe, and the United Kingdom.
+The auto-summarization of conversations is available in the United States, Europe, and the United Kingdom.
 
 This feature is supported only in English.
 
-For more information, see [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## Prerequisites
 
-Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
+Tenant level access to enable the enhanced integration with Microsoft Teams feature.
 
 ## Turn on Auto-summarization for conversations (Preview)
 
-1. In Customer Service admin center, select **Insights** in **Operations**.
+1. In the Customer Service admin center, select **Operations** > **Insights**.
 
 1. In **Insights**, select **Manage** next to **Auto-summarization for conversations (preview)**.
 
-1. Turn on **Enable auto-summarization for conversations**. If this option is enabled, agents can see **AI summary**  in the communication panel of a session.
+1. Turn on **Enable auto-summarization for conversations**. When you enable this option, agents can see **AI summary**  in the communication panel of a session.
 
-1. The **Supported triggers** section is displayed. Select the following options:
+1. The **Supported triggers** section is displayed. Select the following options to define when you want the conversations to be summarized:
   
-   - **When an agent joins the conversation** : Auto-generate and display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
-   - **When the conversation ends** : Auto-generate and display the conversation when the conversation ends.
-   - **When an agent starts a linked in Microsoft Teams**: Auto-generate and display the conversation when the agent starts a linked Teams chat. Alternatively, you can select  the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
+   - **When an agent joins the conversation** : To display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
+   - **When the conversation ends** : To display the summary when the conversation ends.
+   - **When an agent starts a linked chat in Microsoft Teams**: To display the summary when the agent starts a linked Teams chat. Alternatively, you can select  the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
         :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
-### Turn on the AI-generated summary for Microsoft Teams collaboration
+### Turn on the auto-summarization of Microsoft Teams conversations
 
-You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable AI-generated summary for Microsoft Teams and chats:
+> [!NOTE]
+> This feature is generally available for Microsoft Teams conversations.
+
+You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable aut-generated summary for Microsoft Teams chats:
 
 1. In the site map, select **Service Management**.
 2. In **Collaboration**, select **Embedded chat using Teams**.
@@ -82,3 +84,4 @@ You can also enable this feature from the Customer Service Hub app. Perform the 
 
 [View and share an AI-generated conversation summary in Teams](cs-ai-generated-summary.md)<br>
 [Overview of Customer Service workspace](csw-overview.md)  
+[Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
