@@ -55,6 +55,12 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {Nickname{Agent}}| The nickname for the agent.|
     |||
 
+    If you have defined a context key, you can create a quick reply that contains dynamic text that corresponds to that context key in the following format: {OCContext.contextKey1}, where "contextKey1" in the syntax is a placeholder for the predefined custom context field in the conversation. For example, {OCContext.OrderID} would be a context key that populates the message field with the Order ID for a record. More information: [Manage context variables](manage-context-variables.md#add-context-variables) and [setContextProvider](/developer/reference/methods/setcontextprovider)
+    
+   > [!div class=mx-imgBorder]
+   > ![Context key format examples.](media/contextkey-format.png "Context key format examples")
+
+
 1. Select **Save**.
 
 ## Create or edit tags for common categories of quick replies
