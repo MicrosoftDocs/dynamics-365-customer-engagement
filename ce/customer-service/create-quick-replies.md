@@ -37,7 +37,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
         > [!NOTE]
         > Omnichannel for Customer Service does not localize quick replies. To provide quick replies in multiple languages, create a separate quick reply for each language and select its corresponding locale.
 
-    - **Message:** Enter the text of the message. To use chat cynamic text (also called slugs), select the plus icon next to the name of the dynamic text slug you want to use. The dynamic text populates in the **Message** field.
+    - **Message:** Enter the text of the message. To use chat dynamic text (also called slugs), select the plus icon next to the name of the dynamic text slug you want to use. The dynamic text populates in the **Message** field.
 
       > [!div class=mx-imgBorder]
       > ![Create a quick reply.](media/oc-create-a-quick-reply.png "Create a quick reply")
