@@ -75,7 +75,7 @@ You can also enable this feature from the Customer Service Hub app. Perform the 
 
 1.  In **Conversation settings**, in **New connected chats**, turn on **AI-generated intro note**.
 
-:::image type="content" source="media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings.":::
+:::image type="content" source="media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings for Teams conversations.":::
 
 
 ### See also
