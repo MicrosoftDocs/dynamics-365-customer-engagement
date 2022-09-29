@@ -141,7 +141,7 @@ You can view and improve the performance of individual topics associated with a 
 1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
 
   > [!div class="mx-imgBorder"]
-  > ![Bot hourly detail drill-down view.](media/oc-pva-edit.png "Edit page") 
+  > ![Edit power virtual agents bot.](media/oc-pva-edit.png "Edit page") 
 
 ## Dashboard for all bots 
 
