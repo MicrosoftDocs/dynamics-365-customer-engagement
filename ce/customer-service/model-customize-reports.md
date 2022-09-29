@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
-ms.date: 09/27/2022
+ms.date: 09/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -123,7 +123,37 @@ Once the report provisioning process is complete, perform the following steps to
 
 1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
 
-:::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
+      :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
+
+1. Update a report.
+To update a report, select the required report and then select **Edit**. 
+:::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
+
+1. Create a report. You can create a report in two ways:
+
+   1. Create a report online.
+       1. Go to the Power BI data model and from the **Create a report** dropdown list, select **Auto-create**.
+       
+       :::image type="content" source="media/model-create-report-online.png" alt-text="Create a report online from the Power BI data model"::: 
+
+    1. Create a report using Power BI desktop and create a live connection to datasets in the Power BI service:
+        1. On the Power BI desktop, select **Get Data**.
+        1. On the Get Data dialog, select **Power Platform**, and then select **Power BI data sets**.
+        1. Select **Connect**.
+        :::image type="content" source="media/model-powerdataset.png" alt-text="Select Power BI data set":::
+        1. On the **Data hub** dialog, select the report you want to embed to customer service and select **Connect**.
+        :::image type="content" source="media/model-data-hub-dialog.png" alt-text="Select your report on the Data hub dialog":::
+        1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to.
+        1. Select **Submit**.
+        :::image type="content" source="media/model-select-dataset.png" alt-text="Select your tables that you want to connect to.":::
+        
+        1. After the database or tables that you have selected in the  previous step, get added to your data model, select **Publish**.
+        1. Save your changes and save your file.
+        :::image type="content" source="media/model-save-data-model-changes.png" alt-text="Save your changes.":::
+        1. On the **Publish to Power BI** dialog, select the workspace that you specified on Step 1 and then select **Select**.
+         :::image type="content" source="media/model-select-workspace-created-in-step-two.png" alt-text="Select the destination which you specified in Step 2":::
+        Your reports will be published to Power BI.
+        
 
 ## Step 3: Embed customized report from Power BI workspace to Dynamics 365
 
@@ -132,11 +162,6 @@ Once you have the report created and published, go back to the Customer Service 
 :::image type="content" source="media/enable-model-step3.png" alt-text="Add report to site map":::
 
 1. In the Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, step 3, select **Add report**.
-1. From **Common data sources**, select **Power BI data sets** to create a live connection to datasets in the Power BI service.
-1. On the **Select a dataset to create a report** dialog, select the report you want to embed to customer service.
-1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to.  
-1. Select **Submit**.
-1. On the **Publish to Power BI** dialog, select a destination where you want your reports to be published and then select **Select**.
 1. Provide a name and select **Add**. You can add up to 40 reports.
  
 ## Step 4: Render reports in Customer Service workspace
