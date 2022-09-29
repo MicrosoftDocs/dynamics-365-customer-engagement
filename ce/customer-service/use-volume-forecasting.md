@@ -54,7 +54,7 @@ Before you can use the Forecast report, ensure that your administrator has given
 
 **Navigation**
 
-You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the **Forecast (preview)** dashboard as follows:
+You can view the Forecast (preview) dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Forecast (preview)** dashboard as follows:
 
 - In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast (preview)**.
 - If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast (preview)**.

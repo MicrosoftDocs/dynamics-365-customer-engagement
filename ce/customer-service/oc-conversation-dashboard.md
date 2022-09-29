@@ -17,7 +17,7 @@ The Conversation dashboard gives you a broad overview of the customer service ex
 
 **Navigation**
 
-You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the Conversation dashboard as follows:
+You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Conversation dashboard as follows:
 
 - In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Conversation**.
 - If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Conversation**.

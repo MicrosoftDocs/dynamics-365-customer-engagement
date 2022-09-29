@@ -17,7 +17,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 **Navigation**
 
-You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the Conversation Topics dashboard as follows:
+You can view the Topics dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the Conversation Topics dashboard as follows:
 
 - In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Topics**.
 - If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Topics**.
