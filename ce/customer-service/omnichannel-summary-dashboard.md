@@ -37,7 +37,7 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 
 You can view the Summary dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Summary** dashboard as follows:
 
-- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Summary**.
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Summary**.
 - If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Summary**.
 
 ## Report details
