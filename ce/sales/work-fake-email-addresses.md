@@ -1,6 +1,6 @@
 ---
-title: "Work with fake email addresses"
-description: "Find and work on fake email addresses using the email validation feature in Dynamics 365 Sales."
+title: Work with invalid email addresses (preview)
+description: View and work with invalid email addresses in Microsoft Dynamics 365 Sales.
 ms.date: 09/30/2022
 ms.topic: article
 author: udaykirang
@@ -8,79 +8,78 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Preview: Work with fake email addresses
+# Work with invalid email addresses (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Identifying and prioritizing the lead records with a valid email address to lower email bounce rates, improve engagement, and a better return on your invested time.
+Email validation in Dynamics 365 Sales identifies and removes non-working or invalid email addresses in your leads. That lets you prioritize leads that have a valid email address for lower email bounce rates, improved engagement, and a better return on your time.
+
+Email address validation looks for the following errors:
+
+- **Incorrect syntax**: An address that doesn't contain both a username and an email domain
+
+- **Disposable domain**: An address that contains a known disposable or temporary email domain
+
+- **Test or spam email addresses**: An address that contains known indicators of a test or spam address in the email header or metadata, IP address, HTML code of the email, and email content and formatting
+
+- **Expired email addresses**: An email account that has expired and can no longer receive or send email
+
+- **Emails that bounce back**: An address that can't receive a message for any reason
 
 ## License and role requirements
 
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as Salesperson or Sales Manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Any primary sales role, such as Salesperson or Sales Manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## Prerequisite
 
-Contact your administrator to enable the email validation feature for your organization. More information: [Enable email validation](enable-email-validation.md) 
+Ask your administrator to turn on email validation for your organization. More information: [Enable email validation](enable-email-validation.md)
 
-## Criteria to identify fake email addresses
+## View invalid email addresses
 
-Fake email addresses are identified based on the following criteria: 
+You can view invalid email addresses on primary record or sales insights forms, work list items, and the **Up next** widget in sales accelerator. A red envelope icon indicates an invalid email address.
 
-- **Incorrect syntax**: Validate email addresses for incorrect syntaxes. A valid email address consists of two parts &dash; a username and an email domain. For example, **kenny.smith@contoso.com** is a valid email. The email syntax contains both username (**kenny.smith**) and email domain (**contoso.com**), which is valid.   
+### View invalid email addresses on primary entity and sales insights forms
 
-- **Disposable domain**: Validate email address and identify disposable email domains that are temporary. For example, **john@yopmail.com**. The **yopmail.com** (email domain) is a known disposable email address domain.
+Open a record and choose the primary record or sales insights form.
 
-- **Test or spam email addresses**: Validate email address for spamming-nature based on certain criteria such as, email header (or metadata), IP address, HTML code of the email, and email content and formatting. For example, **test@test.com** and **asdfasdf@asdf.asdf** email addresses are identified as spam. 
+:::image type="content" source="media/lead-email-validation-primary-entity-form.png" alt-text="Screenshot showing an invalid email address in the primary lead entity form.":::
 
-- **Expired email addresses**: Validate email address to verify if the email account is expired to receive or send emails. 
+### View invalid email addresses on the Up next widget and work list items
 
-- **Emails that bounce back**: Validate email address to verify if the email address can't receive the message from the intended recipients for any reason.
+Go to a record in sales accelerator with email as the current activity.
 
-## View the fake email address
+:::image type="content" source="media/lead-email-validation-worklist-upnext-wedget.png" alt-text="Screenshot showing an invalid email address in the work list item and Up next widget.":::
 
-The email validation is performed on the leads records when the administrator enables the feature. The lead records start displaying an alert (the Red envelop icon) beside the primary email address, if the email validation feature identifies the email to be fake. You can view the validations on primary entity and sales insights forms, the Up next widget, and work list item in sales accelerator. 
+## Send an email to an invalid address
 
-**On primary entity and sales insights forms**
+You can send a message to an email address that's marked as invalid. When you select the option to send email, a notification tells you the reason the email was marked as invalid. You can perform the following tasks in the notification:
 
-Open a record and choose the primary record or sales insights form. In this example, a lead record is opened and the **Lead** (primary entity) form is selected. For this record, you can observe that an alert is displayed beside the primary email address specifying that the email address is fake.
+- If you know the email address is valid, select **Mark valid**. The address is marked as valid and the alert is removed. Compose and send the email.
 
-:::image type="content" source="media/lead-email-validation-primary-entity-form.png" alt-text="Screenshot illustrating the email is fake in the primary lead entity form"::: 
+- If you don't know the email address is valid but you still want to send an email, select **Compose anyway**. Compose and send the email.
 
-**On the up next widget and work list item**
+    :::image type="content" source="media/lead-email-validation-send-email-notification-message.png" alt-text="Screenshot of the notification that appears when you send email to an invalid address.":::
 
-Go to a record in sales accelerator with email as the current activity. In this example, a lead record is selected with the current activity as email. Here, you can observe that the work list item and the Up next widget display the alert, specifying that the email linked the record is fake.  
-
-:::image type="content" source="media/lead-email-validation-worklist-upnext-wedget.png" alt-text="Screenshot illustrating the email is fake in the work list item and up next widget for a record":::
-
-## Can I send an email? 
-
-Yes, you can still choose to send a message to the email address that is flagged as fake. Select the option to send email and a notification message is displayed stating that the reason why the email is flagged as fake. You can perform the following tasks on the notification message dialog:
-
-- If you know the email address is valid, select **Mark valid**. The email is marked as valid and the alert is removed. Continue with composing and sending the email.
-
-- If you don't know the email address is valid and still want to send an email, select **Compose anyway**. The email composer opens. Compose and send the email. 
- 
-:::image type="content" source="media/lead-email-validation-send-email-notification-message.png" alt-text="Screenshot illustrating the notification message to send email":::
-
-Also, you can send the email by creating a manual email activity through the record's timeline.  
+You can also send email to an invalid address by creating a manual email activity in the timeline.  
 
 ## Understand email error messages
 
 | Error message | Description |
 |---------------|-------------|
-| This email doesn’t seem to be valid as the domain expired recently | The email domain used to exist recently. We recommend you exercise caution while engaging with this email address. |
-| This email doesn’t seem to be valid as the domain has expired | The email address belongs to an email domain that has expired. We recommend you exercise caution while engaging with this email address. |
-| This email doesn’t seem to be valid as the domain is invalid | The email address belongs to the domain that is misspelled. We recommend you exercise caution while engaging with this email address. |
-| This email doesn’t seem to be valid as it belongs to a temporary domain | The email address belongs to a domain that is listed in the known disposable or temporary domains. We recommend you exercise caution while engaging with this email address. |
-| This email address maybe invalid as it’s a mailing list, and not an individual’s email | The email address belongs to a mailing hub or hub email address, and doesn't belong to an individual. We recommend you exercise caution while engaging with this email address. |
-| This email doesn’t seem to be valid as the email address is malformed | The email address isn't in the expected format. We recommend you exercise caution while engaging with this email address. |
-| This email doesn’t seem to be valid as the email address doesn't exist | The alias for this email address doesn't exist. We recommend you exercise caution while engaging with this email address. |
-| This email doesn’t seem to be valid as the domain is unknown | No data is available for the domain that that email belongs to. We recommend you exercise caution while engaging with this email address. |
-| This email seems to be spam | The email belongs to a known spam sending domain.<br>-or-<br>The email address is a known spam address. <br>We recommend not to engage with this email address. |
-| This email seems to be fake | The email address has a fake alias. We recommend not to engage with this email address. |
+| This email doesn't seem to be valid as the domain expired recently | The email domain recently expired. We recommend you exercise caution while engaging with this email address. |
+| This email doesn't seem to be valid as the domain has expired | The email domain has expired. We recommend you exercise caution while engaging with this email address. |
+| This email doesn't seem to be valid as the domain is invalid | The email domain is misspelled or can't be found for some other reason. We recommend you exercise caution while engaging with this email address. |
+| This email doesn't seem to be valid as it belongs to a temporary domain | The email domain is a known disposable or temporary domain. We recommend you exercise caution while engaging with this email address. |
+| This email address may be invalid as it's a mailing list, and not an individual's email | The email address belongs to a mailing hub or hub email address, not to an individual. We recommend you exercise caution while engaging with this email address. |
+| This email doesn't seem to be valid as the email address is malformed | The email address isn't in the expected format, *username@domain*. We recommend you exercise caution while engaging with this email address. |
+| This email doesn't seem to be valid as the email address doesn't exist | The alias or username in this email address can't be found. We recommend you exercise caution while engaging with this email address. |
+| This email doesn't seem to be valid as the domain is unknown | The email domain can't be found. We recommend you exercise caution while engaging with this email address. |
+| This email seems to be spam | The email address or domain is a known source of spam. We recommend you avoid engaging with this email address. |
+| This email seems to be fake | The email address has a fake alias. We recommend you avoid engaging with this email address. |
+<!-- NOTE: What's a "fake" alias in this case? How does it know? Also, can we please change "fake" to some other word, especially in an error message? It's fraught and inaccurate and may possibly be misleading, too.-->
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
