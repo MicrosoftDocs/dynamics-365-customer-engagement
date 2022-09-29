@@ -14,7 +14,12 @@ In Omnichannel for Customer Service, you can integrate both Azure and Power Virt
 
 Based on if your Administrator has enabled **Add historical Analytics for bots**  in Customer Service admin center, the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
-You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Omnichannel historical analytics**. On the page that appears, select the **Bot** tab.
+**Navigation**
+
+You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the **Bot** dashboard as follows:
+
+- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
+- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
 
 ## Power Virtual Agents bot dashboard
 
