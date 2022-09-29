@@ -79,8 +79,8 @@ The following section describes a step-by-step process to enable model customiza
 You need to enable the option to be able to extend the out-of-the-box Power BI data model and add new metrics to your reports.
 
  1. In the Customer Service admin center site map, select **Insights** in **Operations**.
- 1. On the **Insights** page, **Report settings** section, for **Embedded Power BI report extensibility - Historical data model customization (preview)**, select **Manage**.
- 1. On the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, set the **Enable embedded Power BI data model customization** toggle to **On**.
+ 1. On the **Insights** page, **Report settings** section, for **Embedded Power BI extensibility - Data model customization (preview)**, select **Manage**.
+ 1. On the **Embedded Power BI extensibility - Data model customization (preview)** page, set the **Enable embedded Power BI data model customization** toggle to **On**.
  
 :::image type="content" source="media/model-csac.png" alt-text="Enable Model customization in Customer Service admin center":::
  
