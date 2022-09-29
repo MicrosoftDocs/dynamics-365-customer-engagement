@@ -20,19 +20,19 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-The Dynamics 365 Customer Service workspace helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
+The Dynamics 365 Customer Service workspace app helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
 
-The application leverages artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent velocity. Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
+The application leverages artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+For more information about licensing and system requirements, see: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
-**Setup Omnichannel in Customer Service workspace** 
+**Set up Omnichannel in Customer Service workspace** 
 
 You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app with he Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). For more information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
 
-## Access the Customer Service workspace layouts
+## Access Customer Service workspace layouts
 
-Access Customer Service workspace through the app selector where you find other Dynamics 365 apps. Or, select it in the drop-down navigation in the upper-left corner of Dynamics 365.
+You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps, Or you can select it in the dropdown navigation in the upper-left corner of Dynamics 365.
 
 By default, Customer Service workspace opens in the Customer Service Agent Dashboard view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
 
@@ -44,39 +44,39 @@ The Customer Service workspace app currently supports two layouts:
 You can switch to the enhanced layout with the following steps:
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press Enter: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
+1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
 1. Refresh the app page.
 
 > [!NOTE]
-> - If you turn on the enhanced multisession workspace, the enhanced experience applies in both Customer Service workspace and Omnichannel for Customer Service.
-> - To revert back to the default layout, type the following command in developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+> - If you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service.
+> - To revert back to the default layout, type the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
 
 The following table provides an overview of the layouts:
 
 | Default workspace | Enhanced multisession workspace |
 | ------------ | ------------- |
 |  :::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png"::: | :::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview-enhanced.png"::: |
-| 1. Select the **Home** icon to return to the Customer Service Agent Dashboard view.<br>2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.<br>3.Select the **+** icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.<br>4. Select the arrow to choose a different view.<br>5. Select a case or an activity to open a new session. The session replaces your current view with the case form.<br>6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it.<br>7. Select the arrow to view a different dashboard.  | 1. Select the icon to open the site map. <br>2. Select the **Home** tab to return to the Customer Service Agent Dashboard view.<br> 3. Select the [**Inbox**](#use-the-inbox) tab to view all the cases and conversations that are assigned to you. You'll only see the inbox if it's turned on for your profile. <br> 4. Each open session has a tab in the tab row. Select a tab to navigate between sessions.<br> 5. Select a case or an activity to open a new session. The session opens in a new tab in the workspace window. <br> 6. Select the arrow to choose a different view.<br> 7. Select the arrow to view a different dashboard. |
+| 1. Select the **Home** icon to return to the Customer Service Agent Dashboard view.<br>2.The session pane shows all the sessions you've opened. Select the icons to navigate between sessions.<br>3.Select the **+** icon in the tab bar to open more workspaces in a new tab. If you hold the **Ctrl** key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions.<br>4. Select the arrow to choose a different view.<br>5. Select a case or an activity to open a new session. The session replaces your current view with the case form.<br>6. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the **Ctrl** key while you select it.<br>7. Select the arrow to view a different dashboard.  | 1. Select the icon to open the site map. <br>2. Select the **Home** tab to return to the Customer Service Agent Dashboard view.<br> 3. Select the [**Inbox**](#use-the-inbox) tab to view all the cases and conversations that are assigned to you. You'll only see the inbox if it's turned on for your profile. <br> 4. Each open session has a tab in the tab row. Select a tab to navigate between sessions.<br> 5. Select a case or an activity to open a new session. The session opens in a new tab in the workspace window. <br> 6. Select the arrow to choose a different view.<br> 7. Select the arrow to view a different dashboard. |
 
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
 When an agent opens a case from the Home session or when the agent accepts an incoming conversation, a new session will be launched. 
-If the agent opens the customer record from a given session, a new tab will be launched in the same session. 
+If the agent opens the customer record from a session, a new tab will be launched in the same session. 
 
 ### Navigate sessions and tabs
 
-The following table gives an overview of the navigation in both views :
+The following table gives an overview of the navigation in both views:
 
 | Column | Default | Enhanced multisession workspace |
 | ------------ | ------------- | ------------- |
 | Select a record from the Home session | Record opens in a new session | Record opens in a new session |
 | Select a record from the Global search | Record opens in a new tab | Record opens in a new session |
 | Select a record from the retrieved search records | Record opens in a new tab | Record opens in a new tab |
-| Create a record via Quick Create form | Record opens in a new tab | Record opens in a new session |
+| Create a record using the Quick Create form | Record opens in a new tab | Record opens in a new session |
 | Create a new record | Record opens in a new session | Record opens in a new session |
 | Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
-| Select an entity from the Sitemap | Record opens in a new tab | Record opens in a new tab |
+| Select an entity from the site map | Record opens in a new tab | Record opens in a new tab |
 
 The Enhanced multisession workspace also has improved in-app notification integration.
 
@@ -84,7 +84,7 @@ The Enhanced multisession workspace also has improved in-app notification integr
 
  If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
 The inbox conversation view looks as seen in the following screenshot.
 
@@ -122,7 +122,7 @@ On the Customer Service Agent Dashboard, you can view cases and activities that 
 | 6 | Apply a routing rule to route selected cases to a queue. |
 | 7 | Open the menu for more actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, and Unfollow cases. |
 
-For more information, see : [Work with cases](customer-service-hub-user-guide-create-a-case.md)
+More information: [Work with cases](customer-service-hub-user-guide-create-a-case.md)
 
 ### Activities
 
@@ -139,7 +139,7 @@ For more information, see : [Work with cases](customer-service-hub-user-guide-cr
 
 Expand the Customer Service workspace site map and select **Knowledge Articles** or **Knowledge Search**. Intelligent knowledge suggestions are displayed in the productivity pane while you're working on a case.
 
-Learn more about how to [create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
+More information: [create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
 ### Use email templates and signatures
 
@@ -154,7 +154,7 @@ You can use your browser's developer tools to customize some aspects of the Cust
 ### Turn off the close session dialog
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press Enter: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
+1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
 1. Refresh the app page.
 
 ### Turn on legacy navigation (deprecated)
@@ -163,7 +163,7 @@ You can use your browser's developer tools to customize some aspects of the Cust
 > The legacy navigation is deprecated and will be removed in a future release.
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press Enter: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
+1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
 1. Refresh the app page.
 
 ### See also

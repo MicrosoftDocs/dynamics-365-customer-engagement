@@ -8,9 +8,9 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Customer Service workspace system requirements
+# System requirements for Customer Service workspaces
 
-This topic provides information about the prerequisites and system requirements for using Customer Service workspace in your organization.
+This article provides information about the prerequisites and system requirements for using Customer Service workspace in your organization.
 
 > [!NOTE]
 > The Customer Service workspace app is not supported on the Unified Service Desk framework.
@@ -27,7 +27,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 | Area | Requirements |
 |----------|----------|
-| Model-driven app | Dynamics 365 Customer Service workspace app version 9.1.0000.20164 or later  |
+| Model-driven app | Dynamics 365 Customer Service workspace app version 9.1.0000.20164. |
 | Web browsers | Supported browsers: <li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
 |||
 
