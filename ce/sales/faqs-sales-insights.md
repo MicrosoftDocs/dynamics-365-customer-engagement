@@ -307,50 +307,45 @@ For activities, the suggestions are displayed immediately.
 
 ### Why am I not seeing some contacts in the suggestions?
 
-The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. 
+The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
-### How long will it take for suggestions to show up?
+### How long does it take for suggestions to show up?
 
 After your Microsoft 365 admin provides consent, you'll start seeing the results with a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
 ### Which colleagues show up as connections?
 
-Users in your org who have frequently and recently interacted with the contact or lead show up as introducers. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+Users in your org who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### ​How are the connections weighted?
 
-The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead. 
+The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead.  
 
-### What is the source of the data?
+### How frequently is the data collected?
 
-Who knows whom has the following data sources:
--	**Dynamics 365**: The lead or contact email ID that is used to query Exchange Online to find who in the tenant has communication with sellers.
--	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, sellers' contacts, and the organization directory.
+When you enable who knows whom and provide the required consent, Exchange data pertaining to the last one year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
 
-### Where is the data stored?
+### What is the source for who knows whom data?
 
-The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](/exchange/security-and-compliance/security-and-compliance)
+Emails and meeting information in Exchange Online is the source data. See also [​How are the connections weighted?](#how-are-the-connections-weighted)
 
-### What is the data retention policy, and where is it set?
+### Where are the insights generated?
 
-The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
+After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. The insights are then generated from the stored data in Dynamics 365.  
 
-### How do I opt out?
+> [!IMPORTANT]
+> Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
 
-You can choose to opt out of sharing your Microsoft 365 data. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
-### How long does it take to remove my data after I opt out?
+### When will my data be removed after I opt out?
 
-If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
+If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
-If you have opted out on your own, the data will be removed immediately.  
+If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data will be removed immediately.  
 
-### How does an Exchange administrator exclude users?
+### How does a Microsoft 365 administrator exclude users?
 
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
-
-### What level of access do administrators have?
-The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales, and the Exchange administrator must enable it in Exchange Online. Enabling the feature establishes a connection between Dynamics 365 Sales and Exchange Online, so data can be exchanged between the systems. If any of the administrators disable it, the data won't be visible on the who knows whom widget.
 
 ## Conversation intelligence
 
