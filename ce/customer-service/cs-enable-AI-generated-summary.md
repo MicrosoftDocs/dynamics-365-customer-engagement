@@ -27,9 +27,7 @@ Agents can collaborate with other agents and contacts directly while they're wor
 
 ## Components of an auto-summarize conversations (preview)
 
-The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. 
-> [!NOTE]
-> Summaries are limited to the first 7,000 characters of a transcript.
+The conversation summary feature uses an AI natural language model to summarize a transcript of an active conversation. Summaries are limited to the first 7,000 characters of a transcript.
 
 A summary includes the following components:
 
