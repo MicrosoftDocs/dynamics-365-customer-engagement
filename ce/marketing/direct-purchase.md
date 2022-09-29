@@ -1,7 +1,7 @@
 ---
 title: "Purchase a license directly from a Marketing trial (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to a license to purchase a paid license directly within a Dynamics 365 Marketing app trial."
-ms.date: 09/09/2022
+ms.date: 09/28/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -84,7 +84,6 @@ Learn more: [Manage self-service purchases (Admin)](/microsoft-365/commerce/subs
 
 In the admin center, *non-tenant admins* (departmental purchasers) can:
 - Acquire a departmental license through a paid/trial motion.
-- Assign those licenses to users in their tenant if applicable.
 - Add/remove licenses as needed.
 - Pay their bill/manage their account.
 
