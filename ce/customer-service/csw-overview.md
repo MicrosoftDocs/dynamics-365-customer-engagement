@@ -111,8 +111,8 @@ As an agent, it's helpful to know your work schedule. If your administrator has 
 1. In Customer Service workspace, open the **Customer Service Agent Dashboard** page.
 
 1. You can navigate to the agent calendar as follows:
-1. In the default view, on the site map, select the plus sign (+), and then in the dropdown menu, select **My schedule**.
-1. If the enhanced multisession view is enabled, select the site map, and then select **My schedule**.
+    - In the default view, on the site map, select the plus sign (+), and then in the dropdown menu, select **My schedule**.
+    - If the enhanced multisession view is enabled, select the site map, and then select **My schedule**.
 
    :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
 
