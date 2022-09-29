@@ -70,7 +70,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
   The **Edit Tags** dialog box appears.
 
-3. In the **Add new tag** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select the plus **+** sign to add it.
+3. In the **Add new tag** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select the **+** (plus sign) to add it.
 
 > [!div class=mx-imgBorder]
 > ![Add a tag.](media/oc-quick-reply-add-tag.png "Add a tag")
