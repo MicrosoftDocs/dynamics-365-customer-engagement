@@ -87,11 +87,11 @@ You can enable the historical analytics for bots in the Custom Service admin cen
 
 - If you select this option, the Omnichannel Summary and Bot dashboards, will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agent bot.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Enable the settings for Summary and Bot dashboard.":::
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="PVA bot dashboard.":::
   
 - If no Power Virtual Agent bots are integrated withe application or you don't select this option, the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
 
- :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Enable the settings for Summary and Bot dashboard.":::
+ :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
 **Enable Historical analytics for bots in Omnichannel for Customer Service**
 
