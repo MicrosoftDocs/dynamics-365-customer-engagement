@@ -1048,10 +1048,14 @@
         items: 
         - name: Introduction to Omnichannel Real time analytics reports
           href: intro-realtime-analytics-dashboard.md
-        - name: Agents report in Omnichannel real time analytics
+        - name: Agent report
           href: realtime-agents-analytics.md
-        - name: Ongoing Conversations report in Omnichannel real time analytics
-          href: realtime-ongoing-conversations-dashboard .md 
+        - name: Ongoing Conversations report
+          href: realtime-ongoing-conversations-dashboard .md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
       - name: Omnichannel Insights
         items: 
         - name: Introduction to Omnichannel Insights
