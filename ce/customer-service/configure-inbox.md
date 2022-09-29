@@ -72,9 +72,9 @@ You can configure the inbox in the Customer Service admin center by editing the 
       - **Show**
       - **Hide**
 
-## Configure inbox views
+## Pre-configured inbox views
 
-The following views are supported in the inbox:
+The following views are supported out of the box in the inbox:
 
 - **Cases**: Shows all cases that are owned by the user, including active and resolved cases.
 - **Assigned Conversations**: Shows all conversations that have been assigned to the user, including active and closed conversations.
@@ -83,7 +83,7 @@ The following views are supported in the inbox:
 
 Inbox views are refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
 
-### Configure custom inbox views
+## Configure custom inbox views
 
 You can configure the inbox view so that agents can see their cases, conversations, emails, and voicemails all in a single view.
 
@@ -118,7 +118,7 @@ To configure multiple views for the inbox, complete the following steps.
 1. Select **Save**.
 
 
-#### Simple settings
+### Simple settings
 
 The following simple settings are available out of the box for the record types.
 
