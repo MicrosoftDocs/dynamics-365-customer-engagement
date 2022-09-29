@@ -646,8 +646,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Voice channel analytics, reports, and call insights
-        href: voice-channel-reports-analytics.md 
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
     - name: FAQ about the voice channel
@@ -1014,6 +1012,8 @@
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
           href: oc-queue-dashboard.md
+        - name: Omnichannel Voice dashboard
+          href: voice-channel-reports-analytics.md   
         - name: Omnichannel Agent dashboard
           href: agent-dashboard.md
         - name: Omnichannel Bot dashboard
