@@ -18,7 +18,7 @@ ms.custom:
 
 ---
 
-# Summary dashboard
+# View and understand the Summary report in Omnichannel real time analytics (preview)
 
 The Summary tab is displayed in the default view in your workspace. The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
 

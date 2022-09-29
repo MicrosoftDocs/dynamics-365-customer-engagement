@@ -17,9 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Summary dashboard
+# View and understand the Voice report in Omnichannel real time analytics (preview)
 
-The Voice dashboard gives you insights into key metrics across the voice channel.
+The Voice report gives you insights into key metrics across the voice channel.
 
 **(need screenshot)**
 
