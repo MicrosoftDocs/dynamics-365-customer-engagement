@@ -50,8 +50,7 @@ Email address validation looks for the following issues:
 - **Expired email addresses**: An email account that has expired and can no longer receive or send email
 - **Emails that bounce back**: An address that can't receive a message for any reason
 
-Sellers can view invalid email addresses on record forms, work list items, and the **Up next** widget in sales accelerator. More information: [Work with fake email addresses](work-fake-email-addresses.md)
-<!-- NOTE: Can we please change "fake" to "invalid"? "Fake" is politically fraught and moreover, it's inaccurate. -->
+Sellers can view invalid email addresses on record forms, work list items, and the **Up next** widget in sales accelerator. More information: [Work with invalid email addresses](work-invalid-email-addresses.md)
 
 ## Limitations of email validation
 
@@ -77,4 +76,4 @@ Email validation runs immediately on the primary email address in lead records t
 
 ### See also
 
-[Work with fake email addresses](work-fake-email-addresses.md)
+[Work with invalid email addresses](work-invalid-email-addresses.md)

@@ -78,8 +78,7 @@ You can also send email to an invalid address by creating a manual email activit
 | This email doesn't seem to be valid as the email address doesn't exist | The alias or username in this email address can't be found. We recommend you exercise caution while engaging with this email address. |
 | This email doesn't seem to be valid as the domain is unknown | The email domain can't be found. We recommend you exercise caution while engaging with this email address. |
 | This email seems to be spam | The email address or domain is a known source of spam. We recommend you avoid engaging with this email address. |
-| This email seems to be fake | The email address has a fake alias. We recommend you avoid engaging with this email address. |
-<!-- NOTE: What's a "fake" alias in this case? How does it know? Also, can we please change "fake" to some other word, especially in an error message? It's fraught and inaccurate and may possibly be misleading, too.-->
+| This email seems to be fake | The email address has a fraught alias. We recommend you avoid engaging with this email address. |
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

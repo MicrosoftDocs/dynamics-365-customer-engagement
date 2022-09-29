@@ -55,7 +55,6 @@ When you open the **Assignment rules** home page, by default the lists of rules 
     :::image type="content" source="media/sa-ar-view-unassigned-records-home-page-unassigned-column.png" alt-text="Screenshot of the assignment rules home page with unassigned records column.":::
 
     >[!NOTE]
-    >
     >- If no segment is attached to a rule, then the rule is grouped under **No segments**.
     >- When a segment is deleted, the attached rules will be automatically assigned to the default segment.
 
@@ -127,9 +126,7 @@ Once the scheduled run is complete, the history is updated with the latest time.
     :::image type="content" source="media/sa-ar-run-reassignment-schedule-confirmation-side-pane.png" alt-text="Screenshot illustrating the reassignment schedule side pane.":::
 
     >[!NOTE]
-    >
     >- To edit the schedule, hover over the **Run scheduled** section and then select the pencil icon.
-    >
     >- To delete the schedule, hover over the **Run scheduled** section and then select the delete icon.
 
 ## View reassignment run history
@@ -158,7 +155,6 @@ You can assign the unassigned records to sellers or a team.
 1. On the **Assign leads to a seller or team** page, select a seller to who you want to assign the record.
 
     >[!NOTE]
-    >
     >- Enable the **Show eligible sellers** option to view only the seller who are added to assignment rules through team settings. More information: [Manage sales teams in assignment rules](manage-sales-teams.md)
     >- To assign the record to a team, select **Team** tab.
 
