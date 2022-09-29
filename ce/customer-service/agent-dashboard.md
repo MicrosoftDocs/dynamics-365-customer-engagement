@@ -93,7 +93,7 @@ The charts display the following metrics.
 
 The Agent drill-down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training or coaching scenarios for agents.  
 
-To access the drill down, select any metric value for the agent you're interested in, and then select **Details**.  
+To access the drill down, select any metric value for the agent you're interested in, and then select **Details**. Use the **Back** button to come back to the main view from a details view. The **Details** button and **Hourly**button are in disabled mode by default and get enabled only when a metric is selected.
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel agent drill down.](media/oc-agent-drill-down.png "Omnichannel agent drill down")
@@ -101,7 +101,7 @@ To access the drill down, select any metric value for the agent you're intereste
 ## Drill-down view of agent hourly details
 
 The Agent hourly details drill-down view provides granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
-To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
+To view the drill down, select any single metric value on the required day, then select **Hourly details**. 
 
 
 > [!div class="mx-imgBorder"]
