@@ -28,14 +28,11 @@ A workstream can have only one route-to-queues ruleset.
 
 After you configure the rules, the system matches the rule conditions, and operating hours of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
 
-
 ## Percent-based allocation of work to queues
 
-To load balance the workload optimally, organizations can configure percent-based routing to distribute work items to queues. In this way, the routing of work items to queues can be controlled using percentages. Percent-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
+To load balance the workload optimally and distribute the load across multiple contact center vendors, organizations can configure percent-based routing to distribute work items to queues. In this way, the routing of work items to queues can be controlled using percentages. Percent-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
 
-When you configure this feature, the system will pick a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. However, whether the work item finally goes into the selected queue depends on the ruleset evaluation logic and not percent-based routing.
-
-The queue overflow settings and override overflow settings are considered during the rule evaluation for percent-based routing.
+When you configure this feature, the system will pick a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. However, the final queue that's selected is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
 
 ## Configure rules in route-to-queue ruleset
 
