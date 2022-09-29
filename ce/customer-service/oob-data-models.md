@@ -1,6 +1,6 @@
 ---
-title: "Default data model and report mapping for historical analytics reports in Customer Service | MicrosoftDocs"
-description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service"
+title: "Data model and report mapping for historical analytics reports| MicrosoftDocs"
+description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service."
 ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
@@ -17,6 +17,7 @@ search.app:
 ---
 
 # Data model and report mapping for historical analytics reports in Customer Service
+
 The topic describes the out-of-the-box data model and report mapping for historical reports.
 
 ## Customer service manager analytics
@@ -80,11 +81,11 @@ The topic describes the out-of-the-box data model and report mapping for histori
 ### Report mapping
 
 Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edits to the following reports:
-1.	Conversation
-2.	Queue
-3.	Agent
-4.	Topics
-5.	Bot
+- Conversation
+- Queue
+- Agent
+- Topics
+- Bot
 
 
 ### Data model
@@ -102,33 +103,33 @@ Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edi
 |DimConversationProperty |Conversation property id |Primary key. |
 |DimConversationProperty	|Channel |	Channel name. The name of the channel that the conversation came through. |
 |DimConversationProperty|Conversation status |The status of the conversation. That is, open, active, waiting, wrap up, and closed. |
-|DimDate |	Date time	|Date time. The type is Date/Time. |
+|DimDate |	Date time	|Date and time. The type is Date/Time. |
 |DimDate |	Day	|Day name. Example: "Fri".|
 |DimDate |	Hour	|Hour. Example: "01:00", "01:30"|
 |DimDate	|Month	|Month name. Example: "Apr 2021".|
 |DimDate	|Quarter	|Quarter name. Example: "Q1". |
 |DimDate |Week	|Week number. Example: "1". |
 |DimDate	|Year	|Year number. Example: "2021". |
-|DimQueue	|Queue id	|Queue ID. Primary key. Type: Guid. |
-|DimQueue	|Is omnichannel queue |Is omnichannel queue. Currently, it's always true. |
+|DimQueue	|Queue id	|Queue ID. Primary key of type GUID. |
+|DimQueue	|Is omnichannel queue |Whether the queue is an omnichannel queue. Currently, it's always true. |
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id|	System user ID. |
 |DimSystemUser	|Agent	|Name of the agent. |
-|DimSystemUser	|Is bot	|Is bot. True or false. |
-|DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00. |
-|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid. |
+|DimSystemUser	|Is bot	| Whether the system user is a bot. True or false. |
+|DimTimeZone	|Time zone	|Time zone code such as GMT +01:00. |
+|DimTopic	|Topic id	|Topic ID. Primary key of type GUID. |
 |DimTopic	|Topic	|Topic name.|
 |FactAgentStatusHistory |Agent status history id	|Original identifier of the agent status history record from msdyn_agentstatushistory entity. Type: Guid.|
 |FactAgentStatusHistory	|System user id	|Agent ID. Foreign key to DimSystemUser. |
-|FactAgentStatusHistory	|Agent logged in time	|The time an agent logged in the Omnichannel application per presence status. |
+|FactAgentStatusHistory	|Agent logged in time	|The time an agent logged in the omnichannel application per presence status. |
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
-|FactAgentStatusHistory	|Agent available duration (hrs)|	The time an agent is in the Available state in the Omnichannel application.|
-|FactAgentStatusHistory	|Agent away duration (hrs)|	The time an agent is in the away state in the Omnichannel application.|
-|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)|	The time an agent is in the Busy DND state in the Omnichannel application.|
-|FactAgentStatusHistory	|Agent busy duration (hrs) |Time an agent in the busy state in Omnichannel application.|
-|FactAgentStatusHistory	|Agent offline duration (hrs)|	The time an agent signed out of the Omnichannel application.|
+|FactAgentStatusHistory	|Agent available duration (hrs)|	The time an agent is in the Available state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent away duration (hrs)|	The time an agent is in the away state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)|	The time an agent is in the Busy DND state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent busy duration (hrs) |Time an agent in the busy state in omnichannel application.|
+|FactAgentStatusHistory	|Agent offline duration (hrs)|	The time an agent signed out of the omnichannel application.|
 |FactAgentStatusHistory	|Agent total sign-in time (hrs)	|The time an agent is in each status. The column is used to calculate other measures like "Agent available duration (hrs)", "Agent away duration (hrs)".|
-|FactConversation	Conversation id	|Identifier of the conversation record. | Primary key. Type: Guid.|
+|FactConversation	Conversation id	|Identifier of the conversation record. | Primary key of type GUID.|
 |FactConversation|	Conversation title	|Conversation title.|
 |FactConversation|	Conversation Url	|Conversation URL.|
 |FactConversation	|Conversation property id|	Foreign key to DimConversationProperty. |
@@ -152,9 +153,9 @@ Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edi
 |FactConversation	|Closed on	|Date closed on.|
 |FactConversation	|Engaged conversations	|Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.|
 |FactConversation	|Incoming conversations	|The number of incoming conversations.|
-|FactConversation	|Outgoing conversations	|The number of outgoing conversations.}
+|FactConversation	|Outgoing conversations	|The number of outgoing conversations.|
 |FactConversation	|Total conversations |The number of total conversations. |
-|FactConversation	|Transfer rate	|The percentage of conversations that are transferred to another agent/queue. |
+|FactConversation	|Transfer rate	|The percentage of conversations that are transferred to another agent or queue. |
 |FactConversation	|Sentiment zone	|Sentiment zone for the conversation. |
 |FactConversation	|Avg. conversation active time (min)|	Average time when conversation is active.|
 |FactConversation	|Avg. conversation inactive time (min)	|Average time when conversation is inactive. |
@@ -245,7 +246,7 @@ Use the Dynamic_365_Customer_Service_Omnichannel_voice_analytics.pbix file to ma
 | Entities | Attributes | Description |
 |----------|----------|----------|
 |DimAgentPresence	|Agent presence id	|Primary key. |
-|DimAgentPresence	|Presence status	|agent presence status that could be "Available", "Busy", "Busy - DND", "Away", or "Offline"|
+|DimAgentPresence	|Presence status	|Agent presence status that could be "Available", "Busy", "Busy - DND", "Away", or "Offline"|
 |DimConversationProperty	|Conversation property id	|Primary key|
 |DimConversationProperty	|Channel name. |The name of the channel that the conversation came through.|
 |DimConversationProperty	|Conversation status	|The status of the conversation, that is, open, active, waiting, wrap up, and closed.|
@@ -265,16 +266,16 @@ Use the Dynamic_365_Customer_Service_Omnichannel_voice_analytics.pbix file to ma
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00.|
 |DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid.|
 |DimTopic	|Topic	|Topic name.|
-|FactAgentStatusHistory	|Agent status history id|	Identifier of the agent status history record. Primary key. Type: Guid.|
+|FactAgentStatusHistory	|Agent status history id|	Identifier of the agent status history record. Primary key of type GUID.|
 |FactAgentStatusHistory|	System user id	|Agent ID. Foreign key to DimSystemUser.|
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
-|FactAgentStatusHistory	|Agent available duration (hrs)	|The time an agent is in the Available state in the Omnichannel application.|
-|FactAgentStatusHistory	|Agent away duration (hrs)|	The time an agent is in the Away state in the Omnichannel application.|
-|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)	|The time an agent is in the Busy DND state in the Omnichannel application.|
-|FactAgentStatusHistory	|Agent busy duration (hrs)	|Time an agent in the busy state in Omnichannel application.|
-|FactAgentStatusHistory	|Agent offline duration (hrs)	|The time an agent signed out of the Omnichannel application.|
+|FactAgentStatusHistory	|Agent available duration (hrs)	|The time an agent is in the Available state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent away duration (hrs)|	The time an agent is in the Away state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)	|The time an agent is in the Busy DND state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent busy duration (hrs)	|Time an agent in the busy state in omnichannel application.|
+|FactAgentStatusHistory	|Agent offline duration (hrs)	|The time an agent signed out of the omnichannel application.|
 |FactAgentStatusHistory|	Agent total sign-in time (hrs)	|The time an agent in each status. The column is used to calculate other measure.|
-|FactConversation|	Conversation id	|Identifier of the conversation record. Primary key. Type: Guid.|
+|FactConversation|	Conversation id	|Identifier of the conversation record. Primary key of type GUID.|
 |FactConversation|	Conversation title	|Conversation title.|
 |FactConversation	|Conversation Url	|Conversation URL.|
 |FactConversation	|Conversation property id	|Foreign key to DimConversationProperty. |
@@ -344,7 +345,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactSession	|Outgoing conversations	|Outgoing conversations|
 |FactSession	|Outgoing messages	|Outgoing messages|
 |FactSession	|Sentiment zone	|SentimentZone|
-|FactSession	|Session rejected/timed out rate	|Session rejected/timed out rate|
+|FactSession	|Session rejected/timed out rate	|Session rejected or timed out rate|
 |FactSession	|Sessions rejected	|Sessions rejected|
 |FactSession	|Transfer rate	|The number of sessions transferred by an agent|
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record|
@@ -381,8 +382,8 @@ Use the Dynamic_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file 
 
 Use the Dynamic_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to make edits to the following reports:
 
-1. Summary
-2. Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the **Add historical analytics for bots** option in Omnichannel historical analytics). 
+- Summary
+- Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the **Add historical analytics for bots** option in Omnichannel historical analytics). 
 
 ### Data model
 
@@ -434,8 +435,8 @@ Use the Dynamic_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to make
 
 ### See also
 
-[Visual customization of historical analytics reports in Customer Service](customize-reports.md#visual-customization-of-historical-analytics-reports-in-customer-service)
+[Visual customization of historical analytics reports in Customer Service](customize-reports.md#visual-customization-of-historical-analytics-reports-in-customer-service)  
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md) <br>
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
-[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
+[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)   
