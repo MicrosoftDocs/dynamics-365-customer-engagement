@@ -25,8 +25,8 @@ The report appears as a tab in the Omnichannel historical analytics report if yo
 
 You can view the Unified dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Unified routing as follows:
 
-- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Unified routing**.
-- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Unified routing**.
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Unified routing**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Unified routing**.
 
 :::image type="content" source="media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 
