@@ -54,6 +54,7 @@ Add products and services as price list items to the price list.
 
    - **Pricing Method**: Choose **Currency Amount**.
    - **Amount**: Enter the price of the product or service. Enter the hourly rate for services.
+   - **Discount List**: Don't use this setting. Field Service currently doesn't support discount lists price list items. You can configure discounts directly on work order products and services.
 
 For more information about options for price list items, go to [Define product pricing with price lists and price list items](../sales/create-price-lists-price-list-items-define-pricing-products.md).
 
