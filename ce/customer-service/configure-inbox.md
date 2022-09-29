@@ -72,7 +72,7 @@ You can configure the inbox in the Customer Service admin center by editing the 
       - **Show**
       - **Hide**
 
-## Inbox views
+## Configure inbox views
 
 The following views are supported in the inbox:
 
@@ -82,6 +82,52 @@ The following views are supported in the inbox:
 - **Unassigned Conversations**: Shows all active conversations and emails in a team or queue in which the user is a member. The user is able to assign conversations to themselves and reply to emails directly from this view.
 
 Inbox views are refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
+
+### Configure custom inbox views
+
+You can configure the inbox view so that agents can see their cases, conversations, emails, and voicemails all in a single view.
+
+To configure multiple views for the inbox, complete the following steps.
+
+1. In the Customer Service admin center app, in the site map, go to **Agent experience** > **Workspaces**.
+
+1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**. The **Agent experience profiles** page is displayed.
+
+1. Select the profile for which you want to configure the custom view.
+
+1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
+
+1. Toggle **Enable Inbox** to **On** if it isn't already on, and then select **+ Add**. The **Add a new view** page is displayed.
+
+1. On the **Add a new view** page, enter the following details:
+
+   - **Name**: Type a name for the view.
+   - **Agent visibility**: Select whether to **Show** or **Hide** the view from agents.
+   - **Record type**: Select the records that you want to include in the multi-entity view.
+  
+1. For each record type you choose, you can define either **Simple** or **Advanced** settings.
+
+    - Select **Simple** to open a dropdown menu where you can choose the type of records that will appear in your multi-entity view. More information: [Simple settings](#simple-settings)
+       
+      :::image type="content" source="media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox."::: 
+       
+    - Select **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](https://business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
+
+      :::image type="content" source="media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
+
+1. Select **Save**.
+
+
+#### Simple settings
+
+The following simple settings are available out of the box for the record types.
+
+| Record type | Simple settings |
+|-----------|------------------|
+| Email | - Emails sent to me<br>- Emails assigned to me<br> - Emails in my team(s)<br> - Emails in my queue(s)<br> - Emails in a shared mailbox|
+| Chat | - Assigned<br> - Unassigned<br> - Resolved|
+| Case | - Cases assigned to me<br> - Cases in my team(s)<br> - Case(s) in my queue(s) |
+| Voicemail (preview) | - Assigned<br> - Unassigned<br> - Resolved |
 
 ## Real-time translation
 For information about how to configure real-time translation for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md)
