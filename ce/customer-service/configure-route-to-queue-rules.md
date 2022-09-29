@@ -16,10 +16,6 @@ searchScope:
 ---
 # Configure a route-to-queues ruleset for a workstream
 
-Use the CSR Manager or Omnichannel administrator role to configure the route-to-queue rules for a workstream.
-
-You'll do the tasks listed in this article in the Customer Service admin center.
-
 Queue routing rules send the work item to the right queue. The rules are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." If no rules are defined or no rules match, then the incoming work item will be routed to the fallback queue of the respective workstream.
 
 The route-to-queue ruleset is run after all the work classification rulesets are run.
@@ -28,9 +24,11 @@ A workstream can have only one route-to-queues ruleset.
 
 After you configure the rules, the system matches the rule conditions, and operating hours of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
 
+The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue)
+
 ## Percentage-based allocation of work to queues
 
-To load balance the workload optimally and distribute it across multiple contact center vendors, organizations can configure percentage-based routing to distribute work items to queues. In this way, the routing of work items to queues can be controlled using percent values. Percentage-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
+To balance the workload optimally and distribute it across multiple contact center vendors, organizations can configure percentage-based routing. The routing of work items to queues is controlled using percentage allocation. Percentage-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
 
 When you configure this feature, the system will pick a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. However, the final queue that's selected is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
 
@@ -50,15 +48,15 @@ When you configure this feature, the system will pick a queue from the available
 
     1. **Work allocation percentage**: Enter a value that denotes the percentage of work allocation for the queue.
 
-1. You can repeat the step 5 to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
+1. Repeat the step 5 to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
 
 :::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
 
-1. You can use the **Remove allocations** option that's available in the **More commands** ellipses to remove the percentage-based routing. When you update the percentage-based settings, you must ensure that the allocation totals to 100.
+1. Use the **Remove allocations** option that's available in the **More commands** ellipses to remove the percentage-based routing. When you update the percentage-based settings, you must ensure that the allocation totals to 100.
 
 1. Repeat steps 2 through 5 to define the rules to cater to your business needs.
 
-1. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
 
 ## Options available for rules
@@ -79,11 +77,15 @@ The route-to-queue stage of the diagnostics displays the following information a
 
 For each of the matched or applied rules, the corresponding queue is also displayed. For the percentage-based rule, the queue that's picked up from the set is highlighted.
 
+:::image type="content" source="media/diagnostics-percentage-based-routing.png" alt-text="Routing diagnostics of percentage-based routing.":::
+
 The runtime allocation percentages might deviate slightly from the allocation that you've configured in the rules. The margins tend to be negligible as the number of work items increases.
 
 ### See also
 
+[Manage overflow conditions](manage-overflow.md)  
 [Create a workstream for unified routing](create-workstreams.md)  
+[Configure work classification rules](configure-work-classification.md)  
 [Set up record routing](set-up-record-routing.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
