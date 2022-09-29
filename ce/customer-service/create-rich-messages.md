@@ -561,7 +561,7 @@ Within the designer, the first fields are related to the message that appears wi
 1. Provide the **Video URL**, which is the plain text URL that links directly to a video file.
 
    > [!Note]
-   > Embedded videos and video streaming websites won't work correctly. The video URL must link directly to a video's source. If a video streaming website's URL is used, the rich link won't work. To link to video streaming sites, instead use the **Website rich link** style rich message. Supported format types include .mp4, .mkv, .wmv, .m4v, .mov, .avi, .flv, .webm, .flac, .mka, .m4a, .aac, and .ogg
+   > Embedded videos and video streaming websites won't work correctly. The video URL must link directly to a video's source. If a video streaming website's URL is used, the rich link won't work. To link to video streaming sites, instead use the **Website rich link** style rich message. Supported format types include .mp4, .mkv, .wmv, .m4v, .mov, .avi, .flv, .webm, .flac, .mka, .m4a, .aac, and .ogg.
    
 1. Provide the **Image URL**, which is used to display a relevant image alongside the rich link title. The image URL must be a valid, still image in order to display correctly.
 
@@ -580,8 +580,8 @@ Within the designer, the first fields are related to the message that appears wi
 ### See also
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
-[Understand and create workstreams](work-streams-introduction.md)  
-[Create and manage routing rules](routing-rules.md)  
+[Understand and create workstreams](create-workstreams.md)  
+[Set up unified routing for rec](set-up-record-routing.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
