@@ -1,6 +1,6 @@
 ---
 title: Insights generated from Microsoft 365 data
-description: Dynamics 365 can generate insights based on email interactions and meetings information from Microsoft 365. 
+description: Dynamics 365 Sales can generate insights based on email interactions and meetings information from Microsoft 365. 
 ms.date: 09/01/2022
 ms.topic: article
 author: lavanyakr01
@@ -14,6 +14,9 @@ Dynamics 365 Sales uses your emails and meeting information from Exchange to gen
 
 - [Relationship analytics and health](#relationship-analytics-and-health)
 - [Who knows whom](#who-knows-whom)
+
+> [!NOTE]
+> If your organization is using Dynamics 365 Customer Insights, then your Exchange data will be used to enrich customer data. For more information, see [Enrich customer profiles with data from Microsoft Office 365](/dynamics365/customer-insights/enrichment-office).
 
 Your Microsoft 365 admin needs to [provide consent](provide-consent-office365.md) to let Dynamics 365 collect and use Microsoft 365 data. For information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md).  
 

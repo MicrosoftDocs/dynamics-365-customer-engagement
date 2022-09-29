@@ -1,7 +1,7 @@
 ---
 title: What are Preview features
 description: This article explains what are preview features and how to identify them in your trial instance.
-ms.date: 09/21/2022
+ms.date: 09/29/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
