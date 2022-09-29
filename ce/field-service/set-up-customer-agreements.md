@@ -4,7 +4,7 @@ description: Learn about customer agreements and how to set them up in Dynamics 
 ms.date: 09/02/2022
 ms.reviewer: mhart
 ms.topic: article
-author: jasoncohen
+author: jasonccohen
 ms.author: jacoh
 manager: shellyha
 search.app: 
