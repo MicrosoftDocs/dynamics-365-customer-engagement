@@ -20,11 +20,9 @@ You can also bring your own phone number via Azure direct routing. More informat
 ## Prerequisites
 
 - Check for the following criteria:
-
-   - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
-   - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers)
-   - [Country or region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability)
-
+  - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
+  - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers)
+  - [Country or region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability)
 - [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
 - [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
@@ -35,7 +33,7 @@ You can also bring your own phone number via Azure direct routing. More informat
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. When the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and can't reuse or purchase the trial number.
 
-The trial number is a toll-free US number and therefore you can't make a call to this number if you aren't in the US. As a workaround, you could use a geographic US number that's not chargeable. However trial numbers are capped at two, therefore it's the last trial number you can acquire, which should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
+The trial number is a toll-free US number, therefore you can't make a call to this number if you aren't in the US. As a workaround, you could use a geographic US number that's not chargeable. However, trial numbers are capped at two, therefore it's the last trial number that you can acquire and should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
 
 If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
