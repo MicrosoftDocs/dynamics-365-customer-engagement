@@ -1,7 +1,7 @@
 ---
 title: "Manage rich messages | MicrosoftDocs"
 description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -441,7 +441,7 @@ Multi-select questions can be used to quickly select one or more options from a 
 
 ### Dropdown picker question
 
-Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction which only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country, colors, brands, or categories. For single select questions that support images but fewer choices, see the single-select question type. 
+Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction which only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country, colors, brands, or categories. For single-select questions that support images but fewer choices, see the single-select question type. 
 
 1. Provide a **Question title**. You can also include an optional **Header** text.
 
@@ -457,13 +457,13 @@ Dropdown picker questions are used to quickly select a single option from a list
 
 ### Date picker question
 
-Date picker questions are used to quickly select a date using a wheel-like scrolling interaction. Date picker can be configured to only allow dates within a pre-defined timespan. This question type is good for inputting birthdates, purchase dates, or future events. Date pickers don't support times, which would need to be provided in a single or multi-line input question type. 
+Date picker questions are used to quickly select a date using a wheel-like scrolling interaction. Date picker can be configured to only allow dates within a pre-defined timespan. This question type is good for adding birthdays, purchase dates, or future events. Date pickers don't support times, which would need to be provided in a single line or multiline input question type. 
 
 1. Provide a **Question title**. You can also include an optional **Header** text. 
 
 1. **Label** is an optional value that appears beside the text field and can serve as an additional prompt. For a question titled “When were you born”, the label might be set to “Birthday”. 
 
-1. To limit the time-range that customers can input, there are two optional rage values:<br>
+1. To limit the timerange that customers can add, there are two optional range values:<br>
 
    a. **Min**: This value represents the furthest back date that can be selected. When this is set, no dates earlier than this date can be selected.<br>
    
@@ -475,13 +475,13 @@ Date picker questions are used to quickly select a date using a wheel-like scrol
 
 Within the designer, the first fields are related to the message that appears within the messages application.
 
-1. First, provide a message title, which will serve as the title for both the message and list picker.
+1. First, provide a message title that'll serve as title for both the message and the list picker.
 
 1. The following fields are optional:
 
-   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the header.<br>
+   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action text or to provide additional context that's not included in the header.<br>
    
-   b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and videos and GIFs aren't supported.<br>
+   b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type; videos and GIFs aren't supported.<br>
    
 1. A list picker is composed of one or more sections containing at least one item. The following fields are part of each section:<br>
 
@@ -519,7 +519,7 @@ Within the designer, the first fields are related to the message that appears wi
    
    b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and videos and GIFs aren't supported.<br>
    
-1. Under **Event information**, you can configure the details and time-slots as follows:<br>
+1. Under **Event information**, you can configure the details and time slots as follows:<br>
     
    a. **Event title**: The event title will appear within the customer's calendar application if they choose to add the event to their calendar.<br>
    
@@ -536,22 +536,22 @@ Within the designer, the first fields are related to the message that appears wi
       - Hours
       - Days
      
-   g. **Time slot**: The set of choices a customer can select from. To create times slots, select **Add date**, then add the following fields:<br>
+   g. **Time slot**: The set of choices a customer can select from. To create time slots, select **Add date**, then add the following fields:<br>
    
       - **Date**: The date used for each associated start time.
        
-      - **Start time**: Define each time slot that a customer can select. These will all be grouped under the selected date.
+      - **Start time**: Define each time slot that a customer can select. These will be grouped under the selected date.
        
       - To add additional start times for a specific date, select the Add time slot button below existing start time.
        
-   h. To add additional dates, select **Add date**, and then complete the steps above for adding time slots.
+   h. To add additional dates, select **Add date**, and then complete preceding steps for adding time slots.
   
      > [!Note]
      > Past time slots won’t display on the customer's device.
      
 1. An optional response message can be added to the time picker rich message. This text will appear in the customer's response, below their time slot selection.
 
-   - Recommendation: Use the response message as a call to action, encouraging customers to click the message for additional details. The additional details will include an **Add to Calendar** option that will display information such as event title and duration.
+   - **Recommendation**: Use the response message as a call to action, encouraging customers to click the message for additional details. The additional details will include an **Add to Calendar** option that will display information such as event title and duration.
    
    
 ### Video rich link
@@ -590,5 +590,6 @@ Within the designer, the first fields are related to the message that appears wi
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [sendMessageToConversation JavaScript method](../customer-service/developer/reference/methods/sendMessageToConversation.md)  
+[Retrieve and format rich messages](../customer-service/developer/reference/methods/message-object.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

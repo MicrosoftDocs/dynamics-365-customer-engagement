@@ -1,7 +1,7 @@
 ---
 title: "Retrieve and format rich messages  | Microsoft Docs"
 description: "Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API."
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Because Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method. You must process the rich message payload before sending it to the conversation, otherwise the method will send the desired rich object payload in plain `String` format.
+Because the Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method to the conversation. You must process the rich message payload before sending it to the conversation, else the method will send the desired rich object payload in plain `String` format.
 
 This articles describes how you can programmatically retrieve and format rich messages that can then be passed using the `MessageObject` type to the `sendMessageToConversation` method.
 
@@ -37,10 +37,11 @@ You'll use this JSON value when you format the rich message types.
 
 ## Format rich messages
 
-This section includes JSON samples for the rich message types available in the Apple Messages for Business channel in Omnichannel for Customer Service. More information: [Manage rich messages](/create-rich-messages#manage-rich-messages-for-apple-messages-for-business)
+This section includes JSON samples for the rich message types available in the Apple Messages for Business channel in Omnichannel for Customer Service. More information: [Manage rich messages](../../../create-rich-messages.md)
 
-[!Note]
-> You can't send Forms rich message to conversations.
+> [!Note]
+> You can't send rich messages of the Forms type to conversations.
+
 ### Apple Pay
 
 ```javascript

@@ -1,7 +1,7 @@
 ---
 title: "sendMessageToConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
 description: "Includes reference information about sendMessageToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
