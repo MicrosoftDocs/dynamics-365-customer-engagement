@@ -31,7 +31,7 @@ You can view the Conversation dashboard in the Customer Service workspace or Omn
 
 The report summarizes KPIs for the specified time period and the percent change over a period. These metrics are specific to Power Virtual Agent bots. You can filter these areas by duration, channel, queue, or agent.
 
- :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the Bot dashboard KPIs.":::
+ :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the PVA Bot dashboard KPIs.":::
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -45,7 +45,7 @@ The report summarizes KPIs for the specified time period and the percent change 
 
 The following table shows the bot KPI chart metrics.
 
- :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Screenshot that shows the Bot dashboard KPIs.":::
+ :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="PVA bot chart description.":::
 
 | Title | Description |
 | --------------- | ----------------- |
@@ -77,7 +77,7 @@ KPIs for the following areas are displayed.
 
 The **Details** tab gives you an insight into the bot sessions.
 
- :::image type="content" source="media/oc-summary-details.png" alt-text="Screenshot that shows the bot summary.":::
+ :::image type="content" source="media/oc-summary-details.png" alt-text="Screenshot that shows the bot details.":::
 
 KPIs for the following areas are displayed.
 
@@ -136,7 +136,7 @@ You can view and improve the performance of individual topics associated with a 
 1. On the bot drill-down page, for a bot, select the topic to view the topic-specific metrics. 
 1. You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
    > [!div class="mx-imgBorder"]
-   > ![Bot hourly detail drill-down view.](media/oc-transcripts.png "transcript") 
+   > ![Bot transcripts.](media/oc-transcripts.png "transcript") 
 
 1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones.
 
