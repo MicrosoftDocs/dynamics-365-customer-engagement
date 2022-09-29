@@ -30,7 +30,7 @@ Define basic properties of the *Price List* record.
 
 1. Enter information in the **General** tab.
 
-   - - **Name** to distinguish the price list.
+   - **Name** to distinguish the price list.
    - **Context** of the price list- Choose between **Sales**, **Purchase**, and **Cost**.
    - Optional **Start/End Date** to define when the price list is effective.
    - **Currency** used on the price list.
@@ -42,52 +42,44 @@ Define basic properties of the *Price List* record.
 
 ## Add price list items  
 
-Next, add the products and services as price list items to the price lists of your choice.
+Add products and services as price list items to the price list.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a price list showing price list items.](./media/work-order-products-price-list-items.png)
+1. Open a *Price List* record.
 
-Enter the following information:
+1. On the **Price List Items** tab, select **New Price List Item**.
 
-- **Pricing Amount**: enter **Currency Amount**.
+1. Choose a product or service in the **Product** field.
 
-- **Amount**: enter the price of the product or service. Note this represents an hourly rate for services.
+1. On the **Pricing information** tab:
 
-To understand the other standard pricing options with Dynamics 365 price lists, see the article on [adding price list items](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md#add-items-to-the-price-list-sales)
+   - **Pricing Method**: Choose **Currency Amount**.
+   - **Amount**: Enter the price of the product or service. Enter the hourly rate for services.
+
+For more information about options for price list items, go to [Define product pricing with price lists and price list items](../sales/create-price-lists-price-list-items-define-pricing-products.md).
 
 ## Add Field Service price list items
 
-You can add additional pricing options for services by creating Field Service price list items. A service is defined as a product record where **Field Service Product Type** is **Service**.
+You can add additional pricing options for services by creating *Field Service Price List Items*. A service is defined as a product record where **Field Service Product Type** is **Service**.
 
-From the **Price List**, go to **Related** > **Field Service Price List Items**.
+1. Open a *Price List* record.
 
-Select **Add New Field Service Price List Item**.  
+1. Select **Related** > **Field Service Price List Item**.
 
-Configure the following fields:
+1. Select **Add Field Service Price List Item**.
+
+1. On the **General** tab:
+
+   - Provide a **Name**.
+   - Choose the **Duration Rounding Policy**.
+   - Set the **Flat Fee** option. Flat fee applies a fixed price to a service, regardless of duration. The fixed price is derived first from the price list item amount, and then the list price on the product record.
+   - **Minimum Charge Duration** specifies the time *not billed* before charging the customer.
+   - Choose a **Product/Service**. By not adding a product or service, the options apply to all services added to a work order when selecting the parent price list. This is helpful if, for example, you want to add a minimum charge amount to all services in the price list. It saves time because you don't need to add all services as Field Service Price List Items.
+   - Set **Duration Round To** for your preferred rounding option.
+   - **Minimum Charge Amount** defines a base fee for a service. The amount will be added on to final price regardless of amount charged.
   
-### Flat Fee
+   :::image type="content" source="media/price-list-field-service-price-list-item.png" alt-text="Screenshot of a Field Service price list item.":::
 
-Makes a service a fixed price regardless of duration. The fixed price will be derived first from the price list item amount, and then the list price on the product record.
-
-### Minimum Charge Duration
-
-First X amount of time free.
-
-### Minimum Charge Amount
-
-Sets minimum amount for a visit. Value will be added on to final price regardless of amount charged.
-
-### Duration Rounding Policy & Duration Rounding To
-
-Allows you to round service duration and choose the granularity. For example, if a service duration is 94 minutes, you can automatically round it to 90 minutes, 95 minutes, remain as 94 minutes, or other options.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service price list item.](./media/price-list-field-service-price-list-item.png)
-
-> [!NOTE]
-> By leaving the **Product / Service** lookup blank, the previous options will apply to all services added to the work order with the chosen price list. This is helpful if, for example, you want to add a minimum charge amount to all services in the price list, you don't need to add all services as Field Service price list items, saving time.
-
-Finally, select **Save & Close**.  
+1. Select **Save & Close**.  
 
 ## Add price list to work orders
 
