@@ -88,7 +88,7 @@ Once you have enabled the **Embedded Power BI report extensibility - Historical 
  
 ## Step 1: Select a Power BI workspace for historical analytics
 
-You must select a workspace to specify the place where your customized reports will be published. You can either select a workspace from the dropdown list and select **Save** or create a new workspace.
+You must select a workspace to specify the destination where your customized reports will be published. You can either select a workspace from the dropdown list and select **Save** or create a new workspace.
 
 To create a new workspace:
  1. Select **Create new workspace**.
@@ -98,8 +98,8 @@ To create a new workspace:
 :::image type="content" source="media/enable-model-step1.png" alt-text="Select your workspace":::
 
 > [!NOTE]
-> The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
-> Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, as it may lead to report malfunction.
+> - The report will be provisioned in your Power BI tenant and not in Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
+> - Note that this dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. It is recommended to not make changes to this dataset, as it may lead to report malfunction.
 
 ## Step 2: Grant permissions for data set and reports
 
@@ -113,45 +113,40 @@ Once the report provisioning process is complete, perform the following steps to
    1. Share the report by selecting **Share** . More information: [Share access to a dataset (preview)](/power-bi/connect-data/service-datasets-share)
 
    1. Select **Share dataset**.
-   1. On the **Share dataset** dialog box, search and provide the recipients name or email address.
+   1. On the **Share dataset** dialog, search and provide the recipients name or email address.
    1. Select the checkboxes for the various permissions that you want to set for the recipient.
    1. Select **Grant accesss.**
-
-
-
    :::image type="content" source="media/share-dataset.png" alt-text="Search for recipients ont eh Share dataset dialog":::
 
 1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports. More information: [Enable model customization of your analytics reports from Power BI workspace](#enable-model-customization-of-your-analytics-reports-from-power-bi-workspace)
 
       :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
     1. Select **Access**.
-    1. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person Workspace contributor role or above.
+    1. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or above.
     :::image type="content" source="media/grant-permissions_role.png" alt-text="Grant roles":::
 
-1. Update a report.
-To update a report, select the required report and then select **Edit**. 
-:::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
+1. After providing access, if you need to update a report, select the required report and then select **Edit**. 
+    :::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
 
-1. Create a report. You can create a report in two ways:
+1. You may also create a report. You can create a report in two ways:
 
    1. Create a report online.
-       1. Go to the Power BI data model and from the **Create a report** dropdown list, select **Auto-create**.
+       1. Select the Power BI data model in Step 2 and from the **Create a report** dropdown list, select **Auto-create**.
        
        :::image type="content" source="media/model-create-report-online.png" alt-text="Create a report online from the Power BI data model"::: 
 
-    1. Create a report using Power BI desktop and create a live connection to datasets in the Power BI service:
+    1. Create a report using Power BI Desktop and create a live connection to datasets in the Power BI service:
         1. On the Power BI desktop, select **Get Data**.
-        1. On the Get Data dialog, select **Power Platform**, and then select **Power BI data sets**.
+        1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI data sets**.
         1. Select **Connect**.
         :::image type="content" source="media/model-powerdataset.png" alt-text="Select Power BI data set":::
-        1. On the **Data hub** dialog, select the report you want to embed to customer service and select **Connect**.
+        1. On the **Data hub** dialog, select the report you want to embed to Customer Service and select **Connect**.
         :::image type="content" source="media/model-data-hub-dialog.png" alt-text="Select your report on the Data hub dialog":::
         1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to.
         1. Select **Submit**.
         :::image type="content" source="media/model-select-dataset.png" alt-text="Select your tables that you want to connect to.":::
         
-        1. After the database or tables that you have selected in the  previous step, get added to your data model, select **Publish**.
-        1. Save your changes and save your file.
+        1. After the database or tables that you have selected in the  previous step, get added to your data model, save the changes you made to your file.
         :::image type="content" source="media/model-save-data-model-changes.png" alt-text="Save your changes.":::
         1. On the **Publish to Power BI** dialog, select the workspace that you specified on Step 1 and then select **Select**.
          :::image type="content" source="media/model-select-workspace-created-in-step-two.png" alt-text="Select the destination which you specified in Step 2":::
@@ -173,20 +168,6 @@ Once you have the report created and published, go back to the Customer Service 
 1. Select **Customized reports** from the dropdown list and then select the report that you want to view.
 
 :::image type="content" source="media/customized-reports-option.png" alt-text="Customized-reports-option":::
-
-## Enable model customization of your analytics reports from Power BI workspace
-
-This section describes how you can update the out-of-the-box Power BI data model and add external datasets to build new custom metrics and publish it into your Power BI workspace.  
-
-1. Open Power BI report from the workspace.
-
-2. Connect new data set from an excel sheet.
-
-3. Update the out-of-the-box data model and differentiate the queue by departments.
-
-4. Build a report specific for departments.
-
-5. Publish the report to the configured Power BI workspace.
 
 ## Data model and report mapping
 

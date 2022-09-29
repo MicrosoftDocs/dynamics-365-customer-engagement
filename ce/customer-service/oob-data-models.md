@@ -1,7 +1,7 @@
 ---
 title: "Default data model and report mapping for historical analytics reports in Customer Service | MicrosoftDocs"
 description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service"
-ms.date: 09/27/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,10 +20,6 @@ search.app:
 The topic describes the out-of-the-box data model and report mapping for historical reports.
 
 ## Customer service manager analytics
-
-### Report mapping
-
-**Harry to provide info.**
 
 ### Data model
  
@@ -78,7 +74,6 @@ The topic describes the out-of-the-box data model and report mapping for histori
 |DimTopic	|Topic	|Topic name. |
 |DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid. |
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00 |
-
 
 ## Omnichannel analytics
 
@@ -387,7 +382,7 @@ Use the Dynamic_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file 
 Use the Dynamic_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to make edits to the following reports:
 
 1. Summary
-2. Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the feature). 
+2. Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the **Add historical analytics for bots** option in Omnichannel historical analytics). 
 
 ### Data model
 
