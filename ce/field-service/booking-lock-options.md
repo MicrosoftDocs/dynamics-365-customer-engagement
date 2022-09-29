@@ -4,8 +4,8 @@ description: Learn about the booking lock options in Resource Scheduling Optimiz
 ms.date: 09/28/2022
 ms.reviewer: mhart
 ms.topic: article
-ms.author: mhart
-author: m-hartmann
+ms.author: chenryan
+author: ryanchen8
 search.app: 
   - D365CE
   - D365FS
