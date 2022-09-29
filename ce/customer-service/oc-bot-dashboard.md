@@ -16,7 +16,7 @@ Based on if your Administrator has enabled **Add historical Analytics for bots**
 
 **Navigation**
 
-You can view the Conversation dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the **Bot** dashboard as follows:
+You can view the Bot dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Bot** dashboard as follows:
 
 - In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
 - If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Bot**.
