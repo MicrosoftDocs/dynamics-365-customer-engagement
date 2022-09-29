@@ -84,11 +84,15 @@ items:
     - name: Work order types
       href: create-work-order-types.md
     - name: Price list
-      href: create-price-list.md
+      items: 
+      - name: Create price list
+        href: create-price-list.md
     - name: Products and services
-      href: create-product-or-service.md
-    - name: Service task types
-      href: set-up-service-task-types.md
+      items:
+      - name: Create product or service  
+        href: create-product-or-service.md
+      - name: Service task types
+        href: set-up-service-task-types.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
@@ -183,9 +187,9 @@ items:
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
-      - name: Multiresource
+      - name: Multi-resource
         href: multi-resource-scheduling-requirement-groups.md
-      - name: Multiday
+      - name: Multi-day
         href: schedule-multi-day-work.md
       - name: Crews
         href: resource-crews.md

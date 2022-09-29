@@ -3,34 +3,42 @@ title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
 ms.date: 09/28/2022
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: how-to
 author: jasonccohen
 ms.author: jacohen
 manager: shellyha
 search.app: 
   - D365CE
   - D365FS
+ms.custom: bap-template
 ---
 # Use price lists
 
-Dynamics 365 Field Service uses and extends the Dynamics 365 price lists and product catalog. This means products and services are added to work orders with appropriate pricing.  
+Dynamics 365 Field Service builds on [Dynamics 365 Sales price lists](../sales/create-price-lists-price-list-items-define-pricing-products.md) and [product catalogs](../sales/set-up-product-catalog-walkthrough.md). This means products and services are added to work orders with appropriate pricing.  
 
-For work order products that represent parts used during on-site service, use price lists and price list items.
+For work order [products and services](create-product-or-service.md) that represent parts or labor billed to your customers, use price lists and price list items. You can also use price lists with **Field Service Price List Items** for additional pricing options.
 
-For work order services that represent labor performed during on-site service, you can use price lists with price list items to define an hourly rate. You can also use price lists with **Field Service Price List Items** for additional pricing options.
+## Create a price list
 
-## Prerequisites
-
-- Basic knowledge of Dynamics 365 [product catalogs](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md).
-- [Products or services exist](create-product-or-service.md) in Field Service.
-
-## Create a price list  
+Define basic properties of the *Price List* record.
   
-Go to **Field Service** > **Settings** > **Price Lists** > **+New**.  
-  
-Use the tooltips to help fill in your information, and then select **Save**.  
+1. In Field Service, change to the **Settings** area.
 
-For more information, see the article on [creating a price list (Project Service Automation)](/dynamics365/project-operations/psa/create-price-list).
+1. In the **General** section, select **Price Lists**.
+
+1. Select **New**.
+
+1. Enter information in the **General** tab.
+
+   - - **Name** to distinguish the price list.
+   - **Context** of the price list- Choose between **Sales**, **Purchase**, and **Cost**.
+   - Optional **Start/End Date** to define when the price list is effective.
+   - **Currency** used on the price list.
+   - **Time Unit** for role prices.
+
+   :::image type="content" source="media/price-list-general-tab.png" alt-text="Screenshot of a price list in Field Service.":::
+
+1. Select **Save** to create the *Price List* record.
 
 ## Add price list items  
 
