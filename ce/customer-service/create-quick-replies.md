@@ -65,7 +65,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
 
 ## Create or edit tags for common categories of quick replies
 
-Quick replies can be classified and tagged into categories. The categorization capability can also be leveraged to group quick replies into logical chunks that represent key conversational states for agents. These logical chunks help agents select appropriate messages that correspond to customer issues.
+Quick replies can be classified and tagged into categories. The categorization capability can also be used to group quick replies into logical chunks that represent key conversational states for agents. These logical chunks help agents select appropriate messages that correspond to customer issues.
 
 1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Quick replies**. In the Omnichannel Administration app, go to **Agent Experience** > **Quick replies**.
 
