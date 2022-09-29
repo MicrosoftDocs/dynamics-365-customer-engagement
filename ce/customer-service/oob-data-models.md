@@ -22,6 +22,15 @@ The topic describes the out-of-the-box data model and report mapping for histori
 
 ## Customer service manager analytics
 
+### Report mapping
+
+Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to make edits to the following reports:
+
+- Summary
+- Agent
+- Topics
+- Bot
+
 ### Data model
  
    > [!div class="mx-imgBorder"] 

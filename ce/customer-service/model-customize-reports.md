@@ -162,7 +162,7 @@ After you've created and published the report, go back to the Customer Service a
 1. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, step 3, select **Add report**.
 1. Enter a name and select **Add**. You can add a maximum of 40 reports.
  
-## Step 4: Render reports in Customer Service workspace
+## View reports in Customer Service workspace
 
 1. In the Customer Service workspace site map, select the **Plus** icon.
 1. Select **Customized reports** from the dropdown list and then select the report that you want to view.
