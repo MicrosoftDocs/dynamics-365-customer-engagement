@@ -22,7 +22,7 @@ This article lists the out-of-the-box data models and report mappings for histor
 
 ## Customer service manager analytics
 
-### Report mapping
+### Edit the report mapping
 
 Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit the following reports:
 
@@ -87,7 +87,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 
 ## Omnichannel analytics
 
-### Report mapping
+### Edit the report mapping
 
 Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit the following reports:
 - Conversation
@@ -241,7 +241,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 
 ## Omnichannel voice analytics
 
-### Report mapping
+### Edit the report mapping
 
 Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to edit the Voice report.
 
@@ -366,7 +366,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 
 ## Voice mail analytics
 
-### Report mapping
+### Edit the report mapping
 
 Use the Dynamics_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file to edit the Voice mail report.
 
@@ -387,7 +387,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file
 
 ## Omnichannel bot analytics
 
-### Report mapping
+### Edit the report mapping
 
 Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edit the following reports:
 
