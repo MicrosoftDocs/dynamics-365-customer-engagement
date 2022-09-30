@@ -45,7 +45,7 @@ Email signature templates must be available before adding them to a queue.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-       Go to **Service Management**, and then select **Queues** in **Case Settings**.
+    Go to **Service Management**, and then select **Queues** in **Case Settings**.
   
 2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
 1. In the **EMAIL SETTINGS** section, specify the signature template in  **Email Signature**.
