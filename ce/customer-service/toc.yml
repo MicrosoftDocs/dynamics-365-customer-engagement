@@ -954,6 +954,8 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
+      - name: Pass authentication token to bot during single sign-on in live chat
+        href: pass-auth-token-sso-live-chat.md
   - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service
@@ -1532,6 +1534,8 @@
           href: developer/reference/methods/getAuthTokenProvider.md
         - name: removeAuthTokenProvider
           href: developer/reference/methods/removeAuthTokenProvider.md
+        - name: setBotAuthTokenProvider
+          href: developer/reference/methods/setBotAuthTokenProvider.md
         - name: startChat
           href: developer/reference/methods/startChat.md
         - name: startProactiveChat
