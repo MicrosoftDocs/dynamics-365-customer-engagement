@@ -24,7 +24,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 
 You can view the Agent dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Agent dashboard as follows:
 
-- In the default view, Select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
 - If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
 
 ## Report details
@@ -106,7 +106,7 @@ To access the drill-down, select any metric value for the agent you're intereste
 ## Agent hourly details drill down view
 
 The Agent hourly details drill-down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
-To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
+To view the drill-down page, select any single metric value on the desired day, then select **Hourly details**. 
 
 
 > [!div class="mx-imgBorder"]
