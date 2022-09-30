@@ -24,7 +24,7 @@ The topic describes the out-of-the-box data model and report mapping for histori
 
 ### Report mapping
 
-Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to make edits to the following reports:
+Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit the following reports:
 
 - Summary
 - Agent
@@ -89,7 +89,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to make ed
 
 ### Report mapping
 
-Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edits to the following reports:
+Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit the following reports:
 - Conversation
 - Queue
 - Agent
@@ -243,7 +243,7 @@ Use the Dynamic_365_Customer_Service_Omnichannel_analytics.pbix file to make edi
 
 ### Report mapping
 
-Use the Dynamic_365_Customer_Service_Omnichannel_voice_analytics.pbix file to make edits to the Voice report.
+Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to edit the Voice report.
 
 ### Data model
 
@@ -368,7 +368,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 
 ### Report mapping
 
-Use the Dynamic_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file to make edits to the Voice mail report.
+Use the Dynamics_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file to edit the Voice mail report.
 
 ### Data model
 :::image type="content" source="media/voice-mail-data-model.png" alt-text="Diagram of the vocie mail data model":::
@@ -389,7 +389,7 @@ Use the Dynamic_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file 
 
 ### Report mapping
 
-Use the Dynamic_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to make edits to the following reports:
+Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edit the following reports:
 
 - Summary
 - Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the **Add historical analytics for bots** option in Omnichannel historical analytics). 
