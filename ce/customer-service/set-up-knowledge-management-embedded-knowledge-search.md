@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 09/26/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -219,16 +219,16 @@ More information: [Search across table data using Dataverse search](/powerapps/d
 
 ## Enable suggest as you type
 
-You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout. The matched text is highlighted to show the presence of the keyword. 
+You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. 
 
-When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use the suggest as you type option to search for knowledge articles](search-knowledge-articles-csh.md#use-the-suggest-as-you-type-option-to-search-for-knowledge-articles)
+When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use the-suggest-as-you-type option to search for knowledge articles](search-knowledge-articles-csh.md#use-the-suggest-as-you-type-option-to-search-for-knowledge-articles)
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
 3. In the **Knowledge search experience** section, set the **Enable suggest as you type** toggle to **Yes**.
 4. Select **Save**.
 
-:::image type="content" source="media/enable-suggest-as-you-type.png" alt-text="Enable suggest as you type":::
+:::image type="content" source="media/enable-suggest-as-you-type.png" alt-text="Screenshot shows toggle for Enable suggest as you type":::
 
 
 ### See also  
