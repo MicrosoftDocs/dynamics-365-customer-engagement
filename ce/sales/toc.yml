@@ -1135,7 +1135,6 @@
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
-  expanded: true
   items: 
     - name: Learning Catalog
       href: learning-catalog.md
