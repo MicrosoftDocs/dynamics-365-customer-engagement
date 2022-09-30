@@ -8,9 +8,9 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Customize the workspace
+# Customize the sales accelerator workspace
 
-Customize the workspace by configuring filters, sort, and work item appearances tailored to your specific needs in sales accelerator.
+Customize the workspace by configuring filters, sorting, and work item appearances for your specific needs in sales accelerator.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -20,13 +20,13 @@ Customize the workspace by configuring filters, sort, and work item appearances 
 
 ## Customize the workspace for sellers
 
-After the [first-run setup of the sales accelerator](enable-configure-sales-accelerator.md#first-run-setup), customize the workspace by configuring filters, sort, and work item appearances to short-list the ones that serve your sellers' specific needs.   
+After the [first-run setup of the sales accelerator](enable-configure-sales-accelerator.md#first-run-setup), customize the workspace to serve your sellers' specific needs.   
 
 For example, if sellers want to filter work items based on currency type for leads, you can add a filter by selecting the record type as **Lead** and the field as **Currency**. Sellers can then use this filter to refine work items and view leads with a specific currency type, such as **US dollar**.
 
 **To open the filtering and sorting configuration page**
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.
+1. Sign in to the Sales Hub app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.
 
 2. Under **Sales accelerator**, select **Workspace**.
 
@@ -37,18 +37,17 @@ For example, if sellers want to filter work items based on currency type for lea
 
 3.	In the **Customize workspace** section, select **Filtering and sorting**.
     
-    The **Filters** page opens.
+    The **Filters** page opens where you can do the following tasks:
+
+    - [Manage filters](#manage-filters)
+    - [Manage sort](#manage-sort) 
     
     >[!div class="mx-imgBorder"]
     >![Filtering and sorting page.](media/sa-filters-page.png "Filtering and sorting page")   
     
-    Through the Filtering and sorting, you can do the following tasks:
-       - [Manage filters](#manage-filters)
-       - [Manage sort](#manage-sort) 
-
 ## Manage filters
 
-Filters help to refine the work item that your seller wants to see in the sales accelerator workspace. You can manage custom filters by doing the following tasks:
+Filters help to refine the work items that your seller wants to see in the sales accelerator workspace. You can manage custom filters by doing the following tasks:
 
 -	[Add basic and advanced filters](#add-basic-and-advanced-filters)
 -	[Add groups](#add-groups)
@@ -57,15 +56,12 @@ Filters help to refine the work item that your seller wants to see in the sales 
 -	[Move filters to a group](#move-filters-to-a-group)
 -	[Delete custom filters and groups](#delete-custom-filters-and-groups)
 
->[!NOTE]
->To know how sellers can use custom filters, go to [Custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).   
-
 ### Add basic and advanced filters
 
-You can create the filters based on your seller requirements such as, basic and advanced filters.
+You can create the following types of filters:
 
-- **Basic filters**: Filter data by creating a simple filter expression.
-- **Advanced filters**: Filter data by creating complex filter expressions by combining multiple fields through the AND function.
+- **Basic filters**: Lets you create filters based on simple filter expression. 
+- **Advanced filters**: Lets you create filters based on complex filter expressions by combining multiple fields using the AND operator.
 
 **To create filters**
 
@@ -73,14 +69,14 @@ You can create the filters based on your seller requirements such as, basic and 
     
     :::image type="content" source="media/sa-filters-select-new-filter.png" alt-text="Screenshot of the filtering and sorting page to select a new filter.":::    
     
-2.	In the **New create filter** pane, select the following options as required.
+2.	In the **Create a new filter** pane, select the following options as required.
     
     - <a name="sa-basic-filter"></a>**For basic filter**, enter the following information:
         
         | Parameter | Description |
         |-----------|-------------|
         | Record | Select the type of record that you want to use to filter the work list. You can select only the record types that were added during content and layout configuration when you set up the sales accelerator.<br>For more information, go to step 7 in [First-run set up](enable-configure-sales-accelerator.md#first-run-set-up).<br>The parameters **Field** and **Filter name** won't be active until you choose the record type. |
-        | Field | Select a field based on which sellers can enter a value to filter the work list. The fields displayed in the list are the basic attributes of the selected record type. |
+        | Field | Select a field based on which sellers can filter the work list. The fields displayed in the list are the basic attributes of the selected record type. |
         | Filter name | Enter a name for the filter. By default, the name is selected as *record type.field*. For example, **Lead.Currency**. | 
         | Add filter to a group | Select a group to which you want to add the filter. Grouping filters helps sellers to easily identify and apply filters. If you don't select a group, the filter is added to the default **More filters** group. To know how to create groups, go to [Add groups](#add-groups). |        
 
@@ -91,7 +87,7 @@ You can create the filters based on your seller requirements such as, basic and 
         | Parameter | Description |
         |-----------|-------------|
         | Record | Select the type of record that you want to use to filter the work list. You can select only the record types that were added during content and layout configuration when you set up the sales accelerator.<br>For more information, go to step 7 in [First-run set up](enable-configure-sales-accelerator.md#first-run-set-up).<br>The parameters **Field** and **Filter name** won't be active until you choose the record type. |
-        | Field | Select **Add**. On the field options, select the field, operator and value. To add multiple fields, select **Add** and enter the required information. Based on the selected fields, sellers can enter a value to filter the work list. The fields displayed in the list are the basic attributes of the selected record type.<br>The following screenshot is an example of advanced filed with multiple fields:<br>:::image type="content" source="media/sa-filters-advanced-filter-multiple fields.png" alt-text="Screenshot of the advanced filter with multiple fields.":::|
+        | Field | Select **Add**. On the field options, select the field, operator, and value. To filter work list based on multiple fields using the AND operator, select Add and specify additional filter conditions. The fields displayed in the list are the basic attributes of the selected record type.<br>The following screenshot is an example of advanced filed with multiple fields:<br>:::image type="content" source="media/sa-filters-advanced-filter-multiple fields.png" alt-text="Screenshot of the advanced filter with multiple fields.":::|
         | Filter name | Enter a name for the filter. The name will be displayed to the seller in the workspace. | 
         | Add filter to a group | Select a group to which you want to add the filter. Grouping filters helps sellers to easily identify and apply filters. If you don't select a group, the filter is added to the default **More filters** group. To know how to create groups, go to [Add groups](#add-groups). |        
 
@@ -100,6 +96,9 @@ You can create the filters based on your seller requirements such as, basic and 
 3.	Save and publish the filters.
 
 The filter is created and added to the filters list.    
+
+>[!NOTE]
+>To know how sellers can use these filters, go to [Custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters). 
 
 ### Add groups
 
