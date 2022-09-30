@@ -97,7 +97,7 @@ If you'd created proficiency scales in the classic experience, you can update th
 1. To update the users for a skill, select a skill, and on the **Edit Skill** dialog, perform the steps to add users and attach a proficiency value.
 
 
-## Create skills in the classic experience
+## Create skills using the classic experience
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
