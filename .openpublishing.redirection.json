@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "ce/customer-service/voice-channel-call-overflow",
+      "source_path": "ce/customer-service/voice-channel-call-overflow.md",
       "redirect_url": "manage-overflow",
       "redirect_document_id": "false"
     },
