@@ -353,6 +353,10 @@
           items: 
             - name: Configure sales accelerator
               href: enable-configure-sales-accelerator.md
+            - name: Manage access and record type
+              href: manage-access-record-type-sales-accelerator.md  
+            - name: Customize the workspace  
+              href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
@@ -474,7 +478,6 @@
           href: add-ri-widgets-to-custom-form.md
         - name: Grant access to who knows whom information
           href: grant-access-wkw.md
-
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -1139,7 +1142,6 @@
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
-  expanded: true
   items: 
     - name: Learning Catalog
       href: learning-catalog.md
