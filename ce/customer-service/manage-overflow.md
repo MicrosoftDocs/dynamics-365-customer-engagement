@@ -33,7 +33,7 @@ The overflow evaluation takes place before a work item is routed to a queue and 
   - If none of the queues are operational, the system routes the work item to the queue that will be operational at the earliest and the overflow action is triggered.
 
 - If the matched queue is overflowing due to multiple conditions:
-  - The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
+  The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition as **Out of operation hours**, and its action as **Assign to queue anyway**. You can't edit the condition but can set another action for it.
 

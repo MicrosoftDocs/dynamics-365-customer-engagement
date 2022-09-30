@@ -1,7 +1,7 @@
 ---
 title: "Enable transcript for messaging channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -66,7 +66,6 @@ To view transcripts in Omnichannel for Customer Service, do the following:
    Completed chat conversations are displayed in the **Closed work items** column.
 2. Do one of the following:<br>
     a. Select the closed work item for which you want to view the transcript.<br>
-    OR<br>
     b. Right-click the three dots to view the transcript.
 
 ### See also

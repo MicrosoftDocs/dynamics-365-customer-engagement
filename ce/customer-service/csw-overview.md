@@ -106,7 +106,7 @@ Learn more about using the [productivity pane](csw-productivity-pane.md).
 
 ## View the agent calendar (preview)
 
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and anytime off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and anytime scheduled time off. The calendar view is read-only and includes daily, weekly, and monthly view options.
 
 1. In Customer Service workspace, open the **Customer Service Agent Dashboard** page.
 
