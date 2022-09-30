@@ -83,7 +83,7 @@ The following views are supported out of the box in the inbox:
 
 Inbox views are refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
 
-## Configure custom view for the inbox
+## Configure custom views for the inbox
 
 You can configure the a customized view for the inbox so that agents can see their cases, conversations, emails, and voicemails all in a single view.
 
