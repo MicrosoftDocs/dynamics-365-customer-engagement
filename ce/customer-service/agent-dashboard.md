@@ -20,7 +20,12 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard in Omnichannel for Customer Service.](media/oc-agent-dashboard.png "Agent dashboard in Omnichannel for Customer Service")
 
-You can view the Agent dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select the **Agent** tab.
+**Navigation**
+
+You can view the Agent dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Agent dashboard as follows:
+
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
+- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
 
 ## Report details
 
@@ -111,17 +116,17 @@ To view the drill down, select any single metric value on the required day, then
 
 The agent presence status drill-down view shows the start time and end time of all the presence statuses for agents during their work hours. This data helps you derive the duration of each presence status for the agent.
 
-Select the **Availability** tab. In **Aggregated view**, the duration of the presence status is displayed for each hour. In **Detailed view**, the start and end times of the presence status is displayed for each agent, over a month.
+Select the **Availability** tab. In **Aggregated view**, the duration of the presence status is displayed for each hour. In **Detailed view**, the start and end times of the presence status are displayed for each agent, over a month.
 
-:::image type="content" source="media/agent-presence-drill-down.png" alt-text="Agent presence drill down":::
+:::image type="content" source="media/agent-presence-drill-down.png" alt-text="Screenshot shows the Detailed view for agent presence statuses":::
 
 ## Drill-down view of agent custom presence
 
 The agent custom presence drill-down view provides you an insight into the out-of-the-box presence status metrics and custom presence metrics.
 
-Select the **Availability** tab and then select the **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out of the box and custom state metrics. For example, on April 05, 2022, the specific agent spent 0.7hrs in the custom state of **Inactive** and 0.6hrs in the out of the box status of **Busy - DND**.
+Select the **Availability** tab and then select **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out-of-the-box and custom-state metrics. For example, on April 5, 2022, the specific agent spent 0.7h in the custom state of **Inactive** and 0.6h in the out-of-the-box status of **Busy - DND**.
 
-:::image type="content" source="media/agent-custom-presence-drill-down.png" alt-text="Agent custom presence drill-down view":::
+:::image type="content" source="media/agent-custom-presence-drill-down.png" alt-text="Screenshot shows a drill-down view of an agent custom presence":::
 
 ### See also
 
