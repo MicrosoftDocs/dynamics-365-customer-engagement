@@ -12,28 +12,22 @@ manager: shujoshi
 
 For a more personalized experience, Dynamics 365 Customer Service gives you the option to route work items from a specific contact to the customer's preferred agents or relationship managers.
 
-You can configure contacts and their preferred agents in the Customer Service admin center. If a contact isn't configured, then you can't assign a preferred agent to the contact.
-
-To find the preferred agent for an incoming work item, the contact should be identified. For more information, see the **Channel-specific support for identifying a contact record** section.
-
-You can map agents to contacts only.
+You can configure contacts and their preferred agents in the Customer Service admin center. If a contact isn't configured, then you can't assign a preferred agent to the contact. You can map agents to contacts only.
 
 ## Prerequisites
 - You must have one of the following roles to configure preferred agent routing:
      - **For Customer Service**: CSR Manager
-     - **For Omnichannel for Customer Service**: Omnichannel administrator
+     - **For Omnichannel for Customer Service**: Omnichannel Administrator
 
 - You must be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
 - If you have a custom role, you must also have access to the msdyn_preferredagent and msdyn_preferredagentcustomeridentity entities.
-- The agent you intend to assign to a contact should be a member of the queue to which a work item will be routed.
+- Ensure that the agent you want to assign to a contact is a member of the queue to which work items will be routed.
 
 ## Configure preferred agent for contacts
 
-Make sure that the agent you intend to assign to a contact is a member of the queue to which a work item will be routed.
-
 1. In the Customer Service admin center site map, select **Routing**.
 
-1. On the page that appears, next to **Preferred agent routing**, select **Manage**.
+1. On the page that appears, select **Manage** next to **Preferred agent routing**.
 
 1. Turn on **Enable preferred agent routing**.
 
@@ -60,17 +54,17 @@ Make sure that the agent you intend to assign to a contact is a member of the qu
 
 ### Routing diagnostics and preferred agent settings
 
-If you've turned on routing diagnostics, a work item's diagnostics page includes information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is turned on. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
+If you've turned on routing diagnostics, the work item's diagnostics page will include information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is turned on. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
 
 ## Update contacts and preferred agents
 
-In **Preferred agents matrix**, use the edit and remove options to modify contacts and their preferred agents.
+In the **Preferred agents matrix** section, use the edit and remove options to modify contacts and their preferred agents.
 
-For each contact, you can map up to three agents and remove any two. At least one agent remains mapped to a contact.
+For each contact, you can map a maximum of three agents, but ensure that at least one agent is mapped to the contact.
 
 ### Identify contacts in supported channels
 
-For the supported channels, use the information mentioned in the following table to identify customers as contacts.
+To find the preferred agent for an incoming work item, the contact should be identified. For supported channels, use the information mentioned in the following table to identify customers as contacts.
 
 |Channel|Customer record|
 |-------|---------------|
