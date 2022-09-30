@@ -2,11 +2,11 @@
 title: "View overall insights of your sales and sellers"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
-ms.date: 10/26/2021
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
@@ -16,6 +16,7 @@ topic-status: Drafting
 When you sign in to conversation intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
