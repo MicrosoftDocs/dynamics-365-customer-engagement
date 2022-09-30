@@ -20,7 +20,10 @@ searchScope:
 ---
 # Add activity to campaign using in-app marketing 
 
-Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. 
+Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
+
+> [!NOTE]
+> You can only add the out-of-the-box activities&mdash;email, appointment, phone call, fax, and letter&mdash;to the campaign.
 
 ## License and role requirements
 | Requirement type | You must have |  
