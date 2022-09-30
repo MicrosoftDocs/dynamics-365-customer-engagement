@@ -56,7 +56,7 @@ Before you provide consent, review the following information:
 
 ### See also
 
-[Consent required to use Microsoft 365 data](ms365-consent-types.md)
+[Consent required to use Microsoft 365 data](ms365-consent-types.md)  
 [Insights generated from Microsoft 365 data](insights-from-m365.md)  
 [Configure relationship analytics and health](configure-relationship-analytics.md)  
 [Use relationship analytics to gather KPIs](./relationship-analytics.md)  
