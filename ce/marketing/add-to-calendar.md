@@ -1,7 +1,7 @@
 ---
 title: "Generate iCalendar files for events and sessions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add a button to emails that generates an iCalendar file for an event or session Dynamics 365 Marketing."
-ms.date: 06/24/2021
+ms.date: 09/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -46,6 +46,9 @@ To create an **Add to Calendar** button:
 1. Enter the **Button text** that appears on the button. You can customize button style in the **Style** section.
 
 When you send an email with the **Add to Calendar** button, contacts who registered for the event will receive a personalized link to download their agenda as an iCalendar file.
+
+> [!NOTE]
+> If a contact didn't register for the event or session you select for the button, they will not see the **Add to Calendar** button in their email.
 
 ## Customize the iCalendar file descriptions
 
