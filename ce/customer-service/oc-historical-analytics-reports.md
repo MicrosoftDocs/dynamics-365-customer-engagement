@@ -155,7 +155,7 @@ Perform the following steps to enable users with different privileges to access 
 1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
 
 
-### See Also
+### See also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
