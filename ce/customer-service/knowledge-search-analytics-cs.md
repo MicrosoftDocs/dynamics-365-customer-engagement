@@ -20,7 +20,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Introduction to knowledge analytics
 
-Knowledge analytics help provide knowledge workers and supervisors with valuable insights about how knowledge articles are being used and searched. Supervisors can use these insights to improve their knowledge management system.
+Knowledge analytics helps provide knowledge workers and supervisors with valuable insights about how knowledge articles are being used and searched. Supervisors can use these insights to improve their knowledge management system.
 
 Knowledge analytics includes the following features:
 
@@ -87,7 +87,7 @@ The knowledge Search term insights dashboard represents the following metrics.
 
 Use the Timezone option available in the reports to view the  time information according to the time zone that you specify. You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
 
-:::image type="content" source="media/knowledge-analytics-timezone.png" alt-text="View Timezone in reports":::
+:::image type="content" source="media/knowledge-analytics-timezone.png" alt-text="Screenshot shows Timezone view in reports":::
 
 ### See also
 
