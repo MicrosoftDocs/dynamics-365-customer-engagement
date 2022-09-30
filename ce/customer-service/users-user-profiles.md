@@ -8,17 +8,9 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Manage users in Omnichannel for Customer Service
+# Use enhanced experience to manage users (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled to use Omnichannel for Customer Service.
-
-For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
-
-For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
-
-## Use enhanced user management experience (preview)
 
 > [!IMPORTANT]
 >
@@ -30,7 +22,8 @@ For users to access the Omnichannel for Customer Service experiences, the roles 
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
+
+Use the information in this article to manage your agent users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
 
 You can manage the following settings for the users in bulk:
 
@@ -71,8 +64,7 @@ The users and their updated attributes will be displayed in the **Contact center
 
 :::image type="content" source="media/enhanced-user-management.png" alt-text="View of the contact center users managed through the enhanced user management experience.":::
 
-
-## Manage a user in Omnichannel for Customer Service
+## Manage a user for unified routing
 
 Users should be configured as a bookable resource so that they can be assigned work items by using unified routing.
 
@@ -134,6 +126,12 @@ Users should be configured as a bookable resource so that they can be assigned w
    
    > [!NOTE]
    > Bots in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add bots to queues that are used for routing records.
+
+All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled to use Omnichannel for Customer Service.
+
+For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
+
+For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
 
 ### Capacity
 
