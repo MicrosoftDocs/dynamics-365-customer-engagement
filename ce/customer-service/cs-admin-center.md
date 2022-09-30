@@ -55,6 +55,15 @@ More information: [Assign roles and enable users for Omnichannel for Customer Se
 
 The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
 
+## Quick setup (preview)
+
+> [!NOTE]
+>
+> - Quick setup is in preview; therefore, we recommend that you don't use it in production. Use it only in test and development environments.
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
+
 ## Navigate the site map in Customer Service admin center
 
 The Customer Service features are organized in the site map as follows. Every group contains an overview page with deep links to the features within the area.

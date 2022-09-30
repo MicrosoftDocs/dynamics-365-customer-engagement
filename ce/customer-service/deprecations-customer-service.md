@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
-ms.date: 10/01/2022
+ms.date: 09/30/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -33,7 +33,7 @@ With the release of the Customer Service admin center app that consolidates admi
 
 - Service Management area in Customer Service Hub app
 - Omnichannel admin center
-- App profile manager: Will also be removed by April 2023.
+- **App profile manager:** Will also be removed in April 2023.
 
 We recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, voice channel, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 

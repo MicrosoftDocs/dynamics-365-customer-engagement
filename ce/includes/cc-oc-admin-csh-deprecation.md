@@ -3,6 +3,6 @@
 >
 > - Service Management area in Customer Service hub
 > - Omnichannel admin center
-> - App profile manager: Will also be removed by April 2023.
+> - **App profile manager:** Will also be removed in April 2023.
 >
 > We recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, voice channel, and agent experience profiles.
