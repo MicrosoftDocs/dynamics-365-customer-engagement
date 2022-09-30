@@ -1,6 +1,6 @@
 ---
-title: Summary Dashboard for PVA-OC integration | Microsoft Docs
-description: Integrate PVA and Omnichannel analytics to better understand your organization's customer service experience
+title: Summary Dashboard  | Microsoft Docs
+description: Integrate Power Virtual Agents and Omnichannel analytics to better understand your organization's customer service experience
 ms.date: 10/03/2022
 ms.topic: article
 author: gandhamm
@@ -92,9 +92,9 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+> While topic discovery is enabled and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
 
-### See Also
+### See also
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
