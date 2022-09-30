@@ -674,11 +674,9 @@
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
     - name: Opportunity management
-      expanded: true
       items: 
         - name: Create or edit opportunities
           href: create-edit-opportunity-sales.md
-          expanded: true
           items: 
             - name: Add products to an opportunity
               href: add-products-opportunity.md
@@ -691,7 +689,6 @@
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Manage opportunities using deal manager
-          expanded: true
           items: 
             - name: Deal manager workspace overview
               href: deal-manager-seller-overview.md
@@ -1141,7 +1138,6 @@
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
-  expanded: true
   items: 
     - name: Learning Catalog
       href: learning-catalog.md
