@@ -99,7 +99,7 @@ You can enable the historical analytics for bots in the Customer Service admin c
 **Enable historical analytics for bots in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for bot** check box.
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for bot** checkbox.
 3. Select **Save** or **Save & Close**.
 
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
@@ -119,7 +119,7 @@ You can enable historical analytics for voice in the Customer Service admin cent
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voice** check box.      
+     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voice** checkbox.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
@@ -155,7 +155,7 @@ Perform the following steps to enable users with different privileges to access 
 1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
 
 
-### See Also
+### See also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  

@@ -12,7 +12,7 @@ manager: shujoshi
 
 In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
 
-If your Administrator has enabled **Add historical Analytics for bots**  in Customer Service admin center, then the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
+If your administrator has enabled **Add historical analytics for bots**  in Customer Service admin center, then the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
 **Navigation**
 
@@ -23,13 +23,13 @@ You can view the Bot dashboard in the Customer Service workspace or Omnichannel 
 
 ## Power Virtual Agents bot dashboard
 
- The **Bot** dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service and the **Add historical Analytics for bots** checkbox in Customer Service admin center is enabled.
+ The **Bot** dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
 
  :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot that shows the Omnichannel Bot dashboard.":::
 
  ### Report details
 
-The report summarizes KPIs for the specified time period and the percent change over a period. These metrics are specific to Power Virtual Agents bots. You can filter these areas by duration, channel, queue, or agent.
+The report summarizes KPIs for the specified time period and the percentage change over a period. These metrics are specific to Power Virtual Agents bots. You can filter these areas by duration, channel, queue, or agent.
 
  :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot that shows the PVA Bot dashboard KPIs.":::
 
@@ -87,7 +87,7 @@ KPIs for the following areas are displayed.
 | Bot sessions engaged | The number of sessions the bot is engaged in within the specified time period. |
 | Bot sessions resolved| The number of engaged sessions that are resolved by the bot. |
 | Bot sessions abandoned|The number of engaged sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
-| Bot sessions per conversation | Average number of PVA sessions per conversation. | 
+| Bot sessions per conversation | The average number of Power Virtual Agents bot sessions per conversation. | 
 | Session resolved rate | The percentage of total sessions that were resolved by the bot within the specified time period. | 
 | Sessions escalated rate | The percentage of total sessions that were escalated by the bot to a human agent within the specified time period.| 
 
@@ -116,25 +116,25 @@ The following charts are displayed:
 | Title | Description |
 | --------------- | --------------- |
 | Total conversations over time | The number of conversations initiated by the customer and engaged by the bot that were either escalated or deflected. |
-| Engagement over time | Provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation |
+| Engagement over time | Provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered or the session ends in escalation. |
 | Session outcomes over time | Provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.|
 
 ### Metrics by bot topic
-The **Metrics by bot topic** section provides insights into the performance of individual bot topics and their key business metrics. The metrics give the Supervisor an overview of which topics the bot was able to deflect or escalate. 
+The **Metrics by bot topic** section provides insights into the performance of individual bot topics and their key business metrics. The metrics give the supervisor an overview of which topics the bot was able to deflect or escalate. 
 
-You can also select a topic and drill down into the individual topic performance and metrics. The topic-level metrics help Supervisors further analyze how the bot is handling the topic. 
+You can also select a topic and drill down into the individual topic performance and metrics. The topic-level metrics help supervisors further analyze how the bot is handling the topic. 
 
 > [!div class="mx-imgBorder"]
 > ![Bot topic metrics.](media/oc-bot-topic-report.png "Individual bot report")
 
-The **Bot conversation metrics** section provides the topic transcripts, allowing Supervisors to go through the bot's interactions for the topic and take corrective measures.
+The **Bot conversation metrics** section provides the topic transcripts, allowing supervisors to go through the bot's interactions for the topic and take corrective measures.
 
 ### View and improve bot topics
 
 You can view and improve the performance of individual topics associated with a Power Virtual Agents bot by performing the following steps:
 
 1. On the bot drill-down page, for a bot, select the topic to view the topic-specific metrics. 
-1. You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
+   You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
    > [!div class="mx-imgBorder"]
    > ![Bot transcripts.](media/oc-transcripts.png "transcript") 
 
@@ -145,7 +145,7 @@ You can view and improve the performance of individual topics associated with a 
 
 ## Dashboard for all bots 
 
- The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your Administrator has disabled the **Add historical Analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
+ The **Bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
 
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
@@ -158,9 +158,9 @@ KPIs for the following areas are displayed.
 | ------- | ------------------ |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
 | Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
-| Bot resolution time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
+| Bot resolution time (min) | The time in minutes, for which a customer interacted with a bot before the conversation was closed. |
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent. |
-| Bot escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. |
+| Bot escalation time (min)  | The time in minutes, for which a customer interacted with a bot before the conversation was escalated to a human agent. |
 
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
@@ -170,16 +170,16 @@ The following table explains the bot KPI chart metrics.
 | Title | Description |
 | --------------- | ----------------- |
 | Bot conversations | The total number of bot conversations occurring per day. |
-| Bot resolution rate versus Bot resolution time (min) | The number of customer issues resolved by bot versus the amount of time it took to resolve them. |
+| Bot resolution rate versus Bot resolution time (min) | The number of customer issues resolved by a bot versus the amount of time it took to resolve them. |
 | Bot escalation rate versus Bot escalation time (min) | The number of customer sessions escalated by a bot to human agent versus the amount of time the bot was engaging before escalation. | 
 
 | Title | Description |
 | --------------- | --------------- |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
 | Bot resolution rate | The percentage of conversations that were closed by interacting with a bot, out of all conversations engaged by a bot. |
-| Bot resolution time | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
+| Bot resolution time | The time in minutes, for which a customer interacted with a bot before the conversation was closed. |
 | Bot escalation rate | The percentage of conversations that were escalated by a bot to a human agent.|
-| Bot escalation time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. | 
+| Bot escalation time (min) | The time in minutes, for which a customer interacted with a bot before the conversation was escalated to a human agent. | 
 
 ## Bot hourly detail drill-down view
 
