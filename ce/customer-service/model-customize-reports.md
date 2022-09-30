@@ -170,8 +170,7 @@ After you've created and published the report, go back to the Customer Service a
 
 ## Data model and report mapping
 
-For more information on data model and report mapping, see [Data model and report mapping for historical analytics reports in Customer Service](oob-data-models.md#data-model-and-report-mapping-for-historical-analytics-reports-in-customer-service)
-
+For more information on data model and report mapping, see [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 ### See also
 
 [Visual customization of historical analytics reports in Customer Service](customize-reports.md#visual-customization-of-historical-analytics-reports-in-customer-service)  
