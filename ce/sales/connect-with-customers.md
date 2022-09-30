@@ -7,6 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+
 # Connect with customers by using a record or the Up next widget 
 
 As a seller using Dynamics 365 Sales, you can connect with your customers daily by using multiple channels, such as phone and email, without losing context or needing to switch among multiple applications. When an activity for contacting customers through a phone call or email appears in a sequence, the corresponding phone or email icons are displayed in your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) record and the [Up next](prioritize-sales-pipeline-through-work-list.md#understand-the-up-next-widget) widget. After you make the phone call or send the email, you mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
@@ -54,44 +55,32 @@ You can send an email to your customer from a record in the **My work** list or 
 
 While composing an email, if you try to navigate to another record or send an email from another lead or opportunity, a warning message is displayed to save the email first.
 
-**To send an email**
-
-Do one of the following actions:
+Do one of the following actions to send an email:
 
 - Select the email icon in the **My work** list record.
 
     > [!div class="mx-imgBorder"]
     > ![Send email from the My work list](media/my-work-list-email.png "Send email from the My work list")
 
-- Select **Email** in the activity in the **Up next** widget.
+- Select **Email** in the **Up next** widget to send the email immediately.
 
-    > [!div class="mx-imgBorder"]
-    > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
+    :::image type="content" source="media/up-next-widget-email-schedule-suggestion.png" alt-text="Select the suggested send time option to open the email suggestions."::: 
 
-**To schedule an email**
+    To send the email at a scheduled time, follow these steps:
 
-A suggestion is displayed for you to send the email at a specific time. The application analyzes the best time to send the email to the recipient and provides a time period to send the email. You can choose the suggested time or specify your own time. After you choose the time, the task will be closed and displayed on the timeline wall.
-
->[!NOTE]
->Email suggestions are displayed only when the **Email engagement** feature is enabled in your organization. If not enabled, contact your administrator to enable the **Email engagement** feature. More information: [Configure email engagement](configure-email-engagement.md)
-
-1. On the email activity, select **Suggested send time**.
-
-    :::image type="content" source="media/up-next-widget-email-schedule-suggestion.png" alt-text="Select the suggested send time option to open the email suggestions.":::
-
-2. On the suggestion message, select **Schedule email**.
-    
-    :::image type="content" source="media/up-next-widget-email-schedule-view-suggestion.png" alt-text="Select the schedule email to on the suggestion message.":::
-
-3. On the **Schedule email** dialog box, if you're satisfied with the suggested time, select **Schedule email**. 
-    
     >[!NOTE]
-    >You can update the time, if you want to send the email on a different time.
+    >Email suggestions are displayed only when the **Email engagement** feature is enabled in your organization. If not enabled, contact your administrator to enable the **Email engagement** feature. More information: [Configure email engagement](configure-email-engagement.md)
 
-    :::image type="content" source="media/up-next-widget-email-schedule-schedule-email.png" alt-text="Schedule email dialog box with suggested time.":::
+    1. Select **Suggested send time**. A suggestion is displayed for you to send the email at a specific time, depending on when the recipient is likely to read the email.
 
-    The email task is closed and added to the Timeline wall. Though the email task is set as closed, when you open the record, you can see the status as **Pending**. The record status will be changed to complete only after the email is sent on the scheduled time. 
-    
+        :::image type="content" source="media/up-next-widget-email-schedule-view-suggestion.png" alt-text="Select the schedule email to on the suggestion message.":::
+
+    2. In the **Schedule email dialog** box, select **Schedule email**.
+
+        The **Schedule email dialog** populates the suggested time. You can schedule it for a different time, if you want.
+
+    The email task is closed and added to the Timeline wall. Though the email task is set as closed, when you open the record, you can see the status as **Pending**. The record status will be changed to complete only after the email is sent on the scheduled time.     
+
 ## Work with appointments
 
 When an appointment is created for a record through Dynamics 365, or created through Outlook and tracked in Dynamics 365, the appointment is associated with the record and displayed in the work list. If the appointment is associated with a Teams meeting, the Teams meeting icon appears in the associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with a Teams meeting, sellers can open the appointment and view the details, such as participants, scheduled time, and description.

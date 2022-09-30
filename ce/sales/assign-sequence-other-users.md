@@ -20,7 +20,7 @@ Provide permissions for a user or a team to access your sequence in sales accele
 
 ## Assign a sequence
 
-Sequences that you create are available only for you. However, you can assign the sequences that you've created to a user or team. By assigning the sequences, you provide full permissions (read, edit, and delete) to the sequence.
+By assigning a sequence, you provide full permissions (read, edit, and delete) to the sequence.
 
 1. Sign in to the **Sales Hub** app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.   
 
@@ -35,7 +35,7 @@ Sequences that you create are available only for you. However, you can assign th
     | Parameter | Description |
     |-----------|-------------|
     | Assign to | Select the **User or team** option to choose a user or a team to access the sequence. The **User or team** parameter will be disabled, if you choose the **Me** option. |
-    | User or team | From the lookup, select the user or team for who you want to assign the sequence. You can assign the sequence to only a user or a team. To assign to multiple users, create a team with the required users and then assign the sequence to that team.  | 
+    | User or team | From the lookup, select the user or team to whom you want to assign the sequence. To assign to multiple users, create a team with the required users and then assign the sequence to that team. More information: [Create or manage teams](manage-teams.md?tabs=sales) | 
 
     :::image type="content" source="media/sequence-assign-assign-sequence.png" alt-text="Assign sequence dialog box.":::
 
