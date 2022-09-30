@@ -35,7 +35,7 @@ With the release of the Customer Service admin center app that consolidates admi
 - Omnichannel admin center
 - **App profile manager:** Will also be removed in April 2023.
 
-We recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, voice channel, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
+We recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
 ## Omnichannel Administration app is deprecated
 
