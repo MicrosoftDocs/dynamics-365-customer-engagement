@@ -255,7 +255,11 @@
       - name: Create and manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
-        href: configure-work-classification.md
+        items:  
+        - name: Configure work classification rules
+          href: configure-work-classification.md
+        - name: Configure route-to-queue rules
+          href: configure-route-to-queue-rules.md
       - name: Assignment methods for queues
         items:  
         - name: Assignment methods in unified routing
