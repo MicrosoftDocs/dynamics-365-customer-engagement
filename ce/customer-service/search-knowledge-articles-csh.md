@@ -161,7 +161,7 @@ The suggest-as-you-type option provides you with suggestions on the most relevan
 
 The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control.
 
-To use the suggest-as-you-type option, your administrator first needs to enable it. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
+To use the suggest-as-you-type option, your administrator must first enable it. More information: [Enable suggest as you type](set-up-knowledge-management-embedded-knowledge-search.md#enable-suggest-as-you-type)
 
 
 :::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot shows use of the suggest-as-you-type option":::
