@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# How to enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 1.0
+# Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 1.0
 
 > [!IMPORTANT]
 > Minimum versions required to use this feature without any customizations.
