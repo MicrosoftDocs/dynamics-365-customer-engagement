@@ -34,11 +34,11 @@ This section consists of the following performance indicators.
 
 | Metric | Description 
 | ------------ | --------------- |
-| Offered | |
-|Waiting||
-|Longest wait time||
-|Avg. wait itme||
-|Abandon rate||
+| Offered | Total number of conversations which was offered to human agent queue. This includes both inbound and outbound conversations|
+|Waiting|Total number of conversations which are currently waiting in the human agent queue to be assigned to an agent.|
+|Longest wait time|Longest wait time of current unassigned conversations.|
+|Avg. wait itme|Avg wait time of all assigned conversations for the period selected. This metric is calculated only for conversations which are accepted by human agent and is closed.|
+|Abandon rate|Total number of conversations which are closed before an agent accepted the conversation.|
 |||
 
 **Operational**
@@ -47,11 +47,11 @@ This section consists of the following performance indicators.
 
 | Metric | Description |
 | ------------ | --------------- |
-|Avg handle time ||
-|Avg wait time ||
-|Session rejection rate ||
-|Session timeout rate ||
-|Transfer rate ||
+|Avg handle time |Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
+|Avg wait time |Avg wait time of all assigned conversations for the period selected. This metric is calculated only for conversations which are accepted by human agent and is closed.|
+|Session rejection rate |Percentage of sessions rejected by agent(s) out of all sessions presented to an agent(s)|
+|Session timeout rate |Percentage of sessions timed out by agent(s) out of all sessions presented to an agent(s)|
+|Transfer rate |Percentage of conversations which was transferred atleast once. |
 |||
 
 **Agent status**
@@ -60,11 +60,11 @@ This section consists of the following performance indicators.
 
 | Metric | Description |
 | ------------ | --------------- |
-|Available ||
-|Busy||
-|Do not disturb||
-|Appear away||
-|Inactive||
+|Available |Number of agents who are currently in presence status = "Available"|
+|Busy|Number of agents who are currently in presence status = "busy"|
+|Do not disturb|Number of agents who are currently in presence status = "Do not disturb"|
+|Appear away|Number of agents who are currently in presence status = "Appear away"|
+|Inactive|Number of agents who are currently in presence status = "Inactive"|
 |||
 
 **Service level**
@@ -73,12 +73,12 @@ This section consists of the following performance indicators.
 
 | Metric | Description |
 | ------------ | --------------- |
-|SLA First response (30 secs) | |
-|SLA Response (30 secs)||
-|SLA First response (60 secs)||
-|SLA Response (60 secs)||
-|SLA (30 secs)||
-|SLA (60 secs)||
+|SLA First response (30 secs) | Percentage of conversations which was responed within 30 seconds by an agent|
+|SLA Response (30 secs)|Percentage of conversations which was responed within 30 seconds by an agent|
+|SLA First response (60 secs)|Percentage of conversations which was responed within 60 seconds by an agent|
+|SLA Response (60 secs)|Percentage of conversations which was responed within 60 seconds by an agent|
+|SLA (30 secs)|Percentage of chats what were accepted by an agent within 30 seconds (after escalated by bot if applicable)|
+|SLA (60 secs)|Percentage of chats what were accepted by an agent within 60 seconds (after escalated by bot if applicable)|
 |||
 
 ## Capacity Profile and Units
@@ -98,7 +98,7 @@ This section consists of the following performance indicators.
 
 ## Conversation and agent analytics
 
-**(Need screenshots)**
+**(Need screenshots and description)**
 
 - Table view
 - Graph view
