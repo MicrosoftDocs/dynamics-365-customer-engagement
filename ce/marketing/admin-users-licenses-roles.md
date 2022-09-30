@@ -1,7 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 05/05/2022
+ms.date: 09/23/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -37,6 +37,9 @@ Any user who already has a license for any model-driven app in Dynamics 365 also
 ### Grant access to users without a Dynamics 365 license
 
 For Microsoft 365 users that don't have a Dynamics 365 license, you can "purchase" and assign a free Marketing user license. Free Marketing user licenses don't grant access to any other Dynamics 365 apps, but you can have as many of them as you need to grant access to Marketing.
+
+> [!IMPORTANT]
+> If you have a [self-service Marketing license](direct-purchase.md), your tenant admin must assign users to your license before you can assign them roles. Contact your tenant admin and have them add users to your license.
 
 To purchase and assign a free Marketing user license:
 
@@ -81,11 +84,12 @@ Administrators can also create teams, apply security roles to those teams, and a
 
 To apply security roles to users, and to customize each role, do the following:
 
-1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced Settings**.
-
-1. The Advanced Settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
-
-1. Work with the **Users** settings here to assign security roles to users. For details, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+1. Go to admin.powerplatform.microsoft.com.
+1. Select **Environments** on the left navigation and choose the applicable environment.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page, then under **Users + permissions**, select **Users**.
+1. Select a user and choose **Manage Security Role** from the menu bar at the top of the page.
+1. A pane titled "Manage security roles" will open on the right side of the page. Select the roles you'd like to apply to the user.
+1. Make sure to select the **Save** button before closing the pane.
 
 <a name="inspect-roles"></a>
 

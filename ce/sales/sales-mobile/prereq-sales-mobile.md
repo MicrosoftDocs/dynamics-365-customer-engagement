@@ -7,6 +7,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+
 # Prerequisites for the Dynamics 365 Sales mobile app 
 
 The Dynamics 365 Sales mobile app is an intuitive mobile experience that offers quick access to customer information and makes it easy to keep this information current. This simplifies customer relationship management and helps sellers focus on selling. 
@@ -37,7 +38,8 @@ After all the prerequisites are met for the Dynamics 365 Sales mobile app, field
 ### See also
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
-[Learn the basics](learn-basics-mobile-app.md)
+[Learn the basics](learn-basics-mobile-app.md)  
+[Guidance on the best mobile experience for your sales users](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/guidance-on-best-mobile-experience-for-your-sales-users)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

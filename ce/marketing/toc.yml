@@ -210,7 +210,7 @@
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
-  - name: "Real-time marketing user guide"
+  - name: "Real-time marketing"
     items: 
     - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
@@ -220,6 +220,8 @@
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments in real-time marketing
         href: real-time-marketing-ci-profile.md
+      - name: Send a targeted email blast in real-time marketing
+        href: real-time-marketing-email-get-started.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -256,7 +258,13 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-      - name: Enhance your customer journeys
+      - name: Journey goals and A/B testing
+        items:
+        - name: Set a business goal and measure progress through a journey
+          href: real-time-marketing-business-goals.md
+        - name: Experiment and refine real-time marketing journeys
+          href: real-time-marketing-experimentation.md
+      - name: Advanced journey capabilities
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
@@ -264,16 +272,12 @@
           href: real-time-marketing-multiple-branches.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated SMS keyword flow in customer journeys
+        - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
-        - name: Set a business goal and measure progress through a journey
-          href: real-time-marketing-business-goals.md
         - name: Use natural language in real-time marketing journeys
           href: real-time-marketing-natural-language.md
-        - name: Experiment and refine real-time marketing journeys
-          href: real-time-marketing-experimentation.md
       - name: Personalization
         items:
         - name: Personalize content
@@ -308,7 +312,7 @@
         href: real-time-marketing-move-triggers.md
       - name: Real-time marketing link tracking mechanics
         href: real-time-marketing-link-tracking-mechanics.md
-      - name: Manage SMS keywords used in customer journeys
+      - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
     - name: Developer
       items: 
@@ -320,7 +324,7 @@
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
-  - name: Outbound marketing user guide
+  - name: Outbound marketing
     items: 
     - name: Outbound marketing user guide overview
       href: user-guide.md
@@ -546,7 +550,7 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
-    - name: "Preview: Collaborate using Microsoft Teams chat"
+    - name: Collaborate using Microsoft Teams chat
       href: teams-chat.md
     - name: "Customer interactions timeline"
       href: timeline.md

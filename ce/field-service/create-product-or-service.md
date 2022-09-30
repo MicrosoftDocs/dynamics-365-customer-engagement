@@ -292,11 +292,4 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
 
-  
-### See also  
-
- - [Create a price list](../field-service/create-price-list.md)
- - [Create a warehouse](../field-service/create-warehouse.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

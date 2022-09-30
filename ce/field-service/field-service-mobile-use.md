@@ -360,10 +360,4 @@ If work still needs to be done, you can create a follow-up booking.
 
 - [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
 
-### See also
-
-- [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)
-- [Overview of Dynamics 365 Field Service](../field-service/overview.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
