@@ -1,5 +1,5 @@
 ---
-title: "Configure route-to-queue ruleset"
+title: "Configure route-to-queue rules"
 description: "Learn about how to configure a route-to-queue ruleset for a workstream in unified routing."
 ms.date: 10/03/2022
 ms.topic: article
@@ -14,7 +14,7 @@ searchScope:
 - Dynamics 365
 - Customer Service
 ---
-# Configure a route-to-queues ruleset for a workstream
+# Configure route-to-queues rules for a workstream
 
 Queue routing rules send the work item to the right queue. The rules are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." If no rules are defined or no rules match, then the incoming work item will be routed to the fallback queue of the respective workstream.
 
@@ -135,6 +135,7 @@ You can configure routing rule conditions for the social channels, such as Faceb
 ### See also
 
 [Manage overflow conditions](manage-overflow.md)  
+[Create and manage queues](queues-omnichannel.md)  
 [Create a workstream for unified routing](create-workstreams.md)  
 [Configure work classification rules](configure-work-classification.md)  
 [Set up record routing](set-up-record-routing.md)  

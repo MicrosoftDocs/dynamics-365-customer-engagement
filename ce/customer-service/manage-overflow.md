@@ -113,16 +113,11 @@ In certain cases, you mightn't want an overflow action to be run for specific ty
 
 1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
 
-
 ## View diagnostics for overflow
 
 Whenever a work item is handled by the overflow action instead of being assigned to an agent, you can view its status in the **Route to queue** stage of the diagnostic page.
 
 :::image type="content" source="media/overflow-diagnostics.png" alt-text="View the diagnostic status of the overflow action triggered for the work item.":::
-
-## Configuration considerations
-
-Some configuration considerations are discussed in this section.
 
 ### Edit automated messages for end call overflow action
 
@@ -139,6 +134,8 @@ More information: [Customize automated messages](configure-automated-message.md#
 
 ### See also
 
+[Create and manage queues](queues-omnichannel.md)  
+[Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)  
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
