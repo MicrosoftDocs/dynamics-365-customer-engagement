@@ -1,7 +1,7 @@
 ---
 title: "Pass authentication token to bot during single sign-on in live chat | Microsoft Docs"
 description: "Use this article to understand how you can pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on (SSO) in live chat."
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,7 +13,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Using the single sign-on (SSO) feature in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer via  an authentication token that you provide, during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience between your customers and the bot, thereby improving customer satisfaction and reducing costs.​
+With single sign-on (SSO) in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience for the customer, thereby improving customer satisfaction.
 
 In the live chat channel, you can set up authentication in Azure or Power Virtual Agents bots. You can request authentication during a customer conversation before seeking or processing any confidential information such as bill payment, order returns, and any other sensitive data. As a bot author or developer, you can choose to show the OAuth card if the customer hasn't signed in or if the customer sign-in couldn't be validated. You can choose to hide the card if the customer has already signed in.
 
@@ -41,4 +41,6 @@ If you're using a Power Virtual Agents bot, ensure that you manually set up end 
 
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[setBotAuthTokenProvider method](developer/reference/methods/setBotAuthTokenProvider.md)
+[setBotAuthTokenProvider method](developer/reference/methods/setBotAuthTokenProvider.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
