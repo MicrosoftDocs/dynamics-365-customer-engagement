@@ -81,7 +81,7 @@ After you have configured knowledge management on your app, you must also set up
       *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
 	    * Select **Save**.
   4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
-  5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, set the **Allow agent to personalize** toggle to **Yes**.
+  5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
   6. In the **Portals** section, select **Manage**. The **Portals** page appears.
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
           *	Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
@@ -217,7 +217,7 @@ You can set up the knowledge search logic in the Customer Service admin center o
 
 More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
 
-## Enable suggest as you type
+## Enable the suggest-as-you-type option
 
 You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. 
 
@@ -228,7 +228,7 @@ When an agent selects the record, the system displays the article inline on the 
 3. In the **Knowledge search experience** section, set the **Enable suggest as you type** toggle to **Yes**.
 4. Select **Save**.
 
-:::image type="content" source="media/enable-suggest-as-you-type.png" alt-text="Screenshot shows toggle for Enable suggest as you type":::
+:::image type="content" source="media/enable-suggest-as-you-type.png" alt-text="Screenshot shows toggle for the Enable-suggest-as-you-type option":::
 
 
 ### See also  
