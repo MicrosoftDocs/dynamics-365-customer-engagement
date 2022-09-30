@@ -23,19 +23,19 @@ If you don't configure overflow, by default, the work item will stay in the queu
 
 ## How overflow works
 
-The overflow evaluation takes place before the work item is routed to the queue and after the route-to-queue evaluation takes place. The following factors are considered during the overflow evaluation:
+The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queue rules are evaluated. The following factors are considered during the overflow evaluation:
 
 - If multiple queues match in the route-to-queue rules, the system routes the work item to the first queue that's not overflowing.
 
-- If all matched queues are overflowing, one of the following actions take place:
+- If all matched queues are overflowing, one of the following actions takes place:
 
   - The system routes to the queue that's operational and the overflow action is triggered.
-  - If none of the queues are operational, the system routes the work item to the queue that'll be operational at the earliest and the overflow action is triggered.
+  - If none of the queues are operational, the system routes the work item to the queue that will be operational at the earliest and the overflow action is triggered.
 
 - If the matched queue is overflowing due to multiple conditions:
-  - The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they have been defined.
+  - The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
 
-When you add an operating hour record to a queue, the system assigns a default condition on overflow for out of operation hours and action as **Assign to queue anyway**. You can edit and set another action for the condition.
+When you add an operating hour record to a queue, the system assigns a default overflow condition as **Out of operation hours**, and its action as **Assign to queue anyway**. You can't edit the condition but can set another action for it.
 
 The channel-specific operating hour setting that's configured in the workstream doesn't affect the overflow settings.
 
@@ -89,7 +89,7 @@ For overflow to work correctly, the following prerequisites must be met:
         - **Transfer to a different queue**
         - **Transfer to an external number**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 seconds to 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information about wait time, see [Show customers their average wait time in a queue](average-wait-time.md).
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second to 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information about wait time, see [Show customers their average wait time in a queue](average-wait-time.md).
 
         - **End call**
         - **Transfer to a different queue**
@@ -101,7 +101,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 ## Configure overflow override
 
-In certain cases, you mightn't want an overflow action to be run for specific type of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing with the overflow action as "end call" or "keep waiting in queue". This might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
+In certain cases, you might not want an overflow action to be run for specific type of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
 
 1. In Customer Service admin center, go to the required workstream, and select the route-to-queue rule in which the queue is configured.
 
