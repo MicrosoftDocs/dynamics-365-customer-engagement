@@ -43,12 +43,9 @@ The following table lists the condition and action pairs available for different
 
 | Channel | Condition | Action|
 |---------|-----------|-------|
-| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback (preview)</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail (preview)</li> </ul> |
+| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li></ul> |
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
-
-> [!NOTE]
-> The direct callback and voicemail features are in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
@@ -65,7 +62,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 1. On the **Queues** page, select **Manage** for **Advanced queues**.
 
-1. Select the queue for which you want to configure call overflow.
+1. Select the queue for which you want to manage overflow.
 
 1. In **Overflow management**, select **Set overflow conditions**. The **Overflow management** dialog displays the options to configure conditions and actions.
 
@@ -73,37 +70,32 @@ For overflow to work correctly, the following prerequisites must be met:
 
 1. For the record, messaging, and voice queues, you can set the **Out of operation hours** condition and one of the following actions:
 
-    - **Assign to queue anyway**: The work item stays in the queue.
+    - **Assign to queue anyway**: The work item is routed to the queue though it's in the overflow state.
     - **Transfer to a different queue**: Select a queue in the dropdown list.
 
    For the **Out of operation hours** condition, the following extra actions are available for the messaging and voice queues:
 
-     - **End call**: For voice calls only. An automated voice message is presented to the caller and the call ends.
+     - **End call**: For voice queues only. An automated voice message is presented to the caller and the call ends.
      - **End conversation**: For messaging queues only. The conversation is routed to the queue and ended.
      - **Transfer to a different queue**: Select a queue from the dropdown list that appears. The work item is transferred to the selected queue.
      - **Transfer to an external number**: Enter the number to which the call must be transferred.
-     - **Voicemail (preview)**: For voice calls only. Customers can opt to leave a voicemail that the agents will receive to act upon.
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
     - **Work item limit exceeds**: Enter a value between 1 to 100 to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
 
-        - **Direct callback (preview)**: For voice calls only. Customers can opt to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
         - **End call**
         - **End conversation**
         - **Transfer to a different queue**
         - **Transfer to an external number**
-        - **Voicemail (preview)**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 seconds to 60 minutes to denote the wait time after which one of the following overflow actions will be triggered:
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 seconds to 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information about wait time, see [Show customers their average wait time in a queue](average-wait-time.md).
 
-        - **Direct callback (preview)**
         - **End call**
         - **Transfer to a different queue**
         - **Transfer to an external number**
-        - **Voicemail (preview)**
 
-        :::image type="content" source="media/overflow-condition-action-voice-queue.png" alt-text="A screenshot of the condition and action pairs configured for the voice queue.":::
+        :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
 1. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
 
@@ -121,11 +113,6 @@ In certain cases, you mightn't want an overflow action to be run for specific ty
 
 1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
 
-## Define operation hours
-
-Perform the steps in [Create and manage operating hours](create-operating-hours.md) to configure operating hours for the queues.
-
-If operation hours aren't configured, the queues will be available round the clock.
 
 ## View diagnostics for overflow
 
