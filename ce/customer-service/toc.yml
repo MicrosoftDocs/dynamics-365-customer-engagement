@@ -255,7 +255,11 @@
       - name: Create and manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
-        href: configure-work-classification.md
+        items:  
+        - name: Configure work classification rules
+          href: configure-work-classification.md
+        - name: Configure route-to-queue rules
+          href: configure-route-to-queue-rules.md
       - name: Assignment methods for queues
         items:  
         - name: Assignment methods in unified routing
@@ -478,7 +482,7 @@
         href: set-up-knowledge-management-embedded-knowledge-search.md 
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
-      - name: Set up knowledge search providers
+      - name: Set up external knowledge search providers
         href: set-up-search-providers.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
@@ -850,11 +854,11 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure authentication settings
+    - name: Manage authentication settings
       items:
-      - name: Create authentication settings for chat  
+      - name: Configure authentication settings for chat  
         href: create-chat-auth-settings.md
-      - name: Create authentication settings for social channels
+      - name: Configure authentication settings for social channels
         href: create-chat-auth-settings.md#socialauth
     - name: Configure payment profiles
       href: configure-payment-profiles.md
@@ -882,7 +886,7 @@
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
       - name: Create quick replies
         href: create-quick-replies.md
-      - name: Create rich messages
+      - name: Manage rich messages
         href: create-rich-messages.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
@@ -916,6 +920,8 @@
         href: smart-assist-bot.md
       - name: Implement custom scenario
         href: smart-assist-scenario.md
+      - name: Retrieve and format rich messages
+        href: developer/reference/methods/message-object.md
   - name: Bots
     items:
     - name: Overview of bots
@@ -948,6 +954,8 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
+      - name: Pass authentication token to bot during single sign-on in live chat
+        href: pass-auth-token-sso-live-chat.md
   - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service
@@ -1526,6 +1534,8 @@
           href: developer/reference/methods/getAuthTokenProvider.md
         - name: removeAuthTokenProvider
           href: developer/reference/methods/removeAuthTokenProvider.md
+        - name: setBotAuthTokenProvider
+          href: developer/reference/methods/setBotAuthTokenProvider.md
         - name: startChat
           href: developer/reference/methods/startChat.md
         - name: startProactiveChat
