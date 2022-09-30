@@ -110,8 +110,6 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
 The segment is activated. Now you can connect the segment to a sequence or a record.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
-
 <table>
 <tr><td>
 
@@ -119,6 +117,8 @@ The segment is activated. Now you can connect the segment to a sequence or a rec
 > [Next step: Connect a segment to a sequence](connect-a-segment-to-sequence.md)
 </td></tr>
 </table>
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
