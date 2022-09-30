@@ -59,7 +59,7 @@ The app is automatically installed in all the Customer Service organizations. Yo
 
 ## Guided channel setup
 
-You can use the guided channel setup wizard to configure a channel, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
+You can use the guided channel setup wizard to configure channels, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
 :::image type="content" source="media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
 
