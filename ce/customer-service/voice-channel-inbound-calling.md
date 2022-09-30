@@ -4,7 +4,7 @@ description: "Learn about how to set up workstreams and queues for inbound calli
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 10/03/2022
 ms.topic: article
 
 ---
@@ -128,7 +128,7 @@ Navigate to the workstream for which you have configured the voice channel and p
 5. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
 
-6. To configure percent-based distribution of work items, see [Percent-based routing](percent-based-routing.md)
+6. To configure percentage-based distribution of work items, see [Percentage-based allocation of work to queues](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
 
