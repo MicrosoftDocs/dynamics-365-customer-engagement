@@ -88,7 +88,7 @@ Read how you can implement a connector to integrate custom messaging channels us
 [Omnichannel for Customer Service for administrators](../omnichannel-administrator.md)<br />
 [Omnichannel for Customer Service for system customizers](../omnichannel-customizer.md)<br />
 [Omnichannel for Customer Service for agents](../omnichannel-agent-overview.md)<br />
-[Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)
+[Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)  
 [Live chat SDK reference](omnichannel-reference.md)  
 
 
