@@ -115,7 +115,7 @@ You can reorder the rules and create copies to meet your business requirements.
 Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
 
 - [Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)  
-- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+- [Configure route to queues](configure-route-to-queue-rules.md)
 
 ### Configure work distribution and advanced settings
 
