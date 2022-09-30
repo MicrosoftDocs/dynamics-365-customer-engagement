@@ -107,7 +107,7 @@ To configure multiple views for the inbox, complete the following steps.
        
       :::image type="content" source="media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox."::: 
        
-    - **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](/learn.microsoft.com/business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
+    - **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](/BusinessApplication-ReleaseNotes/blob/main/articles/October18/microsoft-flow/advanced-condition-builder)
 
       :::image type="content" source="media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
 
