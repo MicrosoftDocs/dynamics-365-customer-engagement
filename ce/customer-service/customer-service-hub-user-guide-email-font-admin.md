@@ -1,7 +1,7 @@
 ---
 title: "Configure the email experience in customer engagement apps | MicrosoftDocs"
 description: "Learn how to configure the email experience in customer engagement apps."
-ms.date: 05/02/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -98,7 +98,7 @@ Perform the following steps to enable the language filter for the [enhanced emai
 
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Customizations** > **Customize the System**.
-1. In **Solution: Default Solution** , expand **Entities**.
+1. In **Solution: Default Solution**, expand **Entities**.
 1. Select and expand **Email Template** and then select **Forms**.
 1. On the **Active Forms** , select **Template gallery filter form**.
 1. Drag and drop **Language**  from the available fields to the form. 
@@ -106,7 +106,7 @@ Perform the following steps to enable the language filter for the [enhanced emai
    >  **Language** is added to the form by default.
 1. Select **Language** and then select **Change Properties**. 
 1. In **Label**, select **Display label on the form**.
-1. In **Visible** select **Visible by default**. 
+1. In **Visible**, select **Visible by default**. 
 1. Save and publish the changes.
 
 ### Configure the default email template selection view
