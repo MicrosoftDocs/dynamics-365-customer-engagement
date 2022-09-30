@@ -83,17 +83,13 @@ The following views are supported out of the box in the inbox:
 
 Inbox views are refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
 
-## Configure custom inbox views
+## Configure custom view for the inbox
 
-You can configure the inbox view so that agents can see their cases, conversations, emails, and voicemails all in a single view.
+You can configure the a customized view for the inbox so that agents can see their cases, conversations, emails, and voicemails all in a single view.
 
 To configure multiple views for the inbox, complete the following steps.
 
-1. In the Customer Service admin center app, in the site map, go to **Agent experience** > **Workspaces**.
-
-1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**. The **Agent experience profiles** page is displayed.
-
-1. Select the profile for which you want to configure the custom view.
+1. Go to the agent experience profile for which you want to configure a custom view.
 
 1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
 
@@ -105,13 +101,13 @@ To configure multiple views for the inbox, complete the following steps.
    - **Agent visibility**: Select whether to **Show** or **Hide** the view from agents.
    - **Record type**: Select the records that you want to include in the multi-entity view.
   
-1. For each record type you choose, you can define either **Simple** or **Advanced** settings.
+1. For each record type, choose one of the following settings. The settings are different for each record type.
 
-    - Select **Simple** to open a dropdown menu where you can choose the type of records that will appear in your multi-entity view. More information: [Simple settings](#simple-settings)
+    - **Simple** opens a dropdown menu where you can choose the type of records that will appear in your multi-entity view. More information: [Simple settings](#simple-settings)
        
       :::image type="content" source="media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox."::: 
        
-    - Select **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](https://business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
+    - **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](https://learn.microsoft.com/business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
 
       :::image type="content" source="media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
 
