@@ -1,7 +1,7 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 10/01/2022
+ms.date: 08/04/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -55,12 +55,6 @@ More information: [Assign roles and enable users for Omnichannel for Customer Se
 
 The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
 
-## Guided channel setup
-
-You can use the guided channel setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
-
-:::image type="content" source="media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
-
 ## Navigate the site map in Customer Service admin center
 
 The Customer Service features are organized in the site map as follows. Every group contains an overview page with deep links to the features within the area.
@@ -99,12 +93,6 @@ You can manage the following features in **Operations**:
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
   :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
-
-## Search admin settings
-
-Use the search option on the **Search admin settings** page to quickly list the admin setting that you want to manage. Along with the top matches, the page also lists settings for the new features.
-
-:::image type="content" source="media/search-admin-settings.png" alt-text="Screenshot of the search admin settings page that lists the new features settings and settings that match the search string.":::
 
 
 ### FAQ
