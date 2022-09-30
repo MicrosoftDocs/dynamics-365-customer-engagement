@@ -4,7 +4,7 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 ---
 
@@ -49,7 +49,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents.
+Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the Skills hub page to create and edit, add and remove users to skills and manage their proficiency.
 
 1. In Dynamics 365, go to Customer Service admin center, and do the following:
 
@@ -75,6 +75,8 @@ Create or update proficiency scales that are used to rate agent proficiency in t
 
 1. Select Create.
 
+If you'd created proficiency scales in the classic experience, you can update them in the classic experience only.
+
 ### Create skills in skills hub
 
 1. On the **Skills hub** page, select **Manage** in the **Skills** area.
@@ -94,7 +96,7 @@ Create or update proficiency scales that are used to rate agent proficiency in t
 1. To update the users for a skill, select a skill, and on the **Edit Skill** dialog, perform the steps to add users and attach a proficiency value.
 
 
-## Create skills
+## Create skills in the classic experience
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
@@ -123,7 +125,7 @@ Create or update proficiency scales that are used to rate agent proficiency in t
 
 After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
 
-## Rating value of skills
+### Rating value of skills
 
 When you add a skill to an agent, you also need to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 
@@ -191,9 +193,9 @@ For example:
 | ★★ | 2 star|
 | ★ | 1 star|
 
-## Add agents as bookable resource
+### Add agents as bookable resource in the classic experience
 
-Add the agents as a bookable resource so that you can assign skills to them.
+Add the agents as a bookable resource so that you can assign skills to them. This task is required for classic experience only and not for the new skills hub experience.
 
 1. Go to the users page in any of the administrator apps.
 
@@ -205,7 +207,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 5. Select **Save**.
 
-## Assign agents to skill
+### Assign agents to skill
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
