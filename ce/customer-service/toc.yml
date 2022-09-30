@@ -255,7 +255,11 @@
       - name: Create and manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
-        href: configure-work-classification.md
+        items:  
+        - name: Configure work classification rules
+          href: configure-work-classification.md
+        - name: Configure route-to-queue rules
+          href: configure-route-to-queue-rules.md
       - name: Assignment methods for queues
         items:  
         - name: Assignment methods in unified routing
@@ -264,6 +268,8 @@
           href: configure-assignment-rules.md
         - name: Configure routing to preferred agents
           href: configure-preferred-agent.md
+        - name: Manage overflow of work items in queues
+          href: manage-overflow.md
       - name: Set up record routing
         items:
         - name: Provision unified routing for Customer Service
@@ -438,12 +444,22 @@
         href: customize-insert-email-template.md
       - name: Enable the enhanced email template editor page
         href: cs-email-template-builder.md
+      - name: Configure a default signature template for a queue
+        href: add-signature-template-queue.md  
     - name: Agent experience
       items:
       - name: Use email
         href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: View, compose, and respond to emails
+        href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context               
       - name: Attach a file to email
         href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
+      - name: Use the rich text editor toolbar in email
+        href: /power-apps/user/email-rich-text-editor?context=/dynamics365/context/customer-service-context
+      - name: Send email to multiple recipients
+        href: /power-apps/user/direct-email?context=/dynamics365/context/customer-service-context
+      - name: Resolve an unresolved email recipient
+        href: /power-apps/user/unresolved-email-recipient?context=/dynamics365/context/customer-service-context
       - name: Email templates
         items: 
         - name: Create an email template
@@ -616,8 +632,6 @@
         href: voice-channel-survey.md
       - name: Block spam numbers
         href: voice-channel-block-number.md        
-      - name: Handle call overflow for the voice queues
-        href: voice-channel-call-overflow.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
@@ -648,8 +662,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Voice channel analytics, reports, and call insights
-        href: voice-channel-reports-analytics.md 
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
     - name: FAQ about the voice channel
@@ -884,7 +896,7 @@
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
       - name: Create quick replies
         href: create-quick-replies.md
-      - name: Create rich messages
+      - name: Manage rich messages
         href: create-rich-messages.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
@@ -918,6 +930,8 @@
         href: smart-assist-bot.md
       - name: Implement custom scenario
         href: smart-assist-scenario.md
+      - name: Retrieve and format rich messages
+        href: developer/reference/methods/message-object.md
   - name: Bots
     items:
     - name: Overview of bots
@@ -950,6 +964,8 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
+      - name: Pass authentication token to bot during single sign-on in live chat
+        href: pass-auth-token-sso-live-chat.md
   - name: Analytics dashboards and insights
     items: 
     - name: Introduction to analytics and insights in Customer Service
@@ -982,6 +998,14 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
+      - name: Customize historical analytics reports 
+        items:
+        - name: Customize visual display
+          href: customize-reports.md
+        - name: Customize data models
+          href: model-customize-reports.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
       - name: Enable supervisor settings
         items:
         - name: Provide access to Ongoing Conversations dashboard
@@ -1010,14 +1034,18 @@
         items: 
         - name: Omnichannel for Customer Service dashboards
           href: omnichannel-analytics-insights.md
+        - name: Omnichannel Summary dashboard
+          href: omnichannel-summary-dashboard.md
         - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
           href: oc-queue-dashboard.md
+        - name: Omnichannel Voice dashboard
+          href: voice-channel-reports-analytics.md   
         - name: Omnichannel Agent dashboard
           href: agent-dashboard.md
         - name: Omnichannel Bot dashboard
-          href: oc-bot-dashboard.md
+          href: oc-bot-dashboard.md  
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
         - name: Historical analytics for unified routing in Omnichannel for Customer Service
@@ -1058,10 +1086,8 @@
           href: supervisor-sentiment-monitoring.md
     - name: Customize dashboards
       items: 
-      - name: Visual customization of historical analytics reports
-        href: customize-reports.md
-      - name: Customize interactive dashboards based on Unified Interface
-        href: configure-interactive-dashboards-customer-service-hub.md
+        - name: Customize interactive dashboards based on Unified Interface
+          href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
     items: 
     - name: Core Service Scheduling
@@ -1528,6 +1554,8 @@
           href: developer/reference/methods/getAuthTokenProvider.md
         - name: removeAuthTokenProvider
           href: developer/reference/methods/removeAuthTokenProvider.md
+        - name: setBotAuthTokenProvider
+          href: developer/reference/methods/setBotAuthTokenProvider.md
         - name: startChat
           href: developer/reference/methods/startChat.md
         - name: startProactiveChat

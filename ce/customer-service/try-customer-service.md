@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 09/29/2022
+ms.date: 10/03/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ This section lists all the functionality that will be restricted until an enviro
 
 ### What you can't do while an environment is being provisioned?
 
-Configure and use social, SMS, or the Microsoft Teams channels in Omnichannel for Customer Service.
+Configure and use social, SMS, or Microsoft Teams channels in Omnichannel for Customer Service.
 
 ## What to try?
 
@@ -58,8 +58,8 @@ The trial environment includes many of the same features as the paid version. Th
 
 ### More resources
 
-- [Trial FAQ](trial-faq.md)  
-- [Dynamics 365 Customer Service free trial sign up page](https://dynamics.microsoft.com/customer-service/customer-service-software/free-trial)
-- [Explore Microsoft Learn training](/training/browse/?filter-products=dynamics-customer-service)  
-- [Watch videos on the product playlist](https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0)  
-- [Try channels in Omnichannel for Customer Service](try-channels.md)  
+[Trial FAQ](trial-faq.md)  
+[Dynamics 365 Customer Service free trial sign up page](https://dynamics.microsoft.com/customer-service/customer-service-software/free-trial)  
+[Explore Microsoft Learn training](/training/browse/?filter-products=dynamics-customer-service)  
+[Watch videos on the product playlist](https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0)  
+[Try channels in Omnichannel for Customer Service](try-channels.md)  
