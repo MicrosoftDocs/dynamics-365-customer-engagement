@@ -56,6 +56,10 @@ Using the enhanced email experience, you can:
 
 For more information about the email functionality, see [Understand the email experience](../customer-service/customer-service-hub-user-guide-email-overview.md).
 
+## Set default font and size
+
+You can set the default font and its size you want to use in your email. This helps you to maintain consistency while communicating with your customers through email. For more information about setting the default font and size, see [Set the default font and font size](/power-apps/user/view-compose-email#set-the-default-font-and-font-size).
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
