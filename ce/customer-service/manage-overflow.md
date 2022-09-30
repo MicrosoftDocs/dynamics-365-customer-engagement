@@ -16,7 +16,7 @@ When a new work item gets routed with unified routing, the system tries to find 
 For work items, such as calls, conversations, and cases, you can address the following scenarios:
 
 - When an incoming work item exceeds a defined number of conversations or calls that can wait in the queue.
-- Calls and conversations are received during during non-business hours of the call center.
+- Calls and conversations are received during non-business hours of the call center.
 - The wait time is high for customers and you want to reduce it.
 
 If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
