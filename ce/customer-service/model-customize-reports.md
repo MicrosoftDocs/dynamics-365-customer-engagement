@@ -16,7 +16,7 @@ search.app:
   - D365CS
 ---
 
-# Model customization of historical analytics reports in Customer Service (preview)
+# Customize data models of historical analytics reports in Customer Service (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

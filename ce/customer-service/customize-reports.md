@@ -16,7 +16,7 @@ search.app:
   - D365CS
 ---
 
-# Visual customization of historical analytics reports in Customer Service
+# Customize visual display of historical analytics reports in Customer Service
 
 Dynamics 365 Customer Service provides out-of-box reporting capabilities, including industry-standard metrics that are critical for every support organization. These reports are designed to help supervisors in your organization to better understand and manage agent performance.
 
