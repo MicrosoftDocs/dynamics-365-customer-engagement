@@ -21,6 +21,7 @@ manager: shujoshi
 
 
 Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
+
 > [!NOTE]
 >  - Auto-summarization for conversations is in preview for messaging channels and voice conversations with transcription enabled.
 >  - This feature is generally available for Microsoft Teams conversations.
@@ -46,9 +47,9 @@ This feature is supported only in English.
 
 Tenant level access to enable the enhanced integration with Microsoft Teams feature.
 
-## Turn on Auto-summarization for conversations (Preview)
+## Turn on auto-summarization for conversations (Preview)
 
-1. In the Customer Service admin center, select **Operations** > **Insights**.
+1. In Customer Service admin center, select **Operations** > **Insights**.
 
 1. In **Insights**, select **Manage** next to **Auto-summarization for conversations (preview)**.
 
@@ -56,9 +57,9 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 1. The **Supported triggers** section is displayed. Select the following options to define when you want the conversations to be summarized:
   
-   - **When an agent joins the conversation** : To display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
-   - **When the conversation ends** : To display the summary when the conversation ends.
-   - **When an agent starts a linked chat in Microsoft Teams**: To display the summary when the agent starts a linked Teams chat. Alternatively, you can select  the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
+   - **When an agent joins the conversation**: To display the conversation summary when an agent has joined the conversation. This is applicable to conversations escalated to a human agent from a bot, transferred conversations, or when the agent invites a collaborator.
+   - **When the conversation ends**: To display the summary when the conversation ends.
+   - **When an agent starts a linked chat in Microsoft Teams**: To display the summary when the agent starts a linked Teams chat. Alternatively, you can select the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
         :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
