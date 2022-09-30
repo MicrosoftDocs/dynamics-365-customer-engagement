@@ -49,7 +49,7 @@ No. Resco Mobile CRM is a third-party ISV application with its own licensing. Th
 
 ### I currently use Dynamics Field Service On Premises with Field Service Mobile - Xamarin. What options do I have?
 
-Field Service On Premises will be [deprecated](/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-on-premises---june-30-2022) on June 30, 2022. We recommend current On Premises customers migrate to Dynamics 365 Field Service online to continue operations and support. Field Service Mobile - Xamarin will not be available for the deprecated Dynamics 365 Field Service On Premises. Continued unsupported use of Field Service On Premises will require an alternative mobile solution.
+Field Service On Premises will be [deprecated](/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-on-premises---june-30-2022) on June 30, 2022. We recommend current On Premises customers migrate to Dynamics 365 Field Service online to continue operations and support. Field Service Mobile - Xamarin will not be available for the deprecated Dynamics 365 Field Service On Premises and access will be removed in October 2022. Continued unsupported use of Field Service On Premises will require an alternative mobile solution.
 
 ### Are there other resources available to learn more about the new Field Service Mobile application and migration?
 

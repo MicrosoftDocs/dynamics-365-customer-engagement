@@ -1,83 +1,34 @@
 ---
-title: "Preview features in trial | MicrosoftDocs"
-description: "Learn about the preview features in your Sales trial app and how to disable them if needed."
-ms.date: 10/01/2021
+title: What are Preview features
+description: This article explains what are preview features and how to identify them in your trial instance.
+ms.date: 09/29/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview features in trial 
 
-This page lists the upcoming preview features that will be enabled by default in your trial app. Review the information in this page to understand what's coming up.
+# What are preview features
 
-> [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.  
+This article describes what are preview features, disclaimers related to preview features, and how to identify them in your trial instance. If you're interested to know the featured capabilities in the Dynamics 365 Sales trial, see [Explore features in trial](features-in-trial.md).
 
-The following preview feature will be automatically enabled in your trial app when they become available:  
+Preview features are features that aren't complete, but are made available on a "preview" basis so customers can get early access and provide feedback. Preview features:
 
-- A new view for opportunities with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
+- Are subject to separate [Supplemental Terms of Use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
 
+- Are not supported by Microsoft Support for production use. Microsoft Support is, however, eager to get your feedback on the preview functionality, and might provide best effort support in certain cases.
 
-## Switch to classic view for opportunities
+- May have limited or restricted functionality.
 
-As your trial app is automatically enabled for preview features, you will see the new interface for opportunities by default. 
+- Aren't meant for production use.
 
-If, for some reason, you want to switch to the classic list view, follow these steps:
-
-1.  Select **Sales Trial** at the top-left corner of the Sales trial app.
-
-1.  In the **Apps** page, go to the Sales Trial app, select the **More options (…)** icon and select **OPEN IN APP DESIGNER**:
-
-    :::image type="content" source="media/open-in-app-designer.png" alt-text="Screenshot highlighting the Open in App Designer option":::
-
-3.  In the App Designer, edit the **Site Map** object.
-
-4.  Go to **Sales** > **Sales records** and select **Opportunities**.
-
-    > [!TIP]
-    > Alternatively, you can create a new group and area for the classic view and leave the new interface as-is.
-
-5.  Modify the following fields in the side panel:
-
-    **Type**: Select **Entity**.
-
-    **Entity**: Select **Opportunities**.
-
-    :::image type="content" source="media/sitemap-designer.png" alt-text="Screenshot of the sitemap designer page":::
-
-6.  Save and publish the changes.
-
-7.  Access the Sales Trial app and go to the corresponding page.
-    The page should display the list as shown in the following screenshot:
-    
-    :::image type="content" source="media/listview.png" alt-text="Screenshot of the classic list view":::
-
-## Switch to the new view for opportunities
-
-If you've switched over to the classic view and now want to revert to the new interface, follow these steps:
-
-1.  Select **Sales Trial** at the top-left corner of the Sales trial app.
-
-2.  In the **Apps** page, go to the Sales Trial app, select the **More options (…)** icon and select **OPEN IN APP DESIGNER**
-
-3.  In the App Designer, edit the **Site Map** object.
-
-4.  Go to **Sales** > **Sales records** and select **Opportunities**.
-
-5.  Modify the following fields in the side panel:
-
-    **Type**: Select **URL**.
-
-    **URL**: Specify `/main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceOpportunity`
-
-6.  Save and publish the changes.
-
-7.  Access the Sales Trial app and go to the **Opportunities** page.
-
-    The page should display the new interface as shown in the following screenshot:
-    :::image type="content" source="media/opportunity-new-view.png" alt-text="Screenshot of the new view":::
-     
-    The new opportunities view is also known as the deal manager workspace. For more information on how to use it or personalize it, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
+- May be available only in selected geographic areas.
 
 
+## How to identify a preview feature
+
+As part of your Dynamics 365 Sales trial, you get access to some of the preview features. These features will have a **Preview** label in the user interface and in the documentation. For example, the deal manager feature is in preview, and you would see that the documentation and UI will have preview labels and disclaimers about the preview feature. As an example, see the [Preview: Deal manager](deal-manager-overview.md) article.
+
+### See also
+[Sign up for a free Dynamics 365 Sales trial](sign-up-for-sales-trial.md)  
+[Explore features in trial](features-in-trial.md).  

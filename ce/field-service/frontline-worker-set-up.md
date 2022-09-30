@@ -5,8 +5,7 @@ author: m-hartmann
 
 ms.reviewer: mhart
 ms.date: 04/01/2021
-ms.topic: overview
- - field-service
+ms.topic: conceptual
 ms.author: mhart
 search.app:
   - D365CE

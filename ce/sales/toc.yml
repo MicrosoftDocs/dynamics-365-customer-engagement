@@ -10,10 +10,12 @@
     items: 
       - name: Sign up for the free trial
         href: sign-up-for-sales-trial.md
-      - name: Trial FAQs
-        href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
+      - name: Explore features in trial
+        href: features-in-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
   - name: Install and configure
     items:
     - name: Use the Sales Hub app 
@@ -23,6 +25,8 @@
           href: grant-access-saleshub.md
         - name: Sales Hub app versus custom app
           href: saleshub-customapp.md
+    - name: Install and administer Sales Insights features
+      href: intro-admin-guide-sales-insights.md      
     - name: Install Sales Professional app
       href: provision-sales-professional-instance.md
     - name: Add sample data
@@ -211,6 +215,8 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
+        - name: Enable email validation
+          href: enable-email-validation.md  
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Predictive lead scoring
@@ -361,6 +367,10 @@
           items: 
             - name: Configure sales accelerator
               href: enable-configure-sales-accelerator.md
+            - name: Manage access and record type
+              href: manage-access-record-type-sales-accelerator.md  
+            - name: Customize the workspace  
+              href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
@@ -464,16 +474,24 @@
               href: manage-playbook-templates.md
     - name: Relationship intelligence
       items: 
+        - name: Relationship intelligence overview
+          href: ri-overview.md
+        - name: Enable relationship intelligence
+          href: enable-ri.md
         - name: Configure relationship analytics and health
           href: configure-relationship-analytics.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
-        - name: Add relationship intelligence widgets to custom forms
-          href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
-          href: insights-from-m365.md 
+          href: insights-from-m365.md
+        - name: Microsoft 365 consent types
+          href: ms365-consent-types.md
+        - name: Add relationship intelligence widgets to custom forms
+          href: add-ri-widgets-to-custom-form.md
+        - name: Grant access to who knows whom information
+          href: grant-access-wkw.md
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -492,8 +510,6 @@
               href: connect-dynamics365-sales-environment.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy.md
-            - name: Enable coming soon features
-              href: enable-preview-features-sales-insights-app.md
         - name: Configure in Dynamics 365 Sales Hub
           items: 
             - name: First-run set up in sales app
@@ -506,8 +522,6 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
-            - name: Enable coming soon features
-              href: enable-preview-features-sales-app.md
     - name: Dashboards and reports
       items: 
         - name: Dashboards
@@ -534,7 +548,7 @@
       items: 
         - name: Prerequisites for Dynamics 365 Sales mobile
           href: sales-mobile/prereq-sales-mobile.md
-        - name: Modify quick view forms
+        - name: Manage forms
           href: sales-mobile/modify-quick-view-form.md
         - name: Create custom push notifications
           href: sales-mobile/create-push-notification.md
@@ -570,7 +584,6 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -631,7 +644,6 @@
           href: teams-integration/teams-collaboration.md
         - name: Enhanced Collaboration with Teams
           href: teams-integration/teams-collaboration-enhanced-experience.md
-
     - name: Productivity and document management
       items: 
         - name: Activity management
@@ -669,6 +681,8 @@
           href: create-edit-lead-sales.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
+        - name: Work with invalid email addresses
+          href: work-invalid-email-addresses.md  
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
         - name: Qualify or convert leads
@@ -678,11 +692,9 @@
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
     - name: Opportunity management
-      expanded: true
       items: 
         - name: Create or edit opportunities
           href: create-edit-opportunity-sales.md
-          expanded: true
           items: 
             - name: Add products to an opportunity
               href: add-products-opportunity.md
@@ -695,7 +707,6 @@
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Manage opportunities using deal manager
-          expanded: true
           items: 
             - name: Deal manager workspace overview
               href: deal-manager-seller-overview.md
@@ -763,6 +774,12 @@
           items: 
             - name: What is sales accelerator
               href: sales-accelerator-intro.md
+            - name: Create and connect sequences for yourself
+              href: create-sequence-seller.md  
+            - name: Manage your sequences
+              href: manage-sequences-seller.md 
+            - name: Apply and remove tags from your sequences
+              href: apply-remove-tags-seller.md 
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
             - name: Customize work list card  
@@ -1033,12 +1050,6 @@
           href: ../customerengagement/on-premises/developer/entities/list.md
         - name: Metric
           href: ../customerengagement/on-premises/developer/entities/metric.md
-        - name: msdyn_forecastdefinition
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastdefinition.md
-        - name: msdyn_forecastinstance
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastinstance.md
-        - name: msdyn_forecastrecurrence
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastrecurrence.md
         - name: Opportunity
           href: ../customerengagement/on-premises/developer/entities/opportunity.md
         - name: OpportunityClose
@@ -1104,6 +1115,10 @@
           items: 
             - name: msdyn_ConnectSequence
               href: developer-sp/msdyn-ConnectSequence-action.md
+            - name: msdyn_WKWDeleteGDPRData
+              href: developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md
+            - name: msdyn_WKWGDPRDeleteStatus
+              href: developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md
         - name: Entity Reference
           items: 
             - name: Entity reference
@@ -1112,6 +1127,10 @@
               href: developer-sp/msdyn_predictivescore.md
             - name: msdyn_PredictiveModelScore
               href: developer-sp/msdyn_predictivemodelscore.md
+            - name: msdyn_wkwcolleaguesforcontact
+              href: developer-sp/msdyn_wkwcolleaguesforcontact.md
+            - name: msdyn_wkwcolleaguesforcompany
+              href: developer-sp/msdyn_wkwcolleaguesforcompany.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items: 
@@ -1137,7 +1156,6 @@
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
-  expanded: true
   items: 
     - name: Learning Catalog
       href: learning-catalog.md

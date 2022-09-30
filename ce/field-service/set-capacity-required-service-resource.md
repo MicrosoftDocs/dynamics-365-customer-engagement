@@ -90,8 +90,4 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 11. Click **Save & Close**.  
   
-### See also  
- [Create or edit a selection rule](../field-service/create-simple-selection-rule.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

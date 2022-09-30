@@ -125,7 +125,7 @@ For more information, see [Run business process flows offline](/power-automate/b
 |Web resource used on form handlers, form scripts and ribbon commands|Supported (File names should be in lower case)|Supported (file names need should be in lower case)|
 |JavaScript files referenced within an HTML web resource|Supported| Partially supported: The web resource needs to be opened at least once you are in online mode so that it's cached by your browser. Then it is handled for lifetime and or availability.|
 |HTML, JS, CSS, XML web resources embedded on a model-driven app form|Supported| Partially supported: The web resource needs to be opened at least once while online so that it's cached by the browser which will handle its lifetime and or availability.|
-|Other web resources embedded on a model-driven app form (like images, resx, etc.)|Not supported**|Not supported**|
+|Other web resources embedded on a model-driven app form (like images, resx, etc.) <br> **Note**: The [Dataverse file](/power-apps/developer/data-platform/file-attributes) and [image](/power-apps/developer/data-platform/image-attributes) attributes are not webresources but regular Dataverse data. To enable them offline, see  [Configure mobile offline profiles for images and files](/power-apps/mobile/offline-file-images). |Not supported**|Not supported**|
 |Webpage (HTML web resource) via a model-driven app’s sitemap|Not supported|Not supported|
 |Custom JS files that create a fetchXML dynamically |Not supported|Not supported|
 
@@ -163,7 +163,8 @@ It is recommended that you have at least one rule defined for all mobile offline
 
 |Profile details |Limitation|  
 |-------------|---------|  
-|Relationship defined for each table|Maximum of 10 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 10 relationships. If any custom tables demand this scenario, then revisit the data model. No circular references or self-references are supported.|
+|Relationship defined for each table|Maximum of 15 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 15 relationships. If any custom tables demand this scenario, then revisit the data model. No circular references or self-references are supported.|
+|Images and files|Images and files are subject to the same limitations as any other table. Because of implicitly defined relationships, an offline profile can only contain up to 14 image columns, across all entities.|
 
 
 ### Profile filter rules recommendation 

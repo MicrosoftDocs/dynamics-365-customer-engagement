@@ -150,9 +150,4 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
     5.  Use the schedule assistant  to book the requirement.  
   
-### See also  
- [Install Dynamics 365 Field Service](../field-service/install-field-service.md)    
- [Install Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/install-customize)    
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

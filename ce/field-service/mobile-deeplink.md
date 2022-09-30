@@ -216,12 +216,4 @@ This is a combination of the **Field Service universal Link** (fsmobile://open?j
 
 By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing critical new functionality or 2) overwriting your JavaScript file and losing the deep link functionality. To avoid this, use a custom folder and JavaScript file separate from the **WorkOrder** folder an WorkOrder.js file in production instances.
 
-
-### See also
-- [Sample mobile project template](https://1drv.ms/u/s!AhAjbOq5aB_lsUMGyM8rQ1g_IVHY?e=Lg32Nu)
-- [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for guidance in this article.
-- [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
-- [Set URI parameters for your canvas apps](/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

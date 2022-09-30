@@ -127,15 +127,15 @@ A scoring model defines the criteria for choosing the opportunities for training
     > [!NOTE]
     > If the **Per stage modeling** option is disabled, ensure that you've selected a valid business process in the **Business process flow** field.  
     
-10. Select **Get started**.  
+ 1. Select **Get started**.
 
     The application starts generating a model, and a notification is displayed. The application uses standard attributes to generate the model. You can [edit the model](pls-edit-and-retrain-model.md) later to include custom attributes.
 
     > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
+    > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
 
-    >[!NOTE]
-    >If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
+    > [!NOTE]
+    > If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
     After the model is trained, a popup message is displayed. 
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is trained":::
@@ -146,8 +146,6 @@ A scoring model defines the criteria for choosing the opportunities for training
     - If you're ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
     
     - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md).
-    
-
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

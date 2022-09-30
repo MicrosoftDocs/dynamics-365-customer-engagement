@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/20/2022
+ms.date: 09/23/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -56,7 +56,9 @@ Review the following requirements before configuring SLAs for your organization:
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
-> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI instance contain values equivalent to the Onhold Time and Last Onhold Time attributes respectively, of the target record, such as, case and account in the web client.
+> - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as, case and account in the web client.
+> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
+
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 

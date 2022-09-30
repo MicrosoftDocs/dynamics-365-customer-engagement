@@ -1,7 +1,7 @@
 ---
-title: "View and export KPI data (GDPR) | Microsoft Docs"
-description: "View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file in Sales Insights."
-ms.date: 10/26/2021
+title: View and export KPI data
+description: View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file in Sales Insights.
+ms.date: 09/08/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
 topic-status: Drafting
 ---
-# View and export KPI data (GDPR) 
+# View and export KPI data
 
 View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file. The KPI data is stored in the following entities:
 
@@ -51,6 +51,6 @@ For more information about exporting data from Dynamics 365 Sales to excel, see 
 
 ## See also
 
-[Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
+[Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/gdpr)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

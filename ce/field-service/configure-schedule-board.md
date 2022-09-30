@@ -162,7 +162,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 - A window opens showing all the configuration options.  
   
-  -   Give the tab a name by filling in the **Name** field.  
+  -   Give the tab a name by filling in the **Name** field. Tab names won't be localized after creation in multi-geo scenarios.
   
   -   You can configure a tab in several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
   
@@ -200,12 +200,5 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
-
-### See also   
-[Overview of Dynamics 365 Field Service](../field-service/overview.md)   
-[Create a work order](../field-service/create-work-order.md)   
-[Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
-[Schedule a work order](../field-service/schedule-work-order.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
