@@ -40,7 +40,7 @@ Any filter configurations that you set will be available wherever the knowledge 
 
 The **Enable search filters** option is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
-If you choose to retain the **Enable search filters** option as **Yes**, then the Power Apps Maker filter configurations will be deactivated. Additionally, the archived and discarded status filters will no longer be supported.
+If you choose to retain the **Enable search filters** option as **Yes**, then the filter configurations in Power Apps Maker  will be deactivated. Additionally, the archived and discarded status filters will no longer be supported.
 
 The settings that you've previously configured for your organization, including the default language configured for your organization in the Power Apps Maker filter configurations, will no longer be applicable. You'll need to configure the language as default using the filter configurations.
 
