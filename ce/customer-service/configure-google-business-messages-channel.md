@@ -110,7 +110,7 @@ In the Business Messages app, on the **Overview** page, under **Agent test URLs*
 
 ## Create routing rules
 
-Create [routing rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules) for the workstream you created. Select the entity as Google's Business Messages context.
+[Configure routing rules](configure-route-to-queue-rules.md) for the workstream you created. Select the entity as Google's Business Messages context.
 
 For example, you can create a rule to transfer Google's Business Messages chat from a customer named Google's Business Messages to the default queue.
 

@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 04/04/2022
+ms.date: 10/03/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -57,7 +57,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 
     - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
-2. On the **Queues** page, do the following:
+1. On the **Queues** page, do the following:
 
     1. Select **New**.
     2. In the **Create a queue** dialog, enter the following:
@@ -69,18 +69,20 @@ Assign a group number that helps you organize your queues in the list view. The 
        > [!div class=mx-imgBorder]
        > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
-3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
+1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
-4. In **Assignment method**, do one of the following:
+1. In **Assignment method**, do one of the following:
    - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
    - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for Prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
 
-5. To set operation hours, in the **Operation hours** area, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. More information: [Configure operating hour record](create-operating-hours.md)
+1. To manage overflowing of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
 
-6. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
+1. To set the operating hours, in **Operation hours**, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. More information: [Configure operating hour record](create-operating-hours.md)
 
-7. Select **Save and close**. The operating hour record that you selected is configured for the queue.
+1. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
+
+1. Select **Save and close**. The operating hour record that you selected is configured for the queue.
 
 ### Manage queues for unified routing
 
