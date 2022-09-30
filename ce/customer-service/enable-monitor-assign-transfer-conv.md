@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor settings for managing agent conversations | MicrosoftDocs
-description: "How to enable supervisors to monitor, assign, transfer, and forcibly end conversations in Customer Service admin center."
-ms.date: 09/23/2022
+description: "How to enable supervisors to monitor, assign, transfer, and close conversations in the Customer Service admin center app."
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -34,16 +34,16 @@ As an administrator, you can enable your supervisors to take specific actions on
       The **Omnichannel Configuration.Supervisor Settings** page is displayed.    
 
 2. To enable the supervisors to perform the following actions, set the corresponding toggles to **Yes**:
-    - **Supervisor Monitor** Monitor how conversations are happening or being handled by their agents.
-    - **Supervisor Assign** Assign conversations to agents.
-    - **Supervisor Transfer** Transfer conversations from one agent to another.
-    - **Force Close** End conversations that take place on messaging channels.
+    - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
+    - **Supervisor Assign**: Assign conversations to agents.
+    - **Supervisor Transfer**: Transfer conversations from one agent to another.
+    - **Force Close**: End voice calls and conversations that take place on messaging channels. More information: [Monitor, assign, transfer, and forcibly end conversations](monitor-conversations.md#end-conversations-forcibly)
 
-3. To disable any of the settings, set its corresponding toggle to **No**.
+3. To disable any of the settings, set the corresponding toggle to **No**.
 
 ### See also
 
-[Monitor, assign, transfer, and end conversations](monitor-conversations.md)  
+[Monitor, assign, transfer, and close conversations](monitor-conversations.md)  
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
