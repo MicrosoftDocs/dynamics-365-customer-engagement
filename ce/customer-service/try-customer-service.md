@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 09/27/2022
+ms.date: 09/29/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,10 @@ Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up,
 **To sign up for the trial**:
 
 1. Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/) page and select **Try for free**.
-2. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal mail ID and your contact information.
+2. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com, and your contact information.
+
+> [!NOTE]
+> If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](trial-faq.md#personalemail)
 
 The trial will take a few moments to load, then you can start using Customer Service.
 
@@ -52,9 +55,6 @@ The trial environment includes many of the same features as the paid version. Th
 - [Know more about chat notifications](oc-notifications.md).
 - [View AI-suggested cases and knowledge articles for a conversation](oc-view-ai-suggested-cases-articles.md).
 - [View how supervisors monitor agent conversations](ongoing-conversations-dashboard.md).
-
-> [!NOTE]
-> However, not all features will be available if you use personal email ID to sign up for the trial. More information: [Trial FAQ](trial-faq.md)
 
 ### More resources
 
