@@ -1,7 +1,7 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 08/04/2022
+ms.date: 09/30/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Get started with Customer Service admin center
 
-Welcome to Customer Service admin center, a new app that unifies and simplifies administration experience across the Customer Service suite.
+Welcome to Customer Service admin center, the app that unifies and simplifies administration experience across the Customer Service suite.
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
@@ -37,11 +37,11 @@ The notable enhancements include:
 
 You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
 
-- **System Administrator**: To access and edit all the site map entries, and entities like queues for the email record, automatic record creation and update rules, and workstreams.
+- **System Administrator**: To access and edit all the site map entries.
 
 - **System Customizer**: To access and edit all the site map entries.
 
-- **CSR Manager**: To access the entities in Customer Service. If you use custom roles, you can refer to the privileges of CSR Manager.
+- **CSR Manager**: To access the entities like queues for the email record, automatic record creation and update rules, and workstreams in Customer Service.
 
 - **App Profile Manager administrator and Basic User**: To access the app and edit app profile-related entities.
 
@@ -49,20 +49,22 @@ You'll need one or more of the following security roles to access this app to pe
 
 Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privileges.
 
+If you use custom roles, you must make sure that you have the appropriate permissions corresponding to the feature you want to configure.
+
 More information: [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 
 ## Access the app
 
 The app is automatically installed in all the Customer Service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
 
-## Quick setup (preview)
+## Guided channel setup
 
-> [!NOTE]
->
-> - Quick setup is in preview; therefore, we recommend that you don't use it in production. Use it only in test and development environments.
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+You can use the guided channel setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
-You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
+:::image type="content" source="media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
+
+> [!IMPORTANT]
+> To successfully create a guided setup for each channel, you must have full privileges to all the tables used in the setup.
 
 ## Navigate the site map in Customer Service admin center
 
@@ -103,6 +105,11 @@ You can manage the following features in **Operations**:
 
   :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
 
+## Search admin settings
+
+Use the search option on the **Search admin settings** page to quickly list the admin setting that you want to manage. Along with the top matches, the page also lists settings for the new features.
+
+:::image type="content" source="media/search-admin-settings.png" alt-text="Screenshot of the search admin settings page that lists the new features settings and settings that match the search string.":::
 
 ### FAQ
 
