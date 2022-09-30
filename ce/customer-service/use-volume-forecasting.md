@@ -1,7 +1,7 @@
 ---
 title: "Forecast case and conversation volumes in Customer Service | Microsoft Docs"
 description: "Learn how to use the Forecast report for cases and conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/25/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -52,7 +52,12 @@ Before you can use the Forecast report, ensure that your administrator has given
 
 ## View the Forecast report in Customer Service
 
-You can access the Forecast report in the Customer Service workspace app by selecting the plus (+) icon, and then selecting **Forecast (preview)**, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
+**Navigation**
+
+You can view the Forecast (preview) dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Forecast (preview)** dashboard as follows:
+
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast (preview)**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Forecast (preview)**.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
@@ -106,7 +111,7 @@ You can export the report data by selecting the ellipsis in the top-right corner
 
 :::image type="content" source="media/forecast-export-data.png" alt-text="View of the Forecast report Export data menu item.":::
 
-The data for the date range you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
+The data for the date range that you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
 
 ### See also
 [Configure case and conversation volume forecasting](configure-volume-forecasting.md)  

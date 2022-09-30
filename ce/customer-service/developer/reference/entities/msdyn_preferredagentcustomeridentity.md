@@ -11,20 +11,7 @@ search.app:
   - D365CE
 ---
 
-# msdyn_preferredagentcustomeridentity Entity Reference (Preview)
-
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../../../includes/cc-preview-features-no-ms-support.md)]
-
+# msdyn_preferredagentcustomeridentity Entity Reference 
 
 **Added by**: Configuration_sn Solution
 

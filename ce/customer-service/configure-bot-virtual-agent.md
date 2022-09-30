@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 08/30/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -149,9 +149,8 @@ To end a bot conversation, perform the following steps:
 | Description     | Limitation     |
 |-----------------|----------------|
 | **Adaptive cards** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling is not supported.</li></ul> |
-| **Single sign-on (SSO)** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
-| **Format bot messages** You can set the optional `TextFormat` property to control how your message's text content is rendered. | <ul><li> Power Virtual Agents does not support markdown with images and text. </li><li>When Power Virtual Agents sends markdown text, there's an extra space between lines. </li> <li> Carousel layout is not supported. </li></ul>|
+| **Format bot messages** You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Power Virtual Agents does not support Markdown with images and text. </li><li>When Power Virtual Agents sends Markdown text, there's an extra space between lines. </li></ul>|
 
 ## Privacy notice
 
