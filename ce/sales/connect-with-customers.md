@@ -72,6 +72,9 @@ Do one of the following actions:
 
 A suggestion is displayed for you to send the email at a specific time. The application analyzes the best time to send the email to the recipient and provides a time period to send the email. You can choose the suggested time or specify your own time. After you choose the time, the task will be closed and displayed on the timeline wall.
 
+>[!NOTE]
+>Email suggestions are displayed only when the **Email engagement** feature is enabled in your organization. If not enabled, contact your administrator to enable the **Email engagement** feature. More information: [Configure email engagement](configure-email-engagement.md)
+
 1. On the email activity, select **Suggested send time**.
 
     :::image type="content" source="media/up-next-widget-email-schedule-suggestion.png" alt-text="Select the suggested send time option to open the email suggestions.":::
