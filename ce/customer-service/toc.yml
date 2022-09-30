@@ -984,13 +984,13 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-      - name: Configure customization of reports 
+      - name: Customize historical analytics reports 
         items:
-        - name: Visual customization of historical analytics reports in Customer Service
+        - name: Customize visual display
           href: customize-reports.md
-        - name: Model customization of historical analytics reports in Customer Service
+        - name: Customize data models
           href: model-customize-reports.md
-        - name: Data model and report mapping for historical analytics reports
+        - name: Data models and report mappings for historical analytics reports
           href: oob-data-models.md
       - name: Enable supervisor settings
         items:

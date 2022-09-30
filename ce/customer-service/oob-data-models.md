@@ -16,9 +16,9 @@ search.app:
   - D365CS
 ---
 
-# Data model and report mapping for historical analytics reports in Customer Service
+# Data models and report mappings for historical analytics reports in Customer Service
 
-The topic describes the out-of-the-box data model and report mapping for historical reports.
+This article lists the out-of-the-box data models and report mappings for historical reports. Use the information to edit the report mappings for the various out-of-the-box reports.
 
 ## Customer service manager analytics
 
