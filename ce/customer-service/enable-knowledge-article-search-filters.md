@@ -38,7 +38,7 @@ The fields that are present on the knowledge article entity are the fields that 
 
 Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
 
-The **Enable search filters** is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
+The **Enable search filters** option is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
 If you choose to retain the **Enable search filters** option as **Yes**, then the Power Apps Maker filter configurations will be deactivated. Additionally, the archived and discarded status filters will no longer be supported.
 
