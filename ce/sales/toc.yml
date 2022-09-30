@@ -215,6 +215,8 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
+        - name: Enable email validation
+          href: enable-email-validation.md  
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Configure predictive lead scoring
@@ -662,6 +664,8 @@
           href: create-edit-lead-sales.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
+        - name: Work with invalid email addresses
+          href: work-invalid-email-addresses.md  
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
         - name: Qualify or convert leads
@@ -671,11 +675,9 @@
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
     - name: Opportunity management
-      expanded: true
       items: 
         - name: Create or edit opportunities
           href: create-edit-opportunity-sales.md
-          expanded: true
           items: 
             - name: Add products to an opportunity
               href: add-products-opportunity.md
@@ -688,7 +690,6 @@
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Manage opportunities using deal manager
-          expanded: true
           items: 
             - name: Deal manager workspace overview
               href: deal-manager-seller-overview.md
