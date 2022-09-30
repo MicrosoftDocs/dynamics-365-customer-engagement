@@ -14,7 +14,7 @@ Welcome to Customer Service admin center, the app that unifies and simplifies ad
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
-The notable enhancements include:  
+The enhancements include:  
 
 - Consolidated administration experiences that're currently distributed in three different apps: Customer Service Hub, Omnichannel admin center, and app profile manager.
 
@@ -59,7 +59,7 @@ The app is automatically installed in all the Customer Service organizations. Yo
 
 ## Guided channel setup
 
-You can use the guided channel setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
+You can use the guided channel setup wizard to configure a channel, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
 :::image type="content" source="media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
 
