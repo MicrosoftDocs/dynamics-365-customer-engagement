@@ -1,7 +1,7 @@
 ---
 title: Configure a default signature template for a queue | MicrosoftDocs
 description: "Learn how to set up email signature templates for queues."
-ms.date: 09/26/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -26,13 +26,14 @@ searchScope:
 
 # Add a default signature template to a queue
 
-You can add a default signature template for a queue to ensure that emails sent with the queue as the sender have consistent email signatures. When you send a mail with the queue as the sender or reply to messages received by the queue, the default signature is added to the body of the email. If you don't specify a default signature template for a queue, the application adds the signature queue's owner.
+You can add a default signature template for a queue to ensure that emails sent with the queue as the sender have consistent email signatures. When you send an email with the queue as the sender or reply to messages received by the queue, the default signature is added to the body of the email. If you don't specify a default signature template for a queue, the application adds the signature queue's owner.
 
 ## Prerequisites
 
 Email signature templates must be available before adding them to a queue.
 
-You can set up a default email signature for a queue as follows:
+## Set up default email signature for queues
+
 
 1. Go to one of the admin apps, and perform the following steps:
    
@@ -44,12 +45,12 @@ You can set up a default email signature for a queue as follows:
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. Go to **Service Management**, and then select **Queues** in **Case Settings**.
+       Go to **Service Management**, and then select **Queues** in **Case Settings**.
   
 2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
 1. In the **EMAIL SETTINGS** section, specify the signature template in  **Email Signature**.
 
- ![Add a default signature template.](media\email-sig-temp-queue.png "Add a default signature template to a queue")
+ ![Add a default signature template.](media/email-sig-temp-queue.png "Add a default signature template to a queue")
 
 ### See also  
 
