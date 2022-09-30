@@ -49,13 +49,13 @@ As an administrator, to create skills, you need at least one skill type in the s
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the Skills hub page to create and edit, add and remove users to skills and manage their proficiency.
+Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
 
-1. In Dynamics 365, go to Customer Service admin center, and do the following:
+1. In Dynamics 365, go to Customer Service admin center.
 
-1. In the select **User management** under **Customer Support**.
+1. In the site map, select **User management** under **Customer Support**.
 
-1. Select **Manage** for **Skills hub (Preview)**. The Skills hub page displays the skills, skill types, proficiency scales and intelligent skill find models.
+1. Select **Manage** for **Skills hub (Preview)**. The Skills hub page displays the skills, skill types, proficiency scales, and intelligent skill find models.
 
 ### Manage proficiency scales
 

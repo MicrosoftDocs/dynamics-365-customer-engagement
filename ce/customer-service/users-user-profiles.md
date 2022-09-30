@@ -47,7 +47,7 @@ The attributes that you want to add must be configured in the system. You can up
 
 1. Select **User management** under **Customer support** in the site map.
 
-1. On the page that appears, select **Manage** for **Enhanced user management (Preview)**. The **Contact center users** view displays the users list that have been configured Power Platform admin center.
+1. On the page that appears, select **Manage** for **Enhanced user management (Preview)**. The **Contact center users** view displays the users that have been configured in Power Platform admin center.
 
 1. Hover the pointer over the rows of the users that you want to update and select the check boxes.
 
@@ -133,7 +133,7 @@ Users should be configured as a bookable resource so that they can be assigned w
    > [!NOTE]
    > Bots in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add bots to queues that are used for routing records.
 
-All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled to use Omnichannel for Customer Service.
+All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Omnichannel for Customer Service.
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
@@ -141,7 +141,9 @@ For users to access the Omnichannel for Customer Service experiences, the roles 
 
 ### Capacity
 
-Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your agents. For example, if the capacity unit is 1 for a workstream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. More information: [Create and manage capacity profiles](capacity-profiles.md).
+Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your agents.
+
+For example, if the capacity unit is 1 for a workstream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. More information: [Create and manage capacity profiles](capacity-profiles.md).
 
 ### See also
 
