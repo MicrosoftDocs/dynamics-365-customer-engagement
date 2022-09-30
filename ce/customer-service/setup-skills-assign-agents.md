@@ -69,7 +69,8 @@ Create or update proficiency scales that are used to rate agent proficiency in t
    - **Minimum rating value**: Enter the minimum value.
    - **Maximum rating value**: Enter the maximum value.
 
-     > [!NOTE] You can enter positive values only as minimum and maximum rating values.
+   > [!NOTE]
+   > You can enter positive values only as minimum and maximum rating values.
 
    - **Level names**: Enter names for each rating value, such as average, good, and excellent.
 
