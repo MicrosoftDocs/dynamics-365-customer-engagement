@@ -386,6 +386,8 @@
               href: edit-a-sequence.md
             - name: Edit an active sequence
               href: edit-active-sequence.md
+            - name: Assign a sequence to a user or a team
+              href: assign-sequence-other-users.md  
             - name: Delete a sequence
               href: delete-a-sequence.md
             - name: Migrate sequences from one environment to another 
