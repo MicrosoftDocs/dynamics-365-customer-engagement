@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 06/10/2022
+ms.date: 09/30/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -110,6 +110,9 @@ To generate the engagement data, send an email invite to webinar registrants bef
 
 > [!IMPORTANT]
 > Organizations that manage their Teams user policies need to make sure that the admin enables the **allowTrackingInReport** and **allowEngagementReport** policies before synchronizing the engagement data. For more information, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
+> [!NOTE]
+> Check-out times are only supported for Teams webinar events (with streaming enabled). Live events, Teams meetings, or any other event types do not have automatic check-out times.
 
 #### Known issues with Teams webinars
 
