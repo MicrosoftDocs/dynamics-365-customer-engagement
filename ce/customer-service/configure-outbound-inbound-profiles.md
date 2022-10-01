@@ -1,6 +1,6 @@
 ---
-title: "Configure inbound and outbound profiles | MicrosoftDocs"
-description: "Use this article to understand how you can configure inbound and outbound profiles in your organization."
+title: "Configure outbound and inbound profiles | MicrosoftDocs"
+description: "Use this article to understand how you can configure outbound and inbound profiles in your organization."
 ms.date: 10/03/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -11,7 +11,25 @@ ms.custom:
   - intro-internal
 ---
 
-# Configure inbound and outbound profiles
+# Configure outbound and inbound profiles
+
+Use the information in this article to create profiles that'll be used during inbound and outbound calls. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create will be listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
+
+The default outbound and inbound profiles are available out of the box if you use the first-run experience in the new org. The default profiles are used as fallback when agents are not assigned a profile. You can edit only the behavior and templates but not the profile type for the default profiles. The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles. 
+
+The phone number column for the default inbound profile will always be "undefined". When a customer calls, and if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
+
+:::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
+
+## Prerequisites
+
+The following prerequisites must be met:
+
+- To create inbound profiles, a personal number that's geographically enabled should be provisioned and assigned to the agent.
+
+- To create outbound profiles, shared numbers should be configured and available in the system.
+
+- Capacity profiles should be configured.
 
 ## Create inbound profiles
 
@@ -23,7 +41,7 @@ ms.custom:
 
 1. On the **Create new profile** dialog, enter a profile name, select the profile type as **Inbound**, and then select **Next**.
 
-1. On the **Phone number** page, select a personal number in the **Number** list, and select **Next**.
+1. On the **Phone number** page, select a personal number in the **Number** list, and select **Next**. You can add only one phone number while creating a profile. 
 
 1. In **Inbound info**, select a queue and one or more capacity profiles in the **Queue** and **Capacity** dropdown lists, and then select **Next**.
 
@@ -81,6 +99,8 @@ You can define the way outbound calls are made and also who can make them. To cr
 1. Select **Save and close**.
 
 ### Edit profiles
+
+Edit the profiles to update the behavior and advanced settings. You can delete profiles if you no longer use them.
 
 1. On the **Outbound and inbound profiles** page, select a profile from the list and select **Edit**. On the **Edit profile settings** dialog, update details in the required sections.
 
