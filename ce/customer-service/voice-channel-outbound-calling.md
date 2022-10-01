@@ -26,7 +26,7 @@ Before you set up outbound voice calls for your business, you must perform the f
 - [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
 - [Create a voice type queue](voice-channel-inbound-calling.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
 - [Configure capacity profiles and add users](#configure-capacity-profiles-and-assign-users).
-- [Create outbound profiles](#create-outbound-profiles)
+- [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles)
 
 ## Configure phone numbers for outbound calling
 

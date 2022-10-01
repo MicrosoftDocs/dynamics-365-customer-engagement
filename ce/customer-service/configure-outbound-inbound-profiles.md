@@ -80,7 +80,7 @@ You can define the way outbound calls are made and also who can make them. To cr
 1. In **Phone number**, select a phone number in the **Shared numbers** list, and select **Next**.
     
   > [!Note]
-  > The phone numbers list shows only those numbers that are enabled for outbound calling and aren't used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
+  > The phone numbers list shows only those numbers that are enabled for outbound calling and aren't used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling).
 
 1. In **Outbound info**, do the following:
    
