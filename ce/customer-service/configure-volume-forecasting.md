@@ -40,30 +40,33 @@ Supervisors can use the Forecast report for case volumes in the following ways:
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 - Slice forecasted volumes by channel and queue.
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
-Please be aware that forecasts could misstate volume estimates for many reasons, including unanticipated trends or business developments.
+
 > [!Note]
-> The Forecast report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+> Be aware of the following when using the Forecast report:
+> - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
+>
+> - The Forecast report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## How the case volume forecasting works
 
-The Forecast report uses an AI backed forecasting model that predicts case volumes based on historical case data. The model uses ensemble forecasting method with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
+The Forecast report uses an AI-backed forecasting model that predicts case volumes based on historical case data. The model uses ensemble forecasting method with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
 
 The report can forecast for a date range up to six months, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions.
 
-- If the historical data time range is less than 12 months, forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for next four months.
-- If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for next six months. 
+- If the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months.
+- If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for the next six months. 
 
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
 
 - At least two weeks of historical data is available. 
-- Per channel and queue combination, you must have at least one case on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest case (that falls within the configured historical time range) for that channel and queue combination to one day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1st of a given year, you run the forecasting model on September 1st, and the earliest recorded case for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15th to August 31st. If there is case data available for at least 70 percent of the days between March 15th and August 31st, only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In that case, the model wouldn't run successfully, and a forecast wouldn't be produced.
+- Per channel and queue combination, you must have at least one case on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest case (that falls within the configured historical time range) for that channel and queue combination to one day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1st of a given year, you run the forecasting model on September 1st, and the earliest recorded case for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15th to August 31st. If there is case data available for at least 70 percent of the days between March 15th and August 31st, only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In that case, the model wouldn't run successfully and a forecast wouldn't be produced.
 
 
 ## Prerequisites
 
-To configure the Forecast report, you must have the System administrator role.
+To configure the Forecast report, you must have the System Administrator role.
 
-For users in your organization to be able to access the forecast reports they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your System administrator must assign this privilege to any role that needs access to the forecasting reports.
+For users in your organization to be able to access the forecast reports they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports.
 
 ## Enable the case forecasting reports in Customer Service
 
