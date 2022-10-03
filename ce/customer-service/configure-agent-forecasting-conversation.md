@@ -42,10 +42,11 @@ Supervisors can use the agent forecasting for conversation report in the followi
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
 - Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
-Be aware that forecasts can misstate volume estimates for many reasons, including unanticipated trends or business developments.
 
 > [!Note]
-> The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+> - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
+> 
+> - The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).<br>
 
 ## How agent forecasting for conversation works
 
