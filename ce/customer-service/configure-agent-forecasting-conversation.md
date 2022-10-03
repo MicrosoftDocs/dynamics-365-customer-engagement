@@ -41,14 +41,15 @@ Supervisors can use the agent forecasting for conversation report in the followi
 - Slice and dice forecasted volumes by channel and queue.
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
-- Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage and concurrency.
-Please be aware that forecasts could misstate volume estimates for many reasons, including unanticipated trends or business developments.
+- Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
+Be aware that forecasts can misstate volume estimates for many reasons, including unanticipated trends or business developments.
+
 > [!Note]
 > The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## How agent forecasting for conversation works
 
-The forecast report for conversations uses an AI backed forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
+The forecast report for conversations uses an AI-backed forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
 The forecast report for agents for conversations uses a statistical model to calculate the agent demand from the forecasted volumes.
 
 The report can forecast for a period of up to six months in the future, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
@@ -60,13 +61,13 @@ The historical data must meet the following minimum requirements for the models 
 
 - At least two weeks of historical data is available. 
 - The average daily volume should be more than 50 conversations per queue and channel combination. Forecasting will not be generated for any queue and channel combination, having less than average daily volume of 50 conversations.
-- Per channel and queue combination, you must have at least 1 conversation on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest conversation (that falls within the configured historical time range) for that channel and queue combination to 1 day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1 of a given year, you run the forecasting model on September 1, and the earliest recorded conversation for a channel and queue combination occurred on March 15, the model will check all of the data within the date range from March 15 to August 31. If there is conversation available for at least 70 percent of the days between March 15 and August 31, then and only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully, and no forecast will be produced.
+- Per channel and queue combination, you must have at least one conversation on 70 percent of days in the calculation period for that channel and queue combination. The calculation period is computed as the number of days from the creation time of the earliest conversation (that falls within the configured historical time range) for that channel and queue combination to one day prior to the date the model runs. So, for example, if your historical range is configured to start from January 1st of a given year, you run the forecasting model on September 1st, and the earliest recorded conversation for a channel and queue combination occurred on March 15th, the model will check all of the data within the date range from March 15th to August 31st. If there's conversation available for at least 70 percent of the days between March 15th and August 31st, only then will that channel and queue combination be included for forecasting. Even though you would have data for each day of the date range, there may be a scenario where the data might not meet the 70 percent rule for every queue and channel. In this case, the model wouldn't run successfully, and no forecast would be produced.
 
 ## Prerequisites
 
-To configure the agent forcasting for conversation report, you must have the System administrator role.
+To configure the agent forcasting for conversation report, you must have the system administrator role.
 
-For users in your organization to be able to access the forecast reports they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your System administrator must assign this privilege to any role that needs access to the forecasting reports.
+For users in your organization to be able to access the forecast reports, they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. You must assign this privilege to any role that needs access to the forecasting reports.
 
 ## Enable the Agent forecasting for conversation (preview) report
 
@@ -92,7 +93,7 @@ For users in your organization to be able to access the forecast reports they mu
 
 1. If you want to specify seasonal, in **Seasonality**, select the **Use schedules from Holiday Calendar** check box. Selecting the **Holiday Calendar** link opens the **All Holiday Schedules** page, where you can create a new schedule or select an existing schedule.
 
-1. Save your changes. If this is the first time you’ve turned on the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the Forecast report. 
+1. Save your changes. If this is the first time you’ve enabled the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the Forecast report. 
 
 1. In **Global Forecasting configuration** specify the following settings at the global level to apply to all channels. Some default values are provided as a suggestion to get you started, but you may want to change them to meet the needs of your organization.
 
