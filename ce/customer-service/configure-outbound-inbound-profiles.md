@@ -71,7 +71,7 @@ You can define the way outbound calls are made and also who can make them.
 
 1. In **Outbound info**, do the following:
    
-   - **Number label**: Indicates the label displayed with the phone number at the agent end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string on the agent dialer and can be edited.
+    - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
 1. In **Outbound behaviors**, do the following:
