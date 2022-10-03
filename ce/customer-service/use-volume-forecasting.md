@@ -47,7 +47,11 @@ You can use the Forecast report for agent, case, and conversation volumes in the
 For details of how the forecast models work for this feature, see [How agent forecasting for conversation works](configure-agent-forecasting-conversation.md#how-agent-forecasting-for-conversation-works).
 
 > [!Note]
-> Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
+> Be aware of the following when using the Forecast report:
+> 
+> - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
+> 
+> - The Forecast report is currently available in certain geographical locations. More information: Regional availability and Service limits for Customer Service.
 
 ## Prerequisites
 
