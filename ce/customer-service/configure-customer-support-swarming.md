@@ -297,14 +297,16 @@ To set up swarm privileges for agents, perform the following steps.
 
 ## FAQs
 
-Q. How do I sync a swarm expert who isn't a member of my organization?
-A. Users who aren't members in your organization might not be directly synced to all of the Dynamics 365 organizations within your tenant. If you are unsure whether a swarm expert is part of your organization, you can manually sync their membership by doing the following steps:
+**Q. How do I sync a swarm expert who isn't a member of my organization?**
+
+**A.** Users who aren't members in your organization might not be directly synced to all of the Dynamics 365 organizations within your tenant. If you are unsure whether a swarm expert is part of your organization, you can manually sync their membership by doing the following steps:
    1. In Power Platform admin center, go to **Environments** > **Environment name** > **Settings** > **Users + permissions** > **Users**. 
    1. On the command bar, select **+ Add user**. The **Add user** dialog is displayed on the right-hand side.
    1. Enter the user details, and then select **Add**.
 
-Q. I've manually added a participant to the swarm group chat but they can't access the chat. What do I do?
-A. If a user is manually added to a swarm, the first time they access the chat, they might encounter an error message that says they don't have access to the records. To fix this issue, do the following steps:
+**Q. I've manually added a participant to the swarm group chat but they can't access the chat. What do I do?**
+
+**A.** If a user is manually added to a swarm, the first time they access the chat, they might encounter an error message that says they don't have access to the records. To fix this issue, perform the following steps:
    1. Go to **Advanced Settings** > **Security** > **Teams**.
    1. Select **Swarm collaborators team**, and then manually add the user to the team.
       > [!Note]
