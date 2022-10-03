@@ -144,6 +144,7 @@ You can configure work classification rules for the voice workstream to add deta
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
+[Configure outbound and inbound profiles](configure-outbound-inbound-profiles.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
