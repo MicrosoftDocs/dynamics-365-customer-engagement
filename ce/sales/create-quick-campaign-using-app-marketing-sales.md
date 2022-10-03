@@ -54,13 +54,12 @@ When you create a quick campaign activity, an activity is created for each membe
 4. On the **Specify the Campaign Name** step, enter a name for the quick campaign, and then select **Next**.
   
 5. On the **Select the Activity Type and Owners** step, from the **Activity Type** list, select the type of activity you want to create.  
+    > [!NOTE]
+    > Supported activity types are email, appointment, phone call, fax, and letter. Custom activities or other out-of-the-box activities are not supported.  
 
    ![Quick campaign wizard.](media/quick-campaign-wizard.png "Quick campaign wizard") 
 
       You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the **Activity Type** as **Phone Call**, and then select **The owners of the records in the target marketing lists**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.
-
-      > [!NOTE]
-      > Supported activity types are email, appointment, phone call, fax, and letter. Custom activities or other out-of-the-box activities are not supported.  
 
 
   5. When you select the **Activity Type** as *Email*, you'll see an additional checkbox **Mark email messages to be sent and close corresponding email activities**. Perform one of the following actions: 
