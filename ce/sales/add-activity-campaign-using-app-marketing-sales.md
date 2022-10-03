@@ -121,6 +121,11 @@ You can distribute a campaign activity when you're ready to initiate the campaig
   
    > [!NOTE]
    > - When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account, or lead. 
+1. After the activity's status turns **Completed**, you can view more details about the activities:
+    -  To view more information about the type, owner, and status of the activities created for the campaign, view the **Timeline** section.
+        > [!NOTE]
+        > If your campaign has letter or fax activities, they'll not be listed in the timeline by default. To view them, select **Related** > **Activities**.  
+    - To view the reasons for failures, select **Related** > **Successes/failures** and then select the corresponding failure view. For example, if your campaign was targeted to accounts, select **Account Bulk Operations Failures** view.
 
 ## Close a campaign activity
 

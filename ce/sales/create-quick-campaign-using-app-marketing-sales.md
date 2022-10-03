@@ -75,11 +75,16 @@ When you create a quick campaign activity, an activity is created for each membe
 
 7. On the **Completing the Create Quick Campaign Wizard** step, select **Create**.  
     The campaign activity is added to the **Quick Campaigns** section. 
-8. After the **Status Reason** field is marked as Completed, verify the **No. of Successes** and **No. of Failures** fields to know the number of activities that succeeded and failed. In the case of email activities, successes and failures don't indicate email delivery status, instead they indicate the status of email activities in Dynamics 365.
-   
-  
+8. After the **Status Reason** field is marked as Completed, verify the **No. of Successes** and **No. of Failures** fields to know the number of activities that have succeeded or failed. In the case of email activities, successes and failures don't indicate email delivery status, instead they indicate the status of email activities in Dynamics 365.
+1.  To view more details about the activities, open the quick campaign:
+    -  To view more information about the type, owner, and status of the activities created for the campaign, view the **Timeline** section.
+        > [!NOTE]
+        > If your campaign has letter or fax activities, they'll not be listed in the timeline by default. To view them, select **Related** > **Activities**.  
+    - To view the reasons for failures, select **Related** > **Members** and select the corresponding failure view. For example, if your campaign was targeted to accounts, select **Account Bulk Operations Failures** view.
+
    > [!NOTE]
    >  You can't add records to a quick campaign after you create it.  
+
  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
