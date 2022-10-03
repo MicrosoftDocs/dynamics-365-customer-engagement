@@ -17,12 +17,6 @@ Use the information in this article to create profiles that'll be used during in
 
 Inbound profiles enable direct calls to individual agents and therefore differ from worksktreams that are used to define how inbound calls are routed and assigned to agents via queues.
 
-The default outbound and inbound profiles are available out of the box if you use the first-run experience in the new org. The default profiles are used as fallback when agents are not assigned a profile. You can edit only the behavior and templates but not the profile type for the default profiles. The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
-
-The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless specifically configured. When a customer calls, and if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
-
-:::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
-
 ## Prerequisites
 
 The following prerequisites must be met:
@@ -34,6 +28,15 @@ The following prerequisites must be met:
 - Capacity profiles to be used in profiles must be configured.
 
 - Voice queues must be configured.
+
+### Default profiles
+
+The default profiles are available out of the box if you use the first-run experience in the new org. Some of the features are as follows:
+
+- The default profiles are used as fallback profiles when agents are not assigned a profile.
+- You can edit only the behavior and templates but not the profile type for the default profiles.
+- The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
+- The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless specifically configured. When a customer calls, if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
 
 ## Create inbound profiles
 
@@ -90,6 +93,8 @@ You can define the way outbound calls are made and also who can make them.
     - **Allow agents to pause and resume**: Indicates whether you want to allow your agents to pause and resume call transcription and recording. The default value is **Yes** which means that your agents can choose when to pause or resume call transcription and recording in the conversation panel.
 
 1. Select **Save and close**.
+
+:::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
 
 ### Edit profiles
 
