@@ -38,7 +38,7 @@ For a guided walkthrough, check out the following video.
 Device requirements:
 
 - Windows 10 or 11
-- A device with minimum 3 GB RAM and 64 GB storage.
+- A device with minimum 3-GB RAM and 64-GB storage.
 
 For more system requirements, see: [System requirements for the Field Service (Dynamics 365) mobile app](mobile-power-app-system-requirements.md)
 
@@ -90,7 +90,7 @@ When enabled for [offline mode](mobile-power-app-system-offline.md), the app wil
 
 ## Download logs
 
-Open the following directory on your you device to find the logs related to a Windows session for Power Apps:
+Open the following directory on your device to find the logs related to a Windows session for Power Apps:
 
 `%LocalAppData%\Packages\MicrosoftCorporationII.FieldServiceDynamics365_8wekyb3d8bbwe\LocalState`
 
