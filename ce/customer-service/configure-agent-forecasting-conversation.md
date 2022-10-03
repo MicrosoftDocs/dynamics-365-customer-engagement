@@ -44,6 +44,8 @@ Supervisors can use the agent forecasting for conversation report in the followi
 - Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
 
 > [!Note]
+> Be aware of the following when using the Forecast report:
+> 
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 > 
 > - The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).<br>
