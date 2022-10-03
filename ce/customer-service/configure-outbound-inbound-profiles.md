@@ -13,11 +13,13 @@ ms.custom:
 
 # Configure outbound and inbound profiles
 
-Use the information in this article to create profiles that'll be used during inbound and outbound calls. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create will be listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that'll be used during inbound and outbound calls directly to or from agents. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create will be listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
 
-The default outbound and inbound profiles are available out of the box if you use the first-run experience in the new org. The default profiles are used as fallback when agents are not assigned a profile. You can edit only the behavior and templates but not the profile type for the default profiles. The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles. 
+Inbound profiles enable direct calls to individual agents and therefore differ from worksktreams that are used to define how inbound calls are routed and assigned to agents via queues.
 
-The phone number column for the default inbound profile will always be "undefined". When a customer calls, and if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
+The default outbound and inbound profiles are available out of the box if you use the first-run experience in the new org. The default profiles are used as fallback when agents are not assigned a profile. You can edit only the behavior and templates but not the profile type for the default profiles. The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
+
+The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless specifically configured. When a customer calls, and if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
 
 :::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
 
@@ -25,11 +27,13 @@ The phone number column for the default inbound profile will always be "undefine
 
 The following prerequisites must be met:
 
-- To create inbound profiles, a personal number that's geographically enabled should be provisioned and assigned to the agent.
+- To create inbound profiles, a personal number of geographic type and enabled to receive calls must be provisioned and assigned to the agent via the **Omnichannel** tab in user settings.
 
-- To create outbound profiles, shared numbers should be configured and available in the system.
+- To create outbound profiles, shared or geographic type numbers enabled for outbound calls must be configured and available in the system. In your calling plan for the number, the **Make calls** checkbox must be selected.
 
-- Capacity profiles should be configured.
+- Capacity profiles to be used in profiles must be configured.
+
+- Voice queues must be configured.
 
 ## Create inbound profiles
 
@@ -41,7 +45,7 @@ The following prerequisites must be met:
 
 1. On the **Create new profile** dialog, enter a profile name, select the profile type as **Inbound**, and then select **Next**.
 
-1. On the **Phone number** page, select a personal number in the **Number** list, and select **Next**. You can add only one phone number while creating a profile. 
+1. On the **Phone number** page, select a personal number in the **Number** list, and select **Next**. You can add only one phone number at a time while creating a profile.
 
 1. In **Inbound info**, select a queue and one or more capacity profiles in the **Queue** and **Capacity** dropdown lists, and then select **Next**.
 
@@ -62,18 +66,7 @@ The following prerequisites must be met:
 
 You can define the way outbound calls are made and also who can make them. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)    
-   
-     1. In the site map, select **Productivity** in **Agent experience**.
-     2. On the **Productivity** page, select **Manage** for **Outbound and inbound profiles**.
-   
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
-    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Outbound and inbound profiles**
-
-1. Select **New profile**.
+1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
 1. On the **Create new profile** dialog, in the **Profile settings** section, enter a profile name in **Profile name**, select **Outbound** in **Profile type**, and select **Next**.
 
@@ -85,7 +78,7 @@ You can define the way outbound calls are made and also who can make them. To cr
 1. In **Outbound info**, do the following:
    
    - **Number label**: Indicates the label displayed with the phone number at the agent end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string on the agent dialer and can be edited.
-    - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-inbound-calling.md#create-queues-for-voice-channels).
+    - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
 1. In **Outbound behaviors**, do the following:
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
