@@ -66,7 +66,7 @@ The historical data must meet the following minimum requirements for the models 
 
 To configure the Forecast report, you must have the System Administrator role.
 
-For users in your organization to be able to access the forecast reports they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports.
+For users in your organization to be able to access the forecast reports, they must be part of a role that has read privileges on the **Forecast (preview)** table. Your system administrator must assign this privilege to any role that needs access to the forecasting reports.
 
 ## Enable the case forecasting reports in Customer Service
 
