@@ -19,7 +19,7 @@ This article describes how emergency calling works in Omnichannel for Customer S
 > - Emergency calling is currently supported only in the United States and Puerto Rico where the emergency calling number is 911.
 > - For the emergency call to be handled, one of the following conditions must be fulfilled:
 >   - The number from which it originates must be a Microsoft calling plan number.
->   - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there is no direct routing rule for the emergency number, we will allow the call to follow the direct offer path and the call will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
+>   - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there is no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
 
 ## Prerequisites
 
