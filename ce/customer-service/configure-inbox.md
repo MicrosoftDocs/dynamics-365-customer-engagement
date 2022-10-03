@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 06/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -107,7 +107,7 @@ To configure multiple views for the inbox, complete the following steps.
        
       :::image type="content" source="media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox."::: 
        
-    - **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](MicrosoftDocs/BusinessApplication-ReleaseNotes/blob/main/articles/October18/microsoft-flow/advanced-condition-builder)
+    - **Advanced** opens a **Conditions** option where you can set the desired conditions for your multi-entity view. More information: [Advanced condition builder](https://learn.microsoft.com/business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
 
       :::image type="content" source="media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
 
