@@ -40,7 +40,7 @@ Supervisors can use the Forecast report for case volumes in the following ways:
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 - Slice forecasted volumes by channel and queue.
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
-
+Please be aware that forecasts could misstate volume estimates for many reasons, including unanticipated trends or business developments.
 > [!Note]
 > The Forecast report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
@@ -63,7 +63,7 @@ The historical data must meet the following minimum requirements for the models 
 
 To configure the Forecast report, you must have the System administrator role.
 
-For users in your organization to be able to access the Forecast report, they must have the Customer Service Manager role.
+For users in your organization to be able to access the forecast reports they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your System administrator must assign this privilege to any role that needs access to the forecasting reports.
 
 ## Enable the case forecasting reports in Customer Service
 

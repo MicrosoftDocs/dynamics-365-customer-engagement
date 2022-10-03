@@ -41,12 +41,15 @@ Supervisors can use the agent forecasting for conversation report in the followi
 - Slice and dice forecasted volumes by channel and queue.
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
+- Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage and concurrency.
+Please be aware that forecasts could misstate volume estimates for many reasons, including unanticipated trends or business developments.
 > [!Note]
 > The agent forecasting for conversation report is currently available in certain geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## How agent forecasting for conversation works
 
 The forecast report for conversations uses an AI backed forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
+The forecast report for agents for conversations uses a statistical model to calculate the agent demand from the forecasted volumes.
 
 The report can forecast for a period of up to six months in the future, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
@@ -63,7 +66,7 @@ The historical data must meet the following minimum requirements for the models 
 
 To configure the agent forcasting for conversation report, you must have the System administrator role.
 
-For users in your organization to be able to access the forecast reports they must have the Customer Service Manager role.
+For users in your organization to be able to access the forecast reports they must be part of a role that has **Read** privileges on the **Forecast (preview)** table. Your System administrator must assign this privilege to any role that needs access to the forecasting reports.
 
 ## Enable the Agent forecasting for conversation (preview) report
 
