@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Manage bookmarks for reports
 
-Save personalized views of your reports in bookmarks. A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
+Save personalized views of your reports as bookmarks at user level. A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
 
 Bookmarks are available in historical analytics reports and knowledge analytics reports only.
 
@@ -37,8 +37,8 @@ Bookmarks are available in historical analytics reports and knowledge analytics 
 1. Select **Bookmarks** and then do the following on the **Bookmarks** flyout menu:
 
     - To delete a bookmark, select the delete icon.
-
-    - To set a bookmark as the default view for the report, select the pin icon.
+    - To set a bookmark as the default view for the report, select the pin icon. The report will always open with the pinned view.
+    - To reset the bookmarked view of a report, select **Reset**.
 
 1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update Bookmark**.
 

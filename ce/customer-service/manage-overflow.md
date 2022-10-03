@@ -57,7 +57,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 ## Configure overflow conditions
 
-In Dynamics 365, go to the Customer Service admin center app and perform the following steps:
+Go to the Customer Service admin center app and perform the following steps:
 
 1. In the site map, select **Queues** in **Customer support**.
 
@@ -90,7 +90,7 @@ In Dynamics 365, go to the Customer Service admin center app and perform the fol
         - **Transfer to a different queue**
         - **Transfer to an external number**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information about wait time, see [Show customers their average wait time in a queue](average-wait-time.md).
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information on how wait time is calculated, see [Show customers their average wait time in a queue](average-wait-time.md).
 
         - **End call**
         - **Transfer to a different queue**
