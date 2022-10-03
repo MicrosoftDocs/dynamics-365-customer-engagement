@@ -85,7 +85,7 @@ items:
       href: create-work-order-types.md
     - name: Price list
       href: create-price-list.md
-    - name: Products and services
+    - name: Products and services  
       href: create-product-or-service.md
     - name: Service task types
       href: set-up-service-task-types.md
@@ -183,9 +183,9 @@ items:
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
-      - name: Multiresource
+      - name: Multi-resource
         href: multi-resource-scheduling-requirement-groups.md
-      - name: Multiday
+      - name: Multi-day
         href: schedule-multi-day-work.md
       - name: Crews
         href: resource-crews.md
