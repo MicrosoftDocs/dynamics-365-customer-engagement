@@ -21,13 +21,10 @@ Inbound profiles enable direct calls to individual agents and therefore differ f
 
 The following prerequisites must be met:
 
-- To create inbound profiles, a personal number of geographic type and enabled to receive calls must be provisioned and assigned to the agent via the **Omnichannel** tab in user settings.
-
+- To create inbound profiles, a personal number of geographic type and enabled to receive calls must be provisioned and assigned to the agent via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
 - To create outbound profiles, shared or geographic type numbers enabled for outbound calls must be configured and available in the system. In your calling plan for the number, the **Make calls** checkbox must be selected.
-
-- Capacity profiles to be used in profiles must be configured.
-
-- Voice queues must be configured.
+- Capacity profiles to be used in profiles must be configured. [Manage capacity profiles](capacity-profiles.md)
+- Voice queues must be configured. More information: [Configure voice queues](voice-channel-inbound-calling.md#create-a-queue-for-the-voice-channel)
 
 ## Create inbound profiles
 
