@@ -32,13 +32,15 @@ Bookmarks are available in historical analytics reports and knowledge analytics 
 
 1. Repeat the steps to create as many bookmarks as you require.
 
-1. To manage bookmarks, select **Bookmarks** > **Manage bookmarks**, and then do the following:
+   :::image type="content" source="media/manage-bookmarks.png" alt-text="Create a report bookmark to save personalized filters.":::
+
+1. Select **Bookmarks** and then do the following on the **Bookmarks** flyout menu:
 
     - To delete a bookmark, select the delete icon.
 
     - To set a bookmark as the default view for the report, select the pin icon.
 
-1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update bookmark**.
+1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update Bookmark**.
 
 
 ### See also
