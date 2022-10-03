@@ -92,7 +92,7 @@ You can define the way outbound calls are made and also who can make them.
 The default profiles are available out of the box if you use the first-run experience in the new org. Some of the features are as follows:
 
 - The default profiles are used as fallback profiles when agents are not assigned a profile.
-- You can edit only the behavior and templates but not the profile type for the default profiles.
+- You can edit the behavior and templates only but not the profile type for the default profiles.
 - The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
 - The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless specifically configured. When a customer calls, if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
 
