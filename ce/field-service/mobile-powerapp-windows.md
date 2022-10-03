@@ -18,10 +18,7 @@ search.app:
 
 # Field Service (Dynamics 365) app for Windows 10+ devices
 
-The Field Service (Dynamics 365) Windows app is built on Microsoft Power Platform as a model-driven app. It's intended frontline workers using Microsoft Surface laptops, Surface duos, and other Windows devices running Windows 10 or Windows 11.
-
-> [!div class="mx-imgBorder"]
-> ![Field Service native app on a Windows device.](./media/mobile-2020-windows-agenda-view.jpg)
+The Field Service (Dynamics 365) Windows app is built on Microsoft Power Platform as a model-driven app. It's intended frontline workers using Windows devices running Windows 10 or Windows 11.
 
 The Field Service (Dynamics 365) Windows app supports most common features as iOS & Android versions, including [offline mode](mobile-power-app-system-offline.md), for a consistent cross-platform experience.
 
@@ -29,12 +26,19 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNWjN]
 
+> [!NOTE]
+> The following capabilities *aren't* available at this time. These capabilities *are* available in the [iOS and Android apps](mobile-power-app-use.md).
+>
+> - Quick notes photos and videos
+> - Access to GCC High or China cloud environment
+> - Search with barcode via global search
+
 ## Prerequisites
 
 Device requirements:
 
 - Windows 10 or 11
-- A device with minimum 3-GB RAM and 64-GB storage.
+- A device with minimum 3 GB RAM and 64 GB storage.
 
 For more system requirements, see: [System requirements for the Field Service (Dynamics 365) mobile app](mobile-power-app-system-requirements.md)
 
@@ -48,9 +52,6 @@ The app is called **Field Service (Dynamics 365)**.
 
 Open the app and sign in with your username and password. The user account needs the *Field Service - Resource* security role.
 
-> [!div class="mx-imgBorder"]
-> ![Launch screen for the Field Service Windows app.](./media/mobile-2020-windows-login-screen.jpg)
-
 > [!NOTE]
 > To access non-production environments, enable non-production apps from settings.
 
@@ -61,23 +62,14 @@ You can access your bookings from the **Home** screen or **Bookings** screen. On
 > [!div class="mx-imgBorder"]
 > ![Bookings agenda view in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)
 
-Selecting a booking will open the record, where you can then change status, complete service tasks (including inspections), and attach notes to the timeline.
-
-> [!div class="mx-imgBorder"]
-> ![An open booking record in the Field Service Windows app.](./media/mobile-2020-windows-booking-form-with-status-dropdown.jpg)
+Select a booking to open it. You can change the status, complete service tasks, inspections, and attach notes to the timeline.
 
 ## Capture pictures
 
-When adding a note to the timeline, you can also attach a picture by selecting the camera icon, which opens the device's camera app.
+When adding a note to the timeline, you can also attach a picture by selecting the camera icon, which opens the device camera app.
 
 > [!div class="mx-imgBorder"]
 > ![The timeline tab on a booking in the Field Service Windows app.](./media/mobile-2020-windows-timeline-control-to-add-images-and-videos.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![The camera popup after selecting the camera icon on the timeline in Field Service Windows app.](./media/mobile-2020-windows-launch-device-camera-to-capture-image.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![The booking timeline, listing a capture taken from the device's camera.](./media/mobile-2020-windows-note-added-to-timeline.jpg)
 
 ## Scan a barcode
 
@@ -93,16 +85,14 @@ When enabled for [offline mode](mobile-power-app-system-offline.md), the app wil
 > [!div class="mx-imgBorder"]
 > ![Offline status panel in the Field Service Windows app.](./media/mobile-2020-windows-offline.jpg)
 
->[!Note]
-> At this time, offline is supported on devices running Windows OS 20H2 (19042.1348) and greater.
+>[!NOTE]
+> Offline data works on devices running Windows OS 20H2 (19042.1348) and greater.
 
-## Configuration considerations
+## Download logs
 
-The following capabilities *aren't* available at this time. These capabilities *are* available in the iOS and Android apps.
+Open the following directory on your you device to find the logs related to a Windows session for Power Apps:
 
-- Quick notes photos and videos
-- Access to GCC High or China cloud environment
-- Search with barcode via global search
+`%LocalAppData%\Packages\MicrosoftCorporationII.FieldServiceDynamics365_8wekyb3d8bbwe\LocalState`
 
 ## Install from app center
 
