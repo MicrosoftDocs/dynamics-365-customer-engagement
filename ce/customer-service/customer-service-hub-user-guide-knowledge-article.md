@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 07/07/2022
+ms.date: 09/27/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -329,7 +329,9 @@ For your attached files, use these commands to do the following:
 - **Sort**: Allows you to sort records by a specific filter, such as file name or size.
 
 > [!NOTE]
-> In Dynamics 365 Customer Engagement (on-premise), upload and download of knowledge article attachments is supported for files up to 4MB only.
+> Uploads and downloads of knowledge article attachments are supported for files up to 4MB only, for:
+> - Dynamics 365 Customer Engagement (on-premise)
+> - Customer Managed Key-enabled organizations
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 

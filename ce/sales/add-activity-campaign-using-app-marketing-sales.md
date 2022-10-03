@@ -1,7 +1,7 @@
 ---
 title: "Add activity to campaign in in-app marketing | MicrosoftDocs"
 description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 04/04/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +20,8 @@ searchScope:
 ---
 # Add activity to campaign using in-app marketing 
 
-Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. 
+Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
+
 
 ## License and role requirements
 | Requirement type | You must have |  
@@ -77,9 +78,11 @@ When you add and distribute a campaign activity, an activity is created for each
 
     a.  **Subject**. Type the objective of the campaign activity.
     
-    b.  **Used in Campaign.** When you create the campaign activity from a campaign, the campaign is automatically added here. 
+    b.  **Used in Campaign.** When you create the campaign activity from a campaign, the campaign is automatically added here.  
 
-    c.  **Channel.** Select the channel through which the communication for this activity must be sent. For example, the channel might be phone, letter, or email. 
+    c.  **Channel.** Select the channel through which the communication for this activity must be sent. For example, the channel might be phone, letter, or email.  
+      > [!NOTE]
+      > Supported channels are email, appointment, phone call, fax, and letter. Custom activities or other out-of-the-box activities are not supported.  
     
     d.  Scheduled start and end date. Enter the expected date and time that the activity is scheduled to start and end.   
 
@@ -87,7 +90,7 @@ When you add and distribute a campaign activity, an activity is created for each
 
 5. (Optional) Select the **Audiences** tab to view the information about the records (account, contact, and lead) for whom the activity has been created based on the channel type of the campaign activity. These records are the ones present in the marketing list(s) associated with the campaign activity. 
 
-    >[!NOTE]
+    >[!NOTE]  
     >To view the **Audiences** tab, select the **Campaign Activity** form.
     
     | Option type | Description |
