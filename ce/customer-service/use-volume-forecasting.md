@@ -44,7 +44,7 @@ You can use the Forecast report for agent, case, and conversation volumes in the
 
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
-For details of how the forecast models work for this feature, see [How the case and conversation volume forecasting works](configure-volume-forecasting.md#how-the-case-and-conversation-volume-forecasting-works).
+For details of how the forecast models work for this feature, see [How agent forecasting for conversation works](configure-volume-forecasting.md#how-agent-forecasting-for-conversation-works).
 
 ## Prerequisites
 
