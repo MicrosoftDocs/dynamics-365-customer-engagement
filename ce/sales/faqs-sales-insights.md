@@ -278,7 +278,7 @@ To build a lead score model, a minimum of 40 qualified and 40 disqualified leads
 To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.    
 Verify that the leads and opportunities are created on or after January 01, in the previous year.
 
-### Can I customize the model?​
+### Can I customize the model?
 
 Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
 
@@ -317,7 +317,7 @@ After your Microsoft 365 admin provides consent, you'll start seeing the results
 
 Users in your org who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
-### ​How are the connections weighted?
+### How are the connections weighted?
 
 The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead.  
 
@@ -345,7 +345,7 @@ If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with
 
 ### How does a Microsoft 365 administrator exclude users?
 
-The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
+While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
 
 ## Conversation intelligence
 
