@@ -13,9 +13,7 @@ manager: shujoshi
 
 Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send quick replies](oc-conversation-control.md#send-quick-replies).  
 
-**To create quick replies**
-
-1. In the Dynamics 365 Customer Service admin center site map, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**.
+1. In the Customer Service admin center site map, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**.
 
 1. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
 
@@ -55,7 +53,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
 
 Quick replies can be classified and tagged into categories. The categorization capability can also be used to group quick replies into logical chunks that represent key conversational states for agents. These logical chunks help agents select appropriate messages that correspond to customer issues.
 
-1. In the site map of Customer Service admin center, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**. 
+1. In the Customer Service admin center site map, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**. 
 
 1. Select two or more quick replies for which you want to create a tag, and then select **Edit**.
 
@@ -64,7 +62,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
   The **Edit records** dialog appears.
 
-1. In the **Tags** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select the **+** (plus sign) to add it.
+1. In the **Tags** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select **+** (plus sign) to add it.
 
 > [!div class=mx-imgBorder]
 > ![Add a tag.](media/oc-quick-reply-add-tag.png "Add a tag")
