@@ -1,7 +1,7 @@
 ---
 title: "Add activity to campaign in in-app marketing | MicrosoftDocs"
 description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 09/30/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,8 +22,6 @@ searchScope:
 
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
 
-> [!NOTE]
-> You can only add the out-of-the-box activities&mdash;email, appointment, phone call, fax, and letter&mdash;to the campaign.
 
 ## License and role requirements
 | Requirement type | You must have |  
@@ -83,6 +81,8 @@ When you add and distribute a campaign activity, an activity is created for each
     b.  **Used in Campaign.** When you create the campaign activity from a campaign, the campaign is automatically added here. 
 
     c.  **Channel.** Select the channel through which the communication for this activity must be sent. For example, the channel might be phone, letter, or email. 
+        > [!NOTE]
+        > Supported channels are email, appointment, phone call, fax, and letter. Custom activities or other out-of-the-box activities are not supported.  
     
     d.  Scheduled start and end date. Enter the expected date and time that the activity is scheduled to start and end.   
 
