@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 09/27/2022
+ms.date: 10/03/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -69,6 +69,10 @@ You can use a personal email ID. But you won't be able to use the following feat
 
 - Access Power Platform admin center to add more users to the trial, change security roles, or extend the trial period.
 - Customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Power Virtual Agents designer.
+ 
+### Can I call the trial phone number from outside the US?
+
+No, you can't call the trial phone number because it's a toll-free US number that works within the US only. For more information and a workaround, see [Use trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number).
 
 ### Which geographical regions are supported in the trial version of Customer Service and Omnichannel for Customer Service?
 

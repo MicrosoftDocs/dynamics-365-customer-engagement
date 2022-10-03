@@ -67,7 +67,7 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
 ### Next steps
 
-![Next step.](media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
+![Next step.](media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md)  
 ![Home.](media/home-button.png) [Process for setting up unified routing](set-up-routing-process.md)  
 
 ### See also
