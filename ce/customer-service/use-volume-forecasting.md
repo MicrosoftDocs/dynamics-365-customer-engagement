@@ -40,9 +40,9 @@ You can use the Forecast report for agent, case, and conversation volumes in the
 
 - Visualize forecast volumes on a daily, weekly, and monthly interval basis, for a time range up to six months (depending on how many days of cases or conversations were created in the past).
 
-- Slice and dice forecasted volumes by channel and queue.
+- Slice forecasted volumes by channel and queue.
 
-- Automatically detect seasonality from historical traffic with the settings option to import your service calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
 For details of how the forecast models work for this feature, see [How the case and conversation volume forecasting works](configure-volume-forecasting.md#how-the-case-and-conversation-volume-forecasting-works).
 
@@ -52,7 +52,7 @@ Before you can use the Forecast report, ensure that your administrator has given
 
 ## View the Forecast report in Customer Service
 
-You can access the Forecast report in the Omnichannel for Customer Service or Customer Service workspace apps by selecting **Forecast (preview)** from the left hamburger menu, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
+You can access the Forecast report in the Customer Service workspace or Omnichannel for Customer Service apps by selecting **Forecast (preview)** from the site map, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
 
    :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
