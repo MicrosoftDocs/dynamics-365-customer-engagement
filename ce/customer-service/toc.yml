@@ -123,7 +123,9 @@
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/create-agent-experience-profile.md
     - name: Configure the inbox for agents
-      href: configure-inbox.md      
+      href: configure-inbox.md
+    - name: Configure the calendar view for agents
+      href: configure-agent-calendar.md      
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
