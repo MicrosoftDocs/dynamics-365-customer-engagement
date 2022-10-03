@@ -34,7 +34,7 @@ When you're working on a conversation request from a customer, select **Show AI 
 
 :::image type="content" source="media/oc-conv-summary.png" alt-text="Screenshot that shows the New Show AI Summary.":::
 
-Only the agent can see the summary. The summar is includes the following components:
+Only the agent can see the summary. The summary includes the following components:
 
 - **Issue description**: Summarizes the key customer problems to solve in a conversation. The model needs at least three customer messages to generate the issue description.
 

@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with AI-suggested agents in Microsoft Teams | MicrosoftDocs"
 description: "Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service."
-ms.date: 09/11/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,9 +9,6 @@ manager: shujoshi
 ---
 
 # Collaborate with AI-suggested contacts in Microsoft Teams
-
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 If your administrator has enabled AI suggestions for similar cases and configured the ability to connect chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
