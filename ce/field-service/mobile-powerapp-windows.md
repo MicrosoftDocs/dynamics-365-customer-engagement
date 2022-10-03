@@ -90,7 +90,7 @@ When enabled for [offline mode](mobile-power-app-system-offline.md), the app wil
 
 ## Download logs
 
-Open the following directory on your device to find the logs related to a Windows session for Power Apps:
+Open the following directory on your device to find the logs related to a Windows session for Field Service:
 
 `%LocalAppData%\Packages\MicrosoftCorporationII.FieldServiceDynamics365_8wekyb3d8bbwe\LocalState`
 
@@ -99,3 +99,5 @@ Open the following directory on your device to find the logs related to a Window
 If you don't have access to install Field Service Mobile for Windows from the Microsoft Store, you can install it from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release).
 
 An administrator can also download the package from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release) and distribute it to users with Intune.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
