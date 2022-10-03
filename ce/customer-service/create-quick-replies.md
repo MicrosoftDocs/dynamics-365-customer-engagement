@@ -37,7 +37,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
       | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
       | {FirstName{Customer}} | The first name of the customer.
       | {LastName{Customer}}| The last name of the customer.|
-      | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
+      | {FullName{Agent}}| The full name of the agent who's assigned to the conversation.|
       | {FirstName{Agent}}| The first name of the agent.|
       | {LastName{Agent}}| The last name of the agent.|
       | {Nickname{Agent}}| The nickname for the agent.|
@@ -89,7 +89,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
 ## Availability of quick replies and language settings
 
-The quick replies that the agents will see is determined by the following parameters:
+The quick replies that the agents will see are determined by the following parameters:
 
 - The language mapped to the channel instance
 - The language configured in the agent's personal settings
