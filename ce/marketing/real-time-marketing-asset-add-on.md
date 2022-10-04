@@ -27,7 +27,7 @@ In real-time marketing, instead of using the default image library, you can inst
 > The real-time marketing asset library add-on may already be installed for your organization. You can confirm whether the add-on is installed by going to **Settings > Add-ons** and checking if the library add-on is installed. 
 
 > [!NOTE]
-> The asset library add-on is not available for trials or for customers in India, Brazil, and United Arab Emirates.
+> The asset library add-on is not available for trials or for customers in India, Brazil, United Arab Emirates, France and Switzerland.
 
 ## Default capabilities vs the real-time marketing asset library
 
@@ -37,7 +37,7 @@ There are some functional differences between the two libraries. It's up to you 
 | --- | --- | --- |
 | Access​ | Installed automatically​ | Needs installation​ |
 | Availability​ | Outbound marketing, real-time marketing, trials​ | Real-time marketing​ |
-| Geo availability​ | All regions where Dynamics 365 Marketing is supported​ | Not available in United Arab Emirates, India, and Brazil ​ |
+| Geo availability​ | All regions where Dynamics 365 Marketing is supported​ | Not available in United Arab Emirates, India, Brazil. France and Switzerland ​ |
 | File type support​ | Images​ | Images, videos, documents​ |
 | Tags​ | ✔ (Keywords)​ | ✔​ |
 | Alternative text​ | ❌​ | ✔​ |
