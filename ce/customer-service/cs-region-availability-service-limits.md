@@ -40,7 +40,7 @@ The following table lists the region availability of analytics and insights.
 | Effort estimation model for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
 | AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ | ✖ | ✖ | ✔| ✖ | ✖| ✖ | ✖ |
-| Forecast report for cases and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
+| Forecast report for agents, cases, and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | Knowledge Base keywords suggestion| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ |
 | Unified routing analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
 
