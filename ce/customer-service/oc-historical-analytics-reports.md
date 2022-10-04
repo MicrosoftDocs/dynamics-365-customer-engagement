@@ -39,14 +39,14 @@ You can enable Omnichannel historical analytics reports in the Customer Service 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Toggle the **Enable Omnichannel historical analytics report** to **On**.       
+     The **Omnichannel historical analytics** page appears. Toggle the **Enable Omnichannel historical analytics report** to **On**.       
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Omnichannel historical analytics** section, select **Manage**.
 
-      The **Omnichannel historical analytics** page is displayed. Toggle the **Status** to **Enabled**.    
+      The **Omnichannel historical analytics** page appears. Toggle the **Status** to **Enabled**.    
 
 2. Select **Save** or **Save & Close**.
 
@@ -67,42 +67,42 @@ You can enable historical analytics for unified routing in the Customer Service 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for unified routing** check box.      
+     The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for unified routing** checkbox.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
 
-      The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
+      The **Historical analytics for unified routing** page appears. Toggle the **Status** to **Enabled**.    
 
 2. Select **Save** or **Save & Close**.
 
-The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
+The unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for bots in Omnichannel for Customer Service
 
-You can enable the historical analytics for bots in the Customer Service admin center, to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics. 
+You can enable the historical analytics for bots in the Customer Service admin center to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics. 
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards, will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
+- If you select this option, the Omnichannel summary and bot dashboards will be available as a tab in the Omnichannel historical analytics report. The bot dashboard shows metrics specific to the Power Virtual Agents bot.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="PVA bot dashboard.":::
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Power Virtual Agents bot dashboard.":::
   
-- If no Power Virtual Agents bots are integrated withe application or you don't select this option, the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
+- If no Power Virtual Agents bots are integrated with the application or you don't select this option, the bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
 
  :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
 **Enable historical analytics for bots in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for bot** checkbox.
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for bot** checkbox.
 3. Select **Save** or **Save & Close**.
 
-The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
+The unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
@@ -119,14 +119,14 @@ You can enable historical analytics for voice in the Customer Service admin cent
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voice** checkbox.      
+     The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
 
-      The **Historical analytics for voice** page is displayed. Toggle the **Status** to **Enabled**.    
+      The **Historical analytics for voice** page appears. Toggle the **Status** to **Enabled**.    
 
 2. Select **Save** or **Save & Close**.
 
@@ -140,15 +140,15 @@ The service managers must have either the Omnichannel Administrator, Omnichannel
 
 Perform the following steps to enable users with different privileges to access reports beyond the default ones.
 
-1. In Dynamics 365, go to **Settings** and select **Advanced settings**.
+1. In Dynamics 365, go to **Settings**, and select **Advanced settings**.
 
 1. Select **Security** and then **Security roles**.
 
-1. Select the security role that you want to enable access for. For example, agent manager.
+1. Select the security role that you want to enable access for. (For example, agent manager.)
 
 1. Select the **Custom Entities** tab.
 
-1. Grant Read privileges to the following entities:
+1. Grant read privileges to the following entities:
    - **Omnichannel historical analytics**
    - **Insights**
 
