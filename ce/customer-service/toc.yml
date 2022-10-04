@@ -123,9 +123,7 @@
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/create-agent-experience-profile.md
     - name: Configure the inbox for agents
-      href: configure-inbox.md
-    - name: Configure the calendar view for agents
-      href: configure-agent-calendar.md      
+      href: configure-inbox.md     
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
@@ -622,7 +620,7 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Configure inbound and outbound profiles
+      - name: Configure outbound and inbound profiles
         href: configure-outbound-inbound-profiles.md  
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md  

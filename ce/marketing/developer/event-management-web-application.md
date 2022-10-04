@@ -1,8 +1,7 @@
 ---
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
-ms.date: 12/08/2021
-
+ms.date: 10/03/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
@@ -97,6 +96,7 @@ Select the version you would like to download from the table below.
 | Sample Event Website | 1.14.0 (June release) | Upgrade to Angular 7, improve UI & UX of checkout page, update and improve translations, improve DeployToD365Instance.ps1 script, improve custom registration field validation, other bug fixes | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190601-EventWebsite.zip) |
 | Sample Event Website | 1.13.0 (April release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
 | Sample Event Website | 1.12.2 (March release) | UI & UX improvements, bug fixes | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
+|Sample Event Website| 1.46.0 (September release)|- Fix accessibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/220921-EventWebsite.zip)
 
 ## Environment Configuration parameters
 
