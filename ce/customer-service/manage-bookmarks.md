@@ -1,7 +1,7 @@
 ---
 title: Manage bookmarks for reports
 description: Create bookmarks and navigate a personalized view of your reports.
-ms.date: 10/03/2022
+ms.date: 10/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
