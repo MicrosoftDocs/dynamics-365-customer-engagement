@@ -352,43 +352,6 @@
         href: customize-dev/sitemap-schema.md
     - name: Customize commands and the ribbon
       href: customize-dev/customize-commands-ribbon.md
-      items:
-      - name: Ribbons available in Dynamics 365
-        href: customize-dev/ribbons-available-microsoft-dynamics-365.md
-      - name: Command bar or ribbon presentation
-        href: customize-dev/command-bar-ribbon-presentation.md
-      - name: Export ribbon definitions
-        href: customize-dev/export-ribbon-definitions.md
-      - name: Export, prepare to edit, and import the ribbon
-        href: customize-dev/export-prepare-edit-import-ribbon.md
-      - name: Use localized labels with ribbons
-        href: customize-dev/use-localized-labels-ribbons.md
-      - name: Define ribbon commands
-        href: customize-dev/define-ribbon-commands.md
-      - name: Define ribbon enable rules
-        href: customize-dev/define-ribbon-enable-rules.md
-      - name: Define ribbon display rules
-        href: customize-dev/define-ribbon-display-rules.md
-      - name: Define ribbon actions
-        href: customize-dev/define-ribbon-actions.md
-      - name: Pass Dynamics 365 data from a page as a parameter to Ribbon Actions
-        href: customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md
-      - name: Define custom actions to modify the ribbon
-        href: customize-dev/define-custom-actions-modify-ribbon.md
-      - name: Define scaling for ribbon elements
-        href: customize-dev/define-scaling-ribbon-elements.md
-      - name: Define ribbon tab display rules
-        href: customize-dev/define-ribbon-tab-display-rules.md
-      - name: Pass parameters to a URL by using the ribbon
-        href: customize-dev/pass-parameters-url-by-using-ribbon.md
-      - name: 'Sample: Export ribbon definitions'
-        href: customize-dev/sample-export-ribbon-definitions.md
-      - name: Ribbon core schema
-        href: customize-dev/ribbon-core-schema.md
-      - name: Ribbon types schema
-        href: customize-dev/ribbon-types-schema.md
-      - name: Ribbon WSS schema
-        href: customize-dev/ribbon-wss-schema.md
     - name: Service calendar appearance configuration
       href: customize-dev/service-calendar-appearance-configuration.md
       items:
