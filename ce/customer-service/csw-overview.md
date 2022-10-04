@@ -104,22 +104,6 @@ While you're working on a case, the productivity pane on the right side of the C
 
 Learn more about using the [productivity pane](csw-productivity-pane.md). 
 
-## View the agent calendar (preview)
-
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any scheduled time off. The calendar view is read-only and includes daily, weekly, and monthly view options.
-
-1. In Customer Service workspace, open the **Customer Service Agent Dashboard** page.
-
-1. You can navigate to the agent calendar as follows:
-    - In the default view, on the site map, select the plus sign (+), and then in the dropdown menu, select **My schedule**.
-    - If the enhanced multisession view is enabled, select the site map, and then select **My schedule**.
-
-   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
-
-   The schedule page opens with a read-only calendar view of the working hours, non-working hours, and anytime off you've scheduled. Use the command bar at the top to change the view to daily, weekly, or monthly.
-   
-   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
-
 ## Work with cases, activities, knowledge articles, and email templates
 
 On the Customer Service Agent Dashboard, you can view cases and activities that are assigned to you. You can also view cases available to work on. You can perform various actions such as create, delete, and filter cases and activities from the workspace.
