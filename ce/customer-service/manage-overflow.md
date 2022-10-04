@@ -34,7 +34,7 @@ The overflow evaluation takes place before a work item is routed to a queue and 
 
 - If the matched queue is overflowing due to multiple conditions:
 
-  The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
+ The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition as **Out of operation hours**, and its action as **Assign to queue anyway**. You can't edit the condition but can set another action for it.
 
@@ -57,7 +57,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 ## Configure overflow conditions
 
-1. In Dynamics 365, go to the Customer Service admin center app, and perform the following steps:
+Go to the Customer Service admin center app and perform the following steps:
 
 1. In the site map, select **Queues** in **Customer support**.
 
@@ -90,7 +90,7 @@ For overflow to work correctly, the following prerequisites must be met:
         - **Transfer to a different queue**
         - **Transfer to an external number**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information about wait time, see [Show customers their average wait time in a queue](average-wait-time.md).
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information on how wait time is calculated, see [Show customers their average wait time in a queue](average-wait-time.md).
 
         - **End call**
         - **Transfer to a different queue**
@@ -104,7 +104,7 @@ For overflow to work correctly, the following prerequisites must be met:
 
 In certain cases, you might not want an overflow action to be run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
 
-1. In the Customer Service admin center, go to the required workstream, and select the route-to-queue rule in which the queue is configured.
+1. In the Customer Service admin center, go to the required workstream and select the route-to-queue rule in which the queue is configured.
 
 1. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**.
 
