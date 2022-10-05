@@ -57,8 +57,8 @@ Use the following input and output parameters for the Search Resource Availabili
 | PageSize |Integer | No | Numbers of item returned in a page. It is 20 by default. |
 | PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
-| MustChooseFrom |List&#60;Guid&#62; | No | Evaluate and select results from resources in this list. |
-| RequiredResources |List&#60;Guid&#62; | No | Evaluate all resources, filter the results based on this list. In general, use MustChooseFrom instead for improved performance. |
+| MustChooseFromResources |List&#60;Guid&#62; | No | Evaluate and select results from resources in this list. |
+| RequiredResources |List&#60;Guid&#62; | No | Evaluate all resources, filter the results based on this list. In general, use MustChooseFromResources instead for improved performance. |
 | IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true list of time slots returned will be empty. It is false by default. |
 
 ### Output
