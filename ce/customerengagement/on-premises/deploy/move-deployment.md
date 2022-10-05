@@ -10,7 +10,7 @@ ms.custom: template-how-to
 ---
 # Move the Dynamics 365 Customer Engagement on-premises deployment
 
-There might be occasions when you need to move the Dynamics 365 Customer Engagement deployment, such as when replacing an existing server computer. This article describes how to move server components in a Dynamics 365 Customer Engagement on-premises deployment.
+There might be occasions when you need to move the Microsoft Dynamics 365 Customer Engagement deployment, such as when replacing an existing server computer. This article describes how to move server components in a Dynamics 365 Customer Engagement on-premises deployment.
 
 ## Move in the same domain
 
@@ -18,6 +18,7 @@ Follow this procedure to move the Microsoft Dynamics 365 Customer Engagement dat
 
 1. Back up the OrganizationName_MSCRM database(s). More information: [Back up the Dynamics 365 Customer Engagement (on-premises) system](back-up-the-microsoft-dynamics-365-system.md)
 1. Install Microsoft Dynamics 365 Server on the new Windows Server or Windows Server farm that will run one or more Dynamics 365 Server roles. More information: [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md?view=op-9-0)
+1. Install additional Dynamics 365 Server roles on Windows Server computers in the domain until all roles are installed. If you installed all roles (Full Server) in the previous step you can skip this step.
 1. On a computer running SQL Server Reporting Services that's in the same domain as the Windows Server computers from the previous step, install the Microsoft Dynamics 365 Reporting Extensions. More information: [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
 
    > [!IMPORTANT]
@@ -27,10 +28,11 @@ Follow this procedure to move the Microsoft Dynamics 365 Customer Engagement dat
 
 ## Redeploy to another domain
 
-Follow this procedure to redeploy the Microsoft Dynamics 365 Customer Engagement deployment that includes the Microsoft Dynamics 365 CE Server to another domain.
+Follow this procedure to redeploy the Microsoft Dynamics 365 Customer Engagement deployment that includes Dynamics 365 Server roles to another domain.
 
 1. Back up the OrganizationName_MSCRM database(s). More information: [Back up the Dynamics 365 Customer Engagement (on-premises) system](back-up-the-microsoft-dynamics-365-system.md)
 1. Install Microsoft Dynamics 365 Server on the new Windows Server or Windows Server farm *in the new domain* that will run one or more server roles.
+1. Install additional Dynamics 365 Server roles on Windows Server computers in the new domain until all roles are installed. If you installed all roles (Full Server) in the previous step you can skip this step.
 1. On a computer running SQL Server Reporting Services that's in the same domain as the Windows Server computers from the previous step, install the Microsoft Dynamics 365 Reporting Extensions. More information: [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
 
    > [!IMPORTANT]
