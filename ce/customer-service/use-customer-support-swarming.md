@@ -39,7 +39,7 @@ Using the customer support swarming feature, you can effortlessly find the right
 To be able to create a swarm when working on a customer issue, you must have the following prerequisites in place.
 
 - Swarming privileges 
-- Embedded Microsoft Teams chat enabled for the agent desktop
+- Embedded Microsoft Teams chat enabled for the agent desktop or on the Teams web app
 
 ## Start a swarm
 
@@ -109,9 +109,9 @@ When a swarm completes, you can close it and optionally document the swarm resol
 
 When a swarm is created or closed, an auto post is created on the associated case timeline.
 
-### Swarm sub grid
+### Associated swarm
 
-You can see the swarms that are associated with a case from the record. To view the swarm sub grid, in Customer Service workspace, go to **Details** > **See swarming grid**.
+You can see the swarms that are associated with a case from the record. To view the associated swarms, in Customer Service workspace, go to the **Details** tab, and then view the **Associated swarms** card.
 
 ### Swarm views
 
