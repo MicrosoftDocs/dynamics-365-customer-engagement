@@ -68,24 +68,43 @@ To configure customer support swarming, you must have administrator privileges a
 
 ### Turn on Embedded chat using Teams
 
-1. In Customer Service Hub, go to **Service Management**.
+You can set up Embedded chat using Teams in the Customer Service admin center or Customer Service Hub app. The settings you configure for embedded chat using Teams in the Customer Service Hub app are carried over to the Customer Service admin center app, and vice versa.
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
+1. Next to **Embedded chat using Teams (preview)**, select **Manage**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+1. Go to **Service Management**.
 1. In **Collaboration** in the site map, select **Embedded chat using Teams**.
-1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365**.
+
+---
+
+3. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365**.
    
 
 ### Activate case details on swarms
 
 If you haven't already activated the case details for the swarm form, perform the following steps.
-      
-1. In Customer Service Hub, go to **Service Management**.
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
+1. Next to **Customer support swarming (preview)**, select **Manage**. The **Customer support swarming (preview)** page is displayed.
+1. On the **Case details** card, select **Activate case form for swarming**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+1. Go to **Service Management**.
 1. In **Collaboration** in the site map, select **Swarming using Teams**.
 1. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case table form page is displayed.
-1. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. The form becomes active.
+
+---
+
+4. Select the **Case form for swarming** form, select the ellipsis, and then select **Activate form**. The form becomes active.
 
    > [!div class="mx-imgBorder"] 
    > ![Power Apps Case table forms page.](media/teams-swarm-power-apps-table-case.png "Power Apps Case table form page")
 
-1. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+5. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
 
    > [!div class="mx-imgBorder"] 
    > ![Publish the case form for swarm.](media/teams-swarm-tables-form-publish.png "Publish the case form for swarm")
@@ -95,7 +114,7 @@ If you haven't already activated the case details for the swarm form, perform th
 
 To ensure that swarm experts receive invitations directly in Teams, turn on the Microsoft Power Automate flow for swarm expert notifications. Perform the following steps.
 
-1. On the customer support swarming configuration page, go to the **Expert notifications** card.
+1. On the **Customer support swarming (preview)** configuration page, go to the **Expert notifications** card.
 
 1. Select the **Edit in Power Automate** link.
 
@@ -141,7 +160,7 @@ If your organization is already using skills in resource scheduling or Omnichann
 
 If you haven't already configured skills, then complete the following steps.
 
-1. On the customer support swarming configuration page, go to the **Skills** contact card.
+1. On the **Customer support swarming (preview)** configuration page, go to the **Skills** contact card.
 1. Select the **Add a new skill** link.
 
    > [!div class="mx-imgBorder"] 
@@ -163,6 +182,27 @@ To use the new skill in customer support swarming, you must attach it to a user.
 1. On the **Add Users** page, select the user type from the dropdown list.
 1. Select the name of the user you want to add, and then select **Add selected users**.
 1. Select **Save**.
+
+### Bulk import skills (optional)
+
+If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them using Excel using the following steps.
+
+1. In the Customer Service admin center site map, select **User management**. The **User management** page is displayed.
+1. Next to **Skills**, select **Manage**.
+1. On the skills page, select the list of skills, and then select **Export to Excel**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Export to Excel option for skills list.](media/teams-swarm-excel.png "Skills list Export to Excel option")
+
+1. Open the downloaded Excel spreadsheet, and add rows that include the information for the different skills that match your business needs.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Edit Excel spreadsheet.](media/teams-swarm-excel-spreadsheet.png "Edit Excel spreadsheet")
+
+1. Save the spreadsheet, and then import it using the **Import from Excel** wizard.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Import Excel spreadsheet.](media/teams-swarm-import-excel.png "Import the Excel spreadsheet using the wizard")
 
 ## Add experts
 
