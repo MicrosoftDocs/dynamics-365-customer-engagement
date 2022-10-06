@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 04/22/2022
+ms.date: 10/05/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -43,7 +43,7 @@ To be able to create a swarm when working on a customer issue, you must have the
 
 ## Start a swarm
 
-1. On the Customer Service command bar, select **Create swarm**.
+1. On the Customer Service command bar, select **Create swarm**. (You might need to select the ellipsis to see this option.)
 
    > [!div class="mx-imgBorder"] 
    > ![Create swarm option on the command bar.](media/teams-create-swarm.png "Create swarm option on the command bar")
@@ -58,7 +58,7 @@ To be able to create a swarm when working on a customer issue, you must have the
 
 1.  On the **Swarm** form, type information into the following fields:
     - **Swarm request**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
-    - **Steps already tried** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
+    - **Steps already tried** (optional, 2,000-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
     - **What skills do you need?** (optional): As part of the swarm request, the system takes the following actions: 
        - Attempts to match skills based on your swarm question
        - Suggests skills based on case title or other case-related conditions your administrator has defined
@@ -118,8 +118,9 @@ You can see the swarms that are associated with a case from the record. To view 
 To view a list of swarms, go to **Swarms** on the site map. The following views are available:
 
 - All swarms
-- Closed swarms
+- Cancelled swarms
 - My active swarms
+- Resolved swarms
 - Swarms being followed
 - Swarms I follow
 
