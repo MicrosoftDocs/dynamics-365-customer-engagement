@@ -17,7 +17,7 @@ search.app:
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make. Before you use the schedule board, set up the views and filters to your preference.  
   
 > [!IMPORTANT]
-> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
+> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps. The schedule board isn't supported when using Field Service in Microsoft Teams.  
 >
 > 1. Open the **Resource Scheduling** app.
 > 1. Change to the Settings area and go to **Scheduling** > **Administration**.  

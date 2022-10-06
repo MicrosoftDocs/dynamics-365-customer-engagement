@@ -69,6 +69,7 @@ Additionally, this update includes improvements to real-time journeys and person
 
 - **Real-time journeys**
     - Deliver more personalized experiences by accessing a richer set of trigger data for defining the journey entry/exit criteria, conditions/branches, and waits. When you add any of these elements to the journey, you will now be able to see data attributes not only from the trigger’s core entity/table, but also from entities/tables directly related to those attributes. For example, when creating a journey to nurture new opportunities (using the “Opportunity created” trigger), you can branch the journey based on the “budget” attribute from the Opportunity table. This enables you to create journey variations for opportunities that are more likely to buy.
+    - [Docs](real-time-marketing-tile-reference.md#personalize-triggers-using-conditions)
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of trigger data feature.](media/whats-new-trigger-data.png "Screenshot of trigger data feature")
@@ -139,6 +140,8 @@ The update also includes improvements to real-time journeys, the text message ch
 
 - **Edit, publish, and optimize journeys by making incremental updates, while tracking and analyzing all previous versions together**
     - Improved journey version tracking and editing. Make light edits to live journeys&mdash;such as renaming elements and adjusting goal percentages&mdash;without creating new versions. Because the Marketing app automatically version tracks each update, you can make complex and structural changes to journeys confidently and collaboratively with your team. This makes editing journeys as simple as editing documents; each change is tracked and is available for auditing. Customers who are mid-flight in journeys are not impacted. Mid-flight customers can continue going through the journey version they entered while all new customers experience the journey with the latest updates. Copies are no longer created each time a change is made, leaving you with an uncluttered view of your journey list. Analytics are preserved for each version. This enables you to compare journey flow and goal attainment across journey versions.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/make-incremental-updates-optimize-journeys-while-analyzing-all-past-versions)
+    - [Docs](real-time-marketing-edit-journey.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of editing a live journey.](media/whats-new-live-journey-edit.png "Screenshot of editing a live journey")

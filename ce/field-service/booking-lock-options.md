@@ -1,7 +1,7 @@
 ---
 title: Understand the booking lock option in Resource Scheduling Optimization
 description: Learn about the booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service.
-ms.date: 09/28/2022
+ms.date: 10/06/2022
 ms.reviewer: mhart
 ms.topic: article
 ms.author: chenryan
@@ -39,13 +39,21 @@ There are four options:
 
 ## Example
 
-The resource Norbert has a booking that starts at 2:30 AM. This booking is locked to time. When Resource Scheduling Optimization runs, the system detects a 30-minute idle time for Norbert in the morning. No other requirement duration fits into that slot with the locked booking next to it.
+The resource Bernadette has a booking that starts at 9:15 AM. This booking is locked to time. When Resource Scheduling Optimization runs, the system detects a 15-minute idle time for Bernadette in the morning. No other requirement duration fits into that slot with the locked booking next to it.
 
 :::image type="content" source="media/scheduling-lock-options-sample-timeline.png" alt-text="Screenshot of a locked booking in a schedule board.":::
 
-To respect the defined lock option, Resource Scheduling Optimization keeps the locked booking in the schedule. However, as part of the schedule optimization, the booking gets assigned to Matthew. This change frees up time for Norbert to complete other jobs.
+To respect the defined lock option, Resource Scheduling Optimization keeps the locked booking in the schedule. However, as part of the schedule optimization, the booking gets assigned to Ashley. This change frees up time for Bernadette to complete other jobs.
 
 :::image type="content" source="media/scheduling-lock-options-sample-timeline-optimized.png" alt-text="Screenshot of a locked booking in an optimized schedule board.":::
+
+## Excessive use of lock constraints
+
+Excessive use of lock constraints may result in poor optimization of the final schedule. Booking lock options should be used wisely to maximize Resource Scheduling Optimization results and minimize interference with other Resource Scheduling Optimization objectives.
+
+For example, there are two requirements, A (one hour) and B (eight hours). We have one resource (Jeff) that works eight hours per day. When Resource Scheduling Optimization is run with the objective to maximize total working hours, requirement B (8 hours) should be assigned to the resource Jeff.
+
+If you book requirement A (1 hour) to the resource Jeff and lock that booking to the resource, Resource Scheduling Optimization makes sure that requirement A remains on the schedule. On the other hand, it won't schedule the requirement B (eight hours) on the same day and leaves Jeff with only one hour of scheduled work.
 
 ## Error handling and troubleshooting
 
@@ -53,19 +61,27 @@ Excessive use of lock constraints may result in poor optimization of the final s
 
 If a locked booking can't respect all defined constraints, the optimization request gets canceled with the following error message.
 
-**System failed to optimize some records. Inner error(s): Locked booking with the schedulable item [Booking ID] is infeasible for the resource with [Resource ID], reason: [Violation].**
+**System failed to optimize some records. Inner error(s): Locked booking is infeasible, reason: `Violation`. Tracing data points: `RequirementId`, `RequirementName`, `BookingId`, `BookingName`, `ScheduledTimeWindow`, `FullTimeWindow`, `ArrivalTime`, `Lock Type`**
 
-Try updating the booking settings to mitigate the violation reason before running Resource Scheduling Optimization again:
+The tracing data points help you identify what went wrong. Try updating the booking settings to address the violation reason before running Resource Scheduling Optimization again.
 
-- Booking conflict with break time
-- Booking outside of working hours
-- Booking out of scope
-- Invalid promised time window
-- Invalid travel time
-- Invalid resource skill match
-- Invalid resource role match
-- Invalid resource “must choose from”
-- Invalid resource restricted match
-- Mismatched booking duration and requirement duration
+### Violation types
+
+- The locked booking cannot fulfill the time window filter.
+
+  - **LockBookingTimeWindowFilter**. Potential scenarios:
+    - Locked booking is outside of resource working hours
+    - Invalid promised time window
+    - Invalid travel time
+
+  - **ResourceBreakTimeWindowFilter**. A locked booking conflicts with a [scheduled break time](set-work-hours-resource.md).
+
+- The eligibility check failed with constraint.
+
+  - **MeetsRequiredSkills**. A locked booking has an invalid match of the [resource skill characteristics](set-up-characteristics.md).
+
+  - **MeetsRequiredRoles**. A locked booking has an invalid [resource role match](/training/modules/configure-bookable-resources-urs-dynamics-field-service/).
+
+  - **MeetsResourcePreferences**. A locked booking has an invalid [“must choose from” or “restricted” resource](resource-preferences.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
