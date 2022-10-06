@@ -35,21 +35,11 @@ Let's walk through two scenarios to show how agreements can create work orders a
 
 ## Prerequisites
 
-- Field Service v6.1+
-
 - Work order-related data such as accounts, incident types, products, services, and service tasks configured in your system.
 
-- Consider specifying an agreement prefix and start number (optional). Go to **Field Service** > **Settings**, then the **Agreements** section.
+- Consider specifying an agreement prefix and start number. For more information, go to [Agreement settings](configure-default-settings.md#agreement-settings).
 
-Enter an **Agreement Prefix** and **Agreement Starting Number**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service settings, on the agreements tab.](./media/agreement-field-service-settings.png)
-
-Doing so will dictate the **Agreement Number** when a new agreement is created.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new agreement, with attention on the agreement number.](./media/agreement-custom-prefix.png)
+- The designated owners of agreements, agreement booking setups, and agreement invoice setups need permissions to create invoices, invoice details, work orders, work order incidents, work order products, work order services, work order service tasks, resource requirements, and bookings.
 
 ## Scenario 1: Auto generate work orders for asset maintenance
 
@@ -274,18 +264,7 @@ It isn't possible to manually generate agreement invoices like you can with agre
 
 ## Configuration considerations
 
-In Field Service settings, there are important defaults you can set for agreements that help administrators control how the organization creates agreements. The system can also block updates in rapid succession to protect data integrity under certain circumstances.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service settings on the agreement tab.](./media/agreement-field-service-settings.png)
-
-- **Generate Booking Dates X Months in Advance**: Agreement booking dates help organizations plan for maintenance. However, if an agreement spans a long time period, then you may not want to generate all booking dates at once, but rather X months in advance. The default is 12 months.
-
-- **Generate Agreement Work Order X Days in Advance**: This value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
-
-- **Auto Generate Work Order for Agreement Booking**: This value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
-
-- **Record Generation Time**: This value exists on the agreement and dictates when in the day agreement records such as booking dates and work orders should be generated. This is helpful because some organizations don't want agreements generating many work orders in the middle of a work day while dispatchers are scheduling and managing other jobs.
+In Field Service Settings, there are important defaults you can set for agreements that help administrators control how the system creates agreements. Agreement booking dates help organizations plan for maintenance. For more information, go to [Agreement settings](configure-default-settings.md#agreement-settings).
 
 > [!NOTE]
 > Some updates to agreements or their sub-records (Agreement Booking Setups, Agreement Booking Dates, Agreement Invoice Setups, and Agreement Invoice Dates) can trigger asynchronous background processes. Updates in rapid succession which trigger these processes within the same agreement will cause the system to momentarily block subsequent updates until the processes are complete. It’s the intended behavior of the system to protect the data integrity of each agreement. Please wait until the processes complete and try again or retry the update until it succeeds.
