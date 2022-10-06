@@ -270,6 +270,8 @@
           href: real-time-marketing-tile-reference.md
         - name: Personalize journey variations using multiple journey branches
           href: real-time-marketing-multiple-branches.md
+        - name: Edit a live journey
+          href: real-time-marketing-edit-journey.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
