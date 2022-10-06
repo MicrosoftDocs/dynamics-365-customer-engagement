@@ -1,7 +1,7 @@
 ---
 title: "Resource Scheduling Optimization version history | MicrosoftDocs"
 description: Find a list of important updates for resource scheduling optimization in Dynamics 365 Field Service.
-ms.date: 07/09/2021
+ms.date: 10/06/2022
 ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
@@ -52,15 +52,15 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | *China* |  [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199)|TBD |N/A
 | | *Dedicated Scale Groups* |  [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |TBD  |N/A
 
->[!OTE]
-
+>[!NOTE]
+>
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 3.3.5.199
 
-- Locked constraints are now guaranteed to be in the final schedule, and will no longer overlap with other non-locked bookings. Error messaging has been descriptively enhanced for cases of Resource Scheduling Optimization failure resulting from constraint mismatch. [Read about this update](https://learn.microsoft.com/en-us/dynamics365/field-service/booking-lock-options)
-- Bug fix: ResetRSO fails with timeout exception on UR28
+- Locked constraints are now guaranteed to be in the final schedule, and will no longer overlap with other non-locked bookings. Error messaging has been descriptively enhanced for cases of Resource Scheduling Optimization failure resulting from constraint mismatch. [Read about this update](booking-lock-options.md)
+- Bug fix: Addressed issue where ResetRSO fails with timeout exception on UR28.
 
 
 ## 3.3.3.12
