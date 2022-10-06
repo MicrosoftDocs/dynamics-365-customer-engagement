@@ -59,7 +59,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.3.5.199
 
-- Locked constraints are now guaranteed to be in the final schedule, and will no longer overlap with other non-locked bookings. Error messaging has been descriptively enhanced for cases of Resource Scheduling Optimization failure resulting from constraint mismatch. [Read about this update](booking-lock-options.md)
+- Locked constraints are now guaranteed to be in the final schedule, and will no longer overlap with other non-locked bookings. Error messaging has been descriptively enhanced for cases of Resource Scheduling Optimization failure resulting from constraint mismatch. For more information, go to [Booking lock options](booking-lock-options.md).
 - Bug fix: Addressed issue where ResetRSO fails with timeout exception on UR28.
 
 
