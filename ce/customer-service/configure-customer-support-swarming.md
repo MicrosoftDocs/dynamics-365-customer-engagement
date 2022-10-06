@@ -33,7 +33,7 @@ Swarming features are available in Dynamics 365 Customer Service workspace, Cust
 
 ### License requirements
 
-To configure the customer support swarming feature, you must have a Customer Service System Administrator role.
+To configure the customer support swarming feature, you must have the Customer Service System Administrator role.
 
 If you're an agent or an expert who is joining a swarm, you need either of the following:
  - If you're an agent, you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license. 
@@ -68,43 +68,26 @@ To configure customer support swarming, you must have administrator privileges a
 
 ### Turn on Embedded chat using Teams
 
-You can set up Embedded chat using Teams in the Customer Service admin center or Customer Service Hub app. The settings you configure for embedded chat using Teams in the Customer Service Hub app are carried over to the Customer Service admin center app, and vice versa.
+You can set up Embedded chat using Teams in the Customer Service admin center. The settings you configure for embedded chat using Teams in the Customer Service admin center app are carried over to the Customer Service Hub app.
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
 1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
 1. Next to **Embedded chat using Teams (preview)**, select **Manage**.
-
-### [Customer Service Hub](#tab/customerservicehub)
-1. Go to **Service Management**.
-1. In **Collaboration** in the site map, select **Embedded chat using Teams**.
-
----
-
-3. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365**.
+1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365**.
    
 
 ### Activate case details on swarms
 
 If you haven't already activated the case details for the swarm form, perform the following steps.
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
 1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
 1. Next to **Customer support swarming (preview)**, select **Manage**. The **Customer support swarming (preview)** page is displayed.
 1. On the **Case details** card, select **Activate case form for swarming**.
-
-### [Customer Service Hub](#tab/customerservicehub)
-1. Go to **Service Management**.
-1. In **Collaboration** in the site map, select **Swarming using Teams**.
-1. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case table form page is displayed.
-
----
-
-4. Select the **Case form for swarming** form, select the ellipsis, and then select **Activate form**. The form becomes active.
+1. Select the **Case form for swarming** form, select the ellipsis, and then select **Activate form**. The form becomes active.
 
    > [!div class="mx-imgBorder"] 
    > ![Power Apps Case table forms page.](media/teams-swarm-power-apps-table-case.png "Power Apps Case table form page")
 
-5. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+1. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
 
    > [!div class="mx-imgBorder"] 
    > ![Publish the case form for swarm.](media/teams-swarm-tables-form-publish.png "Publish the case form for swarm")
