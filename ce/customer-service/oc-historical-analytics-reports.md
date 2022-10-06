@@ -15,14 +15,14 @@ You can configure historical analytics to give your service managers a combinati
 
 The following historical analytics reports are available:
 
-[Summary report](omnichannel-summary-dashboard.md)
-[Conversation report](oc-conversation-dashboard.md)
-[Queue report](oc-queue-dashboard.md)
-[Voice report](voice-channel-reports-analytics.md)
-[Agent report](agent-dashboard.md)
-[Bot report](oc-bot-dashboard.md)
-[Conversation Topics report](oc-conversation-topics-dashboard.md)
-[Unified routing](oc-historical-analytics-unified-routing.md)
+[Summary report](omnichannel-summary-dashboard.md)<br>
+[Conversation report](oc-conversation-dashboard.md)<br>
+[Queue report](oc-queue-dashboard.md)<br>
+[Voice report](voice-channel-reports-analytics.md)<br>
+[Agent report](agent-dashboard.md)<br>
+[Bot report](oc-bot-dashboard.md)<br>
+[Conversation Topics report](oc-conversation-topics-dashboard.md)<br>
+[Unified routing](oc-historical-analytics-unified-routing.md)<br>
 
 ## Prerequisites
 
@@ -131,6 +131,16 @@ You can enable historical analytics for voice in the Customer Service admin cent
 2. Select **Save** or **Save & Close**.
 
 The historical analytics for voice report will be available as a tab in the Omnichannel historical analytics report.
+
+## Enable historical analytics for voicemail (preview) in Omnichannel for Customer Service
+
+You can enable historical analytics for voicemail (preview) in the Customer Service admin center app. The metrics are available in the report after 24 hours.
+
+1. In Customer Service admin center, select **Insights** in **Operations**.
+1. For Omnichannel historical analytics, select **Manage**.
+1. Select **Add historical analytics for voicemail (preview)**. 
+
+The historical analytics for voicemail (preview) report will be available as a tab in the Omnichannel historical analytics report.
 
 ### View Omnichannel historical analytics reports
 
