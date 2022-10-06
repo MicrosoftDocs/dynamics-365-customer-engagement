@@ -14,7 +14,7 @@ There might be occasions when you need to move the Microsoft Dynamics 365 Custom
 
 ## Redeploy in the same domain
 
-Follow this procedure to redeploy Dynamics 365 Server and databases to another Windows Server, SQL Server, and SQL Server Reporting Services server in the same domain.
+Follow this procedure to redeploy Dynamics 365 Server and databases to different Windows Server, SQL Server, and SQL Server Reporting Services servers in the same domain.
 
 1. Back up the OrganizationName_MSCRM database(s). More information: [Back up the Dynamics 365 Customer Engagement (on-premises) system](back-up-the-microsoft-dynamics-365-system.md)
 1. Install Microsoft Dynamics 365 Server on the new Windows Server or Windows Server farm that will run one or more Dynamics 365 Server roles. More information: [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md?view=op-9-0)
@@ -28,7 +28,7 @@ Follow this procedure to redeploy Dynamics 365 Server and databases to another W
 
 ## Redeploy to another domain
 
-Follow this procedure to redeploy the Dynamics 365 Server and databases to another Windows Server, SQL Server, and SQL Server Reporting Services server located in another domain.
+Follow this procedure to redeploy the Dynamics 365 Server and databases to different Windows Server, SQL Server, and SQL Server Reporting Services servers located in another domain.
 
 1. Back up the OrganizationName_MSCRM database(s). More information: [Back up the Dynamics 365 Customer Engagement (on-premises) system](back-up-the-microsoft-dynamics-365-system.md)
 1. Install Microsoft Dynamics 365 Server on the new Windows Server or Windows Server farm *in the new domain* that will run one or more server roles.
