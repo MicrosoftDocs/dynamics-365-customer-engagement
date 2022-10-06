@@ -22,6 +22,7 @@ manager: shujoshi
 The Voicemail (preview) dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
 
 **Navigation**
+
 You can view the Voicemail (preview) dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Voicemail dashboard as follows:
   - In the default view, select the plus (+) icon, and then select Omnichannel historical analytics. On the page that appears, select Voicemail (preview).
   - If the enhanced multisession workspace view is enabled, select the site map, and then select Omnichannel historical analytics. On the page that appears, select Voicemail(preview).
