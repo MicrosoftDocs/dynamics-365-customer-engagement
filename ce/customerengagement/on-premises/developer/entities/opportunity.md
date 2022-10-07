@@ -941,7 +941,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Choose a contact to connect this opportunity to, so that the relationship is visible in reports and analytics.|
+|Description|Internal attribute for storing `customerid`. Do not use this attribute directly; use `parentcontactid`.|
 |DisplayName|Contact|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1738,7 +1738,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the account with which the opportunity is associated.|
+|Description|Internal attribute for storing `customerid`. Do not use this attribute directly; use `parentaccountid` instead.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1836,7 +1836,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the contact associated with the opportunity.|
+|Description|Internal attribute for storing `customerid`. Do not use this attribute directly; use `parentcontactid` instead.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
