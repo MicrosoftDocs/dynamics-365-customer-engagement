@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: Learn about Omnichannel for Customer Service, the features that are offered, and how they can be configured in your organization.
-ms.date: 03/14/2022
+ms.date: 04/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,8 @@ ms.custom: intro-internal
 # Introduction to Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat, voice, and SMS.
 

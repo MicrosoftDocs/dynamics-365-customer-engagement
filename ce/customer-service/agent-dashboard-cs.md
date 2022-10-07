@@ -80,6 +80,7 @@ To access the drill down report, select any metric value for the required agent,
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Summary dashboard](summary-dashboard-cs.md)  
 [Topics dashboard](case-topics-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

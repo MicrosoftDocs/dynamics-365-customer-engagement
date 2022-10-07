@@ -6,9 +6,9 @@
 
 | Name            | Type     | Required | Description |
 |-----------------|----------|----------|-------------|
-| successCallback | Function | No       | A function to call when the request for environment details is successful |
-| errorCallback   | Function | No       | A function to call when the request for the environment fails              |
+| successCallback | Function | No       | A function to call when the request for environment details is successful. |
+| errorCallback   | Function | No       | A function to call when the request for the environment fails.            |
 
 ## Return value
 
-Returns a promise object of type String with details of the current Unified Interface app and page.
+Returns a Promise object of type String with details of the current Unified Interface app and page.

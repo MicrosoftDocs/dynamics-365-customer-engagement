@@ -2,11 +2,11 @@
 title: "View overall insights of your sales and sellers"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
-ms.date: 10/26/2021
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
@@ -17,11 +17,11 @@ When you sign in to conversation intelligence as a sales manager, you’ll see t
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Sections of the home page
 

@@ -1,7 +1,7 @@
 ---
 title: "View snapshots of a forecast (Sales Insights) | MicrosoftDocs"
 description: "Use the see forecast grid history page to view snapshots of a forecast in Dynamics 365 Sales Insights."
-ms.date: 10/26/2020
+ms.date: 08/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,12 +12,11 @@ manager: shujoshi
 View a snapshot to see and understand the forecast data at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Open and view snapshots
 
@@ -38,6 +37,9 @@ View a snapshot to see and understand the forecast data at the moment in time wh
     > ![Select See forecast grid history](media/predictive-forecasting-snapshot-select-forecast-grid-history.png "Select See forecast grid history")
 
     The latest snapshot for the forecast is displayed with information about forecast data at that point in time, along with name and date.
+
+    > [!NOTE]
+    > The values displayed in the snapshot are based on the fields configured in your forecast. If these values don't match the values you expected, verify the [fields used for aggregation](choose-layout-and-columns-forecast.md#configure-columns).
 
     The name of the snapshot is in the following format: *forecast name.recurrence name*. In this example, you can see that name of the snapshot is **FY2020 Quarterly Forecast (do not delete).FY2020 Q3**.
 

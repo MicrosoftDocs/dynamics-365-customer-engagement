@@ -1,7 +1,7 @@
 ---
 title: "View and understand data through drill-down entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,12 +18,11 @@ searchScope:
 The drill-down feature lets you break down the seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## How does forecast drill-down helps?
 
@@ -91,7 +90,8 @@ More information: [View and manage underlying opportunities](view-and-manage-und
 ## See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-[Configure and manage drill-down entities](configure-manage-drill-downs.md)
+[Configure and manage drill-down entities](configure-manage-drill-downs.md)   
+[Troubleshoot issues with forecasting](/troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

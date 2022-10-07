@@ -1,4 +1,142 @@
 
+## 3.12.88.3 - 2022 wave 2 early access update 2
+
+(Includes Resource Scheduling controls version 1.2.29.222551).
+
+## 3.12.85.11
+
+(Includes Resource Scheduling controls version 1.2.26.222492).
+
+Scheduling bug fixes to the new schedule board:
+
+- Bookings created from cases were not re-rendered the right priority when SB is refreshed. 
+- Booking tile text visibility on selection for light status color.
+- Schedule Type settings  application.
+- "move to" Dialog on bookings rejects selected resource and blocks move.
+- Two bookings are merged into one booking in Daily view.
+- Details panel not rendering some field values.
+- Estimated Arrival time sets the End time of the booking with incorrect value.
+
+
+## 3.12.84.3
+
+(Includes Resource Scheduling controls version 1.2.25.222292).
+
+Scheduling bug fixes to the new schedule board:
+ - Custom filter control does not work (e.g. Look Up).
+ - Cannot Drag and Drop onsite Work order to Organization Crew Resource with Auto Update Booking Travel Enabled.
+ - The Booking records are not focused on the Map.
+ - Ability to show more results on left panel filter dropdowns.
+ - Appointments are not respected as "busy" when searching for availability for requirements.
+ - Requirements details present on Schedule Assist are showing the fields with no value.
+ - Details pane is not showing the right view.  
+
+
+## 3.12.87.3 - 2022 wave 2 early access update 1
+
+(Includes Resource Scheduling controls version 1.2.28.222201).
+
+## 3.12.83.6
+
+(Includes Resource Scheduling controls version 1.2.24.222144).
+
+Bug fixes for new schedule board:
+-	Booking a resource with flexible dates.
+-	Details panel shows empty values for some columns. 
+-	Custom date-time field value is showing -1 day on requirements panel.
+-	Different behavior of the Schedule Assistance (Create Booking Panel) in the List and Gantt view.
+-	When booking status changed to cancelled, booking should disappear automatically.
+-	Incorrect view of booking with travel.
+-	Work hour for resources doesn't respect time zone change.
+-	Appointment tooltips are not showing anything.
+-	Rebook button not available for long bookings.
+-	Refreshing after reassigning a booking throws an error.
+-	Booking view doesn't display multiline field value.
+
+
+## 3.12.82.14
+
+(Includes Resource Scheduling controls version 1.2.23.221941).
+
+## 3.12.81.3
+
+(Includes Resource Scheduling controls version 1.2.22.221876).
+
+-	Scheduling assistant shows generic error message instead of a message returned from the server.
+-	Improved requirement group scheduling performance for large number of bookable resources.
+-	The Organization Unit field does not display an asterisk on the form although it is set to business required.
+-	In the New Schedule Board, the user is unable to clear a date in the Schedule Assistant Filter window.
+-	Time From/To Promised date time is not populated correctly from the form value.
+-	In the new Schedule Board, the Booking Method does not get updated.
+-	Dragging the booking to next dates on the new schedule board daily view "Extend to" date is shown one day earlier.
+-	On the new schedule board, daily view unable to select multiple days using ctrl key. 
+-	Requirements tab stuck on loading when date formats were not yyyyMMdd.
+-	Requirements details present on Schedule Assist are not showing the field value.
+
+
+## 3.12.80.9
+
+(Includes Resource Scheduling controls version 1.2.20.221614).
+
+## 3.12.79.16
+
+(Includes Resource Scheduling controls version 11.2.20.221614).
+
+- Fix filter label truncation to improve usability.
+- Filter panel fix to stay open when switching schedule board views.
+- Booking tooltip usability improvements to address issues where it was not consistently rendering.
+- Bug fix for resource count when booking from a work order using scheduling assistant.
+- On dragging the booking to next dates in Daily View "Extend to" date is shown one day earlier.
+- Bug fix for pool scheduling showing incorrect results.
+- Performance improvements for requirement group scheduling with a large number of bookable resources.
+- Bug fix for the requirements grid tabs not visible after multiple drag and drops. 
+- Bug fix for client telemetry logs for multiple client events.
+
+
+## 3.12.78.23
+
+(Includes Resource Scheduling controls version 1.2.19.221374).
+
+- `Msdyn_SearchResourceAvailability` API fix applying territories constraint.
+- Updates to new schedule board: 
+    - Schedule assistant update to show error message from server side plugin.
+    - Schedule assistant use of custom filters.
+    - Date picker localization of "Today."
+    - Map view support for certain letters (for example: ŁĄŚĆŻĘŃÓŹ).
+    - Schedule board loading when no default language is provider (for example: `UiLanguageId` missing in user settings). 
+
+## 3.12.77.18
+
+(Includes Resource Scheduling controls version 1.2.18.221304).
+
+- New schedule board updates to address issues with auto refresh, resource requirement data not populating, time calculation, time zone application, schedule assistance filters.
+- `msdyn_SearchResourceAvailability` API update to support territory constraints.
+
+## 3.12.76.1
+
+(Includes Resource Scheduling controls version 1.2.17.221165).
+
+- New schedule board updates to address issues with requirements on map view, drag and drop errors setting duration, and schedule assistance application of booking rules.
+
+## 3.12.75.2
+
+(Includes Resource Scheduling controls version 1.2.16.220914).
+
+- New schedule board fix for preferred resources filter.
+- New schedule board fix where the custom filter doesn't clear the existing value correctly.
+- New schedule board fix to view all of the items in the drop down when filtering for territories. 
+- New schedule board modified the logic to calculate remaining duration and fulfilled duration. 
+
+
+## 3.12.74.1
+
+(Includes Resource Scheduling controls version 1.2.15.220774).
+
+- Fixed bug: Resource utilization expand and collapse on the new schedule board.
+- Fixed bug: `msdyn_SearchResourceAvailability` returned inaccurate time slot type. 
+- Improved daylight saving time to avoid invalid date and time errors. 
+
+
 ## 3.12.73.25
 
 (Includes Resource Scheduling controls version 1.2.14.220634)
@@ -75,7 +213,7 @@
 
 - Enabled **Time Group Detail Start** and **Time Group Detail End** column and sorting on list view when returning results with **Find Availability** functionality. 
 - Fixed bug: Resource available hours are not showing correctly on new schedule board when configured calendar with working hours and a time off. 
-- Fixed bug: Changing status of booking should not update start time and estimated arrival time on new schedule board.
+- Fixed bug: where changing status of booking updated the **Start Time** and **Estimated Arrival Time** incorrectly in some scenarios on new schedule board.
 - Fixed bug: Cannot create or update a resource preference to a crew type resource.
 - Fixed bug: Time zone conversion issue when select time from time picker on **Search Start** and **Search End** fields when using **Find Availability** on new schedule board.
 - Fixed bug: Progress indicator div blocking click events on the booking when define an new booking template. 
@@ -86,7 +224,7 @@
 
 (Includes Resource Scheduling controls version 1.2.8.213282)
 
-- Fixed bug: changing status of booking should not update **Start Time** and **Estimated Arrival Time**.
+- Fixed bug: where changing status of booking updated the **Start Time** and **Estimated Arrival Time** incorrectly in some scenarios.
 - Enabled fulfillment preference support for single requirement when user uses **Find Availability** to schedule requirement.
 
 (Includes Resource Scheduling controls version 1.2.7.213012)

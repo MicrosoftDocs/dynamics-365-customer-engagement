@@ -1,6 +1,6 @@
 ---
 title: "unlinkFromConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
-description: "Includes information about unlinkFromConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
+description: "Includes reference information about unlinkFromConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 02/24/2022
 ms.topic: reference
 author: mh-jaya
@@ -43,11 +43,12 @@ Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a
 
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
+[Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
 [getConversations](getConversations.md)  
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
 [openConversation](openConversation.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

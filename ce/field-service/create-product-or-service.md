@@ -2,11 +2,11 @@
 title: "Create products or services for work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service
 ms.date: 01/24/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -291,12 +291,5 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
-
-  
-### See also  
-
- - [Create a price list](../field-service/create-price-list.md)
- - [Create a warehouse](../field-service/create-warehouse.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

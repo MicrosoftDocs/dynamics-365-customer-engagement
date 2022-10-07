@@ -15,12 +15,11 @@ manager: shujoshi
 Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What can you customize
 
@@ -50,7 +49,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
     - **Vertical (y) axis**  
       Select any numerical field to plot on the vertical axis.
     - **Segment by**  
-        Select how you want distinguish the bubbles by using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline, such as identify, qualify, or propose.
+        Select how you want to distinguish the bubbles by using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline, such as identify, qualify, or propose.
     - **Size**  
         Select a numerical field to indicate the size of the bubble.
     - **Sort legend**  

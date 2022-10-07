@@ -1,15 +1,15 @@
 ---
 title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 02/01/2021
-ms.reviewer: krbjoran
+ms.date: 06/15/2022
+ms.reviewer: mhart
 ms.topic: article
 
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -333,6 +333,7 @@ If an inspection question is required, the technician will not be able to mark *
 - Inactive inspections and work order service tasks are not available in offline mode. 
 - Inspections do not load in Internet Explorer. Microsoft Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
+- If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form. 
 
 ### Field Service inspections or Power Apps inspections
 

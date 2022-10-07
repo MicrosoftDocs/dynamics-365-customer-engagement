@@ -2,14 +2,14 @@
 title: "Service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service
 ms.date: 02/15/2019
-ms.reviewer: krbjoran
-
+ms.reviewer: mhart
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -24,7 +24,7 @@ SLAs for Field Service help you ensure work orders are getting attention and com
 
 Consider the following scenario:
 
-A field service organization would like to offer an [SLA](https://hosting.review/web-hosting-glossary/#8) to their customers where field technicians must arrive at the customer's location within 3 hours from the time a work order is created. The organization would also like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
+A field service organization would like to offer an SLA to their customers where field technicians must arrive at the customer's location within 3 hours from the time a work order is created. The organization would also like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
 For more information on SLAs in a broader Dynamics 365 capacity, visit our [article on the defining SLAs](/dynamics365/customer-engagement/customer-service/define-service-level-agreements). 
 
@@ -57,12 +57,12 @@ In this article, we'll walk through how to associate SLAs to Field Service work 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration.](./media/work-order-sla-field-service-setting-2.png)
+> ![Screenshot of Field Service SLA Configuration. Enable for SLA](./media/work-order-sla-field-service-setting-2.png)
 
 You can create new SLA KPI instances by going to **Settings > Customizations > Customize the System > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration.](./media/work-order-sla-kpi-instance.png)
+> ![Screenshot of Field Service SLA Configuration. SLA KPI name](./media/work-order-sla-kpi-instance.png)
 
 
 ## Step 2. Create a new SLA
@@ -99,7 +99,7 @@ Now we are going to create a new SLA.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related.](./media/work-order-sla-add-actions-6.png)
+> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related. Information screen.](./media/work-order-sla-add-actions-6.png)
 
 The following screenshot shows the Field Service Mobile app that field technicians use to view and record on-site work. When a work order is scheduled to a field technician, a booking record is created. They can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
 > [!div class="mx-imgBorder"]

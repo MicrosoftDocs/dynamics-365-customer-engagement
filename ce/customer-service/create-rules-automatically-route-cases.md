@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 08/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,20 +19,22 @@ ms.custom:
 
 # Route cases using basic routing rulesets
 
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
 > [!NOTE]
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
 
 Use routing rules in Customer Service to route cases to the right agents at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
 
-Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule items to correspond to the queue, user, or team in the target environment.
+Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule item to correspond to the queue, user, or team in the target environment.
 
 ## Add routing rulesets site map for custom apps
 
-While creating custom apps, you might not have routing rulesets available in your site map. You must add the routing rulesets to the site map for your custom app to access. To add routing rulesets to the site map, follow these steps:
+In custom apps, you might not have routing rulesets in your site map. To add routing rulesets to the site map, follow these steps:
 
-1. Sign in to https://"<"org">*.dynamics.com/apps, and go to App Designer.
+1. Sign in to https://*`<org>`*.dynamics.com/apps, and go to App Designer.
 
-2. Select the **More Options** ellipsis (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
+2. Select the **More Options** ellipses (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
 
 3. Select the pencil icon beside **Site Map**. The **Customer Service Hub** page appears.
 
@@ -48,7 +50,7 @@ While creating custom apps, you might not have routing rulesets available in you
 
     The site map is created with the routing ruleset. Go to your custom app to locate routing rulesets in the site map.
 
-To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
+More information: [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
 ## Create a routing ruleset
 
@@ -74,10 +76,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Routing**. The **Routing** page appears.
 

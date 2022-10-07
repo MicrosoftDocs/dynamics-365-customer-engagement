@@ -2,15 +2,14 @@
 title: "Schedule work with resource crews in Universal Resource Scheduling"
 description: "Learn how to use resource crews to simplify the scheduling of people, equipment, or facilities that will perform the same work during a period of time."
 ms.date: 1/09/2019
-
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS

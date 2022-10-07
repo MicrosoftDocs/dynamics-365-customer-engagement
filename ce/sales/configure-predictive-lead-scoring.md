@@ -1,37 +1,33 @@
 ---
 title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
-ms.date: 03/28/2022
+ms.date: 07/29/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 8660ca75-c63c-495d-a1a6-d3a0cd36f7cb
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
-# Configure predictive lead scoring 
+
+# Configure predictive lead scoring
 
 Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates.
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise** <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## What is predictive lead scoring 
+** Enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. For more information on enabling predictive scoring, see [Lead and opportunity scoring](digital-selling-scoring.md).
 
-Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
+## What is predictive lead scoring
 
->[!NOTE]
->Your historical data will be deleted after 30 days from the date of your subscription expiration. 
+Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead. When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
+
+> [!NOTE]
+> If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
 
 Using this score, you can:
 
@@ -45,10 +41,11 @@ The following image shows an example of a lead scoring widget.
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score widget.](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
 
-
->[!IMPORTANT]
->- If you're using predictive lead scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
->- From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
+> [!IMPORTANT]
+> - If you're using predictive lead scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
+> 
+> 
+> - From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
 
 You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
@@ -56,11 +53,10 @@ You can add custom fields to generate an accurate model for predictive lead scor
 
 Verify that you meet the following requirement before adding predictive lead scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified leads in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
+- A minimum of 40 qualified and 40 disqualified leads created and closed in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
-    >[!NOTE]
-    >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
-
+   > [!NOTE]
+   > These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
 - Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 ## Understand the configuration page
@@ -72,13 +68,11 @@ Before we configure the predictive lead scoring, let's understand the configurat
 
 The configuration page is organized into the following sections:
 
-- [Select a model](#select-model)
+- [Select a model](#select-a-model)
 - [Actions you can perform on the model](#actions-you-can-perform-on-the-model)
 - [Version details](#version-details)
 - [Lead score grading](#lead-score-grading)
 - [MultiModel](#multimodel)
-
-<a name="select-model"></a>
 
 ### Select a model
 
@@ -142,113 +136,103 @@ However, if your organization has enough leads in the past 24 months that match 
 
 If you're using custom attributes for lead generation, you can generate the model by configuring the parameters with your custom attributes.
 
-1. Before you configure the model, review the [prerequisites](#prerequisites).
- 
-    > [!NOTE]
-    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
+ 1. Before you configure the model, review the [prerequisites](#prerequisites).
 
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+ 1. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option.](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the site map under **Predictive models**, select **Lead scoring**.
+ 1. On the site map under **Predictive models**, select **Lead scoring**.
 
-    The **Predictive lead scoring** configuration page is displayed.
+     The **Predictive lead scoring** configuration page is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring add model page.](media/si-admin-predictive-lead-scoring-add-model-page.png "Predictive lead scoring add model page")
 
-4. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
+ 1. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
 
-    By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
+     By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-5. In the **Business process flow** list, select a flow that's relevant for the leads for which you're generating the model. The values displayed in the list are the business process flows that are defined for leads in your organization.
+ 1. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for.
+    The list displays all the business process flows that are defined for leads in your organization.  
 
-    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business processes flows to represent the work of different security roles or lines of business.
+    > [!NOTE]
+    > - Custom business process flows that are not enabled for change tracking are disabled for selection in the list. To enable change tracking for such entities, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    > - When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
+ 1. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively. 
 
-    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Define entities for analytics](#define-entities-for-analytics)
+     Leads are marked as:
 
-6. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively. 
-
-    Leads are marked as:
     - **Qualified** when they've met certain criteria that denotes that they're ready to purchase a product or service from a business. 
     - **Disqualified** when the criteria aren't met. 
 
-    The out-of-the-box **Status** state option set contains the qualified and disqualified values as **Qualified** and **Disqualified**, respectively. You can also select your custom option set that's relevant to your business.
 
-7. Select **Filter column** and **Filter values** to define the leads for which the model must score.   
+     The out-of-the-box **Status** state option set contains the qualified and disqualified values as **Qualified** and **Disqualified**, respectively. You can also select your custom option set that's relevant to your business.
 
-    With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will score.
+ 1. Select **Filter column** and **Filter values** to define the leads for which the model must score.   
 
-    >[!NOTE]
-    >To filter based on multiple columns, create a calculated field with the required columns and then select the calculated field in the Filter column field. More information: [Define calculated columns to automate calculations](/powerapps/maker/data-platform/define-calculated-fields)
-
-8. Choose a time period from the **Train with leads from the past** list. The default duration is 2 years.   
+     With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will score.
 
     > [!NOTE]
-    > You must have a minimum of 40 qualified and 40 disqualified leads that were created during the selected period. For example, if you select 6 months, the model considers leads that were created in the past 6 months to verify whether the minimum lead requirement is met. 
+    > To filter based on multiple columns, create a calculated field with the required columns and then select the calculated field in the Filter column field. More information: [Define calculated columns to automate calculations](/powerapps/maker/data-platform/define-calculated-fields)
+ 1. Choose a time period from the **Train with leads from the past** list. The default duration is 2 years.   
 
-    The model considers closed leads from the selected period and uses that to score the open leads from past 2 years.  
+    > [!NOTE]
+    > You must have a minimum of 40 qualified and 40 disqualified leads that were created and closed during the selected period. For example, if you select 6 months, the model considers leads that were created in the past 6 months to verify whether the minimum lead requirement is met.
 
-   If you don't have the minimum closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
+     The model considers closed leads from the selected period and uses that to score the open leads from past 2 years.  
 
-9. Select **Get started**.
+    If you don't have the minimum closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
 
-    The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
+ 1. Select **Get started**.
+
+     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
 
-    >[!NOTE]
-    >If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
+    > [!NOTE]
+    > If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-10. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+    After the model is trained, a popup message is displayed.
+    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
-11. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
-    The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+1. Perform one of the following actions:
 
-    >[!NOTE]
-    >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**. 
+
 
 ## Add a model
 
 In organizations that have different lines of business, you might need different models to score the corresponding leads. To accomplish this, you can add and publish multiple models that are specific to each line of business in your organization. To ensure that these models are accurate for your organization, you can choose custom attributes (fields) to be used to generate the lead score for a model. 
 
 1. Go to the predictive lead scoring configuration summary page.
+1. In the lower-left corner of the page, select **Add model**.
 
-2. In the lower-left corner of the page, select **Add model**.
+   > [!div class="mx-imgBorder"]
+   > ![Select add model.](media/si-admin-predictive-lead-scoring-model-select-add-model.png "Select add model")
 
-    > [!div class="mx-imgBorder"]
-    > ![Select add model.](media/si-admin-predictive-lead-scoring-model-select-add-model.png "Select add model")
+   > [!NOTE]
+   > If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization. More information: [Delete a model](#delete-a-model)
 
-    >[!NOTE]
-    >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization. More information: [Delete a model](#delete-a-model)
+   > [!div class="mx-imgBorder"]
+   > ![Add model page for predictive lead scoring.](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
 
-    > [!div class="mx-imgBorder"]
-    > ![Add model page for predictive lead scoring.](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
+1. Perform steps 4 through 11 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add and train the model. 
 
-3. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
-
-4. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Model training confirmation notification.](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
-
-5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
-
-    The model is applied to the selected set of opportunities in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)
-
-    >[!NOTE]
-    >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
 
 ## Edit and retrain a model
 
 It's time to retrain a model when its prediction accuracy score doesn't meet your organization's standards, or the model simply gets old. Retraining generally increases the prediction accuracy score. The application uses the latest data (leads) from your organization to train the model so that it can provide more accurate scores for your users.
 
->[!NOTE]
->For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
+> [!NOTE]
+> For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
 You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
@@ -261,36 +245,61 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 - When the accuracy of the retrained model is equal to or greater than 95 percent of the accuracy of the active model.
 - When the current model is more than three months old.
 
->[!NOTE]
->A retrained model might not be published if the accuracy of the model isn't maintained to the standards of the application. If this occurs, the existing user-published model will be retained.
+> [!NOTE]
+> A retrained model might not be published if the accuracy of the model isn't maintained to the standards of the application. If this occurs, the existing user-published model will be retained.
 
 ### Manual retraining
 
 #### Edit the model
 
-1. On the predictive lead scoring configuration page, select **Edit model**.
+1. On the predictive lead scoring page, open the model and ensure that **Retrain automatically** is turned off.
+1. Select **Edit model**.
+1. On the **Edit model** page, select attributes—including custom attributes—from the lead entity and its related entities (contact and account) to train the model.
 
-2. On the **Edit model** page, select attributes—including custom attributes—from the lead entity and its related entities (contact and account) to train the model.
+   > [!NOTE]
+   > To use intelligent fields, go to the following section, [Select intelligent fields](#select-intelligent-fields).
 
-    > [!NOTE]
-    > To use intelligent fields, go to the following section, [Select intelligent fields](#select-intelligent-fields).
+   > [!div class="mx-imgBorder"]
+   > ![Edit model page.](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
 
-    > [!div class="mx-imgBorder"]
-    > ![Edit model page.](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
+   > [!NOTE]
+   > The scoring model doesn't support the following types of attributes:
+   > 
+   > - Attributes on custom entities
+   > 
+   > 
+   > - Date and time&ndash;related attributes
+   > 
+   > 
+   > - System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
+1. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.
+   By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
 
-    >[!NOTE]
-    >The scoring model doesn't support the following types of attributes: 
-    >- Attributes on custom entities
-    >- Date and time&ndash;related attributes
-    >- System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
+    :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
 
-3. Select **Retrain model**. 
+   > [!NOTE]
+   > - The **Ignore empty values** option is disabled for the following type of attributes:
+   > - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).
+   > - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).
+   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
+   
+1. Select **Retrain model**.  
+    A popup message is displayed if you've modified the grade ranges. When the model is retrained, the grade ranges may change as well.  
 
-    The model is generated by using the selected custom attributes, and a notification is displayed on the screen.
+    :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
+1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
 
-4. On the configuration summary page, review the model performance and other parameters:
-   - If the retrained model satisfies your organizational requirements, publish the model.
-   - If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model. 
+    After the model is trained, a popup message is displayed.  
+    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
+1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
+
+1. Perform one of the following actions:
+
+    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**. 
+
 
 #### Select intelligent fields
 
@@ -313,7 +322,6 @@ By default, intelligent fields are considered while training a model by using ou
 > [!div class="mx-imgBorder"]
 > ![Edit fields page showing the Model concepts section with a list of intelligent fields that have been selected.](media/si-admin-predictive-lead-scoring-edit-model-intelligent-fields.png "Edit model page with intelligent fields")
 
-
 ## View attribute insights
 
 On the **Attribute Insights** pane, you can view detailed information about an attribute, such as its qualification rate and the most important reasons&mdash;both positive and negative&mdash;for that rate. This information provides insights on the performance of each attribute that influences the prediction score. Based on these insights, you can analyze and understand:
@@ -333,58 +341,54 @@ The following image shows an example of the **Attribute Insights** pane for the 
 
 Typically, the **Attribute Insights** pane is divided into the following sections:
 
- - A summary of the status of the prediction influence, how many times the attribute is populated in open and closed leads, and the reason the attribute isn't automatically selected to create the model.
-
+- A summary of the status of the prediction influence, how many times the attribute is populated in open and closed leads, and the reason the attribute isn't automatically selected to create the model.
 - A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the lead score values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
 
-  `Global qualification rate` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
+    `Global qualification rate` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)} &times; 100   
 
-  Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads. The qualification rate for a value of the attribute is calculated based on the following formula:
+    Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads. The qualification rate for a value of the attribute is calculated based on the following formula:
 
-   `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
+     `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
 
-   For example, if leads with high budget have a 42 percent qualification rate, the formula is:
+     For example, if leads with high budget have a 42 percent qualification rate, the formula is:
 
-   (`Total number of leads with high budget that are qualified)/( Total number of leads with high budget that are closed`) &times; 100 = 42  
+     (`Total number of leads with high budget that are qualified)/( Total number of leads with high budget that are closed`) &times; 100 = 42  
 
-    >[!NOTE]
-    >These calculations are based on the data at the time the model is trained, and might not represent the current snapshot of data. Also, the past two years of data is considered and if the model has filters, the calculations are done after the data is filtered.
-
+   > [!NOTE]
+   > These calculations are based on the data at the time the model is trained, and might not represent the current snapshot of data. Also, the past two years of data is considered and if the model has filters, the calculations are done after the data is filtered.
 - A **Details** section that provides reasons for why the values are trending as they are in the graph at that point in time. If there isn't enough data for attributes from related entities, the application won't display the insights.
-
 - The **About** tab provides more information about the attribute insights.
 
->[!NOTE]
->The insights for the attributes are updated when the model is retrained, either manually or automatically. For models that were created before March 2021, data for attribute insights won't be available. We suggest that you retrain&mdash;or enable the option to automatically retrain&mdash;the model to view the attribute insights.
+> [!NOTE]
+> The insights for the attributes are updated when the model is retrained, either manually or automatically. For models that were created before March 2021, data for attribute insights won't be available. We suggest that you retrain&mdash;or enable the option to automatically retrain&mdash;the model to view the attribute insights.
 
 **To view the Attribute Insights pane**
 
 1. Go to the predictive lead scoring configuration page, and select **Edit model**.
-
-2.  On the **Edit fields** page, select the attribute for which you want to view insights, either from **Primary entity** or **Related entities**. The **Attribute Insights** pane is displayed on the right side of the page. 
+1. On the **Edit fields** page, select the attribute for which you want to view insights, either from **Primary entity** or **Related entities**. The **Attribute Insights** pane is displayed on the right side of the page. 
 
 ## Delete a model
 
 You can delete a model when it's no longer required in your organization. You can only have 10 models&mdash;both published and unpublished&mdash;simultaneously.
 
 1. Go to the predictive lead scoring configuration page.
+1. Select a model from the **Select model** list, and then select **Delete model**. In this example, we've selected the model **LeadScoring_202009181011**.
 
-2. Select a model from the **Select model** list, and then select **Delete model**. In this example, we've selected the model **LeadScoring_202009181011**.
+   > [!NOTE]
+   > You can't delete a model if the **Retrain automatically** option is enabled. Disable the option first.
 
-    >[!NOTE]
-    >You can't delete a model if the **Retrain automatically** option is enabled. Disable the option first.
+   > [!div class="mx-imgBorder"]
+   > ![Delete a model.](media/si-admin-predictive-lead-scoring-delete-model.png "Delete a model")
 
-    > [!div class="mx-imgBorder"]
-    > ![Delete a model.](media/si-admin-predictive-lead-scoring-delete-model.png "Delete a model")
-
-3. In the confirmation message that appears, select **Delete**.
+1. In the confirmation message that appears, select **Delete**.
 
 The model is deleted from your organization.
 
 ## Manage duplicate models
 
-When you create multiple models, it’s important to configure them so that they are not scoring the same leads. In the case of duplicate models, it’s difficult to identify which model scored the lead. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.    
+When you create multiple models, it’s important to configure them so that they are not scoring the same leads. In the case of duplicate models, it’s difficult to identify which model scored the lead. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.  
 To remove the duplicate models, use one of the following methods depending on the action you’re performing:
+
 - [Create model](#create-model)
 - [Published model](#published-model)
 
@@ -394,10 +398,10 @@ When you select **Get started**, a conflict message is displayed stating that th
 
 > [!div class="mx-imgBorder"]
 > ![A conflict message while creating the model.](media/si-admin-predictive-lead-scoring-duplicate-model-create-model-message.png "A conflict message while creating the model")
- 
--	Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique leads. For more information, see step 7 in [First-run setup experience](#first-run-setup-experience).
--Or-
--	Proceed to create a duplicate model, which might cause conflicts in identifying the leads that are being scored by this model.
+
+- Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique leads. For more information, see step 7 in [First-run setup experience](#first-run-setup-experience).
+   -Or-
+- Proceed to create a duplicate model, which might cause conflicts in identifying the leads that are being scored by this model.
 
 ### Published model
 
@@ -405,181 +409,9 @@ When you open a published model, a note displays above the version details secti
 
 > [!div class="mx-imgBorder"]
 > ![A conflict message while publishing the model.](media/si-admin-predictive-lead-scoring-duplicate-model-published-model-message.png "A conflict message while publishing the model")
- 
-1.	Select **Delete model** to delete the current model from the application.
-2.	[Create the model](#add-a-model) with different filter column and filter values to score a lead.
 
-## Define entities for analytics
-
-To display the list of business process flows that are defined for leads in your organization, and to allow for analytics, the business process flows entities must be enabled.
-
-**To define entities for analytics**
-
-1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
-
-2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. Update the following columns:
-
-    1. `ParentEntityLogicalName`: The logical name of the entity. 
-
-    1. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Data Lake Storage and if **False**, the entity won't sync to Data Lake Storage. By default, the value is **False**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Create an entry for Data Lake Storage.](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
-
->[!NOTE]
->Change tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.
-
-**Examples:**
-
-Create, read, update, and delete (CRUD) operations can be performed either through OData/SDK or solution import.
-
-- Sample to create an operation payload through OData:
-
-    ```HTTP
-    POST http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs
-    {
-        isenabledforadls: true,
-        parententitylogicalname: "account"
-    }
-    ```
-
-- Sample to patch an operation payload to update a record through OData:
-
-    ```HTTP
-    PATCH http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs(<copy guid from 'entityanalyticsconfigid' column>)
-    {
-        isenabledforadls: false
-    }   
-    ```    
-    To learn more about how to use OData requests for update and delete, go to [Update and delete entities using the Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api).
-     
-- Sample to manage a solution to enable Account and Contact entities for Data Lake Storage. Create the following three XML files, and zip them into **ADLSConfigDataSampleTest.zip**.
-    - **[Content_Types].xml**
-        ```XML
-        <?xml version="1.0" encoding="UTF-8"?>
-        -<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
-        <Default ContentType="application/octet-stream" Extension="xml"/>
-        </Types>
-        ```
-    - **customizations.xml**
-        ```XML
-        <?xml version="1.0"?>
-        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <Entities/>
-        <Roles/>
-        <Workflows/>
-        <FieldSecurityProfiles/>
-        <Templates/>
-        <EntityMaps/>
-        <EntityRelationships/>
-        <OrganizationSettings/>
-        <optionsets/>
-        <CustomControls/>
-        <EntityDataProviders/>
-        -<EntityAnalyticsConfigs>
-            -<EntityAnalyticsConfig>
-                <parententitylogicalname>account</parententitylogicalname>
-                <isenabledforadls>1</isenabledforadls>
-            </EntityAnalyticsConfig>
-            -<EntityAnalyticsConfig>
-                <parententitylogicalname>contact</parententitylogicalname>
-                <isenabledforadls>1</isenabledforadls>
-            </EntityAnalyticsConfig>
-        </EntityAnalyticsConfigs>
-        -<Languages>
-            <Language>1033</Language>
-        </Languages>
-        </ImportExportXml>
-        ```
-    - **solution.xml**
-        ```XML
-        <?xml version="1.0"?>
-        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generatedBy="OnPremise" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.5507">
-        -<SolutionManifest>
-            <UniqueName>ADLSConfigDataTest</UniqueName>
-            -<LocalizedNames>
-                <LocalizedName languagecode="1033" description="ADLSConfigDataTest"/>
-            </LocalizedNames>
-            <Descriptions/>
-            <Version>1.0</Version>
-            <Managed>1</Managed>
-            -<Publisher>
-                <UniqueName>Cr7e230</UniqueName>
-                -<LocalizedNames>
-                    <LocalizedName languagecode="1033" description="CDS Default Publisher"/>
-                </LocalizedNames>
-                <Descriptions/>
-                <EMailAddress xsi:nil="true"/>
-                <SupportingWebsiteUrl xsi:nil="true"/>
-                <CustomizationPrefix>cr926</CustomizationPrefix>
-                <CustomizationOptionValuePrefix>88399</CustomizationOptionValuePrefix>
-                -<Addresses>
-                    -<Address>
-                        <AddressNumber>1</AddressNumber>
-                        <AddressTypeCode xsi:nil="true"/>
-                        <City xsi:nil="true"/>
-                        <County xsi:nil="true"/>
-                        <Country xsi:nil="true"/>
-                        <Fax xsi:nil="true"/>
-                        <FreightTermsCode xsi:nil="true"/>
-                        <ImportSequenceNumber xsi:nil="true"/>
-                        <Latitude xsi:nil="true"/>
-                        <Line1 xsi:nil="true"/>
-                        <Line2 xsi:nil="true"/>
-                        <Line3 xsi:nil="true"/>
-                        <Longitude xsi:nil="true"/>
-                        <Name xsi:nil="true"/>
-                        <PostalCode xsi:nil="true"/>
-                        <PostOfficeBox xsi:nil="true"/>
-                        <PrimaryContactName xsi:nil="true"/>
-                        <ShippingMethodCode xsi:nil="true"/>
-                        <StateOrProvince xsi:nil="true"/>
-                        <Telephone1 xsi:nil="true"/>
-                        <Telephone2 xsi:nil="true"/>
-                        <Telephone3 xsi:nil="true"/>
-                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
-                        <UPSZone xsi:nil="true"/>
-                        <UTCOffset xsi:nil="true"/>
-                        <UTCConversionTimeZoneCode xsi:nil="true"/>
-                    </Address>
-                    -<Address>
-                        <AddressNumber>2</AddressNumber>
-                        <AddressTypeCode xsi:nil="true"/>
-                        <City xsi:nil="true"/>
-                        <County xsi:nil="true"/>
-                        <Country xsi:nil="true"/>
-                        <Fax xsi:nil="true"/>
-                        <FreightTermsCode xsi:nil="true"/>
-                        <ImportSequenceNumber xsi:nil="true"/>
-                        <Latitude xsi:nil="true"/>
-                        <Line1 xsi:nil="true"/>
-                        <Line2 xsi:nil="true"/>
-                        <Line3 xsi:nil="true"/>
-                        <Longitude xsi:nil="true"/>
-                        <Name xsi:nil="true"/>
-                        <PostalCode xsi:nil="true"/>
-                        <PostOfficeBox xsi:nil="true"/>
-                        <PrimaryContactName xsi:nil="true"/>
-                        <ShippingMethodCode xsi:nil="true"/>
-                        <StateOrProvince xsi:nil="true"/>
-                        <Telephone1 xsi:nil="true"/>
-                        <Telephone2 xsi:nil="true"/>
-                        <Telephone3 xsi:nil="true"/>
-                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
-                        <UPSZone xsi:nil="true"/>
-                        <UTCOffset xsi:nil="true"/>
-                        <UTCConversionTimeZoneCode xsi:nil="true"/>
-                    </Address>
-                </Addresses>
-            </Publisher>
-            -<RootComponents>
-                <RootComponent behavior="0" schemaName="account" type="430"/>
-                <RootComponent behavior="0" schemaName="contact" type="430"/>
-            </RootComponents>
-            <MissingDependencies/>
-        </SolutionManifest>
-        </ImportExportXml>
-        ```
+1. Select **Delete model** to delete the current model from the application.
+1. [Create the model](#add-a-model) with different filter column and filter values to score a lead.
 
 ## Add the lead scoring widget to a form
 
@@ -591,56 +423,54 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page.](media/power-apps-home-page.png "Power Apps home page")
+   > [!div class="mx-imgBorder"]  
+   > ![Power Apps home page.](media/power-apps-home-page.png "Power Apps home page")
+1. Search for and select your organization's environment.
 
-2. Search for and select your organization's environment.
+   > [!div class="mx-imgBorder"]  
+   > ![Select your organization.](media/power-apps-select-org.png "Select your organization")
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select your organization.](media/power-apps-select-org.png "Select your organization")
-
-3. Select **Data** > **Tables**.
+1. Select **Data** > **Tables**.
 
     The **Tables** page opens with the list of tables.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Tables page with list of tables.](media/power-apps-entities-page.png "Tables page with list of tables")
+   > [!div class="mx-imgBorder"]  
+   > ![Tables page with list of tables.](media/power-apps-entities-page.png "Tables page with list of tables")
 
-4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
+1. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
 
-    >[!NOTE]
-    >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
+   > [!NOTE]
+   > If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select the Lead main form on the Forms tab.](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
+   > [!div class="mx-imgBorder"]  
+   > ![Select the Lead main form on the Forms tab.](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
 
-5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
+1. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Add a column to the form.](media/power-apps-layout-add-column-form.png "Add a column to the form")
+   > [!div class="mx-imgBorder"]  
+   > ![Add a column to the form.](media/power-apps-layout-add-column-form.png "Add a column to the form")
 
-7. From the site map, select **Display** > **Predictive score**.
+1. From the site map, select **Display** > **Predictive score**.
 
-    >[!NOTE]
-    >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form. 
+   > [!NOTE]
+   > Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select the predictive score widget.](media/power-select-predictive-score-widget.png "Select the predictive score widget")
+   > [!div class="mx-imgBorder"]  
+   > ![Select the predictive score widget.](media/power-select-predictive-score-widget.png "Select the predictive score widget")
 
-8. In the **Edit predictive score** pop-up window, select **Done**.
+1. In the **Edit predictive score** pop-up window, select **Done**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select Done to add the predictive score widget.](media/power-app-predictive-score-widget-options.png "Select Done to add the predictive score widget")
+   > [!div class="mx-imgBorder"]  
+   > ![Select Done to add the predictive score widget.](media/power-app-predictive-score-widget-options.png "Select Done to add the predictive score widget")
 
     The predictive score widget is added to the form, as shown in the following image.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Predictive score widget added to the form.](media/power-app-predictive-score-widget-added.png "Predictive score widget added to the form")
+   > [!div class="mx-imgBorder"]  
+   > ![Predictive score widget added to the form.](media/power-app-predictive-score-widget-added.png "Predictive score widget added to the form")
 
-    >[!NOTE]
-    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
-
-9. Save and publish the form.
+   > [!NOTE]
+   > To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
+1. Save and publish the form.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

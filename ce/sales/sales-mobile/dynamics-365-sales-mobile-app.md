@@ -47,7 +47,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-mobile-app.m
 |Voice dictation for capturing notes|Supported|Not supported|
 |Push notifications|Supported|Not supported|
 |Lightweight record and activity forms|Supported|Not supported|
-|||
+
 
 ### See also
 

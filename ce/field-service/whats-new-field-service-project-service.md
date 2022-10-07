@@ -5,10 +5,10 @@ ms.date: 12/15/2017
 
 ms.topic: article
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 11
@@ -21,7 +21,6 @@ ms.custom:
 search.app: 
   - D365CE
   - D365FS
-ms.technology: field-service
 ---
 
 # What's new in Universal Resource Scheduling (URS)
@@ -189,9 +188,4 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
 - Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
   
-### See also  
- [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 Project Service Automation - User's Guide](/dynamics365/project-operations/psa/admin-guide)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

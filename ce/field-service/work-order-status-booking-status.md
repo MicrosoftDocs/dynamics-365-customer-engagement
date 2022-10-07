@@ -2,14 +2,14 @@
 title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
 ms.date: 11/04/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -237,7 +237,7 @@ Here is the customer asset that results from the used work order product. Notice
 > ![Screenshot of miles traveled.](./media/work-order-statuses-miles-traveled.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamp.](./media/work-order-statuses-booking-timestamps1.png)
+> ![Screenshot of the Booking Information window, showing the Booking Timestamp tab with a System Status of Scheduled displaying one booking.](./media/work-order-statuses-booking-timestamps1.png)
 
 
 #### Traveling
@@ -251,7 +251,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking fields updated.](./media/work-order-statuses-actual-arrival-time.png)
+> ![Screenshot of the Booking Information window, showing the Scheduling tab with the Actual Arrival Time and Actual Travel Duration highlighted with a red border.](./media/work-order-statuses-actual-arrival-time.png)
 
 #### On Break
 - **Booking Timestamp** is created.
@@ -270,11 +270,11 @@ Here is the customer asset that results from the used work order product. Notice
 > ![Screenshot of end time updated.](./media/work-order-statuses-end-time.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking fields updated.](./media/work-order-statuses-total-billiable-duration.png)
+> ![Screenshot of the Booking Information window, showing the General tab with the End Time of 10:57 AM highlighted with a red border.](./media/work-order-statuses-total-billiable-duration.png)
 
 By the end of the work order life cycle, you will have timestamps of all booking status changes from both the field technicians and dispatchers.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamp.](./media/work-order-statuses-booking-timestamps.png)
+> ![Screenshot of the Booking Information window, showing the Booking Timestamp tab with a System Status of Scheduled displaying multiple bookings.](./media/work-order-statuses-booking-timestamps.png)
 
 
 ## Example 1: Estimate work order substatus
@@ -400,9 +400,5 @@ Options include:
 If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
 For more information, see the article on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md).
-
-### See also
-- [Booking Statuses blog post](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

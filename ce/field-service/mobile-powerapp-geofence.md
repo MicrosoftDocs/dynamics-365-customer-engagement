@@ -2,7 +2,7 @@
 title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
 ms.date: 09/20/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
@@ -10,8 +10,8 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app:
 - D365CE
@@ -207,13 +207,8 @@ In the scenario shown in the following screenshot, a geofence will only be creat
 > [!div class="mx-imgBorder"]
 > ![Screenshot of location expiration configuration field.](./media/mobile-geofence-location-expiration.png)
 
-  
 ## Additional notes
 
 - Only circular-shaped geofences are currently supported.
-
-### See also
-
-- [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Add a web resource for real-time translation of messages | MicrosoftDocs"
 description: "Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents."
-ms.date: 02/25/2022
+ms.date: 07/07/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ To add a web resource:
 
 Perform the following steps to upload the web resource file for real-time translation:
 
-1. In Dynamics 365, select **Settings**, and select **Advanced Settings**.
+1. In Dynamics 365, on the top right of the Customer Service admin center page, select **Settings**, and select **Advanced Settings**.
 
 2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
 
@@ -40,10 +40,10 @@ Perform the following steps to upload the web resource file for real-time transl
    2. In the **Content** section, select Script (JScript) for **Type**.
    3. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
    4. Save the form, select the option to publish all customizations.
-   5. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center (preview)](cs-admin-center.md) or Omnichannel admin center app for configuring real-time translation.
+   5. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](cs-admin-center.md) or Omnichannel admin center app for configuring real-time translation.
    6. Select the option to publish all customizations on the **Solution** page, and close the form.
 
-6. In the site map of Customer Service admin center (preview) app, select **Productivity** under Agent experience, then select **Manage** next to **Real-time translation**.
+6. In the site map of Customer Service admin center app, select **Productivity** under Agent experience, then select **Manage** next to **Real-time translation**.
 
     If you're using Omnichannel admin center, then in the site map, select **Agent experience** under **Advanced settings**, and then select **Manage** next to **Real-time translation**.
 

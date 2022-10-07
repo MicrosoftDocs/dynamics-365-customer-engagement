@@ -1,8 +1,7 @@
 ---
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 Marketing."
-ms.date: 03/23/2021
-
+ms.date: 06/10/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -106,11 +105,7 @@ To set your event-administration options:
     - If you'd like to temporarily disable an existing event-administration record, possibly so you can create a new one to use in the meantime, then select the existing record and choose **Deactivate** from the command bar. To view, edit, and/or reactivate a deactivated record, switch to the **Inactive event administration** view using system view menu (above the list).
 1. Make the following settings:
     - **Name**: Enter a name for the current event-administration record.
-    - **Send mail to purchaser**: Set to **Yes** if you'd like the system to send an automatic email to the purchaser each time she or he registers an attendee for an event.
-    - **Email template for purchaser**: Choose the (hard-coded) email template to send to the purchaser when **Send mail to purchaser** is enabled.
-    - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
-    - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
-    - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name.
+    - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name. Learn more: [Set form matching](mkt-settings-matching.md).
     - **Enable demo payment confirmation**: This feature lets you simulate payment on the event website for demo purposes. Set this to **Yes** to enable demo payment. Set it to **No** to disable demo payment. To [enable online payment on a production site](event-payment-gateway.md), you must partner with a third-party payment provider and customize your event site to work with their system. Never enable demo payment on a production system because it can introduce a security vulnerability.
 
     > [!WARNING]

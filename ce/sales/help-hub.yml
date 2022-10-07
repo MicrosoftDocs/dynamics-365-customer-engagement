@@ -32,8 +32,6 @@ landingContent:
         links:
         - text: Sign up for a free trial 
           url: sign-up-for-sales-trial.md
-        - text: Set up Dynamics 365 Sales 
-          url: set-up-dynamics-365-sales.md
         - text: Learn the basics 
           url: user-guide-learn-basics.md
         - text: Set up Sales premium features 
@@ -136,11 +134,11 @@ landingContent:
       - linkListType: overview
         links:
         - text: Working with Dynamics 365 Sales 
-          url: /learn/paths/working-with-dynamics-365-sales/
+          url: /training/paths/working-with-dynamics-365-sales/
         - text: Introduction to configuration in Dynamics 365 model-driven apps 
-          url: /learn/paths/introduction-configuration-dynamics-365-model-driven-apps/
+          url: /training/paths/introduction-configuration-dynamics-365-model-driven-apps/
         - text: Implement goal management in Dynamics 365 Sales and Customer Service 
-          url: /learn/paths/apply-goal-management-dynamics-365/
+          url: /training/paths/apply-goal-management-dynamics-365/
 
 # Card 
 - title: Dynamics 365 Sales mobile app
@@ -165,3 +163,19 @@ landingContent:
         links:
         - text: Sales Team Member app for users with Team Member license 
           url: sales-team-member.md
+
+# Card 
+- title: Microsoft Teams integration
+  linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Configure Teams chat 
+          url: teams-integration/enable-teams-chat.md
+        - text: Enable Teams meeting integration 
+          url: teams-integration/enable-teams-meeting-integration.md
+        - text: Work with Dynamics 365 records within Teams
+          url: teams-integration/share-d365-record-overview.md
+        - text: Make and receive call using Teams 
+          url: configure-microsoft-teams-dialer.md
+        - text: Link Dynamics 365 records to Teams channels
+          url: teams-integration/enable-record-linking.md

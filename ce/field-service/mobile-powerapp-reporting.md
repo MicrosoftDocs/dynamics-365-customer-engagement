@@ -2,15 +2,15 @@
 title: "Field Service technician service reporting (contains video) | MicrosoftDocs"
 description: Learn about setting up service reports for Field Service technicians
 ms.date: 05/21/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -59,7 +59,7 @@ For a guided walkthrough, check out the following video.
 
 1. Download the sample [reporting PCF control](https://aka.ms/fsmreporting-pcf) source code. 
 2. Use your favorite IDE to edit the sample reporting PCF control. Modify this control to change layout, add more branding, updated data, or other updates necessary to meet your reporting requirements. Be sure to rename the report to something descriptive for your organization by updating report name in ```ControlManifest``` and ```index.ts```. Refer to ```ReadMe.pdf``` included with the sample source code for additional details on making customizations. 
-3. Import the modified PCF control into your environment. For more information, see this article: [Steps to import a PCF control](https://docs.microsoft.com/powerapps/developer/component-framework/import-custom-controls)
+3. Import the modified PCF control into your environment. For more information, see this article: [Steps to import a PCF control](/power-apps/developer/component-framework/import-custom-controls)
 4. Update customizations to point to your new PCF template by going to **Customize the System** > **Bookable Resource Booking** > **Forms** > **Reporting** > **ReportView**. Under **Properties**, you'll see your newly named report, which should be enabled for web, phone, and tablet. 
 
 ## Generate reports from mobile

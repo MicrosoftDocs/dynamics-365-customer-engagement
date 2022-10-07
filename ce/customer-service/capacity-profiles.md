@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles | MicrosoftDocs
 description: "Know how to create and manage capacity profiles in Customer Service"
-ms.date: 02/11/2022
+ms.date: 08/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -37,17 +37,11 @@ Create a capacity profile, and use it in a workstream that is used for routing w
 
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
-**To configure the capacity profile**
-
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the admin apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
-    
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
@@ -84,6 +78,16 @@ After you create the capacity profiles, configure the following settings to assi
 - Set the capacity profile in a classification ruleset for the workstream as a rule output. Append the new capacity profile to the work item. During assignment, unified routing will look for an agent who has available capacity in both the profiles, the default profile from the workstream and the appended profile from the classification. More information: [Create classification rulesets based on capacity profiles](configure-work-classification.md#create-classification-rulesets-based-on-capacity-profiles)
 
 You need not define assignment rules specific to capacity profiles at queue level to find agents with matching capacity profiles. If capacity profile is attached to a work item, then the system will ensure that the assigned agent has the matching capacity profile.
+
+## Release capacity for agents
+
+For the system to efficiently manage agent workload, agent capacity needs to be released automatically when agents complete their assigned work items. Based on system settings, the agent capacity is released in the following manner:
+
+- **Conversation**: When the agents end the conversation and close their session.
+- **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case, assigns it to another agent, or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
+- **All records and activities**: For activities, such as email that's configured for record routing, capacity is not released automatically. You'll need to go to the queue item dialog and remove the agent name from the **Worked By** field. Capacity is also released when the assigned queue item is deleted.
+
+    :::image type="content" source="media/remove-agent-to-release-capacity.png" alt-text="Remove agent name from Worked By field to release capacity.":::
 
 ### Escalation profiles
 

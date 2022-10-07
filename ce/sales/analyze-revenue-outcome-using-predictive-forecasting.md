@@ -1,7 +1,7 @@
 ---
 title: "Analyze revenue outcome using predictive forecasting"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
-ms.date: 10/26/2021
+ms.date: 08/03/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -14,12 +14,11 @@ manager: shujoshi
 Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Understand the prediction column and details in a forecast
 
@@ -34,7 +33,10 @@ The **Prediction** column shows the predicted revenue for each seller and manage
 
 Review the following prerequisite before you start using predictive forecasting:
 
-  -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
+- Ensure that predictive opportunity scoring is enabled and at least one model is configured. To learn more, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).  
+
+-	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
+
 
 ### Prediction column
 

@@ -1,11 +1,11 @@
 ---
 title: Create and manage queues for unified routing | MicrosoftDocs
-description: "This topic provides information and steps to help you learn to create and manage queues in Omnichannel for Customer Service."
+description: "Use this article to understand how to create and manage queues for unified routing in Customer Service and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 02/11/2022
+ms.date: 10/03/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -16,11 +16,9 @@ searchScope:
 - Customer Service
 ---
 
-# Manage queues for unified routing
+# Create and manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 In Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
 
@@ -42,14 +40,9 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 ## Create a queue for unified routing
 
-**To create a queue and set operating hour record for the queue**
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
     1. In the site map, select **Queues** in **Customer support**.
     
@@ -64,10 +57,10 @@ Assign a group number that helps you organize your queues in the list view. The 
 
     - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
-2. On the **Queues** page, do the following:
+1. On the **Queues** page, do the following:
 
     1. Select **New**.
-    2. In the **Create a queue** dialog box, enter the following:
+    2. In the **Create a queue** dialog, enter the following:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
        - **Group number**: A number to organize the queue.
@@ -76,18 +69,20 @@ Assign a group number that helps you organize your queues in the list view. The 
        > [!div class=mx-imgBorder]
        > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
-3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
+1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
-4. In **Assignment method**, do one of the following:
+1. In **Assignment method**, do one of the following:
    - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
    - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for Prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
 
-5. To set operation hours, in the **Operation hours** area, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. More information: [Configure operating hour record](create-operating-hours.md)
+1. To manage overflowing of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
 
-6. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
+1. To set the operating hours, in **Operation hours**, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. More information: [Configure operating hour record](create-operating-hours.md)
 
-7. Select **Save and close**. The operating hour record that you selected is configured for the queue.
+1. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
+
+1. Select **Save and close**. The operating hour record that you selected is configured for the queue.
 
 ### Manage queues for unified routing
 
@@ -97,28 +92,25 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
 
-### Default queues in Omnichannel for Customer Service<a name="default-queues"></a>
+### Fallback queues
 
-The following default queues are available in Omnichannel for Customer Service:
+To efficiently manage the work items, you can configure a fallback queue per workstream. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you are creating a workstream. For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. By default, the assignment method for the fallback queue is highest capacity.
+
+Out of the box, the following queues are available. You can add and remove users from these queues.
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-Default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues so the membership to these default queues can't be changed.
+Work is routed to these queues that act as a safety net in the following scenarios:
 
-Work is routed to the default queues that act as a safety net in the following scenarios:
-
-- Work item encounters an error during classification
-- Work item encounters an error when running a route-to-queue rule
-- Work item does not match any route-to-queue rules
-
-> [!NOTE]
-> When you configure route to queues for work classification, we recommend that you don't select the default queues.
+- Work item encounters an error during classification.
+- Work item encounters an error when running a route-to-queue rule.
+- Work item does not match any route-to-queue rules.
 
 ### See also
 
-[Create workstreams for unified routing](create-workstreams.md)  
+[Create and manage workstreams](create-workstreams.md)  
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](voice-channel-route-queues.md)  

@@ -2,14 +2,14 @@
 title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to upgrade Dynamics 365 Field Service.
 ms.date: 02/22/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -209,17 +209,5 @@ Field Service mobile push notifications and geofence alerts solutions that are p
   2. Delete the **FieldService_Anchor** from the solutions list in **Settings** > **Solutions**.
   3. In Admin Center, an upgrade will be available; proceed to manually upgrade.
   4. Manual upgrade will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts since the Woodford dependency has been met.
-
-
-### See also
-
-- [Field Service version history](version-history.md)
-
-- [Install Field Service (web + mobile)](install-field-service.md)
-
-- [Important Notes for Field Service and Project Service Automation after upgrade of Dynamics 365 Organizations to version 9.0](https://community.dynamics.com/365/b/365teamblog/posts/important-notes-for-field-service-and-project-service-automation-after-upgrade-of-dynamics-365-organizations-to-version-9-0)
-
-- [Announcing end of life for Field Service (online) legacy versions by February 2020](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

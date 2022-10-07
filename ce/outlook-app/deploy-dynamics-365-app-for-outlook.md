@@ -3,17 +3,15 @@ title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
 ms.date: 12/14/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
@@ -202,7 +200,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
     - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app for eigible users.](media/deploy-app-auto-1.png)
+      > ![Automatically deply the app for eligible users.](media/deploy-app-auto-1.png)
 
    
    - **Option 3**: Push the app to certain users, select those users in the list, and then select **Add App to Outlook**.

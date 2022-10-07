@@ -24,18 +24,17 @@ topic-status: Drafting
 
 You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 
-After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
+After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team-level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
-> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Microsoft Teams for conversation intelligence
 
@@ -112,17 +111,9 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
-9.	(Optional) In the **Coming soon** section, select the **Access new features before they're released to all our customers** checkbox to turn on the "coming soon" feature.
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
 
-    If you don't want to enable preview features for your organization, skip this step. You can always enable them later. More information: [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)  
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable coming soon features.](media/ci-admin-coming-soon-features.png "Enable coming soon features")  
-
-10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Agree and continue**.      
-
-    > [!div class="mx-imgBorder"]
-    > ![Agree to terms and conditions to publish the configurations.](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")    
+10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.
 

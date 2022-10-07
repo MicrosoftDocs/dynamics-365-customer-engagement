@@ -1,7 +1,7 @@
 ---
 title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Use this topic to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 06/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -58,10 +58,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -115,7 +112,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](context-variables-for-bot.md#add-context-variables))
+   - [Context variables](manage-context-variables.md#add-context-variables))
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -134,7 +131,13 @@ Perform the following steps:
 4. Select **Save**.
 5. Create as many templates as required.
 
-### Create a WhatsApp channel in Omnichannel Administration
+### Integrate a Twilio sandbox account with Omnichannel for Customer Service
+
+1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
+2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
+3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
+
+#### Create a WhatsApp channel in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -146,19 +149,15 @@ To create a WhatsApp channel, follow these steps:
 
 2. In the **New WhatsApp** page, do the following.
 
-    | Section | Field | Description | Example  value |
-    |-------------|-------------------|---------------------------|--------------------------------------|
-    | Twilio account details |Name| Specify a name for the WhatsApp channel.| WhatsApp channel |
-    | Twilio account details |Account SID | Fetch the value from your Twilio account and paste it here. | AC9a805fb460119c9baabb9b726ce8fc90 |
-    | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
+    | Section | Field | Description |
+    |-------------|-------------------|---------------------------|
+    | Twilio account details |Name| Specify a name for the WhatsApp channel.|
+    | Twilio account details |Account SID | Fetch the value from your Twilio account and paste it here. |
+    | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. |
 
-    > [!div class=mx-imgBorder]
-    > ![Create a WhatsApp channel.](media/whatsapp-channel-1.png "Create a WhatsApp channel")
 
 3. Select **Save**. In the **Callback information** section, the **Twilio inbound URL** field is generated with a link. Copy the link from the field.
 
-   > [!div class=mx-imgBorder]
-   > ![Copy the Twilio inbound URL.](media/whatsapp-channel-2.png "Copy the Twilio inbound URL")
 
 4. Go to your Twilio console, select **Senders**, and then select the WhatsApp phone number. Under **Messaging**, paste the link that you copied in the preceding step in the **Twilio inbound URL** field.
 
@@ -173,8 +172,6 @@ To create a WhatsApp channel, follow these steps:
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
     | Work distribution | Work stream | Select the out-of-the-box workstream from the lookup. <br> To create a new workstream, see [Create work streams](work-streams-introduction.md). | WhatsApp channel work stream |
 
-    > [!div class=mx-imgBorder]
-    > ![Create a WhatsApp channel phone number.](media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
 
 7. Select **Save**. The WhatsApp phone number is saved.
 
@@ -184,16 +181,8 @@ To create a WhatsApp channel, follow these steps:
 
 10. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
 
-    > [!div class=mx-imgBorder]
-    > ![Validate Account SID, Auth token, and phone number.](media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
 
-### Integrate a Twilio sandbox account with Omnichannel for Customer Service
-
-1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
-2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
-3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
-
-### Create routing rules
+#### Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the out-of-the-box workstream or the one you created.
@@ -201,9 +190,7 @@ To create a WhatsApp channel, follow these steps:
 
 When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat, which can be used for routing.
 
-### Modify settings for a specific WhatsApp phone number 
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+#### Modify settings for a specific WhatsApp phone number 
 
 1. In the Omnichannel Administration app, go to your WhatsApp application and select the WhatsApp phone number you want to modify. 
 
@@ -237,30 +224,26 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     
     - **Message description**: Give the message template a description.
     
-    > [!div class=mx-imgBorder]
-    > ![Create WhatsApp message template.](media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
-    
+     
     Select **Save** and the **Localization Data (Message template)** panel appears. Select **New localization** and complete the following fields:
     
     - **Language code**: Select the language for the message.
     
     - **Localized text**: Write the message in the language specified. You must create localized text for each translation of the message.
     
-    > [!div class=mx-imgBorder]
-    > ![Create WhatsApp message template localized message.](media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
     
 5. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### See also
 
-[Understand and create workstreams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Skill-based routing](overview-skill-work-distribution.md)<br>
-[Create message templates](create-message-templates.md)<br>
-[Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](work-streams-introduction.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Skill-based routing](overview-skill-work-distribution.md)  
+[Create message templates](create-message-templates.md)  
+[Templates](/dynamics365/app-profile-manager/templates-overview)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

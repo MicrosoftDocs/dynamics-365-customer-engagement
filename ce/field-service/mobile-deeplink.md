@@ -1,16 +1,16 @@
 ---
 title: "Use deep links with Field Service Mobile | MicrosoftDocs"
 description: Learn how to use deep links with Field Service Mobile
-ms.date: 03/02/2020
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: robertipk 
-ms.author: daclar
+author: JonBaker007 
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -20,7 +20,7 @@ search.app:
 # Use deep links with Field Service Mobile
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 Deep linking lets users move from one application to another on computers and mobile devices. Simple examples include a mobile application deep linking to Facebook to sign in, an email address deep linking to a mail app to compose a message, or a website deep linking to an app store to download the related mobile application. As multiple apps may be needed to complete onsite work, an organization can allow technicians to deep link from Field Service Mobile to other apps and vice versa. 
 
@@ -215,13 +215,5 @@ This is a combination of the **Field Service universal Link** (fsmobile://open?j
 ### Deep linking in production instances
 
 By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing critical new functionality or 2) overwriting your JavaScript file and losing the deep link functionality. To avoid this, use a custom folder and JavaScript file separate from the **WorkOrder** folder an WorkOrder.js file in production instances.
-
-
-### See also
-- [Sample mobile project template](https://1drv.ms/u/s!AhAjbOq5aB_lsUMGyM8rQ1g_IVHY?e=Lg32Nu)
-- [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for guidance in this article.
-- [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
-- [Set URI parameters for your canvas apps](/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

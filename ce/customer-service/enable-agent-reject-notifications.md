@@ -1,7 +1,7 @@
 ---
 title: "Enable automatic status update on rejection of work assignment| MicrosoftDocs"
 description: "Learn about managing agent reject notifications in Customer Service"
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -25,10 +25,7 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
      1. In the site map, select **Workspaces** in **Agent experience**.
      2. On the **Workspaces** page, select **Manage** for **Notification templates**.
@@ -46,7 +43,7 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 
 ### See also
 
-[Manage notification settings and templates](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
+[Manage notification settings and templates](/dynamics365/app-profile-manager/notification-templates)  
 [View notifications](oc-notifications.md)  
 
 

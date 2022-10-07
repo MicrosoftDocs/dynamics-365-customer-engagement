@@ -1,7 +1,7 @@
 ---
 title: "Overview of Dynamics 365 Sales"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 01/10/2022
+ms.date: 08/03/2022
 
 ms.topic: overview
 author: udaykirang
@@ -10,7 +10,11 @@ manager: shujoshi
 ---
 # Overview of Dynamics 365 Sales 
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
+Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -48,7 +52,6 @@ When you subscribe to Dynamics 365 Sales Premium, you get the following capabili
 - **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
     - Assistant
     - Relationship analytics and health
-    - Talking points 
     - Who knows whom
     - Conversation intelligence
 - **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
@@ -105,7 +108,6 @@ Build relationships with customers through information from LinkedIn and relatio
 | Keep track of buyers | Within a unified experience from Dynamics 365 Sales, find out when contacts change jobs and visualize relationships between contacts with interactive org charts. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads) |
 | Get a unified view of interactions | Use a comprehensive timeline across Dynamics 365, Microsoft 365, and LinkedIn Sales Navigator to deliver consistent experiences. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads) |
 | Identify customers who need attention | Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks. | Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)<br>Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md) |
-| Know how to engage customers | Get proactive guidance on topics such as personalized talking points, internal relationships, icebreakers, and next best actions to move relationships forward. | Administrator: [Configure talking points](configure-talking-points.md)<br>Seller: [Know conversation starters for your customers](talking-points.md)|
 
 ### Collaborate seamlessly
 

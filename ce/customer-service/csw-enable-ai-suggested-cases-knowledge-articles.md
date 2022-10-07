@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 02/11/2022
+ms.date: 06/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,7 +28,7 @@ The key highlights of the feature are as follows:
 - AI-driven case and knowledge article suggestions that are based on case context and historical success rate.
 - Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
 - Capability of the AI model to process up to one million of the most recent cases for listing them at runtime.
-- Continuous improvement of the recommendation model through a comprehensive feedback mechanism.
+
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
@@ -46,7 +46,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-- The AI model uses the feedback from agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions and agent interactions with the suggestions, such as, **Linked to case**, **Send URL**, **Copy URL**, **Email URL**, **Email content**, and **Copy resolution**.
+
 
 > [!NOTE]
 >
@@ -75,7 +75,7 @@ If the language verification passes, the suggestions are displayed in the langua
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
-- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
+- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Personalize your knowledge search article filters](filter-articles.md#personalize-your-knowledge-search-article-filters).
 
 ## Prerequisites
 
@@ -90,15 +90,15 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-You can enable AI suggestions for similar cases in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+> [!NOTE]
+> AI suggestions for similar cases is enabled out of the box.
+
+You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Suggestions for agents** section, select **Manage**.
 
@@ -132,14 +132,14 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
 ## Enable AI suggestions for knowledge articles
 
-You can enable AI suggestions for knowledge articles in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+> [!NOTE]
+> AI suggestions for knowledge articles is enabled out of the box.
+
+You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Suggestions for agents** section, select **Manage**.
@@ -214,7 +214,7 @@ The service protection limits for AI suggestions are defined in the following ta
 
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](./oc-view-ai-suggested-cases-articles.md)  
-[FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
+[FAQ on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Personalize sales accelerator settings"
 description: "Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete."
-ms.date: 11/08/2021
+ms.date: 06/14/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -13,12 +13,11 @@ manager: shujoshi
 Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What can you personalize?
 
@@ -32,6 +31,10 @@ As a seller, you can personalize the sales accelerator by determining how activi
 ## Configure your work availability
 
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
+
+>[!NOTE]
+>As a sales manager, you can configure the availability of sellers who report to you through the calendar API. While using the API, enter the value of the ```EntityLogicalName``` string as ```msdyn_extendedusersetting```.
+>More information: [Edit work hour calendars by using APIs](/dynamics365/field-service/field-service-work-hours-calendar-api) 
 
 Depending on the license you have in the organization, you use one of the following ways to configure your work availability:
 - Sales Premium: [Through work list settings](#through-work-list-settings)
@@ -62,7 +65,7 @@ Depending on the license you have in the organization, you use one of the follow
     >![Configure your work availability through Outlook message.](media/sa-personal-settings-select-availability-settings-outlook.png "Configure your work availability through Outlook message.")    
     >Go to your Outlook calendar, set your work hours and vacation days, and then save the calendar events. Your availability will be automatically updated in the Dynamics 365 application calendar.
 
-4. Select **+ New**, and choose an option to configure your calendar according to your requirements:
+4. Select **New**, and choose an option to configure your calendar according to your requirements:
 
    - **Working hours**: Configure your regular working hours between dates you define. This helps the sales accelerator to consider the assignment of activities to your work list.
 
@@ -188,7 +191,7 @@ As a seller, you can hide any filter that's available in the filter list. After 
 
     >[!NOTE]
     >-	To hide a group, turn off the toggle for the group.
-    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](enable-configure-sales-accelerator.md#hide-filters)
+    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](customize-workspace-sales-accelerator.md#hide-filters)
  
     > [!div class="mx-imgBorder"]    
     > ![Turn off the toggle to hide a filter.](media/sa-worklist-filter-hide-filter.png "Turn off the toggle to hide a filter")      

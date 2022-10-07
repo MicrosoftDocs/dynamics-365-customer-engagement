@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -46,10 +46,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Customer support**, select **Channels**.
     
@@ -75,27 +72,27 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 ### Configure the workstream for the SMS channel
 
-To configure the workstream, make sure you perform the steps to create a workstream for the SMS channel. More information: [Create workstreams](create-workstreams.md).
+To configure the workstream, make sure you perform the steps to create a workstream for the SMS channel. More information: [Create workstreams](create-workstreams.md)
 
 1. Go to workstreams page and open the workstream that you created for the channel.
 2. In the Set up your SMS channel section, select **Set up SMS**, and then configure the following options:
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
    3. On the **Behaviors** page, configure the following options:
-     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
+     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md)
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
+   4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md)
      - Customers can send file attachments
      - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
-3. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+3. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 4. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-5. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+5. Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 6. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](context-variables-for-bot.md#add-context-variables)
+   - [Context variables](manage-context-variables.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -103,7 +100,7 @@ To configure the workstream, make sure you perform the steps to create a workstr
 
 Perform the following steps to configure the URL in Twilio for the SMS messages from Omnichannel for Customer Service to be processed in Twilio:
 
-1. Copy the value in **Twilio inbound URL** of the work stream for Twilio.
+1. Copy the value in **Twilio inbound URL** of the workstream for Twilio.
 
 2. Go to your Twilio account > **Phone Numbers** > **Active Numbers**, and then select the SMS phone number.
 
@@ -123,7 +120,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 
 When you validate the SMS settings while setting up the SMS channel, a call is made to Twilio to validate the Account SID and Auth Token.
 
-### Configure the SMS for Twilio channel in the Omnichannel Administration app
+#### Configure the SMS for Twilio channel in the Omnichannel Administration app
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -143,9 +140,6 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 4. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
-   > [!div class=mx-imgBorder]
-   > ![Workstream settings for Twilio.](media/sms-twilio.png "Workstream settings for Twilio")
-
 5. On the **SMS Settings** tab, enter the following details:
 
     - **SMS Provider**: Select **Twilio**.
@@ -154,8 +148,6 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 6. Select **Save**. The **Twilio inbound URL** is generated and displayed.
 
-   > [!div class=mx-imgBorder]
-   > ![SMS settings for Twilio.](media/sms-settings-twilio.png "SMS settings for Twilio")
 
 7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 

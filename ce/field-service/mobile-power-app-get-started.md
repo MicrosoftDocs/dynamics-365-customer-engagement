@@ -2,16 +2,16 @@
 title: "Install the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
 ms.date: 06/04/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
+author: m-hartmann
 ms.custom: intro-internal
-ms.author: daclar
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -68,7 +68,7 @@ Find the **Field Service Mobile** model-driven app and select the ellipses (...)
 
 ## Download the app and sign in
 
-Go to the app store on your iOS or Android device, and search for **Dynamics 365 Field Service**.
+Go to the app store on your iOS, Android or Windows device, and search for **Dynamics 365 Field Service**.
 
 Download the app named **Field Service (Dynamics 365)**, as seen in the following screenshot. This is the mobile app built on Microsoft Power Platform.
 

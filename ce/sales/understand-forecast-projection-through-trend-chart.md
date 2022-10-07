@@ -16,12 +16,11 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 > The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## View trend charts
 

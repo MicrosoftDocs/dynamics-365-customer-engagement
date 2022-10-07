@@ -1,8 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 01/18/2022
-
+ms.date: 09/30/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,6 +20,8 @@ search.app:
 # Use Microsoft Teams for Dynamics 365 Marketing online events
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cV" frameborder="0" allowfullscreen=""></iframe></div>
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 This article explains how to use Microsoft Teams as an online meeting provider for Dynamics 365 Marketing events. Teams event functionality is incorporated directly into the Marketing app, allowing you to use Teams webinars or Teams live events for one/some to many online events, and Teams meetings for interactive online meetings.
 
@@ -109,6 +110,9 @@ To generate the engagement data, send an email invite to webinar registrants bef
 
 > [!IMPORTANT]
 > Organizations that manage their Teams user policies need to make sure that the admin enables the **allowTrackingInReport** and **allowEngagementReport** policies before synchronizing the engagement data. For more information, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
+> [!NOTE]
+> Check-out times are only supported for Teams webinar events (with streaming enabled). Live events, Teams meetings, or any other event types do not have automatic check-out times.
 
 #### Known issues with Teams webinars
 
@@ -243,7 +247,7 @@ After creating the event, going live with it, and gathering registrations, you s
 The **Join in Teams** button generates a unique attendee URL for each registrant. When the registrant selects the button, the Marketing app creates a relevant check-in record for them, giving insights about the Teams event attendance in Marketing.
 
 > [!IMPORTANT]
-> The **Join in Teams** button uses a unique URL for each registrant. Forwarding an email with a **Join in Teams** button retains the URL specific to the original recipient. The forwarded email will not generate a new check-in for the forwarded invite.
+> The **Join in Teams** button uses a unique URL for each registrant. Forwarding an email with a **Join in Teams** button retains the URL specific to the original recipient. The forwarded email will not generate a new check-in for the forwarded invite. To ensure your event is ready to capture all attendee information, see [Make the most of your event check-in flow](optimize-check-in.md).
 
 > [!TIP]
 > If an attendee selects the **Join in Teams** button *more than 30 minutes* before the event starts, the check-in *won't* be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.

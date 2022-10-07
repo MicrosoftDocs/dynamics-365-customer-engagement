@@ -5,9 +5,9 @@ ms.date: 01/05/2018
 
 ms.topic: get-started-article
 ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mhart
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 8
@@ -19,7 +19,6 @@ ms.custom:
 search.app: 
   - D365CE
   - D365FS
-ms.technology: field-service
 ---
 # Develop customized IoT solutions in Connected Field Service
 
@@ -44,10 +43,4 @@ ms.technology: field-service
   
 - Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards  
   
-### See also  
- [Connected Field Service architecture](connected-field-service-architecture.md)   
- [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)<br>
- [Developer Guide for Dynamics 365](../../developer/developer-guide.md)   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../../includes/footer-banner.md)]

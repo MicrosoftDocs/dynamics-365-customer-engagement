@@ -1,6 +1,6 @@
 ---
-title: "Migration tool FAQs | MicrosoftDocs"
-description: "Migration tool FAQs for  Automatic record creation rules and service-level agreement items"
+title: "Migration tool FAQ | MicrosoftDocs"
+description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
 ms.date: 10/05/2020
 ms.topic: article
 author: neeranelli
@@ -9,9 +9,9 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Migration tool FAQs
+# Migration tool FAQ
 
-## FAQs on migration tool for automatic record creation rules and service level agreements (SLAs)
+## FAQ on migration tool for automatic record creation rules and service level agreements (SLAs)
 
 ### Who can access or run the migration tool?
 

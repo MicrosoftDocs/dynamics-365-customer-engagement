@@ -1,16 +1,16 @@
 ---
 title: "Push notifications in Field Service Mobile | MicrosoftDocs"
 description: Learn about push notifications in Field Service Mobile
-ms.date: 03/14/2019
-ms.reviewer: krbjoran
+ms.date: 07/28/2022
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: jobaker
 search.app: 
   - D365CE
   - D365FS
@@ -19,7 +19,7 @@ search.app:
 # Push notifications in Field Service Mobile
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) has reached end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md).
 
 In Field Service Mobile, push notifications allow you to send updates to field technicians through their mobile phones or tablets. Push notifications utilize the Dynamics 365 workflow engine and can be triggered by many scenarios. 
 
@@ -142,10 +142,5 @@ To send these push notifications, the customer data detailed below must flow to 
 - The title of a push notification is the **Name** field of the entity. In our previous example, the title of the push notification was 0222, which corresponds to the **Name** field of the assigned bookable resource booking.
 - Any workflow that sends a push notification can be deactivated by going to **Settings > Processes** and selecting the workflow that you want to deactivate. The status of an active workflow will read **Activated**. Select a workflow and then select **Deactivate** from the command bar. This will deactivate the workflow and, in turn, the push notification action, meaning that there will be no flow of data to the aforementioned external services. 
 - Push notifications require an online environment and won’t work with on-premises deployments.
-
-### See also
-
-- For more information on sync filters, see the [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

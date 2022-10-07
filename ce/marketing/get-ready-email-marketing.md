@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing."
-ms.date: 02/15/2022
+ms.date: 09/02/2022
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -106,7 +106,8 @@ The SPF (Sender Policy Framework) is an email authentication mechanism that help
 
 The SPF record is set up as a TXT type DNS record for the sending domain. Email recipients can check the TXT record when receiving an email and reject emails that originate from unrecognized IP addresses. Implementing an SPF record for your sending domain will show recipients that your email messages were sent from a legitimate source. An "SPF PASS" result will improve your domain's reputation score in your recipients' spam filters.
 
-To to learn more about SPF records and how to set up an SPF TXT record for your sending domain, see [Create an SPF TXT record](create-spf-record.md)
+> [!IMPORTANT]
+> If the Envelope From address feature is enabled and confirmed, all emails will be signed with SPF on the sender domain. In this case, there is no need to add any additional DNS records to the existing SPF record. Learn more: [Envelope-from domain](mkt-settings-authenticate-domains.md#envelope-from-domain).
 
 ## Test your deliverability
 

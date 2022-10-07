@@ -1,15 +1,15 @@
 ---
 title: "Connected Field Service with IoTHub architecture"
 description: Learn about how Connected Field Service uses IoTHub architecture.
-ms.date: 01/20/2021
-ms.reviewer: krbjoran
+ms.date: 06/16/2022
+ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app:
 - D365CE
@@ -32,6 +32,9 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 > ![Diagram illustrating the connections between Connected Field Service with IoTHub architecture, and how each elements relate to each other.](../media/cfs-iothub-architecture.png)
 
 - **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoTHub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors, then an **Edge device** can be used to organize them and broker telemetry sent to IoTHub.
+  
+  > [!NOTE]
+  > Currently, the Connected Field Service implementation with IoT Hub doesn't support splitting the telemetry data for IoT Edge modules.
 
 - **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 Field Service and create work orders.
 
@@ -63,9 +66,4 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 ## Component data flow diagram
  A data flow between the Azure IoT Hub and Connected Field Services components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)].
 
-### See also
-
-[Connected Field Service with Azure IotHub Overview](/customer-engagement/field-service/developer/connected-field-service-developer-guide)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../../includes/footer-banner.md)]

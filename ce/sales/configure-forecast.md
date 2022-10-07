@@ -19,12 +19,14 @@ searchScope:
 
 A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
 
-## License and role requirements
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
-| &nbsp; | &nbsp; |
+## License and role requirements
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>See [Predefined security roles for Sales](security-roles-for-sales.md) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## How forecasting helps organizations?
 
@@ -99,10 +101,10 @@ If you don't want to see the forecast category in the opportunity form, you'll n
 
 ### See also
 
-[Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
-[View forecasts](view-forecasts.md)
-[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)  
+[Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)  
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+[View forecasts](view-forecasts.md)  
+[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)    
 [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)  
 [Forecasting FAQs](faqs-sales.md#forecasting)
 

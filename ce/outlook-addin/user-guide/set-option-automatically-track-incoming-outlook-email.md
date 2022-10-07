@@ -55,9 +55,6 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
    >  By default email in your Sent Items folder within Outlook will not automatically appear as tracked in Dynamics 365. An optional setting is available to automatically track items from the Sent Items folder. If an administrator enables this setting, the personal options mentioned above will be used to determine which sent emails are automatically tracked. For more information, see [Automatically track sent folder items with server-side synchronization](/power-platform/admin/track-sent-folder-items)
   
    > [!NOTE]
-   >  By default email in your Sent Items folder within Outlook will not automatically appear as tracked in Dynamics 365. An optional setting is available to automatically track items from the Sent Items folder. If an administrator enables this setting, the personal options mentioned above will be used to determine which sent emails are automatically tracked. For more information, see [Automatically track sent folder items with server-side synchronization](track-sent-folder-items)
-  
-   > [!NOTE]
    >  Keep in mind that the more you use the same email address for tracking purposes, the less useful it becomes since it will be mapped to many records.  
   
 4. If you want to automatically create contact or lead records for tracked email messages, in the **Automatically create records in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** section, choose the **Create** check box, and then choose **Contacts** or **Leads** from the list. When this check box is selected, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will try to match the email address of recipients to an email address in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If it can’t find a matching record, it will automatically create a contact or lead record.  

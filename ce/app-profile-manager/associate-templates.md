@@ -34,6 +34,8 @@ Perform the following steps:
 
 ## Associate templates with workstreams in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 You can attach only generic type of templates to work streams. By default, the out-of-the-box templates are associated based on the channel. However, you can replace the default templates with the ones that you create.
 
 1. Sign in to the Omnichannel Administration app.

@@ -1,8 +1,7 @@
 ---
 title: "Manage image files (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 Marketing."
-ms.date: 04/01/2018
-
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -46,7 +45,7 @@ To manage keywords:
 
 To view and edit your image library:
 
-1. Go to **Marketing** > **Marketing content** > **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
+1. Go to **Marketing** > **Marketing content** > **Images**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
 
 2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
@@ -61,7 +60,7 @@ To view and edit your image library:
 
 5. Select **Save** to upload your images to Dynamics 365 Marketing.
 
-6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Files**.
+6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Images**.
 
 ### See also
 

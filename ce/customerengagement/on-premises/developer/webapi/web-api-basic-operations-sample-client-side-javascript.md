@@ -868,7 +868,7 @@ Sdk.deleteSampleData = function () {
  [Update and delete entities using the Web API](update-delete-entities-using-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Basic Operations Sample](web-api-basic-operations-sample.md)   
- [Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)   
+ [Web API Basic Operations Sample (C#)](/power-apps/developer/data-platform/webapi/samples/cdswebapiservice-basic-operations)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)   

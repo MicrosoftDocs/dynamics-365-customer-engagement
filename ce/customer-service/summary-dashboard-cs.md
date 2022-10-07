@@ -1,7 +1,7 @@
 ---
 title: Summary Dashboard | Microsoft Docs
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 04/05/2021
+ms.date: 09/13/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -29,15 +29,18 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into which topics are generating the highest volume and which topics are emerging with the highest rate of change in volume.
 
-![Summary dashboard.](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
+**Navigation**
 
-To view the Summary dashboard, in **Service**, in the site map, select **Insights**, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
+In the Customer Service workspace, you can navigate to the Summary dashboard as follows:
+
+- In the default view, select the plus (**+**) icon, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
 
 The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
 
 The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for specific time periods, channels, queues, and agents. To filter data by duration, channel, queue, or agent, select a value from the respective drop-down list. 
+By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for specific time periods, channels, queues, and agents. To filter data by duration, channel, queue, or agent, select a value from the respective dropdown list. 
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
@@ -47,7 +50,7 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ![Key insights discovery card.](media/key-insights-card.png)
 
-The Key insights card has two areas.
+The Key insights card has two areas:
 
 - **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
@@ -58,7 +61,11 @@ The Key insights card has two areas.
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
-This table shows the key performance indicators that are displayed in the report.
+The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
+
+:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
+
+The following table shows the key performance indicators that are displayed in the report.
 
 | KPI    | Description     |
 |----------|------------|
@@ -90,9 +97,10 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 ### See also
 
-- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
-- [Agent dashboard](agent-dashboard-cs.md) <br>
-- [Topics dashboard](case-topics-dashboard-cs.md) 
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard-cs.md)  
+[Topics dashboard](case-topics-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

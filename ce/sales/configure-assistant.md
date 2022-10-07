@@ -20,12 +20,11 @@ topic-status: Drafting
 Configure the assistant to help sellers track their daily actions and communications through a collection of actionable insight cards.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Configure the standard and premium assistant 
 
@@ -132,7 +131,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
 
 Assistant tutorials are available for you to learn how to create custom insight cards by using minimal or no code through Power Automate. Using the tutorials, you learn from creating a basic custom insight, a "hello world" equivalent, and gradually increase the complexity as you go along.
 
-More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/learn/modules/sales-insights-lab/)
+More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/training/modules/sales-insights-lab/)
 
 ## Disable teasers
 

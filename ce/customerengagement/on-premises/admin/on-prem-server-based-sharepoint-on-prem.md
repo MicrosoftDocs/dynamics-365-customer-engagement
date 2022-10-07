@@ -26,7 +26,7 @@ This topic describes how to configure server-based integration between Dynamics 
 Follow the steps, in the order provided, to set up Customer Engagement (on-premises) with Microsoft SharePoint Server On-Premises.
 
 > [!IMPORTANT]
-> - PowerShell commands should be run in administrator mode. See: [How do I launch PowerShell?](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#how-do-i-launch-powershell)
+> - PowerShell commands should be run in administrator mode. See: [How do I launch PowerShell?](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2&preserve-view=true#how-do-i-launch-powershell)
 > - If a task isn’t completed, for example, if a PowerShell command returns an error message, the issue must be resolved before you continue to the next command, task, or step.
 > - Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Customer Engagement (on-premises) organization for server-based SharePoint integration.
 
@@ -200,7 +200,7 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
     
     To run the following commands, you must specify two parameters:
     
-      - The SharePoint On-Premises site collection URL. In the example here, *https://sharepoint.contoso.com/sites/crm/* is used for the site collection URL.
+      - The SharePoint On-Premises site collection URL. In the example here, `https://sharepoint.contoso.com/sites/crm/` is used for the site collection URL.
     
       - The *CrmRealmId* is the ID of the Customer Engagement (on-premises) organization you want to use for document management with SharePoint. More information: [Get the Dynamics 365 Realm ID](#get-the-dynamics-365-realm-id)
     

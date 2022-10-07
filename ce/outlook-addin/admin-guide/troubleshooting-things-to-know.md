@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about troubleshooting common Microsoft Dynamics 365 for Outlook installation and upgrade issues.
 ms.custom:
 ms.date: 09/17/2018
 ms.reviewer:

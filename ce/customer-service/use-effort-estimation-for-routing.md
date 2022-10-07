@@ -1,7 +1,7 @@
 ---
 title: "Use effort estimation model in unified routing | MicrosoftDocs"
 description: "Learn how to use the effort estimation model in unified routing in Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -46,13 +46,9 @@ You can create the effort estimation models for any record that is enabled for u
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, select **Routing**. The **Routing** page appears.
-
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
@@ -126,7 +122,7 @@ After you train the effort estimation models, you can create classification rule
 
 Create the route-to-queue rules based on the effort estimation.
 
-1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md)
 
 2. Create a rule to define conditions and select the queue to which the work items need to be assigned when the conditions are met.
    

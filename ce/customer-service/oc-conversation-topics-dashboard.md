@@ -1,7 +1,7 @@
 ---
 title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
-ms.date: 04/09/2021
+ms.date: 05/9/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -15,7 +15,12 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation Topics dashboard.](media/oc-topics.png "Omnichannel Conversation Topics dashboard")
 
-You can view the Topics dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Topics** tab.
+**Navigation**
+
+You can view the Topics dashboard in the Customer Service workspace or Omnichannel for Customer Service app. In the Customer Service workspace, you can navigate to the Conversation Topics dashboard as follows:
+
+- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Topics**.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Topics**.
 
 ## Report Details
 
@@ -90,3 +95,4 @@ The topics capability in the Customer Service historical analytics reports comes
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Agent dashboard](agent-dashboard.md)  
 [Bot dashboard](oc-bot-dashboard.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

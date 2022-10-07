@@ -2,11 +2,11 @@
 title: "Set priorities (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up priorities in Dynamics 365 Field Service
 ms.date: 09/30/2017
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -23,17 +23,4 @@ Priority records let you prioritize your work orders. You can also assign each p
   
 3.  Use the tooltips to help you fill in your information, and then select **Save**.  
   
-### See also
-
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set up territories](../field-service/set-up-territories.md)   
- [Create a work order](../field-service/create-work-order.md)   
- [Create work order types](../field-service/create-work-order-types.md)   
- [Set up work order sub-statuses](./work-order-status-booking-status.md)   
- [Set up time groups](../field-service/set-up-time-groups.md)   
- [Set up service task types](../field-service/set-up-service-task-types.md)   
- [Configure incident types](../field-service/configure-incident-types.md)<br>
- [User's Guide](../field-service/user-guide.md) 
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

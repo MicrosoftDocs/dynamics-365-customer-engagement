@@ -1,37 +1,32 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 03/28/2022
+ms.date: 08/02/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 # Configure predictive opportunity scoring 
 
 Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise**<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+** Enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. For more information on enabling predictive scoring, see [Lead and opportunity scoring](digital-selling-scoring.md).
 
 ## What is predictive opportunity scoring
 
-Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.   
+Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities based on historical data. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity. 
+When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
 
->[!NOTE]
->Your historical data will be deleted after 30 days from the date of your subscription expiration. 
+> [!NOTE]
+> If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
 
 Using this score, you can:
 
@@ -39,6 +34,7 @@ Using this score, you can:
 - Spend time on opportunities that have low scores and convert them into possible deals.
 
 For example, say you have two opportunities&mdash;Opportunity A and Opportunity B&mdash;in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity B. By looking at the score, you can predict that Opportunity A has more chances of being converted into a won deal, and you can engage it. Also, you can further analyze why the score of Opportunity B is low by looking at the top reasons that are influencing the score and deciding how to improve this score.
+
 
 The following image is an example of an opportunity scoring widget.
 
@@ -51,16 +47,22 @@ The following image is an example of an opportunity scoring widget.
 
 You can add custom fields to generate an accurate model for predictive opportunity scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
+
 ## Prerequisites
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 won and 40 lost opportunities in the past 3 months to 2 years. You can configure the timeframe in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
-
-    >[!NOTE]
-    >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
-
 - Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+ 
+- You need to have enough opportunities to train the model based on past data. Choose a time period between 3 months to 2 years to meet one of the following requirements:
+
+    - A minimum of 40 won and 40 lost opportunities that were created and closed during the selected time period.
+    - A minimum of 40 closed opportunities in the last stage of the business process during the selected time period, if you want to define a [per stage model](#per-stage-model).
+  >[!NOTE]
+  >- The numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
+  >- The system takes about 4 hours to sync the data with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
+
+
 
 ## Understand the configuration page
 
@@ -133,6 +135,12 @@ In the lower-left corner of the page, you can use **Add model** to generate a ne
 > [!div class="mx-imgBorder"]
 > ![Add a model option](media/si-admin-predictive-lead-scoring-add-model.png "Add a model option")
 
+## Per stage model
+
+A per stage model calculates the influence of attributes at each stage of the business process flow based on past data. For example, you can see how the estimated close date has an influence across different stages of the opportunity. You can then review and decide which stages are relevant for each attribute according to your organization's standards and improve the model accuracy. By default, per stage modeling is disabled. You can enable it while [adding a model](#add-a-model). 
+
+When per stage modeling is disabled, the model uses only attributes that had a higher influence on opportunities that were closed as won. For example, if majority of the won deals had a business phone associated, the model may give a higher score to opportunities that have an associated business phone.
+
 ## First-run setup experience
 
 When the predictive opportunity scoring configuration section is opened for the first time in your organization and no models have been trained on the installation of Sales Insights, you must add the model. 
@@ -142,9 +150,6 @@ However, if your organization has enough opportunities in the past 24 months tha
 If you're using your custom attributes for opportunity generation, you can generate the model by configuring the parameters with your custom attributes.
 
 1. Before you configure the model, review the [prerequisites](#prerequisites). 
-
-    > [!NOTE]
-    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
@@ -162,11 +167,11 @@ If you're using your custom attributes for opportunity generation, you can gener
 
     By default, the name is selected as **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-5. In the **Business process flow** list, select a business process flow that's relevant for the opportunities for which you're generating the model. The values displayed in the list are the business process flows that are defined for opportunities in your organization.
+5. In the **Business process flow** list, select a business process flow that's relevant for the opportunities that you're generating the model for. This is also important if you want to enable [per stage modeling](#per-stage-model).
+    > [!NOTE]
+    >- To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
+    >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
 
-    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business processes flows to represent the work of different security roles or lines of business.
-
-    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Define entities for analytics](#define-entities-for-analytics)
 
 6. In the **State option set** list, select the option set in which the status of the opportunities is defined, and then select the corresponding won and lost values in the **Won value** and **Lost value** lists, respectively.
 
@@ -186,30 +191,40 @@ If you're using your custom attributes for opportunity generation, you can gener
 8. Choose time period from the **Train with opportunities from the past** list. The default duration is 2 years.   
 
     > [!NOTE]
-    > You must have a minimum of 40 won and 40 lost opportunities that were created during the selected period. For example, if you select 6 months, the model considers opportunities that were created in the past 6 months to verify whether the minimum opportunity requirement is met.  
+    > You must have a minimum of 40 won and 40 lost opportunities that were created and closed during the selected period. For example, if you select 6 months, the model considers opportunities that were created in the past 6 months to verify whether the minimum opportunity requirement is met.  
    
     The model considers closed opportunities from the selected period and uses that to score the open opportunities from past 2 years.  
 
    If you don't have the minimum closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
-9. Select **Get started**. 
+9. (Optional) Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage.  
+    After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Manual retraining](#manual-retraining)
+    :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
-    The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
+    > [!NOTE]
+    > If the **Per stage modeling** option is disabled, ensure that you've selected a valid business process in the **Business process flow** field. 
+    
+ 1. Select **Get started**.
+
+     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
+    > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
 
-    >[!NOTE]
-    >If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
+    > [!NOTE]
+    > If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-10. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+    After the model is trained, a popup message is displayed.
+    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
 
-11. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
+1. Perform one of the following actions:
 
-    >[!NOTE]
-    >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
+    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in the **My Open Opportunities Scored** view and a **Opportunity score** widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**.  
 
 ## Add a model
 
@@ -225,22 +240,10 @@ In organizations that have different lines of business, you might need different
     >[!NOTE]
     >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization.  More information: [Delete a model](#delete-a-model)
 
-    > [!div class="mx-imgBorder"]
-    > ![Add model page for predictive opportunity scoring](media/si-admin-predictive-opportunity-scoring-model-add-model-page.png "Add model page for predictive opportunity scoring")
+     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
-3. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
+3. Perform steps 4 through 12 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
-4. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Model training confirmation notification](media/si-admin-predictive-opportunity-scoring-model-confirmation-notification.png "Model training confirmation notification")
-
-5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
-
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
-
-    >[!NOTE]
-    >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
 
 ## Edit and retrain a model
 
@@ -249,7 +252,7 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 >[!NOTE]
 >For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
-You can retrain the model [automatically](#automatic-retraining) or [manually](#manually-retraining). Both methods are described in the following sections.
+You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
 ### Automatic retraining
 
@@ -263,14 +266,15 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >[!NOTE]
     >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
-### Manually retraining
+### Manual retraining
 
-1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
+1. On the predictive opportunity scoring configuration page, open the model and ensure that **Retrain automatically** is turned off.
+
+1. Select **Edit model**.
 
 2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (account) including custom attributes to train the model.
 
-    > [!div class="mx-imgBorder"]
-    > ![Edit model page](media/si-admin-predictive-opportunity-scoring-edit-model-page.png "Edit model page")   
+    :::image type="content" source="media/si-admin-predictive-opportunity-scoring-edit-model-page.png" alt-text="A screenshot of the Edit model page.":::  
 
     >[!NOTE]
     >The scoring model don't support the following types of attributes:
@@ -278,15 +282,38 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >- Date and time related attributes
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
+3. If you've enabled per stage modeling support, you'll see two additional columns: **Applicable stages** and **Prediction influence**.
+        :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the Applicable stages and Prediction influence columns.":::
 
-3. Select **Retrain model**.
 
-    The model starts to be generated with the selected custom attributes, and a notification is displayed on the screen.
+    1. In the **Applicable stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than initial stages. You can select more than one stage for each attribute. 
+    2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to very high. For example, let's say that you don't want to consider Budget Amount for Develop stage, but historical data shows that it has a high influence. In this case, you might want to reconsider your decision or analyze why it has such high influence.  
 
-4. On the configuration summary page, review the model performance and other parameters. If the retrained model satisfies your organizational requirements, publish the model.
+3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.  
+    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.  
+    :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
 
-    >[!NOTE]
-    >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model. 
+    > [!NOTE]
+    > When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values in the attribute.
+
+1. Select **Retrain model**.
+    
+    A popup message is displayed for the grade ranges. When the model is retrained, the grade ranges may change as well.  
+
+    :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
+1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
+
+    After the model is trained, a popup message is displayed.  
+    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
+
+1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
+
+1. Perform one of the following actions:
+
+    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in the **My Open Opportunities Scored** view and a **Opportunity score** widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**.  
 
 ## View attribute insights
 
@@ -382,180 +409,6 @@ When you open a published model, a note displays above the version details secti
  
 1.	Select **Delete model** to delete the current model from the application.
 2.	[Create the model](#add-a-model) with different filter column and filter values to score a opportunity.
-
-## Define entities for analytics
-
-To display the list of business process flows that are defined for opportunities in your organization, and to allow for analytics, the business process flows entities must be enabled.
-
-**To define entities for analytics**
-
-1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
-
-2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. Update the following columns:
-
-    1. `ParentEntityLogicalName`: The logical name of the entity. 
-
-    1. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Data Lake Storage and if **False**, the entity won't sync to Data Lake Storage. By default, the value is **False**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Create an entry for Data Lake Storage](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
-
->[!NOTE]
->Change Tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.
-
-**Examples:**    
-
-Create, read, update, and delete (CRUD) operations can be performed either through OData/SDK or solution import. 
-
-- Sample to create an operation payload through OData:
-
-    ```HTTP
-    POST http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs
-    {
-        isenabledforadls: true,
-        parententitylogicalname: "account"
-    }
-    ```
-
-- Sample to patch an operation payload to update a record via OData:
-
-    ```HTTP
-    PATCH http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs(<copy guid from 'entityanalyticsconfigid' column>)
-    {
-        isenabledforadls: false
-    }   
-    ```    
-    To learn more on how to use OData requests for Update and Delete, see [Update and delete entities using the Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api)
-     
-- Sample to manage a solution to enable Account and Contact entities for Data Lake Storage. Create the following three XML files, and zip them into **ADLSConfigDataSampleTest.zip**.
-    - **[Content_Types].xml**
-        ```XML
-        <?xml version="1.0" encoding="UTF-8"?>
-        -<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
-        <Default ContentType="application/octet-stream" Extension="xml"/>
-        </Types>
-        ```
-    - **customizations.xml**
-        ```XML
-        <?xml version="1.0"?>
-        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <Entities/>
-        <Roles/>
-        <Workflows/>
-        <FieldSecurityProfiles/>
-        <Templates/>
-        <EntityMaps/>
-        <EntityRelationships/>
-        <OrganizationSettings/>
-        <optionsets/>
-        <CustomControls/>
-        <EntityDataProviders/>
-        -<EntityAnalyticsConfigs>
-            -<EntityAnalyticsConfig>
-                <parententitylogicalname>account</parententitylogicalname>
-                <isenabledforadls>1</isenabledforadls>
-            </EntityAnalyticsConfig>
-            -<EntityAnalyticsConfig>
-                <parententitylogicalname>contact</parententitylogicalname>
-                <isenabledforadls>1</isenabledforadls>
-            </EntityAnalyticsConfig>
-        </EntityAnalyticsConfigs>
-        -<Languages>
-            <Language>1033</Language>
-        </Languages>
-        </ImportExportXml>
-        ```
-    - **solution.xml**
-        ```XML
-        <?xml version="1.0"?>
-        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generatedBy="OnPremise" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.5507">
-        -<SolutionManifest>
-            <UniqueName>ADLSConfigDataTest</UniqueName>
-            -<LocalizedNames>
-                <LocalizedName languagecode="1033" description="ADLSConfigDataTest"/>
-            </LocalizedNames>
-            <Descriptions/>
-            <Version>1.0</Version>
-            <Managed>1</Managed>
-            -<Publisher>
-                <UniqueName>Cr7e230</UniqueName>
-                -<LocalizedNames>
-                    <LocalizedName languagecode="1033" description="CDS Default Publisher"/>
-                </LocalizedNames>
-                <Descriptions/>
-                <EMailAddress xsi:nil="true"/>
-                <SupportingWebsiteUrl xsi:nil="true"/>
-                <CustomizationPrefix>cr926</CustomizationPrefix>
-                <CustomizationOptionValuePrefix>88399</CustomizationOptionValuePrefix>
-                -<Addresses>
-                    -<Address>
-                        <AddressNumber>1</AddressNumber>
-                        <AddressTypeCode xsi:nil="true"/>
-                        <City xsi:nil="true"/>
-                        <County xsi:nil="true"/>
-                        <Country xsi:nil="true"/>
-                        <Fax xsi:nil="true"/>
-                        <FreightTermsCode xsi:nil="true"/>
-                        <ImportSequenceNumber xsi:nil="true"/>
-                        <Latitude xsi:nil="true"/>
-                        <Line1 xsi:nil="true"/>
-                        <Line2 xsi:nil="true"/>
-                        <Line3 xsi:nil="true"/>
-                        <Longitude xsi:nil="true"/>
-                        <Name xsi:nil="true"/>
-                        <PostalCode xsi:nil="true"/>
-                        <PostOfficeBox xsi:nil="true"/>
-                        <PrimaryContactName xsi:nil="true"/>
-                        <ShippingMethodCode xsi:nil="true"/>
-                        <StateOrProvince xsi:nil="true"/>
-                        <Telephone1 xsi:nil="true"/>
-                        <Telephone2 xsi:nil="true"/>
-                        <Telephone3 xsi:nil="true"/>
-                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
-                        <UPSZone xsi:nil="true"/>
-                        <UTCOffset xsi:nil="true"/>
-                        <UTCConversionTimeZoneCode xsi:nil="true"/>
-                    </Address>
-                    -<Address>
-                        <AddressNumber>2</AddressNumber>
-                        <AddressTypeCode xsi:nil="true"/>
-                        <City xsi:nil="true"/>
-                        <County xsi:nil="true"/>
-                        <Country xsi:nil="true"/>
-                        <Fax xsi:nil="true"/>
-                        <FreightTermsCode xsi:nil="true"/>
-                        <ImportSequenceNumber xsi:nil="true"/>
-                        <Latitude xsi:nil="true"/>
-                        <Line1 xsi:nil="true"/>
-                        <Line2 xsi:nil="true"/>
-                        <Line3 xsi:nil="true"/>
-                        <Longitude xsi:nil="true"/>
-                        <Name xsi:nil="true"/>
-                        <PostalCode xsi:nil="true"/>
-                        <PostOfficeBox xsi:nil="true"/>
-                        <PrimaryContactName xsi:nil="true"/>
-                        <ShippingMethodCode xsi:nil="true"/>
-                        <StateOrProvince xsi:nil="true"/>
-                        <Telephone1 xsi:nil="true"/>
-                        <Telephone2 xsi:nil="true"/>
-                        <Telephone3 xsi:nil="true"/>
-                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
-                        <UPSZone xsi:nil="true"/>
-                        <UTCOffset xsi:nil="true"/>
-                        <UTCConversionTimeZoneCode xsi:nil="true"/>
-                    </Address>
-                </Addresses>
-            </Publisher>
-            -<RootComponents>
-                <RootComponent behavior="0" schemaName="account" type="430"/>
-                <RootComponent behavior="0" schemaName="contact" type="430"/>
-            </RootComponents>
-            <MissingDependencies/>
-        </SolutionManifest>
-        </ImportExportXml>
-        ```
-
-
 
 ## Add the opportunity scoring widget to a form
 

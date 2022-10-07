@@ -1,12 +1,13 @@
 ---
 title: "Connect with customers through record or up next widget | MicrosoftDocs"
 description: "Use the Up next widget or a record to connect with customers using channels such as, phone calls and emails in Dynamics 365 Sales."
-ms.date: 10/25/2021
+ms.date: 06/24/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+
 # Connect with customers by using a record or the Up next widget 
 
 As a seller using Dynamics 365 Sales, you can connect with your customers daily by using multiple channels, such as phone and email, without losing context or needing to switch among multiple applications. When an activity for contacting customers through a phone call or email appears in a sequence, the corresponding phone or email icons are displayed in your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) record and the [Up next](prioritize-sales-pipeline-through-work-list.md#understand-the-up-next-widget) widget. After you make the phone call or send the email, you mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
@@ -14,16 +15,14 @@ As a seller using Dynamics 365 Sales, you can connect with your customers daily 
 If an activity isn't required to be completed by the due date or you're unable to connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## Call a customer
 
-You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the mobile phone number will be used to initiate the call. If both business and mobile phone number are not available, the softphone dialer is displayed for you to dial a phone number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
+You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the mobile phone number will be used to initiate the call. If both business and mobile phone number aren't available, the softphone dialer is displayed for you to dial a phone number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
 
 When you make a phone call, a **Phone Call** activity is created and linked to the lead or opportunity. The **Phone Call** activity captures the following information:
 
@@ -56,19 +55,31 @@ You can send an email to your customer from a record in the **My work** list or 
 
 While composing an email, if you try to navigate to another record or send an email from another lead or opportunity, a warning message is displayed to save the email first.
 
-**To send an email**
-
-Do one of the following actions:
+Do one of the following actions to send an email:
 
 - Select the email icon in the **My work** list record.
 
     > [!div class="mx-imgBorder"]
     > ![Send email from the My work list](media/my-work-list-email.png "Send email from the My work list")
 
-- Select **Email** in the activity in the **Up next** widget.
+- Select **Email** in the **Up next** widget to send the email immediately.
 
-    > [!div class="mx-imgBorder"]
-    > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
+    :::image type="content" source="media/up-next-widget-email-schedule-suggestion.png" alt-text="Select the suggested send time option to open the email suggestions."::: 
+
+    To send the email at a scheduled time, follow these steps:
+
+    >[!NOTE]
+    >Email suggestions are displayed only when the **Email engagement** feature is enabled in your organization. If not enabled, contact your administrator to enable the **Email engagement** feature. More information: [Configure email engagement](configure-email-engagement.md)
+
+    1. Select **Suggested send time**. A suggestion is displayed for you to send the email at a specific time, depending on when the recipient is likely to read the email.
+
+        :::image type="content" source="media/up-next-widget-email-schedule-view-suggestion.png" alt-text="Select the schedule email to on the suggestion message.":::
+
+    2. In the **Schedule email dialog** box, select **Schedule email**.
+
+        The **Schedule email dialog** populates the suggested time. You can schedule it for a different time, if you want.
+
+    The email task is closed and added to the Timeline wall. Though the email task is set as closed, when you open the record, you can see the status as **Pending**. The record status will be changed to complete only after the email is sent on the scheduled time.     
 
 ## Work with appointments
 
@@ -107,10 +118,45 @@ Do one of the following actions:
     > [!div class="mx-imgBorder"]
     > ![Create an appointment through the Up next widget](media/sa-create-appointment-upnext-widget.png "Create an appointment through the Up next widget") 
 
+## Add a note to an activity
 
+Notes help you to provide more information about the activity. The provided information is displayed on the record's **Timeline** wall, which helps the stakeholders to refer this information when required.
+
+>[!NOTE]
+>If you are using customs forms for the records and the **Timeline** wall is not add to the form, add the **Timeline** section the forms. More information: [Add, configure, move, or delete sections on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
+
+You can add notes in the following modes:
+
+**Activity in progress**
+
+To add a note when an activity is in progress:
+
+1. Select the **More options** (**...**) icon > **+ Note**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Select add note](media/sa-add-notes-up-next-widget.png "Select add note")
+
+2. On the **Add a note** dialog box, provide the information as required and then select **Save**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Provide information and select save](media/sa-provide-notes-up-next-widget.png "Provide information and select save")
+
+**Close an activity**
+ 
+While closing (**Mark complete**) an activity, you can provide the reason for closing the activity as a note. 
+
+1. On the activity, select **Mark complete**.  
+      
+    A confirmation dialog box is displayed.    
+    
+    > [!div class="mx-imgBorder"]
+    > ![Confirmation dialog box for closing an activity](media/sa-provide-notes-mark-complete-dialog.png "Confirmation dialog box for closing an activity")
+    
+1. On the confirmation dialog box, enter the required information in the **Add a note** section and then select **Got it**.
+   
 ## Skip or snooze an activity
 
-You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
+You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence, and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
 
 If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. You can't snooze a manual task.
 

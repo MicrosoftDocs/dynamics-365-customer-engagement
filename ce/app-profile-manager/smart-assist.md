@@ -1,10 +1,10 @@
 ---
 title: "Smart assist for agent efficiency | MicrosoftDocs"
-description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel Administration apps."
+description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/07/2021
+ms.date: 05/11/2022
 ms.topic: article
 ---
 
@@ -36,7 +36,10 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Smart assist must be enabled.
 - One of the following:
   - AI-suggested similar cases and knowledge articles should be enabled by your administrator.
-  - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../customer-service/smart-assist-bot.md).
+  - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot using Azure Bot Service](../customer-service/smart-assist-bot.md).
+  
+  > [!NOTE]
+  > Power Virtual Agents bots aren't supported as smart assist bots.
 
 ## Enable AI suggestions for similar cases and knowledge articles
 

@@ -2,14 +2,14 @@
 title: "Time entries for Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE
@@ -136,14 +136,5 @@ Time entries are only automatically created for work order bookings and not for 
 Time entries are not created in offline mode, but are created upon sync. 
 
 The Project Service introduced calendar control is built specifically to display project service type time entries. Field Service and other time entries will, in most cases, be filtered out of displayed data from the control regardless of the parameters defined in the view.
-
-### See also
-
-- [Time and expense in Project Service Automation](/dynamics365/project-operations/psa/time-expense-collaboration-guide)
-
-- [Booking timestamps](booking-timestamps.md)
-
-- [Time off requests](submit-approve-time-off-requests.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
