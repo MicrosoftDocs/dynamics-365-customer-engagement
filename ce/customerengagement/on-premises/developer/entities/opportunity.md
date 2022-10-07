@@ -941,7 +941,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Internal attribute for storing `customerid`. Do not use this attribute directly; use `parentcontactid`.|
+|Description|Choose a contact to connect this opportunity to, so that the relationship is visible in reports and analytics.|
 |DisplayName|Contact|
 |IsValidForForm|True|
 |IsValidForRead|True|
