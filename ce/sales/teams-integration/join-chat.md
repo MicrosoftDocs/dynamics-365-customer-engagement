@@ -11,9 +11,6 @@ manager: shujoshi
 
 # Join an existing connected chat
 
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
-
 View and easily join chats that are connected to a record you have write access to.
 
 ## License and role requirements
