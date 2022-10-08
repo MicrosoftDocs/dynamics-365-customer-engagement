@@ -1,9 +1,8 @@
 ---
 title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.date: 09/08/2022
+ms.date: 10/08/2022
 ms.reviewer: mhart
-
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
@@ -32,12 +31,12 @@ Enable location and map settings to perform functions like:
 
 ## Enable Bing Maps (Show Bing Maps on forms)
 
-Enabling maps makes it so dispatchers and technicians can see a map view on work orders, accounts, and other records.  They can also use address recommendations for quick and accurate data entry, get directions, and view real time traffic.
+Enabling maps lets dispatchers and technicians see a map view on work orders, accounts, and other records. They can also use address recommendations for quick and accurate data entry, get directions, and view real-time traffic.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order map.](media/work-order-map.png) 
 
-Bing Maps is enabled by default for new environments outside the EU. EU customers can opt into using Bing Maps with the privacy notice and consent to share data with an external system.  To confirm Bing Maps is enabled - or to disable Bing Maps - go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
+Bing Maps is enabled by default for new environments outside the EU. EU customers can opt-in to use Bing Maps with the privacy notice and consent to share data with an external system. To enable oder disable Bing Maps, go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system settings in Field Service, showing the option to enable Bing Maps.](./media/admin-enable-bing-maps-on-forms.png)
