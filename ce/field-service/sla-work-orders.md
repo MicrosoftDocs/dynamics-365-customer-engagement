@@ -16,7 +16,7 @@ search.app:
   - D365FS
 ---
 
-# Service level agreements (SLAs) for work orders
+# Service level agreements (SLA) for work orders
 
 Dynamics 365 Field Service builds on the [Service Level Agreement (SLA) functionality](/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) of Dynamics 365 Customer Service.
 
