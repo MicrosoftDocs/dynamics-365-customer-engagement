@@ -61,7 +61,7 @@ You can create new SLA KPI instances by going to **Advanced Settings** > **Custo
 
 1. Go to the **Field Service SLA Configuration** tab to select the **SLA KPI Instances** for Field Service. By default, there's an SLA related to work order arrival times.
 
-   SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. An SLA can have many SLA KPI Instances. The SLA KPI instances entered in our example tell the system to update the **Time from Promised** and **Time to Promised** work order fields for scheduling, which we'll discuss further on in this article.
+   SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. An SLA can have multiple SLA KPI Instances. If more than one SLA KPI matches for a work order, the one that was first created applies with priority.
 
 ## Create SLA
 
