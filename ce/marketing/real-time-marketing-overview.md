@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn general information about the new real-time marketing features in Dynamics 365 Marketing."
-ms.date: 09/15/2022
+ms.date: 09/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
@@ -23,7 +23,7 @@ Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural lan
 
 - **Engage customers in real-time**
 
-  With features such as [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md), [custom triggers](real-time-marketing-custom-triggers.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+  With [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md) using [email](real-time-marketing-email.md), [text message](real-time-marketing-outbound-text-messaging.md), or [push notification](real-time-marketing-push-notifications.md) channels, organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 
 - **Win customers and earn loyalty faster**
 
@@ -61,4 +61,4 @@ The **when** can be as straightforward as a planned time when you want to send t
 - [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md)
 
 > [!NOTE]
-> Real-time customer journey orchestration features are available in the United States, Europe, Asia Pacific, United Kingdom, Australia, Canada, Japan, India, Brazil, and United Arab Emirates regions. Availability in other geographies will be communicated at a later date.
+> Real-time customer journey orchestration features are available in all geographies where Dynamics 365 Marketing is available. You can find a list of geographies on [Product Availability by Geography](https://dynamics.microsoft.com/availability-reports/).
