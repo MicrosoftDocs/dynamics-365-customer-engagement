@@ -1,7 +1,7 @@
 ---
 title: "Export and import unified routing data for live chat | MicrosoftDocs"
 description: "Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service."
-ms.date: 04/18/2022
+ms.date: 10/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export import data for the live chat channel
+# Export and import data for the live chat channel
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for live chat.
 
@@ -54,7 +54,9 @@ The following prerequisites must be met:
   - Tags (msdyn_octags)
 
 > [!IMPORTANT]
-> The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+>
+> - The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+> - If you try to migrate workstreams data for live chat with context variables, it might fail. For a workaround, see [Import fails in Configuration Migration tool for decision ruleset with context variables for chat workstreams](https://go.microsoft.com/fwlink/p/?linkid=2165393)
 
 ## Export and import live chat configuration
 
