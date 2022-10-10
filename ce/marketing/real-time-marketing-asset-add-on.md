@@ -1,7 +1,7 @@
 ---
 title: "Install the asset library add-on (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to install the real-time marketing asset library add-on in the Dynamics 365 Marketing settings."
-ms.date: 09/19/2022
+ms.date: 10/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -27,7 +27,7 @@ In real-time marketing, instead of using the default image library, you can inst
 > The real-time marketing asset library add-on may already be installed for your organization. You can confirm whether the add-on is installed by going to **Settings > Add-ons** and checking if the library add-on is installed. 
 
 > [!NOTE]
-> The asset library add-on is not available for trials or for customers in India, Brazil, and United Arab Emirates.
+> The asset library add-on is not available for trials or for customers in India, Brazil, United Arab Emirates, France, and Switzerland.
 
 ## Default capabilities vs the real-time marketing asset library
 
@@ -37,7 +37,7 @@ There are some functional differences between the two libraries. It's up to you 
 | --- | --- | --- |
 | Access​ | Installed automatically​ | Needs installation​ |
 | Availability​ | Outbound marketing, real-time marketing, trials​ | Real-time marketing​ |
-| Geo availability​ | All regions where Dynamics 365 Marketing is supported​ | Not available in United Arab Emirates, India, and Brazil ​ |
+| Geo availability​ | All regions where Dynamics 365 Marketing is supported​ | Not available in United Arab Emirates, India, Brazil. France, and Switzerland ​ |
 | File type support​ | Images​ | Images, videos, documents​ |
 | Tags​ | ✔ (Keywords)​ | ✔​ |
 | Alternative text​ | ❌​ | ✔​ |
@@ -51,7 +51,21 @@ There are some functional differences between the two libraries. It's up to you 
 
 ## Installing the add-on
 
-You can install the real-time marketing asset library add-on from the Marketing settings.
+You can install the real-time marketing asset library add-on from the asset library or from the Marketing settings.
+
+### Installation from the asset library
+
+By default, all users have the necessary permissions to trigger the asset library installation. System administrators can remove these permissions. To install the asset library add-on from real-time marketing:
+
+1. Go to real-time marketing, then go to **Assets** > **Library** in the left navigation pane.
+1. Select **Library add-on** in the command bar.
+1. Trigger the installation from the confirmation dialog.
+
+    > [!div class="mx-imgBorder"]
+    > ![Asset add-on install from asset library.](media/real-time-marketing-asset-add-on-install.png "Asset add-on install from asset library")
+
+> [!NOTE]
+> This action may take up to six hours. You will be informed about the progress and you can continue to use the default asset library in the meantime. If the installation fails, you can trigger it again.
 
 ### Installation from settings
 

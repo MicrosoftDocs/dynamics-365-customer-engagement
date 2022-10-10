@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 08/25/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -34,12 +34,12 @@ More information: [Configure searchable fields for Dataverse Search](/power-plat
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
-Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. Dataverse search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. Dataverse search uses the scoring concepts as defined by Azure search. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns.
 
-The following are required view columns:
+The following are the required view columns:
 
 - Article Public Number
 - Content
@@ -154,6 +154,17 @@ These actions can be performed for only published or expired articles.
 Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the app side pane of Customer Service workspace only.
 
 In Customer Service workspace, select the **Smart assist** option on the app side pane to see knowledge article suggestions related to your case.
+
+## Use the suggest-as-you-type option to search for knowledge articles
+
+The suggest-as-you-type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
+
+The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control.
+
+To use the suggest-as-you-type option, your administrator must first enable it. More information:[Enable the suggest-as-you-type option](set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option)
+
+
+:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot shows use of the suggest-as-you-type option":::
 
 ## View knowledge articles
 

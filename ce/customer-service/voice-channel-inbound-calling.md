@@ -4,7 +4,7 @@ description: "Learn about how to set up workstreams and queues for inbound calli
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 10/03/2022
 ms.topic: article
 
 ---
@@ -105,7 +105,7 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ### Configure call overflow for the voice queue
 
-With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Configure call overflow](voice-channel-call-overflow.md)
+With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Manage overflow](manage-overflow.md)
 
 ### Assignment rules for a queue
 
@@ -127,15 +127,8 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 5. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
-    ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-6. In **Overflow action**, select one of the following options:
-   - **Default**: Specify if the work item should remain in the queue to be routed to the next available agent.
-   - **End call**: Specify to end the call if no agent will be available to take the call, for example an operating hour is configured and the overflow action was triggered on account of it.
-   - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
-
-    > [!Note]
-    > For the action to be run, overflow condition must be configured for the corresponding queue. More information: [Handle call overflow](voice-channel-call-overflow.md)
+6. To configure percentage-based distribution of work items, see [Percentage-based allocation of work to queues](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
 
@@ -151,6 +144,7 @@ You can configure work classification rules for the voice workstream to add deta
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
+[Configure outbound and inbound profiles](configure-outbound-inbound-profiles.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
