@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 08/01/2022
+ms.date: 10/10/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -86,9 +86,7 @@ You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../inclu
 
 To learn more about adding a timer control to an SLA-enabled entity, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
 
-## View active duration and elapsed time for SLA KPI Instances (preview)
-
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+## View active duration and elapsed time for SLA KPI Instances
 
 Tracking the business hours taken by SLA KPI Instances to reach their terminal status will help you evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 
