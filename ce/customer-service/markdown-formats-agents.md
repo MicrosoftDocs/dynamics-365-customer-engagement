@@ -4,7 +4,7 @@ description: "Read this article to know about the Markdown formats that agents c
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 09/29/2022
+ms.date: 10/10/2022
 ms.topic: reference
 
 ---
