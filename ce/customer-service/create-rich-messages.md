@@ -51,7 +51,7 @@ By creating and publishing channel-specific rich messages, your organization's c
 
 1. Select **Create**.
 
-1. Begin building your rich message within the rich message designer. You may save your work at any time by selecting **Save** at the top of the designer. For additional information on building each rich message type, select the type to learn more:
+1. Begin building your rich message within the rich message designer. You may save your work at any time by selecting **Save** at the top of the designer. For more information about building each rich message type, select the type to learn more:
    - Apple Pay
    - Authentication
    - Custom JSON
@@ -96,7 +96,7 @@ To associate rich messages with a workstream, complete the following steps:
 
 1. To edit a workstream's rich messages, select **Edit**, and then add or remove rich messages as required. 
 
-1. To add more rich messages, select **Add**. Select additional rich messages, and then select **Add**. They should now appear in the list of rich messages.
+1. To add more rich messages, select **Add**. Select more rich messages, and then select **Add**. They should now appear in the list of rich messages.
 
 1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message will no longer appear in the list.
 
@@ -347,7 +347,7 @@ Survey-level properties
      b.	**Message description** (Optional): This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the message title.<br>
      c.	**Image URL** (Optional): The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
 
-1. To begin adding questions select one of the question types from the **toolbox** located between the properties panel and builder. Each question will contain required **Title** and optional **Header** fields, in addition to type-specific configurations. Apple Messages for Business forms support the following question types: Single input, multiline input, single-select, multi-select, dropdown picker, and date picker. 
+1. To begin adding questions, select one of the question types from the **toolbox** located between the properties panel and builder. Each question will contain required **Title** and optional **Header** fields, in addition to type-specific configurations. Apple Messages for Business forms support the following question types: Single input, multiline input, single-select, multi-select, dropdown picker, and date picker. 
 
 1. A form can contain no more than 10 questions, and should be completable without needing to leave the messages application. While building a form, select **Save** to keep your changes. An unpublished form can be saved with missing fields. Changes made to a published form may only be saved if rich message has all required fields filled. 
 
@@ -355,7 +355,7 @@ Survey-level properties
 
 ### Single input question
 
-Single input questions are a short-answer free response style question. This question type is good for collecting information like name, contact information, and numbers. These questions are limited to a maximum of 30 characters. For longer responses see the multiline input question type.
+Single input questions are a short-answer free response style question. This question type is good for collecting information like name, contact information, and numbers. These questions are limited to a maximum of 30 characters. For longer responses, see the multiline input question type.
 
 1. Provide a **Question title**, optional **Header** text, and use the **Required** toggle to control whether the question may be left unanswered.
 
@@ -372,7 +372,7 @@ Single input questions are a short-answer free response style question. This que
 
 1. The **Input place holder** value appears in the empty textbox to provide example data or relevant information. If no place holder value is provided the form will automatically set the place holder value to “Required” or “Optional” based on your selection in step 1. 
 
-1. The **Label** is an optional value that appears beside the text field and can serve as an additional prompt. For a question titled “What is your name?” the label might be set to “Name”. 
+1. The **Label** is an optional value that appears beside the text field and can serve as another prompt. For a question titled “What is your name?” the label might be set to “Name”. 
 
 1. A single input can have a **Maximum length** between 1 and 30 characters. By default, the maximum length is 30. 
 
@@ -395,7 +395,7 @@ Multiline input questions are a long-answer, free-response style question. This 
 
 ### Single-select question
 
-Single-select questions can be used to quickly select a single option from a set of two or more choices. Each choice can additionally support an image. This question type is good for choosing between products and choices, simple triage questions, and any single-select question with a limited number of choices. For multi-select questions that support images, see the multi-select question type, or for single selection questions with ten or more choices, see the dropdown picker question type.
+Single-select questions can be used to quickly select a single option from a set of two or more choices. Each choice can support an image. This question type is good for choosing between products and choices, simple triage questions, and any single-select question with a limited number of choices. For multi-select questions that support images, see the multi-select question type, or for single selection questions with ten or more choices, see the dropdown picker question type.
 
 1. Provide a **Question title** and an optional **Header** text.
 
@@ -418,11 +418,11 @@ Single-select questions can be used to quickly select a single option from a set
     > [!div class=mx-imgBorder]
     > ![Apple Messages for Business single-select question example.](media/single-select-question-example.png "Apple Messages for Business single-select question example")
  
-1. To add additional choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon next to the + icon at the top of the list.
+1. To add more choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon next to the + icon at the top of the list.
 
 ### Multi-select question
 
-Multi-select questions can be used to quickly select one or more options from a set of two or more choices. Each choice can additionally support an image. This question type is good for selecting from a subset of choices, simple triage questions, and any multi-select other multi-select question types. For single selection questions that support images, see the single-select question type, or the dropdown picker question type for single-select questions with a large set of choices.
+Multi-select questions can be used to quickly select one or more options from a set of two or more choices. Each choice can support an image. This question type is good for selecting from a subset of choices, simple triage questions, and any multi-select other multi-select question types. For single selection questions that support images, see the single-select question type, or the dropdown picker question type for single-select questions with a large set of choices.
 
 1. Provide a **Question title** you may also include an optional **Header** text.
 
@@ -436,12 +436,12 @@ Multi-select questions can be used to quickly select one or more options from a 
    
       For an example of the difference between **Value** and **Text**, see the section on single-select question types.<br>
 
-1. To add additional choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. A choice may be removed by selecting the delete icon. To remove all choices, press the erase icon that is located beside the + icon at the top of the list.
+1. To add more choices, select the + icon within the properties panel or builder. You can rearrange the choices by dragging them up or down while selecting the handle button to the left of each choice. A choice may be removed by selecting the delete icon. To remove all choices, press the erase icon that is located beside the + icon at the top of the list.
 
 
 ### Dropdown picker question
 
-Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction which only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country, colors, brands, or categories. For single-select questions that support images but fewer choices, see the single-select question type. 
+Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction that only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country, colors, brands, or categories. For single-select questions that support images but fewer choices, see the single-select question type. 
 
 1. Provide a **Question title**. You can also include an optional **Header** text.
 
@@ -451,7 +451,7 @@ Dropdown picker questions are used to quickly select a single option from a list
    
    b. **Text** (Optional): What the customer will see when viewing the question. By default, the text will match the value. Changing the text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
    
-1. To add additional choices, select the + icon within the properties panel or builder. Choices can be rearranged by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon located beside the + icon at the top of the list.
+1. To add more choices, select the + icon within the properties panel or builder. Choices can be rearranged by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon located beside the + icon at the top of the list.
 
 1. Once you’ve listed all your choices, you can choose a default answer by selecting **Set default value** and choosing an item from the dropdown. If you choose not to select one, the default is automatically set to the first item in your choices. For a large, sorted set of choices, setting the default value to an item in the middle or the most common answer might reduce the amount of scrolling needed.
 
@@ -461,7 +461,7 @@ Date picker questions are used to quickly select a date using a wheel-like scrol
 
 1. Provide a **Question title**. You can also include an optional **Header** text. 
 
-1. **Label** is an optional value that appears beside the text field and can serve as an additional prompt. For a question titled “When were you born”, the label might be set to “Birthday”. 
+1. **Label** is an optional value that appears beside the text field and can serve as an more prompt. For a question titled “When were you born”, the label might be set to “Birthday”. 
 
 1. To limit the timerange that customers can add, there are two optional range values:<br>
 
@@ -479,7 +479,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 1. The following fields are optional:
 
-   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action text or to provide additional context that's not included in the header.<br>
+   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action text or to provide more context that's not included in the header.<br>
    
    b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type; videos and GIFs aren't supported.<br>
    
@@ -491,13 +491,13 @@ Within the designer, the first fields are related to the message that appears wi
    
    c. **List items**: Each section must include at least one option. Options can be added by selecting **Add option**, or removed by selecting **Remove**. Each option has the following fields:<br>
    
-      i. **Option title**: The title field is required and will be what appears as the customer's response in the messages app and in conversation control. Titles should be simple and straightforward, using the subtitle field for additional details.<br>
+      i. **Option title**: The title field is required and will be what appears as the customer's response in the messages app and in conversation control. Titles should be simple and straightforward, using the subtitle field for more details.<br>
       
       ii. **Option subtitle**: Subtitles are an optional field that can be used to provide details about an option, such as add-on costs, item descriptions, and other secondary information. <br>
       
       iii. **Image URL**: A valid image URL for adding an image beside a list option. Images are optional and shouldn't be used in place of the title or subtitle text.<br>
       
-1. To add additional sections, select **Add section**. When there are two or more sections, a section can be deleted by selecting **Remove**.
+1. To add more sections, select **Add section**. When there are two or more sections, a section can be deleted by selecting **Remove**.
 
 1. An optional response message can be added to the list picker rich message. This text will appear in the customer's response, below selection choices.
 
@@ -507,7 +507,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 1. Suggested reply messages can have between two and five options that should be kept concise.
 
-1. To add additional options, select **Add option**. When there are more than two options, an option can be removed by selecting the option's corresponding **Remove** icon.
+1. To add more options, select **Add option**. When there are more than two options, an option can be removed by selecting the option's corresponding **Remove** icon.
 
 ### Time picker
 
@@ -515,7 +515,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 1. The following fields are optional:
 
-   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the header.<br>
+   a. **Message subtitle**: This text appears below the message title. It can be used as a call-to-action or to provide more context not included in the header.<br>
    
    b. **Image URL**: The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and videos and GIFs aren't supported.<br>
    
@@ -542,16 +542,16 @@ Within the designer, the first fields are related to the message that appears wi
        
       - **Start time**: Define each time slot that a customer can select. These will be grouped under the selected date.
        
-      - To add additional start times for a specific date, select the Add time slot button below existing start time.
+      - To add more start times for a specific date, select the Add time slot button below existing start time.
        
-   h. To add additional dates, select **Add date**, and then complete preceding steps for adding time slots.
+   h. To add more dates, select **Add date**, and then complete preceding steps for adding time slots.
   
      > [!Note]
      > Past time slots won’t display on the customer's device.
      
 1. An optional response message can be added to the time picker rich message. This text will appear in the customer's response, below their time slot selection.
 
-   - **Recommendation**: Use the response message as a call to action, encouraging customers to click the message for additional details. The additional details will include an **Add to Calendar** option that will display information such as event title and duration.
+   - **Recommendation**: Use the response message as a call to action, encouraging customers to click the message for more details. The additional details will include an **Add to Calendar** option that will display information such as event title and duration.
    
    
 ### Video rich link
