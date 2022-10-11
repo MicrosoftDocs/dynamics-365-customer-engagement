@@ -55,24 +55,33 @@ Knowledge Power Virtual Agents solution makes use of the flow which uses connect
 To set connection references:
    
 1. Go to https://make.powerapps.com.
-1. Select the notification. A form to configure connection references appears.
+1. Go to **Solutions**.
+1. On the **Solutions** page, a notification to configure connection references appears.
 
      :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
 
-1. Configure the connection references.
+1. Select the link to configure the **Microsoft Dataverse** and **Content Conversion** connection references.
 
      :::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
 
-1. Select **Default Solution** > **Cloud flows** and turn on **Search Dynamics 365 knowledge article flow** flow.
+     If you don't see the notification on the **Solutions** page, go to **Default Solutions** > **Connection references** and then select **Microsoft Dataverse** and **Content Conversion** connection references.
+
+1. Go to **Default Solution** > **Cloud flows** and turn on **Search Dynamics 365 knowledge article flow** flow.
 
      :::image type="content" source="media/ka-article flow-on.png" alt-text="Turn on knowledge article flow":::
 
 ### Call the flow as a one-time mandatory step
 
+After configuring the connection references, go to **Chatbots** > **List** and select the required chatbot. This will take you to the Power Virtual Agents portal where you can create a topic.
+If you need to create a chatbot, see [Create chatbots from Power Apps](/power-apps/chatbots).
+
 You can create a topic with two question nodes for search text and filter or you can configure the search integration to set up a fall-back topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
    
-If you are creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.  
+If you are creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value, for example, **statecode eq 3**.
+
+This step ensures that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.
   
+1. On the Power Virtual Agents portal, select **Topics** > **New Topic**.
 1. Within the topic, create a question node to ask the user to search for the input text.
 
     :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
