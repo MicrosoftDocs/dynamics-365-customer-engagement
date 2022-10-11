@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
 description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
-ms.date: 05/13/2021
+ms.date: 10/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -70,7 +70,7 @@ For more information about configuration failure scenarios and resolution for sa
 
 
 > [!NOTE]
->  The Customer field in the case entity can be a contact or an account. If a matching incoming email address is not found for a contact or an account, and **Create contact for unknown sender** box is checked, the system creates contact for incoming email address and links it to the case's customer field.
+> The Customer field in the case entity can be a contact or an account. If a matching incoming email address is not found for a contact or an account, and **Create contact for unknown sender** box is checked, the system creates contact for incoming email address and links it to the case's customer field.
 
 **Step 5**: Check if the contact and account exist with the same incoming email address. 
 - **Comment**: Case created from incoming email will resolve customer field on case as Account.
@@ -134,7 +134,9 @@ You must validate the configuration and validation steps given in the following 
 |     |   No      |     For an incoming email with email address of active account or contact   |  A case is created       |
 |    |     No    |      For an incoming email sent by record type other than account or contact   |    No case is created     |
 |  |   No      |     For an incoming email with email address of inactive account or contact    |  No case is created           |
-
+|Create a case for activities associated with a resolved case     |    Yes     |   For an incoming email related to a resolved case      |    A case is created     |
+|   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
+|  |         |         |         |
  
 ### See also
 
