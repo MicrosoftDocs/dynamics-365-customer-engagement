@@ -98,7 +98,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
 Routing rules for a workstream consist of work classification rules and route-to-queue rules. To learn about configure routing rules, see the following articles:
 
 - [Configure work classification rules](configure-work-classification.md)
-- [Configure route-to-queue rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+- [Configure route-to-queue rules](configure-route-to-queue-rules.md)
 
 ### Configure work distribution
 

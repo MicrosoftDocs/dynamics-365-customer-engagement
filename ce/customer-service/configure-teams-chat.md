@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 09/19/2022
+ms.date: 10/10/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,9 +19,6 @@ ms.custom:
 ---
 
 # Configure Microsoft Teams chat in Customer Service
-
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
 
 You can configure the ability for agents to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
@@ -182,7 +179,7 @@ For any view that's selected, keep in mind the following details:
    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
  - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to view data fields, collaborators will also be able to see those fields.
-- if you don't select a view for the Case record type, agents will see the default, out-of-box **Case introduction message** view.
+- If you don't select a view for the Case record type, agents will see the default, out-of-box **Case introduction message** view.
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")

@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/16/2022
+ms.date: 10/10/2022
 ms.topic: article
 ---
 
@@ -129,7 +129,7 @@ See the information in the following table to know about the supported languages
 | Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔|x|✔|
 | Dari | `prs` |x|x|x|x|x|x|x|
 | Divehi | `dv` |x|x|x|x|x|x|x|
-| Dutch - Belgium | `nl-BE` |x|x|✔|✔|x|x|x|
+| Dutch - Belgium | `nl-BE` |✔|x|✔|✔|x|x|x|
 | Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
 | English - Australia | `en-AU` |x|x|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|

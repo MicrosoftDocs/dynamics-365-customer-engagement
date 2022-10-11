@@ -4,9 +4,9 @@ description: "Learn how to use keyboard shortcuts for an alternate way to do com
 keywords: 
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: ReneeW-CPub
-ms.author: renwe
-manager: annbe
+author: sericks007
+ms.author: sericks
+manager: tapanm-MSFT
 ms.date: 05/05/2020
 ms.topic: article
 

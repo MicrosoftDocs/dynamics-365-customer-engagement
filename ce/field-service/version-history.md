@@ -24,19 +24,33 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.74.34](/dynamics365/field-service/version-history#887434) | TBD | 09/30/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.74.34](/dynamics365/field-service/version-history#887434) | TBD | 10/07/2022 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434)  | 09/30/2022 |
-| | *USG* | [8.8.74.34](/dynamics365/field-service/version-history#887434) | TBD | 10/07/2022 |
-|**Station 4** |*Europe* | [8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/07/2022 |
+|**Station 1** |  *First Release*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | TBD | 10/14/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | TBD | 10/21/2022 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.76.55](/dynamics365/field-service/version-history#887655)|  TBD| 10/28/2022 |
+| | *USG* |  [8.8.76.55](/dynamics365/field-service/version-history#887655) | TBD | 10/21/2022 |
+|**Station 4** |*Europe* | [8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/14/2022 |
 |**Station 5** |  *North America*|[8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/14/2022 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/14/2022 |
-| | *Dedicated Scale Groups* | [8.8.72.55](/dynamics365/field-service/version-history#887255) | [8.8.73.63](/dynamics365/field-service/version-history#887363)  | 09/30/2022 |
+| | *Dedicated Scale Groups* | [8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/21/2022 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.76.55
+
+(Includes Universal Resource Scheduling version [3.12.90.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312902)).
+
+This release is a hotfix on Field Service version [8.8.76.42](/dynamics365/field-service/version-history#887642).
+
+## 8.8.76.42
+
+(Includes Universal Resource Scheduling version [3.12.90.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312902)).
+
+-	Fixed a bug in which the duration field is not copied from a requirement group template associated with an incident type to the work order.
+- Field Service Mobile: Tabs will persist on screen while scrolling down within a form, allowing a user to navigate to a new tab without scrolling to the top of the form. This feature is enabled by default for the Field Service Mobile app module and needs to be enabled via App Settings for custom app modules.
+- Field Service Mobile: When exporting inspections response to PDF, questions marked as not visible will not be exported and visible in the PDF. 
 
 ## 8.8.75.142(2022 Wave 2 early access, update2)
 
