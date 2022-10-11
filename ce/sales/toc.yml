@@ -262,7 +262,7 @@
             - name: Edit and retrain a model
               href: pos-edit-and-retrain-model.md
             - name: View the influence of an attribute on the model
-              href: pos-attribute-influence.md
+              href: pls-attribute-influence.md
             - name: Manage duplicate opportunity scoring models
               href: pos-duplicate-models.md
             - name: Add the opportunity scoring widget to a form

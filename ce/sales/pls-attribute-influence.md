@@ -11,7 +11,7 @@ manager: shujoshi
 
 # View the influence of an attribute on the model
 
-When you define a model, you'd like get insights on the influence of each attribute on the prediction score. Based on these insights, you can analyze and understand:
+When you define a model, you'd like to get insights on the influence of each attribute on the prediction score. Based on these insights, you can analyze and understand:
 
 - Why certain attributes carry more prediction influence than others.
 - How the attribute values compare to the attribute global qualification rate.
@@ -20,7 +20,15 @@ When you define a model, you'd like get insights on the influence of each attrib
 > [!NOTE]
 > This article applies to both opportunity scoring and lead scoring. Though the examples in this article are referring to leads, the same are applicable to opportunities as well.
 
-**To view the attribute insights:**
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+
+## View attribute insights and influence
 
 1. [Edit a model](pls-edit-and-retrain-model.md).
 

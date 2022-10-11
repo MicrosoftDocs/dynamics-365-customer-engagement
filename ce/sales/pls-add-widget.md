@@ -10,11 +10,20 @@ manager: shujoshi
 ---
 # Add the lead scoring widget to a form
 
-By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for leads, you can display the predictive lead scoring widget on your custom forms by following these steps.
+By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using a customized form for leads, you can add the predictive lead scoring widget to your custom form.
 
 > [!IMPORTANT]
 > - Adding lead scoring widgets is only supported in Unified Interface apps.
 > - You can't use the legacy form designer to add a lead scoring widget to a form.
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+## Add the lead scoring widget to a custom form
 
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
