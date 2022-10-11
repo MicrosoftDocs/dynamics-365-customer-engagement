@@ -1,5 +1,200 @@
 {
-  "redirections": [
+  "redirections": [    {
+      "source_path": "ce/legal/apps-for-power-platform-tou.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146434",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/apps-for-power-platform-tou-med.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2128327",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/dynamics-insider-agreement.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2087260",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/license-terms.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2108407",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-browser-extension.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147471",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-admin-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2140808",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-android.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=391828",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-android-private.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=391828",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-android-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146536",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios  .md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=313535",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios-private.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=313535",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146535",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-windows .md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=296859",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-windows-private.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2132857",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-pshealth.md",
+      "redirect_url": "https://dynamics.microsoft.com/project-operations/overview/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-sales-acc-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2143976",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-viraltrial.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=831400",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-windows-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=296859",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerapps-mobile-android.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=832922",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerapps-mobile-ios.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2134003",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerapps-mobile-windows.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2133841",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-brsr.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147471",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-desktop.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147215",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerautomate-mobile-android.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2131507",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerautomate-mobile-ios.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2131508",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-uiflows.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147215",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-uiflows-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147215",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-windows-recorder-brsr.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147696",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=832135",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-customervoice-trial.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2129962",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-gamification.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870920",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-linkedin.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870918",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-preview.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2105274",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-server.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870919",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-voc.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870926",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-voicesms.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2087259",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/third-party-notices-sales-and-powerapps.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2127442",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/resources/ctpn-dynamics365-fs-mobile.md",
+      "redirect_url": "http://go.microsoft.com/fwlink/?LinkId=780793",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/resources/supp-dynamics365-fieldservice.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=396733",
+      "redirect_document_id": "false"
+    },
+
    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-wss-schema.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-wss-schema",
