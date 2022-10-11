@@ -53,8 +53,7 @@ When the prediction accuracy of a model doesn't meet your expectations, you can 
    > - The **Ignore empty values** option is disabled for the following type of attributes:
    > - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).
    > - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).
-   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values as shown in the following screenshot:
-   > :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on.":::
+   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
 
 1. Select **Retrain model**.  
 
