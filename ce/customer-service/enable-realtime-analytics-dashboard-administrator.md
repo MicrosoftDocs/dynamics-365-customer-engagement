@@ -58,11 +58,11 @@ Perform the following steps to enable users with different privileges to access 
 
 1. Grant Read privileges to the following entities:
 
-   - **Customer Service real-time analytics**
+   - **Omnichannel for Customer Service real-time analytics**
    - **Insights**
-1. Select **Save and close**. The agent manager can now see the Customer Service real-time analytics report.
+1. Select **Save and close**. The agent manager can now see the Omnichannel for Customer Service real-time analytics report.
 
-You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service real-time  analytics** page. By default, the **Summary** page is displayed.
+You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time  analytics** page. By default, the **Summary** page is displayed.
 
 ### See also
 
