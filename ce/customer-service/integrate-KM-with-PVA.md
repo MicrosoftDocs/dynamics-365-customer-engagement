@@ -71,7 +71,7 @@ To set connection references:
 
 You can create a topic with two question nodes for search text and filter or you can configure the search integration to set up a fall-back topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
    
-If you are creating a topic with two question nodes for search text and filter, for filter, the Power Virtual Agents author can provide a sample filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.  
+If you are creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.  
   
 1. Within the topic, create a question node to ask the user to search for the input text.
 
@@ -94,7 +94,7 @@ If you are creating a topic with two question nodes for search text and filter, 
 1. Use the trigger phase and run the topic.
 
  > [!TIP]
- > You can configure your topic to handle cases where your search doesn’t return any results by modifying the search terms or filter conditions. You can add a condition to take appropriate action in cases where no search results are returned by the  topic.
+ > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition, if required.
 
   :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
   
