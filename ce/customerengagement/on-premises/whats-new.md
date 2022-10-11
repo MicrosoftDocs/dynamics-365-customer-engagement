@@ -2,7 +2,7 @@
 title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
 description: "Learn about the new features available in version 9.1. This page explains the many enhancements designed to empower marketing, sales, and service teams."
 ms.date: "06/07/2021"
-ms.topic: "topic"
+ms.topic: whats-new
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123
 ms.author: matp
@@ -293,7 +293,7 @@ Using the included OData v4 provider, read, create, update, and delete data from
 
 ### **Organization database updates must be manually applied**
 
-Organization database updates must be manually applied after you complete the version 9.1 update for all Dynamics 365 Server computers in the deployment. To apply the update, use [deployment manager](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/update-an-organization) or [Power Shell](https://docs.microsoft.com/en-us/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)**.** -->
+Organization database updates must be manually applied after you complete the version 9.1 update for all Dynamics 365 Server computers in the deployment. To apply the update, use [deployment manager](https://learn.microsoft.com/dynamics365/customerengagement/on-premises/deploy/update-an-organization) or [Power Shell](https://learn.microsoft.com/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)**.** -->
 
 ::: moniker-end
 

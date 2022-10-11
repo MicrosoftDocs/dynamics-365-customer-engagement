@@ -1,10 +1,10 @@
 ---
 title: "View and understand call summary page in Dynamics 365 Sales Hub app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript in Sales Hub app."
-ms.date: 07/08/2022
+ms.date: 09/30/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # View and understand call summary page in Sales Hub app

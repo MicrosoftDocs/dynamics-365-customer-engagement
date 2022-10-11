@@ -12,6 +12,8 @@
         href: sign-up-for-sales-trial.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
+      - name: Explore features in trial
+        href: features-in-trial.md
       - name: Trial FAQs
         href: sales-trial-faq.md
   - name: Install and configure
@@ -23,6 +25,8 @@
           href: grant-access-saleshub.md
         - name: Sales Hub app versus custom app
           href: saleshub-customapp.md
+    - name: Install and administer Sales Insights features
+      href: intro-admin-guide-sales-insights.md      
     - name: Install Sales Professional app
       href: provision-sales-professional-instance.md
     - name: Add sample data
@@ -211,10 +215,14 @@
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
+        - name: Enable email validation
+          href: enable-email-validation.md  
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
         - name: Configure predictive lead scoring
           href: configure-predictive-lead-scoring.md
+        - name: View accuracy and performance of predictive scoring models
+          href: scoring-model-accuracy.md
     - name: Opportunity management
       items: 
         - name: Set up deal manager
@@ -233,6 +241,8 @@
           href: customize-opportunity-close-experience.md
         - name: Configure predictive opportunity scoring
           href: configure-predictive-opportunity-scoring.md
+        - name: View accuracy and performance of predictive scoring models
+          href: scoring-model-accuracy.md        
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
     - name: Product and price list management
@@ -343,6 +353,10 @@
           items: 
             - name: Configure sales accelerator
               href: enable-configure-sales-accelerator.md
+            - name: Manage access and record type
+              href: manage-access-record-type-sales-accelerator.md  
+            - name: Customize the workspace  
+              href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
@@ -372,6 +386,8 @@
               href: edit-a-sequence.md
             - name: Edit an active sequence
               href: edit-active-sequence.md
+            - name: Assign a sequence to a user or a team
+              href: assign-sequence-other-users.md  
             - name: Delete a sequence
               href: delete-a-sequence.md
             - name: Migrate sequences from one environment to another 
@@ -458,9 +474,12 @@
           href: provide-consent-office365.md
         - name: Insights generated from Microsoft 365 data
           href: insights-from-m365.md
+        - name: Microsoft 365 consent types
+          href: ms365-consent-types.md
         - name: Add relationship intelligence widgets to custom forms
           href: add-ri-widgets-to-custom-form.md
-
+        - name: Grant access to who knows whom information
+          href: grant-access-wkw.md
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
@@ -650,6 +669,8 @@
           href: create-edit-lead-sales.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
+        - name: Work with invalid email addresses
+          href: work-invalid-email-addresses.md  
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
         - name: Qualify or convert leads
@@ -659,11 +680,9 @@
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
     - name: Opportunity management
-      expanded: true
       items: 
         - name: Create or edit opportunities
           href: create-edit-opportunity-sales.md
-          expanded: true
           items: 
             - name: Add products to an opportunity
               href: add-products-opportunity.md
@@ -676,7 +695,6 @@
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Manage opportunities using deal manager
-          expanded: true
           items: 
             - name: Deal manager workspace overview
               href: deal-manager-seller-overview.md
@@ -1126,7 +1144,6 @@
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
-  expanded: true
   items: 
     - name: Learning Catalog
       href: learning-catalog.md

@@ -207,13 +207,8 @@ In the scenario shown in the following screenshot, a geofence will only be creat
 > [!div class="mx-imgBorder"]
 > ![Screenshot of location expiration configuration field.](./media/mobile-geofence-location-expiration.png)
 
-  
 ## Additional notes
 
 - Only circular-shaped geofences are currently supported.
-
-### See also
-
-- [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
