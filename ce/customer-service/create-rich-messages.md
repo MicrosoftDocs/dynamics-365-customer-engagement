@@ -41,7 +41,7 @@ By creating and publishing channel-specific rich messages, your organization's c
       - Time Picker
       - Video Rich Link
       - Website Rich Link
-   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags will help agents identify the correct rich message when searching.
+   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags will help agents identify the correct rich message when they search for rich messages.
    - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which don't affect the original rich message made here. Agent editing can be enabled for the following rich message types:
       - List picker
       - Suggested reply
@@ -51,7 +51,7 @@ By creating and publishing channel-specific rich messages, your organization's c
 
 1. Select **Create**.
 
-1. Begin building your rich message within the rich message designer. You may save your work at any time by selecting **Save** at the top of the designer. For more information about building each rich message type, select the type to learn more:
+1. Begin building your rich message within the rich message designer. Save your work at any time by selecting **Save** at the top of the designer. For more information about building each rich message type, select the type to learn more:
    - Apple Pay
    - Authentication
    - Custom JSON
@@ -76,7 +76,11 @@ For agents to send a rich message in conversations, the message must first be pu
 
 ### Update a published rich message
 
-After a rich message is published and active, it can still be updated. To update a rich message, select it and open the designer. Unlike inactive rich messages, you must fill in all required fields before pressing **Publish**. This functionality ensures that no rich messages that are missing required fields can become active.
+You can update rich messages that are published and active.
+
+1. Select the rich message and open it in the designer.
+
+1. Fill in all required fields, and then select **Publish**. This step ensures that rich messages that are missing required fields don't become active. 
 
 ## Workstream association
 
@@ -134,7 +138,7 @@ Type: ```requiredBillingContactFields[]``` - Required: Yes - Allowed values: - "
 
 **requiredShippingContactFields**
 
-The customer's shipping address information. Only include this value if the purchase must be shipped.
+The customer's shipping address information. Include this value only if the purchase must be shipped.
 
 
 Type: ```requiredShippingContactFields[]``` - Required: No - Allowed values: - "email" - "name" - "phone" - "phoneticName" - "post"
