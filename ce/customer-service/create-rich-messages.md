@@ -1,7 +1,7 @@
 ---
 title: "Manage rich messages | MicrosoftDocs"
 description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
-ms.date: 10/03/2022
+ms.date: 10/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -359,7 +359,7 @@ Single input questions are a short-answer free response style question. This que
 
 1. Provide a **Question title**, optional **Header** text, and use the **Required** toggle to control whether the question may be left unanswered.
 
-1. The **Input** type may be changed from the default **Text** type. Changing the input type will change the input keyboard on iOS devices. The type options and their impact on input are as follows:
+1. The **Input** type may be changed from the default **Text** type. Changing the input type will change the input keyboard on iOS devices. The keyboard input field won't verify whether the customer response matches the keys that are available on the keyboard. To limit customer responses and validate formatting, use the **Regular expression** field. The type options and their impact on input are as follows:
    - **Text** (Default): Default keyboard
    - **Name**: Default keyboard and name autofill suggestion
    - **Url**: URL keyboard and URL autofill suggestion
