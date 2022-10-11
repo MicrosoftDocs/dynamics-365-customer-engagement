@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
-ms.date: 09/02/2022
+ms.date: 10/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
 
-Power Virtual Agents let you create powerful bots configured with various topics and trigger phrases that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
+Power Virtual Agents lets you create bots configured with various topics and trigger phrases that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents)
 
 Integrating a Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent's time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve simple problems.
 
@@ -104,13 +104,13 @@ After you have completed the two previous steps, you can configure any bot in th
    
 1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow** with the **Search Dynamics 365 knowledge articles** action.
 
-    :::image type="content" source="media/search-dialog.png" alt-text="Add action to pva topic":::
+    :::image type="content" source="media/search-dialog.png" alt-text="Add action to Power Virtual Agents topic":::
 
 2. Remove the filter question node. More information on filters, see [Working with filters](#working-with-filters).
 
 3. Update the message node with the output from the action and select **Save**.
 
-#### Working with filters
+#### Work with filters
 - By default, the search is performed on the external published articles (**statecode eq 3** and **isinternal eq false**). If you need to perform additional filtering, you can set the desired filter query as the Filter (text) input variable.
 - To check which filters you can use and the attributes of the knowledge article entity, see [knowledgearticle EntityType](/dynamics365/customer-engagement/web-api/knowledgearticle).
 - To write a dataverse search query using filters, see [Working with operators](/powerapps/user/relevance-search#working-with-operators).
@@ -159,7 +159,7 @@ You must perform the following steps to integrate knowledge management with a Po
     
 12. In the **Outside solutions** list, select your flow, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent version.
 
-For more information on managing PVA solutions, see [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
+For more information on managing Power Virtual Agents solutions, see [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
 
 ### Add the solution's flow to the Power Virtual Agents topic
 
@@ -302,9 +302,9 @@ To return the knowledge article search results to the bot, follow either of thes
 } 
 ```
 
-## Troubleshooting
+## Troubleshoot
 
-- If a dialog is cross-linked and is modified, you'll see a validation error on publish and PVA will block the publish. More information: [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content)
+- If a dialog is cross-linked and is modified, you'll see a validation error on publish and Power Virtual Agents will block the publish. More information: [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content)
 
 - If errors exist while saving a topic, the **Topic checker** shows the impacted topics. Errors will prevent the bot from working and must be fixed before you can publish your bot. More information: [Topic errors](/power-virtual-agents/teams/authoring-topic-management-teams#topic-errors)
 
