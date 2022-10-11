@@ -1,7 +1,7 @@
 ---
 title: "Configure realtime analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure realtime analytics for Omnichannel in Dynamics 365 Customer Service."
-ms.date: 09/28/2022
+ms.date: 10/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -32,10 +32,10 @@ The following real time analytics reports are available:
 
 - Summary report
 - Voice
-- (Agents report)[realtime-agents-analytics.md]
-- (Ongoing conversations) [realtime-ongoing-comversations-dashboard.md]
+- (Agents report)
+- (Ongoing conversations)
 
-You can enable Omnichannel real time analytics reports in the Customer Service admin center.
+You can enable Omnichannel real time analytics reports in the Customer Service admin center app.
 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
@@ -45,10 +45,25 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 1. In the **Additional options** section, select the **Add real-time analytics for voice** option.
 You will see the above option, only if your organization has the Voice feature enabled.
 
+## Provide report access to additional security roles
+Perform the following steps to enable users with different privileges to access reports beyond the default ones.
+
+1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
+
+1. Select **Security** and then **Security roles**.
+
+1. Select the security role that you want to enable access for. For example, agent manager.
+
+1. Select the **Custom Entities** tab.
+
+1. Grant Read privileges to the following entities:
+
+   - **Customer Service real-time analytics**
+   - **Insights**
+1. Select **Save and close**. The agent manager can now see the Customer Service real-time analytics report.
+
+You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service real-time  analytics** page. By default, the **Summary** page is displayed.
 
 ### See also
-
-[Introduction to Omnichannel Real time analytics dashboards ](intro-realtime-analytics-dashboard.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
