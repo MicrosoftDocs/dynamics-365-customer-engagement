@@ -57,3 +57,5 @@ You can delete a model when it's no longer required in your organization or it's
 1. Select **Delete model**. 
 1. In the confirmation message that appears, select **Delete**.
 
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

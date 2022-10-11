@@ -102,4 +102,6 @@ You can retrain a model manually in the following cases:
 - You want to edit the model for better accuracy and retrain it.
 - You have turned off **Retrain automatically** to avoid automatic retraining.
 
-In both cases, you have to [edit the model](#edit-the-model) to trigger manual retraining. 
+In both cases, you have to [edit the model](#edit-the-model) to trigger manual retraining.  
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

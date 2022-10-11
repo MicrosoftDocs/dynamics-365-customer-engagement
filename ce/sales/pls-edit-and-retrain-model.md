@@ -59,7 +59,7 @@ When the prediction accuracy of a model doesn't meet your expectations, you can 
 
     The model is retrained by using the selected attributes, and a notification is displayed on the screen.
 
-After the model is trained, a popup message is displayed. 
+    After the model is trained, a popup message is displayed. 
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is trained":::
 
 1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**. 
@@ -123,3 +123,5 @@ You can retrain a model manually in the following cases:
 - You have turned off **Retrain automatically** to avoid automatic retraining.
 
 In both cases, you have to [edit the model](#edit-the-model) to trigger manual retraining.  
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

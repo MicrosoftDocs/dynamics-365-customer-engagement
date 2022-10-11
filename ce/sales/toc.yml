@@ -233,7 +233,7 @@
               href: pls-attribute-influence.md
             - name: Manage duplicate lead scoring models
               href: pls-duplicate-models.md
-            - name: Add the lead scoring widget to a form
+            - name: Add lead scoring widget to a form
               href: pls-add-widget.md
     - name: Opportunity management
       items: 
@@ -265,7 +265,7 @@
               href: pls-attribute-influence.md
             - name: Manage duplicate opportunity scoring models
               href: pos-duplicate-models.md
-            - name: Add the opportunity scoring widget to a form
+            - name: Add opportunity scoring widget to a form
               href: pos-add-widget.md
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md

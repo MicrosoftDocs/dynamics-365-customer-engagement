@@ -69,3 +69,5 @@ The **Attribute Insights** pane is divided into the following sections:
 
 > [!NOTE]
 > The insights for the attributes are updated when the model is retrained, either manually or automatically. For models that were created before March 2021, data for attribute insights won't be available. We suggest that you retrain&mdash;or enable the option to automatically retrain&mdash;the model to view the attribute insights.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

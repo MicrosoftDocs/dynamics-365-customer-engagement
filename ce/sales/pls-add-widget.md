@@ -72,3 +72,5 @@ By default, the predictive lead scoring widget is available only in the out-of-t
    > [!NOTE]
    > To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 1. Save and publish the form.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

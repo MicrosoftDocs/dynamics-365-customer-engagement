@@ -81,3 +81,6 @@ You can configure the range for the grading according to your organizational req
 ## MultiModel
 
 In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different leads than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished).
+
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

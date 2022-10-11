@@ -80,3 +80,5 @@ By default, the predictive opportunity scoring widget is available only in the o
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
