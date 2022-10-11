@@ -115,7 +115,7 @@ After you have completed the two previous steps, you can configure any bot in th
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add action to Power Virtual Agents topic":::
 
-2. Remove the filter question node. More information on filters, see [Work with filters](#working-with-filters).
+2. Remove the filter question node. More information on filters, see [Work with filters](#work-with-filters).
 
 3. Update the message node with the output from the action and select **Save**.
 
@@ -127,7 +127,7 @@ After you have completed the two previous steps, you can configure any bot in th
 - To filter on a string attribute like keywords, append the string value to the search text.
 
 ### Publish the changes
-For details on publishing the bot, see [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). If you get errors during publishing, see [Troubleshoot](#troubleshooting).
+For details on publishing the bot, see [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). If you get errors during publishing, see [Troubleshoot](#troubleshoot).
  
 ## Use the Power Automate flow template
 
