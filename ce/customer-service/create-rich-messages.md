@@ -41,7 +41,7 @@ By creating and publishing channel-specific rich messages, your organization's c
       - Time Picker
       - Video Rich Link
       - Website Rich Link
-   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. This will help agents identify the correct rich message when searching.
+   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags will help agents identify the correct rich message when searching.
    - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which don't affect the original rich message made here. Agent editing can be enabled for the following rich message types:
       - List picker
       - Suggested reply
@@ -76,7 +76,7 @@ For agents to send a rich message in conversations, the message must first be pu
 
 ### Update a published rich message
 
-After a rich message is published and active, it can still be updated. To update a rich message, select it and open the designer. Unlike inactive rich messages, you must fill in all required fields before pressing **Publish**. This ensures that no rich messages that are missing required fields can become active.
+After a rich message is published and active, it can still be updated. To update a rich message, select it and open the designer. Unlike inactive rich messages, you must fill in all required fields before pressing **Publish**. This functionality ensures that no rich messages that are missing required fields can become active.
 
 ## Workstream association
 
@@ -134,7 +134,7 @@ Type: ```requiredBillingContactFields[]``` - Required: Yes - Allowed values: - "
 
 **requiredShippingContactFields**
 
-The customer's shipping address information. Only include this if the purchase must be shipped.
+The customer's shipping address information. Only include this value if the purchase must be shipped.
 
 
 Type: ```requiredShippingContactFields[]``` - Required: No - Allowed values: - "email" - "name" - "phone" - "phoneticName" - "post"
@@ -184,7 +184,7 @@ Describes the final amount of the Apple Pay request. It contains the amount, lab
 
 **amount**
 
-The monetary amount of the Apple Pay request. This must be greater than zero.
+The monetary amount of the Apple Pay request. This value must be greater than zero.
 
 Type: ```string``` - Required: Yes
 
@@ -343,8 +343,8 @@ Survey-level properties
      b.	Form responses can be hidden from live agents, which may be helpful when designing automated processes to handle sensitive information. When **Hide customer responses in chat** is toggled on, agents will be unable to see any customer responses within the form. Privacy cannot be toggled per question.
 
 1. The **Outbound message** properties determine the appearance of the message bubble containing the form. The outbound message may contain the following elements:<br>
-     a.	**Message title**: The main text that informs the customer of what type of content the message contains. This could be the full or shortened title of your form.<br>
-     b.	**Message description** (Optional): This text appears below the message title. It can be used as a call-to-action or to provide additional context not included in the message title.<br>
+     a.	**Message title**: The main text that informs the customer of what type of content the message contains. It could be the full or shortened title of your form.<br>
+     b.	**Message description** (Optional): This text appears below the message title. It can be used as a call-to-action or to provide more context not included in the message title.<br>
      c.	**Image URL** (Optional): The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
 
 1. To begin adding questions, select one of the question types from the **toolbox** located between the properties panel and builder. Each question will contain required **Title** and optional **Header** fields, in addition to type-specific configurations. Apple Messages for Business forms support the following question types: Single input, multiline input, single-select, multi-select, dropdown picker, and date picker. 
@@ -401,9 +401,9 @@ Single-select questions can be used to quickly select a single option from a set
 
 1. Under **Choices**, you can add each of your options. We recommend that the number of choices is between two and 10 or fewer. Each choice has the following fields:
 
-   a. **Value**: The true identifier for a choice. This is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
    
-   b. **Text** (Optional): The text is what the customer will see when viewing the question. By default, this will match the Value. Changing the **Text** content can allow you to localize selection questions without changing what the agent sees in the response.<br>
+   b. **Text** (Optional): The text is what the customer will see when viewing the question. By default, this text will match the Value. Changing the **Text** content can allow you to localize selection questions without changing what the agent sees in the response.<br>
    
    c. **Image link** (Optional): The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
 
@@ -428,9 +428,9 @@ Multi-select questions can be used to quickly select one or more options from a 
 
 1. Under **Choices**, you can add each of your options. We recommended that the number of choices is between two and 10 or fewer. Each choice has the following fields:<br>
 
-   a. **Value**: The true identifier for a choice. This is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
    
-   b. **Text** (Optional): What the customer will see when viewing the question. By default, this will match the Value. Changing the Text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
+   b. **Text** (Optional): What the customer will see when viewing the question. By default, this text will match the Value. Changing the Text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
    
    c. **Image link** (Optional): The image that is displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
    
@@ -447,7 +447,7 @@ Dropdown picker questions are used to quickly select a single option from a list
 
 1. Under **Choices**, you can add each of your options. As these questions can support a large number of options, it is recommended that you add choices in a logical ordering such as alphabetical. Each choice has the following fields:
 
-   a. **Value**: The true identifier for a choice. This is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
    
    b. **Text** (Optional): What the customer will see when viewing the question. By default, the text will match the value. Changing the text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
    
@@ -465,7 +465,7 @@ Date picker questions are used to quickly select a date using a wheel-like scrol
 
 1. To limit the timerange that customers can add, there are two optional range values:<br>
 
-   a. **Min**: This value represents the furthest back date that can be selected. When this is set, no dates earlier than this date can be selected.<br>
+   a. **Min**: This value represents the furthest back date that can be selected. When this value is set, no dates earlier than this date can be selected.<br>
    
    b. **Max**: The value represents the furthest-forward date that can be selected. If this value isn't set, the maximum date will be the date that the customer responds. When asking a question about a future date, this value must be set.<br>
    
@@ -525,7 +525,7 @@ Within the designer, the first fields are related to the message that appears wi
    
    b. **Location name**: The location name will appear within the customer's calendar application if they choose to add the event to their calendar.<br>
    
-   c. **Event time zone**: This is the time zone where the event will take place.<br>
+   c. **Event time zone**: This field is the time zone where the event will take place.<br>
    
    d. **Adjust for daylight saving time**: By default, time zones are listed by their standard offset from GMT. However, if the event takes place in a region that uses daylight savings, this can result in timeslots being incorrectly converted. By toggling this setting to **Yes**, the daylight saving offset will be automatically applied for each timeslot listed.<br>
    
@@ -551,7 +551,7 @@ Within the designer, the first fields are related to the message that appears wi
      
 1. An optional response message can be added to the time picker rich message. This text will appear in the customer's response, below their time slot selection.
 
-   - **Recommendation**: Use the response message as a call to action, encouraging customers to click the message for more details. The additional details will include an **Add to Calendar** option that will display information such as event title and duration.
+   - **Recommendation**: Use the response message as a call to action, encouraging customers to click the message for more details. The added details will include an **Add to Calendar** option that will display information such as event title and duration.
    
    
 ### Video rich link
