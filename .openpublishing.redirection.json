@@ -1,5 +1,6 @@
 {
-  "redirections": [    {
+  "redirections": [
+    {
       "source_path": "ce/legal/apps-for-power-platform-tou.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146434",
       "redirect_document_id": "false"
@@ -45,7 +46,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/legal/slt-dynamics365-mobile-ios  .md",
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=313535",
       "redirect_document_id": "false"
     },
@@ -60,7 +61,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/legal/slt-dynamics365-mobile-windows .md",
+      "source_path": "ce/legal/slt-dynamics365-mobile-windows.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=296859",
       "redirect_document_id": "false"
     },
