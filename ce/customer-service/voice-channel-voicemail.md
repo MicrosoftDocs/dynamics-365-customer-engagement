@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# Configure voicemail to manage overflow of voice calls (preview)
+# Use voicemail to manage overflow of voice calls (preview)
 
 > [!IMPORTANT]
 >
@@ -21,7 +21,7 @@ ms.topic: article
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-When an incoming call reaches the voice queue and the queue is in one of the following conditions, you can redirect the caller to leave a voicemail for the agent.
+You can redirect the caller to leave a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
 
 - Exceeds a defined number of calls that are waiting in the queue
 - Is received during the after hours of the call center operations
@@ -31,6 +31,12 @@ For information on how to configure the conditions and actions, see [Manage over
 
 You can also configure overflow override in the route-to-queue rule of a workstream.
 
+The voicemail option is also presented to the customer when the customer calls the agent directly using the direct inward dialing capability and the call is not answered because of one of the following reasons:
+
+- Call rejected by the agent
+- Call times out
+- Agent presence is set as offline or do not disturb (DND)
+
 The salient features of voicemail are as follows:
 
 - Voicemails can be recorded for up to five minutes only.
@@ -38,13 +44,20 @@ The salient features of voicemail are as follows:
 - Voicemails will always be transcribed irrespective of whether you have enabled the voice call transcription.
 - Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
 
-## Configure voicemail views in Inbox for agents
+## Prerequisites for voicemail
+
+The following prerequisites must be met:
+
+- Unified routing must be enabled.
+- To open a voicemail, agent presence must load.
+
+## Configure voicemail views in inbox for agents
 
 1. In Customer Service admin center, in the sitemap, select **Workspaces** under **Agent experience**.
 
 1. Select **Manage** for **Agent experience profiles**, and select the profile that you want to edit.
 
-1. Edit the Inbox, and enable it.
+1. Edit the inbox, and enable it.
 
 1. Select **Add**.
 
@@ -58,6 +71,25 @@ The salient features of voicemail are as follows:
      - Assigned
      - Unassigned
      - Resolved
+
+## How voicemail works
+
+The voicemail record is set up for routing out of the box.
+
+**To view the default settings**
+
+1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail (preview) is listed under **Record types** on the page that appears.
+
+1. Select **Voicemail (Preview)**. The Voicemail (Preview) routing hub page displays the following default settings:
+
+   - **Intake rules**: The rules check whether the voicemail is for individual or group and then routes the voicemail
+       - **Route to Individual Voicemail Workstream**: The rule checks whether the voicemail is for individual or group and then routes the voicemail to **Default Individual Voicemail Workstream** accordingly.
+       - **Route to Group Voicemail Workstream**: The rule is mapped to **Default Group Vocemail Workstream**
+   - **Workstreams** 
+       - **Default Individual Voicemail Workstream**
+       - **Default Group Vocemail Workstream**
+
+
 
 ### See also
 
