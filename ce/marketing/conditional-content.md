@@ -1,7 +1,7 @@
 ---
 title: "How to use conditional content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use conditional content features in Dynamics 365 Marketing."
-ms.date: 10/06/2022
+ms.date: 10/10/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -24,6 +24,9 @@ Conditional content is an easy way to deliver effective and engaging personalize
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Yb7B]
 
 Conditional content, as the name implies, consists of two parts: condition and content. The combination of these two parts is called a “variation.” You can create as many variations as needed. At the time an email is sent, conditions are evaluated in the order they're present in the email. When a condition is satisfied, the corresponding content is included and the conditional evaluation stops. If none of the conditions are satisfied, the default content is used. If there's no default content, then no content is included.
+
+> [!div class="mx-imgBorder"]
+> ![Conditional content screenshot.](media/conditional-content-screenshot.png "Conditional content screenshot")
 
 Conditional content can be a section or an image:
 
