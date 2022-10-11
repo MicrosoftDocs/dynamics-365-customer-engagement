@@ -1,7 +1,7 @@
 ---
 title: Manage duplicate opportunity scoring models
 description: This article describes how you can manage duplicate models and ensure that no two models are scoring the same opportunities.
-ms.date: 07/29/2022
+ms.date: 10/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

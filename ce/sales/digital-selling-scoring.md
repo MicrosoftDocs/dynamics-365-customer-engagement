@@ -1,7 +1,7 @@
 ---
 title: "Use lead and opportunity scoring with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to use lead and opportunity scoring with the Dynamics 365 Sales Enterprise license."
-ms.date: 04/26/2022
+ms.date: 10/11/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais

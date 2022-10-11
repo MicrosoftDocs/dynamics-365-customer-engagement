@@ -1,7 +1,7 @@
 ---
 title: View the influence of an attribute on the model
 description: This article describes how to get insights on the performance of each attribute that influences the prediction score. 
-ms.date: 07/29/2022
+ms.date: 10/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

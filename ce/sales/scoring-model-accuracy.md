@@ -1,7 +1,7 @@
 ---
 title: View accuracy and performance of predictive scoring models
 description: Accuracy of the predictive model is determined by running the model on historical data and calculating false positives, false negatives, true positives, and true negatives.
-ms.date: 08/26/2022
+ms.date: 10/11/2022
 ms.custom:
 ms.topic: article
 author: lavanyakr01
@@ -45,7 +45,7 @@ A predictive scoring model calculates the likelihood of an opportunity or lead c
 
 2. Select the **Performance** tab.  
     > [!NOTE]
-    > If you don't see any metrics in the **Performance** tab, [edit and retrain the model](configure-predictive-opportunity-scoring.md#edit-and-retrain-a-model). 
+    > If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md). 
 
     The performance metrics of the model are displayed.
     

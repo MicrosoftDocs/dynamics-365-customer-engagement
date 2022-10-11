@@ -1,7 +1,7 @@
 ---
 title: "Add the opportunity scoring widget to a form"
 description: Learn how to display the predictive opportunity scoring widget on your custom forms.
-ms.date: 07/29/2022
+ms.date: 10/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

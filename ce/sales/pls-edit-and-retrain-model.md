@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain a lead scoring model
 description: When the prediction accuracy of a model doesn't meet your expectations, you can edit the attributes used by the model and retrain the model. 
-ms.date: 07/29/2022
+ms.date: 10/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
