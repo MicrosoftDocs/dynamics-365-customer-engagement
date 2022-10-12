@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 08/20/2022
+ms.date: 10/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -28,7 +28,8 @@ Text messages (SMS) allow you to reach customers directly on their mobile device
 >|---------------------|----------------|-------------------|----------|
 >| United States                 | Toll-free      | Transactional     | Domestic |
 
-It's important to remember that real-time marketing sends *outbound* text messages, meaning the Dynamics 365 Marketing app doesn't track responses except for compliance-related keywords such as "STOP." The Marketing app also doesn’t currently manage replies. As [discussed below](real-time-marketing-outbound-text-messaging.md#track-your-text-message-metrics-from-channel-insights), however, the app does track text messaging metrics for channel insights purposes.
+
+As [discussed below](real-time-marketing-outbound-text-messaging.md#track-your-text-message-metrics-from-channel-insights), the Marketing app tracks text messaging metrics for channel insights purposes, including incoming SMS responses.
 
 ## Add a sender number using the Azure Communication Services preview (US only)
 
@@ -42,7 +43,9 @@ Once you agree to the *Voice and text message terms* and select your country or 
 Toll-free numbers are a good option for transactional A2P messaging, which means sending automated messages to large groups. Toll-free numbers don’t require template registration, so once you get a number you can immediately start sending messages.
 
 > [!NOTE]
-> During the Azure Communication Services preview, the text message service is limited to a single toll-free phone number with a limited number of outbound messages per month. The phone number you receive will be your dedicated number for the duration of the preview.
+> During the Azure Communication Services preview, the text message service is limited to a single toll-free phone number with a limited number of outbound messages per month (1,000 per organization). The phone number you receive will be your dedicated number for the duration of the preview. 
+> 
+> Active Azure Communication Services subscriptions used in other products cannot be integrated with Dynamics 365 Marketing yet.
 
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
