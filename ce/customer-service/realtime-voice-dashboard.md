@@ -1,7 +1,7 @@
 ---
 title: Voice Dashboard | Microsoft Docs
 description: Learn about the Voice dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 09/29/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,25 +19,97 @@ ms.custom:
 
 # View and understand the Voice report in Omnichannel real time analytics (preview)
 
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+
 The Voice report gives you insights into key metrics across the voice channel.
 
-**(need screenshot)**
+**(Need screenshot of the report)**
 
-| KPI    | Description     |
-|----------|------------|
-| Incoming cases    | The number of cases created to support customers.   |
-| Active cases      | The number of cases that are currently open.        |
-| Escalated cases   | The percentage of cases that have been escalated.   |
-| Average resolve time    |   The average length of time taken by an agent to resolve the case.   |
-| Average CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
-| Average survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
+## Report details
+
+The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, queue, time zone, conversation status, or direction.
+
+**Need screenshot**
+
+## KPI	Description
+
+| KPI | Description |
+| ------- | ------------------ |
+| Incoming conversation  | |
+| Conversations in queue | |
+| Longest wait time | |
+| Avg. speed to answer | |
+| Abandoned rate |  |
+| Ongoing conversation |  |
+| Avg. handle time |  |
+| Service level (60 sec) |  |
+
+The following charts are displayed in the Voice report.
+
+**Need screenshot**
+
+| Title | Description |
+| ------- | ------------------ |
+| Conversations over time| |
+| Ongoing conversations by status | |
+| Agent availability status|  |
+| Conversation time | |
+| Ongoing conversations by queue | |
+| Capacity by profile | |
+
+You can select **View report details** to drill down on the **Conversation and agent analytics** queue and metrics by agent details.
+
+**Need screenshot**
+
+**Queue**
+
+| Title | Description |
+| ------- | ------------------ |
+| Queue| |
+| Conversation in queue| |
+| Longest wait time|  |
+| Offered | |
+| Ongoing | |
+| Closed | |
+| Ongoing | |
+| Avg. speed to answer | |
+| Abandon rate | |
+| Avg. handle time | |
+| Avg. wrap time | |
+| Avg. talk time | |
+| Avg. hold time | |
+
+Metrics by agent
+
+| Title | Description |
+| ------- | ------------------ |
+| Agent| |
+| Ongoing| |
+| Engaged|  |
+| Avg. talk time| |
+| Avg. hold time | |
+| Avg. wrap time | |
+| Avg. handle time | |
+
 
 ### See also
 
-[Dashboard overview](customer-service-analytics-insights-csh.md)  
-[Agent dashboard](agent-dashboard-cs.md)  
-[Topics dashboard](case-topics-dashboard-cs.md)  
-[Manage report bookmarks](manage-bookmarks.md)  
+[Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
 
+[Introduction to Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#introduction-to-omnichannel-real-time-analytics-dashboards-preview)
+
+[View and understand the Summary report in Omnichannel real time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
+
+[View and understand the Agents report in Omnichannel real time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)
+
+[View and understand the Ongoing Conversations report in Omnichannel real time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversations-report-in-omnichannel-real-time-analytics-preview)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
