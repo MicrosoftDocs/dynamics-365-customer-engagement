@@ -18,7 +18,7 @@ For information about international availability of live chat and digital messag
 
 ## Supported cloud locations
 
-The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments.
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your country or region-specific cloud deployments.
 
 > [!IMPORTANT]
 >
