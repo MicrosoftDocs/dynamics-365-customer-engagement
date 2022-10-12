@@ -81,9 +81,7 @@ If a direct call to an agent is missed and voicemail is configured, the option t
 
 The voicemail record is set up for routing out of the box. Voicemails are categorized into individual and group voicemails.
 
-The voicemail workstream capacity is set to zero by default.
-
-### Individual voicemails
+**Individual voicemails**
 
 Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
 
@@ -92,10 +90,8 @@ Individual voicemails are triggered through direct inward dialing and are routed
 - The custom assignment rule assigns the voicemail to an agent based on their direct inward call number.
 - The assignment method is round robin.
 - You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers will be automatically assigned to the agents.
-- If you let voicemails take up capacity, the capacity restriction will apply for group voicemail workstreams of push type only and not the default pick workstream. In all cases, if an agent is at nil capacity and picks a work item, the work item will still be assigned to them even if all their capacity is consumed.
-- Because the individual voicemail workstream has a custom assignment rule, capacity is not taken into account and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
 
-### Group voicemails
+**Group voicemails**
 
 If the voicemail is triggered by the overflow condition of a queue, it's routed to the default group voicemail workstream, which is a pick workstream.
 
@@ -104,6 +100,12 @@ If the voicemail is triggered by the overflow condition of a queue, it's routed 
 - The assignment method is highest capacity.
 - Voicemails left for every voice queue will be routed to the group voicemail queue.
 - For a more elaborate routing set up for voicemails, configure the required voicemail queues and route to queues rules to route to these queues.
+
+By default, the voicemail workstream capacity is set to zero.
+
+However, if you let voicemails take up capacity, the capacity restriction will apply for group voicemail workstreams of push type only and not the default pick workstreams. In all cases, if an agent is at nil capacity and picks a work item, the work item will still be assigned to them even if all their capacity is consumed.
+
+Because the individual voicemail workstream has a custom assignment rule, capacity is not taken into account and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
 
 Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
 
