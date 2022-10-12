@@ -92,6 +92,8 @@ Individual voicemails are triggered through direct inward dialing and are routed
 - The custom assignment rule assigns the voicemail to an agent based on their direct inward call number.
 - The assignment method is round robin.
 - You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers will be automatically assigned to the agents.
+- If you let voicemails take up capacity, the capacity restriction will apply for group voicemail workstreams of push type only and not the default pick workstream. In all cases, if an agent is at nil capacity and picks a work item, the work item will still be assigned to them even if all their capacity is consumed.
+- Because the individual voicemail workstream has a custom assignment rule, capacity is not taken into account and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
 
 ### Group voicemails
 
