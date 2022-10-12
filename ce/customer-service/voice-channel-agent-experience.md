@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 09/14/2022
+ms.date: 10/15/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -32,9 +32,9 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Hold**: Put the customer on hold; the customer will hear the hold music. You can keep only one caller on hold at a time.
 - **Consult**: Consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 - **Transfer**: View the options and transfer the call to:
-    - An agent or queue.
-    - A Teams user
-    - An external phone number
+  - An agent or queue.
+  - A Teams user
+  - An external phone number
 
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard.
 - **End**: End the call.
@@ -47,6 +47,17 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
 - **Transcription**: When the transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
+
+## Access and listen to voicemails (preview)
+
+> [!NOTE]
+> The voicemail feature is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+You can access the voicemails recorded by customers on your direct inward dial number or through work items that have been routed to you in one of the following ways:
+
+- On the **Customer Service Agent Dashboard**, in **My Open Activities**, select the vertical ellipses, and then select **Other Activities** > **Voicemail (Preview)**.
+- On the **Omnichannel Agent Dashboard**, in **Open work items**, select the vertical ellipses for your number, and then select **Assign to me**.
+- If inbox is configured for you, you can view the assigned and unassigned voicemails. Go to your inbox, and select **Assigned voicemails**, and then select the voicemail that you want to hear. If you access an unassigned voicemail and then close it, you won't be able to access it again.
 
 ## Report a phone number as spam
 

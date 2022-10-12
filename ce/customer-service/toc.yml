@@ -620,6 +620,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Use voicemail
+        href: voice-channel-voicemail.md
       - name: Configure outbound and inbound profiles
         href: configure-outbound-inbound-profiles.md  
       - name: Configure historical analytics for voice

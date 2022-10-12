@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# Use voicemail to manage overflow of voice calls (preview)
+# Use voicemail (preview)
 
 > [!IMPORTANT]
 >
@@ -21,6 +21,23 @@ ms.topic: article
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
+Voicemails help your customers leave messages for agents when they come across long wait times or their direct calls to agents are unanswered.You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
+
+The salient features of voicemail are as follows:
+
+- Voicemails can be recorded for up to five minutes only.
+- If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
+- Voicemails will always be transcribed irrespective of whether you have enabled the voice call transcription.
+
+## Prerequisites for voicemail
+
+The following prerequisites must be met:
+
+- Unified routing must be enabled.
+- To open a voicemail, agent presence must load.
+
+## Use voicemail to manage overflow of voice calls
+
 You can redirect the caller to leave a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
 
 - Exceeds a defined number of calls that are waiting in the queue
@@ -31,25 +48,13 @@ For information on how to configure the conditions and actions, see [Manage over
 
 You can also configure overflow override in the route-to-queue rule of a workstream.
 
+## Use voicemail to manage direct inward dialed calls
+
 The voicemail option is also presented to the customer when the customer calls the agent directly using the direct inward dialing capability and the call is not answered because of one of the following reasons:
 
 - Call rejected by the agent
 - Call times out
-- Agent presence is set as offline or do not disturb (DND)
-
-The salient features of voicemail are as follows:
-
-- Voicemails can be recorded for up to five minutes only.
-- If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
-- Voicemails will always be transcribed irrespective of whether you have enabled the voice call transcription.
-- Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
-
-## Prerequisites for voicemail
-
-The following prerequisites must be met:
-
-- Unified routing must be enabled.
-- To open a voicemail, agent presence must load.
+- Agent presence is set as offline or don't disturb (DND)
 
 ## Configure voicemail views in inbox for agents
 
@@ -74,7 +79,31 @@ The following prerequisites must be met:
 
 ## How voicemail works
 
-The voicemail record is set up for routing out of the box.
+The voicemail record is set up for routing out of the box. Voicemails are categorized into individual and group voicemails.
+
+The voicemail workstream capacity is set to zero by default.
+
+### Individual voicemails
+
+Individual voicemails are those that are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
+
+- The individual voicemail workstream in turn routes the voicemail to the individual voicemail queue.
+- By default, the individual voicemail queue has no agents.
+- The custom assignment rule assigns the voicemail to an agent based on their direct inward call number.
+- The assignment method is round robin.
+- You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers will be automatically assigned to the agents.
+
+### Group voicemails
+
+If the voicemail is triggered by the overflow condition of a queue, it's routed to the default group voicemail workstream, which is a pick workstream.
+
+- The workstream routes the voicemail to the defaul group voicemail queue.
+- By default, the queue has no agents. Add those agents to the queue who triage voicemails.
+- The assignment method is highest capacity.
+- Voicemails left for every voice queue will be routed to the group voicemail queue.
+- For a more elaborate routing set up for voicemails, configure the required voicemail queues and route to queues rules to route to these queues.
+
+Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
 
 **To view the default settings**
 
@@ -82,20 +111,20 @@ The voicemail record is set up for routing out of the box.
 
 1. Select **Voicemail (Preview)**. The Voicemail (Preview) routing hub page displays the following default settings:
 
-   - **Intake rules**: The rules check whether the voicemail is for individual or group and then routes the voicemail
-       - **Route to Individual Voicemail Workstream**: The rule checks whether the voicemail is for individual or group and then routes the voicemail to **Default Individual Voicemail Workstream** accordingly.
-       - **Route to Group Voicemail Workstream**: The rule is mapped to **Default Group Vocemail Workstream**
+   - **Intake rules**: The rules check whether the voicemail is for individual or group and then routes the voicemail accordingly.
+       - **Route to Individual Voicemail Workstream**: The rule routes the voicemail to **Default Individual Voicemail Workstream** if the voicemail type is individual.
+       - **Route to Group Voicemail Workstream**: The rule routes the voicemail to **Default Group Vocemail Workstream** if the voicemail type is group.
    - **Workstreams** 
-       - **Default Individual Voicemail Workstream**
-       - **Default Group Vocemail Workstream**
-
-
+       - **Default Individual Voicemail Workstream**: Contains the settings to handle individual voicemails.
+       - **Default Group Vocemail Workstream**: Contains the settings to handle group voicemails.
 
 ### See also
 
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
+[Manage overflow of work items in queues](manage-overflow.md)  
+[Access voicemails](voice-channel-agent-experience.md#access-and-listen-to-voicemails-preview)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
