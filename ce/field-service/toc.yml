@@ -1,11 +1,8 @@
 items:
-- name: Overview
+- name: Welcome to Field Service
   href: overview.md
 
-- name: New and upcoming features
-  href: new-upcoming.md
-
-- name: Field Service user guide
+- name: Field Service documentation
   href: user-guide.md
 
 - name: Get started
@@ -111,7 +108,7 @@ items:
     - name: Work order completion surveys
       href: work-order-surveys.md
 
-- name: Frontline workers + bookable resources
+- name: Bookable resources
   items:
     - name: Set up frontline workers
       href: frontline-worker-set-up.md
@@ -250,7 +247,7 @@ items:
     - name: Manual inventory journals
       href: manual-inventory-journals.md
 
-- name: Field Service for end customers
+- name: Self-service capabilities for your customers
   items: 
     - name: Customer experience homepages
       href: field-service-portal-homepage.md
@@ -259,7 +256,7 @@ items:
     - name: Send technician arrival time and current map location
       href: reminders-arrival-time.md
 
-- name: Mobile app
+- name: Field Service Mobile apps
   items: 
     - name: Implement and adopt the mobile app
       href: mobile-2020-power-platform.md
