@@ -124,7 +124,7 @@ A scoring model defines the criteria for choosing the leads for training and sco
 1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**. 
 
 1. Perform one of the following actions: 
-    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
     
     - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md).
     
