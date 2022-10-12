@@ -23,7 +23,7 @@ Enable email validation in Dynamics 365 Sales to remove invalid email addresses 
 
 ## Prerequisite
 
-Before you enable the email validation feature, ensure that the AI builder is enabled in your organization. More information: [How do I enable a Preview feature?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
+Before you enable the email validation feature, ensure that the **AI Builder preview models** option is enabled in your organization. More information: [How do I enable a Preview feature?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
 
 ## In which regions is email validation available?
 
