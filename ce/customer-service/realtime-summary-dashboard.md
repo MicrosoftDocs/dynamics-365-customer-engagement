@@ -56,10 +56,10 @@ The report summarizes the KPIs for the specified time period and the percentage 
 | Conversations in queue | |
 | Longest wait time | |
 | Avg. speed to answer | |
-| Abandoned rate |  |
-| Ongoing conversation |  |
-| Avg. handle time |  |
-| Service level (60 sec) |  |
+| Abandoned rate | Total number of conversations which are closed before an agent accepted the conversation. |
+| Ongoing conversation | Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
+| Avg. handle time | Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time.  |
+| Service level (60 sec) |  Percentage of chats what were accepted by an agent within 60 seconds (after escalated by bot if applicable)|
 
 The following charts are displayed in the Summary report.
 
@@ -83,23 +83,23 @@ Conversation Queue
 | Title | Description |
 | ------- | ------------------ |
 | Queue| |
-| Waiting| |
+| Waiting| Total number of conversations which are currently waiting in the human agent queue to be assigned to an agent.|
 | Longest wait time|  |
 | Available capacity (units/profile) | |
-| Avg. wait time | |
-| Abandoned rate% | |
-| Ongoing | |
-| SLA first repsonse % | |
-| Avg. handle time | |
+| Avg. wait time |Avg wait time of all assigned conversations for the period selected. This metric is calculated only for conversations which are accepted by human agent and is closed. |
+| Abandoned rate% |Total number of conversations which are closed before an agent accepted the conversation. |
+| Ongoing |Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent.|
+| SLA first response % |Percentage of conversations which was responed within 30 seconds by an agent |
+| Avg. handle time |Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time.  |
 
 Agent Queue
 
 | Title | Description |
 | ------- | ------------------ |
 | Queue| |
-| Agent available| |
-| Agent busy|  |
-| Agent DND| |
+| Agent available|Number of agents who are currently in presence status = "Available" |
+| Agent busy| Number of agents who are currently in presence status = "busy" |
+| Agent DND|Number of agents who are currently in presence status = "Do not disturb" |
 | Units available | |
 | Units occupied | |
 | Profile available | |
