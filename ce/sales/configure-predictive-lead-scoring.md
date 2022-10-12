@@ -327,10 +327,6 @@ By default, intelligent fields are considered while training a model by using ou
 > [!div class="mx-imgBorder"]
 > ![Edit fields page showing the Model concepts section with a list of intelligent fields that have been selected.](media/si-admin-predictive-lead-scoring-edit-model-intelligent-fields.png "Edit model page with intelligent fields")
 
-
-
-
-
 ## View attribute insights
 
 On the **Attribute Insights** pane, you can view detailed information about an attribute, such as its qualification rate and the most important reasons&mdash;both positive and negative&mdash;for that rate. This information provides insights on the performance of each attribute that influences the prediction score. Based on these insights, you can analyze and understand:
@@ -361,10 +357,10 @@ Typically, the **Attribute Insights** pane is divided into the following section
 
      For example, if leads with high budget have a 42 percent qualification rate, the formula is:
 
-     (`Total number of leads with high budget that are qualified)/( Total number of leads with high budget that are closed`) &times; 100 = 42  
+     (`Total number of leads with high budget that are qualified)/(Total number of leads with high budget that are closed`) &times; 100 = 42  
 
    > [!NOTE]
-   > These calculations are based on the data at the time the model is trained, and might not represent the current snapshot of data. Also, the past two years of data is considered and if the model has filters, the calculations are done after the data is filtered.
+   > These calculations are based on the data at the time the model is trained, and might not represent the current snapshot of data. Also, the past two years of data are considered and if the model has filters, the calculations are done after the data is filtered.
 - A **Details** section that provides reasons for why the values are trending as they are in the graph at that point in time. If there isn't enough data for attributes from related entities, the application won't display the insights.
 - The **About** tab provides more information about the attribute insights.
 
@@ -396,6 +392,7 @@ The model is deleted from your organization.
 ## Manage duplicate models
 
 When you create multiple models, it’s important to configure them so that they are not scoring the same leads. In the case of duplicate models, it’s difficult to identify which model scored the lead. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.  
+
 To remove the duplicate models, use one of the following methods depending on the action you’re performing:
 
 - [Create model](#create-model)
