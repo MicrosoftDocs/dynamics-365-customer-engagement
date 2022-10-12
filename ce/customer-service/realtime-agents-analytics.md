@@ -58,8 +58,8 @@ The **Agent list** table in the **Agent** report displays the following informat
 | Wrap-up sessions | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
 | Avg. handle time | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
-| Session rejection rate |  |
-| Session timeout rate | |
+| Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
+| Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 
 You can also drill down to view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session by selecting an agent's name from the Agent's list.
 
@@ -110,7 +110,7 @@ You can also view details about a specific agent by right-clicking the agent's n
 
 You can select the **Status** field to modify the presence indicator for an agent. The agent has to be signed in for you to change the agent status.
 
-**Where do we see the following information**
+**Where do we see the following information ?**
 
 You can use the filters pane on the right to see only the signed-in agents in the table. Do the following:
 
@@ -118,12 +118,8 @@ You can use the filters pane on the right to see only the signed-in agents in th
 2. Select the filter pane, and set **IsLoggedIn** field to **True**.
     >![Set filters to view signed-in agents.](media/filters-signed-in.png "Set filters to view signed-in agents")
 
-
 ### See also
 
-[Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
-[Intraday insights dashboard](intraday-insights-dashboard.md)  
-[View and understand conversation insights](intraday-conversation-insights.md)  
-[View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
+[Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
