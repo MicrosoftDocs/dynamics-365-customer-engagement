@@ -1,7 +1,7 @@
 ---
 title: "Historical analytics for unified routing in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service."
-ms.date: 08/01/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ With the introduction of Unified Routing, an advanced and elaborate set of capab
 
 ### Access the Unified routing dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Unified routing report in Omnichannel historical analytics
 

@@ -1,7 +1,7 @@
 ---
 title: "Bot dashboard | Microsoft Docs"
 description: "Learn about the bot dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 10/03/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -17,7 +17,7 @@ If your administrator has enabled **Add historical analytics for bots**  in Cust
 
 ### Access the Bot dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Power Virtual Agents bot dashboard
 

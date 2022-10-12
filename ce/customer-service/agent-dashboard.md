@@ -1,7 +1,7 @@
 ---
 title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
 description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 10/03/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -23,7 +23,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 
 ### Access the Agent dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details
 

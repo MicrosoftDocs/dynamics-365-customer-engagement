@@ -35,7 +35,7 @@ To view the Topics dashboard, go to customer service historical analytics and se
 
 ### Access the Topics dashboard
 
-> [!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 ## Key insights card
 

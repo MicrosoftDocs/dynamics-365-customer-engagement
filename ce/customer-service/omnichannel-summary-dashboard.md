@@ -1,7 +1,7 @@
 ---
 title: Summary Dashboard  | Microsoft Docs
 description: Integrate Power Virtual Agents and Omnichannel analytics to better understand your organization's customer service experience
-ms.date: 10/03/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -37,7 +37,7 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 
 ### Access the Summary dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details
 

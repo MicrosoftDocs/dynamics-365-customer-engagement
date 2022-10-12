@@ -1,7 +1,7 @@
 ---
 title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
-ms.date: 09/02/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,7 +27,7 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ### Access the Conversation dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+ [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details
 

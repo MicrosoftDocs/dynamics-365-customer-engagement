@@ -1,7 +1,7 @@
 ---
 title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
-ms.date: 05/9/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -17,7 +17,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 ### Access the Topics dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report Details
 

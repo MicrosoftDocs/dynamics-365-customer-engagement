@@ -39,7 +39,7 @@ To view the Agent dashboard, go to Customer Service historical analytics and sel
 
 ### Access the Agent dashboard
 
-> [!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 ## Report details
 

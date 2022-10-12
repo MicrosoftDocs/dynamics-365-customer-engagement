@@ -1,7 +1,7 @@
 ---
 title: Queue Dashboard | Microsoft Docs
 description: Learn about the Queue dashboard to better understand agent performance in your organization.
-ms.date: 09/20/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -23,7 +23,7 @@ By default, the dashboard shows key performance indicators (KPIs) for the past m
 
 ### Access the Queue dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details
 

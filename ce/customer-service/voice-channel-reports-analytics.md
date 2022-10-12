@@ -3,7 +3,7 @@ title: "Voice channel historical analytics and call insights | MicrosoftDocs"
 description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 11/02/2021
+ms.date: 10/12/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -33,7 +33,7 @@ The Voice analytics report provides comprehensive information on the overall per
 
 ### Access the Voice dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details 
 
