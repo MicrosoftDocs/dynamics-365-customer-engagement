@@ -25,7 +25,7 @@ The report appears as a tab in the Customer Service historical analytics report 
 
 ### Access the Unified routing dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+> [!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 
 :::image type="content" source="media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::

@@ -40,7 +40,7 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ### Access the Summary dashboard
 
-> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+> [!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 ## Key insights card
 
