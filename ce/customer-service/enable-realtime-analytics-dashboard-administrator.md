@@ -1,7 +1,7 @@
 ---
-title: "Configure realtime analytics for supervisors | MicrosoftDocs"
+title: "Configure real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure realtime analytics for Omnichannel in Dynamics 365 Customer Service."
-ms.date: 10/11/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,7 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Enable real time analytics reports in Omnichannel for Customer Service (preview)
+# Configure real-time analytics reports in Omnichannel for Customer Service (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -26,16 +26,16 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-You can enable real time analytics in Omnichannel for Customer Service and give your supervisors access to real time metrics and KPIs that reflect the situation in the contact center as agents handle customer conversations coming through multiple channels.
+You can enable real-time analytics in Omnichannel for Customer Service and give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as agents handle customer conversations coming through multiple channels.
 
-The following real time analytics reports are available:
+The following real-time analytics reports are available:
 
-- Summary report
+- Summary
 - Voice
-- (Agents report)
-- (Ongoing conversations)
+- Agents
+- Ongoing conversations
 
-You can enable Omnichannel real time analytics reports in the Customer Service admin center app.
+You can enable Omnichannel real-time analytics reports in the Customer Service admin center app.
 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
