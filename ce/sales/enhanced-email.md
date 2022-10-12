@@ -58,7 +58,7 @@ For more information about the email functionality, see [Understand the email ex
 
 ## Set default font and size
 
-You can set the default font and size you want to use in your email. This helps you to maintain consistency while communicating with your customers through email. For more information about setting the default font and size, see [Set the default font and font size](/power-apps/user/view-compose-email#set-the-default-font-and-font-size).
+Set the default font and size so that every email you create uses that font setting. For more information about setting the default font and size, see [Set the default font and font size](/power-apps/user/view-compose-email#set-the-default-font-and-font-size).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
