@@ -30,12 +30,10 @@ The Voice analytics report provides comprehensive information on the overall per
 
  ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
 
-**Navigation**
 
-You can view the Voice dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the **Voice** dashboard as follows:
+### Access the Voice dashboard
 
-- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Voice**.
-- If the enhanced multisession workspace view is enabled, select the site map and then select **Omnichannel historical analytics**. On the page that appears, select **Voice**.
+> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details 
 

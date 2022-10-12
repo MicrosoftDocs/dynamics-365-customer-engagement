@@ -33,6 +33,11 @@ The Article insights dashboard can help your organization's knowledge workers to
 
 ![Knowledge article insights analytics dashboard.](media/knowledge-article-insights-dashboard.png "View of the knowledge article insights dashboard")
 
+
+### Access the Article insights dashboard
+
+> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+
 ### Metrics in Article insights dashboard
 
 The Articles insights dashboard represents the following metrics.
@@ -61,6 +66,10 @@ Your administrator must enable the dashboard for you to access it. More informat
 ![Knowledge Search term insights dashboard.](media/knowledge-search-analytics-dashboard.png "View of the knowledge Search term insights dashboard")
 
 As a knowledge manager, it's your responsibility to maintain and improve your organization's overall knowledge base article offerings. By identifying searches that have low success or return no results, the knowledge Search term insights dashboard can help you identify knowledge gaps, improve search results, and surface the most relevant articles.  
+
+### Access the Search term insights dashboard
+
+> [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ### Metrics in knowledge Search term insights dashboard
 
