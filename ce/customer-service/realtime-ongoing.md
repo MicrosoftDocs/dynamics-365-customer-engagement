@@ -1,7 +1,7 @@
 ---
-title: "Ongoing Conversations report for supervisor | MicrosoftDocs"
-description: "Learn how the Ongoing Conversations report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 09/28/2022
+title: "Real- time analytics ongoing Conversations report for supervisor | MicrosoftDocs"
+description: "Learn how the ongoing conversations report enables supervisors to view information about the conversations handled by agents in real time."
+ms.date: 10/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,42 +23,38 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The **Ongoing Conversations** dashboard provides information on the conversations that are handled by agents and are in the active, open, wrap up, and waiting status in your organization. This dashboard provides a holistic view of the conversations with details, such as customer, agent assigned, subject, queue, and activity status. The data in the dashboard is auto refreshed in real time.
+The **Ongoing Conversations** report provides information on the conversations that are handled by agents and are in the open, active, wrap-up, waiting, and closed status in your organization. This report provides a holistic view of the conversations with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. The duration in which the report data is auto refreshed is near real time.
 
-Further, you can filter the conversations using the **Filter by queues** or **Filter by agents** option to create a personalized view of the queues or the group of agents you want to monitor or track. Select the queues or agents for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selection. Select **Save** to set this filter as default and when you sign in to Omnichannel for Customer Service, you view conversations based on your saved filter.
+Further, you can filter the conversations using the **Queues**, **Channel** or **Agents** option to create a personalized view of the queues or the group of agents you want to monitor or track. Select the queues or agents for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selection. Select **Save** to set this filter as default and when you sign in to Omnichannel for Customer Service, you view conversations based on your saved filter.
 
 > [!NOTE]
 >
-> - This report only covers Omnichannel conversations. 
-> - The **Ongoing Conversations dashboard** is view only and you can't perform any actions such as open, edit, or delete on this dashboard.
-> - The status icon in the **Active Agent** column of the dashboard does not pertain to an agent's online presence in Omnichannel. The status is displayed based on your Microsoft Teams or Skype for Business integration settings with Microsoft Dynamics 365. The administrator can turn off the presence in the system settings for Dynamics 365.
+> - This report only covers Omnichannel conversations.
 
 ## Ongoing Conversations report
 
 The **Ongoing conversations** table provides information about the status of the conversations that are not yet closed. The table also displays information about the channel through which the conversation came in, with the time and date that the conversation was picked up.
 
+**Need screenshot with real data**
+
 The **Ongoing conversations** report displays the following metrics about conversations.
 
 | Metric | Description | Availability|
 |-------|-------|------|
-| Customer |  |  |
 | Subject |  |  |
 | Status |  |  |
 | Active agent |  |  |
 | Queue |  |  |
-| Action  |  |  |
 | Channel |  |  |
-| Wait time (min) |  |  |
-| Handle time (min) |  |  |
+| Wait time|  |  |
+| Handle time |  |  |
 | Sentiment |  |  |
 ||||
 
-(**Provide **Ongoing conversations** report screenshot**)
-
 ### See also
 
-[Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
-[Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
-[View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
+[Provide access to Ongoing Conversations report](configure-ongoing-conversations-dashbaord.md)  
+[Introduction to intraday insights report](intro-intraday-insights-report.md)  
+[View and understand Omnichannel intraday insights report](intraday-insights-report.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
