@@ -21,13 +21,13 @@ ms.topic: article
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Voicemails help your customers leave messages for agents when they come across long wait times or their direct calls to agents are unanswered.You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
+Voicemails help your customers leave messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
 
 The salient features of voicemail are as follows:
 
 - Voicemails can be recorded for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
-- Voicemails will always be transcribed irrespective of whether you have enabled the voice call transcription.
+- Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription.
 
 ## Prerequisites for voicemail
 
@@ -50,7 +50,7 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 ## Use voicemail to manage direct inward dialed calls
 
-The voicemail option is also presented to the customer when the customer calls the agent directly using the direct inward dialing capability and the call is not answered because of one of the following reasons:
+The option to record a voicemail is also presented when the customer calls the agent directly using the direct inward dialing capability. If the call isn't answered because of one of the following reasons, the customer is prompted to record a message.
 
 - Call rejected by the agent
 - Call times out
@@ -85,7 +85,7 @@ The voicemail workstream capacity is set to zero by default.
 
 ### Individual voicemails
 
-Individual voicemails are those that are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
+Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
 
 - The individual voicemail workstream in turn routes the voicemail to the individual voicemail queue.
 - By default, the individual voicemail queue has no agents.
@@ -97,7 +97,7 @@ Individual voicemails are those that are triggered through direct inward dialing
 
 If the voicemail is triggered by the overflow condition of a queue, it's routed to the default group voicemail workstream, which is a pick workstream.
 
-- The workstream routes the voicemail to the defaul group voicemail queue.
+- The workstream routes the voicemail to the default group voicemail queue.
 - By default, the queue has no agents. Add those agents to the queue who triage voicemails.
 - The assignment method is highest capacity.
 - Voicemails left for every voice queue will be routed to the group voicemail queue.
@@ -113,10 +113,10 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 
    - **Intake rules**: The rules check whether the voicemail is for individual or group and then routes the voicemail accordingly.
        - **Route to Individual Voicemail Workstream**: The rule routes the voicemail to **Default Individual Voicemail Workstream** if the voicemail type is individual.
-       - **Route to Group Voicemail Workstream**: The rule routes the voicemail to **Default Group Vocemail Workstream** if the voicemail type is group.
+       - **Route to Group Voicemail Workstream**: The rule routes the voicemail to **Default Group Voicemail Workstream** if the voicemail type is group.
    - **Workstreams** 
        - **Default Individual Voicemail Workstream**: Contains the settings to handle individual voicemails.
-       - **Default Group Vocemail Workstream**: Contains the settings to handle group voicemails.
+       - **Default Group Voicemail Workstream**: Contains the settings to handle group voicemails.
 
 ### See also
 
