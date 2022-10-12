@@ -284,8 +284,8 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
    > [!NOTE]
    > - The **Ignore empty values** option is disabled for the following type of attributes:
-     > - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
-     > - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
+       > - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
+       > - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
    > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
    
 1. Select **Retrain model**.  
@@ -305,10 +305,6 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
     - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
     - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**. 
-
-
-
-
 
 #### Select intelligent fields
 
@@ -330,6 +326,10 @@ By default, intelligent fields are considered while training a model by using ou
 
 > [!div class="mx-imgBorder"]
 > ![Edit fields page showing the Model concepts section with a list of intelligent fields that have been selected.](media/si-admin-predictive-lead-scoring-edit-model-intelligent-fields.png "Edit model page with intelligent fields")
+
+
+
+
 
 ## View attribute insights
 
