@@ -1,7 +1,7 @@
 ---
 title: Summary Dashboard | Microsoft Docs
 description: Learn about the Realtime summary dashboard to cater to your organization's customer service experience better.
-ms.date: 09/29/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

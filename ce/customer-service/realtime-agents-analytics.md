@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Real time analytics: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Real time analytics dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 09/28/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
