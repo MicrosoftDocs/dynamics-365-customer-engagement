@@ -1,7 +1,7 @@
 ---
 title: "Use lead and opportunity scoring with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to use lead and opportunity scoring with the Dynamics 365 Sales Enterprise license."
-ms.date: 04/26/2022
+ms.date: 10/11/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -117,7 +117,7 @@ If you want to turn off lead and opportunity scoring, you can do it from their r
 
 ### Add lead and opportunity scoring widgets to a custom form
 
-By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using a form other than the **Sales Insights** form (for example, customized form) for leads and opportunities, you can add the scoring widgets to your custom forms. For information about adding scoring widgets to a custom form, go to [Add the lead scoring widget to a form](configure-predictive-lead-scoring.md#add-the-lead-scoring-widget-to-a-form) and [Add the opportunity scoring widget to a form](configure-predictive-opportunity-scoring.md#add-the-opportunity-scoring-widget-to-a-form).
+By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using a form other than the **Sales Insights** form (for example, customized form) for leads and opportunities, you can add the scoring widgets to your custom forms. For information about adding scoring widgets to a custom form, go to [Add the lead scoring widget to a form](pls-add-widget.md) and [Add the opportunity scoring widget to a form](pos-add-widget.md).
 
 ### See also
 

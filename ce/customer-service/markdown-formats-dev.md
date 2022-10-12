@@ -4,7 +4,7 @@ description: "Use this article to understand how Markdown formats are passed thr
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/12/2022
+ms.date: 10/10/2022
 ms.topic: reference
 ---
 # Preview: Markdown formats: Direct Line
@@ -28,7 +28,7 @@ The following table lists the Markdown formats used in inbound messages sent by 
 
 |          Style            |      Inbound                      |    Outbound                           | Example   |
 | ------------------------- | -------------------------------   | --------------------------------------|-----------|
-| bold                      | \*bold\*                          | \*bold\*                              | **text**  |
+| bold                      | \*\*bold\*\*                          | \*\*bold\*\*                              | **text**  |
 | italics                   | \_italics\_                       | \_italics\_                           | *text*    |
 | strikethrough             | ~strikethrough~                   | ~strikethrough~                       | ~~text~~  |
 | blockquote                | > blockquote                      |  > blockquote                         | <blockquote>text</blockquote> |

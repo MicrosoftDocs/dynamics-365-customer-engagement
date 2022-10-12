@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 10/06/2022
+ms.date: 10/10/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -53,7 +53,7 @@ Additionally, real-time marketing features are now available in France and Switz
     - [Docs](conditional-content.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of conditional dynamic content.](media/whats-new-conditional-dynamic.png "Screenshot of conditional dynamic content")
+    > ![Screenshot of conditional dynamic content.](media/conditional-content-screenshot.png "Screenshot of conditional dynamic content")
 
 #### Monthly enhancements
 
@@ -302,7 +302,7 @@ The update also includes improved email content blocks, the ability to manually 
     - [Docs](conditional-content.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of conditional dynamic content.](media/whats-new-conditional-dynamic.png "Screenshot of conditional dynamic content")
+    > ![Screenshot of conditional dynamic content.](media/conditional-content-screenshot.png "Screenshot of conditional dynamic content")
 
 - **Measure campaign effectiveness with a new channel analytics dashboard**
     - To create effective campaigns, marketers need to continuously track the delivery of assets across numerous channels. They also need to review campaign engagement metrics so that they can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. You can even zoom in on a particular channel or message. You can also learn from trends of important metrics over a specified time period to further improve your marketing efforts.
