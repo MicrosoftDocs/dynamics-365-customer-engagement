@@ -1,7 +1,7 @@
 ---
 title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
 description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 10/03/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -20,12 +20,10 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard in Omnichannel for Customer Service.](media/oc-agent-dashboard.png "Agent dashboard in Omnichannel for Customer Service")
 
-**Navigation**
 
-You can view the Agent dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Agent dashboard as follows:
+### Access the Agent dashboard
 
-- In the default view, select the plus (**+**) icon, and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
-- If the enhanced multisession workspace view is enabled, select the Sitemap and then select **Omnichannel historical analytics**. On the page that appears, select **Agent**.
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
 ## Report details
 
