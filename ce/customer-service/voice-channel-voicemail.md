@@ -1,12 +1,11 @@
 ---
-title: "Voicemail to manage call overflow of voice calls | MicrosoftDocs"
-description: "Learn how to configure call overflow for the voice channel in Omnichannel for Customer Service."
+title: "Use voicemail to manage inbound calls"
+description: "Learn how to use voicemails in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/15/2022
 ms.topic: article
-
 ---
 
 # Use voicemail (preview)
@@ -48,9 +47,9 @@ For information on how to configure the conditions and actions, see [Manage over
 
 You can also configure overflow override in the route-to-queue rule of a workstream.
 
-## Use voicemail to manage direct inward dialed calls
+## Use voicemail to manage direct calls to agents
 
-The option to record a voicemail is also presented when the customer calls the agent directly using the direct inward dialing capability. If the call isn't answered because of one of the following reasons, the customer is prompted to record a message.
+If a direct call to an agent is missed and voicemail is configured, the option to record a voicemail is presented to the customer. The call might not be answered because of one of the following reasons:
 
 - Call rejected by the agent
 - Call times out
@@ -109,12 +108,12 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 
 1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail (preview) is listed under **Record types** on the page that appears.
 
-1. Select **Voicemail (Preview)**. The Voicemail (Preview) routing hub page displays the following default settings:
+1. Select **Voicemail (Preview)**. The **Voicemail (Preview) routing hub** page displays the following default settings:
 
    - **Intake rules**: The rules check whether the voicemail is for individual or group and then routes the voicemail accordingly.
        - **Route to Individual Voicemail Workstream**: The rule routes the voicemail to **Default Individual Voicemail Workstream** if the voicemail type is individual.
        - **Route to Group Voicemail Workstream**: The rule routes the voicemail to **Default Group Voicemail Workstream** if the voicemail type is group.
-   - **Workstreams** 
+   - **Workstreams**
        - **Default Individual Voicemail Workstream**: Contains the settings to handle individual voicemails.
        - **Default Group Voicemail Workstream**: Contains the settings to handle group voicemails.
 
