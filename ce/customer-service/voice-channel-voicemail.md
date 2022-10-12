@@ -27,6 +27,7 @@ The salient features of voicemail are as follows:
 - Voicemails can be recorded for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
 - Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription.
+- If the customer is unable to record the voicemail, an automated message is played for the customer that informs the voicemail couldn't be recorded and they should call back again.
 
 ## Prerequisites for voicemail
 
@@ -123,7 +124,8 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
 [Manage overflow of work items in queues](manage-overflow.md)  
-[Access voicemails](voice-channel-agent-experience.md#access-and-listen-to-voicemails-preview)
+[Access voicemails](voice-channel-agent-experience.md#access-and-listen-to-voicemails-preview)  
+[Use direct callback](voice-channel-direct-callback.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
