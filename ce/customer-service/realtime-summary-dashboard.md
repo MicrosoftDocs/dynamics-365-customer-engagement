@@ -1,6 +1,6 @@
 ---
-title: Summary Dashboard | Microsoft Docs
-description: Learn about the Realtime summary dashboard to cater to your organization's customer service experience better.
+title: Real-time analytics Summary report| Microsoft Docs
+description: Learn about the Real-time summary report to cater to your organization's customer service experience better.
 ms.date: 10/12/2022
 ms.topic: article
 author: Soumyasd27
@@ -18,90 +18,83 @@ ms.custom:
 
 ---
 
-# View and understand the Summary report in Omnichannel real time analytics (preview)
+The **Summary** report is displayed in the default view in the Customer Service workspace. The report includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
 
-The Summary tab is displayed in the default view in your workspace. The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
+By default, the report shows you KPIs for the past one day and for all channels, queues, and agents in your system. You can use the data filtering options to select data for specific time periods, channels, queues, agents, conversation status, direction, and time zone. Additionally, you can also pause the updates by using the **Pause updates** button.
 
-By default, the dashboard shows you KPIs for the past one day and for all channels, queues, and agents in your system. You can use the data filtering options to select data for specific time periods, channels, queues, agents, conversation status, direction, and time zone. Additionally, you can also pause the updates by using the ‘Pause updates’ button.
+**Need screenshot of the Summary report**
 
-**(Need screenshots)**
+## Navigation
 
-## Metrics and their descriptions
+You can view the Summary dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Summary dashboard as follows:
 
-**Conversation**
+- In the default view, select the plus (+) icon, and then select **Omnichannel real-time analytics**. On the page that appears, select **Summary**.
+-If the enhanced multisession workspace view is enabled, select the site map, and then select **Omnichannel historical analytics**. On the page that appears, select **Summary**.
 
-This section consists of the following performance indicators.
+## Report details
 
-| Metric | Description 
-| ------------ | --------------- |
-| Offered | Total number of conversations which was offered to human agent queue. This includes both inbound and outbound conversations|
-|Waiting|Total number of conversations which are currently waiting in the human agent queue to be assigned to an agent.|
-|Longest wait time|Longest wait time of current unassigned conversations.|
-|Avg. wait itme|Avg wait time of all assigned conversations for the period selected. This metric is calculated only for conversations which are accepted by human agent and is closed.|
-|Abandon rate|Total number of conversations which are closed before an agent accepted the conversation.|
-|||
+The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, channels, queue, time zone, or conversation status.
 
-**Operational**
+**Need screenshot**
 
-This section consists of the following performance indicators.
+## KPI	Description
 
-| Metric | Description |
-| ------------ | --------------- |
-|Avg handle time |Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
-|Avg wait time |Avg wait time of all assigned conversations for the period selected. This metric is calculated only for conversations which are accepted by human agent and is closed.|
-|Session rejection rate |Percentage of sessions rejected by agent(s) out of all sessions presented to an agent(s)|
-|Session timeout rate |Percentage of sessions timed out by agent(s) out of all sessions presented to an agent(s)|
-|Transfer rate |Percentage of conversations which was transferred atleast once. |
-|||
+| KPI | Description |
+| ------- | ------------------ |
+| Incoming conversation  | Conversation escalated by the Power Virtual Agents bots is also included.|
+| Conversations in queue | |
+| Longest wait time | |
+| Avg. speed to answer | |
+| Abandoned rate |  |
+| Ongoing conversation |  |
+| Avg. handle time |  |
+| Service level (60 sec) |  |
 
-**Agent status**
+The following charts are displayed in the Summary report.
 
-This section consists of the following performance indicators.
+**Need screenshot**
 
-| Metric | Description |
-| ------------ | --------------- |
-|Available |Number of agents who are currently in presence status = "Available"|
-|Busy|Number of agents who are currently in presence status = "busy"|
-|Do not disturb|Number of agents who are currently in presence status = "Do not disturb"|
-|Appear away|Number of agents who are currently in presence status = "Appear away"|
-|Inactive|Number of agents who are currently in presence status = "Inactive"|
-|||
+| Title | Description |
+| ------- | ------------------ |
+| Conversations over time| |
+| Ongoing conversations by status | |
+| Agent availability status|  |
+| Ongoing conversations by channel | |
+| Ongoing conversations by queue | |
+| Capacity by unit | |
 
-**Service level**
+You can select **View report details** to drill down on the **Conversation and agent analytics** channel and queue details.
 
-This section consists of the following performance indicators.
+**Need screenshot**
 
-| Metric | Description |
-| ------------ | --------------- |
-|SLA First response (30 secs) | Percentage of conversations which was responed within 30 seconds by an agent|
-|SLA Response (30 secs)|Percentage of conversations which was responed within 30 seconds by an agent|
-|SLA First response (60 secs)|Percentage of conversations which was responed within 60 seconds by an agent|
-|SLA Response (60 secs)|Percentage of conversations which was responed within 60 seconds by an agent|
-|SLA (30 secs)|Percentage of chats what were accepted by an agent within 30 seconds (after escalated by bot if applicable)|
-|SLA (60 secs)|Percentage of chats what were accepted by an agent within 60 seconds (after escalated by bot if applicable)|
-|||
+Conversation Queue
 
-## Capacity Profile and Units
+| Title | Description |
+| ------- | ------------------ |
+| Queue| |
+| Waiting| |
+| Longest wait time|  |
+| Available capacity (units/profile) | |
+| Avg. wait time | |
+| Abandoned rate% | |
+| Ongoing | |
+| SLA first repsonse % | |
+| Avg. handle time | |
 
-Capacity profile explains the details of what the agent can handle. Capacity Units refers to the units an agent himself to.
+Agent Queue
 
-**(Need screenshots)**
+| Title | Description |
+| ------- | ------------------ |
+| Queue| |
+| Agent available| |
+| Agent busy|  |
+| Agent DND| |
+| Units available | |
+| Units occupied | |
+| Profile available | |
+| Profile occupied | |
 
-This section consists of the following performance indicators.
-
-| Metric | Description |
-| ------------ | --------------- |
-|Required capacity units | |
-|Available capacity units||
-|Available agents||
-|||
-
-## Conversation and agent analytics
-
-**(Need screenshots and description)**
-
-- Table view
-- Graph view
+**We need Conversation and Agent Channel details as well.**
 
 ### See also
 
