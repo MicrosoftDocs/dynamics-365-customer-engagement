@@ -98,7 +98,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
 Routing rules for a workstream consist of work classification rules and route-to-queue rules. To learn about configure routing rules, see the following articles:
 
 - [Configure work classification rules](configure-work-classification.md)
-- [Configure route-to-queue rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+- [Configure route-to-queue rules](configure-route-to-queue-rules.md)
 
 ### Configure work distribution
 
@@ -125,7 +125,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 - [Sessions](../app-profile-manager/session-templates.md)
 - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-- [Context variables](context-variables-for-bot.md)
+- [Context variables](manage-context-variables.md)
 - [Smart assist bots](smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
@@ -173,7 +173,7 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 
 ### Associate templates
 
-You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates in Omnichannel admin center](../app-profile-manager/associate-templates.md#associate-templates-with-workstreams-in-omnichannel-admin-center)
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
 ### See also
 

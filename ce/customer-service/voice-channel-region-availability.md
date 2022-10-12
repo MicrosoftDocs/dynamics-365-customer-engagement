@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/19/2022
+ms.date: 10/11/2022
 ms.topic: article
 ---
 
@@ -45,9 +45,9 @@ If you need your data to stay within a country or region, see the following tabl
 |----------|---------|-----|
 |United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
 |Canada **<sup>1, 2</sup>** |August 2022 | To be announced  |
-|India **<sup>1, 2</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>1, 2</sup>** | August 2022 | To be announced|
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
+|Switzerland **<sup>1, 2</sup>** | October 2022 | To be announced|
+|India **<sup>1, 2</sup>** | October 2022 | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
@@ -121,14 +121,15 @@ See the information in the following table to know about the supported languages
 | Burmese - Myanmar| `my-MM` |x|x|x|x|x|x|x|
 | Catalan | `ca` |✔|x|✔|✔|✔|x|✔|
 | Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
-| Chinese - Hong Kong SAR - Cantonese - Taiwan - Traditional| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
+| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|✔|✔|✔|✔|x|✔|
+| Chinese - Taiwan - Traditional | `zh-TW` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
 | Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|
-| Czech - Czech Republic | `cs-CZ` |✔|x|✔|✔|✔|x|✔|
+| Czech - Czech Republic | `cs-CZ` |✔|✔|✔|✔|✔|x|✔|
 | Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔|x|✔|
 | Dari | `prs` |x|x|x|x|x|x|x|
 | Divehi | `dv` |x|x|x|x|x|x|x|
-| Dutch - Belgium | `nl-BE` |x|x|✔|✔|x|x|x|
+| Dutch - Belgium | `nl-BE` |✔|x|✔|✔|x|x|x|
 | Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
 | English - Australia | `en-AU` |x|x|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
@@ -148,7 +149,7 @@ See the information in the following table to know about the supported languages
 | Estonian - Estonia | `et-EE` |✔|x|✔|✔|✔|x|✔|
 | Fijian | `fj` |x|x|x|x|x|x|x|
 | Filipino | `fil-PH` |x|x|x|✔|x|x|x|
-| Finnish | `fi-FI` |✔|x|✔|✔|✔|x|✔|
+| Finnish | `fi-FI` |✔|✔|✔|✔|✔|x|✔|
 | French - Canada | `fr-CA` |x|x|✔|✔|x|x|x|
 | French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
@@ -157,7 +158,7 @@ See the information in the following table to know about the supported languages
 | German - Austria| `de-AT` |x|x|✔|✔|x|x|x|
 | German - Germany | `de-DE` |✔|✔|✔|✔|✔|✔|✔|
 | German - Switzerland | `de-CH` |x|x|✔|✔|x|x|x|
-| Greek - Greece| `el-GR` |✔|x|✔|✔|✔|x|✔|
+| Greek - Greece| `el-GR` |✔|✔|✔|✔|✔|x|✔|
 | Gujarati - India | `gu-IN` |x|x|✔|✔|x|x|x|
 | Haitian Creole | `ht` |x|x|x|x|x|x|x|
 | Hebrew - Israel | `he-IL` |✔|x|✔|✔|✔|x|✔|
@@ -243,7 +244,7 @@ See the information in the following table to know about the supported languages
 | Tamil - India | `ta-IN` |x|x|✔|✔|x|x|x|
 | Tatar | `tt` |x|x|x|x|x|x|x|
 | Telugu - India | `te-IN` |x|x|✔|✔|x|x|x|
-| Thai - Thailand | `th-TH` |✔|x|✔|✔|✔|x|✔|
+| Thai - Thailand | `th-TH` |✔|✔|✔|✔|✔|x|✔|
 | Tibetan | `bo` |x|x|x|x|x|x|x|
 | Tigrinya | `ti` |x|x|x|x|x|x|x|
 | Tongan | `to` |x|x|x|x|x|x|x|

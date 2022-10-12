@@ -1,10 +1,10 @@
 ---
 title: "View and understand call summary page in Dynamics 365 Sales Hub app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript in Sales Hub app."
-ms.date: 07/08/2022
+ms.date: 09/30/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # View and understand call summary page in Sales Hub app
@@ -64,12 +64,14 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Notes** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.      
+The **Notes** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.  
+
+> [!NOTE]
+> If you don’t see the **Notes** tab, contact your administrator to enable the features in the **New and upcoming features** section of the conversation intelligence configuration page. More information: [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+
 You can write  a quick and personalized summary without moving away from the context of the call in the **Notes** tab. Providing a summary of the call helps you to save time, focus on the customer’s call, quickly review the key points, and understand the next course of action.    
 Further, you can share the saved summary with the stakeholders through an email.  
 
->[!NOTE]
->If you don’t see the **Notes** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
 
 ##### To write a call summary or notes
 

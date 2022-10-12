@@ -237,14 +237,4 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
   > [!div class="mx-imgBorder"]
   > ![Screenshot of a the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
 
-  
-### See also
-
-- [Create work order templates with incident types](../field-service/configure-incident-types.md) 
-- [Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)
-- [Adding 3D models to customer assets](../field-service/3D-viewer.md) 
-- [Asset properties](asset-properties.md)
-- [Define asset locations with functional location](assets-functional-location.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

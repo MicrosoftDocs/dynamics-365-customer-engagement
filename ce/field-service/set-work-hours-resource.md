@@ -200,11 +200,5 @@ You can set the hours a user works or set the operating hours for a facility or 
 13. To define a time when a service won’t be available, on the **Service Restrictions** tab, click **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then click **OK**.  
   
 14. To close the **Weekly Schedule** dialog box, click **Save and Close**.  
-  
-### See also  
- [Set the capacity required for a service or resource](../field-service/set-capacity-required-service-resource.md)   
- [Set when your business is closed](../field-service/set-when-business-closed.md)   
- 
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

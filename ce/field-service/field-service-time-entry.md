@@ -137,13 +137,4 @@ Time entries are not created in offline mode, but are created upon sync.
 
 The Project Service introduced calendar control is built specifically to display project service type time entries. Field Service and other time entries will, in most cases, be filtered out of displayed data from the control regardless of the parameters defined in the view.
 
-### See also
-
-- [Time and expense in Project Service Automation](/dynamics365/project-operations/psa/time-expense-collaboration-guide)
-
-- [Booking timestamps](booking-timestamps.md)
-
-- [Time off requests](submit-approve-time-off-requests.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "Configure the email template selection window at the org level or 
 ms.custom: ""
 author: gandhamm
 manager: shujoshi
-ms.topic: task
+ms.topic: conceptual
 ms.date: 05/06/2022
 ms.author: mgandham
 search.app: 

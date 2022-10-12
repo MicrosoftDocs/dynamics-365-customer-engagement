@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 08/19/2022
+ms.date: 10/03/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -27,7 +27,7 @@ Dynamics 365 Sales uses Microsoft 365 data to generate the following insights ba
 
 Before you provide consent, review the following information:
 
-- Both relationship analytics and who knows whom require the same consent. You only need to consent once.
+- Both relationship analytics and who knows whom require the same consent. You only need to consent once. For more information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md).
 
 - The consent applies to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
@@ -46,7 +46,7 @@ Before you provide consent, review the following information:
     > [!NOTE]
     > The consent applies to all the Dynamics 365 applications that require the **Identifiable insights for other users** permission. Dynamics 365 Sales uses this consent for both relationship analytics and who knows whom.
     
-1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their communication and collaboration data. For example, opt out users or groups such as C-suite, M&A, finance, and so on.
+1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their Exchange data. For example, opt out groups such as C-suite, M&A, finance, and so on.
     :::image type="content" source="media/admin-opt-out.PNG" alt-text="A screenshot of the opt out textbox to provide security IDs":::
 
     > [!NOTE]
@@ -56,6 +56,7 @@ Before you provide consent, review the following information:
 
 ### See also
 
+[Consent required to use Microsoft 365 data](ms365-consent-types.md)  
 [Insights generated from Microsoft 365 data](insights-from-m365.md)  
 [Configure relationship analytics and health](configure-relationship-analytics.md)  
 [Use relationship analytics to gather KPIs](./relationship-analytics.md)  

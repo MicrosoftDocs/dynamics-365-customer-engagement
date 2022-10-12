@@ -13,7 +13,6 @@ manager: shujoshi
 
 ## Embed chat widget in your web portal
 
-To embed a chat widget in your web portal:
 
 1. In Dynamics 365, go to one of the administrator apps.
 
@@ -25,9 +24,8 @@ To embed a chat widget in your web portal:
 
 1. Paste the chat widget snippet code in the HTML source \<body\> of your website.
 
-## Embed chat widget in your Power Apps portal
+## Embed chat widget in your Power Apps portals
 
-To embed a chat widget in Power Apps portals:
 
 1. In one of the administrator apps, open the chat widget you want to embed in Power Apps portals.
 
@@ -55,7 +53,6 @@ If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel f
 
 ## Embed chat widget in mobile experiences
 
-To embed a chat widget in a mobile app:
 
 1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
 2. Open one of the administrator apps.
@@ -75,7 +72,7 @@ After the chat widget is configured, it has the following capabilities:
 
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
-- **System events**: System-generated messages are shown for events, such as when an agent joins a chat, or a chat is transferred to another agent.
+- **System events**: System-generated messages are shown for events, such as when an agent joins a conversation, or a conversation is transferred to another agent.
 
     > [!div class=mx-imgBorder]
     > ![System events in the chat widget.](media/chat-widget-system-events.png "System events in the chat widget")
@@ -87,7 +84,7 @@ After the chat widget is configured, it has the following capabilities:
     > [!div class=mx-imgBorder]
     > ![Pre-chat survey in the chat widget.](media/oc-chat-widget-pre-chat.png "Pre-chat survey in the chat widget")
 
-- **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
+- **End chat**: A customer can end the conversation by selecting the **Close chat** button. A confirmation message is displayed before ending the conversation.
 
 > [!NOTE]
 > For advanced configuration like embedding chat widget on specific web pages, see [Create and manage portals](/powerapps/maker/portals/portal-templates).

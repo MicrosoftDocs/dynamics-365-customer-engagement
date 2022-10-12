@@ -54,7 +54,7 @@ As a knowledge author, you can:
 As an administrator, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
 
 ### Integrate knowledge management with a Power Virtual Agents bot 
-As an administrator, you can integrate a Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
+As an administrator, you can integrate a Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots)
 
 ## Search knowledge articles
 
@@ -64,7 +64,7 @@ As an administrator, you can integrate a Power Virtual Agents bot with knowledge
 - As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 ### Search multiple knowledge providers
-As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
+As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external knowledge search providers](set-up-search-providers.md#set-up-external-knowledge-search-providers)
 
 ### Set up search logic and search filters
 As an administrator, you can:
