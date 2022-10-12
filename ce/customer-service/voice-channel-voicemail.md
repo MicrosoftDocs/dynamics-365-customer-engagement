@@ -105,7 +105,7 @@ By default, the voicemail workstream capacity is set to zero.
 
 However, if you let voicemails take up capacity, the capacity restriction will apply for group voicemail workstreams of push type only and not the default pick workstreams. In all cases, if an agent is at nil capacity and picks a work item, the work item will still be assigned to them even if all their capacity is consumed.
 
-Because the individual voicemail workstream has a custom assignment rule, capacity is not taken into account and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
+Because the individual voicemail workstream has a custom assignment rule, capacity isn't taken into account, and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
 
 Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
 

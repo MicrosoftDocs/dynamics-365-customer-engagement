@@ -20,11 +20,11 @@ ms.topic: article
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Direct callback enables customers to request a call back as soon as an agent is available. Direct callback helps provide better customer experience by avoiding waiting in queue.
+Direct callback enables customers to request a callback as soon as an agent is available. Direct callback helps provide better customer experience by avoiding waiting in queue.
 
 When a customer calls a personal phone number, the conversation will be directly assigned to the agent associated with the phone number.
 
-If the agent does not pick up the call, a system message will be played and the conversation will end. If overflow of calls is configured, the customer is presented with the option to end the call and receive a callback.
+If the agent doesn't pick up the call, a system message will be played, and the conversation will end. If overflow of calls is configured, the customer is presented with the option to end the call and receive a callback.
 
 ## Prerequisites for direct callback
 
@@ -48,9 +48,13 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 The direct callback is triggered by the queue overflow conditions where the corresponding action is direct callback.
 
-1. An automated message is presented to the customer that asks if the customer prefers a callback by the agent over waiting in the queue. The automated message is repeated every 30 seconds till the customer selects an option, ends the call, or the customer position in queue reaches the callback threshold that's configured.
+1. An automated message is presented to the customer that asks if the customer prefers a callback by the agent over waiting in the queue. The automated message repeats after every 30 seconds until one of the following actions takes place:
+  
+   - The customer selects the option
+   - Ends the call
+   - The customer position in queue reaches the callback threshold that's configured.
 
-1. If the customer acknowledges the callback option by pressing 1, a second message is played for the customer to acknowledge the customer choice and that the customer will receive a callback.
+1. If the customer acknowledges the callback option by pressing 1, a second message is played for the customer that acknowledges the customer choice and lets the customer know about receiving a callback.
 
 1. The call ends for the customer but the work item remains in the queue.
 
