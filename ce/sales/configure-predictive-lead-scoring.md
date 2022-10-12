@@ -240,10 +240,6 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 
 You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
-
-
-
-
 ### Automatic retraining
 
 Automatic retraining allows the application to retrain a model automatically once every 15 days. This can allow the model to learn from historical data and improve its prediction accuracy over time. Depending on the model's accuracy, the application makes an informed decision whether to publish or ignore the retrained model.
@@ -281,14 +277,15 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
    > 
    > - System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
 1. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.
+   
    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
 
-    :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
+    :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of Ignore empty values option in the attributes list.":::
 
    > [!NOTE]
    > - The **Ignore empty values** option is disabled for the following type of attributes:
-   > - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).
-   > - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).
+     > - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
+     > - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
    > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
    
 1. Select **Retrain model**.  
@@ -298,15 +295,19 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
 
     After the model is trained, a pop-up message is displayed.  
+    
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is ready":::
 1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
 1. Perform one of the following actions:
 
-    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    - **Publish the model**: If your model is ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the Lead score column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
 
     - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
     - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**. 
+
+
+
 
 
 #### Select intelligent fields
