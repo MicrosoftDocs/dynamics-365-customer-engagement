@@ -43,14 +43,14 @@ The report summarizes the KPIs for the specified time period and the percentage 
 
 | KPI | Description |
 | ------- | ------------------ |
-| Incoming conversation  | |
+| Incoming conversation  | The number of conversations initiated by the customer and can be presented to a human agent.|
 | Conversations in queue | |
-| Longest wait time | |
+| Longest wait time |Longest wait time of current unassigned conversations.|
 | Avg. speed to answer | |
-| Abandoned rate |  |
-| Ongoing conversation |  |
-| Avg. handle time |  |
-| Service level (60 sec) |  |
+| Abandoned rate | Total number of conversations which are closed before an agent accepted the conversation. |
+| Ongoing conversation | Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
+| Avg. handle time | Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time.  |
+| Service level (60 sec) | Percentage of chats what were accepted by an agent within 60 seconds (after escalated by bot if applicable) |
 
 The following charts are displayed in the Voice report.
 
@@ -75,14 +75,14 @@ You can select **View report details** to drill down on the **Conversation and a
 | ------- | ------------------ |
 | Queue| |
 | Conversation in queue| |
-| Longest wait time|  |
-| Offered | |
-| Ongoing | |
-| Closed | |
-| Ongoing | |
+| Longest wait time| Longest wait time of current unassigned conversations. |
+| Offered |Total number of conversations which was offered to human agent queue. This includes both inbound and outbound conversations|
+| Ongoing |Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
+| Closed |Total number of conversations which are closed in the period.  |
+| Ongoing | Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent.|
 | Avg. speed to answer | |
-| Abandon rate | |
-| Avg. handle time | |
+| Abandon rate |Total number of conversations which are closed before an agent accepted the conversation. |
+| Avg. handle time | Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
 | Avg. wrap time | |
 | Avg. talk time | |
 | Avg. hold time | |
@@ -92,12 +92,12 @@ Metrics by agent
 | Title | Description |
 | ------- | ------------------ |
 | Agent| |
-| Ongoing| |
+| Ongoing| Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent.|
 | Engaged|  |
 | Avg. talk time| |
 | Avg. hold time | |
 | Avg. wrap time | |
-| Avg. handle time | |
+| Avg. handle time | Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time.|
 
 
 ### See also
