@@ -20,25 +20,30 @@ ms.topic: article
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Direct callback enables customers to request a callback as soon as an agent is available. Direct callback helps provide better customer experience by avoiding waiting in queue.
+Direct callback enables customers to request a callback as soon as an agent is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available agent just like any regular work item that's waiting in queue. After the agent accepts, a callback to the customer who requested direct callback is automatically initiated and connected to the agent. In summary - Direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
-When a customer calls a personal phone number, the conversation will be directly assigned to the agent associated with the phone number.
 
-If the agent doesn't pick up the call, a system message will be played, and the conversation will end. If overflow of calls is configured, the customer is presented with the option to end the call and receive a callback.
 
 ## Prerequisites for direct callback
 
 The following prerequisites must be met:
 
-- The agent must have a phone number assigned on the **Omnichannel** tab of the user configuration page.
-- Direct inbound calling must be configured.
+- Voice queues and workstreams must be created.
+- Agents must be configured for the queues.
 
 ## Use direct callback to manage overflow of voice calls
 
-The customer disconnects the call after acknowledging the message that their call will be returned by the agent when the queue is in one of the following conditions:
+The customer disconnects the call after acknowledging the message for the direct callback offer that their call will be returned by the agent when the queue is in one of the following conditions:
 
 - Exceeds a defined number of calls that are waiting in the queue
 - Exceeds the estimated wait time
+
+Direct callback uses two automated messages that are available by default and can be customized:  
+
+- The initial message that offers the callback option to the customer.
+- The second message confirms the callback selection when the customer presses 1, and notifies the customer that the call will end.
+
+More information: [Configure automated messages](configure-automated-message.md)
 
 For information on how to configure the conditions and actions, see [Manage overflow of work items in queues](manage-overflow.md).
 
@@ -52,15 +57,13 @@ The direct callback is triggered by the queue overflow conditions where the corr
   
    - The customer selects the option
    - Ends the call
-   - The customer position in queue reaches the callback threshold that's configured.
-
+   - The customer is connected to an agent
+  
 1. If the customer acknowledges the callback option by pressing 1, a second message is played for the customer that acknowledges the customer choice and lets the customer know about receiving a callback.
 
 1. The call ends for the customer but the work item remains in the queue.
 
-1. When the work item reaches the position 1, a voice callback is initiated automatically. This callback is of the type preview dialing, in which the agent gets to review the customer record information before the call is dialed.
-
-1. The agent receives a notification. After the agent accepts the call notification, the call is made to the customer.
+1. When the work item reaches the position 1, a voice callback is initiated automatically. This callback is of the type preview dialing, in which the agent has to accept the callback via a call notification before the call is dialed.
 
 ### See also
 
