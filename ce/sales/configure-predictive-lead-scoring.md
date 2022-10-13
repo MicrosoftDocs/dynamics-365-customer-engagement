@@ -202,7 +202,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     After the model is trained, a pop-up message is displayed.
     
-    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is ready":::
+    > !["A screenshot of the pop-up message that appears after the model is ready."](media/pls-model-ready.png "A screenshot of the pop-up message that appears after the model is ready.")
 
 1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
