@@ -101,8 +101,7 @@ sections:
     questions:
       - question: Why can't I make inline edits or see grid actions like move up or move down for opportunity products?
         answer: |
-          If you select a view other than Opportunity Product Inline Edit View in the legacy web client, you can't make inline edits or see grid actions like move up, move down, and lock icons. This is by design.
- The inline edit view is available in Unified Interface. To verify whether a grid can be edited, go to **Grid control properties**.
+          If you select a view other than Opportunity Product Inline Edit View in the legacy web client, you can't make inline edits or see grid actions like move up, move down, and lock icons. This is by design. The inline edit view is available in Unified Interface. To verify whether a grid can be edited, go to **Grid control properties**.
           
           :::image type="content" source="media/faqs-grid-control-properties.png" alt-text="Screenshot of the properties settings for the grid control.":::
           
@@ -142,7 +141,7 @@ sections:
           
           :::image type="content" source="media/faqs-pricing-change-order-product-form.png" alt-text="Screenshot of customization settings on the Opportunity Product form.":::
           
-  - name: Entities: Order and Invoice
+  - name: Entities - Order and Invoice
     questions:
       - question: How can I change the default value for Prices Locked in the Order form?
         answer: |
