@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 09/30/2022
+ms.date: 10/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -91,7 +91,7 @@ Read more: [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-
 | Role name                    | What do they do?                                                                                   | How to create them? |
 |------------------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | Event owner                  | The user who owns the event record in Dynamics 365 Marketing. | Set the event owner using the **Assign** button on the event ribbon. |
-| Teams meeting owner          | The user who created the webinar in Marketing. The Teams meeting owner is designated as the owner of the event in Teams. Changing the owner of the event record in Marketing doesn’t change the owner of the webinar in Teams. Any change to the event record in Marketing will only reflect in Teams when done by the owner or when they select **Sync to Teams**. | Sign in as this user in Dynamics 365 Marketing and create a new event with a webinar or meeting stream. |
+| Teams meeting owner          | The user who created and *saved* the record after choosing the webinar option in Marketing. Changing the owner of the event record in Marketing doesn’t change the owner of the webinar in Teams. Any change to the event record in Marketing will only reflect in Teams when done by the owner or when they select **Sync to Teams**. | Sign in as this user in Dynamics 365 Marketing and create a new event with a webinar or meeting stream. |
 | Presenter                    | In a Teams webinar, a presenter is a person who presents audio, video, or a screen to the live event, or moderates the Q&A. Presenters can only share audio, video, or a screen (desktop or window) in webinars produced in Teams.| If you want to invite another person to present to the webinar, add them to the event or session as a speaker. To add a speaker, create a speaker engagement at the event (or session) level. The speaker is added as a “presenter” for the webinar. Ensure that the speaker's email ID is filled in.
 
 #### Invite a guest to present in a webinar
