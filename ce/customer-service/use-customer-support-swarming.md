@@ -32,7 +32,7 @@ ms.custom:
 
 When you work on time-sensitive, complex customer issues, there are times when it's useful to apply the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
 
-Customer support swarming is especially useful when you need to do the following:
+Customer support swarming is useful when you need to take the following actions:
 
 - Collaborate with experts across your organization to get help on complex cases.
 - Use an expert finder to quickly locate experts with the right skills to help.
