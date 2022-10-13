@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/16/2022
+ms.date: 10/12/2022
 ms.topic: article
 ---
 
@@ -18,7 +18,7 @@ For information about international availability of live chat and digital messag
 
 ## Supported cloud locations
 
-The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments.
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your country or region-specific cloud deployments.
 
 > [!IMPORTANT]
 >
@@ -77,6 +77,8 @@ You can bring your own carrier through Azure direct routing (preview). This feat
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
+The voice channel in Omnichannel for Customer Service doesn't support emergency calling when Azure direct routing is used.
+
 ## Supported languages and locale codes
 
 Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
@@ -125,11 +127,11 @@ See the information in the following table to know about the supported languages
 | Chinese - Taiwan - Traditional | `zh-TW` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
 | Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|
-| Czech - Czech Republic | `cs-CZ` |✔|x|✔|✔|✔|x|✔|
+| Czech - Czech Republic | `cs-CZ` |✔|✔|✔|✔|✔|x|✔|
 | Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔|x|✔|
 | Dari | `prs` |x|x|x|x|x|x|x|
 | Divehi | `dv` |x|x|x|x|x|x|x|
-| Dutch - Belgium | `nl-BE` |x|x|✔|✔|x|x|x|
+| Dutch - Belgium | `nl-BE` |✔|x|✔|✔|x|x|x|
 | Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
 | English - Australia | `en-AU` |x|x|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
@@ -149,7 +151,7 @@ See the information in the following table to know about the supported languages
 | Estonian - Estonia | `et-EE` |✔|x|✔|✔|✔|x|✔|
 | Fijian | `fj` |x|x|x|x|x|x|x|
 | Filipino | `fil-PH` |x|x|x|✔|x|x|x|
-| Finnish | `fi-FI` |✔|x|✔|✔|✔|x|✔|
+| Finnish | `fi-FI` |✔|✔|✔|✔|✔|x|✔|
 | French - Canada | `fr-CA` |x|x|✔|✔|x|x|x|
 | French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
@@ -158,7 +160,7 @@ See the information in the following table to know about the supported languages
 | German - Austria| `de-AT` |x|x|✔|✔|x|x|x|
 | German - Germany | `de-DE` |✔|✔|✔|✔|✔|✔|✔|
 | German - Switzerland | `de-CH` |x|x|✔|✔|x|x|x|
-| Greek - Greece| `el-GR` |✔|x|✔|✔|✔|x|✔|
+| Greek - Greece| `el-GR` |✔|✔|✔|✔|✔|x|✔|
 | Gujarati - India | `gu-IN` |x|x|✔|✔|x|x|x|
 | Haitian Creole | `ht` |x|x|x|x|x|x|x|
 | Hebrew - Israel | `he-IL` |✔|x|✔|✔|✔|x|✔|
@@ -244,7 +246,7 @@ See the information in the following table to know about the supported languages
 | Tamil - India | `ta-IN` |x|x|✔|✔|x|x|x|
 | Tatar | `tt` |x|x|x|x|x|x|x|
 | Telugu - India | `te-IN` |x|x|✔|✔|x|x|x|
-| Thai - Thailand | `th-TH` |✔|x|✔|✔|✔|x|✔|
+| Thai - Thailand | `th-TH` |✔|✔|✔|✔|✔|x|✔|
 | Tibetan | `bo` |x|x|x|x|x|x|x|
 | Tigrinya | `ti` |x|x|x|x|x|x|x|
 | Tongan | `to` |x|x|x|x|x|x|x|

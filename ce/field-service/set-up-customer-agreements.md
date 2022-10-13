@@ -1,7 +1,7 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
-ms.date: 09/02/2022
+ms.date: 10/07/2022
 ms.reviewer: mhart
 ms.topic: article
 author: jasonccohen
@@ -93,8 +93,10 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 - **Auto Generate Booking**: Set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to **Yes**, you must specify a **Preferred Resource** and **Preferred Start Time** for the booking. If set to **No**, the generated work orders must be scheduled through the normal scheduling process: manually, with the schedule assistant, or with resource scheduling optimization.
 
-    > [!NOTE]
-    > Bookings made by agreements will not consider existing bookings, meaning it will double book on top of existing schedules.
+
+> [!Note]
+> Agreements will create bookings according to recurrance without considering any other factors, including if the resource is active, their working hours, etc.
+
   
 - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant. For example, if you plan to perform monthly maintenance on the 8th of each month, and set pre and post-booking flexibility to seven days, then the work orders can be scheduled between the first and the 15th of each month.
 

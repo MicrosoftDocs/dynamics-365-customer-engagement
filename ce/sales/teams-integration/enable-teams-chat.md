@@ -13,9 +13,6 @@ manager: shujoshi
 
 # Configure Microsoft Teams chat in Sales Hub
 
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
-
 Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
 
 ## License and role requirements
