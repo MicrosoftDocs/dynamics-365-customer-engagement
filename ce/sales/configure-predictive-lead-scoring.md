@@ -289,7 +289,7 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
    >
    >   - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
    > 
-   >   - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
+   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
    
 1. Select **Retrain model**.  
    
