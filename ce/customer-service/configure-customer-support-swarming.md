@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 10/03/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -20,6 +20,11 @@ ms.custom:
 # Configure customer support swarming for complex cases
 
 Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. As an administrator, you can create a more unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
+
+Customer support swarming is particularly useful when agents need to do the following:
+
+- Collaborate with experts across your organization to get help on complex cases. 
+- Use an expert finder to locate experts with the right skills to help.
 
 Some of the key benefits of customer support swarming include:
 
