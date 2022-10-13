@@ -15,6 +15,8 @@ items:
         href: trial-faq.md
     - name: Learn the basics
       href: field-service-get-started.md
+    - name: Initial configuration
+      href: perform-initial-configurations-setup.md
     - name: Set up a sample scenario
       href: quickstart-schedule-work-order.md
 
@@ -46,8 +48,6 @@ items:
 
 - name: Administration
   items:
-    - name: Initial configuration
-      href: perform-initial-configurations-setup.md
     - name: Set up users and security roles
       href: view-user-accounts-security-roles.md
     - name: Location and map settings

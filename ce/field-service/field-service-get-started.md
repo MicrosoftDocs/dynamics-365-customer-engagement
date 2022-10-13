@@ -22,8 +22,6 @@ After you have [installed Dynamics 365 Field Service](install-field-service.md)
 
 ![Field Service Get Started page in Dynamics 365.](media/get-started-page-fieldservice.png)
 
-![Field Service Get Started page, scrolled down.](media/get-started-lower-fieldservice.png)
-
 In the **Learn about Field Service** section, there are four cards with videos and links to documentation to help quickly learn about new features and capabilities in the current release. And for users new to Field Service, you'll also see key app functionality. With each release, we'll highlight new functionality in this **Getting Started** section, so be sure to check back regularly!
 
 In the **Get up and running** section, there are a set of actions and tutorial videos that guide you through important Field Service processes, like: 
@@ -43,7 +41,6 @@ Finally, at the end of the **Getting Started** page, there are links to helpful 
 
 ## Prerequisites
 
-- The Field Service **Getting Started** page is available with the 2021 Wave 2 release.
 - Either **System Administrator** or **Field Service - Administrator** privileges to see and use the **Getting Started** page.
 
 ## Set up your frontline workers
