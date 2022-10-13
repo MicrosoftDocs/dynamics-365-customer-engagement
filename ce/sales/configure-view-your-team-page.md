@@ -27,7 +27,6 @@ Configure and view your team page with information on levels of hierarchy, top p
 As an administrator, you can:  
 
 - Configure the levels of hierarchy that you can view.  
-
 - Configure a user to impersonate another to view information.   
 - Select the top performers in your hierarchy.   
 - Delete seller data.
@@ -51,15 +50,16 @@ As a sales manger, you can:
 3.	On the **Settings** page, select **Your team**.  
     Your team page opens and you can perform the following tasks:  
         - [Configure hierarchy levels](#configure-hierarchy-levels)  
-        - [Configure users to view as another user](#configure-users-to-view-as-another-user)
+        - [Configure users to view as another user](#configure-users-to-view-as-another-user)  
         - [Choose top performers](#choose-top-performers)  
         - [Delete seller data](#delete-seller-data)  
 
 ## Configure hierarchy levels    
 
 1.	Choose the hierarchy level from the **Call data visibility** list to display team members for managers. You can choose up to a maximum of three levels. To learn more, see [understand hierarchy levels](#understand-hierarchy-levels).  
+
     A list of team members is displayed under **Team members and top performers**. The list consists of team members who report to the manager in Dynamics 365 and Azure Active Directory (AD), including those who don't have access to conversation intelligence.   
-    The application automatically updates the list every 24 hours and displays the current active team members in the manager's hierarchy.     
+    The application automatically updates the list every 24 hours and displays the current active team members in the manager's hierarchy.  
     > [!div class="mx-imgBorder"]
     > ![Choose the hierarchy level](media/si-app-admin-configure-your-page-settings.png "Choose the hierarchy level")    
 
@@ -84,10 +84,6 @@ The matrix explains which data you’ll view as a sales manager, for different h
 
 ## Configure users to view as another user
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
-
-The **view as different user** feature allows managers or sellers to view conversation intelligence as a different user.
-
 As an administrator, you can configure sales managers or sellers to impersonate another user in the organization to view information they wouldn't normally have access to. For example, you can:
 
 - Provide a view of the sales team for sales managers from level 4 and above.
@@ -96,7 +92,9 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 
 For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
 
-1. In the **View as different user (preview)** section, select **Add user**.
+1. [Open your team settings page](#open-your-team-settings-page).
+
+1. In the **View as different user** section, select **Add user**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")
@@ -113,15 +111,9 @@ For example, Robert Kline is a sales enablement manager who doesn't have access 
 5. Select **Add**.
     A row is added to the list.
 
-    > [!div class="mx-imgBorder"]
-    > ![Users are added to the list.](media/si-app-admin-configure-your-page-view-as-users-added-to-list.png "Users are added to the list")
-
 6. Repeat steps 1 through 5 for any users you want to give the ability to view as other users.  
 
-7. After adding the users, select **Save**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select Save to add users and view information as other user.](media/si-app-admin-configure-your-page-view-as-select-save.png "Select save to add users and view information as other user")   
+7. After adding the users, select **Save**. 
 
 The users can impersonate the corresponding selected users and view information in conversation intelligence. 
 
