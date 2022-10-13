@@ -489,7 +489,7 @@ items:
 - name: More resources
   items:
     - name: Video library
-      href: field-service-videos.md
+      href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Learning paths
       href: training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
     - name: AppSource add-ins for Field Service

@@ -28,24 +28,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-To use the Field Service (Dynamics 365) mobile app, you must have Field Service installed and set up.
-
-See the following articles if you haven't yet set up Field Service:
-
-- [How to install Dynamics 365 Field Service](install-field-service.md)
-- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Perform initial configurations](perform-initial-configurations-setup.md)
-- [Create a Bookable Resource](set-up-bookable-resources.md)
-
-
-## Install or upgrade Field Service
-
-After you install or upgrade to Field Service v8.8.22+, the **Field Service** and **Field Service Mobile** apps will appear in the list of apps when you sign in. You can find these apps by going to:
-
-```https://[your-environment-name].crm.dynamics.com/apps```
-
-> [!div class="mx-imgBorder"]
-> ![Field Service apps on mobile devices.](media/admin-apps.png)
+To use the Field Service (Dynamics 365) mobile app, you must have [Field Service installed](install-field-service.md) and [set up](perform-initial-configurations-setup.md).
 
 ## Assign mobile app users appropriate security roles
 
