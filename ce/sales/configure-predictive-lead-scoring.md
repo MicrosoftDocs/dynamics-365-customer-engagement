@@ -192,7 +192,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 
  1. Select **Get started**.
 
-     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
+    The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
@@ -201,6 +201,7 @@ If you're using custom attributes for lead generation, you can generate the mode
     > If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
     After the model is trained, a pop-up message is displayed.
+    
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is ready":::
 
 1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
