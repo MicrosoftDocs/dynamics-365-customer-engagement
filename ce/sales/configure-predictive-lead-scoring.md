@@ -202,7 +202,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     After the model is trained, a pop-up message is displayed.
     
-    > !["A screenshot of the pop-up message that appears after the model is ready."](media/pls-model-ready.png "A screenshot of the pop-up message that appears after the model is ready.")
+    !["A screenshot of the pop-up message that appears after the model is ready."](media/pls-model-ready.png "A screenshot of the pop-up message that appears after the model is ready.")
 
 1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
@@ -272,11 +272,10 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
    > 
    > - Attributes on custom entities
    > 
-   > 
    > - Date and time&ndash;related attributes
    > 
-   > 
    > - System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
+
 1. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.
    
    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
@@ -285,9 +284,12 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
    > [!NOTE]
    > - The **Ignore empty values** option is disabled for the following type of attributes:
-       - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
-       - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
-   > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
+   > 
+   >   - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
+   >
+   >   - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
+   > 
+   >   - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
    
 1. Select **Retrain model**.  
    
