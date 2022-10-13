@@ -34,7 +34,8 @@ sections:
           
       - question: Where can I find the Sales Professional and Sales Insights documentation?
         answer: We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of an article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
-  - name: Entity: Activity
+
+  - name: Entity - Activity
     questions:
       - question: I'm redirected to the default tab when I save an appointment from a non-default tab. Why?
         answer: This is by design. If the SchedulingEngine feature is enabled for appointments, you'll be redirected to the default tab, when you save the appointment from a non-default tab.
@@ -71,7 +72,7 @@ sections:
           
           1. Save the dashboard, and then publish the customization.
           
-  - name: Entity: Lead
+  - name: Entity - Lead
     questions:
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
@@ -88,7 +89,7 @@ sections:
           
           For more information, go to [Enable duplicate lead detection](enable-duplicate-lead-detection.md).
           
-  - name: Entity: Opportunity
+  - name: Entity - Opportunity
     questions:
       - question: Why can't I edit Est. Revenue in the Opportunity form?
         answer: |
@@ -96,7 +97,7 @@ sections:
           
           :::image type="content" source="media/faqs-est-revenue.png" alt-text="Screenshot of an opportunity record with Revenue highlighted.":::
           
-  - name: Entities: Opportunity, Quote, Invoice, and Order
+  - name: Entities - Opportunity, Quote, Invoice, and Order
     questions:
       - question: Why can't I make inline edits or see grid actions like move up or move down for opportunity products?
         answer: |
@@ -109,9 +110,7 @@ sections:
              >
              > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantity** as editable or non-editable is independent of the view that's selected.  
              > - An editable grid doesn't guarantee that all columns are editable; it depends on the **Pricing**.
-          
-          <a name="amt-not-calculated"></a>
-          
+
       - question: Why isn't the amount calculated automatically in opportunity, quote, order, and invoice records?
         answer: |
           **Est. Revenue** and **Total Amount** are updated when the opportunity is refreshed&mdash;when you open the record or select **Refresh** on the command bar&mdash;or when you select **Recalculate Opportunity** on the command bar. Your organization must be using system pricing calculation. Make sure that **Use system pricing calculation** in **System Settings** is set to **Yes**. For more information, go to [System Settings dialog box - Sales tab](system-settings-sales-tab.md).
@@ -130,7 +129,7 @@ sections:
           
           - If it's a required product in a bundle, all fields are locked for editing.
           
-  - name: Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product
+  - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product
     questions:
       - question: How can I set the default Pricing to Override Price on the Opportunity Product form?
         answer: |
