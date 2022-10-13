@@ -34,7 +34,6 @@ sections:
           
       - question: Where can I find the Sales Professional and Sales Insights documentation?
         answer: We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of an article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
-
   - name: Entity: Activity
     questions:
       - question: I'm redirected to the default tab when I save an appointment from a non-default tab. Why?
