@@ -15,7 +15,7 @@ Depending on your location, certain features are available for in Dynamics 365 C
 
 ## Prerequisites
 
-The [AI Builder preview models](ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting should be enabled in the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com).
+The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting should be enabled in the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com).
 
 ## Region availability of analytics and insights
 
