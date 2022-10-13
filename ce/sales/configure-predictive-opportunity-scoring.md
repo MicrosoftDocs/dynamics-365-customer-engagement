@@ -408,7 +408,7 @@ When you open a published model, a note displays above the version details secti
 > ![A conflict message while publishing the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-published-model-message.png "A conflict message while publishing the model")
  
 1.	Select **Delete model** to delete the current model from the application.
-2.	[Create the model](#add-a-model) with different filter column and filter values to score a opportunity.
+2.	[Create the model](#add-a-model) with different filter column and filter values to score an opportunity.
 
 ## Add the opportunity scoring widget to a form
 
@@ -441,7 +441,7 @@ By default, the predictive opportunity scoring widget is available only in the o
     >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**. 
 
     > [!div class="mx-imgBorder"]  
-    > ![Select the Opportunity main form underon the Forms tab](media/power-apps-opportunity-main-form.png "Select the Opportunity main form on the Forms tab")
+    > ![Select the Opportunity main form on the Forms tab](media/power-apps-opportunity-main-form.png "Select the Opportunity main form on the Forms tab")
 
 5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
