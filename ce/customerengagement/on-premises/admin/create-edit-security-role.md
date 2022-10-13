@@ -2,7 +2,7 @@
 title: "Create security role in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to create a new security role within Dynamics 365 Customer Engagement (on-premises). You can also edit the privileges of an existing role."
 ms.custom: 
-ms.date: 10/11/2018
+ms.date: 10/12/2022
 ms.reviewer: 
 
 ms.suite: 
@@ -120,7 +120,7 @@ You can create new security roles to accommodate changes in your business requir
  
  We've created a solution you can import that provides a security role with the required minimum privileges.
 
-Start by downloading the solution from the Download Center: [Dataverse minimum privilege security role](https://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
+Start by downloading the solution from the Download Center: [Dataverse minimum privilege security role](https://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_2.zip).
 
 Then, follow the directions to import the solution: [Import, update, and export solutions](../customize/import-update-upgrade-solution.md).
 
