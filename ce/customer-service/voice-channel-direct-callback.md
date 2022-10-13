@@ -20,9 +20,7 @@ ms.topic: article
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Direct callback enables customers to request a callback as soon as an agent is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available agent just like any regular work item that's waiting in queue. After the agent accepts, a callback to the customer who requested direct callback is automatically initiated and connected to the agent. In summary - Direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
-
-
+Direct callback enables customers to request a callback as soon as an agent is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available agent just like any regular work item that's waiting in queue. After the agent accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the agent. In summary - Direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
 ## Prerequisites for direct callback
 
@@ -33,14 +31,14 @@ The following prerequisites must be met:
 
 ## Use direct callback to manage overflow of voice calls
 
-The customer disconnects the call after acknowledging the message for the direct callback offer that their call will be returned by the agent when the queue is in one of the following conditions:
+The customer disconnects the call after acknowledging the message for the direct callback offer. Direct callback can be the action when the queue is in one of the following conditions:
 
 - Exceeds a defined number of calls that are waiting in the queue
 - Exceeds the estimated wait time
 
 Direct callback uses two automated messages that are available by default and can be customized:  
 
-- The initial message that offers the callback option to the customer.
+- The initial message offers the callback option to the customer.
 - The second message confirms the callback selection when the customer presses 1, and notifies the customer that the call will end.
 
 More information: [Configure automated messages](configure-automated-message.md)
