@@ -285,12 +285,13 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
    > [!NOTE]
    > - The **Ignore empty values** option is disabled for the following type of attributes:
-       > - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
-       > - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
+       - Attributes that are automatically validated for empty values (such as firstname_validation_engineered).
+       - Attributes that affect the score based on whether the value exists or not (such as, zip code or business phone).
    > - When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values.
    
 1. Select **Retrain model**.  
-    A pop-up message is displayed if you've modified the grade ranges. When the model is retrained, the grade ranges may change as well.  
+   
+   A pop-up message is displayed if you've modified the grade ranges. When the model is retrained, the grade ranges may change as well.  
 
     :::image type="content" source="media/grade-reset.png" alt-text="Pop-up message to confirm the grade reset ":::
 1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
@@ -407,7 +408,8 @@ When you select **Get started**, a conflict message is displayed stating that th
 > ![A conflict message while creating the model.](media/si-admin-predictive-lead-scoring-duplicate-model-create-model-message.png "A conflict message while creating the model")
 
 - Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique leads. For more information, see step 7 in [First-run setup experience](#first-run-setup-experience).
-   -Or-
+  
+  -Or-
 - Proceed to create a duplicate model, which might cause conflicts in identifying the leads that are being scored by this model.
 
 ### Published model
