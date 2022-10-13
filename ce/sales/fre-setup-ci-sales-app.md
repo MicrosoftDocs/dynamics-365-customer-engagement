@@ -1,26 +1,35 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 09/14/2022
+ms.date: 03/08/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
-author: lavanyakr01
-ms.author: lavanyakr
+author: udaykirang
+ms.author: udag
 manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 1
+topic-status: Drafting
 ---
 
 # First-run setup experience of Microsoft Teams for conversation intelligence
 
-You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
+> [!IMPORTANT]
+> - The enhanced experience for Microsoft Teams together with conversation intelligence is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+
+You can configure conversation intelligence with Microsoft Teams. After you sign in to your sales app as an administrator, you can configure the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team-level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
-> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## License and role requirements
-
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -58,7 +67,7 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
 3.	On the site map, under **Productivity**, select **Conversation intelligence**.     
     The conversation intelligence home page opens.    
 
-4.	Turn on **Microsoft Teams call recordings** and then configure the other settings as described in the following table.
+4.	In the **Microsoft Teams call recordings (preview)** section, enable the preview and then configure the other settings as described in the following table.
 
     | Option | Description |
     |--------|-------------|
@@ -67,7 +76,7 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
     | Recording notification for customers | Turn on this toggle to notify customers when the call recording is initiated. This lets customers know that the call is being recorded.|   
     
     > [!div class="mx-imgBorder"]
-    > ![Enable Teams call recording.](media/ci-admin-enable-teams-preview.png "Enable Teams call recording")     
+    > ![Enable Teams call recording preview.](media/ci-admin-enable-teams-preview.png "Enable Teams call recording preview")     
 
     >[!NOTE]
     >You only need to configure Teams call recording settings, storage selection, and conversation tracking for first-time onboarding to conversation intelligence. All remaining steps are optional. You can choose to configure them now or later, as needed.
