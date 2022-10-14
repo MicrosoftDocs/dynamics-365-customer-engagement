@@ -24,7 +24,7 @@ A workstream can have only one route-to-queues ruleset.
 
 After you configure the rules, the system matches the rule conditions, and operating hours of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
 
-The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. For more information, go to [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue).
+The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue)
 
 ## Percentage-based allocation of work to queues
 
@@ -34,7 +34,9 @@ When you configure this feature, the system picks a queue from the available lis
 
 ## Configure rules in route-to-queue ruleset
 
-1. In Customer Service admin center, select a workstream. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
+1. In Customer Service admin center, select a workstream.
+
+1. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
 1. In the **Create route to queue rule** dialog, enter a name in **Rule Name**. By default, the root record is selected and displayed at the top of the condition builder.
 
@@ -48,13 +50,13 @@ When you configure this feature, the system picks a queue from the available lis
 
     1. **Work allocation percentage**: Enter a value that denotes the percentage of work allocation for the queue.
 
-1. Repeat **Step 5** to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
+1. Repeat **Step 6** to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
 
 :::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
 
 1. Use the **Remove allocations** option that's available in the **More commands** ellipses to remove the percentage-based routing. When you update the percentage-based settings, you must ensure that the allocation totals to 100.
 
-1. Repeat **Steps 2 through 5** to define the rules to cater to your business needs.
+1. Repeat **Steps 2 through 6** to define the rules to cater to your business needs.
 
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
@@ -97,14 +99,14 @@ You can configure routing rule conditions for the social channels, such as Faceb
 - **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
 
   - Entry point
-  - Place ID
+  - Place id
   - Resolved locale
   - User device locale
 
 - **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
 
-  - Group ID
-  - Intent ID
+  - Group id
+  - Intent id
   - Locale
 
 - **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
