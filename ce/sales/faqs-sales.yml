@@ -141,10 +141,10 @@ sections:
           1. Save and publish the customizations.
           
           :::image type="content" source="media/faqs-pricing-change-order-product-form.png" alt-text="Screenshot of customization settings on the Opportunity Product form.":::
-      - question: Why can't I update the owning business unit for opportunity products?
-        answer: |
-        There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products are automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level. 
 
+      - question: Why can't I update the owning business unit for opportunity products?
+        answer: There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products are automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level.
+        
   - name: Entities - Order and Invoice
     questions:
       - question: How can I change the default value for Prices Locked in the Order form?
