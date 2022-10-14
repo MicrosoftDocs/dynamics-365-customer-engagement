@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/11/2022
+ms.date: 10/12/2022
 ms.topic: article
 ---
 
@@ -18,7 +18,7 @@ For information about international availability of live chat and digital messag
 
 ## Supported cloud locations
 
-The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments.
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your country or region-specific cloud deployments.
 
 > [!IMPORTANT]
 >
@@ -76,6 +76,8 @@ You can also port existing US or toll-free phone numbers. More information: [Por
 You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
+
+The voice channel in Omnichannel for Customer Service doesn't support emergency calling when Azure direct routing is used.
 
 ## Supported languages and locale codes
 
