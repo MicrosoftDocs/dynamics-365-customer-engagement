@@ -2,7 +2,6 @@
 title: "Control access to Marketing records with business units (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how business units affect users and record visibility in Dynamics 365 Marketing."
 ms.date: 06/02/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
