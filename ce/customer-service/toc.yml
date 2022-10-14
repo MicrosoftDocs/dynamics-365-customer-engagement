@@ -620,6 +620,10 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Use voicemail
+        href: voice-channel-voicemail.md
+      - name: Use direct callback
+        href: voice-channel-direct-callback.md  
       - name: Configure outbound and inbound profiles
         href: configure-outbound-inbound-profiles.md  
       - name: Configure historical analytics for voice
@@ -631,7 +635,7 @@
       - name: Configure post-call survey
         href: voice-channel-survey.md
       - name: Block spam numbers
-        href: voice-channel-block-number.md        
+        href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
       - name: Enable voice consult with Microsoft Teams users
