@@ -62,7 +62,7 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
      1. To enable inline editing, do the following:
        1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
        1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
-1. Select **Save** and then select **Publish**.
+1. Select **Save**, and then select **Publish**.
 
 > [!NOTE]
 > New columns that have been introduced as part of a solution will be available in the environment, after the solution is installed. The user's experience of these columns will depend on whether the modernized grids have been enabled.
@@ -74,8 +74,8 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
  1. Go to your environment by using your organization link.
  
  1. In the Customer Service Workspace Model Driven App, from the list of apps, select **More Options**, and then select **Open in App Designer**.
-  1. From **Components > Entity Assets > Views**, select the **Case** entity.
-  1. On the Components tab, search for **Enhanced Active Cases** view and then select the checkbox.
+  1. Go to **Components > Entity Assets > Views**, and then select the **Case** entity.
+  1. On the Components tab, search for **Enhanced Active Cases** view, and then select the checkbox.
   1. Select **Save**, and then select **Publish**.
 
 ## Customize the case grid
