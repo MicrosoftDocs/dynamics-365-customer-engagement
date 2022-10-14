@@ -233,6 +233,16 @@ The **Offline Status** page in the app, available from the sitemap, can also be 
 
 Sync notifications are available from Unified Interface Platform version 9.2.22033.00152+.
 
+### Why does the Offline enabled application show a message "Network or Service Unavailable"
+
+The message Network or Service Unavailable is shown to inform the user when the application detects network is not suitable for online activity. While this message is showing, certain network-dependent areas of the application will not function. For example Maps are only available while connected, Refresh command, and Dataverse Search.
+
+Application network detection is determined by the following events which may result in the Network or Service unavailable message shown to the user:
+- Application boots into Offline mode prior to detecting network availability.
+- Application recieves a response from the server in greater than 5 seconds time.
+- Application network check fails with no response. 
+
+
 ### Known Limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record doesn't meet filter conditions, then the record doesn't get resynchronized from the service until conditions are met.
