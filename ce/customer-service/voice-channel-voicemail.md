@@ -8,7 +8,7 @@ ms.date: 10/15/2022
 ms.topic: article
 ---
 
-# Use voicemail (preview)
+# Use voicemail to manage inbound calls(preview)
 
 > [!IMPORTANT]
 >
@@ -77,6 +77,10 @@ If a direct call to an agent is missed and voicemail is configured, the option t
      - Unassigned
      - Resolved
 
+More information:
+- [Configure the inbox](configure-inbox.md)
+- [Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md) 
+
 ## How voicemail works
 
 The voicemail record is set up for routing out of the box. Voicemails are categorized into individual and group voicemails.
@@ -130,6 +134,7 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 [Manage overflow of work items in queues](manage-overflow.md)  
 [Access voicemails](voice-channel-agent-experience.md#access-and-listen-to-voicemails-preview)  
 [Use direct callback](voice-channel-direct-callback.md)  
+[Omnichannel Voicemail dashboard](oc-voicemail-dashboard.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
