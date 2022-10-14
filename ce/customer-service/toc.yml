@@ -1018,7 +1018,7 @@
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
         href: configure-historical-sentiment-dashboard-supervisor.md
-      - name: Enable Omnichannel real-time analytics
+      - name: Configure Omnichannel real-time analytics
         href: enable-realtime-analytics-dashboard-administrator.md 
     - name: Supervisor experience
       items: 

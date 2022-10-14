@@ -1,7 +1,7 @@
 ---
 title: "Configure real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure realtime analytics for Omnichannel in Dynamics 365 Customer Service."
-ms.date: 10/12/2022
+ms.date: 10/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,7 +26,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-You can enable real-time analytics in Omnichannel for Customer Service and give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as agents handle customer conversations coming through multiple channels.
+You can configure real-time analytics in Omnichannel for Customer Service and give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents handling customer conversations coming through multiple channels.
 
 The following real-time analytics reports are available:
 
@@ -35,24 +35,22 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversations
 
-You can enable Omnichannel real-time analytics reports in the Customer Service admin center app.
-
-Make sure that you have the required administrator permissions for Dynamics 365.
+Make sure that you have the required administrator permissions for Dynamics 365. You can configure Omnichannel real-time analytics reports in the Customer Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-1. On the **Insights** page, **Report Settings** section, go to  **Real time analytics (preview)** and select **Manage**.
-1. On the **Real time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
-1. In the **Additional options** section, select the **Add real-time analytics for voice** option.
-You will see the above option, only if your organization has the Voice feature enabled.
+1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
+1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
+1. In the **Additional options** section, select the **Add real-time analytics for Omnichannel voice** option.
+You will see the above option, only if your organization has the Voice feature configured.
 
 ## Provide report access to additional security roles
-Perform the following steps to enable users with different privileges to access reports beyond the default ones.
+Perform the following steps to configure users with different privileges to access reports beyond the default ones.
 
-1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
+1. On the Power Platform Admin Center, select the required Dynamics 365 environment.
 
-1. Select **Security** and then **Security roles**.
+1. In the **Access** section, under **Security roles**, select **See all**.
 
-1. Select the security role that you want to enable access for. For example, agent manager.
+1. Select the security role that you want to configure access for. For example, agent manager.
 
 1. Select the **Custom Entities** tab.
 

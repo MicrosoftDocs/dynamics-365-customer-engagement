@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Real time Omnichannel analytics dashboard| MicrosoftDocs"
 description: "Introduction to Real time Omnichannel analytics dashboard"
-ms.date: 10/12/2022
+ms.date: 10/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,28 +29,35 @@ ms.custom: intro-internal
 
 In the digital contact center world, supervisors need to react to events like increase in the volume of incoming customer interactions, longer call lengths and agent absenteeism by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Having visibility into the overall support performance through real-time reporting empowers them to monitor key operational metrics, make course corrections at the right time and keep service levels high.
 
-The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the situation in the contact center as agents handle customer conversations coming through multiple channels.
+The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the situation in the contact center as supervisors oversee agents handling customer conversations coming through multiple channels.
 
 The key capabilities of the feature include:
 
-- Conversation – Contact center managers will be able to understand the volume of customer interactions, service levels along with the available capacity in real time. 
-- Agent report providing the agent capacity, status for the past 24 hours with a drill down ability to see details at each agent level with their capacity, adherence, and so on.
-- Voice report providing Omnichannel voice specific metrics for the past 24 hours.
-- Conversation list report providing the list of current ongoing or closed conversations.
+- Ability for supervisors to monitor key operational metrics in near real-time, and to make course corrections at the right time and keep service levels high​.
 
- Additionally, you could also customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service). 
+- Ability to optimize the allocation of agents in near real-time to provide top notch support and boost customer satisfaction.
 
-You can also use the Auto refresh or Pause refresh option that helps you see real-time metrics and interact with the report.
+- Ability to improve agent staffing, effectiveness, and utilization by adjusting work distribution.
+
+- Ability to monitor ongoing conversation, track customer sentiment and intervene as required.
+
+- Ability to drill down as required to a specific channel, queue, or agent (and more) to gather key operational insights in real-time and react to it.
+
+ You could use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service). You can save personalized views of your reports as bookmarks and use the **Bookmarks** option to  select a saved view, update or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
+
+You can also use the **Auto refresh** or **Pause updates** option that helps you see real-time metrics and interact with the report. Additionally, you could use the filters on the dashboards like agent, time of day, or queue to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
 
  The Omnichannel real-time analytics reports consist of the following:
 
-- **Summary**:
+- **Summary**: This report provides an overview of your organization in near real time. This report provides KPIs across the volume of customer interactions and service levels along with the available capacity in near real time.
 
-- **Voice**:
+- **Voice**: This report provides an overview of conversations in the last 24 hours for the Omnichannel Voice channel.
 
-- **Agent**: This report provides an overview of information about the health and KPIs of agents in your organization. The information in this report is displayed based on the last 24 hours conversations. To learn more, see [View and understand the Agents report in Omnichannel real time analytics](realtime-agents-analytics.md). If you're unable to view the reports, contact your system administrator. More information: [Configure realtime analytics dashboard](enable-realtime-analytics-dashboard-administrator.md). The real time analytics reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
+- **Agent**: This report provides an overview of the health and KPIs of agents in your organization. The information in this report is displayed based on the conversations in the last 24 hours. To learn more, see [View and understand the Agents report in Omnichannel real time analytics](realtime-agents-analytics.md).
 
 - **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. To learn more, see [Ongoing Conversations dashboard](realtime-ongoing-conversations-dashboard.md).
+
+If you're unable to view the reports, contact your system administrator. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview) The real time analytics reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
 
 ## Security 
 
