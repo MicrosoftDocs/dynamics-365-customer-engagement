@@ -85,7 +85,7 @@ No. It's not possible to pause the assignment of a case.
 
 ### Can I export a unified routing configuration and sign in to another environment?
 
-Yes, you can export a configuration with unified routing content. For more information, see the following articles:
+Yes, you can export a configuration with unified routing content for the record type and live chat channel. For more information, see the following articles:
 
 - [Export and import configuration data for the record channel](export-import-config-data-for-records.md)
 - [Export and import data for the live chat channel](export-import-config-data-for-live-chat.md)
