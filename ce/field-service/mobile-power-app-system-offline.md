@@ -1,7 +1,7 @@
 ---
 title: "Configure offline data for the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
-ms.date: 06/02/2021
+ms.date: 10/14/2022
 ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
@@ -78,7 +78,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 
 **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device is connected to the internet or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, go to [Workflows and scripts for the Field Service (Dynamics 365) mobile app](mobile-power-app-workflows.md).
 
-For more best practices, please review the [Power Apps Mobile Offline Guidelines](power-apps/mobile/mobile-offline-guidelines)
+For more best practices, go to [Power Apps Mobile Offline Guidelines](/power-apps/mobile/mobile-offline-guidelines)
 
 ## Step 2: Add users and teams to the offline profile
 
