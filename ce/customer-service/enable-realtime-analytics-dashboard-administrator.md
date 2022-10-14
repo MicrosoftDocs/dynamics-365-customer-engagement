@@ -48,7 +48,7 @@ You will see the above option, only if your organization has the Voice feature c
 ## Provide report access to additional security roles
 Perform the following steps to configure users with different privileges to access reports beyond the default ones.
 
-1. On the Power Platform Admin Center, select the required Dynamics 365 environment.
+1. On the Power Platform admin center, go to **Environments** and select the required Dynamics 365 environment.
 
 1. In the **Access** section, under **Security roles**, select **See all**.
 
