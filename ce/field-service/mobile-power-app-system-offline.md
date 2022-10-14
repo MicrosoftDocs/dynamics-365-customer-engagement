@@ -235,12 +235,11 @@ Sync notifications are available from Unified Interface Platform version 9.2.220
 
 ### Why does the Offline enabled application show a message "Network or Service Unavailable"
 
-The message Network or Service Unavailable is shown to inform the user when the application detects network is not suitable for online activity. While this message is showing, certain network-dependent areas of the application will not function. For example Maps are only available while connected, Refresh command, and Dataverse Search.
+The message "Network or Service Unavailable" is shown to inform the user when the application detects the network is not suitable for online activity. While this message is displayed, the client will not sync new data and certain network-dependent areas of the application will not function. For example Maps and Dataverse Search are dependent on device connectivity and will not be avialable. 
 
-Application network detection is determined by the following events which may result in the Network or Service unavailable message shown to the user:
+The application will do a network detection upon each navigation. The network detection is determined by the following events which may result in the Network or Service unavailable message shown to the user:
 - Application boots into Offline mode prior to detecting network availability.
-- Application recieves a response from the server in greater than 5 seconds time.
-- Application network check fails with no response. 
+- Application network check fails with no response or a response which takes too long.
 
 
 ### Known Limitations
