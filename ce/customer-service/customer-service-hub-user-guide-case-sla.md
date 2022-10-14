@@ -103,7 +103,7 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
 > [!NOTE]
-> - The active duration and elapsed time data isn't applicable for legacy SLAs.
+> The active duration and elapsed time data isn't applicable for legacy SLAs.
 
 ### See also
 
