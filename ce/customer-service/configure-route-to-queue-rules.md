@@ -30,11 +30,13 @@ The routing diagnostics gives a detailed view of the matched and applied rules i
 
 To balance the workload optimally and distribute it across multiple contact center vendors, organizations can configure percentage-based routing. The routing of work items to queues is controlled using percentage allocation. Percentage-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
 
-When you configure this feature, the system picks a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. However, the final queue that's selected is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
+When you configure this feature, the system picks a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. The final queue that's selected, however, is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
 
 ## Configure rules in route-to-queue ruleset
 
-1. In Customer Service admin center, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
+1. In Customer Service admin center, select a workstream.
+
+1. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
 1. In the **Create route to queue rule** dialog, enter a name in **Rule Name**. By default, the root record is selected and displayed at the top of the condition builder.
 
@@ -48,13 +50,13 @@ When you configure this feature, the system picks a queue from the available lis
 
     1. **Work allocation percentage**: Enter a value that denotes the percentage of work allocation for the queue.
 
-1. Repeat the step 5 to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
+1. Repeat **Step 6** to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
 
 :::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
 
 1. Use the **Remove allocations** option that's available in the **More commands** ellipses to remove the percentage-based routing. When you update the percentage-based settings, you must ensure that the allocation totals to 100.
 
-1. Repeat steps 2 through 5 to define the rules to cater to your business needs.
+1. Repeat **Steps 2 through 6** to define the rules to cater to your business needs.
 
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
@@ -83,14 +85,14 @@ The runtime allocation percentages might deviate slightly from the allocation th
 
 ### Engagement context for asynchronous channels
 
-You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
+You can configure routing rule conditions for the social channels, such as Facebook and WhatsApp based on the attribute values. The attributes are listed channel wise as follows:
 
 - **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
 
 - **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
 
   - **Customer name**: The customer name is shown in the format "first name, last name".
-  - **Locale**: For a list of locales, see Facebook developer documentation.
+  - **Locale**: For a list of locales, go to Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
   - **User Page Scoped Id**: This is shown as a number string.
 
@@ -119,13 +121,15 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 - **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
 
-- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
+- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:  
+
   - Customer name
   - Customer screen name
   - Followers count
   - Friends count
 
-- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
+- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:  
+
   - Customer phone number
   - Org phone number
   - Locale
