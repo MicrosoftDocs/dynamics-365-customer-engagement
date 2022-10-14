@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 07/14/2022
+ms.date: 10/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -43,9 +43,9 @@ The following are some of the key features of the modernized case grids:
 - The ability to perform inline edits and update data for columns. For example, you can double-click the **Status Reason** column to change the status of the case, or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when you move to the next row.
 - The ability to use quick navigation to respond to the latest interaction.
 
-## Enable the (Preview) Power Apps grid control for the Case entity
+## Enable the grid control for the Case entity
 
-To make the **Enhanced Active Cases** view accessible to agents, you must enable **(Preview) Power Apps grid control**:
+To make the **Enhanced Active Cases** view accessible to agents, you must enable the **(Preview) Power Apps grid control** option on the Power Apps portal.
 
 1. Go to the https://make.powerapps.com. portal.
 1. Select **Solutions**. The **Solutions** page appears.
@@ -75,7 +75,7 @@ To make the **Enhanced Active Cases** view accessible to agents in Customer Serv
  
  1. In the Customer Service Workspace Model Driven App, from the list of apps, select **More Options**, and then select **Open in App Designer**.
   1. From **Components > Entity Assets > Views**, select the **Case** entity.
-  1. On the Components tab, search for **Enhanced Active Cases** view and then select the checkbox. 
+  1. On the Components tab, search for **Enhanced Active Cases** view and then select the checkbox.
   1. Select **Save**, and then select **Publish**.
 
 ## Customize the case grid
