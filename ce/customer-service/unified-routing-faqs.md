@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/03/2022
+ms.date: 10/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -85,7 +85,10 @@ No. It's not possible to pause the assignment of a case.
 
 ### Can I export a unified routing configuration and sign in to another environment?
 
-No, a configuration can't be exported.
+Yes, you can export a configuration with unified routing content for the record type and live chat channel. For more information, see the following articles:
+
+- [Export and import configuration data for the record channel](export-import-config-data-for-records.md)
+- [Export and import data for the live chat channel](export-import-config-data-for-live-chat.md)
 
 ### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is it possible to now reassign C1 to Q3?
 
