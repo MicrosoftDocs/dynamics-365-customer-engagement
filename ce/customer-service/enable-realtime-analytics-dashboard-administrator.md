@@ -1,7 +1,7 @@
 ---
 title: "Configure real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure realtime analytics for Omnichannel in Dynamics 365 Customer Service."
-ms.date: 10/14/2022
+ms.date: 10/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -54,9 +54,11 @@ Perform the following steps to configure users with different privileges to acce
 
 1. Select the security role that you want to configure access for. For example, agent manager.
 
-1. Select the **Custom Entities** tab.
+1. Select **Edit**.
 
-1. Grant Read privileges to the following entities:
+1. On the **Security Roles** page, select the **Custom Entities** tab.
+
+1. Grant **Read** privileges to the following entities:
 
    - **Omnichannel for Customer Service real-time analytics**
    - **Insights**

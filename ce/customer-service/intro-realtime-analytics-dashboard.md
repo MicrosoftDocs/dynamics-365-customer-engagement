@@ -45,7 +45,7 @@ The key capabilities of the feature include:
 
  You could use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service). You can save personalized views of your reports as bookmarks and use the **Bookmarks** option to  select a saved view, update or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
 
-Data on the report is refreshed near real-time. You can use the **Auto refresh** or **Pause updates** option to see real-time metrics and interact with the report. Additionally, you could use the filters on the dashboards like agent, time of day, or queue to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
+Data on the report is auto-refreshed near real-time. You can use the **Pause updates** option to view and analyze real-time metrics at any particular point in time. You can go back to auto-refresh by selecting **Resume updates**. Additionally, you could use the filters on the dashboards like agent, time of day, or queue to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
 
  The Omnichannel real-time analytics reports consist of the following:
 
