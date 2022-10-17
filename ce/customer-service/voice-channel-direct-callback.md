@@ -4,7 +4,7 @@ description: "Learn how to use direct callback in the voice channel in Omnichann
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/15/2022
+ms.date: 10/17/2022
 ms.topic: article
 ---
 
