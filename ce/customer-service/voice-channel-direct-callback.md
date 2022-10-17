@@ -40,7 +40,7 @@ The customer disconnects the call after acknowledging the message for the direct
 Direct callback uses two automated messages that are available by default and can be customized:  
 
 - The initial message offers the callback option to the customer as follows: "Current wait times are longer than expected. If you would like a call back, please press 1 or continue to wait for the next available agent."
-- The second message confirms the callback selection when the customer presses 1, and notifies the customer that the call will end. THe message played to the customer is as follows: 'You have requested a callback. We will call you back as soon as an agent is available. Good bye!"
+- The second message confirms the callback selection when the customer presses 1, and notifies the customer that the call will end. The message played to the customer is as follows: 'You have requested a callback. We will call you back as soon as an agent is available. Good bye!"
 
 More information: [Configure automated messages](configure-automated-message.md)
 
