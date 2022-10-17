@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/15/2022
+ms.date: 10/17/2022
 ms.topic: article
 
 ---
@@ -83,7 +83,7 @@ Go to the Customer Service admin center app and perform the following steps:
      - **End conversation**: For messaging queues only. The conversation is routed to the queue and ended.
      - **Transfer to a different queue**: Select a queue from the dropdown list that appears. The work item is transferred to the selected queue.
      - **Transfer to an external number**: For voice queues only. Enter the number to which the call must be transferred.
-     - - **Voicemail (preview)**: For voice queues only. Customers can choose to leave a voicemail that the agents will receive to act upon.
+     - **Voicemail (preview)**: For voice queues only. Customers can choose to leave a voicemail that the agents will receive to act upon.
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
