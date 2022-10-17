@@ -15,14 +15,14 @@ You can configure historical analytics to give your service managers a combinati
 
 The following historical analytics reports are available:
 
-[Summary report](omnichannel-summary-dashboard.md)<br>
-[Conversation report](oc-conversation-dashboard.md)<br>
-[Queue report](oc-queue-dashboard.md)<br>
-[Voice report](voice-channel-reports-analytics.md)<br>
-[Agent report](agent-dashboard.md)<br>
-[Bot report](oc-bot-dashboard.md)<br>
-[Conversation Topics report](oc-conversation-topics-dashboard.md)<br>
-[Unified routing](oc-historical-analytics-unified-routing.md)<br>
+- [Summary report](omnichannel-summary-dashboard.md)
+- [Conversation report](oc-conversation-dashboard.md)
+- [Queue report](oc-queue-dashboard.md)
+- [Voice report](voice-channel-reports-analytics.md)
+- [Agent report](agent-dashboard.md)
+- [Bot report](oc-bot-dashboard.md)
+- [Conversation Topics report](oc-conversation-topics-dashboard.md)
+- [Unified routing](oc-historical-analytics-unified-routing.md)
 
 ## Prerequisites
 
