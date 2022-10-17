@@ -121,7 +121,7 @@ Because the individual voicemail workstream has a custom assignment rule, capaci
 
 Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations Dashboard**.
 
-### view the default settings
+### View the default settings
 
 1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail (preview) is listed under **Record types** on the page that appears.
 
