@@ -24,7 +24,7 @@ searchScope:
 - Customer Engagement
 ---
 
-# Omnichannel Summary dashboard 
+# Omnichannel Summary dashboard
 
 The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service.
 
