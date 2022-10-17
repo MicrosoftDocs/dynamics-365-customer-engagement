@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about Dynamics 365 Sales
 description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-ms.date: 09/07/2022
+ms.date: 10/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -143,6 +143,10 @@ There are certain restrictions on inline editing, based on the type of product i
 ## Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product
 
 In this section, we use the entity **Opportunity Product** to frame the questions. However, the questions also apply to **Quote Product**, **Order Product**, and **Invoice Product**.
+
+### Why can't I update the owning business unit for opportunity products?
+
+There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products are automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level.
 
 ### How can I set the default Pricing to Override Price on the Opportunity Product form?
 
