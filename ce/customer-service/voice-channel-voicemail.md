@@ -8,7 +8,7 @@ ms.date: 10/17/2022
 ms.topic: article
 ---
 
-# Use voicemail to manage inbound calls(preview)
+# Use voicemail to manage inbound calls (preview)
 
 > [!IMPORTANT]
 >
@@ -28,7 +28,7 @@ The salient features of voicemail are as follows:
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
 - Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription.
 - If the customer is unable to record the voicemail, an automated message is played for the customer that informs the voicemail couldn't be recorded and they should call back again.
-- The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered If the agent isn't available.
+- The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered if the agent isn't available.
 
 ## Prerequisites for voicemail
 
@@ -57,7 +57,7 @@ If a direct call to an agent is missed and voicemail is configured, the option t
 
 - Call rejected by the agent
 - Call times out
-- Agent presence is set as offline or don't disturb (DND)
+- Agent presence is set as offline or don't disturb 
 
 Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.
 
