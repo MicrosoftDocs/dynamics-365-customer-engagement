@@ -1,7 +1,7 @@
 ---
 title: "Configure offline data for the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
-ms.date: 06/02/2021
+ms.date: 10/14/2022
 ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
@@ -78,8 +78,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 
 **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device is connected to the internet or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, go to [Workflows and scripts for the Field Service (Dynamics 365) mobile app](mobile-power-app-workflows.md).
 
-> [!div class="mx-imgBorder"]
-> ![The Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
+For more best practices, go to [Power Apps Mobile Offline Guidelines](/power-apps/mobile/mobile-offline-guidelines)
 
 ## Step 2: Add users and teams to the offline profile
 
@@ -234,7 +233,15 @@ The **Offline Status** page in the app, available from the sitemap, can also be 
 
 Sync notifications are available from Unified Interface Platform version 9.2.22033.00152+.
 
-### Known limitations
+### Why does the offline enabled application show a message "Network or Service Unavailable"
+
+The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message is displayed, the client will not sync new data and some network-dependent areas of the application won't work. For example, maps or Dataverse search depend on device connectivity. 
+
+The application will check for connectivity whenever you navigate. The following events determine network detection which may result in the error message:
+- Application boots into offline mode prior to detecting network availability.
+- Application network check fails with no response or a response which takes too long.
+
+### Known Limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record doesn't meet filter conditions, then the record doesn't get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they're calling correct APIs: `Xrm.WebApi.online`.
