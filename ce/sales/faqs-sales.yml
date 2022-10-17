@@ -129,11 +129,13 @@ sections:
           - If it's a required product in a bundle, all fields are locked for editing.
           
   - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product |
-    
     questions:
-      - question: How can I set the default Pricing to Override Price on the Opportunity Product form?
+      - question: Why do questions in this section are only referring to opportunity products?
+        answer: To keep things simple, we've used the entity **Opportunity Product** to frame the questions and answers in this section. However, the questions and answers also apply to **Quote Product**, **Order Product**, and **Invoice Product** entities.
+      - question: How can I set the default Pricing to Override Price on the Opportunity/Quote/Order/Invoice Product form?
         answer: |
-          To set the value of the default **Pricing** as **Override Price** on the **Opportunity Product** form:
+          To set the value of the default **Pricing** as **Override Price** on the **Opportunity Product** form, follow these steps:
+          Note: Use these steps for Quote/Order/Invoice products as well. 
           
           1. Go to **Settings** > **Customizations** > **Customize the System**.
           1. Select **Entities** > **Opportunity Product** > **Fields**.
