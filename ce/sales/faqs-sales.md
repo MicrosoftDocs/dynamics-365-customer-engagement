@@ -144,7 +144,7 @@ There are certain restrictions on inline editing, based on the type of product i
 
 In this section, we use the entity **Opportunity Product** to frame the questions. However, the questions also apply to **Quote Product**, **Order Product**, and **Invoice Product**.
 
-### Why can't I update the owning business unit for opportunity products?
+### Why can't I update the owning business unit for opportunity products?  
 
 There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products are automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level.
 
