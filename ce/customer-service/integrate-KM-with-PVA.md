@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
-ms.date: 10/11/2022
+ms.date: 10/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,7 +16,7 @@ Integrating a Power Virtual Agents bot with knowledge management makes it easier
 
 You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
-- **Search Dynamics 365 knowledge articles** action.
+- **[Search Dynamics 365 knowledge articles](#use-the-search-dynamics-365-knowledge-article-flow-action)** action.
 - Power Automate flow template.
 
 ## Prerequisites
@@ -41,7 +41,6 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
 You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the **Search Dynamics 365 knowledge articles** action:
  
    1. Set connection references.
-   1. Call the flow as a one-time mandatory step.
    1. Add the action to the Power Virtual Agents topic.
 
 ### Set connection references
@@ -58,21 +57,22 @@ To set connection references:
 1. Go to **Solutions**.
 1. On the **Solutions** page, a notification to configure connection references appears.
 
-     :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
+   If you don't see the notification on the **Solutions** page, go to **Default Solutions** > **Connection references**, and then select **Microsoft Dataverse** and **Content Conversion** connection references.
+
+   :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
 
 1. Select the link to configure the **Microsoft Dataverse** and **Content Conversion** connection references.
 
      :::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
 
-     If you don't see the notification on the **Solutions** page, go to **Default Solutions** > **Connection references** and then select **Microsoft Dataverse** and **Content Conversion** connection references.
-
+    
 1. Go to **Default Solution** > **Cloud flows** and turn on **Search Dynamics 365 knowledge article flow** flow.
 
      :::image type="content" source="media/ka-article flow-on.png" alt-text="Turn on knowledge article flow":::
 
-### Call the flow as a one-time mandatory step
+### Add the action to the Power Virtual Agents topic
 
-After configuring the connection references, go to **Chatbots** > **List** and select the required chatbot. This will take you to the Power Virtual Agents portal where you can create a topic.
+After configuring the connection references in https://make.powerapps.com go to **Chatbots** > **List** and select the required chatbot. This will take you to the Power Virtual Agents portal where you can create a topic.
 If you need to create a chatbot, see [Create chatbots from Power Apps](/power-apps/chatbots).
 
 You can create a topic with two question nodes for search text and filter or you can configure the search integration to set up a fall-back topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
@@ -88,9 +88,9 @@ This step ensures that flow is properly configured and can now be replaced with 
     
 1. Create a question node for the filter and provide the sample filter value after you trigger the topic.
     
-1. Select **Add node** and select **Call an action**. Select **Search Dynamics 365 knowledge article flow** action.
+1. Select **Add node** (**+**) and select **Call an action**. Select **Search Dynamics 365 knowledge article flow** action.
      
-1. Provide the input to the flow.
+1. Provide the input to the flow. An error might appear if filter is not provided to the flow.
     
     :::image type="content" source="media/search-flow.png" alt-text="Describes the search flow":::
     
@@ -98,19 +98,15 @@ This step ensures that flow is properly configured and can now be replaced with 
 
    :::image type="content" source="media/mesg_node.png" alt-text="Add message node.":::
     
-1. Select **Save**. An error might appear if filter is not provided to the flow.
+1. Select **Save**. You can now configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles** action.
     
 1. Use the trigger phase and run the topic.
 
- > [!TIP]
- > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition, if required.
+   > [!TIP]
+   > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition, if required.
 
-  :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
+   :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
   
-### Add the action to the Power Virtual Agents topic
-
-After you have completed the two previous steps, you can configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles** action.
-   
 1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow** with the **Search Dynamics 365 knowledge articles** action.
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add action to Power Virtual Agents topic":::
