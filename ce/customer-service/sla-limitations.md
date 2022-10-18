@@ -29,9 +29,9 @@ The following limitations apply to SLAs created in the Unified Interface apps:
 
     To use related entities, you can add the related attribute values to the parent entity.
     
-- Multiple SLA items can't be defined with the same **Applicable When** criteria and same KPI in Unified Interface.
-- You can’t use nested related entities with the **Under**/**Not Under** operator as part of the conditions for SLAs created in the Unified Interface. Therefore, you'll need to change the **Applicable**/**Success**/**Pause** conditions to add one level of related entities only with the **Under**/**Not Under** operator.
-- You can’t directly use **Under**/**Not-Under** as conditions for SLAs created in Unified Interface, so you'll need to use related entities when using the **Under**/**Not Under** operator.
+- Multiple SLA items can't be defined with the same **Applicable When** criteria and same KPI in the Unified Interface apps.
+- You can’t use nested related entities with the **Under**/**Not Under** operator as part of the conditions for SLAs created in the Unified Interface apps. Therefore, you'll need to change the **Applicable**/**Success**/**Pause** conditions to add one level of related entities only with the **Under**/**Not Under** operator.
+- You can’t directly use **Under**/**Not-Under** as conditions for SLAs created in the Unified Interface apps, so you'll need to use related entities when using the **Under**/**Not Under** operator.
 
 ### See also
 
