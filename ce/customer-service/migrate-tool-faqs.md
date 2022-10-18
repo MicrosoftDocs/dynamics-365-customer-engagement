@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 10/05/2020
+ms.date: 10/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -61,6 +61,13 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 - **For incomplete or failed migration rules:** Select the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
 - **For successfully migrated rules:** Delete the migrated rule in Unified Interface before rerunning the migration tool.
 
+### What happens to existing SLA records which are associated with legacy SLAs once migration is complete?
+
+1. If Legacy SLA is deactivated after migration: Timer will continue to run till the terminal state for such records and **Resolve or Pause** functionality will not work.
+
+1. If Legacy SLA is still in **Active** state: Existing records with legacy SLA will continue to work as expected.
+
+1. If you want to use Unified Interface SLA on existing records, you will need to update the SLA field to Unified Interface SLA manually or need to write the Modern-Flow,Workflow, or Plugin logic to update the records.
 
 ## Known condition conversion issues
 
@@ -104,7 +111,6 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
 
 
 ![Unified Interface view.](media/migration-tool-12-b.png "Unified Interface view")
-
 
 ### Why does the data in my DateTime field change during migration?
 
