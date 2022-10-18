@@ -37,7 +37,7 @@ You can use the Microsoft [Dataverse development tools](/power-apps/developer/da
 
 - [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you view layouts and modify queries using FetchXML Builder.
 
-- [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses the [CrmSvcUtil.exe](download-tools-NuGet.md) and displays the command lines that are used to create theses classes.
+- [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses the [CrmSvcUtil.exe](/power-apps/developer/data-platform/download-tools-nuget) and displays the command lines that are used to create theses classes.
 
 - [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics 365 organization.
 
