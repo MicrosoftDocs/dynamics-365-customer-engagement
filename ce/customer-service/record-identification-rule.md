@@ -1,7 +1,7 @@
 ---
 title: "Identify customers automatically | MicrosoftDocs"
 description: "Learn how to automatically identify customers by using pre-conversation responses in Omnichannel for Customer Service."
-ms.date: 07/29/2022
+ms.date: 10/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,6 +13,9 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can assist customers better if you can automatically identify them and view their account and case details on the **Customer summary** page. One of the ways is by setting up pre-conversation questions in the relevant chat widgets. Customer responses can be used to search for details in the records and display the results. For an account or contact, the search is performed on the **Name**, **Email**, or **Phone Number** fields. For an account, the **Phone Number** pertains to the **Phone** field of the **Account Summary** page; for a contact, the **Phone Number** pertains to the **Mobile Number** field of the **Contact Summary** page. For cases, the search is performed on the **Case Number** field.
+
+> [!NOTE]
+> The record search is performed on active contacts or accounts. Inactive records won't be retrieved.
 
 For every incoming conversation request that an agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Customer summary** page opens and shows the details of the identified customer and case. If the identified contact or account has one active case linked to it, then case will be automatically linked to the conversation. If the customer has reached out for a different case, the agent can manually change the linked case.
 
