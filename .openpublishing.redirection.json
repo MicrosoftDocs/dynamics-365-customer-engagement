@@ -13850,7 +13850,12 @@
     },
     {
       "source_path": "ce/developer/download-tools-nuget.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/download-tools-nuget",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/download-tools-nuget.md",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
       "redirect_document_id": "false"
     },
     {

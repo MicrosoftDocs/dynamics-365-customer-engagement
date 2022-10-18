@@ -2,7 +2,7 @@
 title: "Developer tools (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about the developer tools provided for use with Dynamics 365 Customer Engagement."
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 10/18/2022
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -18,9 +18,12 @@ search.audienceType:
   - developer
 
 ---
+
 # Developer tools
 
 This section provides a single location for you to learn about the developer tools and community developed developer tools that you can use with Dynamics 365 Customer Engagement (on-premises).
+
+You can use the Microsoft [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget) for Dynamics 365 Customer Engagement (on-premises) development.
 
 ## Community tools
 
@@ -54,12 +57,11 @@ This section provides a single location for you to learn about the developer too
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
-> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
 ### See also
 
-[Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)
-  
+[Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)  
 [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)
  
 
