@@ -250,6 +250,8 @@
           href: real-time-marketing-dataverse-trigger.md
         - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
+        - name: Test triggers before using them
+          href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
         - name: "Preview: Build segments in real-time marketing"
@@ -286,7 +288,7 @@
           href: real-time-marketing-personalization.md
         - name: "Personalize content using pre-defined dynamic text"
           href: real-time-marketing-predefined-dynamic-text.md
-        - name: "Preview: How to use conditional content"
+        - name: How to use conditional content
           href: conditional-content.md
       - name: Analytics
         items:

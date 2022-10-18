@@ -1,7 +1,7 @@
 ---
 title: "Export and import unified routing data for live chat | MicrosoftDocs"
 description: "Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service."
-ms.date: 04/18/2022
+ms.date: 10/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export import data for the live chat channel
+# Export and import data for the live chat channel
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for live chat.
 
@@ -29,24 +29,24 @@ The following prerequisites must be met:
   - Option sets
   - Lookup values
 - Ensure that the user who performs the migration has the required privileges on the following unified routing entities in the source and target organizations:
-  - Workstream (msdyn_liveworkstream)
-  - Channel configuration (msdyn_omnichannelconfiguration)
-  - Notification template (msdyn_notificationtemplate)
-  - Session template (msdyn_sessiontemplate)
-  - Operating hours (msdyn_operatinghour)
-  - Characteristic (characteristic)
-  - Rating Model (rating model)
-  - Rating Value (ratingvalue)
-  - Capacity Profile (msdyn_capacityprofile)
-  - Queue (queue)
-  - Decision contract (msdyn_decisioncontract)
-  - Decision ruleset (msdyn_decisionruleset)
-  - Assignment configuration (msdyn_assignmentconfiguration)
-  - Assignment configuration Step (msdyn_assignmentconfigurationstep)
-  - Routing configuration (msdyn_routingconfiguration)
-  - Routing configuration step (msdyn_routingconfigurationstep)
-  - Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)
-  - Context variable (msdyn_ocliveworkstreamcontextvariable) 
+  - Workstream (`msdyn_liveworkstream`)
+  - Channel configuration (`msdyn_omnichannelconfiguration`)
+  - Notification template (`msdyn_notificationtemplate`)
+  - Session template (`msdyn_sessiontemplate`)
+  - Operating hours (`msdyn_operatinghour`)
+  - Characteristic (`characteristic`)
+  - Rating Model (`rating model`)
+  - Rating Value (`ratingvalue`)
+  - Capacity Profile (`msdyn_capacityprofile`)
+  - Queue (`queue`)
+  - Decision contract (`msdyn_decisioncontract`)
+  - Decision ruleset (`msdyn_decisionruleset`)
+  - Assignment configuration (`msdyn_assignmentconfiguration`)
+  - Assignment configuration Step (`msdyn_assignmentconfigurationstep`)
+  - Routing configuration (`msdyn_routingconfiguration`)
+  - Routing configuration step (`msdyn_routingconfigurationstep`)
+  - Workstream capacity profile (`msdyn_liveworkstreamcapacityprofile`)
+  - Context variable (`msdyn_ocliveworkstreamcontextvariable`) 
   - Survey question (msdyn_surveyquestions)
   - Survey question sequence (msdyn_questionsequence)
   - Survey answer option (msdyn_chatansweroption)
@@ -54,7 +54,9 @@ The following prerequisites must be met:
   - Tags (msdyn_octags)
 
 > [!IMPORTANT]
-> The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+>
+> - The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+> - If you try to migrate workstreams data for live chat with context variables, it might fail. For a workaround, see [Import fails in Configuration Migration tool for decision ruleset with context variables for chat workstreams](https://go.microsoft.com/fwlink/p/?linkid=2165393)
 
 ## Export and import live chat configuration
 
@@ -125,12 +127,12 @@ The following assumptions are in place:
    | Survey Answer Option (msdyn_chatansweroption)  | <ul> <li>Created By (createdby) </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon)   </li><li> Import Sequence Number (importsequencenumber)  </li><li> Modified By (modifiedby)     </li><li> Modified By (Delegate) (modifiedonbehalfby)   </li><li> Modified On (modifiedon)   </li><li> Name (msdyn_name)   </li><li> Owner (ownerid)  </li><li> Owning Business Unit (owningbusinessunit) </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser)   </li><li> Record Created On (overriddencreatedon)   </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey Answer Option (msdyn_chatansweroptionid)  </li><li> Survey question (msdyn_answeroptionsid)    </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber)</li></ul> |
    | Survey Question (msdyn_surveyquestion)  | <ul> <li>Answer type (msdyn_answertyp) </li><li> Created By (createdby  </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon  </li><li> Help Text (msdyn_placeholdertext)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Modified By (modifiedby) </li><li> Modified By (Delegate) (modifiedonbehalfby) </li><li> Modified On (modifiedon) </li><li> Owner (ownerid)  </li><li> Owning Business Unit (owningbusinessunit)  </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser)  </li><li> Question name (msdyn_nam)   </li><li> Question text (msdyn_questiontext)  </li><li> Rating Scale (msdyn_ratingscal)  </li><li> Record Created On (overriddencreatedon) </li><li> Status (statecod)  </li><li> Status Reason (statuscod)  </li><li> Survey Question (msdyn_surveyquestionid)  </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecod)  </li><li> Version Number (versionnumber)  </li><li> Work stream (msdyn_liveworkstreamtochatquestion)<li></ul> |
    | Survey Question Sequence (msdyn_questionsequence)    | <ul> <li>-	Chat widget (msdyn_chatengagementtochatsequenceid) </li><li> Created By (createdby)  </li><li> Created By (Delegate) (createdonbehalfby)  </li><li> Created On (createdon)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Modified By (modifiedby)  </li><li> Modified By (Delegate) (modifiedonbehalfby)  </li><li> Modified On (modifiedon)  </li><li> Name (msdyn_name)  </li><li> Order (sequencenumber)  </li><li> Owner (ownerid)  </li><li> Owning Business Unit (owningbusinessunit)  </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser)  </li><li> Record Created On (overriddencreatedon)  </li><li> Required (msdyn_questionrequired)  </li><li> Status (statecode)  </li><li> Status Reason (statuscode)  </li><li> Survey question name (msdyn_surveyquestion)  </li><li> Survey Question Sequence (msdyn_questionsequenceid)  </li><li> Survey type (msdyn_chatquestionnairetype) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber)</li></ul> |
-   | Survey Response(msdyn_chatquestionnaireresponse) | <ul> <li>Created By (createdby)   </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Modified By (modifiedby) )  </li><li> Modified By (Delegate) (modifiedonbehalfby)  </li><li> Modified On (modifiedon)  </li><li> Name (msdyn_name)  </li><li> Owner (ownerid) </li><li> Owning Business Unit (owningbusinessunit)  </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser)  </li><li> Record Created On (overriddencreatedon)  </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey answer option (msdyn_chatansweroptionid)  </li><li> Survey answer text (msdyn_chatanswertext)  </li><li> Survey Question Id (msdyn_surveyquestionid)  </li><li> Survey response (msdyn_chatquestionnaireresponseid)  </li><li> Survey Response Values (msdyn_chatquestionnaireresponseitemid) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber)</li></ul> |
-   | Chat Widget Location (msdyn_livechatwidgetlocation) |  <ul> <li> Chat widget (msdyn_livechatconfigid) </li><li> Chat Widget Location (msdyn_livechatwidgetlocationid ) </li><li> Created By (createdby ) </li><li> Created By (Delegate) (createdonbehalfby ) </li><li> Created On (createdon ) </li><li> Import Sequence Number (importsequencenumber ) </li><li> Location URL Wildcard (msdyn_locationurlwildcard ) </li><li> Modified By (modifiedby ) </li><li> Modified By (Delegate) (modifiedonbehalfby ) </li><li> Modified On (modifiedon ) </li><li> Owner (ownerid ) </li><li> Owning Business Unit (owningbusinessunit ) </li><li> Owning Team (owningteam ) </li><li> Owning User (owninguser ) </li><li> Record Created On (overriddencreatedon ) </li><li> Rule Type (msdyn_ruletype ) </li><li> Status (statecode ) </li><li> Status Reason (statuscode ) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber ) </li><li> Title (msdyn_name ) </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode ) </li><li> Value (msdyn_domainvalue ) </li><li> Version Number (versionnumber )</li></ul> |
+   | Survey Response(msdyn_chatquestionnaireresponse) | <ul> <li>Created By (createdby)   </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Modified By (modifiedby))  </li><li> Modified By (Delegate) (modifiedonbehalfby)  </li><li> Modified On (modifiedon)  </li><li> Name (msdyn_name)  </li><li> Owner (ownerid) </li><li> Owning Business Unit (owningbusinessunit)  </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser)  </li><li> Record Created On (overriddencreatedon)  </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey answer option (msdyn_chatansweroptionid)  </li><li> Survey answer text (msdyn_chatanswertext)  </li><li> Survey Question Id (msdyn_surveyquestionid)  </li><li> Survey response (msdyn_chatquestionnaireresponseid)  </li><li> Survey Response Values (msdyn_chatquestionnaireresponseitemid) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber)</li></ul> |
+   | Chat Widget Location (msdyn_livechatwidgetlocation) |  <ul> <li> Chat widget (msdyn_livechatconfigid) </li><li> Chat Widget Location (msdyn_livechatwidgetlocationid) </li><li> Created By (createdby) </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon) </li><li> Import Sequence Number (importsequencenumber) </li><li> Location URL Wildcard (msdyn_locationurlwildcard) </li><li> Modified By (modifiedby) </li><li> Modified By (Delegate) (modifiedonbehalfby) </li><li> Modified On (modifiedon) </li><li> Owner (ownerid) </li><li> Owning Business Unit (owningbusinessunit) </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser) </li><li> Record Created On (overriddencreatedon) </li><li> Rule Type (msdyn_ruletype) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber) </li><li> Title (msdyn_name  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li><li> Value (msdyn_domainvalue) </li><li> Version Number (versionnumber)</li></ul> |
    | Chat Widget Language (msdyn_chatwidgetlanguage) |  <ul> <li> Chat Widget Language (msdyn_chatwidgetlanguageid)  </li><li> Created By (createdby)  </li><li> Created By (Delegate) (createdonbehalfby)  </li><li> Created On (createdon)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Language Name (msdyn_languagename) </li><li> Locale ID (msdyn_localeid)  </li><li> Modified By (modifiedby)  </li><li> Modified By (Delegate) (modifiedonbehalfby)  </li><li> Modified On (modifiedon)  </li><li> Owner (ownerid)  </li><li> Owning Business Unit (owningbusinessunit)  </li><li> Owning Team (owningteam)  </li><li> Owning User (owninguser)  </li><li> Record Created On (overriddencreatedon)  </li><li> Status (statecode)  </li><li> Status Reason (statuscode)  </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber)</li></ul> |
    | Localized Survey Question (msdyn_localizedsurveyquestion) | <ul> <li> Created By (createdby)  </li><li> Created By (Delegate) (createdonbehalfby)  </li><li> Created On (createdon)  </li><li> Description (msdyn_description)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Language Code (msdyn_languagecode)  </li><li> Localized Question Text (msdyn_localizedquestiontext)  </li><li> Localized Survey Question (msdyn_localizedsurveyquestionid)  </li><li> Modified By (modifiedby)  </li><li> Modified By (Delegate) (modifiedonbehalfby)  </li><li> Modified On (modifiedon)  </li><li> Name (msdyn_name)  </li><li> Organization Id (organizationid)  </li><li> Record Created On (overriddencreatedon)  </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey Question (msdyn_surveyquestionid)  </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber) </li></ul> |
    | Geolocation Provider(msdyn_oc_geolocationprovider) | <ul> <li> Bing Maps API key (msdyn_providerapikey)  </li><li> Created By (createdby)  </li><li> Created By (Delegate) (createdonbehalfby)  </li><li> Created On (createdon)  </li><li> Geo Location Provider (msdyn_oc_geolocationproviderid)  </li><li> Import Sequence Number (importsequencenumber)  </li><li> Modified By (modifiedby)  </li><li> Modified By (Delegate) (modifiedonbehalfby)  </li><li> Modified On (modifiedon)  </li><li> Name (msdyn_name)  </li><li> Owner (ownerid)  </li><li> Owning Business Unit (owningbusinessunit)  </li><li> Owning Team (owningteam)  </li><li> Owning User (owninguser)  </li><li> Provider API Key Version (msdyn_providerapikeyversion)  </li><li> Provider name (msdyn_providername)  </li><li> Record Created On (overriddencreatedon)  </li><li> Status (statecode)  </li><li> Status Reason (statuscode) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber) </li></ul> |
-   | Operation Hour(msdyn_operatinghour)  | <ul> <li> (Deprecated) 24/7 (msdyn_enablealldays ) </li><li> (Deprecated) End time (msdyn_endtimestring ) </li><li> (Deprecated) Start time (msdyn_starttimestring ) </li><li> (Deprecated) Time zone (msdyn_timezone ) </li><li> (Deprecated) Total work hours (msdyn_totalworkhours ) </li><li> (Deprecated) Work days (msdyn_oc_daysofweek ) </li><li> Calendarid (msdyn_calendarid ) </li><li> Created By (createdby ) </li><li> Created By (Delegate) (createdonbehalfby ) </li><li> Created On (createdon ) </li><li> Description (msdyn_description ) </li><li> Import Sequence Number (importsequencenumber ) </li><li> Modified By (modifiedby ) </li><li> Modified By (Delegate) (modifiedonbehalfby ) </li><li> Modified On (modifiedon ) </li><li> Name (msdyn_name ) </li><li> Operating Hour (msdyn_operatinghourid ) </li><li> Organization Id (organizationid ) </li><li> Owner (ownerid ) </li><li> Owning Business Unit (owningbusinessunit ) </li><li> Owning Team (owningteam ) </li><li> Owning User (owninguser ) </li><li> Record Created On (overriddencreatedon ) </li><li> Status (statecode ) </li><li> Status Reason (statuscode ) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber ) </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode ) </li><li> Version Number (versionnumber )</li></ul> |
+   | Operation Hour(msdyn_operatinghour)  | <ul> <li> (Deprecated) 24/7 (msdyn_enablealldays) </li><li> (Deprecated) End time (msdyn_endtimestring) </li><li> (Deprecated) Start time (msdyn_starttimestring) </li><li> (Deprecated) Time zone (msdyn_timezone) </li><li> (Deprecated) Total work hours (msdyn_totalworkhours) </li><li> (Deprecated) Work days (msdyn_oc_daysofweek) </li><li> Calendarid (msdyn_calendarid) </li><li> Created By (createdby) </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon) </li><li> Description (msdyn_description) </li><li> Import Sequence Number (importsequencenumber) </li><li> Modified By (modifiedby) </li><li> Modified By (Delegate) (modifiedonbehalfby) </li><li> Modified On (modifiedon) </li><li> Name (msdyn_name) </li><li> Operating Hour (msdyn_operatinghourid) </li><li> Organization Id (organizationid) </li><li> Owner (ownerid) </li><li> Owning Business Unit (owningbusinessunit) </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser) </li><li> Record Created On (overriddencreatedon) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber) </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li><li> Version Number (versionnumber)</li></ul> |
    |    |         |
 
 1. Generate the schema and save it.
@@ -161,7 +163,7 @@ After you import the unified routing-related configuration data successfully fro
 
 2. If skills and rating values are used in unified routing rulesets, then you need to manually link, associate, or create the users, bookable resources, and bookable resources characteristics records.
   
-3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable reources capacity profile records.
+3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable resources capacity profile records.
 
 ## Considerations for export and import of data
 

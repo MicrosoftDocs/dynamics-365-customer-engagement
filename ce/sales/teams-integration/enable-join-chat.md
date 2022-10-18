@@ -11,9 +11,6 @@ manager: shujoshi
 
 # Configure the ability for users to join chats
 
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
-
 Configure the ability for users to join existing connected chats.
 
 ## License and role requirements

@@ -219,10 +219,22 @@
           href: enable-email-validation.md  
         - name: Integrate LinkedIn Sales Navigator solutions
           href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
-        - name: Configure predictive lead scoring
-          href: configure-predictive-lead-scoring.md
-        - name: View accuracy and performance of predictive scoring models
-          href: scoring-model-accuracy.md
+        - name: Predictive lead scoring
+          items:
+            - name: Configure predictive lead scoring
+              href: configure-predictive-lead-scoring.md
+            - name: Understand predictive lead scoring configuration page
+              href: understand-pls-configuration-page.md
+            - name: View model accuracy and performance
+              href: scoring-model-accuracy.md
+            - name: Edit and retrain a model
+              href: pls-edit-and-retrain-model.md
+            - name: View the influence of an attribute on the model
+              href: pls-attribute-influence.md
+            - name: Manage duplicate lead scoring models
+              href: pls-duplicate-models.md
+            - name: Add lead scoring widget to a form
+              href: pls-add-widget.md
     - name: Opportunity management
       items: 
         - name: Set up deal manager
@@ -239,10 +251,22 @@
           href: enable-opportunity-close-customization.md
         - name: Customize the Opportunity Close form
           href: customize-opportunity-close-experience.md
-        - name: Configure predictive opportunity scoring
-          href: configure-predictive-opportunity-scoring.md
-        - name: View accuracy and performance of predictive scoring models
-          href: scoring-model-accuracy.md        
+        - name: Predictive opportunity scoring
+          items:
+            - name: Configure predictive opportunity scoring
+              href: configure-predictive-opportunity-scoring.md
+            - name: Understand predictive opportunity scoring configuration page
+              href: understand-pos-configuration-page.md
+            - name: View model accuracy and performance
+              href: scoring-model-accuracy.md
+            - name: Edit and retrain a model
+              href: pos-edit-and-retrain-model.md
+            - name: View the influence of an attribute on the model
+              href: pls-attribute-influence.md
+            - name: Manage duplicate opportunity scoring models
+              href: pos-duplicate-models.md
+            - name: Add opportunity scoring widget to a form
+              href: pos-add-widget.md
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
     - name: Product and price list management

@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn general information about the new real-time marketing features in Dynamics 365 Marketing."
-ms.date: 09/15/2022
+ms.date: 09/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
@@ -61,4 +61,4 @@ The **when** can be as straightforward as a planned time when you want to send t
 - [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md)
 
 > [!NOTE]
-> Real-time customer journey orchestration features are available in the United States, Europe, Asia Pacific, United Kingdom, Australia, Canada, Japan, India, Brazil, and United Arab Emirates regions. Availability in other geographies will be communicated at a later date.
+> Real-time customer journey orchestration features are available in all geographies where Dynamics 365 Marketing is available. You can find a list of geographies on [Product Availability by Geography](https://dynamics.microsoft.com/availability-reports/).

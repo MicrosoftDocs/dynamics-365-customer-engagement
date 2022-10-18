@@ -1,4 +1,17 @@
 
+## 3.12.90.2
+
+(Includes Resource Scheduling controls version 1.2.30.222771).
+
+- Corrected "Get Started" banners & messaging for Bing Maps integration for European customers.
+- The Remaining Duration field will now update correctly when bookings are manually adjusted on the schedule board.
+- Filter is now correctly applied from the "Maintain Bookings" option for team members associated to a project record.
+- Soft bookings will now interact with the expand/collapse options as expected on the schedule board.
+- Auto-refresh on the schedule board will now update the color of bookings based on priority.
+- Fullscreen icon will now show on customized booking tooltip views on the schedule board.
+- Adding a custom web resource to a schedule board tab will no longer cause other tabs to show a HTTP 404 error.
+- Selecting a resource (with no requirement selected) on the schedule board should now open the details panel as expected.
+
 ## 3.12.88.3 - 2022 wave 2 early access update 2
 
 (Includes Resource Scheduling controls version 1.2.29.222551).

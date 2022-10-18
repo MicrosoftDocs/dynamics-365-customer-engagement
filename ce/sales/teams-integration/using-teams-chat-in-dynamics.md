@@ -13,9 +13,6 @@ manager: shujoshi
 
 # Use Microsoft Teams chat in Sales Hub
 
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by September 30, 2022.
-
 Start Teams chat conversations from within Sales Hub and connect them to records.
 
 ## License and role requirements

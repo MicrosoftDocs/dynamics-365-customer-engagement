@@ -176,7 +176,7 @@ outputProperty1.Attributes.Add(new ArgumentDirectionAttribute(Microsoft.Xrm.Sdk
 ## Generate early-bound types for an action  
  Using the CrmSvcUtil tool, you can generate request and response classes for your action to include in your application code. However, before you generate these classes, be sure to activate the action.  
   
-To download the CrmSvcUtil.exe, see [Download tools from NuGet](download-tools-NuGet.md).
+To download the CrmSvcUtil.exe, see [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget).
   
  The following sample shows the format for running the tool from the command line for an on-premises installation of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You supply the parameter values for your installation.  
   

@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 09/19/2022
+ms.date: 10/10/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -29,6 +29,41 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
 ## 2022 updates
+
+### September 2022 update
+
+The Dynamics 365 Marketing September 2022 update has one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). The general availability feature—conditional dynamic content—enables marketers to create personalized messaging more quickly and easily. Monthly enhancements include improvements to personalization and triggers.
+
+Additionally, real-time marketing features are now available in France and Switzerland, completing geographical parity between real-time marketing and outbound marketing features.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.87.2024.0     |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### General availability feature
+
+- **Win customer attention by creating conditional dynamic content with easy-to-use no-code experiences**
+    - Conditional dynamic content is key to delivering highly personalized messages to customers. Creating content where entire sections target specific customer segments allows you to craft messages that align with your customers’ interests and preferences, driving engagement and brand loyalty. Until now, achieving this level of dynamic content was complex and required coding. With the new conditional content experience, marketers can easily create messages targeted to specific segments or attributes, bringing content that is truly unique to each customer without writing any code.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/win-customer-attention-creating-conditional-dynamic-content-easy-to-use-no-code-experiences)
+    - [Docs](conditional-content.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of conditional dynamic content.](media/conditional-content-screenshot.png "Screenshot of conditional dynamic content")
+
+#### Monthly enhancements
+
+- **Personalization**
+    - **[Preview]** Access even more data for personalization and fine-tune your customer outreach. In previous releases, you were limited to accessing Dataverse tables that were directly related to an Audience or Triggers. Now, you can access many additional commonly used Dataverse tables, such as Events.
+- **Triggers**
+    - Testing triggers before using them in a journey is the safest way to ensure that your expectations meet the customer's reality. The test send feature gives you reassurance in the quality and behavior of your custom triggers before you send them to your audience. For example, when you create an abandoned cart journey, you can use the test send feature to ensure that your “cart abandoned” custom trigger behaves as expected.
+        - [Docs](real-time-marketing-test-triggers.md)
+- **Real-time marketing geo expansion**
+    - Real-time marketing features are now available in all geographies where Dynamics 365 Marketing is available. You can find a list of geographies on [Dynamics 365 and Power Platform availability](https://dynamics.microsoft.com/availability-reports/).
 
 ### August 2022 update
 
@@ -267,7 +302,7 @@ The update also includes improved email content blocks, the ability to manually 
     - [Docs](conditional-content.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of conditional dynamic content.](media/whats-new-conditional-dynamic.png "Screenshot of conditional dynamic content")
+    > ![Screenshot of conditional dynamic content.](media/conditional-content-screenshot.png "Screenshot of conditional dynamic content")
 
 - **Measure campaign effectiveness with a new channel analytics dashboard**
     - To create effective campaigns, marketers need to continuously track the delivery of assets across numerous channels. They also need to review campaign engagement metrics so that they can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. You can even zoom in on a particular channel or message. You can also learn from trends of important metrics over a specified time period to further improve your marketing efforts.

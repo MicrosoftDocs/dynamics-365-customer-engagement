@@ -1,7 +1,7 @@
 ---
 title: "Configure authentication settings | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 09/27/2022
+ms.date: 10/10/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -74,12 +74,12 @@ When a signed-in customer on a portal opens the chat widget, the JavaScript clie
 
 ### Setup for Power Apps portals
 
-If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL and JavaScript client function are available out of the box. The public key URL and JavaScript client function are available out of the box, but you'll need to [upload a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates) to have a valid public key URL on PowerApps portals. 
+If you're adding authentication for a chat widget on a website developed using Power Apps portals, then the public key URL and JavaScript client function are available out of the box. You'll need to [upload a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates) to have a valid public key URL on Power Apps portals. 
 
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
 
-The Power Apps portal will try to automatically link a contact record to the conversation through thec context passed in its JavaScript client function.
+The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
 
 ### Setup for custom portals
 
