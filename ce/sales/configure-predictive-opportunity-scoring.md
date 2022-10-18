@@ -175,14 +175,6 @@ If you're using your custom attributes for opportunity generation, you can gener
     > - To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
     > - When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
 
-
-
-
-
-
-
-
-
 6. In the **State option set** list, select the option set in which the status of the opportunities is defined, and then select the corresponding won and lost values in the **Won value** and **Lost value** lists, respectively.
 
     Opportunities are marked as:
@@ -208,7 +200,9 @@ If you're using your custom attributes for opportunity generation, you can gener
    If you don't have the minimum closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
 9. (Optional) Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage.  
-    After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Manual retraining](#manual-retraining)
+ 
+   After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Manual retraining](#manual-retraining)
+   
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
     > [!NOTE]
@@ -224,16 +218,18 @@ If you're using your custom attributes for opportunity generation, you can gener
     > [!NOTE]
     > If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-    After the model is trained, a popup message is displayed.
-    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
+    After the model is trained, a pop-up message is displayed.
+    
+    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is ready.":::
 
 1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
 1. Perform one of the following actions:
 
-    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in the **My Open Opportunities Scored** view and a **Opportunity score** widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+    - **Publish the model**: If your model is ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in the **My Open Opportunities Scored** view and an **Opportunity score** widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
 
-    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. More information: [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md) 
+    
     - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**.  
 
 ## Add a model
@@ -248,7 +244,7 @@ In organizations that have different lines of business, you might need different
     > ![Select add model](media/si-admin-predictive-opportunity-scoring-model-select-add-model.png "Select add model")
 
     >[!NOTE]
-    >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization.  More information: [Delete a model](#delete-a-model)
+    >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization. More information: [Delete a model](#delete-a-model)
 
      :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
@@ -287,20 +283,24 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     :::image type="content" source="media/si-admin-predictive-opportunity-scoring-edit-model-page.png" alt-text="A screenshot of the Edit model page.":::  
 
     >[!NOTE]
-    >The scoring model don't support the following types of attributes:
+    >The scoring model doesn't support the following types of attributes:
     >- Attributes on custom entities
-    >- Date and time related attributes
-    >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
+    >- Date- and time-related attributes
+    >- System-generated attributes (such as opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
 3. If you've enabled per stage modeling support, you'll see two additional columns: **Applicable stages** and **Prediction influence**.
+        
         :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the Applicable stages and Prediction influence columns.":::
 
 
     1. In the **Applicable stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than initial stages. You can select more than one stage for each attribute. 
-    2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to very high. For example, let's say that you don't want to consider Budget Amount for Develop stage, but historical data shows that it has a high influence. In this case, you might want to reconsider your decision or analyze why it has such high influence.  
+    
+    2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to very high. For example, let's say that you don't want to consider Budget Amount for the Develop stage, but historical data shows that it has a high influence. In this case, you might want to reconsider your decision or analyze why it has such high influence.  
 
 3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.  
-    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.  
+   
+   By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.  
+    
     :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
 
     > [!NOTE]
@@ -308,21 +308,24 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 1. Select **Retrain model**.
     
-    A popup message is displayed for the grade ranges. When the model is retrained, the grade ranges may change as well.  
+    A pop-up message is displayed for the grade ranges. When the model is retrained, the grade ranges may change as well.  
 
-    :::image type="content" source="media/grade-reset.png" alt-text="Popup message to confirm the grade reset ":::
+    :::image type="content" source="media/grade-reset.png" alt-text="Pop-up message to confirm the grade reset.":::
+
 1. Confirm whether you want to reset the ranges to the new values or use the previously set range. For example, if you have agreed upon a fixed grade range for your entire organization, select **No, keep previous ranges**.
 
-    After the model is trained, a popup message is displayed.  
-    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is ready":::
+    After the model is trained, a pop-up message is displayed.  
+    
+    :::image type="content" source="media/pos-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is ready.":::
 
 1. (Recommended) If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.
 
 1. Perform one of the following actions:
 
-    - **Publish the model:** If your model is ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in the **My Open Opportunities Scored** view and a **Opportunity score** widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+    - **Publish the model**: If your model is ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in the **My Open Opportunities Scored** view and an **Opportunity score** widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
 
-    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md). 
+    - **Verify accuracy**: To verify the model's accuracy, select **View Details** and then select the **Performance** tab. More information: [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md) 
+    
     - **View attributes**: To view the attributes used by the model, select **View Details** and then select **Edit model**.  
 
 ## View attribute insights
@@ -346,7 +349,7 @@ Typically, the **Attribute Insights** pane is divided into the following section
 
 - A summary of the status of the prediction influence, how many times the attribute is populated in open and closed opportunities, and the reason the attribute isn't automatically selected to create the model.
 
-- A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the opportunity score value **High** perform better than the average, and **Blank** perform below the average. The average is represented by a blue line and calculated based on the following formula:
+- A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the opportunity score value **High** performs better than the average, and **Blank** performs below the average. The average is represented by a blue line and calculated based on the following formula:
 
   `Global qualification rate` = {`Total number of opportunities qualified in your organization`/(`Total number of qualified + disqualified opportunities through this attribute`)} &times; 100
 
@@ -356,10 +359,14 @@ Typically, the **Attribute Insights** pane is divided into the following section
  
   For example, if opportunities with high budget have a 42 percent qualification rate, the formula is:
 
+
+<!-- question from editor: Is it correct that there's a blank space before the second "Total"? -->
+
+
   (`Total number of opportunities with high budget that are qualified)/( Total number of opportunities with high budget that are closed`) &times; 100 = 42  
 
   >[!NOTE]
-   >These calculations are based on the sample data at the time the model is trained, and might not represent the current snapshot of data. The past two years of data is considered and if the model has a filter, the calculations are done after the data is filtered.  
+  >These calculations are based on the sample data at the time the model is trained, and might not represent the current snapshot of data. The past two years of data is considered and if the model has a filter, the calculations are done after the data is filtered.  
 
 - A **Details** section that provides reasons for why the values are trending as they are in the graph at that point in time. If there isn't enough data for attributes from related entities, the application won't display the insights.
 
@@ -394,8 +401,10 @@ The model is deleted from your organization.
 
 ## Manage duplicate models
 
-When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. In the case of duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.    
+When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. In the case of duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.  
+
 To remove the duplicate models, use one of the following methods depending on the action you’re performing:
+
 - [Create model](#create-model)
 - [Published model](#published-model)
 
@@ -407,7 +416,9 @@ When you select **Get started**, a conflict message is displayed stating that th
 > ![A conflict message while creating the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-create-model-message.png "A conflict message while creating the model")
  
 -	Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique opportunities. For more information, see step 7 in [First-run setup experience](#first-run-setup-experience).
--Or-
+
+  **Or**
+
 -	Proceed to create a duplicate model, which might cause conflicts in identifying the opportunities that are being scored by this model.
 
 ### Published model
@@ -418,6 +429,7 @@ When you open a published model, a note displays above the version details secti
 > ![A conflict message while publishing the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-published-model-message.png "A conflict message while publishing the model")
  
 1.	Select **Delete model** to delete the current model from the application.
+
 2.	[Create the model](#add-a-model) with different filter column and filter values to score an opportunity.
 
 ## Add the opportunity scoring widget to a form
