@@ -1,7 +1,7 @@
 ---
 title: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service."
-ms.date: 09/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,7 +20,7 @@ ms.custom:
 
 # SLA limitations
 
-The following limitations apply to the Unified Interface apps:
+The following limitations apply to SLAs created in the Unified Interface apps:
 
 - The **Applicable When** and **Success Conditions** won't work as expected if they're configured for related entities.
 
@@ -29,9 +29,9 @@ The following limitations apply to the Unified Interface apps:
 
     To use related entities, you can add the related attribute values to the parent entity.
     
-- Multiple SLA items can't be defined with the same **Applicable When** criteria and same KPI in Unified Interface SLA.
-- You can’t use nested related entities with the **Under**/**Not Under** operator as part of the conditions in the Unified Interface SLA. Therefore, you'll need to change the **Applicable**/**Success**/**Pause** conditions to add one level of related entities only with the **Under**/**Not Under** operator.
-- You can’t use **Under**/**Not-Under** in direct conditions in Unified Interface SLA, so you'll need to use related entities when using the **Under**/**Not Under** operator.
+- Multiple SLA items can't be defined with the same **Applicable When** criteria and same KPI in Unified Interface.
+- You can’t use nested related entities with the **Under**/**Not Under** operator as part of the conditions for SLAs created in the Unified Interface. Therefore, you'll need to change the **Applicable**/**Success**/**Pause** conditions to add one level of related entities only with the **Under**/**Not Under** operator.
+- You can’t directly use **Under**/**Not-Under** as conditions for SLAs created in Unified Interface, so you'll need to use related entities when using the **Under**/**Not Under** operator.
 
 ### See also
 
