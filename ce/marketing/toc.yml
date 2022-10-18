@@ -260,6 +260,10 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
+        - name: "Preview: Sync data tables into the segment builder"
+          href: real-time-marketing-sync-data-tables.md
+        - name: "Preview: Create a static snapshot of a segments"
+          href: real-time-marketing-static-snapshot.md
       - name: Journey goals and A/B testing
         items:
         - name: Set a business goal and measure progress through a journey
@@ -278,8 +282,6 @@
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-        - name: Create a new version of a customer journey
-          href: real-time-marketing-new-journey-version.md
         - name: Use natural language in real-time marketing journeys
           href: real-time-marketing-natural-language.md
       - name: Personalization
