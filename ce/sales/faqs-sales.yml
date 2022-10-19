@@ -223,25 +223,8 @@ sections:
         
       - question: How do I change the forecast calculation for lost opportunities?
         answer: |
-          By default, the forecast calculation is based on the actual revenue for lost opportunities. To change it to estimated revenue, go to the **Layout** step of the forecast configuration, select the **Lost** forecast category, and then  select **Est. Revenue** in the **Amount** field. For more information, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
+          By default, the forecast calculation for lost opportunities is based on the actual revenue. To change it to estimated revenue, go to the **Layout** step of the forecast configuration, select the **Lost** forecast category, and then  select **Est. Revenue** in the **Amount** field. For more information, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
           
-      - question: What are the configurations that I can edit once a forecast is published?  
-        answer: |
-          You can edit the following configurations for a forecast once it's published:
-          
-          - On the [General](define-general-properties-scheduling-forecast.md) page, you can edit the forecast title and the default underlying records view.
-          
-          - On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit the forecast.
-          
-          - On the [Layout](choose-layout-and-columns-forecast.md) page, you can edit column titles, descriptions, and whether or not they show up on the grid.
-          
-          - On the [Drill-down](configure-manage-drill-downs.md) page, you can add, delete, or update drill-downs.
-          
-          - On the [Snapshots](/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
-          
-          - On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row and multi-currency selection, and customize access to edit fields in the underlying records grid.
-          
-          When you save and publish the configuration, the changes are applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast.
           
       - question: Can I manually set the forecast category of an opportunity as Won or Lost?
         answer: |
