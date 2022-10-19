@@ -1,7 +1,11 @@
 
+## 3.12.91.2
+
+(Includes Resource Scheduling controls version 1.2.31.222853).
+
 ## 3.12.90.2
 
-(Includes Resource Scheduling controls version 1.2.30.222771).
+(Includes Resource Scheduling controls version 1.2.30.222701).
 
 - Corrected "Get Started" banners & messaging for Bing Maps integration for European customers.
 - The Remaining Duration field will now update correctly when bookings are manually adjusted on the schedule board.
@@ -12,6 +16,11 @@
 - Adding a custom web resource to a schedule board tab will no longer cause other tabs to show a HTTP 404 error.
 - Selecting a resource (with no requirement selected) on the schedule board should now open the details panel as expected.
 
+(Includes Resource Scheduling controls version 1.2.30.222771)
+
+(This release is a hotfix on Resource Scheduling controls version  1.2.30.222701)
+ - Fixed a bug in which the NSAT survey and introductory video were not displaying for some environments after being upgraded.
+ 
 ## 3.12.88.3 - 2022 wave 2 early access update 2
 
 (Includes Resource Scheduling controls version 1.2.29.222551).

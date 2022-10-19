@@ -24,13 +24,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | TBD | 10/14/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | TBD | 10/21/2022 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.76.55](/dynamics365/field-service/version-history#887655)|  TBD| 10/28/2022 |
-| | *USG* |  [8.8.76.55](/dynamics365/field-service/version-history#887655) | TBD | 10/21/2022 |
-|**Station 4** |*Europe* | [8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/14/2022 |
-|**Station 5** |  *North America*|[8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/14/2022 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/14/2022 |
+|**Station 1** |  *First Release*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 10/21/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 10/21/2022 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.76.55](/dynamics365/field-service/version-history#887655)|  [8.8.77.41](/dynamics365/field-service/version-history#887741)| 10/28/2022 |
+| | *USG* |  [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741) | 10/21/2022 |
+|**Station 4** |*Europe* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/04/2022 |
+|**Station 5** |  *North America*|[8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/21/2022 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/21/2022 |
 | | *Dedicated Scale Groups* | [8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/21/2022 |
 
 >[!NOTE]
@@ -38,11 +38,19 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.77.41
+
+(Includes Universal Resource Scheduling version [3.12.91.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312912)).
+
 ## 8.8.76.55
+
+This release is a hotfix on Field Service version [8.8.76.42](/dynamics365/field-service/version-history#887642).
 
 (Includes Universal Resource Scheduling version [3.12.90.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312902)).
 
-This release is a hotfix on Field Service version [8.8.76.42](/dynamics365/field-service/version-history#887642).
+(Includes Resource Scheduling controls version 1.2.30.222771).
+
+No updates were made to Field Service (Dynamics 365) in this release.
 
 ## 8.8.76.42
 

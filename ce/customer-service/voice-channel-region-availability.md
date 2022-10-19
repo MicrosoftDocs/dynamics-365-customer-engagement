@@ -1,14 +1,14 @@
 ---
-title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
+title: "Supported cloud locations, languages, and locale codes for voice channel | MicrosoftDocs"
 description: "Use this article to know about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/11/2022
+ms.date: 10/19/2022
 ms.topic: article
 ---
 
-# Supported cloud locations, languages, and locale codes
+# Supported cloud locations, languages, and locale codes for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -18,7 +18,7 @@ For information about international availability of live chat and digital messag
 
 ## Supported cloud locations
 
-The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments.
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your country or region-specific cloud deployments.
 
 > [!IMPORTANT]
 >
@@ -43,21 +43,19 @@ If you need your data to stay within a country or region, see the following tabl
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
-|Canada **<sup>1, 2</sup>** |August 2022 | To be announced  |
+|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 14, 2022 |
+|Canada **<sup>1, 2</sup>** |August 2022 | November 30, 2022  |
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>1, 2</sup>** | October 2022 | To be announced|
-|India **<sup>1, 2</sup>** | October 2022 | To be announced  |
+|Switzerland **<sup>1, 2</sup>** | To be announced | To be announced|
+|India **<sup>1, 2</sup>** | To be announced | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
-|Brazil | To be announced | To be announced|
 |South Africa | To be announced | To be announced|
 |China | To be announced | To be announced|
 |Norway | To be announced | To be announced|
 |Korea | To be announced | To be announced|
 |Singapore|To be announced | To be announced|
-
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.<br>
@@ -76,6 +74,8 @@ You can also port existing US or toll-free phone numbers. More information: [Por
 You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
+
+The voice channel in Omnichannel for Customer Service doesn't support emergency calling when Azure direct routing is used.
 
 ## Supported languages and locale codes
 

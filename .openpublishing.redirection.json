@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/app-profile-manager/settings.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/legal/apps-for-power-platform-tou.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146434",
       "redirect_document_id": "false"
@@ -196,96 +201,96 @@
       "redirect_document_id": "false"
     },
 
-   {
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-wss-schema.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-wss-schema",
       "redirect_document_id": "false"
-   },     
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-types-schema.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-types-schema",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-core-schema.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-core-schema",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/sample-export-ribbon-definitions.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/sample-export-ribbon-definitions",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/pass-parameters-url-by-using-ribbon.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/pass-parameters-url-by-using-ribbon",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-tab-display-rules.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-tab-display-rules",
       "redirect_document_id": "false"
-   },
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-scaling-ribbon-elements.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-scaling-ribbon-elements",
       "redirect_document_id": "false"
-   },
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-custom-actions-modify-ribbon.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-custom-actions-modify-ribbon",
       "redirect_document_id": "false"
-   },
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-actions.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-actions",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-display-rules.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-display-rules",
       "redirect_document_id": "false"
-   },    
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-enable-rules.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-enable-rules",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-commands.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-commands",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/use-localized-labels-ribbons.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/use-localized-labels-ribbons",
       "redirect_document_id": "false"
-   },   
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/export-ribbon-definitions.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/export-ribbon-definitions",
       "redirect_document_id": "false"
-   }, 
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/export-prepare-edit-import-ribbon.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/export-prepare-edit-import-ribbon",
       "redirect_document_id": "false"
-   },    
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/command-bar-ribbon-presentation.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/command-bar-ribbon-presentation",
       "redirect_document_id": "false"
-    }, 
+    },
     {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbons-available-microsoft-dynamics-365.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbons-available",
       "redirect_document_id": "false"
-    }, 
+    },
     {
       "source_path": "ce/customer-service/voice-channel-call-overflow.md",
       "redirect_url": "manage-overflow",
@@ -13850,7 +13855,12 @@
     },
     {
       "source_path": "ce/developer/download-tools-nuget.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/download-tools-nuget",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/download-tools-nuget.md",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
       "redirect_document_id": "false"
     },
     {

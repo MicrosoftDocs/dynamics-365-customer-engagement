@@ -45,7 +45,7 @@ This topic will start by explaining how to register a webhook and how to test th
 
 ## Register a webhook
 
-Use the Plug-in Registration tool to register a webhook. To get the Plug-in registration tool, see [Download tools from NuGet](download-tools-nuget.md). 
+Use the Plug-in Registration tool to register a webhook. To get the Plug-in registration tool, see [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget).
 
 In the Plug-in Registration tool there is a new **Register New Web Hook** option to select.
 
