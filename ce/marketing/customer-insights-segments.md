@@ -2,7 +2,6 @@
 title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to integrate Dynamics 365 Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems."
 ms.date: 01/21/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,8 +18,6 @@ search.app:
 ---
 
 # Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing
-
-
 
 Dynamics 365 Customer Insights applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
 

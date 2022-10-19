@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 09/16/2022
+ms.date: 10/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,6 +12,10 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Supported regions and languages, and service limits for analytics and insights
 
 Depending on your location, certain features are available for in Dynamics 365 Customer Service insights. Service limits also apply.
+
+## Prerequisites
+
+The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting should be enabled in [Power Platform Admin Center](https://admin.powerplatform.microsoft.com).
 
 ## Region availability of analytics and insights
 
