@@ -1,8 +1,7 @@
 ---
 title: "Using the Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to use the Events API to access date from events, sessions, session tracks, and passes in Dynamics 365 Marketing."
-ms.date: 06/11/2019
-
+ms.date: 10/18/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,6 +16,11 @@ search.app:
 ---
 
 # Using the Events API
+
+> [!IMPORTANT]
+> Beginning in November 2022, the [Captcha](http://www.captcha.net/) service endpoints for Dynamics 365 Marketing are changing. If you have origin checks for your event portal requests, the Captcha call origin points will change from `https://client.prod.repmap.microsoft.com/` to `https://*.svc.dynamics.com` (where * varies based on the Events API).
+>
+> You can learn more about the Events API in the [Using the Events API](../developer/using-events-api.md) article.
 
 The Events API is a programmatic method to access data of events, sessions, session tracks, passes, speakers, and sponsorships. Additionally, it allows you to register for events and sessions.
 
