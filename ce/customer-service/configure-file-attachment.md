@@ -13,7 +13,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
+As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent.
 
 Customers must use the **Attach** icon to send files. The drag-and-drop operation is not supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
 
@@ -41,7 +41,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
 When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported.
 
-When the conversation is going on, the attachment is uploaded to Async Media Storage/Service (AMS) and it will be retained for seven days. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is a Azure blob-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
+When the conversation is going on, the attachment is uploaded to Async Media Storage/Service (AMS) and it will be retained for seven days. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
 
 > [!div class=mx-imgBorder]
 > ![File attachment icon.](media/file-attach-icon.png "File attachment icon")
