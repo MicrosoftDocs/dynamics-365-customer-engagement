@@ -1,8 +1,7 @@
 ---
-title: "Work with segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to work with real-time marketing segments in Dynamics 365 Marketing."
-ms.date: 08/02/2021
-
+title: "Create a static snapshot of a segment (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to create static segment snapshots in Dynamics 365 Marketing."
+ms.date: 10/18/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
