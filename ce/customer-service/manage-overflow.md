@@ -21,8 +21,6 @@ For work items, such as calls, conversations, and cases, you can address the fol
 
 If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
 
-If the overflow action selects the fallback queue, and the queue is out of operating hours, the work item will still be routed to the queue.
-
 ## How overflow works
 
 The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queue rules are evaluated. The following factors are considered during the overflow evaluation:

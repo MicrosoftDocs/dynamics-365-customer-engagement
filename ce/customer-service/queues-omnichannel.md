@@ -109,8 +109,6 @@ Work is routed to these queues that act as a safety net in the following scenari
 - Work item encounters an error when running a route-to-queue rule.
 - Work item does not match any route-to-queue rules.
 
-If the overflow action selects the fallback queue, and the queue is out of operating hours, the work item will still be routed to the queue.
-
 ### See also
 
 [Create and manage workstreams](create-workstreams.md)  
