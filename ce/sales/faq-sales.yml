@@ -97,7 +97,7 @@ sections:
           
       - question: Why aren't estimated revenue and total amount calculated automatically?
         answer: |
-          When you add products to an opportunity, quote, order, or invoice, the **Est. Revenue** and **Total Amount** fields are automatically updated only if you've selected system pricing calculation. For more information, go to [Configure product catalog settings](configure-product-catalog-settings).
+          When you add products to an opportunity, quote, order, or invoice, the **Est. Revenue** and **Total Amount** fields are automatically updated only if you've selected system pricing calculation. For more information, go to [Configure product catalog settings](configure-product-catalog-settings.md).
                    
   - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product |
     questions:
