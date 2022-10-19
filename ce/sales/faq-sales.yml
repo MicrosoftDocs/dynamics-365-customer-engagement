@@ -99,7 +99,7 @@ sections:
         answer: |
           When you add products to an opportunity, quote, order, or invoice, the **Est. Revenue** and **Total Amount** fields are automatically updated only if you've selected system pricing calculation. For more information, go to [Configure product catalog settings](configure-product-catalog-settings.md).
                    
-  - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product |
+  - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product 
     questions:
       - question: Why can't I make inline edits or see grid actions like move up or move down in the Product subgrid?
         answer: |
