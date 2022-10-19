@@ -1935,7 +1935,7 @@
     },
     {
       "source_path": "ce/sales/faqs-sales.md",
-      "redirect_url": "faqs-sales.yml",
+      "redirect_url": "faqs-sales",
       "redirect_document_id": "false"
     },
     {
