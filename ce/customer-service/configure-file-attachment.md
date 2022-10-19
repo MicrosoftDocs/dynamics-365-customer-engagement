@@ -1,10 +1,10 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 10/19/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -12,8 +12,6 @@ ms.reviewer: nenellim
 # Configure file attachment capability
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-## Introduction
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
 
@@ -24,25 +22,26 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 > [!NOTE]
 > In Unified Service Desk, if you sign in as an agent and want to attach a file while conversing with a customer, ensure that you select the required file type first and then attach the required file.
 
-1.	Sign in to Omnichannel Administration.
+1. Sign in to Customer Service admin center.
 
-2.	Go to **Channels** > **Chat**.
+1. In Customer support, go to **Channels** > **Chat**.
 
-3.	Open the chat widget in which you need to configure the file attachment capability.
+1. Edit the chat channel in which you need to configure the file attachment capability.
 
-4.	Go to the **Basic details** tab.
+1. Go to the **User features** tab.
 
-5.	Under **File attachments**, select **Yes** or **No** for the following:
+1. Set **File attachments** to **On**, and then select the check boxes for the following if they aren't selected:
 
-    - **Enable file attachments for customers**: Allows your customers to send a file to the customer service agent during a conversation. By default, it is set to No.
-    - **Enable file attachments for agents**: Allows your customer service agents to send a file to a customer during a conversation. By default, it is set to Yes.
+    - **Customers can send file attachments**: Allows your customers to send a file to the customer service agent during a conversation.
+    - **Agents can send file attachments**: Allows your customer service agents to send a file to a customer during a conversation.
 
-      > [!div class=mx-imgBorder]
-      > ![File attachments configuration.](media/file-attachment.png "File attachments configuration")
+    :::image type="content" source="media/file-attachment.png" alt-text="Enable file attachment settings.":::      
 
 ## Customer experience of attaching a file
 
-When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported. 
+When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported.
+
+When the conversation is going on, the attachment is uploaded to Async Media Storage/Service (AMS) and it will be retained for seven days. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is a Azure blob-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
 
 > [!div class=mx-imgBorder]
 > ![File attachment icon.](media/file-attach-icon.png "File attachment icon")
@@ -52,9 +51,9 @@ If a customer tries to attach an unsupported file type, a file larger than the a
 > [!div class=mx-imgBorder]
 > ![File attachment error.](media/file-attach-error.png "File attachment error")
 
-The file size limit for attachments and unsupported file types are defined in the web client. To configure the file size limit and unsupported file types:
+The file size limit for attachments and unsupported file types are defined in the advanced settings. To configure the file size limit and unsupported file types:
 
-1. Open the web client and go to **Settings** > **Administration** > **System Settings**.
+1. In the admin app, go to **Advanced Settings** on the top right, and then select **Settings** > **Administration** > **System Settings**.
 
 2. In the **System Settings** window, go to the **Email** tab.
 
