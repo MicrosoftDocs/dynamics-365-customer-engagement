@@ -77,7 +77,7 @@ If you need to create a chatbot, see [Create chatbots from Power Apps](/power-ap
 
 You can create a topic with two question nodes for search text and filter or you can configure the search integration to set up a fall-back topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
    
-If you are creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value, for example, **statecode eq 3**.
+If you're creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value; for example, **statecode eq 3**.
 
 This step ensures that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.
   
@@ -90,7 +90,7 @@ This step ensures that flow is properly configured and can now be replaced with 
     
 1. Select **Add node** (**+**) and select **Call an action**. Select **Search Dynamics 365 knowledge article flow** action.
      
-1. Provide the input to the flow. An error might appear if filter is not provided to the flow.
+1. Provide the input to the flow. An error might appear if the filter isn't provided to the flow.
     
     :::image type="content" source="media/search-flow.png" alt-text="Describes the search flow":::
     
@@ -103,7 +103,7 @@ This step ensures that flow is properly configured and can now be replaced with 
 1. Use the trigger phase and run the topic.
 
    > [!TIP]
-   > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition, if required.
+   > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition if required.
 
    :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
   
@@ -111,7 +111,7 @@ This step ensures that flow is properly configured and can now be replaced with 
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add action to Power Virtual Agents topic":::
 
-2. Remove the filter question node. More information on filters, see [Work with filters](#work-with-filters).
+2. Remove the filter question node. More information: [Work with filters](#work-with-filters).
 
 3. Update the message node with the output from the action and select **Save**.
 
