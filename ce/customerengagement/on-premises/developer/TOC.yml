@@ -27,8 +27,8 @@
   - name: Developer tools
     href: developer-tools.md
     items:
-    - name: Download tools from NuGet
-      href: download-tools-nuget.md
+    - name: Download developer tools
+      href: /powerapps/developer/data-platform/download-tools-nuget
     - name: Visual Studio and the .NET Framework
       href: visual-studio-dot-net-framework.md
     - name: Browse the metadata for your organization
