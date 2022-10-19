@@ -94,6 +94,11 @@ The following screenshot illustrates how selecting a default view displays the u
 >[!NOTE]
 >View selection is only available in the table view. If you want to open the records in a specific view by default, you'll need to turn off **Set kanban as default**. If you select both kanban view and a default view, then the records open in kanban view, and the default view appears only when the user switches to the table view.
 
+## Translate forecast column names
+
+If you've added additional columns to your forecast grid and would like to translate the names of those columns, you need to forecast grid component using the Power Apps component framework. For more information, see the [Power Apps component framework](/power-apps/developer/component-framework/overview) documentation. 
+ 
+
 ## Customize underlying records
 
 Add a JavaScript library to customize the underlying records in a forecast.
