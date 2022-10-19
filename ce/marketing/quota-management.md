@@ -38,7 +38,7 @@ The following usages and limits are tracked on this screen:
     - Contacts that you never engage in marketing activities won't be counted as part of this quota.
     - For more information about Marketing contacts and how they are counted, see [How Marketing is licensed](purchase-setup.md#how-licensed) and the [Administration and setup FAQ](setup-troubleshooting.yml#licensing).
     > [!NOTE]
-    > Active Marketing contacts are counted as contact entities in the CDS database if they have received a Marketing interaction within the last 12 months prior to the current date. Once a contact hasn't received an interaction in the last 12 months, it is no longer counted as an active contact.
+    > Active Marketing contacts are counted as contact entities in the Dataverse database if they have received a Marketing interaction within the last 12 months prior to the current date. Once a contact hasn't received an interaction in the last 12 months, it is no longer counted as an active contact.
 - **Litmus email previews**: Shows the total number of Litmus email previews (inbox previews) users at your organization can still use during the current month.
     - The pre-seeded capacity is shown together with your monthly consumption.
     - The pre-seeded capacity automatically resets on a monthly basis.
