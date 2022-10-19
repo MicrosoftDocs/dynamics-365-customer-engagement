@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 10/13/2022
+  ms.date: 10/19/2022
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -43,7 +43,7 @@ sections:
       - question: Why are appointments saved automatically even when there's a custom script to stop automatic saving?
         answer: This is by design. If the SchedulingEngine feature is enabled for appointments, the system overrides any custom script and saves the appointments automatically.
 
-      - question: Why does the **Open Record Set** button disappear when an appointment is saved?
+      - question: Why does the Open Record Set button disappear when an appointment is saved?
         answer: |
           If the SchedulingEngine feature is enabled for appointments, the **Open Record Set** button disappears when you select **Save** but reappears when you refresh the page. For more information, go to [Open Record Set](/powerapps/user/navigation#record-set-navigation).
           
@@ -72,7 +72,7 @@ sections:
           
           1. Save the dashboard, and then publish the customization.
           
-  - name: Entity - Lead
+  - name: Entities - Lead, opportunity, quote, order, invoice
     questions:
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
@@ -89,19 +89,21 @@ sections:
           
           For more information, go to [Enable duplicate lead detection](enable-duplicate-lead-detection.md).
           
-  - name: Entity - Opportunity
-    questions:
       - question: Why can't I edit Est. Revenue in the Opportunity form?
         answer: |
           To edit **Est. Revenue** in the **Opportunity** form, **Revenue** must be set as **User Provided** and the opportunity must be in an **Open** state.
           
           :::image type="content" source="media/faqs-est-revenue.png" alt-text="Screenshot of an opportunity record with Revenue highlighted.":::
           
-  - name: Entities - Opportunity, Quote, Invoice, and Order
-    questions:
-      - question: Why can't I make inline edits or see grid actions like move up or move down for opportunity products?
+      - question: Why aren't estimated revenue and total amount calculated automatically?
         answer: |
-          If you select a view other than Opportunity Product Inline Edit View in the legacy web client, you can't make inline edits or see grid actions like move up, move down, and lock icons. This is by design. The inline edit view is available in Unified Interface. To verify whether a grid can be edited, go to **Grid control properties**.
+          When you add products to an opportunity, quote, order, or invoice, the **Est. Revenue** and **Total Amount** fields are automatically updated only if you've selected system pricing calculation. For more information, go to [Configure product catalog settings](configure-product-catalog-settings).
+                   
+  - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product |
+    questions:
+      - question: Why can't I make inline edits or see grid actions like move up or move down in the Product subgrid?
+        answer: |
+          If you select a view other than **Opportunity Product Inline Edit View** in the legacy web client, you can't make inline edits or see grid actions like move up, move down, and lock icons. This is by design. The inline edit view is available in Unified Interface. To verify whether a grid can be edited, go to **Grid control properties**.
           
           :::image type="content" source="media/faqs-grid-control-properties.png" alt-text="Screenshot of the properties settings for the grid control.":::
           
@@ -109,16 +111,11 @@ sections:
              >
              > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantity** as editable or non-editable is independent of the view that's selected.  
              > - An editable grid doesn't guarantee that all columns are editable; it depends on the **Pricing**.
-
-      - question: Why isn't the amount calculated automatically in opportunity, quote, order, and invoice records?
-        answer: |
-          **Est. Revenue** and **Total Amount** are updated when the opportunity is refreshed&mdash;when you open the record or select **Refresh** on the command bar&mdash;or when you select **Recalculate Opportunity** on the command bar. Your organization must be using system pricing calculation. Make sure that **Use system pricing calculation** in **System Settings** is set to **Yes**. For more information, go to [System Settings dialog box - Sales tab](system-settings-sales-tab.md).
-          
           <a name="fields-locked"></a>
           
-      - question: Why are some fields editable while some are locked in the Product subgrid in opportunity, quote, order, and invoice records?
+      - question: Why are some fields editable while some are locked in the product subgrid?
         answer: |
-          There are certain restrictions on inline editing, based on the type of product in the subgrid:
+          There are certain restrictions on inline editing, based on the type of product in the Products subgrid for opportunity, quote, order, and invoice:
           
           - If it's an individual (unbundled) product and it exists in the product catalog, all fields except **Quantity** and **Discount** are locked for editing.
           
@@ -127,18 +124,15 @@ sections:
           - If it's a product bundle or an optional item in a bundle, all fields except **Quantity** and **Discount** are locked for editing.
           
           - If it's a required product in a bundle, all fields are locked for editing.
-          
-  - name: Entities - Opportunity Product, Quote Product, Order Product, and Invoice Product |
-    questions:
-      - question: Why do questions in this section are only referring to opportunity products?
-        answer: To keep things simple, we've used the entity **Opportunity Product** to frame the questions and answers in this section. However, the questions and answers also apply to **Quote Product**, **Order Product**, and **Invoice Product** entities.
-      - question: How can I set the default Pricing to Override Price on the Opportunity/Quote/Order/Invoice Product form?
+      - question: How can I set the default pricing to override price on the product form?
         answer: |
-          To set the value of the default **Pricing** as **Override Price** on the **Opportunity Product** form, follow these steps:
-          Note: Use these steps for Quote/Order/Invoice products as well. 
-          
+          To set the value of the default **Pricing** as **Override Price** on the opportunity, quote, order, or invoice product form, follow these steps:
+                    
           1. Go to **Settings** > **Customizations** > **Customize the System**.
           1. Select **Entities** > **Opportunity Product** > **Fields**.
+             > [!NOTE]
+             > For quote, order, and invoice, select **Quote Product**, **Order Product**, and **Invoice Product** forms respectively.
+          
           1. Select **ispriceoverridden**, and then set **Default Value** to **Override Price**.
           1. Save and publish the customizations.
           
@@ -147,18 +141,18 @@ sections:
       - question: Why can't I update the owning business unit for opportunity products?
         answer: There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products are automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level.
         
-  - name: Entities - Order and Invoice
+  - name: Product Pricing
     questions:
-      - question: How can I change the default value for Prices Locked in the Order form?
+      - question: How do I change the default value for Prices Locked?
         answer: |
-          You can change the default value for **Prices Locked** in the **Order** form through customizations or the inline editable grid:
+          You can change the default value for **Prices Locked** in the **Order** or **Invoice** form through customizations or the inline editable grid:
           
           1. Go to **Settings** > **Customizations** > **Customize the System**.
-          1. Select **Entities** > **Order** > **Fields**.
+          1. Select **Entities** > **Order** or **Invoice** > **Fields**.
           1. Select **ispricelocked**, and then set **Default Value** to **No**.
           1. Save and publish the customizations.
           
-      - question: For a particular Order form, how can I change the state of Prices Locked?
+      - question: How do I change the state of Prices Locked?
         answer: |
           To change the state of **Prices Locked**, select the **Lock** icon on the inline editable grid.
           
@@ -172,7 +166,7 @@ sections:
           
       - question: Why can't I change the values in the Price Per Unit column in the Products grid?
         answer: |
-          The **Prices Locked** (**ispricelocked**) setting controls whether the prices specified on the **Order** form can be changed.
+          The **Prices Locked** (**ispricelocked**) setting controls whether the prices specified on the **Order** or **Invoice** form can be changed.
           
           The following tables show the interaction between **Prices Locked** and **Price Per Unit** on editable and non-editable grids in the **Products** subgrid and **Order** product form.
           
