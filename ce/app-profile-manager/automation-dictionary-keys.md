@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/22/2022
+ms.date: 10/18/2022
 ms.topic: article
 ---
 
@@ -126,7 +126,7 @@ The following slug is used to generate a reconnection link that can be shared wi
 
 | Slug | Description |
 |------------|-----------------------------------|
-|`${ReconnectUrl{ReconnectID}}`| Used in quick replies to generate the reconnect link. |
+|`{ReconnectUrl{ReconnectID}}`| Used in quick replies to generate the reconnect link. |
 
 #### Format for slugs for productivity tools
 

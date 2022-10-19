@@ -108,7 +108,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 <td>
 <h2> Additional resources </h2>
 <li><a href="sample-code-directory.md" data-raw-source="[Sample code directory](sample-code-directory.md)">Sample code directory</a></li>
-<li><a href="download-tools-nuget.md" data-raw-source="[Tools on NuGet](download-tools-nuget.md)">Tools on NuGet</a></li>
+<li><a href="/power-apps/developer/data-platform/download-tools-nuget" data-raw-source="[Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget)">Tools on NuGet</a></li>
 </td>
 
 <td>
