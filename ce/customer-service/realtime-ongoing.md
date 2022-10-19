@@ -41,14 +41,14 @@ The **Ongoing conversations** report displays the following metrics about conver
 
 | Metric | Description | Availability|
 |-------|-------|------|
-| Subject |  |  |
-| Status |  |  |
-| Active agent |  |  |
-| Queue |  |  |
-| Channel |  |  |
-| Wait time|  |  |
-| Handle time |  |  |
-| Sentiment |  |  |
+| Subject | Conversation subject  |  |
+| Status | Status of the conversation. It could be one of the following statuses: Open, Assigned, Waiting, Wrap-up  |  |
+| Active agent | Agent who is current assigned/working on this conversation  |  |
+| Queue | Queue in which the conversation landed   |  |
+| Channel |  Channel from which the conversation landed |  |
+| Wait time| Time taken for the agent to connect with customer   |  |
+| Handle time |  Time spent by agent with customer.  |  |
+| Sentiment | Current sentiment of the conversation. |  |
 |||
 
 ### See also

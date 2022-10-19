@@ -1,7 +1,7 @@
 ---
 title: Voice Dashboard | Microsoft Docs
 description: Learn about the Voice dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 10/12/2022
+ms.date: 10/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -43,14 +43,15 @@ The report summarizes the KPIs for the specified time period and the percentage 
 
 | KPI | Description |
 | ------- | ------------------ |
-| Incoming conversation  | The number of conversations initiated by the customer and can be presented to a human agent.|
-| Conversations in queue | |
-| Longest wait time |Longest wait time of current unassigned conversations.|
-| Avg. speed to answer | |
+| Incoming conversation  | TTotal number of voice conversations received.  
+Conversation escalated by the Power Virtual Agents bots is also included. |
+| Conversations in queue |Total number of voice conversations in queue currently awaiting human agents   |
+| Longest wait time |Maximum wait time of voice conversations currently in open state awaiting agent .|
+| Avg. speed to answer | Average time customers waited in the queue before connecting to an agent|
 | Abandoned rate | Total number of conversations which are closed before an agent accepted the conversation. |
 | Ongoing conversation | Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
-| Avg. handle time | Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time.  |
-| Service level (60 sec) | Percentage of chats what were accepted by an agent within 60 seconds (after escalated by bot if applicable) |
+| Avg. handle time | Average time an agent spent actively with a customer on voice conversations. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
+| Service level (60 sec) | Percentage of voice conversations what were accepted by an agent within 60 seconds (after escalated by bot if applicable) |
 
 The following charts are displayed in the Voice report.
 
@@ -58,12 +59,12 @@ The following charts are displayed in the Voice report.
 
 | Title | Description |
 | ------- | ------------------ |
-| Conversations over time| |
-| Ongoing conversations by status | |
-| Agent availability status|  |
+| Conversations over time| Total conversations voice received mapped against hour |
+| Ongoing conversations by status | Total number of voice conversations currently in Open, Active and Wrap-Up statuses |
+| Agent availability status| Total number of agents who are members of queues in voice workstreams, in Available, Busy, Do not disturb and Appear away statuses  |
 | Conversation time | |
-| Ongoing conversations by queue | |
-| Capacity by profile | |
+| Ongoing conversations by queue |Total number of conversations which are currently worked on by a human agent (including open conversations assigned) in each of Omnichannel queue. |
+| Capacity by unit | Total number of voice agents in Available, Occupied status. |
 
 You can select **View report details** to drill down on the **Conversation and agent analytics** queue and metrics by agent details.
 

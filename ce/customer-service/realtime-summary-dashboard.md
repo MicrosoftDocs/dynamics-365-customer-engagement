@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the Real-time summary report to cater to your organization's customer service experience better.
-ms.date: 10/12/2022
+ms.date: 10/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -52,14 +52,14 @@ The report summarizes the KPIs for the specified time period and the percentage 
 
 | KPI | Description |
 | ------- | ------------------ |
-| Incoming conversation  | Conversation escalated by the Power Virtual Agents bots is also included.|
-| Conversations in queue | |
-| Longest wait time | |
-| Avg. speed to answer | |
-| Abandoned rate | Total number of conversations which are closed before an agent accepted the conversation. |
-| Ongoing conversation | Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
-| Avg. handle time | Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This include hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time.  |
-| Service level (60 sec) |  Percentage of chats what were accepted by an agent within 60 seconds (after escalated by bot if applicable)|
+| Incoming conversation  | Total number of conversations received across all channels. Conversations escalated by the Power Virtual Agents bots are also included. |
+| Conversations in queue |Total number of conversations in queue currently awaiting human agents across all channels  |
+| Longest wait time | Longest wait time of current unassigned conversations across all channels |
+| Avg. speed to answer |Average time across all channels taken for conversations to be accepted by agents   |
+| Abandoned rate | Total number of conversations across all channels that were closed before an agent accepted the conversation. |
+| Ongoing conversation | Total number of conversations which are currently worked on by a human agent. This includes all open conversations which are assigned to an agent.|
+| Avg. handle time | Average time an agent spent actively with a customer across all channels. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), wrap time (if applicable), talk time (if applicable), active time. |
+| Service level (60 sec) | Percentage of conversations across all channels what were accepted by an agent within 60 seconds. Conversations escalated by the Power Virtual Agents bots are also included.|
 
 The following charts are displayed in the Summary report.
 
@@ -67,12 +67,12 @@ The following charts are displayed in the Summary report.
 
 | Title | Description |
 | ------- | ------------------ |
-| Conversations over time| |
-| Ongoing conversations by status | |
-| Agent availability status|  |
-| Ongoing conversations by channel | |
-| Ongoing conversations by queue | |
-| Capacity by unit | |
+| Conversations over time| Total conversations received mapped against hour |
+| Ongoing conversations by status | Total number of conversations currently in Open, Active and Wrap-Up statuses |
+| Agent availability status| Total number of agents in Available, Busy, Do not disturb and Appear away statuses  |
+| Ongoing conversations by channel | Total number of conversations which are currently worked on by a human agent (including open conversations assigned) on each of Omnichannel channels.   |
+| Ongoing conversations by queue | Total number of conversations which are currently worked on by a human agent (including open conversations assigned) in each of Omnichannel queue. |
+| Capacity by unit |Total number of agents in Available, Occupied status  |
 
 You can select **View report details** to drill down on the **Conversation and agent analytics** channel and queue details.
 

@@ -39,11 +39,11 @@ The agents insights report consists of the following metrics.
 | Agents logged in | The number of agents who are signed in.| Live chat, Digital messaging, Voice |
 | Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |Live chat, Digital messaging, Voice |
 | Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |Live chat, Digital messaging, Voice |
-| Avg. session handle time| | |
+| Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. | |
 Required capacity unit for current waiting conversations| | |
-| Agent availability status| | |
-| Capacity by unit| | |
-| Session participation mode| The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session.|Live chat, Digital messaging, Voice |
+| Agent availability status| Total number of agents in Available, Busy, Do not disturb and Appear away statuses | |
+| Capacity by unit| Total number of agents in Available, Occupied status | |
+| Session participation mode| The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |Live chat, Digital messaging, Voice |
 
 The **Agent list** table in the **Agent** report displays the following information.
 
@@ -53,7 +53,7 @@ The **Agent list** table in the **Agent** report displays the following informat
 |-------|-------|
 | Agent | A list of the agent names for the queue. |
 | Status | The current presence of the agent: **Available**, **Offline**, **Do not disturb**, or **Busy**. |
-| Status since |  |
+| Status since | Time since the status was set  |
 | Active sessions | The number of conversations that are active.|
 | Wrap-up sessions | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
@@ -83,18 +83,26 @@ Details about the agent are displayed as shown in the following image.
 | Units occupied |  |
 | Profiles available |  |
 | Profiles occupied |  |
-| Avg. handle time per session | The average handle time per session is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
-| Logged in states duration | The agent's presence when the agent is signed in.|
-| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label **Visitor**. More information: [Automatically identify customers](record-identification-rule.md). |
-| Participation | **Primary** indicates that the agent is engaged in a session. **Consult** means that the agent is engaged in a consulting session with another agent. **Monitor** means that this agent is monitoring the session. |
-| Workstream | The work stream that the conversation is assigned to. |
-| Channel | The channel that the conversation was created from. |
-| Queue | The queue that the conversation is currently part of. |
-| Status | The current conversation status. |
-| Sentiment | The current sentiment. |
-| Created on | The conversation creation time. |
-| Capacity and status timeline |  |
-|||
+| Engaged Sessions | The number of sessions presented to an agent and accepted by an agent  |
+| Transfer rate  | The percentage of conversations that were transferred by the agent to another agent/queue. |
+| Session rejection rate  | The percentage of sessions presented to an agent but rejected by the agent |
+|Session time out rate | The percentage of sessions presented to an agent but ended before the agent responded  |
+| Average session handle time  | The average handle time per session is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. More information: Average handle time.  |
+|Subject  | Conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. More information: Automatically identify customers. |
+|Handle time  | Time from the session start to session end  |
+| Channel| The channel that the conversation was created from.  |
+| Queue | The queue that the conversation is currently part of.  |
+| Status | The current conversation status.  |
+| Sentiment | The current sentiment.  |
+|Created on| The conversation creation time. |
+
+| Metrics | Description |
+|-------|-------|
+| Name | Agent name|
+| Presence Status | Presence status set |
+| Start time | Time when the presence status was set  |
+| End time | Time when the presence status was changed  |
+| Created on | Time the status change entry was created   |
 
 ### Agent details
 
