@@ -1,7 +1,7 @@
 ---
 title: "Real- time analytics ongoing Conversations report for supervisor | MicrosoftDocs"
 description: "Learn how the ongoing conversations report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 10/12/2022
+ms.date: 10/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,12 +24,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 >
 
 The **Ongoing Conversations** report provides information on the conversations that are handled by agents and are in the open, active, wrap-up, waiting, and closed status in your organization. This report provides a holistic view of the conversations with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. The duration in which the report data is auto refreshed is near real time.
-
-Further, you can filter the conversations using the **Queues**, **Channel** or **Agents** option to create a personalized view of the queues or the group of agents you want to monitor or track. Select the queues or agents for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selection. Select **Save** to set this filter as default and when you sign in to Omnichannel for Customer Service, you view conversations based on your saved filter.
-
-> [!NOTE]
->
-> - This report only covers Omnichannel conversations.
 
 ## Ongoing Conversations report
 

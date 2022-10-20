@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Real time Omnichannel analytics dashboard| MicrosoftDocs"
 description: "Introduction to Real time Omnichannel analytics dashboard"
-ms.date: 10/14/2022
+ms.date: 10/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ms.custom: intro-internal
 ---
 
-# Introduction to Omnichannel Real-time analytics dashboards (preview)
+# Overview of Omnichannel Real-time analytics dashboards (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -29,25 +29,29 @@ ms.custom: intro-internal
 
 In the digital contact center world, supervisors need to react to events like increase in the volume of incoming customer interactions, longer call lengths and agent absenteeism by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Having visibility into the overall support performance through real-time reporting empowers them to monitor key operational metrics, make course corrections at the right time and keep service levels high.
 
-The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the situation in the contact center as supervisors oversee agents handling customer conversations coming through multiple channels.
+The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the current situation in the contact center as supervisors oversee agents handling customer conversations coming through multiple channels.
+
+## Benefits
 
 The key capabilities of the feature include:
 
 - Ability for supervisors to monitor key operational metrics in near real-time, and to make course corrections at the right time and keep service levels high​.
 
-- Ability to optimize the allocation of agents in near real-time to provide top notch support and boost customer satisfaction.
+- Ability to review the allocation of agents in near real-time and then optimize to provide top notch support and boost customer satisfaction.
 
-- Ability to improve agent staffing, effectiveness, and utilization by adjusting work distribution.
+- Ability to improve agent staffing, effectiveness, and utilization by reviewing work distribution.
 
 - Ability to monitor ongoing conversation, track customer sentiment and intervene as required.
 
 - Ability to drill down as required to a specific channel, queue, or agent (and more) to gather key operational insights in real-time and react to it.
 
- You could use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service). You can save personalized views of your reports as bookmarks and use the **Bookmarks** option to  select a saved view, update or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
+Additionally, you can use the filters on the dashboards like agent, time of day, or queue to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for. You can also save personalized views of your reports as bookmarks and use the **Bookmarks** option to  select a saved view, update or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports).
 
-Data on the report is auto-refreshed near real-time. You can use the **Pause updates** option to view and analyze real-time metrics at any particular point in time. You can go back to auto-refresh by selecting **Resume updates**. Additionally, you could use the filters on the dashboards like agent, time of day, or queue to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
+You can also use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service).
 
- The Omnichannel real-time analytics reports consist of the following:
+Data on the report is auto-refreshed near real-time. You can use the **Pause updates** option to view and analyze real-time metrics at any particular point in time. You can go back to auto-refresh by selecting **Resume updates**.
+
+The Omnichannel real-time analytics reports consist of the following:
 
 - **Summary**: This report provides an overview of your organization in near real time. This report provides KPIs across the volume of customer interactions and service levels along with the available capacity in near real time.
 
@@ -59,14 +63,21 @@ Data on the report is auto-refreshed near real-time. You can use the **Pause upd
 
 If you're unable to view the reports, contact your system administrator. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview) The real time analytics reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
 
-## Security 
+## Navigation
+
+You can view the various reports in the Customer Service workspace or Omnichannel for Customer Service app.
+
+- In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
+- In Omnichannel for Customer Service default view, select the **Omnichannel real-time analytics Dashboard** option from the dropdown list. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
+
+## Security roles and permissions
 
 As a supervisor, you can view the real-time Omnichannel analytics dashboard in Customer Service Workspace. However, your administrator must enable the required permissions for you. More information: [Provide report access to additional security roles](enable-realtime-analytics-dashboard-administrator.md#provide-report-access-to-additional-security-roles)
 
-Real-time analytics honors the security permissions defined in Dataverse. For example, if your organization has set BU level permission for the report user, then the user will only be able to see the metrics computed based on the BU level data.  
+Real-time analytics works according to the security permissions defined in Dataverse. For example, if your organization has set BU level permission for the report user, then the user will only be able to see the metrics computed based on the BU level data.  
 
 > [!NOTE]
-> If multiple users see different values in the metrics, you need to investigate the permissions across those users as this might be the reason for not seeing the same values in metrics. 
+> If multiple users see different values in the metrics, you need to investigate the permissions across those users as this might be the reason for not seeing the same values in metrics.
 
 ### See also
 
