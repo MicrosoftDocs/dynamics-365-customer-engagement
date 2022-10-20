@@ -4,7 +4,7 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
@@ -92,7 +92,49 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can create/read/write/append/delete agent script workflow ||||| Yes |
 | Can read `msdyn_macrosolutionconfiguration` ||||| Yes |
 | Can create/read/write/append/delete macro action ||||| Yes |
-|||||||
+
+## Configure permissions to access secure columns
+
+Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
+
+- Authentication settings
+- Azure Communication Services
+- Geo location providers
+- Google's Business Messages channel
+- Payment profiles for Apple Messages for Business channel
+- SMS channels through TeleSign and Twilio
+- Twitter channel
+- WeChat channel
+- WhatsApp channel
+
+The secure columns can be identified by the information icon that's present for the column.
+
+The entities and their secret attributes are as follows.
+
+| Entity | Secret attributes |
+| msdyn_authenticationsettings | msdyn_authenticationclientsecret |
+| msdyn_liveworkstreams (for SMS)  | msdyn_secureapikey  |
+| msdyn_ocapplepaies | msdyn_ocbase64merchantcertstring <br> msdyn_ocbase64merchantcertstringcontd <br> msdyn_ocmerchantcertificatepassword  |
+| msdyn_ocbotchannelregistrationsecrets | msdyn_securemsappsecret |
+| msdyn_occommunicationprovidersetting | msdyn_securesecret |
+| msdyn_oc_geolocationprovider | msdyn_secureproviderapikey |
+| msdyn_ocgooglebusinessmessagesagentaccounts  | msdyn_agentaccountclienttoken  |
+| msdyn_ocgooglebusinessmessagespartneraccounts  | msdyn_partneraccountclienttoken <br> msdyn_base64credentialfilestring <br> msdyn_base64credentialfilestringcontd  |
+| msdyn_ocsmssettingsecrets  | msdyn_secureapikey |
+| msdyn_octwitterapplication  | msdyn_securetwitterconsumersecret <br> msdyn_securetwitterconsumerkey  |
+| msdyn_octwitterhandlesecrets  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
+| msdyn_ocwechatchannelconfig | msdyn_secureapplicationsecret <br> msdyn_securetoken <br> msdyn_secureencodingaeskey   |
+| msdyn_ocwhatsappchannelaccount | msdyn_secureauthenticationtoken |
+
+**Manage permissions on secret attributes**
+
+1. In Power Platform admin center, create or update the column security profile.
+1. Provide the read, update, or create permissions to the profile on the secret attributes that are mentioned in the preceding table.
+
+**More information**
+
+- [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
+- [Overview of entities](developer/reference/entities/overview-entity-ref.md) 
 
 ### See also
 

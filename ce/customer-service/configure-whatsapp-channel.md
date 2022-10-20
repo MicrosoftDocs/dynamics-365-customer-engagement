@@ -1,7 +1,7 @@
 ---
 title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Use this topic to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service."
-ms.date: 10/14/2022
+ms.date: 10/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,8 @@ The success of social media customer service, like all other customer service, d
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, see [Integrate a Twilio sandbox account with Omnichannel for Customer Service](#integrate-a-twilio-sandbox-account-with-omnichannel-for-customer-service)
 
 - Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
+
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## WhatsApp message types and 24-hour session rule
 

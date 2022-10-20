@@ -1,7 +1,7 @@
 ---
 title: "Configure authentication settings | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 10/10/2022
+ms.date: 10/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,14 +19,15 @@ You can create authentication settings to validate a signed-in customer from a d
 For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as a shopping cart value or a privileged status.
 
 After you create an authentication settings record, you must add it to a channel instance within a workstream's channel setup to make it work. Authentication is supported for these channels:
- - Chat
- - Apple Messages for Business
+- Chat
+- Apple Messages for Business
 
 The agent will get a notification in the **Conversation summary** section whether the customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. More information: [Conversation summary](oc-customer-summary.md#conversation-summary)
 
 ## Prerequisites
 
-Make sure your organization has working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs). 
+- Make sure your organization has working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs).
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ### Create an authentication setting record for chat
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure a Google's Business Messages channel | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure a Google Business Messages channel in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 10/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -35,10 +35,7 @@ Complete the following steps before configuring Google's Business Messages chann
   
   - [Verify the agent](https://developers.google.com/business-communications/business-messages/guides/how-to/verify?method=console)
 
-After completing the prerequisites, you can add the Google's Business Messages channel for your organization by following these steps:
-
-1.	Create a Google's Business Messages channel.
-2.	Create routing rules.
+Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## Create a Google's Business Messages channel
 

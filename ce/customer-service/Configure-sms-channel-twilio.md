@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 10/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,6 +26,7 @@ Make sure that the following prerequisites are met:
     > To enable the SMS channel for Twilio in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 - A Twilio account with a phone number and subscription is available.
+- Permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ### Get Twilio account details
 
