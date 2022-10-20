@@ -17,7 +17,6 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-
 # Preview: Build segments in real-time marketing
 
 > [!IMPORTANT]
