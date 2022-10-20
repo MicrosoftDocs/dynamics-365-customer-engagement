@@ -112,6 +112,7 @@ The secure columns can be identified by the information icon that's present for 
 The entities and their secret attributes are as follows.
 
 | Entity | Secret attributes |
+|--------|-------------------|
 | msdyn_authenticationsettings | msdyn_authenticationclientsecret |
 | msdyn_liveworkstreams (for SMS)  | msdyn_secureapikey  |
 | msdyn_ocapplepaies | msdyn_ocbase64merchantcertstring <br> msdyn_ocbase64merchantcertstringcontd <br> msdyn_ocmerchantcertificatepassword  |
