@@ -1387,7 +1387,7 @@
       - name: msdyn_ocliveworkitemsentiment
         href: developer/reference/entities/msdyn_ocliveworkitemsentiment.md
       - name: msdyn_ocliveworkstreamcontextvariable
-        href: developer/reference/entities/msdyn_ocliveworkstreamcontextvariable.mdp
+        href: developer/reference/entities/msdyn_ocliveworkstreamcontextvariable.md
       - name: msdyn_oclocalizationdata
         href: developer/reference/entities/msdyn_oclocalizationdata.md
       - name: msdyn_ocoutboundconfiguration
