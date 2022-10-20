@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the Real-time summary report to cater to your organization's customer service experience better.
-ms.date: 10/18/2022
+ms.date: 10/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -40,7 +40,7 @@ By default, the report shows you KPIs for the past one day and for all channels,
 You can view the Summary dashboard in the Customer Service workspace or Omnichannel for Customer Service app. You can navigate to the Summary dashboard as follows:
 
 - In the default view, select the plus (+) icon, and then select **Omnichannel real-time analytics**. On the page that appears, select **Summary**.
--If the enhanced multisession workspace view is enabled, select the site map, and then select **Omnichannel historical analytics**. On the page that appears, select **Summary**.
+- If the enhanced multisession workspace view is enabled, select the site map, and then select **Omnichannel historical analytics**. On the page that appears, select **Summary**.
 
 ## Report details
 
