@@ -1,7 +1,7 @@
 ---
 title: "Sync data tables into the segment builder (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to sync data tables into the segment builder in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 10/18/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
