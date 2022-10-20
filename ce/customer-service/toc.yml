@@ -1387,7 +1387,7 @@
       - name: msdyn_ocliveworkitemsentiment
         href: developer/reference/entities/msdyn_ocliveworkitemsentiment.md
       - name: msdyn_ocliveworkstreamcontextvariable
-        href: developer/reference/entities/msdyn_ocliveworkstreamcontextvariable.md
+        href: developer/reference/entities/msdyn_ocliveworkstreamcontextvariable.mdp
       - name: msdyn_oclocalizationdata
         href: developer/reference/entities/msdyn_oclocalizationdata.md
       - name: msdyn_ocoutboundconfiguration
@@ -1396,6 +1396,8 @@
         href: developer/reference/entities/msdyn_ocoutboundmessage.md
       - name: msdyn_ocphonenumber
         href: developer/reference/entities/msdyn_ocphonenumber.md
+      - name: msdyn_ocphonecallengagementctx
+        href: developer/reference/entities/msdyn_ocphonecallengagementctx.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
       - name: msdyn_ocrecording
@@ -1414,6 +1416,8 @@
         href: developer/reference/entities/msdyn_ocsession.md
       - name: msdyn_ocsessioncharacteristic
         href: developer/reference/entities/msdyn_ocsessioncharacteristic.md
+      - name: msdyn_ocsessionparticipantevent
+        href: developer/reference/entities/msdyn_ocsessionparticipantevent.md
       - name: msdyn_ocsessionsentiment
         href: developer/reference/entities/msdyn_ocsessionsentiment.md
       - name: msdyn_ocsimltraining
