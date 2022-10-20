@@ -41,7 +41,7 @@ The agents insights report consists of the following metrics.
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 | Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
 Required capacity unit for current waiting conversation| |
-|||
+|
 
 The following charts are displayed in the Summary report. When you select the individual components on the chart, data gets filtered accordingly and you'll be able to view data related to the selected component.
 

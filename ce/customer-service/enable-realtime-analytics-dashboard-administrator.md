@@ -66,8 +66,6 @@ Perform the following steps to configure users with different privileges to acce
 
 You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time  analytics** page. By default, the **Summary** page is displayed.
 
-## Security permissions
-
 ### See also
 
 [Introduction to Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#introduction-to-omnichannel-real-time-analytics-dashboards-preview)
