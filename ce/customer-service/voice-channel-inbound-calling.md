@@ -13,8 +13,6 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
 You'll perform the steps mentioned in this article in the Omnichannel admin center app.

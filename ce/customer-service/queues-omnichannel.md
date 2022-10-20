@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 10/03/2022
+ms.date: 10/17/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -74,6 +74,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. In **Assignment method**, do one of the following:
    - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
    - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
+   - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for Prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
 
 1. To manage overflowing of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
@@ -114,6 +115,5 @@ Work is routed to these queues that act as a safety net in the following scenari
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](voice-channel-route-queues.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

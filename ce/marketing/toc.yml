@@ -400,7 +400,7 @@
         href: email-design.md
       - name: Add dynamic content to email messages
         href: dynamic-email-content.md
-      - name: "Preview: How to use conditional content"
+      - name: How to use conditional content
         href: conditional-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md

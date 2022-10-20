@@ -59,7 +59,7 @@ Relate other bookable resources to the crew as crew members. If not done already
 
 1. Choose the **Child Resource** and set the data range when the resource will be part of the crew.
 
-1. Choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader.
+1. Choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader. To get set as a leader, the bookable resource needs the be of type *user*.
 
 1. Select **Save & Close**.
 
