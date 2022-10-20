@@ -35,7 +35,7 @@ The Voice report gives you insights into key metrics across the voice channel. Y
 
 ## Report details
 
-The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, queue, time zone, conversation status, or direction.
+The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
 **Need screenshot**
 
@@ -52,7 +52,7 @@ The report summarizes the KPIs for the specified time period and the percentage 
 | Avg. handle time | Average time an agent spent actively with a customer on voice conversations. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
 | Service level (60 sec) | Percentage of voice conversations what were accepted by an agent within 60 seconds (after escalated by bot if applicable) |
 
-The following charts are displayed in the Voice report. You can select the individual metrics on the chart to view related data.
+The following charts are displayed in the Summary report. When you select the individual components on the chart, data gets filtered accordingly and you'll be able to view data related to the selected component.
 
 **Need screenshot**
 

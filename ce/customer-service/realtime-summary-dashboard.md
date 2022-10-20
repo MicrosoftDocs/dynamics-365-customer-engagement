@@ -37,7 +37,7 @@ By default, the report shows you KPIs for the past one day and for all channels,
 
 ## Report details
 
-The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, channels, queue, time zone, or conversation status. The report includes conversations that are only handled by agents. It also includes conversations that were escalated but not completely handled by the Power Virtual Agents bots.
+The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
 **Need screenshot**
 
@@ -54,7 +54,7 @@ The report summarizes the KPIs for the specified time period and the percentage 
 | Avg. handle time | Average time an agent spent actively with a customer across all channels. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), wrap time (if applicable), talk time (if applicable), active time. |
 | Service level (60 sec) | Percentage of conversations across all channels what were accepted by an agent within 60 seconds. Conversations escalated by the Power Virtual Agents bots are also included.|
 
-The following charts are displayed in the Summary report. You can select the individual metrics on the chart to view related data.
+The following charts are displayed in the Summary report. When you select the individual components on the chart, data gets filtered accordingly and you'll be able to view data related to the selected component.
 
 **Need screenshot**
 
@@ -62,7 +62,7 @@ The following charts are displayed in the Summary report. You can select the ind
 | ------- | ------------------ |
 | Conversations over time| Total conversations received mapped against hour. |
 | Ongoing conversations by status | Total number of conversations currently in Open, Active and Wrap-Up statuses. |
-| Agent availability status| Total number of agents in Available, Busy, Do not disturb and Appear away statuses.  |
+| Agent availability status| Total number of agents in Available, Busy, Do not disturb, and Appear away statuses.  |
 | Ongoing conversations by channel | Total number of conversations which are currently worked on by a human agent (including open conversations assigned) on each of Omnichannel channels.   |
 | Ongoing conversations by queue | Total number of conversations which are currently worked on by a human agent (including open conversations assigned) in each of Omnichannel queue. |
 | Capacity by unit |Total number of agents in **Available**, **Busy** status.  |

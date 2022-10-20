@@ -23,7 +23,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The **Ongoing Conversations** report provides information on the conversations that are handled by agents and are in the open, active, wrap-up, waiting, and closed status in your organization. This report provides a holistic view of the conversations with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. The duration in which the report data is auto refreshed is near real time.
+The **Ongoing Conversations** report provides information on the conversations that are handled by agents and are in the open, active, wrap-up, waiting, and closed status in your organization. This report provides a holistic view of the conversations with details, such as subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. The duration in which the report data is auto refreshed is near real time. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
 ## Ongoing Conversations report
 

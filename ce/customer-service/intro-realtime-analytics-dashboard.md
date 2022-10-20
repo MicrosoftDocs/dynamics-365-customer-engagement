@@ -33,22 +33,45 @@ The real-time analytics reports provide information about the health and key per
 
 ## Benefits
 
-The key capabilities of the feature include:
+As supervisors, you will have the ability to:
 
-- Ability for supervisors to monitor key operational metrics in near real-time, and to make course corrections at the right time and keep service levels high​.
+- Monitor key operational metrics in near real-time, and to make course corrections at the right time and keep service levels high​.
 
-- Ability to review the allocation of agents in near real-time and then optimize to provide top notch support and boost customer satisfaction.
+- Review the allocation of agents in near real-time and then optimize to provide top notch support and boost customer satisfaction.
 
-- Ability to improve agent staffing, effectiveness, and utilization by reviewing work distribution.
+- Improve agent staffing, effectiveness, and utilization by reviewing work distribution.
 
-- Ability to monitor ongoing conversation, track customer sentiment and intervene as required.
+- Monitor ongoing conversations, track customer sentiment, and intervene as required.
 
-- Ability to drill down as required to a specific channel, queue, or agent (and more) to gather key operational insights in real-time and react to it.
+- Drill down as required to a specific channel, queue, or agent to gather key operational insights in real-time and take necessary steps.
 
-Additionally, you can use the filters on the dashboards like agent, time of day, or queue to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for. You can also save personalized views of your reports as bookmarks and use the **Bookmarks** option to  select a saved view, update or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports).
+### Use Filters
+
+Additionally, you can use the filters on the dashboards like time, agent, channels, queue, time zone, conversation status to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
+
+The Time dropdown list includes options such as **Include open conversations**, **Last 24hrs**, and **Today**.
+
+- **Include open conversations**: Includes conversations that are in **Open** state beyond 24hrs.
+- **Last 24hrs**: Shows all conversations in the last 24hrs.
+- **Today**: Shows all conversations that started today.
+
+However, data may vary depending on the order of selection of the options.
+- If you select **Today**, and then select **Include open conversations**, the report will show data for conversations that are in **Open** state today, in the last 24hrs, as well as conversations before 24hrs as well. It will exclude **Closed** conversations in the last 24hrs.
+- If you select **24hrs**, and then select **Include open conversations**, the report will show data for conversations that are in **Open** state for the last 24hrs as well as conversations prior to last 24 hrs.
+
+> [!NOTE]
+> - The reports include conversations that were handled only by agents, as well as those that were escalated by the Power Virtual Agents bots.
+> - The reports don't include conversations that were resolved by Power Virtual Agents bots.
+
+### Use bookmarks
+
+You can also save personalized views of your reports as bookmarks and use the **Bookmarks** option to  select a saved view, update or delete a bookmark, and set a default bookmark. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports).
+
+### Edit visual display
 
 You can also use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service).
 
+### Use Pause updates
 Data on the report is auto-refreshed near real-time. You can use the **Pause updates** option to view and analyze real-time metrics at any particular point in time. You can go back to auto-refresh by selecting **Resume updates**.
 
 The Omnichannel real-time analytics reports consist of the following:

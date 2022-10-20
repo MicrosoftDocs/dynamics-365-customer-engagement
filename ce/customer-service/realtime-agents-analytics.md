@@ -28,7 +28,7 @@ The Omnichannel real time insights dashboard contains the Agents insights report
 
 ## The Agents insights report
 
-The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** filter to view agent performance across all channels.
+The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** filter to view agent performance across all channels. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)[Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
 **Need screenshot for Agent dashboard**
 
@@ -43,7 +43,7 @@ The agents insights report consists of the following metrics.
 Required capacity unit for current waiting conversation| |
 |||
 
-The following charts are displayed in the Agent report. You can select the individual metrics on the chart to view related data.
+The following charts are displayed in the Summary report. When you select the individual components on the chart, data gets filtered accordingly and you'll be able to view data related to the selected component.
 
 **Need screenshot** 
 
