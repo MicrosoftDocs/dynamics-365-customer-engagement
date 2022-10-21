@@ -1090,9 +1090,9 @@
           href: realtime-summary-dashboard.md
         - name: Voice report
           href: realtime-voice-dashboard.md
-        - name: Agent report
+        - name: Agents report
           href: realtime-agents-analytics.md
-        - name: Ongoing Conversations report
+        - name: Ongoing Conversation report
           href: realtime-ongoing.md
       - name: Omnichannel Insights
         items: 
