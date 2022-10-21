@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 10/03/2022
+ms.date: 10/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ searchScope:
 
 # Assignment methods in unified routing
 
-Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service admin center, Customer Service Hub, or Omnichannel admin center app.
+Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 
 ## Types of assignment methods
 
@@ -61,7 +61,9 @@ You can also create a custom assignment method to suit your business needs.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
   
   > [!IMPORTANT]
-  > You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
+  >
+  > - You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
+  > - The out-of-the-box assignment strategies don't consider the agent operating hours. You must write a custom assignment method by using the "is_working" operator in the rule definition.
 
 ### Assignment cycle
 
