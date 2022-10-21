@@ -1,7 +1,7 @@
 ---
 title: Voice Dashboard | Microsoft Docs
 description: Learn about the Voice dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 10/20/2022
+ms.date: 10/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,41 +29,42 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The Voice report gives you insights into key metrics across the voice channel. You will see the Voice report, only if your organization has the Voice feature configured. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
+The Voice report gives you insights into key metrics across the voice channel. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
+You will see the Voice report, only if your organization has the Voice feature configured. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
 
 **(Need screenshot of the report)**
-
-## Report details
-
-The report summarizes the KPIs for the specified time period and the percentage change over the period. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
-
-**Need screenshot**
 
 ## KPI	Description
 
 | KPI | Description |
 | ------- | ------------------ |
-| Incoming conversation  | TTotal number of voice conversations received. Conversation escalated by the Power Virtual Agents bots is also included. |
+| Incoming conversation  | Total number of voice conversations received.|
 | Conversations in queue |Total number of voice conversations in queue currently awaiting human agents   |
-| Longest wait time |Maximum wait time of voice conversations currently in open state awaiting agent .|
+| Longest wait time |Maximum wait time of voice conversations currently in Open state awaiting agent .|
 | Avg. speed to answer | Average time customers waited in the queue before connecting to an agent|
-| Abandoned rate | Total number of conversations which are closed before an agent accepted the conversation. |
-| Ongoing conversation | Total number of conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
-| Avg. handle time | Average time an agent spent actively with a customer on voice conversations. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
-| Service level (60 sec) | Percentage of voice conversations what were accepted by an agent within 60 seconds (after escalated by bot if applicable) |
+| Abandoned rate | Total number of voice conversations which are closed before an agent accepted the conversation. |
+| Ongoing conversation | Total number of voice conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
+| Avg. handle time | Average time an agent spent actively with a customer on voice conversations.|
+| Service level (60 sec) | Percentage of voice conversations what were accepted by an agent within 60 seconds (after including the conversations escalated by bot) |
 
-The following charts are displayed in the Summary report. When you select the individual components on the chart, data gets filtered accordingly and you'll be able to view data related to the selected component.
+## Interactive charts
+
+You can find different types of charts on the report, such as bar, horizontal bar, and donut chart. The visual display helps you see the changes and patterns in data, and act quickly to address the most important issues.
+
+When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
+
+The following charts are displayed in the Summary report.
 
 **Need screenshot**
 
 | Title | Description |
 | ------- | ------------------ |
-| Conversations over time| Total conversations voice received mapped against hour |
-| Ongoing conversations by status | Total number of voice conversations currently in Open, Active and Wrap-Up statuses |
-| Agent availability status| Total number of agents who are members of queues in voice workstreams, in Available, Busy, Do not disturb and Appear away statuses  |
-| Conversation time | |
-| Ongoing conversations by queue |Total number of conversations which are currently worked on by a human agent (including open conversations assigned) in each of Omnichannel queue. |
-| Capacity by profile | Total number of voice agents in **Available** or **Busy** status. |
+| Conversations over time| The bar chart shows the total voice conversations received mapped against hou.r |
+| Ongoing conversations by status | The donut chart shows the total number of voice conversations currently in Open, Active and Wrap-Up statuses. |
+| Agent availability status| The donut chart shows the total number of agents who are members of queues in voice workstreams, in Available, Busy, Do not disturb and Appear away statuses. |
+| Conversation time |The horizontal bar chart shows the average conversation time mapped by minutes. |
+| Ongoing conversations by queue |The horizontal bar chart shows the total number of conversations which are currently worked on by a human agent (including open conversations assigned) in each of Omnichannel queue.|
+| Capacity by profile | The donut chart shows the total number of voice agents in **Available** or **Busy** status.|
 
 ### See also
 
