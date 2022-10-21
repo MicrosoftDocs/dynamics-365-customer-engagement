@@ -41,7 +41,7 @@ searchScope:
   |API Version|The version of the Channel Integration Framework APIs.|
   |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
-  |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Important:** <br> To ensure that the user is able to access the channel provider, you must assign the security role that's defined at the channel provider level, to the user.|
+  |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Important:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
   
   ![Channel provider configuration.](media/channel-provider-configuration-v1.PNG "Channel provider configuration")
