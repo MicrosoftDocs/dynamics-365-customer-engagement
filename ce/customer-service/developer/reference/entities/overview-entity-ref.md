@@ -1,6 +1,6 @@
 ---
-title: "Overview for Omnichannel for Customer Service entity reference documentation | MicrosoftDocs"
-description: "Information on entities introduced as part of Omnichannel for Customer Service"
+title: "Omnichannel for Customer Service entity reference documentation | MicrosoftDocs"
+description: "This article includes reference information on entities that are added as part of Omnichannel for Customer Service."
 ms.date: 10/21/2022
 ms.topic: overview
 author: "mh-jaya"
@@ -8,9 +8,9 @@ ms.author: v-jmh
 manager: "shujoshi"
 
 ---
-# Overview
+# Omnichannel for Customer Service entity reference 
 
-Installing Omnichannel for Customer Service solution adds the following entities to your organization.
+When you install the Omnichannel for Customer Service solution, the following entities are added to your Dynamic 365 organization.
 
 | Entity name |
 |--------|
@@ -67,7 +67,6 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md)|
 |[msdyn_ocfbapplication](msdyn_ocfbapplication.md)|
 |[msdyn_ocfbpage](msdyn_ocfbpage.md)|
-|[msdyn_oc_geolocationprovider](msdyn_oc_geolocationprovider.md)|
 |[msdyn_ocgooglebusinessmessagesagentaccount](msdyn_ocgooglebusinessmessagesagentaccount.md)|
 |[msdyn_ocgooglebusinessmessagespartneraccount](msdyn_ocgooglebusinessmessagespartneraccount.md)|
 |[msdyn_oclanguage](msdyn_oclanguage.md)|
@@ -170,7 +169,7 @@ When you install Omnichannel for Customer Service, you will see some attributes 
 |-----|
 |`msdyn_capacity`|
 
-More information: <xref:"Microsoft.Dynamics.CRM.systemuser?text=SystemUser entity" />.
+More information: <xref:"Microsoft.Dynamics.CRM.systemuser?text=SystemUser entity" />
 
 ### Queue entity
 
@@ -179,13 +178,13 @@ More information: <xref:"Microsoft.Dynamics.CRM.systemuser?text=SystemUser entit
 |`msdyn_isdefaultqueue`|
 |`msdyn_priority`|
 
-More information: <xref:"Microsoft.Dynamics.CRM.queue?text=Queue entity" />.
+More information: <xref:"Microsoft.Dynamics.CRM.queue?text=Queue entity" />
 
 ## Deprecated entities
 
-See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and are no longer supported.
+See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and no longer supported.
 
-## See also
+### See also
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]  
