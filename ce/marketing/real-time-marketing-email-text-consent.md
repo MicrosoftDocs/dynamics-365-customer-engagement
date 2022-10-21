@@ -22,10 +22,13 @@ search.app:
 The real-time marketing consent center allows you to manage consent information given by your customers.
 
 > [!NOTE]
-> Real-time marketing consent is contact-point based. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
+> Real-time marketing consent is contact-point based and works for messages sent to contacts, leads, and Customer Insights profiles. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
 > [!IMPORTANT]
-> If you wish to run a real-time customer journey for **contacts** for which you have already gathered consent data in outbound marketing, you don't need to take any actions in the consent center (you are not required to select the **Load consent** button or create new consent records) **under one condition**. Consent for sending commercial emails should be stored in the **Allow bulk email** field of a contact record. Even with the consent center empty, the app will check the **Allow bulk email** field of each contact record and send a commercial email based on this data. 
+> As of Dynamics 365 Marketing Release 12.1, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing. 
+
+> [!IMPORTANT]
+> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to Allow for a Commmercial email to be sent to a contact. Only the **Allow email** field must be set to Allow to send Transactional emails. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (e.g. leads or Customer Insights profiles).
 
 Whether consent is checked before sending emails and text messages depends on the consent model that you select on the **Compliance** page. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
 
