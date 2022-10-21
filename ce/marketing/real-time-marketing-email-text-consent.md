@@ -25,10 +25,10 @@ The real-time marketing consent center allows you to manage consent information 
 > Real-time marketing consent is contact-point based and works for messages sent to contacts, leads, and Customer Insights profiles. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
 > [!IMPORTANT]
-> As of Dynamics 365 Marketing Release 12.1, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing. 
+> As of Dynamics 365 Marketing Release 12.1, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing.
 
 > [!IMPORTANT]
-> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to Allow for a Commmercial email to be sent to a contact. Only the **Allow email** field must be set to Allow to send Transactional emails. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (e.g. leads or Customer Insights profiles).
+> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to Allow for a Commercial email to be sent to a contact. Only the **Allow email** field must be set to Allow to send Transactional emails. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (e.g. leads or Customer Insights profiles).
 
 Whether consent is checked before sending emails and text messages depends on the consent model that you select on the **Compliance** page. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
 
@@ -49,9 +49,9 @@ The presence of a company address and unsubscribe link is checked when you selec
 > The app will display warnings if, for example, you occasionally delete either the default Company address or link to the default Preference page. However, it will not block you from sending such an email. Thus, you are able to replace the given Company address field with another one on your choice, or add a link to the custom Preference page if you like.
 
 If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when a customer journey is started. In the Restrictive model, messages will only be sent to customers whose email addresses were opted in.  
- 
+
 ## How consent is respected for text messages
- 
+
 In the real-time marketing, the rules for sending text messages are the same as the ones for sending emails. For sending transactional text messages, consent is not required. Sending commercial text messages requires that a mobile number opted in before it can receive a message.
 
 ## Adding consent data
@@ -99,7 +99,7 @@ To see a compact view for a single consent record or make changes to it, select 
 
 ## Audit consent records
 
-You can keep track of all consent-related changes on a per contact record basis (who made the changes and when). The **Audit history** is available under a consent record's **Related** tab. 
+You can keep track of all consent-related changes on a per contact record basis (who made the changes and when). The **Audit history** is available under a consent record's **Related** tab.
 
 > [!IMPORTANT]
 > If you restore data in customer journey orchestration, all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
