@@ -125,15 +125,22 @@ Forms can be found in section Channel of the left menu. Open the list of forms a
 
 ### Publish form
 
-**ToDo**
+Click the Publish button in the top right corner to publish your form. There are three options to publish a form:
+
+- **Embed to external page using JavaScript** - this is the most common way how to integrate the form into your own web page. You can reuse the same code snippet on multiple web pages. The form submission data includes the URL of the page where the form is embedded. There is also tracking script included to count the statistics of visitors of your page with the form embedded.
+- **Embed to external page using iframe** - the iframe has several limitations, but it is the first choice if you are restricted to use external JavaScript code on your web pages. You can reuse the same iframe code snippet on multiple web pages. Due to the nature of iframe the form submission data does not include the URL of the page where the form is embedded.
+- **Create standalone page** - this feature requires PowerApps or Power Pages license. Power Portal page will be automatically created and the form will be embedded into this page. As a result of this process you will get a public URL, which you can share to allow your visitors to visit and submit the form.
+
+Once the form is published you can still access these options by clicking Publishing options button in the top right corner. It's possible to use multiple publishing options for a single form.
 
 ### Edit live form
 
-**ToDo**
+If your form has been already published and you need to update it, click the Edit button on the top ribbon. You can continue editing your live form, all changes will be automatically published once you click the Save button. 
+> [!IMPORTANT] 
+> If you choose to create a copy of the form, you will have to publish the newly created copy.
 
 ### Unpublish form
-
-**ToDo**
+Click the Stop button to unpublish a live form. The form will be removed from the CDN, so you web page visitors will no longer be able to see it. The form status will be changed to Draft.
 
 ### Form field properties
 
@@ -164,7 +171,7 @@ The form validation process can be also launched manually.
 
 ## Security notice
 
-The security of forms is an important aspect. We take the following precautions to avoid any security risks:
+The security is an important aspect of forms. We take the following precautions to avoid any security risks:
 
 - D365 Marketing accepts form submissions only from whitelisted domains.
 - The CSRF protection for embedded forms is implemented via “correlation id” that is delivered via in-browser cross-domain message passing with origin check. We sanitize data coming from untrusted sources and our json serialization parses only known classes, so we are protected against payload injection.
