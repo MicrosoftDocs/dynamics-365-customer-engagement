@@ -48,11 +48,11 @@ The presence of a company address and unsubscribe link is checked when you selec
 > [!NOTE]
 > The app will display warnings if, for example, you occasionally delete either the default Company address or link to the default Preference page. However, it will not block you from sending such an email. Thus, you are able to replace the given Company address field with another one on your choice, or add a link to the custom Preference page if you like.
 
-If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when the email is sent. In the Restrictive model, messages will only be sent to customers whose email addresses were opted in. Transactional emails are always sent and do not have consent checked or enforced.
+If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when the email is sent. In the Restrictive model, messages will only be sent to customers whose email addresses were opted in. Transactional emails are always sent and don't have consent checked or enforced.
 
 ## How consent is respected for text messages
 
-In real-time marketing the rules for sending text messages are slightly different than the ones for sending emails. A user must always opt-in to consent to receive commercial text messages irrespective of consent enforcement model. Transactional text messages are always sent and do not have consent checked or enforced.
+ The real-time marketing rules for sending text messages are slightly different than the ones for sending emails. A user must always opt-in to consent to receive commercial text messages irrespective of consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
 
 ## Adding consent data
 
