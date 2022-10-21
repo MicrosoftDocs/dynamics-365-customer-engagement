@@ -57,7 +57,9 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_macrosession](msdyn_macrosession.md)|
 |[msdyn_macrosolutionconfiguration](msdyn_macrosolutionconfiguration.md)|
 |[msdyn_oc_geolocationprovider](msdyn_oc_geolocationprovider.md)|
+|[msdyn_ocapplepay](msdyn_ocapplepay.md)|
 |[msdyn_ocbotchannelregistration](msdyn_ocbotchannelregistration.md)|
+|[msdyn_ocbotchannelregistrationsecret](msdyn_ocbotchannelregistrationsecret.md)|
 |[msdyn_occhannelconfiguration](msdyn_occhannelconfiguration.md)|
 |[msdyn_occhannelstateconfiguration](msdyn_occhannelstateconfiguration.md)|
 |[msdyn_occommunicationprovidersetting](msdyn_occommunicationprovidersetting.md)|
@@ -65,6 +67,9 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md)|
 |[msdyn_ocfbapplication](msdyn_ocfbapplication.md)|
 |[msdyn_ocfbpage](msdyn_ocfbpage.md)|
+|[msdyn_oc_geolocationprovider](msdyn_oc_geolocationprovider.md)|
+|[msdyn_ocgooglebusinessmessagesagentaccount](msdyn_ocgooglebusinessmessagesagentaccount.md)|
+|[msdyn_ocgooglebusinessmessagespartneraccount](msdyn_ocgooglebusinessmessagespartneraccount.md)|
 |[msdyn_oclanguage](msdyn_oclanguage.md)|
 |[msdyn_oclinechannelconfig](msdyn_oclinechannelconfig.md)|
 |[msdyn_ocliveworkitem](msdyn_ocliveworkitem.md)|
@@ -92,11 +97,13 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_ocsitdimportconfig](msdyn_ocsitdimportconfig.md)|
 |[msdyn_ocsitrainingdata](msdyn_ocsitrainingdata.md)|
 |[msdyn_ocskillidentmlmodel](msdyn_ocskillidentmlmodel.md)|
+|[msdyn_ocsmssettingsecret](msdyn_ocsmssettingsecret.md)|
 |[msdyn_ocsystemmessage](msdyn_ocsystemmessage.md)|
 |[msdyn_octag](msdyn_octag.md)|
 |[msdyn_octeamschannelconfig](msdyn_octeamschannelconfig.md)|
 |[msdyn_octwitterapplication](msdyn_octwitterapplication.md)|
 |[msdyn_octwitterhandle](msdyn_octwitterhandle.md)|
+|[msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md)|
 |[msdyn_ocwechatchannelconfig](msdyn_ocwechatchannelconfig.md)|
 |[msdyn_ocwhatsappchannelaccount](msdyn_ocwhatsappchannelaccount.md)|
 |[msdyn_ocwhatsappchannelnumber](msdyn_ocwhatsappchannelnumber.md)|

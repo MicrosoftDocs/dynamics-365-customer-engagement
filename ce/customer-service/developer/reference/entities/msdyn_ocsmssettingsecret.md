@@ -1,6 +1,6 @@
 ---
-title: "msdyn_authenticationsettings table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_authenticationsettings table/entity."
+title: "msdyn_ocsmssettingsecret table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocsmssettingsecret table/entity."
 ms.date: 10/21/2022
 ms.service: "powerapps"
 ms.topic: "reference"
@@ -14,50 +14,50 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_authenticationsettings table/entity reference
+# msdyn_ocsmssettingsecret table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
-Stores the settings for user authentication
 
-**Added by**: Omnichannel – Base Solution
+
+**Added by**: Omnichannel - SMS Patch Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses(*msdyn_authenticationsettingsid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets(*msdyn_ocsmssettingsecretid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses(*msdyn_authenticationsettingsid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets(*msdyn_ocsmssettingsecretid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses(*msdyn_authenticationsettingsid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets(*msdyn_ocsmssettingsecretid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses(*msdyn_authenticationsettingsid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_authenticationsettingses(*msdyn_authenticationsettingsid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets(*msdyn_ocsmssettingsecretid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsmssettingsecrets(*msdyn_ocsmssettingsecretid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_authenticationsettingses|
-|DisplayCollectionName|Authentication Settings|
-|DisplayName|Authentication Settings|
-|EntitySetName|msdyn_authenticationsettingses|
+|CollectionSchemaName|msdyn_ocsmssettingsecrets|
+|DisplayCollectionName|SMS Setting Secrets|
+|DisplayName|SMS Setting Secret|
+|EntitySetName|msdyn_ocsmssettingsecrets|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_authenticationsettingses|
-|LogicalName|msdyn_authenticationsettings|
+|LogicalCollectionName|msdyn_ocsmssettingsecrets|
+|LogicalName|msdyn_ocsmssettingsecret|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_authenticationsettingsid|
+|PrimaryIdAttribute|msdyn_ocsmssettingsecretid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_authenticationsettings|
+|SchemaName|msdyn_ocsmssettingsecret|
 
 <a name="writable-attributes"></a>
 
@@ -66,19 +66,10 @@ Stores the settings for user authentication
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_authenticationclientid](#BKMK_msdyn_authenticationclientid)
-- [msdyn_authenticationclientsecret](#BKMK_msdyn_authenticationclientsecret)
-- [msdyn_authenticationscopes](#BKMK_msdyn_authenticationscopes)
-- [msdyn_authenticationsettingsId](#BKMK_msdyn_authenticationsettingsId)
-- [msdyn_Authenticationtype](#BKMK_msdyn_Authenticationtype)
-- [msdyn_authserviceconfigsetid](#BKMK_msdyn_authserviceconfigsetid)
-- [msdyn_authservicescopeid](#BKMK_msdyn_authservicescopeid)
-- [msdyn_decryptedtokenurl](#BKMK_msdyn_decryptedtokenurl)
-- [msdyn_endpointregion](#BKMK_msdyn_endpointregion)
-- [msdyn_JavaScriptclientfunction](#BKMK_msdyn_JavaScriptclientfunction)
+- [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocauthchanneltype](#BKMK_msdyn_ocauthchanneltype)
-- [msdyn_PublickeyURL](#BKMK_msdyn_PublickeyURL)
+- [msdyn_ocsmssettingsecretId](#BKMK_msdyn_ocsmssettingsecretId)
+- [msdyn_secureapikey](#BKMK_msdyn_secureapikey)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -105,181 +96,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_authenticationclientid"></a> msdyn_authenticationclientid
+### <a name="BKMK_msdyn_liveworkstreamid"></a> msdyn_liveworkstreamid
 
 |Property|Value|
 |--------|-----|
-|Description|Auth service Client Id|
-|DisplayName|Auth service Client ID|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description||
+|DisplayName|Live Work Stream Id|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_authenticationclientid|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_authenticationclientsecret"></a> msdyn_authenticationclientsecret
-
-|Property|Value|
-|--------|-----|
-|Description|Auth service client secret|
-|DisplayName|Auth service client secret|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_authenticationclientsecret|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_authenticationscopes"></a> msdyn_authenticationscopes
-
-|Property|Value|
-|--------|-----|
-|Description|Auth service scopes|
-|DisplayName|Auth service scopes|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_authenticationscopes|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_authenticationsettingsId"></a> msdyn_authenticationsettingsId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Authentication Settings|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_authenticationsettingsid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_Authenticationtype"></a> msdyn_Authenticationtype
-
-|Property|Value|
-|--------|-----|
-|Description|Authentication Type which will be applied to the chat|
-|DisplayName|Authentication Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_authenticationtype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_Authenticationtype Choices/Options
-
-|Value|Label|
-|-----|-----|
-|192350000|OAuth 2.0 implicit flow|
-|192350001|OAuth 2.0 code flow|
-|192350002|Gatekeeper Biometric Authentication|
-
-
-
-### <a name="BKMK_msdyn_authserviceconfigsetid"></a> msdyn_authserviceconfigsetid
-
-**Added by**: Omnichannel - Telephony Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Config Set ID for Gatekeeper authentication service|
-|DisplayName|Config Set ID for Gatekeeper authentication service|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_authserviceconfigsetid|
-|MaxLength|100|
+|LogicalName|msdyn_liveworkstreamid|
 |RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_authservicescopeid"></a> msdyn_authservicescopeid
-
-**Added by**: Omnichannel - Telephony Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Scope ID for Gatekeeper authentication service|
-|DisplayName|Scope ID for Gatekeeper authentication service|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_authservicescopeid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_decryptedtokenurl"></a> msdyn_decryptedtokenurl
-
-|Property|Value|
-|--------|-----|
-|Description|Decrypted token url to hit with Access token|
-|DisplayName|Decrypted Token URL|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_decryptedtokenurl|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_endpointregion"></a> msdyn_endpointregion
-
-|Property|Value|
-|--------|-----|
-|Description|Endpoint region for authentication setting|
-|DisplayName|Endpoint region|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_endpointregion|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_endpointregion Choices/Options
-
-|Value|Label|
-|-----|-----|
-|192440001|United States|
-|192440002|Canada|
-|192440003|United Kingdom|
-
-
-
-### <a name="BKMK_msdyn_JavaScriptclientfunction"></a> msdyn_JavaScriptclientfunction
-
-|Property|Value|
-|--------|-----|
-|Description|Javascript function which will need to return the authentication token|
-|DisplayName|JavaScript client function|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_javascriptclientfunction|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
+|Targets|msdyn_liveworkstream|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -298,41 +126,33 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ocauthchanneltype"></a> msdyn_ocauthchanneltype
+### <a name="BKMK_msdyn_ocsmssettingsecretId"></a> msdyn_ocsmssettingsecretId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|SMS Setting Secret|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_ocsmssettingsecretid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_secureapikey"></a> msdyn_secureapikey
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Channel Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocauthchanneltype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_ocauthchanneltype Choices/Options
-
-|Value|Label|
-|-----|-----|
-|192360000|Live chat|
-|192440000|Voice|
-|192450000|Apple Messages For Business|
-
-
-
-### <a name="BKMK_msdyn_PublickeyURL"></a> msdyn_PublickeyURL
-
-|Property|Value|
-|--------|-----|
-|Description|URL to the Public Key which will be used for token validation|
-|DisplayName|Public key URL|
+|DisplayName|Secure Api key|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_publickeyurl|
-|MaxLength|256|
-|RequiredLevel|ApplicationRequired|
+|LogicalName|msdyn_secureapikey|
+|MaxLength|600|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -387,7 +207,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Authentication settings|
+|Description|Status of the SMS Setting Secret|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -409,7 +229,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Authentication settings|
+|Description|Reason for the status of the SMS Setting Secret|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -477,6 +297,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -724,6 +545,22 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msdyn_liveworkstreamidName"></a> msdyn_liveworkstreamidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_liveworkstreamidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -848,4 +685,4 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_authenticationsettings?text=msdyn_authenticationsettings EntityType" />
+<xref href="Microsoft.Dynamics.CRM.msdyn_ocsmssettingsecret?text=msdyn_ocsmssettingsecret EntityType" />
