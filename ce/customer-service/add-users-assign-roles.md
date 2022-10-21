@@ -114,16 +114,16 @@ The entities and their secret attributes are as follows.
 | Entity | Secret attributes |
 |--------|-------------------|
 | msdyn_authenticationsettings | msdyn_authenticationclientsecret |
-| msdyn_liveworkstreams (for SMS)  | msdyn_secureapikey  |
-| msdyn_ocapplepaies | msdyn_ocbase64merchantcertstring <br> msdyn_ocbase64merchantcertstringcontd <br> msdyn_ocmerchantcertificatepassword  |
-| msdyn_ocbotchannelregistrationsecrets | msdyn_securemsappsecret |
+| msdyn_liveworkstream (for SMS)  | msdyn_secureapikey  |
+| msdyn_ocapplepay | msdyn_ocbase64merchantcertstring <br> msdyn_ocbase64merchantcertstringcontd <br> msdyn_ocmerchantcertificatepassword  |
+| msdyn_ocbotchannelregistrationsecret | msdyn_securemsappsecret |
 | msdyn_occommunicationprovidersetting | msdyn_securesecret |
 | msdyn_oc_geolocationprovider | msdyn_secureproviderapikey |
-| msdyn_ocgooglebusinessmessagesagentaccounts  | msdyn_agentaccountclienttoken  |
-| msdyn_ocgooglebusinessmessagespartneraccounts  | msdyn_partneraccountclienttoken <br> msdyn_base64credentialfilestring <br> msdyn_base64credentialfilestringcontd  |
-| msdyn_ocsmssettingsecrets  | msdyn_secureapikey |
+| msdyn_ocgooglebusinessmessagesagentaccount  | msdyn_agentaccountclienttoken  |
+| msdyn_ocgooglebusinessmessagespartneraccount  | msdyn_partneraccountclienttoken <br> msdyn_base64credentialfilestring <br> msdyn_base64credentialfilestringcontd  |
+| msdyn_ocsmssettingsecret  | msdyn_secureapikey |
 | msdyn_octwitterapplication  | msdyn_securetwitterconsumersecret <br> msdyn_securetwitterconsumerkey  |
-| msdyn_octwitterhandlesecrets  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
+| msdyn_octwitterhandlesecret  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
 | msdyn_ocwechatchannelconfig | msdyn_secureapplicationsecret <br> msdyn_securetoken <br> msdyn_secureencodingaeskey   |
 | msdyn_ocwhatsappchannelaccount | msdyn_secureauthenticationtoken |
 
