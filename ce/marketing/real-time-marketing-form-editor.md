@@ -28,6 +28,8 @@ A marketing form is an inbound communication channel that allows your customers 
 
 Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of entity in Dynamics 365 Marketing.
 
+The real-time marketing form editor is focused on simple form creation and publishing process allowing you to create a complex form within few minutes.
+
 ## Comparison of real-time and outbound marketing forms
 
 - The main difference is that real-time marketing form can update only one entity (typically lead or contact). This makes the form configuration and maintenance easier and allows to build properly targeted journeys.
@@ -36,9 +38,17 @@ Each marketing form is made from a collection of fields, buttons, graphical elem
 
 - Real-time marketing form can not be used in outbound marketing pages. But you can publish a form as a standalone page, which will be hosted on Power Portals.
 
+- It is no longer needed to create form page to embed your form into a web page. You can get the form embedding code snippet on one click.
+
+- Published real-time marketing forms are hosted on Content Delivery Network (CDN), which significantly reduces the form load time for the page visitor.
+
+- Real-time marketing journey orchestration: Please use "Marketing Form Submitted" trigger for journeys based on real-time marketing forms. The trigger for outbound marketing forms has been renamed to "Marketing Form Submitted (Outbound)".
+
+- It's not possible to edit outbound marketing forms in the real-time marketing form editor and vice versa.
+
 ### Form types comparison
 
-The following table summarizes types of forms currently available in real-time marketing. More types of forms will be avilable soon.
+The following table summarizes types of forms currently available in real-time marketing. More form types will be available soon.
 
 | form type in outbound marketing | form type in real-time marketing |  
 |---|---|
@@ -48,7 +58,7 @@ The following table summarizes types of forms currently available in real-time m
 | External form submission capture | N/A |
 | Refer to friend | N/A |
 
-## Create and edit marketing form
+## Create and edit a form tutorial
 
 Forms can be found in section Channel of the left menu. Open the list of forms and click New button on the top ribbon to create a new form. 
 
@@ -99,14 +109,62 @@ Forms can be found in section Channel of the left menu. Open the list of forms a
 
 1. Now it's time to preview your form and check the responsiveness. Click the Preview and test tab to open the form preview. You can select various platforms to check how the form will be rendered on mobile device or tablets.
 
+    **ToDo: image**
+
+1. Click the Publish button in the top right corner to publicly share your form. The form will be automatically saved and the [validation process](#form-validation) will start. Once the form is successfully validated you will see the following options how to publish your form. Learn more how to [publish form](#publish-form). You can now copy the JavaScript code snippet to embed the form into your web page.
+
+    **ToDo: image**
+
+1. Make sure the domain where you embedded your form is whitelisted. D365 Marketing accepts form submissions only from whitelisted domains. If the domain is not whitelisted, the form will not be rendered on your web page. Learn more about [domain authentication](real-time-marketing-domain.md).
+
+    **ToDo: image**
+
+1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the "Marketing Form Submitted" trigger, which will be executed every time your form is submitted. Learn more about [trigger-based journey](real-time-marketing-trigger-based-journey.md).
+
+## Manage forms
+
+### Publish form
+
+**ToDo**
+
+### Edit live form
+
+**ToDo**
+
+### Unpublish form
+
+**ToDo**
+
 ### Form field properties
 
 **ToDo**
 
 ### Form Settings
 
+#### How to handle duplicated records
+
 **ToDo**
 
 ### Field types
 
 **ToDo**
+
+
+### Form validation
+
+The validation process is automatically launched along with form publishing and it checks the following aspects:
+
+- Does the form include all fields linked to attributes of selected entity which are mandatory to create or update a record.
+- Is the Submit button included.
+- Are the form fields linked to an editable attribute.
+- 
+**ToDo** 
+
+The form validation process can be also launched manually.
+
+## Security notice
+
+The security of forms is an important aspect. We take the following precautions to avoid any security risks:
+
+- D365 Marketing accepts form submissions only from whitelisted domains.
+- The CSRF protection for embedded forms is implemented via “correlation id” that is delivered via in-browser cross-domain message passing with origin check. We sanitize data coming from untrusted sources and our json serialization parses only known classes, so we are protected against payload injection.
