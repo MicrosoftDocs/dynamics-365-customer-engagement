@@ -58,13 +58,15 @@ Perform the following steps to configure users with different privileges to acce
 
 1. On the **Security Roles** page, select the **Custom Entities** tab.
 
+    :::image type="content" source="media/enable-custom-entities-realtime.png" alt-text="Enbale Read permissions for custom entities":::
+
 1. Grant **Read** privileges to the following entities:
 
-   - **Omnichannel for Customer Service real-time analytics**
+   - **Omnichannel Real-time analytics**
    - **Insights**
 1. Select **Save and close**. The agent manager can now see the Omnichannel for Customer Service real-time analytics report.
 
-You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time  analytics** page. By default, the **Summary** page is displayed.
+You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time  analytics** page. By default, the **Summary** report is displayed.
 
 ### See also
 

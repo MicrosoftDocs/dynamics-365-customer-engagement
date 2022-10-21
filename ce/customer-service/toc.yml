@@ -1084,7 +1084,7 @@
           href: ongoing-conversations-dashboard.md
       - name: Real time analytics reports in Omnichannel for Customer Service
         items: 
-        - name: Introduction to Omnichannel Real time analytics reports
+        - name: Overview of Omnichannel Real time analytics reports
           href: intro-realtime-analytics-dashboard.md
         - name: Summary report
           href: realtime-summary-dashboard.md

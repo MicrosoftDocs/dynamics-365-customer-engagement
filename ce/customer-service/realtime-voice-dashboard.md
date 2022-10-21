@@ -49,11 +49,11 @@ You will see the Voice report, only if your organization has the Voice feature c
 
 ## Interactive charts
 
-You can find different types of charts on the report, such as bar, horizontal bar, and donut chart. The visual display helps you see the changes and patterns in data, and act quickly to address the most important issues.
+You can view different types of charts on the report, such as bar, horizontal bar, and donut chart. The visual display helps you see the changes and patterns in data, and act quickly to address the most important issues.
 
 When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
-The following charts are displayed in the Summary report.
+The Voice report displays the following charts.
 
 **Need screenshot**
 

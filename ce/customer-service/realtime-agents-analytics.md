@@ -24,36 +24,40 @@ ms.custom: intro-internal
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The Omnichannel real time insights dashboard contains the Agents insights report that helps provide an overview of agent performance for the last 24hrs.
-
-## The Agents insights report
-
-The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** filter to view agent performance across all channels. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)[Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
+The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)[Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
 **Need screenshot for Agent dashboard**
 
 The agents insights report consists of the following metrics.
 
-| Metric | Description |
+| Metrics | Description |
 |-------|-------|
-| Agents logged in | The number of agents who are signed in.|
+| Agents logged in | The number of agents who are currently signed in.|
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 | Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
 Required capacity unit for current waiting conversation| |
-|
+|||
 
-The following charts are displayed in the Summary report. When you select the individual components on the chart, data gets filtered accordingly and you'll be able to view data related to the selected component.
+## Interactive charts
+
+You can view interactive charts on the report, such as donut charts. The visual display helps you see the changes and patterns in data, and act quickly to address the most important issues.
+
+When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
+
+The Agent report displays the following charts.
 
 **Need screenshot** 
 
 | Title | Description |
 | ------- | ------------------ |
-| Agent availability status| Total number of agents in Available, Busy, Do not disturb and Appear away statuses |
-| Capacity by unit| Total number of agents in Available, Occupied status |
-| Session participation mode| The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |
+| Agent availability status| The donut chart shows the total number of agents in Available, Busy, Do not disturb and Appear away statuses |
+| Capacity by unit| The donut chart shows the total number of available units occupied. |
+| Session participation mode| The donut chart shows the distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |
 
-The **Agent list** table in the **Agent** report displays the following information.
+## Agent details
+
+The **Agent list** table provides you the ability to drill down agent information. It provides you key metrics on agent details.
 
 **(Need screenshot for Agent list screen)**
 
@@ -68,17 +72,9 @@ The **Agent list** table in the **Agent** report displays the following informat
 | Avg. handle time | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
-|DomainName| |
 |||
 
-
-### Agent details
-
-You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detail** option.
-
-**Need screenshot**
-
-Details about the agent are displayed as shown in the following image.
+You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link. Agent details are displayed on a new page with the following details.
 
 **(Need agent details screenshot)**
 
