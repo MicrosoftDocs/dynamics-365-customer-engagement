@@ -84,7 +84,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 > [!CAUTION]
 > We recommend that you use this feature judiciously to end agent conversations.
 
-You can forcibly end voice calls and conversations from messaging channels. After the conversation ends, its status is set to Closed.
+End voice calls and conversations that take place on the voice and messaging channels. After the conversation ends, its status is set to **Closed**.
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
