@@ -17,12 +17,12 @@ search.app:
   - D365Mktg
 ---
 
+# How to create and manage forms in real-time marketing
+
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 >
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-# How to create and manage forms in real-time marketing
 
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.
 
@@ -69,7 +69,10 @@ Forms can be found in section Channel of the left menu. Open the list of forms a
 
     You can change the duplicated record handling in [form settings](#form-settings).
 
-    **ToDo: image**
+> [!div class="mx-imgBorder"]
+> ![Image description.](media/real-time-marketing-form-audience.png “Select target audience for the form submission")
+
+
 
 1. Choose a template in the template gallery. The list of templates is pre-filtered according to the target audience selected in the previous step. You can skip the template selection to start with a blank form.
    
@@ -175,3 +178,4 @@ The security is an important aspect of forms. We take the following precautions 
 
 - D365 Marketing accepts form submissions only from whitelisted domains.
 - The CSRF protection for embedded forms is implemented via “correlation id” that is delivered via in-browser cross-domain message passing with origin check. We sanitize data coming from untrusted sources and our json serialization parses only known classes, so we are protected against payload injection.
+- We have necessary precautions in the infrastructure to minimize the impacts of a possible DDoS attack.
