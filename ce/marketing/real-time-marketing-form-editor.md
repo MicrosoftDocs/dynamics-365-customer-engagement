@@ -60,35 +60,42 @@ The following table summarizes types of forms currently available in real-time m
 
 ## Create and edit a form tutorial
 
-Forms can be found in section Channel of the left menu. Open the list of forms and click New button on the top ribbon to create a new form. 
+Forms can be found in section Channel of the left menu. Open the list of forms and click New button on the top ribbon to create a new form.
 
-1. Select target audience (entity) that will be updated by the form submission. You can select Lead or Contact entity. The target audience (entity) selection will also affect the default strategy how to handle duplicated records:
+1. **Select target audience** (entity) that will be updated by the form submission. You can select Lead or Contact entity. The target audience (entity) selection will also affect the default strategy how to handle duplicated records:
 
     - Lead - each form submission will create a new record, even if the same email address is used.
     - Contact - if a record with the same email address already exists, it will be updated. No duplicated contact will be created if the same email address is used.
 
     You can change the duplicated record handling in [form settings](#form-settings).
 
-> [!div class="mx-imgBorder"]
-> ![Image description.](media/real-time-marketing-form-audience.png “Select target audience for the form submission")
+    Enter a name of your new form and select Contact as the target audience.
 
+    > [!div class="mx-imgBorder"]
+    > ![Select target audience for the form submission.](media/real-time-marketing-form-audience.png)
 
+1. **Choose a template** in the template gallery. The list of templates is pre-filtered according to the target audience selected in the previous step. You can skip the template selection to start with a blank form. Skip the template selection by clicking on Skip button.
 
-1. Choose a template in the template gallery. The list of templates is pre-filtered according to the target audience selected in the previous step. You can skip the template selection to start with a blank form.
-   
-    **ToDo: image**
+    > [!div class="mx-imgBorder"]
+    > ![Choose a template or skip the selection.](media/real-time-marketing-form-template-gallery.png)
 
-1. Now you can add questions represented by fields to your new form. The list of fields can be found in the right pane. It includes all attributes of target audience (entity) represented as fields. If you create a new custom attribute for the entity, it will be visible in this list and you can immediately use it as a field in your form. You can use the search bar in the list of fields to filter the field you are looking for.
+1. Now you can see the list of questions represented by **form fields**. The list of available fields can be found in the right pane and it includes all attributes of the selected target audience (entity). If you create a new custom attribute for the entity, it will be visible in this list and you can immediately use it as a field in your form. You can use the search bar in the list of fields to filter the field you are looking for.
 
-    **ToDo: image**
+    Enter "name" into the search bar to find the "Last Name" field.
 
-1. Drag a field from the list and drop it on the form canvas. Once the field is added, you will see the field's properties in the right pane. The field properties can be used to set required field, configure validation and more. Learn more about [form field properties](#form-field-properties). There are multiple types of fields available with different properties, check the list of [field types](#field-types).
-    
-    **Tips**
+    > [!div class="mx-imgBorder"]
+    > ![Filter the list of fields.](media/real-time-marketing-form-last-name.png)
+
+1. **Drag a field from the list and drop it on the form canvas**. Once the field is added, you will see the field's properties in the right pane. The field properties can be used to set required field, configure validation and more. Learn more about [form field properties](#form-field-properties). There are multiple types of fields available with different properties, check the list of [field types](#field-types).
+
+    > [!div class="mx-imgBorder"]
+    > ![Field properties are opened once you add a field to the form.](media/real-time-marketing-form-properties.png)
+
+    **Useful tips**
     - You can drag & drop a field on the form canvas to change its position.
     - The field can be removed from the form by clicking on the trash icon.
-
-    **ToDo: image**
+    - You can hide a field so it isn't visible to you web page visitor by enabling the toggle Hide field.
+    - You can access the field properties again by clicking on the field in canvas.
 
 1. You can directly change the field title by clicking it on the canvas or in the right pane. The same applies for the placeholder text. It is recommended to change the text on the canvas, as you can use the rich text editor there.
 
@@ -138,11 +145,13 @@ Once the form is published you can still access these options by clicking Publis
 
 ### Edit live form
 
-If your form has been already published and you need to update it, click the Edit button on the top ribbon. You can continue editing your live form, all changes will be automatically published once you click the Save button. 
-> [!IMPORTANT] 
+If your form has been already published and you need to update it, click the Edit button on the top ribbon. You can continue editing your live form, all changes will be automatically published once you click the Save button.
+
+> [!IMPORTANT]
 > If you choose to create a copy of the form, you will have to publish the newly created copy.
 
 ### Unpublish form
+
 Click the Stop button to unpublish a live form. The form will be removed from the CDN, so you web page visitors will no longer be able to see it. The form status will be changed to Draft.
 
 ### Form field properties
@@ -159,7 +168,6 @@ Click the Stop button to unpublish a live form. The form will be removed from th
 
 **ToDo**
 
-
 ### Form validation
 
 The validation process is automatically launched along with form publishing and it checks the following aspects:
@@ -167,7 +175,7 @@ The validation process is automatically launched along with form publishing and 
 - Does the form include all fields linked to attributes of selected entity which are mandatory to create or update a record.
 - Is the Submit button included.
 - Are the form fields linked to an editable attribute.
-- 
+
 **ToDo** 
 
 The form validation process can be also launched manually.
