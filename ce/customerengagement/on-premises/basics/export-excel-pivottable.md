@@ -78,8 +78,8 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 
 8. To add a PivotTable, on the **Insert** tab, select **PivotTable**.
 
-  > [!Note]
-  > You must complete this step to insert the PivotTable.  The PivotTable is not created automatically.
+    > [!Note]
+    > You must complete this step to insert the PivotTable.  The PivotTable is not created automatically.
   
 9. Drag the fields from the PivotTable Field List to the PivotTable. For more information, see [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Help.  
   
