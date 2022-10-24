@@ -20,7 +20,7 @@ search.app:
 
 When field service technicians are onsite performing work, they need to be able to access information to help them solve the problems they encounter.
 
-With knowledge management in Dynamics 365 Field Service, relevant knowledge articles can be associated directly to work orders so that technicians can easily troubleshoot while on the go. Articles added to work orders can also be based on related incidents, products, and customer assets.
+With knowledge management in Dynamics 365 Field Service, relevant knowledge articles can be associated directly to work orders so that technicians can troubleshoot while on the go. Articles added to work orders can also be based on related incidents, products, and customer assets.
 
 Access to these articles can:
 
@@ -36,7 +36,7 @@ In this article, we'll walk through how to:
 - Create a knowledge article
 - Associate articles to assets, incident types, or products
 - Associate articles to work orders
-- View knowledge articles from the mobile app (online only)
+- View knowledge articles from the mobile app
 
 ## Prerequisites
 
@@ -106,7 +106,7 @@ You can also link specific knowledge articles that are *not* associated to incid
 
 ## View work order and knowledge articles on the mobile app
 
-After the work order is saved and scheduled to a technician, the technician can see the knowledge articles in the Field Service mobile app.  Knowledge articles are currently only available while the application is running in online mode while the device has connectivity. 
+After the work order is saved and scheduled to a technician, the technician can see the knowledge articles in the Field Service mobile app.  Knowledge articles are available while the device has internet connectivity and not accessible while the device is offline. 
 
 > [!div class="mx-imgBorder"]
 > ![Device renders of the Field Service mobile app, showing the relevant knowledge articles being viewable from a work order.](./media/mobile-2020-knowledge-mgmt.png)
