@@ -126,6 +126,7 @@ Forms can be found in section Channel of the left menu. Open the list of forms a
     **ToDo: image**
 
 1. Make sure the domain where you embedded your form is whitelisted. D365 Marketing accepts form submissions only from whitelisted domains. If the domain is not whitelisted, the form will not be rendered on your web page. Learn more about [domain authentication](real-time-marketing-domain.md).
+Power Pages domains are whitelisted by default.
 
     **ToDo: image**
 
