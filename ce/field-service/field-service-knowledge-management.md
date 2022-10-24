@@ -36,7 +36,7 @@ In this article, we'll walk through how to:
 - Create a knowledge article
 - Associate articles to assets, incident types, or products
 - Associate articles to work orders
-- View knowledge articles from the mobile app
+- View knowledge articles from the mobile app (online only)
 
 ## Prerequisites
 
@@ -106,12 +106,14 @@ You can also link specific knowledge articles that are *not* associated to incid
 
 ## View work order and knowledge articles on the mobile app
 
-After the work order is saved and scheduled to a technician, the technician can see the knowledge articles in the Field Service mobile app.
+After the work order is saved and scheduled to a technician, the technician can see the knowledge articles in the Field Service mobile app.  Knowledge articles are currently only available while the application is running in online mode while the device has connectivity. 
 
 > [!div class="mx-imgBorder"]
 > ![Device renders of the Field Service mobile app, showing the relevant knowledge articles being viewable from a work order.](./media/mobile-2020-knowledge-mgmt.png)
 
-Knowledge articles are downloaded and available offline; however, images and videos in knowledge articles will only be available when the mobile device is online. Ensure your system administrator publishes the latest [mobile offline profile](mobile-power-app-system-offline.md) so knowledge articles are downloaded to the device in the next sync.
+
+
+
 
 ## Configuration considerations
 
