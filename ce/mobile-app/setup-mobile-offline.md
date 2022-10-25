@@ -162,7 +162,7 @@ To create a profile, follow the steps below.
     
    **Custom** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
-   | |  | |
+   |&nbsp; | &nbsp; |&nbsp; |
    |---------|---------|---------|
    |equal     |     not equal     |   gt – greater than      |
    |ge – greater than or equal to     |   le – less than or equal to      |   lt – less than      |
