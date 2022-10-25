@@ -345,7 +345,7 @@ If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with
 
 ### How does a Microsoft 365 administrator exclude users?
 
-While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
+While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents).  
 
 ## Conversation intelligence
 
@@ -355,10 +355,11 @@ The data is refreshed periodically and could take up to 12 hours to reflect. We 
 
 ### How do I buy more conversation intelligence hours?
 
-With the Sales Premium license, you get 10 hours of call recording and processing capacity per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+With the Sales Premium and Sales Enterprise licenses, you get 10 hours and 3 hours of call recording and processing capacity/user/month respectively. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
 
-> [!NOTE]
-> If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
+### How many hours of conversation intelligence are available with Viva Sales?
+
+You get unlimited call recording and processing hours for calls made from the Viva Sales app on Teams.  
 
 ### Can sellers (or non-managers) use this app?
 

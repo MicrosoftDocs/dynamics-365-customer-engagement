@@ -8,11 +8,6 @@ ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 
 # First-run setup experience of Microsoft Teams for conversation intelligence
@@ -106,16 +101,20 @@ Before you can proceed to configuring Teams with conversation intelligence, you 
     > [!div class="mx-imgBorder"]
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
-8.	In the **License usage** section, you can view information about the total call recording processing hours that have been used, and how many available hours remain.
+8.	In the **License usage** section, you can view information about the total call recording and processing hours that have been used, and the hours available.  
 
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
-9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
+    > [!NOTE]
+    > To buy more conversation intelligence hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours).  
+
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
-Teams call recording with conversation intelligence is now configured and ready for use in your organization.
+Teams call recording with conversation intelligence is now configured and ready for use in your organization.  
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
