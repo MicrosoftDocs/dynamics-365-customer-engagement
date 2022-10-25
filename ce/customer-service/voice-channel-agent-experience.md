@@ -30,15 +30,14 @@ The conversation panel in the agent dashboard includes the following call contro
 
 - **Mute**: Mute your microphone so your voice isn't audible to the customer.
 - **Hold**: Put the customer on hold; the customer will hear the hold music. You can keep only one caller on hold at a time.
-- **Consult**: Consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
-- **Transfer**: View the options and transfer the call to:
-  - An agent or queue.
-  - A Teams user
-  - An external phone number
+- **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
+> [!NOTE]   
+> When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
 
+- **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. Once you transfer the call, the agent to whom the call is transferred is the primary agent and you will no longer be on the call. 
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard.
 - **End**: End the call.
-- **Show number pad**: Open the number pad so you can dial an extension number, when required.
+- **Show number pad**: Open the number pad so you can dial an extension number, when required. If you must use the dial pad to send a response while navigating an IVR , select the dial pad icon next to the external participant in the participant list.
 - **Mark number as spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
 - **Take notes**: Make note of important information or specific details from your conversation with the customer. It's in addition to the call recording and transcription that happen during the conversation.
@@ -70,6 +69,8 @@ You can add notes to help your administrator review and block numbers. After you
 ## Consult with Microsoft Teams users
 
 If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the **Teams** tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Teams user is saved in Dynamics 365 for reporting and compliance.
+> [!NOTE]
+> You can also consult or transfer Teams calls to an external phone number.
 
 Do the following steps to consult while you're on a call:
 
