@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the Real-time summary report to cater to your organization's customer service experience better.
-ms.date: 10/21/2022
+ms.date: 10/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -31,7 +31,7 @@ ms.custom:
 
 The **Summary** report is the default report that appears when you select the Omnichannel real-time analytics dashboard in Customer Service workspace. This report provides KPIs across the volume of customer interactions and service levels along with the available capacity in near real time. You can filter these areas by time, channels, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
-**Need screenshot of the Summary report**
+:::image type="content" source="media/realtime_summary.png" alt-text="Screenshot of realtime summary report":::
 
 The Summary report displays the following metrics.
 
@@ -53,8 +53,6 @@ You can view different types of charts on the report, such as bar, horizontal ba
 When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
 The Summary report displays the following charts.
-
-**Need screenshot**
 
 | Charts| Description |
 | ------- | ------------------ |

@@ -1,7 +1,7 @@
 ---
 title: "Real-time analytics ongoing Conversation report for supervisor | MicrosoftDocs"
 description: "Learn how the ongoing conversation report enables supervisors to view information about the conversations handled by agents in real time."
-ms.date: 10/21/2022
+ms.date: 10/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -27,7 +27,7 @@ The **Ongoing Conversation** report provides information on the conversations th
 
 The **Ongoing conversation** table provides information about the status of the conversations that are not yet closed. The table also displays information about the channel through which the conversation came in, with the time and date that the conversation was picked up.
 
-**Need screenshot with real data**
+:::image type="content" source="media/realtime_ongoing_conversation.png" alt-text="Screenshot of ongoing conversations summary report":::
 
 The **Ongoing conversation** report displays the following metrics about conversations.
 

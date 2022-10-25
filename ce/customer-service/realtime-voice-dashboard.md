@@ -1,7 +1,7 @@
 ---
 title: Voice Dashboard | Microsoft Docs
 description: Learn about the Voice dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 10/21/2022
+ms.date: 10/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -32,7 +32,7 @@ ms.custom:
 The Voice report gives you insights into key metrics across the voice channel. You can filter these areas by time, queue, time zone, conversation status, or direction. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 You will see the Voice report, only if your organization has the Voice feature configured. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
 
-**(Need screenshot of the report)**
+:::image type="content" source="media/realtime_voice.png" alt-text="Screenshot of the voice report":::
 
 ## KPI	Description
 
@@ -54,8 +54,6 @@ You can view different types of charts on the report, such as bar, horizontal ba
 When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
 The Voice report displays the following charts.
-
-**Need screenshot**
 
 | Title | Description |
 | ------- | ------------------ |

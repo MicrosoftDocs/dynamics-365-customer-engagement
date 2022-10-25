@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 10/21/2022
+ms.date: 10/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,7 +26,7 @@ ms.custom: intro-internal
 
 The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)[Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
-**Need screenshot for Agent dashboard**
+:::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of realtime agent insights report":::
 
 The agents insights report consists of the following metrics.
 
@@ -59,7 +59,7 @@ The Agent report displays the following charts.
 
 The **Agent list** table provides you the ability to drill down agent information. It provides you key metrics on agent details.
 
-**(Need screenshot for Agent list screen)**
+:::image type="content" source="media/realtime_agent_list-table.png" alt-text="Screenshot of agent list table":::
 
 | Agent details | Description |
 |-------|-------|
@@ -76,7 +76,7 @@ The **Agent list** table provides you the ability to drill down agent informatio
 
 You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link. Agent details are displayed on a new page with the following details.
 
-**(Need agent details screenshot)**
+:::image type="content" source="media/realtime-agent-detailed-view.png" alt-text="Drill down to agent details":::
 
 | Metrics | Description |
 |-------|-------|

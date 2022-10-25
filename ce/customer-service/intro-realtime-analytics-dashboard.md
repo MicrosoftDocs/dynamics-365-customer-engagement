@@ -1,7 +1,7 @@
 ---
 title: "Overview of Real time Omnichannel analytics dashboard| MicrosoftDocs"
 description: "Introduction to Real time Omnichannel analytics dashboard"
-ms.date: 10/21/2022
+ms.date: 10/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
