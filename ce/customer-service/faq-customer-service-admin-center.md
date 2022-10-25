@@ -12,7 +12,7 @@ manager: shujoshi
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQ) that you as an administrator might have about the Customer Service admin center app.
+This article contains the frequently asked questions (FAQ) that you as an administrator might have about the Customer Service admin center app.
 
 ### What's the difference between Customer Service admin center and Omnichannel admin center?
 
@@ -20,11 +20,11 @@ Customer Service admin center unifies all the administration settings in Custome
 
 ### Can I customize this new application?
 
-Similar to other apps, you can use the App designer to  customize the site map entries. If you have custom entities that your administrators use to manage different aspects of your business, then you can add them to the Customer Service admin center site map, so that your administrators don’t need to use a separate app. To avoid conflicts with site map entries that are available out of the box, we recommend that you create a new sub area to add your site map entries.
+Similar to other apps, you can use the App designer to  customize the site map entries. If you have custom entities to manage different aspects of your business, then you can add them to the Customer Service admin center site map to avoid using a separate app. To avoid conflicts with the out-of-the-box site map entries, we recommend that you create a new sub area to add your site map entries.
 
 ### When do you plan to deprecate the existing admin experience?
 
-Customer service admin center has been generally available since April 2022. We have announced the deprecation and subsequent end of support for Omnichannel admin center, service management experience in Customer Service Hub, and app profile manager. We recommend that you start using the Customer Service admin center app for the seamless benefits it offers. More information: [Deprecations in Customer Service](deprecations-customer-service.md#some-admin-apps-are-deprecated)
+Customer service admin center has been generally available since April 2022. We've announced the deprecation and subsequent end of support for Omnichannel admin center, service management experience in Customer Service Hub, and app profile manager. We recommend that you start using the Customer Service admin center app for the seamless benefits it offers. More information: [Deprecations in Customer Service](deprecations-customer-service.md#some-admin-apps-are-deprecated)
 
 ### How do I move from the existing admin apps to Customer Service admin center?
 
