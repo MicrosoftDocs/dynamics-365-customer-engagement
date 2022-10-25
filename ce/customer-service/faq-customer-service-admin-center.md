@@ -14,7 +14,7 @@ manager: shujoshi
 
 This topic contains the frequently asked questions (FAQ) that you as an administrator might have about the Customer Service admin center app.
 
-### What's the difference between Omnichannel admin center and Customer Service admin center?
+### What's the difference between Customer Service admin center and Omnichannel admin center?
 
 Customer Service admin center unifies all the administration settings in Customer Service Hub, Omnichannel admin center, and app profile manager. The site map is task oriented, with overview pages and feature landing pages to easily locate each capability. The user experience is consolidated and improved, and you don't need to migrate any data. Try the new app for centrally managing the features.
 
@@ -32,7 +32,7 @@ You can start using Customer Service admin center immediately if you don't have 
 
 ### Why do I see deprecated apps in the organization?
 
-The Omnichannel Administration and Omnichannel admin center apps have been deprecated and therefore are hidden by default. But the apps will be visible in Power Apps from where you can activate them if you want to.
+The Omnichannel Administration and Omnichannel admin center apps have been deprecated and therefore are hidden by default. However, the apps will be visible in Power Apps from where you can activate them if you need to.
 
 ### See also
 
