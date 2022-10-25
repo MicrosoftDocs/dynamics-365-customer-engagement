@@ -152,8 +152,8 @@ To create a profile, follow the steps below.
 
 
 
-   |Table ownership type|Available Data Download Filter options |  
-  |---------------|-----------------|  
+  |Table ownership type | Available Data Download Filter options |  
+  |---------------------|----------------------------------------|  
   |**User or Team**| <ul><li>**Download Related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other data filter** - Make only the specified rows for this table available offline and then choose from the following: </li> <ul><li> **Download user rows** - Make only your rows available offline.</li>  <li> **Download team rows** - Make your team’s rows available offline.</li> <li>**Download my business unit’s rows** - Make your business unit’s rows available offline.</lu>|  
   |**Organization**|<ul><li>**Download related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline. </li>|  
   |**Business**|<ul><li>**Download related data only** -  Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available. </li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other rows** - Make only the specified rows for this table available offline and choose from the following:</li> <ul><li> **Download my business unit’s rows** - Make your business unit’s rows available offline.</li>   |  
@@ -162,7 +162,7 @@ To create a profile, follow the steps below.
     
    **Custom** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
-   | &nbsp; | &nbsp; | &nbsp; |
+   | &nbsp;  | &nbsp;  | &nbsp; |
    |---------|---------|---------|
    |equal     |     not equal     |   gt – greater than      |
    |ge – greater than or equal to     |   le – less than or equal to      |   lt – less than      |
