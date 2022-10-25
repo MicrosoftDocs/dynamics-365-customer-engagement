@@ -1,7 +1,7 @@
 ---
 title: "Customer Service admin center FAQ | MicrosoftDocs"
 description: "FAQ pertaining to Customer Service admin center."
-ms.date: 09/30/2022
+ms.date: 10/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -29,6 +29,10 @@ Customer service admin center has been generally available since April 2022. We 
 ### How do I move from the existing admin apps to Customer Service admin center?
 
 You can start using Customer Service admin center immediately if you don't have any customizations in your existing admin apps. However, if you have any customizations, you'll need to redo them in Customer Service admin center using the App designer.
+
+### Why do I see deprecated apps in the organization?
+
+The Omnichannel Administration and Omnichannel admin center apps have been deprecated and therefore are hidden by default. But the apps will be visible in Power Apps from where you can activate them if you want to.
 
 ### See also
 
