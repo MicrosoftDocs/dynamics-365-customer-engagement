@@ -104,7 +104,7 @@ In the left pane, select **Queues**, and then complete the following steps to cr
    > [!NOTE]
    >
    >  - You can add only those users who are configured for unified routing.
-   >  - Agents must refresh their dashboard after 20 minutes of being added to a queue to be able to receive calls.
+   >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
 
    ![Configure queue for voice.](media/queue-for-voice.png "Configure queue for voice")
 
