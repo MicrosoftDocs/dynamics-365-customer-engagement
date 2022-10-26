@@ -358,11 +358,11 @@ The data is refreshed periodically and could take up to 12 hours to reflect. We 
 With the Sales Premium and Sales Enterprise licenses, you get 10 hours and 3 hours, respectively, of call recording and processing capacity per user, per month. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
 
 > [!TIP]
-> If you don't want to buy additional hours, you can use the Viva Sales app in Microsoft Teams for your customer calls and meetings. You'll get call insights and call summary right after your call in Viva Sales.  
+> If you don't want to buy additional hours, you can use the Viva Sales app in Microsoft Teams for your customer meetings. You'll get call insights and call summary right after your meeting in the Viva Sales tab.  
 
 ### How many hours of conversation intelligence are available with Viva Sales?
 
-You get unlimited call recording and processing hours for calls made from the Viva Sales app on Teams.  
+You get unlimited call recording and processing hours with Viva Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence. For more information, see [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
 
 ### Can sellers (or non-managers) use this app?
 
