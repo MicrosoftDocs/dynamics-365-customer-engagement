@@ -1,3 +1,26 @@
+---
+title: "A reference guide for Real-time marketing interactions (Dynamics 365 Marketing) | Microsoft Docs"
+description: "This article lists the managed lake data schema for real-time marketing interactions in Dynamics 365 Marketing."
+ms.date: 10/26/2022
+ms.custom: 
+  - dyn365-admin
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
+---
+# Real-time marketing interactions reference guide
+
+The table below is sorted by real-time marketing channels (email, text message, push) and includes the data tables and columns real-time marketing interactions can be found in. The table also includes a description of the type of interaction data stored. For example, the description column shows that the msdynmkt_emailaddress field lists customers' email address. You can use this schema to plug the interaction data into your own reporting tools such as Microsoft Power BI.
+
 | **Channel**   | **Table**  | **Column**   | **Description**  |
 | ------------- | ------------------------------------ | :-------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Common Column | ALL (Email, SMS, Push) | msdynmkt_journeyid | The field indicates the Id of the Journey definition.                                                                                                                                                                    |
@@ -10,7 +33,7 @@
 |               |                                      | Singal.Ingestion.Timestamp        | The field indicates the time stamp of the event ingested into the CDPA system.                                                                                                                                           |
 |               |                                      | msdynmkt_originaltimestamp        | This field indicates the time stamp of the event when channel has emitted it.                                                                                                                                            |
 | Email         | Source                               |                                   |                                                                                                                                                                                                                          |
-| Common Column | Common                               | msdynmkt_emailaddress             | The fields indicate the email address of the C2 user                                                                                                                                                                     |
+| Common Column | Common                               | msdynmkt_emailaddress             | The field indicate the email address of the C2 user                                                                                                                                                                     |
 |               |                                      | Msdynmkt_sourcesystem             | The field indicates as the record is from Outbound marketing (OBM) or real time   marketing (RTM). '1' means its OBM otherwise its RTM.                                                                                  |
 |               |                                      |                                   |                                                                                                                                                                                                                          |
 |               | msdynmkt_emailblocked                |                                   |                                                                                                                                                                                                                          |
