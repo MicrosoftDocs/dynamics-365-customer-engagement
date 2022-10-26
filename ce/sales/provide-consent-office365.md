@@ -34,9 +34,10 @@ Before you provide consent, review the following information:
 - When consent is provided, Dynamics 365 analyzes Exchange emails pertaining to the last one year to provide relationship insights and who knows whom suggestions. The analysis is done in 12 batches, with each batch containing emails from one month. Dynamics 365 can handle up to 8 million emails per batch in this process. The live data is then processed after every 24 hours.
 
 - When you withdraw consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
+- After you provide consent, all users in the tenant are automatically opted in to share their data. Users can [turn off the toggle](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications) if they don't want to share their data. If you withdraw consent later, all users will be automatically opted out.  
 
 
-## Provide consent 
+## Provide consent  
 
 1. In **Microsoft 365 admin center**, select **Settings** > **Org settings** > **Dynamics 365 Applications**.
 
