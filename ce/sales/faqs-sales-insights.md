@@ -305,13 +305,20 @@ For activities, the suggestions are displayed immediately.
 
 ## Who knows whom
 
-### Why am I not seeing some contacts in the suggestions?
+### Why am I not seeing some of my colleagues in the suggestions?
 
-The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
+There are several possibilities:
+
+- Those colleagues are not a part of your Dynamics 365 org.
+- Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
+- Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
+- Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+  
+See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
 ### How long does it take for suggestions to show up?
 
-After your Microsoft 365 admin provides consent, you'll start seeing the results with a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
+After your Microsoft 365 admin provides consent, you'll start seeing the results within a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
 ### Which colleagues show up as connections?
 
