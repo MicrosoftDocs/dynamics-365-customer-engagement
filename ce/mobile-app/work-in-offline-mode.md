@@ -3,7 +3,7 @@ title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode with the Dynamics 365 for phones and tablets app and Power Apps Mobile
 ms.custom: 
 ms.date: 12/10/2021
-ms.reviewer: kvivek
+ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -11,9 +11,9 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
+manager: tapanm-MSFT
 search.audienceType: 
   - admin
   - customizer
