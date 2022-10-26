@@ -26,7 +26,7 @@ The salient features of voicemail are as follows:
 
 - Voicemails can be recorded for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
-- Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription.
+- Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording will include voicemail only.
 - If the customer is unable to record the voicemail, an automated message is played for the customer that informs the voicemail couldn't be recorded and they should call back again.
 - The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered if the agent isn't available.
 
@@ -109,7 +109,8 @@ If the voicemail is triggered by the overflow condition of a queue, it's routed 
 - By default, the queue has no agents. Add those agents to the queue who triage voicemails.
 - The assignment method is highest capacity.
 - Voicemails left for every voice queue will be routed to the group voicemail queue.
-- For a more elaborate routing set up for voicemails, configure the required voicemail queues and route to queues rules to route to these queues.
+- For a more elaborate routing set up for voicemails, configure the required voicemail queues and route-to-queues rules to route to these queues.
+- The operating hours at the workstream level will override the queue-level overflow setup. The operating hours message at the workstream level will be played and the system will disconnect the call.
 
 ### Manage voicemail capacity
 
