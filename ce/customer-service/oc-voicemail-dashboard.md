@@ -30,7 +30,7 @@ The Voicemail (preview) dashboard provides a view of the voicemails with details
 The reports summarize the KPIs for the specified time and percentage change over a period of time. You can filter these areas by duration, queue, agent, and time zone.
 The charts display the following metrics.
 
-:::image type="content" source="media/voicemail-dasboard.png" alt-text="Screenshot shows a the voicemail dashboard":::
+:::image type="content" source="media/voicemail-dasboard.png" alt-text="Screenshot shows a the voicemail dashboard.":::
 
 | KPI | Description |
 | ------------------------ | ----------------- |
