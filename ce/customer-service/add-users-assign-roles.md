@@ -4,7 +4,7 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/21/2022
+ms.date: 10/27/2022
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
@@ -97,7 +97,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 
 Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
 
-- Authentication settings
+- Authentication settings. More information
 - Azure Communication Services
 - Geo location providers
 - Google's Business Messages channel
@@ -135,7 +135,7 @@ The entities and their secret attributes are as follows.
 **More information**
 
 - [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
-- [Overview of entities](developer/reference/entities/overview-entity-ref.md) 
+- [Overview of entities](developer/reference/entities/overview-entity-ref.md)
 
 ### See also
 
