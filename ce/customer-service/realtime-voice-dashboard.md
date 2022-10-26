@@ -1,7 +1,7 @@
 ---
 title: Voice Dashboard | Microsoft Docs
 description: Learn about the Voice dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 10/25/2022
+ms.date: 10/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -39,13 +39,13 @@ You will see the Voice report, only if your organization has the Voice feature c
 | KPI | Description |
 | ------- | ------------------ |
 | Incoming conversation  | Total number of voice conversations received.|
-| Conversations in queue |Total number of voice conversations in queue currently awaiting human agents   |
-| Longest wait time |Maximum wait time of voice conversations currently in Open state awaiting agent .|
-| Avg. speed to answer | Average time customers waited in the queue before connecting to an agent|
+| Conversations in queue |Total number of voice conversations in queue currently awaiting agents. |
+| Longest wait time |Maximum wait time of voice conversations currently in Open state awaiting agent.|
+| Avg. speed to answer | Average time customers waited in the queue before connecting to an agent.|
 | Abandoned rate | Total number of voice conversations which are closed before an agent accepted the conversation. |
-| Ongoing conversation | Total number of voice conversations which are currently worked on by an human agent. This includes all open conversations which are assigned to an agent. |
+| Ongoing conversation | Total number of voice conversations which are currently worked on by an agent. This includes all open conversations which are assigned to an agent. |
 | Avg. handle time | Average time an agent spent actively with a customer on voice conversations.|
-| Service level (60 sec) | Percentage of voice conversations what were accepted by an agent within 60 seconds (after including the conversations escalated by bot) |
+| Service level (60 sec) | Percentage of voice conversations that were accepted by an agent within 60 seconds (after including the conversations escalated by bot, if applicable). |
 
 ## Interactive charts
 
@@ -57,12 +57,12 @@ The Voice report displays the following charts.
 
 | Title | Description |
 | ------- | ------------------ |
-| Conversations over time| The bar chart shows the total voice conversations received mapped against hou.r |
+| Conversations over time| The bar chart shows the total voice conversations received mapped against hour. |
 | Ongoing conversations by status | The donut chart shows the total number of voice conversations currently in Open, Active and Wrap-Up statuses. |
 | Agent availability status| The donut chart shows the total number of agents who are members of queues in voice workstreams, in Available, Busy, Do not disturb and Appear away statuses. |
 | Conversation time |The horizontal bar chart shows the average conversation time mapped by minutes. |
-| Ongoing conversations by queue |The horizontal bar chart shows the total number of conversations which are currently worked on by a human agent (including open conversations assigned) in each of Omnichannel queue.|
-| Capacity by profile | The donut chart shows the total number of voice agents in **Available** or **Busy** status.|
+| Ongoing conversations by queue |The horizontal bar chart shows the total number of conversations which are currently worked on by an agent (including open conversations assigned) in each of Omnichannel queue.|
+| Capacity by profile | The donut chart shows the total number of voice agents in Available or Occupied status.|
 
 ### See also
 

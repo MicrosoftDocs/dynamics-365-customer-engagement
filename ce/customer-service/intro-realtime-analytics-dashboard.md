@@ -1,7 +1,7 @@
 ---
 title: "Overview of Real time Omnichannel analytics dashboard| MicrosoftDocs"
 description: "Introduction to Real time Omnichannel analytics dashboard"
-ms.date: 10/25/2022
+ms.date: 10/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -83,13 +83,13 @@ Additionally, you can use the filters on the dashboards like time, agent, channe
 
 The Time dropdown list includes options such as **Include open conversations**, **Last 24hrs**, and **Today**.
 
-- **Include open conversations**: Includes conversations that are in **Open** state beyond 24hrs.
+- **Include open conversations**: Includes all conversations that started in the last 24hrs and all open conversations that started in the last 3 days.
 - **Last 24hrs**: Shows all conversations that started in the last 24hrs.
 - **Today**: Shows all conversations that started today in the selected time zone.
 
 However, data may vary depending on the order of selection of the options.
-- If you select **Today**, and then select **Include open conversations**, the report will show data for conversations that are in **Open** state and all the conversations that started since 12AM on the selected time zone.
-- If you select **24hrs**, and then select **Include open conversations**, the report will show data for conversations that started in the last 24hrs as well as **Open** conversations prior to last 24 hrs.
+- If you select **Today**, and then select **Include open conversations**, the report will show data for conversations that are currently in **Open** state. Additionally, it will show all conversations that started in the last 24hrs and all open conversations that started in the last 3 days.
+- If you select **24hrs**, and then select **Include open conversations**, the report will show data for conversations that started in the last 24hrs. Additionally, it will show all conversations that started in the last 24hrs and all open conversations that started in the last 3 days.
 
 > [!NOTE]
 > - The reports include conversations that were handled only by agents, as well as those that were escalated by the Power Virtual Agents bots.

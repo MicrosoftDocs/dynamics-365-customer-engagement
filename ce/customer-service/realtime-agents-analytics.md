@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 10/25/2022
+ms.date: 10/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -35,8 +35,8 @@ The agents insights report consists of the following metrics.
 | Agents logged in | The number of agents who are currently signed in.|
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
-| Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), Wrap time (if applicable) and talk time (if applicable), active time. |
-Required capacity unit for current waiting conversation| |
+| Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes Active time, Hold time (if applicable), Wrap time (if applicable) and Talk time (if applicable). |
+Required capacity unit for current waiting conversation| Total capacity required to handle all conversations currently waiting to be assigned to an agent. |
 |||
 
 ## Interactive charts
@@ -51,9 +51,9 @@ The Agent report displays the following charts.
 
 | Title | Description |
 | ------- | ------------------ |
-| Agent availability status| The donut chart shows the total number of agents in Available, Busy, Do not disturb and Appear away statuses |
-| Capacity by unit| The donut chart shows the total number of available units occupied. |
-| Session participation mode| The donut chart shows the distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |
+| Agent availability status| The donut chart shows the total number of agents in each of the applicable statuses. The statuses could be Available, Offline, Do not disturb, Busy, or any of the configured custom statuses.|
+| Capacity by unit| The donut chart shows the total number of agents in Available or Occupied status. |
+| Session participation mode| The donut chart shows the distribution of the sessions across various participation types. Primary indicates agents who have sessions assigned to them, Consult indicates agents who are engaged in a consulting session, and Monitor indicates an ongoing Supervisor's monitor session. |
 
 ## Agent details
 
@@ -65,13 +65,14 @@ The **Agent list** table provides you the ability to drill down agent informatio
 |-------|-------|
 | Agent | A list of the agent names for the queue. |
 | Status | The current presence of the agent: **Available**, **Offline**, **Do not disturb**, or **Busy**. |
-| Status since | Time since the status was set  |
+| Status since | Time since the status was set.  |
 | Active sessions | The number of conversations that are active.|
-| Wrap-up sessions | The total number of conversations in the wrap-up stage. |
+| Wrap-up sessions | The total number of conversations in the Wrap-up stage. |
 | Closed | The number of conversations that are closed. |
-| Avg. handle time | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
+| Avg. handle time | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in.|
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
+|Domain name| The user ID of the agent.|
 |||
 
 You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link. Agent details are displayed on a new page with the following details.
@@ -80,23 +81,23 @@ You can also drill down to view specific insights about the performance of indiv
 
 | Metrics | Description |
 |-------|-------|
-| Status | The agent's current presence : **Available**, **Offline**, **Do not disturb**, or **Busy**. |
-| Units available | The current available capacity. Available capacity can be displayed as negative due to supervisor assigns. |
+| Status | The current status of an agent which could be Available, Offline, Do not disturb, or Busy. |
+| Units available | The current available capacity. Available capacity can be displayed as negative due to supervisor assignments. |
 | Units occupied |  |
 | Profiles available |  |
 | Profiles occupied |  |
-| Engaged Sessions | The number of sessions presented to an agent and accepted by an agent  |
+| Engaged Sessions | The number of sessions presented to an agent and accepted by an agent.  |
 | Transfer rate  | The percentage of conversations that were transferred by the agent to another agent/queue. |
-| Session rejection rate  | The percentage of sessions presented to an agent but rejected by the agent |
-|Session time out rate | The percentage of sessions presented to an agent but ended before the agent responded  |
-| Average session handle time  | The average handle time per session is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. More information: Average handle time.  |
+| Session rejection rate  | The percentage of sessions presented to an agent but rejected by the agent. |
+|Session time out rate | The percentage of sessions presented to an agent but ended before the agent responded. |
+| Average session handle time  | The average handle time per session is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. |
 
 **Conversations**
 
 | Metrics | Description |
 |-------|-------|
-|Subject  | Conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. More information: Automatically identify customers. |
-|Handle time  | Time from the session start to session end  |
+|Subject  | Conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. |
+|Handle time  | Time from the session start to session end.  |
 | Channel| The channel that the conversation was created from.  |
 | Queue | The queue that the conversation is currently part of.  |
 | Status | The current conversation status.  |
@@ -107,11 +108,11 @@ You can also drill down to view specific insights about the performance of indiv
 
 | Metrics | Description |
 |-------|-------|
-| Name | Agent name|
-| Presence status | Presence status set |
-| Start time | Time when the presence status was set  |
-| End time | Time when the presence status was changed  |
-| Created on | Time the status change entry was created   |
+| Name | Agent name.|
+| Presence status | Presence status set. |
+| Start time | Time when the presence status was set.  |
+| End time | Time when the presence status was changed.  |
+| Created on | Time the status change entry was created .  |
 
 ### See also
 
