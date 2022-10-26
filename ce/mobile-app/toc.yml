@@ -12,8 +12,6 @@
   items:
   - name: Configure mobile offline
     href: setup-mobile-offline.md
-  - name: Mobile offline capabilities and limitations
-    href: mobile-offline-capabilities.md
 - name: Install the mobile app
   items:
   - name: Install Dynamics 365 for phones and tablets
