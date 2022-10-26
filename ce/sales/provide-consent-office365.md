@@ -50,10 +50,15 @@ Before you provide consent, review the following information:
 1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their Exchange data. For example, opt out groups such as C-suite, M&A, finance, and so on.
     :::image type="content" source="media/admin-opt-out.PNG" alt-text="A screenshot of the opt out textbox to provide security IDs":::
 
-    > [!NOTE]
-    > Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+1. Save the changes.
+    The user opt-in is automatically turned on for users who meet the following criteria:
+    - They are a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
+    - They are not a part of the security group that the Office 365 admin has [opted out](provide-consent-office365.md).
 
-1. Save the changes.  
+    > [!NOTE]
+    > If users don't want to share their data, they can opt out. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+
+     
 
 ### See also
 
