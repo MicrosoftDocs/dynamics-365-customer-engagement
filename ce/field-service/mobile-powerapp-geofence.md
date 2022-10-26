@@ -65,13 +65,13 @@ Go to **Settings** > **Processes** and **Activate** the following processes. The
 
 - ```DeleteGeofenceWhenBookingIsCompletedOrCanceled```
 - ```GenerateGeofenceWhenBookingIsCreated```
-- ```Update Resource Location from Resco Audit```
+- ```Update Geofence instance Coordinates```
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings, showing a list of processes.](./media/mobile-2020-geofence-processes.png)
 
-If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows.
+If you have **Enhanced Background Processing** (Preview) set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows. With Enhanced Background Processing (Preview) with Power Automate Flows, the Processes are not required to be active.
 
 1. Go to https://make.powerapps.com/ and select your environment.
 2. Go to **Solutions** > **Geofencing for Field Service**.
@@ -83,8 +83,6 @@ If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the geofencing for Field Service solution.](./media/mobile-2020-geofence-flows.png)
 
-> [!Note]
-> If you choose to use enhanced background process Power Automate flows instead of processes, you don't need to deactivate the Processes.
 
 ## Step 3. Configure geofencing settings
 
