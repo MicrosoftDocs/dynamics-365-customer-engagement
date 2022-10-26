@@ -78,7 +78,7 @@ The phone number is associated with the workstream.
 
 ## Acquire a phone number
 
-Perform the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
+Do the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
 
 ## Create queues for voice channels
 
@@ -110,17 +110,17 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ### Configure call overflow for the voice queue
 
-With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Manage overflow](manage-overflow.md)
+With call overflow, you can reduce the wait time for customer calls by setting options for voice queues. More information: [Manage overflow](manage-overflow.md)
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md)
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they're listed. The agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md)
 
-For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
+For a simple and quick voice call routing, you don't need to set up any rules for unified routing. By default, all the incoming voice calls will be routed to the "default voice queue" and will be assigned to the agents with the round robin assignment method.
 
 ## Configure routing rules for the voice workstream
 
-Navigate to the workstream for which you have configured the voice channel and perform the following steps:
+Go to the workstream for which you've configured the voice channel and do the following steps:
 
 1. In the **Routing rules** area, in the **Route to queues** option, select **Create ruleset**.
 
