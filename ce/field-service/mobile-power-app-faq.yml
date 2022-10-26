@@ -220,7 +220,7 @@ sections:
        answer: |
         For more information, see [details on security and encryption](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 
-     - question: How can I Wave 2 2022 enhancements for command bar and form tabs for my Field Service Mobile application?
+     - question: How do I enable Wave 2 2022 enhancements for command bar and form tabs for my Field Service Mobile application?
        answer: |
           As part of Wave 2 2022, the command bar for Field Service mobile has changed in the following ways:
           - Command bar on Tablets has moved to the top of the view.
