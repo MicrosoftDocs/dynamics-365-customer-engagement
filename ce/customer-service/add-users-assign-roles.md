@@ -109,7 +109,7 @@ Administrator users will need column-level permissions on secure columns when th
 
 The secure columns can be identified by the information icon that's present for the column.
 
-The entities and their secret attributes are as follows.
+The entities and their secret attributes are as follows. For more information on the entities and their attributes, see [Overview of entities](developer/reference/entities/overview-entity-ref.md).
 
 | Entity | Secret attributes |
 |--------|-------------------|
@@ -129,13 +129,8 @@ The entities and their secret attributes are as follows.
 
 **Manage permissions on secret attributes**
 
-1. In Power Platform admin center, create or update the column security profile.
-1. Provide the read, update, or create permissions to the profile on the secret attributes that are mentioned in the preceding table.
-
-**More information**
-
-- [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
-- [Overview of entities](developer/reference/entities/overview-entity-ref.md)
+1. In Power Platform admin center, create or update the column security profile. More information: [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
+1. Provide the read, update, or create permissions to the security profile on the columns that correspond to the secret attributes mentioned in the preceding table.
 
 ### See also
 
