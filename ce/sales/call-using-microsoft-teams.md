@@ -1,7 +1,7 @@
 ---
 title: "Make and receive Teams calls in Dynamics 365"
-description: "Make and receive calls through Microsoft Teams through the dialer, a record, or a work item in Dynamics 365 Sales."
-ms.date: 09/13/2022
+description: "Make and receive Teams calls in Dynamics 365 through the dialer, a record, or a work item."
+ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Make and receive Teams calls in Dynamics 365 
+# Make and receive Teams calls in Dynamics 365  
 
 Microsoft Teams dialer helps you to be more productive and get work done effectively by calling customers directly from within the Dynamics 365 Sales Hub app. You can make and receive calls through the Teams dialer.
 
@@ -29,14 +29,14 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 
 When you sign in to your organization, you can view the **Calls** dialer pane on the right side of the page.
 
-Select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) in the upper-right corner of the page to open the **Calls** and view the dial pad. 
+Select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) in the upper-right corner of the page to open the **Calls** and view the dial pad.  
 
 > [!div class="mx-imgBorder"]
-> ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")     
+> ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")  
 
 ## Make calls with Teams  
 
-You can use Microsoft Teams to call a customer directly from the dialer, a record, or a work item. 
+You can use Microsoft Teams to call a customer directly from the dialer, a record, or a work item in Dynamics 365.  
 
 >[!NOTE]
 >Verify that a valid phone number is associated with the Dynamics 365 records or work item.  
@@ -91,11 +91,12 @@ You can receive calls in Dynamics 365 Sales. When a call is received, a notifica
 > [!div class="mx-imgBorder"]
 > ![Call receiving notification in Teams.](media/teams-dialer-receive-call-notification.png "Call receiving notification in Teams")  
 
-The caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is a lead and has the mobile number +1 123 456 7890 associated with his record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed; you can select the name in the notification to open the record. 
+The caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is a lead and has the mobile number +1 123 456 7890 associated with his record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed; you can select the name in the notification to open the record.  
 
 > [!NOTE]
 >- If a phone number is associated with more than one record, the notification will display up to 3 records and will indicate more records exist with this phone number. Select the appropriate record.
 >- If you receive a call while you're on another call, the inbound call notification will provide an option to either end the current call and accept the incoming call, or to reject the incoming call and continue with the current call.
+>- Currently, Dynamics 365 doesn't support incoming calls through the Teams calling queue. If your organization has set up calling queues in Teams, the notification for calls coming from the queue will appear and the calls will ring in Dynamics 365 but the audio won't work. Ensure to attend such calls in Teams.  
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. 
 
