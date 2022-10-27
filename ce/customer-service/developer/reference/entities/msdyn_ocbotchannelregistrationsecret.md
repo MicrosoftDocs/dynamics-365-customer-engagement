@@ -1,23 +1,13 @@
 ---
-title: "msdyn_ocbotchannelregistrationsecret table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocbotchannelregistrationsecret table/entity."
-ms.date: 10/21/2022
-ms.service: "powerapps"
+title: "msdyn_ocbotchannelregistrationsecret Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocbotchannelregistrationsecret entity."
+ms.date: 10/27/2022
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
-search.audienceType: 
-  - developer
-search.app: 
-  - PowerApps
-  - D365CE
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
-# msdyn_ocbotchannelregistrationsecret table/entity reference
-
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
+# msdyn_ocbotchannelregistrationsecret Entity Reference
 
 
 **Added by**: Omnichannel – Base Solution
@@ -683,6 +673,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_ocbotchannelregistrationsecret?text=msdyn_ocbotchannelregistrationsecret EntityType" />
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

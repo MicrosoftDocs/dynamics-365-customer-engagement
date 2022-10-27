@@ -1,24 +1,15 @@
 ---
-title: "msdyn_occommunicationprovidersetting table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+title: "msdyn_occommunicationprovidersetting Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occommunicationprovidersetting table/entity."
-ms.date: 10/21/2022
-ms.service: "powerapps"
+ms.date: 10/27/2022
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
-search.audienceType: 
-  - developer
-search.app: 
-  - PowerApps
-  - D365CE
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
-# msdyn_occommunicationprovidersetting table/entity reference
+# msdyn_occommunicationprovidersetting Entity Reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
-
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 **Added by**: Omnichannel Shared CommunicationBase Solution
 
@@ -777,6 +768,8 @@ Same as msdyn_ocbotchannelregistration table [msdyn_msdyn_occommunicationprovide
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_occommunicationprovidersetting?text=msdyn_occommunicationprovidersetting EntityType" />
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
