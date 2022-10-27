@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Improve seller coaching and sales potential with conversation intelligence 
+# Improve seller coaching and sales potential with conversation intelligence
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 
@@ -21,7 +21,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
-## How can I use conversation intelligence
+## How can I use conversation intelligence?
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Ub4r]
 
