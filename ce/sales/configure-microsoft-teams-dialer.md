@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
 description: "How to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 09/13/2022
+ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,6 +31,9 @@ As an administrator, you must configure Microsoft Teams dialer for sellers to us
 1.	[Review the prerequisites](#review-the-prerequisites).
 2.	[Configure the dialer](#configure-the-dialer).
 
+> [!IMPORTANT]
+> Currently, Dynamics 365 doesn't support incoming calls through the Teams calling queue. If your organization has set up calling queues in Teams, the notification for calls coming from the queue will appear and the calls will ring in Dynamics 365 but the audio won't work. Sellers should ensure to attend such calls in Teams.  
+
 ## Review the prerequisites
 
 Ensure that you meet the following requirements before you configure Microsoft Teams dialer in the Sales Hub app:  
@@ -47,6 +50,7 @@ Ensure that you meet the following requirements before you configure Microsoft T
 
     >[!NOTE]
     >When you enable Microsoft Teams dialer, other telephony systems that are connected to the Dynamics 365 app through Dynamics 365 Channel Integration Framework will stop working for users to whom Teams dialer is enabled. As an administrator, you can deactivate or delete the phone system in the Channel Integration Framework app.
+ 
 
 
 ## Configure the dialer
