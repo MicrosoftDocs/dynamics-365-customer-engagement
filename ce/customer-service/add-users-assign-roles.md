@@ -97,15 +97,15 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 
 Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
 
-- Authentication settings. More information
-- Azure Communication Services
-- Geo location providers
-- Google's Business Messages channel
-- Payment profiles for Apple Messages for Business channel
-- SMS channels through TeleSign and Twilio
-- Twitter channel
-- WeChat channel
-- WhatsApp channel
+- [Authentication settings](create-chat-auth-settings.md)
+- [Azure Communication Services](voice-channel-manage-phone-numbers.md)
+- [Geographical location providers](geo-location-provider.md)
+- [Google's Business Messages channel](configure-google-business-messages-channel.md)
+- [Payment profiles for Apple Messages for Business channel](configure-payment-profiles.md)
+- SMS channels through [TeleSign](configure-sms-channel.md) and [Twilio](Configure-sms-channel-twilio.md)
+- [Twitter channel](configure-twitter-channel.md)
+- [WeChat channel](configure-wechat-channel.md)
+- [WhatsApp channel](configure-whatsapp-channel.md)
 
 The secure columns can be identified by the information icon that's present for the column.
 

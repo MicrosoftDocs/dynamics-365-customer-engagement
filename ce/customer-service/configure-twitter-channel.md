@@ -1,7 +1,7 @@
 ---
 title: "Configure a Twitter Direct Message channel | MicrosoftDocs"
 description: "Use this topic to get instructions to configure a Twitter Direct Message channel in Omnichannel for Customer Service."
-ms.date: 10/21/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
