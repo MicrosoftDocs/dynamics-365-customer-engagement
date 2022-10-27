@@ -1,6 +1,6 @@
 ---
 title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
-description: "How to configure Microsoft Teams dialer in Dynamics 365 Sales."
+description: "Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales."
 ms.date: 09/13/2022
 ms.topic: article
 author: lavanyakr01
@@ -24,9 +24,9 @@ Microsoft Teams dialer helps sellers make Teams calls to customers directly from
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-## How to configure the dialer
+## How to configure the dialer?
 
-As an administrator, you must configure Microsoft Teams dialer for sellers to use. Perform the following steps:
+As an administrator, you must configure Microsoft Teams dialer for sellers and perform the following steps:
 
 1.	[Review the prerequisites](#review-the-prerequisites).
 2.	[Configure the dialer](#configure-the-dialer).
