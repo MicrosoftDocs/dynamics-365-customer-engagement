@@ -1,14 +1,14 @@
 ---
-title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
+title: "Supported cloud locations, languages, and locale codes for voice channel | MicrosoftDocs"
 description: "Use this article to know about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2022
+ms.date: 10/26/2022
 ms.topic: article
 ---
 
-# Supported cloud locations, languages, and locale codes
+# Supported cloud locations, languages, and locale codes for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -32,7 +32,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 |North America (crm.dynamics.com) |November 2021  | November 2021|
 |Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
 |Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
-|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
+|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |September 2022 |
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 |Government Community Cloud (GCC) High|To be announced |To be announced|
@@ -43,21 +43,19 @@ If you need your data to stay within a country or region, see the following tabl
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
-|Canada **<sup>1, 2</sup>** |August 2022 | To be announced  |
+|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 14, 2022 |
+|Canada **<sup>1, 2</sup>** |August 2022 | November 30, 2022  |
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>1, 2</sup>** | October 2022 | To be announced|
-|India **<sup>1, 2</sup>** | October 2022 | To be announced  |
+|Switzerland **<sup>1, 2</sup>** | To be announced | To be announced|
+|India **<sup>1, 2</sup>** | To be announced | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
-|Brazil | To be announced | To be announced|
 |South Africa | To be announced | To be announced|
 |China | To be announced | To be announced|
 |Norway | To be announced | To be announced|
 |Korea | To be announced | To be announced|
 |Singapore|To be announced | To be announced|
-
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.<br>
