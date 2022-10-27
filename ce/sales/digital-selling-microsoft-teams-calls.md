@@ -60,7 +60,7 @@ When you set up Microsoft Teams calls with conversation intelligence with the Dy
 
     - In the **Enable for** section, select one of the following options to provide permissions to users to record calls:
         - **All security roles**: Select this option to allow call recording by all the security roles in your organization.
-        - **Specific security roles**: Select this option to allow call recording only by specify security roles.
+        - **Specific security roles**: Select this option to allow call recording only by specific security roles.
     
     > [!TIP]
     > - To implement the call recording capability in your entire organization, select **All security roles**.
@@ -100,9 +100,9 @@ If you're using conversation intelligence with your Sales Enterprise license, yo
     
   - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
     
-  - **Usage this month**: Displays the breakdown of usage by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+  - **Usage this month**:Displays the usage breakdown by sellers with access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
     
-  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those who didn't.
+  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those sellers who didn't.
 
     :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
