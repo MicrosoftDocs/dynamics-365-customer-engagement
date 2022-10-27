@@ -232,7 +232,7 @@
         href: real-time-marketing-push-notifications.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
-        - name: Custom channels
+      - name: Custom channels
         href: real-time-marketing-create-custom-channels.md
       - name: "Preview: Use brand profiles in real-time marketing email"
         href: brand-profiles-email.md
