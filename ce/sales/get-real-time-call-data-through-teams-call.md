@@ -12,7 +12,7 @@ ms.custom:
 
 # Get real-time call data through Teams calls
 
-Conversation intelligence with Teams calls gets you real-time analysis of call data, including  overview, summary, transcription, insights, and action items. To use this feature, an administrator must configure Microsoft Teams in your organization. More information: [First-run setup experience for conversation intelligence in sales app](fre-setup-ci-sales-app.md) 
+Conversation intelligence with Teams calls gives you real-time call data analysis that includes overview, summary, transcription, insights, and action items. To use this feature, an administrator must configure Microsoft Teams in your organization. More information: [First-run setup experience for conversation intelligence in sales app](fre-setup-ci-sales-app.md) 
 
 ## License and role requirements
 | Requirement type | You must have |
