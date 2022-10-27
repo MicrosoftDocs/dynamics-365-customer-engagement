@@ -41,7 +41,7 @@ The **Ongoing conversation** report displays the following metrics about convers
 | Wait time| Time taken for the agent to connect with customer.  |
 | Handle time |  Time spent by an agent with the customer.|
 | Sentiment | Current sentiment of the conversation.|
-|||
+|
 
 ### See also
 

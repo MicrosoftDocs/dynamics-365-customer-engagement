@@ -37,7 +37,7 @@ The agents insights report consists of the following metrics.
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 | Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes Active time, Hold time (if applicable), Wrap time (if applicable) and Talk time (if applicable). |
 Required capacity unit for current waiting conversation| Total capacity required to handle all conversations currently waiting to be assigned to an agent. |
-|||
+|
 
 ## Interactive charts
 
@@ -73,7 +73,7 @@ The **Agent list** table provides you the ability to drill down agent informatio
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 |Domain name| The user ID of the agent.|
-|||
+|
 
 You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link. Agent details are displayed on a new page with the following details.
 
