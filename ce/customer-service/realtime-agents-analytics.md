@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 10/26/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,7 +24,7 @@ ms.custom: intro-internal
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)[Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
+The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
 :::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of realtime agent insights report":::
 
@@ -37,7 +37,7 @@ The agents insights report consists of the following metrics.
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 | Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes Active time, Hold time (if applicable), Wrap time (if applicable) and Talk time (if applicable). |
 Required capacity unit for current waiting conversation| Total capacity required to handle all conversations currently waiting to be assigned to an agent. |
-|
+
 
 ## Interactive charts
 
@@ -73,7 +73,6 @@ The **Agent list** table provides you the ability to drill down agent informatio
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 |Domain name| The user ID of the agent.|
-|
 
 You can also drill down to view specific insights about the performance of individual agents by selecting the agent name and then the **Detailed view** link. Agent details are displayed on a new page with the following details.
 
