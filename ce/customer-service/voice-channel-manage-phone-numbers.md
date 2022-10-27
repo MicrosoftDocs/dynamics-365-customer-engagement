@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 10/03/2022
+ms.date: 10/27/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -23,8 +23,9 @@ You can also bring your own phone number via Azure direct routing. More informat
   - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
   - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers)
   - [Country or region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability)
-- [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
+- [Deploy the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
 - [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 > [!IMPORTANT]
 > You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
@@ -59,7 +60,7 @@ You'll see a list of all available phone numbers together with their carrier nam
    > [!div class="mx-imgBorder"]
    > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
-If you don't have any phone numbers set up for your business, see Acquire new phone numbers to learn how you can purchase new numbers.
+If you don't have any phone numbers set up for your business, see **Acquire new phone numbers** to learn how you can purchase new numbers.
 
 ## Acquire new phone numbers
 
