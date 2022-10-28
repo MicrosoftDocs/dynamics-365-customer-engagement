@@ -1022,6 +1022,8 @@
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
         href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Configure Omnichannel real-time analytics
+        href: enable-realtime-analytics-dashboard-administrator.md 
     - name: Supervisor experience
       items: 
       - name: Historical analytics reports in Customer Service
@@ -1080,6 +1082,18 @@
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+      - name: Real-time analytics reports in Omnichannel for Customer Service
+        items: 
+        - name: Overview of Omnichannel real-time analytics reports
+          href: intro-realtime-analytics-dashboard.md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
+        - name: Agents report
+          href: realtime-agents-analytics.md
+        - name: Ongoing Conversation report
+          href: realtime-ongoing.md
       - name: Omnichannel Insights
         items: 
         - name: Introduction to Omnichannel Insights
