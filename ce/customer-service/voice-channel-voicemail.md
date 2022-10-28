@@ -45,7 +45,7 @@ You can redirect the caller to leave a voicemail for the agent when an incoming 
 - Is received during the after hours of the call center operations
 - Exceeds the estimated wait time
 
-For information on how to configure the conditions and actions, see [Manage overflow of work items in queues](manage-overflow.md).
+For information on how to configure the conditions and actions, go to [Manage overflow of work items in queues](manage-overflow.md).
 
 You can also configure overflow override in the route-to-queue rule of a workstream.
 
@@ -65,9 +65,9 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
 
 1. In Customer Service admin center, in the sitemap, select **Workspaces** under **Agent experience**.
 
-1. Select **Manage** for **Agent experience profiles**, and select the profile that you want to edit.
+1. Select **Manage** for **Agent experience profiles** and select the profile that you want to edit.
 
-1. Edit the inbox, and enable it.
+1. Edit the inbox and enable it.
 
 1. Select **Add**.
 

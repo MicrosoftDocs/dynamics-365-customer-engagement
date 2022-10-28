@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -30,9 +30,13 @@ The tasks to add SMS support for TeleSign are as follows:
 > - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.
 > - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](oc-conversation-state.md)
 
+## Prerequisite
+
+Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+
 ## Enable SMS channel in your Dynamics 365 organization
 
-You can enable the SMS channel from the Dynamics 365 Administration Center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
 > [!NOTE]
 > The SMS channel is available only if you have an active subscription of Dynamics 365 for Customer Service Digital Messaging.

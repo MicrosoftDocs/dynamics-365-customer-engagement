@@ -1354,8 +1354,12 @@
         href: developer/reference/entities/msdyn_macrosolutionconfiguration.md
       - name: msdyn_oc_geolocationprovider
         href: developer/reference/entities/msdyn_oc_geolocationprovider.md
+      - name: msdyn_ocapplepay  
+        href: developer/reference/entities/msdyn_ocapplepay.md
       - name: msdyn_ocbotchannelregistration
         href: developer/reference/entities/msdyn_ocbotchannelregistration.md
+      - name: msdyn_ocbotchannelregistrationsecret
+        href: developer/reference/entities/msdyn_ocbotchannelregistrationsecret.md
       - name: msdyn_occhannelconfiguration
         href: developer/reference/entities/msdyn_occhannelconfiguration.md
       - name: msdyn_occhannelstateconfiguration
@@ -1370,6 +1374,10 @@
         href: developer/reference/entities/msdyn_ocfbapplication.md
       - name: msdyn_ocfbpage
         href: developer/reference/entities/msdyn_ocfbpage.md
+      - name: msdyn_ocgooglebusinessmessagesagentaccount
+        href: developer/reference/entities/msdyn_ocgooglebusinessmessagesagentaccount.md
+      - name: msdyn_ocgooglebusinessmessagespartneraccount
+        href: developer/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md  
       - name: msdyn_oclanguage
         href: developer/reference/entities/msdyn_oclanguage.md
       - name: msdyn_oclinechannelconfig
@@ -1434,6 +1442,8 @@
         href: developer/reference/entities/msdyn_octwitterapplication.md
       - name: msdyn_octwitterhandle
         href: developer/reference/entities/msdyn_octwitterhandle.md
+      - name: msdyn_octwitterhandlesecret
+        href: developer/reference/entities/msdyn_octwitterhandlesecret.md
       - name: msdyn_ocwechatchannelconfig
         href: developer/reference/entities/msdyn_ocwechatchannelconfig.md
       - name: msdyn_ocwhatsappchannelaccount
