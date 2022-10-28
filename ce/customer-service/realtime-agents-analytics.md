@@ -1,12 +1,12 @@
 ---
 title: "Omnichannel real-time analytics agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the real-time agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 manager: shujoshi
-feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+feedback_product_url: https: //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom: intro-internal
 ---
 
@@ -26,28 +26,25 @@ ms.custom: intro-internal
 
 The **Agents** report consists of metrics that provide an overview of agent performance. Supervisors can select the **All** filter to view agent performance across all channels or select a particular channel to view channel-wise agent performance. You can also filter areas by time, queue, time zone, or conversation status. More information: [Overview of Omnichannel Real-time analytics dashboards (preview)](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboards-preview)
 
-:::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of realtime agent insights report":::
+:::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of real-time agent insights report":::
 
 The agents insights report consists of the following metrics.
 
 | Metrics | Description |
 |-------|-------|
 | Agents logged in | The number of agents who are currently signed in.|
-| Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
+| Session rejection rate | The percentage of sessions rejected by the agents, out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
-| Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes Active time, Hold time (if applicable), Wrap time (if applicable) and Talk time (if applicable). |
+| Avg. session handle time| Average time an agent spent actively with a customer. Avg. handle time is derived by aggregating active session time across a conversation. This includes Active time, Hold time (if applicable), Wrap time (if applicable), and Talk time (if applicable). |
 Required capacity unit for current waiting conversation| Total capacity required to handle all conversations currently waiting to be assigned to an agent. |
-
 
 ## Interactive charts
 
 You can view interactive charts on the report, such as donut charts. The visual display helps you see the changes and patterns in data, and act quickly to address the most important issues.
 
-When you select a component on the chart, data gets filtered accordingly and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
+When you select a component on the chart, data gets filtered accordingly, and you'll be able to view data related only to the selected component. For example, if you select the **Busy** piece in the **Agent availability status** chart, the dashboard will refresh and you’ll see only the agents who are currently in the **Busy** state.
 
 The Agent report displays the following charts.
-
-**Need screenshot** 
 
 | Title | Description |
 | ------- | ------------------ |
@@ -57,20 +54,20 @@ The Agent report displays the following charts.
 
 ## Agent details
 
-The **Agent list** table provides you the ability to drill down agent information. It provides you key metrics on agent details.
+The **Agent list** table provides you with the ability to drill down agent information. It provides you with key metrics on agent details.
 
 :::image type="content" source="media/realtime_agent_list-table.png" alt-text="Screenshot of agent list table":::
 
 | Agent details | Description |
 |-------|-------|
 | Agent | A list of the agent names for the queue. |
-| Status | The current presence of the agent: **Available**, **Offline**, **Do not disturb**, or **Busy**. |
+| Status | The current presence of the agent: Available, Offline, Do not disturb, or Busy. |
 | Status since | Time since the status was set.  |
 | Active sessions | The number of conversations that are active.|
 | Wrap-up sessions | The total number of conversations in the Wrap-up stage. |
 | Closed | The number of conversations that are closed. |
-| Avg. handle time | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in.|
-| Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
+| Avg. handle time | The average of an individual agent's handle time (in minutes) for all closed conversations that the agent is involved in.|
+| Session rejection rate | The percentage of sessions rejected by the agents, out of the total sessions assigned to them. |
 | Session timeout rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 |Domain name| The user ID of the agent.|
 
@@ -80,28 +77,28 @@ You can also drill down to view specific insights about the performance of indiv
 
 | Metrics | Description |
 |-------|-------|
-| Status | The current status of an agent which could be Available, Offline, Do not disturb, or Busy. |
-| Units available | The current available capacity. Available capacity can be displayed as negative due to supervisor assignments. |
-| Units occupied |  |
-| Profiles available |  |
-| Profiles occupied |  |
+| Status | The current status of the agent. These can be: Available, Offline, Do not disturb, or Busy; or any other custom presence states set by your organization.  |
+| Units available | The current available agent capacity units. Available capacity can be displayed as negative due to supervisor assignments. |
+| Units occupied | The agent capacity units currently utilized. |
+| Profiles available | The current capacity profiles available. |
+| Profiles occupied | The current capacity profiles utilized. |
 | Engaged Sessions | The number of sessions presented to an agent and accepted by an agent.  |
-| Transfer rate  | The percentage of conversations that were transferred by the agent to another agent/queue. |
+| Transfer rate  | The percentage of conversations that were transferred by the agent to another agent or queue. |
 | Session rejection rate  | The percentage of sessions presented to an agent but rejected by the agent. |
-|Session time out rate | The percentage of sessions presented to an agent but ended before the agent responded. |
-| Average session handle time  | The average handle time per session is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. |
+| Session time out rate | The percentage of sessions presented to an agent but ended before the agent responded. |
+| Average session handle time  | The average handle time per session is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration an agent spent on the session when it's in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. |
 
 **Conversations**
 
 | Metrics | Description |
 |-------|-------|
-|Subject  | Conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. |
-|Handle time  | Time from the session start to session end.  |
+| Subject  | Conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. |
+| Handle time  | Time from the session start to session end.  |
 | Channel| The channel that the conversation was created from.  |
 | Queue | The queue that the conversation is currently part of.  |
 | Status | The current conversation status.  |
-| Sentiment | The current sentiment.  |
-|Created on| The conversation creation time. |
+| Sentiment | Current sentiment of the conversation. It could be one of the following sentiments: Very positive, Positive, Slightly positive, Neutral, Slightly negative, or Negative.  |
+| Created on| The conversation creation time. |
 
 **Agent presence history**
 

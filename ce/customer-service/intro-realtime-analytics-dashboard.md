@@ -1,12 +1,12 @@
 ---
 title: "Overview of Real time Omnichannel analytics dashboard| MicrosoftDocs"
 description: "Introduction to Real time Omnichannel analytics dashboard"
-ms.date: 10/27/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 manager: shujoshi
-feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+feedback_product_url: https: //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom: intro-internal
 ---
 
@@ -27,32 +27,32 @@ ms.custom: intro-internal
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-In the digital contact center world, supervisors need to react to events like increase in the volume of incoming customer interactions, longer call lengths and agent absenteeism by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Having visibility into the overall support performance through real-time reporting empowers them to monitor key operational metrics, make course corrections at the right time and keep service levels high.
+In the digital contact center world, supervisors need to react to events like an increase in the volume of incoming customer interactions, longer call lengths and agent absenteeism by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Having visibility into the overall support performance through real-time reporting empowers them to monitor key operational metrics, make course corrections at the right time, and keep service levels high.
 
 The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization, that reflect the current situation in the contact center as supervisors oversee agents handling customer conversations coming through multiple channels.
 
 ## Benefits
 
-As supervisors, you will have the ability to:
+As supervisors, you'll have the ability to:
 
-- Monitor key operational metrics in near real-time, and to make course corrections at the right time and keep service levels high​.
+- Monitor key operational metrics in near real-time, and to make course corrections at the right time, and keep service levels high​.
 
 - Review the allocation of agents in near real-time and then optimize to provide top notch support and boost customer satisfaction.
 
 - Improve agent staffing, effectiveness, and utilization by reviewing work distribution.
 
-- Monitor ongoing conversations, track customer sentiment, and intervene as required.
+- Monitor ongoing conversations, track customer sentiment, and intervene, as required.
 
 - Drill down as required to a specific channel, queue, or agent to gather key operational insights in real-time and take necessary steps.
 
 ## Security roles and permissions
 
-Real-time analytics works according to the security permissions defined in Dataverse. For example, if your organization has set business-unit level permission for you, then you'll be able to see the metrics computed based only on the business-unit level data.
+Real-time analytics work according to the security permissions defined in Dataverse. For example, if your organization has set business-unit level permission for you, then you'll be able to see the metrics computed based only on the business-unit level data.
 
 As a supervisor, you can view the real-time Omnichannel analytics dashboard in Customer Service Workspace. However, your administrator must enable the required permissions for you. More information: [Provide report access to additional security roles](enable-realtime-analytics-dashboard-administrator.md#provide-report-access-to-additional-security-roles)
 
 > [!NOTE]
-> If multiple users see different values in the metrics, you need to investigate the permissions across those users as this might be the reason for not seeing the same values in metrics.
+> If multiple users see different values in the metrics, you need to investigate the permissions for those users as this might be the reason for not seeing the same values in metrics.
 
 ## Navigation
 
@@ -77,9 +77,9 @@ If you're unable to view the reports, contact your system administrator. More in
 
 ## Report features
 
-### Use Filters
+### Use filters
 
-Additionally, you can use the filters on the dashboards like time, agent, channels, queue, time zone, conversation status to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
+Additionally, you can use the filters on the dashboards like time, agent, channels, queue, time zone, and conversation status to drill down KPIs across the dashboard. You can adjust the filters based on insights you are looking for.
 
 The **Time** dropdown list includes options such as **Include open conversations**, **Last 24hrs**, and **Today**.
 

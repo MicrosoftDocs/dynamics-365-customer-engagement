@@ -1,7 +1,7 @@
 ---
 title: "Configure real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure realtime analytics for Omnichannel in Dynamics 365 Customer Service."
-ms.date: 10/26/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -41,14 +41,14 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
 1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
 1. In the **Additional options** section, select the **Add real-time analytics for Omnichannel voice** option.
-You will see the above option, only if your organization has the Voice feature configured.
+    This option will only be available, if your organization has the Voice feature configured.
 
     :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 
 ## Provide report access to additional security roles
 Perform the following steps to configure users with different privileges to access reports beyond the default ones.
 
-1. On the Power Platform admin center, go to **Environments** and select the required Dynamics 365 environment.
+1. From the Power Platform admin center, go to **Environments** and select the required Dynamics 365 environment.
 
 1. In the **Access** section, under **Security roles**, select **See all**.
 
@@ -58,7 +58,7 @@ Perform the following steps to configure users with different privileges to acce
 
 1. On the **Security Roles** page, select the **Custom Entities** tab.
 
-    :::image type="content" source="media/enable-custom-entities-realtime.png" alt-text="Enbale Read permissions for custom entities":::
+    :::image type="content" source="media/enable-custom-entities-realtime.png" alt-text="Enable read permissions for custom entities":::
 
 1. Grant **Read** privileges to the following entities:
 
@@ -66,7 +66,7 @@ Perform the following steps to configure users with different privileges to acce
    - **Insights**
 1. Select **Save and close**. The agent manager can now see the Omnichannel for Customer Service real-time analytics report.
 
-You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time  analytics** page. By default, the **Summary** report is displayed.
+You can view the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time  analytics** page. By default, the **Summary** report is displayed.
 
 ### See also
 

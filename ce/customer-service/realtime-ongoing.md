@@ -39,8 +39,8 @@ The **Ongoing conversation** report displays the following metrics about convers
 | Queue | Queue in which the conversation landed. |
 | Channel |  Channel from which the conversation landed. |
 | Wait time| Time taken for the agent to connect with customer.  |
-| Handle time |  Time spent by an agent with the customer.|
-| Sentiment | Current sentiment of the conversation.|
+| Handle time |  Time the agent spent actively with a customer across all channels. This includes Hold time (if applicable), Wrap time (if applicable), Talk time (if applicable), or Active time. |
+| Sentiment | Current sentiment of the conversation. It could be one of the following sentiments: Very positive, Positive, Slightly positive, Neutral, Slightly negative, or Negative. |
 
 ### See also
 
