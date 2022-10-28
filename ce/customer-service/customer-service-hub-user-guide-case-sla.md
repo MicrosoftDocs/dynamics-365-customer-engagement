@@ -88,7 +88,7 @@ To learn more about adding a timer control to an SLA-enabled entity, see [Add a 
 
 ## View active duration and elapsed time for SLA KPI Instances
 
-Tracking the time (in business hours) taken by SLA KPI Instances to reach their terminal status will help you evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
+Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic. This will help you take decisions about resourcing and efficiency.
 
 The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
 
