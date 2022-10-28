@@ -24,7 +24,7 @@ To create a new custom channel, you need to begin by installing the correspondin
 
 There are two ways to install a custom channel app: 
 
-1. Manually create and install the package. Learn how here.
+1. Manually create and install the package. [Learn how here](real-time-marketing-extend-outreach-custom-channels).
 2. Install the package through AppSource if the app is listed by your service provider.
 
 ## Create a new custom channel
