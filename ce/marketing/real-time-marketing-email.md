@@ -80,7 +80,7 @@ The **Link to** dropdown allows the following options for Team check-ins and cal
     - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.
 
-#### 2. Feature-rich text links
+#### 2. QR codes
 
 **Link to QR codes** 
 
