@@ -35,7 +35,7 @@ The real-time marketing email editor has a new assist edit control to bind perso
 
 1. Create a placeholder by adding a text field and then selecting the **Personalization** button ![Personalization button.](media/real-time-marketing-personalization.png "Personalization button") in the toolbar.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, a **Trigger**, or **Compliance**.
-1. After choosing the data source, you can search for the specific attribute or trigger you are looking for.
+1. After choosing the data source, you can search for the specific attribute or trigger you're looking for.
 1. Add a **Label** to quickly identify your dynamic text in the message content.
 1. Personalized dynamic text is highlighted in the content designer.
 1. You can see and edit all your dynamic text in the **Personalize** tab in the **Toolbox**.
@@ -54,10 +54,11 @@ Learn more about the [Asset library](real-time-marketing-asset-library.md)
 
 ### Link to documents and videos stored in the asset library
 
+#### 1. Feature-rich text links
 Add feature-rich links to emails by directly linking to documents stored in the asset library. To link to a document or video:
 
-1. Add a button or image to a real-time marketing email.
-1. In the button or image editing pane, select the **Link to** dropdown then select **File download**.
+1. Add a text, button, or image to a real-time marketing email.
+1. In the button or image editing pane or in the text link dialog, select the **Link to** dropdown then select **File download**.
 1. To link to a document in the image library, select **Choose a file** then select **Browse library** and choose your file.
 1. Alternatively, you can upload a new file to link to by selecting **Upload to library**.
 
@@ -66,7 +67,7 @@ Add feature-rich links to emails by directly linking to documents stored in the 
 
 ### Link to surveys, events, marketing pages, Microsoft Teams events, or calendar items
 
-Using images or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
+Using text, images, or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create text, button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
@@ -78,3 +79,18 @@ The **Link to** dropdown allows the following options for Team check-ins and cal
     - **Only the event**: The iCalendar file will contain only the event the contact has registered for.
     - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.
+
+#### 2. Feature-rich text links
+
+**Link to QR codes** 
+
+You can increase customer engagement and promote your business using QR codes for events or coupons. Your customers can then access your marketing event website with a single scan! QR codes work by scanning the code with a mobile device that is equipped with a camera and QR code reader application. Once the QR code is scanned, it's translated into actionable information such as a webpage or event check-in.
+
+To add a QR code that link to your event website:
+1.	Add a **QR code** element to a marketing email
+2.	Resize and readjust the QR code if needed
+3.	In the QR code editing pane, select the **Link to** dropdown and then **Event**
+4.	Select your event in the event field
+
+> [!div class="mx-imgBorder"]
+> ![add QR code](media/real-time-marketing-add-QR-code.png "add QR code")
