@@ -10,7 +10,7 @@ feedback_product_url: https: //experience.dynamics.com/ideas/categories/list/?ca
 ms.custom: intro-internal
 ---
 
-# View and understand the Agents report in Omnichannel real time analytics (preview)
+# View and understand the Agents report in Omnichannel real-time analytics (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -50,11 +50,11 @@ The Agent report displays the following charts.
 | ------- | ------------------ |
 | Agent availability status| The donut chart shows the total number of agents in each of the applicable statuses. The statuses could be Available, Offline, Do not disturb, Busy, or any of the configured custom statuses.|
 | Capacity by unit| The donut chart shows the total number of agents in Available or Occupied status. |
-| Session participation mode| The donut chart shows the distribution of the sessions across various participation types. Primary indicates agents who have sessions assigned to them, Consult indicates agents who are engaged in a consulting session, and Monitor indicates an ongoing Supervisor's monitor session. |
+| Session participation mode| The donut chart shows the distribution of the sessions across various participation types. Primary indicates agents who have sessions assigned to them, Consult indicates agents who are engaged in a consulting session, and Monitor indicates an ongoing supervisor's monitor session. |
 
 ## Agent details
 
-The **Agent list** table provides you with the ability to drill down agent information. It provides you with key metrics on agent details.
+The **Agent list** table provides you with the ability to drill down to key metrics on agent details. It includes the following information.
 
 :::image type="content" source="media/realtime_agent_list-table.png" alt-text="Screenshot of agent list table":::
 
@@ -77,7 +77,7 @@ You can also drill down to view specific insights about the performance of indiv
 
 | Metrics | Description |
 |-------|-------|
-| Status | The current status of the agent. These can be: Available, Offline, Do not disturb, or Busy; or any other custom presence states set by your organization.  |
+| Status | The current status of an agent. These could be Available, Offline, Do not disturb, or Busy; or any other custom presence states set by your organization.  |
 | Units available | The current available agent capacity units. Available capacity can be displayed as negative due to supervisor assignments. |
 | Units occupied | The agent capacity units currently utilized. |
 | Profiles available | The current capacity profiles available. |
@@ -92,8 +92,8 @@ You can also drill down to view specific insights about the performance of indiv
 
 | Metrics | Description |
 |-------|-------|
-| Subject  | Conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. More information: [Identify customers automatically](record-identification-rule.md#identify-customers-automatically)|
-| Handle time  | Time from the session start to session end.  |
+| Subject  | The conversation subject. For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label Visitor. More information: [Identify customers automatically](record-identification-rule.md#identify-customers-automatically)|
+| Handle time  | The time from the session start to the session end.  |
 | Channel| The channel that the conversation was created from.  |
 | Queue | The queue that the conversation is currently part of.  |
 | Status | The current conversation status.  |
@@ -104,22 +104,22 @@ You can also drill down to view specific insights about the performance of indiv
 
 | Metrics | Description |
 |-------|-------|
-| Name | Agent name.|
-| Presence status | Presence status set. |
-| Start time | Time when the presence status was set.  |
-| End time | Time when the presence status was changed.  |
-| Created on | Time the status change entry was created .  |
+| Name | The agent name.|
+| Presence status | The presence status set. |
+| Start time | The time when the presence status was set.  |
+| End time | The time when the presence status was changed.  |
+| Created on | The time the status change entry was created.  |
 
 ### See also
 
 [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview)
 
-[Overview of Omnichannel Real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
+[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
 
-[View and understand the Summary report in Omnichannel real time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
+[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
 
-[View and understand the Voice report in Omnichannel real time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)
+[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)
 
-[View and understand the Ongoing Conversation report in Omnichannel real time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
+[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
