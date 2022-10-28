@@ -332,6 +332,8 @@
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
+      - name: Extend your outreach with custom channels
+      href: real-time-marketing-extend-outreach-custom-channels
   - name: Outbound marketing
     items: 
     - name: Outbound marketing user guide overview
