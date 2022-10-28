@@ -100,7 +100,7 @@ If you're using conversation intelligence with your Sales Enterprise license, yo
     
   - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
     
-  - **Usage this month**:Displays the usage breakdown by sellers with access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+  - **Usage this month**:Displays the usage breakdown by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
     
   - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those sellers who didn't.
 
