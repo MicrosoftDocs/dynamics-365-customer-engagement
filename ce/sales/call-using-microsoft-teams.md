@@ -96,7 +96,7 @@ The caller name is automatically displayed when the phone number is associated w
 > [!NOTE]
 >- If a phone number is associated with more than one record, the notification will display up to 3 records and will indicate more records exist with this phone number. Select the appropriate record.
 >- If you receive a call while you're on another call, the inbound call notification will provide an option to either end the current call and accept the incoming call, or to reject the incoming call and continue with the current call.
->- Currently, Dynamics 365 doesn't support incoming calls through the Teams calling queue. If your organization has set up calling queues in Teams, the notification for calls coming from the queue will appear and the calls will ring in Dynamics 365 but the audio won't work. Ensure to attend such calls in Teams.  
+>- Currently, Dynamics 365 doesn't support incoming calls from Teams call queues. Contact your administrator if you're receiving calls from call queues in Dynamics 365.  
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. 
 

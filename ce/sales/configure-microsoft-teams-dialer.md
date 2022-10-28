@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 09/13/2022
+ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,8 +31,6 @@ As an administrator, you must configure Microsoft Teams dialer for sellers and p
 1.	[Review the prerequisites](#review-the-prerequisites).
 2.	[Configure the dialer](#configure-the-dialer).
 
-> [!IMPORTANT]
-> Currently, Dynamics 365 doesn't support incoming calls through the Teams calling queue. If your organization has set up calling queues in Teams, the notification for calls coming from the queue will appear and the calls will ring in Dynamics 365 but the audio won't work. Sellers should ensure to attend such calls in Teams.  
 
 ## Review the prerequisites
 
@@ -67,6 +65,9 @@ Ensure that you meet the following requirements before you configure Microsoft T
     By default, the following options are turned on:
     - **Answer incoming calls in Dynamics 365**
         Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
+
+        > [!IMPORTANT]
+        > Currently, Dynamics 365 doesn't support incoming calls from Teams call queues. If your organization has set up call queues, turn off the **Answer incoming calls in Dynamics 365** option.  
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
  

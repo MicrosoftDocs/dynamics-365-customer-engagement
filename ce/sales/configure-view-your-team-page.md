@@ -1,7 +1,7 @@
 ---
 title: "Configure and view your team page in conversation intelligence app"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
-ms.date: 09/30/2022
+ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,7 +10,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Configure and view team page 
+# Configure and view team page  
 
 Configure and view your team page with information on levels of hierarchy, top performers, and delete seller data.
 
@@ -94,7 +94,7 @@ For example, Robert Kline is a sales enablement manager who doesn't have access 
 
 1. [Open your team settings page](#open-your-team-settings-page).
 
-1. In the **View as different user** section, select **Add user**.
+1. In the **View as different user (preview)** section, select **Add user**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")
