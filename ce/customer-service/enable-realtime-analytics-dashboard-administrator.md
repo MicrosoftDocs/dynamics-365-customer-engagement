@@ -1,6 +1,6 @@
 ---
 title: "Configure real-time analytics for supervisors | MicrosoftDocs"
-description: "Learn how to configure realtime analytics for Omnichannel in Dynamics 365 Customer Service."
+description: "Learn how to configure real-time analytics for Omnichannel in Dynamics 365 Customer Service."
 ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
