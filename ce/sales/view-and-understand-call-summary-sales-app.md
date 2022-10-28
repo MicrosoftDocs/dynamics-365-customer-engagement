@@ -103,7 +103,7 @@ Further, you can share the saved summary with the stakeholders through an email.
     > [!div class="mx-imgBorder"]
     > ![Select the copy to clipboard option to copy summary notes](media/ci-summary-call-summary-copy-summary-notes-sales-app.png "Select the copy to clipboard option to copy summary notes")
 
-2.	Open your email and paste the copied summary in the following format:
+2.	Open your email and paste the copied summary. The summary is pasted in the following format:
     -	**Subject**: Specifies the subject of the call. For example, Gym membership.
     -	**Participants**: Lists the players connected during the call.  
     -	**Call date and time**: Specifies the date and time of the call.   
