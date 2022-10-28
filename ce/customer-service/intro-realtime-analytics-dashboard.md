@@ -83,8 +83,8 @@ You can use the filters on the dashboards like time, agent, channels, queue, tim
 
 The **Time** dropdown list includes options such as **Include open conversations**, **Last 24hrs**, and **Today**.
 
-- **Include open conversations**: Shows all conversations that started in the last 24hrs as well as those that started in the last three days and are still open.
-- **Last 24hrs**: Shows all conversations that started in the last 24hrs.
+- **Include open conversations**: Shows all conversations that started in the last 24 hours, as well as those that started in the last three days and are still open.
+- **Last 24hrs**: Shows all conversations that started in the last 24 hours.
 - **Today**: Shows all conversations that started today in the selected time zone.
 
 > [!NOTE]
