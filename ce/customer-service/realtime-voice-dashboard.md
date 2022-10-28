@@ -1,7 +1,7 @@
 ---
 title: Voice Dashboard | Microsoft Docs
 description: Learn about the Voice dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 10/26/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -58,9 +58,9 @@ The Voice report displays the following charts.
 | Title | Description |
 | ------- | ------------------ |
 | Conversations over time| The bar chart shows the total voice conversations received mapped against hour. |
-| Ongoing conversations by status | The donut chart shows the total number of voice conversations currently in Open, Active and Wrap-Up statuses. |
-| Agent availability status| The donut chart shows the total number of agents who are members of queues in voice workstreams, in Available, Busy, Do not disturb and Appear away statuses. |
-| Conversation time |The horizontal bar chart shows the average conversation time mapped by minutes. |
+| Ongoing conversations by status | The donut chart shows the total number of voice conversations currently in Open, Active, and Wrap-Up statuses. |
+| Agent availability status| The donut chart shows the total number of voice agents in each of the applicable availability statuses. These could be Available, Offline, Do not disturb, Busy or any of the custom statuses configured.  |
+| Conversation time |The horizontal bar chart shows the comparison of average talk time, average wrap time, and average hold time.  |
 | Ongoing conversations by queue |The horizontal bar chart shows the total number of conversations which are currently worked on by an agent (including open conversations assigned) in each of Omnichannel queue.|
 | Capacity by profile | The donut chart shows the total number of voice agents in Available or Occupied status.|
 

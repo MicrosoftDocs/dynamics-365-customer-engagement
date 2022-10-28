@@ -41,7 +41,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
 1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
 1. In the **Additional options** section, select the **Add real-time analytics for Omnichannel voice** option.
-    This option will only be available, if your organization has the Voice feature configured.
+    This option will be available, only if your organization has the Voice feature configured.
 
     :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 

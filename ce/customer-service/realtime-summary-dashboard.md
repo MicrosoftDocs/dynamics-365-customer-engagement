@@ -1,7 +1,7 @@
 ---
 title: Real-time analytics Summary report| Microsoft Docs
 description: Learn about the Real-time summary report to cater to your organization's customer service experience better.
-ms.date: 10/26/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -43,7 +43,7 @@ The Summary report displays the following metrics.
 | Avg. speed to answer |Average time across all channels taken for conversations to be accepted by agents.   |
 | Abandoned rate | Total number of conversations across all channels that were closed before an agent accepted the conversation. |
 | Ongoing conversation | Total number of conversations which are currently worked on by an agent. This includes all open conversations which are assigned to an agent.|
-| Avg. handle time | Average time an agent spent actively with a customer across all channels. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), wrap time (if applicable), talk time (if applicable), active time.|
+| Avg. handle time | Average time an agent spent actively with a customer across all channels. Avg. handle time is derived by aggregating active session time across a conversation. This includes hold time (if applicable), wrap time (if applicable), talk time (if applicable), and active time.|
 | Service level (60 sec) | Percentage of conversations across all channels that were accepted by an agent within 60 seconds.|
 
 ## Interactive charts
@@ -57,7 +57,7 @@ The Summary report displays the following charts.
 | Charts| Description |
 | ------- | ------------------ |
 | Conversations over time| The bar chart shows the total conversations received mapped against the hour of the day, when they were received. |
-| Ongoing conversations by status | The donut chart shows the total number of conversations currently in Open, Active and Wrap-Up statuses. |
+| Ongoing conversations by status | The donut chart shows the total number of conversations currently in Open, Active, and Wrap-Up statuses. |
 | Agent availability status| The donut chart shows the total number of agents in each of the applicable statuses. The statuses could be Available, Offline, Do not disturb, Busy, or any of the configured custom statuses.|
 | Ongoing conversations by channel | The horizontal bar chart shows the total number of conversations which are currently worked on by an agent (including open conversations assigned) on each of Omnichannel channels.|
 | Ongoing conversations by queue | The horizontal bar chart shows the total number of conversations which are currently worked on by an agent (including open conversations currently assigned to agents) in each of Omnichannel queue. |

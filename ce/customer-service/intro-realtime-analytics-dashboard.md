@@ -69,7 +69,7 @@ The Omnichannel real-time analytics reports consist of the following:
 
 - **Voice**: This report provides an overview of conversations in the last 24 hours for the Omnichannel Voice channel. More information: [View and understand the Voice report in Omnichannel real time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)
 
-- **Agent**: This report provides an overview of the health and KPIs of agents in your organization. The information in this report is displayed based on the conversations in the last 24 hours. More information: [View and understand the Agents report in Omnichannel real time analytics](realtime-agents-analytics.md).
+- **Agent**: This report provides an overview of the health and KPIs of agents in your organization. The information in this report is displayed based on the conversations in the last 24 hours. More information: [View and understand the Agents report in Omnichannel real time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)
 
 - **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. More information: [View and understand the Ongoing Conversation report in Omnichannel real time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
 
@@ -100,7 +100,7 @@ You can also save personalized views of your reports as bookmarks and use the **
 You can also use the **Edit report** option to customize the visual display of reports. For example, modify the visual look of the data, such as to display a metric trend over time versus a tabular view. You could also create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports. More information: [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service).
 
 ### Pause updates
-Data on the report is auto-refreshed near real-time. You can use the **Pause updates** option to view and analyze real-time metrics at any particular point in time. You can go back to auto-refresh by selecting **Resume updates**.
+Data on the report is auto-refreshed near real time. You can use the **Pause updates** option to view and analyze real-time metrics at any particular point in time. You can go back to auto-refresh by selecting **Resume updates**.
 
 ### See also
 
