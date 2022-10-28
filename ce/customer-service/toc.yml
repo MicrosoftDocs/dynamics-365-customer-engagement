@@ -1404,6 +1404,8 @@
         href: developer/reference/entities/msdyn_ocoutboundmessage.md
       - name: msdyn_ocphonenumber
         href: developer/reference/entities/msdyn_ocphonenumber.md
+      - name: msdyn_ocphonecallengagementctx
+        href: developer/reference/entities/msdyn_ocphonecallengagementctx.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
       - name: msdyn_ocrecording
@@ -1422,6 +1424,8 @@
         href: developer/reference/entities/msdyn_ocsession.md
       - name: msdyn_ocsessioncharacteristic
         href: developer/reference/entities/msdyn_ocsessioncharacteristic.md
+      - name: msdyn_ocsessionparticipantevent
+        href: developer/reference/entities/msdyn_ocsessionparticipantevent.md
       - name: msdyn_ocsessionsentiment
         href: developer/reference/entities/msdyn_ocsessionsentiment.md
       - name: msdyn_ocsimltraining
