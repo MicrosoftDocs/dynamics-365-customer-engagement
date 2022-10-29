@@ -274,6 +274,8 @@
           href: real-time-marketing-multiple-branches.md
         - name: Edit a live journey
           href: real-time-marketing-edit-journey.md
+        - name: Personalize triggers using conditions
+          href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
