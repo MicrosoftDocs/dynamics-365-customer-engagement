@@ -43,7 +43,7 @@ Yes, you have the following two options to bring your existing numbers to Omnich
     1. You must first port your existing phone numbers to Azure Communication Services. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
     2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
 
-- **Configure Azure direct routing**. You can configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services, and then register the phone number in Dynamics 365. Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+- **Configure Azure direct routing**. You can configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services, and then register the phone number in Dynamics 365. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
  
 ### How can I acquire additional phone numbers from Azure Communication Services?
 

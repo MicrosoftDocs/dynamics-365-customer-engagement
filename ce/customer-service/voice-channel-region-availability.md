@@ -72,8 +72,6 @@ You can also port existing US or toll-free phone numbers. More information: [Por
 ### Azure direct routing
 
 You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
->[!Note]
-> Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC.
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
