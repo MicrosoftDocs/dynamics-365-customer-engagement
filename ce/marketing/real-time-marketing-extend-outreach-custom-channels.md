@@ -38,8 +38,55 @@ Channel definitions should be added into the **msdyn\_channeldefinitions** eleme
 
 **Example of customizations.xml including channel definition**  
 The exact values for each attribute are described in the contracts section.
+&lt;ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+
+  &lt;msdyn\_channeldefinitions&gt;
+
+    &lt;msdyn\_channeldefinition msdyn\_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3"&gt;
+
+      &lt;msdyn\_channeldefinitionaccountexternalentity&gt;cr65f\_samplechannelinstanceaccount&lt;/msdyn\_channeldefinitionaccountexternalentity&gt;
+
+      &lt;msdyn\_channeldefinitionaccountexternalformid&gt;3071133f-1208-4dc1-8eba-4d4724961029&lt;/msdyn\_channeldefinitionaccountexternalformid&gt;
+
+      &lt;msdyn\_channeldefinitionexternalentity&gt;cr65f\_samplechannelinstance&lt;/msdyn\_channeldefinitionexternalentity&gt;
+
+      &lt;msdyn\_channeldefinitionexternalformid&gt;7d2b885a-80eb-479d-b0c3-600bc41e9789&lt;/msdyn\_channeldefinitionexternalformid&gt;
+
+      &lt;msdyn\_channeltype&gt;Custom&lt;/msdyn\_channeltype&gt;
+
+      &lt;msdyn\_description&gt;Metadata definition for sample custom channel&lt;/msdyn\_description&gt;
+
+      &lt;msdyn\_displayname&gt;Sample custom channel&lt;/msdyn\_displayname&gt;
+
+      &lt;msdyn\_hasdeliveryreceipt&gt;0&lt;/msdyn\_hasdeliveryreceipt&gt;
+
+      &lt;msdyn\_hasinbound&gt;0&lt;/msdyn\_hasinbound&gt;
+
+      &lt;msdyn\_messageformid&gt;69723cfe-3835-4126-ab9a-a82a5b88c21d&lt;/msdyn\_messageformid&gt;
+
+      &lt;msdyn\_outboundendpointurltemplate&gt;/cr65f\_OutboundCustomApi&lt;/msdyn\_outboundendpointurltemplate&gt;
+
+      &lt;msdyn\_specialconsentrequired&gt;0&lt;/msdyn\_specialconsentrequired&gt;
+
+      &lt;msdyn\_supportsaccount&gt;0&lt;/msdyn\_supportsaccount&gt;
+
+      &lt;msdyn\_supportsattachment&gt;0&lt;/msdyn\_supportsattachment&gt;
+
+      &lt;msdyn\_supportsbinary&gt;0&lt;/msdyn\_supportsbinary&gt;
+
+      &lt;statecode&gt;0&lt;/statecode&gt;
+
+      &lt;statuscode&gt;1&lt;/statuscode&gt;
+
+    &lt;/msdyn\_channeldefinition&gt;
+
+  &lt;/msdyn\_channeldefinitions&gt;
+
+&lt;/ImportExportXml&gt;
+
 <image>
-<image>
+
+
 
 ### **2. Message parts**
 
