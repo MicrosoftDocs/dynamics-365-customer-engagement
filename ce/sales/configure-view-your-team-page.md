@@ -27,8 +27,8 @@ Configure and view your team page with information on levels of hierarchy, top p
 As an administrator, you can:  
 
 - Configure the levels of hierarchy that you can view.  
-- Configure a user to impersonate another to view information.   
-- Select the top performers in your hierarchy.   
+- Configure a user to impersonate another to view information.  
+- Select the top performers in your hierarchy.  
 - Delete seller data.
 
 As a sales manager, you can:  
