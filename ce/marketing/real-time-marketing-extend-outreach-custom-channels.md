@@ -38,53 +38,55 @@ Channel definitions should be added into the **msdyn\_channeldefinitions** eleme
 
 **Example of customizations.xml including channel definition**  
 The exact values for each attribute are described in the contracts section.
-&lt;ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+```
 
-  &lt;msdyn\_channeldefinitions&gt;
 
-    &lt;msdyn\_channeldefinition msdyn\_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3"&gt;
+ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
-      &lt;msdyn\_channeldefinitionaccountexternalentity&gt;cr65f\_samplechannelinstanceaccount&lt;/msdyn\_channeldefinitionaccountexternalentity&gt;
+  msdyn\_channeldefinitions
 
-      &lt;msdyn\_channeldefinitionaccountexternalformid&gt;3071133f-1208-4dc1-8eba-4d4724961029&lt;/msdyn\_channeldefinitionaccountexternalformid&gt;
+    msdyn\_channeldefinition msdyn\_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3
 
-      &lt;msdyn\_channeldefinitionexternalentity&gt;cr65f\_samplechannelinstance&lt;/msdyn\_channeldefinitionexternalentity&gt;
+      msdyn\_channeldefinitionaccountexternalentitycr65f\_samplechannelinstanceaccount&lt;/msdyn\_channeldefinitionaccountexternalentity
 
-      &lt;msdyn\_channeldefinitionexternalformid&gt;7d2b885a-80eb-479d-b0c3-600bc41e9789&lt;/msdyn\_channeldefinitionexternalformid&gt;
+      msdyn\_channeldefinitionaccountexternalformid3071133f-1208-4dc1-8eba-4d4724961029&lt;/msdyn\_channeldefinitionaccountexternalformid
 
-      &lt;msdyn\_channeltype&gt;Custom&lt;/msdyn\_channeltype&gt;
+      msdyn\_channeldefinitionexternalentitycr65f\_samplechannelinstance&lt;/msdyn\_channeldefinitionexternalentity
 
-      &lt;msdyn\_description&gt;Metadata definition for sample custom channel&lt;/msdyn\_description&gt;
+      msdyn\_channeldefinitionexternalformid7d2b885a-80eb-479d-b0c3-600bc41e9789&lt;/msdyn\_channeldefinitionexternalformid
 
-      &lt;msdyn\_displayname&gt;Sample custom channel&lt;/msdyn\_displayname&gt;
+      msdyn\_channeltypeCustom&lt;/msdyn\_channeltype
 
-      &lt;msdyn\_hasdeliveryreceipt&gt;0&lt;/msdyn\_hasdeliveryreceipt&gt;
+      msdyn\_descriptionMetadata definition for sample custom channel&lt;/msdyn\_description
 
-      &lt;msdyn\_hasinbound&gt;0&lt;/msdyn\_hasinbound&gt;
+      msdyn\_displaynameSample custom channel&lt;/msdyn\_displayname
 
-      &lt;msdyn\_messageformid&gt;69723cfe-3835-4126-ab9a-a82a5b88c21d&lt;/msdyn\_messageformid&gt;
+      msdyn\_hasdeliveryreceipt0&lt;/msdyn\_hasdeliveryreceipt
 
-      &lt;msdyn\_outboundendpointurltemplate&gt;/cr65f\_OutboundCustomApi&lt;/msdyn\_outboundendpointurltemplate&gt;
+      msdyn\_hasinbound0&lt;/msdyn\_hasinbound
 
-      &lt;msdyn\_specialconsentrequired&gt;0&lt;/msdyn\_specialconsentrequired&gt;
+      msdyn\_messageformid69723cfe-3835-4126-ab9a-a82a5b88c21d&lt;/msdyn\_messageformid
 
-      &lt;msdyn\_supportsaccount&gt;0&lt;/msdyn\_supportsaccount&gt;
+      msdyn\_outboundendpointurltemplate/cr65f\_OutboundCustomApi&lt;/msdyn\_outboundendpointurltemplate
 
-      &lt;msdyn\_supportsattachment&gt;0&lt;/msdyn\_supportsattachment&gt;
+      msdyn\_specialconsentrequired0&lt;/msdyn\_specialconsentrequired
 
-      &lt;msdyn\_supportsbinary&gt;0&lt;/msdyn\_supportsbinary&gt;
+      msdyn\_supportsaccount0&lt;/msdyn\_supportsaccount
 
-      &lt;statecode&gt;0&lt;/statecode&gt;
+      msdyn\_supportsattachment0&lt;/msdyn\_supportsattachment
 
-      &lt;statuscode&gt;1&lt;/statuscode&gt;
+      msdyn\_supportsbinary0&lt;/msdyn\_supportsbinary
 
-    &lt;/msdyn\_channeldefinition&gt;
+      statecode0&lt;/statecode
 
-  &lt;/msdyn\_channeldefinitions&gt;
+      statuscode&lt;/statuscode
 
-&lt;/ImportExportXml&gt;
+    msdyn\_channeldefinition
 
-<image>
+  msdyn\_channeldefinitions
+
+ImportExportXml
+```
 
 
 
