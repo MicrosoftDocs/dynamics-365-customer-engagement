@@ -39,7 +39,6 @@ Channel definitions should be added into the **msdyn\_channeldefinitions** eleme
 **Example of customizations.xml including channel definition**  
 The exact values for each attribute are described in the contracts section.
 ```
-
 <ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <msdyn_channeldefinitions>
     <msdyn_channeldefinition msdyn_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3">
@@ -65,9 +64,6 @@ The exact values for each attribute are described in the contracts section.
 </ImportExportXml>
 
 ```
-
-
-
 ### **2. Message parts**
 
 Custom channels can accept message parts. At least one message part is required for a custom channel.
@@ -92,8 +88,8 @@ The exact values for each attribute are described in the contracts section.
       <msdyn_maxlength>1000</msdyn_maxlength>
       <msdyn_name>text</msdyn_name>
       <msdyn_type>192350000</msdyn_type>
-
 ```
+
 ### **3. Channel instance entity and the relevant form**
 
 Each custom channel may need to have multiple senders - like phone numbers in SMS. To allow users to configure more than one sender, Channel Instances were introduced. Channel instance is an entity defined in base **D365ChannelDefinitions** solution. Each custom channel is supposed to extend this entity by creating its own extended channel instance entity and adding a relationship to the base Channel Instance entity on **msdyn\_extendedentityId** attribute. This attribute is a [polymorphic](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448) lookup.
