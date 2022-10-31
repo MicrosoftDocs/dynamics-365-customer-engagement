@@ -30,145 +30,238 @@ A custom channel implementation consists of the following:
 5.	Message template (editor) and the relevant form
 6.	Custom APIs
 
-### 1. Channel definition
-In order to define your channel, you should add a solution component to the solution. You need to add an XML element with a collection of entities of type **msdyn_channeldefinition** entity attributes to the root element **ImportExportXml** of **customizations.xml** file.
+### **1. Channel definition**
 
-Channel definitions should be added into the **msdyn_channeldefinitions** element under **ImportExportXml** of **customizations.xml** file. Each channel definition should include its own unique id in the form of GUID as XML attribute **msdyn_channeldefinitionid** on channel definition element.
+In order to define your channel, you should add a solution component to the solution. To do this, you need to add an XML element with a collection of entities of type **msdyn\_channeldefinition** entity attributes to the root element **ImportExportXml** of **customizations.xml** file.
 
-##### Example of customizations.xml including channel definition
+Channel definitions should be added into the **msdyn\_channeldefinitions** element under **ImportExportXml** of **customizations.xml** file. Each channel definition should include its own unique id in the form of GUID as XML attribute **msdyn\_channeldefinitionid** on channel definition element.
+
+**Example of customizations.xml including channel definition**  
 The exact values for each attribute are described in the contracts section.
 <image>
 <image>
 
-### 2. Message parts
+### **2. Message parts**
+
 Custom channels can accept message parts. At least one message part is required for a custom channel.
 
-Message parts are also defined in the **customizations.xml** as solution components. 
+Message parts are also defined in the **customizations.xml** as solution components.
 
-Message parts should be added into the **msdyn_channelmessageparts** element under **ImportExportXml** of the customizations.xml file. Each message part element **msdyn_channelmessagepart** must include its own unique id in the form of GUID as XML attribute **msdyn_channelmessagepartid**.
+Message parts should be added into the **msdyn\_channelmessageparts** element under **ImportExportXml** of the **customizations.xml** file. Each message part element **msdyn\_channelmessagepart** must include its own unique id in the form of GUID as XML attribute **msdyn\_channelmessagepartid**.
 
-#### Example of customizations.xml including channel definition
+**Example of customizations.xml including channel definition**  
 The exact values for each attribute are described in the contracts section.
 <image>
 
-### 3. Channel instance entity and the relevant form
-Each custom channel may need to have multiple senders - like phone numbers in SMS. To allow users to configure more than one sender, Channel Instances were introduced. Channel instance is an entity defined in base **D365ChannelDefinitions** solution. Each custom channel is supposed to extend this entity by creating its own extended channel instance entity and adding a relationship to the base Channel Instance entity on **msdyn_extendedentityId** attribute. This attribute is a polymorphic lookup.
+### **3. Channel instance entity and the relevant form**
 
-The custom channel solution should include all the metadata for the extended channel instance entity.
+Each custom channel may need to have multiple senders - like phone numbers in SMS. To allow users to configure more than one sender, Channel Instances were introduced. Channel instance is an entity defined in base **D365ChannelDefinitions** solution. Each custom channel is supposed to extend this entity by creating its own extended channel instance entity and adding a relationship to the base Channel Instance entity on **msdyn\_extendedentityId** attribute. This attribute is a [polymorphic](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448) lookup.
 
-The channel definition should also include the **msdyn_channeldefinitionexternalentity** attribute with the name of the extended entity introduced by the custom channel solution.
+The custom channel solution should include all the metadata for the [extended channel instance](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) entity.
 
-#### Relationship example
+The channel definition should also include the **msdyn\_channeldefinitionexternalentity** attribute with the name of the extended entity introduced by the custom channel solution.
+
+**Relationship example**
 <image>
 <image>
 
-#### Channel instance entity main form
-Dynamics Marketing has a generic wizard form   for creating channel instances in Settings. For that functionality to work, the custom channel solution should include a main form on the extended channel instance entity that is referenced in the channel definition in the msdyn_channeldefinitionexternalformid attribute.
+#### *Channel instance entity main form*
 
-This form should include all the required attributes for the custom channel to function and will be filled in by the user creating a new custom channel and saved in the UI.
+Dynamics Marketing has a generic wizard form for creating channel instances in Settings. For that functionality to work, the custom channel solution should include a main form on the extended channel instance entity that is referenced in the channel definition in the **msdyn\_channeldefinitionexternalformid** attribute.
 
-### 4. Channel instance account entity (for custom SMS channels only)
+This form should include all the required attributes for the custom channel to function. It will be filled in by the user creating a new custom channel and saved in the UI.
+
+### **4. Channel instance account entity (for custom SMS channels only)**
+
 If you're implementing a custom SMS channel, it must also have a channel instance account extended entity, and a relationship with the Channel Instance Account entity the same way as the channel instance does. The channel instance account has a 1:N relationship with the channel instances it serves as a data normalization for SMS accounts. Typically, you'll have one account with the service provider, under which you can create multiple phone numbers.
 
 It also must have a form that will be used in Marketing SMS setup wizard.
 
-#### Example of the relationship
+***Example of the relationship***
 <image>
 <image>
 
 The channel definition described before should also include the **msdyn_channeldefinitionaccountexternalentity** attribute with the name of the extended entity introduced by the custom channel solution.
 
-#### Channel instance account main form
-Dynamics Marketing has a generic wizard form   for creating channel SMS channels in settings. For that functionality to work, custom channel solution should include a main form on the extended channel instance account entity that is referenced in channel definition in **msdyn_channeldefinitionaccountexternalformid** attribute.
+#### *Channel instance account main form*
+
+Dynamics Marketing has a generic wizard form for creating channel SMS channels in settings. For that functionality to work, custom channel solution should include a main form on the extended channel instance account entity that is referenced in channel definition in **msdyn\_channeldefinitionaccountexternalformid** attribute.
 
 This form should include all the required attributes for the channel to function. They'll be filled in by the user creating a new custom channel and saved in the UI.
 
-### 5. Message template (editor) and the relevant form  
+### **5. Message template (editor) and the relevant form** 
+
 This entity is required for the channel type **Custom**. Channels that are of an SMS type are using the native SMS editor.
 
-#### Entity definition
-Dynamics Marketing supports a generic UI for message templates (editor)   used by custom channels. For that an entity needs to be defined that will hold a form with the message parts you've defined in your channel. This entity won't store anything - it's only used as metadata to define your message contract.
+#### *Entity definition*
 
-The entity must include all the message parts defined in your channel with the exact same names but including the publisher prefix. For example, **cr65f_text** for the **text** message part.
+Dynamics Marketing supports a generic UI for message templates (editor) used by custom channels. For that an entity needs to be defined that will hold a form with the message parts you've defined in your channel. This entity won't store anything - it's only used as metadata to define your message contract.
 
-On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix.
+The entity must include all the message parts defined in your channel with the exact same names but including the publisher prefix. For example, **cr65f\_text** for the **text** message part.
 
-### Main form for the message template (editor)
+On top of that, the entity must include the **placeholders** attribute that is used for personalization in Marketing. Note that the **placeholders** attribute should also have the publisher prefix.
 
-This form will be used in the Marketing content editor, accessed through the “More channels” area.
+#### *Main form for the message template (editor)*
+
+This form will be used in the Marketing content editor, accessed through the "More channels" area.
 
 The form must include all the required attributes of the entity and the **placeholder's** attribute. You can use custom controls on the form or use Marketing OOB controls such as the **MsdynmktControls.RichTextControl.RichTextControl** that supports personalization.
 
-### 6. Custom APIs
+### **6. Custom APIs**
 
-#### Outbound custom API
-A custom API needs to be defined that will be called during the Journey runtime in Marketing.
+#### *Outbound custom API*
 
-That is the entry point for custom code execution. When the Journey reaches a custom channel step, it will execute the API defined in the Channel Definition **msdyn_outboundendpointurltemplate**. This API must accept the contract defined by the Marketing Journey and return the response.
+A [custom API](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/custom-api) needs to be defined that will be called during the Journey runtime in Marketing.
 
-#### Delivery report custom API
-If your channel has delivery reports or statuses for messages, such as for example, “Delivered”, you need to somehow proxy them back to Dataverse. One of the ways is to have an external application that will accept such traffic, process it and then notify Dataverse by executing the Custom API **msdyn_D365ChannelsNotification**.
+That is the entry point for custom code execution. When the Journey reaches a custom channel step, it will execute the API defined in the Channel Definition **msdyn\_outboundendpointurltemplate**. This API must accept the contract defined by the Marketing Journey and return the response.
 
-There are multiple ways of achieving that. One of them could be having a webhook in the service provider that will call a Power Automate flow. Basic validation and data transformation can be completed there. Then your own Custom API can be executed which will do the final steps and execute the **msdyn_D365ChannelsNotification** API.
+#### *Delivery report custom API*
 
-### Contracts
+If your channel has delivery reports or statuses for messages, such as for example, "Delivered", you need to somehow proxy them back to Dataverse. One of the ways is to have an external application that will accept such traffic, process it and then notify Dataverse by executing the Custom API **msdyn\_D365ChannelsNotification.**
 
-#### Channel definition
+There are multiple ways of achieving that. One of them could be having a webhook in the service provider that will call a Power Automate flow. Basic validation and data transformation can be completed there. Then your own Custom API can be executed which will do the final steps and execute the **msdyn\_D365ChannelsNotification** API.
 
-Entity logical name: 
-**msdyn_channeldefinition**
+## 
 
-Entity set name: **msdyn_channeldefinitions**
+## **Contracts**
 
-Primary Id attribute name: **msdyn_channeldefinitionid**
+### **Channel definition**
 
-•	**msdyn_displayname**: string - Optional. Display name of the channel.
+Entity logical name: **msdyn\_channeldefinition**  
+Entity set name: **msdyn\_channeldefinitions**  
+  
+Primary Id attribute name: **msdyn\_channeldefinitionid**
 
-•	**msdyn_description**: string - Optional. Description of the channel.
+- **msdyn\_displayname:** string - Optional. Display name of the channel.
 
-•	**msdyn_channeltype**: string - Supported values: Custom, SMS.
+- **msdyn\_description:** string - Optional. Description of the channel.
 
-•**msdyn_outboundendpointurltemplate**: string – Name of the Custom API for the outbound flow
+- **msdyn\_channeltype:** string - Supported values: Custom, SMS.
 
-•	**msdyn_hasinbound**: bit - Required. Boolean value indicating whether the channel supports inbound messages.
+- **msdyn\_outboundendpointurltemplate:** string – Name of the Custom API for the outbound flow
 
-•	**msdyn_hasdeliveryreceipt**: bit - Required. Boolean value indicating whether the channel supports delivery receipt.
+- **msdyn\_hasinbound:** bit - Required. Boolean value indicating whether the channel supports inbound messages.
 
-•	**msdyn_supportsaccount**: bit - Required. Boolean value indicating whether the channel supports account level configuration.
-	
-• **msdyn_channeldefinitionexternalentity**: string - Required. Name of the CDS entity, representing an extended configuration of the channel instance.
+- **msdyn\_hasdeliveryreceipt:** bit - Required. Boolean value indicating whether the channel supports delivery receipt.
 
-• **msdyn_channeldefinitionexternalformid**: GUID - Required. ID of the form to be rendered to display configuration of the extended channel instance table.
+- **msdyn\_supportsaccount:** bit - Required. Boolean value indicating whether the channel supports account level configuration.
 
-• **msdyn_channeldefinitionaccountexternalentity**: string - Optional. Name of the CDS entity, representing an extended configuration of the channel instance account.
+- **msdyn\_channeldefinitionexternalentity:** string - Required. Name of the CDS entity, representing an extended configuration of the channel instance.
 
-•	**msdyn_channeldefinitionaccountexternalformid**: string - Optional. ID of the form to be rendered to display configuration of the extended channel instance account table.
+- **msdyn\_channeldefinitionexternalformid:** GUID - Required. ID of the form to be rendered to display configuration of the extended channel instance table.
 
-•	**msdyn_messageformid**: GUID - Optional. Defines a form representing the message editor for the channel.
+- **msdyn\_channeldefinitionaccountexternalentity:** string - Optional. Name of the CDS entity, representing an extended configuration of the channel instance account.
 
-#### Message parts
+- **msdyn\_channeldefinitionaccountexternalformid:** string - Optional. ID of the form to be rendered to display configuration of the extended channel instance account table.
 
-Entity logical name: **msdyn_channelmessagepart**
-Entity set name: **msdyn_channelmessageparts**
+- **msdyn\_messageformid:** GUID - Optional. Defines a form representing the message editor for the channel.
 
-Primary Id attribute name: **msdyn_channelmessagepartid**
+### **Message parts**
 
-•	**msdyn_name**: string – Name for the message part, used as key for message parts in the outbound flow.
+Entity logical name: **msdyn\_channelmessagepart**  
+Entity set name: **msdyn\_channelmessageparts**
 
-•	**msdyn_displayname**: string – Display name.
+Primary Id attribute name: **msdyn\_channelmessagepartid  
+**
 
-•	**msdyn_description**: string – Description.
+- **msdyn\_name:** string – Name for the message part, used as key for message parts in the outbound flow.
 
-•	**msdyn_channeldefinitionid**: GUID – Channel definition id, must match the channel definition id of the channel.
+- **msdyn\_displayname**: string – Display name.
 
-•	**msdyn_type**: OptionSet – Channel type, currently supported values:
-o	192350000 plain text
+- **msdyn\_description:** string – Description.
+
+- **msdyn\_channeldefinitionid:** GUID – Channel definition id, must match the channel definition id of the channel.
+
+- **msdyn\_type:** OptionSet – Channel type, currently supported values:
+
+    -   192350000 plaintext
 
 More types will be introduced in further releases.
 
-•	**msdyn_isrequired**: bit - Indicates whether the part is required.
+- **msdyn\_isrequired:** bit - Indicates whether the part is required.
 
-•	**msdyn_maxlength**: int - max length for the part
+- **msdyn\_maxlength: in**t - max length for the part
 
+### **Outbound custom API**
 
+The Outbound custom API must implement the following contract:  
+  
+It must have one input parameter: **payload**, and one output attribute: **response**
+
+**payload** is a serialized JSON with the following contract:
+
+{
+
+    "ChannelDefinitionId": GUID,
+
+    "RequestId": string,
+
+    "From": string,
+
+    "To": string,
+
+    "Message": Dictionary&lt;string, string&gt;
+
+}
+
+where "**Message**" contains all the message parts for a channel.
+
+**response** is a serialized JSON with the following contract  
+{
+
+{
+
+    "ChannelDefinitionId": GUID,
+
+    "MessageId": string,
+
+    "RequestId": string,
+
+    "Status": string,
+
+    "StatusDetails": Dictionary&lt;string, object&gt;
+
+};
+
+Possible values for **Status:**
+
+- **SendingAborted** – the internal validation from the channel side blocked the submission without a possibility to retry
+
+<!-- -->
+
+- **NotSent** – there was an attempt to execute the submission to the provider, but it was rejected without a possibility to retry
+
+- **SendingFailed** – an internal issue (500 on channel implementation side or provider side) occurred for all submission retries 
+
+- **Sent** – the submission request was successfully accepted by the provider 
+
+- **Delivered** – the accepted message was successfully delivered to the target 
+
+- **NotDelivered** – the accepted message wasn't successfully delivered to the target 
+
+### 
+
+### **Delivery report custom API**
+
+API Name: **msdyn\_D365ChannelsNotification**
+
+Input parameter**: notificationPayLoad -** serialized JSON with the following contract:
+
+{
+
+  "ChannelDefinitionId": GUID
+
+  "From": string
+
+  "MessageId": string
+
+  "RequestId": string
+
+  "Status": string
+
+  "OrganizationId": string
+
+  "StatusDetails": Dictionary&lt;string, object&gt;
+
+}
 
