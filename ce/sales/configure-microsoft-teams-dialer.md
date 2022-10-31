@@ -40,8 +40,8 @@ Ensure that you meet the following requirements before you configure Microsoft T
 
 - Your organization has a phone system installed, with a valid license to use it. For more information about setting up the phone system, see [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system).  
 
-- Decide whether you want to enable the dialer for all security roles or specific security roles. Make sure that users who need access to the dialer are assigned to one of those security roles. For more information, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users). 
-- Ensure that the security roles of users who will be accessing the Teams dialer have read privileges to the following records: 
+- If you're planning to enable the dialer for specific security roles, ensure that users who need access to the dialer are assigned to one of those security roles. For more information, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users).  
+- Ensure that the security roles of users who will be accessing the Teams dialer have read privileges to the following records:  
     - Under the **Core Records** tab, read access to **Note**
     - Under the **Custom Entities** tab, read access to **Teams Dialer Admin settings**  
     For more information about how to verify privileges and edit a security role, see [Edit a security role](/power-platform/admin/create-edit-security-role#edit-a-security-role).
@@ -58,7 +58,7 @@ Ensure that you meet the following requirements before you configure Microsoft T
 2. Go to **App settings**, and under **General settings**, select **Teams calls**.  
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Teams dialer configuration page.](media/teams-dialer-configuration-page.png "Microsoft Teams dialer configuration page")     
+    > ![Microsoft Teams dialer configuration page.](media/teams-dialer-configuration-page.png "Microsoft Teams dialer configuration page")  
 
 3. Turn on **Teams calls**.  
     
