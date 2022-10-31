@@ -1,7 +1,33 @@
 
+
+## 3.12.92.14
+
+(Includes Resource Scheduling controls version 1.2.32.222981).
+
+- Unable to create new Entity in Setup Wizard Field Service.
+- Error handling for Geocode action.
+- Resource search from Schedule Assistant.
+- Unable to view bookings for crew members with schedule board refresh.
+- Clicking on lookup fields from related entities in the Booking tooltip.
+- Requirements can be scheduled multiple times while first one is still booking.
+- Drag and drop booking in new Schedule board before booking is complete results in duplicate booking.
+- Improve formatting function to display duration in day (if greater than 24 hr) and negative duration.
+
+
 ## 3.12.91.2
 
 (Includes Resource Scheduling controls version 1.2.31.222853).
+
+Bug fixes for the new schedule board include:
+
+- Booking Tooltip error showing work order information on custom views.
+- Booking Tooltip error when Start Time and End Time are missing.
+- Detail panel bug clicking on Lookup fields for requirement.
+- Details panel missing some field values for Resources.
+- Resource search will initiate search as text is entered.  Enter key will not be required.
+- Drag and drop wasn’t showing estimated travel time for Custom booking templates.
+- Show Travel Duration Setting was always active. 
+- Schedule assist errors editing text in search box.
 
 ## 3.12.90.2
 
