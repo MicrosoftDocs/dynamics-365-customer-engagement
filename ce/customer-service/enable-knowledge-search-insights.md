@@ -1,7 +1,7 @@
 ---
 title: "Configure Knowledge search insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Knowledge search insights in Customer Service Hub and Customer Service workspace"
-ms.date: 04/04/2022
+ms.date: 10/31/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,14 +11,16 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Knowledge search insights for Dynamics 365 Customer Service
 
-The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. 
+The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
+
+The knowledge search analytics dashboard is enabled by default.
 
 > [!NOTE]
 > Knowledge search analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
 
 ## Configure the Knowledge search analytics dashboard
 
-You can enable the knowledge search analytics dashboard in the Customer Service admin center or Customer Service Hub app.
+If the knowledge search analytics dashboard has been disabled, you can enable the knowledge search analytics dashboard in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge search analytics dashboard**
 
@@ -57,7 +59,7 @@ You can see the reports by navigating to the **Service** > **Insights** > **Know
 If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 > [!NOTE]
-> The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.
+> The knowledge base analytics dashboard supports only English and is available only in organizations that have the base language set as English.
 
 ### See also
 
