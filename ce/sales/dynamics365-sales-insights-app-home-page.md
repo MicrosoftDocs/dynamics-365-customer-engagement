@@ -2,7 +2,7 @@
 title: "View overall insights of your sales and sellers"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
-ms.date: 09/30/2022
+ms.date: 10/31/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

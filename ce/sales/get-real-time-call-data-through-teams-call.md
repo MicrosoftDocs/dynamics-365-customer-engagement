@@ -1,7 +1,7 @@
 ---
 title: "Get real-time call data through Teams calls in Dynamics 365 Sales"
 description: "Get real-time analysis of call data through Teams calls in Dynamics 365 Sales."
-ms.date: 09/30/2022
+ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
