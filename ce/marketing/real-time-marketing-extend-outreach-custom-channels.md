@@ -40,52 +40,30 @@ Channel definitions should be added into the **msdyn\_channeldefinitions** eleme
 The exact values for each attribute are described in the contracts section.
 ```
 
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <msdyn_channeldefinitions>
+    <msdyn_channeldefinition msdyn_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3">
+      <msdyn_channeldefinitionaccountexternalentity>cr65f_samplechannelinstanceaccount</msdyn_channeldefinitionaccountexternalentity>
+      <msdyn_channeldefinitionaccountexternalformid>3071133f-1208-4dc1-8eba-4d4724961029</msdyn_channeldefinitionaccountexternalformid>
+      <msdyn_channeldefinitionexternalentity>cr65f_samplechannelinstance</msdyn_channeldefinitionexternalentity>
+      <msdyn_channeldefinitionexternalformid>7d2b885a-80eb-479d-b0c3-600bc41e9789</msdyn_channeldefinitionexternalformid>
+      <msdyn_channeltype>Custom</msdyn_channeltype>
+      <msdyn_description>Metadata definition for sample custom channel</msdyn_description>
+      <msdyn_displayname>Sample custom channel</msdyn_displayname>
+      <msdyn_hasdeliveryreceipt>0</msdyn_hasdeliveryreceipt>
+      <msdyn_hasinbound>0</msdyn_hasinbound>
+      <msdyn_messageformid>69723cfe-3835-4126-ab9a-a82a5b88c21d</msdyn_messageformid>
+      <msdyn_outboundendpointurltemplate>/cr65f_OutboundCustomApi</msdyn_outboundendpointurltemplate>
+      <msdyn_specialconsentrequired>0</msdyn_specialconsentrequired>
+      <msdyn_supportsaccount>0</msdyn_supportsaccount>
+      <msdyn_supportsattachment>0</msdyn_supportsattachment>
+      <msdyn_supportsbinary>0</msdyn_supportsbinary>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </msdyn_channeldefinition>
+  </msdyn_channeldefinitions>
+</ImportExportXml>
 
-ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
-  msdyn\_channeldefinitions
-
-    msdyn\_channeldefinition msdyn\_channeldefinitionid="af0c2a3c-85a5-43b3-84be-2a4a171249f3
-
-      msdyn\_channeldefinitionaccountexternalentitycr65f\_samplechannelinstanceaccount&lt;/msdyn\_channeldefinitionaccountexternalentity
-
-      msdyn\_channeldefinitionaccountexternalformid3071133f-1208-4dc1-8eba-4d4724961029&lt;/msdyn\_channeldefinitionaccountexternalformid
-
-      msdyn\_channeldefinitionexternalentitycr65f\_samplechannelinstance&lt;/msdyn\_channeldefinitionexternalentity
-
-      msdyn\_channeldefinitionexternalformid7d2b885a-80eb-479d-b0c3-600bc41e9789&lt;/msdyn\_channeldefinitionexternalformid
-
-      msdyn\_channeltypeCustom&lt;/msdyn\_channeltype
-
-      msdyn\_descriptionMetadata definition for sample custom channel&lt;/msdyn\_description
-
-      msdyn\_displaynameSample custom channel&lt;/msdyn\_displayname
-
-      msdyn\_hasdeliveryreceipt0&lt;/msdyn\_hasdeliveryreceipt
-
-      msdyn\_hasinbound0&lt;/msdyn\_hasinbound
-
-      msdyn\_messageformid69723cfe-3835-4126-ab9a-a82a5b88c21d&lt;/msdyn\_messageformid
-
-      msdyn\_outboundendpointurltemplate/cr65f\_OutboundCustomApi&lt;/msdyn\_outboundendpointurltemplate
-
-      msdyn\_specialconsentrequired0&lt;/msdyn\_specialconsentrequired
-
-      msdyn\_supportsaccount0&lt;/msdyn\_supportsaccount
-
-      msdyn\_supportsattachment0&lt;/msdyn\_supportsattachment
-
-      msdyn\_supportsbinary0&lt;/msdyn\_supportsbinary
-
-      statecode0&lt;/statecode
-
-      statuscode&lt;/statuscode
-
-    msdyn\_channeldefinition
-
-  msdyn\_channeldefinitions
-
-ImportExportXml
 ```
 
 
@@ -100,8 +78,22 @@ Message parts should be added into the **msdyn\_channelmessageparts** element un
 
 **Example of customizations.xml including channel definition**  
 The exact values for each attribute are described in the contracts section.
-<image>
 
+```
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <msdyn_channelmessageparts>
+    <msdyn_channelmessagepart msdyn_channelmessagepartid="15d57b1a-ddcd-4bb1-9af6-c691567ab9ef">
+      <msdyn_channeldefinitionid>
+        <msdyn_channeldefinitionid>b1b25a46-6da0-4c08-9cf3-505e613c8e30</msdyn_channeldefinitionid>
+      </msdyn_channeldefinitionid>
+      <msdyn_description>Text</msdyn_description>
+      <msdyn_displayname>Text</msdyn_displayname>
+      <msdyn_isrequired>1</msdyn_isrequired>
+      <msdyn_maxlength>1000</msdyn_maxlength>
+      <msdyn_name>text</msdyn_name>
+      <msdyn_type>192350000</msdyn_type>
+
+```
 ### **3. Channel instance entity and the relevant form**
 
 Each custom channel may need to have multiple senders - like phone numbers in SMS. To allow users to configure more than one sender, Channel Instances were introduced. Channel instance is an entity defined in base **D365ChannelDefinitions** solution. Each custom channel is supposed to extend this entity by creating its own extended channel instance entity and adding a relationship to the base Channel Instance entity on **msdyn\_extendedentityId** attribute. This attribute is a [polymorphic](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448) lookup.
@@ -111,8 +103,44 @@ The custom channel solution should include all the metadata for the [extended ch
 The channel definition should also include the **msdyn\_channeldefinitionexternalentity** attribute with the name of the extended entity introduced by the custom channel solution.
 
 **Relationship example**
-<image>
-<image>
+
+```
+<EntityRelationship Name="msdyn_ChannelInstance_extendedentityid_cr65f_samplechannelinstance">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>0</IsCustomizable>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_ChannelInstance</ReferencingEntityName>
+    <ReferencedEntityName>cr65f_samplechannelinstance</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_extendedentityId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_extendedentityid_cr65f_samplechannelinstance</NavigationPropertyName>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+<NavigationPropertyName>msdyn_ChannelInstance_extendedentityid_cr65f_samplechannelinstance</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+```
+
 
 #### *Channel instance entity main form*
 
@@ -127,8 +155,46 @@ If you're implementing a custom SMS channel, it must also have a channel instanc
 It also must have a form that will be used in Marketing SMS setup wizard.
 
 ***Example of the relationship***
-<image>
-<image>
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="msdyn_ChannelInstanceAccount_extendedentityid_cr65f_samplechannelinstanceaccount">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>0</IsCustomizable>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_ChannelInstanceAccount</ReferencingEntityName>
+    <ReferencedEntityName>cr65f_samplechannelinstanceaccount</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_extendedentityId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_extendedentityid_cr65f_samplechannelinstanceaccount</NavigationPropertyName>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>msdyn_ChannelInstanceAccount_extendedentityid_cr65f_samplechannelinstanceaccount</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>
+```
 
 The channel definition described before should also include the **msdyn_channeldefinitionaccountexternalentity** attribute with the name of the extended entity introduced by the custom channel solution.
 
