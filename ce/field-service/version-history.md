@@ -24,25 +24,39 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | TBD | 10/28/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | TBD | 11/04/2022 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.76.55](/dynamics365/field-service/version-history#887655)|  [8.8.77.41](/dynamics365/field-service/version-history#887741)| 10/28/2022 |
-| | *USG* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | TBD | 11/04/2022 |
+|**Station 1** |  *First Release*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 11/18/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/04/2022 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/11/2022 |
+| | *USG* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/04/2022 |
 |**Station 4** |*Europe* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/04/2022 |
 |**Station 5** |  *North America*|[8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/11/2022 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/28/2022 |
-| | *Dedicated Scale Groups* | [8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/28/2022 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/11/2022 |
+| | *Dedicated Scale Groups* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/18/2022 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.78.23
+
+(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
+
+- Fixed bug preventing view all button to show during reflow of frontline worker setup.
+- Fixed bug preventing play button from being accessed via keyboard on getting started.
+- Sales Tax Code now shows quick create of taxable Work Orders.
+- Field Service (D365) Mobile: Added support for Advanced Filtering of date/time on the Calendar Control.
+
 ## 8.8.77.41
 
 (Includes Universal Resource Scheduling version [3.12.91.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312912)).
 
    - Fixed a bug causing an error when loading an existing knowledge article from work order or product forms.
+   - Field Service (D365) Mobile: Improvements to device memory management while using the mobile application.
+   - Field Service (D365) Mobile: Fixed a bug which was preventing Agenda view from being available on certain tablet models.
+   - Field Service (D365) Mobile: Improved an error message was shown when trying to mark a Product as used from the Service Task Sub-grid while the product is not        active.
+   - Field Service (D365) Mobile: Fixed a bug which was preventing Inspections - File Type question from selecting multiple files.
+
    
 ## 8.8.76.55
 
