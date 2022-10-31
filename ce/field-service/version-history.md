@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 09/20/2022
+ms.date: 10/25/2022
 ms.reviewer: mhart
 ms.topic: article
 applies_to:
@@ -24,14 +24,14 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 10/21/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 10/21/2022 |
+|**Station 1** |  *First Release*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | TBD | 10/28/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | TBD | 11/04/2022 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.76.55](/dynamics365/field-service/version-history#887655)|  [8.8.77.41](/dynamics365/field-service/version-history#887741)| 10/28/2022 |
-| | *USG* |  [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741) | 10/21/2022 |
+| | *USG* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | TBD | 11/04/2022 |
 |**Station 4** |*Europe* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/04/2022 |
-|**Station 5** |  *North America*|[8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/21/2022 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/21/2022 |
-| | *Dedicated Scale Groups* | [8.8.73.63](/dynamics365/field-service/version-history#887363) | [8.8.74.34](/dynamics365/field-service/version-history#887434) | 10/21/2022 |
+|**Station 5** |  *North America*|[8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/11/2022 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/28/2022 |
+| | *Dedicated Scale Groups* | [8.8.74.34](/dynamics365/field-service/version-history#887434) | [8.8.76.55](/dynamics365/field-service/version-history#887655) | 10/28/2022 |
 
 >[!NOTE]
 >
@@ -42,6 +42,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.91.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312912)).
 
+   - Fixed a bug causing an error when loading an existing knowledge article from work order or product forms.
+   
 ## 8.8.76.55
 
 This release is a hotfix on Field Service version [8.8.76.42](/dynamics365/field-service/version-history#887642).

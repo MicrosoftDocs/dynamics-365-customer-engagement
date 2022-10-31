@@ -1022,6 +1022,8 @@
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
         href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Configure Omnichannel real-time analytics
+        href: enable-realtime-analytics-dashboard-administrator.md 
     - name: Supervisor experience
       items: 
       - name: Historical analytics reports in Customer Service
@@ -1080,6 +1082,18 @@
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+      - name: Real-time analytics reports in Omnichannel for Customer Service
+        items: 
+        - name: Overview of Omnichannel real-time analytics reports
+          href: intro-realtime-analytics-dashboard.md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
+        - name: Agents report
+          href: realtime-agents-analytics.md
+        - name: Ongoing Conversation report
+          href: realtime-ongoing.md
       - name: Omnichannel Insights
         items: 
         - name: Introduction to Omnichannel Insights
@@ -1354,8 +1368,12 @@
         href: developer/reference/entities/msdyn_macrosolutionconfiguration.md
       - name: msdyn_oc_geolocationprovider
         href: developer/reference/entities/msdyn_oc_geolocationprovider.md
+      - name: msdyn_ocapplepay  
+        href: developer/reference/entities/msdyn_ocapplepay.md
       - name: msdyn_ocbotchannelregistration
         href: developer/reference/entities/msdyn_ocbotchannelregistration.md
+      - name: msdyn_ocbotchannelregistrationsecret
+        href: developer/reference/entities/msdyn_ocbotchannelregistrationsecret.md
       - name: msdyn_occhannelconfiguration
         href: developer/reference/entities/msdyn_occhannelconfiguration.md
       - name: msdyn_occhannelstateconfiguration
@@ -1370,6 +1388,10 @@
         href: developer/reference/entities/msdyn_ocfbapplication.md
       - name: msdyn_ocfbpage
         href: developer/reference/entities/msdyn_ocfbpage.md
+      - name: msdyn_ocgooglebusinessmessagesagentaccount
+        href: developer/reference/entities/msdyn_ocgooglebusinessmessagesagentaccount.md
+      - name: msdyn_ocgooglebusinessmessagespartneraccount
+        href: developer/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md  
       - name: msdyn_oclanguage
         href: developer/reference/entities/msdyn_oclanguage.md
       - name: msdyn_oclinechannelconfig
@@ -1396,6 +1418,8 @@
         href: developer/reference/entities/msdyn_ocoutboundmessage.md
       - name: msdyn_ocphonenumber
         href: developer/reference/entities/msdyn_ocphonenumber.md
+      - name: msdyn_ocphonecallengagementctx
+        href: developer/reference/entities/msdyn_ocphonecallengagementctx.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
       - name: msdyn_ocrecording
@@ -1414,6 +1438,8 @@
         href: developer/reference/entities/msdyn_ocsession.md
       - name: msdyn_ocsessioncharacteristic
         href: developer/reference/entities/msdyn_ocsessioncharacteristic.md
+      - name: msdyn_ocsessionparticipantevent
+        href: developer/reference/entities/msdyn_ocsessionparticipantevent.md
       - name: msdyn_ocsessionsentiment
         href: developer/reference/entities/msdyn_ocsessionsentiment.md
       - name: msdyn_ocsimltraining
@@ -1434,6 +1460,8 @@
         href: developer/reference/entities/msdyn_octwitterapplication.md
       - name: msdyn_octwitterhandle
         href: developer/reference/entities/msdyn_octwitterhandle.md
+      - name: msdyn_octwitterhandlesecret
+        href: developer/reference/entities/msdyn_octwitterhandlesecret.md
       - name: msdyn_ocwechatchannelconfig
         href: developer/reference/entities/msdyn_ocwechatchannelconfig.md
       - name: msdyn_ocwhatsappchannelaccount

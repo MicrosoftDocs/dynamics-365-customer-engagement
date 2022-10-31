@@ -4,7 +4,7 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2022
+ms.date: 10/26/2022
 ms.topic: article
 ---
 
@@ -32,7 +32,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 |North America (crm.dynamics.com) |November 2021  | November 2021|
 |Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
 |Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
-|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
+|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |September 2022 |
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 |Government Community Cloud (GCC) High|To be announced |To be announced|
