@@ -94,10 +94,12 @@ The following screenshot illustrates how selecting a default view displays the u
 >[!NOTE]
 >View selection is only available in the table view. If you want to open the records in a specific view by default, you'll need to turn off **Set kanban as default**. If you select both kanban view and a default view, then the records open in kanban view, and the default view appears only when the user switches to the table view.
 
-## Translate forecast column names
+## Override column headers (preview)
 
-If you've added additional columns to your forecast grid and would like to translate the names of those columns, you need to forecast grid component using the Power Apps component framework. For more information, see the [Power Apps component framework](/power-apps/developer/component-framework/overview) documentation. 
- 
+In the **Layout** step of the forecast configuration, you select columns that you need in the forecast grid. These columns help your sellers better understand the forecast. Sometimes, you might want to change the label of the headers, add a tool tip for additional context, or translate the header. In such cases, you can define a control with the customization that you need for the header and override the column headers with the custom control. For more information, see [Customize column headers of the forecast grid](fc-customize-column-headers.md).
+
+In the **Override column headers (Preview)** section, select the custom control that includes all the customization.  
+
 
 ## Customize underlying records
 
