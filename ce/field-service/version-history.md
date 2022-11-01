@@ -42,20 +42,20 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
 
-- Fixed bug preventing view all button to show during reflow of frontline worker setup.
-- Fixed bug preventing play button from being accessed via keyboard on getting started.
-- Sales Tax Code now shows quick create of taxable Work Orders.
-- Field Service (D365) Mobile: Added support for Advanced Filtering of date/time on the Calendar Control.
+- Fixed a bug that prevented showing the **View all** button during reflow of frontline worker setup.
+- Fixed a bug that prevented accessing the **Play** button via keyboard on Getting Started.
+- Sales Tax Code now shows quick create of taxable work orders.
+- Field Service (Dynamics 365) Mobile: Added support for advanced filtering of date/time on the calendar control.
 
 ## 8.8.77.41
 
 (Includes Universal Resource Scheduling version [3.12.91.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312912)).
 
    - Fixed a bug causing an error when loading an existing knowledge article from work order or product forms.
-   - Field Service (D365) Mobile: Improvements to device memory management while using the mobile application.
-   - Field Service (D365) Mobile: Fixed a bug which was preventing Agenda view from being available on certain tablet models.
-   - Field Service (D365) Mobile: Improved an error message was shown when trying to mark a Product as used from the Service Task Sub-grid while the product is not        active.
-   - Field Service (D365) Mobile: Fixed a bug which was preventing Inspections - File Type question from selecting multiple files.
+   - Field Service (Dynamics 365) Mobile: Improvements to device memory management while using the mobile application.
+   - Field Service (Dynamics 365) Mobile: Fixed a bug which was preventing the agenda view from being available on certain tablet models.
+   - Field Service (Dynamics 365) Mobile: Improved an error message that was shown when trying to mark a product as used from the service task sub-grid while the product is inactive.
+   - Field Service (Dynamics 365) Mobile: Fixed a bug which was preventing Inspections - File Type question from selecting multiple files.
 
    
 ## 8.8.76.55
