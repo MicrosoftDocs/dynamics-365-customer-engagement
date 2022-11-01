@@ -47,7 +47,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                      | msdynmkt_reason         | The field indicates the reason   for the email block. e,g, <br>      <br>     InvalidRecipientAddress, InvalidSenderAddress etc.                                                                                            |   |   |   |   |   |   |   |
 |                      | msdynmkt_category       | Not used for email blocked                                                                                                                                                                                                  |   |   |   |   |   |   |   |
 | msdynmkt_emaildelivered       |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
-|                      | msdynmkt_deliveredcount | It's used to handle the case where there's a bounce after delivery; for a delivered interaction, we put a 1, for a bounce, we put a -1, and it's handled in analytics to tell the correct number. |   |   |   |   |   |   |   |
+|                      | msdynmkt_deliveredcount | It's used to handle the case where there's a bounce after delivery. For a delivered interaction, we put a 1, for a bounce, we put a -1, and it's handled in analytics to tell the correct number. |   |   |   |   |   |   |   |
 |                      | msdynmkt_details        | Generic field that was introduced if needed in future                                                                                                                                                                      |   |   |   |   |   |   |   |
 |                               |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
 | msdynmkt_emailbounced         |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
@@ -76,7 +76,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 | **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
-| msdynmkt_smsbounced         |                                   |                                                                                      |   |   |   |   |  
+| msdynmkt_smsbounced         |                                   |                    
 |                      | msdynmkt_country                  | The field indicates three letter ISO code of the recipient phone number country          |   |   |   |   |   |   |   |
 |                      | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
 |                      | msdynmkt_reason                   | One of several failure reason codes, indicating a root cause of delivery failure.    |   |   |   |   |   |   |   |
@@ -111,3 +111,19 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                       | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
 |                       | msdynmkt_recipientphonenumer      | The field indicates the phone number of the recipient.                               |   |   |   |   |   |   |   |
 |                       | mdynmkt_senderphonenumber         | The field indicates the phone number of the sender.                                  |   |   |   |   |   |   |   |
+#### Channel: *Push* |*[<u>Source</u>](https://dev.azure.com/dynamicscrm/CXPlatform/_git/CXP-Main?path=%2Fsrc%2FSolutions%2FEmailChannel%2FSolution%2Funmanaged%2FAssets%2Fcatalogassignments.xml&_a=contents&version=GBmaster)*
+
+| **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
+|--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
+| Common Properties     | msdynmkt_deviceid  | This field   contains identifier of the recipient mobile device information stored in   Dataverse |   |   |   |   |   |   |   |
+|--------------------------------------|--------------------|---------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|
+|                       | msdynmkt_platform  | The field   indicates mobile platform used for submission (iOS or Android)                        |   |   |   |   |   |   |   |
+| msdynmkt_pushnotificationlinkclicked |                    |                                                                                                   |   |   |   |   |   |   |   |
+|                       | msdynmkt_linkname  | The field   indicates the link name. This is complete html content of the link.                   |   |   |   |   |   |   |   |
+|                       | msdynmkt_targeturl | The field   indicates the target url of the link clicked.                                         |   |   |   |   |   |   |   |
+|                                      |                    |                                                                                                   |   |   |   |   |   |   |   |
+| msdynmkt_pushnotificationnotsent     |                    |                                                                                                   |   |   |   |   |   |   |   |
+|                       | msdynmkt_reason    | One of several   failure reason codes, indicating a root cause of submission failure.             |   |   |   |   |   |   |   |
+| msdynmkt_pushnotificationopened      |                    |                                                                                                   |   |   |   |   |   |   |   |
+|                                      |                    |                                                                                                   |   |   |   |   |   |   |   |
+| msdynmkt_pushnotificationsent        |                    |                                                                                                   |   |   |   |   |   |   |   |
