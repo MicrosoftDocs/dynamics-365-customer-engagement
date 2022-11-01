@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ocprovisioningstate Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocprovisioningstate entity."
+title: "msdyn_ocvoice Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocvoice entity."
 ms.date: 11/01/2022
 ms.topic: "reference"
 author: "gandhamm"
@@ -10,49 +10,48 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_ocprovisioningstate Entity reference
+# msdyn_ocvoice Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Provisioning state
+**Added by**: Omnichannel - Telephony Solution
 
-**Added by**: Omnichannel Shared Base Solution
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates(*msdyn_ocprovisioningstateid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocvoices<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates(*msdyn_ocprovisioningstateid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates(*msdyn_ocprovisioningstateid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocvoices<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates(*msdyn_ocprovisioningstateid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocprovisioningstates(*msdyn_ocprovisioningstateid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_ocprovisioningstates|
-|DisplayCollectionName|Provisioning States|
-|DisplayName|Provisioning State|
-|EntitySetName|msdyn_ocprovisioningstates|
+|CollectionSchemaName|msdyn_ocvoices|
+|DisplayCollectionName|Voices|
+|DisplayName|Voice|
+|EntitySetName|msdyn_ocvoices|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_ocprovisioningstates|
-|LogicalName|msdyn_ocprovisioningstate|
+|LogicalCollectionName|msdyn_ocvoices|
+|LogicalName|msdyn_ocvoice|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_ocprovisioningstateid|
+|PrimaryIdAttribute|msdyn_ocvoiceid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ocprovisioningstate|
+|SchemaName|msdyn_ocvoice|
 
 <a name="writable-attributes"></a>
 
@@ -61,19 +60,13 @@ Provisioning state
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_communicationprovidersettingid](#BKMK_msdyn_communicationprovidersettingid)
-- [msdyn_errormessage](#BKMK_msdyn_errormessage)
-- [msdyn_exceptiondetails](#BKMK_msdyn_exceptiondetails)
+- [msdyn_languageid](#BKMK_msdyn_languageid)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocfbapplicationid](#BKMK_msdyn_ocfbapplicationid)
-- [msdyn_ocfbpageid](#BKMK_msdyn_ocfbpageid)
-- [msdyn_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfigid)
-- [msdyn_ocprovisioningstateId](#BKMK_msdyn_ocprovisioningstateId)
-- [msdyn_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfigid)
-- [msdyn_ocwhatsappchannelaccountId](#BKMK_msdyn_ocwhatsappchannelaccountId)
-- [msdyn_phonenumberid](#BKMK_msdyn_phonenumberid)
-- [msdyn_provisioningresponse](#BKMK_msdyn_provisioningresponse)
-- [msdyn_voicechannelsettingid](#BKMK_msdyn_voicechannelsettingid)
+- [msdyn_ocvoiceId](#BKMK_msdyn_ocvoiceId)
+- [msdyn_pitch](#BKMK_msdyn_pitch)
+- [msdyn_speakingspeed](#BKMK_msdyn_speakingspeed)
+- [msdyn_voicename](#BKMK_msdyn_voicename)
+- [msdyn_voicestyle](#BKMK_msdyn_voicestyle)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -100,54 +93,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_communicationprovidersettingid"></a> msdyn_communicationprovidersettingid
-
-**Added by**: Omnichannel Shared CommunicationBase Solution
+### <a name="BKMK_msdyn_languageid"></a> msdyn_languageid
 
 |Property|Value|
 |--------|-----|
-|Description|Related Communication Provider Settings|
-|DisplayName|CommunicationProviderSettings|
+|Description|Language|
+|DisplayName|Language|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_communicationprovidersettingid|
+|LogicalName|msdyn_languageid|
 |RequiredLevel|None|
-|Targets|msdyn_occommunicationprovidersetting|
+|Targets|msdyn_oclanguage|
 |Type|Lookup|
-
-
-### <a name="BKMK_msdyn_errormessage"></a> msdyn_errormessage
-
-|Property|Value|
-|--------|-----|
-|Description|Additional details|
-|DisplayName|Additional details|
-|Format|TextArea|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_errormessage|
-|MaxLength|8192|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_exceptiondetails"></a> msdyn_exceptiondetails
-
-**Added by**: Omnichannel - Facebook Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Exception Details during channel provisioning|
-|DisplayName|Error Message (Deprecated)|
-|Format|TextArea|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_exceptiondetails|
-|MaxLength|8192|
-|RequiredLevel|ApplicationRequired|
-|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -166,146 +123,82 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ocfbapplicationid"></a> msdyn_ocfbapplicationid
-
-**Added by**: Omnichannel – Facebook Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Related Facebook application|
-|DisplayName|Facebook Application|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocfbapplicationid|
-|RequiredLevel|None|
-|Targets|msdyn_ocfbapplication|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ocfbpageid"></a> msdyn_ocfbpageid
-
-**Added by**: Omnichannel – Facebook Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Related Facebook page|
-|DisplayName|Facebook Page|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocfbpageid|
-|RequiredLevel|None|
-|Targets|msdyn_ocfbpage|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_oclinechannelconfigid"></a> msdyn_oclinechannelconfigid
-
-**Added by**: Omnichannel – SocialChannels Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Related Line Channel|
-|DisplayName|Line Channel|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_oclinechannelconfigid|
-|RequiredLevel|None|
-|Targets|msdyn_oclinechannelconfig|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ocprovisioningstateId"></a> msdyn_ocprovisioningstateId
+### <a name="BKMK_msdyn_ocvoiceId"></a> msdyn_ocvoiceId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Provisioning State|
+|DisplayName|voice|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_ocprovisioningstateid|
+|LogicalName|msdyn_ocvoiceid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_octeamschannelconfigid"></a> msdyn_octeamschannelconfigid
-
-**Added by**: Omnichannel - Teams Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Related Teams Channel|
-|DisplayName|Teams Channel|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_octeamschannelconfigid|
-|RequiredLevel|None|
-|Targets|msdyn_octeamschannelconfig|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ocwhatsappchannelaccountId"></a> msdyn_ocwhatsappchannelaccountId
-
-**Added by**: Omnichannel – SocialChannels Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Related WhatsApp Account|
-|DisplayName|WhatsApp Account|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocwhatsappchannelaccountid|
-|RequiredLevel|None|
-|Targets|msdyn_ocwhatsappchannelaccount|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_phonenumberid"></a> msdyn_phonenumberid
-
-**Added by**: Omnichannel Shared CommunicationBase Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Related Phone Number|
-|DisplayName|Phone Number|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_phonenumberid|
-|RequiredLevel|None|
-|Targets|msdyn_ocphonenumber|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_provisioningresponse"></a> msdyn_provisioningresponse
-
-|Property|Value|
-|--------|-----|
-|Description|Response for the provisioning action|
-|DisplayName|msdyn_provisioningresponse|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_provisioningresponse|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_voicechannelsettingid"></a> msdyn_voicechannelsettingid
-
-**Added by**: Omnichannel - Telephony Solution
+### <a name="BKMK_msdyn_pitch"></a> msdyn_pitch
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|voicechannelsettingsid|
+|DisplayName|pitch|
+|Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_voicechannelsettingid|
+|LogicalName|msdyn_pitch|
+|MaxValue|50|
+|MinValue|-50|
 |RequiredLevel|None|
-|Targets|msdyn_ocvoicechannelsetting|
-|Type|Lookup|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_speakingspeed"></a> msdyn_speakingspeed
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|speaking speed|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_speakingspeed|
+|MaxValue|200|
+|MinValue|-100|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_voicename"></a> msdyn_voicename
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|voice name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_voicename|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_voicestyle"></a> msdyn_voicestyle
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|voice style|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_voicestyle|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -359,7 +252,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Provisioning State|
+|Description|Status of the voice|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -372,8 +265,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
-|0|Active|192350001|Active|
-|1|Inactive|192350003|Inactive|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
@@ -381,7 +274,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Provisioning State|
+|Description|Reason for the status of the voice|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -393,12 +286,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|State|
 |-----|-----|-----|
-|192350001|Draft|0|
-|192350002|Processing|0|
-|192350003|Running|0|
-|192350004|Error|0|
-|192350005|Deprovisioning|0|
-|192350006|Deprovisioned|1|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
@@ -453,14 +342,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_communicationprovidersettingidName](#BKMK_msdyn_communicationprovidersettingidName)
-- [msdyn_ocfbapplicationidName](#BKMK_msdyn_ocfbapplicationidName)
-- [msdyn_ocfbpageidName](#BKMK_msdyn_ocfbpageidName)
-- [msdyn_oclinechannelconfigidName](#BKMK_msdyn_oclinechannelconfigidName)
-- [msdyn_octeamschannelconfigidName](#BKMK_msdyn_octeamschannelconfigidName)
-- [msdyn_ocwhatsappchannelaccountIdName](#BKMK_msdyn_ocwhatsappchannelaccountIdName)
-- [msdyn_phonenumberidName](#BKMK_msdyn_phonenumberidName)
-- [msdyn_voicechannelsettingidName](#BKMK_msdyn_voicechannelsettingidName)
+- [msdyn_languageidName](#BKMK_msdyn_languageidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -708,9 +590,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_communicationprovidersettingidName"></a> msdyn_communicationprovidersettingidName
-
-**Added by**: Omnichannel Shared CommunicationBase Solution
+### <a name="BKMK_msdyn_languageidName"></a> msdyn_languageidName
 
 |Property|Value|
 |--------|-----|
@@ -720,133 +600,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_communicationprovidersettingidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ocfbapplicationidName"></a> msdyn_ocfbapplicationidName
-
-**Added by**: Omnichannel – Facebook Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocfbapplicationidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ocfbpageidName"></a> msdyn_ocfbpageidName
-
-**Added by**: Omnichannel – Facebook Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocfbpageidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_oclinechannelconfigidName"></a> msdyn_oclinechannelconfigidName
-
-**Added by**: Omnichannel – SocialChannels Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_oclinechannelconfigidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_octeamschannelconfigidName"></a> msdyn_octeamschannelconfigidName
-
-**Added by**: Omnichannel - Teams Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_octeamschannelconfigidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ocwhatsappchannelaccountIdName"></a> msdyn_ocwhatsappchannelaccountIdName
-
-**Added by**: Omnichannel – SocialChannels Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocwhatsappchannelaccountidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_phonenumberidName"></a> msdyn_phonenumberidName
-
-**Added by**: Omnichannel Shared CommunicationBase Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_phonenumberidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_voicechannelsettingidName"></a> msdyn_voicechannelsettingidName
-
-**Added by**: Omnichannel - Telephony Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_voicechannelsettingidname|
+|LogicalName|msdyn_languageidname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -970,6 +724,26 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="onetomany"></a>
+
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid"></a> msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid
+
+Same as msdyn_ocvoicechannellanguagesetting table [msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_ocvoicechannellanguagesetting|
+|ReferencingAttribute|msdyn_ocvoiceid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### See also
