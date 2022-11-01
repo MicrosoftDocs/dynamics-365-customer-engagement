@@ -116,7 +116,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 | **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
 | Common Properties     | msdynmkt_deviceid  | This field   contains identifier of the recipient mobile device information stored in   Dataverse |   |   |   |   |   |   |   |
-|--------------------------------------|--------------------|---------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|
+
 |                       | msdynmkt_platform  | The field   indicates mobile platform used for submission (iOS or Android)                        |   |   |   |   |   |   |   |
 | msdynmkt_pushnotificationlinkclicked |                    |                                                                                                   |   |   |   |   |   |   |   |
 |                       | msdynmkt_linkname  | The field   indicates the link name. This is complete html content of the link.                   |   |   |   |   |   |   |   |
