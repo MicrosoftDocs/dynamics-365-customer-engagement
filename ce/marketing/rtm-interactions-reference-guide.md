@@ -76,8 +76,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 | **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
-| msdynmkt_smsbounced         |                                   |                                                                                      |   |   |   |   |   |   |   |
-|-----------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---|---|---|---|---|---|---|
+| msdynmkt_smsbounced         |                                   |                                                                                      |   |   |   |   |  
 |                      | msdynmkt_country                  | The field indicates three letter ISO code of the recipient phone number country          |   |   |   |   |   |   |   |
 |                      | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
 |                      | msdynmkt_reason                   | One of several failure reason codes, indicating a root cause of delivery failure.    |   |   |   |   |   |   |   |
