@@ -38,8 +38,8 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 #### Channel: *Common* | Email:	*[<u>Source</u>](https://dev.azure.com/dynamicscrm/CXPlatform/_git/CXP-Main?path=%2Fsrc%2FSolutions%2FEmailChannel%2FSolution%2Funmanaged%2FAssets%2Fcatalogassignments.xml&_a=contents&version=GBmaster)*
 
-| **Table**             | **Column**              | **Description**                                                                                                                                                                                                             |   |   |   |   |   |   |   |
-|-------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|
+| **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
+|--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
 | Common                | msdynmkt_emailaddress   | The fields indicate the email address of the C2 user.                                                                                                                                                                       |   |   |   |   |   |   |   |
 |                       | Msdynmkt_sourcesystem   | The field indicates as the record is from Outbound marketing (OBM) or real time   marketing (RTM). '1' means its OBM otherwise its RTM.                                                                                   |   |   |   |   |   |   |   |
 | msdynmkt_emailblocked         |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
@@ -72,3 +72,41 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                               |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
 | msdynmkt_emailaddressoptedout |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
 |                      | msdynmkt_reason         | Different reason for opting out                                                                                                                                                                                             |   |   |   |   |   |   |   |
+| **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
+|--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
+| msdynmkt_smsbounced         |                                   |                                                                                      |   |   |   |   |   |   |   |
+|-----------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---|---|---|---|---|---|---|
+|                      | msdynmkt_country                  | The field indicates three letter ISO code of the recipient phone number country          |   |   |   |   |   |   |   |
+|                      | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
+|                      | msdynmkt_reason                   | One of several failure reason codes, indicating a root cause of delivery failure.    |   |   |   |   |   |   |   |
+|                      | msdynmkt_recipientphonenumer      | The field indicates the phone number of the recipient.                               |   |   |   |   |   |   |   |
+|                      | mdynmkt_senderphonenumber         | The field indicates the phone number of the sender.                                  |   |   |   |   |   |   |   |
+| msdynmkt_smsconsentnotgiven |                                   |                                                                                      |   |   |   |   |   |   |   |
+| msdynmkt_smsdelivered       |                                   |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                  | The field indicates three letter ISO code of the recipient phone number country          |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer      | The field indicates the phone number of the recipient.                               |   |   |   |   |   |   |   |
+|                       | mdynmkt_senderphonenumber         | The field indicates the phone number of the sender.                                  |   |   |   |   |   |   |   |
+| msdynmkt_smslinkclicked     |                                   |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                  | The field indicates three letter ISO code of the recipient phone number country          |   |   |   |   |   |   |   |
+|                       | msdynmkt_targeturl                | The field indicates the target URL of the link clicked.                              |   |   |   |   |   |   |   |
+|                       | msdynmkt_linkname                 | The field indicates the link name. It's a complete html content of the link.        |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer      | The field indicates the phone number of the recipient.                               |   |   |   |   |   |   |   |
+| msdynmkt_smsnotsent         |                                   |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                  | The field indicates three letter ISO code of the recipient phone number country          |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
+|                       | msdynmkt_reason                   | One of several failure reason codes, indicating a root cause of submission failure.  |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer      | The field indicates the phone number of the recipient.                               |   |   |   |   |   |   |   |
+|                       | mdynmkt_senderphonenumber         | The field indicates the phone number of the sender.                                  |   |   |   |   |   |   |   |
+| msdynmkt_smsreceived        |                                   |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                  | The field indicates three letter ISO code of the C2 phone number country                 |   |   |   |   |   |   |   |
+|                       | msdynmkt_organizationcontactpoint | The field indicates the C1 phone number.                                             |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype        | The field indicates type of C1 phone number provider (for example, Twilio, Telesign)         |   |   |   |   |   |   |   |
+|                             | msdynmkt_text                     |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_usercontactpoint         | The field indicates the C2 phone number.                                             |   |   |   |   |   |   |   |
+| msdynmkt_smssent            |                                   |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                  | The field indicates three letter ISO code of the sender phone number country             |   |   |   |   |   |   |   |
+|                             |                                   |                                                                                      |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype        | The field indicates type of sender phone number provider (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer      | The field indicates the phone number of the recipient.                               |   |   |   |   |   |   |   |
+|                       | mdynmkt_senderphonenumber         | The field indicates the phone number of the sender.                                  |   |   |   |   |   |   |   |
