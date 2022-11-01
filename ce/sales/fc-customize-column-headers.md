@@ -96,10 +96,12 @@ Add the column header resource file to specify the string customizations such th
         ```
 1. Add your header customizations using the ```<data>``` node.  
     In the above code sample, **Forecast** and **Won** column names are overridden with **Projections** and **Deals won**.
+    > [!NOTE]
+    > The column names should be exactly the same as column name you configured in the **Layout** step of the forecast.
 
-3. Save the file using the following naming convention:
-    filename.languagecode.xml
-    Example: ColumnHeader.1033.xml
+3. Save the file using the following naming convention:  
+    filename.languagecode.xml  
+    **Example:** ColumnHeader.1033.xml  
 4. Repeat steps 1 through 4 to add language-specific resource files. For example, to add French translations for column names, add a resource file named ColumnHeader.1036.xml.
 
 ## Modify the manifest file
@@ -113,7 +115,7 @@ The control manifest is an XML file that contains the metadata of the code compo
      ```xml
       <control namespace="YourNamespace" constructor="ColumnHeader" version="0.0.2" display-name-key="ColumnHeader" description-key="ColumnHeader description" control-type="standard" >
      ```
-1. Add the following ```property``` node to specify that you're overriding the columnName property:
+1. Add the following ```property``` node as-is to specify that you're overriding the columnName property:
     `<property name="columnName" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />` 
 
 1. Update the `<resources>` node to specify the path to the resource files that include the customizations:
@@ -146,6 +148,7 @@ The next step after modifying the manifest file is to implement the component lo
     ```  
 
 ## Next steps  
-- [Package a code component](/power-apps/developer/component-framework/import-custom-controls)
-- [Override column headers (preview)](forecast-configure-advanced-settings.md#override-column-headers-preview)
+- [Build the code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#build-your-component)  
+- [Package the code component](/power-apps/developer/component-framework/import-custom-controls)  
+- [Override column headers (preview)](forecast-configure-advanced-settings.md#override-column-headers-preview)  
 
