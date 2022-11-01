@@ -72,6 +72,8 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                               |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
 | msdynmkt_emailaddressoptedout |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
 |                      | msdynmkt_reason         | Different reason for opting out                                                                                                                                                                                             |   |   |   |   |   |   |   |
+#### Channel: *SMS* |*[<u>Source</u>](https://dev.azure.com/dynamicscrm/CXPlatform/_git/CXP-Main?path=%2Fsrc%2FSolutions%2FEmailChannel%2FSolution%2Funmanaged%2FAssets%2Fcatalogassignments.xml&_a=contents&version=GBmaster)*
+
 | **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
 | msdynmkt_smsbounced         |                                   |                                                                                      |   |   |   |   |   |   |   |
