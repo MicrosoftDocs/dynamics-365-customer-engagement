@@ -78,6 +78,9 @@ Forms can be found in section Channel of the left menu. Open the list of forms a
 
     > [!div class="mx-imgBorder"]
     > ![Choose a template or skip the selection.](media/real-time-marketing-form-template-gallery.png)
+    
+    > [!div class="mx-imgBorder"]
+    > [ ![Image alt text.](media/real-time-marketing-form-template-gallery.png) ](media/real-time-marketing-form-template-gallery.png#lightbox)
 
 1. Now you can see the list of questions represented by **form fields**. The list of available fields can be found in the right pane and it includes all attributes of the selected target audience (entity). If you create a new custom attribute for the entity, it will be visible in this list and you can immediately use it as a field in your form. You can use the search bar in the list of fields to filter the field you are looking for.
 
@@ -181,10 +184,14 @@ The validation process is automatically launched along with form publishing and 
 
 The form validation process can be also launched manually.
 
+**Important ToDo**
+
+- OOB fields are filtered
+
 ## Security notice
 
 The security is an important aspect of forms. We take the following precautions to avoid any security risks:
 
-- D365 Marketing accepts form submissions only from whitelisted domains.
-- The CSRF protection for embedded forms is implemented via “correlation id” that is delivered via in-browser cross-domain message passing with origin check. We sanitize data coming from untrusted sources and our json serialization parses only known classes, so we are protected against payload injection.
+- D365 Marketing accepts form submissions from whitelisted domains only.
+- 
 - We have necessary precautions in the infrastructure to minimize the impacts of a possible DDoS attack.
