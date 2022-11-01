@@ -15,15 +15,13 @@ Using custom controls in Power Apps, you can customize column headers in the for
 
 ## Prerequisites
 
-- You must have a good knowledge and experience with creating custom controls in Power Apps.  
-
-- Create and build a code component for the column header component. For more information, see [Create and build a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf).
+- [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component).
 
 ## Add the column header resource file
 
 Add the column header resource file to specify the string customizations such the column names and its translations.  
 
-1. Create the following folder structure under your component folder:  
+1. Create the following folder structure under your component project folder:  
     ```ColumnHeader > strings```
 1.  Create a resource file with the following content:
     ```xml
@@ -106,18 +104,19 @@ Add the column header resource file to specify the string customizations such th
 
 ## Modify the manifest file
 
-The control manifest is an XML file that contains the metadata of the code component. It also defines the behavior of the code component. 
+The control manifest is an XML file that contains the metadata of the code component. It also defines the behavior of the code component.  
 
 1. Open the ControlManifest.Input.XML file.
 
-1. Update the ```control``` node as follows:
+1. Update the parameters in the ```control``` node if required. For more information about each parameter, see [Implementing manifest](/power-apps/developer/component-framework/implementing-controls-using-typescript#implementing-manifest).
+
      ```xml
       <control namespace="YourNamespace" constructor="ColumnHeader" version="0.0.2" display-name-key="ColumnHeader" description-key="ColumnHeader description" control-type="standard" >
      ```
 1. Add the following ```property``` node to specify that you're overriding the columnName property:
     `<property name="columnName" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />` 
 
-1. Add the `<resources>` node to specify the path to the resource files that includes the customizations:
+1. Update the `<resources>` node to specify the path to the resource files that include the customizations:
     ```xml
     <resources>
       <code path="index.ts" order="1"/>
