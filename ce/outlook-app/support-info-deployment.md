@@ -26,7 +26,7 @@ search.app:
 This topic contains requirements, limits, and configuration values for Dynamics 365 App for Outlook
 
 > [!IMPORTANT] 
-> Following the [end of support for Internet Explorer and Microsoft Edge legacy](/power-platform/admin/support-end-internet-explorer), Dynamics 365 App for Outlook will not work on versions of Microsoft Outlook that uses IE or Legacy Edge WebView starting October 31 2022. 
+> Following the [end of support for Internet Explorer and Microsoft Edge legacy](/power-platform/admin/support-end-internet-explorer), Dynamics 365 App for Outlook will not work on versions of Microsoft Outlook that uses Internet Explorer or Legacy Edge WebView starting October 31, 2022. 
 
 
 ## Email
