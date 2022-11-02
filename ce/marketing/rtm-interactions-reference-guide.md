@@ -69,30 +69,30 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 | **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
-| msdynmkt\_smsbounced         |                                   |                    
+| msdynmkt_smsbounced         |
 |                      | msdynmkt_country                  | The three letter ISO code associated with the SMS recipient's country.          |   |   |   |   |   |   |   |
 |                      | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
 |                      | msdynmkt_reason                   | Failure of reason codes with a root cause of delivery failure.    |   |   |   |   |   |   |   |
 |                      | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |   |   |   |   |   |   |   |
 |                      | mdynmkt_senderphonenumber         | The sender's phone number.                                  |   |   |   |   |   |   |   |
-| msdynmkt_smsconsentnotgiven                             |   |   |   |   |   |   |   |
-| msdynmkt_smsdelivered      |                                   |                                                                             |   |   |   |   |   |   |   |
-|                       | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.          |   |   |   |   |   |   |   |
-|                       | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
-|                       | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |   |   |   |   |   |   |   |
-|                       | mdynmkt_senderphonenumber         | The sender's phone number.                                  |   |   |   |   |   |   |   |
+| msdynmkt_smsconsentnotgiven            |   |   |   |   |   |   |   |
+| msdynmkt_smsdelivered      |                                   |                                                              |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                 | The country-specific three-letter ISO code for the recipient phone number.          |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype       | The sender's phone number provider's type (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer     | The recipient's phone number.                               |   |   |   |   |   |   |   |
+|                       | mdynmkt_senderphonenumber        | The sender's phone number.                                  |   |   |   |   |   |   |   |
 | msdynmkt\_smslinkclicked     |                                   |                                                                           |   |   |   |   |   |   |   |
-|                       | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.          |   |   |   |   |   |   |   |
-|                       | msdynmkt_targeturl                | The target URL of the link clicked.                              |   |   |   |   |   |   |   |
-|                       | msdynmkt_linkname                 | Description of the link name. It's a complete html content of the link.        |   |   |   |   |   |   |   |
-|                       | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                 | The country-specific three-letter ISO code for the recipient phone number.          |   |   |   |   |   |   |   |
+|                       | msdynmkt_targeturl               | The target URL of the link clicked.                              |   |   |   |   |   |   |   |
+|                       | msdynmkt_linkname                | Description of the link name. It's a complete html content of the link.        |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer     | The recipient's phone number.                               |   |   |   |   |   |   |   |
 | msdynmkt\_smsnotsent        |                                   |                                                                            |   |   |   |   |   |   |   |
-|                       | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.          |   |   |   |   |   |   |   |
-|                       | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
-|                       | msdynmkt_reason                   | Failure of reason codes with a root cause of submission failure.  |   |   |   |   |   |   |   |
-|                       | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |   |   |   |   |   |   |   |
-|                       | mdynmkt_senderphonenumber         | The sender's phone number.                                  |   |   |   |   |   |   |   |
-| msdynmkt\_smsreceived        |                                   |                                                   |   |   |   |   |   |   |   |The country-specific three-letter ISO code for the customer's phone number.                 |   |   |   |   |   |   |   |
+|                       | msdynmkt_country                 | The country-specific three-letter ISO code for the recipient phone number.          |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype       | The sender's phone number provider's type (for example, Twilio, Telesign)     |   |   |   |   |   |   |   |
+|                       | msdynmkt_reason                  | Failure of reason codes with a root cause of submission failure.  |   |   |   |   |   |   |   |
+|                       | msdynmkt_recipientphonenumer     | The recipient's phone number.                               |   |   |   |   |   |   |   |
+|                       | mdynmkt_senderphonenumber        | The sender's phone number.                                  |   |   |   |   |   |   |   |
+| msdynmkt\_smsreceived        |                                   |                                                   |   |   |   |   |   |   |  |The country-specific three-letter ISO code for the customer's phone number.                 |   |   |   |   |   |   |   |
 |                       | msdynmkt_organizationcontactpoint | The customer's phone number.                                             |   |   |   |   |   |   |   |
 |                       | msdynmkt_phoneprovidertype        | The customer's phone number provider's type (for example, Twilio, Telesign)         |   |   |   |   |   |   |   |
 |                             | msdynmkt_text                     |                                                                                      |   |   |   |   |   |   |   |
