@@ -55,7 +55,7 @@ The following prerequisites must be met:
 
 > [!IMPORTANT]
 >
-> - The migration of the account, channel, Azure Communication Services phone number acquisition, phone number configuration, bot configuration, and AI and analytics settings is not in scope.
+> The migration of the account, channel, Azure Communication Services phone number acquisition, phone number configuration, bot configuration, and AI and analytics settings is not in scope.
 
 ## Export and import the voice channel configuration
 
