@@ -2,7 +2,7 @@
 title: "System requirements, limits, and configuration values for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
-ms.date: 05/20/2021
+ms.date: 11/02/2022
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,13 +20,13 @@ search.app:
 ---
 
 
-# System requirements, limits, and configuration values for App for Outlook
+# System requirements, limits, and configuration values for Dynamics 365 App for Outlook
 
 
 This topic contains requirements, limits, and configuration values for Dynamics 365 App for Outlook
 
 > [!IMPORTANT] 
-> Following the [end of support for Internet Explorer and Microsoft Edge legacy](https://learn.microsoft.com/en-us/power-platform/admin/support-end-internet-explorer), Dynamics 365 App for Outlook will not work on versions of Microsoft Outlook that uses IE or Legacy Edge WebView starting October 31 2022. 
+> Following the [end of support for Internet Explorer and Microsoft Edge legacy](/power-platform/admin/support-end-internet-explorer), Dynamics 365 App for Outlook will not work on versions of Microsoft Outlook that uses IE or Legacy Edge WebView starting October 31 2022. 
 
 
 ## Email
@@ -34,7 +34,7 @@ This topic contains requirements, limits, and configuration values for Dynamics 
  | **Server/client type** | **Supported version** |
 |---------|---------|
 |**Email Server**     |  <ul><li>Exchange Server 2013 CU 14 or greater</li><br/><li>Exchange Server 2016</li><br/> <li>Exchange Server 2019</li><br/><li>Exchange Online</li></ul>       |
-|**Email Client**     |  <ul><li>All Microsoft Outlook desktop clients on Windows that use [Edge WebView2](https://learn.microsoft.com/en-us/power-platform/admin/support-end-internet-explorer) </li><br/>  <li>Outlook for MAC</li><br/> <li>Outlook for iOS (with Exchange Online, on Apple iPhone 6S or higher, running iOS version 8 or higher)</li><br/>  <li>Outlook for Android (with Exchange Online, on Android phones running Android 4.4,5.0,6.0, or 7.0)</li></ul>  **Note** Support for 2013 versions of Microsoft 365 ProPlus ended February 28, 2017        |
+|**Email Client**     |  <ul><li>All Microsoft Outlook desktop clients on Windows that use [Edge WebView2](/power-platform/admin/support-end-internet-explorer) </li><br/>  <li>Outlook for MAC</li><br/> <li>Outlook for iOS (with Exchange Online, on Apple iPhone 6S or higher, running iOS version 8 or higher)</li><br/>  <li>Outlook for Android (with Exchange Online, on Android phones running Android 4.4,5.0,6.0, or 7.0)</li></ul>  **Note** Support for 2013 versions of Microsoft 365 ProPlus ended February 28, 2017        |
 |**Browser (Outlook Web Access)**     | <li>Microsoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome (Compose mode supported with Exchange on premise 2016 or higher and Exchange Online)</li><br/>   <li>Mozilla Firefox (Compose mode supported with Exchange on premise 2016 or higher and Exchange Online)</li><br/>      |
 
 
@@ -60,7 +60,7 @@ This topic contains requirements, limits, and configuration values for Dynamics 
 ## Supported languages  
 [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] supports the following languages:  
 
-||||  
+| &nbsp;| &nbsp;| &nbsp;|  
 |-|-|-|  
 |Bulgarian (Bulgaria) - 1026|Hebrew - 1037|Portuguese (Brazil) - 1046|  
 |Chinese (People's Republic of China) - 2052|Hindi (India) - 1081|Portuguese (Portugal) - 2070|  
