@@ -48,6 +48,8 @@ Frequency cap setting is enabled by default for all journeys. Once the frequency
 - Click to edit a journey (only draft journeys can be edited, live journeys will have to be republished with a new setting)
 - Under Other settings, you will find Frequency cap. Here you will be able to exclude the journey from frequency cap. 
 
+![Screenshot 2022-11-02 at 15 06 22](https://user-images.githubusercontent.com/110179398/199518286-d2654fea-dd8e-44b8-8d0e-0d0acda606d1.png)
+
 ## How does frequency capping work 
 ### How do the message counters work
 Only messages marked as "transactional" are counted towards the limits you define in global settings. The counter will calculate the number of messages sent to a contact-point (email address for email, phone number for SMS and entity ID for push) in last 24 hours (daily cap), 7 days (weekly cap) and 30 days (monthly cap). 
