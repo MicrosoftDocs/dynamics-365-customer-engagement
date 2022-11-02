@@ -33,7 +33,7 @@ If a record isn't linked to the meeting, you can still add the **Dynamics 365** 
 In Dynamics 365, you can create a Teams meeting from the **Timeline** of a record or from the **Activities** page.
 
 > [!NOTE]
-> The Formats options a user has selected in their Personal Settings in Dynamics 365 affect the formatting of the Teams Meeting details saved within the Description of the meeting. To view these options, click the gear icon in the navigation bar, click **Personalization Settings**, and then click **Formats**. 
+> The personal standards and formats selected by a user in Dynamics 365 affect the formatting of the Teams meeting details saved within the description of the meeting. To view the selected format, select **Settings** > **Personalization Settings**, and then select the **Formats** tab.
 
 ### Create a Teams meeting from the Timeline
 
