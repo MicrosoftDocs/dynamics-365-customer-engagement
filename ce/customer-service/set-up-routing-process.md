@@ -20,7 +20,7 @@ You'll use Omnichannel admin center to route work items that come through differ
 
 In this article, we'll take you through the high-level process of configuring unified routing in both the apps.
 
-> [!Note]
+> [!NOTE]
 > We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
 
 ### Prerequisites
