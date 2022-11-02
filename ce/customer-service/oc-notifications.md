@@ -1,7 +1,7 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 03/23/2022
+ms.date: 11/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,17 +17,11 @@ A notification is a visual alert that appears each time you get a chat or an SMS
 Here are some scenarios where you might receive notifications:
 
 - Case assignment if record routing is configured using workstreams for unified routing
-
 - Incoming chat conversation
-
 - Incoming SMS conversation
-
 - Conversation (work item) assignment
-
 - Conversation transfer
-
 - Conversation escalation
-
 - Conversation escalation from a bot
 
 ## Receive notifications when the app is in the background
@@ -49,7 +43,7 @@ The wait time that's configured by your administrator applies to the desktop not
 
 That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. More information: [Manage notification templates and settings](../app-profile-manager/notification-templates.md)
 
-> [!Note]
+> [!NOTE]
 > The desktop notification theme is based on the Windows operating system theme and settings.
 
 ### Allow your browser to show notifications
@@ -67,6 +61,10 @@ There are two types of notifications:
 
 - **Alert notifications:** Is a type of notification where a dialog appears with action buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
+## Incoming voice call notifications
+
+You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md).
+
 ## Incoming chat notifications
 
 You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
@@ -81,7 +79,6 @@ The details you'll see for a chat channel are as configured by your administrato
 If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case will be assigned to you.
 
   > ![Case assignment notification.](media/case-assignment-notification.png "Case assignment notification")
-
 
 ## Incoming SMS notification
 
