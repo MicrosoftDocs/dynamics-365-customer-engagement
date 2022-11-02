@@ -31,8 +31,8 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                          | msynmkt_messagetemplateid  | The message template's ID, such as email template ID or SMS template ID. |   |   |   |   |
 |                          | msdynmkt_profileid         | The customer's profile ID.                                                      |   |   |   |   |
 |                          | msdynmkt_targetentity      | The target entity type such as contact or lead.                                  |   |   |   |   |
-|                          | Msdynmkt_actionid          | The action's journey definition ID.                                     |   |   |   |   |
-|                          | Msdynmkt_businessunitid    | It indicates the business unit ID.                                                               |   |   |   |   |
+|                          | msdynmkt_actionid          | The action's journey definition ID.                                     |   |   |   |   |
+|                          | msdynmkt_businessunitid    | It indicates the business unit ID.                                                               |   |   |   |   |
 |                          | Singal.Ingestion.Timestamp | The event's ingested time stamp into the CDPA system.                          |   |   |   |   |
 |                          | msdynmkt_originaltimestamp | The event's time stamp when the channel emitted it.                           |   |   |   |   |
 
@@ -41,9 +41,9 @@ The table below is sorted by real-time marketing channels (email, text message, 
 | **Table**             | **Column**              | **Description**                                                                                          |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
 | Common                | msdynmkt_emailaddress   | The customer's email address.                                                                                                                                        |   |   |   |   |   |   |   |
-|                       | Msdynmkt_sourcesystem   | '1' denotes outbound marketing; otherwise, it denotes real-time marketing.                                                                                   |   |   |   |   |   |   |   |
+|                       | msdynmkt_sourcesystem   | '1' denotes outbound marketing; otherwise, it denotes real-time marketing.                                                                                   |   |   |   |   |   |   |   |
 | msdynmkt_emailblocked         |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
-|                       | msdynmkt_details        | The blocked reasons are listed there, such as "unable to route: no mail hosts for domain.                                                                                                                  |   |   |   |   |   |   |   |
+|                       | msdynmkt_details        | The blocked reasons are listed here, such as "unable to route: no mail hosts for domain".                                                                                                                  |   |   |   |   |   |   |   |
 |                      | msdynmkt_reason         | The email block reasons are listed such as InvalidRecipientAddress, InvalidSenderAddress, etc.                                                                                            |   |   |   |   |   |   |   |
 |                      | msdynmkt_category       | Not used for email blocked                                                                                                                                                                                                  |   |   |   |   |   |   |   |
 | msdynmkt_emaildelivered       |                         |                                                                                                                                                                                                                             |   |   |   |   |   |   |   |
@@ -92,12 +92,11 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                       | msdynmkt_reason                   | Failure of reason codes with a root cause of submission failure.  |   |   |   |   |   |   |   |
 |                       | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |   |   |   |   |   |   |   |
 |                       | mdynmkt_senderphonenumber         | The sender's phone number.                                  |   |   |   |   |   |   |   |
-| msdynmkt\_smsreceived        |                                   |                                                                                      |   |   |   |   |   |   |   |
-|                       | msdynmkt_country                  | The field indicates three letter ISO code of the C2 phone number country                 |   |   |   |   |   |   |   |
-|                       | msdynmkt_organizationcontactpoint | The field indicates the C1 phone number.                                             |   |   |   |   |   |   |   |
-|                       | msdynmkt_phoneprovidertype        | The field indicates type of C1 phone number provider (for example, Twilio, Telesign)         |   |   |   |   |   |   |   |
+| msdynmkt\_smsreceived        |                                   |                                                                                      |   |   |   |   |   |   |   |The country-specific three-letter ISO code for the customer's phone number.                 |   |   |   |   |   |   |   |
+|                       | msdynmkt_organizationcontactpoint | The customer's phone number.                                             |   |   |   |   |   |   |   |
+|                       | msdynmkt_phoneprovidertype        | The customer's phone number provider's type (for example, Twilio, Telesign)         |   |   |   |   |   |   |   |
 |                             | msdynmkt_text                     |                                                                                      |   |   |   |   |   |   |   |
-|                       | msdynmkt_usercontactpoint         | The field indicates the C2 phone number.                                             |   |   |   |   |   |   |   |
+|                       | msdynmkt_usercontactpoint         | The customer's phone number.                                             |   |   |   |   |   |   |   |
 | msdynmkt\_smssent            |                                   |                                                                                      |   |   |   |   |   |   |   |
 |                       | msdynmkt_country                  | The country-specific three-letter ISO code for the sender phone number.             |   |   |   |   |   |   |   |
 |                             |                                   |                                                                                      |   |   |   |   |   |   |   |
