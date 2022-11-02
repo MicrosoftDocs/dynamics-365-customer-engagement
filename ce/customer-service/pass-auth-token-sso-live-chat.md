@@ -1,7 +1,7 @@
 ---
 title: "Pass authentication token to bot during single sign-on in live chat | Microsoft Docs"
 description: "Use this article to understand how you can pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on (SSO) in live chat."
-ms.date: 10/03/2022
+ms.date: 11/02/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
