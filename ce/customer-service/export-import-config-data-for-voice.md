@@ -55,9 +55,9 @@ The following prerequisites must be met:
 
 > [!IMPORTANT]
 >
-> - The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
+> - The migration of the account, channel, Azure Communication Services phone number acquisition, phone number configuration, bot configuration, and AI and analytics settings is not in scope.
 
-## Export and import live chat configuration
+## Export and import the voice channel configuration
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
