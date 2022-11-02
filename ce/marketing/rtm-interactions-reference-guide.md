@@ -26,13 +26,13 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 | **Table**                | **Column**                 | **Description**                                                                                         |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
-| ALL   (Email, SMS, Push) | msdynmkt_journeyid         | The journey definition's Id.                                                    |   |   |   |   |
-|                          | msdynmkt_journeyrunid      | The journey instance's Id.                                                         |   |   |   |   |
-|                          | msynmkt_messagetemplateid  | The message template's Id, such as email template Id or SMS template Id. |   |   |   |   |
-|                          | msdynmkt_profileid         | The customer's profile Id.                                                      |   |   |   |   |
+| ALL   (Email, SMS, Push) | msdynmkt_journeyid         | The journey definition's ID.                                                    |   |   |   |   |
+|                          | msdynmkt_journeyrunid      | The journey instance's ID.                                                         |   |   |   |   |
+|                          | msynmkt_messagetemplateid  | The message template's ID, such as email template ID or SMS template ID. |   |   |   |   |
+|                          | msdynmkt_profileid         | The customer's profile ID.                                                      |   |   |   |   |
 |                          | msdynmkt_targetentity      | The target entity type such as contact or lead.                                  |   |   |   |   |
 |                          | Msdynmkt_actionid          | The action's journey definition ID.                                     |   |   |   |   |
-|                          | Msdynmkt_businessunitid    | It indicates the business unit id.                                                               |   |   |   |   |
+|                          | Msdynmkt_businessunitid    | It indicates the business unit ID.                                                               |   |   |   |   |
 |                          | Singal.Ingestion.Timestamp | The event's ingested time stamp into the CDPA system.                          |   |   |   |   |
 |                          | msdynmkt_originaltimestamp | The event's time stamp when the channel emitted it.                           |   |   |   |   |
 
@@ -116,5 +116,4 @@ The table below is sorted by real-time marketing channels (email, text message, 
 | msdynmkt_pushnotificationnotsent     |                    |                                                                                                   |   |   |   |   |   |   |   |
 |                                      | msdynmkt_reason    |  Failure of reason codes with a root cause of submission failure.             |   |   |   |   |   |   |   |
 | msdynmkt_pushnotificationopened      |                    |                                                                                                   |   |   |   |   |   |   |   |
-|                                      |                    |                                                                                                   |   |   |   |   |   |   |   |
-| [msdynmkt_pushnotificationsent        |                    |                                                                                                   |   |   |   |   |   |   |   |
+| msdynmkt_pushnotificationsent        |                    |                                                                                                   |   |   |   |   |   |   |   |
