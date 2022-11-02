@@ -100,7 +100,6 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                             | msdynmkt_usercontactpoint         | The customer's   phone number.                                                         |
 | msdynmkt_smssent            |                                   |                                                                                        |
 |                             | msdynmkt_country                  | The country-specific three-letter ISO code for the customer's phone number.             |
-|                             |                                   |                                                                                        |
 |                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)     |
 |                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |
 |                             | mdynmkt_senderphonenumber         | The sender's phone number.                                  |
