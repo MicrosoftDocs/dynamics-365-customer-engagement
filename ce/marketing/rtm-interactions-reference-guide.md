@@ -19,7 +19,7 @@ search.app:
 ---
 # Reference guide for real-time marketing interactions
 
-The table below is sorted by real-time marketing channels (email, text message, push) and includes the data tables and columns real-time marketing interactions can be found in. The table also includes a description of the type of interaction data stored. For example, the description column shows that the msdynmkt_emailaddress field lists customers' email address. You can use this schema to plug the interaction data into your own reporting tools such as Microsoft Power BI.
+The table below is sorted by real-time marketing channels (email, text message, push). It includes the data tables and columns in real-time marketing interactions. The table also describes the type of interaction data stored. For example, the description column shows the msdynmkt_emailaddress field lists customers' email address. You can use this schema to plug the interaction data into your own reporting tools such as Microsoft Power BI.
 
 #### Channel: *Common Column* |	All (Email, SMS, Push)
 
