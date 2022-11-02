@@ -35,7 +35,7 @@ If you're using a Power Virtual Agents bot, ensure that you manually set up end 
 
 ## Sample code
 
-[!INCLUDE[setBotAuthTokenProvider-code-sample](developer/reference//includes/setBotAuthTokenProvider-code-sample.md)]
+[!INCLUDE[setBotAuthTokenProvider-code-sample](developer/reference/includes/setBotAuthTokenProvider-code-sample.md)]
 
 ### See also
 
