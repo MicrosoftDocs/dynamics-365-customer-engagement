@@ -13,14 +13,14 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The knowledge analytics dashboard is designed to provide your customer service supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
-The knowledge analytics dashboard is enabled by default.
+The knowledge analytics dashboard is turned **On** by default.
 
 > [!NOTE]
 > Knowledge analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
 
 ## Configure Knowledge analytics dashboard
 
-If the dashboard is disabled by you, you can again enable the dashboard in the Customer Service admin center or Customer Service Hub app.
+If the dashboard was disabled by you, you can again enable the dashboard in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge analytics dashboard**
 

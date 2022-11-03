@@ -13,7 +13,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics.
 
-The Omnichannel historical analytics reports are enabled by default.
+The Omnichannel historical analytics reports are turned **On** by default.
 
 The historical analytics reports include:
 
@@ -33,7 +33,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
 ## Enable Omnichannel historical analytics reports in Omnichannel for Customer Service
 
-If the reports are disabled by you, you can again enable the reports in the Customer Service admin center or Omnichannel admin center app.
+If the reports were disabled by you, you can again enable the reports in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    
