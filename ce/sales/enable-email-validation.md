@@ -74,7 +74,7 @@ Sellers can view invalid email addresses on record forms, work list items, and t
 
     :::image type="content" source="media/lead-email-feature-enabled.png" alt-text="Screenshot illustrating the email validation feature is enabled.":::
 
-Email validation runs immediately on the primary email address in lead records that are less than 180 days old. Subsequently, the validation runs once in every 6 hours. A red envelope icon indicates an invalid email address. New primary email addresses added later are checked automatically.
+Email validation runs immediately on the primary email address in lead records that are less than 180 days old. Subsequently, the validation runs once in every 6 hours. A red envelope icon indicates an invalid email address. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
