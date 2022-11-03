@@ -37,7 +37,7 @@ You'll receive desktop notifications when the Customer Service workspace or Omni
 
 You can accept or reject the conversation request by selecting a button on the desktop notification. When you accept the conversation request, the app is made active and displayed to you, and a session is started.
 
-If you select the notification message body and not a button, the app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
+If you select the notification message body and not a button, the app is made active, and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
 The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification.
 
@@ -98,7 +98,7 @@ The details you see for an SMS channel are as configured by your administrator.
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
 > - Missed notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
 
-When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard, and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
  > [!div class=mx-imgBorder]
  > ![Missed notification alert.](media/agent-missed-notification.png "Missed notification alert")
@@ -122,7 +122,7 @@ When you already have 10 sessions open, which is the maximum multi-session limit
 > - This alert is displayed only when the agent reject feature is enabled by your administrator.
 > - Agent reject notification alerts aren't supported in Omnichannel for Customer Service on Unified Service Desk.
 
-When you reject a work item notification, you'll see an alert at the top of your dashboard and your presence status will be set to **Do not disturb**. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+When you reject a work item notification, you'll see an alert at the top of your dashboard, and your presence status will be set to **Do not disturb**. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
 :::image type="content" source="media/agent-reject-notification-message.png" alt-text="Agent reject notification":::
 
