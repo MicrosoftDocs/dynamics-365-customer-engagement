@@ -56,7 +56,7 @@ These activities can be converted to any default (system) entity records or cust
 
 Make sure that the following prerequisites are met:
 
-- Permissions or roles to create rules; where the user creating rules must have the Power Automate License.
+- Permissions or roles to create rules; where the user creating rules must have the Power Automate license.
 - Information on the queues for which you want to create the rules.
 
 ## Configure rules for creating or updating records automatically
