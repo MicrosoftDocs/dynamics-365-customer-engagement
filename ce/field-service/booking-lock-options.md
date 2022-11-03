@@ -1,7 +1,7 @@
 ---
 title: Understand the booking lock option in Resource Scheduling Optimization
 description: Learn about the booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service.
-ms.date: 10/06/2022
+ms.date: 11/02/2022
 ms.reviewer: mhart
 ms.topic: article
 ms.author: chenryan
@@ -59,7 +59,7 @@ If you book requirement A (1 hour) to the resource Jeff and lock that booking to
 
 Excessive use of lock constraints may result in poor optimization of the final schedule. Booking lock options should be used wisely to maximize Resource Scheduling Optimization results.
 
-If a locked booking can't respect all defined constraints, the optimization request gets canceled with the following error message.
+If a locked booking can't respect all defined constraints, the optimization request will continue, skipping over the identified resources that have violations. The following error message will be generated to assist with troubleshooting.
 
 **System failed to optimize some records. Inner error(s): Locked booking is infeasible, reason: `Violation`. Tracing data points: `RequirementId`, `RequirementName`, `BookingId`, `BookingName`, `ScheduledTimeWindow`, `FullTimeWindow`, `ArrivalTime`, `Lock Type`**
 
