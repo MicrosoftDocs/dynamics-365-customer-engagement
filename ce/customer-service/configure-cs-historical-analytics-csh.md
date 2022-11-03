@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
 description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
-ms.date: 09/19/2022
+ms.date: 11/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,20 +11,20 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Customer Service historical analytics reports
 
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. 
+You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. The Customer Service historical analytics reports are enabled by default.
 
-The following historical reports are available:
+The historical reports include:
 
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
-## Enable Customer Service analytics reports
+## Enable Customer Service historical analytics reports
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-You can enable the customer service historical analytics reports in the Customer Service admin center or Customer Service Hub app.
+If the Customer Service historical analytics reports get disabled, you can enable the reports in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -46,7 +46,7 @@ You can enable the customer service historical analytics reports in the Customer
      
      1. On the **Customer Service historical analytics** page, set the **Status** toggle to enabled.
 
-1. Select **Save** or **Save & Close**.
+1. Select **Save** or **Save and Close**.
 
    This configuration will also enable AI-discovered topics from cases with default settings.
 
@@ -78,7 +78,7 @@ You can enable historical analytics for unified routing in the Customer Service 
 
      1. Set the **Status** toggle to enabled.
 
-1. Select **Save & Close**.
+1. Select **Save and Close**.
 
 After you enable the setting, you can access the report in one of the following ways:
 

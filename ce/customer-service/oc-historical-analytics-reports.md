@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 10/17/2022
+ms.date: 11/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,9 +11,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Omnichannel historical analytics reports
 
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics.
+You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics. The Omnichannel historical analytics reports are enabled by default.
 
-The following historical analytics dashboards are available:
+The historical analytics reports include:
 
 - [Summary dashboard](omnichannel-summary-dashboard.md)
 - [Conversation dashboard](oc-conversation-dashboard.md)
@@ -31,7 +31,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
 ## Enable Omnichannel historical analytics reports in Omnichannel for Customer Service
 
-You can enable Omnichannel historical analytics reports in the Customer Service admin center or Omnichannel admin center app.
+If the Omnichannel historical analytics reports get disabled, you can enable the reports in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -49,7 +49,7 @@ You can enable Omnichannel historical analytics reports in the Customer Service 
 
       The **Omnichannel historical analytics** page is displayed. Toggle the **Status** to **Enabled**.    
 
-1. Select **Save** or **Save & Close**.
+1. Select **Save** or **Save and Close**.
 
 This configuration will also enable AI-discovered topics from conversations with default settings and historical analytics for unified routing.
 
@@ -77,7 +77,7 @@ You can enable historical analytics for unified routing in the Customer Service 
 
       The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
 
-1. Select **Save** or **Save & Close**.
+1. Select **Save** or **Save and Close**.
 
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
@@ -101,7 +101,7 @@ You can enable the historical analytics for bots in the Customer Service admin c
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for bot** checkbox.
-1. Select **Save** or **Save & Close**.
+1. Select **Save** or **Save and Close**.
 
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
@@ -129,7 +129,7 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
 
       The **Historical analytics for voice** page is displayed. Toggle the **Status** to **Enabled**.    
 
-1. Select **Save** or **Save & Close**.
+1. Select **Save** or **Save and Close**.
 
 The historical analytics for voice dashboard will be available as a tab in the Omnichannel historical analytics report.
 
