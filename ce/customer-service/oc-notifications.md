@@ -37,9 +37,9 @@ You'll receive desktop notifications when the Customer Service workspace or Omni
 
 You can accept or reject the conversation request by selecting a button on the desktop notification. When you accept the conversation request, the app is made active and displayed to you, and a session is started.
 
-If you select the notification message body and not a button, the app is made active, and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
+If you select the notification message body and not a button, the app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
-The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification.
+The wait time that's configured by your administrator applies to the desktop notification but doesn't display on the desktop notification.
 
 That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. More information: [Manage notification templates and settings](../app-profile-manager/notification-templates.md)
 
@@ -98,7 +98,7 @@ The details you see for an SMS channel are as configured by your administrator.
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
 > - Missed notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
 
-When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard, and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
  > [!div class=mx-imgBorder]
  > ![Missed notification alert.](media/agent-missed-notification.png "Missed notification alert")
@@ -107,7 +107,7 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 When you don't respond to an incoming conversation notification, the conversation will time out based on the time-out settings configured by your administrator and be rerouted.
 
-Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system, but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
+Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
 
 ## Maximum session limit notifications
 
