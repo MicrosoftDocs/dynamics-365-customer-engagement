@@ -33,7 +33,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                          | msdynmkt_targetentity      | The target entity type such as contact or lead.                                  |   |   |   |   |
 |                          | msdynmkt_actionid          | The action's journey definition ID.                                     |   |   |   |   |
 |                          | msdynmkt_businessunitid    | It indicates the business unit ID.                                                               |   |   |   |   |
-|                          | Singal.Ingestion.Timestamp | The event's ingested time stamp into the CDPA system.                          |   |   |   |   |
+|                          | Signal.Ingestion.Timestamp | The event's ingested time stamp into the CDPA system.                          |   |   |   |   |
 |                          | msdynmkt_originaltimestamp | The event's time stamp when the channel emitted it.                           |   |   |   |   |
 
 #### Channel: *Common* | *Email*
