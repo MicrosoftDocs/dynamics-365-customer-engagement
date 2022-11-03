@@ -33,7 +33,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
 ## Enable Omnichannel historical analytics reports in Omnichannel for Customer Service
 
-If the Omnichannel historical analytics reports are disabled by you, you can enable the reports in the Customer Service admin center or Omnichannel admin center app.
+If the reports are disabled by you, you can again enable the reports in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    

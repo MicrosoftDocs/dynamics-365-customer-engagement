@@ -26,7 +26,7 @@ The historical reports include:
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-If the Customer Service historical analytics reports are disabled by you, you can enable the reports in the Customer Service admin center or Customer Service Hub app.
+If the reports are disabled by you, you can again enable the reports in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    

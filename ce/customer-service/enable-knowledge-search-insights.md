@@ -20,7 +20,7 @@ The knowledge analytics dashboard is enabled by default.
 
 ## Configure Knowledge analytics dashboard
 
-If the Knowledge analytics dashboard is disabled by you, you can enable the dashboard in the Customer Service admin center or Customer Service Hub app.
+If the dashboard is disabled by you, you can again enable the dashboard in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge analytics dashboard**
 
