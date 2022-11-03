@@ -1,28 +1,26 @@
 ---
-title: "Configure Knowledge analytics for Dynamics 365 | MicrosoftDocs"
-description: "Learn how to configure Knowledge analytics for Dynamics 365."
+title: "Configure knowledge analytics dashboards | MicrosoftDocs"
+description: "Learn how to configure knowledge analytics dashboards."
 ms.date: 11/03/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure Knowledge analytics for Dynamics 365 Customer Service
+# Configure knowledge analytics
 
-The knowledge analytics dashboard is designed to provide your customer service supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
+The Knowledge analytics dashboard is designed to provide your customer service supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
-The knowledge analytics dashboard is turned **On** by default.
+By default, the Knowledge analytics dashboard is enabled.
 
 > [!NOTE]
 > Knowledge analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
 
-## Configure Knowledge analytics dashboard
+## Manage Knowledge analytics dashboard
 
-If the dashboard was disabled by you, you can again enable the dashboard in the Customer Service admin center or Customer Service Hub app.
-
-**Enable the Knowledge analytics dashboard**
+Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -41,7 +39,7 @@ If the dashboard was disabled by you, you can again enable the dashboard in the 
 
     :::image type="content" source="media/cs-enable-analyticsinsights.png" alt-text="Screenshot of Knowledge analytics in Customer Service Hub":::
 
-2. Set the **Enable Knowledge analytics** toggle to **On**.
+2. Set the **Enable Knowledge analytics** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
 3. Select **Save** or **Save and Close**.
 
@@ -65,7 +63,7 @@ If the dashboard was disabled by you, you can again enable the dashboard in the 
 
 3. Select **Save** or **Save and Close**.
 
-### View Knowledge analytics reports
+### View Knowledge analytics dashboards
 
 The service managers must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
 
@@ -78,7 +76,7 @@ The **Article insights** dashboard is displayed. The **Search term insights dash
 If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 > [!NOTE]
-> The Knowledge analytics dashboard supports only English and is available only in organizations that have the base language set as English.
+> The Knowledge analytics dashboard supports content in the English language only and is available in organizations that have the base language set as English.
 
 ### See also
 

@@ -1,19 +1,19 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
-description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
+description: "Learn how to configure Customer Service historical analytics reports."
 ms.date: 11/03/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Customer Service historical analytics reports
 
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
+You can configure Customer Service historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
-The Customer Service historical analytics reports are turned **On** by default.
+By default, the Customer Service historical analytics reports are enabled.
 
 The historical reports include:
 
@@ -22,11 +22,11 @@ The historical reports include:
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
-## Enable Customer Service historical analytics reports
+## Manage Customer Service historical analytics reports
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-If the reports were disabled by you, you can again enable the reports in the Customer Service admin center or Customer Service Hub app.
+Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -36,7 +36,7 @@ If the reports were disabled by you, you can again enable the reports in the Cus
      
      1. For **Customer Service historical analytics**, select **Manage**.
      
-     1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On**.
+     1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
@@ -46,7 +46,7 @@ If the reports were disabled by you, you can again enable the reports in the Cus
      
      1. In the **Customer Service historical analytics** section, select **Manage**.
      
-     1. On the **Customer Service historical analytics** page, set the **Status** toggle to enabled.
+     1. On the **Customer Service historical analytics** page, set the **Status** toggle to **Enabled** to enable the reports or set the toggle to **Disabled** to disable the reports..
 
 1. Select **Save** or **Save and Close**.
 
