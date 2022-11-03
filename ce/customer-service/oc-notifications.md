@@ -39,16 +39,16 @@ You can accept or reject the conversation request by selecting a button on the d
 
 If you select the notification message body and not a button, the app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
-The wait time that's configured by your administrator applies to the desktop notification but doesn't display on the desktop notification.
+The wait time that's configured by your administrator applies to the desktop notification but doesn't display on it.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. More information: [Manage notification templates and settings](../app-profile-manager/notification-templates.md)
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. More information: [Manage notification templates and settings](../app-profile-manager/notification-templates.md)
 
 > [!NOTE]
 > The desktop notification theme is based on the Windows operating system theme and settings.
 
 ### Allow your browser to show notifications
 
-To get desktop notifications, you need to allow your browser to show notifications. When you get a browser notification, you need to select **Allow**.
+To get desktop notifications, you need to allow your browser to show notifications. When you get a browser notification, select **Allow**.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification.](media/allow-desktop-notification.png "Allow desktop notification")
@@ -57,9 +57,9 @@ To get desktop notifications, you need to allow your browser to show notificatio
 
 There are two types of notifications:
 
-- **Toast notifications:** Also known as floating notification is a notification message type where you receive information in a dialog that disappears after a stipulated time. This type of notification appears for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
+- **Toast notifications:** Also known as a floating notification, is a notification message type where you receive information in a dialog that disappears after a stipulated time. This type of notification appears for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
-- **Alert notifications:** Is a type of notification where a dialog appears with action buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
+- **Alert notifications:** A type of notification where a dialog appears with action buttons. When you select **Accept**, a screen pops up with customer summary details. You need to take an action within the stipulated time, and the notification disappears when the time is up.
 
 ## Incoming voice call notifications
 
