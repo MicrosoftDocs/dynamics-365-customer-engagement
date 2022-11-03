@@ -11,38 +11,35 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Knowledge analytics for Dynamics 365 Customer Service
 
-The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
+The knowledge analytics dashboard is designed to provide your customer service supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
-The knowledge search analytics dashboard is enabled by default.
+The knowledge analytics dashboard is enabled by default.
 
 > [!NOTE]
-> Knowledge search analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
+> Knowledge analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
 
-## Configure Knowledge search analytics dashboard
+## Configure Knowledge analytics dashboard
 
-If the knowledge search analytics dashboard gets disabled, you can enable the dashboard in the Customer Service admin center or Customer Service Hub app.
+If the Knowledge analytics dashboard is disabled by you, you can enable the dashboard in the Customer Service admin center or Customer Service Hub app.
 
-**Enable the Knowledge search analytics dashboard**
+**Enable the Knowledge analytics dashboard**
 
 1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Knowledge analytics** section, select **Manage**.
-
-     The **Knowledge analytics** page is displayed.
+     1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
+    
+      :::image type="content" source="media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      2. Select **Settings** in **Insights**. The **Insights** page appears.
-     3. In the **Knowledge analytics** section, select **Manage**.
+     3. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 
-      The **Knowledge analytics** page is displayed.
-
-    > [!div class=ms-imgBorder]
-    > ![Enable knowledge search analytics.](media/cs-enable-analyticsinsights.png "Enable knowledge search analytics")
+    :::image type="content" source="media/cs-enable-analyticsinsights.png" alt-text="Screenshot of Knowledge analytics in Customer Service Hub":::
 
 2. Set the **Enable Knowledge analytics** toggle to **On**.
 
@@ -51,26 +48,20 @@ If the knowledge search analytics dashboard gets disabled, you can enable the da
 ## Configure Search term insights dashboard
 
 1. Go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Knowledge analytics** section, select **Manage**.
+     1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 
-     The **Knowledge analytics** page is displayed.
-    :::image type="content" source="media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
-
-   ### [Customer Service Hub](#tab/customerservicehub)
+      ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      2. Select **Settings** in **Insights**. The **Insights** page appears.
-     3. In the **Knowledge search analytics** section, select **Manage**.
-
+     3. In the **Knowledge analytics** section, select **Manage**.
       The **Knowledge analytics** page is displayed.
 
-   :::image type="content" source="media/cs-enable-analyticsinsights.png" alt-text="Screenshot of the Insights page in Customer Service Hub":::
-
-2. In the **Additional features** section, select the **Add knowledge search analytics** checkbox.
+  2. In the **Additional features** section, select the **Add knowledge search analytics** checkbox.
 
 3. Select **Save** or **Save and Close**.
 
@@ -78,9 +69,9 @@ If the knowledge search analytics dashboard gets disabled, you can enable the da
 
 The service managers must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
 
-To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**. To view the reports in Customer Service workspace, select the plus (+) icon and then select Knowledge analytics from teh dropdown list.
+To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**. To view the reports in Customer Service workspace, select the **plus (+)** icon, and then select **Knowledge analytics** from the dropdown list.
 
-The **Article insights** dashboard is displayed. The Search term insights dashboard will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
+The **Article insights** dashboard is displayed. The **Search term insights dashboard** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
 ### Provide report access to additional security roles
 
