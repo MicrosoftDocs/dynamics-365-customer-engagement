@@ -48,7 +48,7 @@ If the knowledge search analytics dashboard gets disabled, you can enable the da
 
 3. Select **Save** or **Save and Close**.
 
-# Configure Search term insights dashboard
+## Configure Search term insights dashboard
 
 1. Go to one of the apps, and perform the following steps.
    
