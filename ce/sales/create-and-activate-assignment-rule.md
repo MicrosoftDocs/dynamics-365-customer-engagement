@@ -38,9 +38,6 @@ When a lead or opportunity record is created in an organization, assignment rule
 
     The **Create assignment rule** pane opens.    
 
-    >[!div class="mx-imgBorder"]
-    >![Create assignment rule pane.](media/sa-ar-create-assignment-rule-right-pane.png "Create assignment rule pane")   
-
 5. Under **Rule name**, enter a name for the rule.
 
 6. <a name="setSegment"></a>Under **Select eligible Leads for this rule**, select one of the following options:
@@ -103,12 +100,12 @@ When a lead or opportunity record is created in an organization, assignment rule
 
    - **Round robin**: Leads are distributed on a cyclical basis to sellers who are qualified to receive the lead, based on the conditions of the assignment rule.
    - **Load balancing**: Leads are distributed among sellers depending on their current workload. This helps ensure that all sellers are equally busy.
-   - **Consider seller availability** (optional): Select this checkbox to take the availability of the seller into account when assigning leads. More information: [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
+   - **Consider seller work schedule** (optional): Select this checkbox to take the availability of the seller into account when assigning leads. More information: [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
+      
+       Also, you can select how many hours a lead record that's created in the application can wait in the loop to be assigned to a seller or a team. To assign leads, the application first considers those sellers who are currently available. If no seller is currently available, the application considers the sellers who will be available within the configured timeframe. For example, when you select 10 hours, the application considers sellers who will be available with in 10 hours to assign the record. If no seller is available within the 10-hour limit, the record isn't assigned and marked as overdue. To manage the overdue records, see [View and manage unassigned records](manage-unassigned-records.md). 
 
      >[!NOTE]
-     >
-     >- If sellers don't update their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the application always considers them to be available and assigns them leads.
-     >- To assign leads, the application first considers those sellers who are currently available. If no seller is currently available, the application considers the sellers who will be available within 24 hours. If no seller will be available within this timeframe, the application considers sellers who will be available within 48 hours. In this manner, the application verifies the sellers' availability up to 120 hours. If no seller will be available within the 120-hour limit, the lead isn't assigned.
+     >If sellers don't update their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the application always considers them to be available and assigns them leads.
 
    - **Consider seller capacity** (optional): Select this checkbox to take into account the maximum number of leads a seller can handle at once. More information: [Set lead capacity for sellers](manage-sales-teams.md#set-capacity-for-sellers)
 
