@@ -37,7 +37,7 @@ You'll receive desktop notifications when the Customer Service workspace or Omni
 
 You can accept or reject the conversation request by selecting a button on the desktop notification. When you accept the conversation request, the app is made active and displayed to you, and a session is started.
 
-If you select the notification message body and not a button, the app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
+If you select the notification message body and not a button, the app is made active, and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
 The wait time that's configured by your administrator applies to the desktop notification but doesn't display on it.
 
