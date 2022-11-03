@@ -59,7 +59,7 @@ You can see the reports by navigating to the **Service** > **Insights** > **Know
 If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 > [!NOTE]
-> The knowledge base analytics dashboard supports only English and is available only in organizations that have the base language set as English.
+> The Knowledge analytics dashboard supports only English and is available only in organizations that have the base language set as English.
 
 ### See also
 
