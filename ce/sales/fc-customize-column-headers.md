@@ -1,29 +1,45 @@
 ---
 title: Customize column headers of the forecast grid
-description: Learn how to customize the column headers of the forecast grid
+description: Learn how to customize the column headers of the forecast grid.
 ms.date: 06/13/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
+ms.topic: how-to
+ms.custom: bap-template
 ---
-
 
 # Customize column headers of the forecast grid
 
-Using custom controls in Power Apps, you can customize column headers in the forecast grid. For example, you can change the label of the headers, add a tool tip for additional context, or translate the header.  
+You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tool tip for additional context. For more information about how to create a Power Apps code component, see [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component).  
 
-## Prerequisites
+## License and role requirements
 
-- [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component).
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System administrator or customizer <br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Add the column header resource file
+## How to customize the header
 
-Add the column header resource file to specify the string customizations such the column names and its translations.  
+Let's understand the customizations with an example. We'll add the French translation for the column names **Forecast** and **Won** in the forecast grid.  
 
-1. Create the following folder structure under your component project folder:  
-    ```ColumnHeader > strings```
-1.  Create a resource file with the following content:
+1. [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component)) with the name ```ColumnHeader```.  
+
+1. [Create a resource file and add translations](#create-a-resource-file-and-add-translations)
+1. [Implement the manifest](#implement-the-manifest)
+1. [Implement the component logic](#implement-the-component-logic)
+1. [Build and package the component](#next-steps)
+
+ 
+### Create a resource file and add translations
+
+Let's create a resource file and add the French translations in the resource file.
+
+1. Create a folder named ```strings``` under the ```ColumnHeader``` folder.
+
+1. Copy the following code to a new file, ColumnHeader.1036.resx:  
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <root>
@@ -87,67 +103,62 @@ Add the column header resource file to specify the string customizations such th
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
       </resheader>
       <data name="Forecast" xml:space="preserve">
-        <value>Projections</value>
+        <value>Prévision</value>
       </data>
       <data name="Won" xml:space="preserve">
-        <value>Deals won</value>
+        <value>Gagné</value>
       </data>
     </root>
-        ```
-1. Add your header customizations using the ```<data>``` node.  
-    In the above code sample, **Forecast** and **Won** column names are overridden with **Projections** and **Deals won**.
+    ```
+ 
+    In the above code sample, the column names for **Forecast** and **Won** are overridden with the French translations **Prévision** and **Gagné** respectively in the `<data>` node.
     > [!NOTE]
-    > The column names should be exactly the same as column name you configured in the **Layout** step of the forecast.
+    > In the `name` parameter, specify the exact column name that you've configured in the **Layout** step of the forecast.
+    > :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::  
 
-3. Save the file using the following naming convention:  
-    filename.languagecode.xml  
-    **Example:** ColumnHeader.1033.xml  
-4. Repeat steps 1 through 4 to add language-specific resource files. For example, to add French translations for column names, add a resource file named ColumnHeader.1036.xml.
+    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Ensure that that resource file name uses the following naming convention:  
+    ```filename.languagecode.resx  
+    **Example:** ColumnHeader.1039.resx```    
 
-## Modify the manifest file
+### Implement the manifest
 
-The control manifest is an XML file that contains the metadata of the code component. It also defines the behavior of the code component.  
+Next, we'll modify the manifest file to specify the property that we're overriding. In our example, we're overriding the `ColumnName` property. We'll also specify the path to the resource file that contains the translated text.
 
-1. Open the ControlManifest.Input.XML file.
+1. Open the `ControlManifest.Input.XML` file.
 
-1. Update the parameters in the ```control``` node if required. For more information about each parameter, see [Implementing manifest](/power-apps/developer/component-framework/implementing-controls-using-typescript#implementing-manifest).
+1. Search for the ```property``` node and replace it with the following code as-is:
+    `<property name="columnName" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />`  
 
-     ```xml
-      <control namespace="YourNamespace" constructor="ColumnHeader" version="0.0.2" display-name-key="ColumnHeader" description-key="ColumnHeader description" control-type="standard" >
-     ```
-1. Add the following ```property``` node as-is to specify that you're overriding the columnName property:
-    `<property name="columnName" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />` 
-
-1. Update the `<resources>` node to specify the path to the resource files that include the customizations:
+1. Update the `<resources>` node to specify the path to the resource file that include the French translations:
     ```xml
     <resources>
       <code path="index.ts" order="1"/>
       <!-- UNCOMMENT TO ADD MORE RESOURCES
       <css path="css/ColumnHeader.css" order="1" />
       -->
-      <resx path="strings/ColumnHeader.1033.resx" version="1.0.0" />
       <resx path="strings/ColumnHeader.1036.resx" version="1.0.0" />
     </resources>
     ```
-1. Add the `<resx path>` tag for the languages that you're translating the header content into. In the preceding sample, we've added the resource files for English and French languages.
+    The `<resx path>` node contains the resource file path. In the preceding code sample, we've added the resource file for the French languages. If you have translations for other languages, add the resource file path for those languages as well.
 
-## Update the index.ts file
+### Implement the component logic 
 
-The next step after modifying the manifest file is to implement the component logic inside the ```index.ts``` file.
+Let's add the code to implement the component logic inside the ```index.ts``` file.
 
 1. Open the ```index.ts``` file.
 1. Add the following lines in the `updateView` method:
   
-    ```xml
+    ```java
     public updateView(context: ComponentFramework.Context<IInputs>): void
         {
             // Add code to update control view
             const colName = (context.parameters.columnName && context.parameters.columnName.raw) || "";
             this._container.innerHTML = context.resources.getString(colName);
         }
-    ```  
+    ```
 
-## Next steps  
+### Next steps
+  
 - [Build the code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#build-your-component)  
 - [Package the code component](/power-apps/developer/component-framework/import-custom-controls)  
 - [Override column headers (preview)](forecast-configure-advanced-settings.md#override-column-headers-preview)  
