@@ -1,14 +1,12 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 10/03/2022
+ms.date: 11/04/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 1
-topic-status: Drafting
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
