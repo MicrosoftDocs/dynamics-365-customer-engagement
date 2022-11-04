@@ -1,7 +1,7 @@
 ---
-title: "Create a static snapshot of a segment (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create static segment snapshots in Dynamics 365 Marketing."
-ms.date: 10/18/2022
+title: "Preview: Create a static snapshot of a segment (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to create static segment snapshots in the real-time marketing area of Dynamics 365 Marketing."
+ms.date: 11/03/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Create a static snapshot of a segment
+# Preview: Create a static snapshot of a segment
 
 > [!IMPORTANT]
 >
@@ -40,18 +40,4 @@ The real-time marketing static segment experience helps you capture the audience
 Using the [attribute logic builder] (real-time-marketing-build-segments.md), you build your segment as usual. You then decide that you want to create a static snapshot to capture only the contacts who’ve checked into the event at the time you’re making the segment. To create a static snapshot of the segment, go to **Settings** and set the segment refresh rate to **Static snapshot**.
 
 > [!div class="mx-imgBorder"]
->![create a static snapshot](media/real-time-marketing-static-snapshot-of-segment.png "create a static snapshot")
-
-## How to individually manage your customer list 
-
-**Example**: In addition to the event registrants for the workshop, you also want to include some of your VIP customers in this list. You can manually search for them by name and decide whether to always include them or not.
-
-To manually add customers, go to the **Contacts** tab in the **Elements** pane. Select whether you want to include (**+Inclusion group**) or exclude (**+Exclusion group**) these members. 
-
-> [!div class="mx-imgBorder"]
-> ![manage your customer list manually](media/real-time-marketing-manage-your-customer-list-manually.png "manage your customer list manually")
-
-To add your VIP customers to your segment, search for them by name. When you find the segment members you want to add or exclude, select the plus (+) button next to their name.
-
-> [!div class="mx-imgBorder"]
-> ![search for names to add in your segment](media/real-time-marketing-search-for-names-to-add-in-your-segment.png "search for names to add in your segment")
+>![Create a static snapshot](media/real-time-marketing-static-snapshot-of-segment.png "Create a static snapshot")
