@@ -1,7 +1,7 @@
 ---
 title: "Preview: Build segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to build segments to use in real-time journeys in Dynamics 365 Marketing."
-ms.date: 07/01/2022
+ms.date: 11/03/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

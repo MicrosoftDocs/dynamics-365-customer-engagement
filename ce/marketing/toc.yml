@@ -90,7 +90,7 @@
         href: marketing-settings.md
       - name: Real-time marketing administrator settings
         href: real-time-marketing-admin-settings.md
-      - name: "Preview: Create consistent branding with brand profiles"
+      - name: Create consistent branding with brand profiles
         href: brand-profiles.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
@@ -252,7 +252,7 @@
           href: real-time-marketing-dataverse-trigger.md
         - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
-        - name: Test triggers before using them
+        - name: Test custom triggers before using them
           href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
