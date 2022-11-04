@@ -60,6 +60,22 @@ Yes. See the following resources:
 - [Implementation pest practices blog post](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 
 
+### I have completed migration from Field Service Mobile Xamarin. How do I remove solutions that were installed for use with that application?
+
+After moving on from the legacy Field Service Mobile - Xamarin application, Solutions related to that application can be removed to save CRM database space. 
+ 
+The following Solutions are used with the Field Service Mobile -Xamarin application.  
+ 
+Woodford | Resco MobileCRM Woodford
+msdyn_FSMNotifications 
+msdyn_GeofenceAlerts 
+ 
+The solutions should be removed in the order shown above as msdyn_GeofenceAlerts will have a dependency on msdyn_FSMNotifications which will have a dependency on Woodford.
+ 
+While removing the Solution you may encounter additional dependencies within each solution.  The system will inform you of these dependencies in a dialog. You will need to either delete the component or modify it to remove references to the solution you are trying to delete.
+For more information see [Removing dependencies (Microsoft Dataverse) - Power Platform | Microsoft Docs](https://learn.microsoft.com/power-platform/alm/removing-dependencies)
+
+
 ### I have more questions about migration - where can I go for help?
 
 Please reach out to Dynamics 365 Field Service mobile adoption at `d365fsmadoption@microsoft.com` for further questions.
