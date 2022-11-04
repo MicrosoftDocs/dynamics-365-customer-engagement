@@ -38,7 +38,7 @@ A summary includes the following components:
 
 ## Regional availability and supported languages
 
-The auto-summarization of conversations is available in the United States  and Europe.
+The auto-summarization of conversations is available in United States and Europe.
 
 This feature is supported only in English.
 
