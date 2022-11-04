@@ -95,6 +95,7 @@ On the **Service tab**, you'll see work order details like work order service ta
 On the **Notes** tab, you can easily capture multiple text, photo, audio, and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signatures can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
 
 > [!Note]
+> Notes feature is only available when included with the Bookable Resource Booking form. The control cannot be added to other entites. Adding Notes to other entities will result in errors when trying to save a new note. 
 > Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](/dynamics365/field-service/view-user-accounts-security-roles#q--a) to make sure your app users have access to this table.
 
 > [!div class="mx-imgBorder"]
