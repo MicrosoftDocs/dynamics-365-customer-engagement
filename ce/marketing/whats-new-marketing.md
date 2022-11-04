@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/02/2022
+ms.date: 11/03/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -85,6 +85,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Increase customer engagement with QR codes in emails**
     - Increase customer engagement and promote your business using QR codes for events or coupons. QR codes allow your customers to access marketing event information or dynamic links with just a single scan! QR codes work by simply scanning the code with a mobile device that is equipped with a camera and QR code reader application. Once the QR code is scanned, it is translated into actionable information such as a webpage or event check-in.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/increase-customer-engagement-qr-codes-emails)
+    - [Docs](real-time-marketing-email.md#qr-codes)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a QR code in an email.](media/whats-new-qr-code.png "Screenshot of a QR code in an email")
@@ -92,6 +93,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Create engaging email content using feature-rich text links**
     - Create engaging email content with text links to websites, events, and marketing pages. The text links can also allow recipients to join a Microsoft Teams event or create a new calendar item with a click of a button.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-engaging-email-content-using-feature-rich-text-links)
+    - [Docs](real-time-marketing-email.md#feature-rich-text-links)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a feature-rich text link.](media/whats-new-text-link.png "Screenshot of a feature-rich text link")
@@ -101,6 +103,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Extend your outreach with custom channels**
     - Extend real-time marketing using the communication channels you are familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/extend-outreach-custom-channels)
+    - [Docs](real-time-marketing-create-custom-channels.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a message using a custom channel.](media/whats-new-custom-channel.png "Screenshot of a message using a custom channel")
@@ -108,6 +111,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Use natural language to create segments in real-time marketing**
     - Segment creation traditionally required extensive knowledge of the complex data structures defined by your business. Now, instead of selecting specific data tables manually, you can use natural language to create segments in real-time marketing by simply describing the segment definition in plain English. This flexible experience lets you add the results query onto the segment builder at any level of the query logic, either as a new group or as an additional condition in your existing logic. You can improve the natural language engine by giving thumbs-up or down feedback so that it can help you achieve even more accurate results in the future.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/use-natural-language-create-segments-real-time-marketing)
+    - [Docs](real-time-marketing-natural-language-segments.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of segment creation using natural language.](media/whats-new-nl-segment.png "Screenshot of segment creation using natural language")
@@ -115,12 +119,14 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Create a static snapshot of segment membership**
     - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment will not enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-static-snapshot-real-time-marketing-segment-membership)
+    - [Docs](real-time-marketing-static-snapshot.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a static snapshot segment.](media/whats-new-static-snapshot.png "Screenshot of segment creation using natural language")
 
 - **Create a segment where specific people are always included or excluded**
     - Adding manual inclusions or exclusions is a powerful way to augment segment building criteria. Manually include or exclude specific people to ensure segments always reach VIP customers, or just as an easy way to build test segments for journeys.
+    - [Docs](real-time-marketing-include-exclude.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of inclusion and exclusion selection.](media/whats-new-include-exclude.png "Screenshot of inclusion and exclusion selection")
@@ -131,7 +137,9 @@ Monthly improvements include updates to personalization, segmentation, and text 
     - While conditional content can be used for selecting the right image in a lot of scenarios, there are times when it is more natural to use a dynamic URL that comes from a Contact or some other entity when the content designer doesn’t have the visibility into (or doesn’t want to be involved in) how images are selected. Personalization is now supported in image URL boxes in the email designer, allowing you to use dynamic URLs for images.
 - **Segmentation**
     - **[Preview]** You no longer must rely on admins to select data tables to be synced into the Marketing app to get started with segmentation. In real-time marketing, instead of waiting for admins to add data tables under **Dataset Configurations** in the **Settings** area, you can add tables to be used for creating segments to the list in the building experience itself.
+        - [Docs](real-time-marketing-sync-data-tables.md)
     - **[Preview]** Build segments using multiple query logic groups. This opens more segment scenarios and more enriched segment definitions, such as “Contacts whose accounts are managed by partners in Contoso Consultants *but not* preferred to be contacted by phone”.
+        - [Docs](real-time-marketing-build-segments.md#preview-add-a-new-group-to-a-segment)
 - **Text messages**
     - The refreshed text message setup wizard in real-time marketing allows for simplified SMS provider and phone number setup.
 

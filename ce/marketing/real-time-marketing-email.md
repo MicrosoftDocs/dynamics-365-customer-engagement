@@ -54,7 +54,7 @@ Learn more about the [Asset library](real-time-marketing-asset-library.md)
 
 ### Link to documents and videos stored in the asset library
 
-#### 1. Feature-rich text links
+#### Feature-rich text links
 
 Add feature-rich links to emails by directly linking to documents stored in the asset library. To link to a document or video:
 
@@ -81,7 +81,7 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
     - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.
 
-#### 2. QR codes
+#### QR codes
 
 **Link to QR codes** 
 
