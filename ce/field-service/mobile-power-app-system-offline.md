@@ -235,19 +235,19 @@ Sync notifications are available from Unified Interface Platform version 9.2.220
 
 ### Why does the offline enabled application show a message "Network or Service Unavailable"
 
-The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message is displayed, the client will not sync new data and some network-dependent areas of the application won't work. For example, maps or Dataverse search depend on device connectivity. 
+The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message is displayed, the client won't sync new data, and some network-dependent areas of the application won't work. For example, maps or Dataverse search depends on device connectivity. 
 
-The application will check for connectivity whenever you navigate. The following events determine network detection which may result in the error message:
+The application will check for connectivity whenever you navigate. The following events determine network detection, which may result in the error message:
 - Application boots into offline mode prior to detecting network availability.
-- Application network check fails with no response or a response which takes too long.
+- Application network check fails with no response or a response that takes too long.
 
 ### Known Limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record doesn't meet filter conditions, then the record doesn't get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they're calling correct APIs: `Xrm.WebApi.online`.
-- Offline Tables: Tables which are supported offline are added as part of the default Field Service Mobile Offline Profile. Some field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline may result in errors in the mobile application.
-- Inventory Validation is not performed while the device is not connected.
-- When configuring the Mobile Offline Profile, there can be a maximum of 15 linked Tables. This 15-link limit includes downstream Tables. For example, if Table A has relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A will have 6 relationships: B, C, D, F, G H. 
+- Offline Tables: Tables that are supported offline are added as part of the default Field Service Mobile Offline Profile. Some field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline may result in errors in the mobile application.
+- Inventory Validation isn't performed while the device isn't connected.
+- When configuring the Mobile Offline Profile, there can be a maximum of 15 linked Tables. This 15-link limit includes downstream Tables. For example, if Table A has relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A will have six relationships: B, C, D, F, G H. 
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 > [!NOTE]
