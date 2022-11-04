@@ -232,7 +232,7 @@
         href: real-time-marketing-push-notifications.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
-      - name: Custom channels
+      - name: "Preview: Create custom channels"
         href: real-time-marketing-create-custom-channels.md
       - name: "Preview: Use brand profiles in real-time marketing email"
         href: brand-profiles-email.md
@@ -330,7 +330,7 @@
         href: real-time-marketing-developer-notifications.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
-      - name: Extend your outreach with custom channels
+      - name: "Preview: Manually add a custom channel"
         href: real-time-marketing-extend-outreach-custom-channels.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
