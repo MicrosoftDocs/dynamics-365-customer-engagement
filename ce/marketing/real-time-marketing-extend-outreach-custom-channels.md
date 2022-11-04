@@ -350,7 +350,7 @@ Input parameter: notificationPayLoad – Serialized JSON with the following cont
 
 }
 ```
-
+<!--
 ## Sample solutions
 
 The samples below include unpacked solutions for Dataverse and Plugins projects.
@@ -359,4 +359,4 @@ To pack and import these solutions, first build the plugin project. The project 
 
 SampleSmsChannel.zip
 
-SampleCustomChannel.zip
+SampleCustomChannel.zip-->
