@@ -33,8 +33,8 @@ Custom channels can be implemented as part of a Dataverse solution. A custom cha
 1. Channel definition (solution-aware component)
 1. Message parts (solution-aware component)
 1. Channel instance entity and the relevant form
-1. Channel instance account entity (for custom SMS channels only)
-1. Message template (editor) and the relevant form
+1. Channel instance account entity and the relevant form (for custom SMS channels only)
+1. Message template (editor) and the relevant form (optional)
 1. Custom APIs
 
 ### 1. Channel definition
@@ -148,7 +148,7 @@ Dynamics 365 Marketing has a generic wizard form for creating channel instances 
 
 This form should include all the required attributes for the custom channel to function. It will be filled in by the user creating a new custom channel and saved in the user interface.
 
-### 4. Channel instance account entity (for custom SMS channels only)
+### 4. Channel instance account entity and the relevant form (for custom SMS channels only)
 
 If you're implementing a custom SMS channel, it must also have a channel instance account extended entity and a relationship with the Channel Instance Account entity the same way the channel instance does. The channel instance account has a 1:N relationship with the channel instances it serves as a data normalization for SMS accounts. Typically, you'll have one account with the service provider under which you can create multiple phone numbers.
 
@@ -203,13 +203,13 @@ Dynamics 365 Marketing has a generic wizard form for creating SMS channels in **
 
 This form should include all the required attributes for the channel to function. The attributes will be filled in by the user creating a new custom channel and saved in the user interface.
 
-### 5. Message template (editor) and the relevant form
+### 5. Message template (editor) and the relevant form (optional)
 
-This entity is required for the channel type **Custom**. Channels that are of an SMS type use the native SMS editor.
+This optional entity can be defined for the channel type **Custom**. Channels that are of an SMS type use the native SMS editor.
 
 #### *Entity definition*
 
-Dynamics 365 Marketing supports a generic user interface for message templates (editor) used by custom channels. To use the editor, an entity needs to be defined that will hold a form with the message parts you've defined in your channel. This entity won't store anything; it's only used as metadata to define your message contract.
+Dynamics 365 Marketing supports a generic user interface for message templates (editor) used by custom channels, in case the optional message template (editor) is not configured. To use the editor, an entity needs to be defined that will hold a form with the message parts you've defined in your channel. This entity won't store anything; it's only used as metadata to define your message contract.
 
 The entity must include all the message parts defined in your channel with the exact same names but including the publisher prefix. For example, **cr65f\_text** for the **text** message part.
 
@@ -350,3 +350,13 @@ Input parameter: notificationPayLoad – Serialized JSON with the following cont
 
 }
 ```
+
+## Sample solutions
+
+The samples below include unpacked solutions for Dataverse and Plugins projects.
+
+To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the Solution Packager tool.
+
+SampleSmsChannel.zip
+
+SampleCustomChannel.zip
