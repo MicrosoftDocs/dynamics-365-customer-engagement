@@ -1,7 +1,7 @@
 ---
 title: "Preview: Create custom channels (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create custom channels in Dynamics 365 Marketing."
-ms.date: 11/03/2022
+ms.date: 11/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -31,7 +31,7 @@ To create a new custom channel, begin by first installing the corresponding cust
 
 There are two ways to install a custom channel app:
 
-1. Manually create and install the package. Learn more: [Manually add a custom channel](/developer/real-time-marketing-extend-outreach-custom-channels).
+1. Manually create and install the package. Learn more: [Manually add a custom channel](real-time-marketing-extend-outreach-custom-channels.md).
 1. Install the package through AppSource if the app is listed by your service provider.
 
 ## Create a new custom channel
