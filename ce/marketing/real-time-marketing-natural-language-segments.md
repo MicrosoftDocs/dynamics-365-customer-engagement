@@ -36,4 +36,4 @@ You can add further details to your segment by entering additional natural langu
 If you select a new search, you will notice that the **Use** button now has a dropdown option. If you select the dropdown option on the **Use** button, you can choose to replace a group, add the new query to an existing group, or add the new query as a new group.
 
 > [!div class="mx-imgBorder"]
-> ![provide your feedback](media/real-time-marketing-provide-a-feedback.png "provide your feedback")
+> ![provide your feedback](media/real-time-marketing-provide-feedback.png "provide your feedback")
