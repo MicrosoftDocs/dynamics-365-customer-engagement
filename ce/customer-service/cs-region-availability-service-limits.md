@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 10/19/2022
+ms.date: 11/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
