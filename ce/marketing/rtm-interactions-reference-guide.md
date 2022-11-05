@@ -19,6 +19,10 @@ search.app:
 ---
 # Reference guide for real-time marketing interactions
 
+Most of the data in Dynamics 365 Marketing is saved in Dataverse tables. However, the marketing interaction data needs separate storage to accommodate higher throughput of changes when consumers engage with the business by opening emails, clicking links, etc. This article defines the marketing interaction data interaction schema. Use this as a reference guide when exporting real-time marketing interaction data for custom reporting.
+
+You can also refer to [outbound marketing schema](https://learn.microsoft.com/dynamics365/marketing/developer/retrieve-interactions-contact) to export outbound marketing interaction data alone or with real-time marketing interaction data.
+
 The table below is sorted by real-time marketing channels (email, text message, push). It includes the data tables and columns in real-time marketing interactions. The table also describes the type of interaction data stored. For example, the description column shows the msdynmkt_emailaddress field lists customers' email address. You can use this schema to plug the interaction data into your own reporting tools such as Microsoft Power BI.
 
 #### Channel: *Common Column* |	All (Email, SMS, Push)
