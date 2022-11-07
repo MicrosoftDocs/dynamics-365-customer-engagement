@@ -1,7 +1,7 @@
 ---
 title: "Use the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to use the Field Service (Dynamics 365) mobile app.
-ms.date: 04/14/2022
+ms.date: 11/07/2022
 ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
@@ -26,7 +26,6 @@ Available natively for Apple iOS and Google Android phones and tablets, as well 
 - Customer signature capture.
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
-
 ## Prerequisites
 
 Before using the mobile app, a system administrator must [install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md) along with users and security roles.
@@ -39,7 +38,6 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
-
 
 ## Sign in
 
@@ -72,7 +70,7 @@ Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list
 
 ## Travel to job location 
 
-Select a booking to see more details about the booking time and the work order. For example, you can update the status to **Traveling** to indicate you are driving to the customer location; on the **Customer tab**, you can see the work order location on a map and trigger turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
+Select a booking to see more details about the booking time and the work order. For example, you can update the status to **Traveling** to indicate you're driving to the customer location; on the **Customer tab**, you can see the work order location on a map and trigger turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
 
 > [!div class="mx-imgBorder"]
 > ![Two mobile devices side by side, both showing the Field Service (Dynamics 365) mobile app. Device on the left shows a bookable resource booking on the general tab. Device on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
@@ -84,8 +82,7 @@ The functional location field above the address tells the technician exactly whe
 
 ## Perform and record work
 
-On the **Service tab**, you'll see work order details like work order service tasks, products, and services. In one click, you can mark a service or service task complete along with the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name will send you to the full details form.
-
+On the **Service tab**, you'll see work order details like work order service tasks, products, and services. Mark a service or service task as complete in include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name will send you to the full details form.
 
 > [!div class="mx-imgBorder"]
 > ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
@@ -94,7 +91,8 @@ On the **Service tab**, you'll see work order details like work order service ta
 
 On the **Notes** tab, you can easily capture multiple text, photo, audio, and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signatures can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
 
-> [!Note]
+> [!NOTE]
+> Notes are only available when included with the Bookable Resource Booking form. The control doesn't support other entities.
 > Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](/dynamics365/field-service/view-user-accounts-security-roles#q--a) to make sure your app users have access to this table.
 
 > [!div class="mx-imgBorder"]
@@ -110,7 +108,7 @@ Technicians can also view and interact with functional location and customer ass
 > [!div class="mx-imgBorder"]
 > ![Device with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
 
-> [!Note]
+> [!NOTE]
 > Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
 
 For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
@@ -130,7 +128,7 @@ For more information, see the article on [configuring global search](mobile-powe
 
 If you expect to be performing work in areas without internet access, you can download important information to your device to keep working.
 
-Consider a scenario where a technician needs to work in the basement of an industrial complex. They will often have limited or no internet connectivity. Working offline will download their work orders, notes, service tasks, and pictures for use without connectivity; once connectivity is restored, new data is automatically synced back to the server. This process happens without interruption to the technician's experience.
+Consider a scenario where a technician needs to work in the basement of an industrial complex. They'll often have limited or no internet connectivity. Working offline will download their work orders, notes, service tasks, and pictures for use without connectivity; once connectivity is restored, new data is automatically synced back to the server. This process happens without interruption to the technician's experience.
 
 Upon sign-in, the app will download important Field Service information as defined by system administrators. 
 
@@ -139,8 +137,7 @@ Upon sign-in, the app will download important Field Service information as defin
 
 When the **Status** is set to **Available**, you'll have all the data you need to work offline.
 
-
-> [!Note]
+> [!NOTE]
 > When the technician has internet connectivity, data on the device is automatically refreshed every five minutes or as configured in their mobile offline profile.
 
 Technicians can also **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the **Update offline data** option. 
@@ -154,7 +151,6 @@ Technicians may also want to sync specific views when they have internet connect
 - The technician wants to check for updates on a work order made by other crew members. 
 
 To sync specific views, select **Refresh** from the app's bottom menu. For example, you can refresh bookings by selecting the **Refresh** option, shown in the following screenshot.
-
 
 > [!div class="mx-imgBorder"]
 > ![Devices showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
@@ -196,7 +192,6 @@ As seen in the following image, technicians can also view a chart of live IoT da
 
 For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
 
-
 ## Trigger Dynamics 365 Remote Assist for remote collaboration
 
 Organizations using Dynamics 365 Remote Assist will see technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
@@ -216,7 +211,6 @@ While working on site, frontline workers may need to note further work that need
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
-
 
 To create a follow-up work order, the technician must select the **Follow-up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
 
@@ -253,10 +247,9 @@ Then select **Reconfigure**.
 
 Reconfiguring deletes data and metadata for the current organization from the cache.
 
-
 ### Recent + pins
 
-Use the **Recent** option in the main menu to quickly go to recently viewed, like work orders, assets, time entries, and more. You can also "pin" important records for easy access.
+Use the **Recent** option in the main menu to quickly find things you recently viewed, like work orders, assets, time entries, and more. You can also "pin" important records for easy access.
 
 
 > [!div class="mx-imgBorder"]
