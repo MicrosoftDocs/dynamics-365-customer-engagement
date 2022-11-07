@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# How to create and manage forms in real-time marketing
+# Create and manage forms in real-time marketing
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
@@ -28,7 +28,7 @@ A marketing form is an inbound communication channel that allows your customers 
 
 Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of entity in Dynamics 365 Marketing.
 
-The real-time marketing form editor is focused on simple form creation and publishing process allowing you to create a complex form within few minutes.
+The real-time marketing form editor allows you to easily and quickly create and publish forms.
 
 ## Comparison of real-time and outbound marketing forms
 
@@ -58,23 +58,23 @@ The following table summarizes types of forms currently available in real-time m
 | External form submission capture | N/A |
 | Refer to friend | N/A |
 
-## Create and edit a form tutorial
+## Create a new form
 
-Forms can be found in section Channel of the left menu. Open the list of forms and click New button on the top ribbon to create a new form.
+To create a new form, go to Real-time marketing > Channels > Forms and select New on the command bar.
 
-1. **Select target audience** (entity) that will be updated by the form submission. You can select Lead or Contact entity. The target audience (entity) selection will also affect the default strategy how to handle duplicated records:
+1. **Select target audience** that will be updated by the form submission. With real-time marketing form you can select which audience you want to update between Contact and Lead. Each The target audience has a default strategy for duplicate records handling:
 
     - Lead - each form submission will create a new record, even if the same email address is used.
     - Contact - if a record with the same email address already exists, it will be updated. No duplicated contact will be created if the same email address is used.
 
-    You can change the duplicated record handling in [form settings](#form-settings).
+    You can change the duplicate record handling in [form settings](#form-settings).
 
     Enter a name of your new form and select Contact as the target audience.
 
     > [!div class="mx-imgBorder"]
     > ![Select target audience for the form submission.](media/real-time-marketing-form-audience.png)
 
-1. **Choose a template** in the template gallery. The list of templates is pre-filtered according to the target audience selected in the previous step. You can skip the template selection to start with a blank form. Skip the template selection by clicking on Skip button.
+1. **Choose a template.** The list of templates is filtered according to the target audience selected in the previous step. You can skip the template selection to start with a blank form. After you select a template or choose to skip, you’ll be in the form editor, where you can finish creating your form.
 
     > [!div class="mx-imgBorder"]
     > ![Choose a template or skip the selection.](media/real-time-marketing-form-template-gallery.png)
@@ -160,11 +160,34 @@ Click the Stop button to unpublish a live form. The form will be removed from th
 
 ### Form field properties
 
-**ToDo**
+Once you click on a field on canvas, you will be able to see it's properties in the right pane.
+> [!div class="mx-imgBorder"]
+> ![Field properties are opened once you add a field to the form.](media/real-time-marketing-form-properties.png)
+
+- **Label** - the field caption visible to the user.
+- **Placeholder text** - the placeholder inside the field. Placeholder will automatically disappear once the user starts typing into the field.
+- **Required** - if enabled, the user can not submit the form if this field is empty.
+- **Default value** - set the default value for this field. Placeholder will not be visible if the default value is set.
+- **Error message** - set error message that will be shown if the field validation fails.
+- **Validation** - configure a rule that will check the content of the field. If the validation rule is not met, the user won't be able to submit the form.
+- **Hide field** - if enabled, the field will not be visible in the form. You can use hidden fields to store additional meta data along with the form submission.
+
+#### Custom validation
+
+You can enable the **Validation** and select **Custom**. This will open a pop-up dialog, where you can enter a Regular Expression (RegExp). You can for example use RegExp to check if the entered value matches a specific format of phone number.
 
 ### Form Settings
 
-#### How to handle duplicated records
+Form settings allow you to configure advanced properties of your form and define what happens after the form submission.
+> [!div class="mx-imgBorder"]
+> ![Field properties are opened once you add a field to the form.](media/real-time-marketing-form-settings.png)
+
+- **Duplicate records** - choose your strategy [how to handle duplicate records](#how-to-handle-duplicate-records)
+- **Thank you notification** - this message will appear if the user successfully submits the form.
+- **Error notification** - this message will appear if an error occurs when the form is submitted.
+- **Redirect after submission** - if enabled, you can enter a URL to which the user will be redirected after the form submission.
+
+#### How to handle duplicate records
 
 **ToDo**
 
@@ -193,5 +216,10 @@ The form validation process can be also launched manually.
 The security is an important aspect of forms. We take the following precautions to avoid any security risks:
 
 - D365 Marketing accepts form submissions from whitelisted domains only.
-- 
 - We have necessary precautions in the infrastructure to minimize the impacts of a possible DDoS attack.
+
+
+# To be finished
+
+- lookup priviledges info
+- Troubleshooting - whisteting
