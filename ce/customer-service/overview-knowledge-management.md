@@ -82,7 +82,7 @@ Having a knowledge base on the portal makes it a customer self-service portal, w
 
 As an administrator, you can:
   - Track how many times an article is used, viewed, and sent to customers. Use this information to proactively create knowledge based on search insights across customers and agents. 
-  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service)
+  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information: [Configure Knowledge analytics for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-analytics-for-dynamics-365-customer-service)
 
     :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   
