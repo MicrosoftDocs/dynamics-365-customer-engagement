@@ -1,7 +1,7 @@
 ---
 title: "Qualify and convert leads to opportunity | MicrosoftDocs"
 description: "Qualify the lead after you've identified the time frame, budget, and purchase process of the lead."
-ms.date: 05/10/2022
+ms.date: 11/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
