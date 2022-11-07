@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 11/03/2022
+ms.date: 11/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -46,8 +46,8 @@ Review the following requirements before configuring SLAs for your organization:
     - **Connector**: All permissions at the business unit level.
     - **SLAKPI**: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - **ProcessStageParameter**: All permissions at the business unit level.
-  - **Customer Service Representative**: Read permission at the organization level for the SLAKPI entity.
-- The user creating SLAs must have the Power Automate license.
+  - **Customer Service Representative**: Read permission at the organization level for the SLA KPI entity.
+- Power Automate License is available for the user creating actions on SLA KPI instance statuses.
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
    1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
