@@ -95,7 +95,7 @@ While qualifying a lead, one of the following errors may occur due to duplicate 
 
 When the [duplicate lead detection](enable-duplicate-lead-detection.md) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
 
-- Remove the duplicates for the lead and qualify again. More information: [Manage duplicate leads](#manage-duplicate-leads.md) 
+- Remove the duplicates for the lead and qualify again. More information: [Manage duplicate leads](manage-duplicate-leads.md) 
 - Go to the leads grid view, select the lead and qualify.
 - Unpublish the rule that is causing the error and qualify the lead again. To unpublish the rules,
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
