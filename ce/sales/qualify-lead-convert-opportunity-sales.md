@@ -48,7 +48,7 @@ After you've identified the time frame, budget, and purchase process for a lead,
     **More information:** 
     - [What happens when a lead is qualified](#what-happens-when-a-lead-is-qualified)
     - [What happens when duplicates are found while qualifying leads?](#what-happens-when-duplicates-are-found-while-qualifying-leads)
-    - [An error occurs while qualifying a lead](#an-error-occurs-while-qualifying-a-lead)
+    - [How do I handle lead qualification errors?](#how-do-i-handle-lead-qualification-errors)
     
 The lead moves to the next stage in the business process.The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
   
@@ -68,7 +68,7 @@ For information on how to resolve the common errors that you may get while you q
 
 ## FAQs about lead qualification
 
-### What happens when a lead is qualified
+### What happens when a lead is qualified?
 
 Your system administrator defines what happens to a lead when it's qualified:
 
@@ -86,23 +86,23 @@ When qualifying a lead, if a duplicate account or contact is detected while crea
 
 For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection).
 
-### An error occurs while qualifying a lead
+### How do I handle lead qualification errors?
 
-While qualifying a lead, one of the following errors may occur due to duplicate leads:
+While qualifying a lead, one of the following errors occur due to duplicate leads:
 
 - Lead record was not created or updated because a duplicate of the current record already exists. 
 - Opportunity record was not created or updated because a duplicate of the current record already exists.
 
-When the [duplicate lead detection](enable-duplicate-lead-detection.md) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
+If the [duplicate lead detection](enable-duplicate-lead-detection.md) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
 
 - Remove the duplicates for the lead and qualify again. More information: [Manage duplicate leads](manage-duplicate-leads.md) 
 - Go to the leads grid view, select the lead and qualify.
-- Unpublish the rule that is causing the error and qualify the lead again. To unpublish the rules,
+- Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules.
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
     1. Select the rule and then select **Unpublish**.
-- A rule is required only to create or update the lead, but not required for qualification. To ensure that duplicate detection rules don’t run on qualified lead that are present in the application, enable the **Exclude inactive matching records** option and qualify the lead. To enable, 
+- If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option. 
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-    1. Open and unpubliah the rule.
+    1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
         
         :::image type="content" source="./media/duplicate-records-enable-exclude-inactive-matching-records.png" alt-text="A screenshot of enabling the Exclude inactive matching records option."::: 
