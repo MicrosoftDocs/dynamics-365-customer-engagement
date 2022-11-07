@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-new-journey-version.md",
+      "redirect_url": "real-time-marketing-edit-journey",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/app-profile-manager/settings.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
