@@ -97,10 +97,10 @@ If the [duplicate lead detection](enable-duplicate-lead-detection.md) feature is
 
 - Remove the duplicates for the lead and qualify again. More information: [Manage duplicate leads](manage-duplicate-leads.md) 
 - Go to the leads grid view, select the lead and qualify.
-- Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules.
+- Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps.
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
     1. Select the rule and then select **Unpublish**.
-- If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option. 
+- If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps. 
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
     1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
