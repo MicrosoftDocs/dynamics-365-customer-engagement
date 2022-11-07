@@ -113,10 +113,10 @@ You can choose to add (or re-add) a portal to a Marketing instance at any time. 
 - If you have any portal-based marketing page designs left over in your system from a previous portals integration, these will be reconfigured to use the new portal automatically.
 - As when setting up a new instance, the setup wizard will either claim an existing Dynamics 365 Portal license to work with Dynamics 365 Marketing (if a free license is available on your tenant), or create a demo Power Apps Portal for you (which will expire in 30 days, after which you must start paying for it).
 
-To create a new portal and associate it with Marketing:
+To create a new portal and associate it with the Marketing app:
 
 > [!IMPORTANT]
-> If you do not provision your portal through Marketing, you can’t connect it later.
+> If you don't provision your portal through the Marketing app, you can’t connect it later.
 
 1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance you want to modify. You should be able to see that the **Use your own webserver** option is currently selected.
 
