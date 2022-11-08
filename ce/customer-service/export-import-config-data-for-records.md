@@ -48,8 +48,8 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. [Export and import skill-based routing configuration](#export-and-import-skill-based-routing-configuration)
-2. [Export and import capacity profiles configuration](#export-and-import-capacity-profiles-configuration)
+1. [Export and import skill-based routing configuration](#migrate-skill-based-routing-configuration)
+2. [Export and import capacity profiles configuration](#migrate-capacity-profiles-configuration)
 3. [Export and import record queues configuration](#export-and-import-record-queues-configuration)
 4. [Export and import intake rules configuration for records](#export-and-import-intake-rules-configuration-for-records)
 5. [Export and import workstreams configuration for records](#export-and-import-workstreams-configuration-for-records)
