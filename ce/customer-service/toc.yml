@@ -986,7 +986,7 @@
         href: configure-topics-clustering-cases-cs.md
       - name: Configure Omnichannel historical analytics
         href: oc-historical-analytics-reports.md
-      - name: Configure knowledge search insights
+      - name: Configure knowledge analytics
         href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
