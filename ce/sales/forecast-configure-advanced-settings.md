@@ -99,9 +99,9 @@ The following screenshot illustrates how selecting a default view displays the u
 In the **Layout** step of the forecast configuration, you select columns that you need in the forecast grid. These columns help your sellers better understand the forecast. 
 :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::
 
-Sometimes, you might want to change the label of the headers, add a tool tip for additional context, or translate the header. In such cases, you can define a control with the customization that you need and override the column headers with the custom control. For more information about how to create a custom control for the header, see [Customize column headers of the forecast grid](fc-customize-column-headers.md).
+If you want to translate the column names or add tooltips for additional context, you can define a control with the customization that you need. You can then override the column headers with the custom control. For more information about how to create a custom control for the header, see [Customize column headers in the forecast grid](fc-customize-column-headers.md).
 
-In the **Override column headers (Preview)** section, select the custom control that includes all the customizations.  
+In the **Override column headers (Preview)** section, select the custom control that includes the customizations.  
 
 
 ## Customize underlying records
