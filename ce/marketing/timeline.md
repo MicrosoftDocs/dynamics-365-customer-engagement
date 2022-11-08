@@ -1,7 +1,7 @@
 ---
 title: "Customer interactions timeline (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the customer interactions timeline to view historical activity in Dynamics 365 Marketing."
-ms.date: 05/10/2022
+ms.date: 11/08/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -43,22 +43,15 @@ Having a single view of all the activities that a customer engages in enables yo
 - Preview the communications (emails, text messages, and push notifications) that a contact received or interacted with as part of your marketing campaigns within the timeline
 
 > [!IMPORTANT]
->Please note that user needs read permissions to the following entities to be able to see marketing interactions on the timeline:
+> To see marketing interactions on the timeline, you need to enable the following read permissions:
 >
-> •	msdyncrm_marketingemail
->
-> •	msevtmgt_event
->
-> •	msdyncrm_marketingform
->
-> •	msdyncrm_website
->
-> •	msdynmkt_email
->
-> •	msdynmkt_pushnotification
->
-> •	msdynmkt_sms
-
+> -	msdyncrm_marketingemail
+> -	msevtmgt_event
+> -	msdyncrm_marketingform
+> -	msdyncrm_website
+> -	msdynmkt_email
+> -	msdynmkt_pushnotification
+> -	msdynmkt_sms
 
 > [!NOTE]
 > All historical interactions from real-time marketing activities are shown in the timeline for a selected contact or lead. However, historical interactions from outbound marketing activities prior to May 2022 are not shown in the timeline.
