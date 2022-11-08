@@ -67,7 +67,7 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 
 1. If legacy SLA is still in **Active** state: Existing SLA records with legacy SLA will continue to work as expected.
 
-1. If you want to use SLAs created in the Unified Interface apps on existing records: You will need to update the SLA field to Unified Interface SLA manually or need to write the plugin to update the records. The plugin logic could be Modern Flow or Workflow.
+1. If you want to use SLAs created in the Unified Interface apps on existing records: You will need to update the SLA field to Unified Interface SLA manually or write the plugin to update the records. The plugin logic could be for example, Modern Flow or Workflow.
 
 ## Known condition conversion issues
 
