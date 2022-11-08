@@ -1222,10 +1222,12 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
-    - name: Export and import configuration data for the record channel
+    - name: Migrate configuration data for the record channel
       href: export-import-config-data-for-records.md
-    - name: Export and import configuration data for live chat
+    - name: Migrate configuration data for live chat
       href: export-import-config-data-for-live-chat.md
+    - name: Migrate configuration data for the voice channel
+      href: export-import-config-data-for-voice.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
@@ -1462,6 +1464,12 @@
         href: developer/reference/entities/msdyn_octwitterhandle.md
       - name: msdyn_octwitterhandlesecret
         href: developer/reference/entities/msdyn_octwitterhandlesecret.md
+      - name: msdyn_ocvoice
+        href: developer/reference/entities/msdyn_ocvoice.md
+      - name: msdyn_ocvoicechannellanguagesetting
+        href: developer/reference/entities/msdyn_ocvoicechannellanguagesetting.md
+      - name: msdyn_ocvoicechannelsetting
+        href: developer/reference/entities/msdyn_ocvoicechannelsetting.md
       - name: msdyn_ocwechatchannelconfig
         href: developer/reference/entities/msdyn_ocwechatchannelconfig.md
       - name: msdyn_ocwhatsappchannelaccount
