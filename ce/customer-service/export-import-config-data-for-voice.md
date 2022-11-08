@@ -1,7 +1,7 @@
 ---
-title: "Export and import unified routing data for the voice channel | MicrosoftDocs"
-description: "Learn to export and import data pertaining to the voice channel from source to target environments in Omnichannel for Customer Service."
-ms.date: 10/31/2022
+title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
+description: "Learn to migrate data pertaining to the voice channel from source to target environments in Omnichannel for Customer Service."
+ms.date: 11/08/2022
 ms.topic: article
 author: mgandham
 ms.author: nenellim
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export and import data for the voice channel
+# Migrate data for the voice channel
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the voice channel.
 
@@ -57,7 +57,7 @@ The following prerequisites must be met:
 >
 > The migration of the account, channel, Azure Communication Services phone number acquisition, phone number configuration, bot configuration, and AI and analytics settings is not in scope.
 
-## Export and import the voice channel configuration
+## Migrate the voice channel configuration
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
@@ -69,16 +69,16 @@ You must perform the steps in the order they're listed to migrate your configura
 1. Troubleshoot export and import of data
 
 
-## Export and import skill-based configuration
+## Migrate skill-based configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#export-and-import-skill-based-routing-configuration).
 
 
-## Export and import configuration for voice channel queues
+## Migrate configuration for voice channel queues
 
 For exporting and importing queues for the voice channel, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-config-data-for-records.md#export-and-import-record-queues-configuration).
 
-## Export and import configuration for voice channel workstreams
+## Migrate configuration for voice channel workstreams
 
 Use the Configuration Migration tool to create the schema and export the data from the source organization for the following entities:
 
@@ -93,7 +93,7 @@ Use the Configuration Migration tool to create the schema and export the data fr
 - msdyn_cannedmessages
 - msdyn_octags
 
-## Export and import configuration for voice channel settings
+## Migrate configuration for voice channel settings
 
 The following assumptions are in place:
 
@@ -101,7 +101,7 @@ The following assumptions are in place:
 
 - The workstream must already exist; created manually or previously migrated in the destination organization.
 
-**To export and import data for voice channel**
+**To migrate data for voice channel**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the voice channel and related entities.
 

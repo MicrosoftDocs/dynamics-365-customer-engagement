@@ -1222,11 +1222,11 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
-    - name: Export and import configuration data for the record channel
+    - name: Migrate configuration data for the record channel
       href: export-import-config-data-for-records.md
-    - name: Export and import configuration data for live chat
+    - name: Migrate configuration data for live chat
       href: export-import-config-data-for-live-chat.md
-    - name: Export and import configuration data for the voice channel
+    - name: Migrate configuration data for the voice channel
       href: export-import-config-data-for-voice.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md

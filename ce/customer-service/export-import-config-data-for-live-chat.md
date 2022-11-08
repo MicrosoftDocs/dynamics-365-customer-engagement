@@ -1,7 +1,7 @@
 ---
-title: "Export and import unified routing data for live chat | MicrosoftDocs"
+title: "Migrate unified routing data for live chat | MicrosoftDocs"
 description: "Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service."
-ms.date: 10/10/2022
+ms.date: 11/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export and import data for the live chat channel
+# Migrate data for the live chat channel
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for live chat.
 
@@ -71,19 +71,19 @@ You must perform the steps in the order they're listed to migrate your configura
 1. Troubleshoot export and import of data
 
 
-## Export and import skill-based configuration
+## Migrate skill-based configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#export-and-import-skill-based-routing-configuration).
 
-## Export and import configuration for capacity profiles
+## Migrate configuration for capacity profiles
 
 If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](export-import-config-data-for-records.md#export-and-import-capacity-profiles-configuration).
 
-## Export and import configuration for live chat queues
+## Migrate configuration for live chat queues
 
 For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-config-data-for-records.md#export-and-import-record-queues-configuration).
 
-## Export and import configuration for live chat workstreams
+## Migrate configuration for live chat workstreams
 
 Use the Configuration Migration tool to create the schema and export the data from the source organization for the following entities:
 
@@ -98,7 +98,7 @@ Use the Configuration Migration tool to create the schema and export the data fr
 - msdyn_cannedmessages
 - msdyn_octags
 
-## Export and import configuration for live chat widgets
+## Migrate configuration for live chat widgets
 
 The following assumptions are in place:
 
@@ -110,7 +110,7 @@ The following assumptions are in place:
 
 - The workstream must already exist; created manually or previously migrated in the destination organization.
 
-**To export and import data for live chat widgets**
+**To migrate data for live chat widgets**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the live chat widget and related entities.
 
