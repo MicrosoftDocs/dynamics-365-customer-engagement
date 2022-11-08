@@ -1,17 +1,52 @@
 
+
+## 3.12.92.14
+
+(Includes Resource Scheduling controls version 1.2.32.222981).
+
+- Fixed a bug that prevented creating a new entity in the Field Service setup wizard.
+- Improved error handling for geocode action.
+- Improved resource search from Schedule Assistant.
+- Fixed a bug that prevented to view bookings for crew members with schedule board refresh.
+- Improved booking tooltip for lookup fields from related entities.
+- Requirements can be scheduled multiple times while first one is still booking.
+- Fixed a bug where drag and drop booking in new schedule board before booking is complete results in duplicate booking.
+- Improved formatting function to display duration in day view and negative duration.
+
+
+## 3.12.91.2
+
+(Includes Resource Scheduling controls version 1.2.31.222853).
+
+Bug fixes for the new schedule board include:
+
+- Added booking tooltip error showing work order information on custom views.
+- Added booking tooltip error when start time and end time are missing.
+- Fixed a bug in the details panel when selecting lookup fields for a requirement.
+- Improved details panel that was missing some field values for resources.
+- Resource search now searches as text is entered.
+- Fixed a bug where drag and drop wasn’t showing estimated travel time for custom booking templates.
+- Fixed a bug where the Show Travel Duration setting was always active. 
+- Added schedule assistant errors when editing text in the search box.
+
 ## 3.12.90.2
 
-(Includes Resource Scheduling controls version 1.2.30.222771).
+(Includes Resource Scheduling controls version 1.2.30.222701).
 
-- Corrected "Get Started" banners & messaging for Bing Maps integration for European customers.
+- Corrected "Get Started" banners and messaging for Bing Maps integration for European customers.
 - The Remaining Duration field will now update correctly when bookings are manually adjusted on the schedule board.
-- Filter is now correctly applied from the "Maintain Bookings" option for team members associated to a project record.
+- Filter is now correctly applied from the Maintain Bookings option for team members associated to a project record.
 - Soft bookings will now interact with the expand/collapse options as expected on the schedule board.
 - Auto-refresh on the schedule board will now update the color of bookings based on priority.
 - Fullscreen icon will now show on customized booking tooltip views on the schedule board.
 - Adding a custom web resource to a schedule board tab will no longer cause other tabs to show a HTTP 404 error.
 - Selecting a resource (with no requirement selected) on the schedule board should now open the details panel as expected.
 
+(Includes Resource Scheduling controls version 1.2.30.222771)
+
+(This release is a hotfix on Resource Scheduling controls version  1.2.30.222701)
+ - Fixed a bug in which the NSAT survey and introductory video were not displaying for some environments after being upgraded.
+ 
 ## 3.12.88.3 - 2022 wave 2 early access update 2
 
 (Includes Resource Scheduling controls version 1.2.29.222551).
@@ -22,7 +57,7 @@
 
 Scheduling bug fixes to the new schedule board:
 
-- Bookings created from cases were not re-rendered the right priority when SB is refreshed. 
+- Bookings created from cases were not re-rendered the right priority when Schedule Board is refreshed. 
 - Booking tile text visibility on selection for light status color.
 - Schedule Type settings  application.
 - "move to" Dialog on bookings rejects selected resource and blocks move.

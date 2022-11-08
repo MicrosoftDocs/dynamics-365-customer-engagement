@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-new-journey-version.md",
+      "redirect_url": "real-time-marketing-edit-journey",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/app-profile-manager/settings.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -1931,6 +1936,11 @@
     {
       "source_path": "ce/sales-enterprise/insert-email-template.md",
       "redirect_url": "/dynamics365/customer-service/customer-service-hub-user-guide-email-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/faqs-sales.md",
+      "redirect_url": "faq-sales",
       "redirect_document_id": "false"
     },
     {
@@ -13850,7 +13860,12 @@
     },
     {
       "source_path": "ce/developer/download-tools-nuget.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/download-tools-nuget",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/download-tools-nuget.md",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
       "redirect_document_id": "false"
     },
     {
@@ -22935,11 +22950,6 @@
     {
       "source_path": "ce/sales-enterprise/faqs-sales-insights.md",
       "redirect_url": "/dynamics365/sales/faqs-sales-insights",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/faqs-sales.md",
-      "redirect_url": "/dynamics365/sales/faqs-sales",
       "redirect_document_id": "false"
     },
     {
