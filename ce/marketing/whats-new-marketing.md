@@ -140,8 +140,6 @@ Monthly improvements include updates to personalization, segmentation, and text 
         - [Docs](real-time-marketing-sync-data-tables.md)
     - **[Preview]** Build segments using multiple query logic groups. This opens more segment scenarios and more enriched segment definitions, such as “Contacts whose accounts are managed by partners in Contoso Consultants *but not* preferred to be contacted by phone”.
         - [Docs](real-time-marketing-build-segments.md#preview-add-a-new-group-to-a-segment)
-- **Text messages**
-    - The refreshed text message setup wizard in real-time marketing allows for simplified SMS provider and phone number setup.
 
 ### September 2022 update
 
