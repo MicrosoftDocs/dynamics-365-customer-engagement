@@ -71,7 +71,7 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#export-and-import-skill-based-routing-configuration).
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration).
 
 
 ## Migrate configuration for voice channel queues
