@@ -1,5 +1,5 @@
 ---
-title: Customize column headers of the forecast grid
+title: Customize column headers in the forecast grid
 description: Learn how to customize the column headers of the forecast grid.
 ms.date: 06/13/2022
 ms.topic: article
@@ -10,9 +10,9 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Customize column headers of the forecast grid
+# Customize column headers in the forecast grid
 
-You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tool tip for additional context. For more information about how to create a Power Apps code component, see [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component).  
+You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tool tip for additional context.  
 
 ## License and role requirements
 
@@ -35,7 +35,7 @@ Let's understand the customizations with an example. We'll add the French transl
  
 ### Create a resource file and add translations
 
-Let's create a resource file and add the French translations in the resource file.
+After you create the code component, the `ColumnHeader` folder is created in the path you've specified. Let's create a resource file and add the French translations in the resource file.
 
 1. Create a folder named ```strings``` under the ```ColumnHeader``` folder.
 
@@ -129,7 +129,7 @@ Next, we'll modify the manifest file to specify the property that we're overridi
 1. Search for the ```property``` node and replace it with the following code as-is:
     `<property name="columnName" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />`  
 
-1. Update the `<resources>` node to specify the path to the resource file that include the French translations:
+1. Update the `<resources>` node to specify the path to the resource file that includes the French translations:
     ```xml
     <resources>
       <code path="index.ts" order="1"/>
@@ -141,7 +141,7 @@ Next, we'll modify the manifest file to specify the property that we're overridi
     ```
     The `<resx path>` node contains the resource file path. In the preceding code sample, we've added the resource file for the French languages. If you have translations for other languages, add the resource file path for those languages as well.
 
-### Implement the component logic 
+### Implement the component logic  
 
 Let's add the code to implement the component logic inside the ```index.ts``` file.
 
