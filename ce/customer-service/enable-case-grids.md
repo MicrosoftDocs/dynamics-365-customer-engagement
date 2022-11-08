@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 10/14/2022
+ms.date: 11/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,17 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Enable case grids (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Enable case grids
 
 The modernized case grids help you increase agent productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
 
@@ -45,7 +35,7 @@ The following are some of the key features of the modernized case grids:
 
 ## Enable the grid control for the Case entity
 
-To make the **Enhanced Active Cases** view accessible to agents, you must enable the **(Preview) Power Apps grid control** option on the Power Apps portal.
+To make the **Enhanced Active Cases** view accessible to agents, you must enable the **Power Apps grid control** option on the Power Apps portal.
 
 1. Go to the https://make.powerapps.com. portal.
 1. Select **Solutions**. The **Solutions** page appears.
@@ -53,10 +43,10 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
 1. On the left pane on the **Default Solution** page, select **Tables**, and then select **Case**.
 1. Select **Switch to classic**.
 1. On the **Case** page, in the **Controls** section, select **Add Control**.
-1. In the **Add Control** dialog, select **(Preview) Power Apps grid control**> **Add**.
+1. In the **Add Control** dialog, select **Power Apps grid control**> **Add**.
 1. On the **Controls** tab, do the following:
 
-    1. In the **Controls** section, for **(Preview) Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
+    1. In the **Controls** section, for **Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
     1. In the **Property** section in the **Customizer Control** field, select **Edit**. The **Configure property “Customizer Control Name”** dialog appears.
     1. In the **Configure property “Customizer Control Name”** dialog, select **Bind to a static value option**. For **Singleline.Text**, select **MscrmControls.CustomCellControl.CustomCellControl**, and then select **OK**.
      1. To enable inline editing, do the following:
