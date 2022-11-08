@@ -26,7 +26,7 @@ Microsoft Teams dialer helps sellers make Teams calls to customers directly from
 
 ## How to configure the dialer?
 
-As an administrator, you must configure Microsoft Teams dialer for sellers and perform the following steps:
+As an administrator, you must configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
 
 1.	[Review the prerequisites](#review-the-prerequisites).
 2.	[Configure the dialer](#configure-the-dialer).
@@ -50,15 +50,17 @@ Ensure that you meet the following requirements before you configure Microsoft T
     >When you enable Microsoft Teams dialer, other telephony systems that are connected to the Dynamics 365 app through Dynamics 365 Channel Integration Framework will stop working for users to whom Teams dialer is enabled. As an administrator, you can deactivate or delete the phone system in the Channel Integration Framework app.
  
 
-
 ## Configure the dialer
 
-1. Sign in to your Dynamics 365 Sales Hub app.  
-
-2. Go to **App settings**, and under **General settings**, select **Teams calls**.  
+1. In the Sales Hub app, go to **App settings**, and under **General settings**, select **Teams calls**.  
+    > [!NOTE]
+    > If you are a Sales Professional customer, append the following parameters to your Dynamics 365 org URL to open the Teams calls configuration page:  
+    >     ```pagetype=control&controlName=MscrmControls.TeamsDialerSettings.DialerSettingsHostControl```  
+    >     `Example: https://contoso.crm.dynamics.com/main.aspx?pagetype=control&controlName=MscrmControls.TeamsDialerSettings.DialerSettingsHostControl`  
+    >     Alternatively, you can add the configuration page to your Sales Professional app's sitemap by [adding a subarea](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map).
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Teams dialer configuration page.](media/teams-dialer-configuration-page.png "Microsoft Teams dialer configuration page")  
+    > ![Microsoft Teams calls configuration page.](media/teams-dialer-configuration-page.png "Microsoft Teams calls configuration page")  
 
 3. Turn on **Teams calls**.  
     
@@ -91,6 +93,7 @@ Ensure that you meet the following requirements before you configure Microsoft T
     A confirmation message is displayed, and the Microsoft Teams dialer is enabled in your organization for selected security roles in the selected app. 
     >[!NOTE]
     >You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.  
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
