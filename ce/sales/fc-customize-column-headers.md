@@ -39,7 +39,10 @@ After you create the code component, the `ColumnHeader` folder is created in the
 
 1. Create a folder named ```strings``` under the ```ColumnHeader``` folder.
 
-1. Copy the following code to a new file, ColumnHeader.1036.resx:  
+1. Copy the following code to a new file, ColumnHeader.1036.resx.
+    > [!NOTE]
+    > The number 1036 in the file name is the language code for French. For a list of language codes, go to this [page](https://learn.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+ 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <root>
@@ -112,13 +115,18 @@ After you create the code component, the `ColumnHeader` folder is created in the
     ```
  
     In the above code sample, the column names for **Forecast** and **Won** are overridden with the French translations **Prévision** and **Gagné** respectively in the `<data>` node.
+    
     > [!NOTE]
     > In the `name` parameter, specify the exact column name that you've configured in the **Layout** step of the forecast.
     > :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::  
 
     If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Ensure that that resource file name uses the following naming convention:  
-    ```filename.languagecode.resx  
-    **Example:** ColumnHeader.1039.resx```    
+        
+    ```
+    filename.languagecode.resx  
+    **Example file name for German:** ColumnHeader.1031.resx
+    ```
+
 
 ### Implement the manifest
 
@@ -162,4 +170,3 @@ Let's add the code to implement the component logic inside the ```index.ts``` fi
 - [Build the code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#build-your-component)  
 - [Package the code component](/power-apps/developer/component-framework/import-custom-controls)  
 - [Override column headers (preview)](forecast-configure-advanced-settings.md#override-column-headers-preview)  
-
