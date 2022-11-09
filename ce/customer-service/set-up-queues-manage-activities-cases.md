@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 11/08/2022
+ms.date: 11/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -113,16 +113,16 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 After you have saved the queue, the following changes happen in the SUMMARY tab:
 
-   - In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
+- In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
-   - If you selected the queue type as private, the **MEMBERS** section appears.
-          - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
+- If you selected the queue type as private, the **MEMBERS** section appears.
+      - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
 
-   - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
+      - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
 ## Set up default views for routing dialogs
 
-To optimize agent efficiency, you can set up custom views that contain a filtered list of queues relevant to type of cases that the agents handle. You can then set the view as the default to list only those queues that the agents need to route to when they route work items to a different queue or user.
+To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a different queue or user to route the work items.
 
 1. In the Customer Service admin center app, go to **Customer support** in the site map and select **Queues**.
 
@@ -130,7 +130,7 @@ To optimize agent efficiency, you can set up custom views that contain a filtere
 
 1. On the **Queues** > **Routing dialogs** page, do the following:
     - **Add to queues**: Set a default view that'll appear for the agents when they open the **Add to Queue** dialog to route a case from the case page.
-    -  **Route queue item**: Set a default view that'll appear for the agents when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
+    - **Route queue item**: Set a default view that'll appear for the agents when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
 
 1. Save and close.
 
@@ -157,11 +157,11 @@ Queues share cases or activities as a group until they're removed from the queue
 
 To assign items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
-> [!Note]
+> [!NOTE]
 >
 > - When two agents simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
 > - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
-> - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent that created the case.
+> - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent who created the case.
 
 #### Create a queue in legacy Service Management
 
