@@ -1,14 +1,14 @@
 ---
-title: "Overview of Dynamics 365 Sales"
-description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 08/03/2022
-
+title: Welcome to Dynamics 365 Sales
+description: Get an overview of the sales licenses and capabilities in each Dynamics 365 Sales license 
+ms.date: 11/09/2022
 ms.topic: overview
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
-# Overview of Dynamics 365 Sales 
+# Welcome to Dynamics 365 Sales  
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
 
