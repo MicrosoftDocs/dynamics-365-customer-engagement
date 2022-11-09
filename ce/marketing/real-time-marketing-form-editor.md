@@ -202,6 +202,10 @@ The validation process is automatically launched along with form publishing and 
 - Does the form include all fields linked to attributes of selected entity which are mandatory to create or update a record.
 - Is the Submit button included.
 - Are the form fields linked to an editable attribute.
+- Does the form contain duplicates.
+- Does the form include all attributes required by matching strategy (Email field by default).
+- Is the target audience set.
+- Are all required attributes labeled as required="required" in html.
 
 **ToDo** 
 
