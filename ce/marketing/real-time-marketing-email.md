@@ -54,8 +54,6 @@ Learn more about the [Asset library](real-time-marketing-asset-library.md)
 
 ### Link to documents and videos stored in the asset library
 
-#### Feature-rich text links
-
 Add feature-rich links to emails by directly linking to documents stored in the asset library. To link to a document or video:
 
 1. Add some text, a button, or an image to a real-time marketing email.
@@ -81,9 +79,7 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
     - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.
 
-#### QR codes
-
-**Link to QR codes** 
+### Link to QR codes
 
 You can increase customer engagement and promote your business using QR codes for events or coupons. Using QR codes, your customers can access your marketing event website with a single scan. To use a QR code, the recipient scans the code with a mobile device that is equipped with a camera and a QR code reader application. Once the QR code is scanned, it's translated into actionable information such as a webpage or event check-in.
 
