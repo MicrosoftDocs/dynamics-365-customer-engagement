@@ -306,6 +306,8 @@ The update also includes improvements to real-time journeys, the text message ch
     - Triggers can have up to 29 attributes (formerly limited to 10).
 - **Text message channel**
     - Text message metrics allow you to measure campaign performance including response rate, percentage of responses that include a defined keyword, and most used keywords.
+- **Marketing pages**
+    - Improved reliability of e-mail link clicked insights for customers.
 - **Event management**
     - Check-ins are created when joining an event 2 hours or less before it starts (formerly limited to 30 minutes before the event start), ensuring check-ins are created for early joiners.
 
