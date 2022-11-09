@@ -25,10 +25,10 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 11/18/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/04/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 12/02/2022 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/11/2022 |
-| | *USG* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/04/2022 |
-|**Station 4** |*Europe* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/04/2022 |
+| | *USG* |  [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 12/02/2022 |
+|**Station 4** |*Europe* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/18/2022 |
 |**Station 5** |  *North America*|[8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/11/2022 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/11/2022 |
 | | *Dedicated Scale Groups* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/18/2022 |
