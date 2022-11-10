@@ -44,19 +44,21 @@ With the Dynamics 365 Marketing November 2022 updates, you can boost interaction
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 #### Monthly enhancements
-#### •	Personalization
-o	 Usability improvements in the personalization pane
-The email editor's personalization pane introduces updates such as the grouping of extra information and interactions on the pane to allow users to consume and access capabilities flexibly. 
 
-Personalization **groupings** for easier reading and a **specific record** to access information like event details, orders, etc. are two examples of usability enhancements.
+- **Personalization**
+    - **Usability improvements in the personalization pane**
 
-Additionally, **dynamic text details** now employ data definitions to control what customized data is created. In addition to this, the **Element and Inline conditions** group has been improved. Here, conditions specified by the no-code conditional content UX are shown, and conventional HTML code may be inserted into message text as inline conditions. A collection of all message **LIST** placeholders.
+      The email editor's personalization pane introduces updates such as the grouping of extra information and interactions on the pane to allow users to consume and access capabilities flexibly. 
 
-o	Communicate dates and times in a variety of formats
+      Personalization **groupings** for easier reading and a **specific record** to access information like event details, orders, etc. are two examples of usability enhancements.
 
-The dates and times format has been modified in real-time marketing to maintain compatibility with the locale (language and location) for optimal user experience and hassle-free time-checking while scheduling a meeting, a webinar, etc. Given the complications of time zones, the objective is to provide clear formatting options to fulfil the recipient's expectations and ensure they receive the information at the proper time while working in various geographies.
+      Additionally, **dynamic text details** now employ data definitions to control what customized data is created. In addition to this, the **Element and Inline conditions** group has been improved. Here, conditions specified by the no-code conditional content UX are shown, and conventional HTML code may be inserted into message text as inline conditions. A collection of all message **LIST** placeholders.
 
-#### •	Segmentation
+    - **Communicate dates and times in a variety of formats**
+
+        The dates and times format has been modified in real-time marketing to maintain compatibility with the locale (language and location) for optimal user experience and hassle-free time-checking while scheduling a meeting, a webinar, etc. Given the complications of time zones, the objective is to provide clear formatting options to fulfil the recipient's expectations and ensure they receive the information at the proper time while working in various geographies.
+
+- **Segmentation**
 
 ### October 2022 update
 
