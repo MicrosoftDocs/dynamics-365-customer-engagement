@@ -145,7 +145,7 @@ The historical analytics for voicemail (preview) dashboard will be available as 
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
+The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Provide access to analytics reports](provide-access-analytics-reports.md).
 
 
 ### See also

@@ -1,6 +1,6 @@
 ---
-title: "Configure user roles to access analytics reports  | MicrosoftDocs"
-description: "Use this article to learn how to configure report access to security roles."
+title: "Provide access to analytics reports  | MicrosoftDocs"
+description: "Use this article to learn how to provide users access to analytics reports."
 ms.date: 11/11/2022
 ms.topic: article
 author: mh-jaya
@@ -8,7 +8,7 @@ ms.author: v-jmh
 manager: shujoshi
 ---
 
-# Configure user roles to access analytics reports
+# Provide access to analytics reports
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment.
 
