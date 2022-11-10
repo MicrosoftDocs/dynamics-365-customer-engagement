@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 11/11/2022
+ms.date: 11/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -122,7 +122,7 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 
 ## Set up default views for routing dialogs
 
-To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a different queue or user to route the work items.
+To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a queue or user to route the work items.
 
 1. In the Customer Service admin center app, go to **Customer support** in the site map and select **Queues**.
 
@@ -133,6 +133,8 @@ To optimize agent efficiency, you can set up custom views that contain a filtere
     - **Route queue item**: Set a default view that'll appear for the agents when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
 
 1. Save and close.
+
+At runtime, your agents will see the views that you have set for them.
 
 For information on how to create custom views, see [Create and edit public views](/power-apps/maker/model-driven-apps/create-edit-views-app-designer).
 
