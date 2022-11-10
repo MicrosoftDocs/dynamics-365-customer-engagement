@@ -1,7 +1,7 @@
 ---
 title: "APIs for sales forecasting | MicrosoftDocs"
 description: "As a developer, use this reference documentation for defining custom actions for manual forecasting."
-ms.date: 01/20/2022
+ms.date: 11/10/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
