@@ -1,7 +1,7 @@
 ---
 title: "Configure Knowledge analytics dashboards | MicrosoftDocs"
 description: "Learn how to configure Knowledge analytics dashboards."
-ms.date: 11/03/2022
+ms.date: 11/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
