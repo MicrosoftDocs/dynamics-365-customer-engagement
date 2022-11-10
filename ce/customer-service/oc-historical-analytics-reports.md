@@ -147,25 +147,7 @@ The historical analytics for voicemail (preview) dashboard will be available as 
 
 The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
 
-<!-->
-### Provide report access to additional security roles
 
-Perform the following steps to enable users with different privileges to access reports beyond the default ones.
-
-1. In Dynamics 365, go to **Settings** and select **Advanced settings**.
-
-1. Select **Security** and then **Security roles**.
-
-1. Select the security role that you want to enable access for. For example, agent manager.
-
-1. Select the **Custom Entities** tab.
-
-1. Grant Read privileges to the following entities:
-   - **Omnichannel historical analytics**
-   - **Insights**
-
-1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
-<-->
 ### See also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md)  

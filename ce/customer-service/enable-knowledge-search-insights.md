@@ -73,14 +73,7 @@ The **Article insights** dashboard is displayed. The **Search term insights dash
 
 To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
 
-<!-->
-### Provide report access to additional security roles
 
-If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
-
-> [!NOTE]
-> The Knowledge analytics dashboard supports content in the English language only and is available in organizations that have the base language set as English.
-<-->
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  

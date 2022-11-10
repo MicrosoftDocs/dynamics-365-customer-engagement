@@ -46,31 +46,6 @@ Make sure that you have the required administrator permissions for Dynamics 365.
     :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 
 To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
-<!-->
-## Provide report access to additional security roles
-Perform the following steps to configure users with different privileges to access reports beyond the default ones.
-
-1. In the Power Platform admin center, go to **Environments** and select the required Dynamics 365 environment.
-
-1. In the **Access** section, under **Security roles**, select **See all**.
-
-1. Select the security role that you want to grant access for. For example, AIB SML Roles.
-
-1. Select **Edit**.
-
-1. On the **Security Roles** page, select the **Custom Entities** tab.
-
-    :::image type="content" source="media/enable-custom-entities-realtime.png" alt-text="Enable read permissions for custom entities":::
-
-1. Grant **Read** privileges to the following entities:
-
-   - **Omnichannel Real-time analytics**
-   - **Insights**
-1. Select **Save and close**. The agent manager can now see the Omnichannel for Customer Service real-time analytics report.
-
-You can view the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time analytics** page. By default, the **Summary** report is displayed.
-
-<-->
 
 ### See also
 

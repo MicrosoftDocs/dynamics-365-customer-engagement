@@ -92,28 +92,7 @@ After you enable the setting, you can access the report in one of the following 
 
 The service managers must have the System Administrator or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
 
-<!-->
-### Provide report access to additional security roles
 
-Perform the following steps to enable users with different privileges to access reports beyond the default ones.
-
-1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
-
-1. Select **Security** and then **Security roles**.
-
-1. Select the security role that you want to enable access for. For example, agent manager.
-
-1. Select the **Custom Entities** tab.
-
-1. Grant Read privileges to the following entities:
-   - **Customer Service historical analytics**
-   - **Insights**
-
-1. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
-
-You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
-
-<-->
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
