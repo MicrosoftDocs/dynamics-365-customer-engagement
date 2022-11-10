@@ -117,7 +117,6 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 
 - If you selected the queue type as private, the **MEMBERS** section appears.
       - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
-
       - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
 ## Set up default views for routing dialogs
