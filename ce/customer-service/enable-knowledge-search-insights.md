@@ -9,7 +9,7 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure knowledge analytics
+# Configure knowledge analytics dashboards
 
 The Knowledge analytics dashboard is designed to provide your customer service supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
@@ -20,7 +20,7 @@ By default, the Knowledge analytics dashboard is enabled.
 
 ## Manage Knowledge analytics dashboard
 
-Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service hub app.
+Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
