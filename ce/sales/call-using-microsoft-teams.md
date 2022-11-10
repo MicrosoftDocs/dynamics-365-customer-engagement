@@ -1,7 +1,7 @@
 ---
 title: "Make and receive Teams calls in Dynamics 365"
 description: "Make and receive Teams calls in Dynamics 365 through the dialer, a record, or a work item."
-ms.date: 10/31/2022
+ms.date: 11/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,7 +33,7 @@ Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.
 > ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")  
 
 > [!IMPORTANT]
-> The dialer won't work if you've blocked third-party cookies in your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.  
+> The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.  
 
 ## Make calls with Teams  
 
