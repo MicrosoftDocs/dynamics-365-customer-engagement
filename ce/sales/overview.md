@@ -2,7 +2,7 @@
 title: Welcome to Dynamics 365 Sales
 description: Get an overview of the sales licenses and capabilities in each Dynamics 365 Sales license 
 ms.date: 11/09/2022
-ms.topic: overview
+ms.topic: welcome
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Welcome to Dynamics 365 Sales  
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.  This article provides an overview of the capabilities in Dynamics 365 Sales.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -18,11 +18,10 @@ Here's a short video to help you understand the power of leveraging Dynamics 365
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
-
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.     
+   
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
-## Choose the product that fits your needs  
+## Choose the license that fits your needs  
 
 Here are the different Dynamics 365 Sales offerings to fit every need of a business:  
 
