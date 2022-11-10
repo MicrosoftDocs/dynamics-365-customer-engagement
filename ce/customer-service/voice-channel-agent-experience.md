@@ -66,37 +66,6 @@ To report a phone number as spam, select the ellipsis to open more actions, and 
 
 You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
-## Consult with Microsoft Teams users
-
-If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the **Teams** tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Teams user is saved in Dynamics 365 for reporting and compliance.
-> [!NOTE]
-> You can also consult or transfer Teams calls to an external phone number.
-
-Do the following steps to consult while you're on a call:
-
-1. Select the **Consult** option, and go to the **Teams** tab in the **Consult** section that appears.
-
-2. Use the search option to search for an SME. The results are filtered by the name and live presence in Microsoft Teams.
-
-3. Select **Add** for the SME you want to consult. The SME will receive a call in Teams.
-
-4. Optionally, you can transfer the call to the SME.
-
-## Use chat consult with other agents and transfer calls
-
-You can use the chat **Consult** option to contact another agent and consult with them on questions that you might have when you're on a call with a customer.
-
-1. In the call window, select the **Consult** option. The **Consult** dialog appears.
-
-
-  > :::image type="content" source="media/voice-consult.png" alt-text="Voice consult dialog for consulting with other agents.":::
-
-1. Search for the agent who you want to chat with and select **Add to chat** for the required agent. A consult notification appears for the secondary agent that you select.
-
-1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can exchange messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
-
-1. If you want to transfer the call to the secondary agent, select the **Transfer** option in the call window. A notification goes to the secondary agent and the call is transferred after the agent accepts the transfer request. The secondary agent becomes the primary agent, and you'll be disconnected from the call and consult pane with no option to send any further messages.
-
 ## How to avoid call disconnection
 
 Ensure the following behaviors to avoid call drops:
