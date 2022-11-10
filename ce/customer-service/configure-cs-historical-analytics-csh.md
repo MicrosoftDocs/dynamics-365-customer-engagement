@@ -92,6 +92,7 @@ After you enable the setting, you can access the report in one of the following 
 
 The service managers must have the System Administrator or CSR Manager role to view the reports. 
 
+<!-->
 ### Provide report access to additional security roles
 
 Perform the following steps to enable users with different privileges to access reports beyond the default ones.
@@ -112,14 +113,15 @@ Perform the following steps to enable users with different privileges to access 
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
+<-->
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](knowledge-search-analytics-cs.md)  
 [Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
-
-
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

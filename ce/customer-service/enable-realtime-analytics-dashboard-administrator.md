@@ -45,6 +45,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
     :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 
+<!-->
 ## Provide report access to additional security roles
 Perform the following steps to configure users with different privileges to access reports beyond the default ones.
 
@@ -68,16 +69,17 @@ Perform the following steps to configure users with different privileges to acce
 
 You can view the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time analytics** page. By default, the **Summary** report is displayed.
 
+<-->
+
 ### See also
 
-[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
+[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)  
+[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)  
+[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)  
+[View and understand the Agents report in Omnichannel real-time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)  
+[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)  
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
-[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Agents report in Omnichannel real-time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

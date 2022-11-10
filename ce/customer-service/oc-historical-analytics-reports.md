@@ -78,7 +78,7 @@ You can enable historical analytics for unified routing in the Customer Service 
       The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
 
 1. Select **Save** or **Save and Close**.
-
+    
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for bots in Omnichannel for Customer Service
@@ -147,6 +147,7 @@ The historical analytics for voicemail (preview) dashboard will be available as 
 
 The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
 
+<!-->
 ### Provide report access to additional security roles
 
 Perform the following steps to enable users with different privileges to access reports beyond the default ones.
@@ -164,8 +165,12 @@ Perform the following steps to enable users with different privileges to access 
    - **Insights**
 
 1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
-
+<-->
 ### See also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

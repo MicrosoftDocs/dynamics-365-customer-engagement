@@ -71,18 +71,20 @@ To view the reports in Customer Service Hub, go to **Service** > **Insights** > 
 
 The **Article insights** dashboard is displayed. The **Search term insights dashboard** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
+<!-->
 ### Provide report access to additional security roles
 
 If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 > [!NOTE]
 > The Knowledge analytics dashboard supports content in the English language only and is available in organizations that have the base language set as English.
-
+<-->
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service analytics](customer-service-analytics.md)  
-
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
