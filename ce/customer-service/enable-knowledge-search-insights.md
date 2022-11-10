@@ -71,6 +71,8 @@ To view the reports in Customer Service Hub, go to **Service** > **Insights** > 
 
 The **Article insights** dashboard is displayed. The **Search term insights dashboard** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
+To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
+
 <!-->
 ### Provide report access to additional security roles
 

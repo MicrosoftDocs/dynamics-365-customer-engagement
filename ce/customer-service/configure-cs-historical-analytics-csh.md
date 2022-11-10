@@ -90,7 +90,7 @@ After you enable the setting, you can access the report in one of the following 
 
 ### User roles to view analytics reports
 
-The service managers must have the System Administrator or CSR Manager role to view the reports. 
+The service managers must have the System Administrator or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Configure user roles to access analytics reports](configure-user-roles-report-access.md).
 
 <!-->
 ### Provide report access to additional security roles
