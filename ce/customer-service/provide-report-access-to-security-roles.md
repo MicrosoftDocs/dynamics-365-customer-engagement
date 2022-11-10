@@ -22,7 +22,6 @@ manager: shujoshi
     - **Omnichannel Realtime analytics**   
     - **Customer service historical analytics** 
     - **Knowledge analytics** 
-  :::image type="content" source="media/enable-custom-entities-realtime.png" alt-text="Enable read permissions for custom entities":::
 
 1. Select **Save and close**. 
 
