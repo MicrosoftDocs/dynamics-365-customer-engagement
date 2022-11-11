@@ -22,7 +22,7 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
 1. Select **Transfer** in the call window. 
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of Transfer icon](./media/oc-transfer-scn.png)
+  > ![Screenshot of Transfer icon](./media/oc-transfer-scn.png)<br>
 2. The **Transfer** dialog box appears. The options, Queue, Teams, and Number pad are displayed.
   
   > [!div class="mx-imgBorder"]
@@ -61,7 +61,7 @@ During a consult, the primary agent can choose to transfer the call to the new p
 1. Select **Consult** in the call window. 
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of Consult icon](./media/oc-consult-btn.png)
+  > ![Screenshot of Consult icon](./media/oc-consult-btn.png)<br>
 2. The **Consult** dialog box appears. The options Agent, Teams, and Number pad are displayed.
   > [!div class="mx-imgBorder"]
   > ![Screenshot of Consult icon](./media/oc-consult-optns.png)  
