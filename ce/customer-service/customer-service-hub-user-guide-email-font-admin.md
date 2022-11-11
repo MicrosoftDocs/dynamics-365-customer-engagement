@@ -71,8 +71,6 @@ Enabling the user configured settings to an email form consists of the following
 7.  Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
 8.  Select **Save** and then **Publish All Customizations**.
 
->[!Note]
->If you experience issues with inline images not rendering properly and you're using a workflow to populate email content to RTE fields other than Timeline, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
 ### Enable the RTE control in the email form
 
@@ -93,6 +91,9 @@ Enabling the user configured settings to an email form consists of the following
 1. Select **Save** > **Publish**.
    
    The settings will now apply to the form when you create an email.
+
+>[!Note]
+>If you experience issues with inline images not rendering properly and you're using a workflow to populate email content to RTE fields other than Timeline, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
 ### Add the language filter in the email template selection view
 
