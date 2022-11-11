@@ -30,19 +30,19 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |**Station 1** | | |  | |
 | | *First Release* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD | N/A
 |**Station 2** | | |  | |
-| | *South America* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD | N/A
-| | *Canada* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
-| | *India* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
-| | *France* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
-| | *United Arab Emirates* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
-| | *South Africa* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
-| | *Germany* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
-| | *Switzerland* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
+| | *South America* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD | N/A
+| | *Canada* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
+| | *India* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *France* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *United Arab Emirates* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *South Africa* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *Germany* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
+| | *Switzerland* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
 |**Station 3** | |  |  | |
-| | *Japan* |  [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)| TBD  | N/A
-| | *Asia Pacific* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD| N/A
-| | *Great Britain* |[3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
-| | *Oceania* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD   | N/A
+| | *Japan* |  [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)| TBD  | N/A
+| | *Asia Pacific* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD| N/A
+| | *Great Britain* |[3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *Oceania* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD   | N/A
 |**Station 4** | |  |  | |
 | | *Europe* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | 3.4.0.8  | 11/13/2022
 |**Station 5** | |  |  | |
