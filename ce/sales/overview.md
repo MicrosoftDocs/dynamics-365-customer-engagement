@@ -21,7 +21,7 @@ Here's a short video to help you understand the power of leveraging Dynamics 365
    
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
-## Choose the license that fits your needs  
+## Choose the offering that fits your needs  
 
 Here are the different Dynamics 365 Sales offerings to fit every need of a business:  
 
@@ -30,6 +30,21 @@ Here are the different Dynamics 365 Sales offerings to fit every need of a busin
 - **Sales Enterprise**: Ideal for enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
 - **Sales Professional**: Ideal for enterprises that need a sales automation solution. More information: [Dynamics 365 Sales Professional](#dynamics-365-sales-professional)
+
+### Dynamics 365 Sales Premium
+
+Dynamics 365 Sales Premium combines Dynamics 365 Sales Enterprise capabilities with AI-driven features. The AI-driven features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.   
+When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities in addition to Dynamics 365 Sales Enterprise capabilities:  
+- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
+- **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
+    - Assistant
+    - Relationship analytics and health
+    - Who knows whom
+    - Conversation intelligence
+- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
+    - Predictive lead scoring    
+    - Predictive opportunity scoring   
+    - Predictive forecasting  
 
 ### Dynamics 365 Sales Enterprise
 
@@ -41,22 +56,6 @@ With Sales Enterprise, your sales organization can automate the sales process fr
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. More information: [Get started with in-app marketing (Sales)](get-started-app-marketing-sales.md).
 
 With your Dynamics 365 Sales Enterprise license, you can set up and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
-
-### Dynamics 365 Sales Premium
-
-Dynamics 365 Sales Premium combines Dynamics 365 Sales Enterprise with AI-driven features.     
-The features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.   
-When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities in addition to Dynamics 365 Sales Enterprise capabilities:    
-- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
-- **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
-    - Assistant
-    - Relationship analytics and health
-    - Who knows whom
-    - Conversation intelligence
-- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
-    - Predictive lead scoring    
-    - Predictive opportunity scoring   
-    - Predictive forecasting  
 
 ### Microsoft Relationship Sales
 
