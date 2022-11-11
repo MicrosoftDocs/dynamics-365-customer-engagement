@@ -37,7 +37,7 @@ The following real-time analytics reports are available:
 
 ## Prerequisites
 
-Make sure that you have the required administrator permissions for Dynamics 365. 
+Make sure that you have the System Administrator, Omnichannel Administrator, Analytics Reports author, or CSR manager roles to view the reports.
 
 To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 

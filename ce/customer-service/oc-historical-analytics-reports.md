@@ -29,7 +29,7 @@ The historical analytics reports include:
 
 ## Prerequisites
 
-You must have the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
+You must have the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
 
 To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
