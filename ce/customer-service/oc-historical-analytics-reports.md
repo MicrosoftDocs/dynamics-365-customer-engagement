@@ -29,7 +29,7 @@ The historical analytics reports include:
 
 ## Prerequisites
 
-Make sure that you have the required administrator permissions for Dynamics 365. 
+You must have the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
 
 To configure other user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
 
@@ -147,7 +147,6 @@ The historical analytics for voicemail (preview) dashboard will be available as 
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Provide access to analytics reports](provide-access-analytics-reports.md).
 
 
 ### See also
