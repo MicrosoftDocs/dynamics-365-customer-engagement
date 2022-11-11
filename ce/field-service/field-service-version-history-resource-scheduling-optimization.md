@@ -28,21 +28,21 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|
 |**Station 1** | | |  | |
-| | *First Release* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | TBD | N/A
+| | *First Release* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD | N/A
 |**Station 2** | | |  | |
-| | *South America* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8 | 11/04/2022
-| | *Canada* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199)  |3.4.0.8  | 11/04/2022
-| | *India* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8  | 11/04/2022
-| | *France* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8  | 11/04/2022
-| | *United Arab Emirates* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8  | 11/04/2022
-| | *South Africa* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8  | 11/04/2022
-| | *Germany* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199)  |3.4.0.8  | 11/04/2022
-| | *Switzerland* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199)  |3.4.0.8  | 11/04/2022
+| | *South America* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD | N/A
+| | *Canada* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
+| | *India* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *France* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *United Arab Emirates* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *South Africa* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *Germany* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
+| | *Switzerland* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  |TBD  | N/A
 |**Station 3** | |  |  | |
-| | *Japan* |  [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199)| 3.4.0.8  | 11/09/2022
-| | *Asia Pacific* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8| 11/09/2022
-| | *Great Britain* |[3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8  | 11/09/2022
-| | *Oceania* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) |3.4.0.8   | 11/09/2022
+| | *Japan* |  [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)| TBD  | N/A
+| | *Asia Pacific* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD| N/A
+| | *Great Britain* |[3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD  | N/A
+| | *Oceania* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) |TBD   | N/A
 |**Station 4** | |  |  | |
 | | *Europe* | [3.3.5.199](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | 3.4.0.8  | 11/13/2022
 |**Station 5** | |  |  | |
@@ -57,9 +57,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.4.0.8
+
+- Resource Scheduling Optimization always honors locked bookings and will no longer overlap them.
+
 ## 3.3.5.199
 
-- Resource scheduling optimization no longer fails with constraint violations; it will continue while skipping over the identified resource(s) that have violations. For more information, go to [Booking lock options](booking-lock-options.md).
+- Resource Scheduling Optimization no longer fails with constraint violations; it will continue while skipping over the identified resource(s) that have violations. For more information, go to [Booking lock options](booking-lock-options.md).
 - Bug fix: Addressed issue where ResetRSO fails with timeout exception on UR28.
 
 
