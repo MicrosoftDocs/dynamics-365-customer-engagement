@@ -21,12 +21,12 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
 
 1. Select **Transfer** in the call window. 
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Transfer icon](./media/oc-transfer-scn.png)<br>
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Transfer icon](./media/oc-transfer-scn.png)<br>
 2. The **Transfer** dialog box appears. The options, Queue, Teams, and Number pad are displayed.
   
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Transfer options](./media/oc-transfer-options.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Transfer options](./media/oc-transfer-options.png)
 
 3. The following section describes how you can transfer the call, based on your requirement.
 
@@ -35,19 +35,19 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
          - When the secondary agent picks up the call, you will be removed from the call. The secondary agent becomes the primary agent.
          - The primary agent must manually remove the customer off hold. 
          
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of queue transfer](./media/oc-transfer-q.png)
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of queue transfer](./media/oc-transfer-q.png)
 
     - **Transfer to an external PSTN number**:  Select **Number pad**. On the number pad that appears, enter the plus sign (+) followed by the customer's country code, phone number, and then select Call to make your call. The following actions occur:
         - The customer is automatically put on hold. Hold music plays for the customer.
         - When the secondary agent picks up the call, you will be removed from the call. The secondary agent becomes the primary agent.
         - The primary agent must manually remove the customer off hold. 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)
     
     - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence in Microsoft Teams. Select the Teams user you'd like to transfer the call to.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) 
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) 
 
 
 ## Consult
@@ -60,19 +60,19 @@ During a consult, the primary agent can choose to transfer the call to the new p
 
 1. Select **Consult** in the call window. 
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Consult icon](./media/oc-consult-btn.png)<br>
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Consult icon](./media/oc-consult-btn.png)<br>
 2. The **Consult** dialog box appears. The options Agent, Teams, and Number pad are displayed.
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Consult icon](./media/oc-consult-optns.png)  
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Consult icon](./media/oc-consult-optns.png)  
 
 3. The following section describes how you can consult with other agents or supervisors, based on your requirement.
     - **Consult with an internal agent or supervisor** : Select **Agent**. You can either have a call or chat with an internal agent. 
       Select the conversation channel and then search for the agent you'd like to consult with. The following actions occur:
         - The customer is automatically put on hold. Hold music plays for the customer.
         - The primary agent must manually remove the customer from hold. 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)
     - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a consult conversation to the secondary agent in the conversation, perform the following steps:
 
        - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window.
@@ -85,11 +85,11 @@ During a consult, the primary agent can choose to transfer the call to the new p
        - The primary agent must manually remove the customer from hold. 
     By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. 
     To make the consultation public, select **Hold** to put the call on hold. When the secondary agent has joined the conversation, remove the customer from hold to continue the consultation.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of External PSTN consult](./media/oc-consult-dialer.png)
+       > [!div class="mx-imgBorder"]
+       > ![Screenshot of External PSTN consult](./media/oc-consult-dialer.png)
     - **Consult with Teams user with PSTN**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with.  See: [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of Teams consult](./media/oc-consult-teams.png)
+       > [!div class="mx-imgBorder"]
+       > ![Screenshot of Teams consult](./media/oc-consult-teams.png)
 
     The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
