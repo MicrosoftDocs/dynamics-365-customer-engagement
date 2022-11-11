@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 11/11/2022
+ms.date: 11/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Omnichannel historical analytics reports
 
-You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics.
+You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language processing (NLP) to automatically detect the language used in your support conversations and group related conversations into topics.
 
 By default, the Omnichannel historical analytics reports are enabled.
 
@@ -89,7 +89,7 @@ You can enable the historical analytics for bots in the Customer Service admin c
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards, will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
+- If you select this option, the Omnichannel Summary and Bot dashboards will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
 
  :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="PVA bot dashboard.":::
   

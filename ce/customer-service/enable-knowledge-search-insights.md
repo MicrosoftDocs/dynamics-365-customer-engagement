@@ -1,7 +1,7 @@
 ---
 title: "Configure Knowledge analytics dashboards | MicrosoftDocs"
 description: "Learn how to configure Knowledge analytics dashboards."
-ms.date: 11/11/2022
+ms.date: 11/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -9,14 +9,17 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure knowledge analytics dashboards
+# Configure Knowledge analytics dashboards
 
-The Knowledge analytics dashboard is designed to provide your customer service supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
+The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
 By default, the Knowledge analytics dashboard is enabled.
 
 > [!NOTE]
-> Knowledge analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
+> Knowledge analytics provides data that's based on internal knowledge search and doesn't provide information about customer search behavior.
+
+
+To configure user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh#configure-user-access-to-analytics).
 
 ## Manage Knowledge analytics dashboard
 
@@ -71,7 +74,6 @@ To view the reports in Customer Service Hub, go to **Service** > **Insights** > 
 
 The **Article insights** dashboard is displayed. The **Search term insights dashboard** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
-To configure other user roles to access analytics reports, see [Provide access to analytics reports](provide-access-analytics-reports.md).
 
 
 ### See also
