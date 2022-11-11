@@ -32,12 +32,14 @@ See the following articles for configuring insights:
 
 ## Configure user access to analytics and dashboards
 
+You can grant the required privileges such as Read, Write, or Create to your supervisors or other users using the Power Platform admin center.
+
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment. 
 
 2. In the **Access** section, under **Security roles**, select **See all**. A list of security roles available in the environment is displayed.
 
-3. You can choose to create a new role or update an existing role, before adding users to it.
-    
+3. You can choose to create a new role or edit an existing role, before adding users to it. 
+   
    **To add a new role**:    
      a. Select **New role** on the navigation bar. The **New Security role** dialog opens.
      b. On the **Details** tab, enter a name in the **Role Name** field.
@@ -45,7 +47,7 @@ See the following articles for configuring insights:
    **To update an existing role**:
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
-4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant the required privileges such as Read, Write, and Create.
+4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant the required privileges.
     - **Omnichannel historical analytics**  
     - **Omnichannel Realtime analytics**   
     - **Customer service historical analytics** 
@@ -55,11 +57,10 @@ See the following articles for configuring insights:
 
 6. On the **Security roles** page, select the role that you just created or updated, and then select **Add people** to add users to the role.
 
-> [!Note]
-> To add users to existing roles, open an existing role and then select **Add people**. In the **Add people** dialog, search for a name, email address, or team name, and then select **Add**.
 
 ### See also
 
+[Create or edit a security role to manage user access](/power-platform/admin/create-edit-security-role#create-a-security-role.md)
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service analytics](customer-service-analytics.md)  
