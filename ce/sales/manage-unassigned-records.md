@@ -1,7 +1,7 @@
 ---
 title: View and manage unassigned records in assignment rules
 description: You can view and manage unassigned lead and opportunity records through assignment rules in Microsoft Dynamics 365 sales accelerator.
-ms.date: 09/30/2022
+ms.date: 11/11/2022
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -70,7 +70,7 @@ When you open the **Assignment rules** home page, by default the lists of rules 
 
     :::image type="content" source="media/sa-ar-view-unassigned-records-view-records.png" alt-text="Screenshot of the list of unassigned lead records.":::
 
-    The **Assignment due in** column displays the number of hours left for the record to be assigned to a seller or a team. If the record isn't assigned to any seller or team with in the timeframe, the record is marked as overdue, and you must assign the records manually or schedule a reassignment run. The time limit is configured to through the **Consider seller work schedule** option while configuring the distribution of records in assignment rules. To understand the **Consider seller work schedule** option, see step 8 in [To create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).  
+    The **Assignment due in** column displays the number of hours left for the record to be assigned to a seller or a team. If the record isn't assigned to any seller or team within the timeframe, the record is marked as overdue. You must assign these records manually or schedule a reassignment run. The time limit is configured through the **Consider seller work schedule** option while configuring the distribution of records in assignment rules. To understand the **Consider seller work schedule** option, see step 8 in [To create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).  
     When the the **Consider seller work schedule** option isn't selected for the rule, the dash (-) icon is displayed corresponding to the records.  
      
     The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).
