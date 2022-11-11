@@ -93,7 +93,7 @@ Enabling the user configured settings to an email form consists of the following
    The settings will now apply to the form when you create an email.
 
 >[!Note]
->If you experience issues with inline images not rendering properly and you're using a workflow to populate email content in RTE fields outside of Timeline, you must use the msdyn_EmailRTEconfig_reference.js plugin.
+>If you experience issues with inline images not rendering properly and you're using a workflow to populate email content in RTE fields that aren't in Timeline, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
 ### Add the language filter in the email template selection view
 
