@@ -103,7 +103,7 @@ Perform the following steps to enable the language filter for the [enhanced emai
 1. Select **Customizations** > **Customize the System**.
 1. In **Solution: Default Solution**, expand **Entities**.
 1. Select and expand **Email Template** and then select **Forms**.
-1. On the **Active Forms** , select **Template gallery filter form**.
+1. On the **Active Forms**, select **Template gallery filter form**.
 1. Drag and drop **Language**  from the available fields to the form. 
    > [!NOTE]
    >  **Language** is added to the form by default.
