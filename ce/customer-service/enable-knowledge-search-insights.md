@@ -18,12 +18,15 @@ By default, the Knowledge analytics dashboard is enabled.
 > [!NOTE]
 > Knowledge analytics provides data that's based on internal knowledge search and doesn't provide information about customer search behavior.
 
+## Prerequisites
 
-To configure user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh#configure-user-access-to-analytics).
+You must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
+
+To configure user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
 
 ## Manage Knowledge analytics dashboard
 
-Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
+You can enable or disable the reports using the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -66,11 +69,11 @@ Use the information in the following section to enable or disable the reports in
 
 3. Select **Save** or **Save and Close**.
 
-### View Knowledge analytics dashboards
+### View Knowledge analytics dashboards 
 
-The service managers must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
+To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**. 
 
-To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**. To view the reports in Customer Service workspace, select the **plus (+)** icon, and then select **Knowledge analytics** from the dropdown list.
+To view the reports in Customer Service workspace, select the **plus (+)** icon, and then select **Knowledge analytics** from the dropdown list.
 
 The **Article insights** dashboard is displayed. The **Search term insights dashboard** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 

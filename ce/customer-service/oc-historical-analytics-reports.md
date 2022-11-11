@@ -29,11 +29,13 @@ The historical analytics reports include:
 
 ## Prerequisites
 
-Make sure that you have the required administrator permissions for Dynamics 365.
+Make sure that you have the required administrator permissions for Dynamics 365. 
+
+To configure other user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
 
 ## Manage Omnichannel historical analytics reports
 
-Use the information in the following section to enable or disable the reports in the Customer Service admin center or Omnichannel admin center app.
+You can enable or disable the reports using the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    

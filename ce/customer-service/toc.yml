@@ -1012,8 +1012,6 @@
           href: model-customize-reports.md
         - name: Data models and report mappings for historical analytics reports
           href: oob-data-models.md
-      - name: Provide access to analytics reports
-        href: provide-access-analytics-reports.md
       - name: Enable supervisor settings
         items:
         - name: Provide access to Ongoing Conversations dashboard

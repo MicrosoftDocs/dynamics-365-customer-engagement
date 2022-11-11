@@ -35,7 +35,15 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversation
 
-Make sure that you have the required administrator permissions for Dynamics 365. You can configure Omnichannel real-time analytics reports in the Customer Service admin center app.
+## Prerequisites
+
+Make sure that you have the required administrator permissions for Dynamics 365. 
+
+To configure user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
+
+## Manage Omnichannel real-time analytics reports
+
+You can enable or disable Omnichannel real-time analytics reports in the Customer Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
@@ -45,7 +53,6 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
     :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 
-To configure other user roles to access analytics reports, see [Provide access to analytics reports](provide-access-analytics-reports.md).
 
 ### See also
 

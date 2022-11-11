@@ -22,9 +22,14 @@ The historical reports include:
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
-## Manage Customer Service historical analytics reports
 
-Make sure that you have administrator permissions for Dynamics 365.
+## Prerequisites
+
+You must have the System Administrator or CSR Manager role to view the reports. 
+
+To configure other user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
+
+## Manage Customer Service historical analytics reports
 
 Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
 
@@ -88,9 +93,7 @@ After you enable the setting, you can access the report in one of the following 
 
 - In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
 
-### User roles to view analytics reports
 
-The service managers must have the System Administrator or CSR Manager role to view the reports. To configure other user roles to access analytics reports, see [Provide access to analytics reports](provide-access-analytics-reports.md).
 
 
 ### See also
