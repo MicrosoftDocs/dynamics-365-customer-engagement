@@ -30,7 +30,7 @@ See the following articles for configuring insights:
 - [Configure Knowledge search insights](enable-knowledge-search-insights.md)
 - [Configure intraday insights](configure-intraday-dashboard-supervisor)
 
- ## Configure user access to analytics and dashboards
+## Configure user access to analytics and dashboards
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment. 
 
@@ -45,7 +45,7 @@ See the following articles for configuring insights:
    **To update an existing role**:
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
-4. On the **Custom Entities** tab, grant **Read** privileges to the following analytics reports:
+4. Select the **Custom Entities** tab, scroll down to any of the following reports, and then grant **Read** privileges.
     - **Omnichannel historical analytics**  
     - **Omnichannel Realtime analytics**   
     - **Customer service historical analytics** 
