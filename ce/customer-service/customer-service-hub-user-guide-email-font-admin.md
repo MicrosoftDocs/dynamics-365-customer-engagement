@@ -1,7 +1,7 @@
 ---
 title: "Configure the email experience in customer engagement apps | MicrosoftDocs"
 description: "Learn how to configure the email experience in customer engagement apps."
-ms.date: 10/03/2022
+ms.date: 11/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -71,6 +71,8 @@ Enabling the user configured settings to an email form consists of the following
 7.  Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
 8.  Select **Save** and then **Publish All Customizations**.
 
+>[!Note]
+>If you experience issues with inline images not rendering properly and you're using a workflow to populate email content to RTE fields other than Timeline, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
 ### Enable the RTE control in the email form
 
