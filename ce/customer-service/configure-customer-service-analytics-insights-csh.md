@@ -45,7 +45,7 @@ See the following articles for configuring insights:
    **To update an existing role**:
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
-4. Select the **Custom Entities** tab, scroll down to any of the following reports, and then grant **Read** privileges.
+4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant the required privileges such as Read, Write, and Create.
     - **Omnichannel historical analytics**  
     - **Omnichannel Realtime analytics**   
     - **Customer service historical analytics** 
@@ -53,7 +53,7 @@ See the following articles for configuring insights:
 
 5. Select **Save and close**. 
 
-6. Select the role that you just created or updated, and then select **Add people** to add your supervisors to the role.
+6. On the **Security roles** page, select the role that you just created or updated, and then select **Add people** to add users to the role.
 
 > [!Note]
 > To add users to existing roles, open an existing role and then select **Add people**. In the **Add people** dialog, search for a name, email address, or team name, and then select **Add**.
