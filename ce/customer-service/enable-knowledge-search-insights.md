@@ -22,7 +22,7 @@ By default, the Knowledge analytics dashboard is enabled.
 
 You must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
 
-To configure user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
+To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Knowledge analytics dashboard
 

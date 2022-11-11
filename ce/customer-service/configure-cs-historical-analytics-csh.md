@@ -27,11 +27,11 @@ The historical reports include:
 
 You must have the System Administrator or CSR Manager role to view the reports. 
 
-To configure other user roles to access analytics, see [Configure user access to analytics](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics).
+To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Customer Service historical analytics reports
 
-Use the information in the following section to enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
+You can enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
