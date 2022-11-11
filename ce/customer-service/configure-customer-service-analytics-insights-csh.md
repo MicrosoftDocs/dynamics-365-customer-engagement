@@ -28,7 +28,7 @@ See the following articles for configuring insights:
 - [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
 - [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)
 - [Configure Knowledge search insights](enable-knowledge-search-insights.md)
-- [Configure intraday insights](configure-intraday-dashboard-supervisor)
+- [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 
 ## Configure user access to analytics and dashboards
 
