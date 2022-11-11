@@ -36,13 +36,13 @@ See the following articles for configuring insights:
 
 2. In the **Access** section, under **Security roles**, select **See all**. A list of security roles available in the environment is displayed.
 
-3. You can choose to create a new role or edit an existing role, before adding users to it.
+3. You can choose to create a new role or update an existing role, before adding users to it.
     
    **To add a new role**:    
      a. Select **New role** on the navigation bar. The **New Security role** dialog opens.
      b. On the **Details** tab, enter a name in the **Role Name** field.
    
-   **To edit an existing role**:
+   **To update an existing role**:
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
 4. On the **Custom Entities** tab, grant **Read** privileges to the following analytics reports:
