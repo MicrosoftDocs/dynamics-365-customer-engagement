@@ -1,4 +1,4 @@
-This method allows you to set automation dictionary. It enables providers to add, modify and remove values of slugs and the updated values are subsequently available for future macro invocations.
+This method allows you to set the automation dictionary. It enables providers to add, modify, and remove values of slugs. The updated values are then available for future macro invocations.
 
 ## Syntax
 
@@ -13,7 +13,7 @@ This method allows you to set automation dictionary. It enables providers to add
 |isDelete| Boolean | No | Set `isDelete` to `true` if the list of parameters in `input` JSON are to be deleted.<br />If `isDelete` is set to `true`, the slug values will be deleted and will no longer be available for subsequent macro invocations.|
 |correlationId| GUID| No |Used to group all related API calls together for diagnostic telemetry|
 
-## Returns
+## Return value
 
 Returns a promise with string value.
 
