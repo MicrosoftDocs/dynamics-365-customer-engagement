@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/10/2022
+ms.date: 11/16/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -32,33 +32,32 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### November 2022 update
 
-With the Dynamics 365 Marketing November 2022 updates, you can boost interaction with tailored information and increase clarity and drive engagement by integrating date and/or time in communications in several forms. Soft segments delete
+The Dynamics 365 Marketing November 2022 update includes one preview feature and one monthly enhancement. The preview feature enables date and time formatting flexibility for different locales. The monthly enhancement improves personalization access and usability.
 
 #### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.89 |
+| Marketing        | 1.89.2004.0     |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
+#### Preview feature
+
+- **Communicate dates and times in a variety of formats**
+    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
+    - [Release plan]()
+    - [Docs]()
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of date and time formats.](media/whats-new-date-time.jpg "Screenshot of date and time formats")#### Monthly enhancements
+
 #### Monthly enhancements
 
-- **Personalization**
-    - **Usability improvements in the personalization pane**
-
-      The email editor's personalization pane introduces updates such as the grouping of extra information and interactions on the pane to allow users to consume and access capabilities flexibly. 
-
-      Personalization **groupings** for easier reading and a **specific record** to access information like event details, orders, etc. are two examples of usability enhancements.
-
-      Additionally, **dynamic text details** now employ data definitions to control what customized data is created. In addition to this, the **Element and Inline conditions** group has been improved. Here, conditions specified by the no-code conditional content UX are shown, and conventional HTML code may be inserted into message text as inline conditions. A collection of all message **LIST** placeholders.
-
-    - **Communicate dates and times in a variety of formats**
-
-        The dates and times format has been modified in real-time marketing to maintain compatibility with the locale (language and location) for optimal user experience and hassle-free time-checking while scheduling a meeting, a webinar, etc. Given the complications of time zones, the objective is to provide clear formatting options to fulfil the recipient's expectations and ensure they receive the information at the proper time while working in various geographies.
-
-- **Segmentation**
+- **Usability improvements in the personalization pane**
+    - The personalization pane in the email editor provides one-stop access to personalization-related capabilities. Personalization placeholders are grouped according to their types. You can expand and collapse the groups to help with readability. Specific records are used to access additional personalization data such as event details, orders, or products. Specific records in use are identified at the top of the side pane and on the info card for each personalization placeholder that uses them. Conditions created by conditional content are also available on the pane (as “Element conditions”) for review and updating.
+    - [Docs]()
 
 ### October 2022 update
 
