@@ -1,7 +1,7 @@
 ---
 title: "Show customers their position in a queue | MicrosoftDocs"
 description: "Learn how to show customers their queue position for a chat widget in Dynamics 365 Customer Service."
-ms.date: 11/09/2022
+ms.date: 11/13/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
