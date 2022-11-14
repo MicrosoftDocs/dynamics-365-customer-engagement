@@ -350,13 +350,13 @@ Input parameter: notificationPayLoad – Serialized JSON with the following cont
 
 }
 ```
-<!--
+
 ## Sample solutions
 
-The samples below include unpacked solutions for Dataverse and Plugins projects.
+The samples below include unpacked solutions for Dataverse and plugins projects.
 
-To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the Solution Packager tool.
+To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
 
-SampleSmsChannel.zip
+[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel.zip)
 
-SampleCustomChannel.zip-->
+[SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel.zip)
