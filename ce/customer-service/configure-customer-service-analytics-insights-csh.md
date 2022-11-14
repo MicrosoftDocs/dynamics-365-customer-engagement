@@ -40,7 +40,7 @@ As an administrator, you can grant user access to analytics and dashboards using
     a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
     b. On the **Details** tab, enter a name in the **Role Name** field.
    
-   **To add privileges to an existing role**:
+   **To add privileges to an existing role**: <br>
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
 4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant Read privileges.

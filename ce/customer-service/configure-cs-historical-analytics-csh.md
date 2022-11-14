@@ -13,7 +13,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 You can configure Customer Service historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language processing (NLP) to automatically detect the language used in your support cases and group related support cases into topics.
 
-By default, the Customer Service historical analytics reports are enabled.
+By default, the Customer Service historical analytics reports are enabled for the System Administrator and CSR Manager roles. 
+
+To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 The historical reports include:
 
@@ -21,13 +23,6 @@ The historical reports include:
 - [Agent report](agent-dashboard-cs.md)
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
-
-
-## Prerequisites
-
-If you have the System Administrator or CSR Manager role, then you can view the report. 
-
-To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Customer Service historical analytics reports
 

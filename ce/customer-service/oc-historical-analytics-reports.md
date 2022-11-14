@@ -13,7 +13,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language processing (NLP) to automatically detect the language used in your support conversations and to group related conversations into topics.
 
-By default, the Omnichannel historical analytics reports are enabled.
+By default, the Omnichannel historical analytics reports are enabled for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 The historical analytics reports include:
 
@@ -26,12 +26,6 @@ The historical analytics reports include:
 - [Bot](oc-bot-dashboard.md)
 - [Conversation Topics](oc-conversation-topics-dashboard.md)
 - [Unified routing](oc-historical-analytics-unified-routing.md)
-
-## Prerequisites
-
-If you have the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role, then you can view the report.
-
-To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Omnichannel historical analytics reports
 
