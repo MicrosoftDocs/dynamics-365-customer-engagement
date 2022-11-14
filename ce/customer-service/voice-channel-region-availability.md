@@ -26,10 +26,7 @@ This section lists the availability of voice channel in Omnichannel for Customer
 
 ### General region deployments
 
-The following table lists the general availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your region-specific cloud deployments.
-
-> [!NOTE]
->  Voice trials are not supported at a region-specific level. They are only supported for specific general region deployments.
+The following table lists the general and trial availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your region-specific cloud deployments. Voice trials are supported for specific general region deployments only as listed in the table.
 
 |Geographic location | General availability | Availability in Customer Service trial|
 |----------|---------|-----|
@@ -48,11 +45,11 @@ If you need your data to stay within a region, see the following table for previ
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
-|Canada **<sup>1, 2</sup>** |August 2022 | To be announced  |
+|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 14, 2022 |
+|Canada **<sup>1, 2</sup>** |August 2022 | Novermber 30, 2022  |
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>1, 2</sup>** | October 2022 | To be announced|
-|India **<sup>1, 2</sup>** | October 2022 | To be announced  |
+|Switzerland **<sup>1, 2</sup>** | To be announced | To be announced|
+|India **<sup>1, 2</sup>** | To be announced | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
