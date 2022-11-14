@@ -48,11 +48,12 @@ You can enable or disable Omnichannel real-time analytics reports in the Custome
 > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
+
 1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
 1. In the **Additional options** section, select the **Add real-time analytics for Omnichannel voice** option.
     This option will be available only if your organization has the voice feature configured.
 
-    :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
+    :::image type="content" source="media/enable-real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 
 
 ### See also

@@ -104,7 +104,7 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
-You can enable the historical analytics dashboard for voice in the Customer Service admin center or Omnichannel admin center app. The metrics will become available in the dashboard 24 hours after you've enabled historical analytics.
+You can enable the historical analytics dashboard for voice in the Customer Service admin center or Omnichannel admin center app. The metrics will be available in the dashboard 24 hours after you've enabled historical analytics.
 
 > [!IMPORTANT]
 >

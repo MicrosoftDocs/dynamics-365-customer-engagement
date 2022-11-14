@@ -23,32 +23,29 @@ See the following articles for configuring analytics and insights:
 - [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)  
 - [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)  
 - [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)  
-- [Configure Omnichannel real-time analytics](enable-realtime-analytics-dashboard-administrator)  
+- [Configure Omnichannel real-time analytics](enable-realtime-analytics-dashboard-administrator.md)  
 - [Configure Knowledge search insights](enable-knowledge-search-insights.md)  
 - [Configure intraday insights](configure-intraday-dashboard-supervisor.md)  
 
 ## Configure user access to analytics and dashboards
 
-As an administrator, you can grant users access to analytics and dashboards using the Power Platform admin center.
+Users with the system administrator or supervisor role can access the analytics and dashboards. To grant access to the dashboards to other roles or users, go the Power Platform admin center and perform the following steps.
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment. 
 
 2. In the **Access** section, under **Security roles**, select **See all**. A list of security roles available in the environment is displayed.
 
-3. You can choose to create a new role or edit an existing role, to add privileges to it. 
+3. To add privileges to an existing role, select a role from the list of security roles, and then select **Edit** on the navigation bar. 
    
-   **To create a new role for analytics users**:    
+    If you'd like o create a new role for analytics users, then perform the following steps:    
     a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
     b. On the **Details** tab, enter a name in the **Role Name** field.
-   
-   **To add privileges to an existing role**: <br>
-     Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
 4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant Read privileges.
-    - **Omnichannel historical analytics**. More information: 
-    - **Omnichannel Realtime analytics**. More information:    
-    - **Customer service historical analytics**. More information:  
-    - **Knowledge analytics**. More information:  
+    - **Omnichannel historical analytics**. More information: [Omnichannel historical analytics dashboards](omnichannel-analytics-insights.md)
+    - **Omnichannel Realtime analytics**. More information: [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)    
+    - **Customer service historical analytics**. More information: [Customer Service historical analytics dashboards](customer-service-analytics-insights-csh.md)
+    - **Knowledge analytics**. More information: [Knowledge analytics dashboards](knowledge-search-analytics-cs.md)
 
 5. Select **Save and close**. 
 
