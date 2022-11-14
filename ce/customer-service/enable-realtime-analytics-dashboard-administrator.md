@@ -35,9 +35,7 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversation
 
-By default, the reports are enabled for the System Administrator, Omnichannel Administrator, Analytics Reports author, and CSR manager roles.
-
-To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+By default, the reports are enabled for the System Administrator, Omnichannel Administrator, Analytics Reports author, and CSR manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Omnichannel real-time analytics reports
 
