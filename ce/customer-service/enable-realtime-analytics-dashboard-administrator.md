@@ -50,6 +50,7 @@ You can enable or disable Omnichannel real-time analytics reports in the Custome
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
+
     :::image type="content" source="media/manage-real-time-analytics-preview.png" alt-text="Manage the Omnichannel real-time analytics option in Customer Service admin center app":::
 
 1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
