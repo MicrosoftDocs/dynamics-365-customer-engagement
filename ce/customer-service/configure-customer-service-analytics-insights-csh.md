@@ -29,7 +29,7 @@ See the following articles for configuring analytics and insights:
 
 ## Configure user access to analytics and dashboards
 
-As an administrator, you can grant user access to analytics and dashboards using the Power Platform admin center.
+As an administrator, you can grant users access to analytics and dashboards using the Power Platform admin center.
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment. 
 
@@ -37,7 +37,7 @@ As an administrator, you can grant user access to analytics and dashboards using
 
 3. You can choose to create a new role or edit an existing role, to add privileges to it. 
    
-   **To create a new role for analytics user**:    
+   **To create a new role for analytics users**:    
     a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
     b. On the **Details** tab, enter a name in the **Role Name** field.
    
