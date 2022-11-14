@@ -29,7 +29,7 @@ See the following articles for configuring analytics and insights:
 
 ## Configure user access to analytics and dashboards
 
-Users with the system administrator or supervisor role can access the analytics and dashboards. To grant access to the dashboards to other roles or users, go the Power Platform admin center and perform the following steps.
+Users with the system administrator or supervisor role can access the analytics and dashboards. To grant other users access to analytics and dashboards, go the Power Platform admin center and perform the following steps:
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment. 
 
