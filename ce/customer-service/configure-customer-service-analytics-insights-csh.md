@@ -18,13 +18,14 @@ You can enable and configure the Customer Service Insights features and services
 
 ## Configuration details
 
-See the following articles for configuring insights:
+See the following articles for configuring analytics and insights:
 
-- [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
-- [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
-- [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)
-- [Configure Knowledge search insights](enable-knowledge-search-insights.md)
-- [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
+- [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)  
+- [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)  
+- [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)  
+- [Configure Omnichannel real-time analytics](enable-realtime-analytics-dashboard-administrator)  
+- [Configure Knowledge search insights](enable-knowledge-search-insights.md)  
+- [Configure intraday insights](configure-intraday-dashboard-supervisor.md)  
 
 ## Configure user access to analytics and dashboards
 
@@ -44,10 +45,10 @@ As an administrator, you can grant user access to analytics and dashboards using
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
 4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant Read privileges.
-    - **Omnichannel historical analytics**  
-    - **Omnichannel Realtime analytics**   
-    - **Customer service historical analytics** 
-    - **Knowledge analytics** 
+    - **Omnichannel historical analytics**. More information: 
+    - **Omnichannel Realtime analytics**. More information:    
+    - **Customer service historical analytics**. More information:  
+    - **Knowledge analytics**. More information:  
 
 5. Select **Save and close**. 
 

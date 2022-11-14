@@ -41,9 +41,11 @@ To configure user roles to access analytics and dashboards, see [Configure user 
 
 ## Manage Omnichannel real-time analytics reports
 
-You can enable or disable Omnichannel real-time analytics reports in the Customer Service admin center app.
+You can enable or disable Omnichannel real-time analytics reports in the Customer Service admin center app. 
 
-1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
+1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center. 
+> [!Note]
+> The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
 1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
@@ -55,7 +57,6 @@ You can enable or disable Omnichannel real-time analytics reports in the Custome
 
 ### See also
 
-[Get started with Customer Service admin center](cs-admin-center.md)
 [Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)  
 [View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)  
 [View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)  
