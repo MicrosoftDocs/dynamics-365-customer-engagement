@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 11/07/2022
+ms.date: 11/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
