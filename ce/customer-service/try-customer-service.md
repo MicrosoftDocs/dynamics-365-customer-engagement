@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 10/03/2022
+ms.date: 11/14/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -15,13 +15,17 @@ ms.custom:
 
 Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview).
 
+> [!IMPORTANT]
+>The trial version is available only if your tenant is co-located in the regions where the [voice channel](voice-channel-region-availability.md#supported-cloud-locations) and [Omnichannel for Customer service](international-availability.md#geographic-location-availability) is generally available.
+
 **To sign up for the trial**:
 
 1. Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/) page and select **Try for free**.
-2. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com, and your contact information.
+1. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com, and your contact information.
 
 > [!NOTE]
-> If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](trial-faq.md#personalemail)
+> - Check the availability of the product before you sign up for a trial.
+> - If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](trial-faq.md#personalemail)
 
 The trial will take a few moments to load, then you can start using Customer Service.
 
