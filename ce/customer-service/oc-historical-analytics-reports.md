@@ -29,7 +29,7 @@ The historical analytics reports include:
 
 ## Manage Omnichannel historical analytics reports
 
-You can enable or disable the reports using the Customer Service admin center or Omnichannel admin center app.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the Omnichannel historical analytics reports.
 
 1. Go to one of the apps, and perform the following steps.
    

@@ -24,7 +24,7 @@ The historical reports include:
 
 ## Manage Customer Service historical analytics reports
 
-You can enable or disable the reports in the Customer Service admin center or Customer Service Hub app.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -52,7 +52,7 @@ You can enable or disable the reports in the Customer Service admin center or Cu
 
 ## Enable historical analytics for unified routing
 
-You can enable historical analytics for unified routing in the Customer Service admin center or Customer Service Hub app. The metrics are available in the report after 24 hours.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports. The metrics will be available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
