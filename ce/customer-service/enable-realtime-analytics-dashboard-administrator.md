@@ -39,6 +39,7 @@ By default, the reports are enabled for the System Administrator, Omnichannel Ad
 
 ## Manage Omnichannel real-time analytics reports
 
+Use the Customer Service admin center app to enable or disable Omnichannel real-time analytics reports.
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center. 
     > [!Note]
