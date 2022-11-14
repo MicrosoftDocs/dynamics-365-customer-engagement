@@ -15,9 +15,6 @@ ms.custom:
 
 Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview).
 
-> [!IMPORTANT]
->The trial version is available only if your tenant is co-located in the regions where the [voice channel](voice-channel-region-availability.md#supported-cloud-locations) and [Omnichannel for Customer service](international-availability.md#geographic-location-availability) is generally available.
-
 **To sign up for the trial**:
 
 1. Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/) page and select **Try for free**.
