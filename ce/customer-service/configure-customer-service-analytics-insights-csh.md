@@ -37,7 +37,7 @@ Users with the system administrator or supervisor role can access the analytics 
 
 3. To add privileges to an existing role, select a role from the list of security roles, and then select **Edit** on the navigation bar. 
    
-    If you'd like o create a new role for analytics users, then perform the following steps:    
+    If you'd like to create a new role for analytics users, then perform the following steps:    
     a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
     b. On the **Details** tab, enter a name in the **Role Name** field.
 
