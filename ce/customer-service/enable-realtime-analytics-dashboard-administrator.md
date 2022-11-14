@@ -44,8 +44,8 @@ To configure user roles to access analytics and dashboards, see [Configure user 
 You can enable or disable Omnichannel real-time analytics reports in the Customer Service admin center app. 
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center. 
-> [!Note]
-> The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](cs-admin-center.md)
+    > [!Note]
+    > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
