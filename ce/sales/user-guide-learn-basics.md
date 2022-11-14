@@ -112,6 +112,11 @@ Here are some highlights of Dynamics 365 Sales:
     1. For Sales Enterprise, select **Sales Hub**.
     1. For Sales Professional, select **Sales Professional**.  
 
+    > [!TIP]
+    > Alternatively, visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select the Dynamics 365 app that you want.  
+
+If you don't see the app, contact your administrator to grant you access. For more information, refer to [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
+
 ## Navigate using the site map
 
 The following image shows the site map or menu of the Sales app that helps you navigate to the different areas of the app.
