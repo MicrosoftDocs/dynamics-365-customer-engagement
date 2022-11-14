@@ -41,7 +41,7 @@ Users with the system administrator or supervisor role can access the analytics 
     a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
     b. On the **Details** tab, enter a name in the **Role Name** field.
 
-4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant **Read** privileges.
+4. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges as follows.
     - **Omnichannel historical analytics**. More information: [Omnichannel historical analytics dashboards](omnichannel-analytics-insights.md)
     - **Omnichannel Realtime analytics**. More information: [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)    
     - **Customer service historical analytics**. More information: [Customer Service historical analytics dashboards](customer-service-analytics-insights-csh.md)
