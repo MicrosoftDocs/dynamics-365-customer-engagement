@@ -1,6 +1,6 @@
 ---
 title: "Configure analytics and insights dashboards | MicrosoftDocs"
-description: "Learn how to configure analytics and insights dashboards in Customer Service workspace."
+description: "Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace."
 ms.date: 11/14/2022
 ms.topic: article
 author: lalexms
@@ -11,43 +11,39 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure analytics and insights dashboards
 
-You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. Setup is done in Customer Service Hub, but applies to both Customer Service Hub and Customer Service workspace.
-
-The following report is available out of the box:
-
-**Insights reports:** You can view Customer Service Insights reports with a combination of BI analytics and AI insights for your organization. The reports use natural language processing (NLP) to automatically detect the language used in your support cases and to group related cases into topics.
+You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Customer Service admin center app, and they can be viewed on both the Customer Service Hub and Customer Service workspace apps.
 
 > [!NOTE]
 > Settings for the Power BI template applications are separate from these services.
-
 
 ## Configuration details
 
 See the following articles for configuring insights:
 
 - [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
+- [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
 - [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)
 - [Configure Knowledge search insights](enable-knowledge-search-insights.md)
 - [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 
 ## Configure user access to analytics and dashboards
 
-You can grant the required privileges such as Read, Write, or Create to your supervisors or other users using the Power Platform admin center.
+As an administrator, you can grant user access to analytics and dashboards using the Power Platform admin center.
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select your environment. 
 
 2. In the **Access** section, under **Security roles**, select **See all**. A list of security roles available in the environment is displayed.
 
-3. You can choose to create a new role or edit an existing role, before adding users to it. 
+3. You can choose to create a new role or edit an existing role, to add privileges to it. 
    
-   **To add a new role**:    
-     a. Select **New role** on the navigation bar. The **New Security role** dialog opens.
-     b. On the **Details** tab, enter a name in the **Role Name** field.
+   **To create a new role for analytics user**:    
+    a. Select **New role** on the navigation bar. The **New Security role** dialog opens. <br>
+    b. On the **Details** tab, enter a name in the **Role Name** field.
    
-   **To update an existing role**:
+   **To add privileges to an existing role**:
      Select a role from the list of security roles, and then select **Edit** on the navigation bar. 
 
-4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant the required privileges.
+4. Select the **Custom Entities** tab, scroll down to any of the following analytics reports, and then grant Read privileges.
     - **Omnichannel historical analytics**  
     - **Omnichannel Realtime analytics**   
     - **Customer service historical analytics** 

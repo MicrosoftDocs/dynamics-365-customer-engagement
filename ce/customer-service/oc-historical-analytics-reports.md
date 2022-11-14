@@ -1,6 +1,6 @@
 ---
-title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
-description: "Configure historical analytics reports for Omnichannel"
+title: "Configure Omnichannel historical analytics | MicrosoftDocs"
+description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
 ms.date: 11/14/2022
 ms.topic: article
 author: Soumyasd27
@@ -29,7 +29,7 @@ The historical analytics reports include:
 
 ## Prerequisites
 
-You must have the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
+If you have the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role, then you can view the report.
 
 To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 

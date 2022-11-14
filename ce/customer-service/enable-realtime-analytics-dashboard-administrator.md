@@ -1,6 +1,6 @@
 ---
 title: "Configure real-time analytics for supervisors | MicrosoftDocs"
-description: "Learn how to configure real-time analytics for Omnichannel in Dynamics 365 Customer Service."
+description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
 ms.date: 11/14/2022
 ms.topic: article
 author: Soumyasd27
@@ -37,7 +37,7 @@ The following real-time analytics reports are available:
 
 ## Prerequisites
 
-Make sure that you have the System Administrator, Omnichannel Administrator, Analytics Reports author, or CSR manager roles to view the reports.
+If you have the System Administrator, Omnichannel Administrator, Analytics Reports author, or CSR manager role, then you can view the report.
 
 To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
