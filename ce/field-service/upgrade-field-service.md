@@ -199,8 +199,6 @@ To unlock the new capabilities of the updated Field Service Mobile app, you'll t
 
 Mobile projects hold the configurations and customizations of the mobile app. Periodically, Microsoft releases new mobile projects in conjunction with or independent of a mobile app update or a new version of the mobile configuration tool (Woodford) solution.
 
-See the article on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
-
 ## Additional notes
 
 Field Service mobile push notifications and geofence alerts solutions that are part of the install and upgrade of Field Service will only be installed if the mobile configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the mobile configuration tool (Woodford) was not present at install or upgrade.
