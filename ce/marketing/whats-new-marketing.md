@@ -85,7 +85,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Increase customer engagement with QR codes in emails**
     - Increase customer engagement and promote your business using QR codes for events or coupons. QR codes allow your customers to access marketing event information or dynamic links with just a single scan! QR codes work by simply scanning the code with a mobile device that is equipped with a camera and QR code reader application. Once the QR code is scanned, it is translated into actionable information such as a webpage or event check-in.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/increase-customer-engagement-qr-codes-emails)
-    - [Docs](real-time-marketing-email.md#qr-codes)
+    - [Docs](real-time-marketing-email.md#link-to-qr-codes)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a QR code in an email.](media/whats-new-qr-code.png "Screenshot of a QR code in an email")
@@ -93,7 +93,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 - **Create engaging email content using feature-rich text links**
     - Create engaging email content with text links to websites, events, and marketing pages. The text links can also allow recipients to join a Microsoft Teams event or create a new calendar item with a click of a button.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-engaging-email-content-using-feature-rich-text-links)
-    - [Docs](real-time-marketing-email.md#feature-rich-text-links)
+    - [Docs](real-time-marketing-email.md#link-to-documents-and-videos-stored-in-the-asset-library)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a feature-rich text link.](media/whats-new-text-link.png "Screenshot of a feature-rich text link")
@@ -140,8 +140,6 @@ Monthly improvements include updates to personalization, segmentation, and text 
         - [Docs](real-time-marketing-sync-data-tables.md)
     - **[Preview]** Build segments using multiple query logic groups. This opens more segment scenarios and more enriched segment definitions, such as “Contacts whose accounts are managed by partners in Contoso Consultants *but not* preferred to be contacted by phone”.
         - [Docs](real-time-marketing-build-segments.md#preview-add-a-new-group-to-a-segment)
-- **Text messages**
-    - The refreshed text message setup wizard in real-time marketing allows for simplified SMS provider and phone number setup.
 
 ### September 2022 update
 
@@ -308,6 +306,8 @@ The update also includes improvements to real-time journeys, the text message ch
     - Triggers can have up to 29 attributes (formerly limited to 10).
 - **Text message channel**
     - Text message metrics allow you to measure campaign performance including response rate, percentage of responses that include a defined keyword, and most used keywords.
+- **Marketing pages**
+    - Improved reliability of e-mail link clicked insights for customers.
 - **Event management**
     - Check-ins are created when joining an event 2 hours or less before it starts (formerly limited to 30 minutes before the event start), ensuring check-ins are created for early joiners.
 

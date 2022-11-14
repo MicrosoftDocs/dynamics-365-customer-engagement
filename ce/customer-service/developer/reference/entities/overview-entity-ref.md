@@ -105,6 +105,9 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_octwitterapplication](msdyn_octwitterapplication.md)|
 |[msdyn_octwitterhandle](msdyn_octwitterhandle.md)|
 |[msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md)|
+|[msdyn_ocvoice](msdyn_ocvoice.md)|
+|[msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md)|
+|[msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md)|
 |[msdyn_ocwechatchannelconfig](msdyn_ocwechatchannelconfig.md)|
 |[msdyn_ocwhatsappchannelaccount](msdyn_ocwhatsappchannelaccount.md)|
 |[msdyn_ocwhatsappchannelnumber](msdyn_ocwhatsappchannelnumber.md)|

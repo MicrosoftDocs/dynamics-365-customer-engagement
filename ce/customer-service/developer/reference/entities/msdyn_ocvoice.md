@@ -1,76 +1,72 @@
 ---
-title: "msdyn_octeamschannelconfig Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_octeamschannelconfig entity."
-ms.date: 09/14/2020
+title: "msdyn_ocvoice Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocvoice entity."
+ms.date: 11/01/2022
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
-applies_to: 
-  - "Dynamics 365 (online)"
+search.app: 
+  - PowerApps
+  - D365CE
 ---
-# msdyn_octeamschannelconfig Entity Reference
+# msdyn_ocvoice Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Microsoft Teams accounts for Omnichannel integration
-
-**Added by**: Omnichannel - Teams Solution
+**Added by**: Omnichannel - Telephony Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs(*msdyn_octeamschannelconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs(*msdyn_octeamschannelconfigid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocvoices<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple||Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs(*msdyn_octeamschannelconfigid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocvoices<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs(*msdyn_octeamschannelconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_octeamschannelconfigs(*msdyn_octeamschannelconfigid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocvoices(*msdyn_ocvoiceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple||Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_octeamschannelconfigs|
-|DisplayCollectionName|Microsoft Teams accounts|
-|DisplayName|Microsoft Teams account|
-|EntitySetName|msdyn_octeamschannelconfigs|
+|CollectionSchemaName|msdyn_ocvoices|
+|DisplayCollectionName|Voices|
+|DisplayName|Voice|
+|EntitySetName|msdyn_ocvoices|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_octeamschannelconfigs|
-|LogicalName|msdyn_octeamschannelconfig|
+|LogicalCollectionName|msdyn_ocvoices|
+|LogicalName|msdyn_ocvoice|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_octeamschannelconfigid|
-|PrimaryNameAttribute|msdyn_teamsappname|
-|SchemaName|msdyn_octeamschannelconfig|
+|PrimaryIdAttribute|msdyn_ocvoiceid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_ocvoice|
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_botid](#BKMK_msdyn_botid)
-- [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
-- [msdyn_enablefileattachmentsforcustomers](#BKMK_msdyn_enablefileattachmentsforcustomers)
-- [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
+- [msdyn_languageid](#BKMK_msdyn_languageid)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_octeamschannelconfigId](#BKMK_msdyn_octeamschannelconfigId)
-- [msdyn_ocwidgetlanguage](#BKMK_msdyn_ocwidgetlanguage)
-- [msdyn_PostConversationSurvey](#BKMK_msdyn_PostConversationSurvey)
-- [msdyn_PostConversationSurveyEnable](#BKMK_msdyn_PostConversationSurveyEnable)
-- [msdyn_PostConversationSurveyMessageText](#BKMK_msdyn_PostConversationSurveyMessageText)
-- [msdyn_PostConversationSurveyMode](#BKMK_msdyn_PostConversationSurveyMode)
-- [msdyn_teamsappname](#BKMK_msdyn_teamsappname)
+- [msdyn_ocvoiceId](#BKMK_msdyn_ocvoiceId)
+- [msdyn_pitch](#BKMK_msdyn_pitch)
+- [msdyn_speakingspeed](#BKMK_msdyn_speakingspeed)
+- [msdyn_voicename](#BKMK_msdyn_voicename)
+- [msdyn_voicestyle](#BKMK_msdyn_voicestyle)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -97,83 +93,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_botid"></a> msdyn_botid
+### <a name="BKMK_msdyn_languageid"></a> msdyn_languageid
 
 |Property|Value|
 |--------|-----|
-|Description|Bot ID is of Teams Channel|
-|DisplayName|Bot ID|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Language|
+|DisplayName|Language|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_botid|
-|MaxLength|100|
+|LogicalName|msdyn_languageid|
 |RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_enablefileattachmentsforagents"></a> msdyn_enablefileattachmentsforagents
-
-**Added by**: Omnichannel - Teams Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Option set to enable or disable attachments for agents|
-|DisplayName|Enable file attachments for agents|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_enablefileattachmentsforagents|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_enablefileattachmentsforagents Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_enablefileattachmentsforcustomers"></a> msdyn_enablefileattachmentsforcustomers
-
-**Added by**: Omnichannel - Teams Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Option set to enable or disable attachments for customers|
-|DisplayName|Enable file attachments for customers|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_enablefileattachmentsforcustomers|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_enablefileattachmentsforcustomers Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_liveworkstreamid"></a> msdyn_liveworkstreamid
-
-|Property|Value|
-|--------|-----|
-|Description|Work Stream|
-|DisplayName|Work Stream|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamid|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_liveworkstream|
+|Targets|msdyn_oclanguage|
 |Type|Lookup|
 
 
@@ -189,135 +119,85 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_octeamschannelconfigId"></a> msdyn_octeamschannelconfigId
+### <a name="BKMK_msdyn_ocvoiceId"></a> msdyn_ocvoiceId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Teams Channel|
+|DisplayName|voice|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_octeamschannelconfigid|
+|LogicalName|msdyn_ocvoiceid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_ocwidgetlanguage"></a> msdyn_ocwidgetlanguage
-
-**Added by**: Omnichannel - Teams Patch Solution
+### <a name="BKMK_msdyn_pitch"></a> msdyn_pitch
 
 |Property|Value|
 |--------|-----|
-|Description|The language setting for the Teams account|
-|DisplayName|Teams account language|
+|Description||
+|DisplayName|pitch|
+|Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocwidgetlanguage|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_oclanguage|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_PostConversationSurvey"></a> msdyn_PostConversationSurvey
-
-**Added by**: Omnichannel - Teams Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Lookup to Forms Pro survey field|
-|DisplayName|Survey|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_postconversationsurvey|
+|LogicalName|msdyn_pitch|
+|MaxValue|50|
+|MinValue|-50|
 |RequiredLevel|None|
-|Targets|msfp_survey|
-|Type|Lookup|
+|Type|Integer|
 
 
-### <a name="BKMK_msdyn_PostConversationSurveyEnable"></a> msdyn_PostConversationSurveyEnable
-
-**Added by**: Omnichannel - Teams Patch Solution
+### <a name="BKMK_msdyn_speakingspeed"></a> msdyn_speakingspeed
 
 |Property|Value|
 |--------|-----|
-|Description|To enable or disable post conversation survey|
-|DisplayName|Enable|
+|Description||
+|DisplayName|speaking speed|
+|Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_postconversationsurveyenable|
+|LogicalName|msdyn_speakingspeed|
+|MaxValue|200|
+|MinValue|-100|
 |RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_PostConversationSurveyEnable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
+|Type|Integer|
 
 
-
-### <a name="BKMK_msdyn_PostConversationSurveyMessageText"></a> msdyn_PostConversationSurveyMessageText
-
-**Added by**: Omnichannel - Teams Patch Solution
+### <a name="BKMK_msdyn_voicename"></a> msdyn_voicename
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix text for survey link message that will be sent to the user.|
-|DisplayName|Message|
+|Description||
+|DisplayName|voice name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_postconversationsurveymessagetext|
-|MaxLength|200|
-|RequiredLevel|None|
+|LogicalName|msdyn_voicename|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_PostConversationSurveyMode"></a> msdyn_PostConversationSurveyMode
-
-**Added by**: Omnichannel - Teams Patch Solution
+### <a name="BKMK_msdyn_voicestyle"></a> msdyn_voicestyle
 
 |Property|Value|
 |--------|-----|
-|Description|Mode of the survey to be sent|
-|DisplayName|Survey Mode|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_postconversationsurveymode|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_PostConversationSurveyMode Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Insert survey in conversation|
-|192350001|Send survey link to conversation|
-
-
-
-### <a name="BKMK_msdyn_teamsappname"></a> msdyn_teamsappname
-
-|Property|Value|
-|--------|-----|
-|Description|Teams App Name or Teams Channel|
-|DisplayName|Teams App Name|
+|Description||
+|DisplayName|voice style|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_teamsappname|
+|LogicalName|msdyn_voicestyle|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -372,7 +252,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Teams Channel|
+|Description|Status of the voice|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -381,7 +261,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -394,7 +274,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Teams Channel|
+|Description|Reason for the status of the voice|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -402,7 +282,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -444,9 +324,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
@@ -462,12 +342,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
-- [msdyn_ocwidgetlanguageName](#BKMK_msdyn_ocwidgetlanguageName)
-- [msdyn_PostConversationSurveyName](#BKMK_msdyn_PostConversationSurveyName)
+- [msdyn_languageidName](#BKMK_msdyn_languageidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
+- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
 - [VersionNumber](#BKMK_VersionNumber)
@@ -711,7 +590,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkstreamidName"></a> msdyn_liveworkstreamidName
+### <a name="BKMK_msdyn_languageidName"></a> msdyn_languageidName
 
 |Property|Value|
 |--------|-----|
@@ -721,44 +600,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamidname|
+|LogicalName|msdyn_languageidname|
 |MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ocwidgetlanguageName"></a> msdyn_ocwidgetlanguageName
-
-**Added by**: Omnichannel - Teams Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocwidgetlanguagename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_PostConversationSurveyName"></a> msdyn_PostConversationSurveyName
-
-**Added by**: Omnichannel - Teams Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_postconversationsurveyname|
-|MaxLength|450|
 |RequiredLevel|None|
 |Type|String|
 
@@ -807,12 +650,30 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
 |DisplayName|Owning Business Unit|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|owningbusinessunit|
 |RequiredLevel|None|
 |Targets|businessunit|
 |Type|Lookup|
+
+
+### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunitname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
@@ -869,56 +730,23 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid)
-- [msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid)
 
+### <a name="BKMK_msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid"></a> msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid
 
-### <a name="BKMK_msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid"></a> msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid
-
-Same as msdyn_ocprovisioningstate entity, msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid, Many-To-One relationship.
+Same as msdyn_ocvoicechannellanguagesetting table [msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid](msdyn_ocvoicechannellanguagesetting.md#BKMK_msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_ocprovisioningstate|
-|ReferencingAttribute|msdyn_octeamschannelconfigid|
+|ReferencingEntity|msdyn_ocvoicechannellanguagesetting|
+|ReferencingAttribute|msdyn_ocvoiceid|
 |IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid"></a> msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid
-
-Same as msdyn_ocbotchannelregistration entity, msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid, Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_ocbotchannelregistration|
-|ReferencingAttribute|msdyn_octeamschannelconfigid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage"></a> msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage
-
-**Added by**: Omnichannel - Base Patch Solution
-
-See msdyn_oclanguage Entity [msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage](msdyn_oclanguage.md#BKMK_msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage) One-To-Many relationship.
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
