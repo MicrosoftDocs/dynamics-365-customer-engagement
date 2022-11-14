@@ -33,7 +33,7 @@ The following table lists the general and trial availability of the voice channe
 |North America (crm.dynamics.com) |November 2021  | November 2021|
 |Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
 |Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
-|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
+|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |September 2022|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 |Government Community Cloud (GCC) High|To be announced |To be announced|
@@ -46,14 +46,13 @@ If you need your data to stay within a region, see the following table for previ
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
 |United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 14, 2022 |
-|Canada **<sup>1, 2</sup>** |August 2022 | Novermber 30, 2022  |
+|Canada **<sup>1, 2</sup>** |August 2022 | November 30, 2022  |
 |Japan **<sup>1, 2</sup>** | August 2022 | To be announced  |
 |Switzerland **<sup>1, 2</sup>** | To be announced | To be announced|
 |India **<sup>1, 2</sup>** | To be announced | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
-|Brazil | To be announced | To be announced|
 |South Africa | To be announced | To be announced|
 |China | To be announced | To be announced|
 |Norway | To be announced | To be announced|
