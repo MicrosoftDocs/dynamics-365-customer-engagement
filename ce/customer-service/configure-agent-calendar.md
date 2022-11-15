@@ -43,8 +43,6 @@ You must have the system administrator role to enable the calendar view.
 
 1. Toggle **Enable agent calendar** to **On**.
 
-   :::image type="content" source="media/enable-agent-calendar.png" alt-text="Toggle button for enabling the agent calendar view.":::
-
 1. Select **Save and close**.
 
 ### See also
