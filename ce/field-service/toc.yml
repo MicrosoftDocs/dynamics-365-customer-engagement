@@ -269,9 +269,6 @@ items:
         - name: Performance considerations for mobile customizations
           href: improve-mobile-performance.md
 
-        - name: Use Power Automate flows with Field Service Mobile
-          href: mobile-workflow-to-flow.md
-
     - name: Get help
       href: mobile-get-help.md
 
