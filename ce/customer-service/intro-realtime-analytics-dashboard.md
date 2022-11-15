@@ -1,6 +1,6 @@
 ---
 title: Overview of real-time Omnichannel analytics dashboard| MicrosoftDocs
-description: Introduction to real-time Omnichannel analytics dashboard
+description: "Use this article to get an introduction to real-time Omnichannel analytics dashboard in Omnichannel for Customer Service and Customer Service workspace apps."
 ms.date: 11/15/2022
 ms.topic: article
 author: Soumyasd27
