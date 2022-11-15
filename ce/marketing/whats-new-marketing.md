@@ -38,7 +38,7 @@ The Dynamics 365 Marketing November 2022 update includes one preview feature and
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.89.2004.0     |
+| Marketing        | 1.89.2008.0     |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
