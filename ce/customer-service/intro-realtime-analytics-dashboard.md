@@ -102,7 +102,7 @@ You can use the **Edit report** option to customize the visual display of report
 
 ### Pause updates on report data
 
-Data on the report is auto-refreshed in real time. You can use the **Pause updates** option to view and analyze real-time metrics at any  point in time. You can go back to auto-refresh by selecting **Resume updates**.
+Report data is refreshed automatically in real time. However, you can use the **Pause updates** option to view and analyze real-time metrics at any point in time. You can reset the report data to be refreshed automatically by selecting **Resume updates**.
 
 ### See also
 
