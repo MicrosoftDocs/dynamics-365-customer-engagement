@@ -26,11 +26,12 @@ We recommend you use the Sales Hub app unless your organization follows unique s
 
 ## Access the Sales Hub app
 
-1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
+1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
 
    > [!div class="mx-imgBorder"]
    > ![Microsoft 365 App Launcher pane.](media/app-launcher-pane.png "Microsoft 365 App Launcher pane")  
 
+    The Dynamics 365 apps page opens.
 1. From the list published apps, select **Sales Hub**.
 
     :::image type="content" source="media/saleshubcard.png" alt-text="The **Sales Hub** tile in the list of published apps":::  
