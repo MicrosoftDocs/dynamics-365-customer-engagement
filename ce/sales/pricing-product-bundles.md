@@ -11,7 +11,7 @@ manager: shujoshi
 
 Typically, the pricing of products in bundles is different than for individual products. You can set a total, potentially discounted, price for the bundle. Or&mdash;if the bundle includes optional products&mdash;you can add those products to the price list as price list items.
 
-When a product bundle is added to an opportunity, quote, order, or invoice, the bundle price is calculated based on the required products in the bundle.  When the bundle includes optional products, the total price is calculated by adding the total price of the optional products and the price of the product bundle.
+When a product bundle is added to an opportunity, quote, order, or invoice, the bundle price is calculated based on the required products in the bundle. When the bundle includes optional products, the total price is calculated by adding the total price of the optional products and the price of the product bundle.
 
 Let's understand this with an example. You have a product bundle priced at $500, with the following products included in it: 
 
