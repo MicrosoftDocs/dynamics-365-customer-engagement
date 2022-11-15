@@ -52,14 +52,7 @@ As a supervisor, you can view the Omnichannel real-time analytics dashboard in C
 > [!NOTE]
 > If multiple users see different values in the metrics, you'll need to investigate the permissions for those users as this might be the reason for not seeing the same values in metrics.
 
-## View reports
-
-You can view the various reports in the Customer Service workspace or Omnichannel for Customer Service apps.
-
-- In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
-- In the Omnichannel for Customer Service default view, select the **Omnichannel real-time analytics dashboard** option from the dropdown list. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
-
-## Report Details
+## Report details
 
 The Omnichannel real-time analytics reports consist of the following:
 
@@ -71,9 +64,17 @@ The Omnichannel real-time analytics reports consist of the following:
 
 - **Ongoing Conversations**: This report provides information about the conversations that agents are handling and are in either active, open, wrap up, or waiting statuses. More information: [View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
 
+## View reports
+
+You can view the various reports in the Customer Service workspace or Omnichannel for Customer Service apps.
+
+- In the Customer Service workspace default view, select the plus (+) icon, and then select **Omnichannel real-time analytics** dashboard. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
+- In the Omnichannel for Customer Service default view, select the **Omnichannel real-time analytics dashboard** option from the dropdown list. The **Summary** report is the default report that appears. You can view **Ongoing Conversations**, **Agent**, and **Voice** reports, by selecting the respective tabs.
+
 If you're unable to view the reports, contact your system administrator. More information: [Configure real-time analytics reports in Omnichannel for Customer Service (preview)](enable-realtime-analytics-dashboard-administrator.md#configure-real-time-analytics-reports-in-omnichannel-for-customer-service-preview) The real-time analytics reports are available only in English out of the box. You'll need to customize the reports to make them available in a language of your choice. More information: [Customize data models of historical analytics reports in Customer Service (preview)](model-customize-reports.md#customize-data-models-of-historical-analytics-reports-in-customer-service-preview)
 
-## How to use reports
+
+## Customize reports and report views
 
 You can use various options available on the reports to customize your report view and filter information.
 
