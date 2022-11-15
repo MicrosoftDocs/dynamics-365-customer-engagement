@@ -13,7 +13,7 @@ Typically, the pricing of products in bundles is different than for individual p
 
 When a product bundle is added to an opportunity, quote, order, or invoice, the bundle price is calculated based on the required products in the bundle. When the bundle includes optional products, the total price is calculated by adding the total price of the optional products and the price of the product bundle.
 
-Let's understand this with an example. You have a product bundle priced at $500, with the following products included in it: 
+Let's understand this with an example. You have a product bundle priced at $600, with the following products included in it: 
 
 | Products in the bundle  | Unit  | Price per unit  |
 | -------- | ----- | --------------- |
