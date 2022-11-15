@@ -153,7 +153,7 @@ You must perform the following steps to integrate knowledge management with a Po
     
 8. Accept the default values for name and version.
     
-9. Select **Create** to finish the process.
+9. Select **Create** to complete the process.
      
     > [!div class="mx-imgBorder"]
     > ![Add a solution.](media/add-solution-KM-PVA.png "Add a solution")
