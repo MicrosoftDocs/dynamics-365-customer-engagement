@@ -162,7 +162,7 @@ You must perform the following steps to integrate knowledge management with a Po
     
 11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
     
-12. In the **Outside solutions** list, select your flow, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent version.
+12. In the **Outside solutions** list, select your flow, and then select **Add** to complete the process. If there are several flows, look at the **Modified** column to find the most recent version.
 
 For more information on managing Power Virtual Agents solutions, go to [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
 
