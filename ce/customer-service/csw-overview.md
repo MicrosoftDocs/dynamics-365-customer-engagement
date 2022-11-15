@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
-ms.date: 10/03/2022
+ms.date: 11/14/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -102,7 +102,21 @@ While you're working on a case, the productivity pane on the right side of the C
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Screenshot of the productivity pane with Smart Assist suggestions.":::
 
-Learn more about using the [productivity pane](csw-productivity-pane.md). 
+Learn more about using the [productivity pane](csw-productivity-pane.md).
+
+## View the agent calendar (preview)
+
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
+
+1. In Customer Service workspace, open the **Customer Service Agent Dashboard** page.
+
+1. On the site map, select the plus sign (+), and then in the dropdown menu, select **My schedule**.
+
+   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
+
+   The schedule page opens with a read-only calendar view of the working hours, non-working hours, and any time off you have scheduled. Use the command bar at the top to change the view to daily, weekly, or monthly.
+
+   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
 ## Work with cases, activities, knowledge articles, and email templates
 
