@@ -1,7 +1,7 @@
 ---
 title: "Configure analytics and insights dashboards | MicrosoftDocs"
 description: "Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace."
-ms.date: 11/14/2022
+ms.date: 11/15/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan

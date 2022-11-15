@@ -1,7 +1,7 @@
 ---
 title: "Configure knowledge analytics | MicrosoftDocs"
 description: "Learn how to configure Knowledge analytics dashboards."
-ms.date: 11/14/2022
+ms.date: 11/15/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -64,7 +64,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 3. Select **Save** or **Save and Close**.
 
-### View Knowledge analytics dashboards 
+## View Knowledge analytics dashboards
 
 To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**. 
 
