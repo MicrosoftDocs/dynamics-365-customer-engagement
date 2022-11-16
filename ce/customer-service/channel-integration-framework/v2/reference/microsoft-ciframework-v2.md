@@ -127,6 +127,6 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
-[System requirements for Dynamics 365 Channel Integration Framework 2.0](../../system-requirements-channel-integration-framework-v2.md)  
+[System requirements for Dynamics 365 Channel Integration Framework 2.0](../system-requirements-channel-integration-framework-v2.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
