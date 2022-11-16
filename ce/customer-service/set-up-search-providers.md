@@ -1,7 +1,7 @@
 ---
 title: Set up external knowledge search providers (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 09/27/2022
+ms.date: 11/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -27,11 +27,11 @@ searchScope:
 
 # Set up external knowledge search providers
 
-Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self-service, assisted service, and onsite service) expedites issue resolution and drives customer and agent satisfaction and productivity. 
+Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self-service, assisted service, and onsite service) expedites issue resolution and drives customer and agent satisfaction and productivity.
 
 The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.
 
-You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. Federated search is also supported in sovereign regions.
+You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. Setting up external search providers is supported only in the GCC region.
 
 You can set up the following search providers:
 
