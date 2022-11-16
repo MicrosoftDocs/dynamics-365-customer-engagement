@@ -5,9 +5,9 @@ ms.date: 01/27/2022
 ms.reviewer: mhart
 
 ms.topic: article
-author: xonatia
-ms.author: xolee
-manager: hegate
+author: ryanchen8
+ms.author: chenryan
+manager: shellyha
 search.app: 
   - D365CE
   - D365FS
