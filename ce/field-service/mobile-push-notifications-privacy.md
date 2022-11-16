@@ -7,8 +7,8 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynm-hartmannn 9.x"
-author: FieldServiceDave
-ms.author: mhart
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 ms.reviewer: mhart
 ms.custom: 
