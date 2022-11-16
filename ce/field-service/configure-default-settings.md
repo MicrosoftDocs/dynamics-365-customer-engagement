@@ -3,8 +3,8 @@ title: Set defaults for work orders, bookings, the schedule board, and agreement
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
 ms.date: 09/23/2022
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 ms.reviewer: mhart
 search.app: 
   - D365CE

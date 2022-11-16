@@ -4,14 +4,10 @@ description: "Learn how the latest release makes optimizing resource scheduling 
 ms.date: 12/15/2017
 
 ms.topic: article
-ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 ms.reviewer: mhart
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 11
 search.audienceType: 
   - admin
   - customizer

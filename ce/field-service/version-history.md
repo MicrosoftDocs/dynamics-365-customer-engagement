@@ -7,8 +7,8 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
 author: m-hartmann
-ms.author: mhart
-manager: shellyha
+author: jshotts
+ms.author: jasonshotts
 search.app:
   - D365CE
   - D365FS
