@@ -13,6 +13,7 @@
 | | | |
 
 <a name="entityFormOptionstable"></a>
+## `entityFormOptions` object attributes
 
 The following table describes the attributes of the `entityFormOptions` parameter.
 > [!Note]
@@ -37,6 +38,7 @@ The following table describes the attributes of the `entityFormOptions` paramete
 | | | 
 
 <a name="relationshiptable"></a>
+## `relationship` object attributes
 
 The following table describes the attributes of the `relationship` object attribute of the `entityFormOptions` parameter.
 > [!Note]
@@ -56,8 +58,7 @@ The following table describes the attributes of the `relationship` object attrib
 
 On success, returns a promise object containing string.
 
-> [!Note]
-> Use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
+
 
 
 ## Examples
