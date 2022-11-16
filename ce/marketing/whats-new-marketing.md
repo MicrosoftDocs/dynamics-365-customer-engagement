@@ -47,11 +47,11 @@ The Dynamics 365 Marketing November 2022 update includes one preview feature and
 
 - **Communicate dates and times in a variety of formats**
     - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
-    - [Release plan]()
+    - [Release plan](https://learn.microsoft.com/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
     - [Docs]()
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of date and time formats.](media/whats-new-date-time.jpg "Screenshot of date and time formats")#### Monthly enhancements
+    > ![Screenshot of date and time formats.](media/whats-new-date-time.jpg "Screenshot of date and time formats")
 
 #### Monthly enhancements
 
