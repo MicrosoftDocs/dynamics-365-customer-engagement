@@ -11,6 +11,7 @@
 | | | |
 
 <a name="entityFormOptionstable"></a>
+
 The following table describes the attributes of the `entityFormOptions` parameter.
 > [!Note]
 > The attributes are optional.
@@ -36,7 +37,6 @@ The following table describes the attributes of the `entityFormOptions` paramete
 <a name="relationshiptable"></a>
 
 The following table describes the attributes of the `relationship` object attribute of the `entityFormOptions` parameter.
-
 > [!Note]
 > The attributes are optional.
 
