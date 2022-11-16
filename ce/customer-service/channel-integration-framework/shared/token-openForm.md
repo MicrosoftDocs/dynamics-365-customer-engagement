@@ -21,10 +21,10 @@ The following table describes the attributes of the `entityFormOptions` paramete
 
 | Attribute name  | Type | Description |
 |-----------------|----------|  -----------|
-|cmdBar  | Boolean  | Indicates whether to display the command bar. If you do not specify this parameter, the command bar is displayed by default|
-|createFromEntity  |  Lookup  | Indicates a record that will provide default values based on mapped attribute values. The lookup object has the following properties of type String: `entityType`, `id`, and `name` (optional).
-| entityId | String | Identifier of the entity record to display the form for. 
-| entityName |String | Logical name of the entity to display the form for.
+|cmdBar  | Boolean  | Indicates whether to display the command bar. If you do not specify this parameter, the command bar is displayed by default. |
+|createFromEntity  |  Lookup  | Indicates a record that will provide default values based on mapped attribute values. The lookup object has the following properties of type String: `entityType`, `id`, and `name` (optional).|
+| entityId | String | Identifier of the entity record to display the form for. |
+| entityName |String | Logical name of the entity to display the form for.|
 |formId  |  String |  Identifier of the form instance to be displayed.|
 |  height| Number  |  Height of the form window to be displayed in pixels.|
 |navBar  | String | Controls whether the navigation bar is displayed and whether application navigation is available using the areas and subareas defined in the site map. Valid values are: <br>`on`: The navigation bar is displayed. This is the default behavior if the `navBar` parameter is not used. <br>`off`: The navigation bar is not displayed. The user can navigate using other user interface elements or the back and forward buttons. <br>`entity`: On an entity form, only the navigation options for related entities are available. After navigating to a related entity, a back button is displayed on the navigation bar to allow returning to the original record. <br>  |
