@@ -1,7 +1,7 @@
 ---
 title: "Monitor, assign, transfer, and end conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
-ms.date: 10/03/2022
+ms.date: 11/17/2022
 ms.topic: article
 author: "neeranelli"
 ms.author: nenellim
@@ -58,6 +58,9 @@ To manually assign a conversation, the conversation should be in an open state a
 
 The conversation is now assigned to the agent or queue that you selected.
 
+> [!NOTE]
+> If you're unable to assign conversations successfully, verify that the **Omnichannel API access** role isn't assigned to you.
+
 ## Transfer conversations
 
 You can transfer ongoing conversations that are in the **Active** or **Waiting** states. You can transfer all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. However, if and when these conversations switch from the text mode to elevated voice or video modes, you can't transfer them across agents.
@@ -80,7 +83,6 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 ## End conversations forcibly
 
-
 > [!CAUTION]
 > We recommend that you use this feature judiciously to end agent conversations.
 
@@ -90,7 +92,7 @@ End voice calls and conversations that take place on the voice and messaging cha
 
 2. Select a conversation and then select **Force Close**.
 
-The participants receive a notification that their conversation was ended by a supervisor. 
+The participants receive a notification that their conversation was ended by a supervisor.
 
 ### See also
 
