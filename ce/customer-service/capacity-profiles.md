@@ -119,7 +119,7 @@ Let us take a scenario where you want to route cases as follows:
 
 **Runtime behavior of multiple capacity profiles in a single workstream**
 
-When a work item is stamped with multiple capacity profiles, the assignment strategy considers the agent who meets all of them.
+When a work item is stamped with multiple capacity profiles, the assignment strategy considers the agent who matches all the required capacity profiles.
 
 1. When the high priority work item comes, it will be stamped with "Total-capacity profile" and "High-priority profile".
 2. An agent who has capacity in both these profiles only will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
