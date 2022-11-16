@@ -193,7 +193,7 @@ Form settings allow you to configure advanced properties of your form and define
 
 ### Field types
 
-## Lookup
+#### Lookup
 
 **ToDo**
 
