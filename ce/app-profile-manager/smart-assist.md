@@ -60,11 +60,11 @@ You can create an application user only in the web client. Use the bot applicati
 
 After you create a bot user, you need to add the bot to the workstream so that agents who use the channel of this workstream can see the suggestions.
 
-1. In Customer Service admin center, go to **Workstreams** under **Customer support**, and select the workstream in which you want to add the smart assist bot.
+1. In Customer Service admin center, go to **Workstreams** in **Customer support**, and select the workstream in which you want to add the smart assist bot.
 
 2. Expand **Advanced settings**, and select **Add bot** in the **Smart Assist bots** area.
 
-3. In the **Add from existing** panel, select a bot user from the list, and select **Add**.
+3. In the **Add from existing** panel, select a bot user from the list, and then select **Add**.
 
 You can add multiple bots to a workstream based on your business requirements.
 
