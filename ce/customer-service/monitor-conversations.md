@@ -19,15 +19,13 @@ As a supervisor, you can monitor, assign, transfer, or end conversations that ar
 
 When you monitor conversations, you can understand how they're being handled by your agents and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
-> [!NOTE]
-> To be able to monitor, assign, transfer, or close conversations, your administrator should enable the respective settings&ndash;**Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close**&ndash;in the admin app. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](enable-monitor-assign-transfer-conv.md)
+To be able to monitor, assign, transfer, or close conversations, your administrator should enable the respective settings&ndash;**Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close**&ndash;in the admin app. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](enable-monitor-assign-transfer-conv.md)
 
 ## Monitor and join conversations
 
 As a supervisor, you can monitor or assign conversations that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer in the communication panel.  
 
-> [!NOTE]
-> You can't monitor conversations that are assigned to you.
+You can't monitor conversations that are assigned to you.
 
 1. Sign in to Dynamics 365 and go to the Customer Service workspace or Omnichannel for Customer Service app.
 
@@ -65,8 +63,7 @@ The conversation is now assigned to the agent or queue that you selected.
 
 You can transfer ongoing conversations that are in the **Active** or **Waiting** states. You can transfer all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. However, if and when these conversations switch from the text mode to elevated voice or video modes, you can't transfer them across agents.
 
-> [!NOTE]
-> You can transfer conversations to and from agents only, not bots.
+You can transfer conversations to and from agents only, not bots.
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
@@ -78,8 +75,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 4. Select **Transfer**. The selected conversation is transferred to the agent.
 
-> [!NOTE]
-> When you transfer an **Active** conversation from one agent to another, the first agent is added as a consultant to the conversation that's now being managed by the second agent. The conversation is successfully transferred when the second agent acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
+When you transfer an **Active** conversation from one agent to another, the first agent is added as a consultant to the conversation that's now being managed by the second agent. The conversation is successfully transferred when the second agent acknowledges the notification by selecting **Accept** or **Reject**. Refresh the dashboard if you don't get an updated status as a result of network issues or delays in acknowledgment.
 
 ## End conversations forcibly
 
