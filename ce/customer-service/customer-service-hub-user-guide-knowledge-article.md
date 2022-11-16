@@ -421,16 +421,6 @@ You can mark an article for review or directly assign it to a specific person or
   
 5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
- 
-## Review and reject or approve a knowledge article  
-
-It’s important to review articles for accuracy before they’re published or made available to others.  
-  
-> [!IMPORTANT]
->  To approve a knowledge article, you must have **Approve** permissions for the knowledge article record type. This permission is added by default to the knowledge manager, customer service manager, customer service representative, or system administrator role or equivalent permissions.  
-  
-  
- 
 ## Update knowledge articles to capture feedback  
 
 Ensure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
