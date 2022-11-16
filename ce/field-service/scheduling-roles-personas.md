@@ -9,8 +9,8 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: m-hartmann
-ms.author: mhart
-manager: shellyha
+author: clearab
+ms.author: anclear
 search.app: 
   - D365CE
   - D365FS
