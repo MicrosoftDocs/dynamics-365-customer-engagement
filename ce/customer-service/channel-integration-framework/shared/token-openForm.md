@@ -6,7 +6,7 @@
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| entityFormOptions | Object | Yes | Entity form options for opening the form. The object contains the following attributes: <br> - cmdbar <br> - createFromEntity <br> - entityId <br> - entityName <br> - formId <br> - height <br> - navBar <br> - openInNewWindow <br> - windowPosition <br> - processId <br> - processInstanceId <br> - relationship <br> - selectStageId <br> - useQuickCreateForm <br> - width <br> See the [`entityFormOptions` object table](#entityFormOptionstable) for information about the attributes. |
+| entityFormOptions | JSON object | Yes | Entity form options for opening the form. The object contains the following attributes: <br> - cmdbar <br> - createFromEntity <br> - entityId <br> - entityName <br> - formId <br> - height <br> - navBar <br> - openInNewWindow <br> - windowPosition <br> - processId <br> - processInstanceId <br> - relationship <br> - selectStageId <br> - useQuickCreateForm <br> - width <br> See the [`entityFormOptions` object table](#entityFormOptionstable) for information about the attributes. |
 |formParameters|Object|No|A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error. <br>For information about passing parameters to a form, see [Set field values using parameters passed to a form](/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form.md) and [Configure a form to accept custom querystring parameters](/customerengagement/on-premises/developer/configure-form-accept-custom-querystring-parameters.md). |
 |successCallback | Function | No | A function to execute when the operation succeeds.|
 | errorCallback | Function | No | A function to execute when the operation fails.|
@@ -32,7 +32,7 @@ The following table describes the attributes of the `entityFormOptions` paramete
 | windowPosition | Number |  Indicates the position of the form on the window. Valid values are: `1` for center position and `2` for side position. |
 |processId | String |  Identifier of the business process to be displayed on the form. |
 |processInstanceId | String |  Identifier of the business process instance to be displayed on the form.|
-|relationship | Object |  Indicates a relationship object to display the related records on the form. See the [`relationship` object table](#relationshiptable) for information about the attributes. |
+|relationship | JSON object |  Indicates a relationship object to display the related records on the form. See the [`relationship` object table](#relationshiptable) for information about the attributes. |
 |selectStageId | String|  Identifier of the selected stage in business process instance.|
 | useQuickCreateForm| Number |  Width of the form window to be displayed in pixels.|
 | | | 
