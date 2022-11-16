@@ -28,7 +28,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ## Licensing options
 
-When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get three hours of conversation intelligence per month, per user. If you need more than three hours of conversation intelligence per month, per user, then you can [buy additional hours](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). Note that three hours of conversation intelligence refers to recording and processing time.
+When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get three hours of conversation intelligence per month, per user. If you need more than three hours of conversation intelligence per month, per user, then you can [buy additional hours](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). Note that three hours of conversation intelligence refers to recording and processing time. For a detailed list of conversation intelligence capabilities available with the Sales Premium and Sales Enterprise licenses, see [this FAQ](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales).
 
 ## Set up Microsoft Teams calls with conversation intelligence
 
