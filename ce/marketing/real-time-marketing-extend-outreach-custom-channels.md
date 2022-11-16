@@ -262,8 +262,7 @@ Primary ID attribute name: **msdyn\_channeldefinitionid**
 Entity logical name: **msdyn\_channelmessagepart**  
 Entity set name: **msdyn\_channelmessageparts**
 
-Primary ID attribute name: **msdyn\_channelmessagepartid  
-**
+Primary ID attribute name: **msdyn\_channelmessagepartid**
 
 - **msdyn\_name:** string – Name for the message part, used as key for message parts in the outbound flow.
 - **msdyn\_displayname:** string – Display name.
