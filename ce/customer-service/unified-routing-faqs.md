@@ -145,9 +145,9 @@ Yes, intelligent skill finder can be enabled for any entity that is enabled for 
 
 ## Capacity profiles
 
-### I have a work item stamped with two capacity profiles and three agents are available in the queue. Two of the agents match each of the required capacity profiles and the third agent matches on both the required capacity profiles. Which agent is eligible for assignment?
+### I have a work item stamped with two capacity profiles and three agents who match at varying levels. Which agent is eligible for assignment?
 
-The work item is assigned to the third agent who matches the requirement of both the capacity profiles. More information: [Use capacity profiles](capacity-profiles.md#multiple-capacity-profiles-in-a-single-workstream)
+If two of the agents match each of the required capacity profiles and the third agent matches on both the required capacity profiles, then the work item is assigned to the third agent. More information: [Use capacity profiles](capacity-profiles.md#multiple-capacity-profiles-in-a-single-workstream)
 
 ### See also
 
