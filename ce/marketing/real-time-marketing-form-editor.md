@@ -193,6 +193,8 @@ Form settings allow you to configure advanced properties of your form and define
 
 ### Field types
 
+## Lookup
+
 **ToDo**
 
 ### Form validation
@@ -215,12 +217,25 @@ The form validation process can be also launched manually.
 
 - OOB fields are filtered
 
+## Troubleshooting
+
+### Embedded form is not visible on my page
+
+Make sure that your domain is allowed for external form hosting.
+
+**ToDo**
+
+### Publish form as standalone page fails
+
+**ToDo**
+
 ## Security notice
 
 The security is an important aspect of forms. We take the following precautions to avoid any security risks:
 
 - D365 Marketing accepts form submissions from whitelisted domains only.
 - We have necessary precautions in the infrastructure to minimize the impacts of a possible DDoS attack.
+
 
 
 # To be finished
