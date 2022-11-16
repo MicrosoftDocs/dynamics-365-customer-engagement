@@ -6,7 +6,6 @@ ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-author: m-hartmann
 author: jshotts
 ms.author: jasonshotts
 search.app:
