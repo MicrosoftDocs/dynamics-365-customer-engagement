@@ -4,14 +4,14 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/27/2022
+ms.date: 11/16/2022
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
 ## Roles in Omnichannel for Customer Service
 
@@ -27,6 +27,8 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
 For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
+
+Ensure that the **Omnichannel API access** role isn't assigned to supervisor or agent types of users.
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
