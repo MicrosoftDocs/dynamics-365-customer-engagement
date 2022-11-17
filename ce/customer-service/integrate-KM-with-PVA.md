@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
-ms.date: 11/16/2022
+ms.date: 11/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
