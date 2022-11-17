@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 11/14/2022
+ms.date: 11/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -64,13 +64,19 @@ Before you begin with the customization, you must have the following prerequisit
 
       b. In the admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
-      c. Enable **Allow service principals to use Power BI APIs** by setting the toggle to **Yes**, and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option and then entering the security groups.
+      c. Enable **Allow service principals to use Power BI APIs** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option and then entering the security groups.
 
         > [!div class=mx-imgBorder]
         > ![Enable service principals for security group.](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
-
+      
       d. Select **Apply**.
-
+      
+      e. Go to **Tenant settings** > **Workspace settings**.
+      
+      f. Enable **Create workspaces setting** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option and then entering the security groups.
+      
+      g. Select **Apply**.
+    
 The following section describes a step-by-step process to enable model customization of your historical analytics reports.
 
 ### Enable the Embedded Power BI report extensibility - Historical data model customization (preview) option
