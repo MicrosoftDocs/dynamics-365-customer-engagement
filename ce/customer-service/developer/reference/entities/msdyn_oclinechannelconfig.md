@@ -909,7 +909,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid"></a> msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid
 
-Same as msdyn_ocprovisioningstate entity [msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid](msdyn_ocprovisioningstate.md#BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid) Many-To-One relationship.
+Same as msdyn_ocprovisioningstate, msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid entity, Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -924,7 +924,7 @@ Same as msdyn_ocprovisioningstate entity [msdyn_oclinechannelconfig_msdyn_ocprov
 
 ### <a name="BKMK_msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid"></a> msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid
 
-Same as msdyn_ocbotchannelregistration entity [msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid](msdyn_ocbotchannelregistration.md#BKMK_msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid) Many-To-One relationship.
+Same as msdyn_ocbotchannelregistration entity, msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid, Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
