@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
-description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 06/09/2022
+description: "This article provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
+ms.date: 11/18/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -11,9 +11,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service in your organization.
+This article provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service in your organization.
 
-You can deploy Omnichannel for Customer Service over a Customer Service application and experience it in the following ways:
+You can deploy Omnichannel for Customer Service over a Customer Service application and use it in the following ways:
 
 - Omnichannel for Customer Service app - Web experience on the Unified Interface application
 - Unified Service Desk client application
