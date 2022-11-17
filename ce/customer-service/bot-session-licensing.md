@@ -11,7 +11,7 @@ ms.custom:
 
 # Bot sessions and licensing
 
-A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation.
+A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the start, middle, or end of a conversation.
 
 - If two different bots are invoked in the same conversation, it is considered a single conversation.
 - A conversation with a bot that's escalated to a human agent is considered a bot conversation.
