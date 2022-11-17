@@ -157,8 +157,8 @@ Sync intervals define how often record type data will automatically sync down to
 The default **Field Service Mobile - Offline Profile** has predetermined sync intervals for each record type, which is selected based on typical usage patterns of those record types.
 
 > [!NOTE]
-> Even if the value for sync interval is set to be less frequent than **Every 1 hour**, data will still be synched every hour. A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background.
-Dependencies based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might also result in a sync being triggered for related tables.
+> A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background.
+Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. Sync interval for an entity may not be respected if there is a related table with a lower sync interval.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the option to customize the records you want to make available offline.](./media/mobile-2020-offline-sync-filter.png)
@@ -235,16 +235,19 @@ Sync notifications are available from Unified Interface Platform version 9.2.220
 
 ### Why does the offline enabled application show a message "Network or Service Unavailable"
 
-The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message is displayed, the client will not sync new data and some network-dependent areas of the application won't work. For example, maps or Dataverse search depend on device connectivity. 
+The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message is displayed, the client won't sync new data, and some network-dependent areas of the application won't work. For example, maps or Dataverse search depends on device connectivity. 
 
-The application will check for connectivity whenever you navigate. The following events determine network detection which may result in the error message:
+The application will check for connectivity whenever you navigate. The following events determine network detection, which may result in the error message:
 - Application boots into offline mode prior to detecting network availability.
-- Application network check fails with no response or a response which takes too long.
+- Application network check fails with no response or a response that takes too long.
 
 ### Known Limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record doesn't meet filter conditions, then the record doesn't get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they're calling correct APIs: `Xrm.WebApi.online`.
+- Offline Tables: Tables that are supported offline are added as part of the default Field Service Mobile Offline Profile. Some field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline may result in errors in the mobile application.
+- Inventory Validation isn't performed while the device isn't connected.
+- When configuring the Mobile Offline Profile, there can be a maximum of 15 linked Tables. This 15-link limit includes downstream Tables. For example, if Table A has relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A will have six relationships: B, C, D, F, G H. 
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 > [!NOTE]
