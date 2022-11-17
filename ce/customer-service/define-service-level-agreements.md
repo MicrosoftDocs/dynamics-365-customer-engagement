@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 09/23/2022
+ms.date: 11/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -38,7 +38,7 @@ To configure SLAs in Customer Service Hub:
 4. [Apply SLAs](apply-slas.md#apply-slas)
 
 > [!NOTE]
-> SLAs are supported only in Customer Relationship Management (CRM) organizations and not in Common Data Service (CDS) organizations.
+> You can create SLAs only in the environments that have customer engagement apps, such as Customer Service and Sales Hub as SLA is available as a default solution in these apps.
 
 ## Prerequisites
 
