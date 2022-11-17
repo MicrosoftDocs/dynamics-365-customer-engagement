@@ -69,7 +69,7 @@ To set connection references:
 
 ### Add the action to the Power Virtual Agents topic
 
-After configuring the connection references in [make.powerapps.com](https://make.powerapps.com), go to **Chatbots** > **List** and select the required chatbot. This will take you to the Power Virtual Agents portal where you can create a topic.
+After you configure the connection references in [make.powerapps.com](https://make.powerapps.com), go to **Chatbots** > **List** and select the required chatbot. This will take you to the Power Virtual Agents portal where you can create a topic.
 If you need to create a chatbot, see [Create chatbots from Power Apps](/power-apps/chatbots).
 
 You can create a topic with two question nodes for search text and filter, or you can configure the search integration to set up a fallback topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
