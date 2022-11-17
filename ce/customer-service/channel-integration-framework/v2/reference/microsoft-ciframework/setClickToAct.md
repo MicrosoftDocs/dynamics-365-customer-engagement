@@ -32,7 +32,7 @@ ms.custom:
 
 ## Return value
 
-A Promise object. Value will be null if the request is successful, and show an error if the request fails.
+A Promise object withe null value if the request is successful. The API returns an error if the request fails.
 
 
 
