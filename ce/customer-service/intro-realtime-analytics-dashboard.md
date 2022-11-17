@@ -15,9 +15,6 @@ ms.custom: intro-internal
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
-
-> [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
 >
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -26,6 +23,9 @@ ms.custom: intro-internal
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
+
+> [!IMPORTANT]
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 In the digital contact center world, supervisors need to react to events like an increase in the volume of incoming customer interactions, longer call lengths and agent absenteeism by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Having visibility into the overall support performance through real-time reporting empowers them to monitor key operational metrics, make course corrections at the right time, and keep service levels high.
 
