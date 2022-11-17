@@ -31,9 +31,6 @@ The Field Service (Dynamics 365) mobile app is built on Microsoft Power Platform
 
 The Field Service (Dynamics 365) mobile app will evolve over time. New features and continuous investments in Dynamics 365 Field Service and Power Platform will help shape the development. Read on to learn about capabilities for the app. For information about integration and onboarding, see [planning your deployment](#planning-for-your-deployment) and related links.
 
-> [!NOTE]
-> The legacy Field Service Mobile (Xamarin) app reaches end of life on June 30th, 2022. To avoid disruption to service, all deployments must migrate to the Field Service (Dynamics 365) mobile app before that date. For more information, see: [Field Service Mobile Xamarin end of support FAQ](/dynamics365/field-service/activate-fs-mobile-app-license#faqs).
-
 ## Features in the Field Service (Dynamics 365) mobile app
 
 | Feature | Category | Field Service (Dynamics 365) mobile app |  Details |

@@ -196,7 +196,7 @@ In practice, IoT alerts for a specific sensor will also tag the related customer
 ## Configuration considerations
 
 - A used work order product with quantity of **2** won't create two customer asset records; there will be a lookup reference to the work order product that will show the exact quantity.
-- It's common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile (Xamarin) app supports barcode scanning to populate fields and locate records in the system.
+- It's common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile app supports barcode scanning to populate fields and locate records in the system.
 - Only products where **Field Service Product Type** is set to **Inventory** or **Non-inventory** can be added to work orders. Only those products can be automatically converted to customer assets. However, when manually creating a customer asset, you can add all products. 
 
 ### Add customer assets from different accounts to work orders
