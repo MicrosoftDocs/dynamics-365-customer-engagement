@@ -239,6 +239,10 @@ To disable the user from accessing to the documents in the record from the custo
 
 The Dynamics 365 app is not supported on mobile devices.
 
+### Rich text fields in adaptive cards are not working
+
+Rich text fields are not supported in adaptive cards and will not render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams does not support rich text formatting on fields in adaptive cards.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
