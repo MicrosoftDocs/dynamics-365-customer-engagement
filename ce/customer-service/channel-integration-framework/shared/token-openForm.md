@@ -56,12 +56,12 @@ The following table describes the attributes of the `relationship` object attrib
 
 ## Return value
 
-On success, returns a promise object containing string.
+On success, returns a Promise object containing string.
 
 
 
 
-## Examples
+## Example
 
 The following sample code opens a new incident form with prepopulated values for certain fields like contact ID and description.
 
