@@ -55,9 +55,12 @@ To set connection references:
    
 1. Go to [make.powerapps.com](https://make.powerapps.com).
 1. Go to **Solutions**. The **Solutions** page displays a notification with a link to configure connection references.
-:::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
+
+    :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
 1. Select the link. If you don't see the notification on the **Solutions** page, go to **Default Solutions** > **Connection references**.
-:::image type="content" source="media/con-ref.png" alt-text="Connection References page":::
+
+    :::image type="content" source="media/con-ref.png" alt-text="Connection References page":::
+
 1. Select the connections for **Microsoft Dataverse** and **Content Conversion** on the **Connection references** page.
 1. Select **Save and Close**.  
 1. Go to **Default Solution** > **Cloud flows** and turn on **Search Dynamics 365 knowledge article flow** flow.
