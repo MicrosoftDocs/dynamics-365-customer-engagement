@@ -104,7 +104,9 @@ Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel 
 
 ### What happens to an unassigned work item after it's routed to a particular queue?
 
-The unassigned work item remains in the queue till it's manually routed to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
+### How are work items in a queue handled if they are unassigned?
+
+The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
 
 ## Route to most-idle agent
 
