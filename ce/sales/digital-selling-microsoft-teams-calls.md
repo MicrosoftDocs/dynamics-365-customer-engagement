@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license."
-ms.date: 04/26/2022
+ms.date: 10/31/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -43,17 +43,24 @@ When you set up Microsoft Teams calls with conversation intelligence with the Dy
     > [!NOTE]
     > To use Teams calls, sellers will need valid licenses for Microsoft Teams, Phone System, and Calling Plan or Direct Routing, in addition to assigned phone numbers. [Learn more](https://go.microsoft.com/fwlink/?linkid=2180901)
 
-2. Turn on the **Teams calls (preview)** toggle to enable Teams dialer and allow sellers to make calls directly from within the Dynamics 365 Sales Hub app.
+2. Turn on **Teams calls**.  
+    
+    By default, the following options are turned on:
+    - **Answer incoming calls in Dynamics 365**
+        Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
+    - **Internal call will ring only in the Teams app, not in Dynamics 365**
+        Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
+ 
 
     - In the **Enable for** section, select one of the following options to provide permissions to users to view Microsoft Teams dialer:
         - **All security roles**: Select this option to provide access to view Microsoft Teams dialer to users in all the security roles in your organization.
         - **Specific security roles**: Select this option to specify security roles when you want to give access to view Microsoft Teams dialer to specific users.
 
-3. Turn on the **Recording with real-time transcription and insights (preview)** toggle to allow sellers to record calls by using the Teams dialer and get the most out of every call with advanced conversation intelligence capabilities such as AI-powered insights, rich call summaries, and more.
+3. Turn on the **Recording with real-time transcription and insights** toggle to allow sellers to record calls by using the Teams dialer and get the most out of every call with advanced conversation intelligence capabilities such as AI-powered insights, rich call summaries, and more.
 
     - In the **Enable for** section, select one of the following options to provide permissions to users to record calls:
         - **All security roles**: Select this option to allow call recording by all the security roles in your organization.
-        - **Specific security roles**: Select this option to allow call recording only by specify security roles.
+        - **Specific security roles**: Select this option to allow call recording only by specific security roles.
     
     > [!TIP]
     > - To implement the call recording capability in your entire organization, select **All security roles**.
@@ -61,7 +68,7 @@ When you set up Microsoft Teams calls with conversation intelligence with the Dy
 
 4. Select **Update**.
 
-After settings are enabled, sellers can make calls to their customers from within the Dynamics 365 Sales Hub app. They can also record the calls and apply conversation intelligence capabilities to get the most out of every call.
+After settings are enabled, sellers can make Teams calls to their customers from within the Dynamics 365 Sales Hub app. They can also record the calls and apply conversation intelligence capabilities to get the most out of every call.
 
 > [!NOTE]
 > You can also enable Teams calling for other apps from the **Advanced settings** option on the **Microsoft Teams calls** setup page. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
@@ -93,9 +100,9 @@ If you're using conversation intelligence with your Sales Enterprise license, yo
     
   - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
     
-  - **Usage this month**: Displays the breakdown of usage by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+  - **Usage this month**:Displays the usage breakdown by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
     
-  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those who didn't.
+  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those sellers who didn't.
 
     :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
@@ -103,10 +110,10 @@ If you're using conversation intelligence with your Sales Enterprise license, yo
 
 1. Select **Go to advanced conversation intelligence settings** at the top of the quick setup panel.
 
-2. Turn off the **Teams calls (preview)** and **Recording with real-time transcription and insights (preview)** toggles.
+2. Turn off the **Teams calls** and **Recording with real-time transcription and insights** toggles.
 
     > [!NOTE]
-    > If you turn off **Teams calls (preview)**, **Recording with real-time transcription and insights (preview)** will also be turned off. However, you can turn off only conversation intelligence (call recording) and leave the Teams calling option on.
+    > If you turn off **Teams calls**, **Recording with real-time transcription and insights** will also be turned off. However, you can turn off only conversation intelligence (call recording) and leave the Teams calling option on.
 
 3. Select **Update**.
  

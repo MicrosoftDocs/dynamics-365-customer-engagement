@@ -875,7 +875,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid"></a> msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid
 
-Same as msdyn_ocprovisioningstate entity [msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid](msdyn_ocprovisioningstate.md#BKMK_msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid) Many-To-One relationship.
+Same as msdyn_ocprovisioningstate entity, msdyn_octeamschannelconfig_msdyn_ocprovisioningstate_octeamschannelconfigid, Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -890,7 +890,7 @@ Same as msdyn_ocprovisioningstate entity [msdyn_octeamschannelconfig_msdyn_ocpro
 
 ### <a name="BKMK_msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid"></a> msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid
 
-Same as msdyn_ocbotchannelregistration entity [msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid](msdyn_ocbotchannelregistration.md#BKMK_msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid) Many-To-One relationship.
+Same as msdyn_ocbotchannelregistration entity, msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid, Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
