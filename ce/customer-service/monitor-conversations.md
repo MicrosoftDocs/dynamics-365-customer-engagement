@@ -19,7 +19,7 @@ As a supervisor, you can monitor, assign, transfer, or end conversations that ar
 
 When you monitor conversations, you can understand how they're being handled by your agents and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
-To be able to monitor, assign, transfer, or close conversations, your administrator should enable the respective settings&ndash;**Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close**&ndash;in the admin app. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](enable-monitor-assign-transfer-conv.md)
+To be able to monitor, assign, transfer, or close conversations, your administrator must enable the respective settings&ndash;**Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close**&ndash;in the admin app. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](enable-monitor-assign-transfer-conv.md)
 
 ## Monitor and join conversations
 
