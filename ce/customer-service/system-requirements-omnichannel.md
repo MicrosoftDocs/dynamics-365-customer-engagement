@@ -34,6 +34,7 @@ Make sure that Omnichannel for Customer Service is available in your region. Mor
 - For each user in a supervisor role, you must have a Power BI Pro license or higher, to be able to use historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards**.
 
 For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). 
+
 ## System requirements for Omnichannel for Customer Service
 
 The system requirements to use Omnichannel for Customer Service are as follows.
@@ -49,17 +50,14 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 
 For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements.md).
 
-### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
+### Supported web browsers for voice and video in live chat widget<a name="browsers-for-chat"></a>
 
 The following browsers are supported by the customer-facing live chat widget in Omnichannel for Customer Service:
 
-- **Windows:** Chromium-based Microsoft Edge, Google Chrome, and Mozilla Firefox
+- **Windows:** Chromium-based browser such as Microsoft Edge, Google Chrome, and Mozilla Firefox
 - **macOS and iOS:** Safari
-- **Android:** Chromium-based Microsoft Edge and Google Chrome
+- **Android:** Chromium-based browser such as Microsoft Edge and Google Chrome
 
-> [!NOTE]
->
-> Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
 
 ## Provision Omnichannel for Customer Service
 
