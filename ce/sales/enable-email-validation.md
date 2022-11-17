@@ -1,7 +1,7 @@
 ---
 title: Enable email validation (preview)
 description: Enable lead email validation in Microsoft Dynamics 365 Sales to help your sellers keep their leads clean.
-ms.date: 09/30/2022
+ms.date: 10/12/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -20,6 +20,10 @@ Enable email validation in Dynamics 365 Sales to remove invalid email addresses 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+## Prerequisite
+
+Before you enable the email validation feature, ensure that the **AI Builder preview models** option is enabled in your organization. More information: [How do I enable a Preview feature?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
 
 ## In which regions is email validation available?
 
@@ -70,7 +74,7 @@ Sellers can view invalid email addresses on record forms, work list items, and t
 
     :::image type="content" source="media/lead-email-feature-enabled.png" alt-text="Screenshot illustrating the email validation feature is enabled.":::
 
-Email validation runs immediately on the primary email address in lead records that are less than 180 days old. A red envelope icon indicates an invalid email address. New primary email addresses added later are checked automatically.
+Email validation runs immediately on the primary email address in lead records that are less than 180 days old. Subsequently, the validation runs once in every 6 hours. A red envelope icon indicates an invalid email address. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

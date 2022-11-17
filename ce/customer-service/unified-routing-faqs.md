@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/03/2022
+ms.date: 11/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -38,8 +38,8 @@ These workstreams were created either in the Omnichannel admin center or Custome
 
 To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
-> [!Note]
-> After you migrate the workstreams, you'll be able to manage them only in the Omnichannel admin center app. We recommend that you familiarize yourself with the new app before migrating. More information: [Get started with Omnichannel admin center](oc-admin-center.md).
+> [!NOTE]
+> After you migrate the workstreams, you'll be able to manage them in the Omnichannel admin center app only. We recommend that you familiarize yourself with the new app before migrating. More information: [Get started with Omnichannel admin center](oc-admin-center.md).
 
 ### Can I manage my workstreams in the Omnichannel Administration app post migration?
 
@@ -85,7 +85,10 @@ No. It's not possible to pause the assignment of a case.
 
 ### Can I export a unified routing configuration and sign in to another environment?
 
-No, a configuration can't be exported.
+Yes, you can export a configuration with unified routing content for the record type and live chat channel. For more information, see the following articles:
+
+- [Export and import configuration data for the record channel](export-import-config-data-for-records.md)
+- [Export and import data for the live chat channel](export-import-config-data-for-live-chat.md)
 
 ### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is it possible to now reassign C1 to Q3?
 
@@ -98,6 +101,10 @@ A case remains with the agent that it was initially assigned to and therefore th
 ### Can I access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace?
 
 Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
+
+### What happens to an unassigned work item after it's routed to a particular queue?
+
+The unassigned work item remains in the queue till it's manually routed to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
 
 ## Route to most-idle agent
 
@@ -136,6 +143,11 @@ Yes, intelligent skill finder can be enabled for any entity that is enabled for 
 - Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
 - Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
 
+## Capacity profiles
+
+### I have a work item labeled with two capacity profiles and three agents who match at varying levels. Which agent is eligible for assignment?
+
+If two of the agents match one each of the required capacity profiles and the third agent matches on both the required capacity profiles, then the work item is assigned to the third agent. More information: [Use capacity profiles](capacity-profiles.md#multiple-capacity-profiles-in-a-single-workstream)
 
 ### See also
 

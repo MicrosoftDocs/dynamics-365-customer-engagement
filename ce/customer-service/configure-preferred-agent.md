@@ -1,7 +1,7 @@
 ---
 title: "Configure routing to preferred agents | MicrosoftDocs"
 description: "Configure settings to route work items to preferred agents in Customer Service."
-ms.date: 10/03/2022
+ms.date: 10/22/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,11 +15,12 @@ For a more personalized experience, Dynamics 365 Customer Service gives you the 
 You can configure contacts and their preferred agents in the Customer Service admin center. If a contact isn't configured, then you can't assign a preferred agent to the contact. You can map agents to contacts only.
 
 ## Prerequisites
-- You must have one of the following roles to configure preferred agent routing:
-     - **For Customer Service**: CSR Manager
-     - **For Omnichannel for Customer Service**: Omnichannel Administrator
 
-- You must be able to access the Contact entity. More information: [Contact](/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
+- You must have one of the following roles to configure preferred agent routing:
+  - **For Customer Service**: CSR Manager
+  - **For Omnichannel for Customer Service**: Omnichannel Administrator
+
+- You must be able to access the Contact entity. More information: [Contact](/dynamics365/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
 - If you have a custom role, you must also have access to the msdyn_preferredagent and msdyn_preferredagentcustomeridentity entities.
 - Ensure that the agent you want to assign to a contact is a member of the queue to which work items will be routed.
 
@@ -50,7 +51,6 @@ You can configure contacts and their preferred agents in the Customer Service ad
 1. Save and close.
 
   :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
-
 
 ### Routing diagnostics and preferred agent settings
 

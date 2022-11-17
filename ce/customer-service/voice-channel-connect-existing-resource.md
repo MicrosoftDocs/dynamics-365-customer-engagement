@@ -1,7 +1,7 @@
 ---
 title: "Connect using an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 06/09/2022
+ms.date: 10/27/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -27,6 +27,8 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **Id** and **Resource name** fields.
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
 - Get the application (client) ID and tenant (directory) ID for your registered app. More information: [Get application and tenant IDs](#get-application-and-tenant-ids)
+
+You must also verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## Connect using an existing Azure resource
 
@@ -55,7 +57,7 @@ Azure Communication Services integrates with Azure Event Grid to send real-time 
 
 So, to enable call recording and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics, and then subscribe to the specific recording or SMS events by creating Event Grid subscriptions on the Azure portal. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
 
-> [!Note]
+> [!NOTE]
 > - When you connect your event subscription, you must use the same application ID and directory ID for the app registration as you did when you first connected to your Azure resource. To check which app ID and directory ID you used, select the filter icon in the top right and search for communication provider setting entries.
 > - You can only set one web hook endpoint at a time using the following procedure, so if you'd like to enable both the services, you must run the procedure two times to set the respective web hook endpoints.
 
@@ -98,9 +100,12 @@ For information about enabling call recording and transcription for a voice work
 #### Get the subscriber endpoint for recording
 
 1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
+   
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     2. Select **Manage** for **Phone numbers**.
+   
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
    In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 

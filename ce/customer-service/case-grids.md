@@ -1,7 +1,7 @@
 ---
 title: "Manage cases with case grids | MicrosoftDocs"
 description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 07/14/2022
+ms.date: 11/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -36,6 +36,9 @@ The modernized case grids help you increase your productivity by providing quick
 
 To be able to view the modernized case grids, your administrator must enable the **Enhanced Active Cases** view. More information: [Enable case grids (preview)](enable-case-grids.md#enable-case-grids-preview)
 
+> [!NOTE]
+> Enabling the **Enhanced Active Cases** view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
+
 The following table explains the enhancements that you'll find in the **Enhanced Active Cases** view columns, when the **(Preview) Power Apps grid control** is enabled, compared with other grids, such as the **Read Only Grid**.
 
 |Column  |Experience with (Preview) Power Apps grid control |Experience with other grids  |
@@ -43,11 +46,11 @@ The following table explains the enhancements that you'll find in the **Enhanced
 |Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. This column is editable on double-click. Sorting and filtering are supported. | Only the text appears, without any icons.      |
 |Priority   | Shows the color-coded Priority Icon followed by the text for all the views on Case Grid. This column is editable on double-click. Sorting and filtering are supported. | Only the text appears, without any icons.     |
 |Owner  | Shows the profile image of the Owner, if available; otherwise shows the initials followed by the Owner name as text. This column is editable on double-click. Sorting and filtering are supported.| Only the owner’s name  appears without any profile image or initials.    |
-|Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. This is read-only. Sorting and filtering aren’t supported. Additionally, if the activity has an attachment, it's indicated by an attachment icon, next to the activity.|  No text will appear. |
-|Next SLA   | Searches through all active (that is, non canceled) SLA KPI instances attached to the given case, filters, and then picks the SLA KPI instance that's in an unresolved state and has the earliest expiry time. If the expiry time is in the past, this denotes that there's an expired SLA instance associated with the case. The SLA KPI instance name isn't shown along with the timer control. The properties of the SLA Timer Control that aren't supported are negative timer, customized labels, upgrade frequency, and auto-refresh. This column is read-only. Sorting is supported but not filtering. | The SLA timer won't appear. Only the value assigned to **Next SLA** field in the back end will appear, which includes details such as name of SLA instance, expiry/warning time.|
-|Subject   | Shows the subject associated with the case. This column is editable on double-click. All the available options that can be selected are listed. A hierarchical view isn't supported. Sorting and filtering are supported. | The subject associated with the case will appear as a text. |
+|Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. This is read-only. Sorting and filtering aren’t supported. Additionally, if the activity has an attachment, it's indicated by an attachment icon, next to the activity. Displaying the Last Interaction column doesn’t impact the **modifiedon** and **modifiedby** fields.|  No text will appear. |
+|Next SLA   | Searches through all active (that is, non canceled) SLA KPI instances attached to the given case, filters, and then picks the SLA KPI instance that's in an unresolved state and has the earliest expiry time. If the expiry time is in the past, this denotes that there's an expired SLA instance associated with the case. The SLA KPI instance name isn't shown along with the timer control. The properties of the SLA timer control that aren't supported are negative timer, customized labels, upgrade frequency, and auto-refresh. This column is read-only. Sorting is supported but filtering isn't. Calculating Next SLA for cases results in updates to the **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.| The SLA timer won't appear. Only the value assigned to **Next SLA** field in the back end will appear, which includes details such as name of SLA instance and expiry/warning time.|
+|Subject   | Shows the subject associated with the case. You can edit this column by double-clicking it. All the available options that can be selected are listed. A hierarchical view isn't supported. Sorting and filtering are supported. | The subject associated with the case will appear as a text. |
 |Is Escalated   | Shows a toggle button reflecting whether the case has been escalated. This column is editable. Sorting and filtering are supported. | Escalation information in the form of **Yes/No** appears as text. |
-|Case Age| Shows the static text with the duration for which the case has been active for active and resolved cases in the format {xx}d {yy}h or {xx}h {yy}m. For canceled cases, the column shows **Canceled**. The time gets refreshed every minute. The column will show **0h 0m** when a case is created, after which the column will show either **{xx}h {yy}m** or **{xx}d {yy}h**. This column is read-only. Sorting and filtering are not supported. | Duration in minutes (whole number) for active and resolved cases will appear. For canceled cases, **Canceled** will appear. |
+|Case Age| Shows the static text with the duration for which the case has been active for active and resolved cases in the format {xx}d {yy}h or {xx}h {yy}m. For canceled cases, the column shows **Canceled**. Calculated Case Age is refreshed every minute, but the user must refresh the view to see the updated case age on the grid. The column will show **0h 0m** when a case is created, after which the column will show either **{xx}h {yy}m** or **{xx}d {yy}h**. This column is read-only. Sorting and filtering aren't supported. | Duration in minutes (whole number) for active and resolved cases will appear. For canceled cases, **Canceled** will appear. |
 
 ## Customize the Case grid
 

@@ -9,9 +9,9 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 59af6fe5-f6e0-43d0-addc-044009bc0a23
 caps.latest.revision: 24
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
+manager: tapanm-MSFT
 search.audienceType:
   - admin
   - customizer

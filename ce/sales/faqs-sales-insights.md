@@ -1,14 +1,12 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 10/03/2022
+ms.date: 11/04/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 1
-topic-status: Drafting
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -72,7 +70,7 @@ Sales Premium features are available in the following countries or regions:
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes | No | No | No |
+| Who knows whom | Yes | Yes | No | Yes | Yes | No | No | No | No | Yes | No | No | No |
 
 ### Which version of Exchange is supported for features in Sales Premium?   
 The Sales Premium features support the following versions of Exchange:
@@ -305,13 +303,20 @@ For activities, the suggestions are displayed immediately.
 
 ## Who knows whom
 
-### Why am I not seeing some contacts in the suggestions?
+### Why am I not seeing some of my colleagues in the suggestions?
 
-The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
+There are several possibilities:
+
+- Those colleagues are not a part of your Dynamics 365 org.
+- Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
+- Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
+- Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+  
+See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
 ### How long does it take for suggestions to show up?
 
-After your Microsoft 365 admin provides consent, you'll start seeing the results with a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
+After your Microsoft 365 admin provides consent, you'll start seeing the results within a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
 ### Which colleagues show up as connections?
 
