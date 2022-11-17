@@ -27,8 +27,8 @@ ms.custom:
 | Name            | Type     | Required | Description                                       |
 |-----------------|----------|----------|---------------------------------------------------|
 | value           | Boolean  | Yes      | Sets the value to enable or disable ClickToAct.   |
-| successCallback | Function | No       | A function to call when the request is successful |
-| errorCallback   | Function | No       | A function to call when the request fails         |
+| successCallback | Function | No       | A function to call when the request is successful. |
+| errorCallback   | Function | No       | A function to call when the request fails.         |
 
 ## Return value
 
