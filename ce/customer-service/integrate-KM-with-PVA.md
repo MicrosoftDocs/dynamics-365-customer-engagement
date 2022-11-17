@@ -77,14 +77,16 @@ If you need to create a chatbot, see [Create chatbots from Power Apps](/power-ap
 
 You can create a topic with two question nodes for search text and filter, or you can configure the search integration to set up a fallback topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
    
-If you're creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value; for example, **statecode eq 3**. This will ensure that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.
+If you're creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value; for example, **statecode eq 3**.
+
+Perform the following steps to ensure that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.
   
 1. On the Power Virtual Agents portal, select **Topics** > **New Topic**.
 1. Within the topic, create a question node to ask the user to search for the input text.
 
     :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
     
-1. Create a question node for the filter and provide the sample filter value after you create the topic.
+1. Create a question node for the filter and provide the sample filter value after you trigger the topic.
     
 1. Select **Add node** (**+**) and select **Call an action**. Select **Search Dynamics 365 knowledge article flow** action.
      
@@ -96,16 +98,16 @@ If you're creating a topic with two question nodes, for the filter question node
 
    :::image type="content" source="media/mesg_node.png" alt-text="Add message node.":::
     
-1. Select **Save**. You can now configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles** action.
+1. Select **Save**.
     
-1. Use the trigger phase and run the topic.
+1. Use the trigger phase and run the topic to verify the flow.
 
    > [!TIP]
    > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition if required.
 
    :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
   
-1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow** with the **Search Dynamics 365 knowledge articles** action.
+1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow** with the **Search Dynamics 365 knowledge articles** action. You can now configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles** action.
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add action to Power Virtual Agents topic":::
 
