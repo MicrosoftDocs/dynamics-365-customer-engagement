@@ -28,7 +28,7 @@ The Dynamics 365 users can access and perform different functions based on the r
 
 For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
 
-Ensure that the **Omnichannel API access** role isn't assigned to supervisor or agent type of users.
+Ensure that the **Omnichannel API access** role isn't assigned to supervisor or agent types of users.
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
