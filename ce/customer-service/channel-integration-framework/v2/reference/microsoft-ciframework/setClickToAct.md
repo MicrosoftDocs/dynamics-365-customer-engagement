@@ -1,7 +1,7 @@
 ---
 title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/11/2022
+ms.date: 11/17/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -32,7 +32,7 @@ ms.custom:
 
 ## Return value
 
-A Promise object. Value will be null if the request is successful, and error if the request fails.
+A Promise object. Value will be null if the request is successful, and show an error if the request fails.
 
 
 
