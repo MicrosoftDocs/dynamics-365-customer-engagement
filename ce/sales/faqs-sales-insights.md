@@ -359,7 +359,7 @@ While [providing consent](provide-consent-office365.md#provide-consent), your Mi
 |Feature  |Viva Sales  |Sales Enterprise / Sales Premium  |
 |---------|---------|---------|
 | **Call processing**   |    |    |
-|Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes<sup>123</sup> (with embedded Teams dialer) <br><sup>1</sup> **Sales Enterprise**: 3 Hours/user/month included <br> <sup>2</sup> **Sales Premium**: 10 Hours/user/month included  <br> <sup>3</sup> For additional hours, purchase the **Dynamics 365 Sales Conversation Intelligence Dialer AddOn**. This addon includes monthly rollover till the end of 12-month period. For more information about how to buy the addon, see [How do I buy more conversation intelligence hours?](#how-do-i-buy-more-conversation-intelligence-hours).|
+|Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes (unlimited<sup>1</sup>)<br><sup>1</sup> Unlimited call processing hours until the first quarter of 2023. After this period, you can buy conversation intelligence hours as per your requirement.|
 |Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Viva Sales app for Teams <br> <sup>2</sup> Unlimited Viva Sales hours included with Sales Premium / Sales Enterprise license        |
 | **During the call**   |    |
 |Real-time conversation intelligence     |    No       |    Yes     |
@@ -380,12 +380,6 @@ While [providing consent](provide-consent-office365.md#provide-consent), your Mi
 
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
 
-### How do I buy more conversation intelligence hours?
-
-With the Sales Premium and Sales Enterprise licenses, you get 10 hours and 3 hours, respectively, of call recording and processing capacity per user, per month. If you need more hours, [buy the Dynamics 365 Sales Conversation Intelligence Dialer AddOn](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
-
-> [!TIP]
-> If you don't want to buy additional hours, you can use Viva Sales for your customer meetings and get call insights and call summary right after your meeting. For more information, see [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).
 
 ### How many hours of conversation intelligence are available with Viva Sales?
 

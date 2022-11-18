@@ -105,9 +105,6 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
-    > [!NOTE]
-    > To buy more conversation intelligence hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). For a detailed list of conversation intelligence capabilities available with the Sales Premium and Sales Enterprise licenses, see [this FAQ](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales) 
-
 9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
