@@ -79,7 +79,7 @@ To create a new form, go to Real-time marketing > Channels > Forms and select Ne
     > [!div class="mx-imgBorder"]
     > ![Choose a template or skip the selection.](media/real-time-marketing-form-template-gallery.png)
 
-1. Now you can see the list of questions represented by **form fields**. The list of available fields can be found in the right pane and it includes all attributes of the selected target audience (entity). If you create a new custom attribute for the entity, it will be visible in this list and you can immediately use it as a field in your form. You can use the search bar in the list of fields to filter the field you are looking for.
+1. Now you can see the list of questions represented by **form fields**. The list of available fields can be found in the right pane and it includes all attributes of the selected target audience (entity). If you create a new custom attribute for the entity, it will be visible in this list and you can immediately use it as a field in your form. Please note that some system fields may be hidden, as these cannot be used in form. You can use the search bar in the list of fields to filter the field you are looking for.
 
     Enter "name" into the search bar to find the "Last Name" field.
 
@@ -190,11 +190,47 @@ Form settings allow you to configure advanced properties of your form and define
 
 #### How to handle duplicate records
 
-**ToDo**
+The default approach to duplicate records is different for contacts and leads.
+
+- **Contact (default: Update contact using email)**
+If the user submits a form with an existing email address, the existing record will be updated by the form submission. There will be no new record created.
+
+- **Lead (default: Always create new record)**
+If the user submits a form with an existing email address, there will be a new record with the same email address created.
+
+You can change the default strategy using Duplicate records drop-down in Forms settings. You can also create your [custom matching strategy](#create-custom-matching-strategy).
+
+##### Create custom matching strategy
+
+It is possible to create own strategy how to handle duplicate records by creating a new Matching strategy. Click the bottom left menu to access Settings. Open Form matching strategy in Customer engagement section. Click plus icon to create a new matching strategy. Name the matching strategy and select Target entity. Save the matching strategy (do not click Save & close, as you need to stay on this record). Now add Matching strategy attributes (fields) that will be used to check if the record exists. Save your new matching strategy. Now you can see it in the list Duplicate records in Form settings.
 
 ### Field types
 
+The field type is defined by the attribute meta data and it isn't possible to change it. You can change the Format (how the field is rendered) for some field types.
+
+| **Type**  | **Format** | **Rendering control** | **Description**|
+|-----------|------------|-----------------------|----------------|
+| Single line of text    | Email         | Email&nbsp;Input<br />Text Box               | Simple input field that accepts values that resemble an email address.                                                                                                           |
+| Single line of text    | Text          | Text Box              | Simple input field that accepts all types of text values.                                                                                                                         |
+| Single line of text    | Text Area     | Text Area             | Creates a text area input field that accepts all types of text values.                                                                                                                     |
+| Single line of text    | URL           | URL&nbsp;Input             | Creates a simple input field that accepts values that resemble a URL.                                                                                                                      |
+| Single line of text    | Phone         | Phone&nbsp;Input           | Creates a simple input field that accepts values that resemble a phone number.                                                                                                             |
+| Single line of text    | n/a           | Text Area             | Creates a text area, several lines high, for entering a large amount of text.                                                                                                              |
+| Option set             | n/a           | Radio Buttons         | Maps to a field with a limited number of predefined values (as defined in the database). Creates a set of radio buttons, with one button for each value.                                  |
+| Option set             | n/a           | Drop-down              | Maps to a field with a limited number of predefined values (as defined in the database). Creates a drop-down list for selecting a value.                                                  |
+| Two options            | n/a           | Check box              | Maps to a Boolean field, which accepts a value of either true or false. Creates a check box, which is selected when true and clear when false.                                              |
+| Two options            | n/a           | Drop-down              | Maps to a field that accepts one of just two possible values (typically true or false). Creates a drop-down list with two entries, with the display text for each defined in the database. |
+| Two options            | n/a           | Radio&nbsp;Buttons         | Maps to a field that accepts one of just two possible values (typically true or false). Creates a pair of radio buttons, with the display text for each defined in the database.           |
+| Whole number           | n/a           | Number&nbsp;Input          | Creates a simple input field that accepts a whole number (no decimals).                                                                                                                    |
+| Floating point number  | n/a           | Number&nbsp;Input          | Creates a simple input field that accepts a floating-point (decimal) number. Supports a level of precision up to 5 decimal places and can range from -100,000,000,000 to 100,000,000,000.  |
+| Decimal number         | n/a           | Number Input          | Creates a simple input field that accepts a floating-point (decimal) number. Supports a level of precision up to 10 decimal places and can range from -100,000,000,000 to 100,000,000,000. |
+| Date and time          | Date Only     | Date Picker           | Creates a date picker, which lets visitors choose a date from a pop-up calendar display. Does not accept a time.                                                                           |
+| Date and time          | Date and Time | Date-Time Picker      | Creates a date and time picker, which lets visitors choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
+| Lookup field          | n/a | Lookup      | Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance tgo your form. For example, you could use a lookup field Currencies to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field is not working, please ensure that the service user has permissions setup for the entities you are using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting). |
+
 #### Lookup
+
+Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance tgo your form. For example, you could use a lookup field Currencies to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field is not working, please ensure that the service user has permissions setup for the entities you are using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).
 
 **ToDo**
 
@@ -212,24 +248,28 @@ The validation process is automatically launched along with form publishing and 
 
 The form validation process can be also launched manually using the Check content button.
 
-**Important ToDo**
+### Advanced customization of form
 
-- OOB fields are filtered
+Click the HTML button in the top right corner to open the HTML editor and to display the source code of the form.
+
+#### Customize CSS
+
+You can change the CSS classes definition in the HTML editor. This allows you to achieve more advanced design customizations on top of the possibilities of the form editor.
+
+#### Add custom JavaScript to your form
+
+You can add your custom JavaScript code into the HTML source code using the HTML editor.
 
 ## Troubleshooting
 
 ### Embedded form is not visible on my page
 
-Make sure that your domain is allowed for external form hosting.
-
-**ToDo**
+Make sure that your domain is allowed for external form hosting. You don't need to finish the domain authentication process to enable external form hosting for your domain. Learn more about [domain authentication](real-time-marketing-domain.md).
 
 ### Publish form as standalone page fails
 
-Not available on trial
-
-
-**ToDo**
+This feature is not available on trial. You need to have the Power Pages or Power App Portals license to use this feature.
+Please make sure your Power Portal is correctly provisioned with Marketing app.
 
 ## Security notice
 
