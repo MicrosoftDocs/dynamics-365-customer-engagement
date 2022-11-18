@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Transfer calls and consult with users in the voice channel
 
-You can use the **Transfer** or **Consult** option to contact another agent and consult with them on questions that you might have when you're on a call with a customer. 
+You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
 To familiarize yourself with the call controls, see: [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md)
 
