@@ -3,9 +3,9 @@ title: Create or change a service in Dynamics 365 Customer Service | MicrosoftDo
 description: Learn how to create or change a service by using the service records in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
 ms.topic: article
-ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
-author: lalexms
-ms.author: laalexan
+ms.author: jacoh
+author: jasonccohen
+ms.reviewer: mhart
 manager: shellyha
 search.audienceType: 
   - admin

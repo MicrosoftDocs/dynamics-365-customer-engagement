@@ -4,8 +4,8 @@ description: Learn how to set up postal codes and relate them to territories in 
 ms.date: 09/22/2022
 ms.reviewer: mhart
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: ryanchen8
+ms.author: chenryan
 manager: shellyha
 search.app: 
   - D365CE
