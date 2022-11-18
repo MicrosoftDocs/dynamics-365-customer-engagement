@@ -28,7 +28,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ## Licensing options
 
-When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get three hours of conversation intelligence per month, per user. If you need more than three hours of conversation intelligence per month, per user, then you can [buy additional hours](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). Note that three hours of conversation intelligence refers to recording and processing time. For a detailed list of conversation intelligence capabilities available with the Sales Premium and Sales Enterprise licenses, see [this FAQ](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales).
+When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. You also get unlimited call processing hours until the first quarter of 2023. After this period, you can buy conversation intelligence hours as per your requirement. For a detailed list of conversation intelligence capabilities available with the Sales Premium and Sales Enterprise licenses, see [this FAQ](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales).
 
 ## Set up Microsoft Teams calls with conversation intelligence
 
@@ -82,8 +82,6 @@ If you want to make advanced configurations for Teams calls and conversation int
 ## Monitor usage
 
 As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six months. 
-
-If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you can [buy additional hours](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours) or upgrade to the Sales Premium license to get 10 hours per user per month call processing capacity. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
 
 > [!IMPORTANT]
 > The data in the usage panel is refreshed every 24 hours.
