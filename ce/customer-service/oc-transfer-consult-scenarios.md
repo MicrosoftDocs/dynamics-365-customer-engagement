@@ -13,11 +13,11 @@ manager: shujoshi
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see: [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md)
+To familiarize yourself with the call controls, see [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md)
 
 ## How you can transfer calls
 
-When you receive an incoming call, you can transfer the call to an agent, queue, a public switched telephone network(PSTN) Teams user, or an external PSTN number. Once you transfer the call, the following actions occur:
+When you receive an incoming call, you can transfer the call to an agent, queue, a public switched telephone network(PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
  - The customer is automatically put on hold. Hold music plays for the customer.
  - The agent who picks up the transferred call will become the primary agent and you will become the secondary agent, and will be removed from the call. 
@@ -30,12 +30,13 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Transfer icon](./media/oc-transfer-scn.png)<br>
-2. The **Transfer** dialog box appears. The options, Queue, Teams, and Number pad are displayed.
+   
+   The **Transfer** dialog box appears. The **Queue**, **Teams**, and **Number pad** tabs are displayed.
   
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Transfer options](./media/oc-transfer-options.png)
 
-3. The following section describes how you can transfer the call, based on your requirement.
+3. Select one of the following transfer options, based on your requirement.
 
     - **Transfer to a queue**:<br>
         > [!div class="mx-imgBorder"]
@@ -54,7 +55,7 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
 
 ## How you can use consult to collaborate with other agents or supervisors
 
-You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the Consult option.  When you initiate a consult, the following actions occur:
+You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the consult option.  When you initiate a consult, the following actions occur:
 
 - You are the primary agent. 
 - The customer is automatically put on hold. Hold music plays for the customer.
@@ -71,11 +72,12 @@ You can collaborate with another agent, a supervisor, or an external participant
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Consult icon](./media/oc-consult-btn.png)<br>
-2. The **Consult** dialog box appears. The options Agent, Teams, and Number pad are displayed.
+   
+   The **Consult** dialog box appears. The **Agent**, **Teams**, and **Number pad** tabs are displayed.
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Consult icon](./media/oc-consult-optns.png)<br>
 
-3. The following section describes how you can consult with other agents or supervisors, based on your requirement.
+3. Select one of the following transfer options, based on your requirement.
     - **Consult with an internal agent or supervisor** : <br>
          > [!div class="mx-imgBorder"]
          > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)<br>
@@ -89,7 +91,7 @@ You can collaborate with another agent, a supervisor, or an external participant
        - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window.
        - If the consult is with an internal agent or a supervisor, select  **Transfer** on the call controls. See: [Call controls](voice-channel-agent-experience.md#call-controls)
 
-    Once the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer. 
+    After the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer. 
 
     - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the plus sign (+) followed by the customer's country code, phone number, and then select Call to make your call. 
     By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. <br>
