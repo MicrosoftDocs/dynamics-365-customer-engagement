@@ -50,14 +50,17 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 
 For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements.md).
 
-### Supported web browsers for voice and video in live chat widget<a name="browsers-for-chat"></a>
+### Supported web browsers for live chat widget<a name="browsers-for-chat"></a>
 
 The following browsers are supported by the customer-facing live chat widget in Omnichannel for Customer Service:
 
-- **Windows:** Chromium-based browser such as Microsoft Edge, Google Chrome, and Mozilla Firefox
+- **Windows:** Chromium-based Microsoft Edge, Google Chrome, and Mozilla Firefox
 - **macOS and iOS:** Safari
-- **Android:** Chromium-based browser such as Microsoft Edge and Google Chrome
+- **Android:** Chromium-based Microsoft Edge and Google Chrome
 
+> [!NOTE]
+>
+> Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
 
 ## Provision Omnichannel for Customer Service
 
@@ -69,11 +72,11 @@ To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Custom
 >
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
-> - We recommend that you use browsers in normal mode to optimally experience Omnichannel for Customer Service.
+> - We recommend that you use browsers in normal mode to optimally experience the Omnichannel for Customer Service app.
 
 ## Allow access to websites
 
-If your organization is using a URL filter to block a category of websites or URLs, allow the following websites as an exception for your users to access the Omnichannel for Customer Service app in the business portal:
+If your organization uses a URL filter to block a category of websites or URLs, ensure that you allow the following websites as an exception for your users so they can access the Omnichannel for Customer Service app on the business portal.
 
 - `https://*.communication.azure.com`
 - `https://login.microsoft.net`
@@ -102,9 +105,7 @@ If your organization is using a URL filter to block a category of websites or UR
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
 
-If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
-
-Customers must be able to access the following URLs from their browsers to use the live chat widget in the portal:
+If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
 - `https://*.communication.azure.com`
 - `https://*.teams.microsoft.com`
