@@ -103,7 +103,7 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 4. Select **Save**.
 
 5. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they'll be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
