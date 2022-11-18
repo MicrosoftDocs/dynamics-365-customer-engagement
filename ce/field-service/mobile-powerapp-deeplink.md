@@ -6,11 +6,9 @@ ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: mhart
 author: Andrea-Orimoto
 ms.author: andreo
 search.app:
