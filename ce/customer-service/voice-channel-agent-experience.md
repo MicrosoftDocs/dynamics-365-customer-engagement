@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 10/15/2022
+ms.date: 11/18/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -35,7 +35,7 @@ The conversation panel in the agent dashboard includes the following call contro
 > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
 
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. Once you transfer the call, the agent to whom the call is transferred is the primary agent and you will no longer be on the call. 
-    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard.
+    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](oc-transfer-consult-scenarios.md)
 - **End**: End the call.
 - **Show number pad**: Open the number pad so you can dial an extension number, when required. If you must use the dial pad to send a response while navigating an IVR , select the dial pad icon next to the external participant in the participant list.
 - **Mark number as spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
