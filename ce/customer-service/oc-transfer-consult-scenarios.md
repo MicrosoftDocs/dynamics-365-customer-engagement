@@ -39,19 +39,19 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
 
     - **Transfer to a queue**:<br>
         > [!div class="mx-imgBorder"]
-        > ![Screenshot of queue transfer](./media/oc-transfer-q.png)
+        > ![Screenshot of queue transfer](./media/oc-transfer-q.png)<br>
      Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**.
 
     - **Transfer to an external PSTN number**:<br>
         > [!div class="mx-imgBorder"]
-        > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)
+        > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)<br>
        Select **Number pad**. On the number pad that appears, enter the plus sign (+) followed by the customer's country code, phone number, and then select Call to make your call. 
         > [!div class="mx-imgBorder"]
-        > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)
+        > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)<br>
     
     - **Transfer to Teams user via PSTN**:<br> 
         > [!div class="mx-imgBorder"]
-        > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) 
+        > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) <br>
     Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence in Microsoft Teams. 
 
     The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
@@ -77,15 +77,15 @@ You can collaborate with another agent, a supervisor, or an external participant
     > ![Screenshot of Consult icon](./media/oc-consult-btn.png)<br>
 2. The **Consult** dialog box appears. The options Agent, Teams, and Number pad are displayed.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Consult icon](./media/oc-consult-optns.png)  
+    > ![Screenshot of Consult icon](./media/oc-consult-optns.png)<br>
 
 3. The following section describes how you can consult with other agents or supervisors, based on your requirement.
     - **Consult with an internal agent or supervisor** : <br>
          > [!div class="mx-imgBorder"]
-         > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)
+         > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)<br>
     Select **Agent**. You can either have a call or chat with an internal agent.<br>
          > [!div class="mx-imgBorder"]
-         > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)
+         > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)<br>
     Select the conversation channel and then search for the agent you'd like to consult with. 
 
     - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
@@ -101,7 +101,7 @@ You can collaborate with another agent, a supervisor, or an external participant
 
     - **Consult with Teams user with PSTN**:<br>
         > [!div class="mx-imgBorder"]
-        > ![Screenshot of Teams consult](./media/oc-consult-teams.png)
+        > ![Screenshot of Teams consult](./media/oc-consult-teams.png)<br>
     Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with.  See: [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)
     The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
