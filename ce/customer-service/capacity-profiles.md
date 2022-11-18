@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles | MicrosoftDocs
 description: "Know how to create and manage capacity profiles in Customer Service"
-ms.date: 08/12/2022
+ms.date: 11/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ manager: shujoshi
 
 You can create capacity profiles and assign them to agents to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
-- Capacity management helps administrators create various capacity profiles and associate users with matching profiles.
+- Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.
 - The administrator can block the agent from being allocated extra work when they're working on certain channels, such as phone calls.
 - The supervisor can override the agent's configured capacity and assign work to user manually.
 - In the assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
@@ -119,8 +119,10 @@ Let us take a scenario where you want to route cases as follows:
 
 **Runtime behavior of multiple capacity profiles in a single workstream**
 
-1. When the high priority work item comes, it will be stamped with "Total-capacity profile" and "High-priority profile".
-2. An agent who has capacity in both these profiles will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
+When a work item is labeled with multiple capacity profiles, the assignment strategy considers the agent who matches all the required capacity profiles.
+
+1. When the high priority work item comes, it will be labeled with "Total-capacity profile" and "High-priority profile".
+2. An agent who has capacity in both these profiles only will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
 3. Similarly, for normal priority cases, the capacity will be consumed from both "Total-capacity profile" and "Normal-priority profile".
 
 
