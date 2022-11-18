@@ -38,7 +38,7 @@ To configure SLAs in Customer Service Hub:
 4. [Apply SLAs](apply-slas.md#apply-slas)
 
 > [!NOTE]
-> You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLA is available by default in these apps.
+> You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
 
 ## Prerequisites
 
