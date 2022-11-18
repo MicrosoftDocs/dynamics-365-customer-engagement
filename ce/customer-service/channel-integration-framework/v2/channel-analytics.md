@@ -94,7 +94,7 @@ Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework
    
    Copy the value of `msdyn_ciproviderid` from the output.
    
-2. Execute the following script to enable the analytics flag to `True`.
+2. Run the following script to enable the analytics flag to `True`.
 
 ```javascript
 var data = {
@@ -164,7 +164,7 @@ More information: [Sample code for softphone integration using Dynamics 365 Chan
 
 ### See also
 
-[App profile manager overview](../../../app-profile-manager/overview.md)
+[Agent experience profiles](../../../app-profile-manager/overview.md)
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)  
 [Frequently asked questions](../faq-channel-integration-framework.md)  
 
