@@ -87,7 +87,7 @@ items:
       href: work-order-not-to-exceed.md
     - name: Price list
       href: create-price-list.md
-    - name: Products and services
+    - name: Products and services  
       href: create-product-or-service.md
     - name: Service task types
       href: set-up-service-task-types.md
@@ -185,9 +185,9 @@ items:
         href: resource-preferences.md
       - name: Quick scheduling
         href: quick-scheduling.md
-      - name: Multiresource
+      - name: Multi-resource
         href: multi-resource-scheduling-requirement-groups.md
-      - name: Multiday
+      - name: Multi-day
         href: schedule-multi-day-work.md
       - name: Crews
         href: resource-crews.md
@@ -270,44 +270,7 @@ items:
           href: mobile-powerapp-copy-app-module.md
         - name: Performance considerations for mobile customizations
           href: improve-mobile-performance.md
-    - name: Field Service Mobile (Xamarin app)
-      items:
-        - name: Overview
-          href: field-service-mobile-overview.md
-        - name: Xamarin app end of life
-          href: activate-fs-mobile-app-license.md
-        - name: Install and Setup
-          href: field-service-mobile-app-user-guide.md
-        - name: Use the app
-          href: field-service-mobile-use.md
-        - name: Customizations and configurations
-          href: mobile-app-configuration-customization.md
-        - name: Map API key
-          href: mobile-enable-maps.md
-        - name: Upgrade the mobile project template
-          href: mobile-upgrade-project.md
-        - name: Push notifications
-          href: mobile-push-notifications.md
-        - name: Device and app management with Microsoft Intune
-          href: field-service-mobile-intune.md
-        - name: Geofencing
-          href: geofencing.md
-        - name: Deep linking
-          href: mobile-deeplink.md
-        - name: Use Power Automate flows with Field Service Mobile
-          href: mobile-workflow-to-flow.md
-        - name: FAQs (Xamarin app)
-          items:
-            - name: What is the latest version of the mobile app and configuration tool?
-              href: mobile-faq-latest-version.yml
-            - name: Mobile app won't sync to server or crashes immediately
-              href: mobile-faq-sync-crash.yml
-            - name: Bookings don't appear when logged into the app?
-              href: mobile-faq-bookings-not-showing.yml
-            - name: Bookings not scheduled to me show up when logged into the mobile app
-              href: mobile-faq-bookings-not-scheduled-to-me.yml
-            - name: More FAQs
-              href: mobile-faq.yml
+
     - name: Get help
       href: mobile-get-help.md
 
@@ -488,8 +451,6 @@ items:
           href: field-service-version-history-resource-scheduling.md
         - name: Resource Scheduling Optimization
           href: field-service-version-history-resource-scheduling-optimization.md
-        - name: Field Service Mobile (Xamarin)
-          href: field-service-version-history-mobile.md
     - name: AppSource add-ins for Field Service
       href: appsource-addins.md
     - name: Dynamics 365 US Government cloud (GCC) availability

@@ -35,7 +35,7 @@ In this article, we look at how to configure and use geofences by:
 
 - **Field Service v8.8.32+**.
 
-- Verify geofence solutions are installed. Go to **Settings** > **Solutions** and make sure the following geofence solutions are there. Upgrade to Field Service 8.8.32+ if these solutions are not present.
+- Verify geofence solutions are installed. Go to **Settings** > **Solutions** and make sure the following geofence solutions are there. Upgrade to Field Service 8.8.32+ if these solutions aren't present.
 
   - **Geofence Alerts**
   - **Geofence Management**
@@ -54,7 +54,7 @@ In this article, we look at how to configure and use geofences by:
 
 ## Step 1. Enable and test location tracking, sharing, and auditing
 
-First, [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You will know location tracking is working if the technician's location appears on the schedule board map and in location records in the geolocation tracking record type.
+First, [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You'll know location tracking is working if the technician's location appears on the schedule board map and in location records in the geolocation tracking record type.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view on the schedule board, showing a technician on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
@@ -65,13 +65,13 @@ Go to **Settings** > **Processes** and **Activate** the following processes. The
 
 - ```DeleteGeofenceWhenBookingIsCompletedOrCanceled```
 - ```GenerateGeofenceWhenBookingIsCreated```
-- ```Update Resource Location from Resco Audit```
+- ```Update Geofence instance coordinates```
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings, showing a list of processes.](./media/mobile-2020-geofence-processes.png)
 
-If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows.
+If you have **Enhanced Background Processing** (Preview) set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows. With Enhanced Background Processing (Preview) with Power Automate Flows, the processes aren't required to be active.
 
 1. Go to https://make.powerapps.com/ and select your environment.
 2. Go to **Solutions** > **Geofencing for Field Service**.
@@ -83,8 +83,6 @@ If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the geofencing for Field Service solution.](./media/mobile-2020-geofence-flows.png)
 
-> [!Note]
-> If you choose to use enhanced background process Power Automate flows instead of processes, you don't need to deactivate the Processes.
 
 ## Step 3. Configure geofencing settings
 
@@ -207,13 +205,8 @@ In the scenario shown in the following screenshot, a geofence will only be creat
 > [!div class="mx-imgBorder"]
 > ![Screenshot of location expiration configuration field.](./media/mobile-geofence-location-expiration.png)
 
-  
 ## Additional notes
 
 - Only circular-shaped geofences are currently supported.
-
-### See also
-
-- [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

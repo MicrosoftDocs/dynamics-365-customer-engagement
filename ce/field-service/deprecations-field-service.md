@@ -32,10 +32,6 @@ For more information about this deprecation, [see this blog post](https://cloudb
 
 ## Field Service Moblie (Xamarin) - June 30, 2022
 
-For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/) or [Frequently Asked Questions](/dynamics365/field-service/activate-fs-mobile-app-license#faqs). 
-
-## See also
-
-- [Deprecations for Universal Resource Scheduling](/dynamics365/common-scheduler/deprecations)
+For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/) or [Frequently Asked Questions](/dynamics365/field-service/activate-fs-mobile-app-license#faqs).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

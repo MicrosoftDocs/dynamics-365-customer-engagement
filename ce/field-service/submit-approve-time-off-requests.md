@@ -95,10 +95,4 @@ To **delete**, select and highlight the time-off and select the delete icon.
 
 - Users with the **Field Service-Administrator** or **Field Service-Resource** field security profile can approve time-off requests.
   
-### See also  
-    
-- [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

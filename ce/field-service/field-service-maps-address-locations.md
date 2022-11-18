@@ -1,9 +1,8 @@
 ---
 title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.date: 09/08/2022
+ms.date: 10/08/2022
 ms.reviewer: mhart
-
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
@@ -30,9 +29,23 @@ Enable location and map settings to perform functions like:
 > [!Important]
 > By connecting to a mapping service, you are allowing the system to share your data. Data includes - but is not limited to - addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. ("Mapping service" refers to Bing Maps or other third-party mapping service designated by you or your operating system). This also applies to Government Cloud environments. Your use of the mapping service will also be subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
 
+## Enable Bing Maps (Show Bing Maps on forms)
+
+Enabling maps lets dispatchers and technicians see a map view on work orders, accounts, and other records. They can also use address recommendations for quick and accurate data entry, get directions, and view real-time traffic.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work order map.](media/work-order-map.png) 
+
+Bing Maps is enabled by default for new environments outside the EU. EU customers can opt-in to use Bing Maps with the privacy notice and consent to share data with an external system. To enable oder disable Bing Maps, go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of system settings in Field Service, showing the option to enable Bing Maps.](./media/admin-enable-bing-maps-on-forms.png)
+
+For more information on enabling maps for the work order form, see this article on [managing Bing Maps](/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
+
 ## Connect to maps
 
-Connecting to maps is enabled by default for new environments. For to validate or change the setting, review the following steps.
+Connecting to maps is enabled by default for new environments. To validate or change the setting, review the following steps.
 
 1. Open the **Resource Scheduling** app.
 
@@ -71,20 +84,6 @@ Address recommendations are on the account, work order, and booking forms.
 > [!Note]
 > By default, the _Field Service - Resource_ security role has read-only privileges and cannot edit addresses.
 
-## Enable Bing Maps (Show Bing Maps on forms)
-
-Enabling maps makes it so dispatchers and technicians can see a map view on work orders, accounts, and other records.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of work order map.](media/work-order-map.png) 
-
-Bing Maps is enabled by default for new environments. To confirm Bing Maps is enabled - or to disable Bing Maps - go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of system settings in Field Service, showing the option to enable Bing Maps.](./media/admin-enable-bing-maps-on-forms.png)
-
-For more information on enabling maps for the work order form, see this article on [managing Bing Maps](/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
-
 ## Enable booking maps
 
 Booking maps is a feature that allows frontline workers to see their scheduled jobs on a map.
@@ -102,7 +101,4 @@ Frontline workers often travel to various locations throughout their work day, a
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. See the article on [geofencing](mobile-powerapp-geofence.md) for more details.
 
-## See also
-
-- [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
-- [Geofencing](mobile-powerapp-geofence.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

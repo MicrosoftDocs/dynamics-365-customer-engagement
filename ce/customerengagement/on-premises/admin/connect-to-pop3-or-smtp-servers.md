@@ -2,9 +2,8 @@
 title: "Connect POP3/SMTP servers to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to connect Customer Engagement (on-premises) with POP3/SMTP email servers, such as those used for Gmail and Yahoo! Mail."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 09/22/2022
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,6 +27,13 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
 > [!NOTE]
 >  
 >  For POP3/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
+
+> [!NOTE]
+>  
+> Starting with version 9.1, Online Certificate Status Protocol (OCSP) is used to validate certificate revocation status. If you're using Customer Engagement (on-premises), ensure the Dynamics 365 asynchronous service has proper network access to connect to the certificate authorities and use OCSP. If network access is blocked, you may see an alert like the following logged in the mailbox:
+>  
+> "Unable to send email messages for the ... mailbox because a server certificate needed to connect to the email server could not be validated or the credentials used to send the messages were not are correct or do not provide access.
+> Error : MailKit.Security.SslHandshakeException: An error occurred while attempting to establish an SSL or TLS connection."
 
 <a name="BKMK_CreateProfile"></a>   
 ## Create an email server profile  

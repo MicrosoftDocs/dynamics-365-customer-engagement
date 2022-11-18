@@ -144,9 +144,4 @@ Most importantly, inventory journals are sometimes used to integrate Field Servi
 - Adding the **Inventory Purchase** security role to a user's existing security role (dispatcher or resource) will give them access to create and edit inventory-related entities such as warehouse, purchase orders, and RMAs.
 - By adding a warehouse to each bookable resource, you can define the default warehouse that will be used when that bookable resource uses a work order product.
 
-### See also
-
-- [Products and services](./create-product-or-service.md)
-- [Manual inventory journals](./manual-inventory-journals.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

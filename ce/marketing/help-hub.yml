@@ -199,12 +199,12 @@ landingContent:
       - linkListType: learn
         links:
         - text: Getting Started with Dynamics 365 Marketing 
-          url: /learn/paths/explore-microsoft-dynamics-365-marketing/
+          url: /training/paths/explore-microsoft-dynamics-365-marketing/
         - text: Set up Dynamics 365 Marketing and configure advanced settings 
-          url: /learn/paths/get-started-with-marketing/
+          url: /training/paths/get-started-with-marketing/
         - text: Working with Dynamics 365 Marketing 
           url: /dynamics365/marketing/learning-project-manager/
         - text: Manage events in Dynamics 365 Marketing
-          url: /learn/paths/manage-events-dynamics-365-marketing/
+          url: /training/paths/manage-events-dynamics-365-marketing/
         - text: Analyze insights in Dynamics 365 Marketing
-          url: /learn/paths/analyze-marketing-insights/
+          url: /training/paths/analyze-marketing-insights/

@@ -105,9 +105,4 @@ Here you see a list of locations throughout the day, listed by user.
 > [!Note]
 > Location tracking is currently not available on Field Service (Dynamics 365) Windows app.
 
-
-### See also
-
-[Geofencing](mobile-powerapp-geofence.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -136,7 +136,7 @@ The following capabilities were included with the October 2017 update to Field S
  
  **Field Service**
  
- - **Field Resource Hub app for field techs**: With this app, field technicians can do basic tasks on their phone or tablet, such as view upcoming appointments, view and edit bookings, and mark service tasks complete. For more information, check out the [Field Resource Hub User's Guide](./field-service-mobile-app-user-guide.md)
+ - **Field Resource Hub app for field techs**: With this app, field technicians can do basic tasks on their phone or tablet, such as view upcoming appointments, view and edit bookings, and mark service tasks complete.
 
 - **Easily find and assign another resource for a booking on the schedule board.** If the original resource is unavailable, right-click the booking and choose **Substitute Resource** to find another resource. The system automatically checks the original resource requirement for the booking and finds a substitute resource that fits the requirement.
 
@@ -188,9 +188,4 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
 - Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
   
-### See also  
- [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 Project Service Automation - User's Guide](/dynamics365/project-operations/psa/admin-guide)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

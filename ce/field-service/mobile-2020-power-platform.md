@@ -31,9 +31,6 @@ The Field Service (Dynamics 365) mobile app is built on Microsoft Power Platform
 
 The Field Service (Dynamics 365) mobile app will evolve over time. New features and continuous investments in Dynamics 365 Field Service and Power Platform will help shape the development. Read on to learn about capabilities for the app. For information about integration and onboarding, see [planning your deployment](#planning-for-your-deployment) and related links.
 
-> [!NOTE]
-> The legacy Field Service Mobile (Xamarin) app reaches end of life on June 30th, 2022. To avoid disruption to service, all deployments must migrate to the Field Service (Dynamics 365) mobile app before that date. For more information, see: [Field Service Mobile Xamarin end of support FAQ](/dynamics365/field-service/activate-fs-mobile-app-license#faqs).
-
 ## Features in the Field Service (Dynamics 365) mobile app
 
 | Feature | Category | Field Service (Dynamics 365) mobile app |  Details |
@@ -78,13 +75,5 @@ Here are a few more planning tips to help with your project:
 **Pilot the mobile apps side by side**. If you're a current customer of Field Service, you can pilot the new Field Service (Dynamics 365) mobile app alongside other Field Service apps your organization might be using. Assess how your frontline workers currently use the apps. Identify important data and frequently viewed information. You'll better understand what functionality to include in the Field Service (Dynamics 365) mobile app.
 
 **Measure performance**. How the mobile app performs is a significant factor in how much frontline workers enjoy using the app. Add performance measures to the deployment plan and test how editing forms, the mobile offline profile, and workflows affect app performance. Take feedback from users to determine what is necessary and what can be removed or hidden from forms.
-
-### See also
-
-- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
-- [Field Service (Dynamics 365) adoption playbook](https://aka.ms/fsmobile-adoption)
-- [Five tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
-- [Field Service mobile app in a day training](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/07/download-the-training-module-for-field-service-dynamics-365-mobile-app/)
-- [Enable entities for mobile offline synchronization](/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

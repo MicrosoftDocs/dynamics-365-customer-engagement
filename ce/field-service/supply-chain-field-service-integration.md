@@ -96,15 +96,4 @@ As the last part of the process, a purchase order is created in Field Service wi
 
 - The dual-write integration described in this article is separate and more robust than the previously released [prospect to cash](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator that is one-direction, batch, asynchronous, and does not respect business rules and validations. 
 
-## See also
-
-- [Overview of Dynamics 365 Field Service inventory capabilities](./inventory-purchasing-returns-overview.md)
-
-- [Customer assets in Dynamics 365 Field Service](./configure-set-up-customer-assets.md)
-
-- [Pricing in Dynamics 365 Field Service](./create-price-list.md) 
-
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

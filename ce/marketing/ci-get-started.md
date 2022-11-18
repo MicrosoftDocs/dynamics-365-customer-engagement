@@ -24,7 +24,7 @@ search.app:
 By connecting Customer Insights data with Marketing, you can:
 
 - Target unified customer profiles and segments. This enables you to engage every customer, regardless of the location of the customer's data.
-- Base dynamic content (such as personalized dynamics text) in emails, SMS, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you've captured in the unified Customer Insights profile.
+- Base dynamic content (such as personalized dynamics text) in emails, text messages, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you've captured in the unified Customer Insights profile.
 - Load data from Marketing into Customer Insights and combine it with customer data from other sources.
 - Apply Customer Insights data cleansing, enrichment, and fuzzy matching tools.
 

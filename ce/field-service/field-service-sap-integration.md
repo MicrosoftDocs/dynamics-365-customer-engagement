@@ -33,12 +33,4 @@ Below is some example architecture for how the SAP Industry-Specific Utility "me
 > [!div class="mx-imgBorder"]
 > ![Illustration of a model showing the architecture of Dynamics 365 and SAP integration.](./media/sap-integration-meter-cash-example.png)
 
-
-## Additional notes
-
-See also: 
-
-- [Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry)
-- [Logic Apps SAP connector](/connectors/sap/)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

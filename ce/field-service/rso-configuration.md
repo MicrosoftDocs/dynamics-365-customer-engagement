@@ -1,11 +1,11 @@
 ---
 title: Resource Scheduling Optimization configuration in Dynamics 365 Field Service
 description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 ms.reviewer: mhart
 manager: shellyha
-ms.date: 09/07/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.subservice: resource-scheduling-optimization
 search.app: 
@@ -37,7 +37,7 @@ Ensure that Resource Scheduling Optimization can optimize work order-related req
 
 1. Go to **Settings** > **Advanced Settings** > **Security** > **Users**. And assign the security role *Field Service - Administrator* to the Resource Scheduling Optimization application user.
 
-1. Go to **Security** > **Field Security Profiles**. Select **Field Service – Administrator** and add **Resource Scheduling Optimization** to the field security profile.
+1. Go to **Security** > **Field Security Profiles**. Select **Resource Scheduling Optimization – Administrator** and add the Resource Scheduling Optimization application user to the field security profile.
   
 Enable dispatchers to interact with Resource Scheduling Optimization:
 

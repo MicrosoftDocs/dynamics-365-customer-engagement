@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/20/2022
+ms.date: 11/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -46,7 +46,8 @@ Review the following requirements before configuring SLAs for your organization:
     - **Connector**: All permissions at the business unit level.
     - **SLAKPI**: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - **ProcessStageParameter**: All permissions at the business unit level.
-  - **Customer Service Representative**: Read permission at the organization level for the SLAKPI entity.
+  - **Customer Service Representative**: Read permission at the organization level for the SLA KPI entity.
+- Power Automate License is available for the user creating actions on SLA KPI instance statuses.
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
    1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
@@ -56,7 +57,9 @@ Review the following requirements before configuring SLAs for your organization:
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
-> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI instance contain values equivalent to the Onhold Time and Last Onhold Time attributes respectively, of the target record, such as, case and account in the web client.
+> - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as, case and account in the web client.
+> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
+
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 

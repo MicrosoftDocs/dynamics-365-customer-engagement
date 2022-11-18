@@ -3,7 +3,7 @@ title: "Voice channel historical analytics and call insights | MicrosoftDocs"
 description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 11/02/2021
+ms.date: 10/12/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -26,34 +26,18 @@ search.app:
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-## Overview
-
-The Omnichannel historical analytics dashboard provides KPIs and trends for supervisors to understand the overall state of the Omnichannel for Customer Service support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy, which supervisors can rely on to improve the overall customer support experience. Omnichannel historical analytics is available as an embedded experience within Omnichannel for customer service app that helps supervisors to view the reports without leaving the app.
-
-## Prerequisites
-
-To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics for voice** in the Omnichannel admin center app.
-
-1. In Omnichannel admin center, under **Insights** on the site map, select **Settings**.
-
-2. For **Omnichannel historical analytics for voice**, select **Manage**.
-
-3. Under **Summary**, set the **Status** toggle to **Enabled**. This enables data to be synced to Azure from Microsoft Dataverse, and provides rich analytics and insights on the data that are visualized in the Power BI report. It takes 24 hours for the reports to be provisioned for the first time. Then, the reports are refreshed on a 24-hour schedule.
-
-  > ![Enable historical analytics for voice.](media/voice-channel-insights.png)
-
-## View Omnichannel historical analytics dashboard for voice
-
-After your administrator provisions analytics and insights in your organization, supervisors will be able to access the **Omnichannel historical analytics - insights** report in the Omnichannel for Customer Service app. This helps the supervisors to monitor the KPIs and metrics natively in the omnichannel app.
-
-To access the report, in the Omnichannel for Customer Service app, on the **Home** page, select the plus (**+**) icon, and then select Omnichannel historical analytics.
-
-   > ![Access Omnichannel historical analytics report.](media/voice-access-historical-report.png "Access Omnichannel historical analytics report")
-
-The Omnichannel historical analytics reports provide comprehensive information on the overall performance of customer support across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
+The Voice analytics report provides comprehensive information on the overall performance of customer support across the voice channel. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
  ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
 
+
+### Access the Voice dashboard
+
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+
+## Report details 
+
+The following KPIs are displayed in the Voice dashboard.
 
 | Metric | Definition (historical)  |
 |----------------|---------------------|

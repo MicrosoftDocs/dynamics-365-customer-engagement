@@ -1,5 +1,5 @@
 ---
-title: "User guide for Dynamics 365 Field Service (contains video) | Microsoft Docs"
+title: "User guide for Dynamics 365 Field Service (contains video)"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
 ms.reviewer: mhart
@@ -26,7 +26,7 @@ Before we begin, here are the top places for information about Field Service:
   
   <ul>
 <li><a href="overview.md" data-raw-source="[Docs](overview.md)">Docs</a></li>
-  <li><a href="/learn/browse/?products=dynamics-field-service&expanded=dynamics-365" data-raw-source="[Guided Learn courses](/learn/browse/?products=dynamics-field-service&expanded=dynamics-365)">Guided Learn courses</a></li>
+  <li><a href="/training/browse/?products=dynamics-field-service&expanded=dynamics-365" data-raw-source="[Guided Learn courses](/training/browse/?products=dynamics-field-service&expanded=dynamics-365)">Guided Learn courses</a></li>
 <li> <a href="https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X" data-raw-source="[[YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)]">YouTube Channel</a>
 <li> <a href="https://aka.ms/fs-videos" data-raw-source="[[Video tutorials](https://aka.ms/fs-videos)]">Video tutorials</a>
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
@@ -184,28 +184,28 @@ Looking for training outside of documentation? Here are some of our training res
 
 ### Business Decision Maker
 
-- [Learn the fundamentals of Microsoft Dynamics 365 Field Service](/learn/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) (Microsoft Learn): This learning path introduces learners to Dynamics 365 Field Service. You will learn about core product capabilities and discuss the scheduling process and other tools that you can use to support your field service activities. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). Takes 1 hour, 23 minutes.
+- [Learn the fundamentals of Microsoft Dynamics 365 Field Service](/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/): This learning path introduces learners to Dynamics 365 Field Service. You will learn about core product capabilities and discuss the scheduling process and other tools that you can use to support your field service activities. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). Takes 1 hour, 23 minutes.
 
 ### Business User
 
-- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
+- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
 
 ### Implementation Project Manager
 
-- [Implementing Microsoft Dynamics 365 for Field Service](/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
-- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
-- [Learn the fundamentals of Microsoft Dynamics 365 Marketing](/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): This learning path introduces learners to the core capabilities of Dynamics 365 Marketing. You will learn about the core product capabilities and other tools that you can use to successfully and effectively manage marketing activities. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). Takes 1 hour, 15 minutes.
+- [Implementing Microsoft Dynamics 365 for Field Service](/training/paths/implementing-dyn365-field-service/): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
+- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Learn the fundamentals of Microsoft Dynamics 365 Marketing](/training/paths/dynamics-365-fundamentals/): This learning path introduces learners to the core capabilities of Dynamics 365 Marketing. You will learn about the core product capabilities and other tools that you can use to successfully and effectively manage marketing activities. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). Takes 1 hour, 15 minutes.
 
 ### Functional Consultant
 
-- [Implementing Microsoft Dynamics 365 for Field Service](/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours. Also available as a series of instructor-led courses:
-  - [Microsoft Dynamics 365 Field Service, MB240](/learn/certifications/courses/mb-240t00)
-- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Universal Resource Scheduling (URS) is a Dynamics 365 Field Service solution that allows organizations from different industries with different scenarios schedule resources. Takes 7 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Implementing Microsoft Dynamics 365 for Field Service](/training/paths/implementing-dyn365-field-service/): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours. Also available as a series of instructor-led courses:
+  - [Microsoft Dynamics 365 Field Service, MB240](/certifications/courses/mb-240t00)
+- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/training/paths/universal-resource-scheduling/): Schedule anything to the right resource for any job or task with ease. Universal Resource Scheduling (URS) is a Dynamics 365 Field Service solution that allows organizations from different industries with different scenarios schedule resources. Takes 7 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/training/paths/working-with-connected-field-service-iot/): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
 
 ### Certifications
 
-- [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
+- [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

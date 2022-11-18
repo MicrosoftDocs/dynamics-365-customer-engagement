@@ -43,6 +43,6 @@ The trial comes with guided tours and videos that highlight key product features
 
 ## Additional resources
 
-- [Explore training on Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-field-service)
+- [Explore Microsoft Learn training](/training/browse/?expanded=dynamics-365&products=dynamics-field-service)
 - [Watch Field Service videos on YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)
 - [Trial FAQ](trial-faq.md)

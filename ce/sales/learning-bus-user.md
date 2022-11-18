@@ -18,7 +18,7 @@ The following catalog is organized from core knowledge to specific domains, and 
 
 | Content | Description | Format | Length |
 |---------|-------------|--------|--------|
-| [Learn the fundamentals of Microsoft Dynamics 365 Sales](/learn/paths/learn-fundamentals-of-microsoft-dynamics-365-sales/) | This learning path introduces learners to Dynamics 365 Sales. You will learn about the core product capabilities and other tools that you can use to successfully and effectively manage the sales process. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). | Free, self-paced online learning path | 1.5 hours |
+| [Learn the fundamentals of Microsoft Dynamics 365 Sales](/training/paths/learn-fundamentals-of-microsoft-dynamics-365-sales/) | This learning path introduces learners to Dynamics 365 Sales. You will learn about the core product capabilities and other tools that you can use to successfully and effectively manage the sales process. This learning path helps prepare you for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM). | Free, self-paced online learning path | 1.5 hours |
 
 ## Exam<a name="exam"></a>
 

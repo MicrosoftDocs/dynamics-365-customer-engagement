@@ -4,7 +4,7 @@ description: "Read this article to know about the Markdown formats that agents c
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/12/2022
+ms.date: 10/10/2022
 ms.topic: reference
 
 ---
@@ -32,7 +32,7 @@ The following table lists the Markdown formats that you can use for your chat me
 
 |  Text style               |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
-| bold                      | \*bold\*                             | **text**                 |
+| bold                      | \*\*bold\*\*                             | **text**                 |
 | italics                   | \_italics\_                          | *text*                   |
 | strikethrough             | ~strikethrough~                      | ~~text~~                 |
 | blockquote                | > blockquote                         | <blockquote>text</blockquote>  |

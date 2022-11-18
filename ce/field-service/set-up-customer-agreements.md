@@ -1,10 +1,10 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
-ms.date: 09/02/2022
+ms.date: 10/07/2022
 ms.reviewer: mhart
 ms.topic: article
-author: jasoncohen
+author: jasonccohen
 ms.author: jacoh
 manager: shellyha
 search.app: 
@@ -35,21 +35,11 @@ Let's walk through two scenarios to show how agreements can create work orders a
 
 ## Prerequisites
 
-- Field Service v6.1+
-
 - Work order-related data such as accounts, incident types, products, services, and service tasks configured in your system.
 
-- Consider specifying an agreement prefix and start number (optional). Go to **Field Service** > **Settings**, then the **Agreements** section.
+- Consider specifying an agreement prefix and start number. For more information, go to [Agreement settings](configure-default-settings.md#agreement-settings).
 
-Enter an **Agreement Prefix** and **Agreement Starting Number**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service settings, on the agreements tab.](./media/agreement-field-service-settings.png)
-
-Doing so will dictate the **Agreement Number** when a new agreement is created.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new agreement, with attention on the agreement number.](./media/agreement-custom-prefix.png)
+- The designated owners of agreements, agreement booking setups, and agreement invoice setups need permissions to create invoices, invoice details, work orders, work order incidents, work order products, work order services, work order service tasks, resource requirements, and bookings.
 
 ## Scenario 1: Auto generate work orders for asset maintenance
 
@@ -103,42 +93,42 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 - **Auto Generate Booking**: Set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to **Yes**, you must specify a **Preferred Resource** and **Preferred Start Time** for the booking. If set to **No**, the generated work orders must be scheduled through the normal scheduling process: manually, with the schedule assistant, or with resource scheduling optimization.
 
-    > [!NOTE]
-    > Bookings made by agreements will not consider existing bookings, meaning it will double book on top of existing schedules.
+
+> [!Note]
+> Agreements will create bookings according to recurrance without considering any other factors, including if the resource is active, their working hours, etc.
+
   
 - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant. For example, if you plan to perform monthly maintenance on the 8th of each month, and set pre and post-booking flexibility to seven days, then the work orders can be scheduled between the first and the 15th of each month.
 
 - **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work order should be scheduled between 8 AM and 12 PM).  
 
-Next you need to define a pattern for work orders to be created. Select **Booking Recurrence** in the command bar at the top.  
+#### Booking recurrence
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the agreement booking setup, with focus on the booking recurrence option.](./media/agreement-booking-setup.png)
-  
-Use the pop-up window to define a recurrence.
+Define a pattern to create work orders based on the agreement.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the booking recurrence pop up form.](./media/agreement-booking-recurrence.png)
+1. Select **Booking Recurrence** in the command bar at the top.  
 
-Typical examples are:
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the agreement booking setup, with focus on the booking recurrence option.](./media/agreement-booking-setup.png)
 
-- Weekly
-- Monthly
-- Every three months
-- Yearly
-- The first Monday of each month
-- Every other Friday
+1. Specify the **Recurrence Pattern**. For example, every week, every first Monday of the month, or every other Friday.
 
-You can also define custom dates work orders that should be performed in addition to a recurrence if a pattern doesn't reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year. Custom date work orders won't be generated, unless a recurrence is provided.
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the booking recurrence pop up form.](./media/agreement-booking-recurrence.png)
 
-- **End Date Behavior**: Entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** means the work orders should be generated until the agreement end date.
+1. Set the **Range of Recurrence**. Define the **Start Date** and choose the **End Date Behavior**.
+   - **No End Date**: Work orders are generated until the agreement end date.
+   - **End by**: Stop generating work order after the recurrence end date.
+   - **End after # recurrences**: Work order are generated until the specified number of recurrences is reached.
 
-Finally, **Save**.
+1. You can also define **Custom Dates** to generate work orders that should be performed in addition to a recurrence if a pattern doesn't reflect your business needs. For example, to perform service on various holidays throughout the year. Custom date work orders won't be generated, unless a recurrence is provided.
+
+1. Select **Save**.
 
 > [!NOTE]
-> A single agreement can have various booking setups. For example, you may create a booking setup called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another booking setup called "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.
+> A single agreement can have various booking setups. For example, you may create a booking setup for weekly visits that creates work orders every week and booking setup for monthly visits with different bookings.
 
-See details in the configuration considerations section at the end of this article for details on importing booking recurrences.
+See also: [Import booking recurrences](#import-booking-recurrences).
 
 ### Step 3: Add agreement work details
 
@@ -276,18 +266,7 @@ It isn't possible to manually generate agreement invoices like you can with agre
 
 ## Configuration considerations
 
-In Field Service settings, there are important defaults you can set for agreements that help administrators control how the organization creates agreements. The system can also block updates in rapid succession to protect data integrity under certain circumstances.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service settings on the agreement tab.](./media/agreement-field-service-settings.png)
-
-- **Generate Booking Dates X Months in Advance**: Agreement booking dates help organizations plan for maintenance. However, if an agreement spans a long time period, then you may not want to generate all booking dates at once, but rather X months in advance. The default is 12 months.
-
-- **Generate Agreement Work Order X Days in Advance**: This value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
-
-- **Auto Generate Work Order for Agreement Booking**: This value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
-
-- **Record Generation Time**: This value exists on the agreement and dictates when in the day agreement records such as booking dates and work orders should be generated. This is helpful because some organizations don't want agreements generating many work orders in the middle of a work day while dispatchers are scheduling and managing other jobs.
+In Field Service Settings, there are important defaults you can set for agreements that help administrators control how the system creates agreements. Agreement booking dates help organizations plan for maintenance. For more information, go to [Agreement settings](configure-default-settings.md#agreement-settings).
 
 > [!NOTE]
 > Some updates to agreements or their sub-records (Agreement Booking Setups, Agreement Booking Dates, Agreement Invoice Setups, and Agreement Invoice Dates) can trigger asynchronous background processes. Updates in rapid succession which trigger these processes within the same agreement will cause the system to momentarily block subsequent updates until the processes are complete. It’s the intended behavior of the system to protect the data integrity of each agreement. Please wait until the processes complete and try again or retry the update until it succeeds.

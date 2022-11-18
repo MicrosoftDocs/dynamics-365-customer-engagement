@@ -25,11 +25,6 @@ Once you've created a work hours template, you need to assign it to resources so
   
 4. Choose the work hours template you want to apply.  
   
-5. Select **Apply**.  
-  
-### See also
-
- - [Apply a calendar to a resource in Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/apply-calendar-resource)
-
+5. Select **Apply**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

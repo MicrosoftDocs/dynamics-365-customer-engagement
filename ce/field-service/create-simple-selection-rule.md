@@ -85,11 +85,6 @@ You can also add resources to existing selection rules.
 10. Click **Save** or **Save and Close**.  
   
 > [!TIP]
->  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.  
-  
-### See also     
- [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)  
- [Create or change a resource group](create-edit-resource-group.md)
-
+>  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

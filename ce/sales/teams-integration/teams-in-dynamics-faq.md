@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about Teams chat integration  | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration."
-ms.date: 05/24/2022
+ms.date: 08/25/2022
 ms.topic: article
 
 search.app: 
@@ -51,7 +51,7 @@ No. Other Office services, such as SharePoint and Exchange, don't require explic
 
 ## Will the integration in any way affect security constraints or configuration in Dynamics 365 and Teams?  
 
-No. The integration is developed with the core principle of not violating security in any direction. Linking a chat or channel doesn't automatically grant participants of those chats or channels access to that Dynamics record.  Dynamics security roles & permissions will supersede any membership of a linked chat or channel. Similarly, the user trying to create a team or channel from the **Collaborate** experience in Dynamics 365 must have Teams permissions to do so.
+No. The integration is developed with the core principle of not violating security in any direction. Connecting a chat or channel doesn't automatically grant participants of those chats or channels access to that Dynamics record.  Dynamics security roles & permissions will supersede any membership of a connected chat or channel. Similarly, the user trying to create a team or channel from the **Collaborate** experience in Dynamics 365 must have Teams permissions to do so.
 
 
 ## Is the Teams conversation data stored in Dynamics 365?

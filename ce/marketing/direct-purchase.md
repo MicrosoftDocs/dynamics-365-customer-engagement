@@ -1,7 +1,7 @@
 ---
 title: "Purchase a license directly from a Marketing trial (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to a license to purchase a paid license directly within a Dynamics 365 Marketing app trial."
-ms.date: 08/22/2022
+ms.date: 09/28/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -18,6 +18,8 @@ search.app:
 ---
 
 # Purchase a license directly from a Marketing trial
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE55wwx]
 
 You can now purchase a Marketing license directly from a Marketing trial. Both tenant admin and non-tenant admins (users), like marketing department heads, can now directly purchase the Marketing environment SKUs (Dynamics 365 Marketing App, Dynamics 365 Marketing Attach, Additional Production Environment, and Additional Non-Production Environment) and convert the trial environment to a paid, production environment in one streamlined workflow.
 
@@ -82,7 +84,6 @@ Learn more: [Manage self-service purchases (Admin)](/microsoft-365/commerce/subs
 
 In the admin center, *non-tenant admins* (departmental purchasers) can:
 - Acquire a departmental license through a paid/trial motion.
-- Assign those licenses to users in their tenant if applicable.
 - Add/remove licenses as needed.
 - Pay their bill/manage their account.
 

@@ -23,7 +23,7 @@ The profiles are available for agents and supervisors who use the Customer Servi
 
 The system requirements for agent profiles and Customer Service workspace are the same. More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
 
-## How the agent experience profile experience works
+## How the agent experience profile works
 
 Managing the agent experience profiles is as follows. The tasks in every step will be done by administrators who have different roles. It could be one administrator or a set of administrators.
 

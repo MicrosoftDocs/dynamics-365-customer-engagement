@@ -78,8 +78,4 @@ You can restrict a resource from performing a service and define the service cap
 > - You can set up service restrictions in your own work schedule.  
 > - All of the options may not be available to you for selecting how much of the schedule you want to edit. The available options are based on the schedules that are already set up.  
   
-### See also  
- [Set work hours for a resource](../field-service/set-work-hours-resource.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

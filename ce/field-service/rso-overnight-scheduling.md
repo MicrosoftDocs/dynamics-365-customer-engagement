@@ -149,12 +149,4 @@ A defining characteristic of overnight scheduling is that dispatchers have prior
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a locked booking on the schedule board, pointing to the booking method "Schedule Board."](./media/rso-overnight-lock.png)
 
-### See also
-
-- [Resource Scheduling Optimization quickstart](./rso-quickstart.md)
-- [Booking lock options](./booking-lock-options.md)
-- [Resource Scheduling Optimization configuration](./rso-configuration.md)
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

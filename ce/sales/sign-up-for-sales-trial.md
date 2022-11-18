@@ -45,6 +45,6 @@ Your trial environment includes many of the same features as the paid version. T
 ## Additional resources
 
 - [Dynamics 365 Sales free trial sign up page](https://dynamics.microsoft.com/sales/sales-tool/free-trial)
-- [Explore training on Microsoft Learn](/learn/dynamics365/sales)
+- [Explore Microsoft Learn training](/training/dynamics365/sales)
 - [Watch videos on the product playlist](https://www.youtube.com/watch?v=d1eOU8SCy_A&list=PLcakwueIHoT8Bkb8BvqgBKgJPUc3jSX3m)
 - [Trial FAQ](sales-trial-faq.md)

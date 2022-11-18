@@ -138,84 +138,11 @@ You can create rules that are based on the sentiment prediction model to classif
 
 You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
 
-## Configure route-to-queues rulesets and rules
-
-Queue routing rules send the work item to the right queue. They are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." They are optional, and if no rules are defined or no rules match, then the incoming work item will be routed to the fallback queue of the respective workstream. For a workstream, the route-to-queue ruleset is run after all of the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
-
-After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
-
-When no rule condition is matched or no rule is defined, the work item is assigned to the default queue.
-
-1. In Customer Service admin center, Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
-
-2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**. By default, the root record is selected and displayed at the top of the condition builder.
-
-3. In **Conditions**, define the set of conditions. If you are creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
-
-4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
-  
-   :::image type="content" source="media/ur-route-to-queue-decision.png" alt-text="Configure route to queue decision rules.":::
-
-5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
-
-6. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
-
-### Engagement context for asynchronous channels
-
-You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
-
-- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
-
-- **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
-
-   - **Customer name**: The customer name is shown in the format "first name, last name".
-   - **Locale**: For a list of locales, see Facebook developer documentation.
-   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-   - **User Page Scoped Id**: This is shown as a number string.
-
-- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
-
-   - Entry point
-   - Place id
-   - Resolved locale
-   - User device locale
-
-- **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
-
-  - Group id
-  - Intent id
-  - Locale
-
-- **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
-
-- **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
-
-  - Customer name
-  - Gender
-  - City
-  - Province
-  - Country
-
-- **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
-
-- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
-  - Customer name
-  - Customer screen name
-  - Followers count
-  - Friends count
-
-- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
-  - Customer phone number
-  - Org phone number
-  - Locale
-  - Provider
-  - Provider display name
-
 ## Options available for rulesets
 
 After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies of the rules and update only the necessary information to avoid writing the conditions from scratch. You can hover the mouse over a condition to view it without having to navigate to each condition.
 
-:::image type="content" source="media/route-to-queue-ruleset.png" alt-text="Route-to-queues rulesets list":::
+:::image type="content" source="media/work-classification-rules-list.png" alt-text=" Work classification rules list":::
 
 ### See also
 

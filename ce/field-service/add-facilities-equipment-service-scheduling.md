@@ -23,7 +23,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
-    #### Check your security role  
+   Check your security role  
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -57,9 +57,5 @@ Facilities and equipment are resources you’d use to perform services for your 
    - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
 6. When you’re done, choose **Save** or **Save and Close**.  
-  
-### See also  
- [Basics of service and service scheduling](../field-service/basics-service-service-scheduling.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

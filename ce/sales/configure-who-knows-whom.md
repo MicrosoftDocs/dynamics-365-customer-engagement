@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts."
-ms.date: 08/19/2022
+ms.date: 09/19/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -56,6 +56,8 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 - Work with your Microsoft 365 admin to [provide consent to use Exchange data](provide-consent-office365.md).
 
     Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom will be automatically turned off on the 14th day.
+
+- If you'd like roles other than Salesperson and Sales Manager to access the who knows whom information, [grant access to those roles](grant-access-wkw.md).  
 
 - [Add relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for leads or contacts.
 

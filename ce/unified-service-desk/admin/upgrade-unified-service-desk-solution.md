@@ -50,5 +50,6 @@ You can upgrade an existing Unified Service Desk sample application package to t
 ### See also  
 
 [Install, upgrade, and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+[Unified Service Desk system requirements](unified-service-desk-system-requirements.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

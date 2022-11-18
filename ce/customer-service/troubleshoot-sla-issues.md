@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 08/17/2022
+ms.date: 09/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -110,13 +110,13 @@ The flow runs that are created for the SLA KPI Instances timer fail with a licen
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution.
+The **SLAInstanceMonitoringWarningAndExpiryFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. The user who activates the first SLA on the organization must have all the required licenses for the flow execution. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
 If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI instance timer will continue to run.
 
 Additionally, the current owner of the flow must have the required permissions with read and write access for **SLAKPIInstance**.
 
-If a user who is the current owner of the flow needs to be removed from the organization, you should first change the owner of the flow to another user. This new user must also have all the required permissions. Once a new owner is added, you can remove the previous owner. This will ensure that the flow runs continue to execute without issues.
+If a user who is the current owner of the flow needs to be removed from the organization, you should first change the owner of the flow to another user. This new user must also have all the required permissions. Once a new owner is added, you can remove the previous owner. This will ensure that the flow runs continue to be executed without issues.
 
 ### Resolution
 
@@ -135,16 +135,16 @@ The workflow ID varies from system to system.
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** must be enabled.
+The **SLAInstanceMonitoringWarningAndExpiryFlow** must be enabled.
 
 ### Resolution
 
-If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAWarningAndExpiryMonitoringFlow**.
+If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAInstanceMonitoringWarningAndExpiryFlow**. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
 However, if all the SLAs are active but the flow is still deactivated, perform the following steps:
 
 1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
-2. In **Cloud flows**, select  **SLAWarningAndExpiryMonitoringFlow**.
+2. In **Cloud flows**, select  **SLAInstanceMonitoringWarningAndExpiryFlow**.
 3. Select **Turn on**.
 
 ## Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion

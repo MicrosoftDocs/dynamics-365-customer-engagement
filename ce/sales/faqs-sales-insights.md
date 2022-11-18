@@ -1,14 +1,12 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 08/11/2022
+ms.date: 11/04/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 1
-topic-status: Drafting
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -72,7 +70,7 @@ Sales Premium features are available in the following countries or regions:
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes | No | No | No |
+| Who knows whom | Yes | Yes | No | Yes | Yes | No | No | No | No | Yes | No | No | No |
 
 ### Which version of Exchange is supported for features in Sales Premium?   
 The Sales Premium features support the following versions of Exchange:
@@ -278,7 +276,7 @@ To build a lead score model, a minimum of 40 qualified and 40 disqualified leads
 To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.    
 Verify that the leads and opportunities are created on or after January 01, in the previous year.
 
-### Can I customize the model?​
+### Can I customize the model?
 
 Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
 
@@ -305,49 +303,54 @@ For activities, the suggestions are displayed immediately.
 
 ## Who knows whom
 
-### Why am I not seeing some of the contacts in the suggestions?
+### Why am I not seeing some of my colleagues in the suggestions?
 
-The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. 
+There are several possibilities:
 
-### How long will it take for the suggestions to appear after providing consent?
+- Those colleagues are not a part of your Dynamics 365 org.
+- Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
+- Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
+- Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+  
+See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
-It takes about one to four days to populate the results for the first time. 
+### How long does it take for suggestions to show up?
 
-### ​Who will be included in the who knows whom suggestions?
+After your Microsoft 365 admin provides consent, you'll start seeing the results within a day but it may not be complete as the data will be processed in batches over a period of 4 days.  
 
-Everyone in the org is included by default. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. If you're an administrator, see [Opt out security groups of sharing data](provide-consent-office365.md).​ If you're a user, see, [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+### Which colleagues show up as connections?
 
-### ​How are the connections weighted?
+Users in your org who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
-The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
+### How are the connections weighted?
 
-### What is the source of the data?
+The connection strength between a user and a potential contact is calculated based on the frequency and recency of interactions between them through emails or appointments. This means that every seller will see the same set of introducers for a contact or lead.  
 
-Who knows whom has the following data sources:
--	**Dynamics 365**: The lead or contact email ID that is used to query Exchange Online to find who in the tenant has communication with sellers.
--	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, sellers' contacts, and the organization directory.
+### How frequently is the data collected?
 
-### Where is the data stored?
+When you enable who knows whom and provide the required consent, Exchange data pertaining to the last one year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
 
-The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](/exchange/security-and-compliance/security-and-compliance)
+### What is the source for who knows whom data?
 
-### What is the data retention policy, and where is it set?
-The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
+Emails and meeting information in Exchange Online is the source data. See also [​How are the connections weighted?](#how-are-the-connections-weighted)
 
-### How do I opt out?
-You can choose to opt out of sharing your Microsoft 365 data. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+### Where are the insights generated?
 
-### How long does it take to remove my data after I opt out?
+After the Microsoft 365 admin provides consent, the Exchange data is collected and stored in Dynamics 365. The insights are then generated from the stored data in Dynamics 365.  
 
-If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
+> [!IMPORTANT]
+> Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply.
 
-If you have opted out on your own, the data will be removed immediately.  
 
-### How does an Exchange administrator exclude users?
-The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
+### When will my data be removed after I opt out?
 
-### What level of access do administrators have?
-The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales, and the Exchange administrator must enable it in Exchange Online. Enabling the feature establishes a connection between Dynamics 365 Sales and Exchange Online, so data can be exchanged between the systems. If any of the administrators disable it, the data won't be visible on the who knows whom widget.
+If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
+
+If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data will be removed immediately.  
+
+### How does a Microsoft 365 administrator exclude users?
+
+While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
 
 ## Conversation intelligence
 
