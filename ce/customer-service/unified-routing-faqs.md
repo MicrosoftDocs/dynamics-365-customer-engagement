@@ -102,8 +102,6 @@ A case remains with the agent that it was initially assigned to and therefore th
 
 Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
 
-### What happens to an unassigned work item after it's routed to a particular queue?
-
 ### How are unassigned work items in a queue handled if no matching agent is found?
 
 The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
