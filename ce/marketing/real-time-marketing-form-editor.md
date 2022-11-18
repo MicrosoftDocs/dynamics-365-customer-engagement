@@ -78,13 +78,12 @@ To create a new form, go to Real-time marketing > Channels > Forms and select Ne
 
     > [!div class="mx-imgBorder"]
     > ![Choose a template or skip the selection.](media/real-time-marketing-form-template-gallery.png)
-    
-    > [!div class="mx-imgBorder"]
-    > [ ![Image alt text.](media/real-time-marketing-form-template-gallery.png) ](media/real-time-marketing-form-template-gallery.png#lightbox)
 
 1. Now you can see the list of questions represented by **form fields**. The list of available fields can be found in the right pane and it includes all attributes of the selected target audience (entity). If you create a new custom attribute for the entity, it will be visible in this list and you can immediately use it as a field in your form. You can use the search bar in the list of fields to filter the field you are looking for.
 
     Enter "name" into the search bar to find the "Last Name" field.
+
+    Note: You can switch between Elements and Fields using the small icons on the side of right pane.
 
     > [!div class="mx-imgBorder"]
     > ![Filter the list of fields.](media/real-time-marketing-form-last-name.png)
@@ -100,38 +99,40 @@ To create a new form, go to Real-time marketing > Channels > Forms and select Ne
     - You can hide a field so it isn't visible to you web page visitor by enabling the toggle Hide field.
     - You can access the field properties again by clicking on the field in canvas.
 
-1. You can directly change the field title by clicking it on the canvas or in the right pane. The same applies for the placeholder text. It is recommended to change the text on the canvas, as you can use the rich text editor there.
+1. You can directly **change the field label** by clicking it on the canvas or in the right pane. The same applies for the placeholder text. It is recommended to change the text on the canvas, as you can use the rich text editor there.
 
-    **ToDo: image**
+    > [!div class="mx-imgBorder"]
+    > ![Change the field label.](media/real-time-marketing-form-last-name-title.png)
 
-1. If you like to build more complex forms, you can change layout of your form into multi-column one and create multiple layout sections. Click on the Elements section in the right pane. Now you you can drag and drop column layout on form canvas to create a new section.
+1. If you like to build more complex forms, you can change layout of your form into multi-column one and create multiple layout sections. Click on the Elements section in the right pane. Now you you can drag and drop column layout on form canvas to create a new section. You can add elements as well as fields into the newly created sections.
 
-    **ToDo: image**
+    > [!div class="mx-imgBorder"]
+    > ![Set layout and sections for your form.](media/real-time-marketing-form-layouts.png)
 
-1. Add images and static text to your form. Select Elements section in the right pane. Drag & drop static text or image element on the form canvas.
+1. **Add elements like submit button, images and static text** to your form. Select Elements section in the right pane. Drag & drop static text or image element on the form canvas.
 
-    **ToDo: image**
+    Drag & drop the Submit button to your form canvas. The form editor will not allow to publish a form without Submit button. Click the Submit button to change the styling.
 
-1. Add Submit button from Elements section to your form.
+    > [!div class="mx-imgBorder"]
+    > ![Add elements to the form .](media/real-time-marketing-form-elements.png)
 
-    **ToDo: image**
+1. **Add consent control** from Elements section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Click on the consent checkbox caption to change its text.
 
-1. Add consent control from Elements section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Click on the consent checkbox caption to change its text.
+    > [!div class="mx-imgBorder"]
+    > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
 
-    **ToDo: image**
+1. Now it's time to **preview your form** and check the responsiveness. Click the Preview and test tab to open the form preview. You can select various platforms to check how the form will be rendered on mobile device or tablets.
 
-1. Now it's time to preview your form and check the responsiveness. Click the Preview and test tab to open the form preview. You can select various platforms to check how the form will be rendered on mobile device or tablets.
+    > [!div class="mx-imgBorder"]
+    > ![Preview the form.](media/real-time-marketing-form-preview.png)
 
-    **ToDo: image**
+1. Click the **Publish** button in the top right corner to publicly share your form. The form will be automatically saved and the [validation process](#form-validation) will start. You will need to add Email field to your form to pass the validation, as the email field is required to check if the same contact already exists by default. Once the form is successfully validated you will see the following options how to publish your form. Learn more how to [publish form](#publish-form). You can now copy the JavaScript code snippet to embed the form into your web page.
 
-1. Click the Publish button in the top right corner to publicly share your form. The form will be automatically saved and the [validation process](#form-validation) will start. Once the form is successfully validated you will see the following options how to publish your form. Learn more how to [publish form](#publish-form). You can now copy the JavaScript code snippet to embed the form into your web page.
-
-    **ToDo: image**
+    > [!div class="mx-imgBorder"]
+    > ![Publish the form.](media/real-time-marketing-form-publish.png)
 
 1. Make sure the domain where you embedded your form is whitelisted. D365 Marketing accepts form submissions only from whitelisted domains. If the domain is not whitelisted, the form will not be rendered on your web page. Learn more about [domain authentication](real-time-marketing-domain.md).
 Power Pages domains are whitelisted by default.
-
-    **ToDo: image**
 
 1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the "Marketing Form Submitted" trigger, which will be executed every time your form is submitted. Learn more about [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
@@ -209,9 +210,7 @@ The validation process is automatically launched along with form publishing and 
 - Is the target audience set.
 - Are all required attributes labeled as required="required" in html.
 
-**ToDo** 
-
-The form validation process can be also launched manually.
+The form validation process can be also launched manually using the Check content button.
 
 **Important ToDo**
 
@@ -238,10 +237,3 @@ The security is an important aspect of forms. We take the following precautions 
 
 - D365 Marketing accepts form submissions from whitelisted domains only.
 - We have necessary precautions in the infrastructure to minimize the impacts of a possible DDoS attack.
-
-
-
-# To be finished
-
-- lookup priviledges info
-- Troubleshooting - whisteting
