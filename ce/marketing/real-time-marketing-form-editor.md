@@ -104,7 +104,7 @@ To create a new form, go to Real-time marketing > Channels > Forms and select Ne
     > [!div class="mx-imgBorder"]
     > ![Change the field label.](media/real-time-marketing-form-last-name-title.png)
 
-1. If you like to build more complex forms, you can change layout of your form into multi-column one and create multiple layout sections. Click on the Elements section in the right pane. Now you you can drag and drop column layout on form canvas to create a new section. You can add elements as well as fields into the newly created sections.
+1. If you like to build more complex forms, you can **change layout of your form** into multi-column one and create multiple layout sections. Click on the Elements section in the right pane. Now you you can drag and drop column layout on form canvas to create a new section. You can add elements as well as fields into the newly created sections.
 
     > [!div class="mx-imgBorder"]
     > ![Set layout and sections for your form.](media/real-time-marketing-form-layouts.png)
@@ -116,7 +116,7 @@ To create a new form, go to Real-time marketing > Channels > Forms and select Ne
     > [!div class="mx-imgBorder"]
     > ![Add elements to the form .](media/real-time-marketing-form-elements.png)
 
-1. **Add consent control** from Elements section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Click on the consent checkbox caption to change its text.
+1. **Add consent control** from Elements section to your form. Once you add the consent control to your form, you can select the correct consent purpose in the properties. Click on the consent checkbox caption to change its text. Learn more about how to [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
     > [!div class="mx-imgBorder"]
     > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
