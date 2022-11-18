@@ -31,7 +31,7 @@ Invoke this method to log analytics for custom events.
 | successCallback | Function | No           | A function to call when the promise is successfully returned. |
 | errorCallback   | Function | No           | A function to call when the request to return the promise fails. |
 
-The structure of the `data` parameter JSON is shown below. It is mandatory to include these two fields: `conversationId` and `providerSessionId`.
+Here's the structure of the `data` parameter JSON. Be sure to include the fields: `conversationId` and `providerSessionId`.
 
 ```json
 {
@@ -63,7 +63,7 @@ Promise with value as string
 
 ### See also
 
-[initLogAnalytics method](./updateconversation.md)<br />
+[updateConversation method](./updateconversation.md)<br />
 [Channel Analytics](../../channel-analytics.md)
 
 

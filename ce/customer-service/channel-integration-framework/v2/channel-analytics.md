@@ -1,7 +1,7 @@
 ---
 title: "Channel analytics in Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 09/21/2022
+ms.date: 11/18/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -56,14 +56,13 @@ Channel analytics can help customer service agents see their performance metrics
 
 ## Channel analytics APIs
 
-The two APIs for tracking event analytics are:
+The API for tracking event analytics is as follows.
 
 | Name | Description |
 |-------|-------|
-| [updateConversation](reference/microsoft-ciframework/updateConversation.md) | Invoke this method to update a conversation record. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
-The `updateConversation` API can be invoked if the channel provider wants to enrich the Conversation entity record with details from third party systems. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
+The `updateConversation` API can be invoked if the channel provider wants to enrich the Conversation entity record with details from third-party systems. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
 
 ## How to enable analytics for your organization
 
