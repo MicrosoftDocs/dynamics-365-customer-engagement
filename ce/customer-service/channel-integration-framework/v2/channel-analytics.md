@@ -158,9 +158,9 @@ More information: [msdyn_sessionparticipantdata](reference/entities-attributes/m
 
 ## Sample code
 
-The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the conversation entity record is updated when a call is accepted and updating conversation entity record with case details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold.
+The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the conversation entity record is updated when a call is accepted and updating conversation entity record with case details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on hold or removed from hold.
 
-More information: [Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)
+More information: [Sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0](sample-softphone-integration-v2.md)
 
 ### See also
 
