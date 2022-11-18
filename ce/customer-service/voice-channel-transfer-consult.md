@@ -71,19 +71,17 @@ You can collaborate with another agent, a supervisor, or an external participant
 1. Select **Consult** in the call window. 
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Consult icon](./media/oc-consult-btn.png)<br>
+    > ![Image of consult icon on the call controls](./media/oc-consult-btn.png)<br>
    
    The **Consult** dialog box appears. The **Agent**, **Teams**, and **Number pad** tabs are displayed.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Consult icon](./media/oc-consult-optns.png)<br>
+    > ![Available Consult options](./media/oc-consult-optns.png)<br>
 
 3. Select one of the following transfer options, based on your requirement.
     - **Consult with an internal agent or supervisor** : <br>
          > [!div class="mx-imgBorder"]
          > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)<br>
     Select **Agent**. You can either have a call or chat with an internal agent.<br>
-         > [!div class="mx-imgBorder"]
-         > ![Screenshot of external PSTN transfer](./media/oc-consult-agent.png)<br>
     Select the conversation channel and then search for the agent you'd like to consult with. 
 
     - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
