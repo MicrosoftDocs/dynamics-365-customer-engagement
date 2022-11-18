@@ -227,6 +227,9 @@ Make sure that your domain is allowed for external form hosting.
 
 ### Publish form as standalone page fails
 
+Not available on trial
+
+
 **ToDo**
 
 ## Security notice
