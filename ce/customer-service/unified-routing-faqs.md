@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 11/16/2022
+ms.date: 11/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -104,7 +104,7 @@ Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel 
 
 ### What happens to an unassigned work item after it's routed to a particular queue?
 
-### How are work items in a queue handled if they are unassigned?
+### How are unassigned work items in a queue handled if no matching agent is found?
 
 The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
 
