@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 11/17/2022
+ms.date: 11/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -73,7 +73,7 @@ Before you begin with the customization, you must have the following prerequisit
       
       e. Go to **Tenant settings** > **Workspace settings**.
       
-      f. Enable **Create workspaces setting** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option and then entering the security groups.
+      f. Enable **Create workspaces (new workspace experience)** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify security groups** option and then entering the security groups.
       
       g. Select **Apply**.
     
