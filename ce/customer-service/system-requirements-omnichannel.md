@@ -48,7 +48,7 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 500 KBps upload speed; 1 MBps download speed</li><li>**Recommended:** 1 MBps upload speed; 2 MBps download speed</li></ul> |
 |||
 
-For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements.md).
+For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements).
 
 ### Supported web browsers for live chat widget<a name="browsers-for-chat"></a>
 
