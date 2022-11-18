@@ -24397,7 +24397,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/mobile-app-configuration.md",
+      "source_path": "ce/field-service/mobile-app-configuration-customization.md",
       "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
       "redirect_document_id": "false"
     },
@@ -24437,7 +24437,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/mobile-push-notificcations.md",
+      "source_path": "ce/field-service/mobile-push-notifications.md",
       "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
       "redirect_document_id": "false"
     },
@@ -24453,6 +24453,11 @@
     },
     {
       "source_path": "ce/field-service/field-service-version-history-mobile.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-project-version-history.md",
       "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
       "redirect_document_id": "false"
     },
