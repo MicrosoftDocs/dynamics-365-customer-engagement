@@ -1,7 +1,7 @@
 ---
-title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
-description: "Configure historical analytics reports for Omnichannel"
-ms.date: 11/03/2022
+title: "Configure Omnichannel historical analytics | MicrosoftDocs"
+description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
+ms.date: 11/15/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -11,9 +11,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Omnichannel historical analytics reports
 
-You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics.
+You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 
-By default, the Omnichannel historical analytics reports are enabled.
+By default, the Omnichannel historical analytics reports are enabled for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 The historical analytics reports include:
 
@@ -27,13 +27,9 @@ The historical analytics reports include:
 - [Conversation Topics](oc-conversation-topics-dashboard.md)
 - [Unified routing](oc-historical-analytics-unified-routing.md)
 
-## Prerequisites
-
-Make sure that you have the required administrator permissions for Dynamics 365.
-
 ## Manage Omnichannel historical analytics reports
 
-Use the information in the following section to enable or disable the reports in the Customer Service admin center or Omnichannel admin center app.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the Omnichannel historical analytics reports.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -68,7 +64,7 @@ You can enable historical analytics for unified routing in the Customer Service 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for unified routing** check box.
+     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for unified routing** checkbox.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
@@ -78,36 +74,37 @@ You can enable historical analytics for unified routing in the Customer Service 
       The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
 
 1. Select **Save** or **Save and Close**.
-
+    
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for bots in Omnichannel for Customer Service
 
-You can enable the historical analytics for bots in the Customer Service admin center, to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics.
+In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics.
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards, will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
+- If you select this option, the Omnichannel Summary and Bot dashboards will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
 
  :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="PVA bot dashboard.":::
   
-- If no Power Virtual Agents bots are integrated withe application or you don't select this option, the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
+- If no Power Virtual Agents bots are integrated with the application or you haven't selected this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
 
  :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
 **Enable historical analytics for bots in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for bot** checkbox.
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
+1. Select the **Add historical analytics for bot** checkbox.
 1. Select **Save** or **Save and Close**.
 
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
-You can enable the historical analytics dashboard for voice in the Customer Service admin center or Omnichannel admin center app. The metrics are available in the dashboard after 24 hours of enabling it.
+You can enable the historical analytics dashboard for voice in the Customer Service admin center or Omnichannel admin center app. The metrics will be available in the dashboard 24 hours after you've enabled historical analytics.
 
 > [!IMPORTANT]
 >
@@ -143,29 +140,12 @@ You can enable the historical analytics dashboard for voicemail (preview) in the
 
 The historical analytics for voicemail (preview) dashboard will be available as a tab in the Omnichannel historical analytics report.
 
-### View Omnichannel historical analytics reports
-
-The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
-
-### Provide report access to additional security roles
-
-Perform the following steps to enable users with different privileges to access reports beyond the default ones.
-
-1. In Dynamics 365, go to **Settings** and select **Advanced settings**.
-
-1. Select **Security** and then **Security roles**.
-
-1. Select the security role that you want to enable access for. For example, agent manager.
-
-1. Select the **Custom Entities** tab.
-
-1. Grant Read privileges to the following entities:
-   - **Omnichannel historical analytics**
-   - **Insights**
-
-1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
 
 ### See also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
