@@ -42,12 +42,8 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
         > ![Screenshot of queue transfer](./media/oc-transfer-q.png)<br>
      Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**.
 
-    - **Transfer to an external PSTN number**:<br>
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)<br>
+    - **Transfer to an external PSTN number**:
        Select **Number pad**. On the number pad that appears, enter the plus sign (+) followed by the customer's country code, phone number, and then select Call to make your call. 
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of external PSTN transfer](./media/oc-transfer-numberpad.png)<br>
     
     - **Transfer to Teams user via PSTN**:<br> 
         > [!div class="mx-imgBorder"]
