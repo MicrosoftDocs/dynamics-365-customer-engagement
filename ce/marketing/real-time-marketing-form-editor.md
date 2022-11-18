@@ -235,5 +235,5 @@ Not available on trial
 
 The security is an important aspect of forms. We take the following precautions to avoid any security risks:
 
-- D365 Marketing accepts form submissions from whitelisted domains only.
+- D365 Marketing accepts form submissions only from domains allowed for external form hosting.
 - We have necessary precautions in the infrastructure to minimize the impacts of a possible DDoS attack.
