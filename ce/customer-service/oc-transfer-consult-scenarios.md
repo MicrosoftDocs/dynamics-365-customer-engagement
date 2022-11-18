@@ -1,5 +1,5 @@
 ---
-title: "Transfer and consult scenarios | MicrosoftDocs"
+title: "Transfer calls and consult with users | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service."
 ms.date: 11/18/2022
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,7 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Transfer calls and consult with users in the voice channel
+# How to transfer calls and consult with users in the voice channel
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
