@@ -660,7 +660,7 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
-      - name: Transfer and consult scenarios
+      - name: How to transfer calls and consult with other users
         href: oc-transfer-consult-scenarios.md
       - name: View call recordings and transcripts
         href: voice-channel-call-recordings-transcripts.md
