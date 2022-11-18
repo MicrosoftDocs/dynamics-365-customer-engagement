@@ -131,8 +131,8 @@ To create a new form, go to Real-time marketing > Channels > Forms and select Ne
     > [!div class="mx-imgBorder"]
     > ![Publish the form.](media/real-time-marketing-form-publish.png)
 
-1. Make sure the domain where you embedded your form is whitelisted. D365 Marketing accepts form submissions only from whitelisted domains. If the domain is not whitelisted, the form will not be rendered on your web page. Learn more about [domain authentication](real-time-marketing-domain.md).
-Power Pages domains are whitelisted by default.
+1. Make sure the domain where you embedded your form is allowed for external form hosting. If the domain is not allowed for external form hosting, the form will not be rendered on your web page and all form submission would be rejected. Learn more about [domain authentication](real-time-marketing-domain.md).
+Power Pages domains are allowed for external form hosting by default.
 
 1. Set up a "thank you" email for web page visitors who submitted the form. You can create a new journey using the "Marketing Form Submitted" trigger, which will be executed every time your form is submitted. Learn more about [trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
