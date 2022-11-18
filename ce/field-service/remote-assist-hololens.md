@@ -118,9 +118,6 @@ Like any typical day, the technician logs in to Field Service Mobile and sees th
 > [!div class="mx-imgBorder"]
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
-> [!Note]
-> The deep link from Field Service Mobile to the Dynamics 365 Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS, your system administrator must import the [mobile project v1.0.4847 or later](./field-service-version-history-mobile.md#104847). For Android devices, you must import the [mobile project v1.0.1322 or later](./field-service-version-history-mobile.md#103482).
-
 ## Make a Dynamics 365 Remote Assist call
 
 The support contact will be autoselected to call if Dynamics 365 Remote Assist was opened via the deep link; otherwise, the technician can search through the directory for Teams users inside or outside their organization.
