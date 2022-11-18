@@ -15,7 +15,7 @@ You can transfer calls or consult with other agents or supervisors to collaborat
 
 To familiarize yourself with the call controls, see: [understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md)
 
-## Transfer scenarios
+## How you can transfer calls
 
 When you receive an incoming call, you can transfer the call to an agent, queue, a public switched telephone network(PSTN) Teams user, or an external PSTN number. Once you transfer the call, the following actions occur:
 
@@ -52,7 +52,7 @@ When you receive an incoming call, you can transfer the call to an agent, queue,
 
     The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
-## Consult
+## How you can use consult to collaborate with other agents or supervisors
 
 You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the Consult option.  When you initiate a consult, the following actions occur:
 
