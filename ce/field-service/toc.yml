@@ -83,6 +83,8 @@ items:
       href: work-order-customer-account.md
     - name: Work order types
       href: create-work-order-types.md
+    - name: Not-to-exceed values
+      href: work-order-not-to-exceed.md
     - name: Price list
       href: create-price-list.md
     - name: Products and services  
