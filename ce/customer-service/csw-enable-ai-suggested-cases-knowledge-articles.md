@@ -169,8 +169,6 @@ You can enable AI suggestions for knowledge articles in the Customer Service adm
 
 4. Select **Save**.
 
-   >:::image type="content" source="media/csh-enable-ai-suggested-articles.png" alt-text="Enable knowledge article suggestions":::
-
 ## Model pre-processing rules
 You can use model pre-processing rules to limit the pre-processed cases that the AI model will suggest to your agents. You can choose from a varieyt of conditions, such as sentiment value, associated with the resolved case, and so forth.
 
