@@ -114,6 +114,26 @@ items:
     - name: Work order completion surveys
       href: work-order-surveys.md
 
+- name: Customers
+  items:
+    - name: Customer accounts
+      href: accounts.md
+    - name: Contacts
+      href: contacts.md
+    - name: Assets
+      items: 
+      - name: Assets overview
+        href: assets.md
+      - name: Configure customer assets
+        href: configure-set-up-customer-assets.md
+      - name: Asset properties
+        href: asset-properties.md
+      - name: 3D asset models
+        href: 3D-viewer.md
+    - name: Functional locations
+      href: assets-functional-location.md
+
+
 - name: Frontline workers + bookable resources
   items:
     - name: Set up frontline workers
@@ -282,17 +302,6 @@ items:
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       href: work-order-entitlements.md
-
-- name: Asset servicing
-  items:
-    - name: Customer assets
-      href: configure-set-up-customer-assets.md
-    - name: Functional location
-      href: assets-functional-location.md
-    - name: Asset properties
-      href: asset-properties.md
-    - name: 3D asset models
-      href: 3D-viewer.md
 
 - name: Inventory and purchasing
   items:
