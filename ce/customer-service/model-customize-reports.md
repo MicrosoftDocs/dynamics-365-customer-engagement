@@ -71,9 +71,11 @@ Before you begin with the customization, you must have the following prerequisit
       
       d. Select **Apply**.
       
-      e. Go to **Tenant settings** > **Workspace settings**.
+      e. Go to **Tenant settings** > **Workspace settings**> **Create workspaces (new workspace experience)**
       
       f. Enable **Create workspaces (new workspace experience)** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify security groups** option and then entering the security groups.
+      
+    :::image type="content" source="media/supervisor-admin-enable-create-workspaces.png" alt-text="Create workspaces":::
       
       g. Select **Apply**.
     
