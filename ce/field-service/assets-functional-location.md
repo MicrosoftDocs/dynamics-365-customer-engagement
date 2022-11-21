@@ -16,7 +16,7 @@ search.app:
   - D365FS
 ---
 
-# Functional location of assets and work orders in Dynamics 365 Field Service
+# Functional location in Dynamics 365 Field Service
 
 Field Service organizations often service customers that have large or complex worksites - like a warehouse or a multi-story office building. In such cases, it's important that a technician can find specifically where they need to go to perform their work.
 
