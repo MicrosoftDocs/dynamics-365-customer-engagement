@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 10/03/2022
+ms.date: 11/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,7 +32,7 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 Before you integrate Power Virtual Agents bots in Omnichannel for Customer Service, check the following:
 
-1. You must have the following licenses:
+1. You must have:
 
     - A product license for Power Virtual Agents. More information: [Licensing for Power Virtual Agents](/power-virtual-agents/requirements-licensing-subscriptions)
 
@@ -116,11 +116,11 @@ This conversation will then appear in the **Closed** state in the Omnichannel fo
 
 ## End bot conversation
 
-You must configure the Power Virtual Agents web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
+You must configure the Power Virtual Agents web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation)
 
 After a customer closes the chat window, you must also configure a context variable that explicitly ends the conversation in Omnichannel for Customer Service.
 
-To end a bot conversation, perform the following steps:
+**To end a bot conversation**
 
 1. In Power Virtual Agents, for the selected bot, add a new topic.
 
