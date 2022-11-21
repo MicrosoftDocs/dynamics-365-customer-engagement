@@ -170,7 +170,7 @@ Once you click on a field on canvas, you will be able to see it's properties in 
 - **Required** - if enabled, the user can not submit the form if this field is empty.
 - **Default value** - set the default value for this field. Placeholder will not be visible if the default value is set.
 - **Error message** - set error message that will be shown if the field validation fails.
-- **Validation** - configure a rule that will check the content of the field. If the validation rule is not met, the user won't be able to submit the form.
+- **Validation** - configure a rule that will check the content of the field. If the validation rule is not met, the user won't be able to submit the form. It is very important to set the correct validation for email and phone number fields.
 - **Hide field** - if enabled, the field will not be visible in the form. You can use hidden fields to store additional meta data along with the form submission.
 
 #### Custom validation
@@ -181,7 +181,7 @@ You can enable the **Validation** and select **Custom**. This will open a pop-up
 
 Form settings allow you to configure advanced properties of your form and define what happens after the form submission.
 > [!div class="mx-imgBorder"]
-> ![Field properties are opened once you add a field to the form.](media/real-time-marketing-form-settings.png)
+> ![Form settings.](media/real-time-marketing-form-settings.png)
 
 - **Duplicate records** - choose your strategy [how to handle duplicate records](#how-to-handle-duplicate-records)
 - **Thank you notification** - this message will appear if the user successfully submits the form.
