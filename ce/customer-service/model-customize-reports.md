@@ -59,12 +59,13 @@ Before you begin with the customization, you must have the following prerequisit
    
       a. Sign in to [Power BI service](https://app.powerbi.com), and then go to **Settings** > **Admin portal**.
 
-         :::image type="content" source="media/supervisor-admin-powerbi-select-admin-portal.png" alt-text="Select Admin portal":::
+      :::image type="content" source="media/supervisor-admin-powerbi-select-admin-portal.png" alt-text="Navigate to admin portal":::
+
       b. In the admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
       c. Enable **Allow service principals to use Power BI APIs** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option and then entering the security groups.
 
-        :::image type="content" source="media/supervisor-admin-enable-service-principals.png" alt-text="Enable service principals for security groups":::
+      :::image type="content" source="media/supervisor-admin-enable-service-principals.png" alt-text="Enable service principals for security groups":::
       
       d. Select **Apply**.
       
