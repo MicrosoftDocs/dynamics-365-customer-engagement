@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 11/14/2022
+ms.date: 11/18/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -36,6 +36,9 @@ To configure SLAs in Customer Service Hub:
 2. [Create SLA KPIs](#create-sla-kpis).
 3. [Create SLAs](#create-slas).
 4. [Apply SLAs](apply-slas.md#apply-slas)
+
+> [!NOTE]
+> You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
 
 ## Prerequisites
 
@@ -100,7 +103,7 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 4. Select **Save**.
 
 5. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they'll be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
