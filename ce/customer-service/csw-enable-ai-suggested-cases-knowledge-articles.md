@@ -130,7 +130,7 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
 4. Select **Save**.
 
-   > ![Enable AI-suggested similar cases.](media/csh-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
+   > ![Enable AI-suggested similar cases.](media/csac-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
 
