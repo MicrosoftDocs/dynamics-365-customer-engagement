@@ -206,33 +206,27 @@ It is possible to create own strategy how to handle duplicate records by creatin
 
 ### Field types
 
-The field type is defined by the attribute meta data and it isn't possible to change it. You can change the Format (how the field is rendered) for some field types.
+The field type and format are defined by the attribute meta data and it isn't possible to change them. You can change the Rendering control for field types where the format is not defined.
 
 | **Type**  | **Format** | **Rendering control** | **Description**|
 |-----------|------------|-----------------------|----------------|
-| Single line of text    | Email         | Email&nbsp;Input<br />Text Box               | Simple input field that accepts values that resemble an email address.                                                                                                           |
+| Single line of text    | Email         | Email Input, Text Box               | Simple input field that accepts values that resemble an email address.                                                                                                           |
 | Single line of text    | Text          | Text Box              | Simple input field that accepts all types of text values.                                                                                                                         |
-| Single line of text    | Text Area     | Text Area             | Creates a text area input field that accepts all types of text values.                                                                                                                     |
-| Single line of text    | URL           | URL&nbsp;Input             | Creates a simple input field that accepts values that resemble a URL.                                                                                                                      |
-| Single line of text    | Phone         | Phone&nbsp;Input           | Creates a simple input field that accepts values that resemble a phone number.                                                                                                             |
-| Single line of text    | n/a           | Text Area             | Creates a text area, several lines high, for entering a large amount of text.                                                                                                              |
-| Option set             | n/a           | Radio Buttons         | Maps to a field with a limited number of predefined values (as defined in the database). Creates a set of radio buttons, with one button for each value.                                  |
-| Option set             | n/a           | Drop-down              | Maps to a field with a limited number of predefined values (as defined in the database). Creates a drop-down list for selecting a value.                                                  |
-| Two options            | n/a           | Check box              | Maps to a Boolean field, which accepts a value of either true or false. Creates a check box, which is selected when true and clear when false.                                              |
-| Two options            | n/a           | Drop-down              | Maps to a field that accepts one of just two possible values (typically true or false). Creates a drop-down list with two entries, with the display text for each defined in the database. |
-| Two options            | n/a           | Radio&nbsp;Buttons         | Maps to a field that accepts one of just two possible values (typically true or false). Creates a pair of radio buttons, with the display text for each defined in the database.           |
-| Whole number           | n/a           | Number&nbsp;Input          | Creates a simple input field that accepts a whole number (no decimals).                                                                                                                    |
-| Floating point number  | n/a           | Number&nbsp;Input          | Creates a simple input field that accepts a floating-point (decimal) number. Supports a level of precision up to 5 decimal places and can range from -100,000,000,000 to 100,000,000,000.  |
-| Decimal number         | n/a           | Number Input          | Creates a simple input field that accepts a floating-point (decimal) number. Supports a level of precision up to 10 decimal places and can range from -100,000,000,000 to 100,000,000,000. |
-| Date and time          | Date Only     | Date Picker           | Creates a date picker, which lets visitors choose a date from a pop-up calendar display. Does not accept a time.                                                                           |
-| Date and time          | Date and Time | Date-Time Picker      | Creates a date and time picker, which lets visitors choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
-| Lookup field          | n/a | Lookup      | Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance tgo your form. For example, you could use a lookup field Currencies to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field is not working, please ensure that the service user has permissions setup for the entities you are using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting). |
+| Single line of text    | Text Area     | Text Area             | Text area input field that accepts all types of text values.                                                                                                                     |
+| Single line of text    | URL           | URL&nbsp;Input             | Simple input field that accepts values that resemble a URL.                                                                                                                      |
+| Single line of text    | Phone         | Phone&nbsp;Input           | Simple input field that accepts values that resemble a phone number.                                                                                                             |
+| Number           | n/a           | Number&nbsp;Input          | Simple input field that accepts a number.                                                                                                                     |
+| Option set             | n/a           | Radio Buttons         | Field with a limited number of predefined values (as defined in the database). Rendered as a set of radio buttons, with one button for each value.                                  |
+| Option set             | n/a           | Drop-down              | Field with a limited number of predefined values (as defined in the database). Rendered as a drop-down list for selecting a value.                                                  |
+| Two options            | n/a           | Check box              | Boolean field, which accepts a value of either true or false. Rendered as a check box, which is selected when true and clear when false.                                              |
+| Two options            | n/a           | Radio&nbsp;Buttons         | Field that accepts one of just two possible values (typically true or false). Rendered as a pair of radio buttons, with the display text for each defined in the database.           |
+| Date and time          | Date Only     | Date Picker           | Date picker, which lets users choose a date from a pop-up calendar display. Does not accept a time.                                                                           |
+| Date and time          | Date and Time | Date-Time Picker      | Date and time picker, which lets users choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
+| Lookup field          | n/a | Lookup      | Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup). |
 
 #### Lookup
 
-Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance tgo your form. For example, you could use a lookup field Currencies to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field is not working, please ensure that the service user has permissions setup for the entities you are using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).
-
-**ToDo**
+Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. For example, you could use a lookup field Currencies to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field is not working, please ensure that the service user has permissions setup for the entities you are using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).
 
 ### Form validation
 
