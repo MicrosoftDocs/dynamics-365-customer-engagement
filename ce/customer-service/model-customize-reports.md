@@ -59,23 +59,20 @@ Before you begin with the customization, you must have the following prerequisit
    
       a. Sign in to [Power BI service](https://app.powerbi.com), and then go to **Settings** > **Admin portal**.
 
-        > [!div class=mx-imgBorder]
-        > ![Select Admin portal.](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal")
-
+         :::image type="content" source="media/supervisor-admin-powerbi-select-admin-portal.png" alt-text="Select Admin portal":::
       b. In the admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
       c. Enable **Allow service principals to use Power BI APIs** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify the security groups (Recommended)** option and then entering the security groups.
 
-        > [!div class=mx-imgBorder]
-        > ![Enable service principals for security group.](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+        :::image type="content" source="media/supervisor-admin-enable-service-principals.png" alt-text="Enable service principals for security groups":::
       
       d. Select **Apply**.
       
-      e. Go to **Tenant settings** > **Workspace settings**> **Create workspaces (new workspace experience)**
+      e. Go to **Tenant settings** > **Workspace settings**> **Create workspaces (new workspace experience)**.
       
       f. Enable **Create workspaces (new workspace experience)** by setting the toggle to **Enabled**, and specify the security group to which you want to give access by selecting **Specify security groups** option and then entering the security groups.
       
-    :::image type="content" source="media/supervisor-admin-enable-create-workspaces.png" alt-text="Create workspaces":::
+      :::image type="content" source="media/supervisor-admin-enable-create-workspaces.png" alt-text="Create workspaces":::
       
       g. Select **Apply**.
     
