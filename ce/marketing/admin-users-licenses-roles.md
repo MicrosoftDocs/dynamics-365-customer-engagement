@@ -168,6 +168,12 @@ The tables in this section summarize the purpose of each role added by Dynamics 
 | Marketing Services User | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 | Lead Score Modeler | Marketing strategists responsible for building lead-scoring models (must be combined with a core marketing role) | Can view and edit lead scoring models, view lead scores, and customize the lead-to-opportunity marketing business process for leads. All these features are in the **Lead management** section of the **Marketing** work area.  |
 | Lead Score Viewer | Marketers and salespeople that should see calculated lead scores (must be combined with one of the other marketing and/or sales roles) | Can view the score achieved by each lead. |
+| Marketing Professional (BU level) - Business* | Marketers in orgs with multiple business units  | Same access as **Marketing Manager - Business**, but privileges are scoped to "Local" - e.g. just local business unit access
+| Marketing Manager (BU level) - Business* |  Marketing managers in orgs with multiple business units | Same access as **Marketing Professional - Business**, but privileges are scoped to "Deep" - e.g. just local + child business unit acesss
+
+*Expected realease date for BU level roles is February 2023
+
+Please note "Marketing Professional" and "Marketing Manager" roles (without the "Business" suffix) are roles used in enterprise marketing and not related to dynamics makreting product.
 
 ### Event Management security roles
 
@@ -208,12 +214,34 @@ After deploying real-time marketing features, several service users are created.
 
 | Real-time marketing service user | Marketing area |
 | ---- | ------- |
-| Customer Experience Platform PROD | All other areas not listed below |
+| Customer Experience Platform PROD | All other areas not listed explicitly in this table |
 | Dynamics Marketing Dataverse Datasource  | Personalization of messages |
 | Dynamics Marketing Interactive Scenarios  | Handling flows triggered by organic users |
 | Dynamics Marketing Lifecycle Management | Lifecycle and provisioning scenarios |
 | Dynamics Marketing Native Segmentation | Segmentation |
 | Dynamics Marketing Workflow | Customer journey execution |
+
+### Real-time marketing service user roles
+| Real-time marketing service role | Marketing area |
+| ---- | ------- |
+| Cxp Channel Definitions Services User | Custom channel |
+| Cxp Consent Services User | Consent management |
+| Cxp CDP-A Export Services User | Analytics |
+| Cxp Dataverse Datasource Services User | Personalization of messages |
+| Cxp Email Services User | Email sending |
+| Cxp Form Services User | Real-time marketing forms |
+| Cxp Frequency Capping Services User | Interaction processing |
+| Cxp Image Generator Services User | QR code processing |
+| Cxp Orchestration Analytics Services User | Analytics |
+| Cxp Orchestration Engine Services CI User | Customer journey execution |
+| Cxp Orchestration Services User |  Customer journey execution |
+| Cxp PushNotification Services User | Push notifications |
+| Cxp Segmentation Services User | Segmentation |
+| Cxp Services User | Shared scenarios |
+| Cxp Sms Services User | Text message sending |
+| Cxp TeamsEventsIntegration Services User | Teams attach scenarios |
+
+Marketing product is evolving, so it is possible new services (and hence more roles) will be added with along with marketing upgrades. Service user roles (their privileges for marketing entities) can be modified during marketing upgrade for the same reason. 
 
 One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
 
