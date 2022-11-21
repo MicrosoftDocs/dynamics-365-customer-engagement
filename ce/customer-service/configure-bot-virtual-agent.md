@@ -36,7 +36,7 @@ Before you integrate Power Virtual Agents bots in Omnichannel for Customer Servi
 
     - A product license for Power Virtual Agents. More information: [Licensing for Power Virtual Agents](/power-virtual-agents/requirements-licensing-subscriptions)
 
-    - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.
+    - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements. More information: [Licensing](system-requirements-omnichannel#licensing)
 1. You must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
 1. You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#register-an-application-with-azure-ad-and-create-a-service-principal)
 1. You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
