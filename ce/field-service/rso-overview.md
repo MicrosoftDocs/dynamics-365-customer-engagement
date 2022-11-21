@@ -1,13 +1,13 @@
 ---
 title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
-author: m-hartmann
+author: FeifeiQiu
+ms.author: feiqiu
 ms.reviewer: mhart
 manager: shellyha
 ms.date: 09/07/2022
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
-ms.author: mhart
 search.app: 
   - D365CE
   - D365FS

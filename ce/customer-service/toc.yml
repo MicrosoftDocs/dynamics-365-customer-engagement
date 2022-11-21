@@ -660,6 +660,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: Transfer calls and consult with other users
+        href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
         href: voice-channel-call-recordings-transcripts.md
     - name: Supervisor experience
