@@ -49,7 +49,7 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 
 ### Pricing example: Customer calls through Microsoft Teams is transferred from one agent to another a phone call
 
-Mae is a customer and calls your US toll-free number (acquired from Communication Services) from Microsoft Teams. Customer Service routes the call landing on the Azure Communication Services to the agent, Matias. Matias accepts the incoming call from Mae and they speak for 10 minutes after which Matias transfers the call to product expert, Cole's mobile. Cole accepts the call and talks to Mae for another 10 minutes.
+Mae is a customer and calls your US toll-free number (acquired from Communication Services) from Microsoft Teams. Customer Service routes the call landing on the Azure Communication Services to the agent, Matias. Matias accepts the incoming call from Mae and starts the recording. They speak for 10 minutes after which Matias transfers the call to product expert, Cole's mobile. Cole accepts the call and talks to Mae for another 10 minutes. The recording ends after Cole ends the call.
 
 
    > [!div class=mx-imgBorder]
@@ -61,40 +61,19 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 - One participant on PSTN (inbound from Mae)x 20 minutes x 0.022 per participant per minute = $0.44
 - One participant on VOIP (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
 - One participant on PSTN (inbound to Cole)x 10 x 0.013 per participant per minute= $0.13
+- Cost to record= 20 x $0.002 per minute = $0.04
 - Omnichannel for Customer Service bot does not introduce additional ACS charges.
 
 * Mae's participation is is charged based on her Teams license.
 
-**Total cost for the call**: $0.44 + $0.05 + $ 0.13 + applicable Teams charges = $0.61 + applicable Teams charges
-
-### Pricing example: Inbound call from the customer through a phonecall, call is transferred from one agent to another through Teams
-
-Mae is a customer and calls your US toll-free number (acquired from Communication Services) from her mobile. Customer Service routes the call landing on the Azure Communication Services to the agent, Matias. Matias accepts the incoming call from Mae, and starts the call recording. They speak for 10 minutes after which Matias transfers the call to product expert, Charlie. Charlie  sees an incoming call from Bob in the Teams Desktop client and accepts the call, and talks to Mae for another 10 minutes. The recording stops when the call ends.
-
-
-   > [!div class=mx-imgBorder]
-   > ![Pricing example 3.](media/vc-pricing-3.png "Inbound call from customer through Teams")
-
-**Cost calculations**
-
-- One participant on PSTN (inbound from Mae)x 20 minutes x 0.022 per participant per minute = $0.44
-- One participant on VOIP (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
-- One participant on Microsoft Teams (inbound to Cole) x 10 x rate per participant per minute*
-- One participant on PSTN (inbound to Cole)x 10 x 0.013 per participant per minute= $0.13
-- Cost to record= 20 x $0.002 per minute = $0.04
-- Omnichannel for Customer Service bot does not introduce additional ACS charges. The VOIP leg to the recording bot is not charged.
-
-* Cole's participation is charged based on his Teams license.
-
-**Total cost for the call**: $0.44 + $0.04 + $ 0.13+ $0.04+ applicable Teams charges= $0.65 + applicable Teams charges
+**Total cost for the call**: $0.44 + $0.04 + $0.04+ $ 0.13 + applicable Teams charges = $0.65 + applicable Teams charges
 
 ### Pricing example: Inbound call from the customer through a phonecall, call is escalated to a human agent from an IVR bot
 
 Mae calls your US toll-free number (acquired from Communication Services) from her mobile. Customer Service routes the call landing on the Azure Communication Services to a Power Virtual Agents IVR bot. Mae interacts with the bot for 2 minutes. The bot then escalates the call to a human agent, Matias. The call lasts for 8 minutes.
 
-
    > [!div class=mx-imgBorder]
-   > ![Pricing example 4.](media/vc-pricing-4.png "Inbound call from customer through Teams")
+   > ![Pricing example 3.](media/vc-pricing-3.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
