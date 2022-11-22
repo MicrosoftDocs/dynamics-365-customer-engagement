@@ -4,7 +4,7 @@ description: "Learn how to set up a multilingual contact center in the voice cha
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/15/2022
+ms.date: 11/22/2022
 ms.topic: article
 
 ---
