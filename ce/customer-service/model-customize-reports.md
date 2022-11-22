@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 11/21/2022
+ms.date: 11/22/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -28,11 +28,11 @@ search.app:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-You can use the Dynamics 365 Power BI extensibility feature to extend the out-of-the-box Customer Service Power BI data model and integrate with other data sets to produce new custom metrics. You can customize the out-of-the-box standard reports and add your own KPIs and custom metrics to the reports to view the key metrics that are relevant to your organization. You can also drill down to add your metrics to the report as required.
+Use the Dynamics 365 Power BI extensibility feature to extend the out-of-the-box Dynamics 365 Customer Service Power BI data model and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own KPIs and custom metrics to the reports to view the key metrics that are relevant to your organization. You can also drill down to add your metrics to the report as required.
 
 The key capabilities of model customization include the ability to:
 
-- Edit the out-of-the-box data model and add new metrics in addition to the out-of-the-box metrics.
+- Edit the out-of-the-box data model and add new metrics.
 
 - Bring in your own custom entities from Dataverse or any other source and extend the Power BI data model.
 
@@ -48,7 +48,7 @@ Before you begin with the customization, you must have the following prerequisit
 
 - At least one of the historical reports enabled for Customer service manager, Omnichannel.
 - Access to Power BI for Microsoft service account.
-- Administrative privileges for Dynamics 365 Customer Service and Power BI.
+- Administrative privileges for Customer Service and Power BI.
 - A Power BI Professional or Power BI Premium license for all supervisors and administrators.
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
@@ -79,7 +79,7 @@ Before you begin with the customization, you must have the following prerequisit
     
 The following section describes a step-by-step process to enable model customization of your historical analytics reports.
 
-### Enable the Embedded Power BI report extensibility - Historical data model customization (preview) option
+### Enable the option to extend the out-of-the-box Power BI data model
 
 You need to enable the option to be able to extend the out-of-the-box Power BI data model and add new metrics to your reports.
 
@@ -93,7 +93,7 @@ After you've enabled the **Embedded Power BI report extensibility - Historical d
  
 ## Step 1: Select a Power BI workspace for historical analytics
 
-You must select a workspace to specify the destination where your customized reports will be published. You can either select a workspace from the dropdown list and select **Save** or create a new workspace.
+You can select an existing workspace or create a new workspace where your customized reports will be published.
 
 To create a new workspace:
  1. Select **Create new workspace**.
@@ -103,14 +103,14 @@ To create a new workspace:
 :::image type="content" source="media/enable-model-step1.png" alt-text="Select your workspace":::
 
 > [!NOTE]
-> - The report will be provisioned in your Power BI tenant and not in the Microsoft Power BI tenant. A hidden workspace will be created where the data set will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
-> - This dataset is maintained by Dynamics Customer Service and is refreshed on a daily basis. We recommend that you don't make changes to this dataset, as it may lead to report malfunction.
+> - The report will be provisioned in your Power BI tenant and not in the Microsoft Power BI tenant. A hidden workspace will be created where the dataset will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
+> - This dataset is maintained by Dynamics 365 Customer Service and is refreshed daily. We recommend that you don't make changes to this dataset, as it may lead to malfunctioning of the report.
 
-## Step 2: Grant permissions for data set and reports
+## Step 2: Grant permissions for dataset and reports
 
 After the report is provisioned, perform the following steps to grant authoring (read or write) permissions for Power users and read permissions for supervisors.
 
-:::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
+:::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for dataset and reports":::
 
 1. Select **Give permissions to access out-of-the-box Power BI Data model**.
  :::image type="content" source="media/share-report.png" alt-text="Give permissions":::
@@ -120,8 +120,9 @@ After the report is provisioned, perform the following steps to grant authoring 
    1. Select **Share dataset**.
    1. On the **Share dataset** dialog, search and provide the recipient's name or email address.
    1. Select the checkboxes for the various permissions that you want to set for the recipient.
-   1. Select **Grant accesss.**
-   :::image type="content" source="media/share-dataset.png" alt-text="Search for recipients ont eh Share dataset dialog":::
+   1. Select **Grant access.**
+   
+   :::image type="content" source="media/share-dataset.png" alt-text="Search for recipients on the Share dataset dialog":::
 
 1. Select **Give permissions to customize Power BI Report**. This will take you to the workspace in Power BI where the sample reports will be provided. These reports are the copy of your out-of-the-box reports. You can make changes to the reports.
 
@@ -142,9 +143,9 @@ After the report is provisioned, perform the following steps to grant authoring 
 
    1. Create a report using Power BI Desktop, and create a live connection to datasets in the Power BI service:
         1. On the Power BI desktop, select **Get Data**.
-        1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI data sets**.
+        1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI datasets**.
         1. Select **Connect**.
-        :::image type="content" source="media/model-powerdataset.png" alt-text="Select Power BI data set":::
+        :::image type="content" source="media/model-powerdataset.png" alt-text="Select Power BI dataset":::
         1. On the **Data hub** dialog, select the report you want to embed to Customer Service, and then select **Connect**.
         :::image type="content" source="media/model-data-hub-dialog.png" alt-text="Select your report on the Data hub dialog":::
         1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to.
@@ -158,9 +159,9 @@ After the report is provisioned, perform the following steps to grant authoring 
            Your reports will be published to Power BI.
         
 
-## Step 3: Embed customized report from Power BI workspace to Dynamics 365
+## Step 3: Add customized reports in Dynamics 365
 
-After you've created and published the report, go back to the Customer Service admin center **Insights** page and select **Add reports**. You'll now be able to select the reports that you want to see on the Customer Service workspace site map.
+After you've created and published the report, go back to the Customer Service admin center and add the reports. You'll now be able to select the reports that you want to see on the Customer Service workspace site map.
 
 :::image type="content" source="media/enable-model-step3.png" alt-text="Add report to site map":::
 
