@@ -87,6 +87,13 @@ You can also add new music files to use them in calls as hold and wait music.
 
 5. Select **Save and close**.
 
+## Add hold and wait music to the workstream
+
+1. In Customer Service admin center or Omnichannel admin center, go to the voice workstreams, and then select the workstream to configure the phone music.
+1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select **Language**.
+1. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
+1. When you've finished configuring the settings, select **Confirm**.
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
