@@ -108,7 +108,7 @@ To create a new workspace:
 
 After the report is provisioned, perform the following steps to grant authoring (read or write) permissions for Power users and read permissions for supervisors.
 
-    :::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
+  > :::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
 
 1. Select **Give permissions to access out-of-the-box Power BI Data model**.
  :::image type="content" source="media/share-report.png" alt-text="Give permissions":::
