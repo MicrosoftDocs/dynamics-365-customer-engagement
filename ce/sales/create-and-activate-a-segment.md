@@ -110,6 +110,9 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
 The segment is activated. Now you can connect the segment to a sequence or a record.
 
+>[!NOTE]
+>From the 9.3 release, segments are optimized to run every time when the attributes of primary entity that are added to the conditions are updated. 
+
 <table>
 <tr><td>
 
