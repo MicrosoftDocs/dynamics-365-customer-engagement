@@ -74,7 +74,7 @@ So, to enable call recording and SMS services, you must configure your applicati
     - **Resource Group**: Select the resource group.
     - **Resource**: Select the resource.
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
-    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list.For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
+    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the recording or SMS web hook endpoint as follows.
         - To enable recording services, get the **Recording Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**. More information: [Get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording)
