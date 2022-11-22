@@ -47,6 +47,10 @@ To modify your process for choosing the records you want as members of a segment
 
 The changes will be applied to records that are created in the future in the application. The records that the segment has already been applied to won't change.
 
+>[!NOTE]
+>From the 9.3 release, segments are optimized to run every time when the attributes of primary entity that are added to the conditions are updated. 
+
+
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
