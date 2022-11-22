@@ -30,14 +30,13 @@ The following diagram can help you understand the various entities, attributes, 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the specific entity names in the application.](./media/admin-field-service-architecture.png)
 
-The **Work Order** entity contains the details of the job that needs to be completed. This includes basic details like work order type, status, duration, priority, and more. Work orders are related to the standard Dynamics 365 **Account** entity in that specifying a **Service Account** on the work order adds related account information like territory, address, geocode (latitude and longitude), price list, and more. For instances where the work order location (service account) is different than the billing location, you can relate a service account to a **Billing Account**. 
+The **Work Order** entity contains the details of the job that needs to be completed. This includes basic details like work order type, status, duration, priority, and more.
 
-> [!Note]
-> A service account and billing account are both account entity records. The only difference is which account is entered in the **Service Account** and **Billing Account** work order fields, though organizations can distinguish between the two with their own business processes. 
+Work orders are related to the standard [Dynamics 365 **Account** entity](accounts.md). Specifying a **Service Account** on the work order adds related account information like territory, address, and more.
 
-Service accounts are also important when creating **Service Agreements**, which are used to automatically generate recurring work orders. An agreement can only be associated to one service account, which means all work orders generated as part of the agreement will be dispatched to that service account location. The type of work and assets being maintained can vary.
+[**Service Agreements** automatically generate recurring work orders](set-up-customer-agreements.md). An agreement can only be associated to one service account, which means all work orders generated as part of the agreement will be dispatched to that service account location. The type of work and assets being maintained can vary.
 
-Service accounts are also important for **Customer Assets**. Adding a service account to a customer asset implies the piece of equipment is located at the service account location. Work orders related to a customer asset maintenance, inspection, repair should correlate to the asset's service account.
+[**Customer Assets** are a piece of equipment](configure-set-up-customer-assets.md) at the service account location. Work orders related to a customer asset maintenance, inspection, repair should correlate to the asset's service account.
 
 Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of service tasks, products, services, and characteristics (skills) that are recommended. This makes for quicker work order creation because rather than manually adding service tasks, products, services, and characteristics (skills), you can simply add an incident that effectively serves as a template to populate these details.
 

@@ -37,18 +37,7 @@ In this article, we'll look at how to define functional relationships within Fie
 ## Prerequisites
 
 - Field Service v8.8.x.
-
-## Create a service account (optional)
-
-First, create a service account or choose an existing one if you wish to use functional locations in association with service accounts. This is **optional** because functional locations can be used without being associated to service accounts. A service account is required to create a work order and the address of a service account will be used as the work order's address if a functional location is not defined, or if the functional location does not have a work order.
-
-Add an address to the service account if applicable and geocode the record. You can see that the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an account entity with a map populated.](./media/assets-functional-location-account.png)
-
-> [!Note]
-> In Field Service settings, there is a setting called **Auto Geo Code Addresses**. Set this field to **Yes** to have records autogeocoded as addresses are entered.
+- [Service accounts created](accounts.md).
 
 ## Create functional locations
 

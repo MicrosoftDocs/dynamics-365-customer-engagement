@@ -28,42 +28,22 @@ In this article, we'll explore creating and using accounts on work orders.
 1. Select **+New**.
 1. Choose an [existing service account or create a new one](accounts.md).
 
-Add the account you created as the service account. 
+   Some values are automatically populated:
 
-The following values are automatically populated:
+   - **Billing Account**
 
-- **Billing Account**: populated as the billing account specified on the service account record.
+   - **Price List**
 
-- **Price List**: populated as the price list specified on the **billing account** record.
+   - **Primary Contact**
 
-> [!Note]
-> If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to work order types or entitlements.
+   - **Service Territory and Instructions**
 
-- **Primary Contact**: the primary contact of the service account shown on the work order.
+   - **Address**
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of new work order with the account just created listed as a service account.](./media/work-order-service-account.png)
+   - **Location**
 
-
-- **Service Territory and Instructions**: represented in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of service territory and instructions.](./media/work-order-account-territory-instructions.png)
-
-- **Address**: represented in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of address of service account passed down to work order address.](./media/work-order-account-address.png)
-
-- **Location**: this work order location is passed down to the work order requirement and is reflected on the schedule board map. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of work order map location.](./media/work-order-account-map.png)
-
-**Bonus tip:** You can select and drag the map pin to edit the work order location (latitude and longitude) as needed. This is helpful for scenarios where the address points to an arbitrary location--at a university campus, for example--but the work order must take place at a specific building or location on-site.
-
-> [!Note]
-> Work orders can be assigned addresses and geocoded independently of the service account, if needed.
+     > [!TIP]
+     > Move the map pin to edit the work order location. For example, if the address points to an arbitrary location but the work order must take place at a specificlocation.
 
 ## Invoice the billing account
 
@@ -103,7 +83,7 @@ Though the unit amount price of the travel charge is dictated by the price list,
 > [!Note]
 > In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
 
-## Additional notes
+## Customization notes
 
 ### Known issues
 

@@ -48,7 +48,7 @@ For the following fields:
 
 - **Category**: Add or create a customer asset category that serves as a label to organize assets into useful groups by function, model, and so on, based on your business needs.
 
-- **Service Account**: Choose an account from the lookup to represent the location and customer of the customer asset. As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same. 
+- **Service Account**: Choose an [account to represent the location and customer of the customer asset](accounts.md). As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same.
 
 - **Product**: If the customer asset correlates with a product in your product catalog, choose it from the lookup. This field allows for flexibility in your asset management, even if the asset did not originate from your product catalog. One example might be if a field service organization takes over managing existing assets from a different manufacturer or supplier.
 
