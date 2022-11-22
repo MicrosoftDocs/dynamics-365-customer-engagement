@@ -15,12 +15,12 @@ search.app:
 
 Uninstalling Dynamics 365 Field Service will remove all the customizations and the data such as work orders, resources, and accounts. This action can't be undone and we can't recover the data after deletion.
 
-To uninstall Field Service, administrators can go to **Advanced Settings** > **Settings** > **Customizations** > **Solutions** to remove solutions in the order listed in the following table.
+To uninstall Field Service, administrators can go to **Advanced Settings** > **Settings** > **Customizations** > **Solutions** to remove solutions in the order listed in the following table. Depending on the version of Field Service that is installed for your organization, some solutions may not show in the list and you can skip them.
 
 :::image type="content" source="./media/admin-settings-solutions.png" alt-text="Screenshot of Dynamics 365 admin settings, with attention to Solutions.":::
 
->[!CAUTION]
-> Some solutions are shared with other apps like Project Service Automation, and should not be removed unless you intend to uninstall those apps too. Skip those solutions.
+> [!CAUTION]
+> Some solutions are shared with other Dynamics 365 apps and have dependencies to solutions these apps introduce. Don't remove them unless you intend to uninstall the other apps too.
 
 | Order | Solution name                         | Note                                                      |
 |-------|---------------------------------------|-----------------------------------------------------------|
@@ -33,13 +33,13 @@ To uninstall Field Service, administrators can go to **Advanced Settings** > **S
 | 7     | msdyn_DataInsightsAndAnalytics       |                                                           |
 | 8     | msdyn_FieldServiceAdminExp           |                                                           |
 | 9     | msdyn_FieldServiceGuides             |                                                           |
-| 10    | msdyn_GeofenceAlert                  |                                                           |
-| 11    | msdyn_FSMNotifications_Patch_1       |                                                           |
+| 10    | msdyn_GeofenceAlerts                  |                                                           |
+| 11    | msdyn_FSMNotifications_Patch_xx       |    Patch name or number may vary                                                       |
 | 12    | msdyn_FSMNotifications               |                                                           |
 | 13    | msdyn_FieldServiceGeofencing         |                                                           |
-| 14    | msdyn_Geofencing_Patch_1             |                                                           |
+| 14    | msdyn_Geofencing_Patch_xx            |     Patch name or number may vary                                                          |
 | 15    | msdyn_Geofencing                     |                                                           |
-| 16    | msdyn_CFS_Patch_1                    |                                                           |
+| 16    | msdyn_CFS_Patch_xx                    |   Patch name or number may vary                                                            |
 | 17    | msdyn_FieldServiceGeolocation        |                                                           |
 | 18    | msdyn_Geolocation                    |                                                           |
 | 19    | msdyn_IoTConfigurationData                   |                                                           |
@@ -53,18 +53,17 @@ To uninstall Field Service, administrators can go to **Advanced Settings** > **S
 | 27    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
 | 28    | FieldService                         |                                                           |
 | 29    | msdyn_Inspections                    |                                                           |
-| 30    | msdyn_FieldServiceSurveys            |                                                           |
-| 31    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
-| 32    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
-| 33    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
-| 34    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
-| 35    | msdyn_TESA                           | Required for Project Service Automation       |
-| 36    | ResourceSchedulingControls           | Required for Project Service Automation                   |
-| 37    | msdyn_FieldServiceSurveys            |                                                           |
-| 38    | MicrosoftDynamicsScheduling_Anchor   | Required for Project Service Automation                   |
-| 39    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
-| 40    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
-| 41    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
-| 42    | msdynce_3DViewer                     |                                                           |
+| 30    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 31    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
+| 32    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
+| 33    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
+| 34    | msdyn_TESA                           | Required for Project Service Automation       |
+| 35    | ResourceSchedulingControls           | Required for Project Service Automation                   |
+| 36    | msdyn_FieldServiceSurveys            |                                                           |
+| 37    | MicrosoftDynamicsScheduling_Anchor   | Required for Project Service Automation                   |
+| 38    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
+| 39    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
+| 40    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
+| 41    | msdynce_3DViewer                     |                                                           |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
