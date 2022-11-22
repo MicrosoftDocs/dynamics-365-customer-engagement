@@ -26,6 +26,8 @@ In this section, we'll create a service account with a geocoded address that rep
 
 1. Select **Save** to create the account record.
 
+1. You can add more details and information to the account form as listed in the sections below. Updating values will not update existing work orders, only future work orders.
+
 ## Add account information
 
 On the **Summary** section, you can provide additional information about the account. These fields are optional.
@@ -70,25 +72,12 @@ The **Servicing** section of the account form lists details to provide services 
 
 ### Service
 
-- **Service Territory**:
+- **Service Territory**: [Territories for accounts, work orders, and resources](set-up-territories.md) are geographical regions, which are used in work orders and resource scheduling.
 
-In this field, you choose the geographical region in which this account is located. This value will be passed down to the related work orders and work order requirements, and is considered in the scheduling process on the schedule board, in the schedule assistant, and with Resource Scheduling Optimization (RSO).
+- **Travel Charge Type**: Defined pricing and billing for [travel cost charged for a field technician](travel-charges.md).
 
-- **Travel Charge Type**:
+- **Work Hour Template**: Work template to use for this account.
 
-This decides if and how travel by a field technician to this service account should be priced and billed on work orders. For more information, see configuration considerations in this article.
+<!--Check if we can link this or get a doc created about the impact of the work template. -->
 
-- **Work Hour Template**
-- **Work Order Instructions**
-
-This value serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service related values for a specific account.](./media/service-account-field-service-section.png)
-
-> [!Note]
-> Updating these values will not update previous work orders, only future work orders.
-
-### Currency
-
-Work order products and work order services will inherit the currency value noted on the work order service accounts and billing accounts. 
+- **Work Order Instructions**: Text note that populates the **Instructions** field on all related work orders. Use this field to help technicians follow processes specific to this account.
