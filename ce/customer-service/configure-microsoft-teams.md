@@ -68,7 +68,7 @@ Make sure that the following prerequisites are met:
         > [!NOTE]
         > Voice and video calls in Microsoft Teams is in preview, therefore, we recommend that you don't use it in production. Use it only in test and development environments.
     
-    2. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+    2. Verify the settings on the **Summary** page, and select **Finish**. The **Microsoft Teams** channel instance is configured.
 
 2. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
