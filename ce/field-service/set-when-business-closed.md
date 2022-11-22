@@ -4,9 +4,9 @@ description: Learn about how to define the times and days when your business is 
 ms.date: 09/15/2017
 
 ms.topic: article
-ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
-author: lalexms
-ms.author: laalexan
+author: ryanchen8
+ms.author: chenryan
+ms.reviewer: mhart
 manager: shellyha
 search.audienceType: 
   - admin

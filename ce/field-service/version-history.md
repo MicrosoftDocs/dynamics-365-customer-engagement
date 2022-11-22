@@ -6,9 +6,8 @@ ms.reviewer: mhart
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
+author: jshotts
+ms.author: jasonshotts
 search.app:
   - D365CE
   - D365FS
@@ -24,19 +23,25 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 11/18/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 12/02/2022 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 12/09/2022 |
-| | *USG* |  [8.8.78.23](/dynamics365/field-service/version-history#887823)  | TBD | 12/02/2022 |
-|**Station 4** |*Europe* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 11/18/2022 |
+|**Station 1** |  *First Release*| [8.8.79.18](/dynamics365/field-service/version-history#887918)  | TBD | 12/09/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/02/2022 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/09/2022 |
+| | *USG* |  [8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/02/2022 |
+|**Station 4** |*Europe* | [8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/16/2022 |
 |**Station 5** |  *North America*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 12/02/2022 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 12/02/2022 |
-| | *Dedicated Scale Groups* | [8.8.76.55](/dynamics365/field-service/version-history#887655) | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | 11/18/2022 |
+| | *Dedicated Scale Groups* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 12/09/2022 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.79.18
+
+(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
+
+- Dynamcis 365 Field Service Mobile: When exporting a PDF of inspections responses, images which were uploaded as part of the inspection will be sized to fit the page and maintain their original aspect ratio.
 
 ## 8.8.78.23
 

@@ -124,6 +124,8 @@
       href: ../app-profile-manager/create-agent-experience-profile.md
     - name: Configure the inbox for agents
       href: configure-inbox.md     
+    - name: Configure the agent calendar view
+      href: configure-agent-calendar.md
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
@@ -660,6 +662,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: Transfer calls and consult with other users
+        href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
         href: voice-channel-call-recordings-transcripts.md
     - name: Supervisor experience
