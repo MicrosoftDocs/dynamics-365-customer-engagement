@@ -46,14 +46,14 @@ This article describes how to enable the data model customization feature and se
 
 Before you begin with the customization, you must have the following prerequisites:
 
-- At least one of the historical reports enabled for Customer service manager in Omnichannel for Customer Service.
+- At least one of the historical reports enabled for customer service manager in Omnichannel for Customer Service.
 - Access to Power BI for Microsoft service account.
 - Administrative privileges for Customer Service and Power BI.
 - A Power BI Professional or Power BI Premium license for all supervisors and administrators.
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD) and add **Dynamics 365 Analytics** or **Dynamics CCA Data Analytics** as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+   1. Create a security group in Microsoft Azure Active Directory (Azure AD) and add **Dynamics 365 Analytics** or **Dynamics CCA Data Analytics** as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
    1. As a Power BI administrator, enable the **Service Principal** in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
    
@@ -108,7 +108,7 @@ To create a new workspace:
 
 After the report is provisioned, perform the following steps to grant authoring (read or write) permissions for Power users and read permissions for supervisors.
 
-    :::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for dataset and reports":::
+    :::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
 
 1. Select **Give permissions to access out-of-the-box Power BI Data model**.
  :::image type="content" source="media/share-report.png" alt-text="Give permissions":::
