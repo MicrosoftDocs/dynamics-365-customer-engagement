@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/16/2022
+ms.date: 11/22/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -56,7 +56,6 @@ The Dynamics 365 Marketing November 2022 update includes one preview feature and
 
 - **Usability improvements in the personalization pane**
     - The personalization pane in the email editor provides one-stop access to personalization-related capabilities. Personalization placeholders are grouped according to their types. You can expand and collapse the groups to help with readability. Specific records are used to access additional personalization data such as event details, orders, or products. Specific records in use are identified at the top of the side pane and on the info card for each personalization placeholder that uses them. Conditions created by conditional content are also available on the pane (as “Element conditions”) for review and updating.
-    - [Docs]()
 
 ### October 2022 update
 
