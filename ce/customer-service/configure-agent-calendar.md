@@ -27,7 +27,7 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-You can help agents in your organization to plan for their work hours by viewing their work schedules at-a-glance. The calendar view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, their non-working hours, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly, and monthly views.
+As an administrator, you can help agents in your organization plan their work hours by viewing their work schedules at a glance. The My Schedule view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, their non-working hours, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly, and monthly views.
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
@@ -35,13 +35,13 @@ You must have the system administrator role to enable the calendar view.
 
 ## Enable the agent calendar
 
-1. In Customer Service admin center, under **Operations**, select **Calendar**. The **Calendar** page is displayed.
+1. In Customer Service admin center, in **Operations**, select **Calendar**. The **Calendar** page is displayed.
 
-1. Next to **Agent calendar (preview)**, select **Manage**. The **Agent calendar (preview)** page is displayed.
+1. In the **Agent calendar (preview)** section, select **Manage**. The **Agent calendar (preview)** page is displayed.
 
    :::image type="content" source="media/agent-calendar-manage-configuration.png" alt-text="Manage option for enabling the agent calendar view.":::
 
-1. Toggle **Enable agent calendar** to **On**.
+1. Turn on the **Enable agent calendar** toggle.
 
 1. Select **Save and close**.
 
