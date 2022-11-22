@@ -1,7 +1,7 @@
 ---
 title: "Manage phone music in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 11/22/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
