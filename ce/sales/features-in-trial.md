@@ -25,7 +25,7 @@ The Microsoft Dynamics 365 Sales trial includes the following features. They hel
 ## Pipeline management
 
 Managing a sales pipeline using leads and opportunities is one of the basic and key functions of any sales organization. Watch this video to understand how Dynamics 365 Sales helps you manage your pipeline:
-> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RWHo82>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82]
 
 Want to explore more? Read this article:
 
@@ -54,7 +54,7 @@ Want to learn more? Read these articles:
 Project accurate revenue with sales forecasting. A forecast helps your organization predict how much revenue your sales team will generate in a given time frame.
 
 Watch this video to get a sneak peek into forecasting:
-> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RWCXou>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou]
 
 Want to know more? Read these articles:
 
@@ -66,7 +66,7 @@ Want to know more? Read these articles:
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales.
 
 Watch this video to get a sneak peek into conversation intelligence:
-> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO]
 
 Want to explore more? Read these articles:
 
@@ -78,7 +78,7 @@ Want to explore more? Read these articles:
 Engage in a Teams conversation inside your trial app. While working on a sales record, you can start a new Teams chat or link an existing chat to the record to collaborate without switching contexts.
 
 Watch this video to get a sneak peek into the Teams collaboration feature in Dynamics 365:
-> [!VIDEO <https://www.youtube.com/embed/h7BjrM2UkMs>]
+> [!VIDEO https://www.youtube.com/embed/h7BjrM2UkMs]
 
 Want to know more? Read these articles:
 
@@ -90,7 +90,7 @@ Want to know more? Read these articles:
 The Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers use the time that they spend traveling on the road to meet customers.
 
 Watch this video to get a sneak peek into the mobile experience:
-> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG]
 
 Want to explore more? Read these articles:
 
