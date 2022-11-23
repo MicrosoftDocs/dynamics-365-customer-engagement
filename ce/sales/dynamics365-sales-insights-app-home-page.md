@@ -2,7 +2,7 @@
 title: "View overall insights of your sales and sellers"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
-ms.date: 10/26/2021
+ms.date: 11/23/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -181,7 +181,7 @@ The following image is an example of how the "talk-to-listen ratio" insight is d
 
 > [!div class="mx-imgBorder"]
 > ![Comparison of talk-to-listen ratio.](media/si-app-talk-to-listen-ratio.png "Comparison of talk-to-listen ratio")
-<!--note from editor: Please double-check my edit. I believe the original text actually reversed the conclusion we should be making here.-->
+
 In this example, you can observe that when comparing how much they talk compared to how much they listen, the top sellers talk less than the team does on average (59 percent compared to 61 percent), and they listen more than the team does on average (41 percent compared to 39 percent). Through this insight, you can learn that talking less is helping the top sellers generate revenue, and you can suggest it as a best practice for other sellers to follow.
 
 Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens, with details on each seller's talk-to-listen ratio with customers.
@@ -204,20 +204,20 @@ Select **Show details** to view more details on the top best practice keywords. 
 
 ### Customer sentiment
 
-This insight shows how top sellers are doing when compared to the team in terms of positive, neutral, and negative customer sentiments during sales calls. Using this insight, you can analyze what makes the top sellers more efficient in addressing the customer's pain points during the call and how you can coach your other sellers to align<!--note from editor: Suggested.--> their sentiment levels with your top sellers.
+This insight shows how top sellers are doing when compared to the team in terms of positive, neutral, and negative customer sentiments during sales calls. Using this insight, you can analyze what makes the top sellers more efficient in addressing the customer's pain points during the call and how you can coach your other sellers to align their sentiment levels with your top sellers.
 
 The following image is an example of how the "customer sentiment" insight is displayed.
 
 > [!div class="mx-imgBorder"]
 > ![Comparison of customer sentiment.](media/si-app-customer-sentiment-top-sellers.png "Comparison of customer sentiment")
 
-In this example, you can see that top sellers are driving more negative customer sentiment (28 percent) compared to the team as a whole (26 percent). This indicates that top sellers might be asking more questions to identify the customer's pain points, in order to resolve them and tease out<!--note from editor: Edit okay? I don't know what "key out" meant here.--> selling opportunities.
+In this example, you can see that top sellers are driving more negative customer sentiment (28 percent) compared to the team as a whole (26 percent). This indicates that top sellers might be asking more questions to identify the customer's pain points, in order to resolve them and key out selling opportunities.
 
 Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens, with details on customer sentiment.
 
 ### Switch rate
 
-This insight shows the rate at which top sellers are talking and listening in conversations with customers<!--note from editor: This example implies that the lower the switch rate, the better, so maybe delete "and this indicates a sign of engagement during conversations."? It implies that the lower switch rate means less engagement, which probably isn't the point you want to make.-->. Using this insight, you can understand the switch rate of top sellers per hour and identify coaching opportunities for other sellers to improve their switch rate.
+This insight shows the rate at which top sellers are talking and listening in conversations with customers. Using this insight, you can understand the switch rate of top sellers per hour and identify coaching opportunities for other sellers to improve their switch rate.
 
 The following image is an example of how the "switch rate" insight is displayed.
 
@@ -237,12 +237,12 @@ The following image is an example of how the "engagement with customers" insight
 > [!div class="mx-imgBorder"]
 > ![Top sellers communication mode.](media/si-app-engagement-with-customer.png "Top sellers communication mode")
 
-In this example, you can see that top sellers are spending more time engaging with customers on email (23 hours) than in phone calls (1 hour) or meetings (6 hours). By analyzing this, you see that top sellers are engaging customers through email, so you can plan to coach around these communication modes for other sellers to improve.<!--note from editor: Edits okay? I didn't understand the numbers in this example.-->
+In this example, you can see that top sellers are spending more time engaging with customers on email (23 hours) than in phone calls (1 hour) or meetings (6 hours). By analyzing this, you see that top sellers are engaging customers through email, so you can plan to coach around these communication modes for other sellers to improve.
 
 ## Call recording KPIs
 
 The call recording KPIs provide an understanding of how calls are trending month over month. By viewing these KPIs, you'll know the total number of:
-<!--note from editor: The following edits are suggested.-->
+
 - The number of calls that are recorded, and how that's trending.
 
 - The number of hours that calls were recorded, and how that's trending.
