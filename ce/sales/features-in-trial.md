@@ -20,7 +20,7 @@ The Microsoft Dynamics 365 Sales trial includes the following features. They hel
 - [Mobile app](#mobile-app)
 
 > [!IMPORTANT]
-> During your trial you'll have access to the Sales Trial app. In the documentation links listed in this article, assume that any references to the Sales Hub app refer to the Sales Trial app.
+> During your trial, you'll have access to the Sales Trial app. In the documentation links listed in this article, assume that any references to the Sales Hub app refer to the Sales Trial app.
 
 ## Pipeline management
 
@@ -40,7 +40,7 @@ The sales accelerator in Dynamics 365 helps you to:
 - Create rules to automatically assign leads and opportunities to your sellers.
 
 Watch this video to get a sneak peek into the sales accelerator:
-> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q]
 
 Want to learn more? Read these articles:
 
