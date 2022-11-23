@@ -87,10 +87,10 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 
 ### Pricing example: Customer calls through Microsoft Teams, Supervisor joins the call to monitor the conversation
 
-Mae calls your US toll-free number (acquired from Communication Services) from Teams. Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes.
+Mae calls your US toll-free number (acquired from Communication Services) from Teams. Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call last for 10 minutes. The recording stops when the call ends. 
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 5.](media/vc-pricing-5.png "Inbound call from customer through Teams")
+   > ![Pricing example 4.](media/vc-pricing-4.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
@@ -99,39 +99,19 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 - One participant on the VOIP (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
 - One participant on the VOIP (Gaby joins to consult)x 10 x 0.004 per participant per minute= $0.04
   Note: This leg is charged only when Gaby joins the call.
+- Cost to record= 10 x $0.002 per minute = $0.02
 - Omnichannel for Customer Service bot does not introduce additional ACS charges.
 
-* Mae's participation is is charged based on her Teams license.
+* Mae's participation is charged based on her Teams license.
 
-**Total cost for the call**: $0.22 + $0.04 + $ 0.04 + applicable Teams charges = $0.30+ applicable Teams charges
-
-### Pricing example: Customer calls from Microsoft Teams, Supervisor is invited to consult the conversation
-
-Mae calls your US toll-free number (acquired from Communication Services) from her mobile. Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and start the recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes. The recording stops when the call ends.
-
-**Cost calculations**
-
-- One participant on the Microsoft Teams leg (from Mae)x 10 minutes x rate per participant per minute*.
-- One participant on the PSTN leg (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22
-- One participant on the VOIP leg (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
-- One participant on the VOIP leg (Gaby joins to consult)x 10 x 0.004 per participant per minute= $0.04
-  Note: This leg is charged only when Gaby joins the call.
-- Cost to record= 10 x $0.002 per minute = $0.02
-- Omnichannel for Customer Service bot does not introduce additional ACS charges. The VOIP leg to the Power Virtual Agents bot is not charged.
-
-* Mae's participation is is charged based on her Teams license.
-
-**Total cost for the call**: $0.22 + $0.04 + $0.04 + $0.02  + applicable Teams charges = $0.32 + applicable Teams charges
+**Total cost for the call**: $0.22 + $0.04 + $ 0.04 + $0.02+ applicable Teams charges = $0.32+ applicable Teams charges
 
 ### Pricing example: Customer calls from a mobile, Supervisor is invited to consult the conversation
 
-Mae calls your US toll-free number (acquired from Communication Services) from Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias.  The bot then escalates the call to a human agent, Matias. Matias accepts the incoming call from Mae and start the recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes. The recording stops when the call ends.
+Mae calls your US toll-free number (acquired from Communication Services) from Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and start the recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes. The recording stops when the call ends.
 
-- Mae uses her mobile to make the call.
-- Omnichannel for Customer Service bot starts new incoming call via direct routing.
-- Omnichannel for Customer Service bot adds a human agent, Matias to a call. Matias starts call recording.
-- Matias adds his supervisor, Gaby, to consult on the call. 
-- The call lasts 20 minutes in which Mae talks to Matias for 10 minutes, before Gaby is added on to the call. The call then goes on for another 10 minutes.
+  > [!div class=mx-imgBorder]
+   > ![Pricing example 4.](media/vc-pricing-4.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
@@ -144,73 +124,64 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 
 **Total cost for the call**: $0.44 + $0.08 + $0.04 + $0.04 = $0.60
 
-
 ### Pricing example: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
 
-Mae calls your US toll-free number (acquired from Communication Services) from her Teams account. 
+Mae calls your US toll-free number (acquired from Communication Services) from her Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts the recording. Matias talks to Mae for 10 minutes and then transfers the call to product expert, Cole, on his Teams PSTN number. Cole speaks to Mae for another 5 minutes and ends the call. The recording stops when the call ends.
 
-- Mae uses her Teams account to make the call.
-- Omnichannel for Customer Service bot starts new incoming call via direct routing.
-- Omnichannel for Customer Service bot adds a human agent, Matias to a call. Matias starts call recording.
-- Matias transfers the call to another agent, Cole.
-- The call lasts 10 minutes in which Mae talks to Matias for 5 minutes, before he transfers the call tCole. The call then goes on for another 5 minutes.
+  > [!div class=mx-imgBorder]
+   > ![Pricing example 5.](media/vc-pricing-5.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
-- - One participant on the Microsoft Teams leg (from Mae)x 10 minutes x rate according to the Teams license.
+- One participant on Microsoft Teams (from Mae)x 10 minutes x rate per participant per minute*.
 - One participant on the PSTN leg (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22
 - One participant on the VOIP leg (inbound to Matias)x 5 x 0.004 per participant per minute= $0.02
 - One participant on the PSTN leg (inbound to Cole)x 5 x 0.013 per participant per minute= $0.065
-  Note: This leg is charged only when Gaby joins the call.
+- One participant on Microsoft Teams (to Cole)x 5 minutes x rate per participant per minute*.
 - Cost to record= 10 x $0.002 per minute = $0.02
 - Omnichannel for Customer Service bot does not introduce additional ACS charges.
 
+* Mae's participation is charged based on her Teams license.
+* Cole's participation is charged based on his Teams license.
+ 
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02  + applicable Teams charges = $0.325  + applicable Teams charges
 
 
 ### Pricing example: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
 
-Mae calls your US toll-free number (acquired from Communication Services) from her Teams account. 
+Matias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) via Azure Communication Services direct routing.
 
-- Mae uses her Teams account to make the call.
-- Call goes to a Session Border Controller (SBC) connected to ACS
-- Omnichannel for Customer Service bot adds a human agent, Matias to a call. 
+- Matias uses Omnichannel for Customer Service client application
+- Omnichannel for Customer Service bot starts new outgoing call via direct routing
+- Call goes to a Session Border Controller (SBC) connected via Communication Services direct routing
+- Dynamics 365 Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call 
 - The call lasts 10 minutes.
+
+  > [!div class=mx-imgBorder]
+   > ![Pricing example 8.](media/vc-pricing-8.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
-- One participant on the PSTN leg (inbound from Mae to SBC)x 10 x rate per the contract with carrier 
+- One participant on the PSTN leg (outbound from Matias )x 10 x rate per the contract with carrier 
 - One participant on the PSTN leg (SBC to ACS)x 10 x rate per the contract with carrier
-- One participant on the SIP leg (SBC to ACS)x 10 x 0.022 per participant per minute= $0.22
-- One participant on the VOIP leg (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
+- One participant on the SIP leg (SBC to ACS)x 10 x 0.004 per participant per minute= $0.04
+- One participant on the VOIP leg (Outbound from Matias) x 10 x 0.004 per participant per minute= $0.04
 - Omnichannel for Customer Service bot does not introduce additional ACS charges.
 
-**Total cost for the call**: $0.22 + $0.04 + applicable carrier charges = $0.26  + applicable carrier charges
+**Total cost for the call**: $0.04 + $0.04 + applicable carrier charges = $0.08  + applicable carrier charges
 
 ### Pricing example: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
 
-Mae calls your US toll-free number (acquired from Communication Services) from her Teams account. 
+Mattias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) via Azure Communication Services direct routing. Matias adds Gaby to the call and puts Mae on hold. Matias removes Mar from hold and resumes the call.
 
-- Mae uses her Teams account to make the call.
-- Call goes to a Session Border Controller (SBC) connected to ACS
-- Omnichannel for Customer Service bot adds a human agent, Matias to a call. 
-- The call lasts 10 minutes.
-
-## Outbound scenario
-
-Mae calls your US toll-free number (acquired from Communication Services) from her Teams account. 
-
-- Mae uses her Teams account to make the call.
-- Call goes to a Session Border Controller (SBC) connected to ACS
-- Omnichannel for Customer Service bot adds a human agent, Matias to a call. 
-- The call lasts 10 minutes.
+  > [!div class=mx-imgBorder]
+   > ![Pricing example 7.](media/vc-pricing-7.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
-- One participant on the PSTN leg (inbound from Mae to SBC)x 10 x rate per the contract with carrier 
-- One participant on the PSTN leg (SBC to ACS)x 10 x rate per the contract with carrier
-- One participant on the SIP leg (SBC to ACS)x 10 x 0.022 per participant per minute= $0.22
-- One participant on the VOIP leg (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
+- One participant on the PSTN leg (outbound from Matias)x 10 x 0.013 = $0.013
+- One participant on the VOIP leg (Matias to ACS) 10 x 0.004 = $0.04
+- One participant on the VOIP leg (matias to Gaby) 5 x 0.004 = $0.02
 - Omnichannel for Customer Service bot does not introduce additional ACS charges.
 
-**Total cost for the call**: $0.22 + $0.04 + applicable carrier charges = $0.26  + applicable carrier charges
+**Total cost for the call**: $0.13 + $0.04 + a$0.02= $0.19 
