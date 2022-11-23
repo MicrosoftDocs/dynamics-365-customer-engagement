@@ -120,7 +120,7 @@ A scoring model defines the criteria for choosing the opportunities for training
    If you don't have the minimum closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
 9. (Optional) Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage.  
-
+    After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Edit the model](pos-edit-and-retrain-model.md#edit-the-model)
 
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
