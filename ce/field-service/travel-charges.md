@@ -2,27 +2,19 @@
 
 Use travel charges to bill the cost of travel for the field technician to a customer.
 
-The system adds a travel charge item as a work order product If a service account (*not* billing account) on a work order has a travel charge type set. It's added after scheduling the work order and when the status of the generated booking changes.
+The system adds a travel charge item as a work order product if a [service account (*not* billing account) has a travel charge type set](accounts.md). It's added after scheduling the work order and when the status of the generated booking changes.
 
-First, go to **Field Service > Settings > Field Service Settings** and specify a product in the **Travel Charge Item** field. 
+## Specify the travel charge item
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of travel charge item in field service settings.](./media/field-service-settings-travel-charge.png)
+1. In **Field Service**, open the **Settings** area.
+1. Go to **Field Service Settings**.
+1. On the **Work Order / Booking** tab, choose or create a product in the **Travel Charge Item** field. This is the product that will be added as a work order product.
 
-This is the product that will later show as a work order product.
+   :::image type="content" source="media/field-service-settings-travel-charge.png" alt-text="Screenshot of travel charge item in field service settings.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of travel charge added as a work order product.](./media/work-order-service-account-travel-charge-product.png)
-
+<!-- is it based on account or price list? I guess it's price list if the travel charge product is added to the price list that is used for the service account. if no price list is used, travel charge from service account applies. -->
 > [!Note]
-> The travel charge work order product's unit amount price will be the value entered in the service account **travel charge**.
-
-Though the unit amount price of the travel charge is dictated by the price list, list price, and travel charge, the *quantity* is dictated by the **Travel Charge Type** on the service account. Here's what the quantity options mean: 
-
-- **Hourly:** Quantity will be the **Actual Travel Duration** of the booking per 60 minutes. For example, if the unit amount price of the **Travel Charge** is set to $60 and actual travel duration is 30 minutes, the travel charge work order product will be priced as $30.
-- **Mileage:** Quantity is the **Miles Traveled** of the booking. For example, if the unit amount price of the **Travel Charge** is set to $1 and miles traveled is 20 miles, the travel charge work order product will be priced as $20.
-- **Fixed:** Quantity is **1**. For example, if the unit amount price of the **Travel Charge** is set to $50, the travel charge work order product will be priced as $50, regardless of miles or time spent traveling. 
-- **None:** No travel charge will be added to the work order.
-
-> [!Note]
+> The unit amount of the work order product is the **Travel Charge** value provided on the entered in the [service account record](accounts.md).
+> Though the unit amount price of the travel charge is dictated by the price list, list price, and travel charge, 
+> The *quantity* for the travel charge work order product is based on the **Travel Charge Type** set for the service account.
 > In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.

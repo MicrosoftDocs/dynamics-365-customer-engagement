@@ -33,11 +33,17 @@ In this section, we'll create a service account with a geocoded address that rep
 On the **Summary** section, you can provide additional information about the account. These fields are optional.
 
 - **Phone**
+
 - **Fax**
+
 - **Website**
-- **Parent Account**: For larger organizations, you can define parent/child relations between accounts that define the organization hierarchy.
+
+- **Parent Account**: For larger organizations, you can define parent/child relations between  accounts that define the organization hierarchy.
+
 - **Ticker Symbol**: Stock ticker symbol of the company if it's publicly listed.
+
 - **Relationship Type**: Type of relationship between your organization and account.
+
 - **Product Price List**: [Price list configuration](create-price-list.md) for this account.
 
 ## Add contacts for an account
@@ -52,10 +58,14 @@ Contacts are individuals that are related to an account. You can add contacts on
 
 The **Details** section lets you add more information and preferences to the account record.
 
-- **Company Profile**
-- **Description**
+- **Company Profile**: Information about the economic environment of the account.
+
+- **Description**: Text description of the account.
+
 - **Contact Preferences**: Preferred contact method and which contact methods are allowed.
+
 - **Billing**: Default billing options for the account.
+
 - **Shipping**: Default shipping method and terms.
 
 ## Configure servicing details for an account
@@ -74,7 +84,12 @@ The **Servicing** section of the account form lists details to provide services 
 
 - **Service Territory**: [Territories for accounts, work orders, and resources](set-up-territories.md) are geographical regions, which are used in work orders and resource scheduling.
 
-- **Travel Charge Type**: Defined pricing and billing for [travel cost charged for a field technician](travel-charges.md).
+- **Travel Charge Type**: Defines pricing and billing for [travel cost charged for a field technician](travel-charges.md) as a work order product.
+
+  - **Hourly:** Quantity is the **Actual Travel Duration** on the booking for a work order per 60 minutes. For example, if the unit amount price of the travel charge is set to 60 and the actual travel duration is 30 minutes, the travel charge work order product will be priced as $30.
+  - **Mileage:** Quantity is the **Miles Traveled** on the booking for a work order. For example, if the unit amount price of the travel charge is 1 and miles traveled is 20, the travel charge work order product will be priced as $20.
+  - **Fixed:** Quantity is **1**. For example, if the unit amount price of the **Travel Charge** is set to 50, the travel charge work order product will be priced as 50, regardless of distance or time spent traveling.
+  - **None:** No travel charge will be added to the work order.
 
 - **Work Hour Template**: Work template to use for this account.
 
