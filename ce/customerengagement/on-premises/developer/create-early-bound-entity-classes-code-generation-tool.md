@@ -19,7 +19,7 @@ search.audienceType:
 
 **CrmSvcUtil.exe** is a command-line code generation tool for use Dynamics 365 Customer Engagement (on-premises). This tool generates early-bound [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] classes that represent the entity data model used by Dynamics 365 Customer Engagement (on-premises).
 
-The code generation tool (CrmSvcUtil.exe) is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. For information about downloading the code generation tool (CrmSvcUtil.exe), see [Download tools from NuGet](download-tools-NuGet.md).
+The code generation tool (CrmSvcUtil.exe) is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. For information about downloading the code generation tool (CrmSvcUtil.exe), see [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget).
 
 <a name="bkmk_about"></a>
 ## About the code generation tool

@@ -1,8 +1,8 @@
 ---
 title: Optimization schedules in Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn about how to use optimization schedules in Resource Scheduling Optimization for Dynamics 365 Field Service
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 ms.reviewer: mhart
 manager: shellyha
 ms.date: 09/07/2022
