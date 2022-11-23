@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
-ms.date: 10/11/2022
+ms.date: 11/23/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -22,14 +22,19 @@ Configure predictive lead scoring to help sellers prioritize leads based on scor
 
 ** Enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, go to [Lead and opportunity scoring](digital-selling-scoring.md).
 
-## What is predictive lead scoring
+## What is predictive lead scoring?
 
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads based on historical data. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead. When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis.  
 
 > [!NOTE]
 > If your Dynamics 365 Sales subscription expires or your org gets deleted, the historical data will be deleted after 30 days of the event.
 
-For example, say you have two leads&mdash;Lead A and Lead B&mdash;in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. By looking at the score, you can predict that Lead A has a greater chance of being converted into an opportunity, and you can engage it. Also, you can further analyze why the score of Lead B is low by looking at the top reasons influencing the score and deciding whether to improve this score.
+Using this score, you can:
+
+- Identify quality leads and convert them into opportunities.
+- Spend time on leads that have low scores, and convert them into possible opportunities.
+
+For example, say you have two leads&mdash;Lead A and Lead B&mdash;in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. By looking at the score, you can predict that Lead A has a greater chance of being converted into an opportunity, and you can engage it. Also, you can further analyze why the score of Lead B is low by looking at the top reasons that influence the score and deciding whether to improve this score.
 
 The following image shows an example of a lead scoring widget.
 
@@ -38,7 +43,7 @@ The following image shows an example of a lead scoring widget.
 
 > [!IMPORTANT]
 > - If you're using a model that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](pls-duplicate-models.md#delete-a-model)
-> - From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
+> - From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring-related data to the **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
 
 ## Prerequisites
 
@@ -50,7 +55,6 @@ Verify that you meet the following requirements before adding lead scoring model
 
    > [!NOTE]
    > These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
-
 
 ## Create and add a scoring model
 
@@ -118,8 +122,9 @@ A scoring model defines the criteria for choosing the leads for training and sco
     > [!NOTE]
     > If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-    After the model is trained, a popup message is displayed.  
-    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is trained":::
+    After the model is trained, a pop-up message is displayed.  
+    
+    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is trained":::
 
 1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**. 
 
