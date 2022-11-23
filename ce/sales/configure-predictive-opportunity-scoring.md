@@ -1,7 +1,7 @@
 ---
 title: Configure predictive opportunity scoring
 description: Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates.
-ms.date: 10/11/2022
+ms.date: 11/23/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -21,7 +21,7 @@ Configure predictive opportunity scoring to help sellers prioritize opportunitie
 
 ** Enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, go to [Lead and opportunity scoring](digital-selling-scoring.md).
 
-## What is predictive opportunity scoring
+## What is predictive opportunity scoring?
 
 Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities based on historical data. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity. When you first create a scoring model, historical data collection is initiated and stored in the data lake for analysis. 
 
@@ -36,15 +36,14 @@ The following image is an example of an opportunity scoring widget.
 > ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget.png "Predictive opportunity score widget")
 
 >[!IMPORTANT]
->- If you're using predictive opportunity scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all opportunities in your organization, and the newly generated models won't have any effect on the opportunities. More information:[Delete a model](pos-duplicate-models.md#delete-a-model)
->- From 2020 release wave 2 for Dynamics 365, the application writes the opportunity scoring related data to **msdyn_predictivescore** entity and has stopped writing to the opportunity entity. This entity is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
-
+>- If you're using predictive opportunity scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all opportunities in your organization, and the newly generated models won't have any effect on the opportunities. More information: [Delete a model](pos-duplicate-models.md#delete-a-model)
+>- From 2020 release wave 2 for Dynamics 365, the application writes the opportunity scoring-related data to the **msdyn_predictivescore** entity and has stopped writing to the opportunity entity. This entity is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
 
 ## Prerequisites
 
-Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
+Verify that you meet the following requirements before adding predictive opportunity scoring models for your organization:
 
-- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features) 
  
 - You need to have enough opportunities to train the model based on past data. Choose a time period between 3 months to 2 years to meet one of the following requirements:
     - A minimum of 40 won and 40 lost opportunities that were created and closed during the selected time period.
@@ -55,7 +54,7 @@ Verify that you meet the following requirement before adding predictive opportun
   >- The system takes about 4 hours to sync the data with the data lake. So, if you've recently closed opportunities, they won't be considered by the model immediately.
 
 
-## What is a per stage model
+## What is a per stage model?
 
 A per stage model calculates the influence of attributes at each stage of the business process flow based on past data. For example, you can see how the estimated close date has an influence across different stages of the opportunity. You can then review and decide which stages are relevant for each attribute according to your organization's standards and improve the model accuracy. By default, per stage modeling is disabled. 
 
@@ -95,10 +94,10 @@ A scoring model defines the criteria for choosing the opportunities for training
     By default, the name is selected as **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
 5. In the Business process flow list, select a flow that's relevant for the opportunities that you're generating the model for. The list displays all the business process flows that are defined for the opportunities in your organization. Selecting a business process flow is mandatory if you want to enable [per stage modeling](#what-is-a-per-stage-model).
-    > [!NOTE]
-    >- To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
-    >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
 
+    > [!NOTE]
+    > - To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
+    > - When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
 
 6. In the **State option set** list, select the option set in which the status of the opportunities is defined, and then select the corresponding won and lost values in the **Won value** and **Lost value** lists, respectively.
 
@@ -122,6 +121,7 @@ A scoring model defines the criteria for choosing the opportunities for training
 
 9. (Optional) Turn on **Per stage modeling** to select the attributes that the model must consider for each business process stage.  
     After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages. More information: [Edit the model](pos-edit-and-retrain-model.md#edit-the-model)
+
     :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling option.":::
 
     > [!NOTE]
@@ -137,15 +137,17 @@ A scoring model defines the criteria for choosing the opportunities for training
     > [!NOTE]
     > If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-    After the model is trained, a popup message is displayed.  
-    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the popup message that appears after the model is trained":::
+    After the model is trained, a pop-up message is displayed.  
+    
+    :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the pop-up message that appears after the model is trained":::
 
 1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**.  
 
 1. Perform one of the following actions: 
+
     - If you're ready to publish, select **Publish**. The model is applied to opportunities that match the criteria specified in the model configuration. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
     
-    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md).
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. More information: [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md)
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
