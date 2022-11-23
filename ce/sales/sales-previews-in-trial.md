@@ -10,6 +10,8 @@ manager: shujoshi
 
 # What are preview features
 
+This article describes what are preview features, disclaimers related to preview features, and how to identify them in your trial instance. If you're interested to know the featured capabilities in the Dynamics 365 Sales trial, see [Explore features in trial](features-in-trial.md).
+
 Preview features are features that aren't complete, but are made available on a "preview" basis so that customers can get early access and provide feedback.
 
 Preview features come with some disclaimers. Preview features:
