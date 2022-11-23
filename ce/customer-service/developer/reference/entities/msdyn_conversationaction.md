@@ -15,7 +15,6 @@ The action that can be performed in the conversation.
 
 **Added by**: Omnichannel - Base Patch Solution
 
-
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|

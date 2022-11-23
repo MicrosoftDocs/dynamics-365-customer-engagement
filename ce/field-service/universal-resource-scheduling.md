@@ -4,8 +4,8 @@ description: Learn about how to enable scheduling for any entity in Dynamics 365
 ms.date: 09/30/2017
 
 ms.topic: get-started-article
-author: m-hartmann
-ms.author: mhart
+author: clearab
+ms.author: anclear
 manager: shellyha
 ms.reviewer: mhart
 search.audienceType: 

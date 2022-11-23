@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 10/03/2022
+ms.date: 11/04/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,9 +34,10 @@ Before you provide consent, review the following information:
 - When consent is provided, Dynamics 365 analyzes Exchange emails pertaining to the last one year to provide relationship insights and who knows whom suggestions. The analysis is done in 12 batches, with each batch containing emails from one month. Dynamics 365 can handle up to 8 million emails per batch in this process. The live data is then processed after every 24 hours.
 
 - When you withdraw consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
+- After you provide consent, all users in the tenant are automatically opted in to share their data, unless they've manually [turned off data sharing](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications). If you withdraw consent later, all users will be automatically opted out.  
 
 
-## Provide consent 
+## Provide consent  
 
 1. In **Microsoft 365 admin center**, select **Settings** > **Org settings** > **Dynamics 365 Applications**.
 
@@ -49,10 +50,10 @@ Before you provide consent, review the following information:
 1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their Exchange data. For example, opt out groups such as C-suite, M&A, finance, and so on.
     :::image type="content" source="media/admin-opt-out.PNG" alt-text="A screenshot of the opt out textbox to provide security IDs":::
 
-    > [!NOTE]
-    > Individual users can opt out too. For more information, see [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+1. Save the changes.
+    The user opt-in is automatically turned on for all tenant users unless they've manually [turned off data sharing](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
-1. Save the changes.  
+     
 
 ### See also
 

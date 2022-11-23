@@ -1,7 +1,7 @@
 ---
 title: "openForm (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0  | MicrosoftDocs"
 description: "Learn about openForm (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 12/31/2019
+ms.date: 11/17/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh

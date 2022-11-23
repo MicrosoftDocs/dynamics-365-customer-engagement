@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 05/19/2022
+ms.date: 11/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -82,7 +82,7 @@ Having a knowledge base on the portal makes it a customer self-service portal, w
 
 As an administrator, you can:
   - Track how many times an article is used, viewed, and sent to customers. Use this information to proactively create knowledge based on search insights across customers and agents. 
-  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service)
+  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information: [Configure knowledge analytics](enable-knowledge-search-insights.md#configure-knowledge-analytics)
 
     :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   

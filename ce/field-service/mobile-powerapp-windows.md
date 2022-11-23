@@ -32,6 +32,7 @@ For a guided walkthrough, check out the following video.
 > - Quick notes photos and videos
 > - Access to GCC High or China cloud environment
 > - Search with barcode via global search
+> - Location Tracking
 
 ## Prerequisites
 
