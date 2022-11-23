@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 09/21/2022
+ms.date: 11/23/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -181,6 +181,49 @@ Even after deleting the reference records, if the error message, "SLAItem delete
 Resolution 3:
 
 If the above resolution doesn’t work, contact support to request deletion of the SLA or SLA items.
+
+## Primary entity isn't available while creating SLA
+
+### Reason
+To create SLA on any entity, SLA needs to be enabled for that entity and there should be active KPI for that entity.
+
+### Resolution
+
+Enable SLA for entity and create KPI. Then you would be able to create SLA on that entity.
+
+More information:  
+
+https://learn.microsoft.com/en-us/dynamics365/customer-service/enable-entities-service-level-agreements 
+
+https://learn.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
+
+## Legacy SLAs aren't showing up in the migration tool
+
+### Reason 
+
+In SLA Migration we support only enhanced SLAs.
+
+### Resolution 
+
+Check the SLA type in legacy interface: if its Standard or Enhanced SLA. Please use only enhanced SLAs. SLA Migration tool doesn't show standard SLA as its not supported and deprecated long back.  
+
+For more information: https://learn.microsoft.com/en-us/dynamics365/customer-service/migrate-tool-faqs#can-i-migrate-deprecated-standard-sla-rules 
+
+## Unable to use the SLA migration tool for Migrating large SLA volume 
+
+## Reason 
+
+In SLA Migration we first perform Premigration checkup which process all Legacy SLAs in system. If SLA volume is too large i.e. 1000+; it might get stuck 
+
+## Resolution 
+
+Please skip Premigration checkup with below step: 
+
+use &flags=FCB.SkipPreMigrationCheckUp=true in the URL when you click on ARC/SLA migration in the CSAC  and then perform batch migration. By selecting a few SLAs for every migration.
+
+More information: https://learn.microsoft.com/en-us/dynamics365/customer-service/migrate-tool-faqs#known-issues
+
+
 
 ### See also
 
