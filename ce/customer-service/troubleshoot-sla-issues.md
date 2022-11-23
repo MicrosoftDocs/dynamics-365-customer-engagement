@@ -19,15 +19,17 @@ ms.custom:
 
 # Troubleshoot issues in service-level agreements in Customer Service
 
-## Warning and failure duration times are incorrect for the SLA
+## Troubleshoot issues faced in creating SLAs
+
+### Warning and failure duration times are incorrect for the SLA
 
 Why do I see that some service-level agreements (SLAs) don't take into account daylight saving time for warning and failure duration?
 
-### Reason
+#### Reason
 
 If your SLA was created in the web client that is now deprecated, the business schedule calendar does not support daylight saving time.
 
-### Resolution
+#### Resolution
 
 To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 
