@@ -19,6 +19,8 @@ ms.custom:
 
 # Troubleshoot issues in service-level agreements in Customer Service
 
+This article explains the various troubleshooting issues related to SLA and provides reasons and resolutions for the issues.
+
 ## Troubleshoot issues faced in creating SLAs
 
 ### Primary entity isn't available while creating SLAs
@@ -35,21 +37,21 @@ Enable SLA for the entity and create an active KPI. For more information on enab
 
 ### Standard SLAs aren't showing up in the migration tool
 
-### Reason 
+#### Reason 
 
 The migration tool only supports enhanced SLAs. Standard SLAs have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool.
 
-### Resolution 
+#### Resolution 
 
 Check the SLA type in legacy interface. Use enhanced SLAs for migration.
 
 ### Unable to use the SLA migration tool to migrate large number of SLAs
 
-## Reason 
+#### Reason 
 
 If the number of SLAs being migrated is more than 1000, SLAs may not pass through the premigration checkup, which processes all legacy SLAs.
 
-## Resolution 
+#### Resolution 
 
 Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select automatic record creation rules and SLA migration in the Customer Service admin center. Perform batch migration and select few SLAs for every migration.
 
@@ -98,11 +100,11 @@ The following warning message is displayed on entity records: "The SLA instances
 
 The workflow ID varies from system to system.
 
-### Reason
+#### Reason
 
 The **SLAInstanceMonitoringWarningAndExpiryFlow** must be enabled.
 
-### Resolution
+#### Resolution
 
 If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAInstanceMonitoringWarningAndExpiryFlow**. The flow must only be turned off and on by a user who has the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
@@ -112,18 +114,17 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 2. In **Cloud flows**, select  **SLAInstanceMonitoringWarningAndExpiryFlow**.
 3. Select **Turn on**.
 
-
 ### SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
 
 Once triggered, the SLA timer continues to run even when its state is changed from **InProgress** to **OnHold**.
 
-### Reason
+#### Reason
 
 If a holiday is configured, the status of the case is updated to **OnHold** to pause the case SLA. However, the pause functionality associated with the **OnHold** status doesn't appear to function correctly. Therefore, the timer continues to run even on a holiday when it should be paused.
 
 So, it includes the holiday hours, non-working hours, and pause time (only business hours) while projecting the SLA warning or failure time.
 
-### Resolution
+#### Resolution
 
 The functionality is intended. Your organization defines business hours while scheduling working days and holidays. SLA warning time and failure time adhere to those settings and are calculated based on the defined hours.
 
@@ -177,14 +178,14 @@ When you update the target record such that **Applicable when** condition is no 
 
 2. Resolve the case. The case status is set to **Resolved**, and the SLA is reevaluated for the **Applicable when** condition. The SLA KPI instance status will be set to **Canceled**.
 
-### Reason
+#### Reason
 
 When you define the **Applicable when** and **Success condition** on the same attribute, such as **case status**, one of the criteria might not be met, and the SLA KPI instance status will be canceled.
 
 > [!NOTE]
 > When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
-### Resolution
+#### Resolution
 
 In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
@@ -210,11 +211,11 @@ Consider a scenario in which you've created an SLA in the web client with an SLA
 
 Based on the SLA KPI instance status, if any actions are configured, those actions will be run multiple times.
 
-### Reason
+#### Reason
 
 When the **Applicable when** attribute is updated, the SLA is reevaluated that results in multiple iterations of the actions.
 
-### Resolution
+#### Resolution
 
 This is the expected behavior for SLAs in the web client. It is recommended to define the **Applicable when** condition on only those attributes whose values don't change frequently.
 
@@ -226,11 +227,11 @@ Error message 1: "The object you tried to delete is associated with another obje
 
 Error message 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process; see log for more detail."
 
-### Reason
+#### Reason
 
 The first error occurs because in UCI SLA, the relationship between the SLA item and SLA KPI instances is set to "Restrict to Delete". The second error occurs because processes that are part of managed solution can't be deleted. So, when you try to delete an SLA manually, which is part of a managed solution and has flows configured, the error message appears.
 
-### Resolution
+#### Resolution
 
 Resolution 1:
 
@@ -259,9 +260,17 @@ SLA KPI instance isn't getting created on the entity on which SLA is enabled.
 
 #### Reason
 
-#### Resolution 
-
 SLA KPI instances don't get created because of one of the following reasons:
+
+- SLA isn't applied.
+
+- No SLA Item is applicable.
+
+- SLA KPI Applicable From is empty.
+
+- Dependencies are disabled.
+
+#### Resolution 
 
 - SLA isn't applied: Verify if SLA is being applied correctly on entity. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
