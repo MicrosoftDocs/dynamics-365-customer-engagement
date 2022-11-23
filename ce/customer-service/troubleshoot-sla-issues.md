@@ -21,50 +21,39 @@ ms.custom:
 
 ## Troubleshoot issues faced in creating SLAs
 
-### Primary entity isn't available while creating SLA
+### Primary entity isn't available while creating SLAs
 
 ### Reason
-To create SLA on any entity, SLA needs to be enabled for that entity and there should be active KPI for that entity.
+
+To create SLA for an entity, you must enable the SLA for that entity and create an active KPI for it.
 
 ### Resolution
 
-Enable SLA for entity and create KPI. Then you would be able to create SLA on that entity.
-
-More information:  
-
-https://learn.microsoft.com/en-us/dynamics365/customer-service/enable-entities-service-level-agreements 
-
-https://learn.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements?tabs=customerserviceadmincenter
+Enable SLA for the entity and create an active KPI. For more information on enabling entities for service-level agreements, go to [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements)
 
 ## Troubleshoot issues faced in migrating SLAs
 
-### Legacy SLAs aren't showing up in the migration tool
+### Standard SLAs aren't showing up in the migration tool
 
 ### Reason 
 
-In SLA Migration we support only enhanced SLAs.
+The migration tool only supports enhanced SLAs. Standard SLAs have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool.
 
 ### Resolution 
 
-Check the SLA type in legacy interface: if its Standard or Enhanced SLA. Please use only enhanced SLAs. SLA Migration tool doesn't show standard SLA as its not supported and deprecated long back.  
+Check the SLA type in legacy interface. Use enhanced SLAs for migration.
 
-For more information: https://learn.microsoft.com/en-us/dynamics365/customer-service/migrate-tool-faqs#can-i-migrate-deprecated-standard-sla-rules 
-
-### Unable to use the SLA migration tool for Migrating large SLA volume 
+### Unable to use the SLA migration tool to migrate large number of SLAs
 
 ## Reason 
 
-In SLA Migration we first perform Premigration checkup which process all Legacy SLAs in system. If SLA volume is too large i.e. 1000+; it might get stuck 
+If the number of SLAs being migrated is more than 1000, SLAs may not pass through the premigration checkup, which processes all legacy SLAs.
 
 ## Resolution 
 
-Please skip Premigration checkup with below step: 
+Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select automatic record creation rules and SLA migration in the Customer Service admin center. Perform batch migration and select few SLAs for every migration.
 
-use &flags=FCB.SkipPreMigrationCheckUp=true in the URL when you click on ARC/SLA migration in the CSAC  and then perform batch migration. By selecting a few SLAs for every migration.
-
-More information: https://learn.microsoft.com/en-us/dynamics365/customer-service/migrate-tool-faqs#known-issues
-
-## Troubleshoot issues faced in time calculation
+## Troubleshoot issues faced in SLA time calculation
 
 ### Warning and failure duration times are incorrect for the SLA
 
@@ -78,7 +67,7 @@ If your SLA was created in the web client that is now deprecated, the business s
 
 To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 
-## Troubleshoot issues faced in timer keeps running issue
+## Troubleshoot issues faced in SLA timer
 
 ### SLA KPI instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI instance timer continues to run
 
@@ -124,7 +113,7 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 3. Select **Turn on**.
 
 
-## SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
+### SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
 
 Once triggered, the SLA timer continues to run even when its state is changed from **InProgress** to **OnHold**.
 
@@ -157,27 +146,27 @@ If Unified Interface SLAs please use "elapsedtime” attribute to track onHold D
 
 ## Troubleshoot issues faced in solution import, export, and upgrade
 
-### Cannot import Solution with Active SLAs Or SLAs are deactivated when solution is imported
+### Unable to import solution with Active SLAs and SLAs get deactivated when a solution is imported
 
-Possible Errors: 
+The following errors occur:
 - If 'Maintain Customizations' is selected, import fails 
-- If "Overwrite Customizations' is selected, import succeeds, but SLAs are deactivated 
+- If "Overwrite Customizations' is selected, import succeeds, but SLAs are deactivated.
 
 #### Reason 
 
-You might be using Export Solution to export data, which is not the intended use of solution export. (This is repro'd by creating a solution, navigating to SLA component (not entity) in Customize Solution view, and adding new SLA there - they can also be activated from here). This means that SLA details are in customizations.xml. If this is imported with 'Maintain Customizations', and the SLAs are active in the target org, the import will fail. If the customizations.xml file has the SLAs and 'Overwrite Customizations' is selected, the state of the SLAs will be set to Draft and deactivated. 
+- You have used the Export Solution option to export data, which isn't the intended use of solution export.
+- If the solution is imported with 'Maintain Customizations', and the SLAs are active in the target organization, the import will fail. 
+- If the customizations.xml file has the SLAs and 'Overwrite Customizations' is selected, the state of the SLAs will be set to Draft and deactivated.
 
 #### Resolution 
 
-If you want to explicitly import a solution with SLAs defined, then SLAs need to first be Deactivated. Then proceed with import, and then they can be re-activated. 
+- If you choose to explicitly import a solution with SLAs defined, you will need to deactivate SLAs and then proceed with import. SLAs can then be re-activated.
 
-If you are trying to import other customizations in the solution, and the SLAs do not need to be re-imported, the customer can remove them from customizations.xml 
-
-For more information on upgrading solution, go to https://docs.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements#recommended-procedure-for-upgrading-a-solution
+- If you choose to import other customizations in the solution, SLAs need not be re-imported. You can remove the SLAs from the customizations.xml file.
 
 ## Troubleshoot other issues 
 
-## SLA KPI instance status shows as canceled
+### SLA KPI instance status shows as canceled
 
 When you update the target record such that **Applicable when** condition is no more applicable, the SLA KPI status moves from one of the existing states of **In progress**, **Succeeded**, **Nearing non compliance**, or **Expired** to the **Canceled** state. The SLA KPI instance is canceled on the second evaluation because the **Applicable when** condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
 
@@ -199,7 +188,7 @@ When you define the **Applicable when** and **Success condition** on the same at
 
 In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
-## Success, warning, and failure actions are being run multiple times in web client
+### Success, warning, and failure actions are being run multiple times in web client
 
 When updates are made to the target record, the attributes present in the **Applicable when** condition of the SLA item are modified in the applied SLA.
 
@@ -229,11 +218,7 @@ When the **Applicable when** attribute is updated, the SLA is reevaluated that r
 
 This is the expected behavior for SLAs in the web client. It is recommended to define the **Applicable when** condition on only those attributes whose values don't change frequently.
 
-
-
-
-
-## Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion
+### Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion
 
 The following two error messages are displayed:
 
@@ -270,53 +255,47 @@ If the above resolution doesn’t work, contact support to request deletion of t
 
 ###  SLA KPI instance isn't getting created
 
-When you try to create entity on which SLA is enabled, expected SLA KPI instance is not getting created 
+SLA KPI instance isn't getting created on the entity on which SLA is enabled.
 
 #### Reason
 
 #### Resolution 
 
-There can be multiple reasons on SLA KPI instance is not getting created 
+SLA KPI instances don't get created because of one of the following reasons:
 
-SLA is not applied: Verify if SLA is being applied correctly on entity – for more information: https://learn.microsoft.com/en-us/dynamics365/customer-service/apply-slas?tabs=customerserviceadmincenter 
+- SLA isn't applied: Verify if SLA is being applied correctly on entity. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
-No SLA Item is applicable: Verify entity satisfies Applicable when condition  for atleast one of the SLA items of applied SLA. 
+- No SLA Item is applicable: Verify whether the entity satisfies Applicable when condition for at least one of the SLA items of applied SLA.
 
-SLA KPI Applicable From is empty: Verify that applicable From Date Field of KPI being used is filled for that entity 
+- SLA KPI Applicable From is empty: Verify whether the **Applicable From** Date Field of KPI is filled for that entity.
 
-Dependencies are disabled: go to SLA form, do you see any notification about any OOB component disabled? Then please activate them 
+- Dependencies are disabled: In the SLA form, activate notifications about any out of the box component, if any.
 
-### Getting Error while case Update - action flow must be in published state
+### Error occurs while updating a case
 
 #### Reason 
 
-This might be happening due to action flow associated with one/more SLA items are deleted or not in published state. 
+If the action flow associated with one/more SLA items are deleted or not in published state, errors might occur.
 
 #### Resolution 
 
-Please follow the steps below for resolution.
+- Activate the draft flow from the SLA form. If your SLA is active but the dependent flow is inactive, then you may see notifications on the SLA form. As an administrator, select **Activate**to enable all the dependencies.
 
-1. You can activate the draft flow from the SLA form. If your SLA is active but the dependent flow is inactive, then you may see Self Fix notification on the SLA form. As an admin, you can click on Activate button to enable all the dependencies.
+- Alternate resolution:
 
-Alternate resolution:
+    1. Make the SLA inactive and go to the SLA items where you have configured action flows and select **Configure actions**. Power Automate portal will appear and will show your action flow.
+    1. Turn on action flow.
+    1. After activating action flows for SLA items, activate SLA again.  
 
-1. Make the SLA Inactive.
-1. Go to SLA items where you have configured action flows and click on configure actions.
-1. Power Automate portal will be opened showing your action flow.
-1. Turn On action flow.
-1. After activating action flows for SLA items activate SLA again.  
-
-### Modified By and Modified On Columns are getting updated for Case Records
+### modifiedon and modifiedby fields on the case entity are getting updated
 
 #### Reason
 
-Modified By and On is getting impacted for all Resolved Cases because of update in a new field DeactivatedOn introduced in case entity, using the Async Job "ResolvedIncidentsUpdationOperation". Next SLA for cases leads to updating modifiedon and modifiedby fields on the case entity. If you wish to disable this, you may contact Microsoft Support.
+**modifiedon** and **modifiedby** fields are getting updated for all Resolved Cases because of updates made in the DeactivatedOn field introduced in case entity, using the Async Job "ResolvedIncidentsUpdationOperation". Next SLA for cases leads to updating **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.
 
 #### Resolution
 
-We recommend to avoid using the fields like modifiedon and modifiedby for reporting or other purposes since they get altered while calculating Next SLA field on the enhanced case grid. If you wish to understand when the case was resolved, you may use incidentresolution entity and avoid using modifiedon field on case entity. 
-
- 
+We recommend that you avoid using the **modifiedon** and **modifiedby** fields for reporting as they get altered while calculating Next SLA on the enhanced case grid. If you want to understand when the case was resolved, you may use the **incidentresolution**entity and avoid using **modifiedon** field on case entity.
 
 ### See also
 
