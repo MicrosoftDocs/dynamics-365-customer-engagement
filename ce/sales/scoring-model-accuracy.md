@@ -1,7 +1,7 @@
 ---
 title: View accuracy and performance of predictive scoring models
 description: Accuracy of the predictive model is determined by running the model on historical data and calculating false positives, false negatives, true positives, and true negatives.
-ms.date: 10/11/2022
+ms.date: 11/23/2022
 ms.custom:
 ms.topic: article
 author: lavanyakr01
