@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 09/27/2022
+ms.date: 11/22/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -604,7 +604,7 @@ Tracking your content helps you and your authoring team assess its value to your
   
 To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
   
-- **Views**. Shows you the total number of times this article has been viewed. This figure represents the total views of all versions and all translations of this article combined. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views. 
+- **Views**. Shows you the total number of times this article has been viewed. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views.
 
 - **Feedback**. Captures all the feedback and ratings on the knowledge articles and updates the articles accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article. The Feedback subgrid shows all feedback received for the current knowledge article.  
 
