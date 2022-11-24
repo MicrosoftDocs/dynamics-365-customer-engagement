@@ -421,7 +421,6 @@ You can mark an article for review or directly assign it to a specific person or
   
 5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
-
 ## Update published knowledge articles  
 
 When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
