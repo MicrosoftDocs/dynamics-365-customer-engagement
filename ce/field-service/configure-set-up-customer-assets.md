@@ -76,7 +76,10 @@ Adding a product to a work order [creates a work order product](create-product-o
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order on the Product tab showing the quantity and line status of a product.](./media/customer-asset-product-used.png)
 
-When the work order system status changes to **Open-Completed** or **Closed-Posted**, the system automatically generates the customer asset record and associates it with the service account listed on the work order. Regardless of the quantity of the work order product, only one customer assets is created. The customer asset will have reference to the work order product that shows the exact quantity. 
+When the work order system status changes to **Open-Completed** or **Closed-Posted**, the system automatically generates the customer asset record and associates it with the service account listed on the work order. Regardless of the quantity of the work order product, only one customer assets is created. The customer asset will have reference to the work order product that shows the exact quantity.
+
+> [!TIP]
+> By default, you can only use assets related to the service account on a work order. Field Service lets you can change this logic in the settings. For more information, see [Validate customer assets on work orders](asset-validation.md)
 
 ## Connect customer assets to Connected Field Service
 

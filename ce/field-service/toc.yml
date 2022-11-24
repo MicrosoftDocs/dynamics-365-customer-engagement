@@ -52,6 +52,8 @@ items:
       href: set-up-territories.md
     - name: Field Service settings
       href: configure-default-settings.md
+    - name: Customer asset validation
+      href: asset-validation.md
 
 - name: Customize Field Service
   items:
