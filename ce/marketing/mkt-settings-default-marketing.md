@@ -1,8 +1,7 @@
 ---
 title: "Set up default settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up collections of settings that establish various defaults used throughout the app, including for email marketing, customer journey timezone, double opt-in, and email deduplication during sending in Dynamics 365 Marketing."
-ms.date: 11/05/2021
-
+ms.date: 09/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -55,9 +54,9 @@ Use the **Global level double opt-in** tab to set up the double opt-in feature. 
 
 ## The Bypass email deduplication tab
 
-Normally, Dynamics 365 Marketing deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
+By default, Dynamics 365 Marketing deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. Duplication detection is accomplished by storing a key value that includes a contact's email address, coupled with information about the customer journey and the email tile. This means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message.
 
-However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
+Duplicate email addresses usually indicates that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior. However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to use the same email address. In this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
 
 ### See also
 

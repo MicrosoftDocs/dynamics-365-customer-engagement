@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 09/01/2022
+ms.date: 09/19/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -36,7 +36,7 @@ The Who Knows Whom tile shows up to five people in your organization who have co
     :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom tile.":::
 
     > [!NOTE]
-    > If you don't see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, ask your admin to turn on the feature.
+    > If you don't see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, ask your admin to turn on the feature. If you see a message that you don't have sufficient privileges, ask your admin to provide necessary permissions. 
 
 2. Select the icon in the upper-right corner of the **Who Knows Whom** tile to switch between graph and list views.
 

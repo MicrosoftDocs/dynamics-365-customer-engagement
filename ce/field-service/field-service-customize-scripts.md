@@ -5,8 +5,8 @@ ms.date: 02/18/2022
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: lmasieri
+ms.author: lmasieri
 manager: shellyha
 search.app:
 - D365CE
@@ -95,11 +95,4 @@ Many Field Service record types, like work orders (as shown in the following ima
 
 Booking rules are a way of using JavaScript to perform validations on the schedule board. However, just like using JavaScript on other forms like work orders, proceed with caution. Don't create more than one booking rule. Consider instead using [booking alerts](booking-alert.md) to alert dispatchers of issues.
 
-### See also
-
-- [Create or edit model-driven app web resources to extend an app](/powerapps/maker/model-driven-apps/create-edit-web-resources)
-- [Client scripting in Customer Engagement using JavaScript](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1&preserve-view=true)
-- [Script (JScript) web resources](/powerapps/developer/model-driven-apps/script-jscript-web-resources)
-- [Use plugins to extend business processes](/powerapps/developer/data-platform/plug-ins)
-- [Access external web services](/powerapps/developer/data-platform/access-web-services)
-- [Analyze plug-in performance](/powerapps/developer/data-platform/analyze-performance)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

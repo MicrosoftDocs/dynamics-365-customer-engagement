@@ -2,7 +2,7 @@
 title: msdyn_WKWDeleteGDPRData custom action
 description: Understand the parameters, and web API calls for deleting a user's Microsoft 365 data stored in Dynamics 365.
 ms.date: 08/19/2022
-ms.topic: topic
+ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi

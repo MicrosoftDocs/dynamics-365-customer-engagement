@@ -8,8 +8,8 @@ ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: mhart
-ms.author: mhart
+author: Andrea-Orimoto
+ms.author: andreo
 manager: shellyha
 search.app: 
   - D365CE
@@ -60,12 +60,5 @@ You can even create entirely new groups with more subareas to display different 
 - [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
 
 - [Customize Booking Calendar](/dynamics365/field-service/mobile-powerapp-customize-booking-calendar)
-
-### See also
-
-- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
-- [Model-driven apps developer documentation](/powerapps/developer/model-driven-apps/)
-- [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
-- [Editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

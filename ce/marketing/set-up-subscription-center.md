@@ -1,8 +1,7 @@
 ---
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing."
-ms.date: 01/29/2021
-
+ms.date: 10/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -70,8 +69,7 @@ As with all marketing pages, the subscription form on the default marketing page
 
 ### Custom or additional subscription centers
 
-You can publish subscription centers as a native marketing page running on a Dynamics 365
- portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
+You can publish subscription centers as a native marketing page running on a Dynamics 365 portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
 
 <a name="create-subscription-list"></a>
 
@@ -163,7 +161,7 @@ Each field shown here (besides the **Name** and **Default** setting) can be refe
 
 To specify a subscription center in the content settings:
 
-1. Select the **Subscription Center** field.
+1. Select the **Subscription center** field.
 
 1. Select the **[Assist edit](dynamic-email-content.md#personalization)** button ![The personalization button.](media/button-personalization.png "The personalization button") for the **Subscription Center** field.
 
@@ -173,6 +171,9 @@ To specify a subscription center in the content settings:
 1. From the **Select an option** combo box, select **Marketing page**.
 
 1. From the **Choose a record** combo box, select the name of the subscription center page you want to use. If you have a large number of pages, you can enter some text here to filter the list, which can make the page you want easier to find. You have now identified the marketing-page record that will be your subscription center for this content-setting record.
+
+    > [!IMPORTANT]
+    > If you chose to make a form for a subscription center that is hosted on an external website, make sure you enter the URL for the page on which your form is hosted in the **Subscription center** field.
 
 1. Select **Next** to continue.
 

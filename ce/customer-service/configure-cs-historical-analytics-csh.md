@@ -1,122 +1,102 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
-description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
-ms.date: 04/19/2022
+description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
+ms.date: 11/15/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Customer Service historical analytics reports
 
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. 
+You can configure Customer Service historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
-The following historical reports are available:
+By default, the Customer Service historical analytics reports are enabled for the System Administrator and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+
+The historical reports include:
 
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
-## Enable Customer Service analytics reports
+## Manage Customer Service historical analytics reports
 
-Make sure that you have administrator permissions for Dynamics 365.
-
-You can enable the customer service historical analytics reports in the Customer Service admin center or Customer Service Hub app.
-
-**Enable the Knowledge search analytics dashboard**
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports.
 
 1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Customer Service historical analytics** section, select **Manage**.
-
-     The **Customer Service historical analytics** page is displayed. Set the **Enable Customer Service historical analytics report** toggle to **On**.  
+     
+     1. For **Customer Service historical analytics**, select **Manage**.
+     
+     1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
-     2. Select **Settings** in **Insights**. The **Insights** page appears.
-     3. In the **Customer Service historical analytics** section, select **Manage**.
+     
+     1. Select **Settings** in **Insights**. The **Insights** page appears.
+     
+     1. In the **Customer Service historical analytics** section, select **Manage**.
+     
+     1. On the **Customer Service historical analytics** page, set the **Status** toggle to **Enabled** to enable the reports or set the toggle to **Disabled** to disable the reports.
 
-      The **Customer Service historical analytics** page is displayed. set the **Status** toggle to enabled.
+1. Select **Save** or **Save and Close**.
 
-2. Select **Save** or **Save & Close**.
+   This configuration will also enable AI-discovered topics from cases with default settings.
 
-    > [!div class=ms-imgBorder]
-    > ![Customer Service analytics installation.](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
+## Enable historical analytics for unified routing
 
-This configuration will also enable AI-discovered topics from cases with default settings.
-
-## Enable Historical analytics for unified routing
-
-You can enable historical analytics for unified routing in the Customer Service admin center or Customer Service Hub app. The metrics are available in the report after 24 hours.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports. The metrics will be available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
 > Unified routing must be enabled to enable historical analytics for unified routing. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
-
 
 1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Customer Service historical analytics** section, select **Manage**.
+     
+     1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed. 
 
-     The **Customer Service historical analytics** page is displayed. Select the **Add historical analytics for unified routing** check box.  
+     1. Select the **Add historical analytics for unified routing** check box.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
-     2. Select **Settings** in **Insights**. The **Insights** page appears.
-     3. In the **Historical analytics for unified routing** section, select **Manage**.
+     
+     1. Select **Settings** in **Insights**. The **Insights** page appears.
+     
+     1. In the **Historical analytics for unified routing** section, select **Manage**. The **Historical analytics for unified routing** page is displayed.
 
-      The **Historical analytics for unified routing** page is displayed. Set the **Status** toggle to enabled
+     1. Set the **Status** toggle to enabled.
 
-2. Save and close.
+1. Select **Save and Close**.
 
 After you enable the setting, you can access the report in one of the following ways:
 
 - In Customer Service workspace, select the plus (+) icon, and then select **Customer Service historical analytics**.
+
 - In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
 
-### View Customer Service analytics reports
 
-The service managers must have the System Administrator or CSR Manager role to view the reports. 
 
-### Provide report access to additional security roles
-
-Perform the following steps to enable users with different privileges to access reports beyond the default ones.
-
-1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
-
-1. Select **Security** and then **Security roles**.
-
-1. Select the security role that you want to enable access for. For example, agent manager.
-
-1. Select the **Custom Entities** tab.
-
-1. Grant Read privileges to the following entities:
-   - **Customer Service historical analytics**
-   - **Insights**
-
-1. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
-
-You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](knowledge-search-analytics-cs.md)  
-[Historical analytics for Unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
-
-
+[Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,7 +28,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 - To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
 - To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
 - You must have the System Administrator role to configure record routing.
-- You must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)
+- You must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md)
 
 ## Configure unified routing for records
 
@@ -115,7 +115,7 @@ You can reorder the rules and create copies to meet your business requirements.
 Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
 
 - [Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)  
-- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+- [Configure route to queues](configure-route-to-queue-rules.md)
 
 ### Configure work distribution and advanced settings
 
@@ -138,7 +138,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
 ### Next steps
 
-![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)  
+![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)  
 ![Home.](media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
 
 ### See also

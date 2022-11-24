@@ -1,14 +1,13 @@
 ---
 title: Send frontline workers an email with a link to download the Dynamics 365 Field Service mobile app 
 description: Learn how global admins can enable the mailboxes of system admins to send emails to their frontline workers in Dynamics 365 Field Service
-author: m-hartmann
+ms.author: jacoh
+author: jasonccohen
 
 ms.subservice: field-service-mobile
 ms.reviewer: mhart
 ms.date: 04/01/2021
-ms.topic: overview
- - field-service
-ms.author: mhart
+ms.topic: conceptual
 search.app:
   - D365CE
   - D365FS

@@ -5,8 +5,8 @@ ms.date: 08/11/2022
 ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: ryanchen8
+ms.author: chenryan
 manager: shellyha
 search.app: 
   - D365CE
@@ -29,13 +29,4 @@ Booking statuses allow you to create multiple substatuses mapped to each of your
 > [!TIP]
 > You can also set a default status for scheduled and canceled bookings. Go to **Resources** > **Administration** > **Booking Setup Metadata Wizard**. Select **msdyn_workorder** and configure the default settings. For more information: [Configure default settings](../field-service/configure-default-settings.md)  
   
-### See also  
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)<br> 
- [Create a work order](../field-service/create-work-order.md)   
- [Set up postal codes](../field-service/set-up-postal-codes.md)   
- [Set up booking rules](../field-service/set-up-booking-rules.md)   
- [Set up territories](../field-service/set-up-territories.md)<br>
- [User's Guide](../field-service/user-guide.md) 
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

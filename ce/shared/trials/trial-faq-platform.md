@@ -16,7 +16,7 @@ You can enter a non-work email address and we will create an account and tenant 
 
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
-Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials. However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.
+Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials. However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different tenant and URL. The trial data won’t be shared across apps.
 
 ## Trial app
 
@@ -39,12 +39,10 @@ You can add an unlimited number of users to the trial environment.
 
 You can't reset the trial environment. However, you can wait for the trial period to end and then sign up again for a new trial.
 
-## Trial expiration and extension
-
-### Why did my trial expire before the end of the trial period?
-
-The trial expires if there's no activity for 14 consecutive days. An email notification is sent to you after seven days of inactivity. Expired trials cannot be reactivated. However, you can start a new trial.
-
 ### How do I extend the trial?
 
 You can extend the trial for another trial period in the admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial once.
+
+### How do I cancel the trial?
+
+If you have signed up for the trial using a managed Azure Active Directory account, you can request your Power Platform admin to [delete the trial environment](/power-platform/admin/delete-environment). If you have signed up using your personal account, you cannot cancel the trial manually. The trial will expire after the 30-day trial period and the trial environment will be automatically deleted.  

@@ -4,13 +4,13 @@ description: "Learn how to create and manage app profiles for customized agent e
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/09/2022
+ms.date: 09/30/2022
 ms.topic: article
 ---
 
 # Create an app profile
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-oc-admin-csh-deprecation.md](../includes/cc-oc-admin-csh-deprecation.md)]
 
 Perform the following steps to create an app profile:
 
@@ -36,7 +36,7 @@ Perform the following steps to create an app profile:
 
 For an app profile, you can add only one session template for each entity type. Typically, you'll add one session template for each entity type, such as one each session template for accounts, contacts, and cases.
 
-The settings that you enable for the app profile will be available for agents and supervisor only when you configure the corresponding templates and settings in the Customer Service Hub app or Omnichannel Administration app. For example, channels must be provisioned in Omnichannel for Customer Service and channel instances must be configured.
+The settings that you enable for the app profile will be available for agents and supervisor only when you configure the corresponding templates and settings in the Customer Service Hub or Omnichannel admin center app. For example, channels must be provisioned in Omnichannel for Customer Service and channel instances must be configured.
 
 1. In the **App profiles** section, select the app profile to which you want to assign templates.
 2. On the **Session templates**, select **Add entity session template**.

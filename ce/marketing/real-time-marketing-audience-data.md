@@ -2,7 +2,6 @@
 title: "Select the audience source for real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to select the audience source for real-time journeys in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -39,7 +38,7 @@ To make changes to the audience configuration, select a data source (**Contact**
 > [!div class="mx-imgBorder"]
 > ![Audience configuration edit pane screenshot.](media/real-time-marketing-audience-edit.png "Audience configuration edit pane screenshot")
 
-You can change the default recipient or add more recipient fields. You can select any of the fields you added when adding an email or SMS tile to a customer journey.
+You can change the default recipient or add more recipient fields. You can select any of the fields you added when adding an email or text message tile to a customer journey.
 
 A default value is displayed in the *Send-to* field, but you can select any other recipient field from the dropdown menu.
 

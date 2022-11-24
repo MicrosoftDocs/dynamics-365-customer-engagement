@@ -9,8 +9,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: D365JB
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app: 
   - D365CE
@@ -390,7 +390,6 @@ You should now see the device on the customer asset, under **Connected Devices**
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the customer asset, showing the MXChip under "Connected Devices".](./media/cfs-mxchip-36.png)
 
-
 ## See also
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoT Central](https://youtu.be/Sp7_JoXjHDk)
@@ -402,7 +401,5 @@ You should now see the device on the customer asset, under **Connected Devices**
 - [MXChip 2.1 Firmware on GitHub](https://github.com/Azure/iot-central-firmware/releases/tag/mxchip-v2.1.0)
 
 - [Overview of Connected Field Service with IoT Central](/dynamics365/customer-engagement/field-service/cfs-iot-overview)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

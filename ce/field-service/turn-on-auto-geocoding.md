@@ -6,8 +6,8 @@ ms.custom:
 ms.date: 09/08/2022
 ms.reviewer: mhart
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE
@@ -52,13 +52,4 @@ With the **Auto Geo Code Addresses** setting, the system attempts to automatical
   
 4. On the map dialog box, make sure you have the correct address, and then select **Change**.
   
-### See also
-
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Install](../field-service/install-field-service.md)   
- [Configure default settings](../field-service/configure-default-settings.md)   
- [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
- [User's Guide](../field-service/user-guide.md)<br>
- [Extend Universal Resource Scheduling actions to use your preferred geospatial data provider](../common-scheduler/developer/use-preferred-geospatial-data-provider.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

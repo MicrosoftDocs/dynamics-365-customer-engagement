@@ -5,8 +5,8 @@ ms.date: 07/28/2022
 ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.author: jacoh
+author: jasonccohen
 manager: shellyha
 search.app: 
   - D365CE
@@ -50,14 +50,4 @@ Resource pay types can be used to track your company's costs associated with a r
   
     - **Business Closure:** Time recorded by a resource when the company is closed.  
   
-### See also
-
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set when your business is closed](../field-service/set-when-business-closed.md)   
- [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
- [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
- [Set up characteristics](../field-service/set-up-characteristics.md)
- [User's Guide](../field-service/user-guide.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

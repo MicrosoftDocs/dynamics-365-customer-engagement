@@ -337,7 +337,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 			var longitude = position.coords.longitude;
 			console.log('Your latitude is :'+latitude+' and longitude is '+longitude);
 			//convert current loaction to a country/ region via Bing Geolocation APIs
-			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
+			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://learn.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
 			GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryNameWhereProactiveChatInviteShouldBeOffered);// get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with Country name where proactive chat invite should be offered
 		}
 		

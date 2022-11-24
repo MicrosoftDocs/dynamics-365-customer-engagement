@@ -8,8 +8,8 @@ ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: Edipple
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE
@@ -69,12 +69,5 @@ Finally, when the work order is reviewed and closed by a service manager, **Inve
 
 The following diagram references the same work order process diagram in the beginning of this article, but with common names instead of entity names.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order process diagram with common names.](./media/admin-field-service-architecture-common.png)
-
-### See also
-
-- [Work order life cycle and statuses](work-order-status-booking-status.md)
-- [Connected Field Service architecture](../field-service/developer/connected-field-service-architecture.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

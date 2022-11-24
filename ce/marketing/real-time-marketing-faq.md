@@ -2,7 +2,6 @@
 title: "Troubleshoot real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Troubleshooting and frequently asked questions for real-time marketing in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -50,4 +49,4 @@ The default channel acts as a control group allowing 10 percent of your audience
 
 - **Push notifications**: Number of unique people that open or clicked a link divided by total number of push notifications sent.
 - **Email**: The number of unique people that opened or clicked a link divided by total number of emails sent.
-- **SMS**: The number of unique people that clicked a link divided by the total number of SMS messages sent.
+- **SMS**: The number of unique people that clicked a link divided by the total number of SMS (text) messages sent.

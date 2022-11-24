@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor settings for managing agent conversations | MicrosoftDocs
-description: "How to enable supervisors to monitor, assign, and transfer conversations in the Omnichannel admin center and Omnichannel Administration apps."
-ms.date: 06/09/2022
+description: "How to enable supervisors to monitor, assign, transfer, and close conversations in the Customer Service admin center app."
+ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,13 +12,12 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
 
-As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the Customer Service admin center, Omnichannel admin center or Omnichannel Administration apps.
+As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the admin app.
 
 ## Configure Supervisor settings
 
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the admin apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
@@ -38,13 +37,13 @@ As an administrator, you can enable your supervisors to take specific actions on
     - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
     - **Supervisor Assign**: Assign conversations to agents.
     - **Supervisor Transfer**: Transfer conversations from one agent to another.
-    - **Force Close**: End conversations that take place on messaging channels.
+    - **Force Close**: End voice calls and conversations that take place on the voice and messaging channels. More information: [Monitor, assign, transfer, and forcibly end conversations](monitor-conversations.md#end-conversations-forcibly)
 
-3. To disable any of the settings, set its corresponding toggle to **No**.
+3. To disable any of the settings, set the corresponding toggle to **No**.
 
 ### See also
 
-[Monitor, assign, and transfer conversations](monitor-conversations.md)  
+[Monitor, assign, transfer, and close conversations](monitor-conversations.md)  
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

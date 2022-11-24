@@ -1,7 +1,7 @@
 ---
 title: "Limitations on migrating files between environments (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about limitations on migrating files between environments and possible workarounds."
-ms.date: 11/24/2020
+ms.date: 09/27/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,6 +21,9 @@ Out of the box, Dynamics 365 Marketing doesn't provide tools to migrate files be
 
 On a high level, the tool would fetch files from the source environment, download the metadata and content for each file, and then create the file in the target environment. On the source environment, metadata for files are stored in the **msdyncrm_file** entity. The **msdyncrm_blobcdnuri** field contains a URL to the file content.
 
+> [!WARNING]
+> The Marketing app doesn't currently support migration between different tenant geographic locations (geo to geo).
+
 ## An example flow to clone files (digital assets) in Marketing
 
 > [!IMPORTANT]
@@ -39,8 +42,8 @@ The flow should start with a call to the **msdyncrm_UpsertFile** custom action u
     - **name**: Value of the keyword
 
 - The call returns properties required for uploading the file content. Of particular note:
-    - **msdyncrm_bloburi**: URI of the Azure blob to upload the content to
-    - **msdyncrm_sastoken**: SAS token used for the upload
+    - **msdyncrm_bloburi**: URI to upload the content to
+    - **msdyncrm_sastoken**: SAS token used for the upload (can be an empty string)
     - **msdyncrm_fileid**: ID of the newly created msdyncrm_file record
 
 - A PUT call is made to an endpoint provided by **msdyncrm_bloburi** with the file content.

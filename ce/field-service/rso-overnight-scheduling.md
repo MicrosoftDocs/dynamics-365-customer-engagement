@@ -9,8 +9,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 search.app: 
   - D365CE
   - D365FS
@@ -148,13 +148,5 @@ A defining characteristic of overnight scheduling is that dispatchers have prior
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a locked booking on the schedule board, pointing to the booking method "Schedule Board."](./media/rso-overnight-lock.png)
-
-### See also
-
-- [Resource Scheduling Optimization quickstart](./rso-quickstart.md)
-- [Booking lock options](./booking-lock-options.md)
-- [Resource Scheduling Optimization configuration](./rso-configuration.md)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

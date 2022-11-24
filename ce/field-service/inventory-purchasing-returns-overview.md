@@ -9,8 +9,8 @@ ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+ms.author: jacoh
+author: jasonccohen
 manager: shellyha
 search.app: 
   - D365CE
@@ -143,10 +143,5 @@ Most importantly, inventory journals are sometimes used to integrate Field Servi
 ## Configuration considerations
 - Adding the **Inventory Purchase** security role to a user's existing security role (dispatcher or resource) will give them access to create and edit inventory-related entities such as warehouse, purchase orders, and RMAs.
 - By adding a warehouse to each bookable resource, you can define the default warehouse that will be used when that bookable resource uses a work order product.
-
-### See also
-
-- [Products and services](./create-product-or-service.md)
-- [Manual inventory journals](./manual-inventory-journals.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,9 +3,9 @@ title: Create or change a service in Dynamics 365 Customer Service | MicrosoftDo
 description: Learn how to create or change a service by using the service records in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
 ms.topic: article
-ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
-author: lalexms
-ms.author: laalexan
+ms.author: jacoh
+author: jasonccohen
+ms.reviewer: mhart
 manager: shellyha
 search.audienceType: 
   - admin
@@ -83,12 +83,5 @@ A service requires at least one selection rule and one or more resources, resour
   
 ## Activate or deactivate a service  
  You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then click **More Actions** > **Activate** or **More actions** > **Deactivate**.  
-  
-### See also  
- [Set the capacity required for a service or resource](set-capacity-required-service-resource.md)   
- [Create or edit a selection rule](create-simple-selection-rule.md)   
- [Create or change a resource group](create-edit-resource-group.md)   
- [Set work hours for a resource](set-work-hours-resource.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

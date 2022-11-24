@@ -4,8 +4,8 @@ description: Learn about creating purchase orders in Dynamics 365 Field Service
 ms.date: 09/05/2022
 ms.reviewer: mhart
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.author: jacoh
+author: jasonccohen
 manager: shellyha
 search.app: 
   - D365CE
@@ -93,10 +93,5 @@ A purchase order receipt doesn't need to contain all products requested or all q
 1. Select **Save**.  
   
 1. To add items to the purchase order bill, go to **Related** > **Receipt Products** and select **+New**.
-
-### See also
-
- [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)     
- [Process a return](../field-service/process-return.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

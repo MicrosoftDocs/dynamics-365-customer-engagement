@@ -1,13 +1,11 @@
 ---
 title: "Protect content with sensitivity labels in Microsoft Teams | MicrosoftDocs"
 description: "Users can collaborate with others both inside and outside your organization. Learn how to use sensitivity labels to protect your content in Microsoft Teams."
-ms.date: 08/09/2022
+ms.date: 08/26/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.reviewer: 
-ms.custom: 
 search.audienceType: 
   - enduser
 search.app: 
@@ -15,9 +13,6 @@ search.app:
   - Powerplatform
 applies_to: 
   - Dynamics 365 apps
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
 ---
 
 # Enable sensitivity labels to protect content in Microsoft Teams
@@ -76,9 +71,10 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
 
 2. From the site map, under **General Settings**, select **Chat and collaborate**.
 
-3. Set the **Enable Confidential Labels** toggle to **Yes**. When you're done, select **Save**. 
+3. Turn on the **Turn on Confidential Labels** toggle.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels.png)  
+    ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels.png)  
+
+4. Select **Save**. 
     
 To learn how to use sensitivity labels, see [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).

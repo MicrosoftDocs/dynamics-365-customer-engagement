@@ -5,8 +5,8 @@ ms.date: 09/30/2017
 ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.author: jacoh
+author: jasonccohen
 manager: shellyha
 search.app: 
   - D365CE
@@ -22,11 +22,4 @@ Set up agreement substatuses in [!INCLUDE[pn_dyn_365_field_service](../includes/
   
 3.  Use the tooltips to help fill in your information, and then select **Save**.  
   
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
- [Set up tax codes](../field-service/set-up-tax-codes.md)   
- [User's Guide](../field-service/user-guide.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

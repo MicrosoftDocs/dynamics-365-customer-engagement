@@ -1,10 +1,10 @@
 ---
 title: "Get real-time call data through Teams calls in Dynamics 365 Sales"
 description: "Get real-time analysis of call data through Teams calls in Dynamics 365 Sales."
-ms.date: 06/14/2022
+ms.date: 10/31/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
@@ -12,7 +12,7 @@ ms.custom:
 
 # Get real-time call data through Teams calls
 
-Conversation intelligence with Teams calls gets you real-time analysis of call data, including  overview, summary, transcription, insights, and action items. To use this feature, an administrator must configure Microsoft Teams in your organization. More information: [First-run setup experience for conversation intelligence in sales app](fre-setup-ci-sales-app.md) 
+Conversation intelligence with Teams calls gives you real-time call data analysis that includes overview, summary, transcription, insights, and action items. To use this feature, an administrator must configure Microsoft Teams in your organization. More information: [First-run setup experience for conversation intelligence in sales app](fre-setup-ci-sales-app.md) 
 
 ## License and role requirements
 | Requirement type | You must have |

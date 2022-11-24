@@ -5,9 +5,9 @@ ms.date: 01/27/2022
 ms.reviewer: mhart
 
 ms.topic: article
-author: xonatia
-ms.author: xolee
-manager: hegate
+author: ryanchen8
+ms.author: chenryan
+manager: shellyha
 search.app: 
   - D365CE
   - D365FS
@@ -305,11 +305,5 @@ The process is similar for resources with resource type of Account or User. **Ed
 
   * Create a tab with name as *work hours*. Create a section in it and add the *calendar* field to it.
   * Double-click on the calendar field, and change the control to *Work Hour Control*. Save and publish the form.
-
-### See also   
- 
- [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
- [Set up characteristics](../field-service/set-up-characteristics.md)   
- [Set up resource pay types](../field-service/set-up-resource-pay-types.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,7 +31,7 @@ The following developer tools in the SDK are available as NuGet packages:
 - Plug-in Registration
 - Solution Packager 
 
-To download developer tools, see [Download tools from NuGet](download-tools-nuget.md)
+To download developer tools, see [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget)
 
 ## SDK assemblies
 

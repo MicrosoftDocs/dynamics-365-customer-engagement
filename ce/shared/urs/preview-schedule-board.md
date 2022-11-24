@@ -63,7 +63,7 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ## Enable new schedule board for your organization
 
-The new schedule board is not turned on by default, so you'll have to enable it in order to use it in your organization.
+The new schedule board isn't turned on by default, so you'll have to enable it in order to use it in your organization.
 
 To enable the new schedule board, go to **Scheduling** > **Administration** > **Scheduling Parameters** and switch on the **Enable new Schedule Board** toggle.
 
@@ -171,7 +171,7 @@ Select **Group** to group available resources by the column value. In the follow
 > [!div class="mx-imgBorder"]
 > ![Group available resources on the schedule board.](../../field-service/media/schedule-board-group.png)
 
-Grouping resources helps dispacthers make better sense of availability based on different attributes.
+Grouping resources helps dispatchers make better sense of availability based on different attributes.
 
 > [!div class="mx-imgBorder"]
 > ![Grouped resources on the schedule board in Field Service.](../../field-service/media/schedule-board-group2.png)
@@ -273,7 +273,7 @@ A map view will open showing the day's worth of bookings for the selected resour
 
 ## Edit multi-day bookings
 
-After a multi-day booking is created across multiple days, weeks, or months, dispatchers can right-click a booking, select edit, and change how many hours are assigned for each day, week, or month via a booking panel on the right. 
+Dispatchers can right-click a multi-day booking, select edit and change how many hours are assigned for each day, week, or month. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a multi-day booking on the schedule board.](../../field-service/media/schedule-board-new-edit-multiday-bookings.png)
@@ -290,6 +290,8 @@ Fill in the relevant details about your new schedule board tab, and then **Add**
 > [!div class="mx-imgBorder"]
 > ![New schedule board tab dialog in Field Service.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation.png)
 
+Rearranging schedule board tabs is currently not supported. 
+
 ## Custom web resource panel
 
 Use the Schedule Board **Client Extension Framework** to add custom web resources to the schedule board, which could be HTML, JavaScript, a custom app built on Power Apps, and so on. 
@@ -301,7 +303,7 @@ To see a custom web resource, select the web resource icon in the menu, as seen 
 
 ## Schedule board settings
 
-Use the **Gear icon** to open the schedule board settings panel on the the new schedule board. 
+Use the **Gear icon** to open the schedule board settings panel on the new schedule board. 
 
 > [!div class="mx-imgBorder"]
 > ![Schedule board settings icon on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
@@ -322,12 +324,12 @@ Use the **Gear icon** to open the schedule board settings panel on the the new s
 > [!div class="mx-imgBorder"]
 > ![Schedule board settings dialog, showing the settings for booking tooltips, booking details, and more.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience.png)
 
-## Automated Scheduling (RSO)
+## Automated Scheduling (Resource Scheduling Optimization)
 
 > [!Note]
 > The following features like **suggest resources, book resources, single resource optimization, and optimization goals** are only available for organizations using [Resource Scheduling Optimization](../../field-service/rso-overview.md).
 
-Organizations using [Resource Scheduling Optimization](../../field-service/rso-overview.md) will find additional capabilities in the schedule board. 
+Organizations using [Resource Scheduling Optimization](../../field-service/rso-overview.md) will find more capabilities in the schedule board. 
 
 ### Suggest resources
 
@@ -342,15 +344,10 @@ Selecting **Suggest resources** will display recommended resources in the right 
 
 ### Book resources
 
-
 Selecting **Book resources** will find the most optimal resources and book them without further actions from the dispatcher.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling assistant preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
-
-
-
-
 
 ### Single Resource Optimization 
 
@@ -372,12 +369,11 @@ The schedule board supports optimization goals. After selecting suggested resour
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule assistant showing optimization goals on the schedule board.](../../field-service/media/schedule-board-new-optimization-goals-edit.png)
 
-There is a default optimization goal that applies to the entire system and serves as the default for optimization requests. Dispatchers can also edit the default optimization goal for each schedule board. Finally, dispatchers can edit the optimization goal for a single optimization request by selecting **Suggest Resources**. 
-
+There's a default optimization goal that applies to the entire system and serves as the default for optimization requests. Dispatchers can also edit the default optimization goal for each schedule board. Finally, dispatchers can edit the optimization goal for a single optimization request by selecting **Suggest Resources**. 
 
 ## Configuration considerations
 
-- The new schedule board is currently supported on Microsoft Edge, Chrome, and Firefox browsers. Currently, Internet Explorer 11 is not supported.
+- The new schedule board works with Microsoft Edge, Google Chrome, and Firefox browsers. Currently, Internet Explorer 11 isn't supported.
 
 ### When to use the new versus current schedule board
 
@@ -385,8 +381,8 @@ The new schedule board has the same capabilities as the older schedule board. Us
 
 | Feature   | Category   | New schedule board     | Old schedule board | Details   |
 | --------- | ---------- | ------ | ------ | ---- |
-| Manual scheduling     | Dispatcher | Yes   | Yes   | Dispatcher can manually select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
-| Assisted scheduling (find availability)           | Dispatcher | Yes | Yes         | Dispatcher can select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Dispatcher can choose a timeslot and create a booking.       |
+| Manual scheduling     | Dispatcher | Yes   | Yes   | Select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
+| Assisted scheduling (find availability)           | Dispatcher | Yes | Yes         | Select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Choose a timeslot and create a booking.       |
 | Automated scheduling          | Dispatcher | For existing resource scheduling optimization customers, public preview is available.  | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling dispatchers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
 | Auto update travel time    | Dispatcher | Yes                  | Yes                |  When a booking is manually scheduled or rescheduled via drag-and-drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking. [See more details](/dynamics365/field-service/schedule-with-travel-time#add-travel-time-with-manual-scheduling).         |
 | View modes - Hourly, daily    | Dispatcher | Yes                               | Yes                | Show the resources and their bookings on the hourly and daily views of the schedule board.          |
@@ -401,9 +397,6 @@ The new schedule board has the same capabilities as the older schedule board. Us
 | Configuration                 | Admin      | Yes       | Yes                | Admin can create new tabs on the schedule board and configure changes on the board, tab settings, and scheduler settings      |
 | Extensibility       | Admin      | Yes            | Yes                | Admin can extend the schedule board and use extensibility on some of features like<br>Custom Booking template (Hours) - HTML<br>Custom Booking alerts - HTML<br>Custom Resource Cell Template - HTML<br>Custom Filter Layout - Universal FetchXML<br>SB/SA Retrieve Resources Query - Universal FetchXML<br>SB/SA Retrieve Constraints query - Universal FetchXML<br>Custom Web resource support<br>Client Extensions (support for JavaScript, style sheets, and Localizations files)<br>Booking Rules (Support for custom business logic via JavaScript on the booking creation) |
  
-
-
-
 ### Add new schedule board to custom sitemap area
 
 When using a custom sitemap or an app module, you'll need to update the sitemap to consume the new schedule board preview.
@@ -434,15 +427,4 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 2. Remove the new schedule board preview control from the grid.
 3. Save and publish the changes.
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
-5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
-
-
-
-
-
-
-
-
-
-
-
+5. Once the solution is uninstalled, the new schedule board won't be available for the environment until you upgrade your Field Service app to the latest available version.

@@ -1,12 +1,11 @@
 ---
 title: "Prerequisites to administer conversation intelligence"
 description: "Verify the prerequisites that are necessary to administer conversation intelligence in your Dynamics 365 Sales organization."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 
@@ -30,8 +29,10 @@ Verify the prerequisites that are necessary to administer conversation intellige
 
 ## Prerequisites
 
-Verify the following requirements before setting up conversation intelligence for your organization:   
--	You must have an administrator or similar role.   
+Verify the following requirements before setting up conversation intelligence for your organization:  
+
+-	You must have an administrator or similar role.  
+
 -	You must have a Dynamics 365 Sales organization.   
 -	You must purchase a Dynamics 365 Sales Enterprise, [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) or Dynamics 365 Sales Premium license.         
     > [!NOTE]

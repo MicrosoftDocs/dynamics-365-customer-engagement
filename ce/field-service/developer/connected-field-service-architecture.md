@@ -8,8 +8,8 @@ ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app:
 - D365CE
@@ -66,9 +66,4 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 ## Component data flow diagram
  A data flow between the Azure IoT Hub and Connected Field Services components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)].
 
-### See also
-
-[Connected Field Service with Azure IotHub Overview](/customer-engagement/field-service/developer/connected-field-service-developer-guide)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../../includes/footer-banner.md)]

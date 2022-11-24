@@ -33,6 +33,15 @@ To enable the dashboards, see [Configure Omnichannel historical analytics](oc-hi
 
 The following dashboard reports are available for Omnichannel historical analytics.
 
+### Summary
+
+The Summary dashboard gives you an integrated view of the Power Virtual Agents bot and Omnichannel metrics.
+
+> [!div class="mx-imgBorder"]
+> ![Summary dashboard.](media/oc-summary-dashboard.png "Summary dashboard")
+
+More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
+
 ### Conversation
 
 The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.

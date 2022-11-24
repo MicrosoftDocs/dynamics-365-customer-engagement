@@ -9,8 +9,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 manager: shellyha
 search.app: 
   - D365CE
@@ -260,12 +260,5 @@ Back on the completed scheduling optimization request in the **Bookings** tab, y
 > ![Screenshot of the list of bookings.](./media/rso-quickstart-graph.png)
 
 Congratulations! You have successfully run resource scheduling optimization!
-
-### See also
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [QuickStart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)
-- [Resource scheduling optimization frequently asked questions](rso-faq.yml)
-- [Resource scheduling optimization configurations](rso-configuration.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

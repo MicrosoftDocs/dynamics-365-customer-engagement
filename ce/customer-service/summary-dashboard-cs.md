@@ -27,9 +27,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Summary dashboard
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into which topics are generating the highest volume and which topics are emerging with the highest rate of change in volume.
-
-To view the Summary dashboard, in Customer Service workspace, select the plus (**+**) icon, and then select **Customer Service historical analytics**. On the page that appears, select **Summary**.
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into topics that are generating the highest volume and which topics that are emerging with the highest rate of change in volume.
 
 The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
 
@@ -40,6 +38,9 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
 
+### Access the Summary dashboard
+
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
 
 ## Key insights card
 

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information about the Microsoft.CIFramework JavaScript methods for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/22/2022
+ms.date: 11/18/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -16,6 +16,7 @@ ms.custom:
 Microsoft CIFramework provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
 > [!Important]
+> - The APIs are supported only from the active channel providers configured in your organization.
 > - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
 > - The time-out limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
 
@@ -86,7 +87,6 @@ Use the following APIs to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
-| [initLogAnalytics](/dynamics365/customer-service/channel-integration-framework/v2/reference/updateConversation) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
 
 ## Session indicator APIs
@@ -122,10 +122,11 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
 | [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/includes/raiseEvent-description.md)] |
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
+| [updateConversation](microsoft-ciframework/updateConversation.md) | This method allows you to update a conversation record. |
 
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
-[System requirements for Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)  
+[System requirements for Dynamics 365 Channel Integration Framework 2.0](../system-requirements-channel-integration-framework-v2.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

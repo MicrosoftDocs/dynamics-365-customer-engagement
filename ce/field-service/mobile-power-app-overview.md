@@ -33,9 +33,4 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
 
-### See also
-
-[5 tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

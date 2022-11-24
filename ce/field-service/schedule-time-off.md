@@ -4,9 +4,9 @@ description: Learn about how to schedule time off for a user, a facility, and eq
 ms.date: 09/15/2017
 
 ms.topic: article
-ms.assetid: 9488c217-f9f8-4774-8f96-ca0f98b86167
-author: lalexms
-ms.author: laalexan
+author: ryanchen8
+ms.author: chenryan
+ms.reviewer: mhart
 manager: shellyha
 search.audienceType: 
   - admin
@@ -64,8 +64,4 @@ More information on scheduling a resource for business closure or holiday: *Set 
   
     You can update your own working hours or time off, and add yourself to teams and resource groups. On the **Tools** menu, click **Options**. On the **General** tab, at the bottom of the page, click the **user information** link.  
   
-### See also  
- [Set work hours for a resource](../field-service/set-work-hours-resource.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

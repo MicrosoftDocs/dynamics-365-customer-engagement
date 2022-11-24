@@ -2,7 +2,7 @@
 title: "msdyn_WKWGDPRDeleteStatus custom action"
 description: "Understand the parameters, and web API calls for checking the status of msdyn_WKWDeleteGDPRData request."
 ms.date: 08/19/2022
-ms.topic: topic
+ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi

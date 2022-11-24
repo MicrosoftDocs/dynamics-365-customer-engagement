@@ -27,8 +27,8 @@
   - name: Developer tools
     href: developer-tools.md
     items:
-    - name: Download tools from NuGet
-      href: download-tools-nuget.md
+    - name: Download developer tools
+      href: /powerapps/developer/data-platform/download-tools-nuget
     - name: Visual Studio and the .NET Framework
       href: visual-studio-dot-net-framework.md
     - name: Browse the metadata for your organization
@@ -223,44 +223,8 @@
         href: supported-entities-asynchronous-operations.md
       - name: Stop and start the asynchronous service
         href: stop-start-asynchronous-service.md
-    - name: Azure extensions
+    - name: Azure integration
       href: azure-extensions.md
-      items:
-      - name: Azure integration
-        href: azure-integration.md
-      - name: Configure Azure integration with Customer Engagement (on-premises)
-        href: configure-azure-integration.md
-      - name: Work with data in your Azure solution
-        href: work-data-azure-solution.md
-      - name: Work with event data in your Azure Event Hub solution
-        href: work-event-data-azure-event-hub-solution.md
-      - name: Write a custom Azure-aware plug-in
-        href: write-custom-azure-aware-plugin.md
-      - name: Write a listener application for a Microsoft Azure solution
-        href: write-listener-application-azure-solution.md
-      - name: 'Walkthrough: Configure Microsoft Azure (SAS) for integration with Customer Engagement (on-premises)'
-        href: walkthrough-configure-azure-sas-integration.md
-      - name: 'Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool'
-        href: walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md
-      - name: 'Walkthrough: Update a service endpoint from ACS to SAS authorization'
-        href: walkthrough-update-service-endpoint-acs-sas-authorization.md
-      - name: 'Walkthrough: Update a service endpoint imported from a solution'
-        href: walkthrough-update-service-endpoint-imported-solution.md
-      - name: Sample code for Customer Engagement (on-premises) and Azure integration
-        href: sample-code-azure-integration.md
-        items:
-        - name: 'Sample: Azure aware custom plug-in'
-          href: sample-azure-aware-custom-plugin.md
-        - name: 'Sample: Azure aware custom workflow activity'
-          href: sample-azure-aware-custom-workflow-activity.md
-        - name: 'Sample: One-way listener'
-          href: sample-one-way-listener.md
-        - name: 'Sample: Two-way listener'
-          href: sample-two-way-listener.md
-        - name: 'Sample: REST listener'
-          href: sample-rest-listener.md
-        - name: 'Sample: Persistent queue listener'
-          href: sample-persistent-queue-listener.md
     - name: Use WebHooks
       href: use-webhooks.md
   - name: Extend Customer Engagement (on-premises) on the client
@@ -388,43 +352,6 @@
         href: customize-dev/sitemap-schema.md
     - name: Customize commands and the ribbon
       href: customize-dev/customize-commands-ribbon.md
-      items:
-      - name: Ribbons available in Dynamics 365
-        href: customize-dev/ribbons-available-microsoft-dynamics-365.md
-      - name: Command bar or ribbon presentation
-        href: customize-dev/command-bar-ribbon-presentation.md
-      - name: Export ribbon definitions
-        href: customize-dev/export-ribbon-definitions.md
-      - name: Export, prepare to edit, and import the ribbon
-        href: customize-dev/export-prepare-edit-import-ribbon.md
-      - name: Use localized labels with ribbons
-        href: customize-dev/use-localized-labels-ribbons.md
-      - name: Define ribbon commands
-        href: customize-dev/define-ribbon-commands.md
-      - name: Define ribbon enable rules
-        href: customize-dev/define-ribbon-enable-rules.md
-      - name: Define ribbon display rules
-        href: customize-dev/define-ribbon-display-rules.md
-      - name: Define ribbon actions
-        href: customize-dev/define-ribbon-actions.md
-      - name: Pass Dynamics 365 data from a page as a parameter to Ribbon Actions
-        href: customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md
-      - name: Define custom actions to modify the ribbon
-        href: customize-dev/define-custom-actions-modify-ribbon.md
-      - name: Define scaling for ribbon elements
-        href: customize-dev/define-scaling-ribbon-elements.md
-      - name: Define ribbon tab display rules
-        href: customize-dev/define-ribbon-tab-display-rules.md
-      - name: Pass parameters to a URL by using the ribbon
-        href: customize-dev/pass-parameters-url-by-using-ribbon.md
-      - name: 'Sample: Export ribbon definitions'
-        href: customize-dev/sample-export-ribbon-definitions.md
-      - name: Ribbon core schema
-        href: customize-dev/ribbon-core-schema.md
-      - name: Ribbon types schema
-        href: customize-dev/ribbon-types-schema.md
-      - name: Ribbon WSS schema
-        href: customize-dev/ribbon-wss-schema.md
     - name: Service calendar appearance configuration
       href: customize-dev/service-calendar-appearance-configuration.md
       items:

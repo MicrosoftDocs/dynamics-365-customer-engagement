@@ -5,8 +5,8 @@ ms.date: 01/09/2020
 ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.author: jacoh
+author: jasonccohen
 manager: shellyha
 search.app: 
   - D365CE
@@ -138,9 +138,5 @@ You only need to create an RTV if the return is going back to the vendor. Once t
 11. Select the RMA receipt.  
   
 12. On the command bar at the top, select **Credit to Customer**.  
-
-### See also    
- [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
- [Create a purchase order](../field-service/create-purchase-order.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,11 @@
 title: "View overall insights of your sales and sellers"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
-ms.date: 11/23/2021
+ms.date: 11/24/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
@@ -16,6 +16,7 @@ topic-status: Drafting
 When you sign in to conversation intelligence as a sales manager, you'll see the home page. This page provides high-level information on the status of your current sales period and insights into what your customers are talking about, the behaviors of your top sellers, and the team's sales pipeline for the selected time period.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -72,6 +73,7 @@ The following image is an example of how the base KPIs are displayed.
 The **What are customers talking about** section helps you to understand what's happening in sales calls and what customers are talking about. These insights can provide you with possible ideas for coaching scenarios for your sales team, helping them improve their performance during the sales calls. 
 
 This also helps in driving strategic motion by looking at the keywords, brands, and competitors mentioned during the call. For example, "3D printer" is trending more during customer calls, but 3D printer sales aren't reaching targets. You can coach the sales team on how to sell 3D printers more effectively to customers.
+
 
 The following insights are available for you to understand what customers are talking about:
 
@@ -159,7 +161,7 @@ Select **Show details** to view more details on top brands and organizations. Th
 
 The **What characterizes top sellers** section helps you understand the conversational behavior of your top sellers. The insights are generated based on the revenue that the top sellers generate. For example, Bart and John are sellers, and they generate more than average revenue on your team. The insights in this section are generated based on the conversational behavior of Bart and John.
 
-By analyzing these insights, you can understand what makes the top sellers most effective in generating revenue, and you can apply this knowledge to coach other sellers on how to generate revenue more effectively. 
+By analyzing these insights, you can understand what makes the top sellers most effective in generating revenue. You can apply this knowledge to coach other sellers on how to generate revenue more effectively. 
 
 The following insights are available for you to understand what characterizes top sellers:
 
@@ -195,7 +197,7 @@ The following image is an example of how the "what are they talking about" insig
 > [!div class="mx-imgBorder"]
 > ![Keywords top sellers are talking about.](media/si-app-what-they-are-talking-about.png "Keywords top sellers are talking about")
 
-In this example, you can see that **Discount**, **VIP**, and **Fabrication** are the top words mentioned by your top sellers. The bubbles show the top 20 keywords that are trending and the number of times that these keywords were mentioned in the calls. 
+In this example, you can see that **Discount**, **VIP**, and **Fabrication** are the top words mentioned by your top sellers. The bubbles show the top 20 trending keywords and the number of times these keywords were mentioned in the calls. 
 
 Select **Show details** to view more details on the top best practice keywords. The details include how many times each best practice keyword is mentioned in the total number of calls, the trend of each best practice keyword over time, and the list of calls that are contributing in analyzing the keywords. Furthermore, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
 
@@ -251,7 +253,7 @@ The call recording KPIs provide an understanding of how calls are trending month
 
 - Calls that mention the brands and competitors you're tracking, and how they're trending.
 
-The following image is an example of how the call recording KPIs are displayed.
+The following image shows how the call recording KPIs are displayed.
 
 > [!div class="mx-imgBorder"]
 > ![Call recording KPIs.](media/si-app-call-recording-kpis.png "Call recording KPIs")

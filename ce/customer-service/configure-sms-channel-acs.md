@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
 description: "Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
-ms.date: 06/17/2022
+ms.date: 10/06/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -21,7 +21,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 ## Prerequisites
 
-- Voice Channel for Dynamics 365 Customer Service must be installed.
+- Voice Channel for Dynamics 365 Customer Service must be purchased and installed.
 - Connect to Azure Communication Services. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   
    If you’ve connected your existing Azure resource, ensure that you’ve enabled SMS services. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services)

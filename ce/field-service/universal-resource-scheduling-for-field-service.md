@@ -6,8 +6,8 @@ ms.reviewer: mhart
 
 ms.custom: intro-internal
 ms.topic: overview
-author: m-hartmann
-ms.author: mhart
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE
@@ -249,13 +249,5 @@ To make sure resources are geocoded properly, navigate to **Universal Resource S
 ## Additional notes
 
 If the work order or requirement doesn't have a latitude or longitude, the location is treated as location-agnostic, which means the location of resources isn't considered during scheduling. If the work order or requirement has a latitude and longitude and work location is set to **onsite**, resource locations, travel time, and routes are considered during scheduling.
-
-### See also
-
-- [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-- [Resource Scheduling Optimization overview](rso-overview.md)
-- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx) 
-- [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

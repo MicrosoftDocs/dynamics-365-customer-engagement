@@ -1,6 +1,312 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-new-journey-version.md",
+      "redirect_url": "real-time-marketing-edit-journey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/app-profile-manager/settings.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/apps-for-power-platform-tou.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146434",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/apps-for-power-platform-tou-med.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2128327",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/dynamics-insider-agreement.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2087260",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/license-terms.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2108407",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-browser-extension.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147471",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-admin-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2140808",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-android.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=391828",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-android-private.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=391828",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-android-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146536",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=313535",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios-private.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=313535",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-ios-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2146535",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-windows.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=296859",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-mobile-windows-private.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2132857",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-pshealth.md",
+      "redirect_url": "https://dynamics.microsoft.com/project-operations/overview/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-sales-acc-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2143976",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-viraltrial.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=831400",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-dynamics365-windows-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=296859",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerapps-mobile-android.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=832922",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerapps-mobile-ios.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2134003",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerapps-mobile-windows.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2133841",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-brsr.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147471",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-desktop.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147215",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerautomate-mobile-android.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2131507",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-powerautomate-mobile-ios.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2131508",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-uiflows.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147215",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-power-automate-uiflows-public.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147215",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/slt-windows-recorder-brsr.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2147696",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=832135",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-customervoice-trial.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2129962",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-gamification.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870920",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-linkedin.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870918",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-preview.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2105274",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-server.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870919",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-voc.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=870926",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-voicesms.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2087259",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/third-party-notices-sales-and-powerapps.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2127442",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/resources/ctpn-dynamics365-fs-mobile.md",
+      "redirect_url": "http://go.microsoft.com/fwlink/?LinkId=780793",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/resources/supp-dynamics365-fieldservice.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=396733",
+      "redirect_document_id": "false"
+    },
+
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-wss-schema.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-wss-schema",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-types-schema.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-types-schema",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-core-schema.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-core-schema",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/sample-export-ribbon-definitions.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/sample-export-ribbon-definitions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/pass-parameters-url-by-using-ribbon.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/pass-parameters-url-by-using-ribbon",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-tab-display-rules.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-tab-display-rules",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-scaling-ribbon-elements.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-scaling-ribbon-elements",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-custom-actions-modify-ribbon.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-custom-actions-modify-ribbon",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-actions.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-actions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-display-rules.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-display-rules",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-enable-rules.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-enable-rules",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/define-ribbon-commands.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/define-ribbon-commands",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/use-localized-labels-ribbons.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/use-localized-labels-ribbons",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/export-ribbon-definitions.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/export-ribbon-definitions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/export-prepare-edit-import-ribbon.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/export-prepare-edit-import-ribbon",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/command-bar-ribbon-presentation.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/command-bar-ribbon-presentation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbons-available-microsoft-dynamics-365.md",
+      "redirect_url": "/power-apps/developer/model-driven-apps/ribbons-available",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-call-overflow.md",
+      "redirect_url": "manage-overflow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/help-hub.md",
+      "redirect_url": "landing-page",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/add-edit-multiregional-instances.md",
       "redirect_url": "/power-platform/admin/regions-overview",
       "redirect_document_id": "false"
@@ -1630,6 +1936,11 @@
     {
       "source_path": "ce/sales-enterprise/insert-email-template.md",
       "redirect_url": "/dynamics365/customer-service/customer-service-hub-user-guide-email-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/faqs-sales.md",
+      "redirect_url": "faq-sales",
       "redirect_document_id": "false"
     },
     {
@@ -13164,7 +13475,12 @@
     },
     {
       "source_path": "ce/developer/azure-integration.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/azure-integration",
+      "redirect_url": "/power-apps/developer/data-platform/azure-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/azure-integration.md",
+      "redirect_url": "/power-apps/developer/data-platform/azure-integration",
       "redirect_document_id": "false"
     },
     {
@@ -13249,7 +13565,12 @@
     },
     {
       "source_path": "ce/developer/configure-azure-integration.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/configure-azure-integration",
+      "redirect_url": "/power-apps/developer/data-platform/configure-azure-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/configure-azure-integration.md",
+      "redirect_url": "/power-apps/developer/data-platform/configure-azure-integration",
       "redirect_document_id": "false"
     },
     {
@@ -13539,7 +13860,12 @@
     },
     {
       "source_path": "ce/developer/download-tools-nuget.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/download-tools-nuget",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/download-tools-nuget.md",
+      "redirect_url": "/power-apps/developer/data-platform/download-tools-nuget",
       "redirect_document_id": "false"
     },
     {
@@ -14059,12 +14385,22 @@
     },
     {
       "source_path": "ce/developer/sample-azure-aware-custom-plugin.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-azure-aware-custom-plugin",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/azure-aware-custom-plugin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-azure-aware-custom-plugin.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/azure-aware-custom-plugin",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/sample-azure-aware-custom-workflow-activity.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-azure-aware-custom-workflow-activity",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/azure-aware-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-azure-aware-custom-workflow-activity.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/azure-aware-custom-workflow-activity",
       "redirect_document_id": "false"
     },
     {
@@ -14109,7 +14445,12 @@
     },
     {
       "source_path": "ce/developer/sample-code-azure-integration.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-code-azure-integration",
+      "redirect_url": "/power-apps/developer/data-platform/azure-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-code-azure-integration.md",
+      "redirect_url": "/power-apps/developer/data-platform/azure-integration",
       "redirect_document_id": "false"
     },
     {
@@ -14349,7 +14690,12 @@
     },
     {
       "source_path": "ce/developer/sample-one-way-listener.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-one-way-listener",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/one-way-listener",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-one-way-listener.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/one-way-listener",
       "redirect_document_id": "false"
     },
     {
@@ -14364,7 +14710,12 @@
     },
     {
       "source_path": "ce/developer/sample-persistent-queue-listener.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-persistent-queue-listener",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/persistent-queue-listener",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-persistent-queue-listener.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/persistent-queue-listener",
       "redirect_document_id": "false"
     },
     {
@@ -14434,7 +14785,12 @@
     },
     {
       "source_path": "ce/developer/sample-rest-listener.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-rest-listener",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/rest-listener",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-rest-listener.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/rest-listener",
       "redirect_document_id": "false"
     },
     {
@@ -14559,7 +14915,12 @@
     },
     {
       "source_path": "ce/developer/sample-two-way-listener.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-two-way-listener",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/two-way-listener",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-two-way-listener.md",
+      "redirect_url": "/power-apps/developer/data-platform/org-service/samples/two-way-listener",
       "redirect_document_id": "false"
     },
     {
@@ -14929,7 +15290,12 @@
     },
     {
       "source_path": "ce/developer/walkthrough-configure-azure-sas-integration.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/walkthrough-configure-azure-sas-integration",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-configure-azure-sas-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-configure-azure-sas-integration.md",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-configure-azure-sas-integration",
       "redirect_document_id": "false"
     },
     {
@@ -14939,7 +15305,12 @@
     },
     {
       "source_path": "ce/developer/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool",
       "redirect_document_id": "false"
     },
     {
@@ -14954,12 +15325,22 @@
     },
     {
       "source_path": "ce/developer/walkthrough-update-service-endpoint-acs-sas-authorization.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/walkthrough-update-service-endpoint-acs-sas-authorization",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-configure-azure-sas-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-update-service-endpoint-acs-sas-authorization.md",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-configure-azure-sas-integration",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/walkthrough-update-service-endpoint-imported-solution.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/walkthrough-update-service-endpoint-imported-solution",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-update-service-endpoint-imported-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/walkthrough-update-service-endpoint-imported-solution.md",
+      "redirect_url": "/power-apps/developer/data-platform/walkthrough-update-service-endpoint-imported-solution",
       "redirect_document_id": "false"
     },
     {
@@ -14994,7 +15375,12 @@
     },
     {
       "source_path": "ce/developer/work-data-azure-solution.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/work-data-azure-solution",
+      "redirect_url": "/power-apps/developer/data-platform/work-data-azure-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/work-data-azure-solution.md",
+      "redirect_url": "/power-apps/developer/data-platform/work-data-azure-solution",
       "redirect_document_id": "false"
     },
     {
@@ -15004,7 +15390,12 @@
     },
     {
       "source_path": "ce/developer/work-event-data-azure-event-hub-solution.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/work-event-data-azure-event-hub-solution",
+      "redirect_url": "/power-apps/developer/data-platform/work-event-data-azure-event-hub-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/work-event-data-azure-event-hub-solution.md",
+      "redirect_url": "/power-apps/developer/data-platform/work-event-data-azure-event-hub-solution",
       "redirect_document_id": "false"
     },
     {
@@ -15024,12 +15415,22 @@
     },
     {
       "source_path": "ce/developer/write-custom-azure-aware-plugin.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/write-custom-azure-aware-plugin",
+      "redirect_url": "/power-apps/developer/data-platform/write-custom-azure-aware-plugin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/write-custom-azure-aware-plugin.md",
+      "redirect_url": "/power-apps/developer/data-platform/write-custom-azure-aware-plugin",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/write-listener-application-azure-solution.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/write-listener-application-azure-solution",
+      "redirect_url": "/power-apps/developer/data-platform/write-listener-application-azure-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/write-listener-application-azure-solution.md",
+      "redirect_url": "/power-apps/developer/data-platform/write-listener-application-azure-solution",
       "redirect_document_id": "false"
     },
     {
@@ -22552,11 +22953,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales-enterprise/faqs-sales.md",
-      "redirect_url": "/dynamics365/sales/faqs-sales",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales-enterprise/find-your-way-around-sales-hub-app.md",
       "redirect_url": "/dynamics365/sales/find-your-way-around-sales-hub-app",
       "redirect_document_id": "false"
@@ -23768,7 +24164,7 @@
     },
     {
       "source_path": "ce/sales/index.yml",
-      "redirect_url": "/dynamics365/sales/help-hub",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
@@ -23946,33 +24342,123 @@
       "redirect_url": "edit-a-sequence",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/sales/teams-integration/ci-capabilities.md",
       "redirect_url": "teams-meeting-integration",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/field-service/cfs-authorize-api-connection.md",
-      "redirect_url": "/dynamics365/field-service/installation-setup-iothub",
+      "redirect_url": "/dynamics365/field-service/installation-setup-iothub"
     },
-    {  
+    {
       "source_path": "ce/sales/configure-talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/sales/talking-points.md",
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
     },
-    {  
+    {
       "source_path": "ce/customer-service/csw-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-app-user-guide.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-intune.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-overview.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-use.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/geofencing.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-app-configuration-customization.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-deeplink.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-enable-maps.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-bookings-not-scheduled-to-me.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-bookings-not-showing.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-latest-version.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-sync-crash.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-push-notifications.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-upgrade-project.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-workflow-to-flow.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-version-history-mobile.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-project-version-history.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
       "redirect_document_id": "false"
     }
   ]

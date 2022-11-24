@@ -1,7 +1,7 @@
 ---
 title: "View details of a segment in the sales accelerator"
 description: "View the details of a segment such as, connected sequences, segment members, and assignment rules."
-ms.date: 12/16/2021
+ms.date: 09/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -29,8 +29,11 @@ You can view the details of a segment, such as connected sequences, segment memb
 
     The **Segments** page opens with the list of available segments with details such as status, record type, and owner. The status of a segment specifies whether the segment is active, inactive, or paused. If a segment is paused, it means that the record type of the segment has been deleted from the sales accelerator configuration. You can't activate a paused segment. Add the record type to the configuration to move the segment back to its previous state (active or inactive). For more information about the record type configuration, go to [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout). 
     
+    The **Previously-segmented records** column displays, if the records are allowed to move from anther segment to this segment. Sequence and assignment rules that are related to this segment are automatically applied to the moved records.  
+
     >[!NOTE]
-    >The lead and opportunity record types won't be paused. By default, the lead and opportunity record types are always available in segments even if they're not added as record types.
+    >- The lead and opportunity record types won't be paused or deleted. By default, the lead and opportunity record types are always available in segments even if they're not added as record types.
+    >- Records get assigned to the default segments when defined conditions in other segments doesn't match, an active sequence or assignment rule is associated with the default segment, and records are not segmented before.  
 
     >[!div class="mx-imgBorder"]
     >![Segments page with a list of segments.](media/sa-segment-edit-list-lead-segments.png "Segments page with a list of segments")  
@@ -59,14 +62,3 @@ You can view the details of a segment, such as connected sequences, segment memb
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
  
-
-
-
-
-
-
-
-
-
-
-

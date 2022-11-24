@@ -5,8 +5,8 @@ ms.date: 04/01/2021
 ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 manager: shellyha
 search.app: 
   - D365CE
@@ -190,10 +190,5 @@ Add the two users you created if they are not already added.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the new users.](./media/quickstart-ppac-users-add.png)
-
-## See also
-
-- [Perform initial configurations](perform-initial-configurations-setup.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

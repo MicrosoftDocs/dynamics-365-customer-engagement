@@ -90,7 +90,7 @@
         href: marketing-settings.md
       - name: Real-time marketing administrator settings
         href: real-time-marketing-admin-settings.md
-      - name: "Preview: Create consistent branding with brand profiles"
+      - name: Create consistent branding with brand profiles
         href: brand-profiles.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
@@ -210,7 +210,7 @@
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
-  - name: "Real-time marketing user guide"
+  - name: "Real-time marketing"
     items: 
     - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
@@ -220,6 +220,8 @@
         href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments in real-time marketing
         href: real-time-marketing-ci-profile.md
+      - name: Send a targeted email blast in real-time marketing
+        href: real-time-marketing-email-get-started.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
     - name: Communication channels
@@ -230,6 +232,8 @@
         href: real-time-marketing-push-notifications.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
+      - name: "Preview: Create custom channels"
+        href: real-time-marketing-create-custom-channels.md
       - name: "Preview: Use brand profiles in real-time marketing email"
         href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
@@ -248,6 +252,8 @@
           href: real-time-marketing-dataverse-trigger.md
         - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
+        - name: Test custom triggers before using them
+          href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
         - name: "Preview: Build segments in real-time marketing"
@@ -256,31 +262,43 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
-      - name: Enhance your customer journeys
+        - name: "Preview: Create a static snapshot of a segment"
+          href: real-time-marketing-static-snapshot.md
+        - name: "Preview: Individually manage your customer list"
+          href: real-time-marketing-include-exclude.md
+        - name: "Preview: Sync data tables into the segment builder"
+          href: real-time-marketing-sync-data-tables.md
+      - name: Journey goals and A/B testing
+        items:
+        - name: Set a business goal and measure progress through a journey
+          href: real-time-marketing-business-goals.md
+        - name: Experiment and refine real-time marketing journeys
+          href: real-time-marketing-experimentation.md
+      - name: Advanced journey capabilities
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
         - name: Personalize journey variations using multiple journey branches
           href: real-time-marketing-multiple-branches.md
+        - name: Edit a live journey
+          href: real-time-marketing-edit-journey.md
+        - name: Personalize triggers using conditions
+          href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated SMS keyword flow in customer journeys
+        - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-        - name: Create a new version of a customer journey
-          href: real-time-marketing-new-journey-version.md
-        - name: Set a business goal and measure progress through a journey
-          href: real-time-marketing-business-goals.md
+        - name: "Preview: Use natural language to create segments"
+          href: real-time-marketing-natural-language-segments.md
         - name: Use natural language in real-time marketing journeys
           href: real-time-marketing-natural-language.md
-        - name: Experiment and refine real-time marketing journeys
-          href: real-time-marketing-experimentation.md
       - name: Personalization
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
         - name: "Personalize content using pre-defined dynamic text"
           href: real-time-marketing-predefined-dynamic-text.md
-        - name: "Preview: How to use conditional content"
+        - name: How to use conditional content
           href: conditional-content.md
       - name: Analytics
         items:
@@ -308,7 +326,7 @@
         href: real-time-marketing-move-triggers.md
       - name: Real-time marketing link tracking mechanics
         href: real-time-marketing-link-tracking-mechanics.md
-      - name: Manage SMS keywords used in customer journeys
+      - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
     - name: Developer
       items: 
@@ -318,9 +336,11 @@
         href: real-time-marketing-developer-notifications.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
+      - name: "Preview: Manually add a custom channel"
+        href: real-time-marketing-extend-outreach-custom-channels.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
-  - name: Outbound marketing user guide
+  - name: Outbound marketing
     items: 
     - name: Outbound marketing user guide overview
       href: user-guide.md
@@ -392,7 +412,7 @@
         href: email-design.md
       - name: Add dynamic content to email messages
         href: dynamic-email-content.md
-      - name: "Preview: How to use conditional content"
+      - name: How to use conditional content
         href: conditional-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
@@ -456,7 +476,7 @@
         href: segments-interaction.md
       - name: Generate behavioral segments from journey results
         href: generate-segment-from-journey.md
-      - name: "Use natural language to create segments"
+      - name: Use natural language to create segments
         href: nl-segment-build.md
       - name: Export dynamic-segment members to Excel
         href: segments-export-members.md

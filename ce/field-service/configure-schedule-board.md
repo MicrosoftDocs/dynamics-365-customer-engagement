@@ -5,8 +5,8 @@ ms.date: 08/15/2022
 ms.reviewer: mhart
 
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE
@@ -17,7 +17,7 @@ search.app:
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make. Before you use the schedule board, set up the views and filters to your preference.  
   
 > [!IMPORTANT]
-> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
+> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps. The schedule board isn't supported when using Field Service in Microsoft Teams.  
 >
 > 1. Open the **Resource Scheduling** app.
 > 1. Change to the Settings area and go to **Scheduling** > **Administration**.  
@@ -200,12 +200,5 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
-
-### See also   
-[Overview of Dynamics 365 Field Service](../field-service/overview.md)   
-[Create a work order](../field-service/create-work-order.md)   
-[Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
-[Schedule a work order](../field-service/schedule-work-order.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.reviewer: mhart
 ms.subservice: connected-field-service
 
 ms.topic: overview
-author: m-hartmann
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app: 
   - D365CE
@@ -36,7 +36,7 @@ See below for the differences between the two offerings.
 
 ## Connected Field Service for Azure IoT Central
 
-Connected Field Service for IoT Central provides a direct integration of Dynamics 365 Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Field Service for IoT Central provides a direct integration of Dynamics 365 Field Service with Microsoft Azure IoT Central, a fully managed IoT Application Platform as a Service (APaaS) solution.
 
 Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
@@ -65,18 +65,9 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 > Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules. 
 
 ## Privacy details for Connected Field Service
+
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 
 - [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
-
-### See also  
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)    
- [Install Dynamics 365 Field Service](../field-service/install-field-service.md)   
- [Configure default settings](../field-service/configure-default-settings.md)   
- [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
- [Field Service User Guide](../field-service/user-guide.md) 
-  
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
