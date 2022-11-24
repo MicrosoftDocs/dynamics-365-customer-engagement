@@ -10,7 +10,6 @@ ms.date: 11/24/2022
 ms.custom: bap-template
 ---
 
-
 # Select a language for your knowledge article translation
 
 Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  

@@ -508,7 +508,6 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 - See the **Timeline**. Add notes, or view what you have missed.
 - View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products.
 
-  
 ### Track knowledge article analytics  
 
 Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
