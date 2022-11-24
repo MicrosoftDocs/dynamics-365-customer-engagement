@@ -522,6 +522,8 @@
         href: publish-ka.md
       - name: Translate knowledge articles 
         href: translate-ka.md
+      - name: Dashboards for knowledge articles
+        href: dashboards-ka.md
       - name: Create knowledge article templates in Customer Service
         href: create-templates-knowledge-article.md
     - name: Agent experience
@@ -536,6 +538,8 @@
         href: filter-articles.md
       - name: Submit ratings and feedback for knowledge articles
         href: submit-feedback.md
+      - name: Convert a case to a knowledge article
+        href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
     - name: Self-service experience
