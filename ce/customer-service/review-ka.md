@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 11/16/2022
+ms.date: 11/24/2022
 ms.custom: bap-template
 ---
 
@@ -16,7 +16,7 @@ Review articles for accuracy before they’re published or made available to oth
 
 ## Prerequisites
 
-To approve a knowledge article, you must have Approve permissions for the knowledge article record type. This permission is added by default to the knowledge manager, customer service manager, customer service representative, or system administrator role or equivalent permissions.
+To approve a knowledge article, you must have **Approve** permissions for the knowledge article record type. This permission is added by default to the knowledge manager, customer service manager, customer service representative, or system administrator role or equivalent permissions.
 
 ## How to review, and reject or approve a knowledge article
 
