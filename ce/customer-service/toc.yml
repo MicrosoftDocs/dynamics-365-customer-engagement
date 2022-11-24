@@ -520,6 +520,8 @@
         href: review-ka.md
       - name: Publish knowledge articles 
         href: publish-ka.md
+      - name: Translate knowledge articles 
+        href: translate-ka.md
       - name: Create knowledge article templates in Customer Service
         href: create-templates-knowledge-article.md
     - name: Agent experience
