@@ -345,27 +345,9 @@ For users to be able to view and download file attachments, you'll need to grant
 | Add attachments | Create, append, append-to |
 | Remove and add existing attachments | Append or append-to |
 
-### Update knowledge article attachments for portal
+#### Sync knowledge article attachments to the portal
 
-With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Customer Service Hub app by performing the following steps:
-
-1. Go to the **Sync knowledge article attachments to portal** section.
-
-### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  2. In the **Portals** section, select **Manage**. The **Portal** page appears.
-  3. On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
-
-### [Customer Service Hub](#tab/customerservicehub)
-
-   1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-   2. On the **Settings** page, go to the **Sync knowledge article attachments to portal** section.
-
----
-
-2. Set the **Sync attachments to portal** toggle to **Yes**.
-3. Select **Save**.
+To sync knowledge article attachments to the portal, your administrator must first enable the option. More information: [Update knowledge article attachments for portal](set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)
 
 On syncing knowledge article attachments to the portal:
 
@@ -375,34 +357,6 @@ On syncing knowledge article attachments to the portal:
 
 For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
-## Add a knowledge article rich text editor control to a form
-By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
-
-1. In Power Apps, go to the form where you want to add the rich text editor control, and double-click a field where you can enter single or multiple lines of text to open **Field Properties**. 
-
-2. On the **Field Properties** dialog, select the **Controls** tab.
-
-3. Under **Controls**, select **Rich Text Editor Control**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select Rich Text Editor Control")
-
-3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
-    
-    > [!div class=mx-imgBorder]
-    > ![Select Rich Text Editor Control and the pencil icon.](media/csh-rte-edit-control.png "Select Rich Text Editor Control and the pencil icon to add text")
-    
-    The properties configuration page is displayed.
-
-4. In the **Bind to a static value** field, enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
-
-    > [!div class=mx-imgBorder]
-    > ![Enter value in Bind to a static value field.](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
-
-5. Select **OK** > **OK**, and then select **Save and Publish**.
-
-For more information about rich text control properties, see [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
-  
 ## Mark a knowledge article for review  
 
 To ensure that the content you’ve created is accurate, have someone review it.  
@@ -511,7 +465,7 @@ To view an article’s view counts and other statistics, open the article you wa
   
      By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you expose your knowledge articles better and provide more useful information to your customers and team members.  
 
-## Prevent duplicate workflows with knowledge article operations   
+## Prevent duplicate workflows with knowledge article operations
 
 If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as creating or updating a knowledge article, the update operation is further classified into suboperations, such as:
 

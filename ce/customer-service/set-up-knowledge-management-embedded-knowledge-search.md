@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/03/2022
+ms.date: 11/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -176,6 +176,29 @@ You can configure a knowledge base article URL in the Customer Service admin cen
  4. Select **Save**.
 
 The knowledge base article link is now active and can be copied and shared.
+
+## Update knowledge article attachments for portal
+
+With the knowledge article attachments option, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+
+1. Go to the **Sync knowledge article attachments to portal** section.
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  2. In the **Portals** section, select **Manage**. The **Portal** page appears.
+  3. On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+   2. On the **Settings** page, go to the **Sync knowledge article attachments to portal** section.
+
+---
+
+2. Set the **Sync attachments to portal** toggle to **Yes**.
+3. Select **Save**.
+
 
 ## Set up AI suggestions for article keywords and description
 

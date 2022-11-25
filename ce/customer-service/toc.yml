@@ -550,6 +550,8 @@
       items: 
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
+      - name: Add a knowledge article rich text editor control to a form
+        href: rich-text-editor-ka.md
       - name: Configure faceted search results web template from your portal 
         href: configure-faceted-search-results.md
     - name: Developer experience
