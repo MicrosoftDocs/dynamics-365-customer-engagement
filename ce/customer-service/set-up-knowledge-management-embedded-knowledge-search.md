@@ -179,7 +179,7 @@ The knowledge base article link is now active and can be copied and shared.
 
 ## Update knowledge article attachments for portal
 
-With the knowledge article attachments option, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+With the knowledge article attachments option, you can stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Sync knowledge article attachments to portal** section.
 

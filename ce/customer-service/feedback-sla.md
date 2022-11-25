@@ -1,6 +1,6 @@
 ---
-title: Add feedback for knowledge articles 
-description: Learn how to add feedback and update knowledge articles based on the feedback.
+title: Manage feedback for knowledge articles 
+description: Learn how to add feedback to your knowledge articles and update your knowledge articles based on the feedback.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
@@ -10,9 +10,9 @@ ms.date: 11/24/2022
 ms.custom: bap-template
 ---
 
-# Add feedback for knowledge articles
+# Manage feedback for knowledge articles
 
-Add feedback and update your articles to make them useful for agents.
+Mange feedback received for your articles by adding them to your knowledge articles. Update your knowledge articles based on the feedback to make your articles useful for agents.
 
 ## Add feedback to an article
 
@@ -45,7 +45,7 @@ Add feedback and update your articles to make them useful for agents.
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
 
-## Update knowledge articles to capture feedback  
+## Update knowledge articles based on the feedback  
 
 Ensure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
   

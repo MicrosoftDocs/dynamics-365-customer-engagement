@@ -26,7 +26,7 @@ searchScope:
 
 # Convert a case to a Knowledge article
 
-There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
+There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as an agent, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 
 1. Make sure you have Create permissions on the Knowledge Article entity.  

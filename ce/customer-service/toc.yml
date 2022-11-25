@@ -522,6 +522,8 @@
         href: publish-ka.md
       - name: Translate knowledge articles 
         href: translate-ka.md
+      - name: Manage feedback for knowledge articles
+        href: feedback-sla.md
       - name: Dashboards for knowledge articles
         href: dashboards-ka.md
       - name: Create knowledge article templates in Customer Service
