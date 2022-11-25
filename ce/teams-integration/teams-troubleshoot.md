@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 09/14/2022
+ms.date: 11/17/2022
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -238,6 +238,10 @@ To disable the user from accessing to the documents in the record from the custo
 ### Dynamics 365 app doesn't work on mobile devices
 
 The Dynamics 365 app is not supported on mobile devices.
+
+### Rich text fields in adaptive cards are not displayed correctly
+
+Rich text fields are not supported in adaptive cards and will not render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams does not support rich text formatting on fields in adaptive cards.
 
 
 
