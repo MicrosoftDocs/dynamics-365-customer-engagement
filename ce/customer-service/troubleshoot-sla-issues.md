@@ -1,10 +1,10 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 11/23/2022
+ms.date: 11/25/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -25,6 +25,8 @@ This article explains the various troubleshooting issues related to SLA and prov
 
 ### Primary entity isn't available while creating SLAs
 
+Primary entity isn't listed to be able to create an SLA for the entity.
+
 ### Reason
 
 To create SLA for an entity, you must enable the SLA for that entity and create an active KPI for it.
@@ -37,15 +39,19 @@ Enable SLA for the entity and create an active KPI. For more information on enab
 
 ### Standard SLAs aren't showing up in the migration tool
 
+Migration tool doesn't show standard SLAs for migration.
+
 #### Reason 
 
-The migration tool only supports enhanced SLAs. Standard SLAs have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool.
+Legacy SLAs consists of standard SLAs and enhanced SLAs. The migration tool supports only enhanced SLAs. Standard SLAs have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool.
 
 #### Resolution 
 
-Check the SLA type in legacy interface. Use enhanced SLAs for migration.
+Check the SLA type in the legacy web client interface. Use enhanced SLAs for migration.
 
 ### Unable to use the SLA migration tool to migrate large number of SLAs
+
+Errors appear during the premigration checkup in the migration tool.
 
 #### Reason 
 
@@ -53,13 +59,13 @@ If the number of SLAs being migrated is more than 1000, SLAs may not pass throug
 
 #### Resolution 
 
-Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select automatic record creation rules and SLA migration in the Customer Service admin center. Perform batch migration and select few SLAs for every migration.
+Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select **Miscellaneous** > **ARC and SLA migration** **>  in the Customer Service admin center site map. Perform batch migration.
 
 ## Troubleshoot issues faced in SLA time calculation
 
 ### Warning and failure duration times are incorrect for the SLA
 
-Why do I see that some service-level agreements (SLAs) don't take into account daylight saving time for warning and failure duration?
+Some SLAs don't take into account daylight saving time for warning and failure duration.
 
 #### Reason
 
@@ -68,6 +74,18 @@ If your SLA was created in the web client that is now deprecated, the business s
 #### Resolution
 
 To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+
+### Errors on custom time calculation for SLA
+
+Errors received on configuring custom time calculation for SLA and during it's usage.
+
+#### Reason 
+
+Custom time calculation isn't configured correctly.
+
+#### Resolution 
+
+Set up custom time calculation and troubleshoot issues. For more information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis)
 
 ## Troubleshoot issues faced in SLA timer
 
@@ -135,35 +153,38 @@ See the following scenarios to understand how the SLA **Warning** and **Failure*
 - Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time will not be considered for **Warning** and **Failure** time.
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. **Warning** time and **Failure** time will be recalculated.
 
-### OnHold Time attribute is not populated for Case for UCI-SLA
+### OnHold Time attribute is not populated for Case for Unified Interface SLA
+
+The onholdtime attribute to track the onHold duration for case at a case entity level doesn't get populated.
 
 #### Reason
 
-In Legacy SLA, we have “onholdtime” attribute to track the onHold duration for case at case entity level. In UCI-SLA, we have Elapsed time to track onHold duration at KPI instance level since one case can have multiple KPIs with different pause conditions and each SLA KPI instance may have different calendar associated with it.
+In Legacy SLA, we have onholdtime attribute to track the onHold duration for case at case entity level. In Unified Interface SLA, we have Elapsed time to track onHold duration at KPI instance level, since one case can have multiple KPIs with different pause conditions and each SLA KPI instance may have different calendar associated with it.
 
 #### Resolution
 
-If Unified Interface SLAs please use "elapsedtime” attribute to track onHold Duration at SLA KPI instance level.  
+For Unified Interface SLAs, use the elapsedtime attribute to track onHold Duration at SLA KPI instance level.  
 
 ## Troubleshoot issues faced in solution import, export, and upgrade
 
-### Unable to import solution with Active SLAs and SLAs get deactivated when a solution is imported
+### Unable to import solution with active SLAs and SLAs get deactivated when a solution is imported
 
-The following errors occur:
-- If 'Maintain Customizations' is selected, import fails 
-- If "Overwrite Customizations' is selected, import succeeds, but SLAs are deactivated.
+SLA solutions can be imported or exported from **Customizations** **> Solutions**. If an SLA solution is already present and you import an upgraded version of the same solution, then the following errors occur:
+
+- During solution upgrade, if you select **Maintain Customizations**, import fails.
+- During solution upgrade, if you select **Overwrite Customizations**, import succeeds, but SLAs are deactivated.
 
 #### Reason 
 
-- You have used the Export Solution option to export data, which isn't the intended use of solution export.
-- If the solution is imported with 'Maintain Customizations', and the SLAs are active in the target organization, the import will fail. 
-- If the customizations.xml file has the SLAs and 'Overwrite Customizations' is selected, the state of the SLAs will be set to Draft and deactivated.
+Solution export isn't intended to export data and only intended to export configurations. So, if the solution is imported with **Maintain Customizations** option and SLAs are already present and active in target org, import will fail.  
+
+If the customizations.xml file has the SLAs and you select **Overwrite Customizations**, the state of the SLAs will be set to Draft and deactivated.
 
 #### Resolution 
 
-- If you choose to explicitly import a solution with SLAs defined, you will need to deactivate SLAs and then proceed with import. SLAs can then be re-activated.
+- If you want to explicitly import a solution with SLAs defined, you'll need to deactivate SLAs and then proceed with import. SLAs can then be re-activated.
 
-- If you choose to import other customizations in the solution, SLAs need not be re-imported. You can remove the SLAs from the customizations.xml file.
+- If you want to import other customizations in the solution, SLAs need not be re-imported. You can remove the SLAs from the customizations.xml file.
 
 ## Troubleshoot other issues 
 
@@ -282,9 +303,11 @@ SLA KPI instances don't get created because of one of the following reasons:
 
 ### Error occurs while updating a case
 
+Errors appear on the SLA form while updating a case.
+
 #### Reason 
 
-If the action flow associated with one/more SLA items are deleted or not in published state, errors might occur.
+If the action flow associated with one or more SLA items are deleted or aren't in **Published** state, errors might occur.
 
 #### Resolution 
 
@@ -298,9 +321,11 @@ If the action flow associated with one/more SLA items are deleted or not in publ
 
 ### modifiedon and modifiedby fields on the case entity are getting updated
 
+**modifiedon** and **modifiedby** fields on the case entity get updated for resolved cases.
+
 #### Reason
 
-**modifiedon** and **modifiedby** fields are getting updated for all Resolved Cases because of updates made in the DeactivatedOn field introduced in case entity, using the Async Job "ResolvedIncidentsUpdationOperation". Next SLA for cases leads to updating **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.
+**modifiedon** and **modifiedby** fields are getting updated for all Resolved Cases because of updates made in the **DeactivatedOn** field introduced in case entity, using the Async Job "ResolvedIncidentsUpdationOperation". Next SLA for cases leads to updating **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.
 
 #### Resolution
 
