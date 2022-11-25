@@ -86,7 +86,7 @@ After you have configured knowledge management on your app, you must also set up
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
           *	Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
           * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
-      1.	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal)
+      1.	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
   7. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. More information: [Create templates for articles](/power-platform/admin/create-templates-articles).
   8. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. More information: [Set up external knowledge search providers](set-up-search-providers.md#set-up-external-knowledge-search-providers)
 
@@ -112,7 +112,7 @@ After you have configured knowledge management on your app, you must also set up
    * If you want to set the default knowledge authoring language for your organization, search and select a language in the **Select a language** field, and then set the **Use organization’s UI language** toggle to **Yes**.
    * If you also want to allow users to set their default knowledge authoring language in the personalization option, set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
 
-7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal).
+7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
 
 8. In the **Origins allowlist** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
 
