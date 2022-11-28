@@ -6,7 +6,7 @@ This configuration can be useful in the following scenarios:
 
 - Rent or lease: A service provider owns the asset and work orders refer to the customer who is currently using the asset.
 
-- Warranty: A consumer owner the asset and work order should relate to the manufacturer account who is responsible for the warranty.
+- [Warranty](warranties.md): A consumer owner the asset and work order should relate to the manufacturer account who is responsible for the warranty.
 
 1. In Field Service, change to the **Settings** area.
 
