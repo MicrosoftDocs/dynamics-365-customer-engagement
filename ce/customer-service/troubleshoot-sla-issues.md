@@ -25,7 +25,7 @@ This article explains the various troubleshooting issues related to SLAs and pro
 
 ### Primary entity isn't available while creating SLAs
 
-Primary entity isn't listed to be able to create an SLA for the entity.
+Primary entity isn't listed to create an SLA for the entity.
 
 ### Reason
 
