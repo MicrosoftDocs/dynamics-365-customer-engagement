@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 10/12/2022
+ms.date: 11/28/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -77,7 +77,7 @@ You can set up Embedded chat using Teams in the Customer Service admin center. T
 
 1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
 1. Next to **Embedded chat using Teams (preview)**, select **Manage**.
-1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365**.
+1. Set the **Turn on Microsoft Teams chats inside Dynamics 365** toggle to **On**.
    
 
 ### Activate case details on swarms
@@ -92,7 +92,7 @@ If you haven't already activated the case details for the swarm form, perform th
    > [!div class="mx-imgBorder"] 
    > ![Power Apps Case table forms page.](media/teams-swarm-power-apps-table-case.png "Power Apps Case table form page")
 
-1. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+1. Go to the **Solutions** tab and select **Publish all customizations**.
 
    > [!div class="mx-imgBorder"] 
    > ![Publish the case form for swarm.](media/teams-swarm-tables-form-publish.png "Publish the case form for swarm")
@@ -116,7 +116,7 @@ To ensure that swarm experts receive invitations directly in Teams, turn on the 
    > ![Activate the swarm flow.](media/teams-swarm-flow-enable.png "Activate the swarm flow")
 
 > [!Note]
-> You can configure various administration sections without turning on swarming. This is useful in ensuring you have fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issue if it's not fully functional.
+> You can configure various administration sections without turning on swarming. This is useful in ensuring you've fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issues if it's not fully functional.
 
 ## Edit case details
 
@@ -140,7 +140,9 @@ To configure case details, perform the following steps:
 
 1. On the **Customer support swarming (preview)** configuration page, go to the **Case details** card.
 1. Select **Edit in Power Apps**.
-1. Edit the form, and then when finished, select **Publish** on the top-right side of the Power Apps page.
+1. Select **Case form for swarming** from the list, and then select **Edit** either from the command bar or by selecting the ellipsis next to the form.
+1. Edit the form. When finished, select **Back**.
+1. Select the **Solutions** from the site map, and then select **Publish all customizations**.
 
 ## Add and manage skills
 
