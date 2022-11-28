@@ -27,6 +27,9 @@ search.app:
 > [!NOTE]
 > The content ideas preview is currently only available in North America.
 
+> [!Tip]
+> Learn about using content ideas to create inspiring emails in our latest blog: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing]().
+
 Content ideas helps you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how content ideas works and how you can start using it to kickstart your emails.
 
 ## What is content ideas?
