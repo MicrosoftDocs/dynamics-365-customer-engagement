@@ -23,7 +23,7 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
 
 ## Prerequisites
 
-Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled. Dataverse search uses Azure search service to index and search records. 
+Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled. Dataverse search uses Azure search service to index and search records.
 
 Dataverse search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse search, you can also configure searchable fields in the knowledge article entity.
 
