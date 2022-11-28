@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 11/25/2022
+ms.date: 11/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,7 +19,7 @@ ms.custom:
 
 # Troubleshoot issues in service-level agreements in Customer Service
 
-This article explains the various troubleshooting issues related to SLA and provides reasons and resolutions for the issues.
+This article explains the various troubleshooting issues related to SLAs and provides reasons and resolutions for the issues.
 
 ## Troubleshoot issues faced in creating SLAs
 
