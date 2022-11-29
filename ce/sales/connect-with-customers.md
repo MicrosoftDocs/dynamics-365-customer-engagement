@@ -140,6 +140,7 @@ If you can't connect with a customer by the due date and want to follow up later
 ### See also
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)  
+[Understand the Up next widget](understand-the-up-next-widget.md)  
 [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails)   [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments)  
 [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)  
 [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration)
