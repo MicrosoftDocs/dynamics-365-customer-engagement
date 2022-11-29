@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 11/28/2022
+ms.date: 11/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,9 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Troubleshoot issues in service-level agreements in Customer Service
+# Troubleshoot issues with service-level agreements in Customer Service
 
-This article explains the various troubleshooting issues related to SLAs and provides reasons and resolutions for the issues.
+This article explains various issues related to SLAs and provides reasons and steps to resolve them.
 
 ## Troubleshoot issues faced in creating SLAs
 
@@ -35,7 +35,7 @@ To create SLA for an entity, you must enable the SLA for that entity and create 
 
 Enable SLA for the entity and create an active KPI. For more information on enabling entities for service-level agreements, go to [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements)
 
-## Troubleshoot issues faced in migrating SLAs
+## Troubleshoot issues with migrating SLAs
 
 ### Standard SLAs aren't showing up in the migration tool
 
@@ -43,7 +43,7 @@ Migration tool doesn't show standard SLAs for migration.
 
 #### Reason 
 
-Legacy SLAs consists of standard SLAs and enhanced SLAs. The migration tool supports only enhanced SLAs. Standard SLAs have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool.
+Legacy SLAs consist of standard SLAs and enhanced SLAs. The migration tool supports only enhanced SLAs. Standard SLAs have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool.
 
 #### Resolution 
 
@@ -61,7 +61,7 @@ If the number of SLAs being migrated is more than 1000, SLAs may not pass throug
 
 Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select **Miscellaneous** > **ARC and SLA migration** **>  in the Customer Service admin center site map. Perform batch migration.
 
-## Troubleshoot issues faced in SLA time calculation
+## Troubleshoot issues with SLA time calculation
 
 ### Warning and failure duration times are incorrect for the SLA
 
@@ -77,7 +77,7 @@ To use the daylight saving time functionality and many other new features, migra
 
 ### Errors on custom time calculation for SLA
 
-Errors received on configuring custom time calculation for SLA and during it's usage.
+Errors received on configuring custom time calculation for SLA and during its usage.
 
 #### Reason 
 
@@ -87,7 +87,7 @@ Custom time calculation isn't configured correctly.
 
 Set up custom time calculation and troubleshoot issues. For more information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis)
 
-## Troubleshoot issues faced in SLA timer
+## Troubleshoot issues with SLA timer
 
 ### SLA KPI instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI instance timer continues to run
 
@@ -155,36 +155,36 @@ See the following scenarios to understand how the SLA **Warning** and **Failure*
 
 ### OnHold Time attribute is not populated for Case for Unified Interface SLA
 
-The onholdtime attribute to track the onHold duration for case at a case entity level doesn't get populated.
+The **onholdtime** attribute to track the onHold duration for case at a case entity level doesn't get populated.
 
 #### Reason
 
-In Legacy SLA, we have onholdtime attribute to track the onHold duration for case at case entity level. In Unified Interface SLA, we have Elapsed time to track onHold duration at KPI instance level, since one case can have multiple KPIs with different pause conditions and each SLA KPI instance may have different calendar associated with it.
+In the Legacy SLA, the **onholdtime** attribute tracks the on-hold duration for the case at the case entity level. In the Unified Interface SLA, **Elapsed time** tracks the on-hold duration at the KPI instance level, since one case can have multiple KPIs with different pause conditions, and each SLA KPI instance might have a different calendar associated with it.
 
 #### Resolution
 
 For Unified Interface SLAs, use the elapsedtime attribute to track onHold Duration at SLA KPI instance level.  
 
-## Troubleshoot issues faced in solution import, export, and upgrade
+## Troubleshoot issues with solution import, export, and upgrade
 
-### Unable to import solution with active SLAs and SLAs get deactivated when a solution is imported
+### Unable to import solution with active SLAs and SLAs are deactivated when a solution is imported
 
 SLA solutions can be imported or exported from **Customizations** **> Solutions**. If an SLA solution is already present and you import an upgraded version of the same solution, then the following errors occur:
 
-- During solution upgrade, if you select **Maintain Customizations**, import fails.
-- During solution upgrade, if you select **Overwrite Customizations**, import succeeds, but SLAs are deactivated.
+- During solution upgrade, if you select **Maintain Customizations**, the import fails.
+- During solution upgrade, if you select **Overwrite Customizations**, the import succeeds, but the SLAs are deactivated.
 
 #### Reason 
 
-Solution export isn't intended to export data and only intended to export configurations. So, if the solution is imported with **Maintain Customizations** option and SLAs are already present and active in target org, import will fail.  
+Solution export isn't intended to export data and only intended to export configurations. So, if the solution is imported with **Maintain Customizations** option and SLAs are already present and active in target org, the import will fail.  
 
 If the customizations.xml file has the SLAs and you select **Overwrite Customizations**, the state of the SLAs will be set to Draft and deactivated.
 
 #### Resolution 
 
-- If you want to explicitly import a solution with SLAs defined, you'll need to deactivate SLAs and then proceed with import. SLAs can then be re-activated.
+- If you want to explicitly import a solution with SLAs defined, you must deactivate the SLAs and then proceed with the import. The SLAs can then be re-activated.
 
-- If you want to import other customizations in the solution, SLAs need not be re-imported. You can remove the SLAs from the customizations.xml file.
+- If you want to import other customizations in the solution, the SLAs don't need to be re-imported. You can remove them from the customizations.xml file.
 
 ## Troubleshoot other issues 
 
@@ -246,11 +246,11 @@ The following two error messages are displayed:
 
 Error message 1: "The object you tried to delete is associated with another object and cannot be deleted."
 
-Error message 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process; see log for more detail."
+Error message 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process. See log for more details."
 
 #### Reason
 
-The first error occurs because in UCI SLA, the relationship between the SLA item and SLA KPI instances is set to "Restrict to Delete". The second error occurs because processes that are part of managed solution can't be deleted. So, when you try to delete an SLA manually, which is part of a managed solution and has flows configured, the error message appears.
+The first error occurs because in UCI SLA, the relationship between the SLA item and SLA KPI instances is set to "Restrict to Delete". The second error occurs because processes that are part of a managed solution can't be deleted. If you try to manually delete an SLA that is part of a managed solution and has flows configured, the error message appears.
 
 #### Resolution
 
@@ -275,9 +275,9 @@ Resolution 3:
 
 If the above resolution doesn’t work, contact support to request deletion of the SLA or SLA items.
 
-###  SLA KPI instance isn't getting created
+###  SLA KPI instance isn't being created on the entity
 
-SLA KPI instance isn't getting created on the entity on which SLA is enabled.
+SLA KPI instance isn't being created on the entity on which the SLA is enabled.
 
 #### Reason
 
