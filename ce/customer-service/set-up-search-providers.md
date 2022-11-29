@@ -74,7 +74,7 @@ You can set up a search provider in the Customer Service admin center or Custome
 
 ## Post-configuration agent experience
 
-After you have configured the search providers, agents using search can view links in their search results for each search provider included in their current organization.
+After you've configured the search providers, agents using search can view links in their search results for each search provider included in their current organization.
 
 >[!NOTE]
 >
