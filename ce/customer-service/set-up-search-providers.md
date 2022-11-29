@@ -1,7 +1,7 @@
 ---
 title: Set up external knowledge search providers (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 11/21/2022
+ms.date: 11/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -31,7 +31,7 @@ Knowledge management plays a vital role in enabling organizations to deliver cus
 
 The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.
 
-You can use search providers to federate the search of files, documents, or articles from data sources outside your current Dynamics 365 organization. External search providers is supported only in the Government Community Cloud (GCC) and datacenter regions. For more information, go to [Datacenter regions](/power-platform/admin/new-datacenter-regions).
+You can use search providers to federate the search of files, documents, or articles from data sources outside your current Dynamics 365 organization. In Microsoft Cloud for Sovereignty, the external search providers feature is available for use only in GCC.
 
 You can set up the following search providers:
 
