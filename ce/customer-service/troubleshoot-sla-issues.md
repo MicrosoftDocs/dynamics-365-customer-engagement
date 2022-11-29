@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
-description: Know about the SLA issues and how to troubleshoot them.
+description: Learn about the SLA issues and how to troubleshoot them.
 ms.date: 11/29/2022
 ms.topic: article
 author: Soumyasd27
@@ -21,7 +21,7 @@ ms.custom:
 
 This article explains various issues related to SLAs and provides reasons and steps to resolve them.
 
-## Troubleshoot issues faced in creating SLAs
+## Troubleshoot issues with SLA creation
 
 ### Primary entity isn't available while creating SLAs
 
@@ -35,7 +35,7 @@ To create SLA for an entity, you must enable the SLA for that entity and create 
 
 Enable SLA for the entity and create an active KPI. For more information on enabling entities for service-level agreements, go to [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements)
 
-## Troubleshoot issues with migrating SLAs
+## Troubleshoot issues with SLA migration
 
 ### Standard SLAs aren't showing up in the migration tool
 
@@ -240,7 +240,7 @@ When the **Applicable when** attribute is updated, the SLA is reevaluated that r
 
 This is the expected behavior for SLAs in the web client. It is recommended to define the **Applicable when** condition on only those attributes whose values don't change frequently.
 
-### Deletion of SLAs or SLA Items show error messages in UCI during solution upgrade or manual deletion
+### Deletion of SLAs or SLA Items show error messages in Unified Interface during solution upgrade or manual deletion
 
 The following two error messages are displayed:
 
@@ -273,15 +273,15 @@ Even after deleting the reference records, if the error message, "SLAItem delete
 
 Resolution 3:
 
-If the above resolution doesn’t work, contact support to request deletion of the SLA or SLA items.
+If the above resolution doesn’t work, contact Microsoft Support to request deletion of the SLA or SLA items.
 
-###  SLA KPI instance isn't being created on the entity
+###  SLA KPI instance isn't created on the entity
 
-SLA KPI instance isn't being created on the entity on which the SLA is enabled.
+SLA KPI instance isn't created on the entity on which the SLA is enabled.
 
 #### Reason
 
-SLA KPI instances don't get created because of one of the following reasons:
+SLA KPI instances aren't created because of one of the following reasons:
 
 - SLA isn't applied.
 
@@ -293,15 +293,15 @@ SLA KPI instances don't get created because of one of the following reasons:
 
 #### Resolution 
 
-- SLA isn't applied: Verify if SLA is being applied correctly on entity. More information: [Apply SLAs](apply-slas.md#apply-slas)
+- SLA isn't applied: Verify if SLA is being applied correctly on the entity. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
-- No SLA Item is applicable: Verify whether the entity satisfies Applicable when condition for at least one of the SLA items of applied SLA.
+- No SLA Item is applicable: Verify whether the entity satisfies the Applicable when condition for at least one of the SLA items of the applied SLA.
 
 - SLA KPI Applicable From is empty: Verify whether the **Applicable From** Date Field of KPI is filled for that entity.
 
 - Dependencies are disabled: In the SLA form, activate notifications about any out of the box component, if any.
 
-### Error occurs while updating a case
+### Errors occur while updating a case
 
 Errors appear on the SLA form while updating a case.
 
@@ -311,25 +311,25 @@ If the action flow associated with one or more SLA items are deleted or aren't i
 
 #### Resolution 
 
-- Activate the draft flow from the SLA form. If your SLA is active but the dependent flow is inactive, then you may see notifications on the SLA form. As an administrator, select **Activate**to enable all the dependencies.
+- Activate the draft flow from the SLA form. If your SLA is active but the dependent flow is inactive, then you may see notifications on the SLA form. As an administrator, select **Activate** to enable all the dependencies.
 
 - Alternate resolution:
 
-    1. Make the SLA inactive and go to the SLA items where you have configured action flows and select **Configure actions**. Power Automate portal will appear and will show your action flow.
+    1. Make the SLA inactive and go to the SLA items where you have configured action flows and select **Configure actions**. The Power Automate portal will appear and show your action flow.
     1. Turn on action flow.
     1. After activating action flows for SLA items, activate SLA again.  
 
-### modifiedon and modifiedby fields on the case entity are getting updated
+### modifiedon and modifiedby fields on the case entity get updated
 
 **modifiedon** and **modifiedby** fields on the case entity get updated for resolved cases.
 
 #### Reason
 
-**modifiedon** and **modifiedby** fields are getting updated for all Resolved Cases because of updates made in the **DeactivatedOn** field introduced in case entity, using the Async Job "ResolvedIncidentsUpdationOperation". Next SLA for cases leads to updating **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.
+**modifiedon** and **modifiedby** fields get updated for all resolved cases because of updates made in the **DeactivatedOn** field introduced in case entity, using the async job **ResolvedIncidentsUpdationOperation**. Next SLA for cases results in updates to **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.
 
 #### Resolution
 
-We recommend that you avoid using the **modifiedon** and **modifiedby** fields for reporting as they get altered while calculating Next SLA on the enhanced case grid. If you want to understand when the case was resolved, you may use the **incidentresolution**entity and avoid using **modifiedon** field on case entity.
+Avoid using the **modifiedon** and **modifiedby** fields for reporting because they get modified when calculating Next SLA on the enhanced case grid. If you want to know when the case was resolved, use the **incidentresolution** entity and avoid using **modifiedon** on the case entity.
 
 ### See also
 
