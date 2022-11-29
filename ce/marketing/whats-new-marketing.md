@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/03/2022
+ms.date: 11/22/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -29,6 +29,33 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
 ## 2022 updates
+
+### November 2022 update
+
+The Dynamics 365 Marketing November 2022 update includes one preview feature and one monthly enhancement. The preview feature enables date and time formatting flexibility for different locales. The monthly enhancement improves personalization access and usability.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.89.2008.0     |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview feature
+
+- **Communicate dates and times in a variety of formats**
+    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of date and time formats.](media/whats-new-date-time.jpg "Screenshot of date and time formats")
+
+#### Monthly enhancements
+
+- **Usability improvements in the personalization pane**
+    - The personalization pane in the email editor provides one-stop access to personalization-related capabilities. Personalization placeholders are grouped according to their types. You can expand and collapse the groups to help with readability. Specific records are used to access additional personalization data such as event details, orders, or products. Specific records in use are identified at the top of the side pane and on the info card for each personalization placeholder that uses them. Conditions created by conditional content are also available on the pane (as “Element conditions”) for review and updating.
 
 ### October 2022 update
 

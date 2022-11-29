@@ -1,7 +1,7 @@
 ---
 title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
-ms.date: 10/12/2022
+ms.date: 11/24/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -43,8 +43,8 @@ The following table lists the KPIs in the Conversation dashboard.
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. |
 | Abandon rate | The percentage of conversations that aren't engaged by agents.| All conversations are considered. |
 | Avg. speed to answer (seconds) | The average time customers waited in the queue before connecting to an agent. (time for acceptance) | Conversations engaged and conversations that are in the closed state are considered. |
-| Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool. |
-| Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. |
+| Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool. ||
+| Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. For information on how the sentiment data is derived, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). ||
 
 
 > [!div class="mx-imgBorder"]

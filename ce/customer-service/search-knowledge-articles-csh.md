@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 10/03/2022
+ms.date: 11/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,7 +23,7 @@ You can search knowledge articles in Customer Service Hub, Customer Service work
 
 ## Prerequisites
 
-Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled. Dataverse search uses Azure search service to index and search records. 
+Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled. Dataverse search uses Azure search service to index and search records.
 
 Dataverse search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse search, you can also configure searchable fields in the knowledge article entity.
 
@@ -159,9 +159,9 @@ In Customer Service workspace, select the **Smart assist** option on the app sid
 
 The suggest-as-you-type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
 
-The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control.
+The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The maximum number of knowledge articles displayed in the flyout is six. The matched text is highlighted to show the presence of the keyword. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control.
 
-To use the suggest-as-you-type option, your administrator must first enable it. More information:[Enable the suggest-as-you-type option](set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option)
+To use the suggest-as-you-type option, your administrator must first enable it. More information: [Enable the suggest-as-you-type option](set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option)
 
 
 :::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot shows use of the suggest-as-you-type option":::
