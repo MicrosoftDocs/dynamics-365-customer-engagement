@@ -1,6 +1,6 @@
 ---
 title: "Understand the up next widget on records"
-description: "Display the up next widget on your records through sales accelerator configuration in Sales Insights."
+description: "Understand on how to use the up next widget to do activities on your records through sales accelerator."
 ms.date: 11/30/2022
 ms.topic: article
 author: udaykirang
