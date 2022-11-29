@@ -1,7 +1,7 @@
 ---
 title: "Service limits and fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing."
-ms.date: 09/30/2022
+ms.date: 11/29/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
