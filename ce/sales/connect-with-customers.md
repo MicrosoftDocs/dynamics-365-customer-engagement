@@ -12,7 +12,7 @@ manager: shujoshi
 
 As a seller using Dynamics 365 Sales, you can connect with your customers daily by phone, email, and in Teams meetings. You don't lose context or need to switch among multiple applications.
 
-When a sequence contains a customer contact activity, your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) and the [**Up next**](prioritize-sales-pipeline-through-work-list.md#understand-the-up-next-widget) widget display the corresponding icon (phone, email, or Teams meeting). After you make the phone call, send the email, or attend the meeting, you'll mark the activity complete and continue with the next activity in the sequence. If an activity doesn't need to be completed or you can't connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity). You can add notes to activities to help you remember important information.
+When a sequence contains a customer contact activity, your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) and the [**Up next**](understand-the-up-next-widget.md) widget display the corresponding icon (phone, email, or Teams meeting). After you make the phone call, send the email, or attend the meeting, you'll mark the activity complete and continue with the next activity in the sequence. If an activity doesn't need to be completed or you can't connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity). You can add notes to activities to help you remember important information.
 
 ## License and role requirements
 
