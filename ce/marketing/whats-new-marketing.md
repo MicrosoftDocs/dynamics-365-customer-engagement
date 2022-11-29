@@ -35,7 +35,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 The Dynamics 365 Marketing November 2022 update includes one preview feature and one monthly enhancement. The preview feature enables date and time formatting flexibility for different locales. The monthly enhancement improves personalization access and usability.
 
 > [!Tip]
-> Learn about using [content ideas](content-ideas.md) to create inspiring emails in our latest blog: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing]().
+> Learn about using [content ideas](content-ideas.md) to create inspiring emails: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing]().
 
 #### Version number
 
