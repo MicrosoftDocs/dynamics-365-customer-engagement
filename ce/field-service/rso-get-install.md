@@ -23,7 +23,7 @@ To purchase access to Resource Scheduling Optimization, you need access to Field
 
 1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
 
-1. Find and buy whichever Field Service license works best for you and your organization. Visit the [Field Service pricing page](https://dynamics.microsoft.com/pricing/#FieldService) for more information. And for even more details, visit the [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+1. Find and buy whichever Field Service license works best for you and your organization. Visit the [Field Service pricing page](https://dynamics.microsoft.com/pricing/#Service) for more information. And for even more details, visit the [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 1. After purchasing, install Dynamics 365 Field Service.
 
