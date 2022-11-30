@@ -1,7 +1,7 @@
 ---
 title: "Enable sales usage reports for sales managers"
 description: "Enable sales usage reports for sales managers to analyze the status of opportunities and leads in your organization."
-ms.date: 03/03/2022
+ms.date: 11/22/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,7 +24,8 @@ Sales usage reports provide a historical view of operational metrics and key per
 As an administrator, enable the sales usage reports in your organization for sales managers to use. 
 
 >[!NOTE]
->When enabled, the reports can take up to 24 hours to be displayed. Thereafter, reports are refreshed every 24 hours. 
+>- Sales usage reports are not available on Government Community Cloud (GCC).
+>- When enabled, the reports can take up to 24 hours to be displayed. Thereafter, reports are refreshed every 24 hours. 
 
 1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App settings**.    
 
