@@ -250,14 +250,16 @@
           href: real-time-marketing-dataverse-trigger.md
         - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
+        - name: Use natural language in real-time marketing journeys
+          href: real-time-marketing-natural-language.md
         - name: Test triggers before using them
           href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
         items:
         - name: "Preview: Build segments in real-time marketing"
           href: real-time-marketing-build-segments.md
-        - name: Use natural language in real-time marketing journeys
-          href: real-time-marketing-natural-language.md
+        - name: "Preview: Use natural language to create segments"
+          href: real-time-marketing-natural-language-segments.md
         - name: Work with segments in real-time marketing
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
