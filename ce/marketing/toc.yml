@@ -244,14 +244,14 @@
           href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
+        - name: Use natural language in real-time marketing journeys
+          href: real-time-marketing-natural-language.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
         - name: Trigger a journey based on a Dataverse record change
           href: real-time-marketing-dataverse-trigger.md
         - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
-        - name: Use natural language in real-time marketing journeys
-          href: real-time-marketing-natural-language.md
         - name: Test triggers before using them
           href: real-time-marketing-test-triggers.md
       - name: Segment-based journeys
@@ -282,8 +282,6 @@
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-        - name: Create a new version of a customer journey
-          href: real-time-marketing-new-journey-version.md
       - name: Personalization
         items:
         - name: Personalize content
