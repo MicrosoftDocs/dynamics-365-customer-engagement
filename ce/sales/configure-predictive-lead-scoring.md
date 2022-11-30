@@ -62,7 +62,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
 1. When your model is trained and ready to publish, the **Predictive lead scoring** page displays a confirmation:
 
-  :::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
+      :::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
 
 2. If the model is trained but not ready to publish, the **Model performance** field displays **Not ready to Publish**.
 
