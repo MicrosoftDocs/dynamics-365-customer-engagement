@@ -30,11 +30,17 @@ When the prediction accuracy of a scoring model doesn't meet your expectations, 
 
     - Select an attribute to [view insights about its influence on the model](pls-attribute-influence.md).
 
-    - Select contact and account attributes from the lead entity and its related entities that you want the model to consider. These are the only types of attributes you can include in a scoring model.
+    - Select attributes that you want the model to consider—including custom attributes—from the lead entity and its related entities (contact and account) to train the model.
 
     - [Select intelligent fields](#select-intelligent-fields) to include in the model.
 
     :::image type="content" source="media/si-admin-predictive-lead-scoring-edit-model-page.png" alt-text="Screenshot of the Edit model page.":::
+    
+   > [!NOTE]
+   > The scoring model doesn't support the following types of attributes:
+   > - Attributes on custom entities
+   > - Date and time&ndash;related attributes
+   > - System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
 
 1. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.
 
@@ -55,7 +61,15 @@ When the prediction accuracy of a scoring model doesn't meet your expectations, 
 
     :::image type="content" source="media/pls-model-ready.png" alt-text="A screenshot of the message that appears after the model is trained.":::
 
-1. [Publish your model](configure-predictive-lead-scoring.md#publish-your-model).
+1. If you want the application to automatically retrain the model after every 15 days, select **Retrain automatically**. 
+
+1. Perform one of the following actions: 
+    - If you're ready to publish, select **Publish**. The model is applied to leads that match the criteria specified in the model configuration. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
+    - If you want to verify the model's accuracy, select **View Details** and then select the **Performance** tab. For more information, see [View the accuracy and performance of a predictive scoring model](scoring-model-accuracy.md).
+
+    - If the accuracy of the retrained model aren't satisfactory, edit the attributes and retrain the model. If you want to go back to the previous version, [revert to that version](understand-pls-configuration-page.md#actions-you-can-perform-on-the-model).
+
 
 ### Select intelligent fields
 
