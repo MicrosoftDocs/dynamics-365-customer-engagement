@@ -238,7 +238,7 @@
         href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
-    - name: Customer engagement
+    - name: Journeys
       items: 
       - name: Trigger-based journeys
         items:
@@ -246,6 +246,8 @@
           href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
+        - name: Use natural language in real-time marketing journeys
+          href: real-time-marketing-natural-language.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
         - name: Trigger a journey based on a Dataverse record change
@@ -258,6 +260,8 @@
         items:
         - name: "Preview: Build segments in real-time marketing"
           href: real-time-marketing-build-segments.md
+        - name: "Preview: Use natural language to create segments"
+          href: real-time-marketing-natural-language-segments.md
         - name: Work with segments in real-time marketing
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
@@ -288,10 +292,6 @@
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-        - name: "Preview: Use natural language to create segments"
-          href: real-time-marketing-natural-language-segments.md
-        - name: Use natural language in real-time marketing journeys
-          href: real-time-marketing-natural-language.md
       - name: Personalization
         items:
         - name: Personalize content
@@ -308,7 +308,7 @@
           href: real-time-marketing-cross-journey-analytics.md
         - name: How to use aggregate channel analytics
           href: real-time-marketing-channel-analytics.md
-    - name: Manage assets
+    - name: Assets
       items: 
       - name: Real-time marketing asset library
         href: real-time-marketing-asset-library.md
@@ -334,6 +334,8 @@
         href: real-time-marketing-developer-push.md
       - name: Receiving notifications and creating interactions
         href: real-time-marketing-developer-notifications.md
+      - name: Reference guide for real-time marketing interactions
+        href: real-time-marketing-interactions-reference.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
       - name: "Preview: Manually add a custom channel"
