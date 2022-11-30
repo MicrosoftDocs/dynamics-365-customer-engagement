@@ -48,23 +48,33 @@ items:
 
 - name: Administration
   items:
+    - name: Field Service settings
+      href: configure-default-settings.md
     - name: Set up users and security roles
       href: view-user-accounts-security-roles.md
+    - name: Territories
+      href: set-up-territories.md
     - name: Location and map settings
       href: field-service-maps-address-locations.md
-    - name: Configuration overview
-      href: field-service-customizations.md
-    - name: Priorities
-      href: set-priorities.md
     - name: Postal codes
       href: set-up-postal-codes.md
     - name: Tax codes
       href: set-up-tax-codes.md
-    - name: Territories
-      href: set-up-territories.md
-    - name: Field Service settings
-      href: configure-default-settings.md
-
+    - name: Price list
+      href: create-price-list.md
+    - name: Products and services  
+      href: create-product-or-service.md
+    - name: Priorities
+      href: set-priorities.md
+    - name: Work order types
+      href: create-work-order-types.md
+    - name: Work order templates (incident types)
+      href: configure-incident-types.md
+    - name: Service task types
+      href: set-up-service-task-types.md
+    - name: Agreement sub-statuses
+      href: set-up-agreement-sub-statuses.md
+      
 - name: Work orders
   items:
     - name: Work order process architecture
@@ -75,14 +85,6 @@ items:
       href: work-order-status-booking-status.md
     - name: Add account details to a work order
       href: work-order-customer-account.md
-    - name: Work order types
-      href: create-work-order-types.md
-    - name: Price list
-      href: create-price-list.md
-    - name: Products and services  
-      href: create-product-or-service.md
-    - name: Service task types
-      href: set-up-service-task-types.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
@@ -99,8 +101,6 @@ items:
           href: inspections-reporting.md
         - name: Use inspections without work orders
           href: inspections-customer-assets.md
-    - name: Work order templates (incident types)
-      href: configure-incident-types.md
     - name: Predictive work duration and resource proficiency suggestions (Preview)
       href: analytics-predictive-work-duration.md
     - name: Capture resolution details
@@ -218,8 +218,6 @@ items:
       href: set-up-customer-agreements.md
     - name: Service level agreements
       href: sla-work-orders.md
-    - name: Agreement sub-statuses
-      href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       href: work-order-entitlements.md
 
@@ -520,6 +518,8 @@ items:
 
 - name: Customize Field Service
   items:
+    - name: Customization overview
+      href: field-service-customizations.md
     - name: Best practices
       href: field-service-customization-best-practices.md
     - name: Customize columns (fields)
