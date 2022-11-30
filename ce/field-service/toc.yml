@@ -254,7 +254,7 @@ items:
     - name: Send technician arrival time and current map location
       href: reminders-arrival-time.md
 
-- name: Field Service Mobile apps
+- name: Mobile app
   items: 
     - name: Implement and adopt the mobile app
       href: mobile-2020-power-platform.md
