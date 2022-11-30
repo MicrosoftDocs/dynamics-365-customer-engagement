@@ -251,7 +251,7 @@ See the information in the following table to know about the supported languages
 | Tibetan | `bo` |x|x|x|x|x|x|x|
 | Tigrinya | `ti` |x|x|x|x|x|x|x|
 | Tongan | `to` |x|x|x|x|x|x|x|
-| Turkish - Turkey | `tr-TR` |✔|✔|✔|✔|✔|x|✔|
+| Turkish - Türkiye | `tr-TR` |✔|✔|✔|✔|✔|x|✔|
 | Ukrainian - Ukraine | `uk-UA` |x|x|x|x|✔|x|✔|
 | Upper Sorbian | `hsb` |x|x|x|x|x|x|x|
 | Urdu - India | `ur-IN` |x|x|x|x|x|x|x|
