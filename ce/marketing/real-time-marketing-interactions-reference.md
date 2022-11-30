@@ -1,7 +1,7 @@
 ---
 title: "Reference guide for real-time marketing interactions"
-description: "This article lists the managed lake data schema for real-time marketing interactions in Dynamics 365 Marketing."
-ms.date: 10/26/2022
+description: "This article lists the managed data lake schema for real-time marketing interactions in Dynamics 365 Marketing."
+ms.date: 11/29/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -17,16 +17,16 @@ search.app:
   - D365CE
   - D365Mktg
 ---
+
 # Reference guide for real-time marketing interactions
 
-Most of the data in Dynamics 365 Marketing is saved in Dataverse tables. However, the marketing interaction data needs separate storage to accommodate higher throughput of changes when consumers engage with the business by opening emails, clicking links, etc. This article defines the marketing interaction data interaction schema. Use this as a reference guide when exporting real-time marketing interaction data for custom reporting.
+Most of the data in Dynamics 365 Marketing is saved in Dataverse tables. However, the marketing interaction data needs separate storage to accommodate a higher throughput of changes when customers engage with businesses by opening emails, clicking links, etc. This article defines the marketing interaction data interaction schema. Use this as a reference guide when exporting real-time marketing interaction data for custom reporting.
 
-You can also refer to [outbound marketing schema](https://learn.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/marketing/interactions/overview) to export outbound marketing interaction data alone or with real-time marketing interaction data.
+You can also refer to the [outbound marketing schema](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/marketing/interactions/overview) to export outbound marketing interaction data alone or with real-time marketing interaction data.
 
 The table below is sorted by real-time marketing channels (email, text message, push). It includes the data tables and columns in real-time marketing interactions. The table also describes the type of interaction data stored. For example, the description column shows the msdynmkt_emailaddress field lists customers' email address. You can use this schema to plug the interaction data into your own reporting tools such as Microsoft Power BI.
 
 #### Channel: *Common Column* |	All (Email, SMS, Push)
-
 
 | **Table**                | **Column**                 | **Description**                                                                                         |   |   |   |   |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|---|---|---|---|
