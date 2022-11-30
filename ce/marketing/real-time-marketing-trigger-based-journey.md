@@ -64,7 +64,12 @@ You can further personalize the trigger by adding data attributes (conditions) f
 
 To add attributes, choose a trigger, then select the **+Add condition** button. You can add up to 29 attributes to the trigger. This enables you to create highly personalized journeys using out of the box triggers, without the need to create a custom trigger.
 
-In the abandoned cart journey, you won't need to add any conditions. But you can learn more about journey conditions here: [Personalize triggers using conditions](real-time-marketing-tile-reference.md#personalize-triggers-using-conditions).
+In the abandoned cart journey, let's add a condition to only trigger a reminder when the cart value exceeds $50. To do so, select **+Add condition** and then select the "Cart Total" attribute from the Cart Abandoned trigger. Finally, set the operator (">") and the value ("50").
+
+> [!div class="mx-imgBorder"]
+> ![Add a trigger condition screenshot.](media/real-time-marketing-trigger-attribute.png "Add a trigger condition screenshot")
+
+To learn how to add conditions based on nested attributes in the triggers, see [Personalize triggers using conditions](real-time-marketing-personalize-triggers.md).
 
 ## Set the journey goal
 

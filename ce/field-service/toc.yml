@@ -304,44 +304,100 @@ items:
           href: mobile-powerapp-copy-app-module.md
         - name: Performance considerations for mobile customizations
           href: improve-mobile-performance.md
-    - name: Field Service Mobile (Xamarin app)
+
+    - name: Get help
+      href: mobile-get-help.md
+
+- name: Agreements and preventive maintenance
+  items:
+    - name: Agreements
+      href: set-up-customer-agreements.md
+    - name: Service level agreements
+      href: sla-work-orders.md
+    - name: Agreement sub-statuses
+      href: set-up-agreement-sub-statuses.md
+    - name: Entitlements
+      href: work-order-entitlements.md
+
+- name: Asset servicing
+  items:
+    - name: Customer assets
+      href: configure-set-up-customer-assets.md
+    - name: Functional location
+      href: assets-functional-location.md
+    - name: Asset properties
+      href: asset-properties.md
+    - name: 3D asset models
+      href: 3D-viewer.md
+
+- name: Inventory and purchasing
+  items:
+    - name: Overview
+      href: inventory-purchasing-returns-overview.md
+    - name: Warehouses
+      href: create-warehouse.md
+    - name: Create a purchase order
+      href: create-purchase-order.md
+    - name: Process a return
+      href: process-return.md
+    - name: Manual inventory journals
+      href: manual-inventory-journals.md
+
+- name: Field Service for end customers
+  items: 
+    - name: Customer experience homepages
+      href: field-service-portal-homepage.md
+    - name: Self-scheduling for customers
+      href: scheduling-self-customers.md
+    - name: Send technician arrival time and current map location
+      href: reminders-arrival-time.md
+
+- name: Resource Scheduling Optimization Add-in
+  items:
+    - name: Overview
+      href: rso-overview.md
+    - name: Get Resource Scheduling Optimization
+      href: rso-get-install.md
+    - name: Quickstart
+      href: rso-quickstart.md
+    - name: Deployment
+      href: rso-deployment.md
+    - name: Configuration and setup
+      href: rso-configuration.md
+    - name: Scopes
+      href: rso-optimization-scope.md
+    - name: Goals
+      href: rso-optimization-goal.md
+    - name: Schedules
+      href: rso-optimization-schedule.md
+    - name: Publishing
+      href: rso-schedule-optimization.md
+    - name: Set up a proof of concept
+      href: rso-proof-concept.md
+    - name: Schedule in sequence
+      href: rso-requirement-dependency.md
+    - name: Predictive travel times
+      href: rso-predictive-travel.md
+    - name: Travel outside working hours
+      href: rso-travel-outside-working-hours.md
+    - name: Running Resource Scheduling Optimization
       items:
-        - name: Overview
-          href: field-service-mobile-overview.md
-        - name: Xamarin app end of life
-          href: activate-fs-mobile-app-license.md
-        - name: Install and Setup
-          href: field-service-mobile-app-user-guide.md
-        - name: Use the app
-          href: field-service-mobile-use.md
-        - name: Customizations and configurations
-          href: mobile-app-configuration-customization.md
-        - name: Map API key
-          href: mobile-enable-maps.md
-        - name: Upgrade the mobile project template
-          href: mobile-upgrade-project.md
-        - name: Push notifications
-          href: mobile-push-notifications.md
-        - name: Device and app management with Microsoft Intune
-          href: field-service-mobile-intune.md
-        - name: Geofencing
-          href: geofencing.md
-        - name: Deep linking
-          href: mobile-deeplink.md
-        - name: Use Power Automate flows with Field Service Mobile
-          href: mobile-workflow-to-flow.md
-        - name: FAQs (Xamarin app)
-          items:
-            - name: What is the latest version of the mobile app and configuration tool?
-              href: mobile-faq-latest-version.yml
-            - name: Mobile app won't sync to server or crashes immediately
-              href: mobile-faq-sync-crash.yml
-            - name: Bookings don't appear when logged into the app?
-              href: mobile-faq-bookings-not-showing.yml
-            - name: Bookings not scheduled to me show up when logged into the mobile app
-              href: mobile-faq-bookings-not-scheduled-to-me.yml
-            - name: More FAQs
-              href: mobile-faq.yml
+        - name: Publishing + monitoring
+          href: rso-schedule-optimization.md
+        - name: Overnight scheduling
+          href: rso-overnight-scheduling.md
+        - name: Single resource optimization
+          href: single-resource-optimization.md
+        - name: Simulations
+          href: rso-simulation.md
+    - name: Lock options for bookings
+      href: booking-lock-options.md
+    - name: Resolving conflicts for bookings
+      href: rso-handling-resolving-booking-conflicts.md
+    - name: Analytics dashboard
+      href: scheduling-analytics-reports.md
+    - name: FAQs + troubleshooting
+      href: rso-faq.yml
 
 - name: Connected Field Service (IoT)
   items: 

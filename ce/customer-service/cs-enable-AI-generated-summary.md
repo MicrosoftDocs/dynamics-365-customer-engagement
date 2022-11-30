@@ -1,7 +1,7 @@
 ---
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 10/03/2022
+ms.date: 11/04/2022
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
@@ -38,7 +38,7 @@ A summary includes the following components:
 
 ## Regional availability and supported languages
 
-The auto-summarization of conversations is available in the United States, Europe, and the United Kingdom.
+The auto-summarization of conversations is available in United States and Europe.
 
 This feature is supported only in English.
 

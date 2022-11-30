@@ -1,7 +1,7 @@
 ---
 title: "Booking maps in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about how to set up booking maps for frontline workers in Dynamics 365 Field Service.
-ms.date: 05/12/2021
+ms.date: 10/14/2022
 ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
@@ -9,8 +9,8 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -96,6 +96,7 @@ Select **View Details** to open the booking and work order.
 
 ### Known issues
 
+- Field Service Mobile Boooking Maps uses Azure Maps as the map provider. Currently, Azure Maps has some coverage and localization gaps for some parts of Japan and South East Asia regions.
 - If there are multiple bookings with the same address on the same day (as seen in the "3" icon in the following screenshot), tapping the cluster will bring the user to the info card of the booking with the latest start time. 
 
 > [!div class="mx-imgBorder"]

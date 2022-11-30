@@ -7,8 +7,8 @@ ms.reviewer: mhart
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 ms.custom: intro-internal
 search.app:

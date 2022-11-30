@@ -6,4 +6,4 @@ There are three possibilities:
 
 - Your administrator hasn't turned on the feature.
 
-- Your organization might be using a custom app. The steps described in this article are specific to the out-of-the-box Sales Hub and Sales Professional apps. Check with your administrator for exact steps.
+- Your organization is using a custom app. Check with your administrator for exact steps. The steps described in this article are specific to the out-of-the-box apps such as, the Sales Hub or Sales Professional app.

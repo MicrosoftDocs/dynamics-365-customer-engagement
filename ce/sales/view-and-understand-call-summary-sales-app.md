@@ -1,13 +1,13 @@
 ---
-title: "View and understand call summary page in Dynamics 365 Sales Hub app"
-description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript in Sales Hub app."
+title: "View and understand call summary page in the Dynamics 365 Sales Hub app"
+description: "Use call summary to get a high-level view of how a conversation with customer went, action items and relevant keywords, timeline, transcript in the Sales Hub app."
 ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# View and understand call summary page in Sales Hub app
+# View and understand call summary page in the Sales Hub app
 
 Sellers and their managers need an easy way to review the conversations they've had with their customers and quickly find relevant talking points, keywords, and insights.  
 The call summary page provides a high-level view of how the conversation with a customer went, and includes action items and relevant keywords, a timeline, a transcript of the call, and more.  
@@ -15,14 +15,14 @@ The call summary page provides a high-level view of how the conversation with a 
 The information on the call summary page helps both sellers and managers:
 
 - Sellers can quickly ramp up on past conversations with customers, and highlight important topics and commitments.
-- Managers can get a high-level view of how their team is managing their relationships with customers.  
+- Managers can get a high-level view of how their team manages their relationships with customers.  
 
 Call summaries are available from the conversation intelligence capabilities of the Sales Insights Add-in for Dynamics 365 Sales.
 
 ## License and role requirements
 | &nbsp; | $nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
@@ -40,7 +40,7 @@ The **Call Insights** tab is available under activities for leads and opportunit
 4.	Select the **Call summary** tab.   
     The call summary for the selected phone call activity is displayed.   
     > [!NOTE]
-    > Select the **Related opportunity** tab to see a list of opportunities that have been associated with the call. To add a related opportunity to the call, search for and select the opportunity.     
+    > Select the **Related opportunity** tab to see a list of opportunities associated with the call. To add a related opportunity to the call, search for and select the opportunity.     
 
     > [!div class="mx-imgBorder"]
     > ![Call insights tab in a phone call activity](media/si-app-activities-call-insights-tab.png "Call insights tab in a phone call activity")  
@@ -62,12 +62,7 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 #### Notes tab   
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-The **Notes** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.  
-
-> [!NOTE]
-> If you don’t see the **Notes** tab, contact your administrator to enable the features in the **New and upcoming features** section of the conversation intelligence configuration page. More information: [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+The **Notes** tab in the call summary page helps you reduce the time to summarize the call and add the provided intelligent suggestions to the summary, including action items, commitments, call minutes, and next steps.  
 
 You can write  a quick and personalized summary without moving away from the context of the call in the **Notes** tab. Providing a summary of the call helps you to save time, focus on the customer’s call, quickly review the key points, and understand the next course of action.    
 Further, you can share the saved summary with the stakeholders through an email.  
@@ -86,7 +81,7 @@ Further, you can share the saved summary with the stakeholders through an email.
     -	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
     
     -	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
-    -	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript and the playback. 
+    -	To understand and know more about the context of the note, select the corresponding timestamp that will direct you to the section in the transcript and the playback. 
 
     > [!div class="mx-imgBorder"]
     > ![Suggested notes in the Notes tab](media/ci-summary-call-summary-suggested-notes-sales-app.png "Suggested notes in the Notes tab")
@@ -105,9 +100,9 @@ Further, you can share the saved summary with the stakeholders through an email.
 
 2.	Open your email and paste the copied summary. The summary is pasted in the following format:
     -	**Subject**: Specifies the subject of the call. For example, Gym membership.
-    -	**Participants**: Lists the players who are connected during the call.  
+    -	**Participants**: Lists the players connected during the call.  
     -	**Call date and time**: Specifies the date and time of the call.   
-    -	**Related records**: Lists the records that are related to the call such as, contact, lead, and opportunity.    
+    -	**Related records**: Lists the records that are related to the call, such as contact, lead, and opportunity.    
     -	**Summary**: Specifies the summary of the call that you’ve provided.
 
     > [!div class="mx-imgBorder"]
@@ -126,13 +121,13 @@ If a call is mentioned in the transcript, the transcript is highlighted in blue 
    - **Subject**: Summarize what the call is about. 
    - **From**: Select the name of the seller who will make a call to the contact that you add in the **To** field.
    - **To**: Select the name of the customer to call.
-   - **Set date**: Select the date and time at which the call must be made.
+   - **Set date**: Select the date and time at which the seller must make the call.
    - **Regarding field**: Select a record from an entity&mdash;such as opportunity, lead, contact, or account&mdash;that gives relevant information about the call.   
 2. Select **Create**.  
 >[!NOTE]
 >- If you want to enter more details while setting up a call, expand **Create** and then select **Create and Edit**.
 >- If you think this action item would be better handled as a task than a call, select **Create task**.  
-The call activity can be viewed under the activities of the attached record entity and on the seller's activity list. After the call activity is created, you can select the call under **See call** and the call activity will open in a browser tab.
+You can view the call activity under the activities of the attached record entity and on the seller's activity list. After you create the call activity, select the call under **See call** and the call activity will open in a browser tab.
 
 ##### Create a task   
 If a piece of work that the seller must perform is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.   
@@ -141,12 +136,12 @@ If a piece of work that the seller must perform is mentioned in the transcript, 
 1. Enter the following details:  
    - **Subject**: Summarize what's involved in the task.
    - **Owner**: Select the owner of the task.
-   - **Date and time**: Select a date by which the task must be completed.
+   - **Date and time**: Select a date by which the owner must complete the task.
    - **Regarding field**: Select a record from an entity&mdash;such as an opportunity, lead, contact, or account&mdash;that gives relevant information about the task.   
 2. Select **Create**.  
 >[!NOTE]
 >If you want to enter more details while setting up the task activity, expand **Create** and then select **Create and Edit**.   
-The task activity can be viewed under the activities of the attached record entity and on the owner's activity list. When the task activity is created, you can select the task under **See task** and the task activity will open in a browser tab.
+You can view the task activity under the activities of the attached record entity and on the owner's activity list. Once you create a task activity select the task under **See task** and the task activity will open in a browser tab.
 
 ##### Send an email  
 If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.  
@@ -154,7 +149,7 @@ If email is mentioned in the transcript, the transcript is highlighted in blue a
 > ![Send an email](media/ci-action-item-send-email.png "Send an email")  
 1. Enter the following details:    
    - **Subject**: Summarize what the email is about.
-   - **From**: By default, the name of the seller who participated in the call is selected.
+   - **From**: By default, the app selects the name of the seller who participated in the call.
    - **To**: Select the recipients to send the email to.   
 2. Select **Open email**, and then compose and send the email.   
 >[!NOTE]
@@ -183,7 +178,7 @@ The **Highlights** tab displays talking points&mdash;such as keywords, stakehold
 - **Competitors**: Displays the predefined competitors that customers mentioned during the call.
 - **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
 - **Brands mentioned**: Displays brand and organization names (other than your own) that the customer mentioned during the call.  
-- - **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call. 
+- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call. 
 - **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users during the call. For example, What do you think about the demo? 
 - **Questions asked by others**: Displays the questions asked by the other participants during the call. 
 
@@ -211,13 +206,13 @@ The following image shows an example of call playback timeline.
 > [!div class="mx-imgBorder"]
 > ![Playback timeline with segmentation](media/ci-summary-playback-sales-app.png "Playback timeline with segmentation")   
 
-Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).  
+Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust the volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).  
 
 When you go to the **Highlights** tab and select a keyword or other highlight, a diamond icon appears on the playback timeline to indicate the time that the selected highlight was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline.  
 
 You can also quickly go to the comments added by your colleagues from the timeline. Select the comment icon (:::image type="icon" source="media/comment-icon.png" border="false":::) on the timeline to go to the corresponding comment in the transcript.  
 
-On the timeline, you can see how the conversation was segmented. The topics (if any) that were discussed in a segment are identified. To better drill down into the conversation, you can choose a specific segment and see the insights that are relevant to it. Some examples of segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment, and the playback timeline is highlighted for the selected segment. If the selected segment contains any action items or keywords, they're displayed on their respective tabs.
+On the timeline, you can see how the conversation was segmented. The topics (if any) that were discussed in a segment are identified. To better drill down into the conversation, you can choose a specific segment and see the relevant insights. Some examples of segments are the introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment, and highlight the playback timeline for the selected segment. If the selected segment contains any action items or keywords, they're displayed on their respective tabs.
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

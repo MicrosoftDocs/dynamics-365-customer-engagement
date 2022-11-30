@@ -4,8 +4,8 @@ description: Collaborate in the context of work orders by integrating with Micro
 ms.date: 08/26/2022
 ms.reviewer: mhart
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.author: jacoh
+author: jasonccohen
 manager: shellyha
 search.app:
 - D365CE

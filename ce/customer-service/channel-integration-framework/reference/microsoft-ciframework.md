@@ -64,6 +64,6 @@ Use the following APIs to perform CRUD operations on entity records.
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)  
-[System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework 1.0](../system-requirements-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
