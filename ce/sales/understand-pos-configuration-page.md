@@ -74,6 +74,6 @@ You can configure the grading range according to your organizational requirement
 
 ## MultiModel
 
-Select **Add model** to [create a model](configure-predictive-opportunity-scoring.md#create-a-scoring-model) for a line of business that might use different opportunities than your first model. The **Add model** command is disabled when you reach the maximum limit of 10 models (both published and unpublished).
+Select **Add model** to [create a model](configure-predictive-opportunity-scoring.md#add-a-model) for a line of business that might use different opportunities than your first model. The **Add model** command is disabled when you reach the maximum limit of 10 models (both published and unpublished).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
