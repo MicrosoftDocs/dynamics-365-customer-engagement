@@ -42,7 +42,7 @@ The model is trained using 80% of the closed opportunities or leads in the train
 
 1. Select the **Performance** tab. If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md). 
 
-    :::image type="content" source="media/predictive-scoring-accuracy.PNG" alt-text="A screenshot of the Performance tab displaying model accuracy metrics" lightbox="media/predictive-scoring-accuracy.png":::
+    :::image type="content" source="media/predictive-scoring-accuracy.png" alt-text="A screenshot of the Performance tab displaying model accuracy metrics" lightbox="media/predictive-scoring-accuracy.png":::
 
 The **Performance** tab displays the following metrics.If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md).
 
