@@ -1,7 +1,7 @@
 ---
 title: Configure predictive lead scoring
 description: Configure predictive lead scoring to help sellers prioritize leads.
-ms.date: 10/21/2022
+ms.date: 11/30/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -59,13 +59,13 @@ The application uses standard attributes to train the model. You can [edit the m
 
 ## Publish your model
 
-When your model is trained and ready to publish, the **Predictive lead scoring** page displays a confirmation:
+1. When your model is trained and ready to publish, the **Predictive lead scoring** page displays a confirmation:
 
-:::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
+  :::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
 
-If the model is trained but not ready to publish, the page displays this confirmation:
+2. If the model is trained but not ready to publish, the page displays this confirmation:
 
-:::image type="content" source="media/pls-model-not-ready-confirm.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained but not ready to publish.":::
+  :::image type="content" source="media/pls-model-not-ready-confirm.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained but not ready to publish.":::
 
 1. To retrain the model every 15 days, select **Retrain automatically**.
 
