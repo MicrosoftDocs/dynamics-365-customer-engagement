@@ -18,7 +18,7 @@
         href: sales-trial-faq.md
   - name: Install and configure
     items:
-    - name: System requirements for sales apps
+    - name: System requirements
       href: system-requirements-for-sales-apps.md
     - name: Use the Sales Hub app
       href: intro-saleshub.md
