@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/21/2022
+ms.date: 11/29/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
