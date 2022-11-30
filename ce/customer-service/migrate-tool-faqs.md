@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 10/05/2020
+ms.date: 11/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -61,10 +61,17 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 - **For incomplete or failed migration rules:** Select the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
 - **For successfully migrated rules:** Delete the migrated rule in Unified Interface before rerunning the migration tool.
 
+### What happens to existing SLA records that are associated with legacy SLAs after the migration is complete?
+
+1. If the legacy SLA is deactivated after migration: The timer will continue to run until the terminal state for such SLA records but the **Resolve** or **Pause** functionality won't work.
+
+1. If the legacy SLA is still in **Active** state: Existing SLA records with legacy SLAs will continue to work as expected.
+
+1. If you want to use SLAs created in the Unified Interface apps on existing records: You'll need to update the SLA field to Unified Interface SLA manually or write the plugin to update the records. For example, the plugin logic could be Modern Flow or Workflow.
 
 ## Known condition conversion issues
 
-The following are key scenarios where rules or items will not successfully complete migration:
+The following are key scenarios where rules or items won't successfully complete migration:
 
 ### If my rule items or conditions have related entities inside a nested group clause (and/or), will they be migrated to Unified Interface?
 
@@ -87,7 +94,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
 
 ### Why do my rule items or conditions with a DateType field that uses a "not on" operator fail during the premigration checkup and actual migration?
 
-The **Not on** operator for the **Date** data type is not supported in Unified Interface and therefore is not supported as part of migration. To fix this issue, you can change the legacy items or conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.
+The **Not on** operator for the **Date** data type isn't supported in Unified Interface, and therefore isn't supported as part of migration. To fix this issue, you can change the legacy items or conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.
 
 **Example: Premigration view**
     
@@ -104,7 +111,6 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
 
 
 ![Unified Interface view.](media/migration-tool-12-b.png "Unified Interface view")
-
 
 ### Why does the data in my DateTime field change during migration?
 
@@ -210,7 +216,7 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 
 > [!Important] 
 > 
-> If you are still experiencing issues with the migration tool, contact your administrator or Microsoft support.
+> If you're still experiencing issues with the migration tool, contact your administrator or Microsoft support.
 
 ### See also
 

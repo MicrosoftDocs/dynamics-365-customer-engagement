@@ -34,27 +34,6 @@ The journey start configuration lets you define how customers can start the jour
 - **Handling unresolved profile**: This option is only available for trigger-based journeys that target Customer Insights profiles. It takes time to create a full Customer Insights profile. If the full profile isn’t available at the time the person triggers the journey, they can either start the journey immediately using defaults for any missing profile data or wait for the full profile to be available before starting the journey. To successfully communicate with someone without a profile, the trigger must specify email (contactpoint_email) or phone (contactpoint_phone) attributes. See [Create a custom trigger](real-time-marketing-custom-triggers.md). <br>
 For journeys such as sending purchase order confirmations, both new customers and existing customers can trigger the journey. A new customer may not have a full profile when they make the purchase. By selecting the option to start the journey immediately even if the full profile is not available, you can ensure new users will get the order confirmation immediately without having to wait. All profile attributes for these new users will be treated as empty, so it's important to always include default fallbacks in personalized content as well as attribute branches.
 
-### Personalize triggers using conditions
-
-You can deliver more personalized experiences by accessing a rich set of trigger data for defining the journey entry/exit criteria, conditions/branches, and wait for branches. When you add any of these elements to the journey, you can use data attributes not only from the trigger’s core entity/table, but also from entities/tables directly related to those attributes.
-
-For example, let’s create a journey to nurture new opportunities (using the “Opportunity created” trigger).
-
-In the **Choose a trigger** dialogue, select the **Opportunity created** trigger.
-
-> [!div class="mx-imgBorder"]
-> ![Choose a trigger screenshot.](media/real-time-marketing-tile-choose-trigger.png "Choose a trigger screenshot")
-
-Then, select **+Add condition** and search for the **budget** attribute from the Opportunity table.
-
-> [!div class="mx-imgBorder"]
-> ![Select the budget attribute.](media/real-time-marketing-tile-budget.png "Select the budget attribute")
-
-This enables you to create [journey variations](real-time-marketing-edit-journey.md) for opportunities that are more likely to buy.
-
-> [!div class="mx-imgBorder"]
-> ![Create a variation based on the attribute.](media/real-time-marketing-tile-will-buy.png "Create a variation based on the attribute")
-
 ### Segment-based journey
 
 - **Audience**: The audience property lets you specify the segment of people that will start the journey. Segment-based journeys [support segments from outbound marketing as well as segments created in Dynamics 365 Customer Insights](real-time-marketing-segments.md). The journey will use audience data based upon the segment selected. For example, if the journey is started with an outbound marketing segment that contains a segment of **Contacts**, the journey will use Contacts as its Audience data. Similarly, if the journey is started using a Customer Insights segment that is a segment of **Customer Profiles**, the journey will use Customer Profile as its Audience data. Once an audience segment has been selected, all other segments used in the journey must be of the same type (segment from outbound marketing or Customer Insights segment).

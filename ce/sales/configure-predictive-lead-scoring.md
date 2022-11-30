@@ -43,6 +43,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 > - If you're using a model that you created in a version of Dynamics 365 earlier than 2020 release wave 2, [delete the model](pls-duplicate-models.md#delete-a-model) before you create a new one. Otherwise, the previous version of the model will be applied to all leads in your organization, and new models won't have any effect on the leads.
 > - As of 2020 release wave 2, the application writes the lead scoring data to the [**msdyn_predictivescore**](developer-sp/msdyn_predictivescore.md) table and no longer writes to the lead table. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
 
+
 A scoring model defines the criteria for choosing leads for training and scoring. If your organization follows different sales practices across different regions or business units, you can create models and unique training sets for each of them.
 
 1. Go to **Change area** in the lower-left corner of the Sales Hub app, and select **Sales Insights settings**.

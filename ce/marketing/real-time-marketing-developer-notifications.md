@@ -136,7 +136,7 @@ Events are used for tracking notifications as follows:
 **Endpoint URL:**
 
 ```
-https://%s/api/v1.0/orgs/<orgId>/event/trackings/<trackingId>
+https://%s/api/v1.0/orgs/<orgId>/pushchannel/event/trackings/<trackingId>
 ```
 
 - **OrgId:** This is the id for your organization, generated when you registered with Dynamics CRM.

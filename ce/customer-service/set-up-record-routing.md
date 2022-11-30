@@ -138,7 +138,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
 ### Next steps
 
-![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)  
+![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)  
 ![Home.](media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
 
 ### See also

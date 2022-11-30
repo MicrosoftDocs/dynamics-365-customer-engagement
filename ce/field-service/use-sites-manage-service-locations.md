@@ -4,9 +4,9 @@ description: Learn about how to use sites to define where you provide service lo
 ms.date: 09/15/2017
 
 ms.topic: article
-ms.assetid: 5af40bb8-be4e-419d-a69a-640236b36174
-author: lalexms
-ms.author: laalexan
+author: jshotts
+ms.author: jasonshotts
+ms.reviewer: mhart
 manager: shellyha
 search.audienceType: 
   - admin

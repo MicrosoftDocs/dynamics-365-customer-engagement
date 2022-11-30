@@ -142,7 +142,6 @@ You can create up to 10 models, both published and unpublished, for different se
 
     After creating the model, you'll be able to view the prediction influence of each attribute across different stages. You can then select the attributes and corresponding stages.
 
-    <!-- NOTE FROM EDITOR: Please provide a screenshot of this. -->
 
     > [!NOTE]
     > If you enable **Per stage modeling**, be sure to select a business process in the **Business process flow** list.

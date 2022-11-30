@@ -4,11 +4,10 @@ description: "Use this article to know about the supported cloud locations, lang
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2022
+ms.date: 11/14/2022
 ms.topic: article
 ---
-
-# Supported cloud locations, languages, and locale codes for voice channel
+# Supported cloud locations, languages, and locale codes
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -18,7 +17,7 @@ For information about international availability of live chat and digital messag
 
 ## Supported cloud locations
 
-The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your country or region-specific cloud deployments.
+This section lists the availability of voice channel in Omnichannel for Customer Service for various regions.
 
 > [!IMPORTANT]
 >
@@ -27,19 +26,22 @@ The following table lists the availability of the voice channel in Omnichannel f
 
 ### General region deployments
 
+The following table lists the general and trial availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service isn't yet available for your region-specific cloud deployments. Voice trials are supported for specific general region deployments only as listed in the table.
+
 |Geographic location | General availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America (crm.dynamics.com) |November 2021  | November 2021|
 |Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
 |Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
-|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
+|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |September 2022|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 |Government Community Cloud (GCC) High|To be announced |To be announced|
 
-If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 ### Region-specific deployments
+
+If you need your data to stay within a region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
@@ -56,6 +58,7 @@ If you need your data to stay within a country or region, see the following tabl
 |Norway | To be announced | To be announced|
 |Korea | To be announced | To be announced|
 |Singapore|To be announced | To be announced|
+
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.<br>
@@ -276,3 +279,4 @@ Use the information in the following table to find out more about language suppo
 
 [Overview of the voice channel](voice-channel.md)  
 [FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+
