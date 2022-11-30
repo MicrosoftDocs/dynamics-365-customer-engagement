@@ -22,7 +22,7 @@ search.app:
 
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
-Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
+Read this article to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
 ## Create user accounts and assign licenses
 
@@ -64,7 +64,7 @@ To purchase and assign a free Marketing user license:
 
 1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the user-admin interface in a few minutes.
 
-1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
+1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who doesn't have at least one relevant security role.
 
 More information: 
 [Assign licenses to users in Microsoft 365 for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
@@ -104,7 +104,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. The advanced-settings area opens in a new browser tab. This area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
 1. Select the **Security roles** icon.
 
@@ -115,7 +115,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 Here are a few notes for working with the **Security role** settings:
 
 - Most of the entities added by Dynamics 365 Marketing are on the **Custom entities** tab. The other tabs manage features that either common for all model-driven apps in Dynamics 365, or specific to another app.
-- There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with several model-driven apps in Dynamics 365 (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
+- There's a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with several model-driven apps in Dynamics 365 (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to  common features also required by users in marketing roles.
 
 Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
@@ -148,7 +148,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
 In addition to the entity-level security set directly on each security role, you can also control access to specific forms and/or fields. These work as follows:
 
 - *Form-level security* restricts access to specific forms, so even if a user has a security role that grants access to a given entity (such as customer journeys), that user might not be able to access some of the forms of that entity (such as the insights) unless they have one of the additional roles required by that form. Most of the entities added by Dynamics 365 Marketing don't include any form-level security out of the box, so users that can access these entities can also access all the forms that belong to them, though some exceptions exist (including insights forms for some entities).
-- *Field-level security* applies extra restrictions on specific fields, so even if a user can view a given form, some fields on that from could be hidden if they require an additional field security profile. Field security profiles are similar to, but separate from, the entity-level security roles otherwise described in this topic.
+- *Field-level security* applies extra restrictions on specific fields, so even if a user can view a given form, some fields on that from could be hidden if they require an additional field security profile. Field security profiles are similar to, but separate from, the entity-level security roles otherwise described in this article.
 
 You don't see form or field settings when you edit the security role, so you must manage these separately.
 
@@ -164,16 +164,16 @@ The tables in this section summarize the purpose of each role added by Dynamics 
 |---------------|--------------|----------------|
 | Marketing Professional - Business | Most standard marketers who require access to Dynamics 365 Marketing core features, but don't need to configure the system | Nearly all entities in the **Marketing** work area, including segments, customer journeys, emails, marketing pages, marketing lists, and related features and templates (but not including LinkedIn or lead-scoring features). This role grants only limited access to the **Settings** work area. It also grants access to fundamental entities like contacts, leads, accounts, activities (tasks, phone calls, appointments), and marketing lists. This role is provided access to insights forms through form-level security.|
 | Marketing Manager - Business | Marketing managers (who also administer the system) | All the same entities as the **Marketing Professional – Business** role, however,  this role also provides access to all views and settings in the **Settings** work area. This role is provided access to insights forms through from-level security. |
-| Marketing, Business App Access | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
-| Marketing Services User | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
+| Marketing, Business App Access | For internal use only, don't delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Don't delete or modify this role. |
+| Marketing Services User | For internal use only, don't delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Don't delete or modify this role. |
 | Lead Score Modeler | Marketing strategists responsible for building lead-scoring models (must be combined with a core marketing role) | Can view and edit lead scoring models, view lead scores, and customize the lead-to-opportunity marketing business process for leads. All these features are in the **Lead management** section of the **Marketing** work area.  |
 | Lead Score Viewer | Marketers and salespeople that should see calculated lead scores (must be combined with one of the other marketing and/or sales roles) | Can view the score achieved by each lead. |
-| Marketing Professional (BU level) - Business* | Marketers in orgs with multiple business units  | Same access as **Marketing Manager - Business**, but privileges are scoped to "Local" - e.g. just local business unit access.
-| Marketing Manager (BU level) - Business* |  Marketing managers in orgs with multiple business units | Same access as **Marketing Professional - Business**, but privileges are scoped to "Deep" - e.g. just local + child business unit acesss.
+| Marketing Professional (BU level) - Business* | Marketers in orgs with multiple business units  | Same access as **Marketing Manager - Business**, but privileges are scoped to "Local" - for example, just local business unit access.
+| Marketing Manager (BU level) - Business* |  Marketing managers in orgs with multiple business units | Same access as **Marketing Professional - Business**, but privileges are scoped to "Deep" - for example, just local + child business unit access.
 
-*Expected realease date for BU level roles is February 2023
+*Expected release date for BU-level roles is February 2023
 
-Please note "Marketing Professional" and "Marketing Manager" roles (without the "Business" suffix) are roles used in enterprise marketing and not related to dynamics makreting product.
+"Marketing Professional" and "Marketing Manager" roles (without the "Business" suffix) are roles used in enterprise marketing and not related to the Dynamics 365 Marketing product.
 
 ### Event Management security roles
 
@@ -181,7 +181,7 @@ Please note "Marketing Professional" and "Marketing Manager" roles (without the 
 |---------------|--------------|----------------|
 | Event Administrator | Managers who plan events and administer the event-management features. | All entities in the **Events** work area, and all event-related settings in the **Settings** work area. These users can create, read, write, delete, assign, and share records owned by themselves and other users in the same business unit. |
 | Event Planner | All users involved with event planning. | All entities in the **Events** work area. Users with this role can create, read, write, and share these records with other users in the same business unit, but can only delete and assign the records that they own. |
-| EventManagement S2S Inbound | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
+| EventManagement S2S Inbound | For internal use only, don't delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Don't delete or modify this role. |
 
 ### LinkedIn Lead Gen security roles
 
@@ -189,7 +189,7 @@ Please note "Marketing Professional" and "Marketing Manager" roles (without the 
 |---------------|--------------|----------------|
 | LinkedIn Lead Gen Forms Administrator | Administrators who are managing your organization's integration with LinkedIn | Users with this role can configure lead matching strategies, LinkedIn field mappings, and solution settings for the Dynamics 365 Connector for LinkedIn Lead Gen Forms. |
 | LinkedIn Lead Gen Forms Salesperson | Users who need to sync their profiles and view leads generated from LinkedIn, but who don't need to configure the connection | These users can authorize LinkedIn user profiles to sync data to Dynamics 365, and view details about the synced submissions. |
-| LinkedIn LeadGen S2SInbound | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
+| LinkedIn LeadGen S2SInbound | For internal use only, don't delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Don't delete or modify this role. |
 
 ### Surveys security roles
 
@@ -206,7 +206,7 @@ Dynamics 365 Marketing includes a preconfigured user called **D365 Marketing**, 
 - Marketing Services User
 - Marketing, Business App Access
 - Marketing Service user extensible role
-- Marketing service user realtime role
+- Marketing service user real-time role
 
 The system uses this account when performing important internal tasks, and Marketing will stop working correctly if you remove the user or any of these required roles. Be sure not to remove or modify this user.
 
@@ -243,7 +243,7 @@ After deploying real-time marketing features, several service users are created.
 | Cxp Sms Services User | Text message sending |
 | Cxp TeamsEventsIntegration Services User | Teams attach scenarios |
 
-Marketing product is evolving, so it is possible new services (and hence more roles) will be added with along with marketing upgrades. Service user roles (their privileges for marketing entities) can be modified during marketing upgrade for the same reason. 
+Marketing product is evolving, so it's possible new services (and hence more roles) will be added with along with marketing upgrades. Service user roles (their privileges for marketing entities) can be modified during marketing upgrade for the same reason. 
 
 One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
 
