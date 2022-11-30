@@ -40,9 +40,9 @@ The model is trained using 80% of the closed opportunities or leads in the train
 
 1. In the **Select model** list, select a model.
 
-1. Select the **Performance** tab.
+1. Select the **Performance** tab. If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md). 
 
-    :::image type="content" source="media/predictive-scoring-accuracy.png" alt-text="A screenshot of the Performance tab displaying model accuracy metrics.":::
+    :::image type="content" source="media/predictive-scoring-accuracy.PNG" alt-text="A screenshot of the Performance tab displaying model accuracy metrics" lightbox="media/predictive-scoring-accuracy.png":::
 
 The **Performance** tab displays the following metrics.
 
@@ -69,7 +69,7 @@ The **Performance** tab displays the following metrics.
     | False positive (FP) |   Yes   | No    |
     | False negative (FN) |   No    | Yes   |  
 
-- **Area under the curve**: The area under the curve (AUC) score of the model. The AUC score determines the probability that a model will rank a randomly chosen positive instance (a won opportunity or a qualified lead) higher than a randomly chosen negative one (a lost opportunity or lead). A model with a higher AUC is better at predicting true positives and true negatives.  
+- **Area under the curve**: The area under the curve (AUC) score of the model. The AUC score determines the probability that a model will rank a randomly chosen positive instance (a won opportunity or a qualified lead) higher than a randomly chosen negative one (a lost opportunity or a disqualified lead). A model with a higher AUC is better at predicting true positives and true negatives.  
 
 - **F1 score**: The F1 score calculated based on the model's precision and recall scores. The F1 score determines the quality of the model even when the data is unbalanced.  
 
@@ -86,7 +86,7 @@ Let's look at the prediction results for a sample dataset of 1,000 opportunities
 | True negative   | 100 |
 | False negative  | 50  |
 
-The model predicted 850 (TP + FP) opportunities would be won; however, only 650 (TP) opportunities were actually won. Similarly, the system predicted 150 (TN + FN) opportunities would be lost, but only 100 (TN) opportunities were actually lost.
+The model predicted 850 (TP + FP) opportunities would be won; however, only 650 (TP) opportunities were actually won. Similarly, the model predicted 150 (TN + FN) opportunities would be lost, but only 100 (TN) opportunities were actually lost.
 
 The following table shows the metrics for the data.
 
@@ -98,7 +98,7 @@ The following table shows the metrics for the data.
 
 ## Improve model performance
 
-If your model isn't ready to publish or isn't performing well, try the following steps to improve its scores:
+If your model isn't ready to publish or isn't performing well, try the following steps to improve its scores.
 
 - Review the attributes it uses.
 - View attribute insights to understand their influence on the model's overall prediction.
