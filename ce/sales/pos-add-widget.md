@@ -28,6 +28,8 @@ By default, the predictive opportunity scoring widget is available only in the o
 ## Add the opportunity scoring widget to a custom form
 
 1. Sign in to the [Power Apps portal](https://make.powerapps.com/) and select an environment.
+    > [!div class="mx-imgBorder"]  
+    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
 
 1. Select **Data** > **Tables**.
 
