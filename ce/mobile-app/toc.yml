@@ -8,7 +8,7 @@
     href: set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md
   - name: Manage and secure devices
     href: secure-manage-phones-tablets.md
-- name: Set-up mobile offline
+- name: Set up mobile offline
   items:
   - name: Configure mobile offline
     href: setup-mobile-offline.md
