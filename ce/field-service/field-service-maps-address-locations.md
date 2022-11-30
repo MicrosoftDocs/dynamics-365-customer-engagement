@@ -1,7 +1,7 @@
 ---
 title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.date: 10/08/2022
+ms.date: 11/30/2022
 ms.reviewer: mhart
 ms.topic: article
 applies_to:
@@ -26,9 +26,7 @@ Locations and maps are important for getting the most value out of Field Service
 
 Enabling maps lets dispatchers and technicians see a map view on work orders, accounts, and other records. They can also use address recommendations for quick and accurate data entry, get directions, and view real-time traffic.
 
-Bing Maps is enabled by default for new environments outside the EU. EU customers can opt-in to use Bing Maps with the privacy notice and consent to share data with an external system. 
-
-To enable oder disable Bing Maps
+Bing Maps is enabled by default for new environments outside the EU. EU customers can opt in to use Bing Maps with the privacy notice and consent to share data with an external system.
 
 1. Go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General**.
 
@@ -62,7 +60,7 @@ Address recommendations on account, work order, and booking forms let you quickl
 
 :::image type="content" source="media/address-suggestion.png" alt-text="Screenshot of a new work order in Field Service, showing address suggestions in a dropdown menu.":::
 
-> [!Note]
+> [!NOTE]
 > By default, the _Field Service - Resource_ security role has read-only privileges and cannot edit addresses.
 
 ## Enable booking maps
@@ -72,14 +70,14 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
 
-For more information, see this article: [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) 
+For more information, see [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment).
 
 ## Location tracking
 
-Frontline workers often travel to various locations throughout their work day, and it's helpful for schedulers to know where frontline workers are at any given time. Frontline workers using the Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a frontline worker's location history. See the article on [location tracking](mobile-powerapp-location-auditing.md) for more details.
+Frontline workers often travel to various locations throughout their work day, and it's helpful for schedulers to know where frontline workers are at any given time. Frontline workers using the Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a frontline worker's location history. For more information, see [location tracking](mobile-powerapp-location-auditing.md).
 
 ## Geofencing
 
-A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. See the article on [geofencing](mobile-powerapp-geofence.md) for more details.
+A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. For more information, see [Geofencing](mobile-powerapp-geofence.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

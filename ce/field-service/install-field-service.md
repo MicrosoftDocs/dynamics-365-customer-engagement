@@ -3,7 +3,7 @@ title: "Install Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to install Dynamics 365 Field Service.
 
 ms.topic: article
-ms.date: 10/13/2022
+ms.date: 11/30/2022
 ms.reviewer: mhart
 ms.author: jacoh
 author: jasonccohen
