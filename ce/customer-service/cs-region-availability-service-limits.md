@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 10/19/2022
+ms.date: 11/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -43,7 +43,7 @@ The following table lists the region availability of analytics and insights.
 | Sentiment prediction-based routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | Effort estimation model for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
-| AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ | ✖ | ✖ | ✔| ✖ | ✖| ✖ | ✖ |
+| AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖| ✖ | ✖ | ✖ |
 | Forecast report for agents, cases, and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | Knowledge Base keywords suggestion| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ |
 | Unified routing analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |

@@ -2,9 +2,8 @@
 title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about Metadata Diagram entity to create a diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities."
 ms.custom:
-ms.date: 08/09/2019
+ms.date: 11/10/2022
 ms.reviewer: pehecke
-
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
@@ -117,7 +116,7 @@ The tool does not generate lines showing the relationships to the following enti
 
 To use the sample code that will programmatically generate Office Visio metadata diagrams, build and execute the using the solutions from SDK sample.
 
-Download the sample: [Generate entity diagrams with the metadata diagram tool](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse)
+Download the sample: [Generate entity diagrams with the metadata diagram tool](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/GenerateEntityDiagram)
 
 After you download the sample, you can find the solution file in the following folder path: `Generate entity diagrams with the metadata diagram tool\C#\Diagram`.
 
