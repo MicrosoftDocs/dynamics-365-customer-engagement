@@ -62,7 +62,7 @@ The **Details** section lets you add more information and preferences to the acc
 
 - **Description**: Text description of the account.
 
-- **Contact Preferences**: Preferred contact method and which contact methods are allowed.
+- **Contact Preferences**: Preferred contact method and which contact methods are allowed. This section also lets you defined the primary time zone to ensure you schedule calls and work order at the right time.
 
 - **Billing**: Default billing options for the account.
 
