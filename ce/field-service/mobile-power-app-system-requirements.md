@@ -9,8 +9,8 @@ ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -38,7 +38,7 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 
 | Platform |Version |RAM| Storage*|
 | --- | --- |--- | --- |
-| iOS |	12.4.9 or later |	3 GB |	64 GB	| 
+| iOS |	14 or later |	3 GB |	64 GB	| 
 | Android	| 7.1.1 or later |	3 GB	| 64 GB	| 
 | Windows	| 10 17763.0 or later |	3 GB	| 64 GB	|
 
@@ -46,7 +46,7 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 
 | Platform |Version |RAM| Storage*|
 | --- | --- |--- | --- |
-| iOS | 13 or later| 4 GB| 128 GB |
+| iOS | 15 or later| 4 GB| 128 GB |
 | Android| 10 or later |6 GB| 128 GB |
 | Windows|  10 19042.1348 or later |6 GB| 128 GB |
 

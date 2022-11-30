@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 08/01/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -86,27 +86,24 @@ You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../inclu
 
 To learn more about adding a timer control to an SLA-enabled entity, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
 
-## View active duration and elapsed time for SLA KPI Instances (preview)
+## View active duration and elapsed time for SLA KPI Instances
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 
-Tracking the business hours taken by SLA KPI Instances to reach their terminal status will help you evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
-
-The **Active Duration (minutes)** and **Elapsed Time (minutes)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (minutes)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (minutes)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
+The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
 
 You can view the active duration and elapsed time on the **SLA** tab of the custom entity as well.
 
-- **Active Duration (minutes)**: Displays the time for which the SLA KPI Instance was active.
+- **Active Duration (min)**: Displays the time for which the SLA KPI Instance was active.
 
-- **Elapsed Time (minutes)**: Displays the time for which the SLA KPI Instance timer was paused.
+- **Elapsed Time (min)**: Displays the time for which the SLA KPI Instance timer was paused.
 
-Both **Active Duration (minutes)** and **Elapsed Time (minutes)** are calculated based on the current value of the business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation.
+Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based on the current value of the business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation.
 
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
 > [!NOTE]
-> - The active duration and elapsed time data isn't applicable for legacy SLAs.
-> - In early access, **Active Duration (minutes)** will display values for new SLA KPI Instances only that are created after the field is available. For existing SLA KPI Instances, the field will remain empty.
+> The active duration and elapsed time data isn't applicable for legacy SLAs.
 
 ### See also
 

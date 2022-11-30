@@ -3,7 +3,7 @@ title: "Sales Trial FAQ | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Sales trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 06/27/2022
+ms.date: 11/11/2022
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
@@ -29,7 +29,6 @@ After you have applied for the license to your tenant, you can publish your envi
 The following limitations apply for the trial:
 
 - The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
-- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
 ## Dynamics 365 Sales-specific questions

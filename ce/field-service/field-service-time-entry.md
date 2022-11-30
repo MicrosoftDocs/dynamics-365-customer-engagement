@@ -8,8 +8,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 manager: shellyha
 search.app: 
   - D365CE
@@ -120,14 +120,6 @@ Making changes to the date or duration of the time entry will update the time-of
 
 
 - Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [article on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
-
-- Time entries can be viewed and created on the Field Service Mobile (Xamarin) app
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
-
-Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile (Xamarin).
-
 
 ## Additional notes
 

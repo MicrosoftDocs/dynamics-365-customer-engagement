@@ -8,8 +8,8 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: JonBaker007
-ms.author: jobaker
+author: Deana-Fuller
+ms.author: drfuller
 manager: shellyha
 search.app:
 - D365CE

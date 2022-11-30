@@ -1,7 +1,7 @@
 ---
-title: "Export and import configuration data for records based on unified routing | MicrosoftDocs"
-description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 09/14/2022
+title: "Migrate configuration data for records based on unified routing | MicrosoftDocs"
+description: "Learn to migrate data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
+ms.date: 11/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export and import configuration data for the record channel
+# Migrate configuration data for the record channel
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that're based on unified routing.
 
@@ -44,12 +44,12 @@ The following prerequisites must be met:
   - Routing configuration step (msdyn_routingconfigurationstep)
   - Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)
 
-## Export and import data for the record channel
+## Migrate data for the record channel
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. [Export and import skill-based routing configuration](#export-and-import-skill-based-routing-configuration)
-2. [Export and import capacity profiles configuration](#export-and-import-capacity-profiles-configuration)
+1. [Export and import skill-based routing configuration](#migrate-skill-based-routing-configuration)
+2. [Export and import capacity profiles configuration](#migrate-capacity-profiles-configuration)
 3. [Export and import record queues configuration](#export-and-import-record-queues-configuration)
 4. [Export and import intake rules configuration for records](#export-and-import-intake-rules-configuration-for-records)
 5. [Export and import workstreams configuration for records](#export-and-import-workstreams-configuration-for-records)
@@ -87,7 +87,7 @@ You must perform the steps in the order they're listed to migrate your configura
 
    3. Remove the order attribute element.
 
-## Export and import skill-based routing configuration
+## Migrate skill-based routing configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
@@ -116,7 +116,7 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 
 1. Use the Configuration Migration tool, and select the option to import data in to the target organization using the compressed file.
 
-## Export and import capacity profiles configuration
+## Migrate capacity profiles configuration
 
 If you have configured capacity profiles in your unified routing setup, perform the steps to migrate the corresponding configuration.
 

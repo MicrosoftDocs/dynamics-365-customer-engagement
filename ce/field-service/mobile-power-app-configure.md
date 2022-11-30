@@ -8,8 +8,8 @@ ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: mhart
-ms.author: mhart
+author: Andrea-Orimoto
+ms.author: andreo
 manager: shellyha
 search.app: 
   - D365CE
