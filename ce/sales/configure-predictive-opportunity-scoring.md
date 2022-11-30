@@ -90,9 +90,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
 ## Add a model
 
-You can create up to 10 models, both published and unpublished, for different sets of opportunities. The app warns you if you try to create a model that might score the same opportunities as an existing model:
-
-:::image type="content" source="media/pls-conflicting-model.png" alt-text="Screenshot of the warning that's displayed when a new model conflicts with an existing one":::
+You can create up to 10 models, both published and unpublished, for different sets of opportunities. The app warns you if you try to create a model that might score the same opportunities as an existing model.
 
 1. At the bottom of the **Predictive opportunity scoring** page, select **Add model**.
 
@@ -139,7 +137,11 @@ You can create up to 10 models, both published and unpublished, for different se
     > [!NOTE]
     > If you enable **Per stage modeling**, be sure to select a business process in the **Business process flow** list.
 
-1. Select **Get started**. It will take a few minutes to train your model.
+1. Select **Get started**. You'll get a warning message if the model is a duplicate of an existing model and is scoring the same set of opportunities. You can choose to create the model anyway or change the configurations to let the model score unique set of opportunities.
+
+    :::image type="content" source="media/pls-conflicting-model.png" alt-text="Screenshot of the warning that's displayed when a new model conflicts with an existing one":::
+
+    The system will take a few minutes to train your model.
 
 1. When your model is trained, [publish it or view its details](#publish-your-model).
 

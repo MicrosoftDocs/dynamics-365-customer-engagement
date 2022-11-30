@@ -80,9 +80,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
 ## Add a model
 
-You can create up to 10 models, both published and unpublished, for different sets of leads. The app warns you if you try to create a model that might score the same leads as an existing model:
-
-:::image type="content" source="media/pls-conflicting-model.png" alt-text="Screenshot of the warning that's displayed when a new model conflicts with an existing one.":::
+You can create up to 10 models, both published and unpublished, for different sets of leads. The app warns you if you try to create a model that might score the same leads as an existing model.
 
 1. At the bottom of the **Predictive lead scoring** page, select **Add model**.
 
@@ -121,7 +119,11 @@ You can create up to 10 models, both published and unpublished, for different se
 
     If you don't have the minimum closed leads in the chosen time period, the **Get started** button is disabled. Select another time period that has enough closed leads to train the model.
 
-1. Select **Get started**. It will take a few minutes to train your model.
+1. Select **Get started**. You'll get a warning message if the model is a duplicate of an existing model and is scoring the same set of leads. You can choose to create the model anyway or change the configurations to let the model score unique set of leads.
+    
+    :::image type="content" source="media/pls-conflicting-model.png" alt-text="Screenshot of the warning that's displayed when a new model conflicts with an existing one.":::
+
+    The system will take a few minutes to train your model.
 
 1. When your model is trained, [publish it or view its details](#publish-your-model).
 
