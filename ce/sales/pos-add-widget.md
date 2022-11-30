@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Add the opportunity scoring widget to a form
+# Add the opportunity scoring widget to a form  
 
 By default, the predictive opportunity scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using a customized form for opportunities, you can add the predictive opportunity scoring widget to it.
 

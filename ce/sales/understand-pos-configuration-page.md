@@ -1,7 +1,7 @@
 ---
 title: Understand the predictive opportunity scoring configuration page
 description: Learn about the various sections in the predictive opportunity scoring configuration page in Dynamics 365 Sales.
-ms.date: 10/25/2022
+ms.date: 11/30/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -9,7 +9,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Understand the predictive opportunity scoring configuration page
+# Understand the predictive opportunity scoring configuration page  
 
 The **Predictive opportunity scoring** page is where you'll create, edit, publish, and delete opportunity scoring models. It's organized into the following sections:
 

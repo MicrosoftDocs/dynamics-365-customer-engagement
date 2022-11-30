@@ -1,7 +1,7 @@
 ---
 title: Lead and opportunity scoring
 description: Learn how to set up lead and opportunity scoring in Dynamics 365 Sales.
-ms.date: 10/25/2022
+ms.date: 11/30/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais

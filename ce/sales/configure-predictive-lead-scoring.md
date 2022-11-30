@@ -36,7 +36,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 
 - You need to have enough leads to train the model based on past data. Your organization must have created at least 40 qualified and 40 disqualified leads in the past three months to two years. The more leads you can include to train the model, the better the prediction results will be. You can configure the time frame in the **Train with leads from the past** field of the scoring model.
 
-## Create a scoring model
+## Create your first scoring model
 
 > [!IMPORTANT]
 >
@@ -52,7 +52,7 @@ A scoring model defines the criteria for choosing leads for training and scoring
   
    If your organization doesn't have at least 40 qualified and 40 disqualified leads that were created in the time frame identified in the **Train with leads from the past** field, you can't create a scoring model. If there are enough leads, the app generates a model by default.
 
-1. On the **Predictive lead scoring** page, [change the scoring model fields](#add-a-model) if needed, and then select **Get started**.
+1. On the **Predictive lead scoring** page, change the values for fields such as business process flow, filter column, and so on if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
 
 Allow a few minutes for the app to train your model. You can leave the page and come back later.
 
@@ -64,9 +64,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
   :::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
 
-2. If the model is trained but not ready to publish, the page displays this confirmation:
-
-  :::image type="content" source="media/pls-model-not-ready-confirm.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained but not ready to publish.":::
+2. If the model is trained but not ready to publish, the **Model performance** field displays **Not ready to Publish**.
 
 1. To retrain the model every 15 days, select **Retrain automatically**.
 
@@ -78,9 +76,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
     - To [view the model's accuracy and performance](scoring-model-accuracy.md) before you publish it, or if the model isn't ready to publish and you want to know why, select **View Details**, and then select the **Performance** tab.
 
-        The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it will perform poorly, as in the following example:
-
-        :::image type="content" source="media/pls-model-not-ready.png" alt-text="Screenshot showing a predictive scoring model that's not ready to publish.":::
+        The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it will perform poorly.
 
 ## Add a model
 

@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain an opportunity scoring model
-description: Learn how to edit and retrain a scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
-ms.date: 10/25/2022
+description: Learn how to edit and retrain a predictive opportunity scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
+ms.date: 11/30/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

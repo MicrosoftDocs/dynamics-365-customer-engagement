@@ -46,7 +46,7 @@ Per stage modeling is disabled by default. You can enable it only when you're [a
 
 When per stage modeling is disabled, the model uses only attributes that had a higher influence on opportunities that were closed as won. For example, if most of the won deals had an associated business phone number, the model may give a higher score to opportunities that have an associated business phone number.
 
-## Create a scoring model
+## Create your first scoring model
 
 > [!IMPORTANT]
 >
@@ -61,7 +61,7 @@ A scoring model defines the criteria for choosing opportunities for training and
   
    If your organization doesn't have at least 40 won and 40 lost opportunities that were created in the time frame identified in the **Train with opportunities from the past** field, you can't create a scoring model. If there are enough opportunities, the app generates a model by default.
 
-1. On the **Predictive opportunity scoring** page, [change the scoring model fields](#add-a-model) if needed, and then select **Get started**.
+1. On the **Predictive opportunity scoring** page, change the values for fields such as business process flow, filter column, and so on if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
 
 Allow some time for the app to train your model. You can leave the page and come back later.
 
@@ -73,9 +73,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
     :::image type="content" source="media/pos-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
 
-2. If the model is trained but not ready to publish, the page displays this confirmation:
-
-    :::image type="content" source="media/pos-model-not-ready-confirm.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained but not ready to publish.":::
+2. If the model is trained but not ready to publish, the **Model performance** field displays **Not ready to Publish**.
 
 1. To retrain the model every 15 days, select **Retrain automatically**.
 
@@ -87,23 +85,18 @@ The application uses standard attributes to train the model. You can [edit the m
 
     - To [view the model's accuracy and performance](scoring-model-accuracy.md) before you publish it, or if the model isn't ready to publish and you want to know why, select **View Details**, and then select the **Performance** tab.
 
-        <!-- NOTE FROM EDITOR: My scoring model is taking forever to train. Rather than wait for it and delay editing this article, I'm going to ask you to confirm the accuracy of the following paragraph and provide a screenshot of the Performance tab for a model that's not ready to publish. Thanks! -->
+        The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it will perform poorly.
 
-        The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it will perform poorly, as in the following example:
-
-        :::image type="content" source="media/pos-model-not-ready.png" alt-text="Screenshot showing a predictive scoring model that's not ready to publish.":::
 
 ## Add a model
 
 You can create up to 10 models, both published and unpublished, for different sets of opportunities. The app warns you if you try to create a model that might score the same opportunities as an existing model:
 
-<!-- NOTE FROM EDITOR: Please provide a screenshot. -->
-:::image type="content" source="media/pos-conflicting-model.png" alt-text="Screenshot of the warning that's displayed when a new model conflicts with an existing one.":::
+:::image type="content" source="media/pls-conflicting-model.png" alt-text="Screenshot of the warning that's displayed when a new model conflicts with an existing one":::
 
 1. At the bottom of the **Predictive opportunity scoring** page, select **Add model**.
 
-    <!-- NOTE FROM EDITOR: Please provide a screenshot. -->
-    :::image type="content" source="media/pos-add-model.png" alt-text="Screenshot of the Predictive opportunity scoring page, with Add model highlighted.":::
+    :::image type="content" source="media/pls-add-model.png" alt-text="Screenshot of the Add model option.":::
 
     > [!NOTE]
     > You won't see the **Add model** button if you haven't created at least one scoring model.
