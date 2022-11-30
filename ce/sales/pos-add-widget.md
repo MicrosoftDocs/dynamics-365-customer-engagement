@@ -31,6 +31,9 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 1. Select **Data** > **Tables**.
 
+    > [!div class="mx-imgBorder"]  
+    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
+
 1. Open the **Opportunity** table, select the **Forms** tab, and then select a main form to add the widget to.
 
     > [!NOTE]
