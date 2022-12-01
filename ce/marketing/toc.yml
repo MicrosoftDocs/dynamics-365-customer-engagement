@@ -234,6 +234,8 @@
         href: real-time-marketing-outbound-text-messaging.md
       - name: "Preview: Create custom channels"
         href: real-time-marketing-create-custom-channels.md
+      - name: "Preview: Use AI to kickstart email creation with content ideas"
+        href: content-ideas.md
       - name: "Preview: Use brand profiles in real-time marketing email"
         href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
@@ -418,7 +420,7 @@
         href: conditional-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with Content ideas"
+      - name: "Preview: Use AI to kickstart email creation with content ideas"
         href: content-ideas.md
       - name: Generate iCalendar files for events and sessions
         href: add-to-calendar.md
