@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 08/18/2022
+ms.date: 12/01/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -18,12 +18,12 @@ ms.reviewer: nenellim
 
 The following table lists the rich cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel | Hero card | Thumbnail card | Sign in card |Audio card | Card carousel |
-|---------------|-----------|----------------|-------------|------------|----|
-| Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
-| LINE    | ✔ | ✔   | ✔ | 🌐  | ✔|
-| Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
-| Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
+| Channel | Hero card | Thumbnail card | Audio card | Card carousel |
+|---------------|-----------|-------------|------------|----|
+| Microsoft Teams  | ✔     |  ✔   |  ✖  | ✔  |
+| LINE    | ✔ | ✔ | 🌐  | ✔|
+| Custom (Telegram)  | ✔ | ✔ | 🌐 | ✔ |
+| Custom (Direct Line) | ✔ |  ✔ | ✔*  | ✔* |
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
