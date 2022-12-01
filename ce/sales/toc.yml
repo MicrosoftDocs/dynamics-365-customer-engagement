@@ -1043,7 +1043,7 @@
         - name: DiscountType
           href: developer/entities/discounttype.md
         - name: DynamicPropertyInstance
-          href: entities/dynamicpropertyinstance.md
+          href: developer/entities/dynamicpropertyinstance.md
         - name: Goal
           href: developer/entities/goal.md
         - name: GoalRollupQuery
@@ -1088,35 +1088,35 @@
                 - name: msdyn_callablecontext
                   href: developer/reference/playbooks-entities/msdyn_callablecontext.md
             - name: PriceLevel
-              href: ../customerengagement/on-premises/developer/entities/pricelevel.md
+              href: developer/entities/pricelevel.md
             - name: Product
-              href: ../customerengagement/on-premises/developer/entities/product.md
+              href: developer/entities/product.md
             - name: ProductAssociation
-              href: ../customerengagement/on-premises/developer/entities/productassociation.md
+              href: developer/entities/productassociation.md
             - name: ProductPriceLevel
-              href: ../customerengagement/on-premises/developer/entities/productpricelevel.md
+              href: developer/entities/productpricelevel.md
             - name: ProductSubstitute
-              href: ../customerengagement/on-premises/developer/entities/productsubstitute.md
+              href: developer/entities/productsubstitute.md
             - name: Quote
-              href: ../customerengagement/on-premises/developer/entities/quote.md
+              href: developer/entities/quote.md
             - name: QuoteClose
-              href: ../customerengagement/on-premises/developer/entities/quoteclose.md
+              href: developer/entities/quoteclose.md
             - name: QuoteDetail
-              href: ../customerengagement/on-premises/developer/entities/quotedetail.md
+              href: developer/entities/quotedetail.md
             - name: RollupField
-              href: ../customerengagement/on-premises/developer/entities/rollupfield.md
+              href: developer/entities/rollupfield.md
             - name: SalesLiterature
-              href: ../customerengagement/on-premises/developer/entities/salesliterature.md
+              href: developer/entities/salesliterature.md
             - name: SalesLiteratureItem
-              href: ../customerengagement/on-premises/developer/entities/salesliteratureitem.md
+              href: developer/entities/salesliteratureitem.md
             - name: SalesOrder
-              href: ../customerengagement/on-premises/developer/entities/salesorder.md
+              href: developer/entities/salesorder.md
             - name: SalesOrderDetail
-              href: ../customerengagement/on-premises/developer/entities/salesorderdetail.md
+              href: developer/entities/salesorderdetail.md
             - name: UoM
-              href: ../customerengagement/on-premises/developer/entities/uom.md
+              href: developer/entities/uom.md
             - name: UoMSchedule
-              href: ../customerengagement/on-premises/developer/entities/uomschedule.md
+              href: developer/entities/uomschedule.md
     - name: Action Reference
       items:
         - name: RecalculatePrice Action
