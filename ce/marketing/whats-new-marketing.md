@@ -28,14 +28,19 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
+> [!Tip]
+> To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs:
+> - [5 steps for transforming customer experience with Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+> - [Engage your customers faster with AI-powered marketing email content](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+> - [Deploying Event Portal Changes in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
+> - [Trigger a Plugin from Custom Trigger](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
+> - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
 ## 2022 updates
 
 ### November 2022 update
 
 The Dynamics 365 Marketing November 2022 update includes one preview feature and one monthly enhancement. The preview feature enables date and time formatting flexibility for different locales. The monthly enhancement improves personalization access and usability.
-
-> [!Tip]
-> Learn about using [content ideas](content-ideas.md) to create inspiring emails: [Make email creation fun and more efficient with AI-powered content ideas in Dynamics 365 Marketing]().
 
 #### Version number
 
