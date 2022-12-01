@@ -70,9 +70,9 @@ If you have already brought numbers from another carrier into Microsoft Teams vi
 > [!Note]
 > Currently, you can't bring native Teams phone numbers to use in the voice channel.
 
-### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app.
+### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-The voice channel is supported only in the Customer Service workspace and Omnichannel for Customer Service apps.
+No, the voice channel is supported only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 ### How can I set up an IVR bot in the voice channel?
 
@@ -81,25 +81,33 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
- 
-Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached.
+
+Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot will be attached, but you can configure different geographic locales for the bot and the voice workstream to which it is attached.
+Let's consider an example where English is set as the primary language of the bot and its voice workstream. You can set different locales, such as English-UK in the voice profile and English-US in the bot. The bot's accuracy will depend on the similarities between the two locales. 
+
+If you configure different locales:
+- The preconfigured entities for the bot such as postal code might not be accurate. 
+- You won't be able to do bot-to-bot transfer such as transfer a conversation from an English-UK bot to an English-US bot. To do so, you'll need to make the English-UK bot transfer to another phone number attached to a workstream to which the English-US bot is attached.
+
+> [!Note]
+> You can do bot-to-bot transfer for different languages such from an English bot to a Spanish bot. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data and trial phone numbers after the trial organization has expired and been deprovisioned.
+No, you can't recover your data and trial phone numbers after the trial organization has expired and has been deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
-- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Region-specific deployments](voice-channel-region-availability.md#region-specific-deployments).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ### Do we provide voice quality SLA for voice in Omnichannel for Customer Service?
 
-We do not publish a voice quality SLA - there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+We do not publish a voice quality SLA as there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
 ### What tools are available to isolate performance and quality of voice channel?
 
-The tools to isolate voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
+The tools for isolating voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
 
 More information:
 
