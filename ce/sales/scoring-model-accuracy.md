@@ -40,11 +40,11 @@ The model is trained using 80% of the closed opportunities or leads in the train
 
 1. In the **Select model** list, select a model.
 
-1. Select the **Performance** tab. If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md). 
+1. Select the **Performance** tab. 
 
     :::image type="content" source="media/predictive-scoring-accuracy.png" alt-text="A screenshot of the Performance tab displaying model accuracy metrics" lightbox="media/predictive-scoring-accuracy.png":::
 
-The **Performance** tab displays the following metrics.If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md).
+The **Performance** tab displays the following metrics. If you don't see any metrics in the **Performance** tab, [edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md).
 
 - **Model Performance**: Specifies whether the model is ready to publish based on the following parameters:
 
@@ -101,10 +101,10 @@ The following table shows the metrics for the data.
 If your model isn't ready to publish or isn't performing well, try the following steps to improve its scores.
 
 - Review the attributes it uses.
-- View attribute insights to understand their influence on the model's overall prediction.
-- Ignore empty values for attributes that have a higher percentage of empty values and may be contributing to false positives or false negatives.
-- Include intelligent fields to help a lead scoring model distinguish between factors that improve or harm the score.
-- Use per stage modeling in an opportunity scoring model to choose attributes to apply to each business process stage.
+- [View attribute insights](pls-attribute-influence.md#view-attribute-insights-and-influence) to understand their influence on the model's overall prediction.
+- [Ignore empty values](pos-edit-and-retrain-model.md#edit-a-model) for attributes that have a higher percentage of empty values and may be contributing to false positives or false negatives.
+- Include [intelligent fields](pls-edit-and-retrain-model.md#select-intelligent-fields) to help a lead scoring model distinguish between factors that improve or harm the score.
+- Use [per stage modeling](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in an opportunity scoring model to choose attributes to apply to each business process stage.
 - Refine the filter criteria, time period for training data, or other model configurations. For example, if you've chosen two years as the time period for training data and there are too many test or incorrect records during that period, choose a shorter time period, such as six months or one year, when the quality of your data is better.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
