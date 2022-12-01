@@ -85,7 +85,7 @@ This sample code searches and displays the name and phone number of Contact enti
 
 // Retrieve Contact entity record
 // Change searchOnly parameter to true, if you do not want to open the search results page
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false);
 then(
     function success(result) {
     res=JSON.parse(result);
@@ -104,7 +104,7 @@ then(
 This sample code searches and displays the top 10 active contact records.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false);
 then(
     function success(result) { 
     res=JSON.parse(result);
@@ -122,7 +122,7 @@ then(
 This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0);
 then(     
     function success(result) {     
     res=JSON.parse(result);         
