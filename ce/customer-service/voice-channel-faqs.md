@@ -25,7 +25,7 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 Getting registered as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear roadmap to provide calling plans in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers for those with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
 
-An alternative to Microsoft calling plans is Azure direct routing that allows customers to bring their own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
+An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
