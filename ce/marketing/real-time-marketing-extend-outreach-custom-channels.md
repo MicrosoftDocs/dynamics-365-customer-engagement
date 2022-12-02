@@ -24,7 +24,6 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-This article explains how to manually add a custom channel to real-time marketing.
 
 Marketing currently offers three types of native channels: **Email**, **Push** and **SMS**. To create a different type or channel or use an SMS provider that isn't supported natively, you need to develop and install a custom channel solution. 
 
@@ -59,16 +58,10 @@ The implementation requirements for channels of SMS and Custom type differ as fo
 |    <br>Custom APIs                                                       |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
 |    <br>Channel Definition                                                |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
 
-Sample solutions  
+#### Sample solutions  
 The samples below include unpacked solutions for Dataverse and plugins projects.
 To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](https://learn.microsoft.com/en-us/power-platform/alm/solution-packager-tool)
 
-
-## Sample solutions
-
-The samples below include unpacked solutions for Dataverse and Plugins projects.
-
-To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the Solution Packager tool.
 
 SampleSmsChannel.zip
 
