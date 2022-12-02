@@ -1,7 +1,7 @@
 ---
 title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
 description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 10/12/2022
+ms.date: 11/24/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -36,7 +36,7 @@ The reports summarize the KPIs for the specified time period and percentage chan
 | Transfer rate | The percentage of conversations that are transferred to another agent/queue. |
 | Avg. session handle time | The average total session active time across engaged sessions.  |
 | Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post conversation survey tool. |
-| Avg session sentiment | The average predicted sentiment of a customer based on the conversation transcript from the session. |
+| Avg session sentiment | The average predicted sentiment of a customer based on the conversation transcript from the session. For information on how the sentiment data is derived, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md).|
 
 The charts display the following metrics.
 

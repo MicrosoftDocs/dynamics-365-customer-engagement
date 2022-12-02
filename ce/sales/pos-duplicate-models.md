@@ -1,7 +1,7 @@
 ---
 title: Manage duplicate opportunity scoring models
-description: This article describes how you can manage duplicate models and ensure that no two models are scoring the same opportunities.
-ms.date: 10/11/2022
+description: Learn how to remove duplicate models and make sure that no models are scoring the same opportunities in Dynamics 365 Sales.
+ms.date: 11/30/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -11,50 +11,42 @@ manager: shujoshi
 
 # Manage duplicate opportunity scoring models
 
-When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. When you have duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.  
+When you create multiple predictive scoring models, it's important to configure them so that they don't score the same opportunities because it's difficult to identify which model scored an opportunity. If you create or edit a model that might duplicate an existing one, you'll receive a warning. You can ignore the warning and create the model anyway, or go back and change the model's configuration.  
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
-## Remove duplicate models
+## Avoid a duplicate when you're creating a model
 
-To remove the duplicate models, use one of the following methods depending on the action you’re performing:
+When you create a model and select **Get started**, if the model duplicates one or more existing models, you'll receive a warning like this one:
 
-- [Create model](#create-model)
-- [Published model](#published-model)
+:::image type="content" source="media/si-admin-predictive-opportunity-scoring-duplicate-model-create-model-message.png" alt-text="Screenshot of a conflict warning while creating a predictive scoring model.":::
 
-### Create model
+- Select **No, Go back** and change the filter column and values so that the model is scoring unique opportunities.
 
-When you select **Get started**, a conflict message is displayed stating that the model you’re creating has conflicts with other models in the list. The following image shows an example of the message:
+    -Or-
 
-> [!div class="mx-imgBorder"]
-> ![A conflict message while creating the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-create-model-message.png "A conflict message while creating the model")
+- Select **Yes, Create model** with the understanding that it might be harder to identify the opportunities that are being scored by this model.
 
-- Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique opportunities. 
-   -Or-
-- Proceed to create a duplicate model, which might cause conflicts in identifying the opportunities that are being scored by this model.
+## Delete a duplicate published model
 
-### Published model
+When you open a published model, if the model duplicates one or more existing models, the page will include a note like this one:
 
-When you open a published model, a note displays above the version details section with the list of models that the current model is a duplicate of. The following image shows an example of the message:
+:::image type="content" source="media/si-admin-predictive-opportunity-scoring-duplicate-model-published-model-message.png" alt-text="Screenshot of a conflict warning while viewing a published predictive scoring model.":::
 
-> [!div class="mx-imgBorder"]
-> ![A conflict message while publishing the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-published-model-message.png "A conflict message while publishing the model")
-
-Delete the duplicate model as described in the next section.
+[Edit the model](pls-edit-and-retrain-model.md) so that it scores unique leads or [delete it](#delete-a-model).
 
 ## Delete a model
 
-You can delete a model when it's no longer required in your organization or it's a duplicate of an existing model. You can only have up to 10 models&mdash;both published and unpublished&mdash;simultaneously.
+You can delete a scoring model when it's no longer required in your organization or it's a duplicate of an existing model. You can have up to 10 models&mdash;both published and unpublished&mdash;simultaneously.
 
-1. Go to the predictive opportunity scoring configuration page.
-
-1. Select a model from the **Select model** list and ensure that **Retrain automatically** is turned off.
-1. Select **Delete model**. 
-1. In the confirmation message that appears, select **Delete**.
+1. In **Sales Insights settings** > **Predictive models** > **Opportunity scoring**, open the **Predictive opportunity scoring** page.
+1. Select a model in the **Select model** list. Make sure **Retrain automatically** is turned off.
+1. Select **Delete model**.
+1. When you're asked to confirm, select **Delete**.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

@@ -6,8 +6,8 @@ ms.subservice: connected-field-service
 ms.date: 09/24/2018
 ms.reviewer: mhart
 ms.topic: article
-ms.author: mhart
-author: m-hartmann
+ms.author: keithh
+author: MSKeith
 search.app: 
   - D365CE
   - D365FS

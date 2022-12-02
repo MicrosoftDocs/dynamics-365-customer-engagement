@@ -6,8 +6,8 @@ ms.topic: article
 ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
-author: m-hartmann
-ms.author: mhart
+author: FeifeiQiu
+ms.author: feiqiu
 manager: shellyha
 search.app: 
   - D365CE
