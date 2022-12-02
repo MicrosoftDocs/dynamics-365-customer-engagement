@@ -24,7 +24,7 @@ The following limitations apply to SLAs created in the Unified Interface apps:
 
 - The **Applicable When** and **Success Conditions** won't work as expected if they're configured for related entities.
 
-    - The **Applicable when** conditions, if defined on the related entity, will work only for the first time when the conditions are met, and the KPI instance will be set to **In Progress**. After that, any update to the related entity won't cancel the existing KPI instance if the conditions of the same SLA item are false. The update will also not create a new KPI instance if there is a change in the SLA item.
+    - The **Applicable When** conditions, if defined on the related entity, will work only for the first time when the conditions are met, and the KPI instance will be set to **In Progress**. After that, any update to the related entity won't cancel the existing KPI instance if the conditions of the same SLA item are false. The update will also not create a new KPI instance if there is a change in the SLA item.
     - The **Success Conditions** defined on the related entity will never be true and the KPI instance once set to **In Progress** will never succeed, even if conditions are met. It will continue to be in **In Progress**, **Nearing NonCompliance**, or **Noncompliant** status.
 
     To use related entities, you can add the related attribute values to the parent entity.
