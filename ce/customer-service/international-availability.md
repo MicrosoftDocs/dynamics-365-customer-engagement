@@ -30,7 +30,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 ### October 2022 update
 
-Omnichannel for Customer Service October 2022 update is available in the following regions.
+The October 2022 update of Omnichannel for Customer Service is available in the following regions.
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
@@ -50,7 +50,7 @@ Omnichannel for Customer Service October 2022 update is available in the followi
 
 ### April 2022 update
 
-Omnichannel for Customer Service April 2022 update is available in the following regions.
+The April 2022 update of Omnichannel for Customer Service is available in the following regions.
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
