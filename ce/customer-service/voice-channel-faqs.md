@@ -91,7 +91,7 @@ If you configure different locales:
 - You won't be able to do bot-to-bot transfer such as transfer a conversation from an **English-UK** bot to an **English-US** bot. To do so, you'll need to make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached.
 
 > [!Note]
-> You can do bot-to-bot transfer for different languages such from an English bot to a Spanish bot. 
+> You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
