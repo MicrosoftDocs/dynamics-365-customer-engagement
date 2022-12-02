@@ -204,13 +204,7 @@ In this example, v3 of schedule assistant API which allows for web API calls is 
   
                     "@odata.type": "Microsoft.Dynamics.CRM.expando",
   
-                    "characteristic": {
-  
-                        "@odata.type": "Microsoft.Dynamics.CRM.expando",
-  
-                        "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
-  
-                    }
+                    "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
   
                 }
   
