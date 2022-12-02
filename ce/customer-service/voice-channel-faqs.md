@@ -103,7 +103,7 @@ No, you can't recover your data and trial phone numbers after the trial organiza
 
 ### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?
 
-No, we don't publish a voice quality SLA as many factors related to voice quality such as Internet connection, network speed, and bandwidth, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+No, we don't publish a voice quality SLA as many factors related to voice quality such as network connectivity, speed, and bandwidth, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
 ### What tools are available to isolate performance and quality of voice channel?
 
