@@ -26,7 +26,7 @@ search.app:
 
 This article explains how to manually add a custom channel to real-time marketing.
 
-Marketing currently offers 3 types of native channels: **Email**, **Push** and **SMS**. To create a different type or channel or use an SMS provider that is not supported natively, you need to develop and install a custom channel solution. 
+Marketing currently offers three types of native channels: **Email**, **Push** and **SMS**. To create a different type or channel or use an SMS provider that isn't supported natively, you need to develop and install a custom channel solution. 
 
 ## Custom channel structure
 
@@ -177,7 +177,7 @@ This form should include all the required attributes for the custom channel to f
 
 ### 4. Channel instance account entity and the relevant form (for custom SMS channels only)
 
-If you're implementing a custom SMS channel, it must also have a channel instance account extended entity and a relationship with the Channel Instance Account entity the same way the channel instance does. The channel instance account has a 1:N relationship with the channel instances it serves as a data normalization for SMS accounts. Typically, you'll have one account with the service provider under which you can create multiple phone numbers.
+If you're implementing a custom SMS channel, it must also have a channel instance account extended entity, and a relationship with the Channel Instance Account entity the same way the channel instance does. The channel instance account has a 1:N relationship with the channel instances it serves as a data normalization for SMS accounts. Typically, you'll have one account with the service provider under which you can create multiple phone numbers.
 
 It also must have a form that will be used in the Marketing SMS setup wizard.
 
