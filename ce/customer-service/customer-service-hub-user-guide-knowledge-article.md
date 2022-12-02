@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 11/22/2022
+ms.date: 12/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -375,27 +375,6 @@ You can mark an article for review or directly assign it to a specific person or
   
 5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
-## Update published knowledge articles  
-
-When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
-  
-1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
-  
-2.  Select the published article you want to edit.  
-  
-3.  On the command bar, select **Update**.  
-  
-4.  Update the article based on the feedback.  
-  
-If the article has information that complements an existing knowledge article, associate the existing article with the current knowledge article.  
-  
-1.  In the knowledge article, on the command bar, select **More** > **Relate Article**.  
-  
-2.  In the **Select Article to Associate** field, select the **Lookup** button, select an existing article, and then select **Associate**.  
-  
-     The associated article appears in the **Related Articles** list in the **Related Information** section of the **Summary** tab.  
-  
- 
 ## Create and manage article versions  
 
 Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
@@ -437,34 +416,6 @@ Managing your article versions means publishing and archiving different versions
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so ensure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
-## Track basic details of an article  
-
-Use the **Summary** tab to track some basic details of the article. In the **Summary** tab, you can:
-
-- View or edit **Basic settings** for the article. These include details like Language, Article Public Number, and more.
-- View or edit **Publish settings** for the article.
-- See the **Timeline**. Add notes, or view what you have missed.
-- View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products.
-
-### Track knowledge article analytics  
-
-Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
-  
-To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
-  
-- **Views**. Shows you the total number of times this article has been viewed. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views.
-
-- **Feedback**. Captures all the feedback and ratings on the knowledge articles and updates the articles accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article. The Feedback subgrid shows all feedback received for the current knowledge article.  
-
-   The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
-   
-   > [!NOTE]
-   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
-
-- **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
-  
-     By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you expose your knowledge articles better and provide more useful information to your customers and team members.  
-
 ## Prevent duplicate workflows with knowledge article operations
 
 If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as creating or updating a knowledge article, the update operation is further classified into suboperations, such as:

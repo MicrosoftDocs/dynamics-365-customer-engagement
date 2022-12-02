@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 11/24/2022
+ms.date: 12/02/2022
 ms.custom: bap-template
 ---
 
@@ -63,4 +63,22 @@ Ensure that you have the Publish and Update permissions on the Knowledge Article
 > [!NOTE]
 > In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
 
+## Update published knowledge articles  
 
+When a knowledge article is in the Published (or Scheduled) state, only those users who have the Publish privilege can update it.  
+  
+1.  In the Customer Service Hub site map, go to **Service** > **Knowledge Articles**.  
+  
+2.  Select the published article you want to edit.  
+  
+3.  On the command bar, select **Update**.  
+  
+4.  Update the article based on the feedback.  
+  
+If the article has information that complements an existing knowledge article, associate the existing article with the current knowledge article.  
+  
+1.  In the knowledge article, on the command bar, select **More** > **Relate Article**.  
+  
+2.  In the **Select Article to Associate** field, select the **Lookup** button, select an existing article, and then select **Associate**.  
+  
+     The associated article appears in the **Related Articles** list in the **Related Information** section of the **Summary** tab.
