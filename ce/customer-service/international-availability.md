@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 11/15/2022
+ms.date: 12/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,20 +34,19 @@ Omnichannel for Customer Service October 2022 update is available in the followi
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
-| Asia Pacific                              |  October 14, 2022     |
-| Australia                                 |  October 14, 2022    |
-| Canada                                    |  October 01, 2022   |
-| Europe                                    |  October 17, 2022 |
-| France                                    |  October 10, 2022   |
-| Germany                                   |   NA   |
-| India                                     |   NA   |
-| Japan                                     |  October 14, 2022   |
-| North America                             |  October 23, 2022    |
-| South America                             |  October 10, 2022    |
-| Switzerland                               |   NA   |
-| United Arab Emirates (UAE)                |  October 10, 2022     |
-| United Kingdom                            |  October 14, 2022    |
-
+| Asia Pacific                              |  October 14, 2022  |
+| Australia                                 |  October 14, 2022  |
+| Canada                                    |  October 01, 2022  |
+| Europe                                    |  October 17, 2022  |
+| France                                    |  October 10, 2022  |
+| Germany                                   |  October 01, 2022  |
+| India                                     |  October 01, 2022  |
+| Japan                                     |  October 14, 2022  |
+| North America                             |  October 23, 2022  |
+| South America                             |  October 10, 2022  |
+| Switzerland                               |  October 01, 2022  |
+| United Arab Emirates (UAE)                |  October 10, 2022  |
+| United Kingdom                            |  October 14, 2022  |
 
 ### April 2022 update
 
@@ -68,29 +67,6 @@ Omnichannel for Customer Service April 2022 update is available in the following
 | Switzerland                               |   April 02, 2022   |
 | United Arab Emirates (UAE)                |   April 09, 2022   |
 | United Kingdom                            |   April 09, 2022   |
-
-
-### October 2021 update
-
-Omnichannel for Customer Service October 2021 update is available in the following regions.
-
-|   Geographic location                     |            Date      |
-|-------------------------------------------|----------------------|
-| Asia Pacific                              |   October 08, 2021   |
-| Australia                                 |   October 08, 2021   |
-| Canada                                    |   October 01, 2021   |  
-| Europe                                    |   October 15, 2021   |
-| France                                    |   October 01, 2021   |
-| Germany                                   |   October 01, 2021   |
-| Government Community Cloud (GCC)          |   January 09, 2022   |
-| India                                     |  October 01, 2021    |
-| Japan                                     |   October 08, 2021   |
-| North America                             |   October 22, 2021   |
-| South America                             |   October 01, 2021   |
-| Switzerland                               |   October 01, 2021   |
-| UAE                                       |   October 08, 2021   |
-| United Kingdom                            |   October 08, 2021   |
-
 
 ## Language availability
 
