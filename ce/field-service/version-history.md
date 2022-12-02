@@ -42,6 +42,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
 
 - Dynamcis 365 Field Service Mobile: When exporting a PDF of inspections responses, images which were uploaded as part of the inspection will be sized to fit the page and maintain their original aspect ratio.
+- Fixed a bug preventing the deletion of work order service tasks with the deletion of work orders
+- Fixed a bug showing inactive functional locations on work order location lookups.
+
 
 ## 8.8.78.23
 
