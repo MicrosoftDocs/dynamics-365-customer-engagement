@@ -82,8 +82,7 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 
 ### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
 
-Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot will be attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached.
-Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice profile and **English-US** in the bot (which means the bot will speak in **English-US** locale).
+Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot will be attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice profile and **English-US** in the bot (which means the bot will speak in **English-US** locale).
 
 If you configure different locales:
 - The bot's accuracy will depend on the similarities between the two locales. 
@@ -104,7 +103,7 @@ No, you can't recover your data and trial phone numbers after the trial organiza
 
 ### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?
 
-No, we don't publish a voice quality SLA as many factors related to voice quality such as Internet connection, long-term evolution (LTE), and 5G, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+No, we don't publish a voice quality SLA as many factors related to voice quality such as Internet connection, network speed, and bandwidth, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
 ### What tools are available to isolate performance and quality of voice channel?
 
