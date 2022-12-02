@@ -30,9 +30,9 @@ The following limitations apply to SLAs created in the Unified Interface apps:
     To use related entities, you can add the related attribute values to the parent entity.
     
 - Multiple SLA items can't be defined with the same **Applicable When** criteria and KPI.
-- You can’t use nested related entities with the **Under**/**Not Under** operator as part of the conditions for SLAs. So, you'll need to change the **Applicable**/**Success**/**Pause** conditions to add one level of related entities only with the **Under**/**Not Under** operator.
-- You can’t directly use **Under**/**Not-Under** as conditions for SLAs, so use related entities when using the **Under**/**Not Under** operator.
-- Avoid using the **Modified On** field in the target entity as part of **Applicable When** or **Success** conditions of SLA items or from the **Applicable From** field of SLA KPI. Changes to the **Modified On** field in the target entity might not initiate SLAs and might result in incorrect updates to SLA KPI instances.
+- You can’t use nested related entities with the **Under** or **Not Under** operator as part of the conditions for SLAs. So, you'll need to change the **Applicable When**, **Success**, and **Pause** conditions to add one level of related entities only with the **Under** or **Not Under** operator.
+- You can’t directly use **Under** or **Not-Under** as conditions for SLAs, so use related entities when using the **Under** or **Not Under** operator.
+- You need to avoid using the **Modified On** field in the target entity as part of **Applicable When** or **Success** conditions of SLA items or from the **Applicable From** field of SLA KPI. Changes to the **Modified On** field in the target entity might not initiate SLAs and might result in incorrect updates to SLA KPI instances.
 
 ### See also
 
