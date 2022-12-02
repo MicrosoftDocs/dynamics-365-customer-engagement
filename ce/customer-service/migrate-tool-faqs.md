@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 11/14/2022
+ms.date: 12/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -220,7 +220,9 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 
 ### See also
 
-[Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)  
+[Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
+
+[Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
