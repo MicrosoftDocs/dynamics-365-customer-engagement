@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/2/2022
+ms.date: 12/02/2022
 ms.topic: article
 
 ---
@@ -72,7 +72,7 @@ If you've already brought numbers from another carrier into Microsoft Teams via 
 
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-No, the voice channel is supported only in the Customer Service workspace and Omnichannel for Customer Service apps.
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service apps only.
 
 ### How can I set up an IVR bot in the voice channel?
 
@@ -102,9 +102,9 @@ No, you can't recover your data and trial phone numbers after the trial organiza
 - Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Region-specific deployments](voice-channel-region-availability.md#region-specific-deployments).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
-### Do we provide voice quality SLA for voice in Omnichannel for Customer Service?
+### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?
 
-We do not publish a voice quality SLA as there are many other factors that comprise voice quality that can't be controlled, such as Internet connection, LTE, and 5G. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
+No, we don't publish a voice quality SLA as many factors related to voice quality such as Internet connection, long-term evolution (LTE), and 5G, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
 ### What tools are available to isolate performance and quality of voice channel?
 
