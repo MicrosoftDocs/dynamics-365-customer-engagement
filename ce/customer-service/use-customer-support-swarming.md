@@ -73,7 +73,7 @@ To be able to create a swarm when working on a customer issue, you must have the
       > [!Note]
       > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
 
-1. Save and send your swarm invitation. A linked swarm chat is created, and the contacts configured by your administrator are automatically added to the chat.
+1. Select **Save and send invitation**. A linked swarm chat is created, and the contacts configured by your administrator are automatically added to the chat. Once a swarm invitation has sent, you can still go back and edit the swarm details if needed.
 
    > [!Note]
    > By default, your supervisor is automatically added to create the swarm. If you don't have a supervisor, your administrator who configured the swarm is automatically added.
@@ -83,36 +83,77 @@ To be able to create a swarm when working on a customer issue, you must have the
    
    The following actions and views occur:
    - The system finds the minimum set of experts needed to cover as many of the skills suggested or that you added as possible.
-   - A participants section opens, where you can see the number of experts invited to your swarm who match a particular number of skills.
+   - A participants section opens, where you can see the number of experts invited to your swarm who match a particular skills.
    - You can view the names of skills not matched to an expert. If a skill is unmatched, you can work with your supervisor to find experts who match the skill.
    - You can view names of contacts who are automatically added to the swarm chat.
    - When an invited expert accepts the swarm invitation, they're automatically added to the swarm chat.
-   - If you select **Edit**, existing saved skills remain. If you edit the swarm request, then the following actions occur:
+   - If you select **Edit** on the command bar, existing saved skills remain. If you edit the swarm request, then the following actions occur:
      - The system will search for skills to account for the newest information, and will append skills found to the existing ones.
      - Invited experts and experts who are already in the swarm remain.
+     - A group chat is created, where you can chat with people who are experts on the issue. You might be the only one who is in the chat at first but you can message others to ask them to join if needed.
 
 ### How the invitation to experts works
 
-When you select an expert for your swarm, they're sent an automated invitation via an adaptive card. When they accept your invitation, they're attached to the swarm and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert(s) that contain the needed skill(s).
+When you select an expert for your swarm, they're sent an automated invitation in Teams via an adaptive card. When they accept your invitation, they're attached to the swarm and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert or experts who have the needed skill(s).
 
-The swarm invitation shows the following information:
+For the invited expert, the swarm invitation shows the following information:
    - Inviting agent: The agent who initiated the swarm and invited the expert.
    - Swarm request: The question the agent needs help with.
-   - What the agent has tried: A brief description of what the agent has tried prior to creating the swarm.
+   - Steps the agent already tried: A brief description of what the agent has tried prior to creating the swarm.
    - Expert skills: The required skills the expert has for the swarm.
    - Accept and reject: Options for the expert to either join or decline the swarm. If an expert declines an invitation and then later decides they want to join, they can participate by asking you to add them manually. They won't be able to view the swarm form from the group chat.
- 
-When an expert joins a group chat, they'll see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. There's a section that shows the agent's swarm request and a summary of what the agent has tried to do to resolve the issue.
+
+When an expert joins a group chat, they'll see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. The agent's swarm request and a summary of what the agent has tried to do to resolve the issue are displayed.
 
 Experts who join a swarm can see all participants in the swarm and the skills they have that resulted in their invitation to the swarm.
 
+Experts aren't required have access to Dynamics 365 to participate in swarms, but if they are able to access a swarm in Customer Service, they can go to the **Swarm activities** tab on the **Swarm** page, where they can view a timeline of all the key events that are related to the swarm.
+
+Experts without a Dynamics 365 license can be invited to swarms in Teams. When they accept the invitation to join the swarm, a swarm chat appears in the **Chat** pane in Teams. The expert must select the chat to enter the swarm converstion. Both the agent and the expert can add others to the chat if needed. The agent can interact with the expert and add notes of their interaction to the swarm timeline.
+ 
+### Create a task in the timeline
+
+If there are details that you or your swarm experts want to document or update in the future, you can create a task with an optional due date that appears in the swarm timeline and also in the Teams chat.
+
+To create a swarm-related task, complete the following steps:
+
+1. On the swarm page in Customer Service workspace, select the **Swarm activities** page.
+1. In **Timeline**, select the **Add** (+) icon, and then select **Task** on the dropdown menu. The **Quick Create: Task** pane opens on the right-hand side of the page.
+1. (Optional) In the **Owner** field, as the creator of the task, you're listed by default. You can add others if desired by typing their names.
+1. (Optional) Enter a **Description** of what you need to do.
+1. (Optional) Enter a **Due** date.
+1. Specify the **Duration** and **Priority** details.
+1. When finished, select **Save and Close**.
+
+A Dynamics 365 bot auto-posts a link to the task in the Teams chat.
+
+### Create a note in the timeline
+
+You can create notes that include specific details that appear in the swarm timeline and also in the Teams chat.
+
+1. In **Timeline**, select the **Add** (+) icon, and then select **Note** on the dropdown menu. The **Quick Create: Note** pane opens on the right-hand side of the page.
+2. Type a **Title** for the note.
+3. In the rich text editor, add details.
+4. When finished, select **Save and Close**.
+
 ### Swarm completion
 
-When a swarm completes, you can close it and optionally document the swarm resolution.
+When a swarm has completed, you can close it by completing the following steps:
 
-### Swarm impact on the timeline
+1. On the **Swarm** page in Customer Service workspace, select **Resolve swarm**. 
+1. (Optional): In the **Resolve this swarm?** dialog box, enter details that describe the solution.
+1. Select **Resolve swarm**.
 
-When a swarm is created or closed, an auto post is created on the associated case timeline.
+After the swarm is resolved, a Dynamics 365 bot posts to the Teams chat to indicate that the swarm has been resolved with a link to the swarm details in Dynamics 365.
+
+### Reactivate a swarm
+
+After a swarm is completed, if needed, you can reactivate it by selecting **
+
+
+### Cancel a swarm
+
+
 
 ### Associated swarm
 
@@ -128,7 +169,6 @@ To view a list of swarms, go to **Swarms** on the site map. The following views 
 - Resolved swarms
 - Swarms being followed
 - Swarms I follow
-
 
 ### See also
 
