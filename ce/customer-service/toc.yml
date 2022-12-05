@@ -512,14 +512,16 @@
         href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
-      - name: Configure the knowledge article authoring language
-        href: set-knowledge-article-authoring-language.md
       - name: Create and manage knowledge articles 
         href: customer-service-hub-user-guide-knowledge-article.md
+      - name: Configure the knowledge article authoring language
+        href: set-knowledge-article-authoring-language.md
       - name: Review knowledge articles 
         href: review-ka.md
       - name: Publish knowledge articles 
         href: publish-ka.md
+      - name: Create and manage article versions
+        href: ka-versions.md
       - name: Translate knowledge articles 
         href: translate-ka.md
       - name: Manage feedback for knowledge articles
