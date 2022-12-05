@@ -157,7 +157,7 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 - The call lasts 10 minutes.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 8.](media/vc-pricing-7.png "Inbound call from customer through Teams")
+   > ![Pricing example 8.](media/vc-pricing-9.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
@@ -174,7 +174,7 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 Matias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) via Azure Communication Services direct routing. Matias adds Gaby to the call and puts Mae on hold. Matias removes Mae from hold and resumes the call.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 7.](media/vc-pricing-7.png "Inbound call from customer through Teams")
+   > ![Pricing example 7.](media/vc-pricing-8.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
