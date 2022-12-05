@@ -110,7 +110,7 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 Mae calls your US toll-free number (acquired from Communication Services) from Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and start the recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes. The recording stops when the call ends.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 4.](media/vc-pricing-4.png "Inbound call from customer through Teams")
+   > ![Pricing example 4.](media/vc-pricing-5.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
@@ -128,7 +128,7 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 Mae calls your US toll-free number (acquired from Communication Services) from her Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts the recording. Matias talks to Mae for 10 minutes and then transfers the call to product expert, Cole, on his Teams PSTN number. Cole speaks to Mae for another 5 minutes and ends the call. The recording stops when the call ends.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 5.](media/vc-pricing-5.png "Inbound call from customer through Teams")
+   > ![Pricing example 5.](media/vc-pricing-6.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
@@ -157,7 +157,7 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 - The call lasts 10 minutes.
 
   > [!div class=mx-imgBorder]
-   > ![Pricing example 8.](media/vc-pricing-8.png "Inbound call from customer through Teams")
+   > ![Pricing example 8.](media/vc-pricing-7.png "Inbound call from customer through Teams")
 
 **Cost calculations**
 
