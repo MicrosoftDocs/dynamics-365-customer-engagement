@@ -899,105 +899,105 @@
     - name: Sales entities
       items:
         - name: Sales entities (lead, opportunity, competitor, quote, order, invoice)
-          href: ../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
+          href: developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
         - name: Competitor entity
-          href: ../customerengagement/on-premises/developer/competitor-entity.md
+          href: developer/competitor-entity.md
         - name: Lead entity
           items:
             - name: About Lead entity
-              href: ../customerengagement/on-premises/developer/lead-entity.md
+              href: developer/lead-entity.md
             - name: Qualify a lead (Sample)
-              href: ../customerengagement/on-premises/developer/sample-qualify-lead.md
+              href: developer/sample-qualify-lead.md
         - name: Opportunity entity
           items:
             - name: About Opportunity entity
-              href: ../customerengagement/on-premises/developer/opportunity-entities.md
+              href: developer/opportunity-entities.md
             - name: Create an opportunity
-              href: ../customerengagement/on-premises/developer/create-opportunity.md
+              href: developer/create-opportunity.md
             - name: Convert an opportunity to a quote, sales order or invoice
-              href: ../customerengagement/on-premises/developer/convert-opportunity-quote-sales-order-invoice.md
+              href: developer/convert-opportunity-quote-sales-order-invoice.md
             - name: Create an opportunity (early bound sample)
-              href: ../customerengagement/on-premises/developer/sample-create-opportunity-early-bound.md
+              href: developer/sample-create-opportunity-early-bound.md
             - name: Retrieve an opportunity (early bound sample)
-              href: ../customerengagement/on-premises/developer/sample-retrieve-opportunity-early-bound.md
+              href: developer/sample-retrieve-opportunity-early-bound.md
             - name: Convert an opportunity to a quote (early bound sample)
-              href: ../customerengagement/on-premises/developer/sample-convert-opportunity-quote-early-bound.md
+              href: developer/sample-convert-opportunity-quote-early-bound.md
         - name: Quote, order, and invoice entities
           items:
             - name: About Quote, order, and invoice entities
-              href: ../customerengagement/on-premises/developer/quote-order-invoice-entities.md
+              href: developer/quote-order-invoice-entities.md
             - name: Set negative prices in opportunities, quotes, and sales orders (Sample)
-              href: ../customerengagement/on-premises/developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md
+              href: developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md
             - name: Process quotes, sales orders and invoices (Sample)
-              href: ../customerengagement/on-premises/developer/sample-process-quotes-sales-orders-invoices.md
+              href: developer/sample-process-quotes-sales-orders-invoices.md
             - name: Fulfill a sales order (Sample)
-              href: ../customerengagement/on-premises/developer/sample-fulfill-sales-order.md
+              href: developer/sample-fulfill-sales-order.md
             - name: Enable sales order processing integration
               href: developer/enable-sales-order-processing-integration.md
     - name: Marketing entities
       items:
         - name: Marketing entities (campaign, list)
-          href: ../customerengagement/on-premises/developer/marketing-entities-campaign-list.md
+          href: developer/marketing-entities-campaign-list.md
         - name: Campaign entities
-          href: ../customerengagement/on-premises/developer/campaign-entities.md
+          href: developer/campaign-entities.md
         - name: List (marketing list) entity
-          href: ../customerengagement/on-premises/developer/list-marketing-list-entity.md
+          href: developer/list-marketing-list-entity.md
         - name: Distribute a quick campaign (Sample)
-          href: ../customerengagement/on-premises/developer/sample-distribute-a-quick-campaign.md
+          href: developer/sample-distribute-a-quick-campaign.md
         - name: Distribute campaign activities to dynamic and static lists (Sample)
-          href: ../customerengagement/on-premises/developer/sample-distribute-campaign-activities-dynamic-static-lists.md
+          href: developer/sample-distribute-campaign-activities-dynamic-static-lists.md
         - name: Distribute campaign activities to qualified marketing list (Sample)
-          href: ../customerengagement/on-premises/developer/sample-distribute-campaign-activities-qualified-marketing-list.md
+          href: developer/sample-distribute-campaign-activities-qualified-marketing-list.md
     - name: Goal management entities
       items:
         - name: About goal management entities
-          href: ../customerengagement/on-premises/developer/goal-management-entities.md
+          href: developer/goal-management-entities.md
         - name: Create goal hierarchy, goals, and targets
-          href: ../customerengagement/on-premises/developer/create-goal-hierarchy-goals-targets.md
+          href: developer/create-goal-hierarchy-goals-targets.md
         - name: Define goal metric and rollup fields
-          href: ../customerengagement/on-premises/developer/define-goal-metric-rollup-fields.md
+          href: developer/define-goal-metric-rollup-fields.md
         - name: Add complex goal criteria
-          href: ../customerengagement/on-premises/developer/add-complex-goal-criteria.md
+          href: developer/add-complex-goal-criteria.md
         - name: Roll up goal totals
-          href: ../customerengagement/on-premises/developer/roll-up-goal-totals.md
+          href: developer/roll-up-goal-totals.md
         - name: Rollup goal data for a custom period against the target revenue (Sample)
-          href: ../customerengagement/on-premises/developer/sample-rollup-goal-data-custom-period-target-revenue.md
+          href: developer/sample-rollup-goal-data-custom-period-target-revenue.md
         - name: Rollup goal data for a fiscal period against the stretch target count (Sample)
-          href: ../customerengagement/on-premises/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md
+          href: developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md
         - name: Use rollup queries to track goals (Sample)
-          href: ../customerengagement/on-premises/developer/sample-use-rollup-queries-track-goals.md
+          href: developer/sample-use-rollup-queries-track-goals.md
         - name: Override goal total count and close the goal (Sample)
-          href: ../customerengagement/on-premises/developer/sample-override-goal-total-count-close-goal.md
+          href: developer/sample-override-goal-total-count-close-goal.md
     - name: Product catalog entities
       items:
         - name: About Product catalog entities
-          href: ../customerengagement/on-premises/developer/product-catalog-entities.md
+          href: developer/product-catalog-entities.md
         - name: Manage products, families, bundles, and properties
-          href: ../customerengagement/on-premises/developer/create-manage-product-families-products-bundles-product-properties.md
+          href: developer/create-manage-product-families-products-bundles-product-properties.md
         - name: View product hierarchy
           href: view-product-hierarchy.md
         - name: Publish, revise, revert, retire, and activate products
-          href: ../customerengagement/on-premises/developer/publish-revise-revert-retire-activate-products.md
+          href: developer/publish-revise-revert-retire-activate-products.md
         - name: Product pricing methods
-          href: ../customerengagement/on-premises/developer/product-pricing-methods.md
+          href: developer/product-pricing-methods.md
         - name: Use custom pricing
-          href: ../customerengagement/on-premises/developer/use-custom-pricing-products.md
+          href: developer/use-custom-pricing-products.md
         - name: Set default price levels
-          href: ../customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md
+          href: developer/set-default-price-level-for-opportunity-quote-order-invoice.md
         - name: Product discounting methods
-          href: ../customerengagement/on-premises/developer/product-discounting-methods.md
+          href: developer/product-discounting-methods.md
         - name: Localize product property values
-          href: ../customerengagement/on-premises/developer/localize-product-property-values.md
+          href: developer/localize-product-property-values.md
         - name: Create and publish products (Sample)
-          href: ../customerengagement/on-premises/developer/sample-create-publish-products.md
+          href: developer/sample-create-publish-products.md
         - name: Clone product records (Sample)
-          href: ../customerengagement/on-premises/developer/sample-clone-product-records.md
+          href: developer/sample-clone-product-records.md
         - name: Add products to a bundle (Sample)
-          href: ../customerengagement/on-premises/developer/sample-add-products-bundle.md
+          href: developer/sample-add-products-bundle.md
         - name: Calculate Price plug-in (Sample)
-          href: ../customerengagement/on-premises/developer/sample-calculate-price-plugin.md
+          href: developer/sample-calculate-price-plugin.md
     - name: Sales literature entities
-      href: ../customerengagement/on-premises/developer/sales-literature-entities.md
+      href: developer/sales-literature-entities.md
     - name: Forecasting
       items:
         - name: Sales forecasting APIs
