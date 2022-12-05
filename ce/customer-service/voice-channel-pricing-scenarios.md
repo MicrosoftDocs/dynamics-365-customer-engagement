@@ -9,7 +9,7 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Pricing Scenario
+# Voice calling pricing scenarios 
 
 Voice Channel for Dynamics 365 Customer Service is an add-in application for Customer Service Enterprise licenses and brings 1st party telephony to Customer Service and is licensed per user. You must obtain an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
