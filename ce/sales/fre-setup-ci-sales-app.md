@@ -100,11 +100,6 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > [!div class="mx-imgBorder"]
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
-8.	In the **License usage** section, you can view information about the total call recording and processing hours that have been used, and the hours available.  
-
-    > [!div class="mx-imgBorder"]
-    > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
-
 9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
