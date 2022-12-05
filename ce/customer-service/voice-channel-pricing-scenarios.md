@@ -1,7 +1,7 @@
 ---
-title: "Pricing scenarios in | MicrosoftDocs"
-description: "Use this topic to understand how pricing is calculated in Omnichannel for Customer Service."
-ms.date: 11/02/2021
+title: "Pricing scenarios in voice channel "
+description: "Use this topic to understand how pricing is calculated in the voice channel."
+ms.date: 12/05/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -11,9 +11,9 @@ manager: shujoshi
 
 # Pricing Scenario
 
-Voice Channel for Dynamics 365 Customer Service is an add-in application for Customer Service Enterprise licenses and brings 1st party telephony to Customer Service and is licensed per user. 
+Voice Channel for Dynamics 365 Customer Service is an add-in application for Customer Service Enterprise licenses and brings 1st party telephony to Customer Service and is licensed per user. You must obtain an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. Prices for Azure Communication Services are based on a pay-as-you-go model. The prices in the following examples are for illustrative purposes and may not reflect the latest Azure pricing.
+The voice channel is built over Azure Communication Services. Prices for Azure Communication Services are based on a pay-as-you-go model. The prices in the following examples are for illustrative purposes and may not reflect the latest Azure pricing.
 
 ## Pricing
 
@@ -28,7 +28,7 @@ Billing considerations also include:
 - PSTN call pricing, based on the type of number and location in which a call is terminated (destination), with few scenarios having rates based on origination location.
 
 
-### Pricing example: Inbound audio call from the customer via Microsoft Teams
+### Inbound: Customer calls an agent from Microsoft Teams
 
 Mae is a customer and calls your US toll-free number (acquired from Communication Services) from Microsoft Teams. Customer Service routes the call landing on the Azure Communication Services to the agent, Matias. Matias accepts the incoming call from Mae, and the call lasts for 20 minutes.
 
@@ -38,15 +38,15 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 **Cost calculations**
 
 - One participant on Microsoft Teams (Inbound from Mae)x 20 minutes x rate per participant per minute*.
-- One participant on the PSTN (inbound from Mae)x 20 minutes x 0.022 per participant per minute = $0.44
-- One participant on VOIP (inbound to Matias)x20 x 0.004 per participant per minute= $0.08
-- Customer Service bot does not introduce additional ACS charges.
+- One participant on the PSTN (inbound from Mae) x 20 minutes x 0.022 per participant per minute = $0.44
+- One participant on VOIP (inbound to Matias) x 20 x 0.004 per participant per minute= $0.08
+- Customer Service bot does not introduce additional Azure Communication Services charges.
 
 * Mae's participation is covered by her Teams license
 
 **Total cost for the call**: $0.44 + $0.08 = $0.52 
 
-### Pricing example: Customer calls through Microsoft Teams is transferred from one agent to another a phone call
+### Inbound: Customer calls from Microsoft Teams and the call is transferred
 
 Mae is a customer and calls your US toll-free number (acquired from Communication Services) from Microsoft Teams. Customer Service routes the call landing on the Azure Communication Services to the agent, Matias. Matias accepts the incoming call from Mae and starts the recording. They speak for 10 minutes after which Matias transfers the call to product expert, Cole's mobile. Cole accepts the call and talks to Mae for another 10 minutes. The recording ends after Cole ends the call.
 
@@ -61,15 +61,16 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 - One participant on VOIP (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
 - One participant on PSTN (inbound to Cole)x 10 x 0.013 per participant per minute= $0.13
 - Cost to record= 20 x $0.002 per minute = $0.04
-- Omnichannel for Customer Service bot does not introduce additional ACS charges.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 * Mae's participation is is charged based on her Teams license.
 
 **Total cost for the call**: $0.44 + $0.04 + $0.04+ $ 0.13 + applicable Teams charges = $0.65 + applicable Teams charges
 
-### Pricing example: Inbound call from the customer through a phonecall, call is escalated to a human agent from an IVR bot
+### Inbound: Customer calls from a mobile, call is escalated to a human agent from an IVR bot
 
 Mae calls your US toll-free number (acquired from Communication Services) from her mobile. Customer Service routes the call landing on the Azure Communication Services to a Power Virtual Agents IVR bot. Mae interacts with the bot for 2 minutes. The bot then escalates the call to a human agent, Matias. The call lasts for 8 minutes.
+
 
    > [!div class=mx-imgBorder]
    > ![Pricing example 3.](media/vc-pricing-3.png "Inbound call from customer through Teams")
@@ -78,13 +79,15 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 
 - One participant on PSTN (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22
 - One participant on VOIP (inbound to Power Virtual Agents bot) X 2 x $ 0.004 per minute = $0.008
+  > [!NOTE]
+  > The VOIP call to the Power Virtual Agents bot is not covered by the intelligent voicebot minutes included in the Voice Channel for Dynamics 365 Customer Service license.
 - One participant on VOIP (inbound to Matias )x 8 x 0.004 per participant per minute= $0.032
-- Omnichannel for Customer Service bot does not introduce additional ACS charges. The VOIP section to the Power Virtual Agents bot is not charged.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 
 **Total cost for the call**: $0.22 + $0.008 + $ 0.032+ $0.04= $0.26
 
-### Pricing example: Customer calls through Microsoft Teams, Supervisor joins the call to monitor the conversation
+### Inbound: Customer calls through Microsoft Teams, Supervisor joins the call to monitor the conversation
 
 Mae calls your US toll-free number (acquired from Communication Services) from Teams. Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call last for 10 minutes. The recording stops when the call ends. 
 
@@ -97,15 +100,16 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 - One participant on PSTN (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22
 - One participant on the VOIP (inbound to Matias)x 10 x 0.004 per participant per minute= $0.04
 - One participant on the VOIP (Gaby joins to consult)x 10 x 0.004 per participant per minute= $0.04
-  Note: This lsection is charged only when Gaby joins the call.
+  > [!NOTE]
+  > This section is charged only when Gaby joins the call.
 - Cost to record= 10 x $0.002 per minute = $0.02
-- Omnichannel for Customer Service bot does not introduce additional ACS charges.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 * Mae's participation is charged based on her Teams license.
 
 **Total cost for the call**: $0.22 + $0.04 + $ 0.04 + $0.02+ applicable Teams charges = $0.32+ applicable Teams charges
 
-### Pricing example: Customer calls from a mobile, Supervisor is invited to consult the conversation
+### Inbound: Customer calls from a mobile, the Supervisor is invited to consult the conversation
 
 Mae calls your US toll-free number (acquired from Communication Services) from Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and start the recording. Gaby, Matias's supervisor decides to join in to monitor the conversation. The call lasts for 10 minutes. The recording stops when the call ends.
 
@@ -117,13 +121,14 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 - One participant on the PSTN section (inbound from Mae)x 20 minutes x 0.022 per participant per minute = $0.44
 - One participant on the VOIP section (inbound to Matias)x 20 x 0.004 per participant per minute= $0.08
 - One participant on the VOIP section (Gaby joins to consult)x 10 x 0.004 per participant per minute= $0.04
-  Note: This section is charged only when Gaby joins the call.
+    > [!NOTE]
+    > This section is charged only when Gaby joins the call.
 - Cost to record= 20 x $0.002 per minute = $0.04
-- Omnichannel for Customer Service bot does not introduce additional ACS charges.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 **Total cost for the call**: $0.44 + $0.08 + $0.04 + $0.04 = $0.60
 
-### Pricing example: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
+### Inbound: Customer calls from Microsoft Teams, call is transferred to an agent through Teams PSTN
 
 Mae calls your US toll-free number (acquired from Communication Services) from her Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts the recording. Matias talks to Mae for 10 minutes and then transfers the call to product expert, Cole, on his Teams PSTN number. Cole speaks to Mae for another 5 minutes and ends the call. The recording stops when the call ends.
 
@@ -138,12 +143,12 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 - One participant on the PSTN section (inbound to Cole)x 5 x 0.013 per participant per minute= $0.065
 - One participant on Microsoft Teams (to Cole)x 5 minutes x rate per participant per minute*.
 - Cost to record= 10 x $0.002 per minute = $0.02
-- Omnichannel for Customer Service bot does not introduce additional ACS charges.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 * Mae's participation is charged based on her Teams license.
 * Cole's participation is charged based on his Teams license.
  
-**Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02  + applicable Teams charges = $0.325  + applicable Teams charges
+**Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325  + applicable Teams charges
 
 
 ### Pricing example: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
@@ -151,8 +156,8 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 Matias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) via Azure Communication Services direct routing.
 
 - Matias uses Omnichannel for Customer Service client application
-- Omnichannel for Customer Service bot starts new outgoing call via direct routing
-- Call goes to a Session Border Controller (SBC) connected via Communication Services direct routing
+- Omnichannel for Customer Service bot starts new outgoing call through direct routing
+- Call goes to a Session Border Controller (SBC) connected through Communication Services direct routing
 - Dynamics 365 Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call 
 - The call lasts 10 minutes.
 
@@ -162,14 +167,14 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 **Cost calculations**
 
 - One participant on the PSTN section (outbound from Matias )x 10 x rate per the contract with carrier 
-- One participant on the PSTN section (SBC to ACS)x 10 x rate per the contract with carrier
-- One participant on the SIP section (SBC to ACS)x 10 x 0.004 per participant per minute= $0.04
+- One participant on the PSTN section (SBC to Azure Communication Services)x 10 x rate per the contract with carrier
+- One participant on the SIP section (SBC to Azure Communication Services)x 10 x 0.004 per participant per minute= $0.04
 - One participant on the VOIP section (Outbound from Matias) x 10 x 0.004 per participant per minute= $0.04
-- Omnichannel for Customer Service bot does not introduce additional ACS charges.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 **Total cost for the call**: $0.04 + $0.04 + applicable carrier charges = $0.08  + applicable carrier charges
 
-### Pricing example: Agent calls the customer
+### Outbound: Agent calls the customer
 
 Matias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) via Azure Communication Services direct routing. Matias adds Gaby to the call and puts Mae on hold. Matias removes Mae from hold and resumes the call.
 
@@ -179,8 +184,8 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 **Cost calculations**
 
 - One participant on the PSTN section (outbound from Matias)x 10 x 0.013 = $0.013
-- One participant on the VOIP section (Matias to ACS) 10 x 0.004 = $0.04
+- One participant on the VOIP section (Matias to Azure Communication Services) 10 x 0.004 = $0.04
 - One participant on the VOIP section (Matias to Gaby) 5 x 0.004 = $0.02
-- Omnichannel for Customer Service bot does not introduce additional ACS charges.
+- Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
 **Total cost for the call**: $0.13 + $0.04 + $0.02= $0.19 
