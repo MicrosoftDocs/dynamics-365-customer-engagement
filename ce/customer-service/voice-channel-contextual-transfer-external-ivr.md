@@ -32,7 +32,13 @@ This section lists the high-level steps you must perform to enable contextual ca
 
 3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
 
-4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "userToUserInformation": "param1=value1;param2=value2".  
+4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "userToUserInformation": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
+
+  - Plain text or string. The key value pairs must be separated by a semicolon.
+      For example, <i>"sipkey1=sipval1;sipkey2=sipval2"</i>
+  - The hex encoding format, if you'd want to pass the context using encoding.
+      For example above, the hex format is: <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
+      Ensure you specify the encoding key word when you're using the hex format.
 
 5. Create context variables with the same names as the SIP UUI header.
 
