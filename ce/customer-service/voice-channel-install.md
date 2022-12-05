@@ -4,7 +4,7 @@ description: "Learn about how to install the voice channel in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 11/18/2022
 ms.topic: article
 ---
 
@@ -20,7 +20,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 
 1. Perform the steps outlined in [Set up Omnichannel for Customer Service](omnichannel-provision-license.md#set-up-omnichannel).
 
-1. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** checkbox.
+1. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** check box.
 
 1. Save and close.
 

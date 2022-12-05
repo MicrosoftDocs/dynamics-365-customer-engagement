@@ -34,12 +34,12 @@ Microsoft.CIFramework.addHandler("oncustomevent", handlerFunction);
 Microsoft.CIFramework.raiseEvent("oncustomevent", "test input value");
 
 //In the main UCI page
-Microsoft.CIFramework.addHandler(“widgetEvent”, mainHandler);
+Microsoft.CIFramework.addHandler(“widgetEvent”, handlerFunction);
 ///In the widget code
 Microsoft.CIFramework.raiseEvent(“widgetEvent”, eventData);
 
 //In the widget code
-Microsoft.CIFramework.addHandler(“mainPageEvent”, widgetHandler);
+Microsoft.CIFramework.addHandler(“mainPageEvent”, handlerFunction);
 //In the main UCI page
 Microsoft.CIFramework.raiseEvent(“mainPageEvent”, eventData);
 

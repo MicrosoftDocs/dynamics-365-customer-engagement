@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/17/2022
+ms.date: 12/01/2022
 ms.topic: article
 
 ---
@@ -23,9 +23,9 @@ If you don't configure overflow, by default, the work item will stay in the queu
 
 ## How overflow works
 
-The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queue rules are evaluated. The following factors are considered during the overflow evaluation:
+The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. The following factors are considered during the overflow evaluation:
 
-- If multiple queues match in the route-to-queue rules, the system routes the work item to the first queue that's not overflowing.
+- If multiple queues match in the route-to-queues rules, the system routes the work item to the first queue that's not overflowing.
 
 - If all matched queues are overflowing, one of the following actions takes place:
 
@@ -89,7 +89,7 @@ Go to the Customer Service admin center app and perform the following steps:
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
-    - **Work item limit exceeds**: Enter a value between 1 and 100 to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
+    - **Work item limit exceeds**: Enter a value between 1 and 100 to denote the maximum number of work items that can be in the open state before overflow is reached. For example, if you enter 2 as the value, then two items should be open in the queue for the third item to trigger one of the following actions:
 
         - **Direct callback (preview)**: For voice queues only. Customers can choose to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
         - **End call**

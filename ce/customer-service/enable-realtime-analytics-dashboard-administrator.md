@@ -1,7 +1,7 @@
 ---
 title: "Configure real-time analytics for supervisors | MicrosoftDocs"
-description: "Learn how to configure real-time analytics for Omnichannel in Dynamics 365 Customer Service."
-ms.date: 10/28/2022
+description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
+ms.date: 11/15/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -35,49 +35,41 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversation
 
-Make sure that you have the required administrator permissions for Dynamics 365. You can configure Omnichannel real-time analytics reports in the Customer Service admin center app.
+By default, the reports are enabled for the System Administrator, Omnichannel Administrator, Analytics Reports author, and CSR manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+
+## Manage Omnichannel real-time analytics reports
+Use the Customer Service admin center app to enable or disable Omnichannel real-time analytics reports.
+
+1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center. 
+    > [!Note]
+    > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+
 1. On the **Insights** page, **Report Settings** section, go to  **Real-time Analytics (preview)** and select **Manage**.
+
+    :::image type="content" source="media/manage-real-time-analytics-preview.png" alt-text="Manage the Omnichannel real-time analytics option in Customer Service admin center app":::
+
 1. On the **Real-time analytics (preview)** page, set the **Enable Omnichannel real-time analytics** toggle to **On**.
+
 1. In the **Additional options** section, select the **Add real-time analytics for Omnichannel voice** option.
     This option will be available only if your organization has the voice feature configured.
 
-    :::image type="content" source="media/enable real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
+    :::image type="content" source="media/enable-real-time.png" alt-text="Enable the Omnichannel real-time analytics option in Customer Service admin center app":::
 
-## Provide report access to additional security roles
-Perform the following steps to configure users with different privileges to access reports beyond the default ones.
+## View Omnichannel real-time analytics reports 
 
-1. In the Power Platform admin center, go to **Environments** and select the required Dynamics 365 environment.
-
-1. In the **Access** section, under **Security roles**, select **See all**.
-
-1. Select the security role that you want to grant access for. For example, AIB SML Roles.
-
-1. Select **Edit**.
-
-1. On the **Security Roles** page, select the **Custom Entities** tab.
-
-    :::image type="content" source="media/enable-custom-entities-realtime.png" alt-text="Enable read permissions for custom entities":::
-
-1. Grant **Read** privileges to the following entities:
-
-   - **Omnichannel Real-time analytics**
-   - **Insights**
-1. Select **Save and close**. The agent manager can now see the Omnichannel for Customer Service real-time analytics report.
-
-You can view the reports by navigating to the **Service** > **Analytics and Insights** > **Omnichannel for Customer Service real-time analytics** page. By default, the **Summary** report is displayed.
+To view the reports in Customer Service workspace or Omnichannel for Customer Service, see [View reports](intro-realtime-analytics-dashboard.md#view-reports).
 
 ### See also
 
-[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)
+[Overview of Omnichannel real-time analytics reports (preview)](intro-realtime-analytics-dashboard.md)  
+[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)  
+[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)  
+[View and understand the Agents report in Omnichannel real-time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)  
+[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)  
+[Configure user security to resources in an environment](/power-platform/admin/database-security)  
+[How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
-[View and understand the Summary report in Omnichannel real-time analytics (preview)](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Voice report in Omnichannel real-time analytics (preview)](realtime-voice-dashboard.md#view-and-understand-the-voice-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Agents report in Omnichannel real-time analytics (preview)](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics-preview)
-
-[View and understand the Ongoing Conversation report in Omnichannel real-time analytics (preview)](realtime-ongoing.md#view-and-understand-the-ongoing-conversation-report-in-omnichannel-real-time-analytics-preview)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

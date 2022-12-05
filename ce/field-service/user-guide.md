@@ -6,8 +6,8 @@ ms.reviewer: mhart
 ms.topic: overview
 
 ms.custom: intro-internal
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app:
   - D365CE
