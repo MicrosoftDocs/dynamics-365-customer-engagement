@@ -29,7 +29,7 @@ ms.custom:
 | entityLogicalName | String | Yes | Name of the entity to search and open. |
 | queryParmeters | String | Yes | OData system query options, **$select** and **$expand**, to retrieve your data.<br><br> - Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.<br><br> - Use the **$expand** system query option to control the data returned by related entities. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.<br><br> You can specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
 | searchOnly | Boolean | Yes | Set to `false` to open the record in the Unified Interface page if the search record is a single record. Set to `false` to open a search page if the search result has multiple records and to automatically populate the search page with the tag value mentioned when the search field is used in `queryParmeters`.<br><br>Set to `true` only to get results of the search as a Promise object, and not open the record or search page.|
-| correlationId | String| No | Is used to group all related API calls together for diagnostic telemetry.   |
+| correlationId | GUID | No | Is used to group all related API calls together for diagnostic telemetry.   |
 | searchType         | Number    | No       | Type of search page to open&mdash;0 for relevance search and 1 for categorized search. If no parameter is provided, the records are searched by category.|
 | successCallback	| Function	| No	| A function to call when the request is successful. |
 | errorCallback |	Function	| No	| A function to call when the request fails. |
@@ -60,7 +60,7 @@ This sample code searches the name and phone number of a contact record. It open
 ```JavaScript
 
 // retrieve contact record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false);
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false).
 then(
     function success(result) { 
     res=JSON.parse(result);
@@ -85,7 +85,7 @@ This sample code searches and displays the name and phone number of Contact enti
 
 // Retrieve Contact entity record
 // Change searchOnly parameter to true, if you do not want to open the search results page
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false);
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false).
 then(
     function success(result) {
     res=JSON.parse(result);
@@ -104,7 +104,7 @@ then(
 This sample code searches and displays the top 10 active contact records.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false);
+Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false).
 then(
     function success(result) { 
     res=JSON.parse(result);
@@ -122,7 +122,7 @@ then(
 This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0);
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0).
 then(     
     function success(result) {     
     res=JSON.parse(result);         
