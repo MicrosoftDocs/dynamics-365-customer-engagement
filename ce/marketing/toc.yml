@@ -294,7 +294,7 @@
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-      - name: Personalization
+    - name: Personalization
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
