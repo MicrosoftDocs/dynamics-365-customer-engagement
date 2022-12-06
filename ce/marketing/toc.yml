@@ -295,13 +295,13 @@
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
     - name: Personalization
-        items:
-        - name: Personalize content
-          href: real-time-marketing-personalization.md
-        - name: "Personalize content using pre-defined dynamic text"
-          href: real-time-marketing-predefined-dynamic-text.md
-        - name: How to use conditional content
-          href: conditional-content.md
+      items:
+      - name: Personalize content
+        href: real-time-marketing-personalization.md
+      - name: "Personalize content using pre-defined dynamic text"
+        href: real-time-marketing-predefined-dynamic-text.md
+      - name: How to use conditional content
+        href: conditional-content.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
