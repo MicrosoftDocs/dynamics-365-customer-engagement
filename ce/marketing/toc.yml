@@ -294,14 +294,6 @@
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-    - name: Personalization
-      items:
-      - name: Personalize content
-        href: real-time-marketing-personalization.md
-      - name: "Personalize content using pre-defined dynamic text"
-        href: real-time-marketing-predefined-dynamic-text.md
-      - name: How to use conditional content
-        href: conditional-content.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
@@ -310,6 +302,14 @@
           href: real-time-marketing-cross-journey-analytics.md
         - name: How to use aggregate channel analytics
           href: real-time-marketing-channel-analytics.md
+    - name: Personalization
+      items:
+      - name: Personalize content
+        href: real-time-marketing-personalization.md
+      - name: "Personalize content using pre-defined dynamic text"
+        href: real-time-marketing-predefined-dynamic-text.md
+      - name: How to use conditional content
+        href: conditional-content.md
     - name: Assets
       items: 
       - name: Real-time marketing asset library
