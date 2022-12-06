@@ -46,7 +46,6 @@ This article describes how to enable the data model customization feature and se
 1. Grant permissions for dataset and reports
 1. Add customized reports in Dynamics 365
 1. View reports in Customer Service workspace
-1. Data model and report mapping
 
 
 ## Prerequisites
