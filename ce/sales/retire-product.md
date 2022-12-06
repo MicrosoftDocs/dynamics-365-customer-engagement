@@ -38,6 +38,9 @@ If your organization doesn't sell a product, bundle, or family anymore, retire i
    > [!div class="mx-imgBorder"]
    > ![Product form with the Retire button.](media/retire-product.png "Product form with the Retire button")
 
+    > [!NOTE]
+    > Retired product families cannot be reactivated. Unparent a product before retiring if you think you may need to reactivate it later.  
+
 4. In the **Confirm Retire** dialog box, select **Confirm**.
  
    ![Confirm retire.](media/confirm-retire.png "Confirm retire")
