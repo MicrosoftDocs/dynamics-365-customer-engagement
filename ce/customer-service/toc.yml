@@ -512,6 +512,8 @@
         href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
+      - name: Understand the knowledge article creation process
+        href: ka-process.md
       - name: Create and manage knowledge articles 
         href: customer-service-hub-user-guide-knowledge-article.md
       - name: Configure the knowledge article authoring language
@@ -528,8 +530,10 @@
         href: feedback-sla.md 
       - name: Dashboards for knowledge articles
         href: dashboards-ka.md
-      - name: Create knowledge article templates in Customer Service
+      - name: Create knowledge article templates
         href: create-templates-knowledge-article.md
+      - name: Prevent duplicate workflows with knowledge article operations
+        href: dup-workflows-ka.md
     - name: Agent experience
       items:
       - name: Search knowledge articles

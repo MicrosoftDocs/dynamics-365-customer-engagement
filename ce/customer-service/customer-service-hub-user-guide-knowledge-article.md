@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/02/2022
+ms.date: 12/06/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,11 +29,9 @@ searchScope:
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
-Reduce call handling times with knowledge articles in the Customer Service Hub application.
-  
-With the knowledge management module, you can create and manage knowledge articles that your users may be looking for.
+Turn your customer questions, issues, and feedback into knowledge articles, so that agents can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub.
 
-Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more. Use the rich text editor to create knowledge articles, format your content, or embed videos and images.  
+Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
 > [!IMPORTANT]
 > Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer service apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
@@ -41,18 +39,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](work-knowledge-articles.md)
 
-## Knowledge management process
-
-The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can be translated.
-  
-![Knowledge management process in Dynamics 365 Customer Service.](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service.")  
-  
-
-## Create a knowledge article
-
-Turn your customer questions, issues, and feedback into knowledge articles, so other service reps can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub.
-  
-Ensure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.  
+Ensure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
 1. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
   
@@ -150,8 +137,8 @@ Ensure that you have Create and Read permissions on the Knowledge Article entity
 > [!NOTE] 
 > To learn how to create knowledge article templates, see [Create a knowledge article template](create-templates-knowledge-article.md).
 
-
 ## Use the rich text editor to create knowledge articles and emails
+
 Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
 
 The **Content** editor panel consists of three tabs:
@@ -221,7 +208,6 @@ Before using inline images, keep in mind the following:
 - These are the supported formats: PNG, JPG, or GIF
 - These are the supported browsers: Microsoft Edge, Chrome, Firefox, Safari
 
-
 **Drag and drop an image**
 
 > [!Note]
@@ -255,7 +241,6 @@ To insert an image by using a URL or navigating to the local image:
 
    - Select **Browse** to navigate to the image on your computer.
 
-  
 ### HTML
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
@@ -348,70 +333,6 @@ You can mark an article for review or directly assign it to a specific person or
   
 5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
-## Prevent duplicate workflows with knowledge article operations
-
-If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as creating or updating a knowledge article, the update operation is further classified into suboperations, such as:
-
--	Update a knowledge article version.
--	Manage a knowledge article version.
--	Translate a knowledge article.
-
-For the create and update operations, be aware of the following when using the workflow process: 
-
-Whenever you create a new knowledge article manually, the system creates two articles: a root article and a base article. This means if you use a workflow process that is triggered on a create operation, the workflow is triggered twice—once each for the creation of the base article and the root article.
-
-When you use a workflow process to perform the following update operations, the workflow is triggered twice—once each for the base article and the root article:
--	Create major version
--	Create minor version
--	Translate
-  
-   > [!NOTE]
-   >  Other update operations, such as updating a field or approve/publish, do not trigger the second workflow.
-
-To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: 
-
-- For a create operation, set the root article to **Yes**. 
-- For an update operation, set the root article to **No**. 
-
-Follow these steps:
-  
-1. Sign in to Customer Service Hub.  
-  
-2. Select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
-  
-3. In the navigation bar, select **Settings** > **Processes**.
-
-4. Select the knowledge article flow you created. The workflow process opens in a new browser window.
-  
-5. In the **General** tab, select the **Add Step** dropdown list, and then select **Check Condition**. A new step will be added.
-
-    > [!div class=mx-imgBorder]
-    > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step dropdown list")
-  
-6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
-
-    > [!div class=mx-imgBorder]
-    > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
-  
-7. From the entity dropdown list, select **Knowledge Article**.
-
-8. From the field dropdown list, select **Root Article**.
-
-9. From the condition dropdown list, select **Equals**.
-
-10. From the value dropdown list, select a value:
-    - **Yes** for the create operation.
-    - **No** for the update operation.
-
-    > [!div class=mx-imgBorder]
-    > ![Set workflow condition.](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the dropdown list")
-
-11.	Select **Save and Close** to save the condition and close the window.
-
-12.	In the workflow process window, select **Save and Close** to save the condition and close the window.
-
-Now, when you perform a create or update operation, the workflow process will trigger only once. 
-
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
