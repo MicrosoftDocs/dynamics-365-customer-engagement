@@ -528,7 +528,7 @@
         href: translate-ka.md
       - name: Manage feedback for knowledge articles
         href: feedback-sla.md 
-      - name: Dashboards for knowledge articles
+      - name: Knowledge article analytics
         href: dashboards-ka.md
       - name: Create knowledge article templates
         href: create-templates-knowledge-article.md
