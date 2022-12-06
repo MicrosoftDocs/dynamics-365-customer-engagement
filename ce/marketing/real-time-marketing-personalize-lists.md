@@ -1,6 +1,6 @@
 ---
-title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to personalize content in Dynamics 365 Marketing."
+title: "Personalize lists (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to personalize lists in Dynamics 365 Marketing."
 ms.date: 12/06/2022
 ms.custom: 
   - dyn365-marketing
@@ -85,7 +85,7 @@ For lists, you can add or delete additional attributes (these changes will be sa
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing added attributes.](media/real-time-marketing-personalization-codegenerator4.png)
 
-# Filter on list
+## Filter on list
 
 ## More effective communication with selective output of a list
 

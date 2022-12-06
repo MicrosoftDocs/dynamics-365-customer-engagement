@@ -1,7 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 03/07/2022
+ms.date: 12/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
