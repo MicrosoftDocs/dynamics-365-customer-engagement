@@ -310,6 +310,12 @@
         href: real-time-marketing-predefined-dynamic-text.md
       - name: How to use conditional content
         href: conditional-content.md
+      - name: Create reusable content blocks
+        href: content-blocks.md
+      - name: Personalize inline conditions
+        href: real-time-marketing-personalize-inline-conditions.md
+      - name: Personalize lists
+        href: real-time-marketing-personalize-lists.md  
     - name: Assets
       items: 
       - name: Real-time marketing asset library
@@ -464,8 +470,6 @@
       items: 
       - name: Upload and use images and files
         href: upload-images-files.md
-      - name: Create reusable content blocks
-        href: content-blocks.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation
