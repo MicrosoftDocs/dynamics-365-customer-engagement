@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 04/26/2022
+ms.date: 12/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -93,6 +93,26 @@ To remove pre-defined dynamic text:
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of removing pre-defined dynamic text.](media/real-time-marketing-predefined-tokens-remove.png "Screenshot of removing pre-defined dynamic text")
+
+## Clearly communicate date and time using variety of formats
+
+### Date and time formats
+
+When working with multiple geographies and languages, communicating date and time clearly and unambiguously requires one to use the right format to match recipient's expectations. Real time marketing makes it easy to achieve this as it supports a variety of date and time formats. 
+
+Whenever a dynamic text is defined using a datetime type attribute, an additional set of options becomes available to select a datetime format that is readable and consistent with the locale (language and region) of the audience. If desired, the locale and time zone can also be changed to match the audience. Marketing will automatically convert the stored date/time into the selected time zone.
+
+Available format options include three ways to present information - date and time, date only, and time only. Withing each way, there are multiple options to cover various use cases (Note: If the attribute is of type Date only, you will not see date and time and time only options).
+
+> [!div class="mx-imgBorder"]
+> ![date and time format](media/real-time-marketing-date-and-time-format.png "date and time format")
+
+When you select a specific display option, it is applied to that specific dynamic text only. Marketing does remember the last format used (and selects it automatically for the next dynamic text to help drive consistency) but it can be changed easily so flexibility of presenting date and time in different formats within the same email is still possible. 
+
+If needed, you can also change the language and region setting along with time zone by clicking on the “Edit” option. When language and region is changed, Marketing will automatically convert the stored date and time into the selected time zone (note: this may result in a date change).
+
+> [!div class="mx-imgBorder"]
+> ![locale and time zone](media/real-time-marketing-locale-and-time-zone.png "locale and time zone")
 
 > [!TIP]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.
