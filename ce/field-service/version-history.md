@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.reviewer: mhart
 ms.topic: article
 applies_to:
@@ -41,7 +41,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.79.18](/dynamics365/field-service/version-history#887918).
 
-- D365 Field Service (Mobile): Fixed keyboard visibility when interacting with entity lookup within an Inspections question. 
+- Field Service Mobile: Fixed keyboard visibility when interacting with entity lookup within an inspections question. 
  
 ## 8.8.79.18
 
