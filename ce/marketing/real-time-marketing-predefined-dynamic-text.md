@@ -114,6 +114,56 @@ If needed, you can also change the language and region setting along with time z
 > [!div class="mx-imgBorder"]
 > ![locale and time zone](media/real-time-marketing-locale-and-time-zone.png "locale and time zone")
 
+### Access even more data for personalization
+
+#### How to enable the preview for more data for personalization
+
+This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **Access more data for personalization** feature switch, and saving the setting by clicking on “Save” on the top right corner. 
+
+> [!div class="mx-imgBorder"]
+> ![personalization enabled](media/real-time-marketing-personalization-enabled.png "personalization enabled")
+
+**Note**: This feature is available only in Real-time marketing.
+
+#### Using data from additional tables in dynamic text
+
+Most of the time, Dynamic text is used to personalize messages using data from Audience (e.g., Contact or Lead), Triggers. Dynamic text can also use data from Dataverse tables that can be reached through relationships with Audience or Triggers. However, there are times when you need to use data from tables that do not have established or usable relationship with the Audience or triggers. For example, you may want to include information about a company building available in the Dataverse table “Building" that has no direct or usable relationship with Contact or Lead. In such case, your starting point for defining Dynamic text will be in “Other tables” part.
+
+> [!div class="mx-imgBorder"]
+> ![create dynamic text](media/real-time-marketing-create-dynamic-text.png "create dynamic text")
+
+The “Other tables” area includes some of the most commonly used Dataverse tables (e.g., Event planning related tables). When you search for attributes, the search includes these tables as well. You can define dynamic text using these tables just like you do with Audience or Triggers - use an attributes directly or follow relationships from these tables to other related tables until you find the needed attribute. There is one notable difference when you define a dynamic text starting with “Other tables” – before the message can be made “ready to send”, you must select a specific record from the selected table. In case of Audience or Trigger, the specific record is provided by the journey context (i.e., Contact that is actually going through the journey). In case of these tables, we need to provide that information at the design time since they do not have a direct relationship with Audience or Triggers. For example, if you select an attribute from Events table, you will be asked to select a specific event.
+
+> [!div class="mx-imgBorder"]
+> ![select a record](media/real-time-marketing-select-a-record.png "select a record")
+
+#### Using data from additional tables in advanced personalization 
+
+Similar to Dynamic text, these data from these additional tables can also be used to define Conditions and Lists in Advanced personalization
+
+> [!div class="mx-imgBorder"]
+> ![select a condition](media/real-time-marketing-select-a-condition.png "select a condition")
+
+> [!div class="mx-imgBorder"]
+> ![enter details](media/real-time-marketing-enter-details.png "enter details")
+
+#### Validating and finalizing
+
+While you can decide not to select a specific record right away, this selection must be done before the message can be made “ready to send”. Leaving record selection for later can be a useful approach to separate content design phase from content use (and reuse) phase. This is also how templates can be created. For example, a generic event invitation message like below can be created where all of the event related dynamic text do not have an event selected. 
+
+> [!div class="mx-imgBorder"]
+> ![enter personalization details](media/real-time-marketing-enter-personalization-details.png "enter personalization details")
+
+The event selection step can then be completed when the message created from this template is ready to be used in a journey.  If one tries to make the message “Ready to send” without completing this step, validation will give an error message. Even without running the validation step, one can see what needs to be done in the personalization tab
+
+> [!div class="mx-imgBorder"]
+> ![select a record to personalize](media/real-time-marketing-select-a-record-to-personalize.png "select a record to personalize")
+
+#### Limitations
+
+1.	The list of tables is limited to commonly used pre-defined tables and cannot be changed.
+2.	The additional tables are not available to define conditions for [Conditional content](https://docs.microsoft.com/en-us/dynamics365/marketing/conditional-content) or [Journey conditions](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-tile-reference?source=recommendations#attribute-branch)
+
 > [!TIP]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.
 
