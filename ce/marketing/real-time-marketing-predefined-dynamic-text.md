@@ -162,7 +162,7 @@ The event selection step can then be completed when the message created from thi
 #### Limitations
 
 1.	The list of tables is limited to commonly used pre-defined tables and can't be changed.
-2.	The additional tables are not available to define conditions for [Conditional content](https://docs.microsoft.com/en-us/dynamics365/marketing/conditional-content) or [Journey conditions](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-tile-reference?source=recommendations#attribute-branch)
+2.	The additional tables are not available to define conditions for [Conditional content](/docs.microsoft.com/dynamics365/marketing/conditional-content) or [Journey conditions](/learn.microsoft.com/dynamics365/marketing/real-time-marketing-tile-reference?source=recommendations#attribute-branch)
 
 > [!TIP]
 > Removing dynamic text only removes it from the pre-defined list, it does not remove it from the messages that are already using it.
