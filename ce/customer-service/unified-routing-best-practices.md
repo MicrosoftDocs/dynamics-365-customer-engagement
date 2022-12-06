@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: conceptual
-ms.date: 11/22/2022
+ms.date: 12/09/2022
 ms.custom: bap-template
 ---
 
