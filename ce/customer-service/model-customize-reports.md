@@ -59,8 +59,10 @@ Before you begin with the customization, you must have the following prerequisit
 - A Power BI Professional or Power BI Premium license for all supervisors and administrators.
 
 - As a system administrator, you must create a security group in Microsoft Azure Active Directory (Azure AD) and add **Dynamics 365 Analytics** or **Dynamics CCA Data Analytics** as a member of the security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
-   
-- As a Power BI administrator, enable the **Service Principal** in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+
+- As a Power BI administrator, you must add the security group created in Azure AD, after enabling the following in the Power BI admin portal:
+  - **Service Principal** in the **Developer settings**.
+  - **Create workspaces** in the **Tenant settings**.
    
     a. Sign in to [Power BI service](https://app.powerbi.com), and then go to **Settings** > **Admin portal**.
 
