@@ -82,7 +82,6 @@ Before you begin with the customization, you must have the following prerequisit
       
    g. Select **Apply**.
     
-
 ## Enable the option to extend the out-of-the-box Power BI data model
 
  1. In the Customer Service admin center site map, select **Insights** in **Operations**.
