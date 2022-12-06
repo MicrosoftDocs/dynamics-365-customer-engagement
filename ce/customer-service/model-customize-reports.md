@@ -146,15 +146,18 @@ After the report is provisioned, perform the following steps to grant authoring 
         1. On the Power BI desktop, select **Get Data**.
         1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI datasets**.
         1. Select **Connect**.
+        
         :::image type="content" source="media/model-powerdataset.png" alt-text="Select Power BI dataset":::
         1. On the **Data hub** dialog, select the report you want to embed to Customer Service, and then select **Connect**.
         :::image type="content" source="media/model-data-hub-dialog.png" alt-text="Select your report on the Data hub dialog":::
         1. On the **Connect to your data** dialog, select the database or the specific tables that you want to connect to.
         1. Select **Submit**.
+        
         :::image type="content" source="media/model-select-dataset.png" alt-text="Select your tables that you want to connect to.":::
         
         1. After the database or tables that you have selected in the previous step are added to your data model, save the changes you made to your file.
-        1. On the **Publish to Power BI** dialog, select the workspace that you specified in Step 1, and then select **Select**.
+        1. On the **Publish to Power BI** dialog, select the workspace that you specified in [Select a Power BI workspace for historical analytics](#select-a-power-bi-workspace-for-historical-analytics), and then select **Select**.
+        
          :::image type="content" source="media/model-select-workspace-created-in-step-two.png" alt-text="Select the destination which you specified in Step 2":::
            Your reports will be published to Power BI.
         
