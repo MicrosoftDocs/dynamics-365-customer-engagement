@@ -511,16 +511,18 @@ The issue might happen due to the following reasons:
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
 - When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL.
+- Channels are not activated in the agent experience profile.
 
 ### Resolution
 
 Perform the following:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
-- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md). 
-- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md).
-- Ensure the agent account has values set for **Capacity** and **Default presence**. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
+- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Ensure the agent account has the **Omnichannel Agent** role assigned. More information: [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md)
+- Ensure the agent account has values set for **Capacity** and **Default presence**. More information: [Create and manage users and user profiles](users-user-profiles.md)
 - Make sure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 points to the correct URL.  
+- Make sure that you turn on all active channels in the agent experience profile.
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization
@@ -608,7 +610,7 @@ The issue occurs when you rename the org URL but don’t update the channel URL 
 2. On the left pane, select **Apps**, and then from the applications list, select **Omnichannel for Customer Service**. 
 3. Select the ellipsis (...) button, scroll down the list, and select **App profile manager**.
 
-4. Select the administrator app (either Customer Service workspace or Omnichannel Administration), and then select **Channel provider**.
+4. Select the administrator app (either Customer Service workspace or Customer Service admin center), and then select **Channel provider**.
    The Active Channel Providers list is displayed.
 
 5. Do the following:

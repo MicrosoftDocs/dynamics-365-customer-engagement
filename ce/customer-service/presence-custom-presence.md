@@ -16,7 +16,7 @@ ms.custom: intro-internal
 
 The presence status indicates an agent's availability. A presence status consists of two elements:
 
-- **Base status**: The base presence status that indicates an agent's status. The work distribution system distributes work items to agents according to the base statuses that you select as allowed presences at the time of creating a work stream. The base statuses are as follows:
+- **Base status**: The base presence status that indicates an agent's status. The work distribution system distributes work items to agents according to the base statuses that you select as allowed presences at the time of creating a workstream. The base statuses are as follows:
   - Available
   - Busy
   - Busy-DND
@@ -86,5 +86,6 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 [Understand and create workstreams](create-workstreams.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Presence API](channel-integration-framework/v2/reference/microsoft-ciframework-v2.md#presence-apis)  
+[User presence not loading](troubleshoot-omnichannel-customer-service#troubleshoot-presence)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
