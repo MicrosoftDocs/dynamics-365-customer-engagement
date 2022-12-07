@@ -1,5 +1,5 @@
 ---
-title: "Create and manage product families, products, bundles, and product properties (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create and manage product families, products, bundles, and product properties"
 description: "Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family."
 ms.custom: 
 ms.date: 10/31/2017
@@ -318,7 +318,7 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
 ```  
   
 ## Next step  
- Publish your product records to make products available for selling by your sales agents. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
+ Publish your product records to make products available for selling by your sales agents. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
   
 ### See also  
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
@@ -327,5 +327,3 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
  [Sample: Add products to a bundle](sample-add-products-bundle.md)   
  [Product catalog entities](product-catalog-entities.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

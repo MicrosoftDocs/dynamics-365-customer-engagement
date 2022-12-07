@@ -1,10 +1,9 @@
 ---
-title: "Campaign entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Campaign entities"
 description: "Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: peheckenabuthuk
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -65,5 +64,3 @@ A *campaign* in Dynamics 365 Customer Engagement (on-premises) is designed to ac
  [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)   
  [List (Marketing List) Entity](list-marketing-list-entity.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

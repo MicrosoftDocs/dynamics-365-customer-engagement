@@ -1,5 +1,5 @@
 ---
-title: "Competitor entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Competitor entity"
 description: "Learn about competitor entity that enables record to have details, such as company profile, SWOT analysis, presentations, materials of the competitor. Using this entity you can do complete analysis of the competitor company."
 ms.custom: 
 ms.date: 10/31/2017
@@ -46,5 +46,3 @@ A *competitor* is another company that offers competing products and services. E
  [Opportunity Entities](opportunity-entities.md)   
  [Lead Entity](lead-entity.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

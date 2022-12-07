@@ -109,5 +109,3 @@ In preparation for goal management, you should specify a metric for a goal (amou
  [Goal Management Entities](goal-management-entities.md)   
  [Define Goal Metric and Rollup Fields](define-goal-metric-rollup-fields.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
