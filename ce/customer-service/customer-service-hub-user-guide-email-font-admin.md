@@ -93,7 +93,7 @@ Enabling the user configured settings to an email form consists of the following
    The settings will now apply to the form when you create an email.
 
 >[!Note]
->If you experience issues with inline images not rendering properly and you're using a workflow to populate email content in RTE fields that aren't in Timeline, you must use the msdyn_EmailRTEconfig_reference.js plugin.
+>If you're using a workflow to populate email content in RTE fields that aren't in Timeline and you experience issues with inline images not rendering properly, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
 ### Add the language filter in the email template selection view
 
@@ -102,7 +102,7 @@ Perform the following steps to enable the language filter for the [enhanced emai
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Customizations** > **Customize the System**.
 1. In **Solution: Default Solution**, expand **Entities**.
-1. Select and expand **Email Template** and then select **Forms**.
+1. Expand **Email Template** and then select **Forms**.
 1. On the **Active Forms**, select **Template gallery filter form**.
 1. Drag and drop **Language**  from the available fields to the form. 
    > [!NOTE]
