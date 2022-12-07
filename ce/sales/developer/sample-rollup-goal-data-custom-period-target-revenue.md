@@ -1,5 +1,5 @@
 ---
-title: "Sample: Rollup goal data for a custom period against the target revenue (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Sample: Rollup goal data for a custom period against the target revenue"
 description: "This sample shows how to roll up goal data for a custom period against the target revenue"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - goal management entities samples, rolling up goal data in a custom period against revenue targets
   - sample for rolling up goal data in a custom period against revenue targets
@@ -42,11 +42,10 @@ This sample requires additional three users that are not in your system. Create 
 **Security Role**: SalesManager<br/>
 **UserName**: kcook@yourorg.onmicrosoft.com<br/>
 
-[!include[cc-sample-note](includes/cc-sample-note.md)]
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 
@@ -83,4 +82,4 @@ Display an option to delete the sample data created in [Setup](#setup). The dele
 
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

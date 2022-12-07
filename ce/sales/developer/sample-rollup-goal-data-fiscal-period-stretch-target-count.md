@@ -1,5 +1,5 @@
 ---
-title: "Sample: Rollup goal data for a fiscal period against the stretch target count (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Rollup goal data for a fiscal period against the stretch target count"
 description: "This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls"
 ms.custom: 
 ms.date: 01/02/2020
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - goal management entities samples, rolling up goal data in a fiscal period against stretch targets
   - sample for rolling up goal data in a fiscal period against stretch targets
@@ -41,11 +41,9 @@ This sample requires additional users that are not in your system. Create the th
 **Security Role**: SalesManager<br/>
 **UserName**: kcook@yourorg.onmicrosoft.com<br/>
 
-[!include[cc-sample-note](includes/cc-sample-note.md)]
-
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 
@@ -79,4 +77,4 @@ Display an option to delete the sample data created in [Setup](#setup). The dele
 
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Distribute campaign activities to dynamic and static lists (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Distribute campaign activities to dynamic and static lists"
 description: "The sample code demonstrates how to create a dynamic marketing list, copy it to the static marketing list, and distribute campaign activities to the members of the marketing lists."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - sample for distributing campaigns to dynamic and static marketing lists
   - distributing campaigns to dynamic and static marketing lists, marketing entities sample
@@ -25,11 +25,9 @@ search.audienceType:
 
 This sample shows how to create a dynamic marketing list, copy it to the static marketing list, and distribute campaign activities to the members of the marketing lists. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/marketing/DistributeCampaignActivitiesToLists).
 
-[!include[cc-sample-note](includes/cc-sample-note.md)]
-
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]
 
 ## How this sample works
 
@@ -67,4 +65,4 @@ Display an option to delete the records created in the [Setup](#setup). The dele
  <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest>
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

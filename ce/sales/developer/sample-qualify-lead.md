@@ -1,5 +1,5 @@
 ---
-title: "Sample: Qualify a lead (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Qualify a lead"
 description: "The sample demonstrates how to qualify a lead and create an account, contact, or opportunity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - sample for qualifying leads
   - qualifying leads, sample
@@ -25,13 +25,13 @@ search.audienceType:
 ---
 # Sample: Qualify a lead
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
+This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
 
 ## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
    
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
  This sample shows how to qualify a lead and create an account, contact, or opportunity based on the lead.  
@@ -45,4 +45,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Lead Entity](lead-entity.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

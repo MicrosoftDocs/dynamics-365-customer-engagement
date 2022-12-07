@@ -1,5 +1,5 @@
 ---
-title: "Sample: Process quotes, sales orders and invoices (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Process quotes, sales orders and invoices"
 description: "The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice."
 ms.custom: 
 ms.date: 01/02/2020
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - sales entities sample, converting opportunities to sales orders
   - quote; order; and invoice entities sample, locking and unlocking sales orders and invoice prices
@@ -24,13 +24,13 @@ search.audienceType:
 ---
 # Sample: Process quotes, sales orders and invoices
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ProcessQuotesSalesOrdersInvoices).   
+This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ProcessQuotesSalesOrdersInvoices).   
 
 ## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
    
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
  This sample shows how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice. It also shows how to lock and unlock the sales order and the invoice prices.  
@@ -48,4 +48,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  <xref:Microsoft.Crm.Sdk.Messages.LockSalesOrderPricingRequest>
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

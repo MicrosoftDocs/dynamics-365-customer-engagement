@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - campaign entities, introduction
   - comparing campaigns and quick campaigns
@@ -64,3 +64,4 @@ A *campaign* in Dynamics 365 Customer Engagement (on-premises) is designed to ac
  [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)   
  [List (Marketing List) Entity](list-marketing-list-entity.md)
 
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

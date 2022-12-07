@@ -1,5 +1,5 @@
 ---
-title: "Roll up goal totals (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Roll up goal totals"
 description: "RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - goal management entities, rolling up goal totals
   - overriding values for rollup goal totals
@@ -62,4 +62,4 @@ To roll up data in the goal hierarchy, use the <xref:Microsoft.Crm.Sdk.Messages.
  [Goal Entity](entities/goal.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

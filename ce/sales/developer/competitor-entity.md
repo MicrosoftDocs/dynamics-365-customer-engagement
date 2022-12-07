@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - competitor entity, maintaining competitor records
   - tracking competitors, competitor entity
@@ -34,7 +34,7 @@ search.audienceType:
 ---
 # Competitor entity
 
-A *competitor* is another company that offers competing products and services. Each competitor record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can contain detailed information about the competitor that includes a company profile, a SWOT analysis (Strengths, Weaknesses, Opportunities, and Threats), and any relevant sales materials and presentations. In addition, competitor articles can contain links to relevant information in the marketing encyclopedia.  
+A *competitor* is another company that offers competing products and services. Each competitor record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] can contain detailed information about the competitor that includes a company profile, a SWOT analysis (Strengths, Weaknesses, Opportunities, and Threats), and any relevant sales materials and presentations. In addition, competitor articles can contain links to relevant information in the marketing encyclopedia.  
   
  With competitor tracking, you can find competitors and analyze their sales strategies, their products, and what contracts they win. This functionality includes adding and maintaining competitor records, and storing competitor documents. Competitor tracking lets you disperse competition information to everyone who deals with an opportunity so that they can compete in the most effective way possible to close the sale and maintain the relationship. Competitor tracking helps you compare your business unit to the competition, including opportunities lost to and won against competitors.  
   
@@ -46,3 +46,4 @@ A *competitor* is another company that offers competing products and services. E
  [Opportunity Entities](opportunity-entities.md)   
  [Lead Entity](lead-entity.md)
 
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

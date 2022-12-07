@@ -1,5 +1,5 @@
 ---
-title: "Create an opportunity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create an opportunity"
 description: "Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - tax; freight; and totals, opportunity entities
   - closing opportunities, opportunity entities
@@ -54,7 +54,7 @@ You can create an opportunity from a qualified lead or you can create a new oppo
   
 <a name="bkmk_PreparingDataforanOpportunity"></a>   
 ## Prepare Data for an Opportunity  
- Before you create an opportunity, ensure that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] contains necessary data:  
+ Before you create an opportunity, ensure that [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] contains necessary data:  
   
 - Create accounts, contacts, and leads before you create an opportunity. You can create an opportunity for an existing account or contact, or convert a qualified lead into an opportunity.  
   
@@ -110,7 +110,7 @@ You can create an opportunity from a qualified lead or you can create a new oppo
   
 <a name="bkmk_CloseAnOpportunity"></a>   
 ## Close an Opportunity  
- If a customer decides to purchase products or services from your company, you can close an opportunity as a won opportunity. The opportunity states are specified in the `Opportunity.StateCode` attribute. If you are using early bound types, you can use the `OpportunityState` enumeration. For a list of the state values, see the picklist values for this entity. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+ If a customer decides to purchase products or services from your company, you can close an opportunity as a won opportunity. The opportunity states are specified in the `Opportunity.StateCode` attribute. If you are using early bound types, you can use the `OpportunityState` enumeration. For a list of the state values, see the picklist values for this entity. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
   
  When you close an opportunity, an activity is created automatically by creating a record of the entity type opportunity close. The states of the opportunity close activity are specified in the `OpportunityClose.StateCode` attribute. If you are using early bound types, you can use the `OpportunityCloseState` enumeration. For a list of the state values, see the picklist values for this entity.  
   
@@ -125,4 +125,4 @@ You can create an opportunity from a qualified lead or you can create a new oppo
  [Create Early-Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](org-service/create-early-bound-entity-classes-code-generation-tool.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

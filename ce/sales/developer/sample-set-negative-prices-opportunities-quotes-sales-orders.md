@@ -1,5 +1,5 @@
 ---
-title: "Sample: Set negative prices in opportunities, quotes, and sales orders sample-convert-opportunity-quote-early-bound.md (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Set negative prices in opportunities, quotes, and sales orders"
 description: "The sample demonstrates how to set negative prices in opportunities, quotes, and sales orders."
 ms.custom: 
 ms.date: 01/02/2020
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - sample for setting negative prices in opportunities; quotes; and sales orders
   - setting negative prices in opportunities; quotes; and sales orders, quote entities sample
@@ -23,13 +23,13 @@ search.audienceType:
 ---
 # Sample: Set negative prices in opportunities, quotes, and sales orders
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/SetNegativePricesOpportunitiesQuotesSales).
+This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/SetNegativePricesOpportunitiesQuotesSales).
 
 ## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
    
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
  This sample shows how to set negative prices in opportunities, quotes, and sales orders.  
@@ -45,4 +45,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

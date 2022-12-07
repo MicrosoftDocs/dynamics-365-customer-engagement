@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - Sample for overriding total counts and closing goals
   - goal management entities samples, overriding total counts and closing goals
@@ -31,11 +31,9 @@ This sample requires additional users that are not in your system. Create the re
 **Security Role**: Marketing Manager<br/>
 **UserName**: ssmith@yourorg.onmicrosoft.com<br/>
 
-[!include[cc-sample-note](includes/cc-sample-note.md)]
-
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 
@@ -70,5 +68,5 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

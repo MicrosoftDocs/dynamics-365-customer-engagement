@@ -19,11 +19,9 @@ search.audienceType:
 
 This sample shows how to add products to a bundle. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/AddProductsBundle).
 
-[!include[cc-sample-note.md](includes/cc-sample-note.md)]
-
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]
 ## What this sample does
 
 This sample shows how to add products to a bundle.
@@ -56,4 +54,4 @@ Displays an option to delete all the data created in the sample. The deletion is
  [Product catalog entities](product-catalog-entities.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - adding complex goal criteria
   - goal management entities, preventing double counting and other rollup query errors
@@ -75,3 +75,5 @@ If you want to add complex rollup criteria for a goal, you can use a rollup quer
  [Goal Management Entities](goal-management-entities.md)   
  [Sample: Use Rollup Queries to Track Goals](sample-use-rollup-queries-track-goals.md)   
  [Roll Up Goal Totals](roll-up-goal-totals.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: "Localize product property values (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Localize product property values"
 description: "Add, update, retrieve, query, and translate the localized values for product name attributes."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 ms.assetid: 1635a343-2896-4cdb-a6fb-3c5113a32470
 caps.latest.revision: 15
 author: JimDaly
@@ -55,11 +55,11 @@ Product names may be localized for different regions. With Dynamics 365 Customer
   
 <a name="BKMK_Translating"></a>   
 ## Translate localizable attributes  
- The process of localizing localizable attributes programmatically is similar to the process used to translate localized solution labels. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Translate customized entity and attribute text](customize-labels-support-multiple-languages.md#BKMK_TranslatingCustomizedEntityAndAttributeText)  
+ The process of localizing localizable attributes programmatically is similar to the process used to translate localized solution labels. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Translate customized entity and attribute text](customize-labels-support-multiple-languages.md#BKMK_TranslatingCustomizedEntityAndAttributeText)  
   
  Unlike translating metadata values, the user exporting and importing localized attributes values does not have to have the system administrator security role. The sales manager security role has the privileges necessary to translate localizable attributes. The person translating localized property values can only export those records they have access to view and update those records they have privileges to update.  
   
- To translate localizable attributes programmatically you must first export the current localized label definitions using <xref:Microsoft.Crm.Sdk.Messages.ExportFieldTranslationRequest>. The <xref:Microsoft.Crm.Sdk.Messages.ExportFieldTranslationResponse>.`ExportTranslationFile` property contains a `byte[]` for a compressed crmFieldTranslations.zip file containing a  [Content_types].xml file and a crmFieldTranslations.xml file that can be opened using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. The **Localized Labels** worksheet contains a column with an LCID value for each provisioned language for the organization. The column with the base language values will be populated and the columns for each provisioned language will contain any previously localized values. This file can be edited by a translator to provide localized labels for the localizable properties.  
+ To translate localizable attributes programmatically you must first export the current localized label definitions using <xref:Microsoft.Crm.Sdk.Messages.ExportFieldTranslationRequest>. The <xref:Microsoft.Crm.Sdk.Messages.ExportFieldTranslationResponse>.`ExportTranslationFile` property contains a `byte[]` for a compressed crmFieldTranslations.zip file containing a  [Content_types].xml file and a crmFieldTranslations.xml file that can be opened using [!INCLUDE[pn_MS_Excel_Full](../../includes/pn-ms-excel-full.md)]. The **Localized Labels** worksheet contains a column with an LCID value for each provisioned language for the organization. The column with the base language values will be populated and the columns for each provisioned language will contain any previously localized values. This file can be edited by a translator to provide localized labels for the localizable properties.  
   
 > [!TIP]
 >  If you want to perform a bulk update of just the base language names, you can also edit the base language values.  
@@ -102,7 +102,7 @@ Product names may be localized for different regions. With Dynamics 365 Customer
 |                                      **Warning**: An invalid Object Id was found in worksheet {0}, Line {1}, Column B.                                      |                                           There is no matching record in the organization for item in this row.<br /><br /> Processing of other rows will continue.                                            |
 |                                                       **Error**: No rows were found in worksheet {0}.                                                       |                                                                                       The worksheet to import is empty.                                                                                        |
 |                             **Error**: The Organization ID present in worksheet {0} does not match the current Organization ID.                             |                                                              You can only import translations into the same organization they were exported from.                                                              |
-|                              **Warning**: An invalid language code was found in worksheet {0}, Column {1}. &#124; Details: {2}                              | The LCID in the column isn’t a valid integer or the Language pack for the language is not installed.<br /><br /> The translations in the column are ignored.<br /><br /> [!INCLUDE[LCID](../includes/lcid.md)] |
+|                              **Warning**: An invalid language code was found in worksheet {0}, Column {1}. &#124; Details: {2}                              | The LCID in the column isn’t a valid integer or the Language pack for the language is not installed.<br /><br /> The translations in the column are ignored.<br /><br /> [!INCLUDE[LCID](../../includes/lcid.md)] |
 |                                        **Error**: A duplicate language code was found in worksheet {0}, Column {1}.                                         |                                                                                Each column must have a different language code.                                                                                |
 | **Error**: The translation file is invalid. The compressed file must contain the following files at its root: CrmFieldTranslations.xml, [Content_Types].xml |                                                          The compressed (zip) file to be imported must contain only the files described in the error.                                                          |
 |                                   **Error**: The translations file is invalid or doesn’t conform to the required schema.                                    |  The CrmFieldTranslations.xml file included in the compressed (zip) file must be a file that was exported from the system and only edited to provide localized values. Other changes may invalidate the file.  |
@@ -117,4 +117,4 @@ Product names may be localized for different regions. With Dynamics 365 Customer
  [Translate product names and properties into multiple languages](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826708(v=crm.8))
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

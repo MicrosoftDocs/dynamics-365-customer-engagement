@@ -1,5 +1,5 @@
 ---
-title: "Convert an opportunity to a quote, sales order or invoice (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Convert an opportunity to a quote, sales order or invoice"
 description: "Learn about converting an opportunity to a quote, sales order, or invoice."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - converting an opportunity to a quote; sales order; or invoice, messages to use
   - opportunity entities, converting an opportunity to a quote; sales order; or invoice
@@ -51,3 +51,4 @@ Opportunities, quotes, sales orders, and invoices are all part of the sales proc
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Opportunity Entity](entities/opportunity.md)
 
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

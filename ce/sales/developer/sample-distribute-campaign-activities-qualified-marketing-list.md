@@ -1,5 +1,5 @@
 ---
-title: "Sample: Distribute campaign activities to qualified marketing list (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Distribute campaign activities to qualified marketing list"
 description: "The sample code demonstrates how to distribute campaign activities to the qualified members of a marketing list."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - distributing campaign activities to marketing list members, marketing entities sample
   - sample for distributing campaign activities to marketing list members
@@ -25,11 +25,9 @@ search.audienceType:
 
 This sample shows how to distribute campaign activities to the qualified members of a marketing list. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/marketing/DistributeCampaignActivitiesToMarketList).
 
-[!include[cc-sample-note](includes/cc-sample-note.md)]
-
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]
 
 ## How this sample works
 
@@ -63,4 +61,4 @@ Display an option to delete the records created in the [Setup](#setup). The dele
  <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest>
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: "Product pricing methods (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Product pricing methods"
 description: "Use the ProductPriceLevel.PricingMethodCode attribute to determine product prices."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - setting prices
   - pricing methods, formulas for
@@ -36,13 +36,13 @@ Dynamics 365 Customer Engagement (on-premises) uses the `ProductPriceLevel.Prici
   
 - What attributes are required when you create or update a product price level and its associated product.  
   
-  You can also use custom pricing for products instead of using the Dynamics 365 system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use custom pricing for products](use-custom-pricing-products.md)  
+  You can also use custom pricing for products instead of using the Dynamics 365 system pricing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use custom pricing for products](use-custom-pricing-products.md)  
   
   The following table lists the formulas that are used for each value and the attributes that are required by each value.  
   
 |    Drop-down list value and equivalent pricing method value     |                                                                                                                                                                                                                                                                                                                                                                              Description and required attributes                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          **Currency Amount** <br />CurrencyAmount = 1           |                                                                                                                  The price is specified for each unit of measure for each product. <br />price = amount<br /><br /> For each unit of measure for each product, use the `ProductPriceLevel.Amount` attribute. **Note:**  The `ProductPriceLevel.Amount` attribute isn’t platform required if you’re not using the pricing methods provided by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. However, if you use the `Currency Amount` pricing method to determine a price, this attribute is platform required and you must specify a value for this attribute.                                                                                                                  |
+|          **Currency Amount** <br />CurrencyAmount = 1           |                                                                                                                  The price is specified for each unit of measure for each product. <br />price = amount<br /><br /> For each unit of measure for each product, use the `ProductPriceLevel.Amount` attribute. **Note:**  The `ProductPriceLevel.Amount` attribute isn’t platform required if you’re not using the pricing methods provided by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. However, if you use the `Currency Amount` pricing method to determine a price, this attribute is platform required and you must specify a value for this attribute.                                                                                                                  |
 |         **Percent of List** <br />PercentListPrice = 2          |                                                                                                                   The price is calculated based on the manufacturer's or distributor's list price. <br />calculated price = list price x percentage<br /><br /> For each unit of measure for each product, you must enter data for the following attributes:<br /><br /> -   `Product.Price` attribute. This is the **List Price** in the **Product** form.<br />-   `ProductPriceLevel.Percentage` attribute. This is the desired percentage of the list price.<br />-   `ProductPriceLevel.RoundingPolicyCode` attribute. This is the policy for rounding the price list.                                                                                                                    |
 |  **Percent Markup - Current Cost** <br />MarkupCurrentCost = 3  |                                                                                                                                     The price is calculated as a percentage of your current cost for the item. <br />calculated price = current cost x 100% + percentage<br /><br /> For each unit of measure for each product, you must enter data for the following attributes:<br /><br /> -   `Product.CurrentCost` attribute. You must update this cost every time that you receive a shipment of the item.<br />-   `ProductPriceLevel.Percentage` attribute. This is the percent markup.<br />-   `ProductPriceLevel.RoundingPolicyCode` attribute.                                                                                                                                     |
 |  **Percent Margin - Current Cost** <br />MarginCurrentCost =4   |                                                                                            The price is based on the profit percentage you want to achieve and your current cost for the item. <br />calculated price = current cost + [(current cost x percentage)/ (100% - percentage)]<br /><br /> For each unit of measure for each product, you must enter data for the following attributes:<br /><br /> -   `Product.StandardCost` attribute. You must update this cost every time when you receive a shipment of the item.<br />-   `ProductPriceLevel.Percentage` attribute. This is the profit percentage you want to achieve.<br />-   `ProductPriceLevel.RoundingPolicyCode` attribute.                                                                                            |
@@ -57,4 +57,4 @@ Dynamics 365 Customer Engagement (on-premises) uses the `ProductPriceLevel.Prici
  [Product Catalog Entities](product-catalog-entities.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

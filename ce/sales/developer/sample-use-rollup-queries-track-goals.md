@@ -1,5 +1,5 @@
 ---
-title: "Sample: Use rollup queries to track goals (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Sample: Use rollup queries to track goals"
 description: "This sample demonstrates how to use rollup queries to track goals"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: sample
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 helpviewer_keywords: 
   - sample for using rollup queries to track goals
   - goal management entities samples, using rollup queries to track goals
@@ -42,11 +42,9 @@ This sample requires additional three users that are not in your system. Create 
 **Security Role**: SalesManager<br/>
 **UserName**: kcook@yourorg.onmicrosoft.com<br/>
 
-[!include[cc-sample-note](includes/cc-sample-note.md)]
-
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 
@@ -82,4 +80,4 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
