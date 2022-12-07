@@ -22,12 +22,12 @@ ms.custom:
 
 ### See also
 
-[addHandler method](../microsoft-ciframework/addHandler.md)
-[onClickToAct](../events/onclicktoact.md)  
-[onModeChanged](../events/onmodechanged.md)  
-[onSizeChanged](../events/onsizechanged.md)  
-[onPageNavigate](../events/onpagenavigate.md)  
-[onSendKBArticle](../events/onsendkbarticle.md)  
+[addHandler method](../microsoft-ciframework/addHandler.md)  
+[onclicktoact](../events/onclicktoact.md)  
+[onmodechanged](../events/onmodechanged.md)  
+[onsizechanged](../events/onsizechanged.md)  
+[onpagenavigate](../events/onpagenavigate.md)  
+[onsendkbarticle](../events/onsendkbarticle.md)  
 [onSessionClosed](../events/onsessionclosed.md)  
 [onSessionSwitched](../events/onsessionswitched.md)  
 
