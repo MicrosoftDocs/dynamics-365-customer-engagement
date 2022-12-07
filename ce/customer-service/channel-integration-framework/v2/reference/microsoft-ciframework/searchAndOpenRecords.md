@@ -122,7 +122,7 @@ then(
 This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, "   b44d31ac-5fd1-e811-8158-000d3af97055", 0).
 then(     
     function success(result) {     
     res=JSON.parse(result);         
