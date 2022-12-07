@@ -306,6 +306,8 @@
           href: create-rules-automatically-route-cases.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+      - name: Best practices to set up unified routing
+        href: unified-routing-best-practices.md  
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
