@@ -121,7 +121,6 @@ To create a default session, see [Start a home (default) session when your organ
 You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-single-channel-provider)
 
 
-
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that the updated data is available for the agent at all times.
