@@ -23,13 +23,13 @@ ms.custom:
 ### See also
 
 [addHandler method](../microsoft-ciframework/addHandler.md)  
-[onclicktoact](../events/onclicktoact.md)  
-[onmodechanged](../events/onmodechanged.md)  
-[onsizechanged](../events/onsizechanged.md)  
-[onpagenavigate](../events/onpagenavigate.md)  
-[onsendkbarticle](../events/onsendkbarticle.md)  
-[onSessionClosed](../events/onsessionclosed.md)  
-[onSessionSwitched](../events/onsessionswitched.md)  
-[onPresenceChange](../events/onpresencechange.md)  
+[onclicktoact event](../events/onclicktoact.md)  
+[onmodechanged event](../events/onmodechanged.md)  
+[onsizechanged event](../events/onsizechanged.md)  
+[onpagenavigate event](../events/onpagenavigate.md)  
+[onsendkbarticle event](../events/onsendkbarticle.md)  
+[onSessionClosed event](../events/onsessionclosed.md)  
+[onSessionSwitched event](../events/onsessionswitched.md)  
+[onPresenceChange event](../events/onpresencechange.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
