@@ -24,39 +24,17 @@ search.app:
 >
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
+> [!NOTE]
+> **Public preview known limitations**
+> The real-time marketing form editor relies on a new Consent model. It might take up to 48 hours for consent data migration to be completed after your organization is upgraded to the latest version. Otherwise the consent contact point won’t be created after the form is submitted. [Learn more](whats-new-marketing#december-2022-update).
+>
+> All phone number and email fields must be marked as required and phone number field validation must be enabled in the form editor.
+
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.
 
 Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of entity in Dynamics 365 Marketing.
 
 The real-time marketing form editor allows you to easily and quickly create and publish forms.
-
-## Comparison of real-time and outbound marketing forms
-
-- The main difference is that real-time marketing form can update only one entity (typically lead or contact). Targeting single entity makes the form configuration and maintenance easier and it allows to build properly targeted journeys.
-
-- There's no need to create Marketing fields for real-time marketing forms. All entity attributes are already available as fields to be used in form.
-
-- Real-time marketing form cannot be used in outbound marketing pages. But you can publish a form as a standalone page, which will be hosted on Power Portals.
-
-- It's no longer required to create form page to embed your form into a web page. You can get the form embedding code snippet on one click.
-
-- Published real-time marketing forms are hosted on Content Delivery Network (CDN), which significantly reduces the form load time for the page visitor.
-
-- Real-time marketing journey orchestration: Use "Marketing Form Submitted" trigger for journeys based on real-time marketing forms. The trigger for outbound marketing forms has been renamed to "Marketing Form Submitted (Outbound)".
-
-- It's not possible to edit outbound marketing forms in the real-time marketing form editor and vice versa.
-
-### Form types comparison
-
-The following table summarizes types of forms currently available in real-time marketing. More form types will be available soon.
-
-| form type in outbound marketing | form type in real-time marketing |  
-|---|---|
-| Landing page form  | Marketing form  |
-| Subscription center form | Preference center (will be available as part fo Consent configuration) |
-| Event registration form | N/A |
-| External form submission capture | N/A |
-| Refer to friend | N/A |
 
 ## Create a new form
 
@@ -167,7 +145,7 @@ Once you select a field on canvas, you'll be able to see its properties in the r
 
 - **Label** - the field caption visible to the user.
 - **Placeholder text** - the placeholder inside the field. Placeholder will automatically disappear once the user starts typing into the field.
-- **Required** - if enabled, the user cannot submit the form if this field is empty.
+- **Required** - if enabled, the user can't submit the form if this field is empty.
 - **Default value** - set the default value for this field. Placeholder won't be visible if the default value is set.
 - **Error message** - set error message that will be shown if the field validation fails.
 - **Validation** - configure a rule that will check the content of the field. If the validation rule isn't met, the user won't be able to submit the form. It's important to set the correct validation for email and phone number fields.
@@ -220,13 +198,13 @@ The field type and format are defined by the attribute meta data and it isn't po
 | Option set             | n/a           | Drop-down              | Field with a limited number of predefined values (as defined in the database). Rendered as a drop-down list for selecting a value.                                                  |
 | Two options            | n/a           | Check box              | Boolean field, which accepts a value of either true or false. Rendered as a check box, which is selected when true and clear when false.                                              |
 | Two options            | n/a           | Radio&nbsp;Buttons         | Field that accepts one of just two possible values (typically true or false). Rendered as a pair of radio buttons, with the display text for each defined in the database.           |
-| Date and time          | Date Only     | Date Picker           | Date picker, which lets users chooses a date from a pop-up calendar display. Doesn't accept a time.                                                                           |
+| Date and time          | Date Only     | Date Picker           | Date picker, which lets users choose a date from a pop-up calendar display. Doesn't accept a time.                                                                           |
 | Date and time          | Date and Time | Date-Time Picker      | Date and time picker, which lets users choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
 | Lookup field          | n/a | Lookup      | Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup). |
 
 #### Lookup
 
-Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. For example, you could use a lookup field Currency to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field isn't working, ensure that the service user has permissions setup for the entities you're using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).
+Lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. For example, you could use a lookup field Currency to show a drop-down list of all currencies in your form. After adding a lookup field, or if your lookup field isn't working, ensure that the service user has permissions set up for the entities you're using with the lookup field. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting).
 
 ### Form validation
 
@@ -264,6 +242,34 @@ Make sure that your domain is allowed for external form hosting. You don't need 
 
 This feature isn't available on trial. You need to have the Power Pages or Power App Portals license to use this feature.
 Make sure your Power Portal is correctly provisioned with Marketing app.
+
+## Comparison of real-time and outbound marketing forms
+
+- The main difference is that real-time marketing form can update only one entity (typically lead or contact). Targeting single entity makes the form configuration and maintenance easier and it allows you to build properly targeted journeys.
+
+- There's no need to create Marketing fields for real-time marketing forms. All entity attributes are already available as fields to be used in form.
+
+- Real-time marketing form can't be used in outbound marketing pages. But you can publish a form as a standalone page, which will be hosted on Power Portals.
+
+- It's no longer required to create form page to embed your form into a web page. You can get the form embedding code snippet on one click.
+
+- Published real-time marketing forms are hosted on Content Delivery Network (CDN), which significantly reduces the form load time for the page visitor.
+
+- Real-time marketing journey orchestration: Use "Marketing Form Submitted" trigger for journeys based on real-time marketing forms. The trigger for outbound marketing forms has been renamed to "Marketing Form Submitted (Outbound)".
+
+- It's not possible to edit outbound marketing forms in the real-time marketing form editor and vice versa.
+
+### Form types comparison
+
+The following table summarizes types of forms currently available in real-time marketing. More form types will be available soon.
+
+| form type in outbound marketing | form type in real-time marketing |  
+|---|---|
+| Landing page form  | Marketing form  |
+| Subscription center form | Preference center (will be available as part fo Consent configuration) |
+| Event registration form | N/A |
+| External form submission capture | N/A |
+| Refer to friend | N/A |
 
 ## Security notice
 
