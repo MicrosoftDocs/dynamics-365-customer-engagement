@@ -1,7 +1,7 @@
 ---
 title: "Manage consent for email and text messages in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -25,10 +25,10 @@ The real-time marketing consent center allows you to manage consent information 
 > Real-time marketing consent is contact-point based and works for messages sent to contacts, leads, and Customer Insights profiles. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
 > [!IMPORTANT]
-> As of Dynamics 365 Marketing Release 12.1, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing.
+> As of December 2022, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing.
 
 > [!IMPORTANT]
-> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to Allow for a Commercial email to be sent to a contact. Only the **Allow email** field must be set to Allow to send Transactional emails. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (e.g. leads or Customer Insights profiles).
+> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for a commercial email to be sent to a contact. Only the **Allow email** field must be set to allow to send transactional emails. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, leads or Customer Insights profiles).
 
 Whether consent is checked before sending emails and text messages depends on the consent model that you select on the **Compliance** page. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
 
@@ -52,7 +52,7 @@ If you want to send commercial email, the app will check whether the email addre
 
 ## How consent is respected for text messages
 
- The real-time marketing rules for sending text messages are slightly different than the ones for sending emails. A user must always opt-in to consent to receive commercial text messages irrespective of consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
+The real-time marketing rules for sending text messages are slightly different than the rules for sending emails. A user must always opt-in to consent to receive commercial text messages, irrespective of the consent enforcement model. Transactional text messages are always sent and don't have consent checked or enforced.
 
 ## Adding consent data
 
