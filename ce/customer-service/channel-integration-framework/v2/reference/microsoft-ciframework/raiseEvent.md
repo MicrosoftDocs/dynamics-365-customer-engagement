@@ -30,5 +30,6 @@ ms.custom:
 [onsendkbarticle](../events/onsendkbarticle.md)  
 [onSessionClosed](../events/onsessionclosed.md)  
 [onSessionSwitched](../events/onsessionswitched.md)  
+[onPresenceChange](../events/onpresencechange.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
