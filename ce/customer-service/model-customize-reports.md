@@ -119,11 +119,11 @@ After the report is provisioned, perform the following steps to grant read or wr
 
 1. You can create a report in one of the following ways:
 
-   1. Create a report online. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, **Step 2 of 3: Grant permissions for data set and reports**, select the **Power BI Data model** link, and then from the **Create a report** dropdown list, select **Auto-create**.
+   - Create a report online. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, **Step 2 of 3: Grant permissions for data set and reports**, select the **Power BI Data model** link, and then from the **Create a report** dropdown list, select **Auto-create**.
        
        :::image type="content" source="media/model-create-report-online.png" alt-text="Create a report online from the Power BI data model"::: 
 
-   1. Create a report using Power BI Desktop, and create a live connection to datasets in the Power BI service:
+   - Create a report using Power BI Desktop, and create a live connection to datasets in the Power BI service:
         1. On the Power BI desktop, select **Get Data**.
         1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI datasets**.
         1. Select **Connect**.
