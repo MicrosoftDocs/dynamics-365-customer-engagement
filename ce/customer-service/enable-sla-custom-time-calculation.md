@@ -28,6 +28,9 @@ In addition to warning and failure time, the elapsed time is also calculated if 
 
 To change the default time calculation and enable your own custom time calculation, you can define an API interface that has a fixed set of input and output parameters and add a custom logic to calculate the time.
 
+> [!NOTE]
+> Custom time calculation is only supported as part of plug-in and not any other entity, for example, custom workflow.
+
 ## Enable custom time calculation of SLA KPIs
 
 1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
