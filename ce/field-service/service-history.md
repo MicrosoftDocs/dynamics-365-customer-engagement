@@ -16,22 +16,6 @@ search.app:
 
 After [customer assets](configure-set-up-customer-assets.md) are created, you can track repairs, inspections, tests, IoT data, and issues to build out a service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping customers happy.
 
-## Notes on timeline
-
-The simplest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
-
-For example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile showing a list of customer assets.](./media/customer-asset-note-mobile-install.png)
-
-Beyond just text, you can also add pictures, videos, and voice recordings with notes in Field Service Mobile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset showing the timeline with a note.](./media/customer-asset-note-web-install.png)
-
-One drawback of using notes and the timeline is that it's less organized and hard to report on or create metrics for. Using the timeline is better for anecdotal notes that give field technicians context or tips.
-
 ## Work order history
 
 A standard and more organized way to build service history is to note the customer asset on work order incidents.
@@ -45,16 +29,7 @@ The most important work order incident type can be added directly from the main 
 
 You can add multiple work order incidents to a work order by going to **Related** >  **Incidents** > **+New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
 
-> [!NOTE]
-> When noting a customer asset on a work order incident, the customer asset will also be noted on all work order products, services, and service tasks that result from that work order incident.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order product showing the related customer asset.](./media/customer-asset-product-asset-relation.png)
-
-Anytime a customer asset appears on a work order incident, the work order will appear in the **Related Work Orders** section of the customer asset. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset showing the related work orders.](./media/customer-asset-related-work-orders.png)
+When you add a customer asset on a work order incident, the asset will also be noted on all work order products, services, and service tasks that result from that work order incident.
 
 Managers can then easily see a list of all work orders the customer asset is or was the subject of, and helps with reporting because you can concretely relate asset details (name, category, product) with work order details (service account, work order type, incident type).
 
@@ -79,5 +54,18 @@ You can then note a customer asset on the **Agreement Booking Incident**.
 When work orders are generated from the agreement and agreement booking setup, the incidents with their respective customer asset relationships will be added to the work orders as well.
 
 Just like work order incidents, you can add multiple agreement incidents that will all be added to the generated work orders.
+
+## Notes on timeline
+
+The simplest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
+
+For example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
+
+Beyond just text, you can also add photos, videos, and voice recordings with notes in Field Service Mobile.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer asset showing the timeline with a note.](./media/customer-asset-note-web-install.png)
+
+One drawback of using notes and the timeline is that it's less organized and hard to report on or create metrics for. Using the timeline is better for anecdotal notes that give field technicians context or tips.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
