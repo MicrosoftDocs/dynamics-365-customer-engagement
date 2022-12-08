@@ -43,8 +43,8 @@ The key capabilities of model customization include the ability to:
 This article describes how to enable the data model customization feature and set up the workspace for Microsoft to provision the out-of-the-box data model in a read-only workspace, and a workspace where the customized report can be published to render it in Customer Service workspace. The tasks that you need to perform are as follows.
 
 1. Select a Power BI workspace for historical analytics
-1. Grant permissions for dataset and reports
-1. Add customized reports in Dynamics 365
+1. Grant permissions for data set and reports
+1. Add customized reports to Customer Service
 
 ## Prerequisites
 
@@ -84,9 +84,9 @@ To create a new workspace:
 > - The report will be provisioned in your Power BI tenant and not in the Microsoft Power BI tenant. A hidden workspace will be created where the dataset will be hosted, which will connect to Power BI. The report will be provisioned in your workspace and the Power BI files will be published into this workspace.      
 > - The out-of-the-box dataset is maintained by Customer Service and is refreshed daily. We recommend that you don't make changes to this dataset, as it might lead to malfunctioning of the report.
 
-## Grant permissions for dataset and reports
+## Grant permissions for data set and reports
 
-After the report is provisioned, perform the following steps to grant authoring (read or write) permissions for Power BI users and read permissions for supervisors.
+After the report is provisioned, perform the following steps to grant read or write permissions for Power BI users and read permissions for supervisors.
 
   :::image type="content" source="media/enable-model-step2.png" alt-text="Grant permissions for data set and reports":::
 
@@ -110,7 +110,7 @@ After the report is provisioned, perform the following steps to grant authoring 
 1. Select the **Customized Power BI Report** link. The Power BI workspace where the sample reports will be provided appears. These reports are the copy of your out-of-the-box reports. You can make changes to the reports.
 
       :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
-1. Select **Access**. The Access dialog appears. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or higher.
+1. Select **Access**. The Access dialog appears. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or an equivalent role.
     
 1. After providing access, if you need to update a report, select the required report, and then select **Edit**. 
     :::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
@@ -134,9 +134,9 @@ After the report is provisioned, perform the following steps to grant authoring 
         Your reports will be published to Power BI.
         
 
-## Add customized reports in Dynamics 365
+## Add customized reports to Customer Service
 
-After you've created and published the report, go back to the Customer Service admin center and add the reports. You'll now be able to select the reports that you want to see on the Customer Service workspace site map.
+After you've created and published the report, go back to the Customer Service admin center and add the custom reports. You'll now be able to select the custom reports that you want to see on the Customer Service workspace site map.
 
 1. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, **Step 3 of 3: Add report to sitemap**, select **Add report**.
 1. On the **Add report** dialog, enter a name and select **Add**. You can add a maximum of 40 reports.
@@ -148,7 +148,7 @@ After you've created and published the report, go back to the Customer Service a
 
 ## Data model and report mapping
 
-For more information on data model and report mapping, see [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+For information on data model and report mapping, see [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 ### See also
 
 [Customize visual display of historical analytics reports in Customer Service](customize-reports.md#customize-visual-display-of-historical-analytics-reports-in-customer-service)  
