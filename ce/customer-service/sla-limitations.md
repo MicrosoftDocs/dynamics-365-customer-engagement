@@ -1,7 +1,7 @@
 ---
 title: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service."
-ms.date: 12/02/2022
+ms.date: 12/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -31,8 +31,8 @@ The following limitations apply to SLAs created in the Unified Interface apps:
     
 - Multiple SLA items can't be defined with the same **Applicable When** criteria and KPI.
 - You can’t use nested related entities with the **Under** or **Not Under** operator as part of the conditions for SLAs. So, you'll need to change the **Applicable When**, **Success**, and **Pause** conditions to add one level of related entities only with the **Under** or **Not Under** operator.
-- You can’t directly use **Under** or **Not-Under** as conditions for SLAs, so use related entities when using the **Under** or **Not Under** operator.
-- You need to avoid using the **Modified On** field in the target entity as part of **Applicable When** or **Success** conditions of SLA items or from the **Applicable From** field of SLA KPI. Changes to the **Modified On** field in the target entity might not initiate SLAs and might result in incorrect updates to SLA KPI instances.
+- You can’t directly use **Under** or **Not-Under** operator as conditions when configuring **Applicable When** or **Success** conditions for SLA items, so use related entities when using the **Under** or **Not Under** operator.
+- You need to avoid using the **Modified On** field in the target entity as part of **Applicable When** or **Success** conditions of SLA items or as the **Applicable From** field of SLA KPI instances. Changes to the **Modified On** field in the target entity might not initiate SLAs and might result in incorrect updates to SLA KPI instances.
 
 ### See also
 
