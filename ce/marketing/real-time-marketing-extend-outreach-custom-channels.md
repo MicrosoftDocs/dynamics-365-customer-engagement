@@ -16,7 +16,6 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-
 # Preview: Manually add a custom channel
 
 > [!IMPORTANT]
@@ -33,11 +32,11 @@ Custom channels can be implemented as part of a Dataverse solution. The steps an
 
 1.	Define your extended configuration entity for Channel Instance 
 2.	Define your extended configuration entity for the Channel Instance account   - SMS only
-3.	Define your Message parts ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
+3.	Define your Message parts ([solution aware component](/dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
 4.	Define your localization for the Admin UI - Optional
 5.	Define the Message editor UI - Optional
 6.	Define your Custom APIs
-7.	Define your Channel Definition ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
+7.	Define your Channel Definition ([solution aware component](/dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
 
 Marketing already provides base components for the custom channel creation: the **required entities** like msdyn_chaneldefinition, msdyn_channelmessagepart, msdyn_channelocale, msdyn_channelinstanceaccout and msdyn_channelinstance. Along with the entity metadata, it provides **Custom APIs** that should be called from your custom solution’s plugins in order to proxy the data to Dataverse.
 
@@ -60,8 +59,7 @@ The implementation requirements for channels of SMS and Custom type differ as fo
 
 #### Sample solutions  
 The samples below include unpacked solutions for Dataverse and plugins projects.
-To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](https://learn.microsoft.com/en-us/power-platform/alm/solution-packager-tool)
-
+To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool)
 
 SampleSmsChannel.zip
 
