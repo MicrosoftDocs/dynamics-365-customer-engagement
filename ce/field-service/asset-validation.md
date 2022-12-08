@@ -1,6 +1,6 @@
 # Validate customer assets on work orders
 
-You can configure the system to allow customer assets on work order that are related to accounts other than the work order service account.
+You can configure the system to allow [customer assets](configure-set-up-customer-assets.md) on work order that are related to accounts other than the work order service account.
 
 This configuration can be useful in the following scenarios:
 

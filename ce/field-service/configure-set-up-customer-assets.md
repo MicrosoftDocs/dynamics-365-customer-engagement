@@ -45,13 +45,13 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
     - **Parent Customer Asset**: Field Service supports hierarchical asset structures. For example, a part can be the child of a component, which is the child of a machine. Use this field to specify the direct parent. The **Master Asset** shows the top-level parent in the relationship automatically. After creating the asset record, you can use the **Sub Asset** grid on the form to add child assets.
 
-    - Manufacturer: <!-- Update with details from Jason Shotts -->
+    - **Manufacturer**: Choose the service account that manufactures the asset.
 
-    - Model:
+    - Model: <!-- updated with info from luis-->
 
     - **Product**: If the customer asset correlates with a [product in your product catalog](create-product-or-service.md), choose it from the lookup.
 
-    - Asset Tag:
+    - **Asset Tag**: A single-line text string that represents the asset tag.
 
 1. Select **Save**.  
 
