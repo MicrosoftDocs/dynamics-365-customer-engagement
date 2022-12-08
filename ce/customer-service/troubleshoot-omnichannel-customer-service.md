@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
-ms.date: 07/11/2022
+ms.date: 12/08/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -228,21 +228,21 @@ To configure ending a bot conversation, perform the following steps:
 
 Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
-## Unable to connect the Power Virtual Agent bot to a voice workstream
+## Power Virtual Agents agent transfers displays a banner that required variables and actions are missing
 
 ### Issue
 
-An error message  similar to the following is displayed on the PVA dashboard when you are configuring the hand-off between Power Virtual Agents bot and the Omnichannel voice workstream:
+An error message  similar to the following is displayed on the Power Virtual Agent dashboard when you are configuring the hand-off between Power Virtual Agents bot and the Omnichannel voice workstream:
 
 "Your bot doesn't have access to all the required variables and actions. Ask your admin about installing the Omnichannel package or follow this step-by-step walkthrough".
 
 ### Resolution
 
-If you haven't installed the required extensions, you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install the following extensions in the specified order for the hand-off to work:
+If you haven't installed the required extensions, you'll see a message that your bot doesn't have access to the variables or actions it needs. The following solutions provide out of the box” actions or variables in the Power Virtual Agents authoring canvas that make the authoring experience easier for the bot author:
 
-   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
-   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
-   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
+   - [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
+   - [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
+   - [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
 
 ## Chat widget icon does not load on the portal
 
