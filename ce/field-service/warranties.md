@@ -6,14 +6,6 @@ In field service context, several scenarios can involve warranties. For example,
 
 Dynamics 365 Field Service implements warranties as a separate entity.
 
-## Warranty types
-
-Field Service includes three default warranty types.
-
-- Asset warranty: Covers an individual [customer asset](configure-set-up-customer-assets.md).
-- Functional location warranty: Covers a [functional location](assets-functional-location.md), for example, an entire building or a room.
-- Account warranty: Covers an entire [service account](accounts.md).
-
 ## Create a warranty
 
 You can create warranties in the Settings area or directly from related entities. We'll look at creating a warranty from scratch in this procedure.
@@ -30,20 +22,19 @@ You can create warranties in the Settings area or directly from related entities
 
 1. Optionally, enter the **Start Date** and the **End Date** for the warranty.
 
-1. Choose the **Type** of the warranty. Depending on the warranty type, data for other fields is required.
-
-   - Asset warranty: Choose the customer asset the warranty applies to.
-   - Functional location warranty: Choose the functional location for the warranty.
-
 1. **Save** the record to apply your changes.
 
-## View warranties in context
+## Add related entities
 
-Because warranties have a relationship to service accounts, you can now find contextual information in related entities. 
+After creating a warranty record, you can add existing assets, locations, and accounts to the warranty to indicate coverage. A warranty can cover multiple assets, functional locations, or service accounts.
 
-Examples:
+1. Open an existing warranty.
 
-- *Work orders* related to a warranty holder service account.
-- *Account* records if the service account is a warranty holder or provider.
+1. Select one of more of the following options.
 
+   - In the **Covered assets** section, select **Add Existing Customer Asset**.
+   - In the **Covered locations** section, select **Add Existing Functional Location**.
+   - In the **Covered accounts** section, select **Add Existing Account**.
+
+1. **Save** the warranty record to apply your changes.
 
