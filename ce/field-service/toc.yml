@@ -124,8 +124,6 @@ items:
       href: contacts.md
     - name: Assets
       items: 
-      - name: Assets overview
-        href: assets.md
       - name: Configure customer assets
         href: configure-set-up-customer-assets.md
       - name: Asset properties
