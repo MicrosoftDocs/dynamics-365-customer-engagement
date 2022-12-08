@@ -111,6 +111,8 @@ After the report is provisioned, perform the following steps to grant read or wr
 
       :::image type="content" source="media/grant-permissions.png" alt-text="Grant permissions":::
 1. Select **Access**. The Access dialog appears. If you want to embed the report back to Dynamics 365 and share it with someone, make sure you grant the person workspace contributor role or an equivalent role.
+
+### Edit an existing report or create a new one
     
 1. After providing access, if you need to update a report, select the required report, and then select **Edit**. 
     :::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
