@@ -1,6 +1,6 @@
 ---
 title: "Preview: Define your Message parts (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to define your Define your Message parts in the real-time marketing area of Dynamics 365 Marketing."
+description: "Learn how to define your message parts in the real-time marketing area of Dynamics 365 Marketing."
 ms.date: 12/08/2022
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,7 @@ search.app:
 
 ### Why you need it:
 
-If you are creating a custom channel and you want to describe the message parts that the channel operates with (e.g., title, subtitle, text), then you must define records for the **Channel Message Part** entity. At least one message part is required per custom channel.  **At your solution’s import**, a new row for every message part will be created at the **msdyn_channelmessagepart** table.
+If you're creating a custom channel and you want to describe the message parts that the channel operates with (for example, title, subtitle, text), then you must define records for the **Channel Message Part** entity. At least one message part is required per custom channel.  **At your solution’s import**, a new row for every message part will be created at the **msdyn_channelmessagepart** table.
 
 > [!IMPORTANT]
 > Sms channel type requires exactly one message part with name “text” as it will be used by   the default Marketing SMS editor.
@@ -52,7 +52,7 @@ More types will be introduced in further releases.
 
 #### How to define it:
 
-Message parts are defined in the **customizations.xml** as solution aware components. Place every **msdyn_channelmessagepart** under **ImportExportXml** > **msdyn_channelmessageparts** elements. Please note that each message part element **msdyn_channelmessagepart** must include its own unique id in the form of GUID as XML attribute **msdyn_channelmessagepartid**. 
+Message parts are defined in the **customizations.xml** as solution aware components. Place every **msdyn_channelmessagepart** under **ImportExportXml** > **msdyn_channelmessageparts** elements. Note that each message part element **msdyn_channelmessagepart** must include its own unique id in the form of GUID as XML attribute **msdyn_channelmessagepartid**. 
 
 #### Example of customizations.xml including message parts
 
