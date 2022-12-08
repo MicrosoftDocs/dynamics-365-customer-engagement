@@ -44,7 +44,7 @@ Primary Id attribute name: **msdyn_channeldefinitionlocaleid**
 
 -   **ChannelMessagePart.%partname%.DisplayName** - override for msdyn_channelmessagepart.msdyn_displayname attribute content in UI for message part of channel with name %partname%
 
--  o **ChannelMessagePart.%partname%.Description** - override for msdyn_channelmessagepart.msdyn_description description content in UI for message part of channel with name %partname%
+-   **ChannelMessagePart.%partname%.Description** - override for msdyn_channelmessagepart.msdyn_description description content in UI for message part of channel with name %partname%
 
 ### How to define it:
 
