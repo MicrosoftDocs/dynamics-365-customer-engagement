@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 08/18/2022
+ms.date: 12/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -41,17 +41,18 @@ To change the default time calculation and enable your own custom time calculati
 
     :::image type="content" source="media/custom-time-cal-template.png" alt-text="Custom time calculation template":::
 
-1. On the template, add the required parameters.
+1. On the template, add the required parameters (if any) and select **Activate**.
 
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
-1. Write the plug-in and link it to the custom action created in step 2. For more information, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). To select the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins), later in this topic.
+1. Write the plug-in. For more information on how to write a plug-in, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). For more information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
+1. Register the plug-in that you created and link it to the custom action created in step 2. For more information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/register-plug-in).
 1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation.
 1. Edit the relevant SLA item. In the **General** section, set the **Allow Custom Time Calculation** toggle to **Yes**.
 1. From the **Custom Time Calculation API** field, select the custom action you created in step 2, and then select **Save**.
 1. Activate your SLA, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
 
-If you need to export the solution to another environment, you can first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
+1. If you need to export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
 
 ### Scenarios and plug-ins
 
