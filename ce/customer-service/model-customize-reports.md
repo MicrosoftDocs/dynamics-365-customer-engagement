@@ -117,9 +117,9 @@ After the report is provisioned, perform the following steps to grant read or wr
 1. After providing access, if you need to update a report, select the required report, and then select **Edit**. 
     :::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
 
-1. You may also create a report in one of the following ways:
+1. You can create a report in one of the following ways:
 
-   1. Create a report online. Select the Power BI data model in Step 2, and then from the **Create a report** dropdown list, select **Auto-create**.
+   1. Create a report online. In Customer Service admin center, on the **Embedded Power BI report extensibility - Historical data model customization (preview)** page, **Step 2 of 3: Grant permissions for data set and reports**, select the **Power BI Data model** link, and then from the **Create a report** dropdown list, select **Auto-create**.
        
        :::image type="content" source="media/model-create-report-online.png" alt-text="Create a report online from the Power BI data model"::: 
 
