@@ -93,6 +93,4 @@ The **Servicing** section of the account form lists details to provide services 
 
 - **Work Hour Template**: Work template to use for this account.
 
-<!--Check if we can link this or get a doc created about the impact of the work template. -->
-
 - **Work Order Instructions**: Text note that populates the **Instructions** field on all related work orders. Use this field to help technicians follow processes specific to this account.
