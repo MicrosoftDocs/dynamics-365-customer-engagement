@@ -33,7 +33,7 @@ To change the default time calculation and enable your own custom time calculati
 
 ## Enable custom time calculation of SLA KPIs
 
-1. Go to [make.powerapps.com](https://make.powerapps.com). 
+1. Go to [make.powerapps.com](https://make.powerapps.com).
 1. Go to **Advanced Settings** > **Customizations** > **Customize the system** > **Processes** > **New**.
 1. In the **Create Process** dialog, enter the following details:
     1. Enter a process name, for example, CustomPluginTime Calculation.
@@ -61,7 +61,7 @@ To change the default time calculation and enable your own custom time calculati
 
 1. If you need to export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
 
-### Scenarios and plug-ins
+## Scenarios and plug-ins
 
 Refer to the following scenarios and their plug-ins to implement a plug-in code associated with your custom action.
 
@@ -233,7 +233,7 @@ private double CalculateElapsedTime(string regardingId, string calendarId, strin
 }
 ```
 
-## FAQ
+### FAQ
 For answers to frequently asked questions about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
 ### See also
