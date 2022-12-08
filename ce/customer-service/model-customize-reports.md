@@ -114,7 +114,7 @@ After the report is provisioned, perform the following steps to grant read or wr
 
 ### Edit an existing report or create a new one
     
-1. After providing access, if you need to update a report, select the required report, and then select **Edit**. 
+1. After providing access, if you need to update a report, select the required report, and then select **Edit**.
     :::image type="content" source="media/model_update-report.png" alt-text="Update an existing report by selecting Edit option":::
 
 1. You can create a report in one of the following ways:
@@ -124,6 +124,7 @@ After the report is provisioned, perform the following steps to grant read or wr
        :::image type="content" source="media/model-create-report-online.png" alt-text="Create a report online from the Power BI data model"::: 
 
    - Create a report using Power BI Desktop, and create a live connection to datasets in the Power BI service:
+   
         1. On the Power BI desktop, select **Get Data**.
         1. On the **Get Data** dialog, select **Power Platform**, and then select **Power BI datasets**.
         1. Select **Connect**.
