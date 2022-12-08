@@ -33,7 +33,8 @@ To change the default time calculation and enable your own custom time calculati
 
 ## Enable custom time calculation of SLA KPIs
 
-1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
+1. Go to [make.powerapps.com](https://make.powerapps.com). 
+1. Go to **Advanced Settings** > **Customizations** > **Customize the system** > **Processes** > **New**.
 1. In the **Create Process** dialog, enter the following details:
     1. Enter a process name, for example, CustomPluginTime Calculation.
     1. From the **Category** dropdown list, select **Action** .
@@ -49,7 +50,10 @@ To change the default time calculation and enable your own custom time calculati
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
 1. Write the plug-in. For more information on how to write a plug-in, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). For more information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
-1. Register the plug-in that you created and link it to the custom action created in step 2. For more information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/register-plug-in).
+1. Go to the Plug-in registration tool and register the plug-in that you just created with your organization, and then link it to the custom action created in step 2. For more information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
+
+    :::image type="content" source="media/register-plug-in.png" alt-text="Register and link the plug-in":::
+
 1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation.
 1. Edit the relevant SLA item. In the **General** section, set the **Allow Custom Time Calculation** toggle to **Yes**.
 1. From the **Custom Time Calculation API** field, select the custom action you created in step 2, and then select **Save**.
