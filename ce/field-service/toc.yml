@@ -122,8 +122,6 @@ items:
   items:
     - name: Customer accounts
       href: accounts.md
-    - name: Contacts
-      href: contacts.md
     - name: Assets
       items: 
       - name: Configure customer assets
@@ -132,6 +130,8 @@ items:
         href: asset-properties.md
       - name: 3D asset models
         href: 3D-viewer.md
+      - name: Build a service history
+        href: service-history.md
     - name: Functional locations
       href: assets-functional-location.md
     - name: Warranties
