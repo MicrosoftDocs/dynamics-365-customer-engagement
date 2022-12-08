@@ -1,3 +1,17 @@
+---
+title: "Validate customer assets on work orders"
+description: Learn how to configure the system to validate customer assets on work orders in Dynamics 365 Field Service.
+ms.date: 12/08/2022
+ms.reviewer: mhart
+ms.topic: article
+author: jshotts
+ms.author: jasonshotts
+manager: shellyha
+search.app: 
+  - D365CE
+  - D365FS
+---
+
 # Validate customer assets on work orders
 
 You can configure the system to allow [customer assets](configure-set-up-customer-assets.md) on work order that are related to accounts other than the work order service account.
@@ -6,7 +20,7 @@ This configuration can be useful in the following scenarios:
 
 - Rent or lease: A service provider owns the asset and work orders refer to the customer who is currently using the asset.
 
-- [Warranty](warranties.md): A consumer owner the asset and work order should relate to the manufacturer account who is responsible for the warranty.
+- [Warranty](warranties.md): A consumer owns the asset and work orders should relate to the manufacturer account who is responsible for the warranty.
 
 1. In Field Service, change to the **Settings** area.
 

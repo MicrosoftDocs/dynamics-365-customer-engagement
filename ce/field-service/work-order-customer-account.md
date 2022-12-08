@@ -1,13 +1,9 @@
 ---
-title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Work orders and service accounts"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
-ms.date: 05/23/2022
+ms.date: 12/08/2022
 ms.reviewer: mhart
-
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: lmasieri
 ms.author: lmasieri
 manager: shellyha
@@ -192,6 +188,4 @@ Below is the XML for the account form where we see *ValidForMap* added to its ad
 > [!Note]
 > If the map control is still not visible on the form after following these steps, try removing the active form customizations.
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

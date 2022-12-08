@@ -1,9 +1,8 @@
 ---
 title: "Asset servicing in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn all about asset management in Dynamics 365 Field Service
-ms.date: 01/11/2021
+ms.date: 12/07/2022
 ms.reviewer: mhart
-
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -15,7 +14,7 @@ search.app:
 
 # Asset servicing in Dynamics 365 Field Service
 
-Customer assets let you keep track of equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](assets-functional-location.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. And if you're using [Connected Field Service](cfs-iot-overview.md), you can [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset's health and [trigger IoT alerts](cfs-iot-alerts.md) and work orders as needed.
+Customer assets let you track equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](assets-functional-location.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. If you're using [Connected Field Service](cfs-iot-overview.md), [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset and [trigger IoT alerts](cfs-iot-alerts.md) as needed.
 
 For a guided walkthrough of servicing a customer asset based on an IoT alert, check out the following video.
 
@@ -33,7 +32,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
    :::image type="content" source="media/customer-asset-create-manually.PNG" alt-text="Screenshot of a customer asset.":::
 
-1. Enter a reference **Name** for the customer asset. For example, the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or descriptive information like *HVAC Unit 2nd Floor*.
+1. Enter a reference **Name** for the customer asset. For example, the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or descriptive information like *HVAC Unit second Floor*.
 
 1. Provide optional details for the customer asset:
 
@@ -41,7 +40,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
     - **Account**: Choose a [service account to represent the location and customer of the customer asset](accounts.md). As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same.
 
-    - **Functional location**: Choose a [functional location](assets-functional-location.md) where this customer assets is located.
+    - **Functional location**: Choose a [functional location](assets-functional-location.md) where this customer asset is located.
 
     - **Parent Customer Asset**: Field Service supports hierarchical asset structures. For example, a part can be the child of a component, which is the child of a machine. Use this field to specify the direct parent. The **Master Asset** shows the top-level parent in the relationship automatically. After creating the asset record, you can use the **Sub Asset** grid on the form to add child assets.
 
@@ -76,7 +75,7 @@ Adding a product to a work order [creates a work order product](create-product-o
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order on the Product tab showing the quantity and line status of a product.](./media/customer-asset-product-used.png)
 
-When the work order system status changes to **Open-Completed** or **Closed-Posted**, the system automatically generates the customer asset record and associates it with the service account listed on the work order. Regardless of the quantity of the work order product, only one customer assets is created. The customer asset will have reference to the work order product that shows the exact quantity.
+When the work order system status changes to **Open-Completed** or **Closed-Posted**, the system automatically generates the customer asset record and associates it with the service account listed on the work order. Regardless of the quantity of the work order product, only one customer asset is created. The customer asset will have reference to the work order product that shows the exact quantity.
 
 > [!TIP]
 > By default, you can only use assets related to the service account on a work order. Field Service lets you can change this logic in the settings. For more information, see [Validate customer assets on work orders](asset-validation.md)
@@ -99,6 +98,6 @@ IoT alerts from the connected device now also reference the related customer ass
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert showing the related customer asset.](./media/customer-asset-iot-alert.png)
 
-Select **Check IoT Setup** to get information about the IoT setup of the environment. For example, if is IoT deployed or if are there devices available.
+Select **Check IoT Setup** to get information about the IoT setup of the environment. For example, if IoT is deployed or if there are devices available.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

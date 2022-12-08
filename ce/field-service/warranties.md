@@ -1,3 +1,17 @@
+---
+title: "Warranties in Dynamics 365 Field Service"
+description: Learn how to create and use warranties in Dynamics 365 Field Service.
+ms.date: 12/07/2022
+ms.reviewer: mhart
+ms.topic: article
+author: jshotts
+ms.author: jasonshotts
+manager: shellyha
+search.app: 
+  - D365CE
+  - D365FS
+---
+
 # Warranties in Dynamics 365 Field Service
 
 Warranties are usually a written guarantee of the integrity of a product and of the producer's responsibility for the repair or replacement of defective parts.
@@ -38,3 +52,4 @@ After creating a warranty record, you can add existing assets, locations, and ac
 
 1. **Save** the warranty record to apply your changes.
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

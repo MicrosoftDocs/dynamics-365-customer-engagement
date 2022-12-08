@@ -91,6 +91,8 @@ items:
       href: create-product-or-service.md
     - name: Service task types
       href: set-up-service-task-types.md
+    - name: Travel charges
+      href: travel-charges.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
