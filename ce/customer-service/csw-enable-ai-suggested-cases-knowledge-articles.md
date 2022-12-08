@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/21/2022
+ms.date: 11/29/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,7 +31,7 @@ The key highlights of the feature are as follows:
 
 
 > [!NOTE]
-> The AI suggestions feature is currently available in few geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+> The AI suggestions feature is currently available in a few geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 
 ## How AI suggestions for similar cases and knowledge articles work
@@ -97,7 +97,7 @@ Make sure that the following requirements are met:
 
 You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the apps, and then perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
@@ -109,7 +109,7 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     2. In the **Suggestions for agents** section, select **Manage**.
+     1. In the **Suggestions for agents** section, select **Manage**.
 
       The **Suggestions** page is displayed.    
     
@@ -128,9 +128,9 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
 
-4. Select **Save**.
-
    > ![Enable AI-suggested similar cases.](media/csac-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
+
+4. Select **Save**.
 
 ## Enable AI suggestions for knowledge articles
 
@@ -211,7 +211,7 @@ The service protection limits for AI suggestions are defined in the following ta
 | Area    | Limits     | Notes     |
 |----------|------------|-----------|
 | AI suggestions for active cases | 30 cases/month per user license | Each user license adds 30 active cases, where agents can get AI-suggested knowledge articles and similar cases in real time. |
-| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 omnichannel conversations where agents can get AI-suggested knowledge articles and similar cases in real time.|
+| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 omnichannel conversations, where agents can get AI-suggested knowledge articles and similar cases in real time.|
 ||||
 
 ### See also
