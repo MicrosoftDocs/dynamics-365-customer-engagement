@@ -58,7 +58,7 @@ Often, technicians must perform their work on a [customer asset](configure-set-u
 
 Assets can also be associated directly to a functional location, which helps technicians to find them and perform their work.
 
-From the service account's **Assets and Locations** section, select the **Show Assets** option to see a list of associated assets.
+From the service account's **Assets and Locations** section, select the **Show Assets** option to see a list of associated assets. Multiple accounts can be associated to a functional location tree.
 
 To add a new asset, select the ellipses (...), and select **New asset** or **Add existing asset**.
 
@@ -82,7 +82,7 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOjSM]
 
-## Use functional location for work orders
+## Functional location for work orders
 
 Once defined, functional locations help flesh out [work order details](create-work-order.md), once again making it easier for technicians to see where they must perform their work.
 
@@ -95,41 +95,33 @@ Once the functional location is selected, more detailed information appears in t
 
 ### Add multiple functional locations to a single work order
 
-Use more work order incidents to define more work that needs to be done in addition to the primary work order incident.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order incident.](./media/assets-functional-location-work-order-new-incident.png)
+Use more work order incidents to define work that needs to be done in addition to the primary work order incident.
 
 For each work order incident, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
 
-For example, imagine as part of one work order, a technician needs to go to three different buildings to perform a different task at each. In this scenario, add three work order incidents with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first.
+For example, a technician needs to go to three different buildings to perform different tasks. In this scenario, add three work order incidents, each with the respective functional location, to a work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order with related incidents.](./media/assets-functional-location-work-order-new-incident1.png)
 
-> [!Note]
-> Work order address only reflects the functional location on the work order and on the primary incident type, not the location of the additional incident types.
+> [!NOTE]
+> The work order address only reflects the functional location on the work order and on the primary incident type, not the location of the additional incident types.
 
-## Use functional locations on the mobile app
+## Functional locations on the mobile app
 
-Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app.
-
-> [!div class="mx-imgBorder"]
-> ![Device render with the Field Service mobile app, showing a booking and a location on a map.](./media/mobile-2020-functional-location-work-order.png)
-
-Technicians can also view and interact with functional location and customer asset hierarchies on the mobile app.
+Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app. They can also view and interact with functional location and customer asset hierarchies on the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Device renders with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
 
-> [!Note]
+> [!NOTE]
 > Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
 
 For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
-## Use functional location for cases
+## Functional location for cases
 
 In cases where organizations start with a **Case** in their workflow, functional locations can be associated there as well.
 
@@ -138,25 +130,19 @@ On a case record, go to the Field Service section, and associate a functional lo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service tab on a case.](./media/assets-functional-location-case.png)
 
-## Use functional location for agreements
+## Functional location for agreements
 
-To use functional locations on an agreement, select an agreement. Go to **Agreement Booking Setup**, and then **Agreement Booking Incident**, where you can associate a functional location.
+To use functional locations on an agreement, open an agreement. Go to **Agreement Booking Setup**, and then **Agreement Booking Incident**, where you can associate a functional location.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an agreement booking incident.](./media/assets-functional-location-agreement-incident.png)
 
-## Configuration considerations
-
-- Multiple accounts can be associated to a functional location tree.
-- Field Service technicians can see functional locations from their Field Service mobile apps, but cannot see or manage the larger location and asset hierarchies.
-
-### Functional location is not automatically associated to account in custom apps
+### Configuration considerations for customized solutions
 
 1. Open any custom app designer where this issue is seen.
 2. Add functional location entity to the app from **Add** > **Entities**.
 3. Select form components of functional location entity, uncheck *All* and select only quick create form for functional location.
 4. Publish the app and verify that functional location form will open quick create form in the tree view control.
 5. Newly created functional locations should appear in tree view control.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
