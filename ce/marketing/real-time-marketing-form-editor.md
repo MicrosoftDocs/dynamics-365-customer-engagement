@@ -30,6 +30,8 @@ search.app:
 > - The real-time marketing form editor relies on a new Consent model. It might take up to 48 hours for consent data migration to be completed after your organization is upgraded to the latest version. Otherwise the consent contact point won’t be created after the form is submitted. [Learn more](whats-new-marketing.md#december-2022-update).
 >
 > - All phone number and email fields must be marked as required and phone number field validation must be enabled in the form editor.
+>
+> - The Commercial communication consent purpose isn't linked to the Do not bulk email attribute of the Contact.
 
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.
 
