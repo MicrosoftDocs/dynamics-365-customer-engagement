@@ -69,7 +69,7 @@ To add a new asset, select the ellipses (...), and select **New asset** or **Add
 > When nesting assets, you can't drag a sub asset to a functional location different from the parent asset's functional location.
 > When dragging an sub asset under a new parent with a different functional location, the asset's functional location will be cleared, and the new parent's functional location will be used instead.
 
-## Search the functional location tree
+### Search the functional location tree
 
 Use the search bar to search for functional locations and associated assets. Select the **Show Assets** box to include assets in search. Matching search results are highlighted.
 
@@ -81,6 +81,10 @@ For larger or more complex trees, you can also expand or collapse all the result
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOjSM]
+
+## Properties for functional locations
+
+Properties allow you to record information about functional locations in Dynamics 365 Field Service. First, you need to [create the property definitions](asset-properties.md#create-property-definitions) and [define templates for properties](asset-properties.md#create-templates-for-properties). When performing service tasks, technicians can fill in a [property log to create a log history](property-logs.md).
 
 ## Functional location for work orders
 

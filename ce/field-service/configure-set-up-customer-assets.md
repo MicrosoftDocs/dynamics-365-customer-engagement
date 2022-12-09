@@ -30,7 +30,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. Go to **Assets** > **Assets** and select **New**.  **Customer Assets** > **+New**.  
 
-   :::image type="content" source="media/customer-asset-create-manually.PNG" alt-text="Screenshot of a customer asset.":::
+   :::image type="content" source="media/customer-asset-create-manually.PNG" alt-text="Screenshot of a customer asset created manually.":::
 
 1. Enter a reference **Name** for the customer asset. For example, the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or descriptive information like *HVAC Unit second Floor*.
 
