@@ -22,6 +22,8 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 > - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
+> - If you're routing, updating, or deleting multiple records at a time, and are facing any technical or performance-related issues, we recommend that you contact Microsoft Support to troubleshoot any issues with unified routing.
+
 
 ## Prerequisites
 
