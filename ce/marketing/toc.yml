@@ -210,6 +210,8 @@
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
+    - name: What's new archive
+      href: whats-new-marketing-archive.md
   - name: "Real-time marketing"
     items: 
     - name: Real-time marketing user guide
