@@ -39,7 +39,7 @@ When you set the `searchOnly` parameter to `true`, the contact entity records ar
 When you set `searchOnly` to `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` to `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open the search page if the search result has multiple records and populate the search page with the tag value mentioned when the search field is used in `queryParameters`.
 
 > [!Note]
-> You must enable relevance search to be able to use it. If relevance search is not enabled, then the search will be performed based on category. More information: [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization.md)
+> You must enable relevance search to be able to use it. If relevance search is not enabled, then the search will be performed based on category. More information: [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
 
 ## Return value
 
