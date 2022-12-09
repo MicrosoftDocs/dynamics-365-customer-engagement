@@ -102,5 +102,6 @@ In the example below, you will notice that:
 
 The samples below include unpacked solutions for Dataverse and plugins projects.
 To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool).
+
 SampleSmsChannel.zip
 SampleCustomChannel.zip
