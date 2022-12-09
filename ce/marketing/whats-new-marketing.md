@@ -718,3 +718,6 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 ### January 2022 update
 
 There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
+
+> [!Tip]
+> To read about updates from previous years, see the [What's new archive](whats-new-marketing-archive.md) article.
