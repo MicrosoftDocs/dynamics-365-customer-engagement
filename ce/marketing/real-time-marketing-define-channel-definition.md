@@ -1,5 +1,5 @@
 ---
-title: "Preview: Define your Channel Definition (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Define your Channel Definition (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your Channel Definition in Dynamics 365 Marketing."
 ms.date: 12/09/2022
 ms.custom: 

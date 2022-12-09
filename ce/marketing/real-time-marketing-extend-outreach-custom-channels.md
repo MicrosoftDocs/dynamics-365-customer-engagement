@@ -1,5 +1,5 @@
 ---
-title: "Preview: Manually add a custom channel (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Manually add a custom channel (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to extend your outreach by manually adding a custom channel in Dynamics 365 Marketing."
 ms.date: 11/03/2022
 ms.custom: 
