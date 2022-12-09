@@ -24377,6 +24377,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/apply-remove-tags-seller.md",
+      "redirect_url": "manage-sequences-seller#apply-and-remove-tags-from-your-sequences",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
