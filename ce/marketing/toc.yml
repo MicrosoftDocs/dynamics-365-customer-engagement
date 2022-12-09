@@ -341,7 +341,6 @@
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
       - name: "Manually add a custom channel"
-      items:
         - name: Overview
           href: real-time-marketing-extend-outreach-custom-channels.md
         - name: Define your extended configuration entity for Channel Instance 
