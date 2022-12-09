@@ -93,7 +93,7 @@ While qualifying a lead, one of the following errors occur due to duplicate lead
 - Lead record was not created or updated because a duplicate of the current record already exists. 
 - Opportunity record was not created or updated because a duplicate of the current record already exists.
 
-If the [duplicate lead detection](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
+If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
 
 - Remove the duplicates for the lead and qualify again. More information: [Merge duplicate rows](/power-apps/user/merge-duplicate-records) 
 - Go to the leads grid view, select the lead and qualify.
