@@ -18,6 +18,8 @@ search.app:
 ---
 # Define your Custom APIs
 
+## A. Outbound custom API
+
 ## Applicable channels: SMS, Custom
 
 ### Why you need it:
@@ -61,3 +63,47 @@ A [custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-ap
             • Delivered – the accepted message was successfully delivered to the target 
 
             • NotDelivered – the accepted message was not successfully delivered to the target 
+
+## B. Delivery report custom API 
+
+## Applicable channels: SMS, Custom
+
+### Why you need it:
+
+If your channel supports delivery reports or statuses for messages, such as for example, “Delivered”, a [custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-api) needs to be defined. Your API will be called by the Provider and it must call the base solution’s **msdyn_D365ChannelsNotification** API. The latter will proxy the information back to Dataverse. This information will become available in Marketing Analytics.
+
+### How to define it:
+
+• See how you can [define your custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-api).
+
+• Your own Custom API will be executed and call the msdyn_D365ChannelsNotification API with contract  as one input parameter:
+
+-     notificationPayLoad is a serialized JSON  with the following contract
+
+         ChannelDefinitionId: GUID – The Channel Definition Id
+
+         RequestId: string – The Request Id
+
+         MessageId:  string – The Message Id
+
+         From: string – The Sender (Channel Instance)
+
+         OrganizationId: string – The Organization Id
+
+         Status: string – The delivery report status 
+
+         StatusDetails: Dictionary <string, object> - Channel specific information regarding the status.
+
+## C. Inbound custom API 
+
+## Applicable channels: SMS
+
+### Why you need it:
+
+If your channel supports inbound requests, a [custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-api) needs to be defined. Your API will be called by the Provider and it must call the base solution’s **msdyn_D365ChannelsInbound** API. The latter will proxy the information back to Dataverse. 
+
+How to define it:
+
+• See how you can [define your custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-api).
+
+• Your own Custom API will be executed and call the **msdyn_D365ChannelsInbound** API with **contract** as 1 input parameter. The inboundPayload is proxied to the Channel Definition Inbound API.
