@@ -345,6 +345,18 @@
         items:
         - name: Define your extended configuration entity for Channel Instance 
           href: real-time-marketing-define-custom-channel-instance.md
+        - name: Define your extended configuration entity for the Channel Instance account 
+          href: real-time-marketing-define-channel-instance-account.md
+        - name: Define your Message parts 
+          href: real-time-marketing-custom-channel-message-parts.md
+        - name: Define your localization for the Admin UI - Optional 
+          href: real-time-marketing-custom-channel-localization-admin.md
+        - name: Define your Message editor UI - Optional 
+          href: real-time-marketing-custom-channel-message-editor.md
+        - name: Define your Custom APIs 
+          href: real-time-marketing-custom-channel-custom-API.md
+        - name: Define your Channel Definition 
+          href: real-time-marketing-define-channel-definition.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
