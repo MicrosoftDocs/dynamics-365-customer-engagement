@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/03/2022
+ms.date: 11/28/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -28,7 +28,42 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
 
+> [!Tip]
+> To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs:
+> - [5 steps for transforming customer experience with Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+> - [Engage your customers faster with AI-powered marketing email content](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+> - [Deploying Event Portal Changes in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
+> - [Trigger a Plugin from Custom Trigger](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
+> - [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
 ## 2022 updates
+
+### November 2022 update
+
+The Dynamics 365 Marketing November 2022 update includes one preview feature and one monthly enhancement. The preview feature enables date and time formatting flexibility for different locales. The monthly enhancement improves personalization access and usability.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.89.2008.0     |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview feature
+
+- **Communicate dates and times in a variety of formats**
+    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of date and time formats.](media/whats-new-date-time.jpg "Screenshot of date and time formats")
+
+#### Monthly enhancements
+
+- **Usability improvements in the personalization pane**
+    - The personalization pane in the email editor provides one-stop access to personalization-related capabilities. Personalization placeholders are grouped according to their types. You can expand and collapse the groups to help with readability. Specific records are used to access additional personalization data such as event details, orders, or products. Specific records in use are identified at the top of the side pane and on the info card for each personalization placeholder that uses them. Conditions created by conditional content are also available on the pane (as “Element conditions”) for review and updating.
 
 ### October 2022 update
 
@@ -178,7 +213,7 @@ Additionally, real-time marketing features are now available in France and Switz
 
 ### August 2022 update
 
-The Dynamics 365 Marketing August 2022 update has one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability feature is a new email creation canvas and user experience. The public preview feature allows you to use AI-powered Content ideas to kickstart email creation, now with built-in default data so you don’t have to create dozens of emails to get started.
+The Dynamics 365 Marketing August 2022 update has one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/). It also includes a public preview from [2022 wave 2 release plans](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/). The general availability feature is a new email creation canvas and user experience. The public preview feature allows you to use AI-powered content ideas to kickstart email creation, now with built-in default data so you don’t have to create dozens of emails to get started.
 
 Additionally, this update includes improvements to real-time journeys and personalization.
 
@@ -204,12 +239,12 @@ Additionally, this update includes improvements to real-time journeys and person
 #### Preview feature
 
 - **Boost your creativity with AI-powered email content ideas**
-    - Content ideas help you find writing inspiration. You can use Content ideas as a starting point when creating email content—it’s like asking a group of colleagues to brainstorm with you. Content ideas make creating emails simpler, more efficient, and fun. It's a new and innovative functionality with the latest AI technologies (GPT-3 language model) behind the scenes. Now, Content ideas includes default email content data, allowing users to get up and running even quicker.
+    - Content ideas help you find writing inspiration. You can use content ideas as a starting point when creating email content—it’s like asking a group of colleagues to brainstorm with you. Content ideas make creating emails simpler, more efficient, and fun. It's a new and innovative functionality with the latest AI technologies (GPT-3 language model) behind the scenes. Now, content ideas includes default email content data, allowing users to get up and running even quicker.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/boost-creativity-ai-powered-email-content-ideas)
     - [Docs](content-ideas.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Content ideas feature.](media/whats-new-content-ideas.png "Screenshot of Content ideas feature")
+    > ![Screenshot of content ideas feature.](media/whats-new-content-ideas.png "Screenshot of content ideas feature")
 
 #### Monthly enhancements
 
@@ -372,7 +407,7 @@ The update also includes an administrator digital data sharing opt-in for better
 #### Monthly enhancements
 
 - **Real-time marketing**
-    - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for Content Ideas (GPT-3), and get better recommendations for channel optimization.
+    - Administrators can opt-in to share data to enhance the performance of the Natural Language Assist feature, get better content recommendations for content ideas (GPT-3), and get better recommendations for channel optimization.
 - **Marketing pages**
     - Errors are displayed when a page is stuck in a “Going Live” state, allowing users to see what’s wrong and select the **Stop** button if needed.
 - **Conditional content**
@@ -735,7 +770,7 @@ With the Dynamics 365 Marketing December 2021 update you can create journey bran
 
 ### November 2021 update
 
-With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing text messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in Dataverse, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing to real-time marketing, use content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing text messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in Dataverse, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
 
 #### Version number
 
@@ -755,7 +790,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Customer journeys**
     - You can now gain more control over journey branching conditions through increased attribute support by having access to all attributes associated with a contact entity, a lead entity or a trigger. You also have the ability to do relative and partial date time checks such as checking if a customer's birthday is this month or if their membership is up for renewal in the next 90 days.
 - **Marketing emails**
-    - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
+    - The content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with content ideas](content-ideas.md).
 - **Mobile channel**
     - Send Customer Voice surveys in text messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
 - **Scale**
@@ -788,7 +823,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 
 ### October 2021 update
 
-The Dynamics 365 Marketing October 2021 update includes a new Content ideas feature that uses AI to kickstart email creation, unlocking of the text message channel for users outside of the United States, revamped A/B testing for the outbound marketing email editor, the ability to include lists of related data in personalized emails, general performance upgrades, bug fixes, and more.
+The Dynamics 365 Marketing October 2021 update includes a new content ideas feature that uses AI to kickstart email creation, unlocking of the text message channel for users outside of the United States, revamped A/B testing for the outbound marketing email editor, the ability to include lists of related data in personalized emails, general performance upgrades, bug fixes, and more.
 
 #### Version number
 

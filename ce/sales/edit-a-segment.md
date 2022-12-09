@@ -47,6 +47,10 @@ To modify your process for choosing the records you want as members of a segment
 
 The changes will be applied to records that are created in the future in the application. The records that the segment has already been applied to won't change.
 
+>[!NOTE]
+>From the 9.3 release, all segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
+
+
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also

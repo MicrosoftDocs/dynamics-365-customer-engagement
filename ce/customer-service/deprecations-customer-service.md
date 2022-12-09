@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
-ms.date: 09/30/2022
+ms.date: 12/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -57,14 +57,18 @@ For any questions, contact your Microsoft Customer Service representative or Mic
 
 ## Automatic record creation rules in web client are deprecated
 
-Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. You are encouraged to migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
+Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. You are encouraged to migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). You can also refer to the migration playbook which includes all the information you need to work on the migration. More information: [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
+
+Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
 
 > [!NOTE]
 > The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
 ## SLAs in web client are deprecated
 
-Effective October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
+Effective October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). You can also refer to the migration playbook which includes all the information you need to work on the migration. More information: [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
+
+Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
 
 > [!NOTE]
 > The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
