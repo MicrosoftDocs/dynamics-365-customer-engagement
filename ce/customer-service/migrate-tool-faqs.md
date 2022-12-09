@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 12/02/2022
+ms.date: 12/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ No. You must manually activate the migrated rules when migration is complete.
 
 ### Can I activate a rule with an incomplete migration status?
 
-No. A migrated rule can only be activated when **Mark as complete** is toggled to **Yes** (that's when the rule is considered successfully migrated). 
+No. A migrated rule can only be activated when **Mark as complete** is toggled to **Yes** (that's when the rule is considered successfully migrated).
 
 > [!Note] 
 > Review the incomplete rule to resolve any issues before you toggle the **Mark as complete** to **Yes**, and then activate the rule.

@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
-ms.date: 12/02/2022
+ms.date: 12/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
