@@ -1,5 +1,5 @@
 ---
-title: "Preview: Define your Custom APIs (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Define your Custom APIs (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your Custom APIs in Dynamics 365 Marketing."
 ms.date: 12/09/2022
 ms.custom: 

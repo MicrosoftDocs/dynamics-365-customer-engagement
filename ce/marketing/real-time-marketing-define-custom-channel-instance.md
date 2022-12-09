@@ -1,5 +1,5 @@
 ---
-title: "Preview: Define your extended configuration entity for Channel Instance (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Define your extended configuration entity for Channel Instance (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your extended configuration entity for channel instance in Dynamics 365 Marketing."
 ms.date: 12/08/2022
 ms.custom: 

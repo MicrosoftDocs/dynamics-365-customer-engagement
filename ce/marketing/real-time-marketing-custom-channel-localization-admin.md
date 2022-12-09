@@ -1,5 +1,5 @@
 ---
-title: "Preview: Define your localization for the Admin UI - Optional (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Define your localization for the Admin UI - Optional (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your localization for the Admin UI - Optional in Dynamics 365 Marketing."
 ms.date: 12/08/2022
 ms.custom: 

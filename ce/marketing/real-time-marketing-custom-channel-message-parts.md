@@ -1,5 +1,5 @@
 ---
-title: "Preview: Define your Message parts (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Define your Message parts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your message parts in the real-time marketing area of Dynamics 365 Marketing."
 ms.date: 12/08/2022
 ms.custom: 
