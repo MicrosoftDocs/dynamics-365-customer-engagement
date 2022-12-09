@@ -342,6 +342,8 @@
         href: real-time-marketing-correlate-triggers.md
       - name: "Preview: Manually add a custom channel"
         href: real-time-marketing-extend-outreach-custom-channels.md
+      -   name: "Preview: Define your extended configuration entity for Channel Instance"
+      -   href: real-time-marketing-define-custom-channel-instance.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
