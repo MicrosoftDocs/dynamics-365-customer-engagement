@@ -306,7 +306,7 @@
       items:
       - name: Personalize content
         href: real-time-marketing-personalization.md
-      - name: "Personalize content using pre-defined dynamic text"
+      - name: Personalize content using pre-defined dynamic text
         href: real-time-marketing-predefined-dynamic-text.md
       - name: How to use conditional content
         href: conditional-content.md
@@ -315,7 +315,7 @@
       - name: Personalize inline conditions
         href: real-time-marketing-personalize-inline-conditions.md
       - name: Personalize lists
-        href: real-time-marketing-personalize-lists.md  
+        href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
       - name: Real-time marketing asset library

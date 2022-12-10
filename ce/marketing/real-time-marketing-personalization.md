@@ -19,7 +19,7 @@ search.app:
 
 # Personalize content
 
-Dynamics 365 Marketing's real-time marketing features offer powerful personalization capabilities. In this article, you'll learn how to set default values for personalized data, preview personalized content, personalize text messages and push notifications, and use advanced personalization features like related tables and conditional content.
+Dynamics 365 Marketing's real-time marketing features offer powerful personalization capabilities. In this article, you'll learn how to set default values for personalized data, preview personalized content, personalize text messages and push notifications, and use related tables.
 
 ## Default values
 
