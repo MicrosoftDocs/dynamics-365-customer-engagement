@@ -64,6 +64,8 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
 1. Select the required recording.
 1. Select the **Delete** icon.
 
+You can also delete the recordings from the [msdyn_ocrecording](developer/reference/entities/msdyn_ocrecording.md) using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
+
 ### Storage location of your recordings and cost
  
 For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties, and therefore, data needs to be reviewed end-to-end and will include components outside the Microsoft stack. This location can be different from the Azure Communication Services location.
