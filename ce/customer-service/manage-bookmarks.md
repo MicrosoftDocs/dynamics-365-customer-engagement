@@ -1,7 +1,7 @@
 ---
-title: Manage bookmarks for reports
-description: Create bookmarks and navigate a personalized view of your reports.
-ms.date: 10/04/2022
+title: Manage bookmarks for reports | MicrosoftDocs
+description: "Create bookmarks for reports and save personalized views of your reports."
+ms.date: 12/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,11 +13,11 @@ manager: shujoshi
 A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. You can save personalized views of your reports as bookmarks at user level.
 
 > [!Note]
-> Bookmarks are only available in historical analytics reports and knowledge analytics reports.
+> You can use bookmarks only in historical analytics and knowledge analytics reports.
 
 ## Prerequisites
 
-To enable bookmarks for Customer Service historical, intraday historical, and knowledge management analytics reports, you must add **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, in the **Report Bookmark** custom entity.
+To enable bookmarks for Customer Service historical, intraday historical, and knowledge analytics reports, you must add **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, in the **Report Bookmark** custom entity.
 - CSR Manager
 - Customer Service Representative
 - Knowledge Manager
