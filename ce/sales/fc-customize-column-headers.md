@@ -10,6 +10,9 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
+<!-- In line 154, should it be "French language," singular? -->
+
+
 # Customize column headers in the forecast grid
 
 You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tooltip for additional context.  
@@ -135,6 +138,7 @@ Next, we'll modify the manifest file to specify the property that we're overridi
 1. Open the `ControlManifest.Input.XML` file.
 
 1. Search for the ```property``` node and replace it with the following code as-is:
+    
     `<property name="columnName" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />`  
 
 1. Update the `<resources>` node to specify the path to the resource file that includes the French translations:
