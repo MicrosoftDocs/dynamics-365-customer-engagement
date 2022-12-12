@@ -1,7 +1,7 @@
 ---
-title: "Define your localization for the Admin UI - Optional (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Define your localization for the admin interface (optional) (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your localization for the Admin UI - Optional in Dynamics 365 Marketing."
-ms.date: 12/08/2022
+ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -16,13 +16,14 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-# Define your localization for the Admin UI - Optional
 
-## Applicable channels: Sms, Custom 
+# Define your localization for the admin interface (optional)
+
+## Applicable channels: SMS, custom 
 
 ### Why you need it:
 
-If your Admin UI is exposed to a diverse audience, an  d you want to localize its content, you must define a **Channel Definition Locale** entity. **At your solution’s import**, a new row for every message part will be created at the **msdyn_channeldefinitionlocale** table.
+If your admin interface is exposed to a diverse audience and you want to localize its content, you must define a **Channel Definition Locale** entity. **At your solution’s import**, a new row for every message part will be created at the **msdyn_channeldefinitionlocale** table.
 
 ### Channel Definition Locale contract:
 
@@ -30,25 +31,18 @@ Entity logical name: **msdyn_channeldefinitionlocale**
 Entity set name: **msdyn_channeldefinitionlocales**  
 Primary Id attribute name: **msdyn_channeldefinitionlocaleid**
 
-• **msdyn_localeid**: int - Language code ID (for example, English - United States 1033)
-
-• **msdyn_channeldefinitionid**: GUID – Channel definition id, must match the channel definition id of the channel.
-
-• **msdyn_localecontent**: String (JSON) - The localized content. The following keys are supported:
-
--   **ChannelDefinition.DisplayName** - override for msdyn_channeldefinition.msdyn_displayname attribute content in UI
-
--   **ChannelDefinition.Description** - override for msdyn_channeldefinition.msdyn_description attribute content in UI
-
--   **ChannelDefinition.SpecialConsentLabel** - override for msdyn_channeldefinition.msdyn_specialconsentlabel attribute content in UI
-
--   **ChannelMessagePart.%partname%.DisplayName** - override for msdyn_channelmessagepart.msdyn_displayname attribute content in UI for message part of channel with name %partname%
-
--   **ChannelMessagePart.%partname%.Description** - override for msdyn_channelmessagepart.msdyn_description description content in UI for message part of channel with name %partname%
+- **msdyn_localeid**: int - Language code ID (for example, English - United States 1033)
+- **msdyn_channeldefinitionid**: GUID – Channel definition id, must match the channel definition id of the channel.
+- **msdyn_localecontent**: String (JSON) - The localized content. The following keys are supported:
+  - **ChannelDefinition.DisplayName** - override for msdyn_channeldefinition.msdyn_displayname attribute content in UI
+  - **ChannelDefinition.Description** - override for msdyn_channeldefinition.msdyn_description attribute content in UI
+  - **ChannelDefinition.SpecialConsentLabel** - override for msdyn_channeldefinition.msdyn_specialconsentlabel attribute content in UI
+  - **ChannelMessagePart.%partname%.DisplayName** - override for msdyn_channelmessagepart.msdyn_displayname attribute content in UI for message part of channel with name %partname%
+  - **ChannelMessagePart.%partname%.Description** - override for msdyn_channelmessagepart.msdyn_description description content in UI for message part of channel with name %partname%
 
 ### How to define it:
 
-Channel Definition Locales are defined in the **customizations.xml** as solution components. Place every **msdyn_channeldefinitionlocale** under **ImportExportXml** > **msdyn_channeldefinitionlocales** elements. Note that each message part element **msdyn_channeldefinitionlocale** must include its own unique id in the form of GUID as XML attribute **msdyn_channeldefinitionlocaleid**.
+Channel definition locales are defined in the **customizations.xml** as solution components. Place every **msdyn_channeldefinitionlocale** under **ImportExportXml** > **msdyn_channeldefinitionlocales** elements. Note that each message part element **msdyn_channeldefinitionlocale** must include its own unique id in the form of GUID as XML attribute **msdyn_channeldefinitionlocaleid**.
 
 ### Example of customizations.xml including channel definition locales
 
