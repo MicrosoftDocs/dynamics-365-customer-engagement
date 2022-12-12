@@ -9,8 +9,8 @@ ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: Andrea-Orimoto
+ms.author: andreo
 manager: shellyha
 search.app: 
   - D365CE
@@ -19,7 +19,7 @@ search.app:
 
 # Workflows and scripts for the Field Service (Dynamics 365) mobile app
 
-Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectivity. For more information, see this article: [Mobile offline capabilities and limitations](/dynamics365/mobile-app/mobile-offline-capabilities).
+Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectivity. For more information, see this article: [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
 
 
 ## Dynamics 365 workflows and Power Automate flows
@@ -47,7 +47,7 @@ JavaScript web resources can be added to mobile forms and downloaded with Offlin
 JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
 
 > [!Note]
-> Refer to [this doc](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) for any potential limitations by platform for WebResources in offline mode.
+> Refer to [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for any potential limitations by platform for WebResources in offline mode.
 
 ## Offline JavaScript example
 

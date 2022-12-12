@@ -35,7 +35,7 @@ The following table lists each available feature together with its preview statu
 | Brand profiles | Preview | [Enable brand profiles for consistent content creation.](brand-profiles.md) |
 | Conditional content in email editor | Preview | [Enable Conditional content to easily author highly personalized messages that include the right content for each recipient (Real-time marketing only).](conditional-content.md) |
 | Configurable compliance settings in email editor | Preview | [Enable configurable compliance settings in email editor.](real-time-marketing-email-text-consent.md) |
-| Content ideas | Preview | [Use AI to kickstart email creation with Content ideas.](content-ideas.md) |
+| Content ideas | Preview | [Use AI to kickstart email creation with content ideas.](content-ideas.md) |
 | Data Sharing Program | Production | To help you get most out of our AI features suite, we manually access (human review) Customer Data to build, improve, and validate the feature's AI models. |
 | Customer Voice integration | Production | [Enable Dynamics 365 Customer Voice integrations with Marketing.](customer-voice.md) |
 | Smart scheduler | Production | [Automatically select the best time to send an email message.](automated-scheduler.md) |

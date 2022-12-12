@@ -3,8 +3,8 @@ title: Set defaults for work orders, bookings, the schedule board, and agreement
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
 ms.date: 09/23/2022
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 ms.reviewer: mhart
 search.app: 
   - D365CE
@@ -159,7 +159,7 @@ Inspections are forms that technicians use to answer a list of questions as part
 |  Entity Number Length  |   Enter the number of digits for entity numbers. For example, if you enter 5, the first work order number would be 00001.  |
 | Auto Allocate Estimated Products | When products are added to a work order before the work begins, the status of the work order product record defaults to *Estimated*. This setting determines whether the work order product record is set to *Allocated* when the line status is still *Estimated*, as opposed to *Used*. |
 |  Auto Geo Code Addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. For more information, go to [Turn on auto geocoding](turn-on-auto-geocoding.md).   |
-| Use Enhanced Background Processing (**Preview**) | Field Service includes various workflows that run in the background. Enable this setting to use Power Automate flows instead of some default Field Service workflows. Power Automate lets you connect and run workflows in Dynamics 365 apps and between third-party applications. You can automate actions such as delete records, schedule jobs, or approval flows. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications if an agreement owner no longer has access to Dynamics 365. For Field Service Mobile, you can use Power Automate for geofencing, geofence alerts, and push notification processes. For more information, go to [Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md). |
+| Use Enhanced Background Processing (**Preview**) | Field Service includes various workflows that run in the background. Enable this setting to use Power Automate flows instead of some default Field Service workflows. Power Automate lets you connect and run workflows in Dynamics 365 apps and between third-party applications. You can automate actions such as delete records, schedule jobs, or approval flows. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications if an agreement owner no longer has access to Dynamics 365. |
 | Enable Address Suggestions   | Enable this setting to get suggestions when entering the addresses in various forms.  |
 | Product cost order   | Choose the order for product cost.   |
 | Work Order Subgrid Records Open as Popups | Specify if work order subgrid records open as a popup on work order form. Subentities of the work order entity: work order product, work order service, work order service task, work order incident, bookable resource booking, and time entry.   |

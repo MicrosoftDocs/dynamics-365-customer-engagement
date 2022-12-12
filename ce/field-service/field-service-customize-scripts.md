@@ -5,8 +5,8 @@ ms.date: 02/18/2022
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: lmasieri
+ms.author: lmasieri
 manager: shellyha
 search.app:
 - D365CE
