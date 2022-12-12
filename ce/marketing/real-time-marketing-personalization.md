@@ -23,7 +23,7 @@ Dynamics 365 Marketing's real-time marketing features offer powerful personaliza
 
 ## Default values
 
-Use default values to ensure your message always has appropriate content, even if the data is missing or blank. For example, if you are personalizing your message with a customer’s first name, you can add “customer” as the default value. That way your message will always be complete.
+Use default values to ensure your message always has appropriate content, even if the data is missing or blank. For example, if you're personalizing your message with a customer’s first name, you can add “customer” as the default value. That way your message will always be complete.
 
 To set a default value:
 

@@ -16,9 +16,10 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-# Conditional content
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated.
+# Personalize inline conditions with conditional content
+
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create conditional statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated. Below is an example of conditional expressions using placeholders to specify conditions.
 
 ```
 {{#if placeholderName}}
@@ -36,22 +37,22 @@ Conditional (if-then-else) statements display content depending on whether one o
 If you are adding code to HTML, make sure to put comments around the code:
 
 ```
-<!-- {{#if placeholderName }} -->
+<!-- {{#if placeholderName}} -->
     <h1>Content displayed when the expression is true</h1>
 <!-- {{/if}} -->
 ```
 
-In the code, you only specify the placeholder name. To set up the condition, go to the **Personalize** tab in the **Toolbox**:
+In the code, you only specify the placeholder name. To set up the condition, go to the **Personalize** tab in the real-time marketing email designer:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-condition-setup.png)
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-inline-condition.png)
 
 For example, you can add code to personalize a greeting based on country:
 
 ```
 {{#if placeholderName}}
     Hola
-{{else if ckForDenmark}}
+{{else if placeholderName2}}
     Hallo
 {{else}}
     Hi
@@ -61,19 +62,19 @@ For example, you can add code to personalize a greeting based on country:
 Then, select the placeholder name to configure. Next, select a field and the condition to compare. In this example, the first placeholder will activate the condition if the contact's address is in Spain:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-condition-compare.png)
+> ![Screenshot showing placeholder configuration.](media/real-time-marketing-inline-spain.png)
 
-Next, configure the condition to check the contact’s address for Denmark:
+Next, configure another condition to check the contact’s address for Denmark:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing contact address configuration for Denmark.](media/real-time-marketing-personalization-condition-denmark.png)
+> ![Screenshot showing contact address configuration for Denmark.](media/real-time-marketing-inline-denmark.png)
 
-You can preview the effect of the conditions in **Preview and test** by changing the sample data for the conditions to true. Placeholder 1 true:
+You can preview the effect of the conditions in **Preview and test** by changing the sample data for the conditions to true. Placeholder one true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to true.](media/real-time-marketing-personalization-condition-denmark-true.png)
 
-Placeholder 2 true:
+Placeholder two true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
