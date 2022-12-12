@@ -27,7 +27,7 @@ Lists (each) statements allow you to format and display repeated content for a g
 {{/each}}
 ```
 
-If you are adding code to HTML, make sure to put comments around the code:
+If you're adding code to HTML, make sure to put comments around the code:
 
 ```
 <!-- {{#each placeholderName }} -->
@@ -35,41 +35,43 @@ If you are adding code to HTML, make sure to put comments around the code:
 <!-- {{/each}} -->
 ```
 
-In the code, you only specify the placeholder name. To set up the list, go to the **Personalize** tab in the **Toolbox**:
+In the code, you only specify the placeholder name. To set up the list, go to the **Personalize** tab in the real-time marketing email designer:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the Personalize with list setup.](media/real-time-marketing-personalization-list-setup.png)
+> ![Screenshot showing the Personalize with list setup.](media/real-time-marketing-list-setup.png)
 
-For example, you want to create an email with a list of products the customer has.
+## List set up example
+
+Let's say you want to create an email with a list of products the customer has.
 
 First, create a list placeholder and select the table you what to use for the list:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing selecting a table to use for the list.](media/real-time-marketing-personalization-lists-examplestep1.png)
+> ![Screenshot showing selecting a table to use for the list.](media/real-time-marketing-list-example-step-1.png)
 
 Next, add any attributes you want to display as the repeated content in the list:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing attributes to display.](media/real-time-marketing-personalization-lists-examplestep2.png)
+> ![Screenshot showing attributes to display.](media/real-time-marketing-list-example-step-2.png)
 
 You can also specify which attribute to order the list by and how many items you want displayed:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing attribute order and number of items.](media/real-time-marketing-personalization-lists-examplestep3.png)
+> ![Screenshot showing attribute order and number of items.](media/real-time-marketing-list-example-step-3.png)
 
-Finally, save and use the Code generator to copy the list code to the designer:
+Finally, select the drop-down arrow on the right side of the **Save** button to save the list and use the code generator to copy the list code to the designer:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the list code in the Code generator.](media/real-time-marketing-personalization-lists-examplestep4.png)
 
 ## Code generator
 
-You can use the Code generator tool to create code for your condition and list placeholders to copy.
+You can use the code generator tool to create code for your condition and list placeholders to copy.
 
-To access the Code generator, go to the **Personalize** tab in the **Toolbox**:
+To access the code generator, go to the **Personalize** tab in the real-time marketing email designer:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing access to the Code generator.](media/real-time-marketing-personalization-codegenerator1.png)
+> ![Screenshot showing access to the Code generator.](media/real-time-marketing-code-generator.png)
 
 You can select either a condition or list placeholder to build your code for:
 
@@ -86,31 +88,37 @@ For lists, you can add or delete additional attributes (these changes will be sa
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing added attributes.](media/real-time-marketing-personalization-codegenerator4.png)
 
-## Filter on list
+## Preview: Filter list output in emails
 
-## More effective communication with selective output of a list
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-### How to enable the preview for more data for personalization 
+### Enable the preview for list filtering
 
-This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **Filter on list** feature switch, and saving the setting by clicking on **“Save”** on the top right corner. 
+This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings > Overview > Feature switches**, scrolling to **Personalization** area, enabling the **Filter on list** feature switch, and saving the setting by clicking on **“Save”** on the top right corner.
 
 > [!div class="mx-imgBorder"]
 > ![filter on list](media/real-time-marketing-filter-on-list.png "filter on list")
 
-**Note**: This feature is available only in Real-time marketing.  
+> [!NOTE]
+> This feature is available only in Real-time marketing.  
 
-### Defining a List filter
+### Define a list filter
 
-Including an entire list is certainly a common scenario but there are times when it is more effective to only include items from the list that meet certain conditions. For example, a confirmation email about an order may be more effective if it separately lists items that are back ordered or need special handling. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic, track, etc. – essentially filtering the list of sessions based on certain criteria. 
- 
-This is easy to do in Real-time with use of LIST – access the Personalization area from the quick access tool bar and then define a LIST
+Sometimes when creating a list in an email, you'd like to only include items that meet certain conditions. For example, a confirmation email about an order may be most effective if it separately lists items that are back ordered or need special handling. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track, filtering the list of sessions based on certain criteria.
+
+To filter a list, select a list you've already created in an email. In this example, the email contains a list of winery tours:
 
 > [!div class="mx-imgBorder"]
 > ![list filter](media/real-time-marketing-list-filter.png "list filter")
 
-If you don’t add a filter to this list, the entire list will be included (subject to maximum number of items specified in the UX). Click on “+Add list filter” to add a condition (this conditional can be a simple condition or a more complex using multiple conditions)
+If you don’t add a filter to this list, the entire list will be included in the email (subject to the maximum number of items specified). In this case, the email would list all upcoming tours.
+
+To add a filter condition, select **+Add list filter** in the list editing pane. The conditional statement can include one condition, for simple filtering, or many conditions for complex filtering. Here, the list is filtered to display only tours coming up in the next 30 days:
 
 > [!div class="mx-imgBorder"]
 > ![add a filter](media/real-time-marketing-add-a-filter.png "add a filter")
 
-With this condition defined, only those items will be included that meet this condition. Note that the generated code for the LIST doesn’t change as the filter condition is stored within the LIST definition and not needed as inline code.
+With this condition defined, only the items that meet the condition will be included. Note that the generated code for the list doesn’t change as the filter condition is stored within the list definition and isn't needed as inline code.
