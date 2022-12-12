@@ -54,7 +54,7 @@ Select any location in the list for more details, such as latitude and longitude
 
 ## Create and assign location categories
 
-Use an location category to group your functional locations. Categories allow you to quickly apply [property templates](asset-properties.md) to a group of records.
+Use an location category to group your functional locations. Categories allow you to quickly apply [property templates](properties.md) to a group of records.
 
 1. In Field Service, change to the **Settings** area.
 
@@ -70,7 +70,7 @@ Use an location category to group your functional locations. Categories allow yo
 
 ## Create or add assets to the functional location tree
 
-Often, technicians must perform their work on a [customer asset](configure-set-up-customer-assets.md), at a specific location.
+Often, technicians must perform their work on a [customer asset](assets.md), at a specific location.
 
 Assets can also be associated directly to a functional location, which helps technicians to find them and perform their work.
 
@@ -100,7 +100,7 @@ For a guided walkthrough, check out the following video.
 
 ## Properties for functional locations
 
-Properties allow you to record information about functional locations in Dynamics 365 Field Service. First, you need to [create the property definitions](asset-properties.md#create-property-definitions) and [define templates for properties](asset-properties.md#create-templates-for-properties). When performing service tasks, technicians can fill in a [property log to create a log history](property-logs.md).
+Properties allow you to record information about functional locations in Dynamics 365 Field Service. First, you need to [create the property definitions](properties.md#create-property-definitions) and [define templates for properties](properties.md#create-templates-for-properties). When performing service tasks, technicians can fill in a [property log to create a log history](property-logs.md).
 
 ## Functional location for work orders
 

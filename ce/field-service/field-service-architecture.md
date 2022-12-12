@@ -36,7 +36,7 @@ Work orders are related to the standard [Dynamics 365 **Account** entity](accoun
 
 [**Service Agreements** automatically generate recurring work orders](set-up-customer-agreements.md). An agreement can only be associated to one service account, which means all work orders generated as part of the agreement will be dispatched to that service account location. The type of work and assets being maintained can vary.
 
-[**Customer Assets** are a piece of equipment](configure-set-up-customer-assets.md) at the service account location. Work orders related to a customer asset maintenance, inspection, repair should correlate to the asset's service account.
+[**Customer Assets** are a piece of equipment](assets.md) at the service account location. Work orders related to a customer asset maintenance, inspection, repair should correlate to the asset's service account.
 
 Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of service tasks, products, services, and characteristics (skills) that are recommended. This makes for quicker work order creation because rather than manually adding service tasks, products, services, and characteristics (skills), you can simply add an incident that effectively serves as a template to populate these details.
 

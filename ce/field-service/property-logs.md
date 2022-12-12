@@ -17,7 +17,7 @@ search.app:
 
 # Add property logs
 
-After [associating properties](asset-properties.md#associate-templates-to-assets-functional-locations-or-categories), you can then add specific values as property logs to them. Property logs enable your to build a track record of current and past values of a property.
+After [associating properties](properties.md#associate-templates-to-assets-functional-locations-or-categories), you can then add specific values as property logs to them. Property logs enable your to build a track record of current and past values of a property.
 
 1. In Field Service, change to the **Service** area.
 
@@ -25,7 +25,7 @@ After [associating properties](asset-properties.md#associate-templates-to-assets
 
 1. In the **Current Property Values** section, select **New Property Log**.
 
-1. Choose the **Property** you want to log, and enter the log value. You can only choose from [properties that are associated to the record](asset-properties.md#associate-templates-to-assets-functional-locations-or-categories). The **Reading Time** represents the date and time of reading the value for the log.
+1. Choose the **Property** you want to log, and enter the log value. You can only choose from [properties that are associated to the record](properties.md#associate-templates-to-assets-functional-locations-or-categories). The **Reading Time** represents the date and time of reading the value for the log.
 
    :::image type="content" source="media/assets-properties-log-lookup.png" alt-text="Screenshot of associated properties to an asset record.":::
 

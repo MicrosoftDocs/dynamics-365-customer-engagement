@@ -14,7 +14,7 @@ search.app:
 
 # Asset servicing in Dynamics 365 Field Service
 
-Customer assets let you track equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](assets-functional-location.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. If you're using [Connected Field Service](cfs-iot-overview.md), [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset and [trigger IoT alerts](cfs-iot-alerts.md) as needed.
+Customer assets let you track equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](functional-locations.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. If you're using [Connected Field Service](cfs-iot-overview.md), [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset and [trigger IoT alerts](cfs-iot-alerts.md) as needed.
 
 For a guided walkthrough of servicing a customer asset based on an IoT alert, check out the following video.
 
@@ -40,7 +40,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
     - **Account**: Choose a [service account to represent the location and customer of the customer asset](accounts.md). As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same.
 
-    - **Functional location**: Choose a [functional location](assets-functional-location.md) where this customer asset is located.
+    - **Functional location**: Choose a [functional location](functional-locations.md) where this customer asset is located.
 
     - **Parent Customer Asset**: Field Service supports hierarchical asset structures. For example, a part can be the child of a component, which is the child of a machine. Use this field to specify the direct parent. The **Master Asset** shows the top-level parent in the relationship automatically. After creating the asset record, you can use the **Sub Asset** grid on the form to add child assets.
 

@@ -125,17 +125,17 @@ items:
     - name: Assets
       items: 
       - name: Configure customer assets
-        href: configure-set-up-customer-assets.md
+        href: assets.md
       - name: 3D asset models
         href: 3D-viewer.md
       - name: Build a service history
         href: service-history.md
       - name: Create functional locations
-        href: assets-functional-location.md
+        href: functional-locations.md
       - name: Properties
         items:
         - name: Create properties and property templates
-          href: asset-properties.md
+          href: properties.md
         - name: Property logs
           href: property-logs.md
     - name: Warranties

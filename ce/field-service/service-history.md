@@ -14,7 +14,7 @@ search.app:
  
 # Build a service history for assets
 
-After [customer assets](configure-set-up-customer-assets.md) are created, you can track repairs, inspections, tests, IoT data, and issues to build out a service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping customers happy.
+After [customer assets](assets.md) are created, you can track repairs, inspections, tests, IoT data, and issues to build out a service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping customers happy.
 
 ## Work order history
 
