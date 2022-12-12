@@ -238,11 +238,13 @@ An error message  similar to the following is displayed on the Power Virtual Age
 
 ### Resolution
 
-If you haven't installed the required extensions, you'll see a message that your bot doesn't have access to the variables or actions it needs. The following solutions provide out of the box actions or variables in the Power Virtual Agents authoring canvas that make the authoring experience easier for the bot author:
+If the following extension aren't installed, you'll see a message that your bot doesn't have access to the variables or actions it needs:
 
    - [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
    - [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
    - [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
+
+These extensions provide out of the box actions or variables in the Power Virtual Agents authoring canvas that make the authoring experience easier for the bot author.
 
 ## Chat widget icon does not load on the portal
 
