@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 10/18/2022
+ms.date: 12/01/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -53,10 +53,9 @@ Each license also includes quotas that limit the total number of Litmus inbox pr
 > To learn more about Dynamics 365 Marketing pricing and licensing offers as well as prerequisites, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 #### Non-production app
-A non-production license entitles you to set up a test environment for trying out new features or customizations. Non-production licenses include both solutions and services, and are fully functional, but have much stricter quotas and can't be used to run production campaigns.
+After you’ve purchased a core license, you may decide that you want to set up a test environment. A non-production license allows you to set up a non-production environment to try new features or customizations. As the name implies, you can’t use a non-production license to run production campaigns or interact with contacts.
 
-> [!TIP]
-> The distinction between a non-production license and a production license is only relevant to the purchase price at the time you buy the license. Whether you use a non-production or production app, the app's interface and functionality will be the same. The non-production license simply allows you to have a separate fully functional app in a non-production environment so that you can test your configuration before implementing it in the production environment.
+The distinction between a non-production license and a production license is only relevant to the purchase price at the time you buy the license. Whether you use a non-production or production app, the app's interface and functionality will be the same. The non-production license simply allows you to have a separate fully functional app in a non-production environment so that you can test your configuration before implementing it in the production environment.
 
 #### Solution Only app
 A Solution Only license includes all of the entities and solutions for Dynamics 365 Marketing, but doesn't include any of the marketing services. This means that marketing capabilities aren't available in this option (including email  creation, email delivery, segmentation, customer journeys, and more). This license is intended for use on development and test environments when making customizations, solving compatibility issues, importing or exporting solutions, and doing other types of development and non-functional marketing testing. A Solution Only license is included with all paid licenses and allows you to install the Solution Only app on as many environments as needed.

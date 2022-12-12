@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/setup-mobile-offline.md",
+      "redirect_url": "/power-apps/mobile/setup-mobile-offline-classic",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/work-in-offline-mode.md",
+      "redirect_url": "/power-apps/mobile/work-offline-mode-classic",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/mobile-offline-capabilities.md",
+      "redirect_url": "/power-apps/mobile/offline-capabilities",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/real-time-marketing-new-journey-version.md",
       "redirect_url": "real-time-marketing-edit-journey",
       "redirect_document_id": "false"
@@ -24361,6 +24376,11 @@
       "redirect_url": "deprecations-sales#talking-points-is-deprecated",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ce/sales/apply-remove-tags-seller.md",
+      "redirect_url": "manage-sequences-seller#apply-and-remove-tags-from-your-sequences",
+      "redirect_document_id": "false"
+    },    
     {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
