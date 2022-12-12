@@ -44,6 +44,10 @@ Yes, you have the following two options to bring your existing numbers to Omnich
     2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
 
 - **Configure Azure direct routing**. You can configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services, and then register the phone number in Dynamics 365. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+
+### Can my SBC and DNS server be deployed in different regions?
+
+Azure Communication Services hosts the group calls in the region where the DNS server is deployed. If the SBC and DNS server are in different regions, users can experience a delay. Ensure that your SBC and the DNS server are deployed in the same region, and is not delegated to a sub domain.
  
 ### How can I acquire additional phone numbers from Azure Communication Services?
 

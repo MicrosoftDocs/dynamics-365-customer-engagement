@@ -26,6 +26,7 @@ Azure direct routing (preview) enables you to connect your existing telephony in
   - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony/certified-session-border-controllers).
   - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony/direct-routing-provisioning).
   - Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC.
+  - Azure Communication Services hosts the group calls in the region where the DNS server is deployed. Ensure that your SBC and the DNS server are deployed in the same region, and is not a sub delegation domain.
 
 ## Bring your own phone number via Azure direct routing
 
