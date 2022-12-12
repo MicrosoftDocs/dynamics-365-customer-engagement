@@ -34,7 +34,7 @@ If the message template isn't configured, Dynamics Marketing supports and will d
 
 ### How to define it:
 
-**First**, you must create your [own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will include all the message parts defined in your channel (Step 3<ADD LINK TO STEP 3>) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
+**First**, you must create your [own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will include all the message parts defined in your channel ([Step 3](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-message-parts)) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
 
 ```
 ..
@@ -95,5 +95,5 @@ If the message template isn't configured, Dynamics Marketing supports and will d
 .. 
 ```
 
-The form ID of this entity will be assigned to **msdyn_messageformid attribute** later at the Channel Definition Step<ADD LINK to STEP 7>. 
+The form ID of this entity will be assigned to **msdyn_messageformid attribute** later at the [Channel Definition step](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-definition). 
 You can use custom controls on the form or use Marketing OOB controls such as the **MsdynmktControls.RichTextControl.RichTextControl** that supports personalization.
