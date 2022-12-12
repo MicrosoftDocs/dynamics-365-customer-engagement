@@ -25,15 +25,15 @@ search.app:
 
 **Channel Instance** is the representation of a channel in Marketing, after an admin uses an installed custom channel package to create and set up the new custom channel.
 
-When creating a new custom channel, you need to set up a sender for example, the sender of the WhatsApp message. It means, each **Channel Instance** for channels of **Custom type** represents a single sender
+When creating a new custom channel, you need to set up a sender for example, the sender of the WhatsApp message. It means, each **Channel Instance** for channels of **Custom type** represents a single sender.
 
 ### How to define it:
 
 For each custom channel solution, you need to:
 
-1. [Create your own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at Channel Definition Step<ADD LINK to STEP 7>.
+1. [Create your own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at [Channel Definition Step](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-definition).
 
-1. [Add a relationship](/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](/learn.microsoft.com/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448). Example of the relationship in xml:
+1. [Add a relationship](/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448). Example of the relationship in xml:
 
 ```
 <EntityRelationship Name="msdyn_ChannelInstance_extendedentityid_cr65f_samplechannelinstance">
@@ -72,7 +72,7 @@ For each custom channel solution, you need to:
   </EntityRelationship>
 ```
 
-c. Create a form to expose the configuration fields. The form will be loaded at the Marketing setup wizard. The form ID will be assigned to attribute **msdyn_channeldefinitionexternalformid** at Channel Definition Step<ADD LINK to STEP 6>.
+3. Create a form to expose the configuration fields. The form will be loaded at the Marketing setup wizard. The form ID will be assigned to attribute **msdyn_channeldefinitionexternalformid** at [Channel Definition Step](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-definition).
 
 For example, 
 
