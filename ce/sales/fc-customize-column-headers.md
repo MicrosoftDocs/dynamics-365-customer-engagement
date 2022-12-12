@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Customize column headers in the forecast grid
 
-You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tool tip for additional context.  
+You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tooltip for additional context.  
 
 ## License and role requirements
 
