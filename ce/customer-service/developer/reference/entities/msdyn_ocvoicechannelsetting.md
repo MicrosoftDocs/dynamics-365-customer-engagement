@@ -367,8 +367,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_recordingmode Choices/Options
 
-|Value|Label|
-|-----|-----|
+|Value|Label|Description|
+|-----|-----|-----|
 |192351000|None|Feature is disabled|
 |192351001|Manual|Feature is enabled/disabled manually|
 |192351002|Automatic|Feature enable and disable is automatically managed|
@@ -412,8 +412,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_transcriptionmode Choices/Options
 
-|Value|Label|
-|-----|-----|
+|Value|Label|Description|
+|-----|-----|-----|
 |192351000|None|Feature is disabled|
 |192351001|Manual|Feature is enabled/disabled manually|
 |192351002|Automatic|Feature enable and disable is automatically managed|
