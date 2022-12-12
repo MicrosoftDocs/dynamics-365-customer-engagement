@@ -37,7 +37,7 @@ The real-time marketing static segment experience helps you capture the audience
 
 **Example**: Let’s say you have a list of all contacts who’ve checked into the event, “Contoso Furniture Design Workshop”.
 
-Using the [attribute logic builder] (real-time-marketing-build-segments.md), you build your segment as usual. You then decide that you want to create a static snapshot to capture only the contacts who’ve checked into the event at the time you’re making the segment. To create a static snapshot of the segment, go to **Settings** and set the segment refresh rate to **Static snapshot**.
+Using the [attribute logic builder](real-time-marketing-build-segments.md), you build your segment as usual. You then decide that you want to create a static snapshot to capture only the contacts who’ve checked into the event at the time you’re making the segment. To create a static snapshot of the segment, go to **Settings** and set the segment refresh rate to **Static snapshot**.
 
 > [!div class="mx-imgBorder"]
 >![Create a static snapshot](media/real-time-marketing-static-snapshot-of-segment.png "Create a static snapshot")

@@ -1,7 +1,7 @@
 ---
 title: "Preview: Use natural language to create segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use natural language assist to create segments in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 11/03/2022
+ms.date: 11/09/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,6 +23,8 @@ search.app:
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5csiL]
 
 Segment creation traditionally required extensive knowledge of the complex data structures defined by your business. To simplify creating segments in real-time marketing, you can use natural language to describe the segment definition in simple English. Natural language segment creation lets you add the results query onto the segment builder at any level of the query logic, either as a new group or as an additional condition in your existing logic. You can even improve the natural language engine by giving feedback, helping you achieve more detailed results in the future.
 

@@ -1,7 +1,7 @@
 ---
 title: "Preview: Manually add a custom channel (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to extend your outreach by manually adding a custom channel in Dynamics 365 Marketing."
-ms.date: 11/03/2022
+ms.date: 12/11/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -16,6 +16,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
+
 # Preview: Manually add a custom channel
 
 > [!IMPORTANT]
@@ -57,10 +58,11 @@ The implementation requirements for channels of SMS and Custom type differ as fo
 |    <br>Custom APIs                                                       |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
 |    <br>Channel Definition                                                |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
 
-#### Sample solutions  
+#### Sample solutions
+
 The samples below include unpacked solutions for Dataverse and plugins projects.
 To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool)
 
-SampleSmsChannel.zip
+[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
 
-SampleCustomChannel.zip
+[SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Marketing public IP addresses (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about the public IP addresses for Dynamics 365 Marketing clusters."
-ms.date: 04/11/2022
+ms.date: 12/07/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -22,11 +22,11 @@ search.app:
 
 The table below shows Marketing services public IP addresses listed by region.
 
-| Region                     | Public IPs                                                                                                 |
+| Region                     | Public IPs                                                                                                |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
 | Asia Pacific (APJ)         | 52.230.2.112,<br>20.212.150.142,<br>104.43.19.46                                                          |
 | Canada (CAN)               | 52.237.22.190,<br>20.104.252.173,<br>20.116.53.158                                                        |
-| Europe (EUR)               | 52.178.209.68,<br>168.63.44.231,<br>137.135.163.36,<br>51.137.206.145,<br>52.157.185.234,<br>13.94.241.14 |
+| Europe (EUR)               | 52.169.10.20,<br>52.178.209.68,<br>168.63.44.231,<br>137.135.163.36,<br>20.223.139.70,<br>20.234.118.41,<br>20.166.65.207,<br>20.234.1.10,<br>20.234.1.34,<br>20.166.65.231,<br>20.166.68.15,<br>20.234.119.222,<br>20.234.85.30,<br>20.166.68.135,<br>52.157.202.103,<br>51.137.206.145,<br>52.157.185.234,<br>13.94.241.14,<br>13.95.200.229|
 | France (FRA)               | 40.89.132.207,<br>51.103.53.91,<br>20.216.185.183                                                         |
 | Great Britain (GBR)        | 51.140.180.109,<br>51.143.167.98,<br>51.142.251.202                                                       |
 | India (IND)                | 20.219.250.190,<br>20.197.27.160                                                                          |
