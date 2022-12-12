@@ -4,7 +4,7 @@ description: "Learn about how to add a Power Virtual Agents bot for using in voi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/08/2022
+ms.date: 12/12/2022
 ms.topic: article
 
 ms.custom: intro-internal
