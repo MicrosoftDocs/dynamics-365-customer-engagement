@@ -17,7 +17,7 @@ A bookmark captures the state of a report page, including changes that you've ma
 
 ## Prerequisites
 
-Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to any of the following security roles, for the **Report Bookmark** custom entity.
+Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to the following security roles as applicable, for the **Report Bookmark** custom entity.
 - CSR Manager
 - Customer Service Representative
 - Knowledge Manager
