@@ -27,7 +27,7 @@ If your Admin UI is exposed to a diverse audience, an  d you want to localize it
 ### Channel Definition Locale contract:
 
 Entity logical name: **msdyn_channeldefinitionlocale**  
-Entity set name: **msdyn_channeldefinitionlocales** 
+Entity set name: **msdyn_channeldefinitionlocales**  
 Primary Id attribute name: **msdyn_channeldefinitionlocaleid**
 
 • **msdyn_localeid**: int - Language code ID (for example, English - United States 1033)
