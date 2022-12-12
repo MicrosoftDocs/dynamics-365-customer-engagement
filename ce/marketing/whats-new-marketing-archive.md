@@ -163,7 +163,7 @@ The Dynamics 365 Marketing October 2021 update includes a new content ideas feat
     - [Docs](real-time-marketing-outbound-text-messaging.md)
 - **Personalize emails to include lists of related data**
     - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/personalize-emails-include-lists-related-data)
-    - [Docs](real-time-marketing-personalization.md#lists-of-content)
+    - [Docs](real-time-marketing-personalize-lists.md)
 
 #### Monthly enhancements
 
