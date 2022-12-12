@@ -15,9 +15,9 @@ A bookmark captures the state of a report page, including changes that you've ma
 > [!Note]
 > You can use bookmarks only in historical and knowledge analytics reports.
 
-## Prerequisites
+## Create personalized views of reports
 
-To be able to save personalized views of your reports as bookmarks at user level, you must grant **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, for the **Report Bookmark** custom entity.
+To save personalized views of your reports as bookmarks at the user level, you can grant **Create**, **Read**, **Write**, and **Delete** privileges to any of the following security roles, for the **Report Bookmark** custom entity.
 - CSR Manager
 - Customer Service Representative
 - Knowledge Manager
