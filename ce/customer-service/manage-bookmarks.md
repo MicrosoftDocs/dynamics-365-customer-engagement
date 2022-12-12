@@ -10,14 +10,14 @@ manager: shujoshi
 
 # Manage bookmarks for reports
 
-A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. You can save personalized views of your reports as bookmarks at user level.
+A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. 
 
 > [!Note]
 > You can use bookmarks only in historical and knowledge analytics reports.
 
 ## Prerequisites
 
-To be able to set bookmarks, you must grant **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, for the **Report Bookmark** custom entity.
+To be able to save personalized views of your reports as bookmarks at user level, you must grant **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, for the **Report Bookmark** custom entity.
 - CSR Manager
 - Customer Service Representative
 - Knowledge Manager
