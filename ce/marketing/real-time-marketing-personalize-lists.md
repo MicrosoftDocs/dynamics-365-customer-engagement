@@ -16,7 +16,8 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-# Lists of content
+
+# Personalize lists of content in emails
 
 Lists (each) statements allow you to format and display repeated content for a given table. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the list to be evaluated including the number of rows to display and the order to display them in.
 

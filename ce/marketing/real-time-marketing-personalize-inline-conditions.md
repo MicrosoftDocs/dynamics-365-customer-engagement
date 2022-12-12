@@ -19,7 +19,7 @@ search.app:
 
 # Personalize inline conditions with conditional content
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create conditional statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated. Below is an example of conditional expressions using placeholders to specify conditions.
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create conditional statements in the designer or the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated. Below is an example of conditional expressions using placeholders to specify conditions.
 
 ```
 {{#if placeholderName}}
@@ -34,7 +34,7 @@ Conditional (if-then-else) statements display content depending on whether one o
 {{/if}}
 ```
 
-If you are adding code to HTML, make sure to put comments around the code:
+If you're adding code to HTML, make sure to put comments around the code:
 
 ```
 <!-- {{#if placeholderName}} -->
@@ -85,7 +85,7 @@ You can use relative and partial dates when defining a condition that uses dates
 
 #### Partial dates
 
-Partial dates allow you to define a conditions such as "Birthday is Today" or "Birthday is this month." The available options for partial dates are as follows:
+Partial dates allow you to define conditions such as "Birthday is Today" or "Birthday is this month." The available options for partial dates are as follows:
 
 - Day can be checked for any day, today, a specific day (such as the 15th), or a day (or days) of the week (such as Monday and Wednesday).
 - Month can be checked for any month, this month, or a specific month (such as February).
@@ -96,7 +96,7 @@ Partial dates allow you to define a conditions such as "Birthday is Today" or "B
 
 #### Relative dates
 
-Relative dates allow you to define conditions such as "Birthday is next month" or "Birthday was 2 days before today." Options here include ability to specify number of Days, months, or years "from today" or "before today."
+Relative dates allow you to define conditions such as "Birthday is next month" or "Birthday was 2 days before today." Options here include the ability to specify the number of days, months, or years "from today" or "before today."
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing relative date settings.](media/real-time-marketing-relative.png)
