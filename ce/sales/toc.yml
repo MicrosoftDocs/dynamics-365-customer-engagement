@@ -1089,36 +1089,36 @@
                   href: developer/reference/playbooks-entities/msdyn_playbooktemplate.md
                 - name: msdyn_callablecontext
                   href: developer/reference/playbooks-entities/msdyn_callablecontext.md
-            - name: PriceLevel
-              href: developer/entities/pricelevel.md
-            - name: Product
-              href: developer/entities/product.md
-            - name: ProductAssociation
-              href: developer/entities/productassociation.md
-            - name: ProductPriceLevel
-              href: developer/entities/productpricelevel.md
-            - name: ProductSubstitute
-              href: developer/entities/productsubstitute.md
-            - name: Quote
-              href: developer/entities/quote.md
-            - name: QuoteClose
-              href: developer/entities/quoteclose.md
-            - name: QuoteDetail
-              href: developer/entities/quotedetail.md
-            - name: RollupField
-              href: developer/entities/rollupfield.md
-            - name: SalesLiterature
-              href: developer/entities/salesliterature.md
-            - name: SalesLiteratureItem
-              href: developer/entities/salesliteratureitem.md
-            - name: SalesOrder
-              href: developer/entities/salesorder.md
-            - name: SalesOrderDetail
-              href: developer/entities/salesorderdetail.md
-            - name: UoM
-              href: developer/entities/uom.md
-            - name: UoMSchedule
-              href: developer/entities/uomschedule.md
+          - name: PriceLevel
+            href: developer/entities/pricelevel.md
+          - name: Product
+            href: developer/entities/product.md
+          - name: ProductAssociation
+            href: developer/entities/productassociation.md
+          - name: ProductPriceLevel
+            href: developer/entities/productpricelevel.md
+          - name: ProductSubstitute
+            href: developer/entities/productsubstitute.md
+          - name: Quote
+            href: developer/entities/quote.md
+          - name: QuoteClose
+            href: developer/entities/quoteclose.md
+          - name: QuoteDetail
+            href: developer/entities/quotedetail.md
+          - name: RollupField
+            href: developer/entities/rollupfield.md
+          - name: SalesLiterature
+            href: developer/entities/salesliterature.md
+          - name: SalesLiteratureItem
+            href: developer/entities/salesliteratureitem.md
+          - name: SalesOrder
+            href: developer/entities/salesorder.md
+          - name: SalesOrderDetail
+            href: developer/entities/salesorderdetail.md
+          - name: UoM
+            href: developer/entities/uom.md
+          - name: UoMSchedule
+            href: developer/entities/uomschedule.md
     - name: Action Reference
       items:
         - name: RecalculatePrice Action
