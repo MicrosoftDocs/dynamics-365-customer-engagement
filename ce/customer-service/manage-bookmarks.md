@@ -17,7 +17,7 @@ A bookmark captures the state of a report page, including changes that you've ma
 
 ## Prerequisites
 
-To enable bookmarks for Omnichannel historical, intraday historical, and knowledge analytics reports, you must add **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, in the **Report Bookmark** custom entity.
+To enable bookmarks for Omnichannel historical, intraday historical, and knowledge analytics reports, you must add **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, for the **Report Bookmark** custom entity.
 - CSR Manager
 - Customer Service Representative
 - Knowledge Manager
