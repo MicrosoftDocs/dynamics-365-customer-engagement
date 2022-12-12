@@ -28,7 +28,7 @@ You can customize column headers in the forecast grid using Power Apps code comp
 
 Let's understand the customizations with an example. We'll add the French translation for the column names **Forecast** and **Won** in the forecast grid.  
 
-1. [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component)) with the name ```ColumnHeader```  
+1. [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component) with the name ```ColumnHeader```  
 1. [Create a resource file and add translations](#create-a-resource-file-and-add-translations)
 1. [Implement the manifest](#implement-the-manifest)
 1. [Implement the component logic](#implement-the-component-logic)
