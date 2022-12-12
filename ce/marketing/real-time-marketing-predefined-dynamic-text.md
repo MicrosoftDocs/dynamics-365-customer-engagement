@@ -94,7 +94,7 @@ To remove pre-defined dynamic text:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of removing pre-defined dynamic text.](media/real-time-marketing-predefined-tokens-remove.png "Screenshot of removing pre-defined dynamic text")
 
-## Communicate dates and times in a variety of formats
+## Communicate dates and times in various formats
 
 When you work with multiple geographies and languages, communicating dates and times clearly requires using the right format to match the recipient's expectations. To ensure your communications are clear for all recipients, real-time marketing supports many date and time formats.
 
