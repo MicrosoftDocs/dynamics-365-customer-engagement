@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/09/2022
+ms.date: 12/12/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -29,6 +29,82 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 ## 2022 updates
 
+### December 2022 update
+
+For the December 2022 release, general availability features include custom channels that allow you to extend your outreach in real-time marketing, date and time formatting flexibility for different locales, and access to more personalization data. Public preview features include real-time marketing lead capture forms that convert visitors into customers and reminders within journeys to help drive customer action. 
+
+Starting this month, we'll highlight recently published blogs and scenario documentation in addition to the product docs that support the newly released features.
+
+The December release also includes three private preview features: modernized business units to help scale multi-brand businesses effortlessly, customizable preference centers to enforce and track customer consent in ways that meet your business needs, and a real-time marketing-only version of that Marketing app that removes outbound marketing features.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        |  1.90.2011.0    |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### General availability features 
+
+- **Extend your outreach with custom channels**   
+    - Extend real-time marketing using the communication channels you're familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement. 
+    - [Release plan](/dynamics365/marketing/real-time-marketing-create-custom-channels)
+    - [Docs](/dynamics365/marketing/real-time-marketing-create-custom-channels)
+
+- **Communicate dates and times in a variety of formats**
+    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale, and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
+    - [Docs](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats) 
+
+- **Access even more data to personalize your customer outreach**
+   - You're no longer limited to accessing Dataverse tables that are directly related to an Audience or Triggers. Now, you can access any Dataverse table to include information in your communications. For example, for a product launch email, you may want to include product information, image, and SKU number. Such details may be available in a Product table, which you can now use for personalization.
+   - [Docs](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text#access-even-more-data-for-personalization)
+
+#### Public preview 
+
+- **Create lead capture forms that convert visitors to customers**
+
+   - Now in real-time marketing, create modern website forms that capture your customers' attention while allowing them to enter their data. Use the drag-and-drop editor to create forms that collect marketing data, convert visitors into leads, and convert leads into paying customers. With the new form editor, you can create robust forms without relying on complex code and developers.
+   - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-lead-capture-forms-that-convert-visitors-customers)
+   - [Docs](/dynamics365/marketing/real-time-marketing-form-editor)
+
+- **Fine-tune email communications with filtered lists**
+
+   - Including an entire list is a common scenario, but there are times when it's more effective to only include items from a list that meet certain conditions. For example, a confirmation email about an order that needs to separately list items that are back ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by adding a filter to your list.
+   - [Docs](/dynamics365/marketing/real-time-marketing-personalize-lists)
+
+#### Monthly enhancements
+
+- **Real-time marketing journeys**
+
+   - Delete real-time marketing journeys directly from list view and remove unused or abandoned journeys. Maintain full control of your journey list and focus on the right journeys when you need them.
+
+   - Tailor your user experience by disabling create and edit functionality for journeys on mobile devices.
+
+- **Real-time segment builder**
+
+   - Create more specialized segments using related entities up to five hops away.
+
+#### New blogs and scenario docs
+
+To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs and scenario docs:
+
+• [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Blogs for BDM](/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+
+• [Engage your customers faster with AI-powered marketing email content - Dynamics 365 Blogs for IT Pro](/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+
+• [’Tis the season for exceptional customer experiences - Microsoft Industry Blogs](/industry-blog/retail/2022/12/01/tis-the-season-for-exceptional-customer-experiences/)
+
+• [Deploying Event Portal Changes in Dynamics 365 Marketing - Dynamics FastTrack Blogs](/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
+
+• [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
+
+• [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
+• [Send a targeted email blast in real-time marketing - Scenario doc](/dynamics365/marketing/real-time-marketing-email-get-started)
+
 ### November 2022 update
 
 The Dynamics 365 Marketing November 2022 update includes one preview feature and one monthly enhancement. The preview feature enables date and time formatting flexibility for different locales. The monthly enhancement improves personalization access and usability.
@@ -45,7 +121,7 @@ The Dynamics 365 Marketing November 2022 update includes one preview feature and
 #### Preview feature
 
 - **Communicate dates and times in a variety of formats**
-    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
+    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale, and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
 
     > [!div class="mx-imgBorder"]
@@ -102,7 +178,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
     > ![Screenshot of editing a live journey.](media/whats-new-live-journey-edit.png "Screenshot of editing a live journey")
 
 - **Easily manage content across multiple brands in the email designer**
-    - Brand profiles allow you to manage different brands easily. Reduce content-related errors by defining default senders for emails and default social links. Extend your brand profile entity with custom values that you can use when creating content. Create multiple profiles for your organization as well as for each of your business units.
+    - Brand profiles allow you to manage different brands easily. Reduce content-related errors by defining default senders for emails and default social links. Extend your brand profile entity with custom values that you can use when creating content. Create multiple profiles for your organization and for each of your business units.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-consistent-content-brand-profiles)
     - [Docs](brand-profiles.md)
 
@@ -110,7 +186,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
     > ![Screenshot of brand profiles.](media/whats-new-brandprofile.png "Screenshot of brand profiles.")
 
 - **Test all paths customers take before publishing journeys**
-    - Testing custom triggers before using them in a journey is the safest way to ensure that your expectations meet the customer's reality. The test send feature gives you reassurance in the quality and behavior of your custom triggers before you send them to your audience. To test your custom triggers, you can run internal users through the journey to determine if your triggers work correctly and validate the path that your customers will take.
+    - Testing custom triggers before using them in a journey is the safest way to ensure that your expectations meet the customer's reality. The test send feature gives you reassurance in the quality and behavior of your custom triggers before you send them to your audience. To test your custom triggers, you can run internal users through the journey to determine if your triggers work correctly, and validate the path that your customers will take.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/test-every-path-customers-will-take-before-publish-journey)
     - [Docs](real-time-marketing-test-triggers.md)
 
