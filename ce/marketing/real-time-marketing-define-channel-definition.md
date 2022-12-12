@@ -62,13 +62,13 @@ Channel Definitions are defined in the **customizations.xml** as solution compon
 
 In the example below, you will notice that:
 
-• the **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the formId of the entity that we created in **Step 1**<ADD LINK to STEP 1>
+• the **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the formId of the entity that we created in [Step 1](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-custom-channel-instance).
 
-• the **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the the name and the formId of the entity that we created in **Step 2**<ADD LINK to STEP 2>.
+• the **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the the name and the formId of the entity that we created in [Step 2](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-instance-account).
 
-• the **msdyn_messageformid** contains the formId that you created in **Step 4** <ADD LINK to STEP 4>
+• the **msdyn_messageformid** contains the formId that you created in [Step 5](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-message-editor).
 
-• the **msdyn_outboundendpointurltemplate** contains the Custom API that you created in **Step 5**<ADD LINK to STEP 6>.
+• the **msdyn_outboundendpointurltemplate** contains the Custom API that you created in [Step 6](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-custom-api).
 
 ### Example of customizations.xml including channel definition
 
@@ -103,5 +103,5 @@ In the example below, you will notice that:
 The samples below include unpacked solutions for Dataverse and plugins projects.
 To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool).
 
-SampleSmsChannel.zip
-SampleCustomChannel.zip
+[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)  
+[SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
