@@ -65,8 +65,11 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
 1. Select the **Delete** icon.
 
 ### Storage location of your recordings and cost
-
+ 
 The maximum file size of a recording can be 512 MB. The voice recording and transcript data resides in the following locations:
+
+ > [!div class="mx-imgBorder"]
+   > ![Screenshot of data residency](./media/vc-data-residency.png)
 
 - **Data at rest**: Is stored in Dataverse wherever your Dynamics instance is located.
 - **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties, and therefore, data needs to be reviewed end-to-end and will include components outside the Microsoft stack.
@@ -75,6 +78,7 @@ The data storage costs with two participants only is calculated approximately as
 
 - 20-minute call recording = 10240 KB
 - 20-minute call transcript = 40 KB
+
 
 ### See also
 
