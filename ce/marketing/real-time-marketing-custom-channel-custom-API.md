@@ -25,7 +25,7 @@ search.app:
 
 #### Why you need it:
 
-A [custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-api) needs to be defined so that it will be called during the Journey runtime in Marketing. It's the entry point for custom code execution.   The Custom API will then call the Provider’s APIs. This API must accept the contract defined by the Marketing Journey and return the response. This custom API will be assigned to attribute **msdyn_outboundendpointurltemplate** at the [channel definition step](real-time-marketing-channel-definition.md).
+A [custom API](/learn.microsoft.com/power-apps/developer/data-platform/custom-api) needs to be defined so that it will be called during the Journey runtime in Marketing. It's the entry point for custom code execution.   The Custom API will then call the Provider’s APIs. This API must accept the contract defined by the Marketing Journey and return the response. This custom API will be assigned to attribute **msdyn_outboundendpointurltemplate** at the [channel definition step](real-time-marketing-define-channel-definition.md).
 
 #### How to define it:
 

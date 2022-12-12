@@ -34,65 +34,65 @@ If the message template isn't configured, Dynamics Marketing supports and will d
 
 ### How to define it: 
 
-• **First**, you must create your [own custom entity](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) that will include all the message parts defined in your channel (Step 3<ADD LINK TO STEP 3>) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
+**First**, you must create your [own custom entity](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) that will include all the message parts defined in your channel (Step 3<ADD LINK TO STEP 3>) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
 
 ```
-•	..
-•	<attributes>
-•	        ..
-•	        <attribute PhysicalName="cr65f_name">..</attribute>
-•	        <attribute PhysicalName="cr65f_placeholders">..</attribute>
-•	        <attribute PhysicalName="cr65f_text">..</attribute>
-•	        ..
-•	</attributes>
-•	..
+..
+<attributes>
+        ..
+        <attribute PhysicalName="cr65f_name">..</attribute>
+        <attribute PhysicalName="cr65f_placeholders">..</attribute>
+        <attribute PhysicalName="cr65f_text">..</attribute>
+        ..
+</attributes>
+..
 ```
 
-• **Second**, you must create a form for this custom entity that will be loaded at Marketing content editor. The form should contain the cr65f_text and cr65f_placeholders attributes. For example:
+**Second**, you must create a form for this custom entity that will be loaded at Marketing content editor. The form should contain the cr65f_text and cr65f_placeholders attributes. For example:
 
 ```
-•	..
-•	<formid>{69723cfe-3835-4126-ab9a-a82a5b88c21d}</formid>
-•	<form>
-•	      <tabs>
-•	        <tab verticallayout="true" id="{921c575b-3e4a-495c-867d-b8f6e1c113e0}" IsUserDefined="1">
-•	          <labels>
-•	            <label description="General" languagecode="1033" />
-•	          </labels>
-•	          <columns>
-•	            <column width="100%">
-•	              <sections>
-•	                <section showlabel="false" showbar="false" IsUserDefined="0" id="{661ec403-bf06-41a0-86de-f93a05c558f6}">
-•	                  <labels>
-•	                    <label description="General" languagecode="1033" />
-•	                  </labels>
-•	                  <rows>
-•	                    <row>
-•	                      <cell id="{95b0236e-63bd-c6ea-52dc-d7b9c4dca696}" showlabel="true" locklevel="0">
-•	                        <labels>
-•	                          <label description="Text" languagecode="1033" />
-•	                        </labels>
-•	                        <control id="cr65f_text" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cr65f_text" disabled="false" uniqueid="{05bb6ed1-e802-412c-9813-7eded53f3f73}" />
-•	                      </cell>
-•	                    </row>
-•	                    <row>
-•	                      <cell id="{dc3b7ed4-9a3d-14e1-ac32-b851ea4e11c3}" showlabel="true" locklevel="0" visible="false">
-•	                        <labels>
-•	                          <label description="Placeholders" languagecode="1033" />
-•	                        </labels>
-•	                        <control id="cr65f_placeholders" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cr65f_placeholders" disabled="false" uniqueid="{b02dc4a0-7711-0a2a-0ce4-d0c384a17712}" />
-•	                      </cell>
-•	                    </row>
-•	                  </rows>
-•	                </section>
-•	              </sections>
-•	            </column>
-•	          </columns>
-•	        </tab>
-•	      </tabs>
-•	  ..
-•	</form>
-•	.. 
+..
+<formid>{69723cfe-3835-4126-ab9a-a82a5b88c21d}</formid>
+<form>
+      <tabs>
+        <tab verticallayout="true" id="{921c575b-3e4a-495c-867d-b8f6e1c113e0}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{661ec403-bf06-41a0-86de-f93a05c558f6}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{95b0236e-63bd-c6ea-52dc-d7b9c4dca696}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Text" languagecode="1033" />
+                        </labels>
+                        <control id="cr65f_text" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cr65f_text" disabled="false" uniqueid="{05bb6ed1-e802-412c-9813-7eded53f3f73}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc3b7ed4-9a3d-14e1-ac32-b851ea4e11c3}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Placeholders" languagecode="1033" />
+                        </labels>
+                        <control id="cr65f_placeholders" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cr65f_placeholders" disabled="false" uniqueid="{b02dc4a0-7711-0a2a-0ce4-d0c384a17712}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+  ..
+</form>
+.. 
 ```
 
 The form ID of this entity will be assigned to **msdyn_messageformid attribute** later at the Channel Definition Step<ADD LINK to STEP 7>. 

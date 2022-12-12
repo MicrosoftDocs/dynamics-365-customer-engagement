@@ -16,6 +16,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
+
 # Define your extended configuration entity for Channel Instance
 
 ## Applicable channels: SMS, Custom
@@ -30,9 +31,9 @@ When creating a new custom channel, you need to set up a sender for example, the
 
 For each custom channel solution, you need to:
 
-a. [Create your own custom entity](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at Channel Definition Step<ADD LINK to STEP 7>.
+1. [Create your own custom entity](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at Channel Definition Step<ADD LINK to STEP 7>.
 
-b. [Add a relationship](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships?view=op-9-1) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](/learn.microsoft.com/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448). Example of the relationship in xml:
+1. [Add a relationship](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships?view=op-9-1) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](/learn.microsoft.com/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448). Example of the relationship in xml:
 
 ```
 <EntityRelationship Name="msdyn_ChannelInstance_extendedentityid_cr65f_samplechannelinstance">
@@ -70,16 +71,17 @@ b. [Add a relationship](/learn.microsoft.com/dynamics365/customerengagement/on-p
     </EntityRelationshipRoles>
   </EntityRelationship>
 ```
+
 c. Create a form to expose the configuration fields. The form will be loaded at the Marketing setup wizard. The form ID will be assigned to attribute **msdyn_channeldefinitionexternalformid** at Channel Definition Step<ADD LINK to STEP 6>.
 
 For example, 
 
-i. in **SMS**
+1. in **SMS**
 
-> [!div class="mx-imgBorder"]
-> ![sms](media/real-time-marketing-sms1.png "sms")
+    > [!div class="mx-imgBorder"]
+    > ![sms](media/real-time-marketing-sms1.png "sms")
 
-ii. in **Custom** (The form doesn’t have to contain attributes like name or description since they come from Marketing Custom controls.)
+1. in **Custom** (The form doesn’t have to contain attributes like name or description since they come from Marketing Custom controls.)
 
-> [!div class="mx-imgBorder"]
-> ![custom channel](media/real-time-marketing-select-custom-channel1.png "custom channel")
+    > [!div class="mx-imgBorder"]
+    > ![custom channel](media/real-time-marketing-select-custom-channel1.png "custom channel")
