@@ -66,13 +66,17 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
 
 ### Storage location of your recordings and cost
  
-The maximum file size of a recording can be 512 MB. The voice recording and transcript data resides in the following locations:
+The maximum file size of a recording can be 512 MB. For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties, and therefore, data needs to be reviewed end-to-end and will include components outside the Microsoft stack. This location can be different from the Azure Communication Services location.
 
  > [!div class="mx-imgBorder"]
    > ![Screenshot of data residency](./media/vc-data-residency.png)
 
-- **Data at rest**: Is stored in Dataverse wherever your Dynamics instance is located.
-- **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties, and therefore, data needs to be reviewed end-to-end and will include components outside the Microsoft stack.
+1. **Session Border Controller**
+     - For Direct Offer, when Microsoft is the carrier, Microsoft determines the location where the data is stored. 
+     - Direct Routing:  For bring-your-own-carrier model, the data resides in the region where the SBC is hosted.
+2. **Azure Communication Services**: The data resides in the location where the Azure Communication Services server is hosted.
+1. **Microsoft Dataverse** server location, Dynamics 365, Cosmos DB, and Azure Speech Service should all be in the same location.
+1. Microsoft stores the data for telemetry in Kusto. The data is stored either in the EMEA or the East US cluster.
 
 The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
 
