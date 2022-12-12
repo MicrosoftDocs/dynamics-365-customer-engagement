@@ -82,7 +82,7 @@ When the work order system status changes to **Open-Completed** or **Closed-Post
 
 ## Create and assign asset categories
 
-Use an Asset category to group your assets. Asset categories allow you to quickly apply property templates to a group of assets.
+Use an asset category to group your assets. Asset categories allow you to quickly apply property templates to a group of assets.
 
 1. In Field Service, change to the **Settings** area.
 
