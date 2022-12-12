@@ -30,7 +30,9 @@ If you're creating a custom channel and you want to describe the message parts t
 #### Message parts contract:
 
 Entity logical name: **msdyn_channelmessagepart**
+
 Entity set name: **msdyn_channelmessageparts**
+
 Primary Id attribute name: **msdyn_channelmessagepartid**
 
 • **msdyn_name**: string – Name for the message part. This value is later used as a key to map message part information with outbound message content.
@@ -41,10 +43,7 @@ Primary Id attribute name: **msdyn_channelmessagepartid**
 
 • **msdyn_channeldefinitionid**: GUID – Channel definition id, must match the channel definition id of the channel.
 
-• **msdyn_type**: OptionSet – Channel type, currently supported values:
-o	192350000 plaintext
-
-More types will be introduced in further releases.
+• **msdyn_type**: OptionSet – Channel type, currently supported values: 192350000 plaintext. More types will be introduced in further releases.
 
 • **msdyn_isrequired**: bit - Indicates whether the part is required.
 
@@ -54,7 +53,7 @@ More types will be introduced in further releases.
 
 Message parts are defined in the **customizations.xml** as solution aware components. Place every **msdyn_channelmessagepart** under **ImportExportXml** > **msdyn_channelmessageparts** elements. Note that each message part element **msdyn_channelmessagepart** must include its own unique id in the form of GUID as XML attribute **msdyn_channelmessagepartid**. 
 
-#### Example of customizations.xml including message parts
+#### Example of customizations.xml including message parts:
 
 ```
 <ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
