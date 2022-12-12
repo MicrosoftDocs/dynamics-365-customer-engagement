@@ -31,9 +31,9 @@ When creating a new custom channel, you need to set up a sender for example, the
 
 For each custom channel solution, you need to:
 
-1. [Create your own custom entity](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at Channel Definition Step<ADD LINK to STEP 7>.
+1. [Create your own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will represent the extended configuration of the **Channel Instance** entity (**msdyn_channelinstance**), defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionexternalentity** at Channel Definition Step<ADD LINK to STEP 7>.
 
-1. [Add a relationship](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships?view=op-9-1) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](/learn.microsoft.com/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448). Example of the relationship in xml:
+1. [Add a relationship](/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships) to the base **Channel Instance** entity on **msdyn_extendedentityId** attribute. This attribute is a [polymorphic lookup](/learn.microsoft.com/power-apps/developer/data-platform/webapi/multitable-lookup?branch=pr-en-us-4448). Example of the relationship in xml:
 
 ```
 <EntityRelationship Name="msdyn_ChannelInstance_extendedentityid_cr65f_samplechannelinstance">

@@ -32,9 +32,9 @@ If the message template isn't configured, Dynamics Marketing supports and will d
 > [!NOTE]
 > Please note that Channels of SMS type are using the native SMS editor. 
 
-### How to define it: 
+### How to define it:
 
-**First**, you must create your [own custom entity](/learn.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities?view=op-9-1) that will include all the message parts defined in your channel (Step 3<ADD LINK TO STEP 3>) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
+**First**, you must create your [own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will include all the message parts defined in your channel (Step 3<ADD LINK TO STEP 3>) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
 
 ```
 ..
