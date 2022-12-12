@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 10/28/2022
+ms.date: 12/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -38,23 +38,21 @@ The statuses and their corresponding symbols are as follows.
 
 | Symbol | Status |
 |------|----------|
-| :::image type="icon" source="media/slakpi-in-progress.ico"::: |In progress |
+| :::image type="icon" source="media/slakpi-in-progress.ico"::: | In progress |
 |:::image type="icon" source="media/slakpi-noncompliant.ico":::| Noncompliant |
 |:::image type="icon" source="media/slakpi-nearing-noncompliance.ico":::| Nearing noncompliance |
 |:::image type="icon" source="media/slakpi-paused.ico":::| Paused |
 | :::image type="icon" source="media/slakpi-succeeded.ico":::| Succeeded |
-| :::image type="icon" source="media/slakpi-canceled.ico":::|Canceled |
+| :::image type="icon" source="media/slakpi-canceled.ico":::| Canceled |
 |||
 
-A sample runtime view of the SLA Timer is as follows. The SLA KPIs aren't displayed in any particular order.
+A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed aren't in any particular order.
 
 ![Runtime view of SLA Timers.](media/sla-timer-runtime.png "Runtime view of SLA Timers")
 
-For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time will display the negative countdown time.
+For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time will display the negative countdown time. More information: [Enable elapsed timer for SLA items in terminal or expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
-
-More information: [Enable elapsed timer for SLA items in terminal or expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
 
 ## View the status of an SLA KPI Instance record
 
@@ -70,9 +68,7 @@ When you resume a case, the status of the SLA KPI Instance record is updated. Th
 - Warning time
 - Total time the case is on hold
 
-If you put the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
-
-Similarly, the status of the SLA KPI Instance is updated when the first response time on a case is:
+If you put the case on hold after the warning time, then the warning time isn’t updated when the case is resumed. Similarly, the status of the SLA KPI Instance is updated when the first response time on a case is:
 
 - Nearing expiry
 - Has expired
@@ -84,7 +80,7 @@ Similarly, the status of the SLA KPI Instance is updated when the first response
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLAs](apply-slas.md#apply-slas)
 
-To learn more about adding a timer control to an SLA-enabled entity, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
+To learn more about adding a timer control to an SLA-enabled entity, go to [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md).
 
 ## View active duration and elapsed time for SLA KPI Instances
 
@@ -103,7 +99,7 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
 > [!NOTE]
-> The active duration and elapsed time data isn't applicable for legacy SLAs.
+> The **Active Duration (min)** and **Elapsed Time (min)** data aren't applicable for legacy SLAs.
 
 ### See also
 
