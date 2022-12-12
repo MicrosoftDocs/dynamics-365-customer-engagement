@@ -53,14 +53,23 @@ The December release also includes three private preview features: modernized bu
     - [Release plan](/dynamics365/marketing/real-time-marketing-create-custom-channels)
     - [Docs](/dynamics365/marketing/real-time-marketing-create-custom-channels)
 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of a message using a custom channel.](media/whats-new-custom-channel.png "Screenshot of a message using a custom channel")
+
 - **Communicate dates and times in a variety of formats**
     - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale, and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
     - [Docs](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats) 
 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of a variety of date and time format.](media/whats-new-personalization-date-and-time-format.png "Screenshot of a variety of date and time format")
+
 - **Access even more data to personalize your customer outreach**
    - You're no longer limited to accessing Dataverse tables that are directly related to an Audience or Triggers. Now, you can access any Dataverse table to include information in your communications. For example, for a product launch email, you may want to include product information, image, and SKU number. Such details may be available in a Product table, which you can now use for personalization.
    - [Docs](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text#access-even-more-data-for-personalization)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of personalize your customer outreach.](media/whats-new-personalize-customer-outreach.png "Screenshot of Screenshot of personalize your customer outreach")
 
 #### Public preview 
 
@@ -70,10 +79,16 @@ The December release also includes three private preview features: modernized bu
    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-lead-capture-forms-that-convert-visitors-customers)
    - [Docs](/dynamics365/marketing/real-time-marketing-form-editor)
 
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of lead capture forms.](media/whats-new-lead-capture-forms.png "Screenshot of lead capture forms")
+
 - **Fine-tune email communications with filtered lists**
 
    - Including an entire list is a common scenario, but there are times when it's more effective to only include items from a list that meet certain conditions. For example, a confirmation email about an order that needs to separately list items that are back ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by adding a filter to your list.
    - [Docs](/dynamics365/marketing/real-time-marketing-personalize-lists)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of personalize lists.](media/whats-new-personalize-lists.png "Screenshot of personalize lists")
 
 #### Monthly enhancements
 
