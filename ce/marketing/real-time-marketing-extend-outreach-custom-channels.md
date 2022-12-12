@@ -48,15 +48,15 @@ The overview diagram below shows main components of Marketing and custom channel
 
 The implementation requirements for channels of SMS and Custom type differ as follows:
 
-| **Component**                                                    | **SMS**                                                                          | **Custom**                                                |   |   |   |   |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------|---|---|---|---|
-|    <br>Extended configuration entity for the Channel Instance            |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
-|    <br>Extended configuration entity for the Channel Instance account    |    <br>Required                                                                            |    <br>Not supported currently                                      |   |   |   |   |
-|    <br>Message parts                                                     |    <br>Required, should contain only a single message part with   “msdyn_name” = “text”    |    <br>Required                                                     |   |   |   |   |
-|    <br>Localization for Admin UI                                         |    <br>Optional                                                                            |    <br>Optional                                                     |   |   |   |   |
-|    <br>Message editor UI                                                 |    <br>Not allowed, native Marketing SMS editor is used                                    |    <br>Optional, generic Marketing editor is used if not defined    |   |   |   |   |
-|    <br>Custom APIs                                                       |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
-|    <br>Channel Definition                                                |    <br>Required                                                                            |    <br>Required                                                     |   |   |   |   |
+| **Component**                                                    | **SMS**                                                                          | **Custom**                                                |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+|    <br>Extended configuration entity for the Channel Instance            |    <br>Required                                                                            |    <br>Required                                                     |
+|    <br>Extended configuration entity for the Channel Instance account    |    <br>Required                                                                            |    <br>Not supported currently                                      |
+|    <br>Message parts                                                     |    <br>Required, should contain only a single message part with   “msdyn_name” = “text”    |    <br>Required                                                     |
+|    <br>Localization for Admin UI                                         |    <br>Optional                                                                            |    <br>Optional                                                     |
+|    <br>Message editor UI                                                 |    <br>Not allowed, native Marketing SMS editor is used                                    |    <br>Optional, generic Marketing editor is used if not defined    |
+|    <br>Custom APIs                                                       |    <br>Required                                                                            |    <br>Required                                                     |
+|    <br>Channel Definition                                                |    <br>Required                                                                            |    <br>Required                                                     |
 
 #### Sample solutions
 
