@@ -25,7 +25,7 @@ To enable bookmarks for Customer Service historical, intraday historical, and kn
 - Omnichannel supervisor
 - Omnichannel agent
 
-For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh#configure-user-access-to-analytics-and-dashboards).
+For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Create and manage bookmarks
 
