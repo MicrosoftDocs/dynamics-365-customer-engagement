@@ -22,13 +22,13 @@ search.app:
 
 ### Why you need it:
 
-If you're creating a custom SMS channel, you must define an entity representing extended configuration for **Channel Instance Account** (**msdyn_channelinstanceaccount**). For example, you could have a MessageBird   account and have enabled multiple numbers for it. The **Channel Instance Account** has a 1:N relationship with the **Channel Instances** (for example, phone numbers) that we’ll examine in Step 2 <ADD LINK to STEP 6>.
+If you're creating a custom SMS channel, you must define an entity representing extended configuration for **Channel Instance Account** (**msdyn_channelinstanceaccount**). For example, you could have a MessageBird   account and have enabled multiple numbers for it. The **Channel Instance Account** has a 1:N relationship with the **Channel Instances** (for example, phone numbers) that we examined in [Step 1](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-custom-channel-instance).
 
 ### How to define it:
 
 For each custom channel solution, you need to:
 
-a. Create your own custom entity that will represent the extended configuration of the **Channel Instance Account** entity, defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionaccountexternalentity** at Channel Definition Step<ADD LINK to STEP 7>.
+a. Create your own custom entity that will represent the extended configuration of the **Channel Instance Account** entity, defined in the base solution. The name of the entity will be assigned to the attribute **msdyn_channeldefinitionaccountexternalentity** at [Channel Definition Step](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-definition).
 
 b. Add a relationship to the base **Channel Instance Account** entity on **msdyn_extendedentityId** attribute. This attribute is a polymorphic lookup.   Example of the new relationship in xml:
 
@@ -71,7 +71,7 @@ b. Add a relationship to the base **Channel Instance Account** entity on **msdyn
   </EntityRelationship>
 </EntityRelationships>
 ```
-c. Create a form to expose configuration fields. The form doesn’t have to contain attributes like name or description since they come from Marketing Custom controls. The form will be loaded at the Marketing SMS setup wizard (Settings step). The form ID will be assigned to the attribute **msdyn_channeldefinitionaccountexternalformid** at Channel Definition Step<ADD LINK to STEP 7>.  
+c. Create a form to expose configuration fields. The form doesn’t have to contain attributes like name or description since they come from Marketing Custom controls. The form will be loaded at the Marketing SMS setup wizard (Settings step). The form ID will be assigned to the attribute **msdyn_channeldefinitionaccountexternalformid** at [Channel Definition Step](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-definition).  
 
 For example, in SMS, the form will look as follows:
 
