@@ -10,9 +10,22 @@ manager: shujoshi
 
 # Manage bookmarks for reports
 
-Save personalized views of your reports as bookmarks at user level. A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
+A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. You can save personalized views of your reports as bookmarks at user level.
 
-Bookmarks are available in historical analytics reports and knowledge analytics reports only.
+> [!Note]
+> Bookmarks are only available in historical analytics reports and knowledge analytics reports.
+
+## Prerequisites
+
+To enable bookmarks for Customer Service historical, intraday historical, and knowledge management analytics reports, you must add **Create**, **Read**, **Write**, and **Delete** privileges for the following security roles, in the **Report Bookmark** custom entity.
+- CSR Manager
+- Customer Service Representative
+- Knowledge Manager
+- Omnichannel administrator
+- Omnichannel supervisor
+- Omnichannel agent
+
+For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh#configure-user-access-to-analytics-and-dashboards).
 
 ## Create and manage bookmarks
 
