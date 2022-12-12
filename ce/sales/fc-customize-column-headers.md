@@ -25,8 +25,7 @@ You can customize column headers in the forecast grid using Power Apps code comp
 
 Let's understand the customizations with an example. We'll add the French translation for the column names **Forecast** and **Won** in the forecast grid.  
 
-1. [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component)) with the name ```ColumnHeader```.  
-
+1. [Create a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf#create-a-new-component)) with the name ```ColumnHeader```  
 1. [Create a resource file and add translations](#create-a-resource-file-and-add-translations)
 1. [Implement the manifest](#implement-the-manifest)
 1. [Implement the component logic](#implement-the-component-logic)
@@ -41,7 +40,7 @@ After you create the code component, the `ColumnHeader` folder is created in the
 
 1. Copy the following code to a new file, ColumnHeader.1036.resx.
     > [!NOTE]
-    > The number 1036 in the file name is the language code for French. For a list of language codes, go to this [page](https://learn.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+    > The number 1036 in the file name is the language code for French. For a list of language codes, go to this [Learn page](https://learn.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
  
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -118,9 +117,10 @@ After you create the code component, the `ColumnHeader` folder is created in the
     
     > [!NOTE]
     > In the `name` parameter, specify the exact column name that you've configured in the **Layout** step of the forecast.
+    > 
     > :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::  
 
-    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Ensure that that resource file name uses the following naming convention:  
+    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Ensure that the resource file name uses the following naming convention:  
         
     ```
     filename.languagecode.resx  
