@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 12/12/2022
+ms.date: 12/13/2022
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
