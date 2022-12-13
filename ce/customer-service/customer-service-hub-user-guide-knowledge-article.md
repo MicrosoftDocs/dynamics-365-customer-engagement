@@ -1,6 +1,6 @@
 ---
-title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
-description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
+title: Create and manage knowledge articles
+description: Learn how to create and manage knowledge articles.
 ms.date: 12/13/2022
 ms.topic: article
 author: Soumyasd27

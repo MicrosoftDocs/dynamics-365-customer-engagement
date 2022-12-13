@@ -1,6 +1,6 @@
 ---
-title: Configure a default knowledge article authoring language for your organization| MicrosoftDocs
-description: Learn how to configure a default language for authoring knowledge articles in Dynamics 365 Customer Service
+title: Configure a default knowledge article authoring language for your organization
+description: Learn how to configure a default language for authoring knowledge articles in Dynamics 365 Customer Service.
 ms.date: 12/13/2022
 ms.topic: article
 author: Soumyasd27
