@@ -528,12 +528,12 @@
         href: translate-ka.md
       - name: Manage feedback for knowledge articles
         href: feedback-sla.md 
-      - name: Knowledge article analytics
-        href: dashboards-ka.md
       - name: Create templates for knowledge articles
         href: create-templates-knowledge-article.md
       - name: Prevent duplicate workflows with knowledge article operations
         href: dup-workflows-ka.md
+      - name: Knowledge article analytics
+        href: dashboards-ka.md
     - name: Agent experience
       items:
       - name: Search knowledge articles

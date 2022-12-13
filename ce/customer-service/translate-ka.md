@@ -6,15 +6,19 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 11/24/2022
+ms.date: 12/13/2022
 ms.custom: bap-template
 ---
 
-# Select a language for your knowledge article translation
+# Translate knowledge articles
 
-Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  
-  
-1. Open the article you want to translate, and from the command bar, select **Translate**.  
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.
+
+## Select a language for your knowledge article translation
+
+1. In the Customer Service app, select **Knowledge Articles**.
+
+1. Select the article you want to translate, and from the command bar, select **Translate**.  
   
 2. In the **Create new translation** dialog, do the following:
    * From the **Pick a language** dropdown list, search for and select the language you want.  

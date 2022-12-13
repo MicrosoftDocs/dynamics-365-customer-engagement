@@ -1,12 +1,12 @@
 ---
-title: Dashboards for knowledge articles
-description: Monitor the status of knowledge articles using the dashboards, 
+title: Knowledge article analytics
+description: Monitor and analyze the status of knowledge articles using the dashboards. 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: conceptual
-ms.date: 12/02/2022
+ms.date: 12/13/2022
 ms.custom: bap-template
 ---
 
@@ -63,7 +63,7 @@ This dashboard is designed to give authors a visual snapshot of the number and s
   
 -   **Tiles** give authors an aggregated view of data in the streams and help them monitor the volume of their knowledge articles.
 
-### Knowlegde Manager
+### Knowledge Manager
 
 This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
@@ -77,4 +77,8 @@ If you are creating an alternate key for a Knowledge article entity, include the
 
 ## Knowledge article analytics in Customer Service workspace
 
-The **Knowledge analytics** dashboard consists of the **Article insights** dashboard and the **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base. For more information on knowledge management analytics, go to [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).
+The **Knowledge analytics** dashboard consists of the **Article insights** dashboard and the **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base.
+
+## Next steps
+
+For more information on knowledge management analytics in Customer Service workspace, go to [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).

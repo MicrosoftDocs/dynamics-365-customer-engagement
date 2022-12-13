@@ -1,12 +1,12 @@
 ---
 title: Create and manage article versions
-description: Learn how to create, manage, review, and publish versions of your knowledge articles
+description: Learn how to create, manage, review, and publish versions of your knowledge articles.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/05/2022
+ms.date: 12/13/2022
 ms.custom: bap-template
 ---
 
@@ -14,13 +14,15 @@ ms.custom: bap-template
 
 Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
   
-This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.  
+This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.
+
+##  Create a new version
   
-1.  In the Customer Service Hub, select **Services** and choose **Knowledge Articles**.  
+1.  In the Customer Service app, select **Knowledge Articles**.  
   
-2.  Open the article you want to create a new version for.  
+2.  Select the article you want to create a new version for.  
   
-3.  In the knowledge article, select **Create Major Version** or **Create Minor Version**.  
+3.  From the command bar, select **Create Major Version** or **Create Minor Version**.  
   
      An example of a major version would be when your documentation changes to detail a new feature or functionality,  while a minor version might be a change to the user interface with no change to functionality.  
   

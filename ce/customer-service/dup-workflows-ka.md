@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/06/2022
+ms.date: 12/13/2022
 ms.custom: bap-template
 ---
 
@@ -28,48 +28,46 @@ When you use a workflow process to perform the following update operations, the 
 -	Translate
   
    > [!NOTE]
-   >  Other update operations, such as updating a field or approve/publish, do not trigger the second workflow.
+   >  Other update operations, such as updating a field or approve or publish, do not trigger the second workflow.
 
-To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: 
+To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows:
 
 - For a create operation, set the root article to **Yes**.
 - For an update operation, set the root article to **No**.
 
-Perform these steps:
+## Set the trigger condition
   
-1. Sign in to Customer Service Hub.  
+1. In your Customer Service app, select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
   
-2. Select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
-  
-3. In the navigation bar, select **Settings** > **Processes**.
+1. In the navigation bar, select **Settings** > **Processes**.
 
-4. Select the knowledge article flow you created. The workflow process opens in a new browser window.
+1. Select the knowledge article flow you created. The workflow process opens in a new browser window.
   
-5. In the **General** tab, select the **Add Step** dropdown list, and then select **Check Condition**. A new step will be added.
+1. In the **General** tab, select the **Add Step** dropdown list, and then select **Check Condition**. A new step will be added.
 
     > [!div class=mx-imgBorder]
     > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step dropdown list")
   
-6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
+1. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
     > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
   
-7. From the entity dropdown list, select **Knowledge Article**.
+1. From the entity dropdown list, select **Knowledge Article**.
 
-8. From the field dropdown list, select **Root Article**.
+1. From the field dropdown list, select **Root Article**.
 
-9. From the condition dropdown list, select **Equals**.
+1. From the condition dropdown list, select **Equals**.
 
-10. From the value dropdown list, select a value:
+1. From the value dropdown list, select a value:
     - **Yes** for the create operation.
     - **No** for the update operation.
 
     > [!div class=mx-imgBorder]
     > ![Set workflow condition.](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the dropdown list")
 
-11.	Select **Save and Close** to save the condition and close the window.
+1. Select **Save and Close** to save the condition and close the window.
 
-12.	In the workflow process window, select **Save and Close** to save the condition and close the window.
+1. In the workflow process window, select **Save and Close** to save the condition and close the window.
 
 Now, when you perform a create or update operation, the workflow process will trigger only once.

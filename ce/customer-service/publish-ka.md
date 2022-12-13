@@ -6,11 +6,11 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/02/2022
+ms.date: 12/13/2022
 ms.custom: bap-template
 ---
 
-# Schedule or publish an article
+# Publish knowledge articles
 
 After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time.
 
