@@ -1,7 +1,7 @@
 ---
 title: "Configure the email experience in customer engagement apps | MicrosoftDocs"
 description: "Learn how to configure the email experience in customer engagement apps."
-ms.date: 10/03/2022
+ms.date: 12/06/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -92,6 +92,9 @@ Enabling the user configured settings to an email form consists of the following
    
    The settings will now apply to the form when you create an email.
 
+>[!Note]
+>If you're using a workflow to populate email content in RTE fields that aren't in Timeline and you experience issues with inline images not rendering properly, you must use the msdyn_EmailRTEconfig_reference.js plugin.
+
 ### Add the language filter in the email template selection view
 
 Perform the following steps to enable the language filter for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
@@ -99,8 +102,8 @@ Perform the following steps to enable the language filter for the [enhanced emai
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Customizations** > **Customize the System**.
 1. In **Solution: Default Solution**, expand **Entities**.
-1. Select and expand **Email Template** and then select **Forms**.
-1. On the **Active Forms** , select **Template gallery filter form**.
+1. Expand **Email Template** and then select **Forms**.
+1. On the **Active Forms**, select **Template gallery filter form**.
 1. Drag and drop **Language**  from the available fields to the form. 
    > [!NOTE]
    >  **Language** is added to the form by default.

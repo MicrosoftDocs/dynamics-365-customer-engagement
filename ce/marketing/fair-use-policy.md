@@ -1,7 +1,7 @@
 ---
 title: "Service limits and fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing."
-ms.date: 09/30/2022
+ms.date: 11/29/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -33,7 +33,6 @@ The following tables show the current usage limits for Marketing features.
 | Email sending         | Interactions sent (email).                                            | 10,000,000 per month (1,000,000 daily max)                  |
 | Email personalization | Number of dynamic attributes.                           | 1,000                                                       |
 | Email personalization | Number of [entity relationships connected](../customerengagement/on-premises/customize/create-edit-entity-relationships.md) in personalization.                                         | 1 entity relationship (for example, contact.account, contact.events)               |
-| Custom channel        | Interactions per second.                                | 50 interactions per second                                  |
 | Data sync  | Number of rows in a single [synchronized table](./mkt-settings-sync.md) (for example, number of Marketing contacts). | 30,000,000 rows                                        |
 | Data sync  | Total rows across all [synchronized tables](./mkt-settings-sync.md).| 100,000,000 rows                                        |
 
