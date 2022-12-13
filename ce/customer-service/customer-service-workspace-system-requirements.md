@@ -1,7 +1,7 @@
 ---
 title: "Customer Service workspace system requirements | MicrosoftDocs"
-description: "Learn about the system requirements for Customer Service workspace."
-ms.date: 10/03/2022
+description: "Learn about the system requirements and prerequisites for Customer Service workspace."
+ms.date: 12/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,6 +15,7 @@ This article provides information about the prerequisites and system requirement
 > [!NOTE]
 > The Customer Service workspace app is not supported on Unified Service Desk.
 
+
 ## Prerequisites
 
 This section lists the prerequisites for using Customer Service workspace.
@@ -23,7 +24,7 @@ This section lists the prerequisites for using Customer Service workspace.
 
 An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user.
 
-## Software requirements
+### Software requirements
 
 | Area | Requirements |
 |----------|----------|

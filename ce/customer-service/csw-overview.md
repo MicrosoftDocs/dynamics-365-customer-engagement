@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
-ms.date: 11/21/2022
+ms.date: 12/14/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -20,23 +20,23 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-The Dynamics 365 Customer Service workspace app helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
+The Dynamics 365 Customer Service workspace app helps increase agent productivity with a browser-like tabbed experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
 
 The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, see: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app with the Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). For more information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
+You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
 ## Access Customer Service workspace layouts
 
-You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps, Or you can select it in the dropdown navigation in the upper-left corner of Dynamics 365.
+You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps. You can also select it in the dropdown navigation in the upper-left corner of Dynamics 365.
 
 By default, Customer Service workspace opens in the Customer Service Agent Dashboard view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
 
-The Customer Service workspace app currently supports two layouts:
+The Customer Service workspace app supports two layouts:
 
 - Default workspace
 - Enhanced multisession workspace (recommended) 
@@ -47,9 +47,12 @@ You can switch to the enhanced layout with the following steps:
 1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
 1. Refresh the app page.
 
-> [!NOTE]
-> - If you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service.
-> - To revert back to the default layout, type the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+To revert back to the default layout, type the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+
+> [!Important]
+> - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
+> - The multisession mode and enhanced navigation is only supported with Customer Service workspace and Omnichannel for Customer Service. You won't be able to use enhanced multisession navigation in custom apps or other copies of the Customer Service workspace app in your organization.
+ 
 
 The following table provides an overview of the layouts:
 
