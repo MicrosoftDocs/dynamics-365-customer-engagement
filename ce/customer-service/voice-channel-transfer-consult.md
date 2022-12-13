@@ -43,11 +43,11 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
         > ![Screenshot of queue transfer](./media/oc-transfer-q.png)<br>
     
     - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
-    - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence in Microsoft Teams. <br> 
+    - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the user in Microsoft Teams. <br> 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) <br>
 
-    - If you've selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you will be removed from the call.
+    If you've selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you will be removed from the call.
 
     > [!NOTE]
     > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
