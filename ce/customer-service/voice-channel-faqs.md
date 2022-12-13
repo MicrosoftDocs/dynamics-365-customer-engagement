@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Omnich
  
 ### Can my SBC and DNS server be deployed in different regions?
 
-Azure Communication Services hosts the group calls in the region where the DNS server is deployed. If the SBC and DNS server are in different regions, users can experience a delay. Ensure that your SBC and the DNS server are deployed in the same region, and is not delegated to a sub domain.
+No, the BC and the DNS server should deployed in the same region. For more information, see: [Bring your own carrier](voice-channel-bring-your-own-number.md).
  
 ### How can I acquire additional phone numbers from Azure Communication Services?
 
