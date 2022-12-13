@@ -27,11 +27,11 @@ Custom channels can be implemented as part of a Dataverse solution. The steps an
 
 1.	Define your extended configuration entity for Channel Instance 
 2.	Define your extended configuration entity for the Channel Instance account   - SMS only
-3.	Define your Message parts ([solution aware component](/dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
+3.	Define your Message parts ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
 4.	Define your localization for the Admin UI - Optional
 5.	Define the Message editor UI - Optional
 6.	Define your Custom APIs
-7.	Define your Channel Definition ([solution aware component](/dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
+7.	Define your Channel Definition ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
 
 Marketing already provides base components for the custom channel creation: the **required entities** like msdyn_chaneldefinition, msdyn_channelmessagepart, msdyn_channelocale, msdyn_channelinstanceaccout and msdyn_channelinstance. Along with the entity metadata, it provides **Custom APIs** that should be called from your custom solution’s plugins in order to proxy the data to Dataverse.
 
@@ -52,11 +52,22 @@ The implementation requirements for channels of SMS and Custom type differ as fo
 |    <br>Custom APIs                                                       |    <br>Required                                                                            |    <br>Required                                                     |
 |    <br>Channel Definition                                                |    <br>Required                                                                            |    <br>Required                                                     |
 
-#### Sample solutions
+
+
+### Sample solutions
 
 The samples below include unpacked solutions for Dataverse and plugins projects.
-To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool)
+To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool).
 
 [SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
 
 [SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
+
+How to build the plugins project and pack the solution:
+
+1. Build the plugins project with MSbuild or Visual Studio, that will create a dll in the PluginAssemblies folder in the Dataverse solution folder.
+1. Pack the unmanaged folder with the Solution Packager using either:
+    - [pac cli](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
+    - [Solution packager](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager?view=op-9-1)  
+
+    `pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both`
