@@ -51,7 +51,7 @@ To revert back to the default layout, type the following command in the develope
 
 > [!Important]
 > - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
-> - The multisession mode and enhanced navigation is only supported in the Customer Service workspace and Omnichannel for Customer Service apps. You won't be able to use enhanced multisession navigation in custom apps or other copies of the Customer Service workspace app in your organization.
+> - The multisession mode and enhanced navigation capabilities are only supported in the Customer Service workspace and Omnichannel for Customer Service apps. You won't be able to use enhanced multisession navigation in custom apps or other copies of the Customer Service workspace app in your organization.
  
 
 The following table provides an overview of the layouts:
