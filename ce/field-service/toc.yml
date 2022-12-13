@@ -78,6 +78,8 @@ items:
       href: trades.md
     - name: Not-to-exceed
       href: work-order-not-to-exceed.md
+    - name: Customer asset validation
+      href: asset-validation.md
       
 - name: Work orders
   items:
@@ -89,6 +91,8 @@ items:
       href: work-order-status-booking-status.md
     - name: Add account details to a work order
       href: work-order-customer-account.md
+    - name: Travel charges
+      href: travel-charges.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
     - name: Collaborate on work orders with Microsoft Teams
@@ -112,7 +116,29 @@ items:
     - name: Work order completion surveys
       href: work-order-surveys.md
 
-- name: Bookable resources
+- name: Customers
+  items:
+    - name: Customer accounts
+      href: accounts.md
+    - name: Assets
+      items: 
+      - name: Configure customer assets
+        href: configure-set-up-customer-assets.md
+      - name: Asset properties
+        href: asset-properties.md
+      - name: 3D asset models
+        href: 3D-viewer.md
+      - name: Build a service history
+        href: service-history.md
+    - name: Functional locations
+      href: assets-functional-location.md
+    - name: Warranties
+      href: warranties.md
+    - name: Insurances
+      href: insurances.md
+
+
+- name: Frontline workers + bookable resources
   items:
     - name: Set up frontline workers
       href: frontline-worker-set-up.md
@@ -278,17 +304,6 @@ items:
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
       href: work-order-entitlements.md
-
-- name: Asset servicing
-  items:
-    - name: Customer assets
-      href: configure-set-up-customer-assets.md
-    - name: Functional location
-      href: assets-functional-location.md
-    - name: Asset properties
-      href: asset-properties.md
-    - name: 3D asset models
-      href: 3D-viewer.md
 
 - name: Inventory and purchasing
   items:
