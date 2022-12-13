@@ -1,7 +1,7 @@
 ---
 title: "Work with queues | MicrosoftDocs"
 description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues in Customer Service Hub."
-ms.date: 12/13/2012
+ms.date: 12/13/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
