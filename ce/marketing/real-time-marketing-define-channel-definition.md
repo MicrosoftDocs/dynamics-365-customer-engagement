@@ -1,7 +1,7 @@
 ---
-title: "Define your Channel Definition (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to define your Channel Definition in Dynamics 365 Marketing."
-ms.date: 12/09/2022
+title: "Define your channel definition (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to define your channel definition for real-time marketing custom channels in Dynamics 365 Marketing."
+ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -16,6 +16,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
+
 # Define your Channel Definition
 
 ## Applicable channels: SMS, Custom
@@ -32,29 +33,18 @@ Entity set name: **msdyn_channeldefinitions**
 
 Primary Id attribute name: **msdyn_channeldefinitionid**
 
-• **msdyn_displayname**: string - Optional. Display name of the channel.
-
-• **msdyn_description**: string - Optional. Description of the channel.
-
-• **msdyn_channeltype**: string - Required.  Supported values: Custom, SMS.
-
-• **msdyn_outboundendpointurltemplate**: string – Required.  Name of the Custom API for the outbound flow. 
-  
-• **msdyn_hasinbound**: bit - Required. Boolean value indicating whether the channel supports inbound messages.
-
-• **msdyn_hasdeliveryreceipt**: bit - Required. Boolean value indicating whether the channel supports delivery receipt.
-
-• **msdyn_supportsaccount**: bit - Required. Boolean value indicating whether the channel supports account level configuration. In the case of SMS, it must be true. Otherwise, false.   
-
-• **msdyn_channeldefinitionexternalentity**: string - Required. Name of the CDS entity, representing an extended configuration of the channel instance.
-
-• **msdyn_channeldefinitionexternalformid**: GUID - Required. ID of the form to be rendered to display configuration of the extended channel instance table.
-
-• **msdyn_channeldefinitionaccountexternalentity**: string - Optional. Name of the CDS entity, representing an extended configuration of the channel instance account.
-
-• **msdyn_channeldefinitionaccountexternalformid**: string - Optional. ID of the form to be rendered to display configuration of the extended channel instance account table.
-
-• **msdyn_messageformid**: GUID - Optional. Defines a form representing the message editor for the channel.
+- **msdyn_displayname**: string - Optional. Display name of the channel.
+- **msdyn_description**: string - Optional. Description of the channel.
+- **msdyn_channeltype**: string - Required.  Supported values: Custom, SMS.
+- **msdyn_outboundendpointurltemplate**: string – Required.  Name of the Custom API for the outbound flow. 
+- **msdyn_hasinbound**: bit - Required. Boolean value indicating whether the channel supports inbound messages.
+- **msdyn_hasdeliveryreceipt**: bit - Required. Boolean value indicating whether the channel supports delivery receipt.
+- **msdyn_supportsaccount**: bit - Required. Boolean value indicating whether the channel supports account level configuration. In the case of SMS, it must be true. Otherwise, false.   
+- **msdyn_channeldefinitionexternalentity**: string - Required. Name of the CDS entity, representing an extended configuration of the channel instance.
+- **msdyn_channeldefinitionexternalformid**: GUID - Required. ID of the form to be rendered to display configuration of the extended channel instance table.
+- **msdyn_channeldefinitionaccountexternalentity**: string - Optional. Name of the CDS entity, representing an extended configuration of the channel instance account.
+- **msdyn_channeldefinitionaccountexternalformid**: string - Optional. ID of the form to be rendered to display configuration of the extended channel instance account table.
+- **msdyn_messageformid**: GUID - Optional. Defines a form representing the message editor for the channel.
 
 ### How to define it:
 
@@ -62,13 +52,10 @@ Channel Definitions are defined in the **customizations.xml** as solution compon
 
 In the example below, you will notice that:
 
-• the **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the formId of the entity that we created in **Step 1**<ADD LINK to STEP 1>
-
-• the **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the the name and the formId of the entity that we created in **Step 2**<ADD LINK to STEP 2>.
-
-• the **msdyn_messageformid** contains the formId that you created in **Step 4** <ADD LINK to STEP 4>
-
-• the **msdyn_outboundendpointurltemplate** contains the Custom API that you created in **Step 5**<ADD LINK to STEP 6>.
+- The **msdyn_channeldefinitionexternalentity** and the **msdyn_channeldefinitionexternalformid** contain the name and the formId of the entity that we created in [step 1](real-time-marketing-define-custom-channel-instance.md).
+- The **msdyn_channeldefinitionaccountexternalentity** and the **msdyn_channeldefinitionaccountexternalformid** contain the the name and the formId of the entity that we created in [step 2](real-time-marketing-define-channel-instance-account.md).
+- The **msdyn_messageformid** contains the formId that you created in [step 5](real-time-marketing-custom-channel-message-editor.md).
+- The **msdyn_outboundendpointurltemplate** contains the Custom API that you created in [step 6](real-time-marketing-custom-channel-custom-api.md).
 
 ### Example of customizations.xml including channel definition
 
@@ -103,5 +90,5 @@ In the example below, you will notice that:
 The samples below include unpacked solutions for Dataverse and plugins projects.
 To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool).
 
-SampleSmsChannel.zip
-SampleCustomChannel.zip
+[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)  
+[SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
