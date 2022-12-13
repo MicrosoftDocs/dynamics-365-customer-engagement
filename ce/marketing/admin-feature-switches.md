@@ -35,8 +35,8 @@ The following table lists each available feature together with its preview statu
 | Real-time marketing forms | Preview | [Enable the new form editor in real-time marketing]() |
 | Configurable compliance settings in email editor | Preview | [Enable configurable compliance settings in email editor.](real-time-marketing-email-text-consent.md) |
 | Content ideas | Preview | [Enables the use of an AI service to generate text suggestions based on a wide range of Internet sources and (if enabled) on your organization's emails. Content ideas is only available in English (United States) environments at this time.](content-ideas.md) |
-| Date and time formatting | Production | [Select from a variety of culture appropriate date/time formats for a dynamic text when using date time attribute.]()
-| Filter on list | Production | [For a LIST, condition can be defined to select which list items to output]()
+| Date and time formatting | Production | [Select from a variety of culture appropriate date/time formats for a dynamic text when using date time attribute.](real-time-marketing-predefined-dynamic-text.md)
+| Filter on list | Production | [For a LIST, condition can be defined to select which list items to output](real-time-marketing-personalize-lists.md)
 | Customer Voice integration | Production | [Enable Dynamics 365 Customer Voice integrations with Marketing.](customer-voice.md) |
 | Smart scheduler | Production | [Automatically select the best time to send an email message.](automated-scheduler.md) |
 
