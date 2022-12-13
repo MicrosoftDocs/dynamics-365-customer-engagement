@@ -64,6 +64,9 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
 1. Select the required recording.
 1. Select the **Delete** icon.
 
+You can also delete the recordings from the [msdyn_ocrecording](developer/reference/entities/msdyn_ocrecording.md) using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
+
+
 ### Storage location of your recordings and cost
 
 The maximum file size of a recording can be 512 MB. The voice recording and transcript data resides in the following locations:
