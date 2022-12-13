@@ -1,7 +1,7 @@
 ---
 title: "Define your Custom APIs (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your Custom APIs in Dynamics 365 Marketing."
-ms.date: 12/09/2022
+ms.date: 12/13/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -25,7 +25,7 @@ search.app:
 
 #### Why you need it:
 
-A [custom API](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/custom-api) needs to be defined so that it will be called during the Journey runtime in Marketing. It's the entry point for custom code execution.   The Custom API will then call the Provider’s APIs. This API must accept the contract defined by the Marketing Journey and return the response. This custom API will be assigned to attribute **msdyn_outboundendpointurltemplate** at the [channel definition step](real-time-marketing-define-channel-definition.md).
+A [custom API](/power-apps/developer/data-platform/custom-api) needs to be defined so that it will be called during the Journey runtime in Marketing. It's the entry point for custom code execution.   The Custom API will then call the Provider’s APIs. This API must accept the contract defined by the Marketing Journey and return the response. This custom API will be assigned to attribute **msdyn_outboundendpointurltemplate** at the [channel definition step](real-time-marketing-define-channel-definition.md).
 
 #### How to define it:
 
@@ -55,7 +55,7 @@ The contract that the custom API should implement must have one input parameter 
 
 #### Why you need it:
 
-If your channel supports delivery reports or statuses for messages, such as for example, “Delivered”, a [custom API](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/custom-api) needs to be defined. Your API will be called by the Provider and it must call the base solution’s **msdyn_D365ChannelsNotification** API. The latter will proxy the information back to Dataverse. This information will become available in Marketing Analytics.
+If your channel supports delivery reports or statuses for messages, such as for example, “Delivered”, a [custom API](/power-apps/developer/data-platform/custom-api) needs to be defined. Your API will be called by the Provider and it must call the base solution’s **msdyn_D365ChannelsNotification** API. The latter will proxy the information back to Dataverse. This information will become available in Marketing Analytics.
 
 #### How to define it:
 
@@ -76,7 +76,7 @@ Your own Custom API will be executed and call the msdyn_D365ChannelsNotification
 
 #### Why you need it:
 
-If your channel supports inbound requests, a [custom API](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/custom-api) needs to be defined. Your API will be called by the Provider and it must call the base solution’s **msdyn_D365ChannelsInbound** API. The latter will proxy the information back to Dataverse. 
+If your channel supports inbound requests, a [custom API](/power-apps/developer/data-platform/custom-api) needs to be defined. Your API will be called by the Provider and it must call the base solution’s **msdyn_D365ChannelsInbound** API. The latter will proxy the information back to Dataverse. 
 
 #### How to define it:
 
