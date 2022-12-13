@@ -111,7 +111,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Preview the form.](media/real-time-marketing-form-preview.png)
 
-1. To publicly share your form, select the **Publish** button in the top right corner. The form will automatically save and the [validation process](#form-validation) will start. You'll need to add an **Email** field to your form to pass the validation, as the email field is required to check if the same contact already exists by default. Once the form is successfully validated, you'll see the following options on how to publish your form. Learn more on how to [publish the form](#publish-form). You can now copy the JavaScript code snippet to embed the form into your web page.
+1. To publicly share your form, select the **Publish** button in the top right corner. The form will automatically save and the [validation process](#form-validation) will start. You'll need to add an **Email** field to your form to pass the validation, as the email field is required to check if the same contact already exists by default. Once the form is successfully validated, you'll see the following options on how to publish your form. Learn more on how to [publish the form](#publish-your-form). You can now copy the JavaScript code snippet to embed the form into your web page.
 
     > [!div class="mx-imgBorder"]
     > ![Publish the form.](media/real-time-marketing-form-publish.png)
@@ -182,7 +182,7 @@ The default approach to duplicate records is different for Contacts and Leads.
 
 - **Lead (default: Always create a new record)**: If the user submits a form with an existing email address, there will be a new record with the same email address created.
 
-You can change the default strategy using the **Duplicate records** drop-down in **Forms** settings. You can also create a [custom matching strategy](#create-custom-matching-strategy).
+You can change the default strategy using the **Duplicate records** drop-down in **Forms** settings. You can also create a [custom matching strategy](#create-a-custom-matching-strategy).
 
 ##### Create a custom matching strategy
 
@@ -206,7 +206,7 @@ Field types and formats are defined by the attribute metadata. It isn't possible
 | Two options            | n/a           | Radio&nbsp;Buttons         | Field that accepts one of just two possible values (typically true or false). Rendered as a pair of radio buttons, with the display text for each defined in the database.           |
 | Date and time          | Date Only     | Date Picker           | Date picker, which lets users choose a date from a pop-up calendar display. Doesn't accept a time.                                                                           |
 | Date and time          | Date and Time | Date-Time Picker      | Date and time picker, which lets users choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
-| Lookup field          | n/a | Lookup      | A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup). |
+| Lookup field          | n/a | Lookup      | A lookup field is linked to a particular entity type, enabling you to add a drop-down list of options that were created in advance to your form. [More information](#lookup-fields). |
 
 #### Lookup fields
 
