@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/18/2022
+ms.date: 12/13/2022
 ms.topic: article
 
 ---
@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Omnich
  
 ### Can my SBC and DNS server be deployed in different regions?
 
-No, the BC and the DNS server should deployed in the same region. For more information, see: [Bring your own carrier](voice-channel-bring-your-own-number.md).
+No. We recommend that the DNS server and SBC be deployed in the same region. More information:  [Bring your own carrier](voice-channel-bring-your-own-number.md#prerequisites)
  
 ### How can I acquire additional phone numbers from Azure Communication Services?
 
