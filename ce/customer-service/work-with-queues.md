@@ -1,7 +1,7 @@
 ---
 title: "Pick an item from a queue in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Pick an item from a queue in Customer Service Hub to work on it."
-ms.date: 07/01/2021
+ms.date: 12/13/2012
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -30,7 +30,7 @@ Use the view list and queue list to filter and find items in queues.
 
    ![Queues view list.](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
-3. From the **All items** drop-down, select the pin icon to pin the view that you want to appear on your dashboard.
+3. From the **All items** dropdown, select the pin icon to pin the view that you want to appear on your dashboard.
 
 ## Find all items in queues
 
@@ -44,7 +44,7 @@ Use the view list and queue list to filter and find items in queues.
 
 ## Find cases that are available to work on
 
-1. To see only the cases no one else is working on, in the view list, select **Cases Available to Work On**
+1. To see only the cases that no one else is working on, in the view list, select **Cases Available to Work On**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
 
    - \<Individual queues>
@@ -54,7 +54,7 @@ Use the view list and queue list to filter and find items in queues.
 
 ## Find cases that you're working on
 
-1. To see only the cases that you are currently working on, in the view list, select **Cases I'm Working On**.
+1. To see only the cases that you're currently working on, in the view list, select **Cases I'm Working On**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
 
    - \<Individual queues>
@@ -93,11 +93,11 @@ Use the view list and queue list to filter and find items in queues.
    > ![Pick a work item.](media/pick-work-item-csh.png "Pick a work item")
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
-8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
+8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
-   - Assignment rules, presence, or capacity constraints are not evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you will still be able to pick the work item and start working on it. This ability to manually override pre-configured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
-   - Your presence will be updated. If  you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
+   - Assignment rules, skills, presence, or capacity constraints won't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
+   - Your presence will be updated. If you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
 
    > [!NOTE]
    > Remove the items from the queue can't be set for work items in an advanced queue.
@@ -110,7 +110,7 @@ Use the view list and queue list to filter and find items in queues.
   
    When you release an item, your name is removed from the **Worked By** field, and the item is no longer assigned to you; it’s assigned to the queue owner.
 
-Route an activity or case to another queue or assign to a different user or team  
+## Route an activity or case to another queue or assign to a different user or team  
   
 1. Select the case that you want to move to another queue, and on the command bar select **Route**.  
   
@@ -144,7 +144,7 @@ If you want another person in your organization to work on an activity, you can 
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
-    If you don’t see the user or team you are looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, select the search button, and then select the name to select it. select **Add**.  
+   If you don’t see the user or team you are looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** dropdown list, select **User** or **Team**. In the **Search** box, type the name, select the search button, select the name, and then select **Add**.  
   
 4. Select **Assign**.
   
@@ -152,7 +152,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. Go to **Activities**.
   
-2. Select the activity you want,  and then select  **Add to Queue**.
+2. Select the activity you want, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
@@ -160,8 +160,7 @@ If you want another person in your organization to work on an activity, you can 
  
 1. Go to **Activities**.
 1. Select the activity you want, and then select  **Add to Queue**.
-  
-3. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
+1. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
 1. On the **Choose queue** dialog, select the **Business Queues(default)** dropdown menu to see the complete list of queues views available to you.
 
 The table lists the views with their descriptions.
