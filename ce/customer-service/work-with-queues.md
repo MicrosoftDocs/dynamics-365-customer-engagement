@@ -1,6 +1,6 @@
 ---
-title: "Pick an item from a queue in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Pick an item from a queue in Customer Service Hub to work on it."
+title: "Work with queues | MicrosoftDocs"
+description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues in Customer Service Hub."
 ms.date: 12/13/2012
 ms.topic: article
 author: mh-jaya
