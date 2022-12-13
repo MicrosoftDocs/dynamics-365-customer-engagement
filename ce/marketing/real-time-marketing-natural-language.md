@@ -1,8 +1,7 @@
 ---
 title: "Use natural language in real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use natural language in real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 12/06/2021
-
+ms.date: 12/07/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -47,7 +46,7 @@ The following are examples of simple conditional phrases using natural language:
 **Search by company**
 
 - Customers who work at Microsoft (Profile)
-- People who work in a company named Amazon (Profile/Contact)
+- People who work in a company named Contoso (Profile/Contact)
 
 **Search by demographic**
 
