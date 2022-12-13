@@ -31,8 +31,8 @@ The following table lists each available feature together with its preview statu
 | Business unit scoping | Production | [Enable business unit scoping for marketing processes in Outbound Marketing](business-units.md)|
 | Event registration forms | Production | [Enable marketing forms to submit event registrations](event-forms.md)|
 | Updated customer journey designer | Production | [Enable the redesigned customer journey design workspace](customer-journeys-create-automated-campaigns.md)|
-| Data Sharing Program | Production | [To help you get most out of our AI features suite, we manually access (human review) Customer Data to build, improve, and validate the feature's AI models.] |
-| Real-time marketing forms | Preview | [Enable the new form editor in real-time marketing] |
+| Data Sharing Program | Production | To help you get most out of our AI features suite, we manually access (human review) Customer Data to build, improve, and validate the feature's AI models. |
+| Real-time marketing forms | Preview | Enable the new form editor in real-time marketing |
 | Configurable compliance settings in email editor | Preview | [Enable configurable compliance settings in email editor.](real-time-marketing-email-text-consent.md) |
 | Content ideas | Preview | [Enables the use of an AI service to generate text suggestions based on a wide range of Internet sources and (if enabled) on your organization's emails. Content ideas is only available in English (United States) environments at this time.](content-ideas.md) |
 | Date and time formatting | Production | [Select from a variety of culture appropriate date/time formats for a dynamic text when using date time attribute.](real-time-marketing-predefined-dynamic-text.md)
