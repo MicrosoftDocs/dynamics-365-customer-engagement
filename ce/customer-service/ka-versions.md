@@ -35,7 +35,7 @@ This capability helps you to keep accurate records of the features your organiza
   
 ## Review and publish your new version  
 
-When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. More information: [Schedule or publish an article](publish-ka.md#schedule-or-publish-an-article)
+When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
   
 ## Manage article versions  
 

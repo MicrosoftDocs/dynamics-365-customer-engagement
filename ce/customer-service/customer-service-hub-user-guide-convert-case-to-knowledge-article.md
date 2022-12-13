@@ -39,9 +39,7 @@ There are times when existing knowledge articles do not contain relevant informa
 
 4. If you want to open the newly-created article, select the **Open the new knowledge article** field to set it to **Yes**, and then select **Convert**. Otherwise, set it to **No**.  
 
-5. If you set **Open the new knowledge article** to **Yes**, a knowledge article form opens. Fill in the necessary information for the knowledge article, and then select the **Save** button.  
-
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a knowledge article](customer-service-hub-user-guide-knowledge-article.md#create-a-knowledge-article)  
+5. If you set **Open the new knowledge article** to **Yes**, a knowledge article form opens. Fill in the necessary information for the knowledge article, and then select the **Save** button. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)
 
 The knowledge article is created regardless of whether you set **Open the new knowledge article** to **Yes** or **No**.  
 

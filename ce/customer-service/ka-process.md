@@ -26,4 +26,4 @@ For information on creating and managing a knowledge article, go to [Create and 
 
 For information on reviewing a knowledge article, go to [Review knowledge articles](review-ka.md#review-knowledge-articles).
 
-For information on publishing a knowledge article, go to [Schedule or publish an article](publish-ka.md#schedule-or-publish-an-article).
+For information on publishing a knowledge article, go to [Publish knowledge articles](publish-ka.md#publish-knowledge-articles).
