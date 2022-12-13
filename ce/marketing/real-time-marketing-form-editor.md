@@ -1,13 +1,13 @@
 ---
-title: "How to create and manage real-time marketing forms | Microsoft Docs"
+title: "Preview: Create and manage real-time marketing forms | Microsoft Docs"
 description: "Learn how to use create and manage forms in Dynamics 365 Marketing."
-ms.date: 10/12/2022
+ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: petrjantac
-ms.author: petrjantac
-manager: petrjantac
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Create and manage forms in real-time marketing
+# Preview: Create and manage forms in real-time marketing
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
