@@ -14,7 +14,7 @@ When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
 
 - [Automatically hide parent row](#automatically-hide-parent-row)
 - [Turn on multi-currency selection](#turn-on-multi-currency-selection)
-- [Set kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
+- [Set Kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
 - [View prediction factors](#view-prediction-factors)
 - [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
 - [Customize underlying records](#customize-underlying-records)
