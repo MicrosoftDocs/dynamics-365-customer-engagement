@@ -17,7 +17,7 @@ searchScope:
 
 # Work with queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
 
@@ -89,14 +89,14 @@ Use the view list and queue list to filter and find items in queues.
 3. Select a view from the System Views menu.
 4. Select the queues from the menu.
 5. Select the checkbox next to the item title to select the item.
-6. Select **Pick** from the command menu. The **Pick** dialog box appears.
+6. Select **Pick** from the command menu. The **Pick** dialog appears.
    > ![Pick a work item.](media/pick-work-item-csh.png "Pick a work item")
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
-   - Assignment rules, skills, presence, or capacity constraints won't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
+   - Assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
    - Your presence will be updated. If you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
 
    > [!NOTE]
@@ -104,7 +104,7 @@ Use the view list and queue list to filter and find items in queues.
 
 ## Release an item or case that you’re working on  
   
-1. In the **View** list, select one of the views that show the items or cases you’re working on.  
+1. In the **View** list, select one of the views that show the items or cases that you’re working on.  
   
 2. Select the case or item that you want to release, and on the command bar select **Release**.  
   
@@ -112,7 +112,7 @@ Use the view list and queue list to filter and find items in queues.
 
 ## Route an activity or case to another queue or assign to a different user or team  
   
-1. Select the case that you want to move to another queue, and on the command bar select **Route**.  
+1. Select the case that you want to move to another queue, and on the command bar, select **Route**.  
   
 2. To move an activity or case to a different queue, select **Route**, and select a queue.  
 
