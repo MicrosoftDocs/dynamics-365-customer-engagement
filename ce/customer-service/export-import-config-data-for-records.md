@@ -1,7 +1,7 @@
 ---
 title: "Migrate configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to migrate data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 11/08/2022
+ms.date: 11/13/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -101,7 +101,7 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
     - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
 
 	> [!IMPORTANT]
-    > You need to manually create bookableresourcecharacteristictype (Global option set value) in the target organization if required.
+    > You need to manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if required.
 
    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
    |---------|---------|---------|
@@ -114,7 +114,7 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 
 1. Export the data and generate the compressed (zip) file.
 
-1. Use the Configuration Migration tool, and select the option to import data in to the target organization using the compressed file.
+1. Use the Configuration Migration tool, and select the option to import data into the target organization using the compressed file.
 
 ## Migrate capacity profiles configuration
 
@@ -139,7 +139,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 3. Export the data and generate the compressed (zip) file.
 
-4. Use the Configuration Migration tool, and select the option to import data to the target organization.
+4. Use the Configuration Migration tool, and select the option to import data into the target organization.
 
 ## Export and import record queues configuration
 
@@ -184,7 +184,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
       https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API and note the GUID of `msdyn_decisioncontractid`.
 
@@ -201,7 +201,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: All queues for records**<a name="BKMK1all-ur-qs"></a>
 
-```
+```XML
 <fetch> 
    <entity name="queue">
     <filter type="and">
@@ -215,7 +215,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Single queue for records**<a name="BKMK2single-ur-qs"></a>
 
-```
+```XML
 <fetch> 
    <entity name="queue"> 
     <filter type="and"> 
@@ -227,7 +227,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Multiple queues for records**<a name="BKMK3multiple-ur-qs"></a>
 
-```
+```XML
 <fetch> 
    <entity name="queue"> 
     <filter type="and"> 
@@ -244,7 +244,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Decision contract for all record queues**<a name="BKMK1all-ur-dc"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -285,7 +285,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Decision contract for a single record queue**<a name="BKMK2single-ur-dc"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -320,7 +320,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Decision contract for multiple record queues**<a name="BKMK3multiple-ur-dc"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -366,7 +366,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Decision ruleset for all record queues**<a name="BKMK1all-ur-rls"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
@@ -386,7 +386,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Decision ruleset for a single record queue**<a name="BKMK2single-ur-rls"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
@@ -404,7 +404,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Decision ruleset for multiple record queues**<a name="BKMK3multiple-ur-rls"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
@@ -427,7 +427,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Assignment configuration for all record queues**<a name="BKMK1all-ur-ac"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_assignmentconfiguration">
 		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
@@ -443,7 +443,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Assignment configuration for a single record queue**<a name="BKMK2single-ur-ac"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_assignmentconfiguration">
 		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
@@ -457,7 +457,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Assignment configuration for multiple record queues**<a name="BKMK3multiple-ur-ac"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_assignmentconfiguration">
 		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
@@ -476,7 +476,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Assignment configuration step for all record queues**<a name="BKMK1all-ur-acs"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_assignmentconfigurationstep">
 		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
@@ -494,7 +494,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Assignment configuration step for a single record queue**<a name="BKMK2single-ur-acs"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_assignmentconfigurationstep">
 		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
@@ -510,7 +510,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Assignment configuration step for multiple record queues**<a name="BKMK3multiple-ur-acs"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_assignmentconfigurationstep">
 		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
@@ -539,7 +539,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate fetch xml query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query.
+   - **Use FetchXML to filter records**: For each entity, use the appropriate fetch xml query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate FetchXML query.
 
      For illustration, the sample query is listed in the following table to get single or multiple records. The sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
 
@@ -547,9 +547,9 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 	> [!IMPORTANT]
 	>
-	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
-	> - If the target organization has intake rules for the record type with the same GUID, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
-	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you do the import.
+	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+	> - If the target organization has intake rules for the record type with the same GUID, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
 
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
@@ -565,13 +565,13 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 3. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
 
-   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`:
 
       https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
-   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`:
 
       https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'
 
@@ -586,7 +586,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Decision contract for all routed records**<a name="BKMK1dc-all-rr"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -608,7 +608,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Decision contract for the incident entity**<a name="BKMK2dc-incident"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -629,7 +629,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Decision Contract for the incident and task entities**<a name="BKMK3dc-incident-task"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -658,7 +658,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Decision ruleset for all routed records**<a name="BKMK1drl-all-rr"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="cp">
@@ -672,7 +672,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Decision ruleset for the incident entity**<a name="BKMK2drl-incident"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="cp">
@@ -686,7 +686,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Decision ruleset for the incident and task entities**<a name="BKMK3drl-incident-task"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="cp">
@@ -705,7 +705,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Master entity routing configuration for a routed records**<a name="BKMK1mer-rr"></a> 
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_masterentityroutingconfiguration">
 		<filter type="and">
@@ -717,7 +717,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 2: Master entity routing configuration for the incident entity**<a name="BKMK2mer-incident"></a> 
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_masterentityroutingconfiguration">
 		<filter type="and">
@@ -729,7 +729,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 3: Master entity routing configuration for the incident and task entities**<a name="BKMK3mer-incident-task"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_masterentityroutingconfiguration">
 		<filter type="and">
@@ -805,7 +805,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: All record workstreams**<a name="BKMK1all-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -817,7 +817,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 2: Single record workstream**<a name="BKMK2single-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -828,7 +828,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 3: Multiple record workstreams**<a name="BKMK3multiple-ur-ws"></a>
 
-```
+```XML
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -845,7 +845,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Decision contract for all record workstreams**<a name="BKMK1dc-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -881,7 +881,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 2: Decision contract for a single record workstream of type = incident**<a name="BKMK2dc-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -915,7 +915,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 3: Decision contract for multiple record workstreams of type = incident and type = task**<a name="BKMK3dc-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
@@ -963,7 +963,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Decision ruleset for all record workstreams**<a name="BKMK1drl-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<filter type="or">
@@ -986,7 +986,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 2: Decision ruleset for a single record workstream of type = incident**<a name="BKMK2drl-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<filter type="or">
@@ -1008,7 +1008,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 3: Decision ruleset for multiple record workstreams type = incident and type = task**<a name="BKMK3drl-ur-ws"></a>
 
-```
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisionruleset">
 		<filter type="or">
@@ -1038,7 +1038,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Routing configuration for all record workstreams**<a name="BKMK1rc-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -1052,7 +1052,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 2: Routing configuration for a single record workstream**<a name="BKMK2rc-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -1065,7 +1065,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 3: Routing configuration for multiple record workstreams**<a name="BKMK3rc-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -1084,7 +1084,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Routing configuration step for all record workstreams**<a name="BKMK1rs-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -1100,7 +1100,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 2: Routing configuration step for a single record workstream**<a name="BKMK2rs-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -1115,7 +1115,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 3: Routing configuration step for multiple record workstreams**<a name="BKMK3rs-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -1136,7 +1136,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 **Option 1: Workstream capacity profile for all record workstreams**<a name="BKMK1cp-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -1150,7 +1150,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 **Option 2: Workstream capacity profile for a single record workstream**<a name="BKMK2cp-ur-ws"></a>
 
-```
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -1162,7 +1162,8 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 **Option 3: Workstream capacity profile for multiple record workstreams**<a name="BKMK3cp-ur-ws"></a>
-```
+
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -1185,9 +1186,9 @@ After you import the unified routing-related configuration data successfully fro
 
 2. If skills and rating values are used in unified routing rulesets, then you need to manually link, associate, or create the users, bookable resources, and bookable resources characteristics records.
   
-3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable reources capacity profile records.
+3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable resources capacity profile records.
 
-## Troubleshoot export and import of data
+## Troubleshoot issues with export and import of data
 
 [!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
