@@ -1,6 +1,6 @@
 ---
 title: "Work with queues | MicrosoftDocs"
-description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues in Customer Service Hub."
+description: "Use this article to learn how to work with queues, find queue items, and pick work items from queues."
 ms.date: 12/13/2022
 ms.topic: article
 author: mh-jaya
@@ -159,7 +159,7 @@ If you want another person in your organization to work on an activity, you can 
 ### Pick a view for your queues
  
 1. Go to **Activities**.
-1. Select the activity you want, and then select  **Add to Queue**.
+1. Select the activity you want, and then select **Add to Queue**.
 1. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
 1. On the **Choose queue** dialog, select the **Business Queues(default)** dropdown menu to see the complete list of queues views available to you.
 
