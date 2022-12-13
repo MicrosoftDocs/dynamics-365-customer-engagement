@@ -90,5 +90,15 @@ In the example below, you will notice that:
 The samples below include unpacked solutions for Dataverse and plugins projects.
 To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool).
 
-[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)  
+[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
+
 [SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
+
+How to build the plugins project and pack the solution:
+
+1. Build the plugins project with MSbuild or Visual Studio, that will create a dll in the PluginAssemblies folder in the Dataverse solution folder.
+1. Pack the unmanaged folder with the Solution Packager using either:
+    - [pac cli](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
+    - [Solution packager](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager?view=op-9-1)  
+
+    `pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both`
