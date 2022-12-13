@@ -30,6 +30,9 @@ For more information about licensing and system requirements, see [Customer Serv
 
 You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
+> [!NOTE]
+> The Customer Service workspace app is not supported on Unified Service Desk.
+
 ## Access Customer Service workspace layouts
 
 You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps. You can also select it in the dropdown navigation in the upper-left corner of Dynamics 365.
@@ -51,7 +54,7 @@ To revert back to the default layout, type the following command in the develope
 
 > [!Important]
 > - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
-> - The multisession mode and enhanced navigation capabilities are only supported in the Customer Service workspace and Omnichannel for Customer Service apps. You won't be able to use enhanced multisession navigation in custom apps or other copies of the Customer Service workspace app in your organization.
+> - The multisession mode and navigation capabilities are only supported in the Customer Service workspace and Omnichannel for Customer Service apps. You won't be able to use multisession navigation in custom apps or copies of the Customer Service workspace app in your organization.
  
 
 The following table provides an overview of the layouts:
