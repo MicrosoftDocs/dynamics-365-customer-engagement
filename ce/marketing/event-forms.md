@@ -1,8 +1,7 @@
 ---
 title: "Use marketing forms for event registration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Add custom marketing forms to event registrations."
-ms.date: 04/22/2021
-
+ms.date: 10/17/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -22,6 +21,11 @@ search.app:
 # Use marketing forms for event registration
 
 The event management application now allows you to use marketing forms for event registrations. You can create forms with a variety of fields, embed forms on your website, and use the forms for event registration.
+
+> [!NOTE]
+> Forms are limited to free (non-recurrent) events and allow registration of one person at a time (instead of multiple people together).
+>
+> The event website also needs to be **updated to the February 2020 release (1.20.0) or later** for this functionality to be used for events hosted on the website. Learn more:  [Manually overwriting sample website](./developer/manually-overwriting-sample-website.md).
 
 ## Create a marketing form for event registration
 

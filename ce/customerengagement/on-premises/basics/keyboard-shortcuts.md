@@ -7,7 +7,7 @@ applies_to:
 author: sericks007
 ms.author: sericks
 manager: tapanm-MSFT
-ms.date: 05/05/2020
+ms.date: 11/21/2022
 ms.topic: article
 
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
@@ -49,7 +49,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Open a record found in lookup with forms in edit mode| Enter| Enter|
 |Add an article to an email| Shift+Alt+A| N/A|
 |Apply an email template (when editing an email message)| Shift+Alt+T| N/A|
-|Navigate to the form notification| N/A| Ctrl+M|
+|Navigate to the form notification| N/A| Ctrl+B|
 
 ## Form navigation shortcuts
 

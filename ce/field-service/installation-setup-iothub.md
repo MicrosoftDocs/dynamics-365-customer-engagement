@@ -5,8 +5,8 @@ ms.date: 08/30/2022
 ms.reviewer: mhart
 ms.subservice: connected-field-service
 ms.topic: article
-author: lmasieri
-ms.author: lmasieri
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app:
   - D365CE

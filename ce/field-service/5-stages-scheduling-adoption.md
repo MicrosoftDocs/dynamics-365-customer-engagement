@@ -8,8 +8,8 @@ ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: Deana-Fuller
+ms.author: drfuller
 manager: shellyha
 search.app: 
   - D365CE

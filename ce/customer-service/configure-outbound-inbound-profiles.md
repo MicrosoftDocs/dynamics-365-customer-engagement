@@ -15,7 +15,7 @@ ms.custom:
 
 Use the information in this article to create profiles that'll be used during inbound and outbound calls directly to or from agents. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create will be listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
 
-Inbound profiles enable direct calls to individual agents and therefore differ from worksktreams that are used to define how inbound calls are routed and assigned to agents via queues.
+Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls won't be tracked in unified routing historical analytics.
 
 ## Prerequisites
 

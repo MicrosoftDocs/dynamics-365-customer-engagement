@@ -243,8 +243,6 @@
             href: v2/reference/microsoft-ciframework/notifyNewActivity.md
         - name: Channel Analytics APIs
           items:
-          - name: "updateConversation"
-            href: v2/reference/microsoft-ciframework/updateConversation.md
           - name: "logAnalyticsEvent"
             href: v2/reference/microsoft-ciframework/logAnalyticsEvent.md
         - name: Miscellaneous APIs
@@ -271,6 +269,8 @@
               href: v2/reference/microsoft-ciframework/removeHandler.md
             - name: "updateContext"
               href: v2/reference/microsoft-ciframework/updateContext.md
+            - name: "updateConversation"
+              href: v2/reference/microsoft-ciframework/updateConversation.md
       - name: Client-side events
         href: v2/reference/client-side-events.md
         items:

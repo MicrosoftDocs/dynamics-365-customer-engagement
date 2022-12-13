@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/03/2022
+ms.date: 12/01/2022
 ms.topic: article
 
 ---
@@ -23,9 +23,9 @@ If you don't configure overflow, by default, the work item will stay in the queu
 
 ## How overflow works
 
-The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queue rules are evaluated. The following factors are considered during the overflow evaluation:
+The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. The following factors are considered during the overflow evaluation:
 
-- If multiple queues match in the route-to-queue rules, the system routes the work item to the first queue that's not overflowing.
+- If multiple queues match in the route-to-queues rules, the system routes the work item to the first queue that's not overflowing.
 
 - If all matched queues are overflowing, one of the following actions takes place:
 
@@ -34,7 +34,9 @@ The overflow evaluation takes place before a work item is routed to a queue and 
 
 - If the matched queue is overflowing due to multiple conditions:
 
- The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
+  The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
+
+- If a work item is routed to a fallback queue because of errors or no route-to-queue rule has matched the requirement, the overflow settings for the fallback queue aren't considered and work item is assigned to the queue.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition as **Out of operation hours**, and its action as **Assign to queue anyway**. You can't edit the condition but can set another action for it.
 
@@ -44,9 +46,12 @@ The following table lists the condition and action pairs available for different
 
 | Channel | Condition | Action|
 |---------|-----------|-------|
-| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li></ul> |
+| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback (preview)</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail (preview)</li></ul> |
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
+
+> [!NOTE]
+> The [direct callback](voice-channel-direct-callback.md) and [voicemail](voice-channel-voicemail.md) features are in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
@@ -79,12 +84,14 @@ Go to the Customer Service admin center app and perform the following steps:
      - **End call**: For voice queues only. An automated voice message is presented to the caller and the call ends.
      - **End conversation**: For messaging queues only. The conversation is routed to the queue and ended.
      - **Transfer to a different queue**: Select a queue from the dropdown list that appears. The work item is transferred to the selected queue.
-     - **Transfer to an external number**: Enter the number to which the call must be transferred.
+     - **Transfer to an external number**: For voice queues only. Enter the number to which the call must be transferred.
+     - **Voicemail (preview)**: For voice queues only. Customers can choose to leave a voicemail that the agents will receive to act upon.
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
-    - **Work item limit exceeds**: Enter a value between 1 and 100 to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
+    - **Work item limit exceeds**: Enter a value between 1 and 100 to denote the maximum number of work items that can be in the open state before overflow is reached. For example, if you enter 2 as the value, then two items should be open in the queue for the third item to trigger one of the following actions:
 
+        - **Direct callback (preview)**: For voice queues only. Customers can choose to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
         - **End call**
         - **End conversation**
         - **Transfer to a different queue**
@@ -92,6 +99,7 @@ Go to the Customer Service admin center app and perform the following steps:
 
     - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information on how wait time is calculated, see [Show customers their average wait time in a queue](average-wait-time.md).
 
+        - **Direct callback (preview)**
         - **End call**
         - **Transfer to a different queue**
         - **Transfer to an external number**
@@ -112,7 +120,7 @@ In certain cases, you might not want an overflow action to be run for specific t
 
 1. Select **Add queue overflow override**.
 
-1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section.
+1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
 
 ## View diagnostics for overflow
 
@@ -135,6 +143,8 @@ More information: [Customize automated messages](configure-automated-message.md#
 
 ### See also
 
+[Use voicemail](voice-channel-voicemail.md)  
+[Use direct callback](voice-channel-direct-callback.md)  
 [Create and manage queues](queues-omnichannel.md)  
 [Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)  
 [Overview of voice channel](voice-channel.md)  

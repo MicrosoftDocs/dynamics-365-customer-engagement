@@ -1,7 +1,7 @@
 ---
 title: "Configure offline data for the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
-ms.date: 06/02/2021
+ms.date: 10/14/2022
 ms.reviewer: mhart
 ms.topic: article
 ms.subservice: field-service-mobile
@@ -78,8 +78,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 
 **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device is connected to the internet or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, go to [Workflows and scripts for the Field Service (Dynamics 365) mobile app](mobile-power-app-workflows.md).
 
-> [!div class="mx-imgBorder"]
-> ![The Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
+For more best practices, go to [Power Apps Mobile Offline Guidelines](/power-apps/mobile/mobile-offline-guidelines)
 
 ## Step 2: Add users and teams to the offline profile
 
@@ -158,8 +157,8 @@ Sync intervals define how often record type data will automatically sync down to
 The default **Field Service Mobile - Offline Profile** has predetermined sync intervals for each record type, which is selected based on typical usage patterns of those record types.
 
 > [!NOTE]
-> Even if the value for sync interval is set to be less frequent than **Every 1 hour**, data will still be synched every hour. A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background.
-Dependencies based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might also result in a sync being triggered for related tables.
+> A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background.
+Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. Sync interval for an entity may not be respected if there is a related table with a lower sync interval.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the option to customize the records you want to make available offline.](./media/mobile-2020-offline-sync-filter.png)
@@ -215,7 +214,7 @@ To control changes and keep your offline profiles in sync, your organization may
 
 ### Are WebResources supported in offline mode?
 
-Due to some current [limitations](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
+Due to some current [limitations](/power-apps/mobile/offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
 
 ### How do I know when a sync is in progress?
 
@@ -234,10 +233,21 @@ The **Offline Status** page in the app, available from the sitemap, can also be 
 
 Sync notifications are available from Unified Interface Platform version 9.2.22033.00152+.
 
-### Known limitations
+### Why does the offline enabled application show a message "Network or Service Unavailable"
+
+The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message is displayed, the client won't sync new data, and some network-dependent areas of the application won't work. For example, maps or Dataverse search depends on device connectivity. 
+
+The application will check for connectivity whenever you navigate. The following events determine network detection, which may result in the error message:
+- Application boots into offline mode prior to detecting network availability.
+- Application network check fails with no response or a response that takes too long.
+
+### Known Limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record doesn't meet filter conditions, then the record doesn't get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they're calling correct APIs: `Xrm.WebApi.online`.
+- Offline Tables: Tables that are supported offline are added as part of the default Field Service Mobile Offline Profile. Some field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline may result in errors in the mobile application.
+- Inventory Validation isn't performed while the device isn't connected.
+- When configuring the Mobile Offline Profile, there can be a maximum of 15 linked Tables. This 15-link limit includes downstream Tables. For example, if Table A has relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A will have six relationships: B, C, D, F, G H. 
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 > [!NOTE]

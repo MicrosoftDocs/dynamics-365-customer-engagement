@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/25/2022
+ms.date: 11/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -56,7 +56,7 @@ These activities can be converted to any default (system) entity records or cust
 
 Make sure that the following prerequisites are met:
 
-- Permission or role to create rules.
+- Permissions, roles, and the Power Automate license to create automatic record creation rules.
 - Information on the queues for which you want to create the rules.
 
 ## Configure rules for creating or updating records automatically
