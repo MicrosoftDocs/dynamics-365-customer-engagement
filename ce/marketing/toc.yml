@@ -229,17 +229,21 @@
     - name: Communication channels
       items: 
       - name: Real-time marketing emails
-        href: real-time-marketing-email.md
+        items:
+        - name: Email overview
+          href: real-time-marketing-email.md
+        - name: "Preview: Use AI to kickstart email creation with content ideas"
+          href: content-ideas.md
+        - name: "Preview: Use brand profiles in real-time marketing email"
+          href: brand-profiles-email.md
       - name: Push notifications
         href: real-time-marketing-push-notifications.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
+      - name: "Preview: Create and manage real-time marketing forms"
+        href: real-time-marketing-form-editor.md
       - name: "Preview: Create custom channels"
         href: real-time-marketing-create-custom-channels.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
-        href: content-ideas.md
-      - name: "Preview: Use brand profiles in real-time marketing email"
-        href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
     - name: Journeys
