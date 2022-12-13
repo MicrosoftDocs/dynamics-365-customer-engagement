@@ -94,12 +94,10 @@ The following screenshot illustrates how selecting a default view displays the u
 >[!NOTE]
 >View selection is only available in the table view. If you want to open the records in a specific view by default, you'll need to turn off **Set kanban as default**. If you select both Kanban view and a default view, then the records open in Kanban view, and the default view appears only when the user switches to the table view.
 
-
-
-
 ## Override column headers (preview)
 
 In the **Layout** step of the forecast configuration, you select columns that you need in the forecast grid. These columns help your sellers better understand the forecast. 
+
 :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::
 
 If you want to translate the column names or add tooltips for additional context, you can define a control with the customization that you need. You can then override the column headers with the custom control. For more information about how to create a custom control for the header, see [Customize column headers in the forecast grid](fc-customize-column-headers.md).
