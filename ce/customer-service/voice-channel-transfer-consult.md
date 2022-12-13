@@ -43,7 +43,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
         > ![Screenshot of queue transfer](./media/oc-transfer-q.png)<br>
     
     - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
-    - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the user in Microsoft Teams. <br> 
+    - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of teams transfer](./media/oc-teams-transfer.png) <br>
 
