@@ -54,7 +54,7 @@ After you have configured knowledge management on your app, you must also set up
 
 - [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
-- [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
+- [Create templates for knowledge articles](create-templates-knowledge-article.md#create-templates-for-knowledge-articles)
 - [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
 - [Set up external knowledge search providers](set-up-search-providers.md#set-up-external-knowledge-search-providers)
 
@@ -76,7 +76,7 @@ After you have configured knowledge management on your app, you must also set up
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
         * If you want to select a default knowledge authoring language for your organization, then select the **Organization’s UI language** radio button. 
         *	If you want to use the organizations’ s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
-        *	If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
+        *	If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
       *	In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
       *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
 	    * Select **Save**.
@@ -110,7 +110,7 @@ After you have configured knowledge management on your app, you must also set up
 
 6. In the **Knowledge articles authoring language** section, set the **Set default knowledge authoring language for your users** to **Yes**.
    * If you want to set the default knowledge authoring language for your organization, search and select a language in the **Select a language** field, and then set the **Use organization’s UI language** toggle to **Yes**.
-   * If you also want to allow users to set their default knowledge authoring language in the personalization option, set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
+   * If you also want to allow users to set their default knowledge authoring language in the personalization option, set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
 7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
 
