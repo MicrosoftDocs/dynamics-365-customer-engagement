@@ -57,7 +57,7 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 
 - **Extend your outreach with custom channels**   
     - Extend real-time marketing using the communication channels you're familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement. 
-    - [Release plan](/dynamics365-marketing/extend-outreach-custom-channels)
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/extend-outreach-custom-channels)
     - [Docs](/dynamics365/marketing/real-time-marketing-create-custom-channels)
 
     > [!div class="mx-imgBorder"]
@@ -65,8 +65,8 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 
 - **Communicate dates and times in a variety of formats**
     - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale, and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
-    - [Release plan](/dynamics365-marketing/communicate-dates-times-variety-formats)
-    - [Docs](/dynamics365-marketing/communicate-dates-times-variety-formats) 
+    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
+    - [Docs](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text#communicate-dates-and-times-in-various-formats) 
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a variety of date and time format.](media/whats-new-personalization-date-and-time-format.png "Screenshot of a variety of date and time format")
@@ -83,7 +83,7 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 - **Create lead capture forms that convert visitors to customers**
 
    - Now in real-time marketing, create modern website forms that capture your customers' attention while allowing them to enter their data. Use the drag-and-drop editor to create forms that collect marketing data, convert visitors into leads, and convert leads into paying customers. With the new form editor, you can create robust forms without relying on complex code and developers.
-   - [Release plan](/dynamics365-marketing/create-lead-capture-forms-that-convert-visitors-customers)
+   - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-lead-capture-forms-that-convert-visitors-customers)
    - [Docs](/dynamics365/marketing/real-time-marketing-form-editor)
 
     > [!div class="mx-imgBorder"]
@@ -113,17 +113,19 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 
 To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs and scenario docs:
 
-• [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Blogs for BDM](/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+• [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Blogs for BDM](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
 
-• [Engage your customers faster with AI-powered marketing email content - Dynamics 365 Blogs for IT Pro](/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+• [Engage your customers faster with AI-powered marketing email content - Dynamics 365 Blogs for IT Pro](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
 
-• [’Tis the season for exceptional customer experiences - Microsoft Industry Blogs](/industry-blog/retail/2022/12/01/tis-the-season-for-exceptional-customer-experiences/)
+• [’Tis the season for exceptional customer experiences - Microsoft Industry Blogs](https://cloudblogs.microsoft.com/industry-blog/retail/2022/12/01/tis-the-season-for-exceptional-customer-experiences/)
 
-• [Deploying Event Portal Changes in Dynamics 365 Marketing - Dynamics FastTrack Blogs](/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
+• [Deploying Event Portal Changes in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
 
-• [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
+• [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
 
-• [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+• [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+
+• [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
 
 • [Send a targeted email blast in real-time marketing - Scenario doc](/dynamics365/marketing/real-time-marketing-email-get-started)
 
