@@ -31,10 +31,10 @@ This topic contains details about each API's input (request) and output (respons
 
 - Platform version 9.2.21055 or above with Universal Resource Scheduling version 3.12.45.7.
 - Usage of one of the following record types: 
-  - [Bookable resource](/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9&preserve-view=true)
-  - [Resource requirement](/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9&preserve-view=true)
-  - [Work hour template](/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9&preserve-view=true)
-  - [Project](/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9&preserve-view=true)
+  - Bookable resource (bookableresource)
+  - Resource requirement (msdyn_resourcerequirement)
+  - Work hour template (msdyn_workhourtemplate)
+  - Project (msdyn_project)
 
 ## Calendar event types
 
