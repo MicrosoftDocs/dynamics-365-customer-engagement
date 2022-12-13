@@ -1,7 +1,7 @@
 ---
 title: "Define your channel definition (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to define your channel definition for real-time marketing custom channels in Dynamics 365 Marketing."
-ms.date: 12/12/2022
+ms.date: 12/13/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -87,8 +87,16 @@ In the example below, you will notice that:
 
 ### Sample solutions
 
-The samples below include unpacked solutions for Dataverse and plugins projects.
-To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/learn.microsoft.com/power-platform/alm/solution-packager-tool).
+The samples below include unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project will then copy the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
 
-[SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)  
-[SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
+- [SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
+- [SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
+
+#### How to build the plugins project and pack the solution
+
+1. Build the plugins project with MSBuild or Visual Studio. Building the project will create a dll in the PluginAssemblies folder inside the Dataverse solution folder.
+1. Pack the unmanaged folder with the Solution Packager using either:
+    - [pac cli](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
+    - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager?view=op-9-1)  
+
+    `pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both`
