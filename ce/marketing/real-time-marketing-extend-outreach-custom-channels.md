@@ -64,6 +64,6 @@ The samples below include unpacked solutions for Dataverse and plugins projects.
 1. Build the plugins project with MSBuild or Visual Studio. Building the project will create a dll in the PluginAssemblies folder inside the Dataverse solution folder.
 1. Pack the unmanaged folder with the Solution Packager using either:
     - [pac cli](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
-    - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager?view=op-9-1)  
+    - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager)  
 
     `pac solution pack --zipfile C:\tmp\SampleCustomChannelSolution.zip -f src\Solutions\Samples\SampleCustomChannel\SampleCustomChannel.Solution\unmanaged --packagetype Both`
