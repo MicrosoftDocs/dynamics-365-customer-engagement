@@ -22,10 +22,6 @@ search.app:
 
 This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 Marketing. For information about monthly bug fixes, visit the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) article.
 
-## Microsoft doesn't support diacritics/accents in Outbound marketing
-
-Diacritics (pronunciation marks placed above or below a letter) aren't supported in dynamic URLs in outbound marketing.
-
 ## Configuration, installation, and first-run experience
 
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
@@ -60,6 +56,7 @@ Diacritics (pronunciation marks placed above or below a letter) aren't supported
 - Avoid deactivating publishable (go-live) records. Instead, change the publishing state (Status reason), and use the **Stop** buttons to manage records that are no longer required. More information: [Go live with publishable entities and track their status](go-live.md).
 - Dynamics 365 Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md).
 - Right-to-left (RTL) language support currently has the following limitations: the segmentation designer is usable, but shows its user-interface elements in the wrong order; and the supplied content samples (marketing-page templates, email templates, form templates, and event website) aren't provided in RTL layouts.
+- Diacritics (pronunciation marks placed above or below a letter) aren't supported in dynamic URLs in outbound marketing.
 
 ## Insights
 
