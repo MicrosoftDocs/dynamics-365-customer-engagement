@@ -14,7 +14,7 @@ search.app:
 
 # Asset servicing in Dynamics 365 Field Service
 
-Customer assets let you track equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](assets-functional-location.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. If you're using [Connected Field Service](cfs-iot-overview.md), [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset and [trigger IoT alerts](cfs-iot-alerts.md) as needed.
+Customer assets let you track equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](functional-locations.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. If you're using [Connected Field Service](cfs-iot-overview.md), [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset and [trigger IoT alerts](cfs-iot-alerts.md) as needed.
 
 For a guided walkthrough of servicing a customer asset based on an IoT alert, check out the following video.
 
@@ -30,7 +30,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. Go to **Assets** > **Assets** and select **New**.  **Customer Assets** > **+New**.  
 
-   :::image type="content" source="media/customer-asset-create-manually.PNG" alt-text="Screenshot of a customer asset.":::
+   :::image type="content" source="media/customer-asset-create-manually.PNG" alt-text="Screenshot of a customer asset created manually.":::
 
 1. Enter a reference **Name** for the customer asset. For example, the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or descriptive information like *HVAC Unit second Floor*.
 
@@ -40,7 +40,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
     - **Account**: Choose a [service account to represent the location and customer of the customer asset](accounts.md). As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same.
 
-    - **Functional location**: Choose a [functional location](assets-functional-location.md) where this customer asset is located.
+    - **Functional location**: Choose a [functional location](functional-locations.md) where this customer asset is located.
 
     - **Parent Customer Asset**: Field Service supports hierarchical asset structures. For example, a part can be the child of a component, which is the child of a machine. Use this field to specify the direct parent. The **Master Asset** shows the top-level parent in the relationship automatically. After creating the asset record, you can use the **Sub Asset** grid on the form to add child assets.
 
@@ -71,7 +71,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. Select **Save**.
 
-Adding a product to a work order [creates a work order product](create-product-or-service.md#add-a-product-or-service-to-a-work-order). The **Quantity** and a  **Line Status** set to **Used** indicate that the work order product was installed. 
+Adding a product to a work order [creates a work order product](create-product-or-service.md#add-a-product-or-service-to-a-work-order). The **Quantity** and a  **Line Status** set to **Used** indicate that the work order product was installed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order on the Product tab showing the quantity and line status of a product.](./media/customer-asset-product-used.png)
 
@@ -79,6 +79,25 @@ When the work order system status changes to **Open-Completed** or **Closed-Post
 
 > [!TIP]
 > By default, you can only use assets related to the service account on a work order. Field Service lets you can change this logic in the settings. For more information, see [Validate customer assets on work orders](asset-validation.md)
+
+## Create and assign asset categories
+
+Use an asset category to group your assets. Asset categories allow you to quickly apply property templates to a group of assets.
+
+1. In Field Service, change to the **Settings** area.
+
+1. Go to **General** > **Asset Categories**.
+
+1. Select **New** and provide a **Name** for the category.
+
+1. **Save** the record.
+
+1. You can now associate customer assets and property templates to the category.
+
+In this example, the asset *Contoso Laptop #113* is assigned to the *Laptop - high performance* category.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer asset.](./media/assets-categories-assign.png)
 
 ## Connect customer assets to Connected Field Service
 
