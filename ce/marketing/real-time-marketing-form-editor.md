@@ -27,21 +27,24 @@ search.app:
 > [!NOTE]
 > **Public preview known limitations**
 >
-> - The real-time marketing form editor relies on a new Consent model. It might take up to 48 hours for consent data migration to be completed after your organization is upgraded to the latest version. Otherwise the consent contact point won’t be created after the form is submitted. [Learn more](whats-new-marketing.md#december-2022-update).
->
+> - The real-time marketing form editor relies on a new consent model. It might take up to 48 hours for consent data migration to be completed after your organization is upgraded to the latest version. Otherwise, the consent contact point won’t be created after the form is submitted. [Learn more](whats-new-marketing.md#december-2022-update).
 > - All phone number and email fields must be marked as required and phone number field validation must be enabled in the form editor.
->
-> - The Commercial communication consent purpose isn't linked to the Do not bulk email attribute of the Contact.
+> - The commercial communication consent purpose isn't linked to the *Do not bulk email* attribute of the Contact.
 
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.
 
-Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of entity in Dynamics 365 Marketing.
+Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of an entity in Dynamics 365 Marketing.
 
 The real-time marketing form editor allows you to easily and quickly create and publish forms.
 
+## Enable the real-time marketing forms preview
+
+1. Go to **Settings** > **Overview** > **Feature switches**.
+1. Enable/disable the **Real-time marketing forms (preview)** feature switch toggle.
+
 ## Create a new form
 
-To create a new form, go to Real-time marketing > Channels > Forms and select New on the command bar.
+To create a new form, go to **Real-time marketing** > **Channels** > **Forms** and select **New** on the command bar.
 
 1. **Select target audience** that will be updated by the form submission. With real-time marketing form, you can select which audience you want to update between Contact and Lead. Each The target audience has a default strategy for duplicate records handling:
 
