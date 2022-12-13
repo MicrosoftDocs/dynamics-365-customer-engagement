@@ -99,6 +99,9 @@ Use the view list and queue list to filter and find items in queues.
    - Your work schedule, assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
    - Your presence will be updated. If you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
 
+   > [!NOTE]
+   > Remove the items from the queue can't be set for work items in an advanced queue.
+
 ## Release an item or case that you’re working on  
   
 1. In the **View** list, select one of the views that show the items or cases that you’re working on.  
@@ -129,8 +132,6 @@ After the item is released, the following updates will happen if the item is in 
   
 2. Select the activity or case, and on the command bar, select **Remove**.
 
-> [!NOTE]
-> You can't remove items from an advanced queue.
  
 ## Assign an activity to a user or queue
 
