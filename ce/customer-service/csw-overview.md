@@ -150,7 +150,7 @@ More information: [Work with cases](customer-service-hub-user-guide-create-a-cas
 
 | Label | Description|
 | ------------ | -------------|
-| 1 | Select the top check mark to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
+| 1 | Select the top check box to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
 | 2 | Edit selected activities. |
 | 3 | Delete selected activities. |
 | 4 | Open the menu for more actions such as **Mark Complete**, **Cancel**, **Set Regarding**, **Assign**, **Email a Link**, **Add to Queue**, and **Run Report**. |
@@ -165,7 +165,7 @@ More information: [Create and manage knowledge articles](customer-service-hub-us
 
 Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
 
-More information: [Email templates](/power-apps/user/email-template-create.md) and [Email signatures](/power-apps/user/email-signature.md)
+More information: [Email templates](/power-apps/user/email-template-create) and [Email signatures](/power-apps/user/email-signature)
 
 ## Customize Customer Service workspace
 
