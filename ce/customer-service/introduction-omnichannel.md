@@ -24,7 +24,8 @@ The enterprise-grade routing and work distribution engine allows customers to co
 
 > [!IMPORTANT]
 >
-> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
+> - [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
+> - The multisession mode and navigation capabilities are only supported in the Customer Service workspace and Omnichannel for Customer Service apps. You won't be able to navigate across multiple sessions in a custom app or copy of the Omnichannel for Customer Service app in your organization.
 
 ## Channels available with Omnichannel for Customer Service
 
