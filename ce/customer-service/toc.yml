@@ -1249,10 +1249,12 @@
     - name: Migrate configuration data for the record channel
       items:
       - name: Migrate configuration data for records
-        href: export-import-config-data-for-records.md
-      - name: Verify migration of configuration data for the record channel
+        href: migrate-config-data-for-records.md
+      - name: Export and import configuration data for records
+        href: export-import-config-data-for-records.md        
+      - name: Verify migration of configuration data for records
         href: export-import-config-data-for-records-verify.md
-      - name: Troubleshoot migration of configuration data for the record channel  
+      - name: Troubleshoot migration of configuration data for records  
         href: export-import-config-data-for-records-troubleshoot.md
     - name: Migrate configuration data for live chat
       href: export-import-config-data-for-live-chat.md
