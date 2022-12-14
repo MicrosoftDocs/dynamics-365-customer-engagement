@@ -50,9 +50,9 @@ You must perform the steps in the order they're listed to migrate your configura
 
 1. [Export and import skill-based routing configuration](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration)
 2. [Export and import capacity profiles configuration](export-import-config-data-for-records.md#migrate-capacity-profiles-configuration)
-3. [Export and import record queues configuration](export-import-config-data-for-records.md#export-and-import-record-queues-configuration)
-4. [Export and import intake rules configuration for records](export-import-config-data-for-records.md#export-and-import-intake-rules-configuration-for-records)
-5. [Export and import workstreams configuration for records](export-import-config-data-for-records.md#export-and-import-workstreams-configuration-for-records)
+3. [Export and import record queues configuration](export-import-config-data-for-records.md#migrate-record-queues-configuration)
+4. [Export and import intake rules configuration for records](export-import-config-data-for-records.md#migrate-intake-rules-configuration-for-records)
+5. [Export and import workstreams configuration for records](export-import-config-data-for-records.md#migrate-workstreams-configuration-for-records)
 6. [Verify your migration](export-import-config-data-for-records-verify.md)
 7. [Troubleshoot export and import of data](export-import-config-data-for-records-troubleshoot.md)
 

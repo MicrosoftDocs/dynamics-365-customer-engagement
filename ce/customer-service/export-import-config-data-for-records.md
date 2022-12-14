@@ -9,9 +9,8 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Migrate configuration data for the record channel
 
-## Migrate skill-based routing configuration
+# Migrate skill-based routing configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
@@ -65,7 +64,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 4. Use the Configuration Migration tool, and select the option to import data into the target organization.
 
-## Export and import record queues configuration
+## Migrate record queues configuration
 
 **Sample schema**
 
@@ -451,7 +450,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-## Export and import intake rules configuration for records
+## Migrate intake rules configuration for records
 
 **Sample schema**
 
@@ -666,7 +665,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch>
 ```
 
-## Export and import workstreams configuration for records
+## Migrate workstreams configuration for records
 
 **Sample schema**
 
