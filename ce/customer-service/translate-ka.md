@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.custom: bap-template
 ---
 
 # Translate knowledge articles
 
-Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages without having to manage multiple copies of the same article.
 
 ## Select a language for your knowledge article translation
 
@@ -22,7 +22,7 @@ Your knowledge article must reach your customers irrespective of their market or
   
 2. In the **Create new translation** dialog, do the following:
    * From the **Pick a language** dropdown list, search for and select the language you want.  
-   * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
+   * In the **Create new version** field, select either the **Major** or **Minor** version for your translation.  
 
     You can set languages that are supported by your Dynamics 365 instance.
   
@@ -39,7 +39,7 @@ Your knowledge article must reach your customers irrespective of their market or
   
 ## Manage article translations  
 
-After you have published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
+After you've published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
   
 1.  In the **Related Information** section, select **Related Translations**.  
   

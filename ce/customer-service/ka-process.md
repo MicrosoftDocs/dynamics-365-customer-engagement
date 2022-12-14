@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: conceptual
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.custom: bap-template
 ---
 
@@ -16,7 +16,7 @@ With the knowledge management module, you can create and manage knowledge articl
 
 ## Default process
 
-The following image describes the default process to create and use knowledge articles in your Customer Service app. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can be translated.
+The following image describes the default process to create and use knowledge articles in your Customer Service app. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it's sent back for edits or updates. If the article is approved, it's published on the portal. It's also available in search and can be translated.
   
 ![Knowledge management process in Dynamics 365 Customer Service.](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service.")  
  

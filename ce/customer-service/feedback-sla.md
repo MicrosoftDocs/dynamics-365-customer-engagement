@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,7 @@ Mange feedback received for your articles by adding them to your knowledge artic
 
 1.  Select the article you want to add feedback for.
 
-1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button.](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
+1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button.](../customer-service/media/add-recordbutton.gif "Add a record button") in the navigation bar and then go to **Feedback** to create a feedback.  
   
 2. In the **Quick Create: Feedback** dialog, fill in the information:  
   
@@ -32,9 +32,9 @@ Mange feedback received for your articles by adding them to your knowledge artic
   
    - **Comments**. Type any feedback comments that you want.  
   
-   - **Rating**. Type a number to specify how useful the related record is. For example, if you are tracking the customer satisfaction for a case, and you want to rate it a 2 on a scale of 1–10, type 2.  
+   - **Rating**. Type a number to specify how useful the related record is. For example, if you're tracking the customer satisfaction for a case and you want to rate it a 2 on a scale of 1–10, type 2.  
   
-   - **Minimum Rating** and **Maximum Rating**. Specify a minimum and maximum rating to define a rating scale. For example, you want to give a rating of 2  on the scale of 1–10, type 1 as the minimum rating and 10 as the maximum rating.  
+   - **Minimum Rating** and **Maximum Rating**. Specify a minimum and maximum rating to define a rating scale. For example, if you want to give it a rating of 2 on the scale of 1–10, type 1 as the minimum rating and 10 as the maximum.  
   
    - **Created by (Contact)**. If you're creating the feedback on behalf of a customer contact, select the contact here.  
   

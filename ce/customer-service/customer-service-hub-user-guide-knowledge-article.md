@@ -1,7 +1,7 @@
 ---
 title: Create and manage knowledge articles
 description: Learn how to create and manage knowledge articles.
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

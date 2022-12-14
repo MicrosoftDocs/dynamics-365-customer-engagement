@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.custom: bap-template
 ---
 
@@ -35,7 +35,7 @@ This capability helps you to keep accurate records of the features your organiza
   
 ## Review and publish your new version  
 
-When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
+When you're done making changes, you can push the new version of your article through your standard article workflow. When you're finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
   
 ## Manage article versions  
 
@@ -51,4 +51,4 @@ Managing your article versions means publishing and archiving different versions
   
 5.  When prompted, select **OK**.  
   
-     Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so ensure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete. 
+     Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so ensure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.

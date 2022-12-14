@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.custom: bap-template
 ---
 
@@ -25,28 +25,28 @@ Ensure that you have the Publish and Update permissions on the Knowledge Article
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
-2.  Open a knowledge article that’s in the Approved state.  
+2.  Open a knowledge article that’s in the **Approved** state.  
   
-4.  To make it easy to find knowledge articles related to specific products, associate the knowledge article with a product.  
+1.  To make it easy to find knowledge articles related to specific products, associate the knowledge article with a product.  
   
     1.  On the command bar, select **More** > **Relate Product**.  
   
-    2.  In the **Select Product to Associate with** field, select the **Lookup** button, elect a product this article is about, and then select **Associate**.  
+    2.  In the **Select Product to Associate with** field, select the **Lookup** button, select a product this article is about, and then select **Associate**.  
   
          The associated article appears in the **Related Products** list in the **Related Information** section of the **Summary** tab.  
   
-5.  On the Business process bar, select the **Publish** stage.  
+1.  On the Business process bar, select the **Publish** stage.  
   
-6.  In the **Set Product Associations** field, select **Mark as Complete**.  
+1.  In the **Set Product Associations** field, select **Mark as Complete**.  
   
-7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
+1.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
 
-8.  Select **Finish**. The Publish dialog is displayed.
+1.  Select **Finish**. The Publish dialog is displayed.
 
   > [!NOTE]
   > The Publish dialog appears only for the default business process flows where the final stage is **Publish**. To configure the Publish dialog for other customized stages, see [Process events and event handler methods](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process#process-events-and-event-handler-methods).
 
--   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
+-   In the **Publish** field, select whether you want to publish the knowledge article now or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
 -   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
   
