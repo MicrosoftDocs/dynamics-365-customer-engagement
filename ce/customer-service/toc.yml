@@ -1250,7 +1250,7 @@
       items:
       - name: Migrate configuration data for records
         href: migrate-config-data-for-records.md
-      - name: Export and import configuration data for records
+      - name: Migrate routing rulesets, capacity profiles, queues, intake rules, and workstreams
         href: export-import-config-data-for-records.md        
       - name: Verify migration of configuration data for records
         href: export-import-config-data-for-records-verify.md

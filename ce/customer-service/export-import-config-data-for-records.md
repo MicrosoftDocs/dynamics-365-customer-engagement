@@ -10,7 +10,9 @@ ms.reviewer: nenellim
 ---
 
 
-# Migrate skill-based routing configuration
+# Migrate routing rulesets, capacity profiles, queues, intake rules, and workstreams
+
+## Migrate skill-based routing configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
