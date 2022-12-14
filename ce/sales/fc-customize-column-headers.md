@@ -2,16 +2,12 @@
 title: Customize column headers in the forecast grid
 description: Learn how to customize the column headers of the forecast grid.
 ms.date: 06/13/2022
-ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ms.topic: how-to
 ms.custom: bap-template
 ---
-
-<!-- In line 154, should it be "French language," singular? -->
-
 
 # Customize column headers in the forecast grid
 
@@ -34,7 +30,6 @@ Let's understand the customizations with an example. We'll add the French transl
 1. [Implement the component logic](#implement-the-component-logic)
 1. [Build and package the component](#next-steps)
 
- 
 ### Create a resource file and add translations
 
 After you create the code component, the `ColumnHeader` folder is created in the path you've specified. Let's create a resource file and add the French translations in the resource file.
@@ -43,7 +38,7 @@ After you create the code component, the `ColumnHeader` folder is created in the
 
 1. Copy the following code to a new file, ColumnHeader.1036.resx.
     > [!NOTE]
-    > The number 1036 in the file name is the language code for French. For a list of language codes, see [this article](https://learn.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+    > The number 1036 in the file name is the language code for French. For a list of language codes, see [this article](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
  
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
