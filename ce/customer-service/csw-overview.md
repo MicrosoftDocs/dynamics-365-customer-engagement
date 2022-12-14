@@ -47,10 +47,10 @@ The Customer Service workspace app supports two layouts:
 You can switch to the enhanced layout with the following steps:
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
+1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
 1. Refresh the app page.
 
-To revert back to the default layout, type the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+To revert back to the default layout, enter the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
 
 > [!Important]
 > - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
@@ -114,7 +114,7 @@ More information: [Productivity pane](csw-productivity-pane.md)
 
 As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
 
-1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown list.
+1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
 
 1. In the site map, select the plus (+) icon, and then select **My schedule** from the dropdown menu.
 
@@ -140,7 +140,7 @@ On the Customer Service Agent Dashboard, you can view cases and activities that 
 | 4 | Edit selected cases. |
 | 5 | Delete selected cases. |
 | 6 | Apply a routing rule to route selected cases to a queue. |
-| 7 | Open the menu for more actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, and Unfollow cases. |
+| 7 | Open the menu for more actions such as **Assign**, **Add to Queue**, **Run Report**, **Email a Link**, **Share**, **Follow**, and **Unfollow cases**. |
 
 More information: [Work with cases](customer-service-hub-user-guide-create-a-case.md)
 
@@ -153,7 +153,7 @@ More information: [Work with cases](customer-service-hub-user-guide-create-a-cas
 | 1 | Select the top check mark to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
 | 2 | Edit selected activities. |
 | 3 | Delete selected activities. |
-| 4 | Open the menu for more actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, and Run Report. |
+| 4 | Open the menu for more actions such as **Mark Complete**, **Cancel**, **Set Regarding**, **Assign**, **Email a Link**, **Add to Queue**, and **Run Report**. |
 
 ### Create and search knowledge articles
 
@@ -174,7 +174,7 @@ You can use your browser's developer tools to customize some aspects of the Cust
 ### Turn off the close session dialog
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
+1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
 1. Refresh the app page.
 
 ### Turn on legacy navigation (deprecated)
