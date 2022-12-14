@@ -1,7 +1,7 @@
 ---
 title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
-ms.date: 10/01/2020
+ms.date: 12/14/2022
 ms.reviewer: mhart
 
 ms.topic: article
@@ -18,14 +18,14 @@ search.app:
 
 # Work order summary reports in Dynamics 365 Field Service
 
-Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, these managers need to be able to monitor key operational metrics. 
+Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, these managers need to be able to monitor key operational metrics.
 
 Reports in Dynamics 365 Field Service can help you get a birds-eye understanding of ongoing work across your organization, such as: 
 
 - The number of open work orders at any given point in time
 - Average time to complete a work order
 - Average time it takes for technicians to travel to a customer location
-- Whether or not you are meeting customer expectations around travel time or other needs
+- Whether or not you're meeting customer expectations around travel time or other needs
 - How an individual technician performs on all key metrics
 - Insights around specific territories, from work order volume to travel time and more
 
@@ -39,15 +39,13 @@ To find reports, go to **Field Service** > **Service** > **Analytics and Insight
 
 ![Screenshot showing a sample work order summary report.](./media/report-overview-example.png)
 
-![Screenshot showing additional information on a sample work order summary report.](./media/report-overview-example-2.png)
-
 Let's take a look at what you can see from these work order summary reports.
 
 |    Visuals                                               |    Description                                                                                                                                                                                                                                                                                              |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    Work orders                                           |    Total number of work orders created for the selected filters.                                                                                                                                                                                                                                          |
 |    Open work orders                                      |    Total number of currently open work orders.                                                                                                                                                                                                                          |
-|    Broken promise (%)                               |    Percentage of work orders that were not completed within the promise window.                                                                                                                                                                                                                                        |
+|    Broken promise (%)                               |    Percentage of work orders that weren't completed within the promise window.                                                                                                                                                                                                                                        |
 |    Mean time to schedule (mins)                          |    Average time to schedule from the time the work order was created to the time of the first booking.                                                                                                                                                                                                        |
 |    Mean time to travel (hrs)                             |    Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders.                                                                                                                                                                                        |
 |    Mean time to complete (hrs)                           |    Average time taken to complete all the bookings for a specific work order from the date the work order was created.                                                                                                                                                                                  |
@@ -65,9 +63,9 @@ Let's take a look at what you can see from these work order summary reports.
 
 ## View and filter reports
 
-You can filter reports by the following criteria: 
+You can filter reports by the following criteria:
 
-- **Customer** 
+- **Customer**
 - **System status**
 - **Work order type**
 - **Substatus**
@@ -79,45 +77,25 @@ See the following screenshot of the work order summary report for reference.
 
 ![Screenshot showing the work order summary report filter options.](./media/report-filter-example.png)
 
-
 ## Refresh reports
-The information in reports is refreshed every 24 hours. You may see a yellow, triangular warning icon next to the label **Last refresh (UTC)** in the top-right of the report. This icon indicates whether there is a delay or issue with the data refresh. If the data has not been refreshed in the last 24 hours, you'll see a tooltip message when you hover over the icon.
+
+The information in reports is refreshed every 24 hours. You may see a yellow, triangular warning icon next to the label **Last refresh (UTC)** in the top-right of the report. This icon indicates whether there's a delay or issue with the data refresh. If the data hasn't been refreshed in the last 24 hours, you'll see a tooltip message when you hover over the icon.
 
 |    Refresh   status                       |    Indicator   Icon    |    Tooltip   message                                                                                                                       |
 |-------------------------------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 |    Within or close to SLA (24 hours)    |    Not visible         |    The data set is up to date.                                                                                                             |
-|    Missed SLA (>24 hours)               |    Visible             |    Due to the delay with the refresh process, the data set has not been refreshed and you can reach out to your system administrator.    |
-
-## Share reports
-
-By default, the tenant administrator will be able to view all the reports, but by following the below steps, they can also share reports with other users or teams.
-
-1. To share a report, select **Share** in the top-right corner of the report. 
- 
-2. Select the **Work order summary** report.
-
-3. Select **Share**.
-
-4. Select **Add User/Team** and then choose the user you want to share the report with.
-
-    ![Screenshot showing the add user or team option on the share reports screen.](./media/report-share.png)
-
-5. Make sure the **Read** access is selected and then select **Share**.
-
-    ![Screenshot showing the share window with emphasis on the read box being checked.](./media/report-share-read-checked.png)
-
-The user or team you selected will now be able to see the report. 
+|    Missed SLA (>24 hours)               |    Visible             |    Due to the delay with the refresh process, the data set hasn't been refreshed and you can reach out to your system administrator.    |
 
 ## Additional notes
 
 - We don't support environment minimal copy operations available for sandbox environments. If you perform any of these operations, you may encounter unexpected results.
-- Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Currently, we do not support a custom refresh schedule.
+- Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports aren't refreshed within 24 hours, you can contact Microsoft Support. Currently, we don't support a custom refresh schedule.
 - Data refresh for inactive environments: if there's no active usage of the reports for two continuous weeks, the data refresh will pause. When a report is opened, the data will be refreshed in the next refresh cycle.
-- Report filters will not persist.
-- In **Resource and Utilization**, the **Next** control in the date range is not currently operational.
+- Report filters won't persist.
+- In **Resource and Utilization**, the **Next** control in the date range isn't currently operational.
 - Currently, we don't support report customizations.
 - Data retention lasts for 24 months.
-- Data availability for entities: Field Service uses the following list of entities to generate these reports. If there is no data for any of the following entities, then the report may appear blank. If you have customized these entities or if you're not using the out-of-box entities, then the reports will show blank too.
+- Data availability for entities: Field Service uses the following list of entities to generate these reports. If there's no data for any of the following entities, then the report may appear blank. If you've customized these entities or if you're not using the out-of-box entities, then the reports will show blank too.
 
     - account
     - bookableresource
@@ -161,7 +139,7 @@ Get an error message? See the following table for a list of errors and what you 
 
 **msdyn_AnalyticsSaveDataInConfigStore custom action**
 
-Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
+Don't disable this custom action because insights and analytics features in Dynamics 365 won't function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
 
 #### Parameters
 
