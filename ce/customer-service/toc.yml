@@ -124,6 +124,8 @@
       href: ../app-profile-manager/create-agent-experience-profile.md
     - name: Configure the inbox for agents
       href: configure-inbox.md     
+    - name: Configure the agent calendar view
+      href: configure-agent-calendar.md
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
@@ -510,12 +512,28 @@
         href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
-      - name: Configure the knowledge article authoring language
-        href: set-knowledge-article-authoring-language.md
+      - name: Understand the knowledge article creation process
+        href: ka-process.md
       - name: Create and manage knowledge articles 
         href: customer-service-hub-user-guide-knowledge-article.md
-      - name: Create knowledge article templates in Customer Service
+      - name: Configure the knowledge article authoring language
+        href: set-knowledge-article-authoring-language.md
+      - name: Review knowledge articles 
+        href: review-ka.md
+      - name: Publish knowledge articles 
+        href: publish-ka.md
+      - name: Create and manage article versions
+        href: ka-versions.md
+      - name: Translate knowledge articles 
+        href: translate-ka.md
+      - name: Manage feedback for knowledge articles
+        href: feedback-sla.md 
+      - name: Create templates for knowledge articles
         href: create-templates-knowledge-article.md
+      - name: Prevent duplicate workflows with knowledge article operations
+        href: dup-workflows-ka.md
+      - name: Knowledge article analytics
+        href: dashboards-ka.md
     - name: Agent experience
       items:
       - name: Search knowledge articles
@@ -528,6 +546,8 @@
         href: filter-articles.md
       - name: Submit ratings and feedback for knowledge articles
         href: submit-feedback.md
+      - name: Convert a case to a knowledge article
+        href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
     - name: Self-service experience
@@ -538,6 +558,8 @@
       items: 
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
+      - name: Add a knowledge article rich text editor control to a form
+        href: rich-text-editor-ka.md
       - name: Configure faceted search results web template from your portal 
         href: configure-faceted-search-results.md
     - name: Developer experience
@@ -660,6 +682,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: Transfer calls and consult with other users
+        href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
         href: voice-channel-call-recordings-transcripts.md
     - name: Supervisor experience
@@ -940,8 +964,6 @@
     items:
     - name: Overview of bots
       href: overview-bots.md
-    - name: Bot sessions and licensing
-      href: bot-session-licensing.md
     - name: Best practices for configuring bots
       href: configure-bot-best-practices.md   
     - name: Administrator experience
@@ -950,6 +972,8 @@
         href: context-variables-for-bot.md      
       - name: Configure Azure bots
         items:
+        - name: Bot sessions and licensing
+          href: bot-session-licensing.md
         - name: Integrate an Azure bot
           href: configure-bot-azure.md
         - name: Sample configuration

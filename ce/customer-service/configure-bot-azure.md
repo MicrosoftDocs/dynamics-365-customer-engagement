@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 08/02/2022
+ms.date: 12/02/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -18,7 +18,7 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 
 ## Prerequisites
 
-- Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
+- Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Ensure that you register the bot resource as a multitenant app.
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 - Set the messaging endpoint in your bot configuration. More information: [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned)

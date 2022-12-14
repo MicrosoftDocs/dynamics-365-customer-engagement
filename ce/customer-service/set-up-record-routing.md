@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Use this article to understand how to set up unified routing for records in Customer Service."
-ms.date: 04/04/2022
+ms.date: 12/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,6 +22,8 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 > - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
+> - If you're routing, updating, or deleting multiple records at a time, and facing any technical or performance-related issues with unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
+
 
 ## Prerequisites
 
@@ -138,7 +140,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
 ### Next steps
 
-![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)  
+![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)  
 ![Home.](media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
 
 ### See also

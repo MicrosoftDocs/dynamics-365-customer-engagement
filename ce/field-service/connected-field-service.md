@@ -7,8 +7,8 @@ ms.reviewer: mhart
 ms.subservice: connected-field-service
 
 ms.topic: overview
-author: m-hartmann
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app: 
   - D365CE
