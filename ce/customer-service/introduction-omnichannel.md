@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: Learn about Omnichannel for Customer Service, the features that are offered, and how they can be configured in your organization.
-ms.date: 04/26/2022
+ms.date: 12/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ The enterprise-grade routing and work distribution engine allows customers to co
 > [!IMPORTANT]
 >
 > - [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
-> - The multisession mode and navigation capabilities are only supported in the Customer Service workspace and Omnichannel for Customer Service apps. You won't be able to navigate across multiple sessions in a custom app or copy of the Omnichannel for Customer Service app in your organization.
+> - The multisession mode and navigation capabilities are supported in the Omnichannel for Customer Service and Customer Service workspace apps only, and not in copies of these apps or custom apps. 
 
 ## Channels available with Omnichannel for Customer Service
 
