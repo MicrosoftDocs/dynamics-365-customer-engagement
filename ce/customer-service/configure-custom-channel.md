@@ -1,7 +1,7 @@
 ---
 title: "Configure custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 12/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,7 +21,7 @@ The value proposition of integrating a custom channel is as follows:
 
 - Integrate line-of-business (in-house) messaging channels that are specific to your organization.
 
-- Easily configure the administrator experience in the Omnichannel admin center app.
+- Easily configure the administrator experience in the Customer Service admin center or Omnichannel admin center app.
 
 - Create a single and unified agent experience in the Omnichannel for Customer Service app.
 

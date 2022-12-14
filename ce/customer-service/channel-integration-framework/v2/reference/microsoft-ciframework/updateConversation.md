@@ -1,7 +1,7 @@
 ---
 title: "updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 02/13/2020
+ms.date: 11/18/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh

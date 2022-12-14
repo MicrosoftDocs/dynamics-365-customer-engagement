@@ -20,7 +20,7 @@ You'll use Omnichannel admin center to route work items that come through differ
 
 In this article, we'll take you through the high-level process of configuring unified routing in both the apps.
 
-> [!Note]
+> [!NOTE]
 > We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
 
 ### Prerequisites
@@ -43,7 +43,7 @@ The sequence of the tasks that you'll need to perform for setting up unified rou
 |![Step 3.](media/step-3.png "Step 3") |[Create and manage queues for unified routing](queues-omnichannel.md)| Set up queues in advanced queues section and add users. |
 |![Step 4.](media/step-4.png "Step 4") |[Set up unified routing for records](set-up-record-routing.md#configure-unified-routing-for-records)|Configure a record for routing.|
 |![Step 5.](media/step-5.png "Step 5") |[Create workstreams for record routing](set-up-record-routing.md#create-workstreams-for-record-routing)|Configure a workstream for record routing|
-|![Step 6.](media/step-6.png "Step 6") |[Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)|Turn on routing diagnostics|
+|![Step 6.](media/step-6.png "Step 6") |[Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)|Turn on routing diagnostics|
 ||||
 
 ### Try the runtime experience in Customer Service workspace

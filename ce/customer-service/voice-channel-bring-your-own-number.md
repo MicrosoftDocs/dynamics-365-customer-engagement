@@ -1,7 +1,7 @@
 ---
 title: "Bring your own carrier | MicrosoftDocs"
 description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
-ms.date: 04/04/2022
+ms.date: 12/13/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -25,6 +25,8 @@ Azure direct routing (preview) enables you to connect your existing telephony in
   - Check your [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure).
   - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony/certified-session-border-controllers).
   - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony/direct-routing-provisioning).
+  - Ensure that the phone number of your Dynamics 365 organization is encoded in E.164 format so that the calls can be forwarded by your SBC.
+  - Deploy the SBC and DNS server in the same region. Azure Communication Services hosts group calls in the region where the DNS server is deployed. If the SBC and DNS server are in different regions, users can experience a delay. Ensure that your DNS server is not delegated to a sub domain.
 
 ## Bring your own phone number via Azure direct routing
 

@@ -8,8 +8,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE
@@ -157,57 +157,11 @@ To upgrade resource scheduling optimization, in the left pane select **Resources
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center_3.](./media/rso-upgrade-manage-powerapps-admin.png)
 
-
 Then select **Upgrade to new version**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the upgrade resource scheduling optimization option.](./media/upgrade-rso-upgrade-to-new-version.png)
 
 **Pro Tip:** By selecting **Change Organization**, you can point resource scheduling optimization at a different environment to optimize those work orders, projects, cases, etc. Doing so will initiate an upgrade. Furthermore, your resource scheduling optimization data and configurations (optimization scopes, goals, and schedules) will remain in the previous environment in case you ever want to switch it back.
-
-## Field Service Mobile (Xamarin)
-
-The Field Service Mobile experience is updated independently of the Field Service app but on a similar cadence, meaning minor and major updates throughout the year. 
-
-Upgrading the mobile experience for technicians requires three steps:
-
-1. Update the Field Service Mobile app
-2. Upgrade the mobile configuration tool (Woodford) solution
-3. Upgrade the mobile project template
-
-
-> [!Note]
-> All of the steps are dependent on each other and need to be coordinated and executed together. Occasionally, only a new mobile project template is released and needs to be upgraded without the need to update the mobile app or upgrade the mobile configuration tool (Woodford) solution. In this case, **skip to step 3**.
-
-### Step 1: Update the Field Service Mobile app
-
-Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
-
-When a new version of the mobile app is released, the app will need to be updated on each user's device. Updates can be done manually, automatically, or via Microsoft Intune.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example.](media/mobile-field-service-mobile-windows-app-store.png)
-
-As an example, downloading Field Service Mobile from the Windows Store can allow for automatic updates as new versions are released. 
-
-### Step 2: Upgrade the mobile configuration tool (Woodford) solution
-
-To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.yml) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
- 
-
-### Step 3: Upgrade the mobile project template.
-
-Mobile projects hold the configurations and customizations of the mobile app. Periodically, Microsoft releases new mobile projects in conjunction with or independent of a mobile app update or a new version of the mobile configuration tool (Woodford) solution.
-
-See the article on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
-
-## Additional notes
-
-Field Service mobile push notifications and geofence alerts solutions that are part of the install and upgrade of Field Service will only be installed if the mobile configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the mobile configuration tool (Woodford) was not present at install or upgrade.
-
-  1. [Download](https://aka.ms/fsmobile-configurator) the mobile configuration tool (Woodford) and import into **Settings** > **Solutions**
-  2. Delete the **FieldService_Anchor** from the solutions list in **Settings** > **Solutions**.
-  3. In Admin Center, an upgrade will be available; proceed to manually upgrade.
-  4. Manual upgrade will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts since the Woodford dependency has been met.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
