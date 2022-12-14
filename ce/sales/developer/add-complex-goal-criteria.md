@@ -1,5 +1,5 @@
 ---
-title: "Add complex goal criteria"
+title: "Add complex goal criteria (Dynamics 365 Sales)"
 description: "A rollup query (GoalRollupQuery) entity can be used to add complex rollup criteria for a goal"
 ms.custom: 
 ms.date: 10/31/2017
@@ -38,7 +38,7 @@ If you want to add complex rollup criteria for a goal, you can use a rollup quer
  To specify query criteria, use the `GoalRollupQuery.FetchXml` attribute. To specify the entity type for the query, use the `GoalRollupQuery.QueryEntityType` attribute.  
   
 > [!NOTE]
->  The entities that can be specified in the `GoalRollupQuery.QueryEntityType` attribute must have the following `EntityMetadata` attributes set to `true`: `IsValidForAdvancedFind`, `IsUserOwned`, `IsCustomizable` and `CanCreateAttributes`. The following entities cannot be specified in this attribute: `SharePointDocumentLocation`, `SharePointSite` and `MailMergeTemplate`.  
+>  The tables that can be specified in the `GoalRollupQuery.QueryEntityType` attribute must have the following `EntityMetadata` attributes set to `true`: `IsValidForAdvancedFind`, `IsUserOwned`, `IsCustomizable` and `CanCreateAttributes`. The following tables cannot be specified in this attribute: `SharePointDocumentLocation`, `SharePointSite` and `MailMergeTemplate`.  
   
  Depending on the goal metric type, you can use the queries to filter actual, in-progress, and custom amount or count data. The following table shows the goal metric types and the goal entity attributes that you can use to specify the queries for each type.  
   
@@ -72,7 +72,7 @@ If you want to add complex rollup criteria for a goal, you can use a rollup quer
 - Do not use a query if you are not sure it will provide the results that you expect.  
   
 ### See also  
- [Goal Management Entities](goal-management-entities.md)   
+ [Goal Management Tables](goal-management-entities.md)   
  [Sample: Use Rollup Queries to Track Goals](sample-use-rollup-queries-track-goals.md)   
  [Roll Up Goal Totals](roll-up-goal-totals.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Create and manage product families, products, bundles, and product properties"
+title: "Create and manage product families, products, bundles, and product properties (Dynamics 365 Sales)"
 description: "Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family."
 ms.custom: 
 ms.date: 10/31/2017
@@ -25,13 +25,13 @@ Define your product catalog by organizing your products in a hierarchical struct
  By default, when you create a product family, product, or bundle record, they are in the **Draft** state. After you have created a product, defined related products, and configured attributes for the parent product family record, you must publish the product family, product, or bundle record for them to become available in the system to your sales agents for selling. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
   
 > [!NOTE]
->  For products not associated with a product family, that is, products that don’t have a parent product family record assigned to them, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). By default, this attribute is set to `0` (false) for a fresh installation of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and to `1` (true) if you’re upgrading from a previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to ensure compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] where the product records were created in an **Active** state.  
+>  For products not associated with a product family, that is, products that don’t have a parent product family record assigned to them, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** column to `1` (true). By default, this column is set to `0` (false) for a fresh installation of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and to `1` (true) if you’re upgrading from a previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to ensure compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] where the product records were created in an **Active** state.  
 > 
 >  You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an **Active** state. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 <a name="Define"></a>   
 ## Define products, product families, and bundles  
- Use the `Product.ProductStructure` attribute to define whether an item is a product family, product, or bundle. Set the value of this attribute to:  
+ Use the `Product.ProductStructure` column to define whether an item is a product family, product, or bundle. Set the value of this column to:  
   
 - **1** to create a product  
   
@@ -41,7 +41,7 @@ Define your product catalog by organizing your products in a hierarchical struct
   
   Here are some important points to consider while defining product families, products, and bundles:  
   
-- A product family record can contain multiple child product family, product, and bundle instances in a hierarchical structure. For a child product family, child product, or child bundle instance, you define the parent product family instance using the `Product.ParentProductId` attribute. You can’t change the parent record once you’ve set it.  
+- A product family record can contain multiple child product family, product, and bundle instances in a hierarchical structure. For a child product family, child product, or child bundle instance, you define the parent product family instance using the `Product.ParentProductId` column. You can’t change the parent record once you’ve set it.  
   
 - A product or bundle can’t be set as a parent, which implies that a product or bundle record can’t have child records.  
   
@@ -49,7 +49,7 @@ Define your product catalog by organizing your products in a hierarchical struct
   
 - There is no limit on the nesting level for a product family.  
   
-- The `Product.ValidFromDate` and `Product.ValidToDate` attributes don’t have any out-of-box business logic associated with them, except that there is a check to ensure that the date in `Product.ValidToDate` should be later than or equal to the date in `Product.ValidFromDate`. If required, you can implement your own business logic based on these attributes. For example, you could run a scheduled job to automatically retire last season’s products by using the date value in the `Product.ValidToDate` attribute.  
+- The `Product.ValidFromDate` and `Product.ValidToDate` attributes don’t have any out-of-box business logic associated with them, except that there is a check to ensure that the date in `Product.ValidToDate` should be later than or equal to the date in `Product.ValidFromDate`. If required, you can implement your own business logic based on these attributes. For example, you could run a scheduled job to automatically retire last season’s products by using the date value in the `Product.ValidToDate` column.  
   
   The following code sample demonstrates how you can create a product family and a child product record.  
   
@@ -81,7 +81,7 @@ Console.WriteLine("Created {0} under the product family", newProduct1.Name);
   
 <a name="Properties"></a>   
 ## Define product properties  
- Product properties help you define the characteristics of  product such as its size, color, or component. A product property is defined using the `DynamicProperty` entity. While defining a product property, you can only associate it to a product family record in a `Draft` state, and not to a product or bundle record. The maximum number of product properties that can be associated to a draft product family record is determined by the following organization setting: **Organization.MaximumDynamicPropertiesAllowed**. The number comes into effect when you publish a child product record or bundle under a product family that the properties are attached to, and not at the time when you attach the properties to a *draft* product family record.  
+ Product properties help you define the characteristics of  product such as its size, color, or component. A product property is defined using the `DynamicProperty` table. While defining a product property, you can only associate it to a product family record in a `Draft` state, and not to a product or bundle record. The maximum number of product properties that can be associated to a draft product family record is determined by the following organization setting: **Organization.MaximumDynamicPropertiesAllowed**. The number comes into effect when you publish a child product record or bundle under a product family that the properties are attached to, and not at the time when you attach the properties to a *draft* product family record.  
   
 > [!TIP]
 >  You can also use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to configure the maximum number of product properties. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8)).  
@@ -118,7 +118,7 @@ _productPropertyId = _serviceProxy.Create(newProperty);
  For the complete sample, see [Sample: Create and publish products](sample-create-publish-products.md)  
   
 > [!NOTE]
->  When you create a product property of `Option Set` data type, you must define individual options for the product property by creating  `DynamicPropertyOptionSetItem` entity records. Each entity record stores information about the individual option where the  `DynamicPropertyOptionSetItem.DynamicPropertyOptionName` and `DynamicPropertyOptionSetItem.DynamicPropertyOptionValue` attributes define the option name and value respectively, and you can associate individual option records to the parent product property instance using the `DynamicPropertyOptionSetItem.DynamicPropertyId` attribute.  
+>  When you create a product property of `Option Set` data type, you must define individual options for the product property by creating  `DynamicPropertyOptionSetItem` table records. Each table record stores information about the individual option where the  `DynamicPropertyOptionSetItem.DynamicPropertyOptionName` and `DynamicPropertyOptionSetItem.DynamicPropertyOptionValue` attributes define the option name and value respectively, and you can associate individual option records to the parent product property instance using the `DynamicPropertyOptionSetItem.DynamicPropertyId` column.  
   
  For information about creating and managing product properties using the web client, see [Use properties to describe a product](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826709(v=crm.8))  
   
@@ -208,7 +208,7 @@ _serviceProxy.Update(retrievedOverwrittenProperty);
 ## Bundles and kits  
  A *bundle* is a feature introduced in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to replace the older kit functionality. Similar to a kit, a bundle is a collection of products that is sold as single unit. Product bundling is useful in grouping products in a way that customers get more benefit from the full line of products or to offer discounts on bundled products that enables you to group products and sell as a single unit.  
   
- Only products can be added to a bundle; you can’t add a product family, a bundle, or a kit record to a bundle. You can add products to a bundle or a kit by creating a product association record using the `ProductAssociation` entity. The `ProductAssociation.ProductId` record specifies the bundle or kit that you want to add a product to and the `ProductAssociation.AssociatedProduct` specifies the product to be added. The maximum number of products that can be added to a bundle is determined by the following organization setting:  `Organization.MaxProductsinBundle`.  
+ Only products can be added to a bundle; you can’t add a product family, a bundle, or a kit record to a bundle. You can add products to a bundle or a kit by creating a product association record using the `ProductAssociation` table. The `ProductAssociation.ProductId` record specifies the bundle or kit that you want to add a product to and the `ProductAssociation.AssociatedProduct` specifies the product to be added. The maximum number of products that can be added to a bundle is determined by the following organization setting:  `Organization.MaxProductsinBundle`.  
   
  You can also use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to specify the maximum number of products that can be added to a bundle. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
@@ -259,7 +259,7 @@ Console.WriteLine("\nAdded both the products to the bundle");
 ## Define product relationships for enhanced suggestions during product sale  
  You can define related products for a product that are displayed as suggestions to your sales agents during opportunity or order management. The product suggestions for a product enables your sales agents to recommend related products and bundles/kits to the customers, and increase product sales. You can define the following relationships for a product: **accessory**, **cross-sell**, **substitute**, and **up-sell**. For example, Surface Pro can be added as an up-sell product for Surface RT so that when your sales agent is adding Surface RT to any opportunity, quote, order, or invoice, Surface Pro will be suggested as the up-sell option.  
   
- Use the **ProductSubstitute.SalesRelationshipType** attribute to define product relationships. Set the value of this attribute to:  
+ Use the **ProductSubstitute.SalesRelationshipType** column to define product relationships. Set the value of this column to:  
   
 - **0** for up-sell  
   
@@ -278,7 +278,7 @@ Console.WriteLine("\nAdded both the products to the bundle");
 |Substitute|Uni-directional or Bi-directional|  
 |Up-Sell|Uni-directional|  
   
- Use the **ProductSubstitute.Direction** attribute to specify direction for a product relationship. Set the value of this attribute to:  
+ Use the **ProductSubstitute.Direction** column to specify direction for a product relationship. Set the value of this column to:  
   
 - **0** for uni-directional  
   
@@ -325,6 +325,6 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
  [Sample: Create and publish products](sample-create-publish-products.md)   
  [Sample: Clone product records](sample-clone-product-records.md)   
  [Sample: Add products to a bundle](sample-add-products-bundle.md)   
- [Product catalog entities](product-catalog-entities.md)
+ [Product catalog tables](product-catalog-entities.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

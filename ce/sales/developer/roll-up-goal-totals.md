@@ -1,5 +1,5 @@
 ---
-title: "Roll up goal totals"
+title: "Roll up goal totals (Dynamics 365 Sales)" 
 description: "RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy"
 ms.custom: 
 ms.date: 10/31/2017
@@ -49,17 +49,17 @@ To roll up data in the goal hierarchy, use the <xref:Microsoft.Crm.Sdk.Messages.
 > [!NOTE]
 >  The goal rollup fields that do not participate in the rollup are not updated, their values are **null**.  
   
- To specify the rollup expiration time, use the `Organization.GoalRollupExpiryTime` attribute. For example, if the rollup expiration time is set to six months, the goals older than six months will not be rolled up automatically. To specify the frequency of goal rollup, use the `Organization.GoalRollupFrequency` attribute. The frequency can be set on an hourly basis. By default, the goal actual values are recalculated every 24 hours.  
+ To specify the rollup expiration time, use the `Organization.GoalRollupExpiryTime` column. For example, if the rollup expiration time is set to six months, the goals older than six months will not be rolled up automatically. To specify the frequency of goal rollup, use the `Organization.GoalRollupFrequency` column. The frequency can be set on an hourly basis. By default, the goal actual values are recalculated every 24 hours.  
   
  **Override Calculated Values**  
   
- To override the system calculated actual, in-progress, or custom goal rollup field values, use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to update the goal record. You must set the `Goal.IsOverride` attribute to `true` to notify the system that the rollup field values can be updated. To signal the system that the goal’s rollup field values were overridden and must not be updated during next recalculate operation, set the `Goal.IsOverridden` attribute to `true`. If `Goal.IsOverride` is `false`, an exception is thrown during the update operation. If `Goal.IsOverridden` is `false`, the goal rollup field values will be overwritten during next recalculate operation with system calculated values.  
+ To override the system calculated actual, in-progress, or custom goal rollup field values, use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to update the goal record. You must set the `Goal.IsOverride` column to `true` to notify the system that the rollup field values can be updated. To signal the system that the goal’s rollup field values were overridden and must not be updated during next recalculate operation, set the `Goal.IsOverridden` column to `true`. If `Goal.IsOverride` is `false`, an exception is thrown during the update operation. If `Goal.IsOverridden` is `false`, the goal rollup field values will be overwritten during next recalculate operation with system calculated values.  
   
 ### See also  
- [Goal Management Entities](goal-management-entities.md)   
+ [Goal Management Tables](goal-management-entities.md)   
  [Sample: Roll Up Goal Data for a Custom Period Against the Target Revenue](sample-rollup-goal-data-custom-period-target-revenue.md)   
  [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
- [Goal Entity](entities/goal.md)
+ [Goal Table](entities/goal.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

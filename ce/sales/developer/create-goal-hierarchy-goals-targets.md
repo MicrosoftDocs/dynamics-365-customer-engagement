@@ -1,5 +1,5 @@
 ---
-title: "Create goal hierarchy, goals, and targets"
+title: "Create goal hierarchy, goals, and targets (Dynamics 365 Sales)"
 description: "This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal"
 ms.custom: 
 ms.date: 10/31/2017
@@ -63,11 +63,11 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
  Logically, the target values should increase towards the top of the goal hierarchy to reflect an upward increase of cumulative totals in the hierarchy.  
   
- Depending on the type of the rollup data, you can use one of the following goal entity attributes to set the targets: `Goal.TargetInteger`,  `Goal.TargetDecimal` or `Goal.TargetMoney`. To set the stretch targets, use:   `Goal.StretchTargetInteger`, `Goal.StretchTargetDecimal`, or `Goal.StretchTargetMoney`.  
+ Depending on the type of the rollup data, you can use one of the following goal table attributes to set the targets: `Goal.TargetInteger`,  `Goal.TargetDecimal` or `Goal.TargetMoney`. To set the stretch targets, use:   `Goal.StretchTargetInteger`, `Goal.StretchTargetDecimal`, or `Goal.StretchTargetMoney`.  
   
  The following table lists the system-generated values that you can use to measure your progress against the target.  
   
-|Goal entity attribute|Description|Formula|  
+|Goal table column|Description|Formula|  
 |---------------------------|-----------------|-------------|  
 |`Goal.Percentage`|Percentage achieved against the target goal.|(Actual/Target) * 100|  
 |`Goal.ComputedTargetAsOfTodayPercentageAchieved`|Expected value for percentage achieved against the target goal.|100 * (Today’s date – Start date)/(End date – Start date)|  
@@ -80,16 +80,16 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
 <a name="BKMK_specifytime"></a>   
 ## Specify the Time Period  
- For each goal you must specify a particular fiscal period or a custom time period. To select the fiscal period or custom period, use the `Goal.IsFiscalPeriodGoal` attribute. If you select a fiscal period, you must specify a fiscal year by using the `Goal.FiscalYear` attribute. The possible values for this attribute are defined in the  `goal_fiscalyear` global option set. A fiscal period, such as quarter or semi-annual, is specified in the `Goal.FiscalPeriod` attribute. The possible values for this attribute are defined in the `goal_fiscalperiod` global option set.  
+ For each goal you must specify a particular fiscal period or a custom time period. To select the fiscal period or custom period, use the `Goal.IsFiscalPeriodGoal` column. If you select a fiscal period, you must specify a fiscal year by using the `Goal.FiscalYear` column. The possible values for this column are defined in the  `goal_fiscalyear` global option set. A fiscal period, such as quarter or semi-annual, is specified in the `Goal.FiscalPeriod` column. The possible values for this column are defined in the `goal_fiscalperiod` global option set.  
   
- The goal’s fiscal year and fiscal period are tied to the organization’s fiscal year settings that are defined in the `Organization` entity. The fiscal year settings for the organization can be redefined at any time. If the settings change, you can continue to use the existing goals with the old fiscal settings or you can realign them with the new fiscal settings.  
+ The goal’s fiscal year and fiscal period are tied to the organization’s fiscal year settings that are defined in the `Organization` table. The fiscal year settings for the organization can be redefined at any time. If the settings change, you can continue to use the existing goals with the old fiscal settings or you can realign them with the new fiscal settings.  
   
 > [!IMPORTANT]
 >  To realign, you must update the hierarchy’s root goal with the new fiscal year and fiscal period values by using the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message.  
   
  The fiscal year and fiscal period values are defined in the `goal_fiscalperiod` global option set. All new goals can only be created by using the current fiscal year settings for the organization.  
   
- If you select a custom period for the goal, you have to specify the goal start and end dates by using the `Goal.GoalStartDate` attribute and the `Goal.GoalEndDate` attribute.  
+ If you select a custom period for the goal, you have to specify the goal start and end dates by using the `Goal.GoalStartDate` column and the `Goal.GoalEndDate` column.  
   
  If you use a custom period, the `Goal.FiscalYear` and `Goal.FiscalPeriod` values are ignored. If you use a fiscal period, the start and end dates for the custom period are ignored.  
   
@@ -99,11 +99,11 @@ In preparation for goal management, you should specify a metric for a goal (amou
 ## Other Important Settings  
  Other important goal settings include the following:  
   
--   Specify a parent goal for the goal by using the `Goal.ParentGoalId` attribute. If you delete a parent goal, the child goal is not deleted, but a parent goal GUID value is replaced with a null value by the system.  
+-   Specify a parent goal for the goal by using the `Goal.ParentGoalId` column. If you delete a parent goal, the child goal is not deleted, but a parent goal GUID value is replaced with a null value by the system.  
   
 -   Specify to roll up data only from the child goals by setting `Goal.RollupOnlyFromChildGoals` to `true`. If set to `false`, data is rolled up from the child goals, and from the goal’s participating records specified in the goal’s metric and rollup query. For more information about the goal metric and the rollup query, see [Define Goal Metric and Perform Data Roll Up](define-goal-metric-rollup-fields.md) and [Add Complex Goal Criteria](add-complex-goal-criteria.md).  
   
--   Specify whether you want to roll up data from all available records or only from goal owner’s records by using the `Goal.ConsiderOnlyGoalOwnersRecords` attribute. For example, you can specify to roll up data only from the closed opportunities owned by the goal’s owner, instead of rolling up data from all closed opportunities.  
+-   Specify whether you want to roll up data from all available records or only from goal owner’s records by using the `Goal.ConsiderOnlyGoalOwnersRecords` column. For example, you can specify to roll up data only from the closed opportunities owned by the goal’s owner, instead of rolling up data from all closed opportunities.  
   
 ### See also  
  [Goal Management Entities](goal-management-entities.md)   

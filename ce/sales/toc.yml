@@ -329,7 +329,7 @@
           href: define-general-properties-scheduling-forecast.md
         - name: Capture forecast category for opportunity
           href: capture-forecast-category-opportunity.md
-        - name: Configure forecast using custom rollup entity
+        - name: Configure forecast using custom rollup table
           href: configure-forecast-using-custom-rollup-entity.md
         - name: Provide viewing and adjustment privileges
           href: provide-permissions-forecast.md
@@ -898,21 +898,23 @@
   items:
     - name: Resources for developers
       href: developer/developer-guide.md
-    - name: Sales entities
+    - name: Understand terminology
+      href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context  
+    - name: Sales tables
       items:
-        - name: Sales entities (lead, opportunity, competitor, quote, order, invoice)
+        - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)
           href: developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
-        - name: Competitor entity
+        - name: Competitor table
           href: developer/competitor-entity.md
-        - name: Lead entity
+        - name: Lead table
           items:
-            - name: About Lead entity
+            - name: About Lead table
               href: developer/lead-entity.md
             - name: Qualify a lead (Sample)
               href: developer/sample-qualify-lead.md
-        - name: Opportunity entity
+        - name: Opportunity table
           items:
-            - name: About Opportunity entity
+            - name: About Opportunity table
               href: developer/opportunity-entities.md
             - name: Create an opportunity
               href: developer/create-opportunity.md
@@ -924,9 +926,9 @@
               href: developer/sample-retrieve-opportunity-early-bound.md
             - name: Convert an opportunity to a quote (early bound sample)
               href: developer/sample-convert-opportunity-quote-early-bound.md
-        - name: Quote, order, and invoice entities
+        - name: Quote, order, and invoice tables
           items:
-            - name: About Quote, order, and invoice entities
+            - name: About Quote, order, and invoice tables
               href: developer/quote-order-invoice-entities.md
             - name: Set negative prices in opportunities, quotes, and sales orders (Sample)
               href: developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md
@@ -936,13 +938,13 @@
               href: developer/sample-fulfill-sales-order.md
             - name: Enable sales order processing integration
               href: developer/enable-sales-order-processing-integration.md
-    - name: Marketing entities
+    - name: Marketing tables
       items:
-        - name: Marketing entities (campaign, list)
+        - name: Marketing tables (campaign, list)
           href: developer/marketing-entities-campaign-list.md
-        - name: Campaign entities
+        - name: Campaign tables
           href: developer/campaign-entities.md
-        - name: List (marketing list) entity
+        - name: List (marketing list) table
           href: developer/list-marketing-list-entity.md
         - name: Distribute a quick campaign (Sample)
           href: developer/sample-distribute-a-quick-campaign.md
@@ -950,9 +952,9 @@
           href: developer/sample-distribute-campaign-activities-dynamic-static-lists.md
         - name: Distribute campaign activities to qualified marketing list (Sample)
           href: developer/sample-distribute-campaign-activities-qualified-marketing-list.md
-    - name: Goal management entities
+    - name: Goal management tables
       items:
-        - name: About goal management entities
+        - name: About goal management tables
           href: developer/goal-management-entities.md
         - name: Create goal hierarchy, goals, and targets
           href: developer/create-goal-hierarchy-goals-targets.md
@@ -970,9 +972,9 @@
           href: developer/sample-use-rollup-queries-track-goals.md
         - name: Override goal total count and close the goal (Sample)
           href: developer/sample-override-goal-total-count-close-goal.md
-    - name: Product catalog entities
+    - name: Product catalog tables
       items:
-        - name: About Product catalog entities
+        - name: About Product catalog tables
           href: developer/product-catalog-entities.md
         - name: Manage products, families, bundles, and properties
           href: developer/create-manage-product-families-products-bundles-product-properties.md
@@ -998,7 +1000,7 @@
           href: developer/sample-add-products-bundle.md
         - name: Calculate Price plug-in (Sample)
           href: developer/sample-calculate-price-plugin.md
-    - name: Sales literature entities
+    - name: Sales literature tables
       href: developer/sales-literature-entities.md
     - name: Forecasting
       items:
@@ -1022,7 +1024,7 @@
       items:
         - name: DeleteOQOILineWithSkipPricingCalculation
           href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
-    - name: Entity reference
+    - name: Table reference
       items:
         - name: Account
           href: developer/entities/account.md
@@ -1074,7 +1076,7 @@
           href: developer/entities/orderclose.md
         - name: Playbooks
           items:
-            - name: Entity reference
+            - name: Table reference
               href: developer/reference/playbook-entity-reference.md
               items:
                 - name: msdyn_playbookinstance
@@ -1133,9 +1135,9 @@
               href: developer/reference/custom-actions/msdyn_WKWDeleteGDPRData.md
             - name: msdyn_WKWGDPRDeleteStatus
               href: developer/reference/custom-actions/msdyn_WKWGDPRDeleteStatus.md
-        - name: Entity Reference
+        - name: Table Reference
           items:
-            - name: Entity reference
+            - name: Table reference
               href: entity-reference.md
             - name: msdyn_PredictiveScore
               href: developer-sp/msdyn_predictivescore.md

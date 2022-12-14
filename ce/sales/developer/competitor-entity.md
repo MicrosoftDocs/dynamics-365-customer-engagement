@@ -1,6 +1,6 @@
 ---
-title: "Competitor entity"
-description: "Learn about competitor entity that enables record to have details, such as company profile, SWOT analysis, presentations, materials of the competitor. Using this entity you can do complete analysis of the competitor company."
+title: "Competitor table (Dynamics 365 Sales)"
+description: "Learn about competitor table that enables record to have details, such as company profile, SWOT analysis, presentations, materials of the competitor. Using this table you can do complete analysis of the competitor company."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -32,7 +32,7 @@ search.audienceType:
   - developer
 
 ---
-# Competitor entity
+# Competitor tables
 
 A *competitor* is another company that offers competing products and services. Each competitor record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] can contain detailed information about the competitor that includes a company profile, a SWOT analysis (Strengths, Weaknesses, Opportunities, and Threats), and any relevant sales materials and presentations. In addition, competitor articles can contain links to relevant information in the marketing encyclopedia.  
   
@@ -41,9 +41,9 @@ A *competitor* is another company that offers competing products and services. E
  One or many competitors can be associated with any opportunity. By using this association, salespeople give management the ability to track their overall win/loss record versus specific competitors, and to do further analysis regarding the cause of losses and other outcomes.  
   
 ### See also  
- [Competitor Entity](entities/competitor.md)   
- [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
- [Opportunity Entities](opportunity-entities.md)   
- [Lead Entity](lead-entity.md)
+ [Competitor Tables](entities/competitor.md)   
+ [Sales Tables](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
+ [Opportunity Tables](opportunity-entities.md)   
+ [Lead Tables](lead-entity.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

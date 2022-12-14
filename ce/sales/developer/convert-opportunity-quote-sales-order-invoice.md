@@ -1,5 +1,5 @@
 ---
-title: "Convert an opportunity to a quote, sales order or invoice"
+title: "Convert an opportunity to a quote, sales order, or invoice (Dynamics 365 Sales)"
 description: "Learn about converting an opportunity to a quote, sales order, or invoice."
 ms.custom: 
 ms.date: 10/31/2017
@@ -45,10 +45,10 @@ Opportunities, quotes, sales orders, and invoices are all part of the sales proc
 |<xref:Microsoft.Crm.Sdk.Messages.GetInvoiceProductsFromOpportunityRequest>|Retrieves the products from an opportunity and copies them to the specified invoice.|  
   
 ### See also  
- [Opportunity Entities](opportunity-entities.md)   
+ [Opportunity Tables](opportunity-entities.md)   
  [Creating an Opportunity](create-opportunity.md)   
- [Quote, Order and Invoice Entities](quote-order-invoice-entities.md)   
- [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
- [Opportunity Entity](entities/opportunity.md)
+ [Quote, Order and Invoice Tables](quote-order-invoice-entities.md)   
+ [Sales Tables](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
+ [Opportunity Table](entities/opportunity.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

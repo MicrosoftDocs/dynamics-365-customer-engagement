@@ -1,6 +1,6 @@
 ---
-title: "Marketing entities (campaign, list)"
-description: "Learn about the marketing entities that allow you to perform campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance."
+title: "Marketing tables (campaign, list) (Dynamics 365 Sales)"
+description: "Learn about the marketing tables that allow you to perform campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -22,14 +22,14 @@ search.audienceType:
   - developer
 
 ---
-# Marketing entities (campaign, list)
+# Marketing tables (campaign, list)
 
-The marketing entities let you perform detailed campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance.  
+The marketing tables let you perform detailed campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance.  
   
 ## In This Section  
- [Campaign Entities](campaign-entities.md)  
+ [Campaign Tables](campaign-entities.md)  
   
- [List (Marketing List) Entity](list-marketing-list-entity.md)  
+ [List (Marketing List) Table](list-marketing-list-entity.md)  
   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)  
   
@@ -40,7 +40,7 @@ The marketing entities let you perform detailed campaign planning, manage the cr
 ## Related Sections  
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
- [Service Entities (Contract, Incident, Knowledge Base)](service-entities.md)
+ [Service Tables (Contract, Incident, Knowledge Base)](service-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
