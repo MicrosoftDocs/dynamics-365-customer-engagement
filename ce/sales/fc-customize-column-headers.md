@@ -43,7 +43,7 @@ After you create the code component, the `ColumnHeader` folder is created in the
 
 1. Copy the following code to a new file, ColumnHeader.1036.resx.
     > [!NOTE]
-    > The number 1036 in the file name is the language code for French. For a list of language codes, go to this [Learn page](https://learn.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+    > The number 1036 in the file name is the language code for French. For a list of language codes, see [this article](https://learn.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
  
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -151,7 +151,7 @@ Next, we'll modify the manifest file to specify the property that we're overridi
       <resx path="strings/ColumnHeader.1036.resx" version="1.0.0" />
     </resources>
     ```
-    The `<resx path>` node contains the resource file path. In the preceding code sample, we've added the resource file for the French languages. If you have translations for other languages, add the resource file path for those languages as well.
+    The `<resx path>` node contains the resource file path. In the preceding code sample, we've added the resource file for the French language. If you have translations for other languages, add the resource file path for those languages as well.
 
 ### Implement the component logic  
 
