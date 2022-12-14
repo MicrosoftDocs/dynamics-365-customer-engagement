@@ -33,11 +33,11 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md)
+Chat is an engagement channel that enables your agents to connect with customers in real-time. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md)
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md)
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md)
 
 ### Voice
 
