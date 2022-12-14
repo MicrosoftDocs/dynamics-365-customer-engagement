@@ -20,8 +20,6 @@ For information on how to use the Configuration Migration tool, see the followin
 
 ## Prerequisites
 
-The following prerequisites must be met:
-
 - In the source organization, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
   - Custom entities
   - Attributes
@@ -49,7 +47,7 @@ The following prerequisites must be met:
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
 1. [Migrate skill-based routing configuration](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration)
-2. [Migratecapacity profiles configuration](export-import-config-data-for-records.md#migrate-capacity-profiles-configuration)
+2. [Migrate capacity profiles configuration](export-import-config-data-for-records.md#migrate-capacity-profiles-configuration)
 3. [Migrate record queues configuration](export-import-config-data-for-records.md#migrate-record-queues-configuration)
 4. [Migrate intake rules configuration for records](export-import-config-data-for-records.md#migrate-intake-rules-configuration-for-records)
 5. [Migrate workstreams configuration for records](export-import-config-data-for-records.md#migrate-workstreams-configuration-for-records)
