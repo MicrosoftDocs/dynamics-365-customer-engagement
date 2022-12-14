@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: conceptual
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,7 @@ You can track the various details of your article in Customer Service Hub. The *
 
 ### Analytics tab
 
-To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab in the Customer Service Hub.  
+To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
   
 - **Views**. Shows you the total number of times this article has been viewed. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views.
 
@@ -33,7 +33,7 @@ To view an article’s view counts and other statistics, open the article you wa
 
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
-     By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you expose your knowledge articles better and provide more useful information to your customers and team members.
+     By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you promote your knowledge articles better and provide more useful information to your customers and team members.
 
 ### Summary tab
 
@@ -41,12 +41,12 @@ Use the **Summary** tab to view and edit basic details of the article. In the **
 
 - View or edit **Basic settings** for the article. These include details like Language, Article Public Number, and more.
 - View or edit **Publish settings** for the article.
-- See the **Timeline**. Add notes, or view what you have missed.
+- See the **Timeline**. Add notes or view what you have missed.
 - View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products.
 
 ## Dashboards for knowledge articles in Customer Service Hub
 
-Knowledge managers and authors can now monitor the status of knowledge articles using the two default dashboards available in the Customer Service Hub.
+Knowledge managers and authors can now monitor the status of knowledge articles using the two default dashboards available in Customer Service Hub.
 
 > [!NOTE]
 >  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
@@ -65,7 +65,7 @@ This dashboard is designed to give authors a visual snapshot of the number and s
 
 ### Knowledge Manager
 
-This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
+This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly view the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
  ![Dashboard for knowledge managers.](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
   
@@ -73,11 +73,11 @@ This dashboard is designed specifically for knowledge managers. As a knowledge m
 
 #### Manage versions in alternate keys for knowledge article entity
 
-If you are creating an alternate key for a Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
+If you're creating an alternate key for a Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you're using translations, include the language code along with the version in the key to ensure a seamless translation experience. For more information about alternate keys, go to [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
 ## Knowledge article analytics in Customer Service workspace
 
-The **Knowledge analytics** dashboard consists of the **Article insights** dashboard and the **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base.
+The **Knowledge analytics** dashboard consists of the **Article insights** and **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base.
 
 ## Next steps
 
