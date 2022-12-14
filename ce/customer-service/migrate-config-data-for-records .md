@@ -48,11 +48,11 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. [Export and import skill-based routing configuration](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration)
-2. [Export and import capacity profiles configuration](export-import-config-data-for-records.md#migrate-capacity-profiles-configuration)
-3. [Export and import record queues configuration](export-import-config-data-for-records.md#migrate-record-queues-configuration)
-4. [Export and import intake rules configuration for records](export-import-config-data-for-records.md#migrate-intake-rules-configuration-for-records)
-5. [Export and import workstreams configuration for records](export-import-config-data-for-records.md#migrate-workstreams-configuration-for-records)
+1. [Migrate skill-based routing configuration](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration)
+2. [Migratecapacity profiles configuration](export-import-config-data-for-records.md#migrate-capacity-profiles-configuration)
+3. [Migrate record queues configuration](export-import-config-data-for-records.md#migrate-record-queues-configuration)
+4. [Migrate intake rules configuration for records](export-import-config-data-for-records.md#migrate-intake-rules-configuration-for-records)
+5. [Migrate workstreams configuration for records](export-import-config-data-for-records.md#migrate-workstreams-configuration-for-records)
 6. [Verify your migration](export-import-config-data-for-records-verify.md)
 7. [Troubleshoot export and import of data](export-import-config-data-for-records-troubleshoot.md)
 
