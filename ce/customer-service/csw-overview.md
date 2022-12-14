@@ -52,7 +52,7 @@ You can switch to the enhanced layout with the following steps:
 
 To revert back to the default layout, enter the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
 
-> [!Important]
+> [!IMPORTANT]
 > - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
 > - The multisession mode and navigation capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only, and not in copies of these apps or custom apps. 
  
