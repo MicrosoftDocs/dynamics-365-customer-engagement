@@ -236,13 +236,13 @@
           href: content-ideas.md
         - name: "Preview: Use brand profiles in real-time marketing email"
           href: brand-profiles-email.md
-      - name: Push notifications
-        href: real-time-marketing-push-notifications.md
+      - name: "Preview: Real-time marketing forms"
+        href: real-time-marketing-form-editor.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
-      - name: "Preview: Create and manage real-time marketing forms"
-        href: real-time-marketing-form-editor.md
-      - name: "Preview: Create custom channels"
+      - name: Push notifications
+        href: real-time-marketing-push-notifications.md
+      - name: Create custom channels
         href: real-time-marketing-create-custom-channels.md
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
