@@ -326,22 +326,30 @@
       items: 
       - name: Real-time marketing asset library
         href: real-time-marketing-asset-library.md
+      - name: Install the real-time marketing asset library add-on
+        href: real-time-marketing-asset-add-on.md
     - name: Administration
       items: 
-      - name: Manage consent for email and text messages in real-time marketing
-        href: real-time-marketing-email-text-consent.md
-      - name: Use outbound subscription centers in real-time journeys
-        href: real-time-marketing-outbound-subscription.md
+      - name: Journeys
+        items:
+        - name: Select the audience source for real-time journeys
+          href: real-time-marketing-audience-data.md
+        - name: Move custom triggers between environments
+          href: real-time-marketing-move-triggers.md
+        - name: Real-time marketing link tracking mechanics
+          href: real-time-marketing-link-tracking-mechanics.md
+      - name: Privacy and compliance
+        items:
+        - name: Manage consent for email and text messages in real-time marketing
+        - href: real-time-marketing-email-text-consent.md
+        - name: Use outbound subscription centers in real-time journeys
+          href: real-time-marketing-outbound-subscription.md
       - name: Real-time marketing domain authentication
         href: real-time-marketing-domain.md
-      - name: Select the audience source for real-time journeys
-        href: real-time-marketing-audience-data.md
-      - name: Move custom triggers between environments
-        href: real-time-marketing-move-triggers.md
-      - name: Real-time marketing link tracking mechanics
-        href: real-time-marketing-link-tracking-mechanics.md
       - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
+      - name: Install add-ons
+        href: add-ons.md
     - name: Developer
       items: 
       - name: Push notification setup for application developers
