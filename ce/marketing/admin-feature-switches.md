@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable optional and preview features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the Feature switches page to enable or disable optional and preview features in Dynamics 365 Marketing."
-ms.date: 08/15/2022
+ms.date: 12/13/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -28,15 +28,15 @@ The following table lists each available feature together with its preview statu
 
 | Feature switch | Preview or production | Description |
 |---|---|---|
-| Business unit scoping | Production | [Enable business unit scoping for marketing processes in Outbound Marketing](business-units.md)|
-| Event registration forms | Production | [Enable marketing forms to submit event registrations](event-forms.md)|
-| Updated customer journey designer | Production | [Enable the redesigned customer journey design workspace](customer-journeys-create-automated-campaigns.md)|
-| Data Sharing Program | Production | To help you get most out of our AI features suite, we manually access (human review) Customer Data to build, improve, and validate the feature's AI models. |
-| Real-time marketing forms | Preview | Enable the new form editor in real-time marketing |
+| Business unit scoping | Production | [Enable business unit scoping for marketing processes in outbound marketing.](business-units.md)|
+| Event registration forms | Production | [Enable marketing forms to submit event registrations.](event-forms.md)|
+| Updated customer journey designer | Production | [Enable the redesigned customer journey design workspace.](customer-journeys-create-automated-campaigns.md)|
+| Data sharing program | Production | Enable Microsoft to manually accesses (human review) customer data to build, improve, and validate the feature's AI models. |
+| Real-time marketing forms | Preview | [Enable the new form editor in real-time marketing.](real-time-marketing-form-editor.md) |
 | Configurable compliance settings in email editor | Preview | [Enable configurable compliance settings in email editor.](real-time-marketing-email-text-consent.md) |
-| Content ideas | Preview | [Enables the use of an AI service to generate text suggestions based on a wide range of Internet sources and (if enabled) on your organization's emails. Content ideas is only available in English (United States) environments at this time.](content-ideas.md) |
+| Content ideas | Preview | [Enables the use of an AI service to generate text suggestions based on a wide range of internet sources and (if enabled) on your organization's emails. Content ideas is only available in English (United States) environments at this time.](content-ideas.md) |
 | Date and time formatting | Production | [Select from a variety of culture appropriate date/time formats for a dynamic text when using date time attribute.](real-time-marketing-predefined-dynamic-text.md)
-| Filter on list | Production | [For a LIST, condition can be defined to select which list items to output](real-time-marketing-personalize-lists.md)
+| Filter on list | Production | [Enable list conditions for emails to select which list items to output.](real-time-marketing-personalize-lists.md)
 | Customer Voice integration | Production | [Enable Dynamics 365 Customer Voice integrations with Marketing.](customer-voice.md) |
 | Smart scheduler | Production | [Automatically select the best time to send an email message.](automated-scheduler.md) |
 
