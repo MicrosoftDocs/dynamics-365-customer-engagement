@@ -51,16 +51,17 @@ Forecasting is available in your organization by default.
 1. Under **Performance management**, select **Forecast configuration**.
 
     :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="A screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
-
-1. [Select a template](./select-template-forecast.md).
-1. [Define general properties and scheduling](./define-general-properties-scheduling-forecast.md).
-1. [Provide access permissions](./provide-permissions-forecast.md).
-1. [Configure columns and layouts](./choose-layout-and-columns-forecast.md).
-1. [Add filters](./add-additional-filters.md).
-1. [Configure and manage drill-down entities](./configure-manage-drill-downs.md).
-1. [Configure advanced settings](./forecast-configure-advanced-settings.md).
-1. [Activate the forecast and upload data](./activate-upload-simple-columns-data-forecast.md).
-
+    A sample forecast configuration is available to help you get started with forecasting. You can [clone](clone-forecast.md) or edit the forecast configuration to update the filters and other configurations to suit your organization's needs. By default, the sample forecast is visible only to the system administrator and forecast managers. To make it available to your sales team, [provide access permissions](./provide-permissions-forecast.md). To create a new forecast configuration, continue with the following steps.  
+    
+  1. [Select a template](./select-template-forecast.md).
+  1. [Define general properties and scheduling](./define-general-properties-scheduling-forecast.md).
+  1. [Provide access permissions](./provide-permissions-forecast.md).
+  1. [Configure columns and layouts](./choose-layout-and-columns-forecast.md).
+  1. [Add filters](./add-additional-filters.md).
+  1. [Configure and manage drill-down entities](./configure-manage-drill-downs.md).
+  1. [Configure advanced settings](./forecast-configure-advanced-settings.md).
+  1. [Activate the forecast and upload data](./activate-upload-simple-columns-data-forecast.md).
+    
 ### Use APIs to upload forecast data
 
 After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
