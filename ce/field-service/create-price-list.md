@@ -34,9 +34,7 @@ Define basic properties of the *Price List* record.
    - **Context** of the price list- Choose between **Sales**, **Purchase**, and **Cost**.
    - Optional **Start/End Date** to define when the price list is effective.
    - **Currency** used on the price list.
-   - **Time Unit** for role prices.
-
-   :::image type="content" source="media/price-list-general-tab.png" alt-text="Screenshot of a price list in Field Service.":::
+   - **Time Unit** for prices.
 
 1. Select **Save** to create the *Price List* record.
 

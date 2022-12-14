@@ -35,7 +35,7 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 
 ## Reports overview
 
-To find reports, go to **Field Service** > **Service** > **Analytics and Insights** > **Reports (Preview)**.
+To find reports, go to **Field Service** > **Service** > **Analytics and Insights**.
 
 ![Screenshot showing a sample work order summary report.](./media/report-overview-example.png)
 
