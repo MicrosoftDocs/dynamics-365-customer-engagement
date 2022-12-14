@@ -9,8 +9,8 @@ ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app:
 - D365CE

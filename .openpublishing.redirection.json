@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/setup-mobile-offline.md",
+      "redirect_url": "/power-apps/mobile/setup-mobile-offline-classic",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/work-in-offline-mode.md",
+      "redirect_url": "/power-apps/mobile/work-offline-mode-classic",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/mobile-offline-capabilities.md",
+      "redirect_url": "/power-apps/mobile/offline-capabilities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-new-journey-version.md",
+      "redirect_url": "real-time-marketing-edit-journey",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/app-profile-manager/settings.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -1931,6 +1951,11 @@
     {
       "source_path": "ce/sales-enterprise/insert-email-template.md",
       "redirect_url": "/dynamics365/customer-service/customer-service-hub-user-guide-email-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/faqs-sales.md",
+      "redirect_url": "faq-sales",
       "redirect_document_id": "false"
     },
     {
@@ -22943,11 +22968,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales-enterprise/faqs-sales.md",
-      "redirect_url": "/dynamics365/sales/faqs-sales",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales-enterprise/find-your-way-around-sales-hub-app.md",
       "redirect_url": "/dynamics365/sales/find-your-way-around-sales-hub-app",
       "redirect_document_id": "false"
@@ -24159,7 +24179,7 @@
     },
     {
       "source_path": "ce/sales/index.yml",
-      "redirect_url": "/dynamics365/sales/help-hub",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
@@ -24357,6 +24377,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/apply-remove-tags-seller.md",
+      "redirect_url": "manage-sequences-seller#apply-and-remove-tags-from-your-sequences",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
@@ -24364,6 +24389,96 @@
     {
       "source_path": "ce/customer-service/csw-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-app-user-guide.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-intune.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-overview.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-mobile-use.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/geofencing.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-app-configuration-customization.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-deeplink.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-enable-maps.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-bookings-not-scheduled-to-me.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-bookings-not-showing.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-latest-version.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-faq-sync-crash.yml",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-push-notifications.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-upgrade-project.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-workflow-to-flow.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-service-version-history-mobile.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/mobile-project-version-history.md",
+      "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
       "redirect_document_id": "false"
     }
   ]

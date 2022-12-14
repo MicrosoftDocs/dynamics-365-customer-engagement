@@ -4,8 +4,8 @@ description: Learn how to use territories for accounts, work orders, and schedul
 ms.date: 09/22/2022
 ms.reviewer: mhart
 ms.topic: article
-author: holly2776
-ms.author: Hollycha
+author: ryanchen8
+ms.author: chenryan
 manager: shellyha
 search.app: 
   - D365CE

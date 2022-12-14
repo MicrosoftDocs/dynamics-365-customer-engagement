@@ -44,4 +44,4 @@ To allow the agents to consult with Microsoft Teams users, you'll need to enable
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)  
-[Agent consult with Microsoft Teams users](voice-channel-agent-experience.md#consult-with-microsoft-teams-users)  
+[Agent consult with Microsoft Teams users](voice-channel-transfer-consult.md)  

@@ -1,8 +1,1 @@
-﻿MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE TERMS
-MICROSOFT DYNAMICS CRM UNIFIED SERVICE DESK
-Microsoft Corporation (or based on where you live, one of its affiliates) licenses this supplement to you. If you have a valid Microsoft Dynamics CRM Professional Use Additive Client Access License with active Software Assurance coverage, or Microsoft Dynamics CRM Online Professional User Subscription License, or Microsoft Dynamics CRM Online Enterprise User Subscription License (the "Valid License"), you may use this supplement. You may not use this supplement if you do not have a Valid License. You may use this supplement only with each validly licensed copy of Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016 software (the "software") or each validly licensed subscription of Microsoft Dynamics CRM Online services (the "online service").
-The following license terms describe additional use terms for this supplement. These terms and the license terms for the software or online service apply to your use of the supplement. If there is a conflict, these supplemental license terms apply.
-You may use as many copies of this supplement as Valid Licenses you have. Microsoft reserves the right to verify compliance pursuant to the license terms for the software or online service.
-By using this supplement, you accept these terms. If you do not accept them, do not use this supplement.
-If you comply with these license terms, you have the rights below.
-SUPPORT SERVICES FOR SUPPLEMENT. Microsoft provides support services for this software as described at https://support.microsoft.com/common/international.aspx.
+Content moved to https://go.microsoft.com/fwlink/?linkid=832135

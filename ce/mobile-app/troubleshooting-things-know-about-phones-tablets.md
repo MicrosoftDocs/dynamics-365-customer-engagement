@@ -10,9 +10,9 @@ ms.topic: error-reference
 applies_to: Dynamics 365 apps
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
+manager: tapanm-MSFT
 search.audienceType:
   - admin
   - customizer
