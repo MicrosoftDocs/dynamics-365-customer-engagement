@@ -38,7 +38,7 @@ Marketing already provides base components for the custom channel creation: the 
 The overview diagram below shows main components of Marketing and custom channel solution, so as how they interact with each other:
 
 > [!div class="mx-imgBorder"]
-> ![custom channel solution](media/real-time-marketing-custom-channel-solution.png "custom channel solution")
+> [ ![Custom channel solution diagram](media/real-time-marketing-custom-channel-solution-small.png) ](media/real-time-marketing-custom-channel-solution.png#lightbox)
 
 The implementation requirements for channels of SMS and Custom type differ as follows:
 
