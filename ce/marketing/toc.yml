@@ -212,7 +212,7 @@
       href: known-issues.md
     - name: What's new archive
       href: whats-new-marketing-archive.md
-  - name: "Real-time marketing"
+  - name: Real-time marketing
     items: 
     - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
@@ -340,6 +340,8 @@
         href: manage-sms-keywords.md
     - name: Developer
       items: 
+      - name: "Preview: Manually add a custom channel"
+        href: real-time-marketing-extend-outreach-custom-channels.md
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
       - name: Receiving notifications and creating interactions
@@ -348,8 +350,6 @@
         href: real-time-marketing-interactions-reference.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
-      - name: "Preview: Manually add a custom channel"
-        href: real-time-marketing-extend-outreach-custom-channels.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing

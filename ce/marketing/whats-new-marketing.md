@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/13/2022
+ms.date: 12/15/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -31,18 +31,18 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 ### December 2022 update
 
-For the December 2022 release, general availability features include custom channels that allow you to extend your outreach in real-time marketing, date and time formatting flexibility for different locales, and access to more personalization data. Public preview features include real-time marketing lead capture forms that convert visitors into customers and filtering for email lists. 
-
-The December release also includes three private preview features: modernized business units to help scale multi-brand businesses, customizable brand-specific preference centers, and a real-time marketing-only version of that Marketing app that removes outbound marketing features.
+For the December 2022 release, general availability features include custom channels that allow you to extend your outreach in real-time marketing, date and time formatting flexibility for different locales, and access to more personalization data. Public preview features include real-time marketing lead capture forms that convert visitors into customers and filtering for email lists.
 
 Starting this month, we’ll highlight recently published blogs and scenario documentation in addition to the product docs that support the newly released features.
 
 > [!IMPORTANT]
-> This release brings changes to the real-time marketing consent system and underlying Dataverse entities. This change is transparent to customers **who do not** have code that directly reads or writes to the **msdynkmt_compliancesettings** or **msdynmkt_contactpointconsent2** Dataverse entities. As part of the upgrade to this release, all customer data will be automatically migrated to use the new entities. Most customers will not need to take any action in response to this change. 
+> This release brings changes to the real-time marketing consent system and underlying Dataverse entities. This change is transparent to users **who do not** have code that directly reads or writes to the **msdynkmt_compliancesettings** or **msdynmkt_contactpointconsent2** Dataverse entities. As part of the upgrade to this release, any user who enables the [Preview: Create and manage real-time marketing forms](real-time-marketing-form-editor.md) feature will have their consent data automatically migrated to use the new entities. Most users will not need to take any action in response to this change.
 >
-> Customers who have code that directly interacts with the **msdynkmt_compliancesettings** and **msdynmkt_contactpointconsent2** Dataverse entities will need to make changes after this release to direct their code to read/write to the new **msdynkmt_compliancesettings3** and **msdynmkt_contactpointconsent3** Dataverse entities.
+> Users who have code that directly interacts with the **msdynkmt_compliancesettings** and **msdynmkt_contactpointconsent2** Dataverse entities will need to make changes after this release to direct their code to read/write to the new **msdynkmt_compliancesettings3** and **msdynmkt_contactpointconsent3** Dataverse entities.
 >
-> To aid in the transition we will continuously scan for new records written to the to-be-deprecated **msdynmkt_contactpointconsent2** entities and automatically copy them to new **msdynkmt_compliancesettings3** entities. Copies may take up to 48 hours to complete. We will disable this automatic copy in a future release.
+> To aid in the transition, we will continuously scan for new records written to the to-be-deprecated **msdynmkt_contactpointconsent2** entities and automatically copy them to new **msdynkmt_compliancesettings3** entities. Copies may take up to 48 hours to complete. We will disable this automatic copy in a future release.
+>
+> In the future, all users will be migrated to make use of these new entities. For the time being, only users who have opted into the real-time marketing forms preview will have their data automatically migrated.
 
 #### Version number
 
@@ -53,10 +53,10 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
-#### General availability features 
+#### General availability features
 
-- **Extend your outreach with custom channels**   
-    - Extend real-time marketing using the communication channels you're familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement. 
+- **Extend your outreach with custom channels**
+    - Extend real-time marketing using the communication channels you're familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement.
     - [Release plan](https://learn.microsoft.com/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/extend-outreach-custom-channels)
     - [Docs](/dynamics365/marketing/real-time-marketing-create-custom-channels)
 
@@ -78,10 +78,9 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
     > [!div class="mx-imgBorder"]
     > ![Screenshot of personalize your customer outreach.](media/whats-new-personalize-customer-outreach.png "Screenshot of Screenshot of personalize your customer outreach")
 
-#### Public preview 
+#### Public preview
 
 - **Create lead capture forms that convert visitors to customers**
-
    - Now in real-time marketing, create modern website forms that capture your customers' attention while allowing them to enter their data. Use the drag-and-drop editor to create forms that collect marketing data, convert visitors into leads, and convert leads into paying customers. With the new form editor, you can create robust forms without relying on complex code and developers.
    - [Release plan](https://learn.microsoft.com/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-lead-capture-forms-that-convert-visitors-customers)
    - [Docs](/dynamics365/marketing/real-time-marketing-form-editor)
@@ -90,7 +89,6 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
     > ![Screenshot of lead capture forms.](media/whats-new-lead-capture-forms.png "Screenshot of lead capture forms")
 
 - **Fine-tune email communications with filtered lists**
-
    - Including an entire list in an email is a common scenario. But there are times when it's more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by simply adding a filter to your email list.
    - [Docs](/dynamics365/marketing/real-time-marketing-personalize-lists#define-a-list-filter)
 
@@ -100,34 +98,23 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 #### Monthly enhancements
 
 - **Real-time marketing journeys**
-
    - Delete real-time marketing journeys directly from list view and remove unused or abandoned journeys. Maintain full control of your journey list and focus on the right journeys when you need them.
-
    - Tailor your user experience by disabling create and edit functionality for journeys on mobile devices.
-
 - **Real-time segment builder**
-
    - Create segments using more attributes that are indirectly related to the Contact or Lead. For example, you can use attributes like the event sessions a Contact has checked into in a conference or webinar they attended. Use attributes from Dataverse tables that have up to five degrees of separation from the Contact or Lead table (up from three previously).
 
 #### New blogs and scenario docs
 
 To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs and scenario docs:
 
-• [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Blogs for BDM](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
-
-• [Engage your customers faster with AI-powered marketing email content - Dynamics 365 Blogs for IT Pro](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
-
-• [’Tis the season for exceptional customer experiences - Microsoft Industry Blogs](https://cloudblogs.microsoft.com/industry-blog/retail/2022/12/01/tis-the-season-for-exceptional-customer-experiences/)
-
-• [Deploying Event Portal Changes in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
-
-• [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
-
-• [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
-
-• [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
-
-• [Send a targeted email blast in real-time marketing - Scenario doc](/dynamics365/marketing/real-time-marketing-email-get-started)
+- [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Blogs for BDM](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+- [Engage your customers faster with AI-powered marketing email content - Dynamics 365 Blogs for IT Pro](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+- [’Tis the season for exceptional customer experiences - Microsoft Industry Blogs](https://cloudblogs.microsoft.com/industry-blog/retail/2022/12/01/tis-the-season-for-exceptional-customer-experiences/)
+- [Deploying Event Portal Changes in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
+- [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
+- [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+- [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
+- [Send a targeted email blast in real-time marketing - Scenario doc](/dynamics365/marketing/real-time-marketing-email-get-started)
 
 ### November 2022 update
 
