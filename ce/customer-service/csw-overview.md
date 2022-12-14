@@ -84,13 +84,13 @@ The following table gives an overview of the navigation in both views:
 | Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
 | Select an entity from the site map | Record opens in a new tab | Record opens in a new tab |
 
-The Enhanced multisession workspace also has improved in-app notification integration.
+The enhanced multisession workspace also has improved in-app notification integration.
 
 ## Use the Inbox
 
- If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
+If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
+The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
 The inbox conversation view looks as seen in the following screenshot.
 
@@ -100,7 +100,7 @@ The inbox case view looks as seen in the following screenshot.
 
 :::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
 
-Learn how to [configure the inbox view](configure-inbox.md).
+More information: [Configure the inbox view](configure-inbox.md)
 
 ## Use the productivity pane with Smart Assist
 
@@ -108,11 +108,11 @@ While you're working on a case, the productivity pane on the right side of the C
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Screenshot of the productivity pane with Smart Assist suggestions.":::
 
-Learn more about using the [productivity pane](csw-productivity-pane.md).
+More information: [Productivity pane](csw-productivity-pane.md)
 
 ## View the agent calendar (preview)
 
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
 
 1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown list.
 
@@ -159,13 +159,13 @@ More information: [Work with cases](customer-service-hub-user-guide-create-a-cas
 
 Expand the Customer Service workspace site map and select **Knowledge Articles** or **Knowledge Search**. Intelligent knowledge suggestions are displayed in the productivity pane while you're working on a case.
 
-More information: [create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
+More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 ### Use email templates and signatures
 
 Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
 
-Learn more about how to create [email templates](/power-apps/user/email-template-create.md) and [email signatures](/power-apps/user/email-signature.md).
+More information: [Email templates](/power-apps/user/email-template-create.md) and [Email signatures](/power-apps/user/email-signature.md)
 
 ## Customize Customer Service workspace
 
