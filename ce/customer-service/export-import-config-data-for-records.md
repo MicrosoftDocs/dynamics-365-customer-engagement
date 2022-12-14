@@ -1,7 +1,7 @@
 ---
 title: "Migrate configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to migrate data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 11/13/2022
+ms.date: 12/15/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -53,8 +53,8 @@ You must perform the steps in the order they're listed to migrate your configura
 3. [Export and import record queues configuration](#export-and-import-record-queues-configuration)
 4. [Export and import intake rules configuration for records](#export-and-import-intake-rules-configuration-for-records)
 5. [Export and import workstreams configuration for records](#export-and-import-workstreams-configuration-for-records)
-6. [Verify your migration](#verify-your-migration)
-7. [Troubleshoot export and import of data](#troubleshoot-export-and-import-of-data)
+6. [Verify your migration](export-import-config-data-for-records-verify.md)
+7. [Troubleshoot export and import of data](export-import-config-data-for-records-troubleshoot.md)
 
 > [!IMPORTANT]
 > The migration of the following items is not in scope:
@@ -69,9 +69,8 @@ You must perform the steps in the order they're listed to migrate your configura
 > - Presence
 > - Queue membership
 
-### How to use FetchXML to filter records for exporting data
+### Generate FetchXML to filter records for exporting data
 
-**To generate FetchXML**
 
 1. [Use Advanced find to create a custom view](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find).
 
