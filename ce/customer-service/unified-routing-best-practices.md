@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: conceptual
-ms.date: 12/09/2022
+ms.date: 12/15/2022
 ms.custom: bap-template
 ---
 
@@ -14,13 +14,13 @@ ms.custom: bap-template
 
 This article lists some of the best practices to help set up and use unified routing optimally for your business.
 
-## Considerations to set up users in bulk using API
+## Considerations to set up users in bulk using an API
 
 **Scenario**
-I want to set up users in bulk in unified routing using API and configure settings such as profiles, capacity, and skills.
+I want to set up users in bulk in unified routing using API and configure settings such as work hours, capacity, and skills.
 
 **Recommendation**
-To configure a large number of users, you'll need to make one request per user to create the agent availability collection. The overall limit is 500 requests every 15 minutes. To add 10 skills to one user after the required roles are provided would mean 10 different requests. So, you should enable users in batches of 50 every 15 minutes.
+To configure a large number of users, you'll need to make one request per user and change. The overall limit is 500 requests every 15 minutes. To add 10 skills to one user after the required roles are provided would mean 10 different requests. In this case, you should enable users in batches of 50 every 15 minutes.
 
 For information on using the API, see [Use the Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview).
 
@@ -30,46 +30,37 @@ The process is as follows:
 1. Enable unified routing
 1. Add users to queues
 1. Create bookable resources
-1. Attach skills
+1. Attach skills or capacity profiles as required
 1. Provide required unified routing roles
 
 > [!NOTE]
 > Any changes take 15 minutes to come into effect. If you want the cadence to be shorter, contact Microsoft Support.
 
-## Considerations to set up a queue to prioritize the handling of a large number of cases
+## Considerations when the top 100 items in a queue have extended wait times
+
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Each cycle picks up the top unassigned work items in a default block of 100 items and attempts to match each work item with an appropriate agent. Work items that couldn't be assigned to agents is routed back to the queue. The next assignment cycle picks up another block of 100 top-priority items.
+
+For information about the assignment methods, see [Assignment methods](assignment-methods.md).
 
 **Scenario**
-I would like to address the following scenarios while managing cases:
-
-- Handle cases from multiple business units or regions. If region-specific queues exist, work items need to be distributed to agents based on case priority and the service-level agreement (SLA).
-- Handle cases that flow into the system round the clock.
-- Handle dark hours shifts that will have fewer number of agents.
-- Assign cases based on customer preferred language and case topic (subject matter expert).
-- On an average, handle 3000 new cases per day.
+Agents aren't available for extended periods to be assigned the top 100 work items while eligible agents are available for lower-priority work items.
 
 **Recommendation**
-We recommend that you keep your queue backlog within 1000 cases by using one of the following options:
-
-- **Option 1**: Backlog doesn't exceed 1000 cases
-  - Configure one queue that's operational round the clock
-  - Configure agent work hours based on their shift cycles
-  - Configure prioritization as per business requirements
-- **Option 2**: Backlog exceeds 1000 cases
-  - Configure multiple queues for different channels.
+We recommend that you use features such as overflow management to manage high load and review agent availability, agent schedules, and configure skills to expand the eligible agent pool. If these options aren't adequate for your use case and eligible agents are available for items lower in priority, then contact Microsoft Support with your business scenario to determine whether the default block size of 100 can be increased.
 
 > [!NOTE]
-> Multiple queues will impact overall prioritization as cross-queue prioritization isn't supported.
+> An increase in the block size to a large number might affect performance. Therefore, we recommend that you share your business scenario and the queue back log and queue staffing projections for Microsoft Support to suggest the most optimized block size that addresses your use case.
 
 ## Considerations to set up single or multiple queues to manage different types of work
 
 **Scenario**
 I would like to address the following scenarios:
-- My service team supports two types of cases: delivery issues and refund requests. However, most of the users will have the skills for one type only.
-- During standard operations, the team will have two subgroups, and each group will handle one type of incoming cases.
-- During peak load, certain users can handle cases from both types.
+- My service team supports two types of records: delivery issues and refund requests. However, most of the users will have the skills for one type only.
+- During standard operations, the team will have two subgroups, and each group will handle one type of incoming records.
+- During peak load, certain users can handle records from both types.
 
 **Recommendation**
-We recommend that you configure skill-based matching to assign work items to the agent who has the necessary skills to handle the case.
+We recommend that you configure skill-based match process to assign work items to the agent who has the necessary skills to handle the case.
 
 The following table lists the recommendations to use according to the applicable scenario.
 
@@ -77,7 +68,7 @@ The following table lists the recommendations to use according to the applicable
 |---------|----------|---------|
 |Agents belong to different line of businesses and security isolation is required|Recommended| Not recommended|
 |Line of businesses with different operational hours even if agents are shared|Recommended| Not recommended|
-|Large backlog in queue or more than 200 work items per the following queue type:<br> - Voice queue<br> - Messaging queue<br>- Record queue |Recommended| Can be used but queues will need to be split based on load<br>Can be used with queue overflow|
+|Large backlog in queue or more than 100 work items per the following queue type:<br> - Voice queue<br> - Messaging queue<br>- Record queue |Recommended| Can be used but queues will need to be split based on load<br>Can be used with queue overflow|
 |Same agents overlap multiple queues with same profile| Not recommended| Recommended|
 |Gradual relaxation of assignment rules| Not available| Recommended|
 |Prioritization across multiple work types| Not available | Recommended|
