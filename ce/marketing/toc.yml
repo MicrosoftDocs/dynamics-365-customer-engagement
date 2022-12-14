@@ -210,6 +210,8 @@
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
+    - name: What's new archive
+      href: whats-new-marketing-archive.md
   - name: "Real-time marketing"
     items: 
     - name: Real-time marketing user guide
@@ -227,17 +229,21 @@
     - name: Communication channels
       items: 
       - name: Real-time marketing emails
-        href: real-time-marketing-email.md
-      - name: Push notifications
-        href: real-time-marketing-push-notifications.md
+        items:
+        - name: Email overview
+          href: real-time-marketing-email.md
+        - name: "Preview: Use AI to kickstart email creation with content ideas"
+          href: content-ideas.md
+        - name: "Preview: Use brand profiles in real-time marketing email"
+          href: brand-profiles-email.md
+      - name: "Preview: Real-time marketing forms"
+        href: real-time-marketing-form-editor.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
-      - name: "Preview: Create custom channels"
+      - name: Push notifications
+        href: real-time-marketing-push-notifications.md
+      - name: Create custom channels
         href: real-time-marketing-create-custom-channels.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
-        href: content-ideas.md
-      - name: "Preview: Use brand profiles in real-time marketing email"
-        href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
     - name: Journeys
@@ -294,14 +300,6 @@
           href: real-time-marketing-branches.md
         - name: Set up an automated text message keyword flow in customer journeys
           href: set-up-automated-sms-keyword-flow.md
-      - name: Personalization
-        items:
-        - name: Personalize content
-          href: real-time-marketing-personalization.md
-        - name: "Personalize content using pre-defined dynamic text"
-          href: real-time-marketing-predefined-dynamic-text.md
-        - name: How to use conditional content
-          href: conditional-content.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
@@ -310,6 +308,20 @@
           href: real-time-marketing-cross-journey-analytics.md
         - name: How to use aggregate channel analytics
           href: real-time-marketing-channel-analytics.md
+    - name: Personalization
+      items:
+      - name: Personalize content
+        href: real-time-marketing-personalization.md
+      - name: Personalize content using pre-defined dynamic text
+        href: real-time-marketing-predefined-dynamic-text.md
+      - name: How to use conditional content
+        href: conditional-content.md
+      - name: Create reusable content blocks
+        href: content-blocks.md
+      - name: Personalize inline conditions
+        href: real-time-marketing-personalize-inline-conditions.md
+      - name: Personalize lists
+        href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
       - name: Real-time marketing asset library
@@ -340,8 +352,24 @@
         href: real-time-marketing-interactions-reference.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
-      - name: "Preview: Manually add a custom channel"
-        href: real-time-marketing-extend-outreach-custom-channels.md
+      - name: "Manually add a custom channel"
+        items:
+        - name: Overview
+          href: real-time-marketing-extend-outreach-custom-channels.md
+        - name: 1. Define your extended configuration entity for the channel instance 
+          href: real-time-marketing-define-custom-channel-instance.md
+        - name: 2. Define your extended configuration entity for the channel instance account 
+          href: real-time-marketing-define-channel-instance-account.md
+        - name: 3. Define your message parts 
+          href: real-time-marketing-custom-channel-message-parts.md
+        - name: 4. Define your localization for the admin interface (optional)
+          href: real-time-marketing-custom-channel-localization-admin.md
+        - name: 5. Define your message editor interface (optional)
+          href: real-time-marketing-custom-channel-message-editor.md
+        - name: 6. Define your custom APIs 
+          href: real-time-marketing-custom-channel-custom-API.md
+        - name: 7. Define your channel definition 
+          href: real-time-marketing-define-channel-definition.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
@@ -464,8 +492,6 @@
       items: 
       - name: Upload and use images and files
         href: upload-images-files.md
-      - name: Create reusable content blocks
-        href: content-blocks.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
     - name: Segmentation

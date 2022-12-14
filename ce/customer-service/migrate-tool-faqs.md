@@ -1,7 +1,7 @@
 ---
 title: "Migration tool FAQ | MicrosoftDocs"
 description: "Migration tool FAQ for  Automatic record creation rules and service-level agreement items"
-ms.date: 11/14/2022
+ms.date: 12/09/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,7 +23,7 @@ No. You must manually activate the migrated rules when migration is complete.
 
 ### Can I activate a rule with an incomplete migration status?
 
-No. A migrated rule can only be activated when **Mark as complete** is toggled to **Yes** (that's when the rule is considered successfully migrated). 
+No. A migrated rule can only be activated when **Mark as complete** is toggled to **Yes** (that's when the rule is considered successfully migrated).
 
 > [!Note] 
 > Review the incomplete rule to resolve any issues before you toggle the **Mark as complete** to **Yes**, and then activate the rule.
@@ -220,7 +220,9 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 
 ### See also
 
-[Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)  
+[Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
+
+[Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
