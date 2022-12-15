@@ -44,7 +44,7 @@ For information on how to use the Configuration Migration tool, see the followin
 
 ## Migrate configuration data for the record channel
 
-You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
+Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
 1. [Migrate skill-based routing](export-import-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
 2. [Migrate capacity profiles](export-import-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
@@ -67,8 +67,7 @@ You must perform the steps in the order they're listed to migrate your configura
 > - Presence
 > - Queue membership
 
-### Generate FetchXML query to filter records for exporting data
-
+## Generate FetchXML query using Advanced Find
 
 1. Use Advanced find to create a personal view. More information: [Create and manage personal views on grid page](power-apps/user/grid-filters-advanced) or [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
 
@@ -76,17 +75,28 @@ You must perform the steps in the order they're listed to migrate your configura
 
 1. Select **Download FetchXML**.
 
-1. Edit the XML as follows, and save it:
+1. Edit the XML as follows:
 
    1. Remove "output-format=xml-platform".
 
    2. Remove all attribute elements.
 
    3. Remove the order attribute element.
-To use the fetchXML feature, select **Configure Import Settings** in the **Tools** menu.
 
-Then, select **Edit FetchXML**. A simple window opens where the FetchXML text is to be entered.
+1. Save and close.
 
+## Edit the FetchXML query in the configuration management tool CMT
+
+1. Open the Configuration Migration Tool and in the **Tools** menu, select **Configure Import Settings**.
+
+1. Select **Edit FetchXML**. 
+   :::image type="content" source="media/edit-fetchxml.png" alt-text="Screenshot of the Edit FetchXML button.":::
+
+1. Enter your FetchXML filter in the text box, and select **OK**.
+
+
+> [!div class="nextstepaction"]
+> [Next step](export-import-config-data-for-records.md)
 
 ### See also
 
