@@ -83,8 +83,8 @@ For sample schema to get all the required records, see [Sample schema for record
     - Assignment configuration
     - Assignment configuration step
  
-    Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.
-    `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
+    Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.<br>
+    `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`
 
     |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
