@@ -1,7 +1,7 @@
 ---
 title: "Resource Scheduling Optimization version history | MicrosoftDocs"
 description: Find a list of important updates for resource scheduling optimization in Dynamics 365 Field Service.
-ms.date: 11/02/2022
+ms.date: 12/15/2022
 ms.reviewer: mhart
 
 ms.subservice: resource-scheduling-optimization
@@ -59,8 +59,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.4.0.72
 
-- Fixed optimization request error: “System failed to optimize some records. Inner error(s): The primal integer program model is infeasible or unbounded: optimization status = InfeasibleOrUnbounded” 
-- Fixed optimization request error:“System failed to optimize some records. Inner error(s): An exception was thrown while activating F1.RoutingEngine.PathSolver.PathSolver”
+- Fixed optimization request errors: 
+  - System failed to optimize some records. Inner error(s): The primal integer program model is infeasible or unbounded: optimization status = InfeasibleOrUnbounded.
+  - System failed to optimize some records. Inner error(s): An exception was thrown while activating F1.RoutingEngine.PathSolver.PathSolver.
 
 ## 3.4.0.8
 
