@@ -1,8 +1,8 @@
 During the import of the data in the target organization, if you see yellow warning symbols, we recommend that you verify the following logs in the Configuration Migration Tool:
 
 - **Login_ErrorLog.log**: Provides information about any issues you had when you signed int to the organization using the Configuration Management Tool.
-- **DataMigrationUtility.log**: Provides detailed information about the tasks performed using the tool during the last migration job.
-- **ImportDataDetail.log**: Provides detailed information about the data imported by the tool in the last import job. 
+- **DataMigrationUtility.log**: Provides detailed information about the tasks performed using the tool during the last migration.
+- **ImportDataDetail.log**: Provides detailed information about the data imported by the tool in the last data import. 
 
 More information: [Troubleshoot configuration data migration issues using log files](/power-platform/admin/manage-configuration-data#troubleshoot-configuration-data-migration-issues-using-log-files)
 
