@@ -99,15 +99,15 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 4. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
 
-   - In the source and target organizations, run the following OData API and note the GUID of `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
-      `https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
-      `https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
 
      In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
@@ -476,13 +476,13 @@ Before you migrate intake rules, check for the following:
 
    - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`:
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`:
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
 
@@ -680,19 +680,19 @@ For sample schema to get all the required records, see [Sample schema for intake
 
    - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
    
    - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_demandqueueidentificationoutput'
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_demandqueueidentificationoutput'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
