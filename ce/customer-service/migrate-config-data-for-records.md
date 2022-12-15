@@ -70,7 +70,7 @@ You must perform the steps in the order they're listed to migrate your configura
 ### Generate FetchXML query to filter records for exporting data
 
 
-1. [Use Advanced find to create a custom view](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find).
+1. Use Advanced find to create a personal view. More information: [Create and manage personal views on grid page](power-apps/user/grid-filters-advanced) or [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
 
 1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). 
 
@@ -83,7 +83,9 @@ You must perform the steps in the order they're listed to migrate your configura
    2. Remove all attribute elements.
 
    3. Remove the order attribute element.
-  
+To use the fetchXML feature, select **Configure Import Settings** in the **Tools** menu.
+
+Then, select **Edit FetchXML**. A simple window opens where the FetchXML text is to be entered.
 
 
 ### See also
