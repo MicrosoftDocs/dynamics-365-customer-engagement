@@ -1248,7 +1248,7 @@
     items: 
     - name: Migrate configuration data for the record channel
       items:
-      - name: Overview of migration for records
+      - name: Overview of data migration for records
         href: migrate-config-data-for-records.md
       - name: Use FetchXML query to filter records
         href: use-fetchxml-filter-records.md        

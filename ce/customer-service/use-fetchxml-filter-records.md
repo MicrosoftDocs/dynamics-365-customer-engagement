@@ -1,6 +1,6 @@
 ---
 title: "Use FetchXML query to filter records | MicrosoftDocs"
-description: "This article discusses how to download the FetchXL query and edit it in the configuration management tool."
+description: "This article discusses how to download the FetchXML query and edit it in the configuration management tool."
 ms.date: 12/16/2022
 ms.topic: article
 author: neeranelli
@@ -38,7 +38,7 @@ This article discusses how to download the FetchXL query and edit it in the conf
 1. Select **Edit FetchXML**. 
    :::image type="content" source="media/edit-fetchxml.png" alt-text="Screenshot of the Edit FetchXML button.":::
 
-1. Enter your FetchXML filter in the text box, and select **OK**.
+1. Enter your FetchXML query in the text box, and select **OK**.
 
 
 > [!div class="nextstepaction"]

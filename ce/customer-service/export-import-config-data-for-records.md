@@ -13,6 +13,7 @@ ms.reviewer: nenellim
 # Migrate routing rulesets, capacity profiles, queues, intake rules, and workstreams
 
 This article discusses the procedures you must follow to export and import configuration data for:
+
 - skill-based routing rulesets
 - capacity profiles
 - queues
@@ -72,8 +73,6 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 ## Migrate configuration for record queues
 
-For sample schema to get all the required records, see [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml).
-
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
 
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
@@ -102,20 +101,21 @@ For sample schema to get all the required records, see [Sample schema for record
 
    - In the source and target organizations, run the following OData API and note the GUID of `msdyn_decisioncontractid`.
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'
+      `https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
-   - In the source and target organizations, run the following OData API and note the GUID of `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
-      https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'
+      `https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 5. Package the extracted content again.
 
 6. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
+For sample schema to get all the required records, see [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml).
 
 ### FetchXML for queues
 
@@ -449,18 +449,16 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ## Migrate configuration for intake rules for record routing
 
-For sample schema to get all the required records, see [Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml).
+Before you migrate intake rules, check for the following:
+
+- If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+- If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+- If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
-
-	> [!IMPORTANT]
-	>
-	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
-	> - If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
-	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
 
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
@@ -492,6 +490,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 
 5. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
 
+For sample schema to get all the required records, see [Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml).
 
 ### FetchXML for decision contract entity for intake rules
 
@@ -655,9 +654,6 @@ For sample schema to get all the required records, see [Sample schema for intake
 
 ## Migrate configuration for record workstreams
 
-
-For sample schema to get all the required records, see [Sample schema for unified routing record workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20workstreams.xml).
-
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for record workstreams.
     
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)] 
@@ -703,6 +699,8 @@ For sample schema to get all the required records, see [Sample schema for unifie
 5. Package the extracted content again.
 
 6. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
+
+For sample schema to get all the required records, see [Sample schema for unified routing record workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20workstreams.xml).
 
 ### FetchXML for workstream entity
 

@@ -20,6 +20,8 @@ For information on how to use the Configuration Migration tool, see the followin
 
 ## Prerequisites
 
+Check for the following before you migrate your configuration data:
+
 - In the source organization, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
   - Custom entities
   - Attributes
@@ -47,15 +49,15 @@ For information on how to use the Configuration Migration tool, see the followin
 Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
 1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
-1. [Migrate skill-based routing](export-import-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
+1. [Migrate skill-based routing rulesets](export-import-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
 1. [Migrate capacity profiles](export-import-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
-1. [Migrate record queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
-1. [Migrate intake rules for records](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
-1. [Migrate workstreams for records](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+1. [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
+1. [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
+1. [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
 1. [Verify your data migration](export-import-config-data-for-records-verify.md)
 1. [Troubleshoot your data migration](export-import-config-data-for-records-troubleshoot.md)
 
-> [!IMPORTANT]
+> [!NOTE]
 > The migration process doesn't include:
 >
 > - Intelligent skill finder

@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Troubleshoot migration of configuration data for the record channel
+# Troubleshoot migration of configuration data for records
 
 [!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
