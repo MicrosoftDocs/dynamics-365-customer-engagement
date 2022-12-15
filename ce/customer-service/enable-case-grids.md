@@ -1,7 +1,7 @@
 ---
 title: "Enable case grids for agents| MicrosoftDocs"
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 11/08/2022
+ms.date: 12/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,7 +30,7 @@ The following are some of the key features of the modernized case grids:
     - View icons for **Priority** and the **Origin** channel.
     -	View avatars for the assigned **Owner**.
     - View key data, such as **Case Age**, **Next SLA**, and **Last Interaction** with attachments.
-- The ability to perform inline edits and update data for columns. For example, you can double-click the **Status Reason** column to change the status of the case, or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when you move to the next row.
+- The ability to perform inline edits and update data for columns. For example, you can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when you move to the next row. Currently, inline editing for the **Status reason** column isn't supported.
 - The ability to use quick navigation to respond to the latest interaction.
 
 ## Enable the grid control for the Case entity
