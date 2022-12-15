@@ -1,7 +1,7 @@
 ---
 title: "Personalize content using pre-defined dynamic text (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined dynamic text in Dynamics 365 Marketing."
-ms.date: 12/06/2022
+ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -94,9 +94,9 @@ To remove pre-defined dynamic text:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of removing pre-defined dynamic text.](media/real-time-marketing-predefined-tokens-remove.png "Screenshot of removing pre-defined dynamic text")
 
-## Communicate date and time using variety of formats
+## Communicate dates and times in various formats
 
-When you work with multiple geographies and languages, communicating dates and times clearly requires using the right format to match the recipient's expectations. To ensure your communications are clear for all recipients, real-time marketing supports various date and time formats.
+When you work with multiple geographies and languages, communicating dates and times clearly requires using the right format to match the recipient's expectations. To ensure your communications are clear for all recipients, real-time marketing supports many date and time formats.
 
 Whenever dynamic text is defined using a *datetime* type attribute, another set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app also automatically converts the stored date/time into the selected time zone.
 

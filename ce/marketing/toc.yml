@@ -229,17 +229,21 @@
     - name: Communication channels
       items: 
       - name: Real-time marketing emails
-        href: real-time-marketing-email.md
-      - name: Push notifications
-        href: real-time-marketing-push-notifications.md
+        items:
+        - name: Email overview
+          href: real-time-marketing-email.md
+        - name: "Preview: Use AI to kickstart email creation with content ideas"
+          href: content-ideas.md
+        - name: "Preview: Use brand profiles in real-time marketing email"
+          href: brand-profiles-email.md
+      - name: "Preview: Real-time marketing forms"
+        href: real-time-marketing-form-editor.md
       - name: Outbound text messages
         href: real-time-marketing-outbound-text-messaging.md
-      - name: "Preview: Create custom channels"
+      - name: Push notifications
+        href: real-time-marketing-push-notifications.md
+      - name: Create custom channels
         href: real-time-marketing-create-custom-channels.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas"
-        href: content-ideas.md
-      - name: "Preview: Use brand profiles in real-time marketing email"
-        href: brand-profiles-email.md
       - name: Use AI-driven run-time channel optimization
         href: real-time-marketing-channel-optimization.md
     - name: Journeys
@@ -322,22 +326,30 @@
       items: 
       - name: Real-time marketing asset library
         href: real-time-marketing-asset-library.md
+      - name: Install the real-time marketing asset library add-on
+        href: real-time-marketing-asset-add-on.md
     - name: Administration
       items: 
-      - name: Manage consent for email and text messages in real-time marketing
-        href: real-time-marketing-email-text-consent.md
-      - name: Use outbound subscription centers in real-time journeys
-        href: real-time-marketing-outbound-subscription.md
+      - name: Journeys
+        items:
+        - name: Select the audience source for real-time journeys
+          href: real-time-marketing-audience-data.md
+        - name: Move custom triggers between environments
+          href: real-time-marketing-move-triggers.md
+        - name: Real-time marketing link tracking mechanics
+          href: real-time-marketing-link-tracking-mechanics.md
+      - name: Privacy and compliance
+        items:
+        - name: Manage consent for email and text messages in real-time marketing
+          href: real-time-marketing-email-text-consent.md
+        - name: Use outbound subscription centers in real-time journeys
+          href: real-time-marketing-outbound-subscription.md
       - name: Real-time marketing domain authentication
         href: real-time-marketing-domain.md
-      - name: Select the audience source for real-time journeys
-        href: real-time-marketing-audience-data.md
-      - name: Move custom triggers between environments
-        href: real-time-marketing-move-triggers.md
-      - name: Real-time marketing link tracking mechanics
-        href: real-time-marketing-link-tracking-mechanics.md
       - name: Manage SMS (text message) keywords used in customer journeys
         href: manage-sms-keywords.md
+      - name: Install add-ons
+        href: add-ons.md
     - name: Developer
       items: 
       - name: Push notification setup for application developers
