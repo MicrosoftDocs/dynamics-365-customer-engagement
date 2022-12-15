@@ -1,5 +1,5 @@
 ---
-title: "Sample: Override goal total count and close the goal| MicrosoftDocs"
+title: "Sample: Override goal total count and close the goal (Dynamics 365 Sales)"
 description: "This sample demonstrates how to override the goal total count and close the goal"
 ms.custom: 
 ms.date: 01/02/2020
@@ -47,7 +47,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 1. Checks for the version of the org.
 2. Retrieves the sales manager user created manually in **Office 365**.
-3. Creates a `PhoneCall` record and supporting account record for the sample.
+3. Creates a `PhoneCall` row and supporting account row for the sample.
 4. Creates ActivityPartys for the phone calls "From" field.
 5. Creates an open phone call.
 6. Closes the first phone call and creates a second one.
@@ -65,7 +65,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Clean up
 
-Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the rows to achieve the same result.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

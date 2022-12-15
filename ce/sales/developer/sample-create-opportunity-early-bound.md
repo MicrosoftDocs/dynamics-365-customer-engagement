@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create an opportunity (early bound)"
+title: "Sample: Create an opportunity (early bound) (Dynamics 365 Sales)"
 description: "The sample demonstrates how to create an opportunity that contains a product from the product catalog."
 ms.custom: 
 ms.date: 10/31/2017
@@ -39,7 +39,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
   
 ### See also  
     
- [Opportunity Entities](opportunity-entities.md)   
+ [Opportunity Tables](opportunity-entities.md)   
  [Sample: Retrieve an Opportunity (Early Bound)](sample-retrieve-opportunity-early-bound.md)
 
 

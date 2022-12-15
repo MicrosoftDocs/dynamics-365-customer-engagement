@@ -1,5 +1,5 @@
 ---
-title: "Sample: Calculate Price plug-in"
+title: "Sample: Calculate Price plug-in (Dynamics 365 Sales)"
 description: "Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code."
 keywords: 
 ms.date: 10/31/2017
@@ -31,7 +31,7 @@ This sample code is for Dynamics 365 Sales. Download the sample: [Work with cust
 ## Requirements  
  Ensure the following:  
   
--   Set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `0` (false).  
+-   Set the value of the `Organization.OOBPriceCalculationEnabled` column to `0` (false).  
   
 -   Register the plug-in on the **CalculatePrice** message, **Post-operation** event stage, and **Synchronous** execution mode. For more information, see [Register and Deploy Plug-ins](register-deploy-plugins.md).  
   
@@ -50,7 +50,7 @@ This sample code is for Dynamics 365 Sales. Download the sample: [Work with cust
 ### See also  
  [Use custom pricing for products](use-custom-pricing-products.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
- [Product catalog entities](product-catalog-entities.md)
+ [Product catalog tables](product-catalog-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

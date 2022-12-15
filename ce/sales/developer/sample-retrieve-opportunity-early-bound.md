@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve an opportunity (early bound)"
+title: "Sample: Retrieve an opportunity (early bound) (Dynamics 365 Sales)"
 description: "The sample demonstrates how to retrieve an opportunity and products related to the opportunity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -39,7 +39,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
   
 ### See also  
     
- [Opportunity Entities](opportunity-entities.md)   
+ [Opportunity Tables](opportunity-entities.md)   
  [Sample: Convert an Opportunity to a Quote (Early Bound)](sample-convert-opportunity-quote-early-bound.md)
 
 

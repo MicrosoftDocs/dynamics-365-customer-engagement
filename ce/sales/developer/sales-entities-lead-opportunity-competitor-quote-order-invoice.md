@@ -1,5 +1,5 @@
 ---
-title: "Sales entities (lead, opportunity, competitor, quote, order, invoice)"
+title: "Sales entities (lead, opportunity, competitor, quote, order, invoice)(Dynamics 365 Sales)"
 description: "Learn about sales entities to manage tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals of a sales process."
 ms.custom: 
 ms.date: 10/31/2017
@@ -30,18 +30,18 @@ search.audienceType:
 You use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
   
 ## In This Section  
- [Competitor Entity](competitor-entity.md)  
+ [Competitor Tables](competitor-entity.md)  
   
- [Lead Entity](lead-entity.md)  
+ [Lead Tables](lead-entity.md)  
   
- [Opportunity Entities](opportunity-entities.md)  
+ [Opportunity Tables](opportunity-entities.md)  
   
- [Quote, Order and Invoice Entities](quote-order-invoice-entities.md)  
+ [Quote, Order and Invoice Tables](quote-order-invoice-entities.md)  
   
 ## Related Sections  
  [Model Your Business Data](model-business-data.md)  
   
- [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)
+ [Marketing Tables (Campaign, List)](marketing-entities-campaign-list.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

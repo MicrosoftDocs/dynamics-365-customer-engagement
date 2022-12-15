@@ -1,5 +1,5 @@
 ---
-title: "Use custom pricing for products"
+title: "Use custom pricing for products (Dynamics 365 Sales)"
 description: "Use the CalculatePrice message to define custom pricing for products in opportunities, quotes, orders and invoices."
 ms.custom: 
 ms.date: 10/31/2017
@@ -25,22 +25,22 @@ The pricing engine in Dynamics 365 Sales supports a standard set of pricing and 
   
  To use the custom pricing for your opportunities, quotes, orders, and invoices:  
   
-1. Set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `0` (false). You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_dynamics-365.md](../../includes/pn-dynamics-365.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to disable system pricing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
+1. Set the value of the `Organization.OOBPriceCalculationEnabled` column to `0` (false). You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_dynamics-365.md](../../includes/pn-dynamics-365.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to disable system pricing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 2. Create a plug-in that contains your custom pricing code for calculating the price for your opportunity, quote, order, or invoice.  
   
 3. Register the plug-in on the `CalculatePrice` message.  
   
-   When the `Organization.OOBPriceCalculationEnabled` attribute is set to `0`, every time an opportunity, quote, order, or invoice is created or changes, the plug-in registered on the `CalculatePrice` executes to calculate prices as specified in your custom code in the plug-in. The <xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest> message doesn’t have any usage scenario of its own. It’s exposed so that you can plug in your own custom pricing calculation logic if you don’t want to use the out-of-box pricing provided by Dynamics 365 Sales.  
+   When the `Organization.OOBPriceCalculationEnabled` column is set to `0`, every time an opportunity, quote, order, or invoice is created or changes, the plug-in registered on the `CalculatePrice` executes to calculate prices as specified in your custom code in the plug-in. The <xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest> message doesn’t have any usage scenario of its own. It’s exposed so that you can plug in your own custom pricing calculation logic if you don’t want to use the out-of-box pricing provided by Dynamics 365 Sales.  
   
    For a sample plug-in that calculates custom pricing for opportunities, quotes, orders, and invoices, see [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md).  
   
-   If you want to revert to using the out-of-box pricing for your opportunities, quotes, orders, and invoices, set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `1` (true). You can also use the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to enable system pricing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
+   If you want to revert to using the out-of-box pricing for your opportunities, quotes, orders, and invoices, set the value of the `Organization.OOBPriceCalculationEnabled` column to `1` (true). You can also use the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to enable system pricing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 ### See also  
  [Product pricing methods](product-pricing-methods.md)   
  [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)   
- [Product catalog entities](product-catalog-entities.md)
+ [Product catalog tables](product-catalog-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

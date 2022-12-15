@@ -1,5 +1,5 @@
 ---
-title: "Sample: Convert an opportunity to a quote (early bound)"
+title: "Sample: Convert an opportunity to a quote (early bound) (Dynamics 365 Sales)"
 description: "The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote."
 ms.custom: 
 ms.date: 10/31/2017
@@ -41,7 +41,7 @@ This sample code is for Dynamics 365 Sales. [Download the business management sa
   
 ### See also  
     
- [Opportunity Entities](opportunity-entities.md)   
+ [Opportunity Tables](opportunity-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Rollup goal data for a custom period against the target revenue"
+title: "Sample: Rollup goal data for a custom period against the target revenue (Dynamics 365 Sales)"
 description: "This sample shows how to roll up goal data for a custom period against the target revenue"
 ms.custom: 
 ms.date: 10/31/2017
@@ -63,7 +63,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 4. Creates few products and new discount list.
 5. The `PriceLevel` creates the price list.
 6. The `ProductPriceLevel` creates a price list item for the first product and apply volume discount.
-7. Creates account record for the opportunity's potential customer id.
+7. Creates account row for the opportunity's potential customer id.
 8. Creates a new opportunity with user specified estimated revenue.
 9. Creates a catalog products and override the list price.
 10. Creates a new write-in opportunity product with a manual discount applied.
@@ -78,7 +78,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Clean up
 
-Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the records to achieve the same result.
 
 
 

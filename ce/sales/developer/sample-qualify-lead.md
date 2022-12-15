@@ -1,5 +1,5 @@
 ---
-title: "Sample: Qualify a lead"
+title: "Sample: Qualify a lead (Dynamics 365 Sales)"
 description: "The sample demonstrates how to qualify a lead and create an account, contact, or opportunity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -40,9 +40,9 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
  [!code-csharp[BusinessManagement#WorkingWithLeads](../snippets/csharp/CRMV8/businessmanagement/cs/workingwithleads.cs#workingwithleads)]  
   
 ### See also  
- [Sales Entities (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
+ [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  <xref:Microsoft.Crm.Sdk.Messages.QualifyLeadRequest>   
- [Lead Entity](lead-entity.md)
+ [Lead Table](lead-entity.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

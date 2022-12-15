@@ -1,5 +1,5 @@
 ---
-title: "Sample: Add products to a bundle (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Add products to a bundle (Dynamics 365 Sales)"
 description: "Sample demonstrates how to add products to a product bundle."
 ms.custom: 
 ms.date: 01/02/2020
@@ -51,7 +51,7 @@ Displays an option to delete all the data created in the sample. The deletion is
   
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)</br/>   
- [Product catalog entities](product-catalog-entities.md)
+ [Product catalog tables](product-catalog-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

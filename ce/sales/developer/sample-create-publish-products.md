@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create and publish products"
+title: "Sample: Create and publish products (Dynamics 365 Sales)"
 description: "Sample demonstrates how to create a product family, override a product property, publish a product hierarchy, and revise a overridden property."
 ms.custom: 
 ms.date: 01/02/2020
@@ -94,14 +94,14 @@ namespace Microsoft.Crm.Sdk.Samples
         #region How To Sample Code  
         /// <summary>  
         /// Create and configure the organization service proxy.  
-        /// Initiate creating all entity records that this sample requires.  
-        /// Create a product family with a product property and two child product records.  
+        /// Initiate creating all table rows that this sample requires.  
+        /// Create a product family with a product property and two child product rows.  
         /// Create a substitute relation between the two products.  
         /// Override the product property for one of the child products.  
-        /// Publish the product family hierarchy, including the child records.  
+        /// Publish the product family hierarchy, including the child rows.  
         /// Revise a child product to overwrite the overridden property.  
         /// Publish the child product.  
-        /// Optionally delete any entity records that were created for this sample.  
+        /// Optionally delete any table rows that were created for this sample.  
         /// </summary>  
         /// <param name="serverConfig">Contains server connection information.</param>  
         /// <param name="promptforDelete">When True, the user will be prompted to delete all  
@@ -146,7 +146,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     _productPropertyId = _serviceProxy.Create(newProperty);  
                     Console.WriteLine("\nCreated '{0}' for the product family", newProperty.Name);  
   
-                    // Create couple of product records under the product family  
+                    // Create couple of product rows under the product family  
                     Product newProduct1 = new Product  
                     {  
                         Name = "Example Product 1",  
@@ -220,14 +220,14 @@ namespace Microsoft.Crm.Sdk.Samples
                     newOverrideProperty.RegardingObjectId = new EntityReference(Product.EntityLogicalName, _product1Id);  
                     _productOverridenPropertyId = _serviceProxy.Create(newOverrideProperty);  
   
-                    // Retrieve the attributes of the cloned property you want to update                      
+                    // Retrieve the columns of the cloned property you want to update                      
                     ColumnSet columns = new ColumnSet();  
                     columns.AddColumns("name", "isreadonly", "isrequired");  
                     DynamicProperty retrievedOverridenProperty = (DynamicProperty)_serviceProxy.Retrieve(  
                                                DynamicProperty.EntityLogicalName, _productOverridenPropertyId,  
                                                columns);  
   
-                    // Update the attributes  
+                    // Update the columns  
                     retrievedOverridenProperty.Name = "Overridden Example Property";  
                     retrievedOverridenProperty.IsReadOnly = true;  
                     retrievedOverridenProperty.IsRequired = false;  
@@ -236,7 +236,7 @@ namespace Microsoft.Crm.Sdk.Samples
   
                     // Prompt the user whether to publish the product family and products  
                     bool publishRecords = true;                    
-                    Console.WriteLine("\nDo you want the product records published? (y/n)");  
+                    Console.WriteLine("\nDo you want the product rows published? (y/n)");  
                     String answer = Console.ReadLine();  
                     publishRecords = (answer.StartsWith("y") || answer.StartsWith("Y"));  
   
@@ -249,7 +249,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         PublishProductHierarchyResponse published = (PublishProductHierarchyResponse)_serviceProxy.Execute(publishReq);  
                         if (published.Results != null)  
                         {  
-                            Console.WriteLine("Published the product records");  
+                            Console.WriteLine("Published the product rows");  
                         }  
   
                         // Overwrite a product property  
@@ -278,14 +278,14 @@ namespace Microsoft.Crm.Sdk.Samples
                             _product1Id);  
                         _productOverwrittenPropertyId = _serviceProxy.Create(newOverwriteProperty);  
   
-                        // Retrieve the attributes of the cloned property you want to update  
+                        // Retrieve the columns of the cloned property you want to update  
                         ColumnSet myCols = new ColumnSet();  
                         myCols.AddColumns("name", "isreadonly", "isrequired");  
                         DynamicProperty retrievedOverwrittenProperty = (DynamicProperty)_serviceProxy.Retrieve(  
                                                    DynamicProperty.EntityLogicalName, _productOverwrittenPropertyId,  
                                                    myCols);  
   
-                        // Update the attributes of the cloned property to complete the overwrite   
+                        // Update the columns of the cloned property to complete the overwrite   
                         retrievedOverwrittenProperty.Name = "Overwritten Example Property";  
                         retrievedOverwrittenProperty.IsReadOnly = true;  
                         retrievedOverridenProperty.IsRequired = false;  
@@ -320,12 +320,12 @@ namespace Microsoft.Crm.Sdk.Samples
         }  
   
         /// <summary>  
-        /// This method creates any entity records that this sample requires.  
+        /// This method creates any table rows that this sample requires.  
         /// Create a unit group and price list.  
         /// </summary>  
         public void CreateRequiredRecords()  
         {  
-            Console.WriteLine("Creating required records for the sample");  
+            Console.WriteLine("Creating required rows for the sample");  
             Console.WriteLine("*****************************************");  
             // Create a unit group.  
             UoMSchedule newUnitGroup = new UoMSchedule  
@@ -371,8 +371,8 @@ namespace Microsoft.Crm.Sdk.Samples
         }  
   
         /// <summary>  
-        /// Deletes any entity records that were created for this sample.  
-        /// <param name="prompt">Indicates whether to prompt the user to delete the records created in this sample.</param>  
+        /// Deletes any table rows that were created for this sample.  
+        /// <param name="prompt">Indicates whether to prompt the user to delete the rows created in this sample.</param>  
         /// </summary>  
         public void DeleteRequiredRecords(bool prompt)  
         {  
@@ -380,14 +380,14 @@ namespace Microsoft.Crm.Sdk.Samples
   
             if (prompt)  
             {  
-                Console.WriteLine("\nDo you want these entity records deleted? (y/n)");  
+                Console.WriteLine("\nDo you want these table rows deleted? (y/n)");  
                 String answer = Console.ReadLine();  
                 deleteRecords = (answer.StartsWith("y") || answer.StartsWith("Y"));  
             }  
   
             if (deleteRecords)  
             {                  
-                Console.WriteLine("Deleting entity records... please wait!");  
+                Console.WriteLine("Deleting table rows... please wait!");  
   
                 _serviceProxy.Delete(ProductSubstitute.EntityLogicalName, _productRelationId);  
                 _serviceProxy.Delete(ProductPriceLevel.EntityLogicalName, _priceListItem1Id);  
@@ -396,7 +396,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 _serviceProxy.Delete(PriceLevel.EntityLogicalName, _priceListId);  
                 _serviceProxy.Delete(UoMSchedule.EntityLogicalName, _unitGroupId);  
   
-                Console.WriteLine("Entity records have been deleted.");  
+                Console.WriteLine("Entity rows have been deleted.");  
             }  
         }  
         #endregion How To Sample Code  
@@ -475,9 +475,9 @@ namespace Microsoft.Crm.Sdk.Samples
 ```  
   
 ### See also  
- [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
+ [Create and manage product families, products, and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
- [Product catalog entities](product-catalog-entities.md)
+ [Product catalog tables](product-catalog-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

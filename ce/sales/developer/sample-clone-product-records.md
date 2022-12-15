@@ -1,5 +1,5 @@
 ---
-title: "Sample: Clone product records"
+title: "Sample: Clone product records (Dynamics 365 Sales)"
 description: "Sample demonstrates how to clone a product record."
 ms.custom: 
 ms.date: 01/02/2020
@@ -35,7 +35,7 @@ This sample code is for Dynamics 365 Sales. [Download the Product Catalog sample
   
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
- [Product catalog entities](product-catalog-entities.md)
+ [Product catalog tables](product-catalog-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

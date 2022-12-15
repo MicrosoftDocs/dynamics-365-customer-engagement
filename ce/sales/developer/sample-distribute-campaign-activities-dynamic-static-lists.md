@@ -1,5 +1,5 @@
 ---
-title: "Sample: Distribute campaign activities to dynamic and static lists"
+title: "Sample: Distribute campaign activities to dynamic and static lists (Dynamics 365 Sales)"
 description: "The sample code demonstrates how to create a dynamic marketing list, copy it to the static marketing list, and distribute campaign activities to the members of the marketing lists."
 ms.custom: 
 ms.date: 10/31/2017
@@ -36,7 +36,7 @@ In order to simulate the scenario described above, the sample will do the follow
 ### Setup
 
 1. Checks for the current version of the org. 
-2. The `CreateRequiredRecords` method creates any entity records that this sample requires.
+2. The `CreateRequiredRecords` method creates any table rows that this sample requires.
 
 ### Demonstrate
 
@@ -50,13 +50,13 @@ In order to simulate the scenario described above, the sample will do the follow
 
 ### Clean up
 
-Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+Display an option to delete the rows created in the [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the rows to achieve the same result.
   
 ### See also  
- [Campaign Entities](campaign-entities.md)   
+ [Campaign Tables](campaign-entities.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)   
- [List (Marketing List) Entity](list-marketing-list-entity.md)   
- [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)   
+ [List (Marketing List) Table](list-marketing-list-table.md)   
+ [Marketing Tables (Campaign, List)](marketing-entities-campaign-list.md)   
  [Sample: Distribute Campaign Activities to Qualified Marketing List](sample-distribute-campaign-activities-qualified-marketing-list.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignRequest>   
