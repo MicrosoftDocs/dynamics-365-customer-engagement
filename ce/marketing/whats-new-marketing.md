@@ -110,14 +110,15 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 
 To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs and scenario docs:
 
-- [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Blogs for BDM](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
-- [Engage your customers faster with AI-powered marketing email content - Dynamics 365 Blogs for IT Pro](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+- [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Business Decision Maker Blogs](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+- [Engage your customers faster with AI-powered marketing email content - Dynamics 365 IT Pro Blogs](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
 - [’Tis the season for exceptional customer experiences - Microsoft Industry Blogs](https://cloudblogs.microsoft.com/industry-blog/retail/2022/12/01/tis-the-season-for-exceptional-customer-experiences/)
+- [Engage customers using highly personalized content—easily, efficiently, and at scale - Dynamics 365 Marketing Community Blogs](https://community.dynamics.com/365/marketing/b/dynamics-365-for-marketing-community-blogs/posts/engage-customers-using-highly-personalized-content-easily-efficiently-and-at-scale)
 - [Deploying Event Portal Changes in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
 - [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
 - [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 - [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
-- [Send a targeted email blast in real-time marketing - Scenario doc](/dynamics365/marketing/real-time-marketing-email-get-started)
+- [Send a targeted email blast in real-time marketing - Scenario docs](/dynamics365/marketing/real-time-marketing-email-get-started)
 
 ### November 2022 update
 
