@@ -266,16 +266,23 @@ To view the fields that determine the similar won deals at that point in time, s
 > ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")   
 
 
-## Predictive lead/opportunity scoring   
+## Predictive lead/opportunity scoring
 
 ### What do I need in order to use lead/opportunity scoring?​
 
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​   
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​  
 
-To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.    
-To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.    
+To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.  
+To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.  
 Verify that the leads and opportunities are created on or after January 01, in the previous year.
 
+### How frequently are the predictive scores updated?
+
+**Lead scores:** For new leads, the scoring happens in near real-time. The score will be displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed after every 24 hours.
+
+**Opportunity scores:** For new and updated opportunities, the scores are refreshed after every 24 hours.
+
+### Why are my 
 ### Can I customize the model?
 
 Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
