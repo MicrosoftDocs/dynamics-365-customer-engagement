@@ -58,7 +58,7 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 - **Extend your outreach with custom channels**
     - Extend real-time marketing using the communication channels you're familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/extend-outreach-custom-channels)
-    - [Docs](/dynamics365/marketing/real-time-marketing-create-custom-channels)
+    - [Docs](real-time-marketing-create-custom-channels.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a message using a custom channel.](media/whats-new-custom-channel.png "Screenshot of a message using a custom channel")
@@ -66,14 +66,14 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 - **Communicate dates and times in a variety of formats**
     - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale, and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
-    - [Docs](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text#communicate-dates-and-times-in-various-formats) 
+    - [Docs](real-time-marketing-predefined-dynamic-text.md#communicate-dates-and-times-in-various-formats)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a variety of date and time format.](media/whats-new-personalization-date-and-time-format.png "Screenshot of a variety of date and time format")
 
 - **Access even more data to personalize your customer outreach**
    - You're no longer limited to accessing Dataverse tables that are directly related to an Audience or Triggers. Now, you can access any Dataverse table to include information in your communications. For example, for a product launch email, you may want to include product information, image, and SKU number. Such details may be available in a Product table, which you can now use for personalization.
-   - [Docs](/dynamics365/marketing/real-time-marketing-predefined-dynamic-text#access-even-more-data-for-personalization)
+   - [Docs](real-time-marketing-predefined-dynamic-text.md#access-even-more-data-for-personalization)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of personalize your customer outreach.](media/whats-new-personalize-customer-outreach.png "Screenshot of Screenshot of personalize your customer outreach")
@@ -83,14 +83,14 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 - **Create lead capture forms that convert visitors to customers**
    - Now in real-time marketing, create modern website forms that capture your customers' attention while allowing them to enter their data. Use the drag-and-drop editor to create forms that collect marketing data, convert visitors into leads, and convert leads into paying customers. With the new form editor, you can create robust forms without relying on complex code and developers.
    - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-lead-capture-forms-that-convert-visitors-customers)
-   - [Docs](/dynamics365/marketing/real-time-marketing-form-editor)
+   - [Docs](real-time-marketing-form-editor.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of lead capture forms.](media/whats-new-lead-capture-forms.png "Screenshot of lead capture forms")
 
 - **Fine-tune email communications with filtered lists**
    - Including an entire list in an email is a common scenario. But there are times when it's more effective to only include items from a list that meet certain conditions. For example, in a confirmation email about an order, you may need to separately list items that are back ordered. Similarly, communication about a multi-session conference is easier to consume if the sessions are organized by topic or track. Now you can easily achieve these scenarios by simply adding a filter to your email list.
-   - [Docs](/dynamics365/marketing/real-time-marketing-personalize-lists#define-a-list-filter)
+   - [Docs](real-time-marketing-personalize-lists.md#define-a-list-filter)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of personalize lists.](media/whats-new-personalize-lists.png "Screenshot of personalize lists")
@@ -102,6 +102,9 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
    - Tailor your user experience by disabling create and edit functionality for journeys on mobile devices.
 - **Real-time segment builder**
    - Create segments using more attributes that are indirectly related to the Contact or Lead. For example, you can use attributes like the event sessions a Contact has checked into in a conference or webinar they attended. Use attributes from Dataverse tables that have up to five degrees of separation from the Contact or Lead table (up from three previously).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the real-time segment builder.](media/whats-new-five-hops.png "Screenshot of the real-time segment builder")
 
 #### New blogs and scenario docs
 
