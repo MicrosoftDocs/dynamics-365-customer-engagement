@@ -282,7 +282,11 @@ Verify that the leads and opportunities are created on or after January 01, in t
 
 **Opportunity scores:** For new and updated opportunities, the scores are refreshed after every 24 hours.
 
-### Why are my 
+### Why aren't my leads scored in real-time?
+
+Real-time scoring is supported only for new leads. Contact your administrator to verify whether the model that's scoring the new lead is created or edited after December 2022. More information: [Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)
+
+
 ### Can I customize the model?
 
 Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.

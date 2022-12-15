@@ -35,9 +35,12 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
 
 ## Real-time scoring
 
-The scoring happens in near real-time for new leads. The score will be displayed within five minutes of saving a new lead. Real-time scoring works only for new leads that are scored by models that were created or edited after <date>. So, if you don't see the score within five minutes of saving a new lead, contact your administrator to [edit and retrain](pls-edit-and-retrain-model.md) its scoring model.
+The scoring happens in near real-time for new leads. The score will be displayed within five minutes of saving a new lead. Real-time scoring works only for new leads that are scored by models that were created or edited after December 2022. So, if you don't see the score within five minutes of saving a new lead, contact your administrator to [edit and retrain](pls-edit-and-retrain-model.md) its scoring model.
 
 Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.
+
+> [!NOTE]
+> Business process flows are not taken into consideration for real-time scoring. So, if you have models that score leads purely based on business process flows, one of the models will be used to score the new lead.  
   
 ## Understand predictive lead scoring in views
 
