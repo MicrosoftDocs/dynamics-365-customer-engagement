@@ -11,9 +11,9 @@ ms.reviewer: nenellim
 
 # Verify migration of records
 
-After you import the unified routing-related configuration data successfully from the source to target organization, perform the following steps in the target organization:
+After you've successfully imported the configuration data related to unified routing from the source to target organization, do the following  in your target organization:
 
-1. In the UI, make sure that the unified routing configuration and rulesets are rendered properly and don't display errors.
+1. In your target organization, make sure that the unified routing configuration and rulesets are rendered properly as in the source organization.
 
 2. If skills and rating values are used in unified routing rulesets, then you need to manually link, associate, or create the users, bookable resources, and bookable resources characteristics records.
   
@@ -21,6 +21,7 @@ After you import the unified routing-related configuration data successfully fro
 
 > [!div class="nextstepaction"]
 > [Next step](export-import-config-data-for-records-troubleshoot.md)
+
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
