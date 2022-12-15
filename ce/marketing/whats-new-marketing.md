@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/15/2022
+ms.date: 12/09/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -136,7 +136,7 @@ The Dynamics 365 Marketing November 2022 update includes one preview feature and
 #### Preview feature
 
 - **Communicate dates and times in a variety of formats**
-    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale, and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
+    - When working in multiple geographies and languages, communicating dates and times clearly requires using a format that matches the recipient's expectations. To make sure your customers always receive the correct information, real-time marketing supports a variety of date and time formats. Whenever dynamic text is defined using a "datetime" type attribute, an additional set of options becomes available to select a date/time format that is readable and consistent with the locale (language and region) of the audience. If desired, you can also change the locale and time zone to match the audience. The Marketing app then automatically converts the stored date/time to the selected time zone.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/communicate-dates-times-variety-formats)
 
     > [!div class="mx-imgBorder"]
@@ -146,6 +146,15 @@ The Dynamics 365 Marketing November 2022 update includes one preview feature and
 
 - **Usability improvements in the personalization pane**
     - The personalization pane in the email editor provides one-stop access to personalization-related capabilities. Personalization placeholders are grouped according to their types. You can expand and collapse the groups to help with readability. Specific records are used to access additional personalization data such as event details, orders, or products. Specific records in use are identified at the top of the side pane and on the info card for each personalization placeholder that uses them. Conditions created by conditional content are also available on the pane (as “Element conditions”) for review and updating.
+
+#### New blogs and scenario docs
+
+To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs:
+- [5 steps for transforming customer experience with Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
+- [Engage your customers faster with AI-powered marketing email content](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
+- [Deploying Event Portal Changes in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/deploying-event-portal-changes-in-dynamics-marketing)
+- [Trigger a Plugin from Custom Trigger](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 
 ### October 2022 update
 
@@ -184,7 +193,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
     > ![Screenshot of editing a live journey.](media/whats-new-live-journey-edit.png "Screenshot of editing a live journey")
 
 - **Easily manage content across multiple brands in the email designer**
-    - Brand profiles allow you to manage different brands easily. Reduce content-related errors by defining default senders for emails and default social links. Extend your brand profile entity with custom values that you can use when creating content. Create multiple profiles for your organization and for each of your business units.
+    - Brand profiles allow you to manage different brands easily. Reduce content-related errors by defining default senders for emails and default social links. Extend your brand profile entity with custom values that you can use when creating content. Create multiple profiles for your organization as well as for each of your business units.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-consistent-content-brand-profiles)
     - [Docs](brand-profiles.md)
 
@@ -192,7 +201,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
     > ![Screenshot of brand profiles.](media/whats-new-brandprofile.png "Screenshot of brand profiles.")
 
 - **Test all paths customers take before publishing journeys**
-    - Testing custom triggers before using them in a journey is the safest way to ensure that your expectations meet the customer's reality. The test send feature gives you reassurance in the quality and behavior of your custom triggers before you send them to your audience. To test your custom triggers, you can run internal users through the journey to determine if your triggers work correctly, and validate the path that your customers will take.
+    - Testing custom triggers before using them in a journey is the safest way to ensure that your expectations meet the customer's reality. The test send feature gives you reassurance in the quality and behavior of your custom triggers before you send them to your audience. To test your custom triggers, you can run internal users through the journey to determine if your triggers work correctly and validate the path that your customers will take.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/test-every-path-customers-will-take-before-publish-journey)
     - [Docs](real-time-marketing-test-triggers.md)
 
@@ -200,7 +209,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
     > ![Screenshot of the test send confirmation.](media/real-time-marketing-test-send-confirmation.png "Screenshot of the test send confirmation")
 
 - **Increase customer engagement with QR codes in emails**
-    - Increase customer engagement and promote your business using QR codes for events or coupons. QR codes allow your customers to access marketing event information or dynamic links with just a single scan! QR codes work by simply scanning the code with a mobile device that is equipped with a camera and QR code reader application. Once the QR code is scanned, it's translated into actionable information such as a webpage or event check-in.
+    - Increase customer engagement and promote your business using QR codes for events or coupons. QR codes allow your customers to access marketing event information or dynamic links with just a single scan! QR codes work by simply scanning the code with a mobile device that is equipped with a camera and QR code reader application. Once the QR code is scanned, it is translated into actionable information such as a webpage or event check-in.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/increase-customer-engagement-qr-codes-emails)
     - [Docs](real-time-marketing-email.md#link-to-qr-codes)
 
@@ -218,7 +227,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 #### Preview features
 
 - **Extend your outreach with custom channels**
-    - Extend real-time marketing using the communication channels you're familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement.
+    - Extend real-time marketing using the communication channels you are familiar with to engage your customers in moments that matter. Use real-time marketing personalization, consent, and analytics tools to create compelling content and deliver it over your preferred communication channels such as a local SMS provider or WhatsApp. Capitalize on proven channels, plug any of them into your new or existing journeys, and unfold their true potential with Dynamics 365 Marketing to maximize customer engagement.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/extend-outreach-custom-channels)
     - [Docs](real-time-marketing-create-custom-channels.md)
 
@@ -234,7 +243,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
     > ![Screenshot of segment creation using natural language.](media/whats-new-nl-segment.png "Screenshot of segment creation using natural language")
 
 - **Create a static snapshot of segment membership**
-    - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment won't enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
+    - Static segment lists are an important part of audience management for marketers. Use static segments in one-off campaigns or newsletters where it’s essential to implement segment membership based on a specific date or time. Static segments ensure that new people that become eligible for the segment will not enter the one-off journey, even if it continues to be live. You can create static snapshots no matter how the segment is built (whether it uses query conditions or manual inclusions or exclusions). The flexibility in static segment creation separates how segments are defined from how you want to update or refresh segments.
     - [Release plan](/dynamics365-release-plan/2022wave2/marketing/dynamics365-marketing/create-static-snapshot-real-time-marketing-segment-membership)
     - [Docs](real-time-marketing-static-snapshot.md)
 
@@ -251,7 +260,7 @@ Monthly improvements include updates to personalization, segmentation, and text 
 #### Monthly enhancements
 
 - **Personalization**
-    - While conditional content can be used for selecting the right image in a lot of scenarios, there are times when it's more natural to use a dynamic URL that comes from a Contact or some other entity when the content designer doesn’t have the visibility into (or doesn’t want to be involved in) how images are selected. Personalization is now supported in image URL boxes in the email designer, allowing you to use dynamic URLs for images.
+    - While conditional content can be used for selecting the right image in a lot of scenarios, there are times when it is more natural to use a dynamic URL that comes from a Contact or some other entity when the content designer doesn’t have the visibility into (or doesn’t want to be involved in) how images are selected. Personalization is now supported in image URL boxes in the email designer, allowing you to use dynamic URLs for images.
 - **Segmentation**
     - **[Preview]** You no longer must rely on admins to select data tables to be synced into the Marketing app to get started with segmentation. In real-time marketing, instead of waiting for admins to add data tables under **Dataset Configurations** in the **Settings** area, you can add tables to be used for creating segments to the list in the building experience itself.
         - [Docs](real-time-marketing-sync-data-tables.md)
