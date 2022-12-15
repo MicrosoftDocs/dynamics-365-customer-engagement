@@ -108,7 +108,7 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 
 #### New blogs and scenario docs
 
-Learn about making the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+To learn more about making the most of the new Dynamics 365 Marketing features, check out our latest blogs and scenario docs:
 
 - [5 steps for transforming customer experience with Dynamics 365 - Dynamics 365 Business Decision Maker Blogs](https://cloudblogs.microsoft.com/dynamics365/bdm/2022/11/29/5-steps-for-transforming-customer-experience-with-dynamics-365-marketing-and-customer-insights-updates/)
 - [Engage your customers faster with AI-powered marketing email content - Dynamics 365 IT Pro Blogs](https://cloudblogs.microsoft.com/dynamics365/it/2022/11/30/engage-your-customers-faster-with-ai-powered-marketing-email-content/)
