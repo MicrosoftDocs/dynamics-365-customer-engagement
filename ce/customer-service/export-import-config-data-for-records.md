@@ -455,6 +455,7 @@ Before you migrate intake rules, check for the following:
 - If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
+**To migrate configuration of intake rules**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
