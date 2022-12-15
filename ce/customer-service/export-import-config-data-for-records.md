@@ -1,5 +1,5 @@
 ---
-title: "Migrate routing, capacity profiles, queues, intake rules, workstreams | MicrosoftDocs"
+title: "Migrate routing rulesets, capacity profiles, queues, intake rules, workstreams | MicrosoftDocs"
 description: "Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Omnichannel for Customer Service."
 ms.date: 12/15/2022
 ms.topic: article
@@ -10,7 +10,7 @@ ms.reviewer: nenellim
 ---
 
 
-# Migrate configuration for routing, capacity profiles, queues, intake rules, and workstreams
+# Migrate routing rulesets, capacity profiles, queues, intake rules, and workstreams
 
 This article discusses the procedures you must follow to export and import configuration data for:
 - skill-based routing rulesets
@@ -18,6 +18,8 @@ This article discusses the procedures you must follow to export and import confi
 - queues
 - intake rules
 - workstreams
+
+Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
 ## Migrate configuration for skill-based routing rulesets
 

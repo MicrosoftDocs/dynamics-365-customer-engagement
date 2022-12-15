@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Migrate configuration data for the record channel
+# Overview of data migration for records
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that're based on unified routing.
 
@@ -44,18 +44,19 @@ For information on how to use the Configuration Migration tool, see the followin
 
 ## Migrate configuration data for the record channel
 
-Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
+Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
+1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
 1. [Migrate skill-based routing](export-import-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
-2. [Migrate capacity profiles](export-import-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
-3. [Migrate record queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
-4. [Migrate intake rules for records](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
-5. [Migrate workstreams for records](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
-6. [Verify your data migration](export-import-config-data-for-records-verify.md)
-7. [Troubleshoot your data migration](export-import-config-data-for-records-troubleshoot.md)
+1. [Migrate capacity profiles](export-import-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
+1. [Migrate record queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
+1. [Migrate intake rules for records](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
+1. [Migrate workstreams for records](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+1. [Verify your data migration](export-import-config-data-for-records-verify.md)
+1. [Troubleshoot your data migration](export-import-config-data-for-records-troubleshoot.md)
 
 > [!IMPORTANT]
-> The migration of the following items is not in scope:
+> The migration process doesn't include:
 >
 > - Intelligent skill finder
 > - Effort estimation for routing
@@ -67,36 +68,9 @@ Perform the steps in the following order to successfully migrate your configurat
 > - Presence
 > - Queue membership
 
-## Generate FetchXML query using Advanced Find
-
-1. Use Advanced find to create a personal view. More information: [Create and manage personal views on grid page](/power-apps/user/grid-filters-advanced) or [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
-
-1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). 
-
-1. Select **Download FetchXML**.
-
-1. Edit the XML as follows:
-
-   1. Remove "output-format=xml-platform".
-
-   2. Remove all attribute elements.
-
-   3. Remove the order attribute element.
-
-1. Save and close.
-
-## Edit the FetchXML query in the configuration management tool CMT
-
-1. Open the Configuration Migration Tool and in the **Tools** menu, select **Configure Import Settings**.
-
-1. Select **Edit FetchXML**. 
-   :::image type="content" source="media/edit-fetchxml.png" alt-text="Screenshot of the Edit FetchXML button.":::
-
-1. Enter your FetchXML filter in the text box, and select **OK**.
-
 
 > [!div class="nextstepaction"]
-> [Next step](export-import-config-data-for-records.md)
+> [Next step](use-fetchxml-filter-records.md)
 
 ### See also
 
