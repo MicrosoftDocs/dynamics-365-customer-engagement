@@ -1,7 +1,7 @@
 ---
 title: "Migrate configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to migrate data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 12/15/2022
+ms.date: 12/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -42,17 +42,17 @@ For information on how to use the Configuration Migration tool, see the followin
   - Routing configuration step (msdyn_routingconfigurationstep)
   - Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)
 
-## Migrate data for the record channel
+## Migrate configuration data for the record channel
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. [Migrate skill-based routing configuration](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration)
-2. [Migrate capacity profiles configuration](export-import-config-data-for-records.md#migrate-capacity-profiles-configuration)
-3. [Migrate record queues configuration](export-import-config-data-for-records.md#migrate-record-queues-configuration)
-4. [Migrate intake rules configuration for records](export-import-config-data-for-records.md#migrate-intake-rules-configuration-for-records)
-5. [Migrate workstreams configuration for records](export-import-config-data-for-records.md#migrate-workstreams-configuration-for-records)
-6. [Verify your migration](export-import-config-data-for-records-verify.md)
-7. [Troubleshoot export and import of data](export-import-config-data-for-records-troubleshoot.md)
+1. [Migrate skill-based routing](export-import-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
+2. [Migrate capacity profiles](export-import-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
+3. [Migrate record queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
+4. [Migrate intake rules for records](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
+5. [Migrate workstreams for records](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+6. [Verify your data migration](export-import-config-data-for-records-verify.md)
+7. [Troubleshoot your data migration](export-import-config-data-for-records-troubleshoot.md)
 
 > [!IMPORTANT]
 > The migration of the following items is not in scope:
@@ -67,7 +67,7 @@ You must perform the steps in the order they're listed to migrate your configura
 > - Presence
 > - Queue membership
 
-### Generate FetchXML to filter records for exporting data
+### Generate FetchXML query to filter records for exporting data
 
 
 1. [Use Advanced find to create a custom view](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find).

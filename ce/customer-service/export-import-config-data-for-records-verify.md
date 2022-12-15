@@ -19,7 +19,8 @@ After you import the unified routing-related configuration data successfully fro
   
 3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable resources capacity profile records.
 
-
+> [!div class="nextstepaction"]
+> [Next step](export-import-config-data-for-records-troubleshoot.md)
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  

@@ -10,15 +10,20 @@ ms.reviewer: nenellim
 ---
 
 
-# Migrate routing rulesets, capacity profiles, queues, intake rules, and workstreams
+# Migrate configuration for routing, capacity profiles, queues, intake rules, and workstreams
 
-## Migrate skill-based routing configuration
+This article discusses the procedures you must follow to export and import configuration data for:
+- skill-based routing rulesets
+- capacity profiles
+- queues
+- intake rules
+- workstreams
+
+## Migrate configuration for skill-based routing rulesets
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
-**Sample schema**
-
-[Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml) to get all the required records.
+For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
@@ -26,7 +31,7 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
     - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
 
 	> [!IMPORTANT]
-    > You need to manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if required.
+    > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if required.
 
    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
    |---------|---------|---------|
@@ -41,15 +46,12 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 
 1. Use the Configuration Migration tool, and select the option to import data into the target organization using the compressed file.
 
-## Migrate capacity profiles configuration
+## Migrate configuration for capacity profiles
 
 If you have configured capacity profiles in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
-**Sample schema**
+For sample schema to get all the required records, see [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
 
-[Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml) to get all the required records.
-
-**To migrate the capacity profiles data**
 
 1. Use the Configuration Migration tool to create the schema and export data in source organization for capacity profiles configuration.
 
@@ -66,19 +68,13 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 4. Use the Configuration Migration tool, and select the option to import data into the target organization.
 
-## Migrate record queues configuration
+## Migrate configuration for record queues
 
-**Sample schema**
-
-[Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml) to get all the required records.
-
-
-**To migrate the record queues data**
+For sample schema to get all the required records, see [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml).
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
 
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
-    - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
     > [!NOTE]
     > If you are using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities that are listed in step 1.
@@ -452,28 +448,19 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-## Migrate intake rules configuration for records
+## Migrate configuration for intake rules for record routing
 
-**Sample schema**
+For sample schema to get all the required records, see [Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml).
 
-[Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml) to get all the required records.
-
-**To migrate the intake rules data for records**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
-   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate fetch xml query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate FetchXML query.
-
-     For illustration, the sample query is listed in the following table to get single or multiple records. The sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
-
-   - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
+   [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
 	> [!IMPORTANT]
 	>
 	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
-	> - If the target organization has intake rules for the record type with the same GUID, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+	> - If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
 
@@ -667,22 +654,14 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch>
 ```
 
-## Migrate workstreams configuration for records
+## Migrate configuration for record workstreams
 
-**Sample schema**
 
-[Sample schema for unified routing record workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20workstreams.xml) to get all the required records.
-
-**To migrate the record workstreams data**
+For sample schema to get all the required records, see [Sample schema for unified routing record workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20workstreams.xml).
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for record workstreams.
-
-    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
-    - **Use FetchXML to filter records**: For each entity, use the appropriate fetch xml query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query. 
-	
-	  For illustration, the sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
-    - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
+    
+    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)] 
     
 	> [!NOTE]
 	> Ensure that the workstreams that're referred in the intake rules exist in the target organization or are present as part of the current migration.
@@ -1102,6 +1081,10 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch>
 ```    
+
+
+> [!div class="nextstepaction"]
+> [Next step](export-import-config-data-for-records-verify.md)
 
 
 ### See also
