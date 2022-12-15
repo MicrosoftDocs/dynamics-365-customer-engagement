@@ -76,18 +76,16 @@ For sample schema to get all the required records, see [Sample schema for record
 
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
-    > [!NOTE]
-    > If you are using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities that are listed in step 1.
-    >
-    > - Decision rule set
-    > - Assignment configuration
-    > - Assignment configuration step
-    > 
-	> Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.
-    >
-	> `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
+If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
+- Decision rule set
+- Assignment configuration
+- Assignment configuration step
+ 
+Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.
+`<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
 
-    |S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+
+    |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
     | 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Option 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Option 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Option 3: Multiple queues for records**](#BKMK3multiple-ur-qs)   |
     | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Option 1: Decision contract for all record queues**](#BKMK1all-ur-dc) <br> <br>  [**Option 2: Decision contract for a single record queue**](#BKMK2single-ur-dc) <br> <br> [**Option 3: Decision contract for multiple record queues**](#BKMK3multiple-ur-dc) <br> |
@@ -99,7 +97,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 3. Export the data and generate the compressed (zip) file.
 
-4. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
+4. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target organizations, run the following OData API and note the GUID of `msdyn_decisioncontractid`.
 
@@ -115,12 +113,12 @@ For sample schema to get all the required records, see [Sample schema for record
 
 5. Package the extracted content again.
 
-6. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
+6. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 
 ### FetchXML for queues
 
-**Option 1: All queues for records**<a name="BKMK1all-ur-qs"></a>
+**Sample 1: All queues for records**<a name="BKMK1all-ur-qs"></a>
 
 ```XML
 <fetch> 
@@ -134,7 +132,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch>
 ```
 
-**Option 2: Single queue for records**<a name="BKMK2single-ur-qs"></a>
+**Sample 2: Single queue for records**<a name="BKMK2single-ur-qs"></a>
 
 ```XML
 <fetch> 
@@ -146,7 +144,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch>
 ```
 
-**Option 3: Multiple queues for records**<a name="BKMK3multiple-ur-qs"></a>
+**Sample 3: Multiple queues for records**<a name="BKMK3multiple-ur-qs"></a>
 
 ```XML
 <fetch> 
@@ -163,7 +161,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### FetchXML for decision contract entity
 
-**Option 1: Decision contract for all record queues**<a name="BKMK1all-ur-dc"></a>
+**Sample 1: Decision contract for all record queues**<a name="BKMK1all-ur-dc"></a>
 
 ```XML
 <fetch distinct="true">
@@ -204,7 +202,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch>  
 ```
 
-**Option 2: Decision contract for a single record queue**<a name="BKMK2single-ur-dc"></a>
+**Sample 2: Decision contract for a single record queue**<a name="BKMK2single-ur-dc"></a>
 
 ```XML
 <fetch distinct="true">
@@ -239,7 +237,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Option 3: Decision contract for multiple record queues**<a name="BKMK3multiple-ur-dc"></a>
+**Sample 3: Decision contract for multiple record queues**<a name="BKMK3multiple-ur-dc"></a>
 
 ```XML
 <fetch distinct="true">
@@ -285,7 +283,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### FetchXML for decision ruleset entity for queues
 
-**Option 1: Decision ruleset for all record queues**<a name="BKMK1all-ur-rls"></a>
+**Sample 1: Decision ruleset for all record queues**<a name="BKMK1all-ur-rls"></a>
 
 ```XML
 <fetch distinct="true">
@@ -305,7 +303,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch>
 ```
 
-**Option 2: Decision ruleset for a single record queue**<a name="BKMK2single-ur-rls"></a>
+**Sample 2: Decision ruleset for a single record queue**<a name="BKMK2single-ur-rls"></a>
 
 ```XML
 <fetch distinct="true">
@@ -323,7 +321,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Option 3: Decision ruleset for multiple record queues**<a name="BKMK3multiple-ur-rls"></a>
+**Sample 3: Decision ruleset for multiple record queues**<a name="BKMK3multiple-ur-rls"></a>
 
 ```XML
 <fetch distinct="true">
@@ -346,7 +344,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### FetchXML for assignment configuration entity
 
-**Option 1: Assignment configuration for all record queues**<a name="BKMK1all-ur-ac"></a>
+**Sample 1: Assignment configuration for all record queues**<a name="BKMK1all-ur-ac"></a>
 
 ```XML
 <fetch>
@@ -362,7 +360,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Option 2: Assignment configuration for a single record queue**<a name="BKMK2single-ur-ac"></a>
+**Sample 2: Assignment configuration for a single record queue**<a name="BKMK2single-ur-ac"></a>
 
 ```XML
 <fetch>
@@ -376,7 +374,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Option 3: Assignment configuration for multiple record queues**<a name="BKMK3multiple-ur-ac"></a>
+**Sample 3: Assignment configuration for multiple record queues**<a name="BKMK3multiple-ur-ac"></a>
 
 ```XML
 <fetch>
@@ -395,7 +393,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### FetchXML for assignment configuration step entity
 
-**Option 1: Assignment configuration step for all record queues**<a name="BKMK1all-ur-acs"></a>
+**Sample 1: Assignment configuration step for all record queues**<a name="BKMK1all-ur-acs"></a>
 
 ```XML
 <fetch>
@@ -413,7 +411,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Option 2: Assignment configuration step for a single record queue**<a name="BKMK2single-ur-acs"></a>
+**Sample 2: Assignment configuration step for a single record queue**<a name="BKMK2single-ur-acs"></a>
 
 ```XML
 <fetch>
@@ -429,7 +427,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Option 3: Assignment configuration step for multiple record queues**<a name="BKMK3multiple-ur-acs"></a>
+**Sample 3: Assignment configuration step for multiple record queues**<a name="BKMK3multiple-ur-acs"></a>
 
 ```XML
 <fetch>
@@ -496,7 +494,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 
 ### FetchXML for decision contract entity for intake rules
 
-**Option 1: Decision contract for all routed records**<a name="BKMK1dc-all-rr"></a>
+**Sample 1: Decision contract for all routed records**<a name="BKMK1dc-all-rr"></a>
 
 ```XML
 <fetch distinct="true">
@@ -518,7 +516,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 ```
 
 
-**Option 2: Decision contract for the incident entity**<a name="BKMK2dc-incident"></a>
+**Sample 2: Decision contract for the incident entity**<a name="BKMK2dc-incident"></a>
 
 ```XML
 <fetch distinct="true">
@@ -539,7 +537,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 </fetch>
 ```
 
-**Option 3: Decision Contract for the incident and task entities**<a name="BKMK3dc-incident-task"></a>
+**Sample 3: Decision Contract for the incident and task entities**<a name="BKMK3dc-incident-task"></a>
 
 ```XML
 <fetch distinct="true">
@@ -568,7 +566,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 
 ### FetchXML for decision ruleset entity for intake rules
 
-**Option 1: Decision ruleset for all routed records**<a name="BKMK1drl-all-rr"></a>
+**Sample 1: Decision ruleset for all routed records**<a name="BKMK1drl-all-rr"></a>
 
 ```XML
 <fetch distinct="true">
@@ -582,7 +580,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 </fetch> 
 ```
 
-**Option 2: Decision ruleset for the incident entity**<a name="BKMK2drl-incident"></a>
+**Sample 2: Decision ruleset for the incident entity**<a name="BKMK2drl-incident"></a>
 
 ```XML
 <fetch distinct="true">
@@ -596,7 +594,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 </fetch> 
 ```
 
-**Option 3: Decision ruleset for the incident and task entities**<a name="BKMK3drl-incident-task"></a>
+**Sample 3: Decision ruleset for the incident and task entities**<a name="BKMK3drl-incident-task"></a>
 
 ```XML
 <fetch distinct="true">
@@ -615,7 +613,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 
 ### FetchXML for entity routing configuration for intake rules
 
-**Option 1: Master entity routing configuration for a routed records**<a name="BKMK1mer-rr"></a> 
+**Sample 1: Master entity routing configuration for a routed records**<a name="BKMK1mer-rr"></a> 
 
 ```XML
 <fetch>
@@ -627,7 +625,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 </fetch> 
 ```
 
-**Option 2: Master entity routing configuration for the incident entity**<a name="BKMK2mer-incident"></a> 
+**Sample 2: Master entity routing configuration for the incident entity**<a name="BKMK2mer-incident"></a> 
 
 ```XML
 <fetch>
@@ -639,7 +637,7 @@ For sample schema to get all the required records, see [Sample schema for intake
 </fetch> 
 ```
 
-**Option 3: Master entity routing configuration for the incident and task entities**<a name="BKMK3mer-incident-task"></a>
+**Sample 3: Master entity routing configuration for the incident and task entities**<a name="BKMK3mer-incident-task"></a>
 
 ```XML
 <fetch>
@@ -707,7 +705,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 
 ### FetchXML for workstream entity
 
-**Option 1: All record workstreams**<a name="BKMK1all-ur-ws"></a>
+**Sample 1: All record workstreams**<a name="BKMK1all-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -719,7 +717,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 2: Single record workstream**<a name="BKMK2single-ur-ws"></a>
+**Sample 2: Single record workstream**<a name="BKMK2single-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -730,7 +728,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 3: Multiple record workstreams**<a name="BKMK3multiple-ur-ws"></a>
+**Sample 3: Multiple record workstreams**<a name="BKMK3multiple-ur-ws"></a>
 
 ```XML
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
@@ -747,7 +745,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 
 ### FetchXML for decision contract entity
 
-**Option 1: Decision contract for all record workstreams**<a name="BKMK1dc-ur-ws"></a>
+**Sample 1: Decision contract for all record workstreams**<a name="BKMK1dc-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -783,7 +781,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 2: Decision contract for a single record workstream of type = incident**<a name="BKMK2dc-ur-ws"></a>
+**Sample 2: Decision contract for a single record workstream of type = incident**<a name="BKMK2dc-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -817,7 +815,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch>
 ```
-**Option 3: Decision contract for multiple record workstreams of type = incident and type = task**<a name="BKMK3dc-ur-ws"></a>
+**Sample 3: Decision contract for multiple record workstreams of type = incident and type = task**<a name="BKMK3dc-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -865,7 +863,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 ```
 ### FetchXML for decision ruleset entity
 
-**Option 1: Decision ruleset for all record workstreams**<a name="BKMK1drl-ur-ws"></a>
+**Sample 1: Decision ruleset for all record workstreams**<a name="BKMK1drl-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -888,7 +886,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 2: Decision ruleset for a single record workstream of type = incident**<a name="BKMK2drl-ur-ws"></a>
+**Sample 2: Decision ruleset for a single record workstream of type = incident**<a name="BKMK2drl-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -910,7 +908,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch>
 ```
-**Option 3: Decision ruleset for multiple record workstreams type = incident and type = task**<a name="BKMK3drl-ur-ws"></a>
+**Sample 3: Decision ruleset for multiple record workstreams type = incident and type = task**<a name="BKMK3drl-ur-ws"></a>
 
 ```XML
 <fetch distinct="true">
@@ -940,7 +938,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 ```
 ### FetchXML for routing configuration entity
 
-**Option 1: Routing configuration for all record workstreams**<a name="BKMK1rc-ur-ws"></a>
+**Sample 1: Routing configuration for all record workstreams**<a name="BKMK1rc-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -954,7 +952,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 2: Routing configuration for a single record workstream**<a name="BKMK2rc-ur-ws"></a>
+**Sample 2: Routing configuration for a single record workstream**<a name="BKMK2rc-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -967,7 +965,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 3: Routing configuration for multiple record workstreams**<a name="BKMK3rc-ur-ws"></a>
+**Sample 3: Routing configuration for multiple record workstreams**<a name="BKMK3rc-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -986,7 +984,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 
 ### FetchXML for routing configuration step entity
 
-**Option 1: Routing configuration step for all record workstreams**<a name="BKMK1rs-ur-ws"></a>
+**Sample 1: Routing configuration step for all record workstreams**<a name="BKMK1rs-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -1002,7 +1000,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 2: Routing configuration step for a single record workstream**<a name="BKMK2rs-ur-ws"></a>
+**Sample 2: Routing configuration step for a single record workstream**<a name="BKMK2rs-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -1017,7 +1015,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 3: Routing configuration step for multiple record workstreams**<a name="BKMK3rs-ur-ws"></a>
+**Sample 3: Routing configuration step for multiple record workstreams**<a name="BKMK3rs-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -1038,7 +1036,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 
 ### FetchXML for workstream capacity profile entity
 
-**Option 1: Workstream capacity profile for all record workstreams**<a name="BKMK1cp-ur-ws"></a>
+**Sample 1: Workstream capacity profile for all record workstreams**<a name="BKMK1cp-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -1052,7 +1050,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 2: Workstream capacity profile for a single record workstream**<a name="BKMK2cp-ur-ws"></a>
+**Sample 2: Workstream capacity profile for a single record workstream**<a name="BKMK2cp-ur-ws"></a>
 
 ```XML
 <fetch>
@@ -1065,7 +1063,7 @@ For sample schema to get all the required records, see [Sample schema for unifie
 	</entity>
 </fetch> 
 ```
-**Option 3: Workstream capacity profile for multiple record workstreams**<a name="BKMK3cp-ur-ws"></a>
+**Sample 3: Workstream capacity profile for multiple record workstreams**<a name="BKMK3cp-ur-ws"></a>
 
 ```XML
 <fetch>
