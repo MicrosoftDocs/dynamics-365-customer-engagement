@@ -1,6 +1,6 @@
 ---
-title: "Migrate configuration data for records based on unified routing | MicrosoftDocs"
-description: "Learn to migrate data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
+title: "Overview of data migration for records | MicrosoftDocs"
+description: "This article provides an overview of data migration in the records channel in Omnichannel for Customer Service."
 ms.date: 12/16/2022
 ms.topic: article
 author: neeranelli

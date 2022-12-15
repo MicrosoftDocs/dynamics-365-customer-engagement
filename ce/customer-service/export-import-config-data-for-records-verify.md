@@ -1,5 +1,5 @@
 ---
-title: "Verify migration of configuration data for records | MicrosoftDocs"
+title: "Verify migration of records | MicrosoftDocs"
 description: "Learn to verify your migration of data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
 ms.date: 12/15/2022
 ms.topic: article
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Verify migration of configuration data for the record channel
+# Verify migration of records
 
 After you import the unified routing-related configuration data successfully from the source to target organization, perform the following steps in the target organization:
 
