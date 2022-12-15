@@ -69,7 +69,7 @@ Perform the steps in the following order to successfully migrate your configurat
 
 ## Generate FetchXML query using Advanced Find
 
-1. Use Advanced find to create a personal view. More information: [Create and manage personal views on grid page](power-apps/user/grid-filters-advanced) or [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
+1. Use Advanced find to create a personal view. More information: [Create and manage personal views on grid page](/power-apps/user/grid-filters-advanced) or [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
 
 1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). 
 
