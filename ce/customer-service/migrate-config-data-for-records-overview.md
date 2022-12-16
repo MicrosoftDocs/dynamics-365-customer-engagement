@@ -1,9 +1,10 @@
 ---
-title: "Overview of data migration for records | MicrosoftDocs"
-description: "This article provides an overview of data migration in the records channel in Omnichannel for Customer Service."
+title: Overview of data migration for records | MicrosoftDocs
+description: This article provides an overview of data migration in the records channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
+ms.service: dynamics-365
 ms.topic: overview
 ms.date: 12/15/2022
 ms.custom: bap-template
@@ -49,13 +50,13 @@ Check for the following before you migrate your configuration data:
 Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
 1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
-1. [Migrate skill-based routing rulesets](export-import-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
-1. [Migrate capacity profiles](export-import-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
-1. [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
-1. [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
-1. [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
-1. [Verify your data migration](export-import-config-data-for-records-verify.md)
-1. [Troubleshoot your data migration](export-import-config-data-for-records-troubleshoot.md)
+1. [Migrate skill-based routing rulesets](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
+1. [Migrate capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
+1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)
+1. [Migrate intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
+1. [Migrate workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+1. [Verify your data migration](migrate-config-data-for-records-verify.md)
+1. [Troubleshoot your data migration](migrate-config-data-for-records-troubleshoot.md)
 
 > [!IMPORTANT]
 > The migration process doesn't include:
@@ -71,10 +72,10 @@ Perform the steps in the following order to successfully migrate your configurat
 > - Queue membership
 
 
- ## Next steps
+## Next steps
 
 [Use FetchXML query to filter records](use-fetchxml-filter-records.md)  
-[Migrate configuration data for records](migrate-config-data-for-records.md)
+
 
 ### See also
 

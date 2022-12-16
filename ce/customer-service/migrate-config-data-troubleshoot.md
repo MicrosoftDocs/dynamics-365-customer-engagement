@@ -22,9 +22,9 @@ If you see a difference in the migrated records between the source and target or
     - For workstreams, revert the entities in the reverse order of their serial number&ndash;Workstream capacity profile, Routing configuration step, Routing configuration, Decision ruleset, Decision contract, and Workstream. More information: [Migrate configuration for record workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
     
     Now repeat the migration process starting with queues, intake rules, and workstreams as follows:
-    - [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
-    - [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
-    - [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+    1. [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
+    2. [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
+    3. [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
 
 ### See also
 

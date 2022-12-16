@@ -17,7 +17,7 @@ This article discusses how to download the FetchXL query and edit it in the conf
 
 1. Use the **ADVANCED FIND** menu to create a personal view. More information: [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
 
-1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). 
+1. Select one or multiple records of the entity to export. More information: [Share a personal view](/power-apps/user/advanced-find#share-a-personal-view). 
 
 1. Select **Download FetchXML**.
 
@@ -42,7 +42,8 @@ This article discusses how to download the FetchXL query and edit it in the conf
 
 
 ## Next steps
-(migrate-config-data-for-records.md)
+
+[Migrate configuration data for records](migrate-config-data-for-records.md)  
 
 ### See also
 

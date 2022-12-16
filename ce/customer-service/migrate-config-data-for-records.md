@@ -12,13 +12,13 @@ ms.custom: bap-template
 
 # Migrate configuration data for records
 
-This article discusses the procedures you must follow to migrate configuration data for:
+This article discusses the migration procedures that you must use to migrate configuration data in the following order:
 
-- skill-based routing rulesets
-- capacity profiles
-- queues
-- intake rules
-- workstreams
+1. skill-based routing rulesets
+1. capacity profiles
+1. queues
+1. intake rules
+1. workstreams
 
 Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
@@ -449,13 +449,15 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ## Migrate configuration for intake rules for record routing
 
+### Prerequisites
+
 Before you migrate intake rules, check for the following:
 
 - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 - If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
-**To migrate configuration of intake rules**
+### Migrate configuration of intake rules
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
@@ -1081,8 +1083,9 @@ For sample schema to get all the required records, see [Sample schema for unifie
 ```    
 
 
-> [!div class="nextstepaction"]
-> [Next step](migrate-config-data-verify.md)
+## Next steps
+
+[Verify migration of records](migrate-config-data-verify.md)
 
 
 ### See also
