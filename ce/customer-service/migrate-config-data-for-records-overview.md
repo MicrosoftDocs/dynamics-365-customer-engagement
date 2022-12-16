@@ -55,8 +55,8 @@ Perform the steps in the following order to successfully migrate your configurat
 1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)
 1. [Migrate intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
 1. [Migrate workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams)
-1. [Verify your data migration](migrate-config-data-for-records-verify.md)
-1. [Troubleshoot your data migration](migrate-config-data-for-records-troubleshoot.md)
+1. [Verify your data migration](migrate-config-data-verify.md)
+1. [Troubleshoot your data migration](migrate-config-data-troubleshoot.md)
 
 > [!IMPORTANT]
 > The migration process doesn't include:
