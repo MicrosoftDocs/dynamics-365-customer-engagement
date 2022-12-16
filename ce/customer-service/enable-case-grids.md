@@ -43,7 +43,7 @@ To make the **Enhanced Active Cases** view accessible to agents, you must enable
 1. On the left pane on the **Default Solution** page, select **Tables**, and then select **Case**.
 1. Select **Switch to classic**.
 1. On the **Case** page, in the **Controls** section, select **Add Control**.
-1. In the **Add Control** dialog, select **Power Apps grid control**> **Add**.
+1. In the **Add Control** dialog, select **Power Apps grid control** > **Add**.
 1. On the **Controls** tab, do the following:
 
     1. In the **Controls** section, for **Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
