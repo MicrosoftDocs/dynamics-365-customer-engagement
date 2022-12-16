@@ -1,21 +1,21 @@
 ---
 title: "Use FetchXML query to filter records | MicrosoftDocs"
 description: "This article discusses how to download the FetchXML query and edit it in the configuration management tool."
-ms.date: 12/16/2022
-ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
+ms.topic: how-to
+ms.date: 12/15/2022
+ms.custom: bap-template
 ---
 
 # Use FetchXML query to filter records
 
 This article discusses how to download the FetchXL query and edit it in the configuration management tool.
 
-## Generate FetchXML query using Advanced Find
+## Generate FetchXML query
 
-1. Use Advanced find to create a personal view. More information: [Create and manage personal views on grid page](/power-apps/user/grid-filters-advanced) or [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
+1. Use the **ADVANCED FIND** menu to create a personal view. More information: [Create, edit, or save a view using legacy advanced find](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find)
 
 1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). 
 
@@ -41,10 +41,11 @@ This article discusses how to download the FetchXL query and edit it in the conf
 1. Enter your FetchXML query in the text box, and select **OK**.
 
 
-> [!div class="nextstepaction"]
-> [Next step](export-import-config-data-for-records.md)
+## Next steps
+(migrate-config-data-for-records.md)
 
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
-[Export and import configuration for live chat](export-import-config-data-for-live-chat.md)  
+[Migrate configuration data for live chat](migrate-config-data-for-live-chat.md)  
+[Migrate configuration data for voice channel](migrate-config-data-for-voice-channel.md)   
