@@ -345,6 +345,8 @@
           href: manage-snapshots-forecast.md
         - name: Configure advanced settings
           href: forecast-configure-advanced-settings.md
+        - name: Customize column headers
+          href: fc-customize-column-headers.md
         - name: Activate and upload simple columns data
           href: activate-upload-simple-columns-data-forecast.md
         - name: Select a default forecast
