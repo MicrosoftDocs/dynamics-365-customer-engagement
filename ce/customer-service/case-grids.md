@@ -68,7 +68,7 @@ To create a copy of the **Enhanced Active Cases** view and customize it to add a
 
 You can also add columns to your existing views. For example, if you want to add **Last Interaction** or any of the other new key data columns, perform the following steps:
 
-1. In the Customer Service workspace site map, open a new tab and then select **Cases**.
+1. In the Customer Service workspace site map, open a new tab, and then select **Cases**.
 
 1.	From the dropdown list, select any of the existing views.
 1.	Select **Column Options**.
