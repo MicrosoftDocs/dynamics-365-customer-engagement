@@ -118,7 +118,7 @@ After you create the code component, the `ColumnHeader` folder is created in the
     > 
     > :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::  
 
-    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Ensure that the resource file name uses the following naming convention:  
+    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Make sure that the resource file name uses the following naming convention:  
         
     ```
     filename.languagecode.resx  
