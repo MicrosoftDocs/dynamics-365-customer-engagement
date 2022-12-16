@@ -61,7 +61,7 @@ To create a copy of the **Enhanced Active Cases** view and customize it to add a
 1. Select **Column Options**.
 1. In the **Edit columns** dialog, select **Add columns**. The Add columns dialog appears.
 1. In the **Add columns** dialog, within **Case**, search for the column that you want to add.
-1. Select the column and then select **Close**. The new column that you have just added appears in the **Edit columns** dialog.
+1. Select the column, and then select **Close**. The new column that you have just added appears in the **Edit columns** dialog.
 1. Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.
 
 ### Make changes to existing case grid views
@@ -74,8 +74,8 @@ You can also add columns to your existing views. For example, if you want to add
 1.	Select **Column Options**.
 1.	In the **Edit columns** dialog, select **Add columns**. The **Add columns** dialog appears.
 1.	In the **Add columns** dialog, within Case, select **Custom** from the dropdown list. 
-1.	Select **Last Interaction** and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
-1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up** and then select **Apply**.
+1.	Select **Last Interaction**, and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
+1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.
 
 ### See also
 
