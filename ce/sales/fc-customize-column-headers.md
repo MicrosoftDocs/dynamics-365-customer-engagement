@@ -150,7 +150,7 @@ Next, we'll modify the manifest file to specify the property that we're overridi
 
 ### Implement the component logic  
 
-Let's add the code to implement the component logic inside the ```index.ts``` file.
+Let's add the code to implement the component logic in the ```index.ts``` file.
 
 1. Open the ```index.ts``` file.
 1. Add the following lines in the `updateView` method:
