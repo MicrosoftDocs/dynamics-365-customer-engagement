@@ -52,7 +52,7 @@ Depending on the information that you want to view, you can choose to add column
 
 To create a copy of the **Enhanced Active Cases** view and customize it to add a new column:
 
-1. In the Customer Service workspace site map, open a new tab and then select **Cases**.
+1. In the Customer Service workspace site map, open a new tab, and then select **Cases**.
 
 1. From the dropdown list, select **Enhanced Active Cases** .
 1. Select **Switch to classic**.
