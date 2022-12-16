@@ -212,7 +212,7 @@
       href: known-issues.md
     - name: What's new archive
       href: whats-new-marketing-archive.md
-  - name: "Real-time marketing"
+  - name: Real-time marketing
     items: 
     - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
@@ -352,15 +352,7 @@
         href: add-ons.md
     - name: Developer
       items: 
-      - name: Push notification setup for application developers
-        href: real-time-marketing-developer-push.md
-      - name: Receiving notifications and creating interactions
-        href: real-time-marketing-developer-notifications.md
-      - name: Reference guide for real-time marketing interactions
-        href: real-time-marketing-interactions-reference.md
-      - name: Use binding IDs to correlate across triggers
-        href: real-time-marketing-correlate-triggers.md
-      - name: "Manually add a custom channel"
+      - name: Manually add a custom channel
         items:
         - name: Overview
           href: real-time-marketing-extend-outreach-custom-channels.md
@@ -378,6 +370,14 @@
           href: real-time-marketing-custom-channel-custom-API.md
         - name: 7. Define your channel definition 
           href: real-time-marketing-define-channel-definition.md
+      - name: Push notification setup for application developers
+        href: real-time-marketing-developer-push.md
+      - name: Receive notifications and create interactions
+        href: real-time-marketing-developer-notifications.md
+      - name: Reference guide for real-time marketing interactions
+        href: real-time-marketing-interactions-reference.md
+      - name: Use binding IDs to correlate across triggers
+        href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing
