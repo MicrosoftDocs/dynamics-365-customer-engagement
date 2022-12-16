@@ -31,6 +31,8 @@ search.app:
 > - All phone number and email fields must be marked as required and phone number field validation must be enabled in the form editor.
 > - The commercial communication consent purpose isn't linked to the *Do not bulk email* attribute of the Contact.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5dqbE]
+
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.
 
 Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of an entity in Dynamics 365 Marketing.
