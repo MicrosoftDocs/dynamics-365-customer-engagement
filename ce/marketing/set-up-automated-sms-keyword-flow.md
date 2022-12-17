@@ -1,6 +1,6 @@
 ---
-title: "Set up an automated text message keyword flow in customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to set up an automated text message keyword flow in customer journeys in Dynamics 365 Marketing."
+title: "Set up an automated text message keyword flow (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to set up an automated text message keyword flow in real-time journeys in Dynamics 365 Marketing."
 ms.date: 06/16/2022
 ms.custom: 
   - dyn365-marketing
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Set up an automated text message keyword flow in customer journeys
+# Set up an automated text message keyword flow
 
 To branch your journeys based on your customers’ replies:
 
