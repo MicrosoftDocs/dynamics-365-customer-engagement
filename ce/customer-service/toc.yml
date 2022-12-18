@@ -1255,13 +1255,13 @@
       - name: Migrate configuration data for records
         href: migrate-config-data-for-records.md        
       - name: Verify migration of records
-        href: migrate-config-data-for-records-verify.md
+        href: migrate-config-data-verify.md
       - name: Troubleshoot migration of records  
-        href: migrate-config-data-for-records-troubleshoot.md
+        href: migrate-config-data-troubleshoot.md
     - name: Migrate configuration data for live chat
       href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
-      href: migrate-config-data-for-voice.md
+      href: migrate-config-data-for-voice-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs

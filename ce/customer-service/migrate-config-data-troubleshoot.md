@@ -13,7 +13,6 @@ ms.custom: bap-template
 
 [!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
-
 ## Revert unmanaged records during migration
 
 If you see a difference in the migrated records between the source and target organizations, then you must revert the entity records and then repeat the migration process. Revert the entity records for queues, intake rules, and workstreams as follows:
