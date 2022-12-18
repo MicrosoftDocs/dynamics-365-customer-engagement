@@ -6,13 +6,13 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/15/2022
+ms.date: 12/19/2022
 ms.custom: bap-template
 ---
 
 # Use FetchXML query to filter records
 
-This article discusses how to download the FetchXL query and edit it in the configuration management tool.
+This article discusses how to download the FetchXL query and edit it in the Configuration Management Tool.
 
 ## Generate FetchXML query
 
@@ -49,5 +49,8 @@ This article discusses how to download the FetchXL query and edit it in the conf
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
+[Overview of data migration for records](migrate-config-data-for-records-overview.md)  
+[Verify migration of records](migrate-config-data-verify.md)  
+[Troubleshoot migration of records](migrate-config-data-troubleshoot.md)  
 [Migrate configuration data for live chat](migrate-config-data-for-live-chat.md)  
 [Migrate configuration data for voice channel](migrate-config-data-for-voice-channel.md)   

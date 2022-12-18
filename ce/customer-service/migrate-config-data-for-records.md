@@ -5,14 +5,14 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 12/15/2022
+ms.date: 12/19/2022
 ms.custom: bap-template
 ---
 
 
 # Migrate configuration data for records
 
-This article discusses the migration procedures that you must use to migrate configuration data in the following order:
+This article includes procedures for migrating configuration data for records. You must perform migration procedures in the following order:
 
 1. skill-based routing rulesets
 1. capacity profiles
@@ -20,7 +20,7 @@ This article discusses the migration procedures that you must use to migrate con
 1. intake rules
 1. workstreams
 
-Use the information in the tables and refer to the corresponding sample schemas for each configuration.
+The procedures include tables with entity information and corresponding sample schemas for each configuration.
 
 ## Migrate configuration for skill-based routing rulesets
 
@@ -1085,11 +1085,14 @@ For sample schema to get all the required records, see [Sample schema for unifie
 
 ## Next steps
 
-[Verify migration of records](migrate-config-data-verify.md)
+[Verify migration of records](migrate-config-data-verify.md)  
 
 
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
+[Overview of data migration for records](migrate-config-data-for-records-overview.md)  
+[Use FetchXML query to filter records](use-fetchxml-filter-records.md)  
+[Troubleshoot migration of records](migrate-config-data-troubleshoot.md)  
 [Migrate configuration data for live chat](migrate-config-data-for-live-chat.md)  
 [Migrate configuration data for voice channel](migrate-config-data-for-voice-channel.md)    

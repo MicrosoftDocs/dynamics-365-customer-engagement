@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: troubleshooting
-ms.date: 12/15/2022
+ms.date: 12/19/2022
 ms.custom: bap-template
 ---
 
@@ -21,13 +21,18 @@ If you see a difference in the migrated records between the source and target or
     - For intake rules, revert the entities in the reverse order of their serial number&ndash;Master Entity Routing Configuration, Decision ruleset, and Decision contract. More information: [Migrate configuration for intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
     - For workstreams, revert the entities in the reverse order of their serial number&ndash;Workstream capacity profile, Routing configuration step, Routing configuration, Decision ruleset, Decision contract, and Workstream. More information: [Migrate configuration for record workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
     
-    Now repeat the migration process starting with queues, intake rules, and workstreams as follows:
-    1. [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)
-    2. [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
-    3. [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+## Next steps
+
+1. [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)  
+2. [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)  
+3. [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)  
 
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
+[Overview of data migration for records](migrate-config-data-for-records-overview.md)  
+[Use FetchXML query to filter records](use-fetchxml-filter-records.md)  
+[Migrate configuration data for records](migrate-config-data-for-records.md)  
+[Verify migration of records](migrate-config-data-verify.md)  
 [Migrate configuration data for live chat](migrate-config-data-for-live-chat.md)  
 [Migrate configuration data for voice channel](migrate-config-data-for-voice-channel.md)   
