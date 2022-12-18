@@ -23,9 +23,9 @@ If you see a difference in the migrated records between the source and target or
     
 ## Next steps
 
-1. [Migrate queues](export-import-config-data-for-records.md#migrate-configuration-for-record-queues)  
-2. [Migrate intake rules](export-import-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)  
-3. [Migrate workstreams](export-import-config-data-for-records.md#migrate-configuration-for-record-workstreams)  
+1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)  
+2. [Migrate intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)  
+3. [Migrate workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams)  
 
 ### See also
 
