@@ -11,13 +11,7 @@ ms.custom: bap-template
 
 # Verify migration of records
 
-After you've successfully imported the configuration data related to unified routing from the source to target organization, do the following  in your target organization:
-
-1. In your target organization, ensure that the unified routing configuration and rulesets are rendered properly as in the source organization.
-
-2. If skills and rating values are used in unified routing rulesets, then you need to manually link, associate, or create the users, bookable resources, and bookable resources characteristics records.
-  
-3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable resources capacity profile records.
+[!INCLUDE[ur-migration verify](../includes/cc-ur-migration-verify.md)]
 
 ## Next steps 
 
