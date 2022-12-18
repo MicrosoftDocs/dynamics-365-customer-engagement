@@ -1252,7 +1252,7 @@
         href: migrate-config-data-for-records-overview.md
       - name: Use FetchXML query to filter records
         href: use-fetchxml-filter-records.md        
-      - name: Migrate routing rulesets, capacity profiles, queues, intake rules, and workstreams
+      - name: Migrate configuration data for records
         href: migrate-config-data-for-records.md        
       - name: Verify migration of records
         href: migrate-config-data-for-records-verify.md
