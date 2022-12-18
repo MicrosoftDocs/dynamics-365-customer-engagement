@@ -238,8 +238,12 @@
           href: brand-profiles-email.md
       - name: "Preview: Real-time marketing forms"
         href: real-time-marketing-form-editor.md
-      - name: Outbound text messages
-        href: real-time-marketing-outbound-text-messaging.md
+      - name: Text messages
+        items:
+        - name: Outbound text messages
+          href: real-time-marketing-outbound-text-messaging.md
+        - name: Set up an automated text message keyword flow
+          href: set-up-automated-sms-keyword-flow.md
       - name: Push notifications
         href: real-time-marketing-push-notifications.md
       - name: Create custom channels
@@ -290,16 +294,14 @@
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
-        - name: Personalize journey variations using multiple journey branches
-          href: real-time-marketing-multiple-branches.md
         - name: Edit a live journey
           href: real-time-marketing-edit-journey.md
+        - name: Personalize journey variations using multiple journey branches
+          href: real-time-marketing-multiple-branches.md
         - name: Personalize triggers using conditions
           href: real-time-marketing-personalize-triggers.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated text message keyword flow in customer journeys
-          href: set-up-automated-sms-keyword-flow.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
