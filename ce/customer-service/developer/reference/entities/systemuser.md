@@ -6,6 +6,7 @@ ms.service: "dynamics-365"
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -3296,6 +3297,5 @@ See systemuser Table [lk_systemuser_createdonbehalfby](systemuser.md#BKMK_lk_sys
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.systemuser?text=systemuser EntityType" />
