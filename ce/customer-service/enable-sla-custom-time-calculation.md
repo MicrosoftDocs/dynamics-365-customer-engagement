@@ -51,10 +51,10 @@ To enable your own custom time calculation, define an API interface that has a f
 
 1. [Write the plug-in](/powerapps/developer/data-platform/write-plug-in).
 
-    For more information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
+    For information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
 1. Go to the Plug-in registration tool and register the plug-in that you created with your organization, to link it to the custom action created in step 3. 
 
-    For more information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
+    For information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
 
     :::image type="content" source="media/register-plug-in.png" alt-text="Register and link the plug-in":::
 
@@ -64,6 +64,8 @@ To enable your own custom time calculation, define an API interface that has a f
     1. Select **Save and Close**.
 
 1. On the SLA form, select **Activate**, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
+
+    For information on how to apply SLAs, go to [Apply SLAs](apply-slas.md#apply-slas)
 
 1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA will also export the custom action workflow process. Next, include the SDK message in the solution, which will export the plug-in you created earlier.
 
