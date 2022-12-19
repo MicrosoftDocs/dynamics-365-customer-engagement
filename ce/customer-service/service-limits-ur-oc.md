@@ -22,7 +22,7 @@ This article describes the service limits, quotas, and other specifications that
 
 ## Service limits
 
-| Measure       | Description   |Channel or sub-measure   |  Default (maximum) limit |   Adjustable limit  |
+| Measure       | Description   |Channel or sub-measure   |  Default limit |   Adjustable? |
 |------------   | -----------   | --------------          |----------      | -----------                    |
 | Bulk user provisioning  | Number of users that can be added (using role attachment) in a single update |  | 500 per 15 minutes<sup>1</sup> |  Yes   |
 | Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, amd queue membership that can be edited in a single bulk update   |   | 25 users<sup>1</sup>  | Yes   |
@@ -45,7 +45,7 @@ This article describes the service limits, quotas, and other specifications that
  
 ## Configuration limits
 
-| Measure       | Description   | Channel or sub-measure   |  Default limit  |   Maximum or adjustable limit  |
+| Measure       | Description   | Channel or sub-measure   |  Default limit  |   Adjustable?  |
 |------------ | -----------| -------------- |----------| -----------|
 | Intake rules  | Maximum number of intake rules | Record | 100 | No |
 | Route-to-queue rules | Maximum number of route-to-queue rulesets and rules    | Rules | 100 |  Yes  |  
@@ -55,7 +55,7 @@ This article describes the service limits, quotas, and other specifications that
 
 ## Conversation limits
 
-| Measure          | Description   |Channel or sub-measure   |  Default limit |   Maximum or adjustable limit  |
+| Measure          | Description   |Channel or sub-measure   |  Default limit |   Adjustable?  |
 |------------      | -----------   | --------------  |----------   | -----------   |
 | Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   | Any messaging channel  |  Approximately 28 KB   | No   |
 | Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital message + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25 per minute<sup>1</sup> <br><br><br><br> 7 per minute<br> 20 per minute<br>25 per minute<sup>2</sup><br> 20 per minute<sup>3</sup><br> | Yes <br><br><br><br> Yes <br>    |
@@ -67,7 +67,8 @@ This article describes the service limits, quotas, and other specifications that
 
 <sup>3</sup>These are recommended limits beyond which system reliability and performance may reduce. For any change in these recommended limits, we recommend reaching out to Microsoft Support for additional guidance.
 
-
+> [!NOTE]
+> For application limits for channels with third-party integrations like SMS integration via Twilio or TeleSign, see the third-party’s documentation.
 ## Next steps
 
 
