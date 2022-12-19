@@ -24485,6 +24485,16 @@
       "source_path": "ce/customer-service/export-import-config-data-for-records.md",
       "redirect_url": "migrate-config-data-for-records",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-live-chat.md",
+      "redirect_url": "migrate-config-data-for-live-chat",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-voice.md",
+      "redirect_url": "migrate-config-data-for-voice-channel",
+      "redirect_document_id": "false"
     }
   ]
 }
