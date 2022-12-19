@@ -170,9 +170,11 @@ To use the suggest-as-you-type option, your administrator must first enable it. 
 
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
-The favorites option will be available in the app side pane, 
+The favorites option will be available in the app side pane, independent knowledge base search, smart assist, and the reference pane.
 
+In Customer Service workspace or Omnichannel for Customer Service, when you select a favorite article, the article opens up in an app tab.​ In Customer Service Hub, you can also open your favorite articles in the pop-out mode and Knowledge Search option in the Knowledge area.
 
+The maximum number of articles that can be marked as favorite is 50. You can sort the favorite articles list by date and time. You can see the latest published articles in the list.
 
 ## View knowledge articles
 
