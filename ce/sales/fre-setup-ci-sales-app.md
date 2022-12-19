@@ -106,7 +106,7 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
 9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
-    - To mask credit card numbers in the transcript, select **Hide personal data (preview)**. This option ensures that the credit card information in all future calls will be masked.  
+    - To mask credit card numbers in the transcript, select **Hide personal data (preview)**. This option ensures that the credit card information in all future calls are masked.  
       > [!NOTE]
       > Preview features are rolled in out
 
