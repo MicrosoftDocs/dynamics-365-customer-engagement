@@ -118,7 +118,7 @@ After you create the code component, the `ColumnHeader` folder is created in the
     > 
     > :::image type="content" source="media/forecast-column-names.png" alt-text="A screenshot of the column names in the **Layout** step of the forecast configuration":::  
 
-    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Ensure that the resource file name uses the following naming convention:  
+    If you want to translate the column name into additional languages, create a resource file for each language that you want to translate into. Make sure that the resource file name uses the following naming convention:  
         
     ```
     filename.languagecode.resx  
@@ -150,7 +150,7 @@ Next, we'll modify the manifest file to specify the property that we're overridi
 
 ### Implement the component logic  
 
-Let's add the code to implement the component logic inside the ```index.ts``` file.
+Let's add the code to implement the component logic in the ```index.ts``` file.
 
 1. Open the ```index.ts``` file.
 1. Add the following lines in the `updateView` method:
