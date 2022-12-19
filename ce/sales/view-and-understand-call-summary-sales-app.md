@@ -188,15 +188,19 @@ The following image is an example of a **Highlights** tab.
 
 ### Call transcript and translation
 
-The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. The following image shows an example of a **Transcript** tab.    
+The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. 
+
+The following image shows an example of a **Transcript** tab.    
 > [!div class="mx-imgBorder"]
 > ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")   
-- As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.   
-- As a seller, you can review the transcript and comments that have been posted by your manager or coach.    
-You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.  A comment icon is also added to the corresponding time in the timeline.
-> [!div class="mx-imgBorder"]
-> ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")   
-The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
+- As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.
+- As a seller, you can review the transcript and comments that have been posted by your manager or coach. You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.  A comment icon is also added to the corresponding time in the timeline.
+    > [!div class="mx-imgBorder"]
+    > ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")
+
+- Credit card mentions are masked to comply with Payment Card Industry (PCI) regulations. The details are masked only for calls that were recorded after the **Hide personal data (preview)** setting was enabled by your administrator.
+
+- The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
 ### Call playback timeline and segmentation   
