@@ -68,7 +68,7 @@ This article describes the service limits, quotas, and other specifications that
 <sup>3</sup>These are recommended limits beyond which system reliability and performance may reduce. For any change in these recommended limits, we recommend reaching out to Microsoft Support for additional guidance.
 
 > [!NOTE]
-> For application limits for channels with third-party integrations like SMS integration via Twilio or TeleSign, see the third-party’s documentation.
+> For application limits for channels with third-party integrations like SMS integration via Twilio or TeleSign, see the third-party documentation.
 ## Next steps
 
 
