@@ -17,7 +17,7 @@ This article describes the service limits, quotas, and other specifications that
 > [!NOTE]
 > - All measures are at an organizational level for all paid organizations, unless specified otherwise. 
 > - All default limits are maximum limits beyond which configuration won't be allowed, and conversations will be restricted or limited, unless specified otherwise.
-> - If service limits are indicated as adjustable, contact Microsoft Support if you'd like to change the limits. 
+> - If the service, configuration, or conversation limits are indicated as adjustable, contact Microsoft Support if you'd like to change the limits. 
 
 
 ## Service limits
