@@ -36,6 +36,8 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
+    - name: Service limits for unified routing and omnichannel implementations
+      href: service-limits-ur-oc.md      
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -913,9 +915,7 @@
     - name: Configure outbound messages
       href: outbound-messaging.md
     - name: Configure data masking
-      href: data-masking-settings.md
-    - name: Service limits for unified routing and omnichannel implementations
-      href: service-limits-ur-oc.md  
+      href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
     - name: Administrator experience

@@ -25,11 +25,11 @@ This article describes the service limits, quotas, and other specifications that
 | Measure       | Description   |Channel or sub-measure   |  Default limit |   Maximum or adjustable limit  |
 |------------   | -----------   | --------------          |----------      | -----------                    |
 | Bulk user provisioning  | Number of users who can be added (via. role attachment) in a single update |  | 500 per 15 minutes<sup>1</sup> |  Yes   |
-| Bulk user updates  |  Number of users whose attributes – skills, capacity profiles, queue membership can be edited in a single bulk update   |   | 25<sup>1</sup>  | Yes   |
+| Bulk user updates  |  Number of users whose attributes – skills, capacity profiles, queue membership can be edited in a single bulk update   |   | 25 users<sup>1</sup>  | Yes   |
 | Bulk user calendar or schedule updates  | Number of users, whose calendars can be updated in a bulk  | | 500 per 15 minutes<sup>1</sup>   | Yes   |
 | Dataverse Storage Entitlement (aggregated at tenant level)  |  Dataverse storage entitlement based on license.  <br> Includes SQL/DB, file and log storage in Microsoft Dataverse. <br><br>More information: Microsoft Dynamics 365 Licensing Guide for more details.  | Base storage per tenant<br><br>Additional storage per Customer Service license <br><br>Additional file storage for Voice add-in<br><br> | 32 GB per tenant<sup>2</sup><br><br>2.25 GB per user<sup>3</sup><br><br> 35 GB per user<sup>4</sup><br>  | Additional Dataverse storage can be purchased     |
 | Time for configuration updates to take effect (includes classification and assignment settings, and updates to agent skills, capacity profile, and calendar)  | Maximum time for configuration changes to reflect in the user experience |  All | 15 minutes  |    No  |
-| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | All   | 100<sup>5</sup>   |  Yes  |
+| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | All   | 100 conversations or work items<sup>5</sup>   |  Yes  |
 |   |   |   |   |    |
 
 <sup>1</sup> These are recommended limits beyond which system reliability and performance may reduce. For any change in these recommended limits, we recommend reaching out to Microsoft Support for additional guidance.
@@ -58,7 +58,7 @@ This article describes the service limits, quotas, and other specifications that
 | Measure          | Description   |Channel or sub-measure   |  Default limit |   Maximum or adjustable limit  |
 |------------      | -----------   | --------------  |----------   | -----------   |
 | Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links).   | Any messaging channel  |  Approximately 28 KB   | No   |
-| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br><br>Maximum rate of incoming conversations per minute by channel <br> | Voice + Live chat + Digital message + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25<sup>1</sup> per minute <br><br><br><br> 7 per minute<br> 20 per minute<br>25<sup>2</sup><br> 20<sup>3</sup><br> <br>  | Yes <br><br><br><br> Yes <br>    |
+| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital message + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25 per minute<sup>1</sup> <br><br><br><br> 7 per minute<br> 20 per minute<br>25 per minute<sup>2</sup><br> 20 per minute<sup>3</sup><br> | Yes <br><br><br><br> Yes <br>    |
 |   |   |   |   |    |
 
 <sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25th item, irrespective of channel, can reduce the quality of service.
