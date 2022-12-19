@@ -1,7 +1,5 @@
 - name: "About Entity Reference"
   href: ../about-entity-reference.md
-- name: Account
-  href: account.md
 - name: ACIViewMapper
   href: aciviewmapper.md
 - name: ActionCard
@@ -54,38 +52,24 @@
   href: bulkdeletefailure.md
 - name: BulkDeleteOperation
   href: bulkdeleteoperation.md
-- name: BulkOperation
-  href: bulkoperation.md
-- name: BulkOperationLog
-  href: bulkoperationlog.md
 - name: BusinessUnit
   href: businessunit.md
 - name: BusinessUnitNewsArticle
   href: businessunitnewsarticle.md
 - name: Calendar
   href: calendar.md
-- name: Campaign
-  href: campaign.md
-- name: CampaignActivity
-  href: campaignactivity.md
-- name: CampaignResponse
-  href: campaignresponse.md
 - name: Category
   href: category.md
 - name: Characteristic
   href: characteristic.md
 - name: ColumnMapping
   href: columnmapping.md
-- name: Competitor
-  href: competitor.md
 - name: Connection
   href: connection.md
 - name: ConnectionRole
   href: connectionrole.md
 - name: ConstraintBasedGroup
   href: constraintbasedgroup.md
-- name: Contact
-  href: contact.md
 - name: Contract
   href: contract.md
 - name: ContractDetail
@@ -104,10 +88,6 @@
   href: dataperformance.md
 - name: Dependency
   href: dependency.md
-- name: Discount
-  href: discount.md
-- name: DiscountType
-  href: discounttype.md
 - name: DisplayString
   href: displaystring.md
 - name: DocumentTemplate
@@ -122,8 +102,6 @@
   href: dynamicproperty.md
 - name: DynamicPropertyAssociation
   href: dynamicpropertyassociation.md
-- name: DynamicPropertyInstance
-  href: dynamicpropertyinstance.md
 - name: DynamicPropertyOptionSetItem
   href: dynamicpropertyoptionsetitem.md
 - name: Email
@@ -158,10 +136,6 @@
   href: fieldsecurityprofile.md
 - name: FixedMonthlyFiscalCalendar
   href: fixedmonthlyfiscalcalendar.md
-- name: Goal
-  href: goal.md
-- name: GoalRollupQuery
-  href: goalrollupquery.md
 - name: Import
   href: import.md
 - name: ImportEntityMapping
@@ -182,10 +156,6 @@
   href: interactionforemail.md
 - name: InvalidDependency
   href: invaliddependency.md
-- name: Invoice
-  href: invoice.md
-- name: InvoiceDetail
-  href: invoicedetail.md
 - name: KbArticle
   href: kbarticle.md
 - name: KbArticleComment
@@ -202,16 +172,8 @@
   href: knowledgebaserecord.md
 - name: LanguageLocale
   href: languagelocale.md
-- name: Lead
-  href: lead.md
-- name: LeadAddress
-  href: leadaddress.md
-- name: LeadToOpportunitySalesProcess
-  href: leadtoopportunitysalesprocess.md
 - name: Letter
   href: letter.md
-- name: List
-  href: list.md
 - name: LookUpMapping
   href: lookupmapping.md
 - name: Mailbox
@@ -220,8 +182,6 @@
   href: mailboxtrackingfolder.md
 - name: MailMergeTemplate
   href: mailmergetemplate.md
-- name: Metric
-  href: metric.md
 - name: MobileOfflineProfile
   href: mobileofflineprofile.md
 - name: MobileOfflineProfileItem
@@ -256,16 +216,6 @@
   href: newprocess.md
 - name: OfficeGraphDocument
   href: officegraphdocument.md
-- name: Opportunity
-  href: opportunity.md
-- name: OpportunityClose
-  href: opportunityclose.md
-- name: OpportunityProduct
-  href: opportunityproduct.md
-- name: OpportunitySalesProcess
-  href: opportunitysalesprocess.md
-- name: OrderClose
-  href: orderclose.md
 - name: Organization
   href: organization.md
 - name: OwnerMapping
@@ -296,8 +246,6 @@
   href: postfollow.md
 - name: PostLike
   href: postlike.md
-- name: PriceLevel
-  href: pricelevel.md
 - name: PrincipalObjectAttributeAccess
   href: principalobjectattributeaccess.md
 - name: Privilege
@@ -308,14 +256,6 @@
   href: processstage.md
 - name: ProcessTrigger
   href: processtrigger.md
-- name: Product
-  href: product.md
-- name: ProductAssociation
-  href: productassociation.md
-- name: ProductPriceLevel
-  href: productpricelevel.md
-- name: ProductSubstitute
-  href: productsubstitute.md
 - name: Publisher
   href: publisher.md
 - name: PublisherAddress
@@ -326,12 +266,6 @@
   href: queue.md
 - name: QueueItem
   href: queueitem.md
-- name: Quote
-  href: quote.md
-- name: QuoteClose
-  href: quoteclose.md
-- name: QuoteDetail
-  href: quotedetail.md
 - name: RatingModel
   href: ratingmodel.md
 - name: RatingValue
@@ -354,16 +288,6 @@
   href: resourcespec.md
 - name: Role
   href: role.md
-- name: RollupField
-  href: rollupfield.md
-- name: SalesLiterature
-  href: salesliterature.md
-- name: SalesLiteratureItem
-  href: salesliteratureitem.md
-- name: SalesOrder
-  href: salesorder.md
-- name: SalesOrderDetail
-  href: salesorderdetail.md
 - name: SavedQuery
   href: savedquery.md
 - name: SavedQueryVisualization
@@ -444,10 +368,6 @@
   href: transformationparametermapping.md
 - name: TranslationProcess
   href: translationprocess.md
-- name: UoM
-  href: uom.md
-- name: UoMSchedule
-  href: uomschedule.md
 - name: UserForm
   href: userform.md
 - name: UserMapping

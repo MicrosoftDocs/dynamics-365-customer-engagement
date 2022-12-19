@@ -29,19 +29,8 @@ search.audienceType:
 
 You use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
   
-## In This Section  
- [Competitor Entity](competitor-entity.md)  
-  
- [Lead Entity](lead-entity.md)  
-  
- [Opportunity Entities](opportunity-entities.md)  
-  
- [Quote, Order and Invoice Entities](quote-order-invoice-entities.md)  
-  
-## Related Sections  
- [Model Your Business Data](model-business-data.md)  
-  
- [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)
+>[!NOTE]
+>The developer concepts and operations related to sales entities (lead, opportunity, competitor, quote, order, invoice) in Dynamics 365 Customer Engagement (on-premises) are similar to Dynamics 365 Sales. For extensibility information about these entities, see [Developer Guide for Dynamics 365 Sales](/dynamics365/sales/developer/developer-guide).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,67 +60,14 @@ A product catalog is a collection of products with their pricing information. Th
 |                       `UoM (Unit)`                        |                                                                                                                                                                       A *unit* is a measurement that specifies in what quantity a product will be sold. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [UoM Entity](entities/uom.md)                                                                                                                                                                        |
 |                `UoMSchedule (Unit Group)`                 |                                                                                                                            A *unit group* contains one to many types of unit of measurement, as calculated from a base unit. A product is tied to a unit group in which it is sold. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [UoMSchedule Entity](entities/uomschedule.md)                                                                                                                            |
   
- These videos describe how products are administered and used in [!INCLUDE[pn_crm_2015_and_online_full](../includes/pn-crm-2015-and-online-full.md)]:  
+>[!NOTE]
+>The developer concepts and operations related to product catalog entities in Dynamics 365 Customer Engagement (on-premises) are similar to Dynamics 365 Sales. For extensibility information about these entities, see [Developer Guide for Dynamics 365 Sales](/dynamics365/sales/developer/developer-guide).
+
+These videos describe how products are administered and used in [!INCLUDE[pn_crm_2015_and_online_full](../includes/pn-crm-2015-and-online-full.md)]:  
   
 -   [Video: Product Taxonomy Administration in Microsoft Dynamic CRM 2015](https://youtu.be/OnjdSUjulVw)  
   
 -   [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://youtu.be/MptViq7tf_s)  
   
-## In This Section  
- [Manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)  
-  
- [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)  
-  
- [Manage Product Pricing](product-pricing-methods.md)  
-  
- [Use custom pricing for products](use-custom-pricing-products.md)  
-  
- [Set default price level for opportunity, quote, order, invoice](set-default-price-level-for-opportunity-quote-order-invoice.md)  
-  
- [Product discounting methods](product-discounting-methods.md)  
-  
- [Localize product property values](localize-product-property-values.md)  
-  
- [Product Entity](entities/product.md)  
-  
- [ProductSubstitute Entity](entities/productsubstitute.md)  
-  
- [ProductAssociation Entity](entities/productassociation.md)  
-  
- [DynamicPropertyInstance Entity](entities/dynamicpropertyinstance.md)  
-  
- [PriceLevel Entity](entities/pricelevel.md)  
-  
- [ProductPriceLevel Entity](entities/productpricelevel.md)  
-  
- [Discount Entity](entities/discount.md)  
-  
- [DiscountType Entity](entities/discounttype.md)  
-  
- [UoM Entity](entities/uom.md)  
-  
- [UoMSchedule Entity](entities/uomschedule.md)  
-  
- [Sample: Create and publish products](sample-create-publish-products.md)  
-  
- [Sample: Clone product records](sample-clone-product-records.md)  
-  
- [Sample: Add products to a bundle](sample-add-products-bundle.md)  
-  
- [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)  
-  
-## Related Sections  
-
- [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
-  
- [Opportunity Entities](opportunity-entities.md)  
-  
- [Quote, order, and invoice entities](quote-order-invoice-entities.md)  
-  
-### See also
-
- [Video: Product Taxonomy Administration in Microsoft Dynamic CRM 2015](https://youtu.be/OnjdSUjulVw)   
- [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://youtu.be/MptViq7tf_s)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
