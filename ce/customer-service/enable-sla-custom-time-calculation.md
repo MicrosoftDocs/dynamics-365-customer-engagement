@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 12/08/2022
+ms.date: 12/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,13 +20,13 @@ ms.custom:
 
 # Enable custom time calculation of SLA KPIs
 
-This topic describes how you can override the default time calculation.
+This article describes how you can override the default time calculation.
 
 Time calculation in service-level agreements (SLAs) calculates the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs), taking into consideration input parameters, such as `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service schedule and the holiday schedule associated with the SLA item.
 
-In addition to warning and failure time, the elapsed time is also calculated if there is a pause and resume scenario configured for the SLA. To ignore the working hours spent during the paused state of the SLA KPI, the elapsed time gets added to the final failure time.
+In addition to warning and failure time, the elapsed time is also calculated if there's a pause and resume scenario configured for the SLA. To ignore the working hours spent during the paused state of the SLA KPI, the elapsed time gets added to the final failure time.
 
-To change the default time calculation and enable your own custom time calculation, you can define an API interface that has a fixed set of input and output parameters and add a custom logic to calculate the time.
+To enable your own custom time calculation, define an API interface that has a fixed set of input and output parameters, and add a custom logic to calculate the time.
 
 > [!NOTE]
 > Custom time calculation is only supported as part of plug-in and not any other entity, for example, custom workflow.
@@ -49,17 +49,23 @@ To change the default time calculation and enable your own custom time calculati
 
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
-1. Write the plug-in. For more information on how to write a plug-in, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). For more information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
-1. Go to the Plug-in registration tool and register the plug-in that you just created with your organization to link it to the custom action created in step 2. For more information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
+1. Write the plug-in by using the Power Platform Tools for Visual Studio.
+
+    For more information on how to write a plug-in, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). For more information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
+1. Go to the Plug-in registration tool and register the plug-in that you created with your organization, to link it to the custom action created in step 3. 
+
+    For more information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
 
     :::image type="content" source="media/register-plug-in.png" alt-text="Register and link the plug-in":::
 
-1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation.
-1. Edit the relevant SLA item. In the **General** section, set the **Allow Custom Time Calculation** toggle to **Yes**.
-1. From the **Custom Time Calculation API** field, select the custom action you created in step 2, and then select **Save**.
-1. Activate your SLA, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
+1. In Customer Service admin center, add or edit the previously created custom action with the SLA Item:
+    1. Set the **Allow Custom Time Calculation** toggle to **Yes**.
+    1. In the **Custom Time Calculation Process** field, select the custom action created in step 3.
+    1. Select **Save and Close**.
 
-1. If you need to export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
+1. Select **Activate**, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
+
+1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA will also export the custom action workflow process. Next, include the SDK message in the solution, which will export the plug-in you created earlier.
 
 ## Scenarios and plug-ins
 
@@ -193,7 +199,7 @@ private string CalculateWarningAndFailureTime(string regardingId, string calenda
 
 Scenario 2:
 
-If there is a pause or resume scenario, the following calculations are to be made:
+If there's a pause or resume scenario, the following calculations are to be made:
 
 - Calculation of `elapsedTime` between paused and resumed states.
 For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType will be `getElapsedTime` and other attributes can be fetched as defined in the plug-in code example.
@@ -234,7 +240,7 @@ private double CalculateElapsedTime(string regardingId, string calendarId, strin
 ```
 
 ### FAQ
-For answers to frequently asked questions about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
+For more information about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
 ### See also
 
