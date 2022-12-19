@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/28/2022
+ms.date: 12/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -91,7 +91,7 @@ Type a keyword in the search field to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms) 
 
-## Use the reference pane to search knowledge articles in Customer Service Hub
+## Use the reference pane in Customer Service Hub
 
 In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the reference pane, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
 
@@ -127,7 +127,7 @@ In the knowledge base search control, you can do the following:
 - Email a knowledge article
 - View the knowledge article inline in the search control
 
-## Use the app side pane to search knowledge articles in Customer Service workspace and Omnichannel for Customer Service
+## Use the app side pane in Customer Service workspace and Omnichannel for Customer Service
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select the **Knowledge search** tab on the app side pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on Dataverse and full-text search mechanisms.
 
@@ -150,12 +150,12 @@ In addition to the above information, in Omnichannel for Customer Service, you c
 
 These actions can be performed for only published or expired articles.
 
-## Use smart assist to search for knowledge articles
+## Use smart assist
 Smart assist provides real-time knowledge article suggestions depending on the ongoing conversations with your customer. The smart assist option appears on the app side pane of Customer Service workspace only.
 
 In Customer Service workspace, select the **Smart assist** option on the app side pane to see knowledge article suggestions related to your case.
 
-## Use the suggest-as-you-type option to search for knowledge articles
+## Use the suggest-as-you-type option
 
 The suggest-as-you-type option provides you with suggestions on the most relevant knowledge articles as you type keywords into the Search box, thereby increasing your productivity with better discoverability of articles.
 
@@ -165,6 +165,14 @@ To use the suggest-as-you-type option, your administrator must first enable it. 
 
 
 :::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot shows use of the suggest-as-you-type option":::
+
+## Use favorites (preview)
+
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+
+The favorites option will be available in the app side pane, 
+
+
 
 ## View knowledge articles
 
