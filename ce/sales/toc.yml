@@ -1024,6 +1024,8 @@
           href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
     - name: Table reference
       items:
+        - name: About table/entity reference
+          href: /power-apps/developer/data-platform/reference/about-entity-reference?context=/dynamics365/context/sales-context
         - name: Account
           href: developer/entities/account.md
         - name: BulkOperation
