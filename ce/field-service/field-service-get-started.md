@@ -1,7 +1,7 @@
 ---
 title: "Get started with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to get started with Dynamics 365 Field Service
-ms.date: 10/04/2021
+ms.date: 11/30/2022
 ms.reviewer: mhart
 
 applies_to:
@@ -18,15 +18,13 @@ search.app:
 
 # Get started with Dynamics 365 Field Service
 
-After you have [installed Dynamics 365 Field Service](install-field-service.md) and have [assigned Field Service licenses to your users](view-user-accounts-security-roles.md) who need to use the app, you can start adding your frontline workers and scheduling work orders. The best way to do this is to use the new **Getting Started** page, as seen in the following screenshot.
+After [installing Dynamics 365 Field Service](install-field-service.md), [assign licenses to your users](view-user-accounts-security-roles.md). Then, add frontline workers and start scheduling work orders. Take a look at the **Getting Started** page, which contains shortcuts to all relevant tasks.
 
 ![Field Service Get Started page in Dynamics 365.](media/get-started-page-fieldservice.png)
 
-![Field Service Get Started page, scrolled down.](media/get-started-lower-fieldservice.png)
-
 In the **Learn about Field Service** section, there are four cards with videos and links to documentation to help quickly learn about new features and capabilities in the current release. And for users new to Field Service, you'll also see key app functionality. With each release, we'll highlight new functionality in this **Getting Started** section, so be sure to check back regularly!
 
-In the **Get up and running** section, there are a set of actions and tutorial videos that guide you through important Field Service processes, like: 
+In the **Get up and running** section, there are a set of actions and tutorial videos that guide you through important Field Service processes, like:
 
 - Creating frontline workers (sometimes called technicians)
 - Adding customers
@@ -43,22 +41,21 @@ Finally, at the end of the **Getting Started** page, there are links to helpful 
 
 ## Prerequisites
 
-- The Field Service **Getting Started** page is available with the 2021 Wave 2 release.
 - Either **System Administrator** or **Field Service - Administrator** privileges to see and use the **Getting Started** page.
 
 ## Set up your frontline workers
 
-First, you must set up your frontline workers. This person is someone in your company who completes work orders. 
+First, you must set up your frontline workers. Frontline workers are individuals who complete work orders on-site.
 
 From the **Getting Started** page, select the **Set Up** option.
 
 ![Field Service getting started page, showing the set up option.](media/get-started-setup-fieldservice.png)
 
-In the form, enter required information. Recommended values are prepopulated; don't change these values unless necessary.
+Enter the required information. Recommended values are automatically filled in; don't change these values unless necessary.
 
 ![Field Service Getting Started page, showing the quick set up form for frontline work orders.](media/get-started-fieldservice-quickcreate.png)
 
-You can also send an email to the frontline worker, so that they can download the mobile app on their device. For more information about sending emails to frontline workers, see this article: [Send frontline workers an email with a link to download Dynamics 365 Field Service mobile app](frontline-worker-set-up-email-approval.md).
+You can also email a link to a frontline worker to get the mobile app. For more information, see: [Send frontline workers an email with a link to download Dynamics 365 Field Service mobile app](frontline-worker-set-up-email-approval.md).
 
 ## Create your accounts
 
@@ -113,4 +110,4 @@ You'll see reports under **Analytics and Insights**.
 
 ![Field Service analytics and insights.](media/get-started-analytics.png)
 
-Congratulations! You have successfully completed the core scenario in Field Service.
+Congratulations! You've successfully completed the core scenario in Field Service.
