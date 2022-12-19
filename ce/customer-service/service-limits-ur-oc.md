@@ -15,14 +15,14 @@ ms.custom: bap-template
 This article describes the service limits, quotas, and other specifications that apply to unified routing and omnichannel implementations. This article outlines the default limits, including those that can be adjusted for Dynamics 365 Customer Service&nbsp;Digital Messaging and Voice Add-in, Digital Messaging Add-in, and Voice Add-in. 
 
 > [!NOTE]
-> All measures are at an organizational level for all paid organizations, unless specified otherwise. 
-> All limits are hard limits, beyond which configuration won't be allowed, and conversations will be restricted or limited, unless specified otherwise.
-> If service limits are adjustable, contact Microsoft Support to increase the limits. 
+> - All measures are at an organizational level for all paid organizations, unless specified otherwise. 
+> - All default limits are maximum limits, beyond which configuration won't be allowed, and conversations will be restricted or limited, unless specified otherwise.
+> - If service limits are indicated as adjustable, contact Microsoft Support to increase the limits. 
 
 
 ## Service limits
 
-| Measure       | Description   |Channel or sub-measure   |  Default limit |   Maximum or adjustable limit  |
+| Measure       | Description   |Channel or sub-measure   |  Default (maximum) limit |   Adjustable limit  |
 |------------   | -----------   | --------------          |----------      | -----------                    |
 | Bulk user provisioning  | Number of users that can be added (using role attachment) in a single update |  | 500 per 15 minutes<sup>1</sup> |  Yes   |
 | Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, amd queue membership that can be edited in a single bulk update   |   | 25 users<sup>1</sup>  | Yes   |
