@@ -20,13 +20,13 @@ With Integrated search provider, you can configure external data sourcesprovider
 
 ## Add integrated search providers
 
-1.	In the Customer Service admin center site map, select Knowledge in Agent experience. The Knowledge page appears.
+1. In the Customer Service admin center site map, select Knowledge in Agent experience. The Knowledge page appears.
 2.	In the Integrated search providers section, select Manage.
 3.	Select New.
 4.	On the Add an integrated search provider page, do the following:
-a.	In the Provider info section, enter the following information:
-•	Search provider name: Enter the name of the search provider.
-•	Description: Enter the description of the search provider. 
+    1.	In the Provider info section, enter the following information:
+        1. Search provider name: Enter the name of the search provider.
+        1. Description: Enter the description of the search provider.
 The Data source and Owner are auto filled.
 •	Select the authorization check box.
 •	Select Next.
