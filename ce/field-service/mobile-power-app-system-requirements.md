@@ -44,10 +44,10 @@ Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windo
 
 ### Android
 
-|   |OS Version |CPU Benchmark Score| RAM | Storage**|
+|   |OS Version |CPU Benchmark Score | RAM | Storage** |
 | --- | --- |--- | --- || --- |
-| Minimum |	9 or later |	400+ |4 GB|	64 GB	| 
-| Recommended| 10 or later |	900+	| 8 GB | 64+ GB	| 
+| Minimum |	9 or later | 400+ | 4 GB| 64 GB	| 
+| Recommended | 10 or later | 900+	| 8 GB | 64+ GB	| 
 
 
 ### Windows
