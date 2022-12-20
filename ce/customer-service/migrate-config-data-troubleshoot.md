@@ -35,7 +35,7 @@ In the target organization, perform the following steps:
     1. Decision contract
     1. Workstream 
     
-      For intake rules, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing. Migrate the entities in this order:
+      For intake rules, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing). Migrate the entities in this order:
       1. Master Entity Routing Configuration
       1. Decision ruleset
       1. Decision contract

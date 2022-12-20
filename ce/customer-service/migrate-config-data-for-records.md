@@ -31,7 +31,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
     - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
+    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
 
 	> [!IMPORTANT]
     > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if necessary.
@@ -453,7 +453,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 Before you migrate intake rules, check for the following:
 
-- If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+- If the target organization doesn't have the intake rules for the record type that you want to import, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 - If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
 - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
 
@@ -481,17 +481,17 @@ Before you migrate intake rules, check for the following:
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`:
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 4. Package the extracted content again.
 
-5. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
+5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 For sample schema to get all the required records, see [Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml).
 
@@ -685,19 +685,19 @@ For sample schema to get all the required records, see [Sample schema for intake
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
    
    - In the source and target organizations, run the following OData API call and note the `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_demandqueueidentificationoutput'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 5. Package the extracted content again.
 

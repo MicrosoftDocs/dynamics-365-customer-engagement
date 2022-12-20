@@ -1,6 +1,6 @@
-To troubleshoot any issues that you might face during migration, do the following:
+To troubleshoot any issues that you might face during migration, check the log files as follows:
 
-- During the import of the data in the target organization, if you see yellow warning symbols, we recommend that you verify the following logs in the Configuration Migration tool:
+- When you import data into the target organization, if you see yellow warning symbols, then check the following logs in the Configuration Migration tool:
 
     - **Login_ErrorLog.log**: Provides information about any issues you had when you signed in to the organization using the Configuration Management tool.
     - **DataMigrationUtility.log**: Provides information about the tasks performed using the tool during the last migration.
