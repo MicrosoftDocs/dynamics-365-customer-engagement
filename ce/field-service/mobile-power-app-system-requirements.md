@@ -32,30 +32,39 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 
 ## Mobile device - supported platforms
 
-Currently, the Field Service (Dynamics 365) mobile app is supported on the following mobile platforms.
+Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windows platforms. To provide the best experience for mobile app users, we recommend using modern devices with high *CPU Benchmark scores.
 
-### Minimum
+### iOS
 
-| Platform |Version |RAM| Storage*|
+|   |OS Version |CPU Benchmark Score| Storage**|
 | --- | --- |--- | --- |
-| iOS |	14 or later |	3 GB |	64 GB	| 
-| Android	| 7.1.1 or later |	3 GB	| 64 GB	| 
-| Windows	| 10 17763.0 or later |	3 GB	| 64 GB	|
+| Minimum |	14 or later |	400+ |	64 GB	| 
+| Recommended| 15 or later |	1000+	| 64+ GB	| 
 
-### Recommended
 
-| Platform |Version |RAM| Storage*|
+### Android
+
+|   |OS Version |CPU Benchmark Score| RAM | Storage**|
 | --- | --- |--- | --- |
-| iOS | 15 or later| 4 GB| 128 GB |
-| Android| 10 or later |6 GB| 128 GB |
-| Windows|  10 19042.1348 or later |6 GB| 128 GB |
+| Minimum |	9 or later |	400+ |4 GB|	64 GB	| 
+| Recommended| 10 or later |	900+	| 8 GB | 64+ GB	| 
+
+
+### Windows
+
+
+|   |OS Version |RAM| Storage**|
+| --- | --- |--- | --- |
+| Minimum |	10 17763.0 or later |	6 GB |	64 GB	| 
+| Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	| 
+
 
 *The number of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md).
+
+**To find a device CPU Benchmark score, you can reference an independent 3rd party reviewer such as [Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
 > [!NOTE]
 > An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline javascript may place additional requirements on system memory and processor. Other factors, such as the amount of applications running on the device may also affect app performance.
 
->[!TIP]
-> For the best performance, make sure your team has 1) newer devices that 2) run the latest operating system versions, in that order.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
