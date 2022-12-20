@@ -15,34 +15,30 @@ ms.custom: bap-template
 
 ## Revert unmanaged records 
 
-If you see a difference in the migrated records between the source and target organizations, then you must delete the unmanaged entity records and then repeat the migration process. 
-
-Perform the following steps:
+If you see a difference in the migrated records between the source and target organizations, then you must delete the unmanaged entity records and repeat the migration process. 
+In the target organization, perform the following steps:
 
 1. For queues, revert the entities in the reverse order of the serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues). Migrate the entities in this order:
 
-1. Assignment Configuration Step
-2. Assignment Configuration
-3. Decision ruleset
-4. Decision contract
-5. Queue
+    1. Assignment Configuration Step
+    2. Assignment Configuration
+    3. Decision ruleset
+    4. Decision contract
+    5. Queue
 
 
 2. For workstreams, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams). Migrate the entities in this order:
-1. Workstream capacity profile
-1. Routing configuration step
-1. Routing configuration
-1. Decision ruleset
-1. Decision contract
-1. Workstream 
-    
-   For intake rules, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing). Migrate the entities in this order:
-
-    1. Master Entity Routing Configuration
+    1. Workstream capacity profile
+    1. Routing configuration step
+    1. Routing configuration
     1. Decision ruleset
     1. Decision contract
+    1. Workstream 
     
-## Next steps
+      For intake rules, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing. Migrate the entities in this order:
+      1. Master Entity Routing Configuration
+      1. Decision ruleset
+      1. Decision contract
 
 ## Next steps
 
