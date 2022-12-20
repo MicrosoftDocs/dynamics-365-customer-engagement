@@ -46,8 +46,8 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |-------------------------------|---------------------------------|----------------------------------------------------------------------------------------|
 | Common                        | msdynmkt_emailaddress           | The customer's email address.                                                          |
 |                               | msdynmkt_sourcesystem           | '1' denotes outbound marketing; otherwise, it denotes real-time marketing.             |
-| msdynmkt_emailblocked         | msdynmkt_details                | The blocked reasons are listed here, such as "unable to route: no mail hosts for domain".      |
-|                               | msdynmkt_reason                 | The email block reasons are listed such as InvalidRecipientAddress, InvalidSenderAddress, etc. |
+| msdynmkt_emailblocked         | msdynmkt_details                | The email block details such as "unable to route: no mail hosts for domain".           |
+|                               | msdynmkt_reason                 | The email block reasons such as *InvalidRecipientAddress*, *InvalidSenderAddress*, etc.|
 |                               | msdynmkt_category               | Not used for email blocked.                                                            |
 | msdynmkt_emaildelivered       | msdynmkt_deliveredcount         | Handles cases where there's a bounce after delivery. '1' for a delivered interaction, '-1' for a bounce and is handled in analytics to tell the correct number. |
 |                               | msdynmkt_details                | Generic field introduced if needed in future.                                          |
@@ -71,12 +71,12 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
 |                             | msdynmkt_reason                   | Failure of reason codes with a root cause of delivery failure.                         |
 |                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
-|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
+|                             | msdynmkt_senderphonenumber        | The sender's phone number.                                                             |
 | msdynmkt_smsconsentnotgiven |                                   |                                                                                        |
 | msdynmkt_smsdelivered       | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.             |
 |                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
 |                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
-|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
+|                             | msdynmkt_senderphonenumber        | The sender's phone number.                                                             |
 | msdynmkt_smslinkclicked     | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.             |
 |                             | msdynmkt_targeturl                | The target URL of the link clicked.                                                    |
 |                             | msdynmkt_linkname                 | Description of the link name. It's a complete html content of the link.                |
@@ -85,7 +85,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 |                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
 |                             | msdynmkt_reason                   | Failure of reason codes with a root cause of submission failure.                       |
 |                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
-|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
+|                             | msdynmkt_senderphonenumber        | The sender's phone number.                                                             |
 | msdynmkt_smsreceived        | msdynmkt_country                  | The country-specific three-letter ISO code for the customer's phone number.            |
 |                             | msdynmkt_organizationcontactpoint | The customer's phone number.                                                           |
 |                             | msdynmkt_phoneprovidertype        | The customer's phone number provider's type (for example, Twilio, Telesign)            |
@@ -94,7 +94,7 @@ The table below is sorted by real-time marketing channels (email, text message, 
 | msdynmkt_smssent            | msdynmkt_country                  | The country-specific three-letter ISO code for the customer's phone number.            |
 |                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
 |                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
-|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
+|                             | msdynmkt_senderphonenumber        | The sender's phone number.                                                             |
 
 #### Channel: *Push*
 
