@@ -30,15 +30,15 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 | **Table**                | **Column**                 | **Description**                                                                                         |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|
-| ALL   (Email, SMS, Push) | msdynmkt_journeyid         | The journey definition's ID.                                                    |
-|                          | msdynmkt_journeyrunid      | The journey instance's ID.                                                         |
-|                          | msynmkt_messagetemplateid  | The message template's ID, such as email template ID or SMS template ID. |
-|                          | msdynmkt_profileid         | The customer's profile ID.                                                      |
-|                          | msdynmkt_targetentity      | The target entity type such as contact or lead.                                  |
-|                          | msdynmkt_actionid          | The action's journey definition ID.                                     |
-|                          | msdynmkt_businessunitid    | It indicates the business unit ID.                                                               |
-|                          | Signal.Ingestion.Timestamp | The event's ingested time stamp into the CDPA system.                          |
-|                          | msdynmkt_originaltimestamp | The event's time stamp when the channel emitted it.                           |
+| ALL   (Email, SMS, Push) | msdynmkt_journeyid         | The journey definition's ID.                                                                            |
+|                          | msdynmkt_journeyrunid      | The journey instance's ID.                                                                              |
+|                          | msynmkt_messagetemplateid  | The message template's ID, such as email template ID or SMS template ID.                                |
+|                          | msdynmkt_profileid         | The customer's profile ID.                                                                              |
+|                          | msdynmkt_targetentity      | The target entity type such as contact or lead.                                                         |
+|                          | msdynmkt_actionid          | The action's journey definition ID.                                                                     |
+|                          | msdynmkt_businessunitid    | It indicates the business unit ID.                                                                      |
+|                          | Signal.Ingestion.Timestamp | The event's ingested time stamp into the CDPA system.                                                   |
+|                          | msdynmkt_originaltimestamp | The event's time stamp when the channel emitted it.                                                     |
 
 #### Channel: *Common* | *Email*
 
@@ -72,53 +72,53 @@ The table below is sorted by real-time marketing channels (email, text message, 
 
 #### Channel: *SMS* 
 
-| **Table**             | **Column**              | **Description**                                                                                          |
-|--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|
-|msdynmkt_smsbounced |
-|                             | msdynmkt_country                  | The three   letter ISO code associated with the SMS recipient's country.               |
-|                             | msdynmkt_phoneprovidertype        | The sender's   phone number provider's type (for example, Twilio, Telesign)            |
-|                             | msdynmkt_reason                   | Failure of   reason codes with a root cause of delivery failure.                       |
-|                             | msdynmkt_recipientphonenumer      | The recipient's   phone number.                                                        |
-|                             | mdynmkt_senderphonenumber         | The sender's   phone number.                                                           |
+| **Table**                   | **Column**                        | **Description**                                                                        |
+|-----------------------------|-----------------------------------|----------------------------------------------------------------------------------------|
+|msdynmkt_smsbounced          |                                   |                                                                                        |
+|                             | msdynmkt_country                  | The three letter ISO code associated with the SMS recipient's country.                 |
+|                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
+|                             | msdynmkt_reason                   | Failure of reason codes with a root cause of delivery failure.                         |
+|                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
+|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
 | msdynmkt_smsconsentnotgiven |                                   |                                                                                        |
-| msdynmkt_smsdelivered       |                                   |                                                                                        |                                                                                 |
-|                             | msdynmkt_country                  | The   country-specific three-letter ISO code for the recipient phone number.           |
-|                             | msdynmkt_phoneprovidertype        | The sender's   phone number provider's type (for example, Twilio, Telesign)            |
-|                             | msdynmkt_recipientphonenumer      | The recipient's   phone number.                                                        |
-|                             | mdynmkt_senderphonenumber         | The sender's   phone number.                                                           |
+| msdynmkt_smsdelivered       |                                   |                                                                                        |
+|                             | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.             |
+|                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
+|                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
+|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
 | msdynmkt_smslinkclicked     |                                   |                                                                                        |
-|                             | msdynmkt_country                  | The   country-specific three-letter ISO code for the recipient phone number.           |
-|                             | msdynmkt_targeturl                | The target URL   of the link clicked.                                                  |
-|                             | msdynmkt_linkname                 | Description of   the link name. It's a complete html content of the link.              |
-|                             | msdynmkt_recipientphonenumer      | The recipient's   phone number.                                                        |
+|                             | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.             |
+|                             | msdynmkt_targeturl                | The target URL of the link clicked.                                                    |
+|                             | msdynmkt_linkname                 | Description of the link name. It's a complete html content of the link.                |
+|                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
 | msdynmkt_smsnotsent         |                                   |                                                                                        |
-|                             | msdynmkt_country                  | The   country-specific three-letter ISO code for the recipient phone number.           |
-|                             | msdynmkt_phoneprovidertype        | The sender's   phone number provider's type (for example, Twilio, Telesign)            |
-|                             | msdynmkt_reason                   | Failure of   reason codes with a root cause of submission failure.                     |
-|                             | msdynmkt_recipientphonenumer      | The recipient's   phone number.                                                        |
-|                             | mdynmkt_senderphonenumber         | The sender's   phone number.                                                           |
+|                             | msdynmkt_country                  | The country-specific three-letter ISO code for the recipient phone number.             |
+|                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
+|                             | msdynmkt_reason                   | Failure of reason codes with a root cause of submission failure.                       |
+|                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
+|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
 | msdynmkt_smsreceived        |                                   |                                                                                        |
-|                             | msdynmkt_country                  | The   country-specific three-letter ISO code for the customer's phone number.      |
-|                             | msdynmkt_organizationcontactpoint | The customer's   phone number.                                                         |
-|                             | msdynmkt_phoneprovidertype        | The customer's   phone number provider's type (for example, Twilio, Telesign)            |
+|                             | msdynmkt_country                  | The country-specific three-letter ISO code for the customer's phone number.            |
+|                             | msdynmkt_organizationcontactpoint | The customer's phone number.                                                           |
+|                             | msdynmkt_phoneprovidertype        | The customer's phone number provider's type (for example, Twilio, Telesign)            |
 |                             | msdynmkt_text                     |                                                                                        |
-|                             | msdynmkt_usercontactpoint         | The customer's   phone number.                                                         |
+|                             | msdynmkt_usercontactpoint         | The customer's phone number.                                                           |
 | msdynmkt_smssent            |                                   |                                                                                        |
-|                             | msdynmkt_country                  | The country-specific three-letter ISO code for the customer's phone number.             |
-|                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)     |
-|                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                               |
-|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                  |
+|                             | msdynmkt_country                  | The country-specific three-letter ISO code for the customer's phone number.            |
+|                             | msdynmkt_phoneprovidertype        | The sender's phone number provider's type (for example, Twilio, Telesign)              |
+|                             | msdynmkt_recipientphonenumer      | The recipient's phone number.                                                          |
+|                             | mdynmkt_senderphonenumber         | The sender's phone number.                                                             |
 
 #### Channel: *Push*
 
-| **Table**             | **Column**              | **Description**                                                                                          |
-|--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|
-| Common Properties                    | msdynmkt_deviceid  | The recipient's mobile device's Dataverse-stored identifier. |
-|                                      | msdynmkt_platform  | The mobile platform used for submission (iOS or Android)                        |
-| msdynmkt_pushnotificationlinkclicked |                    |                                                                                                   |
-|                                      | msdynmkt_linkname  | Description of the link name. It's a complete html content of the link.                   |
-|                                      | msdynmkt_targeturl | The target URL of the link clicked.                                                                                                                   |
-| msdynmkt_pushnotificationnotsent     |                    |                                                                                                   |
-|                                      | msdynmkt_reason    |  Failure of reason codes with a root cause of submission failure.             |
-| msdynmkt_pushnotificationopened      |                    |                                                                                                   |
-| msdynmkt_pushnotificationsent        |                    |                                                                                                   |
+| **Table**                            | **Column**               | **Description**                                                                        |
+|--------------------------------------|--------------------------|----------------------------------------------------------------------------------------|
+| Common Properties                    | msdynmkt_deviceid        | The recipient's mobile device's Dataverse-stored identifier.                           |
+|                                      | msdynmkt_platform        | The mobile platform used for submission (iOS or Android)                               |
+| msdynmkt_pushnotificationlinkclicked |                          |                                                                                        |
+|                                      | msdynmkt_linkname        | Description of the link name. It's a complete html content of the link.                |
+|                                      | msdynmkt_targeturl       | The target URL of the link clicked.                                                    |
+| msdynmkt_pushnotificationnotsent     |                          |                                                                                        |
+|                                      | msdynmkt_reason          |  Failure of reason codes with a root cause of submission failure.                      |
+| msdynmkt_pushnotificationopened      |                          |                                                                                        |
+| msdynmkt_pushnotificationsent        |                          |                                                                                        |
