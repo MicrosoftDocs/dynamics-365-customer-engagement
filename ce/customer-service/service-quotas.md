@@ -37,7 +37,7 @@ This article outlines the service quotas, including those that can be adjusted f
 
 <sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of channel, can reduce the quality of service.
 
-<sup>2</sup> These are recommended limits beyond which system reliability and performance may reduce. To request a change in these recommended limits, we contact Microsoft Support for additional guidance.
+<sup>2</sup> These are recommended limits beyond which system reliability and performance might reduce. To request a change in these recommended limits, we contact Microsoft Support for additional guidance.
 
 
 ## Miscellaneous limits
