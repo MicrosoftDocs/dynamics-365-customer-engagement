@@ -12,20 +12,19 @@ ms.custom: bap-template
 
 # Service quotas
 
-This article outlines the service quotas limits, including those that can be adjusted for Dynamics 365 Customer Service **Digital Messaging and Voice Add-in**, **Digital Messaging Add-in**, and **Voice Add-in**. 
+This article outlines the service quotas, including those that can be adjusted for Dynamics 365 Customer Service **Digital Messaging and Voice Add-in**, **Digital Messaging Add-in**, and **Voice Add-in**. 
 
 > [!NOTE]
 > - All measures are at an organizational level for all licensed organizations, unless specified otherwise. The measures don't apply to trial or other non-licensed organizations.
-> - All default limits are maximum limits beyond which configuration won't be allowed and conversations will be limited, unless specified otherwise.
 > - If the service, configuration, or conversation limits are indicated as adjustable, contact Microsoft Support if you'd like to change the limits.  
-
+> - All default limits are maximum limits beyond which configuration won't be allowed and conversations will be limited, unless specified otherwise.
 ## Configuration limits
 
 | Measure       | Description   | Channel or sub-measure   |  Default limit  |   Adjustable?  |
 |------------ | -----------| -------------- |----------| -----------|
 | Intake rules  | Maximum number of intake rules | Record | 100 | No |
 | Route-to-queue rules | Maximum number of route-to-queue rulesets and rules    | Rules | 100 |  Yes  |  
-| Classification rules  |  Maximum number of classification rulesets and rules  |  Ruleset <br><br> Rules per ruleset | 10 <br><br> 100   |  No  |
+| Classification rules  |  Maximum number of classification rulesets and rules  |  Ruleset <br><br> Rules per ruleset | 10 per workstream<br><br> 100 per workstream   |  No  |
 
 
 ## Conversation limits
@@ -33,7 +32,7 @@ This article outlines the service quotas limits, including those that can be adj
 | Measure          | Description   |Channel or sub-measure   |  Default limit |   Adjustable?  |
 |------------      | -----------   | --------------  |----------   | -----------   |
 | Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   | Any messaging channel  |  Approximately 28 KB   | No   |
-| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital message + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25 per minute<sup>1</sup> <br><br><br><br> 7 per minute<br> 20 per minute<br>25 per minute<sup>2</sup><br> 20 per minute<sup>3</sup><br> | Yes <br><br><br><br> Yes <br>    |
+| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital messages + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25 per minute<sup>1</sup> <br><br><br><br> 7 per minute<br> 20 per minute<br>25 per minute<sup>2</sup><br> 20 per minute<sup>3</sup><br> | Yes <br><br><br><br> Yes <br>    |
 
 <sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25th item, irrespective of channel, can reduce the quality of service.
 
@@ -50,7 +49,7 @@ This article outlines the service quotas limits, including those that can be adj
 | Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, amd queue membership that can be edited in a single bulk update   |   | 25 users<sup>1</sup>  | Yes   |
 | Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in a bulk  | | 500 per 15 minutes<sup>1</sup>   | Yes   |
 | Dataverse Storage Entitlement (aggregated at tenant level)  |  Dataverse storage entitlement based on license, includes SQL/DB, file and log storage in Microsoft Dataverse. <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). | Base storage per tenant<br><br>Additional storage per Customer Service license <br><br>Additional file storage for Voice add-in<br> | 32 GB per tenant<sup>2</sup><br><br><br>2.25 GB per user<sup>3</sup><br><br><br><br> 35 GB per user<sup>4</sup><br><br><br>| Additional Dataverse storage can be purchased     |
-| Time for configuration updates to take effect (includes classification and assignment settings, and updates to agent skills, capacity profile, and calendar)  | Maximum time for configuration changes to reflect in the user experience |  All | 15 minutes  |    No  |
+| Time for configuration updates to take effect (includes channel and routing settings, and updates to agent skills, capacity profile, and calendar)  | Maximum time for configuration changes to reflect in the user experience |  All | 15 minutes  |    No  |
 | Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | All   | 100 conversations or work items<sup>5</sup>   |  Yes  |
 
 <sup>1</sup> These are recommended limits beyond which system reliability and performance might reduce. For any change in these limits, contact Microsoft Support.
@@ -68,6 +67,11 @@ This article outlines the service quotas limits, including those that can be adj
 
 ## Next steps
 
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Provision unified routing for Customer Service](provision-unified-routing.md)  
 
 ## See also
 
+[Service protection API limits](/power-apps/developer/data-platform/api-limits)  
+[Service limits in Customer Insights - Dynamics 365 Customer Insights](/customer-insights/service-limits)  
+[Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits)  
