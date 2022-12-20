@@ -73,7 +73,7 @@ A ready-to-publish sample forecast configuration is available for you to experim
 1. If you want to limit the access, go to the **Permissions** step and select the appropriate security roles.
 1. Go to the **Activate & add quotas** step and select **Activate forecast** to make the forecast available to users in the hierarchy.
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **Sales**.
-1. Go to **Performance** > **Forecasts** to view the forecast. Each user in the forecast hierarchy can see the forecast for their org.  
+1. Go to **Performance** > **Forecasts** to view the forecast. Each user in the forecast hierarchy can see the forecast for their org. For more information, see [View a forecast](view-forecasts.md).
 
 
 ### Use APIs to upload forecast data
