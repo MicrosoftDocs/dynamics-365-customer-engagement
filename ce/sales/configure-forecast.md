@@ -44,14 +44,12 @@ Using forecasts:
 
 You can configure forecasts that are based on revenue or quantity. You define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections.
 
-Forecasting is available in your organization by default.
-
 1. Sign in to the **Sales Hub** app.
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
 1. Under **Performance management**, select **Forecast configuration**.
 
     :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="A screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
-    A sample forecast configuration is available to help you get started with forecasting. You can [clone](clone-forecast.md) or edit the forecast configuration to update filters and other configurations to suit your organization's needs. By default, the sample forecast is visible only to the system administrator and forecast managers. To make it available to your sales team, [provide access permissions](./provide-permissions-forecast.md). To create a new forecast configuration, continue with the following steps.  
+    If you're getting started with forecasting, play around with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
     
   1. [Select a template](./select-template-forecast.md).
   1. [Define general properties and scheduling](./define-general-properties-scheduling-forecast.md).
@@ -62,6 +60,21 @@ Forecasting is available in your organization by default.
   1. [Configure advanced settings](./forecast-configure-advanced-settings.md).
   1. [Activate the forecast and upload data](./activate-upload-simple-columns-data-forecast.md).
     
+
+### Use the sample forecast configuration
+
+A ready-to-publish sample forecast configuration is available for you to experiment and get started with forecasting. Use the sample forecast to understand how forecasting works and how you can tweak the parameters and filters to suit your organization's needs.  
+
+1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
+1. Select **Sample forecast**.
+1. In the **General** step, check the **Preview** section to know the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it.  
+        :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+1. If you want to limit the access, go to the **Permissions** step and select the appropriate security roles.
+1. Go to the **Activate & add quotas** step and select **Activate forecast** to make the forecast available to users in the hierarchy.
+1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **Sales**.
+1. Go to **Performance** > **Forecasts** to view the forecast. Each user in the forecast hierarchy can see the forecast for their org.  
+
+
 ### Use APIs to upload forecast data
 
 After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
