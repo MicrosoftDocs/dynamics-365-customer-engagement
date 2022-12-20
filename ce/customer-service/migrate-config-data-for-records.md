@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Migrate configuration data for records
 
-This article includes procedures for migrating configuration data for records. You must perform migration procedures in the following order:
+This article includes procedures for migrating configuration data for records. You must migrate the data in the order of:
 
 1. skill-based routing rulesets
 1. capacity profiles
@@ -31,10 +31,10 @@ For sample schema to get all the required records, see [Sample schema for skill-
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
     - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
+    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
 
 	> [!IMPORTANT]
-    > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if required.
+    > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if necessary.
 
    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
    |---------|---------|---------|

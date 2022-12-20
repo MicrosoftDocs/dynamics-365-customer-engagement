@@ -16,7 +16,7 @@ Use the Configuration Migration tool to migrate the configurations from the sour
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
-- [Download Configuration Migration Tool](/powerapps/developer/data-platform/download-tools-nuget)
+- [Download Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget)
 - [How the Configuration Migration tool works](/power-platform/admin/manage-configuration-data)
 
 ## Prerequisites

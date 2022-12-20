@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use FetchXML query to filter records
 
-This article discusses how to download the FetchXL query and edit it in the Configuration Management Tool.
+This article discusses how to download the FetchXL query and edit it in the Configuration Management tool.
 
 ## Generate FetchXML query
 
@@ -34,7 +34,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 ## Edit the FetchXML query in the configuration management tool
 
-1. Open the Configuration Migration Tool and in the **Tools** menu, select **Configure Import Settings**.
+1. Open the Configuration Migration tool and in the **Tools** menu, select **Configure Import Settings**.
 
 1. Select **Edit FetchXML**. 
    :::image type="content" source="media/edit-fetchxml.png" alt-text="Screenshot of the Edit FetchXML button.":::
