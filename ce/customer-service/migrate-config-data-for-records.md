@@ -1,6 +1,6 @@
 ---
-title: "Migrate configuration data for records | MicrosoftDocs"
-description: "Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Omnichannel for Customer Service."
+title: Migrate configuration data for records | MicrosoftDocs
+description: Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

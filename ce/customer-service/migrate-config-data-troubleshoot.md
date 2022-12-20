@@ -1,6 +1,6 @@
 ---
-title: "Troubleshoot migration of records | MicrosoftDocs"
-description: "Learn to troubleshoot issues with migrating data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
+title: Troubleshoot migration of records | MicrosoftDocs
+description: Learn to troubleshoot issues with migrating data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -19,12 +19,31 @@ If you see a difference in the migrated records between the source and target or
 
 Perform the following steps:
 
-1. For queues, revert the entities in the reverse order of their serial number&ndash;Assignment Configuration Step, Assignment Configuration, Decision ruleset, Decision contract, and Queue. More information: [Migrate configuration for record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)
+1. For queues, revert the entities in the reverse order of the serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues). Migrate the entities in this order:
 
-2. For workstreams, revert the entities in the reverse order of their serial number&ndash;Workstream capacity profile, Routing configuration step, Routing configuration, Decision ruleset, Decision contract, and Workstream. More information: [Migrate configuration for record workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams)
+1. Assignment Configuration Step
+2. Assignment Configuration
+3. Decision ruleset
+4. Decision contract
+5. Queue
+
+
+2. For workstreams, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for record workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams). Migrate the entities in this order:
+1. Workstream capacity profile
+1. Routing configuration step
+1. Routing configuration
+1. Decision ruleset
+1. Decision contract
+1. Workstream 
     
-   For intake rules, revert the entities in the reverse order of their serial number&ndash;Master Entity Routing Configuration, Decision ruleset, and Decision contract. More information: [Migrate configuration for intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)
+   For intake rules, revert the entities in the reverse order of their serial number (**S.No** column) that's listed in the migration article at [Migrate configuration for intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing). Migrate the entities in this order:
+
+    1. Master Entity Routing Configuration
+    1. Decision ruleset
+    1. Decision contract
     
+## Next steps
+
 ## Next steps
 
 1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)  

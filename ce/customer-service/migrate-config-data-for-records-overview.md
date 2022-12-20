@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that are based on unified routing.
 
-For information on how to use the Configuration Migration tool, see the following articles:
+For information on how to download and use the Configuration Migration tool, see the following articles:
 
 - [Download Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget)
 - [How the Configuration Migration tool works](/power-platform/admin/manage-configuration-data)
