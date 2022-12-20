@@ -49,6 +49,7 @@ You can configure forecasts that are based on revenue or quantity. You define th
 1. Under **Performance management**, select **Forecast configuration**.
 
     :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="A screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
+    
     If you're getting started with forecasting, play around with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
     
   1. [Select a template](./select-template-forecast.md).
