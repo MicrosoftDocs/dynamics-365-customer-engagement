@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
-## Revert unmanaged records during migration
+## Revert unmanaged records 
 
 If you see a difference in the migrated records between the source and target organizations, then you must delete the unmanaged entity records and then repeat the migration process. 
 

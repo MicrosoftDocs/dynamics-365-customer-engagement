@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Overview of data migration for records
 
-Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that're based on unified routing.
+Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that are based on unified routing.
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
