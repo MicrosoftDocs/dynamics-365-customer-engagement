@@ -32,7 +32,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 1. Save and close.
 
-## Edit the FetchXML query in the configuration management tool
+## Edit the FetchXML query in the Configuration Management tool
 
 1. Open the Configuration Migration tool and in the **Tools** menu, select **Configure Import Settings**.
 
