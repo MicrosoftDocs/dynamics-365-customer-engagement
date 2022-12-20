@@ -15,9 +15,10 @@ ms.custom: bap-template
 This article outlines the service quotas, including those that can be adjusted for Dynamics 365 Customer Service **Digital Messaging and Voice Add-in**, **Digital Messaging Add-in**, and **Voice Add-in**. 
 
 > [!NOTE]
-> - All measures are at an organizational level for all licensed organizations, unless specified otherwise. The measures don't apply to trial or other non-licensed organizations.
+> - All measures are at an organizational level for all licensed organizations. The measures don't apply to trial or other non-licensed organizations.
 > - If the service, configuration, or conversation limits are indicated as adjustable, contact Microsoft Support if you'd like to change the limits.  
 > - All default limits are maximum limits beyond which configuration won't be allowed and conversations will be limited, unless specified otherwise.
+
 ## Configuration limits
 
 | Measure       | Description   | Channel or sub-measure   |  Default limit  |   Adjustable?  |
@@ -32,13 +33,11 @@ This article outlines the service quotas, including those that can be adjusted f
 | Measure          | Description   |Channel or sub-measure   |  Default limit |   Adjustable?  |
 |------------      | -----------   | --------------  |----------   | -----------   |
 | Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   | Any messaging channel  |  Approximately 28 KB   | No   |
-| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital messages + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25 per minute<sup>1</sup> <br><br><br><br> 7 per minute<br> 20 per minute<br>25 per minute<sup>2</sup><br> 20 per minute<sup>3</sup><br> | Yes <br><br><br><br> Yes <br>    |
+| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital messages + Records <br><br>Voice <br> Live chat <br>Record <br>Social + Direct Line <br>     | 25 per minute<sup>1</sup> <br><br><br><br> 7 per minute<sup>2</sup><br> 20 per minute<br>25 per minute<br> 20 per minute<sup>2</sup><br> | Yes <br><br><br><br> Yes <br>    |
 
-<sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25th item, irrespective of channel, can reduce the quality of service.
+<sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of channel, can reduce the quality of service.
 
-<sup>2</sup>Any creation and update of records, or update of queue items add to the limit. More information: [queueitem EntityType](/power-apps/developer/data-platform/webapi/reference/queueitem?view=dataverse-latest)
-
-<sup>3</sup>These are recommended limits beyond which system reliability and performance may reduce. For any change in these recommended limits, we recommend reaching out to Microsoft Support for additional guidance.
+<sup>2</sup> These are recommended limits beyond which system reliability and performance may reduce. To request a change in these recommended limits, we contact Microsoft Support for additional guidance.
 
 
 ## Miscellaneous limits
