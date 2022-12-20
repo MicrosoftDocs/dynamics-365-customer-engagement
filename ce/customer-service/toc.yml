@@ -36,8 +36,8 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
-    - name: Service limits for unified routing and omnichannel implementations
-      href: service-limits-ur-oc.md      
+  - name: Service quotas
+    href: service-quotas.md      
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
