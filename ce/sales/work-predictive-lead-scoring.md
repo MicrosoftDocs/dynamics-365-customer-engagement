@@ -35,13 +35,13 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
 
 ## Real-time scoring
 
-Real time scoring is supported for new leads that are scored by models created or edited after December 2022. The score will be displayed within five minutes of saving a new lead. If you don't see the score within five minutes, contact your administrator to [edit and retrain](pls-edit-and-retrain-model.md) the scoring model.
+Real time scoring is supported for new leads that are scored by models created or edited after December 2022. The score will be displayed within five minutes of saving or importing a new lead, and refreshing the lead page. If you don't see the score within five minutes, contact your administrator to [edit and retrain](pls-edit-and-retrain-model.md) the scoring model.
 
 Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.
 
 > [!NOTE]
-> Business process flows are not taken into consideration for real-time scoring. So, if you have models that score leads purely based on business process flows, one of the models will be used to score the new lead.  
-  
+> Business process flows are not taken into consideration for real-time scoring. So, if you have different models that score leads purely based on business process flows, one of the models will be used to score the new lead. To score such leads using the appropriate model, update the lead and wait for the daily scoring job to complete.  
+
 ## Understand predictive lead scoring in views
 
 The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. By analyzing these parameters, you can identify and prioritize leads so you can convert them into opportunities.
