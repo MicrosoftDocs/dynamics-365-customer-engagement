@@ -47,9 +47,7 @@ You can configure forecasts that are based on revenue or quantity. You define th
 1. Sign in to the **Sales Hub** app.
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
 1. Under **Performance management**, select **Forecast configuration**.
-
-    :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="A screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
-    
+ 
     If you're getting started with forecasting, play around with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
     
   1. [Select a template](./select-template-forecast.md).
@@ -68,6 +66,9 @@ A ready-to-publish sample forecast configuration is available for you to experim
 
 1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
 1. Select **Sample forecast**.
+
+    :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="A screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
+
 1. In the **General** step, check the **Preview** section to know the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it.  
         :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 1. If you want to limit the access, go to the **Permissions** step and select the appropriate security roles.
