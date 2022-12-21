@@ -21,7 +21,7 @@ This article outlines the service quotas, including those that can be adjusted f
 
 ## Configuration limits
 
-| Measure       | Description   | Channel or sub-measure   |  Default limit  |   Adjustable?  |
+| Measure       | Description   | Channel or submeasure   |  Default limit  |   Adjustable?  |
 |------------ | -----------| -------------- |----------| -----------|
 | Intake rules  | Maximum number of intake rules | Record | 100 | No |
 | Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | Rules | 100 |  Yes  |  
@@ -30,7 +30,7 @@ This article outlines the service quotas, including those that can be adjusted f
 
 ## Conversation limits
 
-| Measure          | Description   |Channel or sub-measure   |  Default limit |   Adjustable?  |
+| Measure          | Description   |Channel or submeasure   |  Default limit |   Adjustable?  |
 |------------      | -----------   | --------------  |----------   | -----------   |
 | Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   | Any messaging channel  |  Approximately 28 KB   | No   |
 | Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital messages + Records <br><br><li>Voice <br> <li>Live chat <br><li>Record <br><li>Social + Direct Line <br>     |<li> 25 per minute<sup>1</sup> <br><br><br><br> <li>7 per minute<sup>2</sup><br> <li>20 per minute<br><li>25 per minute<br> <li>20 per minute<sup>2</sup><br> | Yes <br><br><br><br> Yes <br>    |
@@ -43,7 +43,7 @@ This article outlines the service quotas, including those that can be adjusted f
 
 ## Miscellaneous limits
 
-| Measure       | Description   |Channel or sub-measure   |  Default limit |   Adjustable? |
+| Measure       | Description   |Channel or submeasure   |  Default limit |   Adjustable? |
 |------------   | -----------   | --------------          |----------      | -----------                    |
 | Bulk user provisioning  | Number of users that can be added (using role attachment) in a single update |  | 500 per 15 minutes<sup>1</sup> |  Yes   |
 | Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, amd queue membership that can be edited in a single bulk update   |   | 25 users<sup>1</sup>  | Yes   |
