@@ -27,6 +27,11 @@ This article outlines the service quotas, including those quotas that can be adj
 | Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | Rules | 100 |  Yes  |  
 | Classification rules  |  Maximum number of classification rulesets and rules per workstream|  Ruleset <br><br> Rules per ruleset | 10 <br><br> 100   |  No <br><br> No |
 
+| Measure       | Description   |  Default limit per channel or submeasure |   Adjustable?  |
+|------------ | -----------| --------------------| -----------|
+| Intake rules  | Maximum number of intake rules | 100 for the records | No |
+| Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 100 for rules|  Yes  |  
+| Classification rules  |  Maximum number of classification rulesets and rules per workstream|  10 rulesets  <br><br> 100 rules per ruleset  |  No <br><br> No |
 
 ## Conversation limits
 
@@ -35,6 +40,11 @@ This article outlines the service quotas, including those quotas that can be adj
 | Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   | Any messaging channel  |  Approximately 28 KB   | No   |
 | Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital messages + Records <br><br><li>Voice <br> <li>Live chat <br><li>Record <br><li>Social + Direct Line <br>     |<li> 25 per minute<sup>1</sup> <br><br><br><br> <li>7 per minute<sup>2</sup><br> <li>20 per minute<br><li>25 per minute<br> <li>20 per minute<sup>2</sup><br> | Yes <br><br><br><br> Yes <br>    |
 
+
+| Measure          | Description   | Default limit per channel or submeasure|   Adjustable?  |
+|------------      | -----------   | ----------------   | -----------   |
+| Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   |    Approximately 28 KB for any messaging channel | No   |
+| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> |    25 per minute<sup>1</sup> for Voice + Live chat + Digital messages + Records <br><br><br> 7 per minute<sup>2</sup> for Voice <br> 20 per minute for Live chat<br>25 per minute for Record<br> 20 per minute<sup>2</sup> for Social + Direct Line<br> | Yes <br><br><br><br> Yes <br>    |
 
 <sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute, and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of the channel, might reduce the quality of service.
 
