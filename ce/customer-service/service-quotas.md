@@ -21,11 +21,6 @@ This article outlines the service quotas, including those quotas that can be adj
 
 ## Configuration limits
 
-| Measure       | Description   | Channel or submeasure   |  Default limit  |   Adjustable?  |
-|------------ | -----------| -------------- |----------| -----------|
-| Intake rules  | Maximum number of intake rules | Record | 100 | No |
-| Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | Rules | 100 |  Yes  |  
-| Classification rules  |  Maximum number of classification rulesets and rules per workstream|  Ruleset <br><br> Rules per ruleset | 10 <br><br> 100   |  No <br><br> No |
 
 | Measure       | Description   |  Default limit per channel or submeasure |   Adjustable?  |
 |------------ | -----------| --------------------| -----------|
@@ -34,12 +29,6 @@ This article outlines the service quotas, including those quotas that can be adj
 | Classification rules  |  Maximum number of classification rulesets and rules per workstream|  10 rulesets  <br><br> 100 rules per ruleset  |  No <br><br> No |
 
 ## Conversation limits
-
-| Measure          | Description   |Channel or submeasure   |  Default limit |   Adjustable?  |
-|------------      | -----------   | --------------  |----------   | -----------   |
-| Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   | Any messaging channel  |  Approximately 28 KB   | No   |
-| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> | Voice + Live chat + Digital messages + Records <br><br><li>Voice <br> <li>Live chat <br><li>Record <br><li>Social + Direct Line <br>     |<li> 25 per minute<sup>1</sup> <br><br><br><br> <li>7 per minute<sup>2</sup><br> <li>20 per minute<br><li>25 per minute<br> <li>20 per minute<sup>2</sup><br> | Yes <br><br><br><br> Yes <br>    |
-
 
 | Measure          | Description   | Default limit per channel or submeasure|   Adjustable?  |
 |------------      | -----------   | ----------------   | -----------   |
@@ -62,6 +51,14 @@ This article outlines the service quotas, including those quotas that can be adj
 | Time for configuration updates to take effect. The time includes channel and routing settings, and updates to agent skills, capacity profile, and calendar.  | Maximum time for configuration changes to reflect in the user experience |  All | 15 minutes  |    No  |
 | Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | All   | 100 conversations or work items<sup>5</sup>   |  Yes  |
 
+| Measure    | Description   | Default limit per channel or submeasure |   Adjustable? |
+|------------   | -----------      |----------      | -----------       |
+| Bulk user provisioning  | Number of users that can be added (using role attachment) in a single update |   500 per 15 minutes<sup>1</sup> |  Yes   |
+| Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, and queue membership that can be edited in a single bulk update   |    25 users<sup>1</sup>  | Yes   |
+| Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in a bulk  |  500 per 15 minutes<sup>1</sup>   | Yes   |
+| Dataverse Storage Entitlement (aggregated at tenant level)  |  Microsoft Dataverse storage entitlement based on license, includes SQL/DB, file, and log storage in Dataverse. <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). |  32 GB of base storage per tenant<sup>2</sup><br><br>2.25 GB of extra storage per Customer Service license per user<sup>3</sup><br><br>35 GB of extra file storage for Voice add-in per user<sup>4</sup><br><br>| Other Dataverse storage can be purchased     |
+| Time for configuration updates to take effect. The time includes channel and routing settings, and updates to agent skills, capacity profile, and calendar.  | Maximum time for configuration changes to reflect in the user experience |   15 minutes for any channel |    No  |
+| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | 100 conversations or work items for any channel<sup>5</sup>   |  Yes  |
 
 
 <sup>1</sup> These are recommended limits beyond which system reliability and performance might reduce. For any change in these limits, contact Microsoft Support.
