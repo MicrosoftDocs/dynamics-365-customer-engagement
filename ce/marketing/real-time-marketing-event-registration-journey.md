@@ -44,7 +44,7 @@ This article explains how to use real-time journeys in Dynamics 365 Marketing to
 
 To create this journey, you need to first make sure that you have some prerequisite ingredients ready. Let’s get to it!
 
-## Prerequisites for a remind, inspire, and thank journey
+### Prerequisites for a remind, inspire, and thank journey
 
 To begin the event registration process, you’ll need access to the following assets:
 
@@ -65,19 +65,19 @@ The first thing you’ll need to create for your event is a journey that sends a
  2. Give the journey a name, select **Trigger-based** as the journey type, and search for the **Marketing Event Registration Created** trigger. This trigger will start an action each time a new attendee register for an event.
 
 > [!div class="mx-imgBorder"]
-> ![create a journey](media/real-time-marketing-event-engagement-create-journey.png "create a journey")
+> ![create a journey](media/event-engagement-create-journey.png "create a journey")
 
  3. Next, select the **+** sign below the event registration trigger on the journey designer canvas to add an action to the journey. Select the **Send an email** action.
 
  4. In the **Send an email** action properties pane, search for the welcome email you want to send. It’s easiest to fine-tune your email and mark it ready to send before creating your journey, but you can also select **+ New Email** to open the email designer as a modal window within the journey designer.
 
 > [!div class="mx-imgBorder"]
-> ![add email](media/real-time-marketing-event-engagement-add-email.png "add email")
+> ![add email](media/event-engagement-add-email.png "add email")
 
  5. The journey will now start each time someone registers for an event. To tie the journey to your specific event, select the trigger, select **Edit** in the right pane, then select **+ Add condition**. In the **Choose an attribute** dropdown, go to **Marketing Event Registration Reference** and select **Event**. Then, you can use the **Look for Event** lookup field to find your event.
 
 > [!div class="mx-imgBorder"]
-> ![add attribute](media/real-time-marketing-event-engagement-event-attribute.png "add attribute")
+> ![add attribute](media/event-engagement-event-attribute.png "add attribute")
 
 Now, each time someone registers for your event, they'll receive your welcome email. Next, you’ll create reminder emails that are automatically sent to attendees seven days and one day before the event.
 
@@ -90,19 +90,19 @@ When sending timed reminders, the first instinct of many Marketing users is to a
  2. Select **Branch 1** in the journey designer. Here, you'll add a trigger to check the event start date. In the right pane, name the branch **Event start date > 7 days from now**. Then, select the **Condition** button and select the **Choose an attribute** dropdown. You want to create a condition based on the main trigger for the journey. To create the condition, go to **Trigger > Marketing event registration created > Marketing Event Reference**, then search for and select the **Event start date** attribute.
 
 > [!div class="mx-imgBorder"]
-> ![event start](media/real-time-marketing-event-engagement-event-start.png "event start")
+> ![event start](media/event-engagement-event-start.png "event start")
 
  3. Next, you need to give the journey a relative date to monitor. To set a relative date, select the **Is** dropdown and change it to **Is before**. Then, select the **Actual date** dropdown and change it to **Relative date**. Finally, change the date dropdown to **7 days from today**. Now, the branch can reference whether the event start date is more than seven days from the current date.
 
 > [!div class="mx-imgBorder"]
-> ![event start date](media/real-time-marketing-event-engagement-event-start-date.png "event start date")
+> ![event start date](media/event-engagement-event-start-date.png "event start date")
 
  4. Now, you can add a **Wait** element to the relative date branch. It was important to set the relative date because the Wait element can now be tied in with the event to wait until the date is seven days before the event to trigger an action. To add the Wait element, select the **+** below the **Event start date > 7 days from now** condition. Add a **Hold an action for a specific time** element. In the right pane, under **People will wait**, select **Until a time specified by a trigger**. Then, under **Choose a specific trigger attribute**, go to **Marketing event registration created > Marketing Event Reference**, then search for and select the **Event start date** attribute. Set the **Timing** to **7 days before the specified time**.
 
  5. You’re now ready to trigger an action seven days before the event’s start date. To send a reminder email, select the + below the Wait element and select a Send an email action. In the right pane, select the reminder email you’d like to send.
 
 > [!div class="mx-imgBorder"]
-> ![event reminder](media/real-time-marketing-event-engagement-event-reminder.png "event reminder")
+> ![event reminder](media/event-engagement-event-reminder.png "event reminder")
 
  6. To send a second reminder one day before the event, you can simply add a new attribute branch that follows the same steps, only with a relative date condition and a Wait element set one day before the event. To add the reminder, select the + above the journey exit and select a **Branch based on a specific value** element. Name the attribute **Check event start**.
  
@@ -113,7 +113,7 @@ When sending timed reminders, the first instinct of many Marketing users is to a
  9. Then, to send the second reminder after the Wait element expires, select the **+** after the Wait element, add a **Send an email** element, and select your second reminder email.
 
 > [!div class="mx-imgBorder"]
-> ![event reminder](media/real-time-marketing-event-engagement-event-reminder2.png "event reminder")
+> ![event reminder](media/event-engagement-event-reminder2.png "event reminder")
 
 **Step 3: Send a text message or email reminder one hour before the event**
 
@@ -130,7 +130,7 @@ Now you need to set up a text message reminder to be sent out one hour before th
  5. In the **right pane**, select the attribute as **Email** and this would be your fourth email, which is a one-hour reminder. Select **Text message** as the attribute and the time condition to **one hour**.
 
 > [!div class="mx-imgBorder"]
-> ![event optimization](media/real-time-marketing-event-engagement-event-optimization.png "event optimization")
+> ![event optimization](media/event-engagement-event-optimization.png "event optimization")
 
 6. You’ll notice that the **Channel optimization** element has a red warning sign on it. This is because a **Goal** hasn't yet been set for the optimization. In this journey, our goal is to get attendees to check in to our event. So, to optimize for this goal, select the Channel optimization element and for the **Journey goal**, select **Custom goal** for **The goal of this journey is**. Under the **Title** dropdown, enter **Drive event check-in attendance** as the name of your custom goal and select the **+** sign. For **This goal is met when**, search for and select the **Marketing Event Check-in** trigger. Then, enter **50%** for **The number of people needed is**. This tells the Marketing app that your goal can be marked as met when 50% of people who registered for the event have checked in.
 
@@ -145,7 +145,7 @@ The final step of the journey is to send a response based on whether the recipie
  2. Select the **If/then branch** element. Set the **Choose a branch condition type** to **A trigger is activated**. In the trigger lookup, search for **Marketing Event Check-in**. Then, provide a timeframe that, if the condition is met, participants will be sent down the Yes branch. For this event, the timeframe covers the time after the event starts. Set the time limit to two hours.
 
 > [!div class="mx-imgBorder"]
-> ![event check-in](media/real-time-marketing-event-engagement-event-if-then.png "event check-in")
+> ![event check-in](media/event-engagement-event-if-then.png "event check-in")
 
  3. In the **Yes** branch of the if/then check-in element, you’ll want to send an email thanking the recipient for attending. But you don’t want to send the email right away; instead, you want to send it an hour after the event has ended. To set the email delay time, select the **+** in the Yes branch and add a **Hold an action for a specific time** element. Set **People will wait** to **Until a time specified by a trigger**. For the **trigger attribute**, go to **Marketing event registration created > Marketing Event Reference**, then search for **Event end date**. Set the **Timing** to **1 hour**.
 
@@ -154,15 +154,15 @@ The final step of the journey is to send a response based on whether the recipie
  5. Next, you need to set an email to send to journey participants who didn't check into the event. In the **No** branch of the if/then check-in element, select the + and add a **Send an email** action. Select your “sorry we missed you” email.
 
 > [!div class="mx-imgBorder"]
-> ![thank you email](media/real-time-marketing-event-engagement-event-thank-you.png "thank you email")
+> ![thank you email](media/event-engagement-event-thank-you.png "thank you email")
 
-## Event engagement journey wrap-up
+### Event engagement journey wrap-up
 
 You’ve now built a journey that thanks event attendees for registering, sends timely event reminders, and sends tailored email responses depending on whether a journey participant checked into the event. What’s so powerful about this journey—and real-time marketing journeys generally—is that you can use the journey for any event you host! If you tried to achieve a similar outcome using a segment-based journey, you’d need to painstakingly create specialized segments and separate journeys for each event. Real-time journeys truly are the future of customer engagement.
 
-## Bonus tip
+### Bonus tip
 
 Real-time marketing triggers provide a straightforward solution if a journey participant cancels their event registration while they’re in the middle of the journey. To drop the canceled participant out of the journey, select the **Marketing Event Registration Created** trigger at the top of the journey. In the right pane, select the **Edit** link to the right of **End**. Then, under **Exit when a trigger occurs**, search for **Marketing Event Registration Canceled**. Now, when a participant cancels their registration, they'll be removed from the journey and won't receive further notifications.
 
 > [!div class="mx-imgBorder"]
-> ![registration canceled](media/real-time-marketing-event-engagement-event-create-canceled.png "registration canceled")
+> ![registration canceled](media/event-engagement-event-create-canceled.png "registration canceled")
