@@ -32,7 +32,7 @@ This article outlines the service quotas, including those quotas that can be adj
 
 | Measure          | Description   | Default limit per channel or submeasure|   Adjustable?  |
 |------------      | -----------   | ----------------   | -----------   |
-| Message size     | Maximum size of a single message payload, including metadata like timestamps, tags, and links   |    Approximately 28 KB for any messaging channel | No   |
+| Message size     | Maximum size of a single message payload including metadata like timestamps, tags, and links   |    Approximately 28 KB for any messaging channel | No   |
 | Incoming conversations or work items  |  Maximum rate of incoming conversations per minute aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> |  Total of 25 incoming conversations or work items per minute<sup>1</sup> for voice, live chat, digital messages, and record channels <br><br> <li> Voice - 7 per minute<sup>2</sup> <li> Live chat - 20 per minute  <li> Record - 25 per minute<li> Social and Direct Line - 20 per minute<sup>2</sup>  | Yes <br><br><br><br> Yes <br>    |
 
 <sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute, and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of the channel, might reduce the quality of service.
@@ -46,7 +46,7 @@ This article outlines the service quotas, including those quotas that can be adj
 |------------   | -----------      |----------      | -----------       |
 | Bulk user provisioning  | Number of users that can be added (using role attachment) in a single update |   500 per 15 minutes<sup>1</sup> |  Yes   |
 | Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, and queue membership that can be edited in a single bulk update   |    25 users<sup>1</sup>  | Yes   |
-| Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in a bulk  |  500 per 15 minutes<sup>1</sup>   | Yes   |
+| Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in bulk  |  500 per 15 minutes<sup>1</sup>   | Yes   |
 | Dataverse Storage Entitlement (aggregated at tenant level)  |  Microsoft Dataverse storage entitlement based on license, includes SQL/DB, file, and log storage in Dataverse. <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). |  32 GB of base storage per tenant<sup>2</sup><br><br>2.25 GB of extra storage per Customer Service license per user<sup>3</sup><br><br>35 GB of extra file storage for Voice add-in per user<sup>4</sup><br>| Other Dataverse storage can be purchased     |
 | Time for configuration updates to take effect. The time includes channel and routing settings, and updates to agent skills, capacity profile, and calendar.  | Maximum time for configuration changes to reflect in the user experience |   15 minutes |    No  |
 | Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | 100 conversations or work items<sup>5</sup>   |  Yes  |
