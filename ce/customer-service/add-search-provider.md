@@ -1,33 +1,33 @@
 ---
 title: Add search providers
 description: How-to description 
-author: Soumyasd27 #Required; your GitHub user alias, with correct capitalization.
+author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 12/21/2022
 ms.custom: bap-template
 ---
 
 # Add search providers
 
-With Integrated search provider, you can configure external data sourcesproviders such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across data search sourcesproviders. You must add your search providers through using the Integrated search provider providers option from the Customer Service admin center app.
+With Integrated search provider, you can configure external data providers such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers. You must add your search providers using the Integrated search providers option from the Customer Service admin center app.
 
 ## Prerequisites
-- You must prepare the metadata mapping schema file, with your article properties, to be able to validate the knowledge article schema.More information: Develop metadata mapping schema 
-- If your website is registered using Azure Active Directory, you’ll need to use OAuth, and provide the Resource Id, Tenant Id, Client Id, and the Client secret generated from the AAD Application registration page. More information: Apply authentication
+- You must prepare the metadata mapping schema file with your article properties to be able to validate the knowledge article schema. More information: Develop metadata mapping schema
+- If your website is registered using Azure Active Directory, you’ll need to use OAuth, and provide the **Resource Id**, **Tenant Id**, **Client Id**, and the **Client secret** generated from the AAD Application registration page. More information: Apply authentication
 
 ## Add integrated search providers
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The Knowledge page appears.
+1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 2.	In the **Integrated search providers** section, select **Manage**.
 3.	Select **New**.
 4.	On the **Add an integrated search provider** page, do the following:
     1. In the **Provider info** section, enter the following information:
         1. **Search provider name**: Enter the name of the search provider.
         1. **Description**: Enter the description of the search provider.
-The **Data source** and **Owner** are auto filled.
+        The **Data source** and **Owner** are auto filled.
         1. Select the authorization check box.
         1. Select **Next**.
     1.	In the **Authentication** section, enter the following information:
