@@ -1,11 +1,13 @@
 ---
-title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
-description: "Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
-ms.date: 10/06/2022
-ms.topic: article
+title: Configure an SMS channel using Azure Communication Services | MicrosoftDocs
+description: Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services.
+ms.date: 12/22/2022
+ms.topic: how-to
+ms.service: dynamics-365
 author: mh-jaya
 ms.author: v-jmh
-manager: shujoshi
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Configure an SMS channel using Azure Communication Services
@@ -18,10 +20,11 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 >
 > - SMS is currently available for toll-free numbers in the United States only, and only works for inbound communication. Outbound (agent-initiated) SMS is not currently supported.
 > - SMS is not supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
+- - For best SMS delivery experience, we rcommend that you submit a toll-free verification application for your toll-free numbers. More information: [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification)
 
 ## Prerequisites
 
-- Voice Channel for Dynamics 365 Customer Service must be purchased and installed.
+- Purchase and install the voice channel for Dynamics 365 Customer Service. More information: [Licensing](system-requirements-omnichannel.md#licensing)
 - Connect to Azure Communication Services. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   
    If you’ve connected your existing Azure resource, ensure that you’ve enabled SMS services. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services)
@@ -29,7 +32,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
 
-## Configure the workstream for the SMS channel
+## Configure a workstream for the SMS channel
 
 [Create a workstream for the SMS channel](create-workstreams.md), and then perform the following steps.
 
@@ -55,6 +58,11 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
    - [Context variables](manage-context-variables.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
+
+## Next steps
+
+[Create message templates](create-message-templates)
+
 
 ### See also
 
