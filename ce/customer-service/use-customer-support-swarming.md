@@ -148,12 +148,24 @@ After the swarm is resolved, a Dynamics 365 bot posts to the Teams chat to indic
 
 ### Reactivate a swarm
 
-After a swarm is completed, if needed, you can reactivate it by selecting **
+You can reactivate a swarm by completing the following steps:
 
+1. In Customer Service workspace, on the sitemap, select **Swarms** in **Service**.
+1. On the **Swarm** page, from the dropdown list, select **All swarms**, and then select the swarm you want to reactivate.
+1. On the **Case details** page, select **Reactivate swarm**.
+
+After the swarm is reactivated, a Dynamics 365 bot posts to the Teams chat to indicate that the swarm has been reactivated with a link to the swarm details in Dynamics 365.
 
 ### Cancel a swarm
 
+You can cancel a swarm that's in progress by completing the following steps:
 
+1. In Customer Service workspace, on the sitemap, select **Swarms** in **Service**.
+1. On the **Swarm** page, select **Active swarms** from the dropdown menu, and then select the swarm you want to cancel.
+1. On the **Case details** page, select **Cancel swarm**.
+1. On the **Cancel this swarm?** dialog, select the reason you want to cancel the swarm from the dropdown list, and then select **Cancel swarm**.
+
+After the swarm is cancelled, a Dynamics 365 bot posts to the Teams chat to indicate that the swarm has been cancelled with a link to the swarm details in Dynamics 365.
 
 ### Associated swarm
 
