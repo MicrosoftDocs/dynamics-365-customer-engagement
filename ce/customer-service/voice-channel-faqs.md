@@ -86,7 +86,7 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 
 ### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
 
-Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot will be attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice profile and **English-US** in the bot (which means the bot will speak in **English-US** locale).
+Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot will be attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice profile and **English-US** in the bot (which means the bot will speak in **English-UK** locale).
 
 If you configure different locales:
 - The bot's accuracy will depend on the similarities between the two locales. 
