@@ -60,6 +60,7 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 1. In Microsoft 365 admin center, expand **Billing**, and select **Purchase services**.
 
 1. Search for **Dynamics 365 Customer Engagement Applications Trial**, and select it.
+
 1. Select the **Add-ons** tab, and then select one of the following add-ons to get the trial subscription of the voice channel:
 
    - Dynamics 365 Customer Service Voice Channel Add-in Trial
@@ -77,7 +78,7 @@ After a channel is enabled in your organization, you can sign in to the Dynamics
 - [Configure the chat channel](set-up-chat-widget.md)
 - [Configure the SMS channel](configure-sms-channel.md)
 - [Configure the Facebook channel](configure-facebook-channel.md)
-- [Configure the voice channel](voice-channel-inbound-calling)
+- [Configure the voice channel](voice-channel-inbound-calling.md)
 
 ### Get a Power BI (free) subscription
 
