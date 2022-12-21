@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.reviewer: mhart
 ms.topic: article
 applies_to:
@@ -23,28 +23,46 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.79.18](/dynamics365/field-service/version-history#887918)  | TBD | 12/09/2022 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/02/2022 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/09/2022 |
-| | *USG* |  [8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/02/2022 |
-|**Station 4** |*Europe* | [8.8.78.23](/dynamics365/field-service/version-history#887823)  |  [8.8.79.18](/dynamics365/field-service/version-history#887918)  | 12/16/2022 |
-|**Station 5** |  *North America*| [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 12/02/2022 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 12/02/2022 |
-| | *Dedicated Scale Groups* | [8.8.77.41](/dynamics365/field-service/version-history#887741)  | [8.8.78.23](/dynamics365/field-service/version-history#887823) | 12/09/2022 |
+|**Station 1** |  *First Release*| [8.8.80.48](/dynamics365/field-service/version-history#888048)  | TBD | 01/06/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.80.48](/dynamics365/field-service/version-history#888048)  | TBD | 01/13/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/13/2023 |
+| | *USG* |  [8.8.80.48](/dynamics365/field-service/version-history#888048)  | TBD | 01/06/2023 |
+|**Station 4** |*Europe* | [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/13/2023 |
+|**Station 5** |  *North America*| [8.8.78.41](/dynamics365/field-service/version-history#887841) |[8.8.79.32](/dynamics365/field-service/version-history#887932) | 01/06/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.78.41](/dynamics365/field-service/version-history#887841) |[8.8.79.32](/dynamics365/field-service/version-history#887932) | 01/06/2023 |
+| | *Dedicated Scale Groups* | [8.8.78.41](/dynamics365/field-service/version-history#887841) |[8.8.79.32](/dynamics365/field-service/version-history#887932) | 01/13/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.80.48
+
+(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)) and Resource Scheduling controls version 1.2.34.223411).
+
+- Fixed a bug causing RTV substates to be lost after editing.
+- Fixed a problem preventing inventory transfer search from filtering results.
+
+## 8.8.79.32
+
+This release is a hotfix on Field Service version [8.8.79.18](/dynamics365/field-service/version-history#887918).
+
+- Field Service (Dynamics 365) mobile: Fixed keyboard visibility when interacting with entity lookup within an inspections question. 
+ 
 ## 8.8.79.18
 
-(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
+(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214) and Includes Resource Scheduling controls version 1.2.32.222981).
 
-- Dynamcis 365 Field Service Mobile: When exporting a PDF of inspections responses, images which were uploaded as part of the inspection will be sized to fit the page and maintain their original aspect ratio.
+- Field Service (Dynamics 365) mobile: When exporting a PDF of inspections responses, images which were uploaded as part of the inspection will be sized to fit the page and maintain their original aspect ratio.
 - Fixed a bug preventing the deletion of work order service tasks with the deletion of work orders
 - Fixed a bug showing inactive functional locations on work order location lookups.
 
+## 8.8.78.41
+
+This release is a hotfix on Field Service version [8.8.78.23](/dynamics365/field-service/version-history#887823).
+
+Field Service (Dynamics 365) mobile:  fixed a bug impacting Field Service **<8.8.78.23>** which intermittently resulted in an error when accessing the Booking Status control.
 
 ## 8.8.78.23
 
@@ -53,17 +71,17 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 - Fixed a bug that prevented showing the **View all** button during reflow of frontline worker setup.
 - Fixed a bug that prevented accessing the **Play** button via keyboard on Getting Started.
 - Sales Tax Code now shows quick create of taxable work orders.
-- Field Service (Dynamics 365) Mobile: Added support for advanced filtering of date/time on the calendar control.
+- Field Service (Dynamics 365) mobile: Added support for advanced filtering of date/time on the calendar control.
 
 ## 8.8.77.41
 
 (Includes Universal Resource Scheduling version [3.12.91.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312912)).
 
    - Fixed a bug causing an error when loading an existing knowledge article from work order or product forms.
-   - Field Service (Dynamics 365) Mobile: Improvements to device memory management while using the mobile application.
-   - Field Service (Dynamics 365) Mobile: Fixed a bug which was preventing the agenda view from being available on certain tablet models.
-   - Field Service (Dynamics 365) Mobile: Improved an error message that was shown when trying to mark a product as used from the service task sub-grid while the product is inactive.
-   - Field Service (Dynamics 365) Mobile: Fixed a bug which was preventing Inspections - File Type question from selecting multiple files.
+   - Field Service (Dynamics 365) mobile: Improvements to device memory management while using the mobile application.
+   - Field Service (Dynamics 365) mobile: Fixed a bug which was preventing the agenda view from being available on certain tablet models.
+   - Field Service (Dynamics 365) mobile: Improved an error message that was shown when trying to mark a product as used from the service task sub-grid while the product is inactive.
+   - Field Service (Dynamics 365) mobile: Fixed a bug which was preventing Inspections - File Type question from selecting multiple files.
 
    
 ## 8.8.76.55
@@ -81,8 +99,8 @@ No updates were made to Field Service (Dynamics 365) in this release.
 (Includes Universal Resource Scheduling version [3.12.90.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312902)).
 
 -	Fixed a bug in which the duration field is not copied from a requirement group template associated with an incident type to the work order.
-- Field Service Mobile: Tabs will persist on screen while scrolling down within a form, allowing a user to navigate to a new tab without scrolling to the top of the form. This feature is enabled by default for the Field Service Mobile app module and needs to be [enabled via App Settings for custom app modules](mobile-power-app-faq.yml#how-do-i-enable-wave-2-2022-enhancements-for-command-bar-and-form-tabs-for-my-field-service-mobile-application).
-- Field Service Mobile: When exporting inspections response to PDF, questions marked as not visible will not be exported and visible in the PDF. 
+- Field Service (Dynamics 365) mobile: Tabs will persist on screen while scrolling down within a form, allowing a user to navigate to a new tab without scrolling to the top of the form. This feature is enabled by default for the Field Service Mobile app module and needs to be [enabled via App Settings for custom app modules](mobile-power-app-faq.yml#how-do-i-enable-wave-2-2022-enhancements-for-command-bar-and-form-tabs-for-my-field-service-mobile-application).
+- Field Service (Dynamics 365) mobile: When exporting inspections response to PDF, questions marked as not visible will not be exported and visible in the PDF. 
 
 ## 8.8.75.142(2022 Wave 2 early access, update2)
 
@@ -96,8 +114,8 @@ This release is an update to Field Service 2022 Wave 2 early access version [8.8
 
 - Fixed a bug preventing setting visibility of a question through two rules in Inspection logic.
 - Fixed a bug preventing the create new button from appearing on Time Entry Screen when Offline Profile is enabled.
-- Field Service (Dynamics 365) Mobile: Improved device memory usage when accessing the Work Order Service Task Inspection control.
-- Field Service (Dynamics 365) Mobile: Fixed a bug so form validation won't run when the form is clean. This will reduce error “Validations have been restarted in the background because of inconsistent validation data.”
+- Field Service (Dynamics 365) mobile: Improved device memory usage when accessing the Work Order Service Task Inspection control.
+- Field Service (Dynamics 365) mobile: Fixed a bug so form validation won't run when the form is clean. This will reduce error “Validations have been restarted in the background because of inconsistent validation data.”
 
 ## 8.8.73.63
 
@@ -109,7 +127,7 @@ This release is an update to Field Service 2022 Wave 2 early access version [8.8
 - Fixed a bug that prevented setting Lat/Lon when a functional location’s address is partially updated.
 - Fixed a bug on inventory adjustment product form that created errors when the inventory transfer field is removed through customization.
 - Bing maps will now be enabled by default for non-EU regions, and resource scheduling will connect to maps by default.
-- Field Service Mobile: Added an app setting to enable 2022 Wave 2 changes to the mobile command bar. Changes include removing commands (Delete & Process) when not applicable to the user role, moving some underused commands to the end of the command list, and moving the command bar to top of the screen on tablet devices.
+- Field Service (Dynamics 365) mobile: Added an app setting to enable 2022 Wave 2 changes to the mobile command bar. Changes include removing commands (Delete & Process) when not applicable to the user role, moving some underused commands to the end of the command list, and moving the command bar to top of the screen on tablet devices.
 
 ## 8.8.75.59 (2022 Wave 2 early access, update1)
 
@@ -180,9 +198,9 @@ No updates were made to Field Service (Dynamics 365) in this release.
 
 (Includes Universal Resource Scheduling version [3.12.79.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127916)).
 
-- Field Service (Dynamics 365) Mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
-- Field Service (Dynamics 365) Mobile Bug Fix: Inspections File Picker will open correctly on the Windows application.
-- Field Service (Dynamics 365) Mobile: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product, which doesn't have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
+- Field Service (Dynamics 365) mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
+- Field Service (Dynamics 365) mobile: Inspections File Picker will open correctly on the Windows application.
+- Field Service (Dynamics 365) mobile : While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product, which doesn't have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
 - Add a condition to workflow (GenerateGeofenceWhenBookingIsCreated) to check that the Booking has a Work Order to avoid making unnecessary plugin calls.
 
 ## 8.8.67.16
@@ -223,10 +241,10 @@ This release is a hotfix on Field Service version [8.8.63.20](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.74.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312741)).
 
-- Field Service (Dynamics 365) mobile app will now use native mobile device controls when inputting date and time.
-- Field Service (Dynamics 365) mobile app will now display optimized mobile keyboards when interacting with fields of specific input type: numeric, decimal, telephone, email, and URL.
-- Field Service (Dynamics 365) mobile app timeline control will now support uploading files from the mobile device in addition to photos.
-- Field Service (Dynamics 365) mobile app will no longer show "Start Task Flow" within global commands by default.
+- Field Service (Dynamics 365) mobile will now use native mobile device controls when inputting date and time.
+- Field Service (Dynamics 365) mobile  will now display optimized mobile keyboards when interacting with fields of specific input type: numeric, decimal, telephone, email, and URL.
+- Field Service (Dynamics 365) mobile timeline control will now support uploading files from the mobile device in addition to photos.
+- Field Service (Dynamics 365) mobile will no longer show "Start Task Flow" within global commands by default.
 - Field Service (Dynamics 365) mobile Windows app will now include map view within the booking calendar control.
 - The **Customer** tab of the mobile bookable resource booking form will include a phone number field for the primary contact of the work order service account.
 - The **Customer** tab of the mobile bookable resource booking form will support an optional third row of text for street address.
@@ -235,16 +253,16 @@ This release is a hotfix on Field Service version [8.8.63.20](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.73.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127325)).
 
-- Field Service (Dynamics 365) mobile app: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
-- Field Service (Dynamics 365) mobile app: Enabled the agenda view on the booking calendar control for tablets and Windows devices.
-- Field Service (Dynamics 365) mobile app: Added customer phone number field to the out-of-the-box customer details tab on the bookable resource booking and work order forms.
+- Field Service (Dynamics 365) mobile: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
+- Field Service (Dynamics 365) mobile: Enabled the agenda view on the booking calendar control for tablets and Windows devices.
+- Field Service (Dynamics 365) mobile: Added customer phone number field to the out-of-the-box customer details tab on the bookable resource booking and work order forms.
 - Updated privacy messages on landing page for Bing Maps.
 
 ## 8.8.61.21
 
 This release is a hotfix on Field Service version [8.8.61.14](/dynamics365/field-service/version-history#886114).
 
-- Field Service (Dynamics 365) mobile app: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
+- Field Service (Dynamics 365) mobile: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
 
 ## 8.8.61.14
 
@@ -266,7 +284,7 @@ This release is a hotfix on Field Service version [8.8.60.18](/dynamics365/field
 
 - Field Service (Dynamics 365) mobile will correctly show times adjusted for daylight saving time on the booking calendar control.
 - Field Service admins will see a notification within Dynamics 365 Field Service if their organization is using Field Service Mobile (Xamarin app). This notification will inform users of the upcoming [end-of-Life](/dynamics365/field-service/activate-fs-mobile-app-license) timeline for Field Service Mobile (Xamarin app).
-- Fixed a bug in the Field Service (Dynamics 365) mobile app to prevent an intermittent error from displaying after selecting a push notification.
+- Field Service (Dynamics 365) mobile to prevent an intermittent error from displaying after selecting a push notification.
 
 ## 8.8.59.26
 
@@ -278,7 +296,7 @@ This release is a hotfix on Field Service version [8.8.59.22](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.70.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312703)).
 
-- Fixed a bug in Field Service (Dynamics 365) mobile where quick notes component will now respect maximum character length as defined in `msdyn_text`.
+- Field Service (Dynamics 365) mobile where quick notes component will now respect maximum character length as defined in `msdyn_text`.
 
 ## 8.8.58.9
 

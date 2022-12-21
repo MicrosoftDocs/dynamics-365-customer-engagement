@@ -24377,6 +24377,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/apply-remove-tags-seller.md",
+      "redirect_url": "manage-sequences-seller#apply-and-remove-tags-from-your-sequences",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/customer-service/oc-search-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/search-knowledge-articles-csh",
       "redirect_document_id": "false"
@@ -24474,6 +24479,21 @@
     {
       "source_path": "ce/field-service/mobile-project-version-history.md",
       "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-records.md",
+      "redirect_url": "migrate-config-data-for-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-live-chat.md",
+      "redirect_url": "migrate-config-data-for-live-chat",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-voice.md",
+      "redirect_url": "migrate-config-data-for-voice-channel",
       "redirect_document_id": "false"
     }
   ]
