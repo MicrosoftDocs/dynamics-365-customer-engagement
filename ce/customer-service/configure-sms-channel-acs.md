@@ -61,7 +61,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 ## Next steps
 
-[Create message templates](create-message-templates)
+[Create message templates](create-message-templates.md)  
 
 
 ### See also
