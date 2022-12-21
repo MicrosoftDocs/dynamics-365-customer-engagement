@@ -37,7 +37,7 @@ This document provides important, late-breaking information about known issues a
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - The date scheduler tile in customer journeys doesn't display dates according to the Japanese imperial calendar (including in Japanese localizations). <!--- 1460626 -->
 - [Export to Excel](export-journey.md) functionality is limited to 10,000 records. <!--- 1914934 -->
-- A journey with too many tiles can overload the Marketing services. To overcome potential service disruptions, use a [splitter tile](https://learn.microsoft.com/en-us/dynamics365/marketing/customer-journey-tiles-reference#branches).
+- A journey with too many tiles can overload the Marketing services. To overcome potential service disruptions, use a [splitter tile](customer-journey-tiles-reference.md#branches).
 
 ## Designer feature protection
 
