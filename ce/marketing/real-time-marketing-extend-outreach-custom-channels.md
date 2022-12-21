@@ -25,13 +25,13 @@ Marketing currently offers three types of native channels: **Email**, **Push** a
 
 Custom channels can be implemented as part of a Dataverse solution. The steps and actions required to create a custom channel are listed below:
 
-1.	Define your extended configuration entity for Channel Instance 
-2.	Define your extended configuration entity for the Channel Instance account   - SMS only
-3.	Define your Message parts ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
-4.	Define your localization for the Admin UI - Optional
-5.	Define the Message editor UI - Optional
-6.	Define your Custom APIs
-7.	Define your Channel Definition ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
+1.	[Define your extended configuration entity for Channel Instance](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-custom-channel-instance)
+2.	[Define your extended configuration entity for the Channel Instance account](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-instance-account)   - SMS only
+3.	[Define your Message parts](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-message-parts) ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
+4.	[Define your localization for the Admin UI](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-localization-admin) - Optional
+5.	[Define your Message editor interface](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-message-editor) - Optional
+6.	[Define your Custom APIs](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-custom-channel-custom-api)
+7.	[Define your Channel Definition](https://learn.microsoft.com/en-us/dynamics365/marketing/real-time-marketing-define-channel-definition) ([solution aware component](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/OneCRM.wiki/30527/Solution-Aware-Entities))
 
 Marketing already provides base components for the custom channel creation: the **required entities** like msdyn_chaneldefinition, msdyn_channelmessagepart, msdyn_channelocale, msdyn_channelinstanceaccout and msdyn_channelinstance. Along with the entity metadata, it provides **Custom APIs** that should be called from your custom solution’s plugins in order to proxy the data to Dataverse.
 
