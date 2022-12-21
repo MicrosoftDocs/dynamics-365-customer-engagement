@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Service quotas
 
-This article outlines the service quotas, including those that can be adjusted for Dynamics 365 Customer Service **Digital Messaging and Voice Add-in**, **Digital Messaging Add-in**, and **Voice Add-in**. 
+This article outlines the service quotas, including those that can be adjusted for **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**, **Dynamics 365 Customer Service Digital Messaging add-on**, and ***Dynamics 365 Customer Service Voice Channel Add-in**. 
 
 > [!NOTE]
 > - All measures are at an organizational level for all licensed organizations. The measures don't apply to trial or other non-licensed organizations.
@@ -48,7 +48,7 @@ This article outlines the service quotas, including those that can be adjusted f
 | Bulk user provisioning  | Number of users that can be added (using role attachment) in a single update |  | 500 per 15 minutes<sup>1</sup> |  Yes   |
 | Bulk user updates  |  Number of users whose attributes like skills, capacity profiles, amd queue membership that can be edited in a single bulk update   |   | 25 users<sup>1</sup>  | Yes   |
 | Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in a bulk  | | 500 per 15 minutes<sup>1</sup>   | Yes   |
-| Dataverse Storage Entitlement (aggregated at tenant level)  |  Dataverse storage entitlement based on license, includes SQL/DB, file and log storage in Microsoft Dataverse. <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). | <li>Base storage per tenant<br><br><li>Additional storage per Customer Service license <br><br><li>Additional file storage for Voice add-in<br> |<li> 32 GB per tenant<sup>2</sup><br><br><br><li>2.25 GB per user<sup>3</sup><br><br><br><br> <li>35 GB per user<sup>4</sup><br><br><br>| Additional Dataverse storage can be purchased     |
+| Dataverse Storage Entitlement (aggregated at tenant level)  |  Microsoft Dataverse storage entitlement based on license, includes SQL/DB, file, and log storage in Dataverse. <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). | <li>Base storage per tenant<br><br><li>Additional storage per Customer Service license <br><br><li>Additional file storage for Voice add-in<br> |<li> 32 GB per tenant<sup>2</sup><br><br><br><li>2.25 GB per user<sup>3</sup><br><br><br><br> <li>35 GB per user<sup>4</sup><br><br><br>| Additional Dataverse storage can be purchased     |
 | Time for configuration updates to take effect (includes channel and routing settings, and updates to agent skills, capacity profile, and calendar)  | Maximum time for configuration changes to reflect in the user experience |  All | 15 minutes  |    No  |
 | Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | All   | 100 conversations or work items<sup>5</sup>   |  Yes  |
 |||||
