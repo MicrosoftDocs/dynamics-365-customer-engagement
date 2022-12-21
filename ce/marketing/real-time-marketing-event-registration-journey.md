@@ -41,10 +41,10 @@ To create this journey, you need to first make sure that you have some prerequis
 
 To begin the event registration process, you’ll need access to the following assets:
 
-1. **Event:** You can use the Marketing app to create an in-person or online event. Creating an event is beyond the scope of this article, but you can learn more here: Set up an event.
-1. **Triggers:** Triggers allow you to respond to customer activities in real time. You’ll use three triggers that are included out-of-the-box with the Marketing app: Marketing Event Registration Created, Marketing Event Check-in, and Marketing Event Registration Canceled. Learn more: Real-time marketing triggers.
-1. **Email:** Before you create your journey, you’ll need to create emails to welcome attendees, remind attendees of the event, thank attendees, and tell people who didn’t attend that you missed them. Learn more: Create a new email and design its content.
-1. **Text message:** One text message is required for the last hour reminder before the event. Text messages allow you to communicate with customers directly through their mobile devices. Learn more: Create outbound text messages.
+1. **Event**: You can use the Marketing app to create an in-person or online event. Creating an event is beyond the scope of this article, but you can learn more here: [Set up an event](set-up-event.md).
+1. **Triggers**: Triggers allow you to respond to customer activities in real time. You’ll use three triggers that are included out-of-the-box with the Marketing app: Marketing Event Registration Created, Marketing Event Check-in, and Marketing Event Registration Canceled. Learn more: [Real-time marketing triggers](real-time-marketing-triggers.md).
+1. **Email**: Before you create your journey, you’ll need to create emails to welcome attendees, remind attendees of the event, thank attendees, and tell people who didn’t attend that you missed them. Learn more: [Create a new email and design its content](email-design.md).
+1. **Text message**: One text message is required for the last hour reminder before the event. Text messages allow you to communicate with customers directly through their mobile devices. Learn more: [Create outbound text messages](real-time-marketing-outbound-text-messaging.md).
 
 ## Step 1: Send a welcome email when a user registers for the event
 
