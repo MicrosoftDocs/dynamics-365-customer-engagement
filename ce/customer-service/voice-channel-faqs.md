@@ -13,6 +13,10 @@ ms.topic: article
 
 This article includes frequently asked questions (FAQ) about the voice channel.
 
+### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
+
+No, overflow settings aren't applicable to fallback queues. The settings are ignored and work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-overflow-works)
+
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
 Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
