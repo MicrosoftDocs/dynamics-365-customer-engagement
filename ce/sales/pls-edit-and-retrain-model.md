@@ -14,7 +14,7 @@ manager: shujoshi
 When the prediction accuracy of a scoring model doesn't meet your expectations, or a model duplicates an existing one, you can edit the model's attributes and retrain it. 
 
 > [!NOTE]
-> Real-time scoring for leads is introduced in the December 2022 update. If you have models that were published before December 2022, edit the model to enable it for real-time scoring.  
+> Real-time scoring for leads is introduced in the January 2023 update. If you have models that were published before January 2023, edit and publish the model again to enable it for real-time scoring.  
 
 ## License and role requirements
 

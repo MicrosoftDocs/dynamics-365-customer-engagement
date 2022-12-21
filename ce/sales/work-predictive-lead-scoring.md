@@ -10,7 +10,7 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Prioritize leads through scores 
+# Prioritize leads through scores  
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 
@@ -35,12 +35,17 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
 
 ## Real-time scoring
 
-Real time scoring is supported for new leads that are scored by models created or edited after December 2022. The score will be displayed within five minutes of saving or importing a new lead, and refreshing the lead page. If you don't see the score within five minutes, contact your administrator to [edit and retrain](pls-edit-and-retrain-model.md) the scoring model.
+With real-time scoring, new leads are scored in near real-time. The score will be calculated within five to ten minutes of saving or importing a new lead; refresh the lead page to view the score.  
 
-Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.
+The following considerations apply for real-time scoring:
 
-> [!NOTE]
-> Business process flows are not taken into consideration for real-time scoring. So, if you have different models that score leads purely based on business process flows, one of the models will be used to score the new lead. To score such leads using the appropriate model, update the lead and wait for the daily scoring job to complete.  
+- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads. 
+    > [!NOTE]
+    > The feature is being rolled out in phased manner across different geographic regions. To verify whether the feature is available in your region, see the **Next Refresh Scheduled Date** for version 9.0.21072.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365sales) section.
+
+- Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.
+- Business process flows are not taken into consideration for real-time scoring. Lets say you have different models, for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow. 
+  
 
 ## Understand predictive lead scoring in views
 
