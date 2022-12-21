@@ -1,6 +1,6 @@
 ---
 title: Service quotas 
-description: Use this article for details about the service quotas for unified routing and omnichannel implementations 
+description: Use this article for details about the service quotas for unified routing and omnichannel implementations. 
 author: mh-jaya 
 ms.author: v-jmh 
 ms.reviewer: nenellim 
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Service quotas
 
-This article outlines the service quotas, including those quotas that can be adjusted for **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**, **Dynamics 365 Customer Service Digital Messaging add-on**, and ***Dynamics 365 Customer Service Voice Channel Add-in**. 
+This article outlines the service quotas, including those quotas that can be adjusted for **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**, **Dynamics 365 Customer Service Digital Messaging add-on**, and **Dynamics 365 Customer Service Voice Channel Add-in**. 
 
 > [!NOTE]
 > - All measures are at an organizational level for all licensed organizations. The measures don't apply to trial or other non-licensed organizations.
