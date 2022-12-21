@@ -1,11 +1,13 @@
 ---
 title: Manage bookmarks for reports | MicrosoftDocs
-description: "Create bookmarks for reports and save personalized views of your reports."
-ms.date: 12/12/2022
-ms.topic: article
+description: Create bookmarks for reports and save personalized views of your reports.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.service: dynamics-365
+ms.topic: how-to
+ms.date: 12/12/2022
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Manage bookmarks for reports
@@ -26,6 +28,22 @@ Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to t
 - Omnichannel agent
 
 For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+
+## Report groups
+
+Reports are grouped into the following categories and subcategories. 
+- Omnichannel historical analytics reports
+    - Conversation, Queue, Agent, Topics
+    - Voice 
+    - Unified routing
+- Customer Service historical analytics reports
+    - Summary, Agent, Topics
+- Knowledge analytics reports 
+    - Search Term Insights
+    - Article Insights
+
+A bookmark created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. 
+For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, Agent, and Topics, and won't include filters for voice or unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups.
 ## Create and manage bookmarks
 
 1. In Customer Service workspace or Omnichannel for Customer Service, open one of the following reports:
@@ -55,8 +73,11 @@ For more information on configuring user access to analytics and dashboards, see
 1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update Bookmark**.
 
 
+
 ### See also
 
 [Customer Service dashboards](customer-service-analytics-insights-csh.md)  
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md)  
 [Knowledge analytics](knowledge-search-analytics-cs.md)  
+
+
