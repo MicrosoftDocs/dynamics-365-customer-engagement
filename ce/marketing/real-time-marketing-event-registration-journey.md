@@ -113,7 +113,7 @@ When sending timed reminders, the first instinct of many Marketing users is to a
  9. Then, to send the second reminder after the Wait element expires, select the **+** after the Wait element, add a **Send an email** element, and select your second reminder email.
 
 > [!div class="mx-imgBorder"]
-> ![event reminder](media/event-engagement-event-reminder2.png "event reminder")
+> ![event reminder2](media/event-engagement-event-reminder2.png "event reminder2")
 
 **Step 3: Send a text message or email reminder one hour before the event**
 
@@ -154,7 +154,7 @@ The final step of the journey is to send a response based on whether the recipie
  5. Next, you need to set an email to send to journey participants who didn't check into the event. In the **No** branch of the if/then check-in element, select the + and add a **Send an email** action. Select your “sorry we missed you” email.
 
 > [!div class="mx-imgBorder"]
-> ![thank you email](media/event-engagement-event-thank-you.png "thank you email")
+> ![thank you email](media/event-engagement-thank-you.png "thank you email")
 
 ### Event engagement journey wrap-up
 
@@ -165,4 +165,4 @@ You’ve now built a journey that thanks event attendees for registering, sends 
 Real-time marketing triggers provide a straightforward solution if a journey participant cancels their event registration while they’re in the middle of the journey. To drop the canceled participant out of the journey, select the **Marketing Event Registration Created** trigger at the top of the journey. In the right pane, select the **Edit** link to the right of **End**. Then, under **Exit when a trigger occurs**, search for **Marketing Event Registration Canceled**. Now, when a participant cancels their registration, they'll be removed from the journey and won't receive further notifications.
 
 > [!div class="mx-imgBorder"]
-> ![registration canceled](media/event-engagement-event-create-canceled.png "registration canceled")
+> ![registration canceled](media/event-engagement-create-canceled.png "registration canceled")
