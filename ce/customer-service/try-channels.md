@@ -12,8 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 Channels, for example, Live Chat and SMS, are the engagement channels that enable your agents to connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Omnichannel for Customer Service:
