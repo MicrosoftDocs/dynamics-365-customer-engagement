@@ -35,7 +35,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
  This sample shows how to create an opportunity that contains a product from the product catalog and from a write-in product.  
   
 ## Example  
- [!code-csharp[BusinessManagement#CreateOpportunity](../snippets/csharp/CRMV8/businessmanagement/cs/createopportunity.cs#createopportunity)]  
+ [!code-csharp[BusinessManagement#CreateOpportunity](../../snippets/csharp/CRMV8/businessmanagement/cs/createopportunity.cs#createopportunity)]  
   
 ### See also  
     

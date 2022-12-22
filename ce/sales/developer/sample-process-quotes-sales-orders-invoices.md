@@ -36,7 +36,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
  This sample shows how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice. It also shows how to lock and unlock the sales order and the invoice prices.  
   
 ## Example  
- [!code-csharp[BusinessManagement#ProcessingQuotesAndSalesOrders](../snippets/csharp/CRMV8/businessmanagement/cs/processingquotesandsalesorders.cs#processingquotesandsalesorders)]  
+ [!code-csharp[BusinessManagement#ProcessingQuotesAndSalesOrders](../../snippets/csharp/CRMV8/businessmanagement/cs/processingquotesandsalesorders.cs#processingquotesandsalesorders)]  
   
 ### See also  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   

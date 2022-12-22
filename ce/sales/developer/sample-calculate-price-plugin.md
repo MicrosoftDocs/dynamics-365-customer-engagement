@@ -45,7 +45,7 @@ This sample code is for Dynamics 365 Sales. Download the sample: [Work with cust
   For more information, see [Use custom pricing for products](use-custom-pricing-products.md).  
   
 ## Example  
- [!code-csharp[Plug-Ins#CalculatePricePlugin](../snippets/csharp/CRMV8/plug-ins/cs/calculatepriceplugin.cs#calculatepriceplugin)]  
+ [!code-csharp[Plug-Ins#CalculatePricePlugin](../../snippets/csharp/CRMV8/plug-ins/cs/calculatepriceplugin.cs#calculatepriceplugin)]  
   
 ### See also  
  [Use custom pricing for products](use-custom-pricing-products.md)   

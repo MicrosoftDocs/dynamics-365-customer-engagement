@@ -35,7 +35,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
  This sample shows how to set negative prices in opportunities, quotes, and sales orders.  
   
 ## Example  
- [!code-csharp[BusinessManagement#workingwithnegativeprices](../snippets/csharp/CRMV8/businessmanagement/cs/workingwithnegativeprices.cs#workingwithnegativeprices)]  
+ [!code-csharp[BusinessManagement#workingwithnegativeprices](../../snippets/csharp/CRMV8/businessmanagement/cs/workingwithnegativeprices.cs#workingwithnegativeprices)]  
   
 ### See also  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   

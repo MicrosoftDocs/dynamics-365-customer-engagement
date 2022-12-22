@@ -37,7 +37,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
  This sample shows how to qualify a lead and create an account, contact, or opportunity based on the lead.  
   
 ## Example  
- [!code-csharp[BusinessManagement#WorkingWithLeads](../snippets/csharp/CRMV8/businessmanagement/cs/workingwithleads.cs#workingwithleads)]  
+ [!code-csharp[BusinessManagement#WorkingWithLeads](../../snippets/csharp/CRMV8/businessmanagement/cs/workingwithleads.cs#workingwithleads)]  
   
 ### See also  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   

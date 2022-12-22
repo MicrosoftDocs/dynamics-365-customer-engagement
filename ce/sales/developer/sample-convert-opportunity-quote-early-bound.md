@@ -37,7 +37,7 @@ This sample code is for Dynamics 365 Sales. [Download the business management sa
  This sample shows how to convert an opportunity that contains products from the product catalog and a write-in product to a quote. It also illustrates how to overwrite a price of a product from the product catalog.  
   
 ## Example  
- [!code-csharp[BusinessManagement#ConvertOpportunityToQuote](../snippets/csharp/CRMV8/businessmanagement/cs/convertopportunitytoquote.cs#convertopportunitytoquote)]  
+ [!code-csharp[BusinessManagement#ConvertOpportunityToQuote](../../snippets/csharp/CRMV8/businessmanagement/cs/convertopportunitytoquote.cs#convertopportunitytoquote)]  
   
 ### See also  
     

@@ -35,7 +35,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
  This sample shows how to create a sales order and then close it by fulfilling it.  
   
 ## Example  
- [!code-csharp[BusinessManagement#FulfillSalesOrder](../snippets/csharp/CRMV8/businessmanagement/cs/fulfillsalesorder.cs#fulfillsalesorder)]  
+ [!code-csharp[BusinessManagement#FulfillSalesOrder](../../snippets/csharp/CRMV8/businessmanagement/cs/fulfillsalesorder.cs#fulfillsalesorder)]  
   
 ### See also  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   

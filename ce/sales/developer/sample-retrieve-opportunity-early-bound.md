@@ -35,7 +35,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
  This sample shows how to retrieve an opportunity and products related to the opportunity.  
   
 ## Example  
- [!code-csharp[BusinessManagement#RetrieveOpportunity](../snippets/csharp/CRMV8/businessmanagement/cs/retrieveopportunity.cs#retrieveopportunity)]  
+ [!code-csharp[BusinessManagement#RetrieveOpportunity](../../snippets/csharp/CRMV8/businessmanagement/cs/retrieveopportunity.cs#retrieveopportunity)]  
   
 ### See also  
     

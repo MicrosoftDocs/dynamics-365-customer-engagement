@@ -31,7 +31,7 @@ This sample code is for Dynamics 365 Sales. [Download the Product Catalog sample
  This sample shows how to clone a product record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Clone a product family, product, or bundle](create-manage-product-families-products-bundles-product-properties.md#Clone)  
   
 ## Example  
- [!code-csharp[ProductCatalog#CloneProducts](../snippets/csharp/CRMV8/productcatalog/cs/cloneproducts.cs#cloneproducts)]  
+ [!code-csharp[ProductCatalog#CloneProducts](../../snippets/csharp/CRMV8/productcatalog/cs/cloneproducts.cs#cloneproducts)]  
   
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
