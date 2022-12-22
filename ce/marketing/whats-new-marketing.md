@@ -42,6 +42,11 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
 >
 > In the future, all users will be migrated to make use of these new tables. For the time being, only users who have opted into the real-time marketing forms preview will have their data automatically migrated.
 
+> [!IMPORTANT]
+> As of December 2022, consent enforcement for real-time customer journeys for **Contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you continue using the **Restrictive** enforcement setting, this change will result in emails not being sent from Real-time marketing journeys to Contacts who have not opted in. This change will not impact outbound marketing journeys.
+>
+> To revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing. Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
+
 ### Version number
 
 | App              | GA release      |
