@@ -80,7 +80,7 @@ Accept: application/json
     "msdynmkt_baseentitylogicalname": "contact", 
     // StateCode below 
     "statecode": 1,
-    // SegmentStatusCode below: Inactive if segment definition is in *Draft* state; exporting if segment definition is in *Publishing* state
+    // SegmentStatusCode below: Inactive if segment definition is in Draft state; exporting if segment definition is in Publishing state
     "statuscode": 2,
     "msdynmkt_sourcesegmentuid": "<segment definition ID>", 
     // If any
