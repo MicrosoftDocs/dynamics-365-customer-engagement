@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/01/2022
+ms.date: 12/22/2022
 ms.topic: article
 
 ---
@@ -97,7 +97,7 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Transfer to a different queue**
         - **Transfer to an external number**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information on how wait time is calculated, see [Show customers their average wait time in a queue](average-wait-time.md).
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. To calculate the estimated wait time for the queue, the system takes the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. For example, if a customer calls on a Thursday at 5:00 PM, the estimated wait time is calculated by taking the average of wait times of all the calls from Tuesday at 5:00 PM (previous 48 hours), provided 50 or more calls are in queue. If the number of calls is less than 50, the estimated wait time overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
 
         - **Direct callback (preview)**
         - **End call**
