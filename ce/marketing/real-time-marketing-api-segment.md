@@ -76,14 +76,14 @@ Accept: application/json
     "msdynmkt_type": 10,  
     // RealTimeMarketingSource 12
     "msdynmkt_source": 12,
-    // Set to contact, lead, or any custom table that represents the type of member who will be in the segment.
-    // As of the publish date of this article, real-time marketing only supports contacts and leads.
+    // Set to contact, lead, or any custom table that represents the type of member who will be in the segment
+    // As of the publish date of this article, real-time marketing only supports contacts and leads
     "msdynmkt_baseentitylogicalname": "contact", 
     // StateCode below 
     "statecode": 1,
     // SegmentStatusCode below
-    // Inactive if segment definition is in Draft state. 
-    // Exporting if segment definition is in Publishing state.
+    // Inactive if segment definition is in Draft state
+    // Exporting if segment definition is in Publishing state
     "statuscode": 2,
     "msdynmkt_sourcesegmentuid": "<segment definition ID>", 
     // If any
