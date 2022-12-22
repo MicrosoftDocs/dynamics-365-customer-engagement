@@ -380,8 +380,8 @@
         href: real-time-marketing-developer-notifications.md
       - name: Reference guide for real-time marketing interactions
         href: real-time-marketing-interactions-reference.md
-      - href: Create a real-time marketing segment using the Web API
-        name: real-time-marketing-api-segment.md
+      - name: Create a real-time marketing segment using the Web API
+        href: real-time-marketing-api-segment.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
