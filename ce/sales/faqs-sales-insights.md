@@ -284,7 +284,7 @@ Verify that the leads and opportunities are created on or after January 01, in t
 
 ### Why aren't my leads scored in real-time?
 
-Real-time scoring is supported only for new leads. Contact your administrator to verify whether the model that's scoring the new lead is created or edited, and published after January 2023. More information: [Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)
+Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. For more information, see [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring). 
 
 
 ### Can I customize the model?

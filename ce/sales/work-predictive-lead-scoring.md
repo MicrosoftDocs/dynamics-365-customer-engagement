@@ -35,16 +35,16 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
 
 ## Real-time scoring
 
-With real-time scoring, new leads are scored in near real-time. The score will be calculated within five to ten minutes of saving or importing a new lead; refresh the lead page to view the score.  
+With real-time scoring, new leads are scored in near real-time. The score will be calculated within a few minutes of saving or importing a new lead; refresh the lead page to view the score.  
 
 The following considerations apply for real-time scoring:
 
-- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads. 
+- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads.
     > [!NOTE]
-    > The feature is being rolled out in phased manner across different geographic regions. To verify whether the feature is available in your region, see the **Next Refresh Scheduled Date** for version 9.0.21072.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365sales) section.
+    > The feature is being rolled out in phased manner across different geographic regions. To verify whether the feature is available in your region, see the **Next Refresh Scheduled Date** for version *version-number* in the [Latest version availability](released-versions/dynamics365salesinsights) section.
 
 - Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.
-- Business process flows are not taken into consideration for real-time scoring. Lets say you have different models, for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow. 
+- Business process flows are not taken into consideration for real-time scoring. Lets say you have different models for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow.   
   
 
 ## Understand predictive lead scoring in views

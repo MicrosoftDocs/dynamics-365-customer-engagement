@@ -14,7 +14,7 @@ manager: shujoshi
 When the prediction accuracy of a scoring model doesn't meet your expectations, or a model duplicates an existing one, you can edit the model's attributes and retrain it. 
 
 > [!NOTE]
-> Real-time scoring for leads is introduced in the January 2023 update. If you have models that were published before January 2023, edit and publish the model again to enable it for real-time scoring.  
+> Models that were published before the real-time scoring feature was rolled out need to be edited and published again to be used for real-time scoring. The feature is being rolled out in phased manner across different geographic regions. To verify whether the feature is available in your region, see the **Next Refresh Scheduled Date** for version *version-number* in the [Latest version availability](released-versions/dynamics365salesinsights) section.
 
 ## License and role requirements
 
