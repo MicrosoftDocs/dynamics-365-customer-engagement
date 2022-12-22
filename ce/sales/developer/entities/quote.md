@@ -1,13 +1,13 @@
 ---
-title: "Quote table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Quote table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Quote table/entity."
-ms.date: 12/01/2022
-ms.service: "powerapps"
+ms.date: 12/22/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "margoc"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -29,29 +29,29 @@ Formal offer for products and/or services, proposed at specific prices and relat
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Assign|PATCH [*org URI*]/api/data/v9.2/quotes(*quoteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
 |CalculatePrice|<xref href="Microsoft.Dynamics.CRM.CalculatePrice?text=CalculatePrice Action" />|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
 |CloseIncident|<xref href="Microsoft.Dynamics.CRM.CloseIncident?text=CloseIncident Action" />|<xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest>|
 |CloseQuote|<xref href="Microsoft.Dynamics.CRM.CloseQuote?text=CloseQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.CloseQuoteRequest>|
 |ConvertQuoteToSalesOrder|<xref href="Microsoft.Dynamics.CRM.ConvertQuoteToSalesOrder?text=ConvertQuoteToSalesOrder Action" />|<xref:Microsoft.Crm.Sdk.Messages.ConvertQuoteToSalesOrderRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/quotes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.2/quotes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/quotes(*quoteid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
 |GenerateQuoteFromOpportunity|<xref href="Microsoft.Dynamics.CRM.GenerateQuoteFromOpportunity?text=GenerateQuoteFromOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>|
 |GetQuantityDecimal|<xref href="Microsoft.Dynamics.CRM.GetQuantityDecimal?text=GetQuantityDecimal Function" />|<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
 |GetQuoteProductsFromOpportunity|<xref href="Microsoft.Dynamics.CRM.GetQuoteProductsFromOpportunity?text=GetQuoteProductsFromOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.GetQuoteProductsFromOpportunityRequest>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/quotes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/quotes(*quoteid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/quotes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |ReviseQuote|<xref href="Microsoft.Dynamics.CRM.ReviseQuote?text=ReviseQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/quotes(*quoteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/quotes(*quoteid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |WinOpportunity|<xref href="Microsoft.Dynamics.CRM.WinOpportunity?text=WinOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
 |WinQuote|<xref href="Microsoft.Dynamics.CRM.WinQuote?text=WinQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
 
@@ -2176,104 +2176,11 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-- [quote_QuoteCloses](#BKMK_quote_QuoteCloses)
-- [lk_opportunitysalesprocess_quoteid](#BKMK_lk_opportunitysalesprocess_quoteid)
-- [quote_details](#BKMK_quote_details)
-- [quote_orders](#BKMK_quote_orders)
-- [Quote_QuoteClose](#BKMK_Quote_QuoteClose)
-
-
-### <a name="BKMK_quote_QuoteCloses"></a> quote_QuoteCloses
-
-Same as the [quote_QuoteCloses](quoteclose.md#BKMK_quote_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quoteclose|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|quote_QuoteCloses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_lk_opportunitysalesprocess_quoteid"></a> lk_opportunitysalesprocess_quoteid
-
-Same as the [lk_opportunitysalesprocess_quoteid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_quoteid) many-to-one relationship for the [opportunitysalesprocess](opportunitysalesprocess.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|opportunitysalesprocess|
-|ReferencingAttribute|quoteid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|quote_opportunitysalesprocess|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_quote_details"></a> quote_details
-
-Same as the [quote_details](quotedetail.md#BKMK_quote_details) many-to-one relationship for the [quotedetail](quotedetail.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quotedetail|
-|ReferencingAttribute|quoteid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|quote_details|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_quote_orders"></a> quote_orders
-
-Same as the [quote_orders](salesorder.md#BKMK_quote_orders) many-to-one relationship for the [salesorder](salesorder.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|salesorder|
-|ReferencingAttribute|quoteid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|quote_orders|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_Quote_QuoteClose"></a> Quote_QuoteClose
-
-Same as the [Quote_QuoteClose](quoteclose.md#BKMK_Quote_QuoteClose) many-to-one relationship for the [quoteclose](quoteclose.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quoteclose|
-|ReferencingAttribute|quoteid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|Quote_QuoteClose|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
-
-- [quote_customer_accounts](#BKMK_quote_customer_accounts)
-- [quote_customer_contacts](#BKMK_quote_customer_contacts)
-- [opportunity_quotes](#BKMK_opportunity_quotes)
-- [price_level_quotes](#BKMK_price_level_quotes)
-- [campaign_quotes](#BKMK_campaign_quotes)
 
 
 ### <a name="BKMK_quote_customer_accounts"></a> quote_customer_accounts
@@ -2282,59 +2189,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See the [quote_customer_accounts](account.md#BKMK_quote_customer_accounts) one-to-many relationship for the [account](account.md) table/entity.
 
-### <a name="BKMK_quote_customer_contacts"></a> quote_customer_contacts
-
-**Added by**: System Solution Solution
-
-See the [quote_customer_contacts](contact.md#BKMK_quote_customer_contacts) one-to-many relationship for the [contact](contact.md) table/entity.
-
-### <a name="BKMK_opportunity_quotes"></a> opportunity_quotes
-
-See the [opportunity_quotes](opportunity.md#BKMK_opportunity_quotes) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
-
-### <a name="BKMK_price_level_quotes"></a> price_level_quotes
-
-**Added by**: Product Management Solution
-
-See the [price_level_quotes](pricelevel.md#BKMK_price_level_quotes) one-to-many relationship for the [pricelevel](pricelevel.md) table/entity.
-
-### <a name="BKMK_campaign_quotes"></a> campaign_quotes
-
-**Added by**: Marketing Solution
-
-See the [campaign_quotes](campaign.md#BKMK_campaign_quotes) one-to-many relationship for the [campaign](campaign.md) table/entity.
-<a name="manytomany"></a>
-
-## Many-To-Many Relationships
-
-Relationship details provided where the Quote table is the first table in the relationship. Listed by **SchemaName**.
-
-
-### <a name="BKMK_contactquotes_association"></a> contactquotes_association
-
-IntersectEntityName: contactquotes<br />
-#### Table 1
-
-|Property|Value|
-|--------|-----|
-|IntersectAttribute|quoteid|
-|IsCustomizable|False|
-|LogicalName|quote|
-|NavigationPropertyName|contactquotes_association|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-
-#### Table 2
-
-|Property|Value|
-|--------|-----|
-|LogicalName|contact|
-|IntersectAttribute|contactid|
-|NavigationPropertyName|contactquotes_association|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-
-
 ### See also
 
 [About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.quote?text=quote EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
