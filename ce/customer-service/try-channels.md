@@ -1,7 +1,7 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 12/21/2022
+ms.date: 12/22/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -65,7 +65,7 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
    - Dynamics 365 Customer Service Voice Channel Add-in Trial
    - Dynamics 365 Customer Service Digital Messaging and Voice Add-in Trial
-1. Select **Details**, and on the page that appears, select **Start free trial** to complete your purchase.
+1. Select **Details**, and on the page that appears, select **Start free trial** to complete your purchase. You must assign the trial to your account to be able to see the voice trial for provisioning.
 
 1. Provision the channel in your environment by following the steps mentioned in the next section of this article.
 
