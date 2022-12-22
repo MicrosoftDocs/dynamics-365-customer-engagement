@@ -95,7 +95,7 @@ You can transfer conversations from one bot to another with different primary la
 - The preconfigured entities for the bot such as postal code might not be accurate. 
 - A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached. 
 
-### Can I recover a voice trial after it's no longer provisioned?
+### Can I recover data and phone numbers from a voice trial organization after it has expired?
 
 No, you can't recover your data and trial phone numbers after the trial organization has expired and has been deprovisioned.
 
