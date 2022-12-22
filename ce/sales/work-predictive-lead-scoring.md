@@ -39,13 +39,12 @@ With real-time scoring, new leads are scored in near real-time. The score will b
 
 The following considerations apply for real-time scoring:
 
-- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads.
+- Models that were created or edited, and published after the feature rollout are only used for scoring the new leads. So, if a new lead is not scored within 15 minutes of saving or importing the lead, verify that the models was published after the feature rollout.  
     > [!NOTE]
     > The feature is being rolled out in phased manner across different geographic regions. To verify whether the feature is available in your region, see the **Next Refresh Scheduled Date** for version *version-number* in the [Latest version availability](released-versions/dynamics365salesinsights) section.
 
-- Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.
 - Business process flows are not taken into consideration for real-time scoring. Lets say you have different models for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow.   
-  
+- Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.  
 
 ## Understand predictive lead scoring in views
 
