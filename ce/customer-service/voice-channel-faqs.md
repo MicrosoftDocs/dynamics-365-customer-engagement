@@ -23,7 +23,7 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-Getting registered as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear roadmap to provide calling plans in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers for calling providers with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
+To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. As of January 2022, Azure Communication Services provides toll-free and local numbers for calling providers with billing postal codes in United States, Puerto Rico, United Kingdom, and Ireland.
 
 An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
@@ -93,10 +93,8 @@ Yes, the primary language of the bot must be the same as that of the voice works
 If you configure different locales:
 - The bot's accuracy will depend on the similarities between the two locales. 
 - The preconfigured entities for the bot such as postal code might not be accurate. 
-- You won't be able to do bot-to-bot transfer such as transfer a conversation from an **English-UK** bot to an **English-US** bot. To do so, you'll need to make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached.
-
-> [!Note]
-> You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. 
+- You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. 
+- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
