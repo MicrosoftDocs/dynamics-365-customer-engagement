@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2022
+ms.date: 12/22/2022
 ms.topic: article
 
 ---
@@ -12,6 +12,10 @@ ms.topic: article
 # FAQ about the voice channel in Omnichannel for Customer Service
 
 This article includes frequently asked questions (FAQ) about the voice channel.
+
+### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
+
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-overflow-works)
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 

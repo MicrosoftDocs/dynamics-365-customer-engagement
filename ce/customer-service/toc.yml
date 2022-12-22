@@ -682,6 +682,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: How to avoid call disconnection
+        href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
       - name: Transfer calls and consult with other users
         href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
