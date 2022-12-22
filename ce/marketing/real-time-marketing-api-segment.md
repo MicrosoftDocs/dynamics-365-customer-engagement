@@ -19,7 +19,7 @@ search.app:
 
 # Create a real-time marketing segment using the Web API
 
-You can create a real-time marketing segment using the Web API by following the same approach you would to [create any entity in a Power App](/power-apps/developer/data-platform/webapi/create-entity-web-api#basic-create). You need to create two entities when creating a real-time marketing segment: **msdynmkt_segmentdefinitions** and **msdynmkt_segments**. The following article shows how to create these entities.
+You can create a real-time marketing segment using the Web API following the same approach you would to [create any entity in a Power App](/power-apps/developer/data-platform/webapi/create-entity-web-api#basic-create). When creating a real-time marketing segment, you need to create two entities: **msdynmkt_segmentdefinitions** and **msdynmkt_segments**. The following article shows how to create these entities.
 
 ## Create msdynmkt_segmentdefinitions
 
@@ -39,11 +39,10 @@ Accept: application/json
     // Separate GUIDs by a comma
     "msdynmkt_includedmembers": "<member GUID>", 
     "msdynmkt_excludedmembers": "<member GUID>",
-    // Draft 723270001, GoingLive 723270002, Live 723270000
+    // Draft: 723270001, GoingLive: 723270002, Live: 723270000
     "statuscode": 723270001,
     // Active
     "statecode": 0,
-
 }
 ```
 
@@ -73,14 +72,18 @@ Accept: application/json
 
 {
     "msdynmkt_displayname": "<display name>", 
-    // SegmentType: 10: static; 11: dynamic
+    // SegmentType: 10 = static; 11 = dynamic
     "msdynmkt_type": 10,  
     // RealTimeMarketingSource 12
     "msdynmkt_source": 12,
+    // Set to contact, lead, or any custom table that represents the type of member who will be in the segment.
+    // As of the publish date of this article, real-time marketing only supports contacts and leads.
     "msdynmkt_baseentitylogicalname": "contact", 
     // StateCode below 
     "statecode": 1,
-    // SegmentStatusCode below: Inactive if segment definition is in Draft state; exporting if segment definition is in Publishing state
+    // SegmentStatusCode below
+    // Inactive if segment definition is in Draft state. 
+    // Exporting if segment definition is in Publishing state.
     "statuscode": 2,
     "msdynmkt_sourcesegmentuid": "<segment definition ID>", 
     // If any
