@@ -88,7 +88,6 @@ Accept: application/json
     "msdynmkt_sourcesegmentuid": "<segment definition ID>", 
     // If any
     "owningbusinessunit@odata.bind": "/businessunits(<BU ID>)",
-
 }
 ```
 
