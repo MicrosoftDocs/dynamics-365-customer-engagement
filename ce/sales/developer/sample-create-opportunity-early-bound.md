@@ -29,7 +29,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
    
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../customerengagement/on-premises/includes/sdk-seeconnectionhelper.md)
   
 ## Demonstrates  
  This sample shows how to create an opportunity that contains a product from the product catalog and from a write-in product.  

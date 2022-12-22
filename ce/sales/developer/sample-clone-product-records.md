@@ -25,7 +25,7 @@ This sample code is for Dynamics 365 Sales. [Download the Product Catalog sample
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../customerengagement/on-premises/includes/sdk-seeconnectionhelper.md)
   
 ## Demonstrates  
  This sample shows how to clone a product record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Clone a product family, product, or bundle](create-manage-product-families-products-bundles-product-properties.md#Clone)  

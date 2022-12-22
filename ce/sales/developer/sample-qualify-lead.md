@@ -31,8 +31,8 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
    
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
+[!INCLUDE[sdk_SeeConnectionHelper](../../customerengagement/on-premises/includes/sdk-seeconnectionhelper.md)
+
 ## Demonstrates  
  This sample shows how to qualify a lead and create an account, contact, or opportunity based on the lead.  
   
