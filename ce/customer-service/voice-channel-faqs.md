@@ -90,10 +90,9 @@ See the following articles to set up the interactive voice response (IVR) bot in
 
 Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot is attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice profile and **English-US** in the bot (which means the bot will speak in **English-UK** locale).
 
-If you configure different locales:
+You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. But, if you configure different locales:
 - The bot's accuracy will depend on the similarities between the two locales. 
 - The preconfigured entities for the bot such as postal code might not be accurate. 
-- You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. 
 - A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
