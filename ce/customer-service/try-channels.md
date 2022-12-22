@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Channels, for example, Live Chat and SMS, are the engagement channels that enable your agents to connect with customers in real time and provide quick personalized help.
+Channels, like Live Chat, voice, and SMS, are engagement channels that let your agents connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Omnichannel for Customer Service:
 
@@ -36,7 +36,7 @@ You must have obtained one of the following subscriptions through the Microsoft 
 > [!IMPORTANT]
 > If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
 
-For information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+For information about the Digital Messaging license, pricing, and prerequisites, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Get a trial subscription of channels
 
@@ -63,6 +63,7 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
    - Dynamics 365 Customer Service Voice Channel Add-in Trial
    - Dynamics 365 Customer Service Digital Messaging and Voice Add-in Trial
+
 1. Select **Details**, and on the page that appears, select **Start free trial** to complete your purchase. You must assign the trial to your account to be able to see the voice trial for provisioning.
 
 1. Provision the channel in your environment by following the steps mentioned in the next section of this article.

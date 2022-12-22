@@ -19,7 +19,7 @@ You can assist customers better if you can automatically identify them and view 
 
 For every incoming conversation request that an agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Customer summary** page opens and shows the details of the identified customer and case. If the identified contact or account has one active case linked to it, then case will be automatically linked to the conversation. If the customer has reached out for a different case, the agent can manually change the linked case.
 
-You can identify incoming voice calls out of the box if the incoming phone number matches with the phone number specified for a contact in the mobile phone field or account phone field. If you want to use other phone number fields such as home phone for customer identification, contact Microsoft Support.
+You can identify incoming voice calls out of the box if the incoming phone number matches with the phone number specified for a contact in the mobile phone field or account phone field. If you want to use other phone number fields like home phone for customer identification, then contact Microsoft Support.
 
 If more than one account, contact, or case is identified, the record won't be linked to the conversation. More information: [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md)
 
