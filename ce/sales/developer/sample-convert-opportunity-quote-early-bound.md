@@ -17,8 +17,8 @@ helpviewer_keywords:
   - overwriting catalog prices when writing quotes, Sample
 ms.assetid: ba6294de-18cc-4689-8a3c-f6317305ff88
 caps.latest.revision: 15
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

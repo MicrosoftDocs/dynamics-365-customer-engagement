@@ -12,7 +12,7 @@ ms.assetid: ada37ff8-0f03-47b4-bfd7-25a4b0aacb5b
 caps.latest.revision: 27
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
+manager: shujoshie
 search.audienceType: 
   - developer
 

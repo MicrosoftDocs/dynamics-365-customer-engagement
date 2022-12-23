@@ -18,8 +18,8 @@ helpviewer_keywords:
   - managing leads, lead entity
   - lead entity, definition
 ms.assetid: a3e17cc7-a4ff-4a10-bc7a-ae03e055b30f
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

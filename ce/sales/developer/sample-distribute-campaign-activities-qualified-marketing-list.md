@@ -15,8 +15,8 @@ helpviewer_keywords:
   - sample for distributing campaign activities to marketing list members
 ms.assetid: 204308af-df43-41d2-9382-50a01aff8f3c
 caps.latest.revision: 14
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

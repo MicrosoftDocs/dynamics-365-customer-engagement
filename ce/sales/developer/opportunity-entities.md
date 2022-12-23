@@ -23,8 +23,8 @@ helpviewer_keywords:
   - opportunity entities, information contained
 ms.assetid: 6097776b-f5a0-47e8-9e9e-1d0259d351d4
 caps.latest.revision: 20
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

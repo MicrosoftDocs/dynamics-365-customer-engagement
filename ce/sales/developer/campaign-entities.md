@@ -20,8 +20,8 @@ helpviewer_keywords:
   - campaign activities, definition
 ms.assetid: fd788b2b-eab0-4f0c-b48e-911cd8aad69b
 caps.latest.revision: 28
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

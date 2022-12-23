@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Sales
 ms.assetid: 1635a343-2896-4cdb-a6fb-3c5113a32470
 caps.latest.revision: 15
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

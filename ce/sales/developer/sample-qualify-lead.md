@@ -17,8 +17,8 @@ helpviewer_keywords:
   - sample that creates lead-based accounts; contacts; or opportunities
 ms.assetid: fb89b821-ed96-4a24-bae9-3e217f2cf1dc
 caps.latest.revision: 14
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

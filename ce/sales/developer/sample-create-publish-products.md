@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: 0f70898c-c451-47e5-afc8-224e25f32c69
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
+manager: shujoshie
 search.audienceType: 
   - developer
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - sample for rolling up goal data in a custom period against revenue targets
 ms.assetid: 87b5756c-b24c-4140-a3c3-3660d1cb3e01
 caps.latest.revision: 22
-author: JimDaly
+author: udaykirang
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 

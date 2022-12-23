@@ -18,9 +18,9 @@ helpviewer_keywords:
   - sales entities, tracking and managing sales
 ms.assetid: 0b9ac43d-0b42-4c19-84e1-c81a9ec67d5a
 caps.latest.revision: 16
-author: JimDaly
-ms.author: jdaly
-manager: annbe
+author: udaykirang
+ms.author: udag
+manager: shujoshie
 search.audienceType: 
   - developer
 

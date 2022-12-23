@@ -15,7 +15,7 @@ helpviewer_keywords:
   - goal management entities samples, using rollup queries to track goals
 ms.assetid: 80f9b7d7-87d6-497e-9bdb-a02cf291743d
 caps.latest.revision: 19
-author: JimDaly
+author: udaykirang
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 

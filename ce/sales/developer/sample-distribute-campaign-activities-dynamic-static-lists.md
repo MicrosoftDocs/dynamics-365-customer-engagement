@@ -15,8 +15,8 @@ helpviewer_keywords:
   - distributing campaigns to dynamic and static marketing lists, marketing entities sample
 ms.assetid: 646ad2a7-935b-4770-a7d5-bdccd18cc072
 caps.latest.revision: 13
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

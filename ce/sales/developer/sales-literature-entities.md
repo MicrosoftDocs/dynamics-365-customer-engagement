@@ -27,8 +27,8 @@ helpviewer_keywords:
   - sales literature entities, sales literature records
 ms.assetid: ef65e4bf-d29c-48f6-9325-eccf8e6bba8f
 caps.latest.revision: 20
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

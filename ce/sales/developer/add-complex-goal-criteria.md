@@ -19,8 +19,8 @@ helpviewer_keywords:
   - rollup queries for adding complex goal criteria, attributes and guidelines for setting; including propagation
 ms.assetid: 2498859c-ca85-4893-ba08-b02ceb75278b
 caps.latest.revision: 20
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

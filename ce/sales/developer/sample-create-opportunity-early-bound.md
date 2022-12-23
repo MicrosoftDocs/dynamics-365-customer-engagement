@@ -15,8 +15,8 @@ helpviewer_keywords:
   - sample for creating opportunities from products in the catalog
 ms.assetid: 005993c4-468b-4b55-a555-833b4ead0d43
 caps.latest.revision: 15
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

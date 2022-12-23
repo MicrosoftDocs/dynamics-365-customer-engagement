@@ -29,8 +29,8 @@ helpviewer_keywords:
   - opportunity entities, creating and closing opportunities
 ms.assetid: c607f3e9-58e2-4f5a-9ea3-30ba4f12f060
 caps.latest.revision: 32
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

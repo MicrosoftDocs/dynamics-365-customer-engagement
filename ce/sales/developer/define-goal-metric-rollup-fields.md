@@ -24,8 +24,8 @@ helpviewer_keywords:
   - creating goal metrics, goal management entities
 ms.assetid: 0398bc8b-99d4-486b-9de6-3c2289eed5e6
 caps.latest.revision: 29
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

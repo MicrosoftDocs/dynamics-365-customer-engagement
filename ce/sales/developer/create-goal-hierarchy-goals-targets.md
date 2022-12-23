@@ -30,8 +30,8 @@ helpviewer_keywords:
   - goal management entities, custom time periods
 ms.assetid: 72e49f79-737b-4060-8429-ea9d5dc62422
 caps.latest.revision: 81
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - marketing entities (campaign; list), introduction
   - planning; managing; and executing campaigns, introduction
 ms.assetid: 02a49cee-8027-4c98-923e-23a9d687cfcb
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

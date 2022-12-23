@@ -25,9 +25,9 @@ helpviewer_keywords:
   - competitor entity, introduction
 ms.assetid: ccdd5393-d4f5-4b07-8f24-7da2bac827d4
 caps.latest.revision: 14
-author: JimDaly
-ms.author: jdaly
-manager: annbe
+author: udaykirang
+ms.author: udag
+manager: shujoshie
 search.audienceType: 
   - developer
 

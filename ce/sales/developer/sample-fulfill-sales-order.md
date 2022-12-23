@@ -15,8 +15,8 @@ helpviewer_keywords:
   - sample for creating and closing sales orders, order entities sample
 ms.assetid: 21eb9416-6c1f-468e-98f6-96d098d23051
 caps.latest.revision: 13
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

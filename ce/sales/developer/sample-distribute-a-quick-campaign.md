@@ -15,8 +15,8 @@ helpviewer_keywords:
   - sample for distributing a quick campaign
 ms.assetid: adc93a60-1736-4ea0-a90b-4ca6c8fcfa35
 caps.latest.revision: 23
-author: JimDaly
-ms.author: jdaly
+author: udaykirang
+ms.author: udag
 manager: amyla
 search.audienceType: 
   - developer

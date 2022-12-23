@@ -11,7 +11,7 @@ ms.topic: sample
 ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
+manager: shujoshie
 search.audienceType: 
   - developer
 ---
