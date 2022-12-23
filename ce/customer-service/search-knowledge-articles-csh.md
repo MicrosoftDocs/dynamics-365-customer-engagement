@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/28/2022
+ms.date: 12/23/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -165,6 +165,20 @@ To use the suggest-as-you-type option, your administrator must first enable it. 
 
 
 :::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot shows use of the suggest-as-you-type option":::
+
+## Use integrated search providers
+
+With Integrated search provider, you can view the most relevant search results across search providers
+in a single ranking, making it easier to sort and find the knowledge article that best suits your needs,
+while dealing with a customer. The name of the source provider will appear on the knowledge article card. You can hover over to get the full name of the source provider.
+
+To enable the integrated search provider option, contact your administrator. After the feature is enabled by your administrator, you can view search results for your keywords across your configured search providers in both Customer Service Hub and Customer Service workspace.
+
+Perform the following steps to search from Customer Service workspace:
+
+1. In the Customer Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
+1. Enter the search keyword. Depending on the keyword, you can see the most relevant search results along with the search provider.
+1. Select **Show more** to view additional results.
 
 ## View knowledge articles
 
