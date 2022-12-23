@@ -42,7 +42,7 @@ Using forecasts:
 
 ## Configure forecasting
 
-You can configure forecasts that are based on revenue or quantity. You define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections.
+You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections.
 
 1. Sign in to the **Sales Hub** app.
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
@@ -67,11 +67,11 @@ A ready-to-publish sample forecast configuration is available for you to experim
 
 1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
 
-    You'll see the sample forecast in your first-run experience. You can directly activate the forecast if you'd like to go with the defaults:
+    You'll see a sample forecast configuration in your first-run experience. You can directly activate the forecast if you'd like to go with the defaults. After the status turns **Active**, you can [view the forecast](view-forecasts.md).
 
     :::image type="content" source="media/activate-sample-forecast.png" alt-text="Screenshot of the three-dot menu for activating the sample forecast.":::
 
-    If you want to know who'll have access to the forecast or restrict its access, continue with the following steps.
+    If you want to know who'll have access to the forecast or restrict access to the forecast, continue with the following steps.
 
 1. Select **Sample forecast** to open the forecast configuration. 
     
@@ -81,13 +81,13 @@ A ready-to-publish sample forecast configuration is available for you to experim
 
 1. If you want to limit the access, go to the **Permissions** step and select the appropriate security roles.
 1. Go to the **Activate & add quotas** step and select **Activate forecast** to make the forecast available to users in the hierarchy.
-1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **Sales**.
-1. Go to **Performance** > **Forecasts** to view the forecast. Each user in the forecast hierarchy can see the forecast for their org. For more information, see [View a forecast](view-forecasts.md).
+1. Wait for the status to turn **Active**.
+1. [View the forecast](view-forecasts.md) to know the actual and forecasted values for your sales teams.
 
 
 ### Use APIs to upload forecast data
 
-After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
+After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, go to [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
 
 ## Find your forecasts
 
