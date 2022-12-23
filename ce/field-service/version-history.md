@@ -24,9 +24,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.80.48](/dynamics365/field-service/version-history#888048)  | TBD | 01/06/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 12/16/2022 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/06/2023 |
-| | *USG* |  [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 12/16/2022 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.80.48](/dynamics365/field-service/version-history#888048)  | TBD | 01/13/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceania* |[8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/13/2023 |
+| | *USG* |  [8.8.80.48](/dynamics365/field-service/version-history#888048)  | TBD | 01/06/2023 |
 |**Station 4** |*Europe* | [8.8.79.32](/dynamics365/field-service/version-history#887932)  |  [8.8.80.48](/dynamics365/field-service/version-history#888048)   | 01/13/2023 |
 |**Station 5** |  *North America*| [8.8.78.41](/dynamics365/field-service/version-history#887841) |[8.8.79.32](/dynamics365/field-service/version-history#887932) | 01/06/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.78.41](/dynamics365/field-service/version-history#887841) |[8.8.79.32](/dynamics365/field-service/version-history#887932) | 01/06/2023 |
@@ -39,7 +39,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.80.48
 
-(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
+(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)) and Resource Scheduling controls version 1.2.34.223411).
 
 - Fixed a bug causing RTV substates to be lost after editing.
 - Fixed a problem preventing inventory transfer search from filtering results.
@@ -52,7 +52,7 @@ This release is a hotfix on Field Service version [8.8.79.18](/dynamics365/field
  
 ## 8.8.79.18
 
-(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)).
+(Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214) and Includes Resource Scheduling controls version 1.2.32.222981).
 
 - Field Service (Dynamics 365) mobile: When exporting a PDF of inspections responses, images which were uploaded as part of the inspection will be sized to fit the page and maintain their original aspect ratio.
 - Fixed a bug preventing the deletion of work order service tasks with the deletion of work orders
