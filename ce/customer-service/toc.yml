@@ -861,7 +861,7 @@
       - name: Use WeChat channel
         href: wechat-channel.md
       - name: View social profiles
-        href: social-profiles.md  
+        href: supported-channels-social-profiles.md  
     - name: Developer experience
       items: 
       - name: Integrate a custom messaging channel
