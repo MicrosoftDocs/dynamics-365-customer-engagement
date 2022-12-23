@@ -73,7 +73,7 @@ A ready-to-publish sample forecast configuration is available for you to experim
 
     If you want to know who'll have access to the forecast or restrict access to the forecast, continue with the following steps.
 
-1. Select **Sample forecast** to open the forecast configuration. 
+1. Select **Sample forecast**. 
     
 1. In the **General** step, check the **Preview** section to know the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it. 
  
