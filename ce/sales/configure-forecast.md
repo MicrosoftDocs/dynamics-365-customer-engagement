@@ -1,7 +1,7 @@
 ---
 title: Configure forecasts in your organization
 description: Configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 03/15/2022
+ms.date: 12/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -68,13 +68,17 @@ A ready-to-publish sample forecast configuration is available for you to experim
 1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
 
     You'll see the sample forecast in your first-run experience. You can directly activate the forecast if you'd like to go with the defaults:
+
     :::image type="content" source="media/activate-sample-forecast.png" alt-text="Screenshot of the three-dot menu for activating the sample forecast.":::
-      If you want to know who'll have access to the forecast or restrict its access, continue with the following steps.
+
+    If you want to know who'll have access to the forecast or restrict its access, continue with the following steps.
 
 1. Select **Sample forecast** to open the forecast configuration. 
     
-1. In the **General** step, check the **Preview** section to know the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it.  
-        :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+1. In the **General** step, check the **Preview** section to know the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it. 
+ 
+    :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+
 1. If you want to limit the access, go to the **Permissions** step and select the appropriate security roles.
 1. Go to the **Activate & add quotas** step and select **Activate forecast** to make the forecast available to users in the hierarchy.
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **Sales**.
