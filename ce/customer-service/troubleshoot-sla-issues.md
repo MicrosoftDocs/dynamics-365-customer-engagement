@@ -204,7 +204,6 @@ Scenario 2:
 #### Reason
 
 The entitlement's entity allocation type mapping records aren't there in a table [EntitlementEntityAllocationTypeMappingBase] from the database, when the **Entity Type** field from the entitlement entity has more than one option other than case.
-
 #### Resolution
 
 Add the entitlement's entity allocation type mapping records in a table [EntitlementEntityAllocationTypeMappingBase].
