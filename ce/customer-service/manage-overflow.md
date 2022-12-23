@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/22/2022
+ms.date: 12/23/2022
 ms.topic: article
 
 ---
@@ -96,17 +96,22 @@ Go to the Customer Service admin center app and perform the following steps:
         - **End conversation**
         - **Transfer to a different queue**
         - **Transfer to an external number**
+        - **Voicemail (preview)**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. To calculate the estimated wait time for the queue, the system takes the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. For example, if a customer calls on a Thursday at 5:00 PM, the estimated wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Estimated wait time exceeds" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At run time, if the predicted wait time for the queue is more than what you have configured, instead of adding the work item to that queue, one of the following overflow actions will be triggered for the work item:
 
         - **Direct callback (preview)**
         - **End call**
         - **Transfer to a different queue**
         - **Transfer to an external number**
+        - **Voicemail (preview)**
+
+        > [!NOTE]
+        > The estimated wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the estimated wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Estimated wait time exceeds" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
 
         :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
-1. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
+       
 
 ## Configure overflow override
 
