@@ -98,7 +98,7 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Transfer to an external number**
         - **Voicemail (preview)**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At run time, if the predicted wait time for the queue is more than what you have configured, instead of adding the work item to that queue, one of the following overflow actions will be triggered for the work item:
+    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At run time, if the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
 
         - **Direct callback (preview)**
         - **End call**
