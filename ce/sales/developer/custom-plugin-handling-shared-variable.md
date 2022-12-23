@@ -57,8 +57,8 @@ public void Execute(IServiceProvider serviceProvider)
 ### See also
 
 [Developer guide for Dynamics 365 Sales overview](developer-guide.md)<br />
-[Organization table reference](../../customerengagement/on-premises/developer/entities/organization.md)<br />
-[System user table reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
-[Quote, order, and invoice tables](../../customerengagement/on-premises/developer/quote-order-invoice-entities.md)
+[Organization table reference](/power-apps/developer/data-platform/reference/entities/organization)<br />
+[System user table reference](/power-apps/developer/data-platform/reference/entities/systemuser)<br />
+[Quote, order, and invoice tables](quote-order-invoice-entities.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
