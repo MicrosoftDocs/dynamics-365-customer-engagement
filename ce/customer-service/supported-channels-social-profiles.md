@@ -4,19 +4,18 @@ description: Know how to see the social profiles of customers and how the data i
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.service: dynamics-365
-ms.topic: how to
+ms.topic: how-to
 ms.date: 12/23/2022
 ms.custom: bap-template 
 ---
 
 # View social profiles of contacts
 
-Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. After a social profile is created for a conversation within a channel, later conversations are linked to the same social profile for the channel.
+Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. After a social profile is created for a conversation within a channel, later conversations are linked to the same social profile for the channel so that you can view all the related information in one place.
 
 ## How social profiles are linked with contacts
 
-When a customer sends a message, automatically, a record is created with the social profile for the channel by using the unique identifier for the customer.
+When a customer sends a message, a record is automatically created with the social profile for the channel by using the unique identifier for the customer.
 
 With social profiles, you can do the following:
 
@@ -39,7 +38,7 @@ The social profiles are supported for the following channels.
 
 ## View social profiles
 
-As an agent, you can see the social profiles by using the **Search** menu.
+As an agent, you can see the active social profile information, such as the customer, profile name, social channel, and related social profiles.
 
 1. In the Omnichannel for Customer Service app, select the **Search** box, and scroll to the bottom of the list.
 
@@ -47,13 +46,11 @@ As an agent, you can see the social profiles by using the **Search** menu.
 
 1. In the **Select a table to search** flyout menu, select **Social Profiles**, and select **Continue**. The **Active Social Profiles** page displays the list of active profiles.
 
-1. Select the profile that you want to view. The social profile information, such as the customer, profile name, and the social channel is displayed.
+1. Select the profile that you want to view.
 
 1. The **RELATED SOCIAL PROFILES** section displays the related social profiles that are automatically linked after the contact is identified through the unique identifier.
 
-1. You can update the details and save the profile.
-
-1. You can deactivate or activate the social profile.
+Optionally, you can update the details and save the profile. You can also deactivate or activate the social profile.
 
 ## Next steps
 
