@@ -1,7 +1,7 @@
 ---
 title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 06/13/2022
+ms.date: 12/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,6 +17,7 @@ When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
 - [Set Kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
 - [View prediction factors](#view-prediction-factors)
 - [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
+- [Override column headers (preview)](#override-column-headers-preview)
 - [Customize underlying records](#customize-underlying-records)
 
 
@@ -104,6 +105,7 @@ If you want to translate the column names or add tooltips for additional context
 
 In the **Override column headers (Preview)** section, select the custom control that includes the customizations.  
 
+:::image type="content" source="media/fc-override-headers.png" alt-text="Screenshot of the **Override column headers** field in the **Advanced** step of forecast configuration.":::
 
 ## Customize underlying records
 

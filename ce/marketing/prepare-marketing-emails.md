@@ -1,7 +1,7 @@
 ---
 title: "Overview of email marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get an overview for how to create and send marketing email messages in Dynamics 365 Marketing."
-ms.date: 12/07/2022
+ms.date: 12/21/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
@@ -18,6 +18,8 @@ search.app:
 ---
 
 # Email marketing overview
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5dOgZ]
 
 The process for creating marketing emails in Dynamics 365 Marketing begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 

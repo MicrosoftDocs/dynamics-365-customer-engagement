@@ -34,13 +34,18 @@ For the December 2022 release, general availability features include custom chan
 Starting this month, we’ll highlight recently published blogs and scenario documentation in addition to the product docs that support the newly released features.
 
 > [!IMPORTANT]
-> This release brings changes to the real-time marketing consent system and underlying Dataverse tables. This change is transparent to users **who do not** have code that directly reads or writes to the **msdynkmt_compliancesettings** or **msdynmkt_contactpointconsent2** Dataverse tables. As part of the upgrade to this release, any user who enables the [Preview: Create and manage real-time marketing forms](real-time-marketing-form-editor.md) feature will have their consent data automatically migrated to use the new tables. Most users will not need to take any action in response to this change.
+> This release brings changes to the real-time marketing consent system and underlying Dataverse tables. This change only impacts users who have customized code that directly reads or writes to the **msdynkmt_compliancesettings** or **msdynmkt_contactpointconsent2** Dataverse tables. As part of the upgrade to this release, any user who enables the [Preview: Create and manage real-time marketing forms](real-time-marketing-form-editor.md) feature will have their consent data automatically migrated to use the new tables. Most users will not need to take any action in response to this change.
 >
 > Users who have code that directly interacts with the **msdynkmt_compliancesettings** and **msdynmkt_contactpointconsent2** Dataverse tables will need to make changes after this release to direct their code to read/write to the new **msdynkmt_compliancesettings3** and **msdynmkt_contactpointconsent3** Dataverse tables.
 >
 > To aid in the transition, we will continuously scan for new rows written to the to-be-deprecated **msdynmkt_contactpointconsent2** tables and automatically copy them to new **msdynkmt_compliancesettings3** tables. Copies may take up to 48 hours to complete. We will disable this automatic copy in a future release.
 >
 > In the future, all users will be migrated to make use of these new tables. For the time being, only users who have opted into the real-time marketing forms preview will have their data automatically migrated.
+
+> [!IMPORTANT]
+> As of December 2022, consent enforcement for real-time customer journeys for **Contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you continue using the **Restrictive** enforcement setting, this change will result in emails not being sent from Real-time marketing journeys to Contacts who have not opted in. This change will not impact outbound marketing journeys.
+>
+> To revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing. Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md).
 
 ### Version number
 
@@ -67,7 +72,7 @@ Starting this month, we’ll highlight recently published blogs and scenario doc
     - [Docs](real-time-marketing-predefined-dynamic-text.md#communicate-dates-and-times-in-various-formats)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a variety of date and time format.](media/whats-new-personalization-date-and-time-format.png "Screenshot of a variety of date and time format")
+    > ![Screenshot of a variety of date and time format.](media/whats-new-date-time-format.png "Screenshot of a variety of date and time format")
 
 - **Access even more data to personalize your customer outreach**
     - You're no longer limited to accessing Dataverse tables that are directly related to an Audience or Triggers. Now, you can access any Dataverse table to include information in your communications. For example, for a product launch email, you may want to include product information, image, and SKU number. Such details may be available in a Product table, which you can now use for personalization.
