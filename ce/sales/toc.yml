@@ -1095,34 +1095,34 @@
                   href: developer/reference/playbooks-entities/msdyn_callablecontext.md
         - name: PriceLevel
             href: pricelevel.md
-          - name: Product
-            href: product.md
-          - name: ProductAssociation
-            href: productassociation.md
-          - name: ProductPriceLevel
-            href: productpricelevel.md
-          - name: ProductSubstitute
-            href: productsubstitute.md
-          - name: Quote
-            href: quote.md
-          - name: QuoteClose
-            href: quoteclose.md
-          - name: QuoteDetail
-            href: quotedetail.md
-          - name: RollupField
-            href: rollupfield.md
-          - name: SalesLiterature
-            href: salesliterature.md
-          - name: SalesLiteratureItem
-            href: salesliteratureitem.md
-          - name: SalesOrder
-            href: salesorder.md
-          - name: SalesOrderDetail
-            href: salesorderdetail.md
-          - name: UoM
-            href: uom.md
-          - name: UoMSchedule
-            href: uomschedule.md
+        - name: Product
+          href: product.md
+        - name: ProductAssociation
+          href: productassociation.md
+        - name: ProductPriceLevel
+          href: productpricelevel.md
+        - name: ProductSubstitute
+          href: productsubstitute.md
+        - name: Quote
+          href: quote.md
+        - name: QuoteClose
+          href: quoteclose.md
+        - name: QuoteDetail
+          href: quotedetail.md
+        - name: RollupField
+          href: rollupfield.md
+        - name: SalesLiterature
+          href: salesliterature.md
+        - name: SalesLiteratureItem
+          href: salesliteratureitem.md
+        - name: SalesOrder
+          href: salesorder.md
+        - name: SalesOrderDetail
+          href: salesorderdetail.md
+        - name: UoM
+          href: uom.md
+        - name: UoMSchedule
+          href: uomschedule.md
     - name: Action Reference
       items:
         - name: RecalculatePrice Action

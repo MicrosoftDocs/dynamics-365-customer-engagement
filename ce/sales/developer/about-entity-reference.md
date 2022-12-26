@@ -1,12 +1,12 @@
 ---
-title: "About Entity Reference (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.(SDK). "
+title: "About Entity Reference (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities(SDK) in Dynamics 365 Sales. "
 ms.custom: 
 ms.date: 12/22/2022
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Sales
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: KumarVivek
 ms.author: kvivek
