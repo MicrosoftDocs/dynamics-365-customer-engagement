@@ -123,7 +123,7 @@ You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframewo
 
 ### Why is the user presence not loading or showing as unknown? 
 
-User presence might not load if the agent doesn't have the Omnichannel agent role privileges, if agent capacity and default presence are not set, or if the required channels aren't activated in the agent profile. More information: [User presence isn’t loading or it’s showing unknown](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-its-showing-unknown)
+User presence might not load if the agent doesn't have the Omnichannel agent role privileges, if agent capacity and default presence are not set, or if the required channels aren't activated in the agent profile. More information: [User presence isn’t loading or user is shown as unknown](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
 
 ### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
 
