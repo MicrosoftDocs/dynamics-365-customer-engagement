@@ -524,7 +524,7 @@ Perform the following:
 - Ensure that the agent account has the **Omnichannel Agent** role assigned. More information: [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md)
 - Ensure that the agent account has values set for **Capacity** and **Default presence**. More information: [Create and manage users and user profiles](users-user-profiles.md)
 - Ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 points to the correct URL. More information: [Configure a third-party channel provider](channel-integration-framework/v2/configure-channel-provider-app-profile-manager.md#configure-a-third-party-channel-provider)
-- Ensure that you turn on all active channels in the agent experience profile. More information: [Assign users, templates, configure productivity pane, channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+- Ensure that you turn on all active channels in the agent experience profile. More information: [Assign users, templates, configure productivity pane, channels](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization
