@@ -97,7 +97,7 @@ You don't need to choose the Unified Interface apps. The telephony channel provi
 	
 ### How do I select roles for the voice channel provider record?
 
-Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](../create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
@@ -121,13 +121,13 @@ To create a default session, see [Start a home (default) session when your organ
 
 You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-single-channel-provider)
 
-### Why is the user presence not loading or showing as unknown? 
+### Why is the user presence not loading or user is shown as unknown? 
 
 User presence might not load if the agent doesn't have the Omnichannel agent role privileges, if agent capacity and default presence are not set, or if the required channels aren't activated in the agent profile. More information: [User presence isn’t loading or user is shown as unknown](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
 
 ### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
 
-When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](configure-channel-provider.md#configure-a-third-party-channel-provider)
+When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](configure-channel-provider-app-profile-manager.md#configure-a-third-party-channel-provider)
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
