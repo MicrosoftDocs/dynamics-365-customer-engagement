@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/12/2022
+ms.date: 12/27/2022
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
@@ -28,25 +28,6 @@ Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to t
 - Omnichannel agent
 
 For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
-
-## Report filters and grouping
-
-You can set one or more filters on reports, but the filters are applied based on report groups.
-
-Reports are grouped into the following categories and subcategories. 
-- Omnichannel historical analytics reports
-    - Conversation, Queue, Agent, Bot, Topics
-    - Voice 
-    - Unified routing
-- Customer Service historical analytics reports
-    - Summary, Agent, Topics
-- Knowledge analytics reports 
-    - Search Term Insights
-    - Article Insights
-
-Say, for example, you've set the "channel" filter for displaying records related to the live chat channel in the Conversation tab of the Omnichannel historical report. This filter is automatically applied to ohter tabs of the report such as Queue, Agent, Bot, and Topics, but not to Voice or Unified routing tabs.
-
-Likewise, a bookmark created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, Agent, and Topics, and won't include filters for voice or unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups.
 
 ## Create and manage bookmarks
 
@@ -77,6 +58,8 @@ Likewise, a bookmark created for a report group will save a personalized view us
 1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update Bookmark**.
 
 
+> [!NOTE] 
+> Bookmarks created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, Agent, and Topics, and won't include filters for voice or unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
 
 ### See also
 
