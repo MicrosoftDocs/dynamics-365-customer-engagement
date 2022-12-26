@@ -29,7 +29,9 @@ Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to t
 
 For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
-## Report groups
+## Report filters and grouping
+
+You can set one or more filters on reports, but the filters are applied based on report groups.
 
 Reports are grouped into the following categories and subcategories. 
 - Omnichannel historical analytics reports
@@ -42,8 +44,10 @@ Reports are grouped into the following categories and subcategories.
     - Search Term Insights
     - Article Insights
 
-A bookmark created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. 
-For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, Agent, and Topics, and won't include filters for voice or unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups.
+Say, for example, you've set the "channel" filter for displaying records related to the live chat channel in the Conversation tab of the Omnichannel historical report. This filter is automatically applied to ohter tabs of the report such as Queue, Agent, Bot, and Topics, but not to Voice or Unified routing tabs.
+
+Likewise, a bookmark created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, Agent, and Topics, and won't include filters for voice or unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups.
+
 ## Create and manage bookmarks
 
 1. In Customer Service workspace or Omnichannel for Customer Service, open one of the following reports:

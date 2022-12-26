@@ -1000,6 +1000,8 @@
       href: introduction-customer-service-analytics.md
     - name: Supported regions and languages, and service limits for analytics and insights
       href: cs-region-availability-service-limits.md
+    - name: Supported regions and languages, and service limits for analytics and insights
+      href: cs-region-availability-service-limits.md  
     - name: Administrator experience
       items: 
       - name: Configure analytics and insights dashboards
