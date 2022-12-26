@@ -1025,55 +1025,57 @@
     - name: Table reference
       items:
         - name: About table/entity reference
-          href: /power-apps/developer/data-platform/reference/about-entity-reference?context=/dynamics365/context/sales-context
+          href: about-entity-reference.md
         - name: Account
-          href: developer/entities/account.md
+          href: account.md
         - name: BulkOperation
-          href: developer/entities/bulkoperation.md
+          href: bulkoperation.md
         - name: BulkOperationLog
-          href: developer/entities/bulkoperationlog.md
+          href: bulkoperationlog.md
         - name: Campaign
-          href: developer/entities/campaign.md
+          href: campaign.md
         - name: CampaignActivity
-          href: developer/entities/campaignactivity.md
+          href: campaignactivity.md
         - name: CampaignResponse
-          href: developer/entities/campaignresponse.md
+          href: campaignresponse.md
         - name: Competitor
-          href: developer/entities/competitor.md
+          href: competitor.md
         - name: Contact
-          href: developer/entities/contact.md
+          href: contact.md
         - name: Discount
-          href: developer/entities/discount.md
+          href: discount.md
         - name: DiscountType
-          href: developer/entities/discounttype.md
+          href: discounttype.md
         - name: DynamicPropertyInstance
-          href: developer/entities/dynamicpropertyinstance.md
+          href: dynamicpropertyinstance.md
         - name: Goal
-          href: developer/entities/goal.md
+          href: goal.md
         - name: GoalRollupQuery
-          href: developer/entities/goalrollupquery.md
+          href: goalrollupquery.md
         - name: Invoice
-          href: developer/entities/invoice.md
+          href: invoice.md
         - name: InvoiceDetail
-          href: developer/entities/invoicedetail.md
+          href: invoicedetail.md
         - name: Lead
-          href: developer/entities/lead.md
+          href: lead.md
         - name: LeadAddress
-          href: developer/entities/leadaddress.md
+          href: leadaddress.md
         - name: LeadToOpportunitySalesProcess
-          href: developer/entities/leadtoopportunitysalesprocess.md
+          href: leadtoopportunitysalesprocess.md
         - name: List
-          href: developer/entities/list.md
+          href: list.md
         - name: Metric
-          href: developer/entities/metric.md
+          href: metric.md
         - name: Opportunity
-          href: developer/entities/opportunity.md
+          href: opportunity.md
         - name: OpportunityClose
-          href: developer/entities/opportunityclose.md
+          href: opportunityclose.md
+        - name: OpportunityProduct
+          href: opportunityproduct.md
         - name: OpportunitySalesProcess
-          href: developer/entities/opportunitysalesprocess.md
+          href: opportunitysalesprocess.md
         - name: OrderClose
-          href: developer/entities/orderclose.md
+          href: orderclose.md
         - name: Playbooks
           items:
             - name: Table reference
@@ -1092,35 +1094,35 @@
                 - name: msdyn_callablecontext
                   href: developer/reference/playbooks-entities/msdyn_callablecontext.md
         - name: PriceLevel
-          href: developer/entities/pricelevel.md
-        - name: Product
-          href: developer/entities/product.md
-        - name: ProductAssociation
-          href: developer/entities/productassociation.md
-        - name: ProductPriceLevel
-          href: developer/entities/productpricelevel.md
-        - name: ProductSubstitute
-          href: developer/entities/productsubstitute.md
-        - name: Quote
-          href: developer/entities/quote.md
-        - name: QuoteClose
-          href: developer/entities/quoteclose.md
-        - name: QuoteDetail
-          href: developer/entities/quotedetail.md
-        - name: RollupField
-          href: developer/entities/rollupfield.md
-        - name: SalesLiterature
-          href: developer/entities/salesliterature.md
-        - name: SalesLiteratureItem
-          href: developer/entities/salesliteratureitem.md
-        - name: SalesOrder
-          href: developer/entities/salesorder.md
-        - name: SalesOrderDetail
-          href: developer/entities/salesorderdetail.md
-        - name: UoM
-          href: developer/entities/uom.md
-        - name: UoMSchedule
-          href: developer/entities/uomschedule.md
+            href: pricelevel.md
+          - name: Product
+            href: product.md
+          - name: ProductAssociation
+            href: productassociation.md
+          - name: ProductPriceLevel
+            href: productpricelevel.md
+          - name: ProductSubstitute
+            href: productsubstitute.md
+          - name: Quote
+            href: quote.md
+          - name: QuoteClose
+            href: quoteclose.md
+          - name: QuoteDetail
+            href: quotedetail.md
+          - name: RollupField
+            href: rollupfield.md
+          - name: SalesLiterature
+            href: salesliterature.md
+          - name: SalesLiteratureItem
+            href: salesliteratureitem.md
+          - name: SalesOrder
+            href: salesorder.md
+          - name: SalesOrderDetail
+            href: salesorderdetail.md
+          - name: UoM
+            href: uom.md
+          - name: UoMSchedule
+            href: uomschedule.md
     - name: Action Reference
       items:
         - name: RecalculatePrice Action
