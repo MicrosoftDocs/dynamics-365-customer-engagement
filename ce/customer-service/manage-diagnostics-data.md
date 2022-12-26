@@ -20,7 +20,7 @@ The following table lists the average storage consumption of a large organizatio
 | Data consumed per ruleset within a diagnostics record | 13.27 <sup>**1**</sup> |
 | Data consumed per record | 53.08 <sup>**2**</sup> |
 
-For example, if you are routing 500 records per day, then the daily data consumption will be approximately 26.54 MB.
+For example, if you route 500 records per day, then the daily data consumption will be approximately 26.54 MB.
 
 <sup>**1**</sup> The value can vary based on factors like the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters).
 
