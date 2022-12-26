@@ -20,7 +20,7 @@ ms.custom:
 
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and self diagnose issues that occur in classification and assignment of work items.
 
-The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items.
+The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. More information: [Manage diagnostics data optimally](manage-diagnostics-data.md)
 
 > [!IMPORTANT]
 > Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you use for managing access in your organization.
