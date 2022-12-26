@@ -502,7 +502,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
    8. Select **Save** to save the record.
    9. Sign in to Omnichannel for Customer Service app and check if the communication panel loads.
 
-## User presence isn’t loading or user is shown as unknown <a name="troubleshoot-presence"></a>
+## User presence isn’t loading or user is shown as unknown<a name="troubleshoot-presence"></a>
 
 ### Issue
 
