@@ -1,7 +1,7 @@
 ---
-title: Manage bookmarks for reports
-description: Create bookmarks and navigate a personalized view of your reports.
-ms.date: 10/04/2022
+title: Manage bookmarks for reports | MicrosoftDocs
+description: "Create bookmarks for reports and save personalized views of your reports."
+ms.date: 12/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,10 +10,22 @@ manager: shujoshi
 
 # Manage bookmarks for reports
 
-Save personalized views of your reports as bookmarks at user level. A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark.
+A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. 
 
-Bookmarks are available in historical analytics reports and knowledge analytics reports only.
+> [!Note]
+> You can use bookmarks only in historical and knowledge analytics reports.
 
+## Prerequisites
+
+Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to the following security roles as applicable, for the **Report Bookmark** custom entity.
+- CSR Manager
+- Customer Service Representative
+- Knowledge Manager
+- Omnichannel administrator
+- Omnichannel supervisor
+- Omnichannel agent
+
+For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 ## Create and manage bookmarks
 
 1. In Customer Service workspace or Omnichannel for Customer Service, open one of the following reports:
