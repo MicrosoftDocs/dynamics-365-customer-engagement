@@ -1097,7 +1097,7 @@
       - name: Forecast agent, case, and conversation volumes
         href: use-volume-forecasting.md
       - name: Report filters and groups
-        href: report-filters-groups.md  
+        href: report-filters-groups.md
       - name: Manage report bookmarks
         href: manage-bookmarks.md
       - name: Intraday supervisor experience
