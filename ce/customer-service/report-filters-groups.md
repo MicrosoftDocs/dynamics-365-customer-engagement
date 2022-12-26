@@ -1,8 +1,8 @@
 ---
 title: Report filters and groups
 description: Use this article to learn about report filters and groups in Customer Service and Omnichannel for Customer Service.
-author: v-jmh
-ms.author: mh-jaya
+author: mh-jaya
+ms.author: v-jmh
 ms.reviewer: nenellim
 ms.service: dynamics-365 
 ms.topic: conceptual 
