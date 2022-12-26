@@ -35,7 +35,7 @@ You can set one or more filters on reports, but the filters are applied based on
 
 Reports are grouped into the following categories and subcategories. 
 - Omnichannel historical analytics reports
-    - Conversation, Queue, Agent, Topics
+    - Conversation, Queue, Agent, Bot, Topics
     - Voice 
     - Unified routing
 - Customer Service historical analytics reports
