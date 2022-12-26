@@ -1,13 +1,13 @@
 ---
-title: "Order (SalesOrder)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Order (SalesOrder)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Order (SalesOrder)  table/entity."
-ms.date: 12/01/2022
-ms.service: "powerapps"
+ms.date: 12/26/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "margoc"
+author: "udaykirang"
+ms.author: "udag"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -29,15 +29,15 @@ Quote that has been accepted.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/salesorders(*salesorderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Assign|PATCH [*org URI*]/api/data/v9.2/salesorders(*salesorderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
 |CalculatePrice|<xref href="Microsoft.Dynamics.CRM.CalculatePrice?text=CalculatePrice Action" />|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
 |CancelContract|<xref href="Microsoft.Dynamics.CRM.CancelContract?text=CancelContract Action" />|<xref:Microsoft.Crm.Sdk.Messages.CancelContractRequest>|
 |CancelSalesOrder|<xref href="Microsoft.Dynamics.CRM.CancelSalesOrder?text=CancelSalesOrder Action" />|<xref:Microsoft.Crm.Sdk.Messages.CancelSalesOrderRequest>|
 |ConvertSalesOrderToInvoice|<xref href="Microsoft.Dynamics.CRM.ConvertSalesOrderToInvoice?text=ConvertSalesOrderToInvoice Action" />|<xref:Microsoft.Crm.Sdk.Messages.ConvertSalesOrderToInvoiceRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/salesorders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Create|POST [*org URI*]/api/data/v9.2/salesorders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/salesorders(*salesorderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/salesorders(*salesorderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
 |FulfillSalesOrder|<xref href="Microsoft.Dynamics.CRM.FulfillSalesOrder?text=FulfillSalesOrder Action" />|<xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>|
 |GenerateSalesOrderFromOpportunity|<xref href="Microsoft.Dynamics.CRM.GenerateSalesOrderFromOpportunity?text=GenerateSalesOrderFromOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.GenerateSalesOrderFromOpportunityRequest>|
@@ -46,14 +46,26 @@ Quote that has been accepted.
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |LockSalesOrderPricing|<xref href="Microsoft.Dynamics.CRM.LockSalesOrderPricing?text=LockSalesOrderPricing Action" />|<xref:Microsoft.Crm.Sdk.Messages.LockSalesOrderPricingRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/salesorders(*salesorderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/salesorders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|msdyn_CreateContractSpecificPriceList|<xref href="Microsoft.Dynamics.CRM.msdyn_CreateContractSpecificPriceList?text=msdyn_CreateContractSpecificPriceList Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_createinvoicefrominvoiceschedule|<xref href="Microsoft.Dynamics.CRM.msdyn_createinvoicefrominvoiceschedule?text=msdyn_createinvoicefrominvoiceschedule Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_CreateInvoicefromInvoiceScheduleSync|<xref href="Microsoft.Dynamics.CRM.msdyn_CreateInvoicefromInvoiceScheduleSync?text=msdyn_CreateInvoicefromInvoiceScheduleSync Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_GenerateRetainersFromRetainerScheduleOptions|<xref href="Microsoft.Dynamics.CRM.msdyn_GenerateRetainersFromRetainerScheduleOptions?text=msdyn_GenerateRetainersFromRetainerScheduleOptions Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_GetContractBillingRadialGaugeData|<xref href="Microsoft.Dynamics.CRM.msdyn_GetContractBillingRadialGaugeData?text=msdyn_GetContractBillingRadialGaugeData Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_GetContractDetailedTransactions|<xref href="Microsoft.Dynamics.CRM.msdyn_GetContractDetailedTransactions?text=msdyn_GetContractDetailedTransactions Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_GetContractEffortRadialGaugeData|<xref href="Microsoft.Dynamics.CRM.msdyn_GetContractEffortRadialGaugeData?text=msdyn_GetContractEffortRadialGaugeData Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_GetContractLines|<xref href="Microsoft.Dynamics.CRM.msdyn_GetContractLines?text=msdyn_GetContractLines Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_GetProjectsForContract|<xref href="Microsoft.Dynamics.CRM.msdyn_GetProjectsForContract?text=msdyn_GetProjectsForContract Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_NewInvoiceContract|<xref href="Microsoft.Dynamics.CRM.msdyn_NewInvoiceContract?text=msdyn_NewInvoiceContract Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_ProjectServiceCreateInvoiceAsynchronous|<xref href="Microsoft.Dynamics.CRM.msdyn_ProjectServiceCreateInvoiceAsynchronous?text=msdyn_ProjectServiceCreateInvoiceAsynchronous Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|msdyn_UpdateProjectContractLineDetailPrices|<xref href="Microsoft.Dynamics.CRM.msdyn_UpdateProjectContractLineDetailPrices?text=msdyn_UpdateProjectContractLineDetailPrices Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message.|
+|Retrieve|GET [*org URI*]/api/data/v9.2/salesorders(*salesorderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/salesorders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/salesorders(*salesorderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/salesorders(*salesorderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/salesorders(*salesorderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/salesorders(*salesorderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
@@ -105,6 +117,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsPriceLocked](#BKMK_IsPriceLocked)
 - [LastBackofficeSubmit](#BKMK_LastBackofficeSubmit)
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
+- [msdyn_AccountManagerId](#BKMK_msdyn_AccountManagerId)
+- [msdyn_ContractOrganizationalUnitId](#BKMK_msdyn_ContractOrganizationalUnitId)
+- [msdyn_NottoexceedLimit](#BKMK_msdyn_NottoexceedLimit)
+- [msdyn_ordertype](#BKMK_msdyn_ordertype)
+- [msdyn_PSAState](#BKMK_msdyn_PSAState)
+- [msdyn_PSAStatusReason](#BKMK_msdyn_PSAStatusReason)
 - [Name](#BKMK_Name)
 - [OpportunityId](#BKMK_OpportunityId)
 - [OrderNumber](#BKMK_OrderNumber)
@@ -593,6 +611,133 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|lastonholdtime|
 |RequiredLevel|None|
 |Type|DateTime|
+
+
+### <a name="BKMK_msdyn_AccountManagerId"></a> msdyn_AccountManagerId
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|User responsible for managing the account referenced by this contract.|
+|DisplayName|Account Manager|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountmanagerid|
+|RequiredLevel|Recommended|
+|Targets|systemuser|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_ContractOrganizationalUnitId"></a> msdyn_ContractOrganizationalUnitId
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Organizational unit responsible for this contract.|
+|DisplayName|Contracting Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractorganizationalunitid|
+|RequiredLevel|Recommended|
+|Targets|msdyn_organizationalunit|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_NottoexceedLimit"></a> msdyn_NottoexceedLimit
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Not-to-exceed Limit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_nottoexceedlimit|
+|MaxValue|922337203685477|
+|MinValue|0|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_ordertype"></a> msdyn_ordertype
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Whether it is for an Item- based or a Work-based sale|
+|DisplayName|Order Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ordertype|
+|RequiredLevel|Recommended|
+|Type|Picklist|
+
+#### msdyn_ordertype Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|Item based||
+|192350001|Work based||
+
+
+
+### <a name="BKMK_msdyn_PSAState"></a> msdyn_PSAState
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the current state of the project contract.|
+|DisplayName|Contract Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_psastate|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_PSAState Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|Draft|Draft|
+|192350001|On hold|On-hold|
+|192350002|Active|Active|
+|192350003|Closed|Closed|
+
+
+
+### <a name="BKMK_msdyn_PSAStatusReason"></a> msdyn_PSAStatusReason
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the reason for the project contract status.|
+|DisplayName|Contract Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_psastatusreason|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_PSAStatusReason Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|Draft|Equivalent to Active - New|
+|192350001|In review|Equivalent to Active - Pending|
+|192350002|On hold|Equivalent to Active - Pending|
+|192350003|Confirmed|Equivalent to Submitted - In progress|
+|192350004|Completed|Equivalent to Fulfilled - Complete|
+|192350005|Lost|Equivalent to Canceled - No money|
+|192350006|Abandoned|Equivalent to Canceled - No money|
+
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -1470,6 +1615,28 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_AccountManagerIdName](#BKMK_msdyn_AccountManagerIdName)
+- [msdyn_AccountManagerIdYomiName](#BKMK_msdyn_AccountManagerIdYomiName)
+- [msdyn_CommittedAmount](#BKMK_msdyn_CommittedAmount)
+- [msdyn_committedamount_Base](#BKMK_msdyn_committedamount_Base)
+- [msdyn_CommittedAmount_Date](#BKMK_msdyn_CommittedAmount_Date)
+- [msdyn_CommittedAmount_State](#BKMK_msdyn_CommittedAmount_State)
+- [msdyn_ContractOrganizationalUnitIdName](#BKMK_msdyn_ContractOrganizationalUnitIdName)
+- [msdyn_nottoexceedlimit_Base](#BKMK_msdyn_nottoexceedlimit_Base)
+- [msdyn_RemainingAmount](#BKMK_msdyn_RemainingAmount)
+- [msdyn_remainingamount_Base](#BKMK_msdyn_remainingamount_Base)
+- [msdyn_SpentAmount](#BKMK_msdyn_SpentAmount)
+- [msdyn_spentamount_Base](#BKMK_msdyn_spentamount_Base)
+- [msdyn_SpentAmount_Date](#BKMK_msdyn_SpentAmount_Date)
+- [msdyn_SpentAmount_State](#BKMK_msdyn_SpentAmount_State)
+- [msdyn_TotalChargeableCostRollup](#BKMK_msdyn_TotalChargeableCostRollup)
+- [msdyn_totalchargeablecostrollup_Base](#BKMK_msdyn_totalchargeablecostrollup_Base)
+- [msdyn_TotalChargeableCostRollup_Date](#BKMK_msdyn_TotalChargeableCostRollup_Date)
+- [msdyn_TotalChargeableCostRollup_State](#BKMK_msdyn_TotalChargeableCostRollup_State)
+- [msdyn_TotalNonchargeableCostRollup](#BKMK_msdyn_TotalNonchargeableCostRollup)
+- [msdyn_totalnonchargeablecostrollup_Base](#BKMK_msdyn_totalnonchargeablecostrollup_Base)
+- [msdyn_TotalNonchargeableCostRollup_Date](#BKMK_msdyn_TotalNonchargeableCostRollup_Date)
+- [msdyn_TotalNonchargeableCostRollup_State](#BKMK_msdyn_TotalNonchargeableCostRollup_State)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OpportunityIdName](#BKMK_OpportunityIdName)
 - [OwnerIdName](#BKMK_OwnerIdName)
@@ -1962,6 +2129,409 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msdyn_AccountManagerIdName"></a> msdyn_AccountManagerIdName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountmanageridname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_AccountManagerIdYomiName"></a> msdyn_AccountManagerIdYomiName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountmanageridyominame|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_CommittedAmount"></a> msdyn_CommittedAmount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Amount that was committed to be spent against the Not-to-exceed limit|
+|DisplayName|Committed Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_committedamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_committedamount_Base"></a> msdyn_committedamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Committed Amount in base currency.|
+|DisplayName|Committed Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_committedamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_CommittedAmount_Date"></a> msdyn_CommittedAmount_Date
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Committed Amount.|
+|DisplayName|Committed Amount (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_committedamount_date|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_CommittedAmount_State"></a> msdyn_CommittedAmount_State
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Committed Amount.|
+|DisplayName|Committed Amount (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_committedamount_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_ContractOrganizationalUnitIdName"></a> msdyn_ContractOrganizationalUnitIdName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractorganizationalunitidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_nottoexceedlimit_Base"></a> msdyn_nottoexceedlimit_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Not-to-exceed Limit in base currency.|
+|DisplayName|Not-to-exceed Limit (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_nottoexceedlimit_base|
+|MaxValue|922337203685477|
+|MinValue|0|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_RemainingAmount"></a> msdyn_RemainingAmount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Amount available to be spent against the not-to-exceed limit|
+|DisplayName|Remaining Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_remainingamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_remainingamount_Base"></a> msdyn_remainingamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Remaining Amount in base currency.|
+|DisplayName|Remaining Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_remainingamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_SpentAmount"></a> msdyn_SpentAmount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Amount that was already spent or consumed by confirmed invoices against the Not-to-exceed limit|
+|DisplayName|Spent Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_spentamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_spentamount_Base"></a> msdyn_spentamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Spent Amount in base currency.|
+|DisplayName|Spent Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_spentamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_SpentAmount_Date"></a> msdyn_SpentAmount_Date
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Spent Amount.|
+|DisplayName|Spent Amount (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_spentamount_date|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_SpentAmount_State"></a> msdyn_SpentAmount_State
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Spent Amount.|
+|DisplayName|Spent Amount (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_spentamount_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_TotalChargeableCostRollup"></a> msdyn_TotalChargeableCostRollup
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the estimated chargeable cost.|
+|DisplayName|Total Chargeable Cost|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalchargeablecostrollup|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_totalchargeablecostrollup_Base"></a> msdyn_totalchargeablecostrollup_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Total Chargeable Cost in base currency.|
+|DisplayName|Total Chargeable Cost (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalchargeablecostrollup_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_TotalChargeableCostRollup_Date"></a> msdyn_TotalChargeableCostRollup_Date
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Total Chargeable Cost.|
+|DisplayName|Total Chargeable Cost (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalchargeablecostrollup_date|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_TotalChargeableCostRollup_State"></a> msdyn_TotalChargeableCostRollup_State
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Total Chargeable Cost.|
+|DisplayName|Total Chargeable Cost (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalchargeablecostrollup_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_TotalNonchargeableCostRollup"></a> msdyn_TotalNonchargeableCostRollup
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Total estimated cost that will not be charged to the customer.|
+|DisplayName|Total Non-chargeable Cost|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalnonchargeablecostrollup|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_totalnonchargeablecostrollup_Base"></a> msdyn_totalnonchargeablecostrollup_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Total Non-chargeable Cost in base currency.|
+|DisplayName|Total Non-chargeable Cost (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalnonchargeablecostrollup_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_TotalNonchargeableCostRollup_Date"></a> msdyn_TotalNonchargeableCostRollup_Date
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Total Non-chargeable Cost.|
+|DisplayName|Total Non-chargeable Cost (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalnonchargeablecostrollup_date|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_TotalNonchargeableCostRollup_State"></a> msdyn_TotalNonchargeableCostRollup_State
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Total Non-chargeable Cost.|
+|DisplayName|Total Non-chargeable Cost (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalnonchargeablecostrollup_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
 |Property|Value|
@@ -2320,6 +2890,8 @@ Listed by **SchemaName**.
 - [order_details](#BKMK_order_details)
 - [order_invoices](#BKMK_order_invoices)
 - [SalesOrder_OrderClose](#BKMK_SalesOrder_OrderClose)
+- [msdyn_playbookinstance_salesorder](#BKMK_msdyn_playbookinstance_salesorder)
+- [bpf_salesorder_OpportunitySalesProcess](#BKMK_bpf_salesorder_OpportunitySalesProcess)
 
 
 ### <a name="BKMK_lk_opportunitysalesprocess_salesorderid"></a> lk_opportunitysalesprocess_salesorderid
@@ -2380,6 +2952,40 @@ Same as the [SalesOrder_OrderClose](orderclose.md#BKMK_SalesOrder_OrderClose) ma
 |ReferencedEntityNavigationPropertyName|SalesOrder_OrderClose|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
+### <a name="BKMK_msdyn_playbookinstance_salesorder"></a> msdyn_playbookinstance_salesorder
+
+**Added by**: Playbook Solution
+
+Same as the [msdyn_playbookinstance_salesorder](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_salesorder) many-to-one relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_playbookinstance|
+|ReferencingAttribute|regarding|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_salesorder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
+### <a name="BKMK_bpf_salesorder_OpportunitySalesProcess"></a> bpf_salesorder_OpportunitySalesProcess
+
+**Added by**: Project Operations Solution
+
+Same as the [bpf_salesorder_OpportunitySalesProcess](opportunitysalesprocess.md#BKMK_bpf_salesorder_OpportunitySalesProcess) many-to-one relationship for the [opportunitysalesprocess](opportunitysalesprocess.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunitysalesprocess|
+|ReferencingAttribute|bpf_salesorderid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bpf_salesorder_OpportunitySalesProcess|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: salesorder<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -2459,5 +3065,4 @@ IntersectEntityName: contactorders<br />
 ### See also
 
 [About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.salesorder?text=salesorder EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />

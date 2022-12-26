@@ -1,6 +1,6 @@
 ---
-title: "Property Instance (DynamicPropertyInstance)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
-description: "Includes schema information and supported messages for the Property Instance (DynamicPropertyInstance)  table/entity."
+title: "msdyn_playbookactivityattribute table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the msdyn_playbookactivityattribute table/entity."
 ms.date: 12/26/2022
 ms.service: dynamics-365-sales
 ms.topic: "reference"
@@ -15,43 +15,51 @@ search.app:
   - D365CE
 ---
 
-# Property Instance (DynamicPropertyInstance)  table/entity reference
+# msdyn_playbookactivityattribute table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
-Instance of a property with its value.
+Stores attribute names and values of the playbook activity.
 
-**Added by**: Product Management Solution
+**Added by**: Playbook Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.2/dynamicpropertyinstances<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.2/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.2/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/dynamicpropertyinstances<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrieveProductProperties|<xref href="Microsoft.Dynamics.CRM.RetrieveProductProperties?text=RetrieveProductProperties Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProductPropertiesRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.2/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateProductProperties|<xref href="Microsoft.Dynamics.CRM.UpdateProductProperties?text=UpdateProductProperties Action" />|<xref:Microsoft.Crm.Sdk.Messages.UpdateProductPropertiesRequest>|
+|Assign|PATCH [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes(*msdyn_playbookactivityattributeid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes(*msdyn_playbookactivityattributeid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes(*msdyn_playbookactivityattributeid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes(*msdyn_playbookactivityattributeid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/msdyn_playbookactivityattributes(*msdyn_playbookactivityattributeid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|DynamicPropertyInstances|
-|DisplayCollectionName|Property Instances|
-|DisplayName|Property Instance|
-|EntitySetName|dynamicpropertyinstances|
+|CollectionSchemaName|msdyn_playbookactivityattributes|
+|DisplayCollectionName|Playbook activity attributes|
+|DisplayName|Playbook activity attribute|
+|EntitySetName|msdyn_playbookactivityattributes|
 |IsBPFEntity|False|
-|LogicalCollectionName|dynamicpropertyinstances|
-|LogicalName|dynamicpropertyinstance|
+|LogicalCollectionName|msdyn_playbookactivityattributes|
+|LogicalName|msdyn_playbookactivityattribute|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|dynamicpropertyinstanceid|
-|PrimaryNameAttribute|name|
-|SchemaName|DynamicPropertyInstance|
+|PrimaryIdAttribute|msdyn_playbookactivityattributeid|
+|PrimaryNameAttribute|msdyn_attributeLogicalName|
+|SchemaName|msdyn_playbookactivityattribute|
 
 <a name="writable-attributes"></a>
 
@@ -59,68 +67,19 @@ Instance of a property with its value.
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
-- [DMTImportState](#BKMK_DMTImportState)
-- [DynamicPropertyId](#BKMK_DynamicPropertyId)
-- [DynamicPropertyInstanceid](#BKMK_DynamicPropertyInstanceid)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [Name](#BKMK_Name)
+- [msdyn_attributeLogicalName](#BKMK_msdyn_attributeLogicalName)
+- [msdyn_attributeType](#BKMK_msdyn_attributeType)
+- [msdyn_attributeValue](#BKMK_msdyn_attributeValue)
+- [msdyn_playbookactivityattributeId](#BKMK_msdyn_playbookactivityattributeId)
+- [msdyn_playbookactivityid](#BKMK_msdyn_playbookactivityid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
-- [RegardingObjectId](#BKMK_RegardingObjectId)
-- [RegardingObjectIdType](#BKMK_RegardingObjectIdType)
+- [statecode](#BKMK_statecode)
+- [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
-- [validationstatus](#BKMK_validationstatus)
-- [ValueDecimal](#BKMK_ValueDecimal)
-- [ValueDouble](#BKMK_ValueDouble)
-- [ValueInteger](#BKMK_ValueInteger)
-- [ValueString](#BKMK_ValueString)
-
-
-### <a name="BKMK_DMTImportState"></a> DMTImportState
-
-|Property|Value|
-|--------|-----|
-|Description|Internal Use Only|
-|DisplayName|Internal Use Only|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|dmtimportstate|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_DynamicPropertyId"></a> DynamicPropertyId
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the property that this record is associated with.|
-|DisplayName|Property ID|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|dynamicpropertyid|
-|RequiredLevel|SystemRequired|
-|Targets|dynamicproperty|
-|Type|Lookup|
-
-
-### <a name="BKMK_DynamicPropertyInstanceid"></a> DynamicPropertyInstanceid
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the unique identifier of the property instance.|
-|DisplayName|Property Instance ID|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|dynamicpropertyinstanceid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
@@ -140,20 +99,88 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_Name"></a> Name
+### <a name="BKMK_msdyn_attributeLogicalName"></a> msdyn_attributeLogicalName
 
 |Property|Value|
 |--------|-----|
-|Description|name|
-|DisplayName|name|
+|Description|Type the name of the playbook activity attribute.|
+|DisplayName|Attribute Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|name|
-|MaxLength|100|
+|LogicalName|msdyn_attributeLogicalName|
+|MaxLength|128|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_attributeType"></a> msdyn_attributeType
+
+|Property|Value|
+|--------|-----|
+|Description|Stores the data type of the attribute.|
+|DisplayName|Attribute type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_attributeType|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_attributeType Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|string||
+|2|integer||
+|3|datetime||
+|4|boolean||
+|5|optionset||
+
+
+
+### <a name="BKMK_msdyn_attributeValue"></a> msdyn_attributeValue
+
+|Property|Value|
+|--------|-----|
+|Description|Stores the value of the attribute.|
+|DisplayName|Attribute value|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_attributeValue|
+|MaxLength|200|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_playbookactivityattributeId"></a> msdyn_playbookactivityattributeId
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the playbook activity attribute.|
+|DisplayName|Playbook activity attribute|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_playbookactivityattributeid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_playbookactivityid"></a> msdyn_playbookactivityid
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the playbook activity associated with the playbook activity attribute.|
+|DisplayName|Playbook activity ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_playbookactivityid|
+|RequiredLevel|None|
+|Targets|msdyn_playbookactivity|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -174,13 +201,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
 |DisplayName|Owner|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
 |LogicalName|ownerid|
 |RequiredLevel|SystemRequired|
 |Targets|systemuser,team|
@@ -197,41 +225,52 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
 |LogicalName|owneridtype|
 |RequiredLevel|SystemRequired|
 |Type|EntityName|
 
 
-### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
-
-**Added by**: Sales Solution
+### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the object that the property is associated with.|
-|DisplayName|Regarding|
-|IsValidForForm|False|
+|Description|Status of the PlaybookActivityAttribute|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|regardingobjectid|
-|RequiredLevel|None|
-|Targets|invoicedetail,opportunityproduct,quotedetail,salesorderdetail|
-|Type|Lookup|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
+
+#### statecode Choices/Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Draft|1|Draft|
+|1|Published|2|Published|
 
 
-### <a name="BKMK_RegardingObjectIdType"></a> RegardingObjectIdType
 
-**Added by**: Active Solution Solution
+### <a name="BKMK_statuscode"></a> statuscode
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName||
-|IsValidForForm|False|
+|Description|Reason for the status of the PlaybookActivityAttribute|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|regardingobjectidtype|
+|LogicalName|statuscode|
 |RequiredLevel|None|
-|Type|EntityName|
+|Type|Status|
+
+#### statuscode Choices/Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Draft|0|
+|2|Published|1|
+
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
@@ -250,20 +289,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the currency associated with the record.|
-|DisplayName|Currency|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyid|
-|RequiredLevel|None|
-|Targets|transactioncurrency|
-|Type|Lookup|
-
-
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
 |Property|Value|
@@ -279,93 +304,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Integer|
 
-
-### <a name="BKMK_validationstatus"></a> validationstatus
-
-|Property|Value|
-|--------|-----|
-|Description|Shows whether the property value is valid.|
-|DisplayName|Is Valid|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|validationstatus|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### validationstatus Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Valid||
-|0|Invalid||
-
-**DefaultValue**: 0
-
-
-
-### <a name="BKMK_ValueDecimal"></a> ValueDecimal
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the decimal value of the property.|
-|DisplayName|Decimal Value|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|valuedecimal|
-|MaxValue|100000000000|
-|MinValue|-100000000000|
-|Precision|2|
-|RequiredLevel|None|
-|Type|Decimal|
-
-
-### <a name="BKMK_ValueDouble"></a> ValueDouble
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the double value of the property.|
-|DisplayName|Double Value|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|valuedouble|
-|MaxValue|100000000000|
-|MinValue|-100000000000|
-|Precision|5|
-|RequiredLevel|None|
-|Type|Double|
-
-
-### <a name="BKMK_ValueInteger"></a> ValueInteger
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the integer value of the property.|
-|DisplayName|Integer Value|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|valueinteger|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_ValueString"></a> ValueString
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the string value of the property.|
-|DisplayName|String Value|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|valuestring|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
 <a name="read-only-attributes"></a>
 
 ## Read-only columns/attributes
@@ -379,8 +317,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
-- [DynamicPropertyIdName](#BKMK_DynamicPropertyIdName)
-- [ExchangeRate](#BKMK_ExchangeRate)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -388,19 +324,19 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_playbookactivityidName](#BKMK_msdyn_playbookactivityidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
-- [RegardingObjectIdName](#BKMK_RegardingObjectIdName)
-- [RegardingObjectIdYomiName](#BKMK_RegardingObjectIdYomiName)
-- [TransactionCurrencyIdName](#BKMK_TransactionCurrencyIdName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -415,6 +351,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -432,6 +370,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -442,7 +382,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|createdbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
@@ -463,6 +403,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -476,6 +418,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -493,6 +437,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -503,43 +449,13 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|createdonbehalfbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
-
-
-### <a name="BKMK_DynamicPropertyIdName"></a> DynamicPropertyIdName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|dynamicpropertyidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_ExchangeRate"></a> ExchangeRate
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
-|DisplayName|Exchange Rate|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|exchangerate|
-|MaxValue|100000000000|
-|MinValue|0.000000000001|
-|Precision|12|
-|RequiredLevel|None|
-|Type|Decimal|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -554,6 +470,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -571,6 +489,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -581,7 +501,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
@@ -602,6 +522,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -615,6 +537,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -632,6 +556,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -642,11 +568,29 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_playbookactivityidName"></a> msdyn_playbookactivityidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_playbookactivityidname|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -664,6 +608,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Yomi name of the owner|
@@ -680,6 +626,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -693,6 +641,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -710,6 +660,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the team that owns the record.|
@@ -724,6 +676,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -732,63 +686,13 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|owninguser|
 |RequiredLevel|None|
-|Targets||
+|Targets|systemuser|
 |Type|Lookup|
 
 
-### <a name="BKMK_RegardingObjectIdName"></a> RegardingObjectIdName
-
-**Added by**: Sales Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|regardingobjectidname|
-|MaxLength|4000|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_RegardingObjectIdYomiName"></a> RegardingObjectIdYomiName
-
-**Added by**: Sales Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|regardingobjectidyominame|
-|MaxLength|4000|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -808,35 +712,10 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [InvoiceDetail_Dynamicpropertyinstance](#BKMK_InvoiceDetail_Dynamicpropertyinstance)
-- [OpportunityProduct_Dynamicpropertyinstance](#BKMK_OpportunityProduct_Dynamicpropertyinstance)
-- [QuoteDetail_Dynamicpropertyinstance](#BKMK_QuoteDetail_Dynamicpropertyinstance)
-- [SalesOrderDetail_Dynamicpropertyinstance](#BKMK_SalesOrderDetail_Dynamicpropertyinstance)
 
+### <a name="BKMK_msdyn_playbookactivity_msdyn_playbookactivityattribute"></a> msdyn_playbookactivity_msdyn_playbookactivityattribute
 
-### <a name="BKMK_InvoiceDetail_Dynamicpropertyinstance"></a> InvoiceDetail_Dynamicpropertyinstance
-
-**Added by**: Sales Solution
-
-See the [InvoiceDetail_Dynamicpropertyinstance](invoicedetail.md#BKMK_InvoiceDetail_Dynamicpropertyinstance) one-to-many relationship for the [invoicedetail](invoicedetail.md) table/entity.
-
-### <a name="BKMK_OpportunityProduct_Dynamicpropertyinstance"></a> OpportunityProduct_Dynamicpropertyinstance
-
-**Added by**: Sales Solution
-
-See the [OpportunityProduct_Dynamicpropertyinstance](opportunityproduct.md#BKMK_OpportunityProduct_Dynamicpropertyinstance) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
-
-### <a name="BKMK_QuoteDetail_Dynamicpropertyinstance"></a> QuoteDetail_Dynamicpropertyinstance
-
-**Added by**: Sales Solution
-
-See the [QuoteDetail_Dynamicpropertyinstance](quotedetail.md#BKMK_QuoteDetail_Dynamicpropertyinstance) one-to-many relationship for the [quotedetail](quotedetail.md) table/entity.
-
-### <a name="BKMK_SalesOrderDetail_Dynamicpropertyinstance"></a> SalesOrderDetail_Dynamicpropertyinstance
-
-**Added by**: Sales Solution
-
-See the [SalesOrderDetail_Dynamicpropertyinstance](salesorderdetail.md#BKMK_SalesOrderDetail_Dynamicpropertyinstance) one-to-many relationship for the [salesorderdetail](salesorderdetail.md) table/entity.
+See the [msdyn_playbookactivity_msdyn_playbookactivityattribute](msdyn_playbookactivity.md#BKMK_msdyn_playbookactivity_msdyn_playbookactivityattribute) one-to-many relationship for the [msdyn_playbookactivity](msdyn_playbookactivity.md) table/entity.
 
 ### See also
 

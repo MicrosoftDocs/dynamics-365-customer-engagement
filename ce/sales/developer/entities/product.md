@@ -1,13 +1,13 @@
 ---
-title: "Product table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Product table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Product table/entity."
-ms.date: 12/01/2022
-ms.service: "powerapps"
+ms.date: 12/26/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "margoc"
+author: "udaykirang"
+ms.author: "udag"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -31,15 +31,15 @@ Information about products and their pricing information.
 |-|-|-|
 |Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
 |CloneProduct|<xref href="Microsoft.Dynamics.CRM.CloneProduct?text=CloneProduct Action" />|<xref:Microsoft.Crm.Sdk.Messages.CloneProductRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/products<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/products(*productid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.2/products<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/products(*productid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
 |PublishProductHierarchy|<xref href="Microsoft.Dynamics.CRM.PublishProductHierarchy?text=PublishProductHierarchy Action" />|<xref:Microsoft.Crm.Sdk.Messages.PublishProductHierarchyRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/products(*productid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/products<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/products(*productid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/products<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RevertProduct|<xref href="Microsoft.Dynamics.CRM.RevertProduct?text=RevertProduct Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevertProductRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/products(*productid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/products(*productid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/products(*productid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/products(*productid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Properties
 
@@ -73,7 +73,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsKit](#BKMK_IsKit)
 - [IsReparented](#BKMK_IsReparented)
 - [IsStockItem](#BKMK_IsStockItem)
+- [msdyn_FieldServiceProductType](#BKMK_msdyn_FieldServiceProductType)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
+- [msdyn_TransactionCategory](#BKMK_msdyn_TransactionCategory)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentProductId](#BKMK_ParentProductId)
@@ -290,6 +292,30 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 
 
+### <a name="BKMK_msdyn_FieldServiceProductType"></a> msdyn_FieldServiceProductType
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Field Service Product Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fieldserviceproducttype|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_FieldServiceProductType Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|690970000|Inventory||
+|690970001|Non-Inventory||
+|690970002|Service||
+
+
+
 ### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
 
 **Added by**: Predictive Opportunity Scoring Solution
@@ -313,6 +339,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 **DefaultValue**: 0
 
+
+
+### <a name="BKMK_msdyn_TransactionCategory"></a> msdyn_TransactionCategory
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Select the transaction category for this product.|
+|DisplayName|Transaction Category|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactioncategory|
+|RequiredLevel|None|
+|Targets|msdyn_transactioncategory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -857,6 +899,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_TransactionCategoryName](#BKMK_msdyn_TransactionCategoryName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [ParentProductIdName](#BKMK_ParentProductIdName)
@@ -1301,6 +1344,24 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msdyn_TransactionCategoryName"></a> msdyn_TransactionCategoryName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactioncategoryname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 |Property|Value|
@@ -1455,6 +1516,7 @@ Listed by **SchemaName**.
 - [product_ProductSubstitute_substitutedproductid](#BKMK_product_ProductSubstitute_substitutedproductid)
 - [product_ProductSubstitute_productid](#BKMK_product_ProductSubstitute_productid)
 - [product_price_levels](#BKMK_product_price_levels)
+- [opportunity_products](#BKMK_opportunity_products)
 - [product_invoice_details](#BKMK_product_invoice_details)
 - [product_order_details](#BKMK_product_order_details)
 - [product_quote_details](#BKMK_product_quote_details)
@@ -1548,6 +1610,23 @@ Same as the [product_price_levels](productpricelevel.md#BKMK_product_price_level
 |ReferencedEntityNavigationPropertyName|product_price_levels|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_opportunity_products"></a> opportunity_products
+
+**Added by**: Sales Solution
+
+Same as the [opportunity_products](opportunityproduct.md#BKMK_opportunity_products) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityproduct|
+|ReferencingAttribute|productid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunity_products|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_product_invoice_details"></a> product_invoice_details
@@ -1677,5 +1756,4 @@ See the [competitorproduct_association](competitor.md#BKMK_competitorproduct_ass
 ### See also
 
 [About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.product?text=product EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />

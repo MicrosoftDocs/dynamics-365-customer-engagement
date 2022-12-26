@@ -1,13 +1,13 @@
 ---
-title: "Account table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Account table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Account table/entity."
-ms.date: 12/01/2022
-ms.service: "powerapps"
+ms.date: 12/26/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "margoc"
+author: "udaykirang"
+ms.author: "udag"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -27,22 +27,22 @@ Business that represents a customer or potential customer. The company that is b
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Assign|PATCH [*org URI*]/api/data/v9.2/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|Create|POST [*org URI*]/api/data/v9.0/accounts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.2/accounts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/accounts(*accountid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |Merge|<xref href="Microsoft.Dynamics.CRM.Merge?text=Merge Action" />|<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/accounts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/accounts(*accountid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/accounts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/accounts(*accountid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Properties
 
@@ -144,9 +144,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastUsedInCampaign](#BKMK_LastUsedInCampaign)
 - [MarketCap](#BKMK_MarketCap)
 - [MarketingOnly](#BKMK_MarketingOnly)
+- [msdyn_BillingAccount](#BKMK_msdyn_BillingAccount)
+- [msdyn_externalaccountid](#BKMK_msdyn_externalaccountid)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_salesaccelerationinsightid](#BKMK_msdyn_salesaccelerationinsightid)
 - [msdyn_segmentid](#BKMK_msdyn_segmentid)
+- [msdyn_TaxExempt](#BKMK_msdyn_TaxExempt)
+- [msdyn_TaxExemptNumber](#BKMK_msdyn_TaxExemptNumber)
 - [Name](#BKMK_Name)
 - [NumberOfEmployees](#BKMK_NumberOfEmployees)
 - [OriginatingLeadId](#BKMK_OriginatingLeadId)
@@ -1164,7 +1168,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|
-|DisplayName|Price List|
+|DisplayName|Product Price List|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|defaultpricelevelid|
@@ -1609,6 +1613,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 
 
+### <a name="BKMK_msdyn_BillingAccount"></a> msdyn_BillingAccount
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Reference to an other account to be used for billing (only to be used if billing account differs)|
+|DisplayName|Billing Account|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccount|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_externalaccountid"></a> msdyn_externalaccountid
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|External Account ID from other systems.|
+|DisplayName|External ID|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalaccountid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
 
 **Added by**: Predictive Opportunity Scoring Solution
@@ -1664,6 +1702,49 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Targets|msdyn_segment|
 |Type|Lookup|
+
+
+### <a name="BKMK_msdyn_TaxExempt"></a> msdyn_TaxExempt
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account is tax exempt.|
+|DisplayName|Tax Exempt|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxexempt|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_TaxExempt Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_TaxExemptNumber"></a> msdyn_TaxExemptNumber
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the government tax exempt number.|
+|DisplayName|Tax Exempt Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxexemptnumber|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -2430,6 +2511,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_BillingAccountName](#BKMK_msdyn_BillingAccountName)
+- [msdyn_BillingAccountYomiName](#BKMK_msdyn_BillingAccountYomiName)
 - [msdyn_salesaccelerationinsightidName](#BKMK_msdyn_salesaccelerationinsightidName)
 - [msdyn_segmentidName](#BKMK_msdyn_segmentidName)
 - [OnHoldTime](#BKMK_OnHoldTime)
@@ -3110,6 +3193,42 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msdyn_BillingAccountName"></a> msdyn_BillingAccountName
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccountname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_BillingAccountYomiName"></a> msdyn_BillingAccountYomiName
+
+**Added by**: Field Service Common Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccountyominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_salesaccelerationinsightidName"></a> msdyn_salesaccelerationinsightidName
 
 **Added by**: Sales Acceleration Solution
@@ -3696,6 +3815,8 @@ Listed by **SchemaName**.
 - [order_customer_accounts](#BKMK_order_customer_accounts)
 - [quote_customer_accounts](#BKMK_quote_customer_accounts)
 - [opportunity_parent_account](#BKMK_opportunity_parent_account)
+- [msdyn_playbookinstance_account](#BKMK_msdyn_playbookinstance_account)
+- [msdyn_account_account_BillingAccount](#BKMK_msdyn_account_account_BillingAccount)
 
 
 ### <a name="BKMK_account_parent_account"></a> account_parent_account
@@ -3980,6 +4101,40 @@ Same as the [opportunity_parent_account](opportunity.md#BKMK_opportunity_parent_
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 1|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+
+### <a name="BKMK_msdyn_playbookinstance_account"></a> msdyn_playbookinstance_account
+
+**Added by**: Playbook Solution
+
+Same as the [msdyn_playbookinstance_account](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_account) many-to-one relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_playbookinstance|
+|ReferencingAttribute|regarding|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
+### <a name="BKMK_msdyn_account_account_BillingAccount"></a> msdyn_account_account_BillingAccount
+
+**Added by**: Field Service Common Solution
+
+Same as the [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_account_account_BillingAccount) many-to-one relationship for the [account](account.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|msdyn_billingaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_account_BillingAccount|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Accounts<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -3991,6 +4146,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [account_parent_account](#BKMK_account_parent_account)
 - [account_originating_lead](#BKMK_account_originating_lead)
 - [price_level_accounts](#BKMK_price_level_accounts)
+- [msdyn_account_account_BillingAccount](#BKMK_msdyn_account_account_BillingAccount)
 
 
 ### <a name="BKMK_account_primary_contact"></a> account_primary_contact
@@ -4016,6 +4172,10 @@ See the [account_originating_lead](lead.md#BKMK_account_originating_lead) one-to
 **Added by**: Product Management Solution
 
 See the [price_level_accounts](pricelevel.md#BKMK_price_level_accounts) one-to-many relationship for the [pricelevel](pricelevel.md) table/entity.
+
+### <a name="BKMK_msdyn_account_account_BillingAccount"></a> msdyn_account_account_BillingAccount
+
+See the [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_account_account_BillingAccount) one-to-many relationship for the [account](account.md) table/entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -4066,5 +4226,4 @@ See the [CampaignActivity_Accounts](campaignactivity.md#BKMK_CampaignActivity_Ac
 ### See also
 
 [About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />

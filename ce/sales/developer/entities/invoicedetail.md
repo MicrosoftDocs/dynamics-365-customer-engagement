@@ -1,13 +1,13 @@
 ---
-title: "Invoice Product (InvoiceDetail)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
-description: "Includes schema information and supported messages for the Invoice Product (InvoiceDetail)  table/entity."
-ms.date: 12/01/2022
-ms.service: "powerapps"
+title: "Invoice Line (InvoiceDetail)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Invoice Line (InvoiceDetail)  table/entity."
+ms.date: 12/26/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "margoc"
+author: "udaykirang"
+ms.author: "udag"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -15,7 +15,7 @@ search.app:
   - D365CE
 ---
 
-# Invoice Product (InvoiceDetail)  table/entity reference
+# Invoice Line (InvoiceDetail)  table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
@@ -30,19 +30,19 @@ Line item in an invoice containing detailed billing information for a product.
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |CalculatePrice|<xref href="Microsoft.Dynamics.CRM.CalculatePrice?text=CalculatePrice Action" />|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/invoicedetails<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/invoicedetails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.2/invoicedetails<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/invoicedetails(*invoicedetailid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/invoicedetails(*invoicedetailid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/invoicedetails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.2/invoicedetails(*invoicedetailid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|InvoiceDetails|
-|DisplayCollectionName|Invoice Products|
-|DisplayName|Invoice Product|
+|DisplayCollectionName|Invoice Lines|
+|DisplayName|Invoice Line|
 |EntitySetName|invoicedetails|
 |IsBPFEntity|False|
 |LogicalCollectionName|invoicedetails|
@@ -71,6 +71,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
+- [msdyn_BalanceRetainerAmount](#BKMK_msdyn_BalanceRetainerAmount)
+- [msdyn_balanceretaineramount_Base](#BKMK_msdyn_balanceretaineramount_Base)
+- [msdyn_BillingMethod](#BKMK_msdyn_BillingMethod)
+- [msdyn_chargeableamount](#BKMK_msdyn_chargeableamount)
+- [msdyn_complimentaryamount](#BKMK_msdyn_complimentaryamount)
+- [msdyn_contractlineamount](#BKMK_msdyn_contractlineamount)
+- [msdyn_invoicedtilldate](#BKMK_msdyn_invoicedtilldate)
+- [msdyn_IsCorrection](#BKMK_msdyn_IsCorrection)
+- [msdyn_nonchargeableamount](#BKMK_msdyn_nonchargeableamount)
+- [msdyn_Project](#BKMK_msdyn_Project)
+- [msdyn_ProjectContractLineInvoiceSchedule](#BKMK_msdyn_ProjectContractLineInvoiceSchedule)
+- [msdyn_ProjectContractRetainer](#BKMK_msdyn_ProjectContractRetainer)
+- [msdyn_RetainerType](#BKMK_msdyn_RetainerType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentBundleId](#BKMK_ParentBundleId)
 - [ParentBundleIdRef](#BKMK_ParentBundleIdRef)
@@ -341,6 +354,261 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
+
+
+### <a name="BKMK_msdyn_BalanceRetainerAmount"></a> msdyn_BalanceRetainerAmount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Balance amount on the retainer|
+|DisplayName|Balance Retainer Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_balanceretaineramount|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|0|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_balanceretaineramount_Base"></a> msdyn_balanceretaineramount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the BalanceRetainerAmount in base currency.|
+|DisplayName|Balance Retainer Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_balanceretaineramount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|0|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Billing method for the project invoice line. Valid values are Time and Material and Fixed Price|
+|DisplayName|Billing Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_BillingMethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|Time and Material|Billing method for time and material transactions|
+|192350001|Fixed Price|Billing method for fixed price transactions|
+
+
+
+### <a name="BKMK_msdyn_chargeableamount"></a> msdyn_chargeableamount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The amount from included line details that is chargeable.|
+|DisplayName|Chargeable Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_chargeableamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_complimentaryamount"></a> msdyn_complimentaryamount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The amount from included line details that is complimentary and won't be charged.|
+|DisplayName|Complimentary Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_complimentaryamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_contractlineamount"></a> msdyn_contractlineamount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Amount from the related project contract line if present.|
+|DisplayName|Contract Line Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractlineamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_invoicedtilldate"></a> msdyn_invoicedtilldate
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Amount already invoiced to customer for the same project contract line.|
+|DisplayName|Amount Previously Invoiced|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicedtilldate|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_IsCorrection"></a> msdyn_IsCorrection
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates if this invoice line is a correction|
+|DisplayName|Is Correction|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_iscorrection|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_IsCorrection Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_nonchargeableamount"></a> msdyn_nonchargeableamount
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The amount from included line details that is non-chargeable.|
+|DisplayName|Non Chargeable Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_nonchargeableamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_Project"></a> msdyn_Project
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the project for this invoice line.|
+|DisplayName|Project|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_project|
+|RequiredLevel|None|
+|Targets|msdyn_project|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_ProjectContractLineInvoiceSchedule"></a> msdyn_ProjectContractLineInvoiceSchedule
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique Identifier of the Project Contract Line Invoice Schedule associated with this Invoice Line|
+|DisplayName|Project Contract Line Invoice Schedule|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectcontractlineinvoiceschedule|
+|RequiredLevel|None|
+|Targets|msdyn_contractlineinvoiceschedule|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_ProjectContractRetainer"></a> msdyn_ProjectContractRetainer
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Project Contract Retainer associated with Invoice Line.|
+|DisplayName|Project Contract Retainer|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_projectcontractretainer|
+|RequiredLevel|None|
+|Targets|msdyn_projectcontractretainer|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_RetainerType"></a> msdyn_RetainerType
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates the type of Retainer Line|
+|DisplayName|Retainer Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_retainertype|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_RetainerType Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|Retainer Request|Retainer or Advance amount being requested of the customer|
+|192350001|Retainer Usage|Retainer or Advance amount being used on this invoice.|
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -1030,6 +1298,14 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_chargeableamount_Base](#BKMK_msdyn_chargeableamount_Base)
+- [msdyn_complimentaryamount_Base](#BKMK_msdyn_complimentaryamount_Base)
+- [msdyn_contractlineamount_Base](#BKMK_msdyn_contractlineamount_Base)
+- [msdyn_invoicedtilldate_Base](#BKMK_msdyn_invoicedtilldate_Base)
+- [msdyn_nonchargeableamount_Base](#BKMK_msdyn_nonchargeableamount_Base)
+- [msdyn_ProjectContractLineInvoiceScheduleName](#BKMK_msdyn_ProjectContractLineInvoiceScheduleName)
+- [msdyn_ProjectContractRetainerName](#BKMK_msdyn_ProjectContractRetainerName)
+- [msdyn_ProjectName](#BKMK_msdyn_ProjectName)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -1389,6 +1665,155 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_chargeableamount_Base"></a> msdyn_chargeableamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Chargeable Amount in base currency.|
+|DisplayName|Chargeable Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_chargeableamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_complimentaryamount_Base"></a> msdyn_complimentaryamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Complimentary Amount in base currency.|
+|DisplayName|Complimentary Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_complimentaryamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_contractlineamount_Base"></a> msdyn_contractlineamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the project contract line amount in base currency.|
+|DisplayName|Contract Line Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractlineamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_invoicedtilldate_Base"></a> msdyn_invoicedtilldate_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Amount Previously Invoiced in base currency.|
+|DisplayName|Amount Previously Invoiced (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicedtilldate_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_nonchargeableamount_Base"></a> msdyn_nonchargeableamount_Base
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Value of the Non Chargeable Amount in base currency.|
+|DisplayName|Non Chargeable Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_nonchargeableamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
+
+
+### <a name="BKMK_msdyn_ProjectContractLineInvoiceScheduleName"></a> msdyn_ProjectContractLineInvoiceScheduleName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectcontractlineinvoiceschedulename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ProjectContractRetainerName"></a> msdyn_ProjectContractRetainerName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectcontractretainername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ProjectName"></a> msdyn_ProjectName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectname|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -1801,5 +2226,4 @@ See the [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoicedet
 ### See also
 
 [About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.invoicedetail?text=invoicedetail EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />

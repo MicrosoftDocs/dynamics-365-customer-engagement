@@ -1,13 +1,13 @@
 ---
-title: "OpportunitySalesProcess table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "OpportunitySalesProcess table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the OpportunitySalesProcess table/entity."
-ms.date: 12/01/2022
-ms.service: "powerapps"
+ms.date: 12/26/2022
+ms.service: dynamics-365-sales
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "margoc"
+author: "udaykirang"
+ms.author: "udag"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -20,7 +20,7 @@ search.app:
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
-Opportunity Sales Process Business Process Flow
+Base entity for process Opportunity Sales Process
 
 **Added by**: Sales Solution
 
@@ -29,12 +29,12 @@ Opportunity Sales Process Business Process Flow
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/opportunitysalesprocesses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/opportunitysalesprocesses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.2/opportunitysalesprocesses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.2/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.2/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.2/opportunitysalesprocesses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.2/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.2/opportunitysalesprocesses(*businessprocessflowinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Properties
 
@@ -60,6 +60,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ActiveStageId](#BKMK_ActiveStageId)
 - [ActiveStageStartedOn](#BKMK_ActiveStageStartedOn)
+- [bpf_quoteid](#BKMK_bpf_quoteid)
+- [bpf_salesorderid](#BKMK_bpf_salesorderid)
 - [BusinessProcessFlowInstanceId](#BKMK_BusinessProcessFlowInstanceId)
 - [CompletedOn](#BKMK_CompletedOn)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
@@ -104,6 +106,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|activestagestartedon|
 |RequiredLevel|None|
 |Type|DateTime|
+
+
+### <a name="BKMK_bpf_quoteid"></a> bpf_quoteid
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|quote|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|bpf_quoteid|
+|RequiredLevel|None|
+|Targets|quote|
+|Type|Lookup|
+
+
+### <a name="BKMK_bpf_salesorderid"></a> bpf_salesorderid
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|salesorder|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|bpf_salesorderid|
+|RequiredLevel|None|
+|Targets|salesorder|
+|Type|Lookup|
 
 
 ### <a name="BKMK_BusinessProcessFlowInstanceId"></a> BusinessProcessFlowInstanceId
@@ -352,6 +386,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActiveStageIdName](#BKMK_ActiveStageIdName)
+- [bpf_quoteidName](#BKMK_bpf_quoteidName)
+- [bpf_salesorderidName](#BKMK_bpf_salesorderidName)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -391,6 +427,42 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |LogicalName|activestageidname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_bpf_quoteidName"></a> bpf_quoteidName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|bpf_quoteidname|
+|MaxLength|300|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_bpf_salesorderidName"></a> bpf_salesorderidName
+
+**Added by**: Project Operations Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|bpf_salesorderidname|
+|MaxLength|300|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -773,6 +845,8 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
 - [lk_opportunitysalesprocess_quoteid](#BKMK_lk_opportunitysalesprocess_quoteid)
 - [lk_opportunitysalesprocess_salesorderid](#BKMK_lk_opportunitysalesprocess_salesorderid)
+- [bpf_quote_OpportunitySalesProcess](#BKMK_bpf_quote_OpportunitySalesProcess)
+- [bpf_salesorder_OpportunitySalesProcess](#BKMK_bpf_salesorder_OpportunitySalesProcess)
 
 
 ### <a name="BKMK_lk_opportunitysalesprocess_opportunityid"></a> lk_opportunitysalesprocess_opportunityid
@@ -787,8 +861,15 @@ See the [lk_opportunitysalesprocess_quoteid](quote.md#BKMK_lk_opportunitysalespr
 
 See the [lk_opportunitysalesprocess_salesorderid](salesorder.md#BKMK_lk_opportunitysalesprocess_salesorderid) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
 
+### <a name="BKMK_bpf_quote_OpportunitySalesProcess"></a> bpf_quote_OpportunitySalesProcess
+
+See the [bpf_quote_OpportunitySalesProcess](quote.md#BKMK_bpf_quote_OpportunitySalesProcess) one-to-many relationship for the [quote](quote.md) table/entity.
+
+### <a name="BKMK_bpf_salesorder_OpportunitySalesProcess"></a> bpf_salesorder_OpportunitySalesProcess
+
+See the [bpf_salesorder_OpportunitySalesProcess](salesorder.md#BKMK_bpf_salesorder_OpportunitySalesProcess) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
+
 ### See also
 
 [About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.opportunitysalesprocess?text=opportunitysalesprocess EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
