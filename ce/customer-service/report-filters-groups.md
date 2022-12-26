@@ -24,7 +24,7 @@ Reports are grouped into the following categories and subcategories.
     - Article Insights
 
 
-When you set one or more filters on reports, the filters are applied based on report groups. Say, for example, you've set the "channel" filter for displaying records related to the live chat channel in the Conversation tab of the Omnichannel historical report. This filter is automatically applied to ohter tabs of the report such as Queue, Agent, Bot, and Topics, but not to Voice or Unified routing tabs.
+When you set one or more filters on reports, the filters are applied based on report groups. Say, for example, you've set the "channel" filter for displaying records related to the live chat channel in the Conversation tab of the Omnichannel historical report. This filter is automatically applied to other tabs of the report such as Queue, Agent, Bot, and Topics, but not to Voice or Unified routing tabs.
 
 ## Next steps
 
