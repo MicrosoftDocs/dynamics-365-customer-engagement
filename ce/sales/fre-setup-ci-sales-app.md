@@ -106,13 +106,22 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
 
 9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
-    - To mask credit card numbers in the transcript, select **Hide personal data (preview)**. This option ensures that the credit card information in all future calls are masked.  
-      > [!NOTE]
-      > Preview features are rolled in out
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
 Teams call recording with conversation intelligence is now configured and ready for use in your organization.
+
+### Hide personal data (preview)
+
+To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details will be masked before saving a transcript.
+
+1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+
+1. Scroll down to the **New and upcoming features** section, select **Hide credit card info in transcripts**.  
+
+    This option ensures that the credit card information in the transcripts of all future calls are masked and saved. Currently, the credit card number mentions in the audio are not redacted.
+
+    :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option."::: 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 

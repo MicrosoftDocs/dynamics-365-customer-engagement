@@ -198,7 +198,7 @@ The following image shows an example of a **Transcript** tab.
     > [!div class="mx-imgBorder"]
     > ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")
 
-- Credit card mentions are masked to comply with Payment Card Industry (PCI) regulations. The details are masked only for calls that were recorded after the **Hide personal data (preview)** setting was enabled by your administrator.
+- Credit card numbers are masked before saving the transcript to comply with the Payment Card Industry (PCI) regulations. The details are masked only for calls that were recorded after the **Hide credit card info in transcripts** setting was enabled by your administrator. Currently, the credit card number mentions in the audio are not redacted.
 
 - The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
