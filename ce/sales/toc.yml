@@ -345,6 +345,8 @@
           href: manage-snapshots-forecast.md
         - name: Configure advanced settings
           href: forecast-configure-advanced-settings.md
+        - name: Customize column headers
+          href: fc-customize-column-headers.md
         - name: Activate and upload simple columns data
           href: activate-upload-simple-columns-data-forecast.md
         - name: Select a default forecast
@@ -790,8 +792,6 @@
               href: create-sequence-seller.md
             - name: Manage your sequences
               href: manage-sequences-seller.md
-            - name: Apply and remove tags from your sequences
-              href: apply-remove-tags-seller.md
             - name: Prioritize sales pipeline through work list
               href: prioritize-sales-pipeline-through-work-list.md
             - name: Customize work list card

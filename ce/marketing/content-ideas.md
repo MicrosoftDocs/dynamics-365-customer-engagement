@@ -44,7 +44,7 @@ The content ideas feature is like a brainstorming partner that can help inspire 
 ### Turn on or off the content ideas feature switch
 
 1. Go to **Settings** > **Overview** > **Feature switches**.
-1. Enable/disable the **Content ideas (preview** feature switch toggle.
+1. Enable/disable the **Content ideas (preview)** feature switch toggle.
 
 ## How to use content ideas
 
