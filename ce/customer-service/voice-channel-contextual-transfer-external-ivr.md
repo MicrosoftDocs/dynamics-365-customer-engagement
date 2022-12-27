@@ -38,7 +38,7 @@ This section lists the high-level steps you must perform to enable contextual ca
       - Plain text or string. Seperate the key value pairs by a semicolon.
          For example, <i>"sipkey1=sipval1;sipkey2=sipval2"</i>
       - Hex encoding format. Specify the encoding key word. For example,
-         For example above, the hex format is: <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
+        <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
        
 5. Create context variables with the same names as the SIP UUI header.
 
