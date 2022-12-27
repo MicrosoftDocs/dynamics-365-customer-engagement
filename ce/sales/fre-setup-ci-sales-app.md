@@ -115,6 +115,8 @@ Teams call recording with conversation intelligence is now configured and ready 
 
 To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details will be masked before saving a transcript.
 
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
 1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
 
 1. Scroll down to the **New and upcoming features** section, select **Hide credit card info in transcripts**.  
