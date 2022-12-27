@@ -1,7 +1,7 @@
 ---
 title: "Integrate a third-party IVR system with voice channel | MicrosoftDocs"
 description: "Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
-ms.date: 06/20/2022
+ms.date: 12/27/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -35,12 +35,12 @@ This section lists the high-level steps you must perform to enable contextual ca
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "User-to-User": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
 
-  - Plain text or string. The key value pairs must be separated by a semicolon.
-      For example, <i>"sipkey1=sipval1;sipkey2=sipval2"</i>
-  - The hex encoding format, if you'd want to pass the context using encoding.
-      For example above, the hex format is: <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
-      Ensure you specify the encoding key word when you're using the hex format.
-
+      - Plain text or string. The key value pairs must be separated by a semicolon.
+         For example, <i>"sipkey1=sipval1;sipkey2=sipval2"</i>
+      - The hex encoding format, if you'd want to pass the context using encoding.
+         For example above, the hex format is: <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
+         Ensure you specify the encoding key word when you're using the hex format.
+   
 5. Create context variables with the same names as the SIP UUI header.
 
     1. In Customer Service admin center, go to **Customer support** > **Workstreams**. If you're using Omnichannel admin center, go to **General settings** > **Workstreams**.
