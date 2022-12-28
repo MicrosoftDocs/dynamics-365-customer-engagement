@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Use this article to understand how to set up unified routing for records in Customer Service."
-ms.date: 12/12/2022
+ms.date: 12/28/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,6 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 > - If you're routing, updating, or deleting multiple records at a time, and facing any technical or performance-related issues with unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
-
 
 ## Prerequisites
 
@@ -60,7 +59,6 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
 ### Create workstreams for record routing
 
-
 1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -76,7 +74,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
    ### [Customer Service Hub](#tab/customerservicehub)
 
     - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
-   
+
 1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
@@ -111,7 +109,6 @@ You can reorder the rules and create copies to meet your business requirements.
 
 :::image type="content" source="media/manage-intake-rules.png" alt-text="Manage your intake rules.":::
 
-
 ### Configure routing rules
 
 Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
@@ -136,7 +133,8 @@ Routing rules for a workstream consists of work classification rules and route-t
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
 
    > [!NOTE]
-   > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
+   > - The agent notifications that you configure for routing of records based on unified routing will be displayed in the Customer Service workspace and Omnichannel for Customer Service apps only.
+   > - If an agent doesn't have the permissions to an assigned work item, the assignment will be stopped and the conversation will be closed to protect it. You must ensure that the agents in the queues have the correct permissions to handle the incoming work items in the queue.
 
 ### Next steps
 
