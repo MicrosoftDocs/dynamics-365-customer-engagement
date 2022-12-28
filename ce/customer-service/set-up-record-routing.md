@@ -134,7 +134,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
    > [!NOTE]
    > - The agent notifications that you configure for routing of records based on unified routing will be displayed in the Customer Service workspace and Omnichannel for Customer Service apps only.
-   > - If an agent doesn't have the permissions to an assigned work item, the assignment will be stopped and the conversation will be closed to protect it. You must ensure that the agents in the queues have the correct permissions to handle the incoming work items in the queue.
+   > - If an agent doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it. You must ensure that the agents in the queues have the correct permissions to handle the incoming work items in the queue.
 
 ### Next steps
 
