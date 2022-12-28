@@ -11,16 +11,18 @@ ms.custom: bap-template
 
 # Manage diagnostics data for optimal storage
 
-The diagnostics data for unified routing is stored in Microsoft Dataverse. The data for the routed work items might consume more space compared to other items and can affect the storage capacity. Therefore, we recommend that you delete diagnostics data periodically to manage the storage.
+The diagnostics data for unified routing is stored in Dataverse for Apps Database Capacity. We recommend that you periodically delete the diagnostics data to optimally manage the overall storage capacity.
 
-The following table lists the average storage consumption. The values are based on the assumption that each stage has one ruleset only. The average values can vary based on factors, like the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters). For example, if you route 500 records per day, then the daily data consumption will be approximately 26.54 MB. The complexity within each routing stage is also a contributing factor. More information: [Understand routing stages](unified-routing-diagnostics.md#understand-routing-stages-and-diagnostics)
+You can use the following information to define an effective strategy to manage your diagnostics data.
 
-| Data consumption | Size/Record in kilobytes (average) |
-|--------|-----------|
-| Data consumed per ruleset within a diagnostics record | 13.27 |
-| Data consumed per record | 53.08 |
+The following table lists the analysis of the average data consumption of some of our large customer organizations. The values are based on the assumption that each stage has one ruleset only.
 
-You can use the information to define an effective strategy to manage your diagnostics data.
+| Data consumption | Size/Record in kilobytes (average) | Description |
+|--------|-----------|-------------|
+| Data consumed per ruleset within a diagnostics work item | 13.27<sup>**1**</sup> | The average data consumed by a single ruleset in a routing stage for the diagnostics item that's generated for a routed work item. |
+| Data consumed per diagnostics work item | 53.08 | The average data consumed by the diagnostics item that's generated for a routed work item. |
+
+<sup>**1**</sup>The average values can vary based on factors, like the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters). Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it generates 500 diagnostics work items that'll consume approximately 25.64 MB of data. For information about routing stages, see [Understand routing stages](unified-routing-diagnostics.md#understand-routing-stages-and-diagnostics).
 
 ## View consumption and delete diagnostics data
 
