@@ -85,7 +85,7 @@ No. It's not possible to pause the assignment of a case.
 
 ### Can agents pick work items pertaining to inaccessible records?
 
-Yes, agents can pick the work item even if they don't have the permission to the record. However, they can't view the details and the conversation will be closed. For more information, see the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings)
+Yes, agents can pick the work item even if they don't have the permission to the record. However, they can't view the details and the conversation will be closed. For more information, see the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings).
 
 ### Can supervisors assign work items pertaining to inaccessible records?
 
