@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 12/26/2022
+ms.date: 12/28/2022
 ms.custom: bap-template
 ---
 
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 The diagnostics data for unified routing is stored in Dataverse for Apps Database Capacity. We recommend that you periodically delete the diagnostics data to optimally manage the overall storage capacity.
 
-You can use the following information to define an effective strategy to manage your diagnostics data.
+You can use the information in this section to define an effective strategy to manage your diagnostics data.
 
 The following table lists the analysis of the average data consumption of some of our large customer organizations. The values are based on the assumption that each stage has one ruleset only.
 
@@ -33,7 +33,7 @@ The following table lists the analysis of the average data consumption of some o
    - Routing diagnostics items
      - **Logical name**: msdyn_unifiedroutingdiagnostic
 
-1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to remove the data.
+1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to delete the data.
 
 ## Next steps
 
