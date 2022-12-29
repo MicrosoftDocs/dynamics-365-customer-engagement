@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 12/20/2022
+ms.date: 12/28/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,7 +28,6 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-## Introduction
 
 When you work on time-sensitive, complex customer issues, there are times when it's useful to apply the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
 
@@ -37,14 +36,17 @@ Key benefits of customer support swarming include the ability to do the followin
 - Collaborate with experts across your organization to get help on complex cases.
 - Use an expert finder to quickly locate experts with the right skills to help.
 
-Using the customer support swarming feature, you can effortlessly find the right set of experts to work with on your customer issue, and collaborate with those peers directly from your desktop.
+Use customer support swarming to find the right set of experts to work with on your customer issues and collaborate with peers directly from your desktop.
 
 ## Prerequisites
 
 To be able to create a swarm when working on a customer issue, you must have the following prerequisites in place.
 
-- Swarming privileges 
-- Embedded Microsoft Teams chat enabled for the agent desktop or on the Teams web app
+- If you're an agent, you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
+
+- If you're an expert joining a swarm, you must have a Teams license.
+
+- Embedded Microsoft Teams chat must be enabled for the agent desktop or on the Teams web app.
 
 ## Start a swarm
 
@@ -71,7 +73,7 @@ To be able to create a swarm when working on a customer issue, you must have the
      Suggested skills have the light bulb icon. You can also select up to 10 skills (both system-suggested and manually selected) that you think are relevant to the case. (Manually selected skills won't have the light bulb icon next to them.)
     
       > [!Note]
-      > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
+      > If neither the system nor you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
 
 1. Select **Save and send invitation**. A linked swarm chat is created, and the contacts configured by your administrator are automatically added to the chat. Once a swarm invitation has sent, you can still go back and edit the swarm details if needed.
 
@@ -109,7 +111,7 @@ Experts who join a swarm can see all participants in the swarm and the skills th
 
 Experts aren't required have access to Dynamics 365 to participate in swarms, but if they are able to access a swarm in Customer Service, they can go to the **Swarm activities** tab on the **Swarm** page, where they can view a timeline of all the key events that are related to the swarm.
 
-Experts without a Dynamics 365 license can be invited to swarms in Teams. When they accept the invitation to join the swarm, a swarm chat appears in the **Chat** pane in Teams. The expert must select the chat to enter the swarm converstion. Both the agent and the expert can add others to the chat if needed. The agent can interact with the expert and add notes of their interaction to the swarm timeline.
+Experts without a Dynamics 365 license can be invited to swarms in Teams. When they accept the invitation to join the swarm, a swarm chat appears in the **Chat** pane in Teams. The expert must select the chat to enter the swarm conversation. Both the agent and the expert can add others to the chat if needed. The agent can interact with the expert and add notes of their interaction to the swarm timeline.
  
 ### Create a task in the timeline
 
@@ -136,7 +138,7 @@ You can create notes that include specific details that appear in the swarm time
 3. In the rich text editor, add details.
 4. When finished, select **Save and Close**.
 
-### Swarm completion
+### Resolve a swarm session
 
 When a swarm has completed, you can close it by completing the following steps:
 
@@ -165,9 +167,9 @@ You can cancel a swarm that's in progress by completing the following steps:
 1. On the **Case details** page, select **Cancel swarm**.
 1. On the **Cancel this swarm?** dialog, select the reason you want to cancel the swarm from the dropdown list, and then select **Cancel swarm**.
 
-After the swarm is cancelled, a Dynamics 365 bot posts to the Teams chat to indicate that the swarm has been cancelled with a link to the swarm details in Dynamics 365.
+After the swarm is canceled, a Dynamics 365 bot posts to the Teams chat to indicate that the swarm has been canceled with a link to the swarm details in Dynamics 365.
 
-### Associated swarm
+### View associated swarms
 
 You can see the swarms that are associated with a case from the record. To view the associated swarms, in Customer Service workspace, go to the **Details** tab, and then view the **Associated swarms** card.
 
@@ -176,7 +178,7 @@ You can see the swarms that are associated with a case from the record. To view 
 To view a list of swarms, go to **Swarms** on the site map. The following views are available:
 
 - All swarms
-- Cancelled swarms
+- Canceled swarms
 - My active swarms
 - Resolved swarms
 - Swarms being followed
