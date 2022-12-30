@@ -427,13 +427,13 @@ See the [knowledgearticle_DuplicateBaseRecord](knowledgearticle.md#BKMK_knowledg
 
 **Added by**: Lead Management Solution
 
-See the [Lead_DuplicateMatchingRecord](lead.md#BKMK_Lead_DuplicateMatchingRecord) one-to-many relationship for the [lead](lead.md) entity.
+See the [Lead_DuplicateMatchingRecord](/sales/developer/entities/lead#BKMK_Lead_DuplicateMatchingRecord) one-to-many relationship for the [lead](/sales/developer/entities/lead) entity.
 
 ### <a name="BKMK_Lead_DuplicateBaseRecord"></a> Lead_DuplicateBaseRecord
 
 **Added by**: Lead Management Solution
 
-See the [Lead_DuplicateBaseRecord](lead.md#BKMK_Lead_DuplicateBaseRecord) one-to-many relationship for the [lead](lead.md) entity.
+See the [Lead_DuplicateBaseRecord](/sales/developer/entities/lead#BKMK_Lead_DuplicateBaseRecord) one-to-many relationship for the [lead](/sales/developer/entities/lead) entity.
 
 ### <a name="BKMK_bookableresource_DuplicateMatchingRecord"></a> bookableresource_DuplicateMatchingRecord
 
@@ -571,37 +571,37 @@ See the [ratingvalue_DuplicateBaseRecord](ratingvalue.md#BKMK_ratingvalue_Duplic
 
 **Added by**: Marketing Solution
 
-See the [Campaign_DuplicateMatchingRecord](campaign.md#BKMK_Campaign_DuplicateMatchingRecord) one-to-many relationship for the [campaign](campaign.md) entity.
+See the [Campaign_DuplicateMatchingRecord](/sales/developer/entities/campaign#BKMK_Campaign_DuplicateMatchingRecord) one-to-many relationship for the [campaign](/sales/developer/entities/campaign) entity.
 
 ### <a name="BKMK_Campaign_DuplicateBaseRecord"></a> Campaign_DuplicateBaseRecord
 
 **Added by**: Marketing Solution
 
-See the [Campaign_DuplicateBaseRecord](campaign.md#BKMK_Campaign_DuplicateBaseRecord) one-to-many relationship for the [campaign](campaign.md) entity.
+See the [Campaign_DuplicateBaseRecord](/sales/developer/entities/campaign#BKMK_Campaign_DuplicateBaseRecord) one-to-many relationship for the [campaign](/sales/developer/entities/campaign) entity.
 
 ### <a name="BKMK_CampaignResponse_DuplicateMatchingRecord"></a> CampaignResponse_DuplicateMatchingRecord
 
 **Added by**: Marketing Solution
 
-See the [CampaignResponse_DuplicateMatchingRecord](campaignresponse.md#BKMK_CampaignResponse_DuplicateMatchingRecord) one-to-many relationship for the [campaignresponse](campaignresponse.md) entity.
+See the [CampaignResponse_DuplicateMatchingRecord](/sales/developer/entities/campaignresponse#BKMK_CampaignResponse_DuplicateMatchingRecord) one-to-many relationship for the [campaignresponse](/sales/developer/entities/campaignresponse) entity.
 
 ### <a name="BKMK_CampaignResponse_DuplicateBaseRecord"></a> CampaignResponse_DuplicateBaseRecord
 
 **Added by**: Marketing Solution
 
-See the [CampaignResponse_DuplicateBaseRecord](campaignresponse.md#BKMK_CampaignResponse_DuplicateBaseRecord) one-to-many relationship for the [campaignresponse](campaignresponse.md) entity.
+See the [CampaignResponse_DuplicateBaseRecord](/sales/developer/entities/campaignresponse#BKMK_CampaignResponse_DuplicateBaseRecord) one-to-many relationship for the [campaignresponse](/sales/developer/entities/campaignresponse) entity.
 
 ### <a name="BKMK_List_DuplicateMatchingRecord"></a> List_DuplicateMatchingRecord
 
 **Added by**: Marketing Solution
 
-See the [List_DuplicateMatchingRecord](list.md#BKMK_List_DuplicateMatchingRecord) one-to-many relationship for the [list](list.md) entity.
+See the [List_DuplicateMatchingRecord](/sales/developer/entities/list#BKMK_List_DuplicateMatchingRecord) one-to-many relationship for the [list](/sales/developer/entities/list) entity.
 
 ### <a name="BKMK_List_DuplicateBaseRecord"></a> List_DuplicateBaseRecord
 
 **Added by**: Marketing Solution
 
-See the [List_DuplicateBaseRecord](list.md#BKMK_List_DuplicateBaseRecord) one-to-many relationship for the [list](list.md) entity.
+See the [List_DuplicateBaseRecord](/sales/developer/entities/list#BKMK_List_DuplicateBaseRecord) one-to-many relationship for the [list](/sales/developer/entities/list) entity.
 
 ### <a name="BKMK_Contract_DuplicateMatchingRecord"></a> Contract_DuplicateMatchingRecord
 
@@ -703,37 +703,37 @@ See the [Service_DuplicateMatchingRecord](service.md#BKMK_Service_DuplicateMatch
 
 **Added by**: Sales Solution
 
-See the [Opportunity_DuplicateMatchingRecord](opportunity.md#BKMK_Opportunity_DuplicateMatchingRecord) one-to-many relationship for the [opportunity](opportunity.md) entity.
+See the [Opportunity_DuplicateMatchingRecord](/sales/developer/create-opportunity#BKMK_Opportunity_DuplicateMatchingRecord) one-to-many relationship for the [opportunity](/sales/developer/create-opportunity) entity.
 
 ### <a name="BKMK_Opportunity_DuplicateBaseRecord"></a> Opportunity_DuplicateBaseRecord
 
 **Added by**: Sales Solution
 
-See the [Opportunity_DuplicateBaseRecord](opportunity.md#BKMK_Opportunity_DuplicateBaseRecord) one-to-many relationship for the [opportunity](opportunity.md) entity.
+See the [Opportunity_DuplicateBaseRecord](/sales/developer/create-opportunity#BKMK_Opportunity_DuplicateBaseRecord) one-to-many relationship for the [opportunity](/sales/developer/create-opportunity) entity.
 
 ### <a name="BKMK_Quote_DuplicateMatchingRecord"></a> Quote_DuplicateMatchingRecord
 
 **Added by**: Sales Solution
 
-See the [Quote_DuplicateMatchingRecord](quote.md#BKMK_Quote_DuplicateMatchingRecord) one-to-many relationship for the [quote](quote.md) entity.
+See the [Quote_DuplicateMatchingRecord](/sales/developer/entities/quote#BKMK_Quote_DuplicateMatchingRecord) one-to-many relationship for the [quote](/sales/developer/entities/quote) entity.
 
 ### <a name="BKMK_Quote_DuplicateBaseRecord"></a> Quote_DuplicateBaseRecord
 
 **Added by**: Sales Solution
 
-See the [Quote_DuplicateBaseRecord](quote.md#BKMK_Quote_DuplicateBaseRecord) one-to-many relationship for the [quote](quote.md) entity.
+See the [Quote_DuplicateBaseRecord](/sales/developer/entities/quote#BKMK_Quote_DuplicateBaseRecord) one-to-many relationship for the [quote](/sales/developer/entities/quote) entity.
 
 ### <a name="BKMK_Competitor_DuplicateMatchingRecord"></a> Competitor_DuplicateMatchingRecord
 
 **Added by**: Sales Solution
 
-See the [Competitor_DuplicateMatchingRecord](competitor.md#BKMK_Competitor_DuplicateMatchingRecord) one-to-many relationship for the [competitor](competitor.md) entity.
+See the [Competitor_DuplicateMatchingRecord](/sales/developer/entities/competitor#BKMK_Competitor_DuplicateMatchingRecord) one-to-many relationship for the [competitor](/sales/developer/entities/competitor) entity.
 
 ### <a name="BKMK_Competitor_DuplicateBaseRecord"></a> Competitor_DuplicateBaseRecord
 
 **Added by**: Sales Solution
 
-See the [Competitor_DuplicateBaseRecord](competitor.md#BKMK_Competitor_DuplicateBaseRecord) one-to-many relationship for the [competitor](competitor.md) entity.
+See the [Competitor_DuplicateBaseRecord](/sales/developer/entities/competitor#BKMK_Competitor_DuplicateBaseRecord) one-to-many relationship for the [competitor](/sales/developer/entities/competitor) entity.
 
 ### <a name="BKMK_Territory_DuplicateBaseRecord"></a> Territory_DuplicateBaseRecord
 
@@ -821,7 +821,7 @@ See the [Appointment_DuplicateBaseRecord](appointment.md#BKMK_Appointment_Duplic
 
 ### <a name="BKMK_Account_DuplicateBaseRecord"></a> Account_DuplicateBaseRecord
 
-See the [Account_DuplicateBaseRecord](account.md#BKMK_Account_DuplicateBaseRecord) one-to-many relationship for the [account](account.md) entity.
+See the [Account_DuplicateBaseRecord](/sales/developer/entities/account#BKMK_Account_DuplicateBaseRecord) one-to-many relationship for the [account](/sales/developer/entities/account) entity.
 
 ### <a name="BKMK_DuplicateRule_DuplicateBaseRecord"></a> DuplicateRule_DuplicateBaseRecord
 
@@ -853,7 +853,7 @@ See the [TransactionCurrency_DuplicateMatchingRecord](transactioncurrency.md#BKM
 
 ### <a name="BKMK_Goal_DuplicateMatchingRecord"></a> Goal_DuplicateMatchingRecord
 
-See the [Goal_DuplicateMatchingRecord](goal.md#BKMK_Goal_DuplicateMatchingRecord) one-to-many relationship for the [goal](goal.md) entity.
+See the [Goal_DuplicateMatchingRecord](/sales/developer/entities/goal#BKMK_Goal_DuplicateMatchingRecord) one-to-many relationship for the [goal](/sales/developer/entities/goal) entity.
 
 ### <a name="BKMK_SharePointSite_DuplicateMatchingRecord"></a> SharePointSite_DuplicateMatchingRecord
 
@@ -877,15 +877,15 @@ See the [SocialActivity_DuplicateBaseRecord](socialactivity.md#BKMK_SocialActivi
 
 ### <a name="BKMK_Contact_DuplicateMatchingRecord"></a> Contact_DuplicateMatchingRecord
 
-See the [Contact_DuplicateMatchingRecord](contact.md#BKMK_Contact_DuplicateMatchingRecord) one-to-many relationship for the [contact](contact.md) entity.
+See the [Contact_DuplicateMatchingRecord](/sales/developer/entities/contact#BKMK_Contact_DuplicateMatchingRecord) one-to-many relationship for the [contact](/sales/developer/entities/contact) entity.
 
 ### <a name="BKMK_GoalRollupQuery_DuplicateMatchingRecord"></a> GoalRollupQuery_DuplicateMatchingRecord
 
-See the [GoalRollupQuery_DuplicateMatchingRecord](goalrollupquery.md#BKMK_GoalRollupQuery_DuplicateMatchingRecord) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
+See the [GoalRollupQuery_DuplicateMatchingRecord](/sales/developer/entities/goalrollupquery#BKMK_GoalRollupQuery_DuplicateMatchingRecord) one-to-many relationship for the [goalrollupquery](/sales/developer/entities/goalrollupquery) entity.
 
 ### <a name="BKMK_Contact_DuplicateBaseRecord"></a> Contact_DuplicateBaseRecord
 
-See the [Contact_DuplicateBaseRecord](contact.md#BKMK_Contact_DuplicateBaseRecord) one-to-many relationship for the [contact](contact.md) entity.
+See the [Contact_DuplicateBaseRecord](/sales/developer/entities/contact#BKMK_Contact_DuplicateBaseRecord) one-to-many relationship for the [contact](/sales/developer/entities/contact) entity.
 
 ### <a name="BKMK_TransactionCurrency_DuplicateBaseRecord"></a> TransactionCurrency_DuplicateBaseRecord
 
@@ -913,7 +913,7 @@ See the [Appointment_DuplicateMatchingRecord](appointment.md#BKMK_Appointment_Du
 
 ### <a name="BKMK_Account_DuplicateMatchingRecord"></a> Account_DuplicateMatchingRecord
 
-See the [Account_DuplicateMatchingRecord](account.md#BKMK_Account_DuplicateMatchingRecord) one-to-many relationship for the [account](account.md) entity.
+See the [Account_DuplicateMatchingRecord](/sales/developer/entities/account#BKMK_Account_DuplicateMatchingRecord) one-to-many relationship for the [account](/sales/developer/entities/account) entity.
 
 ### <a name="BKMK_Fax_DuplicateBaseRecord"></a> Fax_DuplicateBaseRecord
 
@@ -933,7 +933,7 @@ See the [SharePointDocumentLocation_DuplicateBaseRecord](sharepointdocumentlocat
 
 ### <a name="BKMK_Goal_DuplicateBaseRecord"></a> Goal_DuplicateBaseRecord
 
-See the [Goal_DuplicateBaseRecord](goal.md#BKMK_Goal_DuplicateBaseRecord) one-to-many relationship for the [goal](goal.md) entity.
+See the [Goal_DuplicateBaseRecord](/sales/developer/entities/goal#BKMK_Goal_DuplicateBaseRecord) one-to-many relationship for the [goal](/sales/developer/entities/goal) entity.
 
 ### <a name="BKMK_RecurringAppointmentMaster_DuplicateMatchingRecord"></a> RecurringAppointmentMaster_DuplicateMatchingRecord
 
@@ -961,7 +961,7 @@ See the [SharePointDocumentLocation_DuplicateMatchingRecord](sharepointdocumentl
 
 ### <a name="BKMK_GoalRollupQuery_DuplicateBaseRecord"></a> GoalRollupQuery_DuplicateBaseRecord
 
-See the [GoalRollupQuery_DuplicateBaseRecord](goalrollupquery.md#BKMK_GoalRollupQuery_DuplicateBaseRecord) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
+See the [GoalRollupQuery_DuplicateBaseRecord](/sales/developer/entities/goalrollupquery#BKMK_GoalRollupQuery_DuplicateBaseRecord) one-to-many relationship for the [goalrollupquery](/sales/developer/entities/goalrollupquery) entity.
 
 ### <a name="BKMK_AsyncOperation_DuplicateBaseRecord"></a> AsyncOperation_DuplicateBaseRecord
 

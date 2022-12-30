@@ -1078,7 +1078,7 @@ Same as the [entitlementtemplate_DuplicateBaseRecord](duplicaterecord.md#BKMK_en
 
 **Added by**: Sales Solution
 
-Same as the [entitlementtemplate_OpportunityCloses](opportunityclose.md#BKMK_entitlementtemplate_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
+Same as the [entitlementtemplate_OpportunityCloses](/sales/developer/entities/opportunityclose#BKMK_entitlementtemplate_OpportunityCloses) many-to-one relationship for the [opportunityclose](/sales/developer/entities/opportunityclose) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1095,7 +1095,7 @@ Same as the [entitlementtemplate_OpportunityCloses](opportunityclose.md#BKMK_ent
 
 **Added by**: Sales Solution
 
-Same as the [entitlementtemplate_OrderCloses](orderclose.md#BKMK_entitlementtemplate_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
+Same as the [entitlementtemplate_OrderCloses](/sales/developer/entities/orderclose#BKMK_entitlementtemplate_OrderCloses) many-to-one relationship for the [orderclose](/sales/developer/entities/orderclose) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1112,7 +1112,7 @@ Same as the [entitlementtemplate_OrderCloses](orderclose.md#BKMK_entitlementtemp
 
 **Added by**: Sales Solution
 
-Same as the [entitlementtemplate_QuoteCloses](quoteclose.md#BKMK_entitlementtemplate_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
+Same as the [entitlementtemplate_QuoteCloses](/sales/developer/entities/quoteclose#BKMK_entitlementtemplate_QuoteCloses) many-to-one relationship for the [quoteclose](/sales/developer/entities/quoteclose) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1189,7 +1189,7 @@ Relationship details provided where the EntitlementTemplate entity is the first 
 
 ### <a name="BKMK_product_entitlementtemplate_association"></a> product_entitlementtemplate_association
 
-See the [product_entitlementtemplate_association](product.md#BKMK_product_entitlementtemplate_association) many-to-many relationship for the [product](product.md) entity.
+See the [product_entitlementtemplate_association](/sales/developer/entities/product#BKMK_product_entitlementtemplate_association) many-to-many relationship for the [product](/sales/developer/entities/product) entity.
 
 ### See also
 

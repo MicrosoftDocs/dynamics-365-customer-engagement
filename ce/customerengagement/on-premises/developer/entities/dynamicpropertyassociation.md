@@ -809,11 +809,11 @@ See the [DynamicPropertyAssociation_TransactionCurrency](transactioncurrency.md#
 
 ### <a name="BKMK_Product_DynamicPropertyAssociation"></a> Product_DynamicPropertyAssociation
 
-See the [Product_DynamicPropertyAssociation](product.md#BKMK_Product_DynamicPropertyAssociation) one-to-many relationship for the [product](product.md) entity.
+See the [Product_DynamicPropertyAssociation](/sales/developer/entities/product#BKMK_Product_DynamicPropertyAssociation) one-to-many relationship for the [product](/sales/developer/entities/product) entity.
 
 ### <a name="BKMK_ProductAssociation_DynamicPropertyAssociation"></a> ProductAssociation_DynamicPropertyAssociation
 
-See the [ProductAssociation_DynamicPropertyAssociation](productassociation.md#BKMK_ProductAssociation_DynamicPropertyAssociation) one-to-many relationship for the [productassociation](productassociation.md) entity.
+See the [ProductAssociation_DynamicPropertyAssociation](/sales/developer/entities/productassociation#BKMK_ProductAssociation_DynamicPropertyAssociation) one-to-many relationship for the [productassociation](/sales/developer/entities/productassociation) entity.
 
 ### See also
 

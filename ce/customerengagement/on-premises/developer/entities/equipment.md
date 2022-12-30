@@ -930,7 +930,7 @@ Same as the [Equipment_Email_EmailSender](email.md#BKMK_Equipment_Email_EmailSen
 
 ### <a name="BKMK_equipment_accounts"></a> equipment_accounts
 
-Same as the [equipment_accounts](account.md#BKMK_equipment_accounts) many-to-one relationship for the [account](account.md) entity.
+Same as the [equipment_accounts](/sales/developer/entities/account#BKMK_equipment_accounts) many-to-one relationship for the [account](/sales/developer/entities/account) entity.
 
 |Property|Value|
 |--------|-----|
@@ -945,7 +945,7 @@ Same as the [equipment_accounts](account.md#BKMK_equipment_accounts) many-to-one
 
 ### <a name="BKMK_equipment_contacts"></a> equipment_contacts
 
-Same as the [equipment_contacts](contact.md#BKMK_equipment_contacts) many-to-one relationship for the [contact](contact.md) entity.
+Same as the [equipment_contacts](/sales/developer/entities/contact#BKMK_equipment_contacts) many-to-one relationship for the [contact](/sales/developer/entities/contact) entity.
 
 |Property|Value|
 |--------|-----|

@@ -507,7 +507,7 @@
     },
     {
       "source_path": "customerengagement/on-premises/developer/entities/opportunityproduct.md",
-      "redirect_url": "/sales/developer/entities/opportunity",
+      "redirect_url": "/sales/developer/entities/opportunityproduct",
       "redirect_document_id": "false"
     },
     {
@@ -14958,11 +14958,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/sample-distribute-a-quick-campaign.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-distribute-a-quick-campaign",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/sample-distribute-campaign-activities-dynamic-static-lists.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-distribute-campaign-activities-dynamic-static-lists",
       "redirect_document_id": "false"
@@ -16338,11 +16333,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/account.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/account",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/aciviewmapper.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/aciviewmapper",
       "redirect_document_id": "false"
@@ -16478,16 +16468,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/bulkoperation.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/bulkoperation",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/bulkoperationlog.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/bulkoperationlog",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/businessunit.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/businessunit",
       "redirect_document_id": "false"
@@ -16505,21 +16485,6 @@
     {
       "source_path": "ce/developer/entities/callbackregistration.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/callbackregistration",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/campaign.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/campaign",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/campaignactivity.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/campaignactivity",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/campaignresponse.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/campaignresponse",
       "redirect_document_id": "false"
     },
     {
@@ -16543,11 +16508,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/competitor.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/competitor",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/connection.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/connection",
       "redirect_document_id": "false"
@@ -16560,11 +16520,6 @@
     {
       "source_path": "ce/developer/entities/constraintbasedgroup.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/constraintbasedgroup",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/contact.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/contact",
       "redirect_document_id": "false"
     },
     {
@@ -16658,11 +16613,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/dynamicpropertyinstance.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/dynamicpropertyinstance",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/dynamicpropertyoptionsetitem.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/dynamicpropertyoptionsetitem",
       "redirect_document_id": "false"
@@ -16753,16 +16703,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/goal.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/goal",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/goalrollupquery.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/goalrollupquery",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/import.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/import",
       "redirect_document_id": "false"
@@ -16813,11 +16753,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/invoice.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/invoice",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/invoicedetail.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/invoicedetail",
       "redirect_document_id": "false"
@@ -16863,28 +16798,8 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/lead.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/lead",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/leadaddress.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/leadaddress",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/leadtoopportunitysalesprocess.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/leadtoopportunitysalesprocess",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/letter.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/letter",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/list.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/list",
       "redirect_document_id": "false"
     },
     {
@@ -18123,16 +18038,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/opportunity.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/opportunity",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/opportunityclose.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/opportunityclose",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/opportunityproduct.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/opportunityproduct",
       "redirect_document_id": "false"
@@ -18140,11 +18045,6 @@
     {
       "source_path": "ce/developer/entities/opportunitysalesprocess.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/opportunitysalesprocess",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/orderclose.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/orderclose",
       "redirect_document_id": "false"
     },
     {
@@ -18223,11 +18123,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/pricelevel.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/pricelevel",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/principalobjectattributeaccess.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/principalobjectattributeaccess",
       "redirect_document_id": "false"
@@ -18253,26 +18148,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/product.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/product",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/productassociation.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/productassociation",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/productpricelevel.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/productpricelevel",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/productsubstitute.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/productsubstitute",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/publisher.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/publisher",
       "redirect_document_id": "false"
@@ -18295,21 +18170,6 @@
     {
       "source_path": "ce/developer/entities/queueitem.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/queueitem",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/quote.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/quote",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/quoteclose.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/quoteclose",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/quotedetail.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/quotedetail",
       "redirect_document_id": "false"
     },
     {
@@ -18380,11 +18240,6 @@
     {
       "source_path": "ce/developer/entities/salesliteratureitem.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/salesliteratureitem",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/salesorder.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/salesorder",
       "redirect_document_id": "false"
     },
     {
@@ -18595,16 +18450,6 @@
     {
       "source_path": "ce/developer/entities/translationprocess.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/translationprocess",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/uom.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/uom",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/uomschedule.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/uomschedule",
       "redirect_document_id": "false"
     },
     {
