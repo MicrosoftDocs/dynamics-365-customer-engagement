@@ -16568,16 +16568,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/discount.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/discount",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/discounttype.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/discounttype",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/displaystring.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/displaystring",
       "redirect_document_id": "false"
@@ -16750,11 +16740,6 @@
     {
       "source_path": "ce/developer/entities/invaliddependency.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/invaliddependency",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/invoicedetail.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/invoicedetail",
       "redirect_document_id": "false"
     },
     {
@@ -18038,16 +18023,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/entities/opportunityproduct.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/opportunityproduct",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/opportunitysalesprocess.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/opportunitysalesprocess",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/entities/organization.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/organization",
       "redirect_document_id": "false"
@@ -18230,21 +18205,6 @@
     {
       "source_path": "ce/developer/entities/rollupfield.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/rollupfield",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/salesliterature.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/salesliterature",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/salesliteratureitem.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/salesliteratureitem",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/entities/salesorderdetail.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/entities/salesorderdetail",
       "redirect_document_id": "false"
     },
     {
