@@ -321,11 +321,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "customerengagement/on-premises/developer/add-complex-goal-criteria.md",
-      "redirect_url": "/sales/developer/add-complex-goal-criteria",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "customerengagement/on-premises/developer/roll-up-goal-totals.md",
       "redirect_url": "/sales/developer/roll-up-goal-totals",
       "redirect_document_id": "false"
@@ -13938,18 +13933,8 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/campaign-entities.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/campaign-entities",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/choose-development-style.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/choose-development-style",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/competitor-entity.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/competitor-entity",
       "redirect_document_id": "false"
     },
     {
@@ -14028,11 +14013,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/convert-opportunity-quote-sales-order-invoice.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/convert-opportunity-quote-sales-order-invoice",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/copyright.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/copyright",
       "redirect_document_id": "false"
@@ -14058,11 +14038,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/create-goal-hierarchy-goals-targets.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/create-goal-hierarchy-goals-targets",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/create-install-update-managed-solution.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/create-install-update-managed-solution",
       "redirect_document_id": "false"
@@ -14070,11 +14045,6 @@
     {
       "source_path": "ce/developer/create-manage-custom-business-apps-using-code.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/create-manage-custom-business-apps-using-code",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/create-manage-product-families-products-bundles-product-properties.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/create-manage-product-families-products-bundles-product-properties",
       "redirect_document_id": "false"
     },
     {
@@ -14468,16 +14438,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/list-marketing-list-entity.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/list-marketing-list-entity",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/localize-product-property-values.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/localize-product-property-values",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/maintain-managed-solutions.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/maintain-managed-solutions",
       "redirect_document_id": "false"
@@ -14615,16 +14575,6 @@
     {
       "source_path": "ce/developer/product-catalog-entities.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/product-catalog-entities",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/product-discounting-methods.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/product-discounting-methods",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/product-pricing-methods.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/product-pricing-methods",
       "redirect_document_id": "false"
     },
     {
@@ -14825,11 +14775,6 @@
     {
       "source_path": "ce/developer/sample-clean-up-history-queue-early-bound.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-clean-up-history-queue-early-bound",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/sample-clone-product-records.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-clone-product-records",
       "redirect_document_id": "false"
     },
     {
@@ -15043,11 +14988,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/sample-fulfill-sales-order.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-fulfill-sales-order",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/sample-import-data-complex-data-map.md",
       "redirect_url": "https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ImportComplexDataMap",
       "redirect_document_id": "false"
@@ -15128,11 +15068,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/sample-qualify-lead.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-qualify-lead",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/sample-query-connection-roles-entity-type-code-early-bound.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-query-connection-roles-entity-type-code-early-bound",
       "redirect_document_id": "false"
@@ -15210,11 +15145,6 @@
     {
       "source_path": "ce/developer/sample-retrieve-field-sharing-records.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-retrieve-field-sharing-records",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/sample-retrieve-opportunity-early-bound.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-retrieve-opportunity-early-bound",
       "redirect_document_id": "false"
     },
     {
@@ -15585,11 +15515,6 @@
     {
       "source_path": "ce/developer/use-change-tracking-synchronize-data-external-systems.md",
       "redirect_url": "/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/developer/use-custom-pricing-products.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/use-custom-pricing-products",
       "redirect_document_id": "false"
     },
     {
