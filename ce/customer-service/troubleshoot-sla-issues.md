@@ -188,33 +188,33 @@ If the customizations.xml file has the SLAs and you select **Overwrite Customiza
 
 ## Troubleshoot issues with entitlements
 
-### User is unable to create entitlements as the Allocation Type dropdown isn't showing up any options to select from
+### Unable to create entitlements as the Allocation Type dropdown isn't showing up any options to select from
 
-Scenario 1:
+Unable to create entitlement forms from Customer Service Hub or Customer Service admin center apps, because of loss of data from the entitlement’s entity type mappings from the SQL database table EntitlementEntityAllocationTypeMappingBase.
 
-#### Reason
+#### Scenario 1
 The **Allocation Type** field option doesn't exist in the entitlement entity with case option.
 
 #### Resolution
 
 Add the Allocation Type field option. Go to **Advanced Settings** > **Customizations** > **Customize the System** > **Expand Entitlement Entity** > **Fields** > **Check Allocation Type** field options.
 
-Scenario 2:
+#### Scenario 2
 
-#### Reason
+The entitlement's entity allocation type mapping records aren't there in the EntitlementEntityAllocationTypeMappingBase table from the database, when the **Entity Type** field from the entitlement entity has more than one option other than case.
 
-The entitlement's entity allocation type mapping records aren't there in a table [EntitlementEntityAllocationTypeMappingBase] from the database, when the **Entity Type** field from the entitlement entity has more than one option other than case.
 #### Resolution
 
-Add the entitlement's entity allocation type mapping records in a table [EntitlementEntityAllocationTypeMappingBase].
+Add the entitlement's entity allocation type mapping records in the EntitlementEntityAllocationTypeMappingBase table.
 
 Sample query to add a record for allocation type mapping to the entity type (Case):
 
-Insert INTO [dbo].[EntitlementEntityAllocationTypeMappingBase]
+Use the following query to insert missing mapping records:
 
-(entitlemententityallocationtypemappingid, statecode, statuscode, allocationtype, entitytype, OwnerId) Values('0C537E5C-13E8-410B-A65C-783A113D49FC', 0, 1, 0, 0, 'F5C0B9AD-E076-ED11-81B3-6045BDE41C7D')
+`Insert INTO [dbo].[EntitlementEntityAllocationTypeMappingBase]` 
+`(entitlemententityallocationtypemappingid, statecode, statuscode, allocationtype, entitytype, OwnerId) Values('0C537E5C-13E8-410B-A65C-783A113D49FC', 0, 1, 0, 0, 'F5C0B9AD-E076-ED11-81B3-6045BDE41C7D')`
 
-Include the following:
+Include the following information for teh mandatory fields as provided:
 - Entitlemententityallocationtypemappingid: New GUID. 
 - Statecode: Provide state code that explains the status.
 - Statuscode: Provide the reason code that explains the status.
