@@ -57,6 +57,7 @@ Sales Premium is available in the following countries or regions:
 > Currently, Sales Premium is not available in the following datacenters&mdash; Germany, Korea, Norway, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 ### In which region are the features available? 
+
 Sales Premium features are available in the following countries or regions:   
 
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM | ZAF | UAE |
