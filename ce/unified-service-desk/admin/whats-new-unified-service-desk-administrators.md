@@ -30,7 +30,7 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 
 ### Prevent random running of scripts
 
-Unified Service Desk includes two new UII options **ValidateSecurityForUIIAction** and **ListOfActionsToValidate** that you can use to help prevent arbitrary running of scripts via ShellExecute and RunScript. More information: [Prevent random running of scripts](prevent-running-scripts.md) and [Manage global options in Unified Service Desk](manage-options-unified-service-desk.md)
+Unified Service Desk includes two new UII options **ValidateSecurityForUIIAction** and **ListOfActionsToValidate** that you can use to help prevent any random running of scripts using ShellExecute or RunScript. More information: [Prevent random running of scripts](prevent-running-scripts.md) and [Manage global options in Unified Service Desk](manage-options-unified-service-desk.md)
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
