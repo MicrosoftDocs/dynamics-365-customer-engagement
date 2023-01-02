@@ -115,10 +115,10 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 **Cost calculations**
 
 - One participant on Microsoft Teams (from Mae)x 10 minutes x rate per participant per minute*.
-- One participant on the PSTN section (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22
-- One participant on the VOIP section (inbound to Matias)x 5 x 0.004 per participant per minute= $0.02
-- One participant on the PSTN section (inbound to Cole)x 5 x 0.013 per participant per minute= $0.065
-- One participant on Microsoft Teams (to Cole)x 5 minutes x rate per participant per minute*.
+- One participant on the PSTN section (inbound from Mae) x 10 minutes x 0.022 per participant per minute = $0.22
+- One participant on the VOIP section (inbound to Matias) x 5 x 0.004 per participant per minute= $0.02
+- One participant on the PSTN section (inbound to Cole) x 5 x 0.013 per participant per minute= $0.065
+- One participant on Microsoft Teams (to Cole) x 5 minutes x rate per participant per minute*.
 - Cost to record= 10 x $0.002 per minute = $0.02
 - Omnichannel for Customer Service recording bot does not introduce additional Azure Communication Services VOIP charges.
 
@@ -128,7 +128,7 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325  + applicable Teams charges
 
 
-### Pricing example: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
+### Outbound: Customer calls from a Teams account, call is transferred to an agent through Teams PSTN
 
 Matias is a Dynamics 365 contact center agent, who makes an outbound call from Omnichannel for Customer Service to a telephone number (Mae) via Azure Communication Services direct routing.
 
@@ -144,8 +144,8 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 **Cost calculations**
 
 - One participant on the PSTN section (outbound from Matias )x 10 x rate per the contract with carrier 
-- One participant on the PSTN section (SBC to Azure Communication Services)x 10 x rate per the contract with carrier
-- One participant on the SIP section (SBC to Azure Communication Services)x 10 x 0.004 per participant per minute= $0.04
+- One participant on the PSTN section (SBC to Azure Communication Services) x 10 x rate per the contract with carrier
+- One participant on the SIP section (SBC to Azure Communication Services) x 10 x 0.004 per participant per minute= $0.04
 - One participant on the VOIP section (Outbound from Matias) x 10 x 0.004 per participant per minute= $0.04
 - Omnichannel for Customer Service bot does not introduce additional Azure Communication Services charges.
 
@@ -160,10 +160,10 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 
 **Cost calculations**
 
-- One participant on the PSTN section (outbound from Matias)x 10 x 0.013 = $0.013
+- One participant on the PSTN section (outbound from Matias) x 10 x 0.013 = $0.013
       > [!NOTE]
-      > The customer 
-- One participant on the VOIP section (Matias to Azure Communication Services) 10 x 0.004 = $0.04
-- One participant on the VOIP section (Matias to Gaby) 5 x 0.004 = $0.02
+      > The call continues to be charged even when Matias puts it on hold.
+- One participant on the VOIP section (Matias to Azure Communication Services) x 10 x 0.004 = $0.04
+- One participant on the VOIP section (Matias to Gaby) x 5 x 0.004 = $0.02
 
 **Total cost for the call**: $0.13 + $0.04 + $0.02= $0.19 
