@@ -1,5 +1,5 @@
 ---
-title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
+title: View diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
 ms.date: 01/02/2023
 ms.topic: article
@@ -16,9 +16,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Diagnostics for unified routing
+# View diagnostics for unified routing
 
-Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and self diagnose issues that occur in classification and assignment of work items.
+Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
 The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. More information: [Manage routing diagnostics data](manage-routing-diagnostics-data.md)
 
