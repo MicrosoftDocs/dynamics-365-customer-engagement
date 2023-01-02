@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 12/19/2022
+ms.date: 01/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
