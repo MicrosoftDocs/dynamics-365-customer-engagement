@@ -26,7 +26,7 @@ The following table lists the analysis of the average data consumption of some o
 
 Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it generates 500 diagnostics work items that will consume approximately 25.64 MB of data. For information about routing stages, see [Understand routing stages](unified-routing-diagnostics.md#understand-routing-stages-and-diagnostics).
 
-## View consumption and delete routing diagnostics data
+## Delete routing diagnostics data
 
 1. Perform the steps in the [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) article to view the storage consumption of the diagnostics records mentioned in step 2.
 
