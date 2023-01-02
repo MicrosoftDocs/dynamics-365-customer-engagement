@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 11/29/2022
+ms.date: 01/02/2023
 ms.custom: bap-template 
 ---
 
@@ -24,7 +24,7 @@ The system and license requirements to use the sales apps are as follows:
 |---------|---------|
 |License     | - **Sales Hub app**: Dynamics 365 Sales Premium or Sales Enterprise<br>- **Sales Professional app**: Dynamics 365 Sales Professional        |
 |Operating systems and browsers for web and mobile apps     |  The Sales Hub and Sales Professional apps are model-driven apps built using Power Apps. For a list of supported operating systems and browsers for Power Apps applications, see [System requirements for Power Apps](/power-apps/limits-and-config)       |
-|Network      | The embedded Teams dialer in the Sales Hub app uses Azure Communication Services (ACS) and hence needs the same network requirements as ACS. For the exact requirements, see [Prepare your organization's network for Azure Communication Services](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/network-requirements)         |
+|Network      | The embedded Teams dialer in the Sales Hub app uses Azure Communication Services (ACS) and hence needs the same network requirements as ACS. For the exact requirements, see [Prepare your organization's network for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements)         |
 |Storage      |   Azure or Teams storage for storing call recordings     |
 
 ## Supported regions
