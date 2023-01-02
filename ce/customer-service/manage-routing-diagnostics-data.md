@@ -35,9 +35,9 @@ Let's take an example in which each routing stage has a single ruleset with a co
    > Delete operations are irreversible and therefore we recommend that you verify and ensure the data is no longer required before you run the delete job.
 
    1. Routing diagnostics items
-     - **Logical name**: msdyn_unifiedroutingdiagnostic
+      - **Logical name**: msdyn_unifiedroutingdiagnostic
    1. Routing diagnostics
-     - **Logical name**: msdyn_unifiedroutingrun
+      - **Logical name**: msdyn_unifiedroutingrun
 
 ## Next steps
 
