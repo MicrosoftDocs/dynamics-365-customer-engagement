@@ -1,5 +1,5 @@
 ---
-title: "Prevent random running of scripts | MicrosoftDocs"
+title: "Prevent random running of scripts  in Unified Service Desk| MicrosoftDocs"
 description: "Learn how to prevent random running of scripts in Unified Service Desk using UII options."
 ms.date: 01/02/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ---
-# Prevent random running of scripts
+# Prevent random running of scripts in Unified Service Desk
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client includes the following two UII options that you can use to prevent random running of scripts via ShellExecute, RunScript, etc.
   
