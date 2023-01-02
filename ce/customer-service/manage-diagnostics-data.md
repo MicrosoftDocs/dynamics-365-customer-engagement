@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 12/28/2022
+ms.date: 01/02/2023
 ms.custom: bap-template
 ---
 
@@ -28,11 +28,12 @@ The following table lists the analysis of the average data consumption of some o
 
 1. Perform the steps in the [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) article to view the storage consumption of the diagnostics records mentioned in step 2.
 
-1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to delete the following routing diagnostics data.
-   - Routing diagnostics
-     - **Logical name**: msdyn_unifiedroutingrun
-   - Routing diagnostics items
+1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to delete the following routing diagnostics data in the specified order.
+   1. Routing diagnostics items
      - **Logical name**: msdyn_unifiedroutingdiagnostic
+   1. Routing diagnostics
+     - **Logical name**: msdyn_unifiedroutingrun
+
 
 ## Next steps
 
