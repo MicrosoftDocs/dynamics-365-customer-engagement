@@ -30,7 +30,7 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 
 ### Prevent arbitrary running of scripts
 
-Unified Service Desk has introduced a new UII option to prevent arbitrary running of scripts like ShellExecute and RunScript. The running of scripts will be controlled via a new **ValidateSecurityForUIIAction** UII option. 
+Unified Service Desk includes a new UII option **ValidateSecurityForUIIAction** to help prevent arbitrary running of scripts via ShellExecute and RunScript. More information: [Manage global options in Unified Service Desk](manage-options-unified-service-desk.md)
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
