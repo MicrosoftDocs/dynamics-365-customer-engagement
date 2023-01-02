@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 08/02/2022
+ms.date: 01/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,8 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Customer Service Analytics dashboards in Power BI
 
-
+> [!NOTE]
+> We recommend you try out the latest analytics capabilities from Dynamics 365 Customer Service. These out-of-the-box reporting capabilities include [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical reports](customer-service-analytics-insights-csh.md). These reports can be [visually customized](customize-reports.md) and extended to add your additional data sources and metrics through [data model customization](model-customize-reports.md).
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 
