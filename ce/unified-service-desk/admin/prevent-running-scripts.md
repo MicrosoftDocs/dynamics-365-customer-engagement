@@ -31,7 +31,7 @@ If `ValidateSecurityForUIIAction` option is set to true, then you'll get configu
 Else, an error message is displayed indicating that the action isn't configured and that you must contact your administrator for further action.
 
   
-## See also
+### See also
 
  [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
