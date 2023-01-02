@@ -14,7 +14,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> We recommend you try out the latest analytics capabilities from Dynamics 365 Customer Service. These out-of-the-box reporting capabilities include [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical reports](customer-service-analytics-insights-csh.md). These reports can be [visually customized](customize-reports.md) and extended to add your additional data sources and metrics through [data model customization](model-customize-reports.md).
+> We recommend that you try out the latest analytics capabilities from Dynamics 365 Customer Service. The out-of-the-box reporting capabilities include [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical reports](customer-service-analytics-insights-csh.md). The reports can be [visually customized](customize-reports.md) and extended to add your additional data sources and metrics through [data model customization](model-customize-reports.md).
 
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.
 
