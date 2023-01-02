@@ -28,7 +28,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ## Release history for Unified Service Desk 4.2.0.51, January 2023
 
-This release includes Newtonsoft JSON version upgrade to 13.0.2, and some security and accessibility fixes. There are no content-specific changes in this release.
+This release includes Newtonsoft.Json version upgrade to 13.0.2, and some security and accessibility fixes. There are no content-specific changes in this release.
 
 ## Release history for Unified Service Desk 4.2.0.42, August 2022
 
