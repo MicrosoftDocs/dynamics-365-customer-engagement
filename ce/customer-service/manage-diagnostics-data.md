@@ -22,7 +22,9 @@ The following table lists the analysis of the average data consumption of some o
 | Data consumed per ruleset within a diagnostic work item | 13.27<sup>**1**</sup> | The average data consumed by a single ruleset in a routing stage for the diagnostics item that's generated for a routed work item. |
 | Data consumed per diagnostics work item | 53.08 | The average data consumed by the diagnostics item that's generated for a routed work item. |
 
-<sup>**1**</sup>The average values can vary based on factors, like the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters). Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it generates 500 diagnostics work items that will consume approximately 25.64 MB of data. For information about routing stages, see [Understand routing stages](unified-routing-diagnostics.md#understand-routing-stages-and-diagnostics).
+<sup>**1**</sup>The average values can vary based on factors, like the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters).
+
+Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it generates 500 diagnostics work items that will consume approximately 25.64 MB of data. For information about routing stages, see [Understand routing stages](unified-routing-diagnostics.md#understand-routing-stages-and-diagnostics).
 
 ## View consumption and delete routing diagnostics data
 
