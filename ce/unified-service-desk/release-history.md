@@ -1,7 +1,7 @@
 ---
 title: "Release history (Unified Service Desk)| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
-ms.date: 08/26/2022
+ms.date: 01/02/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -25,6 +25,12 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 ::: moniker range="dynamics-usd-4.2"
 
 <a name="Release_4_2"></a>
+
+## Release history for Unified Service Desk 4.2.0.51, January 2023
+
+This release includes a version change to Newtonsoft JSON from xxx to 13.0.2, and some security and accessibility fixes. There are no content-specific changes in this release.
+
+
 
 ## Release history for Unified Service Desk 4.2.0.42, August 2022
 

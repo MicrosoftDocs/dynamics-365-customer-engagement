@@ -1,7 +1,7 @@
 ---
 title: "What's new in Unified Service Desk for administrators | MicrosoftDocs"
 description: "Learn about new features available for system administrators in the latest version of Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 01/02/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -26,6 +26,14 @@ monikerRange: '>= dynamics-usd-3'
 ## What's new in Unified Service Desk 4.2
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+
+### Prevent arbitrary running of scripts
+
+Owing to potential security issues, Unified Service Desk now prevents arbitrary running of scripts like ShellExecute and RunScript. The running of scripts will be controlled via a new UII **ValidateSecurityForUIIAction** option. By default, **ValidateSecurityForUIIAction** is set to false, and scripts will be run without any check. If **ValidateSecurityForUIIAction** is set to true, then Unified Service Desk will perform checks for actions configured in the **ListOfActionsToValidate** list. If an action is not configured in the **ListOfActionsToValidate** list, then actions will run without any checks.
+
+> [!Note}
+> As an administrator, you must configure the exact call for actions in the **ListOfActionsToValidate** list.
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
