@@ -22,7 +22,7 @@ Here are a few important considerations to keep in mind when you work with queue
 
 When you change the status of a queue item that has been routed using unified routing, the queue item is affected in the following ways:
 
-- When you change a queue item from a basic queue to an advanced queue&mdash;or from one advanced queue to another&mdash;by selecting  **Add to Queue** on the record (via the [AddToQueue Action](/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by selecting **Route To** on the queue item (via the [**RouteTo Action**](/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9&preserve-view=true)), then the associated queue for the live work item ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) also gets updated to the same destination queue. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you change a queue item from an advanced queue to another&mdash;by selecting **Add to Queue** on the record (via the [AddToQueue Action](/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by selecting **Route To** on the queue item (via the [**RouteTo Action**](/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9&preserve-view=true)), then the associated queue for the live work item ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) also gets updated to the same destination queue. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
 - When you change a queue item from one advanced queue to a basic queue by selecting **Add to Queue** on the record (via the [AddToQueue Action](/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by selecting **Route To** on the queue item (via the [**RouteTo Action**](/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9&preserve-view=true)), then the associated live work item ([msdyn_ocliveworkitem](/dynamics365/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) is closed and the queue item moves out of the unified routing umbrella. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
@@ -35,6 +35,8 @@ When you change the status of a queue item that has been routed using unified ro
 - When you resolve a routed record, the corresponding queue item that gets deactivated can't be activated again.
 
 - When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+
+- When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
 
 > [!Note]
