@@ -33,17 +33,6 @@ In this article, we look at how to configure and use geofences by:
 
 ## Prerequisites
 
-- **Field Service v8.8.32+**.
-
-- Verify geofence solutions are installed. Go to **Settings** > **Solutions** and make sure the following geofence solutions are there. Upgrade to Field Service 8.8.32+ if these solutions aren't present.
-
-  - **Geofence Alerts**
-  - **Geofence Management**
-  - **Geofence for Field Service**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofence solutions appearing in the solution list in Dynamics 365.](./media/mobile-geofence-solutions.png)
-
 - [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
    
 - [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
@@ -61,7 +50,7 @@ First, [enable location tracking, sharing, and auditing](mobile-powerapp-locatio
 
 ## Step 2. Activate geofence processes
 
-Go to **Settings** > **Processes** and **Activate** the following processes. These processes are installed in a draft state with the geofence solutions:
+Go to **Settings** > **Processes** and ensure the following processes are in an Active state.
 
 - ```DeleteGeofenceWhenBookingIsCompletedOrCanceled```
 - ```GenerateGeofenceWhenBookingIsCreated```
