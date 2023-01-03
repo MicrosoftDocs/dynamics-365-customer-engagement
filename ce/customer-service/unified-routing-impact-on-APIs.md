@@ -42,7 +42,7 @@ When you change the status of a queue item that has been routed using unified ro
 > - To get the capacity released for the agents for entities other than incident (via incident resolution or cancelation), add a custom logic to get the corresponding queue item deactivated. More information: [Create and manage capacity profiles](capacity-profiles.md)
 
 ## Next steps
-
+[Close live work items or deactivate queue items](deactivate-queue-items.md)
 
 ### See also
 
