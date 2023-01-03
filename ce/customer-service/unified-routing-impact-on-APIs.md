@@ -18,7 +18,7 @@ Here are a few important considerations to keep in mind when you work with queue
 
 - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
 
-- We recommend that you update only one field on the queue item to avoid any routing issues. If you update multiple fields, then fields are selected in the order of Queue, Worker, and State.
+- We recommend that you update only one field on the queue item to avoid any routing issues. If you update multiple fields, then the fields are selected in the order of Queue, Worker, and State.
 
 ## How unified routing impacts queue items and the corresponding APIs
 
