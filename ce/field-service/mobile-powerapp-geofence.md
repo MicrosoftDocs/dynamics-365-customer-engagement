@@ -39,7 +39,6 @@ In this article, we look at how to configure and use geofences by:
 
 - [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
 
-- This article applies to geofencing for the [Field Service mobile app, built on Microsoft Power Platform](mobile-power-app-overview.md).
 
 ## Step 1. Enable and test location tracking, sharing, and auditing
 
