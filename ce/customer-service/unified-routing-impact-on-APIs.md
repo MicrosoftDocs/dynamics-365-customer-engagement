@@ -36,9 +36,10 @@ When you change the status of a queue item that has been routed using unified ro
 
 - When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
-Note:- Since unified routing also works upon the underlying entity record for the owner field, you must keep in mind for providing the right read privilege to the agents for that entity as well. And the same applies to any other dependent entity thereafter. For information on how to provide the accesses to different roles for the entities, see Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing).
 
-Note: - To get the capacity released for the agents for entities other than incident (via incident resolution or cancelation), have a custom logic to get the corresponding queue item deactivated. Create and manage capacity profiles | Microsoft Learn
+> [!Note]
+> - Since unified routing also works upon the underlying entity record for the owner field, ensure that you provide the right read privilege to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/marketing/admin-users-licenses-roles).
+> - To get the capacity released for the agents for entities other than incident (via incident resolution or cancelation), add a custom logic to get the corresponding queue item deactivated. More information: [Create and manage capacity profiles](capacity-profiles.md)
 
 ## Next steps
 
