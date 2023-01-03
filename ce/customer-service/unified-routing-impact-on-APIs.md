@@ -30,7 +30,7 @@ When you change the status of a queue item that has been routed using unified ro
 
 - When you update the **Worked By** field of queue items by selecting **Route To** on the queue items list (via the **RouteTo Action**) or by manually updating the **Worked By** field on the QueueItem details form, then the live work item (msdyn_ocliveworkitem) also gets assigned to the same agent.
 
-- Unified routing changes the owner of the underlying entity record when it finds the right agent as per assignment method. If you change the **Worked By** field, then the the owner of the underlying entity record is also changed.
+- Unified routing changes the owner of the underlying entity record when it finds the right agent as per assignment method. If you change the **Worked By** field, then the owner of the underlying entity record is also changed.
 
 - When you update a queue item using unified routing, you can't remove it from the queue by selecting **Pick** ([**PickFromQueue Action**](/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9&preserve-view=true)) or **RouteTo Action** on the queue item.
 
