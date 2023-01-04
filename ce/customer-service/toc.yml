@@ -812,6 +812,8 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
+      - name: Supported customizations
+        href: supported-customizations.md  
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
