@@ -10,7 +10,7 @@ ms.date: 01/04/2023
 ms.custom: bap-template
 ---
 
-# Set up and manage integrated search providers (preview)
+# Set up and manage integrated search providers
 
 With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
 
