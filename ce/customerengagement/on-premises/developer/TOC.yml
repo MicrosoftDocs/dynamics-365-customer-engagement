@@ -442,20 +442,8 @@
     href: integration-dev/teams-integration-using-code.md
 - name: Model your business data
   href: model-business-data.md
-  items:
   - name: Introduction to entities
     href: introduction-entities.md
-    items:
-    - name: Use metadata to generate entity diagrams
-      href: use-metadata-generate-entity-diagrams.md
-    - name: Key to entity diagrams
-      href: key-entity-diagrams.md
-    - name: 'Sample: Merge two records'
-      href: sample-merge-two-records.md
-    - name: 'Sample: Validate record state and set the state of the record'
-      href: sample-validate-record-state-set-state-record.md
-    - name: 'Sample: Rollup records related to a specific record'
-      href: sample-rollup-records-related-specific-record.md
   - name: Introduction to entity attributes
     href: introduction-entity-attributes.md
     items:
