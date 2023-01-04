@@ -1,5 +1,5 @@
 ---
-title: Supported customizations on Conversations entity and form
+title: Customizations supported by the Conversation entity and form
 description: Use this article to understand the set of customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
@@ -10,9 +10,9 @@ ms.date: 01/04/2023
 ms.custom: bap-template
 ---
 
-# Supported customizations on Conversation entity and form
+# Customizations supported by the Conversation entity and form
 
-This article lists the customizations supported on the Conversation entity and form in Omnichannel for Customer Service.
+This article lists the customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
 
 ## Customizations supported on the Conversation entity
 
@@ -20,7 +20,7 @@ You can create business rules on the Conversation entity.
 
 ## Customizations supported on the Conversation form
 
-The customizations supported on the Conversation form include:
+The customizations supported by the Conversation form include:
 - Create one-to-many relationships
 - Add subgrids on the Conversation form
 - Edit existing forms in the following ways:
