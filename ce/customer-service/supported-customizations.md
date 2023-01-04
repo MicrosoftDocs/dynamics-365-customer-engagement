@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 This article lists the customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
 
-## Customizations supported on the Conversation entity
+## Customizations supported by the Conversation entity
 
 You can create business rules on the Conversation entity.
 
-## Customizations supported on the Conversation form
+## Customizations supported by the Conversation form
 
 The customizations supported by the Conversation form include:
 - Create one-to-many relationships
