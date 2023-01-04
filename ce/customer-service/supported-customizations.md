@@ -1,6 +1,6 @@
 ---
-title: Supported customizations
-description: Use this article to understand the set of customizations supported in Omnichannel for Customer Service.
+title: Supported customizations on Conversations entity and form
+description: Use this article to understand the set of customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
@@ -10,14 +10,32 @@ ms.date: 01/04/2023
 ms.custom: bap-template
 ---
 
-# Supported customizations 
+# Supported customizations on Conversation entity and form
+
+This article lists the customizations supported on the Conversation entity and form in Omnichannel for Customer Service.
+
+## Customizations supported on the Conversation entity
+
+You can create business rules on the Conversation entity.
+
+## Customizations supported on the Conversation form
+
+The customizations supported on the Conversation form include:
+- Create a one-to-many relationships
+- Add subgrids on the Conversation form
+- Edit existing forms in the following ways:
+    - Modify the layout of the form, resize controls, and create new tabs and sections
+    - Move sections to different tabs
+    - Add a subgrid
+    - Add a PCF control
+    - Edit the quick view for customers and cases
+    - Remove recent cases subgrid.
+    - Add web resources and external website controls 
+    - Load Customer Summary form as an application tab instead of Anchor tab in a session
 
 
-## Section heading
-
-<!--add your content here-->
-
-<!--Next steps - Required. Provide at least one next step and no more than three. Include some context so the customer can determine why they would click the link.-->
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+[Customize Customer Summary form](customize-customer-summary.md)  
+[Customize quick view forms](customize-quick-view-form.md)  
+[Customize session forms](customize-session-form.md)  
