@@ -61,7 +61,7 @@ To be able to create a swarm when working on a customer issue, you must have the
    > ![Swarm page with case details side pane.](media/teams-swarm-case-details.png "Swarm page with case details side pane displayed")
 
    > [!Note]
-   > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
+   > If you don't see the **Create swarm** option, ask your administrator to assign access privileges for you.
 
 1.  On the **Swarm** form, type information into the following fields:
     - **Swarm request**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
