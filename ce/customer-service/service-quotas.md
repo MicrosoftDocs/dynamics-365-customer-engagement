@@ -6,7 +6,7 @@ ms.author: v-jmh
 ms.reviewer: nenellim 
 ms.service: dynamics-365 
 ms.topic: conceptual 
-ms.date: 12/21/2022
+ms.date: 01/06/2023
 ms.custom: bap-template 
 ---
 
@@ -16,7 +16,7 @@ This article outlines the service quotas, including those quotas that can be adj
 
 > [!NOTE]
 > - All measures are at an organizational level for all licensed organizations. The measures don't apply to trial or other non-licensed organizations.
-> - If the service limits are indicated as adjustable, then you can contact Microsoft Support if you'd like to change the limits.  
+> - If the service limits are indicated as adjustable, then you can contact Microsoft Support to check for feasibility and get further guidance.  
 > - All default limits are maximum limits beyond which configuration won't be allowed and conversations will be limited, unless specified otherwise.
 
 ## Configuration limits
@@ -37,7 +37,7 @@ This article outlines the service quotas, including those quotas that can be adj
 
 <sup>1</sup> Each of the channels has a defined limit as specified in the table; exceeding the defined limits might lead to poor quality of service. However, when multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute, and 10 digital messages, the total limit is considered as 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of the channel, might reduce the quality of service.
 
-<sup>2</sup> These are recommended limits beyond which system reliability and performance might reduce. To request a change in these recommended limits, contact Microsoft Support for more guidance.
+<sup>2</sup> These are recommended limits beyond which system reliability and performance might reduce. To request a change in these recommended limits, contact Microsoft Support to check for feasibility and further guidance.
 
 
 ## Miscellaneous limits
@@ -52,7 +52,7 @@ This article outlines the service quotas, including those quotas that can be adj
 | Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | 100 conversations or work items<sup>5</sup>   |  Yes  |
 
 
-<sup>1</sup> These are recommended limits beyond which system reliability and performance might reduce. For any change in these limits, contact Microsoft Support.
+<sup>1</sup> These are recommended limits beyond which system reliability and performance might reduce. To request any change in these limits, contact Microsoft Support to check for feasibility and further guidance.
 
 <sup>2</sup> 10 GB of SQL/DB storage, 20 GB of file storage, and 2 GB of log storage  
 
