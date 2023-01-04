@@ -1,12 +1,10 @@
 ---
 title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
-ms.date: 09/20/2021
+ms.date: 01/04/2023
 ms.reviewer: mhart
-
 ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -49,7 +47,7 @@ First, [enable location tracking, sharing, and auditing](mobile-powerapp-locatio
 
 ## Step 2. Activate geofence processes
 
-Go to **Settings** > **Processes** and ensure the following processes are in an Active state.
+Go to **Settings** > **Processes** and ensure the following processes are in an *Active* state.
 
 - ```DeleteGeofenceWhenBookingIsCompletedOrCanceled```
 - ```GenerateGeofenceWhenBookingIsCreated```
