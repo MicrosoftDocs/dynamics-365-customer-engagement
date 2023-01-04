@@ -500,6 +500,8 @@
         href: work-knowledge-articles.md
       - name: Set up external knowledge search providers
         href: set-up-search-providers.md
+      - name: Set up and manage integrated search providers
+        href: add-search-provider.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories

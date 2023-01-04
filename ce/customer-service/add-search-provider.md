@@ -6,11 +6,21 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 01/04/2023
+ms.date: 01/05/2023
 ms.custom: bap-template
 ---
 
-# Set up and manage integrated search providers
+# Set up and manage integrated search providers (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
 
 With integrated search providers, you can configure external data providers such as enterprise websites based on the site map protocol. After configuring, the articles from the external providers will be ingested into Microsoft Dataverse, so that agents can view a consolidated list of knowledge article search results and experience a single ranking of articles across search providers.
 
