@@ -502,6 +502,8 @@
         href: set-up-search-providers.md
       - name: Set up and manage integrated search providers
         href: add-search-provider.md
+      - name: Apply authentication for search providers
+        href: apply-authentication-provider.md
       - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
