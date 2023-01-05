@@ -10,9 +10,10 @@ ms.date: 01/05/2023
 ms.custom: bap-template
 ---
 
-# Heading
+# Apply authentication
 
 Use the following information to apply authentication as required by your organization.
+
 - **None**: Requires no authentication.
 - **Basic**: Requires a username and password.
 - **OAuth 2.0**: OAuth 2.0 with Azure Active Directory (Azure AD) requires a resource ID, Client ID, and a client Secret.
