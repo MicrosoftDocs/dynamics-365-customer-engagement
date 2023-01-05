@@ -1,6 +1,6 @@
 ---
 title: Customizations supported by the Conversation entity and form
-description: Use this article to understand the set of customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
+description: Learn about the customizations that are supported by the Conversation entity and form in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Customizations supported by the Conversation entity and form
 
-This article lists the customizations supported by the [Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md) and form in Omnichannel for Customer Service.
+This article lists the customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
 
 ## Customizations supported by the Conversation entity
 
@@ -20,21 +20,22 @@ You can create business rules on the Conversation entity.
 
 ## Customizations supported by the Conversation form
 
-You can customize the Conversation form to:
+You can customize the **Conversation** form to:
 - Create one-to-many relationships
 - Edit existing forms in the following ways:
-    - Modify the layout of the form, resize controls, and create new tabs and sections
+    - Modify the form layout, resize controls, and create tabs and sections
     - Move sections to different tabs
     - Add subgrids
     - Add custom controls
     - Edit the quick view for customers and cases
-    - Remove recent cases subgrid.
+    - Remove recent cases subgrid
     - Add web resources and external website controls 
-    - Load Customer Summary form as an application tab instead of the anchor tab in a session
+    - Load **Customer Summary** form as an application tab instead of anchor tab in a session
 
 
 ## Next steps
 
+[Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  
 [Customize Customer Summary form](customize-customer-summary.md)  
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
