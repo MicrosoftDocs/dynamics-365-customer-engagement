@@ -10,19 +10,29 @@ ms.date: 01/05/2023
 ms.custom: bap-template
 ---
 
-# Apply authentication
+# Apply authentication (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
 
 Use the following information to apply authentication as required by your organization.
 
 - **None**: Requires no authentication.
 - **Basic**: Requires a username and password.
 - **OAuth 2.0**: OAuth 2.0 with Azure Active Directory (Azure AD) requires a resource ID, Client ID, and a client Secret.
-- OAuth 2.0 only works with Cloud mode.## Prerequisites
+- OAuth 2.0 only works with Cloud mode.
 
 ## OAuth 2.0
 
 > [!NOTE]
-> The resource ID, client ID and client secret values will depend on how you did the setup for Azure AD based authentication for your website
+> The resource ID, client ID and client secret values will depend on how you did the setup for Azure AD based authentication for your website.
 
 ### Scenario 1
 
@@ -35,10 +45,10 @@ Perform the following steps:
 1. In the **Branding and Properties** tab, provide the information for the **Home page URL** field.
 :::image type="content" source="media/homepageurl.png" alt-text="Provide URL for the home page":::
 1. In the **Authentication** tab, select **Add a platform**. On the **Configure platforms** dialog, select **Web**.
-:::image type="content" source="media/configure-web_new.png" alt-text="Add the platform as web":::
 1. Enter the information in the **Redirect URIs** field.
 1. Select the **ID tokens (used for implicit and hybrid flows)** checkbox.
 1. Select **Configure**.
+:::image type="content" source="media/configure-web_new.png" alt-text="Add the platform as web":::
     > [!NOTE]
     > It isn’t required to have the above specified route for Redirect URI in your website. Only if you use the user token sent by Azure in your website for authentication you will need to have the route
 1. In the **Overview** tab, copy the Application (client) ID.
