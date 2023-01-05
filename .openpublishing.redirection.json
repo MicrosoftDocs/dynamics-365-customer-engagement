@@ -220,7 +220,16 @@
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=396733",
       "redirect_document_id": "false"
     },
-
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-metadata-generate-entity-diagrams.md",
+      "redirect_url": "/power-apps/developer/data-platform/use-metadata-generate-entity-diagrams",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/key-entity-diagrams.md",
+      "redirect_url": "/power-apps/developer/data-platform/use-metadata-generate-entity-diagrams#about-the-diagrams",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-wss-schema.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-wss-schema",
