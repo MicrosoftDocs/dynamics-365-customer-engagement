@@ -26,8 +26,8 @@ The customizations supported by the Conversation form include:
 - Edit existing forms in the following ways:
     - Modify the layout of the form, resize controls, and create new tabs and sections
     - Move sections to different tabs
-    - Add a subgrid
-    - Add a custom control
+    - Add subgrids
+    - Add custom controls
     - Edit the quick view for customers and cases
     - Remove recent cases subgrid.
     - Add web resources and external website controls 
