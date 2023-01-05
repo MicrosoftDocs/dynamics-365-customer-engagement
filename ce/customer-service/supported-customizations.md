@@ -31,7 +31,7 @@ The customizations supported by the Conversation form include:
     - Edit the quick view for customers and cases
     - Remove recent cases subgrid.
     - Add web resources and external website controls 
-    - Load Customer Summary form as an application tab instead of Anchor tab in a session
+    - Load Customer Summary form as an application tab instead of the anchor tab in a session
 
 
 ## Next steps
