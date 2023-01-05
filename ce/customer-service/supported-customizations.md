@@ -20,7 +20,7 @@ You can create business rules on the Conversation entity.
 
 ## Customizations supported by the Conversation form
 
-The customizations supported by the Conversation form include:
+You can customize the Conversation form to:
 - Create one-to-many relationships
 - Add subgrids on the Conversation form
 - Edit existing forms in the following ways:
