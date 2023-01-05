@@ -1,5 +1,5 @@
 ---
-title: Customizations supported by the Conversation entity and form
+title: Customizations supported by Conversation entity and form
 description: Learn about the customizations that are supported by the Conversation entity and form in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
