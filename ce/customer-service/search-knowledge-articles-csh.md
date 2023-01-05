@@ -82,7 +82,7 @@ Type a keyword in the search field to search for knowledge articles.
   |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields.|
   |6.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
 
-- If Dataverse search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
+- If Dataverse search isn't enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
   > [!NOTE]
   > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
@@ -95,7 +95,7 @@ Type a keyword in the search field to search for knowledge articles.
 
 In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the reference pane, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
 
-On the **Knowledge** tab, you can view the following:
+On the **Knowledge** tab, you can view the following options:
 
 :::image type="content" source="media/knowledge-search-csh.png" alt-text="View the features of knowledge base search":::
 
@@ -131,7 +131,7 @@ In the knowledge base search control, you can do the following:
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select the **Knowledge search** tab on the app side pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on Dataverse and full-text search mechanisms.
 
-The knowledge articles are applicable for all the knowledge-enabled entities. By default, the full-text search and Dataverse search display 10 results. You can also use the search box to enter keywords and search for articles if those displayed by default aren't relevant.
+The knowledge articles are applicable for all the knowledge-enabled entities. By default, the full-text search and Dataverse search display 10 results. You can also use the search box to enter keywords and search for articles if those results displayed by default aren't relevant.
 
 :::image type="content" source="media/csw-knowledge-tab.png" alt-text="View features in knowledge base search":::
 
@@ -146,7 +146,7 @@ The knowledge articles are applicable for all the knowledge-enabled entities. By
   |7.| Status and visibility tags for the article.|
   |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
 
-In addition to the above information, in Omnichannel for Customer Service, you can also use the **Send URL** option, when you select the ellipsis. The **Send URL** option pastes the article link in the conversation window when selected. However, if you are using the Voice channel, this option won't be available.
+In addition to the above information, in Omnichannel for Customer Service, you can also use the **Send URL** option, when you select the ellipsis. The **Send URL** option pastes the article link in the conversation window when selected. However, if you're using the Voice channel, this option won't be available.
 
 These actions can be performed for only published or expired articles.
 
@@ -179,11 +179,11 @@ In Customer Service workspace or Omnichannel for Customer Service, when you sele
 To add an article to the favorites list:
 
 1. Select your article from the list of articles displayed in the **Search** tab.
-1. Select the favorites (heart) icon to add an article to favorites. Your article gets added to favorites and you wil see a confirmation message. You can view your article in the **Favorite** tab.
+1. Select the favorites (heart) icon to add an article to favorites. Your article gets added to favorites and you'll see a confirmation message. You can view your article in the **Favorite** tab.
 
-To remove your article from the favorites list, cancel the selection. You wil see a confirmation message stating that your article has been removed.
+To remove your article from the favorites list, cancel the selection. You'll see a confirmation message stating that your article has been removed.
 
-The maximum number of articles that can be marked as favorite is 50. You will see an error message if you have already marked 50 articles as favorites. You can sort the favorite articles list by date and time. You can see the latest published articles in the list. If an article has been deleted, it will be no longer appear in your favorites list. Your article will be saved in the language in which it was saved as a favorite.
+The maximum number of articles that can be marked as favorite is 50. You'll see an error message if you've already marked 50 articles as favorites. You can sort the favorite articles list by date and time. You can see the latest published articles in the list. If an article has been deleted, it will be no longer appear in your favorites list. Your article will be saved in the language in which it was saved as a favorite.
 
 ## View knowledge articles
 
