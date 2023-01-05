@@ -139,18 +139,6 @@ You can configure which case fields to include as part of the swarm form. Out of
         - Product
         - Case description
 
-   - Out-of-box account fields include customer name, email, and phone number.
-  
-   - The following out-of-box case fields are included:
-
-      - Case title
-      - Case number
-      - Subject
-      - Customer priority
-      - Status
-      - Product
-      - Case description
-
 To configure case details, perform the following steps:
 
 1. On the **Customer support swarming (preview)** configuration page, go to the **Case details** card.
