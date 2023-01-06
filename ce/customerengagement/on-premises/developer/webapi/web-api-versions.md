@@ -35,7 +35,7 @@ Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-on
 > [!NOTE]
 >  This issue is addressed in [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)].  
   
- If you defined a custom action which includeed a complex return value and a simple return value, a corresponding Action was not available in the Web API but was available using the 2011 SOAP endpoint. A complex return value is an `EntityReference`, `Entity`, or `EntityCollection`. You can have any combination of simple return values or a single complex return value. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create your own actions](../create-own-actions.md)  
+ If you defined a custom action which includeed a complex return value and a simple return value, a corresponding Action was not available in the Web API but was available using the Organization service. A complex return value is an `EntityReference`, `Entity`, or `EntityCollection`. You can have any combination of simple return values or a single complex return value. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create your own actions](../create-own-actions.md)  
  
 ## New operations added  
  The following operations have been added to the Web API for [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)].  
