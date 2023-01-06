@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 11/14/2022
+ms.date: 01/06/2023
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -28,21 +28,7 @@ The trial will take a few moments to load, then you can start using Customer Ser
 
 ## Experience for a trial user
 
-Customer Service uses a Microsoft Power Platform environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
-
-This section lists all the functionality that will be restricted until an environment is provisioned. These restrictions apply to only for:
-
-- The default environment.
-- The trial users and users who purchase Customer Service through Microsoft 365 admin center.
-
-### What you can do while an environment is being provisioned?
-
-- Try the demo chat experience as an agent and customer that is available on the home page.
-- [Understand how agents manage their cases and work on them](csw-overview.md).
-
-### What you can't do while an environment is being provisioned?
-
-Configure and use social, SMS, or Microsoft Teams channels in Omnichannel for Customer Service.
+Customer Service uses a Microsoft Power Platform environment to store and manage data. It typically takes 10 minutes to provision an environment. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
 
 ## What to try?
 
