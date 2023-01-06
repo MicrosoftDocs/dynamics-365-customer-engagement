@@ -66,11 +66,8 @@ Service quotas are the resource, configuration, or item limits provided as part 
 
 ## Next steps
 
+[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)  
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Provision unified routing for Customer Service](provision-unified-routing.md)  
 
-### See also
-
-[Service protection API limits](/power-apps/developer/data-platform/api-limits)  
-[Service limits in Customer Insights - Dynamics 365 Customer Insights](/customer-insights/service-limits)  
-[Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits)  
