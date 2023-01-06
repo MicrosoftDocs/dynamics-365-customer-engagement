@@ -10,7 +10,9 @@ manager: shujoshi
 
 # Configure rules-based suggestions for contacts in Microsoft Teams
 
-Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts to be displayed when an agent starts a new connected chat. This feature can help agents in your organization to quickly find the right coworkers to collaborate with. 
+Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts to be displayed when an agent starts a new connected chat. This feature can help agents in your organization to quickly find the right coworkers to collaborate with.
+
+A maximum of 10 rules are supported per record type.
 
 ## Turn on the suggested contacts for a record type
 
@@ -42,19 +44,23 @@ Agents can collaborate with other contacts directly through Microsoft Teams to q
 
     :::image type="content" source="media/configure-suggest-contact.png" alt-text="Settings page to turn on or off the rules-based suggested contacts feature.":::
 
-5. In the **Update rules for suggesting contacts** section, reorder or disable the rules for suggesting contacts. Users will see the suggestions in the order you choose.
+1. In the **Update rules for suggesting contacts** section, reorder or disable the rules for suggesting contacts. Users will see the suggestions in the order you choose.
 
     - To reorder the rules, hover over a rule, and then select the up or down arrow to move the rules up or down, respectively.
-    - To disable a rule, hover over a rule, and then select :::image type="icon" source="media/suggested-contacts-rule-disable.png" border="false":::. When the rule is disabled, :::image type="icon" source="media/suggested-contacts-rule-disabled.png" border="false"::: is displayed when you hover over the disabled rule.
+    - To disable a rule, hover over a rule, and then select :::image type="icon" source="media/suggested-contacts-rule-disable.png" border="false":::. When the rule is disabled, a check mark is displayed when you hover over the disabled rule.
+     - To delete a rule, hover over the rule, and then select :::image type="icon" source="media/suggested-contacts-rule-delete.png" border="false":::. Deleting a rule removes it entirely so it will not influence suggested contacts in the future.
 
-    :::image type="content" source="media/c.png" alt-text="Reorder or disable the rules for suggested contacts.":::
-    - To delete a rule, hover over the rule, and then select :::image type="icon" source="media/suggested-contacts-rule-delete.png" border="false":::.
+1. Select **Save**.
 
-6. Select **Save**.
+### Add a new rule
 
-## Add a rule
+1. On the settings pane, in the **Update rules for suggesting contacts** section, select **Add new rule**. The **Create contact suggestion rule** pane is displayed for the record type you selected.
+1. Type a **Rule name** for the rule. The name you enter will be displayed on the contact, and it will also appear in the rule list.
+1. Select from the following **Rule type** options:
+   - **Relational**: Suggest a user who has a relationship with the linked record type or one of its related records. You can select up to ten related entites for each record type.
+   - **Custom**: You can use your own custom logic with a record type, and then apply it. More information: 
 
-
+1. Select **Save**.
 
 ### See also
 
