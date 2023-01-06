@@ -18,14 +18,24 @@ This article lists the customizations supported by the Conversation entity and f
 
 You can create business rules on the Conversation entity.
 
+Creating one to many relationship means that customers can add subgrids on the form. 
+For example, customers can add a sub-grid on conversation form that shows a list of all cases but they can't show the list of only cases that are related to that particular conversation
+
+yes, we can't add any data that is specific to that conversation record since the form is opened in create mode today
+
+Also, for supporting custom controls - Adding custom controls are supported but any control that allows the user to update the conversation will not work as expected since any update made by the user using that control will be overwritten by OC flush once the conversation is ended
+
+
+
+
+
 ## Customizations supported by the Conversation form
 
 You can customize the **Conversation** form to:
-- Create one-to-many relationships
+- Create one-to-many relationships. For example, you can add a subgrid on the Conversation form to show a list of all cases
 - Edit existing forms in the following ways:
     - Modify the form layout, resize controls, and create tabs and sections
     - Move sections to different tabs
-    - Add subgrids
     - Add custom controls
     - Edit the quick view for customers and cases
     - Remove recent cases subgrid
