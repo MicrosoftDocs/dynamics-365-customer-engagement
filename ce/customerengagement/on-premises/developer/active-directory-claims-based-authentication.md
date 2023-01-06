@@ -70,7 +70,7 @@ Claims-based authentication provides an industry standard security protocol to a
 > [!TIP]
 > Depending on your application scenario, the recommended method to authenticate a .NET Framework client application with any deployment of Dynamics 365 Customer Engagement (on-premises) is to use the [CrmServiceClient](xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient) class.
 >
-> Do not use the [ServiceClient](xref:Microsoft.PowerPlatform.Dataverse.Client.ServiceClient) class as it does not currently support on-premise authentication.
+> Do not use the [ServiceClient](xref:Microsoft.PowerPlatform.Dataverse.Client.ServiceClient) class if you are using ADFS for on-premise authentication.
 
 <a name="bkmk_clientproxy"></a>   
 ## Authentication by using the client proxy classes  
