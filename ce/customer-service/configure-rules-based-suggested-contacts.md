@@ -54,7 +54,7 @@ A maximum of 10 rules are supported per record type.
 
 ### Add a new rule
 
-1. On the settings pane, in the **Update rules for suggesting contacts** section, select **Add new rule**. The **Create contact suggestion rule** pane is displayed for the record type you selected.
+1. On the settings pane, in the **Update rules for suggesting contacts** section, select **Add new rule**. The **Add rule** pane is displayed for the record type you selected.
 1. Type a **Rule name** for the rule. The name you enter will be displayed on the contact, and it will also appear in the rule list.
 1. Select from the following **Rule type** options:
    - **Relational**: Suggest a user who has a relationship with the linked record type or one of its related records. You can select up to ten related entites for each record type.
