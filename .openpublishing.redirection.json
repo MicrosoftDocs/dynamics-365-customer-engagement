@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/developer/building-extended-xrm-applications.md",
+      "redirect_url": "/power-platform/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/setup-mobile-offline.md",
       "redirect_url": "/power-apps/mobile/setup-mobile-offline-classic",
       "redirect_document_id": "false"
