@@ -14,13 +14,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure Omnichannel for Customer Service to send automated messages through chat, SMS, Microsoft Teams, or social channels. The **Automated messages** tab in each channel instance enables administrators to create channel-specific, locale-specific text. Administrators can customize, deactivate, and activate channel-level customer and agent-facing messages.  
+You can configure Omnichannel for Customer Service to send automated messages through chat, SMS, Microsoft Teams, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific, locale-specific text. You can customize, deactivate, and activate channel-level customer and agent-facing messages. 
+As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this article](preconfig-autom-message-triggers.md).
+
 
 ## Display a list of all automated messages
 
-You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. Administrators can overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. See [Preconfigured automated message triggers](#preconfigured-automated-message-triggers) for more information.
-
-You can configure automated messages in the Customer Service admin center or Omnichannel admin center apps.
+You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. 
 
 1. Go to one of the apps, and perform the following steps.
    

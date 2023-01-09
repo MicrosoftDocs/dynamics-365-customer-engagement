@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+Omnichannel for Customer Service includes a set of preconfigured, out-of-the-box automated message triggers. Here's the list.
+
 | **Message trigger** | **Definition** | **When to trigger** |
 |-----------------|------------|-----------------|
 | Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation. | When the agent is assigned to the conversation. |
