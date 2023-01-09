@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 11/14/2022
+ms.date: 01/09/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -72,7 +72,7 @@ Further, you can share the saved summary with the stakeholders through an email.
          
 2.	Edit your notes or check out the **Suggested notes** pane for call highlights and action items.
 
-    -	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
+    -	To add notes from the call highlights and action items, select **Add** corresponding to the item. Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
     
     -	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
     -	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript and the playback. 
