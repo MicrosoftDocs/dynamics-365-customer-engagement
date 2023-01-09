@@ -4,8 +4,6 @@
 
 (Includes Resource Scheduling controls version 1.2.35.223541).
 
-(Includes Resource Scheduling controls version 1.2.34.223411).
-
 - Race condition resulting in incorrect resources to be used in loadBookingAggregates.
 - New schedule board update for customizations to resource templates.
 - Booking alert panel crash when alerts have been deleted.
