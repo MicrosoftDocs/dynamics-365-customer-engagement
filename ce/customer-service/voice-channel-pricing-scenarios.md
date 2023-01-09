@@ -187,4 +187,11 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 
 **Total cost for the call**: $0.04 + $0.04 + applicable carrier charges = $0.08  + applicable carrier charges
 
+### See also
+
+[Introduction to the voice channel](voice-channel.md)
+[Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
+[Set up inbound calling in the voice channel](voice-channel-inbound-calling.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 
