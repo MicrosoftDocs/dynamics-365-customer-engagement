@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service deprecation and migration FAQ | MicrosoftDocs"
 description: "Deprecation and migration FAQ for Omnichannel for Dynamics 365 Customer Service"
-ms.date: 01/06/2023
+ms.date: 01/11/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -27,7 +27,7 @@ No, omnichannel is a platform feature that's accessed through applications. One 
 
 ### What does deprecation mean? 
 
-Deprecation means that Microsoft is no longer planning to make investments in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app will be deprecated on April 1, 2023.
+Deprecation means Microsoft plans to stop investing in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app will be deprecated on April 1, 2023.
 
 ### Is the Omnichannel for Customer Service app deprecated now? 
 
@@ -35,15 +35,15 @@ No, the app will be deprecated on April 1, 2023.
 
 ### Will the Omnichannel for Customer Service app still be supported after the planned deprecation date?
 
-Yes, after the app is deprecated, support will still be available until June, 2024.
+Yes, after the app is deprecated, support will still be available until June 2024.
 
 ### Can I continue to use the Omnichannel for Customer Service app?
 
-Yes, Omnichannel for Customer Service will continue to be supported until June, 2024. 
+Yes, Omnichannel for Customer Service will continue to be supported until June 2024. 
 
 ### What is the end-of-support date? 
 
-End of support for the Omnichannel for Customer Service app is planned for June, 2024.
+End of support for the Omnichannel for Customer Service app is planned for June 2024.
 
 ### If Omnichannel for Customer Service won't be invested in after deprecation, what app should I use?
 
@@ -63,4 +63,4 @@ You can manage Customer Service workspace in the Customer Service admin center a
 
 ### How do I move my Omnichannel for Customer Service app configurations to the Customer Service workspace app?
 
-To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the []().
+To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the [migration guide](migrate-oc-to-csw.md).
