@@ -135,9 +135,9 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 
 **Cost calculations**
 
-- One participant on the PSTN section (outbound from Matias) x 10 x 0.013 = $0.013
-      > [!NOTE]
-      > The call continues to be charged even when Matias puts it on hold.
+- One participant on the PSTN section (outbound from Matias) x 10 x 0.013 = $0.013.<br>
+   > [!NOTE]
+   > The call continues to be charged even when Matias puts it on hold.
 - One participant on the VOIP section (Matias to Azure Communication Services) x 10 x 0.004 = $0.04
 - One participant on the VOIP section (Matias to Gaby) x 5 x 0.004 = $0.02
 
