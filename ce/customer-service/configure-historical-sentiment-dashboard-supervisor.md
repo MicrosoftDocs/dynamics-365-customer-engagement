@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 01/02/2023
+ms.date: 01/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

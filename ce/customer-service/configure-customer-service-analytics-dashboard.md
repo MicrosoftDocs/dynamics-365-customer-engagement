@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 01/02/2023
+ms.date: 01/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
