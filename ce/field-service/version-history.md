@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 12/06/2022
+ms.date: 01/09/2023
 ms.reviewer: mhart
 ms.topic: article
 applies_to:
@@ -41,13 +41,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.92.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#3129214)) and Resource Scheduling controls version 1.2.35.223541).
 
-- Hugely improved performance of the asset and functional location tree control to support large hierarchies.
+- Significant performance improvements of the asset and functional location tree control to support large hierarchies.
 - Fixed a bug causing work orders to be left in a partially deleted state when deletion failed.
-- Field Service (Dynamics 365) mobile :AsyncOnSave has been enabled for Work Order validations.
-- Field Service (Dynamics 365) mobile: Fixed bug where an unexpected error could occur in the mobile app if msdyn_incidedenttyperesolution table is removed from the mobile offline profile.
-- Field Service (Dynamics 365) mobile: Fixed a bug so an Inspection multi-line text box will still expand when the Inspection is read only.
-
-
+- Field Service (Dynamics 365) mobile: AsyncOnSave has been enabled for Work Order validations.
+- Field Service (Dynamics 365) mobile: Fixed a bug where an unexpected error could occur in the mobile app if msdyn_incidedenttyperesolution table is removed from the mobile offline profile.
+- Field Service (Dynamics 365) mobile: Fixed a bug in read-only inspections that a multi-line text box expands correctly.
 
 ## 8.8.80.48
 
