@@ -59,7 +59,7 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 - One participant on the PSTN (inbound from Mae) x 20 minutes x 0.022 per participant per minute = $0.44
 - One participant on VOIP (inbound to Matias) x 20 x 0.004 per participant per minute= $0.08
 
-* Mae's participation is covered by her Teams license
+*Mae's participation is covered by her Teams license
 
 **Total cost for the call**: $0.44 + $0.08 = $0.52 
 
@@ -81,7 +81,7 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 - Cost to record= 10 x $0.002 per minute = $0.02
 - Omnichannel for Customer Service recording bot does not introduce additional Azure Communication Services VOIP charges.
 
-* Mae's participation is charged based on her Teams license.
+*Mae's participation is charged based on her Teams license.
 
 **Total cost for the call**: $0.22 + $0.04 + $ 0.04 + $0.02+ applicable Teams charges = $0.32+ applicable Teams charges
 
@@ -121,8 +121,8 @@ Mae calls your US toll-free number (acquired from Communication Services) from h
 - Cost to record= 10 x $0.002 per minute = $0.02
 - Omnichannel for Customer Service recording bot does not introduce additional Azure Communication Services VOIP charges.
 
-* Mae's participation is charged based on her Teams license.
-* Cole's participation is charged based on his Teams license.
+*Mae's participation is charged based on her Teams license.
+*Cole's participation is charged based on his Teams license.
  
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325  + applicable Teams charges
 
