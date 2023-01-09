@@ -1,11 +1,13 @@
 ---
-title: "Configure automated messages | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service"
-ms.date: 10/18/2022
+title: Configure automated messages
+description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
+ms.date: 01/10/2023
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.reviewer: nenellim
+ms.topic: how-to
+ms.service: dynamics-365
+ms.custom: bap-template
 ---
 
 # Configure automated messages
@@ -78,7 +80,7 @@ Do the following for the channel in which you want to create custom automated me
 
 | **Message trigger** | **Definition** | **When to trigger** |
 |-----------------|------------|-----------------|
-| Agent assigned to a conversation | Message displayed to the customer when the customer's conversation is created. | When the customer's conversation is created. |
+| Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation. | When the agent is assigned to the conversation. |
 | Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails.  | When work distribution fails (for example, no agents are linked to the queue, or the default queue is not found) or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. |
 | Agent disconnected from conversation | Message displayed to the customer when the agent gets disconnected. | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue.  |
 | Agent ended conversation | Message displayed to the customer when the agent ends the conversation. | When the agent clicks the End button. |
@@ -123,9 +125,14 @@ To deactivate messages at the channel instance level, select one or more message
 > [!div class=mx-imgBorder]
 > ![Deactivate automated messages.](media/automated-messages-deactivate.png "Deactivate automated messages")
 
-### See also
+## Next steps
 
 [Add a chat widget](add-chat-widget.md)  
 [Channels](channels.md)  
+
+
+### See also
+
+[Preconfigured automated message triggers](preconfig-auto-message-triggers.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
