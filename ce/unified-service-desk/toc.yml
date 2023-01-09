@@ -527,6 +527,8 @@
     href: admin/configure-client-diagnostic-logging-unified-service-desk.md
   - name: How Unified Service Desk handles application and system errors
     href: admin/how-unified-service-desk-handles-application-system-errors.md
+  - name: Prevent random running of scripts in Unified Service Desk
+    href: admin/prevent-running-scripts.md  
   - name: Debug issues in Unified Service Desk
     href: debug-issues-unified-service-desk.md
   - name: Use the Debugger control in Unified Service Desk
