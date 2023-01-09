@@ -912,6 +912,8 @@
       href: geo-location-provider.md
     - name: Configure self-service settings for customer actions
       href: enable-self-service-settings.md
+    - name: Preconfigured automated message triggers
+      href: preconfig-auto-message-triggers.md   
     - name: Configure automated messages
       href: configure-automated-message.md
     - name: Create message templates
