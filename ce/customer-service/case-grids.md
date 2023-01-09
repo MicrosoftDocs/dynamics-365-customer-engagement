@@ -1,7 +1,7 @@
 ---
 title: "Manage cases with case grids | MicrosoftDocs"
 description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 12/19/2022
+ms.date: 01/09/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
