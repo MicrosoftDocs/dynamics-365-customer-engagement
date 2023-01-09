@@ -49,7 +49,7 @@ End of support for the Omnichannel for Customer Service app is planned for June 
 
 You can use the Customer Service workspace application, which has feature-level parity with the Omnichannel for Customer Service app.
 
-### Do I need an additional license to access the Customer Service workspace app?
+### Do I need a different license to access the Customer Service workspace app?
 
 No, the Customer Service workspace application is available with your current licensing.
 
