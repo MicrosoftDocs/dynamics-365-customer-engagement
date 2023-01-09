@@ -70,7 +70,7 @@ Further, you can share the saved summary with the stakeholders through an email.
 
 ##### To write a call summary or notes
 
-1. Go to the **Notes** tab.s
+1. Go to the **Notes** tab. 
     
     > [!div class="mx-imgBorder"]
     > ![Sample Notes tab](media/ci-summary-call-summary-sales-app.png "Sample Notes tab")
