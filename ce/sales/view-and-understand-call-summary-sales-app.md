@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in the Dynamics 365 Sales Hub app"
 description: "Use call summary to get a high-level view of how a conversation with customer went, action items and relevant keywords, timeline, transcript in the Sales Hub app."
-ms.date: 09/30/2022
+ms.date: 01/09/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -29,7 +29,7 @@ Call summaries are available from the conversation intelligence capabilities of 
 ## Prerequisites
 
 - Configure conversation intelligence to process call recordings. More information: [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
-- To display the **Call Insights** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
+- To display the **Call summary** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
 
 ## View the call summary page
 
@@ -38,7 +38,7 @@ The **Call Insights** tab is available under activities for leads and opportunit
 2.	On the site map, select **Activities**.
 3.	Select a phone call activity for which you want to view the call summary.  
 4.	Select the **Call summary** tab.   
-    The call summary for the selected phone call activity is displayed.   
+    The call summary for the selected phone call activity is displayed. 
     > [!NOTE]
     > Select the **Related opportunity** tab to see a list of opportunities associated with the call. To add a related opportunity to the call, search for and select the opportunity.     
 
@@ -70,7 +70,7 @@ Further, you can share the saved summary with the stakeholders through an email.
 
 ##### To write a call summary or notes
 
-1. Go to the **Notes** tab.
+1. Go to the **Notes** tab. 
     
     > [!div class="mx-imgBorder"]
     > ![Sample Notes tab](media/ci-summary-call-summary-sales-app.png "Sample Notes tab")
@@ -78,10 +78,9 @@ Further, you can share the saved summary with the stakeholders through an email.
          
 2.	Edit your notes or check out the **Suggested notes** pane for call highlights and action items.
 
-    -	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
-    
-    -	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
-    -	To understand and know more about the context of the note, select the corresponding timestamp that will direct you to the section in the transcript and the playback. 
+    - To add notes from the call highlights and action items, select **Add** corresponding to the item. Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
+    - To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
+    - To understand and know more about the context of the note, select the corresponding timestamp that will direct you to the section in the transcript and the playback. 
 
     > [!div class="mx-imgBorder"]
     > ![Suggested notes in the Notes tab](media/ci-summary-call-summary-suggested-notes-sales-app.png "Suggested notes in the Notes tab")

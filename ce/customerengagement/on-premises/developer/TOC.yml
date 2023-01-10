@@ -92,8 +92,6 @@
 - name: Extend Customer Engagement (on-premises)
   href: extend-customer-engagement.md
   items:
-  - name: Building extended xRM applications
-    href: building-extended-xrm-applications.md
   - name: Supported extensions
     href: supported-extensions.md
   - name: Metadata and data models
