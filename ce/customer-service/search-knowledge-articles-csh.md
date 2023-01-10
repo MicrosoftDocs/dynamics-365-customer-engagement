@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 01/02/2022
+ms.date: 01/10/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -172,18 +172,18 @@ To use the suggest-as-you-type option, your administrator must first enable it. 
 
 The favorites option provides you with the ability to save the most relevant and frequently used knowledge articles and access them quickly from the **Favorite** tab, while dealing with customer issues.
 
-You can see the favorites option in the app side pane, independent knowledge base search, form-embedded control, smart assist, and the reference pane.
+You can see the favorites option in the app side pane, standalone search control, form-embedded control, and the reference pane.
 
 In Customer Service workspace or Omnichannel for Customer Service, when you select a favorite article, the article opens up in an app tab. ​In Customer Service Hub, the favorite article opens up in the pop-out mode and **Knowledge Search** option in the Knowledge area.
 
 To add an article to the favorites list:
 
 1. Select your article from the list of articles displayed in the **Search** tab.
-1. Select the favorites (heart) icon to add an article to favorites. Your article gets added to favorites and you'll see a confirmation message. You can view your article in the **Favorite** tab.
+1. Select the favorites (heart) icon to add an article to favorites. You can view your article in the **Favorite** tab.
 
-To remove your article from the favorites list, cancel the selection. You'll see a confirmation message stating that your article has been removed.
+To remove your article from the favorites list, cancel the selection.
 
-The maximum number of articles that can be marked as favorite is 50. You'll see an error message if you've already marked 50 articles as favorites. You can sort the favorite articles list by date and time. You can see the latest published articles in the list. If an article has been deleted, it will be no longer appear in your favorites list. Your article will be saved in the language in which it was saved as a favorite.
+The maximum number of articles that can be marked as favorite is 50. You'll see an error message if you've already marked 50 articles as favorites. You can see the latest published articles in the list. If an article has been deleted, it will be no longer appear in your favorites list. Your article will be saved in the language in which it was saved as a favorite.
 
 ## View knowledge articles
 
