@@ -61,7 +61,7 @@ Mae is a customer and calls your US toll-free number (acquired from Communicatio
 
 *Mae's participation is covered by her Teams license
 
-**Total cost for the call**: $0.44 + $0.08 = $0.52 
+**Total cost for the call**: $0.44 + $0.08 = $0.52 + applicable Teams charges
 
 ### Inbound: Customer calls through Microsoft Teams, Supervisor joins the call to monitor the conversation
 
@@ -106,7 +106,7 @@ Mae calls your US toll-free number (acquired from Communication Services) from T
 
 ### Inbound: Customer calls from Microsoft Teams, call is transferred to an agent through Teams PSTN
 
-Mae calls your US toll-free number (acquired from Communication Services) from her Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts the recording. Matias talks to Mae for 10 minutes and then transfers the call to product expert, Cole, on his Teams PSTN number. Cole speaks to Mae for another 5 minutes and ends the call. The recording stops when the call ends.
+Mae calls your US toll-free number (acquired from Communication Services) from her Teams. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae and starts the recording. Matias talks to Mae for 5 minutes and then transfers the call to product expert, Cole, on his Teams PSTN number. Cole speaks to Mae for another 5 minutes and ends the call. The recording stops when the call ends.
 
   > [!div class=mx-imgBorder]
    > ![Pricing example 5.](media/vc-pricing-6.png "Inbound call from customer through Teams")
@@ -145,10 +145,9 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 
 ### Inbound: Direct Routing
 
-Mae calls your US toll-free number (acquired from Communication Services) from her mobile. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae, and talks to her for 10 minutes. 
+Mae calls your toll-free number used in Azure Direct Routing from her mobile. Omnichannel for Customer Service routes the call landing on the Azure Communication Services to an agent, Matias. Matias accepts the incoming call from Mae, and talks to her for 10 minutes. 
 
 - Matias uses Omnichannel for Customer Service client application.
-- Omnichannel for Customer Service bot starts new outgoing call through direct routing.
 - Call goes to a Session Border Controller (SBC) connected through Communication Services direct routing 
 - Dynamics 365 Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call.
 - The call lasts 10 minutes.
@@ -172,7 +171,7 @@ Matias is a Dynamics 365 contact center agent, who makes an outbound call from O
 - Matias uses Omnichannel for Customer Service client application
 - Omnichannel for Customer Service bot starts new outgoing call through direct routing
 - Call goes to a Session Border Controller (SBC) connected through Communication Services direct routing
-- Dynamics 365 Omnichannel for Customer Service bot adds Matias to a call by escalating the direct routing call to a group call 
+- Dynamics 365 Omnichannel for Customer Service bot adds Mae to a call by escalating the direct routing call to a group call 
 - The call lasts 10 minutes.
 
   > [!div class=mx-imgBorder]
