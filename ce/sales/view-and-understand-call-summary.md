@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 01/09/2023
+ms.date: 01/10/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -41,11 +41,11 @@ The information on the call summary page helps both sellers and managers:
 ## Understand the call summary page   
 
 A call summary page includes the following sections:     
-- [Overview, notes, action items, and highlights](#overview-notes-action-items-and-highlights)   
+- [Overview, notes, action items, and mentions](#overview-notes-action-items-and-mentions)   
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)    
 
-### Overview, notes, action items, and highlights   
+### Overview, notes, action items, and mentions
 
 #### Overview tab
 
@@ -53,7 +53,7 @@ The **Overview** tab displays the names of the people who participated in a conv
 > [!div class="mx-imgBorder"]
 > ![Sample overview tab](media/ci-summary-call-overview.png "Sample Overview tab")
 
-#### Notes tab   
+#### Notes tab
 
 
 The **Notes** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.  
@@ -102,11 +102,12 @@ Further, you can share the saved summary with the stakeholders through an email.
     > [!div class="mx-imgBorder"]
     > ![Email with copy and pasted summary notes](media/ci-summary-call-summary-copy-pasted-email-sales-app.png "Email with copy and pasted summary notes")
 
-#### Action items tab   
+#### Action items tab
 
 Displays a list of items mentioned during the call that sellers will need to keep track of and take action on after the call ends&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, you can see where it was mentioned on the transcript. Actionable items include: **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
 
-##### Set up a call   
+##### Set up a call
+
 If a call is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a call is displayed.   
 > [!div class="mx-imgBorder"]
 > ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")
@@ -123,7 +124,8 @@ If a call is mentioned in the transcript, the transcript is highlighted in blue 
 >- If you think this action item would be better handled as a task than a call, select **Create task**.  
 The call activity can be viewed under the activities of the attached record entity and on the seller's activity list. After the call activity is created, you can select the call under **See call** and the call activity will open in a browser tab.
 
-##### Create a task   
+##### Create a task
+
 If a piece of work that the seller must perform is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.   
 > [!div class="mx-imgBorder"]
 > ![Create a task](media/ci-action-item-create-task.png "Create a task")  
@@ -137,7 +139,8 @@ If a piece of work that the seller must perform is mentioned in the transcript, 
 >If you want to enter more details while setting up the task activity, expand **Create** and then select **Create and Edit**.   
 The task activity can be viewed under the activities of the attached record entity and on the owner's activity list. When the task activity is created, you can select the task under **See task** and the task activity will open in a browser tab.
 
-##### Send an email  
+##### Send an email
+
 If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.  
 > [!div class="mx-imgBorder"]
 > ![Send an email](media/ci-action-item-send-email.png "Send an email")  
@@ -149,7 +152,8 @@ If email is mentioned in the transcript, the transcript is highlighted in blue a
 >[!NOTE]
 >If you think this action item would be better handled as a task than an email, select **Create task**. 
 
-##### Set up a meeting   
+##### Set up a meeting
+
 If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.   
 > [!div class="mx-imgBorder"]
 > ![Set up a meeting](media/ci-action-item-setup-meeting.png "Set up a meeting")  
@@ -162,9 +166,9 @@ If a meeting is mentioned in the transcript, the transcript is highlighted in bl
 >[!NOTE]
 >If you think this action item would be better handled as a task than a meeting, select **Create task**.
 
-#### Highlights tab
+#### Mentions tab
 
-The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback. 
+The **Mentions** tab displays talking points&mdash;such as keywords, stakeholders, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback. 
 
 - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
 
@@ -176,11 +180,12 @@ The **Highlights** tab displays talking points&mdash;such as keywords, stakehold
 - **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users on the call. For example, What do you think about the demo? 
 - **Questions asked by others**: Displays questions asked by the other participants during the call.  
 
-The following image is an example of a **Highlights** tab.   
+The following image is an example of a **Mentions** tab.   
 > [!div class="mx-imgBorder"]
-> ![Highlights tab](media/ci-summary-keywords.png "Highlights tab")  
+> ![Mentions tab](media/ci-summary-keywords.png "Mentions tab")  
 
-### Call transcript and translation    
+### Call transcript and translation
+
 The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. The following image shows an example of a **Transcript** tab.    
 > [!div class="mx-imgBorder"]
 > ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")   
@@ -194,7 +199,7 @@ You can reply to comments, or add your own. Hover over the relevant area of the 
 The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
-### Call playback timeline and segmentation   
+### Call playback timeline and segmentation
 
 The following image shows an example of call playback timeline.    
 
@@ -203,7 +208,7 @@ The following image shows an example of call playback timeline.
 
 Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).  
 
-When you go to the **Highlights** tab and select a keyword or other highlight, a diamond icon appears on the playback timeline to indicate the time that the selected highlight was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline. 
+When you go to the **Mentions** tab and select a keyword or other mentions, a diamond icon appears on the playback timeline to indicate the time that the selected word was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline. 
 
 You can also quickly go to the comments added by your colleagues from the timeline. Select the comment icon (:::image type="icon" source="media/comment-icon.png" border="false":::) on the timeline to go to the corresponding comment in the transcript.  
 
