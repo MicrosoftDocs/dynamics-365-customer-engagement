@@ -19,7 +19,7 @@ ms.custom:
 
 # Troubleshoot issues with service-level agreements in Customer Service
 
-This article explains various issues related to SLAs and provides reasons and steps to resolve them.
+This article explains the various issues related to SLAs and provides reasons and steps to resolve them.
 
 ## Troubleshoot issues with SLA creation
 
@@ -87,7 +87,8 @@ Custom time calculation isn't configured correctly.
 
 Set up custom time calculation and troubleshoot issues. For more information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis)
 
-### Error codes 
+### Error codes for custom time calculation
+
 The following are the error codes for the various error scenarios that might occur during custom time calculation.
 
 #### Error code
