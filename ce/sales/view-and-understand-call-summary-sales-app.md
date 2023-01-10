@@ -113,60 +113,6 @@ The action items are highlighted in blue and a suggestion to create an appropria
 >- If you think the action item would be better handled as a task than a call, meeting, or email, select **Create task**.  
 >- You can view the call and task activities under the activities of the attached record entity and on the seller's activity list. 
 
-
-##### Set up a call
-
-If a call is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a call is displayed.   
-
-1. Enter the following details:     
-   - **Subject**: Summarize what the call is about. 
-   - **From**: Select the name of the seller who will make a call to the contact that you add in the **To** field.
-   - **To**: Select the name of the customer to call.
-   - **Set date**: Select the date and time at which the seller must make the call.
-   - **Regarding field**: Select a record from an entity&mdash;such as opportunity, lead, contact, or account&mdash;that gives relevant information about the call.   
-
-2. Select **Create**.
-
-
-##### Create a task
-
-If a piece of work that the seller must perform is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.   
-
-1. Select the link and enter the following details:  
-   - **Subject**: Summarize what's involved in the task.
-   - **Owner**: Select the owner of the task.
-   - **Date and time**: Select a date by which the owner must complete the task.
-   - **Regarding field**: Select a record from an entity&mdash;such as an opportunity, lead, contact, or account&mdash;that gives relevant information about the task.   
-2. Select **Create**.  
->[!NOTE]
->If you want to enter more details while setting up the task activity, expand **Create** and then select **Create and Edit**.   
-You can view the task activity under the activities of the attached record entity and on the owner's activity list. Once you create a task activity select the task under **See task** and the task activity will open in a browser tab.
-
-##### Send an email
-
-If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.  
-  
-1. Select the link and enter the following details:  
-   - **Subject**: Summarize what the email is about.
-   - **From**: By default, the app selects the name of the seller who participated in the call.
-   - **To**: Select the recipients to send the email to.   
-2. Select **Open email**, and then compose and send the email.   
->[!NOTE]
->If you think this action item would be better handled as a task than an email, select **Create task**. 
-
-##### Set up a meeting
-
-If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.   
-
-1. Select the link and enter the following details:   
-   - **Subject**: Summarize the reason for the meeting. 
-   - **Owner**: By default, the name of the seller who participated in the call is selected.
-   - **To**: Select the contacts to meet with.
-   - **Date and time**: Select a date and time on which you want to schedule the meeting.   
-2. Select **Open calendar**.  
->[!NOTE]
->If you think this action item would be better handled as a task than a meeting, select **Create task**.
-
 #### Mentions tab
 
 The **Mentions** tab displays talking points&mdash;such as keywords, stakeholders, questions, and competitors&mdash;that were mentioned during the call. 
