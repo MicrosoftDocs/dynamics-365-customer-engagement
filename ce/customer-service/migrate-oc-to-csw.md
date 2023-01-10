@@ -32,7 +32,7 @@ The following table lists the components in Omnichannel for Customer Service tha
 The following sections walk through the customizations for the Customer Service workspace app to help you migrate from Omnichannel for Customer Service.
 
 > [!Note]
-> If you have customized Omnichannel for Customer Service in other ways beyond the customizations discussed in this article, you'll need to manually make those same customizations to Customer Service workspace.
+> If you've customized Omnichannel for Customer Service in other ways beyond the customizations discussed in this article, you'll need to manually make those same customizations to Customer Service workspace.
 
 ### Add entities, forms, views, and chart in Customer Service workspace:
 
