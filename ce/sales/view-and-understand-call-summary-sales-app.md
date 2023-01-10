@@ -35,10 +35,10 @@ Call summaries are available from the conversation intelligence capabilities of 
 ## View the call summary page
 
 The **Call Insights** tab is available under activities for leads and opportunities. When a customer call about a lead or opportunity is processed in conversation intelligence, the **Call Insights** tab displays the information on the summary of the call.  
-1.	Sign in to Dynamics 365, and select **Change area** > **Sales**.  
-2.	On the site map, select **Activities**.
-3.	Select a phone call activity for which you want to view the call summary.  
-4.	Select the **Call summary** tab.   
+1. Sign in to Dynamics 365, and select **Change area** > **Sales**.  
+2. On the site map, select **Activities**.
+3. Select a phone call activity for which you want to view the call summary.  
+4. Select the **Call summary** tab.   
     The call summary for the selected phone call activity is displayed. 
     > [!NOTE]
     > Select the **Related opportunity** tab to see a list of opportunities associated with the call. To add a related opportunity to the call, search for and select the opportunity.     
@@ -49,7 +49,7 @@ The **Call Insights** tab is available under activities for leads and opportunit
 ## Understand the call summary page
 
 A call summary page includes the following sections:     
-- [Overview, notes, action items, and mentions](#overview-notes-action-items-and-mentions)   
+- [Overview, notes, action items, and mentions](#overview-notes-action-items-and-mentions)
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)    
 
@@ -57,9 +57,7 @@ A call summary page includes the following sections:
 
 #### Overview tab
 
-The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows the **Overview** tab.    
-> [!div class="mx-imgBorder"]
-> ![Sample overview tab](media/ci-summary-call-overview.png "Sample Overview tab")
+The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. 
 
 
 #### Notes tab
@@ -72,52 +70,53 @@ Further, you can share the saved summary with the stakeholders through an email.
 
 ##### To write a call summary or notes
 
-1. Go to the **Notes** tab. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![Sample Notes tab](media/ci-summary-call-summary-sales-app.png "Sample Notes tab")
-    You would see any notes that you had taken during the meeting. 
-         
-2.	Edit your notes or check out the **Suggested notes** pane for call highlights and action items.
+1. Go to the **Notes** tab.
+
+   You would see any notes that you had taken during the meeting. 
+
+2. Edit your notes or check out the **Suggested notes** pane for call highlights and action items. If you don't see the **Suggested notes** pane, select the bulb icon.  
 
     - To add notes from the call highlights and action items, select **Add** corresponding to the item. Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
     - To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
     - To understand and know more about the context of the note, select the corresponding timestamp that will direct you to the section in the transcript and the playback. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Suggested notes in the Notes tab](media/ci-summary-call-summary-suggested-notes-sales-app.png "Suggested notes in the Notes tab")
-
-4. Select **Save**.    
-    The call summary is saved. You can use the summary to: 
-    -	Share with the stakeholders.  
-    -	Keep as a reference.
+4. Select **Save**.  
+    The call summary is saved. You can use the summary to:  
+    - Share with the stakeholders.  
+    - Keep as a reference.
 
 ##### Email call summary or notes to participants and stakeholders
 
-1.	From the notes section, select **Copy to clipboard**.
+1. From the notes section, select **Copy to clipboard**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select the copy to clipboard option to copy summary notes](media/ci-summary-call-summary-copy-summary-notes-sales-app.png "Select the copy to clipboard option to copy summary notes")
-
-2.	Open your email and paste the copied summary. The summary is pasted in the following format:
-    -	**Subject**: Specifies the subject of the call. For example, Gym membership.
-    -	**Participants**: Lists the players connected during the call.  
-    -	**Call date and time**: Specifies the date and time of the call.   
-    -	**Related records**: Lists the records that are related to the call, such as contact, lead, and opportunity.    
-    -	**Summary**: Specifies the summary of the call that you’ve provided.
+2. Open your email and paste the copied summary. The summary is pasted in the following format:
+    - **Subject**: Specifies the subject of the call. For example, Gym membership.
+    - **Participants**: Lists the players connected during the call.  
+    - **Call date and time**: Specifies the date and time of the call.   
+    - **Related records**: Lists the records that are related to the call, such as contact, lead, and opportunity.    
+    - **Summary**: Specifies the summary of the call that you’ve provided.
 
     > [!div class="mx-imgBorder"]
     > ![Email with copy and pasted summary notes](media/ci-summary-call-summary-copy-pasted-email-sales-app.png "Email with copy and pasted summary notes")
 
 #### Action items tab
 
-Displays a list of items mentioned during the call that sellers will need to keep track of and take action on after the call ends&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, you can see where it was mentioned on the transcript. Actionable items include: **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
+Displays a list of items mentioned during the call that sellers will need to keep track of and take action on after the call ends&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, you can see where it was mentioned on the transcript. Actionable items include: **Set up a call**, **create a task**, **send an email**, and **set up a meeting**. 
+
+The action items are highlighted in blue and a suggestion to create an appropriate action is displayed. Select the action item link to set up a call or meeting, create a task, or send an email, without losing context. The following screenshot depicts how a task is highlighted in the transcript and how you can create task right from the **Action items** tab:  
+
+> [!div class="mx-imgBorder"]
+> ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")
+
+>[!NOTE]
+>- If you want to enter more details while setting up a call or task, expand **Create** and then select **Create and Edit**.
+>- If you think the action item would be better handled as a task than a call, meeting, or email, select **Create task**.  
+>- You can view the call and task activities under the activities of the attached record entity and on the seller's activity list. 
+
 
 ##### Set up a call
 
 If a call is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a call is displayed.   
-> [!div class="mx-imgBorder"]
-> ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")
 
 1. Enter the following details:     
    - **Subject**: Summarize what the call is about. 
@@ -128,17 +127,12 @@ If a call is mentioned in the transcript, the transcript is highlighted in blue 
 
 2. Select **Create**.
 
->[!NOTE]
->- If you want to enter more details while setting up a call, expand **Create** and then select **Create and Edit**.
->- If you think this action item would be better handled as a task than a call, select **Create task**.  
-You can view the call activity under the activities of the attached record entity and on the seller's activity list. After you create the call activity, select the call under **See call** and the call activity will open in a browser tab.
 
 ##### Create a task
 
 If a piece of work that the seller must perform is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.   
-> [!div class="mx-imgBorder"]
-> ![Create a task](media/ci-action-item-create-task.png "Create a task")  
-1. Enter the following details:  
+
+1. Select the link and enter the following details:  
    - **Subject**: Summarize what's involved in the task.
    - **Owner**: Select the owner of the task.
    - **Date and time**: Select a date by which the owner must complete the task.
@@ -151,9 +145,8 @@ You can view the task activity under the activities of the attached record entit
 ##### Send an email
 
 If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.  
-> [!div class="mx-imgBorder"]
-> ![Send an email](media/ci-action-item-send-email.png "Send an email")  
-1. Enter the following details:    
+  
+1. Select the link and enter the following details:  
    - **Subject**: Summarize what the email is about.
    - **From**: By default, the app selects the name of the seller who participated in the call.
    - **To**: Select the recipients to send the email to.   
@@ -164,9 +157,8 @@ If email is mentioned in the transcript, the transcript is highlighted in blue a
 ##### Set up a meeting
 
 If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.   
-> [!div class="mx-imgBorder"]
-> ![Set up a meeting](media/ci-action-item-setup-meeting.png "Set up a meeting")  
-1. Enter the following details:   
+
+1. Select the link and enter the following details:   
    - **Subject**: Summarize the reason for the meeting. 
    - **Owner**: By default, the name of the seller who participated in the call is selected.
    - **To**: Select the contacts to meet with.
