@@ -1,7 +1,7 @@
 ---
 title: "Customer interactions timeline (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the customer interactions timeline to view historical activity in Dynamics 365 Marketing."
-ms.date: 12/21/2022
+ms.date: 01/03/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -54,7 +54,7 @@ Having a single view of all the activities that a customer engages in enables yo
 > -	msdynmkt_sms
 
 > [!NOTE]
-> Real-time marketing activities from the past 12 months are shown in the timeline for a selected contact or lead. However, historical interactions from outbound marketing activities prior to May 2022 are not shown in the timeline.
+> Real-time marketing activities from the past 12 months are shown in the timeline for the selected contact or lead. However, historical interactions from outbound marketing activities are only shown post the real-time marketing installation date or May 2022, whichever is later.
 
 > [!TIP]
 > Marketing app interactions automatically show up in the interactions timeline. If you don’t see interactions from the Marketing app, make sure your marketing product solution version is 1.1.10512.25 or later.

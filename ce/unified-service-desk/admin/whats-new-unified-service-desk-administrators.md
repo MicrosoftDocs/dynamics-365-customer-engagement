@@ -1,7 +1,7 @@
 ---
 title: "What's new in Unified Service Desk for administrators | MicrosoftDocs"
 description: "Learn about new features available for system administrators in the latest version of Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 01/02/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -26,6 +26,11 @@ monikerRange: '>= dynamics-usd-3'
 ## What's new in Unified Service Desk 4.2
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+
+### Prevent random running of scripts
+
+Unified Service Desk includes two new UII options **ValidateSecurityForUIIAction** and **ListOfActionsToValidate** that you can use to help prevent any random running of scripts using ShellExecute or RunScript. More information: [Prevent random running of scripts](prevent-running-scripts.md) and [Manage global options in Unified Service Desk](manage-options-unified-service-desk.md)
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
