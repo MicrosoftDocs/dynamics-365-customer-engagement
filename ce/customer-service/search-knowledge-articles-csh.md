@@ -183,7 +183,7 @@ To add an article to the favorites list:
 
 To remove your article from the favorites list, cancel the selection.
 
-The maximum number of articles that can be marked as favorite is 50. You'll see an error message if you've already marked 50 articles as favorites. You can see the latest published articles in the list. If an article has been deleted, it will be no longer appear in your favorites list. Your article will be saved in the language in which it was saved as a favorite.
+The maximum number of articles that can be marked as favorite is 50. You'll see an error message if you've already marked 50 articles as favorites. If an article has been deleted, it will be no longer appear in your favorites list. Your article will be saved in the language in which it was saved as a favorite. You can see the latest published articles in the list. In case of latest published articles, if its a translated version then the new article won't be marked as favorite, but if it's just a major version in the same language, then the new version will be marked as favorite.
 
 ## View knowledge articles
 
