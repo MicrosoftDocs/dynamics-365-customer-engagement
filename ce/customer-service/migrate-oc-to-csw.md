@@ -13,9 +13,9 @@ ms.reviewer: nenellim
 
 With the planned deprecation of Omnichannel for Customer Service in June 2024, there may be customizations that you want to migrate to the Customer Service sorkspace app.  
 
-This article contains configuration information for moving from the Omnichannel for Customer Service app to the Customer Service Workspace app. If you've configured Omnichannel for Customer Service using the Customer Service admin center, most of those configurations apply to both Omnichannel for Customer Service and Customer Service workspace. For some components, however, you'll need to make some customizations in Customer Service workspace to be able to use them.
+This article contains configuration information for migrating from the Omnichannel for Customer Service app to the Customer Service Workspace app. If you've configured Omnichannel for Customer Service using the Customer Service admin center, most of those configurations apply to both Omnichannel for Customer Service and Customer Service workspace. For some components, however, you'll need to make some customizations in Customer Service workspace to be able to use them.
 
-The following table lists the missing components in Customer Service workspace that are present in Omnichannel for Customer Service.
+The following table lists the components in Omnichannel for Customer Service that need to be configured in Customer Service workspace.
 
 
 |Category                   |Component missing in Customer Service workspace                            |
@@ -31,9 +31,12 @@ The following table lists the missing components in Customer Service workspace t
 
 The following sections walk through the customizations for the Customer Service workspace app to help you migrate from Omnichannel for Customer Service.
 
-### Add entities, forms, views, and chart in Customer Service workspace
+> [!Note]
+> If you have customized Omnichannel for Customer Service in other ways beyond the customizations discussed in this article, you'll need to manually make those same customizations to Customer Service workspace.
 
-1. Open [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
+### Add entities, forms, views, and chart in Customer Service workspace:
+
+1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
 1. Select **Solutions** in the sitemap, and then open the solution that contains the existing model-driven app for Customer Service workspace.
 1. Open the Customer Service workspace app menu, and then select **Edit** to open the modern app designer.
 1. Turn on the toggle for the following components:
@@ -41,7 +44,39 @@ The following sections walk through the customizations for the Customer Service 
    - **Form**: Account for Interactive experience, Case for Interactive experience, TimelineWallControl - Case - Main, Contact for Interactive experience
    - **View**
    All of the administrator and personalized views that are present in your Omnichannel for Customer Service app configuration will appear on in Customer Service workspace for the entity.
-1. Complete the steps in [Add or remove forms, views, or charts](/power-apps/maker/model-driven-apps/create-add-remove-forms-views-dashboards)
-1. Select **Publish**. This also saves the Customer Service workspace app if you've made other changes.
+1. Complete the steps in [Add or remove forms, views, or charts](/power-apps/maker/model-driven-apps/create-add-remove-forms-views-dashboards).
+1. Select **Publish**. Any other changes you've made to the Customer Service workspace app are also saved.
 1. Select **Play** to run the Customer Service workspace app in a new browser tab.
 1. To close the app designer and return to the solution, select **Back**.
+
+### Set a form as the default form
+
+You can set a form as the default form using the form order configuration or when a user sets the default form as a personalization setting. The default form order is set at in the table rather than the app. Therefore, there can be one form order per table.
+1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
+1. Select **Dataverse**, and then go to the required table.
+1. Select the **Forms** area, select the ellipses (...), and then select **Form settings**. In the Omnichannel for Customer Service app, for the **Account** table, the **Account for Interactive experience** is the default form. In Customer Service workspace, **Account for Multisession experience** is the default form, so you'll need to change it to **Account for Interactive experience**.
+1. In the form settings dialog, select **Form order**, and then in **Choose a form set**, select the form type and order for the table. Make sure that **Account for Interactive experience** is listed first.
+1. Select **Save and Publish**.
+
+### Add or remove sitemap entities in Customer Service workspace
+
+1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
+1. Select **Solutions** in the sitemap, and then open the solution that contains the existing model-driven app for Customer Service workspace.
+1. Select the Customer Service workspace menu, and then select **Edit** to open the modern app designer.
+1. Complete the steps in [Open an existing model-driven app using modern app designer](/power-apps/maker/model-driven-apps/add-page-to-model-app#open-an-existing-model-driven-app-using-modern-app-designer) to add the sitemap entities for **Routing diagnostic** and **Social Profiles**. Compare the entities with the Customer Service workspace app sitemap, and add or remove components as needed.
+1. Select **Save and Publish**.
+
+### Add or remove the dashboard in Customer Service workspace
+
+1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
+1. Select **Solutions** in the sitemap, and then open the solution that contains the existing model-driven app for Customer Service workspace.
+1. Select the Customer Service workspace menu, and then select **Edit** to open the modern app designer.
+1. Complete the steps in [Create or edit a Power BI embedded system dashboard](/power-apps/maker/model-driven-apps/create-edit-powerbi-embedded-page). Compare the components with the Customer Service workspace app sitemap, and add or remove components as needed.
+1. Select **Save and Publish**.
+
+### Add the Phone to Case business process flow in Customer Service workspace
+1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
+1. Select **Solutions** in the sitemap, and then open the solution that contains the existing model-driven app for Customer Service workspace.
+1. Select the Customer Service workspace menu, and then select **Edit** to open the modern app designer.
+1. Complete the steps in [Add or edit model-driven app components in the Power Apps app designer](/power-apps/maker/model-driven-apps/add-edit-app-components) to add the **Phone to Case Process** flow.
+1. Select **Save and Publish**.
