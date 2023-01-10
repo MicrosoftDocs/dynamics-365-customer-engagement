@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Migrate Omnichannel for Customer Service to Customer Service workspace
 
-This article contains configuration information for migrating from the Omnichannel for Customer Service app to the Customer Service Workspace app. If you've configured Omnichannel for Customer Service using the Customer Service admin center, most of those configurations apply to both apps. For some components, however, you'll need to manually apply the customizations in Customer Service workspace to be able to use them.
+This article contains configuration information for migrating from the Omnichannel for Customer Service app to the Customer Service Workspace app. If you've configured Omnichannel for Customer Service using Customer Service admin center, most of those configurations apply to both apps. For some components, however, you'll need to manually apply the customizations in Customer Service workspace to be able to use them.
 
 The following table lists the components in Omnichannel for Customer Service that need to be configured in Customer Service workspace.
 
