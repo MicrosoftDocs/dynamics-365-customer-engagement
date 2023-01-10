@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 12/28/2022
+ms.date: 01/10/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ Customers will get unified routing for entities, such as Cases, Leads, and custo
 
 ### What will happen to my current workstreams after unified routing is installed?
 
-For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For entity routing, you'll configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md). 
+For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For entity routing, you'll configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 ### What are the implications when migration is in progress?
 
@@ -83,7 +83,7 @@ No. There's no priority among queues. However, you can prioritize records within
 
 No. It's not possible to pause the assignment of a case.
 
-### Can agents pick work items pertaining to inaccessible records?
+### Can agents pick work items of records to which they don't have permissions?
 
 Yes, agents can pick the work item even if they don't have permission to access the record. However, they can't view the details and the conversation will be closed. For more information, see the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings).
 

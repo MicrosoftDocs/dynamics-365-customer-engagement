@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Use this article to understand how to set up unified routing for records in Customer Service."
-ms.date: 12/28/2022
+ms.date: 01/10/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -148,6 +148,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Create multiple workstreams for records routing](multiple-ws-entity-record-routing.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
+[Assign roles and enable users](add-users-assign-roles.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
