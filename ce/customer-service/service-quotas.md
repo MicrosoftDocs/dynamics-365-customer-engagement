@@ -6,7 +6,7 @@ ms.author: v-jmh
 ms.reviewer: nenellim 
 ms.service: dynamics-365 
 ms.topic: conceptual 
-ms.date: 01/06/2023
+ms.date: 01/10/2023
 ms.custom: bap-template 
 ---
 
@@ -24,7 +24,7 @@ Service quotas are the resource, configuration, or item limits provided as part 
 | Measure       | Description   |  Default limit per channel or submeasure |   Adjustable?  |
 |------------ | -----------| --------------------| -----------|
 | Intake rules  | Maximum number of intake rules | 100 for the records | No |
-| Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 100 for rules|  Yes  |  
+| Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 100 for rules|  No  |  
 | Classification rules  |  Maximum number of classification rulesets and rules per workstream|  10 rulesets  <br><br> 100 rules per ruleset  |  No <br><br> No |
 
 ## Conversation limits
