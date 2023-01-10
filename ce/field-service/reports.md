@@ -26,7 +26,8 @@ Dynamics 365 Field Service and the Resource Scheduling Optimization add-in provi
 1. The [Work Order Summary report](work-order-summary-report.md), which is included with Field Service.
 1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization add-in.
 1. The [Optimization Summary report](optimization-summary-report.md), included with the Resource Scheduling Optimization add-in.
-  
+
+
 By default, reports are only available to users with **System Administrator** or **Field Service-Administrator** security roles. However, admins can share the reports with other users in their organization.
 
 ## Next steps
