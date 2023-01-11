@@ -4,7 +4,7 @@ description: This topic provides sample code to test the custom messaging channe
 ms.date: 01/12/2023
 author: neeranelli
 ms.author: nenellim
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: bap-template
 ms.service: dynamics-365
 ms.reviewer: nenellim

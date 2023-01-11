@@ -4,7 +4,7 @@ description: Use this topic to understand how to enable your agents to send and 
 author: mh-jaya
 ms.author: v-jmh
 ms.date: 01/12/2023
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: bap-template
 ms.service: dynamics-365
 ms.reviewer: nenellim
