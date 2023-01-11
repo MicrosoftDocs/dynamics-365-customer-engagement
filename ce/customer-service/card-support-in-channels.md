@@ -149,7 +149,7 @@ With social profiles, you can do the following:
 | Custom messaging (Telegram) | Yes                                                        | User name |
 | | | |
 
-## Support for formatted messages <a name="formatted-messages"></a>
+## Support for formatted messages
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, for your agents to send and receive formatted messages, you must [enable formatted messages](enable-formatted-messages.md).
 
