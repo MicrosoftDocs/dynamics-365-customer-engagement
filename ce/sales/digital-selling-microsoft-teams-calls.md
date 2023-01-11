@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license."
-ms.date: 10/31/2022
+ms.date: 01/11/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
