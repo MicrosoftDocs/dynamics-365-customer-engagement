@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 
 With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
 
- This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
+This article explains how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to Omnichannel for Customer Service. The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
 
 > [!Note]
 > The source code and documentation describe the overall flow of how the channel can connect to Omnichannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
