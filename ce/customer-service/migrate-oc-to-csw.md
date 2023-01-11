@@ -54,7 +54,7 @@ You can set a form as the default form using the form order configuration or whe
 1. Select **Dataverse**, and then go to the required table.
 1. Select the **Forms** tab, select the ellipsis (...), and then select **Form settings**. In the Omnichannel for Customer Service app, for the **Account** table, the **Account for Interactive experience** is the default form. In Customer Service workspace, **Account for Multisession experience** is the default form, so you'll need to change it to **Account for Interactive experience**.
 
-  :::image type="content" source="media/table-form-settings.png" alt-text="View of the table form settings.":::
+   :::image type="content" source="media/table-form-settings.png" alt-text="View of the table form settings.":::
 1. In the form settings dialog, select **Form order**, and then in **Choose a form set**, select the form type.
 1. Order the table by dragging and dropping the entities. Make sure that **Account for Interactive experience** is listed first.
 
