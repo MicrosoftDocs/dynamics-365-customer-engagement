@@ -72,7 +72,7 @@ You can use the following sample code to test the custom messaging channel you w
 
 ### See also
 
-[Bring your own custom messaging channel using Direct Line](bring-your-own-channel.md)  
+[Bring your own custom channel using Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 
 
