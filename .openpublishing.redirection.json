@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/use-microsoft-dynamics-365-web-api-helper-library-csharp.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-configuration-classes.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-crmhttpresponseexception-class.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-authentication-class.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },    
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/building-extended-xrm-applications.md",
+      "redirect_url": "/power-platform/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/setup-mobile-offline.md",
       "redirect_url": "/power-apps/mobile/setup-mobile-offline-classic",
       "redirect_document_id": "false"
