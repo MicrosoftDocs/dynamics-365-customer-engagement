@@ -98,6 +98,6 @@ You can set a form as the default form using the form order configuration or whe
 
 ### See also
 
-[Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)<br>
+[Omnichannel for Customer Service app deprecation and migration FAQ](migrate-oc-faq.md)<br>
 [Get started with Customer Service workspace](csw-overview.md)<br>
 [Overview of the productivity pane](csw-productivity-pane.md)
