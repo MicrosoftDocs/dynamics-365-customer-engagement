@@ -196,7 +196,7 @@ OData-EntityId: <Organization URL>/api/data/v9.0/msdynmkt_segments(<Segment ID>)
 
 ```
 {
-    "SegmentId: "<segment Id>"
+    "SegmentId: "<segment definition ID>"
 }
 ```
 
