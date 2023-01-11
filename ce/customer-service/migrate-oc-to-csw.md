@@ -40,6 +40,7 @@ The following sections walk through the customizations for the Customer Service 
    - **Entity**: Feedback, Goal, Phone to Case Process, Social Activity
    - **Form**: Account for Interactive experience, Case for Interactive experience, TimelineWallControl - Case - Main, Contact for Interactive experience
    - **View**: Turn on the toggle for **Include all views in the app** to include all missing views to include Account, Case, and Contact views in Customer Service workspace.
+   
    :::image type="content" source="media/csw-include-all-views.png" alt-text="Include all views setting for configuring Customer Service workspace.":::
 1. Complete the steps in [Add or remove forms, views, or charts](/power-apps/maker/model-driven-apps/create-add-remove-forms-views-dashboards).
 1. Select **Publish**. Any other changes that you've made to the Customer Service workspace app are also saved.
@@ -52,9 +53,11 @@ You can set a form as the default form using the form order configuration or whe
 1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true).
 1. Select **Dataverse**, and then go to the required table.
 1. Select the **Forms** tab, select the ellipsis (...), and then select **Form settings**. In the Omnichannel for Customer Service app, for the **Account** table, the **Account for Interactive experience** is the default form. In Customer Service workspace, **Account for Multisession experience** is the default form, so you'll need to change it to **Account for Interactive experience**.
+
   :::image type="content" source="media/table-form-settings.png" alt-text="View of the table form settings.":::
 1. In the form settings dialog, select **Form order**, and then in **Choose a form set**, select the form type.
 1. Order the table by dragging and dropping the entities. Make sure that **Account for Interactive experience** is listed first.
+
    :::image type="content" source="media/form-order-for-table.png" alt-text="Set the form order for the table.":::
 1. Select **Save and Publish**.
 
@@ -83,3 +86,10 @@ You can set a form as the default form using the form order configuration or whe
 1. Complete the steps in [Add or edit model-driven app components in the Power Apps app designer](/power-apps/maker/model-driven-apps/add-edit-app-components) to add the **Phone to Case Process** flow.
 1. Compare the components with the Customer Service workspace app site map, and add or remove components as needed.
 1. Select **Save and Publish**.
+
+
+### See also
+
+[Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)<br>
+[Get started with Customer Service workspace](overview-csw.md)<br>
+[Overview of the productivity pane](csw-productivity-pane.md)
