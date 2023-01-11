@@ -49,7 +49,7 @@ Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, 
 ### See also
 
 [Enable formatted messages](enable-formatted-messages.md)  
-[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Markdown formats: Direct Line](markdown-formats-dev.md)  
+[Bring your own custom messaging channel using Direct Line](bring-your-own-channel.md)  
+[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

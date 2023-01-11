@@ -201,7 +201,7 @@ The following table lists the automated messages that are displayed for a custom
 
 ## Next steps
 
-[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
+[Bring your own custom messaging channel using Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 
 ### See also
@@ -209,7 +209,7 @@ The following table lists the automated messages that are displayed for a custom
 [Overview of channels](channels.md)  
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
-[Markdown formats: Direct Line](markdown-formats-dev.md)  
+[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
 [Markdown formats for agents](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

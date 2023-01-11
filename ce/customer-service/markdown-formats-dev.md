@@ -1,6 +1,6 @@
 ---
-title: Markdown formats in Direct Line
-description: Use this article to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service.
+title: Markdown formats in custom channels using Direct Line
+description: Use this article to understand how Markdown formats are passed through in custom messaging channels using Direct Line in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.date: 01/12/2023
@@ -10,7 +10,7 @@ ms.service: dynamics-365
 ms.reviewer: nenellim
 
 ---
-# Markdown formats in Direct Line
+# Markdown formats in custom channels using Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -46,7 +46,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 ## Next steps
 
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
+[Sample code to bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 
 

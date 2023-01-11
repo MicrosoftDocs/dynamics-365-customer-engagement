@@ -419,7 +419,7 @@ To end the conversation, see [End a conversation in Direct Line](/azure/bot-serv
 
 ## Next steps
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Markdown formats in Direct Line](markdown-formats-dev.md)  
+[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
 
 ### See also
 
