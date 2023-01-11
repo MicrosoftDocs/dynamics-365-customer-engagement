@@ -1252,7 +1252,7 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
-    - name: Migrate Omnichannel for Customer Service to Customer Service workspace
+    - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
       href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
@@ -1288,8 +1288,8 @@
         href: migrate-entity-records.md
     - name: Migration FAQ
       items: 
-      - name: Omnichannel for Customer Service app migration FAQ
-        href: migrate-oc-to-csw.md
+      - name: FAQ on migration from Omnichannel for Customer Service app
+        href: migrate-oc-faq.md
       - name: FAQ on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
   - name: Deprecations
