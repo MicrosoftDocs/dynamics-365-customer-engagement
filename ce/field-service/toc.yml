@@ -99,8 +99,6 @@ items:
           href: inspections-reporting.md
         - name: Use inspections without work orders
           href: inspections-customer-assets.md
-    - name: Predictive work duration and resource proficiency suggestions (Preview)
-      href: analytics-predictive-work-duration.md
     - name: Capture resolution details
       href: work-order-resolutions.md
     - name: Work order completion surveys
@@ -351,8 +349,10 @@ items:
       href: optimization-summary-report.md
     - name: Admin report
       href: rso-admin-report.md
+    - name: Predictive work duration (Preview)
+      href: analytics-predictive-work-duration.md
     - name: Manage reports
-      href: manage-report.md
+      href: filter-report.md
 - name: Field Service for end customers
   items: 
     - name: Customer experience homepages

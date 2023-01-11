@@ -22,12 +22,23 @@ With answers to these questions, scheduling managers can develop an effective re
 
 Dynamics 365 Field Service and the Resource Scheduling Optimization add-in provide reports that focus on different scenarios and user needs:
 
-1. The [Resource and Utilization report](resource-utilization-report.md), which is included with Field Service.
-1. The [Work Order Summary report](work-order-summary-report.md), which is included with Field Service.
+1. The [Resource and utilization report](resource-utilization-report.md), which is included with Field Service.
+1. The [Work order summary report](work-order-summary-report.md), which is included with Field Service.
 1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization add-in.
-1. The [Optimization Summary report](optimization-summary-report.md), included with the Resource Scheduling Optimization add-in.
+1. The [Optimization summary report](optimization-summary-report.md), included with the Resource Scheduling Optimization add-in.
+1. [Predictive work duration (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
+
+## Prerequisites
 
 Reports are only available to users with **System Administrator** or **Field Service-Administrator** security roles.
+
+| Report name              | Required apps                                                |
+|--------------------------|--------------------------------------------------------------|
+| Resource and utilization | Field Service                                                |
+| Work order summary       | Field Service                                                |
+| Admin report             | Field Service<br>Resource Scheduling Optimization add-in     |
+| Optimization summary     | Field Service<br>Resource Scheduling Optimization add-in     |
+| Predictive work duration | Field Service                                                |
 
 ## Refresh cadence for reports
 

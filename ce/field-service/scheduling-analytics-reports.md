@@ -18,18 +18,7 @@ search.app:
 
 # Resource scheduling and optimization analytics dashboard
 
-## Prerequisites
 
-- To get the resource and utilization report: 
-
-  1. Install or upgrade Field Service
-  2. The Resource and utilization report will appear in the Field Service app for users with **System Administrator** or **Field Service-Administrator** security roles. 
-
-- To get both resource scheduling optimization reports:
-
-  1. Install or upgrade Field Service
-  2. Install or upgrade the **Resource Scheduling Optimization** add-in
-  3. Both the resource scheduling optimization admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 
 
