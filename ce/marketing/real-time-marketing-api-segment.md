@@ -65,7 +65,7 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0
 Accept: application/json
 
-{ 
+{
     "msdynmkt_segmentquery": "PROFILE(contact).FILTER(ISNOTNULL(address1_county))",
     "statecode": 0,
     "statuscode": 723270001,
@@ -152,16 +152,16 @@ Accept: application/json
     "msdynmkt_type": 11,
     "msdynmkt_source": 12,
     // Set to contact, lead, or any custom table that
-    // represents the type of member who will be in the segment.
-    // As of the publish date of this article, real-time
-    // marketing only supports contacts and leads.
+    // represents the type of member who will be in the segment;
+    // as of the publish date of this article, real-time
+    // marketing only supports contacts and leads
     "msdynmkt_baseentitylogicalname": "contact",
     "statecode": 1,
     // Inactive if segment definition is in Draft state.
     // Exporting if segment definition is in Publishing state.
     "statuscode": 2,
     "msdynmkt_sourcesegmentuid": "<segment definition ID>",
-    // If any; not required.
+    // If any; not required
     "owningbusinessunit@odata.bind": "/businessunits(<BU ID>)",
 }
 ```
