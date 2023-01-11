@@ -21,7 +21,7 @@ You can create business rules on the Conversation entity.
 ## Customizations supported by the Conversation form
 
 You can customize the **Conversation** form to:
-- Add subgrids on the Conversation form, though you won't be able to show data for any related entities. For example, you can add a subgrid on the Conversation form that shows a list of all cases, but you cannot show the list of cases related to that particular conversation.
+- Add subgrids on the Conversation form, though you won't be able to show data for any related entities. For example, you can add a subgrid on the Conversation form that shows a list of all recordings, but you cannot show the list of recordings related to that particular conversation.
 - Edit existing forms in the following ways:
     - Modify the form layout, resize controls, and create tabs and sections
     - Move sections to different tabs
