@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Use this article to understand how to set up unified routing for records in Customer Service."
-ms.date: 01/10/2023
+ms.date: 01/11/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
