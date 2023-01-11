@@ -35,6 +35,8 @@ The system refreshes the reports automatically once a day (every 24 hours). The 
 
 A warning icon next to the time stamp on the report indicates a delay or an issue with the data refresh. If the data has not been refreshed in the last 24 hours, you'll see a tooltip message when you hover over the icon. Contact your system administrator to investigate or open a support ticket if the issue persists.
 
+<!--ho long to keep the data in a report?-->
+
 ## Next steps
 
 - [Apply filters to reports](filter-report.md)
