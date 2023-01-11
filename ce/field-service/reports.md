@@ -1,18 +1,18 @@
 ---
-title: Overview topic template #Required; page title displayed in search results. Don't enclose in quotation marks. 
-description: Overview description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
+title: Reports overview
+description: This article explains what reports are lists available reports in Dynamics 365 Field Service and the Resource Scheduling Optimization add-in.
 author: FeifeiQiu
 ms.author: feiqiu
 ms.reviewer: mhart
-ms.service: dynamics-field-service
+ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 01/10/2023
+ms.date: 01/11/2023
 ms.custom: bap-template 
 ---
 
-# Field Service reports overview
+# Reports overview
 
-Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
+Reports are a collections of charts and visuals, based on a data set to get a quick view into core metrics. Resource and operations managers can monitor key operational metrics to gauge the performance of resources and their scheduling strategy. Reports can help explore important business-related questions, such as:
 
 - Are my resources being utilized efficiently over a given time period?
 - What is the average discrepancy between estimated and actual completion times for tasks and work orders?
@@ -27,9 +27,16 @@ Dynamics 365 Field Service and the Resource Scheduling Optimization add-in provi
 1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization add-in.
 1. The [Optimization Summary report](optimization-summary-report.md), included with the Resource Scheduling Optimization add-in.
 
+Reports are only available to users with **System Administrator** or **Field Service-Administrator** security roles.
 
-By default, reports are only available to users with **System Administrator** or **Field Service-Administrator** security roles. However, admins can share the reports with other users in their organization.
+## Refresh cadence for reports
+
+The system refreshes the reports automatically once a day (every 24 hours). The report shows a time stamp in the top right corner when it was last updated.
+
+A warning icon next to the time stamp on the report indicates a delay or an issue with the data refresh. If the data has not been refreshed in the last 24 hours, you'll see a tooltip message when you hover over the icon. Contact your system administrator to investigate or open a support ticket if the issue persists.
 
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+- [Apply filters to reports](filter-report.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
