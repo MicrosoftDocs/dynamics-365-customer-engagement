@@ -1,7 +1,7 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 01/10/2023
+ms.date: 01/11/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

@@ -97,17 +97,17 @@ Perform the following steps:
 
 3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
 
-  :::image type="content" source="media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
+   :::image type="content" source="media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
 4. Select **Create**.
 
-The following screenshot shows a workstream with the required intake rule and route to queues.
+   The following screenshot shows a workstream with the required intake rule and route to queues.
 
-![Workstream for a case record.](media/ur-record-routing-workstream.png "Workstream for a case record")
+    ![Workstream for a case record.](media/ur-record-routing-workstream.png "Workstream for a case record")
 
-You can reorder the rules and create copies to meet your business requirements.
+   You can reorder the rules and create copies to meet your business requirements.
 
-:::image type="content" source="media/manage-intake-rules.png" alt-text="Manage your intake rules.":::
+    :::image type="content" source="media/manage-intake-rules.png" alt-text="Manage your intake rules.":::
 
 ### Configure routing rules
 
@@ -134,7 +134,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
    > [!NOTE]
    > - The agent notifications that you configure for routing of records based on unified routing will be displayed in the Customer Service workspace and Omnichannel for Customer Service apps only.
-   > - If an agent doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it. You must ensure that the agents in the queues have the correct permissions to handle the incoming work items in the queue.
+   > - Ensure that the agents in the queues have correct permissions to handle the incoming work items in the queue. If an agent doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
 
 ### Next steps
 
