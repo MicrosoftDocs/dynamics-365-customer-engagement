@@ -153,6 +153,7 @@ Accept: application/json
     "msdynmkt_source": 12,
     // Set to contact, lead, or any custom table that
     // represents the type of member who will be in the segment.
+    // As of the publish date of this article, real-time
     "msdynmkt_baseentitylogicalname": "contact",
     "statecode": 1,
     // Inactive if segment definition is in Draft state
