@@ -1,13 +1,15 @@
 ---
-title: "Integrate your own custom channel: Direct Line | MicrosoftDocs"
-description: "This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
+title: Integrate your own custom channel using Direct Line
+description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
 ms.date: 07/19/2022
-ms.topic: reference
+ms.topic: how-to
 author: mh-jaya
 ms.author: v-jmh
-manager: shujoshi
+ms.custom: bap-template
+ms.service: dynamics-365
+ms.reviewer: nenellim
 ---
-# Integrate your own custom channel: Direct Line
+# Integrate your own custom channel using Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -415,11 +417,13 @@ If the conversation is active for the activity received by the relay processor, 
 
 To end the conversation, see [End a conversation in Direct Line](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-end-conversation?view=azure-bot-service-4.0&preserve-view=true).
 
+## Next steps
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Markdown formats in Direct Line](markdown-formats-dev.md)  
+
 ### See also
 
 [Configure custom messaging channel](configure-custom-channel.md)  
-[Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Markdown formats](markdown-formats-dev.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
 [Best practices for configuring bots](configure-bot-best-practices.md) 
 

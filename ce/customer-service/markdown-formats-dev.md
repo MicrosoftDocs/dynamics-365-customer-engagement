@@ -1,13 +1,16 @@
 ---
-title: "Markdown formats: Direct Line | MicrosoftDocs"
-description: "Use this article to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service."
+title: Markdown formats in Direct Line
+description: Use this article to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
-manager: shujoshi
-ms.date: 10/10/2022
-ms.topic: reference
+ms.date: 01/12/2023
+ms.topic: conceptual
+ms.custom: bap-template
+ms.service: dynamics-365
+ms.reviewer: nenellim
+
 ---
-# Markdown formats: Direct Line
+# Markdown formats in Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

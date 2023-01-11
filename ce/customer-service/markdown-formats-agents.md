@@ -1,6 +1,6 @@
 ---
 title: Markdown formats for agents
-description: Read this article to know about the Markdown formats that agents can use in Omnichannel for Customer Service.
+description: Read this article to know about the Markdown formats that agents can use for chat messages in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.date: 01/12/2023
@@ -19,6 +19,7 @@ In Omnichannel for Customer Service, you can use Markdown to format messages whe
 > [!NOTE]
 > You can use Markdown in chat and social channels only if your administrator has enabled the Markdown settings under **Agent experience** in the Customer Service admin center or Omnichannel admin center app. More information: [Enable formatted messages](enable-formatted-messages.md)
 
+## Markdown formats for chat messages
 
 The following table lists the Markdown formats that you can use for your chat messages in Omnichannel for Customer Service. 
 
