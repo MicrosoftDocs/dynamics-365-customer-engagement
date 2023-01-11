@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Dashboard entities
 
-The dashboard entities enable you to simultaneously present data from up to six charts, grids, or IFRAMES. The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Key to Entity Diagrams](../key-entity-diagrams.md)  
+The dashboard entities enable you to simultaneously present data from up to six charts, grids, or IFRAMES. The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Key to Entity Diagrams](/powerapps/developer/data-platform/use-metadata-generate-entity-diagrams#about-the-diagrams)  
   
  ![Dashboard entity model.](../media/dashboard-entity-model.gif "Dashboard entity model")  
   
