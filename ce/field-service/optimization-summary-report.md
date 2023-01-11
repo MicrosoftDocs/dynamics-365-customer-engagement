@@ -1,32 +1,35 @@
 ---
-title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
-ms.date: 10/01/2020
+title: Optimization summary report
+description: This article contains information about the optimization summary report and the charts it contains.
+author: FeifeiQiu
+ms.author: feiqiu
 ms.reviewer: mhart
-
-ms.topic: article
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
+ms.topic: conceptual 
+ms.date: 01/11/2023
+ms.custom: bap-template 
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: jshotts
-ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Optimization summary reports
+# Optimization summary report
 
-The optimization summary analyzes the automatically scheduled bookings and the effect this has on the business, such as an analysis of minimized travel time.
+The optimization summary is available in the Resource Scheduling Optimization add-in. It analyzes the automatically scheduled bookings in the and the effect this has on the business, such as an analysis of minimized travel time.
+
+In the **Resource Scheduling Optimization** add-in, go to **Analytics** > **Reports** > **Optimization Summary** to see the report.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource scheduling optimization summary report.](./media/scheduling-analytics-rso-summary.png)
 
-| Visuals |	Description | 
+| Visuals |	Description |
 | --- | --- |
-| Booking scheduled |	The total number of bookings scheduled in given schedule requests. | 
-| Resource allocated |	The total number of resources allocated in given schedule requests. | 
+| Booking scheduled |	The total number of bookings scheduled in given schedule requests. |
+| Resource allocated |	The total number of resources allocated in given schedule requests. |
 | Work time allocated (hrs.) |	The total work time allocated in given schedule requests. |
 | Travel time allocated (hrs.) |	The total travel time allocated in given schedule requests. |
 |Total time allocation (hrs.) |	The breakdown percentage and value between work time and travel time. |
