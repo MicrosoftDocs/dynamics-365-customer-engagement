@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 12/19/2022
+ms.date: 01/11/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -246,6 +246,10 @@ For more information about custom time calculation of SLA KPIs, go to [FAQ about
 
 ### See also
 
-[Define service-level agreements](define-service-level-agreements.md)  
-[Apply SLAs](apply-slas.md#apply-slas)  
-[Enable records for SLA](enable-entities-service-level-agreements.md)  
+[Define service-level agreements](define-service-level-agreements.md)
+ 
+[Apply SLAs](apply-slas.md#apply-slas)
+  
+[Enable records for SLA](enable-entities-service-level-agreements.md)
+
+[Errors on custom time calculation for SLA](/customer-service/troubleshoot-sla-issues#troubleshoot-issues-with-sla-time-calculation)
