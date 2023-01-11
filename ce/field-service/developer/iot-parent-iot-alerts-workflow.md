@@ -3,8 +3,8 @@ title: "IoT - Parent IoT Alerts workflow (Developer Guide for Dynamics 365) | Mi
 description: "Links potential redundant IoT alerts to an existing parent alert."
 ms.date: 09/07/2022
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 ms.reviewer: mhart
 search.audienceType: 
   - developer

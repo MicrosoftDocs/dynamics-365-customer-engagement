@@ -4,7 +4,7 @@ description: "Learn how to manage overflow of work items in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/17/2022
+ms.date: 12/23/2022
 ms.topic: article
 
 ---
@@ -23,9 +23,9 @@ If you don't configure overflow, by default, the work item will stay in the queu
 
 ## How overflow works
 
-The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queue rules are evaluated. The following factors are considered during the overflow evaluation:
+The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. The following factors are considered during the overflow evaluation:
 
-- If multiple queues match in the route-to-queue rules, the system routes the work item to the first queue that's not overflowing.
+- If multiple queues match in the route-to-queues rules, the system routes the work item to the first queue that's not overflowing.
 
 - If all matched queues are overflowing, one of the following actions takes place:
 
@@ -89,24 +89,29 @@ Go to the Customer Service admin center app and perform the following steps:
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
-    - **Work item limit exceeds**: Enter a value between 1 and 100 to denote the maximum number of work items that can be in the waiting state before overflow is reached. For example, if you enter 2 as the value, then two items should be waiting in the queue for the third item to trigger one of the following actions:
+    - **Work item limit exceeds**: Enter a value between 1 and 100 to denote the maximum number of work items that can be in the open state before overflow is reached. For example, if you enter 2 as the value, then two items should be open in the queue for the third item to trigger one of the following actions:
 
         - **Direct callback (preview)**: For voice queues only. Customers can choose to receive callback from agents that's presented to them by the automated message. The work item stays in the open state and is routed to the next available agent to call back the customer.
         - **End call**
         - **End conversation**
         - **Transfer to a different queue**
         - **Transfer to an external number**
+        - **Voicemail (preview)**
 
-    - **Estimated wait time exceeds**: This condition is available for the voice queues only. Enter a value between 0.5 second and 60 minutes to denote the wait time after which one of the following overflow actions will be triggered. For information on how wait time is calculated, see [Show customers their average wait time in a queue](average-wait-time.md).
+    - **Estimated wait time exceeds**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At runtime, if the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
 
         - **Direct callback (preview)**
         - **End call**
         - **Transfer to a different queue**
         - **Transfer to an external number**
+        - **Voicemail (preview)**
+
+        > [!NOTE]
+        > The estimated wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the estimated wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Estimated wait time exceeds" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
 
         :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
-1. To remove the overflow setting, delete the condition and action pairs that you've configured for the queue.
+       
 
 ## Configure overflow override
 

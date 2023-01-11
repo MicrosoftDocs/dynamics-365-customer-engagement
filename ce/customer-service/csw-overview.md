@@ -1,7 +1,7 @@
 ---
-title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
-ms.date: 10/03/2022
+title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
+ms.date: 12/15/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -20,23 +20,26 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-The Dynamics 365 Customer Service workspace app helps increase agent productivity with a browser-like tab experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
+The Dynamics 365 Customer Service workspace app helps increase agent productivity with a browser-like tabbed experience that lets agents work on multiple cases and conversations using the same app. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
 
 The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, see: [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app with the Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). For more information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
+You can set up your Customer Service workspace environment so that agents working on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the Omnichannel for Customer Service add-on [license](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+
+> [!NOTE]
+> The Customer Service workspace app is not supported on Unified Service Desk.
 
 ## Access Customer Service workspace layouts
 
-You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps, Or you can select it in the dropdown navigation in the upper-left corner of Dynamics 365.
+You can access Customer Service workspace through the app selector where you'll find other Dynamics 365 apps. You can also select it in the dropdown navigation in the upper-left corner of Dynamics 365.
 
 By default, Customer Service workspace opens in the Customer Service Agent Dashboard view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
 
-The Customer Service workspace app currently supports two layouts:
+The Customer Service workspace app supports two layouts:
 
 - Default workspace
 - Enhanced multisession workspace (recommended) 
@@ -44,12 +47,15 @@ The Customer Service workspace app currently supports two layouts:
 You can switch to the enhanced layout with the following steps:
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
+1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
 1. Refresh the app page.
 
-> [!NOTE]
-> - If you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service.
-> - To revert back to the default layout, type the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+To revert back to the default layout, enter the following command in the developer tools window: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",false)`
+
+> [!IMPORTANT]
+> - When you turn on the enhanced multisession workspace layout, the enhanced experience gets applied in both Customer Service workspace and Omnichannel for Customer Service. 
+> - The multisession mode and navigation capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only, and not in copies of these apps or custom apps. 
+ 
 
 The following table provides an overview of the layouts:
 
@@ -78,13 +84,13 @@ The following table gives an overview of the navigation in both views:
 | Select a record from the timeline | Record opens in a new tab | Record opens in a new tab |
 | Select an entity from the site map | Record opens in a new tab | Record opens in a new tab |
 
-The Enhanced multisession workspace also has improved in-app notification integration.
+The enhanced multisession workspace also has improved in-app notification integration.
 
 ## Use the Inbox
 
- If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
+If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
+The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
 The inbox conversation view looks as seen in the following screenshot.
 
@@ -94,7 +100,7 @@ The inbox case view looks as seen in the following screenshot.
 
 :::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
 
-Learn how to [configure the inbox view](configure-inbox.md).
+More information: [Configure the inbox view](configure-inbox.md)
 
 ## Use the productivity pane with Smart Assist
 
@@ -102,7 +108,21 @@ While you're working on a case, the productivity pane on the right side of the C
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Screenshot of the productivity pane with Smart Assist suggestions.":::
 
-Learn more about using the [productivity pane](csw-productivity-pane.md). 
+More information: [Productivity pane](csw-productivity-pane.md)
+
+## View the agent calendar (preview)
+
+As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your working hours, non-working hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly view options.
+
+1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
+
+1. In the site map, select the plus (+) icon, and then select **My schedule** from the dropdown menu.
+
+   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
+
+   The **My schedule** page opens with a read-only calendar view of the working hours, non-working hours, and any time off you have scheduled. Use the command bar at the top to change the view to daily, weekly, or monthly.
+
+   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
 ## Work with cases, activities, knowledge articles, and email templates
 
@@ -120,7 +140,7 @@ On the Customer Service Agent Dashboard, you can view cases and activities that 
 | 4 | Edit selected cases. |
 | 5 | Delete selected cases. |
 | 6 | Apply a routing rule to route selected cases to a queue. |
-| 7 | Open the menu for more actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, and Unfollow cases. |
+| 7 | Open the menu for more actions such as **Assign**, **Add to Queue**, **Run Report**, **Email a Link**, **Share**, **Follow**, and **Unfollow cases**. |
 
 More information: [Work with cases](customer-service-hub-user-guide-create-a-case.md)
 
@@ -130,22 +150,22 @@ More information: [Work with cases](customer-service-hub-user-guide-create-a-cas
 
 | Label | Description|
 | ------------ | -------------|
-| 1 | Select the top check mark to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
+| 1 | Select the top check box to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
 | 2 | Edit selected activities. |
 | 3 | Delete selected activities. |
-| 4 | Open the menu for more actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, and Run Report. |
+| 4 | Open the menu for more actions such as **Mark Complete**, **Cancel**, **Set Regarding**, **Assign**, **Email a Link**, **Add to Queue**, and **Run Report**. |
 
 ### Create and search knowledge articles
 
 Expand the Customer Service workspace site map and select **Knowledge Articles** or **Knowledge Search**. Intelligent knowledge suggestions are displayed in the productivity pane while you're working on a case.
 
-More information: [create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
+More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 ### Use email templates and signatures
 
 Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
 
-Learn more about how to create [email templates](/power-apps/user/email-template-create.md) and [email signatures](/power-apps/user/email-signature.md).
+More information: [Email templates](/power-apps/user/email-template-create) and [Email signatures](/power-apps/user/email-signature)
 
 ## Customize Customer Service workspace
 
@@ -154,7 +174,7 @@ You can use your browser's developer tools to customize some aspects of the Cust
 ### Turn off the close session dialog
 
 1. With Customer Service workspace open, press the F12 key to open the developer tools window.
-1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
+1. In the console window, enter the following command: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
 1. Refresh the app page.
 
 ### Turn on legacy navigation (deprecated)

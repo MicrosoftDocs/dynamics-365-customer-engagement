@@ -4,13 +4,9 @@ description: "Connected Field Service integrates Internet of Things (IoT) device
 ms.date: 01/05/2018
 
 ms.topic: get-started-article
-ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
-author: m-hartmann
-ms.author: mhart
+ms.author: keithh
+author: MSKeith
 ms.reviewer: mhart
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 8
 search.audienceType: 
   - developer
 ms.custom: 

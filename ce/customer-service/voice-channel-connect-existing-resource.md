@@ -1,7 +1,7 @@
 ---
 title: "Connect using an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 10/27/2022
+ms.date: 11/22/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -55,11 +55,11 @@ You can now configure the voice workstream settings for the phone number, set up
 
 Azure Communication Services integrates with Azure Event Grid to send real-time event notifications for chat, telephony, SMS, video, and voice-calling events. The Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers. More information: [Event Grid](/azure/event-grid/overview)
 
-So, to enable call recording and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics, and then subscribe to the specific recording or SMS events by creating Event Grid subscriptions on the Azure portal. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
+So, to enable call recording and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics, and then subscribe to the specific call recording or SMS events by creating Event Grid subscriptions on the Azure portal. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
 
-> [!NOTE]
+> [!IMPORTANT]
+> - You can only set one web hook endpoint at a time using the following procedure, so if you'd like to enable both SMS and call recording services, you must run the procedure two times to set the respective web hook endpoints.
 > - When you connect your event subscription, you must use the same application ID and directory ID for the app registration as you did when you first connected to your Azure resource. To check which app ID and directory ID you used, select the filter icon in the top right and search for communication provider setting entries.
-> - You can only set one web hook endpoint at a time using the following procedure, so if you'd like to enable both the services, you must run the procedure two times to set the respective web hook endpoints.
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 2. Create and deploy an event grid system topic. More information: [Create a system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic)
@@ -73,8 +73,10 @@ So, to enable call recording and SMS services, you must configure your applicati
     - **Subscription**: Select your subscription from the dropdown list.
     - **Resource Group**: Select the resource group.
     - **Resource**: Select the resource.
-    - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
-    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list.
+    - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown list.
+    - **Filter to Event Types**: You can filter events for either call recording or SMS services.
+        - To filter event types for recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
+        - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the recording or SMS web hook endpoint as follows.
         - To enable recording services, get the **Recording Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**. More information: [Get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording)

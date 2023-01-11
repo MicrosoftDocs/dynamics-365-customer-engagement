@@ -1,7 +1,7 @@
 ---
 title: "View and understand sales usage reports"
 description: "View and understand sales usage reports to analyze the status of opportunities and leads in your organization."
-ms.date: 03/11/2022
+ms.date: 11/22/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -22,7 +22,8 @@ The sales usage dashboard provides a snapshot view of the historical operational
 ## View sales usage reports
 
 >[!NOTE]
->When the administrator enables the reports, the application can take up to 24 hours to display them. Thereafter, reports are refreshed every 24 hours. 
+>- Sales usage reports are not available on Government Community Cloud (GCC).
+>- When the administrator enables the reports, the application can take up to 24 hours to display them. Thereafter, reports are refreshed every 24 hours. 
 
 1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.    
 

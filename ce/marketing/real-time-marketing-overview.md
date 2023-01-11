@@ -22,24 +22,15 @@ search.app:
 Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build trigger-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
 
 - **Engage customers in real-time**
-
-  With [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md) using [email](real-time-marketing-email.md), [text message](real-time-marketing-outbound-text-messaging.md), or [push notification](real-time-marketing-push-notifications.md) channels, organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
-
+    - With [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md) using [email](real-time-marketing-email.md), [text message](real-time-marketing-outbound-text-messaging.md), or [push notification](real-time-marketing-push-notifications.md) channels, organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 - **Win customers and earn loyalty faster**
-
-  Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
-
+    - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 - **Personalize customer experiences with AI**
-
-  Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics. 
-
-  [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
-
+    - Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics. 
+    - [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
 - **Grow with a unified, adaptable platform**
-
-  Easily customize and connect with tools you already use.
-
-  Efficiently manage compliance requirements and accessibility guidelines.
+    - Easily customize and connect with tools you already use.
+    - Efficiently manage compliance requirements and accessibility guidelines.
 
 ## How to engage with customers in real-time marketing
 

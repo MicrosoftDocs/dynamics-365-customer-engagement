@@ -1,7 +1,7 @@
 ---
 title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 12/21/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -46,10 +46,18 @@ Select any journey component to view near real-time operational analytics in the
     > [!div class="mx-imgBorder"]
     > ![Email channel analytics screenshot.](media/real-time-marketing-channel-analytics.png "Email channel analytics screenshot")
 
+    To view delivery and interaction statistics, select the **Delivery and interaction details** link at the bottom of the channel analytics pane.
+
+    > [!div class="mx-imgBorder"]
+    > ![Delivery and interactions details screenshot.](media/real-time-marketing-analytics-interactions.png "Delivery and interactions details screenshot")
+
 - **AI optimization**: Near real-time data to help you evaluate how applying AI optimization has helped your engagement rate.
 
     > [!div class="mx-imgBorder"]
     > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
+
+> [!NOTE]
+> Data retention is 12 months for Goal analytics, Channel analytics (including delivery and interaction details), and AI optimization analytics.
 
 ### Aggregate cross-journey analytics
 
@@ -72,3 +80,6 @@ The aggregate channel analytics dashboard shows metrics and insights related to 
 Use the aggregate channel analytics dashboard to measure campaign effectiveness and track the performance of your marketing assets.
 
 Learn more: [How to use aggregate channel analytics](real-time-marketing-channel-analytics.md).
+
+> [!NOTE]
+> There is no retention policy for real-time marketing interactions in Aggregate cross-journey analytics and Aggregate channel analytics. Dataverse entities are limited to a two-year retention policy after their initial creation date. Keep in mind that the two-year Dataverse entity retention policy might impact analytics views associated with interaction data from Dataverse entities.
