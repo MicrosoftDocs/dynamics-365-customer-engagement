@@ -151,9 +151,9 @@ Accept: application/json
     "msdynmkt_displayname": "<display name>", 
     "msdynmkt_type": 11,
     "msdynmkt_source": 12,
-    // Set to contact, lead, or any custom table that 
-    // represents the type of member who will be in the segment. 
-    // As of the publish date of this article, 
+    // Set to contact, lead, or any custom table that
+    // represents the type of member who will be in the segment.
+    // As of the publish date of this article,
     // real-time marketing only supports contacts and leads.
     "msdynmkt_baseentitylogicalname": "contact", 
     "statecode": 1,
