@@ -16,7 +16,6 @@ Service quotas are the resource, configuration, or item limits provided as part 
 
 > [!NOTE]
 > - All limits are at an organizational level for licensed organizations. The limits don't apply to trial or other non-licensed organizations.
-> - All limits are recommended limits beyond which system reliability and performance might reduce.
 > - If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased.
 
 ## Configuration limits
