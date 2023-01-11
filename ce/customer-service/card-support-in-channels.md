@@ -1,12 +1,12 @@
 ---
-title: "Support for live chat and asynchronous channels | MicrosoftDocs"
-description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 12/01/2022
-ms.topic: article
+title: Support for live chat and asynchronous channels
+description: Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
+ms.date: 01/12/2023
+ms.topic: conceptual
 author: mh-jaya
 ms.author: v-jmh
-manager: shujoshi
-
+ms.custom: bap-template
+ms.service: dynamics-365
 ms.reviewer: nenellim
 ---
 
@@ -27,7 +27,7 @@ The following table lists the rich cards that are supported across different cha
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-✔*: Card elements are supported in the Webchat version of Custom (Direct Line) channel, but not in the Android version.
+✔*: Card elements are supported in the Webchat version of Direct Line (custom) channel, but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
@@ -149,10 +149,7 @@ With social profiles, you can do the following:
 | Custom messaging (Telegram) | Yes                                                        | User name |
 | | | |
 
-## Preview: Support for formatted messages <a name="formatted-messages"></a>
-
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
+## Support for formatted messages <a name="formatted-messages"></a>
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, for your agents to send and receive formatted messages, you must [enable formatted messages](enable-formatted-messages.md).
 
@@ -202,14 +199,17 @@ The following table lists the automated messages that are displayed for a custom
 |Custom| Customer's position in queue | Message that's displayed to customer when there's a queue of customers waiting| When customer submits a request and is placed in the queue to chat with an agent because other customers are already waiting. | 
 |Custom| Customer is next in line|  Message that's displayed to customer when no other customer is ahead in the queue |  The number of customers waiting to chat gets updated each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message. |
 
+## Next steps
+
+[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
+[Configure custom messaging channel](configure-custom-channel.md)  
+
 ### See also
 
 [Overview of channels](channels.md)  
-[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Configure custom messaging channel](configure-custom-channel.md)  
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
 [Markdown formats: Direct Line](markdown-formats-dev.md)  
-[Use Markdown to format messages](markdown-formats-agents.md)  
+[Markdown formats for agents](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
