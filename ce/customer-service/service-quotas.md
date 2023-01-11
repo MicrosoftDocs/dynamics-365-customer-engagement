@@ -23,7 +23,7 @@ Service quotas are the resource, configuration, or item limits provided as part 
 
 | Measure       | Description   |  Default limit per channel or submeasure |   Adjustable?  |
 |------------ | -----------| --------------------| -----------|
-| Intake rules  | Maximum number of intake rules | 100 for the records | No |
+| Intake rules  | Maximum number of intake rules | 100 for records | No |
 | Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 100 for rules|  No  |  
 | Classification rules  |  Maximum number of classification rulesets and rules per workstream|  10 rulesets  <br><br> 100 rules per ruleset  |  No <br><br> No |
 
