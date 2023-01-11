@@ -15,8 +15,8 @@ This article contains configuration information for migrating from the Omnichann
 
 The following table lists the components in Omnichannel for Customer Service that need to be configured in Customer Service workspace.
 
-|Category   |Component to configure in Customer Service workspace |
-|---------------|-------------------------------|
+| Category | Component to configure in Customer Service workspace |
+| ------------ | ------------- |
 |Entities      |<li>Feeback</li> <li>Goal</li><li>Phone to Case Process</li> <li>Social activity</li>|                    |
 |Views         |<li>Views from the four missing entities</li> <li>Omnichannel for Customer Service has all of the views selected but Customer Service workspace only has selected views. Include all the views from Account, Case, and Contact entity in the Customer Service workspace app.</li>|
 |Forms         |<li>Forms from the four missing entities</li><li>Account - Account for Interactive experience (default), TimelineWallControl - Case - Main </li><li> Case: Case for Interactive experience (default), TimelineWallControl - Case - Main</li><li>Contact - Contact for Interactive experience</li>|                       |
@@ -91,5 +91,5 @@ You can set a form as the default form using the form order configuration or whe
 ### See also
 
 [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)<br>
-[Get started with Customer Service workspace](overview-csw.md)<br>
+[Get started with Customer Service workspace](csw-overview.md)<br>
 [Overview of the productivity pane](csw-productivity-pane.md)
