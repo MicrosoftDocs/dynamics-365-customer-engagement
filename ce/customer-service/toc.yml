@@ -36,10 +36,10 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
-  - name: Service quotas (with footnotes)
-    href: service-quotas copy.md
-  - name: Service quotas (without footnotes)
-    href: service-quotas.md
+    - name: Service quotas (with footnotes)
+      href: service-quotas copy.md
+    - name: Service quotas (without footnotes)
+      href: service-quotas.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
