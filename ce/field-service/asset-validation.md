@@ -14,13 +14,9 @@ search.app:
 
 # Validate customer assets on work orders
 
-You can configure the system to allow [customer assets](assets.md) on work order that are related to accounts other than the work order service account.
+You can configure the system to allow [customer assets](assets.md) on work orders that are related to accounts other than the work order service account.
 
-This configuration can be useful in the following scenarios:
-
-- Rent or lease: A service provider owns the asset and work orders refer to the customer who is currently using the asset.
-
-- [Warranty](warranties.md): A consumer owns the asset and work orders should relate to the manufacturer account who is responsible for the warranty.
+This configuration can be useful in a rent or lease scenario. Specifically, when a service provider owns the asset and work orders refer to the customer who is currently using the asset.
 
 1. In Field Service, change to the **Settings** area.
 
