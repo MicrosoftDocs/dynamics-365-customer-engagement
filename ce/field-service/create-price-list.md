@@ -1,7 +1,7 @@
 ---
 title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
-ms.date: 12/15/2022
+ms.date: 01/12/2023
 ms.reviewer: mhart
 ms.topic: how-to
 ms.author: jacoh
@@ -39,7 +39,7 @@ Define basic properties of the *Price List* record.
 1. Select **Save** to create the *Price List* record.
 
 > [!NOTE]
-> Organizations that use Field Service in combination with Dynamics 365 Project Operations find additional fields and related tabs on a price list record, some of them showing by default. *Context*, *Role price*, *Role price markups*, *Time Unit*, and *Category prices* are currently not supported by Field Service.
+> Organizations that use Field Service in combination with Dynamics 365 Project Operations find additional fields and related tabs on a price list record, some of them showing by default. *Context*, *Role price*, *Role price markups*, *Time Unit*, and *Category prices* are concepts which Project Operations introduces and are currently not supported by the Field Service pricing and costing functionality.
 
 ## Add price list items  
 
