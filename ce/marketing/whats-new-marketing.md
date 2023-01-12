@@ -31,6 +31,12 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
 
+### New blogs and scenario docs
+
+Learn about making the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+
+- [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
+
 ## December 2022 update
 
 For the December 2022 release, general availability features include custom channels that allow you to extend your outreach in real-time marketing, date and time formatting flexibility for different locales, and access to more personalization data. Public preview features include real-time marketing lead capture forms that convert visitors into customers and filtering for email lists.
@@ -125,7 +131,7 @@ Learn about making the most of the new Dynamics 365 Marketing features in our la
 - [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
 - [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 - [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
-- [Send a targeted email blast in real-time marketing - Scenario docs](/dynamics365/marketing/real-time-marketing-email-get-started)
+- [Send a targeted email blast in real-time marketing - Scenario docs](real-time-marketing-email-get-started.md)
 
 ## November 2022 update
 
