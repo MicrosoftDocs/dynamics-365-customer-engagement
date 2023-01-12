@@ -39,7 +39,7 @@ Your agents can send and receive messages formatted using Markdown.
 
 ### See also
 
-[Support for formatted messages](card-support-in-channels.md#formatted-messages)  
+[Support for formatted messages](card-support-in-channels.md#support-for-formatted-messages)  
 [Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
