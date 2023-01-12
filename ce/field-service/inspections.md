@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 11/30/2022
+ms.date: 01/12/2023
 ms.reviewer: mhart
 ms.topic: article
 
@@ -18,7 +18,7 @@ search.app:
 
 # Add inspections to work orders in Dynamics 365 Field Service
 
-Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
+Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments.
 
 With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
@@ -83,7 +83,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
-  - Add filters to filter the records displayed in the entity-lookup options. For example, if an entity-lookup inspection question was created for the bookable resource record type, you can further filter the list of bookable resources to ones with resource type set to *User* to remove subcontractors and machines from the list.
+  - Add filters to review the records displayed in the entity-lookup options. For example, an entity-lookup inspection question that's created for the bookable resource record type. You can filter the list of bookable resources to ones with the resource type set to *User* to remove subcontractors and machines from the list.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection version, showing filter conditions.](./media/Lookupfilter1.png)
@@ -171,7 +171,7 @@ The inspection form will appear below.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new service task type in Field Service, pointing to the inspection that appears.](./media/inspections-service-task.png)
 
-It's common to add service task types to incident types in order to bundle work together. However, this isn't required because you can add individual service tasks to work orders as we'll see later on. In the following image, the "Fire extinguisher inspection" service task was associated to the "Fire system maintenance" incident type.
+It's common to add service task types to incident types in order to bundle work together. However, it isn't required because you can add individual service tasks to work orders as we'll see later on.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an incident type showing the service tasks tab.](./media/inspections-service-task-incident-type.png)
@@ -229,7 +229,7 @@ Enter a **Result** to report on the overall inspection:
 
 If an inspection question is required, the technician won't be able to mark **Complete** or set **% Completed** to 100 until it's answered.
 
-**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over and permanently delete all responses for this service task inspection.
+**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over, and permanently delete all responses for this service task inspection.
 
 > [!NOTE]
 > Only single responses are supported and a technician can't fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted, and only the latest responses are saved.
@@ -269,7 +269,7 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 
 - If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form.
 
-- Users may encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload can be completed under 300 seconds.
+- Users may encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload doesn't exceed a total size of 40 MB.
 
 ### Field Service inspections or Power Apps inspections
 
