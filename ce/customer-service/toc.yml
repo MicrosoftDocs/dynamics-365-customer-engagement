@@ -304,8 +304,10 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-      - name: Diagnostics for unified routing
+      - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
+      - name: Manage routing diagnostics data
+        href: manage-routing-diagnostics-data.md  
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -682,6 +684,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: How to avoid call disconnection
+        href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
       - name: Transfer calls and consult with other users
         href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
@@ -860,6 +864,8 @@
         href: teams-channel.md
       - name: Use WeChat channel
         href: wechat-channel.md
+      - name: View social profiles
+        href: supported-channels-social-profiles.md  
     - name: Developer experience
       items: 
       - name: Integrate a custom messaging channel
@@ -1246,12 +1252,24 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
-      href: export-import-config-data-for-records.md
+      items:
+      - name: Overview of data migration for records
+        href: migrate-config-data-for-records-overview.md
+      - name: Use FetchXML query to filter records
+        href: use-fetchxml-filter-records.md        
+      - name: Migrate configuration data for records
+        href: migrate-config-data-for-records.md        
+      - name: Verify migration of records
+        href: migrate-config-data-verify.md
+      - name: Troubleshoot migration of records  
+        href: migrate-config-data-troubleshoot.md
     - name: Migrate configuration data for live chat
-      href: export-import-config-data-for-live-chat.md
+      href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
-      href: export-import-config-data-for-voice.md
+      href: migrate-config-data-for-voice-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
@@ -1270,6 +1288,8 @@
         href: migrate-entity-records.md
     - name: Migration FAQ
       items: 
+      - name: FAQ on migration from Omnichannel for Customer Service app
+        href: migrate-oc-faq.md
       - name: FAQ on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
   - name: Deprecations
