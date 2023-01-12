@@ -136,11 +136,6 @@ items:
           href: properties.md
         - name: Property logs
           href: property-logs.md
-    - name: Warranties
-      href: warranties.md
-    - name: Insurances
-      href: insurances.md
-
 
 - name: Frontline workers + bookable resources
   items:
