@@ -1,7 +1,7 @@
 ---
 title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
 description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 11/08/2022
+ms.date: 12/20/2022
 ms.topic: article
 author: mgandham
 ms.author: nenellim
@@ -15,7 +15,7 @@ Use the Configuration Migration tool to migrate the configurations from the sour
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
-- [Download Configuration Migration Tool](/powerapps/developer/data-platform/download-tools-nuget)
+- [Download Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget)
 - [How the Configuration Migration tool works](/power-platform/admin/manage-configuration-data)
 
 ## Prerequisites
@@ -71,12 +71,12 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#migrate-skill-based-routing-configuration).
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets).
 
 
 ## Migrate configuration for voice channel queues
 
-For exporting and importing queues for the voice channel, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-config-data-for-records.md#export-and-import-record-queues-configuration).
+For exporting and importing queues for the voice channel, perform the steps outlined in [Migrate data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).
 
 ## Migrate configuration for voice channel workstreams
 
@@ -140,4 +140,4 @@ After you import the unified routing-related configuration data successfully fro
 
 ### See also
 
-[Export and import configuration for records based on unified routing](export-import-config-data-for-records.md)  
+[Migrate configuration for records based on unified routing](migrate-config-data-for-records-overview.md)  
