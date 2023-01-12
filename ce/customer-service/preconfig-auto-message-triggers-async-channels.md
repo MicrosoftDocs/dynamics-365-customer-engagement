@@ -13,7 +13,7 @@ ms.reviewer: nenellim
 
 ## Preconfigured automated message triggers for agents
 
-The following table lists the automated messages that are displayed for an agent across different asynchronous channels.
+The following table lists the automated messages that are displayed to agents in asynchronous channels.
 
 |**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
 |-----------------|----------------|------------|-----------------|
@@ -25,7 +25,7 @@ The following table lists the automated messages that are displayed for an agent
 
 ## Preconfigured automated message triggers for customers
 
-The following table lists the automated messages that are displayed for a customer across different asynchronous channels.
+The following table lists the automated messages that are displayed to customers in asynchronous channels.
 
 |**Channel** | **Message triggered** | **Definition** | **Triggering event** |  
 |-----------------|----------------|------------|-----------------|
