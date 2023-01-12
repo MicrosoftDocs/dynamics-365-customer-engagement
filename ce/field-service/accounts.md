@@ -64,7 +64,7 @@ On the **Summary** section, you can provide additional information about the acc
 
 Contacts are individuals that are related to an account. You can add contacts on the **Summary** section.
 
-- **Primary Contact**: The individual that is your main point of [contact for an account](contacts.md).
+- **Primary Contact**: The individual that is your main point of contact for an account.
 
 - **Contacts**: Create more contacts or add an existing contact as a reference to the account form.
 
