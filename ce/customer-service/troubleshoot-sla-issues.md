@@ -190,12 +190,12 @@ If the customizations.xml file has the SLAs and you select **Overwrite Customiza
 
 ### Unable to create entitlements as the Allocation Type dropdown isn't showing up any options
 
-Unable to create entitlement forms from either the Customer Service Hub or the Customer Service admin center app because of no data from the entitlement’s entity type mappings in the EntitlementEntityAllocationTypeMappingBase table.
+Unable to create entitlement forms from either the Customer Service Hub or the Customer Service admin center app because of lack of data in the entitlement’s entity type mappings with the EntitlementEntityAllocationTypeMappingBase table.
 
 ### Scenario 1
 
 #### Reason
-The **Allocation Type** field doesn't exist in the entitlement entity with case option.
+The **Allocation Type** field doesn't exist in the entitlement entity with **Case** option.
 
 #### Resolution
 
@@ -213,9 +213,9 @@ The entitlement's entity allocation type mapping records aren't present in the E
 
 **Entity Type** is a type of option set field in the Entitlement table, which has **Case** as the default option. If **Case** is the only option available for Entity Type, then the Entitlement table automatically loads **Allocation Type** values for the **Case** option. In case of more than one option set for the **Entity Type** field, you'll need to select the **Entity Type** option, so that the Entitlement table will load **Allocation Type** values based on that **Entity Type** selection.
 
-Add the entitlement's entity allocation type mapping records in the EntitlementEntityAllocationTypeMappingBase table.
+Add the entitlement's entity allocation type mapping records to the EntitlementEntityAllocationTypeMappingBase table.
 
-- Use the following query to insert missing mapping records and add a record for allocation type to the entity type case:
+- Use the following query to insert missing mapping records and add a record for allocation type for the **Case** entity type:
 
     `Insert INTO [dbo].[EntitlementEntityAllocationTypeMappingBase]` 
 `(entitlemententityallocationtypemappingid, statecode, statuscode, allocationtype, entitytype, OwnerId) Values('0C537E5C-13E8-410B-A65C-783A113D49FC', 0, 1, 0, 0, 'F5C0B9AD-E076-ED11-81B3-6045BDE41C7D')`
