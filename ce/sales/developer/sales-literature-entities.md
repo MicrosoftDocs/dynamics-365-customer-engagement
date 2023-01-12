@@ -34,7 +34,7 @@ search.audienceType:
   - developer
 
 ---
-# Sales literature entities
+# Sales literature entities in Dynamics 365 Sales
 
 A *sales literature* item is the basic unit of the marketing encyclopedia in Dynamics 365 Sales. For example, a business unit might decide to create an article about a specific product. The article can contain multiple sales literature items (sales attachments) such as a brochure, detailed specifications, and a CAD file, together with appropriate search terms, for example, "bolt" or "stainless steel." Any PC-compatible file format can be uploaded and attached to an article in the marketing encyclopedia. Specific search terms can be specified for each item.  
   

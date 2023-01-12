@@ -749,5 +749,5 @@ See the [msdyn_PS_PMS](msdyn_predictivescore.md#BKMK_msdyn_PS_PMS) one-to-many r
 
 ### See also
 
-[About the table reference](../about-entity-reference.md)<br />
+[About the table reference](about-entity-reference.md)<br />
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />

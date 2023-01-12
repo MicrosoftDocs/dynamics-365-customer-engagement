@@ -20,12 +20,12 @@ ms.assetid: 0b9ac43d-0b42-4c19-84e1-c81a9ec67d5a
 caps.latest.revision: 16
 author: udaykirang
 ms.author: udag
-manager: shujoshie
+manager: shujoshi
 search.audienceType: 
   - developer
 
 ---
-# Sales entities (lead, opportunity, competitor, quote, order, invoice)
+# Sales entities (lead, opportunity, competitor, quote, order, and invoice)
 
 You use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
   
