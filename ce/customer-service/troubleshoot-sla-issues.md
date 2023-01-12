@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Learn about SLA issues and how to troubleshoot them.
-ms.date: 12/23/2022
+ms.date: 01/12/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -210,6 +210,8 @@ Add the **Allocation Type** field by performing the following steps:
 The entitlement's entity allocation type mapping records aren't present in the EntitlementEntityAllocationTypeMappingBase table, when the **Entity Type** field from the entitlement entity has more than one option other than case.
 
 #### Resolution
+
+**Entity Type** is a type of option set field in the Entitlement table, which has **Case** as the default option. If **Case** is the only option available for Entity Type, then the Entitlement table automatically loads **Allocation Type** values for the **Case** option. In case of more than one option set for the **Entity Type** field, you'll need to select the **Entity Type** option, so that the Entitlement table will load **Allocation Type** values based on that **Entity Type** selection.
 
 Add the entitlement's entity allocation type mapping records in the EntitlementEntityAllocationTypeMappingBase table.
 
