@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/16/2022
+ms.date: 01/11/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -26,6 +26,16 @@ We're excited to announce our newest updates! This article summarizes early acce
 Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
+
+## January 2023 update
+
+There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
+
+### New blogs and scenario docs
+
+Learn about making the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+
+- [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
 
 ## December 2022 update
 
@@ -121,7 +131,7 @@ Learn about making the most of the new Dynamics 365 Marketing features in our la
 - [Trigger a Plugin from Custom Trigger - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/trigger-a-plugin-from-custom-trigger)
 - [Extracting Marketing Interactions in Dynamics 365 Marketing - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
 - [Transition from Outbound to Real-time Marketing Playbook - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook)
-- [Send a targeted email blast in real-time marketing - Scenario docs](/dynamics365/marketing/real-time-marketing-email-get-started)
+- [Send a targeted email blast in real-time marketing - Scenario docs](real-time-marketing-email-get-started.md)
 
 ## November 2022 update
 
