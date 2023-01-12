@@ -146,6 +146,19 @@ Almost all types of entities in Dynamics 365 Marketing include a **Related** tab
 > [!NOTE]
 > The **Related** tab for segments sometimes includes an entry for **Customer journeys**, but this entry only finds journeys where the current segment is a *suppression segment*. It doesn't find journeys that use the current segment as a target segment. The reason for this is that suppression segments are related directly to the customer journey entity, while target segments are linked to journeys less directly, through a tile configuration, and therefore aren't resolved in the **Related** tab.
 
+## Managing The Segment Quota
+
+The segment quota is the limit of the active segments which an organization can have. The active segment count is the sum of the live segments created by a user and sub-segments that the customer journey created by itself. For example, when a customer journey with condition tile(s) is created, the customer journey will create additional segments for each condition that the customer journey has. These additional segments are the sub-segments that counted as active segments. Please note that the sub-segments will be counted as the active segments, only if the customer journey(s) is live.
+
+If the usage of the active segments limit is exceeded, users can do the following:
+- Stopping the unrelated segment(s)
+- Stopping the unrelated journey(s)
+
+Please note that deleting inactive journeys or segments **will not affect** the usage of the active segments.
+
+
+
+
 ### See also
 
 [Work with segment templates](segments-templates.md)  
