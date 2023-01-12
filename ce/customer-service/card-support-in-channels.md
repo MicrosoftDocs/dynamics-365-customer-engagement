@@ -1,6 +1,6 @@
 ---
 title: Support for live chat and asynchronous channels
-description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, social profiles, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
+description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
 ms.date: 01/12/2023
 ms.topic: conceptual
 author: mh-jaya
@@ -126,28 +126,6 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 > [!NOTE]
 > The Direct Line channel supports stickers, but it's up to the client to implement them.
-
-## Support for social profiles
-
-Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. When a social profile is created for a conversation within a channel, later conversations will be linked to the same social profile for this channel.
-
-With social profiles, you can do the following:
-
-- [Automatically identify customers](record-identification-rule.md) on social channels
-- Display the customer name or phone number with conversations on the agent dashboard
-- Send outbound messages
-
-| Channel            | Supported?                                                          | Visitor name|
-|--------------------|---------------------------------------------------------------------|-------------|
-| Apple Messages for Business | Yes                                                        | Visitor     |
-| Facebook           | Yes                                                                 | User name |
-| Google's Business Messages | Yes                                                         | Display name |
-| LINE               | Yes                                                                 | Display name |
-| Twitter            | Yes                                                                 | Twitter handle name |
-| WeChat             | Yes                                                                 | Visitor |
-| WhatsApp           | Yes                                                                 | Phone number |
-| Custom messaging (Telegram) | Yes                                                        | User name |
-| | | |
 
 ## Support for formatted messages
 
