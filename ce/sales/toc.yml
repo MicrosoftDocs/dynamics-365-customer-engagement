@@ -1086,17 +1086,17 @@
               href: developer/reference/playbook-entity-reference.md
               items:
                 - name: msdyn_playbookinstance
-                  href: developer/reference/playbooks-entities/msdyn_playbookinstance.md
+                  href: developer/entities/msdyn_playbookinstance.md
                 - name: msdyn_playbookactivity
-                  href: developer/reference/playbooks-entities/msdyn_playbookactivity.md
+                  href: developer/entities/msdyn_playbookactivity.md
                 - name: msdyn_playbookactivityattribute
-                  href: developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md
+                  href: developer/entities/msdyn_playbookactivityattribute.md
                 - name: msdyn_playbookcategory
-                  href: developer/reference/playbooks-entities/msdyn_playbookcategory.md
+                  href: developer/entities/msdyn_playbookcategory.md
                 - name: msdyn_playbooktemplate
-                  href: developer/reference/playbooks-entities/msdyn_playbooktemplate.md
+                  href: developer/entities/msdyn_playbooktemplate.md
                 - name: msdyn_callablecontext
-                  href: developer/reference/playbooks-entities/msdyn_callablecontext.md
+                  href: developer/entities/msdyn_callablecontext.md
         - name: PriceLevel
           href: pricelevel.md
         - name: Product
