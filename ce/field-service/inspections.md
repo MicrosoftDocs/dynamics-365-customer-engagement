@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 06/15/2022
+ms.date: 01/12/2023
 ms.reviewer: mhart
 ms.topic: article
 
@@ -18,21 +18,17 @@ search.app:
 
 # Add inspections to work orders in Dynamics 365 Field Service
 
-
-
-Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
+Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments.
 
 With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
-Inspections in Field Service also provide: 
+Inspections in Field Service also provide:
 
-1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi). 
-2. **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment. 
+1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi).
+2. **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment.
 3. **Version management**: Administrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
 
-
-
-Inspections are easy to create and use, involving the following steps: 
+Inspections are easy to create and use, involving the following steps:
 
 1. Administrator creates an inspection template.
 2. Administrator associates the published inspection to a **Service Task Type**.
@@ -46,26 +42,30 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hy8U]
 
-
-
 ## Prerequisites
 
 - Dynamics 365 version 9.1.0000.15015+.
 
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
 
-- Inspections became generally available in the 2020 Wave 2 Field Service update. If you do not see inspections in your Field Service environment, [upgrade to the latest version of Field Service](upgrade-field-service.md). 
+- **Field Service-Administrator** role to create inspection templates and associate them to service task types.
+
+- **Field Service-Dispatcher** role to add service tasks with inspections to work orders.
+
+- **Field Service-Resource** role to view work orders they're assigned to, along with work order service tasks and the related inspections.
 
 ## Create inspection
 
 First, create an inspection that can be reused and added to multiple work orders.
 
-From the Field Service app, go to **Settings** > **Inspections** > **+New**.
+1. In Field Service, change to the **Settings** area.
+
+1. Go to **Work Orders** > **Inspection Templates** and select **New**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active inspections in Dynamics 365 Field Service.](./media/inspections-navigate.png)
 
-Name your inspection and add a description.
+1. Provide a **Name** for the inspection and add an optional description.
 
 ### Question types
 
@@ -74,21 +74,19 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
-- **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There is an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
+- **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of textbox read-only.](./media/textbox-read-only.jpg)
-
 
 - **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 
 - **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
-  - Add filters to filter the records displayed in the entity-lookup options. For example, if an entity-lookup inspection question was created for the bookable resource record type, you can further filter the list of bookable resources to ones with resource type set to *User* to remove subcontractors and machines from the list.
+  - Add filters to review the records displayed in the entity-lookup options. For example, an entity-lookup inspection question that's created for the bookable resource record type. You can filter the list of bookable resources to ones with the resource type set to *User* to remove subcontractors and machines from the list.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection version, showing filter conditions.](./media/Lookupfilter1.png)
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection version in Field Service.](./media/Lookupfilter2.png)
@@ -102,7 +100,6 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
-
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
@@ -128,7 +125,7 @@ Choose layout density.
 
 **Comfortable** layout displays answer areas underneath questions.
 
-**Compact** layout displays answer areas to the right of questions as seen in the following screenshot. Use the preview pane to see the layout from an end user's perspective. 
+**Compact** layout displays answer areas to the right of questions as seen in the following screenshot. Use the preview pane to see the layout from an end user's perspective.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a compact layout on an inspection.](./media/compactness3.png)
@@ -145,13 +142,11 @@ Add pages to your inspection in order to:
 
 Select the page dropdown in the top left of the designer to add one or more pages. Then add a page title and a page description, if needed.
 
-
-
 ### Review and publish
 
 Use the **Preview** section to see the inspection from a technician's perspective.
 
-> [!Note]
+> [!NOTE]
 > Once you publish the inspection, you can't edit it in the preview version.
 
 > [!div class="mx-imgBorder"]
@@ -159,10 +154,9 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 
 When finished creating the inspection, select **Publish** at the top.
 
-
 ## Associate inspection to service task type
 
-Next, associate the inspection to a **Service Task Type**. This association is necessary because inspections are not added directly to work orders; they're added as part of **Work Order Service Tasks**.
+Next, associate the inspection to a **Service Task Type**. This association is necessary because inspections aren't added directly to work orders; they're added as part of **Work Order Service Tasks**.
 
 In the same **Settings** section, go to **Service Task Types**.
 
@@ -177,21 +171,16 @@ The inspection form will appear below.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new service task type in Field Service, pointing to the inspection that appears.](./media/inspections-service-task.png)
 
-
-It's common to add service task types to incident types in order to bundle work together. However, this isn't required because you can add individual service tasks to work orders as we'll see later on. In the following image, the "Fire extinguisher inspection" service task was associated to the "Fire system maintenance" incident type.
-
+It's common to add service task types to incident types in order to bundle work together. However, it isn't required because you can add individual service tasks to work orders as we'll see later on.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an incident type showing the service tasks tab.](./media/inspections-service-task-incident-type.png)
-
-> [!Note]
-> In the April 2020 preview, an inspection can't be added or removed from a service task type that already has work order service tasks or incident type service tasks associated to it. If you try to change **Has Inspection** and **Inspection** fields in the service task type, you'll see an error.  Also, a published inspection cannot be deleted if it is associated to a service task type or any work order service task.
 
 ## Add inspection to work order
 
 After creating a work order, go to the **Service Tasks** section and add the **Work Order Service Task** you created that has an associated inspection.
 
-Then **Save**. The inspection cannot be filled out until the Work Order Service Task is saved.
+Then **Save**. The inspection can't be filled out until the Work Order Service Task is saved.
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type.
 
@@ -205,7 +194,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md). This requires no mobile project or any further setup other than upgrading to Field Service v8.8.22+.
+You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) when using at least Field Service v8.8.22+. However, you can't create inspection templates on mobile devices.
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 
@@ -219,7 +208,7 @@ Find the inspection form and enter answers.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (Dynamics 365) mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
 
-Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. 
+Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (Dynamics 365) mobile app showing the upload photos option on inspections.](./media/inspections-fsm-new3.png)
@@ -238,12 +227,12 @@ Enter a **Result** to report on the overall inspection:
 
 **Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
 
-If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
+If an inspection question is required, the technician won't be able to mark **Complete** or set **% Completed** to 100 until it's answered.
 
-**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
+**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over, and permanently delete all responses for this service task inspection.
 
-
-Inspections can also be viewed and completed on the Field Service Mobile (Xamarin) app. For more information, see the end of this article.
+> [!NOTE]
+> Only single responses are supported and a technician can't fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted, and only the latest responses are saved.
 
 ## View responses
 
@@ -252,107 +241,52 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service on a desktop, showing the work order service task and the completed inspection form at the bottom.](./media/inspections-complete-web.png)
 
-## Inspections on Field Service Mobile (Xamarin)
-
-After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
-
-> [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](./field-service-mobile-app-user-guide.md#step-3-import-the-mobile-project-template).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)
-
-Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
-
-Select the **Work Order Service Task** that has the related inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing service tasks.](media/inspections-mobile-r-1.png)
-
-Find the inspection form and enter answers. Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
-
-When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing the upload photos option on inspections.](./media/inspections-mobile-r-3.png)
-
-Enter a **Result** to report on the overall inspection:
-
-- Pass
-- Fail
-- Partial Success
-- NA
-
-**Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
-
-If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
-
-**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
-
-## Configuration considerations
-
-> [!Note]
-> During the inspections preview period, Microsoft may make schema changes that may render inspections and related records to enter a state where they can no longer be used. As of August 2020 inspections are no longer in preview, and are available as early access before general availability in October 2020. 
-
-- Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted and only the latest responses are saved.
-
-
-### Security roles needed to use inspections
-
-- **Field Service-Administrators** can create inspection templates and associate them to service task types.
-- **Field Service-Dispatchers** can add service tasks with inspections to work orders.
-- **Field Service-Resources** can view work orders they are assigned to, along with work order service tasks and the related inspections.
-
 ## Additional notes
 
-- New inspections cannot be created or designed from small form factors like mobile devices.
+- Inspections can't be exported and imported to other environments.
 
-- Inspections cannot be exported and imported to other environments.
+- Inspections can't be embedded into Power Apps portals.
 
-- Inspections cannot be embedded into Power Apps portals.
+## Known issues
 
-### Known issues
-
-- Marking a work order service task as complete from the grid view does not work unless the work order service task is opened at least once.
-
+- Marking a work order service task as complete from the grid view doesn't work unless the work order service task is opened at least once.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of marking work order service task as complete from work order service task grid view.](./media/inspections-work-order-service-task-mark-complete-grid.png)
 
-- Dispatcher can't delete individual attachments in an inspection response. The out-of-the-box **Field Service-Dispatcher** role doesn't have ability to delete inspection attachments; they can, however, **Clear responses** and **Clear files**, which will clear all attachments. If a dispatcher wants to be able to delete individual attachments from an inspection, they'll need to be given delete privileges for the **Notes** entity. 
+- Dispatcher can't delete individual attachments in an inspection response. The out-of-the-box **Field Service-Dispatcher** role doesn't have ability to delete inspection attachments; they can, however, **Clear responses** and **Clear files**, which will clear all attachments. If a dispatcher wants to be able to delete individual attachments from an inspection, they'll need to be given delete privileges for the **Notes** entity.
 
-- If a resource has trouble seeing an inspection on the work order service task form (as seen in the following screenshot), deactivate and reactivate the related bookable resource booking. 
-
+- If a resource has trouble seeing an inspection on the work order service task form (as seen in the following screenshot), deactivate and reactivate the related bookable resource booking.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
-- Inactive inspections and work order service tasks are not available in offline mode. 
-- Inspections do not load in Internet Explorer. Microsoft Edge or Chrome is recommended. 
+- Inactive inspections and work order service tasks aren't available in offline mode.
+
+- Inspections don't load in Internet Explorer. Microsoft Edge or Chrome is recommended.
+
 - The question type "Entity lookup" shows inactive records.
-- If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form. 
+
+- If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form.
+
+- Users may encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload doesn't exceed a total size of 40 MB.
 
 ### Field Service inspections or Power Apps inspections
 
-Here are a few reasons customers choose to use Field Service inspections. 
+Here are a few reasons customers choose to use Field Service inspections.
 
-1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Inspections and answers are stored locally on the mobile device and then synced to the server when connectivity is restored (cellular or WiFi). 
-2. **Version management**: Administrators can easily republish or change inspections to accommodate changing processes and evolving business needs.
-3. **Easier to create and use**: Field Service inspections require no further training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
-- **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming. 
-- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. 
-
+- **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Inspections and answers are stored locally on the mobile device and then synced to the server when connectivity is restored (cellular or WiFi).
+- **Version management**: Administrators can easily republish or change inspections to accommodate changing processes and evolving business needs.
+- **Easier to create and use**: Field Service inspections require no further training and are designed to be easy to use. Power Apps inspections need extensive knowledge of the Power Apps platform and may require coding.
+- **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming.
+- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities.
 
 ### Field Service inspections or work order service tasks
 
 Compared to work order incident types and service tasks, inspections have more benefits:
 
 - **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
+- **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once. Work order service task records have to be opened and completed one-by-one.
 - **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
