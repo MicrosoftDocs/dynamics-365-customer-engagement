@@ -57,7 +57,7 @@ Service quotas are the resource, configuration, or item limits provided as part 
 
 <sup>4</sup> 250 MB of SQL/DB storage and 2 GB of file storage 
 
-<sup>5</sup> If there's a shortage of eligible agents to serve the 100 (the default block size) top priority conversations, then the autoassignment can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or reviewing agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check if the block size can be increased. 
+<sup>5</sup> If there's a shortage of eligible agents to serve the 100 (the default block size) top priority conversations, then the autoassignment can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check if the block size can be increased. 
 
 
 ## Next steps
