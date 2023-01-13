@@ -360,7 +360,7 @@ Add the workflow process and save the SLA item. To avoid such issues, make sure 
 
 #### Error code: 10000006
 
-Error message: Workflow for the Custom Time Calculation Process for SLA Item {0} is missing. {Placeholder="{0}"} refers to the SLA Item ID.
+Error message: "Workflow for the Custom Time Calculation Process for SLA Item {0} is missing. {Placeholder="{0}"} refers to the SLA Item ID."
 
 #### Reason
 The error occurs if the Custom Time Calculation Workflow is enabled during SLA activation and the workflow process action is associated with the SLA Item with valid GUID, but the workflow is deleted.
