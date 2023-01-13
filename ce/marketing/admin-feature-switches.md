@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable optional and preview features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the Feature switches page to enable or disable optional and preview features in Dynamics 365 Marketing."
-ms.date: 12/13/2022
+ms.date: 01/10/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -29,7 +29,7 @@ The following table lists each available feature together with its preview statu
 | Feature switch | Preview or production | Description |
 |---|---|---|
 | Business unit scoping | Production | [Enable business unit scoping for marketing processes in outbound marketing.](business-units.md)|
-| Event registration forms | Production | [Enable marketing forms to submit event registrations.](event-forms.md)|
+| Event registration forms | Preview | [Enable marketing forms to submit event registrations.](event-forms.md)|
 | Updated customer journey designer | Production | [Enable the redesigned customer journey design workspace.](customer-journeys-create-automated-campaigns.md)|
 | Data sharing program | Production | Enable Microsoft to manually accesses (human review) customer data to build, improve, and validate the feature's AI models. |
 | Real-time marketing forms | Preview | [Enable the new form editor in real-time marketing.](real-time-marketing-form-editor.md) |

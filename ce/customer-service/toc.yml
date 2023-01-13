@@ -36,6 +36,8 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
+    - name: Service quotas
+      href: service-quotas.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -812,6 +814,8 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
+      - name: Customizations supported by Conversation entity and form
+        href: supported-customizations.md  
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
@@ -919,7 +923,7 @@
     - name: Configure outbound messages
       href: outbound-messaging.md
     - name: Configure data masking
-      href: data-masking-settings.md
+      href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
     - name: Administrator experience
@@ -1252,6 +1256,8 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
       - name: Overview of data migration for records
@@ -1286,6 +1292,8 @@
         href: migrate-entity-records.md
     - name: Migration FAQ
       items: 
+      - name: FAQ on migration from Omnichannel for Customer Service app
+        href: migrate-oc-faq.md
       - name: FAQ on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
   - name: Deprecations

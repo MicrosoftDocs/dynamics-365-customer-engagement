@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 01/09/2023
+ms.date: 01/11/2023
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -25,10 +25,6 @@ Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up,
 > - If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](trial-faq.md#personalemail)
 
 The trial will take a few moments to load, then you can start using Customer Service.
-
-## Experience for a trial user
-
-Customer Service uses a Microsoft Power Platform environment to store and manage data. It typically takes 10 minutes to provision an environment. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
 
 ## What to try?
 
