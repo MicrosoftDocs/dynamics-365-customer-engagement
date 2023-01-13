@@ -1,40 +1,49 @@
 ---
-title: 
-description: 
-ms.date: 10/01/2020
+title: Resource and utilization report
+description: This article explains the resource and utilization report in Field Service and the charts and visual used in that report.
+ms.date: 01/13/2023
+author: jshotts
+ms.author: jasonshotts
 ms.reviewer: mhart
-
-ms.topic: article
+ms.topic: conceptual
+ms.custom: bap-template
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: jshotts
-ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
 
-## Resource and utilization reports
+# Resource and utilization report
 
-Resource managers can use the resource and utilization report to perform the following tasks:  
+Resource managers can use the resource and utilization report to gather information that helps them ensure efficient use of resources. They can monitor key information like time spent on bookings, allocation of bookings across territories, or how individual resources are allocated.
 
-- Monitor metrics across resource and utilization, time spent on bookings, and miles on truck rolls.   
-- Unpack information on the territory as a whole, such as:
-  - What's the allocation of bookings? 
-  - Is there any territory imbalance between demand and supply? 
-  - What's the estimated travel time versus the actual travel time?  
-- Understand how an individual resource is using their time to react and resolve, and whether an individual resource is under- or over-utilized compared to others.  
+To access the report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics** > **Reports**.
 
-Go to **Field Service** > **Resources** and find **Reports** under the **Analytics** section. 
+## Filters and slicers
+
+- **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
+- **Resource type**: <!--add-->
+- **Resource**: [Active bookable resources](set-up-bookable-resources.md).
+- **Booking status**: Available [Booking statuses](set-up-booking-statuses.md).
+
+## Report metrics
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
 
-Let's take a look at what each of these metrics are reporting. 
+### Avg. work time per day (hrs.)
 
-| Visuals |	Description |
+Average number of hours per day that the selected resources worked on a bookings in the selected time range.
+
+**Formula**
+
+(Total work time of the selected resources + Estimated travel time of the bookings in the selected time range) / Number of days of the bookings
+
+
+
+| Visual/Chart |	Description |
 | --- | --- |
 | Avg. work time per day (hrs.)  |	Average length of time per day that a technician(s) works at the customer site. Total length of work time per count of days in the given time range. |
 | Avg. travel time per day (hrs.) |	Average length of time per day that a technician(s) spends on travel. Total length of travel time per count of days in the given time range. 

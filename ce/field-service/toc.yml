@@ -339,13 +339,13 @@ items:
 
 - name: Reports
   items:
-    - name: Report overview
+    - name: Reports overview
       href: reports.md
-    - name: Work Order Summary report
+    - name: Work order summary report
       href: work-order-summary-report.md
-    - name: Resource and Utilization report
+    - name: Resource and utilization report
       href: resource-utilization-report.md
-    - name: Optimization Summary report
+    - name: Optimization summary report
       href: optimization-summary-report.md
     - name: Admin report
       href: rso-admin-report.md
@@ -353,6 +353,7 @@ items:
       href: analytics-predictive-work-duration.md
     - name: Manage reports
       href: filter-report.md
+
 - name: Field Service for end customers
   items: 
     - name: Customer experience homepages

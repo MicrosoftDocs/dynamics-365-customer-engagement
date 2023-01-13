@@ -46,6 +46,6 @@ Apply the filters to reports in Dynamics 365 Field Service and the Resource Sche
         - **Resource**: [Active bookable resources](set-up-bookable-resources.md) in Field Service.
         - **Booking status**: [Booking statuses](set-up-booking-statuses.md) in Field Service.
 
-<!-- change screenshot to show a report with more filters added-->
+<!-- change screenshot to show a report with more filters added--> 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
