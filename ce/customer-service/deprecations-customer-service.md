@@ -90,7 +90,7 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 
 Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8))
 
-## Customer Service Insights standalone app are deprecated
+## Customer Service Insights standalone app is deprecated
 
 The Customer Service Insights standalone app is deprecated. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications.
 
