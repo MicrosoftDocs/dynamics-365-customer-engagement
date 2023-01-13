@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms-service: dynamics-365
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 01/13/2023
 ms.custom: bap-template
 ---
