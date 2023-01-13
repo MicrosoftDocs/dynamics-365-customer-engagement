@@ -40,7 +40,7 @@ The Omnichannel for Customer Service agent-facing app will be deprecated as of A
 
 ## setContextProvider method for authenticated chat is deprecated
 
-The setContextProvider method for authenticated chat has been deprecated and aren't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md)
+The setContextProvider method for authenticated chat has been deprecated and isn't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
@@ -72,7 +72,7 @@ Microsoft will continue to provide support and critical security updates for the
 
 ## Service scheduling in Dynamics 365 Customer Service is deprecated
 
-The existing service scheduling functionality is deprecated, and is longer be available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is now available in Unified Interface.
+The existing service scheduling functionality is deprecated, and is longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is now available in Unified Interface.
 
 Existing service scheduling users will be provided advance notice for a time bound migration to the new scheduling capabilities.
 
