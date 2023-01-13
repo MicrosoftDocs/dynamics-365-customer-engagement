@@ -143,7 +143,7 @@ In Customer Service workspace and Omnichannel for Customer Service, smart assist
 
 - In the app side pane, select the **Smart assist** (light bulb) icon to view knowledge article suggestions that are related to your case.
 
-## Use the suggest-as-you-type option
+## Use suggest-as-you-type
 
 The suggest-as-you-type feature starts suggesting relevant knowledge articles as you type keywords in the search box.
 
