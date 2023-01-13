@@ -48,7 +48,7 @@ search.app:
 > - When using Dynamics 365 for Outlook version 9.0 in offline mode, attachments to synchronized records won't be available in the offline mode. If there is an attachment to a record, the attachment will only be available when you are back online. If you added an attachment to a record in offline mode, the attachment will be synchronized to the server when you are back online. To use attachments in offline mode, consider saving the attachment your device.
 > - The offline capability in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] version 9.0 is not available in Dynamics 365 Customer Engagement (on-premises). 
 > - Customizations that have dependency on the SQL database engine and the local offline instance of Dynamics 365 for Outlook aren't supported.
-> - Microsoft Dynamics 365 for Outlook is not enabled on [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro).
+> - Microsoft Dynamics 365 for Outlook is not enabled on [Dataverse](/power-apps/maker/data-platform/data-platform-intro).
  
   
 ## Dynamics 365 for Outlook synchronization concepts  

@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 04/26/2022
+ms.date: 01/11/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -26,7 +26,7 @@ Dynamics 365 digital selling capabilities spearhead the digital transformation o
 In the Sales Hub app, you can set up digital selling capabilities from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
-> If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there will be no monthly capacity limit.
+> If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit.
 
 <br>
 
@@ -40,7 +40,7 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
 |Feature  |Sales Enterprise license  |Sales Premium license  |
 |---------|---------|---------|
 |Sales accelerator     | 1,500 sequence-connected records per month        |  No limit       |
-|Conversation intelligence     |Three hours of conversation intelligence (recording and processing) per month. To buy more hours, upgrade to Sales Premium license.         | 10 hours of conversation intelligence (recording and processing) per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours).        |
+|Conversation intelligence     |Three hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, upgrade to Sales Premium license.         | 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours).        |
 |Predictive lead and opportunity scoring     | 1,500 records per month        | No limit        |
 
 1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.

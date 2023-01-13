@@ -82,7 +82,7 @@ To add the Apple Messages for Business channel instance, complete the following 
 1. In **Advanced settings**, configure the following options based on your business needs:<br>
       - [Sessions](/app-profile-manager/session-templates.md)<br>
       - [Agent notifications](/app-profile-manager/notification-templates#out-of-the-box-notification-templates.md)<br>
-      - [Context variables](context-variables-for-bot.md#add-context-variables)<br>
+      - [Context variables](manage-context-variables.md#add-context-variables)<br>
       - [Smart assist bots](smart-assist-bot.md)<br>
       - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages](create-rich-messages.md)<br>

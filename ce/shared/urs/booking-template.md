@@ -19,7 +19,7 @@ Each schedule board and each scheduling-enabled entity (such as work orders, pro
 
 The HTML that displays these values is:
 
-    <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div> 
+```<div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>```
 
 To edit the HTML that controls the booking template, double-click the name of the schedule board tab, then scroll down to the **Schedule Types** section and select the entity on the left for which you would like to change the booking template. 
  
@@ -36,13 +36,14 @@ Next, modify the booking template by deleting the existing value and entering HT
 
 Here is an example that pulls values from the work order that relates to the booking.
 
-    <div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
-    WO: 
-    <B>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_name}</B><br/>
-    Account: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.name}</b><br/>
-    Incident: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}</b><br/>
-    Duration: <b>{duration} minutes</b><br/>
-    </div>
+```<div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
+WO: 
+<B>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_name}</B><br/>
+Account: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.name}</b><br/>
+Incident: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}</b><br/>
+Duration: <b>{duration} minutes</b><br/>
+</div>
+```
 
 Enter the sample text above and select **Apply**.
 
@@ -94,34 +95,35 @@ Go to **Resource Scheduling > Administration > Scheduling Parameters** and set *
 
 Next, add the following HTML and CSS text to **Booking Template** field in **Schedule Board Tab Settings**. 
 
-    <div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
-    <div class="back-stars" style="color: #AAAAAA; position: relative; display:inline-block;">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-    <div class="customerrating" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.new_customerrating}0%; color: #FFBC0B; position: absolute; top: 0; left:0; overflow: hidden; display:-webkit-box">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
-    </div>
-    <div class="repair-back" style="color: #AAAAAA; position: relative; display:inline-block; padding-left:10px; vertical-align:text-top;">
-        <i class="fa fa-wrench" aria-hidden="true"></i>
-    <div class="repair" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.new_isservicecall}00%; color: #FFBC0B; position: absolute; top: 0; left:0; padding-left:10px; overflow: hidden; display:-webkit-box">
-        <i class="fa fa-wrench" aria-hidden="true"></i>
-    </div>
-    </div>
-    <br/>
-    WO:
-    <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_name}</b><br/>
-    Account: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.name}</b><br/>
-    Incident: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}</b><br/>
-    Duration: <b>{duration} minutes</b><br/>
-    </div>
+```<div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
+<div class="back-stars" style="color: #AAAAAA; position: relative; display:inline-block;">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+<div class="customerrating" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.new_customerrating}0%; color: #FFBC0B; position: absolute; top: 0; left:0; overflow: hidden; display:-webkit-box">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+</div>
+</div>
+<div class="repair-back" style="color: #AAAAAA; position: relative; display:inline-block; padding-left:10px; vertical-align:text-top;">
+    <i class="fa fa-wrench" aria-hidden="true"></i>
+<div class="repair" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.new_isservicecall}00%; color: #FFBC0B; position: absolute; top: 0; left:0; padding-left:10px; overflow: hidden; display:-webkit-box">
+    <i class="fa fa-wrench" aria-hidden="true"></i>
+</div>
+</div>
+<br/>
+WO:
+<b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_name}</b><br/>
+Account: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.name}</b><br/>
+Incident: <b>{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}</b><br/>
+Duration: <b>{duration} minutes</b><br/>
+</div>
+```
 
 
 See the result of the change in the following screenshot.

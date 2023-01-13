@@ -1,8 +1,7 @@
 ---
 title: "Uninstall Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to remove Dynamics 365 Marketing from a Dynamics 365 instance."
-ms.date: 02/10/2020
-
+ms.date: 07/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -39,7 +38,7 @@ The Marketing uninstall wizard handles most of the uninstall process. The uninst
 
 To run the uninstall wizard:
 
-1. If you have sample data installed, remove it. More information: [Manage sample data](additional-settings.md).
+1. If you have sample data installed, remove it. More information: [Add or remove sample data](/power-platform/admin/add-remove-sample-data).
 
 1. [Run the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is listed.
 

@@ -33,6 +33,10 @@ The Topics dashboard shows a detailed breakdown of cases and their assigned topi
 
 To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
 
+### Access the Topics dashboard
+
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
+
 ## Key insights card
 
 ![Topics Key insights discovery card.](media/topics-key-insights-card.png "Topics Key insights discovered card")
@@ -110,9 +114,9 @@ The topics capability in the Customer Service historical analytics reports comes
 
 ### See also
 
-- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
-- [Summary dashboard](summary-dashboard-cs.md) <br>
-- [Agent dashboard](agent-dashboard-cs.md) 
-
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Summary dashboard](summary-dashboard-cs.md)  
+[Agent dashboard](agent-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

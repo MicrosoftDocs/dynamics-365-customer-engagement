@@ -1,6 +1,6 @@
 ---
 title: "Sample: Detect solution dependencies | MicrosoftDocs"
-description: ""
+description: Learn how to detect dependencies before deleting a solution component with this code sample for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
 ms.date: 04/02/2020
 

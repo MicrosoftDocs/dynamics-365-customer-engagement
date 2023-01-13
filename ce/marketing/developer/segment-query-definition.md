@@ -210,7 +210,8 @@ Grammar definition describes how you can use the query language.
 |filterFunction|FILTER(propertyCondition)| 
 |propertyCondition| comparisonCondition or notFunction or logicalCondition or stringComparisonCondition or nullFunction| 
 |comparisonCondition|  valueExpression comparisonOperator valueExpression (valueExpression comparisonOperator valueExpression)|
-|valueExpression |booleanValue or string  or number or aliasedIdentifier or dateDiffFunction or dateAddFunction or dateFunction or dateTimeUtcNowFunction or arithmeticOperation| |booleanValue | True or False| 
+|valueExpression |booleanValue or string  or number or aliasedIdentifier or dateDiffFunction or dateAddFunction or dateFunction or dateTimeUtcNowFunction or arithmeticOperation| 
+|booleanValue | True or False| 
 |aliasedIdentifier| identifier or identifier.identifier| 
 |dateDiffFunction| DATEDIFF(datePart,valueExpression,valueExpression)| 
 |datePart |YEAR MONTH  DAY  HOUR  MINUTE SECOND  MILLISECOND |

@@ -131,7 +131,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
 
 Assistant tutorials are available for you to learn how to create custom insight cards by using minimal or no code through Power Automate. Using the tutorials, you learn from creating a basic custom insight, a "hello world" equivalent, and gradually increase the complexity as you go along.
 
-More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/learn/modules/sales-insights-lab/)
+More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/training/modules/sales-insights-lab/)
 
 ## Disable teasers
 

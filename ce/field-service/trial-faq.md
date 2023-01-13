@@ -1,13 +1,13 @@
 ---  
 title: "Trial FAQ - Dynamics 365 Field Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Field Service trial setup and management. Learn how to resolve platform and app-specific issues"
-author: FieldServiceDave
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 ms.date: 10/01/2021
 ms.topic: get-started
 
 ms.custom: template-trial-faq
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ---
 
 # Dynamics 365 Field Service trial FAQ 

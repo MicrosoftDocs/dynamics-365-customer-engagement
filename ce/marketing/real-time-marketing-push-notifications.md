@@ -1,7 +1,7 @@
 ---
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 05/11/2022
+ms.date: 08/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,14 +21,21 @@ search.app:
 
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
-You can send push messages as part of real-time journeys, similar to other outbound messages like SMS.
-
-> [!Note]
-> Availability of this feature in the United Arab Emirates will be communicated at a later date.
+You can send push messages as part of real-time journeys, similar to other outbound messages like text messages.
 
 ## Create a mobile app configuration
 
-To send push notification messages to your customers, you first need to set up at least one *Mobile app configuration*. To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New** on the top ribbon.
+To send push notification messages to your customers, you'll first need to set up at least one *Mobile app configuration*. 
+
+> [!IMPORTANT]
+> If the user or team who is going to create a mobile application has admin privileges, then no further action is required.
+>
+> If the user or team who is going to create a mobile application doesn't have admin privileges, then an admin needs to complete the following steps:
+> 1. Go to **Advanced Settings** > **Security** > **Field Security Profiles** > **Marketers - Mobile app secrets**.
+> 2. Add the corresponding user or team as members.
+> 3. Save and close.
+
+To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New** on the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Mobile app configuration screenshot.](media/real-time-marketing-mobile-config.png)

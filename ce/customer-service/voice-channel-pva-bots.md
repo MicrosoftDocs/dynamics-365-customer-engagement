@@ -4,7 +4,7 @@ description: "Learn about how to add a Power Virtual Agents bot for using in voi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 12/12/2022
 ms.topic: article
 
 ms.custom: intro-internal
@@ -31,10 +31,6 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
-- Manually install the following extensions for voice hand-off in the specified order if they aren't installed:
-   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
-   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
-   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
 
 ## Configure a bot for voice
 
@@ -93,6 +89,8 @@ More information:
 
    5. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
+> [!IMPORTANT]
+> In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an end of conversation message for the call to end in Omnichannel for Customer Service. See: [End a bot conversation](configure-bot-virtual-agent.md).
 
 ### See also
 

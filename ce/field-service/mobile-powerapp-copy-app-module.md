@@ -2,15 +2,15 @@
 title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to make a custom app module for the Field Service (Dynamics 365) mobile app.
 ms.date: 05/21/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: Andrea-Orimoto
+ms.author: andreo
 manager: shellyha
 search.app:
 - D365CE
@@ -101,7 +101,7 @@ To make the app module available to the Field Service mobile app:
 
 ```
                 <appsettings>
-                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
+                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
                 <value>FieldServiceMobile</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>
@@ -109,7 +109,7 @@ To make the app module available to the Field Service mobile app:
                 </settingdefinitionid>
                 </appsetting>
                 
-                <appsetting uniquename="new_CustomAppModule_ServerMode">
+                <appsetting uniquename="new_CustomAppModule_ServerMode">
                 <value>false</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>

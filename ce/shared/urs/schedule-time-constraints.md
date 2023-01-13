@@ -7,36 +7,9 @@ This is done by entering date and time values on the work order form in the pref
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order.](../../field-service/media/scheduling-time-constraint-work-order-fields.png)
+> ![Screenshot of a work order set to Active for forty five hours.](../../field-service/media/scheduling-time-constraint-work-order-fields.png)
 
-For instance, we will consider the following scheduling scenarios throughout this topic: 
-
-**Scenario 1: Schedule between two dates**
-
-An installation work order must be scheduled and is expected to be completed this week.
-
-- Example: 9/10/2019 - 9/15/2019
-- Enter **Date window start** and **Date window end**
-- Considered by schedule assistant and Resource Scheduling Optimization (RSO)
-
-**Scenario 2: Schedule between two times of day**
-
- A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
-
-- Example: 9:00 AM - 5:00 PM
-- Enter **Time window start** and **Time window end**
-- Considered by RSO
-
-**Scenario 3: Schedule between two dates and times**
-
-An inspection work order should be automatically scheduled for completion in the afternoon some day within the next two weeks.
-
-- Example: 9/10/2019 9:00 AM - 9/11/2019 5:00 PM
-- Enter **Time from promised** and **Time to promised**
-- Considered by the schedule board, schedule assistant, and RSO
-
-Let's configure these 3 scenarios to understand how dispatchers can schedule work orders within time constraints. 
-
+In this article, we'll review some scenarios.
 
 ## Prerequisites
 
@@ -87,7 +60,7 @@ These values will be passed to the related requirement and appear as new filters
 **Time From Promised** and **Time To Promised** implies that the estimated arrival time must fall within the time range for which the resource has availability for the duration of the work order. This is based on the resource's working hours, and is not necessarily completed before the end of **Time To Promised**. This differs from date window start and end.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board.](../../field-service/media/scheduling-time-constraint-schedule-board-promised.png)
+> ![Screenshot of the schedule board, showing an incorrect five fifteen PM Time Promised and a correct eight AM Time Promised.](../../field-service/media/scheduling-time-constraint-schedule-board-promised.png)
 
 Furthermore, when manually dragging and dropping a requirement on the schedule board, a popup will warn the dispatcher if the estimated arrival time falls within the promised time window or not.
 
@@ -107,7 +80,7 @@ First, on the work order, set a date range in the **Date Window Start** and **Da
 Next, set a **Time Window Start** and **Time Window End** that represents a time of day the work order should be automatically scheduled.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order.](../../field-service/media/scheduling-time-constraint-work-order-rso-window.png)
+> ![Screenshot of a work order set to Active for fifty seven minutes.](../../field-service/media/scheduling-time-constraint-work-order-rso-window.png)
 
 > [!Note]
 > For this scenario, we recommend using **Date Window** along with **Time Window** rather than **Time Promised**, as **Time Promised** will take priority over the other parameters during optimization.
@@ -121,7 +94,7 @@ When setting up RSO, make sure **Scheduling Windows** is a constraint in the opt
 After running RSO, you'll see the results on the schedule board. In our example, the work order could have been scheduled for either 9/12 or 9/13 based on the date window of the work order; whichever day it is scheduled, it should be scheduled in the afternoon between 12:00 PM and 5:00 PM. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board.](../../field-service/media/scheduling-time-constraint-work-order-rso-schedule-board.png)
+> ![Screenshot of the schedule board, with an arrow pointing to the correct time.](../../field-service/media/scheduling-time-constraint-work-order-rso-schedule-board.png)
 
 ## Configuration considerations
 

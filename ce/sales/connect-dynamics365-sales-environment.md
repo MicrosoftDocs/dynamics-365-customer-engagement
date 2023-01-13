@@ -1,14 +1,12 @@
 ---
 title: "Connect conversation intelligence to an environment"
 description: "Use data source to connect or disconnect multiple environments with conversation intelligence."
-ms.date: 06/27/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 # Connect conversation intelligence to an environment  
 
@@ -22,6 +20,7 @@ At a time, you can have only one active environment that is connected to the app
 As an administrator, you must configure the environment to connect to conversation intelligence.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -32,7 +31,7 @@ As an administrator, you must configure the environment to connect to conversati
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation intelligence** application. 
+2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 

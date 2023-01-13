@@ -1,7 +1,7 @@
 ---
-title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/25/2022
+ms.date: 11/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,11 +24,11 @@ searchScope:
 - Customer Service
 ---
 
-# Automatically create or update records in Customer Service Hub
+# Automatically create or update records
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
-In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
+You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
 ## Set up rules for creating or updating records automatically
 
@@ -56,17 +56,16 @@ These activities can be converted to any default (system) entity records or cust
 
 Make sure that the following prerequisites are met:
 
-- Permission or role to create rules
-- Information on the queues for which you want to create the rules
+- Permissions, roles, and the Power Automate license to create automatic record creation rules.
+- Information on the queues for which you want to create the rules.
 
 ## Configure rules for creating or updating records automatically
 
 You can configure a rule that when active will be run for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
-
 You can configure the rules in the Customer Service admin center or Customer Service Hub app.
 
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the admin apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    

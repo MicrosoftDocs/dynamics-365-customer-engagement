@@ -2,14 +2,14 @@
 title: "Videos about Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn where to find videos about Dynamics 365 Field Service.
 ms.date: 08/30/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 search.app: 
   - D365CE
   - D365FS

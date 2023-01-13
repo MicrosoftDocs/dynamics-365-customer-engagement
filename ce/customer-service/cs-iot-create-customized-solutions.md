@@ -4,7 +4,7 @@ description: "Learn how to create customized IoT solutions in Connected Customer
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 

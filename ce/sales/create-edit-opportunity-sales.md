@@ -21,6 +21,7 @@ searchScope:
 Create an opportunity when your lead is almost ready to buy. With an opportunity, you can forecast sales revenue, set a potential close date, and factor in a probability for the sale to occur.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -30,14 +31,10 @@ Create an opportunity when your lead is almost ready to buy. With an opportunity
 
 Use one of the following methods to create an opportunity:
 
-- [Convert a lead to an opportunity](#convert-a-lead-to-an-opportunity). In this case,
+- [Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md), if the opportunity originated from a lead. In this case,
     - Information from the lead record is copied to the opportunity.
     - The lead and opportunity records are linked. All the activities and notes in the lead record also becomes available in the corresponding opportunity record. 
 - [Create a new opportunity](#create-a-new-opportunity) from scratch if it didn't originate from a lead.  
-
-## Convert a lead to an opportunity
-
-If the opportunity originated from an existing lead, qualify the lead and convert it to an opportunity. More information: [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
 
 ## Create a new opportunity
 

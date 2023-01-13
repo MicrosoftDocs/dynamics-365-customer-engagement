@@ -44,7 +44,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
    - **Resource name**: Enter a name for the resource. The resource name can contain only letters, numbers, and hyphens.
 1. Select **Deploy** to create and deploy the resource.
 
-Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable recording and SMS services](voice-channel-connect-existing-resource.md#enable-recording-and-sms-services).
+Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services).
 
 ### See also
 
@@ -58,6 +58,5 @@ Your new Azure resource is connected to Azure Communication Services. You can no
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)   
 [Import phone numbers](voice-channel-sync-from-acs.md)  
-[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

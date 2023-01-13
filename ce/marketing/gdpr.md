@@ -31,7 +31,7 @@ Here are some resources where you can learn more about how to bring your Dynamic
 - [Supporting Your EU GDPR Compliance Journey with Dynamics 365 Marketing](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=b26973bd-68c3-4507-b446-61a7f1b1f1f2&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). This white paper (downloadable PDF) will help you build a basic understanding of the GDPR and relate that to Dynamics 365 Marketing.
 - [Data Protection Resources](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers). This webpage includes links to compliance guides, white papers, FAQs, security reports, penetration tests, risk assessment tools, and other resources that apply to a wide range of Microsoft products.
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft 365 help you secure personal data and meet strict GDPR privacy requirements.
-- [Microsoft Compliance Manager](https://aka.ms/compliancemanager). This webpage includes links to information about control management, integrated task assignment, evidence collection, and audit-ready reporting tools to streamline your compliance workflow.
+- [Microsoft Purview Compliance Manager](https://aka.ms/compliancemanager). This webpage includes links to information about control management, integrated task assignment, evidence collection, and audit-ready reporting tools to streamline your compliance workflow.
 
 ## Prepare Dynamics 365 Marketing for GDPR compliance
 

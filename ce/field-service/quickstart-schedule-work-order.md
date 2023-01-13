@@ -2,11 +2,11 @@
 title: "Quickstart: Set up users to create, schedule, and view work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: This quickstart walks through how to set up users to create, schedule, and view work orders in Dynamics 365 Field Service.
 ms.date: 04/01/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: FeifeiQiu
+ms.author: feiqiu
 manager: shellyha
 search.app: 
   - D365CE
@@ -190,10 +190,5 @@ Add the two users you created if they are not already added.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the new users.](./media/quickstart-ppac-users-add.png)
-
-## See also
-
-- [Perform initial configurations](perform-initial-configurations-setup.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

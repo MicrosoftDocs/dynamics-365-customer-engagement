@@ -1,5 +1,6 @@
 ---
 title: "Track Outlook appointments in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to track Outlook appointments using a manual process in Dynamics 365 for Outlook to separate personal and Customer Engagement appointments.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:

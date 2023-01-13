@@ -2,11 +2,11 @@
 title: "Schedule a work order (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to schedule a work order in Dynamics 365 Field Service
 ms.date: 09/30/2017
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE
@@ -94,12 +94,4 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
   
 -   Select the **Actions** menu, and then select **Move Booking to Next Day**.  
   
-### See also   
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Create a work order](../field-service/create-work-order.md)   
- [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
- [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
- [User's Guide](../field-service/user-guide.md) 
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

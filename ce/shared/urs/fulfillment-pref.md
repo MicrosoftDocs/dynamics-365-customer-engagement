@@ -117,7 +117,7 @@ To set up time groups, you need to:
 Navigate to the resource requirement you want to schedule, and specify the fulfillment preference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fulfillment preference lookup on requirement.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-requirement-form.png)
+> ![Screenshot of fulfillment preference lookup on requirement under the scheduling tab.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-requirement-form.png)
 
 
 ### Book the requirement with the schedule assistant

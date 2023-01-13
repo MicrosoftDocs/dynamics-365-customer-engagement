@@ -3,16 +3,14 @@ title: "Use the assistant to gain insights and guide customer communication (Dyn
 description: Use the assistant in Dynamics 365 App for Outlook to gain insights and guide customer communication
 ms.custom: 
 ms.date: 05/20/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer

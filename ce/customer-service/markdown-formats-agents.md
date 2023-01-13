@@ -1,10 +1,10 @@
 ---
 title: "Use Markdown to format messages | MicrosoftDocs"
-description: "Get information on Markdown formats that agents can use in Omnichannel for Customer Service."
+description: "Read this article to know about the Markdown formats that agents can use in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/17/2022
+ms.date: 10/10/2022
 ms.topic: reference
 
 ---
@@ -22,7 +22,7 @@ ms.topic: reference
 In Omnichannel for Customer Service, you can use Markdown to format messages when you interact with customers over chat and social channels.
 
 > [!NOTE]
-> To be able to use Markdown in chat and social channels, your administrator must enable the Markdown settings under **Agent experience** in the Customer Service admin center or Omnichannel admin center app. More information: [Enable formatted messages](enable-formatted-messages.md)
+> You can use Markdown in chat and social channels only if your administrator has enabled the Markdown settings under **Agent experience** in the Customer Service admin center or Omnichannel admin center app. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 
@@ -30,9 +30,9 @@ Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, 
 
 The following table lists the Markdown formats that you can use for your chat messages in Omnichannel for Customer Service. 
 
-|  Text style                    |    You type...                  | The text displays as...  |
+|  Text style               |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
-| bold                      | \*bold\*                             | **text**                 |
+| bold                      | \*\*bold\*\*                             | **text**                 |
 | italics                   | \_italics\_                          | *text*                   |
 | strikethrough             | ~strikethrough~                      | ~~text~~                 |
 | blockquote                | > blockquote                         | <blockquote>text</blockquote>  |
@@ -40,11 +40,12 @@ The following table lists the Markdown formats that you can use for your chat me
 | hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
 | hyperlink with text       | [text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
-| numbered list             |  \<number\> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
+| numbered list             |  \<number\> item one                 |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
+| new line                | Paragraph 1 \<br\> Paragraph 2 \<\/br\>  | Paragraph 1 <br> Paragraph 2 </br>            |
 
 > [!Note]
-> We currently do not support line breaks in Markdown for messages.
+> Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
 ### See also
 

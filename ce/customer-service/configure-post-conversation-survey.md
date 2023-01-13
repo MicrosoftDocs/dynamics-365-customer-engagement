@@ -1,7 +1,7 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -100,7 +100,9 @@ For Live chat conversations, customers can receive survey questions within the s
 > [!NOTE]
 > The surveys that you create and the survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
-### Configure the survey in Omnichannel Administration
+#### Configure the survey in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. Go to **Channels**, and select a channel for which you want to configure a post-conversation survey.
 
@@ -125,8 +127,6 @@ For Live chat conversations, customers can receive survey questions within the s
 
 8. Select **Save**.
 
-    > [!div class=mx-imgBorder]
-    > ![Post-conversation survey.](media/oc-post-conversation-survey.png "Post-conversation survey")
 
 ### See also
 

@@ -1,19 +1,20 @@
 ---
 title: "Monitor call and insight processing in conversation intelligence"
 description: "Monitor the processing status of call to verify the call is processed successfully or an error is occurred."
-ms.date: 10/26/2021
+ms.date: 09/30/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Monitor call and insight processing    
+# Monitor call and insight processing  
 
-As a user of conversation intelligence, you might want to track and understand the status of calls with customers. The **System monitoring** page in the conversation intelligence application helps you ensure that the calls were successfully processed. You can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, you can view the reasons for each error and take the appropriate steps.
+As a user of conversation intelligence, you might want to track and understand the status of calls with customers. The **System monitoring** page in the conversation intelligence app helps you ensure that the calls were successfully processed. You can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, you can view the reasons for each error and take the appropriate steps.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -32,9 +33,7 @@ The call processing information you can view and track on the page depends on th
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation intelligence** application. 
-
-3.	Select **System monitoring** to open the system monitoring page.
+2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/) and select **System Monitoring** to open the system monitoring page.
 
     > [!div class="mx-imgBorder"]
     > ![Select system monitoring](media/si-app-admin-select-system-monitoring.png "Select system monitoring")

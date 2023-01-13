@@ -2,14 +2,14 @@
 title: "Tour the Universal Resource Scheduling assistant in Dynamics 365"
 description: "The schedule assistant helps dispatchers match jobs with the right resources. Take a tour of the system for a high-level overview of how it works."
 ms.date: 06/18/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

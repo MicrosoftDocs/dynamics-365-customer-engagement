@@ -2,15 +2,15 @@
 title: "Customize the schedule board in Universal Resource Scheduling"
 description: "Learn how to customize the schedule board to help you meet business needs. Walk through an example to understand why and how to employ these customizations."
 ms.date: 03/29/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: krbjoran
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 search.app: 
   - D365CE

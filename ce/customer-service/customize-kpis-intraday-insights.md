@@ -155,13 +155,13 @@ The tables in the intraday insights dataset consists of entity attributes along 
 
 - **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [Queue Entity](developer/reference/entities/overview-entity-ref.md#queue-entity).
 
-- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
+- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9&preserve-view=true).
 
 - **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](developer/reference/entities/msdyn_presence.md#writable-attributes).
 
 - **Queue**. To learn more about entity attributes for queue, see [Queue Entity](developer/reference/entities/overview-entity-ref.md#queue-entity).
 
-- **RoleBase**. To learn more about entity attributes for role base, see [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
+- **RoleBase**. To learn more about entity attributes for role base, see [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9&preserve-view=true).
 
 - **Session**. To learn more about entity attributes for session, see [msdyn_ocsession Entity Reference](developer/reference/entities/msdyn_ocsession.md).
 

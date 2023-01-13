@@ -71,6 +71,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 ![Transition from wrap-up to closed state.](media/oc-conversation-wrap-up1.png "Wrap-up state")
 
 ## Waiting
+
 > [!NOTE]
 > Waiting state applies only to asynchronous and persistent chats, and not live chats.
 

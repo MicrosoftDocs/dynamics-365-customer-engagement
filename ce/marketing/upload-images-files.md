@@ -35,7 +35,7 @@ Images are an important part of most marketing-page and marketing-email designs.
 > The maximum file size for uploaded images is 5 MB.
 
 > [!TIP]
-> If your Dynamics 365 Marketing environment was provisioned before May 2022, use of the asset library is provided at no extra charge. For new environments, images and files will be stored in the user's Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+> Images and files will be stored in the user's Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 ## Upload files to Dynamics 365
 

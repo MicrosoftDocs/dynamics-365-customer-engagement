@@ -1,7 +1,7 @@
 ---
 title: Customize the side panel to view record details during a meeting
 description: Learn how to customize the side panel to view record details during a meeting.
-ms.date: 04/20/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -15,7 +15,16 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
-Sellers can use the side panel to quickly view and update details of a record during a Teams meeting. It displays notes, tasks, and activities associated with the record. Sellers can also get real-time call analysis and insights during a Teams meeting by using conversation intelligence capabilities (if enabled).
+Sellers can use the side panel to quickly view and update details of a record during a Teams meeting. It displays notes, tasks, and activities associated with the record.
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
+| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
+
+## Customize the record side panel
 
 As an administrator, you can customize record details that should be displayed within the side panel to meet the needs of your users.
 

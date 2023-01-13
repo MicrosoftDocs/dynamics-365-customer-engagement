@@ -1,7 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 05/05/2022
+ms.date: 08/17/2022
 ms.custom: 
   - dyn365-marketing
   - intro-internal
@@ -34,9 +34,9 @@ Dynamics 365 Marketing consists of two primary modules, along with event managem
 ## Real-time marketing
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an real-time marketing trigger-based journey.](media/overview-live-journey.png "Screenshot of an real-time marketing trigger-based journey")
+> ![Screenshot of a real-time marketing trigger-based journey.](media/overview-live-journey.png "Screenshot of a real-time marketing trigger-based journey")
 
-Also known as customer journey orchestration, real-time marketing includes [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md), [custom triggers](real-time-marketing-custom-triggers.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
+Also known as customer journey orchestration, real-time marketing includes [trigger-based customer journeys](real-time-marketing-trigger-based-journey.md) that use [email](real-time-marketing-email.md), [text message](real-time-marketing-outbound-text-messaging.md) and [push notification](real-time-marketing-push-notifications.md) communication channels to reach customers. Real-time marketing allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
 
 - **Respond to customer actions in real time**: Respond in the moments that matter with real-time, trigger-based journeys.
 - **Hyper-personalize your messaging**: Personalize messages with dynamic text and images from a flexible set of data sources.
@@ -70,7 +70,7 @@ So, what’s the difference?
 
 ### Real-time marketing
 
-Real-time marketing is a scalable platform that allows you to engage with customers at specific moments. Engagement takes place through email and mobile channels and is based on customer signals and rich profile data. In other words, journeys are customer-led. Communication starts when a customer takes a specific action. For example, a customer scanning a concert ticket or connecting to in-store Wi-Fi can trigger delivery of personalized messages.
+Real-time marketing is a scalable platform that allows you to engage with customers at specific moments. Engagement takes place through email and mobile channels and is based on customer signals and rich profile data. In other words, journeys are customer-led. Communication starts when a customer takes a specific action. For example, a customer scanning a concert ticket or connecting to in-store Wi-Fi can trigger the delivery of personalized messages.
 
 You can start journeys with predefined triggers, or you can create custom events. Custom events give you the flexibility to bring in data from other systems with just a few lines of code. With this flexibility, you can design personalized experiences as customers interact with marketing, sales, service, and other departments across your organization.
 
@@ -78,29 +78,16 @@ Real-time marketing also supports segment-based journeys, allowing you to orches
 
 ### Outbound marketing
 
-Outbound marketing thrives in B2B marketing automation. You can send emails and newsletters, create forms and landing pages to capture leads that you can score, grade, and then hand off to sales. It also has a great feature for managing in-person events and webinars that includes seamless integration with Microsoft Teams. Out of the box, outbound marketing provides email and social channel capabilities, but you can also build you own custom channels. [Learn more about outbound marketing](user-guide.md).
+Outbound marketing thrives in B2B marketing automation. You can send emails and newsletters, create forms and landing pages to capture leads that you can score, grade, and then hand off to sales. It also has a great feature for managing in-person events and webinars that includes seamless integration with Microsoft Teams. Out of the box, outbound marketing provides email and social channel capabilities, but you can also build your own custom channels. [Learn more about outbound marketing](user-guide.md).
 
 > [!div class="mx-imgBorder"]
 > ![Outbound and real-time comparison.](media/overview-venn.png "Outbound and real-time comparison")
 
-As Dynamics 365 Marketing continues to evolve, the Venn diagram above will eventually merge, so you won't need to make the choice between outbound and real-time features. But until then, the following guidelines can help you decide which features to use and when.
-
 ### Which is right for your business?
 
-The approach will be different based on your current situation and what’s best for your business. You don’t need to choose one over the other, and will most likely use both modules to get the best from both sides.
+Real-time marketing is the next generation of Dynamics 365 Marketing features. As real-time marketing continues to evolve, almost all the current capabilities and features of outbound marketing will become available in real-time marketing, along with many more modern and enhanced capabilities. You should utilize real-time marketing unless there is a dependency on a specific feature or limitation that has not yet been addressed in real-time marketing.  
 
-If you are new to Dynamics 365 Marketing:
-
--	Explore the real-time capabilities and determine if they fit your needs. The real-time module is flexible and supports both trigger-based and segmented-based customer journeys.
--	If you are looking to collect new contacts or leads, use the forms and pages features in outbound marketing together with real-time marketing without the hassle of integration.
--	For lead capture, scoring, grading, and seamless hand off to Dynamics 365 Sales, start with outbound marketing.
--	Layer in real-time marketing to continue digital interactions with your customers in combination with the human interactions provided by your sales or service organization.
-
-If you are using Dynamics 365 Marketing today:
-
--	You may discover that real-time customer journeys unlock experiences that were difficult to realize using outbound marketing customer journeys. Don’t worry, existing customer journeys will continue to be supported!
--	Layer in real-time marketing to continue digital interactions with your customers in combination with the human interactions provided by your sales or service organization.
--	As the real-time and outbound areas gradually merge, you will find capabilities that will make it easy for you to move and reuse the assets that you have already built.
+Learn more about the differences between real-time and outbound features: [Real-time vs outbound marketing journeys!](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/realtime-vs-outbound-marketing-journeys).
 
 Check out our [latest release plans](/dynamics365/release-plans/) and the [What’s new page](whats-new-marketing.md) to learn about our monthly releases.
 

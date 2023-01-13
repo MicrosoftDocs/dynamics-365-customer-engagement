@@ -1,8 +1,7 @@
 ---
 title: "Administrator Guide (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 Marketing."
-ms.date: 04/01/2018
-
+ms.date: 07/22/2022
 ms.custom: 
   - dyn365-marketing
   - intro-internal
@@ -39,7 +38,7 @@ search.app:
 </td><td>
 
 <h2>Work with data</h2>
-<li><a href="additional-settings.md" data-raw-source="[Manage sample data](additional-settings.md)">Manage sample data</a></li>
+<li><a href="/power-platform/admin/add-remove-sample-data" data-raw-source="[Add or remove sample data](/power-platform/admin/add-remove-sample-data)">Add or remove sample data</a></li>
 <li><a href="business-management-settings.md#import" data-raw-source="[Import data and manage imports](business-management-settings.md#import)">Import data and manage imports</a></li>
 <li><a href="business-management-settings.md#export" data-raw-source="[Export data or templates](business-management-settings.md#export)">Export data or templates</a></li>
 <li><a href="business-management-settings.md#duplicate-detection" data-raw-source="[Manage duplicate detection](business-management-settings.md#duplicate-detection)">Manage duplicate detection</a></li>

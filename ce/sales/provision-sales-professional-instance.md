@@ -1,60 +1,53 @@
 ---
-title: "Provision an environment for Dynamics 365 Sales Professional"
-description: "Learn about provisioning a Power Platform environment for Dynamics 365 Sales Professional."
-ms.date: 06/27/2022
+title: Install the Sales Professional app
+description: Create a Power Platform environment if you don't already have one and install Dynamics 365 Sales Professional.
+ms.date: 09/08/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Provision an environment for Dynamics 365 Sales Professional
+# Install the Sales Professional app
 
-Congratulations on the purchase of the Sales Professional application. 
+The Sales Professional app provides essential sales force automation for organizations that have straightforward sales processes. With Sales Professional, your sellers can automate common, repetitive, daily tasks and focus on what matters. Before your organization can start using Sales Professional, you need to install the app in a Power Platform environment that has Dynamics 365 apps enabled.
+
+- If you have a Power Platform environment, [install the Sales Professional app](#install-the-sales-professional-app-in-an-existing-environment).
+- If you don't have a Power Platform environment already, [create one and install the Sales Professional app](#create-an-environment-for-sales-professional).
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator<br>You must be a global administrator of your Microsoft 365 org (tenant)<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
+## Install the Sales Professional app in an existing environment
 
+<a name="install-app"></a>
 
-Before you can start using the Sales Professional application, you need to do one of the following actions:
+You can install the Sales Professional app in any Power Platform environment that has Dynamics 365 apps enabled. For example, if you already have Dynamics 365 Customer Service, you can install Sales Professional in the same environment.
 
-- If you don't have an existing Power Platform environment with Dynamics 365 apps enabled, [provision a new environment and install the Sales Professional app](#provision-a-new-power-platform-environment-for-sales-professional) 
-- If you have an existing Power Platform environment with Dynamics 365 apps enabled, just [install the Sales Professional app on that environment](#install-the-sales-professional-app-on-an-existing-environment)
+[Install the Sales Professional app in a Power Platform environment](/power-platform/admin/manage-apps#install-an-app).
 
-> [!NOTE]
-> You must be a global administrator of your Microsoft 365 org (tenant) to perform both the above actions.
+After the app is installed, open the environment URL and select the **Sales Professional** app.
 
-## Provision a new Power Platform environment for Sales Professional
+> [!IMPORTANT]
+> If you see the **Sales Hub** app in your **Published Apps** list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
-1. Follow the instructions in [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database) in the Power Platform admin guide.
+## Create an environment for Sales Professional
 
-1. Select **Sales Pro** as app name to deploy in the environment.  
-    
-1. After the environment moves to **Ready** state, open the environment URL. 
+1. In the Power Platform admin center, [create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
 
-8.	In the list of application, select **Sales Professional**. 
-
-## Install the Sales Professional app on an existing environment
-
-<a name="install-app"> </a>
-
-You can install the Sales Professional app on an existing Power Platform environment, which is enabled for Dynamics 365 apps. For example, if you already have an environment for Dynamics 365 Customer Service, you can install the Sales Professional app on the same environment. 
-
-To install the app, follow the instructions in the [Power Platform documentation](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view).
-
-After the app is installed, open the environment URL and select the Sales Professional app.
-
-![Sales Professional app tile.](media/sales-professional-app-tile.png "Sales Professional app tile")
-
+1. After the environment moves to the **Ready** state, [install the Sales Professional app in the environment](/power-platform/admin/manage-apps#install-an-app).
+1. After the app is installed, open the environment URL and select the **Sales Professional** app.
+> [!IMPORTANT]
+> If you see the **Sales Hub** app in your **Published Apps** list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
 ### See also
+
 [Overview of Dynamics 365 Sales](overview.md)  
 [Overview of admin settings](admin-settings-overview.md)  
-[Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md) 
-
+[Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

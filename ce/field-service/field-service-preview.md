@@ -4,14 +4,14 @@ description: Learn how to install and use features available in preview for Dyna
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/18/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE
@@ -39,7 +39,7 @@ You can find the org ID in **Settings** > **Customizations** > **Developer Resou
 > [!div class="mx-imgBorder"]
 > ![Screenshot of developer resources in Field Service.](./media/preview-orgid.png)
 
-Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7).
+Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7&preserve-view=true).
 
 ## Step 1: Run PowerShell
 
@@ -162,11 +162,5 @@ Here is an example of the apps that may be in your Dynamics 365 environment *bef
 > ![Screenshot of the Power Platform admin center, showing details for Field Service.](./media/preview-environment-after-powerapps-admin.png)
 
 Select the Field Service app to access Field Service capabilities and the preview features.
-
-### See also
-
-- [Install Field Service](./install-field-service.md)
-- [Upgrade Field Service](./upgrade-field-service.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

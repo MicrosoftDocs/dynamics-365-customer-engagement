@@ -37,6 +37,10 @@ To view the Agent dashboard, go to Customer Service historical analytics and sel
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard Insights](media/customer-service-analytics-agent-dashboard.png "Agent dashboard insights")
 
+### Access the Agent dashboard
+
+[!INCLUDE[cc-navigation-cs](../includes/cc-navigation-cs.md)]
+
 ## Report details
 
 The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. The KPIs for the dashboard are displayed as seen in the following screenshot.
@@ -80,6 +84,7 @@ To access the drill down report, select any metric value for the required agent,
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Summary dashboard](summary-dashboard-cs.md)  
 [Topics dashboard](case-topics-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

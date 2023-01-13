@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+ms.date: 12/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,19 +20,21 @@ ms.custom:
 
 # Enable custom time calculation of SLA KPIs
 
-## Introduction
-
-This topic describes how you can override the default time calculation.
+This article describes how you can override the default time calculation.
 
 Time calculation in service-level agreements (SLAs) calculates the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs), taking into consideration input parameters, such as `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service schedule and the holiday schedule associated with the SLA item.
 
-In addition to warning and failure time, the elapsed time is also calculated if there is a pause and resume scenario configured for the SLA. To ignore the working hours spent during the paused state of the SLA KPI, the elapsed time gets added to the final failure time.
+In addition to warning and failure time, the elapsed time is also calculated if there's a pause and resume scenario configured for the SLA. To ignore the working hours spent during the paused state of the SLA KPI, the elapsed time gets added to the final failure time.
 
-To change the default time calculation and enable your own custom time calculation, you can define an API interface that has a fixed set of input and output parameters and add a custom logic to calculate the time.
+To enable your own custom time calculation, define an API interface that has a fixed set of input and output parameters, and add a custom logic to calculate the time.
+
+> [!NOTE]
+> Custom time calculation is only supported as part of plug-in and not any other entity, for example, custom workflow.
 
 ## Enable custom time calculation of SLA KPIs
 
-1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
+1. Go to [make.powerapps.com](https://make.powerapps.com).
+1. Go to **Advanced Settings** > **Customizations** > **Customize the system** > **Processes** > **New**.
 1. In the **Create Process** dialog, enter the following details:
     1. Enter a process name, for example, CustomPluginTime Calculation.
     1. From the **Category** dropdown list, select **Action** .
@@ -43,19 +45,31 @@ To change the default time calculation and enable your own custom time calculati
 
     :::image type="content" source="media/custom-time-cal-template.png" alt-text="Custom time calculation template":::
 
-1. On the template, add the required parameters.
+1. On the template, add the required parameters (if any) and select **Activate**.
 
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
-1. Write the plug-in and link it to the custom action created in step 2. For more information, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). To select the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins), later in this topic.
-1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation.
-1. Edit the relevant SLA item. In the **General** section, set the **Allow Custom Time Calculation** toggle to **Yes**.
-1. From the **Custom Time Calculation API** field, select the custom action you created in step 2, and then select **Save**.
-1. Activate your SLA, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
+1. [Write the plug-in](/powerapps/developer/data-platform/write-plug-in).
 
-If you need to export the solution to another environment, you can first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
+    For information on selecting the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins).
+1. Go to the Plug-in registration tool and register the plug-in that you created with your organization, to link it to the custom action created in step 3. 
 
-### Scenarios and plug-ins
+    For information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
+
+    :::image type="content" source="media/register-plug-in.png" alt-text="Register and link the plug-in":::
+
+1. In Customer Service admin center, add or edit the previously created custom action with the SLA Item:
+    1. Set the **Allow Custom Time Calculation** toggle to **Yes**.
+    1. In the **Custom Time Calculation Process** field, select the custom action created in step 3.
+    1. Select **Save and Close**.
+
+1. On the SLA form, select **Activate**, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
+
+    For information on how to apply SLAs, go to [Apply SLAs](apply-slas.md#apply-slas)
+
+1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA will also export the custom action workflow process. Next, include the SDK message in the solution, which will export the plug-in you created earlier.
+
+## Scenarios and plug-ins
 
 Refer to the following scenarios and their plug-ins to implement a plug-in code associated with your custom action.
 
@@ -187,7 +201,7 @@ private string CalculateWarningAndFailureTime(string regardingId, string calenda
 
 Scenario 2:
 
-If there is a pause or resume scenario, the following calculations are to be made:
+If there's a pause or resume scenario, the following calculations are to be made:
 
 - Calculation of `elapsedTime` between paused and resumed states.
 For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType will be `getElapsedTime` and other attributes can be fetched as defined in the plug-in code example.
@@ -196,24 +210,21 @@ For this scenario, the SLA invokes the custom time calculation API to calculate 
 ```
 private double CalculateElapsedTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime casePausedTime, DateTime caseResumedTime, int existingElapsedTime)
 {
-	OrganizationResponse customizedTimeCalculationResponse;
-
-	// Step 1: fetch the Case Entity record	
-	Entity caseRecord = FetchCaseRecord(entityName, regardingId);
-
-	// Example 1: Override calendar at runtime: Choose Calendar based on any custom logic
-	if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 0)
-	{
-		// fetch IST id
-		IST_CALENDAR = FetchCalendar("IST_CALENDAR", _service);
-		calendarId = IST_CALENDAR;
-	}
-	else if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 1)
-	{
-		// fetch PST  id
-		PST_CALENDAR = FetchCalendar("PST_CALENDAR", _service);
-		calendarId = PST_CALENDAR;
-	}
+    if (caseRecord.Attributes.Contains("new_country"))
+    {
+        if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 0)
+        {
+        // fetch IST id
+        IST_CALENDAR = FetchCalendar("IST_CALENDAR", _service);
+        calendarId = IST_CALENDAR;
+        }
+        else if ((int)(((OptionSetValue)(caseRecord.Attributes["new_country"])).Value) == 1)
+        {
+        // fetch PST  id
+        PST_CALENDAR = FetchCalendar("PST_CALENDAR", _service);
+        calendarId = PST_CALENDAR;
+        }
+    }
 
 	// use OOB SLATimeCalculation Custom Action to do actual calculation_
 	OrganizationRequest requestTimeCalculation = new OrganizationRequest("msdyn_SLATimeCalculation");
@@ -230,8 +241,8 @@ private double CalculateElapsedTime(string regardingId, string calendarId, strin
 }
 ```
 
-## FAQ
-For answers to frequently asked questions about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
+### FAQ
+For more information about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure a Twitter Direct Message channel | MicrosoftDocs"
 description: "Use this topic to get instructions to configure a Twitter Direct Message channel in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -22,11 +22,11 @@ The following are important prerequisites that you must complete before configur
 > [!NOTE]
 > To enable the Twitter channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](upgrade-omnichannel.md).
 
-1.	Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
-2.	Enable Direct Message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/using-twitter/direct-messages#receive)
-3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
-4.  Update the Twitter application permissions to read, write, and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
-
+- Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
+- Enable Direct Message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/using-twitter/direct-messages#receive)
+- Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
+- Update the Twitter application permissions to read, write, and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
+- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## Create a Twitter channel and add a Twitter handle
 
@@ -86,11 +86,11 @@ The following are important prerequisites that you must complete before configur
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](context-variables-for-bot.md#add-context-variables)
+   - [Context variables](manage-context-variables.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-### Create a Twitter channel and add a Twitter handle in Omnichannel Administration
+#### Create a Twitter channel and add a Twitter handle in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -114,16 +114,11 @@ The following are important prerequisites that you must complete before configur
 
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
-    > [!div class=mx-imgBorder]
-    > ![Register a Twitter application.](media/twitter-register-app.png "Register a Twitter application")
 
 3.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
 4. To save the Callback URL in the Twitter app dashboard of the developer portal, go to the Twitter developer portal > Twitter app dashboard > **Details** > **App details** > **Edit**. Copy the **Callback URL** from Omnichannel for Customer Service, and then paste it into the **Callback URLs** field.
  
-> [!div class=mx-imgBorder]
-> ![Twitter Callback information.](media/twitter-callback-information.png "Twitter Callback URL")
-
 5. Add a Twitter handle: In the **Twitter app** section, select **New Twitter handle** to add Twitter handles.
 
 6.	On the **New Twitter handle** page, in **Name**, enter a name that you can reference. It should not be the Twitter handle. 
@@ -147,30 +142,21 @@ The following are important prerequisites that you must complete before configur
        
        To learn more about uploading media in Twitter, see [Twitter developer documentation](https://developer.twitter.com/en/docs/media/upload-media/uploading-media/media-best-practices).
        
-       > [!div class=mx-imgBorder]
-       > ![Twitter work stream.](media/twitter-create-handle.png "Twitter work stream")
-
 2. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
 3.  On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 4.  Select **Save** to save the record. The Twitter channel setup is complete.
  
-> [!div class=mx-imgBorder]
-> ![Twitter channel enabled.](media/twitter-account-complete.png "Twitter channel enabled")
-
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
  
-### Create routing rules in Omnichannel Administration
+#### Create routing rules in Omnichannel Administration
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the out-of-the-box work stream or the one you created.
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Twitter Engagement Context**. For example, you can create a rule to transfer Twitter chat from a customer named Twitter to the default queue.
  
-> [!div class=mx-imgBorder]
-> ![Twitter routing rule creation.](media/twitter-create-routing-rule.png "Create Twitter routing rule")
-
 When you create conditions for routing rules, the **Twitter Engagement Context (Conversation)** entity enables you to set the following attributes:
 
   - Customer name 

@@ -1,5 +1,6 @@
 ---
 title: "Work offline with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn about working offline with Dynamics 365 for Outlook, the prerequisites for working offline, and what features are unavailable for the offline mode.
 ms.custom: 
 ms.date: 09/17/2018
 ms.reviewer: 

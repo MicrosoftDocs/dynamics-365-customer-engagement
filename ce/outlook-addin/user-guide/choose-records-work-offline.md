@@ -1,5 +1,6 @@
 ---
 title: "Choose records to work with offline in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to choose a subset of records in Dynamics 365 for Outlook to take for offline mode work by using offline synchronization filters.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 

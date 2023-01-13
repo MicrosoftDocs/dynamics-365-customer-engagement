@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
+description: Learn about the software requirements needed to install Microsoft Dynamics 365 for Outlook successfully.
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: 

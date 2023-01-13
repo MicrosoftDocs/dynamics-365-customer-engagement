@@ -2,17 +2,15 @@
 title: "Use deep links with the Field Service (Dynamics 365) mobile app | Microsoft Docs"
 description: Learn about how to configure deep links for the Field Service (Dynamics 365) mobile app
 ms.date: 06/09/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: krbjoran
-manager: shellyha
+author: Andrea-Orimoto
+ms.author: andreo
 search.app:
 - D365CE
 - D365FS
@@ -71,6 +69,4 @@ If the link goes to an `entitylist` view, add the following parameters.
 | Open a create form for Bookable resource booking | ms-apps-fs:// &lt;org-url&gt;\_&lt;app-id&gt;?tenantId=&lt;tenant-id&gt;&isShortcut=true&appType=AppModule&openApp=true&restartApp=true&forceOfflineDataSync=true&etn=bookableresourcebooking&pagetype=entityrecord&id=    |
 | Open a Bookable resource booking with id=xyz     | ms-apps-fs:// &lt;org-url&gt;\_&lt;app-id&gt;?tenantId=&lt;tenant-id&gt;&isShortcut=true&appType=AppModule&openApp=true&restartApp=true&forceOfflineDataSync=true&etn=bookableresourcebooking&pagetype=entityrecord&id=xyz |
 
-### See also
-
-[Set field values using parameters passed to a form](/dynamics365/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form?view=op-9-1&preserve-view=true)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

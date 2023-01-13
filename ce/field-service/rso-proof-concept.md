@@ -8,9 +8,9 @@ ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: FeifeiQiu
+ms.author: feiqiu
+ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS
@@ -315,16 +315,5 @@ Whatever method you use, make sure that you tailor the results to address busine
 ### Reviewing routes and booking details
 
 Reviewing specific routes with the client is another good way to drill into the differences achieved with different goals and objectives. By selecting a few specific **Resources** and **Territories**, you can run resource scheduling optimization schedules and output resulting bookings for comparison. Run resource scheduling optimization with different goals and objectives, then compare the same resource and territory to determine the objective that best meets the requirements. Be sure to point out these requirements may vary based on many factors such as time of the month, priority of the requirements, and controlling overtime, just to name a few possibilities. Identify these routes before you start and understand the criteria you will be reviewing with the client or prospect up front, so expectations are clear.
-
-## See also
-
-For more information about resource scheduling optimization, how it works, and how to use it, check out our following documentation:
-
-- [Resource scheduling optimization overview](rso-overview.md)
-- [Configuring resource scheduling optimization](rso-configuration.md)
-- [Scheduling optimization in resource scheduling optimization](rso-schedule-optimization.md)
-- [Resource scheduling optimization frequently asked questions](rso-faq.yml)
-- [Resource scheduling optimization quickstart](rso-quickstart.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

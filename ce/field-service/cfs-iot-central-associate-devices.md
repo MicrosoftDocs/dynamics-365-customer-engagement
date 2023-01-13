@@ -4,10 +4,10 @@ description: Learn how to associate devices with customer accounts in Connected 
 
 ms.subservice: connected-field-service
 ms.date: 09/24/2018
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
-ms.author: daclar
-author: FieldServiceDave
+ms.author: keithh
+author: MSKeith
 search.app: 
   - D365CE
   - D365FS

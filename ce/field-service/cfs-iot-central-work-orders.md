@@ -5,9 +5,9 @@ ms.date: 09/24/2018
 
 ms.subservice: connected-field-service
 ms.topic: article
-ms.author: daclar
-author: FieldServiceDave
-ms.reviewer: krbjoran
+ms.author: keithh
+author: MSKeith
+ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS
@@ -59,10 +59,10 @@ Note: Alternatively, you can navigate directly to [the Power Automate templates 
     f. **Note**: Running this flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions.](media/iot-central-work-orders-5.png)
+> ![Screenshot of the When a work order is created in CFS, update IOT Central template window showing the letters A and B referencing the instructions.](media/iot-central-work-orders-5.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions.](media/iot-central-work-orders-6.png)
+> ![Screenshot of the When a work order is created in CFS, update IOT Central template window showing the letters C, D, and E referencing the instructions.](media/iot-central-work-orders-6.png)
 
 1. Save the Flow to make it run.
 

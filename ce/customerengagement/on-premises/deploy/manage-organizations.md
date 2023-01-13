@@ -23,7 +23,7 @@ manager: kvivek
 Use the **Organizations** page to view, change, add, enable, disable, and import organizations for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&preserve-view=true).  
   
 ### View the Organizations page  
   

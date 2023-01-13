@@ -2,11 +2,11 @@
 title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDocs"
 description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
 ms.date: 02/18/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: xolee
+ms.author: jacoh
+author: jasonccohen
 manager: hegate
 search.app: 
   - D365CE
@@ -33,7 +33,7 @@ First, let's define the roles that are within of your workforce and understand h
 **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information on CFS security, see the article on [setting up security roles for Connected Field Service](cfs-security-roles.md).  
 
 ## Prerequisites 
-- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide).
+- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide&preserve-view=true).
 - You'll need either a free trial of Dynamics 365 Field Service, or have paid licenses. Learn more about [starting a free trial](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice).
 
 ## Step 1: Add users + assign Dynamics 365 Field Service licenses
@@ -45,7 +45,7 @@ See the topic on [Creating users and assigning security roles in the Power Platf
 
 2. In the left navigation bar, select **Users** > **Active Users**.
 
-3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
+3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ![Screenshot of adding users in Admin Center.](./media/Admin-Center-User.PNG)
 

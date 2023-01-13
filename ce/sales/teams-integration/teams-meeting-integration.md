@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams meeting integration in Sales Hub
 description: Learn how to create and join a Teams meeting from Sales Hub.
-ms.date: 04/20/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -20,7 +20,7 @@ Microsoft Teams meeting integration allows you to stay in the flow of work, whet
 - Create and join Teams meetings directly from Dynamics 365.
 - View and update Dynamics 365 records seamlessly in a Teams meeting.
 - Capture notes and tasks seamlessly during a Teams meeting. Your notes and tasks automatically sync to Dynamics 365.
-- Get real-time call analysis and insights during a Teams meeting with conversation intelligence.
+
 
 ## Meeting lifecycle
 
@@ -39,7 +39,6 @@ The lifecycle of a meeting can be divided into three stages, each with specific 
   - [Work with notes during a meeting](work-with-notes.md)
   - [Work with tasks during a meeting](work-with-tasks.md)
   - [Work with activities during a meeting](work-with-activities.md)
-  - [Use conversation intelligence capabilities](ci-capabilities.md)
 
 - **Post-meeting**
 
@@ -56,4 +55,4 @@ The lifecycle of a meeting can be divided into three stages, each with specific 
 [Work with notes during a meeting](work-with-notes.md)   
 [Work with tasks during a meeting](work-with-tasks.md)   
 [Work with activities during a meeting](work-with-activities.md)   
-[Conversation intelligence capabilities during a meeting](ci-capabilities.md)   
+   

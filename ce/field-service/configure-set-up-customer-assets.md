@@ -2,11 +2,11 @@
 title: "Asset servicing in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn all about asset management in Dynamics 365 Field Service
 ms.date: 01/11/2021
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE
@@ -81,7 +81,7 @@ Add a **Quantity** and set **Line Status** to **Used** on the work order product
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order showing the system status set to Open-Completed.](./media/customer-asset-work-order-complete.png)
 
-When a work order system status is set to **Open-Completed**, the system will automatically generate the customer asset record and associate it with the service account listed on the work order.
+When a work order system status is set to **Open-Completed** or **Closed-Posted**, the system will automatically generate the customer asset record and associate it with the service account listed on the work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of active customer assets.](./media/customer-asset-auto-new-list.png)
@@ -196,7 +196,7 @@ In practice, IoT alerts for a specific sensor will also tag the related customer
 ## Configuration considerations
 
 - A used work order product with quantity of **2** won't create two customer asset records; there will be a lookup reference to the work order product that will show the exact quantity.
-- It's common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile (Xamarin) app supports barcode scanning to populate fields and locate records in the system.
+- It's common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile app supports barcode scanning to populate fields and locate records in the system.
 - Only products where **Field Service Product Type** is set to **Inventory** or **Non-inventory** can be added to work orders. Only those products can be automatically converted to customer assets. However, when manually creating a customer asset, you can add all products. 
 
 ### Add customer assets from different accounts to work orders
@@ -231,20 +231,10 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
 ## Additional notes
 
 - [Booking alerts](./booking-alert.md), which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
-- Field Service Mobile (Xamarin) supports [adding 3D models to customer assets](../field-service/3D-viewer.md) that serve as three-dimensional knowledge articles. 3D models give technicians a better idea of the asset they're working on.
+
 - Use the **Check IoT Setup** ribbon button to check for information about the IoT setup such as, is IoT deployed, are there any devices in the environment. Manually doing this refresh may display more CFS ribbon items.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of a the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
-
-  
-### See also
-
-- [Create work order templates with incident types](../field-service/configure-incident-types.md) 
-- [Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)
-- [Adding 3D models to customer assets](../field-service/3D-viewer.md) 
-- [Asset properties](asset-properties.md)
-- [Define asset locations with functional location](assets-functional-location.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,12 @@
 ---
-title: Use sites to manage your service locations (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to use sites to manage your service locations in Dynamics 365 Customer Service
+title: Use sites to manage your service locations in Dynamics 365 Customer Service | MicrosoftDocs
+description: Learn about how to use sites to define where you provide service locations for customers in Dynamics 365 Customer Service.
 ms.date: 09/15/2017
 
 ms.topic: article
-ms.assetid: 5af40bb8-be4e-419d-a69a-640236b36174
-author: lalexms
-ms.author: laalexan
+author: jshotts
+ms.author: jasonshotts
+ms.reviewer: mhart
 manager: shellyha
 search.audienceType: 
   - admin
@@ -46,9 +46,4 @@ Create sites to define the locations where you provide service to your customers
   
 10. Click **Save and Close**.  
   
-### See also  
-
-[Schedule a service activity (Customer Service app)](../customer-service/schedule-service-activity-cs-app.md)
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

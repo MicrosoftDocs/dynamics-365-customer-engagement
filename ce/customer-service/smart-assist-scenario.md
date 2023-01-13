@@ -18,8 +18,8 @@ This topic provides information on how you can enable similar case suggestions i
 > [!IMPORTANT]
 > Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
 
-- You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
-- Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
+- You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
+- Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
 
 ## Scenario: Similar case suggestion
 

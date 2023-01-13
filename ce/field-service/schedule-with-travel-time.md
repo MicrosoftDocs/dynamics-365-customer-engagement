@@ -2,14 +2,14 @@
 title: "Schedule with travel time and distance in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to schedule with travel time and distance in Dynamics 365 Field Service
 ms.date: 06/25/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE

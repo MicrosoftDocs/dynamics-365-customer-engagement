@@ -2,14 +2,14 @@
 title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
 ms.date: 05/23/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: lmasieri
+ms.author: lmasieri
 manager: shellyha
 search.app: 
   - D365CE

@@ -22,7 +22,7 @@ manager: kvivek
 
 If you encounter any issues during organization import and upgrade, here are some tips for troubleshooting them:  
   
--   Make sure that the user account that’s running the import has administrative permissions for the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For more information about how to grant permissions in [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], see [Managing Logins, Users, and Schemas How-to Topics](/sql/relational-databases/security/authentication-access/managing-logins-users-and-schemas-how-to-topics?view=sql-server-2017).  
+-   Make sure that the user account that’s running the import has administrative permissions for the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For more information about how to grant permissions in [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], see [Managing Logins, Users, and Schemas How-to Topics](/sql/relational-databases/security/authentication-access/managing-logins-users-and-schemas-how-to-topics?view=sql-server-2017&preserve-view=true).  
   
 -   View the DMSnapin log file located in the following folder: \<*drive*:>%appdata%\Microsoft\MSCRM\Logs.  
   

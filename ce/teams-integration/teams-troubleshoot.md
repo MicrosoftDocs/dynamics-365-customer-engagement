@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 01/28/2022
+ms.date: 11/17/2022
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -234,6 +234,14 @@ If the page, which is showing the error message, contains a custom resource (Jav
 Whenever a member leaves the team where an entity record was pinned, the **Files** tab in Microsoft Teams, which shows the documents shared in the team won’t be visible anymore as the user would lose access to the team. However, the user can still go to the customer engagement app in Dynamics 365 and access the record that was pinned in the team and can access files in the **Documents** tab in the **Related** section.
 
 To disable the user from accessing to the documents in the record from the customer engagement app, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
+
+### Dynamics 365 app doesn't work on mobile devices
+
+The Dynamics 365 app is not supported on mobile devices.
+
+### Rich text fields in adaptive cards are not displayed correctly
+
+Rich text fields are not supported in adaptive cards and will not render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams does not support rich text formatting on fields in adaptive cards.
 
 
 

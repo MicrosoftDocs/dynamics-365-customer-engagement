@@ -1,5 +1,6 @@
 ---
 title: "Configure another organization to use with Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to configure multiple organizations for use in Dynamics 365 for Outlook using Dynamics CRM 2015 or later. 
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 

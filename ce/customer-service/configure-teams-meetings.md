@@ -1,7 +1,7 @@
 ---
 title: "Enable Microsoft Teams meetings in Customer Service | Microsoft Docs"
 description: "Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/19/2022
+ms.date: 09/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -33,9 +33,6 @@ The Microsoft Teams meeting integration feature allows your Dynamics 365 Custome
 
 By enabling this feature, you can help give agents and supervisors in your organization a cohesive, seamless experience between Dynamics 365 and Teams. Agents can use the meetings functionality to more efficiently meet their customers' needs.
 
-> [!Note]
-> Conversation Intelligence capabilities that are displayed in the user interface are applicable only to Dynamics 365 Sales users who have a premium license.
-
 ## Prerequisites
 To enable Teams integration in Customer Service, the following prerequisites must be met.
 
@@ -47,13 +44,20 @@ To enable Teams integration in Customer Service, the following prerequisites mus
 
 Complete the following steps to enable Teams meeting integration.
 
-1. In Customer Service Hub, on the lower-left corner of the screen, select **Change area** > **Service Management**.
+1. 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-1. On the site map, under **Collaboration**, select **Meeting integration using Teams (preview)**.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-1. Turn on the **Show Dynamics 365 data in Teams meetings (preview)** toggle.
+    1. In the site map, in **Agent experience**, select **Collaboration**.
+    
+    1. In **Meeting integration using Teams (preview)**, select **Manage**.
+   
+   ### [Customer Service Hub](#tab/customerservicehub) 
 
-    ![Show Dynamics 365 data in Teams meetings toggle.](media/show-teams-meetings-toggle.png)
+    1. In the site map, select **Service Management**.
+    2. On the site map, under **Collaboration**, select **Meeting integration using Teams (preview)**.
+
+1. Toggle **Show Dynamics 365 data in Teams meetings (preview)** to **Yes**.
     
 1. Select **Save**.
 

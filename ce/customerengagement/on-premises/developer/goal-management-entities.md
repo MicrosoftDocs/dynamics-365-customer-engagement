@@ -1,5 +1,6 @@
 ---
 title: "Goal management entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: Learn about goal management entities in Dynamics 365 Customer Engagement (on-premises) with a selection of topics and tutorials.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke

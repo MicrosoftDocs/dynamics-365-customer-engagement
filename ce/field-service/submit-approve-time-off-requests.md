@@ -1,12 +1,12 @@
 ---
 title: "Submit and approve time-off requests in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to submit and approve time-off requests in Dynamics 365 Field Service
-ms.date: 01/16/2020
-ms.reviewer: krbjoran
+ms.date: 08/24/2022
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: ryanchen8
+ms.author: chenryan
 manager: shellyha
 search.app: 
   - D365CE
@@ -50,7 +50,7 @@ Use the tooltips to help fill in your information, and then select **Save**.
 
 If the related resource requires an approval, a Field Service administrator or dispatcher can approve the request. 
   
-Log into Field Service as a user with the correct security role to approve time off requests (**Field Service-Administrator** or **Field Service-Dispatcher**).
+Log into Field Service as a user with the correct field security profile to approve time off requests (**Field Service-Administrator** or **Field Service-Dispatcher**).
 
 From the main menu, go to **Field Service** > **Time Off Requests**.
 
@@ -93,12 +93,6 @@ To **delete**, select and highlight the time-off and select the delete icon.
 
 ## Additional notes
 
-- Users with **Field Service-Administrator** or **Field Service-Resource** security roles can approve time-off requests.
+- Users with the **Field Service-Administrator** or **Field Service-Resource** field security profile can approve time-off requests.
   
-### See also  
-    
-- [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

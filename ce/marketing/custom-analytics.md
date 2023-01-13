@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 06/23/2022
+ms.date: 07/20/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -91,7 +91,7 @@ for a quick overview of all the data that is available for your marketing analyt
 
     ![Copy the URL.](media/custom-analytics-sas-created.png "Copy the URL")
 
-1. Sign into Dynamics 365 Marketing and go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing analytics configuration**. A list of marketing analytics configurations opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
+1. Sign into Dynamics 365 Marketing and go to the **Settings** area in the area switcher, then go to **Data management** > **Analytics configuration**. A list of marketing analytics configurations opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
 
 1. The **Marketing analytics configuration** page opens.
 

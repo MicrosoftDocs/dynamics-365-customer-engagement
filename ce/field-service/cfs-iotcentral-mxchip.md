@@ -2,15 +2,15 @@
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
 description: Learn how to set up and test IoT alerts from a real device for Connected Field Service
 ms.date: 5/15/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: D365JB
-ms.author: daclar
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app: 
   - D365CE
@@ -132,7 +132,7 @@ Select **+New Rule**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip page, showing the new rule option.](./media/cfs-mxchip-9.png)
+> ![Screenshot of the MX Chip page showing that the New Rule option is selected.](./media/cfs-mxchip-9.png)
 
 Select **Event** when presented the option.
 
@@ -150,7 +150,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new rule on the MXChip device template page, with all the fields filled out.](./media/cfs-mxchip-11.png)
+> ![Screenshot of the New Rule on the MX Chip device template page showing the fields filled out and that Save is selected.](./media/cfs-mxchip-11.png)
 
 
 ### High temperature alert rule
@@ -158,7 +158,7 @@ Then **Save**.
 Select **+New Rule** again.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the MXChip page, showing the new rule option.](./media/cfs-mxchip-12.png)
+> ![Screenshot of the MX Chip page displaying that the New Rule option is selected.](./media/cfs-mxchip-12.png)
 
 Select **Telemetry**.
 
@@ -178,7 +178,7 @@ Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new rule on the MXChip device template page, with all the fields filled out.](./media/cfs-mxchip-14.png)
+> ![Screenshot of the MX Chip device template page showing the filled Configure Telemetry Rule fields on the left side and a line graph on the right.](./media/cfs-mxchip-14.png)
 
 ## Set up Power Automate flows to create IoT Alerts
 
@@ -215,7 +215,7 @@ Enter the following information:
 Select **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate flow, with all the fields filled out.](./media/cfs-mxchip-18.png)
+> ![Screenshot of the Power Automate window with the fields filled out and Save selected.](./media/cfs-mxchip-18.png)
 
 Add **Temp Alert** to **Power Automate Name**.
 
@@ -230,7 +230,7 @@ Select **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate flow, with all the fields filled out.](./media/cfs-mxchip-19.png)
+> ![Screenshot of the Power Automate window displaying that the fields are filled out and Save is selected.](./media/cfs-mxchip-19.png)
 
 Go to **My Flows** and see newly created alert flows.
 
@@ -390,7 +390,6 @@ You should now see the device on the customer asset, under **Connected Devices**
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the customer asset, showing the MXChip under "Connected Devices".](./media/cfs-mxchip-36.png)
 
-
 ## See also
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoT Central](https://youtu.be/Sp7_JoXjHDk)
@@ -402,7 +401,5 @@ You should now see the device on the customer asset, under **Connected Devices**
 - [MXChip 2.1 Firmware on GitHub](https://github.com/Azure/iot-central-firmware/releases/tag/mxchip-v2.1.0)
 
 - [Overview of Connected Field Service with IoT Central](/dynamics365/customer-engagement/field-service/cfs-iot-overview)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

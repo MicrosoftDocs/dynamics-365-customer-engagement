@@ -1,7 +1,7 @@
 ---
 title: Insights generated from Microsoft 365 data
-description: Dynamics 365 can generate insights based on email interactions and meetings information from Microsoft 365. 
-ms.date: 07/06/2022
+description: Dynamics 365 Sales can generate insights based on email interactions and meetings information from Microsoft 365. 
+ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,63 +10,35 @@ manager: shujoshi
 
 # Insights generated from Microsoft 365 data
 
-This article describes the meaningful insights created from Microsoft 365 data by Dynamics 365 applications. The Microsoft 365 admin can turn on one or more of these options, allowing a copy of your company’s Microsoft 365 data to be copied into Dynamics 365 applications to be used by any authorized users of your company’s Dynamics 365 applications. 
+Dynamics 365 Sales uses your emails and meeting information from Exchange to generate the following relationship insights:
 
-If Microsoft 365 admins wish to add a new security group to their currently existing security groups, they must use the **Dynamics 365 Sales Insights- Connection Graph** toggle to specify their new security group. Currently opted out users and security groups are automatically transitioned over and will remain opted out, but new security groups must be specified in the **Dynamics 365 Sales Insights- Connection Graph** toggle. More information: [Opt out security groups of sharing data](provide-consent-office365.md#opt-out-security-groups-of-sharing-data) 
+- [Relationship analytics and health](#relationship-analytics-and-health)
+- [Who knows whom](#who-knows-whom)
 
-If Microsoft 365 users choose to opt out, their data will not be accessible to any Dynamics 365 applications. 
-
-When disabling these insights, it can take up to 24 hours for the data to be removed from all apps and up to 30 days for backed-up data to be removed from Microsoft 365 storage accounts. 
-
-The following sections include an incomplete list of Dynamics 365 applications using this data and are subject to change in the future.
- 
-## Insights for users 
-
-A user’s Microsoft 365 data, and insights derived from this data, are visible only to the user running the Dynamics 365 application. 
-
-**Type:** Detailed and aggregate 
-
-**Results visible to:** User running the Dynamics 365 application.  
-
-## Insights for the Org 
-
-Aggregated insights are generated based on Microsoft 365 data belonging to members of an org. This aggregated data is de-identified, and the insights are only made available to users in your company, including authorized guest users of Dynamics 365, and do not include data specific to individual users. It can be used to understand overall patterns and behaviors of groups. 
-
-**Type:** De-identified and aggregate 
-
-**Results visible:** Tenant wide 
-
-**Applications under insights for the org:**
-
-- Dynamics 365 Customer Insights: Office Enrichment 
-
-**Example and Scenario:** Dynamics 365 Customer Insights: Office Enrichment 
-
-Office Enrichment uses data from Microsoft Office 365 to enrich customer account profiles with insights about engagements through Office 365 apps. The engagement data consists of email and meeting activity, which is aggregated on the account level.  
-
-For example, the number of emails from a business account or the number of meetings with the account. No data about individual users is made available.  
-
-
-## Insights for Other Users 
-
-Microsoft 365 data about individual users, and insights derived from this data, are made available to other users in your organization. 
-
-**Type:** Detailed and aggregate 
-
-**Results visible:** Tenant wide 
-
-**Applications under insights for other users** 
-
-- Dynamics 365 Sales: Who Knows Whom 
-
-- Dynamics 365 Sales: Relationship Analytics	 
-
-**Example and Scenario:** Dynamics 365 Sales: Who Knows Whom 
-
-A user can leverage his network of colleagues—their user data—to see who can introduce them to a sales target at an external organization. 
-
- 
 > [!NOTE]
-> Microsoft 365 and Dynamics 365 each have their own service-specific licensing terms. The service-specific terms that apply depend on which service processes your data. For example, when a copy of your Microsoft 365 data is transferred to Dynamics 365, your Microsoft 365 data in that copy becomes Dynamics 365 data and the Dynamics 365 service-specific terms apply. 
+> If your organization is using Dynamics 365 Customer Insights, then your Exchange data will be used to enrich customer data. For more information, see [Enrich customer profiles with data from Microsoft Office 365](/dynamics365/customer-insights/enrichment-office).
 
- 
+Your Microsoft 365 admin needs to [provide consent](provide-consent-office365.md) to let Dynamics 365 collect and use Microsoft 365 data. For information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md).  
+
+As a user, if you'd like to opt out of sharing your data, you can [turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+
+
+## Relationship analytics and health
+
+Relationship analytics provides a comprehensive view of the overall health and trend of your business relationships based on your sellers interactions with your customers through emails and activities in Dynamics 365. It calculates the KPIs and activity histories for any contact, opportunity, lead, or account. With these insights, you can identify critical opportunities and customer relationships that need your attention.
+
+The following screenshot is an example of how relationship analytics data appears for open opportunities:
+
+:::image type="content" source="media/relationship-health-details-grid-view.png" alt-text="Screenshot of relationship health details for open opportunities in a grid view.":::
+
+For more information on how to set up and use this feature, go to [Configure relationship analytics and health](configure-relationship-analytics.md) and [Use relationship analytics to gather KPIs](relationship-analytics.md).
+
+## Who knows whom
+
+Who knows whom helps you identify colleagues who can introduce you to a lead or contact based on their email interactions with the lead. An introduction can increase the chances of a positive outcome. This feature provides you with details such as the names and email addresses of your colleagues and the strength of their connection to the lead.
+
+The following screenshot is an example of the **Who Knows Whom** widget on a lead page:
+
+:::image type="content" source="media/wkw_connection.png" alt-text="Screenshot of the Who Knows Whom connection widget showing contact details and connection strength.":::
+
+For more information on how to set up and use this feature, go to [Configure who knows whom](configure-who-knows-whom.md) and [How to get introduced to leads or contacts](who-knows-whom.md).

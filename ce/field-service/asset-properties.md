@@ -2,14 +2,14 @@
 title: "Asset properties in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use asset properties in Dynamics 365 Field Service.
 ms.date: 5/23/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE

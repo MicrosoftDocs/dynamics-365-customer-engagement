@@ -1,7 +1,7 @@
 ---
 title: "Data retention and deletion policy in conversation intelligence application"
 description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence application."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
@@ -19,6 +19,7 @@ topic-status: Drafting
 When you configure conversation intelligence, sales call recordings of sellers are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -28,7 +29,9 @@ When you configure conversation intelligence, sales call recordings of sellers a
 ## Configure data retention and access
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-2. Open the **Conversation intelligence** application.  
+
+2. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).
+  
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")  

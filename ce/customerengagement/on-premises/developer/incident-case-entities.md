@@ -46,7 +46,7 @@ In the Dynamics 365 Customer Engagement (on-premises) platform, *incident manage
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports the ability to track many incidents and activities. Many of these tasks overlap with activities in sales force automation. Routing and queuing is the process of moving activities and cases from the customer to the correct customer service representative for service request completion.  
 
 > [!IMPORTANT]
-> If you see the error `Incident does not have valid status code` when using the [Incident entity](entities/incident.md), make sure that you have used valid values for both [StateCode](entities/incident.md#BKMK_StateCode) and [StatusCode](entities/incident.md#BKMK_StatusCode) attributes in the request body while initiating any state change. See [StateCode Options](entities/incident.md#BKMK_StateCode_options) and [StatusCode options](entities/incident.md#BKMK_StatusCode_options) for the list of valid values for these two attributes.
+> If you see the error `Incident does not have valid status code` when using the [Incident entity](entities/incident.md), make sure that you have used valid values for both [StateCode](entities/incident.md#BKMK_StateCode) and [StatusCode](entities/incident.md#BKMK_StatusCode) attributes in the request body while initiating any state change.
 
 ## In This Section  
  [Incident Entity](entities/incident.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Auto capture in Dynamics 365 Sales"
 description: "Use the auto capture to capture activities related to your emails and contacts, and display on timeline."
-ms.date: 07/08/2022
+ms.date: 12/06/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -33,7 +33,7 @@ Use the auto capture to capture activities related to your emails and contacts, 
 The activities captured by the auto capture feature are shown on the timeline in Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
 
 >[!NOTE]
->The appointment suggestion start appearing on the timeLine three days prior to the actual appointment time.
+>The appointment suggestion starts appearing on the timeline three days prior to the actual appointment time.
 
 The following images show how tracked and auto-captured (not yet tracked) emails and meetings are displayed on the timeline:
 
@@ -62,7 +62,7 @@ Auto capture queries your Outlook account and looks for activities related to th
 |Entity type|Matches these field values to the To, CC, or From address of each email and meeting |  
 |-----------------|--------------------------------------------------------------------------------------|  
 |Account|**Email** address of the listed **Primary Contact**.<br /><br /> **Email** addresses of the top 50 contacts that have the account as their parent account.<br /><br /> All **Email** addresses defined for the account record itself.|  
-|Opportunity|**Email** address listed for the **Opportunity Contact**.<br /><br /> **Email** address of any contact in the **Stakeholders** list.<br /><br /> All **Email** addresses defined for the opportunity record itself.|  
+|Opportunity|**Email** address listed for the **Opportunity Contact**.<br /><br /> **Email** address of any contact in the **Stakeholders** list.<br /><br /> All **Email** addresses defined for the opportunity record itself.<br /><br />**Email** addresses of contacts of the account that is linked to the opportunity.<br /><br />If the opportunity is associated with a lead, **Email** address of the contact in the lead.|  
 |Lead|**Email** address listed in the **Contact** section.<br /><br /> All **Email** addresses defined for the lead record itself.|  
 |Contact|All **Email** addresses defined for the contact record.|  
 |Custom entities|For *account* fields: the email address for the **Primary Contact** of the account, plus all **Email** addresses defined for the account record itself.<br /><br /> For *contact* fields: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to a contact: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to an account: the **Email** address of the listed **Primary Contact**, plus all **Email** addresses defined for the account record itself.|  

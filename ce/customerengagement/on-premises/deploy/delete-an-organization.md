@@ -29,7 +29,7 @@ Before you can delete an organization, you must disable it. [Disable or enable a
 
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps) and [Remove-CrmOrganization](/powershell/module/microsoft.crm.powershell/remove-crmorganization?view=dynamics365ce-ps) commands.  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps&preserve-view=true) and [Remove-CrmOrganization](/powershell/module/microsoft.crm.powershell/remove-crmorganization?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ### Delete an organization  
   

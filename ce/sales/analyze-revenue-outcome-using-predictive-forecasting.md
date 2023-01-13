@@ -1,7 +1,7 @@
 ---
 title: "Analyze revenue outcome using predictive forecasting"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
-ms.date: 10/26/2021
+ms.date: 08/03/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -33,7 +33,10 @@ The **Prediction** column shows the predicted revenue for each seller and manage
 
 Review the following prerequisite before you start using predictive forecasting:
 
-  -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
+- Ensure that predictive opportunity scoring is enabled and at least one model is configured. To learn more, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).  
+
+-	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
+
 
 ### Prediction column
 

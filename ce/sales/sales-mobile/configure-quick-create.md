@@ -48,7 +48,7 @@ Quick creation is enabled only for a table or activity that has a quick view for
 Fields are obtained as an aggregation of the following:
 
 - Fields from the table's or activity's main quick view form
-- Fields that are ApplicationRequired (see [RequiredLevel](/dynamics365/customer-engagement/web-api/attributerequiredlevel?view=dynamics-ce-odata-9))
+- Fields that are ApplicationRequired (see [RequiredLevel](/dynamics365/customer-engagement/web-api/attributerequiredlevel?view=dynamics-ce-odata-9&preserve-view=true))
 
 ### Supported field types
 

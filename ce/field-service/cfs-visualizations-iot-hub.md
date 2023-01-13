@@ -2,15 +2,15 @@
 title: "Visualizing device readings with Connected Field Service| MicrosoftDocs"
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
 ms.date: 06/20/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+ms.author: keithh
+author: MSKeith
 manager: shellyha
 search.app: 
   - D365CE

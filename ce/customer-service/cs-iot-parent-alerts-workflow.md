@@ -4,11 +4,11 @@ description: "Learn how to link potential redundant IoT alerts to an existing pa
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 
-# IoT - Parent IoT Alerts workflow
+# The IoT - Parent IoT Alerts workflow
 
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
   

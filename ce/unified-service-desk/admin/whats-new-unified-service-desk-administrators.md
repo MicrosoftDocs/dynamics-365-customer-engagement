@@ -1,7 +1,7 @@
 ---
 title: "What's new in Unified Service Desk for administrators | MicrosoftDocs"
 description: "Learn about new features available for system administrators in the latest version of Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 01/02/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -26,6 +26,11 @@ monikerRange: '>= dynamics-usd-3'
 ## What's new in Unified Service Desk 4.2
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+
+### Prevent random running of scripts
+
+Unified Service Desk includes two new UII options **ValidateSecurityForUIIAction** and **ListOfActionsToValidate** that you can use to help prevent any random running of scripts using ShellExecute or RunScript. More information: [Prevent random running of scripts](prevent-running-scripts.md) and [Manage global options in Unified Service Desk](manage-options-unified-service-desk.md)
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
@@ -380,7 +385,7 @@ These are the limitations:
 - **Embedded intelligence**: Although you can view information from the relationship assistant in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you cannot interact with the information in the client. More information: [Embedded intelligence](/dynamics365/customer-engagement/sales-enterprise/embedded-intelligence)
 - **LinkedIn Sales Navigator for Microsoft Dynamics 365 Sales**:  This is not supported.
 - **Multi-select option sets**: Although multi-select option sets display fine when hosted in Unified Service Desk (using [CRM Page](../crm-page-hosted-control.md) type of hosted control), you cannot change selections in multi-select option sets using the Unified Service Desk APIs.
-- **URL addressability in business apps**:  Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: “https://<OrgName>.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.” Unified Service Desk does not support the usage of appid values in URLs to refer to a resource. More information: [Design custom business apps by using the app designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+- **URL addressability in business apps**:  Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: “https://\<OrgName>.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.” Unified Service Desk does not support the usage of appid values in URLs to refer to a resource. More information: [Design custom business apps by using the app designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]  
 

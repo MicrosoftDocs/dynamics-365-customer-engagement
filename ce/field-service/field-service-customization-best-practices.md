@@ -2,11 +2,11 @@
 title: "Best practices for customizing Dynamics 365 Field Service  | MicrosoftDocs"
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
 ms.date: 1/20/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: lmasieri
+ms.author: lmasieri
 manager: shellyha
 search.app:
 - D365CE
@@ -152,8 +152,4 @@ Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service
 
 Customizing the mobile app can also affect performance. For more information, see this article: [Performance considerations when customizing the mobile app](improve-mobile-performance.md)
 
-## See also
-
-- [Dynamics 365 Implementation guide](https://www.d365implementationguide.com/books/asvr/#p=243)
-- [Microsoft Dynamics 365 FastTrack TechTalks](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks?c=Field%20Service)
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "Use GDPR features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use GDPR features in Dynamics 365 Marketing."
-ms.date: 10/04/2021
-
+ms.date: 11/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -22,7 +21,7 @@ search.app:
 
 This article describes how to enable and use GDPR-related features in Dynamics 365 Marketing.
 
-## Enable GDPR features in outbound marketing and real-time marketing
+## Enable GDPR features in outbound marketing
 
 By default, GDPR features such as consent management are disabled on new Dynamics 365 Marketing installations.
 
@@ -58,7 +57,8 @@ You can set the minimum consent level for any customer journey. When set, the jo
 > [!div class="mx-imgBorder"]
 > ![Set the minimum required consent level for a customer journey.](media/gdpr-jouney3.png)
 
-If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
+> [!NOTE]
+> The minimum required consent level cannot be changed for live journeys.
 
 ## Set the minimum required consent level for lead scoring models
 
@@ -87,6 +87,9 @@ You can now create a marketing email message that includes a link to your subscr
 To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
 
 More information: [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
+
+> [!NOTE]
+> Double opt-in is not currently supported in real-time customer journeys.
 
 ## An example of how to support data requests from your marketing audience
 

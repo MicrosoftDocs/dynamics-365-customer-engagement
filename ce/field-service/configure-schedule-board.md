@@ -1,12 +1,12 @@
 ---
 title: "Use and configure the schedule board in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
-ms.date: 01/27/2022
-ms.reviewer: krbjoran
+ms.date: 08/15/2022
+ms.reviewer: mhart
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE
@@ -17,13 +17,13 @@ search.app:
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make. Before you use the schedule board, set up the views and filters to your preference.  
   
 > [!IMPORTANT]
->  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
->   
-> 1. From the main menu, go to **Resource Scheduling** > **Administration**.  
-> 2. Select **Scheduling parameters**.  
-> 3. Open the record and find the **Resource Scheduling Optimization** section.  
-> 4. On the **Connect to Maps** field, choose **Yes**.  
-> 5. Accept the terms and save the record.
+> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps. The schedule board isn't supported when using Field Service in Microsoft Teams.  
+>
+> 1. Open the **Resource Scheduling** app.
+> 1. Change to the Settings area and go to **Scheduling** > **Administration**.  
+> 1. Select **Scheduling parameters**.  
+> 1. On the General tab, set the **Connect to Maps** field to **Yes**.  
+> 1. Accept terms and **Save** your changes.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSg]
 
@@ -162,7 +162,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 - A window opens showing all the configuration options.  
   
-  -   Give the tab a name by filling in the **Name** field.  
+  -   Give the tab a name by filling in the **Name** field. Tab names won't be localized after creation in multi-geo scenarios.
   
   -   You can configure a tab in several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
   
@@ -200,12 +200,5 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
-
-### See also   
-[Overview of Dynamics 365 Field Service](../field-service/overview.md)   
-[Create a work order](../field-service/create-work-order.md)   
-[Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
-[Schedule a work order](../field-service/schedule-work-order.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

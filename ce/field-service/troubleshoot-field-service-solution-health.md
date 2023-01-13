@@ -2,14 +2,14 @@
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
 ms.date: 1/25/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: tw45
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 manager: shellyha
 search.app: 
   - D365CE
@@ -621,13 +621,6 @@ This rule fails if the default tab (the first tab on the form) of any work order
 
 Reduce the number of lookup fields and subgrid controls on the default tab (the first tab on the form) by moving them to other tabs on the form (or hiding them from the form if not needed). 
 
-Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1).
-
-### See also
-
-- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
-- [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
-- [Frequently asked questions](./troubleshoot-faq.yml)
-
+Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1&preserve-view=true).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Historical analytics for unified routing in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service."
-ms.date: 10/07/2021
+ms.date: 10/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,11 +15,16 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 With the introduction of Unified Routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
+
+### Access the Unified routing dashboard
+
+[!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
+
 ## Unified routing report in Omnichannel historical analytics
 
 The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
 
-The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Omnichannel admin center. You can access the report in the Customer Service workspace and Omnichannel for Customer Service app, by selecting the plus (+) icon, and then selecting Customer Service historical analytics.
+The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Omnichannel admin center.
 
 :::image type="content" source="media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 
@@ -72,3 +77,4 @@ You can select a date, and then select **Details** to view the routing metrics b
 [Enable Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-reports.md#enable-historical-analytics-for-unified-routing-in-omnichannel-for-customer-service)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Manage report bookmarks](manage-bookmarks.md)  

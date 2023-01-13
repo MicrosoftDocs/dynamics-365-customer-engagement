@@ -1,7 +1,7 @@
 ---
 title: "Configure sales accelerator settings for sellers to personalize"
 description: "Use personal settings to determine what happens when an activity is complete."
-ms.date: 05/04/2022
+ms.date: 08/05/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -30,9 +30,16 @@ As an administrator or sequence manager, you can configure sequences by using th
 
 ## Seller availability
 
-Configure seller availability options to allow sellers to set working hours and vacation days so that sequence steps, leads, and opportunities can be assigned accordingly.
+Configure sellers’ availability to optimize workload by considering only business days and excluding the non-working days for the work list activities. Also, you can select the calendar type to identify the weekdays or work hours for sellers. Further, the wait time step also considers weekends and computes the activity schedule accordingly.    
+For example, let’s look at the following scenarios and understand the enhanced calendar and wait time computation work:   
+- With the calendar selection, the workflow works as:    
+    -    Task 1: Send an introductory email to customer (Wednesday)
+    -    Task 2: Follow up with a call after 3 days (Task will be displayed on the following Monday, which is the subsequent working day).
+- With the enhanced calendar and wait time calculation, the workflow works as:
+    -    Task 1: Send an introductory email to customer (Wednesday)
+    -    Task 2: Follow up with a call after 3 days (Task will be displayed on the following Tuesday considering that the wait time takes weekends as non-working days).
 
-Follow these steps:
+**Follow these steps:**
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.    
 
@@ -48,16 +55,37 @@ Follow these steps:
     >[!div class="mx-imgBorder"]
     >![Select Seller availability on the settings page.](media/sa-configure-seller-availability.png "Select Seller availability on the settings page")   
 
-5. Configure the following options: 
-    - Select the **Seller availability settings** toggle.
-    - Under **Select a calendar**, choose a calendar type from which sellers can configure work hours and vacation days so that leads and opportunities can be assigned based on sellers' availability: 
-        - **CRM calendar** allows sellers to configure work hours and vacation days through the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
-        - **Outlook** allows sellers to configure work hours and vacation days through the Outlook calendar. Before you select this option, verify that [server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) is configured for your organization.
+5.	Turn on the **Seller availability settings** toggle. 
 
     >[!div class="mx-imgBorder"]
-    >![Enable the option to allow sellers to set working hours and vacation days.](media/sa-enable-seller-availability.png "Enable the option to allow sellers to set working hours and vacation days")   
+    >![Enable Seller availability settings.](media/sa-configure-seller-availability-enable.png "Enable Seller availability settings")   
 
-6. Select **Save**.
+6.	Under the calendar selection, choose a calendar type and select **Wait time computation** from which the sequence steps will consider seller’s work week and working hours for the activities to be adjusted based on business days.    
+    >[!NOTE]
+    >If you want the sequence steps to consider all days of the week, don’t select the Wait time computation option. 
+        
+    -	Choose the calendar type: 
+        -	**CRM calendar**: Allows sellers to configure work hours, time off, and non-working hours through the Dynamics 365 calendar in personal settings. To know more on configuring sellers’ work availability, see [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability).
+        -	**Outlook**: Allows sellers to configure work days and out of office through the Outlook calendar. Before you select this option, verify that [server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) is configured for your organization.
+    -	Wait time computation: The option displayed here depends on the calendar you’ve selected:
+        -	CRM calendar: Skip non-working hours 
+        -	Outlook: Skip non-working days    
+        Select the option for wait time activity to skip non-work hours and move it to the following working day.
+        For example, a seller configures weekends as non-working hours, and the wait time activity falls on a Saturday. With the Wait time computation option enabled, the wait time activity scheduled Saturday (non-working hours) will be moved to the following working day (Monday) and subsequently, other activities will be moved in the order they are defined. 
+        When selected, the Wait time computation option is enabled for all sequences. However, if you want to disable the Wait time computation option for a sequence, do the following steps:   
+
+        1.	Open the sequence.
+        2.	On the sequence page, select **Options**.
+            
+            >[!NOTE]
+            >Deactivate the sequence before you edit the options.
+
+        3.	On the **Sequence options** pane, under the **Wait time computation** section, clear the check box for **Skip non-working days**. 
+
+            >[!div class="mx-imgBorder"]
+            >![Disable wait time computation for a sequence.](media/sa-disable-wait-time-computation.png "Disable wait time computation for a sequence") 
+
+7. Select **Save**.
 
 ## Sequence activities
 

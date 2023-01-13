@@ -1,7 +1,7 @@
 ---
 title: "Configure columns and layouts in forecast grid"
 description: "Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more."
-ms.date: 10/26/2021
+ms.date: 08/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,6 +21,7 @@ searchScope:
 Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -74,7 +75,7 @@ To define the layout, select an option set and then add the rollup columns accor
 <a name="configure-columns"> </a>      
 ## Configure columns
 
-You can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
+In the **Layout** step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
 
 >[!NOTE]
 >- Auto configuration of columns are available only for **Opportunity** and **Opportunity product** rollup entities. For other rollup entities, you must manually configure each column.
@@ -115,7 +116,7 @@ Select the column **Type** as **Rollup**. The following options are available to
 |-----------|-------------|
 | Selector | Select the option set value that defines how this column is grouped. For example, if **Best Case** is selected, only opportunities with the forecast category set to **Best Case** will be aggregated. |
 | Data type | Select the data type of a column of which the aggregated value is displayed in the forecast grid. The supported values are currency, integer, and decimal. You can use integer or decimal data type for quantity-based forecast. By default, the value is selected as **Currency**. If the forecast contains both currency and numeric columns, then you must select the primary data type to activate the forecast. More information: [Forecast with different data type](forecast-different-data-types.md). |
-| Amount field | Select the amount field on which the aggregation is calculated. The list is displayed based on the selected **Data type** and **Rollup entity**. For example, if the **Forecast category** option set is selected, the amount field is automatically configured as **Est.Revenue**. <br> If you're using a custom field to track the estimated revenue for your organization, select that custom field. |
+| Amount field | Select the amount field on which the aggregation is calculated. The list is displayed based on the selected **Data type** and **Rollup entity**. For example, to calculate the aggregation based on the estimated revenue for lost opportunities, select **Est. Revenue** in the **Amount** field.<br> If you're using a custom field to track the estimated revenue for your organization, select that custom field. |
 | Date entity | Select the entity from which you want to choose the date field. <br>If the required date field is not available in the rollup entity, you can choose from the related entities. For example, in a product-based forecast, the rollup entity is **Opportunity Product** and the required estimated close date attribute will not be available in this entity. Therefore, select the **Opportunity** entity from **Related entities** that has the estimated close date attribute. |
 | Date field | Select the date field that defines the record's forecast period. The available fields are based on the selected **Date entity**, such as **Opportunity**. For example, if the **Opportunity** entity is selected, the date field is configured as **Est.Close Date**. <br>If you're using a custom field to track the estimated close date for your organization, select that custom field.|
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |

@@ -1,5 +1,6 @@
 ---
 title: "Customize the Reading Pane in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to customize the Reading Pane in Dynamics 365 for Outlook by choosing the sections that are displayed in the Reading Pane.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 

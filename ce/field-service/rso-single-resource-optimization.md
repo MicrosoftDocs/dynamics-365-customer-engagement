@@ -4,10 +4,10 @@ description: Learn about optimization for a single resource using resource sched
 
 ms.subservice: resource-scheduling-optimization
 ms.date: 11/04/2019
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: FeifeiQiu
+ms.author: feiqiu
 ms.manager: shellyhaverkamp
 search.app: 
   - D365CE

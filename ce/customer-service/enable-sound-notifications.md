@@ -1,7 +1,7 @@
 ---
 title: "Enable sound notifications for conversations in Omnichannel for Customer Service | MicrosoftDocs"
 description: "How to enable sound notifications for conversations in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 07/20/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,9 +25,9 @@ Make sure the browsers used by agents allow sounds to be played. In Microsoft Ed
 When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
+
      1. In the site map, select **Workspaces** in **Agent experience**.
      2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
@@ -36,6 +36,7 @@ When you enable sound settings, the options to personalize settings are availabl
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
 
 2. On the **Omnichannel Configuration - Notifications** page, select **Sound notification settings**.
+
 3. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
 
 4. Customize the notification settings for the required channels. The following settings are for Microsoft Teams:
@@ -49,8 +50,10 @@ When you enable sound settings, the options to personalize settings are availabl
   
   - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
 
-5. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
+5. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channe
+
     > ![Sound notification settings for open sessions.](media/sound-notification-open-session.png "Sound notification settings for open sessions")
+
 6. Select **Save.**
 
 ### See also

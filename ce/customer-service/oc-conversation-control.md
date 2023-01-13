@@ -20,6 +20,7 @@ You can do the following tasks in the communication panel:
 - Search for and share knowledge articles with the customer with whom you are interacting.
 - Transfer the conversation (work item) to another agent or queue.
 - Use the consult option if you need help to resolve the work item.
+- Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
  > [!div class=mx-imgBorder]
  > ![Omnichannel communication panel chat interface.](media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  

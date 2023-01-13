@@ -1,7 +1,7 @@
 ---
 title: "Release history (Unified Service Desk)| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
-ms.date: 06/21/2022
+ms.date: 01/02/2023
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -25,6 +25,14 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 ::: moniker range="dynamics-usd-4.2"
 
 <a name="Release_4_2"></a>
+
+## Release history for Unified Service Desk 4.2.0.51, January 2023
+
+This release introduces two new UII options to check and prevent running of scripts. The release also includes Newtonsoft.Json version upgrade to 13.0.2 and some accessibility fixes. 
+
+## Release history for Unified Service Desk 4.2.0.42, August 2022
+
+This release includes a CefSharp upgrade from version 94.4.50 to 103.0.120, and some bug fixes in Dynamics 365 Channel Integration Framework. There are no content-specific changes in this release.
 
 ## Release history for Unified Service Desk 4.2.0.39, June 2022
 
@@ -252,7 +260,7 @@ For information about this release, see [New feature information for administrat
 <a name="Release_3_0"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)], August 2017  
 
-With [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] release, we have integrated content for agents, administrators, customizers, and developers under a single TOC on our new documentation site at docs.microsoft.com/dynamics365. The new documentation site provides a seamless experience to easily find and consume [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] (and other area) content for all the personas without having to navigate to different sites. More information: [Blog: New documentation site](https://blogs.msdn.microsoft.com/crm/2017/07/13/new-documentation-site-for-dynamics-365/)
+With [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] release, we have integrated content for agents, administrators, customizers, and developers under a single TOC on our [new documentation site](/dynamics365). The new documentation site provides a seamless experience to easily find and consume [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] (and other area) content for all the personas without having to navigate to different sites. More information: [Blog: New documentation site](https://blogs.msdn.microsoft.com/crm/2017/07/13/new-documentation-site-for-dynamics-365/)
 
 Content for earlier version of Unified Service Desk continues to be available on [TechNet](/previous-versions/dn499779(v=usd.6)) and [MSDN](/previous-versions/dynamicsusd-2/developers-guide/dn864923(v=usd.2)).
 

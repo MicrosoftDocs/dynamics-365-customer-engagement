@@ -2,12 +2,12 @@
 title: "Universal Resource Scheduling for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
 ms.date: 08/12/2020
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.custom: intro-internal
 ms.topic: overview
-author: FieldServiceDave
-ms.author: daclar
+author: clearab
+ms.author: anclear
 manager: shellyha
 search.app: 
   - D365CE
@@ -217,12 +217,12 @@ There are **two ways** to geocode your resources.
 Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address.](media/scheduling-resource-address.png)
+> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to the Resource Address.](media/scheduling-resource-address.png)
 
 For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address.](media/scheduling-urs-resource-type.png)
+> ![Screenshot of the Bookable Resource window, showing the General tab with the Resource Type and Contact highlighted with a red border.](media/scheduling-urs-resource-type.png)
 
 > [!NOTE]
 > For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
@@ -233,7 +233,7 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address.](media/scheduling-urs-resource-organizational-unit.png)
+> ![Screenshot of the Bookable Resource window, showing the Scheduling tab with the Start and End Location both set to Organizational Unit Address.](media/scheduling-urs-resource-organizational-unit.png)
 
 > [!NOTE] 
 > You may need to add the latitude/longitude fields to the organizational unit entity form.
@@ -249,13 +249,5 @@ To make sure resources are geocoded properly, navigate to **Universal Resource S
 ## Additional notes
 
 If the work order or requirement doesn't have a latitude or longitude, the location is treated as location-agnostic, which means the location of resources isn't considered during scheduling. If the work order or requirement has a latitude and longitude and work location is set to **onsite**, resource locations, travel time, and routes are considered during scheduling.
-
-### See also
-
-- [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-- [Resource Scheduling Optimization overview](rso-overview.md)
-- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx) 
-- [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

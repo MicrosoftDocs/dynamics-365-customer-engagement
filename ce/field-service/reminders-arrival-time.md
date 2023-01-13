@@ -2,14 +2,14 @@
 title: "Send current technician location and arrival times to your customers with Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn how to send customers information about their upcoming service in Dynamics 365 Field Service
 ms.date: 04/22/2022
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
 ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: JonBaker007
-ms.author: jobaker
+author: Deana-Fuller
+ms.author: drfuller
 manager: shellyha
 search.app:
 - D365CE
@@ -120,7 +120,7 @@ Configure the following settings as needed:
 
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
-- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](#field-service-customer-portal-survey-preview)
+- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](/dynamics365/field-service/reminders-arrival-time#field-service-customer-portal-survey)
 
 - **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
 

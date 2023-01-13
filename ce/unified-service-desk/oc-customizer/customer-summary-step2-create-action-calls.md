@@ -73,7 +73,7 @@ This topic describes how to create customer summary-related action calls in Unif
    | General | Hosted Control | Communication Panel |
    | General | Action         | OmnichannelSessionAccepted | 
    | General | Data | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
-   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
+   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |  '\[\[CanActivateSession\]+\]' == 'True' |
 
 ## Show Dashboards On Data Available
 

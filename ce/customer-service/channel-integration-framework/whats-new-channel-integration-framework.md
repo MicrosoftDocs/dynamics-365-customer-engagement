@@ -17,14 +17,12 @@ This topic provides a list of features introduced in Dynamics 365 Channel Integr
 
 ## What's new in Dynamics 365 Channel Integration Framework 2.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 > [!IMPORTANT]
 > All APIs released for Dynamics 365 Channel Integration Framework 1.0 can be used with the latest version. The APIs for managing tabs and sessions are not supported on single session apps.
 
 Dynamics 365 Channel Integration Framework 2.0 provides multiple enhancements over version 1.0, particularly in terms of its ability to integrate with the latest multisession agent experiences for customer service. Following are the key new features in Dynamics 365 Channel Integration Framework 2.0 over Channel Integration Framework 1.0.
 
-### Integration with the multisession experiences
+### Integration with multisession experiences
 
 Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](./v2/integration-multi-session-experiences.md).
 

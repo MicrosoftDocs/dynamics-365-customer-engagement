@@ -4,10 +4,10 @@ description: Learn about how to receive IoT alerts in Connected Field Service fr
 
 ms.subservice: connected-field-service
 ms.date: 09/24/2018
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 ms.topic: article
-ms.author: daclar
-author: FieldServiceDave
+ms.author: keithh
+author: MSKeith
 search.app: 
   - D365CE
   - D365FS
@@ -97,12 +97,12 @@ From here, the workflow will trigger based on the alert type. While you may have
 Once you've saved your Flow, log in to Dynamics 365 Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT alerts in Connected Field Service.](media/iot-central-alerts-14.png)
+> ![Screenshot of the Welcome to Connected Field Service window with the Learn More button highlighted.](media/iot-central-alerts-14.png)
 
 In Connected Field Service, you should now see incoming alerts from Azure IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT alerts in Connected Field Service.](media/iot-central-alerts-12.png)
+> ![Screenshot of the Connected Field Service Demo window with a red arrow pointing to the active alert, Cash drawer level is high from IOT Central Application.](media/iot-central-alerts-12.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated.](media/iot-central-alerts-13.png)

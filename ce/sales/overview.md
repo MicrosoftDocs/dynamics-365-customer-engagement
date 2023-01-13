@@ -1,16 +1,16 @@
 ---
-title: "Overview of Dynamics 365 Sales"
-description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 01/10/2022
-
-ms.topic: overview
+title: Welcome to Dynamics 365 Sales
+description: Get an overview of the sales licenses and capabilities in each Dynamics 365 Sales license 
+ms.date: 11/09/2022
+ms.topic: welcome
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
-# Overview of Dynamics 365 Sales 
+# Welcome to Dynamics 365 Sales  
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.  This article provides an overview of the capabilities in Dynamics 365 Sales.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -18,11 +18,10 @@ Here's a short video to help you understand the power of leveraging Dynamics 365
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
-
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.     
+   
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
-## Choose the product that fits your needs  
+## Choose the offering that fits your needs  
 
 Here are the different Dynamics 365 Sales offerings to fit every need of a business:  
 
@@ -31,6 +30,21 @@ Here are the different Dynamics 365 Sales offerings to fit every need of a busin
 - **Sales Enterprise**: Ideal for enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
 - **Sales Professional**: Ideal for enterprises that need a sales automation solution. More information: [Dynamics 365 Sales Professional](#dynamics-365-sales-professional)
+
+### Dynamics 365 Sales Premium
+
+Dynamics 365 Sales Premium combines Dynamics 365 Sales Enterprise capabilities with AI-driven features. The AI-driven features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.   
+When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities in addition to Dynamics 365 Sales Enterprise capabilities:  
+- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
+- **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
+    - Assistant
+    - Relationship analytics and health
+    - Who knows whom
+    - Conversation intelligence
+- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
+    - Predictive lead scoring    
+    - Predictive opportunity scoring   
+    - Predictive forecasting  
 
 ### Dynamics 365 Sales Enterprise
 
@@ -42,23 +56,6 @@ With Sales Enterprise, your sales organization can automate the sales process fr
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. More information: [Get started with in-app marketing (Sales)](get-started-app-marketing-sales.md).
 
 With your Dynamics 365 Sales Enterprise license, you can set up and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
-
-### Dynamics 365 Sales Premium
-
-Dynamics 365 Sales Premium combines Dynamics 365 Sales Enterprise with AI-driven features.     
-The features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.   
-When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities in addition to Dynamics 365 Sales Enterprise capabilities:    
-- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
-- **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
-    - Assistant
-    - Relationship analytics and health
-    - Talking points 
-    - Who knows whom
-    - Conversation intelligence
-- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
-    - Predictive lead scoring    
-    - Predictive opportunity scoring   
-    - Predictive forecasting  
 
 ### Microsoft Relationship Sales
 
@@ -109,7 +106,6 @@ Build relationships with customers through information from LinkedIn and relatio
 | Keep track of buyers | Within a unified experience from Dynamics 365 Sales, find out when contacts change jobs and visualize relationships between contacts with interactive org charts. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads) |
 | Get a unified view of interactions | Use a comprehensive timeline across Dynamics 365, Microsoft 365, and LinkedIn Sales Navigator to deliver consistent experiences. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads) |
 | Identify customers who need attention | Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks. | Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)<br>Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md) |
-| Know how to engage customers | Get proactive guidance on topics such as personalized talking points, internal relationships, icebreakers, and next best actions to move relationships forward. | Administrator: [Configure talking points](configure-talking-points.md)<br>Seller: [Know conversation starters for your customers](talking-points.md)|
 
 ### Collaborate seamlessly
 

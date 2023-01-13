@@ -58,7 +58,7 @@ Before you configure Customer Engagement (on-premises) and SharePoint Online for
 
 The following software feature is required to run the Windows PowerShell cmdlets described in this topic.
 
-  - [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
+  - [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0&preserve-view=true)
 
 
 > [!IMPORTANT]
@@ -97,7 +97,7 @@ The following software feature is required to run the Windows PowerShell cmdlets
     
     When you run the Connect-MsolService command, you must provide a valid Microsoft account that has Office 365 Global Administrator membership for the SharePoint Online license that is required.
     
-    For detailed information about each of the MSOnline module for Azure Active Directory PowerShell commands listed here, see [MSOnline](/powershell/module/msonline/?view=azureadps-1.0#msonline).
+    For detailed information about each of the MSOnline module for Azure Active Directory PowerShell commands listed here, see [MSOnline](/powershell/module/msonline/?view=azureadps-1.0&preserve-view=true#msonline).
     
     ```powershell
     $msolcred = get-credential

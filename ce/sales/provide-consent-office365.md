@@ -1,72 +1,65 @@
 ---
-title: Provide consent to collect data from Exchange Online
-description: Provide consent for Dynamics 365 to use data from Exchange Online in relationship analytics.
-ms.date: 07/06/2022
+title: Provide consent to collect data from Microsoft 365
+description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
+ms.date: 01/10/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Provide consent to collect data from Exchange Online  
+# Provide consent to collect data from Microsoft 365  
 
-Dynamics 365 Sales uses Microsoft 365 data to generate the following insights based users email interactions and meetings:
+Dynamics 365 Sales uses Microsoft 365 data to generate the following insights based on users' email interactions and meetings:
 
-- Relationship analytics KPIs and health score
-- Who knows whom suggestions
+- [Relationship analytics KPIs and health score](relationship-analytics.md)
+- [Who knows whom suggestions](who-knows-whom.md)
 
-Previously, the consent for these capabilities were provided from **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights - Analytics** and **Dynamics 365 Sales Insights - Connection graph** respectively. The consent to use Microsoft 365 data is now consolidated and is applicable for all Dynamics 365 applications. So, you must provide your consent again in the new form as described in this article.
+## License and role requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise, and Microsoft 365 <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Global administrator in Microsoft 365 <br> |
+
 
 ## Things to consider
 
-Before you provide the consent, review the following information:
+Before you provide consent, review the following information:
 
-- The consent provided in the old form for relationship analytics is valid until September 2022 and the consent for who knows whom is valid until July 30, 2022. After that, you'll need to provide consent as described in this article. After the consent is provided, Dynamics 365 Sales will need time to recalculate the who knows whom suggestions. So, we recommend that you provide the consent as soon as possible to ensure a smooth transition.  
+- Both relationship analytics and who knows whom require the same consent. You only need to consent once. For more information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md).
 
-- The consent provided is applicable to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
+- The consent applies to all the Dynamics 365 applications that require permission to access Microsoft 365 data.
 
-- When consent is provided, Dynamics 365 analyzes Exchange emails from the last one year.  
+- When consent is provided, Dynamics 365 analyzes Exchange emails pertaining to the last one year to provide relationship insights and who knows whom suggestions. The analysis is done in 12 batches, with each batch containing emails from one month. Dynamics 365 can handle up to 8 million emails per batch in this process. The live data is then processed after every 24 hours.
 
-- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
+- When you withdraw consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
+- After you provide consent, all users in the tenant are automatically opted in to share their data, unless they've manually [turned off data sharing](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications). If you withdraw consent later, all users will be automatically opted out.  
 
-## Provide consent
 
-If you're an Office 365 administrator, here's how to provide consent:
+## Provide consent  
 
 1. In **Microsoft 365 admin center**, select **Settings** > **Org settings** > **Dynamics 365 Applications**.
 
     :::image type="content" source="./media/office365-consent-form.png" alt-text="A screenshot of the Microsoft 365 admin center Org settings, with the Dynamics 365 Apps consent form shown.":::
     
-3. Read the description carefully and select the **Insights for other users** option. 
-
+3. Select **Identifiable insights for other users**.  
     > [!NOTE]
-    > The consent provided is applicable to all the Dynamics 365 applications that require **Insights for other users** permission.  
-      
-    Relationship analytics and who knows whom can now use the Exchange data to generate insights.
+    > The consent applies to all the Dynamics 365 applications that require the **Identifiable insights for other users** permission. Dynamics 365 Sales uses this consent for both relationship analytics and who knows whom.
+    
+1. (Optional) In the textbox that appears, enter the security group IDs of users who want to opt out of sharing their Exchange data. For example, opt out groups such as C-suite, M&A, finance, and so on.
+    :::image type="content" source="media/admin-opt-out.PNG" alt-text="A screenshot of the opt out textbox to provide security IDs":::
 
-## Opt out security groups of sharing data
+1. Save the changes.
+    The user opt-in is automatically turned on for all tenant users unless they've manually [turned off data sharing](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
-You may want to opt out certain security groups of sharing their communication and collaboration data with Dynamics 365.
-
-To opt out security groups:
-
-1. Go to the **Microsoft 365 admin center**.
-
-2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Screenshot of connection graph settings")
-
-3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
-
-4. Add the ID of security groups that you want to opt out. 
-
-5. Select **Save**.
-
->[!NOTE]
-> Users can opt out of the connection graph if they don't want sales insights to analyze their communication and collaboration data. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
+     
 
 ### See also
 
-[Use relationship analytics to gather KPIs](relationship-analytics.md)
-[How to get introduced to leads or contacts](who-knows-whom.md)
+[Consent required to use Microsoft 365 data](ms365-consent-types.md)  
+[Insights generated from Microsoft 365 data](insights-from-m365.md)  
+[Configure relationship analytics and health](configure-relationship-analytics.md)  
+[Use relationship analytics to gather KPIs](./relationship-analytics.md)  
+[Configure who knows whom](configure-who-knows-whom.md)  
+[How to get introduced to leads or contacts](who-knows-whom.md)  

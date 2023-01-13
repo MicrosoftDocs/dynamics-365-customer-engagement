@@ -28,9 +28,7 @@ You can call a customer by selecting the **Mobile phone** field or the launch di
 
    When the call connects, you'll see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you won't be able to make another call when a call is in progress.
 
-- You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer. 
-   1. On the number pad that appears, enter the customer's phone number, and then select **Call** to make your call.
-   1. To make an international call, enter the country code and phone number, then select **Call**. You don't have to add the plus sign (+) to the number.
+You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.  On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call.  You don't have to add the plus sign (+) to the number.
 
 
 ### See also

@@ -1,9 +1,9 @@
 ---
 title: Scopes in Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn about how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
+author: FeifeiQiu
+ms.author: feiqiu
+ms.reviewer: mhart
 manager: shellyha
 ms.date: 01/02/2020
 ms.topic: article

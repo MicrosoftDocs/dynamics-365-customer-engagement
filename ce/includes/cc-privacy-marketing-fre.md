@@ -13,7 +13,7 @@ Custom schema and display names for fields, entities, relations, attributes, and
 
 For example, you could use the customization capabilities of Dynamics 365 Marketing to create a new entity that includes a new field, as shown in the following table.  In this case, the texts shown in the **Schema name** and **Display name** columns could be referenced by other object definitions and could also be shared through various other channels that are outside your geo.  However, field values for specific records (as shown in the **Value** column) will remain within your geo.
 
-|  | Schema name | Display name | Value |
+| Type | Schema name | Display name | Value |
 |---|---|---|---|
 | New entity | Solution1_promotion | Promotion | (n/a) |
 | New field | Solution1_Promtion.name | Name | Spring 2019 Promotion |

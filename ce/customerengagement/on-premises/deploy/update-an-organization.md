@@ -26,7 +26,7 @@ When you update the organizations in your deployment, disabled organizations can
 >  Before you import, upgrade, or update a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, you should back up the configuration and organization databases.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Enable-CrmOrganization](/powershell/module/microsoft.crm.powershell/enable-crmorganization?view=dynamics365ce-ps) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps) commands.  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Enable-CrmOrganization](/powershell/module/microsoft.crm.powershell/enable-crmorganization?view=dynamics365ce-ps&preserve-view=true) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ### Update a disabled organization  
   

@@ -1,7 +1,7 @@
 ---
 title: "FAQ for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 05/04/2022
+ms.date: 09/27/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -43,7 +43,7 @@ No, Dynamics 365 Channel Integration Framework provides an extensible framework 
 
 No, Dynamics 365 Channel Integration Framework provides a JavaScript library that exposes APIs that you can use to perform the following operations:
 - Create, retrieve, update, and delete entity records.
-- Get and set Click-to-Act functionality.
+- Get and set ClickToAct functionality.
 - Search among records of a particular entity type.
 - Get and set the panel width, and so on.
 
@@ -105,33 +105,34 @@ Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be ava
 
 ### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
-Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service. You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
+Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service and Customer Service workspace. You can integrate any third-party telephony provider with Omnichannel for Customer Service or Customer Service workspace using the Dynamics 365 Channel Integration Framework 2.0 APIs. 
 
 For information on selecting versions, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
 
 For information on license, see [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans).
 
-### How can third-party telephony providers start their default session?
-
-You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionclosed) event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
-
 ### My organization uses multiple channel providers. How can I start a default session? Also, why is the widget not visible in the home session?
 
-If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
-To create a default session, do the following:
-1. Use the [createSession](/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/createsession) API to create a session with relevant application tabs and load them together with the widget.
-2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
+If there are multiple channel providers in your organization, the widget won't be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
+
+To create a default session, see [Start a home (default) session when your organization uses multiple channel providers](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-multiple-channel-providers).
+### How can third-party telephony providers start their default session?
+
+You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-single-channel-provider)
+
+
+
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that the updated data is available for the agent at all times.
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
 
-### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
+### Is it possible to view the existing channel providers from Dynamics 365 Channel Integration Framework 2.0 model-driven app?
 
-No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
+No, you'll have to navigate to Dynamics 365 Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
 
 
 ## Dynamics 365 Channel Integration Framework 1.0

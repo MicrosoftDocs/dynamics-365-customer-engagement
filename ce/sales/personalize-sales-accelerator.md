@@ -1,7 +1,7 @@
 ---
 title: "Personalize sales accelerator settings"
 description: "Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete."
-ms.date: 06/14/2022
+ms.date: 11/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -191,7 +191,7 @@ As a seller, you can hide any filter that's available in the filter list. After 
 
     >[!NOTE]
     >-	To hide a group, turn off the toggle for the group.
-    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](enable-configure-sales-accelerator.md#hide-filters)
+    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](customize-workspace-sales-accelerator.md#hide-filters)
  
     > [!div class="mx-imgBorder"]    
     > ![Turn off the toggle to hide a filter.](media/sa-worklist-filter-hide-filter.png "Turn off the toggle to hide a filter")      

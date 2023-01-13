@@ -5,9 +5,9 @@ ms.date: 09/24/2018
 ms.topic: overview
 
 ms.subservice: connected-field-service
-ms.author: daclar
-author: FieldServiceDave
-ms.reviewer: krbjoran
+ms.author: keithh
+author: MSKeith
+ms.reviewer: mhart
 search.app: 
   - D365CE
   - D365FS
