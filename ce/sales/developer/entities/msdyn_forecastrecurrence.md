@@ -1,6 +1,6 @@
 ---
-title: "msdyn_playbookinstance table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
-description: "Includes schema information and supported messages for the msdyn_playbookinstance table/entity."
+title: "msdyn_forecastrecurrence table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the msdyn_forecastrecurrence table/entity."
 ms.date: 01/13/2023
 ms.service: dynamics-365-sales
 ms.topic: "reference"
@@ -15,14 +15,14 @@ search.app:
   - D365CE
 ---
 
-# msdyn_playbookinstance table/entity reference
+# msdyn_forecastrecurrence table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
-Actual instance of a playbook template once it is launched.
+Stores recalculation information for each recurrence of the forecast hierarchy. For internal use.
 
-**Added by**: Playbook Solution
+**Added by**: Forecasting Solution
 
 
 ## Messages
@@ -49,17 +49,17 @@ Actual instance of a playbook template once it is launched.
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_playbookinstances|
-|DisplayCollectionName|Playbooks|
-|DisplayName|Playbook|
-|EntitySetName|msdyn_playbookinstances|
+|CollectionSchemaName|msdyn_forecastrecurrences|
+|DisplayCollectionName|Forecast recurrences|
+|DisplayName|Forecast recurrence|
+|EntitySetName|msdyn_forecastrecurrences|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_playbookinstances|
-|LogicalName|msdyn_playbookinstance|
+|LogicalCollectionName|msdyn_forecastrecurrences|
+|LogicalName|msdyn_forecastrecurrence|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_playbookinstanceid|
+|PrimaryIdAttribute|msdyn_forecastrecurrenceid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_playbookinstance|
+|SchemaName|msdyn_forecastrecurrence|
 
 <a name="writable-attributes"></a>
 
@@ -68,20 +68,24 @@ Actual instance of a playbook template once it is launched.
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_activitiesassociated](#BKMK_msdyn_activitiesassociated)
-- [msdyn_activitiesclosed](#BKMK_msdyn_activitiesclosed)
-- [msdyn_categoryid](#BKMK_msdyn_categoryid)
-- [msdyn_estimatedclose](#BKMK_msdyn_estimatedclose)
-- [msdyn_evaluateactivityclosure](#BKMK_msdyn_evaluateactivityclosure)
+- [msdyn_actualparticipatingrecordsfetchxml](#BKMK_msdyn_actualparticipatingrecordsfetchxml)
+- [msdyn_failureinfo](#BKMK_msdyn_failureinfo)
+- [msdyn_forecastdefinitionid](#BKMK_msdyn_forecastdefinitionid)
+- [msdyn_forecastrecurrenceId](#BKMK_msdyn_forecastrecurrenceId)
+- [msdyn_inprogressparticipatingrecordsfetchxml](#BKMK_msdyn_inprogressparticipatingrecordsfetchxml)
+- [msdyn_ishierarchylocked](#BKMK_msdyn_ishierarchylocked)
+- [msdyn_lastrecalculatedon](#BKMK_msdyn_lastrecalculatedon)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_playbookinstanceId](#BKMK_msdyn_playbookinstanceId)
-- [msdyn_playbooktemplateid](#BKMK_msdyn_playbooktemplateid)
-- [msdyn_trackprogress](#BKMK_msdyn_trackprogress)
+- [msdyn_recalculatestatuschangedon](#BKMK_msdyn_recalculatestatuschangedon)
+- [msdyn_recalculationstarttime](#BKMK_msdyn_recalculationstarttime)
+- [msdyn_recalculationstatus](#BKMK_msdyn_recalculationstatus)
+- [msdyn_recalculationstatusdescription](#BKMK_msdyn_recalculationstatusdescription)
+- [msdyn_recurrenceindex](#BKMK_msdyn_recurrenceindex)
+- [msdyn_validfrom](#BKMK_msdyn_validfrom)
+- [msdyn_validto](#BKMK_msdyn_validto)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
-- [Regarding](#BKMK_Regarding)
-- [RegardingObjectTypeCode](#BKMK_RegardingObjectTypeCode)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -105,161 +109,242 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_activitiesassociated"></a> msdyn_activitiesassociated
+### <a name="BKMK_msdyn_actualparticipatingrecordsfetchxml"></a> msdyn_actualparticipatingrecordsfetchxml
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Total activities|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_activitiesassociated|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_activitiesclosed"></a> msdyn_activitiesclosed
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Completed activities|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_activitiesclosed|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_categoryid"></a> msdyn_categoryid
-
-|Property|Value|
-|--------|-----|
-|Description|Select the playbook category for the playbook.|
-|DisplayName|Category|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_categoryid|
-|RequiredLevel|None|
-|Targets|msdyn_playbookcategory|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_estimatedclose"></a> msdyn_estimatedclose
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Estimated close date for a playbook based on the estimated duration specified for the playbook template.|
-|DisplayName|Estimated close|
-|Format|DateOnly|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_estimatedclose|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_evaluateactivityclosure"></a> msdyn_evaluateactivityclosure
-
-|Property|Value|
-|--------|-----|
-|Description|Internal Use Only|
-|DisplayName|Evaluate Activity Closure|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_evaluateactivityclosure|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_evaluateactivityclosure Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|true||
-|0|false||
-
-**DefaultValue**: 0
-
-
-
-### <a name="BKMK_msdyn_name"></a> msdyn_name
-
-|Property|Value|
-|--------|-----|
-|Description|Type the name of the playbook.|
-|DisplayName|Name|
+|Description|Stores the FetchXML for participating records for closed opportunities. For internal use.|
+|DisplayName|Closed participating opportunities FetchXML|
 |FormatName|Text|
 |IsLocalizable|False|
-|IsValidForForm|True|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_name|
-|MaxLength|128|
-|RequiredLevel|ApplicationRequired|
+|LogicalName|msdyn_actualparticipatingrecordsfetchxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_playbookinstanceId"></a> msdyn_playbookinstanceId
+### <a name="BKMK_msdyn_failureinfo"></a> msdyn_failureinfo
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Playbook|
+|Description|Stores information about why the recalculation of forecast hierarchy failed.|
+|DisplayName|Failure info|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_failureinfo|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_forecastdefinitionid"></a> msdyn_forecastdefinitionid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the forecast definition that is associated with the forecast recurrence.|
+|DisplayName|Forecast definition|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_forecastdefinitionid|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_forecastdefinition|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_forecastrecurrenceId"></a> msdyn_forecastrecurrenceId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the forecast recurrence.|
+|DisplayName|Forecast recurrence|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_playbookinstanceid|
+|LogicalName|msdyn_forecastrecurrenceid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_playbooktemplateid"></a> msdyn_playbooktemplateid
+### <a name="BKMK_msdyn_inprogressparticipatingrecordsfetchxml"></a> msdyn_inprogressparticipatingrecordsfetchxml
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the unique ID of the playbook template associated with the playbook.|
-|DisplayName|Playbook Template|
-|IsValidForForm|True|
+|Description|Stores the FetchXML for participating records for inprogress opportunities. For internal use.|
+|DisplayName|Inprogress participating opportunities FetchXML|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_playbooktemplateid|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_playbooktemplate|
-|Type|Lookup|
+|LogicalName|msdyn_inprogressparticipatingrecordsfetchxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_trackprogress"></a> msdyn_trackprogress
+### <a name="BKMK_msdyn_ishierarchylocked"></a> msdyn_ishierarchylocked
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether or not to track the progress of the playbook by creating the activities under a playbook which is in turn linked to the record type the playbook applies to.|
-|DisplayName|Track progress|
+|Description|For internal use only|
+|DisplayName|IsHierarchyLocked|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_trackprogress|
-|RequiredLevel|ApplicationRequired|
+|LogicalName|msdyn_ishierarchylocked|
+|RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_trackprogress Choices/Options
+#### msdyn_ishierarchylocked Choices/Options
 
 |Value|Label|Description|
 |-----|-----|--------|
 |1|Yes||
 |0|No||
 
-**DefaultValue**: 1
+**DefaultValue**: 0
 
+
+
+### <a name="BKMK_msdyn_lastrecalculatedon"></a> msdyn_lastrecalculatedon
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|The date and time when the forecast hierarchy was successfully recalculated.|
+|DisplayName|Last recalculated on|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_lastrecalculatedon|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_name"></a> msdyn_name
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the name of the forecast recurrence.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_recalculatestatuschangedon"></a> msdyn_recalculatestatuschangedon
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|RecalculateStatusChangedOn|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_recalculatestatuschangedon|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_recalculationstarttime"></a> msdyn_recalculationstarttime
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|HierarchyLastLockedOn|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_recalculationstarttime|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_recalculationstatus"></a> msdyn_recalculationstatus
+
+|Property|Value|
+|--------|-----|
+|Description|Shows the recalculation status for the forecast recurrence hierarchy.|
+|DisplayName|Recalculation status|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_recalculationstatus|
+|MaxValue|100|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_recalculationstatusdescription"></a> msdyn_recalculationstatusdescription
+
+|Property|Value|
+|--------|-----|
+|Description|Stores the description for the recalculation status of forecast hierarchy.|
+|DisplayName|Recalculation status description|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_recalculationstatusdescription|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_recurrenceindex"></a> msdyn_recurrenceindex
+
+|Property|Value|
+|--------|-----|
+|Description|Stores the recurrence index that is associated with the forecast recurrence hierarchy.|
+|DisplayName|Recurrence index|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_recurrenceindex|
+|MaxValue|99|
+|MinValue|1|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_validfrom"></a> msdyn_validfrom
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|DateOnly|
+|Description|Shows the date from which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 Customer Engagement apps options.|
+|DisplayName|Valid from|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_validfrom|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_validto"></a> msdyn_validto
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|DateOnly|
+|Description|Shows the date till which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 Customer Engagement apps options.|
+|DisplayName|Valid to|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_validto|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -309,40 +394,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|EntityName|
 
 
-### <a name="BKMK_Regarding"></a> Regarding
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the entity the playbook is launched for.|
-|DisplayName|Regarding|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|regarding|
-|RequiredLevel|None|
-|Targets|account,contact,invoice,lead,opportunity,quote,salesorder|
-|Type|Lookup|
-
-
-### <a name="BKMK_RegardingObjectTypeCode"></a> RegardingObjectTypeCode
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|regardingobjecttypecode|
-|RequiredLevel|None|
-|Type|EntityName|
-
-
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Playbook|
+|Description|Status of the Forecast Recurrence|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -356,7 +412,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
 |0|Active|1|Active|
-|1|Completed|2|Completed|
+|1|Inactive|2|Inactive|
 
 
 
@@ -364,8 +420,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Playbook result|
-|DisplayName|Result|
+|Description|Reason for the status of the Forecast Recurrence|
+|DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|statuscode|
@@ -376,12 +432,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|State|
 |-----|-----|-----|
-|1|In Progress|0|
-|2|Successful|1|
-|3|Not Successful|1|
-|4|Partially Successful|1|
-|5|Not Required|1|
-|6|Not Tracked|1|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
@@ -436,16 +488,13 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_categoryidName](#BKMK_msdyn_categoryidName)
-- [msdyn_playbooktemplateidName](#BKMK_msdyn_playbooktemplateidName)
+- [msdyn_ForecastDefinitionIdName](#BKMK_msdyn_ForecastDefinitionIdName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
-- [RegardingIdName](#BKMK_RegardingIdName)
-- [RegardingYomiName](#BKMK_RegardingYomiName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -506,8 +555,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Date and time when the playbook was started.|
-|DisplayName|Started On|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -687,7 +736,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_categoryidName"></a> msdyn_categoryidName
+### <a name="BKMK_msdyn_ForecastDefinitionIdName"></a> msdyn_ForecastDefinitionIdName
 
 |Property|Value|
 |--------|-----|
@@ -697,24 +746,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_categoryidname|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_playbooktemplateidName"></a> msdyn_playbooktemplateidName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_playbooktemplateidname|
-|MaxLength|128|
+|LogicalName|msdyn_forecastdefinitionidname|
+|MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
@@ -821,38 +854,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|Lookup|
 
 
-### <a name="BKMK_RegardingIdName"></a> RegardingIdName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|regardingidname|
-|MaxLength|4000|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_RegardingYomiName"></a> RegardingYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|regardingyominame|
-|MaxLength|4000|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 **Added by**: Active Solution Solution
@@ -875,60 +876,20 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 Listed by **SchemaName**.
 
-- [msdyn_playbookinstance_OpportunityCloses](#BKMK_msdyn_playbookinstance_OpportunityCloses)
-- [msdyn_playbookinstance_OrderCloses](#BKMK_msdyn_playbookinstance_OrderCloses)
-- [msdyn_playbookinstance_QuoteCloses](#BKMK_msdyn_playbookinstance_QuoteCloses)
 
+### <a name="BKMK_msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance"></a> msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance
 
-### <a name="BKMK_msdyn_playbookinstance_OpportunityCloses"></a> msdyn_playbookinstance_OpportunityCloses
-
-**Added by**: Sales Solution
-
-Same as the [msdyn_playbookinstance_OpportunityCloses](opportunityclose.md#BKMK_msdyn_playbookinstance_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) table/entity.
+Same as the [msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance](msdyn_forecastinstance.md#BKMK_msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance) many-to-one relationship for the [msdyn_forecastinstance](msdyn_forecastinstance.md) table/entity.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|opportunityclose|
-|ReferencingAttribute|regardingobjectid|
+|ReferencingEntity|msdyn_forecastinstance|
+|ReferencingAttribute|msdyn_forecastrecurrenceid|
 |IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_OpportunityCloses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_playbookinstance_OrderCloses"></a> msdyn_playbookinstance_OrderCloses
-
-**Added by**: Sales Solution
-
-Same as the [msdyn_playbookinstance_OrderCloses](orderclose.md#BKMK_msdyn_playbookinstance_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|orderclose|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_OrderCloses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_playbookinstance_QuoteCloses"></a> msdyn_playbookinstance_QuoteCloses
-
-**Added by**: Sales Solution
-
-Same as the [msdyn_playbookinstance_QuoteCloses](quoteclose.md#BKMK_msdyn_playbookinstance_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quoteclose|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_QuoteCloses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -936,66 +897,10 @@ Same as the [msdyn_playbookinstance_QuoteCloses](quoteclose.md#BKMK_msdyn_playbo
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [msdyn_playbooktemplate_msdyn_playbookinstance](#BKMK_msdyn_playbooktemplate_msdyn_playbookinstance)
-- [msdyn_playbookcategory_msdyn_playbookinstance](#BKMK_msdyn_playbookcategory_msdyn_playbookinstance)
-- [msdyn_playbookinstance_opportunity](#BKMK_msdyn_playbookinstance_opportunity)
-- [msdyn_playbookinstance_quote](#BKMK_msdyn_playbookinstance_quote)
-- [msdyn_playbookinstance_salesorder](#BKMK_msdyn_playbookinstance_salesorder)
-- [msdyn_playbookinstance_invoice](#BKMK_msdyn_playbookinstance_invoice)
-- [msdyn_playbookinstance_lead](#BKMK_msdyn_playbookinstance_lead)
-- [msdyn_playbookinstance_contact](#BKMK_msdyn_playbookinstance_contact)
-- [msdyn_playbookinstance_account](#BKMK_msdyn_playbookinstance_account)
 
+### <a name="BKMK_msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence"></a> msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence
 
-### <a name="BKMK_msdyn_playbooktemplate_msdyn_playbookinstance"></a> msdyn_playbooktemplate_msdyn_playbookinstance
-
-See the [msdyn_playbooktemplate_msdyn_playbookinstance](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_msdyn_playbookinstance) one-to-many relationship for the [msdyn_playbooktemplate](msdyn_playbooktemplate.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookcategory_msdyn_playbookinstance"></a> msdyn_playbookcategory_msdyn_playbookinstance
-
-See the [msdyn_playbookcategory_msdyn_playbookinstance](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_msdyn_playbookinstance) one-to-many relationship for the [msdyn_playbookcategory](msdyn_playbookcategory.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_opportunity"></a> msdyn_playbookinstance_opportunity
-
-**Added by**: Sales Solution
-
-See the [msdyn_playbookinstance_opportunity](opportunity.md#BKMK_msdyn_playbookinstance_opportunity) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_quote"></a> msdyn_playbookinstance_quote
-
-**Added by**: Sales Solution
-
-See the [msdyn_playbookinstance_quote](quote.md#BKMK_msdyn_playbookinstance_quote) one-to-many relationship for the [quote](quote.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_salesorder"></a> msdyn_playbookinstance_salesorder
-
-**Added by**: Sales Solution
-
-See the [msdyn_playbookinstance_salesorder](salesorder.md#BKMK_msdyn_playbookinstance_salesorder) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_invoice"></a> msdyn_playbookinstance_invoice
-
-**Added by**: Sales Solution
-
-See the [msdyn_playbookinstance_invoice](invoice.md#BKMK_msdyn_playbookinstance_invoice) one-to-many relationship for the [invoice](invoice.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_lead"></a> msdyn_playbookinstance_lead
-
-**Added by**: Lead Management Solution
-
-See the [msdyn_playbookinstance_lead](lead.md#BKMK_msdyn_playbookinstance_lead) one-to-many relationship for the [lead](lead.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_contact"></a> msdyn_playbookinstance_contact
-
-**Added by**: System Solution Solution
-
-See the [msdyn_playbookinstance_contact](contact.md#BKMK_msdyn_playbookinstance_contact) one-to-many relationship for the [contact](contact.md) table/entity.
-
-### <a name="BKMK_msdyn_playbookinstance_account"></a> msdyn_playbookinstance_account
-
-**Added by**: System Solution Solution
-
-See the [msdyn_playbookinstance_account](account.md#BKMK_msdyn_playbookinstance_account) one-to-many relationship for the [account](account.md) table/entity.
+See the [msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence](msdyn_forecastdefinition.md#BKMK_msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence) one-to-many relationship for the [msdyn_forecastdefinition](msdyn_forecastdefinition.md) table/entity.
 
 ### See also
 
