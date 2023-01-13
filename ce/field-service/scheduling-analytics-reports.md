@@ -14,31 +14,9 @@ manager: shellyha
 search.app: 
   - D365CE
   - D365FS
----
-
-# Resource scheduling and optimization analytics dashboard
+--- 
 
 
-
-
-
-
-#
-
-## Configuration considerations
-
-- Other than editing filters and the ability to drill down, the reports are not configurable or customizable. 
-
-
-## Additional notes
-
-- The reports explored in this article are all built on Microsoft Power BI.
-- **Travel Calculation**: All travel calculation is based on the miles. 
-- **SLA**: Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Note that currently, we do not support the custom refresh schedule.
-- **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
-- Data is retained for 24 months. 
-- We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
-- Storage file size automatically increases with the analytics feature. If this increase causes issues or concerns, contact Microsoft Support.
 
 **Data Availability for Entities**: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
 
@@ -78,19 +56,7 @@ search.app:
 |Oops! There was a problem rendering the report. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
 |Oops! There was a problem rendering the report, please try again. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
 
-### Supported regions for reports
 
-| Region | Name | 
-| --- | --- |
-| North America| NAM |
-| South America | SAM |
-| Canada | CAN |
-| Europe | EUR |
-| Asia Pacific Japan |APJ |
-| Australia | OCE |
-| Japan| JPN |
-| India | IND |
-| Great Britain |GBR |
 
 ### Disabling custom actions 
 
@@ -105,6 +71,3 @@ Do not disable this custom action because insights and analytics features in Dyn
 | Key | String  |Yes | For internal use only. |
 | Value | String | Yes | For internal use only. |
 | ConfigName | String | No | For internal use only. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
