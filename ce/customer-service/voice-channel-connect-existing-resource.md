@@ -1,9 +1,9 @@
 ---
-title: "Connect using an existing Azure resource | MicrosoftDocs"
-description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 11/22/2022
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: Connect using an existing Azure resource
+description: Use this article to understand how to connect to Azure Communication Services using an existing Azure resource.
+ms.date: 01/16/2023
+ms.custom: bap-template
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -84,7 +84,9 @@ So, to enable call recording and SMS services, you must configure your applicati
 7. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
    - **AAD Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
    - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
-8. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
+8. Select **Create** to create the event subscription endpoint for recording. 
+   > [!NOTE] 
+   > It can take up to 15 minutes to sync. But, if you get an error like “"Webhook validation handshake failed”, then retry this step again after a few minutes.
 
 For information about enabling call recording and transcription for a voice workstream in Omnichannel for Customer Service, see [Configure call recording and transcription](voice-channel-configure-transcripts.md).
 
@@ -126,16 +128,18 @@ For information about enabling call recording and transcription for a voice work
 2. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
 3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and note the value.
 
+## Next steps
+
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)   
+[Bring your own carrier](voice-channel-bring-your-own-number.md)   
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
-[Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
