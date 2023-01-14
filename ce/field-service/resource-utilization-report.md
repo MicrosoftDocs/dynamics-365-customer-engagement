@@ -37,11 +37,70 @@ To access the report, open the **Field Service** app, change to the **Resources*
 
 Average number of hours per day that the selected resources worked on a bookings in the selected time range.
 
-**Formula**
+Formula: (Total work time of the selected resources + Estimated travel time of the bookings in the selected time range) / Number of days of the bookings
 
-(Total work time of the selected resources + Estimated travel time of the bookings in the selected time range) / Number of days of the bookings
+### Avg. travel time per day (hrs.)
 
+Average number of hours per day that the selected resources spend traveling in the selected time range.
 
+Formula: Actual travel duration / Number of days of the bookings
+
+### Total miles traveled
+
+Total miles on truck rolls in the given time range.
+
+### Avg. miles traveled per day
+
+Average miles on truck rolls per day.
+
+### Utilization rate
+
+The percentage of time a resource spends on work and travel in the given period from slicer. (Work duration plus travel duration) per available time on the calendar rule. Note: if the user does not set up the available time on the calendar then the default available time is 24 hours.
+
+### Late arrival rate
+
+For all in-progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time,” if “Time to Promise” is not enabled in the implementation. 
+
+### Booking cancellation rate
+
+For all in-progress or completed bookings, the percentage of bookings that have been canceled in the given time range.
+
+### Resource utilization breakdown
+
+The visual shows the percentage of time on work, travel, break, and idle time over a period. It can break via booking status slicer, such as in progress job or completed job. Each bar in the chart shows the relative percentage of duration types in stacked columns, where the total of stacked columns always equals 100 percent. It doesn't show overtime values of any duration types.
+
+### Duration breakdown
+
+The graph shows the trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of additional sections on the resource and utilization report.](./media/scheduling-analytics2.png)
+
+### Bookings by territory
+
+Shows a map with color indicators for bookings in each territory. By hovering over a territory, you can see number of bookings, total work time, travel time, and break time. In order for this to render correctly, the territory must be a physical geographic location.
+
+### Variance to estimated travel time
+
+Shows the variance by region between estimated travel times and actual travel times.
+
+### Requirement duration % vs. allocated resource duration %
+
+Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting analysis shows the percentage of requirement duration versus percentage value of allocated resource duration.
+
+### Miles traveled
+
+Shows the trend of total miles traveled per month.
+
+### Resource work time quartile analysis
+
+Compares each resource's travel time to work time and ranks them into relative quartiles.
+
+### Resource metrics
+
+Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day.
+
+<!--
 
 | Visual/Chart |	Description |
 | --- | --- |
@@ -69,3 +128,4 @@ Average number of hours per day that the selected resources worked on a bookings
 | Resource work time quartile analysis  |	Compares each resource's travel time to work time and ranks them into relative quartiles.  |
 | Resource metrics |	Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day. | 
 
+--> 
