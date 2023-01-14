@@ -30,6 +30,8 @@ To access the report, open the **Field Service** app, change to the **Resources*
 
 ## Report metrics
 
+All charts adapt to the filters and the formulas assume don't mention them specifically.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
 
@@ -37,7 +39,9 @@ To access the report, open the **Field Service** app, change to the **Resources*
 
 Average number of hours per day that the selected resources worked on a bookings in the selected time range.
 
-Formula: (Total work time of the selected resources + Estimated travel time of the bookings in the selected time range) / Number of days of the bookings
+Formula: (Total work time + Travel time) / Number of days
+
+Alternative: Duration of the bookable resource bookings / Number of days from start and end date of the bookable resource bookings
 
 ### Avg. travel time per day (hrs.)
 
@@ -45,25 +49,47 @@ Average number of hours per day that the selected resources spend traveling in t
 
 Formula: Actual travel duration / Number of days of the bookings
 
+Alternative: Actual travel duration of the bookable resource bookings / Number of days from start and end date of the bookable resource bookings
+
 ### Total miles traveled
 
-Total miles on truck rolls in the given time range.
+Total miles on traveled by the selected resources in the selected time range.
+
+Formula: Sum of miles traveled of the bookable resource bookings.
 
 ### Avg. miles traveled per day
 
-Average miles on truck rolls per day.
+Average number of miles on traveled by the selected resources in the selected time range.
+
+Formula: Actual travel duration / Number of days of the bookings
+
+Alternative: Actual travel duration of the bookable resource bookings / Number of days from start and end date of the bookable resource bookings
 
 ### Utilization rate
 
-The percentage of time a resource spends on work and travel in the given period from slicer. (Work duration plus travel duration) per available time on the calendar rule. Note: if the user does not set up the available time on the calendar then the default available time is 24 hours.
+The percentage of time a resource spends on work and travel per available time on the calendar rule.
+
+Formula: ((Total work time + Travel time) / (Available hours per day x Number of days)) x 100
+
+Alternative: Duration of the bookable resource bookings / The available time of the resources between the start and end date of the bookable resource bookings
+
+> [!NOTE]
+> If the user doesn't set the available time on the calendar, the default is 24 hours.
 
 ### Late arrival rate
 
-For all in-progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time,” if “Time to Promise” is not enabled in the implementation. 
+The percentage of bookings in progress or completed where the technician arrives late.
+
+Formula: (Number of bookable resource bookings with late arrival / Total number of bookings) x 100
+
+> [!NOTE]
+> Being late is defined by arriving after the *Time to Promise* value. if *Time to Promise* isn't set, the *Estimated arrival time* is taken into account.
 
 ### Booking cancellation rate
 
-For all in-progress or completed bookings, the percentage of bookings that have been canceled in the given time range.
+For all in-progress or completed bookings, the percentage of bookings that have been canceled.
+
+Formula
 
 ### Resource utilization breakdown
 
