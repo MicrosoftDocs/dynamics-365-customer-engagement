@@ -40,8 +40,7 @@ Several entities in Field Service use incremental numbers for distinction. Auto-
 
 1. In the dialog box, select **Opt-In**.
 
-> [!CAUTION]
-> During the initial opt-in process, creation of new records may fail. We recommend to enable the feature when there's no activity in the application. The process will take a few moments to complete.
+During the initial opt-in process, creation of new records may fail. We recommend to enable the feature when there's no activity in the application. The process will take a few moments to complete.
 
 ### Configure auto-numbering
 
@@ -52,6 +51,8 @@ Several entities in Field Service use incremental numbers for distinction. Auto-
 1. Select **Auto-Numbering** in the command bar.
 
 1. In the **Configure Auto-Numbering** dialog box, configure the numbering settings:
+
+   :::image type="content" source="media/auto-numbering-setting.png" alt-text="Screenshot of the auto-numbering configuration dialog box.":::
 
    - Choose the **Entity**.
    - Set the **Prefix**, **Number Length**, and **Starting Number**.
