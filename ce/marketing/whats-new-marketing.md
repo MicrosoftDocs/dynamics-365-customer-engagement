@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 01/11/2023
+ms.date: 01/13/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -36,6 +36,7 @@ There is no Dynamics 365 Marketing release for January. We will be back in Febru
 Learn about making the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
 
 - [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
+- [Real Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
 
 ## December 2022 update
 
