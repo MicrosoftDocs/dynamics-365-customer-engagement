@@ -71,7 +71,7 @@ Templates for properties let you quickly select a group of properties to apply t
 
 ## Associate templates to assets, functional locations, or categories
 
-From a property template, you can also associate assets, asset categories.md, functional locations, or location categories. By associating a template with a category, all records in that category use the property template.
+From a property template, you can also associate assets, asset categories, functional locations, or location categories. By associating a template with a category, all records in that category use the property template.
 
 1. In Field Service, change to the **Settings** area.
 
