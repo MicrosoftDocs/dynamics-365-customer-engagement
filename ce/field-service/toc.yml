@@ -74,10 +74,6 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
-    - name: Trades
-      href: trades.md
-    - name: Not-to-exceed
-      href: work-order-not-to-exceed.md
     - name: Customer asset validation
       href: asset-validation.md
       
