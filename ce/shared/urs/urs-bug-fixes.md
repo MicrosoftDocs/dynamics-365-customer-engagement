@@ -2,6 +2,13 @@
 
 ## 3.12.92.14
 
+(Includes Resource Scheduling controls version 1.2.35.223541).
+
+- Race condition resulting in incorrect resources to be used in loadBookingAggregates.
+- New schedule board update for customizations to resource templates.
+- Booking alert panel crash when alerts have been deleted.
+
+
 (Includes Resource Scheduling controls version 1.2.32.222981).
 
 - Fixed a bug that prevented creating a new entity in the Field Service setup wizard.

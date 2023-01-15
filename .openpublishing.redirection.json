@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/use-microsoft-dynamics-365-web-api-helper-library-csharp.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-configuration-classes.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-crmhttpresponseexception-class.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-helper-code-authentication-class.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/webapiservice",
+      "redirect_document_id": "false"
+    },    
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/building-extended-xrm-applications.md",
+      "redirect_url": "/power-platform/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/setup-mobile-offline.md",
       "redirect_url": "/power-apps/mobile/setup-mobile-offline-classic",
       "redirect_document_id": "false"
@@ -220,7 +245,16 @@
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=396733",
       "redirect_document_id": "false"
     },
-
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-metadata-generate-entity-diagrams.md",
+      "redirect_url": "/power-apps/developer/data-platform/use-metadata-generate-entity-diagrams",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/key-entity-diagrams.md",
+      "redirect_url": "/power-apps/developer/data-platform/use-metadata-generate-entity-diagrams#about-the-diagrams",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/customerengagement/on-premises/developer/customize-dev/ribbon-wss-schema.md",
       "redirect_url": "/power-apps/developer/model-driven-apps/ribbon-wss-schema",
@@ -24479,6 +24513,21 @@
     {
       "source_path": "ce/field-service/mobile-project-version-history.md",
       "redirect_url": "/dynamics365/field-service/activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-records.md",
+      "redirect_url": "migrate-config-data-for-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-live-chat.md",
+      "redirect_url": "migrate-config-data-for-live-chat",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/export-import-config-data-for-voice.md",
+      "redirect_url": "migrate-config-data-for-voice-channel",
       "redirect_document_id": "false"
     },
     {
