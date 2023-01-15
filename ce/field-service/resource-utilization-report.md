@@ -87,28 +87,28 @@ Formula: (Number of bookable resource bookings with late arrival / Total number 
 
 ### Booking cancellation rate
 
-For all in-progress or completed bookings, the percentage of bookings that have been canceled.
+The percentage of bookings in progress and completed that have been canceled.
 
 Formula
 
 ### Resource utilization breakdown
 
-The visual shows the percentage of time on work, travel, break, and idle time over a period. It can break via booking status slicer, such as in progress job or completed job. Each bar in the chart shows the relative percentage of duration types in stacked columns, where the total of stacked columns always equals 100 percent. It doesn't show overtime values of any duration types.
+Percentage of time on work, travel, break, and idle time. Each bar in the chart shows the relative percentage of duration types in stacked columns. It doesn't show overtime values of any duration types.
 
 ### Duration breakdown
 
-The graph shows the trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
+Trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of additional sections on the resource and utilization report.](./media/scheduling-analytics2.png)
 
 ### Bookings by territory
 
-Shows a map with color indicators for bookings in each territory. By hovering over a territory, you can see number of bookings, total work time, travel time, and break time. In order for this to render correctly, the territory must be a physical geographic location.
+Map with color indicators for bookings in each territory. Hover over a territory to see number of bookings, total work time, travel time, and break time. In order for this to render correctly, the territory must be a physical geographic location.
 
 ### Variance to estimated travel time
 
-Shows the variance by region between estimated travel times and actual travel times.
+Variance between estimated travel times and actual travel times by region.
 
 ### Requirement duration % vs. allocated resource duration %
 
