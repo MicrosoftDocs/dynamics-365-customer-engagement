@@ -21,11 +21,11 @@ After [associating properties](properties.md#associate-templates-to-assets-funct
 
 1. In Field Service, change to the **Service** area.
 
-1. Select a customer asset or a functional location record and go to the **Properties** tab.
+1. Select a customer asset record and go to the **Properties** tab.
 
 1. In the **Current Property Values** section, select **New Property Log**.
 
-1. Choose the **Property** you want to log, and enter the log value. You can only choose from [properties that are associated to the record](properties.md#associate-templates-to-assets-functional-locations-or-categories). The **Reading Time** represents the date and time of reading the value for the log.
+1. Choose the **Property** you want to log, and enter the log value. You can only choose from [properties that are associated to the record](properties.md#associate-templates-to-assets-or-categories). The **Reading Time** represents the date and time of reading the value for the log.
 
    :::image type="content" source="media/assets-properties-log-lookup.png" alt-text="Screenshot of associated properties to an asset record.":::
 

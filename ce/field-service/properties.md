@@ -19,7 +19,7 @@ search.app:
 
 In cases where field service organizations service assets or locations for their customers, it's important to be able to capture relevant information about those assets.
 
-Properties allow you to record information about assets and functional locations in Dynamics 365 Field Service. After [creating the property definitions](#create-property-definitions), you can [define templates for properties](#create-templates-for-properties). When performing service tasks, technicians can fill in a [property log to create a log history](property-logs.md).
+Properties allow you to record information about assets in Dynamics 365 Field Service. After [creating the property definitions](#create-property-definitions), you can [define templates for properties](#create-templates-for-properties). When performing service tasks, technicians can fill in a [property log to create a log history](property-logs.md).
 
 For a guided walkthrough, see this video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Create and configure asset properties](https://youtu.be/dhruNqBXMgw)
 
@@ -69,9 +69,9 @@ Templates for properties let you quickly select a group of properties to apply t
 
 1. Select **Save and close**.
 
-## Associate templates to assets, functional locations, or categories
+## Associate templates to assets or categories
 
-From a property template, you can also associate assets, asset categories, functional locations, or location categories. By associating a template with a category, all records in that category use the property template.
+From a property template, you can also associate assets or asset categories. By associating a template with a category, all records in that category use the property template.
 
 1. In Field Service, change to the **Settings** area.
 
