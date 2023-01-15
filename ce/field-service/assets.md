@@ -1,18 +1,18 @@
 ---
-title: "Asset servicing in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
-description: Learn all about asset management in Dynamics 365 Field Service
-ms.date: 12/07/2022
+title: Create assets in Dynamics 365 Field Service (contains video)
+description: This article describes how to use asset management in Dynamics 365 Field Service.
+ms.date: 01/15/2023
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
+ms.custom: bap-template
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Asset servicing in Dynamics 365 Field Service
+# Create assets in Dynamics 365 Field Service
 
 Customer assets let you track equipment that requires inspections, maintenance, and occasional repairs. Customer assets indicate which products are located at a [functional location](functional-locations.md). You can also use them to [track service history of all past and present work orders](service-history.md) for each asset. If you're using [Connected Field Service](cfs-iot-overview.md), [connect customer assets to sensors](cfs-register-devices.md) that monitor the asset and [trigger IoT alerts](cfs-iot-alerts.md) as needed.
 
