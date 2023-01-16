@@ -151,6 +151,7 @@ Almost all types of entities in Dynamics 365 Marketing include a **Related** tab
 The segment quota is the limit of active segments that an organization can have. The active segment count is the sum of the live segments created by a user and system segments that customer journeys create.
 
 System segments are created when:
+- A unified segment is created (a behavior block plus a profile)
 - A customer journey has condition tile(s)
 - A customer journey uses multiple segments
 
