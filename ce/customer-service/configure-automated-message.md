@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 01/10/2023
+ms.date: 01/16/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -104,11 +104,12 @@ To deactivate messages at the channel instance level, select one or more message
 ## Next steps
 
 [Add a chat widget](add-chat-widget.md)  
-[Channels](channels.md)  
+
 
 
 ### See also
 
 [Preconfigured automated message triggers](preconfig-auto-message-triggers.md)
+[Channels](channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
