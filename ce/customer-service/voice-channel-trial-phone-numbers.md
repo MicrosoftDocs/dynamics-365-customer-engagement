@@ -23,7 +23,7 @@ To purchase a new number at the end of the trial, see [Manage phone numbers](voi
 - You must have an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)
 - You must install the voice channel. More information: [Install the voice channel](voice-channel-install.md)
 
-## Use trial phone numbers
+## Use trial numbers
 
 The trial number is a toll-free US number, therefore you can't make a call to this number if you aren't in the US. As a workaround, you could use a geographic US number that's not chargeable. However, trial numbers are capped at two, therefore it's the last trial number that you can acquire and should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
 
