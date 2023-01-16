@@ -3,7 +3,7 @@ title: Use trial phone numbers in the voice channel
 description: Use this article to understand how you can use trial phone numbers. Also, learn how to extend and end the trial in Omnichannel for Customer Service.
 ms.date: 01/18/2023
 ms.custom: bap-template
-ms.topic: conceptual
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ---
