@@ -67,7 +67,7 @@ Alternative: Actual travel duration of the bookable resource bookings / Number o
 
 ### Utilization rate
 
-The percentage of time a resource spends on work and travel per available time on the calendar rule.
+The percentage of time a resource spends on work and travel per [available time on the calendar](calendar-resource.md).
 
 Formula: ((Total work time + Travel time) / (Available hours per day x Number of days)) x 100
 
@@ -87,44 +87,55 @@ Formula: (Number of bookable resource bookings with late arrival / Total number 
 
 ### Booking cancellation rate
 
-The percentage of bookings in progress and completed that have been canceled.
+The percentage of bookings with a cancelled status that had a status of in progress or completed before.
 
-Formula
+Formula: (Number of cancelled bookable resource bookings / Total number of bookings) x 100
 
 ### Resource utilization breakdown
 
-Percentage of time on work, travel, break, and idle time. Each bar in the chart shows the relative percentage of duration types in stacked columns. It doesn't show overtime values of any duration types.
+Percentage of time on work, travel, break, and idle time. Each bar in the chart shows the relative percentage of duration types in stacked columns. It doesn't show overtime values of any duration types. Available hours by day are [defined in the calendar for a resource](calendar-resource.md).
+
+Formula:
+
+- Work hour = (Total work time / (Available hours per day x Number of days)) x 100
+- Travel hour = (Actual travel time / (Available hours per day x Number of days)) x 100
+- Break hour = (Break time / (Available hours per day x Number of days)) x 100
+- Idle hour = (((Available hours per day x Number of days) - Work hour - Travel hour - Break hour) / (Available hours per day x Number of days))) x 100
 
 ### Duration breakdown
 
-Trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
+Total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of additional sections on the resource and utilization report.](./media/scheduling-analytics2.png)
 
 ### Bookings by territory
 
-Map with color indicators for bookings in each territory. Hover over a territory to see number of bookings, total work time, travel time, and break time. In order for this to render correctly, the territory must be a physical geographic location.
+List of [territories](set-up-territories.md) as defined in the bookings with the number of bookings in each territory.
 
 ### Variance to estimated travel time
 
-Variance between estimated travel times and actual travel times by region.
+Variance between estimated travel times and actual travel times by territory.
 
-### Requirement duration % vs. allocated resource duration %
-
-Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting analysis shows the percentage of requirement duration versus percentage value of allocated resource duration.
+Formula: (Sum of actual travel time - Sum of estimated travel time) / Number of bookings
 
 ### Miles traveled
 
-Shows the trend of total miles traveled per month.
+Shows the total miles traveled per month.
 
-### Resource work time quartile analysis
+### Requirement duration vs. allocated resource duration (% in hours)
 
-Compares each resource's travel time to work time and ranks them into relative quartiles.
+Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting chart shows the percentage of the planned total duration versus the actual total duration.
+
+Formula: ((Total work time + Estimated travel duration) + (Total work time + Actual travel duration) / (Total work time + Estimated or actual travel duration)) x 100
+
+### Correlation analysis (travel time and work time)
+
+Correlates each resource's travel time to work time and plots them in the matching quartile.
 
 ### Resource metrics
 
-Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day.
+Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, work time, travel time, break time, and idle time. Year over year (%) compares the resource utilization of the selected year to the year befores.
 
 <!--
 
