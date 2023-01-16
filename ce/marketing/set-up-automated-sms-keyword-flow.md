@@ -21,6 +21,24 @@ search.app:
 
 Text messages allow you to quickly communicate with your customers. But to continue the conversation effectively, you need to be able to act on customer responses. Keyword flows allow you to branch journeys based on customer replies to text messages.
 
+## Add SMS keywords to a text message 
+
+Adding SMS keywords in your text message allows you to use them in your customer journey to branch it based on your customer’s response to your text messages.  
+ 
+To add a keyword to a text message: 
+ 
+1. Select the keyword icon. 
+2. Type the keyword that you’d like to add. 
+3. Select it from the list if it has been used previously in the journey or select the **New keyword** button to create it. 
+
+The following screenshot shows how to add SMS keywords in your text message. 
+
+> ![Add SMS keywords screenshot](media/add-sms-keywords.png "[Add SMS keywords screenshot")
+ 
+All keywords created through the SMS editor are also added to the [SMS keywords page](manage-sms-keywords.md ). 
+
+## Set up the keyword flow in a journey
+
 Using the **Send a text message** tile in your journey, you can define custom keywords that will direct a customer's journey based on their responses. You can even set a default text message reply for unrecognized keywords.
 
 To create a keyword flow:
