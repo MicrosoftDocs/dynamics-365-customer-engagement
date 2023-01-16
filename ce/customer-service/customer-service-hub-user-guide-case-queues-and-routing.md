@@ -33,7 +33,7 @@ If you think another group in your team has expertise on the subject, you can mo
 
 3. On the command bar, select **Add to Queue**.  
 
-4. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.  
+4. The **Queue** field displays the queue the case is currently added to. The **Lookup** displays only queues that are configured for the specific activity. Select the queue you want to add the case to, and then select **Add**.  
 
 To know more about queues, see [Work with queues](work-with-queues.md).
 

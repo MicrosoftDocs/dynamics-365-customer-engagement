@@ -50,6 +50,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 
 > [!NOTE]
 >
+> - If your Administrator has enabled the **Enable the minimal case resolution dialog**, you will only see the **Resolution Type** and **Resolution** fields on the 
 > - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
 > - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
@@ -69,7 +70,9 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 
 > [!IMPORTANT]
 >
-> Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning stating that you need to manually close the open activities or the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
+> Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning message with a link to the **Open Activity Associated View** page.  You can click on the link to view the open activities associated with the case.
+ If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
+ 
 
 ## Cancel a case
 

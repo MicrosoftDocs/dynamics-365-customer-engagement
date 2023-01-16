@@ -94,7 +94,7 @@ Use the view list and queue list to filter and find items in queues.
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
-   - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
+   - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment. If you want to assign the item to another agent, you can only select agents who are members of the same queue.
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
    - Your work schedule, assignment rules, skills, presence, or capacity constraints won't be evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item and start working on it. This ability to manually override preconfigured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
    - Your presence will be updated. If you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
@@ -155,7 +155,9 @@ If you want another person in your organization to work on an activity, you can 
   
 2. Select the activity you want, and then select **Add to Queue**.
   
-3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
+3. In the **Queue** field displays the queue the activity belongs to. The application displays only the queues configured for the specific activity.
+
+1. Select the queue you want to route the activity to, and then select **Add**. 
 
 ### Pick a view for your queues
  
