@@ -61,7 +61,31 @@ If the number of SLAs being migrated is more than 1000, SLAs may not pass throug
 
 Skip Premigration checkup by using the following flag: use &flags=FCB.SkipPreMigrationCheckUp=true in the URL, when you select **Miscellaneous** > **ARC and SLA migration** **>  in the Customer Service admin center site map. Perform batch migration.
 
+## Troubleshoot issues with SLA time calculation
 
+### Warning and failure duration times are incorrect for the SLA
+
+Some SLAs don't take into account daylight saving time for warning and failure duration.
+
+#### Reason
+
+If your SLA was created in the web client that is now deprecated, the business schedule calendar does not support daylight saving time.
+
+#### Resolution
+
+To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+
+### Errors on custom time calculation for SLA
+
+Errors received on configuring custom time calculation for SLA and during its usage.
+
+#### Reason 
+
+Custom time calculation isn't configured correctly.
+
+#### Resolution 
+
+Set up custom time calculation and troubleshoot issues. For information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis)
 
 ## Troubleshoot issues with SLA timer
 
@@ -306,20 +330,6 @@ If the action flow associated with one or more SLA items are deleted or aren't i
 #### Resolution
 
 Avoid using the **modifiedon** and **modifiedby** fields for reporting because they get modified when calculating Next SLA on the enhanced case grid. If you want to know when the case was resolved, use the **incidentresolution** entity and avoid using **modifiedon** on the case entity.
-
-## Troubleshoot issues with SLA time calculation
-
-### Warning and failure duration times are incorrect for the SLA
-
-Some SLAs don't take into account daylight saving time for warning and failure duration.
-
-#### Reason
-
-If your SLA was created in the web client that is now deprecated, the business schedule calendar does not support daylight saving time.
-
-#### Resolution
-
-To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 
 ### See also
 

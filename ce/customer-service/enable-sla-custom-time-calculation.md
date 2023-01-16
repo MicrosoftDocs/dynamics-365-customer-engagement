@@ -241,98 +241,85 @@ private double CalculateElapsedTime(string regardingId, string calendarId, strin
 }
 ```
 
-### Errors on custom time calculation for SLA
-
-Errors received on configuring custom time calculation for SLA and during its usage.
-
-#### Reason 
-
-Custom time calculation isn't configured correctly.
-
-#### Resolution 
-
-Set up custom time calculation and troubleshoot issues. For information on setting up custom time calculation, go to: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis)
-
-### Error codes for custom time calculation
+## Error codes for custom time calculation
 
 The following are the error codes for the various error scenarios that might occur during custom time calculation.
 
-#### Error code: 10000004
+### Error code: 10000004
 
 Error message: "Workflow for the Custom Time Calculation API for SLA Item {0} must be active."
 
-#### Reason
+### Reason
 The error occurs if the Custom Time Calculation Workflow is disabled.
 
-#### Resolution
+### Resolution
 
 On opening the SLA, you'll see a form notification along with an **Activate** button, if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid such issues, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment and verify only after the SLA deployment. Make sure that you don't delete or deactivate the workflow process manually or through customization.
 
-#### Error code: 10000005
+### Error code: 10000005
 
 Error message: "Select the Custom Time Calculation Process."
 
-#### Reason
+### Reason
 The error occurs if the Custom Time Calculation Workflow is enabled, but no workflow process action is associated with the SLA Item.
 
-#### Resolution
+### Resolution
 Add the workflow process and save the SLA item. To avoid such issues, make sure that the Custom Time Calculation Workflow process is filled in the lookup value, if the toggle is **On**.
 
-#### Error code: 10000006
+### Error code: 10000006
 
 Error message: "Workflow for the Custom Time Calculation Process for SLA Item {0} is missing. {Placeholder="{0}"} refers to the SLA Item ID."
 
-#### Reason
+### Reason
 The error occurs if the Custom Time Calculation Workflow is enabled during SLA activation and the workflow process action is associated with the SLA Item with valid GUID, but the workflow is deleted.
 
-#### Resolution
+### Resolution
 You must correct the invalid workflow. Remove the existing workflow from the SLA Item, create a new workflow, and then add the new workflow to the same SLA item. To avoid such issues, make sure to not delete any workflow manually or as part of the deployment process. Also, make sure to verify your changes before importing to a production org directly.
 
-#### Error code: 10000007
+### Error code: 10000007
 
 Error message: "Plugin implementation is missing for the Custom Time Calculation Process in SLA Item {0}
 {Placeholder="{0}"} refers to sla item id."
 
-#### Reason
+### Reason
 The error occurs if the Custom Time Calculation Workflow is enabled, but the associated plugin SDK messaging process step is missing or the plug in isn't registered.
 
-#### Resolution
+### Resolution
 Make sure to add the SDK step while exporting the SLA from the source or development org. To avoid such issues, make sure that you add the SDK message step and plugin assembly in the SLA solution.
 
-#### Error code: 10000008
+### Error code: 10000008
 
 Error message: "Warning or the failure time returned by Custom Time Calculation Process for the SLA Item {0} is invalid. {Placeholder="{0}"} refers to sla item id."
 
-#### Reason
+### Reason
 The error occurs if the Custom Time Calculation Workflow action returns an invalid **Failure Time** for **requestType getEndTime**.
 
-#### Resolution
+### Resolution
 You'll need to debug to find out why the custom workflow process isn't returning proper values. To avoid such issues, make sure that you add and test all the scenarios before deploying the sceanrios to production. For example, various SLA item applications and Pause or Resume scenarios.
 
-#### Error code: 10000009
+### Error code: 10000009
 
 Error message: "Elapsed Time returned by Custom Time Calculation Process for the SLA Item {0} is invalid.
 {Placeholder="{0}"} refers to sla item id."
 
-#### Reason
+### Reason
 The error occurs if the Custom Time Calculation Workflow action returns an invalid **Elapsed Time** for **requestType getElapsedTime**.
 
-#### Resolution
+### Resolution
 You need to debug to find out why the custom workflow process isn't returning proper values when the case was paused and resumed. To avoid such issues, make sure that you add and test all the scenarios before deploying the scenarios to production. For example,  Pause or Resume scenarios.
 
-#### Error code: 10000010
+### Error code: 10000010
 
 Error message: "Workflow for the Custom Time Calculation Process {0} for SLA Item {1} is not found."
 
-#### Reason
+### Reason
 The error occurs if the custom action for custom time calculation isn't found in the system.
 
-#### Resolution
+### Resolution
 
 You'll need to debug and find out if the custom action is present in the system with the same name as shown in the error. To avoid such issues, make sure that you create the same custom action name prefix as shown in the error message. You need to change the prefix of your solution or avoid exporting it as an unmanaged solution. You can also avoid creating the workflow interface directly in the managed solution, and instead create the managed solution in default customization and then add it to the solution.
 
-
-### FAQ
+## FAQ
 For more information about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
 ### See also
