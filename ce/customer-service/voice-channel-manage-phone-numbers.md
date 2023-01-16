@@ -1,19 +1,21 @@
 ---
-title: "Manage phone numbers | MicrosoftDocs"
-description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 10/27/2022
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: Manage phone numbers
+description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
+ms.date: 01/18/2023
+ms.custom: bap-template
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
 ---
 
 # Manage phone numbers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service lets you enable and use voice and SMS services seamlessly within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you'd like to set up inbound and outbound calling options for your business.
+Omnichannel for Customer Service lets you enable and use voice and SMS services seamlessly within Dynamics 365. 
+
+
+As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you'd like to set up inbound and outbound calling options for your business.
 
 You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
@@ -30,18 +32,6 @@ You can also bring your own phone number via Azure direct routing. More informat
 > [!IMPORTANT]
 > You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
-
-## Use trial phone number
-
-The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. When the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and can't reuse or purchase the trial number.
-
-The trial number is a toll-free US number, therefore you can't make a call to this number if you aren't in the US. As a workaround, you could use a geographic US number that's not chargeable. However, trial numbers are capped at two, therefore it's the last trial number that you can acquire and should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
-
-If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
-
-> [!NOTE]
-> - You can't recover trial phone number and data after the trial has expired and been deprovisioned.
-> - If you need more trial minutes or phone numbers, we recommend that you file a request with Microsoft Support.
 
 ## View phone numbers
 
