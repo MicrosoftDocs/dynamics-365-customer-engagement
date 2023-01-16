@@ -1,12 +1,12 @@
 ---
-title: "Make and receive your first phone call in the voice channel | MicrosoftDocs"
-description: "Learn how to use the first-run experience of the voice channel in Omnichannel for Customer Service."
+title: Make and receive your first phone call in the voice channel
+description: Learn how to use the first-run experience of the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/02/2021
-ms.topic: article
-
+ms.date: 01/18/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 
@@ -29,7 +29,7 @@ When you want to try the voice channel for the first time in your org, the syste
     > If someone in your org has already tried the first run experience, you'll see **Try voice** instead of **Set up voice demo**.
 
 
-1.  After the demo is set up, the **Try out voice** page displays the option to **Open voice demo** and the settings that have been configured.
+After the demo is set up, the **Try out voice** page displays the **Open voice demo** option and the settings that have been configured.
 
 
 ## Try out voice
@@ -49,7 +49,7 @@ When you want to try the voice channel for the first time in your org, the syste
 
     ![Allow browser to use microphone.](media/image13.png)
 
-1. Select **Accept** on the incoming phone call to receive the call as an agent, and try the following through the call controls:
+1. Select **Accept** on the incoming phone call to receive the call as an agent, and try the following options using the call controls:
 
     - Mute and hold
 
@@ -61,7 +61,7 @@ When you want to try the voice channel for the first time in your org, the syste
 
 ## View the demo settings
 
-Perform the following steps to see the settings that have been automatically configured by the system for the voice demo:
+Perform the following steps to see the settings that have been automatically configured by the system for the voice demo.
 
 1. On the **Try out live chat and voice calls** page, select **Try voice**.
 
@@ -71,12 +71,18 @@ Perform the following steps to see the settings that have been automatically con
 
 4. If you select **View** in the **Queue** area, the queue information is displayed.
 
+> [!NOTE]
+> If you need more trial minutes or phone numbers, we recommend that you file a request with Microsoft Support.
+
+## Next steps
+[Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
+
 
 ### See also
 
 [Call a customer](voice-channel-call-customer.md)  
 [Overview of the voice channel](voice-channel.md)  
-[Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,6 +30,7 @@ You can also bring your own phone number via Azure direct routing. More informat
 > [!IMPORTANT]
 > You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
+
 ## Use trial phone number
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. When the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and can't reuse or purchase the trial number.
@@ -39,7 +40,8 @@ The trial number is a toll-free US number, therefore you can't make a call to th
 If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
 > [!NOTE]
-> You can't recover trial phone number and data after the trial has expired and been deprovisioned.
+> - You can't recover trial phone number and data after the trial has expired and been deprovisioned.
+> - If you need more trial minutes or phone numbers, we recommend that you file a request with Microsoft Support.
 
 ## View phone numbers
 
