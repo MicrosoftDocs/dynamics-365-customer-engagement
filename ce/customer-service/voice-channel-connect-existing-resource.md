@@ -86,7 +86,7 @@ So, to enable call recording and SMS services, you must configure your applicati
    - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
 8. Select **Create** to create the event subscription endpoint for recording. 
    > [!NOTE] 
-   > It can take up to 15 minutes to sync. But, if you get an error like “"Webhook validation handshake failed”, then retry this step again after a few minutes.
+   > It can take up to 15 minutes to sync. But, if you get an error like “Webhook validation handshake failed”, then retry this step again after a few minutes.
 
 For information about enabling call recording and transcription for a voice workstream in Omnichannel for Customer Service, see [Configure call recording and transcription](voice-channel-configure-transcripts.md).
 
