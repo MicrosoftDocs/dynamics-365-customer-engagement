@@ -13,7 +13,7 @@ ms.author: mgandham
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. When the 60 minutes of free calling time elapses, you can choose to extend your trial or purchase a new number.
 
 To extend your trial minutes, raise a request with Microsoft Support.
-To purchase a new number, see [Manage phone numbers](voice-channel-manage-phone-numbers.md). Note that you can't reuse or purchase the trial number.
+To purchase a new number at the end of the trial, see [Manage phone numbers](voice-channel-manage-phone-numbers.md). Note that you can't reuse or purchase the trial number.
 
 > [!NOTE]
 > You don't need to connect to Azure Communication Services to use trial numbers.
