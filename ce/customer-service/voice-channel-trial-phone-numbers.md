@@ -8,7 +8,7 @@ author: gandhamm
 ms.author: mgandham
 ---
 
-## Use trial phone numbers
+# Use trial phone numbers
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. When the 60 minutes of free calling time elapses, you can choose to extend your trial or purchase a new number.
 
