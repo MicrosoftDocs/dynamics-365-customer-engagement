@@ -148,7 +148,13 @@ Almost all types of entities in Dynamics 365 Marketing include a **Related** tab
 
 ## Managing the segment quota
 
-The segment quota is the limit of active segments that an organization can have. The active segment count is the sum of the live segments created by a user and sub-segments that customer journeys create. For example, when you create a customer journey with condition tiles, the customer journey will create additional segments for each condition that the customer journey has. These additional segments are called "sub-segments" and count as active segments in the quota *if the customer journey is live*.
+The segment quota is the limit of active segments that an organization can have. The active segment count is the sum of the live segments created by a user and system segments that customer journeys create.
+
+System segments are created when:
+- A customer journey has condition tile(s)
+- A customer journey uses multiple segments
+
+These additional segments are called "system segments" and count as active segments in the quota *if the customer journey is live*.
 
 If the active segments quota is exceeded, you can do the following to reduce the number of active segments:
 - Stop unrelated segment(s)
@@ -156,6 +162,8 @@ If the active segments quota is exceeded, you can do the following to reduce the
 
 > [!NOTE]
 > Deleting inactive journeys or segments **will not affect** the usage of active segments.
+
+For more detailed information please visit [Service limits and fair use policy](fair-use-policy.md)
 
 ### See also
 
