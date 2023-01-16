@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 10/03/2022
+ms.date: 01/09/2023
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -49,7 +49,7 @@ The environment you receive in trial is a fully functional, Power Platform envir
 - Dynamics 365 Power Virtual Agents
   - To add Power Virtual Agents bot to chat and channels
 - Dynamics 365 Customer Voice
-  - To add pre and post conversation surveys in messaging
+  - To add pre and post-conversation surveys in messaging
 - Dynamics 365 Power Automate
   - To build customized and automated flows and business processes
 
@@ -74,7 +74,11 @@ You can use a personal email ID. But you won't be able to use the following feat
 
 No, you can't call the trial phone number because it's a toll-free US number that works within the US only. For more information and a workaround, see [Use trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number).
 
-### Which geographical regions are supported in the trial version of Customer Service and Omnichannel for Customer Service?
+### Can I use the trial phone numbers for inbound or outbound SMS?
+
+No. The trial phone numbers aren't available for inbound or outbound SMS.
+
+### Which geographical regions are supported in the trial version?
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
