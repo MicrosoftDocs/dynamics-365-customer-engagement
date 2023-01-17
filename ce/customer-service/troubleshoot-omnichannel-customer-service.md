@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
-ms.date: 12/12/2022
+ms.date: 01/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -167,6 +167,23 @@ If your tenant is configured with Azure Security Defaults, make sure your users 
   - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md). 
 
   - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
+
+## Social data doesn't sync and prevents record identification for return users
+
+### Issue
+
+The data flush for the **Social Profile** entity is blocked. Customer information, including social profiles and contact details, aren't syncing properly in the environment. Data for returning customers isn't available. 
+
+### Resolution
+Ensure that the toggle for preventing social data in Dynamics is not turned on. More information: [Manage feature settings](/power-platform/admin/settings-features)
+
+1. Open Power Platform admin center, and then navigate to **Environments** > [select an environment] > **Settings** > **Product** > **Features**.
+
+1. Ensure that in the Power BI **Embedded chat** settings, the toggle for the **Prevent social data in Dynamics** setting is set to **Off**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Prevent social data in Dynamics setting in Power Platform admin center.](media/social-data-setting.png "Prevent social data in Dynamics")
+ 
 
 ## Error occurs when I try to create a chat widget or social channel <a name="chat-widget"></a>
 
