@@ -59,7 +59,7 @@ For more information on configuring user access to analytics and dashboards, see
 
 
 > [!NOTE] 
-> Bookmarks created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, Agent, Bot, and Topics tabs, and won't include filters for the Voice and Unified routing tabs. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
+> Bookmarks created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, and Agent tabs, and won't include filters for the other tabs like Voice and Unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
 
 ### See also
 
