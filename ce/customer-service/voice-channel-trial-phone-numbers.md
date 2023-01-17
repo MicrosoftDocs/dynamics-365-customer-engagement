@@ -10,7 +10,8 @@ ms.author: mgandham
 
 # Use trial phone numbers
 
-The voice channel includes a trial phone number that comes with 60 minutes of free calling. When the 60 minutes of free calling time elapses, you can choose to extend your trial or purchase a new number.
+The voice channel includes a trial phone number that comes with 60 minutes of free calling. When you run the voice demo experience, When the 60 minutes of free calling time elapses, you can choose to extend your trial or purchase a new number.
+Yes we do mean to say that there is a max of two free trial numbers.  the first one is acquired automatically when you do the voice demo experience, and the second you can acquire yourself.  we suggest getting a geographic number for that second one, because it can get international calls.
 
 To extend your trial minutes, raise a request with Microsoft Support.
 To purchase a new number at the end of the trial, see [Manage phone numbers](voice-channel-manage-phone-numbers.md). Note that you can't reuse or purchase the trial number.

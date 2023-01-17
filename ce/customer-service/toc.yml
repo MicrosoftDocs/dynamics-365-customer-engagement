@@ -627,7 +627,9 @@
     - name: Administrator experience
       items:
       - name: Install the voice channel
-        href: voice-channel-install.md  
+        href: voice-channel-install.md 
+      - name: Use trial phone numbers
+        href: voice-channel-trial-phone-numbers.md   
       - name: Connect to Azure Communication Services
         items: 
         - name: Connect to Azure Communication Services

@@ -103,8 +103,6 @@ You can transfer conversations from one bot to another with different primary la
 
 No, you can't recover your data and trial phone numbers after the trial organization has expired and has been deprovisioned. 
 
-However, before your trial expires, you can reach out to Microsoft Support to seek an extension.
-
 
 ### Is disaster recovery supported for the voice channel?
 
