@@ -86,7 +86,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 > [!NOTE]
 >
 > - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image.
-> - The Direct Line channel supports the above attachment types, but it's up to the client to implement them.
+> - The custom channels that use Direct Line support different types of file attachments, but it's up to the client to implement them.
 > - For LINE inbound and outbound messages, when a GIF image is sent, the recipient will receive a JPG image.
 > - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the agent will receive the attachment name as message text. We recommend converting documents to PDF format before sending them as attachments.
 
@@ -107,7 +107,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Direct Line) | Yes. Emoji in text like “😀”                           |
 
 > [!NOTE]
-> The Direct Line channel supports emojis, but it's up to the client to implement them.
+> The custom channels that use Direct Line support emojis, but it's up to the client to implement them. 
 
 ## Support for stickers
 
@@ -125,13 +125,13 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Direct Line) | Yes, as sticker image.                                  |
 
 > [!NOTE]
-> The Direct Line channel supports stickers, but it's up to the client to implement them.
+> The custom channels that use Direct Line support stickers, but it's up to the client to implement them.
 
 ## Support for formatted messages
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, for your agents to send and receive formatted messages, you must [enable formatted messages](enable-formatted-messages.md).
 
-The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
+The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and custom channels that use Direct Line.
 
 | Style                | Live chat  | Microsoft Teams | Facebook | Google's Messages for Business | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
 |----------------------| ---------- | -------------   | -------- |------------------------------- |---------|------------------          |------------------------------  |
@@ -162,7 +162,7 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 [Overview of channels](channels.md)  
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
-[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)  
 [Markdown formats for agents](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
