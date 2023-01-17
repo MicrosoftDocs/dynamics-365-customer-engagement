@@ -41,39 +41,31 @@ You'll find the upcoming work duration report under **Resources** > **Analytics 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the predictive duration report, scrolled down to show additional sections.](./media/analytics-work-duration-upcoming-work2.png)
 
-Learn more about the metrics in the following sections.
+**Estimated duration** is expected time job to take. The value comes from the duration (msdyn_duration) of the resource requirement. The duration of the resource requirement is derived from the total duration of all work order incident types.
 
-### Filters (slicers)
+**Actual duration** is the time that was spent working on a requirement. This value is calculated by *end time* of a booking minus the *actual arrival time* minus the *On break* duration of the booking journal related to the booking.
 
-At the top of the report, you'll find a few ways to filter or slice the data.
+### Filters and slicers
 
-- **Date**: This filter lets you select the future date (next seven days).
-- **Territory**: This filter lets you select from the list of resource territories.
-- **Incident type**: This filter lets you select from the list of incident types.
+- **Date**: Choose a relative date in the future.
+- **Territory**: Choose from the list of [resource territories](set-up-territories.md).
+- **Incident type**: Choose from the list of [incident types](configure-incident-types.md).
 
 ### Key performance indicators (KPIs)
-
-Find key performance indicators below the filters.
 
 | Label  |  Description  |  
 |---------|--------------|
 | **Under allocated bookings** |	Number of bookings allocated under predicted duration. |
 | **Under allocated requirements**	| Number of requirements allocated under predicted duration. |
 
-
 ### Charts
-
-Beneath the key performance indicators, you'll find the following charts.
 
 | Label | Description |
 | ------ | -------------|
 | **Scheduled bookings** | Shows a list of scheduled bookings, with information and prediction factors for each. |
 | **Unscheduled requirements** | Shows a list of requirements that have not been scheduled, with information and prediction factors for each. | 
 
-
 ### Metrics
-
-Within the charts previously listed, you'll find the following information.
 
 | Metric | Description |
 |--------|----------------------|
@@ -90,22 +82,14 @@ From the upcoming work duration report, you'll see another tab, where you can fi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the same territory duration report, showing additional information.](./media/analytics-work-duration-territory2.png)
 
-### Filters (slicers)
+### Filters and slicers
 
-Like with the upcoming work duration report, the territory duration report has a few ways to filter information:
-
-- **Duration**: Lists pre-defined values to filter by duration. Options are: 
-  - Last 3 months
-  - Last 6 months
-  - Last 1 year
-  - Last 2 years
+- **Duration**: Lists pre-defined values to filter by duration.
 - **Incident type**: Filter by incident types.
 - **Territory**: Filter by service territories.
 - **Customer**: Filters the territory report by customer.
 
 ### Key performance indicators (KPIs)
-
-Beneath the filters, you'll see some key performance indicators. 
 
 | Label | Description |
 |----------|----------|
@@ -117,8 +101,6 @@ Beneath the filters, you'll see some key performance indicators.
 
 ### Charts
 
-The following charts can be found in the territory duration report.
-
 | Label | Description |
 |----------|----------|
 | **Booking volume** | 	Shows number of bookings over the chosen filters (duration, territory, etc.).| 
@@ -128,24 +110,19 @@ The following charts can be found in the territory duration report.
 | **Territory** | Map that visualizes metrics by defined territories. | 
 | **Territory metrics** | Shows jobs completed, proficiency scores, confidence, and proficiency factors for each territory. | 
 
-
 ## Resource duration
 
-The final report can be found under **Resources** > **Analytics and Insights** > **Resource duration (preview)**.
+The final report can be found under **Resource duration**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource duration report.](./media/analytics-resource-duration.png)
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource duration report, showing additional information.](./media/analytics-resource-duration2.png)
 
-
 ### Key performance indicators (KPIs)
 
-At the top of the report, you'll see the following key performance indicators.
-
-| Label | Description | 
+| Label | Description |
 | -------|---------|
 | **Number of resources**	| Shows number of resources involved in bookings. |
 | **Number of bookings**	| Shows number of completed bookings. | 
@@ -153,8 +130,6 @@ At the top of the report, you'll see the following key performance indicators.
 | **Underestimated bookings**	| Shows number of bookings that are underestimated compared with actual duration.
 
 ### Charts
-
-You'll find the following charts on the resource duration reports.
 
 | Label | Description |
 |---------------|----------------|
@@ -170,43 +145,5 @@ You'll find the following charts on the resource duration reports.
 | **Proficiency score** | A score indicating the likelihood of completing a booking within the estimated duration. A higher score indicates a high likelihood of completing a booking within the estimated duration and a lower score indicates vice-versa. |
 | **Confidence**  | How likely the proficiency score calculated from the samples is close to the true proficiency score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the truth.   |
 | **Proficiency factors** | Summary of factors such as incident types, service accounts, day of week, and skills and rating match that contribute to the efficiency score. |
-
-## Provide access to a security role
-
-By default, only administrators have access to the resource duration report; administrators can provide access to others through security roles.
-
-In Field Service, go to **Advanced Settings**.
-
-Go to **Settings** > **Security**.
-
-Go to **Security Roles**.
-
-Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**). 
-
-Go to the **Customer Entities**. 
-
-Select an entity. For example, "Resource duration (preview)."  
-
-**Save and Close**. Now the **Field Service - Dispatcher** will see the resource analytics (preview) report. 
-
-Follow these steps for any role that needs access. The three record types we have enabled as part of predictive work duration are:
-
-- Resource analytics (preview)
-- Predictive duration (preview)
-- Field Service historical analytics
-
-## Configuration considerations
-
-- The setting **Minimum number of resources in a territory** lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
-
-## Additional notes
-
-### Understanding estimated duration, actual duration, and predicted duration
-
-- **Estimated duration**: How much time your organization expects a job to take. In the system, the value comes from the duration (msdyn_duration) of the resource requirement. The duration of the resource requirement is derived from the total duration of all work order incident types.
-
-- **Actual duration**: How much time was spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
-
-- **Predicted duration**: How much time the AI model "thinks" the job will take based on historical information.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

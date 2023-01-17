@@ -52,6 +52,32 @@ The system pauses the data refresh for reports that aren't opened for two weeks.
 
 Report data get retained for 24 months. Storage file size automatically increases when using analytics features. If this increase causes issues or concerns, contact Microsoft Support.
 
+## Provide report access to a security role
+
+By default, only administrators have access to the resource duration report. Administrators can provide access to others through security roles.
+
+1. In Field Service, go to **Advanced Settings**.
+
+1. Go to **Settings** > **Security**.
+
+1. Go to **Security Roles**.
+
+1. Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**).
+
+1. Go to the **Custom Entities**.
+
+1. Select the Read privilege for a report entity.
+
+    - Resource duration (preview) - predictive duration report
+    <!-- - Resource analytics (preview) -->
+    - Predictive duration (preview) - predictive duration report
+    - Field Service historical analytics - work order summary report
+    - Resource scheduling historical analytics - admin and optimization summary report
+
+1. **Save and Close**.
+
+Now the **Field Service - Dispatcher** can see the corresponding report.
+
 ## Supported regions for reports
 
 | Region | Name |
