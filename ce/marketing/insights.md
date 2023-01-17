@@ -1,7 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 09/01/2022
+ms.date: 01/13/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -224,6 +224,9 @@ Marketing email messages provide the following [categories](#categories) on the 
 - **Interactions**: Provides full lists of recipients that were counted for each of several KPIs (such as opens, clicks, and forwards), plus a timeline of interactions.
 
 For more information about the carious types of email results and KPIs listed on these pages, see [Insights glossary](insights-glossary.md).
+
+> [!NOTE]
+> Date filtering doesn’t apply to top-10 links or links insights.
 
 ## Lead scoring model insights
 
