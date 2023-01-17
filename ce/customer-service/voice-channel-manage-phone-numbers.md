@@ -170,5 +170,6 @@ If you no longer need a phone number, you can release it from your organization'
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)  
+[Use trial phone numbers](voice-channel-trial-phone-numbers.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

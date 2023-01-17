@@ -682,8 +682,6 @@
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
       - name: Call a customer
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
