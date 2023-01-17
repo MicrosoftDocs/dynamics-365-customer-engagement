@@ -175,7 +175,7 @@ If your tenant is configured with Azure Security Defaults, make sure your users 
 The data flush for the **Social Profile** entity is blocked. Customer information, including social profiles and contact details, aren't syncing properly in the environment. Data for returning customers isn't available. 
 
 ### Resolution
-Ensure that the toggle for preventing social data in Dynamics is not turned on. More information: [Manage feature settings](/power-platform/admin/settings-features)
+Ensure that the toggle for preventing social data in Dynamics is turned off. More information: [Manage feature settings](/power-platform/admin/settings-features)
 
 1. Open Power Platform admin center, and then navigate to **Environments** > [select an environment] > **Settings** > **Product** > **Features**.
 
