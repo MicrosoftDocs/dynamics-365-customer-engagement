@@ -153,7 +153,7 @@ See the following scenarios to understand how the SLA **Warning** and **Failure*
 - Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time won't be considered for **Warning** and **Failure** time.
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. **Warning** time and **Failure** time will be recalculated.
 
-### OnHold Time attribute is not populated for Case for Unified Interface SLA
+### OnHold Time attribute isn't populated for Case for Unified Interface SLA
 
 The **onholdtime** attribute to track the onHold duration for case at a case entity level doesn't get populated.
 
