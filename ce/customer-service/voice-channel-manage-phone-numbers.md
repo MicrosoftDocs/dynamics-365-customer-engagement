@@ -158,14 +158,17 @@ If you no longer need a phone number, you can release it from your organization'
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
 
+## Next steps
+
+[Set up outbound calling](voice-channel-outbound-calling.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Import phone numbers](voice-channel-sync-from-acs.md)  
 [Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
-[Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-inbound-calling.md)  
 [Block spam numbers](voice-channel-block-number.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
