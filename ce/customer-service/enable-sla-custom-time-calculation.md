@@ -329,5 +329,3 @@ For more information about custom time calculation of SLA KPIs, go to [FAQ about
 [Apply SLAs](apply-slas.md#apply-slas)
   
 [Enable records for SLA](enable-entities-service-level-agreements.md)
-
-[Errors on custom time calculation for SLA](/customer-service/troubleshoot-sla-issues#troubleshoot-issues-with-sla-time-calculation)
