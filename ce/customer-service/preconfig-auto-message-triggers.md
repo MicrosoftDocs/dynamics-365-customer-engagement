@@ -1,12 +1,11 @@
 ---
 title: Preconfigured automated message triggers
 description: Get a list of preconfigured automated message triggers available in Omnichannel for Customer Service.
-ms.date: 01/16/2023
+ms.date: 01/17/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.service: dynamics-365
 ms.custom: bap-template
 ---
 
