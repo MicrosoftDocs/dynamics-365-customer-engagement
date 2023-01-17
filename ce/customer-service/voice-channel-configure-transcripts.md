@@ -4,7 +4,7 @@ description: "Learn how to configure call recording, transcription, and real-tim
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/12/2023
+ms.date: 01/16/2023
 ms.topic: article
 ---
 
@@ -16,7 +16,7 @@ As an administrator, you can enable live translation, transcription and recordin
 
 > [!NOTE]
 > - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-> - If you use Power Virtual Agents as the interactive voice response (IVR) with the voice channel, the call transcription will continue even if the setting is turned off.
+> - If you use Power Virtual Agents as the interactive voice response (IVR) with the voice channel, the call transcription will occur even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Enable call recording and transcription for voice
 
