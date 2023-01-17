@@ -1,6 +1,6 @@
 ---
 title: Use trial phone numbers in the voice channel
-description: Use this article to understand how you can use trial phone numbers. Also, learn how to extend and end the trial in Omnichannel for Customer Service.
+description: Use this article to understand how you can use trial phone numbers in Omnichannel for Customer Service.
 ms.date: 01/18/2023
 ms.custom: bap-template
 ms.topic: how-to
@@ -10,11 +10,7 @@ ms.author: mgandham
 
 # Use trial phone numbers
 
-The voice channel includes a trial phone number that comes with 60 minutes of free calling. When you run the voice demo experience, When the 60 minutes of free calling time elapses, you can choose to extend your trial or purchase a new number.
-Yes we do mean to say that there is a max of two free trial numbers.  the first one is acquired automatically when you do the voice demo experience, and the second you can acquire yourself.  we suggest getting a geographic number for that second one, because it can get international calls.
-
-To extend your trial minutes, raise a request with Microsoft Support.
-To purchase a new number at the end of the trial, see [Manage phone numbers](voice-channel-manage-phone-numbers.md). Note that you can't reuse or purchase the trial number.
+The voice channel provides trial phone numbers with 60 minutes of free calling time. You can choose to use a maximum of two trial phone numbers in your organization. When you try the voice demo for the first time, you're automatically assigned a toll-free trial phone number with 60 minutes of free calling time.
 
 > [!NOTE]
 > You don't need to connect to Azure Communication Services to use trial numbers.
@@ -24,9 +20,21 @@ To purchase a new number at the end of the trial, see [Manage phone numbers](voi
 - You must have an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)
 - You must install the voice channel. More information: [Install the voice channel](voice-channel-install.md)
 
-## Use trial numbers
+## How trial phone numbers work
 
-The trial number is a toll-free US number, therefore you can't make a call to this number if you aren't in the US. To work around this issue, we recommend that you use a geographic US number as the second trial number, so that it's not chargeable. However, you can't have more than 2 trial numbers, so the second trial numbers are capped at two, therefore it's the last trial number that you can acquire and should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
+The trial phone number is a US number, so you can't call this number if you're outside of the US. As a workaround, we recommend that you use a geographic US number as your second trial number to receive calls, so that it's not chargeable. 
+
+> [!NOTE]
+> - The total free calling time for two trial phone numbers is limited to 60 minutes.
+> - If you're calling the geographic number from outside the US, then international carrier rates will apply.
+
+
+Your voice trial automatically ends after the free calling time elapses. If you'd like to end the trial manually before the free calling time expires, then you can manually end the trial. To do this, see [End the trial](#end-the-trial).
+
+After your free calling time has elapsed, you can either [purchase new phone numbers](voice-channel-manage-phone-numbers.md) or request Microsoft Support for more calling minutes. 
+
+> [!NOTE]
+> You can't reuse or purchase the trial phone number.
 
 ## End the trial
 
