@@ -1,11 +1,10 @@
 ---
-title: Manage bookmarks for reports | MicrosoftDocs
+title: Manage bookmarks for reports
 description: Create bookmarks for reports and save personalized views of your reports.
 author: neeranelli
 ms.author: nenellim
-ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 12/27/2022
+ms.date: 01/18/2023
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
