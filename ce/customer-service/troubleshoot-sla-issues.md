@@ -69,7 +69,7 @@ Some SLAs don't take into account daylight saving time for warning and failure d
 
 #### Reason
 
-If your SLA was created in the web client that is now deprecated, the business schedule calendar does not support daylight saving time.
+If your SLA was created in the web client that is now deprecated, the business schedule calendar doesn't support daylight saving time.
 
 #### Resolution
 
@@ -132,7 +132,7 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 2. In **Cloud flows**, select  **SLAInstanceMonitoringWarningAndExpiryFlow**.
 3. Select **Turn on**.
 
-### SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
+### SLA timer doesn't pause when its state is changed from InProgress to OnHold on a holiday
 
 Once triggered, the SLA timer continues to run even when its state is changed from **InProgress** to **OnHold**.
 
@@ -148,9 +148,9 @@ The functionality is intended. Your organization defines business hours while sc
 
 See the following scenarios to understand how the SLA **Warning** and **Failure** time is calculated:
 
-- Create a case during non-working hours. Pause and resume the case before working hours start. Hold time between **Pause** and **Resume** will not be considered.
+- Create a case during non-working hours. Pause and resume the case before working hours start. Hold time between **Pause** and **Resume** won't be considered.
 - Create a case during non-working hours. Pause and resume the case during working hours. Hold time will be considered and **Warning** and **Failure** time will be extended based on hold time.
-- Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time will not be considered for **Warning** and **Failure** time.
+- Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time won't be considered for **Warning** and **Failure** time.
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. **Warning** time and **Failure** time will be recalculated.
 
 ### OnHold Time attribute is not populated for Case for Unified Interface SLA
