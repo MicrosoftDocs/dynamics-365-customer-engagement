@@ -25,11 +25,11 @@ To purchase a new number at the end of the trial, see [Manage phone numbers](voi
 
 ## Use trial numbers
 
-The trial number is a toll-free US number, therefore you can't make a call to this number if you aren't in the US. As a workaround, you could use a geographic US number that's not chargeable. However, trial numbers are capped at two, therefore it's the last trial number that you can acquire and should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
+The trial number is a toll-free US number, therefore you can't make a call to this number if you aren't in the US. To work around this issue, we recommend that you use a geographic US number as the second trial number, so that it's not chargeable. However, you can't have more than 2 trial numbers, so the second trial numbers are capped at two, therefore it's the last trial number that you can acquire and should receive calls from anywhere. If you're calling from outside the US, international rates from your carrier will apply.
 
 ## End the trial
 
 If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
 > [!NOTE]
-> You can't recover trial phone number and data after the trial has expired and been deprovisioned.
+> You can't recover trial phone number and any related data after the trial organization has expired and has been deprovisioned.
