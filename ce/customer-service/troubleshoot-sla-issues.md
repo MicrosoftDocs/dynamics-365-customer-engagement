@@ -188,7 +188,7 @@ If the customizations.xml file has the SLAs and you select **Overwrite Customiza
 
 ## Troubleshoot issues with entitlements
 
-### Unable to create entitlements as the Allocation Type dropdown isn't showing up any options
+### Unable to create entitlements because Allocation Type dropdown doesn't show any options
 
 Unable to create entitlement forms from either the Customer Service Hub or the Customer Service admin center app because of lack of data in the entitlement’s entity type mappings with the EntitlementEntityAllocationTypeMappingBase table.
 
@@ -207,11 +207,11 @@ Add the **Allocation Type** field by performing the following steps:
 
 #### Reason
 
-The entitlement's entity allocation type mapping records aren't present in the EntitlementEntityAllocationTypeMappingBase table, when the **Entity Type** field from the entitlement entity has more than one option other than case.
+The entitlement's entity allocation type mapping records aren't present in the EntitlementEntityAllocationTypeMappingBase table when the **Entity Type** field from the entitlement entity has more than one option other than case.
 
 #### Resolution
 
-**Entity Type** is a type of option set field in the Entitlement table, which has **Case** as the default option. If **Case** is the only option available for Entity Type, then the Entitlement table automatically loads **Allocation Type** values for the **Case** option. In case of more than one option set for the **Entity Type** field, you'll need to select the **Entity Type** option, so that the Entitlement table will load **Allocation Type** values based on that **Entity Type** selection.
+**Entity Type** is a type of option set field in the Entitlement table that has **Case** as the default option. If **Case** is the only option available for **Entity Type**, then the Entitlement table automatically loads **Allocation Type** values for the **Case** option. In a case where more than one option is set for the **Entity Type** field, you'll need to select the **Entity Type** option so that the Entitlement table will load **Allocation Type** values based on that **Entity Type** selection.
 
 Add the entitlement's entity allocation type mapping records to the EntitlementEntityAllocationTypeMappingBase table.
 
@@ -232,7 +232,7 @@ Add the entitlement's entity allocation type mapping records to the EntitlementE
 
 ### SLA KPI instance status shows as canceled
 
-When you update the target record such that **Applicable when** condition is no more applicable, the SLA KPI status moves from one of the existing states of **In progress**, **Succeeded**, **Nearing non compliance**, or **Expired** to the **Canceled** state. The SLA KPI instance is canceled on the second evaluation because the **Applicable when** condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
+When you update the target record so that **Applicable when** condition is no more applicable, the SLA KPI status moves from one of the existing states of **In progress**, **Succeeded**, **Nearing non compliance**, or **Expired** to the **Canceled** state. The SLA KPI instance is canceled on the second evaluation because the **Applicable when** condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
 
 - **Applicable when:** Case status equals active
 - **Success condition:** Case status equals resolved
@@ -263,7 +263,7 @@ Consider a scenario in which you've created an SLA in the web client with an SLA
 
 2. Add **Resolved** to case title. The success condition is met and the following events occur:
 
-   - SLA KPI instance status is updated to succeeded.
+   - The SLA KPI instance status is updated to succeeded.
    - A success action, such as send mail, is run, if configured.
 
 3. Update the case type to request.
