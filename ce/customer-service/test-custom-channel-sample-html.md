@@ -1,12 +1,11 @@
 ---
 title: Test the custom messaging channel 
 description: This article provides sample code to test the custom messaging channel that you want to integrate with Omnichannel for Customer Service.
-ms.date: 01/12/2023
+ms.date: 01/17/2023
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
 ms.custom: bap-template
-ms.service: dynamics-365
 ms.reviewer: nenellim
 ---
 # Test the custom messaging channel

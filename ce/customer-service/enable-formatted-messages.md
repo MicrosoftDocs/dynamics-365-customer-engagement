@@ -6,7 +6,6 @@ ms.author: v-jmh
 ms.date: 01/17/2023
 ms.topic: how-to
 ms.custom: bap-template
-ms.service: dynamics-365
 ms.reviewer: nenellim
 ---
 

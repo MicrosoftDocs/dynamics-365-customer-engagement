@@ -6,7 +6,6 @@ ms.topic: how-to
 author: mh-jaya
 ms.author: v-jmh
 ms.custom: bap-template
-ms.service: dynamics-365
 ms.reviewer: nenellim
 ---
 # Integrate your own custom channel using Direct Line
