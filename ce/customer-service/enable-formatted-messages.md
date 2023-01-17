@@ -3,7 +3,7 @@ title: Enable formatted messages
 description: Use this topic to understand how to enable your agents to send and receive formatted messages in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 01/12/2023
+ms.date: 01/17/2023
 ms.topic: how-to
 ms.custom: bap-template
 ms.service: dynamics-365
@@ -35,11 +35,12 @@ Your agents can send and receive messages formatted using Markdown.
 1. Select **Save & Close**.
 
 ## Next steps
+
 [Markdown formats for agents](markdown-formats-agents.md)  
 
 ### See also
 
 [Support for formatted messages](card-support-in-channels.md#support-for-formatted-messages)  
-[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

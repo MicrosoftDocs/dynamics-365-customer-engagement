@@ -389,7 +389,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 ```
 
 > [!NOTE]
-> At the heart of the code that receives the message is the GetActivityAsync method, passing the ConversationId and watermark. The purpose of the watermark is to retrieve only the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, guaranteeing that no messages are lost.
+> At the heart of the code that receives the message is the GetActivitiesAsync method that takes `ConversationId` and `watermark` as parameters. The purpose of the `watermark` parameter is to retrieve the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, so that no messages are lost.
 
 ### Send the activity to Direct Line
 
@@ -418,8 +418,9 @@ If the conversation is active for the activity received by the relay processor, 
 To end the conversation, see [End a conversation in Direct Line](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-end-conversation?view=azure-bot-service-4.0&preserve-view=true).
 
 ## Next steps
+
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)   
 
 ### See also
 

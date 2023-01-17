@@ -1,6 +1,6 @@
 ---
 title: Test the custom messaging channel 
-description: This topic provides sample code to test the custom messaging channel that you want to integrate with Omnichannel for Customer Service.
+description: This article provides sample code to test the custom messaging channel that you want to integrate with Omnichannel for Customer Service.
 ms.date: 01/12/2023
 author: neeranelli
 ms.author: nenellim

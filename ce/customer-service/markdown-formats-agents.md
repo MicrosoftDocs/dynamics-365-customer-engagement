@@ -3,7 +3,7 @@ title: Markdown formats for agents
 description: Read this article to know about the Markdown formats that agents can use for chat messages in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 01/12/2023
+ms.date: 01/17/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ms.service: dynamics-365
@@ -40,7 +40,7 @@ The following table lists the Markdown formats that you can use for your chat me
 > [!Note]
 > Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
-Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. 
+Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and custom channels that use Direct Line. 
 
 ## Next steps
 
@@ -50,6 +50,6 @@ Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, 
 
 [Enable formatted messages](enable-formatted-messages.md)  
 [Bring your own custom messaging channel using Direct Line](bring-your-own-channel.md)  
-[Markdown formats in custom channels using Direct Line](markdown-formats-dev.md)  
+[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

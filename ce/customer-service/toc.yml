@@ -876,7 +876,7 @@
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: Markdown formats in custom channels using Direct Line
+        - name: Markdown formats in custom channels that use Direct Line
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md

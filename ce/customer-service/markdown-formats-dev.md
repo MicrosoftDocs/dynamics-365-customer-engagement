@@ -1,16 +1,16 @@
 ---
-title: Markdown formats in custom channels using Direct Line
+title: Markdown formats in custom channels that use Direct Line
 description: Use this article to understand how Markdown formats are passed through in custom messaging channels using Direct Line in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 01/12/2023
+ms.date: 01/17/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ms.service: dynamics-365
 ms.reviewer: nenellim
 
 ---
-# Markdown formats in custom channels using Direct Line
+# Markdown formats in custom channels that use Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

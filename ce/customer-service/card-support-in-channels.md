@@ -1,7 +1,7 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service.
-ms.date: 01/12/2023
+ms.date: 01/17/2023
 ms.topic: conceptual
 author: mh-jaya
 ms.author: v-jmh
@@ -27,7 +27,7 @@ The following table lists the rich cards that are supported across different cha
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-✔*: Card elements are supported in the Webchat version of Direct Line (custom) channel, but not in the Android version.
+✔*: Card elements are supported in the Webchat version of custom channel that uses Direct Line, but not in the Android version.
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
