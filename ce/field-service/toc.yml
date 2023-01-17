@@ -346,13 +346,11 @@ items:
     - name: Resource and utilization report
       href: resource-utilization-report.md
     - name: Optimization summary report
-      href: optimization-summary-report.md
+      href: rso-optimization-summary-report.md
     - name: Admin report
       href: rso-admin-report.md
     - name: Predictive work duration (Preview)
       href: analytics-predictive-work-duration.md
-    - name: Manage reports
-      href: filter-report.md
 
 - name: Field Service for end customers
   items: 

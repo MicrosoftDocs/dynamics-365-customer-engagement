@@ -19,7 +19,7 @@ search.app:
 
 Resource managers can use the resource and utilization report to gather information that helps them ensure efficient use of resources. They can monitor key information like time spent on bookings, allocation of bookings across territories, or how individual resources are allocated.
 
-To access the report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics** > **Reports**.
+To access the report, open the **Field Service** app, change to the **Resources** area, and go to ***Analytics and Insights** > **Reports**.
 
 ## Filters and slicers
 
