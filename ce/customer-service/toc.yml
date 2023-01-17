@@ -36,6 +36,8 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
+    - name: Service quotas
+      href: service-quotas.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -768,7 +770,7 @@
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
-      - name: Use Markdown to format messages
+      - name: Markdown formats for agents
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
@@ -872,14 +874,16 @@
       items: 
       - name: Integrate a custom messaging channel
         items: 
-        - name: "Integrate your own custom channel: Direct Line"
+        - name: Integrate your own custom channel using Direct Line
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: "Markdown formats: Direct Line"
+        - name: Markdown formats in custom channels that use Direct Line
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
+    - name: Preconfigured automated message triggers for asynchronous channels
+      href: preconfig-auto-message-triggers-async-channels.md  
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -921,7 +925,7 @@
     - name: Configure outbound messages
       href: outbound-messaging.md
     - name: Configure data masking
-      href: data-masking-settings.md
+      href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
     - name: Administrator experience
