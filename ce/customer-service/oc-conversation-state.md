@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states | MicrosoftDocs"
 description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 07/13/2022
+ms.date: 01/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -112,8 +112,8 @@ The following table describes the channel, status reason, and default configured
  | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
  | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
- | Records (Case) | Open | None | For a records (case) channel, a conversation in the **Open** won’t be automatically closed. |
- | Records (Case) | Active | None | For a records (case) channel, a conversation that is  **Active** won’t be automatically closed. |
+ | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
+ | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** will be closed if the corresponding record is deleted. |
  |  |  |  |  |
  | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
