@@ -36,6 +36,8 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
+    - name: Service quotas
+      href: service-quotas.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -304,8 +306,10 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-      - name: Diagnostics for unified routing
+      - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
+      - name: Manage routing diagnostics data
+        href: manage-routing-diagnostics-data.md  
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -766,7 +770,7 @@
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
-      - name: Use Markdown to format messages
+      - name: Markdown formats for agents
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
@@ -810,6 +814,8 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
+      - name: Customizations supported by Conversation entity and form
+        href: supported-customizations.md  
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
@@ -868,14 +874,16 @@
       items: 
       - name: Integrate a custom messaging channel
         items: 
-        - name: "Integrate your own custom channel: Direct Line"
+        - name: Integrate your own custom channel using Direct Line
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: "Markdown formats: Direct Line"
+        - name: Markdown formats in custom channels that use Direct Line
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
+    - name: Preconfigured automated message triggers for asynchronous channels
+      href: preconfig-auto-message-triggers-async-channels.md  
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -917,7 +925,7 @@
     - name: Configure outbound messages
       href: outbound-messaging.md
     - name: Configure data masking
-      href: data-masking-settings.md
+      href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
     - name: Administrator experience
@@ -1254,6 +1262,8 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
       - name: Overview of data migration for records
@@ -1288,6 +1298,8 @@
         href: migrate-entity-records.md
     - name: Migration FAQ
       items: 
+      - name: FAQ on migration from Omnichannel for Customer Service app
+        href: migrate-oc-faq.md
       - name: FAQ on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
   - name: Deprecations
