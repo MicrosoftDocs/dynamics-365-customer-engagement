@@ -1,61 +1,37 @@
 ---
-title: "Predictive work duration and resource proficiency suggestions in Dynamics 365 Field Service | MicrosoftDocs"
+title: Predictive work duration reports (Preview)
 description: Learn about using predictive work duration reports in Dynamics 365 Field Service.
-ms.date: 01/20/2021
+ms.date: 01/17/2023
 ms.reviewer: mhart
+ms.topic: conceptual
+ms.custom: bap-template
 
-ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FeifeiQiu
 ms.author: feiqiu
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Predictive work duration and resource proficiency suggestions in Dynamics 365 Field Service
+# Predictive work duration reports (Preview)
+
+Dispatchers often assign a fixed duration for a job type, despite various factors that may impact the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
+
+With predictive work duration, dispatchers can predict the duration of a booking or requirement, based on various factors.
+
+Powered by artificial intelligence models, predictive work durations learn from historical booking completion times in order to compute a more realistic duration.
 
 > [!IMPORTANT]
 > This feature is intended to help dispatchers or admins enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
+## Before you start
 
-Field service dispatchers often assign a fixed duration for a job type, despite various factors that may impact the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
+An administrator must enable this public preview feature. In the Field Service app, change to the **Settings** area. Go to **Analytics and Insights** > **Settings** > **Predictive work duration (Preview)** and select **Manage**. Specify the **Minimum number of resources per territory** field. Territories that have fewer resources will be excluded from territory analyses and reports. This limitation can help protect technician privacy.
 
-With predictive work duration, dispatchers can predict the duration of any given booking or requirement, based on factors like:
-
-- Resource performance
-- Incident type
-- Customer (service account)
-- Work order type
-- Territorial differences
-- Time-related changes
-
-Powered by artificial intelligence models, predictive work durations learn from historical booking completion times in order to compute a more realistic duration.
-
-In this article, we'll take a look at how to setup and use predictive work durations in Field Service.
-
-## Prerequisites
-
-- This feature is only available in non-trial instances of Field Service.
-- As of October 2020, this feature is in public preview. To turn on the preview, go to **Settings**. Under the **Analytics and insights** section, select **Settings** > 
-**Enable Predictive Work Duration preview**. 
-- Enter a number in the **Minimum number of resources per territory** field. Minimum number of resources in a territory lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the predictive work duration preview settings.](./media/analytics-work-duration-settings.png)
-
-Enabling predictive work duration will give you access to three reports:
-
-- Upcoming work duration
-- Territory duration
-- Resource duration
-
-Let's take a look at each report.
-
-## Upcoming work duration
+## Upcoming work duration report
 
 You'll find the upcoming work duration report under **Resources** > **Analytics and Insights** > **Predictive duration (preview)**.
 
@@ -232,20 +208,5 @@ Follow these steps for any role that needs access. The three record types we hav
 - **Actual duration**: How much time was spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
 
 - **Predicted duration**: How much time the AI model "thinks" the job will take based on historical information.
-
-### Disabling custom actions 
-
-**msdyn_AnalyticsSaveDataInConfigStore custom action**
-
-Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
-
-#### Parameters
-
-| Name | Type | Required | Description |
-|----------|----------|----------|---------|
-| Key | String  |Yes | For internal use only. |
-| Value | String | Yes | For internal use only. |
-| ConfigName | String | No | For internal use only. |
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
