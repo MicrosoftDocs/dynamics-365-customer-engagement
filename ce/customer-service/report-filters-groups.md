@@ -4,9 +4,8 @@ description: Use this article to learn about report filters and groups in Custom
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
-ms.service: dynamics-365 
 ms.topic: conceptual 
-ms.date: 12/27/2022
+ms.date: 01/18/2023
 ms.custom: bap-template
 ---
 
@@ -14,7 +13,9 @@ ms.custom: bap-template
 
 Reports are grouped into the following categories and subcategories. 
 - Omnichannel historical analytics reports
-    - Conversation, Queue, Agent, Bot, and Topics tabs
+    - Summary and Bot tabs
+    - Conversation, Queue, and Agent tabs
+    - Topics tab
     - Voice tab
     - Unified routing tab
 - Customer Service historical analytics reports
