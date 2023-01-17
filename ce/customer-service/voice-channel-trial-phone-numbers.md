@@ -4,8 +4,8 @@ description: Use this article to understand how you can use trial phone numbers 
 ms.date: 01/18/2023
 ms.custom: bap-template
 ms.topic: how-to
-author: gandhamm
-ms.author: mgandham
+author: mh-jaya
+ms.author: v-jmh
 ---
 
 # Use trial phone numbers
@@ -29,7 +29,7 @@ The trial phone number is a US number, so you can't call this number if you're o
 > - If you're calling the geographic number from outside the US, then international carrier rates will apply.
 
 
-Your voice trial automatically ends after the free calling time elapses. If you'd like to end the trial manually before the free calling time expires, then you can manually end the trial. To do this, see [End the trial](#end-the-trial).
+Your voice trial automatically ends after the free calling time elapses. You can also manually end the trial before the free calling time elapses. More information: [End the trial](#end-the-trial).
 
 After your free calling time has elapsed, you can either [purchase new phone numbers](voice-channel-manage-phone-numbers.md) or request Microsoft Support for more calling minutes. 
 
