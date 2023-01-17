@@ -14,9 +14,9 @@ ms.topic: article
 
 As an administrator, you can enable live translation, transcription and recording of calls, which allows agents and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
 
-> [!NOTE]
+> [!IMPORTANT]
 > - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-> - If you use Power Virtual Agents as the interactive voice response (IVR) with the voice channel, the call transcription will occur even if the transcription and recording setting isn't enabled in the voice workstream.
+> - If you use Power Virtual Agents bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Enable call recording and transcription for voice
 
