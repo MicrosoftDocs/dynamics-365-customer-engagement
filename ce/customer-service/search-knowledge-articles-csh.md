@@ -166,7 +166,7 @@ To remove an article from the favorites list, clear the **Favorite** (heart) ico
 
 View your saved articles in the **Favorites** tab. The **Favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
 
-The latest published articles appear in the list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite. In case of latest published articles, if its a translated version then the new article won't be marked as favorite, but if it's just a major version in the same language, then the new version will be marked as favorite.
+The latest published articles appear in the list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite.
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
