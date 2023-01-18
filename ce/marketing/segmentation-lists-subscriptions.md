@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing."
-ms.date: 01/13/2023
+ms.date: 01/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -148,14 +148,14 @@ Almost all types of entities in Dynamics 365 Marketing include a **Related** tab
 
 ## Managing the segment quota
 
-The segment quota is the limit of active segments that an organization can have. The active segment count is the sum of the live segments created by a user and system segments that customer journeys create.
+The segment quota is the limit of active segments that an organization can have. The active segment count is the sum of the *live segments* created by users and *system segments* that customer journeys create.
 
 System segments are created when:
 - A unified segment is created (a behavior block plus a profile)
 - A customer journey has condition tile(s)
 - A customer journey uses multiple segments
 
-These additional segments are called "system segments" and count as active segments in the quota *if the customer journey is live*.
+System segments count as active segments in the quota *if the customer journey is live*.
 
 If the active segments quota is exceeded, you can do the following to reduce the number of active segments:
 - Stop unrelated segment(s)
