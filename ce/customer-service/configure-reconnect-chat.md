@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Learn about configuring reconnections to previous chat sessions in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 01/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
