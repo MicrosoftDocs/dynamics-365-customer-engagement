@@ -1,7 +1,7 @@
 ---
 title: Create assets in Dynamics 365 Field Service (contains video)
 description: This article describes how to use asset management in Dynamics 365 Field Service.
-ms.date: 01/15/2023
+ms.date: 01/18/2023
 ms.reviewer: mhart
 ms.topic: how-to
 author: jshotts
@@ -28,7 +28,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. In **Field Service** open the **Service** area.
 
-1. Go to **Assets** > **Assets** and select **New**.  **Customer Assets** > **+New**.  
+1. Go to **Assets** > **Assets** and select **New**.
 
    :::image type="content" source="media/customer-asset-create-manually.PNG" alt-text="Screenshot of a customer asset created manually.":::
 
@@ -38,13 +38,13 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
     - **Category**: Add or create a customer asset category that serves as a label to organize assets into groups.
 
+    - **Product**: If the customer asset correlates with a [product in your product catalog](create-product-or-service.md), choose it from the lookup.
+
     - **Account**: Choose a [service account to represent the location and customer of the customer asset](accounts.md). As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same.
 
-    - **Functional location**: Choose a [functional location](functional-locations.md) where this customer asset is located.
+    - **Functional Location**: Choose a [functional location](functional-locations.md) where this customer asset is located.
 
-    - **Parent Customer Asset**: Field Service supports hierarchical asset structures. For example, a part can be the child of a component, which is the child of a machine. Use this field to specify the direct parent. The **Master Asset** shows the top-level parent in the relationship automatically. After creating the asset record, you can use the **Sub Asset** grid on the form to add child assets.
-
-    - **Product**: If the customer asset correlates with a [product in your product catalog](create-product-or-service.md), choose it from the lookup.
+    - **Parent Asset**: Field Service supports hierarchical asset structures. For example, a part can be the child of a component, which is the child of a machine. Use this field to specify the direct parent. The **Top-Level Asset** shows the top-level parent in the relationship automatically. After creating the asset record, you can use the **Sub Assets** grid on the form to add child assets.
 
 1. Select **Save**.  
 
@@ -99,7 +99,7 @@ In this example, the asset *Contoso Laptop #113* is assigned to the *Laptop - hi
 
 See basic configuration information, see this [video on setting up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk).
 
-Connected Field Service uses **Devices**, which represent sensors that are connected to the internet. For example, a smart thermometer that can send data over the internet. You can relate devices to customer assets in a one-to-many relationship, meaning one customer asset can have many related devices. For example, a single HVAC unit (customer asset) can have multiple device sensors (thermometer and hygrometer) that communicate with Connected Field Service.
+Connected Field Service uses **Devices**, which represent sensors that are connected to the internet. For example, a smart thermometer that can send data over the internet. You can relate devices to customer assets in a one-to-many relationship, meaning one customer asset can have many related devices. For example, a single HVAC unit (customer asset) can have multiple device sensors (thermometer and hygrometer) communicating with Connected Field Service.
 
 To establish a relationship with a device, open a customer asset and select **Connect Device**. Choose the IoT device from the drop-down menu.
 
@@ -112,5 +112,9 @@ IoT alerts from the connected device now also reference the related customer ass
 > ![Screenshot of an IoT alert showing the related customer asset.](./media/customer-asset-iot-alert.png)
 
 Select **Check IoT Setup** to get information about the IoT setup of the environment. For example, if IoT is deployed or if there are devices available.
+
+## Next steps
+
+- [Validate customer assets on work orders](asset-validation.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
-title: "Create and manage accounts in Dynamics 365 Field Service"
+title: Create and manage accounts in Dynamics 365 Field Service
 description: Learn how to create and use service account and billing accounts in Dynamics 365 Field Service.
-ms.date: 12/08/2022
+ms.date: 01/18/2023
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
@@ -40,7 +41,7 @@ In this section, we'll create a service account with a geocoded address that rep
 
 1. Select **Save** to create the account record.
 
-1. You can add more details and information to the account form as listed in the sections below. Updating values won't update existing work orders, only future work orders.
+You can add more details and information to the account form as listed in the sections below. Updating values won't update existing work orders, only future work orders.
 
 ## Add account information
 
@@ -52,13 +53,9 @@ On the **Summary** section, you can provide additional information about the acc
 
 - **Website**
 
-- **Parent Account**: For larger organizations, you can define parent/child relations between  accounts that define the organization hierarchy.
+- **Parent Account**: For larger organizations, you can define parent/child relations between accounts that define the organization hierarchy.
 
 - **Ticker Symbol**: Stock ticker symbol of the company if it's publicly listed.
-
-- **Relationship Type**: Type of relationship between your organization and account.
-
-- **Product Price List**: [Price list configuration](create-price-list.md) for this account.
 
 ## Add contacts for an account
 
@@ -72,7 +69,7 @@ Contacts are individuals that are related to an account. You can add contacts on
 
 The **Details** section lets you add more information and preferences to the account record.
 
-- **Company Profile**: Information about the economic environment of the account.
+- **Company Profile**: Information about the industry and ownership structure of the account.
 
 - **Description**: Text description of the account.
 
@@ -82,7 +79,9 @@ The **Details** section lets you add more information and preferences to the acc
 
 - **Shipping**: Default shipping method and terms.
 
-## Configure servicing details for an account
+## Configure additional details for an account
+
+### Servicing
 
 The **Servicing** section of the account form lists details to provide services to the account and the work orders that are associated to it.
 
@@ -108,5 +107,9 @@ The **Servicing** section of the account form lists details to provide services 
 - **Work Hour Template**: Work template to use for this account.
 
 - **Work Order Instructions**: Text note that populates the **Instructions** field on all related work orders. Use this field to help technicians follow processes specific to this account.
+
+## Next steps
+
+- [Create a work order to coordinate and schedule resources and activities](create-work-order.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

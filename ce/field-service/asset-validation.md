@@ -1,9 +1,10 @@
 ---
 title: "Validate customer assets on work orders"
 description: Learn how to configure the system to validate customer assets on work orders in Dynamics 365 Field Service.
-ms.date: 12/08/2022
+ms.date: 01/18/2023
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: conceptual
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
@@ -32,5 +33,9 @@ This configuration can be useful in a rent or lease scenario. Specifically, when
 1. **Save** your changes.
 
 For more information, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Disable customer asset validations and suggest account reparenting](https://youtu.be/kFgGuO_36oI)
+
+## Next steps
+
+- [Create assets in Dynamics 365 Field Service](assets.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

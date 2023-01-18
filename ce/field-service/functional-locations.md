@@ -1,9 +1,10 @@
 ---
-title: "Functional location in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
+title: Functional location in Dynamics 365 Field Service
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.date: 12/08/2022
+ms.date: 01/17/2023
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
@@ -73,9 +74,6 @@ To add a new asset, select the ellipses (...), and select **New asset** or **Add
 
 Use the search bar to search for functional locations and associated assets. Select the **Show Assets** box to include assets in search. Matching search results are highlighted.
 
-> [!div class="mx-imgBorder"]
-> ![Functional location tree in Field Service, showing the search bar and the collapse and expand all options.](./media/assets-functional-location-search.png)
-
 For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree.
 
 For a guided walkthrough, check out the following video.
@@ -141,8 +139,13 @@ To use functional locations on an agreement, open an agreement. Go to **Agreemen
 
 1. Open any custom app designer where this issue is seen.
 2. Add functional location entity to the app from **Add** > **Entities**.
-3. Select form components of functional location entity, uncheck *All* and select only quick create form for functional location.
+3. Select form components of functional location entity, uncheck **All** and select only quick create form for functional location.
 4. Publish the app and verify that functional location form will open quick create form in the tree view control.
 5. Newly created functional locations should appear in tree view control.
+
+## Next steps
+
+- [Create assets in Dynamics 365 Field Service](assets.md)
+- [Create a work order to coordinate and schedule resources and activities](create-work-order.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

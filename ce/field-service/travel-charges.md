@@ -1,9 +1,10 @@
 ---
 title: "Travel charges in Dynamics 365 Field Service"
-description: Learn how to create apply travel charges in Dynamics 365 Field Service
-ms.date: 12/07/2022
+description: Learn how to create and apply travel charges in Dynamics 365 Field Service
+ms.date: 01/17/2023
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
@@ -22,7 +23,7 @@ The system adds a travel charge item as a work order product if a [service accou
 
 1. In **Field Service**, open the **Settings** area.
 1. Go to **Field Service Settings**.
-1. On the **Work Order / Booking** tab, choose or create a product in the **Travel Charge Item** field. This is the product that will be added as a work order product.
+1. On the **Work Order / Booking** tab, choose or create a product in the **Travel Charge Item** field. This product will be added as a work order product.
 
    :::image type="content" source="media/field-service-settings-travel-charge.png" alt-text="Screenshot of travel charge item in field service settings.":::
 

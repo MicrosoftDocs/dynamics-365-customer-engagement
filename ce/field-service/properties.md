@@ -1,21 +1,18 @@
 ---
-title: "Properties in Dynamics 365 Field Service"
+title: Manage properties in Dynamics 365 Field Service
 description: Learn how to use properties in Dynamics 365 Field Service.
-ms.date: 12/09/2022
+ms.date: 01/17/2023
 ms.reviewer: mhart
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+ms.topic: how-to
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
-manager: shellyha
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Properties in Dynamics 365 Field Service
+# Manage properties in Dynamics 365 Field Service
 
 In cases where field service organizations service assets or locations for their customers, it's important to be able to capture relevant information about those assets.
 
@@ -94,5 +91,10 @@ In some cases, you may need to manually add properties to records that don't bel
 1. Select **Save and close**.
 
 The property is now added to the list of eligible properties for this record.
+
+## Next steps
+
+- [Add property logs](property-logs.md)
+- [Build a service history for assets](service-history.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

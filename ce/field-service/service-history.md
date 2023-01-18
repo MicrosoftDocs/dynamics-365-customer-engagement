@@ -1,9 +1,10 @@
 ---
 title: "Build a service history for assets"
 description: Learn about all options to build a service history for assets in Dynamics 365 Field Service.
-ms.date: 12/07/2022
+ms.date: 01/17/2023
 ms.reviewer: mhart
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha

@@ -1,12 +1,10 @@
 ---
-title: "Add property logs"
+title: Add property logs
 description: Learn work with property logs in Dynamics 365 Field Service.
-ms.date: 12/09/2022
+ms.date: 01/17/2023
 ms.reviewer: mhart
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+ms.topic: how-to
+ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
 manager: shellyha
@@ -17,7 +15,7 @@ search.app:
 
 # Add property logs
 
-After [associating properties](properties.md#associate-templates-to-assets-functional-locations-or-categories), you can then add specific values as property logs to them. Property logs enable your to build a track record of current and past values of a property.
+After [associating properties](properties.md#associate-templates-to-assets-or-categories), you can then add specific values as property logs to them. Property logs enable you to build a track record of current and past values of a property.
 
 1. In Field Service, change to the **Service** area.
 
@@ -47,12 +45,17 @@ To update an earlier log value, you can add a new property log. In our example, 
 
 1. Select **Save and Close**.
 
-The most latest properties show in the **Current Property Values** list.
+The most recent properties show in the **Current Property Values** list.
 
-The **Delta** value represents the difference between the latest value and the previous property value.  
+The **Delta** value represents the difference between the most recent value and the previous property value.  
 
 All previous property values are listed in the **Property Log History** section.
 
 :::image type="content" source="media/assets-properties-maintain-new-values.png" alt-text="Screenshot of the asset's property history.":::
+
+## Next steps
+
+- [Properties in Dynamics 365 Field Service](properties.md)
+- [Build a service history for assets](service-history.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
