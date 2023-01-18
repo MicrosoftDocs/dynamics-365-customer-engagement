@@ -54,5 +54,7 @@ Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), 
 
 [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)
 
+[View agent insights in Dynamics 365 Customer Service](/customer-service/intraday-insights-dashboard#agent-insights)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
