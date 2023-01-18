@@ -47,11 +47,11 @@ The following prerequisites must be met:
   - Routing configuration step (`msdyn_routingconfigurationstep`)
   - Workstream capacity profile (`msdyn_liveworkstreamcapacityprofile`)
   - Context variable (`msdyn_ocliveworkstreamcontextvariable`) 
-  - Survey question (msdyn_surveyquestions)
-  - Survey question sequence (msdyn_questionsequence)
-  - Survey answer option (msdyn_chatansweroption)
-  - Quick replies (msdyn_cannedmessages)
-  - Tags (msdyn_octags)
+  - Survey question (`msdyn_surveyquestions`)
+  - Survey question sequence (`msdyn_questionsequence`)
+  - Survey answer option (`msdyn_chatansweroption`)
+  - Quick replies (`msdyn_cannedmessages`)
+  - Tags (`msdyn_octags`)
 
 > [!IMPORTANT]
 >
