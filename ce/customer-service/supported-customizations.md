@@ -1,6 +1,6 @@
 ---
-title: Customizations supported by Conversation entity and form
-description: Learn about the customizations that are supported by the Conversation entity and form in Omnichannel for Customer Service.
+title: Customizations supported by Conversation form and entity
+description: Learn about the customizations that are supported by the Conversation form and entity in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
@@ -9,17 +9,9 @@ ms.date: 01/20/2023
 ms.custom: bap-template
 ---
 
-# Customizations supported by the Conversation entity and form
+# Customizations supported by the Conversation form and entity
 
-This article lists the customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
-
-## Customizations supported by the Conversation entity
-
-You can create business rules on the Conversation entity. 
-> [!NOTE]
-> - You can’t add new forms, views, fields, or charts on the Conversation entity.
-> - You can’t edit existing views or fields.
-> - You can’t create many-to-one and many-to-many relationships.
+This article lists the customizations supported by the Conversation form and entity in Omnichannel for Customer Service.
 
 ## Customizations supported by the Conversation form
 
@@ -39,7 +31,13 @@ You can customize the **Conversation** form to:
 > - You can't add canvas apps.
 > - You can't edit conversation forms using JavaScript.
 
+## Customizations supported by the Conversation entity
 
+You can create business rules on the Conversation entity. 
+> [!NOTE]
+> - You can’t add new forms, views, fields, or charts on the Conversation entity.
+> - You can’t edit existing views or fields.
+> - You can’t create many-to-one and many-to-many relationships.
 ## Next steps
 
 [Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  
