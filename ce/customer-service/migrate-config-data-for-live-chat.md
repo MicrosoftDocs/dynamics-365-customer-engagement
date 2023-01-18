@@ -55,21 +55,19 @@ The following prerequisites must be met:
 
 > [!IMPORTANT]
 >
-> - The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
-> - If you try to migrate workstreams data for live chat with context variables, it might fail. For a workaround, see [Import fails in Configuration Migration tool for decision ruleset with context variables for chat workstreams](https://go.microsoft.com/fwlink/p/?linkid=2165393)
+> The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
 
-## Export and import live chat configuration
+## Migrate live chat configuration
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. Export and import configuration for skill-based routing
-1. Export and import configuration for capacity profiles
-1. Export and import configuration for live chat queues
-1. Export and import configuration for live chat workstreams
-1. Export and import configuration for live chat widgets
+1. Migrate configuration for skill-based routing
+1. Migrate configuration for capacity profiles
+1. Migrate configuration for live chat queues
+1. Migrate configuration for live chat workstreams
+1. Migrate configuration for live chat widgets
 1. Verify your migration
-1. Troubleshoot export and import of data
-
+1. Troubleshoot migration of data
 
 ## Migrate skill-based configuration
 
@@ -81,11 +79,11 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ## Migrate configuration for live chat queues
 
-For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).
+For migrating queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).
 
 ## Migrate configuration for live chat workstreams
 
-Use the Configuration Migration tool to create the schema and export the data from the source organization for the following entities:
+Use the Configuration Migration tool to create the schema and migrate the data from the source organization for the following entities:
 
 - msdyn_liveworkstream
 - msdyn_ocliveworkstreamcontextvariable
@@ -97,6 +95,13 @@ Use the Configuration Migration tool to create the schema and export the data fr
 - msdyn_decisionruleset
 - msdyn_cannedmessages
 - msdyn_octags
+
+> [!Important]
+
+> When you fetch decision rulesets (msdyn_decisionrulesets) containing context variables, some decision rulesets will get created without the dependency mappings. To work around this, perform the following steps:
+> 1. Import data all entities, including the decision ruleset entity (msdyn_decisionrulesets).
+> 1. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets get imported.
+
 
 ## Migrate configuration for live chat widgets
 
