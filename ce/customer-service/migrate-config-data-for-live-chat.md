@@ -1,7 +1,7 @@
 ---
 title: "Migrate unified routing data for live chat | MicrosoftDocs"
 description: "Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service."
-ms.date: 12/20/2022
+ms.date: 01/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -97,7 +97,7 @@ Use the Configuration Migration tool to create the schema and migrate the data f
 - msdyn_octags
 
 > [!Important]
-
+>
 > When you fetch decision rulesets (msdyn_decisionrulesets) containing context variables, some decision rulesets will get created without the dependency mappings. To work around this, perform the following steps:
 > 1. Import data all entities, including the decision ruleset entity (msdyn_decisionrulesets).
 > 1. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets get imported.
