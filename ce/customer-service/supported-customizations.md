@@ -28,8 +28,8 @@ You can customize the **Conversation** form to:
 
 > [!NOTE]
 > - The Closed conversation form is the default form, and we recommend that you don't change the default form or its order.
+> - We recommend that you don't modify the out-of-the-box JavaScripts used in the Customer Summary form.
 > - You can't add canvas apps.
-> - You can't edit conversation forms using JavaScript.
 
 ## Customizations supported by the Conversation entity
 
@@ -37,7 +37,8 @@ You can create business rules on the Conversation entity.
 > [!NOTE]
 > - You can’t add new forms, views, fields, or charts on the Conversation entity.
 > - You can’t edit existing views or fields, but some properties of msdyn_title and msdyn_thirdpartyconversations can be changed.
-> - You can’t create many-to-one and many-to-many relationships.
+> - You can’t add a Lookup field (many-to-one relationship) or many-to-many relationships on the Conversation entity.
+
 ## Next steps
 
 [Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  
