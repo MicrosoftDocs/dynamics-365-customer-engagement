@@ -120,7 +120,7 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)  
 [Manage bookmarks](manage-bookmarks.md)  
-[Tracked keywords](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)  
+[Tracked keywords in Dynamics 365 Sales](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
