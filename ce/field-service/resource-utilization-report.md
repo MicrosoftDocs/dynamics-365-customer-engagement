@@ -7,9 +7,6 @@ ms.author: jasonshotts
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 search.app: 
   - D365CE
   - D365FS
@@ -24,13 +21,15 @@ To access the report, open the **Field Service** app, change to the **Resources*
 ## Filters and slicers
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
-- **Resource type**: <!--add-->
+- **Resource type**: The [resource type set for a bookable resource](set-up-bookable-resources.md).
 - **Resource**: [Active bookable resources](set-up-bookable-resources.md).
 - **Booking status**: Available [Booking statuses](set-up-booking-statuses.md).
 
 ## Report metrics
 
 All charts adapt to the filters and the formulas assume don't mention them specifically.
+
+Whenever a formula refers to the number of days, it takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
@@ -41,15 +40,11 @@ Average number of hours per day that the selected resources worked on a bookings
 
 Formula: (Total work time + Travel time) / Number of days
 
-Alternative: Duration of the bookable resource bookings / Number of days from start and end date of the bookable resource bookings
-
 ### Avg. travel time per day (hrs.)
 
 Average number of hours per day that the selected resources spend traveling in the selected time range.
 
-Formula: Actual travel duration / Number of days of the bookings
-
-Alternative: Actual travel duration of the bookable resource bookings / Number of days from start and end date of the bookable resource bookings
+Formula: Actual travel duration / Number of days
 
 ### Total miles traveled
 
@@ -61,24 +56,20 @@ Formula: Sum of miles traveled of the bookable resource bookings.
 
 Average number of miles on traveled by the selected resources in the selected time range.
 
-Formula: Actual travel duration / Number of days of the bookings
-
-Alternative: Actual travel duration of the bookable resource bookings / Number of days from start and end date of the bookable resource bookings
+Formula: Sum of miles traveled / Number of days
 
 ### Utilization rate
 
 The percentage of time a resource spends on work and travel per [available time on the calendar](calendar-resource.md).
 
-Formula: ((Total work time + Travel time) / (Available hours per day x Number of days)) x 100
-
-Alternative: Duration of the bookable resource bookings / The available time of the resources between the start and end date of the bookable resource bookings
+Formula: ((Total work time + Travel time) / (Configured work hours per day x Number of days)) x 100
 
 > [!NOTE]
-> If the user doesn't set the available time on the calendar, the default is 24 hours.
+> If the work hours aren't set on the calendar, the default is 24 hours.
 
 ### Late arrival rate
 
-The percentage of bookings in progress or completed where the technician arrives late.
+The percentage of completed bookings where the technician arrived late.
 
 Formula: (Number of bookable resource bookings with late arrival / Total number of bookings) x 100
 
@@ -135,7 +126,7 @@ Correlates each resource's travel time to work time and plots them in the matchi
 
 ### Resource metrics
 
-Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, work time, travel time, break time, and idle time. Year over year (%) compares the resource utilization of the selected year to the year befores.
+Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, work time, travel time, break time, and idle time. Year over year (%) compares the resource utilization of the selected year to the year before.
 
 <!--
 
