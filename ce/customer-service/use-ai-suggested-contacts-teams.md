@@ -66,5 +66,5 @@ If the Teams chat is created for an active case, the participants who receive th
 
 [View AI-suggested cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [Overview of Customer Service workspace](csw-overview.md)  
-[View and understand call summary page in Conversation Intelligence app](../sales/view-and-understand-call-summary.md)  
-[ce\sales\teams-integration\using-teams-chat-in-dynamics.md](../sales/teams-integration/using-teams-chat-in-dynamics.md)  
+[View and understand call summary page in the Sales Hub app](../sales/view-and-understand-call-summary-sales-app.md)  
+[Use Microsoft Teams chat in Sales Hub](../sales/teams-integration/using-teams-chat-in-dynamics.md)  
