@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 08/01/2022
+ms.date: 01/18/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -120,6 +120,7 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)  
 [Manage bookmarks](manage-bookmarks.md)  
+[Tracked keywords](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
