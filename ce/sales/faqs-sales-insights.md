@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions for Sales Premium"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
-ms.date: 11/04/2022
+ms.date: 01/11/2023
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -267,15 +267,26 @@ To view the fields that determine the similar won deals at that point in time, s
 > ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")   
 
 
-## Predictive lead/opportunity scoring   
+## Predictive lead/opportunity scoring
 
 ### What do I need in order to use lead/opportunity scoring?​
 
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​   
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​  
 
-To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.    
-To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.    
+To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.  
+To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.  
 Verify that the leads and opportunities are created on or after January 01, in the previous year.
+
+### How frequently are the predictive scores updated?
+
+**Lead scores:** For new leads, the scoring happens in near real-time. The score will be displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed after every 24 hours.
+
+**Opportunity scores:** For new and updated opportunities, the scores are refreshed after every 24 hours.
+
+### Why aren't my leads scored in real-time?
+
+Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. For more information, see [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring). 
+
 
 ### Can I customize the model?
 
@@ -351,20 +362,46 @@ If you have [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with
 
 ### How does a Microsoft 365 administrator exclude users?
 
-While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
+While [providing consent](provide-consent-office365.md#provide-consent), your Microsoft 365 administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents).  
 
 ## Conversation intelligence
+
+### Which Conversation intelligence features are available in Dynamics 365 Sales versus Viva Sales?  
+
+|Feature  |Viva Sales  |Sales Enterprise / Sales Premium  |
+|---------|---------|---------|
+| **Call processing**   |    |    |
+|Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes<sup>1</sup><br><sup>1</sup> **Sales Enterprise:** Three hours of conversation intelligence (recording and processing) per user, per month<br> **Sales Premium:** 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). .|
+|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Viva Sales app for Teams <br> <sup>2</sup> Unlimited Viva Sales hours included with Sales Premium / Sales Enterprise license        |
+| **During the call**   |    |
+|Real-time conversation intelligence     |    No       |    Yes     |
+|Conversation intelligence for seller-only recordings (When customer is not recorded)     |   No      |   Yes      |
+| **After the call**   |    |
+|Conversation summary and details logged back into CRM record     |   No      |   Yes      |
+|Editing and sharing a conversation summary     |   No      |   Yes      |
+|Scheduling an action item from a conversation summary    |   No      |   Yes      |
+|Aggregated dashboards for managers    |   No      |   Yes      |
+|Manager Coaching tools     |   No      |   Yes      |
+| **Admin configurations**   |    |
+|Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported-now)       |
+|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
+
 
 ### How long does it take for data updates to reflect in the app?
 
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
 
+
+### How many hours of conversation intelligence are available with Viva Sales?
+
+You get unlimited call recording and processing hours with Viva Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Viva Sales. For more information, see [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
+
 ### How do I buy more conversation intelligence hours?
 
-With the Sales Premium license, you get 10 hours of call recording and processing capacity per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+With the Sales Premium license, you get 10 hours of call recording and processing capacity per user, per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
-> [!NOTE]
-> If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
+If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
 
 ### Can sellers (or non-managers) use this app?
 
