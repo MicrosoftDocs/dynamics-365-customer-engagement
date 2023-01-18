@@ -1,7 +1,7 @@
 ---
 title: "Install the asset library add-on (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to install the real-time marketing asset library add-on in the Dynamics 365 Marketing settings."
-ms.date: 10/04/2022
+ms.date: 12/14/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -51,25 +51,7 @@ There are some functional differences between the two libraries. It's up to you 
 
 ## Installing the add-on
 
-You can install the real-time marketing asset library add-on from the asset library or from the Marketing settings.
-
-### Installation from the asset library
-
-By default, all users have the necessary permissions to trigger the asset library installation. System administrators can remove these permissions. To install the asset library add-on from real-time marketing:
-
-1. Go to real-time marketing, then go to **Assets** > **Library** in the left navigation pane.
-1. Select **Library add-on** in the command bar.
-1. Trigger the installation from the confirmation dialog.
-
-    > [!div class="mx-imgBorder"]
-    > ![Asset add-on install from asset library.](media/real-time-marketing-asset-add-on-install.png "Asset add-on install from asset library")
-
-> [!NOTE]
-> This action may take up to six hours. You will be informed about the progress and you can continue to use the default asset library in the meantime. If the installation fails, you can trigger it again.
-
-### Installation from settings
-
-You can also install the asset library add-on from the add-on page in the settings. By default, all users have the necessary permissions to trigger the asset library installation. System administrators can remove these permissions. To install the asset library add-on from the settings:
+You can install the asset library add-on from the add-on page in the settings. By default, all users have the necessary permissions to trigger the asset library installation. System administrators can remove these permissions. To install the asset library add-on from the settings:
 
 1. Go to **Settings** in the area switcher then go to **Overview** > **Add-ons**.
 1. Select **Install** on the asset library card.
