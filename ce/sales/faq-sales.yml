@@ -74,6 +74,9 @@ sections:
           
   - name: Entities - Lead, opportunity, quote, order, invoice
     questions:
+      - question: Where is the deal manager workspace?
+        answer: |
+          The deal manager workspace has been replaced by the opportunity pipeline view. Any existing deal manager links or bookmarks will be redirected to the My Open Opportunities view. Select View as > Pipeline view to open the opportunity pipeline view.
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
           Power Platform detects duplicates by comparing the matchcode that's created for each record. For more information, go to [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data).

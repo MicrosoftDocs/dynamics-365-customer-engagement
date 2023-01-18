@@ -36,12 +36,12 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 
     If your administrator has set the pipeline view as the default view, you'll see the pipeline view.  
 
-1. If you're seeing a grid view, select **Show As** > **Pipeline view**
-        :::image type="content" source="media/show-as-pipeline-view.png" alt-text="Screenshot of the menu option to switch to the pipeline view.":::
+1. If you're seeing a grid view, select **Show As** > **Pipeline view**.  
+    :::image type="content" source="media/show-as-pipeline-view.png" alt-text="Screenshot of the menu option to switch to the pipeline view.":::
 
-    The following screenshot illustrates the different aspects of the pipeline view:
+    The following screenshot illustrates the different aspects of the pipeline view:  
 
-        :::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered":::
+    :::image type="content" source="media/opportunity-pipeline-view.png" alt-text="Screenshot of the opportunity pipeline view with its components highlighted and numbered":::
 
 
     |Number  |Feature  |Description  |
