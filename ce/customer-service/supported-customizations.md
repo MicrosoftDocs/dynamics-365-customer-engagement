@@ -5,7 +5,7 @@ author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
 ms.topic: conceptual 
-ms.date: 01/20/2023
+ms.date: 01/19/2023
 ms.custom: bap-template
 ---
 
@@ -42,7 +42,10 @@ You can create business rules on the Conversation entity.
 
 ## Next steps
 
-[Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  
 [Customize Customer Summary form](customize-customer-summary.md)  
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
+
+### See also
+
+[Conversation entity](developer/reference/entities/msdyn_ocliveworkitem.md)  
