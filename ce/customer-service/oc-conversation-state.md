@@ -38,7 +38,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 | From status reason | To status reason | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel<br><br>Chat|
-| Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
+| Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md)| Chat |
 
 ![Transition from open to active or closed.](media/oc-conversation-open1.png "Transition from open to active or closed")
 
@@ -51,7 +51,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation (applicable only to Live chat channel).| Channel <br><br> Chat|
-| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
+| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period.More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md)<br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
@@ -60,7 +60,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 ## Wrap-up
 
-This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block capacity for wrap up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the **Wrap-up** state. If the **Don't block** setting is selected, your capacity is released as soon as conversation moves from **Active** to **Wrap-up** state. Your administrator might also select a duration ranging from 1 minute to 60 minutes.
+This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block capacity for wrap up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the **Wrap-up** state. If the **Don't block** setting is selected, your capacity is released as soon as conversation moves from **Active** to **Wrap-up** state. Your administrator might also select a duration ranging from 1 to 60 minutes.
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
@@ -69,6 +69,9 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 | Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Channel <br><br> Chat|
 
 ![Transition from wrap-up to closed state.](media/oc-conversation-wrap-up1.png "Wrap-up state")
+
+> [!NOTE]
+> When a live chat conversation gets disconnected, Omnichannel for Customer Service will automatically move **Active** conversations to the **Wrap-up** state. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md)
 
 ## Waiting
 
