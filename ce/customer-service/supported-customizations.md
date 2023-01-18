@@ -4,9 +4,8 @@ description: Learn about the customizations that are supported by the Conversati
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
-ms.service: dynamics-365 
 ms.topic: conceptual 
-ms.date: 01/12/2023
+ms.date: 01/20/2023
 ms.custom: bap-template
 ---
 
@@ -16,7 +15,11 @@ This article lists the customizations supported by the Conversation entity and f
 
 ## Customizations supported by the Conversation entity
 
-You can create business rules on the Conversation entity.
+You can create business rules on the Conversation entity. 
+> [!NOTE]
+> - You can’t add new forms, views, fields, or charts on the Conversation entity.
+> - You can’t edit existing views or fields.
+> - You can’t create many-to-one and many-to-many relationships.
 
 ## Customizations supported by the Conversation form
 
@@ -30,6 +33,10 @@ You can customize the **Conversation** form to:
     - Remove recent cases subgrid
     - Add web resources and external website controls 
     - Load **Customer Summary** form as an application tab instead of anchor tab in a session
+
+> [!NOTE]
+> - The Closed conversation form is the default form, and we recommend that don't change the default form or the order of the form.
+> - You can't add canvas apps or edit conversation forms using JavaScript.
 
 
 ## Next steps
