@@ -1,20 +1,20 @@
 ---
-title: "Personalize deal manager | MicrosoftDocs"
-description: "As a seller, personalize the grid and apply filters to suit your needs."
+title: Personalize the opportunity pipeline view
+description: As a seller, personalize the pipeline view depending on what you want to see, organize opportunities in a way that makes sense to you, and personalize your view.
 ms.date: 02/01/2022
 ms.topic: article
-
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Personalize the deal manager workspace
+# Preview: Personalize the opportunity pipeline view
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As a seller, personalize the deal manager workspace and apply filters to suit your needs.
+As a seller, you can personalize the pipeline view depending on what you want to see. You can organize opportunities in a way that makes sense to you, personalize your view, update information on the fly, add notes and tasks, and much more. You can also ask your administrator to customize the experience further to improve your productivity.  
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -25,24 +25,22 @@ As a seller, personalize the deal manager workspace and apply filters to suit yo
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-As a seller, you can personalize the deal manager workspace to suit your needs. You can,
+You can personalize the pipeline view by,
 
-- Personalize the grid by adding, removing, rearranging, sorting, and grouping columns.
+- adding, removing, rearranging, and sorting columns.
 
-- Apply filters to view records that are important to you.
-- Change the layout of the workspace to either list (grid only) or combo (grid and chart).  
-- Change the metrics displayed at the top of the workspace.
+- Applying filters to view records that are important to you.
+- Changing the layout of the view to either list (grid only) or combo (grid and chart).  
+- Changing the metrics displayed at the top of the view.
 
-## Personalize the metrics 
+## Personalize the metrics
 
-The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
+The opportunity pipeline view lists important metrics related to the sales pipeline at the top of the view. You can personalize this space to view metrics that you want to track.  
 
 > [!NOTE]
 > Any personalized metrics are only available until you log out. The current release doesn't support saving the changes you make to metrics.
 
-**To personalize the metrics**
-
-1. In the Sales Hub site map, select **Deal manager (preview)**.
+1. Open the [opportunities pipeline view](use-opportunity-pipeline-view.md#open-the-opportunity-pipeline-view). 
 1. Select **Combo** > **Edit Metrics**.
 
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
@@ -84,55 +82,25 @@ Personalize the grid to include columns that you want to see and update quickly.
 
 **To personalize the grid**
 
-1. In the deal manager workspace, scroll down to the grid.
-
-1. Select **Edit columns** to add, remove, hide, show, or rearrange columns.
-    1. To add a column, select **Add column** in the **Edit columns** panel and select the column type as one of the following: 
-
-        - **Basic column**    
-          Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
-        - **Smart column**   
-          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are smart columns?](#what-are-smart-columns) later in this article. 
-
-          :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating the Edit columns option and the side panel." lightbox="media/deal-manager-editcolumns.png":::
-
+1. In the opportunity pipeline view, select **Edit columns** to add, remove, hide, show, or rearrange columns.
+    The **Edit columns: Opportunities** side panel opens.
+    
+    1. To add a column, select **Add column**.
 
     1. To show or hide columns, select or clear the checkboxes. You can't delete the default columns from the grid; however, you can hide them.
-    1. To rearrange columns, drag the columns in the **Edit columns** panel or in the grid.
+    1. To rearrange columns, drag the columns in the **Edit columns: Opportunities** panel.
 
 1. To sort columns, select the column dropdown menu and select the sort option.
-1. To group the records by a column, select **Group by** and then select the column that you want to use for grouping. For example, to group opportunities based on different sales stages, group by the **Sales stage** column.
-   
-### What are smart columns?
-
-A *smart column* performs certain computations on existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue. These columns save you the trouble of manual computation and make it easy for you to look at opportunities that need your attention. 
-
-The following table lists the smart columns that are available.
-
-
-|Name  |Computation  |Action  |
-|---------|---------|---------|
-|Close date     | Displays the actual close date if the opportunity is closed; otherwise, it displays the estimated close date.         |None         |
-|Revenue     |Displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue.         |None         |
 
 ## Apply filters
 
 As a seller, you want the workspace to display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
 
-**To apply filters to the workspace**
+1. In the opportunity pipeline view, select **Edit filters**.
 
-1. In the deal manager workspace, select **Filters**.
+    The **Edit filters: Opportunities** panel displays the columns in your view.
 
-    The **Filters** panel displays the columns in your view. 
-
-1. Specify the conditions for filtering.
-
-1. Select **More filters** to do the following tasks:
-    - Select fields that aren't currently displayed in your view.
-
-    - View or delete the existing filters.
-
-1. In the **More filter** panel, select **Add** > **Add row** to add a condition on a field that isn't displayed in your view.  
+1. Select **Add** > **Add row** to add a condition based on fields in the opportunity table.
 
     You can add multiple conditions by adding more rows. The conditions will be validated with the AND operation.  
 
@@ -148,35 +116,21 @@ As a seller, you want the workspace to display records that you're working on. A
 
 For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters).
 
-## Create a view
+## Save personalization to the view
 
-The personalization changes that you directly make in the grid don't persist across sessions. If you want to save your changes permanently, create a view. You can personalize the following aspects of the grid in a view:
+After you personalize the pipeline view, you can save the changes to a new view. An asterisk next to the view name indicates that the view has unsaved changes. 
 
-- Add or remove columns
-- Resize or rearrange columns
-- Apply filters
+Select the **My Open Opportunities** view drop-down and select **Save as new view**. 
 
-> [!NOTE]
-> Currently, changes to metrics or other personalization changes to the grid can't be saved to the view.
+:::image type="content" source="media/save-as-new-view.png" alt-text="Screenshot of the save as new option in the views drop-down":::
 
-**To create a view**
-
-1. In the deal manager workspace, select **View** > **Create Personal View**.
-
-1. In the **View Designer**, personalize the columns and apply filters to meet your needs.
-    :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps.":::
-
-1. Save the changes.
-
-## Edit a view
-
-The option to edit a view isn't yet supported in the deal manager workspace. You can, however, edit the view in Power Apps.
+You can set the new view as the default view by selecting **Set as default view**.
 
 ## Switch to a view
 
-You can create multiple views with different filter conditions or columns and switch between them.
+You can create multiple views with different personalizations and switch between them.
 
-In the deal manager workspace, select the views dropdown list and search for the view that you want to switch to.
+From the view drop-down, select the view that you want to switch to.
 
 :::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting the views dropdown list in deal manager.":::
  
@@ -184,6 +138,6 @@ In the deal manager workspace, select the views dropdown list and search for the
 
 ### See also
 
-[Access the deal manager workspace](access-deal-manager.md)  
+[Access the opportunity pipeline view](access-deal-manager.md)  
 
 
