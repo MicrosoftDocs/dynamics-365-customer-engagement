@@ -163,6 +163,6 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
 [Track and manage activities](/dynamics365/sales-enterprise/manage-activities)
-
+[View call recordings and transcripts in Dynamics 365 Customer Service](/customer-service/voice-channel-call-recordings-transcripts)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
