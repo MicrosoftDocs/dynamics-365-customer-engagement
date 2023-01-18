@@ -36,7 +36,7 @@ You can customize the **Conversation** form to:
 You can create business rules on the Conversation entity. 
 > [!NOTE]
 > - You can’t add new forms, views, fields, or charts on the Conversation entity.
-> - You can’t edit existing views or fields.
+> - You can’t edit existing views or fields, but some properties of msdyn_title and msdyn_thirdpartyconversations can be changed.
 > - You can’t create many-to-one and many-to-many relationships.
 ## Next steps
 
