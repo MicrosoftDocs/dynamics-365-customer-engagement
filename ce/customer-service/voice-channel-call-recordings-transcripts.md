@@ -78,4 +78,4 @@ The **Sessions** tab displays details about the number of voice calls between th
 
 [Agent experience of voice calls and agent dashboard](voice-channel-agent-experience.md)  
 [Call a customer](voice-channel-call-customer.md)  
-[View and understand call summary page in Conversation Intelligence app](../sales/view-and-understand-call-summary.md)  
+[View and understand call summary page in Conversation Intelligence app](../sales/view-and-understand-call-summary-sales-app.md)  
