@@ -24,11 +24,11 @@ You can customize the **Conversation** form to:
     - Edit the quick view for customers and cases
     - Remove recent cases subgrid
     - Add web resources and external website controls 
-    - Load **Customer Summary** form as an application tab instead of anchor tab in a session
+    - Load **Customer summary** form as an application tab instead of anchor tab in a session
 
 > [!NOTE]
 > - The **Conversation** form is the default form, and we recommend that you don't change the default form or the order in which it's displayed.
-> - We recommend that you don't modify the out-of-the-box JavaScripts used in the **Customer Summary** form.
+> - We recommend that you don't modify the out-of-the-box JavaScripts used in the **Customer summary** form.
 > - You can't add canvas apps.
 
 ## Customizations supported by the Conversation entity
@@ -42,7 +42,7 @@ You can create business rules on the Conversation entity.
 
 ## Next steps
 
-[Customize Customer Summary form](customize-customer-summary.md)  
+[Customize Customer summary form](customize-customer-summary.md)  
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
 
