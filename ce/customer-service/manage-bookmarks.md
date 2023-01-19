@@ -14,7 +14,7 @@ ms.custom: bap-template
 A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. 
 
 > [!Note]
-> You can use bookmarks only in historical and knowledge analytics reports.
+> You can use bookmarks in Customer Service historical analytics, Omnichannel historical analytics, and knowledge analytics reports only.
 
 ## Prerequisites
 
@@ -57,8 +57,7 @@ For more information on configuring user access to analytics and dashboards, see
 1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update Bookmark**.
 
 
-> [!NOTE] 
-> Bookmarks created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's Conversation tab, the bookmark will apply to Conversation, Queue, and Agent tabs, and won't include filters for the other tabs like Voice and Unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
+Bookmarks created for a report group will save a personalized view using filters in that group, and won't filter or display information from other groups. For example, if you create a bookmark in the Omnichannel historical report's **Conversation** tab, the bookmark will apply to **Conversation**, **Queue**, and **Agent** tabs, and won't include filters for the other tabs like Voice and Unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
 
 ### See also
 

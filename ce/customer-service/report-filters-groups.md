@@ -13,19 +13,19 @@ ms.custom: bap-template
 
 Reports are grouped into the following categories and subcategories. 
 - Omnichannel historical analytics reports
-    - Summary and Bot tabs
-    - Conversation, Queue, and Agent tabs
-    - Topics tab
-    - Voice tab
-    - Unified routing tab
+    - **Summary** and **Bot** tabs
+    - **Conversation**, **Queue**, and **Agent** tabs
+    - **Topics** tab
+    - **Voice** tab
+    - **Unified routing** tab
 - Customer Service historical analytics reports
-    - Summary, Agent, and Topics tabs
+    - **Summary**, **Agent**, and **Topics** tabs
 - Knowledge analytics reports 
-    - Search Term Insights tab
-    - Article Insights tab
+    - **Search Term Insights** tab
+    - **Article Insights** tab
 
 
-When you set one or more filters on reports, the filters are applied based on report groups. Say, for example, you've set the "channel" filter for displaying records related to the live chat channel in the Conversation tab of the Omnichannel historical report. This filter is automatically applied to other tabs of the report such as Queue and Agent tabs, but not to the Bot, Summary, Topics, Voice, or Unified routing tabs.
+When you set one or more filters on reports, the filters are applied based on report groups. Say, for example, you've set the "channel" filter for displaying records related to the live chat channel in the **Conversation** tab of the Omnichannel historical report. This filter is automatically applied to other tabs of the report such as **Queue** and **Agent** tabs, but not to the **Bot**, **Summary**, **Topics**, **Voice**, or **Unified routing** tabs.
 
 ## Next steps
 
