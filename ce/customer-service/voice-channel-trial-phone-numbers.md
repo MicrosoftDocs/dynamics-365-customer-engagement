@@ -29,7 +29,7 @@ The trial phone number is a US number, so you can't call this number if you're o
 > - If you're calling the geographic number from outside the US, then international carrier rates will apply.
 
 
-Your voice trial automatically ends after the free calling time elapses. You can also manually end the trial before the free calling time elapses. More information: [End the trial](#end-the-trial).
+Your voice trial automatically ends after the free calling time elapses. You can also manually end the trial before the free calling time elapses. More information: [End the trial](#end-the-trial)
 
 After your free calling time has elapsed, you can either [purchase new phone numbers](voice-channel-manage-phone-numbers.md) or request Microsoft Support for more calling minutes. 
 
@@ -41,9 +41,10 @@ After your free calling time has elapsed, you can either [purchase new phone num
 If you want to end the trial before it expires, select **End trial** on the **Phone numbers** page. Then, you'll be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
 > [!NOTE]
-> You can't recover trial phone number and any related data after the trial organization has expired and has been deprovisioned.
+> You can't recover trial phone number and any related data after the trial organization has expired and been deprovisioned.
 
 ## Next steps
+
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
 ### See also
