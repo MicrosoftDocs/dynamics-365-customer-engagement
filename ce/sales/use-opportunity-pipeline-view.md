@@ -1,5 +1,5 @@
 ---
-title: Use the opportunity pipeline view (Preview)
+title: Manage opportunities using pipeline view (Preview)
 description: Use the opportunity pipeline view to visualize the opportunities in your pipeline, and prioritize and manage them effectively.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -8,11 +8,11 @@ ms.topic: how-to
 ms.date: 01/18/2023
 ms.custom: bap-template 
 ---
-# Preview: Use the opportunity pipeline view
+# Preview: Manage opportunities using pipeline view
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The opportunity pipeline view (formerly knows as deal manager) helps you visualize the opportunities in your pipeline, and prioritize and manage them effectively. The charts in the view help you figure out which deals to follow up with next. The key KPIs help you understand where you stand in terms of the number of deals in the pipeline, deals won, and deals lost, and their respective revenues.
+The opportunity pipeline view (formerly known as deal manager) helps you visualize the opportunities in your pipeline, and prioritize and manage them effectively. The charts in the view help you figure out which deals to follow up with next. The KPIs help determine the current status of deals in the pipeline, deals successfully closed, and deals lost, and their respective revenue.
 
 
 ## License and role requirements
@@ -28,7 +28,7 @@ The opportunity pipeline view (formerly knows as deal manager) helps you visuali
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHo82]
 
 ## Open the opportunity pipeline view  
 
@@ -46,14 +46,15 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 
     |Number  |Feature  |Description  |
     |---------|---------|---------|
-    |1     |  Metrics       |View key metrics or KPIs that you want to track. You can modify the metrics in this section to meet your needs. More information: [Personalize the deal manager workspace](personalize-deal-manager.md#personalize-the-metrics)         |
-    |2     |Charts         |Get a visual representation of the pipeline. <br><br>**Bubble chart** <br> The default bubble chart displays the following values:<ul><li>**x-axis:** Displays the opportunity score if you have Sales Insights; otherwise, it displays the deal probability.</li><li>**y-axis:** Displays the close date. A smart column that displays the actual close date or estimated close date, depending on whether the opportunity is closed.</li><li>**Size of the bubble:** Displays revenue. A smart column that displays the actual revenue or estimated revenue, depending on whether the opportunity is closed. More information: [What are smart columns?](personalize-deal-manager.md#what-are-smart-columns).</li><li> **Color of the bubble:** Indicates opportunity grade if you have Sales Insights; otherwise, it displays the pipeline phase.</li></ul> You can ask your administrator to customize the chart if you want to see different fields. More information: [Customize the deal manager workspace](customize-deal-manager.md) <br><br> **Sales funnel chart** <br> The Sales funnel chart displays the following values. <ul><li>**x-axis:** Displays the pipeline phases.</li><li>**y-axis**: Displays the estimated revenue. Customization of the Sales funnel isn't supported in this release.</li></ul> **Note:** The funnel chart can only display up to 50,000 records. When the number of records exceed this limit, a message is displayed. You can apply filters to reduce the record size. <br><br> When you filter the records, the chart is automatically updated.|
-    |3     |Editable grid         |View a list of opportunities and edit them inline. Select any linked column&mdash;such as **Name**, **Potential Customer**, or **Contact**&mdash;to view and quickly edit details in the side panel.<br><br>You can personalize the grid: add, remove, resize, hide, rearrange, sort, and group columns on the fly. More information: [Personalize the deal manager workspace](personalize-deal-manager.md#personalize-the-grid)<br><br>You can also save the personalization in a view so that you can switch to it at anytime. More information: [Create a view](personalize-deal-manager.md#create-a-view) |
-    |4     |Side panel         |View and quickly edit details for the linked values such as **Opportunity Name**, **Potential Customer**, or **Contact**. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can select a contact to view their details, quickly make updates, and then return to the opportunity. You can ask your administrator to customize the side panel if you want to be able to view or update other fields in the panel. |
+    |1     |  Metrics       |View key metrics or KPIs that you want to track. You can modify the metrics in this section to meet your needs. More information: [Preview: Personalize the opportunity pipeline view](personalize-pipeline-view.md)         |
+    |2     |Charts         |Get a visual representation of the pipeline. <br><br>**Bubble chart** <br> The default bubble chart displays the following values:<ul><li>**x-axis:** Displays the opportunity score if you have Sales Insights; otherwise, it displays the deal probability.</li><li>**y-axis:** Displays the close date. A smart column that displays the actual close date or estimated close date, depending on whether the opportunity is closed.</li><li>**Size of the bubble:** Displays revenue. A smart column that displays the actual revenue or estimated revenue, depending on whether the opportunity is closed. </li><li> **Color of the bubble:** Indicates opportunity grade if you have Sales Insights; otherwise, it displays the pipeline phase.</li></ul> You can ask your administrator to customize the chart if you want to see different fields. More information: [Customize the bubble chart](opportunity-pipeline-view-for-admins.md#customize-the-bubble-chart) <br><br> **Sales funnel chart** <br> The Sales funnel chart displays a funnel based on the sum of estimated revenues across different pipeline phases. You can ask your administrator to customize the chart if you want to see different fields. More information: [Customize the funnel chart](opportunity-pipeline-view-for-admins.md#customize-the-funnel-chart)</li></ul> **Note:** The funnel chart can only display up to 50,000 records. When the number of records exceed this limit, a message is displayed. You can apply filters to reduce the record size. <br><br> When you filter the records, the chart is automatically updated.|
+    |3     |Editable grid         |View a list of opportunities and edit them inline. Select any linked column&mdash;such as **Name**, **Potential Customer**, or **Contact**&mdash;to view and quickly edit details in the side panel.<br><br>You can personalize the grid: add, remove, resize, hide, rearrange, and sort columns on-the-fly. More information: [Preview: Personalize the opportunity pipeline view](personalize-pipeline-view.md) |
+    |4     |Side panel         |View and quickly edit details for the linked values such as **Opportunity Name**, **Potential Customer**, or **Contact**. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can select a contact to view their details, quickly make updates, and then return to the opportunity. |
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Preview: Personalize the deal manager workspace](personalize-deal-manager.md)
+[Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)
+[Preview: Personalize the opportunity pipeline view](personalize-pipeline-view.md)

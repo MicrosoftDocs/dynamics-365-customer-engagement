@@ -28,7 +28,7 @@ Preview features come with some disclaimers. Preview features:
 
 ## How to identify a preview feature
 
-You get access to some preview features as part of your Dynamics 365 Sales trial. These features will have a **Preview** label in the app and in the documentation. For example, refer to the [Preview: Deal manager](deal-manager-overview.md) article.
+You get access to some preview features as part of your Dynamics 365 Sales trial. These features will have a **Preview** label in the app and in the documentation. For example, refer to the [Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md) article.
 
 ### See also
 

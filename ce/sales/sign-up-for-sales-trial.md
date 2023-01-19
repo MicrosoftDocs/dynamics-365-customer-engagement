@@ -38,7 +38,7 @@ Your trial environment includes many of the same features as the paid version. T
   - [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
   - [Manage sequences](create-manage-sequences.md)
 - [Nurture your sales from lead to order](nurture-sales-from-lead-order-sales.md)
-  - [Manage your pipeline using deal manager](deal-manager-seller-overview.md)
+  - [Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)
   - [Create an opportunity](create-edit-opportunity-sales.md)
 - [Project your revenue](project-accurate-revenue-sales-forecasting.md)
   - [Configure forecasting](configure-forecast.md)
