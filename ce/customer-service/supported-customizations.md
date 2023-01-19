@@ -21,7 +21,7 @@ You can create business rules on the Conversation entity.
 Here are a few actions that aren't supported on the Conversation entity:
 - You can’t add new forms, views, fields, or charts on the Conversation entity.
 - You can’t edit existing views or fields, but some properties of `msdyn_title` and `msdyn_thirdpartyconversations` can be changed.
-- You can’t add a lookup field (many-to-one relationship or many-to-many relationships) on the Conversation entity.
+- You can’t add a lookup field (many-to-one relationship or many-to-many relationship) on the Conversation entity.
 
 We recommend that you don't create alternate keys. 
 
