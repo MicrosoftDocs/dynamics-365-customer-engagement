@@ -1,6 +1,6 @@
 ---
-title: Customizations supported by Conversation form and entity
-description: Learn about the customizations that are supported by the Conversation form and entity in Omnichannel for Customer Service.
+title: Customizations supported by Conversation entity and form
+description: Learn about the customizations that are supported by the Conversation entity and form in Omnichannel for Customer Service.
 author: mh-jaya
 ms.author: v-jmh
 ms.reviewer: nenellim
@@ -9,10 +9,21 @@ ms.date: 01/19/2023
 ms.custom: bap-template
 ---
 
-# Customizations supported by the Conversation form and entity
+# Customizations supported by the Conversation entity and form
 
-This article lists the customizations supported by the Conversation form and entity in Omnichannel for Customer Service.
+This article lists the customizations supported by the Conversation entity and form in Omnichannel for Customer Service.
 
+## Customizations supported by the Conversation entity
+
+You can create business rules on the Conversation entity. 
+
+
+Here are a few actions that aren't supported on the Conversation entity:
+- You can’t add new forms, views, fields, or charts on the Conversation entity.
+- You can’t edit existing views or fields, but some properties of `msdyn_title` and `msdyn_thirdpartyconversations` can be changed.
+- You can’t add a lookup field (many-to-one relationship or many-to-many relationships) on the Conversation entity.
+
+We recommend that you don't create alternate keys. 
 ## Customizations supported by the Conversation form
 
 You can customize the **Conversation** form to:
@@ -26,22 +37,10 @@ You can customize the **Conversation** form to:
     - Add web resources and external website controls 
     - Load **Customer summary** form as an application tab instead of anchor tab in a session
 
-## Customizations supported by the Conversation entity
 
-You can create business rules on the Conversation entity. 
-
-### Unsupported customizations
-
-Here's a list of customizations that aren't supported on the Conversation form:
-- The **Conversation** form is the default form, and we recommend that you don't change the default form or the order in which it's displayed.
-- We recommend that you don't modify the out-of-the-box JavaScripts used in the **Customer summary** form.
-- You can't add canvas apps.
-
-Here's a list of customizations that aren't supported on the Conversation entity:
-- You can’t add new forms, views, fields, or charts on the Conversation entity.
-- You can’t edit existing views or fields, but some properties of `msdyn_title` and `msdyn_thirdpartyconversations` can be changed.
-- You can’t add a lookup field (many-to-one relationship or many-to-many relationships) on the Conversation entity.
-- We recommend that you don't create alternate keys.
+However, you can't add canvas apps. We also recommend that:
+- You don't change the **Conversation** form or the order in which it's displayed, as it is the default form.
+- You don't modify the out-of-the-box JavaScripts used in the **Customer summary** form.
 
 ## Next steps
 
