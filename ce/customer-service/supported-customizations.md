@@ -27,8 +27,8 @@ You can customize the **Conversation** form to:
     - Load **Customer Summary** form as an application tab instead of anchor tab in a session
 
 > [!NOTE]
-> - The Closed conversation form is the default form, and we recommend that you don't change the default form or its order.
-> - We recommend that you don't modify the out-of-the-box JavaScripts used in the Customer Summary form.
+> - The **Conversation** form is the default form, and we recommend that you don't change the default form or the order in which it's displayed.
+> - We recommend that you don't modify the out-of-the-box JavaScripts used in the **Customer Summary** form.
 > - You can't add canvas apps.
 
 ## Customizations supported by the Conversation entity
