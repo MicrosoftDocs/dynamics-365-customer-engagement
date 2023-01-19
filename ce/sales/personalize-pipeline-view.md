@@ -25,13 +25,13 @@ As a seller, you can personalize the pipeline view depending on what you want to
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-You can personalize the pipeline view by,
+You can:
 
-- adding, removing, rearranging, and sorting columns.
+- Add, remove, rearrange, and sort columns in editable grid.
 
-- Applying filters to view records that are important to you.
-- Changing the layout of the view to either list (grid only) or combo (grid and chart).  
-- Changing the metrics displayed at the top of the view.
+- Apply filters to view records that are important to you.
+- Change the layout of the view to either list (grid only) or combo (grid and chart).  
+- Change the metrics displayed at the top of the view.
 
 ## Personalize the metrics
 
@@ -75,10 +75,7 @@ Personalize the grid to include columns that you want to see and update quickly.
 
 - Show or hide columns.
 - Drag columns to rearrange them in the grid.
-- Resize, sort, and group records by columns.  
-
-> [!NOTE]
-> The personalization changes explained in this section only persist until you sign out. If you want to save your changes, [create a view](#create-a-view).  
+- Sort records.  
 
 **To personalize the grid**
 
@@ -93,8 +90,6 @@ Personalize the grid to include columns that you want to see and update quickly.
 1. To sort columns, select the column dropdown menu and select the sort option.
 
 ## Apply filters
-
-As a seller, you want the workspace to display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
 
 1. In the opportunity pipeline view, select **Edit filters**.
 
@@ -116,9 +111,9 @@ As a seller, you want the workspace to display records that you're working on. A
 
 For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters).
 
-## Save personalization to the view
+## Save personalizations to a new view
 
-After you personalize the pipeline view, you can save the changes to a new view. An asterisk next to the view name indicates that the view has unsaved changes. 
+After you personalize the pipeline view, you can save the changes to a new view. An asterisk next to the view name indicates that the view has unsaved changes.  
 
 Select the **My Open Opportunities** view drop-down and select **Save as new view**. 
 
