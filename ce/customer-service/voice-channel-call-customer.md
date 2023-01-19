@@ -38,7 +38,6 @@ When the call connects, you'll see the customer details on the conversation page
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-
-[Make and receive your first call](voice-channel-first-call.md)  
+[Use trial phone numbers in the voice channel](voice-channel-trial-phone-numbers.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
