@@ -2713,6 +2713,36 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/access-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/deal-manager-overview.md",
+      "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/deal-manager-seller-overview.md",
+      "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/enable-deal-manager-preview.md",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/customize-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/personalize-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/personalize-pipeline-view",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/project-service/new-upcoming.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
