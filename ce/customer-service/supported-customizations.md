@@ -24,6 +24,7 @@ Here are a few actions that aren't supported on the Conversation entity:
 - You can’t add a lookup field (many-to-one relationship or many-to-many relationships) on the Conversation entity.
 
 We recommend that you don't create alternate keys. 
+
 ## Customizations supported by the Conversation form
 
 You can customize the **Conversation** form to:
@@ -39,7 +40,7 @@ You can customize the **Conversation** form to:
 
 
 However, you can't add canvas apps. We also recommend that:
-- You don't change the **Conversation** form or the order in which it's displayed, as it is the default form.
+- You don't change the **Conversation** form or the order in which it's displayed, as it's the default form.
 - You don't modify the out-of-the-box JavaScripts used in the **Customer summary** form.
 
 ## Next steps
