@@ -21,7 +21,7 @@ As a seller, you can personalize the pipeline view depending on what you want to
 | **Security roles** | Salesperson or higher <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-## What can you personalize
+## What can you personalize?
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -69,15 +69,7 @@ The opportunity pipeline view lists important metrics related to the sales pipel
 
 ## Personalize the grid
 
-Personalize the grid to include columns that you want to see and update quickly. You can:
-
-- Add or remove columns from the grid.
-
-- Show or hide columns.
-- Drag columns to rearrange them in the grid.
-- Sort records.  
-
-**To personalize the grid**
+Personalize the grid to include columns that you want to see and update quickly.
 
 1. In the opportunity pipeline view, select **Edit columns** to add, remove, hide, show, or rearrange columns.
     The **Edit columns: Opportunities** side panel opens.
@@ -131,8 +123,6 @@ From the view drop-down, select the view that you want to switch to.
  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
 
-[Access the opportunity pipeline view](access-deal-manager.md)  
 
 

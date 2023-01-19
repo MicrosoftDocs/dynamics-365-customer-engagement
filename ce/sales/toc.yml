@@ -714,9 +714,9 @@
               href: move-opportunity-stages.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
-        - name: Manage opportunities using opportunity pipeline view
+        - name: Opportunity pipeline view
           items:
-            - name: Use the opportunity pipeline view
+            - name: Manage opportunities using opportunity pipeline view
               href: use-opportunity-pipeline-view.md
             - name: Personalize the opportunity pipeline view
               href: personalize-pipeline-view.md
