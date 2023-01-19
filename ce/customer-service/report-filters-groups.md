@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Report filters and groups
 
-The historical anlytics reports are grouped into the following categories and subcategories. 
+The historical analytics reports are grouped into the following categories and subcategories. 
 - Omnichannel historical analytics reports
     - **Summary** and **Bot** tabs
     - **Conversation**, **Queue**, and **Agent** tabs
