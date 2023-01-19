@@ -41,7 +41,7 @@ You can customize the **Conversation** form to:
 
 However, you can't add canvas apps. We also recommend that:
 - You don't change the **Conversation** form or the order in which it's displayed, as it's the default form.
-- You don't modify the out-of-the-box JavaScripts used in the **Customer summary** form.
+- You don't modify the out-of-the-box JavaScript handlers used in the **Customer summary** form.
 
 ## Next steps
 
