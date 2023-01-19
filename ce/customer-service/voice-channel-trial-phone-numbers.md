@@ -1,7 +1,7 @@
 ---
 title: Use trial phone numbers in the voice channel
 description: Use this article to understand how you can use trial phone numbers in Omnichannel for Customer Service.
-ms.date: 01/18/2023
+ms.date: 01/19/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: mh-jaya
@@ -42,3 +42,10 @@ If you want to end the trial before it expires, select **End trial** on the **Ph
 
 > [!NOTE]
 > You can't recover trial phone number and any related data after the trial organization has expired and has been deprovisioned.
+
+## Next steps
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+
+### See also
+
+[Import phone numbers](voice-channel-sync-from-acs.md)  
