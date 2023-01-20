@@ -23068,7 +23068,12 @@
     },
     {
       "source_path": "ce/sales-enterprise/grant-access-deal-manager.md",
-      "redirect_url": "/dynamics365/sales/grant-access-deal-manager",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/grant-access-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/opportunity-pipeline-view-for-admins",
       "redirect_document_id": "false"
     },
     {
