@@ -87,6 +87,12 @@ sections:
           | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. |
           | Side panel | Uses the default opportunity form in the side panel. |
 
+          | **Change** | **Opportunity pipeline view** | **Deal manager** |
+          |-----------|------------|-----------|
+          | Access control | Available for all users who have access to the Opportunities page. | You had to specify which security roles were allowed to access the workspace.|
+          | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. | You had to write a javascript to customize the grid. |
+          | Side panel | Uses the default opportunity form in the side panel. | Used an In Context View form with fewer fields and supported fewer customizations. | 
+
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
           Power Platform detects duplicates by comparing the matchcode that's created for each record. For more information, go to [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data).
