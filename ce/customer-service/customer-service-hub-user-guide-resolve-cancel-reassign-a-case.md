@@ -33,8 +33,9 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 1. In the list of active cases, open the one you want to resolve.  
 
 2. On the command bar, select **Resolve case**.  
-
-     Make sure you close all the case activities. If there are open activities associated with the case, you’ll see a message saying that the open activities will be canceled if you resolve this case. To continue, select **Confirm**.  
+  Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning message with the following actions:
+  - A link with the number of open activites. You can select the link to view the open activities associated with the case on the tab your Administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
+  - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.    
    
 3. If your Administrator has enabled the **Enable the minimal case resolution dialog**, you will only see the **Resolution Type** and **Resolution** fields on the **Resolve Case** dialog. This option is enabled by default.
 4. If your Administrator has disabled the **Enable the minimal case resolution dialog** option, the **Resolve Case** dialog displays the following additional fields:
@@ -67,7 +68,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 > [!IMPORTANT]
 >
 > Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning message with the following actions:
-> - A link with the number of open activites. You can select the link to view the open activities associated with the case on the tab your Administratory has configured. More information:
+> - A link with the number of open activites. You can select the link to view the open activities associated with the case on the tab your Administrator has configured. More information: [Enable the redirection link for Customer Service apps](add-enhanced-case-management.md)
  > - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
  
 
