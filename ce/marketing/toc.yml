@@ -328,10 +328,10 @@
         href: real-time-marketing-personalize-lists.md
     - name: Assets
       items: 
-      - name: Real-time marketing asset library
-        href: real-time-marketing-asset-library.md
       - name: Install the real-time marketing asset library add-on
         href: real-time-marketing-asset-add-on.md
+      - name: Real-time marketing asset library
+        href: real-time-marketing-asset-library.md
     - name: Administration
       items: 
       - name: Journeys

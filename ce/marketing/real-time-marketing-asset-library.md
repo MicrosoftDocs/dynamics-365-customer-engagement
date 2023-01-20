@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 09/06/2022
+ms.date: 01/20/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,7 +19,10 @@ search.app:
 
 # Real-time marketing asset library
 
-The centralized real-time marketing asset library lets you upload images, videos, and documents. Images are automatically tagged using AI. When authoring email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content. The asset library may already be installed for your organization. If not, you can choose to install it. Learn more: [Install the real-time marketing asset library add-on](real-time-marketing-asset-add-on.md).
+> [!NOTE]
+> By default, real-time marketing uses the [outbound image library](upload-images-files.md). To use the real-time marketing asset library, you must install the [asset library add-on](real-time-marketing-asset-add-on.md)
+
+The real-time marketing asset library lets you upload images, videos, and documents. Images are automatically tagged using AI. When authoring email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content. The asset library may already be installed for your organization. If not, you can choose to install it. Learn more: [Install the real-time marketing asset library add-on](real-time-marketing-asset-add-on.md).
 
 > [!NOTE]
 > The asset library supports images (such as JPEG, GIF, and PNG files), videos (such as MP4, AVI, and MPEG files), and documents (such as Word documents, PowerPoint files, and Adobe PDFs). Learn more about supported file types: [Upload files other than images and videos](/dynamics365/commerce/dam-upload-files).

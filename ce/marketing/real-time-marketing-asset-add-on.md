@@ -24,7 +24,7 @@ Assets are critical for meaningful and successful customer experiences. In outbo
 In real-time marketing, instead of using the default image library, you can install the asset library add-on. This gives you access to a different set of capabilities for managing digital assets such as images, files, and videos. Learn more: [Real-time marketing asset library](real-time-marketing-asset-library.md).
 
 > [!TIP] 
-> The real-time marketing asset library add-on may already be installed for your organization. You can confirm whether the add-on is installed by going to **Settings > Add-ons** and checking if the library add-on is installed. 
+> The real-time marketing asset library add-on may already be installed for your organization. You can confirm whether the add-on is installed by going to **Settings > Add-ons** and checking if the library add-on is installed.
 
 > [!NOTE]
 > The asset library add-on is not available for trials or for customers in India, Brazil, United Arab Emirates, France, and Switzerland.
