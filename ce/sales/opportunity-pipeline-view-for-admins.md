@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 01/18/2023
+ms.date: 01/20/2023
 ms.custom: bap-template 
 ---
 # Preview: Configure the opportunity pipeline view
@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize the opportunities in their pipeline, and prioritize and manage them effectively. More information: [Preview: Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
+If you've previously configured the deal manager workspace, review [this FAQ](faq-sales.yml#are-there-any-differences-between-opportunity-pipeline-view-and-the-deal-manager-workspace) to understand what has changed.
+
+## Are there any differences between opportunity pipeline view and the deal manager workspace?  
 
 ## License and role requirements
 
@@ -97,6 +100,9 @@ The charts in the pipeline view help sellers visualize their pipeline better. As
 ## Customize the editable grid
 
 The grid in the Opportunity pipeline view is implemented using the Power Apps editable grid control. The grid can be customized as well as personalized. As an administrator, you can customize the grid to include columns and filters that are applicable for the entire sales organization. Sellers can personalize their view to include columns and filters that they would like to view. 
+
+> [!NOTE]
+> If you have previously customized the editable grid in the deal manager using JavaScript, you will need to redo those customizations for the editable grid in the pipeline view.
 
 To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control).
 

@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 01/18/2023
+ms.date: 01/20/2023
 ms.custom: bap-template 
 ---
 # Preview: Manage opportunities using pipeline view
