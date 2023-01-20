@@ -32,7 +32,7 @@ Chat widgets are connected to browsers via a web socket connection. The connecti
 
 - The customer lost internet connectivity, or had a network or system issue.
 
-If the customer returns to the chat widget within three minutes of any of the preceding reasons, then they can continue the conversation. 
+If any of the preceding situations, if the customer returns to the chat widget within three minutes of any of the preceding reasons, then they can continue the conversation. 
 
 If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, as an administrator, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
