@@ -22,7 +22,7 @@ When an ongoing chat gets disconnected, Omnichannel for Customer Service will:
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
-## How chat widget connections work
+## What happens when a chat gets disconnected
 
 Chat widgets are connected to browsers via a web socket connection. The connectivity can be lost for reasons like:
 
