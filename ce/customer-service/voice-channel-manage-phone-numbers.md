@@ -12,7 +12,7 @@ ms.author: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service lets you enable and use voice and SMS services seamlessly within Dynamics 365. The voice channel comes with trial phone numbers with 60 minutes of free calling time. More information: [Use trial phone numbers](voice-channel-trial-phone-numbers.md)
+Omnichannel for Customer Service lets you enable and use voice and SMS services seamlessly within Dynamics 365. The voice channel comes with trial phone numbers with limited free calling time. More information: [Use trial phone numbers](voice-channel-trial-phone-numbers.md)
 
 
 As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you'd like to set up inbound and outbound calling options for your business. You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
