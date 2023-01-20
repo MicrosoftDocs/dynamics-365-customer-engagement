@@ -32,7 +32,9 @@ If a record isn't linked to the meeting, you can still add the **Dynamics 365** 
 
 In Dynamics 365, you can create a Teams meeting from the **Timeline** of a record or from the **Activities** page.
 
-> [!NOTE]
+> [!IMPORTANT]
+> For the join link to be created successfully, the user enabling the meeting for Teams needs to be the meeting organizer. The organizer field is not exposed by default on the appointment form but the value defaults to the user who creates the meeting.
+> 
 > The personal standards and formats selected by a user in Dynamics 365 affect the formatting of the Teams meeting details saved within the description of the meeting. To view the selected format, select **Settings** (:::image type="icon" source="../media/settings-icon.png" border="false":::) > **Personalization Settings**, and then select the **Formats** tab.
 
 ### Create a Teams meeting from the Timeline
