@@ -155,7 +155,7 @@ If you want another person in your organization to work on an activity, you can 
   
 2. Select the activity you want, and then select **Add to Queue**.
   
-3. In the **Queue** field displays the queue the activity belongs to. The application displays only the queues configured for the specific activity.
+3. The **Queue** field displays the queue the activity belongs to. The queue lookup displays only the queues configured for the specific activity.
 
 1. Select the queue you want to route the activity to, and then select **Add**. 
 
