@@ -66,8 +66,9 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 
 > [!IMPORTANT]
 >
-> Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning message with a link to the **Open Activity Associated View** page.  You can click on the link to view the open activities associated with the case.
- If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
+> Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning message with the following actions:
+> - A link with the number of open activites. You can select the link to view the open activities associated with the case on the tab your Administratory has configured. More information:
+ > - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
  
 
 ## Cancel a case
