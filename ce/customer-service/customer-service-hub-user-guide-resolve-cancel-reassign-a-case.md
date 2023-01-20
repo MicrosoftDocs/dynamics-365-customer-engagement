@@ -35,22 +35,18 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 2. On the command bar, select **Resolve case**.  
 
      Make sure you close all the case activities. If there are open activities associated with the case, you’ll see a message saying that the open activities will be canceled if you resolve this case. To continue, select **Confirm**.  
+   
+3. If your Administrator has enabled the **Enable the minimal case resolution dialog**, you will only see the **Resolution Type** and **Resolution** fields on the **Resolve Case** dialog. This option is enabled by default.
+4. If your Administrator has disabled the **Enable the minimal case resolution dialog** option, the **Resolve Case** dialog displays the following additional fields:
 
-3. In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved.  
-
-4. In the **Resolution** box, type a short explanation of the resolution.  
-
-     The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
-
-5. In the **Billable Time** list, enter the amount of time spent on the case to be billed to the customer.  
-
-     If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
+     - **Duration**. The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
+     - **Billable Time**: The amount of time spent on the case to be billed to the customer.  
+     - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
   
 6  Select **Resolve**.
 
 > [!NOTE]
->
-> - If your Administrator has enabled the **Enable the minimal case resolution dialog**, you will only see the **Resolution Type** and **Resolution** fields on the **Resolve Case** dialog.
+
 > - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md). 
 > - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
