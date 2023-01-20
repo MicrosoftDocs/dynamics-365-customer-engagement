@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected for more than three minutes, Omnichannel for Customer Service detects the disconnection, and automatically updates the conversation state of the chat.
 
-When the chat is disconnected, Omnichannel for Customer Service will: 
+When an ongoing chat gets disconnected, Omnichannel for Customer Service will: 
 
-- Move chats from an **Open** to **Closed** state. This ensures that the agent doesn't accept an incoming chat, when there's no customer to respond.
+- Move the chat from an **Open** to **Closed** state. This ensures that the agent doesn't accept an incoming chat, when there's no customer to respond.
 
-- Move chats from an **Active** to **Wrap-up** state, and update agent capacity. This indicates to the agent that the customer isn't available. As an administrator, you can configure the wrap-up capacity. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
+- Move the chat from an **Active** to **Wrap-up** state, and update agent capacity. This indicates to the agent that the customer isn't available. As an administrator, you can configure the wrap-up capacity. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
