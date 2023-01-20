@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected for more than three minutes, Omnichannel for Customer Service detects the disconnection, and automatically updates the conversation state of the chat.
 
-When an ongoing chat gets disconnected, Omnichannel for Customer Service will: 
+When an ongoing chat gets disconnected, Omnichannel for Customer Service: 
 
-- Move the chat from an **Open** to **Closed** state. This ensures that the agent doesn't accept an incoming chat, when there's no customer to respond.
+- Moves the chat from an **Open** to **Closed** state, so the agent knows that there's no customer to respond to.
 
-- Move the chat from an **Active** to **Wrap-up** state, and update agent capacity. This indicates to the agent that the customer isn't available. As an administrator, you can configure the wrap-up capacity. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
+- Moves the chat from an **Active** to **Wrap-up** state, and updates agent capacity, so the agent knows that the customer isn't available. As an administrator, you can configure the wrap-up capacity. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
@@ -32,7 +32,7 @@ Chat widgets are connected to browsers via a web socket connection. The connecti
 
 - The customer lost internet connectivity, or had a network or system issue.
 
-During these situations, if the customer returns to the chat widget within three minutes of any of the preceding reasons, then they can continue the conversation. 
+In such situations, if the customer returns to the chat within three minutes, then they can continue the conversation. 
 
 If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, as an administrator, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
