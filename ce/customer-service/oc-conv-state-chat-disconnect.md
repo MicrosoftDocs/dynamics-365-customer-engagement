@@ -30,9 +30,9 @@ Connectivity with the chat widget are maintained via a web socket connection. Th
 
 - The customer navigated away from or closed the browser tab or app during the conversation. In some mobile devices, locking the screen or switching apps can also disconnect the chat.
 
-- The customer's internet connectivity was lost, or the customer had some network or system issue.
+- The customer lost internet connectivity, or had a network or system issue.
 
-If the customer returns to the same chat widget within three minutes of one of the listed reasons, then they can continue the conversation. But, if the customer stays disconnected for more than three minutes, and then reopens the chat widget, a new chat will begin.  
+If the customer returns to the same chat widget within three minutes of any of the listed reasons, then they can continue the conversation. But, if the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin.  
 
 
 >[!NOTE]
