@@ -22,7 +22,7 @@ The voice channel provides trial phone numbers with 60 minutes of free calling t
 
 ## How trial phone numbers work
 
-The trial phone number is a toll-free US number, so you'll be able to call this number from within US only. To be able to receive international calls, we recommend that you use a geographic US number as your second trial number, so that it's not chargeable. 
+The trial phone number is a toll-free US number, so you'll be able to call this number from within US only. To be able to receive international calls, we recommend that you use a geographic US number as your second trial number. 
 
 > [!NOTE]
 > - The total free calling time for two trial phone numbers is limited to 60 minutes.
