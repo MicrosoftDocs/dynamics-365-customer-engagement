@@ -18,7 +18,7 @@ When the chat is disconnected, Omnichannel for Customer Service will:
 
 - Move chats from an **Open** to **Closed** state. This ensures that the agent doesn't accept an incoming chat, when there's no customer to respond.
 
-- Move chats from an **Active** to **Wrap-up** state and updates the agent capacity. This indicates to the agent that the customer isn't available. Note that wrap-up capacity is controlled by settings in your organization. More information: [Wrap-up state](oc-conversation-state.md#wrap-up) and [Configure automatic closure of Wrap-up state for live chat](auto-close-conversation#configure-automatic-closure-of-wrap-up-state-for-live-chat)
+- Move chats from an **Active** to **Wrap-up** state and updates the agent capacity. This indicates to the agent that the customer isn't available. Note that wrap-up capacity is controlled by settings in your organization. More information: [Wrap-up state](oc-conversation-state.md#wrap-up) and [Configure automatic closure of Wrap-up state for live chat](auto-close-conversation.md#configure-automatic-closure-of-wrap-up-state-for-live-chat)
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
