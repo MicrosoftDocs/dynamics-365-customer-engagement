@@ -81,12 +81,6 @@ sections:
         answer: |
           The deal manager workspace has been replaced by the opportunity pipeline view. If you've been using the deal manager workspace, you need to be aware of the following changes:
        
-          | Change | Opportunity pipeline view |  
-          |-----------|------------|
-          | Access control | Available for all users who have access to the Opportunities page. |
-          | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. |
-          | Side panel | Uses the default opportunity form in the side panel. |
-
           | **Change** | **Opportunity pipeline view** | **Deal manager** |
           |-----------|------------|-----------|
           | Access control | Available for all users who have access to the Opportunities page. | You had to specify which security roles were allowed to access the workspace.|
