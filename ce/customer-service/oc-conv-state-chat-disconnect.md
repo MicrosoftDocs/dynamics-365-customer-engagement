@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected from the chat for more than three minutes, Omnichannel for Customer Service will detect the disconnection and automatically update the conversation state of the chat.
+During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected for more than three minutes, Omnichannel for Customer Service detects the disconnection, and automatically updates the conversation state of the chat.
 
 When the chat is disconnected, Omnichannel for Customer Service will: 
 
@@ -24,7 +24,7 @@ When the chat is disconnected, Omnichannel for Customer Service will:
 
 ## How chat widget connections work
 
-Connectivity with the chat widget are maintained via a web socket connection. The connectivity can be lost for reasons like:
+Chat widgets are connected to browsers via a web socket connection. The connectivity can be lost for reasons like:
 
 - The customer closed the browser but didn't close the chat widget at the end of the conversation.
 
@@ -32,7 +32,7 @@ Connectivity with the chat widget are maintained via a web socket connection. Th
 
 - The customer lost internet connectivity, or had a network or system issue.
 
-If the customer returns to the same chat widget within three minutes of any of the listed reasons, then they can continue the conversation. 
+If the customer returns to the chat widget within three minutes of any of the preceding reasons, then they can continue the conversation. 
 
 If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, as an administrator, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
