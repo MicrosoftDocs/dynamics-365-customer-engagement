@@ -38,7 +38,7 @@ If the customer stays disconnected for more than three minutes and then reopens 
 
 
 >[!NOTE]
-> A delay in sending messages doesn't impact your chat connection.
+> A delay in sending messages doesn't affect your chat connection.
 
 
 
