@@ -10,7 +10,7 @@ ms.author: v-jmh
 
 # Use trial phone numbers
 
-The voice channel provides trial phone numbers with 60 minutes of free calling time. You can choose to use a maximum of two trial phone numbers in your organization. When you try the voice demo for the first time, you're automatically assigned a toll-free trial phone number with 60 minutes of free calling time.
+The voice channel provides trial phone numbers with 60 minutes of free calling time. You can choose to use a maximum of two trial phone numbers in your organization. When you run the voice trial for the first time, you're automatically assigned a toll-free trial phone number with 60 minutes of free calling time.
 
 > [!NOTE]
 > You don't need to connect to Azure Communication Services to use trial numbers.
@@ -22,7 +22,7 @@ The voice channel provides trial phone numbers with 60 minutes of free calling t
 
 ## How trial phone numbers work
 
-The trial phone number is a US number, so you can't call this number if you're outside of the US. As a workaround, we recommend that you use a geographic US number as your second trial number to receive calls, so that it's not chargeable. 
+The trial phone number is a toll-free US number, so you'll be able to call this number from within US only. To be able to receive international calls, we recommend that you use a geographic US number as your second trial number, so that it's not chargeable. 
 
 > [!NOTE]
 > - The total free calling time for two trial phone numbers is limited to 60 minutes.
