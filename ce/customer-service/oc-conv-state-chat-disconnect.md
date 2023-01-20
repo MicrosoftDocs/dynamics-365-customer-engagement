@@ -18,7 +18,7 @@ When the chat is disconnected, Omnichannel for Customer Service will:
 
 - Move chats from an **Open** to **Closed** state. This ensures that the agent doesn't accept an incoming chat, when there's no customer to respond.
 
-- Move chats from an **Active** to **Wrap-up** state and updates the agent capacity. This indicates to the agent that the customer isn't available. Note that wrap-up capacity is controlled by settings in your organization. More information: [Wrap-up state](oc-conversation-state.md#wrap-up) and [Configure automatic closure of Wrap-up state for live chat](auto-close-conversation.md#configure-automatic-closure-of-wrap-up-state-for-live-chat)
+- Move chats from an **Active** to **Wrap-up** state, and update agent capacity. This indicates to the agent that the customer isn't available. As an administrator, you can configure the wrap-up capacity. More information: [Wrap-up state](oc-conversation-state.md#wrap-up). To programmatically configure automatic closure of conversations, see [Configure automatic closure of Wrap-up state for live chat](auto-close-conversation.md#configure-automatic-closure-of-wrap-up-state-for-live-chat).
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
@@ -32,7 +32,7 @@ Chat widgets are connected to browsers via a web socket connection. The connecti
 
 - The customer lost internet connectivity, or had a network or system issue.
 
-If any of the preceding situations, if the customer returns to the chat widget within three minutes of any of the preceding reasons, then they can continue the conversation. 
+During these situations, if the customer returns to the chat widget within three minutes of any of the preceding reasons, then they can continue the conversation. 
 
 If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, as an administrator, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
