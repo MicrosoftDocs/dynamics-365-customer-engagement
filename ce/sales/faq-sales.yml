@@ -83,9 +83,9 @@ sections:
        
           | **Component** | **Opportunity pipeline view** | **Deal manager** |
           |-----------|------------|-----------|
-          | Access control | Available for all users who have access to the Opportunities page. | You had to specify which security roles were allowed to access the workspace.|
-          | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. | You had to write a javascript to customize the grid. |
-          | Side panel | Uses the default opportunity form in the side panel. | Used an In Context View form with fewer fields and supported fewer customizations. | 
+          | Access control | Available for all users who have access to the Opportunities page. | Available only for security roles that were granted access to the workspace.|
+          | Editable grid | Uses the Power Apps editable grid control and hence can be customized in Power Apps. | Customization was done using a javascript. |
+          | Side panel | Uses the default opportunity form in the side panel . | A separate form known as **In Context View** form was used in the side panel with limited customizations. | 
 
       - question: What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
         answer: |
