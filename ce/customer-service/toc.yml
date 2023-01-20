@@ -816,7 +816,7 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
-      - name: Customizations supported by Conversation entity and form
+      - name: Customizations supported by Conversation form and entity
         href: supported-customizations.md  
   - name: Portals
     items: 
