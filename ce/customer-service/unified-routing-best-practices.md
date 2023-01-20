@@ -1,5 +1,5 @@
 ---
-title: Best practices to set up unified routing in Customer Service
+title: Guidance to set up unified routing in Customer Service
 description: Use this article to know about the best practices to set up unified routing in Customer Service and things to do and avoid for a successful implementation.
 author: neeranelli
 ms.author: nenellim
@@ -10,11 +10,11 @@ ms.date: 12/15/2022
 ms.custom: bap-template
 ---
 
-# Best practices to set up unified routing in Customer Service
+# Guidance to set up unified routing in Customer Service
 
-This article lists some of the best practices to help set up and use unified routing optimally for your business.
+This article lists discusses some of the important aspects to successfully deploy and manage unified routing that focuses on the most common areas where you might have questions.
 
-## Considerations to set up users in bulk using an API
+## Limit number of change requests while making Dataverse API calls to set up users in bulk
 
 **Scenario**
 I want to set up users in bulk in unified routing using API and configure settings such as work hours, capacity, and skills.
