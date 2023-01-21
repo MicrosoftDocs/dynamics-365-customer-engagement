@@ -15,7 +15,7 @@ searchScope:
 - Customer Service
 ---
 
-# Set up the enhanced case management experience
+# Use Powerapps to customize the case management experience
 
 This article discusses how to configure the redirection link in the Resolve case dialog, add recent cases and customer details to the case form, and how to configure the default standard resolve cases dialog.
 
