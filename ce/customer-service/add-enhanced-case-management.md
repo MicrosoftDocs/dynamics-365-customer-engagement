@@ -30,11 +30,7 @@ You can configure what tab user must be redirected to when users select the open
 1. Select **Add** on the **Selected Setting Definition** to add the **Redirect user to the specified tab to close open activities** option to your solution. 
 1.  Go to **Add Existing** > **App** > **Model-driven app**> **Add existing model-driven apps** pane.
 1. Select the **Redirect user to the specified tab to close open activities** option. The **Redirect user to the specified tab to close open activities** pane appears.
-1. Set the **Setting environment value** option to the required tab. You can retrieve the relevant activity navigation as follows:
-     - On the specified app, go to the required page and press F12 key to open the developer tools window.
-     - In the console window, enter the following command: `Xrm.Page.ui.navigation.items.get()`.
-     - The navigation tab for various activities is displayed. Select the required navigation.
-    
+1. Set the **Setting environment value** option to the required tab. You can find the tab's name in the **Display options** > **Name** field of the corresponding form. 
 1. In the **Setting app value** section, the Customer Service Hub and workspace apps are displayed. 
 1. Select **New app value** for the app, and specify the activity tab that the user must be redirected to for the respective apps.
 1. Select **Publish All Customizations**.
