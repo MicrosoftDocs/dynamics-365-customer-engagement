@@ -54,9 +54,9 @@ You can choose to display the standard case resolution dialog box that appears w
 
 ## Add the Customer360 and Recent Records components to a case form
 
-For the application to display the Customer details and related cases on the case form on the Customer Service Workspace, perform the following steps to add the Customer360 and Recent cases components:
+For the application to display the Customer details and related cases on the case form on the Customer Service Workspace, perform the following steps to add the Customer360 and Recent Records components:
 
-1. Sign into Power Apps, and then go to the **Dataverse** section. 
+1. 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment the environment that contains your solution.
 1. Select **Tables**, select Case, and then select the **Forms** area.
 1. Select the required entity.
 1. In the form designer, select **Components** from the left navigation, and then scroll down to the following: 
@@ -84,7 +84,7 @@ To retrieve the related cases for a customer to be displayed on  the customer su
 
 You can choose to go back to the default Recent Cases display experience in the Conversation Summary form of the Customer Service workspace. To revert back to the default experience, perform the following steps:
 
-1. Sign into Power Apps, and then go to the **Dataverse** section. 
+1. In [Power Apps](https://make.preview.powerapps.com/), select the environment the environment that contains your solution.
 1. Select **Tables**, select the Conversation table, and then select the **Forms** area.
 1. Select the required entity.
 1. Select **Components** and then select **1- column section** in **Popular**. Drag and drop it into a section on the form.
