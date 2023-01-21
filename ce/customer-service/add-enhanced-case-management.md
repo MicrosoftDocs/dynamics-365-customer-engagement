@@ -87,8 +87,8 @@ You can choose to go back to the default Recent Cases display experience in the 
 1. Sign into Power Apps, and then go to the **Dataverse** section. 
 1. Select **Tables**, select the Conversation table, and then select the **Forms** area.
 1. Select the required entity.
-1. Select **Components** and then select **1- column section** from the **Popular**. Drag and drop it into a section on the form.
-1. Select **Quick view**. Specify the following details:
+1. Select **Components** and then select **1- column section** in **Popular**. Drag and drop it into a section on the form.
+1. Select **Quick view** and add it to the previously added 1- column section on the form. Specify the following details:
     - Lookup: Customer
     - Account: Cases for Customer
     - Contact: Cases for Customer
