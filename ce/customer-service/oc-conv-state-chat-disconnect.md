@@ -18,7 +18,7 @@ When an ongoing chat gets disconnected, Omnichannel for Customer Service:
 
 - Moves the chat from an **Open** to **Closed** state, so the agent knows that there's no customer to respond to.
 
-- Moves the chat from an **Active** to **Wrap-up** state, and updates agent capacity, so the agent knows that the customer isn't available. As an administrator, you can configure the wrap-up capacity. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
+- Moves the chat from an **Active** to **Wrap-up** state, and updates agent capacity, so the agent knows that the customer isn't available. You can block or unblock agent capacity in the workstream. More information: [Wrap-up state](oc-conversation-state.md#wrap-up)
 
 - Record an automated message in the transcript to indicate that the customer has disconnected. More information: [Configure automated messages](configure-automated-message.md#preconfigured-automated-message-triggers)
 
@@ -34,7 +34,7 @@ Chat widgets are connected to browsers via a web socket connection. The connecti
 
 In such situations, if the customer returns to the chat within three minutes, then they can continue the conversation. 
 
-If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, as an administrator, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
+If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
 
 >[!NOTE]
