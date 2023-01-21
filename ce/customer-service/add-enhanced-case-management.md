@@ -17,11 +17,11 @@ searchScope:
 
 # Set up the enhanced case management experience
 
-This article discusses how to configure the redirection link, recent cases, customer details, and the resolve cases dialog.
+This article discusses how to configure the redirection link in the Resolve case dialog, add recent cases and customer details to the case form, and how to configure the default standard resolve cases dialog.
 
 ## Specify tab to redirect users for closing open activities for a case
 
-You can configure what tab user must be redirected to when users select the open activities link on the Case Resolution Dialog box. You can set this at an environment level or for a specified app.
+You can configure what tab user must be redirected to when users select the open activities link on the  **Resolve Case** dialog box. You can set this at an environment level or for a specified app.
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
 2. Select **Solutions**, and then select the solution in which you want to set the link for the case resolution dialog box.
