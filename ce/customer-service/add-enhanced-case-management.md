@@ -80,9 +80,9 @@ To retrieve the related cases for a customer to be displayed on  the customer su
 1. Specify the **Customer** in the **Lookup column**.
 1. On the **Related forms** select the newly created forms on step 1 for Account or the Contact table.
 
-## Disable the enhanced recent cases card in the Conversation table
+## Configure the prior recent cases view in the Conversation table
 
-You can choose to go back to the default Recent Cases display experience in the Conversation Summary form of the Customer Service workspace.To revert back to the default experience, perform the following steps:
+You can choose to go back to the default Recent Cases display experience in the Conversation Summary form of the Customer Service workspace. To revert back to the default experience, perform the following steps:
 
 1. Sign into Power Apps, and then go to the **Dataverse** section. 
 1. Select **Tables**, select the Conversation table, and then select the **Forms** area.
