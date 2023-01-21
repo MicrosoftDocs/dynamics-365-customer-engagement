@@ -34,7 +34,7 @@ Chat widgets are connected to browsers via a web socket connection. The connecti
 
 In such situations, if the customer returns to the chat within three minutes, then they can continue the conversation. 
 
-If the customer stays disconnected for more than three minutes and then reopens the chat widget, a new chat will begin. However, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
+If the customer reopens the chat widget after three minutes of disconnection, a new chat will begin. However, you can help your customers connect back to the previous chat by enabling reconnection. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
 
 >[!NOTE]
