@@ -38,7 +38,7 @@ You can configure what tab user must be redirected to when users select the open
 
 ## Disable the minimal case resolution dialog
 
-The Resolution Dialog will only display the **Resolution Type** and **Resolution** if the Administrator enables the minimal case resolution dialog. This option is enabled by default.
+You can choose to display the standard case resolution dialog box that appears when an agent selects **Resolve case**. Perfom the following steps:
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment the environment that contains your solution.
 2. Select **Solutions**, and then select the solution in which you want to turn off the minimal case resolution dialog.
@@ -57,7 +57,7 @@ The Resolution Dialog will only display the **Resolution Type** and **Resolution
 For the application to display the Customer details and related cases on the case form on the Customer Service Workspace, perform the following steps to add the Customer360 and Recent cases components:
 
 1. Sign into Power Apps, and then go to the **Dataverse** section. 
-1. Select **Tables**, select a table, and then select the **Forms** area.
+1. Select **Tables**, select Case, and then select the **Forms** area.
 1. Select the required entity.
 1. In the form designer, select **Components** from the left navigation, and then scroll down to the following: 
    - **Customer 360**: Drag and drop it into a section on the form. On the **Properties** panel: 
