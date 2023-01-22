@@ -46,7 +46,7 @@ The provisioning application you're directed to is associated with the region yo
 
 ### Resolution
 
-- Check the permissions for the user and change the business unit of the system user to root business unit.
+- Check the permissions for the user and change the business unit of the system user to the root business unit.
 - Ensure that the user is assigned at least one security role, preferably Omnichannel Administrator, other than the System Administrator role.
 ### Issue
 
@@ -71,7 +71,7 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
    > [!div class=mx-imgBorder]
    > ![Microsoft Teams object and app IDs.](media/teams-object-appid.png "Microsoft Teams object and app IDs")
 
-6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe`, as this ID is the same for every tenant.
 
 7. Now, search for Skype Teams Calling API Service by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
 
@@ -82,7 +82,7 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 
 #### Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
 
-1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
+1. Select **Start**, type **PowerShell**, right-click **Windows PowerShell** and select **Run as administrator**.  <br>
 ![Run PowerShell as an administrator.](media/powershell.png "Run PowerShell as an administrator")
 
 2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
@@ -145,14 +145,14 @@ When you open the Omnichannel for Customer Service application or Customer Servi
 
 If you get any of the errors listed below, check if Security Defaults is turned on. If it is turned on, the agent should have the right authentication set up. Alternatively, Security Defaults can be switched off if it is not required.
 
-To learn more about Security Defaults, see [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+To learn more about Security Defaults, see [Security defaults in Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
-If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [What are security defaults ?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [Security defaults in Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 
 ### Error messages 
 
-  - There was a problem with your single sign-on account. Please sign out of all Microsoft Dynamics 365 apps and sign in again. If this continues, have your administrator contact Microsoft Support with client session ID.
+  - There was a problem with your single sign-on account. Please sign out of all Microsoft Dynamics 365 apps and sign in again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
   - Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
@@ -177,7 +177,7 @@ The data flush for the **Social Profile** entity is blocked. Customer informatio
 ### Resolution
 Ensure that the toggle for preventing social data in Dynamics is turned off. More information: [Manage feature settings](/power-platform/admin/settings-features)
 
-1. Open Power Platform admin center, and then navigate to **Environments** > [select an environment] > **Settings** > **Product** > **Features**.
+1. Open the Power Platform admin center, and then navigate to **Environments** > [select an environment] > **Settings** > **Product** > **Features**.
 
 1. Ensure that in the Power BI **Embedded chat** settings, the toggle for the **Prevent social data in Dynamics** setting is set to **Off**.
 
@@ -185,11 +185,11 @@ Ensure that the toggle for preventing social data in Dynamics is turned off. Mor
     > ![Prevent social data in Dynamics setting in Power Platform admin center.](media/social-data-setting.png "Prevent social data in Dynamics")
  
 
-## Error occurs when I try to create a chat widget or social channel <a name="chat-widget"></a>
+## Errors occurs when I try to create a chat widget or social channel <a name="chat-widget"></a>
 
 ### Issue
 
-Omnichannel solutions are installed in your environment when you receive a new trial organization. However, when you try to create a chat widget, Facebook page, or social channel in the Omnichannel Administration app, error messages similar to the following messsages might be displayed:
+Omnichannel solutions are installed in your environment when you receive a new trial organization. However, when you try to create a chat widget, Facebook page, or social channel in the Omnichannel Administration app, error messages similar to the following messages might be displayed:
 
 - An error occurred in the PreLiveChatConfigCreatePlugin plug-in.
 - An error occurred in the PostOperationFacebookCreatePlugin plug-in.
@@ -212,7 +212,7 @@ The Agentscript solution has been deprecated and was not present in the target e
 
  We recommend that you remove all references of the Agentscript solution from the custom solution, and then reimport the solution.
 
-## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
+## Power Virtual Agents bot conversations appear as active on the dashboard even after the customer has ended the    chat<a name="pvaendconv"></a>
 
 ### Issue
 
@@ -220,9 +220,9 @@ Conversations for Power Virtual Agents bot cannot be ended in Omnichannel for Cu
 
 ### Resolution 
 
-You can configure a context variable that will explicitly end the bot conversation in Omnichannel for Customer Service after customers close the chat window. In Power Virtual Agents, create a standalone topic for CloseOmnichannelConversation context variable with the variable property set to global. Invoke the topic in another topic that you've configured for the bot.
+You can configure a context variable that will explicitly end the bot conversation in Omnichannel for Customer Service after customers close the chat window. In Power Virtual Agents, create a standalone topic for the CloseOmnichannelConversation context variable with the variable property set to global. Invoke the topic in another topic that you've configured for the bot.
 
-Though the conversation will be closed in Omnichannel for Customer Service, it will not be closed in Power Virtual Agents and appear in the **Escalation rate drivers** KPI in **Power Virtual Agents Analytics** dashboard.
+Though the conversation will be closed in Omnichannel for Customer Service, it will not be closed in Power Virtual Agents and appear in the **Escalation rate drivers** KPI in the **Power Virtual Agents Analytics** dashboard.
 
 > [!IMPORTANT]
 > Make sure that you have access to Power Automate to configure a flow so that the bot conversation in Omnichannel for Customer Service can be ended.
@@ -249,7 +249,7 @@ Additionally, you can configure automated messages in Omnichannel for Customer S
 
 ### Issue
 
-An error message  similar to the following message is displayed on the Power Virtual Agents dashboard when you're configuring the handoff between Power Virtual Agents bot and the Omnichannel voice workstream:
+An error message  similar to the following message is displayed on the Power Virtual Agents dashboard when you're configuring the handoff between the Power Virtual Agents bot and the Omnichannel voice workstream:
 
 "Your bot doesn't have access to all the required variables and actions. Ask your admin about installing the Omnichannel package or follow this step-by-step walkthrough".
 
@@ -263,24 +263,24 @@ If the following extensions aren't installed, you'll see a message that your bot
 
 
 
-## Chat widget icon does not load on the portal
+## The chat widget icon does not load on the portal
 
 ### Issue
 
-Chat icon doesn't load on the portal. The chat icon URL that was configured as default doesn't load.
+The chat icon doesn't load on the portal. The chat icon URL that was configured as default doesn't load.
 
 ### Resolution
 
 You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget).
 
-## Chat not getting initiated on starting a new chat from portal
+## Chat not getting initiated on starting a new chat from the portal
 
 ### Issue
 
 A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be one of the following scenarios:
 
 - Agents not configured in the queue.
-- Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
+- Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, do not have **Allowed Presence** values in the work stream.
 
    > [!div class=mx-imgBorder]
    > ![Sorry, we are not able to serve you at this moment message on portal chat widget.](media/chat-widget-not-able-serve.png "Sorry, we are not able to serve you at this moment")
@@ -293,11 +293,11 @@ As an administrator, make sure of the following details:
 
 - For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
-## Chat widget does not load on the portal
+## The chat widget does not load on the portal
 
 ### Issue
 
-Chat widget does not load on the portal. There are multiple reasons this may happen. This section includes five possible resolutions.
+The chat widget does not load on the portal. There are multiple reasons this may happen. This section includes five possible resolutions.
 
 > [!div class="mx-imgBorder"]
 > ![Chat widget portal.](media/chat-portal.png "Chat widget portal view")
@@ -321,7 +321,7 @@ To delete and add **Widget location** for the chat widget, do the following step
 
    | Field | Value |
    |---------------------------|-----------------------------------------|
-   | Title | Type the title of record. |
+   | Title | Type the title of the record. |
    | Value | The website domain where the chat widget must be displayed. The domain format should not include the protocol (http or https). For example, the website is  `https://contoso.microsoftcrmportals.com. Now, the value is  `contoso.microsoftcrmportals.com. | 
 10. Select **Save** to save the record.
 11. Go to the website and check whether the chat widget loads.
@@ -410,7 +410,7 @@ You must remove the Customer Service Hub app from the channel provider configura
 3. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
 4. Select **Save** to save the record.
 
-## Conversation is stuck in wrap-up state
+## The conversation is stuck in the wrap-up state
 
 ### Issue
 
@@ -424,7 +424,7 @@ When conversations are ended by the agent or customer, they transition to the wr
 
 ### Issue
 
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
+When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
 
 ### Resolution
 
@@ -436,7 +436,7 @@ To add the dashboards using app designer, follow these steps:
 2. Select the ellipsis (**...**) button in the **Omnichannel for Customer Service** app tile. <br>
     ![Sign in to Omnichannel for Customer Service.](media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
 3. Select **OPEN IN APP DESIGNER**. The App Designer opens in a new tab.
-4. Select **Dashboards** in the canvas area. The **Components** pane in the right side shows the list of **Classic Dashboards** and **Interactive Dashboards**.
+4. Select **Dashboards** in the canvas area. The **Components** pane on the right side shows the list of **Classic Dashboards** and **Interactive Dashboards**.
 5. Select the following dashboards under **Interactive Dashboards**.<br>
     - Knowledge Manager
     - My Knowledge Dashboard
@@ -445,47 +445,47 @@ To add the dashboards using app designer, follow these steps:
     ![Add dashboards in the app designer canvas area.](media/oceh-app-designer-add-dashboard.png "Add dashboards")
 6. Select **Save** and then select **Publish**.
 
-## Agent dashboard isn’t loading or is giving an authorization error
+## The agent dashboard isn’t loading or is giving an authorization error
 
 ### Issue
 
 The issue might happen due to the following reasons:
 
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
-- Agent doesn't the Omnichannel agent role privileges.
-- Agent is not assigned to any queue.
+- The agent doesn't have the Omnichannel agent role privileges.
+- The agent is not assigned to any queue.
 
 ### Resolution
 
 Perform the following steps:
 
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
-- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](add-users-assign-roles.md#understand-roles-and-their-privileges). 
+- Ensure the agent account has the role of **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
 ## An error occurred in the communication panel
 
 ### Issue
 
-After you sign in to the Unified Service Desk client application, you see the following error message.
+After you sign in to the Unified Service Desk client application, you will see the following error message.
 
 **An error occurred in the Communication panel. Restart Unified Service Desk and try again. (Error Code - AAD_ID_MISMATCH - Azure ADID mismatched with logged-in user id)**
 
    > [!div class=mx-imgBorder]
    > ![Unified Service Desk application error.](media/usd-communication-panel-error.png "Unified Service Desk application error")
 
-While signing in to Unified Service Desk, you must enter the Customer Service app credentials to sign in, and then again, you're shown a dialog to enter credentials to connect to Dataverse server.
+While signing in to Unified Service Desk, you must enter the Customer Service app credentials to sign in, and then again, you're shown a dialog to enter credentials to connect to the Dataverse server.
 When you enter different credentials, this issue occurs. 
 
 ### Resolution
 
-If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Desk client application and try again.
+If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to the Unified Service Desk client application and try again.
 
-## Communication panel doesn't load in Omnichannel for Customer Service app
+## The communication panel doesn't load in Omnichannel for Customer Service app
 
 ### Issue
 
-Communication panel doesn't load in Omnichannel for Customer Service app:
+The communication panel doesn't load in Omnichannel for Customer Service app:
 
 - When a record doesn't exist in the Channel Integration Framework app.
 - When configurations don't sync.
@@ -548,7 +548,7 @@ Perform the following steps:
 
 Dynamics 365 Customer Service organization that you create from **demos.microsoft.com** have pre-imported sample Unified Service Desk configuration.
 
-If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
+If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you will see an error after signing in to the Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
 
    > [!div class=mx-imgBorder]
    > ![The hosted application couldn't be created.](media/usd-client-error.png "The hosted application couldn't be created")
@@ -583,7 +583,7 @@ To delete the solutions, follow these steps:
       >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
 4. After the solution is removed, repeat the steps to delete the other solutions.
 
-## Unable to launch Unified Service Desk client application
+## Unable to launch the Unified Service Desk client application
 
 ### Issue
 
@@ -600,11 +600,11 @@ The issue is due to the package deployment failure.
 
 You must deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 
-## Conversation control becomes blank
+## The conversation control becomes blank
 
 ### Issue
 
-Conversation widget becomes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
+The conversation widget becomes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
 
 ### Resolution
 
