@@ -71,7 +71,7 @@ Formula: ((Total work time + Travel time) / (Configured work hours per day x Num
 
 The percentage of completed bookings where the technician arrived late.
 
-Formula: (Number of bookable resource bookings with late arrival / Total number of bookings) x 100
+Formula: (Number of bookable resource bookings with late arrival / Total number of completed bookings) x 100
 
 > [!NOTE]
 > Being late is defined by arriving after the *Time to Promise* value. if *Time to Promise* isn't set, the *Estimated arrival time* is taken into account.
