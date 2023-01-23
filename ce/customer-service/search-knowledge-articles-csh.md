@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 01/13/2023
+ms.date: 01/23/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -166,7 +166,7 @@ To remove an article from the favorites list, clear the **Favorite** (heart) ico
 
 View your saved articles in the **Favorites** tab. The **Favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
 
-The latest published articles appear in the list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite.
+The article you last marked as favorite appears first in your Favorites list. If an article has been deleted, it no longer appears in the list. Favorite articles are saved in the language in which you viewed them when you marked them as a favorite.
 
 In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
 
@@ -205,7 +205,7 @@ In this view mode, you can perform actions such as linking the knowledge article
 >
 > - The **Copy Link**, **Email Link**, and **Email** options can be used only for published or expired articles.
 
-### View the knowledge article on a new window 
+### View the knowledge article on a new window
 
 In Customer Service Hub, in the **Knowledge Search** reference pane, a pop-out option is displayed for every search article result. When you select the pop-out option for an article, the article opens in a new window.
 
