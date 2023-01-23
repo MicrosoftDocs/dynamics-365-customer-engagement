@@ -884,6 +884,8 @@
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
+    - name: Preconfigured automated message triggers for asynchronous channels
+      href: preconfig-auto-message-triggers-async-channels.md  
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -918,8 +920,6 @@
       href: geo-location-provider.md
     - name: Configure self-service settings for customer actions
       href: enable-self-service-settings.md
-    - name: Preconfigured automated message triggers
-      href: preconfig-auto-message-triggers.md   
     - name: Configure automated messages
       href: configure-automated-message.md
     - name: Create message templates
