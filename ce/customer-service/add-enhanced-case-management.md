@@ -52,22 +52,4 @@ You can choose to display the standard case resolution dialog box that appears w
 1. Select **New app value** for the app, and set the value to **Yes** for the respective apps.
 1. Select **Publish All Customizations**.
 
-## Add the Customer360 and Recent Records components to a case form
-
-For the application to display the Customer details and related cases on the case form on the Customer Service Workspace, perform the following steps to add the Customer360 and Recent Records components:
-
-1. 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables**, select Case, and then select the **Forms** area.
-1. Select the required entity.
-1. In the form designer, select **Components** from the left navigation, and then scroll down to the following: 
-   - **Customer 360**: Drag and drop it into a section on the form. On the **Properties** panel: 
-        - Select the attributes from the table that must be displayed as fields on the form to the agent. You can select up to seven columns and three composite attributes. 
-        - Specify if the users can edit the fields in the card in the **Enable Editing** drop down. This field is set to **Yes** by default. 
-   - **Recent records**: Drag and drop it into a section on the form. On the **Properties** panel: 
-        - Specify the **Table** from which the records must be displayed. 
-        - Select **Allow users to change view** or **Allow users to change chart** checkbox to let users change the view or chart.
-        - Specify the Maximum number of rows to be displayed on the card, once the card loads. The default numberr of rows displayed is 4.
-
-> [!NOTE]
-> Select **Get more components** if you can't see these options in **Components**.
 
