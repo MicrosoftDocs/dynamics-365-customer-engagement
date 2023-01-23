@@ -100,7 +100,9 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > [!div class="mx-imgBorder"]
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
-9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
+  
+    Under **Call categorization (preview)**, select the type of calls you want the system to detect and tag. If you have chosen **Automatic recording** to record all customer calls, this feature helps your sellers to quickly identify blank or empty calls and ignore them. More information: [Tagging short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#tagging-short-duration-calls-preview)
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 

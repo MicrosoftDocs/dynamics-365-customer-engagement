@@ -59,6 +59,21 @@ A call summary page includes the following sections:
 
 The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. 
 
+##### Tagging short duration calls (Preview)
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+Conversation intelligence can detect and tag short duration calls for the following categories:
+
+- Voicemail
+- Contact is unavailable
+- Short calls with reschedule requests
+- Short calls in which the contact indicates the call is unwanted
+
+If the tag is inappropriate, you can delete it. 
+
+Your administrator must enable the **Call categorization (preview)** feature for the system to tag short duration calls. You can also view these tags in the **Recent conversations** list in the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
+
 
 #### Notes tab
 
