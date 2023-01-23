@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "Learn about first-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 10/31/2022
+ms.date: 01/11/2023
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -17,7 +17,7 @@ You can configure conversation intelligence with Microsoft Teams. After you sign
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team-level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
-> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per user, per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## License and role requirements
 
@@ -100,16 +100,12 @@ Before you configure Teams with conversation intelligence, you must enable the T
     > [!div class="mx-imgBorder"]
     > ![Enable privacy.](media/ci-admin-enable-privacy.png "Enable privacy")
 
-8.	In the **License usage** section, you can view information about the total call recording processing hours that have been used, and how many available hours remain.
-
-    > [!div class="mx-imgBorder"]
-    > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
-
-9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.
+9.	(Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org.  
 
 10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Get started**.  
 
-Teams call recording with conversation intelligence is now configured and ready for use in your organization.
+Teams call recording with conversation intelligence is now configured and ready for use in your organization.  
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
