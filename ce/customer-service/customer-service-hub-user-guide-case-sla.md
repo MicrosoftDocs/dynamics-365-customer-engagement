@@ -84,6 +84,11 @@ To learn more about adding a timer control to an SLA-enabled entity, go to [Add 
 
 ## View active duration and elapsed time for SLA KPI Instances
 
+> [!NOTE]
+> Active duration calculation will be asynchronous by default, as an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
+>
+> You might need to refresh the views that have **Active Duration (min)** field, after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
+
 Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 
 The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
@@ -95,9 +100,6 @@ You can view the active duration and elapsed time on the **SLA** tab of the cust
 - **Elapsed Time (min)**: Displays the time for which the SLA KPI Instance timer was paused.
 
 Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based on the current value of the business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation.
-
-> [!NOTE]
-By default, **Active Duration (min)** calculation will be asynchronous as an early access feature in Dynamics 365 Customer Service. You might need to refresh the **Target entity form** after any create or update operation to view the **Active Duration (min)** value. You may need to review any customizations associated with active duration.
 
 :::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
