@@ -24,7 +24,7 @@ This article discusses how to configure the redirection link in the resolve case
 You can configure the tab users must be redirected to when they select the open activities link on the  **Resolve Case** dialog. You can set this at an environment level or for a specific app.
 
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-2. Select **Solutions**, and then select the solution in which you want to configure the tab users must be redirected to when they select the open activities link on the Case Resolution Dialog box.
+2. Select **Solutions**, and then select the solution in which you want to configure the tab users must be redirected to when they select the open activities link on the **Resolve Case** dialog.
 4. Select **Add Existing** > **More** > **Setting**.
 1. On the **Add existing Setting Definition** pane, select the **Redirect user to the specified tab to close open activities** option and then select **Next**.
 1. Select **Add** on the **Selected Setting Definition** to add the **Redirect user to the specified tab to close open activities** option to your solution. 
