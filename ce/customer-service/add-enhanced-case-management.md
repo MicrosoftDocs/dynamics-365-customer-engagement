@@ -17,7 +17,7 @@ searchScope:
 
 # Use Power Apps to customize the case management experience
 
-This article discusses how to configure the redirection link in the resolve case dialog, add recent cases and customer details to the case form, and how to configure the default standard resolve cases dialog.
+This article discusses how to configure the redirection link in the resolve case dialog, add recent cases and customer details to the case form, and how to disable the default resolve cases dialog.
 
 ## Specify tab to redirect users to close open activities for a case
 
