@@ -1,5 +1,5 @@
 ---
-title: Guidance to set up unified routing in Customer Service
+title: Best practices to set up unified routing in Customer Service
 description: Use this article to know about the best practices to set up unified routing in Customer Service and things to do and avoid for a successful implementation.
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ ms.date: 01/24/2023
 ms.custom: bap-template
 ---
 
-# Guidance to set up unified routing in Customer Service
+# Best practices to set up unified routing in Customer Service
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
@@ -62,7 +62,7 @@ For information on using the API, see [Use the Microsoft Dataverse Web API](/pow
 - Use skill-based routing to distribute work items to most qualified agents.
 - Set up single or multiple queues with skill-matching to manage different types of work.
 
-### Manage automatic assignment if top 100 work items have extended wait times
+### Manage auto assignment if top 100 work items have extended wait times
 
 The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. For information about auto-assignment process, see [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
 
