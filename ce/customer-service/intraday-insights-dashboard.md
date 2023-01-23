@@ -156,5 +156,6 @@ If you access the report on day 2 at 10:00 AM and set the **Duration** to 12 hou
 [View and understand the Agents insights report](intraday-agents-insights.md)  
 [View and understand the Conversation insights report](intraday-conversation-insights.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
+[Analyze your sales team's behavior on customer calls](/dynamics365/sales/conversation-intelligence-team-overview)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

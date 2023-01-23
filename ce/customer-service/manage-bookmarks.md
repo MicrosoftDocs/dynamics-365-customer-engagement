@@ -1,19 +1,21 @@
 ---
-title: Manage bookmarks for reports | MicrosoftDocs
-description: "Create bookmarks for reports and save personalized views of your reports."
-ms.date: 12/12/2022
-ms.topic: article
+title: Manage bookmarks for reports
+description: Create bookmarks for reports and save personalized views of your reports.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.topic: how-to
+ms.date: 01/23/2023
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Manage bookmarks for reports
 
 A bookmark captures the state of a report page, including changes that you've made to the filters. Use bookmark options to select a saved view, update or delete a bookmark, and set a default bookmark. 
 
-> [!Note]
-> You can use bookmarks only in historical and knowledge analytics reports.
+A bookmark created for a report group will save a personalized view using filters in that group. For example, if you create a bookmark in the Omnichannel historical report's **Conversation** tab, the bookmark will apply to **Conversation**, **Queue**, and **Agent** tabs, and won't include filters for the other tabs like Voice and Unified routing. Similarly, if you create a bookmark for voice, it won't have any filters related to the other groups. More information: [Report filters and groups](report-filters-groups.md)
+
+You can use bookmarks in Customer Service historical analytics, Omnichannel historical analytics, and knowledge analytics reports only.
 
 ## Prerequisites
 
@@ -26,6 +28,7 @@ Be sure to grant **Create**, **Read**, **Write**, and **Delete** privileges to t
 - Omnichannel agent
 
 For more information on configuring user access to analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+
 ## Create and manage bookmarks
 
 1. In Customer Service workspace or Omnichannel for Customer Service, open one of the following reports:
@@ -55,8 +58,12 @@ For more information on configuring user access to analytics and dashboards, see
 1. To modify a saved view, adjust the report filters as needed. Then, select **Bookmarks** > **Update Bookmark**.
 
 
+
+
 ### See also
 
 [Customer Service dashboards](customer-service-analytics-insights-csh.md)  
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md)  
 [Knowledge analytics](knowledge-search-analytics-cs.md)  
+
+

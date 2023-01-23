@@ -627,7 +627,9 @@
     - name: Administrator experience
       items:
       - name: Install the voice channel
-        href: voice-channel-install.md  
+        href: voice-channel-install.md 
+      - name: Use trial phone numbers
+        href: voice-channel-trial-phone-numbers.md   
       - name: Connect to Azure Communication Services
         items: 
         - name: Connect to Azure Communication Services
@@ -680,8 +682,6 @@
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
       - name: Call a customer
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
@@ -718,6 +718,8 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Understand disconnected chats
+        href: oc-conv-state-chat-disconnect.md   
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -747,7 +749,7 @@
       - name: Take notes for conversation
         href: oc-take-notes.md
       - name: Understand conversation states
-        href: oc-conversation-state.md
+        href: oc-conversation-state.md     
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -814,7 +816,7 @@
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
-      - name: Customizations supported by Conversation entity and form
+      - name: Customizations supported by Conversation form and entity
         href: supported-customizations.md  
   - name: Portals
     items: 
@@ -1104,6 +1106,8 @@
         href: customer-service-analytics.md
       - name: Forecast agent, case, and conversation volumes
         href: use-volume-forecasting.md
+      - name: Report filters and groups
+        href: report-filters-groups.md
       - name: Manage report bookmarks
         href: manage-bookmarks.md
       - name: Intraday supervisor experience

@@ -171,7 +171,9 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 ### See also
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
-[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)
+[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  
+[View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/voice-channel-call-recordings-transcripts.md)  
+[View and share auto-summarized conversations in Dynamics 365 Customer Service](/dynamics365/customer-service/cs-ai-generated-summary)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
