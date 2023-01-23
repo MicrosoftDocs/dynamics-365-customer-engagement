@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Guidance to set up unified routing in Customer Service
 
-This article discusses some of the important aspects to successfully deploy and manage unified routing, focussing on the most common areas where you might have questions.
+This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
 ## Provision unified routing
 
