@@ -25,6 +25,9 @@ search.app:
 
 Now that you have defined all the main parts, it’s time to define your channel where you will connect all the previous pieces in one metadata file, which is a record of **Channel Definition** entity (msdyn_channeldefinition).
 
+> [!IMPORTANT]
+> If you are setting up metadata records directly in the customization file, please make sure that GUIDs are defined in lowercase. 
+
 ### Channel definition Contract:
 
 Entity logical name: **msdyn_channeldefinition**
