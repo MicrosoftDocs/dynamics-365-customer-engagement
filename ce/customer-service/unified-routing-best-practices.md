@@ -22,8 +22,8 @@ Customer Service relies on shared cloud resources for data and processing. You m
 
 Use the following guidance to set up users:
 
-- Make limited API calls to set up users in bulk
-- Follow specific sequence
+- Limit Dataverse API calls to set up users in bulk
+- Follow a specific sequence
 
 ### Limit Dataverse API calls when setting up users in bulk
 
