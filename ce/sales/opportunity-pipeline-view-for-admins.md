@@ -5,18 +5,17 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 01/20/2023
+ms.date: 01/23/2023
 ms.custom: bap-template 
 ---
 # Preview: Configure the opportunity pipeline view
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize the opportunities in their pipeline, and prioritize and manage them effectively. More information: [Preview: Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
+The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize opportunities in their pipeline, and prioritize and manage them effectively. More information: [Preview: Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
 If you've previously configured the deal manager workspace, review [this FAQ](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace) to understand what has changed.
 
-## Are there any differences between opportunity pipeline view and the deal manager workspace?  
 
 ## License and role requirements
 

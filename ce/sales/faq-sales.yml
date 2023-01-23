@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 01/20/2023
+  ms.date: 01/23/2023
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -76,10 +76,10 @@ sections:
     questions:
       - question: Where is the deal manager workspace?
         answer: |
-          The deal manager workspace has been replaced by the opportunity pipeline view. Any existing deal manager links or bookmarks will be redirected to the My Open Opportunities view. Select View as > Pipeline view to open the opportunity pipeline view.
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). Any existing deal manager links or bookmarks will be redirected to the **My Open Opportunities** view. Select **View as** > **Pipeline view** to open the opportunity pipeline view.
       - question: Are there any differences between the opportunity pipeline view and the deal manager workspace?
         answer: |
-          The deal manager workspace has been replaced by the opportunity pipeline view. If you've been using the deal manager workspace, you need to be aware of the following changes:
+          The deal manager workspace has been replaced by the [opportunity pipeline view](use-opportunity-pipeline-view.md). If you've been using the deal manager workspace, you need to be aware of the following changes:
        
           | **Component** | **Opportunity pipeline view** | **Deal manager** |
           |-----------|------------|-----------|
